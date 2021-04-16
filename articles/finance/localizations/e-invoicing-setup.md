@@ -1,12 +1,10 @@
 ---
-title: 设置电子开票附加产品
-description: 本主题说明如何在 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中设置电子开票附加产品。
+title: 设置电子开票
+description: 本主题说明如何在 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中设置电子开票。
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,62 +15,62 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209938"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839996"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>设置电子开票附加产品
+# <a name="set-up-electronic-invoicing"></a>设置电子开票
 
 [!include [banner](../includes/banner.md)]
 
 
-电子开票附加产品功能设置是通过 Regulatory Configuration Services (RCS) 环境创建所需配置并将该配置发布到电子开票附加产品服务器的过程。 此设置使您可以创建可配置规则，以使电子开票附加产品可以通过 Internet 使用安全协议来通过 Web 服务与第三方实体进行通信和交换数据。
+电子开票功能设置是通过 Regulatory Configuration Services (RCS) 环境创建所需配置并将该配置发布到电子开票服务器的流程。 此设置使您可以创建可配置规则，以使电子开票可以通过 Internet 使用安全协议来通过 Web 服务与第三方实体进行通信和交换数据。
 
 可配置性依赖电子报告 (ER) 格式配置作为构建通过数字文件发送和接收的内容的方法。 它还依赖于通信操作的流程来向第三方 Web 服务发送请求并接收来自这些服务的响应，您无需编写代码。
 
 ## <a name="overview"></a>概览
 
-“电子开票附加产品功能”是配置和发布以使用电子开票附加产品服务器的资源的通用名称。 功能设置将使用 ER 配置格式来创建可配置的导出和导入文件，与使用操作和操作流来支持创建可配置规则以发送请求、导入响应和分析响应内容，以及另外一些设置相结合。
+“电子开票功能”是配置和发布以使用电子开票服务器的资源的通用名称。 功能设置将使用 ER 配置格式来创建可配置的导出和导入文件，与使用操作和操作流来支持创建可配置规则以发送请求、导入响应和分析响应内容，以及另外一些设置相结合。
 
-下图显示了电子开票附加产品功能的主要组件。
+下图显示了电子开票功能的主要组件。
 
-![电子开票附加产品功能概述](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![电子开票功能概述](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 由于发票格式和操作流的变化，功能设置可能会因国家或地区或业务要求而异。
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>设置电子开票附加产品功能
+## <a name="set-up-the-electronic-invoicing-feature"></a>设置电子开票功能
 
-设置过程必须在您的 RCS 环境中完成。 请按照以下步骤创建新的电子开票附加产品功能。
+设置过程必须在您的 RCS 环境中完成。 请按照以下步骤创建新的电子开票功能。
 
 1. 登录您的 RCS 环境。
-2. 在 **全球化功能** 工作区的 **功能** 部分，选择 **电子开票附加产品** 磁贴。
-3. 在 **电子开票附加产品功能** 页上，选择 **导入** 从全局存储库导入 ER 数据模型配置。
-4. 选择 **添加** 创建电子开票附加产品功能。 您可以从头创建此功能，也可以从现有的电子开票附加产品功能派生。
+2. 在 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
+3. 在 **电子开票功能** 页面上，选择 **导入** 以从全局存储库导入 ER 数据模型配置。
+4. 选择 **添加** 以创建电子开票功能。 您可以从头创建此功能，也可以从现有的电子开票功能派生。
 
-    ![添加电子开票附加产品功能](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![添加电子开票功能](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> 创建新的电子开票附加产品功能时，它具有版本号，默认状态将设置为 **草稿**。
+> 创建新的电子开票功能时，它具有版本号，默认状态将设置为 **草稿**。
 
 ### <a name="configurations"></a>配置
 
-配置保留转换和创建在与第三方 Web 服务通信期间将交换的文件所需的 ER 格式配置。 基于 Web 服务提供商提供的集成技术规范，电子开票附加产品功能可以具有所需的任意数量的 ER 文件格式配置。
+配置保留转换和创建在与第三方 Web 服务通信期间将交换的文件所需的 ER 格式配置。 基于 Web 服务提供商提供的集成技术规范，电子开票功能可以具有所需的任意数量的 ER 文件格式配置。
 
-请按照以下步骤将 ER 格式添加到电子开票附加产品功能。
+请按照以下步骤将 ER 格式添加到电子开票功能。
 
-1. 在 **电子开票附加产品功能** 页上的 **配置** 选项卡上，选择 **添加** 为电子开票附加产品功能添加 ER 文件格式配置。
+1. 在 **电子开票功能** 页面上的 **配置** 选项卡上，选择 **添加** 以为电子开票功能添加 ER 文件格式配置。
 
-    ![添加电子开票附加产品功能配置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![添加电子开票功能配置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > 从头创建电子开票附加产品功能时，必须手动添加所有 ER 文件格式配置。 从现有功能派生电子开票附加产品功能时，将自动创建 ER 文件格式配置，因为它们是从原始电子开票附加产品功能继承而来的。
+    > 从头创建电子开票功能时，必须手动添加所有 ER 文件格式配置。 从现有功能派生电子开票功能时，将自动创建 ER 文件格式配置，因为它们从原始电子开票功能继承而来。
 
 2. 选择 **编辑** 打开 **格式设计器** 页，您可以在其中编辑 ER 文件格式配置。
 
-    ![编辑电子开票附加产品功能配置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![编辑电子开票功能配置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > 在编辑格式时，配置版本的状态将设置为 **草稿**。
@@ -83,20 +81,20 @@ ms.locfileid: "5209938"
 
 ### <a name="feature-setups"></a>功能设置
 
-功能设置封装第三方 Web 服务的通信和安全性规则。 根据您要完成的业务规则，电子开票附加产品功能可以具有所需的任意数量的功能设置。
+功能设置封装第三方 Web 服务的通信和安全性规则。 根据您要完成的业务规则，电子开票功能可以具有所需的任意数量的功能设置。
 
-请按照以下步骤将功能设置添加到电子开票附加产品功能。
+请按照以下步骤将功能设置添加到电子开票功能。
 
-1. 在 **电子开票附加产品功能** 页上的 **设置** 选项卡上，选择 **添加** 向电子开票附加产品功能添加功能设置。
+1. 在 **电子开票功能** 页面上的 **设置** 选项卡上，选择 **添加** 以向电子开票功能添加功能设置。
 
-    ![添加电子开票附加产品功能设置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![添加电子开票功能设置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > 从头创建电子开票附加产品功能时，必须手动添加所需的所有功能设置。 从现有功能派生电子开票附加产品功能时，将自动创建所有功能设置，因为它们是从原始电子开票附加产品功能继承而来的。
+    > 从头创建电子开票功能时，必须手动添加所需的所有功能设置。 从现有功能派生电子开票功能时，将自动创建所有功能设置，因为它们从原始电子开票功能继承而来。
 
 2. 选择 **编辑** 编辑功能版本设置。
 
-    ![编辑电子开票附加产品功能设置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![编辑电子开票功能设置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. 使用 **功能版本设置** 页配置操作、适用性规则和变量。
 
@@ -104,7 +102,7 @@ ms.locfileid: "5209938"
 
 ### <a name="actions"></a>行动
 
-操作是按顺序运行的预定义操作列表。 此列表代表完整执行电子开票附加产品功能所需的步骤的分解。 操作可以在同一个电子开票附加产品功能中封装双向通信：发送目标请求、接收响应和分析内容。
+操作是按顺序运行的预定义操作列表。 此列表表示完整执行电子开票功能所需的步骤的分解。 操作可以在同一个电子开票功能中封装双向通信：发送目标请求、接收响应和分析内容。
 
 每个操作包含一个预定义的参数列表，这些参数是操作完成目的所必需的。 可以选择提供其他参数。
 
@@ -255,7 +253,7 @@ ms.locfileid: "5209938"
 
 ### <a name="applicability-rules"></a>适用性规则
 
-适用性规则使您可以创建确定功能设置用法上下文的逻辑规则。 因此，所发送的要进行处理的业务文档给定的上下文与适用性规则条件之间的匹配，确定使用哪个电子开票附加产品功能来处理该提交。
+适用性规则使您可以创建确定功能设置用法上下文的逻辑规则。 因此，所发送的要进行处理的业务单据给定的上下文与适用性规则条件之间的匹配可确定使用哪个电子开票功能处理该提交。
 
 #### <a name="set-up-applicability-rules"></a>设置适用性规则
 
@@ -290,7 +288,7 @@ ms.locfileid: "5209938"
 
 ### <a name="variables"></a>变量
 
-您可以创建变量，然后将它们用作特定操作的参数的输入值。 您还可以使用它们在电子开票附加产品服务与客户端之间交换作为提交流一部分执行特定操作的结果信息。
+您可以创建变量，然后将它们用作特定操作的参数的输入值。 您还可以使用它们在电子开票服务与客户端之间交换作为提交流一部分执行特定操作的结果信息。
 
 #### <a name="set-up-variables"></a>设置变量
 
@@ -318,45 +316,45 @@ ms.locfileid: "5209938"
 
 ## <a name="environments"></a>环境
 
-电子开票附加产品环境必须与电子开票附加产品功能关联并启用。 必须通过在组织的 RCS 帐户中配置全球化功能预先创建和发布电子开票附加产品环境。
+电子开票环境必须与电子开票功能关联并启用。 必须通过在组织的 RCS 帐户中配置全球化功能预先创建和发布电子开票环境。
 
-请按照以下步骤为电子开票附加产品功能启用电子开票附加产品环境。
+请按照以下步骤为电子开票功能启用电子开票环境。
 
-1. 在 **电子开票附加产品功能** 页上的 **环境** 选项卡上，选择 **启用** 添加电子开票附加产品环境。
+1. 在 **电子开票功能** 页面上的 **环境** 选项卡上，选择 **启用** 以添加电子开票环境。
 2. 在 **生效开始日期** 字段中，输入新环境生效的日期。
 
-![启用电子开票附加产品环境](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![启用电子开票环境](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>组织
 
-电子开票附加产品功能可以在多个组织之间共享。
+电子开票功能可以在多个组织之间共享。
 
-- 在 **电子开票附加产品功能** 页上的 **组织** 选项卡上，选择 **共享** 添加要与之共享电子开票附加产品功能的组织。
+- 在 **电子开票功能** 页面上的 **组织** 选项卡上，选择 **共享** 以添加要与之共享电子开票功能的组织。
 
-要停止与组织共享电子开票附加产品功能，请选择 **取消共享**。
+若要停止与组织共享电子开票功能，请选择 **取消共享**。
 
 ## <a name="versions"></a>版本
 
-版本通过管理电子开票附加产品功能的状态来帮助控制电子开票附加产品功能的生命周期。 您可以创建现有电子开票附加产品功能的新版本，或在完成电子开票附加产品功能的所有配置后，可以将功能的状态更改为 **完成**，然后更改为 **发布**。
+版本通过管理电子开票功能的状态来帮助控制其生命周期。 您可以创建现有电子开票功能的新版本，或在完成电子开票功能的所有配置后，可以将功能的状态更改为 **完成**，然后更改为 **发布**。
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>创建现有电子开票附加产品功能的新版本
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>创建现有电子开票功能的新版本
 
-1. 在 **电子开票附加产品功能** 页上，在左侧的网格中，选择电子开票附加产品功能。
-2. 在 **版本** 选项卡上，选择 **新建** 添加电子开票附加产品功能的新版本。
+1. 在 **电子开票功能** 页面上，在左侧的网格中，选择电子开票功能。
+2. 在 **版本** 选项卡上，选择 **新建** 以添加电子开票功能的新版本。
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>更改电子开票附加产品功能的状态
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>更改电子开票功能的状态
 
-请按照以下步骤管理电子开票附加产品功能的生命周期。
+请按照以下步骤管理电子开票功能的生命周期。
 
-1. 在 **电子开票附加产品功能** 页上，在左侧的网格中，选择电子开票附加产品功能。
+1. 在 **电子开票功能** 页面上，在左侧的网格中，选择电子开票功能。
 2. 在 **版本** 选项卡上，选择 **更改状态**，然后将状态从 **草稿** 更改为 **完成**。
-3. 系统将提示您确认要完成电子开票附加产品功能及其所有组件。 选择 **是** 确认操作或选择 **否** 取消。
+3. 系统将提示您确认要完成电子开票功能及其所有组件。 选择 **是** 确认操作或选择 **否** 取消。
 
     > [!NOTE]
-    > 当您选择 **是** 时，作为电子开票附加产品功能的组件的配置版本的状态会自动从 **草稿** 更改为 **完成**。
+    > 当您选择 **是** 时，作为电子开票功能的组件的配置版本的状态将自动从 **草稿** 更改为 **已完成**。
 
 4. 选择 **更改状态**，然后将状态从 **完成** 更改为 **发布**。
-5. 系统将提示您确认要将电子开票附加产品功能及其所有组件发布到全局存储库。 选择 **是** 确认操作或选择 **否** 取消。
+5. 系统将提示您确认要将电子开票功能及其所有组件发布到全局存储库。 选择 **是** 确认操作或选择 **否** 取消。
 
     > [!NOTE]
     > 当您选择 **是** 时，配置版本的状态会自动从 **已完成** 更改为 **已共享**。

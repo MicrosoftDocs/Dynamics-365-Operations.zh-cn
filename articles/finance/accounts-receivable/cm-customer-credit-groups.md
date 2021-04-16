@@ -2,11 +2,9 @@
 title: 客户信用组
 description: 本主题提供有关客户信用组的信息。
 author: mikefalkner
-manager: AnnBe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76b1e93d562e66cb8d4c5819a749459ea8783b1e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3cdf4f7e72a55292c64b7a9191974242aab85a90
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835308"
 ---
 # <a name="customer-credit-groups"></a>客户信用组
 

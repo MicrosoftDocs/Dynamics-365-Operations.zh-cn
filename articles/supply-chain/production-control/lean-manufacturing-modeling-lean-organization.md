@@ -2,11 +2,9 @@
 title: 建模精益组织
 description: 文本提供有关建模精益组织的重要概念的信息。
 author: cvocph
-manager: tfehr
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c5eb4fb0ea69217b45967c5af8b5b6b0117c0fa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246037"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837625"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 

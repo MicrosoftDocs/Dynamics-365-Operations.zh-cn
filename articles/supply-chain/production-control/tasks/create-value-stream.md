@@ -2,11 +2,9 @@
 title: 创建价值流
 description: 价值流是归于一个或多个生产流的运营单位。
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, DefaultDashboard
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 983ff3ba174ee5b60c5e1e84b1450444a06cce24
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ae4cc730224c1ba73af1101b2f88ad7534c7d7ae
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205945"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828842"
 ---
 # <a name="create-a-value-stream"></a>创建价值流
 

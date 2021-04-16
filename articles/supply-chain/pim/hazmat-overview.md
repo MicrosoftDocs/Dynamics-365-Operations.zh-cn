@@ -2,11 +2,9 @@
 title: 危险物料概述
 description: 本主题概括介绍与在产品信息管理和仓库管理期间处理和记录危险物料有关的功能。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231880"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829370"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 为了始终遵守装运和运输法规，装运被分类为危险货物的物料的组织必须在装运中提供其他文件。 危险物料功能使客户可以存储与已发布物料有关的信息。 然后，可以使用此信息来帮助准备装运文档。 装运危险货物的组织必须有自己的流程和程序来管理装运流程。 Microsoft Dynamics 365 Supply Chain Management 只是可以帮助生成所需文档的工具。
 

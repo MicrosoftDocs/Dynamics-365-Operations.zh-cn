@@ -2,11 +2,9 @@
 title: Lean manufacturing 的 看板作业计划
 description: 文本提供有关看板作业计划和各种看板作业计划方法的可视化控制的信息。
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3616b353d33540bcab6769c51a474d79bf374602
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25d3de7d9d49cbd05f7d3d3daa42f51e60dc0f8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825835"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Lean manufacturing 的 看板作业计划
 

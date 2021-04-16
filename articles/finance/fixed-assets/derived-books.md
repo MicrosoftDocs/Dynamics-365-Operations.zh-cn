@@ -2,11 +2,9 @@
 title: 派生帐簿
 description: 本文提供衍生帐簿功能的概览。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee7471e952409c7848015d2af07738e034e0d222
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c53d72220890803d561ebe057acfdf0974bd421b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241138"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826898"
 ---
 # <a name="derived-books"></a>派生帐簿
 

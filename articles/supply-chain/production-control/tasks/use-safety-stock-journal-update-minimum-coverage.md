@@ -2,11 +2,9 @@
 title: 使用安全存货日记帐更新最小覆盖范围
 description: 此过程演示如何根据历史交易记录计算最低覆盖范围方案，然后使用这些方案更新物料覆盖范围。
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 95dec1dba97923e58cfb603434a01cab6f66a3de
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1102f5388043299e35d3e6a00d4fe203a4e696a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252790"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831786"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>使用安全存货日记帐更新最小覆盖范围
 

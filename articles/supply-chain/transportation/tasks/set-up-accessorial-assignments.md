@@ -2,11 +2,9 @@
 title: 设置附属分配
 description: 此过程显示如何设置附属分配。
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAccessorialAssignment
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eed109551762ff2e120ab4362c6ca0f01f71d0c2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06139e87596965a481fc7fb2e2f653594be0ac1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233743"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838458"
 ---
 # <a name="set-up-accessorial-assignments"></a>设置附属分配
 

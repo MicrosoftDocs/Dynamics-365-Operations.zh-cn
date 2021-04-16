@@ -2,11 +2,9 @@
 title: 使用模板创建日记帐分录
 description: 已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3843c165b3fc3030a937ec47a1439b1c1b36206d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a3ec1d04515106d7e391834ec646f957cbc03b0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216489"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837025"
 ---
 # <a name="create-a-journal-entry-using-template"></a>使用模板创建日记帐分录
 
