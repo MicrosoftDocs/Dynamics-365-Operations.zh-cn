@@ -2,11 +2,9 @@
 title: 库存可见性加载项
 description: 本主题介绍如何为 Dynamics 365 Supply Chain Management 安装和配置库存可见性加载项。
 author: sherry-zheng
-manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574214"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821121"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 

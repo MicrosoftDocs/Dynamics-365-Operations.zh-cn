@@ -2,11 +2,9 @@
 title: 机器学习模型的结果（预览）
 description: 本主题讨论机器学习 (ML) 模型中的混淆矩阵、分类问题和准确度。 目的是加深您对 ML 预测结果准确度的理解。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc6d501f09b639eb0d7504e0f760a66bb3dbc7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208525"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818744"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>机器学习模型的结果（预览）
 

@@ -2,11 +2,9 @@
 title: 开始和停止针对服务订单的时间录制
 description: 开始和停止针对服务订单的时间录制。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcec3cfde34959de73132c8d764df25fb676d140
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cc205daa35c898147559427b071d1d2c2720de3a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817453"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>开始和停止针对服务订单的时间录制 
 

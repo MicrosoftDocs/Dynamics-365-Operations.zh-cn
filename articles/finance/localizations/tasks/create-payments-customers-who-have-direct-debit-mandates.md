@@ -2,11 +2,9 @@
 title: 为有直接借记授权单的客户创建付款
 description: 此过程显示如何为有直接借记配置和有要付款发票的客户生成 ISO20022 直接借记付款文件。
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65da5f9fe55d11e7ccfb9bd86f9b37181e0adf41
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa017b1d5cab377d1f36604cf54435beb6a4abb5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260741"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822669"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>为有直接借记授权单的客户创建付款
 

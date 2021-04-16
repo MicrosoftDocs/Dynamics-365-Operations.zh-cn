@@ -2,11 +2,9 @@
 title: 供应商返利
 description: 本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246589"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822459"
 ---
 # <a name="vendor-rebates"></a>供应商返利
 

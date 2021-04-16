@@ -2,11 +2,9 @@
 title: 租赁终止方案
 description: 本主题说明如何建议要终止的租赁。
 author: moaamer
-manager: Ann Beebe
 ms.date: 1/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetLease
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e303821bd41751cb0a07442613b8b20e8061b052
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207295"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819858"
 ---
 # <a name="propose-a-lease-for-termination"></a>建议要终止的租赁
 

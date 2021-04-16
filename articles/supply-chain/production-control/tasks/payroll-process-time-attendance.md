@@ -2,11 +2,9 @@
 title: 启用考勤管理的工资流程
 description: 此程序说明如何根据工时与出勤率来生成工资。
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72b925feb8f784c257656dd93b48c9c0cc66da5e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 411b5c3f1a486a30ec7d8d2c3896dacbf97b39ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214906"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821024"
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>启用考勤管理的工资流程
 

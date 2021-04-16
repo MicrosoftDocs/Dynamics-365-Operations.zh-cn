@@ -2,11 +2,9 @@
 title: Supply Chain Management 的标准已保存视图
 description: 本主题介绍可用的标准已保存视图，并说明如何启用它们。
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500686"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821241"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management 的标准已保存视图
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您可以根据需要启用和使用这些视图。 其中一些标准已保存视图针对特定角色或任务进行了优化和命名（例如，“质量控制”或“接收”）。 其他视图也进行了优化，让它们仅包含 Microsoft 使用情况统计信息表明客户最常使用的字段和设置。 这些已保存视图通常称为 *简化* 视图。 本主题介绍可用的标准已保存视图，并说明如何启用和自定义它们。
 
@@ -82,14 +79,16 @@ Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您
 
 ## <a name="saved-views-for-the-production-control-module"></a>生产控制模块的已保存视图
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 下表描述了生产控制模块可用的已保存视图。
 
 | 页 | 视图名称 | 视图描述 | 功能名称 |
 |---|---|---|---|
-| 生产订单 BOM 页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
-| 生产订单详细信息页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
-| 生产订单领料单页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
-| 生产订单列表页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
+| 生产订单 BOM 页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
+| 生产订单详细信息页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
+| 生产订单领料单页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
+| 生产订单列表页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>销售和市场营销模块的已保存视图
 

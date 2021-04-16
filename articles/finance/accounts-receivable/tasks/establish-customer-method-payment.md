@@ -2,11 +2,9 @@
 title: 设定客户付款方式
 description: 本主题说明如何为客户付款创建付款方式。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e60459c417c6018c4088009a323cf7f66616ef4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a8c2095bba274ca5b19007b4abef743c908ba2b8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220195"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822339"
 ---
 # <a name="establish-customer-method-of-payment"></a>设定客户付款方式
 

@@ -2,7 +2,6 @@
 title: 估计和管理登陆成本
 description: 系统使用您的自动成本设置来确定您的登陆成本的估计。 本主题说明如何定义各个方案以提供更准确的估计。
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501262"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823425"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>估计和管理登陆成本
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 系统使用您的[自动成本设置](auto-cost-setup.md)来确定您的登陆成本的估计。 此外，您可以定义各个方案以提供更准确的估计。 这些方案将被存储。 因此，您可以在以后查看，将其与报表中的实际值进行比较。 您还可以更新物料价格。
 

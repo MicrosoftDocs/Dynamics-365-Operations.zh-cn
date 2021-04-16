@@ -2,11 +2,9 @@
 title: 冲销已过帐租赁交易
 description: 本主题说明如何冲销已过帐的租赁交易。 通过资产租赁创建的任何交易都可以冲销。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d8eee22221efaf5e7a715c8b95dff261bee62f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 955b4f71f5698cf2f482129f00c676d70f6cef9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249717"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823039"
 ---
 # <a name="reverse-posted-lease-transactions"></a>冲销已过帐租赁交易
 

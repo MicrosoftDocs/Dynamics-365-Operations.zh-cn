@@ -2,7 +2,6 @@
 title: 在途货物处理
 description: 本主题介绍如何处理在途货物订单。 将订单或航行设置为使用在途货物处理时，可以在在仓库中接收货物以供使用之前对货物开票。
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500396"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823401"
 ---
 # <a name="goods-in-transit-processing"></a>在途货物处理
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍如何处理在途货物订单。 此订单类型仅由 **登陆成本** 模块使用。 将订单或航行设置为使用在途货物处理时，您不必等到仓库中接收货物即可为货物开票。 而是在货物离开供应商的仓库或始发港口时开票，财务成本在航行开始时确认。 此功能让您可以正确地获取库存的所有权，因为货物在离开装运港口时通常会成为组织的财产。
 
@@ -135,7 +133,7 @@ ms.locfileid: "5500396"
 
 这些流程的配置设置类似于[采购订单行收货和储存工作创建流程](https://technet.microsoft.com/library/dn553216.aspx)的设置。 但是，*在途货物物料接收和储存* 流程还添加了以下字段。
 
-- **启用装运集装箱完整** – 如果此选项设置为 *是*，储存工作完成后，仓库应用将提供一个名为 **装运集装箱完整** 的额外选项。 选择该选项时，将要求工作人员确认集装箱完整。 这时，所有欠收都将被处理为交易不足。
+- **启用装运集装箱完整** – 如果此选项设置为 *是*，储存工作完成后，仓库管理移动应用将提供一个名为 **装运集装箱完整** 的额外选项。 选择该选项时，将要求工作人员确认集装箱完整。 这时，所有欠收都将被处理为交易不足。
 
 ### <a name="location-directives"></a>位置指令
 

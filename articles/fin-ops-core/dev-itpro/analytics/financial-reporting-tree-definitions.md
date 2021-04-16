@@ -1,27 +1,26 @@
 ---
 title: 财务报表中的报告结构树定义
 description: 本文介绍报告树定义。 报告树定义是定义组织结构的报表组件。
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568767"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819930"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
@@ -74,7 +73,7 @@ ms.locfileid: "5568767"
     | 包括/字符位置       | 此部分列出了财务数据中定义的维度并显示为每个维度定义的最长值中的字符数。 选中维度的这个复选框以在报告结构树层次结构中包括该维度。 |
     | 细分层次结构和范围     | 此部分显示维度层次结构。 您可以移动列表中的维度来更改其报告顺序。 在 **起始维度** 和 **结束维度** 字段中，指定每个维度中的值的范围。 如果您不指定一个范围，所有维度值都将插入报告结构树。<blockquote>[!NOTE] 如果您使用了多个维度，结果中将只返回已发布的维度组合。</blockquote> |
 
-    要获取显示 **从维度插入报告单位** 对话框示例的屏幕截图，请参阅本文下文中的“‘从维度插入报告单位’对话框的示例”部分。
+    有关显示 **从维度插入报告单位** 对话框示例的图示，请参阅本文后面的“‘从维度插入报告单位’对话框的示例”部分。
 
 5. 要创建其他段（例如，将一个段拆分成两个较短的段），请在 **字符位置** 字段中单击正确的位置，然后单击 **拆分段**。
 6. 要将两个段合并为一个段，请单击要合并段的任一段框，然后单击 **合并段**。
@@ -186,23 +185,23 @@ ms.locfileid: "5568767"
 - 最低级别的详细信息报告单位（Home Sales、Auto Sales、Client Services 和 Operations）代表财务数据中的部门。 这些报告单位在图中的阴影区域中。
 - 更高级别的汇总单位汇总了详细信息单位中的信息。
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso 汇总报表结构 - 示例 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>报告单位结构 – 示例 2
 
 在下图中，报告结构树具有按业务职能划分的组织结构树。
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso 汇总报表结构 - 示例 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>“从维度插入报告单位”对话框的示例
 
 下图显示了 **从维度插入报告单位** 对话框的示例。 在本示例中，结果将返回业务单位、成本中心和部门的组合。
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![插入报告单位](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 结果报告结构树定义按业务单位排序，然后按成本中心，再然后按部门。 第五个报告单位的维度是 **业务单位 = \[001\]、成本中心 =\[\]、部门 = \[022\]**，标识特定于业务单位 001 和部门 022 的帐户的报告单位。
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![报告树的图示](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>数据累积的示例
 
@@ -210,15 +209,15 @@ ms.locfileid: "5568767"
 
 #### <a name="example-1"></a>示例 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![多公司累积](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>示例 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![跨公司部门累积](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[财务申报](financial-reporting-intro.md)
+[财务报告](financial-reporting-intro.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

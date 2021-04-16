@@ -2,11 +2,9 @@
 title: 创建数据集成器项目（预览）
 description: 此主题介绍如何创建数据集成器项目。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 050c4f0fe1aea07c3866e2e9d7a6db6c758205ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208501"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818672"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>创建数据集成器项目（预览）
 

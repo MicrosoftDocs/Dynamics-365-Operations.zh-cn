@@ -2,11 +2,9 @@
 title: 固定资产购置过帐帐户
 description: 本文说明如何为购置资产设置总帐过帐科目。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a340df57a6073c6d9b6f2cdaadbf8f21fc11649
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d4c1b4de2e58b964bcf6ab07929897083f4c826
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241034"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822001"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>固定资产购置过帐帐户
 

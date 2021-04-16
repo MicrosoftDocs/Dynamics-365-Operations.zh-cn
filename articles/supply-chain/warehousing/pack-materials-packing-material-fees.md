@@ -2,11 +2,9 @@
 title: 包装材料和费用
 description: 此主题介绍按特定间隔支付给回收公司的包装材料费用。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9ca8653bb3dc00285774d4ead9a8c14c606f24
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b37e61a3c48d646dce9007229fcb7fa4ecde45a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234721"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816332"
 ---
 # <a name="packing-materials-and-fees"></a>包装材料和费用
 

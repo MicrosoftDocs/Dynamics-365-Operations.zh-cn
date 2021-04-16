@@ -1,12 +1,10 @@
 ---
 title: 管理仓库工作人员
-description: 本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
+description: 本文介绍如何使用仓库管理移动应用帮助控制和监视由您仓库的员工执行的工作。
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216827"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818960"
 ---
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
+本文介绍如何使用仓库管理移动应用帮助控制和监视由您仓库的员工执行的工作。
 
 如果在仓库管理中使用此功能，所有仓库工作人员的操作称作 *工作*。 领料、移动和盘点现有库存量等工作使用移动设备记录。 在仓库工作人员可以执行工作之前，他或她必须与人力资源的工作人员关联。 每个 **工作人员** 帐户可以有多个仓库工作用户与它关联。 这些工作用户可以在不同的仓库工作，并且可具有不同级别的各个移动设备菜单的访问权限。 您可以将仓库工作用户视作所选工作人员的多重登录。 每个工作用户具有默认仓库，并且特定工作流由可用于该工作用户的菜单项显示。 
 

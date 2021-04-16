@@ -2,11 +2,9 @@
 title: 设置中国式凭证
 description: 此过程逐步演示如何使用特定演示数据设置中国式凭证。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerVoucherType_CN, HcmWorkerLookUp, LedgerParameters, LedgerPrintLayoutGroup_CN
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8c3fbffc001f20a249a937bd2df3b396604e074
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4775d9fb67822ab02afc19e3df95832cd9e0816e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247948"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819494"
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 

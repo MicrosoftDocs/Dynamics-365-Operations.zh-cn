@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.15 中的新增功能或更改的功能。
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821145"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 
@@ -35,7 +33,7 @@ ms.locfileid: "5258891"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
+此版本中包含以下功能。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
 - 具有制造和仓库执行工作负载的 Cloud 和 Edge Scale Unit 管理<br> - 有关详细信息，请参阅[用于制造和仓库管理工作负荷的云和边缘缩放单元](../cloud-edge/cloud-edge-landing-page.md)。
 
