@@ -1,12 +1,10 @@
 ---
 title: 使用物料到达日记帐登记启用了高级仓库的物料
-description: 此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
+description: 本主题提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
 author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
@@ -16,65 +14,66 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c25fb55afb01ed59b66045f24400e03e2ec60b2a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830826"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="32243-103">使用物料到达日记帐登记启用了高级仓库的物料</span><span class="sxs-lookup"><span data-stu-id="32243-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
+# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="58440-103">使用物料到达日记帐登记启用了高级仓库的物料</span><span class="sxs-lookup"><span data-stu-id="58440-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="32243-104">此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。</span><span class="sxs-lookup"><span data-stu-id="32243-104">This procedure shows you how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="32243-105">这将通常由一个收料员完成。</span><span class="sxs-lookup"><span data-stu-id="32243-105">This would usually be done by a receiving clerk.</span></span> 
+<span data-ttu-id="58440-104">本主题提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。</span><span class="sxs-lookup"><span data-stu-id="58440-104">This topic presents a scenario that shows how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="58440-105">这将通常由一个收料员完成。</span><span class="sxs-lookup"><span data-stu-id="58440-105">This would usually be done by a receiving clerk.</span></span>
 
-<span data-ttu-id="32243-106">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="32243-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="32243-107">在开始本指南前，您需要使用未结采购订单行以确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="32243-107">You need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="32243-108">该行上的物料必须进行存储，并且不可使用产品变型，亦不能具有跟踪维度。</span><span class="sxs-lookup"><span data-stu-id="32243-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="32243-109">并且该物料需要与启用仓库维度组的仓库管理流程关联。</span><span class="sxs-lookup"><span data-stu-id="32243-109">And the item needs to be associated with a warehouse management process enabled storage dimension group.</span></span> <span data-ttu-id="32243-110">使用的仓库必须启用可供仓库管理流程使用，并且用于接收的库位必须受牌照控制。</span><span class="sxs-lookup"><span data-stu-id="32243-110">The warehouse that's used must be enabled for warehouse management processes and the location that you use for receiving must be license plate controlled.</span></span> <span data-ttu-id="32243-111">如果您使用 USMF，您可以使用公司帐户 1001、仓库 51 和物料 M9200 来创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="32243-111">If you're using USMF, you can use company account 1001, Warehouse 51, and item M9200 to create your PO.</span></span> 
+## <a name="enable-sample-data"></a><span data-ttu-id="58440-106">启用示例数据</span><span class="sxs-lookup"><span data-stu-id="58440-106">Enable sample data</span></span>
 
-<span data-ttu-id="32243-112">记下创建的采购订单的编号，以及用于采购订单行的物料编号库位。</span><span class="sxs-lookup"><span data-stu-id="32243-112">Make a note of the number of the purchase order that you create, and also note the item number and the site that you used for your purchase order line.</span></span>
+<span data-ttu-id="58440-107">若要使用在本主题中指定的示例记录和值完成此场景，您必须使用安装了标准演示数据的系统，并且必须在开始之前选择 *USMF* 法人。</span><span class="sxs-lookup"><span data-stu-id="58440-107">To work through this scenario using the sample records and values specified in this topic, you must be using a system where the standard demo data is installed, and you must select the *USMF* legal entity before you begin.</span></span>
 
+<span data-ttu-id="58440-108">相反，如果您拥有以下可用数据，则可以通过从自己的数据中替换值来完成此场景：</span><span class="sxs-lookup"><span data-stu-id="58440-108">You can instead work through this scenario by substituting values from your own data provided that you have the following data available:</span></span>
 
-## <a name="create-an-item-arrival-journal-header"></a><span data-ttu-id="32243-113">创建一个物料到达日记帐标题</span><span class="sxs-lookup"><span data-stu-id="32243-113">Create an item arrival journal header</span></span>
-1. <span data-ttu-id="32243-114">转到“物料到达”。</span><span class="sxs-lookup"><span data-stu-id="32243-114">Go to Item arrival.</span></span>
-2. <span data-ttu-id="32243-115">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="32243-115">Click New.</span></span>
-3. <span data-ttu-id="32243-116">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-116">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="32243-117">如果您正在使用 USMF，可以键入 WHS。</span><span class="sxs-lookup"><span data-stu-id="32243-117">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="32243-118">如果您正在使用其他数据，您选择的日记帐名称必须具有以下属性：“检查领料库位”必须设置为“否”，以及“检验管理”必须设置为“否”。</span><span class="sxs-lookup"><span data-stu-id="32243-118">If you're using other data, the journal whose name you choose has to have the following properties: Check picking location must be set to No, and Quarantine management must be set to No.</span></span>  
-4. <span data-ttu-id="32243-119">在“编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-119">In the Number field, type a value.</span></span>
-5. <span data-ttu-id="32243-120">在“站点”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-120">In the Site field, type a value.</span></span>
-    * <span data-ttu-id="32243-121">选择您为采购订单行使用的站点。</span><span class="sxs-lookup"><span data-stu-id="32243-121">Select the site that you used for your purchase order line.</span></span> <span data-ttu-id="32243-122">这将用作默认值，将默认为日记帐中的所有行。</span><span class="sxs-lookup"><span data-stu-id="32243-122">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="32243-123">如果您在 USMF 中使用仓库 51，则选择站点 5。</span><span class="sxs-lookup"><span data-stu-id="32243-123">If you used warehouse 51 in USMF, choose site 5.</span></span>  
-6. <span data-ttu-id="32243-124">在“仓库”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-124">In the Warehouse field, type a value.</span></span>
-    * <span data-ttu-id="32243-125">为所选站点选择有效的仓库。</span><span class="sxs-lookup"><span data-stu-id="32243-125">Select a valid warehouse for the site that you've selected.</span></span> <span data-ttu-id="32243-126">这将用作默认值，将默认为日记帐中的所有行。</span><span class="sxs-lookup"><span data-stu-id="32243-126">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="32243-127">如果您在 USMF 中使用示例值，则选择 51。</span><span class="sxs-lookup"><span data-stu-id="32243-127">If you're using the example values in USMF, select 51.</span></span>  
-7. <span data-ttu-id="32243-128">在“地点”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-128">In the Location field, type a value.</span></span>
-    * <span data-ttu-id="32243-129">在所选仓库中选择一个有效库位。</span><span class="sxs-lookup"><span data-stu-id="32243-129">Select a valid location in the warehouse that you've selected.</span></span> <span data-ttu-id="32243-130">该库位必须与受牌照控制的库位资料有关。</span><span class="sxs-lookup"><span data-stu-id="32243-130">The location has to be associated with a location profile, which is license plate controlled.</span></span> <span data-ttu-id="32243-131">这将用作默认值，将默认为日记帐中的所有行。</span><span class="sxs-lookup"><span data-stu-id="32243-131">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="32243-132">如果您在 USMF 中使用示例值，则选择“散装 - 008”。</span><span class="sxs-lookup"><span data-stu-id="32243-132">If you're using the example values in USMF, select Bulk-008.</span></span>  
-8. <span data-ttu-id="32243-133">右键单击牌照字段的下拉箭头，然后选择“查看详细信息”。</span><span class="sxs-lookup"><span data-stu-id="32243-133">Right-click on the drop-down arrow in the License plate field and then select View details.</span></span>
-9. <span data-ttu-id="32243-134">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="32243-134">Click New.</span></span>
-10. <span data-ttu-id="32243-135">在“牌照”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-135">In the License plate field, type a value.</span></span>
-    * <span data-ttu-id="32243-136">记录数值。</span><span class="sxs-lookup"><span data-stu-id="32243-136">Make a note of the value.</span></span>  
-11. <span data-ttu-id="32243-137">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="32243-137">Click Save.</span></span>
-12. <span data-ttu-id="32243-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="32243-138">Close the page.</span></span>
-13. <span data-ttu-id="32243-139">在“牌照”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-139">In the License plate field, type a value.</span></span>
-    * <span data-ttu-id="32243-140">输入您刚创建牌照的值。</span><span class="sxs-lookup"><span data-stu-id="32243-140">Enter the value of the license plate that you just created.</span></span> <span data-ttu-id="32243-141">这将用作默认值，将默认为日记帐中的所有行。</span><span class="sxs-lookup"><span data-stu-id="32243-141">This will serve as a default value, which will default to all lines in the journal.</span></span>  
-14. <span data-ttu-id="32243-142">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="32243-142">Click OK.</span></span>
+- <span data-ttu-id="58440-109">您必须具有包含未结采购订单行的已确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="58440-109">You must have a confirmed purchase order with an open purchase order line.</span></span>
+- <span data-ttu-id="58440-110">必须贮存行中的物料。</span><span class="sxs-lookup"><span data-stu-id="58440-110">The item on the line must be stocked.</span></span> <span data-ttu-id="58440-111">它不得使用产品变体，也不得具有跟踪维度。</span><span class="sxs-lookup"><span data-stu-id="58440-111">It must not use product variants, and must not have tracking dimensions.</span></span>
+- <span data-ttu-id="58440-112">该物料必须与启用了仓库管理流程的存储维度组关联。</span><span class="sxs-lookup"><span data-stu-id="58440-112">The item must be associated with a storage dimension group that has warehouse management process enabled.</span></span>
+- <span data-ttu-id="58440-113">使用的仓库必须启用可供仓库管理流程使用，并且用于接收的库位必须受牌照控制。</span><span class="sxs-lookup"><span data-stu-id="58440-113">The warehouse that's used must be enabled for warehouse management processes and the location that you use for receiving must be license plate controlled.</span></span>
 
-## <a name="add-a-line"></a><span data-ttu-id="32243-143">添加行</span><span class="sxs-lookup"><span data-stu-id="32243-143">Add a line</span></span>
-1. <span data-ttu-id="32243-144">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="32243-144">Click Add line.</span></span>
-2. <span data-ttu-id="32243-145">在“项目编号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="32243-145">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="32243-146">输入您在采购订单行使用的物料编号。</span><span class="sxs-lookup"><span data-stu-id="32243-146">Enter the item number that you used on the purchase order line.</span></span>  
-3. <span data-ttu-id="32243-147">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="32243-147">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="32243-148">输入您想要登记的数量。</span><span class="sxs-lookup"><span data-stu-id="32243-148">Enter the quantity that you want to register.</span></span>  
-    * <span data-ttu-id="32243-149">日期字段确定此现有数量的物料将记入库存的日期。</span><span class="sxs-lookup"><span data-stu-id="32243-149">The Date field determines the date on which the on-hand quantity of this item will be registered in the inventory.</span></span>  
-    * <span data-ttu-id="32243-150">如果可从提供的信息个别识别，系统将会自动填充批次 ID。</span><span class="sxs-lookup"><span data-stu-id="32243-150">The lot ID will be populated by the system if it can be uniquely identified from the information provided.</span></span> <span data-ttu-id="32243-151">否则将必须手动添加。</span><span class="sxs-lookup"><span data-stu-id="32243-151">Otherwise you will have to add this manually.</span></span> <span data-ttu-id="32243-152">此为必填字段，其将此登记链接到特定原始凭证行。</span><span class="sxs-lookup"><span data-stu-id="32243-152">This is a mandatory field, which links this registration to a specific source document line.</span></span>  
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a><span data-ttu-id="58440-114">创建使用仓库管理的物料到达日记帐标题</span><span class="sxs-lookup"><span data-stu-id="58440-114">Create an item arrival journal header that uses warehouse management</span></span>
 
-## <a name="complete-the-registration"></a><span data-ttu-id="32243-153">完成登记</span><span class="sxs-lookup"><span data-stu-id="32243-153">Complete the registration</span></span>
-1. <span data-ttu-id="32243-154">单击“验证”。</span><span class="sxs-lookup"><span data-stu-id="32243-154">Click Validate.</span></span>
-    * <span data-ttu-id="32243-155">这会检查准备好供过帐的日记帐。</span><span class="sxs-lookup"><span data-stu-id="32243-155">This checks that the journal is ready to be posted.</span></span> <span data-ttu-id="32243-156">如果验证失败，需要修复错误才能过帐日记帐。</span><span class="sxs-lookup"><span data-stu-id="32243-156">If the validation fails you will need to fix the errors before you can post the journal.</span></span>  
-2. <span data-ttu-id="32243-157">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="32243-157">Click OK.</span></span>
-    * <span data-ttu-id="32243-158">单击“确定”后，请检查消息。</span><span class="sxs-lookup"><span data-stu-id="32243-158">After you clicked OK, check the message.</span></span> <span data-ttu-id="32243-159">应该有条消息告知日记帐过帐成功。</span><span class="sxs-lookup"><span data-stu-id="32243-159">There should be a message saying that the journal is OK.</span></span>  
-3. <span data-ttu-id="32243-160">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="32243-160">Click Post.</span></span>
-4. <span data-ttu-id="32243-161">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="32243-161">Click OK.</span></span>
-    * <span data-ttu-id="32243-162">单击“确定”后，请检查消息栏。</span><span class="sxs-lookup"><span data-stu-id="32243-162">After you have clicked OK, check the message bar.</span></span> <span data-ttu-id="32243-163">应该有条消息告知操作成功。</span><span class="sxs-lookup"><span data-stu-id="32243-163">There should be a message saying that the operation completed.</span></span>  
-5. <span data-ttu-id="32243-164">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="32243-164">Close the page.</span></span>
+<span data-ttu-id="58440-115">以下场景显示了如何创建使用仓库管理的物料到达日记帐标题：</span><span class="sxs-lookup"><span data-stu-id="58440-115">The following scenario shows how to create an item arrival journal header that uses warehouse management:</span></span>
 
+1. <span data-ttu-id="58440-116">确保您的系统包含满足上一部分中概述的要求的已确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="58440-116">Make sure your system contains a confirmed purchase order that fulfils the requirements outlined in the previous section.</span></span> <span data-ttu-id="58440-117">此场景使用公司 *USMF*、供应商帐户 *1001*、仓库 *51* 的采购订单，其中包含物料编号 *M9200* 的 *10 PL*（10 个托盘）的订单行。</span><span class="sxs-lookup"><span data-stu-id="58440-117">This scenario uses a purchase order for company *USMF*, vendor account *1001*, warehouse *51*, with an order line for *10 PL* (10 pallets) of item number *M9200*.</span></span>
+1. <span data-ttu-id="58440-118">记下将使用的采购订单编号。</span><span class="sxs-lookup"><span data-stu-id="58440-118">Make a note of the purchase order number that you will use.</span></span>
+1. <span data-ttu-id="58440-119">转到 **库存管理 \> 日记帐条目 \> 物料到达 \> 物料到达**。</span><span class="sxs-lookup"><span data-stu-id="58440-119">Go to **Inventory management \> Journal entries \> Item arrival \> Item arrival**.</span></span>
+1. <span data-ttu-id="58440-120">在操作窗格上选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="58440-120">Select **New** on the Action Pane.</span></span>
+1. <span data-ttu-id="58440-121">**创建仓库管理日记帐** 对话框将打开。</span><span class="sxs-lookup"><span data-stu-id="58440-121">The **Create warehouse management journal** dialog box opens.</span></span> <span data-ttu-id="58440-122">在 **名称** 字段中选择日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="58440-122">Select a journal name in the **Name** field.</span></span>
+    - <span data-ttu-id="58440-123">如果您使用 *USMF* 示例数据，选择 *WHS*。</span><span class="sxs-lookup"><span data-stu-id="58440-123">If you are using *USMF* sample data, select *WHS*.</span></span>
+    - <span data-ttu-id="58440-124">如果您使用自己的数据，则选择的日记帐必须将 **检查领料库位** 设置为 *否* 并将 **检验管理** 设置为 *否*。</span><span class="sxs-lookup"><span data-stu-id="58440-124">If you're using your own data, the journal you choose must have **Check picking location** set to *No* and **Quarantine management** set to *No*.</span></span>
+1. <span data-ttu-id="58440-125">将 **引用** 设置为 *采购订单*。</span><span class="sxs-lookup"><span data-stu-id="58440-125">Set **Reference** to *Purchase order*.</span></span>
+1. <span data-ttu-id="58440-126">将 **帐户编号** 设置为 *1001*。</span><span class="sxs-lookup"><span data-stu-id="58440-126">Set **Account number** to *1001*.</span></span>
+1. <span data-ttu-id="58440-127">将 **编号** 设置为您为此练习标识的采购订单的编号。</span><span class="sxs-lookup"><span data-stu-id="58440-127">Set **Number** to the number of the purchase order that you identified for this exercise.</span></span>
+
+    <span data-ttu-id="58440-128">![物料到达日记帐](../media/item-arrival-journal-header.png "物料到达日记帐")</span><span class="sxs-lookup"><span data-stu-id="58440-128">![Item arrival journal](../media/item-arrival-journal-header.png "Item arrival journal")</span></span>
+
+1. <span data-ttu-id="58440-129">选择 **确定** 以创建日记帐标题。</span><span class="sxs-lookup"><span data-stu-id="58440-129">Select the **OK** to create the journal header.</span></span>
+1. <span data-ttu-id="58440-130">在 **日记帐行** 部分中，选择 **添加行** 并输入以下数据：</span><span class="sxs-lookup"><span data-stu-id="58440-130">In the **Journal lines** section, select **Add line** and enter the following data:</span></span>
+    - <span data-ttu-id="58440-131">**物料编号** – 设置为 *M9200*。</span><span class="sxs-lookup"><span data-stu-id="58440-131">**Item number** – Set to *M9200*.</span></span> <span data-ttu-id="58440-132">将基于 10 个托盘（1000 个）的库存交易记录数据设置 **场地**、**仓库** 和 **数量**。</span><span class="sxs-lookup"><span data-stu-id="58440-132">The **Site**, **Warehouse**, and **Quantity** will get set based on the inventory transaction data for the 10 pallets (1000 ea.).</span></span>
+    - <span data-ttu-id="58440-133">**库位** – 设置为 *001*。</span><span class="sxs-lookup"><span data-stu-id="58440-133">**Location** – Set to  *001*.</span></span> <span data-ttu-id="58440-134">此特定库位不跟踪牌照。</span><span class="sxs-lookup"><span data-stu-id="58440-134">This specific location does not track license plates.</span></span>
+
+    <span data-ttu-id="58440-135">![物料到达日记帐行](../media/item-arrival-journal-line.png "物料到达日记帐行")</span><span class="sxs-lookup"><span data-stu-id="58440-135">![Item arrival journal line](../media/item-arrival-journal-line.png "Item arrival journal line")</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="58440-136">**日期** 字段确定此现有数量的物料将记入库存的日期。</span><span class="sxs-lookup"><span data-stu-id="58440-136">The **Date** field determines the date on which the on-hand quantity of this item will be registered in the inventory.</span></span>  
+    >
+    > <span data-ttu-id="58440-137">如果可从提供的信息个别识别，系统将会自动填充 **批次 ID**。</span><span class="sxs-lookup"><span data-stu-id="58440-137">The **Lot ID** will be populated by the system if it can be uniquely identified from the information provided.</span></span> <span data-ttu-id="58440-138">否则将必须手动输入。</span><span class="sxs-lookup"><span data-stu-id="58440-138">Otherwise you will have to enter this manually.</span></span> <span data-ttu-id="58440-139">这是必填字段，用于将此登记链接到特定原始单据行。</span><span class="sxs-lookup"><span data-stu-id="58440-139">This is a required field, which links this registration to a specific source document line.</span></span>  
+
+1. <span data-ttu-id="58440-140">在操作窗格上选择 **验证**。</span><span class="sxs-lookup"><span data-stu-id="58440-140">Select **Validate** on the Action Pane.</span></span> <span data-ttu-id="58440-141">这会检查准备好供过帐的日记帐。</span><span class="sxs-lookup"><span data-stu-id="58440-141">This checks that the journal is ready to be posted.</span></span> <span data-ttu-id="58440-142">如果验证失败，需要修复错误才能过帐日记帐。</span><span class="sxs-lookup"><span data-stu-id="58440-142">If the validation fails you will need to fix the errors before you can post the journal.</span></span>  
+1. <span data-ttu-id="58440-143">**检查日记帐** 对话框将打开。</span><span class="sxs-lookup"><span data-stu-id="58440-143">The **Check journal** dialog box opens.</span></span> <span data-ttu-id="58440-144">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="58440-144">Select **OK**.</span></span>
+1. <span data-ttu-id="58440-145">查看消息栏。</span><span class="sxs-lookup"><span data-stu-id="58440-145">Review the message bar.</span></span> <span data-ttu-id="58440-146">应该有一条消息表示操作已完成。</span><span class="sxs-lookup"><span data-stu-id="58440-146">There should be a message denoting that the operation was completed.</span></span>  
+1. <span data-ttu-id="58440-147">在操作窗格上选择 **过帐**。</span><span class="sxs-lookup"><span data-stu-id="58440-147">Select **Post** on the Action Pane.</span></span>
+1. <span data-ttu-id="58440-148">**过帐日记帐** 对话框将打开。</span><span class="sxs-lookup"><span data-stu-id="58440-148">The **Post journal** dialog box opens.</span></span> <span data-ttu-id="58440-149">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="58440-149">Select **OK**.</span></span>
+1. <span data-ttu-id="58440-150">查看消息栏。</span><span class="sxs-lookup"><span data-stu-id="58440-150">Review the message bar.</span></span> <span data-ttu-id="58440-151">应该有消息表示操作完成。</span><span class="sxs-lookup"><span data-stu-id="58440-151">There should be messages denoting that the operation completed.</span></span>
+1. <span data-ttu-id="58440-152">在操作窗格上选择 **功能 > 产品收货** 以更新订单行并过帐产品收货。</span><span class="sxs-lookup"><span data-stu-id="58440-152">Select **Functions > Product receipt** on the Action Pane to update the purchase order line and post a product receipt.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
