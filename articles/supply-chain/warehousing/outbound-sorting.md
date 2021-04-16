@@ -2,11 +2,9 @@
 title: 出站排序
 description: 文主题提供有关出站分类的信息。 此功能使处理小集装箱更轻松，并帮助仓库工作人员更好地计划和组织卡车内的托盘容量。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 44807e8d9915652c1c9d365de47d594a0c4f90e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c576209a86f776ac424f7fb9f2b606bea774a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225947"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828386"
 ---
 # <a name="outbound-sorting"></a>出站排序
 

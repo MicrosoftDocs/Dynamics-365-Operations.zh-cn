@@ -2,11 +2,9 @@
 title: 定义成本控制单元
 description: 此过程显示如何定义成本核算分类帐中的成本控制单元。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlUnit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcd6162d2b8722f9114b438cf853c1ff1ab9b840
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 27764fb3190a5feda5e656c0b38ce527c8d7ceb9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218927"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841085"
 ---
 # <a name="define-cost-control-units"></a>定义成本控制单元
 

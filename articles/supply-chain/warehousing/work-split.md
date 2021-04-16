@@ -2,11 +2,9 @@
 title: 工作拆分
 description: 此主题提供有关工作拆分功能的信息。 使用此功能，您可以将大型工作订单拆分为几个较小的工作订单，然后将其分配给多个仓库工作人员。 这样，同一个工作可以同时由几个仓库工人工作人员选择。
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245074"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830754"
 ---
 # <a name="work-split"></a>工作拆分
 
@@ -69,7 +67,7 @@ ms.locfileid: "5245074"
 >
 > - 工作目前正在由其他用户拆分。 如果您尝试打开其他用户已经在拆分的工作的拆分页面，将收到以下错误消息：“ID 为 \#\#\#\# 的工作目前正在拆分。 请在几分钟后重试。 如果继续收到此消息，请与主管联系。”
 
-新的工作锁定原因 *拆分工作* 会在工作 ID 正在进行拆分时给出指示。 如果用户尝试运行工作，它会同时显示在 **拆分工作** 页和仓库应用中。 使用锁定原因时，工作 ID 的 **锁定波次** 字段的名称将更改为 **已锁定**。
+新的工作锁定原因 *拆分工作* 会在工作 ID 正在进行拆分时给出指示。 如果用户尝试运行工作，它会同时显示在 **拆分工作** 页面上和仓库管理移动应用中。 使用锁定原因时，工作 ID 的 **锁定波次** 字段的名称将更改为 **已锁定**。
 
 ## <a name="initiate-a-work-split"></a>启动工作拆分
 
@@ -147,9 +145,9 @@ ms.locfileid: "5245074"
 
 *拆分工作* 锁定原因删除后，如果在工作 ID 上将 **已锁定** 状态设置为 *否*，工作可以在移动设备上运行。
 
-## <a name="user-blocking-on-the-warehouse-app"></a>仓库应用上的用户锁定
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>仓库管理移动应用上的用户锁定
 
-如果您尝试使用仓库应用对正在拆分的工作 ID 运行领料工作，将收到以下错误消息：“ID 为 \#\#\#\# 的工作目前正在拆分。” 如果收到此消息，请选择 **取消**。 然后，您可以继续处理其他工作。
+如果您尝试使用仓库管理移动应用针对正在拆分的工作 ID 运行领料工作，将收到以下错误消息：“当前正在拆分 ID 为 \#\#\#\# 的工作。” 如果收到此消息，请选择 **取消**。 然后，您可以继续处理其他工作。
 
 ## <a name="other-blocked-operations"></a>其他锁定操作
 

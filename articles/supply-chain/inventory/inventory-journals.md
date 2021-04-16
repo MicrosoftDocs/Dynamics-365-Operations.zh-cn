@@ -2,11 +2,9 @@
 title: 库存日记帐
 description: 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 author: perlynne
-manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826027"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 

@@ -2,11 +2,9 @@
 title: 移动设备用户设置
 description: 本主题说明如何管理面向仓库工作人员的移动设备用户设置。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501190"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837457"
 ---
 # <a name="mobile-device-user-settings"></a>移动设备用户设置
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 新仓库管理移动应用有一组特定于应用的设置，可帮助定制用户体验。 由于此应用可以在不同屏幕尺寸和配置的设备（如平板电脑、手机或臂上设备）上使用，因此从 Microsoft Dynamics 365 Supply Chain Management 集中管理这些设置可能很有用。
 

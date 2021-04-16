@@ -2,11 +2,9 @@
 title: 映射成本元素维度
 description: 成本总监可使用此过程将成本元素维度映射到 MXMF 法人中的成本元素维度。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e48110182f79195483a0f54b7859ee0cd54e8cf0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 845ab27a09905f42c905f9018f9f176a64f8785a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235829"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841037"
 ---
 # <a name="map-a-cost-element-dimension"></a>映射成本元素维度
 

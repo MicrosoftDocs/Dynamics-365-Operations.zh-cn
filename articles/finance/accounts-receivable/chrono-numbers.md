@@ -2,11 +2,9 @@
 title: 按时间顺序对文件和凭证编号
 description: 本主题说明如何为适用的单据和相关凭证设置和使用时间顺序编号。
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838853"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>按时间顺序对文件和凭证编号
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 在某些国家/地区，法律要求按时间顺序对文件和相关凭证编号。 时间顺序必须受期间支持。 属于较早期间的所有编号必须小于属于较晚期间的编号。 为了满足此要求，实现了按时间顺序编号的功能。 本主题说明如何为适用的单据和相关凭证配置和使用时间顺序编号。
 

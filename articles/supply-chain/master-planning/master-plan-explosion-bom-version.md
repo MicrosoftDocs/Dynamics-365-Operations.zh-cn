@@ -2,11 +2,9 @@
 title: 物料清单版本的分解
 description: 本文介绍涉及物料清单 (BOM) 版本分解的主计划方案。
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 617d9c3f05f2db30ec075a07b54c4827e668c20e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 367b662a43b3c3255632f20aeb821b973b04d890
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833585"
 ---
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 

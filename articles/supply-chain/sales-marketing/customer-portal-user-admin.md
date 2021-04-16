@@ -2,11 +2,9 @@
 title: 创建和管理客户门户用户
 description: 本主题说明如何创建客户门户用户帐户并为其设置权限。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b63ebae10f23a27115313acb6381fa176e64fbd6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840693"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 

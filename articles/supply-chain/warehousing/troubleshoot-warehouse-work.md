@@ -2,11 +2,9 @@
 title: 仓库工作疑难解答
 description: 此主题介绍如何解决在 Microsoft Dynamics 365 Supply Chain Management 中处理仓库工作时可能遇到的常见问题。
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237051"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837433"
 ---
 # <a name="troubleshoot-warehouse-work"></a>仓库工作疑难解答
 
@@ -40,11 +38,11 @@ ms.locfileid: "5237051"
 
 此问题将通过 [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687) 中部署的更改修复。 当允许空收货和空发货时，这些更改将使 **序列号** 字段变为可选。
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>处理移动时，我在仓库应用中收到以下错误消息：“此流程不允许库存所有者 %1。”
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>处理移动时，我在仓库管理移动应用中收到以下错误消息：“此流程不允许库存负责人 %1。”
 
 ### <a name="issue-description"></a>问题描述
 
-当使用仓库应用进行移动时，缺少 **所有者** 跟踪维度。 Supply Chain Management 客户端中的常规库存转移日记帐好像可以按预期工作，但只能在填充了 **所有者** 维度时过帐。
+当使用仓库管理移动应用进行移动时，缺少 **负责人** 跟踪维度。 Supply Chain Management 客户端中的常规库存转移日记帐好像可以按预期工作，但只能在填充了 **所有者** 维度时过帐。
 
 ### <a name="issue-resolution"></a>解决问题
 

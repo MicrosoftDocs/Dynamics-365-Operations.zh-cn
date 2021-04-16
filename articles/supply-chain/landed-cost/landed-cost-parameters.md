@@ -2,7 +2,6 @@
 title: 登陆成本参数设置
 description: 本主题介绍如何设置在整个登陆成本模块中用于过帐、状态更新、编号规则和行为的常规信息和配置设置。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 489c0db50d52c1e58eab73ad19a73babf22b4de7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833897"
 ---
 # <a name="landed-cost-parameters-setup"></a>登陆成本参数设置
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 您将使用 **登陆成本参数** 页设置在整个 **登陆成本** 模块中用于过帐、状态更新、编号规则和行为的常规信息和配置设置。 参数的设置在法人之间共享，可以由管理员修改。
 

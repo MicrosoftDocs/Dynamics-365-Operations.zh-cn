@@ -2,11 +2,9 @@
 title: 将账单提交至工作流系统并匹配物料收货行
 description: 本主题介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827810"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>将账单提交至工作流系统并匹配物料收货行
 
@@ -41,7 +39,9 @@ ms.locfileid: "5231534"
 
 作为非接触式应付帐款开票流程的一部分，系统可以自动将过帐的物料收货与发票行进行匹配。 必须为此任务定义三向匹配政策。 如果已在 **功能管理** 页面上启用了 **供应商发票自动化** 功能，则此功能可用。
 
-该流程将一直运行，直到匹配的物料收货数量等于发票数量。 作为此流程的一部分，您可以指定系统在得出流程失败的结论之前应尝试将物料收货与发票行进行匹配的最大次数。 该流程将以每小时或每天的频率在后台运行。 您可以在将发票提交到工作流系统的流程中运行自动化匹配流程。 或者，您可以将其作为独立流程运行。 在 **应付帐款参数** 页面（**应付帐款 \> 设置 \> 应付帐款参数**）的 **供应商发票自动化** 选项卡上配置将物料收货与发票行进行匹配流程的设置。
+将运行匹配流程，直到匹配的产品收货数量等于发票数量。 但是，如果单个发票行有多个产品收货，则需要多次运行该流程以实现全部数量匹配。 您可以指定系统在得出流程失败的结论之前应尝试将产品收货与发票行进行匹配的最大次数。 该流程将以每小时或每天的频率在后台运行。 
+
+您可以在将发票提交到工作流系统的流程中运行自动化匹配流程。 或者，您可以将其作为独立流程运行。 在 **应付帐款参数** 页面（**应付帐款 \> 设置 \> 应付帐款参数**）的 **供应商发票自动化** 选项卡上配置将物料收货与发票行进行匹配流程的设置。
 
 具有三向匹配政策的发票行（匹配的收货数量小于发票数量）将包括在自动匹配到物料收货流程中。
 

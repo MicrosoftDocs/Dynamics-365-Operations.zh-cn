@@ -2,7 +2,6 @@
 title: 登陆成本与运输管理
 description: Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：运输管理 (TMS) 和登陆成本。 本主题总结了两个模块的共同功能，并着重说明了它们之间的区别。
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500710"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833849"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>登陆成本与运输管理
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：**运输管理** (TMS) 和 **登陆成本**。 本主题总结了两个模块的共同功能，并着重说明了它们之间的区别。 您可以使用此信息来确定最适合您的业务实践的模块。 您可能会发现，有些业务实践与 TMS 一起使用效果更好，而其他实践与登陆成本一起使用效果最好。 然后，根据您的业务要求，您可以选择仅使用一个模块，也可以将两个模块组合使用。
 
@@ -158,15 +156,15 @@ TMS 和登陆成本都提供用于管理集装箱中货物收货的功能。 TMS
 
 ### <a name="tms-receiving-by-container-features"></a>TMS 的按集装箱接收功能
 
-TMS 支持入站 ASN，使用仓库应用的所有接收变体，以及使用 Supply Chain Management 客户端的所有接收方法。
+TMS 支持入库 ASN，使用仓库管理移动应用的所有接收变体，以及使用 Supply Chain Management 客户端的所有接收方法。
 
 ### <a name="landed-cost-receiving-by-container-features"></a>登陆成本的按集装箱接收功能
 
 为支持按集装箱接收，登陆成本将创建装运集装箱记录，并使用集装箱 ID 将采购订单与特定的装运集装箱关联。 然后，间接成本可以应用于该装运集装箱并分解，以与相关的采购订单关联。
 
-登陆成本中的集装箱可以通过一种称为 *在途货物收货* 的新收货类型，通过到达日记帐或移动设备接收来接收。 使用到达日记帐时，可以从在途货物订单或集装箱中的原始采购订单行初始化数量。 登陆成本为通过仓库应用接收提供了两个工作类型。
+登陆成本中的集装箱可以通过一种称为 *在途货物收货* 的新收货类型，通过到达日记帐或移动设备接收来接收。 使用到达日记帐时，可以从在途货物订单或集装箱中的原始采购订单行初始化数量。 登陆成本为通过仓库管理移动应用接收提供了两个工作类型。
 
-登陆成本不为电子货物收货提供 ASN。 此外，它不支持处理负荷接收、牌照接收或混合牌照接收的仓库应用流。
+登陆成本不为电子货物收货提供 ASN。 此外，它不支持处理负荷接收、牌照接收或混合牌照接收的仓库管理移动应用流。
 
 ## <a name="rate-shopping-by-vendor"></a>按供应商进行费率查询
 

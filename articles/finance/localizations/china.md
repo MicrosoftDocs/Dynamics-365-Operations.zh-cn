@@ -2,11 +2,9 @@
 title: 中国概览
 description: 此主题概览中国的专有功能。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: da796de975e0ad6b33a826ecf09feeb29b6a6ebb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 494e4a313123c9d01f09dbb48a4109f8462c25e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224633"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840310"
 ---
 # <a name="china-overview"></a>中国概览
 

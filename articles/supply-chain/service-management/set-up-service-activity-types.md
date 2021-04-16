@@ -2,11 +2,9 @@
 title: 设置服务活动类型
 description: 设置服务活动类型。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmActivityTypeGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e2991f6cdca02ae325c5c1d7e51e6202ef152a7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cff70c25f63e314c084d74097d6b2d9547823b22
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841303"
 ---
 # <a name="set-up-service-activity-types"></a>设置服务活动类型 
 
