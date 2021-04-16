@@ -2,11 +2,9 @@
 title: 仓库时隙
 description: 文主题提供有关仓库时隙的信息。 仓库时隙用于按物料和度量单位合并状态为“订购”、“预留”或“下达”的订单中的需求。 其可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料货位。
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
@@ -15,374 +13,374 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0851af976dd73b7f13372880587187f546091bec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0dd1f42b7bb337ccb65b7e4bdd9d307d074ae0d0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248587"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838146"
 ---
-# <a name="warehouse-slotting"></a><span data-ttu-id="c40fb-105">仓库时隙</span><span class="sxs-lookup"><span data-stu-id="c40fb-105">Warehouse slotting</span></span>
+# <a name="warehouse-slotting"></a><span data-ttu-id="072cd-105">仓库时隙</span><span class="sxs-lookup"><span data-stu-id="072cd-105">Warehouse slotting</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c40fb-106">有多个仓库时隙功能可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料位置。</span><span class="sxs-lookup"><span data-stu-id="c40fb-106">Several warehouse slotting features are available to help warehouse managers intelligently plan picking locations before they release orders to the warehouse and create picking work.</span></span>
+<span data-ttu-id="072cd-106">有多个仓库时隙功能可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料位置。</span><span class="sxs-lookup"><span data-stu-id="072cd-106">Several warehouse slotting features are available to help warehouse managers intelligently plan picking locations before they release orders to the warehouse and create picking work.</span></span>
 
-<span data-ttu-id="c40fb-107">*仓库时隙功能* 用于按物料和度量单位合并状态为 *已订购*、*已预留* 或 *已下达* 的订单中的需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-107">The *Warehouse slotting feature* lets you consolidate demand by item and unit of measure from orders that have a status of *Ordered*, *Reserved*, or *Released*.</span></span> <span data-ttu-id="c40fb-108">然后可以根据数量、单位、物理维度、固定货位等将生成的需求应用于将用于领料的货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-108">Generated demand can then be applied to locations that will be used for picking, based on quantity, unit, physical dimensions, fixed locations, and more.</span></span> <span data-ttu-id="c40fb-109">建立时隙计划之后，可以创建补货工作以将相应数量的库存运到各货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-109">After the slotting plan has been established, replenishment work can be created to bring the appropriate amount of inventory to each location.</span></span>
+<span data-ttu-id="072cd-107">*仓库时隙功能* 用于按物料和度量单位合并状态为 *已订购*、*已预留* 或 *已下达* 的订单中的需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-107">The *Warehouse slotting feature* lets you consolidate demand by item and unit of measure from orders that have a status of *Ordered*, *Reserved*, or *Released*.</span></span> <span data-ttu-id="072cd-108">然后可以根据数量、单位、物理维度、固定货位等将生成的需求应用于将用于领料的货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-108">Generated demand can then be applied to locations that will be used for picking, based on quantity, unit, physical dimensions, fixed locations, and more.</span></span> <span data-ttu-id="072cd-109">建立时隙计划之后，可以创建补货工作以将相应数量的库存运到各货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-109">After the slotting plan has been established, replenishment work can be created to bring the appropriate amount of inventory to each location.</span></span>
 
-<span data-ttu-id="c40fb-110">*转移单的仓库时隙* 功能让仓库经理可以根据尚未下达到仓库的转移单的需求为领料位置补货。</span><span class="sxs-lookup"><span data-stu-id="c40fb-110">The *Warehouse slotting for transfer orders* feature lets warehouse managers replenish picking locations, based on demand from transfer orders that aren't yet released to the warehouse.</span></span> <span data-ttu-id="c40fb-111">它确保领料位置在转移单下达到仓库后会包括转移单所需的所有物料。</span><span class="sxs-lookup"><span data-stu-id="c40fb-111">It ensures that picking locations will include all the items that are required for the transfer orders after they are released to warehouse.</span></span> <span data-ttu-id="c40fb-112">此功能还需要您打开 *仓库时隙功能*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-112">This feature requires that you also turn on the *Warehouse slotting feature* feature.</span></span>
+<span data-ttu-id="072cd-110">*转移单的仓库时隙* 功能让仓库经理可以根据尚未下达到仓库的转移单的需求为领料位置补货。</span><span class="sxs-lookup"><span data-stu-id="072cd-110">The *Warehouse slotting for transfer orders* feature lets warehouse managers replenish picking locations, based on demand from transfer orders that aren't yet released to the warehouse.</span></span> <span data-ttu-id="072cd-111">它确保领料位置在转移单下达到仓库后会包括转移单所需的所有物料。</span><span class="sxs-lookup"><span data-stu-id="072cd-111">It ensures that picking locations will include all the items that are required for the transfer orders after they are released to warehouse.</span></span> <span data-ttu-id="072cd-112">此功能还需要您打开 *仓库时隙功能*。</span><span class="sxs-lookup"><span data-stu-id="072cd-112">This feature requires that you also turn on the *Warehouse slotting feature* feature.</span></span>
 
-<span data-ttu-id="c40fb-113">*仓库时隙分配增强* 功能为 *仓库时隙功能* 使用的模板行添加了一个选项。</span><span class="sxs-lookup"><span data-stu-id="c40fb-113">The *Warehouse slotting allocation enhancements* feature adds an option for the template lines that are used by the *Warehouse slotting feature* feature.</span></span> <span data-ttu-id="c40fb-114">此选项让系统能够考虑目标位置现有的现有库存量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-114">The option enables the system to consider existing on-hand inventory at a target location.</span></span> <span data-ttu-id="c40fb-115">因此，可以为时隙生成更少的补货。</span><span class="sxs-lookup"><span data-stu-id="c40fb-115">Therefore, fewer replenishments might be generated for slotting.</span></span> <span data-ttu-id="c40fb-116">*仓库时隙分配增强* 功能还需要您打开 *仓库时隙功能*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-116">The *Warehouse slotting allocation enhancements* feature requires that you also turn on the *Warehouse slotting feature* feature.</span></span> <span data-ttu-id="c40fb-117">可以有选择地将它与 *转移单的仓库时隙* 功能一起使用。</span><span class="sxs-lookup"><span data-stu-id="c40fb-117">It can optionally be used together with the *Warehouse slotting for transfer orders* feature.</span></span>
+<span data-ttu-id="072cd-113">*仓库时隙分配增强* 功能为 *仓库时隙功能* 使用的模板行添加了一个选项。</span><span class="sxs-lookup"><span data-stu-id="072cd-113">The *Warehouse slotting allocation enhancements* feature adds an option for the template lines that are used by the *Warehouse slotting feature* feature.</span></span> <span data-ttu-id="072cd-114">此选项让系统能够考虑目标位置现有的现有库存量。</span><span class="sxs-lookup"><span data-stu-id="072cd-114">The option enables the system to consider existing on-hand inventory at a target location.</span></span> <span data-ttu-id="072cd-115">因此，可以为时隙生成更少的补货。</span><span class="sxs-lookup"><span data-stu-id="072cd-115">Therefore, fewer replenishments might be generated for slotting.</span></span> <span data-ttu-id="072cd-116">*仓库时隙分配增强* 功能还需要您打开 *仓库时隙功能*。</span><span class="sxs-lookup"><span data-stu-id="072cd-116">The *Warehouse slotting allocation enhancements* feature requires that you also turn on the *Warehouse slotting feature* feature.</span></span> <span data-ttu-id="072cd-117">可以有选择地将它与 *转移单的仓库时隙* 功能一起使用。</span><span class="sxs-lookup"><span data-stu-id="072cd-117">It can optionally be used together with the *Warehouse slotting for transfer orders* feature.</span></span>
 
-## <a name="turn-on-the-warehouse-slotting-features"></a><span data-ttu-id="c40fb-118">开启仓库时隙功能</span><span class="sxs-lookup"><span data-stu-id="c40fb-118">Turn on the warehouse slotting features</span></span>
+## <a name="turn-on-the-warehouse-slotting-features"></a><span data-ttu-id="072cd-118">开启仓库时隙功能</span><span class="sxs-lookup"><span data-stu-id="072cd-118">Turn on the warehouse slotting features</span></span>
 
-<span data-ttu-id="c40fb-119">这些功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="c40fb-119">Before you can use these features, they must be turned on in your system.</span></span> <span data-ttu-id="c40fb-120">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查这些功能的状态，并在需要这些功能时将其开启。</span><span class="sxs-lookup"><span data-stu-id="c40fb-120">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the features and turn them on if they are required.</span></span> <span data-ttu-id="c40fb-121">根据需要开启以下功能：</span><span class="sxs-lookup"><span data-stu-id="c40fb-121">Turn on the following features as required:</span></span>
+<span data-ttu-id="072cd-119">这些功能只有在系统中开启之后才能使用。</span><span class="sxs-lookup"><span data-stu-id="072cd-119">Before you can use these features, they must be turned on in your system.</span></span> <span data-ttu-id="072cd-120">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查这些功能的状态，并在需要这些功能时将其开启。</span><span class="sxs-lookup"><span data-stu-id="072cd-120">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the features and turn them on if they are required.</span></span> <span data-ttu-id="072cd-121">根据需要开启以下功能：</span><span class="sxs-lookup"><span data-stu-id="072cd-121">Turn on the following features as required:</span></span>
 
-- <span data-ttu-id="c40fb-122">仓库开槽功能</span><span class="sxs-lookup"><span data-stu-id="c40fb-122">Warehouse slotting feature</span></span>
-- <span data-ttu-id="c40fb-123">转移单的仓库时隙</span><span class="sxs-lookup"><span data-stu-id="c40fb-123">Warehouse slotting for transfer orders</span></span>
-
-    > [!IMPORTANT]
-    > <span data-ttu-id="c40fb-124">*仓库时隙功能* 必须先于此功能打开。</span><span class="sxs-lookup"><span data-stu-id="c40fb-124">The *Warehouse slotting feature* feature must be turned on before this feature.</span></span>
-
-- <span data-ttu-id="c40fb-125">仓库时隙分配增强</span><span class="sxs-lookup"><span data-stu-id="c40fb-125">Warehouse slotting allocation enhancements</span></span>
+- <span data-ttu-id="072cd-122">仓库开槽功能</span><span class="sxs-lookup"><span data-stu-id="072cd-122">Warehouse slotting feature</span></span>
+- <span data-ttu-id="072cd-123">转移单的仓库时隙</span><span class="sxs-lookup"><span data-stu-id="072cd-123">Warehouse slotting for transfer orders</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="c40fb-126">*仓库时隙功能* 必须先于此功能打开。</span><span class="sxs-lookup"><span data-stu-id="c40fb-126">The *Warehouse slotting feature* feature must be turned on before this feature.</span></span>
+    > <span data-ttu-id="072cd-124">*仓库时隙功能* 必须先于此功能打开。</span><span class="sxs-lookup"><span data-stu-id="072cd-124">The *Warehouse slotting feature* feature must be turned on before this feature.</span></span>
 
-## <a name="set-up-warehouse-slotting"></a><span data-ttu-id="c40fb-127">设置仓库时隙功能</span><span class="sxs-lookup"><span data-stu-id="c40fb-127">Set up warehouse slotting</span></span>
+- <span data-ttu-id="072cd-125">仓库时隙分配增强</span><span class="sxs-lookup"><span data-stu-id="072cd-125">Warehouse slotting allocation enhancements</span></span>
 
-<span data-ttu-id="c40fb-128">若要使用仓库时隙功能，必须在系统中设置以下元素：</span><span class="sxs-lookup"><span data-stu-id="c40fb-128">To use warehouse slotting, you must set up the following elements in your system:</span></span>
+    > [!IMPORTANT]
+    > <span data-ttu-id="072cd-126">*仓库时隙功能* 必须先于此功能打开。</span><span class="sxs-lookup"><span data-stu-id="072cd-126">The *Warehouse slotting feature* feature must be turned on before this feature.</span></span>
 
-- <span data-ttu-id="c40fb-129">时隙度量单位层</span><span class="sxs-lookup"><span data-stu-id="c40fb-129">Slotting unit of measure tiers</span></span>
-- <span data-ttu-id="c40fb-130">指令代码</span><span class="sxs-lookup"><span data-stu-id="c40fb-130">Directive codes</span></span>
-- <span data-ttu-id="c40fb-131">时隙模板</span><span class="sxs-lookup"><span data-stu-id="c40fb-131">Slotting templates</span></span>
-- <span data-ttu-id="c40fb-132">位置指令</span><span class="sxs-lookup"><span data-stu-id="c40fb-132">Location directives</span></span>
+## <a name="set-up-warehouse-slotting"></a><span data-ttu-id="072cd-127">设置仓库时隙功能</span><span class="sxs-lookup"><span data-stu-id="072cd-127">Set up warehouse slotting</span></span>
 
-### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a><span data-ttu-id="c40fb-133">为时隙创建度量单位层</span><span class="sxs-lookup"><span data-stu-id="c40fb-133">Create unit-of-measure tiers for slotting</span></span>
+<span data-ttu-id="072cd-128">若要使用仓库时隙功能，必须在系统中设置以下元素：</span><span class="sxs-lookup"><span data-stu-id="072cd-128">To use warehouse slotting, you must set up the following elements in your system:</span></span>
 
-<span data-ttu-id="c40fb-134">可通过度量单位层将多个度量单位组合到一起来达到时隙目的。</span><span class="sxs-lookup"><span data-stu-id="c40fb-134">Unit-of-measure tiers enable multiple units of measure to be grouped together for the purposes of slotting.</span></span> <span data-ttu-id="c40fb-135">例如，如果多个尺寸的箱子全部从同一个箱子领取区领取，则可以为所有这些尺寸创建一个层。</span><span class="sxs-lookup"><span data-stu-id="c40fb-135">For example, if multiple sizes of boxes are all picked from the same box picking area, one tier can be created for all the sizes.</span></span> <span data-ttu-id="c40fb-136">**必须为应该属于层的每个度量单位创建一行。**</span><span class="sxs-lookup"><span data-stu-id="c40fb-136">**A line must be created for each unit of measure that should be part of the tier.**</span></span>
+- <span data-ttu-id="072cd-129">时隙度量单位层</span><span class="sxs-lookup"><span data-stu-id="072cd-129">Slotting unit of measure tiers</span></span>
+- <span data-ttu-id="072cd-130">指令代码</span><span class="sxs-lookup"><span data-stu-id="072cd-130">Directive codes</span></span>
+- <span data-ttu-id="072cd-131">时隙模板</span><span class="sxs-lookup"><span data-stu-id="072cd-131">Slotting templates</span></span>
+- <span data-ttu-id="072cd-132">位置指令</span><span class="sxs-lookup"><span data-stu-id="072cd-132">Location directives</span></span>
 
-1. <span data-ttu-id="c40fb-137">转到 **仓库管理 \> 设置 \> 补货 \> 时隙度量单位层**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-137">Go to **Warehouse management \> Setup \> Replenishment \> Slotting unit of measure tiers**.</span></span>
-1. <span data-ttu-id="c40fb-138">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-138">Select **New**.</span></span>
-1. <span data-ttu-id="c40fb-139">在标题中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-139">In the header, set the following values:</span></span>
+### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a><span data-ttu-id="072cd-133">为时隙创建度量单位层</span><span class="sxs-lookup"><span data-stu-id="072cd-133">Create unit-of-measure tiers for slotting</span></span>
 
-    - <span data-ttu-id="c40fb-140">**度量单位层**：*EaBoxPl*</span><span class="sxs-lookup"><span data-stu-id="c40fb-140">**Unit of measure tier:** *EaBoxPl*</span></span>
-    - <span data-ttu-id="c40fb-141">**说明**：*每个箱托盘*</span><span class="sxs-lookup"><span data-stu-id="c40fb-141">**Description:** *Each box pallet*</span></span>
+<span data-ttu-id="072cd-134">可通过度量单位层将多个度量单位组合到一起来达到时隙目的。</span><span class="sxs-lookup"><span data-stu-id="072cd-134">Unit-of-measure tiers enable multiple units of measure to be grouped together for the purposes of slotting.</span></span> <span data-ttu-id="072cd-135">例如，如果多个尺寸的箱子全部从同一个箱子领取区领取，则可以为所有这些尺寸创建一个层。</span><span class="sxs-lookup"><span data-stu-id="072cd-135">For example, if multiple sizes of boxes are all picked from the same box picking area, one tier can be created for all the sizes.</span></span> <span data-ttu-id="072cd-136">**必须为应该属于层的每个度量单位创建一行。**</span><span class="sxs-lookup"><span data-stu-id="072cd-136">**A line must be created for each unit of measure that should be part of the tier.**</span></span>
 
-1. <span data-ttu-id="c40fb-142">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-142">Select **Save**.</span></span>
-1. <span data-ttu-id="c40fb-143">在 **度量单位** 快速选项卡上，选择 **新建** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-143">On the **Units of measure** FastTab, select **New** to add a line to the grid.</span></span>
-1. <span data-ttu-id="c40fb-144">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-144">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-137">转到 **仓库管理 \> 设置 \> 补货 \> 时隙度量单位层**。</span><span class="sxs-lookup"><span data-stu-id="072cd-137">Go to **Warehouse management \> Setup \> Replenishment \> Slotting unit of measure tiers**.</span></span>
+1. <span data-ttu-id="072cd-138">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="072cd-138">Select **New**.</span></span>
+1. <span data-ttu-id="072cd-139">在标题中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-139">In the header, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-145">**单位**：*箱*</span><span class="sxs-lookup"><span data-stu-id="c40fb-145">**Unit:** *Box*</span></span>
-    - <span data-ttu-id="c40fb-146">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-146">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c40fb-147">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="c40fb-147">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="c40fb-148">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="c40fb-148">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="072cd-140">**度量单位层**：*EaBoxPl*</span><span class="sxs-lookup"><span data-stu-id="072cd-140">**Unit of measure tier:** *EaBoxPl*</span></span>
+    - <span data-ttu-id="072cd-141">**说明**：*每个箱托盘*</span><span class="sxs-lookup"><span data-stu-id="072cd-141">**Description:** *Each box pallet*</span></span>
 
-1. <span data-ttu-id="c40fb-149">选择 **新建** 向网格添加第二行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-149">Select **New** to add a second line to the grid.</span></span>
-1. <span data-ttu-id="c40fb-150">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-150">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-142">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="072cd-142">Select **Save**.</span></span>
+1. <span data-ttu-id="072cd-143">在 **度量单位** 快速选项卡上，选择 **新建** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-143">On the **Units of measure** FastTab, select **New** to add a line to the grid.</span></span>
+1. <span data-ttu-id="072cd-144">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-144">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-151">**单位：** *ea*</span><span class="sxs-lookup"><span data-stu-id="c40fb-151">**Unit:** *ea*</span></span>
-    - <span data-ttu-id="c40fb-152">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-152">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c40fb-153">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="c40fb-153">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="c40fb-154">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="c40fb-154">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="072cd-145">**单位**：*箱*</span><span class="sxs-lookup"><span data-stu-id="072cd-145">**Unit:** *Box*</span></span>
+    - <span data-ttu-id="072cd-146">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-146">**Description:** Leave this field blank.</span></span> <span data-ttu-id="072cd-147">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="072cd-147">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="072cd-148">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="072cd-148">**Unit class:** *Quantity*</span></span>
 
-1. <span data-ttu-id="c40fb-155">选择 **新建** 向网格添加第三行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-155">Select **New** to add a third line to the grid.</span></span>
-1. <span data-ttu-id="c40fb-156">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-156">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-149">选择 **新建** 向网格添加第二行。</span><span class="sxs-lookup"><span data-stu-id="072cd-149">Select **New** to add a second line to the grid.</span></span>
+1. <span data-ttu-id="072cd-150">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-150">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-157">**单位**：*PL*</span><span class="sxs-lookup"><span data-stu-id="c40fb-157">**Unit:** *PL*</span></span>
-    - <span data-ttu-id="c40fb-158">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-158">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c40fb-159">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="c40fb-159">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="c40fb-160">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="c40fb-160">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="072cd-151">**单位：** *ea*</span><span class="sxs-lookup"><span data-stu-id="072cd-151">**Unit:** *ea*</span></span>
+    - <span data-ttu-id="072cd-152">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-152">**Description:** Leave this field blank.</span></span> <span data-ttu-id="072cd-153">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="072cd-153">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="072cd-154">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="072cd-154">**Unit class:** *Quantity*</span></span>
 
-1. <span data-ttu-id="c40fb-161">选择 **保存** 以保存层。</span><span class="sxs-lookup"><span data-stu-id="c40fb-161">Select **Save** to save the tier.</span></span>
+1. <span data-ttu-id="072cd-155">选择 **新建** 向网格添加第三行。</span><span class="sxs-lookup"><span data-stu-id="072cd-155">Select **New** to add a third line to the grid.</span></span>
+1. <span data-ttu-id="072cd-156">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-156">On the new line, set the following values:</span></span>
 
-### <a name="create-a-directive-code-for-slotting"></a><span data-ttu-id="c40fb-162">为时隙创建指令代码</span><span class="sxs-lookup"><span data-stu-id="c40fb-162">Create a directive code for slotting</span></span>
+    - <span data-ttu-id="072cd-157">**单位**：*PL*</span><span class="sxs-lookup"><span data-stu-id="072cd-157">**Unit:** *PL*</span></span>
+    - <span data-ttu-id="072cd-158">**说明：** 将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-158">**Description:** Leave this field blank.</span></span> <span data-ttu-id="072cd-159">保存更改时，将自动填写。</span><span class="sxs-lookup"><span data-stu-id="072cd-159">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="072cd-160">**单位类**：*数量*</span><span class="sxs-lookup"><span data-stu-id="072cd-160">**Unit class:** *Quantity*</span></span>
 
-<span data-ttu-id="c40fb-163">必须选择应与模板关联的指令代码。</span><span class="sxs-lookup"><span data-stu-id="c40fb-163">You must select the directive code that should be associated with a template.</span></span>
+1. <span data-ttu-id="072cd-161">选择 **保存** 以保存层。</span><span class="sxs-lookup"><span data-stu-id="072cd-161">Select **Save** to save the tier.</span></span>
 
-1. <span data-ttu-id="c40fb-164">转到 **库存管理 \> 设置 \> 指令代码**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-164">Go to **Warehouse management \> Setup \> Directive codes**.</span></span>
-1. <span data-ttu-id="c40fb-165">在操作窗格上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-165">On the Action Pane, select **New**.</span></span>
-1. <span data-ttu-id="c40fb-166">在 **指令代码** 字段中，输入 *时隙*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-166">In the **Directive code** field, enter *Slotting*.</span></span>
-1. <span data-ttu-id="c40fb-167">在 **指令说明** 字段中，输入 *时隙*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-167">In the **Directive description** field, enter *Slotting*.</span></span>
+### <a name="create-a-directive-code-for-slotting"></a><span data-ttu-id="072cd-162">为时隙创建指令代码</span><span class="sxs-lookup"><span data-stu-id="072cd-162">Create a directive code for slotting</span></span>
 
-### <a name="set-up-slotting-templates"></a><span data-ttu-id="c40fb-168">设置时隙模板</span><span class="sxs-lookup"><span data-stu-id="c40fb-168">Set up slotting templates</span></span>
+<span data-ttu-id="072cd-163">必须选择应与模板关联的指令代码。</span><span class="sxs-lookup"><span data-stu-id="072cd-163">You must select the directive code that should be associated with a template.</span></span>
 
-<span data-ttu-id="c40fb-169">各时隙模板控制如何将库存分配给特定仓库的货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-169">Each slotting template controls how inventory is assigned to locations for a specific warehouse.</span></span> <span data-ttu-id="c40fb-170">每个时隙规范在每个模板中必须有一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-170">Each template must include a line for each slotting specification.</span></span> <span data-ttu-id="c40fb-171">可使用此部分中的过程设置时隙模板。</span><span class="sxs-lookup"><span data-stu-id="c40fb-171">Use the procedures in this section to set up slotting templates.</span></span>
+1. <span data-ttu-id="072cd-164">转到 **库存管理 \> 设置 \> 指令代码**。</span><span class="sxs-lookup"><span data-stu-id="072cd-164">Go to **Warehouse management \> Setup \> Directive codes**.</span></span>
+1. <span data-ttu-id="072cd-165">在操作窗格上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="072cd-165">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="072cd-166">在 **指令代码** 字段中，输入 *时隙*。</span><span class="sxs-lookup"><span data-stu-id="072cd-166">In the **Directive code** field, enter *Slotting*.</span></span>
+1. <span data-ttu-id="072cd-167">在 **指令说明** 字段中，输入 *时隙*。</span><span class="sxs-lookup"><span data-stu-id="072cd-167">In the **Directive description** field, enter *Slotting*.</span></span>
 
-1. <span data-ttu-id="c40fb-172">转到 **仓库管理 \> 设置 \> 补货 \> 时隙模板**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-172">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**.</span></span>
-1. <span data-ttu-id="c40fb-173">选择 **新建** 以创建模板。</span><span class="sxs-lookup"><span data-stu-id="c40fb-173">Select **New** to create a template.</span></span>
+### <a name="set-up-slotting-templates"></a><span data-ttu-id="072cd-168">设置时隙模板</span><span class="sxs-lookup"><span data-stu-id="072cd-168">Set up slotting templates</span></span>
 
-<span data-ttu-id="c40fb-174">接下来，必须按照下面子部分中的说明设置模板标题、时隙规范和货位指令。</span><span class="sxs-lookup"><span data-stu-id="c40fb-174">Next, you must set up the template header, slotting specifications, and location directives, as explained in the following subsections.</span></span> <span data-ttu-id="c40fb-175">转移单的时隙设置类似于销售订单的时隙设置，但是 **需求类型** 字段设置为 *转移单* 而不是 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-175">The setup for slotting for transfer orders resembles the setup for slotting for sales orders, but the **Demand type** field is set *Transfer orders* instead of *Sales order*.</span></span>
+<span data-ttu-id="072cd-169">各时隙模板控制如何将库存分配给特定仓库的货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-169">Each slotting template controls how inventory is assigned to locations for a specific warehouse.</span></span> <span data-ttu-id="072cd-170">每个时隙规范在每个模板中必须有一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-170">Each template must include a line for each slotting specification.</span></span> <span data-ttu-id="072cd-171">可使用此部分中的过程设置时隙模板。</span><span class="sxs-lookup"><span data-stu-id="072cd-171">Use the procedures in this section to set up slotting templates.</span></span>
 
-#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a><span data-ttu-id="c40fb-176">设置销售订单时隙模板的标题</span><span class="sxs-lookup"><span data-stu-id="c40fb-176">Set up the header for a sales order slotting template</span></span>
+1. <span data-ttu-id="072cd-172">转到 **仓库管理 \> 设置 \> 补货 \> 时隙模板**。</span><span class="sxs-lookup"><span data-stu-id="072cd-172">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**.</span></span>
+1. <span data-ttu-id="072cd-173">选择 **新建** 以创建模板。</span><span class="sxs-lookup"><span data-stu-id="072cd-173">Select **New** to create a template.</span></span>
 
-1. <span data-ttu-id="c40fb-177">在模板的标题中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-177">In the header for the template, set the following values:</span></span>
+<span data-ttu-id="072cd-174">接下来，必须按照下面子部分中的说明设置模板标题、时隙规范和货位指令。</span><span class="sxs-lookup"><span data-stu-id="072cd-174">Next, you must set up the template header, slotting specifications, and location directives, as explained in the following subsections.</span></span> <span data-ttu-id="072cd-175">转移单的时隙设置类似于销售订单的时隙设置，但是 **需求类型** 字段设置为 *转移单* 而不是 *销售订单*。</span><span class="sxs-lookup"><span data-stu-id="072cd-175">The setup for slotting for transfer orders resembles the setup for slotting for sales orders, but the **Demand type** field is set *Transfer orders* instead of *Sales order*.</span></span>
 
-    - <span data-ttu-id="c40fb-178">**时隙模板：**_61_</span><span class="sxs-lookup"><span data-stu-id="c40fb-178">**Slotting template:** _61_</span></span>
-    - <span data-ttu-id="c40fb-179">**说明：**_61_</span><span class="sxs-lookup"><span data-stu-id="c40fb-179">**Description:** _61_</span></span>
-    - <span data-ttu-id="c40fb-180">**需求类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="c40fb-180">**Demand type:** *Sales order*</span></span>
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a><span data-ttu-id="072cd-176">设置销售订单时隙模板的标题</span><span class="sxs-lookup"><span data-stu-id="072cd-176">Set up the header for a sales order slotting template</span></span>
+
+1. <span data-ttu-id="072cd-177">在模板的标题中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-177">In the header for the template, set the following values:</span></span>
+
+    - <span data-ttu-id="072cd-178">**时隙模板：**_61_</span><span class="sxs-lookup"><span data-stu-id="072cd-178">**Slotting template:** _61_</span></span>
+    - <span data-ttu-id="072cd-179">**说明：**_61_</span><span class="sxs-lookup"><span data-stu-id="072cd-179">**Description:** _61_</span></span>
+    - <span data-ttu-id="072cd-180">**需求类型**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="072cd-180">**Demand type:** *Sales order*</span></span>
 
         > [!NOTE]
-        > <span data-ttu-id="c40fb-181">目前，*销售订单* 和 *转移单* 是唯一受支持的需求类型。</span><span class="sxs-lookup"><span data-stu-id="c40fb-181">Currently, *Sales orders* and *Transfer orders* are the only demand types that are supported.</span></span> <span data-ttu-id="c40fb-182">仅当 *转移单的仓库时隙* 功能打开时，才可以选择 *转移单*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-182">You can select *Transfer orders* only if the *Warehouse Slotting for transfer orders* feature is turned on.</span></span>
+        > <span data-ttu-id="072cd-181">目前，*销售订单* 和 *转移单* 是唯一受支持的需求类型。</span><span class="sxs-lookup"><span data-stu-id="072cd-181">Currently, *Sales orders* and *Transfer orders* are the only demand types that are supported.</span></span> <span data-ttu-id="072cd-182">仅当 *转移单的仓库时隙* 功能打开时，才可以选择 *转移单*。</span><span class="sxs-lookup"><span data-stu-id="072cd-182">You can select *Transfer orders* only if the *Warehouse Slotting for transfer orders* feature is turned on.</span></span>
 
-    - <span data-ttu-id="c40fb-183">**需求策略：**_订购_</span><span class="sxs-lookup"><span data-stu-id="c40fb-183">**Demand strategy:** _Ordered_</span></span>
+    - <span data-ttu-id="072cd-183">**需求策略：**_订购_</span><span class="sxs-lookup"><span data-stu-id="072cd-183">**Demand strategy:** _Ordered_</span></span>
 
-        <span data-ttu-id="c40fb-184">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-184">The following values are available in this field:</span></span>
+        <span data-ttu-id="072cd-184">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-184">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="c40fb-185">**订购** – 应该将销售订单中的所有订购数量视为需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-185">**Ordered** – The full ordered quantity on the sales order should be considered demand.</span></span>
-        - <span data-ttu-id="c40fb-186">**预留** – 仅应将预留的销售订单行数量（订购的实物）视为需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-186">**Reserved** – Only the sales order line quantities that are reserved (physical and ordered) should be considered demand.</span></span>
-        - <span data-ttu-id="c40fb-187">**已下达** – 已下达数量应视为需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-187">**Released** – The released quantity should be considered demand.</span></span>
+        - <span data-ttu-id="072cd-185">**订购** – 应该将销售订单中的所有订购数量视为需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-185">**Ordered** – The full ordered quantity on the sales order should be considered demand.</span></span>
+        - <span data-ttu-id="072cd-186">**预留** – 仅应将预留的销售订单行数量（订购的实物）视为需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-186">**Reserved** – Only the sales order line quantities that are reserved (physical and ordered) should be considered demand.</span></span>
+        - <span data-ttu-id="072cd-187">**已下达** – 已下达数量应视为需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-187">**Released** – The released quantity should be considered demand.</span></span>
 
-    - <span data-ttu-id="c40fb-188">**仓库**：_61_</span><span class="sxs-lookup"><span data-stu-id="c40fb-188">**Warehouse:** _61_</span></span>
-    - <span data-ttu-id="c40fb-189">**允许波次需求使用未预留数量：**_是_</span><span class="sxs-lookup"><span data-stu-id="c40fb-189">**Allow wave demand to use unreserved quantities:** _Yes_</span></span>
+    - <span data-ttu-id="072cd-188">**仓库**：_61_</span><span class="sxs-lookup"><span data-stu-id="072cd-188">**Warehouse:** _61_</span></span>
+    - <span data-ttu-id="072cd-189">**允许波次需求使用未预留数量：**_是_</span><span class="sxs-lookup"><span data-stu-id="072cd-189">**Allow wave demand to use unreserved quantities:** _Yes_</span></span>
 
-<span data-ttu-id="c40fb-190">还可以指定查询以缩小评估的需求范围。</span><span class="sxs-lookup"><span data-stu-id="c40fb-190">You can also specify a query to narrow the scope of the demand that is evaluated.</span></span>
+<span data-ttu-id="072cd-190">还可以指定查询以缩小评估的需求范围。</span><span class="sxs-lookup"><span data-stu-id="072cd-190">You can also specify a query to narrow the scope of the demand that is evaluated.</span></span>
 
-#### <a name="set-up-slotting-specifications-for-each-template"></a><span data-ttu-id="c40fb-191">为每个模板设置时隙规范</span><span class="sxs-lookup"><span data-stu-id="c40fb-191">Set up slotting specifications for each template</span></span>
+#### <a name="set-up-slotting-specifications-for-each-template"></a><span data-ttu-id="072cd-191">为每个模板设置时隙规范</span><span class="sxs-lookup"><span data-stu-id="072cd-191">Set up slotting specifications for each template</span></span>
 
-<span data-ttu-id="c40fb-192">对于创建的每个销售订单模板，执行以下步骤为每个时隙规范添加一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-192">For each sales order template that you create, follow these steps to add a line for each slotting specification.</span></span>
+<span data-ttu-id="072cd-192">对于创建的每个销售订单模板，执行以下步骤为每个时隙规范添加一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-192">For each sales order template that you create, follow these steps to add a line for each slotting specification.</span></span>
 
-1. <span data-ttu-id="c40fb-193">在 **时隙模板详细信息** 快速选项卡上，选择 **新建** 创建一个模板行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-193">On the **Slotting template details** FastTab, select **New** to create a template line.</span></span>
-1. <span data-ttu-id="c40fb-194">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-194">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-193">在 **时隙模板详细信息** 快速选项卡上，选择 **新建** 创建一个模板行。</span><span class="sxs-lookup"><span data-stu-id="072cd-193">On the **Slotting template details** FastTab, select **New** to create a template line.</span></span>
+1. <span data-ttu-id="072cd-194">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-194">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-195">**序列：** _1_</span><span class="sxs-lookup"><span data-stu-id="c40fb-195">**Sequence:** _1_</span></span>
-    - <span data-ttu-id="c40fb-196">**说明：**_固定货位_</span><span class="sxs-lookup"><span data-stu-id="c40fb-196">**Description:** _Fixed location_</span></span>
-    - <span data-ttu-id="c40fb-197">**最小数量：**_1_</span><span class="sxs-lookup"><span data-stu-id="c40fb-197">**Minimum quantity:** _1_</span></span>
+    - <span data-ttu-id="072cd-195">**序列：** _1_</span><span class="sxs-lookup"><span data-stu-id="072cd-195">**Sequence:** _1_</span></span>
+    - <span data-ttu-id="072cd-196">**说明：**_固定货位_</span><span class="sxs-lookup"><span data-stu-id="072cd-196">**Description:** _Fixed location_</span></span>
+    - <span data-ttu-id="072cd-197">**最小数量：**_1_</span><span class="sxs-lookup"><span data-stu-id="072cd-197">**Minimum quantity:** _1_</span></span>
 
-        <span data-ttu-id="c40fb-198">此字段定义行需要的最小需求数量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-198">This field defines the minimum quantity of demand that is required for the line.</span></span>
+        <span data-ttu-id="072cd-198">此字段定义行需要的最小需求数量。</span><span class="sxs-lookup"><span data-stu-id="072cd-198">This field defines the minimum quantity of demand that is required for the line.</span></span>
 
-    - <span data-ttu-id="c40fb-199">**最大数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="c40fb-199">**Maximum quantity:** _1000000_</span></span>
+    - <span data-ttu-id="072cd-199">**最大数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="072cd-199">**Maximum quantity:** _1000000_</span></span>
 
-        <span data-ttu-id="c40fb-200">此字段定义行的最大有效需求数量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-200">This field defines the maximum quantity of demand that is valid for the line.</span></span>
+        <span data-ttu-id="072cd-200">此字段定义行的最大有效需求数量。</span><span class="sxs-lookup"><span data-stu-id="072cd-200">This field defines the maximum quantity of demand that is valid for the line.</span></span>
 
-    - <span data-ttu-id="c40fb-201">**单位**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-201">**Unit:** Leave this field blank.</span></span>
+    - <span data-ttu-id="072cd-201">**单位**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-201">**Unit:** Leave this field blank.</span></span>
 
-        <span data-ttu-id="c40fb-202">此字段定义最小数量和最大数量引用的度量单位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-202">This field defines the unit of measure that the minimum and maximum quantities refer to.</span></span>
+        <span data-ttu-id="072cd-202">此字段定义最小数量和最大数量引用的度量单位。</span><span class="sxs-lookup"><span data-stu-id="072cd-202">This field defines the unit of measure that the minimum and maximum quantities refer to.</span></span>
 
-    - <span data-ttu-id="c40fb-203">**度量单位层：**_EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="c40fb-203">**Unit of Measure Tier:** _EaBoxPl_</span></span>
+    - <span data-ttu-id="072cd-203">**度量单位层：**_EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="072cd-203">**Unit of Measure Tier:** _EaBoxPl_</span></span>
 
-        <span data-ttu-id="c40fb-204">此字段定义行的有效需求度量单位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-204">This field defines the units of measure of demand that are valid for the line.</span></span> <span data-ttu-id="c40fb-205">（有关详细信息，请参阅本主题前面的[为时隙设置度量单位层](#unit-tiers)部分。）</span><span class="sxs-lookup"><span data-stu-id="c40fb-205">(For more information, see the [Set up unit-of-measure tiers for slotting](#unit-tiers) section earlier in this topic.)</span></span>
+        <span data-ttu-id="072cd-204">此字段定义行的有效需求度量单位。</span><span class="sxs-lookup"><span data-stu-id="072cd-204">This field defines the units of measure of demand that are valid for the line.</span></span> <span data-ttu-id="072cd-205">（有关详细信息，请参阅本主题前面的[为时隙设置度量单位层](#unit-tiers)部分。）</span><span class="sxs-lookup"><span data-stu-id="072cd-205">(For more information, see the [Set up unit-of-measure tiers for slotting](#unit-tiers) section earlier in this topic.)</span></span>
 
-    - <span data-ttu-id="c40fb-206">**分配时隙条件：**_考虑数量_</span><span class="sxs-lookup"><span data-stu-id="c40fb-206">**Assign slot criteria:** _Consider qty_</span></span>
+    - <span data-ttu-id="072cd-206">**分配时隙条件：**_考虑数量_</span><span class="sxs-lookup"><span data-stu-id="072cd-206">**Assign slot criteria:** _Consider qty_</span></span>
 
-        <span data-ttu-id="c40fb-207">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-207">The following values are available in this field:</span></span>
+        <span data-ttu-id="072cd-207">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-207">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="c40fb-208">**假设为空** – 该系统应假设领料区中的所有货位均为空，并且不应检查这些货位是否有库存。</span><span class="sxs-lookup"><span data-stu-id="c40fb-208">**Assume empty** – This system should assume that all locations in the picking area are empty and should not check those locations for inventory.</span></span>
-        - <span data-ttu-id="c40fb-209">**考虑数量** – 系统应检查领料区中的货位是否有库存，并且应该跳过所有非空货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-209">**Consider qty** – The system should check the locations in the picking area for inventory and should skip any locations that aren't empty.</span></span>
-        - <span data-ttu-id="c40fb-210">**考虑现有量** – 系统应检查任何目标位置是否在需求行上包含物料的未预留数量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-210">**Consider on-hand** – The system should check whether any target location contains unreserved quantities for the item on the demand line.</span></span> <span data-ttu-id="c40fb-211">如果数量大到足以满足需求行的至少一个单位，生成的时隙计划记录将减少可用数量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-211">If the quantity is large enough to satisfy at least one unit of the demand line, the generated slotting plan record is reduced by the available amount.</span></span> <span data-ttu-id="c40fb-212">例如，如果需求为 10 箱，一箱是现有量，那么找到的需求将为 9 箱。</span><span class="sxs-lookup"><span data-stu-id="c40fb-212">For example, if the demand is 10 cases, and one case is on hand, the located demand will be nine cases.</span></span> <span data-ttu-id="c40fb-213">如果需求为 10 箱，现有量是各一箱，那么找到的需求将为 10 箱。</span><span class="sxs-lookup"><span data-stu-id="c40fb-213">If the demand is 10 cases, and one each is on hand, the located demand will be 10 cases.</span></span> <span data-ttu-id="c40fb-214">仅在启用 *仓库时隙分配增强* 打开时，此值才可用。</span><span class="sxs-lookup"><span data-stu-id="c40fb-214">This value is available only when the *Warehouse slotting allocation enhancements* feature is turned on.</span></span>
+        - <span data-ttu-id="072cd-208">**假设为空** – 该系统应假设领料区中的所有货位均为空，并且不应检查这些货位是否有库存。</span><span class="sxs-lookup"><span data-stu-id="072cd-208">**Assume empty** – This system should assume that all locations in the picking area are empty and should not check those locations for inventory.</span></span>
+        - <span data-ttu-id="072cd-209">**考虑数量** – 系统应检查领料区中的货位是否有库存，并且应该跳过所有非空货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-209">**Consider qty** – The system should check the locations in the picking area for inventory and should skip any locations that aren't empty.</span></span>
+        - <span data-ttu-id="072cd-210">**考虑现有量** – 系统应检查任何目标位置是否在需求行上包含物料的未预留数量。</span><span class="sxs-lookup"><span data-stu-id="072cd-210">**Consider on-hand** – The system should check whether any target location contains unreserved quantities for the item on the demand line.</span></span> <span data-ttu-id="072cd-211">如果数量大到足以满足需求行的至少一个单位，生成的时隙计划记录将减少可用数量。</span><span class="sxs-lookup"><span data-stu-id="072cd-211">If the quantity is large enough to satisfy at least one unit of the demand line, the generated slotting plan record is reduced by the available amount.</span></span> <span data-ttu-id="072cd-212">例如，如果需求为 10 箱，一箱是现有量，那么找到的需求将为 9 箱。</span><span class="sxs-lookup"><span data-stu-id="072cd-212">For example, if the demand is 10 cases, and one case is on hand, the located demand will be nine cases.</span></span> <span data-ttu-id="072cd-213">如果需求为 10 箱，现有量是各一箱，那么找到的需求将为 10 箱。</span><span class="sxs-lookup"><span data-stu-id="072cd-213">If the demand is 10 cases, and one each is on hand, the located demand will be 10 cases.</span></span> <span data-ttu-id="072cd-214">仅在启用 *仓库时隙分配增强* 打开时，此值才可用。</span><span class="sxs-lookup"><span data-stu-id="072cd-214">This value is available only when the *Warehouse slotting allocation enhancements* feature is turned on.</span></span>
 
-    - <span data-ttu-id="c40fb-215">**指令代码**：_时隙_</span><span class="sxs-lookup"><span data-stu-id="c40fb-215">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="072cd-215">**指令代码**：_时隙_</span><span class="sxs-lookup"><span data-stu-id="072cd-215">**Directive code:** _Slotting_</span></span>
 
-        <span data-ttu-id="c40fb-216">此字段定义货位指令，用于查找补货工作的领料货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-216">This field defines the location directive that is used to find the picking location of the replenishment work.</span></span>
+        <span data-ttu-id="072cd-216">此字段定义货位指令，用于查找补货工作的领料货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-216">This field defines the location directive that is used to find the picking location of the replenishment work.</span></span>
 
-    - <span data-ttu-id="c40fb-217">**溢出货位：** 将此字段保持为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-217">**Overflow location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="072cd-217">**溢出货位：** 将此字段保持为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-217">**Overflow location:** Leave this field blank.</span></span>
 
-        <span data-ttu-id="c40fb-218">此字段定义如果在处理行时找不到货位，应将库存放入的货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-218">This field defines the location that inventory that is put to if a location can't be found for the quantity when the line is processed.</span></span>
+        <span data-ttu-id="072cd-218">此字段定义如果在处理行时找不到货位，应将库存放入的货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-218">This field defines the location that inventory that is put to if a location can't be found for the quantity when the line is processed.</span></span>
 
-    - <span data-ttu-id="c40fb-219">**允许放弃：**_是_</span><span class="sxs-lookup"><span data-stu-id="c40fb-219">**Allow let up:** _Yes_</span></span>
+    - <span data-ttu-id="072cd-219">**允许放弃：**_是_</span><span class="sxs-lookup"><span data-stu-id="072cd-219">**Allow let up:** _Yes_</span></span>
 
-        <span data-ttu-id="c40fb-220">如果此选项设置为 *是*，并且不能为任何需求划分时隙，将创建移动工作把库存移出有库存，但未划分时隙的货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-220">When this option is set to *Yes*, if any demand can't be slotted, movement work will be created to take inventory out of locations where there is inventory, but where nothing was slotted.</span></span> <span data-ttu-id="c40fb-221">然后再次运行模板。</span><span class="sxs-lookup"><span data-stu-id="c40fb-221">The template is then run again.</span></span> <span data-ttu-id="c40fb-222">这次将忽略货位中的库存。</span><span class="sxs-lookup"><span data-stu-id="c40fb-222">This time, it ignores the inventory in the locations.</span></span> <span data-ttu-id="c40fb-223">如果 **分配时隙条件** 字段设置为 _考虑数量_，此功能效果最好。</span><span class="sxs-lookup"><span data-stu-id="c40fb-223">This functionality works best when the **Assign slot criteria** field is set to _Consider qty_.</span></span>
+        <span data-ttu-id="072cd-220">如果此选项设置为 *是*，并且不能为任何需求划分时隙，将创建移动工作把库存移出有库存，但未划分时隙的货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-220">When this option is set to *Yes*, if any demand can't be slotted, movement work will be created to take inventory out of locations where there is inventory, but where nothing was slotted.</span></span> <span data-ttu-id="072cd-221">然后再次运行模板。</span><span class="sxs-lookup"><span data-stu-id="072cd-221">The template is then run again.</span></span> <span data-ttu-id="072cd-222">这次将忽略货位中的库存。</span><span class="sxs-lookup"><span data-stu-id="072cd-222">This time, it ignores the inventory in the locations.</span></span> <span data-ttu-id="072cd-223">如果 **分配时隙条件** 字段设置为 _考虑数量_，此功能效果最好。</span><span class="sxs-lookup"><span data-stu-id="072cd-223">This functionality works best when the **Assign slot criteria** field is set to _Consider qty_.</span></span>
 
-    - <span data-ttu-id="c40fb-224">**固定货位用法：**_仅限产品的固定货位_</span><span class="sxs-lookup"><span data-stu-id="c40fb-224">**Fixed location usage:** _Only fixed locations for the product_</span></span>
+    - <span data-ttu-id="072cd-224">**固定货位用法：**_仅限产品的固定货位_</span><span class="sxs-lookup"><span data-stu-id="072cd-224">**Fixed location usage:** _Only fixed locations for the product_</span></span>
 
-        <span data-ttu-id="c40fb-225">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-225">The following values are available in this field:</span></span>
+        <span data-ttu-id="072cd-225">此字段中提供以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-225">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="c40fb-226">**固定货位和非固定货位** – 不应将系统限制为只能使用固定货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-226">**Fixed and non-fixed locations** – The system should not be limited to using only fixed locations.</span></span>
-        - <span data-ttu-id="c40fb-227">**仅限产品的固定货位** – 系统应该将货位的时隙划分给仅限产品的固定货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-227">**Only fixed locations for the product** – The system should slot only to locations that are fixed locations for the product.</span></span>
-        - <span data-ttu-id="c40fb-228">**仅限产品变型的固定货位** – 系统应该将货位的时隙划分给仅限产品变型的固定货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-228">**Only fixed locations for the product variant** – The system should slot only to locations that are fixed locations for the product variant.</span></span>
+        - <span data-ttu-id="072cd-226">**固定货位和非固定货位** – 不应将系统限制为只能使用固定货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-226">**Fixed and non-fixed locations** – The system should not be limited to using only fixed locations.</span></span>
+        - <span data-ttu-id="072cd-227">**仅限产品的固定货位** – 系统应该将货位的时隙划分给仅限产品的固定货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-227">**Only fixed locations for the product** – The system should slot only to locations that are fixed locations for the product.</span></span>
+        - <span data-ttu-id="072cd-228">**仅限产品变型的固定货位** – 系统应该将货位的时隙划分给仅限产品变型的固定货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-228">**Only fixed locations for the product variant** – The system should slot only to locations that are fixed locations for the product variant.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c40fb-229">如果时隙模板包含至少一行，其中 **分配时隙条件** 字段设置为 *考虑现有量*，模板中的任何一行都不再允许减少。</span><span class="sxs-lookup"><span data-stu-id="c40fb-229">If the slotting template contains at least one line where the **Assign slot criteria** field is set to *Consider on-hand*, let-ups are no longer allowed for any line in the template.</span></span>
+> <span data-ttu-id="072cd-229">如果时隙模板包含至少一行，其中 **分配时隙条件** 字段设置为 *考虑现有量*，模板中的任何一行都不再允许减少。</span><span class="sxs-lookup"><span data-stu-id="072cd-229">If the slotting template contains at least one line where the **Assign slot criteria** field is set to *Consider on-hand*, let-ups are no longer allowed for any line in the template.</span></span>
 
-1. <span data-ttu-id="c40fb-230">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-230">Select **Save**.</span></span>
-1. <span data-ttu-id="c40fb-231">选择 **新建** 创建第二个模板行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-231">Select **New** to create a second template line.</span></span>
-1. <span data-ttu-id="c40fb-232">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-232">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-230">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="072cd-230">Select **Save**.</span></span>
+1. <span data-ttu-id="072cd-231">选择 **新建** 创建第二个模板行。</span><span class="sxs-lookup"><span data-stu-id="072cd-231">Select **New** to create a second template line.</span></span>
+1. <span data-ttu-id="072cd-232">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-232">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-233">**序列：** _2_</span><span class="sxs-lookup"><span data-stu-id="c40fb-233">**Sequence:** _2_</span></span>
-    - <span data-ttu-id="c40fb-234">**说明：**_其他_</span><span class="sxs-lookup"><span data-stu-id="c40fb-234">**Description:** _Other_</span></span>
-    - <span data-ttu-id="c40fb-235">**最小数量：**_1_</span><span class="sxs-lookup"><span data-stu-id="c40fb-235">**Minimum Qty:** _1_</span></span>
-    - <span data-ttu-id="c40fb-236">**最大数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="c40fb-236">**Maximum Qty:** _1000000_</span></span>
-    - <span data-ttu-id="c40fb-237">**单位**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-237">**Unit:** Leave this field blank.</span></span>
-    - <span data-ttu-id="c40fb-238">**度量单位层：**_EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="c40fb-238">**Unit of measure tier:** _EaBoxPl_</span></span>
-    - <span data-ttu-id="c40fb-239">**分配时隙条件：**_考虑数量_</span><span class="sxs-lookup"><span data-stu-id="c40fb-239">**Assign slot criteria:** _Consider qty_</span></span>
-    - <span data-ttu-id="c40fb-240">**指令代码：**_时隙_</span><span class="sxs-lookup"><span data-stu-id="c40fb-240">**Directive code:** _Slotting_</span></span>
-    - <span data-ttu-id="c40fb-241">**溢出货位：** 将此字段保持为空。</span><span class="sxs-lookup"><span data-stu-id="c40fb-241">**Overflow location:** Leave this field blank.</span></span>
-    - <span data-ttu-id="c40fb-242">**允许放弃：**_是_</span><span class="sxs-lookup"><span data-stu-id="c40fb-242">**Allow let up:** _Yes_</span></span>
-    - <span data-ttu-id="c40fb-243">**使用固定货位：**_固定货位和非固定货位_</span><span class="sxs-lookup"><span data-stu-id="c40fb-243">**Use fixed locations:** _Fixed and non-fixed locations_</span></span>
+    - <span data-ttu-id="072cd-233">**序列：** _2_</span><span class="sxs-lookup"><span data-stu-id="072cd-233">**Sequence:** _2_</span></span>
+    - <span data-ttu-id="072cd-234">**说明：**_其他_</span><span class="sxs-lookup"><span data-stu-id="072cd-234">**Description:** _Other_</span></span>
+    - <span data-ttu-id="072cd-235">**最小数量：**_1_</span><span class="sxs-lookup"><span data-stu-id="072cd-235">**Minimum Qty:** _1_</span></span>
+    - <span data-ttu-id="072cd-236">**最大数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="072cd-236">**Maximum Qty:** _1000000_</span></span>
+    - <span data-ttu-id="072cd-237">**单位**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-237">**Unit:** Leave this field blank.</span></span>
+    - <span data-ttu-id="072cd-238">**度量单位层：**_EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="072cd-238">**Unit of measure tier:** _EaBoxPl_</span></span>
+    - <span data-ttu-id="072cd-239">**分配时隙条件：**_考虑数量_</span><span class="sxs-lookup"><span data-stu-id="072cd-239">**Assign slot criteria:** _Consider qty_</span></span>
+    - <span data-ttu-id="072cd-240">**指令代码：**_时隙_</span><span class="sxs-lookup"><span data-stu-id="072cd-240">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="072cd-241">**溢出货位：** 将此字段保持为空。</span><span class="sxs-lookup"><span data-stu-id="072cd-241">**Overflow location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="072cd-242">**允许放弃：**_是_</span><span class="sxs-lookup"><span data-stu-id="072cd-242">**Allow let up:** _Yes_</span></span>
+    - <span data-ttu-id="072cd-243">**使用固定货位：**_固定货位和非固定货位_</span><span class="sxs-lookup"><span data-stu-id="072cd-243">**Use fixed locations:** _Fixed and non-fixed locations_</span></span>
 
-    <span data-ttu-id="c40fb-244">在查询第二个行时，现在指定用于确定可以将该行的需求时隙划分给哪些货位。</span><span class="sxs-lookup"><span data-stu-id="c40fb-244">In the query for the second line, you will now specify the criteria that are used to determine what locations the demand for that line can be slotted to.</span></span>
+    <span data-ttu-id="072cd-244">在查询第二个行时，现在指定用于确定可以将该行的需求时隙划分给哪些货位。</span><span class="sxs-lookup"><span data-stu-id="072cd-244">In the query for the second line, you will now specify the criteria that are used to determine what locations the demand for that line can be slotted to.</span></span>
 
-1. <span data-ttu-id="c40fb-245">选择其中的 **序列** 字段设置为 *2* 的行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-245">Select the line where the **Sequence** field is set to *2*.</span></span>
-1. <span data-ttu-id="c40fb-246">选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-246">Select **Edit query**.</span></span>
-1. <span data-ttu-id="c40fb-247">在 **范围** 选项卡中，选择 **添加** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-247">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
-1. <span data-ttu-id="c40fb-248">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-248">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-245">选择其中的 **序列** 字段设置为 *2* 的行。</span><span class="sxs-lookup"><span data-stu-id="072cd-245">Select the line where the **Sequence** field is set to *2*.</span></span>
+1. <span data-ttu-id="072cd-246">选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="072cd-246">Select **Edit query**.</span></span>
+1. <span data-ttu-id="072cd-247">在 **范围** 选项卡中，选择 **添加** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-247">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
+1. <span data-ttu-id="072cd-248">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-248">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-249">**表：** *位置*</span><span class="sxs-lookup"><span data-stu-id="c40fb-249">**Table:** *Locations*</span></span>
-    - <span data-ttu-id="c40fb-250">**派生表**：*货位*</span><span class="sxs-lookup"><span data-stu-id="c40fb-250">**Derived table:** *Locations*</span></span>
-    - <span data-ttu-id="c40fb-251">\**字段：\*\*\*位置模板 ID*</span><span class="sxs-lookup"><span data-stu-id="c40fb-251">**Field:** *Location profile ID*</span></span>
-    - <span data-ttu-id="c40fb-252">**条件**：*Pick-06*（选择字段中的双加号 \[**++**\] 展开列表，然后选择 *Pick-06* - *领料点 6*。）</span><span class="sxs-lookup"><span data-stu-id="c40fb-252">**Criteria:** *Pick-06* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Pick-06* - *Picking Site 6*.)</span></span>
+    - <span data-ttu-id="072cd-249">**表：** *位置*</span><span class="sxs-lookup"><span data-stu-id="072cd-249">**Table:** *Locations*</span></span>
+    - <span data-ttu-id="072cd-250">**派生表**：*货位*</span><span class="sxs-lookup"><span data-stu-id="072cd-250">**Derived table:** *Locations*</span></span>
+    - <span data-ttu-id="072cd-251">\**字段：\*\*\*位置模板 ID*</span><span class="sxs-lookup"><span data-stu-id="072cd-251">**Field:** *Location profile ID*</span></span>
+    - <span data-ttu-id="072cd-252">**条件**：*Pick-06*（选择字段中的双加号 \[**++**\] 展开列表，然后选择 *Pick-06* - *领料点 6*。）</span><span class="sxs-lookup"><span data-stu-id="072cd-252">**Criteria:** *Pick-06* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Pick-06* - *Picking Site 6*.)</span></span>
 
-1. <span data-ttu-id="c40fb-253">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-253">Select **OK**.</span></span>
+1. <span data-ttu-id="072cd-253">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="072cd-253">Select **OK**.</span></span>
 
-#### <a name="set-up-location-directives"></a><span data-ttu-id="c40fb-254">设置货位指令</span><span class="sxs-lookup"><span data-stu-id="c40fb-254">Set up location directives</span></span>
+#### <a name="set-up-location-directives"></a><span data-ttu-id="072cd-254">设置货位指令</span><span class="sxs-lookup"><span data-stu-id="072cd-254">Set up location directives</span></span>
 
-<span data-ttu-id="c40fb-255">必须设置至少一个货位指令来支持时隙领料。</span><span class="sxs-lookup"><span data-stu-id="c40fb-255">At least one location directive must be set up to support slotting picks.</span></span> <span data-ttu-id="c40fb-256">请按照此部分中的过程为时隙领料设置一个新的 *补货货位指令*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-256">Use the procedures in this section to set up a new *replenishment location directive* for slotting picks.</span></span>
+<span data-ttu-id="072cd-255">必须设置至少一个货位指令来支持时隙领料。</span><span class="sxs-lookup"><span data-stu-id="072cd-255">At least one location directive must be set up to support slotting picks.</span></span> <span data-ttu-id="072cd-256">请按照此部分中的过程为时隙领料设置一个新的 *补货货位指令*。</span><span class="sxs-lookup"><span data-stu-id="072cd-256">Use the procedures in this section to set up a new *replenishment location directive* for slotting picks.</span></span>
 
-1. <span data-ttu-id="c40fb-257">转到 **库存管理 \> 设置 \> 位置指令**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-257">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
-1. <span data-ttu-id="c40fb-258">在左窗格的 **工作订单类型** 字段中，选择 *补货*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-258">In the left pane, in the **Work order type** field, select *Replenishment*.</span></span>
-1. <span data-ttu-id="c40fb-259">在操作窗格上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-259">On the Action Pane, select **New**.</span></span>
-1. <span data-ttu-id="c40fb-260">在新货位指令的标题中 **名称** 字段内，输入 *61 时隙领料*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-260">In the header for the new location directive, in the **Name** field, enter *61 Slotting pick*.</span></span>
-1. <span data-ttu-id="c40fb-261">在 **序列号** 字段中，接受默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-261">In the **Sequence number** field, accept the default value.</span></span>
+1. <span data-ttu-id="072cd-257">转到 **库存管理 \> 设置 \> 位置指令**。</span><span class="sxs-lookup"><span data-stu-id="072cd-257">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
+1. <span data-ttu-id="072cd-258">在左窗格的 **工作订单类型** 字段中，选择 *补货*。</span><span class="sxs-lookup"><span data-stu-id="072cd-258">In the left pane, in the **Work order type** field, select *Replenishment*.</span></span>
+1. <span data-ttu-id="072cd-259">在操作窗格上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="072cd-259">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="072cd-260">在新货位指令的标题中 **名称** 字段内，输入 *61 时隙领料*。</span><span class="sxs-lookup"><span data-stu-id="072cd-260">In the header for the new location directive, in the **Name** field, enter *61 Slotting pick*.</span></span>
+1. <span data-ttu-id="072cd-261">在 **序列号** 字段中，接受默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-261">In the **Sequence number** field, accept the default value.</span></span>
 
-##### <a name="configure-the-location-directives-fasttab"></a><span data-ttu-id="c40fb-262">配置“货位指令”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="c40fb-262">Configure the Location directives FastTab</span></span>
+##### <a name="configure-the-location-directives-fasttab"></a><span data-ttu-id="072cd-262">配置“货位指令”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="072cd-262">Configure the Location directives FastTab</span></span>
 
-1. <span data-ttu-id="c40fb-263">在 **货位指令** 快速选项卡上，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-263">On the **Location directives** FastTab, set the following values.</span></span> <span data-ttu-id="c40fb-264">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-264">Accept the default values for all other fields.</span></span>
+1. <span data-ttu-id="072cd-263">在 **货位指令** 快速选项卡上，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="072cd-263">On the **Location directives** FastTab, set the following values.</span></span> <span data-ttu-id="072cd-264">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-264">Accept the default values for all other fields.</span></span>
 
-    - <span data-ttu-id="c40fb-265">**工作类型：**_领料_</span><span class="sxs-lookup"><span data-stu-id="c40fb-265">**Work type:** _Pick_</span></span>
-    - <span data-ttu-id="c40fb-266">**站点**：_6_</span><span class="sxs-lookup"><span data-stu-id="c40fb-266">**Site:** _6_</span></span>
-    - <span data-ttu-id="c40fb-267">**仓库**：_61_</span><span class="sxs-lookup"><span data-stu-id="c40fb-267">**Warehouse:** _61_</span></span>
-    - <span data-ttu-id="c40fb-268">**指令代码**：_时隙_</span><span class="sxs-lookup"><span data-stu-id="c40fb-268">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="072cd-265">**工作类型：**_领料_</span><span class="sxs-lookup"><span data-stu-id="072cd-265">**Work type:** _Pick_</span></span>
+    - <span data-ttu-id="072cd-266">**站点**：_6_</span><span class="sxs-lookup"><span data-stu-id="072cd-266">**Site:** _6_</span></span>
+    - <span data-ttu-id="072cd-267">**仓库**：_61_</span><span class="sxs-lookup"><span data-stu-id="072cd-267">**Warehouse:** _61_</span></span>
+    - <span data-ttu-id="072cd-268">**指令代码**：_时隙_</span><span class="sxs-lookup"><span data-stu-id="072cd-268">**Directive code:** _Slotting_</span></span>
 
-1. <span data-ttu-id="c40fb-269">选择 **保存** 激活 **行** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="c40fb-269">Select **Save** to make the **Lines** FastTab available.</span></span>
+1. <span data-ttu-id="072cd-269">选择 **保存** 激活 **行** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="072cd-269">Select **Save** to make the **Lines** FastTab available.</span></span>
 
-##### <a name="configure-the-lines-fasttab"></a><span data-ttu-id="c40fb-270">配置“行”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="c40fb-270">Configure the Lines FastTab</span></span>
+##### <a name="configure-the-lines-fasttab"></a><span data-ttu-id="072cd-270">配置“行”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="072cd-270">Configure the Lines FastTab</span></span>
 
-1. <span data-ttu-id="c40fb-271">在 **行** 快速选项卡上，选择 **新建** 创建一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-271">On the **Lines** FastTab, select **New** to create a line.</span></span>
-1. <span data-ttu-id="c40fb-272">在新行中，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-272">On the new line, set the following values.</span></span>
+1. <span data-ttu-id="072cd-271">在 **行** 快速选项卡上，选择 **新建** 创建一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-271">On the **Lines** FastTab, select **New** to create a line.</span></span>
+1. <span data-ttu-id="072cd-272">在新行中，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="072cd-272">On the new line, set the following values.</span></span>
 
-    - <span data-ttu-id="c40fb-273">**起始数量：**_0_</span><span class="sxs-lookup"><span data-stu-id="c40fb-273">**From quantity:** _0_</span></span>
-    - <span data-ttu-id="c40fb-274">**目标数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="c40fb-274">**To quantity:** _1000000_</span></span>
+    - <span data-ttu-id="072cd-273">**起始数量：**_0_</span><span class="sxs-lookup"><span data-stu-id="072cd-273">**From quantity:** _0_</span></span>
+    - <span data-ttu-id="072cd-274">**目标数量：**_1000000_</span><span class="sxs-lookup"><span data-stu-id="072cd-274">**To quantity:** _1000000_</span></span>
 
-1. <span data-ttu-id="c40fb-275">其余字段接受默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-275">Accept the default values for the remaining fields.</span></span>
-1. <span data-ttu-id="c40fb-276">选择 **保存** 激活 **货位指令操作** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="c40fb-276">Select **Save** to make the **Location Directive Actions** FastTab available.</span></span>
+1. <span data-ttu-id="072cd-275">其余字段接受默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-275">Accept the default values for the remaining fields.</span></span>
+1. <span data-ttu-id="072cd-276">选择 **保存** 激活 **货位指令操作** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="072cd-276">Select **Save** to make the **Location Directive Actions** FastTab available.</span></span>
 
-##### <a name="configure-the-location-directive-actions-fasttab"></a><span data-ttu-id="c40fb-277">配置“货位指令操作”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="c40fb-277">Configure the Location Directive Actions FastTab</span></span>
+##### <a name="configure-the-location-directive-actions-fasttab"></a><span data-ttu-id="072cd-277">配置“货位指令操作”快速选项卡</span><span class="sxs-lookup"><span data-stu-id="072cd-277">Configure the Location Directive Actions FastTab</span></span>
 
-1. <span data-ttu-id="c40fb-278">在 **货位指令操作** 快速选项卡上，选择 **新建** 创建一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-278">On the **Location Directive Actions** FastTab, select **New** to create a line.</span></span>
-1. <span data-ttu-id="c40fb-279">在新行中，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-279">On the new line, set the following values.</span></span> <span data-ttu-id="c40fb-280">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-280">Accept the default values for all other fields.</span></span>
+1. <span data-ttu-id="072cd-278">在 **货位指令操作** 快速选项卡上，选择 **新建** 创建一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-278">On the **Location Directive Actions** FastTab, select **New** to create a line.</span></span>
+1. <span data-ttu-id="072cd-279">在新行中，设置以下值。</span><span class="sxs-lookup"><span data-stu-id="072cd-279">On the new line, set the following values.</span></span> <span data-ttu-id="072cd-280">接受其他所有字段的默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-280">Accept the default values for all other fields.</span></span>
 
-    - <span data-ttu-id="c40fb-281">**序列号：** 接受默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-281">**Sequence number:** Accept the default value.</span></span>
-    - <span data-ttu-id="c40fb-282">**名称**：_Bulk_</span><span class="sxs-lookup"><span data-stu-id="c40fb-282">**Name:** _Bulk_</span></span>
-    - <span data-ttu-id="c40fb-283">**策略**：_无_</span><span class="sxs-lookup"><span data-stu-id="c40fb-283">**Strategy:** _None_</span></span>
+    - <span data-ttu-id="072cd-281">**序列号：** 接受默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-281">**Sequence number:** Accept the default value.</span></span>
+    - <span data-ttu-id="072cd-282">**名称**：_Bulk_</span><span class="sxs-lookup"><span data-stu-id="072cd-282">**Name:** _Bulk_</span></span>
+    - <span data-ttu-id="072cd-283">**策略**：_无_</span><span class="sxs-lookup"><span data-stu-id="072cd-283">**Strategy:** _None_</span></span>
 
-1. <span data-ttu-id="c40fb-284">其余字段接受默认值。</span><span class="sxs-lookup"><span data-stu-id="c40fb-284">Accept the default values for the remaining fields.</span></span>
-1. <span data-ttu-id="c40fb-285">选择 **保存** 激活 **编辑查询** 按钮。</span><span class="sxs-lookup"><span data-stu-id="c40fb-285">Select **Save** to make the **Edit query** button available.</span></span>
+1. <span data-ttu-id="072cd-284">其余字段接受默认值。</span><span class="sxs-lookup"><span data-stu-id="072cd-284">Accept the default values for the remaining fields.</span></span>
+1. <span data-ttu-id="072cd-285">选择 **保存** 激活 **编辑查询** 按钮。</span><span class="sxs-lookup"><span data-stu-id="072cd-285">Select **Save** to make the **Edit query** button available.</span></span>
 
-##### <a name="edit-the-query"></a><span data-ttu-id="c40fb-286">编辑查询</span><span class="sxs-lookup"><span data-stu-id="c40fb-286">Edit the query</span></span>
+##### <a name="edit-the-query"></a><span data-ttu-id="072cd-286">编辑查询</span><span class="sxs-lookup"><span data-stu-id="072cd-286">Edit the query</span></span>
 
-1. <span data-ttu-id="c40fb-287">在 **位置指令操作** 快速选项卡上，选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-287">On the **Location Directive Actions** FastTab, select **Edit query**.</span></span>
-1. <span data-ttu-id="c40fb-288">在 **范围** 选项卡中，选择 **添加** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-288">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
-1. <span data-ttu-id="c40fb-289">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-289">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-287">在 **位置指令操作** 快速选项卡上，选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="072cd-287">On the **Location Directive Actions** FastTab, select **Edit query**.</span></span>
+1. <span data-ttu-id="072cd-288">在 **范围** 选项卡中，选择 **添加** 向网格添加一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-288">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
+1. <span data-ttu-id="072cd-289">在新行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-289">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-290">**表：** *位置*</span><span class="sxs-lookup"><span data-stu-id="c40fb-290">**Table:** *Locations*</span></span>
-    - <span data-ttu-id="c40fb-291">**派生表**：*货位*</span><span class="sxs-lookup"><span data-stu-id="c40fb-291">**Derived table:** *Locations*</span></span>
-    - <span data-ttu-id="c40fb-292">**字段：** *区域 ID*</span><span class="sxs-lookup"><span data-stu-id="c40fb-292">**Field:** *Zone ID*</span></span>
-    - <span data-ttu-id="c40fb-293">**条件**：*Bulk*（选择字段中的双加号 \[**++**\] 展开列表，然后选择 *Bulk*。）</span><span class="sxs-lookup"><span data-stu-id="c40fb-293">**Criteria:** *Bulk* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Bulk*.)</span></span>
+    - <span data-ttu-id="072cd-290">**表：** *位置*</span><span class="sxs-lookup"><span data-stu-id="072cd-290">**Table:** *Locations*</span></span>
+    - <span data-ttu-id="072cd-291">**派生表**：*货位*</span><span class="sxs-lookup"><span data-stu-id="072cd-291">**Derived table:** *Locations*</span></span>
+    - <span data-ttu-id="072cd-292">**字段：** *区域 ID*</span><span class="sxs-lookup"><span data-stu-id="072cd-292">**Field:** *Zone ID*</span></span>
+    - <span data-ttu-id="072cd-293">**条件**：*Bulk*（选择字段中的双加号 \[**++**\] 展开列表，然后选择 *Bulk*。）</span><span class="sxs-lookup"><span data-stu-id="072cd-293">**Criteria:** *Bulk* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Bulk*.)</span></span>
 
-1. <span data-ttu-id="c40fb-294">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-294">Select **OK**.</span></span>
+1. <span data-ttu-id="072cd-294">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="072cd-294">Select **OK**.</span></span>
 
-## <a name="scenario"></a><span data-ttu-id="c40fb-295">应用场景</span><span class="sxs-lookup"><span data-stu-id="c40fb-295">Scenario</span></span>
+## <a name="scenario"></a><span data-ttu-id="072cd-295">应用场景</span><span class="sxs-lookup"><span data-stu-id="072cd-295">Scenario</span></span>
 
-### <a name="set-up-the-scenario"></a><span data-ttu-id="c40fb-296">设置场景</span><span class="sxs-lookup"><span data-stu-id="c40fb-296">Set up the scenario</span></span>
+### <a name="set-up-the-scenario"></a><span data-ttu-id="072cd-296">设置场景</span><span class="sxs-lookup"><span data-stu-id="072cd-296">Set up the scenario</span></span>
 
-<span data-ttu-id="c40fb-297">对于此场景，请使用内置示例数据，然后创建本部分中介绍的记录。</span><span class="sxs-lookup"><span data-stu-id="c40fb-297">For this scenario, use the built-in sample data, and create the records that are described in this section.</span></span>
+<span data-ttu-id="072cd-297">对于此场景，请使用内置示例数据，然后创建本部分中介绍的记录。</span><span class="sxs-lookup"><span data-stu-id="072cd-297">For this scenario, use the built-in sample data, and create the records that are described in this section.</span></span>
 
-#### <a name="use-the-usmf-sample-data"></a><span data-ttu-id="c40fb-298">使用 USMF 示例数据</span><span class="sxs-lookup"><span data-stu-id="c40fb-298">Use the USMF sample data</span></span>
+#### <a name="use-the-usmf-sample-data"></a><span data-ttu-id="072cd-298">使用 USMF 示例数据</span><span class="sxs-lookup"><span data-stu-id="072cd-298">Use the USMF sample data</span></span>
 
-<span data-ttu-id="c40fb-299">若要使用此处指定的示例记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。</span><span class="sxs-lookup"><span data-stu-id="c40fb-299">To work through this scenario by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="c40fb-300">此外，开始前，还必须选择 **USMF** 法人。</span><span class="sxs-lookup"><span data-stu-id="c40fb-300">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
+<span data-ttu-id="072cd-299">若要使用此处指定的示例记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。</span><span class="sxs-lookup"><span data-stu-id="072cd-299">To work through this scenario by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="072cd-300">此外，开始前，还必须选择 **USMF** 法人。</span><span class="sxs-lookup"><span data-stu-id="072cd-300">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
 
-#### <a name="create-demand"></a><span data-ttu-id="c40fb-301">创建需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-301">Create demand</span></span>
+#### <a name="create-demand"></a><span data-ttu-id="072cd-301">创建需求</span><span class="sxs-lookup"><span data-stu-id="072cd-301">Create demand</span></span>
 
-<span data-ttu-id="c40fb-302">执行以下步骤创建将为其应用时隙的需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-302">Follow these steps to create the demand that you will apply slotting to.</span></span>
+<span data-ttu-id="072cd-302">执行以下步骤创建将为其应用时隙的需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-302">Follow these steps to create the demand that you will apply slotting to.</span></span>
 
-1. <span data-ttu-id="c40fb-303">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-303">Go to **Sales and marketing \> Sales orders \> All sales order**.</span></span>
-1. <span data-ttu-id="c40fb-304">选择 **新建** 以创建新的销售订单。</span><span class="sxs-lookup"><span data-stu-id="c40fb-304">Select **New** to create a sales order.</span></span>
-1. <span data-ttu-id="c40fb-305">在 **创建销售订单** 对话框的 **客户帐户** 字段中，选择 _US-007_。</span><span class="sxs-lookup"><span data-stu-id="c40fb-305">In the **Create sales order** dialog box, in the **Customer account** field, select _US-007_.</span></span>
-1. <span data-ttu-id="c40fb-306">在 **仓库** 字段中，选择 _61_。</span><span class="sxs-lookup"><span data-stu-id="c40fb-306">In the **Warehouse** field, select _61_.</span></span>
-1. <span data-ttu-id="c40fb-307">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-307">Select **OK**.</span></span>
-1. <span data-ttu-id="c40fb-308">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="c40fb-308">The new sales order is opened.</span></span> <span data-ttu-id="c40fb-309">将在 **销售订单行** 快速选项卡中添加一个空行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-309">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="c40fb-310">在这个行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-310">On this line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-303">转到 **销售和营销 \> 销售订单 \> 所有销售订单**。</span><span class="sxs-lookup"><span data-stu-id="072cd-303">Go to **Sales and marketing \> Sales orders \> All sales order**.</span></span>
+1. <span data-ttu-id="072cd-304">选择 **新建** 以创建新的销售订单。</span><span class="sxs-lookup"><span data-stu-id="072cd-304">Select **New** to create a sales order.</span></span>
+1. <span data-ttu-id="072cd-305">在 **创建销售订单** 对话框的 **客户帐户** 字段中，选择 _US-007_。</span><span class="sxs-lookup"><span data-stu-id="072cd-305">In the **Create sales order** dialog box, in the **Customer account** field, select _US-007_.</span></span>
+1. <span data-ttu-id="072cd-306">在 **仓库** 字段中，选择 _61_。</span><span class="sxs-lookup"><span data-stu-id="072cd-306">In the **Warehouse** field, select _61_.</span></span>
+1. <span data-ttu-id="072cd-307">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="072cd-307">Select **OK**.</span></span>
+1. <span data-ttu-id="072cd-308">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="072cd-308">The new sales order is opened.</span></span> <span data-ttu-id="072cd-309">将在 **销售订单行** 快速选项卡中添加一个空行。</span><span class="sxs-lookup"><span data-stu-id="072cd-309">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="072cd-310">在这个行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-310">On this line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-311">**物料：**_L0101_</span><span class="sxs-lookup"><span data-stu-id="c40fb-311">**Item:** _L0101_</span></span>
-    - <span data-ttu-id="c40fb-312">**数量：** _20_</span><span class="sxs-lookup"><span data-stu-id="c40fb-312">**Quantity:** _20_</span></span>
+    - <span data-ttu-id="072cd-311">**物料：**_L0101_</span><span class="sxs-lookup"><span data-stu-id="072cd-311">**Item:** _L0101_</span></span>
+    - <span data-ttu-id="072cd-312">**数量：** _20_</span><span class="sxs-lookup"><span data-stu-id="072cd-312">**Quantity:** _20_</span></span>
 
-1. <span data-ttu-id="c40fb-313">选择 **添加行** 添加新行，然后设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-313">Select **Add line** to add a new line, and set the following values:</span></span>
+1. <span data-ttu-id="072cd-313">选择 **添加行** 添加新行，然后设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-313">Select **Add line** to add a new line, and set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-314">**物料：**_T0100_</span><span class="sxs-lookup"><span data-stu-id="c40fb-314">**Item:** _T0100_</span></span>
-    - <span data-ttu-id="c40fb-315">**数量：** _8_</span><span class="sxs-lookup"><span data-stu-id="c40fb-315">**Quantity:** _8_</span></span>
+    - <span data-ttu-id="072cd-314">**物料：**_T0100_</span><span class="sxs-lookup"><span data-stu-id="072cd-314">**Item:** _T0100_</span></span>
+    - <span data-ttu-id="072cd-315">**数量：** _8_</span><span class="sxs-lookup"><span data-stu-id="072cd-315">**Quantity:** _8_</span></span>
 
-1. <span data-ttu-id="c40fb-316">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-316">Select **Save**.</span></span>
-1. <span data-ttu-id="c40fb-317">选择 **新建** 以创建第二个销售订单。</span><span class="sxs-lookup"><span data-stu-id="c40fb-317">Select **New** to create a second sales order.</span></span>
-1. <span data-ttu-id="c40fb-318">在 **创建销售订单** 对话框的 **客户帐户** 字段中，选择 _US-008_。</span><span class="sxs-lookup"><span data-stu-id="c40fb-318">In the **Create sales order** dialog box, in the **Customer account** field, select _US-008_.</span></span>
-1. <span data-ttu-id="c40fb-319">在 **仓库** 字段中，选择 _61_。</span><span class="sxs-lookup"><span data-stu-id="c40fb-319">In the **Warehouse** field, select _61_.</span></span>
-1. <span data-ttu-id="c40fb-320">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="c40fb-320">The new sales order is opened.</span></span> <span data-ttu-id="c40fb-321">将在 **销售订单行** 快速选项卡中添加一个空行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-321">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="c40fb-322">在这个行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="c40fb-322">On this line, set the following values:</span></span>
+1. <span data-ttu-id="072cd-316">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="072cd-316">Select **Save**.</span></span>
+1. <span data-ttu-id="072cd-317">选择 **新建** 以创建第二个销售订单。</span><span class="sxs-lookup"><span data-stu-id="072cd-317">Select **New** to create a second sales order.</span></span>
+1. <span data-ttu-id="072cd-318">在 **创建销售订单** 对话框的 **客户帐户** 字段中，选择 _US-008_。</span><span class="sxs-lookup"><span data-stu-id="072cd-318">In the **Create sales order** dialog box, in the **Customer account** field, select _US-008_.</span></span>
+1. <span data-ttu-id="072cd-319">在 **仓库** 字段中，选择 _61_。</span><span class="sxs-lookup"><span data-stu-id="072cd-319">In the **Warehouse** field, select _61_.</span></span>
+1. <span data-ttu-id="072cd-320">将打开新销售订单。</span><span class="sxs-lookup"><span data-stu-id="072cd-320">The new sales order is opened.</span></span> <span data-ttu-id="072cd-321">将在 **销售订单行** 快速选项卡中添加一个空行。</span><span class="sxs-lookup"><span data-stu-id="072cd-321">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="072cd-322">在这个行中，设置以下值：</span><span class="sxs-lookup"><span data-stu-id="072cd-322">On this line, set the following values:</span></span>
 
-    - <span data-ttu-id="c40fb-323">**物料：**_T0100_</span><span class="sxs-lookup"><span data-stu-id="c40fb-323">**Item:** _T0100_</span></span>
-    - <span data-ttu-id="c40fb-324">**数量：** _1_</span><span class="sxs-lookup"><span data-stu-id="c40fb-324">**Quantity:** _1_</span></span>
+    - <span data-ttu-id="072cd-323">**物料：**_T0100_</span><span class="sxs-lookup"><span data-stu-id="072cd-323">**Item:** _T0100_</span></span>
+    - <span data-ttu-id="072cd-324">**数量：** _1_</span><span class="sxs-lookup"><span data-stu-id="072cd-324">**Quantity:** _1_</span></span>
 
-1. <span data-ttu-id="c40fb-325">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-325">Select **Save**.</span></span>
+1. <span data-ttu-id="072cd-325">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="072cd-325">Select **Save**.</span></span>
 
-### <a name="walk-through-a-typical-slotting-scenario"></a><span data-ttu-id="c40fb-326">完成典型时隙场景</span><span class="sxs-lookup"><span data-stu-id="c40fb-326">Walk through a typical slotting scenario</span></span>
+### <a name="walk-through-a-typical-slotting-scenario"></a><span data-ttu-id="072cd-326">完成典型时隙场景</span><span class="sxs-lookup"><span data-stu-id="072cd-326">Walk through a typical slotting scenario</span></span>
 
-<span data-ttu-id="c40fb-327">按照上一部分中的说明准备好所有先决元素之后，可以通过完成本部分中的每个练习试用此功能。</span><span class="sxs-lookup"><span data-stu-id="c40fb-327">After all the prerequisite elements are in place, as described in the previous section, you're ready to try out the feature by working through each exercise in this section.</span></span>
+<span data-ttu-id="072cd-327">按照上一部分中的说明准备好所有先决元素之后，可以通过完成本部分中的每个练习试用此功能。</span><span class="sxs-lookup"><span data-stu-id="072cd-327">After all the prerequisite elements are in place, as described in the previous section, you're ready to try out the feature by working through each exercise in this section.</span></span>
 
-#### <a name="generate-demand"></a><span data-ttu-id="c40fb-328">生成需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-328">Generate demand</span></span>
+#### <a name="generate-demand"></a><span data-ttu-id="072cd-328">生成需求</span><span class="sxs-lookup"><span data-stu-id="072cd-328">Generate demand</span></span>
 
-1. <span data-ttu-id="c40fb-329">转到 **仓库管理 \> 设置 \> 补货 \> 时隙模板**，然后选择前面创建的时隙模板。</span><span class="sxs-lookup"><span data-stu-id="c40fb-329">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**, and select the slotting template that you created earlier.</span></span>
-1. <span data-ttu-id="c40fb-330">在操作窗格上，选择 **生成需求**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-330">On the Action Pane, select **Generate demand**.</span></span> <span data-ttu-id="c40fb-331">此命令评估系统中的所有需求，并且与时隙模板查询匹配。</span><span class="sxs-lookup"><span data-stu-id="c40fb-331">This command evaluates all demand that is in the system, and that matches the slotting template query.</span></span> <span data-ttu-id="c40fb-332">然后将所有订单中的总需求合并到行，每个数量/度量单位一行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-332">The total demand across all orders is then consolidated onto one line per quantity/unit of measure.</span></span> <span data-ttu-id="c40fb-333">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="c40fb-333">An informational message appears when the process is completed.</span></span>
+1. <span data-ttu-id="072cd-329">转到 **仓库管理 \> 设置 \> 补货 \> 时隙模板**，然后选择前面创建的时隙模板。</span><span class="sxs-lookup"><span data-stu-id="072cd-329">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**, and select the slotting template that you created earlier.</span></span>
+1. <span data-ttu-id="072cd-330">在操作窗格上，选择 **生成需求**。</span><span class="sxs-lookup"><span data-stu-id="072cd-330">On the Action Pane, select **Generate demand**.</span></span> <span data-ttu-id="072cd-331">此命令评估系统中的所有需求，并且与时隙模板查询匹配。</span><span class="sxs-lookup"><span data-stu-id="072cd-331">This command evaluates all demand that is in the system, and that matches the slotting template query.</span></span> <span data-ttu-id="072cd-332">然后将所有订单中的总需求合并到行，每个数量/度量单位一行。</span><span class="sxs-lookup"><span data-stu-id="072cd-332">The total demand across all orders is then consolidated onto one line per quantity/unit of measure.</span></span> <span data-ttu-id="072cd-333">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="072cd-333">An informational message appears when the process is completed.</span></span>
 
-#### <a name="slotting-demand"></a><span data-ttu-id="c40fb-334">时隙需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-334">Slotting demand</span></span>
+#### <a name="slotting-demand"></a><span data-ttu-id="072cd-334">时隙需求</span><span class="sxs-lookup"><span data-stu-id="072cd-334">Slotting demand</span></span>
 
-<span data-ttu-id="c40fb-335">*时隙需求* 根据时隙模板的设置显示生成需求的结果。</span><span class="sxs-lookup"><span data-stu-id="c40fb-335">The *slotting demand* shows the results of demand generation, based on the setup of the slotting template.</span></span>
+<span data-ttu-id="072cd-335">*时隙需求* 根据时隙模板的设置显示生成需求的结果。</span><span class="sxs-lookup"><span data-stu-id="072cd-335">The *slotting demand* shows the results of demand generation, based on the setup of the slotting template.</span></span>
 
-- <span data-ttu-id="c40fb-336">在操作窗格上，选择 **时隙需求** 查看 **生成需求** 命令的结果。</span><span class="sxs-lookup"><span data-stu-id="c40fb-336">On the Action Pane, select **Slotting demand** to view the results from the **Generate demand** command.</span></span> <span data-ttu-id="c40fb-337">可以编辑时隙需求中的行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-337">The lines in the slotting demand can be edited.</span></span> <span data-ttu-id="c40fb-338">可以删除行，添加新行，或编辑行详细信息。</span><span class="sxs-lookup"><span data-stu-id="c40fb-338">You can delete a line, add a new line, or edit the line details.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="c40fb-339">可以手动编辑需求，也可以使用数据管理从外部系统导入需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-339">You can edit demand manually, or you can import it from an external system by using data management.</span></span> <span data-ttu-id="c40fb-340">无论时隙中是什么，也无论其来自何处，都将在下一步使用需求。</span><span class="sxs-lookup"><span data-stu-id="c40fb-340">Whatever is in the slotting demand will be used in the next step, regardless of where it came from.</span></span>
-
-#### <a name="locate-demand"></a><span data-ttu-id="c40fb-341">查找需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-341">Locate demand</span></span>
-
-<span data-ttu-id="c40fb-342">生成需求后，必须使用 **查找需求** 命令生成 *时隙计划*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-342">After demand has been generated, you must use the **Locate demand** command to generate the *slotting plan*.</span></span>
-
-- <span data-ttu-id="c40fb-343">在操作窗格上，选择 **查找需求**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-343">On the Action Pane, select **Locate demand**.</span></span> <span data-ttu-id="c40fb-344">将运行时隙流程。</span><span class="sxs-lookup"><span data-stu-id="c40fb-344">The slotting process runs.</span></span> <span data-ttu-id="c40fb-345">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="c40fb-345">An informational message appears when the process is completed.</span></span>
-
-#### <a name="slotting-plan"></a><span data-ttu-id="c40fb-346">时隙计划</span><span class="sxs-lookup"><span data-stu-id="c40fb-346">Slotting plan</span></span>
-
-<span data-ttu-id="c40fb-347">时隙计划显示将每个物料/数量分配给了哪个货位，是否使用了溢出，是否创建了放弃工作，以及是否使用了模板行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-347">The slotting plan shows the location that each item/quantity was assigned to, whether overflow was used, whether let-up work was created, and the template line that was used.</span></span> <span data-ttu-id="c40fb-348">*所有无法划分时隙的需求均以红色突出显示。*</span><span class="sxs-lookup"><span data-stu-id="c40fb-348">*Any demand that could not be slotted is highlighted in red.*</span></span>
-
-- <span data-ttu-id="c40fb-349">在操作窗格上，选择 **时隙计划** 查看结果。</span><span class="sxs-lookup"><span data-stu-id="c40fb-349">On the Action Pane, select **Slotting plan** to view the results.</span></span>
+- <span data-ttu-id="072cd-336">在操作窗格上，选择 **时隙需求** 查看 **生成需求** 命令的结果。</span><span class="sxs-lookup"><span data-stu-id="072cd-336">On the Action Pane, select **Slotting demand** to view the results from the **Generate demand** command.</span></span> <span data-ttu-id="072cd-337">可以编辑时隙需求中的行。</span><span class="sxs-lookup"><span data-stu-id="072cd-337">The lines in the slotting demand can be edited.</span></span> <span data-ttu-id="072cd-338">可以删除行，添加新行，或编辑行详细信息。</span><span class="sxs-lookup"><span data-stu-id="072cd-338">You can delete a line, add a new line, or edit the line details.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="c40fb-350">**生成需求**、**查找需求** 和 **运行补货** 流程现在在沙盒中运行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-350">The **Generate demand**, **Locate demand**, and **Run replenishment** processes are now run in a sandbox.</span></span> <span data-ttu-id="c40fb-351">（这些流程可以从 **时隙模板** 页的操作窗格中找到。）</span><span class="sxs-lookup"><span data-stu-id="c40fb-351">(These processes are available from the Action Pane on the **Slotting templates** page.)</span></span>
-> - <span data-ttu-id="c40fb-352">**生成需求**、**查找需求** 和 **运行补货** 流程带有锁定功能，以确保不会被同时触发。</span><span class="sxs-lookup"><span data-stu-id="c40fb-352">The **Generate demand**, **Locate demand**, and **Run replenishment** processes have a lock to ensure that they can't be triggered at the same time.</span></span> <span data-ttu-id="c40fb-353">否则，使用的数据可能被删除。</span><span class="sxs-lookup"><span data-stu-id="c40fb-353">Otherwise, the data that is used could be deleted.</span></span>
-> - <span data-ttu-id="c40fb-354">如果运行未生成记录或记录缺少信息，**生成需求** 和 **查找需求** 流程会显示警告。</span><span class="sxs-lookup"><span data-stu-id="c40fb-354">The **Generate demand** and **Locate demand** processes show a warning if the run didn't generate records, or if the records are missing information.</span></span>
-> - <span data-ttu-id="c40fb-355">当您选择 **时隙计划** 时，页面在操作窗格上没有 **新建**、**编辑** 或 **删除** 按钮，因为数据源不能进行编辑。</span><span class="sxs-lookup"><span data-stu-id="c40fb-355">When you select **Slotting plan**, the page doesn't have **New**, **Edit**, or **Delete** buttons on the Action Pane, because the data source can't be edited.</span></span>
-> - <span data-ttu-id="c40fb-356">当您选择 **运行补货** 时，系统将验证所选的时隙模板和流程。</span><span class="sxs-lookup"><span data-stu-id="c40fb-356">When you select **Run replenishment**, the system validates the selected slot template and processes.</span></span>
+> <span data-ttu-id="072cd-339">可以手动编辑需求，也可以使用数据管理从外部系统导入需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-339">You can edit demand manually, or you can import it from an external system by using data management.</span></span> <span data-ttu-id="072cd-340">无论时隙中是什么，也无论其来自何处，都将在下一步使用需求。</span><span class="sxs-lookup"><span data-stu-id="072cd-340">Whatever is in the slotting demand will be used in the next step, regardless of where it came from.</span></span>
 
-#### <a name="create-replenishment"></a><span data-ttu-id="c40fb-357">创建补货</span><span class="sxs-lookup"><span data-stu-id="c40fb-357">Create replenishment</span></span>
+#### <a name="locate-demand"></a><span data-ttu-id="072cd-341">查找需求</span><span class="sxs-lookup"><span data-stu-id="072cd-341">Locate demand</span></span>
 
-<span data-ttu-id="c40fb-358">创建时隙计划之后，必须根据计划创建 *补货工作*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-358">After the slotting plan has been created, you must create *replenishment work*, based on the plan.</span></span>
+<span data-ttu-id="072cd-342">生成需求后，必须使用 **查找需求** 命令生成 *时隙计划*。</span><span class="sxs-lookup"><span data-stu-id="072cd-342">After demand has been generated, you must use the **Locate demand** command to generate the *slotting plan*.</span></span>
 
-- <span data-ttu-id="c40fb-359">在操作窗格上，选择 **运行补货**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-359">On the Action Pane, select **Run replenishment**.</span></span> <span data-ttu-id="c40fb-360">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="c40fb-360">An informational message appears when the process is completed.</span></span> <span data-ttu-id="c40fb-361">此消息指示为工作生成 ID 创建的标题的数量。</span><span class="sxs-lookup"><span data-stu-id="c40fb-361">This message indicates the number of headers that were created for the work build ID.</span></span>
+- <span data-ttu-id="072cd-343">在操作窗格上，选择 **查找需求**。</span><span class="sxs-lookup"><span data-stu-id="072cd-343">On the Action Pane, select **Locate demand**.</span></span> <span data-ttu-id="072cd-344">将运行时隙流程。</span><span class="sxs-lookup"><span data-stu-id="072cd-344">The slotting process runs.</span></span> <span data-ttu-id="072cd-345">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="072cd-345">An informational message appears when the process is completed.</span></span>
 
-<span data-ttu-id="c40fb-362">将根据在每个模板行中指定的指令代码确定将使用的货位指令。</span><span class="sxs-lookup"><span data-stu-id="c40fb-362">Location directives that will be used are identified based on the directive code that is specified on each template line.</span></span>
+#### <a name="slotting-plan"></a><span data-ttu-id="072cd-346">时隙计划</span><span class="sxs-lookup"><span data-stu-id="072cd-346">Slotting plan</span></span>
 
-## <a name="tips"></a><span data-ttu-id="c40fb-363">提示</span><span class="sxs-lookup"><span data-stu-id="c40fb-363">Tips</span></span>
+<span data-ttu-id="072cd-347">时隙计划显示将每个物料/数量分配给了哪个货位，是否使用了溢出，是否创建了放弃工作，以及是否使用了模板行。</span><span class="sxs-lookup"><span data-stu-id="072cd-347">The slotting plan shows the location that each item/quantity was assigned to, whether overflow was used, whether let-up work was created, and the template line that was used.</span></span> <span data-ttu-id="072cd-348">*所有无法划分时隙的需求均以红色突出显示。*</span><span class="sxs-lookup"><span data-stu-id="072cd-348">*Any demand that could not be slotted is highlighted in red.*</span></span>
 
-### <a name="set-up-automatic-slotting"></a><span data-ttu-id="c40fb-364">设置自动时隙</span><span class="sxs-lookup"><span data-stu-id="c40fb-364">Set up automatic slotting</span></span>
+- <span data-ttu-id="072cd-349">在操作窗格上，选择 **时隙计划** 查看结果。</span><span class="sxs-lookup"><span data-stu-id="072cd-349">On the Action Pane, select **Slotting plan** to view the results.</span></span>
 
-<span data-ttu-id="c40fb-365">准备好所有必需元素之后，可以执行以下步骤将时隙设置为自动运行。</span><span class="sxs-lookup"><span data-stu-id="c40fb-365">After all the required elements are in place, you can set up slotting to run automatically by following these steps.</span></span>
+> [!NOTE]
+> - <span data-ttu-id="072cd-350">**生成需求**、**查找需求** 和 **运行补货** 流程现在在沙盒中运行。</span><span class="sxs-lookup"><span data-stu-id="072cd-350">The **Generate demand**, **Locate demand**, and **Run replenishment** processes are now run in a sandbox.</span></span> <span data-ttu-id="072cd-351">（这些流程可以从 **时隙模板** 页的操作窗格中找到。）</span><span class="sxs-lookup"><span data-stu-id="072cd-351">(These processes are available from the Action Pane on the **Slotting templates** page.)</span></span>
+> - <span data-ttu-id="072cd-352">**生成需求**、**查找需求** 和 **运行补货** 流程带有锁定功能，以确保不会被同时触发。</span><span class="sxs-lookup"><span data-stu-id="072cd-352">The **Generate demand**, **Locate demand**, and **Run replenishment** processes have a lock to ensure that they can't be triggered at the same time.</span></span> <span data-ttu-id="072cd-353">否则，使用的数据可能被删除。</span><span class="sxs-lookup"><span data-stu-id="072cd-353">Otherwise, the data that is used could be deleted.</span></span>
+> - <span data-ttu-id="072cd-354">如果运行未生成记录或记录缺少信息，**生成需求** 和 **查找需求** 流程会显示警告。</span><span class="sxs-lookup"><span data-stu-id="072cd-354">The **Generate demand** and **Locate demand** processes show a warning if the run didn't generate records, or if the records are missing information.</span></span>
+> - <span data-ttu-id="072cd-355">当您选择 **时隙计划** 时，页面在操作窗格上没有 **新建**、**编辑** 或 **删除** 按钮，因为数据源不能进行编辑。</span><span class="sxs-lookup"><span data-stu-id="072cd-355">When you select **Slotting plan**, the page doesn't have **New**, **Edit**, or **Delete** buttons on the Action Pane, because the data source can't be edited.</span></span>
+> - <span data-ttu-id="072cd-356">当您选择 **运行补货** 时，系统将验证所选的时隙模板和流程。</span><span class="sxs-lookup"><span data-stu-id="072cd-356">When you select **Run replenishment**, the system validates the selected slot template and processes.</span></span>
 
-1. <span data-ttu-id="c40fb-366">转到 **仓库管理 \> 补货 \> 运行时隙**。</span><span class="sxs-lookup"><span data-stu-id="c40fb-366">Go to **Warehouse management \> Replenishment \> Run slotting**.</span></span>
-1. <span data-ttu-id="c40fb-367">指定要运行的时隙步骤。</span><span class="sxs-lookup"><span data-stu-id="c40fb-367">Specify the slotting steps to run.</span></span> <span data-ttu-id="c40fb-368">选择下面的一个或多个时隙步骤：</span><span class="sxs-lookup"><span data-stu-id="c40fb-368">Select one or more of the following slotting steps:</span></span>
+#### <a name="create-replenishment"></a><span data-ttu-id="072cd-357">创建补货</span><span class="sxs-lookup"><span data-stu-id="072cd-357">Create replenishment</span></span>
 
-    - <span data-ttu-id="c40fb-369">生成需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-369">Generate demand</span></span>
-    - <span data-ttu-id="c40fb-370">查找需求</span><span class="sxs-lookup"><span data-stu-id="c40fb-370">Locate demand</span></span>
-    - <span data-ttu-id="c40fb-371">创建补货工作</span><span class="sxs-lookup"><span data-stu-id="c40fb-371">Create replenishment work</span></span>
+<span data-ttu-id="072cd-358">创建时隙计划之后，必须根据计划创建 *补货工作*。</span><span class="sxs-lookup"><span data-stu-id="072cd-358">After the slotting plan has been created, you must create *replenishment work*, based on the plan.</span></span>
+
+- <span data-ttu-id="072cd-359">在操作窗格上，选择 **运行补货**。</span><span class="sxs-lookup"><span data-stu-id="072cd-359">On the Action Pane, select **Run replenishment**.</span></span> <span data-ttu-id="072cd-360">完成此流程时，将显示参考消息。</span><span class="sxs-lookup"><span data-stu-id="072cd-360">An informational message appears when the process is completed.</span></span> <span data-ttu-id="072cd-361">此消息指示为工作生成 ID 创建的标题的数量。</span><span class="sxs-lookup"><span data-stu-id="072cd-361">This message indicates the number of headers that were created for the work build ID.</span></span>
+
+<span data-ttu-id="072cd-362">将根据在每个模板行中指定的指令代码确定将使用的货位指令。</span><span class="sxs-lookup"><span data-stu-id="072cd-362">Location directives that will be used are identified based on the directive code that is specified on each template line.</span></span>
+
+## <a name="tips"></a><span data-ttu-id="072cd-363">提示</span><span class="sxs-lookup"><span data-stu-id="072cd-363">Tips</span></span>
+
+### <a name="set-up-automatic-slotting"></a><span data-ttu-id="072cd-364">设置自动时隙</span><span class="sxs-lookup"><span data-stu-id="072cd-364">Set up automatic slotting</span></span>
+
+<span data-ttu-id="072cd-365">准备好所有必需元素之后，可以执行以下步骤将时隙设置为自动运行。</span><span class="sxs-lookup"><span data-stu-id="072cd-365">After all the required elements are in place, you can set up slotting to run automatically by following these steps.</span></span>
+
+1. <span data-ttu-id="072cd-366">转到 **仓库管理 \> 补货 \> 运行时隙**。</span><span class="sxs-lookup"><span data-stu-id="072cd-366">Go to **Warehouse management \> Replenishment \> Run slotting**.</span></span>
+1. <span data-ttu-id="072cd-367">指定要运行的时隙步骤。</span><span class="sxs-lookup"><span data-stu-id="072cd-367">Specify the slotting steps to run.</span></span> <span data-ttu-id="072cd-368">选择下面的一个或多个时隙步骤：</span><span class="sxs-lookup"><span data-stu-id="072cd-368">Select one or more of the following slotting steps:</span></span>
+
+    - <span data-ttu-id="072cd-369">生成需求</span><span class="sxs-lookup"><span data-stu-id="072cd-369">Generate demand</span></span>
+    - <span data-ttu-id="072cd-370">查找需求</span><span class="sxs-lookup"><span data-stu-id="072cd-370">Locate demand</span></span>
+    - <span data-ttu-id="072cd-371">创建补货工作</span><span class="sxs-lookup"><span data-stu-id="072cd-371">Create replenishment work</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="c40fb-372">时隙步骤是渐进的。</span><span class="sxs-lookup"><span data-stu-id="c40fb-372">The slotting steps are progressive.</span></span> <span data-ttu-id="c40fb-373">如果要选择 *查找需求*，必须先选择 *生成需求*。</span><span class="sxs-lookup"><span data-stu-id="c40fb-373">If you want to select *Locate demand*, you must first select *Generate demand*.</span></span>
+    > <span data-ttu-id="072cd-372">时隙步骤是渐进的。</span><span class="sxs-lookup"><span data-stu-id="072cd-372">The slotting steps are progressive.</span></span> <span data-ttu-id="072cd-373">如果要选择 *查找需求*，必须先选择 *生成需求*。</span><span class="sxs-lookup"><span data-stu-id="072cd-373">If you want to select *Locate demand*, you must first select *Generate demand*.</span></span>
 
-1. <span data-ttu-id="c40fb-374">指定要使用的时隙模板。</span><span class="sxs-lookup"><span data-stu-id="c40fb-374">Specify the slotting template to use.</span></span>
-1. <span data-ttu-id="c40fb-375">如果需要，设置要自动运行的发生次数。</span><span class="sxs-lookup"><span data-stu-id="c40fb-375">Set the recurrence to run automatically, if you want.</span></span>
+1. <span data-ttu-id="072cd-374">指定要使用的时隙模板。</span><span class="sxs-lookup"><span data-stu-id="072cd-374">Specify the slotting template to use.</span></span>
+1. <span data-ttu-id="072cd-375">如果需要，设置要自动运行的发生次数。</span><span class="sxs-lookup"><span data-stu-id="072cd-375">Set the recurrence to run automatically, if you want.</span></span>
 
-<span data-ttu-id="c40fb-376">对于此场景中的练习，请 **勿** 设置自动时隙。</span><span class="sxs-lookup"><span data-stu-id="c40fb-376">For the exercises in the scenario, do **not** set up automatic slotting.</span></span>
+<span data-ttu-id="072cd-376">对于此场景中的练习，请 **勿** 设置自动时隙。</span><span class="sxs-lookup"><span data-stu-id="072cd-376">For the exercises in the scenario, do **not** set up automatic slotting.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
