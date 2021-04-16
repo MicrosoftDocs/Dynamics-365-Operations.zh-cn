@@ -2,11 +2,9 @@
 title: 自定义和使用客户门户
 description: 本主题说明将客户门户添加到系统后如何对其进行自定义。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,167 +12,167 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 33f251eb66f58f8cf1db1d0dd005f8c21a71556b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205290"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840765"
 ---
-# <a name="customize-and-use-the-customer-portal"></a><span data-ttu-id="70cca-103">自定义和使用客户门户</span><span class="sxs-lookup"><span data-stu-id="70cca-103">Customize and use the Customer portal</span></span>
+# <a name="customize-and-use-the-customer-portal"></a><span data-ttu-id="76c05-103">自定义和使用客户门户</span><span class="sxs-lookup"><span data-stu-id="76c05-103">Customize and use the Customer portal</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="70cca-104">本主题介绍客户门户中现成可用的不同页面。</span><span class="sxs-lookup"><span data-stu-id="70cca-104">This topic describes the different pages that available in the Customer portal out of the box.</span></span> <span data-ttu-id="70cca-105">说明了页面的功能以及如何自定义页面。</span><span class="sxs-lookup"><span data-stu-id="70cca-105">It explains what the pages do and how you can customize them.</span></span>
+<span data-ttu-id="76c05-104">本主题介绍客户门户中现成可用的不同页面。</span><span class="sxs-lookup"><span data-stu-id="76c05-104">This topic describes the different pages that available in the Customer portal out of the box.</span></span> <span data-ttu-id="76c05-105">说明了页面的功能以及如何自定义页面。</span><span class="sxs-lookup"><span data-stu-id="76c05-105">It explains what the pages do and how you can customize them.</span></span>
 
-<span data-ttu-id="70cca-106">客户门户提供了一些现成的网页和操作。</span><span class="sxs-lookup"><span data-stu-id="70cca-106">The Customer portal offers a few webpages and actions out of the box.</span></span> <span data-ttu-id="70cca-107">以下站点地图提供了这些网页和操作以及可以执行这些操作的角色的概览。</span><span class="sxs-lookup"><span data-stu-id="70cca-107">The following site map provides an overview of those webpages and actions, and the roles that can perform the actions.</span></span>
+<span data-ttu-id="76c05-106">客户门户提供了一些现成的网页和操作。</span><span class="sxs-lookup"><span data-stu-id="76c05-106">The Customer portal offers a few webpages and actions out of the box.</span></span> <span data-ttu-id="76c05-107">以下站点地图提供了这些网页和操作以及可以执行这些操作的角色的概览。</span><span class="sxs-lookup"><span data-stu-id="76c05-107">The following site map provides an overview of those webpages and actions, and the roles that can perform the actions.</span></span>
 
-<span data-ttu-id="70cca-108">![客户门户站点地图](media/customer-portal-site-map.png "客户门户站点地图")</span><span class="sxs-lookup"><span data-stu-id="70cca-108">![Customer portal site map](media/customer-portal-site-map.png "Customer portal site map")</span></span>
+<span data-ttu-id="76c05-108">![客户门户站点地图](media/customer-portal-site-map.png "客户门户站点地图")</span><span class="sxs-lookup"><span data-stu-id="76c05-108">![Customer portal site map](media/customer-portal-site-map.png "Customer portal site map")</span></span>
 
-## <a name="typical-customizations"></a><span data-ttu-id="70cca-109">典型自定义</span><span class="sxs-lookup"><span data-stu-id="70cca-109">Typical customizations</span></span>
+## <a name="typical-customizations"></a><span data-ttu-id="76c05-109">典型自定义</span><span class="sxs-lookup"><span data-stu-id="76c05-109">Typical customizations</span></span>
 
-<span data-ttu-id="70cca-110">以下主题将帮助您学习有关 Power Apps 门户以及如何定制这些门户的基础知识：</span><span class="sxs-lookup"><span data-stu-id="70cca-110">The following topics will help you learn the basics about Power Apps portals and how you can customize portals:</span></span>
+<span data-ttu-id="76c05-110">以下主题将帮助您学习有关 Power Apps 门户以及如何定制这些门户的基础知识：</span><span class="sxs-lookup"><span data-stu-id="76c05-110">The following topics will help you learn the basics about Power Apps portals and how you can customize portals:</span></span>
 
-- <span data-ttu-id="70cca-111">[使用模板](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – 本主题概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。</span><span class="sxs-lookup"><span data-stu-id="70cca-111">[Work with templates](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – This topic provides a general overview of how Power Apps portals works and how you can do simple customizations of portals.</span></span>
-- <span data-ttu-id="70cca-112">[管理门户内容](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。</span><span class="sxs-lookup"><span data-stu-id="70cca-112">[Manage portal content](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – This topic explains how you can manage and customize the content that you surface in your portal.</span></span>
-- <span data-ttu-id="70cca-113">[编辑 CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。</span><span class="sxs-lookup"><span data-stu-id="70cca-113">[Edit CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – This topic helps you make more complex customizations to the user interface (UI) of your portal.</span></span>
-- <span data-ttu-id="70cca-114">[为您的门户创建主题](https://docs.microsoft.com/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。</span><span class="sxs-lookup"><span data-stu-id="70cca-114">[Create a theme for your portal](https://docs.microsoft.com/dynamics365/portals/create-theme) – This topic helps you create a UI theme for your portal.</span></span>
-- <span data-ttu-id="70cca-115">[轻松创建和公开门户内容](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。</span><span class="sxs-lookup"><span data-stu-id="70cca-115">[Create and expose portal content easily](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – This topic helps you manage the underlying data and tables that you use for your portal.</span></span>
-- <span data-ttu-id="70cca-116">[配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。</span><span class="sxs-lookup"><span data-stu-id="70cca-116">[Configure a contact for use on a portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – This topic explains how to create and customize user roles, and how security and authentication work in Power Apps portals.</span></span>
-- <span data-ttu-id="70cca-117">[在门户上配置表窗体和 Web 窗体的注释](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。</span><span class="sxs-lookup"><span data-stu-id="70cca-117">[Configure notes for table forms and web forms on portals](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – This topic explains how to add documents and additional storage to your portal.</span></span>
-- <span data-ttu-id="70cca-118">[门户网站的错误处理](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。</span><span class="sxs-lookup"><span data-stu-id="70cca-118">[Error handling for portal website](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – This topic explains how to view portal error logs and store them in your Microsoft Azure Blob storage account.</span></span>
+- <span data-ttu-id="76c05-111">[使用模板](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – 本主题概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。</span><span class="sxs-lookup"><span data-stu-id="76c05-111">[Work with templates](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – This topic provides a general overview of how Power Apps portals works and how you can do simple customizations of portals.</span></span>
+- <span data-ttu-id="76c05-112">[管理门户内容](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。</span><span class="sxs-lookup"><span data-stu-id="76c05-112">[Manage portal content](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – This topic explains how you can manage and customize the content that you surface in your portal.</span></span>
+- <span data-ttu-id="76c05-113">[编辑 CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。</span><span class="sxs-lookup"><span data-stu-id="76c05-113">[Edit CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – This topic helps you make more complex customizations to the user interface (UI) of your portal.</span></span>
+- <span data-ttu-id="76c05-114">[为您的门户创建主题](https://docs.microsoft.com/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。</span><span class="sxs-lookup"><span data-stu-id="76c05-114">[Create a theme for your portal](https://docs.microsoft.com/dynamics365/portals/create-theme) – This topic helps you create a UI theme for your portal.</span></span>
+- <span data-ttu-id="76c05-115">[轻松创建和公开门户内容](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。</span><span class="sxs-lookup"><span data-stu-id="76c05-115">[Create and expose portal content easily](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – This topic helps you manage the underlying data and tables that you use for your portal.</span></span>
+- <span data-ttu-id="76c05-116">[配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。</span><span class="sxs-lookup"><span data-stu-id="76c05-116">[Configure a contact for use on a portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – This topic explains how to create and customize user roles, and how security and authentication work in Power Apps portals.</span></span>
+- <span data-ttu-id="76c05-117">[在门户上配置表窗体和 Web 窗体的注释](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。</span><span class="sxs-lookup"><span data-stu-id="76c05-117">[Configure notes for table forms and web forms on portals](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – This topic explains how to add documents and additional storage to your portal.</span></span>
+- <span data-ttu-id="76c05-118">[门户网站的错误处理](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。</span><span class="sxs-lookup"><span data-stu-id="76c05-118">[Error handling for portal website](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – This topic explains how to view portal error logs and store them in your Microsoft Azure Blob storage account.</span></span>
 
-## <a name="customize-the-order-creation-process"></a><span data-ttu-id="70cca-119">自定义订单创建流程</span><span class="sxs-lookup"><span data-stu-id="70cca-119">Customize the order creation process</span></span>
+## <a name="customize-the-order-creation-process"></a><span data-ttu-id="76c05-119">自定义订单创建流程</span><span class="sxs-lookup"><span data-stu-id="76c05-119">Customize the order creation process</span></span>
 
-<span data-ttu-id="70cca-120">当用户使用客户门户提交订单时，订单将自动同步到相应的 Dynamics 365 Supply Chain Management 环境。</span><span class="sxs-lookup"><span data-stu-id="70cca-120">When a user submits an order by using the Customer portal, the order is automatically synced to the corresponding Dynamics 365 Supply Chain Management environment.</span></span> <span data-ttu-id="70cca-121">由于用户是外部客户，因此有意向他/她隐藏了一些必需的信息。</span><span class="sxs-lookup"><span data-stu-id="70cca-121">Because the user is an external customer, some required information is intentionally hidden from him or her.</span></span> <span data-ttu-id="70cca-122">表单提交后，这些信息会自动填写。</span><span class="sxs-lookup"><span data-stu-id="70cca-122">This information will automatically be filled in when the form is submitted.</span></span>
+<span data-ttu-id="76c05-120">当用户使用客户门户提交订单时，订单将自动同步到相应的 Dynamics 365 Supply Chain Management 环境。</span><span class="sxs-lookup"><span data-stu-id="76c05-120">When a user submits an order by using the Customer portal, the order is automatically synced to the corresponding Dynamics 365 Supply Chain Management environment.</span></span> <span data-ttu-id="76c05-121">由于用户是外部客户，因此有意向他/她隐藏了一些必需的信息。</span><span class="sxs-lookup"><span data-stu-id="76c05-121">Because the user is an external customer, some required information is intentionally hidden from him or her.</span></span> <span data-ttu-id="76c05-122">表单提交后，这些信息会自动填写。</span><span class="sxs-lookup"><span data-stu-id="76c05-122">This information will automatically be filled in when the form is submitted.</span></span>
 
-<span data-ttu-id="70cca-123">本节说明应该如何设置联系人以避免错误。</span><span class="sxs-lookup"><span data-stu-id="70cca-123">This section shows how you should set up contacts to avoid errors.</span></span> <span data-ttu-id="70cca-124">其中说明了自动设置的字段以及如何在必要时修改这些字段的值。</span><span class="sxs-lookup"><span data-stu-id="70cca-124">It explains fields that are automatically set and how you can modify the value of those fields if you must.</span></span>
+<span data-ttu-id="76c05-123">本节说明应该如何设置联系人以避免错误。</span><span class="sxs-lookup"><span data-stu-id="76c05-123">This section shows how you should set up contacts to avoid errors.</span></span> <span data-ttu-id="76c05-124">其中说明了自动设置的字段以及如何在必要时修改这些字段的值。</span><span class="sxs-lookup"><span data-stu-id="76c05-124">It explains fields that are automatically set and how you can modify the value of those fields if you must.</span></span>
 
-### <a name="the-out-of-box-order-creation-process"></a><span data-ttu-id="70cca-125">现成的订单创建流程</span><span class="sxs-lookup"><span data-stu-id="70cca-125">The out-of-box order creation process</span></span>
+### <a name="the-out-of-box-order-creation-process"></a><span data-ttu-id="76c05-125">现成的订单创建流程</span><span class="sxs-lookup"><span data-stu-id="76c05-125">The out-of-box order creation process</span></span>
 
-<span data-ttu-id="70cca-126">以下是从客户门户提交订单的标准步骤。</span><span class="sxs-lookup"><span data-stu-id="70cca-126">Here are the standard steps for submitting an order from the Customer portal.</span></span>
+<span data-ttu-id="76c05-126">以下是从客户门户提交订单的标准步骤。</span><span class="sxs-lookup"><span data-stu-id="76c05-126">Here are the standard steps for submitting an order from the Customer portal.</span></span>
 
-1. <span data-ttu-id="70cca-127">在主页上，选择 **创建订单** 磁贴打开 **创建订单** 向导。</span><span class="sxs-lookup"><span data-stu-id="70cca-127">On the home page, select the **Create order** tile to open the **Create Order** wizard.</span></span>
-1. <span data-ttu-id="70cca-128">在 **订单信息** 页面上，设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="70cca-128">On the **Order Information** page, set the following fields:</span></span>
+1. <span data-ttu-id="76c05-127">在主页上，选择 **创建订单** 磁贴打开 **创建订单** 向导。</span><span class="sxs-lookup"><span data-stu-id="76c05-127">On the home page, select the **Create order** tile to open the **Create Order** wizard.</span></span>
+1. <span data-ttu-id="76c05-128">在 **订单信息** 页面上，设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="76c05-128">On the **Order Information** page, set the following fields:</span></span>
 
-    - <span data-ttu-id="70cca-129">**请求收货日期** – 指定交货日期。</span><span class="sxs-lookup"><span data-stu-id="70cca-129">**Requested receipt date** – Specify the date of delivery.</span></span>
-    - <span data-ttu-id="70cca-130">**交货地址** – 输入应该交付订单的地址。</span><span class="sxs-lookup"><span data-stu-id="70cca-130">**Delivery address** – Enter the address that the order should be delivered to.</span></span>
-    - <span data-ttu-id="70cca-131">**公司** – 选择客户公司的名称。</span><span class="sxs-lookup"><span data-stu-id="70cca-131">**Company** – Select the name of the customer company.</span></span> <span data-ttu-id="70cca-132">此字段将为非管理员用户自动设置。</span><span class="sxs-lookup"><span data-stu-id="70cca-132">This field is automatically set for non-admin users.</span></span>
-    - <span data-ttu-id="70cca-133">**申请编号** – 输入订单的申请编号。</span><span class="sxs-lookup"><span data-stu-id="70cca-133">**Requisition number** – Enter the requisition number of the order.</span></span> <span data-ttu-id="70cca-134">此字段不是必填项。</span><span class="sxs-lookup"><span data-stu-id="70cca-134">This field isn't required.</span></span>
-    - <span data-ttu-id="70cca-135">**运达国家/地区** – 输入物料将送达的国家或地区。</span><span class="sxs-lookup"><span data-stu-id="70cca-135">**Ship to country/region** – Enter the country or region that the items will be delivered to.</span></span> <span data-ttu-id="70cca-136">此字段将为非管理员用户自动设置。</span><span class="sxs-lookup"><span data-stu-id="70cca-136">This field is automatically set for non-admin users.</span></span>
+    - <span data-ttu-id="76c05-129">**请求收货日期** – 指定交货日期。</span><span class="sxs-lookup"><span data-stu-id="76c05-129">**Requested receipt date** – Specify the date of delivery.</span></span>
+    - <span data-ttu-id="76c05-130">**交货地址** – 输入应该交付订单的地址。</span><span class="sxs-lookup"><span data-stu-id="76c05-130">**Delivery address** – Enter the address that the order should be delivered to.</span></span>
+    - <span data-ttu-id="76c05-131">**公司** – 选择客户公司的名称。</span><span class="sxs-lookup"><span data-stu-id="76c05-131">**Company** – Select the name of the customer company.</span></span> <span data-ttu-id="76c05-132">此字段将为非管理员用户自动设置。</span><span class="sxs-lookup"><span data-stu-id="76c05-132">This field is automatically set for non-admin users.</span></span>
+    - <span data-ttu-id="76c05-133">**申请编号** – 输入订单的申请编号。</span><span class="sxs-lookup"><span data-stu-id="76c05-133">**Requisition number** – Enter the requisition number of the order.</span></span> <span data-ttu-id="76c05-134">此字段不是必填项。</span><span class="sxs-lookup"><span data-stu-id="76c05-134">This field isn't required.</span></span>
+    - <span data-ttu-id="76c05-135">**运达国家/地区** – 输入物料将送达的国家或地区。</span><span class="sxs-lookup"><span data-stu-id="76c05-135">**Ship to country/region** – Enter the country or region that the items will be delivered to.</span></span> <span data-ttu-id="76c05-136">此字段将为非管理员用户自动设置。</span><span class="sxs-lookup"><span data-stu-id="76c05-136">This field is automatically set for non-admin users.</span></span>
 
-    <span data-ttu-id="70cca-137">![订单信息页面](media/customer-portal-order-information.png "“订单信息”页面")</span><span class="sxs-lookup"><span data-stu-id="70cca-137">![Order Information page](media/customer-portal-order-information.png "Order Information page")</span></span>
+    <span data-ttu-id="76c05-137">![订单信息页面](media/customer-portal-order-information.png "“订单信息”页面")</span><span class="sxs-lookup"><span data-stu-id="76c05-137">![Order Information page](media/customer-portal-order-information.png "Order Information page")</span></span>
 
-1. <span data-ttu-id="70cca-138">选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="70cca-138">Select **Next**.</span></span>
-1. <span data-ttu-id="70cca-139">在 **物料** 页上，选择 **添加物料**。</span><span class="sxs-lookup"><span data-stu-id="70cca-139">On the **Items** page, select **Add Item**.</span></span>
+1. <span data-ttu-id="76c05-138">选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="76c05-138">Select **Next**.</span></span>
+1. <span data-ttu-id="76c05-139">在 **物料** 页上，选择 **添加物料**。</span><span class="sxs-lookup"><span data-stu-id="76c05-139">On the **Items** page, select **Add Item**.</span></span>
 
-    <span data-ttu-id="70cca-140">![“物料”页面](media/customer-portal-items.png "“物料”页面")</span><span class="sxs-lookup"><span data-stu-id="70cca-140">![Items page](media/customer-portal-items.png "Items page")</span></span>
+    <span data-ttu-id="76c05-140">![“物料”页面](media/customer-portal-items.png "“物料”页面")</span><span class="sxs-lookup"><span data-stu-id="76c05-140">![Items page](media/customer-portal-items.png "Items page")</span></span>
 
-1. <span data-ttu-id="70cca-141">在 **物料信息** 对话框中，设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="70cca-141">In the **Item Information** dialog box, set the following fields:</span></span>
+1. <span data-ttu-id="76c05-141">在 **物料信息** 对话框中，设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="76c05-141">In the **Item Information** dialog box, set the following fields:</span></span>
 
-    - <span data-ttu-id="70cca-142">**产品名称** – 查找并选择要添加到订单中的产品。</span><span class="sxs-lookup"><span data-stu-id="70cca-142">**Product Name** – Find and select a product to add to the order.</span></span>
-    - <span data-ttu-id="70cca-143">**数量** – 输入所选产品的数量。</span><span class="sxs-lookup"><span data-stu-id="70cca-143">**Quantity** – Enter the quantity of the selected product.</span></span>
-    - <span data-ttu-id="70cca-144">**单位** – 指定度量单位（例如，**个**、**公斤** 或 **箱**）。</span><span class="sxs-lookup"><span data-stu-id="70cca-144">**Unit** – Specify the unit of measure (for example, **ea.**, **kgs**, or **box**).</span></span>
-    - <span data-ttu-id="70cca-145">**估计净额** – 此值计算为“物料的估计价格 × 所选单位的数量”。</span><span class="sxs-lookup"><span data-stu-id="70cca-145">**Estimated net amount** – The value is calculated as the estimated price of the item × the quantity for the selected unit.</span></span>
+    - <span data-ttu-id="76c05-142">**产品名称** – 查找并选择要添加到订单中的产品。</span><span class="sxs-lookup"><span data-stu-id="76c05-142">**Product Name** – Find and select a product to add to the order.</span></span>
+    - <span data-ttu-id="76c05-143">**数量** – 输入所选产品的数量。</span><span class="sxs-lookup"><span data-stu-id="76c05-143">**Quantity** – Enter the quantity of the selected product.</span></span>
+    - <span data-ttu-id="76c05-144">**单位** – 指定度量单位（例如，**个**、**公斤** 或 **箱**）。</span><span class="sxs-lookup"><span data-stu-id="76c05-144">**Unit** – Specify the unit of measure (for example, **ea.**, **kgs**, or **box**).</span></span>
+    - <span data-ttu-id="76c05-145">**估计净额** – 此值计算为“物料的估计价格 × 所选单位的数量”。</span><span class="sxs-lookup"><span data-stu-id="76c05-145">**Estimated net amount** – The value is calculated as the estimated price of the item × the quantity for the selected unit.</span></span>
 
-    <span data-ttu-id="70cca-146">![“物料信息”对话框](media/customer-portal-item-information.png "“物料信息”对话框")</span><span class="sxs-lookup"><span data-stu-id="70cca-146">![Item Information dialog box](media/customer-portal-item-information.png "Item Information dialog box")</span></span>
+    <span data-ttu-id="76c05-146">![“物料信息”对话框](media/customer-portal-item-information.png "“物料信息”对话框")</span><span class="sxs-lookup"><span data-stu-id="76c05-146">![Item Information dialog box](media/customer-portal-item-information.png "Item Information dialog box")</span></span>
 
-1. <span data-ttu-id="70cca-147">选择 **提交** 将物料添加到订单。</span><span class="sxs-lookup"><span data-stu-id="70cca-147">Select **Submit** to add the item to the order.</span></span>
-1. <span data-ttu-id="70cca-148">重复步骤 4 到 6，直到您添加了要订购的所有物料。</span><span class="sxs-lookup"><span data-stu-id="70cca-148">Repeat steps 4 through 6 until you've added all the items that you want to order.</span></span>
-1. <span data-ttu-id="70cca-149">添加完物料后，在 **物料** 页上选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="70cca-149">When you've finished adding items, select **Next** on the **Items** page.</span></span>
-1. <span data-ttu-id="70cca-150">**订单信息** 页提供订单摘要。</span><span class="sxs-lookup"><span data-stu-id="70cca-150">The **Order Information** page provides a summary of the order.</span></span> <span data-ttu-id="70cca-151">查看订单内容和交货详细信息。</span><span class="sxs-lookup"><span data-stu-id="70cca-151">Review the order contents and delivery details.</span></span> <span data-ttu-id="70cca-152">如果每一项看起来都正确，选择 **提交** 提交订单。</span><span class="sxs-lookup"><span data-stu-id="70cca-152">If everything looks correct, select **Submit** to submit the order.</span></span>
+1. <span data-ttu-id="76c05-147">选择 **提交** 将物料添加到订单。</span><span class="sxs-lookup"><span data-stu-id="76c05-147">Select **Submit** to add the item to the order.</span></span>
+1. <span data-ttu-id="76c05-148">重复步骤 4 到 6，直到您添加了要订购的所有物料。</span><span class="sxs-lookup"><span data-stu-id="76c05-148">Repeat steps 4 through 6 until you've added all the items that you want to order.</span></span>
+1. <span data-ttu-id="76c05-149">添加完物料后，在 **物料** 页上选择 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="76c05-149">When you've finished adding items, select **Next** on the **Items** page.</span></span>
+1. <span data-ttu-id="76c05-150">**订单信息** 页提供订单摘要。</span><span class="sxs-lookup"><span data-stu-id="76c05-150">The **Order Information** page provides a summary of the order.</span></span> <span data-ttu-id="76c05-151">查看订单内容和交货详细信息。</span><span class="sxs-lookup"><span data-stu-id="76c05-151">Review the order contents and delivery details.</span></span> <span data-ttu-id="76c05-152">如果每一项看起来都正确，选择 **提交** 提交订单。</span><span class="sxs-lookup"><span data-stu-id="76c05-152">If everything looks correct, select **Submit** to submit the order.</span></span>
 
-    <span data-ttu-id="70cca-153">![“订单信息”页面](media/customer-portal-order-submit.png "“订单信息”页面")</span><span class="sxs-lookup"><span data-stu-id="70cca-153">![Order Information page](media/customer-portal-order-submit.png "Order Information page")</span></span>
+    <span data-ttu-id="76c05-153">![“订单信息”页面](media/customer-portal-order-submit.png "“订单信息”页面")</span><span class="sxs-lookup"><span data-stu-id="76c05-153">![Order Information page](media/customer-portal-order-submit.png "Order Information page")</span></span>
 
-### <a name="standard-data-setup"></a><span data-ttu-id="70cca-154">标准数据设置</span><span class="sxs-lookup"><span data-stu-id="70cca-154">Standard data setup</span></span>
+### <a name="standard-data-setup"></a><span data-ttu-id="76c05-154">标准数据设置</span><span class="sxs-lookup"><span data-stu-id="76c05-154">Standard data setup</span></span>
 
-<span data-ttu-id="70cca-155">为了帮助确保流畅的用户体验，客户门户会自动填充几个必填字段的值。</span><span class="sxs-lookup"><span data-stu-id="70cca-155">To help ensure a smooth user experience, the Customer portal automatically fills in values for several required fields.</span></span> <span data-ttu-id="70cca-156">这些值基于提交订单的客户的联系记录中的信息。</span><span class="sxs-lookup"><span data-stu-id="70cca-156">These values are based on information in the contact record of the customer who is submitting the order.</span></span>
+<span data-ttu-id="76c05-155">为了帮助确保流畅的用户体验，客户门户会自动填充几个必填字段的值。</span><span class="sxs-lookup"><span data-stu-id="76c05-155">To help ensure a smooth user experience, the Customer portal automatically fills in values for several required fields.</span></span> <span data-ttu-id="76c05-156">这些值基于提交订单的客户的联系记录中的信息。</span><span class="sxs-lookup"><span data-stu-id="76c05-156">These values are based on information in the contact record of the customer who is submitting the order.</span></span>
 
-<span data-ttu-id="70cca-157">对于属于将使用客户门户提交订单的客户的每个[联系人行](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。</span><span class="sxs-lookup"><span data-stu-id="70cca-157">For each [contact row](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) that belongs to a customer who will use the Customer portal to submit orders, values must be specified for the following required fields.</span></span> <span data-ttu-id="70cca-158">否则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="70cca-158">Otherwise, errors will occur.</span></span>
+<span data-ttu-id="76c05-157">对于属于将使用客户门户提交订单的客户的每个[联系人行](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。</span><span class="sxs-lookup"><span data-stu-id="76c05-157">For each [contact row](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) that belongs to a customer who will use the Customer portal to submit orders, values must be specified for the following required fields.</span></span> <span data-ttu-id="76c05-158">否则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="76c05-158">Otherwise, errors will occur.</span></span>
 
-- <span data-ttu-id="70cca-159">**公司** – 订单所属的法人</span><span class="sxs-lookup"><span data-stu-id="70cca-159">**Company** – The legal entity that the order belongs to</span></span>
-- <span data-ttu-id="70cca-160">**潜在客户** – 与订单关联的客户帐户</span><span class="sxs-lookup"><span data-stu-id="70cca-160">**Potential customer** – The customer account that is associated with the order</span></span>
-- <span data-ttu-id="70cca-161">**价目表** – 客户的自定义价目表</span><span class="sxs-lookup"><span data-stu-id="70cca-161">**Price list** – The custom price list for the customer</span></span>
-- <span data-ttu-id="70cca-162">**货币** – 价格使用的货币</span><span class="sxs-lookup"><span data-stu-id="70cca-162">**Currency** – The currency of the price</span></span>
-- <span data-ttu-id="70cca-163">**运达国家/地区** – 物料将送达的国家或地区</span><span class="sxs-lookup"><span data-stu-id="70cca-163">**Ship to country/region** – The country or region that the items will be delivered to</span></span>
+- <span data-ttu-id="76c05-159">**公司** – 订单所属的法人</span><span class="sxs-lookup"><span data-stu-id="76c05-159">**Company** – The legal entity that the order belongs to</span></span>
+- <span data-ttu-id="76c05-160">**潜在客户** – 与订单关联的客户帐户</span><span class="sxs-lookup"><span data-stu-id="76c05-160">**Potential customer** – The customer account that is associated with the order</span></span>
+- <span data-ttu-id="76c05-161">**价目表** – 客户的自定义价目表</span><span class="sxs-lookup"><span data-stu-id="76c05-161">**Price list** – The custom price list for the customer</span></span>
+- <span data-ttu-id="76c05-162">**货币** – 价格使用的货币</span><span class="sxs-lookup"><span data-stu-id="76c05-162">**Currency** – The currency of the price</span></span>
+- <span data-ttu-id="76c05-163">**运达国家/地区** – 物料将送达的国家或地区</span><span class="sxs-lookup"><span data-stu-id="76c05-163">**Ship to country/region** – The country or region that the items will be delivered to</span></span>
 
-<span data-ttu-id="70cca-164">将自动为销售订单表设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="70cca-164">The following fields are automatically set for the sales order table:</span></span>
+<span data-ttu-id="76c05-164">将自动为销售订单表设置以下字段：</span><span class="sxs-lookup"><span data-stu-id="76c05-164">The following fields are automatically set for the sales order table:</span></span>
 
-- <span data-ttu-id="70cca-165">**语言** – 订单的语言（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-165">**Language** – The language of the order (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-166">**运达国家/地区** – 物料将被运送到的国家或地区（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-166">**Ship to country/region** – The country or region that the items will be delivered to (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-167">**联系人** – 可以与其联系来获取有关订单的信息的用户（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-167">**Contact person** – The user who can be contacted for information about the order (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-168">**公司** – 订单所属的法人（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-168">**Company** – The legal entity that the order belongs to (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-169">**潜在客户** – 与订单关联的客户帐户（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-169">**Potential customer** – The customer account that is associated with the order (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-170">**发票客户** – 订单的计费帐户（默认值为联系人记录中的潜在客户。）</span><span class="sxs-lookup"><span data-stu-id="70cca-170">**Invoice customer** – The billing account of the order (The default value is the potential customer from the contact record.)</span></span>
-- <span data-ttu-id="70cca-171">**销售订单名称** – 销售订单的名称（默认值为 **销售订单**。）</span><span class="sxs-lookup"><span data-stu-id="70cca-171">**Sales order name** – The name of the sales order (The default value is **sales order**.)</span></span>
-- <span data-ttu-id="70cca-172">**货币** – 价格使用的货币（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-172">**Currency** – The currency of the price (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-173">**价目表** – 客户的自定义价目表（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="70cca-173">**Price list** – The custom price list for the customer (By default, the value is taken from the contact record.)</span></span>
-- <span data-ttu-id="70cca-174">**交货地址描述** – 销售订单的交货地址（默认值为 **交货地址描述**。）</span><span class="sxs-lookup"><span data-stu-id="70cca-174">**Delivery address description** – The delivery address of the sales order (The default value is **delivery address description**.)</span></span>
+- <span data-ttu-id="76c05-165">**语言** – 订单的语言（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-165">**Language** – The language of the order (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-166">**运达国家/地区** – 物料将被运送到的国家或地区（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-166">**Ship to country/region** – The country or region that the items will be delivered to (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-167">**联系人** – 可以与其联系来获取有关订单的信息的用户（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-167">**Contact person** – The user who can be contacted for information about the order (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-168">**公司** – 订单所属的法人（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-168">**Company** – The legal entity that the order belongs to (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-169">**潜在客户** – 与订单关联的客户帐户（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-169">**Potential customer** – The customer account that is associated with the order (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-170">**发票客户** – 订单的计费帐户（默认值为联系人记录中的潜在客户。）</span><span class="sxs-lookup"><span data-stu-id="76c05-170">**Invoice customer** – The billing account of the order (The default value is the potential customer from the contact record.)</span></span>
+- <span data-ttu-id="76c05-171">**销售订单名称** – 销售订单的名称（默认值为 **销售订单**。）</span><span class="sxs-lookup"><span data-stu-id="76c05-171">**Sales order name** – The name of the sales order (The default value is **sales order**.)</span></span>
+- <span data-ttu-id="76c05-172">**货币** – 价格使用的货币（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-172">**Currency** – The currency of the price (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-173">**价目表** – 客户的自定义价目表（默认情况下，此值取自联系人记录。）</span><span class="sxs-lookup"><span data-stu-id="76c05-173">**Price list** – The custom price list for the customer (By default, the value is taken from the contact record.)</span></span>
+- <span data-ttu-id="76c05-174">**交货地址描述** – 销售订单的交货地址（默认值为 **交货地址描述**。）</span><span class="sxs-lookup"><span data-stu-id="76c05-174">**Delivery address description** – The delivery address of the sales order (The default value is **delivery address description**.)</span></span>
 
-### <a name="modify-the-order-creation-process"></a><span data-ttu-id="70cca-175">修改订单创建流程</span><span class="sxs-lookup"><span data-stu-id="70cca-175">Modify the order creation process</span></span>
+### <a name="modify-the-order-creation-process"></a><span data-ttu-id="76c05-175">修改订单创建流程</span><span class="sxs-lookup"><span data-stu-id="76c05-175">Modify the order creation process</span></span>
 
-<span data-ttu-id="70cca-176">如果不更改基本订单创建流程，可以自由修改客户门户的外观和 UI。</span><span class="sxs-lookup"><span data-stu-id="70cca-176">You can freely modify the appearance and UI of the Customer portal if you don't change the basic order creation process.</span></span> <span data-ttu-id="70cca-177">如果要更改订单创建流程，必须牢记几点。</span><span class="sxs-lookup"><span data-stu-id="70cca-177">If you want to change the order creation process, there are a few points that you must keep in mind.</span></span>
+<span data-ttu-id="76c05-176">如果不更改基本订单创建流程，可以自由修改客户门户的外观和 UI。</span><span class="sxs-lookup"><span data-stu-id="76c05-176">You can freely modify the appearance and UI of the Customer portal if you don't change the basic order creation process.</span></span> <span data-ttu-id="76c05-177">如果要更改订单创建流程，必须牢记几点。</span><span class="sxs-lookup"><span data-stu-id="76c05-177">If you want to change the order creation process, there are a few points that you must keep in mind.</span></span>
 
-<span data-ttu-id="70cca-178">不要从 Microsoft Dataverse 中的销售订单表中删除以下列，因为它们是以双写入方式创建销售订单所必需的：</span><span class="sxs-lookup"><span data-stu-id="70cca-178">Don't remove the following columns from the sales order table in Microsoft Dataverse, because they are required to create a sales order in dual-write:</span></span>
+<span data-ttu-id="76c05-178">不要从 Microsoft Dataverse 中的销售订单表中删除以下列，因为它们是以双写入方式创建销售订单所必需的：</span><span class="sxs-lookup"><span data-stu-id="76c05-178">Don't remove the following columns from the sales order table in Microsoft Dataverse, because they are required to create a sales order in dual-write:</span></span>
 
-- <span data-ttu-id="70cca-179">**公司** – 订单所属的法人</span><span class="sxs-lookup"><span data-stu-id="70cca-179">**Company** – The legal entity that the order belongs to</span></span>
-- <span data-ttu-id="70cca-180">**名称** – 销售订单的名称</span><span class="sxs-lookup"><span data-stu-id="70cca-180">**Name** – The name of the sales order</span></span>
-- <span data-ttu-id="70cca-181">**货币** – 价格使用的货币</span><span class="sxs-lookup"><span data-stu-id="70cca-181">**Currency** – The currency of the price</span></span>
-- <span data-ttu-id="70cca-182">**价目表** – 客户的自定义价目表</span><span class="sxs-lookup"><span data-stu-id="70cca-182">**Price list** – The custom price list for the customer</span></span>
-- <span data-ttu-id="70cca-183">**运达国家/地区** – 物料将送达的国家或地区</span><span class="sxs-lookup"><span data-stu-id="70cca-183">**Ship to country/region** – The country or region that the items will be delivered to</span></span>
-- <span data-ttu-id="70cca-184">**潜在客户** – 与订单关联的客户帐户</span><span class="sxs-lookup"><span data-stu-id="70cca-184">**Potential customer** – The customer account that is associated with the order</span></span>
-- <span data-ttu-id="70cca-185">**语言** – 订单的语言（通常，此语言是潜在客户的语言。）</span><span class="sxs-lookup"><span data-stu-id="70cca-185">**Language** – The language of the order (Typically, this language is the language of the potential customer.)</span></span>
-- <span data-ttu-id="70cca-186">**交货地址描述** – 销售订单的交货地址</span><span class="sxs-lookup"><span data-stu-id="70cca-186">**Delivery address description** – The delivery address of the sales order</span></span>
+- <span data-ttu-id="76c05-179">**公司** – 订单所属的法人</span><span class="sxs-lookup"><span data-stu-id="76c05-179">**Company** – The legal entity that the order belongs to</span></span>
+- <span data-ttu-id="76c05-180">**名称** – 销售订单的名称</span><span class="sxs-lookup"><span data-stu-id="76c05-180">**Name** – The name of the sales order</span></span>
+- <span data-ttu-id="76c05-181">**货币** – 价格使用的货币</span><span class="sxs-lookup"><span data-stu-id="76c05-181">**Currency** – The currency of the price</span></span>
+- <span data-ttu-id="76c05-182">**价目表** – 客户的自定义价目表</span><span class="sxs-lookup"><span data-stu-id="76c05-182">**Price list** – The custom price list for the customer</span></span>
+- <span data-ttu-id="76c05-183">**运达国家/地区** – 物料将送达的国家或地区</span><span class="sxs-lookup"><span data-stu-id="76c05-183">**Ship to country/region** – The country or region that the items will be delivered to</span></span>
+- <span data-ttu-id="76c05-184">**潜在客户** – 与订单关联的客户帐户</span><span class="sxs-lookup"><span data-stu-id="76c05-184">**Potential customer** – The customer account that is associated with the order</span></span>
+- <span data-ttu-id="76c05-185">**语言** – 订单的语言（通常，此语言是潜在客户的语言。）</span><span class="sxs-lookup"><span data-stu-id="76c05-185">**Language** – The language of the order (Typically, this language is the language of the potential customer.)</span></span>
+- <span data-ttu-id="76c05-186">**交货地址描述** – 销售订单的交货地址</span><span class="sxs-lookup"><span data-stu-id="76c05-186">**Delivery address description** – The delivery address of the sales order</span></span>
 
-<span data-ttu-id="70cca-187">对于物料，必须有以下列：</span><span class="sxs-lookup"><span data-stu-id="70cca-187">For items, the following columns are required:</span></span>
+<span data-ttu-id="76c05-187">对于物料，必须有以下列：</span><span class="sxs-lookup"><span data-stu-id="76c05-187">For items, the following columns are required:</span></span>
 
-- <span data-ttu-id="70cca-188">**产品** – 要订购的产品</span><span class="sxs-lookup"><span data-stu-id="70cca-188">**Product** – The product to order</span></span>
-- <span data-ttu-id="70cca-189">**数量** – 所选产品的数量</span><span class="sxs-lookup"><span data-stu-id="70cca-189">**Quantity** – The quantity of the selected product</span></span>
-- <span data-ttu-id="70cca-190">**单位** – 度量单位（例如，**个**、**公斤** 或 **箱**）</span><span class="sxs-lookup"><span data-stu-id="70cca-190">**Unit** – The unit of measure (for example, **ea.**, **kgs**, or **box**)</span></span>
-- <span data-ttu-id="70cca-191">**运达国家/地区** – 交货国家或地区</span><span class="sxs-lookup"><span data-stu-id="70cca-191">**Ship to country/region** – The country or region of delivery</span></span>
-- <span data-ttu-id="70cca-192">**交货地址描述** – 订单的交货地址</span><span class="sxs-lookup"><span data-stu-id="70cca-192">**Delivery address description** – The delivery address of the order</span></span>
+- <span data-ttu-id="76c05-188">**产品** – 要订购的产品</span><span class="sxs-lookup"><span data-stu-id="76c05-188">**Product** – The product to order</span></span>
+- <span data-ttu-id="76c05-189">**数量** – 所选产品的数量</span><span class="sxs-lookup"><span data-stu-id="76c05-189">**Quantity** – The quantity of the selected product</span></span>
+- <span data-ttu-id="76c05-190">**单位** – 度量单位（例如，**个**、**公斤** 或 **箱**）</span><span class="sxs-lookup"><span data-stu-id="76c05-190">**Unit** – The unit of measure (for example, **ea.**, **kgs**, or **box**)</span></span>
+- <span data-ttu-id="76c05-191">**运达国家/地区** – 交货国家或地区</span><span class="sxs-lookup"><span data-stu-id="76c05-191">**Ship to country/region** – The country or region of delivery</span></span>
+- <span data-ttu-id="76c05-192">**交货地址描述** – 订单的交货地址</span><span class="sxs-lookup"><span data-stu-id="76c05-192">**Delivery address description** – The delivery address of the order</span></span>
 
-<span data-ttu-id="70cca-193">您必须确保客户门户以某种方式提交所有这些列的值。</span><span class="sxs-lookup"><span data-stu-id="70cca-193">You must make sure that your Customer portal somehow submits values for all these columns.</span></span>
+<span data-ttu-id="76c05-193">您必须确保客户门户以某种方式提交所有这些列的值。</span><span class="sxs-lookup"><span data-stu-id="76c05-193">You must make sure that your Customer portal somehow submits values for all these columns.</span></span>
 
-<span data-ttu-id="70cca-194">如果要向页面添加列或删除列，请参阅[创建或编辑快速创建窗体以简化数据输入体验](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。</span><span class="sxs-lookup"><span data-stu-id="70cca-194">If you want to add columns to the page, or remove columns, see [Create or edit quick create forms for a streamlined data entry experience](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).</span></span>
+<span data-ttu-id="76c05-194">如果要向页面添加列或删除列，请参阅[创建或编辑快速创建窗体以简化数据输入体验](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。</span><span class="sxs-lookup"><span data-stu-id="76c05-194">If you want to add columns to the page, or remove columns, see [Create or edit quick create forms for a streamlined data entry experience](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).</span></span>
 
-<span data-ttu-id="70cca-195">如果要更改保存页面时列的预设方式和值的设置方式，请参阅 Power Apps 门户文档中的以下信息：</span><span class="sxs-lookup"><span data-stu-id="70cca-195">If you want to change how columns are preset and how values are set when the page is saved, see the following information in the Power Apps portals documentation:</span></span>
+<span data-ttu-id="76c05-195">如果要更改保存页面时列的预设方式和值的设置方式，请参阅 Power Apps 门户文档中的以下信息：</span><span class="sxs-lookup"><span data-stu-id="76c05-195">If you want to change how columns are preset and how values are set when the page is saved, see the following information in the Power Apps portals documentation:</span></span>
 
-- [<span data-ttu-id="70cca-196">预填充字段</span><span class="sxs-lookup"><span data-stu-id="70cca-196">Prepopulate field</span></span>](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [<span data-ttu-id="70cca-197">保存时设置值</span><span class="sxs-lookup"><span data-stu-id="70cca-197">Set Value On Save</span></span>](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [<span data-ttu-id="76c05-196">预填充字段</span><span class="sxs-lookup"><span data-stu-id="76c05-196">Prepopulate field</span></span>](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [<span data-ttu-id="76c05-197">保存时设置值</span><span class="sxs-lookup"><span data-stu-id="76c05-197">Set Value On Save</span></span>](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
-## <a name="customize-the-home-page"></a><span data-ttu-id="70cca-198">自定义主页</span><span class="sxs-lookup"><span data-stu-id="70cca-198">Customize the home page</span></span>
+## <a name="customize-the-home-page"></a><span data-ttu-id="76c05-198">自定义主页</span><span class="sxs-lookup"><span data-stu-id="76c05-198">Customize the home page</span></span>
 
-<span data-ttu-id="70cca-199">客户门户中的所有控件都是内置的 Power Apps 门户控件。</span><span class="sxs-lookup"><span data-stu-id="70cca-199">All the controls in the Customer portal are built-in Power Apps portals controls.</span></span> <span data-ttu-id="70cca-200">您可以按照 Power Apps 门户文档中[设计页面](https://docs.microsoft.com/powerapps/maker/portals/compose-page)中的以下步骤自定义这些控件。</span><span class="sxs-lookup"><span data-stu-id="70cca-200">You can customize them by following the steps in [Compose a page](https://docs.microsoft.com/powerapps/maker/portals/compose-page) in the Power Apps portals documentation.</span></span>
+<span data-ttu-id="76c05-199">客户门户中的所有控件都是内置的 Power Apps 门户控件。</span><span class="sxs-lookup"><span data-stu-id="76c05-199">All the controls in the Customer portal are built-in Power Apps portals controls.</span></span> <span data-ttu-id="76c05-200">您可以按照 Power Apps 门户文档中[设计页面](https://docs.microsoft.com/powerapps/maker/portals/compose-page)中的以下步骤自定义这些控件。</span><span class="sxs-lookup"><span data-stu-id="76c05-200">You can customize them by following the steps in [Compose a page](https://docs.microsoft.com/powerapps/maker/portals/compose-page) in the Power Apps portals documentation.</span></span>
 
-<span data-ttu-id="70cca-201">客户门户模板中包含的唯一自定义控件用于在主页上创建磁贴。</span><span class="sxs-lookup"><span data-stu-id="70cca-201">The only custom control that is included in the Customer portal template is used to create the tiles on the home page.</span></span>
+<span data-ttu-id="76c05-201">客户门户模板中包含的唯一自定义控件用于在主页上创建磁贴。</span><span class="sxs-lookup"><span data-stu-id="76c05-201">The only custom control that is included in the Customer portal template is used to create the tiles on the home page.</span></span>
 
-<span data-ttu-id="70cca-202">![主页上的磁贴](media/customer-portal-home-page-tiles.png "主页上的磁贴")</span><span class="sxs-lookup"><span data-stu-id="70cca-202">![Tiles on the home page](media/customer-portal-home-page-tiles.png "Tiles on the home page")</span></span>
+<span data-ttu-id="76c05-202">![主页上的磁贴](media/customer-portal-home-page-tiles.png "主页上的磁贴")</span><span class="sxs-lookup"><span data-stu-id="76c05-202">![Tiles on the home page](media/customer-portal-home-page-tiles.png "Tiles on the home page")</span></span>
 
-<span data-ttu-id="70cca-203">要修改磁贴，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="70cca-203">To modify the tiles, follow these steps.</span></span>
+<span data-ttu-id="76c05-203">要修改磁贴，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="76c05-203">To modify the tiles, follow these steps.</span></span>
 
-1. <span data-ttu-id="70cca-204">打开[“门户管理”应用](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)。</span><span class="sxs-lookup"><span data-stu-id="70cca-204">Open the [Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).</span></span>
-1. <span data-ttu-id="70cca-205">在左侧的导航窗格中，选择 **页面模板**。</span><span class="sxs-lookup"><span data-stu-id="70cca-205">In the navigation pane on the left, select **Page Templates**.</span></span>
+1. <span data-ttu-id="76c05-204">打开[“门户管理”应用](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)。</span><span class="sxs-lookup"><span data-stu-id="76c05-204">Open the [Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).</span></span>
+1. <span data-ttu-id="76c05-205">在左侧的导航窗格中，选择 **页面模板**。</span><span class="sxs-lookup"><span data-stu-id="76c05-205">In the navigation pane on the left, select **Page Templates**.</span></span>
 
-    <span data-ttu-id="70cca-206">![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")</span><span class="sxs-lookup"><span data-stu-id="70cca-206">![Portal Management navigation pane](media/customer-portal-nav.png "Portal Management navigation pane")</span></span>
+    <span data-ttu-id="76c05-206">![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")</span><span class="sxs-lookup"><span data-stu-id="76c05-206">![Portal Management navigation pane](media/customer-portal-nav.png "Portal Management navigation pane")</span></span>
 
-1. <span data-ttu-id="70cca-207">选择名为 **主页** 的页面模板。</span><span class="sxs-lookup"><span data-stu-id="70cca-207">Select the page template that is named **Home**.</span></span>
-1. <span data-ttu-id="70cca-208">在 **Web 模板** 字段中，选择 **主页** 链接打开该页面的源代码。</span><span class="sxs-lookup"><span data-stu-id="70cca-208">In the **Web Template** field, select the **Home** link to open the source code for that page.</span></span>
+1. <span data-ttu-id="76c05-207">选择名为 **主页** 的页面模板。</span><span class="sxs-lookup"><span data-stu-id="76c05-207">Select the page template that is named **Home**.</span></span>
+1. <span data-ttu-id="76c05-208">在 **Web 模板** 字段中，选择 **主页** 链接打开该页面的源代码。</span><span class="sxs-lookup"><span data-stu-id="76c05-208">In the **Web Template** field, select the **Home** link to open the source code for that page.</span></span>
 
-    <span data-ttu-id="70cca-209">![“Web 模板”字段](media/customer-portal-web-template.png "“Web 模板”字段")</span><span class="sxs-lookup"><span data-stu-id="70cca-209">![Web Template field](media/customer-portal-web-template.png "Web Template field")</span></span>
+    <span data-ttu-id="76c05-209">![“Web 模板”字段](media/customer-portal-web-template.png "“Web 模板”字段")</span><span class="sxs-lookup"><span data-stu-id="76c05-209">![Web Template field](media/customer-portal-web-template.png "Web Template field")</span></span>
 
-1. <span data-ttu-id="70cca-210">现在，您应该可以看到主页的所有源代码，并可以根据需要对其进行修改。</span><span class="sxs-lookup"><span data-stu-id="70cca-210">You should now see all the source code for the home page and can modify it as you require.</span></span>
+1. <span data-ttu-id="76c05-210">现在，您应该可以看到主页的所有源代码，并可以根据需要对其进行修改。</span><span class="sxs-lookup"><span data-stu-id="76c05-210">You should now see all the source code for the home page and can modify it as you require.</span></span>
 
-## <a name="resources"></a><span data-ttu-id="70cca-211">资源</span><span class="sxs-lookup"><span data-stu-id="70cca-211">Resources</span></span>
+## <a name="resources"></a><span data-ttu-id="76c05-211">资源</span><span class="sxs-lookup"><span data-stu-id="76c05-211">Resources</span></span>
 
-<span data-ttu-id="70cca-212">要了解有关如何设置和自定义客户门户的详细信息，请参阅以下资源：</span><span class="sxs-lookup"><span data-stu-id="70cca-212">To learn more about how you can set up and customize the Customer portal, see the following resources:</span></span>
+<span data-ttu-id="76c05-212">要了解有关如何设置和自定义客户门户的详细信息，请参阅以下资源：</span><span class="sxs-lookup"><span data-stu-id="76c05-212">To learn more about how you can set up and customize the Customer portal, see the following resources:</span></span>
 
-- [<span data-ttu-id="70cca-213">Power Apps 门户文档</span><span class="sxs-lookup"><span data-stu-id="70cca-213">Power Apps portals documentation</span></span>](https://docs.microsoft.com/powerapps/maker/portals/overview)
-- [<span data-ttu-id="70cca-214">双写入文档</span><span class="sxs-lookup"><span data-stu-id="70cca-214">Dual-write documentation</span></span>](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [<span data-ttu-id="70cca-215">关于门户生命周期</span><span class="sxs-lookup"><span data-stu-id="70cca-215">About portal lifecycle</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [<span data-ttu-id="70cca-216">升级门户</span><span class="sxs-lookup"><span data-stu-id="70cca-216">Upgrade a portal</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [<span data-ttu-id="70cca-217">迁移门户配置</span><span class="sxs-lookup"><span data-stu-id="70cca-217">Migrate portal configuration</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
-- [<span data-ttu-id="70cca-218">解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用</span><span class="sxs-lookup"><span data-stu-id="70cca-218">Solution Lifecycle Management: Dynamics 365 for Customer Engagement apps</span></span>](https://www.microsoft.com/download/details.aspx?id=57777)
+- [<span data-ttu-id="76c05-213">Power Apps 门户文档</span><span class="sxs-lookup"><span data-stu-id="76c05-213">Power Apps portals documentation</span></span>](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [<span data-ttu-id="76c05-214">双写入文档</span><span class="sxs-lookup"><span data-stu-id="76c05-214">Dual-write documentation</span></span>](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
+- [<span data-ttu-id="76c05-215">关于门户生命周期</span><span class="sxs-lookup"><span data-stu-id="76c05-215">About portal lifecycle</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
+- [<span data-ttu-id="76c05-216">升级门户</span><span class="sxs-lookup"><span data-stu-id="76c05-216">Upgrade a portal</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
+- [<span data-ttu-id="76c05-217">迁移门户配置</span><span class="sxs-lookup"><span data-stu-id="76c05-217">Migrate portal configuration</span></span>](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [<span data-ttu-id="76c05-218">解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用</span><span class="sxs-lookup"><span data-stu-id="76c05-218">Solution Lifecycle Management: Dynamics 365 for Customer Engagement apps</span></span>](https://www.microsoft.com/download/details.aspx?id=57777)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
