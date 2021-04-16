@@ -2,11 +2,9 @@
 title: 使用装运合并工作台合并装运
 description: 此主题提供以下方案：使用装运合并工作台将多个订单发放到仓库，以后再合并到装运中。
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
@@ -15,257 +13,257 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9b7dc72d789fd331c3636c406ac6a45566ba81ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29dd403ce2378beb6f4ba71a0b3c0836eed7566a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242173"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838410"
 ---
-# <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="923ed-103">使用装运合并工作台合并装运</span><span class="sxs-lookup"><span data-stu-id="923ed-103">Consolidate shipments by using the shipment consolidation workbench</span></span>
+# <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="d6f6d-103">使用装运合并工作台合并装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-103">Consolidate shipments by using the shipment consolidation workbench</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="923ed-104">此主题提供以下方案：使用装运合并工作台将多个订单发放到仓库，以后再合并到装运中。</span><span class="sxs-lookup"><span data-stu-id="923ed-104">This topic presents a scenario where multiple orders are released to the warehouse and then consolidated into shipments later by using the shipment consolidation workbench.</span></span>
+<span data-ttu-id="d6f6d-104">此主题提供以下方案：使用装运合并工作台将多个订单发放到仓库，以后再合并到装运中。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-104">This topic presents a scenario where multiple orders are released to the warehouse and then consolidated into shipments later by using the shipment consolidation workbench.</span></span>
 
-## <a name="make-demo-data-available"></a><span data-ttu-id="923ed-105">提供演示数据</span><span class="sxs-lookup"><span data-stu-id="923ed-105">Make demo data available</span></span>
+## <a name="make-demo-data-available"></a><span data-ttu-id="d6f6d-105">提供演示数据</span><span class="sxs-lookup"><span data-stu-id="d6f6d-105">Make demo data available</span></span>
 
-<span data-ttu-id="923ed-106">此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。</span><span class="sxs-lookup"><span data-stu-id="923ed-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="923ed-107">如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。</span><span class="sxs-lookup"><span data-stu-id="923ed-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
+<span data-ttu-id="d6f6d-106">此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="d6f6d-107">如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
 
-## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="923ed-108">设置装运合并策略和产品筛选器</span><span class="sxs-lookup"><span data-stu-id="923ed-108">Set up shipment consolidation policies and product filters</span></span>
+## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="d6f6d-108">设置装运合并策略和产品筛选器</span><span class="sxs-lookup"><span data-stu-id="d6f6d-108">Set up shipment consolidation policies and product filters</span></span>
 
-<span data-ttu-id="923ed-109">此处介绍的方案假设已经开启了此功能，完成了[配置装运合并策略](configure-shipment-consolidation-policies.md)中的练习，并创建了其中介绍的策略和其他记录。</span><span class="sxs-lookup"><span data-stu-id="923ed-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="923ed-110">务必先完成这些练习，再继续完成此方案。</span><span class="sxs-lookup"><span data-stu-id="923ed-110">Be sure to do those exercises before you continue with this scenario.</span></span>
+<span data-ttu-id="d6f6d-109">此处介绍的方案假设已经开启了此功能，完成了[配置装运合并策略](configure-shipment-consolidation-policies.md)中的练习，并创建了其中介绍的策略和其他记录。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="d6f6d-110">务必先完成这些练习，再继续完成此方案。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-110">Be sure to do those exercises before you continue with this scenario.</span></span>
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a><span data-ttu-id="923ed-111">开启手动合并装运功能</span><span class="sxs-lookup"><span data-stu-id="923ed-111">Turn on the manual shipment consolidation feature</span></span>
+## <a name="turn-on-the-manual-shipment-consolidation-feature"></a><span data-ttu-id="d6f6d-111">开启手动合并装运功能</span><span class="sxs-lookup"><span data-stu-id="d6f6d-111">Turn on the manual shipment consolidation feature</span></span>
 
-<span data-ttu-id="923ed-112">*手动合并装运* 功能必须先在系统中开启，才能使用。</span><span class="sxs-lookup"><span data-stu-id="923ed-112">Before you can use the *Manual shipment consolidation* feature, you must turn it on in your system.</span></span> <span data-ttu-id="923ed-113">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。</span><span class="sxs-lookup"><span data-stu-id="923ed-113">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="923ed-114">在 **功能管理** 工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="923ed-114">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+<span data-ttu-id="d6f6d-112">*手动合并装运* 功能必须先在系统中开启，才能使用。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-112">Before you can use the *Manual shipment consolidation* feature, you must turn it on in your system.</span></span> <span data-ttu-id="d6f6d-113">管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-113">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="d6f6d-114">在 **功能管理** 工作区中，此功能按照下面的方式列出：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-114">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
 
-- <span data-ttu-id="923ed-115">**模块**：*仓库管理*</span><span class="sxs-lookup"><span data-stu-id="923ed-115">**Module:** *Warehouse management*</span></span>
-- <span data-ttu-id="923ed-116">**功能名称**：*手动合并装运*</span><span class="sxs-lookup"><span data-stu-id="923ed-116">**Feature name:** *Manual shipment consolidation*</span></span>
+- <span data-ttu-id="d6f6d-115">**模块**：*仓库管理*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-115">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="d6f6d-116">**功能名称**：*手动合并装运*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-116">**Feature name:** *Manual shipment consolidation*</span></span>
 
-<span data-ttu-id="923ed-117">[配置装运合并策略](configure-shipment-consolidation-policies.md)中已说明，还必须先开启 *合并装运* 功能，才能创建策略。</span><span class="sxs-lookup"><span data-stu-id="923ed-117">As was mentioned in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), you must also turn on the *Consolidate shipment* feature before you can create policies.</span></span> <span data-ttu-id="923ed-118">但是，您应该已经完成了该步骤。</span><span class="sxs-lookup"><span data-stu-id="923ed-118">However, you should already have completed that step.</span></span>
+<span data-ttu-id="d6f6d-117">[配置装运合并策略](configure-shipment-consolidation-policies.md)中已说明，还必须先开启 *合并装运* 功能，才能创建策略。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-117">As was mentioned in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), you must also turn on the *Consolidate shipment* feature before you can create policies.</span></span> <span data-ttu-id="d6f6d-118">但是，您应该已经完成了该步骤。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-118">However, you should already have completed that step.</span></span>
 
-## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="923ed-119">为此方案创建销售订单</span><span class="sxs-lookup"><span data-stu-id="923ed-119">Create the sales orders for this scenario</span></span>
+## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="d6f6d-119">为此方案创建销售订单</span><span class="sxs-lookup"><span data-stu-id="d6f6d-119">Create the sales orders for this scenario</span></span>
 
-<span data-ttu-id="923ed-120">首先创建可以使用的销售订单的集合。</span><span class="sxs-lookup"><span data-stu-id="923ed-120">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="923ed-121">必须使用为高级仓库 (WMS) 流程启用的仓库。</span><span class="sxs-lookup"><span data-stu-id="923ed-121">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="923ed-122">除非明确提及其他仓库，否则必须为下面的每组订单使用同一个仓库。</span><span class="sxs-lookup"><span data-stu-id="923ed-122">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
+<span data-ttu-id="d6f6d-120">首先创建可以使用的销售订单的集合。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-120">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="d6f6d-121">必须使用为高级仓库 (WMS) 流程启用的仓库。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-121">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="d6f6d-122">除非明确提及其他仓库，否则必须为下面的每组订单使用同一个仓库。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-122">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
 
-<span data-ttu-id="923ed-123">转到 **应收帐款 \> 订单 \> 所有销售订单**，然后创建具有以下小节中介绍的设置的销售订单的集合。</span><span class="sxs-lookup"><span data-stu-id="923ed-123">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
+<span data-ttu-id="d6f6d-123">转到 **应收帐款 \> 订单 \> 所有销售订单**，然后创建具有以下小节中介绍的设置的销售订单的集合。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-123">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
 
-### <a name="create-order-set-1"></a><span data-ttu-id="923ed-124">创建订单集 1</span><span class="sxs-lookup"><span data-stu-id="923ed-124">Create order set 1</span></span>
+### <a name="create-order-set-1"></a><span data-ttu-id="d6f6d-124">创建订单集 1</span><span class="sxs-lookup"><span data-stu-id="d6f6d-124">Create order set 1</span></span>
 
-#### <a name="sales-orders-1-1-and-1-2"></a><span data-ttu-id="923ed-125">销售订单 1-1 和 1-2</span><span class="sxs-lookup"><span data-stu-id="923ed-125">Sales orders 1-1 and 1-2</span></span>
+#### <a name="sales-orders-1-1-and-1-2"></a><span data-ttu-id="d6f6d-125">销售订单 1-1 和 1-2</span><span class="sxs-lookup"><span data-stu-id="d6f6d-125">Sales orders 1-1 and 1-2</span></span>
 
-1. <span data-ttu-id="923ed-126">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-126">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-126">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-126">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-127">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="923ed-127">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="923ed-128">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="923ed-128">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="d6f6d-127">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-127">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="d6f6d-128">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-128">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="923ed-129">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-129">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-129">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-129">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-130">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-131">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-131">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-130">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-131">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-131">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-132">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-132">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-order-1-3"></a><span data-ttu-id="923ed-133">销售订单 1-3</span><span class="sxs-lookup"><span data-stu-id="923ed-133">Sales order 1-3</span></span>
+#### <a name="sales-order-1-3"></a><span data-ttu-id="d6f6d-133">销售订单 1-3</span><span class="sxs-lookup"><span data-stu-id="d6f6d-133">Sales order 1-3</span></span>
 
-1. <span data-ttu-id="923ed-134">创建具有以下设置的销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-134">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-134">创建具有以下设置的销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-134">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-135">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="923ed-135">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="923ed-136">**交货方式**：*10*</span><span class="sxs-lookup"><span data-stu-id="923ed-136">**Mode of delivery:** *10*</span></span>
+    - <span data-ttu-id="d6f6d-135">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-135">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="d6f6d-136">**交货方式**：*10*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-136">**Mode of delivery:** *10*</span></span>
 
-1. <span data-ttu-id="923ed-137">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-137">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-137">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-137">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-138">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-139">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-139">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-138">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-139">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-139">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-140">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="923ed-141">添加第二个具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-141">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-140">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-141">添加第二个具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-141">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-142">**物料编号**：*A0002*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-143">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-143">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="923ed-144">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="923ed-144">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="d6f6d-142">**物料编号**：*A0002*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-143">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-143">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-144">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-144">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="923ed-145">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留第二个订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="d6f6d-145">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留第二个订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-2"></a><span data-ttu-id="923ed-146">创建订单集 2</span><span class="sxs-lookup"><span data-stu-id="923ed-146">Create order set 2</span></span>
+### <a name="create-order-set-2"></a><span data-ttu-id="d6f6d-146">创建订单集 2</span><span class="sxs-lookup"><span data-stu-id="d6f6d-146">Create order set 2</span></span>
 
-#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="923ed-147">销售订单 2-1 和 2-2</span><span class="sxs-lookup"><span data-stu-id="923ed-147">Sales orders 2-1 and 2-2</span></span>
+#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="d6f6d-147">销售订单 2-1 和 2-2</span><span class="sxs-lookup"><span data-stu-id="d6f6d-147">Sales orders 2-1 and 2-2</span></span>
 
-1. <span data-ttu-id="923ed-148">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-148">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-148">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-148">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-149">**客户帐户**：*US-002*</span><span class="sxs-lookup"><span data-stu-id="923ed-149">**Customer account:** *US-002*</span></span>
-    - <span data-ttu-id="923ed-150">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="923ed-150">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="d6f6d-149">**客户帐户**：*US-002*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-149">**Customer account:** *US-002*</span></span>
+    - <span data-ttu-id="d6f6d-150">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-150">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="923ed-151">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-151">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-151">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-151">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-152">**物料编号**：*M9200*（其中的 **代码 4** 筛选器设置为 *易燃* 的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-152">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
-    - <span data-ttu-id="923ed-153">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-153">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-152">**物料编号**：*M9200*（其中的 **代码 4** 筛选器设置为 *易燃* 的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-152">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
+    - <span data-ttu-id="d6f6d-153">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-153">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-154">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-154">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="923ed-155">添加第二个具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-155">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-154">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-154">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-155">添加第二个具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-155">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-156">**物料编号**：*M9201*（其中的 **代码 4** 筛选器设置为 *易爆* 的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-156">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
-    - <span data-ttu-id="923ed-157">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-157">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="923ed-158">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="923ed-158">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="d6f6d-156">**物料编号**：*M9201*（其中的 **代码 4** 筛选器设置为 *易爆* 的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-156">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
+    - <span data-ttu-id="d6f6d-157">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-157">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-158">**交货方式**：*航空公司-航运*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-158">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="923ed-159">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留第二个订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-159">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="d6f6d-159">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留第二个订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-159">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-3"></a><span data-ttu-id="923ed-160">创建订单集 3</span><span class="sxs-lookup"><span data-stu-id="923ed-160">Create order set 3</span></span>
+### <a name="create-order-set-3"></a><span data-ttu-id="d6f6d-160">创建订单集 3</span><span class="sxs-lookup"><span data-stu-id="d6f6d-160">Create order set 3</span></span>
 
-#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="923ed-161">销售订单 3-1 和 3-2</span><span class="sxs-lookup"><span data-stu-id="923ed-161">Sales orders 3-1 and 3-2</span></span>
+#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="d6f6d-161">销售订单 3-1 和 3-2</span><span class="sxs-lookup"><span data-stu-id="d6f6d-161">Sales orders 3-1 and 3-2</span></span>
 
-1. <span data-ttu-id="923ed-162">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-162">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-162">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-162">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-163">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="923ed-163">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="923ed-164">**客户申请**：*1*</span><span class="sxs-lookup"><span data-stu-id="923ed-164">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="d6f6d-163">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-163">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="d6f6d-164">**客户申请**：*1*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-164">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="923ed-165">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-165">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-165">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-165">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-166">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-166">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-167">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-167">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-166">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-166">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-167">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-167">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-168">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-168">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-168">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-168">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="923ed-169">销售订单 3-3 和 3-4</span><span class="sxs-lookup"><span data-stu-id="923ed-169">Sales orders 3-3 and 3-4</span></span>
+#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="d6f6d-169">销售订单 3-3 和 3-4</span><span class="sxs-lookup"><span data-stu-id="d6f6d-169">Sales orders 3-3 and 3-4</span></span>
 
-1. <span data-ttu-id="923ed-170">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-170">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-170">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-170">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-171">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="923ed-171">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="923ed-172">**客户申请**：*2*</span><span class="sxs-lookup"><span data-stu-id="923ed-172">**Customer requisition:** *2*</span></span>
+    - <span data-ttu-id="d6f6d-171">**客户帐户**：*US-001*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-171">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="d6f6d-172">**客户申请**：*2*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-172">**Customer requisition:** *2*</span></span>
 
-1. <span data-ttu-id="923ed-173">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-173">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-173">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-173">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-174">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-174">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-175">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-175">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-174">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-174">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-175">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-175">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-176">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-176">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-176">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-176">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-### <a name="create-order-set-4"></a><span data-ttu-id="923ed-177">创建订单集 4</span><span class="sxs-lookup"><span data-stu-id="923ed-177">Create order set 4</span></span>
+### <a name="create-order-set-4"></a><span data-ttu-id="d6f6d-177">创建订单集 4</span><span class="sxs-lookup"><span data-stu-id="d6f6d-177">Create order set 4</span></span>
 
-#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="923ed-178">销售订单 4-1 和 4-2</span><span class="sxs-lookup"><span data-stu-id="923ed-178">Sales orders 4-1 and 4-2</span></span>
+#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="d6f6d-178">销售订单 4-1 和 4-2</span><span class="sxs-lookup"><span data-stu-id="d6f6d-178">Sales orders 4-1 and 4-2</span></span>
 
-1. <span data-ttu-id="923ed-179">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-179">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-179">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-179">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-180">**客户帐户**：*US-003*</span><span class="sxs-lookup"><span data-stu-id="923ed-180">**Customer account:** *US-003*</span></span>
+    - <span data-ttu-id="d6f6d-180">**客户帐户**：*US-003*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-180">**Customer account:** *US-003*</span></span>
 
-1. <span data-ttu-id="923ed-181">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-181">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-181">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-181">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-182">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-182">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-183">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-183">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-182">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-182">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-183">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-183">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-184">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-184">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-184">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-184">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="923ed-185">销售订单 4-3 和 4-4</span><span class="sxs-lookup"><span data-stu-id="923ed-185">Sales orders 4-3 and 4-4</span></span>
+#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="d6f6d-185">销售订单 4-3 和 4-4</span><span class="sxs-lookup"><span data-stu-id="d6f6d-185">Sales orders 4-3 and 4-4</span></span>
 
-1. <span data-ttu-id="923ed-186">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-186">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-186">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-186">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-187">**客户帐户**：*US-004*</span><span class="sxs-lookup"><span data-stu-id="923ed-187">**Customer account:** *US-004*</span></span>
+    - <span data-ttu-id="d6f6d-187">**客户帐户**：*US-004*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-187">**Customer account:** *US-004*</span></span>
 
-1. <span data-ttu-id="923ed-188">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-188">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-188">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-188">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-189">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-189">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-190">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-190">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-189">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-189">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-190">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-190">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-191">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-191">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-191">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-191">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="923ed-192">销售订单 4-5 和 4-6</span><span class="sxs-lookup"><span data-stu-id="923ed-192">Sales orders 4-5 and 4-6</span></span>
+#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="d6f6d-192">销售订单 4-5 和 4-6</span><span class="sxs-lookup"><span data-stu-id="d6f6d-192">Sales orders 4-5 and 4-6</span></span>
 
-1. <span data-ttu-id="923ed-193">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-193">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-193">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-193">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-194">**客户帐户**：*US-007*</span><span class="sxs-lookup"><span data-stu-id="923ed-194">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="923ed-195">**站点**：*6*</span><span class="sxs-lookup"><span data-stu-id="923ed-195">**Site:** *6*</span></span>
-    - <span data-ttu-id="923ed-196">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="923ed-196">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="923ed-197">**池**：*ShipCons*</span><span class="sxs-lookup"><span data-stu-id="923ed-197">**Pool:** *ShipCons*</span></span>
+    - <span data-ttu-id="d6f6d-194">**客户帐户**：*US-007*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-194">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="d6f6d-195">**站点**：*6*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-195">**Site:** *6*</span></span>
+    - <span data-ttu-id="d6f6d-196">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-196">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="d6f6d-197">**池**：*ShipCons*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-197">**Pool:** *ShipCons*</span></span>
 
-1. <span data-ttu-id="923ed-198">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-198">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-198">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-198">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-199">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-199">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-200">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-200">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-199">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-199">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-200">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-200">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-201">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-201">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-201">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-201">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="923ed-202">销售订单 4-7 和 4-8</span><span class="sxs-lookup"><span data-stu-id="923ed-202">Sales orders 4-7 and 4-8</span></span>
+#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="d6f6d-202">销售订单 4-7 和 4-8</span><span class="sxs-lookup"><span data-stu-id="d6f6d-202">Sales orders 4-7 and 4-8</span></span>
 
-1. <span data-ttu-id="923ed-203">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="923ed-203">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-203">创建具有以下设置的两个相同销售订单：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-203">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-204">**客户帐户**：*US-007*</span><span class="sxs-lookup"><span data-stu-id="923ed-204">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="923ed-205">**站点**：*6*</span><span class="sxs-lookup"><span data-stu-id="923ed-205">**Site:** *6*</span></span>
-    - <span data-ttu-id="923ed-206">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="923ed-206">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="923ed-207">**池**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="923ed-207">**Pool:** Leave this field blank.</span></span>
+    - <span data-ttu-id="d6f6d-204">**客户帐户**：*US-007*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-204">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="d6f6d-205">**站点**：*6*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-205">**Site:** *6*</span></span>
+    - <span data-ttu-id="d6f6d-206">**仓库**：*61*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-206">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="d6f6d-207">**池**：保持此字段为空。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-207">**Pool:** Leave this field blank.</span></span>
 
-1. <span data-ttu-id="923ed-208">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="923ed-208">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="d6f6d-208">添加具有以下设置的订单行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-208">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="923ed-209">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="923ed-209">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="923ed-210">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="923ed-210">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="d6f6d-209">**物料编号**：*A0001*（未为其分配 **代码 4** 筛选器的物料）</span><span class="sxs-lookup"><span data-stu-id="d6f6d-209">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="d6f6d-210">**数量：** *1.00*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-210">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="923ed-211">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-211">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="d6f6d-211">选择 **库存 \> 预留**，然后在操作窗格上选择 **预留批次** 预留订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-211">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-## <a name="release-the-orders-to-the-warehouse"></a><span data-ttu-id="923ed-212">将订单发放到仓库</span><span class="sxs-lookup"><span data-stu-id="923ed-212">Release the orders to the warehouse</span></span>
+## <a name="release-the-orders-to-the-warehouse"></a><span data-ttu-id="d6f6d-212">将订单发放到仓库</span><span class="sxs-lookup"><span data-stu-id="d6f6d-212">Release the orders to the warehouse</span></span>
 
-<span data-ttu-id="923ed-213">请按照以下步骤将您为此方案创建的每个销售订单发放到仓库。</span><span class="sxs-lookup"><span data-stu-id="923ed-213">Follow these steps to release each sales order that you created for this scenario to the warehouse.</span></span>
+<span data-ttu-id="d6f6d-213">请按照以下步骤将您为此方案创建的每个销售订单发放到仓库。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-213">Follow these steps to release each sales order that you created for this scenario to the warehouse.</span></span>
 
-1. <span data-ttu-id="923ed-214">转到 **应收帐款 \> 订单 \> 全部采购订单**。</span><span class="sxs-lookup"><span data-stu-id="923ed-214">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
-1. <span data-ttu-id="923ed-215">查找并选择要发放的销售订单。</span><span class="sxs-lookup"><span data-stu-id="923ed-215">Find and select the sales order to release.</span></span>
-1. <span data-ttu-id="923ed-216">在“操作窗格”上的 **仓库** 选项卡上，选择 **操作 \> 发放到仓库** 发放所选销售订单。</span><span class="sxs-lookup"><span data-stu-id="923ed-216">On the Action Pane, on the **Warehouse** tab, select **Actions \> Release to warehouse** to release the selected sales order.</span></span>
-1. <span data-ttu-id="923ed-217">对为此方案创建的其他每个销售订单集重复此过程。</span><span class="sxs-lookup"><span data-stu-id="923ed-217">Repeat this procedure for every other sales order that you created for this scenario.</span></span>
+1. <span data-ttu-id="d6f6d-214">转到 **应收帐款 \> 订单 \> 全部采购订单**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-214">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
+1. <span data-ttu-id="d6f6d-215">查找并选择要发放的销售订单。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-215">Find and select the sales order to release.</span></span>
+1. <span data-ttu-id="d6f6d-216">在“操作窗格”上的 **仓库** 选项卡上，选择 **操作 \> 发放到仓库** 发放所选销售订单。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-216">On the Action Pane, on the **Warehouse** tab, select **Actions \> Release to warehouse** to release the selected sales order.</span></span>
+1. <span data-ttu-id="d6f6d-217">对为此方案创建的其他每个销售订单集重复此过程。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-217">Repeat this procedure for every other sales order that you created for this scenario.</span></span>
 
-## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="923ed-218">使用装运合并工作台合并装运</span><span class="sxs-lookup"><span data-stu-id="923ed-218">Consolidate the shipments by using the shipment consolidation workbench</span></span>
+## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="d6f6d-218">使用装运合并工作台合并装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-218">Consolidate the shipments by using the shipment consolidation workbench</span></span>
 
-1. <span data-ttu-id="923ed-219">转到 **仓库管理 \> 发放到仓库 \> 装运合并工作台**。</span><span class="sxs-lookup"><span data-stu-id="923ed-219">Go to **Warehouse management \> Release to warehouse \> Shipment consolidation workbench**.</span></span>
-1. <span data-ttu-id="923ed-220">在操作窗格上，选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="923ed-220">On the Action Pane, select **Edit query**.</span></span>
-1. <span data-ttu-id="923ed-221">在查询编辑器对话框中 **范围** 选项卡上，选择 **添加** 向网格添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="923ed-221">In the query editor dialog box, on the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
+1. <span data-ttu-id="d6f6d-219">转到 **仓库管理 \> 发放到仓库 \> 装运合并工作台**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-219">Go to **Warehouse management \> Release to warehouse \> Shipment consolidation workbench**.</span></span>
+1. <span data-ttu-id="d6f6d-220">在操作窗格上，选择 **编辑查询**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-220">On the Action Pane, select **Edit query**.</span></span>
+1. <span data-ttu-id="d6f6d-221">在查询编辑器对话框中 **范围** 选项卡上，选择 **添加** 向网格添加具有以下设置的行：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-221">In the query editor dialog box, on the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
 
-    - <span data-ttu-id="923ed-222">**表**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="923ed-222">**Table:** *Sales orders*</span></span>
-    - <span data-ttu-id="923ed-223">**字段**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="923ed-223">**Field:** *Sales order*</span></span>
-    - <span data-ttu-id="923ed-224">**条件：** 输入为此方案创建的每个订单集以逗号分隔的销售订单编号列表。</span><span class="sxs-lookup"><span data-stu-id="923ed-224">**Criteria:** Enter a comma-separated list of the sales order numbers for each order set that you created for this scenario.</span></span>
+    - <span data-ttu-id="d6f6d-222">**表**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-222">**Table:** *Sales orders*</span></span>
+    - <span data-ttu-id="d6f6d-223">**字段**：*销售订单*</span><span class="sxs-lookup"><span data-stu-id="d6f6d-223">**Field:** *Sales order*</span></span>
+    - <span data-ttu-id="d6f6d-224">**条件：** 输入为此方案创建的每个订单集以逗号分隔的销售订单编号列表。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-224">**Criteria:** Enter a comma-separated list of the sales order numbers for each order set that you created for this scenario.</span></span>
 
-1. <span data-ttu-id="923ed-225">选择 **确定** 保存查询并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="923ed-225">Select **OK** to save your query and close the dialog box.</span></span>
-1. <span data-ttu-id="923ed-226">在操作窗格上选择 **合并装运**。</span><span class="sxs-lookup"><span data-stu-id="923ed-226">On the Action Pane, select **Consolidate shipments**.</span></span>
-1. <span data-ttu-id="923ed-227">选择所有装运，然后在操作窗格上选择 **合并**。</span><span class="sxs-lookup"><span data-stu-id="923ed-227">Select all the shipments, and then, on the Action Pane, select **Consolidate**.</span></span>
+1. <span data-ttu-id="d6f6d-225">选择 **确定** 保存查询并关闭对话框。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-225">Select **OK** to save your query and close the dialog box.</span></span>
+1. <span data-ttu-id="d6f6d-226">在操作窗格上选择 **合并装运**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-226">On the Action Pane, select **Consolidate shipments**.</span></span>
+1. <span data-ttu-id="d6f6d-227">选择所有装运，然后在操作窗格上选择 **合并**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-227">Select all the shipments, and then, on the Action Pane, select **Consolidate**.</span></span>
 
-## <a name="verify-the-shipments"></a><span data-ttu-id="923ed-228">验证装运</span><span class="sxs-lookup"><span data-stu-id="923ed-228">Verify the shipments</span></span>
+## <a name="verify-the-shipments"></a><span data-ttu-id="d6f6d-228">验证装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-228">Verify the shipments</span></span>
 
-<span data-ttu-id="923ed-229">以下过程用于验证装运合并导致已创建或更新的装运。</span><span class="sxs-lookup"><span data-stu-id="923ed-229">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="923ed-230">将其用于查看您为此方案创建的每个订单集，然后查看后面的小节以确保获取了预期结果。</span><span class="sxs-lookup"><span data-stu-id="923ed-230">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
+<span data-ttu-id="d6f6d-229">以下过程用于验证装运合并导致已创建或更新的装运。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-229">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="d6f6d-230">将其用于查看您为此方案创建的每个订单集，然后查看后面的小节以确保获取了预期结果。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-230">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
 
-1. <span data-ttu-id="923ed-231">转到 **仓库管理 \> 装运 \> 所有装运**。</span><span class="sxs-lookup"><span data-stu-id="923ed-231">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
-1. <span data-ttu-id="923ed-232">找到并选择所需装运。</span><span class="sxs-lookup"><span data-stu-id="923ed-232">Find and select the required shipment.</span></span>
-1. <span data-ttu-id="923ed-233">如果创建或更新装运时使用了合并策略，应该可以在 **装运合并策略** 字段中看到此策略。</span><span class="sxs-lookup"><span data-stu-id="923ed-233">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
+1. <span data-ttu-id="d6f6d-231">转到 **仓库管理 \> 装运 \> 所有装运**。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-231">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
+1. <span data-ttu-id="d6f6d-232">找到并选择所需装运。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-232">Find and select the required shipment.</span></span>
+1. <span data-ttu-id="d6f6d-233">如果创建或更新装运时使用了合并策略，应该可以在 **装运合并策略** 字段中看到此策略。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-233">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
 
-### <a name="related-shipments-for-order-set-1"></a><span data-ttu-id="923ed-234">订单集 1 的相关装运</span><span class="sxs-lookup"><span data-stu-id="923ed-234">Related shipments for order set 1</span></span>
+### <a name="related-shipments-for-order-set-1"></a><span data-ttu-id="d6f6d-234">订单集 1 的相关装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-234">Related shipments for order set 1</span></span>
 
-<span data-ttu-id="923ed-235">应该已经创建了两个装运：</span><span class="sxs-lookup"><span data-stu-id="923ed-235">Two shipments should have been created:</span></span>
+<span data-ttu-id="d6f6d-235">应该已经创建了两个装运：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-235">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="923ed-236">第一个装运中包含三行，该装运是使用 *CustomerMode* 装运合并策略创建的。</span><span class="sxs-lookup"><span data-stu-id="923ed-236">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
-- <span data-ttu-id="923ed-237">第二个装运（该装运不使用 *航空公司* 交装运输方式）是使用 *CustomerOrderNo* 装运合并策略创建的。</span><span class="sxs-lookup"><span data-stu-id="923ed-237">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-236">第一个装运中包含三行，该装运是使用 *CustomerMode* 装运合并策略创建的。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-236">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-237">第二个装运（该装运不使用 *航空公司* 交装运输方式）是使用 *CustomerOrderNo* 装运合并策略创建的。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-237">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
 
-### <a name="related-shipments-for-order-set-2"></a><span data-ttu-id="923ed-238">订单集 2 的相关装运</span><span class="sxs-lookup"><span data-stu-id="923ed-238">Related shipments for order set 2</span></span>
+### <a name="related-shipments-for-order-set-2"></a><span data-ttu-id="d6f6d-238">订单集 2 的相关装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-238">Related shipments for order set 2</span></span>
 
-<span data-ttu-id="923ed-239">应该已经创建了三个装运：</span><span class="sxs-lookup"><span data-stu-id="923ed-239">Three shipments should have been created:</span></span>
+<span data-ttu-id="d6f6d-239">应该已经创建了三个装运：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-239">Three shipments should have been created:</span></span>
 
-- <span data-ttu-id="923ed-240">第一个装运中包含 *易燃* 物品。</span><span class="sxs-lookup"><span data-stu-id="923ed-240">The first shipment contains *Flammable* items.</span></span>
-- <span data-ttu-id="923ed-241">其他两个装运每个包含一行，该行有 *易爆* 物品。</span><span class="sxs-lookup"><span data-stu-id="923ed-241">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
+- <span data-ttu-id="d6f6d-240">第一个装运中包含 *易燃* 物品。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-240">The first shipment contains *Flammable* items.</span></span>
+- <span data-ttu-id="d6f6d-241">其他两个装运每个包含一行，该行有 *易爆* 物品。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-241">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
 
-### <a name="related-shipments-for-order-set-3"></a><span data-ttu-id="923ed-242">订单集 3 的相关装运</span><span class="sxs-lookup"><span data-stu-id="923ed-242">Related shipments for order set 3</span></span>
+### <a name="related-shipments-for-order-set-3"></a><span data-ttu-id="d6f6d-242">订单集 3 的相关装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-242">Related shipments for order set 3</span></span>
 
-<span data-ttu-id="923ed-243">应该已经创建了两个装运：</span><span class="sxs-lookup"><span data-stu-id="923ed-243">Two shipments should have been created:</span></span>
+<span data-ttu-id="d6f6d-243">应该已经创建了两个装运：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-243">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="923ed-244">第一个装运中包含其中的 **客户申请** 字段设置为 *1* 的销售订单中的订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-244">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
-- <span data-ttu-id="923ed-245">第二个装运中包含其中的 **客户申请** 字段设置为 *2* 的销售订单中的订单行。</span><span class="sxs-lookup"><span data-stu-id="923ed-245">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
+- <span data-ttu-id="d6f6d-244">第一个装运中包含其中的 **客户申请** 字段设置为 *1* 的销售订单中的订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-244">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
+- <span data-ttu-id="d6f6d-245">第二个装运中包含其中的 **客户申请** 字段设置为 *2* 的销售订单中的订单行。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-245">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
 
-### <a name="related-shipments-for-order-set-4"></a><span data-ttu-id="923ed-246">订单集 4 的相关装运</span><span class="sxs-lookup"><span data-stu-id="923ed-246">Related shipments for order set 4</span></span>
+### <a name="related-shipments-for-order-set-4"></a><span data-ttu-id="d6f6d-246">订单集 4 的相关装运</span><span class="sxs-lookup"><span data-stu-id="d6f6d-246">Related shipments for order set 4</span></span>
 
-<span data-ttu-id="923ed-247">应该已经创建了四个装运：</span><span class="sxs-lookup"><span data-stu-id="923ed-247">Four shipments should have been created:</span></span>
+<span data-ttu-id="d6f6d-247">应该已经创建了四个装运：</span><span class="sxs-lookup"><span data-stu-id="d6f6d-247">Four shipments should have been created:</span></span>
 
-- <span data-ttu-id="923ed-248">使用 *订单池* 装运合并策略将客户 *US-003* 的两个订单的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="923ed-248">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="923ed-249">使用 *订单池* 装运合并策略将客户 *US-004* 的两个订单的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="923ed-249">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="923ed-250">使用 *订单池* 装运合并策略将客户 *US-007* 的销售订单 4-5 和 4-6 的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="923ed-250">Lines from sales orders 4-5 and 4-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="923ed-251">使用 *交叉订单* 装运合并策略将客户 *US-007* 的销售订单 4-7 和 4-8 的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="923ed-251">Lines from sales orders 4-7 and 4-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-248">使用 *订单池* 装运合并策略将客户 *US-003* 的两个订单的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-248">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-249">使用 *订单池* 装运合并策略将客户 *US-004* 的两个订单的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-249">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-250">使用 *订单池* 装运合并策略将客户 *US-007* 的销售订单 4-5 和 4-6 的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-250">Lines from sales orders 4-5 and 4-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="d6f6d-251">使用 *交叉订单* 装运合并策略将客户 *US-007* 的销售订单 4-7 和 4-8 的行合并到了一个装运中。</span><span class="sxs-lookup"><span data-stu-id="d6f6d-251">Lines from sales orders 4-7 and 4-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="923ed-252">其他资源</span><span class="sxs-lookup"><span data-stu-id="923ed-252">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d6f6d-252">其他资源</span><span class="sxs-lookup"><span data-stu-id="d6f6d-252">Additional resources</span></span>
 
-- [<span data-ttu-id="923ed-253">装运合并政策</span><span class="sxs-lookup"><span data-stu-id="923ed-253">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
-- [<span data-ttu-id="923ed-254">配置装运合并策略</span><span class="sxs-lookup"><span data-stu-id="923ed-254">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
+- [<span data-ttu-id="d6f6d-253">装运合并政策</span><span class="sxs-lookup"><span data-stu-id="d6f6d-253">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
+- [<span data-ttu-id="d6f6d-254">配置装运合并策略</span><span class="sxs-lookup"><span data-stu-id="d6f6d-254">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
