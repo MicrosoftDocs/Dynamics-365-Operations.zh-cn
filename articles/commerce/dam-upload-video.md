@@ -2,11 +2,9 @@
 title: 上传视频
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传视频。
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213834"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799197"
 ---
 # <a name="upload-videos"></a>上传视频
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传视频。
-
-## <a name="overview"></a>概览
 
 Commerce 站点构建器的媒体库允许上传视频。 应始终上传比特率和分辨率最高的视频版本，因为将把视频自动转换为适合不同视区及其断点的视频。
 

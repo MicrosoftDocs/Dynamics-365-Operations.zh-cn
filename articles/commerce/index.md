@@ -2,11 +2,9 @@
 title: Commerce 主页
 description: Dynamics 365 Commerce 的主页。
 author: bebeale
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd9ba8ad0d8b651fc86b54561bb0005720776894
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9eeaac1c9198502b3888c4bf0a2f43edfc75f185
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797036"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
 

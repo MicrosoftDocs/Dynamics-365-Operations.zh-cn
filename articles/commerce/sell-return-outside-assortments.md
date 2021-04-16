@@ -2,11 +2,9 @@
 title: 销售和退回不属于商店分类的产品
 description: 借助 Dynamics 365 Commerce，您可以销售和退回分类以外的产品。
 author: pdp1207
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18d91287bfdcca272b5dd5e8dc8e04b1fd937a6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b6bae9f0d3a236c69ee3ee47226c19c1e1dcaf42
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254689"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794035"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>销售和退回不属于商店分类的产品
 

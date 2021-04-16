@@ -2,11 +2,9 @@
 title: 作业级排产
 description: 本文提供有关作业级排产的信息，其是比工序级排产更详细的排产形式。 您可以使用作业级排产来计划单独的作业或车间订单和控制制造环境。
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c71f85cac11c4f11d63ba8f55932ec8f0520d924
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ac3602d765a87cccff8bfb26db5b7b63cbccb8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246109"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811718"
 ---
 # <a name="job-scheduling"></a>作业级排产
 

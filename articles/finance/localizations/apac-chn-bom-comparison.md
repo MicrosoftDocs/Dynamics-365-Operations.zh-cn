@@ -2,11 +2,9 @@
 title: 中国的物料清单比较
 description: 本主题提供了有关中国的物料清单比较的信息。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBOMComparison_CN
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 16b36b7a5e8d0292bf44bba36888a911ea30ee69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 31a982e2036d5d3f8a9a7ed81bd4f55453ff3199
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243601"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809970"
 ---
 # <a name="bill-of-materials-comparison-for-china"></a>中国的物料清单比较
 

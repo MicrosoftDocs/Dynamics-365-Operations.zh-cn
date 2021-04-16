@@ -2,11 +2,9 @@
 title: 群集位置已满
 description: 本主题提供有关群集位置已满功能的信息。 在使用群集领料时，也可以使用此功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232999"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808838"
 ---
 # <a name="cluster-position-full"></a>群集位置已满
 
@@ -213,7 +211,7 @@ ms.locfileid: "5232999"
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>移动设备流执行 – 产品的工作确认设置
 
-1. 以仓库 *61* 用户身份登录仓库应用。
+1. 以仓库 *61* 用户身份登录到仓库管理移动应用。
 1. 转到 **出站 \> 群集领料创建**。
 
     将显示 **任务: 为群集分配工作** 页面。

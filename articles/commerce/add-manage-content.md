@@ -2,11 +2,9 @@
 title: 添加内容的方法
 description: 本主题提供概述和部分链接，以说明在何处以及如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集开始管理内容。
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797567"
 ---
 # <a name="ways-to-add-content"></a>添加内容的方法
 
 [!include [banner](includes/banner.md)]
 
 本主题提供概述，以及关于如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集管理内容的文档链接。
-
-## <a name="overview"></a>概览
 
 可通过多种方法更改站点的外观和内容。 根据所需的自定义级别，这些更改中的许多更改可以由非开发人员在站点构建器（随 Dynamics 365 Commerce 附带的 Web 编写工具集）中实施。 使用站点构建器，无需编写任何代码即可构建模板、选择主题以及选择和配置模块。 相反，需要开发技能才能新建主题或模块，因为必须使用电子商务软件开发套件 (SDK) 和 Microsoft Dynamics Lifecycle Services (LCS) 部署工作流。
 

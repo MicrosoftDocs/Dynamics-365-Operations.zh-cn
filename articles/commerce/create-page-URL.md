@@ -2,11 +2,9 @@
 title: 创建页面 URL
 description: 此主题介绍有关在站点中创建页面 URL 的基本概念和过程。
 author: bicyclingfool
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e221bd975fd984379724b751f6c026acfda7b07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98743d8948669f32d3c74e1915c7ed53db81141c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207887"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795683"
 ---
 # <a name="create-a-page-url"></a>创建页面 URL
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍有关在站点中创建页面 URL 的基本概念和过程。
-
-## <a name="overview"></a>概览
 
 指向站点中的页面的完全或绝对 URL 包含以下独有部分。 例如，URL `https://www.contoso.com/en-us/contactus` 具有以下部分：
 

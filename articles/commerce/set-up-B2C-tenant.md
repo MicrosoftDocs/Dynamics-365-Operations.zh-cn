@@ -2,11 +2,9 @@
 title: 在 Commerce 中设置 B2C 租户
 description: 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 author: BrianShook
-manager: annbe
-ms.date: 06/22/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478132"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793987"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -30,6 +28,12 @@ ms.locfileid: "5478132"
 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 
 Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提供支持。 用户可以通过这些流注册、登录和重置密码。 Azure AD B2C 中存储敏感的用户身份验证信息，如用户名和密码。 B2C 租户中的用户记录中将存储 B2C 本地帐户记录或 B2C 社交标识提供程序记录。 这些 B2C 记录将链接回 Commerce 环境中的客户记录。
+
+> [!WARNING] 
+> Azure AD B2C 将于 2021 年 8 月 1 日停用旧（旧版）用户流。 因此，您应该计划将用户流迁移到新的推荐版本。 新版本提供功能奇偶一致性和新功能。 Commerce 版本 10.0.15 或更高版本的模块库应与推荐的 B2C 用户流一起使用。 有关详细信息，请参阅 [Azure Active Directory B2C 中的用户流](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview)。
+ 
+ > [!NOTE]
+ > Commerce 评估环境随预先加载的 Azure AD B2C 租户一起提供，以用于演示目的。 评估环境不需要使用下面的步骤加载自己的 Azure AD B2C 租户。
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>在 Azure 门户中创建或链接到现有的 AAD B2C 租户
 
@@ -70,17 +74,21 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 
 ## <a name="create-the-b2c-application"></a>创建 B2C 应用程序
 
-创建 B2C 租户之后，您将在该租户中创建一个 B2C 应用程序来与 Commerce 操作交互。
+创建 B2C 租户之后，您将在新的 Azure AD B2C 租户中创建 B2C 应用程序以与 Commerce 交互。
 
 若要创建 B2C 应用程序，请执行以下步骤。
 
-1. 在 Azure 门户中，选择 **应用程序(旧版)**，然后选择 **添加**。
-1. 在 **名称** 下，输入所需 AAD B2C 应用程序的名称。
-1. 在 **Web 应用/Web API** 下，为 **包含 Web 应用/Web API** 选择 **是**。
-1. 为 **允许隐式流** 选择 **是**（默认值）。
-1. 在 **回复 URL** 下，输入您的专用回复 URL。 查看下面的[回复 URL](#reply-urls) 在此处了解有关回复 URL 的信息及其格式化方法。
-1. 为 **包含本地客户端** 选择 **否**（默认值）。
-1. 选择 **创建**。
+1. 在 Azure 门户中，选择 **应用注册**，然后选择 **新注册**。
+1. 在 **名称** 下方，输入此 Azure AD B2C 应用程序的名称。
+1. 在 **受支持的帐户类型** 下方，选择 **任何标识提供者或组织目录中的帐户(用于使用用户流对用户进行身份验证)**。
+1. 对于 **重定向 URI**，输入您的专用回复 URL 作为类型 **Web**。 有关回复 URL 的信息以及如何进行格式化，请参阅下面的[回复 URL](#reply-urls)。
+1. 对于 **权限**，选择 **授予对 OpenID 和脱机访问权限的管理员同意**。
+1. 选择 **注册**。
+1. 选择新创建的应用程序，然后导航到 **身份验证** 菜单。 如果需要，您可以在此处添加 **重定向 URI**（现在或以后）。 如果当前不需要，请继续执行下一步。
+1. 在 **隐式授权** 下方，选择 **访问令牌** 和 **ID 令牌** 以为应用程序启用它们。 选择 **保存**。
+1. 转到 Azure 门户的 **概述** 菜单，然后复制 **应用程序(客户端) ID**。 记下此 ID 以用于以后的设置步骤（以后称为 **客户端 GUID**）。
+
+有关 Azure AD B2C 中应用注册的其他参考，请参阅 [Azure Active Directory B2C 的新应用注册体验](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>回复 URL
 
@@ -102,7 +110,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 可选择使用 Azure AD 提供的默认用户流，这将显示 AAD B2C 托管的页面。 也可以创建 HTML 页面以控制这些用户流体验的外观。 
 
-若要自定义 Dynamics 365 Commerce 的用户策略页面，请参阅[设置用户登录自定义页面](custom-pages-user-logins.md)。 有关更多信息，请参阅[定义 Azure Active Directory B2C 中的用户体验界面](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui)。
+若要自定义具有内置于 Dynamics 365 Commerce 的页面的用户策略页面，请参阅[设置用户登录的自定义页面](custom-pages-user-logins.md)。 有关更多信息，请参阅[定义 Azure Active Directory B2C 中的用户体验界面](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui)。
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>创建注册和登录用户流策略
 
@@ -110,7 +118,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 1. 在 Azure 门户的左侧导航窗格中，选择 **用户流（策略）**。
 1. 在 **Azure AD B2C – 用户流（策略）** 页面中，选择 **新建用户流**。
-1. 在 **推荐** 选项卡中，选择 **注册和登录**。
+1. 选择 **注册和登录** 策略，然后选择 **建议** 版本。
 1. 在 **名称** 下面，输入策略名称。 此名称在门户分配的前缀后显示（例如，“B2C_1_”）。
 1. 在 **标识提供程序** 下，选中相应复选框。
 1. 在 **多重身份验证** 下，选择适合贵公司的选项。 
@@ -140,9 +148,9 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 1. 在 Azure 门户的左侧导航窗格中，选择 **用户流（策略）**。
 1. 在 **Azure AD B2C – 用户流（策略）** 页面中，选择 **新建用户流**。
-1. 在 **推荐** 选项卡中，选择 **配置文件编辑**。
+1. 选择 **配置文件编辑**，然后选择 **建议** 版本。
 1. 在 **名称** 下，输入配置文件编辑用户流。 此名称在门户分配的前缀后显示（例如，“B2C_1_”）。
-1. 在 **标识提供程序** 下，选择 **本地帐户登录**。
+1. 在 **标识提供者** 下方，选择 **电子邮件登录**。
 1. 在 **用户属性** 下，选中以下复选框：
     - **电子邮件地址**（仅限 **返回声明**）
     - **给定名称**（**收集特性** 和 **返回声明**）
@@ -161,7 +169,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 1. 在 Azure 门户的左侧导航窗格中，选择 **用户流（策略）**。
 1. 在 **Azure AD B2C – 用户流（策略）** 页面中，选择 **新建用户流**。
-1. 在 **推荐** 选项卡中，选择 **密码重置**。
+1. 选择 **密码重置**，然后选择 **建议** 版本。
 1. 在 **名称** 下，输入密码重置用户流的名称。
 1. 在 **标识提供程序** 下，选择 **使用电子邮件地址重置密码**。
 1. 选择 **创建**。
@@ -225,6 +233,9 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 下图显示默认登录屏幕的示例，该屏幕中显示了一个社交标识提供程序登录按钮。
 
+> [!NOTE]
+> 如果为用户流选择内置于 Commerce 的自定义页面，将需要使用 Commerce 模块库的可扩展性功能添加社交标识提供者的按钮。 此外，在使用特定的社交标识提供者设置应用程序时，在某些情况下，URL 或配置字符串可能区分大小写。 有关详细信息，请参考您的社交标识提供者的连接说明。
+ 
 ![其中显示社交标识提供程序登录按钮的示例默认登录屏幕](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>使用新的 Azure AD B2C 信息更新 Commerce Headquarters
@@ -250,12 +261,19 @@ Azure AD B2C 提供三种基本的用户流类型：
 ### <a name="obtain-issuer-url"></a>获取颁发者 URL
 
 若要获取标识提供程序颁发者 URL，请执行以下步骤。
+1. 在 Azure 门户的 Azure AD B2C 页面上，导航到 **注册和登录** 用户流。
+1. 在左侧导航菜单中选择 **页面布局**，在 **布局名称** 下，选择 **统一注册或登录页面**，然后选择 **运行用户流**。
+1. 确保您的应用程序设置为上面创建的预期 Azure AD B2C 应用程序，然后在 **运行用户流** 标题下选择包括 ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>`` 的链接。
+1. 元数据页面显示在浏览器选项卡中。复制标识提供者颁发者 URL（**颁发者** 的值）。
+   - 示例：``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``。
+ 
+**或者**：若要手动构造相同的元数据 URL，请按照下列步骤操作。
 
 1. 使用您的 B2C 租户和策略创建以下格式的元数据地址 URL：``https://<B2CTENANTNAME>.b2clogin.com/<B2CTENANTNAME>.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``
     - 示例：``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``。
 1. 在浏览器地址栏中输入该元数据地址 URL。
 1. 在元数据中，复制标识提供程序颁发者 URL（**颁发者** 的值）。
-    - 示例：``https://login.fabrikam.com/073405c3-0113-4f43-b5e2-df01266e24ae/v2.0/``。
+    - 示例：``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``。
 
 ## <a name="configure-your-b2c-tenant-in-commerce-site-builder"></a>在 Commerce 站点构建器中配置 B2C 租户
 
@@ -350,7 +368,7 @@ Azure AD B2C 租户设置完毕之后，必须在 Commerce 站点构建器中配
 
 [管理 robots.txt 文件](manage-robots-txt-files.md)
 
-[批量上载 URL 重定向](upload-bulk-redirects.md)将 Dynamics 365 Commerce 站点与在线渠道关联
+[批量上传 URL 重定向](upload-bulk-redirects.md)
 
 [设置用户登录自定义页面](custom-pages-user-logins.md)
 

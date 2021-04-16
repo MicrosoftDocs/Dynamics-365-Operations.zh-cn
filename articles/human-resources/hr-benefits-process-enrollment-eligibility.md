@@ -2,11 +2,9 @@
 title: 处理登记资格
 description: 本文介绍如何运行登记资格流程。
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f9b1febe2690fab17586033994b10ebf260630af
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466294"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805698"
 ---
 # <a name="process-enrollment-eligibility"></a>处理登记资格
 

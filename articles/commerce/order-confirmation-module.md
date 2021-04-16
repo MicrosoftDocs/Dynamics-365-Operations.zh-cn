@@ -2,11 +2,9 @@
 title: 订单确认模块
 description: 本主题介绍订单确认模块和如何在 Microsoft Dynamics 365 Commerce 中使用它们。
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 407fc2724d4b589ef5f611974f9358e879dba7ed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f8742637cc8ed29abcfb9a8061a8d2602762d4f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257139"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804569"
 ---
 # <a name="order-confirmation-module"></a>订单确认模块
 

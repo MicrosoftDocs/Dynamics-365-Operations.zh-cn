@@ -2,11 +2,9 @@
 title: 上传图像
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0a2fdb275cbeb65c06c01128e90ba660f98c9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213786"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799221"
 ---
 # <a name="upload-images"></a>上传图像
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
-
-## <a name="overview"></a>概览
 
 Commerce 站点构建器的媒体库允许您上传单个图像或使用文件夹批量上传图像。 应始终上传分辨率和质量最高的图像版本，因为图像大小调整组件将针对不同视区及其断点自动优化图像。
 
@@ -58,7 +54,8 @@ Commerce 站点构建器的媒体库允许您上传单个图像或使用文件�
 - 员工图像应该命名为 **/Workers/\{WorkerNumber\}.jpg**
 - 产品图像应该命名为 **/Products/\{ProductNumber\}_000_001.png**
     - 001 是图像的序号，可以是 001、002、003、004 或 005
-- 产品变型图像应该命名为 **/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**
+- 产品变型图像应该命名为“**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**”
+    - 例如：93039 \^ \^ 2 \^ Black \^_000_001.png
 
 ## <a name="upload-an-image"></a>上传图片
 

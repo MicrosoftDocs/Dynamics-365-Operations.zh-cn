@@ -2,11 +2,9 @@
 title: 输入工作人员信息
 description: 在招聘人员创建了批量雇用项目并生成职位后，下一步是输入受雇人员的信息。
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f0331f63444a1058df9f58908a6a228161b3dd80
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464878"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803505"
 ---
 # <a name="enter-worker-information"></a>输入工作人员信息
 

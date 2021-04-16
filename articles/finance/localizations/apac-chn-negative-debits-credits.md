@@ -2,11 +2,9 @@
 title: 显示中国会计科目的借方和贷方金额
 description: 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 650b9e25c38dd99597df6057bd93e37f3ce913aa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 441c4470e2ace49b8180f6fc8711beb97ab06a81
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257549"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809962"
 ---
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 

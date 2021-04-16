@@ -2,11 +2,9 @@
 title: 创建任务列表和添加任务
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建任务列表和向其添加任务。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: a0e49d1eced3bb62e78c630b137a5b86121682f3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477821"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795229"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>创建任务列表并添加任务
 

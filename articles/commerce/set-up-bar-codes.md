@@ -2,11 +2,9 @@
 title: 设置条码
 description: 本文介绍如何在 Dynamics 365 Commerce 中使用条码。
 author: jblucher
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aab4b75414d8749bd0bb89c18cc0f97eca8ebc8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c395caedfce7efa0a087ff6944052958c72327e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207539"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804177"
 ---
 # <a name="set-up-bar-codes"></a>设置条码
 

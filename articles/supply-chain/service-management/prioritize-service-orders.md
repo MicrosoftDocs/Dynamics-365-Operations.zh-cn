@@ -2,11 +2,9 @@
 title: 确定服务订单的优先级
 description: 确定服务订单的优先级。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aec2344c27bc645ada53dcec61f519920838c604
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06f75fa3261183256d069be42405bd9c1e1ea536
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220696"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810598"
 ---
 # <a name="prioritize-service-orders"></a>确定服务订单的优先级 
 

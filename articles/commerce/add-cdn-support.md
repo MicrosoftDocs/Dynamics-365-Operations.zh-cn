@@ -2,11 +2,9 @@
 title: 添加对内容交付网络 (CDN) 的支持
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797831"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
@@ -41,11 +39,7 @@ ms.locfileid: "5582711"
 
 ## <a name="set-up-ssl"></a>设置 SSL
 
-若要帮助确保设置 SSL，并且缓存统计信息，必须配置 CDN，使其与 Commerce 为您的环境生成的主机名关联。 还必须仅为统计信息缓存以下模式： 
-
-/\_msdyn365/\_scnr/\*
-
-为 Commerce 环境预配了提供自定义域或使用服务请求为环境提供了自定义域之后，请将自定义域指向 Commerce 生成的主机名或终结点。
+在为 Commerce 环境预配提供自定义域或使用服务请求为环境提供自定义域之后，您需要与 Commerce 入职团队协作以计划 DNS 更改。
 
 前面介绍过，生成的主机名或终结点仅支持对 \*.commerce.dynamics.com 使用 SSL 证书。 不支持自定义域支持采用 SSL。
 
@@ -62,7 +56,7 @@ CDN 的设置过程通常包含下面的步骤：
 
 1. 添加前端主机。
 1. 配置后端池。
-1. 设置传递和缓存规则。
+1. 设置传递规则。
 
 ### <a name="add-a-front-end-host"></a>添加前端主机
 
@@ -74,8 +68,9 @@ CDN 的设置过程通常包含下面的步骤：
 
 若要在 Azure Front Door 服务中配置后端池，请执行以下步骤。
 
-1. 向后端池添加 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 充当具有空后端主机标头的自定义主机。
+1. 将 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 添加到后端池作为自定义主机，其后端主机标头与 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 相同。
 1. 在 **负载平衡** 下，保留默认值。
+1. 禁用后端池的运行状况检查。
 
 下图显示 Azure Front Door 服务中输入了后端主机名的 **添加后端** 对话框。
 
@@ -84,6 +79,10 @@ CDN 的设置过程通常包含下面的步骤：
 下图显示 Azure Front Door 服务中具有默认负载均衡值的 **添加后端池** 对话框。
 
 ![“添加后端池”对话框（续）](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> 当为 Commerce 设置自己的 Azure Front Door 服务时，请确保禁用 **运行状况探测**。
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>在 Azure Front Door Service 中设置规则
 
@@ -100,24 +99,6 @@ CDN 的设置过程通常包含下面的步骤：
 1. 将 **URL 重写** 选项设置为 **禁用**。
 1. 将 **缓存** 选项设置为 **禁用**。
 
-若要在 Azure Front Door Service 中设置缓存规则，请执行以下步骤。
-
-1. 添加一个缓存规则。
-1. 在 **名称** 字段中，输入 **统计信息**。
-1. 在 **接受的协议** 字段中，选择 **HTTP 和 HTTPS**。
-1. 在 **前端主机** 字段中，输入 **dynamics-ecom-tenant-name.azurefd.net**。
-1. 在 **匹配模式** 下的上方字段中，输入 **/\_msdyn365/\_scnr/\***。
-1. 在 **传递详细信息** 下，将 **传递类型** 设置为 **转发**。
-1. 在 **后端池** 字段中，选择 **ecom-backend**。
-1. 在 **转发协议** 字段组中，选择 **匹配请求** 选项。
-1. 将 **URL 重写** 选项设置为 **禁用**。
-1. 将 **缓存** 选项设置为 **禁用**。
-1. 在 **查询字符串缓存行为** 字段中，选择 **缓存每个唯一 URL**。
-1. 在 **动态压缩** 字段组中，选择 **启用** 选项。
-
-下图显示 Azure Front Door Service 中的 **添加规则** 对话框。
-
-![“添加规则”对话框](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > 如果要使用的域已激活且处于活动状态，请从 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) 中的 **支持** 磁贴创建支持票证来获取后续步骤的帮助。 有关详细信息，请参阅[获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。

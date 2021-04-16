@@ -2,11 +2,9 @@
 title: 配置渠道以使用渠道导航层次结构
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置渠道以使用渠道导航层次结构。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796116"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>配置渠道以使用渠道导航层次结构
 

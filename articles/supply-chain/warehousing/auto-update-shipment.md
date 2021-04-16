@@ -2,11 +2,9 @@
 title: 装运自动更新
 description: 本主题概述了为装运提供自动更新的功能。
 author: josaw1
-manager: tfehr
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f10c5c5dd1d287b51a6dda482614d6520bb3a1f9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: efa672bc264a39a4356e1581a6401cb331522c17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233143"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810525"
 ---
 # <a name="shipment-auto-updates"></a>装运自动更新
 

@@ -2,11 +2,9 @@
 title: 预览和发布试验
 description: 本主题介绍了如何从 Dynamics 365 Commerce 中预览和发布试验。
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b35af35f5d0347192ed94bed51dfd2484cfa481
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798955"
 ---
 # <a name="preview-and-publish-an-experiment"></a>预览和发布试验
 

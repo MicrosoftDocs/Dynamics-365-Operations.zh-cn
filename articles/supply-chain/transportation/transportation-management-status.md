@@ -2,11 +2,9 @@
 title: 运输管理状态
 description: 此主题说明如何创建运输状态并将该状态映射到承运人状态。
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: fb0d98729046330037f96ab7e13a1bf897e35a1e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3a2b9e50dddf0f015cdd3f16d6d93fcc03d464d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233335"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807600"
 ---
 # <a name="transportation-management-statuses"></a>运输管理状态
 

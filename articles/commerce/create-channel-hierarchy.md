@@ -2,11 +2,9 @@
 title: 创建渠道导航层次结构
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建渠道导航层次结构。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2e1462c10dfe1c858429e9f4cc5d720ca43df609
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221321"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795827"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>创建渠道导航层次结构
 

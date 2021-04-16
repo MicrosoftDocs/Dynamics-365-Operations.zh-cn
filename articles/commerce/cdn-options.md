@@ -2,7 +2,6 @@
 title: 内容分发网络实施选项
 description: 本主题回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
 author: BrianShook
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ae0769b7e19f80244186c51454444c499c5e497f
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582795"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800703"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 

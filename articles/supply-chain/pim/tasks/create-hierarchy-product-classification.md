@@ -2,11 +2,9 @@
 title: 创建产品分类的层次结构
 description: 该过程会显示如何创建新类别层次结构，和分配商品代码层次结构类型。
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59631148dbd2ad27ce2bb5c268d78e625daef6bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d4e2fdc62d7faa73efa78092d7754d3fa1213a94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224443"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809366"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>创建产品分类的层次结构
 
