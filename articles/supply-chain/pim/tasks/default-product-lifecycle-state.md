@@ -2,11 +2,9 @@
 title: 创建默认的产品生命周期状态
 description: 此过程显示如何创建默认产品生命周期状态以及如何将默认状态与已发布产品关联。
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,52 +12,52 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b65f34c1d7a0fd22201df5b48f8d42d452d6b8ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b62d47f52da7f9e18bce401578a5e2a629ac5eb8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216073"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818125"
 ---
-# <a name="create-a-default-product-lifecycle-state"></a><span data-ttu-id="343ef-103">创建默认的产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="343ef-103">Create a default product lifecycle state</span></span>
+# <a name="create-a-default-product-lifecycle-state"></a><span data-ttu-id="2512b-103">创建默认的产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="2512b-103">Create a default product lifecycle state</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="343ef-104">此过程显示如何创建默认产品生命周期状态以及如何将默认状态与已发布产品关联。</span><span class="sxs-lookup"><span data-stu-id="343ef-104">This procedure shows how to create a default product lifecycle state as well as how to associate the default state with released products.</span></span>
+<span data-ttu-id="2512b-104">此过程显示如何创建默认产品生命周期状态以及如何将默认状态与已发布产品关联。</span><span class="sxs-lookup"><span data-stu-id="2512b-104">This procedure shows how to create a default product lifecycle state as well as how to associate the default state with released products.</span></span>
 
 
-## <a name="create-a-default-lifecycle-state"></a><span data-ttu-id="343ef-105">创建默认的生命周期状态</span><span class="sxs-lookup"><span data-stu-id="343ef-105">Create a default lifecycle state</span></span>
-1. <span data-ttu-id="343ef-106">转到“产品信息管理”>“设置”>“产品生命周期状态”。</span><span class="sxs-lookup"><span data-stu-id="343ef-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="343ef-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="343ef-107">Click New.</span></span>
-3. <span data-ttu-id="343ef-108">在“状态”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-108">In the State field, type a value.</span></span>
-4. <span data-ttu-id="343ef-109">在发布到“法人”字段时在“默认”中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="343ef-109">Select Yes in the Default when released to legal entity field.</span></span>
-5. <span data-ttu-id="343ef-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-110">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="343ef-111">在“对于计划有效”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="343ef-111">Select No in the Is active for planning field.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="343ef-112">如果新发布的产品不应包含在主计划中，请选择“否”。</span><span class="sxs-lookup"><span data-stu-id="343ef-112">If a new released product should not be included in Master planning, select No.</span></span> <span data-ttu-id="343ef-113">如果应包含在主计划中，则将控制留为默认值“是”。</span><span class="sxs-lookup"><span data-stu-id="343ef-113">If it should be included in Master planning, leave the control at its default value Yes.</span></span>  
-
-## <a name="create-a-new-released-product"></a><span data-ttu-id="343ef-114">创建新的已发布产品</span><span class="sxs-lookup"><span data-stu-id="343ef-114">Create a new released product</span></span>
-1. <span data-ttu-id="343ef-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="343ef-115">Close the page.</span></span>
-2. <span data-ttu-id="343ef-116">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="343ef-116">Go to Product information management > Products > Released products.</span></span>
-3. <span data-ttu-id="343ef-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="343ef-117">Click New.</span></span>
-4. <span data-ttu-id="343ef-118">在“产品编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-118">In the Product number field, type a value.</span></span>
-5. <span data-ttu-id="343ef-119">在“产品名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-119">In the Product name field, type a value.</span></span>
-6. <span data-ttu-id="343ef-120">在“搜索名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-120">In the Search name field, type a value.</span></span>
-7. <span data-ttu-id="343ef-121">在“物料模型组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-121">In the Item model group field, enter or select a value.</span></span>
-8. <span data-ttu-id="343ef-122">在“物料组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-122">In the Item group field, enter or select a value.</span></span>
-9. <span data-ttu-id="343ef-123">在“存储维度组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-123">In the Storage dimension group field, enter or select a value.</span></span>
-10. <span data-ttu-id="343ef-124">在“跟踪维度组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-124">In the Tracking dimension group field, enter or select a value.</span></span>
-11. <span data-ttu-id="343ef-125">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="343ef-125">Click OK.</span></span>
+## <a name="create-a-default-lifecycle-state"></a><span data-ttu-id="2512b-105">创建默认的生命周期状态</span><span class="sxs-lookup"><span data-stu-id="2512b-105">Create a default lifecycle state</span></span>
+1. <span data-ttu-id="2512b-106">转到“产品信息管理”>“设置”>“产品生命周期状态”。</span><span class="sxs-lookup"><span data-stu-id="2512b-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="2512b-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="2512b-107">Click New.</span></span>
+3. <span data-ttu-id="2512b-108">在“状态”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-108">In the State field, type a value.</span></span>
+4. <span data-ttu-id="2512b-109">在发布到“法人”字段时在“默认”中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="2512b-109">Select Yes in the Default when released to legal entity field.</span></span>
+5. <span data-ttu-id="2512b-110">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-110">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="2512b-111">在“对于计划有效”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="2512b-111">Select No in the Is active for planning field.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="343ef-126">默认产品生命周期状态是一种全局定义。</span><span class="sxs-lookup"><span data-stu-id="343ef-126">The default product lifecycle state is a global definition.</span></span>  
+> <span data-ttu-id="2512b-112">如果新发布的产品不应包含在主计划中，请选择“否”。</span><span class="sxs-lookup"><span data-stu-id="2512b-112">If a new released product should not be included in Master planning, select No.</span></span> <span data-ttu-id="2512b-113">如果应包含在主计划中，则将控制留为默认值“是”。</span><span class="sxs-lookup"><span data-stu-id="2512b-113">If it should be included in Master planning, leave the control at its default value Yes.</span></span>  
 
-## <a name="change-the-product-to-an-active-state"></a><span data-ttu-id="343ef-127">将产品更改为有效状态</span><span class="sxs-lookup"><span data-stu-id="343ef-127">Change the product to an active state</span></span>
-1. <span data-ttu-id="343ef-128">在“产品生命周期状态”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="343ef-128">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="create-a-new-released-product"></a><span data-ttu-id="2512b-114">创建新的已发布产品</span><span class="sxs-lookup"><span data-stu-id="2512b-114">Create a new released product</span></span>
+1. <span data-ttu-id="2512b-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2512b-115">Close the page.</span></span>
+2. <span data-ttu-id="2512b-116">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="2512b-116">Go to Product information management > Products > Released products.</span></span>
+3. <span data-ttu-id="2512b-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="2512b-117">Click New.</span></span>
+4. <span data-ttu-id="2512b-118">在“产品编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-118">In the Product number field, type a value.</span></span>
+5. <span data-ttu-id="2512b-119">在“产品名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-119">In the Product name field, type a value.</span></span>
+6. <span data-ttu-id="2512b-120">在“搜索名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-120">In the Search name field, type a value.</span></span>
+7. <span data-ttu-id="2512b-121">在“物料模型组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-121">In the Item model group field, enter or select a value.</span></span>
+8. <span data-ttu-id="2512b-122">在“物料组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-122">In the Item group field, enter or select a value.</span></span>
+9. <span data-ttu-id="2512b-123">在“存储维度组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-123">In the Storage dimension group field, enter or select a value.</span></span>
+10. <span data-ttu-id="2512b-124">在“跟踪维度组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-124">In the Tracking dimension group field, enter or select a value.</span></span>
+11. <span data-ttu-id="2512b-125">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="2512b-125">Click OK.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="343ef-129">假设您设置了活动状态，您现在可以选择此活动状态来允许产品用于主计划和物料清单级别计算。</span><span class="sxs-lookup"><span data-stu-id="343ef-129">Assume that you have set up an active state, you can now select the active state to allow the product to be used in Master planning and BOM-level calculation.</span></span> <span data-ttu-id="343ef-130">显然，这只在为一致计划指定了所需的所有产品详细信息时才有意义。</span><span class="sxs-lookup"><span data-stu-id="343ef-130">Obviously, this only makes sense if all the product details that are required for consistent planning are specified.</span></span>  
+> <span data-ttu-id="2512b-126">默认产品生命周期状态是一种全局定义。</span><span class="sxs-lookup"><span data-stu-id="2512b-126">The default product lifecycle state is a global definition.</span></span>  
+
+## <a name="change-the-product-to-an-active-state"></a><span data-ttu-id="2512b-127">将产品更改为有效状态</span><span class="sxs-lookup"><span data-stu-id="2512b-127">Change the product to an active state</span></span>
+1. <span data-ttu-id="2512b-128">在“产品生命周期状态”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2512b-128">In the Product lifecycle state field, enter or select a value.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2512b-129">假设您设置了活动状态，您现在可以选择此活动状态来允许产品用于主计划和物料清单级别计算。</span><span class="sxs-lookup"><span data-stu-id="2512b-129">Assume that you have set up an active state, you can now select the active state to allow the product to be used in Master planning and BOM-level calculation.</span></span> <span data-ttu-id="2512b-130">显然，这只在为一致计划指定了所需的所有产品详细信息时才有意义。</span><span class="sxs-lookup"><span data-stu-id="2512b-130">Obviously, this only makes sense if all the product details that are required for consistent planning are specified.</span></span>  
 
 
 
