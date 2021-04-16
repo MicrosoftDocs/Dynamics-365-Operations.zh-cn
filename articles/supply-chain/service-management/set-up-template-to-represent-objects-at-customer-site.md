@@ -2,11 +2,9 @@
 title: 设置表示客户站点中对象的模板
 description: 设置表示客户站点中对象的模板。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0507441e62e01771f9e4aee6739fc4c15d1924f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4642a8912ea3794b2dc3c7c58ee771128b0f2174
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242389"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824358"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>设置表示客户站点中对象的模板 
 

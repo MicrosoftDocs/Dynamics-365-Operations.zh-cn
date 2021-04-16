@@ -2,11 +2,9 @@
 title: 库存值存储报表
 description: 本主题说明如何运行库存值存储报表并以数字方式提供输出，可以是 Microsoft Dynamics 365 Supply Chain Management 中的交互式页面，也可以是多种格式中任何一种的导出文档。
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6f0c382c56ea0c576134f2871cba7a71b44e6528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262469"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821553"
 ---
 # <a name="inventory-value-storage-report"></a>库存值存储报表
 

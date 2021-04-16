@@ -2,11 +2,9 @@
 title: 将退回物料送交检查
 description: 将退回物料送交检查。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f30937eb44893a3cb3587d072b685a855b0ecd3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d782e9bf4793e2c6d1ef8b334d3bfc3bb729ad31
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224898"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824316"
 ---
 # <a name="take-returned-items-through-inspection"></a>将退回物料送交检查 
 

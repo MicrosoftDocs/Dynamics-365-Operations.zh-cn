@@ -2,10 +2,8 @@
 title: 重新打印和取消波次标签
 description: 本主题说明如何取消和重新打印现有波次标签。
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228361"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817357"
 ---
 # <a name="reprint-and-void-wave-labels"></a>重新打印和取消波次标签
 
@@ -218,5 +216,8 @@ ms.locfileid: "5228361"
 1. 选择您为此方案创建的工作异常代码。
 1. 如果您选择了正确的异常，**取消并重新打印** 复选框应该可用。 选择此框并确认。 确认后，将根据更改的工作行数量重新计算由 **标签生成 ID** 字段标识的标签卷序列。 然后在指定打印机上重新打印。
 
+## <a name="additional-resources"></a>其他资源
+
+- [波次标签打印](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

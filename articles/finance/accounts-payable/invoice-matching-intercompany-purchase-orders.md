@@ -2,11 +2,9 @@
 title: 发票匹配和内部公司采购订单
 description: 涉及内部公司交易的采购法人设置为使用应付帐款发票匹配。 在这种情况下，内部公司交易和应付帐款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4af4251580b66895d4dd284a2984d47fddc77066
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d54f81c4d45d060784daf0666253fc60287ba26
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221025"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820681"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>发票匹配和内部公司采购订单
 

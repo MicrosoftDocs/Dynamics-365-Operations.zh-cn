@@ -2,11 +2,9 @@
 title: 试算平衡表财务报表
 description: 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d753b99b126bf8097e8270f4774db854fa2d279
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240632"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816923"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 

@@ -2,11 +2,9 @@
 title: 工序级排产
 description: 本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dd24dc21dc3f31c14ae2978ed0f59401c51cf1b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258558"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817861"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
