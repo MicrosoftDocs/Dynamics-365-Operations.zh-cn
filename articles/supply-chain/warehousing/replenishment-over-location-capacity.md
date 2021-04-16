@@ -2,11 +2,9 @@
 title: 库位容量范围内的补货
 description: 本主题提供有关“按位置容量补货”功能的信息。 此功能使创建当天所需的所有补货工作成为可能，并管理该补货工作的可用性，以确保领料位置既不会用完库存，也不会超出容量。
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228385"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823231"
 ---
 # <a name="replenishment-over-location-capacity"></a>库位容量范围内的补货
 
@@ -241,7 +239,7 @@ ms.locfileid: "5228385"
 
 #### <a name="on-hand-inventory-license-plate-id"></a>现有库存量牌照 ID
 
-在此方案的后面，您将使用仓库应用（或模拟器），这时，您必须确定牌照才能完成领料和补货方案。
+在此方案的后面，您将使用仓库管理移动应用（或模拟器），这时，您必须确定牌照才能完成领料和补货方案。
 
 要查找以后需要的牌照 ID，请按照以下步骤操作。
 
@@ -266,7 +264,7 @@ ms.locfileid: "5228385"
 
 #### <a name="replenishment"></a>补货
 
-1. 以仓库 *61* 用户身份登录仓库应用。 （用户 ID 输入 *61*，密码输入 *1*。）
+1. 以仓库 *61* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *61*，密码输入 *1*。）
 1. 转到 **库存 \> 补货**。
 
     系统将提示您完成第一项补货工作。 物料编号、数量和要领料的位置将显示。
@@ -296,7 +294,7 @@ ms.locfileid: "5228385"
 
 领料位置的库存必须消耗到可以解锁其余补货工作的级别，才能够完成剩余补货工作任务。 换言之，该位置的现有库存数量与补货数量之和不能超过 **溢出数量** 值。 当此和低于溢出数量时，剩余补货工作将被解锁。
 
-1. 以仓库 *61* 用户身份登录仓库应用。 （用户 ID 输入 *61*，密码输入 *1*。）
+1. 以仓库 *61* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *61*，密码输入 *1*。）
 1. 转到 **出站 \> 销售领料**。
 1. 输入销售订单 1 的第一个工作 ID。
 

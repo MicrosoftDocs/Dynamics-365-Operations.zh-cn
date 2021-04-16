@@ -2,11 +2,9 @@
 title: 应计概览
 description: 本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2792df7e17d49c9a2246a2d878f2e91fff62197f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a441828cb7db9b5346ecf086e8be0b2c3a20029a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823804"
 ---
 # <a name="accruals-overview"></a>应计概览
 

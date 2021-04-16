@@ -2,11 +2,9 @@
 title: 在折扣日期之前完全结算部分和最后付款
 description: 本文提供显示如何记录客户的部分付款以及在现金折扣期间内执行现金折扣的情况。
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 338c0e8be7990fa962e2a43dade7b7a2b3046c1f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 692a958840ab5c403575edc1da210002c368a084
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830680"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分和最后付款
 

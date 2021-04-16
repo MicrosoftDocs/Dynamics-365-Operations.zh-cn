@@ -1,26 +1,24 @@
 ---
 title: 审核特定采购类别的供应商
 description: 本主题说明如何在 Dynamics 365 Supply Chain Management 中审核特定采购类别的供应商。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c337fd6c2c7cea088b2151bebb54cec326c5240d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 887905c35c684f2f60c3ce17eb652532831193cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237317"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812438"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>审核特定采购类别的供应商
 

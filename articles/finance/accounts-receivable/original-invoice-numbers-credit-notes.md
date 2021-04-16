@@ -2,11 +2,9 @@
 title: 对贷方通知单中的原始账单的引用
 description: 本主题说明如何在相关的贷方通知单中设置和打印原始发票编号。
 author: ilkond
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,18 +14,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 04a4fc96cb7de60052b17e36c33ad5d5be322be4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207343"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811502"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 在某些国家和地区，法律要求打印的贷方通知单必须包含对原始发票的引用。 本主题说明如何在相关的贷方通知单中设置和打印原始发票编号。
 

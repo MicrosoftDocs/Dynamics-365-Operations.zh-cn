@@ -2,11 +2,9 @@
 title: 销售点 (POS) 中的客户订单
 description: 本主题提供有关销售点 (POS) 中客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220502"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821000"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>销售点 (POS) 中的客户订单
 
@@ -61,7 +59,8 @@ ms.locfileid: "5220502"
 
 在 POS 中处理客户订单时，必须考虑商店渠道的某些设置。 这些设置位于 Commerce 总部中的 **商店** 页面。
 
-- **仓库** – 此字段指示用于履行配置为从商店装运的订单的仓库。
+- **仓库** – 此字段指示在减少与该商店相关的现金和结转以及客户提货订单的库存时将使用的仓库。 作为最佳做法，我们鼓励为每个商店渠道使用唯一的仓库，以防止跨商店的业务逻辑冲突问题。
+- **装运仓库** - 此字段指示在减少要从选定商店装运的客户订单的库存时将使用的仓库。 如果已在环境中启用功能 **用于在履行组中将库位指定为已启用的“装运”或“提货”的功能**，POS 用户可以在 POS 中选择要从中装运的特定仓库，而不是选择要从中装运的商店。 因此，启用该功能后，将不再使用装运仓库，因为用户将在创建订单时选取要从中装运订单的特定仓库。
 - **履行组分配** – 选择此按钮（位于操作窗格中的 **设置** 选项卡上）将链接引用来在 POS 中创建客户订单时显示提货位置或装运来源的选项的履行组。
 - **使用基于目的地的税金**  – 此选项指示是否使用装运地址来确定应用于要装运到客户地址的订单行的税组。
 - **使用基于客户的税金**  – 此选项指示是否使用为客户的交货地址定义的税组对在 POS 中创建的要运送到客户家中的客户订单征税。

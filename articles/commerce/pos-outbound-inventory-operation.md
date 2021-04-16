@@ -2,11 +2,9 @@
 title: POS 中的出站库存操作
 description: 此主题介绍销售点 (POS) 出站库存操作的功能。
 author: hhaines
-manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 850d1eba3675ffe04f9abff7a892d3dc661d338e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795637"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的传出库存操作
 

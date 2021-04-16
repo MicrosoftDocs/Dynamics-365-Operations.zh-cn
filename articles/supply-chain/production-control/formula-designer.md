@@ -2,11 +2,9 @@
 title: 配方设计器
 description: 本主题说明如何使用配方设计器来分析和维护树视图中的配方。
 author: cvocph
-manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f14a536cd2860a290ac90469907ded5de26e1991
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b05f014600fdac03173a0aacf2ad6cd581b789f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246205"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809126"
 ---
 # <a name="formula-designer"></a>配方设计器
 

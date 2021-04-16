@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821265"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -34,6 +32,18 @@ ms.locfileid: "5259083"
 
 > [!NOTE]
 > [技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 版本中已经删除或弃用的功能
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - 仓库（仓库应用）
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 自 2021 年 4 月起，*Dynamics 365 for Finance and Operations - 仓库*（仓库应用）将弃用，在 2022 年 4 月之后将不再受支持。 现在它将替换为 *仓库管理移动应用*，该应用随 Supply Chain Management 的版本 10.0.17 一起发布。 新应用是一个完全替代品，但使用相同的基础框架，从而使迁移变得容易。 如果需要，可以并排使用这两个应用，以帮助用户在学习使用新应用时逐渐进行调整。<br><br>有关新仓库管理移动应用的详细信息，请参阅[仓库管理移动应用程序](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)和[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)。 |
+| **被另一个功能取代？**   | 是，已替换为新的仓库管理移动应用。 |
+| **影响的产品区域**         | Supply Chain Management - 仓库应用 |
+| **部署选项**              | 云和本地 |
+| **状态**                         | 已弃用。 仓库应用将获得有关错误和安全修复的支持，但将不再提供功能增强。 在 2022 年 4 月之后，将不再支持旧仓库应用，并且将要求客户移至新的仓库管理 移动应用。 然后，将从 Microsoft Store 和 Google Play 商店中删除旧仓库应用。  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Supply Chain Management 10.0.15 版本中已经删除或弃用的功能
 

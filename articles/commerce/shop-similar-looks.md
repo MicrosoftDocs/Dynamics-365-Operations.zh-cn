@@ -2,11 +2,9 @@
 title: 启用“购买相似外观产品”建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似外观产品”产品建议。
 author: bebeale
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d0b3585ce326e47b119b3f6c41436b9e6494ec87
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478084"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795373"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>启用“购买相似外观产品”建议
 

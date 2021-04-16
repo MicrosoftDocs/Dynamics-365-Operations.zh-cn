@@ -2,11 +2,9 @@
 title: 处理催款单
 description: 该主题说明如何创建、打印并过帐收款单。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 4e9f53215643d0ed431f075891798b7837cedfe9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98c22fbdd2f60a73b5662b0054c79fa1841f705d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220147"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822267"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 

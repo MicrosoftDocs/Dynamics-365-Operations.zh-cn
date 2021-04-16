@@ -2,11 +2,9 @@
 title: 批量创建月日记帐条目
 description: 本主题说明如何在记录月租赁费用时批量创建日记帐条目来帮助提高效率。
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6fd1815620095909e290fd03c404d964baa04a94
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241554"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816020"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>批量创建月日记帐条目
 

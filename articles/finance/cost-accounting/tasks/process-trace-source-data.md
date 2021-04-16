@@ -2,11 +2,9 @@
 title: 处理和跟踪源数据
 description: 所有数据处理通过作业运行。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12137c0d82109a8b757df6f6990922994d49c71a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34612469f763cf1b30be46ff088605ae22883022
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208647"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840989"
 ---
 # <a name="process-and-trace-source-data"></a>处理和跟踪源数据
 

@@ -2,11 +2,9 @@
 title: NF-e 自定义证书验证
 description: 本主题提供有关启用和使用 NF-e 自定义证书的信息。
 author: gionoder
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3efa05f49748f6bbff680f322a77cec24da46c0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 895513f51798a797ebf59f8a5be4f5cde006726d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240571"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813960"
 ---
 # <a name="nf-e-custom-certificate-validation"></a>NF-e 自定义证书验证
 

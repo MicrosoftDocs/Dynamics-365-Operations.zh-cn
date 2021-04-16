@@ -2,11 +2,9 @@
 title: 中国的每月平均成本模型
 description: 库存成本用于确定仓库库存物料的成本或货币值。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e052ed75d853b1b702dbf66bd43742e0f6262f60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: add6185bc9d321becec1d255969bef269d226443
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258685"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809964"
 ---
 # <a name="monthly-average-cost-model-for-china"></a>中国的每月平均成本模型
 

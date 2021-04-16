@@ -2,11 +2,9 @@
 title: 运输管理模式与方法
 description: 此主题说明如何设置运输管理模式和方法。
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0d41d8665252a978962bf6a2e307dce3dad64a5b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71e37dcd4509813f930906ae3bb3d3b98c9100a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828291"
 ---
 # <a name="transportation-management-modes-and-methods"></a>运输管理模式与方法
 

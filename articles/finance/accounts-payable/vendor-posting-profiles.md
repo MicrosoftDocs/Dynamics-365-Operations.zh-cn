@@ -2,11 +2,9 @@
 title: 供应商过帐模板
 description: 供应商过帐模板控制将供应商交易记录过帐到总帐。
 author: abruer
-manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 022e7d979ca7572bb824bc5248fec8c0b3c283d0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248151"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835476"
 ---
 # <a name="vendor-posting-profiles"></a>供应商过帐模板
 

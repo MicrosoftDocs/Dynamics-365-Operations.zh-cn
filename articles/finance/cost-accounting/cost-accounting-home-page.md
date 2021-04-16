@@ -2,11 +2,9 @@
 title: 成本核算主页
 description: 本主题提供可用于成本核算的帮助主题和其他资源列表。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219955"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841109"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 
@@ -36,7 +34,7 @@ ms.locfileid: "5219955"
 
 ## <a name="quick-links"></a>快速链接
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [配置基本实体（网络培训）](https://mbspartner.microsoft.com/Home)（需要 CustomerSource 帐户）  |[成本元素维度](cost-elements.md)  |
 |  [维度层次结构](dimension-hierarchy.md)  |[定义成本控制单元](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ ms.locfileid: "5219955"
 
 ## <a name="get-started-videosbr"></a>入门视频<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [开始使用成本核算](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [成本核算移动工作区](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [使用 Excel 执行成本核算分析](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 
