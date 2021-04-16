@@ -2,11 +2,9 @@
 title: 通过从现有配方复制来创建配方
 description: 该过程显示如何通过复制现有配方，快速创建新的配方。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d10d57fc924f73e1f03a1d59cd4a7c884f768631
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 482302e38b1536e09f9d26f5f153aa1deda3bf3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829154"
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="29b29-103">通过从现有配方复制来创建配方</span><span class="sxs-lookup"><span data-stu-id="29b29-103">Create a formula by copying from an existing formula</span></span>
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="0afd2-103">通过从现有配方复制来创建配方</span><span class="sxs-lookup"><span data-stu-id="0afd2-103">Create a formula by copying from an existing formula</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="29b29-104">该过程显示如何通过复制现有配方，快速创建新的配方。</span><span class="sxs-lookup"><span data-stu-id="29b29-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="29b29-105">您可以使用演示数据公司 USMF、USP2 或 USPI 创建该过程。</span><span class="sxs-lookup"><span data-stu-id="29b29-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
+<span data-ttu-id="0afd2-104">该过程显示如何通过复制现有配方，快速创建新的配方。</span><span class="sxs-lookup"><span data-stu-id="0afd2-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="0afd2-105">您可以使用演示数据公司 USMF、USP2 或 USPI 创建该过程。</span><span class="sxs-lookup"><span data-stu-id="0afd2-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a><span data-ttu-id="29b29-106">创建新配方</span><span class="sxs-lookup"><span data-stu-id="29b29-106">Create a new formula</span></span>
-1. <span data-ttu-id="29b29-107">转到“配方”。</span><span class="sxs-lookup"><span data-stu-id="29b29-107">Go to Formulas.</span></span>
-2. <span data-ttu-id="29b29-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="29b29-108">Click New.</span></span>
-3. <span data-ttu-id="29b29-109">在“配方”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-109">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="29b29-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="29b29-111">在“站点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-111">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="29b29-112">在“物料组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-112">In the Item group field, enter or select a value.</span></span>
-7. <span data-ttu-id="29b29-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="29b29-113">Click Save.</span></span>
+## <a name="create-a-new-formula"></a><span data-ttu-id="0afd2-106">创建新配方</span><span class="sxs-lookup"><span data-stu-id="0afd2-106">Create a new formula</span></span>
+1. <span data-ttu-id="0afd2-107">转到“配方”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="0afd2-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-108">Click New.</span></span>
+3. <span data-ttu-id="0afd2-109">在“配方”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="0afd2-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="0afd2-111">在“站点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="0afd2-112">在“物料组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="0afd2-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="29b29-114">从现有配方中复制</span><span class="sxs-lookup"><span data-stu-id="29b29-114">Copy from an existing formula</span></span>
-1. <span data-ttu-id="29b29-115">单击“复制”。</span><span class="sxs-lookup"><span data-stu-id="29b29-115">Click Copy.</span></span>
-2. <span data-ttu-id="29b29-116">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-116">In the Item number field, enter or select a value.</span></span>
-3. <span data-ttu-id="29b29-117">在“配方版本”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-117">In the Formula version field, enter or select a value.</span></span>
-4. <span data-ttu-id="29b29-118">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="29b29-118">Click OK.</span></span>
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="0afd2-114">从现有配方中复制</span><span class="sxs-lookup"><span data-stu-id="0afd2-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="0afd2-115">单击“复制”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-115">Click Copy.</span></span>
+2. <span data-ttu-id="0afd2-116">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="0afd2-117">在“配方版本”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="0afd2-118">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a><span data-ttu-id="29b29-119">修改复制的配方</span><span class="sxs-lookup"><span data-stu-id="29b29-119">Revise the copied formula</span></span>
-1. <span data-ttu-id="29b29-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="29b29-120">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="29b29-121">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="29b29-121">Click Delete.</span></span>
-3. <span data-ttu-id="29b29-122">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="29b29-122">Click Yes.</span></span>
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="0afd2-119">修改复制的配方</span><span class="sxs-lookup"><span data-stu-id="0afd2-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="0afd2-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="0afd2-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="0afd2-121">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-121">Click Delete.</span></span>
+3. <span data-ttu-id="0afd2-122">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="29b29-123">审核配方</span><span class="sxs-lookup"><span data-stu-id="29b29-123">Approve formula</span></span>
-1. <span data-ttu-id="29b29-124">单击“审核配方”。</span><span class="sxs-lookup"><span data-stu-id="29b29-124">Click Approve formula.</span></span>
-2. <span data-ttu-id="29b29-125">在“已审核”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="29b29-125">In the Approved by field, enter or select a value.</span></span>
-3. <span data-ttu-id="29b29-126">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="29b29-126">Click OK.</span></span>
-4. <span data-ttu-id="29b29-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="29b29-127">Close the page.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="0afd2-123">审核配方</span><span class="sxs-lookup"><span data-stu-id="0afd2-123">Approve formula</span></span>
+1. <span data-ttu-id="0afd2-124">单击“审核配方”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="0afd2-125">在“已审核”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="0afd2-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="0afd2-126">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="0afd2-126">Click OK.</span></span>
+4. <span data-ttu-id="0afd2-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="0afd2-127">Close the page.</span></span>
 
 
 
