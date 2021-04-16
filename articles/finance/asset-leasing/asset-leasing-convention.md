@@ -2,11 +2,9 @@
 title: 资产租赁惯例
 description: 文主题介绍租赁资产的惯例。
 author: moaamer
-manager: Ann Beebe
 ms.date: 1/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetLease
 audience: Application User
@@ -17,40 +15,40 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6450438a6e8c594590df3cc4502895913f50d01
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842386"
 ---
-# <a name="asset-leasing-conventions"></a><span data-ttu-id="f458e-103">资产租赁惯例</span><span class="sxs-lookup"><span data-stu-id="f458e-103">Asset leasing conventions</span></span>
+# <a name="asset-leasing-conventions"></a><span data-ttu-id="02d8f-103">资产租赁惯例</span><span class="sxs-lookup"><span data-stu-id="02d8f-103">Asset leasing conventions</span></span>
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="f458e-104">文主题介绍租赁资产的惯例。</span><span class="sxs-lookup"><span data-stu-id="f458e-104">This topic describes conventions for leased assets.</span></span> <span data-ttu-id="f458e-105">租赁惯例用于确定租赁帐簿的开始日期。</span><span class="sxs-lookup"><span data-stu-id="f458e-105">Leasing conventions are used to determine the commencement date of a lease book.</span></span> <span data-ttu-id="f458e-106">如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。</span><span class="sxs-lookup"><span data-stu-id="f458e-106">If the leasing convention is set to **None**, the commencement date is the same as the start date for the lease (that is, the value of the **Lease start date** field).</span></span> <span data-ttu-id="f458e-107">如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。</span><span class="sxs-lookup"><span data-stu-id="f458e-107">If the leasing convention is set to **Full month**, the commencement date is the first day of the month that the lease's start date falls in.</span></span>
+<span data-ttu-id="02d8f-104">文主题介绍租赁资产的惯例。</span><span class="sxs-lookup"><span data-stu-id="02d8f-104">This topic describes conventions for leased assets.</span></span> <span data-ttu-id="02d8f-105">租赁惯例用于确定租赁帐簿的开始日期。</span><span class="sxs-lookup"><span data-stu-id="02d8f-105">Leasing conventions are used to determine the commencement date of a lease book.</span></span> <span data-ttu-id="02d8f-106">如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。</span><span class="sxs-lookup"><span data-stu-id="02d8f-106">If the leasing convention is set to **None**, the commencement date is the same as the start date for the lease (that is, the value of the **Lease start date** field).</span></span> <span data-ttu-id="02d8f-107">如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。</span><span class="sxs-lookup"><span data-stu-id="02d8f-107">If the leasing convention is set to **Full month**, the commencement date is the first day of the month that the lease's start date falls in.</span></span>
 
-<span data-ttu-id="f458e-108">开始日期确定负债摊销和资产折旧计划的期间的开始日期。</span><span class="sxs-lookup"><span data-stu-id="f458e-108">The commencement date determines the start date of the period for the liability amortization and asset depreciation schedules.</span></span> <span data-ttu-id="f458e-109">利息支出和折旧支出在相应计划的期间结束日期过帐。</span><span class="sxs-lookup"><span data-stu-id="f458e-109">Interest expenses and depreciation expenses are posted on the period end date of the corresponding schedules.</span></span> <span data-ttu-id="f458e-110">初始确认和调整日记帐条目在开始日期过帐。</span><span class="sxs-lookup"><span data-stu-id="f458e-110">The initial recognition and adjustment journal entry are posted on the commencement date.</span></span>
+<span data-ttu-id="02d8f-108">开始日期确定负债摊销和资产折旧计划的期间的开始日期。</span><span class="sxs-lookup"><span data-stu-id="02d8f-108">The commencement date determines the start date of the period for the liability amortization and asset depreciation schedules.</span></span> <span data-ttu-id="02d8f-109">利息支出和折旧支出在相应计划的期间结束日期过帐。</span><span class="sxs-lookup"><span data-stu-id="02d8f-109">Interest expenses and depreciation expenses are posted on the period end date of the corresponding schedules.</span></span> <span data-ttu-id="02d8f-110">初始确认和调整日记帐条目在开始日期过帐。</span><span class="sxs-lookup"><span data-stu-id="02d8f-110">The initial recognition and adjustment journal entry are posted on the commencement date.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f458e-111">租赁惯例功能必须通过“功能管理”打开。</span><span class="sxs-lookup"><span data-stu-id="f458e-111">The feature for leasing conventions must be turned on through Feature Management.</span></span> <span data-ttu-id="f458e-112">在 **功能管理** 工作区中，找到并选择名为 **资产租赁的租赁惯例** 功能，然后选择 **立即启用**。</span><span class="sxs-lookup"><span data-stu-id="f458e-112">In the **Feature management** workspace, find and select the feature that is named **Leasing convention for asset leasing** feature, and then select **Enable now**.</span></span>
+> <span data-ttu-id="02d8f-111">租赁惯例功能必须通过“功能管理”打开。</span><span class="sxs-lookup"><span data-stu-id="02d8f-111">The feature for leasing conventions must be turned on through Feature Management.</span></span> <span data-ttu-id="02d8f-112">在 **功能管理** 工作区中，找到并选择名为 **资产租赁的租赁惯例** 功能，然后选择 **立即启用**。</span><span class="sxs-lookup"><span data-stu-id="02d8f-112">In the **Feature management** workspace, find and select the feature that is named **Leasing convention for asset leasing** feature, and then select **Enable now**.</span></span>
 
-<span data-ttu-id="f458e-113">租赁惯例将被分配到租赁资产帐簿的设置。</span><span class="sxs-lookup"><span data-stu-id="f458e-113">Leasing conventions are assigned to the setup for a lease asset book.</span></span>
+<span data-ttu-id="02d8f-113">租赁惯例将被分配到租赁资产帐簿的设置。</span><span class="sxs-lookup"><span data-stu-id="02d8f-113">Leasing conventions are assigned to the setup for a lease asset book.</span></span>
 
-<span data-ttu-id="f458e-114">要查看或分配租赁惯例，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="f458e-114">To view or assign the leasing convention, follow these steps.</span></span>
+<span data-ttu-id="02d8f-114">要查看或分配租赁惯例，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="02d8f-114">To view or assign the leasing convention, follow these steps.</span></span>
 
-1. <span data-ttu-id="f458e-115">转到 **资产租赁 \> 设置 \> 租赁帐簿**。</span><span class="sxs-lookup"><span data-stu-id="f458e-115">Go to **Asset leasing \> Setup \> Lease books**.</span></span>
-2. <span data-ttu-id="f458e-116">在 **租赁惯例** 字段中，选择以下值之一。</span><span class="sxs-lookup"><span data-stu-id="f458e-116">In the **Leasing convention** field, select one of the following values.</span></span>
+1. <span data-ttu-id="02d8f-115">转到 **资产租赁 \> 设置 \> 租赁帐簿**。</span><span class="sxs-lookup"><span data-stu-id="02d8f-115">Go to **Asset leasing \> Setup \> Lease books**.</span></span>
+2. <span data-ttu-id="02d8f-116">在 **租赁惯例** 字段中，选择以下值之一。</span><span class="sxs-lookup"><span data-stu-id="02d8f-116">In the **Leasing convention** field, select one of the following values.</span></span>
 
-    | <span data-ttu-id="f458e-117">租赁惯例</span><span class="sxs-lookup"><span data-stu-id="f458e-117">Leasing convention</span></span> | <span data-ttu-id="f458e-118">说明</span><span class="sxs-lookup"><span data-stu-id="f458e-118">Description</span></span> |
+    | <span data-ttu-id="02d8f-117">租赁惯例</span><span class="sxs-lookup"><span data-stu-id="02d8f-117">Leasing convention</span></span> | <span data-ttu-id="02d8f-118">说明</span><span class="sxs-lookup"><span data-stu-id="02d8f-118">Description</span></span> |
     |--------------------|-------------|
-    | <span data-ttu-id="f458e-119">None</span><span class="sxs-lookup"><span data-stu-id="f458e-119">None</span></span>               | <span data-ttu-id="f458e-120">负债摊销和资产折旧计划从租赁的开始日期开始，因为开始日期等于租赁的开始日期。</span><span class="sxs-lookup"><span data-stu-id="f458e-120">The liability amortization and asset depreciation schedules start on the lease's start date, because the commencement date equals the lease's start date.</span></span> <span data-ttu-id="f458e-121">结束日期是一个月后。</span><span class="sxs-lookup"><span data-stu-id="f458e-121">The end date is one month later.</span></span> <span data-ttu-id="f458e-122">此租赁惯例不保证利息会在每个月的最后一天过帐。</span><span class="sxs-lookup"><span data-stu-id="f458e-122">This leasing convention doesn't guarantee that the interest will be posted on the last day of each month.</span></span> |
-    | <span data-ttu-id="f458e-123">全月</span><span class="sxs-lookup"><span data-stu-id="f458e-123">Full month</span></span>         | <span data-ttu-id="f458e-124">对于开始日期在当月任何时间发生的租赁，负债摊销和资产折旧计划在该月的第一天开始计入费用。</span><span class="sxs-lookup"><span data-stu-id="f458e-124">For leases that have a start date that occurs at any time during the month, the liability amortization and asset depreciation schedules start to accrue expenses on the first day of that month.</span></span> <span data-ttu-id="f458e-125">此租赁惯例可确保在每个整月的最后一天计算利息。</span><span class="sxs-lookup"><span data-stu-id="f458e-125">This leasing convention ensures that interest is accrued on the last day of each month for the whole month.</span></span> |
+    | <span data-ttu-id="02d8f-119">None</span><span class="sxs-lookup"><span data-stu-id="02d8f-119">None</span></span>               | <span data-ttu-id="02d8f-120">负债摊销和资产折旧计划从租赁的开始日期开始，因为开始日期等于租赁的开始日期。</span><span class="sxs-lookup"><span data-stu-id="02d8f-120">The liability amortization and asset depreciation schedules start on the lease's start date, because the commencement date equals the lease's start date.</span></span> <span data-ttu-id="02d8f-121">结束日期是一个月后。</span><span class="sxs-lookup"><span data-stu-id="02d8f-121">The end date is one month later.</span></span> <span data-ttu-id="02d8f-122">此租赁惯例不保证利息会在每个月的最后一天过帐。</span><span class="sxs-lookup"><span data-stu-id="02d8f-122">This leasing convention doesn't guarantee that the interest will be posted on the last day of each month.</span></span> |
+    | <span data-ttu-id="02d8f-123">全月</span><span class="sxs-lookup"><span data-stu-id="02d8f-123">Full month</span></span>         | <span data-ttu-id="02d8f-124">对于开始日期在当月任何时间发生的租赁，负债摊销和资产折旧计划在该月的第一天开始计入费用。</span><span class="sxs-lookup"><span data-stu-id="02d8f-124">For leases that have a start date that occurs at any time during the month, the liability amortization and asset depreciation schedules start to accrue expenses on the first day of that month.</span></span> <span data-ttu-id="02d8f-125">此租赁惯例可确保在每个整月的最后一天计算利息。</span><span class="sxs-lookup"><span data-stu-id="02d8f-125">This leasing convention ensures that interest is accrued on the last day of each month for the whole month.</span></span> |
 
-3. <span data-ttu-id="f458e-126">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="f458e-126">Select **Save**.</span></span>
+3. <span data-ttu-id="02d8f-126">选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="02d8f-126">Select **Save**.</span></span>
 
-<span data-ttu-id="f458e-127">租赁创建后，将根据为租赁输入的开始日期和为帐簿指定的租赁惯例自动输入每个帐簿的开始日期。</span><span class="sxs-lookup"><span data-stu-id="f458e-127">When a lease is created, the commencement date of each book is automatically entered based on the start date that is entered for the lease and the leasing convention that is specified for the book.</span></span>
+<span data-ttu-id="02d8f-127">租赁创建后，将根据为租赁输入的开始日期和为帐簿指定的租赁惯例自动输入每个帐簿的开始日期。</span><span class="sxs-lookup"><span data-stu-id="02d8f-127">When a lease is created, the commencement date of each book is automatically entered based on the start date that is entered for the lease and the leasing convention that is specified for the book.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

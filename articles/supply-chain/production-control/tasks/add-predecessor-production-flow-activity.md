@@ -2,11 +2,9 @@
 title: 将前导活动添加到生产流活动
 description: 在生产流版本中，必须为所有活动排序。
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
@@ -16,40 +14,40 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d76ec6ac928228011f42355bebd553576bcfd275
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 968880db317f74db6bc6d92a4beca9136c0d8de4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255437"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825054"
 ---
-# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="c22b9-103">将前导活动添加到生产流活动</span><span class="sxs-lookup"><span data-stu-id="c22b9-103">Add a predecessor to a production flow activity</span></span>
+# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="72113-103">将前导活动添加到生产流活动</span><span class="sxs-lookup"><span data-stu-id="72113-103">Add a predecessor to a production flow activity</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c22b9-104">在生产流版本中，必须为所有活动排序。</span><span class="sxs-lookup"><span data-stu-id="c22b9-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="c22b9-105">一个活动可以有一个或多个前导活动或后续活动。</span><span class="sxs-lookup"><span data-stu-id="c22b9-105">An activity can have one or multiple predecessors or successors.</span></span> 
+<span data-ttu-id="72113-104">在生产流版本中，必须为所有活动排序。</span><span class="sxs-lookup"><span data-stu-id="72113-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="72113-105">一个活动可以有一个或多个前导活动或后续活动。</span><span class="sxs-lookup"><span data-stu-id="72113-105">An activity can have one or multiple predecessors or successors.</span></span> 
 
-<span data-ttu-id="c22b9-106">此过程显示如何将前导活动关联到活动。</span><span class="sxs-lookup"><span data-stu-id="c22b9-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
+<span data-ttu-id="72113-106">此过程显示如何将前导活动关联到活动。</span><span class="sxs-lookup"><span data-stu-id="72113-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
 
-<span data-ttu-id="c22b9-107">若要执行此任务，需要草稿版本至少有两个可连接的活动的生产流。</span><span class="sxs-lookup"><span data-stu-id="c22b9-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
+<span data-ttu-id="72113-107">若要执行此任务，需要草稿版本至少有两个可连接的活动的生产流。</span><span class="sxs-lookup"><span data-stu-id="72113-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
 
-<span data-ttu-id="c22b9-108">若要了解详细信息，请阅读白皮书“lean manufacturing 中的生产流和活动”。</span><span class="sxs-lookup"><span data-stu-id="c22b9-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
+<span data-ttu-id="72113-108">若要了解详细信息，请阅读白皮书“lean manufacturing 中的生产流和活动”。</span><span class="sxs-lookup"><span data-stu-id="72113-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
 
 
-## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="c22b9-109">找到生产流和版本</span><span class="sxs-lookup"><span data-stu-id="c22b9-109">Find the production flow and version</span></span>
-1. <span data-ttu-id="c22b9-110">转到“生产控制”>“设置”>“精益生产流程”>“生产流程”。</span><span class="sxs-lookup"><span data-stu-id="c22b9-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="c22b9-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c22b9-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="c22b9-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c22b9-112">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="c22b9-113">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c22b9-113">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="c22b9-114">单击“活动”。</span><span class="sxs-lookup"><span data-stu-id="c22b9-114">Click Activities.</span></span>
+## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="72113-109">找到生产流和版本</span><span class="sxs-lookup"><span data-stu-id="72113-109">Find the production flow and version</span></span>
+1. <span data-ttu-id="72113-110">转到“生产控制”>“设置”>“精益生产流程”>“生产流程”。</span><span class="sxs-lookup"><span data-stu-id="72113-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="72113-111">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="72113-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="72113-112">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="72113-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="72113-113">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="72113-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="72113-114">单击“活动”。</span><span class="sxs-lookup"><span data-stu-id="72113-114">Click Activities.</span></span>
 
-## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="c22b9-115">选择活动和添加前导活动</span><span class="sxs-lookup"><span data-stu-id="c22b9-115">Select an activity and add a predecessor</span></span>
-1. <span data-ttu-id="c22b9-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c22b9-116">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="c22b9-117">单击“添加前导活动”。</span><span class="sxs-lookup"><span data-stu-id="c22b9-117">Click Add predecessor.</span></span>
-3. <span data-ttu-id="c22b9-118">在“活动”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="c22b9-118">In the Activity field, enter or select a value.</span></span>
-4. <span data-ttu-id="c22b9-119">在“周期时间比率”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="c22b9-119">In the Cycle time ratio field, enter a number.</span></span>
-    * <span data-ttu-id="c22b9-120">活动关系的默认周期时间比率为 1。</span><span class="sxs-lookup"><span data-stu-id="c22b9-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="c22b9-121">这假设两个活动按照相同的速度或单位产品生产时间运行。</span><span class="sxs-lookup"><span data-stu-id="c22b9-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="c22b9-122">如果前导活动按照较高的速度（较低的单位产品生产时间）运行，则比率应低于 1，如果前导活动以较慢的速度（较高的单位产品生产时间）运行，则周期时间比率大于 1。</span><span class="sxs-lookup"><span data-stu-id="c22b9-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
-5. <span data-ttu-id="c22b9-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c22b9-123">Click OK.</span></span>
+## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="72113-115">选择活动和添加前导活动</span><span class="sxs-lookup"><span data-stu-id="72113-115">Select an activity and add a predecessor</span></span>
+1. <span data-ttu-id="72113-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="72113-116">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="72113-117">单击“添加前导活动”。</span><span class="sxs-lookup"><span data-stu-id="72113-117">Click Add predecessor.</span></span>
+3. <span data-ttu-id="72113-118">在“活动”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="72113-118">In the Activity field, enter or select a value.</span></span>
+4. <span data-ttu-id="72113-119">在“周期时间比率”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="72113-119">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="72113-120">活动关系的默认周期时间比率为 1。</span><span class="sxs-lookup"><span data-stu-id="72113-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="72113-121">这假设两个活动按照相同的速度或单位产品生产时间运行。</span><span class="sxs-lookup"><span data-stu-id="72113-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="72113-122">如果前导活动按照较高的速度（较低的单位产品生产时间）运行，则比率应低于 1，如果前导活动以较慢的速度（较高的单位产品生产时间）运行，则周期时间比率大于 1。</span><span class="sxs-lookup"><span data-stu-id="72113-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
+5. <span data-ttu-id="72113-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="72113-123">Click OK.</span></span>
 
 
 
