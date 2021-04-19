@@ -2,7 +2,6 @@
 title: 通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 description: 此主题介绍如何通过添加参数化的计算字段数据源提高电子申报 (ER) 解决方案的性能。
 author: NickSelin
-manager: AnnBe
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c63d64774b5b97a562da20655400078ed47c5675
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569217"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749505"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 
