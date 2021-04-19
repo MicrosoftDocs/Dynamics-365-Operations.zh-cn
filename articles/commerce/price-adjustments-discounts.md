@@ -2,11 +2,9 @@
 title: 价格调整和折扣
 description: 本文提供有关 Dynamics 365 Commerce 中价格调整和折扣的信息。
 author: scott-tucker
-manager: AnnBe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d64632d7726fa5093bd04232790cae3f75938ae5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231215"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802783"
 ---
 # <a name="price-adjustments-and-discounts"></a>价格调整和折扣
 

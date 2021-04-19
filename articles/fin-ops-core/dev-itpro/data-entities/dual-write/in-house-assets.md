@@ -2,7 +2,6 @@
 title: 需服务的内部资产
 description: 此主题介绍如何使用 Microsoft Dtnamics 365 Field Service 服务客户资产和内部资产。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: d4d681b2362c90b69007ea44c01c886f96cc1db1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748585"
 ---
 # <a name="in-house-assets-for-servicing"></a>用于服务的内部资产
 
