@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 4 月 5 日
+          href: hr-whats-new-2021-04-05.md
         - name: 2021 年 3 月 22 日
           href: hr-whats-new-2021-03-22.md
         - name: 2021 年 3 月 8 日
@@ -89,7 +91,7 @@
           items:
             - name: 选择数据集成技术
               href: hr-admin-integration-choose-technology.md
-            - name: 限制常见问题解答
+            - name: 限制常见问题
               href: hr-admin-integration-throttling-faq.md
             - name: 配置 Dataverse 集成
               href: hr-admin-integration-common-data-service.md
@@ -97,7 +99,7 @@
               href: hr-developer-entities.md
             - name: 配置 Dataverse 虚拟表
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Human Resources 虚拟表常见问题解答
+            - name: Human Resources 虚拟表常见问题
               href: hr-admin-virtual-entity-faq.md
             - name: 配置与 Finance 的集成
               href: hr-admin-integration-finance.md
@@ -287,7 +289,7 @@
               href: hr-admin-troubleshooting-not-in-apps.md
             - name: 报告选项
               href: hr-admin-troubleshooting-reporting.md
-            - name: 集成常见问题解答
+            - name: 集成常见问题
               href: hr-admin-troubleshooting-integration.md
     - name: 开发人员指南
       items:
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: 配置 Dataverse 集成
               href: hr-admin-integration-common-data-service.md
+            - name: 配置 Dataverse 虚拟表
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: 配置与 Finance 的集成
               href: hr-admin-integration-finance.md
             - name: 配置与 Dayforce 的集成
@@ -321,6 +325,12 @@
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 解决 Office 集成问题
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 使用 Dataverse 虚拟表解决开发问题
+          items:
+            - name: 优化 Dataverse 虚拟表查询
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Human Resources 虚拟表常见问题
+              href: hr-admin-virtual-entity-faq.md
         - name: 实体 API 引用
           items:
             - name: 身份验证
@@ -419,6 +429,22 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: 技能级别类型
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: 工资单集成 API
+          items:
+            - name: 简介
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: 生成并查看工资单实体
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: 工资单员工
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: 工资单工作人员地址
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: 工资单固定薪酬计划
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: 工资单职位工作
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: 工资单职位
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: 用户指南
       items:
         - name: 概览

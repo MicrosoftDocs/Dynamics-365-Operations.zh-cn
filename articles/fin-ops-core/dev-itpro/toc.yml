@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: 将 Power Portal 与当事方数据模型配合使用
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: 升级到当事方和全球通讯簿模型
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: 注释集成
                               href: data-entities/dual-write/notes-integration.md
                             - name: 映射引用
@@ -714,6 +716,8 @@
               items:
                 - name: X++ 和调试器功能
                   href: dev-tools/new-x-debugger-features.md
+                - name: X++ 的 Visual Studio 2017 要求
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: 调试 X++ 代码
                   href: dev-tools/debug-xpp.md
                 - name: 请求或响应方案中的 EventHandlerResult 类
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: 日期有效性
               href: dev-tools/date-effectivity.md
-            - name: ISV 许可
-              href: dev-tools/isv-licensing.md
-            - name: 本地 ISV 许可
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: 独立软件供应商开发
+              items:
+                - name: 使用 ISV Studio 将 X++ 模块链接到软件包
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ISV 许可
+                  href: dev-tools/isv-licensing.md
+                - name: 本地 ISV 许可
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: 一般数据保护条例 (GDPR)
           items:
             - name: 一般数据保护条例概览
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform 集成
           items:
+            - name: Microsoft Power Platform 与 Finance and Operations 的集成
+              href: power-platform/overview.md
             - name: 虚拟实体
               items:
-                - name: Microsoft Power Platform 与 Finance and Operations 的集成
-                  href: power-platform/overview.md
                 - name: 实体建模
                   href: power-platform/entity-modeling.md
                 - name: 应用程序生命周期管理
@@ -1448,12 +1456,14 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 获取对在中国由 21Vianet 运营的 Finance and Operations 的支持
+            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对 Finance and Operations 应用的技术支持
               href: lifecycle-services/support-experience.md
             - name: 管理 Finance and Operations 应用支持体验
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: 生产支持和监控
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: 系统管理
           items:
             - name: 系统管理主页

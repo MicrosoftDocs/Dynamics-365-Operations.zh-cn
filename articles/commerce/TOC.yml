@@ -68,11 +68,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: 本地环境中 Retail 渠道组件的安装步骤
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: 购买 Finance + Operations (on-premises)
+                - name: 购买 Finance + Operations（本地版）
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange 实施指南
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Finance and Operations 应用在中国由 21Vianet 运营
+                - name: 由世纪互联在中国运营的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: 法国的 Finance and Operations 应用
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station 配置和安装
                   href: retail-hardware-station-configuration-installation.md
-                - name: 自助服务组件批量部署
+                - name: 旧版自助服务组件批量部署
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce 组件的诊断和疑难解答事件
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -542,7 +542,7 @@
                       href: paypal.md
                     - name: 钱包付款支持
                       href: wallets.md
-                    - name: 付款常见问题解答
+                    - name: 付款常见问题
                       href: dev-itpro/payments-retail.md
                 - name: 电子邮件和通知
                   items:
@@ -860,7 +860,7 @@
                   href: manage-user-roles-teams.md
                 - name: 如果 Teams 中已预先存在团队，请映射商店和团队
                   href: map-stores-existing-teams.md
-                - name: Commerce 和 Teams 集成常见问题解答
+                - name: Commerce 和 Teams 集成常见问题
                   href: teams-integration-faq.md
         - name: 管理电子商务站点
           items:
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: 页脚模块
                       href: author-footer-module.md
+                - name: 页面、元数据和脚本模块
+                  items:
+                    - name: 默认页面模块
+                      href: default-page-module.md
+                    - name: 页面摘要模块
+                      href: page-summary-module.md
+                    - name: 元标记模块
+                      href: metatags-module.md
+                    - name: 外部和内联脚本模块
+                      href: script-module.md
                 - name: 产品详细信息页面模块
                   items:
                     - name: 购买框模块
@@ -1840,7 +1850,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: 使用 BARCODE 生成条码图像
+                    - name: 使用条码生成条码图像
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置模型映射
                   items:
