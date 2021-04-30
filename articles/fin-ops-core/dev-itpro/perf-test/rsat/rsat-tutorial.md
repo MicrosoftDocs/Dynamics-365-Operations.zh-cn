@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5a9f19168093f24a7f152b2b5b23b3728ca80222
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
+ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745157"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866148"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 

@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f8d9408090846799c1bb421c4b6e5e248d37fa07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 791b244c867ea4263f08250abf220a1b75784cad
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797495"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907855"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>在交易和收据电子邮件中添加 QR 码或条形码
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题说明了如何在 Microsoft Dynamics 365 Commerce 中将表示订单 ID 的 QR 码和条形码插入交易和收据电子邮件。
 

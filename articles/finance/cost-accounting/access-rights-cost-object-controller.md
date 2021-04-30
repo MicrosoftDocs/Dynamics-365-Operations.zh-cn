@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810190"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897616"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>成本对象控制器的访问权限
 
@@ -62,9 +62,8 @@ ms.locfileid: "5810190"
 
 您可以使用层次结构设计器中的 **用户** 快速选项卡在各节点上插入一个或多个用户 ID。
 
-|                                   | 用户            | 维度成员范围   |                         |
+|             节点                 | 用户            | 起始维度成员     |   截止维度成员   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **节点**                         | **用户 ID**      | **起始维度成员** | **截止维度成员** |
 | 组织                      | 本杰明，克莱尔 |                           |                         |
 | &nbsp;&nbsp;管理                 | 四月            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;财务   | 艾丽西亚           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ ms.locfileid: "5810190"
     - 在 Dynamics 365 Finance 客户端中嵌入的数据 Power BI 可视化项
 
 > [!IMPORTANT]
-> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
+> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 此主题说明使用 **成本控制** 工作区前必须具备的先决条件。
 
 其他资源
 
 - [成本控制工作区](cost-control-workspace.md)
 - [维度层次结构](dimension-hierarchy.md)
-- [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835622"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910007"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
 此主题介绍仓库对采购订单入站负荷的处理流程。
 
-对于每项入站负荷，系统中应该已经有了一个相关采购订单，并且还可能有相关负荷规范和/或运输计划。 有关如何创建和管理入站负荷的详细信息，请参阅[业务流程：计划入站负荷的运输](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads)。
+对于每项入站负荷，系统中应该已经有了一个相关采购订单，并且还可能有相关负荷规范和/或运输计划。 有关如何创建和管理入站负荷的详细信息，请参阅[业务流程：计划入站负荷的运输](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads)。
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>概述：如何创建、登记和接收入站负荷
 
@@ -38,11 +38,11 @@ ms.locfileid: "5835622"
 
 1. **创建采购订单记录是为了计划到达及其内容。**
 
-    入站负荷表示供应商装运了一个或多个采购订单的内容。 负荷应该作为一个物理运输单元（如整车）到达仓库。 入站负荷记录用于计划用途，可供物流协调员跟踪负荷从供应商开始的进度。 还用于通过仓库操作（如到达和入库工作）登记订单行数量和管理进度。 负荷可以自动或手动创建，还可以基于采购订单或供应商的发货通知 (ASN)。 有关详细信息，请参阅[创建或修改入站负荷](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load)。
+    入站负荷表示供应商装运了一个或多个采购订单的内容。 负荷应该作为一个物理运输单元（如整车）到达仓库。 入站负荷记录用于计划用途，可供物流协调员跟踪负荷从供应商开始的进度。 还用于通过仓库操作（如到达和入库工作）登记订单行数量和管理进度。 负荷可以自动或手动创建，还可以基于采购订单或供应商的发货通知 (ASN)。 有关详细信息，请参阅[创建或修改入站负荷](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load)。
 
 1. **供应商确认负荷分派。**
 
-    供应商分派负荷后，收货仓库的物流协调员将确认负荷装运。 如果收货公司在使用 **运输管理** 模块，确认入站装运将触发与入站负荷关联的其他负荷管理流程。 有关详细信息，请参阅[确认装运的负荷](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping)。
+    供应商分派负荷后，收货仓库的物流协调员将确认负荷装运。 如果收货公司在使用 **运输管理** 模块，确认入站装运将触发与入站负荷关联的其他负荷管理流程。 有关详细信息，请参阅[确认装运的负荷](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping)。
 
 1. **负荷到达仓库，工作人员登记数量。**
 

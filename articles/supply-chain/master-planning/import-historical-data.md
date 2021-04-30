@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816476"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908872"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 
@@ -41,7 +41,7 @@ ms.locfileid: "5816476"
 
 ## <a name="example"></a>示例
 
-您可以使用以下文件作为示例。 下载 [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/)。 此文件包含物料 D0001 的历史需求数据。 它仅包含以下必填字段：站点、数量和需求日期。
+您可以使用以下文件作为示例。 下载 [HistoricalDemandData](/dynamics/s-e/)。 此文件包含物料 D0001 的历史需求数据。 它仅包含以下必填字段：站点、数量和需求日期。
 
 1. 选择历史需求数据要导入到的公司。
 2. 打开 **数据管理** 工作区。

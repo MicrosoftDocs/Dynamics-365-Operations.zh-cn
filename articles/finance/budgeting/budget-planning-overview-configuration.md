@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822123"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898202"
 ---
 # <a name="budget-planning-overview"></a>预算计划概览
 
@@ -75,7 +75,7 @@ ms.locfileid: "5822123"
 
 在 **组织层次结构** 页上，您可以指定组织层次结构作为每个预算计划流程的预算计划层次结构。 预算计划层次结构不必与用于其他目的标准组织层次结构匹配。 由于此层次结构用于整合和分配数据，您可能希望它具有不同的结构。 在示例架构中，销售部门在包括预算和财务部门的总部的下一级。 此结构可能与用于管理销售部门运营的结构不同。 只能将一个组织层次结构分配给每个预算计划流程。
 
-有关详细信息，请参阅[组织和组织层次结构](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md)。
+有关详细信息，请参阅[组织和组织层次结构](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md)。
 
 ### <a name="user-security"></a>用户安全
 
@@ -163,7 +163,7 @@ ms.locfileid: "5822123"
 
 对于示例架构，您可能希望为“PY 销售”、“合同”和“预测”方案创建列。 （下图显示了架构的相关部分。）然后可以将这些方案中的一个或全部划分到该会计年度每个季度的单独列，以便销售部门经理可以精确地输入每个期间的预测金额。
 
-[![列](./media/columns.png)](./media/columns.png)
+[![用于添加列的架构部分的图示](./media/columns.png)](./media/columns.png)
 
 您也可以指定每个布局元素（列）是否可编辑，以及其是否可用于为该布局创建的任何工作表模板。 对于示例架构，在用于“估计”阶段的布局中，“预测”列可编辑，但“PY 销售”和“合同”列都是只读的。
 

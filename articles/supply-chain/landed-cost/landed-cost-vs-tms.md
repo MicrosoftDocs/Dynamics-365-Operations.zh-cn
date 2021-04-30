@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833849"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909467"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>登陆成本与运输管理
 
@@ -51,8 +51,8 @@ TMS 和登陆成本不共享实体的参考数据，如成本设置、行程和�
 
 以下报表无法与登陆成本提供的在途货物功能一起使用：
 
-- [内部公司在途货物合计报表](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [内部公司在途货物合计报表](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [内部公司在途货物合计报表](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [内部公司在途货物合计报表](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 这些报表假定货物在您发出销售装箱单后即进入在途状态，在收货后即进入库存。 但是，在途货物不是以这种方式处理。 因此，如果您将在途货物与内部公司功能一起使用，这两个报表的结果都会不正确。
 

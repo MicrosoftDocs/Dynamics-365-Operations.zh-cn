@@ -2,27 +2,21 @@
 title: 云和边缘缩放单元的仓库订单
 description: 本主题提供有关仓库订单功能的信息，它是仓库缩放单元工作负荷的一部分。
 author: perlynne
-ms.date: 01/14/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2021-01-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836678"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899111"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
@@ -72,6 +66,8 @@ ms.locfileid: "5836678"
 
 - 转到 **仓库管理 \> 查询和报表 \> 仓库订单行**，使用筛选器查找您要查找的行。
 - 转到 **采购 \> 采购订单 \> 所有采购订单**，打开相关的采购订单。 在 **采购订单行** 部分，选择一个或多个行，然后在工具栏上选择 **仓库 \> 仓库收货条目**。
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

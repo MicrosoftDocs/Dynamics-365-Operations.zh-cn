@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812539"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910031"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -43,7 +43,7 @@ ms.locfileid: "5812539"
 
 准备询价案例并添加供应商后，请在询价案例上选择 **发送**（对于公共部门则选择 **发送和发布**）。 将为您发送询价的每个供应商生成询价日记帐。 您可以为“发送”操作配置打印选项，从而为每个供应商打印报表以存档，或将报表发送到每个供应商的电子邮件地址。 此外，您可以使用每个供应商的询价日记帐来生成您可以发送或在以后重新发送到供应商的报表。 您还可以配置“发送”操作，从而生成供应商可以填写的回复表。
 
-此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
+此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
 
 如果您在发送询价后必须对其进行改正，您可以在完成后，使用两个改正操作来重新向供应商发送询价：创建和完成。
 
@@ -165,7 +165,7 @@ ms.locfileid: "5812539"
 
 如果配置了改正流程，使其更加宽松，则不必先选择 **创建**，也可以修改已发送的询价案例的字段。 但是，您必须手动添加有关询价的改正注释，再重新发送案例。 请注意，只有在没有对任何回复（出价）进行编辑的情况下，才可以使用此方法。 如果输入了回复，并处于 **已接收** 状态，则 **发送** 按钮不可用。 在这种情况下，您必须依次选择 **创建** 和 **完成**，正如您在更严格的流程中所必须做的一样。 随后，回复将被重置，以反映询价案例的更改。
 
-如果供应商使用供应商协作界面输入出价，则必须始终使用改正流程通知供应商有关询价案例的更改。 此流程有助于防止供应商在出价进行过程中对已过期的询价案例出价的情况。 有关供应商协作的详细信息，请参阅[供应商与外部供应商的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)。
+如果供应商使用供应商协作界面输入出价，则必须始终使用改正流程通知供应商有关询价案例的更改。 此流程有助于防止供应商在出价进行过程中对已过期的询价案例出价的情况。 有关供应商协作的详细信息，请参阅[供应商与外部供应商的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)。
 
 如果您想邀请更多供应商出价，并且没有对询价案例进行任何更改，可以使用 **发送** 按钮。 您添加的供应商将显示在 **发送** 页上，并且会收到电子邮件邀请。
 

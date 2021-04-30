@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753328"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893924"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>允许用户设置 ER 格式参考，以从全局存储库中查询格式
 
@@ -30,7 +30,7 @@ ms.locfileid: "5753328"
 
 通常，您必须指定特定业务流程中必须使用哪种 ER 格式。 为此，请在配置为业务流程特定参数的一部分的查找字段中选择单一 ER 格式。 这些查找字段通常用 ER 框架的适当 API 来实现。 有关更多信息，请参见 [ER 框架 API - 用于显示格式映射查找的代码](er-apis-app73.md#code-to-display-a-format-mapping-lookup)。
 
-例如，当您配置[外贸参数](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters)时，您需要设置对各种 ER 格式的引用，这些格式将用于生成 Intrastat 声明和 Intrastat 声明控制报告。 以下屏幕截图显示了 ER 格式查找字段在 **外贸参数** 页面中的外观。
+例如，当您配置[外贸参数](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters)时，您需要设置对各种 ER 格式的引用，这些格式将用于生成 Intrastat 声明和 Intrastat 声明控制报告。 以下屏幕截图显示了 ER 格式查找字段在 **外贸参数** 页面中的外观。
 
 如果当前的 Finance 实例不包含与 Intrastat 业务流程相关的 ER 格式，则此查找字段将为空。
 

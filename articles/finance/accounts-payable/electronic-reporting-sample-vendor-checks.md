@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a48a20939b346b2d8536128107a730761b13f71c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a405fee368bb1789addbdf4316a007e85616d98d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820705"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897080"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>电子申报示例供应商支票
 
@@ -34,13 +34,13 @@ Microsoft Dynamics 365 Finance 包括一个示例格式，其中支票位于顶�
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
 
-- 在您可以使用 ER 打印支票前，必须导入至少一个有效的支票配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。
+- 在您可以使用 ER 打印支票前，必须导入至少一个有效的支票配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。
 - 为银行帐户配置现金和银行管理支票时，选择 **一般电子导出格式** 复选框，然后选择相应的支票格式作为导出格式配置。
 - 您还必须指定汇款上要打印的清单行的数量。 计算此数量时务必包括标头行。 对于这两种示例支票格式，建议的清单行数量为 17。 但是，该数量将根据您的支票库存和打印机驱动程序而有所不同。
 - 我们建议您打印一份测试支票以验证支票版式。 若要测试打印支票，请选择 **打印测试** 选项。 当 Microsoft Excel 的高级打印机属性中的 **边距** 设置为 **无** 时，示例支票格式的效果最佳。 生成测试支票后，启用编辑 Excel 输出并配置页面布局，以便所有边距设置为 **0**（零）。 比较支票的测试副本与您的支票库存，并调整设置，直到您对对齐方式满意。
 - 为在付款日记帐中配置的银行帐户生成付款时，将使用指定的格式打印支票。
 
-有关详细信息，请参阅 [修改电子申报格式](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)。
+有关详细信息，请参阅 [修改电子申报格式](../../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

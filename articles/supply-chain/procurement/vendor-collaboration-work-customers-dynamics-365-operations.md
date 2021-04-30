@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825198"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908027"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 
@@ -31,7 +31,7 @@ ms.locfileid: "5825198"
 - **采购订单确认** - 监视和响应采购订单 (PO)。
 - **供应商出价** - 查看询价 (RFQ) 并输入出价以响应询价。
 - **供应商信息** - 查看和更新供应商主数据。
-- **开票** - 处理发票。 此主题不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。
+- **开票** - 处理发票。 此主题不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。
 
 供应商还可以监视与托运库存有关的信息。
 

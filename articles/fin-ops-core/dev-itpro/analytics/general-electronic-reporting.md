@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750050"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893169"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
@@ -183,11 +183,11 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 
 有关详细信息，请参阅[导入电子申报 (ER) 配置](./electronic-reporting-import-ger-configurations.md)。
 
-**RCS** 存储库允许您访问在存储库登记阶段选择的 [Configuration service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) 的特定实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前实例并用于电子申报。
+**RCS** 存储库允许您访问在存储库登记阶段选择的 [Configuration service (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) 的特定实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前实例并用于电子申报。
 
 有关详细信息，请参阅[从 RCS 导入电子申报 (ER) 配置](./rcs-download-configurations.md)。
 
-一个 **全局知识库** 存储库提供对[配置服务](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)中全局知识库中的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从全局知识库导入到当前实例中。
+一个 **全局知识库** 存储库提供对[配置服务](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)中全局知识库中的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从全局知识库导入到当前实例中。
 
 有关详细信息，请参阅[从配置服务的全局知识库导入电子申报 (ER) 配置](./er-download-configurations-global-repo.md)。
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 96382c072e03506294d72899072a358091bda8ab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842624"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908896"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>从 Dynamics 365 Commerce 预配 Microsoft Teams
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何使用组织数据从 Dynamics 365 Commerce 预配 Microsoft Teams。
 

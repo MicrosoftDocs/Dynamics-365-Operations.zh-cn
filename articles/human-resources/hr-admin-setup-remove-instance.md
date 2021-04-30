@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795013"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889900"
 ---
 # <a name="remove-an-instance"></a>删除实例
 
@@ -81,7 +81,7 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 
 1. 按照[恢复 Power Apps 环境](/power-platform/admin/recover-environment.md)中的说明操作。
 
-2. 与客户支持联系恢复 Human Resources 环境。 有关详细信息，请参阅[获取支持](hr-admin-troubleshooting-support.md)。
+2. 与客户支持联系恢复 Human Resources 环境。 有关详细信息，请参阅[获取支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
 
 > [!Warning]
 > Power Apps 环境在删除后仅保存 7 天。 您必须在 7 天之内恢复环境。

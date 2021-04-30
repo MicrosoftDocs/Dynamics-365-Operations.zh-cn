@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825510"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909196"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
@@ -83,12 +83,12 @@ ms.locfileid: "5825510"
 ## <a name="prices-and-discounts"></a>价格和折扣
 -   [采购协议](purchase-agreements.md)
 -   [创建采购协议](tasks/create-purchase-agreement.md)
--   [供应商返利](https://docs.microsoft.com/dynamics/s-e/)（白皮书）
+-   [供应商返利](/dynamics/s-e/)（白皮书）
 
 ## <a name="product-receipt-and-invoicing"></a>产品收货和开票
 -   [采购订单的产品收据](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [供应商过帐模板](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [供应商过帐模板](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>采购工作流
 -   [采购概览](procurement-sourcing-overview.md)

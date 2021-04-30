@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794461"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891070"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
 
@@ -53,7 +53,7 @@ ms.locfileid: "5794461"
 6.  准备好后，单击层次结构设计器中的 **发布**。 您可以输入一个指示何时应发布层次结构的生效日期。 例如，要在下一个日历年的年初添加新部门，请将生效日期设置为新日历年的 1 月 1 日。 对层次结构进行的更改将在该日期生效。
 
 ## <a name="steps-for-creating-a-department"></a>部门创建步骤
-请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)一文了解创建新部门的分步过程。 
+请参阅[定义新部门](./hr-personnel-define-departments.md)一文了解创建新部门的分步过程。 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

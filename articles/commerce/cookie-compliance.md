@@ -2,7 +2,7 @@
 title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796019"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908176"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
@@ -50,6 +50,57 @@ ms.locfileid: "5796019"
 | x-ms-cpim-slice                             | 用于将请求路由到适当的生产身份验证服务器实例。 |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | 用于维护 SSO 会话。                        |
 | x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 |
+| \_msdyn365___muid_                            | 用于针对环境激活试验的情况；用作 userId 以供试验。 |
+| \_msdyn365___exp_                             | 用于针对环境激活试验的情况；用于度量性能负载均衡。         |
+
+
+
+如果站点用户选择站点内的任何社交媒体链接，还将在其浏览器中跟踪下表中的 cookie。
+
+
+| 域                      | Cookie               | 说明                                                  | 源                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | LinkedIn Ads ID 同步                                      | LinkedIn Feed 和 Insight 标记                                |
+| .linkedin.com               | li_sugr                  | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight 标记 |
+| .linkedin.com               | BizographicsOptOut       | 确定第三方跟踪的选择退出状态。              | LinkedIn 来宾控制和行业选择退出页面           |
+| .linkedin.com               | \_guid                    | Google Ads 的浏览器标识符。                            | LinkedIn Feed                                                |
+| .linkedin.com               | li_oatml                 | 用于转换跟踪、重新定位和分析的成员间接标识符。 | LinkedIn Ads 和 Insight 标记                                |
+| 各种第一方域 | li_fat_id                | 用于转换跟踪、重新定位和分析的成员间接标识符。 | LinkedIn Ads 和 Insight 标记                                |
+| .adsymptotic.com            | U                        | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight 标记 |
+| .linkedin.com                | bcookie                  | 浏览器 ID cookie                                            | 对 LinkedIn 的请求                                         |
+| .linkedin.com                | bscookie                 | 安全浏览器 cookie                                        | 对 LinkedIn 的请求                                         |
+| .linkedin.com               | lang                     | 设置默认区域设置和语言。                                 | 对 LinkedIn 的请求                                         |
+| .linkedin.com                | lidc                     | 用于路线选择。                                             | 对 LinkedIn 的请求                                         |
+| .linkedin.com               | aam_uuid                 | Adobe 受众经理 cookie                                                     | 针对 ID 同步设置                                              |
+| .linkedin.com               | \_ga                      | Google Analytics cookie                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics cookie                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics cookie                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Cookie 包含当前登录用户的用户 ID。  |   Facebook                                                           |
+| .facebook.com               | datr                     | 用于标识用于连接到与登录用户无关的 Facebook 的 Web 浏览器。 | Facebook                                                             |
+| .facebook.com               | wd                       | 存储浏览器窗口维度，并由 Facebook 用于优化页面的呈现。 | Facebook                                                             |
+| .facebook.com               | xs                       | 表示会话编号的两位数字。 该值的第二部分是会话密码。 |  Facebook                                                            |
+| .facebook.com               | fr                       | 包含用于目标广告的唯一浏览器和用户 ID。 |  Facebook                                                            |
+| .facebook.com               | sb                       | 用于改善 Facebook 好友建议。                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Cookie 包含当前登录用户的用户 ID。  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Cookie 包含当前登录用户的用户 ID。  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | 当用户选择“Pinterest”按钮时，Cookie 包含页面。      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | 当用户选择“Pinterest”按钮时，Cookie 包含页面。      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | 当创建 cookie 时，包含用户 ID 和时间戳。 |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | 当用户选择“Pinterest”按钮时，Cookie 包含页面。      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | 当用户选择“Pinterest”按钮时，Cookie 包含页面。      | Pinterest                                                             |
+| .pinterest.com              | 本地存储            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | 服务工作人员          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>电子商务站点中的站点用户 cookie 同意 
 

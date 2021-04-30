@@ -1,8 +1,8 @@
 ---
 title: 管理电子申报 (ER) 配置生命周期
-description: 本主题介绍如何管理 Microsoft Dynamics 365 Finance 解决方案的电子申报 (ER) 配置的生命周期。
+description: 本主题介绍如何管理 Dynamics 365 Finance 的电子报告 (ER) 配置的生命周期。
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750098"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893193"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子申报 (ER) 配置生命周期
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何管理 Microsoft Dynamics 365 Finance 解决方案的电子申报 (ER) 配置的生命周期。
+本主题介绍如何管理 Dynamics 365 Finance 的电子报告 (ER) 配置的生命周期。
 
 ## <a name="overview"></a>概览
 
@@ -45,7 +45,7 @@ ms.locfileid: "5750098"
 
 - 将一个模板变为可用，以便可以在其他实例中使用：
 
-    - 将创建的文档模板转换为 ER 配置，并且从当前应用程序实例导出配置为可以存储在本地或 LCS 中的 XML 包。
+    - 将创建的文档模板转换为 ER 配置，并且将当前应用程序实例中的配置导出为可以存储在本地或 Lifecycle Services (LCS) 中的 XML 包。
     - 将 ER 配置转换为应用程序文档模板。
     - 将存储在本地或 LCS 中的 XML 包导入到当前实例。
 
@@ -78,13 +78,24 @@ ms.locfileid: "5750098"
 - 担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可编辑配置，并运行配置以进行测试。 此情况可能会导致调用类和表的方法，可能对业务数据和实例的性能产生负面影响。
 - 在调用作为 ER 配置的 ER 数据源的类和表的方法时，不受入口点和记录的公司内容的限制。 因此，担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可访问业务敏感数据。
 
-在开发环境中设计的 ER 配置可上传到测试环境以进行配置评估（适当的流程集成、结果的正确性、性能）和质量保证（如角色驱动的访问权限的正确性和职责划分）。 启用 ER 配置交换的功能可以用于此目的。 最后，已审核的 ER 配置可上传到 LCS，在其中这些配置可与服务订阅者共享，也可上传到生产环境以供内部使用，如下图所示。
+在开发环境中设计的 ER 配置可[上传](#data-persistence-consideration)到测试环境以进行配置评估（适当的流程集成、结果的正确性、性能）和质量保证（例如角色驱动的访问权限的正确性和职责划分）。 启用 ER 配置交换的功能可以用于此目的。 已审核的 ER 配置可上传到 LCS 以与服务订阅者共享，它们也可[导入](#data-persistence-consideration)到生产环境以供内部使用。
 
 ![ER 配置生命周期](./media/ger-configuration-lifecycle.png)
 
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />数据持久性注意事项
+
+您可以将 ER [配置](general-electronic-reporting.md#Configuration)的不同[版本](general-electronic-reporting.md#component-versioning)单独[导入](tasks/er-import-configuration-lifecycle-services.md)到您的 Finance 实例。 导入新版本的 ER 配置时，系统将控制此配置的草稿版本的内容：
+
+   - 当导入的版本低于当前 Finance 实例中此配置的最高版本时，此配置的草稿版本内容将保持不变。
+   - 当导入的版本高于当前 Finance 实例中此配置的任何其他版本时，导入版本的内容将复制到此配置的草稿版本，以使您可以继续编辑最后完成的版本。
+
+如果此配置由当前已激活的配置 [提供商](general-electronic-reporting.md#Provider)负责，您可以在 **配置** 页面的 **版本** 快速选项卡上看到此配置的草稿版本（**组织管理** > **电子报告** > **配置**）。 您可以选择配置的草稿版本，然后通过使用相关的 ER 设计器[修改](er-quick-start2-customize-report.md#ConfigureDerivedFormat)其内容。 在编辑 ER 配置的草稿版本后，其内容不再与当前 Finance 实例中此配置的最高版本的内容相匹配。 若要防止更改丢失，系统将显示一个错误，即由于此配置的版本高于当前 Finance 实例中此配置的最高版本，因此导入无法继续。 当发生这种情况时，例如，对于格式配置 **X**，将显示 **格式“X”版本未完成** 错误。
+
+若要撤消在草稿版本中引入的更改，请在 **版本** 快速选项卡上选择 Finance 中 ER 配置的已完成或已共享最高版本，然后选择 **获取此版本** 选项。 所选版本的内容将复制到草稿版本。
+
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报 (ER) 概览](general-electronic-reporting.md)
+[电子报告 (ER) 概览](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

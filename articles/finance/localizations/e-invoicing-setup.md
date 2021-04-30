@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839996"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890823"
 ---
 # <a name="set-up-electronic-invoicing"></a>设置电子开票
 
@@ -75,7 +75,7 @@ ms.locfileid: "5839996"
     > [!NOTE]
     > 在编辑格式时，配置版本的状态将设置为 **草稿**。
 
-3. 使用 **格式设计器** 页更改文件格式配置。 有关详细信息，请参阅[创建电子单据配置](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration)。
+3. 使用 **格式设计器** 页更改文件格式配置。 有关详细信息，请参阅[创建电子单据配置](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)。
 
     ![“格式设计器”页面](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 

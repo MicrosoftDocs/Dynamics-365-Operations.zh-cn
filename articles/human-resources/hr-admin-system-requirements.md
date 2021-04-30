@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a4266ee942f504ffa2f355959af8e3076984d83
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794989"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892291"
 ---
 # <a name="system-requirements"></a>系统要求
 
@@ -53,17 +53,17 @@ Human Resources 可在指定操作系统上运行的以下任一 Web 浏览器�
 
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
 
-* 若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的更多详细信息，请参阅 [Office 集成疑难解答](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office 集成疑难解答")。
+* 若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的更多详细信息，请参阅 [Office 集成疑难解答](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "Office 集成疑难解答")。
 * 若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
 
 ## <a name="regional-availability-languages-and-localization"></a>地区可用性、语言和本地化
 
-可在 [Microsoft Dynamics 365 全球可用性](https://docs.microsoft.com/dynamics365/get-started/availability)中下载 Human Resources 支持的国家、地区和语言的 PDF 文件。 
+可在 [Microsoft Dynamics 365 全球可用性](/dynamics365/get-started/availability)中下载 Human Resources 支持的国家、地区和语言的 PDF 文件。 
 
 > [!NOTE]
 > 由于用户界面已本地化为其他语言，所以所有用户数据使用输入语言存储。 可以使用其他语言创建电子邮件和模板，但是目前日程安排信息之类数据仅提供英文版。
 
-如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
+如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

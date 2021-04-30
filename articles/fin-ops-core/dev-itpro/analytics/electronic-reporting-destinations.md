@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751308"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893596"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
@@ -57,7 +57,7 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 
 在 **内部统计报表** 对话框中的 **在后台运行** 快速选项卡上，如果将 **批处理** 选项设置为 **否**，则会直接在互动模式下运行 ER 格式。 成功完成此执行后，可以下载生成的出站文档。
 
-如果将 **批处理** 选项设置为 **是**，则 ER 格式会在[批](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview)模式下运行。 系统会根据您在 **ER 参数** 对话框的 **在后台运行** 选项卡上指定的参数创建适当的批处理作业。
+如果将 **批处理** 选项设置为 **是**，则 ER 格式会在[批](../sysadmin/batch-processing-overview.md)模式下运行。 系统会根据您在 **ER 参数** 对话框的 **在后台运行** 选项卡上指定的参数创建适当的批处理作业。
 
 > [!NOTE]
 > 作业描述通知您 ER 格式映射运行相关信息。 它还包含已运行的 ER 组件的名称。
@@ -70,7 +70,7 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 - 转到 **组织管理** \> **电子申报** \> **电子申报作业**，以检查计划作业的状态以及已完成作业的执行结果。 作业执行成功完成后，请在 **电子申报作业** 页面上选择 **显示文件**，以获取生成的出站文档。
 
     > [!NOTE]
-    > 该文档存储为当前作业记录的附件，并受[文档管理](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)框架控制。 [ER 参数](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)中配置了用于存储此类 ER 项目的[文档类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types)。
+    > 该文档存储为当前作业记录的附件，并受[文档管理](../../fin-ops/organization-administration/configure-document-management.md)框架控制。 [ER 参数](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)中配置了用于存储此类 ER 项目的[文档类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)。
 
 - 在 **电子申报作业** 页面上选择 **显示文件**，以查看作业执行期间生成的任何错误和警告的列表。
 

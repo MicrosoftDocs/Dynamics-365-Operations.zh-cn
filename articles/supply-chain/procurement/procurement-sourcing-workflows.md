@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807936"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909223"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>采购工作流
 
@@ -47,7 +47,7 @@ ms.locfileid: "5807936"
 | 供应商添加申请工作流 | 为通过供应商请求添加新供应商创建审核和批准工作流。 |
 
 > [!IMPORTANT]
-> 当您添加新的工作流时，您可能还会在 **创建工作流** 对话框中看到列出的以下过时工作流。 这些与 [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) 中提供的 *收货确认* 功能有关，但现在已弃用。 目前不支持这些工作流。
+> 当您添加新的工作流时，您可能还会在 **创建工作流** 对话框中看到列出的以下过时工作流。 这些与 [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) 中提供的 *收货确认* 功能有关，但现在已弃用。 目前不支持这些工作流。
 > 
 > - 交货到期日期通知工作流
 > - 收到的账单通知工作流

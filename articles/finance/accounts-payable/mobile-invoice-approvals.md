@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828026"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897688"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
@@ -32,7 +32,7 @@ ms.locfileid: "5828026"
 
 | 必备项                                                                                            | 说明                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 移动手册预习                                                                                |[移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| 移动手册预习                                                                                |[移动平台](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | 已安装了版本 1611 和平台更新 3（2016 年 11 月）的环境                   |
 | 安装修补程序 KB 3204341。                                                                              | 任务录制器可能错误地为平台更新 3（2016 年 11 月更新）中的下拉对话框录制两个关闭命令。 |
 | 安装修补程序 KB 3207800。                                                                              | 此修补程序允许在平台更新 3（2016 年 11 月更新）中的移动客户端上查看附件。           |
@@ -60,7 +60,7 @@ ms.locfileid: "5828026"
 
 在使用移动设计器时，通常需要确保“发布”更改，以防丢失更新。
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审核方案
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审批方案
 <table>
 <colgroup>
 <col width="50%" />
@@ -213,7 +213,7 @@ ms.locfileid: "5828026"
 
 11. 添加了前面两步骤中的所有字段之后，单击 **完成**。 此页面必须类似下图。
     
-    [![添加字段后的页面](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![显示添加的其他字段的图示](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. 单击 **完成** 退出编辑模式。
 

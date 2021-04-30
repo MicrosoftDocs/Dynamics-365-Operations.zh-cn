@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744043"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910441"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -84,7 +84,7 @@ ms.locfileid: "5744043"
 
 | **范围**                | **功能**             | **云** | **本地** |
 |-------------------------|-------------------|-----------|-----------------|
-| 资产管理                     |                                                                                           | 是       | 无              |
+| 资产管理                     |                                                                                           | 是       | 是             |
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 无              |
 | 成本核算                      |                                                                                           | 是       | 是             |
@@ -147,7 +147,7 @@ ms.locfileid: "5744043"
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-若要查看本地部署中提供的功能的列表，请参阅[本地部署中提供的 Commerce 功能](../../../retail/retail-onprem.md)。
+若要查看本地部署中提供的功能的列表，请参阅[本地部署中提供的 Commerce 功能](../../../commerce/retail-onprem.md)。
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

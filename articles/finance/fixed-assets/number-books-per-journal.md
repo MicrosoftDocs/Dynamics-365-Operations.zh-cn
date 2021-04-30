@@ -2,7 +2,7 @@
 title: 每个日记帐的帐簿数
 description: 本主题描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以定义各项购置和折旧所包括的最大帐簿数。
 author: moaamer
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822025"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892399"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 

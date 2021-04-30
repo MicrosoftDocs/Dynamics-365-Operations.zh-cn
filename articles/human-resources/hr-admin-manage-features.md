@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793817"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889828"
 ---
 # <a name="manage-features-in-human-resources"></a>管理 Human Resources 中的功能
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793817"
 
 在持续推出适用于 Microsoft Dynamics 365 Human Resources 的新功能时，我们希望让客户尽快体验新功能。 我们提供预览功能，这些功能几乎已针对普通使用准备就绪，并经过了大量测试。 我们正在征求最后一轮的客户反馈和验证，之后就会公开发布。
 
-有关 Human Resources 中的新功能的详细信息，请参阅 [Human Resources 中的新增功能](hr-admin-whats-new.md)和 [Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)。
+有关 Human Resources 中的新功能的详细信息，请参阅 [Human Resources 中的新增功能](hr-admin-whats-new.md)和 [Dynamics 365 和 Power Platform 版本计划](/dynamics365/release-plans/?panel=products1#pivot=products)。
 
-**功能管理** 工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+**功能管理** 工作区提供了每个版本提供的功能列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 有关功能管理的更多信息，请参阅[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
 所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在 **功能管理** 工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
 
@@ -93,6 +93,6 @@ ms.locfileid: "5793817"
 ## <a name="see-also"></a>请参阅
 
 - [Human Resources 中的新增功能](hr-admin-whats-new.md)
-- [Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Dynamics 365 和 Power Platform 版本计划](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

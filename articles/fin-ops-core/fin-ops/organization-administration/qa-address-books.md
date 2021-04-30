@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57462e673a5f2a13f1b4a74d44482df3d0dab08f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e2f81b6c3ab60f5e0e852d2bc0ae44e6595a90c1
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747553"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906665"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>如何检查重复的记录？
 

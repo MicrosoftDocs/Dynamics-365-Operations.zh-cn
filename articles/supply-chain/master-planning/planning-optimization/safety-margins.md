@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841855"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908285"
 ---
 # <a name="safety-margins"></a>安全宽限期
 
@@ -87,7 +87,7 @@ ms.locfileid: "5841855"
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>在功能管理中开启安全宽限期
 
-此功能只有在系统中开启之后才能用于计划优化。 管理员可以使用[功能管理](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+此功能只有在系统中开启之后才能用于计划优化。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
 
 - **模块**：_主计划_
 - **功能名称**：_计划优化的宽限期_

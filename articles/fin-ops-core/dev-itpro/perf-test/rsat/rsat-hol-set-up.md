@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745189"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909026"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 设置和安装教程
 
@@ -54,7 +54,7 @@ ms.locfileid: "5745189"
 
 ### <a name="user-eligibility"></a>用户资格
 
-确保在 Azure DevOps 中创建用户，并且该用户具有可访问 Azure 测试计划的订阅级别。 仅当用户需要创建和管理测试用例，才需要 Azure DevOps 测试计划许可证号（即并非所有 RSAT 用户都需要此许可证）。 有关许可证要求的信息，请参阅[许可证要求](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements)。
+确保在 Azure DevOps 中创建用户，并且该用户具有可访问 Azure 测试计划的订阅级别。 仅当用户需要创建和管理测试用例，才需要 Azure DevOps 测试计划许可证号（即并非所有 RSAT 用户都需要此许可证）。 有关许可证要求的信息，请参阅[许可证要求](/azure/devops/test/manual-test-permissions#license-requirements)。
 
 ### <a name="create-a-new-azure-devops-project"></a>创建新 Azure DevOps 项目
 

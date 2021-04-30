@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801183"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890020"
 ---
 # <a name="configure-dataverse-integration"></a>配置 Dataverse 集成
 
@@ -30,7 +30,7 @@ ms.locfileid: "5801183"
 您可以打开或关闭 Microsoft Dataverse 和 Dynamics 365 Human Resources 之间的集成。 您还可以查看同步详细信息、清除跟踪数据以及重新同步表，以帮助解决两个环境之间的数据问题。
 
 > [!NOTE]
-> 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)
 
 关闭集成后，用户可以在 Human Resources 或 Dataverse 中进行更改，但是这些更改在两个环境之间不同步。
 
@@ -124,8 +124,8 @@ ms.locfileid: "5801183"
 [Dataverse 表](hr-developer-entities.md)<br>
 [配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources 虚拟表常见问题解答](hr-admin-virtual-entity-faq.md)<br>
-[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[术语更新](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)<br>
+[术语更新](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

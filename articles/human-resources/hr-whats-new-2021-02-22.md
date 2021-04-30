@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802207"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892601"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 2 月 22 日）
 
@@ -32,7 +32,7 @@ ms.locfileid: "5802207"
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
-有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
+有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
 
 ## <a name="in-this-release"></a>在此发布中
 
@@ -44,7 +44,7 @@ ms.locfileid: "5802207"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| Microsoft Teams 的 Dynamics 365 Human Resources 应用 | [Microsoft Teams 中的员工休假和缺勤体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[管理 Teams 中的休假申请](hr-teams-leave-app.md) |
+| Microsoft Teams 的 Dynamics 365 Human Resources 应用 | [Microsoft Teams 中的员工休假和缺勤体验](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)<br>[管理 Teams 中的休假申请](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -68,9 +68,9 @@ ms.locfileid: "5802207"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 经理跨公司查看休假 | [经理跨公司查看员工休假](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [配置休假和缺勤参数](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| 福利管理工作区 | [福利管理工作区（预览）](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [福利管理工作区](hr-benefits-management-workspace.md) |
-| 限制员工编辑业务联系人详细信息 | [限制员工编辑业务联系人详细信息](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)|
+| 经理跨公司查看休假 | [经理跨公司查看员工休假](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [配置休假和缺勤参数](./hr-leave-and-absence-parameters.md) |
+| 福利管理工作区 | [福利管理工作区（预览）](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [福利管理工作区](hr-benefits-management-workspace.md) |
+| 限制员工编辑业务联系人详细信息 | [限制员工编辑业务联系人详细信息](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>即将推出
 
@@ -78,15 +78,15 @@ ms.locfileid: "5802207"
 | --- | --- |
 | 经理为员工输入的技能可以通过工作流自动审核 | 即将推出。 |
 
-有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
+有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Microsoft Dataverse 术语更新
 
-自 2020 年 11 月起，Common Data Service 已重命名为 [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)。 请参阅 Power Apps 博客上的[正式公告](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)了解详细信息。 随此名称更改，Dataverse 中的一些术语已经更新。 例如，*实体* 现在更新为 *表*，*字段* 现在更新为 *列*。 有关详细信息，请参阅[术语更新](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)。
+自 2020 年 11 月起，Common Data Service 已重命名为 [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro)。 请参阅 Power Apps 博客上的[正式公告](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)了解详细信息。 随此名称更改，Dataverse 中的一些术语已经更新。 例如，*实体* 现在更新为 *表*，*字段* 现在更新为 *列*。 有关详细信息，请参阅[术语更新](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)。
 
 在此版本中，与 Dynamics 365 Human Resources 和 Dataverse 集成相关的术语已在整个应用程序中进行了更新，以反映这些更改。 例如，**Common Data Service 集成** 窗体现在是 **Microsoft Dataverse 集成**。
 
-要了解有关 Dynamics 365 Human Resources 与 Microsoft Dataverse 集成的详细信息，请参阅[配置 Microsoft Dataverse 集成](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service)和[配置 Microsoft Dataverse 虚拟表](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
+要了解有关 Dynamics 365 Human Resources 与 Microsoft Dataverse 集成的详细信息，请参阅[配置 Microsoft Dataverse 集成](./hr-admin-integration-common-data-service.md)和[配置 Microsoft Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)。
 
 ## <a name="updates-to-service-deployment"></a>服务部署更新
 
@@ -94,12 +94,12 @@ ms.locfileid: "5802207"
 
 我们将继续遵循两周的部署频率。 但是，客户可能会注意到，更新通常在两周周期的不同日期（与以前版本相比）应用到他们的 Human Resources 环境。
 
-有关服务更新流程的详细信息，请参阅[更新流程](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process)。
+有关服务更新流程的详细信息，请参阅[更新流程](./hr-admin-setup-update-process.md)。
 
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2021 发布第 1 波概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2021 发布第 1 波概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

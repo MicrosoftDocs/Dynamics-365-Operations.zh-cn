@@ -2,7 +2,7 @@
 title: SPLIT ER 函数
 description: 本主题提供有关 SPLIT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745585"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853435"
 ---
 # <a name="split-er-function"></a>SPLIT ER 函数
 
@@ -79,6 +79,14 @@ SPLIT (input, delimiter)
 ## <a name="example-2"></a>示例 2
 
 `SPLIT ("XAb aBy", "aB")` 返回包含具有 *字符串* 类型的 **值** 字段的三个记录的新列表。 第一个记录中的 **值** 字段包含文本 **"X"**，第二个记录中的 **值** 字段包含文本 **"&nbsp;"**，第三个记录中的 **值** 字段包含文本 **"y"**。 
+
+## <a name="example-3"></a>示例 3
+
+您可以使用 [INDEX](er-functions-list-index.md) 函数访问指定输入字符串的各个元素。 如果输入 **计算字段** 类型的 **MyList** 数据源并且为其配置 `SPLIT("abc", 1)` 表达式，表达式 `INDEX(MyList,2).Value` 将返回文本 **“b”**。
+
+## <a name="example-4"></a>示例 4
+
+[ENUMERATE](er-functions-list-enumerate.md) 函数也可帮助您访问指定输入字符串的各个元素。 如果您首先输入 **计算字段** 类型的 **MyList** 数据源并且为其配置 `SPLIT("abc", 1)` 表达式，然后输入 **计算字段** 类型的 **EnumeratedList** 数据源并且为其配置 `ENUMERATE(MyList)` 表达式，表达式 `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` 将返回文本 **“b”**。
 
 ## <a name="additional-resources"></a>其他资源
 

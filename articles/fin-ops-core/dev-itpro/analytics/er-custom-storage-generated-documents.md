@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753712"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894116"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 
@@ -27,7 +27,7 @@ ms.locfileid: "5753712"
 
 ## <a name="prerequisites"></a>先决条件
 
-必须部署支持连续生成的拓扑。 （有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。）必须可以访问以下角色之一的此拓扑：
+必须部署支持连续生成的拓扑。 （有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。）必须可以访问以下角色之一的此拓扑：
 
 - 电子申报开发人员
 - 电子申报功能顾问
@@ -53,7 +53,7 @@ ms.locfileid: "5753712"
 
 若要指定如何路由 ER 格式生成的单据，必须配置[电子申报 (ER) 目标](electronic-reporting-destinations.md)。 在配置为将生成的单据作为文件存储的每个 ER 目标中，必须指定单据管理框架的单据类型。 可使用不同单据类型路由不同 ER 格式生成的单据。
 
-1. 为之前创建或导入的 ER 格式添加新的[单据类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management)。 在下图中，单据类型为 **FileX**。
+1. 为之前创建或导入的 ER 格式添加新的[单据类型](../../fin-ops/organization-administration/configure-document-management.md)。 在下图中，单据类型为 **FileX**。
 2. 若要区分此单据类型和其他单据类型，请在其名称中包含特定关键词。 例如，在下图中，名称为 **(LOCAL) 文件夹**。
 3. 在 **类** 字段中，指定 **附加文件**。
 4. 在 **组** 字段中，指定 **文件**。
@@ -117,14 +117,14 @@ public DocuRef insertFile(
 
 ## <a name="configure-an-er-destination"></a>配置 ER 目标
 
-1. 为创建或导入的 ER 格式的之前介绍的一个元素（文件、文件夹、合并器或附件）配置存档目标。 有关指南，请参阅 [ER 配置目标](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11)。
+1. 为创建或导入的 ER 格式的之前介绍的一个元素（文件、文件夹、合并器或附件）配置存档目标。 有关指南，请参阅 [ER 配置目标](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11)。
 2. 请使用前面为配置的目标添加的单据类型。 （例如，在本主题中，单据类型为 **FileX**。）
 
 ![“目标设置”对话框](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>修改源代码
 
-1. 可向 Microsoft Visual Studio 项目添加新类，并编写代码以订阅前面介绍的 **AttachingFile()** 事件。 （有关所用可扩展性模式的详细信息，请参阅[使用 EventHandlerResult 响应](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result)。）例如，编写用于执行以下操作的代码：
+1. 可向 Microsoft Visual Studio 项目添加新类，并编写代码以订阅前面介绍的 **AttachingFile()** 事件。 （有关所用可扩展性模式的详细信息，请参阅[使用 EventHandlerResult 响应](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result)。）例如，编写用于执行以下操作的代码：
 
     1. 将生成的文件存储到运行应用程序对象服务器 (AOS) 服务的服务器的本地系统的文件夹中。
     2. 仅当在将文件附加到 ER 执行作业日志中的记录时使用新的单据类型（例如，名称中包含“(LOCAL)”关键字的 **FileX** 类型），才存储这些生成的文件。

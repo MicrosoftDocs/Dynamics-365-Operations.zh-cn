@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819272"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908920"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
@@ -79,7 +79,7 @@ ms.locfileid: "5819272"
 
 每个工艺路线可以单独地获得批准或取消批准。 但是请注意，如果工艺路线未获得批准，所有相关工艺路线版本也将未获得批准。 在“生产控制参数”中，可以指定工艺路线是否可以未获得批准，以及是否可更改已批准的工艺路线。  
 
-如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](../../fin-and-ops/organization-administration/electronic-signature-overview.md)确认其身份。
+如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)确认其身份。
 
 ## <a name="operations"></a>Operations
 工序是生产流程中的步骤。 每道工序有一个 ID 和一个简单描述。 下面的表显示机械车间中的典型工序示例。
@@ -185,7 +185,7 @@ ms.locfileid: "5819272"
 
 ### <a name="electronic-signatures"></a>电子签名
 
-如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](../../fin-and-ops/organization-administration/electronic-signature-overview.md)确认自己的身份。
+如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)确认自己的身份。
 
 ### <a name="product-change-that-uses-case-management"></a>使用案例管理的产品变更
 
@@ -253,7 +253,7 @@ ms.locfileid: "5819272"
 
 - [资源功能](resource-capabilities.md)
 
-- [电子签名概览](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [电子签名概览](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

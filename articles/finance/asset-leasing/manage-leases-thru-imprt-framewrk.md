@@ -2,11 +2,11 @@
 title: 通过租赁导入框架管理租赁
 description: 本主题说明如何使用租赁导入框架同时调整多个租赁。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819786"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880902"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>通过租赁导入框架管理租赁
 
@@ -53,7 +53,7 @@ ms.locfileid: "5819786"
 > [!NOTE]
 > 比较功能不适用于采用 **添加记录** 流程类型的租赁，因为没有什么可与这种租赁进行比较。
 >
-> 要同时比较多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期 \> 比较**，然后选择 **比较**。
+> 若要同时比较多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期**，然后选择 **比较**。
 
 对于每个实体，您可以查看系统中当前内容与暂存表中内容之间的差异。 对于暂存表中的每个实体，选择 **查看差异**。 出现的对话框显示当前值和建议的暂存值。
 
@@ -62,17 +62,17 @@ ms.locfileid: "5819786"
 您可以验证租赁，以确保可以将记录导入系统中，而不会产生错误。 在迁移租赁记录之前，系统将运行几次验证以确保成功导入记录。 要验证单个租赁，请选择 **验证**。
 
 > [!NOTE]
-> 要同时验证多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期 \> 验证**，然后选择 **比较**。
+> 若要同时验证多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期**，然后选择 **验证**。
 
 要处理单个租赁，请在 **导入标题** 页中选择 **迁移租赁记录**。 迁移租赁时，系统将执行 **流程类型** 字段中指定的操作。
 
 > [!NOTE]
-> 要同时验证多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期 \> 验证**，然后选择 **比较**。
+> 若要同时迁移多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期**，然后选择 **迁移**。
 
 比较租赁后，您可以运行报告以查看导入 ID 中包含的每个租赁的差异。 要为一份租赁运行报告，请在暂存数据中选择该租赁，然后选择 **比较并查看报告 \> 差异报告**。
 
 > [!NOTE]
-> 要同时验证多个租赁，请转到 **资产租赁 \> 查询和报告 \> 差异报告**  验证，然后选择 **比较**。
+> 若要同时比较多个租赁，请转到 **资产租赁 \> 租赁导入框架 \> 定期**，然后选择 **比较**。 
 
 ## <a name="set-up-update-fields"></a>设置更新字段
 

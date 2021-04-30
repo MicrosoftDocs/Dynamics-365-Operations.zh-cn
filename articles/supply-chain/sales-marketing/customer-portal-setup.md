@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840717"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907807"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840717"
 
 要实施客户门户，您必须具有以下许可证：
 
-- **Power Apps 门户** – 托管客户门户需要此许可证。 门户根据使用获得许可。 有关详细信息，请参阅 [Power Apps 门户许可要求](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals)。
+- **Power Apps 门户** – 托管客户门户需要此许可证。 门户根据使用获得许可。 有关详细信息，请参阅 [Power Apps 门户许可要求](/power-platform/admin/powerapps-flow-licensing-faq#portals)。
 - **双写入** – 您必须具有必要的许可证才能为 Supply Chain Management 表启用双写入。 有关详细信息，请参阅[双写入的系统要求](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)。
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>双写入和 Power Apps 门户的依赖关系
@@ -40,7 +40,7 @@ ms.locfileid: "5840717"
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>启用客户门户需要设置
 
-确定已有必需的许可证后，您可以按照[双写入初始同步说明](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md)所述设置双写入。
+确定已有必需的许可证后，您可以按照[双写入初始同步说明](/dynamics365/supply-chain/sales-marketing/enable-entity-map)所述设置双写入。
 
 确保以双写入方式启用以下表映射：
 
@@ -74,14 +74,14 @@ ms.locfileid: "5840717"
 
 要了解如何设置和自定义客户门户，您应该先查看以下有关基础技术的文档：
 
-- [Power Apps 门户文档](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps 门户文档](/powerapps/maker/portals/overview)
 - [双写入文档](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 为了有效地管理门户，您必须了解 Power Apps 门户和 Microsoft Dataverse 生命周期。 有关详细信息，请参阅以下资源：
 
-- [关于门户生命周期](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [升级门户](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [迁移门户配置](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [关于门户生命周期](/powerapps/maker/portals/admin/portal-lifecycle)
+- [升级门户](/powerapps/maker/portals/admin/upgrade-portal)
+- [迁移门户配置](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

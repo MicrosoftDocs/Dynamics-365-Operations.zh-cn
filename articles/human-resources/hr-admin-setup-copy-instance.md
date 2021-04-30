@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801087"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889804"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -39,7 +39,7 @@ ms.locfileid: "5801087"
 
 - 您必须是目标环境中的管理员，这样您才能在复制实例后登录环境。
 
-- 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](https://docs.microsoft.com/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](https://docs.microsoft.com/dynamics365/admin/switch-instance)。
+- 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](/dynamics365/admin/switch-instance)。
 
 - 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Dataverse 集成，必须将自定义字段重新应用于 Dataverse 表。 请参阅[将自定义字段应用于 Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
 
@@ -80,7 +80,7 @@ ms.locfileid: "5801087"
 
 6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
 
-7. 复制过程完成后，登录到目标实例，然后启用 Dataverse 集成。 有关详细信息和说明，请参阅[配置 Dataverse 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
+7. 复制过程完成后，登录到目标实例，然后启用 Dataverse 集成。 有关详细信息和说明，请参阅[配置 Dataverse 集成](./hr-admin-integration-common-data-service.md)。
 
 ## <a name="data-elements-and-statuses"></a>数据元素和状态
 
@@ -142,7 +142,7 @@ ms.locfileid: "5801087"
 
 取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Dataverse 中进行更新以包含自定义字段。
 
-有关自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)。
+有关自定义字段的详细信息，请参阅[创建并使用自定义字段](../fin-ops-core/fin-ops/get-started/user-defined-fields.md)。
 
 ## <a name="see-also"></a>请参阅
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743719"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891785"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
@@ -119,7 +119,7 @@ ms.locfileid: "5743719"
 
 - [其他资源](#References)
 
-在此示例中，您将为[调查表](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires)模块创建新的 ER 解决方案。 这个新的 ER 解决方案使您可以使用 Microsoft Excel 工作表作为模板来设计报表。 然后，除了生成现有的 SQL Server Reporting Services (SSRS) 报表之外，您还可以生成 Excel 或 PDF 格式的 **调查表** 报表。 您还可以稍后根据要求修改新报表。 无需进行编码。
+在此示例中，您将为[调查表](../../../human-resources/hr-learning-questionnaires.md)模块创建新的 ER 解决方案。 这个新的 ER 解决方案使您可以使用 Microsoft Excel 工作表作为模板来设计报表。 然后，除了生成现有的 SQL Server Reporting Services (SSRS) 报表之外，您还可以生成 Excel 或 PDF 格式的 **调查表** 报表。 您还可以稍后根据要求修改新报表。 无需进行编码。
 
 1. 要运行现有报表，请转到 **调查表** \> **设计** \> **调查表报表**。
 

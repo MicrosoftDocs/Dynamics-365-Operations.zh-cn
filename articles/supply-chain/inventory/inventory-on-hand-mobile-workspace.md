@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816644"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908722"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -56,7 +56,7 @@ ms.locfileid: "5816644"
 先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **现有库存** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **现有库存** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>使用平台更新 3 或更高版本时的先决条件 
 如果已经为您的组织部署平台更新 3 或更高版本，系统管理员必须完成以下先决条件。 
@@ -76,17 +76,17 @@ ms.locfileid: "5816644"
 
 <td>KB 4013633 是包含<strong>现有库存量</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4013633，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>发布<strong>现有库存量</strong>移动工作区。</td>
 <td>系统管理员</td>
-<td>请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</td>
+<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ ms.locfileid: "5816644"
 
 1.  在移动设备上，选择 **现有库存量** 工作区。
 
-2.  选择 **检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
+2.  选择 **检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
 3.  如果您的物料不在该列表中，请选择 **搜索更多**。 按产品编号搜索，或切换到按产品名搜索。
 
 4.  选择项目。 如果物料有图像，将显示该图像。

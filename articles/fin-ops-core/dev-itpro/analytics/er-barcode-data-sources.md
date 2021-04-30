@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 08b9d03517a600cf46b1093cfa3bc454621eabd0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cbc2b5870e855ff4d4a099a51cbb6887dd30bba7
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748357"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893544"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>使用条码数据源生成条码图像
 
@@ -37,7 +37,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 报告模板中可以使用以下占位符来输入条码图像：
 
-- Word 的[图片](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)内容控件
+- Word 的[图片](/office/client-developer/word/content-controls-in-word)内容控件
 - Excel 中的[图片](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)对象
 
 通过使用 **条码** 类型的数据源，您可以生成以下格式的条码：

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 403cd616faef2f856c21a771d46607c41987f0bb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832866"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897520"
 ---
 # <a name="general-ledger-home-page"></a>总帐主页
 
@@ -52,7 +52,7 @@ ms.locfileid: "5832866"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
 
 #### <a name="financial-reporting"></a>财务报告
 转到 [Financial reporting 概述](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)主题，了解有关财务报表的信息。

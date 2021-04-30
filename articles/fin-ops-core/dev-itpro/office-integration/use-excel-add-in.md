@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752958"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908333"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -45,7 +45,7 @@ ms.locfileid: "5752958"
 2. 选择 **在 Excel 中打开** 选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
 3. 在 Excel 中，选择 **启用编辑** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 如果首次运行此 Excel 加载项，则选择 **信任此加载项**。
-5. 如果系统提示您登录，选择 **登录**，然后使用用于登录 Finance and Operations 应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
+5. 如果系统提示您登录，选择 **登录**，然后使用用于登录 Finance and Operations 应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
 
 此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 
@@ -60,7 +60,7 @@ ms.locfileid: "5752958"
 
 6. 选择 **确定**，然后选择 **是** 确认更改。 此 Excel 加载项将重新启动并加载元数据。
 
-    **设计** 按钮现在可用。 如果此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题[故障排除](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting)部分中的“显示‘加载小程序’按钮”。
+    **设计** 按钮现在可用。 如果此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题[故障排除](../office-integration/use-excel-add-in.md#troubleshooting)部分中的“显示‘加载小程序’按钮”。
 
 7. 选择 **设计**。 此 Excel 加载项将检索实体元数据。
 8. 选择 **添加表**。 将显示实体列表。 将以“名称 - 标签”格式列出实体。
@@ -138,7 +138,7 @@ Excel 工作簿模板作者可以使用相同的过程来设置模板的发布�
 
 - **将显示“加载小程序”按钮** – 如果登录后此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
 - **您收到“已禁止”消息** – 如果此 Excel 加载项加载元数据时收到“已禁止”消息，则登录了该 Excel 加载项的帐户无权使用目标服务、实例或数据库。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
-- **Excel 上方显示空白网页** – 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此 Excel 加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](https://technet.microsoft.com/library/jj219422.aspx)[从推迟渠道转到当前渠道](https://technet.microsoft.com/library/mt455210.aspx)。
+- **Excel 上方显示空白网页** – 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此 Excel 加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](/deployoffice/overview-office-deployment-tool)[从推迟渠道转到当前渠道](/deployoffice/overview-update-channels)。
 - **发布数据更改时收到超时** – 如果在尝试将数据更改发布到实体时收到超时消息，请考虑减少受影响工作簿的发布批处理大小。 在记录更改时触发大量逻辑的实体可能需要以较小的批处理发送更新，以帮助防止超时。
 
 

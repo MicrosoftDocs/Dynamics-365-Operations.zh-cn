@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829682"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909419"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 
@@ -45,13 +45,13 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 
 如果计算出的线程数超过可用线程数的 75%，则其超过每位客户的可用线程数的 75%。 （将为每个客户确定可用线程数。）
 
-有关详细信息，请参阅[线程数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)。
+有关详细信息，请参阅[线程数](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)。
 
 ### <a name="bundle-size"></a>捆绑大小
 
 捆绑大小将设置为 **1**。 此值通常为最佳值，因为有助于提高主计划的性能。
 
-有关详细信息，请参阅[帮助程序任务捆绑中的任务数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)。
+有关详细信息，请参阅[帮助程序任务捆绑中的任务数](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)。
 
 ### <a name="firming-bundle-size"></a>确认捆绑大小
 
@@ -64,7 +64,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 
 缓存大小将设置为 **最大值**。 此值通常为最佳值，因为有助于提高主计划的性能。
 
-有关详细信息，请参阅[为作业捆绑中的作业分配时间](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)。
+有关详细信息，请参阅[为作业捆绑中的作业分配时间](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)。
 
 ### <a name="manufacturing-setup"></a>制造设置
 
@@ -88,7 +88,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 - **是，按照此主计划中的定义** – **预测计划(时限)** 选项将设置为 **是**。 将使用您输入的天数，并且该天数将覆盖在覆盖范围组中设置的值。
 - **是，按照覆盖范围组中的定义** – **预测计划(时限)** 选项将设置为 **否**。
 
-有关详细信息，请参阅[作业级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
+有关详细信息，请参阅[作业级排产](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
 
 ## <a name="scheduling-options"></a>计划编制选项
 
@@ -99,7 +99,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 - **是** – 将使用作业级排产。
 - **否** – 将使用工序级排产。
 
-有关详细信息，请参阅[工序级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)和[作业级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
+有关详细信息，请参阅[工序级排产](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)和[作业级排产](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
 
 ## <a name="updates-of-demand-and-supply"></a>需求和供应的更新
 
@@ -142,7 +142,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
     - **问题**：“是否要指定计划区间的天数？”
     - **回答**：“是，按照覆盖范围组中的定义。”
 
-    因为物料的提前期相差很大，所以 Contoso 不必将所有物料安排在将来的同一个期间。 将为物料创建覆盖范围组。 将把提前期相似的物料分派给同一个覆盖范围组。 每个覆盖范围组的计划区间（即覆盖时限）大致为提前期加一周的差额。 然后，主计划确保根据其提前期提前计划物料。
+    因为物料的提前期相差很大，所以 Contoso 不必将所有物料计划在将来的同一个期间。 将为物料创建覆盖范围组。 将把提前期相似的物料分派给同一个覆盖范围组。 每个覆盖范围组的计划区间（即覆盖时限）大致为提前期加一周的差额。 然后，主计划确保根据其提前期提前计划物料。
 
     因此，将为此示例创建两个覆盖范围组。 一个覆盖范围组的覆盖时限为两周，另一个的覆盖时限为八周。
 
@@ -153,7 +153,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
     - **问题**：“是否需要计划拆分为单个作业的工序?”
     - **回答**：“是。”
 
-    Contoso Manufacturing 必须计划和安排将对车间执行的单个作业。 因此，将使用作业级排产。
+    Contoso Manufacturing 必须计划和安排将对车间执行的单独作业。 因此，将使用作业级排产。
 
 - **产能：**
 
@@ -180,7 +180,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
 
 Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计划，基于预测销量计算应在何时下达采购订单。 下面是该公司的部分特征：
 
-- Contoso Retailer 使用需求预测预测销量。 将根据此预测计划采购订单。
+- Contoso Retailer 使用需求预测来预测销量。 将根据此预测计划采购订单。
 - 商店使用补货申请。
 - 从主仓库到每家商店的提前期为所有物料大约两周。
 
@@ -191,14 +191,14 @@ Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计�
     - **问题**：“是否要在主计划中使用预测计划以便建议计划订单来满足预测的需求?”
     - **回答**：“是，按照此主计划中的定义”。
 
-    Contoso 中有一个需求预测，用于预测其销量。 因此，主计划必须推荐计划订单以实现预测。
+    Contoso 包括一个需求预测，用于预测其销量。 因此，主计划必须推荐计划订单以实现预测。
 
 - **确认：**
 
     - **问题**：“是否希望主计划自动将计划订单确认到订单单据(例如生产或采购订单)?”
     - **回答**：“是，按照此主计划中的定义”。 输入了 **1 天**。
 
-    因为 Contoso Retailer 将直接从计划采购订单创建采购订单，所以如果自动确认计划采购订单，这非常有用。 因为公司每天运行主计划，所以一天的确认时限将自动确认下一天需要的所有订单。
+    因为 Contoso Retailer 将直接从计划采购订单创建采购订单，因此如果自动确认计划采购订单，这非常有用。 因为公司每天运行主计划，所以一天的确认时限将自动确认下一天需要的所有订单。
 
 - **已审核的申请：**
 

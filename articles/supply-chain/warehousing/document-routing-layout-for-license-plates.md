@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838266"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907979"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
@@ -73,7 +73,7 @@ $FieldName:FormatString$
 - 若要始终显示四位数（将零用作占位符），请使用 `$Qty:0000$`。 例如，如果数量为 10，则标签将显示“0010”。
 - 若要始终显示两位数，请使用 `$Qty:0.00$`。 例如，如果数量为 10，则标签将显示“10.00”。
 
-有关可用数字格式字符串的完整列表，请参阅[自定义数值格式字符串](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings)。
+有关可用数字格式字符串的完整列表，请参阅[自定义数值格式字符串](/dotnet/standard/base-types/custom-numeric-format-strings)。
 
 ## <a name="custom-string-formats"></a>自定义字符串格式
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 在此示例中，日期 2020 年 4 月 30 日将被打印为“30-04-2020”。
 
-有关可用日期/时间格式的完整列表，请参阅[自定义日期和时间格式字符串](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+有关可用日期/时间格式的完整列表，请参阅[自定义日期和时间格式字符串](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="print-individual-lines-from-multiline-data"></a>打印多行数据的单独行
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 263650cae4b8408f1f7a4a27c43294d2f51c1444
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800133"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
 
@@ -33,23 +33,23 @@ ms.locfileid: "5800133"
 
 ## <a name="platform-update-1001236-is-now-available"></a>现已推出了平台更新 10.0.12(36)
 
-有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.12（2020 年 8 月）的平台更新](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12)。
+有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.12（2020 年 8 月）的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md)。
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>用于福利管理的数据管理框架 (DMF) 实体
  
 福利管理实体即将发布。 DMF 实体允许导入和导出数据，以轻松配置福利管理。 福利管理模板可用于移动数据。 模板按顺序导出和导入数据，以保持数据依赖关系。 有关详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 1 波计划中的 [DMF 实体支持](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support)
-- [数据管理概览](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- Dynamics 365 2020 年发行版本第 1 波计划中的 [DMF 实体支持](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support)
+- [数据管理概览](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire 创建用于买卖休假请求的工作流 (446557)
 
 有关详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 2 波计划中的[允许员工买卖休假](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
-- [管理购买和出售休假策略](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [购买和出售休假](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- Dynamics 365 2020 年发行版本第 2 波计划中的[允许员工买卖休假](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
+- [管理购买和出售休假策略](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [购买和出售休假](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>工作人员邮寄地址 V2 实体可以访问访问受限的法人实体 (459126)
@@ -62,7 +62,7 @@ ms.locfileid: "5800133"
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>可以买卖休假的新实体 (473180)
 
-数据管理框架实体现在可用于买卖休假。 有关详细信息，请参阅[数据管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)。
+数据管理框架实体现在可用于买卖休假。 有关详细信息，请参阅[数据管理概述](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>查看记录信息和使用高级筛选器时，用户可以访问其他员工的记录 (472490)
 
@@ -96,9 +96,9 @@ ms.locfileid: "5800133"
 
 一些组织提供允许员工购买和出售其休假的福利。 此流程通常通过手动管理。 此功能可自动管理人力资源部门的策略和请求。 它将简化休假管理流程，并帮助消除错误。 有关详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 2 波计划中的[允许员工买卖休假](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
-- [管理购买和出售休假策略](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [购买和出售休假](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- Dynamics 365 2020 年发行版本第 2 波计划中的[允许员工买卖休假](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
+- [管理购买和出售休假策略](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [购买和出售休假](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>单个公司或单个计划的休假假期额度
 
@@ -126,15 +126,15 @@ ms.locfileid: "5800133"
 
 您可以使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。 有关已保存视图的详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 2 波计划中的[已保存视图 - 正式发布](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
-- [生成可充分利用已保存视图的窗体](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- Dynamics 365 2020 年发行版本第 2 波计划中的[已保存视图 - 正式发布](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
+- [生成可充分利用已保存视图的窗体](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 
 员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 1 波计划中的 [Microsoft Teams 中的员工休假和缺勤体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
-- [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)
+- Dynamics 365 2020 年发行版本第 1 波计划中的 [Microsoft Teams 中的员工休假和缺勤体验](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
+- [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>可用于暂停应计的 DMF 实体
 
@@ -172,7 +172,7 @@ Dataverse 内很快将为入职、离职、转移和业务流程提供核对清�
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824910"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908076"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
@@ -90,7 +90,7 @@ ms.locfileid: "5824910"
 
 **哪里有关于客户所用的剩余信用的信息？**
 
-有关客户的余额和剩余信用金额的信息在创建帐龄快照时计算和存储，并显示在 **收款** 窗体中。 显示在 **收款** 窗体中的金额可能不包括所有交易记录活动，直到创建了新的帐龄快照。 有关详细信息，请参阅[在应收账款中的收款和信用](https://technet.microsoft.com/library/hh209221.aspx)。
+有关客户的余额和剩余信用金额的信息在创建帐龄快照时计算和存储，并显示在 **收款** 窗体中。 显示在 **收款** 窗体中的金额可能不包括所有交易记录活动，直到创建了新的帐龄快照。 有关详细信息，请参阅[在应收账款中的收款和信用](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable)。
 
 根据所选单据，将在更新销售订单、装箱单和客户发票时计算有关客户的余额和剩余信用金额的信息。 如果您处理的单据的金额将超过信用额度，则会显示一条消息。
 

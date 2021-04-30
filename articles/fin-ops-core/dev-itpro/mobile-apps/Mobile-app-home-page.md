@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: cda743983f84edf0fa8c513013de812698cbb9ba
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748213"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908224"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -91,8 +91,8 @@ ms.locfileid: "5748213"
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">现有库存量移动工作区</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">销售订单移动工作区</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">供应商协作移动工作区</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">项目时间条目移动工作区</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">费用报销管理移动工作区</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">费用报销管理移动工作区</a></li>
 
 </ul></td>
 </tr>

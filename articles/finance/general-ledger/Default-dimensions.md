@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823852"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897300"
 ---
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
@@ -83,17 +83,17 @@ ms.locfileid: "5823852"
 
 但是，过帐该行时，将应用固定维度，并将该行过帐到部门 022。 下图显示过帐的凭证，其中为销售科目应用了固定维度。
 
-[![凭证交易记录](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![应用了固定维度的凭证交易](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>示例 2
 
 此示例使用与第一个示例相同的设置。 但是，将再添加一个组件，并将部门维度用作平衡维度。 在下图中，**部门** 设置为 USMF 分类帐的平衡财务维度。
 
-[![分类帐](./media/ledger.png)](./media/ledger.png)
+[![显示作为平衡财务维度的部门的图示](./media/ledger.png)](./media/ledger.png)
 
 使用相同的日记帐标题设置并过帐同一个交易时，将首先应用固定维度。 然后应用平衡逻辑以帮助确保每个部门都有一个平衡的条目。 下图显示应用固定维度后包含平衡条目的凭证交易。
 
-[![凭证交易记录](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![应用平衡条目后的凭证交易](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>示例 3
 
@@ -119,11 +119,11 @@ ms.locfileid: "5823852"
 
 [计划您的会计科目表](plan-chart-of-accounts.md) 
 
-[“在 AX 2012 中计划会计科目表”博客](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) - 此链接是由七个部分组成的系列中的第一部分。
+[“在 AX 2012 中计划会计科目表”博客](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) - 此链接是由七个部分组成的系列中的第一部分。
 
-[会计分配中的维度默认设置](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[会计分配中的维度默认设置](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[维度框架中的维度默认设置](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[维度框架中的维度默认设置](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
