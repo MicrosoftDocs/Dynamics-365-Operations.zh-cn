@@ -1,6 +1,6 @@
 ---
 title: 运输管理主区域
-description: 此主题说明通过运输管理如何将地理位置划分为多个区域。
+description: 本主题说明通过运输管理如何将地理位置划分为多个区域。
 author: Henrikan
 ms.date: 10/16/2020
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: aec1c17d32d1469f3a452084138404de3d498b71
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7347add052ec4a9540417a5aeea64ab623026954
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807576"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880730"
 ---
-# <a name="transportation-management-zone-master"></a><span data-ttu-id="30f27-103">运输管理主区域</span><span class="sxs-lookup"><span data-stu-id="30f27-103">Transportation management zone master</span></span>
+# <a name="transportation-management-zone-master"></a><span data-ttu-id="c8f61-103">运输管理主区域</span><span class="sxs-lookup"><span data-stu-id="c8f61-103">Transportation management zone master</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="30f27-104">通过运输管理，您可以将地理位置划分为多个区域。</span><span class="sxs-lookup"><span data-stu-id="30f27-104">Transport management lets you divide geographic locations into zones.</span></span> <span data-ttu-id="30f27-105">将位置划分为多个区域可以帮助：</span><span class="sxs-lookup"><span data-stu-id="30f27-105">Dividing locations into zones can help to:</span></span>
+<span data-ttu-id="c8f61-104">通过运输管理，您可以将地理位置划分为多个区域。</span><span class="sxs-lookup"><span data-stu-id="c8f61-104">Transport management lets you divide geographic locations into zones.</span></span> <span data-ttu-id="c8f61-105">将位置划分为多个区域可以帮助：</span><span class="sxs-lookup"><span data-stu-id="c8f61-105">Dividing locations into zones can help to:</span></span>
 
-- <span data-ttu-id="30f27-106">**简化运输定价** – 按区域定价可能比基于单个位置的定价更简单，尤其是在运输位置分散的情况下。</span><span class="sxs-lookup"><span data-stu-id="30f27-106">**Simplify transportation pricing** – Zone-wise pricing can be simpler than individual location-based pricing, especially when transportation locations are scattered.</span></span>
-- <span data-ttu-id="30f27-107">**优化负荷计划** – 通过按区域合并负荷。</span><span class="sxs-lookup"><span data-stu-id="30f27-107">**Optimize load planning** – By consolidating loads by zones.</span></span>
-- <span data-ttu-id="30f27-108">**优化路线计划** – 通过将特定路线计划分配到特定区域。</span><span class="sxs-lookup"><span data-stu-id="30f27-108">**Optimize route planning** – By assigning specific route plans to specific zones.</span></span>
+- <span data-ttu-id="c8f61-106">**简化运输定价** – 按区域定价可能比基于单个位置的定价更简单，尤其是在运输位置分散的情况下。</span><span class="sxs-lookup"><span data-stu-id="c8f61-106">**Simplify transportation pricing** – Zone-wise pricing can be simpler than individual location-based pricing, especially when transportation locations are scattered.</span></span>
+- <span data-ttu-id="c8f61-107">**优化负荷计划** – 通过按区域合并负荷。</span><span class="sxs-lookup"><span data-stu-id="c8f61-107">**Optimize load planning** – By consolidating loads by zones.</span></span>
+- <span data-ttu-id="c8f61-108">**优化路线计划** – 通过将特定路线计划分配到特定区域。</span><span class="sxs-lookup"><span data-stu-id="c8f61-108">**Optimize route planning** – By assigning specific route plans to specific zones.</span></span>
 
-<span data-ttu-id="30f27-109">您可以根据限定每个区域的元数据字段值（如国家/地区、邮政编码范围或承运人服务）来定义区域。</span><span class="sxs-lookup"><span data-stu-id="30f27-109">You define zones based on the metadata field values (such as country, zip code range, or carrier service) that qualify each zone.</span></span> <span data-ttu-id="30f27-110">如果您的运输定价未采用区域概念，则不需要区域定义。</span><span class="sxs-lookup"><span data-stu-id="30f27-110">Zone definitions aren't required if your transportation pricing doesn't employ a zone concept.</span></span>
+<span data-ttu-id="c8f61-109">您可以根据限定每个区域的元数据字段值（如国家/地区、邮政编码范围或承运人服务）来定义区域。</span><span class="sxs-lookup"><span data-stu-id="c8f61-109">You define zones based on the metadata field values (such as country, zip code range, or carrier service) that qualify each zone.</span></span> <span data-ttu-id="c8f61-110">如果您的运输定价未采用区域概念，则不需要区域定义。</span><span class="sxs-lookup"><span data-stu-id="c8f61-110">Zone definitions aren't required if your transportation pricing doesn't employ a zone concept.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
