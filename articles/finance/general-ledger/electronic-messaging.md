@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823780"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897592"
 ---
 # <a name="electronic-messaging"></a>电子消息
 
@@ -29,7 +29,7 @@ ms.locfileid: "5823780"
 
 Finance 中的电子消息功能支持在 Finance 与政府和立法机构为报告、提交和接收官方信息提供的系统之间进行各种电子互操作流程。
 
-电子消息功能已与 **电子报告** (ER) 模块集成。 因此，您可以为电子消息设置 ER 格式。 有关详细信息，请参阅[电子报告 (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)。
+电子消息功能已与 **电子报告** (ER) 模块集成。 因此，您可以为电子消息设置 ER 格式。 有关详细信息，请参阅[电子报告 (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)。
 
 电子消息基于以下实体：
 
@@ -56,7 +56,7 @@ Finance 中的电子消息功能支持在 Finance 与政府和立法机构为报
 
 ## <a name="set-up-electronic-messaging"></a>设置电子消息
 
-电子消息可以帮助您维护不同文档类型的不同电子报告流程。 在一些复杂的场景中，设置了电子消息，以便其包含很多消息状态、消息项状态、行动、额外字段和可执行类的组合。 对于这些场景，数据实体包可以导入。 如果您使用这些数据实体包，您应使用数据管理工具将其导入到法人。 有关如何使用数据管理工具的详细信息，请参阅[数据管理](../../dev-itpro/data-entities/data-entities-data-packages.md)。
+电子消息可以帮助您维护不同文档类型的不同电子报告流程。 在一些复杂的场景中，设置了电子消息，以便其包含很多消息状态、消息项状态、行动、额外字段和可执行类的组合。 对于这些场景，数据实体包可以导入。 如果您使用这些数据实体包，您应使用数据管理工具将其导入到法人。 有关如何使用数据管理工具的详细信息，请参阅[数据管理](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。
 
 如果您不导入数据实体包，您可以手动设置电子消息功能。 在这种情况下，必须设置以下元素：
 

@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743525"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893268"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>设计 ER 配置以在生成的文件中禁止 BOM 字符
 
 [!include [banner](../includes/banner.md)]
 
-可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](https://docs.microsoft.com/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的 [草稿](general-electronic-reporting.md#component-versioning)版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
+可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的 [草稿](general-electronic-reporting.md#component-versioning)版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
 
 > [!NOTE]
 > 如果格式包含错误的编码名称，将更改保存到格式设置时会引发错误。
 
 ![在“格式设计器”页添加根元素](./media/er-suppress-bom-characters-image1.gif)
 
-如果您指定 **UTF-8**、**UTF-16** 或 **UTF-32** 作为编码，**禁止 BOM 表字符** 选项将变为可用。 将此选项设置为 **是**，将禁止在可编辑 ER 格式运行时在运行时生成的传出文件中的[字节顺序标记 (BOM) 字符](https://docs.microsoft.com/globalization/encoding/byte-order-mark)。
+如果您指定 **UTF-8**、**UTF-16** 或 **UTF-32** 作为编码，**禁止 BOM 表字符** 选项将变为可用。 将此选项设置为 **是**，将禁止在可编辑 ER 格式运行时在运行时生成的传出文件中的[字节顺序标记 (BOM) 字符](/globalization/encoding/byte-order-mark)。
 
 > [!NOTE]
 > 如果将 **编码** 字段留空，将使用默认的 **UTF-8** 编码。

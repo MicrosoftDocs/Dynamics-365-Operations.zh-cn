@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7029f1dab1f10c2b237fafb7b5d8eeff9fa7a543
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 890d7a2e671d6365cd1f6e23e399166541c04496
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790276"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890619"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 3 月 8 日）
 
@@ -32,7 +32,7 @@ ms.locfileid: "5790276"
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
-有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
+有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
 
 ## <a name="in-this-release"></a>在此发布中
 
@@ -44,7 +44,7 @@ ms.locfileid: "5790276"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 经理跨公司查看休假 | [经理跨公司查看员工休假](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [配置休假和缺勤参数](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| 经理跨公司查看休假 | [经理跨公司查看员工休假](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [配置休假和缺勤参数](./hr-leave-and-absence-parameters.md) |
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -69,8 +69,8 @@ ms.locfileid: "5790276"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 福利管理工作区 | [福利管理工作区（预览）](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [福利管理工作区](hr-benefits-management-workspace.md) |
-| 限制员工编辑业务联系人详细信息 | [限制员工编辑业务联系人详细信息](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)|
+| 福利管理工作区 | [福利管理工作区（预览）](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [福利管理工作区](hr-benefits-management-workspace.md) |
+| 限制员工编辑业务联系人详细信息 | [限制员工编辑业务联系人详细信息](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>即将推出
 
@@ -78,12 +78,12 @@ ms.locfileid: "5790276"
 | --- | --- |
 | 经理为员工输入的技能可以通过工作流自动审核 | 即将推出。 |
 
-有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
+有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
 
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2021 发布第 1 波概述](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2021 发布第 1 波概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 869a2f83360c1d6515bbe2868f1450f76ff3a13f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749189"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909831"
 ---
 # <a name="create-alert-rules"></a>创建预警规则
 
@@ -101,7 +101,7 @@ ms.locfileid: "5749189"
 2. 从 SysTableBrowser 窗体创建预警。
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>基于更改的预警不适用于批处理状态更改
-基于更改的预警不适用于批处理状态更改，因为出于性能原因已将其关闭。 相反，您应该设置 **批处理预警** 能力。 有关更多信息，请参见[设置批处理增强窗体的预警](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms)。
+基于更改的预警不适用于批处理状态更改，因为出于性能原因已将其关闭。 相反，您应该设置 **批处理预警** 能力。 有关更多信息，请参见[设置批处理增强窗体的预警](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms)。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

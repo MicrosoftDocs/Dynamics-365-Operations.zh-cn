@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831162"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910201"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 
@@ -58,7 +58,7 @@ Supply Chain Management 不包括任何费率引擎。 您必须获取或创建�
 有关如何创建和部署功能费率引擎以可以在生产或测试环境中使用的信息，请参阅以下主题：
 
 - [创建新的运输管理引擎](../transportation/create-new-transportation-management-engine.md)
-- [设置运输管理引擎](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
+- [设置运输管理引擎](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
 
 有关如何创建 SPS 费率引擎的详细信息，请参阅以下博客文章：[小型包裹装运：如何利用 Microsoft Dynamics 365 中的小型包裹装运功能](https://hub.bhsolutions.com/creating-a-mock-parcel-engine-in-d365?submissionGuid=46a1fccf-80b0-4b70-a6a0-4bf45a8756b5)。
 

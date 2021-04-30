@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743369"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893218"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 
@@ -85,7 +85,7 @@ ms.locfileid: "5743369"
 - 分类帐
 - ChartofAccounts
 
-这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](https://docs.microsoft.com/dynamics/s-e/)。 此工作簿是用于创建内容的默认数据模型。
+这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](/dynamics/s-e/)。 此工作簿是用于创建内容的默认数据模型。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,8 +2,7 @@
 title: 财务分析
 description: 财务分析使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572358"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894900"
 ---
 # <a name="financial-analysis"></a>财务分析
 
@@ -65,10 +64,9 @@ ms.locfileid: "5572358"
 
 必须更新以下实体，才能查看 **财务分析** 工作区中的数据：
 
-- BudgetActivityMeasure
 - 财务报告交易记录数据版本 3 
+- 信用和收款 V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - 采购多维数据集
 - 销售多维数据集
@@ -241,9 +239,9 @@ Power BI 不提供用于隐藏和显示空行的选项。 如果行中没有任�
 
 在生产环境中，不需要以下资源中的信息即可为 **财务分析** 工作区启用嵌入式报表。 不过它们对开发箱很有帮助，而您希望嵌入自己的 Power BI 报表时也有帮助。
 
-- [在 1 盒环境中访问分析工作区和报表](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [在 1 盒环境中访问分析工作区和报表](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [使用 Power BI Embedded 将分析添加到工作区](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [使用 Power BI Embedded 将分析添加到工作区](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,11 @@
 title: 创建租赁组
 description: 本主题说明如何设置租赁组。 需要租赁组才能创建建新租赁。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseGroupTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5d5efb02c95d9368fbc178cfd9bcd7ce088d1c66
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88a49e4db868078fd05875df33ca5727363aaa18
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816044"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881220"
 ---
 # <a name="create-a-lease-group"></a>创建租赁组
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840693"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907757"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 
@@ -44,26 +44,26 @@ Power Apps 门户中的联系人作为记录存储在 Microsoft Dataverse 中的
 
 ## <a name="the-invitation-process"></a>邀请流程
 
-要将现有联系人邀请到客户门户，请按照 Power Apps 门户文档中的[向门户邀请联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts)中的步骤操作。
+要将现有联系人邀请到客户门户，请按照 Power Apps 门户文档中的[向门户邀请联系人](/powerapps/maker/portals/configure/invite-contacts)中的步骤操作。
 
-在邀请客户加入客户门户之前，请确保客户的[联系人记录](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)已通过以下方式提供并设置：
+在邀请客户加入客户门户之前，请确保客户的[联系人记录](/powerapps/maker/portals/configure/configure-contacts)已通过以下方式提供并设置：
 
 1. 将 **公司** 字段设置为您希望客户在 Supply Chain Management 中所属的法人。
 2. 将 **帐号** 字段设置为您希望用户在 Supply Chain Management 中拥有的客户帐号。
 
 联系人创建后，您应该可以在 Supply Chain Management 中看到它。
 
-有关详细信息，请参阅 Power Apps 门户文档中的[配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)。
+有关详细信息，请参阅 Power Apps 门户文档中的[配置要在门户上使用的联系人](/powerapps/maker/portals/configure/configure-contacts)。
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>现成的 Web 角色和表权限
 
-Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[表权限](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
+Power Apps 门户中的用户角色由 [Web 角色](/powerapps/maker/portals/configure/create-web-roles)和[表权限](/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
 
 ### <a name="out-of-box-web-roles"></a>现成的 Web 角色
 
 本节介绍随客户门户提供的 Web 角色。
 
-有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[使用门户的表权限添加基于记录的安全性](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)。
+有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](/powerapps/maker/portals/configure/create-web-roles)和[使用门户的表权限添加基于记录的安全性](/powerapps/maker/portals/configure/assign-entity-permissions)。
 
 #### <a name="administrator"></a>管理员
 

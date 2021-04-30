@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808910"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907611"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -40,7 +40,7 @@ ms.locfileid: "5808910"
 - 设置实际称重单位定义为最低库存单位 (SKU) 的单位序列组。
 - 设置实际称重物料处理策略。
 
-有关详细信息，请参阅[设置和维护实际称重物料](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)。
+有关详细信息，请参阅[设置和维护实际称重物料](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)。
 
 ## <a name="transaction-adjustments"></a>交易记录调整
 

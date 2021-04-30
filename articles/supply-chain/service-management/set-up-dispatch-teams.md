@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 697f5c71182fbe675c02e13a2162d791d72ced06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d55bb294885a1ff2352ff65296145fd4fe32044
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835790"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909052"
 ---
 # <a name="set-up-dispatch-teams"></a>设置派遣团队 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5835790"
 
 
 > [!NOTE]
-> <P>您可以在<STRONG>工作人员</STRONG>窗体中将工作人员分给给此派遣团队。 有关如何将工作人员分配给派遣团队的更多信息，请参阅<A href="https://technet.microsoft.com/library/dn776288(v=ax.60)">派遣工作人员（窗体）</A>。</P>
+> <P>您可以在<STRONG>工作人员</STRONG>窗体中将工作人员分给给此派遣团队。 有关如何将工作人员分配给派遣团队的更多信息，请参阅<A href="/dynamicsax-2012//dispatch-workers-form">派遣工作人员（窗体）</A>。</P>
 
 
 

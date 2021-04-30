@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811279"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897028"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -148,7 +148,7 @@ ms.locfileid: "5811279"
 * 在 Internet Explorer 中，选择 **设置**，然后选择 **Internet 选项**。 选择 **安全** 选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为 **中-低**。
 * 在浏览器中禁用弹出窗口阻止程序。
 * 工作站需要安装 Microsoft .NET Framework 4.6.2 或更高版本。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
-* 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行 Chrome，请确保为匿名模式启用了 ClickOnce 扩展。 有关 Chrome ClickOnce 扩展的详细信息，请参阅[云部署的系统要求](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements)。
+* 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行 Chrome，请确保为匿名模式启用了 ClickOnce 扩展。 有关 Chrome ClickOnce 扩展的详细信息，请参阅[云部署的系统要求](../../fin-ops-core/fin-ops/get-started/system-requirements.md)。
 * 如果您正在通过 Chrome 浏览器使用 Microsoft Edge，则无需为 Edge Chromium 安装 ClickOnce 扩展。 但是，必须启用 ClickOnce 选项以下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。
      1. 在 Microsoft Edge 中打开新浏览器。
      2. 输入 **edge://flags**，然后选择 **输入**。

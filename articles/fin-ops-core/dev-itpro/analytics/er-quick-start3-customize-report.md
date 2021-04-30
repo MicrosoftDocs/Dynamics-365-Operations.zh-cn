@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46b232da404fe2106ce4b5455ea4d682a08aaa53
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743621"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893292"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>自定义电子报告配置以生成电子单据
 
@@ -667,8 +667,8 @@ ms.locfileid: "5743621"
 - [电子申报概览](general-electronic-reporting.md)
 - [从 Lifecycle Services 下载 ER 配置](download-electronic-reporting-configuration-lcs.md)
 - [从 Configuration Service 的全局存储库下载 ER 配置](er-download-configurations-global-repo.md)
-- [创建普通账单](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
-- [创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+- [创建普通账单](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
+- [创建并使用自定义字段](../../fin-ops/get-started/user-defined-fields.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826682"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897856"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
@@ -34,7 +34,7 @@ ms.locfileid: "5826682"
 3. 创建报表树，其中包含要在合并的报表中使用的报表节点，每个公司一个。
 
 > [!TIP]
-> 有关如何创建和管理行定义，列定义和报表树的详细信息，请参阅[财务报表组件](../../dev-itpro/analytics/financial-report-components.md)。
+> 有关如何创建和管理行定义，列定义和报表树的详细信息，请参阅[财务报表组件](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md)。
 
 下图显示如何在财务报告中使用报表树确定要合并的每个公司。
 

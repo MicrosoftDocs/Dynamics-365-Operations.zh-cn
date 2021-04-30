@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830584"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897444"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
@@ -38,7 +38,7 @@ ms.locfileid: "5830584"
 2. 转到 **总帐 > 日历 > 会计日历** 验证分配到有效时段的会计日历日期。
 3. 转到 **总帐 > 设置 > 分类帐** 以设置 **记帐币种** 和 **汇率类型**。
 4. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到 **总帐 > 币种 > 币种汇率**。
-5. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)。 
+5. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅[现金流预测](./cash-flow-forecasting.md)。 
 6. 转到 **系统管理 > 设置 > 实体商店** 以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容

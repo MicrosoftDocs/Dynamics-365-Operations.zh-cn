@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0e50cc1e18400258a4ad5da008e1719d39bd1da
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0d2978d680efa59b1ba9cfcd7f58655da0ff4107
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801207"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890092"
 ---
 # <a name="choose-a-data-integration-technology"></a>选择数据集成技术
 
@@ -36,7 +36,7 @@ ms.locfileid: "5801207"
 业务数据是使您的公司与众不同的关键资产。 您的业务数据非常有价值。 可使用通过业务收集的数据之间的关系改进业务流程和组织中的业务智能。 无论系统来自何处，我们都致力于提供轻松、安全、稳定访问您的业务数据的方法。
 
 从历史上看，在多个系统之间集成数据一直很困难。
-Microsoft 正在采取措施使数据集成变得更加容易，朝着该目标迈出的一大步是通过 [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)。
+Microsoft 正在采取措施使数据集成变得更加容易，朝着该目标迈出的一大步是通过 [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)。
 
 Human Resources 正在使 Dataverse 成为 Human Resources 数据的首选公共接口。 随着时间的推移，我们期望 Human Resources 管理的所有最重要数据都将在 Dataverse 中公开。 我们推荐 Dataverse 作为大多数集成应用程序的首选技术。
 
@@ -48,21 +48,21 @@ Human Resources 正在使 Dataverse 成为 Human Resources 数据的首选公共
 
 ### <a name="dataverse-tables"></a>Dataverse 表
 
-Dataverse 是 Human Resources 的首选公共数据接口。 其源自 Dynamics 365 XRM 平台，后者由 [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) 解决方案使用。
+Dataverse 是 Human Resources 的首选公共数据接口。 其源自 Dynamics 365 XRM 平台，后者由 [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) 解决方案使用。
 
 Dataverse 为数据表提供平台和 API。 部署 Human Resources 时，其将连接到 Dataverse 实例。 Human Resources 数据的实体部署到该 Dataverse 实例中。 这些表及其数据可供可连接到 Dataverse 实例的任何应用程序使用。 Human Resources 与 Dataverse 表同步数据。
 
 > [!NOTE]
-> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)
 
-集成应用所需数据表位于 Dataverse 中时，可充分使用[其支持的 Dataverse 和 API](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer)。 在受支持的 API 中，[Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) 提供了用于访问 Dataverse 数据的 OData 实现。
+集成应用所需数据表位于 Dataverse 中时，可充分使用[其支持的 Dataverse 和 API](/powerapps/?panel=developer#pivot=home)。 在受支持的 API 中，[Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) 提供了用于访问 Dataverse 数据的 OData 实现。
 
 Dataverse 表及其关联的 API 是从 Web 应用程序、Web 服务/API 以及连接到 OData 源的任何其他应用程序访问 Human Resources 数据的最佳选择。
 
 > [!NOTE]
 > 决定将 Dataverse 作为 Human Resources 的首选数据接口是相对较新的，您可能会发现，集成所需的 Human Resources 数据实体在 Dataverse 中尚不可用。
 > </br>
-> 有关 Dataverse 中可用的 Human Resources 实体的列表，请参阅 [Human Resources 和 Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities)。
+> 有关 Dataverse 中可用的 Human Resources 实体的列表，请参阅 [Human Resources 和 Dataverse](/dynamics365/unified-operations/talent/corehrentities)。
 > </br>
 > 如果集成所需的 Human Resources 实体尚不可用，则需要等待数据实体可用，或者需要使用下面介绍的其他集成技术之一。
 > </br>
@@ -70,14 +70,14 @@ Dataverse 表及其关联的 API 是从 Web 应用程序、Web 服务/API 以及
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF 实体
 
-Human Resources 主要基于与 Finance and Operations 应用程序相同的平台构建，并提供[数据管理框架 (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。 DMF 也称为数据导入导出框架 (DIXF)。 Human Resources 提供一组数据实体，可用于导入和导出 Human Resources 数据。 尽管 Dataverse 表是 Human Resources 的首选数据集成接口，但 DMF 实体在某些情况下仍然有用，例如：
+Human Resources 主要基于与 Finance and Operations 应用程序相同的平台构建，并提供[数据管理框架 (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)。 DMF 也称为数据导入导出框架 (DIXF)。 Human Resources 提供一组数据实体，可用于导入和导出 Human Resources 数据。 尽管 Dataverse 表是 Human Resources 的首选数据集成接口，但 DMF 实体在某些情况下仍然有用，例如：
 
 - Dataverse 表尚不可用。
 
 - 集成需要高性能的批量数据导入/导出功能。
 
 > [!NOTE]
-> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)
 
 DMF 实体当前为 Human Resources 数据提供最完整的数据覆盖。
 
@@ -90,7 +90,7 @@ DMF 不适用于实时集成，如用户界面中立即需要用户反馈时。 
 
 ### <a name="dmf-package-rest-api"></a>DMF 包 REST API
 
-DMF 提供用于处理数据包的 [REST API](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api)。 此 API 可用于以编程方式与 DMF 交互，从而允许诸如以下操作：
+DMF 提供用于处理数据包的 [REST API](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api)。 此 API 可用于以编程方式与 DMF 交互，从而允许诸如以下操作：
 
 - 导入数据包。
 
@@ -102,36 +102,36 @@ DMF 包 REST API 在 Human Resources 中完全受支持。
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL DB (BYOD)
 
-DMF 还提供强大的功能（称为[提供您自己的数据库](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database)或 BYOD），从而允许 Human Resources 将数据导出到您自己的 Microsoft Azure SQL 数据库。 此功能提供了极大的灵活性。 当数据存在于您自己的 SQL 数据库中时，您可以利用可以连接到 SQL 数据存储的任何应用程序或中间件。
+DMF 还提供强大的功能（称为[提供您自己的数据库](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database)或 BYOD），从而允许 Human Resources 将数据导出到您自己的 Microsoft Azure SQL 数据库。 此功能提供了极大的灵活性。 当数据存在于您自己的 SQL 数据库中时，您可以利用可以连接到 SQL 数据存储的任何应用程序或中间件。
 
 BYOD 主要是只读解决方案。 尽管您可以在 Azure SQL 数据库中处理和存储所需的任何数据（例如进行数据混合），但是存储在 Azure SQL 数据库中的数据将不会同步到 Human Resources。
 
-作为 [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) 管道的数据源，BYOD 适用于报告解决方案、数据集成、数据混合。
+作为 [Azure Data Factory](/azure/data-factory/) 管道的数据源，BYOD 适用于报告解决方案、数据集成、数据混合。
 
 > [!NOTE]
 > BYOD 对 Attract 和 Onboard 不可用。
 
 ### <a name="odata-enabled-entities"></a>启用 OData 的实体
 
-大多数 DMF 实体也可以通过 Human Resources 数据服务 (OData) 进行访问。 为 [Finance and Operations OData 服务](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata)提供的文档适用于 Human Resources，但创建您自己的公开 OData 实体时除外。
+大多数 DMF 实体也可以通过 Human Resources 数据服务 (OData) 进行访问。 为 [Finance and Operations OData 服务](/dynamics365/unified-operations/dev-itpro/data-entities/odata)提供的文档适用于 Human Resources，但创建您自己的公开 OData 实体时除外。
 
-虽然 Dataverse 和 Dataverse 提供的 OData 实现（通过 [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))）优先于 Human Resources 数据服务，但 Human Resources 数据服务当前对于 Human Resources 数据的实体覆盖更完整。
+虽然 Dataverse 和 Dataverse 提供的 OData 实现（通过 [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))）优先于 Human Resources 数据服务，但 Human Resources 数据服务当前对于 Human Resources 数据的实体覆盖更完整。
 
 ### <a name="excel-add-in"></a>Excel 加载项
 
-[Excel 加载项](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json)在后台利用启用 OData 的实体。 它为最终用户提供一种方便的方式，可以通过熟悉的 Excel UI 检索和修改 Human Resources 数据。
+[Excel 加载项](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)在后台利用启用 OData 的实体。 它为最终用户提供一种方便的方式，可以通过熟悉的 Excel UI 检索和修改 Human Resources 数据。
 
 Excel 加载项适用于业务领域专家的专门数据导入/导出。 对于需要程序自动化的重复数据集成，另一种集成技术会更合适。
 
 ### <a name="data-integrator"></a>数据集成器
 
-可使用[数据集成器服务](https://docs.microsoft.com/powerapps/administrator/data-integrator)集成与 Dataverse 之间往来的数据。 数据集成器可以用于定义集成项目（通常基于应用程序开发人员针对特定集成定制的预定义模板）。 可以将集成项目计划为按重复执行的计划自动运行或手动运行。
+可使用[数据集成器服务](/powerapps/administrator/data-integrator)集成与 Dataverse 之间往来的数据。 数据集成器可以用于定义集成项目（通常基于应用程序开发人员针对特定集成定制的预定义模板）。 可以将集成项目计划为按重复执行的计划自动运行或手动运行。
 
 数据集成器项目适用于 Dataverse 批处理集成。 它们非常适合 Dynamics 365 系列应用程序之间的集成。 例如，Microsoft 提供了一个数据集成器模板，用于将 Human Resources 中的数据集成到 Dynamics 365 Finance。 可以在 [Dynamics 365 Human Resources 与 Dynamics 365 Finance 的集成](hr-admin-integration-finance.md)中了解有关该模板的详细信息。
 
 ### <a name="power-query"></a>Power Query
 
-数据集成器通过其[高级查询功能](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering)支持 [Power Query](https://docs.microsoft.com/power-query/power-query-what-is-power-query)。 Power Query 提供强大、灵活的数据筛选和转换，包括丰富的 M 配方语言。 如果您已经部署过 Power BI 报表，很可能熟悉 Power Query。
+数据集成器通过其[高级查询功能](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering)支持 [Power Query](/power-query/power-query-what-is-power-query)。 Power Query 提供强大、灵活的数据筛选和转换，包括丰富的 M 配方语言。 如果您已经部署过 Power BI 报表，很可能熟悉 Power Query。
 
 ## <a name="deciding-on-an-integration-technology"></a>决定集成技术
 

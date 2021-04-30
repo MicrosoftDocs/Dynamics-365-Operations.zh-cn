@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835670"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910225"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -854,7 +854,7 @@ ms.locfileid: "5835670"
 
 ## <a name="see-also"></a>请参阅
 
-- [仓库管理中的批号](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [仓库管理中的批号](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
 - [为销售订单预留相同的批次](../sales-marketing/reserve-same-batch-sales-order.md)
 - [在移动设备上领取最早的批次](pick-oldest-batch.md)
 - [批次和牌照确认](batch-and-license-plate-confirmation.md)

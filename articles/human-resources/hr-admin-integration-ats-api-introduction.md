@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798409"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890117"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>申请人跟踪系统集成 API 简介
 
@@ -45,21 +45,21 @@ ms.locfileid: "5798409"
 
 有关 Microsoft Dataverse Web API 的更多一般信息，请参阅：
 
-- [什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [使用 Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse 开发人员指南](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)
+- [使用 Microsoft Dataverse Web API](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse 开发人员指南](/powerapps/developer/data-platform)
 
-以上文档包括有关使用 Dataverse Web API 的详细信息和开发人员指南，如[管理身份验证](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api)、[执行操作](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api)、[通过 API 使用 Postman](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) 以及通过 API [使用更改跟踪或增量令牌](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems)。
+以上文档包括有关使用 Dataverse Web API 的详细信息和开发人员指南，如[管理身份验证](/powerapps/developer/data-platform/webapi/authenticate-web-api)、[执行操作](/powerapps/developer/data-platform/webapi/perform-operations-web-api)、[通过 API 使用 Postman](/powerapps/developer/data-platform/webapi/use-postman-web-api) 以及通过 API [使用更改跟踪或增量令牌](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems)。
 
 ### <a name="option-sets"></a>选项集
 
-本文所述的 ATS 集成 API 的数据模型包括提供与实体属性关联的枚举值的选项集。 有关在 Dataverse Web API 中使用选项集的详细信息，请参阅[使用 Web API 创建和更新选项集](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)。 选项集将为每个 Dataverse 环境定义。
+本文所述的 ATS 集成 API 的数据模型包括提供与实体属性关联的枚举值的选项集。 有关在 Dataverse Web API 中使用选项集的详细信息，请参阅[使用 Web API 创建和更新选项集](/powerapps/developer/data-platform/webapi/create-update-optionsets)。 选项集将为每个 Dataverse 环境定义。
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Dataverse 中适用于 Human Resources 的虚拟表
 
 ATS 集成 API 的终结点使用 Microsoft Dataverse 的虚拟表平台功能。 默认情况下，虚拟表及其关联的 API 终结点不针对 Human Resources 环境部署，以让组织可以确定哪些 OData 终结点将为环境公开。 要使用 API，必须为环境生成适用于 Human Resources 实体的虚拟表。 
 
-有关为 API 生成虚拟表的信息，请参阅[配置 Dataverse 虚拟表](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
+有关为 API 生成虚拟表的信息，请参阅[配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)。
 
 ## <a name="data-model"></a>数据模型
 
@@ -134,8 +134,8 @@ ATS 集成 API 的终结点使用 Microsoft Dataverse 的虚拟表平台功能�
 ## <a name="see-also"></a>请参阅
 
 [招聘工作应聘者](hr-personnel-recruit.md)<br>
-[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[使用 Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[使用 Web API 创建和更新选项集](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)<br>
+[使用 Microsoft Dataverse Web API](/powerapps/developer/data-platform/webapi/overview)<br>
+[使用 Web API 创建和更新选项集](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

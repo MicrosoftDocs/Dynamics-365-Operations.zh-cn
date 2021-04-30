@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6393fe8679981c9d512a4d0f654391ba9d85452
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9bec501fdc1736d044585609e21b5bb47b8d6879
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794773"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893117"
 ---
 # <a name="overview"></a>概览
 
@@ -33,7 +33,7 @@ Dynamics 365 Human Resources 用户指南为您提供有关设置 Human Resource
 
 [配置 Human Resources 参数](hr-setup-parameters.md)</br>
 [配置 Human Resources 共享参数](hr-setup-shared-parameters.md)</br>
-[设置 Human Resources 工作流](hr-setup-workflows.md)</br>
+[设置 Human Resources 工作流](./hr-workflow-manage-employee-information.md)</br>
 [了解日期和时间字段](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>配置组织设置

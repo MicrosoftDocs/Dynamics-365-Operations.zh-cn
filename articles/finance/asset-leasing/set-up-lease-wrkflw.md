@@ -2,11 +2,11 @@
 title: 设置租赁审批工作流
 description: 该主题说明如何设置在创建新租赁时将运行的审批工作流。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4d5416b3b24d5fbb3ac46afb3c672212d41d42d5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e7280bbf60901266c81a0c89395c5183f991425
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827546"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881654"
 ---
 # <a name="set-up-lease-approval-workflows"></a>设置租赁审批工作流
 

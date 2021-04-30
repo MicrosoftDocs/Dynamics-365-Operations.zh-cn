@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818606"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897904"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>评估初始客户付款预测模型（预览）
 
@@ -41,7 +41,7 @@ ms.locfileid: "5818606"
 
 打开的页面显示以下信息：
 
-- 在 **性能** 部分中，模型性能等级提供有关模型质量的观点。 有关该等级的详细信息，请参阅 AI Builder 文档中的[预测模型性能](https://docs.microsoft.com/ai-builder/prediction-performance)。
+- 在 **性能** 部分中，模型性能等级提供有关模型质量的观点。 有关该等级的详细信息，请参阅 AI Builder 文档中的[预测模型性能](/ai-builder/prediction-performance)。
 - **最有影响力的数据** 部分显示数据的不同输入类型对模型的重要程度。 您可以评估此列表和相应的百分比，以确定信息是否与您对业务和市场的了解一致。
 
     [![预测模型的“性能”和“最有影响力的数据”部分](./media/models.png)](./media/models.png)

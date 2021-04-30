@@ -2,11 +2,11 @@
 title: 使用租赁审批工作流
 description: 本主题说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f9fc8e337206111b0f2ac1cca87131abe7f283c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4926ee45841c9fdd5a3cf7d12452e1f06d868c6
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827522"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880706"
 ---
 # <a name="use-lease-approval-workflows"></a>使用租赁审批工作流
 

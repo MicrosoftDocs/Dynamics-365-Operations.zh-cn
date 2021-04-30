@@ -2,11 +2,11 @@
 title: 将固定资产与租赁关联
 description: 本主题说明如何将现有固定资产与新租赁相关联。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0e2261755d98ee38564b4b864daf8e79551d1239
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02a17b8c995e8aa97384d8b855afb688324017d6
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814072"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881340"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>将固定资产与租赁关联
 

@@ -2,7 +2,8 @@
 title: 商店选择器模块
 description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798625"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853409"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
@@ -32,11 +33,32 @@ ms.locfileid: "5798625"
 
 商店选择器模块允许用户输入位置（城市、省/自治区/直辖市、地址等）来在搜索半径内搜索商店。 首次打开此模块时，它使用客户的浏览器位置来查找商店（如果确认同意）。
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>电子商务中商店选择器模块的使用
+## <a name="store-selector-module-usage"></a>商店选择器模块使用情况
 
 - 可以在产品详细信息页面 (PDP) 使用商店选择器模块来选择提货商店。
 - 可以在购物车页面使用商店选择器模块来选择提货商店。
 - 商店选择器模块可以在显示所有可选择商店的独立页面上使用。
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>在 Commerce Headquarters 中履行组设置
+
+若要使商店选择器显示可用的商店，必须在 Commerce Headquarters 中设置履行组。 有关详细信息，请参阅[设置履行组](customer-orders-overview.md#set-up-fulfillment-groups)。
+
+此外，对于履行组中的每个商店，必须在总部中定义商店位置的纬度和经度。
+
+若要在 Commerce Headquarters 中输入商店位置的纬度和经度值，请按照以下步骤操作。
+
+1. 转到 **库存管理 \> 设置 \> 库存明细**。
+1. 在左侧窗格中选择仓库库位。
+1. 在 **地址** 快速选项卡上，选择 **高级**。
+
+    ![总部中商店详细信息的示例](./media/Store-address.png)
+
+1. 在操作窗格上，选择 **编辑**。
+1. 在 **常规** 快速选项卡上，输入 **纬度** 和 **经度** 的值。
+
+    ![总部中商店的纬度和经度设置的示例](./media/Store-latitude-longitude.png)
+
+1. 在操作窗格上，选择 **保存**。 
 
 ## <a name="bing-maps-integration"></a>必应地图集成
 
@@ -48,6 +70,7 @@ ms.locfileid: "5798625"
 - 对于 **img-src** 指令，添加 **&#42;.virtualearth.net**。
 - 对于 **script-src** 指令，**添加 &#42;.bing.com、&#42;.virtualearth.net**。
 - 对于 **script style-src** 指令，添加 **&#42;.bing.com**。
+
  
 ## <a name="pickup-in-store-mode"></a>店内提货模式
 

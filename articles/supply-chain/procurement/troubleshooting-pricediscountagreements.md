@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811078"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908511"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 
@@ -37,7 +37,7 @@ ms.locfileid: "5811078"
 
 每当更改日期或另外一些参数都会触发此消息。 此消息的目的是确保您知道由于这些更改，可能发生价格更改。
 
-此消息是贸易协议评估 (TAE) 提示。 有关完整说明，请参阅[贸易协议评估政策](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)。
+此消息是贸易协议评估 (TAE) 提示。 有关完整说明，请参阅[贸易协议评估政策](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)。
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>采购订单收货不包括所有费用。
 

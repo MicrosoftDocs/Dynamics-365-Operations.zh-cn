@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837649"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910393"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -33,7 +33,7 @@ ms.locfileid: "5837649"
 > [!NOTE]
 > 此主题中有关供应商协作的信息仅适用于当前版本的 Supply Chain Management。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 **供应商门户** 模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
 
-有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
+有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>定义向响应采购订单的供应商显示的信息
 

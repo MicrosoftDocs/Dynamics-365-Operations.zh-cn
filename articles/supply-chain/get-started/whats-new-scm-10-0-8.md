@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b7d26144421b9a9bd0550a2fe9e73312ed8e8fa5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819392"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909272"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8（2020 年 2 月）中的新增功能或更改
 
@@ -33,28 +33,28 @@ ms.locfileid: "5819392"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的 *新增功能* 主题中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+此版本中包含以下功能。 功能标题链接至[发布计划](/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的 *新增功能* 主题中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
-- [其他位置区域](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [其他位置区域](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 
-- [资产管理](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - 有关详细信息，请参阅[资产管理概述](../asset-management/index.md)。
-- [取消工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - 有关详细信息，请参阅[取消要进行异常处理的仓库工作](../warehousing/cancel-warehouse-work.md)。
-- [更改工作的工作池](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - 有关详细信息，请参阅[更改工作的工作池](../warehousing/change-work-pool-on-work.md)。
-- [群集位置已满](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - 有关详细信息，请参阅[集群位置已满](../warehousing/cluster-position-full.md)。
-- [确认并转移](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - 有关详细信息，请参阅[确认并转移](../warehousing/confirm-and-transfer.md)。
-- [库位指令库存领料帐龄](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - 有关详细信息，请参阅[库位指令库存领料帐龄](../warehousing/location-directive-inventory-picking-aging.md)。
-- [库位状态](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [领料行分组](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - 有关详细信息，请参阅[领料行分组](../warehousing/pick-line-grouping.md)。
-- [装运自动更新](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - 有关详细信息，请参阅[装运自动更新](../warehousing/auto-update-shipment.md)。
-- [从创建领料工作步骤中拆分出需求补货工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
-- [拆分工作](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [系统导向的群集领料](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - 有关详细信息，请参阅[系统导向的群集领料](../warehousing/system-directed-cluster-pick.md)。
-- [使用 RSAT 的仓库应用任务验证](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
-- [仓库发放规则](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
-- [波次状态可视化](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [波次模板分组](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - 有关详细信息，请参阅[波次模板分组](../warehousing/wave-template-grouping.md)。
-- [工作行详细信息](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - 有关详细信息，请参阅[工作行详细信息](../warehousing/work-line-details.md)和[工作行详细信息](https://www.microsoft.com/videoplayer/embed/RE4fcYN)视频。
-- [区域阈值补货](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - 有关详细信息，请参阅[区域阈值补货](../warehousing/zone-threshold-replenishment.md)。
+- [资产管理](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - 有关详细信息，请参阅[资产管理概述](../asset-management/index.md)。
+- [取消工作](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - 有关详细信息，请参阅[取消要进行异常处理的仓库工作](../warehousing/cancel-warehouse-work.md)。
+- [更改工作的工作池](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - 有关详细信息，请参阅[更改工作的工作池](../warehousing/change-work-pool-on-work.md)。
+- [群集位置已满](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - 有关详细信息，请参阅[集群位置已满](../warehousing/cluster-position-full.md)。
+- [确认并转移](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - 有关详细信息，请参阅[确认并转移](../warehousing/confirm-and-transfer.md)。
+- [库位指令库存领料帐龄](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - 有关详细信息，请参阅[库位指令库存领料帐龄](../warehousing/location-directive-inventory-picking-aging.md)。
+- [库位状态](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
+- [领料行分组](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - 有关详细信息，请参阅[领料行分组](../warehousing/pick-line-grouping.md)。
+- [装运自动更新](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - 有关详细信息，请参阅[装运自动更新](../warehousing/auto-update-shipment.md)。
+- [从创建领料工作步骤中拆分出需求补货工作](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
+- [拆分工作](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
+- [系统导向的群集领料](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - 有关详细信息，请参阅[系统导向的群集领料](../warehousing/system-directed-cluster-pick.md)。
+- [使用 RSAT 的仓库应用任务验证](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [仓库发放规则](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
+- [波次状态可视化](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
+- [波次模板分组](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - 有关详细信息，请参阅[波次模板分组](../warehousing/wave-template-grouping.md)。
+- [工作行详细信息](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - 有关详细信息，请参阅[工作行详细信息](../warehousing/work-line-details.md)和[工作行详细信息](https://www.microsoft.com/videoplayer/embed/RE4fcYN)视频。
+- [区域阈值补货](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - 有关详细信息，请参阅[区域阈值补货](../warehousing/zone-threshold-replenishment.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.8 中包含平台更新 32�
 
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2019 发布波次 2 计划](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2019 发布波次 2 计划](/dynamics365-release-plan/2019wave2/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 

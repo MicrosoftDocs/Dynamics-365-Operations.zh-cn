@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753520"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894020"
 ---
 # <a name="archive-er-destination-type"></a>存档 ER 目标类型
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753520"
 
 您可以为配置为生成出站文档的电子报告 (ER) 格式的每个 **文件夹** 或 **文件** 组件配置存档目标。 根据目标设置，将生成的文档存储为 ER 作业列表的记录附件。 若要查看结果，请转到 **组织管理** \> **电子申报** \> **电子申报作业**。
 
-您可以使用此选项将生成的文档发送到 Microsoft SharePoint 文件夹或 Microsoft Azure Storage。 将 **已启用** 设置为 **是** 以将输出发送到由所选文档类型定义的目标。 仅组设置为 **文件** 的文档类型可供选择。 您在 **组织管理** \> **文档管理** \> **文档类型** 中定义文档[类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types)。 ER 目标的配置与文档管理系统的配置相同。
+您可以使用此选项将生成的文档发送到 Microsoft SharePoint 文件夹或 Microsoft Azure Storage。 将 **已启用** 设置为 **是** 以将输出发送到由所选文档类型定义的目标。 仅组设置为 **文件** 的文档类型可供选择。 您在 **组织管理** \> **文档管理** \> **文档类型** 中定义文档[类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)。 ER 目标的配置与文档管理系统的配置相同。
 
 [![文档类型页面](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 

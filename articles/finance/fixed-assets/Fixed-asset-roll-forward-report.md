@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827087"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897664"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827087"
 
 **固定资产前滚** 报表以通俗易懂的 Microsoft Excel 格式提供期间结帐、财务报表和报税所需的详细固定资产数据。 该报表中包含固定资产的期初余额和期末余额，期间的评估变动，以及该期间发生的任何新资产购置和处置。 将为单个固定资产报告数据，还将为固定资产组和法人汇总价值。
 
-**固定资产前滚** 报表使用电子申报 (ER) 框架。 必须先从 Microsoft Dynamics Lifecycle Services (LCS) 导入固定资产模型和固定资产前滚配置，才能运行该报表。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
+**固定资产前滚** 报表使用电子申报 (ER) 框架。 必须先从 Microsoft Dynamics Lifecycle Services (LCS) 导入固定资产模型和固定资产前滚配置，才能运行该报表。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
 
 此报表在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序提供。 必须为安装了 2017 年 7 月版本的环境应用三个修补程序：
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753688"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894140"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 
@@ -27,7 +27,7 @@ ms.locfileid: "5753688"
 
 ## <a name="prerequisites"></a>先决条件
 
-部署支持连续生成的拓扑。 有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。 还必须可以访问以下角色之一的此拓扑：
+部署支持连续生成的拓扑。 有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。 还必须可以访问以下角色之一的此拓扑：
 
 - 电子申报开发人员
 - 电子申报功能顾问
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. 修改现有 `AssetRollForwardService` 类，并编写代码以为报表运行器设置自定义目标工厂。 请注意，在构建自定义目标工厂时，将传递指定目标文件夹的应用程序驱动参数。 这样，该目标文件夹用于存储生成的文件。
 
     > [!NOTE] 
-    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。
+    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

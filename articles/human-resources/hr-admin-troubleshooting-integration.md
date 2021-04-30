@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794845"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892243"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
@@ -50,7 +50,7 @@ ms.locfileid: "5794845"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>我可以不使用模板创建新映射吗？
 
-模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+模板是起点。 您可以创建自己的模板，但在创建集成项目时始终需要模板。 有关数据集成器 (DI)、模板和项目的详细信息，请参阅[将数据集成到 Microsoft Dataverse](/powerapps/administrator/data-integrator)。
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>我可以映射在 Human Resources 和 Finance 之间转移的财务维度吗？
 
@@ -145,7 +145,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 如果数据未按预期出现在 Dataverse 中，请验证集成中是否支持该实体。 若要在 Dataverse 中包括附加数据，需要 Microsoft 一端进行更改。
 
-如果实体受支持，且数据在 Dataverse 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)。
+如果实体受支持，且数据在 Dataverse 中可用，请验证映射在数据集成器中是正确的。 如果集成器映射看起来正常，则验证数据管理作业是否成功运行。 错误可能在执行批处理作业时发生。 有关数据管理的详细信息，请参阅[数据管理](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)。
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>我在将员工地址导入 Finance 之后，这些地址不正确。 我应该怎么做？
 
@@ -172,15 +172,15 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 - 数据集成器 (DI)： 
 
-  - [将数据集成到 Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [将数据集成到 Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [数据集成器错误管理和故障排除](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [数据集成器错误管理和故障排除](/powerapps/administrator/data-integrator-error-management)
 
-  - [响应 Power Apps、Microsoft Power Automate 和 Dataverse 中系统生成日志的 DSR 请求](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [响应 Power Apps、Microsoft Power Automate 和 Dataverse 中系统生成日志的 DSR 请求](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - 数据管理：
 
-  - [数据管理](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [数据管理](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
