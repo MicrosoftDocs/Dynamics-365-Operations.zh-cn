@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792017"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906641"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
@@ -38,6 +38,8 @@ ms.locfileid: "5792017"
 
 > [!NOTE]
 > 优惠券关联到折扣后，Commerce 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
+> 
+> 在呼叫中心渠道中使用优惠券时，您需要选择 **重新计算** 按钮 **（“销售”选项卡 > 计算 > 重新计算）**，以便应用关联到优惠券的折扣。 此附加步骤将在以后的版本中删除。
 
 ### <a name="limited-use-coupons"></a>有限使用的优惠券
 

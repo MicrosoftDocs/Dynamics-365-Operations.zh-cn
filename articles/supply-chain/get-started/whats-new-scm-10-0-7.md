@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031feb3c2fa55b182deb0863cb1fc3d63652a03f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5004cb2ce2b601c51c641c2e9d6d2c4788729af9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814868"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909297"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Dynamics 365 Supply Chain Management 10.0.7 新增功能或更改（2020 年 1 月）
 
@@ -50,7 +50,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 中包含平台更新 31�
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365：2019 发布波次 2 计划
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2019 发布波次 2 计划](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2019 发布波次 2 计划](/dynamics365-release-plan/2019wave2/)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 

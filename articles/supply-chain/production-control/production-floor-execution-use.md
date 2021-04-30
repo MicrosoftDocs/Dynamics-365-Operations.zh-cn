@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814648"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907709"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -136,7 +136,7 @@ ms.locfileid: "5814648"
 
 ## <a name="working-on-indirect-activities"></a>处理间接活动
 
-间接活动是与生产订单不直接相关的活动。 间接活动可以灵活定义，如[设置考勤管理的间接活动](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance)中所述。
+间接活动是与生产订单不直接相关的活动。 间接活动可以灵活定义，如[设置考勤管理的间接活动](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance)中所述。
 
 例如，Contoso 的车间工作人员 Shannon 想要参加公司会议，而会议被认为是间接活动。 以下两种场景之一适用：
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 193812f97a1d43b30b0ce545501aac6949088ebd
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5620772"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897252"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Dynamics 365 Finance 管理员学习目录
 
@@ -29,23 +29,23 @@ ms.locfileid: "5620772"
 
 | 内容   | 说明  | 格式  | 长度    |
 |-----------|--------------|---------|-----------|
-| [Dynamics 365 和 Power Platform 基本原理](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
-| [Finance and Operations 应用入门](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
-| [开始使用 Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance 使企业用户能够适应快速变化的业务环境。 它为企业提供利用财务计划和预测的准确信息控制财务和管理资金所需的一切资源，并借助分析工具帮助他们掌握最新情况。 由于财务是任何一个企业的核心，因此熟悉 Dynamics 365 Finance 的功能很重要。 | 自由、自定进度的在线学习模块 | 1 小时 |
+| [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
+| [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [开始使用 Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance 使企业用户能够适应快速变化的业务环境。 它为企业提供利用财务计划和预测的准确信息控制财务和管理资金所需的一切资源，并借助分析工具帮助他们掌握最新情况。 由于财务是任何一个企业的核心，因此熟悉 Dynamics 365 Finance 的功能很重要。 | 自由、自定进度的在线学习模块 | 1 小时 |
 | [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [开始使用 Dynamics 365 Project Operations 中的“费用管理”](https://docs.microsoft.com/learn/modules/get-started-expense-management/) | Dynamics 365 Project Operations 中的“费用管理”模块让组织可以跟踪和管理员工费用。 “费用管理”让您可以存储付款信息，导入信用卡交易并跟踪员工在为组织产生费用时花费的资金。 您还可以使用 Project Operations 设置费用策略、自动化审批以及提供简化的业务流程。 | 自由、自定进度的在线学习路径 | 1 小时 |
-| [Dynamics 365 基本原理](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 | |
+| [开始使用 Dynamics 365 Project Operations 中的“费用管理”](/learn/modules/get-started-expense-management/) | Dynamics 365 Project Operations 中的“费用管理”模块让组织可以跟踪和管理员工费用。 “费用管理”让您可以存储付款信息，导入信用卡交易并跟踪员工在为组织产生费用时花费的资金。 您还可以使用 Project Operations 设置费用策略、自动化审批以及提供简化的业务流程。 | 自由、自定进度的在线学习路径 | 1 小时 |
+| [Dynamics 365 基本原理](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 | |
 
 ## <a name="core-platform-knowledge"></a>核心平台知识<a name="core-platform-knowledge"></a>
 
 | 内容  | 说明  | 格式  | 长度    |
 |----------|--------------|---------|-----------|
-| [使用 Lifecycle Services 设计和规划 Finance and Operations 应用的实施](https://docs.microsoft.com/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) 是一款协作工作区，供客户及其合作伙伴用于从售前到实施阶段，最后到生产环境管理 Finance and Operations 应用项目。 它提供了核对清单和工具来帮助您管理项目，包括用于帮助进行实施和定期更新服务的预构建方法。 | 自由、自定进度的在线学习路径 | 2 小时 |
-| [在 Finance and Operations 应用中配置组织](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
-| [迁移数据和实行 Finance and Operations 应用](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行 Finance and Operations 应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
-| [使用 Finance and Operation 中的分析和报告功能](https://docs.microsoft.com/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 如果不能实现数据可见性，企业领导就面临几乎不可能完成的任务。 您可以通过使用 Finance and Operations 应用中的分析和报告功能来帮助每位业务用户根据其安全权限获取做出重要决策所需的见解。 | 自由、自定进度的在线学习路径 | 1.5 小时 |
-| [管理 Finance and Operations 的实施项目](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | 学习管理成功的 Finance and Operations 实施项目最重要的元素和最佳实践。 从计划和设计项目方法的第一步、使用 FastTrack 服务、开发策略、数据管理等等，一直到上线后维护和监视运营的最佳方法。 | 自由、自定进度的在线学习路径 | 11.5 小时 |
-| [系统管理主页](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | 此主题针对适用于 Microsoft Dynamics 365 for Finance and Operations 系统管理员的内容。 此内容将帮助您配置系统，使其顺畅有效地为您的组织工作。 | 文档 | |
+| [使用 Lifecycle Services 设计和规划 Finance and Operations 应用的实施](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) 是一款协作工作区，供客户及其合作伙伴用于从售前到实施阶段，最后到生产环境管理 Finance and Operations 应用项目。 它提供了核对清单和工具来帮助您管理项目，包括用于帮助进行实施和定期更新服务的预构建方法。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [在 Finance and Operations 应用中配置组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
+| [迁移数据和实行 Finance and Operations 应用](/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行 Finance and Operations 应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
+| [使用 Finance and Operation 中的分析和报告功能](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 如果不能实现数据可见性，企业领导就面临几乎不可能完成的任务。 您可以通过使用 Finance and Operations 应用中的分析和报告功能来帮助每位业务用户根据其安全权限获取做出重要决策所需的见解。 | 自由、自定进度的在线学习路径 | 1.5 小时 |
+| [管理 Finance and Operations 的实施项目](/learn/paths/implement-finance-operations/) | 学习管理成功的 Finance and Operations 实施项目最重要的元素和最佳实践。 从计划和设计项目方法的第一步、使用 FastTrack 服务、开发策略、数据管理等等，一直到上线后维护和监视运营的最佳方法。 | 自由、自定进度的在线学习路径 | 11.5 小时 |
+| [系统管理主页](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | 此主题针对适用于 Microsoft Dynamics 365 for Finance and Operations 系统管理员的内容。 此内容将帮助您配置系统，使其顺畅有效地为您的组织工作。 | 文档 | |
 | [Finance and Operations：登录到 Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack 为每个 Dynamics 365 for Finance and Operations 项目提供一个入职服务。 在此技术交流中，我们将介绍入职流程，引导您熟悉入职会话的内容，并介绍我们将在不久的将来如何提高入职的效率和易用性。 此会话尤其与在项目早期阶段（即达成许可协议到启动实施项目）与客户打交道的每个人关系最深。 | 自由录制 Web 会议 | 62 分钟 |
 | [本地（本地业务数据）部署 (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | 若需了解 Dynamics 365 for Finance and Operations Enterprise Edition 本地部署选项的概览，请加入此技术交流。 在此会话中，我们将查看本地部署的解决方案架构、ALM 方面、系统要求和如何设置 Life Cycle Services 项目。 | 自由录制 Web 会议 | 48 分钟 |
 | [复制到法人 (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | 在此会话中，我们将讨论数据管理框架中的新功能“复制到法人”。 我们将首先简要回顾平台 8 中为工作区、模板和数据项目向数据管理框架添加的新功能，然后讨论为“复制到法人”添加的其他功能。 | 自由录制 Web 会议 | 54 分钟 |

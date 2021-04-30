@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821121"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910417"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 
@@ -39,7 +39,7 @@ ms.locfileid: "5821121"
 
 您需要使用 Microsoft Dynamics Lifecycle Services (LCS) 安装库存可见性加载项。 LCS 是一个协作门户，可提供环境和一组定期更新的服务，以帮助您管理 Dynamics 365 Finance and Operations 应用的应用程序生命周期。
 
-有关详细信息，请参阅 [Lifecycle Services 资源](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs)。
+有关详细信息，请参阅 [Lifecycle Services 资源](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)。
 
 ### <a name="prerequisites"></a>先决条件
 
@@ -48,10 +48,13 @@ ms.locfileid: "5821121"
 - 获取至少部署了一个环境的 LCS 实施项目。
 - 确保[加载项概述](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)中提供的设置加载项的先决条件已经满足。 库存可见性不需要双写入链接。
 - 请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性团队联系，获取以下三个必需文件：
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
+- 按照[快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)中提供的说明注册应用程序并在您的 Azure 订阅下将客户端密码添加到 AAD。
+    - [注册应用程序](/azure/active-directory/develop/quickstart-register-app)
+    - [添加客户端密码](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - 将在以下步骤中使用 **应用程序(客户端) ID**、**客户端密码** 和 **租户 ID**。
 
 > [!NOTE]
 > 目前支持的国家和地区包括加拿大、美国和欧盟 (EU)。
@@ -64,7 +67,7 @@ ms.locfileid: "5821121"
 
 1. 向您的租户添加服务原则：
 
-    1. 如[安装 Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 中所述安装 Azure AD PowerShell 模块 v2。
+    1. 如[安装 Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 中所述安装 Azure AD PowerShell 模块 v2。
     1. 运行以下 PowerShell 命令。
 
         ```powershell
@@ -80,7 +83,12 @@ ms.locfileid: "5821121"
     1. 选择 **新建**。 将应用程序 ID 设置为 *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*。 （保存更改后，对象 ID 将自动加载。）您可以自定义名称。 例如，您可以将其更改为 *库存可见性*。 当您完成时，选择 **保存**。
     1. 选择 **分配角色**，然后选择 **系统管理员**。 如果有一个名为 **Common Data Service 用户** 的角色，也选择它。
 
-    有关详细信息，请参阅[创建应用程序用户](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
+    有关详细信息，请参阅[创建应用程序用户](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
+
+1. 如果您的 Dataverse 的默认语言不是 **英语**：
+
+    1. 转到 **高级设置 \> 管理 \> 语言**，
+    1. 选择 **英语 (LanguageCode=1033)**，然后选择 **应用**。
 
 1. 导入 `Inventory Visibility Dataverse Solution.zip` 文件，其中包括与 Dataverse 配置相关的实体和 Power Apps：
 
@@ -158,12 +166,12 @@ ms.locfileid: "5821121"
 
     找到您的 LCS 环境的 Azure 区域，然后输入 URL。 URL 具有以下形式：
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     例如，如果您在欧洲，您的环境将具有以下 URL 之一：
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     以下区域当前可用。
 
@@ -212,13 +220,13 @@ ms.locfileid: "5821121"
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ ms.locfileid: "5821121"
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>示例请求
+
+下面是一个可供您参考的示例 http 请求，您可以使用任何工具或编码语言发送此请求，例如 ``Postman``。
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>配置库存可见性 API
 
@@ -338,7 +383,7 @@ ms.locfileid: "5821121"
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ ms.locfileid: "5821121"
     "returnNegative": true
 }
 ```
+
+对于 `filters` 字段，当前仅 `ProductId` 支持多个值。 如果 `ProductId` 是空数组，将查询所有产品。
 
 #### <a name="custom-measurement"></a>自定义度量
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795133"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892745"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>准备 Human Resources 实行
 
@@ -43,7 +43,7 @@ ms.locfileid: "5795133"
 | 2 | 完成并发送清单 | 用户验收测试 (UAT) 完成之后 | 合作伙伴/客户 | 请按照 [FastTrack 实行评估](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment)中提供的说明操作。 |
 | 3 | 项目评估 (FastTrack) | FastTrack 架构师* | 架构师在收到清单后进行评估并继续进行审核，直到确定问题并采取缓解措施（如果适用）。 |
 | 4 | 项目研讨会 (FastTrack) | FastTrack 架构师* | |
-| 5 | 数据包导入 | 取决于项目 | 合作伙伴/客户 | 请按照[数据管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)中的说明操作。|
+| 5 | 数据包导入 | 取决于项目 | 合作伙伴/客户 | 请按照[数据管理概述](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)中的说明操作。|
 | 6 | 生产准备 | 在完成前面的所有步骤之后 | 合作伙伴/客户 | 合作伙伴/客户可以控制生产环境。|
 | 7 | 直接转换活动 | 取决于项目 | 合作伙伴/客户 | |
 | 8 | 实行 | 取决于项目 | 客户 | |
@@ -66,7 +66,7 @@ ms.locfileid: "5795133"
 
 - 我们建议您的 UAT 流程从一个洁净的全新环境开始，您的 GOLD 配置中的数据将在 UAT 流程开始之前复制到该环境中。 我们建议您在实施前将此生产环境用作您的 GOLD 环境，实施时该环境将成为生产环境。
 - 测试用例涵盖整个需求范围。 
-- 使用迁移的数据进行测试。 此数据应包括主数据，例如工作人员、工作和职位。 还包括期初余额，例如休假和缺勤应计。 最后，包括未结交易，例如当前的福利登记。 即使未完成数据集，也可以使用所有类型的数据完成测试。 
+- 使用迁移的数据进行测试。 这应包括数据，例如工作人员、工作和职位。 还包括期初余额，例如休假和缺勤应计。 最后，包括未结交易，例如当前的福利登记。 即使未完成数据集，也可以使用所有类型的数据完成测试。 
 - 使用分配给用户的正确安全角色（默认角色和自定义角色）进行测试。 
 - 确保解决方案符合任何公司和行业特定的法规要求。 
 - 记录所有功能，并获得客户的审批和签核。 
@@ -86,7 +86,7 @@ ms.locfileid: "5795133"
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack 实行评估
 
-符合 FastTrack 资格并与 FastTrack 解决方案架构师合作的客户将通过 Microsoft FastTrack 完成实行审核。 有关详细信息，请参阅  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview)。 
+符合 FastTrack 资格并与 FastTrack 解决方案架构师合作的客户将通过 Microsoft FastTrack 完成实行审核。 有关详细信息，请参阅  [Microsoft FastTrack](/dynamics365/fasttrack/)。 
 
 大约在实行前的八周内，FastTrack 团队会要求您填写[实行清单](https://go.microsoft.com/fwlink/?linkid=2146013)。
 

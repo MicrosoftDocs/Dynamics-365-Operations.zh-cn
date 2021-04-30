@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 19ddd9eb34d5e5248f782aafc9ac9dee1b38dadb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825342"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909100"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
@@ -36,7 +36,7 @@ ms.locfileid: "5825342"
 先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件 
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **采购订单审核** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **采购订单审核** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -55,16 +55,16 @@ ms.locfileid: "5825342"
 <td>系统管理员</td>
 <td>KB 4017918 是包含<strong>采购订单审核</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4017918，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>发布<strong>采购订单审核</strong>移动工作区。</td>
 <td>系统管理员</td>
-<td>请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</td>
+<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 </tbody>
 </table>

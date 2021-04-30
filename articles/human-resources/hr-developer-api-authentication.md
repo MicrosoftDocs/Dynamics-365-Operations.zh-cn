@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793673"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893440"
 ---
 # <a name="authentication"></a>身份验证
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - 对于 Web 应用，提供应用的基本 URL。 例如，`http://localhost:31544` 可能是在本地计算机上运行的 Web 应用的 URL。 然后，用户使用此 URL 登录到 Web 客户端应用。
         - 对于公共客户端应用，提供 Azure AD 用于返回令牌响应的 URI。 输入特定于您的应用的值，例如 `myapp://auth`。
 
-        要查看 Web 应用或本地应用的特定示例，请参阅 [Microsoft 身份平台（以前的面向开发人员的 Azure Active Directory）](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts)中的快速入门。
+        要查看 Web 应用或本地应用的特定示例，请参阅 [Microsoft 身份平台（以前的面向开发人员的 Azure Active Directory）](/azure/active-directory/develop/#quickstarts)中的快速入门。
 
 5. 在 **API 权限** 下，选择 **添加权限**。 然后，在 **我的组织使用的 API** 选项卡上，搜索 **Dynamics 365 Human Resources**，并将 **user\_impersonation** 权限添加到您的应用。 Human Resources 的应用程序 ID 是 f9be0c49-aa22-4ec6-911a-c5da515226ff。 使用此 ID 来确保您选择了正确的应用程序。
 

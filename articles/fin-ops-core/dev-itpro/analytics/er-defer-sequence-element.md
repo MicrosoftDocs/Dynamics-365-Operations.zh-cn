@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753640"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894092"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>推迟执行 ER 格式的序列元素
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753640"
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>示例：推迟执行 ER 格式的序列元素
 
-以下步骤说明了具有系统管理员或电子报告职能顾问[角色](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的序列元素。
+以下步骤说明了具有系统管理员或电子报告职能顾问[角色](../sysadmin/tasks/assign-users-security-roles.md)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的序列元素。
 
 这些步骤可以在 **USMF** 公司内的 Microsoft Dynamics 365 Finance 中执行。
 

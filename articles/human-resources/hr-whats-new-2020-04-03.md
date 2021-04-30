@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8df0fb0349ca3bde6ed4f9851900f396fb3d9335
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 08059e38bed2f9daf4c5ff86f9e1cf33e1211785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790300"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892025"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Dynamics 365 Human Resources（2020 年 4 月 3 日）新增功能或更改
 
@@ -134,7 +134,7 @@ LCS 中每个项目的环境数量限制已更改。 先前的限制是两个环
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

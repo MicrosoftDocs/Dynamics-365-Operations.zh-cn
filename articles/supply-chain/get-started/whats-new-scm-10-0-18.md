@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832122"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909345"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 预览（2021 年 5 月）
 
@@ -35,15 +35,15 @@ ms.locfileid: "5832122"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
+此版本中包含以下功能。 单击[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
-- 自动下达采购订单（[云中缩放单元的仓库执行](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)的增强功能）<br> - 有关详细信息，请参阅[云和边缘缩放单元的仓库管理工作负荷](../cloud-edge/cloud-edge-workload-warehousing.md)。
+- 自动下达采购订单（[云中缩放单元的仓库执行](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)的增强功能）<br> - 有关详细信息，请参阅[云和边缘缩放单元的仓库管理工作负荷](../cloud-edge/cloud-edge-workload-warehousing.md)。
 
-- [企业规模的库存性能改进和存档](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - 有关详细信息，请参阅[存档库存交易记录](../inventory/archive-inventory-transactions.md)
+- [企业规模的库存性能改进和存档](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - 有关详细信息，请参阅[存档库存交易记录](../inventory/archive-inventory-transactions.md)
 
-- [返点管理](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - 有关详细信息，请参阅[返点管理模块概述](../rebate-management/rebate-management-overview.md)
+- [返点管理](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - 有关详细信息，请参阅[返点管理模块概述](../rebate-management/rebate-management-overview.md)
 
-- 仅上下班打卡的简化界面（[用于制造的增强生产车间执行界面](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing)的增强功能）<br> - 有关详细信息，请参阅[配置生产车间执行界面](../production-control/production-floor-execution-configure.md)。
+- 仅上下班打卡的简化界面（[用于制造的增强生产车间执行界面](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing)的增强功能）<br> - 有关详细信息，请参阅[配置生产车间执行界面](../production-control/production-floor-execution-configure.md)。
 
 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.18 中包含平台更新。 
 
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2021 发布波次 1 计划](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2021 发布波次 1 计划](/dynamics365-release-plan/2021wave1/)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 

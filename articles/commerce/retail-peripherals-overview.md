@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791939"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857265"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -142,6 +142,9 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 ### <a name="keyboard-wedge"></a>键盘 wedge
 
 键盘 wedge 设备向计算机发送数据，就像数据是从键盘键入的。 因此默认情况下，POS 上的活动字段将收到扫描或刷卡的数据。 在某些情况下，此行为可能导致将错误类型的数据扫描到错误的字段中。 例如，可能将条码扫描到本应输入信用卡数据的字段。 在大多数情况下，POS 中有逻辑可确定扫描的数据是条码还是刷卡。 因此可以正确处理数据。 但是，当设备设置为 OPOS 而不是键盘 wedge 设备时，对来自这些设备的数据的使用方式控制更严格，因为对数据的来源设备的“了解”更深。 例如，来自条码扫描仪的数据自动识别为条码，并且相比过去使用的一般字符串搜索（如使用键盘 wedge 设备时），可以更轻松、更快地找到数据库中的关联记录。
+
+> [!NOTE]
+> 当在 POS 中使用键盘 wedge 扫描仪时，必须对其进行编程以在最后扫描的字符之后发送回车符或 **Enter** 事件。 如果未完成此配置，键盘 wedge 扫描仪将无法正常运行。 请查阅设备制造商提供的文档，以获取有关如何追加回车符事件的详细信息。  
 
 ### <a name="native-printer"></a>本机打印机
 

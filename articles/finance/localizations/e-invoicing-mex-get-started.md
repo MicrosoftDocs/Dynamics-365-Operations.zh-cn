@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840044"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894875"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>开始使用适用于墨西哥的电子开票
 
@@ -86,7 +86,7 @@ ms.locfileid: "5840044"
 
     ![打开“格式设计器”页](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. 使用 **格式设计器** 页编辑和查看 ER 格式文件配置。 有关详细信息，请参阅[创建电子单据配置](../../dev-itpro/analytics/electronic-reporting-configuration.md)。
+3. 使用 **格式设计器** 页编辑和查看 ER 格式文件配置。 有关详细信息，请参阅[创建电子单据配置](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)。
 
     ![“格式设计器”页面](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ ms.locfileid: "5840044"
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>导入 CFDI 发票的 ER 数据模型、ER 数据模型映射和上下文配置
 
 1. 登录 Finance。
-2. 在 **电子报告** 工作区的 **配置提供程序** 部分，选择 **Microsoft** 标题。 确保此配置提供程序设置为 **有效**。 有关如何将提供程序设置为 **有效** 的信息，请参阅[创建配置提供程序并将其标记为有效](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11)。
+2. 在 **电子报告** 工作区的 **配置提供程序** 部分，选择 **Microsoft** 标题。 确保此配置提供程序设置为 **有效**。 有关如何将提供程序设置为 **有效** 的信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
 3. 选择 **存储库**。
 4. 选择 **全局资源 \> 打开**。
 5. 导入 **发票模型**、**发票模型映射**、**CFDI 发票格式 (MX)**、**CFDI 发票取消请求格式 (MX)** 和 **CFDI 发票取消格式 (MX)**。
@@ -215,7 +215,7 @@ ms.locfileid: "5840044"
 打开 **可配置电子开票集成** 功能后，将不再使用用于提交 CFDI 发票的 **导出/导入电子发票** 流程（**应收帐款 \> 发票 \> 电子发票**）。 取而代之的是一个名为 **提交电子单据** 的新流程。
 
 > [!NOTE]
-> 在使用新的 **提交电子单据** 流程前，请验证墨西哥电子发票所需的设置已完成。 有关详细信息，请参阅 [CFDI 布局版本 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3)。
+> 在使用新的 **提交电子单据** 流程前，请验证墨西哥电子发票所需的设置已完成。 有关详细信息，请参阅 [CFDI 布局版本 3.3](./latam-mex-cfdi-3-3.md)。
 
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 提交电子单据**。
 2. 对于任何文档的首次提交，请始终将 **重新提交文档** 选项设置为 **否**。 如果必须通过服务重新提交文档，请将此选项设置为 **是**。

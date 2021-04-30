@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753808"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894164"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>压缩在电子报告中生成的大型文档 
 
 [!include [banner](../includes/banner.md)]
 
-您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。 这生成的文档可能很大。 生成此类文档时，将使用[应用程序对象服务器 (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。 在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。 当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。 此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3)下载文件的大小为 1 GB。 因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。
+您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。 这生成的文档可能很大。 生成此类文档时，将使用[应用程序对象服务器 (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。 在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。 当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。 此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3)下载文件的大小为 1 GB。 因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。
 
 配置解决方案时，可以通过添加 **文件夹** 类型的根元素来压缩由其嵌套元素生成的内容，以在 Operations 设计器中调整 ER 格式。 压缩是“及时”进行的，因此可以减少高峰内存使用量和将要下载的文件大小。
 

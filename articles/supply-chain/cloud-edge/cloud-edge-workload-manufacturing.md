@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809774"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899087"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cloud Scale Unit 和 Edge Scale Unit 的制造执行工作负荷
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> 此时，制造执行工作负荷在预览状态下可用。
 > 当使用工作负荷缩放单元时，公开预览版中不完全支持某些业务功能。
 
-在制造执行中，Cloud Scale Unit 和 Edge Scale Unit 提供以下功能，即使 Edge 单元未连接到中心：
+在制造执行中，缩放单元提供以下功能：
 
 - 机器操作员和车间主管可以访问操作生产计划。
 - 机器操作员可以通过运行离散和流程制造作业来使计划保持最新状态。
@@ -108,5 +109,6 @@ Supply Chain Management 中的批处理作业会自动运行，以处理从工�
 
 _制造中心到缩放单元消息处理器_ 作业处理从中心到缩放单元的数据。 在部署制造执行工作负荷时将自动启动此作业。 但是，您可以通过转到 **生产控制 \> 定期任务 \> 后台工作负荷管理 \> 制造中心到缩放单元消息处理器** 随时手动运行它。
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

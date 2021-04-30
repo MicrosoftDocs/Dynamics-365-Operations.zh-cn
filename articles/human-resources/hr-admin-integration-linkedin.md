@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 208998b5c09416407612352da7a8ef5dd9491914
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805050"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889972"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
@@ -130,7 +130,7 @@ ms.locfileid: "5805050"
 ### <a name="create-the-table-in-dataverse"></a>在 Dataverse 中创建表
 
 > [!IMPORTANT]
-> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Dataverse 中的虚拟表。 作为设置中此步骤的先决条件，必须配置虚拟表。 有关如何配置虚拟表的信息，请参阅[配置 Dataverse 虚拟表](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
+> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Dataverse 中的虚拟表。 作为设置中此步骤的先决条件，必须配置虚拟表。 有关如何配置虚拟表的信息，请参阅[配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)。
 
 1. 在 Human Resources 中，打开 **Dataverse 集成** 页面。
 
@@ -189,7 +189,7 @@ ms.locfileid: "5805050"
 ## <a name="see-also"></a>请参阅
 
 [配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[什么是 Microsoft Dataverse？](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

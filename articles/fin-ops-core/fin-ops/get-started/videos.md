@@ -2,7 +2,7 @@
 title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754696"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881728"
 ---
 # <a name="videos"></a>视频 
 
@@ -84,6 +84,9 @@ ms.locfileid: "5754696"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance 的视频
 
+### <a name="business-document-management"></a>业务文档管理
+- [使用业务文档管理创建新业务文档](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>自定义应用程序
 - [添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [嵌入 Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -112,6 +115,9 @@ ms.locfileid: "5754696"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 的视频
+
+### <a name="business-document-management"></a>业务文档管理
+- [使用业务文档管理创建新业务文档](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>成本
 - [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818552"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898052"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
@@ -31,7 +31,7 @@ Finance insights 提供可配置和可扩展的模型，以帮助您准确，智
 
 Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
 
-可以并且应该仅在第 2 层沙盒环境中启用预览版功能。 在沙盒环境中创建的设置和人工智能 (AI) 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.)。
+可以并且应该仅在第 2 层沙盒环境中启用预览版功能。 在沙盒环境中创建的设置和人工智能 (AI) 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.)。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -43,7 +43,7 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 
 ### <a name="system-requirements"></a>系统要求
 
-需要第 2 层沙盒环境（多盒）才能预览 Finance insights。 有关环境的背景信息，请参阅[环境计划](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning)。
+需要第 2 层沙盒环境（多盒）才能预览 Finance insights。 有关环境的背景信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
 
 ### <a name="version-requirements"></a>版本要求
 
@@ -79,7 +79,7 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 完成配置步骤并设置演示数据后，必须打开并设置计划使用的每种功能：客户付款预测、现金流预测和预算提案。
 
 ### <a name="enable-customer-payment-predictions"></a>启用客户付款预测
-如果您使用演示数据测试客户付款预测，则可能必须导入更多演示数据才能成功创建 AI 模型。 有关导入演示数据的具体步骤，请参阅[为付款预测设置演示数据](set-up-demo-data.md)。
+如果您使用演示数据测试客户付款预测，则可能必须导入更多演示数据才能成功创建 AI 模型。 
 
 要启用客户付款预测，您必须完成一组步骤来构建一个机器学习模型，该模型使用组织的数据生成有关客户何时可能会支付未清发票和何时可能要支付特定发票的预测。 有关详细信息和要完成的具体步骤，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。 
 

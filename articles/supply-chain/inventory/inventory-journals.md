@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826027"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910177"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
@@ -95,7 +95,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 -    同步服务 (OData)
 -  异步集成
 
-有关详细信息，请参阅[数据实体](../../dev-itpro/data-entities/data-entities.md)。
+有关详细信息，请参阅[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)。
 
 > [!NOTE]
 > 并非所有库存日记帐均支持 OData，因此不能使用 Excel 数据连接器发布，更新和导回数据到 Supply Chain Management。 
@@ -113,7 +113,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 
 ## <a name="additional-resources"></a>其他资源
 
-[数据实体](../../dev-itpro/data-entities/data-entities.md)
+[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: d733bf3256fa1f6c572bd0aa35c228490d409bbc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836486"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909935"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>将项目内的工作订单从 Field Service 同步到 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5836486"
 
 [![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-使用的 **包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于 **工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
+使用的 **包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于 **工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
 本主题仅介绍这两个模板之间的区别：
 - **项目内的工作订单（Field Service 到 Supply Chain Management）**

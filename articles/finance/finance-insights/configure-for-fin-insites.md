@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818785"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908822"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Finance Insights（预览）的配置
 
@@ -69,7 +69,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Microsoft
     13. 选择 **资源 \> 所有旧设置**。
     14. 在顶部导航栏上，选择 **设置**，然后选择 **自定义**。
     15. 选择 **开发人员资源**。
-    16. 将 **实例参考信息 ID** 字段设置为您之前记下的 Dataverse 组织 ID 值。
+    16. 复制 **Dataverse 组织 ID** 值。
     17. 在浏览器的地址栏中，记下 Dataverse 组织的 URL。 例如，URL 可能是 `https://org42b2b3d3.crm.dynamics.com`。
 
 2. 如果您打算使用现金流预测或预算预测功能，请按照以下步骤将组织的注释限制更新为至少 50 兆字节 (MB)：
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[使用 Windows PowerShell 脚本](#tab/use-a-powershell-script)
 
-已提供了 Windows PowerShell 脚本，因此您可以轻松设置[配置导出到 Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake) 中介绍的 Azure 资源。 如果您希望进行手动设置，请跳过此过程，然后继续执行[手动设置](#manual-setup)部分中的过程。
+已提供了 Windows PowerShell 脚本，因此您可以轻松设置[配置导出到 Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) 中介绍的 Azure 资源。 如果您希望进行手动设置，请跳过此过程，然后继续执行[手动设置](#manual-setup)部分中的过程。
 
 > [!NOTE]
 > 请按照以下步骤运行 PowerShell 脚本。 Azure CLI 的“尝试”选项，否则在 PC 上运行脚本可能无效。
 
-请按照以下步骤使用 Windows PowerShell 脚本配置 Azure。 您必须有权创建 Azure 资源组、Azure 资源和 Azure AD 应用程序。 有关所需权限的信息，请参阅[检查 Azure AD 权限](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app)。
+请按照以下步骤使用 Windows PowerShell 脚本配置 Azure。 您必须有权创建 Azure 资源组、Azure 资源和 Azure AD 应用程序。 有关所需权限的信息，请参阅[检查 Azure AD 权限](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app)。
 
 1. 在 [Azure 门户](https://portal.azure.com)中，转到目标 Azure 订阅。 选择 **搜索** 字段右侧的 **Cloud Shell** 按钮。
 2. 选择 **PowerShell**。
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>配置实体存储
 
-请按照以下步骤在您的 Finance 环境中设置实体存储。
-
-1. 转到 **系统管理 \> 设置 \> 系统参数 \> 数据连接**。
-2. 将 **启用 Data Lake 集成** 选项设置为 **是**。
-3. 设置以下密钥保管库字段：
-
-    - **应用程序（客户端）ID** – 输入您先前创建的应用程序客户端 ID。
-    - **应用程序密码** – 输入为先前创建的应用程序保存的密码。
-    - **DNS 名称**–您可以在先前创建的应用程序的应用程序详细信息页面上找到域名系统 (DNS) 名称。
-    - **密码名称** – 输入 **存储帐户连接字符串**。
 
 ## <a name="configure-the-data-lake"></a>配置数据湖
 
@@ -991,6 +980,19 @@ finally {
     | CDS 租户 ID（AAD 的目录 ID）               | Dataverse 实例的租户 ID。 要找到此值，请打开 [Azure 门户](https://portal.azure.com)，转到 **Azure Active Directory**，然后复制 **租户 ID** 值。 |
     | 提供具有系统管理员角色的用户对象 ID | 用户在 Dataverse 中的 Azure AD 用户对象 ID。 该用户必须是该 Dataverse 实例的系统管理员。 要找到此值，请打开 [Azure 门户](https://portal.azure.com)，转到 **Azure Active Directory \> 用户**，选择用户，然后在 **身份** 部分中，复制 **对象 ID** 值。 |
     | 这是租户的默认 CDS 环境吗？      | 如果 Dataverse 实例是创建的第一个生产实例，请选中此复选框。 如果 Dataverse 实例是手动创建的，请清除此复选框。 |
+
+## <a name="configure-the-entity-store"></a>配置实体存储
+
+请按照以下步骤在您的 Finance 环境中设置实体存储。
+
+1. 转到 **系统管理 \> 设置 \> 系统参数 \> 数据连接**。
+2. 将 **启用 Data Lake 集成** 选项设置为 **是**。
+3. 设置以下密钥保管库字段：
+
+    - **应用程序（客户端）ID** – 输入您先前创建的应用程序客户端 ID。
+    - **应用程序密码** – 输入为先前创建的应用程序保存的密码。
+    - **DNS 名称**–您可以在先前创建的应用程序的应用程序详细信息页面上找到域名系统 (DNS) 名称。
+    - **密码名称** – 输入 **存储帐户连接字符串**。
 
 ## <a name="feedback-and-support"></a>反馈和支持
 

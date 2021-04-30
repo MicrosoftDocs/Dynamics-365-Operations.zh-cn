@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0ddb3ea3aa7f1941ff486d7a3e1db5846fac3eb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 15cedc16fbdbb5d25daa262f094a56bb8fe2f5cc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790540"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892697"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>创建购买和出售休假请求工作流
 
@@ -43,7 +43,7 @@ ms.locfileid: "5790540"
 
 4. 当 **打开此文件?** 消息框出现时，选择 **打开** 并使用您的公司凭据登录。
 
-5. 使用工作流编辑器为休假请求创建工作流。 有关使用工作流的详细信息，请参阅[创建工作流概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+5. 使用工作流编辑器为休假请求创建工作流。 有关使用工作流的详细信息，请参阅[创建工作流概述](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)
 
 ## <a name="leave-and-absence-request-workflow-data-elements"></a>休假和缺勤请求工作流数据元素
 
@@ -72,7 +72,7 @@ ms.locfileid: "5790540"
 
 这些示例说明如何使用以下数据元素创建不同类型的工作流条件：
 
-- 在自动操作中使用 **由人力资源部门提交** 和 **由经理提交**，以自动批准这些角色代表员工提交的购买和出售休假请求。 有关自动操作的更多信息，请参阅[配置工作流中的批准流程](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow)。
+- 在自动操作中使用 **由人力资源部门提交** 和 **由经理提交**，以自动批准这些角色代表员工提交的购买和出售休假请求。 有关自动操作的更多信息，请参阅[配置工作流中的批准流程](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md)。
 
 - 在条件语句或自动操作中使用 **休假类型**，以控制工作流如何传送特定休假类型的请求。
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821193"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909613"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Dynamics 365 Supply Chain Management 10.0.10（2020 年 5 月）中的新增功能或更改
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821193"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+此版本中包含以下功能。 功能标题链接至[发布计划](/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
-- [在仓库管理中使用现有实际称重标记的增强功能](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [在仓库管理中使用现有实际称重标记的增强功能](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [用于仓库管理的入站负荷管理增强功能](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。
+- [用于仓库管理的入站负荷管理增强功能](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。
 
-- [用于仓库管理的标签打印增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - 有关详细信息，请参阅[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)。
+- [用于仓库管理的标签打印增强](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - 有关详细信息，请参阅[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)。
 
-- [主计划在启用预处理筛选器后包括具有现有库存量的物料](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [主计划在启用预处理筛选器后包括具有现有库存量的物料](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [制造区域的新数据实体](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [制造区域的新数据实体](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [仓库流程质量管理](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - 有关详细信息，请参阅[仓库流程质量管理](../inventory/quality-management-for-warehouses-processes.md)。
+- [仓库流程质量管理](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - 有关详细信息，请参阅[仓库流程质量管理](../inventory/quality-management-for-warehouses-processes.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -61,7 +61,7 @@ Dynamics 365 Supply Chain Management 10.0.10 中包含平台更新。 若要了�
 
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2020 发布波次 1 计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2020 发布波次 1 计划](/dynamics365-release-plan/2020wave1/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753568"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894068"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>设计新 ER 配置以生成 Word 格式的报表
 
@@ -38,7 +38,7 @@ ms.locfileid: "5753568"
 解决方案的 ER 格式组件必须包含 **Excel\\File** 格式元素，并且该格式元素必须链接到将在运行时用作所生成报表的模板的 Word 文档。 要配置 ER 格式组件，必须在 ER 格式设计器中打开已创建的 ER 配置的[草稿](general-electronic-reporting.md#component-versioning)版本。 然后添加 **Excel\\File** 元素，将 Word 模板附加到可编辑 ER 格式，然后将该模板链接到添加的 **Excel\\File** 元素。
 
 > [!NOTE]
-> 在附加模板时，必须使用之前已在 ER 参数中[配置](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的[文档类型](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types)来存储 ER 格式的模板。
+> 在附加模板时，必须使用之前已在 ER 参数中[配置](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的[文档类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)来存储 ER 格式的模板。
 
 ![在“格式设计器”页附加模板](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ ms.locfileid: "5753568"
 
 ![在“格式设计器”页添加嵌套元素](./media/er-design-configuration-word-image4.gif)
 
-在设计期间保存对 ER 格式的更改时，分层格式结构将作为名为 **报表** 的[自定义 XML 部件](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)存储在附加的 Word 模板中。 您必须访问修改后的模板，从 Finance 中下载它，将它存储在本地，然后在 Word 桌面应用程序中打开它。 下图显示了包含 **报表** 自定义 XML 部件的控制报表的本地存储的示例模板。
+在设计期间保存对 ER 格式的更改时，分层格式结构将作为名为 **报表** 的[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)存储在附加的 Word 模板中。 您必须访问修改后的模板，从 Finance 中下载它，将它存储在本地，然后在 Word 桌面应用程序中打开它。 下图显示了包含 **报表** 自定义 XML 部件的控制报表的本地存储的示例模板。
 
 ![在 Word 桌面应用程序中预览示例报表模板](./media/er-design-configuration-word-image5.gif)
 
-在运行时 **Excel\\Range** 和 **Excel\\Cell** 格式元素的绑定运行时，每个绑定提供的数据将作为 **报表** 自定义 XML 部件的单独字段进入生成的 Word 文档。 要在生成的文档中输入自定义 XML 部件的字段中的值，您必须将适当的 Word [内容控件](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)添加到 Word 模板中，以在运行时用作将要填充的数据的占位符。 要指定内容控件的填充方式，请将每个内容控件映射到 **报表** 自定义 XML 部件的相应字段。
+在运行时 **Excel\\Range** 和 **Excel\\Cell** 格式元素的绑定运行时，每个绑定提供的数据将作为 **报表** 自定义 XML 部件的单独字段进入生成的 Word 文档。 要在生成的文档中输入自定义 XML 部件的字段中的值，您必须将适当的 Word [内容控件](/office/client-developer/word/content-controls-in-word)添加到 Word 模板中，以在运行时用作将要填充的数据的占位符。 要指定内容控件的填充方式，请将每个内容控件映射到 **报表** 自定义 XML 部件的相应字段。
 
 ![在 Word 桌面应用程序中添加和映射内容控件](./media/er-design-configuration-word-image6.gif)
 

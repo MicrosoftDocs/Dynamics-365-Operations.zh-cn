@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813909"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908559"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
 
@@ -30,12 +30,12 @@ ms.locfileid: "5813909"
 - [设置 Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) 10.0.9 或更高版本。
 - [为 Supply Chain Management 应用打开双重写入](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md)。
 - 针对 **MRGuidesFeature** 功能[打开发布外部测试版](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features)。 （对于生产环境，您必须首先提交支持票证，才能将您的租户添加到外部测试组。）
-- 在 **许可证配置** 页面上，[打开以下配置密钥](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference)：
+- 在 **许可证配置** 页面上，[打开以下配置密钥](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference)：
 
     - 资产管理 \> 资产管理混合现实
     - 混合现实 \> 混合现实指南
 
-- [设置 Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 或更高版本。
+- [设置 Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 或更高版本。
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>将 Dynamics 365 Guides 与资产管理配合使用
 
@@ -47,8 +47,8 @@ ms.locfileid: "5813909"
 
 1. 使用 Dynamics 365 Guides PC 和 HoloLens 应用创建指南。 有关如何创建指南的信息，请参阅以下主题：
 
-    - [使用 PC 应用创建指南](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [使用 HoloLens 应用放置全息影像](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [使用 PC 应用创建指南](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [使用 HoloLens 应用放置全息影像](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. 在 Supply Chain Management 中，[创建维护清单模板](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template)。
 1. 将您创建的指南与新维护清单模板中的维护清单行相关联：

@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836905"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898279"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -31,7 +31,20 @@ ms.locfileid: "5836905"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 版本中已经删除或弃用的功能
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR 查询发票数据请求 (HU) 格式配置
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 从与匈牙利语在线开票系统互操作的电子消息处理中排除 |
+| **被另一个功能取代？**   | 无 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：到 2022 年 4 月 15 日，我们计划不再支持“RTIR 查询发票数据请求 (HU)”格式配置。 |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance 10.0.17 版本中已经删除或弃用的功能
 

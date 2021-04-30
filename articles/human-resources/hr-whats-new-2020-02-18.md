@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790420"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890950"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources（2020 年 2 月 18 日）中的新增功能或更改
 
@@ -33,7 +33,7 @@ ms.locfileid: "5790420"
 
 ## <a name="platform-update-32"></a>平台 update 32 
 
-现已推出了平台更新 32。 有关详细信息，请参阅 [Finance and Operations 应用的平台更新 32（2020 年 2 月）的新增功能或更改的功能](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)。
+现已推出了平台更新 32。 有关详细信息，请参阅 [Finance and Operations 应用的平台更新 32（2020 年 2 月）的新增功能或更改的功能](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)。
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>更改简化的员工窗体中的查看选项时记忆搜索值 (383833)
 
@@ -81,7 +81,7 @@ Dataverse 中的系统币种现在可以同步到 Human Resources。
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 新增功能或更改](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

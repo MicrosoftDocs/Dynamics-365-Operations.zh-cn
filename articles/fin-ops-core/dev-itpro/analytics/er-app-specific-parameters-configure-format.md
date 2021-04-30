@@ -2,7 +2,8 @@
 title: 配置 ER 格式以使用每个法人指定的参数
 description: 本主题说明如何配置电子报告 (ER) 格式以使用每个法人指定的参数。
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751170"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853485"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>配置 ER 格式以使用每个法人指定的参数
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751170"
 
 ## <a name="overview"></a>概览
 
-在您将要设计的许多电子报告 (ER) 格式中，您必须使用一组特定于您实例的每个法人的值（例如，用于筛选税收交易记录的一组税码）来筛选数据。 当前，以 ER 格式配置这种类型的筛选时，在 ER 格式的表达式中使用依赖于法人的值（例如，税码）来指定数据筛选规则。 因此，将 ER 格式设为特定于法人，要生成所需的报表，必须为必须运行 ER 格式的每个法人创建原始 ER 格式的派生副本。 必须对每种派生的 ER 格式进行编辑，以将特定于法人的值引入其中，每当原始（基本）版本更新，从测试环境中导出并在必须部署用于生产用途时导入到生产环境中等情况下，都将重定基本值。 因此，出于以下几个原因，此类已配置的 ER 解决方案的维护非常复杂且耗时：
+在您将要设计的许多电子报告 (ER) 格式中，您必须使用一组特定于您实例的每个法人的值（例如，用于筛选税收交易记录的一组税码）来筛选数据。 当前，以 ER 格式配置这种类型的筛选时，在 ER 格式的表达式中使用依赖于法人的值（例如，税码）来指定数据筛选规则。 因此，将 ER 格式设为特定于法人，要生成所需的报表，必须为必须运行 ER 格式的每个法人创建原始 ER 格式的派生副本。 必须对每种派生的 ER 格式进行编辑，以将特定于法人的值引入其中，每当原始（基本）版本更新，从测试环境中导出并在必须部署用于生产用途时导入到生产环境中等情况下，都将重定基本值。 因此，出于以下几个原因，此类已配置的 ER 解决方案的维护复杂且耗时：
 
 -   法人越多，必须维护的 ER 格式配置就越多。
 -   维护 ER 配置需要业务用户具有 ER 知识。
@@ -86,7 +87,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
     ![税务交易的 Model.Data.Summary 数据源列表](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    已配置 **Model.Data.Summary.Level** 计算字段，使其包含 ER 表达式。 请注意，税码（**VAT19**、**InVAT19**、**VAT7**、**InVAT7**、**THIRD** 和 **InVAT0**）被硬编码到此配置中。 因此，此 ER 格式取决于配置了这些税码的法人。
+    已配置 **Model.Data.Summary.Level** 计算字段，使其包含 ER 表达式。 税码（**VAT19**、**InVAT19**、**VAT7**、**InVAT7**、**THIRD** 和 **InVAT0**）将硬编码到此配置中。 因此，此 ER 格式取决于配置了这些税码的法人。
 
     ![具有硬编码税码的 Model.Data.Summary.Level 计算字段](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 1.  在 **映射** 选项卡上，选择 **添加**。
 2.  选择 **格式枚举\查找**。
 
-    您刚刚确定，业务用户为征税级别识别指定的每个规则将返回 ER 格式枚举的值。 请注意，除了 **格式枚举** 块外，还可以在 **数据模型** 和 **Dynamics 365 for Operations** 块下访问 **查找** 数据源类型。 因此，ER 数据模型枚举和应用程序枚举可用于指定为该类型的数据源返回的值的类型。
+    您刚刚确定，业务用户为征税级别识别指定的每个规则将返回 ER 格式枚举的值。 请注意，除了 **格式枚举** 块外，还可以在 **数据模型** 和 **Dynamics 365 for Operations** 块下访问 **查找** 数据源类型。 因此，ER 数据模型枚举和应用程序枚举可用于指定为该类型的数据源返回的值的类型。 若要了解有关 **查找** 数据源的详细信息，请参阅[配置查找数据源以使用 ER 应用程序特定的参数功能](er-lookup-data-sources.md)。
     
 3.  在 **名称** 字段中，输入 **选择器**。
 4.  在 **格式枚举** 字段中，选择 **征税级别列表**。
 
-    您刚刚指定，对于此数据源中指定的每个规则，业务用户必须选择 **征税级别列表** 格式枚举的值之一作为返回值。
+    您指定，对于此数据源中指定的每个规则，商务用户必须选择 **征税级别列表** 格式枚举的值之一作为返回值。
     
 5.  选择 **编辑查找**。
 6.  选择 **列**。
@@ -190,7 +191,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
     
     ![具有新数据源的格式设计器页面](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    请注意，对配置的规则的评估取决于为定义这些规则的条件而选择的字段的数据类型。 当您选择一个配置为 **数字** 或 **日期** 数据类型的字段的字段时，条件将不同于先前针对 **字符串** 数据类型描述的条件。 对于 **数字** 和 **日期** 字段，必须将规则指定为值的范围。 当传递到数据源的值在配置的范围内时，将认为规则的条件已满足。
+    对已配置规则的评估取决于为定义这些规则的条件而选择的字段的数据类型。 当您选择一个配置为 **数字** 或 **日期** 数据类型的字段的字段时，条件将不同于先前针对 **字符串** 数据类型描述的条件。 对于 **数字** 和 **日期** 字段，必须将规则指定为值的范围。 当传递到数据源的值在配置的范围内时，将认为规则的条件已满足。
     
     下图显示了此类设置的示例。 除了 **字符串** 数据类型的 **Model.Data.Tax.Code** 字段外，**实数** 数据类型的 **Model.Tax.Summary.Base** 字段用于指定查找数据源的条件。
     
@@ -271,7 +272,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
     ![ER Operation 设计器页](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
-    请注意，**Model.Data.Summary.Level** 字段的表达式现在将基于当前记录的税码和业务用户在 **Model.Data.Selector** 查找数据源中配置的规则集返回征税级别。
+    请注意，**Model.Data.Summary.Level** 字段的表达式现在将基于当前记录的税码和商务用户在 **Model.Data.Selector** 查找数据源中配置的规则集返回征税级别。
     
 5.  选择 **保存**。
 6.  关闭 **公式设计器** 页。
@@ -287,26 +288,28 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
 ## <a name="export-completed-version-of-modified-format"></a>导出修改后格式的完整版本
 
-1.  在配置树中，选择 **用于了解如何查找 LE 数据的格式** 项。
+1.  在配置树中，选择 **用于了解如何查找 LE 数据的格式** 项目。
 2.  在 **版本** 快速选项卡上，选择状态为 **已完成** 的记录。
 3.  选择 **交换**。
 4.  选择 **导出为 XML 文件**。
 5.  选择 **确定**。
-6.  Web 浏览器下载 **Format to learn how to lookup LE data.xml** 文件。 将此文件存储在本地。
+6.  Web 浏览器下载 **Format to learn how to look up LE data.xml** 文件。 将此文件存储在本地。
 
-对 **用于了解如何查找 LE 数据的格式** 的父项重复本节中的步骤，并在本地存储以下文件：
+对 **用于了解如何查找 LE 数据的格式** 的父项重复本部分中的步骤，并在本地存储以下文件：
 
 -   Format to learn parameterized calls.xml
 -   Mapping to learn parameterized calls.xml
 -   Model to learn parameterized calls.xml
 
-要了解如何使用已配置的 **用于了解如何查找 LE 数据的格式** ER 格式来设置法人相关的税码集，以按不同征税级别筛选税收交易记录，请完成[为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)主题中的步骤。
+若要了解如何使用已配置的 **用于了解如何查找 LE 数据的格式** ER 格式来设置法人相关的税码集，以按不同征税级别筛选税收交易，请完成[为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)主题中的步骤。
 
 ## <a name="additional-resources"></a>其他资源
 
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
-[为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)
+[为每个法人设置电子报告格式的参数](er-app-specific-parameters-set-up.md)
+
+[配置查找数据源以使用 ER 应用程序特定的参数功能](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

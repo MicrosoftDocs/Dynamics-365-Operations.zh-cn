@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841471"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910153"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 
@@ -144,7 +144,7 @@ ms.locfileid: "5841471"
     - **站点** 和 **仓库** – 如果仅针对特定的站点和仓库应用费用，指定站点和仓库。
     - **保留** – 选中此复选框以在完成开票后保留这些费用交易记录，以便每次为所选客户帐户创建新发票时应用该费用。
 
-1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
+1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>将费用从标头分配到行
 

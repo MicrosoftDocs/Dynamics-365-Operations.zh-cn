@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838314"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908003"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838314"
 
 推迟处理功能让仓库工人可以在后台处理放置操作期间继续执行其他工作。 当必须处理大量工作行，并且工人可以异步处理这些工作时，推迟处理非常有用。 当服务器的处理时间临时或意外增加，并且增加的处理时间可能影响用户的生产率时，此功能也非常有用。
 
-可使用 SysOperation 框架实现后台处理。 有关详细信息，请参阅 [SysOperation 框架概述](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview)。
+可使用 SysOperation 框架实现后台处理。 有关详细信息，请参阅 [SysOperation 框架概述](/dynamicsax-2012/developer/sysoperation-framework-overview)。
 
 ## <a name="configuring-the-work-processing-policies"></a>配置工作处理策略
 

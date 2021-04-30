@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791525"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892267"
 ---
 # <a name="update-process"></a>更新流程
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)�
 
 Human Resources 更新将自动应用于所有环境。 Human Resources 提供两种类型的发布：
 
-- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 要了解何时发布平台更新，请参阅[表 3：平台发布](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases)。 每两周更新跨区域在全球分期推出。 有关每两周更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
+- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 要了解何时发布平台更新，请参阅[表 3：平台发布](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases)。 每两周更新跨区域在全球分期推出。 有关每两周更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
 
     除非另有说明，否则所有受支持的数据中心都会每两周更新一次。 每两周更新中包括美国、澳大利亚、欧洲、英国、亚洲和加拿大地区。 
 
@@ -71,11 +71,11 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
 - [Dynamics 365 Human Resources 路线图](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Dynamics 365 版本计划](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Dynamics 365 版本计划](/dynamics365/release-plans/)
 
 - [Dynamics 365 Human Resources 新增功能或更改](hr-admin-whats-new.md)
 
-- [Lifecycle Services (LCS) 中的问题搜索](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs)（仅适用于平台相关漏洞）
+- [Lifecycle Services (LCS) 中的问题搜索](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md)（仅适用于平台相关漏洞）
 
 - [Human Resources 博客](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>沙盒环境中的预览功能
 
-您可以先在沙盒环境中验证预览功能，然后再在生产环境中启用。 有关启用功能的详细信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+您可以先在沙盒环境中验证预览功能，然后再在生产环境中启用。 有关启用功能的详细信息，请参阅[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
 所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在功能管理工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
 
@@ -101,9 +101,9 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
 ## <a name="see-also"></a>请参阅
 
-[Dynamics 365 和 Power Platform 版本计划](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Dynamics 365 和 Power Platform 版本计划](/dynamics365/release-plans)</br>
 [Dynamics 365 Human Resource 的新增功能或更改](hr-admin-whats-new.md)</br>
-[软件生命周期策略](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[软件生命周期策略](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

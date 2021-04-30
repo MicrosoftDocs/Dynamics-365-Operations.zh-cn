@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815396"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897128"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 
@@ -65,7 +65,7 @@ ms.locfileid: "5815396"
 
 如果凭证行数量为 100 行或更少，将立即运行冲销流程。 将在对话框中显示结果，其中显示不能冲销的所有凭证，以及原因。 选择 **确定** 关闭对话框。
 
-仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment)中列出的步骤来冲销供应商付款。
+仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](../accounts-payable/reverse-vendor-payment.md)中列出的步骤来冲销供应商付款。
 
 
 

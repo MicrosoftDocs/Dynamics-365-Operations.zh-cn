@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 73ae905b848588898f4a1c6e973bcd3a952c7dc1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 53cdd1966e76dfcfc427e73520a680a610667617
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842621"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908798"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户角色
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何在 Microsoft Teams 中管理 Microsoft Dynamics 365 Commerce 用户角色。
 

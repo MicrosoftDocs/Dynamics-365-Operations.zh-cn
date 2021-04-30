@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 84c8c782b917850267c34696f3b2afa607118d84
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753609"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894044"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -44,7 +44,7 @@ ms.locfileid: "5753609"
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>示例：推迟执行 ER 格式的 XML 元素
 
-以下步骤说明了具有系统管理员或电子报告职能顾问[角色](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的 XML 元素。
+以下步骤说明了具有系统管理员或电子报告职能顾问[角色](../sysadmin/tasks/assign-users-security-roles.md)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的 XML 元素。
 
 这些步骤可以在 **USMF** 公司内的 Microsoft Dynamics 365 Finance 中执行。
 

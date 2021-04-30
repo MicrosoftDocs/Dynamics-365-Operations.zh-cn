@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859753c04e3b3d3b61d9a61edaf396637ed5a003
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8044f81ee59af4a11bfab38525afdac5a46acd2c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746979"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891249"
 ---
 # <a name="datetimeformat-er-function"></a>DATETIMEFORMAT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`DATETIMEFORMAT` 函数返回一个 *字符串* 值，此值以指定格式和指定的[区域性](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期/时间值显示为文本。 有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。
+`DATETIMEFORMAT` 函数返回一个 *字符串* 值，此值以指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期/时间值显示为文本。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -51,7 +51,7 @@ DATETIMEFORMAT (datetime, format, culture)
 输出字符串的格式。
 
 > [!NOTE]
-> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
+> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
 
 `culture`：*字符串*
 

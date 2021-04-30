@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d43b96176c51d12c35383da75bf65a1ad92f84c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1efdf095e379b73d553ca3525abbeee8ca35bcbb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815276"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897496"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
@@ -28,7 +28,7 @@ ms.locfileid: "5815276"
 
 本主题描述 Microsoft Dynamics 365 Finance 中与用于转移子分类日记帐分录批次的规则有关的功能。
 
-在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[已删除或弃用 Finance and Operations 的功能](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20)。
+在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[已删除或弃用 Finance and Operations 的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)。
 
 以下选项可用于传输子分类帐批次。 
 

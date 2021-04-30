@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838386"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911288"
 ---
 # <a name="work-with-location-directives"></a>使用库位指令
 
@@ -44,8 +44,8 @@ ms.locfileid: "5838386"
 1. 转到 **仓库管理 \> 设置 \> 仓库 \> 仓库**。
 1. 创建仓库。
 1. 在 **仓库** 快速选项卡上，将 **使用仓库管理流程** 选项设置为 *是*。
-1. 创建位置、位置类型、位置配置文件和位置格式。 有关详细信息，请参阅[配置启用了 WMS 的仓库中的位置](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse)。
-1. 创建站点、区域和区域组。 有关详细信息，请参阅[仓库设置](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse)和[配置启用了 WMS 的仓库中的位置](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse)。
+1. 创建位置、位置类型、位置配置文件和位置格式。 有关详细信息，请参阅[配置启用了 WMS 的仓库中的位置](./tasks/configure-locations-wms-enabled-warehouse.md)。
+1. 创建站点、区域和区域组。 有关详细信息，请参阅[仓库设置](../../commerce/channels-setup-warehouse.md)和[配置启用了 WMS 的仓库中的位置](./tasks/configure-locations-wms-enabled-warehouse.md)。
 
 ## <a name="work-order-types-for-location-directives"></a>库位指令的工作订单类型
 
@@ -143,7 +143,7 @@ ms.locfileid: "5838386"
 - **指令代码** – 选择要与工作模板或补货模板关联的指令代码。 在 **指令代码** 页面上，您可以创建可用于将工作模板或补货模板连接到库位指令的新代码。 指令代码还可用于建立任何工作模板行与库位指令（如货架门或暂存库位）之间的链接。
 
     > [!TIP]
-    > 如果设置了指令代码，在必须生成工作时，系统将不会按序列号搜索库位指令。 相反，它将按指令代码进行搜索。 这样，您可以更具体地了解用于工作模板中特定步骤（如暂存材料的步骤）的库位模板。
+    > 如果设置了指令代码，在必须生成工作时，系统将不会按序列号搜索库位指令。 相反，它将按指令代码进行搜索。 这样，您可以更具体地了解用于工作模板中特定步骤（例如暂存物料的步骤）的库位指令。
 
 - **多个 SKU** – 将此选项设置为 *是* 以在一个库位上启用多个要使用的库存单位 (SKU)。 例如，必须为货架门库位启用多个 SKU。 如果启用多个 SKU，将按预期在工作中指定放置库位。 但是，放置库位将只能处理多物料放置（如果工作包括必须领料和放置的不同 SKU）。 它将无法处理单个 SKU 放置。 如果将此选项设置为 *否*，则仅在您的放置只有一种 SKU 时才指定放置库位。
 
@@ -249,7 +249,7 @@ ms.locfileid: "5838386"
 
 ## <a name="next-step"></a>后续步骤
 
-在创建位置指令后，您可使各指令代码与工作创建的工作模板代码关联。 有关详细信息，请参阅[使用工作模板和位置指令控制仓库工作](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives)。
+在创建位置指令后，您可使各指令代码与工作创建的工作模板代码关联。 有关详细信息，请参阅[使用工作模板和位置指令控制仓库工作](./control-warehouse-location-directives.md)。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dc723728801909c67cb823a043a2ae3e7eaf9f05
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803865"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892195"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>避免职位层次结构和导出到 Visio 时的文本截断
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803865"
 
 **分辨率**
 
-遗憾的是，用户不能轻松更改文本的大小。 但是，您可以将职位层次结构从 Human Resources 中导出，然后导入到 Microsoft Visio。 以下文章是为 Microsoft Dynamics AX 2012 所写，但过程也适用于 Human Resources：[导出职位层次结构到 Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)。
+遗憾的是，用户不能轻松更改文本的大小。 但是，您可以将职位层次结构从 Human Resources 中导出，然后导入到 Microsoft Visio。 以下文章是为 Microsoft Dynamics AX 2012 所写，但过程也适用于 Human Resources：[导出职位层次结构到 Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)。
 
 执行以下步骤导出到 Visio。
 

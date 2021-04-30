@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789628"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890739"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -93,7 +93,7 @@ ms.locfileid: "5789628"
 
 您可以基于所创键模板新建审核。 例如，您可以有一个模板适用于一对一会议、开发计划或定期审核。 可以在新建审核时选择模板。
 
-要打印审核，请选择 **打印审核** 按钮。 如果您没有在 **审核** 页上看到此按钮，请确保您已在 **功能管理** 工作区启用此功能。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+要打印审核，请选择 **打印审核** 按钮。 如果您没有在 **审核** 页上看到此按钮，请确保您已在 **功能管理** 工作区启用此功能。 有关功能管理的更多信息，请参阅[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
 > [!NOTE]
 > 仅 Human Resources 中提供打印绩效审核的功能。 Dynamics 365 Finance 中不提供。

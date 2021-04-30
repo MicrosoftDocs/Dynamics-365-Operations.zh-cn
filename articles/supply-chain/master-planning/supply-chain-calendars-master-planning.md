@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841759"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908363"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 
@@ -90,7 +90,7 @@ ms.locfileid: "5841759"
 
 请注意，每个客户只能包含一个日历。 如果您需要为客户的每个不同地址包含日历，您可以为每个地址创建一个客户，然后分配其各自的日历。 
 
-销售订单行上的请求收货日期受客户日历和交货日期控制方法的影响。 您可以在[订单承诺](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)中阅读有关如何计算最早交货日期的详细信息。
+销售订单行上的请求收货日期受客户日历和交货日期控制方法的影响。 您可以在[订单承诺](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)中阅读有关如何计算最早交货日期的详细信息。
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>法人的装运日历
 若要指示法人可以装运货物的日期，您可以在 **管理组织 > 组织 > 法人** 下设置装运日历。 选择法人，然后在 **装运日历** 字段中的 **外贸和物流** 选项卡中添加日历。 装运日程将充当法人中所有仓库日历的默认源。 

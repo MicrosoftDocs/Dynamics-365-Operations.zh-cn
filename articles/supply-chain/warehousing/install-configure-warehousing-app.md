@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835551"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909371"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835551"
 > 本主题介绍了如何配置旧仓库应用（现在已弃用）。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
 
 > [!NOTE]
-> 本主题介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
+> 本主题介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
 
 可从 Google Play Store 和 Microsoft Store 获取仓库应用。 其以独立组件的形式提供。 因此，必须将其下载到每个设备，然后进行配置以连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
 
@@ -54,7 +54,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 - **Windows (UWP)**：[Microsoft Store 中的 Dynamics 365 for Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android**：[Google Play Store 中的 Warehousing - Dynamics 365](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-对于较小部署，可能需要在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。 但是，在仓库应用的版本 1.7.0.0 及更高版本中，也可以自动执行应用部署和/或配置。 如果管理大量设备，并且在使用移动设备管理和移动应用程序管理解决方案（如 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)），可能会发现这种方法非常方便。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](https://docs.microsoft.com/mem/intune/apps/apps-add)。
+对于较小部署，可能需要在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。 但是，在仓库应用的版本 1.7.0.0 及更高版本中，也可以自动执行应用部署和/或配置。 如果管理大量设备，并且在使用移动设备管理和移动应用程序管理解决方案（如 [Microsoft Intune](/mem/intune/fundamentals/what-is-intune)），可能会发现这种方法非常方便。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](/mem/intune/apps/apps-add)。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 
@@ -89,11 +89,11 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
-- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
+- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
 - 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下主题：
 
-    - [快速入门：向 Microsoft 身份平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)
+    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>在 Supply Chain Management 中创建和配置用户帐户
 
@@ -121,7 +121,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 
-必须在运行仓库应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](https://docs.microsoft.com/mem/intune/protect/certificates-configure)。
+必须在运行仓库应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](/mem/intune/protect/certificates-configure)。
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>通过导入连接设置配置应用程序
 

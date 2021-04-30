@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d6f2f69b7093e5408b016f4a69792b28c70f57f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a2b581c8ae52f4c379e8e511dc898a8d106d149
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824670"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908052"
 ---
 # <a name="accruing-subscriptions"></a>应计预订 
 
@@ -41,7 +41,7 @@ ms.locfileid: "5824670"
 
   - 您可以具有在过帐贷方通知单的日期或在应计的原始过帐日期冲销的应计金额。
 
-有关详细信息，请参阅[预订参数（窗体）](https://technet.microsoft.com/library/aa619615.aspx)。
+有关详细信息，请参阅[预订参数（窗体）](/dynamicsax-2012//subscription-parameters-form)。
 
 ## <a name="setup-requirements"></a>设置需求
 

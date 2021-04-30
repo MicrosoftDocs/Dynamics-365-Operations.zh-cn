@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743499"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893244"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 
@@ -41,7 +41,7 @@ ms.locfileid: "5743499"
 所有金额均以公司币种显示。 将显示所有公司的数据，但是如果需要，可以添加公司筛选器。 
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内找到 Expense Admin Dashboard.pbix 和 Expense Personal Dashboard.pbix Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
+可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内找到 Expense Admin Dashboard.pbix 和 Expense Personal Dashboard.pbix Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)。
 该内容可以以嵌入式 Power Bi 内容的形式从费用管理工作区获取。 费用负责人可以访问自己的个人费用，但是只有应付帐款职员和经理可以访问管理员内容以查看所有用户的费用数据。
 
 ## <a name="refreshing-the-power-bi-content"></a>刷新 Power BI 内容

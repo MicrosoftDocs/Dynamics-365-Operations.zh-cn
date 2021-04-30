@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837625"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910369"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
@@ -51,7 +51,7 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 价值流本身将建模为运营单位。 因此，价值流可以用作财务维度。
 
-有关运营单位的详细信息，请参阅[创建运营单位](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md)。
+有关运营单位的详细信息，请参阅[创建运营单位](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md)。
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>基于生产流的精益制造的成本计算
 生产流的成本的定期合并可纠正相关 WIP 帐户和为生产流提供的产品确定的差异。

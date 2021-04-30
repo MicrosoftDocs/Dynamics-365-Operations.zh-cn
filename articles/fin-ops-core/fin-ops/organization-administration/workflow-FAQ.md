@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747193"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890349"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -45,9 +45,9 @@ ms.locfileid: "5747193"
     - 将来的更新中，将添加操作中心消息，以便为用户分配工作流工作项。 
 - 向工作流添加通知
     - 可以为特定用户创建操作中心消息，如使用 X++ 从工作流创建的消息。
-    - [工作流具有业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)，可供客户用于触发具有客户在寻找的通知的流。   
+    - [工作流具有业务事件](../../dev-itpro/business-events/business-events-workflow.md)，可供客户用于触发具有客户在寻找的通知的流。   
 
-总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)和 Microsoft Power Automate 提供更多通知或不同通知。
+总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](../../dev-itpro/business-events/business-events-workflow.md)和 Microsoft Power Automate 提供更多通知或不同通知。
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>为什么工作流编辑器在 AD FS 下无法启动？
 在升级的环境中的 Active Directory 联合身份验证服务 (AD FS) 下运行时，工作流编辑器可能无法启动。 如果是这样，请确保 URL“https://dynamicsaxworkfloweditor/”已添加到 ADFS 设置中的属性 **Microsoft Dynamics 365 for Operations On-premises - 工作流 - 本机应用程序**。

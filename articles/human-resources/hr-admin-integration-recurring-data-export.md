@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801111"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889852"
 ---
 # <a name="create-a-recurring-data-export-app"></a>创建重复性数据导出应用
 
@@ -43,12 +43,12 @@ ms.locfileid: "5801111"
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – 将导出的工作人员的主数据源。
 - **[Azure 逻辑应用](https://azure.microsoft.com/services/logic-apps/)** – 提供重复导出的业务流程和计划的技术。
 
-    - **[连接器](https://docs.microsoft.com/azure/connectors/apis-list)** – 用于将逻辑应用连接到所需终结点的技术。
+    - **[连接器](/azure/connectors/apis-list)** – 用于将逻辑应用连接到所需终结点的技术。
 
-        - [HTTP 与 Azure AD](https://docs.microsoft.com/connectors/webcontents/) 连接器
-        - [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) 连接器
+        - [HTTP 与 Azure AD](/connectors/webcontents/) 连接器
+        - [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness) 连接器
 
-- **[DMF 包 REST API](../dev-itpro/data-entities/data-management-api.md)** – 用于触发导出并监视其进度的技术。
+- **[DMF 包 REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – 用于触发导出并监视其进度的技术。
 - **[OneDrive for Business](https://onedrive.live.com/about/business/)** – 导出的工作人员的目标位置。
 
 ## <a name="prerequisites"></a>先决条件
@@ -84,11 +84,11 @@ ms.locfileid: "5801111"
     ![逻辑应用创建页面](media/integration-logic-app-creation-1.png)
 
 2. 在逻辑应用设计器中，从空白逻辑应用开始。
-3. 添加[重复执行计划触发器](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence)，每 24 小时（或根据您选择的计划）运行一次逻辑应用。
+3. 添加[重复执行计划触发器](/azure/connectors/connectors-native-recurrence)，每 24 小时（或根据您选择的计划）运行一次逻辑应用。
 
     ![“重复执行”对话框](media/integration-logic-app-recurrence-step.png)
 
-4. 调用 [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API 计划数据包的导出。
+4. 调用 [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API 计划数据包的导出。
 
     1. 从带有 Azure AD 连接器的 HTTP 使用 **调用 HTTP 请求** 操作。
 
@@ -122,13 +122,13 @@ ms.locfileid: "5801111"
     > [!TIP]
     > 您可能需要重命名每个步骤，以使其比默认名称 **调用 HTTP 请求** 更有意义。 例如，您可以重命名此步骤 **ExportToPackage**。
 
-5. [初始化变量](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)以存储 **ExportToPackage** 请求的执行状态。
+5. [初始化变量](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)以存储 **ExportToPackage** 请求的执行状态。
 
     ![初始化变量操作](media/integration-logic-app-initialize-variable-step.png)
 
 6. 等待直到数据导出的执行状态为 **已成功**。
 
-    1. 添加一个一直重复到 **ExecutionStatus** 变量的值为 **已成功** 的 [Until 循环](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop)。
+    1. 添加一个一直重复到 **ExecutionStatus** 变量的值为 **已成功** 的 [Until 循环](/azure/logic-apps/logic-apps-control-flow-loops#until-loop)。
     2. 添加等待五秒钟，然后才轮询导出的当前执行状态的 **延迟** 操作。
 
         ![Until 循环容器](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ ms.locfileid: "5801111"
         > [!NOTE]
         > 将限制计数设置为 **15**，以最多等待 75 秒（15 次迭代 × 5 秒）完成导出。 如果导出需要更多时间，请适当调整限制计数。        
 
-    3. 添加 **调用 HTTP 请求** 操作以调用 [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API，并将 **ExecutionStatus** 变量设置为 **GetExecutionSummaryStatus** 响应的结果。
+    3. 添加 **调用 HTTP 请求** 操作以调用 [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API，并将 **ExecutionStatus** 变量设置为 **GetExecutionSummaryStatus** 响应的结果。
 
-        > 此示例不进行错误检查。 **GetExecutionSummaryStatus** API 可以返回不成功的终端状态（即，**已成功** 以外的状态）。 有关详细信息，请参阅 [API 文档](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)。
+        > 此示例不进行错误检查。 **GetExecutionSummaryStatus** API 可以返回不成功的终端状态（即，**已成功** 以外的状态）。 有关详细信息，请参阅 [API 文档](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)。
 
         - **方法：** POST
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ ms.locfileid: "5801111"
 
 7. 获取导出包的下载 URL。
 
-    - 添加 **调用 HTTP 请求** 操作以调用 [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API。
+    - 添加 **调用 HTTP 请求** 操作以调用 [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API。
 
         - **方法：** POST
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ ms.locfileid: "5801111"
 
 8. 下载导出的包。
 
-    - 添加 HTTP **GET** 请求（内置的 [HTTP 连接器操作](https://docs.microsoft.com/azure/connectors/connectors-native-http)）以从上一步中返回的 URL 下载包。
+    - 添加 HTTP **GET** 请求（内置的 [HTTP 连接器操作](/azure/connectors/connectors-native-http)）以从上一步中返回的 URL 下载包。
 
         - **方法：** GET
         - **URI：** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ ms.locfileid: "5801111"
         > [!NOTE]
         > 此请求不需要任何其他身份验证，因为 **GetExportedPackageUrl** API 返回的 URL 包含一个共享访问签名令牌，该令牌授予下载文件的访问权限。
 
-9. 使用 [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) 连接器保存下载的包。
+9. 使用 [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness) 连接器保存下载的包。
 
-    - 添加 OneDrive for Business [创建文件](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file)操作。
+    - 添加 OneDrive for Business [创建文件](/connectors/onedriveforbusinessconnector/#create-file)操作。
     - 根据需要连接到您的 OneDrive for Business 帐户。
 
         - **文件夹路径：** 您选择的文件夹

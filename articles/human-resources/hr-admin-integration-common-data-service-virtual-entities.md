@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805098"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890044"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources 是 Microsoft Dataverse 中的虚拟数据源。 �
 若要从 Dataverse 中对 Human Resources 实体启用 CRUD 操作，您必须将这些实体用作 Dataverse 中的虚拟表。 这使您可以从 Dataverse 和 Microsoft Power Platform 中对 Human Resources 中的数据执行 CRUD 操作。 这些操作还支持对 Human Resources 进行完整业务逻辑验证，以确保将数据写入实体时的数据完整性。
 
 > [!NOTE]
-> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources 实体与 Dataverse 表对应。 有关 Dataverse（以前的 Common Data Service）和术语更新的详细信息，请参阅[什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Human Resources 的可用虚拟表
 
@@ -51,7 +51,7 @@ Human Resources 的虚拟表与为 Human Resources 创建的 Dataverse 本地表
 Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决方案中维护。 对于本地表，数据存储在 Dataverse 中并且需要与 Human Resources 应用程序数据库同步。
 
 > [!NOTE]
-> 要获取 Human Resources 的 Dataverse 本地表列表，请参阅 [Dataverse 表](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)。
+> 要获取 Human Resources 的 Dataverse 本地表列表，请参阅 [Dataverse 表](./hr-developer-entities.md)。
 
 ## <a name="setup"></a>设置
 
@@ -71,7 +71,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 ### <a name="register-the-app-in-microsoft-azure"></a>在 Microsoft Azure 中注册应用
 
-您必须在 Azure 门户中注册 Human Resources 实例，以便 Microsoft 标识平台可以为应用和用户提供身份验证和授权服务。 有关在 Azure 中注册应用的详细信息，请参阅[快速入门：向 Microsoft 标识平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。
+您必须在 Azure 门户中注册 Human Resources 实例，以便 Microsoft 标识平台可以为应用和用户提供身份验证和授权服务。 有关在 Azure 中注册应用的详细信息，请参阅[快速入门：向 Microsoft 标识平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)。
 
 1. 打开 [Microsoft Azure 门户](https://portal.azure.com)。
 
@@ -93,7 +93,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 10. 提供描述，选择持续时间，然后选择 **添加**。
 
-11. 记录密码的值。 您将在[配置虚拟表数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)时输入此信息。
+11. 从表的 **值** 属性中记录密码的值。 您将在[配置虚拟表数据源](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)时输入此信息。
 
     > [!IMPORTANT]
     > 请确保此时记下密码的值。 离开此页面后，密码将不再显示。
@@ -215,12 +215,11 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 ## <a name="see-also"></a>请参阅
 
-[什么是 Dataverse？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Dataverse 中的表](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[表关系概述](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[创建和编辑包含来自外部数据源的数据的虚拟表](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[什么是 Power Apps 门户？](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[在 Power Apps 中创建应用概述](https://docs.microsoft.com/powerapps/maker/)
-
+[什么是 Dataverse？](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Dataverse 中的表](/powerapps/maker/common-data-service/entity-overview)<br>
+[表关系概述](/powerapps/maker/common-data-service/relationships-overview)<br>
+[创建和编辑包含来自外部数据源的数据的虚拟表](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[什么是 Power Apps 门户？](/powerapps/maker/portals/overview)<br>
+[在 Power Apps 中创建应用概述](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840765"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908992"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
 
@@ -33,14 +33,14 @@ ms.locfileid: "5840765"
 
 以下主题将帮助您学习有关 Power Apps 门户以及如何定制这些门户的基础知识：
 
-- [使用模板](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – 本主题概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。
-- [管理门户内容](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。
-- [编辑 CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。
-- [为您的门户创建主题](https://docs.microsoft.com/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。
-- [轻松创建和公开门户内容](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。
-- [配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。
-- [在门户上配置表窗体和 Web 窗体的注释](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。
-- [门户网站的错误处理](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。
+- [使用模板](/powerapps/maker/portals/work-with-templates) – 本主题概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。
+- [管理门户内容](/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。
+- [编辑 CSS](/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。
+- [为您的门户创建主题](/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。
+- [轻松创建和公开门户内容](/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。
+- [配置要在门户上使用的联系人](/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。
+- [在门户上配置表窗体和 Web 窗体的注释](/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。
+- [门户网站的错误处理](/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。
 
 ## <a name="customize-the-order-creation-process"></a>自定义订单创建流程
 
@@ -88,7 +88,7 @@ ms.locfileid: "5840765"
 
 为了帮助确保流畅的用户体验，客户门户会自动填充几个必填字段的值。 这些值基于提交订单的客户的联系记录中的信息。
 
-对于属于将使用客户门户提交订单的客户的每个[联系人行](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。 否则会发生错误。
+对于属于将使用客户门户提交订单的客户的每个[联系人行](/powerapps/maker/portals/configure/configure-contacts)，必须为以下必填字段指定值。 否则会发生错误。
 
 - **公司** – 订单所属的法人
 - **潜在客户** – 与订单关联的客户帐户
@@ -134,16 +134,16 @@ ms.locfileid: "5840765"
 
 您必须确保客户门户以某种方式提交所有这些列的值。
 
-如果要向页面添加列或删除列，请参阅[创建或编辑快速创建窗体以简化数据输入体验](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。
+如果要向页面添加列或删除列，请参阅[创建或编辑快速创建窗体以简化数据输入体验](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)。
 
 如果要更改保存页面时列的预设方式和值的设置方式，请参阅 Power Apps 门户文档中的以下信息：
 
-- [预填充字段](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [保存时设置值](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [预填充字段](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [保存时设置值](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>自定义主页
 
-客户门户中的所有控件都是内置的 Power Apps 门户控件。 您可以按照 Power Apps 门户文档中[设计页面](https://docs.microsoft.com/powerapps/maker/portals/compose-page)中的以下步骤自定义这些控件。
+客户门户中的所有控件都是内置的 Power Apps 门户控件。 您可以按照 Power Apps 门户文档中[设计页面](/powerapps/maker/portals/compose-page)中的以下步骤自定义这些控件。
 
 客户门户模板中包含的唯一自定义控件用于在主页上创建磁贴。
 
@@ -151,7 +151,7 @@ ms.locfileid: "5840765"
 
 要修改磁贴，请按照下列步骤操作。
 
-1. 打开[“门户管理”应用](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)。
+1. 打开[“门户管理”应用](/powerapps/maker/portals/configure/configure-portal)。
 1. 在左侧的导航窗格中，选择 **页面模板**。
 
     ![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")
@@ -167,11 +167,11 @@ ms.locfileid: "5840765"
 
 要了解有关如何设置和自定义客户门户的详细信息，请参阅以下资源：
 
-- [Power Apps 门户文档](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps 门户文档](/powerapps/maker/portals/overview)
 - [双写入文档](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [关于门户生命周期](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [升级门户](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [迁移门户配置](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [关于门户生命周期](/powerapps/maker/portals/admin/portal-lifecycle)
+- [升级门户](/powerapps/maker/portals/admin/upgrade-portal)
+- [迁移门户配置](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

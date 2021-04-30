@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823449"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907683"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>主计划的迁移到计划优化
 
@@ -63,8 +63,12 @@ Microsoft 正在废弃内置的计划引擎，以支持计划优化。 此更改
 
 在所需的功能变为可用后，Microsoft 将提供一个宽限期，直到例外到期。 当所需的功能变为可用并且宽限期已开始时，将通知环境管理员。
 
+以下流程图总结了本主题中提供的信息，以便您可以快速确定是否应请求例外。 如果需要请求例外，请填写并提交[计划优化迁移和例外调查表](https://go.microsoft.com/fwlink/?linkid=2144962)。
+
+![例外流程图](media/exception-diagram.png "例外流程图")
+
 > [!NOTE]
-> 您只能针对生产环境（而非沙盒环境）请求一个例外。 如果您需要在基础结构即服务 (IaaS) 沙盒环境上禁用计划优化例外错误，请运行在[沙盒环境](#faq-sandbox)中提供的 SQL 查询。
+> 您只能针对当前包括或将包括生产环境的租户（而不能仅针对具有沙盒环境的租户）请求例外。 如果您需要在基础结构即服务 (IaaS) 沙盒环境上禁用计划优化例外错误，请运行在[沙盒环境](#faq-sandbox)中提供的 SQL 查询。
 
 ## <a name="frequently-asked-questions"></a>常见问题
 

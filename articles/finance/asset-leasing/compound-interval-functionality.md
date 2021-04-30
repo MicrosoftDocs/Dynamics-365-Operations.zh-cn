@@ -2,11 +2,11 @@
 title: 复利间隔功能
 description: 本主题提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1c61bc43de1c81a474ffa681b1936d73380901d2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f8c19a523251b0f1c90de746e380f58be4851ddd
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816116"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881292"
 ---
 # <a name="compounding-interval-functionality"></a>复利间隔功能
 

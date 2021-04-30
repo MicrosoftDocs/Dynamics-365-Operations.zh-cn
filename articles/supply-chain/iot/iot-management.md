@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86e20b9e60e890833c0eb8573e92c0fbb27f8c9a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813067"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908411"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>监视和管理 IoT 智能
 
@@ -56,9 +56,9 @@ ms.locfileid: "5813067"
 
 您可以模拟工厂机器信号。 有关详细信息，请参阅以下主题：
 
-+ [将 IoT DevKit AZ3166 连接到 Azure IoT 中心](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [设备模拟解决方案加速器概述](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [将 IoT DevKit AZ3166 连接到 Azure IoT 中心](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [设备模拟解决方案加速器概述](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

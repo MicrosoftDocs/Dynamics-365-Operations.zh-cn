@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810166"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897568"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 
@@ -331,7 +331,7 @@ ms.locfileid: "5810166"
     - 在 Dynamics 365 Finance 客户端中嵌入的数据 Power BI 可视化项
 
 > [!NOTE] 
-> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
+> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 访问列表层次结构对将数据安全导出到 Excel 没有帮助。 因此，该报告工具应仅由必须具有查看数据的完全访问权限的成本会计师和经理使用。
 
 

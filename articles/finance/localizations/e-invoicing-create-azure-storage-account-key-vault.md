@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840212"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893794"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840212"
 
 您必须确保先完成以下任务，然后才能完成本主题中的步骤：
 
-- 在 Azure 中创建密钥保管库资源。 有关详细信息，请参阅[关于 Azure 密钥保管库](https://docs.microsoft.com/azure/key-vault/general/overview)。
-- 创建 Azure 存储帐户（Blob 存储）。 有关详细信息，请参阅[维护 Azure 存储帐户](https://docs.microsoft.com/azure/storage/blobs/)。
+- 在 Azure 中创建密钥保管库资源。 有关详细信息，请参阅[关于 Azure 密钥保管库](/azure/key-vault/general/overview)。
+- 创建 Azure 存储帐户（Blob 存储）。 有关详细信息，请参阅[维护 Azure 存储帐户](/azure/storage/blobs/)。
 
 ## <a name="overview"></a>概览
 
@@ -83,4 +83,3 @@ ms.locfileid: "5840212"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832386"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899159"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832386"
 
 ## <a name="warehouse-execution-on-scale-units"></a>缩放单元上的仓库执行
 
-此功能使缩放单元能够从仓库管理功能中运行选定流程。 Cloud Scale Unit 在选定的 Microsoft Azure 区域中使用专用处理容量在 Cloud 中运行其工作负荷。 对于 Edge Scale Unit，您可以在本地独立运行一些工作负荷，即使缩放单元暂时从 Cloud 断开连接。
+此功能使缩放单元能够从仓库管理功能中运行选定流程。
 
 在本主题中，定义为缩放单元的仓库中的仓库管理执行称为 *仓库执行系统* (*WES*)。
 
 ## <a name="prerequisites"></a>先决条件
 
-您必须有 Dynamics 365 Supply Chain Management 中心和已使用仓库管理工作负荷部署的缩放单元。 有关体系结构和部署流程的详细信息，请参阅[制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit](cloud-edge-landing-page.md)。
+您必须有 Dynamics 365 Supply Chain Management 中心和已使用仓库管理工作负荷部署的缩放单元。 有关体系结构和部署流程的详细信息，请参阅[使用缩放单元增加 Supply Chain Management 工作负荷的弹性](cloud-edge-landing-page.md)。
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>WES 工作负荷在缩放单元上的工作原理
 
@@ -297,6 +297,8 @@ ms.locfileid: "5832386"
 - 处理波次表记录
 - 仓库中心到缩放单元消息处理器
 - 处理仓库订单行的数量更新请求
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

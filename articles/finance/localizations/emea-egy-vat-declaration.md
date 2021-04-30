@@ -8,18 +8,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3ebb78f3fa481cc63376b7d6428cf4944bbf6f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cfbcffd6d9401394cd3089977680500806edd663
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839808"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881438"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 

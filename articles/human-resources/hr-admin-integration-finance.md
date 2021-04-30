@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801159"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889948"
 ---
 # <a name="configure-integration-with-finance"></a>配置与 Finance 的集成
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801159"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-集成 Dynamics 365 Human Resources 与 Dynamics 365 Finance，您可以使用[数据集成器](https://docs.microsoft.com/powerapps/administrator/data-integrator)中的“Human Resources 到 Finance”模板。 “Human Resources 到 Finance”模板支持工作、职位和工作人员数据流。 此模板允许数据从 Human Resources 流向 Finance，但不允许数据从 Finance 流向 Human Resources。
+集成 Dynamics 365 Human Resources 与 Dynamics 365 Finance，您可以使用[数据集成器](/powerapps/administrator/data-integrator)中的“Human Resources 到 Finance”模板。 “Human Resources 到 Finance”模板支持工作、职位和工作人员数据流。 此模板允许数据从 Human Resources 流向 Finance，但不允许数据从 Finance 流向 Human Resources。
 
 ![Human Resources 到 Finance 集成流](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ ms.locfileid: "5801159"
 
 **工作人员**（使用 **人员编号** 进行匹配）和 **职位** 可能发生此错误。 工作不使用编号规则。 结果，如果 Human Resources 和 Finance 中同时存在同一个工作 ID，Human Resources 信息将覆盖 Dynamics 365 Finance 信息。 
 
-为防止出现重复 ID 问题，您可以在[编号规则](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)中添加前缀，或在编号规则中设置一个超出其他系统范围的开始编号。 
+为防止出现重复 ID 问题，您可以在[编号规则](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)中添加前缀，或在编号规则中设置一个超出其他系统范围的开始编号。 
 
 用于工作人员地址的位置 ID 不是编号规则的一部分。 将工作人员地址从 Human Resources 集成到 Finance 时，如果 Finance 中已经存在该工作人员地址，则可能会创建重复的地址记录。 
 

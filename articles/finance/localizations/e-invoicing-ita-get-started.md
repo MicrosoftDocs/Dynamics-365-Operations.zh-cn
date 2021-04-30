@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840092"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894769"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>开始使用适用于意大利的电子开票
 
@@ -201,7 +201,7 @@ ms.locfileid: "5840092"
 您可以根据对电子发票单据的要求手动提交单据。
 
 > [!NOTE]
-> 在继续之前，请验证意大利电子发票所需的设置已完成。 有关详细信息，请参阅[客户电子发票](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices)。 请注意，该主题中所述的某些设置步骤可能由于电子开票激活不可用。
+> 在继续之前，请验证意大利电子发票所需的设置已完成。 有关详细信息，请参阅[客户电子发票](./emea-ita-e-invoices.md)。 请注意，该主题中所述的某些设置步骤可能由于电子开票激活不可用。
 
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 提交电子单据**。
 2. 对于任何文档的首次提交，请将 **重新提交文档** 选项设置为 **否**。 如果必须通过服务重新提交文档，请将此选项设置为 **是**。

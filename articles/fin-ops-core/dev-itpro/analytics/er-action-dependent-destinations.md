@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751224"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893570"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -60,7 +60,7 @@ ms.locfileid: "5751224"
     - 在运行时提供 **发送** 操作时，将应用 **电子邮件** ER 目标。
     - 在运行时提供 **打印** 操作时，将应用 **打印机** ER 目标。
 
-例如，您可以使用 **普通发票(Excel)** ER 格式在发布[普通发票](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)时打印该发票。 要路由生成的文档，您必须为此 ER 格式配置 ER 目标。 例如，您可能需要配置这些 ER 目标，才能对生成的文档执行以下操作：
+例如，您可以使用 **普通发票(Excel)** ER 格式在发布[普通发票](../../../finance/accounts-receivable/create-free-text-invoice-new.md)时打印该发票。 要路由生成的文档，您必须为此 ER 格式配置 ER 目标。 例如，您可能需要配置这些 ER 目标，才能对生成的文档执行以下操作：
 
 - 如果运行 ER 格式但未提供操作代码（例如，以电子方式发送文档时），将文档存档。
 - 当用户执行 **查看** 操作时，在 Web 浏览器中预览文档。
@@ -82,7 +82,7 @@ ms.locfileid: "5751224"
 
 ER 格式运行时，如果用户操作已由具有适当[权限](electronic-reporting-destinations.md#security-considerations)可以在运行时更改配置的目标设置的用户设置，将出现一个对话框，提供更改已配置目标设置的选项。 此对话框是可选的，其外观取决于 ER 框架发起的运行 ER 格式的调用如何实现。 如果出现此对话框，其中的 ER 目标将根据提供的用户操作启用。
 
-下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
+下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](../../../finance/accounts-receivable/create-free-text-invoice-new.md)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
 
 ![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框](./media/er-destination-action-dependent-02.gif)
 

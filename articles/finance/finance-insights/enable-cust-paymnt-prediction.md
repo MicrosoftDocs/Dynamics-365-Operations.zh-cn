@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ecc3851cc91c8fe17a7582f2be06e84cf9bc2d83
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0f972b6f3c0c7c4fcf69b3644a5e73d863cd817d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818648"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897348"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>启用客户付款预测(预览)
 
@@ -83,7 +83,7 @@ ms.locfileid: "5818648"
 
 Finance insights 公开预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
 
-可以并且应该仅在第 2 层沙盒环境中启用公开预览版功能。 在沙盒环境中创建的设置和 AI 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms)。
+可以并且应该仅在第 2 层沙盒环境中启用公开预览版功能。 在沙盒环境中创建的设置和 AI 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。
 
 ## <a name="privacy-notice"></a>隐私声明
 

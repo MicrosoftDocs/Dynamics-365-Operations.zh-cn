@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825318"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909123"
 ---
 # <a name="purchase-order-overview"></a>采购订单概览
 
@@ -41,7 +41,7 @@ ms.locfileid: "5825318"
 -   [创建采购订单](purchase-order-creation.md)
 -   [审核和确认采购订单](purchase-order-approval-confirmation.md)
 -   [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>采购订单的类型
 采购订单有三种类型： 创建采购订单时，必须指定仓库类型。 您可以在 **采购参数** 页为新订单设置默认订单类型。
@@ -85,7 +85,7 @@ ms.locfileid: "5825318"
 
 [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
-[供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
+[供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

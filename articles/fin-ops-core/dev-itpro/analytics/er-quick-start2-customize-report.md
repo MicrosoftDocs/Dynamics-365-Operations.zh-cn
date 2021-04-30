@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743645"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891711"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整 ER 格式以生成自定义电子单据
 
@@ -192,7 +192,7 @@ ms.locfileid: "5743645"
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>输入供应商付款
 
-必须使用[付款方案](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal)创建新的供应商付款。
+必须使用[付款方案](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md)创建新的供应商付款。
 
 1. 转到 **应付帐款** \> **付款** \> **供应商付款日记帐**。
 2. 在 **供应商付款日记帐** 页面上，选择 **新建**。

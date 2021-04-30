@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802447"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892121"
 ---
 # <a name="view-and-manage-address-changes"></a>查看和管理地址更改
 
@@ -125,9 +125,9 @@ HR 人员可以在 **人事管理** 工作区中查看和监视地址更改。 �
 当您选择 **地址更改** 磁贴时，一个新页面将显示所有地址更改的详细信息。 您可以选择在右上角选择 **包括将来地址更改** 来显示带有将来日期的地址更改。
 
 > [!NOTE]
-> 如果您想要到有关这些地址更改的警报或电子邮件，可以在“操作窗格”中的 **选项** 选项卡上创建新预警规则。 有关预警规则的详细信息，请参阅[创建预警规则](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts)。<br><br>
+> 如果您想要到有关这些地址更改的警报或电子邮件，可以在“操作窗格”中的 **选项** 选项卡上创建新预警规则。 有关预警规则的详细信息，请参阅[创建预警规则](../fin-ops-core/fin-ops/get-started/create-alerts.md)。<br><br>
 
-> 如果要为地址更改配置工作流，可以在预警规则上选择 **外部发送** 选项，然后使用 Power Automate 触发业务事件和配置工作流。 有关详细信息，请参阅[业务事件预警](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events)。
+> 如果要为地址更改配置工作流，可以在预警规则上选择 **外部发送** 选项，然后使用 Power Automate 触发业务事件和配置工作流。 有关详细信息，请参阅[业务事件预警](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

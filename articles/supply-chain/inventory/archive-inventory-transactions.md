@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839287"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881824"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 
@@ -38,7 +38,7 @@ ms.locfileid: "5839287"
 
 ## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *库存交易记录存档* 功能。
+如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *库存交易记录存档* 功能。 请注意，此功能在启用后，无法禁用。
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>存档库存交易记录之前要考虑的事项
 

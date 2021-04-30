@@ -2,11 +2,11 @@
 title: 查看负债、资产和费用交易
 description: 本主题说明如何查看租赁资产的交易。 这些交易包括已过帐的租赁负债交易和执行费用交易。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6dbb5de75780091d3392e413e3a2415067ac6dda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 55b8019db6abdb3bd5ecdb6eadc4f7443f2bf071
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827474"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881630"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>查看负债、资产和费用交易
 

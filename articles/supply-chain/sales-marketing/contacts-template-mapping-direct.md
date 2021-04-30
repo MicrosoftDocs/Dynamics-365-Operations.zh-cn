@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 81cf79c866ad70bf5bf2a9475a235bf3135d6e50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840789"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908100"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
 
@@ -30,7 +30,7 @@ ms.locfileid: "5840789"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator)。
 
 本主题讨论用于直接将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）表同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 

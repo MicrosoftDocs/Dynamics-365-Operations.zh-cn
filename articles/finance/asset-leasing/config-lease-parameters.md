@@ -2,11 +2,11 @@
 title: 配置租赁参数（预览）
 description: 本主题描述资产租赁的配置设置，例如安全信息和记帐设置。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c681f7d356752a2194a86bc7eaef6ceac1e0af6b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77caf751f9baf4abef534bac97e226484df7acf7
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816092"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881268"
 ---
 # <a name="configure-lease-parameters"></a>配置租赁参数
 

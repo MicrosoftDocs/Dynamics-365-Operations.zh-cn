@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: adfedbfeb3f4602d0c4d9b8cccec80749eaae2a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b2b9f2b244f0f49d1ae0bd1cb220653583ee23a5
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790516"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890974"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Dynamics 365 Human Resources 中的新增功能或更改（2020 年 2 月 7 日）
 
@@ -55,7 +55,7 @@ ms.locfileid: "5790516"
 
 ### <a name="platform-update-32"></a>平台 update 32 
 
-平台更新 32 即将推出。 [在此处发现有关平台更新 32 的详细信息](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)。
+平台更新 32 即将推出。 [在此处发现有关平台更新 32 的详细信息](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)。
 
 ### <a name="updated-dataverse-solution"></a>更新的 Dataverse 解决方案
 
@@ -75,7 +75,7 @@ ms.locfileid: "5790516"
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 新增功能或更改](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

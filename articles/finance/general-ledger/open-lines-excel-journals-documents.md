@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d95584ff02eac7353b01c2159be02e694b4c83fe
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834468"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897736"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
 
@@ -45,7 +45,7 @@ ms.locfileid: "5834468"
 
 发布行时，将验证行，以便确保其符合财务日记帐中设置的规则。 发布行之后，用户可从 Dynamics 365 Finance 编辑或过帐凭证。 
 
-若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](../../dev-itpro/financial/add-dimensions-excel-templates.md)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
+若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](../../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
 
 
 

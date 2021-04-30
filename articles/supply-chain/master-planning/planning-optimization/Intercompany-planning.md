@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5c9ab724034a9bb40cfe155b748a0c7e25978add
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833345"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907635"
 ---
 # <a name="intercompany-planning"></a>内部公司计划
 
@@ -45,8 +45,8 @@ ms.locfileid: "5833345"
 
 若要使用内部公司计划，必须按照以下方式准备系统：
 
-1. 必须在所有相关公司中发布相关产品。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
-1. 下游需求必须通过与上游公司具有内部公司关系以及具有客户的相关默认库存维度（站点和仓库）的供应商购买来满足。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
+1. 必须在所有相关公司中发布相关产品。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
+1. 下游需求必须通过与上游公司具有内部公司关系以及具有客户的相关默认库存维度（站点和仓库）的供应商购买来满足。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
 1. 上游公司的主计划必须包括计划的下游需求，并且相关公司和主计划必须在下游计划中指定。
 
 ## <a name="include-planned-downstream-demand"></a>包括计划的下游需求

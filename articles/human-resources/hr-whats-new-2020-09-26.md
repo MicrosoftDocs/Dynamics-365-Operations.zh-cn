@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bb0d01536106306dd456f4f3474611fa29530e2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cc730bca25293e7dbc78d72834dc8abf9b2a1ec4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800061"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892673"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources 2020 年 9 月 26 日中的新增功能或更改
 
@@ -30,7 +30,7 @@ ms.locfileid: "5800061"
 
 本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
-有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)。
+有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)。
 
 ## <a name="in-this-release"></a>在此发布中
 
@@ -40,7 +40,7 @@ ms.locfileid: "5800061"
 
 此发布通常提供以下功能：
 
-- **平台更新 10.0.13 现在可用**：有关更新的详细信息，请参阅[针对 Finance and Operations 应用（2020 年 10 月）的版本 10.0.13 的平台更新](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13)。
+- **平台更新 10.0.13 现在可用**：有关更新的详细信息，请参阅[针对 Finance and Operations 应用（2020 年 10 月）的版本 10.0.13 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -67,21 +67,21 @@ ms.locfileid: "5800061"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| Microsoft Teams 中的 Human Resources 应用 | [Microsoft Teams 中的员工休假和缺勤体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[管理 Teams 中的休假申请](hr-teams-leave-app.md) |
-| 增强的工作流请求和审批 | [组织和人员管理工作流体验增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [用于定位“分配给我的工作项”列表的配置选项](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Microsoft Teams 中的 Human Resources 应用 | [Microsoft Teams 中的员工休假和缺勤体验](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)<br>[管理 Teams 中的休假申请](hr-teams-leave-app.md) |
+| 增强的工作流请求和审批 | [组织和人员管理工作流体验增强](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [用于定位“分配给我的工作项”列表的配置选项](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 ## <a name="coming-soon"></a>即将推出
 
 计划在将来的发布中添加以下新功能：
 
-- [经理自助服务中的自定义链接](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
+- [经理自助服务中的自定义链接](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
 
-有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2019 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)。
+有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2019 年发布波次 2 概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)。
 
 ## <a name="additional-resources"></a>其他资源
 
 [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)
-[Dynamics 365 Human Resources 2020 年发布波次 2 概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+[Dynamics 365 Human Resources 2020 年发布波次 2 概述](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [更新流程](hr-admin-setup-update-process.md)
 [管理功能](hr-admin-manage-features.md)
 

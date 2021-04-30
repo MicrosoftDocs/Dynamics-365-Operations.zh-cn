@@ -2,7 +2,7 @@
 title: 业务文档管理概览
 description: 本主题介绍有关如何使用 ER 框架的业务文档管理功能的信息。
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749529"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891297"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -45,9 +45,9 @@ ms.locfileid: "5749529"
 
 ## <a name="business-document-availability"></a>业务文档可用性
 
-要获取为 2019 年 10 月发行版计划的所有报表的完整列表，请参阅 [Word 和 Excel 中的可配置业务文档报告](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)。
+要获取为 2019 年 10 月发行版计划的所有报表的完整列表，请参阅 [Word 和 Excel 中的可配置业务文档报告](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)。
 
-要获取为 2020 年 10 月发行版计划的所有报表的完整列表，请参阅[可配置业务文档 – Word 模板](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates)。
+要获取为 2020 年 10 月发行版计划的所有报表的完整列表，请参阅[可配置业务文档 – Word 模板](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates)。
 
 将来的发行版中将提供更多报表。 将单独发送有关更多报告的特殊通知。 要了解如何查看当前可用报表的列表，请参阅下面的 [Finance 中发布的支持可配置业务文档的 ER 配置列表](#list-of-configurations-cbd)一节。
 
@@ -272,7 +272,23 @@ ms.locfileid: "5749529"
 
 ![确认开始编辑流程以创建新模板](./media/BDM-Overview-EditingTemplate4.png)
 
+如果没有任何提供商，将提供以进行创建。 如果没有活动的提供商，将提供以选择它进行激活。
+
+若要创建提供商，请在 **名称** 字段中更改提供商的名称，在 **Internet 地址** 字段中更新新提供商的 Internet 地址，然后选择 **确定** 以确认。
+
+   ![在 BDM 中创建新的提供商](./media/bdm_create_provider.png)
+
+若要激活现有提供商，请在 **配置提供商** 字段中选择提供商的名称，然后选择 **确定** 以将提供商设置为活动状态。
+
+   ![在 BDM 中激活提供商](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> 每个 BDM 模板都将该提供商引用为配置的作者。 这就是为什么模板需要活动的提供商。
+
+
 当前和另一个提供商（此示例中为 Microsoft）提供的 ER 格式配置中的模板（没有任何修订）始终可使用 **新建文档** 选项。 然后将把编辑后的模板存储在自动生成的新 ER 格式配置中。
+
+
 
 ### <a name="start-editing-a-template"></a>开始编辑模板
 
@@ -419,7 +435,7 @@ ms.locfileid: "5749529"
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Finance 中发布的支持可配置业务文档的 ER 配置列表
 
-Finance 的 ER 配置[列表](general-electronic-reporting.md#list-of-configurations)会不断更新。 打开[全局存储库](er-download-configurations-global-repo.md)查看当前支持的 ER 配置列表。 您可以[筛选](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo)全局存储库，来查看用于支持可配置业务文档的 ER 配置列表。
+Finance 的 ER 配置[列表](general-electronic-reporting.md#list-of-configurations)会不断更新。 打开[全局存储库](er-download-configurations-global-repo.md)查看当前支持的 ER 配置列表。 您可以[筛选](../../../finance/localizations/enhanced-filtering-global-repo.md)全局存储库，来查看用于支持可配置业务文档的 ER 配置列表。
 
 ![在配置存储库页筛选全局存储库的内容](./media/bdm-overview-filterglobalrepo.gif)
 

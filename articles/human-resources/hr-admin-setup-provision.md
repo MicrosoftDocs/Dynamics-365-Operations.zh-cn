@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805001"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889780"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 
@@ -80,7 +80,7 @@ ms.locfileid: "5805001"
     
 3. 如果希望环境中包含 Human Resources 测试驱动器体验中使用的相同演示数据集，请选择 **包括演示数据** 选项。 演示数据对长期演示或培训环境有益，但切勿用于生产环境。 您必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
 
-4. Human Resources 始终预配到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。 在继续之前，请阅读本文的“选择 Power Apps 环境”部分。 如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。 然后按照步骤[创建 Power Apps 环境](https://docs.microsoft.com/powerapps/administrator/create-environment)。
+4. Human Resources 始终预配到 Microsoft Power Apps 环境，以支持 Power Apps 集成和可扩展性。 在继续之前，请阅读本文的“选择 Power Apps 环境”部分。 如果您没有 Power Apps 环境，在 LCS 中选择“管理环境”或导航到 Power Apps 管理员中心。 然后按照步骤[创建 Power Apps 环境](/powerapps/administrator/create-environment)。
 
 5. 选择要预配 Human Resources 的环境。
 
@@ -124,7 +124,7 @@ ms.locfileid: "5805001"
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 
-默认情况下，创建环境的全局管理员可以访问环境。 您必须为更多应用程序用户明确授予访问权限。 您必须在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Human Resources 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。 在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
+默认情况下，创建环境的全局管理员可以访问环境。 您必须为更多应用程序用户明确授予访问权限。 您必须在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Human Resources 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。 在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

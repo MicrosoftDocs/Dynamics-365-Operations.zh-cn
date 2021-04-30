@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803481"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891046"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 
@@ -86,7 +86,7 @@ ms.locfileid: "5803481"
 可使用职责范围指示担任工作的职位的工作人员负责的工作角色、流程和产品。 例如，对于名为“会计师”的工作，一个职责范围可能是“产品 A 的财务申报”。 可通过使用 **职责范围** 页面维护职责范围，您可以通过使用搜索功能找到此页面。 在 **职责范围** 页面中，输入职责范围的名称和描述。 在 **注释** 字段中，可以选择输入更多信息。 无需更改此处输入的注释，即可针对特定工作更新注释。
 
 ## <a name="steps-for-creating-a-job"></a>作业创建步骤
-请参阅[定义新作业](../fin-and-ops/hr/tasks/define-new-jobs.md)一文了解创建新作业的分步过程。 
+请参阅[定义新作业](./hr-personnel-define-jobs.md)一文了解创建新作业的分步过程。 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

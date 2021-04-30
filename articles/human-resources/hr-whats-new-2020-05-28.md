@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0e15891a2cb75851d195e08b87bbfc9efb78e66e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79026c6047f3a10366ef3b22d74caee13b371b66
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803385"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891953"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 28 日）中的新增功能或更改
 
@@ -61,7 +61,7 @@ ms.locfileid: "5803385"
 
 ## <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 
-员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)。 
+员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)。 
 
 ## <a name="leave-suspension"></a>休假暂停
 
@@ -107,7 +107,7 @@ DMF 实体现在可用于暂停应计。
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842001"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909711"
 ---
 # <a name="product-readiness"></a>产品准备情况
 
@@ -142,7 +142,7 @@ ms.locfileid: "5842001"
 | 公司 | 如果将 **执行范围** 字段设置为 *单个公司*，请选择公司。 |
 | 所有者类型 | 选择行生成的准备情况检查应分配给个人还是团队。 |
 | 负责人 | 选择应向其分配行生成的准备情况检查的个人和团队。 |
-| 调查表 | 选择应用于核对清单的调查表。 核对清单是完成准备情况检查的公司的本地核对清单。 系统必须能够评估对核对清单的回答是否正确。 因此，必须设置核对清单，以根据正确答案进行评估。 有关如何创建调查表的详细信息，请参阅[使用调查表](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires)及其相关主题。 |
+| 调查表 | 选择应用于核对清单的调查表。 核对清单是完成准备情况检查的公司的本地核对清单。 系统必须能够评估对核对清单的回答是否正确。 因此，必须设置核对清单，以根据正确答案进行评估。 有关如何创建调查表的详细信息，请参阅[使用调查表](/dynamicsax-2012/appuser-itpro/using-questionnaires)及其相关主题。 |
 | 自动审核 | 准备情况检查记录包括指示审核状态的 **已审核** 复选框。 为在分配的用户完成检查后应立即设置为已审核的检查选中 **自动审核** 复选框。 清除此复选框将需要作为额外步骤进行明确审核。 |
 | 强制 | 为必须由分配的用户完成的检查选中此复选框。 强制检查不能跳过。 |
 
