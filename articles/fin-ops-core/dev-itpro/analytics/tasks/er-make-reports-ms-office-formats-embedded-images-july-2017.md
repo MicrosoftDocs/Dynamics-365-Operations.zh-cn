@@ -2,7 +2,7 @@
 title: 设计配置以生成 Office 格式的包含嵌入图像的报表
 description: 本主题介绍如何设计生成包含嵌入图像的 Excel 和 Word 格式的电子文档的配置。
 author: NickSelin
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1bafc919d73c9e603935398563bb26e8fb277d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5eea178a351716425706f481ae66c5b5183a52e5
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751050"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944549"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>设计配置以生成 Office 格式的包含嵌入图像的报表
 
 [!include [banner](../../includes/banner.md)]
 
-为了完成此过程中的步骤，首先完成“ER 创建配置提供商并标记为有效”这一过程。 此过程介绍如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 Microsoft Excel 或 Word 文档。 在此过程中，将为示例公司 Litware, Inc. 创建所需 ER 配置。可使用 USMF 数据集完成这些步骤。 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 首先，下载并保存“帮助”主题[使用 ER 在您生成的文档中嵌入图像和形状](../electronic-reporting-embed-images-shapes.md)中列举的文件。 这些文件是：Model for cheques.xml、Cheques printing format.xml、Company logo.png、Signature image.png、Signature image 2.png 和 Cheque template Word.docx。
+为了完成此过程中的步骤，首先完成“ER 创建配置提供商并标记为有效”这一过程。 此过程介绍如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 Microsoft Excel 或 Word 文档。 在此过程中，将为示例公司 Litware, Inc. 创建所需 ER 配置。可使用 USMF 数据集完成这些步骤。 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 在开始之前，请下载并保存以下文件： 
+
+| 说明                                          | 文件名                   |
+|------------------------------------------------------|-----------------------------|
+| ER 数据模型配置                          | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| ER 格式配置                              | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| 公司徽标图像                                   | [Company logo.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| 签名图像                                      | [Signature image.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| 替代签名图像                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| 用于打印付款支票的 Microsoft Word 模板  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>验证先决条件  
  1. 转到“组织管理”>“工作区”>“电子申报”。  

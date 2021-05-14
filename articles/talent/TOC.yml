@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: 入门
       items:
@@ -151,7 +151,7 @@
         - name: 从 Attract 和 Onboard 中导出数据
           href: attract-onboard-export-data.md
         - name: 嵌入来自 Power Apps 的画布应用
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: 获取 Talent 支持
           href: talent-support.md
     - name: 通过 Attract 为您的组织配备人员

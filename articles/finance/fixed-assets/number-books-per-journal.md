@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892399"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944793"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 
@@ -47,9 +47,5 @@ ms.locfileid: "5892399"
 如果同一日记帐中不存在重复的资产 ID，则将限制帐簿的数量。 但是，如果资产 ID 与帐簿 ID 相同，则可以超出每个日记帐的帐簿数，以将资产 ID 保留在同一日记帐中。
 
 例如，有 5,001 个固定资产 ID，每个固定资产 ID 与三本帐簿关联，而每本资产帐簿过帐到同一个过帐层。 您连续三个月运行折旧，但不汇总。  折旧日记帐将通过批处理作业创建，并且系统将创建七个日记帐，这些日记帐具有 667 个固定资产 ID，每个固定资产 ID 包含三本帐簿。 结果将为 2,001 本帐簿。 因此，在三个月内，将有 6003 个日记帐行在同一日记帐中维护相同的资产 ID。 系统还将创建一个日记帐，其中有 332 个固定资产 ID，每个固定资产 ID 三本帐簿。 在三个月内，将有 2988 行。
-
-> [!NOTE] 
-> 如果在创建折旧方案时启用了 **汇总折旧** 参数，**每个日记帐的帐簿数 - 折旧方案** 字段中的值将无效。 在这种情况下，每个日记帐的帐簿数为 6000，这是内部定义的限制。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

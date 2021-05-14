@@ -10,22 +10,20 @@ ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881824"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956050"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 随着时间的推移，库存交易记录表 (`InventTrans`) 会继续增长，消耗更多数据库空间。 因此，针对表进行的查询将逐渐变慢。 本主题介绍如何使用 *库存交易记录存档* 功能来存档有关库存交易记录的数据，以帮助提高系统性能。
 

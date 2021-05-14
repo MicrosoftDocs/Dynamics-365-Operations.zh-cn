@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: a0a3bad751aba4f138db7fdae069a67a4faed4a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: be98f3fada7491382946b40615fab5a58c2861d7
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839093"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920005"
 ---
 # <a name="rebate-management-parameters"></a>返点管理参数
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **返点管理参数** 页面用于定义跨 **返点管理** 模块适用的设置。 这些设置影响过帐、状态更新、编号规则和其他行为。 此页面上的设置跨法人共享，并且可以由具有适当安全权限的用户修改。
 

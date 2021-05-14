@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799845"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936648"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 
@@ -43,7 +43,7 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>创建编号规则并将其添加到 Commerce 共享参数
 
-编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一标识符。 有关编号规则的详细信息，请参阅[编号规则概览](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)。
+编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一标识符。 有关编号规则的详细信息，请参阅[编号规则概览](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)。
 
 若要创建编号规则并将其添加到 Commerce headquarters 中的 Commerce 共享参数，请按照下列步骤操作。
 
@@ -136,7 +136,7 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 
 [设置 B2B 电子商务站点的产品数量限制](quantity-limits.md)
 
-[编号规则概览](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[编号规则概览](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

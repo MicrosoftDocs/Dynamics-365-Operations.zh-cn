@@ -1,5 +1,5 @@
 ---
-title: 供应商发票条目工作区
+title: 供应商发票自动化工作区
 description: 本主题介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954127"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>供应商发票输入工作区
+# <a name="vendor-invoice-automation-workspace"></a>供应商发票自动化工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "5837242"
 
 ## <a name="overview"></a>概览
 
-**供应商发票条目** 工作区显示与供应商发票处理相关的信息。 它包括 **我的工作** 视图和 **分析 - 所有公司** 页面。 **我的工作** 视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析 - 所有公司** 页面使用 Power BI 的功能显示与供应商发票相关的可视化。
+**供应商发票自动化** 工作区显示与供应商发票处理相关的信息。 它包括 **我的工作** 视图和 **分析 - 所有公司** 页面。 **我的工作** 视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析 - 所有公司** 页面使用 Power BI 的功能显示与供应商发票相关的可视化。
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>设置工作区以显示 Power BI 内容
 
-您必须先完成此设置，然后才能在 **供应商发票条目** 工作区的 Power BI 可视化中显示数据。
+您必须先完成此设置，然后才能在 **供应商发票自动化** 工作区的 Power BI 可视化中显示数据。
 
 1. 在 **功能管理** 工作区中，筛选列表以查找 **供应商发票自动化** 功能。
 3. 选择 **立即启用**。
@@ -54,7 +54,7 @@ ms.locfileid: "5837242"
 
 ### <a name="company-selection"></a>公司选择
 
-当 **自动化供应商发票** 功能打开时，**公司** 字段显示在工作区的顶部。 **公司** 字段中的选择会影响工作区中显示的所有信息。 默认情况下，该视图显示您登录的公司的信息。 通过在 **公司** 字段中选择不同的公司，您可以在工作区上显示该公司的信息。 然后，您可以在工作区中选择一个磁贴以转到所选公司的相关页面。
+当 **供应商发票自动化** 功能打开时，**公司** 字段显示在工作区的顶部。 **公司** 字段中的选择会影响工作区中显示的所有信息。 默认情况下，该视图显示您登录的公司的信息。 通过在 **公司** 字段中选择不同的公司，您可以在工作区上显示该公司的信息。 然后，您可以在工作区中选择一个磁贴以转到所选公司的相关页面。
 
 ### <a name="summary-tiles"></a>汇总磁贴
 

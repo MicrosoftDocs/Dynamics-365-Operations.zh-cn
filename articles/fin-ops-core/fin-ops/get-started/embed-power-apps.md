@@ -2,7 +2,7 @@
 title: 从 Power Apps 嵌入画布应用
 description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
-ms.date: 11/03/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,33 +13,34 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 7b20d24f79bd84f516e005b9d4a0ecdf6ef848fc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752882"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944671"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需编写代码即可为移动设备、平板电脑和 Web 构建自定义业务应用。 Finance and Operations 应用支持与 Power Apps 集成。 您、您的组织或更广泛的生态系统开发的画布应用可以嵌入到 Finance and Operations 应用中来细分产品的功能。 例如，您可以利用 Power Apps 构建画布应用以使用从其他系统检索的信息补充 Finance and Operations 应用。
 
-若要了解有关嵌入 Power Apps 的详细信息，请观看视频短片[如何嵌入 Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)。
+若要了解有关嵌入画布应用的详细信息，请观看视频短片[如何嵌入画布应用](https://www.youtube.com/watch?v=x3qyA1bH-NY)。
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>将 Power Apps 中的嵌入画布应用添加到页面中
 
 ### <a name="overview"></a>概览
 
-将画布应用从 Power Apps 嵌入到客户端之前，必须找到或构建具有所需视觉效果或功能的应用。 本主题不包括对构建应用的流程的详细描述。 如果您不熟悉 Power Apps，请参阅 [Power Apps 文档](https://docs.microsoft.com/powerapps/)。
+将画布应用从 Power Apps 嵌入到客户端之前，必须找到或构建具有所需视觉效果或功能的应用。 本主题不包括对构建应用的流程的详细描述。 如果您不熟悉 Power Apps，请参阅 [Power Apps 文档](/powerapps/)。
 
 准备嵌入应用时，有两种方法可以访问页面上的特定画布应用。 您可以选择更适合您的情况的方法。 第一种方法使用已添加到标准操作窗格的 **Power Apps** 按钮。 通过此方法添加的应用显示为 **Power Apps** 菜单按钮上的项目。 选择其中一项时，将出现一个包含嵌入的应用的侧窗格。 或者，您可以直接在页面上将应用嵌入为新选项卡、快速选项卡或边栏选项卡，或者显示为工作区的新部分。
 
 配置嵌入的画布应用时，您可以选择您希望将其作为上下文发送到应用的单个字段。 此步骤使应用可以根据您当前正在查看的数据作出响应。
 
 > [!NOTE]
-> 您目前无法使用此机制来嵌入建模的应用。  
+> 您目前无法使用此机制来嵌入模型驱动应用。  
 
 ### <a name="details"></a>明细
 
@@ -55,7 +56,8 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
     - **名称** 字段指示为将包含嵌入的应用的按钮或选项卡显示的文本。 通常，您可能要在此字段中重复应用的名称。
     - **应用 ID** 字段表示要嵌入的画布应用的全局唯一标识符 (GUID)。 若要检索此值，在 [make.powerapps.com](https://make.powerapps.com) 上找到应用，然后在 **详细信息** 下查找 **应用 ID** 字段。
-    - 对于 **应用的输入上下文**，您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 请参阅本主题后面名为[构建利用从 Finance and Operations 应用发送的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)部分，了解有关应用如何访问发送自 Finance and Operations 应用的数据的详细信息。
+    - 对于 **应用的输入上下文**，您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 有关应用如何访问发送自 Finance and Operations 应用的数据的详细信息，请参阅本主题后面名为[构建利用从 Finance and Operations 应用发送的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)一节。 
+        - 从版本 10.0.19 开始，当前法人还将作为上下文通过 **cmp** URL 参数传递到画布应用。 在目标画布应用使用此信息之前，这不会对该应用产生影响。 
     - 选择与您嵌入的应用类型匹配的 **应用程序大小**。 为针对移动设备构建的应用选择 **窄**，为平板电脑构建的应用选择 **宽**。 这将确保为嵌入的应用分配足够的空间量。
     - **法人** 快速选项卡提供选择应用可用于哪些法人的功能。 默认让所有法人都能访问应用。 此选项仅在[保存的视图](saved-views.md)功能已禁用时才可用。 
 
@@ -65,7 +67,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
 在将画布应用嵌入页面并确认此应用能够正确处理从该页面传递的任何数据上下文后，您可能希望与系统中的其他用户共享此应用。 要共享嵌入的画布应用，请按照下列步骤操作。
 
-1. 与适当的用户[共享画布应用](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app)，以便他们可以在 Power Apps 中访问此应用。 
+1. 与适当的用户[共享画布应用](/powerapps/maker/canvas-apps/share-app)，以便他们可以在 Power Apps 中访问此应用。 
 
 2. 确保目标用户具有适当的个性化设置，以便在这些用户查看页面时显示嵌入的应用。 您可以使用以下两种方法之一：
 
@@ -79,12 +81,14 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>构建使用从 Finance and Operations 应用发送的数据的画布应用
 
-当您构建将嵌入到 Finance and Operations 应用中的画布应用时，此流程的一个重要部分是使用来自该 Finance and Operations 应用的输入数据。 根据 Power Apps 开发经验，可以使用 **Param("EntityId")** 变量访问从 Finance and Operations 应用传递的输入数据。
+当您构建将嵌入到 Finance and Operations 应用中的画布应用时，此流程的一个重要部分是使用来自该 Finance and Operations 应用的输入数据。 根据 Power Apps 开发经验，可以使用 **Param("EntityId")** 变量访问从 Finance and Operations 应用传递的输入数据。 此外，从版本 10.0.19 开始，当前法人还将通过 **Param("cmp")** 变量传递到画布应用。 
 
 例如，在应用的 OnStart 功能中，可以将 Finance and Operations 应用的输入数据设置为类似这样的一个变量：
 
-```powerapps
+``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
+
+If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>查看画布应用
@@ -112,6 +116,11 @@ If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsI
 - 由于嵌入的应用保存为个性化数据，清除页面的个性化也将删除该页面上所有嵌入的应用。 请注意，清除页面的个性化是永久的，并且无法撤消。 若要删除您的页面上的个性化设置，依次选择 **选项**、**个性化设置此页面** 和 **清除**。 刷新您的浏览器后，将删除此页之前的所有个性化设置。 请参阅[打造个性化的用户体验](personalize-user-experience.md)了解有关如何使用个性化设置优化页面的更多信息。
 
 ## <a name="appendix"></a>附录
+
+### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[开发人员] 在窗体上为画布应用建模
+
+本主题着重介绍通过个性化嵌入画布应用，开发人员还可以选择使用 Visual Studio 开发体验将画布应用添加到窗体中。 要使用此方法，只需将 PowerAppsHostControl 添加到窗体中。 控件上可用的元数据属性提供与个性化体验相同的功能。
+
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[开发人员]指定应用可以嵌入的位置
 

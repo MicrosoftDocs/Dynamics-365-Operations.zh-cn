@@ -2,7 +2,7 @@
 title: 仓库流程质量管理
 description: 本主题提供有关仓库流程质量管理功能的信息。 此功能扩展了质量管理功能，并允许用户使用高级仓库管理将物料抽样控制集成到仓库接收流程中。
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834257"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956074"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>仓库流程质量管理
 
@@ -620,5 +620,8 @@ _仓库流程质量管理_ 功能增加了一些新的物料抽样功能。 **�
 > [!NOTE]
 > 考虑将质量输出条目添加到活动代码为 *显示未结工作列表* 的移动设备菜单项中。 有关示例，请参阅演示数据中名为 **工作列表** 的移动设备菜单项。 首先将 *质检订单* 工作类添加到用户导向的菜单项中，因为要在工作列表中显示工作，此工作类是必需的。 然后将 *质检订单* 工作类添加到 **工作列表** 菜单项中。 有权访问工作列表的用户之后将能够选取和处理质检订单验证自动生成的工作。
 
+## <a name="additional-resources"></a>其他资源
+
+- [质量和不符合项管理概述](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

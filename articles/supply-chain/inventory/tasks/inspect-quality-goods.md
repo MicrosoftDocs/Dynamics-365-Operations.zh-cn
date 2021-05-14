@@ -2,7 +2,7 @@
 title: 检查货物质量
 description: 本主题说明如何处理质检订单。
 author: perlynne
-ms.date: 08/01/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e7156e5c57d5f983564cc966b4108f1180ff8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec67e7864db12178c0f3cfe8b93d510a46e8a0d4
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825907"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956126"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何处理质检订单。 您可以使用 USMF 公司演示数据运行此指南。 在开始此示例过程前，需要确认采购订单为“000016”，并且将产品收据过帐。 这将自动创建质检订单。 质量检查通常由质检员执行。
+本主题说明如何处理质检订单。 质量检查通常由质检员执行。
 
+如果安装了标准演示数据，您可以使用它来完成本主题中的过程。 要使用演示数据，在开始前选择 *USMF* 法人。 然后，必须确认采购订单 *000016* 并过帐产品收据。 质检订单将自动生成。
 
-## <a name="select-a-quality-order"></a>选择质检订单。
-1. 在导航窗格中，转到 **模块 > 库存管理 > 定期任务 > 质量管理 > 质检订单**。
-2. 在开始此过程前，选择已创建的质检订单。  
+## <a name="step-1-select-a-quality-order"></a>步骤 1：选择质检订单
 
-## <a name="record-test-results"></a>记录测试结果
+要选择质检订单，请按照以下步骤操作。
+
+1. 转到 **库存管理 \> 定期任务 \> 质量管理 \> 质检订单**。
+1. 在开始此过程前，选择生成的质检订单。
+
+## <a name="step-2-record-test-results"></a>步骤 2：记录测试结果
+
+要记录测试结果，请按照下列步骤操作。
+
 1. 选择 **结果**。
-2. 选择 **编辑**。
-3. 在 **结果数量** 字段中，输入一个数字。
-4. 在 **结果** 字段中，在下拉菜单中选择所需记录。  
-- 在此示例中，结果将基于预定义的结果。 通常您可以记录更具体的测试结果，例如大小或其他维度。  
-5. 选择 **保存**。
-6. 关闭该页面。
+1. 选择 **编辑**。
+1. 在 **结果数量** 字段中，输入一个数字。
+1. 在 **结果** 字段中，选择所需记录。 在此示例中，结果将基于预定义的结果。 通常，您将记录更具体的测试结果，如尺寸或其他维度。
+1. 选择 **保存**。
+1. 关闭该页面。
 
-## <a name="validate-the-quality-order"></a>验证质检订单
+## <a name="step-3-validate-the-quality-order"></a>步骤 3：验证质检订单
+
+要验证质检订单，请按照以下步骤操作。
+
 1. 选择 **验证**。
-2. 在 **验证者** 字段中，从下拉菜单选择执行检查的用户。  
-3. 单击 **选择**。
-4. 选择 **确定**。
-5. 关闭该页面。
-
-
+1. 在 **验证者** 字段中，选择执行检查的用户。
+1. 选择 **选择**。
+1. 选择 **确定**。
+1. 关闭该页面。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907955"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935597"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 中的新增功能或更改（2021 年 4 月）
 
@@ -35,7 +35,7 @@ ms.locfileid: "5907955"
 
 此版本中包含以下功能。  单击[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 虽然大多数功能现在已正式发布，但某些列出的功能仍处于预览状态。
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 ### <a name="asset-management"></a>资产管理
 
@@ -71,13 +71,13 @@ ms.locfileid: "5907955"
 
 - [生产车间执行界面中的资产管理功能](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - 有关详细信息，请参阅[配置生产车间执行界面](../production-control/production-floor-execution-configure.md)。
 
-- 统一作业 ID 编号规则<br> - 有关详细信息，请参阅 
+- [云中缩放单元的制造执行](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - 有关详细信息，请参阅[云和边缘缩放单元的制造执行工作负荷](../cloud-edge/cloud-edge-workload-manufacturing.md)。
 
 - [覆盖生产中物料的默认预留原则](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - 有关详细信息，请参阅[替代生产中的默认材料预留原则](../production-control/override-default-reservation-principle.md)。
 
 - [生产控制的已保存视图](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - 有关详细信息，请参阅 [Supply Chain Management 的标准已保存视图](saved-views-scm.md)。
 
-- [云中缩放单元的制造执行](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - 有关详细信息，请参阅[云和边缘缩放单元的制造执行工作负荷](../cloud-edge/cloud-edge-workload-manufacturing.md)。
+- 统一作业 ID 编号规则<br> - 有关详细信息，请参阅[统一作业 ID 编号规则](../production-control/unified-job-ids.md)。
 
 ### <a name="planning"></a>计划
 

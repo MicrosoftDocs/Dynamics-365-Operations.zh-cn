@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814312"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923530"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -30,7 +30,7 @@ ms.locfileid: "5814312"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="feature-removed-effective-january-28-2021"></a>功能已删除，自 2021 年 1 月 28 日起生效
 
@@ -123,7 +123,7 @@ ms.locfileid: "5814312"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 通常，自定义代码优点有限，同时需要大量资源和计算来提供支持。 自定义代码主要由报表作者用来从自定义代码程序集调用公共方法。 但是，云托管服务不支持对 SSRS 报表的自定义程序集的引用。 |
-| **被另一个功能取代？**   | 报表作者可以选择继续从任何文本框表达式引用公共 .NET API 来进行数学、转换和格式操作。 有关详细信息，请参阅[向报表添加代码 (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15)。  |
+| **被另一个功能取代？**   | 报表作者可以选择继续从任何文本框表达式引用公共 .NET API 来进行数学、转换和格式操作。 有关详细信息，请参阅[向报表添加代码 (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15)。  |
 | **影响的产品区域**         | RDL 中定义的包含自定义代码的应用程序报表设计的子集。 |
 | **部署选项**              | 所有 |
 | **状态**                         | 在版本 10.0.13 中，编译器将开始针对在 SSRS 报表定义中检测到自定义代码的实例发出警告。 要解决此问题，打开报表设计定义，删除所有自定义代码项目。 在以后的更新中，此警告将替换为编译器错误。   |
@@ -178,7 +178,7 @@ ms.locfileid: "5814312"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 将 IP 移至安全列表的流程已更改。 自助服务不再支持 IP 安全列表。 |
-| **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access)。|
+| **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](/appcenter/general/configuring-aad-conditional-access)。|
 | **影响的产品区域**         | 安全性 |
 | **部署选项**              | 云 |
 | **状态**                         | **已弃用：** 自助服务部署已完全弃用此功能。 |
@@ -223,7 +223,7 @@ ms.locfileid: "5814312"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 工作流 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已从平台更新 32 中的请求更改对话框内删除了用户选择下拉列表。 将把请求更改请求正常自动发送到发起者。 有关此功能的详细信息，请参阅[工作流审核流程中的操作](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change)。 |
+| **状态**                         | 已从平台更新 32 中的请求更改对话框内删除了用户选择下拉列表。 将把请求更改请求正常自动发送到发起者。 有关此功能的详细信息，请参阅[工作流审核流程中的操作](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change)。 |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>云托管服务呈现的分页文档中将不再支持嵌入式钻取链接 
 
@@ -233,7 +233,7 @@ ms.locfileid: "5814312"
 | **被另一个功能取代？**   | 无 |
 | **影响的产品区域**         | 申报 |
 | **部署选项**              | 所有 |
-| **状态**                         | 正在从服务中努力移除此功能。<br><br>现代客户端提供大量选项，用于生成其中包含自动生成的链接的视图，以便帮助您在应用程序中导航。 将为收件人推荐通过电子邮件发送，归档和打印的外部通信使用服务呈现的分页文档。 我们改进了直接在浏览器中预览文档的体验，可以直接访问本地打印机。 有关详细信息，请参阅[使用嵌入式查看器预览 PDF 文档](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents)。 |
+| **状态**                         | 正在从服务中努力移除此功能。<br><br>现代客户端提供大量选项，用于生成其中包含自动生成的链接的视图，以便帮助您在应用程序中导航。 将为收件人推荐通过电子邮件发送，归档和打印的外部通信使用服务呈现的分页文档。 我们改进了直接在浏览器中预览文档的体验，可以直接访问本地打印机。 有关详细信息，请参阅[使用嵌入式查看器预览 PDF 文档](../analytics/preview-pdf-documents.md)。 |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../migration-upgrade/deprecated-features.md)。

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796310"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936672"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
 
@@ -95,11 +95,11 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 
 ## <a name="additional-resources"></a>其他资源
 
-[窗体、产品和控件中的辅助功能](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[窗体、产品和控件中的辅助功能](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft 辅助功能中心](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 辅助功能中心](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 辅助功能中心](/dynamics365/get-started/accessibility/index)
 
 [合规性概览](compliance-overview.md)
 

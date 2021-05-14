@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750682"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941101"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Supply Chain Management 提供强大的采购功能。 Dy
 ### <a name="prerequisites"></a>先决条件
 
 - **双写入** – 有关详细信息，请参阅[双写入主页](dual-write-home-page.md#dual-write-setup)。
-- **Dynamics 365 Field Service** – 有关详细信息，请参阅[如何安装 Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)。
+- **Dynamics 365 Field Service** – 有关详细信息，请参阅[如何安装 Dynamics 365 Field Service](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)。
 
 在 Microsoft Dataverse 中启用时，双写入和 Field Service 将引入几个解决方案层，它们通过新的元数据、窗体、视图和逻辑扩展环境。 这些解决方案可以按任何顺序启用，通常会按以下给定顺序安装：
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821000"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936722"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>销售点 (POS) 中的客户订单
 
@@ -42,7 +42,7 @@ ms.locfileid: "5821000"
 
 ### <a name="configure-modes-of-delivery"></a>配置交货方式
 
-若要使用客户订单，必须配置商店渠道可以使用的交付方式。 必须定义至少一种在从商店向客户装运订单行时可使用的交货方式。 还必须定义至少一种在从商店为订单行提货时可使用的交货提货方式。 交货方式在 Commerce 总部中 **交货方式** 页面定义。 有关如何为 Commerce 渠道设置交货方式的详细信息，请参阅[定义交货方式](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes)。
+若要使用客户订单，必须配置商店渠道可以使用的交付方式。 必须定义至少一种在从商店向客户装运订单行时可使用的交货方式。 还必须定义至少一种在从商店为订单行提货时可使用的交货提货方式。 交货方式在 Commerce 总部中 **交货方式** 页面定义。 有关如何为 Commerce 渠道设置交货方式的详细信息，请参阅[定义交货方式](./configure-call-center-delivery.md#define-delivery-modes)。
 
 ![“交货方式”页面](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ ms.locfileid: "5821000"
 - **取消费百分比** – 如果取消客户订单时应收取费用，请指定这笔费用的金额。
 - **取消费代码**  – 指定在通过 POS 向取消的客户订单收取取消费时应使用的应收帐款费用代码。 费用代码定义取消费的财务过帐逻辑。
 - **装运费用代码**  – 如果 **使用高级自动收费** 选项设置为 **是** ，此参数设置无效。 如果该选项设置为 **否** ，系统会提示用户在 POS 中创建客户订单时手动输入装运费用。 此参数用于映射在客户输入装运费用时应用于订单的应收帐款费用代码。 费用代码定义装运费用的财务过帐逻辑。
-- **使用高级自动收费** – 将此选项设置为 **是** 将在 POS 中创建客户订单时使用系统计算的自动收费。 这些自动收费可用于计算装运费用或其他订单或物料特定的费用。 有关如何设置和使用高级自动收费功能的详细信息，请参阅[全渠道高级自动收费](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges)。
+- **使用高级自动收费** – 将此选项设置为 **是** 将在 POS 中创建客户订单时使用系统计算的自动收费。 这些自动收费可用于计算装运费用或其他订单或物料特定的费用。 有关如何设置和使用高级自动收费功能的详细信息，请参阅[全渠道高级自动收费](./omni-auto-charges.md)。
 
 ![“Commerce 参数”页面中的“客户订单”选项卡](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>更新 POS 中的交易记录屏幕布局
 
-确保 POS 的[屏幕布局](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts)配置为支持创建和管理客户订单，并且配置所有必需的 POS 操作。 建议使用下面的一些 POS 操作来正确支持创建和管理客户订单：
+确保 POS 的[屏幕布局](./pos-screen-layouts.md)配置为支持创建和管理客户订单，并且配置所有必需的 POS 操作。 建议使用下面的一些 POS 操作来正确支持创建和管理客户订单：
 - **装运所有产品** – 此操作用于指定将把交易记录购物车中的所有行装运到目的地。
 - **装运所选产品** – 此操作用于指定将把交易记录购物车中的所选行装运到目的地。
 - **提取所有产品** – 此操作用于指定交易记录购物车中将从所选商店位置提货的所有行。
 - **提取所选产品** – 此操作用于指定交易记录购物车中将从所选商店位置提货的所选行。
 - **自提所有产品** – 此操作用于指定交易记录购物车中将自提的所有行。如果在 POS 中使用此操作，将把客户订单转换为付款自提交易记录。
-- **自提所选产品** – 此操作用于指定交易记录购物车中客户将在购买时自提的所选行。 此操作只有在[混合订单](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders)方案中才有用。
+- **自提所选产品** – 此操作用于指定交易记录购物车中客户将在购买时自提的所选行。 此操作只有在[混合订单](./hybrid-customer-orders.md)方案中才有用。
 - **撤回订单** – 此操作用于搜索和检索客户订单，以便 POS 用户根据需要编辑、取消或对其执行与履行有关的操作。
 - **更改交货方式** – 此操作可用于快速更改已经配置为要装运的行的交货方式，无需用户再次完成“装运所有产品”或“装运所选产品”流。
 - **保证金覆盖** – 此操作可用于更改客户将为所选客户订单支付的保证金金额。
@@ -128,7 +128,7 @@ ms.locfileid: "5821000"
 可以根据需要通过 POS 撤回和编辑在线或在商店渠道中创建的零售订单。
 
 > [!IMPORTANT]
-> 并非所有零售订单都可以通过 POS 应用程序进行编辑。 如果为呼叫中心渠道开启了[启用订单完成](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion)设置，则不能通过 POS 编辑该呼叫中心渠道中创建的订单。 为了确保正确处理付款，必须通过 Commerce 总部中的呼叫中心应用程序编辑源自呼叫中心渠道并使用“启用订单完成功能”的订单。
+> 并非所有零售订单都可以通过 POS 应用程序进行编辑。 如果为呼叫中心渠道开启了[启用订单完成](./set-up-order-processing-options.md#enable-order-completion)设置，则不能通过 POS 编辑该呼叫中心渠道中创建的订单。 为了确保正确处理付款，必须通过 Commerce 总部中的呼叫中心应用程序编辑源自呼叫中心渠道并使用“启用订单完成功能”的订单。
 
 在版本 10.0.17 及更高版本中，用户可以通过 POS 应用程序编辑合格的订单，即使订单已部分履行。 但是，仍然不能通过 POS 编辑已全部开票的订单。 若要启用此功能，请在 **功能管理** 工作区中开启 **在销售点中编辑部分履行的订单** 功能。 如果此功能未启用，或者您使用的是版本 10.0.16 或更早版本，只有订单完全打开时，用户才可以在 POS 中编辑客户订单。 此外，如果此功能启用，您可以限制哪些商店可以编辑部分履行的订单。 针对特定商店禁用此功能的选项可以通过 **常规** 快速选项卡下的 **功能配置文件** 配置。
 
@@ -153,7 +153,7 @@ ms.locfileid: "5821000"
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>从 POS 完成客户订单装运或提货
 
-创建订单后，物料将根据订单的配置由客户从商店提货或发货。 有关此过程的详细信息，请参阅[商店订单履行](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview)文档。
+创建订单后，物料将根据订单的配置由客户从商店提货或发货。 有关此过程的详细信息，请参阅[商店订单履行](./order-fulfillment-overview.md)文档。
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>客户订单的异步交易记录流
 

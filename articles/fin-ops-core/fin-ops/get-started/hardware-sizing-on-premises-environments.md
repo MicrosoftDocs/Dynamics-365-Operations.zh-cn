@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748737"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923472"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -134,7 +134,7 @@ ms.locfileid: "5748737"
 
 ## <a name="environment-orchestrator"></a>环境 Orchestrator
 
-Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅[计划和准备 Service Fabric 独立群集部署](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)。
+Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅[计划和准备 Service Fabric 独立群集部署](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)。
 
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 

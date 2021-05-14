@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829948"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909783"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 
@@ -62,7 +62,7 @@ ms.locfileid: "5829948"
 
 这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。
 
-- [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
+- [目标客户到现金集成](https://youtu.be/AVV9x5x-XCg) 
 - [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [使用仓库模板复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -94,16 +94,16 @@ ms.locfileid: "5829948"
 
 ## <a name="blogs"></a>博客
 
-[Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm/)上有很多关于制造和供应链管理的主题。 其中大多数文章是针对旧版本编写的，但相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
+[Dynamics AX 制造研发团队博客](/archive/blogs/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm/)上有很多关于制造和供应链管理的主题。 其中大多数文章是针对旧版本编写的，但相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
 
 ## <a name="white-papers"></a>白皮书
 
-- [Lean manufacturing：可承诺量和看板作业级计划](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean manufacturing：可承诺量和看板作业级计划](/dynamics/s-e/)
 - [使用成本计算单计算物料清单](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>网络培训课程
 
-要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path)。
+要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

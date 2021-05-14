@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828218"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920979"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>收货仓库工序疑难解答
 
@@ -56,7 +56,7 @@ Microsoft 已评估此问题，确定了这是一项功能限制。 当前，混
 
 ### <a name="issue-resolution"></a>解决问题
 
-新的入站负荷处理功能 *负荷数量超收* 解决了这个问题。 要启用此功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，启用以下功能（按照它们列出的顺序）：
+新的入站负荷处理功能 *负荷数量超收* 解决了这个问题。 要启用此功能，转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区，启用以下功能（按照它们列出的顺序）：
 
 1. 将采购订单库存交易记录与负荷相关联
 1. 负荷数量超收

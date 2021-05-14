@@ -2,7 +2,7 @@
 title: 使用 ER 创建电子单据和更新应用程序数据
 description: 您可以设计可在应用程序中用来生成传出电子文档的电子申报 (ER) 格式。
 author: NickSelin
-ms.date: 11/01/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5f66a173c7d66f915a7802e42caf1a36f661eea1
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750026"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944309"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>使用 ER 生成电子文档并更新应用程序数据
 
@@ -35,9 +35,9 @@ ms.locfileid: "5750026"
 
 要了解有关此功能的更多信息，请播放一组 ER 生成带应用程序数据更新的文档任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分），这些任务指南将带您浏览内部统计报告和存档的详细信息。 完成这些任务指南中的特定步骤需要以下文件。 将这些文件下载和保存到您的本地计算机。
 
-- [ER 数据模型配置：内部统计（模型）](https://go.microsoft.com/fwlink/?linkid=849038)
-- [ER 模型映射配置：内部统计（映射）](https://go.microsoft.com/fwlink/?linkid=849038)
-- [ER 格式配置：内部统计（格式）](https://go.microsoft.com/fwlink/?linkid=849038)
+- [ER 数据模型配置：内部统计（模型）](https://download.microsoft.com/download/9/c/e/9ceeacbe-c13e-422e-96f2-594c4a6b45b7/Intrastatmodel.xml)
+- [ER 模型映射配置：内部统计（映射）](https://download.microsoft.com/download/2/1/d/21ddaaeb-64c5-4408-a35f-1ccb922d40a4/Intrastatmapping.xml)
+- [ER 格式配置：内部统计（格式）](https://download.microsoft.com/download/8/b/b/8bbb8891-e88d-4739-b92a-2d1d2fffcb79/Intrastatformat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

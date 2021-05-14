@@ -2,7 +2,7 @@
 title: 跟踪电子申报格式的执行以解决性能问题
 description: 此主题介绍如何使用电子申报 (ER) 中的性能跟踪功能以解决性能问题。
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754208"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944645"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -47,10 +47,10 @@ ms.locfileid: "5754208"
 
 | 文件                                  | 内容                               |
 |---------------------------------------|---------------------------------------|
-| Performance trace model.version.1     | [示例 ER 数据模型配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Performance trace metadata.version.1  | [示例 ER 元数据配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Performance trace mapping.version.1.1 | [示例 ER 模型映射配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance trace format.version.1.1  | [示例 ER 格式配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Performance trace model.version.1     | [示例 ER 数据模型配置](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Performance trace metadata.version.1  | [示例 ER 元数据配置](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Performance trace mapping.version.1.1 | [示例 ER 模型映射配置](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Performance trace format.version.1.1  | [示例 ER 格式配置](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>配置 ER 参数
 
@@ -84,7 +84,7 @@ ms.locfileid: "5754208"
 假设您已开始设计一种新的 ER 解决方案来生成新报表以表示供应商交易记录。 现在，您可以在 **供应商交易记录** 页（转至 **应付帐款 \> 供应商 \> 所有供应商**，选择供应商，然后在操作窗格中 **供应商** 选项卡上 **交易记录** 组中选择 **交易记录**）中找到所选供应商的交易记录。 但是，您希望同时让所有供应商交易记录都包含在一个 XML 格式的电子申报文档中。 此解决方案将由多个 ER 配置构成，这些配置中包含所需数据模型、元数据、模型映射和格式组件。
 
 1. 登录已经针对贵公司进行过配置的 RCS 实例。
-2. 在此教程中，将为示例公司 **Litware, Inc.** 创建并修改配置。 因此，请确保已经将该配置提供程序添加到了 RCS 并选择为有效。 有关说明，请参阅[创建配置提供程序并将其标记为有效](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11)过程。
+2. 在此教程中，将为示例公司 **Litware, Inc.** 创建并修改配置。 因此，请确保已经将该配置提供程序添加到了 RCS 并选择为有效。 有关说明，请参阅[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。
 3. 在 **电子申报** 工作区中，选择 **报告配置** 磁贴。
 4. 在 **配置** 页中，按照下面的顺序将作为先决条件下载的 ER 配置导入 RCS 中：数据模型、元数据、模型映射、格式。 为每个配置执行下列步骤:
 
@@ -101,7 +101,7 @@ ms.locfileid: "5754208"
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>将 ER 配置从 RCS 导入 Finance and Operations
 
 1. 登录您的应用程序实例。
-2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)过程。
+2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](rcs-download-configurations.md)过程。
 3. 执行下列步骤将配置从 RCS 导入应用程序中：
 
     1. 在 **电子申报** 工作区 **Litware, Inc.** 配置提供程序的磁贴中，选择 **存储库**。

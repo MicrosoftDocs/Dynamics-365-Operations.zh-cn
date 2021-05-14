@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.18 预览（2021 年 5 月）
+title: Dynamics 365 Supply Chain Management 版本 10.0.18（2021 年 5 月）中的新增功能或更改内容
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.18 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909345"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934959"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 预览（2021 年 5 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.18（2021 年 5 月）中的新增功能或更改内容
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.18 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.793，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 10.0.18 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.793，并以下面的形式提供：
 
 - **版本预览：** 2021 年 3 月
 - **版本正式发布（自行更新）：** 2021 年 4 月
@@ -43,9 +42,17 @@ ms.locfileid: "5909345"
 
 - [返点管理](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - 有关详细信息，请参阅[返点管理模块概述](../rebate-management/rebate-management-overview.md)
 
+- [销售数据实体导出设置策略](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [包含和不包含实际称重的销售退货单行登记(具有小数精度)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [一键销售订单确认](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [销售订单到采购订单行删除策略](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - 仅上下班打卡的简化界面（[用于制造的增强生产车间执行界面](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing)的增强功能）<br> - 有关详细信息，请参阅[配置生产车间执行界面](../production-control/production-floor-execution-configure.md)。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 

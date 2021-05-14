@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813451"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890321"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
@@ -32,17 +32,17 @@ ms.locfileid: "5813451"
 :::row:::
     :::column:::
         - [应付帐款](accounts-payable/accounts-payable.md) 
-        - [应收账款](accounts-receivable/accounts-receivable.md)
+        - [应收帐款](accounts-receivable/accounts-receivable.md)
         - [预算编制](budgeting/budgeting-overview.md) 
         - [现金和银行管理](cash-bank-management/cash-bank-management.md)
         - [成本核算](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [费用管理](expense-management/expense-management.md)
-        - [财务报告](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [费用管理](/dynamics365/project-operations/prod-exp/expense-management)
+        - [财务报告](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [固定资产](fixed-assets/fixed-assets.md)
         - [总帐和财务报告](general-ledger/general-ledger.md) 
-        - [项目管理与核算](project-management/overview-project-management-accounting.md)
+        - [项目管理与核算](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [公共部门](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ ms.locfileid: "5813451"
 
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
-国家/地区法规会影响税务设置和财务管理的其他方面。 请参阅我们帮助内容中的[本地化和监管功能](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)部分，了解特定于国家/地区的功能。
+国家/地区法规会影响税务设置和财务管理的其他方面。 请参阅我们帮助内容中的[本地化和监管功能](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)部分，了解特定于国家/地区的功能。
 
 ### <a name="additional-content"></a>其他内容
 
@@ -73,6 +73,6 @@ ms.locfileid: "5813451"
 
 ## <a name="elearning-courses"></a>网络培训课程
 
-要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Finance](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path)。
+要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path)。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

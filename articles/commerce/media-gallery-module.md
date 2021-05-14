@@ -2,7 +2,8 @@
 title: 媒体库模块
 description: 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802807"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937378"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -49,11 +51,13 @@ ms.locfileid: "5802807"
 |---------------|--------|-------------|
 | 图像源 | **页面上下文** 或 **产品 ID** | 默认值为 **页面上下文**。 如果选择 **页面上下文**，模块将预期页面会提供产品 ID 信息。 如果选择了 **产品 ID**，必须提供图像的产品 ID 作为 **产品 ID** 属性的值。 Commerce 版本 10.0.12 中提供了此功能。 |
 | 产品 ID | 产品 ID | 仅当 **图片源** 属性的值为 **产品 ID** 时，此属性才适用。 |
-| 图像缩放 | **内联** 或 **容器** | 此属性使用户可以在媒体库模块中缩放图像。 可以内联缩放图像，也可以在图像旁边的单独容器中缩放图像。 此功能在 10.0.12 中提供 |
-| 缩放比例 | 小数 | 此属性指定缩放图像的比例系数。 例如，如果值设置为 **2.5**，图像将放大 2.5 倍。|
-| 全屏 | **True** 或 **False** | 此属性指定是否可以在全屏模式下查看图像。 在全屏模式下，如果打开了缩放功能，也可以进一步放大图像。 Commerce 版本 10.0.13 中提供了此功能。 |
+| 图像缩放 | **内联** 或 **容器** | 此属性使用户可以在媒体库模块中缩放图像。 可以内联缩放图像，也可以在图像旁边的单独容器中缩放图像。 此功能在 10.0.12 中提供。 |
+| 缩放系数 | 小数 | 此属性指定缩放图像的比例系数。 例如，如果值设置为 **2.5**，图像将放大 2.5 倍。 |
+| 全屏 | **True** 或 **False** | 此属性指定是否可以在全屏模式下查看图像。 在全屏模式下，如果打开了缩放功能，也可以进一步放大图像。 Commerce 版本 10.0.13 中提供此功能。 |
+| 缩放图像的质量 | 从 1 到 100 的一个数字，表示百分比，使用跟踪栏控件选择 | 此属性定义放大图像的图像质量。 可以将其设置为 100％，以确保缩放的图像始终使用尽可能高的分辨率。 此属性不适用于 PNG 文件，因为它们使用无损格式。 Commerce 版本 10.0.19 开始提供此功能。 |
 | 图像 | 从站点构建器媒体库中选择的图像 | 除了从产品呈现外，还可以为媒体库模块挑选图像。 这些图像将被附加到任何可用的产品图像上。 Commerce 版本 10.0.12 中提供了此功能。 |
 | 缩略图方向 | **垂直** 或 **水平** | 此属性指定缩略图图像应显示为垂直条还是水平条。 |
+| 隐藏变型的基础产品图像 | **True** 或 **False** | 如果将此属性设置为 **True**，当选择变型时，基础产品的图像将隐藏，除非该变型没有图像。 此属性不会影响没有变型的产品。 |
 
 下图显示了一个媒体库模块的示例，其中全屏和缩放选项可用。
 

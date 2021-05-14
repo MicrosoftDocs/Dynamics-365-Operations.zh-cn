@@ -2,7 +2,7 @@
 title: 设置用于主数据查询的环境
 description: 本主题说明如何设置您的环境以使用税务计算主数据查找功能。
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869046"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924146"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>设置用于主数据查询的环境
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 本主题说明如何设置您的环境以使用税务计算主数据查找功能。
 
 1. 在 Lifecycle Services (LCS) 中设置 Power Platform 集成。 有关详细信息，请参阅 [Microsoft Power Platform 集成 - 加载项概述](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)。
 2. 设置 Dynamics 365 Finance 和 Microsoft Dataverse。 有关详细信息，请参阅[获取解决方案](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution)和[身份验证和授权](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization)。
-3. 从 [税务服务虚拟实体](https://go.microsoft.com/fwlink/?linkid=2158160)中导入 *先决条件税务服务虚拟实体解决方案*。
+3. 设置以下实体。 有关详细信息，请参阅[启用虚拟实体](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities)。
+      - CompanyInfoEntity
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogisticsAddressCityEntity
+      - LogisticsAddressCountryRegionTranslationEntity
+      - LogisticsAddressStateEntity
+      - PurchProcurementChargeCDSEntity
+      - SalesChargeCDSEntity
+      - TaxGroupEntity
+      - TaxItemGroupHeadingEntity
+      - VendVendorV2Entity
 4. 设置 Dynamics 365 Regulatory Configuration Service (RCS)。 
 5. 为 Microsoft 创建服务请求以启用以下功能的外部测试：
 
       - ERCdsFeature
       - TaxServiceCDSFeature
 
-6. 在 Finance 中，转到 **功能管理** 工作区，然后启用以下功能：
+6. 转到 **功能管理** 工作区，然后启用以下功能：
 
       - （预览）电子报告 Dataverse 数据源支持
       - (预览版)税务服务 Dataverse 数据源支持

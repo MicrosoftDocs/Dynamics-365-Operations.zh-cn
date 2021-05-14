@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890768"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941132"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -47,6 +47,7 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      巴西         |   2020 年 10 月      | 10.0.16      |   DRCST 申报 SC - SEF 262/2020   |
 |      巴西         |   2020 年 10 月      | 10.0.16      |   SPED 财政 ICMS / IPI 记录 C176   |
 |      巴西         |   2020 年 12 月      | 10.0.17、10.0.16HF、10.0.15HF      |   NF-e NT2020.006 - 数字平台中介的标识（布局和验证规则更新）   |
+|      巴西         |   2021 年 3 月         | 10.0.17、10.0.18、10.0.19         |    SPED REINF 布局 1.5.1
 |      欧洲        |   2021 年 1 月       | 10.0.17、10.0.16HF、10.0.15HF      |   英国脱欧 - 北爱尔兰协议对欧盟国家/地区内部社区贸易报告的影响  |
 |      德国        |   2021 年 1 月       | 10.0.16HF      |   ELSTER UstVA 增值税提前通知格式增加了两个新框 37,50，用于勾销无法收回的债务  |
 |      德国        |   2021 年 1 月       | 10.0.17      |   ELSTER 增值税提前通知 XML 结构更改 (UstVA)  |

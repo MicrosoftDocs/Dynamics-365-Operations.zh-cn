@@ -2,7 +2,7 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750992"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937322"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -161,19 +161,7 @@ ms.locfileid: "5750992"
     - 在 **导入阈值记录数** 字段中，输入要导入的阈值记录数。 这确定线程要处理的记录数。 如果一个文件有 1 万条记录，记录数为 2500，任务数为 4，意味着每个线程将处理 2500 条记录。
     - 在 **导入任务数** 字段中，输入导入任务的数量。 不能超过在 **系统管理 \> 服务器配置** 中为批处理分配的最大批处理线程数。
 
-## <a name="clean-up-the-staging-tables"></a>清除暂存表
-从平台更新 29 开始，已弃用此功能。 已被下面介绍的新作业历史记录清理功能版本取代。
-
-您可以使用 **数据管理** 工作区中的 **暂存清除** 功能清除暂存表。 您可以使用以下选项选择从哪个暂存表删除哪些记录：
-
-- **实体** - 如果仅提供一个实体，则删除来自该实体暂存表的所有记录。 选择此选项以清除跨所有数据项目和所有作业的实体的所有数据。
-- **作业 ID** - 如果仅提供一个作业 ID，则从相应的暂存表中删除选定作业中的所有实体的所有记录。
-- **数据项目** - 如果仅选择一个数据项目，则删除选定数据项目的所有实体和跨所有作业的所有记录。
-
-您还可以合并这些选项以进一步限制被删除的记录集。
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>作业历史记录清理（平台更新 29 及更高版本中提供）
-
+## <a name="job-history-clean-up"></a>作业历史记录清理 
 若要安排定期清理执行历史记录，必须使用数据管理中的作业历史记录清理功能。 此功能取代了之前的暂存表清理功能，后者已被弃用。 清理过程将清理下面的表。
 
 -   所有暂存表

@@ -2,7 +2,7 @@
 title: ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 description: 本主题介绍如何创建一个新的电子报告配置，其中包含用于生成 OPENXML 格式的电子文档的模板。
 author: NickSelin
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2f84621028c36cf79d6fb9ab07707bdb970d97e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f23748f6f1d2c3045b1dc69d8e46821f67da593
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754978"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944260"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
@@ -28,7 +28,7 @@ ms.locfileid: "5754978"
 
 在此示例中，您将创建示例公司 Litware 公司的配置。这些步骤可以在 GBSI 公司执行。
 
-为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 可从[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)访问此文件。
+为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 可从[付款报表模板](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx)访问此文件。
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>上载付款数据模型配置

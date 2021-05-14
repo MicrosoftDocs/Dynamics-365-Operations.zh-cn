@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797249"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936796"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>管理属性和属性组
 
@@ -101,7 +101,7 @@ ms.locfileid: "5797249"
 
 这些选项最初用于改进联机店面的搜索功能。 尽管 Commerce 中不包含现成的联机店面，却的确包含电子商务发布软件开发包 (SDK)。 客户可使用此 SDK 将产品放入所选搜索索引中。 尽管导入了产品数据，客户仍然应该可以区分可搜索数据、可查询的数据等。 这样他们就可以构建最佳索引以确保仅为 *他们认为* 应该建立索引的属性建立索引。
 
-有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](https://technet.microsoft.com/library/jj219669.aspx)。
+有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](/SharePoint/search/search-schema-overview)。
 
 ## <a name="filter-settings-for-attributes"></a>属性的筛选设置
 

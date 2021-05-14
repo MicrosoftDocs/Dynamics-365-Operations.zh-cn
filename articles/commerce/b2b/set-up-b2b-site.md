@@ -2,7 +2,8 @@
 title: 建立 B2B 电子商务站点
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置企业到企业 (B2B) 电子商务站点。
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799749"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937498"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 企业到企业 (B2B) 电子商务站点提供一些关键功能，可以优化 B2B 用户的工作流。 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置 B2B 电子商务站点。 其中介绍了必须配置以支持特定于 B2B 的场景的模块和站点设置。
 
@@ -283,9 +285,35 @@ ms.locfileid: "5799749"
 1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 1. 发布页面的 URL。
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>将快速添加模块添加到购物车页面
+
+快速添加模块提供了一种使用物料 ID（也称为库存单位 \[SKU\] ID）将多个物料快速添加到购物车的方法。 快速添加模块已添加到站点的购物车页面。
+
+要将快速添加模块添加到 Commerce 站点构建器中的购物车页面，请按照下列步骤操作。
+
+1. 转到 **模板**，选择您的站点的购物车页面模板。
+1. 选择 **编辑**。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **快速添加** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
+1. 转到 **页面**，选择您的站点的购物车页面。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 模块的属性窗格中，在 **宽度** 下，选择 **填充容器**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **快速添加** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
+
+> [!NOTE] 
+> 快速添加模块自 Commerce 版本 10.0.17 开始提供。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+
 ## <a name="additional-resources"></a>其他资源
 
 [模块库概览](../starter-kit-overview.md)
+
+[SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [创作页面概览](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ ms.locfileid: "5799749"
 
 [内容块模块](../add-hero-module.md)
 
-[产品集合](../product-collection-module-overview.md)
+[产品集合模块](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

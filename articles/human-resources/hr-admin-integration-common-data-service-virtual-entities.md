@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890044"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935745"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
@@ -102,27 +102,15 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 在您的 Power Apps 环境中安装 Dynamics 365 HR 虚拟表应用以将虚拟表解决方案包部署到 Dataverse。
 
-1. 打开 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
+1. 在 Human Resources 中，打开 **Microsoft Dataverse 集成** 页面。
 
-2. 在 **环境** 列表中，选择与您的 Human Resources 实例关联的 Power Apps 环境。
+2. 选择 **虚拟表** 选项卡。
 
-3. 在页面的 **资源** 部分中，选择 **Dynamics 365 应用**。
+3. 选择 **安装虚拟表应用**。
 
-4. 选择 **安装应用** 操作。
+### <a name="configure-the-virtual-table-data-source"></a>配置虚拟表数据源
 
-5. 选择 **Dynamics 365 HR 虚拟表**，然后选择 **下一步**。
-
-6. 审查并标记以同意服务条款。
-
-7. 选择 **安装**。
-
-安装需要几分钟时间。 完成后，请继续执行后续步骤。
-
-![从 Power Platform 管理中心安装 Dynamics 365 HR 虚拟表应用](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>配置虚拟表数据源 
-
-下一步是在 Power Apps 环境中配置虚拟表数据源。 
+下一步是在 Power Apps 环境中配置虚拟表数据源。
 
 1. 打开 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
@@ -133,6 +121,9 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 4. 在 **解决方案运行状况中心** 中，选择应用程序页面右上角的 **高级查找** 图标。
 
 5. 在 **高级查找** 页面上的 **查找** 下拉列表中，选择 **Finance and Operations 虚拟数据源配置**。
+
+   > [!NOTE]
+   > 上一个设置步骤中安装虚拟表应用可能需要几分钟。 如果列表中没有 **Finance and Operations 虚拟数据源配置**，请稍等片刻，然后刷新列表。
 
 6. 选择 **结果**。
 
@@ -186,7 +177,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 设置完成后，您可以选择要在 Dataverse 实例中生成和启用的虚拟表。
 
-1. 在 Human Resources 中，打开 **Dataverse 集成** 页面。
+1. 在 Human Resources 中，打开 **Microsoft Dataverse 集成** 页面。
 
 2. 选择 **虚拟表** 选项卡。
 
@@ -197,7 +188,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 4. 选择 **生成/刷新**。
 
-![Dataverse 集成](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse 集成](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>检查表生成状态
 

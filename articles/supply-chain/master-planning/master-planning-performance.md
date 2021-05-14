@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833441"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935801"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 
@@ -79,7 +79,7 @@ ms.locfileid: "5833441"
 
 ### <a name="number-of-orders-in-firming-bundle"></a>固定捆绑销售中的订单数
 
-**固定捆绑销售中的订单数** 参数指定每个线程/批处理同时处理的订单总数。 这会导致自动确定流程并行化。
+**固定捆绑销售中的订单数** 参数指定每个线程/批处理同时处理的订单总数。 这会导致自动确认流程并行化。
 
 可设置 **主计划参数** 页（**主计划 \> 设置 \> 主计划参数**）的 **常规** 选项卡上 **绩效** 部分中的 **固定捆绑销售中的订单数** 参数。 自动确认流程的并行化基于必须一起处理的订单。 例如，如果此参数设置为 **50**，则每个线程或批处理一次性选取 50 个订单并一起处理。 建议通过试错流程找到最佳值。 但是，可使用以下公式计算初始值：
 

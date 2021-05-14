@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751402"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941021"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 
@@ -89,7 +89,7 @@ Dataverse 集成通过使用公司标识符剥离数据来为公司提供奇偶�
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="通过选择行更改默认公司。":::
 
-+ 如果您是系统配置者或管理员，想要在自定义窗体上自动填充公司数据，可以使用[窗体事件](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)。 将 JavaScript 引用添加到 **msdyn_/DefaultCompany.js** 并使用以下事件。 您可以使用任何现成的窗体，例如，**客户** 窗体。
++ 如果您是系统配置者或管理员，想要在自定义窗体上自动填充公司数据，可以使用[窗体事件](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)。 将 JavaScript 引用添加到 **msdyn_/DefaultCompany.js** 并使用以下事件。 您可以使用任何现成的窗体，例如，**客户** 窗体。
 
     + 窗体的 **OnLoad** 事件：设置 **defaultCompany** 列。
     + **公司** 列的 **OnChange** 事件：设置 **updateDefaultCompany** 列。

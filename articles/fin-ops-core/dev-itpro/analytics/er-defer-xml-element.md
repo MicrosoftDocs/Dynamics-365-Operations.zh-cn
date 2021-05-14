@@ -2,7 +2,7 @@
 title: 推迟执行 ER 格式的 XML 元素
 description: 本主题说明如何推迟执行电子报告 (ER) 格式的 XML 元素。
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894044"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944477"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -59,14 +59,14 @@ ms.locfileid: "5894044"
 
 | 内容描述            | 文件名 |
 |--------------------------------|-----------|
-| ER 数据模型配置    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER 模型映射配置 | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER 数据模型配置    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER 模型映射配置 | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 在开始之前，您还必须将示例 ER 解决方案的以下配置下载并保存到本地计算机上。
 
 | 内容描述     | 文件名 |
 |-------------------------|-----------|
-| ER 格式配置 | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER 格式配置 | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>导入示例 ER 配置
 
@@ -164,7 +164,7 @@ ms.locfileid: "5894044"
 1. 在 **格式设计器** 页上，选择 **运行**。
 2. 下载 Web 浏览器提供的文件，然后将其打开以进行检查。
 
-    ![下载的文件](./media/ER-DeferredXml-Run.png)
+    ![导入格式的下载文件](./media/ER-DeferredXml-Run.png)
 
 请注意，汇总节点显示了已处理交易记录的税收值总和。 由于该格式已配置为使用 **model.Data.Summary.Total** 绑定返回此总和，所以通过调用模型映射中 **GroupBy** 类型的 **已分组** 数据源 *TotalSum* 汇总计算了此总和。 为了计算此汇总，模型映射会在 **已筛选** 数据源中选择的所有交易记录上迭代。 通过比较汇总节点和最后一个记录节点的执行时间，可以确定计算总和用了 12 毫秒 (ms)。 通过比较第一个和最后一个记录节点的执行时间，可以确定生成所有记录节点用了 9 ms。 因此，总共需要 21 ms。
 
@@ -196,7 +196,7 @@ ms.locfileid: "5894044"
 11. 选择 **保存**，然后选择 **运行**。
 12. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载的文件](./media/ER-DeferredXml-Run1.png)
+    ![生成的含累计总和的税收值列表](./media/ER-DeferredXml-Run1.png)
 
     最后一个记录节点包含使用生成的输出作为数据源为所有已处理交易记录计算的税值累计总和。 此数据源从报表的开头开始，一直持续到最后一个税收交易记录。 汇总节点包含使用 *GroupBy* 类型数据源在模型映射中计算的所有已处理交易记录的税值总和。 请注意，这些值相等。 因此，可以使用基于输出的求和来代替 **GroupBy**。 通过比较第一个记录节点和汇总节点的执行时间，可以确定生成所有记录节点并进行汇总用了 11 ms。 因此，就生成记录节点和税值总和而言，修改后的格式大约比原始格式快两倍。
 
@@ -205,7 +205,7 @@ ms.locfileid: "5894044"
 15. 选择 **保存**，然后选择 **运行**。
 16. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载的文件](./media/ER-DeferredXml-Run2.png)
+    ![使用经过编辑的公式生成的税收值列表](./media/ER-DeferredXml-Run2.png)
 
     请注意，最后一个记录节点中的税收值累计总和现在等于汇总节点上的总和。
 
@@ -218,7 +218,7 @@ ms.locfileid: "5894044"
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载的文件](./media/ER-DeferredXml-Run3.png)
+    ![报表标题税收值的下载文件](./media/ER-DeferredXml-Run3.png)
 
     请注意，汇总节点中的税收值总和现在等于 0（零），因为此总和现在是基于生成的输出计算的。 生成第一个记录节点时，生成的输出尚不包含具有交易记录明细的记录节点。 您可以配置此格式以延迟执行 **报表\\消息\\汇总** 元素，直到已经为所有税收交易记录运行了 **报表\\消息\\记录** 元素为止。
 
@@ -232,7 +232,7 @@ ms.locfileid: "5894044"
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载的文件](./media/ER-DeferredXml-Run4.png)
+    ![延期执行的下载文件](./media/ER-DeferredXml-Run4.png)
 
     **报表\\消息\\汇总** 元素现在仅在其父元素 **报表\\消息** 下嵌套的所有其他项目运行之后才运行。 因此，它在针对 **model.Data.List** 数据源的所有税收交易记录运行 **报表\\消息\\记录** 元素后运行。 第一个和最后一个记录节点的执行时间以及标题和汇总节点的执行时间揭示了这一事实。
 

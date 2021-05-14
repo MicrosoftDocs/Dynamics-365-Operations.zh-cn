@@ -1,12 +1,12 @@
 ---
-title: 质量管理概述
-description: 本主题介绍如何在 Dynamics 365 Supply Chain Management 中使用质量管理来帮助改进您的供应链中的产品质量。
+title: 启用质量和不符合项管理
+description: 本主题概述了在 Microsoft Dynamics 365 Supply Chain Management 中设置和配置质量和不符合项管理功能的流程。
 author: perlynne
-ms.date: 10/15/2019
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
+ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome, InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement, InventTestRelatedOperations
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 94003
@@ -16,491 +16,63 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23406f68e6ed317025a072eb3377392f0b129626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 67d5da648e31d07d054246f5d308a6c6cdeb506c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829924"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956246"
 ---
-# <a name="quality-management-overview"></a>质量管理概述
+# <a name="enable-quality-and-nonconformance-management"></a>启用质量和不符合项管理
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在 Dynamics 365 Supply Chain Management 中使用质量管理来帮助改进您的供应链中的产品质量。
+本主题概述了在 Microsoft Dynamics 365 Supply Chain Management 中设置和配置质量和不符合项管理功能的流程。
 
-质量管理可帮助您在处理未达标的产品时管理周转时间，而不管其源点如何。 因为诊断类型链接到更正报表，所以 Supply Chain Management 可以计划任务以更正问题并防止重复执行它们。
+## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a>启用质量和不符合项管理
 
-除了管理不符合项的功能外，质量管理还包括按问题类型（甚至内部问题）跟踪问题以及将解决方案标识为短期或长期的功能。  有关关键绩效指标 (KPI) 的统计能让您了解以前的不符合项问题以及用于更正它们的解决方案的历史记录。 您可以使用历史数据检查以前质量度量的效果并确定相应的度量以备将来使用。
+请按照以下步骤在系统上启用质量管理。
 
-在您设置质量关联时，Supply Chain Management 可以为各种业务流程、事件和条件生成质检订单。 质量关联可以包含特定物料、特定物料组或所有物料。
+1. 转到 **库存管理 \> 设置 \> 库存和仓库管理参数**。
+1. 在 **质量管理** 选项卡上，将 **使用质量管理** 选项设置为 *是*。
+1. 在 **小时工资率** 字段中用本币输入人工小时工资率。 小时工资率用于计算与未达标相关的工序的成本。 小时工资率和计算的成本为未达标提供了参考信息。 它们不与其他功能交互。
+1. 选择 **报表设置**。
+1. 为各个报表类型添加新行，然后选择要用于每个报表的文档类型。
+1. 关闭该页面。
+1. 关闭该页面。
 
-## <a name="examples-of-the-use-of-quality-management"></a>质量管理的使用示例
-质量管理是可变的，并且可以以多种方式实施来满足特定级别供应链操作的要求。 以下示例说明对这些功能的可能用途：
+## <a name="quality-management-configuration-process"></a>质量管理配置流程
 
--   根据预定义的标准自动启动质量控制流程（特定供应商的某一采购订单的仓库登记）。
--   在检查时锁定库存以防止使用未审核的库存（采购订单数量的完全锁定）。
--   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量、百分比或完整牌照。
+您必须先配置系统和先决条件，然后才能够开始使用质量管理功能和生成质检订单。 这里是配置质量管理所需的步骤列表。
 
-> [!NOTE]
-> _仓库流程质量管理_ 功能扩展了质量管理能力。 如果您正在使用此功能，请参阅[仓库流程质量管理](quality-management-for-warehouses-processes.md)获取启用此功能时质量管理工作方式的示例。
+1. [启用质量和不符合项管理](#enable-qm)。
+1. 可选：[配置测试仪器](quality-test-instruments.md)。
+1. [配置测试](quality-tests.md)。
+1. [配置测试变量和结果](quality-test-variables.md)。
+1. [配置测试组](quality-test-groups.md)。
+1. 可选：[配置质量组，并链接到产品](quality-groups.md)。
+1. 可选：[配置质量关联](quality-associations.md)。
 
--   为部分收货创建质检订单。 若要创建基于某订单已实际接收的数量的质检订单，必须在 **物料抽样** 窗体上选择 **按照更新的数量** 复选框。
--   创建测试包括最小值、最大值和目标测试值在内的类型，然后执行具有预定义验证结果的定性与定量测试。
--   指定一个可接受质量级别 (AQL) 来控制质量度量容差。
--   指定检查操作所需的资源，如测试区域和测试仪器。
+配置完成后，您可以开始创建和处理质检订单。 有关如何创建和处理质检订单的详细信息，请参阅[质检订单](quality-orders.md)。
 
-## <a name="working-with-quality-associations"></a>使用质量关联
-使用质量关联的业务流程可与许多源文档相关，例如采购订单、销售订单或生产订单。
+## <a name="nonconformance-management-configuration-process"></a>不符合项管理配置流程
 
-每个质量关联记录定义了测试组、AQL 和应用于生成的质检订单的抽样计划。 您必须为业务流程中每个变化形式定义质量关联记录。 例如，当更新采购订单产品收据时，您可以设置生成质检订单的质量关联。 根据执行计划的设置，在有未结质检订单或者下一流程（例如采购订单开票）时，可以将触发流程自身锁定。
+您必须先配置系统和先决条件，然后才能够开始使用不符合项管理功能和生成不符合项。 这里是配置不符合项管理所需的步骤列表。
 
-**注释：** 在有未结质检订单时，会自动锁定库存数量使其不签发。 根据 **物料抽样** 页上的 **完全锁定** 设置，该数量是质检订单上的数量或源文档行上的数量。
+1. [启用质量和不符合项管理](#enable-qm)。
+1. [配置负责审核不符合项的工作人员](quality-responsible-workers.md)。
+1. [配置问题类型](quality-problem-types.md)。
+1. [配置隔离区域](quality-quarantine-zones.md)。
+1. [配置诊断类型](quality-diagnostic-types.md)。
+1. [配置操作](quality-operations.md)。
+1. 可选：[配置质量费用](quality-charges.md)。
 
-对于给定业务流程，质量关联记录标识用于生成质检订单的事件和条件。 条件可以特定于站点或法人。 只有对于事件存在现有库存时，才能生成涉及破坏性测试的质检订单。
+配置完成后，您可以开始创建和处理不符合项。 有关如何创建和处理不符合项的详细信息，请参阅[创建和处理不符合项](tasks/create-process-non-conformance.md)。
 
-以下示例说明如何为各个业务流程中的变化形式定义质量关联记录。 对于每个示例，下表总结了质量关联记录定义的事件和条件。
+## <a name="additional-resources"></a>其他资源
 
-<table>
-<tbody>
-<tr>
-<th>引用类型</th>
-<th>事件类型</th>
-<th>执行</th>
-<th>事件锁定</th>
-<th>文档引用</th>
-</tr>
-<tr>
-<td>库存</td>
-<td>不适用</td>
-<td>不适用</td>
-<td>无</td>
-<td>全部</td>
-</tr>
-<tr>
-<td rowspan="7">销售额</td>
-<td rowspan="4">已计划领料流程</td>
-<td rowspan="4">之前</td>
-<td>无</td>
-<td rowspan="22">仅特定 ID、组或全部</td>
-</tr>
-<tr>
-<td>领料流程</td>
-</tr>
-<tr>
-<td>装箱单</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="3">装箱单</td>
-<td rowspan="3">之前</td>
-<td>无</td>
-</tr>
-<tr>
-<td>装箱单</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="15">采购</td>
-<td rowspan="7">收货清单</td>
-<td rowspan="4">之前</td>
-<td>无</td>
-</tr>
-<tr>
-<td>收货清单</td>
-</tr>
-<tr>
-<td>物料收货</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="3">之后</td>
-<td>无</td>
-</tr>
-<tr>
-<td>物料收货</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="3">注册</td>
-<td rowspan="3">不适用</td>
-<td>无</td>
-</tr>
-<tr>
-<td>物料收货</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="5">物料收货</td>
-<td rowspan="3">之前</td>
-<td>无</td>
-</tr>
-<tr>
-<td>物料收货</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="2">之后</td>
-<td>无</td>
-</tr>
-<tr>
-<td>开票</td>
-</tr>
-<tr>
-<td rowspan="8">生产</td>
-<td rowspan="3">注册</td>
-<td rowspan="3">不适用</td>
-<td>无</td>
-<td rowspan="12">全部</td>
-</tr>
-<tr>
-<td>完工入库</td>
-</tr>
-<tr>
-<td>结束</td>
-</tr>
-<tr>
-<td rowspan="5">完工入库</td>
-<td rowspan="3">之前</td>
-<td>无</td>
-</tr>
-<tr>
-<td>完工入库</td>
-</tr>
-<tr>
-<td>结束</td>
-</tr>
-<tr>
-<td rowspan="2">之后</td>
-<td>无</td>
-</tr>
-<tr>
-<td>结束</td>
-</tr>
-<tr>
-<td rowspan="4">检验</td>
-<td rowspan="3">完工入库</td>
-<td rowspan="2">之前</td>
-<td>完工入库</td>
-</tr>
-<tr>
-<td>结束</td>
-</tr>
-<tr>
-<td>之后</td>
-<td>结束</td>
-</tr>
-<tr>
-<td>结束</td>
-<td>之前</td>
-<td>结束</td>
-</tr>
-<tr>
-<td rowspan="3">工艺路线工序</td>
-<td rowspan="3">完工入库</td>
-<td rowspan="2">之前</td>
-<td>无</td>
-<td rowspan="3">特定 ID、组或全部，以及资源特定、组或全部</td>
-</tr>
-<tr>
-<td>完工入库</td>
-</tr>
-<tr>
-<td>之后</td>
-<td>无</td>
-</tr>
-<tr>
-<td rowspan="3">联产品生产</td>
-<td>注册</td>
-<td>不适用</td>
-<td rowspan="3">无</td>
-<td rowspan="3">全部</td>
-</tr>
-<tr>
-<td rowspan="2">完工入库</td>
-<td>之前</td>
-</tr>
-<tr>
-<td>之后</td>
-</tr>
-</tbody>
-</table>
-
-下表提供有关可以如何为特定类型的流程生成质检订单的详细信息。
-<div class="tableSection">
-
-<table>
-<tbody>
-<tr>
-<th>流程的类型</th>
-<th>可以自动生成质检订单时</th>
-<th>需要破坏性测试的情况下可以生成质检订单时</th>
-<th>条件信息</th>
-<th>手动生成信息</th>
-</tr>
-<tr>
-<td>采购订单</td>
-<td>过帐收到的物料的收据清单或产品收据之前或之后</td>
-<td>过帐收到的物料的产品收据之后，因为物料必须可用于破坏性测试</td>
-<td>质检订单的需求可以反映特定的站点、物料或供应商，或者反映这些条件的组合。</td>
-<td>引用某一采购订单的手动生成的质检订单可以使用某一质量关联记录内的信息，例如测试抽样计划。</td>
-</tr>
-<tr>
-<td>检验单</td>
-<td>在检验单报告为已完工入库或已结束之前或之后</td>
-<td>无法生成需要破坏性测试的质检订单。 假定检验单功能处理损坏物料的处置。</td>
-<td>质检订单的需求可以反映特定的站点、物料或供应商，或者反映这些条件的组合。</td>
-<td>引用某一检验单的手动生成的质检订单可以使用某一质量关联记录内的信息，例如测试抽样计划。</td>
-</tr>
-<tr>
-<td>销售订单</td>
-<td>在要被装运的物料的已计划领料流程或装箱单更新之前</td>
-<td>任何步骤中</td>
-<td>质检订单的需求可以反映特定的站点、物料或客户，或者反映这些条件的组合。</td>
-<td>引用某一销售订单的手动生成的质检订单可以使用某一质量关联记录内的信息，例如测试抽样计划。</td>
-</tr>
-<tr>
-<td>生产订单</td>
-<td>报告生产订单的完工数量之前或之后</td>
-<td>报告生产订单的完工数量之后</td>
-<td>质检订单的需求可以反映特定的站点或物料，或者反映这些条件的组合。</td>
-<td>引用某一生产订单的手动生成的质检订单可以使用某一质量关联记录内的信息，例如测试抽样计划。</td>
-</tr>
-<tr>
-<td>具有工艺路线工序的生产订单</td>
-<td>在报告为已完成工序之前或之后</td>
-<td>在报告生产最后一道工序完成后</td>
-<td>质检订单的需求可以反映特定的站点、物料或运营资源，或者反映这些条件的组合。</td>
-<td>引用某一工艺路线工序的手动生成的质检订单可以使用某一质量关联记录内的信息，例如测试抽样计划。</td>
-</tr>
-<tr>
-<td>库存</td>
-<td>无法为库存日志中的交易记录或为转移单交易记录自动生成质检订单。</td>
-<td></td>
-<td></td>
-<td>必须为物料的库存数量手动创建质检订单。 实际现有库存量是必需的。</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="quality-order-auto-generation-examples"></a>质检订单自动生成示例
-
-### <a name="purchasing"></a>采购
-
-在采购中，如果您在 **质量关联** 页面上将 **事件类型** 字段设置为 **物料收货**，并将 **执行** 字段设置为 **之后**，您将得到以下结果： 
-
-- 如果将 **按照更新的数量** 选项设置为 **是**，则会根据物料抽样中收到的数量和设置，根据采购订单为每个收货生成质检订单。 每次根据采购订单接收数量时，都会根据新接收的数量生成新的质检订单。
-- 如果将 **按照更新的数量** 选项设置为 **否**，则会根据收到的数量，根据采购订单为第一个收货生成质检订单。 此外，根据跟踪维度，将基于剩余数量创建一个或多个质检订单。 不会根据采购订单为后续收货生成质检订单。
-
-### <a name="production"></a>生产
-
-在生产中，如果您在 **质量关联** 页面上将 **事件类型** 字段设置为 **完工入库**，并将 **执行** 字段设置为 **之后**，您将得到以下结果：
-
-- 如果将 **按照更新的数量** 选项设置为 **是**，则会根据物料抽样中每个完成的数量和设置生成质检订单。 每次根据生产订单将数量完工入库时，都会根据新完成的数量生成新的质检订单。 此生成逻辑与采购一致。
-- 如果将 **按照更新的数量** 选项设置为 **否**，则会根据完成的数量，在数量第一次完工入库时生成质检订单。 此外，根据物料抽样的跟踪维度，将基于剩余数量创建一个或多个质检订单。 后续的完成数量不会生成质检订单。
-
-<table>
-<tbody>
-<tr>
-<th>质量规范</th>
-<th>按照更新的数量</th>
-<th>按照跟踪维度</th>
-<th>结果</th>
-</tr>
-<tr>
-<td>百分比：10%</td>
-<td>是</td>
-<td>
-<p>批处理号：否</p>
-<p>序列号：否</p>
-</td>
-<td>
-<p>订单数量：100</p>
-<ol>
-<li>30 的完工入库量
-<ul>
-<li>3 的质检订单 #1（30 的 10%）</li>
-</ul>
-</li>
-<li>70 的完工入库量
-<ul>
-<li>7 的质检订单 #2（剩余订单数量的 10%，该数量在此例中等于 70）</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>固定数量：1</td>
-<td>否</td>
-<td>
-<p>批处理号：否</p>
-<p>序列号：否</p>
-</td>
-<td>订单数量：100
-<ol>
-<li>30 的完工入库量
-<ul>
-<li>1 的质检订单 #1（对于第一个完工入库数量，其固定值为 1）</li>
-<li>1 的质检订单 #2（对于剩余数量，其固定值仍为 1）</li>
-</ul>
-</li>
-<li>10 的完工入库量
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-<li>60 的完工入库量
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>固定数量：1</td>
-<td>是</td>
-<td>
-<p>批处理号：是</p>
-<p>序列号：是</p>
-</td>
-<td>
-<p>订单数量：10</p>
-<ol>
-<li>3 的完工入库量：#b1、#s1 的 1；#b2、#s2 的 1；#b3、#s3 的 1
-<ul>
-<li>批次 #b1、序列 #s1 的 1 的质检订单 #1</li>
-<li>批次 #b2、序列 #s2 的 1 的质检订单 #2</li>
-<li>批次 #b3、序列 #s3 的 1 的质检订单 #3</li>
-</ul>
-</li>
-<li>2 的完工入库量：#b4、#s4 的 1；#b5、#s5 的 1
-<ul>
-<li>批次 #b4、序列 #s4 的 1 的质检订单 #4</li>
-<li>批次 #b5、序列 #s5 的 1 的质检订单 #5</li>
-</ul>
-</li>
-</ol>
-<p><strong>注意：</strong>批次可以重复使用。</p>
-</td>
-</tr>
-<tr>
-<td>固定数量：2</td>
-<td>否</td>
-<td>
-<p>批处理号：是</p>
-<p>序列号：是</p>
-</td>
-<td>
-<p>订单数量：10</p>
-<ol>
-<li>4 的完工入库量：#b1、#s1 的 1；#b2、#s2 的 1；#b3、#s3 的 1；#b4、#s4 的 1
-<ul>
-<li>批次 #b1、序列 #s1 的 1 的质检订单 #1</li>
-<li>批次 #b2、序列 #s2 的 1 的质检订单 #2</li>
-<li>批次 #b3、序列 #s3 的 1 的质检订单 #3</li>
-<li>批次 #b4、序列 #s4 的 1 的质检订单 #4</li>
-</ul>
-<ul>
-<li>2 的质检订单 #5，没有批处理号和序列号的引用</li>
-</ul>
-</li>
-<li>6 的完工入库量：#b5、#s5 的 1；#b6、#s6 的 1；#b7、#s7 的 1；#b8、#s8 的 1；#b9、#s9 的 1；#b10、#s10 的 1
-<ul>
-<li>未创建质检订单。</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> *仓库流程质量管理* 功能添加了将 **事件类型** 设置为 *报告为完工入库* 并将 **执行** 设置为 *以后* 的生产，以及将 **事件类型** 设置为 *登记* 的采购的质检订单处理能力。 有关详细信息，请参阅[仓库流程质量管理](quality-management-for-warehouses-processes.md)。
-
-## <a name="quality-management-pages"></a>质量管理页
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>页</th>
-<th>说明</th>
-<th>示例</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>质量关联</td>
-<td>请参阅本文的前几部分。</td>
-<td>质量关联定义生成的质检订单的所有以下信息：
-<ul>
-<li>交易记录事件</li>
-<li>必须在物料上执行的测试组</li>
-<li>AQL</li>
-<li>抽样计划</li>
-</ul>
-您必须为业务流程中要求自动生成质检订单的每种变化定义质量关联。 例如，可以在业务流程中为采购订单、检验单、销售订单和生产订单生成质检订单。</td>
-</tr>
-<tr class="even">
-<td>测试</td>
-<td>使用此页可以定义和查看用于确定产品是否符合质量规范的各个测试。 您可以将一个或多个单独测试分配给测试组。 在这种情况下，您还可以指定测试特定信息，例如可接受的度量值。 度量值用于定量测试，测试变量用于定性测试。
-<ul>
-<li>定量测试具有测试类型<strong>整数</strong>或<strong>分数</strong>，并且具有指定的度量单位。 质量规范和测试结果表示为数字。</li>
-<li>定性测试具有测试类型<strong>选项</strong>。 定性测试需要有关要度量的质量变量及其枚举选项的附加信息。 质量规范和测试结果根据结果表示。</li>
-</ul></td>
-<td>某个制造公司对采购物料执行两个测试：有关物料质量的定量测试和有关包装损坏的定性测试。 该公司定义有关质量测试的附加信息，以确定测试变量（损坏的包装）及其结果。 公司使用<strong>测试组</strong>页将两个测试分配给一个测试组并指定测试特定信息。 将测试组分配给质检订单，以便公司可以报告这两个测试的测试结果。</td>
-</tr>
-<tr class="odd">
-<td>测试组</td>
-<td>使用此页面可以设置、编辑和查看测试组以及分配给某个测试组的单独测试。 上部窗格显示测试组，而下部窗格显示分配给所选测试组的测试。 您可以向测试组分配多个策略，例如抽样计划、AQL 以及破坏性测试的要求。 当您将单个测试分配给测试组时，您需要定义其他信息，如顺序、文档和生效日期。 对于定量测试，还可以定义的信息包括可接受的度量值。 对于定性测试，该信息包括测试变量和默认结果。 分配给质检订单的测试组定义必须在特定物料上执行默认测试集。 但您可以添加、删除或更改质检订单上的测试。 将针对质检订单上的每个测试报告测试结果。</td>
-<td>某制造公司为其质量准则的每个变化定义一个测试组。 多个测试组反映抽样计划中的差异、必须一起执行的测试集、AQL 和其他因素。 对于定量测试，可接受的度量值中也存在差别。 为了落实其质量准则，公司在<strong>质量关联</strong>页上将一个测试组分配给用于自动生成质检订单的每个规则，而且还将一个测试组分配给手动创建的质检订单。</td>
-</tr>
-<tr class="even">
-<td>物料质量组</td>
-<td>使用此页面可以设置、编辑和查看分配给质量组的物料或分配给物料的质量组。 质量组表示物料的公共测试要求。 在<strong>测试组</strong>页上定义测试要求后，您可以定义用于自动生成质检订单的规则。 为了简化该流程，您不为各个物料定义规则。 相反，您使用<strong>质量关联</strong>页为质量组定义规则。 您还可以为所选质量组使用<strong>物料质量组</strong>页来将相关物料分配给该组。 您还可以为所选物料使用<strong>物料质量组</strong>页来将相关质量组分配给该物料。</td>
-<td>某制造公司采购的多种原材料具有相同的进货检查测试要求。 公司定义了一个质量组，然后将与原材料关联的物料编号分配给该组。 之后，公司采购一个新类型的原材料，具有相同的测试要求。 公司不是为新物料设置新的测试要求，而是将新物料的物料编号添加到现有的质量组。 此相同制造公司还生产具有相同测试要求的物料，并装运具有相同装运前测试要求的物料。 公司定义两个附加质量组，然后将相关物料编号分配给每个组。</td>
-</tr>
-<tr class="odd">
-<td>测试变量</td>
-<td>使用此页可以定义和查看与定性测试关联的变量。 对于每个变量，您定义表示可能选项的枚举结果。 您在<strong>测试</strong>页上定义测试。 对于定性测试，您必须将测试类型设置为<strong>选项</strong>。 使用<strong>测试组</strong>页可以将测试变量分配给单个测试。</td>
-<td>一个生产饼干的制造公司对成品使用检查测试。 此检查测试具有多个变量。 一个变量是味道，并且此变量的可能结果是好和坏。 第二个变量是颜色，其可能结果是过暗、过浅和正好。</td>
-</tr>
-<tr class="even">
-<td>测试变量结果</td>
-<td>使用此页面可以设置、编辑和查看与定性测试关联的测试变量的可能测试结果。 对于每个结果，您分配<strong>通过</strong>或<strong>未通过</strong>状态。 您必须在<strong>测试</strong>页上定义的每个定性测试定义变量及其结果。 （对于定性测试，测试类型在<strong>测试</strong>页上设置为<strong>选项</strong>。）使用<strong>测试组</strong>页可以将测试变量和默认结果分配给单独的定性测试。</td>
-<td>一个生产饼干的制造公司对成品使用检查测试。 此检查测试具有多个变量。 一个变量是味道，并且此变量的可能结果是好和坏。 第二个变量是颜色，其可能结果是过暗、过浅和正好。 会为每个结果分配一个<strong>通过</strong>或<strong>未通过</strong>的状态。 在各个变量的检查测试期间，检查员将通过选择其中一个结果报告测试结果。</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<a name="additional-resources"></a>其他资源
---------
-
-[质量管理流程](quality-management-processes.md)
-
-[不符合项管理](enable-nonconformance-management.md)
-
-[仓库流程质量管理](quality-management-for-warehouses-processes.md)
-
+- [质量管理概览](quality-management-processes.md)
+- [启用质量和不符合项管理](enable-quality-management.md)
+- [仓库流程质量管理](quality-management-for-warehouses-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

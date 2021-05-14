@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b228babfd32a4191eeed2a6d924a8b99f1a5311
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801941"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936698"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
@@ -29,13 +29,13 @@ ms.locfileid: "5801941"
 
 Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，合作伙伴和客户可将其用于管理自己的项目和环境，查看有关 Microsoft Dynamics 产品和功能的最新信息，以及创建，跟踪和浏览支持事件。 电子商务管理功能将集成到 LCS 中。
 
-若要详细了解 LCS，请参阅 [Lifecycle Services 用户指南](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)。
+若要详细了解 LCS，请参阅 [Lifecycle Services 用户指南](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)。
     
 ## <a name="get-started"></a>开始
 
 必须先初始化项目、环境和 Retail Cloud Scale Unit (RCSU)，才能初始化电子商务。 若要在 LCS 中执行初始化，必须具有项目负责人或环境管理员角色的权限。 支持生产环境和沙盒环境拓扑。
 
-有关环境的详细信息，请参阅[环境计划](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning)。 有关 RCSU 的详细信息，请参阅[初始化 Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels)。
+有关环境的详细信息，请参阅[环境计划](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning)。 有关 RCSU 的详细信息，请参阅[初始化 Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels)。
 
 ## <a name="initialize-e-commerce"></a>初始化电子商务
 

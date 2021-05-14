@@ -2,25 +2,25 @@
 title: 普通日记帐行的销售税计算
 description: 此主题介绍如何计算普通日记帐行中不同类型的科目（供应商、客户、分类帐和项目）的销售税。
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815324"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937298"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>普通日记帐行的销售税计算
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ ms.locfileid: "5815324"
 
 ![销售税交易记录页面](media/sales-tax-amount-sign.jpg)
 
-下表显示用于确定临时销售税表中的销售税金额符号的一般规则。
+下表显示用于确定临时销售税表中的销售税方向和销售税金额符号的一般规则。
 
 | 日记帐行金额 | 税金方向  | 销售税金额符号 |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ ms.locfileid: "5815324"
 | 负            | 应收销售税 | 负              |
 | 负            | 应付销售税    | 正              |
 
-在 **分类帐** 行中选择了销售税组或物料销售税组时，只有 **项目** 或 **分类帐** 行的凭证具有特殊规则。 此规则由普通日记帐的“启用独立销售税计算”功能控制。 如果关闭了此功能，则 **分类帐** 行的税额使用 **项目** 行的借记/贷记方向。 如果开启了此功能，则 **分类帐** 行的税额使用自己的借记/贷记方向。 下表显示各方案的规则。 
+在 **分类帐** 行中选择了销售税组或物料销售税组时，只有 **项目** 或 **分类帐** 行的凭证具有特殊规则。 此规则由 **为普通日记帐启用独立销售税计算** 功能控制。 如果关闭了此功能，则 **分类帐** 行的税额使用 **项目** 行的借记/贷记方向。 如果开启了此功能，则 **分类帐** 行的税额使用自己的借记/贷记方向。 下表显示各方案的规则。 
 
 **开启此功能后的规则**
 

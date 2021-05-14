@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745255"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921415"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -37,7 +37,7 @@ ms.locfileid: "5745255"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
 
@@ -147,7 +147,7 @@ ms.locfileid: "5745255"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 标题与其他 Dynamics and Office 产品对齐 有关更多详细信息，请参阅[更新后的导航栏与 Office 标题对齐](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)。
+| **弃用/移除的原因** | 标题与其他 Dynamics and Office 产品对齐 有关更多详细信息，请参阅[更新后的导航栏与 Office 标题对齐](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)。
 | **被另一个功能取代？**   | 从平台更新 24 开始，引入了具有搜索功能且样式已改变的导航栏。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
@@ -161,7 +161,7 @@ ms.locfileid: "5745255"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 通过个性化为网格列重新排序之后，网格中的默认操作的旧版行为生成具有默认操作链接的意外列。 新的粘滞默认操作功能对此进行了更正。 有关更多详细信息，请参阅[网格中的粘滞默认操作](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)。 |
+| **弃用/移除的原因** | 通过个性化为网格列重新排序之后，网格中的默认操作的旧版行为生成具有默认操作链接的意外列。 新的粘滞默认操作功能对此进行了更正。 有关更多详细信息，请参阅[网格中的粘滞默认操作](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)。 |
 | **被另一个功能取代？**   | 从平台更新 21 开始，为“粘滞默认操作”引入了一项功能。 可在 **客户端性能选项** 页面中启用此功能。 |
 | **影响的产品区域**         | Web 客户端中的网格 |
 | **部署选项**              | 所有 |
@@ -172,7 +172,7 @@ ms.locfileid: "5745255"
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 在平台更新 22 中，“之一”筛选体验已经过重新设计，并计划此体验最终成为唯一的“之一”筛选体验。 |
-| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
+| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：从 2020 年 4 月开始，经过改进的“之一”体验将成为默认行为，但没有恢复为旧版行为的机制。 |
@@ -1333,7 +1333,7 @@ Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥特定功能
 
 ### <a name="virtual-company-accounts"></a>虚拟公司帐户
 
-Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
+Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](../../fin-ops/get-started/ax4-content-retired.md)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

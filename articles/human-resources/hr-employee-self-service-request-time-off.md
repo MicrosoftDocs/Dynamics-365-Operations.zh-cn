@@ -2,7 +2,7 @@
 title: 请求休息时间
 description: 在 Dynamics 365 Human Resources 中请求休息时间。
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790684"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924846"
 ---
 # <a name="request-time-off"></a>请求休息时间
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790684"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>将附件添加到现有请求
 
-更新现有休假请求时，可以添加附件。 您还可以查看特定日期的所有相关请求。 
+更新现有休假请求时，可以添加附件。 您还可以查看特定日期的所有相关请求。
 
 ## <a name="view-leave-balances"></a>查看休假余额
 
@@ -58,6 +58,20 @@ ms.locfileid: "5790684"
 1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **更多** (...)。
 
 2. 要查看批准的休息时间请求，请选择 **批准的休息时间**。 要查看等待处理的休息时间请求，请选择 **休息时间请求**。
+
+## <a name="cancel-time-off-requests"></a>取消休息时间请求
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **查看休息时间**。
+
+2. 在 **休息时间** 窗体上，选择一个或多个要取消的休息时间请求。
+
+3. 选择 **取消** 按钮。
+
+4. 在 **取消详细信息** 窗格中，输入注释，然后选择 **提交**。
+
+   ![取消休假申请](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>请参阅
 

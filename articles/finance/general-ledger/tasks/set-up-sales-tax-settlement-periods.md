@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813499"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944769"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -37,9 +37,7 @@ ms.locfileid: "5813499"
 7. 在 **付款期限** 字段中，在下拉菜单中选择所需记录。 相关销售税主管机构可以设置为供应商，销售税结算将创建开放式供应商发票。 付款期限定义开放式供应商发票的到期日期。  
 8. 为结算期间间隔选择类型。
 9. 输入每一期间的期间间隔单位数。 例如，1 个季度有 3 个月。
-10. 选择或清除 **使用批处理进行销售税结算** 复选框。 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。  
-    > [!NOTE]
-    > 西班牙、日本和荷兰现在不支持。
+10. 选择或清除 **使用批处理进行销售税结算** 复选框。 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。
 11. 选择或清除 **防止生成抵消税交易记录** 复选框。 默认情况下，系统在结算过程中生成抵消税交易记录，如果在某期间间隔内存在大量税交易记录，这可能造成性能问题。 选择此复选框以防止生成抵消税交易记录。
 12. 展开 **期间间隔** 选项卡。
 13. 选择 **添加**。

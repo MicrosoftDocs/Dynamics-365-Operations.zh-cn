@@ -2,7 +2,7 @@
 title: 创建 Azure 存储帐户和密钥保管库
 description: 本主题说明如何创建 Azure 存储帐户和密钥保管库。
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893794"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963231"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
@@ -80,6 +80,10 @@ ms.locfileid: "5893794"
 11. 选择 **添加**，然后选择 **保存密钥保管库更改**。
 12. 在 **概览** 页上，复制密钥保管库的 **DNS 名称** 值。 此值将在 RCS 中的服务设置期间使用，将称为 *密钥保管库 URI*。
 
+> [!NOTE]
+> 要额外增加存储帐户的安全性，应配置 Azure Defender for Storage。
+> 
+> 有关详细信息，请参阅 [Azure Defender for Storage 简介](/azure/security-center/defender-for-storage-introduction)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

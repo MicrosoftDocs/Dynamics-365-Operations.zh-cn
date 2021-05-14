@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751426"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941158"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>对 Dynamics 365 Sales 使用 Dynamics 365 Commerce 定价引擎
 
@@ -31,7 +31,7 @@ ms.locfileid: "5751426"
 
 Dynamics 365 Commerce 定价引擎支持大多数企业对消费者 (B2C) 定价方案，如商店级定价、基于隶属关系和基于会员制的定价、组合折扣、数量折扣和阈值折扣。 定价引擎使用复杂的规则来确定给定报价单或订单的最佳价格。
 
-使用[双写入](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview)时，您可以根据需要选择三个选项。 您可以使用 Dynamics 365 Sales 中价格列表中的静态定价、Dynamics 365 Supply Chain Management 中的定价引擎或 Dynamics 365 Commerce 中的定价引擎。 在这些选项中，Commerce 定价引擎最适合 B2C 方案。
+使用[双写入](./dual-write-overview.md)时，您可以根据需要选择三个选项。 您可以使用 Dynamics 365 Sales 中价格列表中的静态定价、Dynamics 365 Supply Chain Management 中的定价引擎或 Dynamics 365 Commerce 中的定价引擎。 在这些选项中，Commerce 定价引擎最适合 B2C 方案。
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>在 Sales 中使用 Commerce 定价引擎
 
@@ -42,7 +42,7 @@ Dynamics 365 Commerce 定价引擎支持大多数企业对消费者 (B2C) 定价
 
 ## <a name="prerequisites"></a>先决条件
 
-- 必须先执行[双写入中的目标客户到现金](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)中的步骤，才能使用 Sales 中的 Commerce 定价引擎。
+- 必须先执行[双写入中的目标客户到现金](./dual-write-prospect-to-cash.md)中的步骤，才能使用 Sales 中的 Commerce 定价引擎。
 - 您必须按照以下步骤关闭手动输入的贸易协议评估：
 
     1. 在 Commerce 环境中，转至 **应收帐款 \> 设置 \> 应收帐款参数**。
@@ -50,7 +50,7 @@ Dynamics 365 Commerce 定价引擎支持大多数企业对消费者 (B2C) 定价
 
 ## <a name="additional-resources"></a>其他资源
 
-[双写入中的目标客户到现金](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[双写入中的目标客户到现金](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

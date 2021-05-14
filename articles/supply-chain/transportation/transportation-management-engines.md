@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828357"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920101"
 ---
 # <a name="transportation-management-engines"></a>运输管理引擎
 
@@ -95,7 +95,13 @@ ms.locfileid: "5828357"
 | 2        | 目的州             | 分配 | 字符串    | 省/市/自治区          |           |
 | 3        | 目的地起始邮政编码 | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 4        | 目的地终点邮政编码   | 分配 | 字符串    | 邮政编码    | 已选择  |
-| 5        | 目标国家/地区           | 分配 | 字符串    | 国家/地区 |           |
+| 5        | 目标国家/地区           | 赋值 | 字符串    | 国家/地区 |           |
+
+### <a name="whitepaper"></a>白皮书
+
+有关详细信息，请下载以下白皮书（为支持 AX2012 编写，同样适用于 Dynamics 365 Supply Chain Management）
+
+- [运输管理引擎](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

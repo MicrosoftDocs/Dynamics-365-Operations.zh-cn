@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909639"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947536"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -32,6 +32,19 @@ ms.locfileid: "5909639"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 版本中已经删除或弃用的功能
+
+### <a name="job-card-device"></a>作业卡设备
+
+|   |   |
+|---|---|
+| **弃用/移除的原因** | [作业卡设备](../production-control/config-job-card-device.md)将被新的[生产车间执行界面](../production-control/production-floor-execution-configure.md)替换。 |
+| **被另一个功能取代？**   | 是，[作业卡设备](../production-control/config-job-card-device.md)将被新的[生产车间执行界面](../production-control/production-floor-execution-configure.md)替换。 |
+| **影响的产品区域** | Supply Chain Management - 生产控制 |
+| **部署选项** | 云和本地 |
+| **状态** | 已弃用。 作业卡设备将获得有关错误和安全修复的支持，但将不再提供功能增强。 在 2022 年 4 月之后，将不再支持作业卡设备，并且将要求客户移至新的生产车间执行界面。 |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 版本中已经删除或弃用的功能
 

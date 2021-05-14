@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857362"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941075"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -52,11 +52,11 @@ ms.locfileid: "5857362"
 
 2. 登录到 [Microsoft Azure](https://portal.azure.com/)。
 
-3. 创建[资源组](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)。
+3. 创建[资源组](/azure/azure-resource-manager/management/manage-resource-groups-portal)。
 
-4. 在创建的资源组中创建[存储帐户](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal)。
+4. 在创建的资源组中创建[存储帐户](/azure/storage/common/storage-account-create?tabs=azure-portal)。
 
-5. 在创建的上述资源组中创建[数据工厂](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)。
+5. 在创建的上述资源组中创建[数据工厂](/azure/data-factory/quickstart-create-data-factory-portal)。
 
 6. 打开数据工厂，然后选择 **创作和监视** 磁贴。
 
@@ -81,7 +81,7 @@ ms.locfileid: "5857362"
     FO Linked Service_properties_type Properties_service Principal Id | 指定应用程序的客户端 ID。
     Dynamics Crm Linked Service_properties_type Properties_username | 连接到 Dynamics 的用户名。
 
-    有关详细信息，请参阅[手动提升每个环境的资源管理器模板](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)、[链接服务属性](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties)和[使用 Azure 数据工厂复制数据](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    有关详细信息，请参阅[手动提升每个环境的资源管理器模板](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)、[链接服务属性](/azure/data-factory/connector-dynamics-ax#linked-service-properties)和[使用 Azure 数据工厂复制数据](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. 部署后，验证数据工厂的数据集、数据流和链接服务。
 
@@ -158,7 +158,7 @@ ms.locfileid: "5857362"
 8. 在 Finance and Operations 应用中导入新 **当事方** 记录。
 
     + 从 Azure Blob 存储中下载 `FONewParty.csv` 文件。 路径为 `partybootstrapping/output/FONewParty.csv`。
-    + 将 `FONewParty.csv` 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。  如果 csv 导入适合您，您可以直接导入 csv 文件。 导入可能需要几个小时才能运行，具体取决于数据量。 有关详细信息，请参阅[数据导入和导出作业概述](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job)。
+    + 将 `FONewParty.csv` 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。  如果 csv 导入适合您，您可以直接导入 csv 文件。 导入可能需要几个小时才能运行，具体取决于数据量。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
 
     ![导入 Datavers 当事方记录](media/data-factory-import-party.png)
 

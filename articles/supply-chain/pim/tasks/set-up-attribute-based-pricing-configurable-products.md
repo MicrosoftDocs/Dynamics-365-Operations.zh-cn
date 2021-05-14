@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833249"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921233"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>为可配置产品设置基于属性的定价
 
@@ -28,17 +28,18 @@ ms.locfileid: "5833249"
 
 
 ## <a name="create-a-new-price-model"></a>创建新的价格模型
-1. 选择主页上的 **产品变型定义**。
-2. 选择 **链接** 部分中的 **产品配置模型**。
-3. 在列表中，选择 **高端扬声器** 行，但是不选择名称的链接。
-4. 在操作窗格上，选择 **模型**。
-5. 选择 **价格模型**。
-6. 选择 **新建**。
-7. 在 **价格模型名称** 字段中，键入一个值。 使用易于识别模型的名称。  
-8. 在 **描述** 字段中，键入一个值。
-9. 选择 **保存**。
+
+1. 转到 **产品信息管理 \> 产品 \> 产品配置模型**。
+1. 在列表中，选择 **高端扬声器** 行，但是不选择名称的链接。
+1. 在操作窗格上，选择 **模型**。
+1. 选择 **价格模型**。
+1. 选择 **新建**。
+1. 在 **价格模型名称** 字段中，键入一个值。 使用易于识别模型的名称。  
+1. 在 **描述** 字段中，键入一个值。
+1. 选择 **保存**。
 
 ## <a name="add-price-elements"></a>添加价格元素
+
 1. 选择 **编辑**。 产品模型中的每个组件可以有一个基价元素和任意数量的价格表达式规则。 还可以添加不同币种的价格。  
 2. 在 **基价表达式** 字段中，输入一个值。 例如，键入“100”。 基价表达式可以是数值，也可以包含涉及一个或多个属性的算术计算。  
 3. 选择 **添加**。

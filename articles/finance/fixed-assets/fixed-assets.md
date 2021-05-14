@@ -1,6 +1,6 @@
 ---
 title: 固定资产主页
-description: 固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。
+description: 固定资产是指由个人或组织拥有的有价项目。 这些项目包括建筑物、车辆、土地和设备。
 author: ShylaThompson
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815660"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897980"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
 [!include [banner](../includes/banner.md)]
 
-固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。 
+固定资产是指由个人或组织拥有的有价项目。 这些项目包括建筑物、车辆、土地和设备。 
 
 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值来确定折旧，对固定资产进行管理。 可以计算固定资产调整值以及处置固定资产。 在您将总帐与固定资产一起使用时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
 
@@ -38,7 +38,7 @@ ms.locfileid: "5815660"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

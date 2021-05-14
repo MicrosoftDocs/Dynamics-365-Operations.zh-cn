@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797831"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936822"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
@@ -47,7 +47,7 @@ ms.locfileid: "5797831"
 
 所有 CDN 服务都可以用于 Commerce 环境。 下面是两个示例：
 
-- **Microsoft Azure Front Door Service** – Azure CDN 解决方案。 有关 Azure Front Door Service 的详细信息，请参阅[Azure Front Door Service 文档](https://docs.microsoft.com/azure/frontdoor/)。
+- **Microsoft Azure Front Door Service** – Azure CDN 解决方案。 有关 Azure Front Door Service 的详细信息，请参阅[Azure Front Door Service 文档](/azure/frontdoor/)。
 - **Akamai Dynamic Site Accelerator** – 有关详细信息，请参阅 [Dynamic Site Accelerator](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp)。
 
 ## <a name="cdn-setup"></a>CDN 设置
@@ -62,7 +62,7 @@ CDN 的设置过程通常包含下面的步骤：
 
 可使用任何 CDN 服务，但是本主题中的示例则使用 Azure Front Door Service。 
 
-有关如何设置 Azure Front Door Service 的信息，请参阅[快速入门：为高可用全局 Web 应用程序创建 Front Door](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door)。
+有关如何设置 Azure Front Door Service 的信息，请参阅[快速入门：为高可用全局 Web 应用程序创建 Front Door](/azure/frontdoor/quickstart-create-front-door)。
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>在 Azure Front Door 服务中配置后端池
 
@@ -115,7 +115,7 @@ CDN 的设置过程通常包含下面的步骤：
 
 ![“自定义域 HTTPS”对话框](./media/Custom_Domain_HTTPS.png)
 
-有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)。
+有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](/azure/frontdoor/front-door-custom-domain)。
 
 现在应该已经正确配置了您的 CDN，可将其用于您的 Commerce 站点。
 

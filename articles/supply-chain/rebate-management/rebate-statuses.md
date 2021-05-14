@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3fd347607f5d64d54d3058f4ef1b0ed60ca54e66
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e226fa2189ff5ddd04dbd0af27f343451dc6379
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831666"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919885"
 ---
 # <a name="rebate-statuses"></a>返点状态
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 返点状态可帮助您跟踪每个返点管理交易的状态。 您也可以将它们用于报告和查询目的。 您可以尽可能多地设置和命名支持业务流程所需的返点状态值。 
 

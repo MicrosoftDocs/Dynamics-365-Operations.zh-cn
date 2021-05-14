@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6bf158361f95b6551b29f195616cf21f908b802
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800631"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936936"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
 
@@ -67,7 +67,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 ## <a name="set-up-payment-account"></a>设置付款帐户
 
-从 **付款帐户** 部分中，您可以添加第三方付款提供商。 有关设置 Adyen Payment Connector 的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](../retail/dev-itpro/adyen-connector.md)。
+从 **付款帐户** 部分中，您可以添加第三方付款提供商。 有关设置 Adyen Payment Connector 的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](./dev-itpro/adyen-connector.md)。
 
 ## <a name="additional-channel-setup"></a>其他渠道设置
 
@@ -130,7 +130,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
-[适用于 Adyen 的 Dynamics 365 付款连接器](../retail/dev-itpro/adyen-connector.md)
+[适用于 Adyen 的 Dynamics 365 付款连接器](./dev-itpro/adyen-connector.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

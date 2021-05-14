@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 237a2a594abba7d74e7c1aba33a6f4e72b1e2e69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830512"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897420"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -37,7 +37,7 @@ ms.locfileid: "5830512"
 -   [现金折扣](cash-discounts.md)
 -   [结算概览](settlement-overview.md)
 -   [配置结算](configure-settlement.md)
--   [应付帐款和应收账款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [应付帐款和应收帐款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [信用证](letters-of-credit.md)
 -   [信用证和进口托收](letters-of-credit-import-collections.md)
 -   [保函](letters-of-guarantee.md)
@@ -65,8 +65,8 @@ ms.locfileid: "5830512"
 -   [执行高于供应商付款的计算折扣的折扣](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
 -   [在现金折扣期间之外执行现金折扣](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>应收账款付款和结算
--   [应收账款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>应收帐款付款和结算
+-   [应收帐款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [部分金额的客户付款](../accounts-receivable/customer-payments-partial-amount.md)
 -   [补偿客户](../accounts-receivable/reimburse-customers.md)
 -   [自动结算和优先级](../accounts-receivable/automatic-settlement-prioritization.md)
@@ -83,7 +83,7 @@ ms.locfileid: "5830512"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 79f7e481b65ec40f0fb7e259037cd4988b3b5c07
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a8bbfaff05b665cb85e9166cfc76363c4aedb64
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831690"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919835"
 ---
 # <a name="rebate-reduction-principles"></a>返点缩减原则
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 您可以将返点管理交易分组到 *缩减原则* 以减少与物料相关联的其他预配，和/或减少返点计算的结果值。 设置返点缩减原则后，您可以根据需要将其分配到返点管理交易的行。
 

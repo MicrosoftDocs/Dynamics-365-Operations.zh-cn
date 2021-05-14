@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795947"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936902"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>在 Dynamics 365 Commerce 评估环境中配置 BOPIS
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795947"
 
 ## <a name="prerequisite"></a>必备项
 
-请仅在预配和配置了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 评估环境](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)。
+请仅在预配和配置了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 评估环境](./cpe-post-provisioning.md)。
 
 端到端预配和配置 Commerce 环境之后，可以使用本主题启用 BOPIS 方案。
 
@@ -37,7 +37,7 @@ ms.locfileid: "5795947"
 
 ### <a name="configure-modern-pos"></a>配置 Modern POS
 
-涉及信用卡付款的 BOPIS 方案需要硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 客户端的 Modern POS 内。 如果您使用适用于 iOS 的 Cloud POS 或 Modern POS，销售点 (POS) 客户端必须与共享硬件工作站配对。 本主题说明如何为 Windows 和 Android 客户端配置 BOPIS。 有关如何设置共享硬件工作站的信息，请参阅[配置和安装 Retail 硬件工作站](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation)。
+涉及信用卡付款的 BOPIS 方案需要硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 客户端的 Modern POS 内。 如果您使用适用于 iOS 的 Cloud POS 或 Modern POS，销售点 (POS) 客户端必须与共享硬件工作站配对。 本主题说明如何为 Windows 和 Android 客户端配置 BOPIS。 有关如何设置共享硬件工作站的信息，请参阅[配置和安装 Retail 硬件工作站](./retail-hardware-station-configuration-installation.md)。
 
 1. 转至 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> 收银机**。
 2. 选择收银机 **SANFRAN-5**，然后选择 **编辑**。
@@ -87,7 +87,7 @@ ms.locfileid: "5795947"
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>为店内提货创建店面订单
 
-1. 转到在环境配置期间您在[初始化电子商务](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce)步骤中指定的 URL。
+1. 转到在环境配置期间您在[初始化电子商务](./provisioning-guide.md#initialize-e-commerce)步骤中指定的 URL。
 2. 选择一个商品，然后选择 **添加到购物车**。
 3. 在购物袋页面上，为您刚才添加的订单行选择 **提货**。
 4. 在 **选择商店** 对话框中，输入 **旧金山**，然后选择 **搜索** 按钮。
@@ -112,7 +112,7 @@ ms.locfileid: "5795947"
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>将在线订单同步到后台
 
-有关如何同步在线订单的信息，请参阅[过帐在线销售和付款](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments)。
+有关如何同步在线订单的信息，请参阅[过帐在线销售和付款](./tasks/posting-online-sales-payments.md)。
 
 ### <a name="pick-up-an-order-in-the-store"></a>在商店提货
 
@@ -148,19 +148,19 @@ ms.locfileid: "5795947"
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyen 付款连接器](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Adyen 付款连接器](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[使用 Adyen 连接器保存在线付款工具](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[使用 Adyen 连接器保存在线付款工具](./dev-itpro/adyen-connector-listpi.md)
 
-[全渠道付款概览](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[全渠道付款概览](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

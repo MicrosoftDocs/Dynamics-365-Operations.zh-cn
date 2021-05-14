@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889780"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963207"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 
@@ -55,6 +55,9 @@ ms.locfileid: "5889780"
 若要使用 LCS 来管理您的 Human Resources 环境，您必须先创建 LCS 项目。
 
 1. 使用您用于订阅 Human Resources 的帐户登录到 [LCS](https://lcs.dynamics.com/Logon/Index)。
+
+   > [!NOTE]
+   > 要确保成功预配，必须将用于预配 Human Resources 环境的帐户分配给与 Human Resources 环境关联的 Power Apps 环境中的 **系统管理员** 或 **系统定制员** 角色。 有关在 Power Platform 中为用户分配安全角色的详细信息，请参阅[为资源配置用户安全性](https://docs.microsoft.com/power-platform/admin/database-security)。
 
 2. 选择加号 (**+**) 创建项目。
 
@@ -115,13 +118,30 @@ ms.locfileid: "5889780"
    
     - **试用环境** - 这些环境在创建时具有到期日期。 到期后，您的环境及其中包含的任何 Human Resources 实例都将自动删除。
    
-    - **不受支持的地区** - 目前仅在以下地区支持 Human Resources：美国、欧洲、英国、澳大利亚、加拿大和亚洲。
-
-    > [!NOTE]
-    > Human Resources 环境在预配 Power Apps 环境的同一区域中预配。 不支持将 Human Resources 环境迁移到另一个区域。
+    - **不支持的地理区域** - 环境必须位于受支持的地理区域。 有关详细信息，请参阅[支持的地理区域](hr-admin-setup-provision.md#supported-geographies)。
 
 6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
- 
+
+### <a name="supported-geographies"></a>支持的地理区域
+
+Human Resources 目前支持以下地理区域：
+
+- 美国
+- 欧洲
+- 英国
+- 澳大利亚
+- 加拿大
+- 亚洲 
+
+创建 Human Resources 环境时，您将选择要与 Human Resources 环境关联的 Power Apps 环境。 然后，该 Human Resources 环境将在与所选 Power Apps 环境相同的 Azure 地理区域预配。 您可以在创建将与 Human Resources 环境关联的 Power Apps 环境时选择地理区域，从而选择 Human Resources 环境和数据库的实际位置。
+
+您可以选择在其中预配了环境的 Azure *地理区域*，但不能选择特定的 Azure *区域*。 自动化将确定创建环境的地理区域内的特定区域，以优化负载均衡和性能。 您可以在有关 [Azure 地理区域](https://azure.microsoft.com/global-infrastructure/geographies)的文档中找到有关 Azure 地理区域和区域的信息。
+
+Human Resources 环境的数据始终会包含在创建该环境的 Azure 地理区域中。 但是，不会总包含在同一个 Azure 区域。 出于灾难恢复目的，数据将被复制到地理区域内的主要 Azure 区域和二级故障转移区域。
+
+ > [!NOTE]
+ > 不支持将 Human Resources 环境从一个 Azure 区域迁移到另一个区域。
+
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 
 默认情况下，创建环境的全局管理员可以访问环境。 您必须为更多应用程序用户明确授予访问权限。 您必须在 Human Resources 环境中添加用户并为其分配相应角色。 部署了 Human Resources 的全局管理员还必须启动 Attract 和 Onboard 以完成初始化和允许其他租户用户访问。 在此之前，其他用户不能访问 Attract 和 Onboard，并且将发生访问冲突错误。 有关详细信息，请参阅[创建新用户](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)和[向安全角色分配用户](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 

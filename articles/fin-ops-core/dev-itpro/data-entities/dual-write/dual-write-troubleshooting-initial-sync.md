@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c716707140c85b06ad2f084c10c4b2d0ecfea82e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754006"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941047"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -192,7 +192,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 6. 再次运行 **客户 V3 (Accounts)** 映射的初始同步。 由于更改跟踪已关闭，Finance and Operations 应用中 **InvoiceAccount** 和 **ContactPersonId** 的数据将同步到 Dataverse。
 7. 要将 **InvoiceAccount** 和 **ContactPersonId** 的数据从 Dataverse 同步到 Finance and Operations 应用，必须使用数据集成项目。
 
-    1. 在 Power Apps 中，在 **Sales.Account** 和 **Finance and Operations apps.Customers V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到 Finance and Operations 应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator)。
+    1. 在 Power Apps 中，在 **Sales.Account** 和 **Finance and Operations apps.Customers V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到 Finance and Operations 应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](/power-platform/admin/data-integrator)。
 
         下图显示了一个更新 **CustomerAccount** 和 **ContactPersonId** 的项目。
 

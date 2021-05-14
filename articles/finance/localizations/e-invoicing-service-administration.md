@@ -2,7 +2,7 @@
 title: 电子开票管理组件
 description: 本主题提供有关与电子开票的管理相关的组件的信息。
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840020"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963183"
 ---
 # <a name="electronic-invoicing-administration-components"></a>电子开票管理组件
 
@@ -87,10 +87,12 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 - 将存储电子发票的 Azure 存储帐户（Blob 存储）
 - 将存储证书和存储帐户的统一资源标识符 (URI) 的 Azure 密钥保管库
 
-> [!NOTE]
-> 必须专门分配专用的密钥保管库和客户存储帐户，以与电子开票一起使用。
 
-有关详细信息，请参阅[创建 Azure 存储帐户和密钥保管库](e-invoicing-create-azure-storage-account-key-vault.md)。
+必须专门分配专用的密钥保管库和客户存储帐户，以与电子开票一起使用。 有关详细信息，请参阅[创建 Azure 存储帐户和密钥保管库](e-invoicing-create-azure-storage-account-key-vault.md)。
+
+若要监视密钥保管库的运行状况并接收警报，请为密钥保管库配置 Azure Monitor。 通过启用密钥保管库日志记录，您可以监视哪些人如何以及何时访问了密钥保管库。 有关详细信息，请参阅 [Azure 密钥保管库的监视和警报](/azure/key-vault/general/alert)和[如何启用密钥保管库日志记录](/azure/key-vault/general/howto-logging?tabs=azure-cli)。
+
+最佳做法是定期轮换使用机密。 有关详细信息，请参阅[机密文档](/azure/key-vault/secrets/)。
 
 #### <a name="users"></a>用户
 

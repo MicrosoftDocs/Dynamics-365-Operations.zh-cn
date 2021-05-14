@@ -2,7 +2,7 @@
 title: 管理休假和缺勤请求
 description: 在 Dynamics 365 Human Resources 中查看和审批休假和缺勤请求。
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790732"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924795"
 ---
 # <a name="manage-leave-and-absence-requests"></a>管理休假和缺勤申请
 
@@ -31,9 +31,20 @@ ms.locfileid: "5790732"
 
 1. 在 **员工自助服务** 工作区中，选择 **我的团队**。
 
-2. 在 **我的团队信息** 下，选择 **休假和缺勤** 选项卡。 
+2. 在 **我的团队信息** 下，选择 **休假和缺勤** 选项卡。
 
 3. 根据需要查看和审批团队成员的休息时间请求。
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(预览版)休假请求工作流体验增强功能
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+此预览功能提供以下增强功能：
+
+- 您可以选择多个休假申请并对所有休假申请执行相同操作。
+- 顶部的功能区和页面上的新工作流按钮显示您可以对休假申请采取的操作。
+
+![经理体验](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>请参阅
 

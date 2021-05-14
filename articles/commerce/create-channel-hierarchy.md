@@ -2,7 +2,7 @@
 title: 创建渠道导航层次结构
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建渠道导航层次结构。
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795827"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951900"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>创建渠道导航层次结构
 
@@ -77,7 +77,7 @@ ms.locfileid: "5795827"
 1. 在操作窗格上，选择 **保存**。
 
 > [!NOTE]
-> 将产品添加到渠道导航层次结构内的节点并不能让产品在所选渠道上显示，这些产品也必须归类为某种产品。
+> 将产品添加到渠道导航层次结构内的节点并不能让产品在所选渠道上显示，这些产品也必须归类为某个渠道。 有关分类的详细信息，请参阅[分类管理](assortments.md)。
 
 下图显示了添加有产品的节点示例。
 

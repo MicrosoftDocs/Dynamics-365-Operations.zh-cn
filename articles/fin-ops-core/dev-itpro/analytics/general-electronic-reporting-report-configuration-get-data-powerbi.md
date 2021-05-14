@@ -2,7 +2,7 @@
 title: 配置电子申报 (ER) 以便将数据导入 Power BI
 description: 本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的实例转移至 Power BI 服务。
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750074"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944429"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>配置电子申报 (ER) 以便将数据导入 Power BI
 
@@ -68,10 +68,10 @@ Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们�
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>使用 ER 数据模型作为数据源
 您必须具有作为业务数据源在 Power BI 报表上使用的 ER 数据模型。 此数据模型从 ER 配置库上载。 有关详细信息，请参阅 [从 Lifecycle Services 下载电子申报配置](download-electronic-reporting-configuration-lcs.md)或播放 **ER 从 Lifecycle Services 导入配置** 任务指南。 选择 **内部统计** 作为从选定的 ER 配置库中上载的数据模型。 （在此示例中，使用模型的版本 1。）然后可以访问 **配置** 页面上的 **内部统计** ER 模型配置。
 
-[![配置页面](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![配置页面上的内部统计 ER 模型配置](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>设计 ER 格式配置
-您必须创建使用 **内部统计** 数据模型作为业务数据源的新 ER 格式配置。 此格式配置必须将输出结果生成为 OpenXML（Excel 文件）格式的电子文档。 有关详细信息，请播放 **ER 创建 OPENXML 格式的报表配置** 任务指南。 将新配置命名为 **导入/导出活动**，如下图所示。 使用[ER 数据导入和导出详细信息](https://go.microsoft.com/fwlink/?linkid=845208)Excel 文件作为设计 ER 格式时的模板。 （有关如何导入格式模板的信息，请播放任务指南。）
+您必须创建使用 **内部统计** 数据模型作为业务数据源的新 ER 格式配置。 此格式配置必须将输出结果生成为 OpenXML（Excel 文件）格式的电子文档。 有关详细信息，请播放 **ER 创建 OPENXML 格式的报表配置** 任务指南。 将新配置命名为 **导入/导出活动**，如下图所示。 使用[ER 数据导入和导出详细信息](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx)Excel 文件作为设计 ER 格式时的模板。 （有关如何导入格式模板的信息，请播放任务指南。）
 
 [![导入/导出活动配置](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们�
 1. 在 **配置** 页面（**组织管理** &gt; **电子申报** &gt; **配置**）上的配置树中，选择您先前创建的 **导入/导出活动** 配置。
 2. 将版本 1.1 的状态从 **草稿** 更改为 **完成**，使此格式可使用。
 
-    [![配置页面](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![配置页面上的导入/导出活动配置](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. 选择 **导入/导出活动** 配置的已完成版本，然后点击 **运行**。 注意配置目标应用到以 Excel 格式生成的输出结果。
 4. 将 **批处理** 选项设置为 **是**，从而以未看管模式运行此报表。
@@ -187,11 +187,11 @@ Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们�
 2. 选择您创建的 **导入和导出详细信息** Power BI 报表使报表在选择的页面上显示为操作项。
 3. 单击操作项以打开显示您在 Power BI 中设计的报表的页面。
 
-    [![导入和导出详细报表](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![在 Power BI 中设计的导入和导出详细报表](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报 (ER) 目标](electronic-reporting-destinations.md)
+[电子报告 (ER) 目标](electronic-reporting-destinations.md)
 
 [电子申报 (ER) 概览](general-electronic-reporting.md)
 

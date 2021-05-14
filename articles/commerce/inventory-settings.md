@@ -2,7 +2,8 @@
 title: 应用库存设置
 description: 本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b2c44eb5ece74de15e22180abc6d9d0448ab401b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dd3db0039525c18521ad6a42b2f281976b7b236a
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798881"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937402"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 
@@ -39,12 +41,17 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 ## <a name="inventory-settings"></a>库存设置
 
-在 Commerce 中，库存设置在站点构建器中的 **站点设置 \> 扩展 \> 库存管理** 处定义。 有四种库存设置，其中一种已过时（已弃用）：
+在 Commerce 中，库存设置在站点构建器中的 **站点设置 \> 扩展 \> 库存管理** 处定义。 有五种库存设置，其中一种已过时（已弃用）：
 
 - **在应用中启用存货检查** – 此设置打开产品库存检查。 然后，商店模块中的购买框、购物车和提货将检查产品库存，并且仅在有库存时允许将产品添加到购物车中。
 - **库存级别确定条件** – 此设置定义如何计算库存级别。 可用值为 **总可用量**、**实际可用量** 和 **库存不足阈值**。 在 Commerce 中，可以为每个产品和类别定义库存阈值和范围。 库存 API 返回 **总可用量** 属性和 **实际可用量** 属性的产品库存信息。 零售商决定是应该使用 **总可用量** 还是 **实际可用量** 值来确定库存盘点，以及有存货和库存不足状态的相应范围。
 
     **库存级别确定条件** 设置的 **库存不足阈值** 值是旧的（旧版）已过时的值。 选择它后，库存盘点将根据 **总可用量** 值的结果确定，但阈值由稍后介绍的 **库存不足阈值** 数字设置定义。 此阈值设置将应用于整个电子商务站点的所有产品。 如果库存低于阈值数字，则视为产品库存不足。 否则，视为有存货。 **库存不足阈值** 值的能力是有限的，我们不建议您在版本 10.0.12 及更高版本中使用它。
+
+- **多个仓库的库存级别** – 此设置可以针对默认仓库或多个仓库计算库存级别。 **基于单个仓库** 选项将基于默认仓库计算库存级别。 或者，电子商务站点可以指向多个仓库以推进履行。 在这种情况下，**基于装运和提货仓库的聚合** 选项用于指示存货可用性。 例如，当客户购买物料并选择“装运”作为交货方式时，可以从履行组中具有可用库存的任何仓库装运物料。 如果履行组中的任何可用装运仓库有库存，产品详细信息页 (PDP) 将为装运显示“有存货”消息。 
+
+> [!IMPORTANT] 
+> **多个仓库的库存级别** 设置从 Commerce 版本 10.0.19 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
 - **库存范围** – 此设置定义在站点模块上显示消息的库存范围。 仅当为 **库存级别确定条件** 选择了 **总可用量** 值或 **实际可用量** 值时，此设置才适用。 可用值有 **所有**、**低库存和库存不足** 和 **库存不足**。
 
@@ -61,15 +68,15 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 购买框、愿望列表、商店选择器、购物车和购物车图标模块使用库存设置显示库存范围和消息。
 
-下图显示了产品详细信息页面 (PDP) 的示例，该页面显示有存货（“有货”）消息。
+在下图的示例中，PDP 显示有存货（“可用”）消息。
 
 ![显示有存货消息的 PDP 模块的示例](./media/pdp-InStock.png)
 
-下图显示了显示“库存不足”消息的 PDP 示例。
+在下图的示例中，PDP 显示有“库存不足”消息。
 
 ![显示库存不足消息的 PDP 模块的示例](./media/pdp-outofstock.png)
 
-下图显示了显示有存货（“有货”）消息的购物车的示例。
+在下图的示例中，购物车显示有存货（“可用”）消息。
 
 ![显示有存货消息的购物车模块的示例](./media/cart-instock.png)
 

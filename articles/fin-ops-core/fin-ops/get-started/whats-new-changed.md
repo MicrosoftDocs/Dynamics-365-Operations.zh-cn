@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 412a1f8d6aac597476fb2043caa72731e0437905
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750502"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923333"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
 
@@ -33,7 +33,7 @@ ms.locfileid: "5750502"
 
 - **Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md) 
 - **Supply Chain Management：** [Dynamics 365 Supply Chain Management 中的新增功能或更改的功能](../../../supply-chain/get-started/whats-new-home-page.md) 
-- **Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../retail/get-started/whats-new-home-page.md)
+- **Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../commerce/get-started/whats-new-home-page.md)
 - **Human Resources：**[Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>平台更新 

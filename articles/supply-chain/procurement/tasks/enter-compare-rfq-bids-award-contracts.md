@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811982"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920573"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
@@ -32,7 +32,7 @@ ms.locfileid: "5811982"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>以供应商身份输入回复
 
-1. 在仪表板上，选择 **供应商出价**。
+1. 转到 **供应商协作 \> 工作区 \> 供应商出价**。
 2. 在 **新出价邀请** 列表中，找到刚才发送的询价。 选择该询价以检查请求的内容。
 3. 选择 **询价附件** 以检查已添加的任何附件。
 4. 选择 **出价** 以使字段可编辑。 请注意，**出价进度** 字段设置为 **供应商正在更新**。

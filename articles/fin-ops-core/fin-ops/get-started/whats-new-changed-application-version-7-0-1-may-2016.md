@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f1d0361da03f2fc4aaaa749d632192265483db2d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c4d762a6750a295b91a1d146b7bf0ae750e2e9bd
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752808"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923181"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 
@@ -76,7 +76,7 @@ ms.locfileid: "5752808"
 </tr>
 <tr>
 <td>支持包含具有同一物料的不同产品维度的物料的物料清单。</td>
-<td>当在生产环境中使用一个或多个产品维度时，可能遇到希望根据同一物料的不同变型生产物料的情况。 有关详细信息，请参阅<a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">此博客</a>。</td>
+<td>当在生产环境中使用一个或多个产品维度时，可能遇到希望根据同一物料的不同变型生产物料的情况。 有关详细信息，请参阅<a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">此博客</a>。</td>
 </tr>
 <tr>
 <td>在物料清单的第一个级别具有循环结构的生产订单从材料资源规划的物料清单级别计算中排除。</td>

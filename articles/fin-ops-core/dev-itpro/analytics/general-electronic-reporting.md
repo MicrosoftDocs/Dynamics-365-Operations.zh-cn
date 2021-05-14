@@ -2,7 +2,7 @@
 title: 电子申报 (ER) 概览
 description: 此主题概要介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893169"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944357"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
@@ -236,7 +236,7 @@ ER 支持格式设计器，您可以通过选择模型组件作为基础来使�
 
 ER 格式设计器可以用于构建使用 OPENXML 工作表格式的电子单据。 
 
-若要详细了解此方案，播放 **ER 创建 OPENXML 格式的报表配置** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。 作为导入模板的任务指南的一部分，使用 [付款报表模板 (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel 文件作为模板。
+若要详细了解此方案，播放 **ER 创建 OPENXML 格式的报表配置** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。 作为导入模板的任务指南的一部分，使用 [付款报表模板 (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) Excel 文件作为模板。
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>构建配置以生成使用 Word 文档格式的电子单据
 
@@ -244,8 +244,8 @@ ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 �
 
 若要详细了解此方案，播放 ER 设计用于生成 Microsoft WORD 格式的报表的配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 作为导入模板的任务指南步骤的一部分，使用以下 Word 文件作为 ER 格式的模板：
 
-- [付款报表模板 (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [付款报表模板 (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>生成配置以从传入的电子文档导入数据
 
@@ -253,10 +253,10 @@ ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的
 
 若要详细了解此方案，播放创建从外部文件导入数据所需配置任务指南（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。 使用以下文件播放本指南：
 
-- [ER 数据模型配置 (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [ER 格式配置 (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [XML 格式的传入文档示例 (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [管理传入文档数据的工作簿的示例 (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [ER 数据模型配置 (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [ER 格式配置 (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [XML 格式的传入文档示例 (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [管理传入文档数据的工作簿的示例 (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>在格式配置中存储设计的格式组件
 

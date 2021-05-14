@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890068"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951924"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>优化 BYOD 计划批处理作业
 
@@ -89,6 +89,12 @@ BYOD 功能具有下列限制：
 **问题：** 当对实体进行全面推送时，如果使用 **select** 语句，您会在 BYOD 中看到大量记录。 但是，当您执行增量推送时，您在 BYOD 中只会看到几条记录。 似乎增量推送删除了所有记录，然后仅在 BYOD 中添加了更改的记录。
 
 **解决方法：** SQL 更改跟踪表可能未处于预期状态。 在这种情况下，建议您关闭实体的变更跟踪，然后再将其重新打开。 有关详细信息，请参阅[启用对实体的更改跟踪](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
+
+### <a name="staging-tables-arent-clearing"></a>暂存表未清除
+
+**问题：** 在项目中使用暂存时，暂存表无法正确清除。 然后，表中的数据继续增长，导致性能问题。
+
+**解决方法：** 暂存表中会保留 7 天的历史记录。 **导入导出暂存清理** 批处理作业会自动从暂存表中清除超过七天的历史数据。 如果此作业遇到问题，表将无法正确清除。 重新启动此批处理作业将继续此流程来自动清除暂存表。
 
 ## <a name="see-also"></a>请参阅
 

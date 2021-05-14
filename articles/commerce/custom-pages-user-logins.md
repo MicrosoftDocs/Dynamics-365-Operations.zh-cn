@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799437"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936772"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>设置用户登录自定义页面
 
@@ -32,7 +32,7 @@ ms.locfileid: "5799437"
 可以使用登录、注册、帐户个人资料编辑、密码重置或通用 AAD 模块生成自定义 Commerce 页面。 然后，应该在 Azure 门户中的 Azure AD B2C 策略配置内引用为这些自定义页面发布的页面 URL。
 
 > [!WARNING] 
-> Azure AD B2C 将于 2021 年 8 月 1 日停用旧（旧版）用户流。 因此，您应该计划将用户流迁移到新的推荐版本。 新版本提供功能奇偶一致性和新功能。 有关详细信息，请参阅 [Azure Active Directory B2C 中的用户流](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview)。
+> Azure AD B2C 将于 2021 年 8 月 1 日停用旧（旧版）用户流。 因此，您应该计划将用户流迁移到新的推荐版本。 新版本提供功能奇偶一致性和新功能。 有关详细信息，请参阅 [Azure Active Directory B2C 中的用户流](/azure/active-directory-b2c/user-flow-overview)。
 
 >Commerce 版本 10.0.15 或更高版本的模块库应与推荐的 B2C 用户流一起使用。 在 Azure AD B2C 中提供的默认用户策略页面也可以使用，并且允许添加与公司品牌相关的背景图像、徽标和背景颜色更改。 尽管设计功能受到更多限制，但是默认用户策略页面提供 Azure AD B2C 策略功能，而无需创建和配置专用的自定义页面。 
 

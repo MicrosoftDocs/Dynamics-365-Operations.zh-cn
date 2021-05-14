@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827714"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898128"
 ---
 # <a name="accounts-receivable-home-page"></a>应收帐款主页
 
@@ -39,61 +39,45 @@ ms.locfileid: "5827714"
 
 使用应收帐款可以跟踪从客户收到的客户发票和付款。 您可以设置客户组、客户、过帐模板、利息单、催款单、佣金、与客户有关的参数、计费、交货和目的地、汇票和其他类型的应收帐款信息。 
 
-:::row:::
-    :::column:::
-        - [会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [客户过帐模板](customer-posting-profiles.md)
-        - [信用卡设置、授权和获取](credit-card-authorizations.md)
-        - [创建客户发票](configure-customer-invoices.md)
-        - [设置和处理重复发票](set-up-process-recurring-invoices.md)
-        - [更正普通发票](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [设置汇票](set-up-bills-exchange.md)
-        - [为利息代码设置多种利率](set-up-interest-rates-interest-code.md)
-        - [停征、复征或冲销利息费](waive-reinstate-reverse-interest-fees.md)
-        - [SEPA 直接借记概览](sepa-direct-debit-overview.md)
-        - [设置 SEPA 直接借记授权单](sepa-direct-debit-mandate.md)
-        - [应收帐款关帐](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [客户过帐模板](customer-posting-profiles.md)
+- [信用卡设置、授权和获取](credit-card-authorizations.md)
+- [创建客户发票](configure-customer-invoices.md)
+- [设置和处理重复发票](set-up-process-recurring-invoices.md)
+- [更正普通发票](correct-free-text-invoice.md)
+- [设置汇票](set-up-bills-exchange.md)
+- [为利息代码设置多种利率](set-up-interest-rates-interest-code.md)
+- [停征、复征或冲销利息费](waive-reinstate-reverse-interest-fees.md)
+- [SEPA 直接借记概览](sepa-direct-debit-overview.md)
+- [设置 SEPA 直接借记授权单](sepa-direct-debit-mandate.md)
+- [应收帐款关帐](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>设置信用和收款
 
 应付帐款收款信息在一个中央视图 -“收款”页上进行管理。 信用和收款经理可以使用该中央视图管理收款。 收款代理可以从使用预定义收款条件生成的客户列表或从“客户”页开始收款流程。
 
-[应收帐款中的信用和收款](collections-credit-accounts-receivable.md)
-
-[配置应收帐款以及信用和收款](accounts-receivables-set-up-overview.md)
-
-[设置信用和收款](set-up-collections.md)
+- [应收帐款中的信用和收款](collections-credit-accounts-receivable.md)
+- [配置应收帐款以及信用和收款](accounts-receivables-set-up-overview.md)
+- [设置信用和收款](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>设置付款和结算
 
 接受来自客户的不同类型的付款，如汇票、现金、支票、信用卡和电子付款。 
 
-:::row:::
-    :::column:::
-        - [使用一次客户付款来结算跨多个折扣期间的多张发票](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [应收帐款的集中付款](centralized-payments-accounts-receivable.md)
-        - [在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [结算在贷方通知单上已折扣的部分客户付款](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [结算具有多个折扣期间的部分客户付款](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [补偿客户](reimburse-customers.md)
-        - [部分金额的客户付款](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [使用一次客户付款来结算跨多个折扣期间的多张发票](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [应收帐款的集中付款](centralized-payments-accounts-receivable.md)
+- [在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [结算在贷方通知单上已折扣的部分客户付款](settle-partial-customer-payment-discounts-credit-notes.md)
+- [结算具有多个折扣期间的部分客户付款](settle-partial-customer-payment-multiple-discount-periods.md)
+- [补偿客户](reimburse-customers.md)
+- [部分金额的客户付款](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>其他资源
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 路线图](https://go.microsoft.com/fwlink/?linkid=2010158)，了解规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 路线图](/dynamics365/release-plans/)，了解规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 

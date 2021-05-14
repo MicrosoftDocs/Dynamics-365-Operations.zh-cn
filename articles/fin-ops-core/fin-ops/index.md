@@ -2,7 +2,7 @@
 title: Finance and Operations 应用程序文档
 description: 针对 Finance and Operations 应用的文档。
 author: robinarh
-ms.date: 07/25/2019
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751818"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893490"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -44,7 +44,7 @@ ms.locfileid: "5751818"
  <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">实施生命周期</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
 
@@ -65,7 +65,7 @@ ms.locfileid: "5751818"
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">集成</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">业务事件</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">数据实体</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">使用 Microsoft Power Automate 集成</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">使用 Microsoft Power Automate 的集成</a></p>
 
 <h3><a href="../../finance/index.md">财务管理</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">应付帐款</a></p>
@@ -76,7 +76,7 @@ ms.locfileid: "5751818"
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">成本核算</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">固定资产</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">总帐</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">项目管理</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">项目管理</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">公共部门</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">地区监管功能</a></p>
 
@@ -126,13 +126,13 @@ ms.locfileid: "5751818"
 </td>
 <td>
 <h3>相关产品</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">呼叫中心</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">渠道设置和管理</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">呼叫中心</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">渠道设置和管理</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
 
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
 <p><a href="../../human-resources/hr-admin-overview.md">管理员指南</a></p>
 <p><a href="../../human-resources/hr-developer-overview.md">开发人员指南</a></p>
 <p><a href="../../human-resources/hr-hrpro-overview.md">用户指南</a></p>

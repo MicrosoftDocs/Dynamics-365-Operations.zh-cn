@@ -1,8 +1,8 @@
 ---
 title: 预算概览
 description: 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827450"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960041"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 Finance 版本 10.0.7（2020 年 1 月）中引入的功�
 
 **仅数量预算登记分录** 功能允许您过帐仅包含数量的预算登记分录。 例如，您可以过帐数量为 32、价格为零的预算项，其金额为零。 然后，您可以在财务报表的上下文中使用此数量来确定每个数量的价格。 请注意，此功能没有查询或报表被更新；此功能仅使您可以过帐零金额。
 
-**金额类型的预算登记分录默认设置** 功能允许预算登记分录中的默认金额类型为费用以外的其他金额类型。 现在，当主科目类型为费用时，预算登记分录行将默认为费用；当主科目类型为费用时，将默认为收入；所有其他科目类型将默认为费用。
+**金额类型的预算登记分录默认设置** 功能允许预算登记分录中的默认金额类型为费用以外的其他金额类型。 现在，当主科目类型为费用时，预算登记分录行将默认为费用；当主科目类型为收入时，将默认为收入；对于所有其他科目类型，将默认为费用。
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>使用工作区和查询页来跟踪预算和实际值
 预算经理可以在 **分类帐预算和预测** 工作区中检查预算的当前状态。 **高于预算的费用** 和 **低于预算的收入** 选项卡可让您快速了解财务维度组合，其中预算目标未达到或正在接近限额。 您可以通过单击 **配置我的工作区** 来个性化这些选项卡上使用的预算限额百分比和财务维度集。 您可以单击 **部门经理** 查看负责已在这些选项卡上选定的特定财务维度组合的工作人员。 例如，如果您发现运营部门的费用预算将超出预算限额，您可轻松找到并联系运营部门经理以讨论此问题。 

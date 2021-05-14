@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909807"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935825"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a> Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改（2020 年 4 月）
 
@@ -71,7 +71,7 @@ ms.locfileid: "5909807"
 
 - [包装与存储维度](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [并行确认计划订单](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - 有关详细信息，请参见[并行确认](../master-planning/maintain-planned-orders.md#parallelize-firming)和 [MRP 绩效和可用性改进](https://www.microsoft.com/videoplayer/embed/RE4myrJ)视频。
+- [并行确认计划订单](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - 有关详细信息，请参阅[确认计划订单](../master-planning/planning-optimization/planned-order-firming.md)和 [MRP 绩效和可用性改进](https://www.microsoft.com/videoplayer/embed/RE4myrJ)视频。
 
 - [计划配送优化](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - 有关详细信息，请参阅[计划优化概述](../master-planning/planning-optimization/planning-optimization-overview.md)。
 

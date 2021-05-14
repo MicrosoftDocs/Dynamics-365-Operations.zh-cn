@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799e7bce1ce7fd2d912b2ff5f97da61123f7293a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825486"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920623"
 ---
 # <a name="transfer-data-for-product-models"></a>转移产品模型的数据
 
@@ -26,14 +26,12 @@ ms.locfileid: "5825486"
 
 产品配置模型的导出数据要求至少有一个可用的产品模型。 该过程使用演示公司 USMF 中的“高端扬声器模型”向您显示如何导出此模型的数据。
 
-1. 单击“产品变型模型定义”。
-2. 单击“产品配置模型”。
-3. 在列表中，找到并选择所需记录。
+1. 转到 **产品信息管理 \> 产品 \> 产品配置模型**。
+1. 在列表中，找到并选择所需记录。
     * 选择该过程的“高端扬声器模型”。  
-4. 在“操作窗格”上单击“模型”。
-5. 单击“导出产品模型”。
+1. 在操作窗格上，选择 **模型**。
+1. 选择 **导出产品模型**。
     * 根据安全设置，不同浏览器之间的下载行为各不相同。  
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
