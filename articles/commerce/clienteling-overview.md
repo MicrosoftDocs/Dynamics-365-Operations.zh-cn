@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800439"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937004"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -60,7 +60,7 @@ ms.locfileid: "5800439"
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>与 Dynamics 365 Customer Insights 的集成
 
-通过使用 Dynamics 365 Customer Insights 应用程序，零售商可以聚合来自客户用来与零售商品牌进行交互的各个系统的数据。 然后，可以使用此数据生成客户的单一视图并获得见解。 Customer Insights 与 Commerce 的集成使零售商可以选择一种或多种应在客户手册的客户卡上显示的度量。 例如，零售商可以使用 Customer Insights 中的数据来计算客户的“流失概率”，并定义“下一个最佳行为”。 如果将这些值定义为度量，它们可以显示在客户卡上，并可以向销售助理提供重要信息。 有关 Customer Insights 的详细信息，请参阅 [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) 文档。 有关度量的详细信息，请参阅[度量](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)。
+通过使用 Dynamics 365 Customer Insights 应用程序，零售商可以聚合来自客户用来与零售商品牌进行交互的各个系统的数据。 然后，可以使用此数据生成客户的单一视图并获得见解。 Customer Insights 与 Commerce 的集成使零售商可以选择一种或多种应在客户手册的客户卡上显示的度量。 例如，零售商可以使用 Customer Insights 中的数据来计算客户的“流失概率”，并定义“下一个最佳行为”。 如果将这些值定义为度量，它们可以显示在客户卡上，并可以向销售助理提供重要信息。 有关 Customer Insights 的详细信息，请参阅 [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) 文档。 有关度量的详细信息，请参阅[度量](/dynamics365/ai/customer-insights/pm-measures)。
 
 ## <a name="set-up-clienteling"></a>设置客户服务解决方案
 
@@ -73,7 +73,7 @@ ms.locfileid: "5800439"
 2. 通过选择 **立即启用**，开启 **客户服务解决方案** 功能。
 3. 在 **商业参数** 页面上的 **编号规则** 选项卡上，选择 **客户手册标识符** 行。 然后，在 **编号规则代码** 字段中，选择一个编号规则。 系统将使用此编号规则为客户手册分配 ID。
 4. 选择 **保存**。
-5. 创建一个新的属性组，其中包含要为客户手册中管理的客户捕获的属性。 相关说明请参阅[属性和属性组](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle)。
+5. 创建一个新的属性组，其中包含要为客户手册中管理的客户捕获的属性。 相关说明请参阅[属性和属性组](./attribute-attributegroups-lifecycle.md)。
 
     - 将所需的属性定义为 **可细化**。 然后，销售助理可以使用这些属性来筛选其客户手册。
     - 设置这些属性的显示顺序。 此显示顺序确定应在客户手册的客户卡上显示哪些属性。 显示顺序 1 被视为比显示顺序 2 更高。 因此，显示顺序为 1 的属性将显示在显示顺序为 2 的属性之前。
@@ -103,18 +103,18 @@ ms.locfileid: "5800439"
 
 请按照以下步骤设置集成。
 
-1. 在 Azure 门户中，注册一个新应用程序并记下应用程序名称、应用程序 ID 和密码。 此信息将用于 Commerce 和 Customer Insights 之间的服务对服务身份验证。 请以安全方式记下密码，在密钥保管库中进行保存时需要用到。 对于以下示例，请分别将 CI_Access_name、CI_Access_AppID、CI_Access_Secret 用作应用程序名称、应用程序 ID 和密码。 有关详细信息，请参阅[快速入门：向 Microsoft 身份平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。
+1. 在 Azure 门户中，注册一个新应用程序并记下应用程序名称、应用程序 ID 和密码。 此信息将用于 Commerce 和 Customer Insights 之间的服务对服务身份验证。 请以安全方式记下密码，在密钥保管库中进行保存时需要用到。 对于以下示例，请分别将 CI_Access_name、CI_Access_AppID、CI_Access_Secret 用作应用程序名称、应用程序 ID 和密码。 有关详细信息，请参阅[快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)。
 
     > [!IMPORTANT]
     > 采取措施，以便您记住在密钥到期之前对其进行更改。 否则，集成将意外停止。
 
 2. 转到您的 Customer Insights 实例并搜索上面创建的应用程序的名称（在本示例中为“CI_Access_name”）。
-3. 创建一个 Azure 密钥保管库，并记下名称和 URL（在此示例中为“KeyVaultName”、“KeyVaultURL”）。 有关说明，请参阅[快速入门：使用 Azure 门户设置密钥以及从 Azure 密钥保管库检索密钥](https://docs.microsoft.com/azure/key-vault/quick-create-portal)。
+3. 创建一个 Azure 密钥保管库，并记下名称和 URL（在此示例中为“KeyVaultName”、“KeyVaultURL”）。 有关说明，请参阅[快速入门：使用 Azure 门户设置密钥以及从 Azure 密钥保管库检索密钥](/azure/key-vault/quick-create-portal)。
 4. 将密码（在本示例中为“CI_Access_Secret”）保存在保管库中。 当此密码存储在保管库中时，密码将获得一个名称。 记下密码的名称（在此示例中为“SecretName”）。
 5. 若要从 Azure 密钥保管库访问密码，您需要使用应用程序 ID 和密码（在本示例中为“KeyVault_Access_AppID”和“KeyVault_Access_Secret”）创建另一个应用程序。 以安全方式记下密码，它不会再显示。
 6. 接下来，您需要授予应用程序使用 API 从 Commerce 访问密钥保管库的权限。 在 Azure 门户中转到应用程序页面。 在 **管理** 部分下，选择 **API 权限**。 添加权限以访问 **Azure 密钥保管库**。 为此权限，选择 **访问政策**。 模板选择 **密码管理**，然后选择 **获取**、**列出**、**解密** 和 **加密** 选项。 
 5. 在 Commerce headquarters 中，转到 **系统管理 \> 设置 \> 密钥保管库参数**，然后输入密钥保管库所需的信息。 然后，在 **密钥保管库客户端** 字段中，输入您在步骤 4 中使用的应用程序 ID，以便 Commerce 可以访问密钥保管库中的密钥。
-6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为安全列表）中，请转到 Customer Insights，并选择对应用程序的 **查看** 访问权限。 有关说明，请参阅[权限](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions)。
+6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为安全列表）中，请转到 Customer Insights，并选择对应用程序的 **查看** 访问权限。 有关说明，请参阅[权限](/dynamics365/ai/customer-insights/pm-permissions)。
 7. 在 Commerce HQ 中的 **系统管理 > 设置 > 密钥保管库参数** 页，如下所述更新字段： 
 
 - **密钥保管库 URL**：“KeyVaultURL”（来自上面的步骤 3）。
