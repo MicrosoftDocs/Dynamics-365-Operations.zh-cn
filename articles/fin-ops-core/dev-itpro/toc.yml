@@ -14,12 +14,12 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.18 的平台更新（2021 年 5 月）
+                - name: 针对 10.0.19 的平台更新（2021 年 7 月）
+                  href: get-started/whats-new-platform-updates-10-0-19.md
+                - name: 针对 10.0.18 的平台更新（2021 年 5 月）
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: 10.0.17 的平台更新（2021 年 4 月）
+                - name: 针对 10.0.17 的平台更新（2021 年 4 月）
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: 10.0.16 的平台更新（2021 年 2 月）
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: 已删除或弃用的功能
               items:
                 - name: 主页中已删除或弃用的功能
@@ -303,19 +303,19 @@
                         - name: 配置 Project Service Automation 集成
                           items:
                             - name: Project Service Automation 概览
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Project Service Automation 集成参数
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: 同步项目合同和项目
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: 同步项目任务
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: 同步项目支出类别
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: 将项目评估同步到项目预测
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: 将项目实际值同步到项目集成日记帐
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: 使用外部 Web 服务
               href: data-entities/consume-external-web-service.md
             - name: 电子消息
@@ -691,7 +691,7 @@
                     - name: 创建模型和数据模型元素概览
                       href: dev-tools/create-data-model-elements.md
                     - name: 扩展的命名准则
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: 关闭模型自定义和弃用功能
                       href: dev-tools/lock-models.md
                 - name: 定制分析报表
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Lifecycle Services 中的新增功能或更改
                   href: lifecycle-services/whats-new-lcs.md
-                - name: 已知问题
-                  href: lifecycle-services/known-issues.md
                 - name: Lifecycle Services (LCS) 中已删除或弃用的功能
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services 用户指南
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: 使用 Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: 在 Regression Suite Automation Tool 内维护测试用例
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: 验证预期值
               href: perf-test/rsat/rsat-validate-expected.md
             - name: 链测试用例
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: 派生测试用例
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: 升级参数文件
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Regression Suite Automation Tool 教程
               href: perf-test/rsat/rsat-tutorial.md
             - name: 配置非管理员用户
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 升级 - 沙盒环境中使用 DACPAC 流程的数据升级
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: 从 AX 2012 升级 - SQL 事务复制
+                  href: database/replication-setup.md
                 - name: AX 2012 升级 - 沙盒环境中的数据升级
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 升级 - 本地环境

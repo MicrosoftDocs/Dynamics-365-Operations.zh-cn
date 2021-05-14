@@ -13,43 +13,40 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81e573593fbbb0bf87e53c5cbd985b38a8db89ac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8607de5705354aa58c985fb536f3e1d52acd1f37
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841591"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921281"
 ---
-# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="ef3ae-103">创建可配置产品的销售订单</span><span class="sxs-lookup"><span data-stu-id="ef3ae-103">Create a sales order for a configurable product</span></span>
+# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="16826-103">创建可配置产品的销售订单</span><span class="sxs-lookup"><span data-stu-id="16826-103">Create a sales order for a configurable product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ef3ae-104">此过程显示如何将配置模板应用于销售订单中的一个产品。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="ef3ae-105">此示例使用 USMF 演示数据公司中的 D0006 扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="ef3ae-106">通常，销售订单处理人员使用此过程。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-106">Typically, a sales order processor uses this procedure.</span></span>
+<span data-ttu-id="16826-104">此过程显示如何将配置模板应用于销售订单中的一个产品。</span><span class="sxs-lookup"><span data-stu-id="16826-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="16826-105">此示例使用 USMF 演示数据公司中的 D0006 扬声器模型。</span><span class="sxs-lookup"><span data-stu-id="16826-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="16826-106">通常，销售订单处理人员使用此过程。</span><span class="sxs-lookup"><span data-stu-id="16826-106">Typically, a sales order processor uses this procedure.</span></span>
 
+## <a name="create-a-sales-order"></a><span data-ttu-id="16826-107">创建销售订单</span><span class="sxs-lookup"><span data-stu-id="16826-107">Create a sales order</span></span>
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="ef3ae-107">创建销售订单</span><span class="sxs-lookup"><span data-stu-id="ef3ae-107">Create a sales order</span></span>
-1. <span data-ttu-id="ef3ae-108">点击“销售订单处理和查询”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-108">Click Sales order processing and inquiry.</span></span>
-2. <span data-ttu-id="ef3ae-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-109">Click New.</span></span>
-3. <span data-ttu-id="ef3ae-110">单击“销售订单”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-110">Click Sales order.</span></span>
-4. <span data-ttu-id="ef3ae-111">在“客户帐户”字段中选择“US-001”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-111">In the Customer account field, select US-001.</span></span> 
-5. <span data-ttu-id="ef3ae-112">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-112">Click OK.</span></span>
-6. <span data-ttu-id="ef3ae-113">在“物料编号”字段中，选择 D0006。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-113">In the Item number field, select D0006.</span></span>
-    * <span data-ttu-id="ef3ae-114">对于此任务，必须选择一个可配置产品。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-114">For this task, you must select a configurable product.</span></span>  
-7. <span data-ttu-id="ef3ae-115">单击“产品和供应”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-115">Click Product and supply.</span></span>
-8. <span data-ttu-id="ef3ae-116">单击“配置行”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-116">Click Configure line.</span></span>
-    * <span data-ttu-id="ef3ae-117">请注意，已根据选择的配置更改了价格，并且“含电缆”字段现在已设置为 True。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-117">Note that the price has changed, based on the configuration that was selected, and that the Include cable field is now set to True.</span></span>  
-    * <span data-ttu-id="ef3ae-118">记下为电缆选择的默认价格和设置。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-118">Note the default price and the settings that are selected for the cable.</span></span>  
-9. <span data-ttu-id="ef3ae-119">单击“加载模板”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-119">Click Load template.</span></span>
-    * <span data-ttu-id="ef3ae-120">此示例显示如何应用模板以选择预定义的配置。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="ef3ae-121">如果将此过程用作任务指南并希望查看可用的其他属性值，必须单击“解锁”按钮。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-121">If you're using this procedure as a task guide and want to see the other attribute values that are available, you must click the Unlock button.</span></span>  
-10. <span data-ttu-id="ef3ae-122">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-122">Click OK.</span></span>
-11. <span data-ttu-id="ef3ae-123">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-123">Click OK.</span></span>
-12. <span data-ttu-id="ef3ae-124">展开“行明细”部分。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-124">Expand the Line details section.</span></span>
-13. <span data-ttu-id="ef3ae-125">单击“产品”选项卡。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-125">Click the Product tab.</span></span>
-    * <span data-ttu-id="ef3ae-126">此物料的配置现在在产品维度下列出。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-126">The configuration of the item is now listed under the product dimensions.</span></span>  
-14. <span data-ttu-id="ef3ae-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="ef3ae-127">Close the page.</span></span>
-
-## <a name="select-the-product-configuration"></a><span data-ttu-id="ef3ae-128">选择产品配置</span><span class="sxs-lookup"><span data-stu-id="ef3ae-128">Select the product configuration</span></span>
-
+1. <span data-ttu-id="16826-108">转到 **销售和市场营销 \> 工作区 \> 销售订单处理和查询**。</span><span class="sxs-lookup"><span data-stu-id="16826-108">Go to **Sales and marketing \> Workspaces \> Sales order processing and inquiry**.</span></span>
+1. <span data-ttu-id="16826-109">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="16826-109">Select **New**.</span></span>
+1. <span data-ttu-id="16826-110">选择 **销售订单**。</span><span class="sxs-lookup"><span data-stu-id="16826-110">Select **Sales order**.</span></span>
+1. <span data-ttu-id="16826-111">在 **客户帐户** 字段中选择 *US-001*。</span><span class="sxs-lookup"><span data-stu-id="16826-111">In the **Customer account** field, select *US-001*.</span></span> 
+1. <span data-ttu-id="16826-112">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16826-112">Select **OK**.</span></span>
+1. <span data-ttu-id="16826-113">在 **物料编号** 字段中，选择 *D0006*。</span><span class="sxs-lookup"><span data-stu-id="16826-113">In the **Item number** field, select *D0006*.</span></span>
+    * <span data-ttu-id="16826-114">对于此任务，必须选择一个可配置产品。</span><span class="sxs-lookup"><span data-stu-id="16826-114">For this task, you must select a configurable product.</span></span>  
+1. <span data-ttu-id="16826-115">选择 **产品和供应**。</span><span class="sxs-lookup"><span data-stu-id="16826-115">Select **Product and supply**.</span></span>
+1. <span data-ttu-id="16826-116">选择 **配置行**。</span><span class="sxs-lookup"><span data-stu-id="16826-116">Select **Configure line**.</span></span>
+    * <span data-ttu-id="16826-117">请注意，已根据选择的配置更改了价格，并且 **含电缆** 字段现在已设置为 *True*。</span><span class="sxs-lookup"><span data-stu-id="16826-117">Note that the price has changed, based on the configuration that was selected, and that the **Include cable** field is now set to *True*.</span></span>  
+    * <span data-ttu-id="16826-118">记下为电缆选择的默认价格和设置。</span><span class="sxs-lookup"><span data-stu-id="16826-118">Note the default price and the settings that are selected for the cable.</span></span>  
+1. <span data-ttu-id="16826-119">选择 **负荷模板**。</span><span class="sxs-lookup"><span data-stu-id="16826-119">Select **Load template**.</span></span>
+    * <span data-ttu-id="16826-120">此示例显示如何应用模板以选择预定义的配置。</span><span class="sxs-lookup"><span data-stu-id="16826-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="16826-121">如果将此过程用作任务指南并希望查看可用的其他属性值，必须选择 **解锁** 按钮。</span><span class="sxs-lookup"><span data-stu-id="16826-121">If you're using this procedure as a task guide and want to see the other attribute values that are available, you must select the **Unlock** button.</span></span>  
+1. <span data-ttu-id="16826-122">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16826-122">Select **OK**.</span></span>
+1. <span data-ttu-id="16826-123">选择 **确定**。</span><span class="sxs-lookup"><span data-stu-id="16826-123">Select **OK**.</span></span>
+1. <span data-ttu-id="16826-124">展开 **行详细信息** 部分。</span><span class="sxs-lookup"><span data-stu-id="16826-124">Expand the **Line details** section.</span></span>
+1. <span data-ttu-id="16826-125">选择 **产品** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="16826-125">Select the **Product** tab.</span></span>
+    * <span data-ttu-id="16826-126">此物料的配置现在在产品维度下列出。</span><span class="sxs-lookup"><span data-stu-id="16826-126">The configuration of the item is now listed under the product dimensions.</span></span>  
+1. <span data-ttu-id="16826-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="16826-127">Close the page.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,12 +94,12 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19（2021 年 7 月）
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18（2021 年 5 月）
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17（2021 年 4 月）
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16（2021 年 2 月）
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: 主页中已删除或弃用的功能
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: 嵌入来自 Power Apps 的画布应用
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: 嵌入第三方应用
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: 更改会话的日期
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station 配置和安装
                   href: retail-hardware-station-configuration-installation.md
+                - name: 密封 Commerce 自助服务组件批量部署
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: 旧版自助服务组件批量部署
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce 组件的诊断和疑难解答事件
@@ -364,11 +368,11 @@
                   items:
                     - name: 在 MPOS 和 Cloud POS 之间选择
                       href: MPOS-or-CPOS.md
-                    - name: 联机和脱机 POS 操作
+                    - name: 在线和离线 POS 操作
                       href: pos-operations.md
                     - name: 自定义的 Modern POS 的设备激活
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: 为 POS 登录启用 Azure Active Directory 身份验证
+                    - name: 为 POS 登录配置 Azure Active Directory 身份验证
                       href: aad-pos-logon.md
                     - name: POS 中的产品和客户搜索
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: 装运折扣概览
                   href: retail-shipping-discount.md
+                - name: 为购买促销配置礼物
+                  href: gift-with-purchase.md
                 - name: 设置优惠券
                   href: retail-coupons.md
                 - name: 在 POS 中显示折扣
@@ -760,9 +766,11 @@
                   href: notifications-pos.md
                 - name: 销售连续性计划和处理销售订单
                   href: tasks/use-continuity-program.md
+                - name: 启用销售点 (POS) 中的客户签入通知
+                  href: enable-customer-check-in.md
             - name: 退货
               items:
-                - name: 链接的退款
+                - name: 关联退款
                   href: dev-itpro/linked-refunds.md
                 - name: 销售和退回未包含在商店的分类中的产品
                   href: sell-return-outside-assortments.md
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: 选择退出 Web 活动事件收集
                   href: web-activity-opt-out.md
+                - name: 应用度量单位设置
+                  href: unit-of-measure.md
             - name: 管理您的站点内容
               items:
                 - name: 添加内容的方法
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: 提货信息模块
                       href: pickup-info-module.md
+                    - name: 提货模块签入
+                      href: check-in-pickup-module.md
                     - name: 订单详细信息模块
                       href: order-confirmation-module.md
                     - name: 礼品卡模块
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 设置时效、频率和货币 (RFM) 分析
               href: set-up-rfm-analysis.md
+            - name: 在 Dynamics 365 Commerce 中设置 Microsoft Clarity
+              href: set-up-clarity.md
         - name: 全球化
           items:
             - name: Commerce 渠道的会计整合概览
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: 用于零售商店的用户定义的证书配置文件
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Regulatory Configuration Service 概览
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - 全球化功能
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: 奥地利
               items:
                 - name: 奥地利的会计登记服务集成示例
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: 模块 props.autogenerated.ts 文件
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: 模块配置预设
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: 开发模块
                   items:
                     - name: 新建模块
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: 将自定义按钮添加到 POS 标题栏
                   href: dev-itpro/pos-header-bar.md
+                - name: POS 独立包装 SDK
+                  items:
+                    - name: POS 扩展概述
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: 开始使用 POS 扩展
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: 创建 POS 扩展程序包项目
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: 创建 Modern POS 扩展 appx 文件
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: 调试 POS 扩展
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Hardware Station 可扩展性
               items:
                 - name: Hardware Station 和可扩展性

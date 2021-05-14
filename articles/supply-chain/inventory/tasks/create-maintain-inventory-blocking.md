@@ -1,8 +1,8 @@
 ---
 title: 创建和维护库存锁定
-description: 此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。
+description: 本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833993"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956150"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="4b5ea-103">创建和维护库存锁定</span><span class="sxs-lookup"><span data-stu-id="4b5ea-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="acf9d-103">创建和维护库存锁定</span><span class="sxs-lookup"><span data-stu-id="acf9d-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4b5ea-104">此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="4b5ea-105">您可以使用所示的示例值运行 USMF 公司演示数据的过程。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="4b5ea-106">在开始此过程前，需要有物料和可用的实际现有库存。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="acf9d-104">本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。</span><span class="sxs-lookup"><span data-stu-id="acf9d-104">This topic describes how to use an inventory blocking to prevent physical on-hand inventory from being reserved by other outbound source documents.</span></span> <span data-ttu-id="acf9d-105">在开始本主题中的过程之前，您必须有可以达到实际现有库存量的物料。</span><span class="sxs-lookup"><span data-stu-id="acf9d-105">Before you start the procedures in this topic, you must have an item that physical on-hand inventory is available for.</span></span>
 
+## <a name="block-inventory"></a><span data-ttu-id="acf9d-106">锁定库存</span><span class="sxs-lookup"><span data-stu-id="acf9d-106">Block inventory</span></span>
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="4b5ea-107">创建库存锁定</span><span class="sxs-lookup"><span data-stu-id="4b5ea-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="4b5ea-108">在 **导航窗格** 中，转到 **模块 > 库存管理 > 定期任务 > 库存锁定**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="4b5ea-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-109">Click **New**.</span></span>
-3. <span data-ttu-id="4b5ea-110">在 **物料编号** 字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="4b5ea-111">在列表中，选择您想选的物料。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="4b5ea-112">选择物料编号以及您想要锁定的实际现有库存。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="4b5ea-113">如果您使用 USMF，您可以选择物料 M9201。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="4b5ea-114">在 **数量** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="4b5ea-115">如果您使用物料 M9201，需要选择少于 200。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="4b5ea-116">展开 **库存维度** 快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="4b5ea-117">在 **仓库** 字段，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="4b5ea-118">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="4b5ea-119">如果您使用物料 M9201，您可以选择仓库 51。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="4b5ea-120">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-120">Click **Save**.</span></span>
+<span data-ttu-id="acf9d-107">要创建库存锁定记录以锁定库存，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acf9d-107">To create an inventory blocking record so that inventory is blocked, follow these steps.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="4b5ea-121">更新库存锁定的条件</span><span class="sxs-lookup"><span data-stu-id="4b5ea-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="4b5ea-122">在 **常规** 快速选项卡的 **数量** 字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="4b5ea-123">更新“库存数量”字段以反映锁定数量。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="4b5ea-124">在 **预期日期** 字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="4b5ea-125">您可能希望通过分配预期日期，指定锁定的库存什么时候可供使用。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="4b5ea-126">如果为库存锁定选择所需的收据选项，由于在您手动创建锁定时为默认显示，该日期将出现在预期事务中。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="4b5ea-127">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-127">Click **Save**.</span></span>
+1. <span data-ttu-id="acf9d-108">转到 **库存管理 \> 定期任务 \> 库存锁定**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-108">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="acf9d-109">在操作窗格上，选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-109">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="acf9d-110">在新锁定记录的标头上，将 **物料编号** 字段设置为要锁定的物料，然后输入描述。</span><span class="sxs-lookup"><span data-stu-id="acf9d-110">On the header of the new blocking record, set the **Item number** field to the item that you want to block, and enter a description.</span></span>
+1. <span data-ttu-id="acf9d-111">在 **常规** 快速选项卡上，在 **数量** 字段中，输入要锁定的物料数量。</span><span class="sxs-lookup"><span data-stu-id="acf9d-111">On the **General** FastTab, in the **Quantity** field, enter the number of items to block.</span></span>
+1. <span data-ttu-id="acf9d-112">在 **库存维度** 快速选项卡上，指定您要锁定的物料当前所在的站点和仓库。</span><span class="sxs-lookup"><span data-stu-id="acf9d-112">On the **Inventory dimensions** FastTab, specify the site and warehouse where the items that you want to block are currently located.</span></span>
+1. <span data-ttu-id="acf9d-113">在操作窗格上，选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-113">On the Action Pane, select **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="4b5ea-128">取消库存锁定</span><span class="sxs-lookup"><span data-stu-id="4b5ea-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="4b5ea-129">在 **操作窗格** 上，单击 **删除**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-129">On the **Action Pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="4b5ea-130">单击 **是**。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="4b5ea-131">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4b5ea-131">Close the page.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="acf9d-114">更新库存锁定的条件</span><span class="sxs-lookup"><span data-stu-id="acf9d-114">Update the conditions of the inventory blocking</span></span>
 
+<span data-ttu-id="acf9d-115">要更新库存锁定记录，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acf9d-115">To update an inventory blocking record, follow these steps.</span></span>
 
+1. <span data-ttu-id="acf9d-116">转到 **库存管理 \> 定期任务 \> 库存锁定**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-116">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="acf9d-117">在列表窗格中，选择相关的锁定记录。</span><span class="sxs-lookup"><span data-stu-id="acf9d-117">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="acf9d-118">根据需要编辑记录。</span><span class="sxs-lookup"><span data-stu-id="acf9d-118">Edit the record as required.</span></span> <span data-ttu-id="acf9d-119">例如，您可以更改 **预期日期** 字段的值，来指示被锁定的库存预计在何时可以预留。</span><span class="sxs-lookup"><span data-stu-id="acf9d-119">For example, you might change the value of the **Expected date** field to indicate when the blocked inventory is expected to become available for reservation.</span></span> <span data-ttu-id="acf9d-120">如果选择了 **预期收货** 选项，此日期将出现在预期交易中。</span><span class="sxs-lookup"><span data-stu-id="acf9d-120">If the **Expected receipts** option is selected, the date will appear on the expected transaction.</span></span> <span data-ttu-id="acf9d-121">（**预期收货** 选项在您手动创建锁定记录时默认选择。）</span><span class="sxs-lookup"><span data-stu-id="acf9d-121">(The **Expected receipts** option is selected by default when you manually create a blocking record.)</span></span>
+1. <span data-ttu-id="acf9d-122">在操作窗格上，选择 **保存**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-122">On the Action Pane, select **Save**.</span></span>
+
+## <a name="unblock-inventory"></a><span data-ttu-id="acf9d-123">解锁库存</span><span class="sxs-lookup"><span data-stu-id="acf9d-123">Unblock inventory</span></span>
+
+<span data-ttu-id="acf9d-124">要删除库存锁定记录以解锁库存，请按照下列步骤操作。</span><span class="sxs-lookup"><span data-stu-id="acf9d-124">To remove an inventory blocking record so that inventory is unblocked, follow these steps.</span></span>
+
+1. <span data-ttu-id="acf9d-125">转到 **库存管理 \> 定期任务 \> 库存锁定**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-125">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="acf9d-126">在列表窗格中，选择相关的锁定记录。</span><span class="sxs-lookup"><span data-stu-id="acf9d-126">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="acf9d-127">在操作窗格上，选择 **删除**。</span><span class="sxs-lookup"><span data-stu-id="acf9d-127">On the Action Pane, select **Delete**.</span></span>
+1. <span data-ttu-id="acf9d-128">系统将提示您确认操作。</span><span class="sxs-lookup"><span data-stu-id="acf9d-128">You're prompted to confirm the operation.</span></span> <span data-ttu-id="acf9d-129">选择 **是** 继续。</span><span class="sxs-lookup"><span data-stu-id="acf9d-129">Select **Yes** to continue.</span></span>
+1. <span data-ttu-id="acf9d-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="acf9d-130">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

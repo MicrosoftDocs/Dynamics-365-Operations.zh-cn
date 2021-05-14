@@ -15,37 +15,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 412a1f8d6aac597476fb2043caa72731e0437905
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750502"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923333"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="1edf2-103">Finance and Operations 应用中的新增功能或更改的功能主页</span><span class="sxs-lookup"><span data-stu-id="1edf2-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="ff2b3-103">Finance and Operations 应用中的新增功能或更改的功能主页</span><span class="sxs-lookup"><span data-stu-id="ff2b3-103">What's new or changed in Finance and Operations apps home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="application-releases"></a><span data-ttu-id="1edf2-104">应用程序发布</span><span class="sxs-lookup"><span data-stu-id="1edf2-104">Application releases</span></span>
+## <a name="application-releases"></a><span data-ttu-id="ff2b3-104">应用程序发布</span><span class="sxs-lookup"><span data-stu-id="ff2b3-104">Application releases</span></span>
 
-<span data-ttu-id="1edf2-105">要查看每个版本的 Finance and Operations 应用中的新增功能或更改的功能，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="1edf2-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+<span data-ttu-id="ff2b3-105">要查看每个版本的 Finance and Operations 应用中的新增功能或更改的功能，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="ff2b3-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-- <span data-ttu-id="1edf2-106">**Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="1edf2-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="1edf2-107">**Supply Chain Management：** [Dynamics 365 Supply Chain Management 中的新增功能或更改的功能](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="1edf2-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="1edf2-108">**Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="1edf2-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="1edf2-109">**Human Resources：**[Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="1edf2-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+- <span data-ttu-id="ff2b3-106">**Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ff2b3-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="ff2b3-107">**Supply Chain Management：** [Dynamics 365 Supply Chain Management 中的新增功能或更改的功能](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ff2b3-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="ff2b3-108">**Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../commerce/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ff2b3-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="ff2b3-109">**Human Resources：**[Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="ff2b3-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="1edf2-110">平台更新 </span><span class="sxs-lookup"><span data-stu-id="1edf2-110">Platform updates</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="ff2b3-110">平台更新 </span><span class="sxs-lookup"><span data-stu-id="ff2b3-110">Platform updates</span></span>
 
-<span data-ttu-id="1edf2-111">要查看 Finance and Operations 应用的平台更新中的新增功能或更改的功能，请参见以下主题：</span><span class="sxs-lookup"><span data-stu-id="1edf2-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+<span data-ttu-id="ff2b3-111">要查看 Finance and Operations 应用的平台更新中的新增功能或更改的功能，请参见以下主题：</span><span class="sxs-lookup"><span data-stu-id="ff2b3-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-- [<span data-ttu-id="1edf2-112">Platform update 新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="1edf2-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+- [<span data-ttu-id="ff2b3-112">Platform update 新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="ff2b3-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="1edf2-113">Lifecycle Services 版本</span><span class="sxs-lookup"><span data-stu-id="1edf2-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="1edf2-114">要查看 Lifecycle Services 中的新增功能或更改的功能，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="1edf2-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="ff2b3-113">Lifecycle Services 版本</span><span class="sxs-lookup"><span data-stu-id="ff2b3-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="ff2b3-114">要查看 Lifecycle Services 中的新增功能或更改的功能，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="ff2b3-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-- [<span data-ttu-id="1edf2-115">Lifecycle Services (LCS) 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="1edf2-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="ff2b3-115">Lifecycle Services (LCS) 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="ff2b3-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
 

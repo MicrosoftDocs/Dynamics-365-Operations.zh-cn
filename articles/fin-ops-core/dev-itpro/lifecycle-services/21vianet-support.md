@@ -1,6 +1,6 @@
 ---
-title: 对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
-description: Finance and Operations 应用通过21Vianet提供大量自助服务支持选项和支持。
+title: 对中国世纪互联运营的 Finance and Operations 的支持
+description: Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
 author: ShylaThompson
 ms.date: 10/02/2019
 ms.topic: article
@@ -12,84 +12,84 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6a366188c8c39fc61b2ed7f5ba47a2ce5feb4b7d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2a075f1c01e086e6767bc7b3554bd832a7446794
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745291"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921481"
 ---
-# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a><span data-ttu-id="66388-103">对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持</span><span class="sxs-lookup"><span data-stu-id="66388-103">Support for Finance and Operations operated by 21Vianet in China</span></span>
+# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a><span data-ttu-id="619ed-103">对中国世纪互联运营的 Finance and Operations 的支持</span><span class="sxs-lookup"><span data-stu-id="619ed-103">Support for Finance and Operations operated by 21Vianet in China</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="66388-104">Finance and Operations 应用通过21Vianet提供大量自助服务支持选项和支持。</span><span class="sxs-lookup"><span data-stu-id="66388-104">Finance and Operations apps provides many self-service support options and support through 21Vianet.</span></span>
+<span data-ttu-id="619ed-104">Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。</span><span class="sxs-lookup"><span data-stu-id="619ed-104">Finance and Operations apps provides many self-service support options and support through 21Vianet.</span></span>
 
-## <a name="self-help-resources"></a><span data-ttu-id="66388-105">自助资源</span><span class="sxs-lookup"><span data-stu-id="66388-105">Self-help resources</span></span>
-
-
-- [<span data-ttu-id="66388-106">Finance and Operations 应用程序文档</span><span class="sxs-lookup"><span data-stu-id="66388-106">Finance and Operations application documentation</span></span>](../../fin-ops/index.md)
-- [<span data-ttu-id="66388-107">Supply Chain Management 的帮助资源</span><span class="sxs-lookup"><span data-stu-id="66388-107">Help resources for Supply Chain Management</span></span>](../../../supply-chain/index.md)
-- [<span data-ttu-id="66388-108">Finance and Operations 应用 - 由21Vianet在中国运营</span><span class="sxs-lookup"><span data-stu-id="66388-108">Finance and Operations apps - operated by 21Vianet in China</span></span>](../deployment/china-local-deployment.md)
-- [<span data-ttu-id="66388-109">Dynamics 社区</span><span class="sxs-lookup"><span data-stu-id="66388-109">Dynamics community</span></span>](https://community.dynamics.com/)
-- [<span data-ttu-id="66388-110">Microsoft Learn</span><span class="sxs-lookup"><span data-stu-id="66388-110">Microsoft Learn</span></span>](https://docs.microsoft.com/learn/)
-
-## <a name="assisted-support"></a><span data-ttu-id="66388-111">协助式支持</span><span class="sxs-lookup"><span data-stu-id="66388-111">Assisted support</span></span>
-
-- [<span data-ttu-id="66388-112">开立支持请求</span><span class="sxs-lookup"><span data-stu-id="66388-112">Open a support request</span></span>](https://lcs.dynamics.cn/)
-
-### <a name="presales-support"></a><span data-ttu-id="66388-113">售前支持</span><span class="sxs-lookup"><span data-stu-id="66388-113">Presales support</span></span>
-
-<span data-ttu-id="66388-114">售前支持电话号码：+86 400-886-6134</span><span class="sxs-lookup"><span data-stu-id="66388-114">Pre-sales support phone number: +86 400-886-6134</span></span>
-
-<span data-ttu-id="66388-115">售前支持提供有关预订功能与权益、套餐比较、定价和许可的协助，并帮助确定可满足您的企业需要的适合解决方案。</span><span class="sxs-lookup"><span data-stu-id="66388-115">Pre-sales support provides assistance on subscription features and benefits, plan comparisons, pricing and licensing, and helps to identify the right solution to meet your business needs.</span></span> <span data-ttu-id="66388-116">此外，售前支持还可以帮助您找到合作伙伴和购买及注册试用。</span><span class="sxs-lookup"><span data-stu-id="66388-116">In addition, pre-sales support can help you find a Partner, and purchase and sign up for a trial.</span></span> <span data-ttu-id="66388-117">您可以在周一到周五的当地营业时间致电。</span><span class="sxs-lookup"><span data-stu-id="66388-117">You can call during local business hours, Monday through Friday.</span></span> 
-
-### <a name="billing-and-subscription-management-support-through-21vianet"></a><span data-ttu-id="66388-118">21Vianet 提供的计费和订阅管理支持</span><span class="sxs-lookup"><span data-stu-id="66388-118">Billing and subscription management support through 21Vianet</span></span>
-
-<span data-ttu-id="66388-119">计费和订阅支持电话号码：+86 400-089-0365。</span><span class="sxs-lookup"><span data-stu-id="66388-119">Billing and subscription support telephone number: +86 400-089-0365.</span></span>
-
-<span data-ttu-id="66388-120">有关计费和订阅管理问题的帮助可在线上获取，也可以在中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00 通过致电获取。</span><span class="sxs-lookup"><span data-stu-id="66388-120">Assistance for billing and subscription management issues is available online or by telephone Monday through Friday during local business hours 9:00 to 18:00 China Standard Time (CST).</span></span> <span data-ttu-id="66388-121">可通过与技术支持相同的电话号码和在线服务申请流程访问计费和订阅管理报表。</span><span class="sxs-lookup"><span data-stu-id="66388-121">Billing and subscription management support can be accessed using the same phone number and online service request process as with technical support.</span></span>
-
-<span data-ttu-id="66388-122">下面是一些计费和订阅管理问题的示例：</span><span class="sxs-lookup"><span data-stu-id="66388-122">Here are some examples of billing and subscription management issues:</span></span>
-
-- <span data-ttu-id="66388-123">注册试用或购买订阅。</span><span class="sxs-lookup"><span data-stu-id="66388-123">Signing up for a trial or purchasing a subscription.</span></span>
-- <span data-ttu-id="66388-124">从试用订阅转换为付费订阅。</span><span class="sxs-lookup"><span data-stu-id="66388-124">Converting from a trial subscription to a paid subscription.</span></span>
-- <span data-ttu-id="66388-125">了解帐单。</span><span class="sxs-lookup"><span data-stu-id="66388-125">Understanding the bill.</span></span>
-- <span data-ttu-id="66388-126">续订订阅。</span><span class="sxs-lookup"><span data-stu-id="66388-126">Renewing a subscription.</span></span>
-- <span data-ttu-id="66388-127">添加或删除许可证。</span><span class="sxs-lookup"><span data-stu-id="66388-127">Adding or removing licenses.</span></span>
-- <span data-ttu-id="66388-128">取消付费预订。</span><span class="sxs-lookup"><span data-stu-id="66388-128">Canceling a paid subscription.</span></span>
+## <a name="self-help-resources"></a><span data-ttu-id="619ed-105">自助资源</span><span class="sxs-lookup"><span data-stu-id="619ed-105">Self-help resources</span></span>
 
 
-### <a name="assisted-technical-support-through-21vianet"></a><span data-ttu-id="66388-129">21Vianet提供的协助式技术支持</span><span class="sxs-lookup"><span data-stu-id="66388-129">Assisted Technical support through 21Vianet</span></span>
+- [<span data-ttu-id="619ed-106">Finance and Operations 应用程序文档</span><span class="sxs-lookup"><span data-stu-id="619ed-106">Finance and Operations application documentation</span></span>](../../fin-ops/index.md)
+- [<span data-ttu-id="619ed-107">Supply Chain Management 的帮助资源</span><span class="sxs-lookup"><span data-stu-id="619ed-107">Help resources for Supply Chain Management</span></span>](../../../supply-chain/index.md)
+- [<span data-ttu-id="619ed-108">Finance and Operations 应用 - 由世纪互联在中国运营</span><span class="sxs-lookup"><span data-stu-id="619ed-108">Finance and Operations apps - operated by 21Vianet in China</span></span>](../deployment/china-local-deployment.md)
+- [<span data-ttu-id="619ed-109">Dynamics 社区</span><span class="sxs-lookup"><span data-stu-id="619ed-109">Dynamics community</span></span>](https://community.dynamics.com/)
+- [<span data-ttu-id="619ed-110">Microsoft Learn</span><span class="sxs-lookup"><span data-stu-id="619ed-110">Microsoft Learn</span></span>](/learn/)
 
-<span data-ttu-id="66388-130">如果部署遇到技术问题，请通过 [LCS 门户](https://lcs.dynamics.cn/)或致电支持电话 +86 400-089-0365 向21Vianet报告。</span><span class="sxs-lookup"><span data-stu-id="66388-130">When you experience a technical issue with your deployment, report it to 21Vianet through the [LCS portal](https://lcs.dynamics.cn/) or by calling the support number at +86 400-089-0365.</span></span>  <span data-ttu-id="66388-131">运营的技术支持工作时间为中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00。</span><span class="sxs-lookup"><span data-stu-id="66388-131">Technical support hours of operations are Monday through Friday during local business hours 9:00 to 18:00 China Standard Time (CST).</span></span>
+## <a name="assisted-support"></a><span data-ttu-id="619ed-111">协助式支持</span><span class="sxs-lookup"><span data-stu-id="619ed-111">Assisted support</span></span>
 
-<span data-ttu-id="66388-132">支持请求 (SR) 会在数小时内处理，具体取决于对您的业务的影响严重性：</span><span class="sxs-lookup"><span data-stu-id="66388-132">A support request (SR) is handled within hours, depending on the severity of its impact to your business:</span></span>
+- [<span data-ttu-id="619ed-112">开立支持请求</span><span class="sxs-lookup"><span data-stu-id="619ed-112">Open a support request</span></span>](https://lcs.dynamics.cn/)
 
-- <span data-ttu-id="66388-133">**严重影响业务** - 您将在 1 小时或更短时间内收到初始响应，而支持代表将全天持续工作，直到问题解决。</span><span class="sxs-lookup"><span data-stu-id="66388-133">**Critical business impact** - You will receive an initial response within 1 hour or less, and a support representative will work continuously, all day, until the problem is resolved.</span></span> <span data-ttu-id="66388-134">您需要分配适当的资源来处理请求，直到问题解决，并向处理您的案例的支持人员提供精确的联系信息。</span><span class="sxs-lookup"><span data-stu-id="66388-134">You will be expected to allocate appropriate resources to work on the request until the problem is resolved and provide accurate contact information to the support personnel handling your case.</span></span>
-- <span data-ttu-id="66388-135">**对业务影响不严重** - 您将在 8 小时或更短时间内收到初始响应。</span><span class="sxs-lookup"><span data-stu-id="66388-135">**Non-critical business impact** - You will receive an initial response within 8 hours or less.</span></span> <span data-ttu-id="66388-136">您需要向处理您的案例的支持人员提供精确的联系信息。</span><span class="sxs-lookup"><span data-stu-id="66388-136">You will be expected to provide accurate contact information to the support personnel handling your case.</span></span>
+### <a name="presales-support"></a><span data-ttu-id="619ed-113">售前支持</span><span class="sxs-lookup"><span data-stu-id="619ed-113">Presales support</span></span>
+
+<span data-ttu-id="619ed-114">售前支持电话号码：+86 400-886-6134</span><span class="sxs-lookup"><span data-stu-id="619ed-114">Pre-sales support phone number: +86 400-886-6134</span></span>
+
+<span data-ttu-id="619ed-115">售前支持提供有关预订功能与权益、套餐比较、定价和许可的协助，并帮助确定可满足您的企业需要的适合解决方案。</span><span class="sxs-lookup"><span data-stu-id="619ed-115">Pre-sales support provides assistance on subscription features and benefits, plan comparisons, pricing and licensing, and helps to identify the right solution to meet your business needs.</span></span> <span data-ttu-id="619ed-116">此外，售前支持还可以帮助您找到合作伙伴和购买及注册试用。</span><span class="sxs-lookup"><span data-stu-id="619ed-116">In addition, pre-sales support can help you find a Partner, and purchase and sign up for a trial.</span></span> <span data-ttu-id="619ed-117">您可以在周一到周五的当地营业时间致电。</span><span class="sxs-lookup"><span data-stu-id="619ed-117">You can call during local business hours, Monday through Friday.</span></span> 
+
+### <a name="billing-and-subscription-management-support-through-21vianet"></a><span data-ttu-id="619ed-118">世纪互联提供的计费和订阅管理支持</span><span class="sxs-lookup"><span data-stu-id="619ed-118">Billing and subscription management support through 21Vianet</span></span>
+
+<span data-ttu-id="619ed-119">计费和订阅支持电话号码：+86 400-089-0365。</span><span class="sxs-lookup"><span data-stu-id="619ed-119">Billing and subscription support telephone number: +86 400-089-0365.</span></span>
+
+<span data-ttu-id="619ed-120">有关计费和订阅管理问题的帮助可在线上获取，也可以在中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00 通过致电获取。</span><span class="sxs-lookup"><span data-stu-id="619ed-120">Assistance for billing and subscription management issues is available online or by telephone Monday through Friday during local business hours 9:00 to 18:00 China Standard Time (CST).</span></span> <span data-ttu-id="619ed-121">可通过与技术支持相同的电话号码和在线服务申请流程访问计费和订阅管理报表。</span><span class="sxs-lookup"><span data-stu-id="619ed-121">Billing and subscription management support can be accessed using the same phone number and online service request process as with technical support.</span></span>
+
+<span data-ttu-id="619ed-122">下面是一些计费和订阅管理问题的示例：</span><span class="sxs-lookup"><span data-stu-id="619ed-122">Here are some examples of billing and subscription management issues:</span></span>
+
+- <span data-ttu-id="619ed-123">注册试用或购买订阅。</span><span class="sxs-lookup"><span data-stu-id="619ed-123">Signing up for a trial or purchasing a subscription.</span></span>
+- <span data-ttu-id="619ed-124">从试用订阅转换为付费订阅。</span><span class="sxs-lookup"><span data-stu-id="619ed-124">Converting from a trial subscription to a paid subscription.</span></span>
+- <span data-ttu-id="619ed-125">了解帐单。</span><span class="sxs-lookup"><span data-stu-id="619ed-125">Understanding the bill.</span></span>
+- <span data-ttu-id="619ed-126">续订订阅。</span><span class="sxs-lookup"><span data-stu-id="619ed-126">Renewing a subscription.</span></span>
+- <span data-ttu-id="619ed-127">添加或删除许可证。</span><span class="sxs-lookup"><span data-stu-id="619ed-127">Adding or removing licenses.</span></span>
+- <span data-ttu-id="619ed-128">取消付费预订。</span><span class="sxs-lookup"><span data-stu-id="619ed-128">Canceling a paid subscription.</span></span>
 
 
-### <a name="get-premier-support"></a><span data-ttu-id="66388-137">获取顶级支持</span><span class="sxs-lookup"><span data-stu-id="66388-137">Get Premier support</span></span>
-<span data-ttu-id="66388-138">如果您运行任务关键型解决方案，顶级支持将提供附加价值：</span><span class="sxs-lookup"><span data-stu-id="66388-138">If you run mission-critical solutions, Premier support offers additional value:</span></span>
+### <a name="assisted-technical-support-through-21vianet"></a><span data-ttu-id="619ed-129">世纪互联的协助式技术支持</span><span class="sxs-lookup"><span data-stu-id="619ed-129">Assisted Technical support through 21Vianet</span></span>
 
-- <span data-ttu-id="66388-139">精心设计且卓有声誉的顾问服务可以最大化您的 Dynamics 365 投入。</span><span class="sxs-lookup"><span data-stu-id="66388-139">Proven advisory services designed to maximize your Dynamics 365 investment.</span></span>
-- <span data-ttu-id="66388-140">指定的服务交付经理将致力于改善您的 Dynamics 365 体验。</span><span class="sxs-lookup"><span data-stu-id="66388-140">A designated service delivery manager committed to improving your Dynamics 365 experience.</span></span>
-- <span data-ttu-id="66388-141">最高优先级的响应式支持将帮助确保服务不中断。</span><span class="sxs-lookup"><span data-stu-id="66388-141">Top priority reactive support to help ensure service continuity.</span></span>
+<span data-ttu-id="619ed-130">如果部署遇到技术问题，请通过 [LCS 门户](https://lcs.dynamics.cn/)或致电支持电话 +86 400-089-0365 向世纪互联报告。</span><span class="sxs-lookup"><span data-stu-id="619ed-130">When you experience a technical issue with your deployment, report it to 21Vianet through the [LCS portal](https://lcs.dynamics.cn/) or by calling the support number at +86 400-089-0365.</span></span>  <span data-ttu-id="619ed-131">运营的技术支持工作时间为中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00。</span><span class="sxs-lookup"><span data-stu-id="619ed-131">Technical support hours of operations are Monday through Friday during local business hours 9:00 to 18:00 China Standard Time (CST).</span></span>
 
-<span data-ttu-id="66388-142">有关购买顶级支持的详细信息，请联系您的 Microsoft 客户团队。</span><span class="sxs-lookup"><span data-stu-id="66388-142">For details about purchasing Premier support, contact your Microsoft Account team.</span></span> <span data-ttu-id="66388-143">如果您有顶级支持套餐，可通过[我的在线顶级支持](https://support.microsoft.com/premier)联系支持。</span><span class="sxs-lookup"><span data-stu-id="66388-143">If you have a Premier support plan you can contact support via [My Premier Online](https://support.microsoft.com/premier).</span></span> 
+<span data-ttu-id="619ed-132">支持请求 (SR) 会在数小时内处理，具体取决于对您的业务的影响严重性：</span><span class="sxs-lookup"><span data-stu-id="619ed-132">A support request (SR) is handled within hours, depending on the severity of its impact to your business:</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="66388-144">其他资源</span><span class="sxs-lookup"><span data-stu-id="66388-144">Additional resources</span></span>
-- [<span data-ttu-id="66388-145">由21Vianet运营的 Dynamics 365 支持网站（中文）</span><span class="sxs-lookup"><span data-stu-id="66388-145">Dynamics 365 support site for 21Vianet (Chinese)</span></span>](https://www.21vbluecloud.com/Dynamics365/)
-- [<span data-ttu-id="66388-146">Finance and Operations 应用 - 由21Vianet在中国运营</span><span class="sxs-lookup"><span data-stu-id="66388-146">Finance and Operations apps - operated by 21Vianet in China</span></span>](../deployment/china-local-deployment.md)
-- [<span data-ttu-id="66388-147">Dynamics 365 中的模型驱动应用 - 由21Vianet在中国运营</span><span class="sxs-lookup"><span data-stu-id="66388-147">Model-driven apps in Dynamics 365 - operated by 21Vianet in China</span></span>](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
-- [<span data-ttu-id="66388-148">Dynamics 365 隐私声明 (Dynamics 365 隐私声明)</span><span class="sxs-lookup"><span data-stu-id="66388-148">Dynamics 365 Privacy statement (Dynamics 365 隐私声明)</span></span>](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
-- [<span data-ttu-id="66388-149">Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)</span><span class="sxs-lookup"><span data-stu-id="66388-149">Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)</span></span>](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
-- [<span data-ttu-id="66388-150">Dynamics 365 法律信息 (Dynamics 365 法律信息)</span><span class="sxs-lookup"><span data-stu-id="66388-150">Dynamics 365  Legal information (Dynamics 365 法律信息)</span></span>](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
-- [<span data-ttu-id="66388-151">Dynamics 365 Lifecycle Services 的服务条款</span><span class="sxs-lookup"><span data-stu-id="66388-151">Service terms for Dynamics 365 Lifecycle Services</span></span>](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
-- [<span data-ttu-id="66388-152">OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)</span><span class="sxs-lookup"><span data-stu-id="66388-152">OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)</span></span>](https://www.21vbluecloud.com/ostpt/)
-- [<span data-ttu-id="66388-153">Azure 文档（中文）</span><span class="sxs-lookup"><span data-stu-id="66388-153">Azure Docs (in Chinese)</span></span>](https://docs.azure.cn/zh-cn/)
-- [<span data-ttu-id="66388-154">中国区 Azure 21Vianet</span><span class="sxs-lookup"><span data-stu-id="66388-154">Azure China 21Vianet</span></span>](https://docs.microsoft.com/azure/china/china-welcome)
+- <span data-ttu-id="619ed-133">**严重影响业务** - 您将在 1 小时或更短时间内收到初始响应，而支持代表将全天持续工作，直到问题解决。</span><span class="sxs-lookup"><span data-stu-id="619ed-133">**Critical business impact** - You will receive an initial response within 1 hour or less, and a support representative will work continuously, all day, until the problem is resolved.</span></span> <span data-ttu-id="619ed-134">您需要分配适当的资源来处理请求，直到问题解决，并向处理您的案例的支持人员提供精确的联系信息。</span><span class="sxs-lookup"><span data-stu-id="619ed-134">You will be expected to allocate appropriate resources to work on the request until the problem is resolved and provide accurate contact information to the support personnel handling your case.</span></span>
+- <span data-ttu-id="619ed-135">**对业务影响不严重** - 您将在 8 小时或更短时间内收到初始响应。</span><span class="sxs-lookup"><span data-stu-id="619ed-135">**Non-critical business impact** - You will receive an initial response within 8 hours or less.</span></span> <span data-ttu-id="619ed-136">您需要向处理您的案例的支持人员提供精确的联系信息。</span><span class="sxs-lookup"><span data-stu-id="619ed-136">You will be expected to provide accurate contact information to the support personnel handling your case.</span></span>
+
+
+### <a name="get-premier-support"></a><span data-ttu-id="619ed-137">获取顶级支持</span><span class="sxs-lookup"><span data-stu-id="619ed-137">Get Premier support</span></span>
+<span data-ttu-id="619ed-138">如果您运行任务关键型解决方案，顶级支持将提供附加价值：</span><span class="sxs-lookup"><span data-stu-id="619ed-138">If you run mission-critical solutions, Premier support offers additional value:</span></span>
+
+- <span data-ttu-id="619ed-139">精心设计且卓有声誉的顾问服务可以最大化您的 Dynamics 365 投入。</span><span class="sxs-lookup"><span data-stu-id="619ed-139">Proven advisory services designed to maximize your Dynamics 365 investment.</span></span>
+- <span data-ttu-id="619ed-140">指定的服务交付经理将致力于改善您的 Dynamics 365 体验。</span><span class="sxs-lookup"><span data-stu-id="619ed-140">A designated service delivery manager committed to improving your Dynamics 365 experience.</span></span>
+- <span data-ttu-id="619ed-141">最高优先级的响应式支持将帮助确保服务不中断。</span><span class="sxs-lookup"><span data-stu-id="619ed-141">Top priority reactive support to help ensure service continuity.</span></span>
+
+<span data-ttu-id="619ed-142">有关购买顶级支持的详细信息，请联系您的 Microsoft 客户团队。</span><span class="sxs-lookup"><span data-stu-id="619ed-142">For details about purchasing Premier support, contact your Microsoft Account team.</span></span> <span data-ttu-id="619ed-143">如果您有顶级支持套餐，可通过[我的在线顶级支持](https://support.microsoft.com/premier)联系支持。</span><span class="sxs-lookup"><span data-stu-id="619ed-143">If you have a Premier support plan you can contact support via [My Premier Online](https://support.microsoft.com/premier).</span></span> 
+
+## <a name="additional-resources"></a><span data-ttu-id="619ed-144">其他资源</span><span class="sxs-lookup"><span data-stu-id="619ed-144">Additional resources</span></span>
+- [<span data-ttu-id="619ed-145">由世纪互联运营的 Dynamics 365 支持网站（中文）</span><span class="sxs-lookup"><span data-stu-id="619ed-145">Dynamics 365 support site for 21Vianet (Chinese)</span></span>](https://www.21vbluecloud.com/Dynamics365/)
+- [<span data-ttu-id="619ed-146">Finance and Operations 应用 - 由世纪互联在中国运营</span><span class="sxs-lookup"><span data-stu-id="619ed-146">Finance and Operations apps - operated by 21Vianet in China</span></span>](../deployment/china-local-deployment.md)
+- [<span data-ttu-id="619ed-147">Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营</span><span class="sxs-lookup"><span data-stu-id="619ed-147">Model-driven apps in Dynamics 365 - operated by 21Vianet in China</span></span>](/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
+- [<span data-ttu-id="619ed-148">Dynamics 365 隐私声明 (Dynamics 365 隐私声明)</span><span class="sxs-lookup"><span data-stu-id="619ed-148">Dynamics 365 Privacy statement (Dynamics 365 隐私声明)</span></span>](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
+- [<span data-ttu-id="619ed-149">Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)</span><span class="sxs-lookup"><span data-stu-id="619ed-149">Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)</span></span>](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
+- [<span data-ttu-id="619ed-150">Dynamics 365 法律信息 (Dynamics 365 法律信息)</span><span class="sxs-lookup"><span data-stu-id="619ed-150">Dynamics 365  Legal information (Dynamics 365 法律信息)</span></span>](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
+- [<span data-ttu-id="619ed-151">Dynamics 365 Lifecycle Services 的服务条款</span><span class="sxs-lookup"><span data-stu-id="619ed-151">Service terms for Dynamics 365 Lifecycle Services</span></span>](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
+- [<span data-ttu-id="619ed-152">OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)</span><span class="sxs-lookup"><span data-stu-id="619ed-152">OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)</span></span>](https://www.21vbluecloud.com/ostpt/)
+- [<span data-ttu-id="619ed-153">Azure 文档（中文）</span><span class="sxs-lookup"><span data-stu-id="619ed-153">Azure Docs (in Chinese)</span></span>](https://docs.azure.cn/zh-cn/)
+- [<span data-ttu-id="619ed-154">中国区 Azure 世纪互联</span><span class="sxs-lookup"><span data-stu-id="619ed-154">Azure China 21Vianet</span></span>](/azure/china/china-welcome)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

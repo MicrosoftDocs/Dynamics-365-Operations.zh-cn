@@ -72,6 +72,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.19（2021 年 7 月）
+                      href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18（2021 年 5 月）
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17（2021 年 4 月）
@@ -162,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: 嵌入来自 Power Apps 的画布应用
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: 嵌入第三方应用
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: 使用查询来查找信息
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: 更改会话的日期
@@ -683,45 +687,45 @@
         - name: 费用管理
           items:
             - name: 费用管理概览
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: 已重构的费用报表
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: 规划费用管理
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: 费用管理参数
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: 费用管理移动工作区
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: 设置费用管理的工作流
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: 出差费用管理工作流
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: 管理费用委托
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: 支出收据处理
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: 导入和维护信用卡交易记录
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: 费用报表上的分配
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: 内部公司支出
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: 制定支出策略
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: 查看支出报表
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: 发布支出报表
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: 支出报表和多个审核人
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: 支出管理中的增值税退税
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: 出差津贴规则
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: 出差申请
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: 支出报表上的人员支出
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: 固定资产
           items:
             - name: 固定资产主页
@@ -1104,6 +1108,20 @@
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: 按代码报告打印销售税付款
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: 销售税疑难解答
+                  items:
+                    - name: 未计算税款或税额为零
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: 税收计算绩效会影响交易记录
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: TaxTrans 中的字段值不正确
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: 未生成 TaxTrans 记录
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: 税款过帐到了凭证中的错误会计科目
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: 未生成凭证
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: 预缴税金
               items:
                 - name: 设置预缴税金
@@ -1215,85 +1233,85 @@
         - name: 项目管理与核算
           items:
             - name: 项目管理与核算概览
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: 内部公司开单
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: 配置内部公司项目开单
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: 配置人工和支出的标准成本
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: 创建并应用供应商付款保留条款
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: 设置并使用被付后支付的供应商付款
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: 采购收据上的项目成本应计
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: 项目开单
               href: accounts-payable/project-invoicing.md
             - name: 项目合同
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: 根据进度创建高级计费合同
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: 项目预测和预算
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: 创建项目预算的预测模型
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: 在会计年度末转移项目预算
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: 项目销售订单
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: 项目采购订单
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: 项目报价单
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: 确认、更新并发送项目报价单
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: 将报价单转移到项目
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: 项目资源
               items:
                 - name: 项目资源概览
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: 设置项目资源
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: 管理资源能力
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: 创建新项目
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: 设置基于角色的定价
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: 创建项目团队
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: 同步资源产能
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: 项目资源计划编制性能
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: 在工作分解结构模板上设置角色
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: 计划资源的资源完成
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: 根据物料需求接收采购订单上的物料
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: 工作分解结构
               items:
                 - name: 工作分解结构概览
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: Microsoft Project Client 集成
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: Project 移动应用程序概览
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: 项目时间条目移动工作区
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: Project Timesheet 移动应用程序
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: 移动设备上的项目工时单
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: 为 Project Timesheet 移动应用实施自定义字段
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: 项目授权
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: 清除项目评估
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: 公共部门
           items:
             - name: 公共部门主页
@@ -1419,61 +1437,61 @@
             - name: 全球化服务
               items:
                 - name: 全球化服务概览
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: Regulatory Configuration Service 概览
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Service - 全球化功能
-                      href: localizations/rcs-globalization-feature.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: 电子开票
                   items:
                     - name: 电子开票概览
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: 电子开票管理组件
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: 在 Regulatory Configuration Services (RCS) 中配置电子开票
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: 在 Finance 和 Supply Chain Management 中签发电子发票
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: 创建 Azure 存储帐户和密钥保管库
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: 开始使用
                       items:
                         - name: 开始使用电子开票服务管理
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用电子开票
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用适用于巴西的电子开票
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用适用于埃及的电子开票
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用适用于意大利的电子开票
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用适用于墨西哥的电子开票
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 设置电子开票
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: 电子开票常见问题
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 税款计算
                   items:
                     - name: 税款计算概览
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: 开始使用税款计算
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: 转移单的税务功能支持
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: 在税务配置中添加数据字段
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 使用扩展在税务集成中添加数据字段
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: 多个增值税登记编号
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: 设置用于主数据查询的环境
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
             - name: 监管更新
               href: localizations/regulatory-updates.md
             - name: 澳大利亚
@@ -3139,7 +3157,7 @@
                 - name: 配置 Human Resources 共享参数
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: 设置 Human Resources 工作流
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: 了解日期和时间字段
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: 管理人员
@@ -3189,15 +3207,15 @@
                 - name: 管理招聘流程
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: 大批雇用项目
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: 创建大批雇用项目
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: 手动输入申请人和申请表数据
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: 制订和开放工作申请
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: 设置职位
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: 通过招聘雇用应聘者
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: 通过招聘雇用现有员工
@@ -4052,7 +4070,7 @@
                 - name: 成本控制
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: 费用管理
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: 现有库存
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: 账单审核
@@ -4060,11 +4078,11 @@
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Project 移动应用程序概览
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: 项目时间条目
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Project Timesheet
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: 采购订单审核
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: 销售订单
