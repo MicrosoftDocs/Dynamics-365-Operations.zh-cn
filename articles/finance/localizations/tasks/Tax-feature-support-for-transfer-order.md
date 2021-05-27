@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920947"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021361"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>转移单的税务功能支持
 
@@ -41,7 +40,7 @@ ms.locfileid: "5920947"
 
 1. 在 **税务功能** 页面上的 **版本** 选项卡上，选择草稿功能版本，然后选择 **编辑**。
 
-    ![选择编辑](../media/image1.png)
+    ![选择编辑](../media/tax-feature-support-01.png)
 
 2. 在 **税务功能设置** 页面上的 **税码** 选项卡上，选择 **添加** 以创建新税码。 对于此示例，创建了三个税码：**NL-Exempt**、**BE-RC-21** 和 **BE-RC+21**。
 
@@ -54,7 +53,7 @@ ms.locfileid: "5920947"
         4. 在 **比率** 表中选择 **添加**。
         5. 在 **常规** 部分中，将 **是免税** 切换到 **是**。
 
-        ![NL-Exempt 税码](../media/image2.png)
+        ![NL-Exempt 税码](../media/tax-feature-support-02.png)
 
     - 当在比利时仓库收到转移单时，通过使用 **BE-RC-21** 和 **BE-RC+21** 税码应用冲销费用机制。
         
@@ -67,7 +66,7 @@ ms.locfileid: "5920947"
         6. 在 **常规** 部分中，将 **是冲销费用** 切换到 **是**。
         7. 选择 **保存**。
 
-        ![冲销费用的 BE-RC-21 税码](../media/image3.png)
+        ![冲销费用的 BE-RC-21 税码](../media/tax-feature-support-03.png)
         
         创建税码 **BE-RC+21**。
         1. 选择 **添加**，在 **税码** 字段中输入 **BE-RC-21**。
@@ -77,7 +76,7 @@ ms.locfileid: "5920947"
         5. 在 **税率** 字段中输入 **21**。
         6. 选择 **保存**。
 
-        ![冲销费用的 BE-RC+21 税码](../media/image4.png)
+        ![冲销费用的 BE-RC+21 税码](../media/tax-feature-support-04.png)
 
 3. 定义税码的适用性。
 

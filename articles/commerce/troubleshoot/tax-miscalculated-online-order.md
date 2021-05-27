@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801403"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021095"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>在线订单的税金计算错误
 
@@ -44,7 +43,7 @@ ms.locfileid: "5801403"
 1. 在 **常规** 快速选项卡上，在 **销售税** 部分，配置商店的销售税信息。
 
 > [!NOTE]
-> 对于从商店取货，税组来自选择要取货的商店。 有关详细信息，请参阅[设置商店的其他税金选项](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)。
+> 对于从商店取货，税组来自选择要取货的商店。 有关详细信息，请参阅[设置商店的其他税金选项](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)。
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>在 Commerce Headquarters 中配置客户地址的相应销售税
 
@@ -68,7 +67,7 @@ ms.locfileid: "5801403"
 1. 在 **基于零售目的地的税** 快速选项卡上，为销售税组配置税。
 
 > [!NOTE]
-> 对于涉及客户地址上的销售税的装运，该行的交货地址以及为税组配置的基于目的地的税将确定税组。 有关详细信息，请参阅[设置基于目的地的在线商店税金](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)。
+> 对于涉及客户地址上的销售税的装运，该行的交货地址以及为税组配置的基于目的地的税将确定税组。 有关详细信息，请参阅[设置基于目的地的在线商店税金](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)。
 
 ## <a name="additional-resources"></a>其他资源
 

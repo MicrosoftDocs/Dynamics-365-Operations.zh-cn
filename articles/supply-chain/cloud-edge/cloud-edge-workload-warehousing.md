@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944405"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980940"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -58,7 +58,10 @@ ms.locfileid: "5944405"
   - **转移单**（仅包含简单的领料和装载工作的出站）
 
 - **仓库订单收货数据** – 此数据仅用于已发放到仓库的采购订单。
-- **牌照数据** – 牌照可在中心和缩放单元上创建。 已提供专用冲突处理。 请注意，此数据并非特定于仓库。
+- **牌照数据** – 牌照在中心和缩放单元上均可创建。 已提供专用冲突处理。 
+
+    > [!IMPORTANT]
+    > 牌照数据并非特定于仓库。 如果在同一同步周期内在中心和缩放单元上创建了相同的牌照编号，下一次同步将失败。 如果发生这种情况，转到 **系统管理 > 查询 > 工作负荷查询 > 重复记录**，您可以在这里查看和合并数据。
 
 ## <a name="outbound-process-flow"></a>出库处理流
 

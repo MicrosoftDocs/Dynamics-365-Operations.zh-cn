@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794010"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028147"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>序列化产品的销售点 (POS) 改进
 
@@ -30,7 +30,7 @@ ms.locfileid: "5794010"
 
 ## <a name="pos-improvements"></a>POS 改进
 
-- **在结帐时才需要使用序列号** - 以前，出纳向交易记录添加序列化产品时必须提供序列号。 在客户服务解决方案中，如果出纳和销售内勤有机会向上销售产品，该要求就成为了一个问题。 在付款步骤之前，经常要在购物车中更新产品。 因此，出纳每次添加新产品时，系统就会提示出纳提供序列号。 序列号对话框现在包括一个 **稍后添加** 按钮。 因此，销售内勤可以将物料添加到交易记录中，但可以稍后提供序列号。 销售内勤可以迅速添加和替换购物车中的序列化物料，然后在要结帐时提供序列号。 如果未提供任何序列化产品的序列号，出纳在尝试完成交易时会收到错误消息。 该消息指出出纳必须提供缺失的序列号后才能继续。
+- **在结帐时才需要使用序列号** - 以前，出纳向交易记录添加序列化产品时必须提供序列号。 在客户服务解决方案中，如果出纳和销售内勤有机会向上销售产品，该要求就成为了一个问题。 在付款步骤之前，经常要在购物车中更新产品。 因此，收银员每次添加新产品时，系统就会提示收银员提供序列号。 序列号对话框现在包括一个 **稍后添加** 按钮。 因此，销售内勤可以将物料添加到交易记录中，但可以稍后提供序列号。 销售内勤可以迅速添加和替换购物车中的序列化物料，然后在要结帐时提供序列号。 如果未提供任何序列化产品的序列号，出纳在尝试完成交易时会收到错误消息。 该消息指出收银员必须提供缺失的序列号后才能继续。
 
     对于跳过序列号的每个序列化物料，交易记录行下都会显示一条注释。 该注释指出未提供该物料的序列号。 因此，出纳可以快速找到缺少序列号的物料。
 

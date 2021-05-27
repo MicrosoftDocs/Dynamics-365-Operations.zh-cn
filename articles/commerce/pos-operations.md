@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804273"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027640"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -64,7 +64,7 @@ ms.locfileid: "5804273"
 | 642 | 完成所有产品 | 将所有行的交货方式设置为 **Carryout**。 | 是 | 是 | 无 | 是\* | 无 |
 | 641 | 完成所选产品 | 将所选行的交货方式设置为 **Carryout**。 | 是 | 是 | 否 | 是\* | 否 |
 | 647 | 更改交货方式 | 更改预配置的装运销售行的交货方式。 | 是 | 是 | 否 | 否| 否 |
-| 1215 | 更改密码 | 此操作允许 POS 用户更改其密码。 | 是 | 是 | 是 | 无 | 无 |
+| 1215 | 更改密码 | 此操作允许 POS 用户更改密码。 | 是 | 是 | 是 | 无 | 无 |
 | 123 | 更改度量单位 | 无法为所选行物料更改度量单位。 | 是 | 是 | 无 | 是 | 无 |
 | 639 | 清除交易记录上的默认销售代表 | 从交易记录中删除佣金销售代表组（销售代表）。 | 是 | 是 | 无 | 是 | 无 |
 | 106 | 清除数量 | 将当前所选行上的数量设置为 **1**。 | 是 | 是 | 无 | 是 | 无 |

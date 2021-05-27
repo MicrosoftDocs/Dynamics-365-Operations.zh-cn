@@ -5,7 +5,6 @@ author: josaw1
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -15,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 46a18d36a389e8a52253c2c3a153e0eae95c0e57
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799413"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019979"
 ---
 # <a name="customer-management-in-stores"></a>商店中的客户管理
 

@@ -2,7 +2,6 @@
 title: 商店选择器模块
 description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853409"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021456"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
@@ -62,7 +61,7 @@ ms.locfileid: "5853409"
 
 ## <a name="bing-maps-integration"></a>必应地图集成
 
-商店选择器模块与[必应地图 REST 应用程序编程接口 (API)](https://docs.microsoft.com/bingmaps/rest-services/) 集成来使用必应的地理编码和自动建议功能。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地理编码 API 用于将位置转换为纬度和经度值。 与自动建议 API 的集成用于在用户在搜索字段中输入位置时显示搜索建议。
+商店选择器模块与[必应地图 REST 应用程序编程接口 (API)](/bingmaps/rest-services/) 集成来使用必应的地理编码和自动建议功能。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地理编码 API 用于将位置转换为纬度和经度值。 与自动建议 API 的集成用于在用户在搜索字段中输入位置时显示搜索建议。
 
 对于自动建议 REST API，您必须确保根据站点的内容安全策略 (CSP) 允许以下 URL。 通过在站点的各个 CSP 指令中添加允许的 URL（例如，**img-src**），在 Commerce 站点构建器中完成此设置。 有关详细信息，请参阅[内容安全策略](manage-csp.md)。 
 
@@ -78,14 +77,14 @@ ms.locfileid: "5853409"
 
 商店选择器模块可以添加到购买框模块中，来显示可提货的商店。 也可以将其添加到购物车模块。 如果是这种情况，商店选择器模块将显示购物车中每个行项的提货选项。 商店选择器模块还可以通过扩展和自定义添加到其他页面或模块。
 
-为了使此方案正常工作，产品应配置为使用 **提货** 交货方式。 否则，此模块不会在产品页面上显示。 有关如何配置交货方式的详细信息，请参阅[设置交货方式](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)。
+为了使此方案正常工作，产品应配置为使用 **提货** 交货方式。 否则，此模块不会在产品页面上显示。 有关如何配置交货方式的详细信息，请参阅[设置交货方式](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)。
 
 下图显示了 PDP 上使用的商店选择器模块的示例。
 
 ![PDP 上使用的商店选择器模块的示例](./media/BOPIS.PNG)
 
 > [!NOTE]
-> 在版本 10.0.16 及更高版本中，可以启用一项新功能，该功能让组织可以为客户定义多个提货交货方式选项。  如果启用此功能，商店选择器和电子商务的其他模块将得到增强，可以允许购物者从可能提供的多个提货交货选项（如果配置）中进行选择。  要了解有关此功能的详细信息，请参阅[本文档](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes)。 
+> 在版本 10.0.16 及更高版本中，可以启用一项新功能，该功能让组织可以为客户定义多个提货交货方式选项。  如果启用此功能，商店选择器和电子商务的其他模块将得到增强，可以允许购物者从可能提供的多个提货交货选项（如果配置）中进行选择。  要了解有关此功能的详细信息，请参阅[本文档](./multiple-pickup-modes.md)。 
 
 ## <a name="find-stores-mode"></a>查找商店模式
 
@@ -157,11 +156,11 @@ ms.locfileid: "5853409"
 
 [快速浏览购物车和结帐](quick-tour-cart-checkout.md)
 
-[设置交货方式](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[设置交货方式](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [为您的组织管理必应地图](dev-itpro/manage-bing-maps.md)
 
-[必应地图 REST API](https://docs.microsoft.com/bingmaps/rest-services/)
+[必应地图 REST API](/bingmaps/rest-services/)
 
 [地图模块](map-module.md)
 

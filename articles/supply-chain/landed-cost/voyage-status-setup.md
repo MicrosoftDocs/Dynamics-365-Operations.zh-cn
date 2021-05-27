@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMStatusTable
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 80433c17ed9d790d88b20ecc253c8e4459ffea10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e19a54fc9de166c93fd68408ca8c8c692dc96cab
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829780"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022100"
 ---
 # <a name="voyage-status-setup"></a>航行状态设置
 

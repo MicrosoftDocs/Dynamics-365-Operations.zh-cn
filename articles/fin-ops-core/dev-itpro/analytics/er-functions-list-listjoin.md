@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efee93df7d1cf40d016b36042bb5e7f33c47ae44
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743791"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027907"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER 函数
 
@@ -31,7 +31,7 @@ ms.locfileid: "5743791"
 ## <a name="syntax"></a>语法
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>参数

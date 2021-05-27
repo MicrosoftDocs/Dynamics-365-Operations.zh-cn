@@ -5,7 +5,6 @@ author: sndray
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e0d13a2de9acaa8b1c896e130b4dabb222e45dcb
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881414"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022803"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>埃及预缴税金申报 (EG-00005)
 

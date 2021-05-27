@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TransactionTexts
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d5a38af57d614ae2c93b0af74ec4a1c085519d46
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 25dd72c86b22b50eccef22a5d2cbcfcf04280684
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841880"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021604"
 ---
 # <a name="default-descriptions-for-the-general-ledger"></a>总帐的默认描述
 

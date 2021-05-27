@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818744"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028195"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>机器学习模型的结果（预览）
 
@@ -63,8 +63,8 @@ ms.locfileid: "5818744"
 
 还需要注意一个方面。 考虑使用医学测试来检测患者疾病的情况。 该问题是二进制分类问题，其中阳性结果表明患者患有该疾病。 在这种情况下，您必须考虑以下错误的影响：
 
-- 误报，即测试表明患者患有疾病，但实际上并非如此
-- 漏报，即测试表明患者未患疾病，但实际上患有
+- 误报，即测试表明患者患有疾病，但该患者实际上并非如此。
+- 漏报，即测试表明患者未患疾病，但实际上该患者患有。
 
 显然，两种类型的错误都是不希望的，但是哪个更糟？ 同样，这取决于具体情况。 对于需要迅速治疗的威胁生命的疾病，应尽量减少漏报（希望随后进行其他检查）。 在其他不太重要的情况下，模型创建者可能会尽量减少误报。 无论如何，合理的结论是，要有效地确定模型的质量，您必须拥有比准确度指标所提供的信息更多的信息。
 

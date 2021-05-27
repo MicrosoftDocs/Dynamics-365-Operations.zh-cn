@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMCostAutoSetup
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d057522afbf6a6d706c51f7c9e69b656483c7eb1
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841951"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021652"
 ---
 # <a name="auto-costs-setup"></a>自动成本设置
 

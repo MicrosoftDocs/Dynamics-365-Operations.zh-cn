@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798853"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020305"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>用于零售商店的用户定义的证书配置文件
 
@@ -79,7 +79,7 @@ ms.locfileid: "5798853"
 - **密钥保管库证书** – 如果您将 **位置类型** 设置为 **密钥保管库**，此字段为必填字段。 使用它来指定密钥保管库证书机密。
 
     > [!NOTE]
-    > 在证书配置文件中使用密钥保管库证书之前，请确保将证书上传到密钥保管库存储，并按照[设置 Azure 密钥保管库客户端](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client)中的说明操作。
+    > 在证书配置文件中使用密钥保管库证书之前，请确保将证书上传到密钥保管库存储，并按照[设置 Azure 密钥保管库客户端](../../finance/localizations/setting-up-azure-key-vault-client.md)中的说明操作。
 
 - **存储名称** – 该字段是可选字段，仅在您将 **位置类型** 字段设置为 **本地证书** 时才可用。 使用它来指定应该用于搜索本地证书的默认存储名称。
 - **存储位置** – 该字段是可选字段，仅在您将 **位置类型** 字段设置为 **本地证书** 时才可用。 使用它来指定应该用于搜索本地证书的默认存储位置。

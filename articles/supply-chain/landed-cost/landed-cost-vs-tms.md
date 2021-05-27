@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c7bc17cad246f4bdb9c2bc63cbc47d05731ad2ac
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909467"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021216"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>登陆成本与运输管理
 

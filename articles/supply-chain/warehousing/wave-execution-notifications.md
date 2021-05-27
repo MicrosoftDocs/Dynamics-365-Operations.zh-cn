@@ -5,7 +5,6 @@ author: mirzaab
 ms.date: 04/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WhsWaveNotificationPolicy, WHSParameters, WHSWaveTemplateTable, BusinessEventsWorkspace
 audience: Application User
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2022-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 0a61aff10234f40f14d603852be30fec3ba83647
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838074"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019146"
 ---
 # <a name="wave-execution-notifications"></a>波次执行通知
 

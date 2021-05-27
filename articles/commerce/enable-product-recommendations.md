@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59d6b298896c92cbc0f6bbae17096ee1f027b922
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799147"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019851"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -39,7 +39,7 @@ ms.locfileid: "5799147"
 2. 确保实体存储刷新已自动化。 有关更多信息，请参阅[确保实体存储刷新已自动化](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)。
 3. 确认 Azure AD 标识配置中包含建议的实体。 下面是有关如何执行此操作的详细信息。
 
-此外，请确保已启用 RetailSale 度量。 若要详细了解此设置流程，请参阅[使用度量](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)。
+此外，请确保已启用 RetailSale 度量。 若要详细了解此设置流程，请参阅[使用度量](/dynamics365/ai/customer-insights/pm-measures)。
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD 标识配置
 

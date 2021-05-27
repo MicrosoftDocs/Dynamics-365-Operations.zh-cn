@@ -2,7 +2,6 @@
 title: 工资单集成 API 简介
 description: 本主题介绍了 Dynamics 365 Human Resources 工资单集成 API。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 61b90c566325bb8d83b09fceebc721cfb14d3fc8
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 3a7be5ad42642de48ffdb2731a1300a953c5ede4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891118"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022755"
 ---
 # <a name="payroll-integration-api-introduction"></a>工资单集成 API 简介
 

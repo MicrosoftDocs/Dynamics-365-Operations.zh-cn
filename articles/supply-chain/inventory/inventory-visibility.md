@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910417"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016998"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 
@@ -41,20 +41,23 @@ ms.locfileid: "5910417"
 
 有关详细信息，请参阅 [Lifecycle Services 资源](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)。
 
-### <a name="prerequisites"></a>先决条件
+### <a name="inventory-visibility-add-in-prerequisites"></a>库存可见性加载项的先决条件
 
 在安装库存可见性加载项之前，您必须执行以下操作：
 
 - 获取至少部署了一个环境的 LCS 实施项目。
 - 确保[加载项概述](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)中提供的设置加载项的先决条件已经满足。 库存可见性不需要双写入链接。
 - 请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性团队联系，获取以下三个必需文件：
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
+- 或者，通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性团队联系，获取 Package Deployer 包。 这些包可以供官方的 Package Deployer 工具使用。
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip`（此包包含 `InventoryServiceBase` 包中的所有更改，以及其他 UI 应用程序组件）
 - 按照[快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)中提供的说明注册应用程序并在您的 Azure 订阅下将客户端密码添加到 AAD。
-    - [注册应用程序](/azure/active-directory/develop/quickstart-register-app)
-    - [添加客户端密码](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - 将在以下步骤中使用 **应用程序(客户端) ID**、**客户端密码** 和 **租户 ID**。
+  - [注册应用程序](/azure/active-directory/develop/quickstart-register-app)
+  - [添加客户端密码](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - 将在以下步骤中使用 **应用程序(客户端) ID**、**客户端密码** 和 **租户 ID**。
 
 > [!NOTE]
 > 目前支持的国家和地区包括加拿大、美国和欧盟 (EU)。
@@ -63,18 +66,49 @@ ms.locfileid: "5910417"
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>设置 Dataverse
 
-请按照下列步骤设置 Dataverse。
+若要设置 Dataverse 来与库存可见性一起使用，必须首先准备好先决条件，然后决定是使用 Package Deployer 工具还是通过手动导入解决方案来设置 Dataverse（不必都完成）。 然后安装库存可见性加载项。 以下小节介绍如何完成这些任务中的每个任务。
 
-1. 向您的租户添加服务原则：
+#### <a name="prepare-dataverse-prerequisites"></a>准备 Dataverse 先决条件
 
-    1. 如[安装 Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 中所述安装 Azure AD PowerShell 模块 v2。
-    1. 运行以下 PowerShell 命令。
+在开始设置 Dataverse 之前，执行以下操作将服务主体添加到租户：
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. 如[安装 Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 中所述安装 Azure AD PowerShell 模块 v2。
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. 运行以下 PowerShell 命令：
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>使用 Package Deployer 工具设置 Dataverse
+
+满足先决条件后，如果您更倾向于使用 Package Deployer 工具设置 Dataverse，请使用以下过程。 有关如何手动导入解决方案的详细信息，请参阅下一节（两种方法不要都完成）。
+
+1. 按照[从 NuGet 下载工具](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget)中所述安装开发人员工具。
+
+1. 根据您的业务要求，选择 `InventoryServiceBase` 或 `InventoryServiceApplication` 包。
+
+1. 导入解决方案：
+    1. 对于 `InventoryServiceBase` 包：
+        - 解压缩 `InventoryServiceBase.PackageDeployer.zip`
+        - 找到文件夹 `InventoryServiceBase`、文件 `[Content_Types].xml`、文件 `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`、文件 `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` 和文件 `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`。 
+        - 将这些文件夹和文件中的每一个都复制到安装开发人员工具时创建的 `.\Tools\PackageDeployment` 目录。
+    1. 对于 `InventoryServiceApplication` 包：
+        - 解压缩 `InventoryServiceApplication.PackageDeployer.zip`
+        - 找到文件夹 `InventoryServiceApplication`、文件 `[Content_Types].xml`、文件 `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`、文件 `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` 和文件 `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`。
+        - 将这些文件夹和文件中的每一个都复制到安装开发人员工具时创建的 `.\Tools\PackageDeployment` 目录。
+    1. 执行 `.\Tools\PackageDeployment\PackageDeployer.exe`。 按照屏幕上的说明导入解决方案。
+
+1. 为应用程序用户分配安全角色。
+    1. 打开您的 Dataverse 环境的 URL。
+    1. 转到 **高级设置 \> 系统 \> 安全 \> 用户**，找到名为 **# InventoryVisibility** 的用户。
+    1. 选择 **分配角色**，然后选择 **系统管理员**。 如果有一个名为 **Common Data Service 用户** 的角色，也选择它。
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>通过导入解决方案手动设置 Dataverse
+
+满足先决条件后，如果您更倾向于通过导入解决方案设置 Dataverse，请使用以下过程。 有关如何改为使用 Package Deployer 工具的详细信息，请参阅上一节（两种方法不要都完成）。
 
 1. 在 Dataverse 中为库存可见性创建应用程序用户：
 

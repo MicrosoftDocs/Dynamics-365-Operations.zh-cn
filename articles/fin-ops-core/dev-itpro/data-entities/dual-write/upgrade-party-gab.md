@@ -4,18 +4,17 @@ description: 本主题介绍如何将双重写入数据升级到当事方和全�
 author: RamaKrishnamoorthy
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941075"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018304"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 

@@ -5,7 +5,6 @@ author: andreabichsel
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b8dcad04e85a4beb2fe68e9d6fad4ec794e3ade
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a2325da54b8d47ef39d0aacb5dac87107ebdd5bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805818"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019555"
 ---
 # <a name="benefits-management-workspace"></a>福利管理工作区
 

@@ -5,7 +5,6 @@ author: perlynne
 ms.date: 3/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -15,12 +14,12 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 3/12/2021
-ms.openlocfilehash: a1abb6f8657484d43d434076e5ee38d1c63fe2ff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1cd4883cdd95a97f821e0103da910e2c0346a08d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838170"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022538"
 ---
 # <a name="troubleshoot-warehouse-batch-and-serial-reservation-hierarchies"></a>仓库批次和序列预留层次结构故障排除
 

@@ -5,7 +5,6 @@ author: ilyako
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5b0305381ee709ce52b18d171a1ea274e2126cce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827690"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018970"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户账单
 

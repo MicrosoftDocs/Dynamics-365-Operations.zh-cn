@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ee2ac8636dad8d31719971b2cc17c8b923f07959
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801451"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020595"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>登录链接重定向回电子商务站点
 
@@ -51,6 +50,6 @@ ms.locfileid: "5801451"
 
 ## <a name="additional-resources"></a>其他资源
 
-[在 Azure Active Directory B2C 中注册 Web 应用程序](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga#register-a-web-application)
+[在 Azure Active Directory B2C 中注册 Web 应用程序](/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga#register-a-web-application)
 
 [在 Commerce 中设置 B2C 租户](../set-up-b2c-tenant.md)

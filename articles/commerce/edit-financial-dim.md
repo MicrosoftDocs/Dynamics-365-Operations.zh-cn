@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 381d8bb0939f6c4c163477990e49382201487375
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792697"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019899"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>编辑零售交易记录的财务维度
 
@@ -34,7 +34,7 @@ ms.locfileid: "5792697"
 
 1. 打开 **用于集成应用程序的财务维度配置** 页面。
 1. 选择有效的 **默认维度集成** 记录。
-1. 在 **财务维度** 快速选项卡上，确保您要在 Excel 工作表中编辑的所有维度都存在于 **已选择** 列表中。 有关详细信息，请参阅[数据实体](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities)。
+1. 在 **财务维度** 快速选项卡上，确保您要在 Excel 工作表中编辑的所有维度都存在于 **已选择** 列表中。 有关详细信息，请参阅[数据实体](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities)。
 1. 从 **商店财务** 工作区的 **对帐单** 页面、**零售交易记录** 页面或 **交易记录验证失败** 磁贴中下载并打开 Excel 文件。
 1. 要更改交易记录财务维度，请选择 **设计**，然后选择 **交易记录（可审计）** 行旁边的铅笔符号。
 1. 找到并选择 **FinancialDimensionDisplayValue** 字段，在 Excel 工作表的标头部分中选择一个单元格，然后选择 **添加标签**。

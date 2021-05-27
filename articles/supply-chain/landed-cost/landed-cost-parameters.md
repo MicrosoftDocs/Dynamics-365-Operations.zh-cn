@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMParameters
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3340ea07414eb92997ab4a9d6fa46cd075f8f9db
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833897"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020999"
 ---
 # <a name="landed-cost-parameters-setup"></a>登陆成本参数设置
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835092"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027472"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分客户付款
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835092"
 Fabrikam 向客户 4031 提供两个现金折扣期间。 如果在五天内支付该发票，则客户获得 2% 的现金折扣；如果在十四天内支付该发票，则客户获得 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于 **应付帐款参数** 页上。
 
 ## <a name="invoice"></a>开票
-6 月 25 日，Arnie 为客户 4031 输入并过帐了 1,000.00 的发票。 在他获得此发票的现金折扣时，Arnie 了解到如果客户 4031 在 6 月 30 日之前付款，则获得 20.00 的折扣。 如果该发票在 7 月 9 日之前付款则获得 10.00 的折扣。
+6 月 25 日，Arnie 为客户 4031 输入并过帐了 1,000.00 的发票。 在 Arnie 获得此发票的现金折扣时，Arnie 了解到如果客户 4031 在 6 月 30 日之前付款，则获得 20.00 的折扣。 如果该发票在 7 月 9 日之前付款则获得 10.00 的折扣。
 
 | 现金折扣日期 | 现金折扣金额 | 交易记录币种金额 |
 |--------------------|----------------------|--------------------------------|

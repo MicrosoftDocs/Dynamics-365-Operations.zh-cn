@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ff36569f87aa51e5b6bb9d7f793e6374354d5edf
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a58ba9f6fb895c11aa98c6f67cb580e7408f2c64
+ms.sourcegitcommit: 5a42748d107139a6f0d138ac86cb7ff8809c8e97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893820"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "6032201"
 ---
 # <a name="china-overview"></a>中国概览
 
@@ -44,10 +44,11 @@ ms.locfileid: "5893820"
 -   [按站点过帐库存主科目](apac-chn-post-inventory-main-accounts-by-site.md)
 -   [显示会计科目的借方和贷方金额](apac-chn-negative-debits-credits.md)
 -   [符合中国工作规则的用户操作日志](tasks/user-operation-log-china-working-rule.md)
+-   [GB/T 24589-2010 导出](apac-chn-gbt-24589-2010.md)
 
 ## <a name="additional-resources"></a>其他资源
 - [Microsoft Dynamics 本地化门户：中国报表](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
-- [电子申报概览](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [电子报告概览](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
 - [从 Lifecycle Services 下载电子申报配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 
 

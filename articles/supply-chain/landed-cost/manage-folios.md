@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMFolioTable, ITMFolioTableListPage
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe59a4cd5448a29372e18fb6c5378ec8f136a639
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833825"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020927"
 ---
 # <a name="manage-folios"></a>管理帐页
 

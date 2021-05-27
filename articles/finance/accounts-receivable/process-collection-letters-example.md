@@ -5,7 +5,6 @@ author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1b80532463d86dd59b867fca2ee24675396ce717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826339"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021408"
 ---
 # <a name="process-collection-letters-example"></a>处理催款单示例
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827330"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028219"
 ---
 # <a name="position-forecasting"></a>职位预测
 
@@ -67,9 +67,9 @@ Jodi 的组织提供员工基本工资 5% 的培训津贴。 Jodi 想要为此�
 
 Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖** 字段中选择 **不允许成本更改**。 组织希望此成本平均分配给每个月。 因此，Jodi 在 **分配方法** 字段中选择 **每季度**。 
 
-接下来，Jodi 添加一个成本计算行，设置日期和主科目，然后输入百分比 **5.00**。 她的组织每年有 5,000 美元的福利额度。 因此，Jodi 输入该金额作为每年限额。 
+接下来，Jodi 添加一个成本计算行，设置日期和主科目，然后输入百分比 **5.00**。 组织每年有 5,000 美元的福利额度。 因此，Jodi 输入该金额作为每年限额。 
 
-最后，Jodi 添加用于基本工资的所有收入成本元素作为计算基础。 她的预算成本现在可以使用。
+最后，Jodi 添加用于基本工资的所有收入成本元素作为计算基础。 预算成本元素现在可以使用。
 
 ### <a name="compensation-groups"></a>薪酬组
 
@@ -137,7 +137,7 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 
 **示例** 
 
-组织考虑减少会计职位成本的两个选项。 一个选项是结束全年方法的职位部分。 另一个选项是将职位更改为全年半工。 Brad 在基准方案中为现有会计职位创建了一个预测职位。 他将此基准预测职位复制到方案 A，设置退休日期为 5 月 31 日，并重新计算。 然后，Brad 将基准预测职位复制到方案 B，更改 FTE 值为 **0.50**，并重新计算。 Brad 现在有三个版本，每个版本均有与其选项一致的成本合计。
+组织考虑减少会计职位成本的两个选项。 一个选项是结束全年方法的职位部分。 另一个选项是将职位更改为全年半工。 Brad 在基准方案中为现有会计职位创建了一个预测职位。 Brad 将此基准预测职位复制到方案 A，设置退休日期为 5 月 31 日，并重新计算。 然后，Brad 将基准预测职位复制到方案 B，更改 FTE 值为 **0.50**，并重新计算。 Brad 现在有三个版本，每个版本均有与选项一致的成本合计。
 
 #### <a name="assigning-a-compensation-group"></a>分配薪酬组
 

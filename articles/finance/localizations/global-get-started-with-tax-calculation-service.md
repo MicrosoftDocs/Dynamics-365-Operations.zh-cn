@@ -5,7 +5,6 @@ author: wangchen
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a90455a338067331a6a44cab36b578ed01ed56eb
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890290"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018871"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>开始使用税务计算（预览）
 

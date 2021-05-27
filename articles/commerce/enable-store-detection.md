@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799123"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027592"
 ---
 # <a name="enable-location-based-store-detection"></a>启用基于位置的商店检测
 
@@ -31,7 +31,7 @@ ms.locfileid: "5799123"
 
 ## <a name="privacy-notice"></a>隐私声明
 
-如果开启基于位置的商店检测功能，将把客户浏览器的信息发送到 Microsoft 位置服务。 然后使用此信息提供与其位置有关的客户内容。 从客户浏览器发送的信息和返回给客户的基于位置的信息应遵守隐私和 cookie 合规性政策。
+如果开启基于位置的商店检测功能，将把客户浏览器的信息发送到 Microsoft 位置服务。 然后使用此信息提供与客户位置有关的客户内容。 从客户浏览器发送的信息和返回给客户的基于位置的信息应遵守隐私和 cookie 合规性政策。
 
 ## <a name="turn-on-location-based-store-detection"></a>开启基于位置的商店检测
 

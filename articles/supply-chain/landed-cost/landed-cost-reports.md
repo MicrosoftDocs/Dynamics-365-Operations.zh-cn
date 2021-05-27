@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 90630a29d8ad77931735a81ee152aa76514a387c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41588b7dc037f6d748bac818f8707540ce8afe8d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821073"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020951"
 ---
 # <a name="landed-cost-reports"></a>登陆成本报表
 

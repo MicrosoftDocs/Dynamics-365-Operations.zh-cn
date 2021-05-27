@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ccfbab6055b8b64ce0926cda04090583e0d7a6ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797172"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020854"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "5797172"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](https://docs.microsoft.com/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 版本中已经删除或弃用的功能
 
@@ -102,7 +102,7 @@ ms.locfileid: "5797172"
 | **被另一个功能取代？**   | 是。 它被以下两个新的 POS 操作取代：入站操作 (804) 和出站操作 (805)。|
 | **影响的产品区域**         | 销售点 (POS) 应用程序 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从版本 10.0.10 开始，领料和接收操作将不再接收任何新功能更新。 在将来的版本中，将仅对此操作进行重要的 bug 修复。 鼓励所有客户迁移到新的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)和[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)，它们将继续成为我们长期产品路线图的一部分。 |
+| **状态**                         | 已弃用：从版本 10.0.10 开始，领料和接收操作将不再接收任何新功能更新。 在将来的版本中，将仅对此操作进行重要的 bug 修复。 鼓励所有客户迁移到新的[入站操作](../pos-inbound-inventory-operation.md)和[出站操作](../pos-outbound-inventory-operation.md)，它们将继续成为我们长期产品路线图的一部分。 |
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Commerce 10.0.7 版本中已经删除或弃用的功能
@@ -113,7 +113,7 @@ ms.locfileid: "5797172"
 | **被另一个功能取代？**   | 是：它已被 GetEstimatedAvailabilty 和 GetEstimatedProductWarehouseAvailability API 所取代。 |
 | **影响的产品区域**         | 电子商务应用程序 SDK |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从版本 10.0.7 开始，将不再对 GetProductAvailabilities 和 GetAvailableInventoryNearby 进行工程投资。 在电子商务部署中使用这些 API 的组织应转换为新的 GetEstimatedAvailabilty 和 GetEstimatedProductWarehouseAvailability API，并启用[优化的产品可用性计算功能](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels)。  |
+| **状态**                         | 已弃用：从版本 10.0.7 开始，将不再对 GetProductAvailabilities 和 GetAvailableInventoryNearby 进行工程投资。 在电子商务部署中使用这些 API 的组织应转换为新的 GetEstimatedAvailabilty 和 GetEstimatedProductWarehouseAvailability API，并启用[优化的产品可用性计算功能](../calculated-inventory-retail-channels.md)。  |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>之前有关已删除或已弃用功能的声明
 若要了解有关早期版本中已删除或已弃用功能的详细信息，请参阅[早期版本中已删除或已弃用的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json)。

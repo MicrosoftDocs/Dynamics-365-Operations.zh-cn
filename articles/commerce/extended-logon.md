@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb0e646cc4be5fa7fbb8a0ef47b524612a6f9a46
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9d8889581e2e11fa5261805c866a6014df57611
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792479"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027568"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>为 MPOS 和 Cloud MPOS 设置扩展登录功能
 
@@ -51,7 +51,7 @@ ms.locfileid: "5792479"
 
 ## <a name="assigning-an-extended-logon"></a>分配扩展登录
 
-默认情况下，只有经理可以将扩展登录分配给工作人员。 要分配扩展登录，转到 POS 中的 **扩展登录**。 然后通过在搜索字段中输入他或她的操作员 ID 搜索工作人员。 选择工作人员，然后单击 **分配**。 在下一个页面，刷卡或扫描扩展登录以分配给工作人员。 如果成功读取刷卡或扫描，**确定** 按钮将可用。 单击 **确定** 为该工作人员保存扩展登录。
+默认情况下，只有经理可以将扩展登录分配给工作人员。 要分配扩展登录，转到 POS 中的 **扩展登录**。 然后通过在搜索字段中输入工作人员的操作员 ID 搜索工作人员。 选择工作人员，然后单击 **分配**。 在下一个页面，刷卡或扫描扩展登录以分配给工作人员。 如果成功读取刷卡或扫描，**确定** 按钮将可用。 单击 **确定** 为该工作人员保存扩展登录。
 
 ## <a name="deleting-an-extended-logon"></a>删除扩展登录
 
@@ -63,7 +63,7 @@ ms.locfileid: "5792479"
 
 ## <a name="using-extended-logon"></a>使用扩展登录
 
-在配置扩展登录时，并且工作人员已被分配了条码或磁条，在 POS 登录页显示时，工作人员必须刷或扫描他或她的卡。 如果还需要密码才能继续登录，系统将提示工作人员输入他或她的密码。
+在配置扩展登录时，并且工作人员已被分配了条码或磁条，在 POS 登录页显示时，工作人员必须刷或扫描他的卡。 如果还需要密码才能继续登录，系统将提示工作人员输入密码。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

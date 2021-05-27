@@ -2,7 +2,6 @@
 title: 职位的工资单详细信息
 description: 本主题提供 Dynamics 365 Human Resources 中职位实体的详细信息和工资单详细信息的示例查询。
 author: jcart
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f6c4bb0e2f4521e8c870f6c4fb645e2ce506138c
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 7b23ac5d11b18c77109be21afe1570755dccba20
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881932"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019314"
 ---
 # <a name="payroll-position"></a>工资单职位
 

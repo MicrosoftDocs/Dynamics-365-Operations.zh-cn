@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791887"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021480"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 
@@ -38,9 +38,9 @@ ms.locfileid: "5791887"
 
 ### <a name="plan-worker-schedules"></a>计划工作人员计划
 
-- 使用工作进度表应用模板。 有关详细信息，请参阅[使用工作进度表应用模板](https://technet.microsoft.com/library/aa551234.aspx)。
+- 使用工作进度表应用模板。 有关详细信息，请参阅[使用工作进度表应用模板](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner)。
 
-有关配置步骤的信息，请参阅[设置“时间和出勤情况”](https://technet.microsoft.com/library/aa496971.aspx)。
+有关配置步骤的信息，请参阅[设置“时间和出勤情况”](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance)。
 
 ### <a name="commerce-specific-configuration"></a>特定于商业的配置
 
@@ -135,7 +135,7 @@ Commerce 用户按照工作流计算、审核和将时间登记转移到工资�
 - 批量下班打卡
 - 登记缺勤
 
-有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](https://technet.microsoft.com/library/aa573180.aspx)。
+有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

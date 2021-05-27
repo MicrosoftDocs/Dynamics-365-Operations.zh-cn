@@ -5,7 +5,6 @@ author: BrianShook
 ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800703"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021882"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 

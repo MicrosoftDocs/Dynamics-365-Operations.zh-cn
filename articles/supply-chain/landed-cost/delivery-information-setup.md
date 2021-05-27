@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMPortTable, ITMLeadTimeTable, ITMLegTable
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 4cb1207916c40a18cf5b295baa913ae2d7198a05
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d20f732f02140204d67e5602acaf42f9d9df424
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841883"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021580"
 ---
 # <a name="delivery-information-setup"></a>交货信息设置
 

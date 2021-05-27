@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ccc6f0100582b9703b9755b50b7e8504aa153d15
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823329"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022124"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 

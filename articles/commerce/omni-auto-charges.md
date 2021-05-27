@@ -1,6 +1,6 @@
 ---
 title: 全渠道高级自动费用
-description: 此主题描述使用高级自动费用功能管理 Commerce 渠道订单的额外订单费用的功能。
+description: 此主题描述使用高级自动费用功能管理 Commerce 渠道订单的其他订单费用的功能。
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804665"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022699"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
@@ -29,9 +29,9 @@ ms.locfileid: "5804665"
 
 此主题提供有关 Dynamics 365 for Retail 版本 10.0 中提供的高级自动费用功能的配置和部署的信息。
 
-在启用高级自动费用功能时，在任何支持的 Commerce 渠道（销售点 (POS)、呼叫中心和在线）中创建的订单均可以利用在 ERP 应用程序中为标头和行级别相关费用中定义的[自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置。
+在启用高级自动费用功能时，在任何支持的 Commerce 渠道（销售点 (POS)、呼叫中心和在线）中创建的订单均可以利用在 ERP 应用程序中为标头和行级别相关费用中定义的[自动费用](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置。
 
-在 Retail 版本 10.0 之前的版本中，[自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置只能由在电子商务和呼叫中心渠道中创建的订单访问。 在版本 10.0 及更高版本中，POS 创建的订单可以利用自动费用配置。 这样，额外的杂项费用可以系统化地添加到销售交易记录中。
+在 Retail 版本 10.0 之前的版本中，[自动费用](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)配置只能由在电子商务和呼叫中心渠道中创建的订单访问。 在版本 10.0 及更高版本中，POS 创建的订单可以使用自动费用配置。 这样，额外的杂项费用可以系统化地添加到销售交易记录中。
 
 在使用版本 10.0 以前的版本时，将提示 POS 用户在创建“全部装运”或“装运所选产品”POS 交易记录期间手动输入装运费用。 当应用程序的杂项费用功能用于与费用如何写入到订单的相关情况时，将不提供系统计算 - 计算依赖于用户的输入来确定费用值。 费用只能添加为一个“装运”相关费用代码，且不能在创建后在 POS 中轻松编辑或更改。
 
@@ -39,7 +39,7 @@ ms.locfileid: "5804665"
 
 使用高级自动费用功能，POS 用户可以根据自动费用设置表系统化地计算任何定义的杂项费用。 而且，用户将能够在标题或行级别的任何 POS 销售交易记录中添加或编辑数量无限的额外费用金额（对于现金和结转或客户订单）。
 
-## <a name="enabling-advanced-auto-charges"></a>启用高级自动费用
+## <a name="enable-advanced-auto-charges"></a>启用高级自动费用
 
 在 **Retail 和 Commerce \> 总部设置 \> 参数 \> Commerce 参数** 页，转到 **客户订单** 选项卡。在 **费用** 快速选项卡上，将 **使用高级自动费用** 设置为 **是**。
 
@@ -51,9 +51,9 @@ ms.locfileid: "5804665"
 
 在启用此功能前，请确保您已测试并对员工进行了培训，因为启用的功能将更改装运或其他费用如何计算并添加到 POS 销售订单的业务流程。 确保您了解此流程对从 POS 创建交易记录的影响。 对于呼叫中心和电子商务订单，启用高级自动费用的影响是最小的。 在与计算额外订单费用的自动费用表相关的行为方面，呼叫中心和电子商务应用程序将继续具有以前所有的相同行为。 呼叫中心渠道用户将继续能够手动编辑标头或行级别的所有系统计算出的自动费用，或者在标头或行级别手动添加额外杂项费用。
 
-## <a name="additional-pos-operations"></a>其他 POS 操作
+## <a name="add-pos-operations"></a>添加 POS 操作
 
-为使高级自动费用能够在您的 POS 应用程序环境中正常工作，新 POS 操作已添加。 在部署高级自动费用时，这些操作必须添加到 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)并部署到 POS 设备。 如果这些操作未添加，用户将无法在 POS 交易中管理或维护杂项费用，且没有办法调整或更改基于自动费用配置系统化计算的费用值。 至少，建议您将 **管理费用** 操作部署到您的 POS 布局。
+为使高级自动费用能够在您的 POS 应用程序环境中正常工作，新 POS 操作已添加。 在部署高级自动费用时，这些操作必须添加到 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)并部署到 POS 设备。 如果这些操作未添加，用户将无法在 POS 交易中管理或维护杂项费用，且没有办法调整或更改基于自动费用配置系统化计算的费用值。 至少，建议您将 **管理费用** 操作部署到您的 POS 布局。
 
 新操作如下所示。
 
@@ -142,7 +142,7 @@ ms.locfileid: "5804665"
 
 将费用发送到 Commerce Scale Unit/通道 DB，以便 POS 可以通过运行 **1040 配送计划** 作业使用它们。
 
-**添加标题费用** 操作必须在您的 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中配置，以使用户可从 POS 访问的按钮可以调用此操作（操作 141）。 屏幕布局的更改也必须通过配送计划功能分配到渠道。
+**添加标题费用** 操作必须在您的 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)中配置，以使用户可从 POS 访问的按钮可以调用此操作（操作 141）。 屏幕布局的更改也必须通过配送计划功能分配到渠道。
 
 #### <a name="sales-processing-of-manual-header-charges"></a>手动标题费用的销售处理
 
@@ -164,11 +164,11 @@ ms.locfileid: "5804665"
 
 将费用发送到 Commerce Scale Unit/通道 DB，以便 POS 可以通过运行 **1040 配送计划** 作业使用它们。
 
-**添加行费用** 操作必须在您的 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中配置，以使用户可从 POS 访问的按钮可以调用此操作（操作 140）。 屏幕布局的更改也必须通过配送计划功能分配到渠道。
+**添加行费用** 操作必须在您的 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)中配置，以使用户可从 POS 访问的按钮可以调用此操作（操作 140）。 屏幕布局的更改也必须通过配送计划功能分配到渠道。
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>手动行费用的销售处理
 
-若要在 POS 应用程序中执行此方案，POS 用户将照常创建销售交易记录，并将产品和所有其他配置添加到销售中。 在收取付款前，用户应选择将从 POS 物料列表显示应用费用的特定行，并执行 **添加行费用** 操作。 系统将提示用户选择费用代码并输入费用值。 在用户完成流程后，此费用将被链接到行并作为行级别费用添加到订单合计。 如果需要，用户可以重复此流程，将其他行费用添加到交易记录中的其他物料行。
+若要在 POS 应用程序中执行此方案，POS 用户将照常创建销售交易记录，并将产品和所有其他配置添加到销售中。 在收取付款前，用户应选择将从 POS 物料列表显示应用费用的特定行，并执行 **添加行费用** 操作。 系统将提示用户选择费用代码并输入费用值。 在用户完成流程后，此费用将被链接到行并作为行级别费用添加到订单合计。 如果需要，用户可以重复此流程，将更多行费用添加到交易记录中的其他物料行。
 
 同一流程可以通过使用 **销售订单** 页上 **销售订单行** 部分的 **财务** 下拉菜单下的“维护费用”功能在呼叫中心应用。 选择此选项将打开 **维护费用** 页，用户在其中可以将新行的特定费用添加到交易记录中。
 
@@ -176,7 +176,7 @@ ms.locfileid: "5804665"
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>编辑 POS 销售交易记录中的费用
 
-**管理费用** 操作 (142) 应该添加到 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)，以便用户可以查看和编辑或覆盖任何系统计算或手动创建的标头或行级别费用。 如果未添加此操作，用户将无法调整 POS 交易记录中的费用值，也不能查看费用的详细信息，如与费用关联的费用代码的类型。
+**管理费用** 操作 (142) 应该添加到 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)，以便用户可以查看和编辑或覆盖任何系统计算或手动创建的标头或行级别费用。 如果未添加此操作，用户将无法调整 POS 交易记录中的费用值，也不能查看费用的详细信息，如与费用关联的费用代码的类型。
 
 在 POS 中的 **管理费用** 页，用户可以查看标题和行级别费用详细信息。 用户可以使用此页提供的 **编辑** 功能对计费到特定费用行的金额进行更改。 在费用行被手动覆盖后，它将不会被系统地重新计算，除非用户发起 **重新计算费用** 操作。
 
@@ -197,7 +197,7 @@ ms.locfileid: "5804665"
 以下收据元素已添加到收据行和页脚以支持高级自动费用功能。
 
 - **订单行装运费用** - 此行级别元素可用于概括已应用到销售订单行的特定费用代码。 仅在 **费用代码** 页标记为 **装运** 费用的费用代码将在此处显示。
-- **订单行其他费用** - 此行级别元素可用于概括已应用到销售订单行的任何非装运特定费用代码。 这些是 **费用代码** 页上的 **装运** 标志未启用的费用代码。
+- **订单行其他费用** - 此行级别元素可用于概括已应用到销售订单行的任何非装运特定费用代码。 **订单行其他费用** 是 **费用代码** 页上的 **装运** 标志未启用的费用代码。
 - **订单装运费用详细信息** - 此页脚级别元素显示应用到在 **费用代码** 设置页面上标记为 **装运** 费用的订单的费用代码的描述。
 - **订单装运费用** - 此页脚级别元素显示装运相关费用的美元金额。
 - **订单其他费用详细信息** - 此页脚级别元素显示应用到未标记为装运相关费用的订单的费用代码的描述。

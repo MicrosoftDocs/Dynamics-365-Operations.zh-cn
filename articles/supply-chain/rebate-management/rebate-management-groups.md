@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateGroup
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: cef7abbbf2a94e26b6b9e66492cd7347d3b4d1f2
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920053"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020475"
 ---
 # <a name="rebate-management-groups"></a>返点管理组
 

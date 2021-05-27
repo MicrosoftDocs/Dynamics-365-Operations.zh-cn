@@ -5,7 +5,6 @@ author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2efad243044304b895726ab763fd3744282abd16
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 0b3bd48cbc1ce5f236f51b79b8235d6b7c3890c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935625"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022340"
 ---
 # <a name="electronic-invoicing-faq"></a>电子开票常见问题
 
