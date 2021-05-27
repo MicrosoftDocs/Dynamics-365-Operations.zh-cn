@@ -22,7 +22,7 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
             - name: 已删除或弃用的功能
               items:
-                - name: 主页中已删除或弃用的功能
+                - name: 已删除或弃用的功能主页
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -84,11 +84,11 @@
               href: dev-tools/version-models-build.md
         - name: 数据集成
           items:
-            - name: 选择数据集成（导入/导出）策略
+            - name: Finance and Operations 应用与第三方服务之间的集成
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
-            - name: 基于优先级的限制常见问题
+            - name: 基于优先级的限制常见问题解答
               href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: 使用记录模板创建记录
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: 使用 Dataverse 的数据集成
+                - name: 数据集成器
                   items:
-                    - name: 使用 Dataverse 的数据集成概览
-                      href: data-entities/data-integration-cds.md
-                    - name: 双写入集成
+                    - name: 配置“目标客户到现金”场景
                       items:
-                        - name: 双写入主页
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: 双写入中新增或更改的功能
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: 双写入概览
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: 双写入设置
-                          items:
-                            - name: 双写入的系统要求
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: 双写入设置指南
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: 初始同步注意事项
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Lifecycle Services 的双写入设置
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: 为现有 Finance and Operations 应用启用双写入
-                              items:
-                                - name: 为现有 Finance and Operations 应用启用双写入
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: 系统要求和先决条件
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: 如何使用双写入向导链接您的环境
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: 启用双写入实体映射
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: 双写入货币数据类型迁移
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: 设置销售订单状态字段的映射
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: 筛选内部公司订单以避免同步订单和订单行
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: 管理双写入
-                          items:
-                            - name: 自定义实体和字段映射
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: 处理多个实体映射
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: 设置双写入后编辑法人
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: 错误管理和预警通知
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: 应用程序生命周期管理
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: 应用之间的概念映射
-                          items:
-                            - name: 集成的客户主数据
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: 供应商集成
-                              items:
-                                - name: 集成的供应商主数据
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: 在供应商设计之间切换
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: 客户会员卡和奖励积分
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: 产品集成
-                              items:
-                                - name: 统一的产品体验
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: 集成的站点和仓库
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: 公司集成
-                              items:
-                                - name: Dataverse 中的公司概念
-                                  href: data-entities/dual-write/company-data.md
-                                - name: 初始化公司数据
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Dataverse 中的组织层次结构
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: 财税数据
-                              items:
-                                - name: 访问财税引用数据
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: 集成的分类帐
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: 集成的税收主数据
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: 集成 Supply Chain Management 与 Field Service 中的采购
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: 按需与 Supply Chain Management 定价引擎同步
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: 目标客户到现金（采用双重写入）
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: 用于服务的内部资产
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: 库存可用性
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 集成工作人员、作业和岗位
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: 当事方和全球通讯簿
-                              href: data-entities/dual-write/party-gab.md
-                            - name: 将 Power Portal 与当事方数据模型配合使用
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: 升级到当事方和全球通讯簿模型
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: 注释集成
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: 映射引用
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: 支持双重写入
-                          items:
-                            - name: 支持 Field Service 和 Project Service Automation 解决方案
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: 将目标客户到现金数据从数据集成器迁移到双重写入
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: 疑难解答
-                              items:
-                                - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: 解决初始设置过程中的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: 解决初始同步过程中的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: 解决 Finance and Operations 应用中的双重写入问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: 解决实时同步问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: 解决与解决方案意识相关的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 解决 Finance and Operations 应用升级问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: 常规疑难解答
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: 双重写入常见问题
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: 与 Power Platform 集成
+                        - name: 目标客户到现金
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: 将 Sales 的客户直接同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: 配置与 Field Service 的集成
                       items:
-                        - name: 配置“目标客户到现金”场景
-                          items:
-                            - name: 目标客户到现金
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: 将客户从 Sales 直接同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: 配置与 Field Service 的集成
-                          items:
-                            - name: 配置与 Field Service 的集成概览
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: 将项目列表从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: 将仓库从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: 配置 Project Service Automation 集成
-                          items:
-                            - name: Project Service Automation 概览
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automation 集成参数
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: 同步项目合同和项目
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: 同步项目任务
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: 同步项目支出类别
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: 将项目评估同步到项目预测
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: 将项目实际值同步到项目集成日记帐
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: 配置与 Field Service 的集成概览
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: 将项目列表从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: 将仓库从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: 配置 Project Service Automation 集成
+                      items:
+                        - name: Project Service Automation 概览
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation 集成参数
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: 同步项目合同和项目
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: 同步项目任务
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: 同步项目支出类别
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: 将项目评估同步到项目预测
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: 将项目实际值同步到项目集成日记帐
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: 使用外部 Web 服务
               href: data-entities/consume-external-web-service.md
             - name: 电子消息
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: 对通过自助服务部署所部署的环境进行疑难解答
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: 自助服务环境中的计划内维护常见问题解答
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: 完成 Azure 资源管理器使用培训
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute 和 Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Microsoft Power Platform 与 Finance and Operations 的集成
               href: power-platform/overview.md
+            - name: 双写入
+              items:
+                - name: 双写入主页
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: 双写入中的新增功能或更改
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: 双写入概览
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: 双写入设置
+                  items:
+                    - name: 双写入的系统要求
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: 双写入设置指南
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: 初始同步注意事项
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Lifecycle Services 的双写入设置
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: 为现有 Finance and Operations 应用启用双写入
+                      items:
+                        - name: 为现有 Finance and Operations 应用启用双写入
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: 系统要求和先决条件
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: 如何使用双写入向导链接您的环境
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: 启用双写入实体映射
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: 双写入货币数据类型迁移
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: 设置销售订单状态字段的映射
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: 筛选内部公司订单以避免同步订单和订单行
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: 管理双写入
+                  items:
+                    - name: 自定义实体和字段映射
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: 处理多个实体映射
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: 设置双写入后编辑法人
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: 错误管理和预警通知
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: 应用程序生命周期管理
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: 应用之间的概念映射
+                  items:
+                    - name: 集成的客户主数据
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: 供应商集成
+                      items:
+                        - name: 集成的供应商主数据
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: 在供应商设计之间切换
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: 客户会员卡和奖励积分
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: 产品集成
+                      items:
+                        - name: 统一的产品体验
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: 集成的站点和仓库
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: 公司集成
+                      items:
+                        - name: Dataverse 中的公司概念
+                          href: data-entities/dual-write/company-data.md
+                        - name: 初始化公司数据
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Dataverse 中的组织层次结构
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: 财税数据
+                      items:
+                        - name: 访问财税引用数据
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: 集成的分类帐
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: 集成的税收主数据
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: 集成 Supply Chain Management 与 Field Service 中的采购
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: 按需与 Supply Chain Management 定价引擎同步
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: 目标客户到现金（采用双重写入）
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: 用于服务的内部资产
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: 库存可用性
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 集成工作人员、作业和岗位
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: 当事方和全球通讯簿
+                      href: data-entities/dual-write/party-gab.md
+                    - name: 将 Power Portal 与当事方数据模型配合使用
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: 升级到当事方和全球通讯簿模型
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: 注释集成
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: 映射引用
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: 支持双重写入
+                  items:
+                    - name: 支持 Field Service 和 Project Service Automation 解决方案
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: 将目标客户到现金数据从数据集成器迁移到双重写入
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: 疑难解答
+                      items:
+                        - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: 解决初始设置过程中的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: 解决初始同步过程中的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: 解决 Finance and Operations 应用中的双重写入问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: 解决实时同步问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 解决与解决方案意识相关的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: 解决 Finance and Operations 应用升级问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: 常规疑难解答
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: 双写入常见问题解答
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: 虚拟实体
               items:
+                - name: 虚拟实体概览
+                  href: power-platform/virtual-entities-overview.md
                 - name: 实体建模
                   href: power-platform/entity-modeling.md
                 - name: 应用程序生命周期管理

@@ -78,11 +78,9 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17（2021 年 4 月）
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16（2021 年 2 月）
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: 已删除或弃用的功能
               items:
-                - name: 主页中已删除或弃用的功能
+                - name: 已删除或弃用的功能主页
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-finance.md
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: 结算具有多个折扣期间的部分客户付款
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: 客户预付款
+                  href: accounts-receivable/customer-prepayments.md
                 - name: 补偿客户
                   href: accounts-receivable/reimburse-customers.md
                 - name: 部分金额的客户付款
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: 设置并生成应收帐款的帐龄信息
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: 客户帐龄快照
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: 客户帐龄分析表
               href: accounts-receivable/customer-aging.md
             - name: 创建客户的勾销日记帐
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: 从交易记录科目和合计科目创建预算
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: 预算计划叙述
+              href: budgeting/budget-narrative.md
             - name: Excel 的预算计划模板
               href: budgeting/budget-planning-excel-templates.md
             - name: 扩展预算计划布局
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: 定义原始凭证的审计策略
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: 疑难解答
+              items:
+                - name: 更改记帐或申报币种
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: 更改或重新分配分类帐日历
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: 日记帐和行中的冲销设置
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: 年终结算缺少期初余额
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: 财务报告
           items:
             - name: 开始使用财务报告
@@ -1648,11 +1662,19 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf 税务报表
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinf 概览
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: 设置电子消息
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: 设置会计帐簿
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: 事件
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED 财政解决方案 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: SPED 财政 2020 - SPED 财政布局的 ICMS-ST 补充信息 014
+                - name: SPED 财政 2020 - SPED 财政布局 014 的 ICMS-ST 补充信息
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED 财政 – 布局 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
@@ -1780,8 +1802,10 @@
                   href: localizations/apac-chn-negative-debits-credits.md
                 - name: 符合中国工作规则的用户操作日志
                   href: localizations/tasks/user-operation-log-china-working-rule.md
-                - name: 增值税客户账单常见问题
+                - name: 增值税客户发票常见问题解答
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: GB/T 24589-2010 导出
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: 捷克共和国
               items:
                 - name: 捷克共和国
@@ -2036,13 +2060,23 @@
                       href: localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
                 - name: 审核和过帐签发汇票
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: 按时间顺序排序的账单凭证
+                - name: 按时间顺序排序的发票凭证
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: 创建法国的标准审计文件 (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
-                - name: 客户和供应商帐户对账单
+                - name: 适用于法国的审计文件
+                  items:
+                    - name: 适用于法国的审计文件 (FEC) 概览
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: 生成法国 FEC 审计文件的先决条件
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: 适用于 FEC 的 Finance 数据源结构
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: 准备用于生成 FEC 的环境
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: 在 Dynamics 365 Finance 中生成 FEC
+                      href: localizations/emea-fra-fec-audit-file-generation.md
+                - name: 客户和供应商帐户对帐单
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: 延迟付款的日息计算与账单和催款单上的总计
+                - name: 延迟付款的日息计算与发票和催款单上的总计
                   href: localizations/tasks/fr-00018-daily-interest.md
                 - name: 贬损折旧
                   href: localizations/emea-fra-derogatory-depreciation.md
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: 将资本物料转换为固定资产
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: 印度 TDS
+                  items:
+                    - name: 印度在来源处扣除的税 (TDS) 概览
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: TDS 的基本设置
+                      items:
+                        - name: 设置 TDS 参数
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: 设置 TDS 会计科目
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: 设置法人的 TDS 登记号
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: 设置 TDS 税务类型的预缴税金主管机构
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: 设置 TDS 税务类型的税种组分
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: 设置 TDS 税务类型的预缴税金代码
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: 设置 TDS 税务类型的预缴税金结算期间
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: 设置 TDS 税务类型的预缴税金申报代码
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: 设置 TDS 税务类型的预缴税金代码
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: 将 TDS 税务代码附加到 TDS 税组并定义用于计算 TDS 的公式
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: 记录 TDS 特许证书编号
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: 在应付帐款和应收帐款中设置 TDS 参数
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: 使用 TDS 分配设置付款计划
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: 设置 TDS 主管机构付款的付款费用
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 针对供应商和客户的 TDS 组、PAN 和 TAN 信息设置
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: 针对 TDS 计算的公式设计器和阈值限制
+                      items:
+                        - name: 针对 TDS 计算的公式设计器
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: 阈值限制和异常阈值限制
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: 有关发票的 TDS 计算
+                      items:
+                        - name: 有关发票的 TDS 计算
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: 使用日记帐计算有关发票的 TDS
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: 使用采购订单窗体和销售订单窗体计算 TDS 发票
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: 普通发票页面中有关发票的 TDS 计算
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: 拆分发票功能
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: 有关付款和本票的 TDS 计算
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: 有关内部公司交易记录的 TDS 计算
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: TDS 结算流程
+                      items:
+                        - name: 有关付款和本票的 TDS 计算
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: 有关内部公司交易记录的 TDS 计算
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: TDS 结算流程
+                          items:
+                            - name: 运行定期 TDS 结算流程
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: 结算对 TDS 主管机构供应商的 TDS 付款并生成 TDS challan
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: 查看 TDS 结算期间的已过帐 TDS 付款及交易记录
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: 记录并更新 TDS 证书编号及日期
+                          items:
+                            - name: 记录 TDS 可恢复证书编号
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: 更新 TDS 交易记录的证书编号及日期
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: 意大利
               items:
                 - name: 意大利概览
