@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMHEParameters, WMHESubscription, WMHEQueueManagerWorkspace, WMHEInboundQueue, WMHEOutboundQueue
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 65c174896bbee07514285d4d19e1693c13dd9697
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810502"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021508"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>物料处理设备接口 (MHAX)
 

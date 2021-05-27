@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792259"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027955"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 
@@ -39,7 +39,7 @@ ms.locfileid: "5792259"
 
 ### <a name="my-profile-page"></a>我的个人资料页
 
-**我的个人资料** 页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新自己的个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
+**我的个人资料** 页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
 
 下图显示使用模块库生成的 **我的个人资料** 页的示例。
 

@@ -2,11 +2,9 @@
 title: 如果 Microsoft Teams 中有预先存在的团队，映射商店和团队
 description: 本主题介绍如果您的组织在 Commerce 集成之前已在 Microsoft Teams 中创建了团队，如何在 Dynamics 365 Commerce Headquarters 中映射商店和相应的团队。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5a711c1057b87bd792755ef91a84d1c28879c590
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908487"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020211"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>如果 Microsoft Teams 中有预先存在的团队，映射商店和团队
 

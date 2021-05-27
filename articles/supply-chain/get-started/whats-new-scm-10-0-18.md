@@ -5,7 +5,6 @@ author: kamaybac
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
-ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
+ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5934959"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019218"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.18（2021 年 5 月）中的新增功能或更改内容
 

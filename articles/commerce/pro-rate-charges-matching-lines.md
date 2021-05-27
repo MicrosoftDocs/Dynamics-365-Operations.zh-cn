@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791046"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018598"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791046"
 
 本主题介绍组合抬头级别自动费用并将其按比例分配给商业销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
 
-仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
+仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
 
 这项新功能可以提高组织在计算抬头级别费用并应用于销售交易记录时的灵活性。
 
@@ -38,7 +38,7 @@ ms.locfileid: "5791046"
 
 例如，为交货方式 **99** 和 **11** 定义了抬头级别自动费用。 创建了一个销售订单，并在订单抬头定义了交货方式 **99**。 但是，设置了一些销售行，以便使用交货方式 **11** 为其发货。 在此情况下，将仅考虑链接到交货方式 **99** 的抬头级别费用，并将这些费用应用于该销售订单。
 
-在 Commerce 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
+在 Commerce 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
 
 某些组织可能希望享受抬头级别费用的分层费用计算优势。 但是，如果涉及混合交货方式，他们也希望确保基于每个销售行中定义的交货方式的匹配项计算费用。
 
@@ -72,7 +72,7 @@ ms.locfileid: "5791046"
 
 在此方案中，将使用交货方式 **99** 针对自动费用表计算整个订单。 将使用所有订单行的全部总计确定自动费用配置中的匹配层，并在订单抬头级别应用此费用。 在此示例中，订单总计为 $165.00，并为订单抬头应用 $15.00 的运费。 始终不会引用或应用为交货方式 **11** 配置的自动费用。
 
-在此方案中，如果一个客户退还了订单中的部分项，并且[已经为了退款配置了费用代码](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2)，将把抬头级别费用总计系统性地应用于退款，即使只有部分项退货也不例外。
+在此方案中，如果一个客户退还了订单中的部分项，并且[已经为了退款配置了费用代码](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2)，将把抬头级别费用总计系统性地应用于退款，即使只有部分项退货也不例外。
 
 ### <a name="scenario-2"></a>方案 2
 

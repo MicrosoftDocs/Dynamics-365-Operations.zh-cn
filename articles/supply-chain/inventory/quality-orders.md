@@ -2,11 +2,9 @@
 title: 质检订单
 description: 本主题介绍如何手动或自动创建质检订单，以及如何使用它们在 Microsoft Dynamics 365 Supply Chain Management 中执行检查、记录测试结果。
 author: perlynne
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c951716a456101ba753e5c567c80deb4ee7e764f
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 964f8a37ac9471b2eb6c9ec01fc0322a43cfea11
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956571"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022172"
 ---
 # <a name="quality-orders"></a>质检订单
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64106cb1aeea01f1f227247d32b8b1dfdea98362
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793865"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020187"
 ---
 # <a name="commerce-inventory-management"></a>Commerce 库存管理
 
@@ -39,11 +39,11 @@ ms.locfileid: "5793865"
 
 - 销售点 (POS) 应用程序可以为以下维度提供有限的支持。 POS 可能根据仓库或商店设置配置在库存交易记录中自动输入这些维度中的一部分。 但是，如果在 Commerce Headquarters 中手动输入销售交易记录，POS 将不以维度支持方式完全支持这些维度。 
 
-- **仓库位置** – 使用新的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)和[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) POS 操作时，用户可以选择物料的接收仓库库存位置或出站转移单物料的发出仓库库存位置。 如果使用过时的 **领料和接收** 操作，为出站转移的接收和领料提供的位置管理支持有限。 仅当为物料和商店仓库开启了 **使用仓库管理流程** 选项，才提供此支持。 现在不能为 **存货盘点** 操作或 **库存查找** 操作使用库存位置。
+- **仓库位置** – 使用新的[入站操作](./pos-inbound-inventory-operation.md)和[出站操作](./pos-outbound-inventory-operation.md) POS 操作时，用户可以选择物料的接收仓库库存位置或出站转移单物料的发出仓库库存位置。 如果使用过时的 **领料和接收** 操作，为出站转移的接收和领料提供的位置管理支持有限。 仅当为物料和商店仓库开启了 **使用仓库管理流程** 选项，才提供此支持。 现在不能为 **存货盘点** 操作或 **库存查找** 操作使用库存位置。
 
-- **牌照** - 仅当对物料和商店仓库启用了 **使用仓库管理流程** 选项时，牌照才适用。 在 POS，如果使用 **入站操作** 操作或 **领料和接收** 操作（已开启了仓库管理流程）在商店库存中接收了库存，并且已经将选择了用于接收物料的位置链接到了需要牌照控制的位置配置文件，POS 应用程序将向接收行系统化应用牌照。 POS 用户不能更改或管理此牌照数据。 如果需要全面管理牌照，建议商店使用[仓库应用](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app)或后勤办公室客户端管理这些物料的收货。
+- **牌照** - 仅当对物料和商店仓库启用了 **使用仓库管理流程** 选项时，牌照才适用。 在 POS，如果使用 **入站操作** 操作或 **领料和接收** 操作（已开启了仓库管理流程）在商店库存中接收了库存，并且已经将选择了用于接收物料的位置链接到了需要牌照控制的位置配置文件，POS 应用程序将向接收行系统化应用牌照。 POS 用户不能更改或管理此牌照数据。 如果需要全面管理牌照，建议商店使用[仓库应用](../supply-chain/warehousing/install-configure-warehousing-app.md)或后勤办公室客户端管理这些物料的收货。
 
-- **序列号** - POS 应用程序有限支持要在 POS 中使用序列号物料创建且包含序列化物料的订单的交易记录销售行上登记的单个序列号。 不会针对库存中已登记的序列号验证此序列号。 如果某个销售订单是在呼叫中心渠道注册或通过企业资源规划 (ERP)履行的，并且在 ERP 中履行过程中将多个序列号登记到了一个销售行中，那么如果在 POS 中为这些订单处理退货，则不能应用或验证这些序列号。 使用 **入站操作** 操作接收库存时，用户可以[注册或确认接收的序列号](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items)。
+- **序列号** - POS 应用程序有限支持要在 POS 中使用序列号物料创建且包含序列化物料的订单的交易记录销售行上登记的单个序列号。 不会针对库存中已登记的序列号验证此序列号。 如果某个销售订单是在呼叫中心渠道注册或通过企业资源规划 (ERP)履行的，并且在 ERP 中履行过程中将多个序列号登记到了一个销售行中，那么如果在 POS 中为这些订单处理退货，则不能应用或验证这些序列号。 使用 **入站操作** 操作接收库存时，用户可以[注册或确认接收的序列号](./pos-serialized-items.md)。
 
 - **批处理 ID** - 如果销售受批次控制的物料，POS 应用程序在对帐单过帐期间提供有限的支持，但是 POS 用户无法定义使用 POS 应用程序时销售或选择的批处理 ID。
 
@@ -56,11 +56,11 @@ ms.locfileid: "5793865"
 
 ## <a name="purchase-orders"></a>采购订单
 
-采购订单在 Commerce Headquarters 中创建。 如果采购订单标题中或采购订单行中包含商店仓库，可以在 POS 中使用[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)操作在商店中接收这些行。 
+采购订单在 Commerce Headquarters 中创建。 如果采购订单标题中或采购订单行中包含商店仓库，可以在 POS 中使用[入站操作](./pos-inbound-inventory-operation.md)操作在商店中接收这些行。 
 
 ## <a name="transfer-orders"></a>转移单
 
-转移单可以在 Commerce Headquarters 中或通过 POS 中的[入站操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)或[出站操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)操作创建。 **入站操作** POS 操作用于创建转移单请求以将库存从其他仓库或商店位置发送到商店。 **出站操作** POS 操作用于创建转移单请求以将库存从商店装运到其他仓库或商店位置。 创建了商店的转移单之后，该商店可通过 POS 中的 **入站操作** 操作管理该转移单的库存接收。 如果商店将库存装运到其他位置，将使用 POS 中的 **出站操作** 操作管理该商店的出站装运流程。
+转移单可以在 Commerce Headquarters 中或通过 POS 中的[入站操作](./pos-inbound-inventory-operation.md)或[出站操作](./pos-outbound-inventory-operation.md)操作创建。 **入站操作** POS 操作用于创建转移单请求以将库存从其他仓库或商店位置发送到商店。 **出站操作** POS 操作用于创建转移单请求以将库存从商店装运到其他仓库或商店位置。 创建了商店的转移单之后，该商店可通过 POS 中的 **入站操作** 操作管理该转移单的库存接收。 如果商店将库存装运到其他位置，将使用 POS 中的 **出站操作** 操作管理该商店的出站装运流程。
 
 ## <a name="stock-counts"></a>存货盘点
 
@@ -68,7 +68,7 @@ ms.locfileid: "5793865"
 
 ## <a name="inventory-lookup"></a>库存查找
 
-在 **库存查找** 页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 选择要查看的 ATP 数量所属商店，然后选择 **显示商店可用性**。 有关可用配置选项的信息，请参阅[计算零售渠道的库存现有量](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels)。
+在 **库存查找** 页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 选择要查看的 ATP 数量所属商店，然后选择 **显示商店可用性**。 有关可用配置选项的信息，请参阅[计算零售渠道的库存现有量](./calculated-inventory-retail-channels.md)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

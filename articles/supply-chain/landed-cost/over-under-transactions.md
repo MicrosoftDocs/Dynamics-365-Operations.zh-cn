@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMOverUnderTrans, ITMOverUnderToleranceTable, ITMOverUnderReasonTable, ITMOverUnderToleranceGroup
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 53b1ebf27a58b1c16c6c249ca044fd746cce1436
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833729"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020903"
 ---
 # <a name="overunder-transactions"></a>超过/低于交易记录
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b8c3ab0653fd5e3561d0bfbe85624d912756e2be
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794179"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020251"
 ---
 # <a name="map-module"></a>地图模块
 
@@ -29,7 +29,7 @@ ms.locfileid: "5794179"
 
 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
 
-地图模块在使用[必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)呈现的交互式地图上显示商店位置。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地图模块提供不同的视图，如道路、空中和街边，用户可以选择这些视图来查看地图位置。 它们还允许进行交互，如缩放和使用用户的位置。
+地图模块在使用[必应地图 V8 Web 控件](/bingmaps/v8-web-control/)呈现的交互式地图上显示商店位置。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地图模块提供不同的视图，如道路、空中和街边，用户可以选择这些视图来查看地图位置。 它们还允许进行交互，如缩放和使用用户的位置。
 
 将地图模块与商店选择器模块结合使用可以确定必须在地图上呈现的商店的地理位置。 当用户在站点页面上的其中一个模块中选择商店时，商店选择器和地图模块进行交互。 除了与商店选择器模块进行交互外，地图模块还可以针对其他场景扩展。 但是，需要对模块进行自定义。
 
@@ -76,7 +76,7 @@ ms.locfileid: "5794179"
 
 [为您的组织管理必应地图](./dev-itpro/manage-bing-maps.md)
 
-[必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[必应地图 V8 Web 控件](/bingmaps/v8-web-control/)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

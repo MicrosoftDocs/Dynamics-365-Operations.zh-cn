@@ -2,11 +2,9 @@
 title: 不符合项操作的费用
 description: 本主题介绍如何创建可与不符合项的操作一起使用的质量费用。
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestMiscCharges
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfa424e94048aa9eb1ce4da9aa69e8d4df71cefb
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 382890232bff47a885840af1eb7e91d27bb46cae
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956562"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022292"
 ---
 # <a name="charges-for-nonconformance-operations"></a>不符合项操作的费用
 

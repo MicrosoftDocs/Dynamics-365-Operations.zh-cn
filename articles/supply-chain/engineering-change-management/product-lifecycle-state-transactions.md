@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842049"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016948"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 
@@ -74,5 +74,24 @@ ms.locfileid: "5842049"
 
 如果您要作为自定义添加更多生命周期状态规则，可以通过在上部窗格中选择 **刷新流程** 来在用户界面 (UI) 中查看这些规则。 **刷新流程** 按钮仅对管理员可用。
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>已发布产品和产品变型的生命周期状态
+
+对于具有变型的产品（基础产品和变型），产品（基础产品）将具有生命周期状态，每个变型也可能具有不同的生命周期状态。
+
+对于特定流程，如果变型或产品被阻止，该流程也将被阻止。 具体来说，为了确定某个流程是否被阻止，系统将进行以下检查：
+
+- 对于工程控制产品：
+  - 如果当前的工程版本被阻止，将阻止流程。
+  - 如果当前变型被阻止，将阻止流程。
+  - 如果已发布产品被阻止，将阻止流程。
+- 对于标准产品：
+  - 如果当前变型被阻止，将阻止流程。
+  - 如果已发布产品被阻止，将阻止流程。
+
+例如，假设您只想销售给定产品（T 恤）的一个变型（红色），目前阻止所有其他变型的销售。 您可以使用以下设置来实现此目的：
+
+- 为产品分配允许该流程的生命周期状态。 例如，为 T 恤产品分配生命周期状态 *适售*，这将允许 *销售订单* 业务流程。
+- 为适售变型分配允许该流程的生命周期状态。 例如，同时还为红色变型分配生命周期状态 *适售*。
+- 所有其他变型都被分配了另一个生命周期状态，在该状态下流程被阻止。 例如，为白色变型（和所有其他变型）分配生命周期状态 *不适售*，这将阻止 *销售订单* 业务流程。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

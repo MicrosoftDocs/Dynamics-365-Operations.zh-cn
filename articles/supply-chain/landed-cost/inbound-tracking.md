@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMContainerActivityTable
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 94754447b3f363716595de4902f48188c4ebbda9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823377"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022005"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>跟踪入站航行和装运集装箱行程
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793987"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018572"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793987"
 Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提供支持。 用户可以通过这些流注册、登录和重置密码。 Azure AD B2C 中存储敏感的用户身份验证信息，如用户名和密码。 B2C 租户中的用户记录中将存储 B2C 本地帐户记录或 B2C 社交标识提供程序记录。 这些 B2C 记录将链接回 Commerce 环境中的客户记录。
 
 > [!WARNING] 
-> Azure AD B2C 将于 2021 年 8 月 1 日停用旧（旧版）用户流。 因此，您应该计划将用户流迁移到新的推荐版本。 新版本提供功能奇偶一致性和新功能。 Commerce 版本 10.0.15 或更高版本的模块库应与推荐的 B2C 用户流一起使用。 有关详细信息，请参阅 [Azure Active Directory B2C 中的用户流](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview)。
+> Azure AD B2C 将于 2021 年 8 月 1 日停用旧（旧版）用户流。 因此，您应该计划将用户流迁移到新的推荐版本。 新版本提供功能奇偶一致性和新功能。 Commerce 版本 10.0.15 或更高版本的模块库应与推荐的 B2C 用户流一起使用。 有关详细信息，请参阅 [Azure Active Directory B2C 中的用户流](/azure/active-directory-b2c/user-flow-overview)。
  
  > [!NOTE]
  > Commerce 评估环境随预先加载的 Azure AD B2C 租户一起提供，以用于演示目的。 评估环境不需要使用下面的步骤加载自己的 Azure AD B2C 租户。
@@ -88,7 +88,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 1. 在 **隐式授权** 下方，选择 **访问令牌** 和 **ID 令牌** 以为应用程序启用它们。 选择 **保存**。
 1. 转到 Azure 门户的 **概述** 菜单，然后复制 **应用程序(客户端) ID**。 记下此 ID 以用于以后的设置步骤（以后称为 **客户端 GUID**）。
 
-有关 Azure AD B2C 中应用注册的其他参考，请参阅 [Azure Active Directory B2C 的新应用注册体验](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+有关 Azure AD B2C 中应用注册的其他参考，请参阅 [Azure Active Directory B2C 的新应用注册体验](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>回复 URL
 
@@ -110,7 +110,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 可选择使用 Azure AD 提供的默认用户流，这将显示 AAD B2C 托管的页面。 也可以创建 HTML 页面以控制这些用户流体验的外观。 
 
-若要自定义具有内置于 Dynamics 365 Commerce 的页面的用户策略页面，请参阅[设置用户登录的自定义页面](custom-pages-user-logins.md)。 有关更多信息，请参阅[定义 Azure Active Directory B2C 中的用户体验界面](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui)。
+若要自定义具有内置于 Dynamics 365 Commerce 的页面的用户策略页面，请参阅[设置用户登录的自定义页面](custom-pages-user-logins.md)。 有关更多信息，请参阅[定义 Azure Active Directory B2C 中的用户体验界面](/azure/active-directory-b2c/tutorial-customize-ui)。
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>创建注册和登录用户流策略
 
@@ -197,15 +197,15 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 必须先转到标识提供程序的门户并按照 Azure AD B2C 文档中的指示设置标识提供程序应用程序，才能添加用于身份验证的社交标识提供程序。 下面提供了文档的链接列表。
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD（单个租户）](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [Microsoft 帐户](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID 连接](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD（单个租户）](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [Microsoft 帐户](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID 连接](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>添加和设置社交标识提供程序
 
@@ -346,11 +346,11 @@ Azure AD B2C 租户设置完毕之后，必须在 Commerce 站点构建器中配
 
 如果考虑迁移早期标识提供程序平台中的客户记录，请与 Dynamics 365 Commerce 团队合作检查您的客户迁移需求。
 
-有关客户迁移的更多 Azure AD B2C 文档，请参阅[将用户迁移到 Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration)。
+有关客户迁移的更多 Azure AD B2C 文档，请参阅[将用户迁移到 Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-user-migration)。
 
 ### <a name="custom-policies"></a>自定义策略
 
-有关自定义非 B2C 标准策略提供的 Azure AD B2C 交互和策略流的更多信息，请参阅[在 Azure Active Directory B2C 中自定义策略](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom)。 
+有关自定义非 B2C 标准策略提供的 Azure AD B2C 交互和策略流的更多信息，请参阅[在 Azure Active Directory B2C 中自定义策略](/azure/active-directory-b2c/active-directory-b2c-overview-custom)。 
 
 ### <a name="secondary-admin"></a>第二管理员
 

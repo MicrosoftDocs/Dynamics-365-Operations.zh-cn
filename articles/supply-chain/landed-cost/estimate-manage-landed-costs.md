@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMCostTemplateTable, ITM CostEstimateDialog, ITMCostEstimateTable, SysOperationTemplateForm
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 174b80adbe61c455983307c6065b75704ce93ce9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823425"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021240"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>估计和管理登陆成本
 

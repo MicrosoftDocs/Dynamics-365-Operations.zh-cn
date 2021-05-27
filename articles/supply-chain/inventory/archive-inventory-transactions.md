@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956050"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021258"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791070"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022464"
 ---
 # <a name="e-commerce-site-overview"></a>电子商务站点概览
 
@@ -37,11 +37,11 @@ ms.locfileid: "5791070"
 
 只需设置一个在线商店渠道，便可以开始使用 Dynamics 365 Commerce。 但是，一个电子商务站点可以为多个在线商店提供在线体验。 例如，如果设置多个在线商店来支持不同的地理区域，可以使用一组电子商务页面来提供每个商店定义的独特体验。 有关如何配置站点以支持多个在线商店的详细信息，请参阅[将在线站点与渠道关联](associate-site-online-store.md)。
 
-设置在线商店后，可以将其与将用作您的在线店面的 Dynamics 365 Commerce 站点关联。 有关在线商店以及如何设置的详细信息，请参阅[设置在线商店](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores)。
+设置在线商店后，可以将其与将用作您的在线店面的 Dynamics 365 Commerce 站点关联。 有关在线商店以及如何设置的详细信息，请参阅[设置在线商店](/dynamics365/unified-operations/retail/online-stores)。
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
-在电子商务站点初始化期间，系统会提示您输入域名。 有关 Commerce 中的域的详细信息，请参阅[配置域名](configure-your-domain-name.md)和 [Dynamics 365 Commerce 中的域](domains-commerce.md)。 若要使用 [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) 部署新的电子商务租户，请按照[部署新的电子商务租户](deploy-ecommerce-site.md)中的步骤操作。 在 LCS 中设置电子商务租户后，将提供指向 Commerce 站点构建器的链接。 然后，您可以使用 Commerce 站点构建器来初始化和配置您的电子商务站点。
+在电子商务站点初始化期间，系统会提示您输入域名。 有关 Commerce 中的域的详细信息，请参阅[配置域名](configure-your-domain-name.md)和 [Dynamics 365 Commerce 中的域](domains-commerce.md)。 若要使用 [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) 部署新的电子商务租户，请按照[部署新的电子商务租户](deploy-ecommerce-site.md)中的步骤操作。 在 LCS 中设置电子商务租户后，将提供指向 Commerce 站点构建器的链接。 然后，您可以使用 Commerce 站点构建器来初始化和配置您的电子商务站点。
 
 ## <a name="initialize-your-e-commerce-site"></a>初始化电子商务站点
 

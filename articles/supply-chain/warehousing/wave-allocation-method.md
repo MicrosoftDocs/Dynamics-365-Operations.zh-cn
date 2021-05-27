@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: feee33a7d4ea3f0d9c4d671210293a28aac14f61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b01de3c9f1cbcb24abc2b5a0c91db7f0791020bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823159"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018995"
 ---
 # <a name="wave-allocation"></a>波次分配
 

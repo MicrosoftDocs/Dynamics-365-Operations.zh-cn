@@ -2,7 +2,6 @@
 title: 为在线订单配置销售税
 description: 此主题概述了 Dynamics 365 Commerce 中不同在线订单类型的销售税组选择。
 author: gvrmohanreddy
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8df939c1a566fb63bc53e455cc6c2aa85956ac79
-ms.sourcegitcommit: 583801af75c50915ea5ffc60e831fb617d045533
+ms.openlocfilehash: fff4f39703a146412b460dacc3805fde097ab756
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853803"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021432"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>为在线订单配置销售税
 
@@ -41,7 +40,7 @@ ms.locfileid: "5853803"
 
 ### <a name="order-pick-up-in-store"></a>订单在店内提货
 
-对于指定了店内提货或懒人提货的订单行，将应用所选提货商店的税组。 有关如何为给定商店设置销售税的详细信息，请参阅[为商店设置其他税务选项](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)。
+对于指定了店内提货或懒人提货的订单行，将应用所选提货商店的税组。 有关如何为给定商店设置销售税的详细信息，请参阅[为商店设置其他税务选项](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)。
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>在线订单的基于客户帐户的税务
 
@@ -71,15 +70,15 @@ ms.locfileid: "5853803"
 
 ## <a name="additional-resources"></a>其他资源
 
-[基于目的地为在线商店设置税务](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[基于目的地为在线商店设置税务](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
-[销售税概览](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
+[销售税概览](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[“源”字段中的销售税计算方法](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
+[“源”字段中的销售税计算方法](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[ 销售税分配和覆盖](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
+[ 销售税分配和覆盖](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[全部金额和销售税代码的间隔计算选项](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
+[全部金额和销售税代码的间隔计算选项](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
 [免税的计算](tax-exempt-price-inclusive.md) 
 

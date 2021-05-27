@@ -2,11 +2,9 @@
 title: 仓库库存调整
 description: 本主题提供有关使用缩放单元时仓库库存调整日记帐和处理的信息。
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventoryAdjustmentJournal, InventJournalCount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: be386539ea7addf20256ac2b1f8a2a72736fcbec
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a451816078ca2e77f30379828777209dc48bd849
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938218"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026125"
 ---
 # <a name="warehouse-inventory-adjustment"></a>仓库库存调整
 
@@ -40,7 +38,7 @@ ms.locfileid: "5938218"
 - 周期盘点
 - 牌照加载
 
-由于中心和缩放单元部署共享库存记录，因此在库存调整流程中将多个库存交易创建为云和边缘的一部分。
+由于中心和缩放单元部署共享库存记录，因此将多个库存交易创建为每个库存调整流程的一部分。
 
 ## <a name="inventory-adjustment-example"></a>库存调整示例
 

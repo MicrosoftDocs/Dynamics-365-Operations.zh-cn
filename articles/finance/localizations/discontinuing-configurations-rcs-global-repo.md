@@ -5,7 +5,6 @@ author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 25ad0744e7c3320505c13c465d440b6a364da47c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840284"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018725"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>在 RCS 全局知识库中停用配置
 

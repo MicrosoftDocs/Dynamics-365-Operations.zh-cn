@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMGoodsDescriptionTable, ITMVesselTable, ITMExporterTable, ITMCommodityCodeTable, ITMCustomsDescription
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 74ac7e0eac545369eef1a48f0085c820a4728e75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5093e42b0b5247c24c271ad50c80889516586d58
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833681"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020879"
 ---
 # <a name="shipping-information-setup"></a>装运信息设置
 

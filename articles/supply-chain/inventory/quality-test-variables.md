@@ -2,11 +2,9 @@
 title: 质量管理测试变量
 description: 本主题介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行定性测试的测试变量。
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e94972b41baf3f59a633fa7bbc7434abfb90460
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: b5102d09f5762a390d6fd3aadafcb2ed23820982
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956564"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021700"
 ---
 # <a name="quality-management-test-variables"></a>质量管理测试变量
 

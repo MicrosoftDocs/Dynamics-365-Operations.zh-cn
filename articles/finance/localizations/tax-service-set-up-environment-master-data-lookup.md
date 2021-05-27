@@ -5,7 +5,6 @@ author: kai-cloud
 ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: e4aa941c57e8c31793d6db8ae87140cd1bb1a82b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924146"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021336"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>设置用于主数据查询的环境
 

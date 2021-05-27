@@ -2,11 +2,9 @@
 title: 在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 description: 本主题介绍如何在 Microsoft Teams 和 Dynamics 365 Commerce 销售点 (POS) 之间同步任务管理。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3b4a9ad561e3bff67720a08d6e4184a81e01f734
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 74d53a850113c83979fba6baa4ff3c3e5d9ca02d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908261"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020619"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 

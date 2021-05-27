@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 197a2d1605dd39188841aba02a71d228c7138c54
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: ebb186a4cb9ca61399909625233b579acd2c0ec5
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921181"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022779"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>在税务配置中添加数据字段
 

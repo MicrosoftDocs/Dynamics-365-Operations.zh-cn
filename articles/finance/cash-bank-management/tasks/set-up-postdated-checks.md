@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834588"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026197"
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
@@ -51,9 +51,13 @@ ms.locfileid: "5834588"
     * 付款方法的抵消帐户将是银行。  
 17. 在“付款帐户”字段中，指定所需值。
     * 选择用于扣减发票金额的银行帐户。  
-18. 单击“保存”。
+18. 单击保存。
 19. 关闭该页面。
-
-
+> [!NOTE]
+> 要能够在会话日期晚于或等于到期日期时将远期支票过帐到银行帐户，您必须启用功能 **将带有远期支票的付款日记帐过帐到银行帐户的到期日期验证**。 当会话日期晚于或等于到期日期时，此功能让您可以过帐带有远期支票的供应商或客户的付款日记帐。
+> 
+> 设置 **付款方式**（**应付帐款 > 付款设置 >付款方式**）时，请勿填写 **过渡帐户**。 在这种情况下，抵销帐户将填充为 **付款方式** 中设置的银行帐户。
+>  
+> 启用此功能且会话日期早于到期日期时，过帐付款日记帐时将显示以下错误消息：“如果抵销帐户类型为‘银行’，到期日期必须早于或等于会话日期”。 如果未启用此功能，您可以在会话日期早于到期日期时过帐带有远期支票的付款日记帐。    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

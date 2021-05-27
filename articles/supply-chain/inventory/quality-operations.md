@@ -2,11 +2,9 @@
 title: 不符合项的操作
 description: 本主题介绍如何创建和使用不符合项的操作。
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestOperations, InventTestRelatedOperations
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6454a56323ea66369696dd6e3310a41b4eb9ee58
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: c9a6cc88b80f82d77edac0341cb6a3c0db4b42ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956570"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022196"
 ---
 # <a name="operations-for-nonconformances"></a>不符合项的操作
 

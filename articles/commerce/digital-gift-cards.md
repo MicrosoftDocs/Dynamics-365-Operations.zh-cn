@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792863"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019925"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>电子商务数字礼品卡
 
@@ -51,12 +51,12 @@ Dynamics 365 Commerce 10.0.16 版本及更高版本中支持购买数字礼品�
 
     ![Commerce headquarters 中的礼品卡产品字段](./media/PostGiftcard.png)
 
-- 如果礼品卡必须支持多个预定义金额（例如，$25、$50 和 $100），**尺寸** 维度应用于设置这些预定义金额。 每个预定义金额是一个变型。 有关详细信息，请参阅[产品维度](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)。
+- 如果礼品卡必须支持多个预定义金额（例如，$25、$50 和 $100），**尺寸** 维度应用于设置这些预定义金额。 每个预定义金额是一个变型。 有关详细信息，请参阅[产品维度](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)。
 - 如果客户必须能够为礼品卡指定自定义金额，请首先设置允许自定义金额的变型。 接下来，从 **类别中的已发布产品** 页打开产品，然后在 **Commerce** 快速选项卡上，将 **键入价格** 字段设置为 **必须键入新价格**，如下图所示。 此设置可确保客户在 PDP 上浏览产品时可以输入价格。
 
     ![Commerce headquarters 中的“键入价格”字段](./media/KeyInPrice.png)
 
-- 数字礼品卡的交货方式必须设置为 **电子**。 在 **交货方式** 页上（**零售和商业 \> 渠道设置 \> 交货方式**），在列表窗格中选择 **电子** 交货方式，然后将数字礼品卡产品添加到 **产品** 快速选项卡上的网格中，如下图所示。 有关详细信息，请参阅[设置交货方式](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)。
+- 数字礼品卡的交货方式必须设置为 **电子**。 在 **交货方式** 页上（**零售和商业 \> 渠道设置 \> 交货方式**），在列表窗格中选择 **电子** 交货方式，然后将数字礼品卡产品添加到 **产品** 快速选项卡上的网格中，如下图所示。 有关详细信息，请参阅[设置交货方式](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)。
 
     ![Commerce headquarters 中“交货方式”页上的数字礼品卡产品](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Dynamics 365 Commerce 10.0.16 版本及更高版本中支持购买数字礼品�
 
 [在 Commerce 中创建新产品](create-new-product-commerce.md)
 
-[设置交货模式](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[设置交货模式](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[产品维度](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[产品维度](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [设置电子邮件通知配置文件](email-notification-profiles.md)
 

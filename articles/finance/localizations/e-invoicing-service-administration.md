@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: 081d23c85d3555210b54597920a49e800ffe284b
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963183"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980914"
 ---
 # <a name="electronic-invoicing-administration-components"></a>电子开票管理组件
 
@@ -59,10 +59,10 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 
 | Azure 数据中心地理位置 |
 |----------------------------|
-| 美国东部                    |
-| 美国西部                    |
-| 欧洲北部                   |
-| 欧洲西部                    |
+| 美国              |
+| 欧洲                     |
+| 英国             |
+| 亚洲                       |
 
 ### <a name="service-environments"></a>服务环境
 

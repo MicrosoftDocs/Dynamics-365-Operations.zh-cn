@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9974b3e10bbdcd2e8a8723a3be4b70401bb9e546
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7ddf8a17640471a2344c45eef76f682d29ef2b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801595"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020807"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>零售店没有出现在要从中提货的商店的列表中
 
@@ -58,6 +57,6 @@ ms.locfileid: "5801595"
 
 ## <a name="additional-resources"></a>其他资源 
 
-[创建运营单位](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit)
+[创建运营单位](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md)
 
 [设置在线渠道](../channel-setup-online.md)

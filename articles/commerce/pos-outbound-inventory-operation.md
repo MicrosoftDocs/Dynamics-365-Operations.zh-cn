@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795637"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022723"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的传出库存操作
 
@@ -71,7 +71,7 @@ ms.locfileid: "5795637"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>先决条件：向 POS 屏幕布局添加出站操作
 
-组织必须在一个或多个 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **出站操作** POS 操作，才能使用出站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
+组织必须在一个或多个 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **出站操作** POS 操作，才能使用出站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
 
 ## <a name="overview"></a>概览
 

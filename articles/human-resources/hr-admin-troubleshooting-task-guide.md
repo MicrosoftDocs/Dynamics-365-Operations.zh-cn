@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51ffdb508f09ceaaefb458cd614b9c64604eb639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 40377ece3685c50a448bf48e1d001fb1ecbbff3e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797903"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028051"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>将任务指南保存到 LCS 并重新播放它们
 
@@ -30,11 +30,11 @@ ms.locfileid: "5797903"
 
 Microsoft Dynamics 365 Human Resources 通过 Microsoft Dynamics Lifecycle Services (LCS) 部署
 
-**发货**
+**签发**
 
-客户希望将新任务录制保存到其 LCS 项目，然后重新播放保存的任务指南。
+客户希望将新任务录制保存到 LCS 项目，然后重新播放保存的任务指南。
 
-**分辨率**
+**解决方法**
 
 请执行以下步骤将任务录制保存到 LCS。
 

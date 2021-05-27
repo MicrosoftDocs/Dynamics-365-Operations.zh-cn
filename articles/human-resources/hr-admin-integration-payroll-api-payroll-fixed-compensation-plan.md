@@ -2,7 +2,6 @@
 title: 工资单固定薪酬计划
 description: 本主题提供 Dynamics 365 Human Resources 中工资单固定薪酬计划实体的详细信息和示例查询。
 author: jcart
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a274cc491041d3d917a50bfb433f667cd8c255
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 85cfce6f626090adab422ea6c60fc0778fd1ac67
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881937"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021288"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>工资单固定薪酬计划
 

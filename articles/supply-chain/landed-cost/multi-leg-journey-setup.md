@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMLegTable, ITMJourneyTable, ITMActivityTable
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e1377b7453622e5bed711753fc2d99258d3c5951
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45e32c59c79389bcab15dd07d1bbd33d7ff34340
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833753"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021556"
 ---
 # <a name="multi-leg-journey-setup"></a>多支线行程设置
 

@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateCategory
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5a8bbfaff05b665cb85e9166cfc76363c4aedb64
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: f586e0f40b5362510333263a985eada39d3c53f5
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5919835"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020355"
 ---
 # <a name="rebate-reduction-principles"></a>返点缩减原则
 

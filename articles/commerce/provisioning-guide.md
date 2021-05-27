@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 19cedf01d1b916de785454d55448f41d1f5db1df
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792283"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022414"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
@@ -76,7 +76,7 @@ ms.locfileid: "5792283"
 
 ### <a name="add-the-azure-connector"></a>添加 Azure 连接器
 
-要将 Azure 连接器添加到您的 LCS 项目，请按照[完成 Azure 资源管理器 (ARM) 加入流程](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding)中的步骤操作。
+要将 Azure 连接器添加到您的 LCS 项目，请按照[完成 Azure 资源管理器 (ARM) 加入流程](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md)中的步骤操作。
 
 ### <a name="deploy-the-environment"></a>部署环境
 
@@ -180,9 +180,9 @@ ms.locfileid: "5792283"
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit（云）](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit（云）](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 

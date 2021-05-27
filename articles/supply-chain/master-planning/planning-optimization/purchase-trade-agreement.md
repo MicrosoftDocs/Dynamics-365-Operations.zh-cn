@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961697"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015893"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 
@@ -67,7 +67,7 @@ ms.locfileid: "5961697"
 1. 为每个相关产品重复此过程。
 
 > [!NOTE]
-> 计划优化支持多币种采购贸易协议。 当使用 **最低单价** 选项搜索贸易协议时，如果已在贸易协议行货币和法人的会计货币之间定义了汇率，系统将考虑具有不同货币的采购贸易协议行。 否则，贸易协议行将被忽略，您将在主计划过程中看到错误。 因此，主计划将包括来自所有相关采购贸易协议行的信息，在这些行中可以将价格转换为会计货币。
+> 计划优化支持多币种采购贸易协议。 当使用 **最低单价** 选项搜索贸易协议时，如果已在贸易协议行货币和法人的会计货币之间定义了汇率，系统将考虑具有不同货币的采购贸易协议行。 否则，贸易协议行将被忽略，您将在主计划过程中看到错误。 因此，主计划将包括来自所有相关采购贸易协议行的信息，在这些行中可以将价格转换为会计货币。 务必注意，在贸易协议行价格转换期间不会考虑舍入规则。
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>“计划优化”如何查找供应商和提前期的示例
 

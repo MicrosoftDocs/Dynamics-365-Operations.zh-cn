@@ -2,11 +2,9 @@
 title: 启用 Dynamics 365 Commerce 和 Microsoft Teams 集成
 description: 本主题介绍如何启用 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908387"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019827"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>启用 Dynamics 365 Commerce 和 Microsoft Teams 集成
 
@@ -39,9 +37,9 @@ ms.locfileid: "5908387"
 
 若要在 Azure 门户中使用您的租户注册 Teams 应用程序，请按照下列步骤操作。
 
-1. 按照[快速入门：在 Microsoft 身份平台中注册应用](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)中的步骤操作，以在 Azure 门户中使用您的租户注册 Teams 应用程序。
+1. 按照[快速入门：在 Microsoft 身份平台中注册应用](/azure/active-directory/develop/quickstart-register-app)中的步骤操作，以在 Azure 门户中使用您的租户注册 Teams 应用程序。
 1. 复制已注册应用的 **概述** 页面中的 **应用程序（客户端）ID** 值。 您将使用该值在 Commerce Headquarters 中启用 Teams 集成。
-1. 复制您在步骤 1 中[添加证书](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate)时输入的证书值。 该证书也称为公钥或应用程序密钥。 您将使用该值在 Commerce Headquarters 中启用 Teams 集成。
+1. 复制您在步骤 1 中[添加证书](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)时输入的证书值。 该证书也称为公钥或应用程序密钥。 您将使用该值在 Commerce Headquarters 中启用 Teams 集成。
 
 若要在 Commerce Headquarters 中启用 Teams 集成，请按照下列步骤操作。
 

@@ -80,7 +80,7 @@
                       href: get-started/whats-new-scm-10-0-17.md
                 - name: 已删除或弃用的功能
                   items:
-                    - name: 主页中已删除或弃用的功能
+                    - name: 已删除或弃用的功能主页
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -365,8 +365,6 @@
                   href: asset-management/objects/object-specification-overview.md
             - name: 维护请求设置
               items:
-                - name: 维护请求
-                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: 维护请求生命周期状态
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: 维护请求类型
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: 疑难解答
           items:
+            - name: 成本管理
+              items:
+                - name: 缺少有关将物料模型组复制到另一个法人的字段设置
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: “未入帐间接成本”报告包括已删除的生产订单
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: 对于零值物料收货，将使用零金额过帐采购应计
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: 实际收到的采购订单未显示在库存结算报表中
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: “物料价格”页面的“有效价格”选项卡上没有“开始日期”
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: 库存管理
+              items:
+                - name: 没有“实际更新时间”的批号存在多个库存交易记录
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: 冲销一项完工入库时产生意外的未结交易记录
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: 无法显示附加到领料单报告中的日记帐的新注释
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: 拆分订单时，已启动的检验单中的数量不会更新
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: 创建多个质检订单时，不会更新“上次测试日期”字段
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: 拆分实际称重数量时，使用最小值而不是标称数量
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: 主计划
+              items:
+                - name: 直接派生的确定订单由审查中的工作流处理
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: 主计划为虚拟产品生成计划订单
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: 负天数内存在采购时创建的计划采购订单
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: 无法上传需求预测条目中的成本价格
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: 无法从预测行中删除仓库需求预测维度
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: 采购
+              items:
+                - name: 无法在 VEL 公司中对面向客户的销售订单开具发票
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: 无法在请求更改后向采购申请中添加行
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: 产品信息管理
+              items:
+                - name: 无法应用模板以创建已发布的产品
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: 无法使用已发布产品 V2 实体导入物料
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: 采购订单未显示翻译后的产品文本
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: 生产控制
+              items:
+                - name: 未遵守物料清单行的耗用原则设置
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: 选择新的批次 ID 时会清除批处理号
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: 通过批处理作业重置生产订单时，未遵守后期选择
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: 用户可以取消选择已完工入库的产品的材料行
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: 过帐完工入库日记帐时出错
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: 物料清单行中未更新领料单日记帐中的仓库
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: 返点管理
+              items:
+                - name: 使用物料返点组累计客户返点失败
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: 销售和市场营销
+              items:
+                - name: 系统管理员无法清除订单保留，因为他们未获授权
+                  href: troubleshooting/sales/system-administrator.md
+            - name: 运输管理
+              items:
+                - name: 无法出于对帐原因将主科目添加为贷方科目
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: 仓库管理
               items:
+                - name: 在领料单登记期间选择库位时出错
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: 包装站未显示产品注释
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 库位模板不允许出现负库存，但允许负现有量
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: 对于单个收据上的多个工作标题，只会打印一个标签
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: 由于日历问题，无法确认装运
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: 由于工作不完整或缺失，无法确认装运

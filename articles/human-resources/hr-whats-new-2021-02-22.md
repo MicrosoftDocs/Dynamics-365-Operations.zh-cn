@@ -5,7 +5,6 @@ author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2e23dc5d39aa96fd08c7b37422795b22c1463dc9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892601"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019290"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 2 月 22 日）
 

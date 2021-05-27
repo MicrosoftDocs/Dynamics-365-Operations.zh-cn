@@ -5,7 +5,6 @@ author: shtao
 ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ead979081692d4dcee9812c89f5f10c7879d3f7e
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947602"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020107"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>未计算税款或税额为零
 

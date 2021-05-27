@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMContainersListPage, ITMContainers
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9b42292194d40f6b0cc6203130bedc1fbb45eec8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 134e8001a22d62487ead5c4fbd137d61791be6c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833801"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021168"
 ---
 # <a name="manage-shipping-containers"></a>管理装运集装箱
 

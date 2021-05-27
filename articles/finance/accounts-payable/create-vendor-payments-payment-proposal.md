@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 125cc9dd1fb2ba0d3aeced8018d15e615b5d78e6
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820753"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027834"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 
@@ -62,7 +62,7 @@ ms.locfileid: "5820753"
 | 3075   | 1003    | 六月十五日      | 250.00         | 六月二十九日  |                    | 0.00                 |
 | 3100   | 1004    | 六月十七号      | 100.00         | 七月十七号  | 7 月 1 日             | 1.00                 |
 
-在七月一日，April 向供应商付款。 她使用某付款方案更高效地帮助员工完成此任务。
+在七月一日，April 向供应商付款。 她使用某付款方案更高效地完成此任务。
 
 ### <a name="option-1-by-cash-discount"></a>选项 1：按现金折扣
 

@@ -2,7 +2,6 @@
 title: 财务维度集
 description: 本主题介绍了财务维度集并提供一些优化其用法的提示。
 author: yukonpeegs
-manager: AnnBe
 ms.date: 03/23/2021
 ms.topic: article
 ems.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b719d8eb868cb1722b470be4443d01181078ce21
-ms.sourcegitcommit: 97ada5d52ed1829dcf030dad254096cd8df25da8
+ms.openlocfilehash: ba11be028ebeea140df93e2a07dbb463402e3ef0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5864404"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021820"
 ---
 # <a name="financial-dimension-sets"></a>财务维度集
 

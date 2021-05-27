@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a0e49d1eced3bb62e78c630b137a5b86121682f3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795229"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027616"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>创建任务列表并添加任务
 
@@ -49,7 +49,7 @@ ms.locfileid: "5795229"
 1. 在 **创建新任务** 对话框的 **名称** 字段中，输入任务的名称。
 1. 在 **从目标日期算起的到期日期偏置** 字段中，输入正整数或负整数值。 例如，如果任务应该在任务列表到期日期之前两天完成，则输入 **-2**。
 1. 在 **注释** 字段中，输入详细说明。
-1. 在 **联系人** 字段中，装入任务负责人在需要帮助时可以联系的主题专家的姓名。
+1. 在 **联系人** 字段中，输入任务负责人在需要帮助时可以联系的主题专家的姓名。
 1. 在 **任务链接** 字段中，根据任务的性质输入链接。
 
 > [!TIP]

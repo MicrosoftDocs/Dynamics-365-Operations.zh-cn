@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c779997d530d60f945bee19ee09bdabbff121fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 707efeba9553b996e4e33a4754e42a9d22643e33
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801811"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019581"
 ---
 # <a name="troubleshoot-dynamics-365-payment-connector-for-adyen-issues"></a>解决适用于 Adyen 的 Dynamics 365 付款连接器问题
 
