@@ -15,92 +15,89 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808656"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016124"
 ---
-# <a name="cost-and-date-control"></a><span data-ttu-id="be6e8-103">成本和日期控制</span><span class="sxs-lookup"><span data-stu-id="be6e8-103">Cost and date control</span></span>
+# <a name="cost-and-date-control"></a><span data-ttu-id="0c93c-103">成本和日期控制</span><span class="sxs-lookup"><span data-stu-id="0c93c-103">Cost and date control</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
- 
+<span data-ttu-id="0c93c-104">在资产管理中，可计算成本，以便获取资产、功能位置和工作订单的实际成本与预算成本的比较概览。</span><span class="sxs-lookup"><span data-stu-id="0c93c-104">In Asset Management, you can calculate costs to get an overview of actual costs compared to budget costs on assets, functional locations, and work orders.</span></span> <span data-ttu-id="0c93c-105">实际成本基于过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="0c93c-105">Actual costs are based on posted transactions.</span></span>
 
-<span data-ttu-id="be6e8-104">在资产管理中，可计算成本，以便获取资产、功能位置和工作订单的实际成本与预算成本的比较概览。</span><span class="sxs-lookup"><span data-stu-id="be6e8-104">In Asset Management, you can calculate costs to get an overview of actual costs compared to budget costs on assets, functional locations, and work orders.</span></span> <span data-ttu-id="be6e8-105">实际成本基于过帐的交易记录。</span><span class="sxs-lookup"><span data-stu-id="be6e8-105">Actual costs are based on posted transactions.</span></span> 
+<span data-ttu-id="0c93c-106">如果要将工作订单的计划开始日期和结束日期与实际开始日期和结束日期进行比较，也可以创建日期计算。</span><span class="sxs-lookup"><span data-stu-id="0c93c-106">You can also make a date calculation if you want to compare scheduled start and end dates to actual start and end dates on work orders.</span></span>
 
-<span data-ttu-id="be6e8-106">如果要将工作订单的计划开始日期和结束日期与实际开始日期和结束日期进行比较，也可以创建日期计算。</span><span class="sxs-lookup"><span data-stu-id="be6e8-106">You can also make a date calculation if you want to compare scheduled start and end dates to actual start and end dates on work orders.</span></span>
+## <a name="cost-control-for-assets-functional-locations-and-work-orders"></a><span data-ttu-id="0c93c-107">资产、功能位置和工作订单的成本控制</span><span class="sxs-lookup"><span data-stu-id="0c93c-107">Cost control for assets, functional locations, and work orders</span></span>
 
-## <a name="cost-control-for-assets-functional-locations-and-work-orders"></a><span data-ttu-id="be6e8-107">资产、功能位置和工作订单的成本控制</span><span class="sxs-lookup"><span data-stu-id="be6e8-107">Cost control for assets, functional locations, and work orders</span></span>
+<span data-ttu-id="0c93c-108">为资产、功能位置和工作订单创建的计算几乎相同。</span><span class="sxs-lookup"><span data-stu-id="0c93c-108">The calculations made for assets, functional locations, and work orders are almost identical.</span></span> <span data-ttu-id="0c93c-109">唯一的区别是，对于资产和功能位置，还可以在计算中包括子资产和子位置。</span><span class="sxs-lookup"><span data-stu-id="0c93c-109">The only difference is that for assets and functional locations, you can also include sub assets and sub locations in your calculation.</span></span> <span data-ttu-id="0c93c-110">日期是记录登记时的交易记录日期。</span><span class="sxs-lookup"><span data-stu-id="0c93c-110">The date is the transaction date when the registration was recorded.</span></span>
 
-<span data-ttu-id="be6e8-108">为资产、功能位置和工作订单创建的计算几乎相同。</span><span class="sxs-lookup"><span data-stu-id="be6e8-108">The calculations made for assets, functional locations, and work orders are almost identical.</span></span> <span data-ttu-id="be6e8-109">唯一的区别是，对于资产和功能位置，还可以在计算中包括子资产和子位置。</span><span class="sxs-lookup"><span data-stu-id="be6e8-109">The only difference is that for assets and functional locations, you can also include sub assets and sub locations in your calculation.</span></span> <span data-ttu-id="be6e8-110">日期是记录登记时的交易记录日期。</span><span class="sxs-lookup"><span data-stu-id="be6e8-110">The date is the transaction date when the registration was recorded.</span></span>
+1. <span data-ttu-id="0c93c-111">单击 **资产管理** > **查询** > **资产** > **资产成本控制** 或 **功能位置成本控制**，或 **资产管理** > **查询** > **工作订单** > **工作订单成本控制**。</span><span class="sxs-lookup"><span data-stu-id="0c93c-111">Click **Asset management** > **Inquiries** > **Assets** > **Asset cost control** or **Functional location cost control**, or **Asset management** > **Inquiries** > **Work orders** > **Work order cost control**.</span></span>
 
-1. <span data-ttu-id="be6e8-111">单击 **资产管理** > **查询** > **资产** > **资产成本控制** 或 **功能位置成本控制**，或 **资产管理** > **查询** > **工作订单** > **工作订单成本控制**。</span><span class="sxs-lookup"><span data-stu-id="be6e8-111">Click **Asset management** > **Inquiries** > **Assets** > **Asset cost control** or **Functional location cost control**, or **Asset management** > **Inquiries** > **Work orders** > **Work order cost control**.</span></span>
+2. <span data-ttu-id="0c93c-112">在 **资产成本控制** / **功能位置成本控制** / **工作订单成本控制** 对话框中，选择要计算的时间范围。</span><span class="sxs-lookup"><span data-stu-id="0c93c-112">In the **Asset cost control** / **Functional location cost control** / **Work order cost control** dialog, select a time range to be calculated.</span></span>
 
-2. <span data-ttu-id="be6e8-112">在 **资产成本控制** / **功能位置成本控制** / **工作订单成本控制** 对话框中，选择要计算的时间范围。</span><span class="sxs-lookup"><span data-stu-id="be6e8-112">In the **Asset cost control** / **Functional location cost control** / **Work order cost control** dialog, select a time range to be calculated.</span></span>
+3. <span data-ttu-id="0c93c-113">如果需要，选择计算中要包括的财务维度集。</span><span class="sxs-lookup"><span data-stu-id="0c93c-113">If required, select a financial dimension set to be included in the calculation.</span></span>
 
-3. <span data-ttu-id="be6e8-113">如果需要，选择计算中要包括的财务维度集。</span><span class="sxs-lookup"><span data-stu-id="be6e8-113">If required, select a financial dimension set to be included in the calculation.</span></span>
+4. <span data-ttu-id="0c93c-114">如果不希望显示包含零成本的结果，请在 **忽略零** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="0c93c-114">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
 
-4. <span data-ttu-id="be6e8-114">如果不希望显示包含零成本的结果，请在 **忽略零** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="be6e8-114">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
+5. <span data-ttu-id="0c93c-115">可使用 **级别** 字段指示要与功能位置有关的成本控制行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="0c93c-115">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
 
-5. <span data-ttu-id="be6e8-115">可使用 **级别** 字段指示要与功能位置有关的成本控制行的详细程度。</span><span class="sxs-lookup"><span data-stu-id="be6e8-115">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
+    <span data-ttu-id="0c93c-116">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置层次结构，则将在最上级别显示某个功能位置的所有成本控制行，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="0c93c-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location hierarchy, all cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span>
 
-    <span data-ttu-id="be6e8-116">例如，如果在字段中插入数字“1”，并且采用了多级别功能位置层次结构，则将在最上级别显示某个功能位置的所有成本控制行，因此，可以从较低级别的功能位置叠加行中的工时。</span><span class="sxs-lookup"><span data-stu-id="be6e8-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location hierarchy, all cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
-    
-    <span data-ttu-id="be6e8-117">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有成本控制行。</span><span class="sxs-lookup"><span data-stu-id="be6e8-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all cost control lines on all the functional location level to which they are related.</span></span>
+    <span data-ttu-id="0c93c-117">如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有成本控制行。</span><span class="sxs-lookup"><span data-stu-id="0c93c-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all cost control lines on all the functional location level to which they are related.</span></span>
 
-6. <span data-ttu-id="be6e8-118">如果要在计算中包括该列，请在 **显示未结承诺成本** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="be6e8-118">Select "Yes" on the **Show open committed cost** toggle button if you want to include that column in the calculation.</span></span>
+6. <span data-ttu-id="0c93c-118">如果要在计算中包括该列，请在 **显示未结承诺成本** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="0c93c-118">Select "Yes" on the **Show open committed cost** toggle button if you want to include that column in the calculation.</span></span>
 
-7. <span data-ttu-id="be6e8-119">若要将与子资产关联的成本显示为单独行，请在 **包括子资产** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="be6e8-119">Select "Yes" on the **Include sub assets** toggle button to show costs related to sub assets as separate lines.</span></span>
+7. <span data-ttu-id="0c93c-119">若要将与子资产关联的成本显示为单独行，请在 **包括子资产** 切换按钮上选择“是”。</span><span class="sxs-lookup"><span data-stu-id="0c93c-119">Select "Yes" on the **Include sub assets** toggle button to show costs related to sub assets as separate lines.</span></span>
 
-8. <span data-ttu-id="be6e8-120">如果要限制搜索，可在 **要包括的记录** 快速选项卡上选择特定资产/功能位置/工作订单。</span><span class="sxs-lookup"><span data-stu-id="be6e8-120">If you want to limit the search, you can select specific assets / functional locations / work orders on the **Records to include** FastTab.</span></span>
+8. <span data-ttu-id="0c93c-120">如果要限制搜索，可在 **要包括的记录** 快速选项卡上选择特定资产/功能位置/工作订单。</span><span class="sxs-lookup"><span data-stu-id="0c93c-120">If you want to limit the search, you can select specific assets / functional locations / work orders on the **Records to include** FastTab.</span></span>
 
-9. <span data-ttu-id="be6e8-121">单击 **确定** 开始计算。</span><span class="sxs-lookup"><span data-stu-id="be6e8-121">Click **OK** to start the calculation.</span></span>
+9. <span data-ttu-id="0c93c-121">单击 **确定** 开始计算。</span><span class="sxs-lookup"><span data-stu-id="0c93c-121">Click **OK** to start the calculation.</span></span>
 
-    <span data-ttu-id="be6e8-122">下图显示 **资产成本控制** 对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="be6e8-122">The figure below shows an example of the **Asset cost control** dialog.</span></span>
+    <span data-ttu-id="0c93c-122">下图显示 **资产成本控制** 对话框的示例。</span><span class="sxs-lookup"><span data-stu-id="0c93c-122">The figure below shows an example of the **Asset cost control** dialog.</span></span>
 
     ![“资产成本控制”对话框](media/01-controlling-and-reporting.png)
 
-10. <span data-ttu-id="be6e8-124">在 **资产成本控制** 页面上，单击 **分组依据** 按钮显示所需的计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="be6e8-124">On the **Asset cost control** page, click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="be6e8-125">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="be6e8-125">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="be6e8-126">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="be6e8-126">Click on a button to activate or deactivate it.</span></span>
+10. <span data-ttu-id="0c93c-124">在 **资产成本控制** 页面上，单击 **分组依据** 按钮显示所需的计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="0c93c-124">On the **Asset cost control** page, click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="0c93c-125">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="0c93c-125">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="0c93c-126">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="0c93c-126">Click on a button to activate or deactivate it.</span></span>
 
-## <a name="example"></a><span data-ttu-id="be6e8-127">示例</span><span class="sxs-lookup"><span data-stu-id="be6e8-127">Example</span></span>
+## <a name="example-of-calculation-results-in-asset-cost-control"></a><span data-ttu-id="0c93c-127">资产成本控制中的计算结果示例</span><span class="sxs-lookup"><span data-stu-id="0c93c-127">Example of calculation results in asset cost control</span></span>
 
-<span data-ttu-id="be6e8-128">下面的屏幕截图显示 **资产成本控制** 中的计算结果的示例。</span><span class="sxs-lookup"><span data-stu-id="be6e8-128">The screenshot below shows an example of calculation results in **Asset cost control**.</span></span>
+<span data-ttu-id="0c93c-128">下面的屏幕截图显示 **资产成本控制** 中的计算结果的示例。</span><span class="sxs-lookup"><span data-stu-id="0c93c-128">The screenshot below shows an example of calculation results in **Asset cost control**.</span></span>
 
-- <span data-ttu-id="be6e8-129">**原始预算** 字段显示工作订单预测中的预算成本。</span><span class="sxs-lookup"><span data-stu-id="be6e8-129">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
-- <span data-ttu-id="be6e8-130">**承诺成本** 字段显示法人自行承诺支付的费用总额。</span><span class="sxs-lookup"><span data-stu-id="be6e8-130">The **Committed cost** field shows the total amount of expenses that a legal entity has committed itself to pay.</span></span> 
-- <span data-ttu-id="be6e8-131">**未结承诺成本** 字段显示对要为您已订购或收到，但尚未付款的物料、工时和服务的付款承诺。</span><span class="sxs-lookup"><span data-stu-id="be6e8-131">The **Open committed cost** field shows commitments to pay for items, hours, and services you have ordered or received but not yet paid for.</span></span> 
-- <span data-ttu-id="be6e8-132">**实际成本** 字段显示过帐所有消耗登记之后的相关成本。</span><span class="sxs-lookup"><span data-stu-id="be6e8-132">The **Actual cost** field shows related costs after all consumption registrations have been posted.</span></span>
+- <span data-ttu-id="0c93c-129">**原始预算** 字段显示工作订单预测中的预算成本。</span><span class="sxs-lookup"><span data-stu-id="0c93c-129">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
+- <span data-ttu-id="0c93c-130">**承诺成本** 字段显示法人自行承诺支付的费用总额。</span><span class="sxs-lookup"><span data-stu-id="0c93c-130">The **Committed cost** field shows the total amount of expenses that a legal entity has committed itself to pay.</span></span> 
+- <span data-ttu-id="0c93c-131">**未结承诺成本** 字段显示对要为您已订购或收到，但尚未付款的物料、工时和服务的付款承诺。</span><span class="sxs-lookup"><span data-stu-id="0c93c-131">The **Open committed cost** field shows commitments to pay for items, hours, and services you have ordered or received but not yet paid for.</span></span> 
+- <span data-ttu-id="0c93c-132">**实际成本** 字段显示过帐所有消耗登记之后的相关成本。</span><span class="sxs-lookup"><span data-stu-id="0c93c-132">The **Actual cost** field shows related costs after all consumption registrations have been posted.</span></span>
 
 ![“资产成本控制”中的计算结果示例](media/02-controlling-and-reporting.png)
 
-<span data-ttu-id="be6e8-134">另外一种创建成本计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。</span><span class="sxs-lookup"><span data-stu-id="be6e8-134">Another way of making a cost calculation is to multi-select assets in **All assets** or **Active assets**.</span></span> <span data-ttu-id="be6e8-135">然后，单击 **常规** 选项卡上的 **成本控制** 按钮。在 **资产成本控制** 对话框中，将把所选资产自动插入到 **要包括的记录** 快速选项卡上的 **资产** 字段中。</span><span class="sxs-lookup"><span data-stu-id="be6e8-135">Then, you click the **Cost control** button on the **General** tab. In the **Asset cost control** dialog, the selected assets are automatically inserted in the **Asset** field on the **Records to include** FastTab.</span></span> <span data-ttu-id="be6e8-136">单击 **确定**，然后将显示所选资产的成本计算。</span><span class="sxs-lookup"><span data-stu-id="be6e8-136">Click **OK**, and a cost calculation for the selected assets is shown.</span></span> <span data-ttu-id="be6e8-137">可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。</span><span class="sxs-lookup"><span data-stu-id="be6e8-137">The same procedure can be done for functional locations in **All functional locations** or **Active functional locations**, and for work orders in **All work orders** or **Active work orders**.</span></span>
+<span data-ttu-id="0c93c-134">另外一种创建成本计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。</span><span class="sxs-lookup"><span data-stu-id="0c93c-134">Another way of making a cost calculation is to multi-select assets in **All assets** or **Active assets**.</span></span> <span data-ttu-id="0c93c-135">然后，单击 **常规** 选项卡上的 **成本控制** 按钮。在 **资产成本控制** 对话框中，将把所选资产自动插入到 **要包括的记录** 快速选项卡上的 **资产** 字段中。</span><span class="sxs-lookup"><span data-stu-id="0c93c-135">Then, you click the **Cost control** button on the **General** tab. In the **Asset cost control** dialog, the selected assets are automatically inserted in the **Asset** field on the **Records to include** FastTab.</span></span> <span data-ttu-id="0c93c-136">单击 **确定**，然后将显示所选资产的成本计算。</span><span class="sxs-lookup"><span data-stu-id="0c93c-136">Click **OK**, and a cost calculation for the selected assets is shown.</span></span> <span data-ttu-id="0c93c-137">可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。</span><span class="sxs-lookup"><span data-stu-id="0c93c-137">The same procedure can be done for functional locations in **All functional locations** or **Active functional locations**, and for work orders in **All work orders** or **Active work orders**.</span></span>
 
+## <a name="work-order-date-control"></a><span data-ttu-id="0c93c-138">工作订单日期控制</span><span class="sxs-lookup"><span data-stu-id="0c93c-138">Work order date control</span></span>
 
-## <a name="work-order-date-control"></a><span data-ttu-id="be6e8-138">工作订单日期控制</span><span class="sxs-lookup"><span data-stu-id="be6e8-138">Work order date control</span></span>
+<span data-ttu-id="0c93c-139">此页用于获取工作订单的预计开始日期和结束日期与实际开始日期和结束日期的比较概览。</span><span class="sxs-lookup"><span data-stu-id="0c93c-139">Use this page to get an overview of expected start and end dates compared to actual start and end dates on work orders.</span></span>
 
-<span data-ttu-id="be6e8-139">此页用于获取工作订单的预计开始日期和结束日期与实际开始日期和结束日期的比较概览。</span><span class="sxs-lookup"><span data-stu-id="be6e8-139">Use this page to get an overview of expected start and end dates compared to actual start and end dates on work orders.</span></span>
+1. <span data-ttu-id="0c93c-140">单击 **资产管理** > **查询** > **工作订单** > **工作订单日期控制**。</span><span class="sxs-lookup"><span data-stu-id="0c93c-140">Click **Asset management** > **Inquiries** > **Work orders** > **Work order date control**.</span></span>
 
-1. <span data-ttu-id="be6e8-140">单击 **资产管理** > **查询** > **工作订单** > **工作订单日期控制**。</span><span class="sxs-lookup"><span data-stu-id="be6e8-140">Click **Asset management** > **Inquiries** > **Work orders** > **Work order date control**.</span></span>
+2. <span data-ttu-id="0c93c-141">单击 **计算**。</span><span class="sxs-lookup"><span data-stu-id="0c93c-141">Click **Calculate**.</span></span>
 
-2. <span data-ttu-id="be6e8-141">单击 **计算**。</span><span class="sxs-lookup"><span data-stu-id="be6e8-141">Click **Calculate**.</span></span>
+3. <span data-ttu-id="0c93c-142">在 **功能位置** 字段中选择一个功能位置。</span><span class="sxs-lookup"><span data-stu-id="0c93c-142">Select a functional location in the **Functional location** field.</span></span>
 
-3. <span data-ttu-id="be6e8-142">在 **功能位置** 字段中选择一个功能位置。</span><span class="sxs-lookup"><span data-stu-id="be6e8-142">Select a functional location in the **Functional location** field.</span></span>
+4. <span data-ttu-id="0c93c-143">在 **开始日期** 和 **结束日期** 字段中插入要为其创建计算的范围。</span><span class="sxs-lookup"><span data-stu-id="0c93c-143">Insert the range for which you want to make the calculation in the **From date** and **To date** fields.</span></span> <span data-ttu-id="0c93c-144">将包括预计开始日期在该范围内的所有工作订单。</span><span class="sxs-lookup"><span data-stu-id="0c93c-144">All work orders with expected start date within the range will be included.</span></span>
 
-4. <span data-ttu-id="be6e8-143">在 **开始日期** 和 **结束日期** 字段中插入要为其创建计算的范围。</span><span class="sxs-lookup"><span data-stu-id="be6e8-143">Insert the range for which you want to make the calculation in the **From date** and **To date** fields.</span></span> <span data-ttu-id="be6e8-144">将包括预计开始日期在该范围内的所有工作订单。</span><span class="sxs-lookup"><span data-stu-id="be6e8-144">All work orders with expected start date within the range will be included.</span></span>
+5. <span data-ttu-id="0c93c-145">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="0c93c-145">Click **OK**.</span></span>
 
-5. <span data-ttu-id="be6e8-145">单击 **确定**。</span><span class="sxs-lookup"><span data-stu-id="be6e8-145">Click **OK**.</span></span>
+6. <span data-ttu-id="0c93c-146">单击 **分组依据** 按钮显示所需的计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="0c93c-146">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="0c93c-147">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="0c93c-147">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="0c93c-148">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="0c93c-148">Click on a button to activate or deactivate it.</span></span>
 
-6. <span data-ttu-id="be6e8-146">单击 **分组依据** 按钮显示所需的计算详细程度。</span><span class="sxs-lookup"><span data-stu-id="be6e8-146">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="be6e8-147">将突出显示所选 **分组依据** 按钮。</span><span class="sxs-lookup"><span data-stu-id="be6e8-147">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="be6e8-148">单击按钮将其激活或停用。</span><span class="sxs-lookup"><span data-stu-id="be6e8-148">Click on a button to activate or deactivate it.</span></span>
+## <a name="example-of-calculation-results-in-work-order-date-control"></a><span data-ttu-id="0c93c-149">工作订单日期控制中的计算结果示例</span><span class="sxs-lookup"><span data-stu-id="0c93c-149">Example of calculation results in work order date control</span></span>
 
-## <a name="example"></a><span data-ttu-id="be6e8-149">示例</span><span class="sxs-lookup"><span data-stu-id="be6e8-149">Example</span></span>
+<span data-ttu-id="0c93c-150">下面的屏幕截图显示 **工作订单日期控制** 中的计算结果的示例。</span><span class="sxs-lookup"><span data-stu-id="0c93c-150">The screenshot below shows an example of calculation results in **Work order date control**.</span></span>
 
-<span data-ttu-id="be6e8-150">下面的屏幕截图显示 **工作订单日期控制** 中的计算结果的示例。</span><span class="sxs-lookup"><span data-stu-id="be6e8-150">The screenshot below shows an example of calculation results in **Work order date control**.</span></span>
-
-- <span data-ttu-id="be6e8-151">**平均开始延迟** 字段显示工作订单的计划开始日期与实际开始日期之间的天数。</span><span class="sxs-lookup"><span data-stu-id="be6e8-151">The **Avg. start delay** field shows the difference in days between scheduled start date for a work order compared to actual start date.</span></span> <span data-ttu-id="be6e8-152">例如，如果实际开始日期在计划开始日期的两天前，则此字段中将显示“-2”。</span><span class="sxs-lookup"><span data-stu-id="be6e8-152">If, for example, the actual start date was two days before the scheduled start date, "-2" will be displayed in this field.</span></span>  
-- <span data-ttu-id="be6e8-153">**平均结束延迟** 字段显示工作订单的计划结束日期与实际结束日期之间的天数。</span><span class="sxs-lookup"><span data-stu-id="be6e8-153">The **Avg. end delay** field shows the difference in days between scheduled end date for a work order compared to actual end date.</span></span> <span data-ttu-id="be6e8-154">例如，如果实际结束日期在计划结束日期的三天后，则此字段中将显示“3”。</span><span class="sxs-lookup"><span data-stu-id="be6e8-154">If, for example, the actual end date was three days after the scheduled end date, "3" will be displayed in this field.</span></span>  
-- <span data-ttu-id="be6e8-155">**发生次数** 字段显示工作订单的计划开始日期与实际开始日期之间和计划结束日期与实际结束日期之间发生偏差的次数。</span><span class="sxs-lookup"><span data-stu-id="be6e8-155">The **Occurrences** fields show the number of times deviations occur in relation to scheduled and actual start date, and scheduled and actual end date on the work order.</span></span>
+- <span data-ttu-id="0c93c-151">**平均开始延迟** 字段显示工作订单的计划开始日期与实际开始日期之间的天数。</span><span class="sxs-lookup"><span data-stu-id="0c93c-151">The **Avg. start delay** field shows the difference in days between scheduled start date for a work order compared to actual start date.</span></span> <span data-ttu-id="0c93c-152">例如，如果实际开始日期在计划开始日期的两天前，则此字段中将显示“-2”。</span><span class="sxs-lookup"><span data-stu-id="0c93c-152">If, for example, the actual start date was two days before the scheduled start date, "-2" will be displayed in this field.</span></span>  
+- <span data-ttu-id="0c93c-153">**平均结束延迟** 字段显示工作订单的计划结束日期与实际结束日期之间的天数。</span><span class="sxs-lookup"><span data-stu-id="0c93c-153">The **Avg. end delay** field shows the difference in days between scheduled end date for a work order compared to actual end date.</span></span> <span data-ttu-id="0c93c-154">例如，如果实际结束日期在计划结束日期的三天后，则此字段中将显示“3”。</span><span class="sxs-lookup"><span data-stu-id="0c93c-154">If, for example, the actual end date was three days after the scheduled end date, "3" will be displayed in this field.</span></span>  
+- <span data-ttu-id="0c93c-155">**发生次数** 字段显示工作订单的计划开始日期与实际开始日期之间和计划结束日期与实际结束日期之间发生偏差的次数。</span><span class="sxs-lookup"><span data-stu-id="0c93c-155">The **Occurrences** fields show the number of times deviations occur in relation to scheduled and actual start date, and scheduled and actual end date on the work order.</span></span>
 
 ![“工作订单日期控制”中的计算结果示例](media/03-controlling-and-reporting.png)
 
