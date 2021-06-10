@@ -1,8 +1,8 @@
 ---
 title: 试算平衡表财务报表
 description: 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816923"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103650"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816923"
 
 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。 
 
-<a name="default-trial-balance-reports"></a>默认试算平衡表
------------------------------
+## <a name="default-trial-balance-reports"></a>默认试算平衡表
 
 三个试算平衡表可用于财务报表。
 
@@ -47,6 +46,9 @@ ms.locfileid: "5816923"
 | 试算平衡表(明细) - 默认               | 试算平衡表 - 默认 | 试算平衡表(明细) - 默认               |
 | 试算平衡表汇总 – 默认                | 试算平衡表 - 默认 | 试算平衡表汇总 - 默认                |
 | 各年汇总试算余额表 – 默认 | 试算平衡表 - 默认 | 各年汇总试算余额表 - 默认 |
+
+> [!NOTE] 
+> 在 Financial Reporting 中运行 **试算平衡表** 报表时，请务必在 **设置** 选项卡中选中 **显示没有金额的行** 和 **显示没有活动行的报表** 的复选框。
 
 ### <a name="row-definition"></a>行定义
 
@@ -94,10 +96,7 @@ ms.locfileid: "5816923"
     -   **FD** – 只包含上一年度的借方的财务数据
     -   **FD** – 只包含上一年度的贷方的财务数据
 
-
-
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [财务报告概览](financial-reporting-getting-started.md)
 

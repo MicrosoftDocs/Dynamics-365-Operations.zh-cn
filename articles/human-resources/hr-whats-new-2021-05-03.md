@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944d5794bb535faa18b4f2de8b5382ebfb9bc2ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
+ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022055"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059621"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 5 月 3 日）
 
@@ -72,7 +71,6 @@ ms.locfileid: "6022055"
 
 | 功能 | 明细 |
 | --- | --- |
-| 经理为员工输入的技能可以通过工作流自动审核 | 即将推出。 |
 | 平台更新 10.0.18 (42) | 平台更新 10.0.18 计划于 2021 年 5 月 17 日在服务版本中开始推出。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.18（2021 年 5 月）的平台更新](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18)。 |
 | 福利管理资格规则中的自定义字段支持  | [资格处理的自定义字段支持](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 

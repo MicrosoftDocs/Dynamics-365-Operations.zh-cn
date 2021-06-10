@@ -1,5 +1,5 @@
 ---
-title: 维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
+title: 维护作业类型、类别、变型、贸易和清单
 description: 此主题介绍资产管理中的维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单。
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842265"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117075"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>维护作业类型类别和维护工作类型、维护作业类型变型、维护作业工种和维护清单
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>维护作业类型、类别、变型、贸易和清单
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 资产类型与每个资产关联。 资产类型定义可对资产执行的维护作业类型（从而对维护作业执行）。 创建工作订单时，必须选择维护作业类型。 可以仅选择与资产所用资产类型的设置关联的维护作业类型。
 

@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890117"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055284"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>申请人跟踪系统集成 API 简介
 

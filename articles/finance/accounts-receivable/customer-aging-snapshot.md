@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039919"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123354"
 ---
 # <a name="customer-aging-snapshots"></a>客户帐龄快照
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039919"
 本主题提供有关客户帐龄快照的信息。 帐龄快照计算某个时间点一组客户的帐龄余额。 您可以为客户池中的所有客户或某些客户创建帐龄快照记录。
 
 帐龄快照中的信息显示在 **帐龄余额** 列表页和 **收款** 页上。 您必须创建一个帐龄快照，然后才能使用 **帐龄余额** 列表页。 列表页仅列出为其创建了帐龄快照的客户。
+
+**客户信用和收款** 工作区也显示客户帐龄。 有关详细信息，请参阅[信用和收款管理 Power BI 内容](credit-collections-power-bi.md)。
 
 > [!NOTE]
 > 为了帮助减少创建帐龄快照所需的时间，请在 **功能管理** 工作区打开 **客户帐龄性能增强** 功能。 但是，启用此功能后请勿使用客户池。 如果选择了客户池，此功能将不起作用，不过您仍然可以创建帐龄快照。
@@ -62,4 +64,3 @@ ms.locfileid: "6039919"
 > [!NOTE]
 > 为帮助在创建帐龄快照时提高批处理性能，在 **应收帐款参数** 页上 **收款** 选项卡上的 **收款默认值** 快速选项卡上的 **最大批处理任务数** 字段中输入一个数字。 在 **帐龄客户余额** 字段中，我们建议您从默认值 **100** 开始，然后根据您的情况调整值来优化处理。
 
-**客户信用和收款** 工作区也显示客户帐龄。 有关详细信息，请参阅[信用和收款管理 Power BI 内容](credit-collections-power-bi.md)。

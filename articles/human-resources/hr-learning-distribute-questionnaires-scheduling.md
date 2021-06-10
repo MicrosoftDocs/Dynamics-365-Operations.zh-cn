@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddad70792c4ebc1785698812fe12406142f07a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 952048ce0a2ac94be70d7bde0dc52610f19151ed
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790612"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056292"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>使用计划分发调查表
 
@@ -57,7 +56,7 @@ ms.locfileid: "5790612"
 
     * 示例：尊敬的 %P%，请登录“员工自助服务”填写《员工健康》调查表。  Contoso  
 
-12. 单击“保存”。
+12. 单击保存。
 
 ## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>使用设置详细信息选择要回答的调查表，以及用于选择回应者的任何查询。
 

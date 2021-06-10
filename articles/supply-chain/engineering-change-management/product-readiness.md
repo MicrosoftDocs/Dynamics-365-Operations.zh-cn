@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909711"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115065"
 ---
 # <a name="product-readiness"></a>产品准备情况
 
@@ -27,6 +27,8 @@ ms.locfileid: "5909711"
 
 工程产品、变型或版本的 **可用** 复选框仅在输入并验证了所有必需数据之后，并且在处理了所有准备情况检查之后才可用。 到时，产品、版本或变型可以发布给其他公司以及用于交易。 您可以为新产品、新变型和新工程版本创建准备情况检查。
 
+您还可以对标准（非工程）产品应用就绪情况检查。 有关详细信息，请参阅本主题后面的[标准产品的就绪情况检查](#standard-products)一节。
+
 ## <a name="types-of-readiness-checks"></a>准备情况检查的类型
 
 准备情况检查有三种类型：
@@ -35,22 +37,29 @@ ms.locfileid: "5909711"
 - **手动检查** – 用户验证记录是否有效。 例如，准备情况检查可能需要验证默认订单设置。 在有些情况下，如当产品仍在设计中，因此不会放入存货时，不需要默认订单设置。 但是，同一类型的其他产品可能需要默认订单设置，因为该产品可能已放入存货中。 用户负责了解如何正确地决定是否需要准备情况检查。
 - **核对清单** – 用户回答核对清单中的一系列问题，然后系统确定答案是否符合期望。 核对清单可以包含任何主题。 例如，可以用于确定是否完成了营销材料或产品文档。
 
-## <a name="how-readiness-checks-are-created-for-a-new-product-variant-or-version"></a>如何为新产品、变型或版本创建准备情况检查
+<a name="checks-engineering"></a>
 
-当您创建新工程 **产品** 时，系统将确定是否已为工程产品类别设置了准备情况检查策略。 （准备情况检查策略可以在已发布产品级别、已发布变型级别和工程版本级别应用。）如果已设置策略，将发生以下事件：
+## <a name="how-readiness-checks-are-created-for-a-new-engineering-product-variant-or-version"></a>如何为新工程产品、变型或版本创建就绪情况检查
+
+就绪情况检查策略可以在已发布产品级别、已发布变型级别和工程版本级别应用。
+
+当您创建新 *工程产品* 时，系统会确定是否对其应用[就绪情况检查策略](#assign-policy)。 如果应用就绪情况检查策略，会发生以下事件：
 
 - 根据适用策略为产品创建准备情况检查。
-- 工程版本设置为停用以阻止使用产品。 所涉及的特定产品的所有版本都设置为停用。
+- 工程版本设置为停用以阻止使用产品。 产品的所有工程版本均设置为停用。
 
-如果为产品创建了新 **变型**，系统会检查是否已在工程产品类别中设置了准备情况检查。 （准备情况检查可以在已发布变型级别和工程版本级别应用。）如果已设置准备情况检查，将发生以下事件：
+如果为产品创建了新 *变型*，系统将检查就绪情况检查策略是否适用于该产品。 （就绪情况检查可以在已发布变型级别和工程版本级别应用。）如果应用策略，将发生以下事件：
 
-- 为产品创建准备情况检查。
+- 根据适用策略为产品创建准备情况检查。
+- 工程版本和变型将设置为停用以阻止使用产品。
+
+如果为产品创建了新的工程 *版本*，系统将检查就绪情况检查策略是否适用于该产品。 （就绪情况检查可以在工程版本级别应用。）如果应用策略，将发生以下事件：
+
+- 根据适用策略为产品创建准备情况检查。
 - 工程版本设置为停用以阻止使用产品。
 
-如果为产品创建了工程 **版本**，系统会检查是否已在工程产品类别中设置了准备情况检查。 （准备情况检查可以在工程版本级别应用。）如果已设置准备情况检查，将发生以下事件：
-
-- 为产品创建准备情况检查。
-- 工程版本设置为停用以阻止使用产品。
+> [!NOTE]
+> 您还可以为标准（非工程）产品设置就绪情况检查策略。 有关详细信息，请参阅本主题后面的[标准产品的就绪情况检查](#standard-products)一节。
 
 ## <a name="view-readiness-checks"></a>查看准备情况检查
 
@@ -67,7 +76,7 @@ ms.locfileid: "5909711"
 - 转到 **工程更改管理 \> 通用 \> 产品准备 \> 我的已打开准备情况检查**。
 - 转到 **产品信息管理 \> 工作区 \> 离散制造的产品准备**。
 
-为工程产品类别完成指定向谁分配准备情况检查的设置。 准备情况检查可以分配给个人或团队。 如果将准备情况检查分配给团队，团队中必须有一个人处理准备情况检查。 有关详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
+为准备策略完成指定向谁分配就绪情况检查的设置。 准备情况检查可以分配给个人或团队。 如果将准备情况检查分配给团队，团队中必须有一个人处理准备情况检查。
 
 ## <a name="process-open-readiness-checks"></a>处理已打开准备情况检查
 
@@ -92,9 +101,7 @@ ms.locfileid: "5909711"
 
 ## <a name="create-and-manage-product-readiness-policies"></a>创建和管理产品准备策略
 
-使用产品准备策略来管理应用于产品的准备情况检查。 由于准备策略会分配给工程类别，因此准备策略中的所有检查都将应用于基于工程类别的所有工程产品。 有关详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
-
-每个准备策略包含一组准备情况检查。 当准备策略分配到工程产品类别后，从该工程产品类别创建的所有产品将具有准备策略中指示的准备情况检查。
+使用产品准备策略来管理应用于产品的准备情况检查。 每个准备策略包含一组准备情况检查。 当准备策略分配到工程产品类别或共享产品后，与该类别或共享产品相关的所有产品都将具有准备策略中包括的就绪情况检查。
 
 要使用产品准备策略，请转到 **工程更改管理 \> 设置 \> 产品准备策略**。 然后按照以下步骤之一操作。
 
@@ -118,7 +125,7 @@ ms.locfileid: "5909711"
 | 字段 | 说明 |
 |---|---|
 | 产品类型 | 选择策略是否应用于 *物料* 或 *服务* 类型的产品。 保存记录后，您将无法更改此设置。 |
-| 可用 | 使用此选项可以帮助您维护准备策略。 为您使用的所有准备策略设置为 *是*。 设置为 *否* 将在不使用准备策略时将其标记为不可用。 请注意，您不能停用分配给工程产品类别的准备策略，只能删除不可用的准备策略。 |
+| 可用 | 使用此选项可以帮助您维护准备策略。 为您使用的所有准备策略设置为 *是*。 设置为 *否* 将在不使用准备策略时将其标记为不可用。 请注意，您不能停用分配给工程产品类别或共享产品的准备策略，只能删除不可用的准备策略。 |
 
 ### <a name="readiness-control-fasttab"></a>“准备控制”快速选项卡
 
@@ -146,5 +153,70 @@ ms.locfileid: "5909711"
 | 自动审核 | 准备情况检查记录包括指示审核状态的 **已审核** 复选框。 为在分配的用户完成检查后应立即设置为已审核的检查选中 **自动审核** 复选框。 清除此复选框将需要作为额外步骤进行明确审核。 |
 | 强制 | 为必须由分配的用户完成的检查选中此复选框。 强制检查不能跳过。 |
 
+<a name="assign-policy"></a>
+
+## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>为标准和工程产品分配准备策略
+
+当您根据工程类别创建新产品时，您将同时创建 *已发布产品* 和相关的 *共享产品*。 解决已发布产品的准备策略的方式取决于您是否已启用 *产品就绪情况检查* 功能。 （有关详细信息，请参阅本主题后面的[标准产品的就绪情况检查](#standard-products)一节。）
+
+- 当 *产品就绪情况检查* 功能在您的系统上 *关闭* 时，准备策略将设置，并仅显示在[工程类别](engineering-versions-product-category.md)记录上。 为了解哪个策略应用于已发布产品，系统会检查相关工程类别的 **产品准备策略** 字段。 您可以通过编辑相关的工程类别（不是共享产品）来更改现有产品的准备策略。
+- 当 *产品就绪情况检查* 功能 *开启* 时，它会在 **产品** 页（设置了共享产品）和 **已发布产品** 页（值为只读，从相关的共享产品获取）添加 **产品准备策略** 字段。 系统通过检查相关共享产品来查找已发布产品的准备策略。 当您使用工程类别创建新工程产品时，系统会同时创建共享产品和已发布产品，并将工程类别的任何 **产品准备策略** 设置复制到新的共享产品。 然后，您可以通过编辑相关的共享产品（不是已发布工程类别）来更改现有产品的准备策略。
+
+要向共享产品分配准备策略，请执行以下步骤。
+
+1. 转到 **产品信息 \> 产品 \> 产品**。
+1. 打开或创建要为其分配准备策略的产品。
+1. 在 **常规** 快速选项卡上，将 **产品准备策略** 字段设置为应该应用于产品的策略的名称。
+
+要向工程类别分配准备策略，请执行以下步骤。
+
+1. 转到 **工程更改管理 \> 设置 \> 工程产品类别详细信息**。
+1. 打开或创建要为其分配准备策略的工程类别。
+1. 在 **产品准备策略** 快速选项卡上，将 **产品准备策略** 字段设置为应该应用于工程类别的策略的名称。
+
+<a name="standard-products"></a>
+
+## <a name="readiness-checks-on-standard-products"></a>标准产品的就绪情况检查
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+您可以通过在“功能管理”中打开 *产品就绪情况检查* 功能来为标准（非工程）产品启用产品就绪情况检查。 此功能对就绪情况检查系统进行了一些小的更改，让它支持标准产品。
+
+### <a name="enable-readiness-checks-on-standard-products"></a>启用标准产品的就绪情况检查
+
+要使您的系统能够对标准产品进行就绪情况检查，请按照以下步骤操作。
+
+- 在您的系统中启用工程更改管理，如[工程更改管理概述](product-engineering-overview.md)中所述。
+- 使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)打开名为 *产品就绪情况检查* 的功能。
+
+<!-- KFM: This section requires confirmation before publishing
+
+### How readiness checks are created for standard products
+
+When you create a new non-engineering *released product*, the system determines whether a readiness check policy has been set up for the related shared product. If a policy has been set up, the following events occur:
+
+- Readiness checks are created for the released product, according to the applicable policy.
+- The released product is blocked from being used until all checks are marked as completed.
+
+If a new *variant* is created for a product, the system checks whether readiness checks have been set up on the related shared product. If a readiness check has been set up, the following events occur:
+
+- Readiness checks are created for the released product, according to the applicable policy.
+- The released product is blocked from being used until all checks are marked as completed.
+
+For engineering products, readiness checks are created in the same way that they are created when the *Product readiness checks* feature is turned off. For more information, see the [How readiness checks are created for a new engineering product, variant, or version](#checks-engineering) section earlier in this topic.
+
+-->
+
+### <a name="create-readiness-policies-for-standard-products"></a>为标准产品创建准备政策
+
+您可以为标准产品创建准备策略，就像为工程产品创建一样。 请参阅本主题前面的信息。
+
+### <a name="assign-readiness-policies-to-standard-products"></a>为标准产品分配准备策略
+
+要将准备策略分配给标准产品，打开相关共享产品，将 **产品准备策略** 字段设置为应该应用的策略名称。 有关详细信息，请参阅本主题前面的[为标准和工程产品分配准备策略](#assign-policy)一节。
+
+### <a name="view-and-process-readiness-checks-on-standard-products"></a>查看和处理标准产品的就绪情况检查
+
+启用此功能后，您可以查看和处理标准产品的就绪情况检查，方法与工程产品一样。 请参阅本主题前面的信息。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

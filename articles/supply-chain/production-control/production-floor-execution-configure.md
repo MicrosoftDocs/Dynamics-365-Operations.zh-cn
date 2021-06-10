@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814722"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115015"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -71,6 +71,14 @@ ms.locfileid: "5814722"
 
 - 生产车间执行界面的资产管理功能
 
+### <a name="enable-job-search"></a>启用作业搜索
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+使用此功能可以将搜索字段添加到作业列表中。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
+- 生产车间执行界面的作业搜索
+
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 
 若要创建和维护设备配置，请转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行**。 **配置生产车间执行** 页面显示现有配置的列表。 在此页面上，您可以执行以下操作：
@@ -81,6 +89,7 @@ ms.locfileid: "5814722"
 接下来，配置所选设备配置的各种设置。 提供以下字段：
 
 - **仅上下班打卡** - 将此选项设置为 *是* 将创建仅提供上班打卡和下班打卡功能的简化界面。 这将禁用此页面上的大多数其他选项。 您必须先从 **选项卡选择** 快速选项卡中删除所有行，然后才能启用此选项。
+- **启用搜寻** - 将此选项设置为 *是* 将在作业列表中包含搜索字段。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。
 - **在下班打卡时报告数量** – 将此选项设置为 *是* 以提示工作人员在下班打卡时报告有关正在进行的作业的反馈。当此选项设置为 *否* 时，不会提示工作人员。
 - **锁定员工** – 当此选项设置为 *否* 时，在工作人员进行登记（例如新作业）后，他们将立即注销。 然后，设备将返回到登录页面。 当此选项设置为 *是* 时，工作人员将在作业卡设备中保持登录状态。 但是，工作人员可以手动注销，以便其他工作人员可以在作业卡设备继续在同一系统用户帐户下运行的同时登录。 有关这些帐户的类型的详细信息，请参阅[指定的用户](config-job-card-device.md#assigned-users)。
 - **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是*，通常需要将此选项设置为 *是*。

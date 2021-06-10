@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9cc15c33c7efdd515121db67331477baa4bdacaf
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953380"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053555"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 

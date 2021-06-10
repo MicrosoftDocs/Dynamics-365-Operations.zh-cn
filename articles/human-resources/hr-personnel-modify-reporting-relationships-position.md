@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4f54a162305a81b65f0657cd572df75a9dcbd38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 78410347e7e6cf67f692c7e9193419ffd87e3057
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794437"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057084"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>修改职位的报告关系
 

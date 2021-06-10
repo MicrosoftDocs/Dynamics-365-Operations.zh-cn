@@ -9,19 +9,18 @@ ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: anbichse
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 88dc3cec4880fdcb4d4f8d54b03037f738d2a57a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891046"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056561"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809270"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103014"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>“时间和出勤”中的缺勤登记
 
@@ -101,7 +101,7 @@ ms.locfileid: "5809270"
 
 审核人可以更改工作人员的工时登记。 审核人甚至可以更改工作人员已登记的任何缺勤。 如果审核人手动输入具有缺勤代码的时段，则该期间的缺勤代码不会被“时间和出勤参数”中的默认缺勤代码覆盖。
 
-例如，工作人员在上午 10 点上班打卡并选择指示她迟到的缺勤代码。 后来，该工作人员告知她的主管她从上午 8 点到 10 点之间是去看医生。 看医生不应扣减工作人员的付薪。 因此，在这种情况下，主管可以手动输入指示这两个小时是病假的缺勤代码，以此来调整从上午 8 点到 10 点的两小时缺勤。
+例如，工作人员在上午 10 点上班打卡并选择指示他迟到的缺勤代码。 后来，该工作人员告知他的主管他从上午 8 点到 10 点之间是去看医生。 看医生不应扣减工作人员的付薪。 因此，在这种情况下，主管可以手动输入指示这两个小时是病假的缺勤代码，以此来调整从上午 8 点到 10 点的两小时缺勤。
 
 ### <a name="calculate-and-approve-absence"></a>计算和审核缺勤
 

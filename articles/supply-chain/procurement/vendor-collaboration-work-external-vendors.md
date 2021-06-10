@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910393"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103088"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -240,7 +240,7 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为 **已批准
 - 已发布的询价行
 - 已发布的询价标题附件
 
-通过这些实体，不是 Supply Chain Management 中设置的用户但拥有外部站点匿名访问权限的人员也可以查看可用工作和关闭的工作。 此外，**发送和发布** 中的扩展功能允许设置询价流程参数的用户定义电子邮件模板。 随后，当采购专业人员创建询价案例时，该专业人员必须选择电子邮件模板，以便将所需信息发送至询价案例上的供应商。 
+通过这些实体，不是 Supply Chain Management 中设置的用户但拥有外部站点匿名访问权限的人员也可以查看可用工作和关闭的工作。 此外，**发送和发布** 中的扩展功能允许设置询价流程参数的用户定义电子邮件模板。 随后，当采购专业人员创建询价案例时，他们必须选择电子邮件模板，以便将所需信息发送至询价案例上的供应商。 
 
 设置询价流程参数的用户可以创建多个电子邮件模板。 这些电子邮件模板可以包含静态文本和以下替换标记。 创建电子邮件时，这些标记将被替换为上下文值。
 

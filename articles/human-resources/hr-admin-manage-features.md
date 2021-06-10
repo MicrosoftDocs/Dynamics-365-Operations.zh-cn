@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 9454125428a0bb9b8d60d8e1733f7e56144d4a3e
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889828"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058528"
 ---
 # <a name="manage-features-in-human-resources"></a>管理 Human Resources 中的功能
 

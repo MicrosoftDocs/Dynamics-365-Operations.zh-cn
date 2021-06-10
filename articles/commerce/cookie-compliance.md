@@ -2,7 +2,7 @@
 title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908176"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088379"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
@@ -52,8 +52,7 @@ ms.locfileid: "5908176"
 | x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 |
 | \_msdyn365___muid_                            | 用于针对环境激活试验的情况；用作 userId 以供试验。 |
 | \_msdyn365___exp_                             | 用于针对环境激活试验的情况；用于度量性能负载均衡。         |
-
-
+| d365mkt                                       | 在 Commerce 站点构建器中在 **站点设置 > 常规 > 启用基于位置的商店检测** 启用了基于位置的检测来跟踪用户的 IP 地址以获取商店位置建议时使用。      |
 
 如果站点用户选择站点内的任何社交媒体链接，还将在其浏览器中跟踪下表中的 cookie。
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018304"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112665"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -22,24 +22,25 @@ ms.locfileid: "6018304"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[Azure 数据工厂模板](https://aka.ms/dual-write-gab-adf)帮助您将采用双重写入的现有 **帐户**、**联系人** 和 **供应商** 表数据升级到当事方和全球通讯薄模型。 模板将对帐 Finance and Operations 应用和 Customer Engagement 应用程序中的数据。 在流程结束时，**当事方** 记录的 **当事方** 和 **联系人** 字段将创建，并与在 Customer Engagement 应用程序中的 **帐户**、**联系人** 和 **供应商** 记录相关联。 将生成 .csv 文件 (`FONewParty.csv`) 以在 Finance and Operations 应用内创建新 **当事方** 记录。 本主题提供使用数据工厂模板和升级数据的说明。
+[Microsoft Azure 数据工厂模板](https://aka.ms/dual-write-gab-adf)帮助您将采用双重写入的现有 **客户**、**联系人** 和 **供应商** 表数据升级到当事方和全球通讯薄模型。 模板将对帐 Finance and Operations 应用和 Customer Engagement 应用程序中的数据。 在流程结束时，**当事方** 记录的 **当事方** 和 **联系人** 字段将创建，并与在 Customer Engagement 应用程序中的 **帐户**、**联系人** 和 **供应商** 记录相关联。 将生成 .csv 文件 (`FONewParty.csv`) 以在 Finance and Operations 应用内创建新 **当事方** 记录。 本主题提供如何使用数据工厂模板和升级数据的说明。
 
 如果没有任何自定义，可以按原样使用模板。 如果您有 **帐户**、**联系人** 和 **供应商** 的自定义，则必须使用以下说明修改模板。
 
-> [!Note]
-> 该模板可帮助仅升级 **当事方** 数据。 在将来的版本中，将包括邮寄地址和电子地址。
+> [!NOTE]
+> 此模板仅升级 **当事方** 数据。 在将来的版本中，将包括邮寄地址和电子地址。
 
 ## <a name="prerequisites"></a>先决条件
 
-需要以下先决条件：
+要升级到当事方和全球通讯簿模型，需要满足以下先决条件：
 
 + [Azure 预订](https://portal.azure.com/)
 + [模板访问权限](https://aka.ms/dual-write-gab-adf)
-+ 您是现有的双重写入客户。
++ 您必须是现有的双写入客户。
 
 ## <a name="prepare-for-the-upgrade"></a>准备升级
+需要进行以下活动来为升级作准备：
 
-+ **完全同步**：两种环境对于 **帐户(客户)**、**联系人** 和 **供应商** 均处于完全同步状态。
++ **完全同步**：两种环境对于 **客户**、**联系人** 和 **供应商** 均处于完全同步状态。
 + **集成密钥**：Customer Engagement 应用中的 **帐户(客户)**、**联系人** 和 **供应商** 表使用现成提供的集成密钥。 如果已自定义集成密钥，必须自定义模板。
 + **当事方编号**：将升级的所有 **帐户(客户)**、**联系人** 和 **供应商** 记录都具有 **当事方** 编号。 将忽略没有 **当事方** 编号的记录。 如果要升级这些记录，请在开始升级流程之前，向其添加 **当事方** 编号。
 + **系统中断**：在升级流程期间，您必须使 Finance and Operations 和 Customer Engagement 环境脱机。
@@ -78,15 +79,19 @@ ms.locfileid: "6018304"
     FO Linked Service_properties_type Properties_tenant | 指定您的应用程序所在的租户信息（域名或租户 ID）。
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | 指定应用程序的客户端 ID。
-    Dynamics Crm Linked Service_properties_type Properties_username | 连接到 Dynamics 的用户名。
+    Dynamics Crm Linked Service_properties_type Properties_username | 连接到 Dynamics 365 的用户名。
 
-    有关详细信息，请参阅[手动提升每个环境的资源管理器模板](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)、[链接服务属性](/azure/data-factory/connector-dynamics-ax#linked-service-properties)和[使用 Azure 数据工厂复制数据](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    有关其他信息，请参阅以下主题： 
+    
+    - [手动提升每个环境的资源管理器模板](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [链接服务属性](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [使用 Azure 数据工厂复制数据](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. 部署后，验证数据工厂的数据集、数据流和链接服务。
 
    ![数据集、数据流和链接服务](media/data-factory-validate.png)
 
-11. 导航到 **管理**。 在 **连接** 下，选择 **链接服务**。 选择 **DynamicsCrmLinkedService**。 在 **编辑链接服务 (Dynamics CRM)** 窗体中，输入以下值：
+11. 导航到 **管理**。 在 **连接** 下，选择 **链接服务**。 选择 **DynamicsCrmLinkedService**。 在 **编辑链接服务 (Dynamics CRM)** 窗体中，输入以下值。
 
     字段 | 值
     ---|---
@@ -102,7 +107,7 @@ ms.locfileid: "6018304"
 
 ## <a name="run-the-template"></a>运行模板
 
-1. 使用 Finance and Operations 应用停止以下 **帐户**、**联系人** 和 **供应商** 双重写入。
+1. 使用 Finance and Operations 应用停止以下 **客户**、**联系人** 和 **供应商** 双写入映射。
 
     + 客户 V3 (accounts)
     + 客户 V3（联系人）
@@ -114,7 +119,7 @@ ms.locfileid: "6018304"
 
 3. 从 AppSource 中安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
 
-4. 在 Finance and Operations 应用中，如果以下表包含数据，则针对它们运行 **初始同步**。
+4. 在 Finance and Operations 应用中，如果以下表包含数据，则针对它们 **运行初始同步**。
 
     + 称呼
     + 人员特点类型
@@ -152,12 +157,12 @@ ms.locfileid: "6018304"
     ![触发器运行](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > 如果您有 **帐户**、**联系人** 和 **供应商** 的自定义，则必须修改模板。
+    > 如果您有 **客户**、**联系人** 和 **供应商** 的自定义，则需要修改模板。
 
 8. 在 Finance and Operations 应用中导入新 **当事方** 记录。
 
     + 从 Azure Blob 存储中下载 `FONewParty.csv` 文件。 路径为 `partybootstrapping/output/FONewParty.csv`。
-    + 将 `FONewParty.csv` 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。  如果 csv 导入适合您，您可以直接导入 csv 文件。 导入可能需要几个小时才能运行，具体取决于数据量。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
+    + 将 `FONewParty.csv` 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。 如果 csv 导入适合您，您可以直接导入 csv 文件。 导入可能需要几个小时才能运行，具体取决于数据量。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
 
     ![导入 Datavers 当事方记录](media/data-factory-import-party.png)
 
@@ -198,4 +203,4 @@ ms.locfileid: "6018304"
 
 ## <a name="learn-more-about-the-template"></a>了解有关模板的详细信息
 
-您可以在 [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md) 文件中找到模板的注释。
+您可以在 [Azure 数据工厂模板自述文件注释](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)中找到有关模板的其他信息。
