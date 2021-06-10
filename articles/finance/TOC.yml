@@ -72,6 +72,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20（2021 年 7 月）
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19（2021 年 7 月）
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18（2021 年 5 月）
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: 年终结算缺少期初余额
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: 在 Office 中打开财务日记帐模板
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: 财务报告
           items:
             - name: 开始使用财务报告
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 使用扩展在税务集成中添加数据字段
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: 多个增值税登记编号
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: 设置用于主数据查询的环境
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: 多个增值税登记编号
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: 多个增值税登记报告
+                      items:
+                        - name: 多个增值税登记报告
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: 荷兰报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: 欧盟销售清单
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: 监管更新
               href: localizations/regulatory-updates.md
             - name: 澳大利亚
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: 为 GSTR 报表启用多批次处理
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: GST 疑难解答
+                          items:
+                            - name: 计算之后的税额不正确
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: 税款配置错误
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: 未计算税款
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: 启用扣除规则所需的时间超出预期
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: 未生成 TaxTrans 或凭证
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: 纳税交易记录 ID 不正确
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: 直接税
                   items:
                     - name: 印度预缴税金
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: 审计文件 (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: 增值税申报（荷兰）
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: 挪威
               items:
                 - name: 挪威概览
@@ -4123,7 +4155,7 @@
                   items:
                     - name: 跟踪生成的报表结果并将其与基准值进行比较
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: 所生成电子报告报表的跟踪结果的改进以及与基准值的比较
+                    - name: 改进所生成电子报告报表的跟踪结果以与基准值进行比较
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: 使用电子报告自动进行测试
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

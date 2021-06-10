@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017047"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085466"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>更改记帐或申报币种
 
@@ -31,12 +31,12 @@ ms.locfileid: "6017047"
 您想要更改记帐或申报币种，或者将申报币种添加到分类帐设置中。 发生此情况通常是由于以下原因：
 
 - 设置法人时指定了错误的记帐或申报币种。 您现在想要更改该币种。
-- 设置法人时未指定申报币种。 （申报币种为可选项。）您现在想要添加申报币种。
-
-先前未使用双币种功能的组织现在想要开始使用该功能。 发生此问题通常是由于以下原因。
-
 - 设置法人时指定了申报币种，但是组织现在想要删除该申报币种。
 - 组织正在升级或迁移到 Microsoft Dynamics 365 Finance，想要更改记帐或申报币种。
+
+先前未使用双货币功能的组织现在想要开始使用该功能。 发生此问题通常是由于以下原因。
+
+- 设置法人时未指定申报币种。 （申报币种为可选项。）您现在想要添加申报币种。
 
 ## <a name="resolution"></a>解决方法
 

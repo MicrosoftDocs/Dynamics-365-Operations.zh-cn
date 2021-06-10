@@ -14,7 +14,9 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对 10.0.19 的平台更新（2021 年 7 月）
+                - name: 针对版本 10.0.20 的平台更新（2021 年 7 月）
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: 针对 10.0.19 的平台更新（2021 年 6 月）
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: 针对 10.0.18 的平台更新（2021 年 5 月）
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,11 +942,9 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Lifecycle Services 中的新增功能或更改
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Lifecycle Services (LCS) 中已删除或弃用的功能
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services 用户指南
               href: lifecycle-services/lcs-user-guide.md
-            - name: 项目启动
+            - name: 项目入门
               href: lifecycle-services/project-onboarding.md
             - name: 订阅估算器
               href: lifecycle-services/subscription-estimator.md
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: 应用程序生命周期管理
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: 用户指定的团队负责人
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: 取消链接和重新链接双写入环境
+                      href: data-entities/dual-write/relink-environments.md
                 - name: 应用之间的概念映射
                   items:
                     - name: 集成的客户主数据
@@ -1166,13 +1170,15 @@
               items:
                 - name: 加载项概览
                   href: power-platform/add-ins-overview.md
+            - name: 策略与通信
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: 移动平台
           items:
             - name: 移动平台资源
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: 入门
+            - name: 开始使用
               items:
-                - name: 移动平台入门
+                - name: 开始使用移动平台
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: 体系结构和设计注意事项
                   href: mobile-apps/platform/mobile-platform-architecture.md

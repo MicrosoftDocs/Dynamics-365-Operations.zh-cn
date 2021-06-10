@@ -94,7 +94,9 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19（2021 年 7 月）
+                    - name: Commerce 10.0.20（2021 年 7 月）
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18（2021 年 5 月）
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: 创建和更新用于客户提货的时隙
                   href: dev-itpro/pickup-timeslots.md
+                - name: 配置产品维度值以显示为样本
+                  href: dev-itpro/dimensions-swatch.md
         - name: 促销您的产品和服务
           items:
             - name: 类别、产品和分类
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: 应用度量单位设置
                   href: unit-of-measure.md
+                - name: 应用产品维度的显示设置
+                  href: dimension-settings.md
             - name: 管理您的站点内容
               items:
                 - name: 添加内容的方法
@@ -1946,7 +1952,7 @@
                   items:
                     - name: 跟踪生成的报表结果并将其与基准值进行比较
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: 所生成电子报告报表的跟踪结果的改进以及与基准值的比较
+                    - name: 改进所生成电子报告报表的跟踪结果以与基准值进行比较
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: 使用电子报告自动进行测试
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: 应用设置
                       href: e-commerce-extensibility/app-settings.md
+                    - name: 根据启用的功能配置站点构建器全局配置设置
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: 平台设置文件
                       href: e-commerce-extensibility/platform-settings.md
                     - name: 扩展模块定义
@@ -2364,8 +2372,10 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Retail SDK 中即将进行的更改
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: 开发和从 10.0.10 版本到 10.0.13 版本的 ALM 版本变更
+                - name: 开发和从 10.0.10 版本到 10.0.13 版本的 ALM 变更
                   href: dev-itpro/dev-changes-10-13.md
+                - name: 设置独立包装 SDK 的生成管道
+                  href: dev-itpro/build-pipeline.md
                 - name: 合并 Commerce 和 Finance and Operations 的生成系统
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: 将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017
@@ -2380,12 +2390,14 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: 从 GitHub 和 NuGet 下载示例和软件包
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: Retail SDK 常见问题
+                - name: Retail SDK 常见问题解答
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: 销售点可扩展性
               items:
                 - name: POS 屏幕布局
                   href: pos-screen-layouts.md
+                - name: Microsoft Dynamics 365 Commerce 中的 Store Commerce 应用
+                  href: dev-itpro/store-commerce.md
                 - name: 在 POS 中打开 URL
                   href: Open-URL-in-POS.md
                 - name: 安装 POS 布局设计器
