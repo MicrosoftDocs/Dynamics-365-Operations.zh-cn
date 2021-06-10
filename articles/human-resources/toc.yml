@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 5 月 20 日
+          href: hr-whats-new-2021-05-20.md
         - name: 2021 年 5 月 3 日
           href: hr-whats-new-2021-05-03.md
         - name: 2021 年 4 月 19 日
@@ -785,8 +787,14 @@
           items:
             - name: 绩效管理概览
               href: hr-develop-performance-management-overview.md
-            - name: 调整劳动力技能
-              href: hr-develop-skills.md
+            - name: 技能
+              items:
+                - name: 配置技能
+                  href: hr-develop-skills.md
+                - name: 输入技能
+                  href: hr-develop-enter-skills.md
+                - name: 映射技能
+                  href: hr-develop-map-skills.md
             - name: 添加到您的绩效日记帐
               href: hr-develop-add-performance-journal.md
             - name: 创建目标
