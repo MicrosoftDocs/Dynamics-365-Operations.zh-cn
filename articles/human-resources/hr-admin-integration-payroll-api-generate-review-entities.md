@@ -7,31 +7,30 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4adab0225190b4dea5213dccf297eaab33efc863
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c0da21c0074468c5942bf853df701151ef7ee95
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021312"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055068"
 ---
-# <a name="generate-payroll-entities"></a><span data-ttu-id="1222e-103">生成工资单实体</span><span class="sxs-lookup"><span data-stu-id="1222e-103">Generate payroll entities</span></span>
+# <a name="generate-payroll-entities"></a><span data-ttu-id="7f1fa-103">生成工资单实体</span><span class="sxs-lookup"><span data-stu-id="7f1fa-103">Generate payroll entities</span></span>
 
-<span data-ttu-id="1222e-104">使用此 OData 函数以生成工资单集成所需的实体。</span><span class="sxs-lookup"><span data-stu-id="1222e-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="1222e-105">如果在 Human Resources 中对这些实体进行了任何更改（例如添加自定义字段），则可以再次调用此函数以刷新每个实体的元数据。</span><span class="sxs-lookup"><span data-stu-id="1222e-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="1222e-106">响应中包含您可以监视的操作 ID，以便您知道生成流程何时完成。</span><span class="sxs-lookup"><span data-stu-id="1222e-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
+<span data-ttu-id="7f1fa-104">使用此 OData 函数以生成工资单集成所需的实体。</span><span class="sxs-lookup"><span data-stu-id="7f1fa-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="7f1fa-105">如果在 Human Resources 中对这些实体进行了任何更改（例如添加自定义字段），则可以再次调用此函数以刷新每个实体的元数据。</span><span class="sxs-lookup"><span data-stu-id="7f1fa-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="7f1fa-106">响应中包含您可以监视的操作 ID，以便您知道生成流程何时完成。</span><span class="sxs-lookup"><span data-stu-id="7f1fa-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
 
-<span data-ttu-id="1222e-107">**申请**</span><span class="sxs-lookup"><span data-stu-id="1222e-107">**Request**</span></span>
+<span data-ttu-id="7f1fa-107">**申请**</span><span class="sxs-lookup"><span data-stu-id="7f1fa-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 ```
 
-<span data-ttu-id="1222e-108">**正文**</span><span class="sxs-lookup"><span data-stu-id="1222e-108">**body**</span></span>
+<span data-ttu-id="7f1fa-108">**正文**</span><span class="sxs-lookup"><span data-stu-id="7f1fa-108">**body**</span></span>
 
 ```json
 {
@@ -39,7 +38,7 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-<span data-ttu-id="1222e-109">**响应**</span><span class="sxs-lookup"><span data-stu-id="1222e-109">**Response**</span></span>
+<span data-ttu-id="7f1fa-109">**响应**</span><span class="sxs-lookup"><span data-stu-id="7f1fa-109">**Response**</span></span>
 
 ```json
 {
@@ -47,17 +46,17 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-## <a name="review-payroll-entities"></a><span data-ttu-id="1222e-110">查看工资单实体</span><span class="sxs-lookup"><span data-stu-id="1222e-110">Review payroll entities</span></span>
+## <a name="review-payroll-entities"></a><span data-ttu-id="7f1fa-110">查看工资单实体</span><span class="sxs-lookup"><span data-stu-id="7f1fa-110">Review payroll entities</span></span>
 
-<span data-ttu-id="1222e-111">使用此 API 检索已成功生成并准备使用的实体的列表。</span><span class="sxs-lookup"><span data-stu-id="1222e-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
+<span data-ttu-id="7f1fa-111">使用此 API 检索已成功生成并准备使用的实体的列表。</span><span class="sxs-lookup"><span data-stu-id="7f1fa-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
 
-<span data-ttu-id="1222e-112">**申请**</span><span class="sxs-lookup"><span data-stu-id="1222e-112">**Request**</span></span>
+<span data-ttu-id="7f1fa-112">**申请**</span><span class="sxs-lookup"><span data-stu-id="7f1fa-112">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hrvirtualentitycatalogs?$filter=mshr_hasbeengenerated eq true
 ```
 
-<span data-ttu-id="1222e-113">**响应**</span><span class="sxs-lookup"><span data-stu-id="1222e-113">**Response**</span></span>
+<span data-ttu-id="7f1fa-113">**响应**</span><span class="sxs-lookup"><span data-stu-id="7f1fa-113">**Response**</span></span>
 
 ```json
 {

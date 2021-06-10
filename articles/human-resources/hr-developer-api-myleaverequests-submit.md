@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,63 +15,63 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd82bef29e5d1d33c1dc1aa3a039833741c1fdaf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9b3151cb042012a167854a1e69b55b36981dab19
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793625"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054564"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="59c52-103">将请假申请提交至工作流</span><span class="sxs-lookup"><span data-stu-id="59c52-103">Submit a leave request to workflow</span></span>
+# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="7be51-103">将请假申请提交至工作流</span><span class="sxs-lookup"><span data-stu-id="7be51-103">Submit a leave request to workflow</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="59c52-104">在 Microsoft Dynamics 365 Human Resources 中，您可以使用 MyLeaveRequests submit() 应用程序编程接口 (API) 向工作流提交休假请求。</span><span class="sxs-lookup"><span data-stu-id="59c52-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="59c52-105">此 API 在 MyLeaveRequests OData 实体上作为操作公开。</span><span class="sxs-lookup"><span data-stu-id="59c52-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
+<span data-ttu-id="7be51-104">在 Microsoft Dynamics 365 Human Resources 中，您可以使用 MyLeaveRequests submit() 应用程序编程接口 (API) 向工作流提交休假请求。</span><span class="sxs-lookup"><span data-stu-id="7be51-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="7be51-105">此 API 在 MyLeaveRequests OData 实体上作为操作公开。</span><span class="sxs-lookup"><span data-stu-id="7be51-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="59c52-106">先决条件</span><span class="sxs-lookup"><span data-stu-id="59c52-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="7be51-106">先决条件</span><span class="sxs-lookup"><span data-stu-id="7be51-106">Prerequisites</span></span>
 
-<span data-ttu-id="59c52-107">休假请求必须保存在数据库中，并且必须可以通过 MyLeaveRequests 实体进行检索。</span><span class="sxs-lookup"><span data-stu-id="59c52-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="7be51-107">休假请求必须保存在数据库中，并且必须可以通过 MyLeaveRequests 实体进行检索。</span><span class="sxs-lookup"><span data-stu-id="7be51-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="59c52-108">权限</span><span class="sxs-lookup"><span data-stu-id="59c52-108">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="7be51-108">权限</span><span class="sxs-lookup"><span data-stu-id="7be51-108">Permissions</span></span>
 
-<span data-ttu-id="59c52-109">调用此 API 需要下列权限之一。</span><span class="sxs-lookup"><span data-stu-id="59c52-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="59c52-110">有关权限以及如何选择权限的详细信息，请参阅[身份验证](hr-developer-api-authentication.md)。</span><span class="sxs-lookup"><span data-stu-id="59c52-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
+<span data-ttu-id="7be51-109">调用此 API 需要下列权限之一。</span><span class="sxs-lookup"><span data-stu-id="7be51-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="7be51-110">有关权限以及如何选择权限的详细信息，请参阅[身份验证](hr-developer-api-authentication.md)。</span><span class="sxs-lookup"><span data-stu-id="7be51-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
 
-| <span data-ttu-id="59c52-111">权限类型</span><span class="sxs-lookup"><span data-stu-id="59c52-111">Permission type</span></span>                    | <span data-ttu-id="59c52-112">权限（从最低权限到最高权限）</span><span class="sxs-lookup"><span data-stu-id="59c52-112">Permissions (from least privileged to most privileged)</span></span> |
+| <span data-ttu-id="7be51-111">权限类型</span><span class="sxs-lookup"><span data-stu-id="7be51-111">Permission type</span></span>                    | <span data-ttu-id="7be51-112">权限（从最低权限到最高权限）</span><span class="sxs-lookup"><span data-stu-id="7be51-112">Permissions (from least privileged to most privileged)</span></span> |
 |------------------------------------|--------------------------------------------------------|
-| <span data-ttu-id="59c52-113">委托（工作或学校帐户）</span><span class="sxs-lookup"><span data-stu-id="59c52-113">Delegated (work or school account)</span></span> | <span data-ttu-id="59c52-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="59c52-114">user\_impersonation</span></span>                                    |
+| <span data-ttu-id="7be51-113">委托（工作或学校帐户）</span><span class="sxs-lookup"><span data-stu-id="7be51-113">Delegated (work or school account)</span></span> | <span data-ttu-id="7be51-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="7be51-114">user\_impersonation</span></span>                                    |
 
-## <a name="https-request"></a><span data-ttu-id="59c52-115">HTTPS 请求</span><span class="sxs-lookup"><span data-stu-id="59c52-115">HTTPS request</span></span>
+## <a name="https-request"></a><span data-ttu-id="7be51-115">HTTPS 请求</span><span class="sxs-lookup"><span data-stu-id="7be51-115">HTTPS request</span></span>
 
 <!-- { "blockType": "ignored" } -->
 ```HTTP
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-<span data-ttu-id="59c52-116">此请求符合 OData 标准。</span><span class="sxs-lookup"><span data-stu-id="59c52-116">The request conforms to OData standards.</span></span> <span data-ttu-id="59c52-117">{requestId}、{leaveType}、{leaveDate} 和 {dataArea} 参数引用构成 MyLeaveRequests 实体的组合自然键的字段。</span><span class="sxs-lookup"><span data-stu-id="59c52-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="7be51-116">此请求符合 OData 标准。</span><span class="sxs-lookup"><span data-stu-id="7be51-116">The request conforms to OData standards.</span></span> <span data-ttu-id="7be51-117">{requestId}、{leaveType}、{leaveDate} 和 {dataArea} 参数引用构成 MyLeaveRequests 实体的组合自然键的字段。</span><span class="sxs-lookup"><span data-stu-id="7be51-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="59c52-118">虽然 MyLeaveRequests 实体的字段引用休假请求中的单独一行，但调用提交 API 会将整个休假请求（所有行）都提交到工作流。</span><span class="sxs-lookup"><span data-stu-id="59c52-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
+> <span data-ttu-id="7be51-118">虽然 MyLeaveRequests 实体的字段引用休假请求中的单独一行，但调用提交 API 会将整个休假请求（所有行）都提交到工作流。</span><span class="sxs-lookup"><span data-stu-id="7be51-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
 
-### <a name="request-headers"></a><span data-ttu-id="59c52-119">请求标题</span><span class="sxs-lookup"><span data-stu-id="59c52-119">Request headers</span></span>
+### <a name="request-headers"></a><span data-ttu-id="7be51-119">请求标题</span><span class="sxs-lookup"><span data-stu-id="7be51-119">Request headers</span></span>
 
-| <span data-ttu-id="59c52-120">​页眉</span><span class="sxs-lookup"><span data-stu-id="59c52-120">Header</span></span>         | <span data-ttu-id="59c52-121">Value</span><span class="sxs-lookup"><span data-stu-id="59c52-121">Value</span></span>                     |
+| <span data-ttu-id="7be51-120">​页眉</span><span class="sxs-lookup"><span data-stu-id="7be51-120">Header</span></span>         | <span data-ttu-id="7be51-121">Value</span><span class="sxs-lookup"><span data-stu-id="7be51-121">Value</span></span>                     |
 |----------------|---------------------------|
-| <span data-ttu-id="59c52-122">授权</span><span class="sxs-lookup"><span data-stu-id="59c52-122">Authorization</span></span>  | <span data-ttu-id="59c52-123">不记名 {token}（必需）</span><span class="sxs-lookup"><span data-stu-id="59c52-123">Bearer {token} (required)</span></span> |
-| <span data-ttu-id="59c52-124">内容类型</span><span class="sxs-lookup"><span data-stu-id="59c52-124">Content-Type</span></span>   | <span data-ttu-id="59c52-125">application/json</span><span class="sxs-lookup"><span data-stu-id="59c52-125">application/json</span></span>          |
+| <span data-ttu-id="7be51-122">授权</span><span class="sxs-lookup"><span data-stu-id="7be51-122">Authorization</span></span>  | <span data-ttu-id="7be51-123">不记名 {token}（必需）</span><span class="sxs-lookup"><span data-stu-id="7be51-123">Bearer {token} (required)</span></span> |
+| <span data-ttu-id="7be51-124">内容类型</span><span class="sxs-lookup"><span data-stu-id="7be51-124">Content-Type</span></span>   | <span data-ttu-id="7be51-125">application/json</span><span class="sxs-lookup"><span data-stu-id="7be51-125">application/json</span></span>          |
 
-### <a name="request-body"></a><span data-ttu-id="59c52-126">请求正文</span><span class="sxs-lookup"><span data-stu-id="59c52-126">Request body</span></span>
+### <a name="request-body"></a><span data-ttu-id="7be51-126">请求正文</span><span class="sxs-lookup"><span data-stu-id="7be51-126">Request body</span></span>
 
-<span data-ttu-id="59c52-127">不要为此方法提供请求正文。</span><span class="sxs-lookup"><span data-stu-id="59c52-127">Don't supply a request body for this method.</span></span>
+<span data-ttu-id="7be51-127">不要为此方法提供请求正文。</span><span class="sxs-lookup"><span data-stu-id="7be51-127">Don't supply a request body for this method.</span></span>
 
-### <a name="response"></a><span data-ttu-id="59c52-128">响应</span><span class="sxs-lookup"><span data-stu-id="59c52-128">Response</span></span>
+### <a name="response"></a><span data-ttu-id="7be51-128">响应</span><span class="sxs-lookup"><span data-stu-id="7be51-128">Response</span></span>
 
-<span data-ttu-id="59c52-129">成功的响应永远是 **204 无内容** 响应。</span><span class="sxs-lookup"><span data-stu-id="59c52-129">A successful response is always a **204 No Content** response.</span></span>
+<span data-ttu-id="7be51-129">成功的响应永远是 **204 无内容** 响应。</span><span class="sxs-lookup"><span data-stu-id="7be51-129">A successful response is always a **204 No Content** response.</span></span>
 
-<span data-ttu-id="59c52-130">未经授权的调用方将收到 **401 未授权** 或 **403 已禁止** 响应。</span><span class="sxs-lookup"><span data-stu-id="59c52-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
+<span data-ttu-id="7be51-130">未经授权的调用方将收到 **401 未授权** 或 **403 已禁止** 响应。</span><span class="sxs-lookup"><span data-stu-id="7be51-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
 
-<span data-ttu-id="59c52-131">如果提交未成功（例如，由于验证），响应将为 **500 服务器错误**，响应正文将包括包含更多详细信息的 JSON 对象。</span><span class="sxs-lookup"><span data-stu-id="59c52-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
+<span data-ttu-id="7be51-131">如果提交未成功（例如，由于验证），响应将为 **500 服务器错误**，响应正文将包括包含更多详细信息的 JSON 对象。</span><span class="sxs-lookup"><span data-stu-id="7be51-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
 
-## <a name="example"></a><span data-ttu-id="59c52-132">示例</span><span class="sxs-lookup"><span data-stu-id="59c52-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7be51-132">示例</span><span class="sxs-lookup"><span data-stu-id="7be51-132">Example</span></span>
 
 ```http
 POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespaces/b2eb8003-334f-4a84-ab63-edbe23569090/data/MyLeaveRequests(RequestId='USMF-000065', LeaveType='Vacation', LeaveDate=2019-10-04T12:00:00Z, dataAreaId='USMF')/Microsoft.Dynamics.DataEntities.submit
@@ -92,21 +91,21 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a><span data-ttu-id="59c52-133">验证和错误消息</span><span class="sxs-lookup"><span data-stu-id="59c52-133">Validation and error messages</span></span>
+## <a name="validation-and-error-messages"></a><span data-ttu-id="7be51-133">验证和错误消息</span><span class="sxs-lookup"><span data-stu-id="7be51-133">Validation and error messages</span></span>
 
-<span data-ttu-id="59c52-134">作为对提交 API 的调用的一部分，Human Resources 在提交之前执行业务逻辑验证，以确保休假请求处于有效状态，可以提交。</span><span class="sxs-lookup"><span data-stu-id="59c52-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="59c52-135">如果验证失败，您可能会在响应中收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="59c52-135">The possible error messages you may receive in the response if validations fail are:</span></span>
+<span data-ttu-id="7be51-134">作为对提交 API 的调用的一部分，Human Resources 在提交之前执行业务逻辑验证，以确保休假请求处于有效状态，可以提交。</span><span class="sxs-lookup"><span data-stu-id="7be51-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="7be51-135">如果验证失败，您可能会在响应中收到以下错误消息：</span><span class="sxs-lookup"><span data-stu-id="7be51-135">The possible error messages you may receive in the response if validations fail are:</span></span>
 
- - <span data-ttu-id="59c52-136">此请求将使“{LeaveTypeId}”余额小于 {date} 所允许的最低余额。</span><span class="sxs-lookup"><span data-stu-id="59c52-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
- - <span data-ttu-id="59c52-137">无法提交“已完成”状态的休息时间请求。</span><span class="sxs-lookup"><span data-stu-id="59c52-137">Time off request in Completed state cannot be submitted.</span></span>
- - <span data-ttu-id="59c52-138">未进行任何更改，无法提交或保存请求。</span><span class="sxs-lookup"><span data-stu-id="59c52-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="59c52-139">请添加或更新金额或休假类型，然后重试。</span><span class="sxs-lookup"><span data-stu-id="59c52-139">Add or update the amount or the leave type and try again.</span></span>
- - <span data-ttu-id="59c52-140">输入的休息时间请求有一天或多天的日期和休假类型与现有的待处理请求相同。</span><span class="sxs-lookup"><span data-stu-id="59c52-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="59c52-141">请撤回现有请求，进行更改。</span><span class="sxs-lookup"><span data-stu-id="59c52-141">Please recall the existing request to make changes.</span></span>
- - <span data-ttu-id="59c52-142">原因代码“{ReasonCodeId}”不适用于请求中的任何休假类型。</span><span class="sxs-lookup"><span data-stu-id="59c52-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
- - <span data-ttu-id="59c52-143">休假类型“{LeaveTypeId}”需要有原因代码。</span><span class="sxs-lookup"><span data-stu-id="59c52-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="59c52-144">请选择适当的类型和原因代码。</span><span class="sxs-lookup"><span data-stu-id="59c52-144">Select the appropriate type and reason code.</span></span>
- - <span data-ttu-id="59c52-145">休息时间未成功提交。</span><span class="sxs-lookup"><span data-stu-id="59c52-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="59c52-146">休息时间已另存为草稿请求。</span><span class="sxs-lookup"><span data-stu-id="59c52-146">The time off has been saved as a draft request.</span></span>
+ - <span data-ttu-id="7be51-136">此请求将使“{LeaveTypeId}”余额小于 {date} 所允许的最低余额。</span><span class="sxs-lookup"><span data-stu-id="7be51-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
+ - <span data-ttu-id="7be51-137">无法提交“已完成”状态的休息时间请求。</span><span class="sxs-lookup"><span data-stu-id="7be51-137">Time off request in Completed state cannot be submitted.</span></span>
+ - <span data-ttu-id="7be51-138">未进行任何更改，无法提交或保存请求。</span><span class="sxs-lookup"><span data-stu-id="7be51-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="7be51-139">请添加或更新金额或休假类型，然后重试。</span><span class="sxs-lookup"><span data-stu-id="7be51-139">Add or update the amount or the leave type and try again.</span></span>
+ - <span data-ttu-id="7be51-140">输入的休息时间请求有一天或多天的日期和休假类型与现有的待处理请求相同。</span><span class="sxs-lookup"><span data-stu-id="7be51-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="7be51-141">请撤回现有请求，进行更改。</span><span class="sxs-lookup"><span data-stu-id="7be51-141">Please recall the existing request to make changes.</span></span>
+ - <span data-ttu-id="7be51-142">原因代码“{ReasonCodeId}”不适用于请求中的任何休假类型。</span><span class="sxs-lookup"><span data-stu-id="7be51-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
+ - <span data-ttu-id="7be51-143">休假类型“{LeaveTypeId}”需要有原因代码。</span><span class="sxs-lookup"><span data-stu-id="7be51-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="7be51-144">请选择适当的类型和原因代码。</span><span class="sxs-lookup"><span data-stu-id="7be51-144">Select the appropriate type and reason code.</span></span>
+ - <span data-ttu-id="7be51-145">休息时间未成功提交。</span><span class="sxs-lookup"><span data-stu-id="7be51-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="7be51-146">休息时间已另存为草稿请求。</span><span class="sxs-lookup"><span data-stu-id="7be51-146">The time off has been saved as a draft request.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="59c52-147">请参阅</span><span class="sxs-lookup"><span data-stu-id="59c52-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7be51-147">请参阅</span><span class="sxs-lookup"><span data-stu-id="7be51-147">See also</span></span>
 
-- [<span data-ttu-id="59c52-148">MyLeaveRequests 概览</span><span class="sxs-lookup"><span data-stu-id="59c52-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
-- [<span data-ttu-id="59c52-149">身份验证</span><span class="sxs-lookup"><span data-stu-id="59c52-149">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="7be51-148">MyLeaveRequests 概览</span><span class="sxs-lookup"><span data-stu-id="7be51-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
+- [<span data-ttu-id="7be51-149">身份验证</span><span class="sxs-lookup"><span data-stu-id="7be51-149">Authentication</span></span>](hr-developer-api-authentication.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
