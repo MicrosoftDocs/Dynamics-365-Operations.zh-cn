@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910225"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103038"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -176,7 +176,7 @@ ms.locfileid: "5910225"
 
     - 创建工作后，**参考** 字段设置为 **订单承诺预留** 的物料的库存交易记录将删除。 **参考** 字段设置为 **工作** 的库存交易记录现在在所有数量的库存维度中保留实际预留。
 
-        仓库操作可以以通常的方式继续处理工作的执行。 但是，移动设备上的指令将指示工作人员领取特定的批号。 在货位由牌照控制的仓库环境中，当工作人员到达将同一批次存储在多个牌照中的货位后，他或她可以从尚未预留的任何牌照领料（例如，通过另一个订单承诺预留或源自该类型预留的工作。）
+        仓库操作可以以通常的方式继续处理工作的执行。 但是，移动设备上的指令将指示工作人员领取特定的批号。 在货位由牌照控制的仓库环境中，当工作人员到达将同一批次存储在多个牌照中的货位后，他们可以从尚未预留的任何牌照领料（例如，通过另一个订单承诺预留或源自该类型预留的工作。）
 
         如果发现从工作行上指定的货位领料不切实际，仓库操作员可以使用以下操作之一重定向来从更方便的货位领取特定批次：
 

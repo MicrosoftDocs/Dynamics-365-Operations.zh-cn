@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890020"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052449"
 ---
 # <a name="configure-dataverse-integration"></a>配置 Dataverse 集成
 

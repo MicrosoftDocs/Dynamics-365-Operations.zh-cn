@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3ff153d9c16b219158c12f4bb49eb0a0c5d401ac
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910031"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102894"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -83,7 +83,7 @@ ms.locfileid: "5910031"
 - %到期日期时间%
 - %Date%
 
-%出价返回的原因%和%改正的原因%标志由采购专业人员在他或她完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
+%出价返回的原因%和%改正的原因%标志由采购专业人员在他们完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
 
 如果要在询价已发送之后将其取消，可通过询价案例执行。 若要取消，需要使用电子邮件模板向供应商的联系人发送取消通知。 必须在 **采购参数** 页上选择该模板。 在创建模板时，可以包含以下替换标志：
 

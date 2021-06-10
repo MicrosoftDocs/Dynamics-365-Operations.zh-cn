@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94df675b02054d7a4761ea5b6edf24c6207e8fc9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: caedd7df4f86abfbf154b367065fb075e6ef081c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805554"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055476"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>添加到绩效日记帐并向某人发送表扬
 

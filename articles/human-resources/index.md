@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f95ca693d65a746a99ce4acb0c93e3399a3f826
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 00f417f62a04c7f7e8a6ac9b75ce0f8a48a13a43
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028291"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057878"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>欢迎使用 Dynamics 365 Human Resources
 

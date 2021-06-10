@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808790"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102918"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 
@@ -41,6 +41,7 @@ ms.locfileid: "5808790"
 > 其他字段可能可用于菜单项，具体取决于为菜单项选择的模式，以及菜单项是否用于执行现有工作。 有关其他字段选择的信息，请参阅本主题后面的“其他菜单项选项”部分。
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>配置活动和查询的菜单项
+
 如果菜单项的 **模式** 字段设置为 **间接**，则可以创建菜单项以执行不创建工作的一般活动或查询。 示例包括重新打印牌照标签，以及位置中物料查询。 下表列出了可用的选项。
 
 | 选项 | 描述 |
@@ -64,10 +65,9 @@ ms.locfileid: "5808790"
 | 显示未结工作列表 | 显示可用的工作列表给特定用户。 用户可以选择要执行的工作和并将被定向到它。 应在具有尺寸为 7 英寸或更大尺寸的屏幕的平板设备上查看此列表。 当您选择此选项时，**编辑查询** 和 **字段列表** 菜单项将可用。 **编辑查询** 页允许您设置显示在列表中的工作的条件。 **字段列表** 页允许您选择哪些字段显示在工作列表中。 例如，您可以减少显示的字段数量，以便用户可以更快速地选择最合适的工作项。 在 **常规** 快速选项卡的 **每页记录数** 字段中，您还可以选择每页显示多少条工作记录。 如果选中了 **允许用户按交易记录类型筛选工作** 选项，工作列表将包含 **筛选工作** 控制，用户可使用它来按交易记录类型筛选。 在工作列表中，用户只能看到他们有访问权限的工作。 您必须确保用户具有一个或多个以用户为导向的菜单项的权限，这些菜单项支持他们应有权访问的特定工作类类型。 当用户试图执行列表中的工作时，也将验证权限。|
 | 从牌照创建转移单 | 允许仓库工作人员直接通过仓库管理移动应用创建和处理转移单。 仓库工作人员首先选择目标仓库，然后可以使用应用扫描一个或多个牌照。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。 有关详细信息，请参阅[通过仓库应用创建转移单](create-transfer-order-from-warehouse-app.md)
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>配置菜单项，从而为其他的工作人员或流程创建工作
-在移动设备上执行初始化操作之后，您可以设置菜单项，从而为另一工作人员创建工作。 例如，当一名工作人员使用移动设备接收物料时，可以为另外一名工作人员创建入库工作。 若要设置创建工作的菜单项，在 **移动设备菜单项** 页上，在 **模式** 字段中，选择 **工作**。 在下表中，**工作创建流程** 字段中的选项按工作订单类型排列。
 
+在移动设备上执行初始化操作之后，您可以设置菜单项，从而为另一工作人员创建工作。 例如，当一名工作人员使用移动设备接收物料时，可以为另外一名工作人员创建入库工作。 若要设置创建工作的菜单项，在 **移动设备菜单项** 页上，在 **模式** 字段中，选择 **工作**。 在下表中，**工作创建流程** 字段中的选项按工作订单类型排列。
 
 <table>
 <tbody>
@@ -232,7 +232,7 @@ ms.locfileid: "5808790"
 </tr>
 <tr class="even">
 <td>用户分组</td>
-<td>工作人员可手动对工作分组。 例如，当一名工作人员同时在同一位置选择多个物料时，此选项很有用。 当工作人员完成所需领料后，他或她可将物料入库。</td>
+<td>工作人员可手动对工作分组。 例如，当一名工作人员同时在同一位置选择多个物料时，此选项很有用。 当工作人员完成所需领料后，他们可将物料入库。</td>
 </tr>
 <tr class="odd">
 <td>系统分组</td>
@@ -368,7 +368,7 @@ ms.locfileid: "5808790"
 <td>指明工作人员是否必须首先选择一个位置中最早的批次。 选项如下：
 <ul>
 <li><strong>无</strong> - 工作人员可以领取位置中的任何批次。 工作人员不会收到消息。</li>
-<li><strong>警告</strong> - 工作人员可领取位置中的任何批次，但如果批次不是最早的，他们将收到警告信息。</li>
+<li><strong>警告</strong> – 工作人员可领取位置中的任何批次，但如果批次不是最早的，他们将收到警告信息。</li>
 <li><strong>强制</strong> - 工作人员是否必须领取位置中最早的批次。 如果批次不是最早的批次，工作人员将收到错误消息。 <strong>注意：</strong>只有当<strong>批处理号</strong>低于分配给物料的预留层次结构中的<strong>位置</strong>时，此选项才具有相关性。</li>
 </ul></td>
 </tr>
@@ -407,6 +407,7 @@ ms.locfileid: "5808790"
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>在工作人员领取物料时，要求他们确定产品、位置或数量
+
 您可以设置工作确认，要求工作人员在执行仓库内的工作时，使用移动设备登记位置或数量。 工作确认帮助确保工作人员处于正确的位置，或者处理的物料数量正确。 您还可以启用 Supply Chain Management 自动确认工作人员的登记信息。 如果您启用自动确认，您将不能要求位置或数量的确认。 工作确认还包括产品和产品变型。 另外，您还可以通过扫描条形码登记确认。 若要确定产品和产品变型，您必须输入一个产品或产品变型 ID。 引 ID 可以是产品 ID、产品搜索 ID、外部 ID、GTIN 或条形码。 当您输入 ID 或扫描条形码之后，产品变型的维度将显示在移动设备中。 
 
 下表介绍可用于工作确认的不同的工作类型。
@@ -426,14 +427,11 @@ ms.locfileid: "5808790"
 > [!NOTE]
 > 只能对领料和放置工作类型要求产品确认。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
-[设置用于完成采购订单类型工作的移动设备菜单项](tasks/set-up-mobile-device-menu.md)
-
-[设置登记已接收物料的移动设备菜单项](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[库存状态](../inventory/inventory-statuses.md)
+- [设置用于完成采购订单类型工作的移动设备菜单项](tasks/set-up-mobile-device-menu.md)
+- [设置登记已接收物料的移动设备菜单项](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [库存状态](../inventory/inventory-statuses.md)
 
 
 

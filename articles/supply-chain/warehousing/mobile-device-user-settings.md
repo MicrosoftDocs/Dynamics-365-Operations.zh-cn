@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837457"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049284"
 ---
 # <a name="mobile-device-user-settings"></a>移动设备用户设置
 
@@ -94,3 +94,8 @@ ms.locfileid: "5837457"
 
     - **设备型号 ID** – 设备型号 ID，如 *Surface Book 2*。
     - **描述** – 您可以输入描述来帮助区分型号 ID。
+
+## <a name="additional-resources"></a>其他资源
+
+- [安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)
+- [为 Warehouse Management 移动应用分配步骤图标和标题](step-icons-titles.md)

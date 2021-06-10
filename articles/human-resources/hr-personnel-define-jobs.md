@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 539f465f148229c48200feaf795ec775c3b76874
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff331ace04602075cd7d61aa04439cae52cf4bab
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793481"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058840"
 ---
 # <a name="define-new-jobs"></a>定义新工作
 

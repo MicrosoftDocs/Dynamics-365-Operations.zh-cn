@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd2e0465230d40c95c1bc115a34a2ce3369ccb81
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3c3149749568f07d68022066d7cc9964db5f2ffc
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793505"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058864"
 ---
 # <a name="define-new-departments"></a>定义新部门
 

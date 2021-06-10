@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
-ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
+ms.openlocfilehash: 8f6edc848e1ed03f97e11cd4eb3fd1aaf4ee0c59
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924846"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056700"
 ---
 # <a name="request-time-off"></a>请求休息时间
 

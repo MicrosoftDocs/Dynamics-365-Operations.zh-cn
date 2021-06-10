@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908992"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102679"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
 
@@ -44,7 +44,7 @@ ms.locfileid: "5908992"
 
 ## <a name="customize-the-order-creation-process"></a>自定义订单创建流程
 
-当用户使用客户门户提交订单时，订单将自动同步到相应的 Dynamics 365 Supply Chain Management 环境。 由于用户是外部客户，因此有意向他/她隐藏了一些必需的信息。 表单提交后，这些信息会自动填写。
+当用户使用客户门户提交订单时，订单将自动同步到相应的 Dynamics 365 Supply Chain Management 环境。 由于用户是外部客户，因此有意向他们隐藏了一些必需的信息。 表单提交后，这些信息会自动填写。
 
 本节说明应该如何设置联系人以避免错误。 其中说明了自动设置的字段以及如何在必要时修改这些字段的值。
 
@@ -61,7 +61,7 @@ ms.locfileid: "5908992"
     - **申请编号** – 输入订单的申请编号。 此字段不是必填项。
     - **运达国家/地区** – 输入物料将送达的国家或地区。 此字段将为非管理员用户自动设置。
 
-    ![订单信息页面](media/customer-portal-order-information.png "“订单信息”页面")
+    ![订单信息页面](media/customer-portal-order-information.png "订单信息页面")
 
 1. 选择 **下一步**。
 1. 在 **物料** 页上，选择 **添加物料**。
@@ -82,7 +82,7 @@ ms.locfileid: "5908992"
 1. 添加完物料后，在 **物料** 页上选择 **下一步**。
 1. **订单信息** 页提供订单摘要。 查看订单内容和交货详细信息。 如果每一项看起来都正确，选择 **提交** 提交订单。
 
-    ![“订单信息”页面](media/customer-portal-order-submit.png "“订单信息”页面")
+    ![已完成订单信息页面](media/customer-portal-order-submit.png "已完成订单信息页面")
 
 ### <a name="standard-data-setup"></a>标准数据设置
 

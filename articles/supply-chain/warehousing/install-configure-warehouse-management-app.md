@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908944"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049308"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
@@ -295,5 +295,9 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 在工具栏上，选择 **删除**。
 1. 在出现的确认消息中选择 **是**。
 
+## <a name="additional-resources"></a>其他资源
+
+- [移动设备用户设置](mobile-device-user-settings.md)
+- [为 Warehouse Management 移动应用分配步骤图标和标题](step-icons-titles.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

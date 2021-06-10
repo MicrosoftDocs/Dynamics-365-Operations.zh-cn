@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ad94d81d7e8bedd3622b3e073e431bc4abaafff
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924222"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059056"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
 

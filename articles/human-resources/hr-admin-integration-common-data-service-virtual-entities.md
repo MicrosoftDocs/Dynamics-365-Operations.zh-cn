@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935745"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058576"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 

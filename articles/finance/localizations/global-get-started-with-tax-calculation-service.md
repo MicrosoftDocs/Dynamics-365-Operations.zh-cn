@@ -2,7 +2,7 @@
 title: 开始使用税款计算
 description: 本主题说明如何设置税务计算。
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018871"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060555"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>开始使用税务计算（预览）
 
@@ -41,7 +41,7 @@ ms.locfileid: "6018871"
 
 在完成本主题中的过程之前，必须具备以下先决条件：
 
-- 您有权访问 LCS 帐户，并且已部署具有运行 Dynamics 365 版本 10.0.18 或更高版本的第 2 层（或以上）环境的 LCS 项目。
+- 您有权访问 LCS 帐户，并且已部署具有运行 Dynamics 365 版本 10.0.18（带有 [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a)）或更高版本的第 2 层（或以上）环境的 LCS 项目。
 - 您有权访问 RCS 帐户。
 - 您已与 Microsoft 联系，以在部署的 Finance 或 Supply Chain Management 环境中启用发布外部测试版。
 
@@ -127,7 +127,7 @@ ms.locfileid: "6018871"
 
 本部分中的设置由法人完成。 您必须为要在 Finance 中启用税务计算的每个法人配置它。
 
-1. 在 Finance 中，转到 **税务** \> **设置** \> **税务配置** \> **税务计算设置(预览)**。
+1. 在 Finance 中，转到 **税务** \> **设置** \> **税务配置** \> **税款计算设置(预览)**。
 2. 在 **常规** 选项卡上，设置以下字段：
 
     - **启用税务计算** – 选中此复选框以为法人启用税务计算加载项。 如果未为当前法人启用它，法人将继续使用现有税务引擎来确定和计算税务。
@@ -147,7 +147,7 @@ ms.locfileid: "6018871"
 
 ## <a name="transaction-processing"></a>交易处理
 
-完成所有设置过程后，您可以使用税务计算在 Finance 中确定和计算税务。 处理交易的步骤保持不变。 以下交易在 Finance 版本 10.0.18 中受支持：
+完成所有设置过程后，您可以使用税款计算在 Finance 中确定和计算税款。 处理交易的步骤保持不变。 以下交易在 Finance 版本 10.0.18 中受支持：
 
 - 销售流程
 

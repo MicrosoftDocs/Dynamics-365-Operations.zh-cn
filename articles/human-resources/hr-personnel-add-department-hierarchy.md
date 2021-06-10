@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 379e19455136393bb5679bdbda7959b85ee05de7
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891070"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058672"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
 

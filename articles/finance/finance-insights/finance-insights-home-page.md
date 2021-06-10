@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898052"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6086981"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
@@ -123,10 +123,5 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 ## <a name="feedback-and-support"></a>反馈和支持
 
 如果对提供反馈感兴趣或需要支持，请向 [客户付款见解（预览）](mailto:fiap@microsoft.com)发送电子邮件。
-
-## <a name="privacy-notice"></a>隐私声明
-
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

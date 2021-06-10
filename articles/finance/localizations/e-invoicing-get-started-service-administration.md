@@ -2,7 +2,7 @@
 title: 开始使用电子开票服务管理
 description: 本主题说明如何开始使用电子开票。
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980966"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092398"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>开始使用电子开票服务管理
 
@@ -44,18 +44,14 @@ ms.locfileid: "5980966"
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>在 Lifecycle Services 中安装微服务的加载项
 
-1. 登录您的 LCS 帐户。
-2. 选择 **预览功能管理** 磁贴。
-3. 在 **公开预览功能** 部分，选择 **电子开票**。
-4. 确保 **预览功能已启用** 选项设置为 **是**。
-5. 在 LCS 项目仪表板上，选择一个 LCS 项目。
-6. 在 LCS 项目中，在 LCS 环境仪表板上，选择您的 LCS 部署项目。 LCS 部署项目必须在运行。
-7. 在 **Power Platform 集成** 选项卡上，在 **环境加载项** 字段组中，选择 **安装新加载项**。
-8. 选择 **电子开票**。
-9. 在 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 这是一个固定值。
-10. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。
-11. 查看条款和条件，然后选中相应的复选框。
-12. 选择 **安装**。
+1. 登录您的 LCS 帐户，在 LCS 项目仪表板上选择一个 LCS 项目。
+2. 在该项目中，在环境仪表板上，选择您的 LCS 部署项目。 您选择的项目必须在运行。
+3. 在 **Power Platform 集成** 选项卡上，在 **环境加载项** 字段组中，选择 **安装新加载项**。
+4. 选择 **电子开票**。
+5. 在 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 这是一个固定值。
+6. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。
+7. 查看条款和条件，然后选中相应的复选框。
+8. 选择 **安装**。
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>为与电子开票的 RCS 集成设置参数

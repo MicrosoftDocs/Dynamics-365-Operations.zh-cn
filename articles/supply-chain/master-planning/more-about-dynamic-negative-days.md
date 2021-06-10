@@ -1,27 +1,21 @@
 ---
 title: 负天数和动态负天数
 description: 此主题介绍有关负天数和动态负天数的信息，以及将其如何用于帮助您开展业务。
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907733"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097226"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>负天数和动态负天数
 
@@ -45,7 +39,7 @@ ms.locfileid: "5907733"
 - DemoProduct 物料的采购提前期为六天。
 - 在第零天（1 月 1 日），DemoProduct 物料的库存级别为 0（零）。
 - 在第零天（1 月 1 日），您获得一个销售订单，其中的数量是 10 件 DemoProduct 物料。
-- 在第七天（1 月 7 日），有一个现有采购订单，其中的一个数量为 10 件 DemoProduct 物料。
+- 在第七天（1 月 8 日），有一个现有采购订单，其中的一个数量为 10 件 DemoProduct 物料。
 
 下图显示此场景的图形视图。
 
@@ -112,7 +106,7 @@ ms.locfileid: "5907733"
 
 下图显示此场景的图形视图。
 
-![场景 1 的图形视图](./media/negative-days-8.png)
+![场景 2 的图形视图](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>案例 A：负天数小于物料提前期
 
@@ -157,7 +151,7 @@ ms.locfileid: "5907733"
 - DemoProduct 物料的采购提前期为六天。
 - 在第零天（1 月 1 日），DemoProduct 物料的库存为 0（零）。
 - 在第七天（1 月 8 日，这超出了物料提前期），您获得了一个销售订单，其中的一个数量为 10 件 DemoProduct 物料。
-- 在第 10 天（1 月 11 日），有一个采购订单，其中的一个数量为 10 件 DemoProduct 物料。
+- 在第十天（1 月 11 日），有一个采购订单，其中的一个数量为 10 件 DemoProduct 物料。
 
 下图显示此场景的图形视图。
 
@@ -219,8 +213,8 @@ ms.locfileid: "5907733"
 - DemoProduct 物料的采购提前期为六天。
 - 在第零天（1 月 1 日），DemoProduct 物料的库存为 0（零）。
 - 在第零天（1 月 1 日），您获得一个销售订单，其中的数量是 10 件 DemoProduct 物料。
-- 在第 10 天（1 月 10 日），您获得一个销售订单，其中的数量是 10 件 DemoProduct 物料。
-- 在第 12 天（1 月 12 日），有一个采购订单，其中的一个数量为 10 件 DemoProduct 物料。
+- 在第九天（1 月 10 日），您获得一个销售订单，其中的数量是 10 件 DemoProduct 物料。
+- 在第十一天（1 月 12 日），有一个采购订单，其中的一个数量为 10 件 DemoProduct 物料。
 - 负天数设置为 **20**，比物料提前期大得多。
 
 下图显示结果的图形视图。
@@ -229,7 +223,7 @@ ms.locfileid: "5907733"
 
 MRP 产生以下结果。
 
-![结果](./media/negative-days-20.png)
+![结果示例 1](./media/negative-days-20.png)
 
 在上一个屏幕截图中，销售订单需求日期为 1 月 9 日，而不是 1 月 10 日。 因为该屏幕截图是在 2015 年截取的，当时 1 月 10 日是星期六，所以订单的需求日期应该是上一个工作日，即 1 月 9 日，星期五。
 
@@ -239,7 +233,7 @@ MRP 创建计划采购订单以履行第一个销售订单请求的需求，但�
 
 如果将负天数减小到更接近物料提前期的数字，并且使用动态负天数，MRP 将产生以下结果。
 
-![结果](./media/negative-days-21.png)
+![结果示例 2](./media/negative-days-21.png)
 
 MRP 创建一个附加到第一个销售订单的计划订单。 然后，基于负天数设置将第二个销售订单与现有采购订单关联。这是正常现象。 这个计划结果也是正确的，并且 MRP 的运行时间可能较短。 在此情况下，务必了解并知道如何使用行动消息。
 

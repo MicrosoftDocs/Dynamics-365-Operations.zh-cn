@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51adcb2c06044b030ce3b96f0c71129e8c0acd8c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f0339f5ef5bf5655d0471394539aee56437bb26f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790660"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055644"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>更改员工自助服务工作区名称
 

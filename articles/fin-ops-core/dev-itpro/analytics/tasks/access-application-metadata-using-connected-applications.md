@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b113f0db1d44dc5fbda30e10d62ff939550f299
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88fb3a947dd15f80238baab5f315c889f47f5b3b
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748685"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087007"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>通过使用相连应用程序访问应用程序元数据
 
 [!include [banner](../../includes/banner.md)]
 
-以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)主题中的步骤，请转至[电子申报示例页](https://go.microsoft.com/fwlink/?linkid=862266)下载并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
+以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)主题中的步骤，请下载[电子报告示例](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip)并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1. 转到 **所有工作区** > **电子申报**。 

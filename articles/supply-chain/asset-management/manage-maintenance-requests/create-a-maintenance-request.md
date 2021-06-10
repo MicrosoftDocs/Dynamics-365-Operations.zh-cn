@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836774"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102966"
 ---
 # <a name="create-maintenance-requests"></a>创建维护请求
 
@@ -30,7 +30,7 @@ ms.locfileid: "5836774"
 
 如果维护工人或生产工人发现需要维修设备，但是不能立即开展维修作业，可以使用维护请求。
 
-**示例：** 一位维护工人正在进行维修，这时她发现必须维修同一位置的另一个资产。 但是，这位工人没有时间，或没有维修作业所需备件。 因此，她为该资产创建了维护请求，并输入了简短的问题说明。
+**示例：** 一位维护工人正在进行维修，这时他发现必须维修同一位置的另一个资产。 但是，这位工人没有时间，或没有维修作业所需备件。 因此，他为该资产创建了维护请求，并输入了简短的问题说明。
 
 Active maintenance requests section of the Related information pane on the right side of the **所有资产** 或 **有效资产** 页面（**资产管理** \> **常用** \> **资产** \> **所有资产** 或 **有效资产**）右侧 **相关信息** 窗格的 **有效维护请求** 部分中显示与所选资产关联的有效维护请求。
 

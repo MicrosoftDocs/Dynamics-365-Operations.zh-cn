@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8bda1e8cb9ed778b87adf9973620fa0e54cf28c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 26d85ce226bd601e3ce0bc789e54a7a1a7ec6812
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794605"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057566"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 

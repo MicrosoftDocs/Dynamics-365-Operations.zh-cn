@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae4a792e53127196aacdf659bb483867d5c17494
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 39da0418f60273a82cb51e5cf3aad60e4efdb234
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794725"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056652"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>根据前一个问题的回答设定问题依赖项
 

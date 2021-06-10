@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027882"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058816"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
 
