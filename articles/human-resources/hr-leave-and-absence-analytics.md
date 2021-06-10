@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,34 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c9e2a97beb12ad35ade9df016ebe14533d0ecde2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9e1408a19638635c5c7026fadcb37f2bfc8464a1
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791357"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053987"
 ---
-# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="1bfae-103">查看休假和缺勤分析</span><span class="sxs-lookup"><span data-stu-id="1bfae-103">View analytics for leave and absence</span></span>
+# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="99c35-103">查看休假和缺勤分析</span><span class="sxs-lookup"><span data-stu-id="99c35-103">View analytics for leave and absence</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="1bfae-104">Dynamics 365 Human Resources 提供分析来帮助您了解组织的休假和缺勤趋势。</span><span class="sxs-lookup"><span data-stu-id="1bfae-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
+<span data-ttu-id="99c35-104">Dynamics 365 Human Resources 提供分析来帮助您了解组织的休假和缺勤趋势。</span><span class="sxs-lookup"><span data-stu-id="99c35-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
 
-## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="1bfae-105">查看休假和缺勤分析</span><span class="sxs-lookup"><span data-stu-id="1bfae-105">View Leave and absence analytics</span></span>
+## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="99c35-105">查看休假和缺勤分析</span><span class="sxs-lookup"><span data-stu-id="99c35-105">View Leave and absence analytics</span></span>
 
-1. <span data-ttu-id="1bfae-106">在 **休假和缺勤** 工作区中，选择 **分析** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="1bfae-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
+1. <span data-ttu-id="99c35-106">在 **休假和缺勤** 工作区中，选择 **分析** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="99c35-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
 
-2. <span data-ttu-id="1bfae-107">从底部的选项卡选择以下视图之一：</span><span class="sxs-lookup"><span data-stu-id="1bfae-107">Choose one of the following views from the tabs along the bottom:</span></span>
+2. <span data-ttu-id="99c35-107">从底部的选项卡选择以下视图之一：</span><span class="sxs-lookup"><span data-stu-id="99c35-107">Choose one of the following views from the tabs along the bottom:</span></span>
 
-   - <span data-ttu-id="1bfae-108">**休假和缺勤概览** - 以经理身份查看您的假期计划、每月累积和余额以及休息时间余额的登记百分比和利用率。</span><span class="sxs-lookup"><span data-stu-id="1bfae-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
+   - <span data-ttu-id="99c35-108">**休假和缺勤概览** - 以经理身份查看您的假期计划、每月累积和余额以及休息时间余额的登记百分比和利用率。</span><span class="sxs-lookup"><span data-stu-id="99c35-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
 
-   - <span data-ttu-id="1bfae-109">**当前余额分析** - 查看有关休假余额和累积的详细信息。</span><span class="sxs-lookup"><span data-stu-id="1bfae-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
+   - <span data-ttu-id="99c35-109">**当前余额分析** - 查看有关休假余额和累积的详细信息。</span><span class="sxs-lookup"><span data-stu-id="99c35-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
 
-   - <span data-ttu-id="1bfae-110">**余额趋势分析** - 按月和按年查看休假余额的趋势，查看过去 12 个月的趋势。</span><span class="sxs-lookup"><span data-stu-id="1bfae-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
+   - <span data-ttu-id="99c35-110">**余额趋势分析** - 按月和按年查看休假余额的趋势，查看过去 12 个月的趋势。</span><span class="sxs-lookup"><span data-stu-id="99c35-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1bfae-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="1bfae-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="99c35-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="99c35-111">See also</span></span>
 
-- [<span data-ttu-id="1bfae-112">休假和缺勤概览</span><span class="sxs-lookup"><span data-stu-id="1bfae-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="1bfae-113">创建休假和缺勤计划</span><span class="sxs-lookup"><span data-stu-id="1bfae-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+- [<span data-ttu-id="99c35-112">休假和缺勤概览</span><span class="sxs-lookup"><span data-stu-id="99c35-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="99c35-113">创建休假和缺勤计划</span><span class="sxs-lookup"><span data-stu-id="99c35-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

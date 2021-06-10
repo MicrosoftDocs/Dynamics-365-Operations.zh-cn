@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
@@ -16,35 +15,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a5046f1d32fb965c7cb3793daf1ba40b9c2a1d10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 87a080c47e34a3265afea6494ff1733dac5bc384
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805890"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053097"
 ---
-# <a name="benefit-eligibility-policies"></a><span data-ttu-id="e7ae7-103">福利资格政策</span><span class="sxs-lookup"><span data-stu-id="e7ae7-103">Benefit eligibility policies</span></span>
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="d2715-103">福利资格政策</span><span class="sxs-lookup"><span data-stu-id="d2715-103">Benefit eligibility policies</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="e7ae7-104">本文提供有关福利资格策略的信息，可帮助您定义哪些人有资格享受特定福利。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
+<span data-ttu-id="d2715-104">本文提供有关福利资格策略的信息，可帮助您定义哪些人有资格享受特定福利。</span><span class="sxs-lookup"><span data-stu-id="d2715-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-<span data-ttu-id="e7ae7-105">在您创建福利时，您决定哪些福利可用于哪些员工。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="e7ae7-106">下表显示您可以使其用于特定员工的福利示例。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
+<span data-ttu-id="d2715-105">在您创建福利时，您决定哪些福利可用于哪些员工。</span><span class="sxs-lookup"><span data-stu-id="d2715-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="d2715-106">下表显示您可以使其用于特定员工的福利示例。</span><span class="sxs-lookup"><span data-stu-id="d2715-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| <span data-ttu-id="e7ae7-107">福利</span><span class="sxs-lookup"><span data-stu-id="e7ae7-107">Benefit</span></span>          | <span data-ttu-id="e7ae7-108">福利可用于谁</span><span class="sxs-lookup"><span data-stu-id="e7ae7-108">Who the benefit is available to</span></span> |
+| <span data-ttu-id="d2715-107">福利</span><span class="sxs-lookup"><span data-stu-id="d2715-107">Benefit</span></span>          | <span data-ttu-id="d2715-108">福利可用于谁</span><span class="sxs-lookup"><span data-stu-id="d2715-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| <span data-ttu-id="e7ae7-109">健康保险</span><span class="sxs-lookup"><span data-stu-id="e7ae7-109">Health insurance</span></span> | <span data-ttu-id="e7ae7-110">所有员工</span><span class="sxs-lookup"><span data-stu-id="e7ae7-110">All employees</span></span>                   |
-| <span data-ttu-id="e7ae7-111">移动电话</span><span class="sxs-lookup"><span data-stu-id="e7ae7-111">Mobile phone</span></span>     | <span data-ttu-id="e7ae7-112">销售员工、主管人员</span><span class="sxs-lookup"><span data-stu-id="e7ae7-112">Sales staff, executives</span></span>         |
-| <span data-ttu-id="e7ae7-113">停车证</span><span class="sxs-lookup"><span data-stu-id="e7ae7-113">Parking passes</span></span>   | <span data-ttu-id="e7ae7-114">主管人员</span><span class="sxs-lookup"><span data-stu-id="e7ae7-114">Executives</span></span>                      |
+| <span data-ttu-id="d2715-109">健康保险</span><span class="sxs-lookup"><span data-stu-id="d2715-109">Health insurance</span></span> | <span data-ttu-id="d2715-110">所有员工</span><span class="sxs-lookup"><span data-stu-id="d2715-110">All employees</span></span>                   |
+| <span data-ttu-id="d2715-111">移动电话</span><span class="sxs-lookup"><span data-stu-id="d2715-111">Mobile phone</span></span>     | <span data-ttu-id="d2715-112">销售员工、主管人员</span><span class="sxs-lookup"><span data-stu-id="d2715-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="d2715-113">停车证</span><span class="sxs-lookup"><span data-stu-id="d2715-113">Parking passes</span></span>   | <span data-ttu-id="d2715-114">主管人员</span><span class="sxs-lookup"><span data-stu-id="d2715-114">Executives</span></span>                      |
 
-<span data-ttu-id="e7ae7-115">以下组件用于创建资格策略：</span><span class="sxs-lookup"><span data-stu-id="e7ae7-115">The following components in are used to create eligibility policies:</span></span>
+<span data-ttu-id="d2715-115">以下组件用于创建资格策略：</span><span class="sxs-lookup"><span data-stu-id="d2715-115">The following components in are used to create eligibility policies:</span></span>
 
--   <span data-ttu-id="e7ae7-116">政策规则类型</span><span class="sxs-lookup"><span data-stu-id="e7ae7-116">Policy rule types</span></span>
--   <span data-ttu-id="e7ae7-117">福利资格策略</span><span class="sxs-lookup"><span data-stu-id="e7ae7-117">Benefit eligibility policies</span></span>
+-   <span data-ttu-id="d2715-116">政策规则类型</span><span class="sxs-lookup"><span data-stu-id="d2715-116">Policy rule types</span></span>
+-   <span data-ttu-id="d2715-117">福利资格策略</span><span class="sxs-lookup"><span data-stu-id="d2715-117">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="e7ae7-118">策略规则类型定义开发具体政策规则时所使用的查询参数。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="e7ae7-119">在您创建政策规则类型后，您可以创建福利资格策略。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="e7ae7-120">策略可以创建适用于一个或多个法人的规则集合。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="e7ae7-121">在每个策略中，您可以查看您之前创建的任何福利资格策略规则类型。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
+<span data-ttu-id="d2715-118">策略规则类型定义开发具体政策规则时所使用的查询参数。</span><span class="sxs-lookup"><span data-stu-id="d2715-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="d2715-119">在您创建政策规则类型后，您可以创建福利资格策略。</span><span class="sxs-lookup"><span data-stu-id="d2715-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="d2715-120">策略可以创建适用于一个或多个法人的规则集合。</span><span class="sxs-lookup"><span data-stu-id="d2715-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="d2715-121">在每个策略中，您可以查看您之前创建的任何福利资格策略规则类型。</span><span class="sxs-lookup"><span data-stu-id="d2715-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-<span data-ttu-id="e7ae7-122">您定义策略中的规则范围。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="e7ae7-123">例如，如果，您创建一个名为 **主管人员** 的福利资格政策规则类型，您可以指定在该策略中有哪些规则。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="e7ae7-124">在此示例中，规则可能声明包含“主管”一词的任何职称都应包含在规则中。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="e7ae7-125">在您定义规则的参数或在策略包括的规则后，可以将一个特定规则分配到福利。</span><span class="sxs-lookup"><span data-stu-id="e7ae7-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
+<span data-ttu-id="d2715-122">您定义策略中的规则范围。</span><span class="sxs-lookup"><span data-stu-id="d2715-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="d2715-123">例如，如果，您创建一个名为 **主管人员** 的福利资格政策规则类型，您可以指定在该策略中有哪些规则。</span><span class="sxs-lookup"><span data-stu-id="d2715-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="d2715-124">在此示例中，规则可能声明包含“主管”一词的任何职称都应包含在规则中。</span><span class="sxs-lookup"><span data-stu-id="d2715-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="d2715-125">在您定义规则的参数或在策略包括的规则后，可以将一个特定规则分配到福利。</span><span class="sxs-lookup"><span data-stu-id="d2715-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
 
 
