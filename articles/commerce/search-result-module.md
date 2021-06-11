@@ -2,7 +2,7 @@
 title: 搜索结果模块
 description: 此主题介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794107"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117125"
 ---
 # <a name="search-results-module"></a>搜索结果模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -51,9 +52,12 @@ ms.locfileid: "5794107"
 | 隐藏类别层次结构显示 | **True** 或 **False** | 如果将此属性设置为 **True**，页面上显示的类别层次结构将被隐藏。 如果您使用 [痕迹导航模块](add-breadcrumb.md)显示类别层次结构，此属性应设置为 **True**。|
 | 在搜索结果中包括产品属性 | **True** 或 **False** | 如果将此属性设置为 **True**，将在搜索结果中返回产品的属性。 虽然这些属性可以在 Commerce 站点上显示，但需要扩展。|
 | 显示隶属关系价格 | **True** 或 **False** | 如果将此属性设置为 **True**，登录用户浏览页面时，产品的从属价格将显示在搜索结果中。 |
+| 更新优化器面板 | **True** 或 **False** | 如果此属性设置为 **True**，选择优化器时，将更新优化器面板。 在此模式下，当优化器面板更新时，某些多选优化器的行为将类似于单选优化器。 |
 
 > [!IMPORTANT]
-> 在 Dynamics 365 Commerce 10.0.16 版及更高版本，**显示从属价格** 配置可用于在页面上显示从属价格。
+> 在 Commerce 版本 10.0.16 及更高版本中，**显示从属价格** 配置可用于在页面上显示从属价格。
+>
+> 在 Commerce 版本 10.0.20 和更高版本中，**更新优化器面板** 配置可以用于在优化器选择期间更新优化器面板。
 
 ## <a name="supported-modules"></a>支持的模块
 

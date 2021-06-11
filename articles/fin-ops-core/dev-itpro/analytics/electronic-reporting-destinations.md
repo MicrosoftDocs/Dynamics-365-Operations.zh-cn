@@ -2,7 +2,7 @@
 title: 电子报告 (ER) 目标
 description: 本主题提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893596"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085492"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
@@ -199,6 +199,34 @@ PDF 转换选项仅可用于云部署。
 > 所选页面方向将应用于以 Excel 格式生成然后转换为 PDF 格式的所有 ER 配置。
 >
 > 如果将 Word 格式的 ER 配置转换为 PDF 格式，PDF 文档的页面方向将从 Word 文档中获取。
+
+## <a name="output-unfolding"></a>输出展开
+
+当您为电子报告格式的 **文件夹** 组件配置目标时，可以指定该组件的输出如何传递到配置的目标。
+
+### <a name="make-output-unfolding-available"></a>使输出展开可用
+
+要使输出展开选项在当前 Finance 实例中可用，打开 **功能管理** 工作区，然后打开 **允许配置电子报告目标以将文件夹内容作为单独文件发送** 功能。
+
+### <a name="applicability"></a>适用性
+
+输出展开选项只能为 **文件夹** 类型的格式组件配置。 当您开始配置 **文件夹** 组件时，**常规** 快速选项卡在 **电子报告目标** 页将变为可用。 
+
+### <a name="use-the-output-unfolding-option"></a>使用输出展开选项
+
+在 **常规** 快速选项卡上，在 **文件夹发送形式** 字段中，选择以下值之一：
+
+- **ZIP 存档** – 将生成的文件作为 zip 文件传递。
+- **单独文件** – 将生成的 zip 文件的每个文件作为一个单独文件传递。
+
+    > [!NOTE]
+    > 当您选择 **单独文件** 时，生成的输出以压缩状态在内存中收集。 因此，当实际文件大小可能超过此限制时，将对压缩输出应用最大[文件大小限制](er-compress-outbound-files.md)。 当您预期生成的输出的大小会非常大时，建议您选择此值。
+
+[![为文件夹格式组件配置目标](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>限制
+
+对于包含其他嵌套 **文件夹** 组件的 **文件夹** 组件，如果您将其 **文件夹发送形式** 字段设置为 **单独文件**，此设置不会递归应用于嵌套 **文件夹** 组件。
 
 ## <a name="security-considerations"></a>安全考虑
 

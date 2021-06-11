@@ -1,5 +1,5 @@
 ---
-title: 世纪互联在中国运营的 Dynamics 365 Finance 和世纪互联在中国运营的 Dynamics 365 Supply Chain Management
+title: 由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 description: 本主题提供有关 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management（由世纪互联在中国运营）的信息。
 author: kfend
 ms.date: 09/08/2020
@@ -12,14 +12,14 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1abf2c3af2746299782cff273e9afa7b1377695e
-ms.sourcegitcommit: 17cee26b03f7b5afe8a089a0a9b2380e8d377d70
+ms.openlocfilehash: 6fff628ef5135d7908455f811c6e887576897d67
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "6048828"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116967"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management - 由世纪互联在中国运营
+# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 

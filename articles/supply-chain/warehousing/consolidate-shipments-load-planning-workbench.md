@@ -1,5 +1,5 @@
 ---
-title: 使用装载计划工作台中的“发放到仓库”合并装运
+title: 通过从装载计划工作台下达到仓库合并装运
 description: 此主题提供以下方案：通过同一个装载将多个订单发放到仓库，然后将其合并到装运中。
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 58a1f6237e37815dd0b4ae3d7a0d46157db5a808
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831330"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117173"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>使用装载计划工作台中的“发放到仓库”合并装运
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>通过从装载计划工作台下达到仓库合并装运
 
 [!include [banner](../includes/banner.md)]
 

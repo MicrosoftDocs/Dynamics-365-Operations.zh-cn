@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947512"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115041"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -50,15 +50,20 @@ ms.locfileid: "5947512"
 
 1. 转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区。
 1. 检查更新。
-1. 开启名为 **工程更改管理** 的功能。
-1. 如果要使用它，还要打开名为 **产品维度版本** 的功能。
+1. 开启名为 *工程更改管理* 的功能。
+1. 如果要使用它，还要打开名为 *产品维度版本* 的功能。
 
 接下来，按照以下步骤打开配置密钥。
 
 1. 将您的系统置于维护模式下，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
 1. 转到 **系统管理 \> 设置 \> 许可证配置**。
 1. 展开 **贸易** 节点。
-1. 选中 **工程更改管理** 复选框，启用主要功能的 Configuration Key。 （除非您还想禁用其一个或全部两个子功能，否则不必展开此节点。）
+1. 选中 **工程更改管理** 复选框，启用主要功能的 Configuration Key。
+1. 展开 **工程更改管理** 节点，根据需要选择或清除以下复选框（取决于您要使用的功能）：
+
+    - **属性搜索** – 选中此复选框将启用[属性搜索功能](engineering-attributes-and-search.md)。 我们建议启用此功能，但是如果您不使用它，可以清除此复选框。
+    - **处理制造的更改管理** – 如果要使用工程更改管理功能管理处理制造配方的更改，请选中此复选框。 如果您不必管理配方，可以清除此复选框。 有关详细信息，请参阅[管理配方及其成分的更改](manage-formula-changes.md)。
+
 1. 如果您还想使用版本维度，还要选中 **产品维度 - 版本** 复选框。 （此复选框在列表再下面，不是嵌套在 **工程更改管理** 节点下。）
 1. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
 

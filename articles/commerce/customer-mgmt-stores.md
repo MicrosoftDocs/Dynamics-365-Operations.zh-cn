@@ -2,7 +2,7 @@
 title: 商店中的客户管理
 description: 本主题说明零售商如何在 Microsoft Dynamics 365 Commerce 中启用销售点 (POS) 客户管理功能。
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019979"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097200"
 ---
 # <a name="customer-management-in-stores"></a>商店中的客户管理
 
@@ -35,7 +35,10 @@ ms.locfileid: "6019979"
 
 ## <a name="default-customer-properties"></a>默认客户属性
 
-零售商可以使用 Commerce Headquarters 中的 **所有商店** 页面（**Retail 和 Commerce \> 渠道 \> 商店**），以将默认客户与每个商店相关联。 然后，Commerce 将为默认客户定义的属性复制到创建的所有新客户记录中。 例如，**创建客户** 对话框会显示从与商店关联的默认客户继承的属性。 这些属性包括客户类型、客户组、收据首选项、货币和语言。 任何隶属关系（客户组）也将从默认客户那里继承。 但是，财务维度从与默认客户关联的客户组那里继承，而不是从默认客户本身继承。
+零售商可以使用 Commerce Headquarters 中的 **所有商店** 页面（**Retail 和 Commerce \> 渠道 \> 商店**），以将默认客户与每个商店相关联。 然后，Commerce 将为默认客户定义的属性复制到创建的所有新客户记录中。 例如，**创建客户** 对话框会显示从与商店关联的默认客户继承的属性。 这些属性包括 **客户类型**、**客户组**、**收据选项**、**收据电子邮件**、**货币** 和 **语言**。 任何 **隶属关系**（客户组）也将从默认客户那里继承。 但是，**财务维度** 从与默认客户关联的客户组那里继承，而不是从默认客户本身继承。
+
+> [!NOTE]
+> 仅当未为新创建的客户提供收据电子邮件 ID 时，才会从默认客户复制 **收据电子邮件** 值。 这意味着，如果默认客户中存在收据电子邮件 ID，则从电子商务站点创建的所有客户都将获得相同的收据电子邮件 ID，因为没有用户界面可以从客户那里捕获收据电子邮件 ID。 我们建议您将商店的默认客户的 **收据电子邮件** 字段保留为空，仅在您有依赖于存在的收据电子邮件地址的业务流程时使用它。 
 
 销售助理可以捕获客户的多个地址。 客户的姓名和电话号码是从与每个地址关联的联系信息中继承的。 客户记录的 **地址** 快速选项卡包括销售助理可以编辑的 **目的** 字段。 如果客户类型是 **人员**，则默认值为 **家庭**。 如果客户类型是 **组织**，则默认值为 **公司**。 此字段支持的其他值包括 **家庭**、**办公室** 和 **邮政信箱**。 地址中的 **国家/地区** 字段的值继承自 Commerce Headquarters 内 **运营单位** 页（**组织管理 \> 组织 \> 运营单位**）上指定的主要地址。
 

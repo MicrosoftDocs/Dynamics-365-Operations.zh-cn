@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923530"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111716"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -31,6 +31,19 @@ ms.locfileid: "5923530"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>功能弃用通知于 2021 年 5 月生效
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 中的全球化门户
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们正在弃用 LCS 中的全球化门户，因为此功能已被其他基于 LCS 的服务取代。 |
+| **被另一个功能取代？**   | 是的，此功能已被 LCS [问题搜索](../lifecycle-services/issue-search-lcs.md)和[动态监管预警提交服务](../lcs-solutions/submit-localization-alerts.md)取代。 |
+| **影响的产品区域**         | LCS 中的全球化门户|
+| **部署选项**              | 云部署 |
+| **状态**                         | 已弃用：计划删除日期为 2022 年 5 月。 |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>功能已删除，自 2021 年 1 月 28 日起生效
 
@@ -56,7 +69,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | Visual Studio 2017 将取代 Visual Studio 2015 成为已部署的必需版本。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用。 更新后，以前的 X++ 工具将从 Visual Studio 2015 中删除，更新后的工具不会安装在 Visual Studio 2015 中。 对托管版本没有影响。 对于构建虚拟机，需要手动更新构建管道（构建定义），以将依赖性从 MSBuild 14.0 (Visual Studio 2015) 更改为 MSBuild 15.0 (Visual Studio 2017)，如[更新 Azure Pipelines 中的旧管道](../dev-tools/pipeline-msbuild-update.md)中所述。 |
+| **状态**                         | 已弃用：更新后，以前的 X++ 工具将从 Visual Studio 2015 中删除，更新后的工具不会安装在 Visual Studio 2015 中。 对托管版本没有影响。 对于构建虚拟机，需要手动更新构建管道（构建定义），以将依赖性从 MSBuild 14.0 (Visual Studio 2015) 更改为 MSBuild 15.0 (Visual Studio 2017)，如[更新 Azure Pipelines 中的旧管道](../dev-tools/pipeline-msbuild-update.md)中所述。 |
 
 ### <a name="user-avatar"></a>用户头像 
 
@@ -76,7 +89,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | 不 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用。 计划在 2021 年 10 月的发行版本中删除所有 EP 代码。 |
+| **状态**                         | 已弃用：计划在 2021 年 10 月的发行版本中删除所有 EP 代码。 |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.15 的平台更新
 
@@ -88,7 +101,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
 | **影响的产品区域**         | 所有 Dynamics 365 产品 |
 | **部署选项**              | 所有|
-| **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
+| **状态**                         | 已弃用：2021 年 8 月之后将不再支持 Internet Explorer 11。|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio 加载项以应用元数据修补程序
@@ -181,7 +194,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | 有关详细信息，请参阅[配置 Azure Active Directory 条件访问](/appcenter/general/configuring-aad-conditional-access)。|
 | **影响的产品区域**         | 安全性 |
 | **部署选项**              | 云 |
-| **状态**                         | **已弃用：** 自助服务部署已完全弃用此功能。 |
+| **状态**                         | 已弃用：自助服务部署已完全弃用此功能。 |
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
@@ -201,7 +214,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | 此编译器错误将永久替代编译器警告。  |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | **已弃用**：在 Finance and Operations 应用版本 10.0.11 的平台更新中，此编译器警告已成为编译器错误。 |
+| **状态**                         | 已弃用：在 Finance and Operations 应用版本 10.0.11 的平台更新中，此编译器警告已成为编译器错误。 |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>使用 SHA1 哈希算法创建的 ISV 许可证
 
@@ -211,7 +224,7 @@ ms.locfileid: "5923530"
 | **被另一个功能取代？**   | 是。 使用 Windows PowerShell 创建许可证。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | <strong>已弃用：</strong>使用 SHA1 哈希算法创建的 ISV 许可证。 此算法依赖于使用 MakeCert 实用程序创建的证书，但现在已弃用了该实用程序。<p><strong>已弃用：</strong>SHA1 用于安全或哈希用途。 SHA1 将于 2021 年年初停止工作。 因此不应再使用它。<p><strong>已去除：</strong>对传输层安全 (TLS) 1.0 和 TLS 1.1 传入或传出请求的支持。 |
+| **状态**                         | 已弃用：使用 SHA1 哈希算法创建的 ISV 许可证。 此算法依赖于使用 MakeCert 实用程序创建的证书，但现在已弃用了该实用程序。<br><br>已弃用：SHA1 用于安全或哈希用途。 SHA1 将于 2021 年年初停止工作。 因此不应再使用它。<br><br>已去除：对传输层安全 (TLS) 1.0 和 TLS 1.1 传入或传出请求的支持。 |
 
 ## <a name="platform-update-32"></a>平台 update 32
 

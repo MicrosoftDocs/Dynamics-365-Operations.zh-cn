@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921415"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112613"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -104,6 +104,39 @@ ms.locfileid: "5921415"
 | **部署选项**              | 所有 |
 | **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **国内税报表 (IT) – 功能引用 IT-00003**。 |
 
+## <a name="october-2019-deprecation-announcement"></a>2019 年 10 月弃用公告
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>业务流程建模器中的流程图
+
+<table>
+<tbody>
+<tr>
+<td><strong>弃用/移除的原因</strong></td>
+<td>我们正在弃用业务流程建模器 (BPM) 中的流程图图表组件，因为旧版设计导致使用率较低。</td>
+</tr>
+<tr>
+<td><strong>被另一个功能取代？</strong></td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>影响的区域</strong></td>
+<td>业务流程建模器</td>
+</tr>
+<tr>
+<td><strong>状态</strong></td>
+<td>已弃用：BPM 中的流程图图表组件预计将于 2020 年移除。 以下功能将不可用：
+<ul>
+<li>所有流程图均为只读，不可编辑。 与流程图活动关联的形状属性也将不可用。 这些流程图既包括自动生成的默认流程图，也包括基于这些默认流程图修改的自定义流程图。</li>
+<li>流程步骤为只读，不可编辑。</li>     
+<li>旧版适应/差距分析功能将不再可用。 因此，不会再自动创建差距列表或提供导出。
+<p><strong>注意：</strong>此功能先前已被弃用，已由 Microsoft Azure DevOps 集成取代。</p>
+</li>
+<li>将不再提供流程图的版本历史记录。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>带平台更新 29 的 Finance and Operations 10.0.5
 

@@ -1,7 +1,7 @@
 ---
 title: 合并库存批次
 description: 本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。
-author: pjacobse
+author: sherry-zheng
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16c3f13081dffd154f1a019357f1d9af7cc8912b
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808176"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103136"
 ---
 # <a name="merge-inventory-batches"></a>合并库存批次
 

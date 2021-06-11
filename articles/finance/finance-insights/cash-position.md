@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811379"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123382"
 ---
 # <a name="cash-position-preview"></a>现金头寸（预览）
 
@@ -31,7 +31,7 @@ ms.locfileid: "5811379"
 
 当系统预测客户付款时，它将使用来自客户付款预测功能的付款预测。 如果没有付款预测，则使用将每个客户的客户发票转换为付款所需的平均时间来计算付款日期。 对于未结客户订单，系统通过使用要开票的每个客户的订单行的平均天数来计算发票日期。 然后，它将发票日期用作付款预测功能的输入。 客户付款预测功能可计算每个订单行的付款日期。 
 
-<*需要来自 Jarek 或 Dave 的有关如何将付款预测转换为日期的文本*> 未付发票的付款日期通过付款预测推测 [*估计*]，方法是选取对应于从预测的时段概率获得的累积分布函数的百分之五十的日期。
+未付发票的付款日期通过付款预测估计，方法是选取对应于从预测的时段概率获得的累积分布函数的百分之五十的日期。
 
 使用类似的方法来预测对供应商的付款。 对于每个供应商，系统都会计算将供应商发票转换为付款所需的平均时间。 然后使用天数计算付款日期。 对于未结供应商订单，系统通过考虑将每个供应商的订单行转换为发票所需的平均天数来计算发票日期。 然后，系统使用将供应商发票转换为每位供应商的付款的平均时间计算付款日期。
 

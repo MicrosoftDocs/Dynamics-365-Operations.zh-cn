@@ -2,7 +2,7 @@
 title: 开始使用计划优化
 description: 本主题说明如何开始使用计划优化功能。
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907659"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103585"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
@@ -58,7 +58,7 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 
 - 您必须是在支持 LCS 的第 2 层或更高层高可用性环境（不是 OneBox 环境）中运行 Supply Chain Management，并且具有 Dynamics 365 Supply Chain Management 版本 10.0.7 或更高版本。 如果您尝试在 OneBox 环境中安装加载项，则安装将无法完成，因此您需要取消安装。
 
-- 您的系统必须已针对 Power Platform 集成进行设置。 有关详细信息，请参阅[设置加载项的先决条件](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins)和[设置加载项](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins)。
+- 您的系统必须已针对 Power Platform 集成进行设置。 有关详细信息，请参阅 [Microsoft Power Platform 与 Finance and Operations 应用的集成](../../../fin-ops-core/dev-itpro/power-platform/overview.md)。
 
 ### <a name="enable-the-planning-optimization-license"></a>启用计划优化许可证
 
