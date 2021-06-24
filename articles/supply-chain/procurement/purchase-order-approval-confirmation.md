@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825414"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188273"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
@@ -83,8 +83,7 @@ ms.locfileid: "5825414"
 
 如果 PO 在更改管理中，则必须先将任何更改（如取消订单或剩余交货量）提交到工作流系统并获得批准，然后流程才能完成，库存交易记录才能够更新为已取消。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [采购订单概览](purchase-order-overview.md)
 

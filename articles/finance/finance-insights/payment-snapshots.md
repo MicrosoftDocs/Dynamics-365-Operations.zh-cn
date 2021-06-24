@@ -2,7 +2,7 @@
 title: 快照概述（预览）
 description: 本主题介绍快照功能，该功能使您可以保存现金流预测以供以后分析或与实际情况进行比较。 生成现金流预测时，可以将该预测另存为“快照”。 然后，您可以使用该快照来编辑预测中包含的科目，或者将快照中的预测与实际值进行比较。
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827234"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186582"
 ---
 # <a name="snapshots-overview-preview"></a>快照概述（预览）
 
@@ -42,9 +42,5 @@ ms.locfileid: "5827234"
 要比较多个快照，请选择 **比较快照**。 您可以一次比较两个快照。 选择要比较的两个快照，然后选择 **确定**。 **比较快照** 页面将显示所选快照的比较。 页面上部的图表显示了两个快照的重合期间的现金流入、现金流出和银行余额的比较。 下部的网格显示了每个流动性金额的两项预测的详细比较。 网格中的 **差异** 列显示一个期间内余额之间的差异。
 
 要将实际财务结果与保存为快照的预测进行比较，请选择 **与实际值比较**。 **比较快照** 页面将显示实际金额与预测的比较。 页面上部的图表显示了两个快照的重合期间的现金流入、现金流出和银行余额的比较。 下部的网格显示了每个流动性金额的每个期间的实际余额和预测的余额的详细比较。 网格中的 **差异** 列显示一个期间内的实际余额与预测余额之间的差异。
-
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

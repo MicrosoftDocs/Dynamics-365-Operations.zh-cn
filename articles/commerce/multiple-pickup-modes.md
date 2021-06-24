@@ -2,7 +2,7 @@
 title: 为客户订单启用多种提货交货方式
 description: 本主题介绍 Microsoft Dynamics 365 Commerce 中的功能，可让您创建要在商店提货的客户订单。
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020643"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216759"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>为客户订单启用多种提货交货方式
 
@@ -38,7 +38,7 @@ ms.locfileid: "6020643"
 
 **自提交货方式** 和 **电子交货方式** 字段以及 **仅显示装运订单的承运人模式选项** 选项已重新位于此快速选项卡上。
 
-在配置其他提货交货方式之前，必须先定义交货方式。 在 Commerce 总部的 **交货方式** 页面中，添加应视为提货交货方式的交货方式。 确保所有配置均已完成。 例如，确保交货方式链接到适当的渠道和物料。 完成后，运行 **处理交货方式** 作业以在交货方式、渠道和物料之间创建关系。 在作业完成运行后，在 Commerce 总部中打开 **配送计划** 页面，然后运行 **1120** 配送作业，以确保使用新的交货方式配置更新相关的 Commerce 渠道数据库。
+在配置其他提货交货方式之前，必须先定义交货方式。 在 Commerce 总部的 **交货方式** 页面中，添加应视为提货交货方式的交货方式。 确保所有配置均已完成。 例如，如果您为某些商店的在线购物者提供懒人提货作为交货选项，则需要为此创建新的交货方式。 您可以使用“懒人提货”作为描述来创建此交货方式。 然后，您需要确保将“懒人提货”交货方式映射到可以提供它的所有 Commerce 渠道（包括可能提供此选项的在线商店）以及将提供此履行方法的各个商店渠道。 交货方式还必须链接到产品。 在此示例中，如果某些产品无法使用“懒人提货”履行，您需要确保排除这些商品。 完成添加任何新的交货方式后，运行 **处理交货方式** 作业以在交货方式、渠道和商品之间创建关系。 在作业完成后，在 Commerce Headquarters 中打开 **配送计划** 页面，然后运行 **1120** 配送作业，以确保使用新的交货方式配置更新相关的 Commerce 渠道数据库。
 
 ![懒人提货的交货方式的示例](media/pickupmodes.png)
 

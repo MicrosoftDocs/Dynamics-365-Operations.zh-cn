@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841205"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189509"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>部分金额的供应商付款
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841205"
 
 有时您可以向低于发票金额的供应商付款。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。 
 
-<a name="cash-discount-amounts"></a>现金折扣金额
----------------------
+## <a name="cash-discount-amounts"></a>现金折扣金额
 
 供应商可以在到期日期前提供您支付的发票一个现金折扣。 例如，如果发票在 10 天内支付，您输入金额为 100.00 的发票，指定 2% 现金折扣。 到期期限为 30 天。 如果付款方案使用现金折扣作为选择发票的条件，并且，如果该方案在现金折扣日期或之前运行，为付款选择发票，付款创建为 98.00。 现金折扣还可以为手动创建的一次性付款获取。
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831234"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189936"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831234"
 此主题介绍如何使用提领看板进行物料补货用于制造活动。
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>使用提领看板进行物料补货的工作流
--------------------------------------------------------------------
 
 提领看板可用于将单个物料的看板在仓库和使用物料的生产库位之间移动。 提领看板支持基于提取的物料补货解决方案，其中要求通过提取信号触发特定需求的供应。 
 

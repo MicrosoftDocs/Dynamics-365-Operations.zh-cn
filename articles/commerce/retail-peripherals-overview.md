@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018823"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189567"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -833,8 +833,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
     6.  关闭 DLL 主机后，重新启动 Modern POS。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [Commerce 的外设模拟器](dev-itpro/retail-peripheral-simulator.md)
 

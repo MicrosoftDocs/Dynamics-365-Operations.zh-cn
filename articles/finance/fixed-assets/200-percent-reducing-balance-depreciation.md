@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e5a548f7963fad2b249c36c90ac19b812131d56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 91876ae28d088a52b12ac58db06cb0cd84b129ad
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827066"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193508"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200% 余额递减法
 
@@ -66,7 +66,7 @@ ms.locfileid: "5827066"
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>200% 余额递减法折旧示例
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |
 | Salvage value / 残值                  | 1, 000 |

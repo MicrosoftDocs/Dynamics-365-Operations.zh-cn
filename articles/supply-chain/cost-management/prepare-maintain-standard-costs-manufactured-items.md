@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6944782ac236a3f414b1cadfb12b0f0d8c1115b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a82b0a205ac6b7a86b9aca0771303469c6666c1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821505"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187738"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>准备为制造物料维护标准成本
 
@@ -63,8 +63,7 @@ ms.locfileid: "5821505"
 
 如果要将工艺路线信息用于成本核算目的，需要执行更多的准备步骤。 例如，分配给工艺路线工序的成本类别必须正确且完整。
 
-<a name="related-topics"></a>相关主题
---------
+## <a name="related-topics"></a>相关主题
 
 [为制造物料摊销固定成本](amortize-constant-costs-manufactured-item.md)
 

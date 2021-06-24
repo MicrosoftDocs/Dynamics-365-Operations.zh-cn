@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820875"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188774"
 ---
 # <a name="configure-accounts-payable-overview"></a>配置应付帐款概览
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820875"
 
 本文介绍您用于设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
 
-<a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
 
 在设置应付帐款之前，您必须先完成以下设置：
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835476"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189485"
 ---
 # <a name="vendor-posting-profiles"></a>供应商过帐模板
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835476"
 
 供应商过帐模板控制将供应商交易记录过帐到总帐。
 
-<a name="vendor-posting-profiles"></a>供应商过帐模板
------------------------
+## <a name="vendor-posting-profiles"></a>供应商过帐模板
 
 供应商过帐模板能让您将总帐科目和文档设置分配给所有供应商、一组供应商或单个供应商。 这些设置将在您创建采购订单、供应商发票和现金付款时使用。 对于某些交易记录，您可以选择不同于在此页面中为交易记录设置的模板的其他过帐模板，并且您选择的过帐模板优先。 默认过帐模板是在 **应付帐款参数** 页上的 **分类帐和销售税** 快速选项卡中定义的。 然后，默认过帐模板自动包括到新文档的标题中，在那里您可以根据需要将其更改为不同的过帐模板。
 

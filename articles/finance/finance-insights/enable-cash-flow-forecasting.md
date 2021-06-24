@@ -2,7 +2,7 @@
 title: 启用现金流预测（预览）
 description: 本主题说明如何在 Finance Insights 中开启现金流预测功能。
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818720"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222550"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>启用现金流预测（预览）
 
@@ -37,7 +37,7 @@ ms.locfileid: "5818720"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > 如果您的 Microsoft Dynamics 365 Finance 部署是 Service Fabric 部署，则可跳过此步骤。 Finance Insights 团队应该已经为您开启了外部测试版。 如果在 **功能管理** 工作区中看不到此功能，或者如果尝试打开该功能时遇到此问题，请联系 <fiap@microsoft.com>。
+    > 如果您使用的是 10.0.20 或更高版本，或者如果您使用的是 Service Fabric 部署，请跳过此步骤。 Finance Insights 团队应该已经为您开启了外部测试版。 如果在 **功能管理** 工作区中看不到此功能，或者如果在尝试打开该功能时遇到问题，请联系 <fiap@microsoft.com>。
   
 2. 打开 **功能管理** 工作区，然后执行以下步骤：
 
@@ -60,10 +60,5 @@ ms.locfileid: "5818720"
     2. 选择 **创建预测模型**。
 
 有关现金流预测功能的详细信息，请参阅[现金流预测](cash-flow-forecast-intro.md)。
-
-## <a name="privacy-notice"></a>隐私声明
-
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

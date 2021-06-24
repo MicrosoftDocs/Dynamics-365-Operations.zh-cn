@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835260"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188678"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA 直接借记概览
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835260"
 
 单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及冰岛、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>SEPA 直接借记的目标是什么？
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>SEPA 直接借记的目标是什么？
 
 在向债权人授予客户已签署授权的情况下，SEPA 直接借记允许债权人从客户的银行帐户中筹集资金。 客户签署授权允许债权人收取付款并指示客户的银行支付该收款。 
 

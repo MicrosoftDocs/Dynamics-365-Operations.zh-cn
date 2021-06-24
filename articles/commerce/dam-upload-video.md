@@ -2,7 +2,7 @@
 title: 上传视频
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传视频。
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799197"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224530"
 ---
 # <a name="upload-videos"></a>上传视频
 
@@ -35,7 +35,7 @@ Commerce 站点构建器的媒体库允许上传视频。 应始终上传比特�
 上载视频时，可以指定以下信息。
 
 - **标题、描述、关键字**：视频的元数据。
-- **自动生成隐藏式字幕**：指定应该为视频自动生成隐藏式字幕。
+- **自动生成隐藏式字幕**：指定应该为视频自动生成隐藏式字幕（仅支持英语）。 
 - **隐藏式字幕**：指定要使用的隐藏式字幕。
 - **常规音频**：指定要使用的常规音轨。
 - **缩略图**：指定视频的缩略图。 如果不指定，将自动生成。

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816500"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189684"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
@@ -67,8 +67,7 @@ ms.locfileid: "5816500"
 > [!NOTE]
 > 看起来可能平稳的预测可能是较长历史时间范围（最少 3 个时间段以选出模式，如 3 年的月预测）的历史数据的结果。 若要获取更好的结果，可以尝试更改时间范围的粒度或扩大时间范围。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 - [需求预测设置](demand-forecasting-setup.md)
 

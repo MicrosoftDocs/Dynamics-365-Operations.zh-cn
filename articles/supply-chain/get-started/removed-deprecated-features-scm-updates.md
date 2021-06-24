@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947536"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193222"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -38,7 +38,7 @@ ms.locfileid: "5947536"
 
 ### <a name="job-card-device"></a>作业卡设备
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **弃用/移除的原因** | [作业卡设备](../production-control/config-job-card-device.md)将被新的[生产车间执行界面](../production-control/production-floor-execution-configure.md)替换。 |
 | **被另一个功能取代？**   | 是，[作业卡设备](../production-control/config-job-card-device.md)将被新的[生产车间执行界面](../production-control/production-floor-execution-configure.md)替换。 |
@@ -50,7 +50,7 @@ ms.locfileid: "5947536"
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - 仓库（仓库应用）
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 自 2021 年 4 月起，*Dynamics 365 for Finance and Operations - 仓库*（仓库应用）将弃用，在 2022 年 4 月之后将不再受支持。 现在它将替换为 *仓库管理移动应用*，该应用随 Supply Chain Management 的版本 10.0.17 一起发布。 新应用是一个完全替代品，但使用相同的基础框架，从而使迁移变得容易。 如果需要，可以并排使用这两个应用，以帮助用户在学习使用新应用时逐渐进行调整。<br><br>有关新仓库管理移动应用的详细信息，请参阅[仓库管理移动应用程序](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)和[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)。 |
 | **被另一个功能取代？**   | 是，已替换为新的仓库管理移动应用。 |
@@ -62,7 +62,7 @@ ms.locfileid: "5947536"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 的 Internet Explorer 11 支持已弃用
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
@@ -72,7 +72,7 @@ ms.locfileid: "5947536"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>将内置的 Supply Chain Management 主计划引擎用于制造方案
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 为了在主计划运行期间提高性能并最大限度减小 SQL 数据库负荷，Planning Optimization 已取代了内置的 Supply Chain Management 主计划引擎。 通过 Planning Optimization，即使在办公时间也可以执行快速计划运行。 这使计划人员可以立即对需求或计划参数的变化做出反应。 |
 | **被另一个功能取代？**   | 是的，Planning Optimization 将取代现有的内置 Supply Chain Management 主计划引擎。 |
@@ -84,7 +84,7 @@ ms.locfileid: "5947536"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>将内置的 Supply Chain Management 主计划引擎用于分发方案
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 为了在主计划运行期间提高性能并最大限度减小 SQL 数据库负荷，Planning Optimization 已取代了内置的 Supply Chain Management 主计划引擎。 通过 Planning Optimization，即使在办公时间也可以执行快速计划运行。 这使计划人员可以立即对需求或计划参数的变化做出反应。 |
 | **被另一个功能取代？**   | 是的，Planning Optimization 将取代现有的内置 Supply Chain Management 主计划引擎。 |

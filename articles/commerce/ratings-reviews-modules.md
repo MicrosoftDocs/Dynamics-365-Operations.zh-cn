@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792139"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193274"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 
@@ -54,7 +54,11 @@ PDP 中的三个模块显示评分和评价摘要：
 
 撰写评价模块中有一个 **撰写评价** 按钮，供用户登录，分配评分和撰写产品评价。 用户可使用此模块编辑之前提交的评分或评价。 此模块通常在 PDP 上的评分直方图和产品评价列表模块上方显示。
 下图显示当客户选择 **撰写评价** 时显示的 **撰写评价** 对话框。 客户可使用此对话框提交评分和评价。
-![“撰写评价”对话框](media/rnr-eCommerce-write-review-module.png) 下表显示需要在制作工具中配置的撰写评价模块属性。
+
+![“撰写评价”对话框](media/rnr-eCommerce-write-review-module.png)
+
+下表显示需要在制作工具中配置的撰写评价模块属性。
+
 | 属性名称 | 值        | 属性描述                 |
 |---------------|--------------|--------------------------------------|
 | 姓名          | 撰写评价 | 撰写评价模块的名称。 |

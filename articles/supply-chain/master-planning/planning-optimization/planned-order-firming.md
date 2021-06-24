@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103620"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193873"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -102,7 +102,7 @@ ms.locfileid: "6103620"
 
 计划优化和内置计划引擎都可以用来自动确认计划订单。 不过，也存在某些重要差异。 例如，计划优化使用订单日期（即开始日期）来确定要确认的计划订单，而内置计划引擎则使用要求日期（即结束日期）。 下表总结了它们之间的不同。
 
-| | 计划优化 | 内置计划引擎 |
+| 功能 | 计划优化 | 内置计划引擎 |
 |---|---|---|
 | **日期基数** | 自动确认基于订单日期（开始日期）。 | 自动确认基于需求日期（结束日期）。 |
 | **提前期** | 由于订单日期（开始日期）触发确认，因此您不必将提前期视为确认时限的一部分。 | 为了帮助确保及时确认订单，确认时限必须长于提前期。 |

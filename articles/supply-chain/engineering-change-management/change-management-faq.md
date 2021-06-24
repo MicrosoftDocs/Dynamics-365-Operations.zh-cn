@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018677"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187263"
 ---
 # <a name="engineering-change-management-faq"></a>工程更改管理常见问题解答
 
@@ -46,7 +46,7 @@ ms.locfileid: "6018677"
 
 大多数组织选择此选项，是因为它提供版本和更改管理，而不会增加在每个交易、库存和主计划期间跟踪版本的额外开销。
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>哪些字段会被复制到已发布物料模板？
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>从已发布物料模板中复制哪些字段？
 
 工程公司创建工程产品时，该产品将作为工程公司中的已发布产品创建。 创建的已发布产品基于所选的 *已发布物料模板*。 （已发布物料模板本身是一个现有的已发布产品。）当产品发布到运营公司时，也会使用已发布物料模板。 在每种情况下，已发布物料模板会为已发布产品定义大多数字段值，这些值来自关联的 **已发布产品详细信息** 页。
 

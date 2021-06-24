@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834996"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188582"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>使用高级银行对帐对银行对帐单进行对帐
 
@@ -28,8 +28,7 @@ ms.locfileid: "5834996"
 
 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题说明对帐流程。  
 
-<a name="import-an-electronic-bank-statement"></a>导入电子银行对账单
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>导入电子银行对账单
 
 通过使用 **银行对账单** 页的 **导入对账单** 操作导入银行对账单。 在银行对账单上，银行帐户通过银行帐户详细信息中设置的值的组合识别。 这些值包括银行名称、银行帐号、路由号码、国际银行金融电信协会 (SWIFT) 代码和国际银行帐号 (IBAN)。 
 

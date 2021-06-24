@@ -2,7 +2,7 @@
 title: Finance insights 主页（预览）
 description: Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086981"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222502"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
@@ -68,7 +68,9 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 
 ## <a name="configure-finance-insights"></a>配置 Finance insights
 
-您必须先完成一些配置步骤，然后才能使用 Finance insights。 有关如何配置 Finance insights 的详细信息，请参阅 [Finance insights 的配置](configure-for-fin-insites.md)。
+您必须先完成一些配置步骤，然后才能使用 Finance insights。 有关如何配置 Finance Insights 的详细信息，请参阅：
+  - 对于 10.0.19 之前的版本：[Finance Insights 的配置 - 10.0.19 之前的版本](configure-for-fin-insites.md)。
+  - 对于版本 10.0.20 及更高版本：[Finance Insights 的配置（预览）- 版本 10.0.20 及更高版本](configure-for-fin-insites-PubPrvw.md)。
 
 ## <a name="create-a-data-integrator-project"></a>创建数据集成器项目
 
@@ -84,10 +86,7 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 要启用客户付款预测，您必须完成一组步骤来构建一个机器学习模型，该模型使用组织的数据生成有关客户何时可能会支付未清发票和何时可能要支付特定发票的预测。 有关详细信息和要完成的具体步骤，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。 
 
 ### <a name="enable-cash-flow-forecasting"></a>启用现金流预测
-要启用现金流预测，您必须完成一组步骤来构建机器学习模型，该模型使用组织的数据生成现金流预测。 有关详细信息和要完成的具体步骤，请参阅[启用现金流预测](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>设置和使用现金流预测
-有关如何设置和使用现金流预测的详细信息，请参阅[启用现金流预测](enable-cash-flow-forecasting.md)。 有关如何使用此功能的详细信息，请参阅[现金流预测](cash-flow-forecast-intro.md)。
+若要启用现金流预测，您必须完成一组步骤来生成机器学习模型，该模型使用组织的数据生成现金流预测。 有关详细信息和要完成的具体步骤，请参阅[启用现金流预测](enable-cash-flow-forecasting.md)。
 
 ### <a name="enable-budget-proposals"></a>启用预算提案
 
@@ -111,14 +110,12 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 
 - 要了解现金流预测中的新功能，请参阅[现金流预测](cash-flow-forecast-intro.md)。
 - 有关在此处导入要包括在现金流预测中的外部数据的信息，请参阅[在现金流预测中使用外部数据](external-data-in-cash-flow.md)。 
-- 有关如何使用 AI 模型预测长期现金流的信息，请参阅[现金流预测概述](cash-position.md)。
+- 有关如何使用 AI 模型预测近期现金流的信息，请参阅[现金头寸](cash-position.md)。
 - 有关将现金流头寸和现金流预测另存为快照以及将快照与实际值进行比较的信息，请参阅[快照概述](payment-snapshots.md)。
 
 ### <a name="using-budget-proposal"></a>使用预算提案
 
 有关加快预算创建速度的信息，请参阅[预算提案](budget-proposals.md)。 
-
-预算提案的演示数据：
 
 ## <a name="feedback-and-support"></a>反馈和支持
 

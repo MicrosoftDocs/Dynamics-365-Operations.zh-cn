@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6829f24b8efa29b39f5ed742d8ca99e09bcef01
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4590a1c1761d72472ec681be0cc3fbd098957d42
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910345"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188504"
 ---
 # <a name="cost-objects"></a>成本对象
 
@@ -64,8 +64,7 @@ ms.locfileid: "5910345"
 
 **注意：** **包括实际成本** 参数不影响之前的计算。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [产品维度组](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 

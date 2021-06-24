@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821433"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187594"
 ---
 # <a name="standard-cost-conversion-overview"></a>标准成本转换概览
 
@@ -92,8 +92,7 @@ ms.locfileid: "5821433"
 -   分析追溯的库存变动。 使用 **库存成本** 报表查看在转换后输入的追溯的库存变动。 报表的开始日期和结束日期应对应于开始过渡日期和转换日期（减一天）。 报告选择条件应反映已转换的物料。 该报告显示在过渡期内根据标准成本所做的库存变动。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [用于标准成本转换的先决条件](prerequisites-standard-cost-conversion.md)
 

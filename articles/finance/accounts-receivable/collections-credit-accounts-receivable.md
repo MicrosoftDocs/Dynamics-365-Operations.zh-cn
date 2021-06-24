@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814240"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189437"
 ---
 # <a name="collections-in-accounts-receivable"></a>应收帐款中的收款
 
@@ -99,8 +99,7 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 
 有关详细信息，请参阅[创建客户的勾销日记帐](tasks/create-write-off-journal-customer.md)。
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>处理资金不足 (NSF) 付款 
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>处理资金不足 (NSF) 付款 
 
 您可以通过单击“收款”页的“NSF 支付”来处理 NSF 支付。 当您单击此按钮时，取消付款。 如果 NSF 费用应用于该客户，则可以在付款日记帐中创建费用交易记录。 该费用金额是基于自动费用的设置的。 申请 NSF 支付的自动费用由受影响的银行帐户的“银行帐户”页中选择的费用组指定。
 

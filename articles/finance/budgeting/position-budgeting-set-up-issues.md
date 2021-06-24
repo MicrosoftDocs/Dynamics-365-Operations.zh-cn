@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e3c2f8a69d620bd2babe0d8d55858d01b25436
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed85e9fd1a953a60483f369e9ac39762e294f6fc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833105"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190253"
 ---
 # <a name="position-budgeting-troubleshooting"></a>职位预算编制疑难解答
 
@@ -28,8 +28,7 @@ ms.locfileid: "5833105"
 
 本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>为什么找不到人力资源中的预测职位页？
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>为什么找不到人力资源中的预测职位页？
 
 预测职位已移动到“预算”。
 

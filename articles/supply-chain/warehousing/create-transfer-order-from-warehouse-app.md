@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838362"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164838"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 
@@ -330,7 +330,6 @@ ms.locfileid: "5838362"
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>我是否可以使用实际的现有库存为负的牌照？
 
-该功能仅支持数量为正的实际现有库存。 在将牌照分配给转移单之前，请确保仓库和库存状态级别上的实际现有库存数量为正。
-
+该功能在牌照级别仅支持数量为正的实际现有库存，但在将牌照分配给转移订单时，您可以在更高的仓库和库存状态级别拥有数量为负的实际现有库存。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814528"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189634"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814528"
 
 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 
-<a name="introduction"></a>简介
-------------
+## <a name="introduction"></a>简介
 
 如果对物料可跟踪性有严格的要求，则此工作流相关。 在这些情况下，为了维护物料的可追踪性，必须申报消耗量的准确时间和数量。 此流程可能被视为与预先耗用或反向耗用工序（登记时间与发生实际消耗的时间之间存在偏移）相反。 这解释了为什么自动消耗策略无法用于具有可追踪性要求的一些物料。 我们来看一个简单的方案解释如何设置工作流以允许通过手持设备登记生产中的原材料消耗量。 [![设置使用手持设备启用原材料消耗量登记的工作流](./media/scenario3.png)](./media/scenario3.png)
 

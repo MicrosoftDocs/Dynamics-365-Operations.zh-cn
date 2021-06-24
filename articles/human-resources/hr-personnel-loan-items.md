@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052848"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190200"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>管理借给工作人员的物品
 
@@ -41,14 +41,12 @@ ms.locfileid: "6052848"
 
 经理可以查看借出给其直接下属的物品。 他们还可以被授予权限来代表其新员工添加新借出物品。
 
- <a name="account-for-lost-or-misplaced-loan-items"></a>丢失或放错地方的借出物品的科目
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>丢失或放错地方的借出物品的科目
 
 如果物品被损坏或放错了地方，应输入虚拟的归还记录。 然后删除该物品或将其保留在概览中，并更改描述以指出该物品不可用。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [人力资源](index.md)
 

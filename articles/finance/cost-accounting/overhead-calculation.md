@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822895"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187989"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822895"
 
 此主题描述计算和分配间接成本的典型流程。
 
-<a name="term-definition"></a>术语定义
----------------
+## <a name="term-definition"></a>术语定义
 
 间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。 间接成本为营利活动的生成提供重要支持。 以下是一些开销成本示例：
 

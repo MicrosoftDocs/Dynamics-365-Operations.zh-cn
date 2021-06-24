@@ -1,5 +1,5 @@
 ---
-title: 手动修改需求预测
+title: 指南：手动修改需求预测
 description: 本主题介绍了如何修改物料的预测
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889016"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224002"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
+# <a name="guide-modify-a-demand-forecast-manually"></a>指南：手动修改需求预测
 
 [!include [banner](../../includes/banner.md)]
 
-此过程显示如何修改物料预测。 创建此程序的演示数据公司是 USMF。 此程序是专为生产规划员设计的。
+此过程显示如何修改物料预测。 此程序是专为生产规划员设计的。
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>修改选定物料的预测
 
@@ -36,9 +36,9 @@ ms.locfileid: "5889016"
 1. 根据需要填写其他字段。
 1. 在操作窗格上选择 **保存**。
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>修改 Microsoft Excel 中一个或多个物料的预测
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>使用 Microsoft Excel 修改一个或多个物料的预测
 
-若要修改 Microsoft Excel 中一个或多个物料的预测：
+若要使用 Microsoft Excel 修改一个或多个物料的预测：
 
 1. 执行以下选项之一：
     - 针对上一部分中所述的任何物料（无论是哪一个）打开 **需求预测** 页面。

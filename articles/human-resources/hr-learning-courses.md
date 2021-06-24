@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054011"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190224"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054011"
 
 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 
- <a name="set-up-prerequisites"></a> 设置先决条件
----------------------
+##  <a name="set-up-prerequisites"></a> 设置先决条件
 
 以下信息是必需的，而且必须在创建课程之前设置。
 -   **课程类型**
@@ -127,8 +126,7 @@ ms.locfileid: "6054011"
 ## <a name="course-participants"></a>课程参与者
 课程参与者是参加培训课程或活动的工作人员。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在 **课程** 页上的 **常规** 快速选项卡中进行了定义。
 
-<a name="workflow"></a>工作流
---------
+## <a name="workflow"></a>工作流
 
 通过 **工自助服务** 页登记课程的员工可以让其注册工作流传送以供审核。 可以在 **课程** 页上的 **常规** 快速选项卡中为课程分配工作流。
 

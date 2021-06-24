@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941101"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219779"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 
@@ -196,23 +196,10 @@ Supply Chain Management 共享的 Dataverse 和 Field Service 中的所有列都
 
 | 供应链管理 | Field Service | 说明 |
 |---|---|---|
-| 采购订单头 V2 | msdyn\_Purchaseorders | 此表包含表示采购订单头的列。 |
-| 采购订单行实体 | msdyn\_PurchaseOrderProducts | 此表包含表示采购订单上的行的行。 产品编号用于同步。 这会将产品标识为库存单位 (SKU)，包括产品维度。 有关与 Dataverse 进行产品集成的详细信息，请参阅[统一的产品体验](product-mapping.md)。 |
-| 物料收货标题 | msdyn\_purchaseorderreceipts | 此表包含在 Supply Chain Management 中发布产品收据时创建的产品收据标题。 |
-| 物料收货行 | msdyn\_purchaseorderreceiptproducts | 此表包含在 Supply Chain Management 中发布产品收据时创建的产品收据行。 |
-| 采购订单行软删除实体 | msdyn\_purchaseorderproducts | 此表包含有关已软删除的采购订单行的信息。 如果启用了更改管理，则只有在确认或审核了采购订单后，才能软删除 Supply Chain Management 中的采购订单行。 此行存在于 Supply Chain Management 数据库中，标记为 **IsDeleted**。 由于 Dataverse 没有软删除概念，所以将此信息同步到 Dataverse 非常重要。 这样，在 Supply Chain Management 中被软删除的行可以从 Dataverse 中自动删除。 在这种情况下，在 Dataverse 中删除行的逻辑位于 Supply Chain Management 扩展版中。 |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [采购订单头 V2](mapping-reference.md#183) | msdyn\_Purchaseorders | 此表包含表示采购订单头的列。 |
+| [采购订单行实体](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | 此表包含表示采购订单上的行的行。 产品编号用于同步。 这会将产品标识为库存单位 (SKU)，包括产品维度。 有关与 Dataverse 进行产品集成的详细信息，请参阅[统一的产品体验](product-mapping.md)。 |
+| [物料收货标题](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | 此表包含在 Supply Chain Management 中发布产品收据时创建的产品收据标题。 |
+| [物料收货行](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | 此表包含在 Supply Chain Management 中发布产品收据时创建的产品收据行。 |
+| [采购订单行软删除实体](mapping-reference.md#182) | msdyn\_purchaseorderproducts | 此表包含有关已软删除的采购订单行的信息。 如果启用了更改管理，则只有在确认或审核了采购订单后，才能软删除 Supply Chain Management 中的采购订单行。 此行存在于 Supply Chain Management 数据库中，标记为 **IsDeleted**。 由于 Dataverse 没有软删除概念，所以将此信息同步到 Dataverse 非常重要。 这样，在 Supply Chain Management 中被软删除的行可以从 Dataverse 中自动删除。 在这种情况下，在 Dataverse 中删除行的逻辑位于 Supply Chain Management 扩展版中。 |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
