@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b7221cb5b0ea1fdbb4e05831cdd6dd482e321
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d24035aa326c2232cc77a576d24c15b3a8f9d93b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823530"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188339"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
@@ -63,8 +63,7 @@ ms.locfileid: "5823530"
 | 子参数 | **高级分类帐条目** Configuration Key (AdvancedLedgerEntry) **公共部门 1099G** Configuration Key (Tax1099G) **公共部门 1099S** Configuration Key (Tax1099S) **法国监管** Configuration Key |
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [计划公共部门功能](plan-public-sector-functionality.md)
 

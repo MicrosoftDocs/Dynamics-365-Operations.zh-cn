@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Supply Chain Management 主页
           href: index.md
-        - name: 入门
+        - name: 开始使用
           items:
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -72,7 +72,7 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20（2021 年 7 月）
+                    - name: Supply Chain Management 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 电子开票
                   items:
                     - name: 电子开票概览
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 创建 Azure 存储帐户和密钥保管库
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 使用情况管理仪表板
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 开始使用
                       items:
                         - name: 开始使用电子开票服务管理
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 生成可打印的普通发票 (FTI) 窗体
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 跟踪电子报告格式的执行以解决性能问题
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 设计高效的电子报告解决方案
+                  items:
+                    - name: 跟踪电子报告格式的执行以解决性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 解决电子报告配置中的性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: 与内部供应链客户协作
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: 需求预测
+            - name: 预测
               items:
-                - name: 需求预测概览
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: 需求预测设置
-                  href: master-planning/demand-forecasting-setup.md
-                - name: 导入历史数据以进行需求预测
-                  href: master-planning/import-historical-data.md
-                - name: 生成统计基准预测
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: 对基准预测进行手动调整
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: 授权调整后的预测
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: 监控预测准确性
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: 在计算需求预测时，需从历史交易记录数据中删除离群值
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: 缩减参数
-                  href: master-planning/reduction-keys.md
-                - name: 创建基准预测
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: 手动修改需求预测
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: 需求和供应预测
+                  items:
+                    - name: 库存预测
+                      href: master-planning/inventory-forecast.md
+                    - name: 指南：手动修改需求预测
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: 需求预测
+                  items:
+                    - name: 需求预测概览
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: 需求预测设置
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: 生成统计基准预测
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: 对基准预测进行手动调整
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: 授权调整后的预测
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: 导入历史数据以进行需求预测
+                      href: master-planning/import-historical-data.md
+                    - name: 在计算需求预测时，需从历史交易记录数据中删除离群值
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: 监控预测准确性
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 指南：创建基准预测
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: 主计划与预测
+                  items:
+                    - name: 预测缩减参数
+                      href: master-planning/reduction-keys.md
             - name: 主计划疑难解答
               href: master-planning/troubleshoot-masterplanning.md
         - name: 移动应用
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: 销售和市场营销
               items:
+                - name: 取消销售订单时不能减少数量
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 系统管理员无法清除订单保留，因为他们未获授权
                   href: troubleshooting/sales/system-administrator.md
             - name: 运输管理

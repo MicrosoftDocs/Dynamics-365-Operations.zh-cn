@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aa89f27925b88be947f27303957cd53089b8290
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960008"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187908"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960008"
 
 本主题概要介绍了预算编制功能组件、预算编制工具和报告功能。 
 
-<a name="components-of-budgeting-functionality"></a>预算编制功能组件
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>预算编制功能组件
 
 公司的资源计划周期通常包含计划、预算编制和预测活动。
 

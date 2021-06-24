@@ -14,7 +14,7 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对版本 10.0.20 的平台更新（2021 年 7 月）
+                - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: 针对 10.0.19 的平台更新（2021 年 6 月）
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: 使用 Trace parser 进行跟踪
                   href: perf-test/trace-trace-tutorial.md
-                - name: 通过任务录制器和 Performance SDK 进行单用户测试
+                - name: 使用 Performance SDK 和任务录制器进行单用户测试
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: 通过本地测试控制器进行多用户 Performance SDK 测试
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: 使用 Performance SDK 进行多用户测试
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: 使用 Performance SDK 进行测试疑难解答指南
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: 在本地环境中进行 Performance SDK 和多用户测试
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: 创建批处理作业
                   href: sysadmin/tasks/create-batch-job.md
+                - name: 启用批处理作业的自动重试
+                  href: sysadmin/retryable-batch.md
                 - name: 复制批处理作业
                   href: sysadmin/copy-batch-job.md
                 - name: 活动批处理期间
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 升级 - 数据升级的升级前核对清单
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 升级 - 沙盒环境中使用 DACPAC 流程的数据升级
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: 从 AX 2012 升级 - SQL 事务复制
                   href: database/replication-setup.md
-                - name: AX 2012 升级 - 沙盒环境中的数据升级
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: 从 AX 2012 升级 - 自助服务环境中的数据升级
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 升级 - 本地环境
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 升级 - 直接转换测试
