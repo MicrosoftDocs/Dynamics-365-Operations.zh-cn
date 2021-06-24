@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Commerce 主页
           href: index.md
-        - name: 入门
+        - name: 开始使用
           items:
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
@@ -94,7 +94,7 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20（2021 年 7 月）
+                    - name: Commerce 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Dynamics 365 Commerce 组件版本控制要求
                   href: arch-component-versioning.md
-                - name: Commerce Scale Unit 体系结构
+                - name: 无头 Commerce 引擎体系结构
                   href: dev-itpro/retail-server-architecture.md
                 - name: 选择店内拓扑
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,11 +258,11 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS 体系结构
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: 在线商店发布体系结构
+                - name: 发布在线商店渠道
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI 内容
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
-                - name: 支付应用数据安全标准 (PA-DSS) 认证
+                - name: 支付应用程序数据安全标准 (PA-DSS) 认证
                   href: dev-itpro/PA-DSS-Certification.md
                 - name: 本地部署中提供的 Commerce 功能
                   href: retail-onprem.md
@@ -542,11 +542,13 @@
                       href: dev-itpro/archive-cc-data.md
                     - name: 在没有硬件工作站的情况下处理信用卡
                       href: dev-itpro/cnp-pos.md
-                    - name: 面向 PayPal 的 Dynamics 365 Payment Connector
+                    - name: 适用于 PayPal 的 Dynamics 365 Payment Connector
                       href: paypal.md
                     - name: 钱包付款支持
                       href: wallets.md
-                    - name: 付款常见问题
+                    - name: 店面结帐中的增强支付功能
+                      href: dev-itpro/enhanced-sca.md
+                    - name: 付款常见问题解答
                       href: dev-itpro/payments-retail.md
                 - name: 电子邮件和通知
                   items:
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: 销售连续性计划和处理销售订单
                   href: tasks/use-continuity-program.md
-                - name: 启用销售点 (POS) 中的客户签入通知
+                - name: 在 POS 启用客户登记通知
                   href: enable-customer-check-in.md
-            - name: 退货
+            - name: 退货和退款
               items:
+                - name: 在 POS 中创建退货
+                  href: POS-returns.md
+                - name: 在 POS 中退回序列号控制的产品
+                  href: POS-serial-returns.md
                 - name: 关联退款
                   href: dev-itpro/linked-refunds.md
                 - name: 销售和退回未包含在商店的分类中的产品
@@ -1230,19 +1236,23 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: 奥地利
               items:
                 - name: 奥地利的会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
             - name: 巴西
               items:
-                - name: 巴西的 Commerce 本地化
+                - name: 适用于巴西的 Commerce 本地化
                   href: localizations/latam-bra-commerce-localization.md
+                - name: 设置和部署适用于巴西的 Commerce 本地化
+                  href: localizations/latam-bra-deployment.md
             - name: 东欧
               items:
                 - name: 通用
                   items:
-                    - name: 东欧的 Commerce 预付款账单
+                    - name: 东欧的 Commerce 预付款发票
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: 东欧的 Commerce 备用金管理
                       href: localizations/emea-eeu-petty-cash-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: 生成可打印的普通发票 (FTI) 窗体
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: 跟踪电子报告格式的执行以解决性能问题
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: 设计高效的电子报告解决方案
+                  items:
+                    - name: 跟踪电子报告格式的执行以解决性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: 解决电子报告配置中的性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
@@ -2198,7 +2212,7 @@
               items:
                 - name: 在线渠道可扩展性概览
                   href: e-commerce-extensibility/overview.md
-                - name: 入门
+                - name: 开始使用
                   items:
                     - name: 电子商务在线可扩展性开发入门
                       href: e-commerce-extensibility/sdk-getting-started.md
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: Retail SDK 常见问题解答
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: 销售点可扩展性
+            - name: 销售点 (POS) 可扩展性
               items:
                 - name: POS 屏幕布局
                   href: pos-screen-layouts.md
