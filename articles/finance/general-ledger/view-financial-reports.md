@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897276"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187786"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897276"
 
 本主题介绍如何查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
-<a name="financial-reporting-overview"></a>财务报告概览
-----------------------------
+## <a name="financial-reporting-overview"></a>财务报告概览
 
 ## <a name="open-a-financial-report"></a>打开财务报表
 若要打开报表，选择报表名称。 首次打开报表，它将为上个月自动生成。 例如，如果在 2015 年 8 月首次打开报表，将为 2015 年 7 月 31 日生成报表。 在打开报表后，可以通过深化到特定的数据部分并更改报表选项来开始探索报表。
@@ -76,8 +75,7 @@ ms.locfileid: "5897276"
 ## <a name="export-a-financial-report"></a>导出财务报表
 若要导出财务报表，在操作窗格中，单击 **导出**。 报表导出到 Microsoft Excel，并且，您的浏览器将提示您打开或保存导出的文件。 在报表设计中定义的导出设置应用到导出的报表。    
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [财务报告](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821929"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189013"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821929"
 
 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
-<a name="default-balance-sheet-reports"></a>默认资产负债表
------------------------------
+## <a name="default-balance-sheet-reports"></a>默认资产负债表
 
 有两个默认的资产负债表。 在一个报表中，这些部分堆积起来。 在另一个报表中，这些部分是并行的。
 
@@ -68,8 +67,7 @@ ms.locfileid: "5821929"
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [财务报告概览](financial-reporting-getting-started.md)
 

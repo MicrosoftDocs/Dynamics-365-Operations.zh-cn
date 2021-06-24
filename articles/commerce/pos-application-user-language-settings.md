@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bdd03dff359e7c2799eff53b0e999580ce8b1c06
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804373"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193095"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>销售点 (POS) 应用程序和用户语言设置
 
@@ -57,7 +57,7 @@ POS 用户的语言设置确定在应用程序用户界面使用的翻译。 这
 
 POS 用户的语言设置从 **Retail 和 Commerce &gt; 语言** 下的 **工作人员** 页上的 **所有工作人员** 设置。 不在主“配置文件”选项卡上设置。POS 不使用此设置。 如果未设置用户的语言或设置为不可使用翻译的语言，POS 将恢复为商店的语言。
 
-|             | UI 语言                  | 数据语言（产品、收据格式、行显示等） |
+| &nbsp;      | UI 语言                  | 数据语言（产品、收据格式、行显示等） |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **公司** | 默认值                    | 默认值                                                       |
 | **商店**   | 覆盖公司          | 覆盖公司                                             |

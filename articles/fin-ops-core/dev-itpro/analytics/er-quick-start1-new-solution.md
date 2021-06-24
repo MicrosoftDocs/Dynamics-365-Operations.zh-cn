@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891785"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224026"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
@@ -285,7 +285,7 @@ ms.locfileid: "5891785"
 
 此配置的版本 1 的状态将从 **草稿** 更改为 **已完成**。 版本 1 不能再更改。 此版本包含已配置的数据模型，可以用作其他 ER 配置的基础。 此配置的版本 2 将创建，状态为 **草稿**。 您可以编辑此版本来调整 **调查表** 数据模型。
 
-![“配置”页上可编辑 ER 配置的版本](./media/er-quick-start1-model-configuration.png)
+![“配置”页面上可编辑配置的版本](./media/er-quick-start1-model-configuration.png)
 
 有关 ER 配置的版本控制的详细信息，请参阅[电子报告 (ER) 概述](general-electronic-reporting.md#component-versioning)。
 
@@ -799,7 +799,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 此配置的版本 1.1 的状态将从 **草稿** 更改为 **已完成**。 版本 1.1 不能再更改。 此版本包含配置的格式，可用于打印自定义报表。 此配置的版本 1.2 将创建，状态为 **草稿**。 您可以编辑此版本来调整 **调查表** 报表的格式。
 
-![“配置”页上可编辑 ER 配置的版本](./media/er-quick-start1-format-configuration.png)
+![“配置”页面上的可编辑 ER 配置](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > 配置的格式是您的 **调查表** 报表的设计，不包含与 Finance 特定伪像的关系。

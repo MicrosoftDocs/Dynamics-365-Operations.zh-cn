@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835188"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188702"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 
@@ -90,7 +90,6 @@ ms.locfileid: "5835188"
 
 
 ## <a name="example-2-interest-by-range--days"></a>示例 2：按大小的利息 = 天
---------------------------------------------------
 
 您设置发票付款超过交易到期日期每 15 天估计一次利息的利息代码。 要基于计算利息百分比值，根据步骤的金额间隔。 在过去 60 天以来，利息值将为 10.00 每 15 天，在每 15.00 天 61 到 90 和 20.00 个期间的 15 天，从第 91 天的 15 天前和之后。 您为利息代码设置了字段的值。
 
@@ -111,7 +110,6 @@ ms.locfileid: "5835188"
 
 
 ## <a name="example-3-interest-by-range--months"></a>示例 3：按大小的利息 = 月
-----------------------------------------------------
 
 您设置估计利息一次每三个月的利息代码发票付款超过交易到期日期。 要基于计算利息百分比值，根据步骤的金额间隔。 对于前三个月逾期，利息值将为每月 1.5%，对于第二个三个月逾期，为每月 2.0%，对于超出前六个月之外的每个月，为每月 2.5%。 您为利息代码设置了字段的值。
 

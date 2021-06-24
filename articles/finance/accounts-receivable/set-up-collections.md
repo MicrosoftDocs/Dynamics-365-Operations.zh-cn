@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835212"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189461"
 ---
 # <a name="set-up-collections"></a>设置收款
 
@@ -40,8 +40,7 @@ ms.locfileid: "5835212"
 
 在本主题的其余部分中，将对这些要点进行更详细的讨论。 
 
-<a name="set-up-aging-period-definitions"></a>设置帐龄期间定义
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>设置帐龄期间定义
 
 设置帐龄期间定义。 帐龄期间定义用于定义在 **帐龄余额**、**收款活动** 和 **收款案例** 列表页上显示的列。 它还定义在 **收款** 页上显示的期间。 如果设置客户池，使用池的帐龄期间定义。 如果未设置池，则使用在 **应收帐款参数** 页中指定的默认帐龄期间定义。 如果默认帐龄期间定义未指定，则在 **帐龄期间定义** 页中使用第一个帐龄期间定义。
 

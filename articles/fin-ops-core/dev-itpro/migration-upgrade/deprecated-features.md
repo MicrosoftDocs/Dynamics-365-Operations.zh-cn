@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112613"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193558"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -92,7 +92,7 @@ ms.locfileid: "6112613"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 意大利本地化 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **方块列表报告 (IT) – 功能引用 IT-00001**。 |
+| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持此报表。 |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>国内税报表 – 功能引用 IT-00003
 
@@ -365,6 +365,16 @@ ms.locfileid: "6112613"
 | **部署选项**              | 所有 |
 | **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
+### <a name="payroll-and-human-resources-for-russia"></a>俄罗斯工资单和人力资源
+特定于俄罗斯国家的模块，用于管理员工管理信息、员工的时间表详细信息、工资核算以及创建工资单。 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 工资单不包括在 Dynamics 365 组合的全球战略重点中。 合作伙伴和 ISV 最适合提供符合当地法规和税务更新的工资单功能。|
+| **被另一个功能取代？**   | 无|
+| **影响的产品区域**         | 俄罗斯工资单和人力资源管理 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：删除功能的目标时间范围是 10.0 版本的未来更新之一。 |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>带平台更新 15 的 Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。

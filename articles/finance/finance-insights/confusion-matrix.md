@@ -2,7 +2,7 @@
 title: 机器学习模型的结果（预览）
 description: 本主题讨论机器学习 (ML) 模型中的混淆矩阵、分类问题和准确度。 目的是加深您对 ML 预测结果准确度的理解。
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028195"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193532"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>机器学习模型的结果（预览）
 
@@ -129,16 +129,12 @@ F1 度量结合了精度和召回率。 结果是两个值的谐量平均值。 
 
 有关此计算如何工作的更多详细信息，下面是模型 1 的 sklearn.metrics 分类报告。 标签分别为 1、2 和 3 的行表示了三种状态：“按时”、“逾期”和“严重逾期”。 宏平均值只是“f1-score”列的平均值。
 
-|           | 精度 | 召回率   | f1-score |
+| &nbsp;    | 精度 | 召回率   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 从这些结果可以看出，两个模型的 F1 宏精度得分几乎相同。 在这种情况下以及其他许多情况下，F1 精度可以更好地指示模型的功能。 至于准确性，对结果的解释要求您了解模型中最重要的考虑因素。
-
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826610"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188432"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826610"
 
 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 销售税框架支持许多类型的间接税收，例如销售税、增值税 (VAT)，商品劳务税 (GST)，基于单位的费用和预缴税金。 这些税在采购和销售交易记录期间计算和记录。 它们必须定期申报和支付给税务主管机构。 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817861"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190008"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
@@ -74,8 +74,7 @@ ms.locfileid: "5817861"
 ## <a name="finite-materials"></a>有限物料
 如果您使用有限物料，该排产还取决于生产所需物料的可用性。 如果可用组件无法满足生产，生成可能延误。 您可以根据指定必须可用于生产的物料的使用编制计划。 在您对资源产能和物料的可用性同时进行优化生产时，根据这些限制计算生产。 在产能和物料按所需数量同时可用前，生产订单不能计划开始。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [工序级排产选项](operation-scheduling-options.md)
 

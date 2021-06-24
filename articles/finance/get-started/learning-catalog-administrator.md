@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897252"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193347"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Dynamics 365 Finance 管理员学习目录
 
@@ -60,6 +60,7 @@ ms.locfileid: "5897252"
 
 | 内容 | 说明  | 格式 | 长度    |
 |---------|--------------|--------|-----------|
+| [将 Dynamics AX 2012 升级到 Finance and Operations 应用](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到 Finance and Operations 应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Finance and Operations：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 | 自由录制 Web 会议 | 61 分钟 |
 | [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 Finance and Operations 应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 自由录制 Web 会议 | 58 分钟 |
 | [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 自由录制 Web 会议 | 45 分钟 |

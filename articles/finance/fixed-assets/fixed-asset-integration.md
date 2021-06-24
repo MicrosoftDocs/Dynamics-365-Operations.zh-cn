@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826826"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189776"
 ---
 # <a name="fixed-assets-integration"></a>固定资产集成
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826826"
 
 固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
 
-<a name="general-ledger"></a>总帐
---------------
+## <a name="general-ledger"></a>总帐
 
 在总帐中，所有固定资产的值通常都汇总到进行财务报告时所需的多个主科目。 但是，在 **固定资产** 页中，您可以创建许多固定资产记录。 这些记录可以包含诸如购置价格、折旧和评估等信息。 只要过帐固定资产的交易记录，就会更新相应的主科目。 固定资产的主科目始终显示固定资产的更新值。
 

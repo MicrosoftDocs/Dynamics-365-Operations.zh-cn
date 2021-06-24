@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837121"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190301"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837121"
 
 本文提供 Microsoft Dynamics 365 Finance 中的信用卡授权的概览。 其中包含有关如何设置付款服务，添加信用卡到销售订单和取消授权的信息。
 
-<a name="setting-up-the-credit-card-payment-service"></a>设置信用卡付款服务
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>设置信用卡付款服务
 
 若要使用信用卡，您必须设置并激活付款服务页的付款服务。 付款服务充当您的法人和处理客户信用卡费用的银行之间的桥梁。 您必须使用在“付款连接器”字段中列出的信用卡提供商，并在该提供商那里设置帐户。 然后必须在“付款服务”页设置其他选项，在“信用卡类型”页上设置信用卡类型为 American Express、Discover、MasterCard 和 Discover，并激活提供商为默认提供商。 您还必须按照下面的步骤完成您的设置：
 -   在“应收帐款参数”页，指定用于信用卡授权的参数。
@@ -39,13 +38,11 @@ ms.locfileid: "5837121"
 ## <a name="adding-a-new-credit-card"></a>添加新的信用卡
 通过使用“客户”、“设置”、“信用卡”在“客户”页创建新的信用卡记录。 在“销售订单”页输入销售订单时，还可以通过使用“管理”、“客户”、“信用卡”、“登记”创建信用卡记录。
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>将信用卡添加到销售订单
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>将信用卡添加到销售订单
 
 您可以添加信用卡到销售订单，方法是通过在“销售订单”页的“价格和折扣”快速选项卡上的信用卡查找中选择信用卡。 若要开始授权流程，在“操作窗格”，在“管理”选项卡上，选择“信用卡和授权”。
 
-<a name="authorizing-a-credit-card"></a>授权信用卡
--------------------------
+## <a name="authorizing-a-credit-card"></a>授权信用卡
 
 在对某一信用卡进行授权时，验证信用卡号和持卡人的名字，并且确认可用的信用卡余额。 或者，验证卡验证值和持卡人的地址。 然后，从该客户的可用信用卡余额中减去发票金额。 付款服务将发送信用卡已核准或拒绝的信息。 在给销售订单开票时，按发票金额对信用卡计费（已捕获）。
 

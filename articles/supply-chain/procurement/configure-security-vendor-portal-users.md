@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807840"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188480"
 ---
 # <a name="vendor-portal-user-security"></a>供应商门户用户安全
 
@@ -40,8 +40,7 @@ ms.locfileid: "5807840"
 
 如果同一个人需要访问多个供应商帐户（可能是不同的法人）的供应商门户，那么这个人的每一个用户帐户都必须与相同的已注册联系人相关联。 **供应商（外部）** 角色包括使用供应商门户中提供的功能所需的所有基本功能。 此设置有助于确保外部用户看到的用户界面仅集中于预期场景。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [通过使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)
 

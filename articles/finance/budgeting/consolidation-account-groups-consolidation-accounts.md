@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827344"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189413"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>合并科目组和其他合并科目
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827344"
 
 此主题提供有关合并科目组和其他合并科目的信息，并说明其在 Microsoft Dynamics 365 Finance 中的使用方法。
 
-<a name="consolidation-account-groups"></a>合并帐户组
-----------------------------
+## <a name="consolidation-account-groups"></a>合并帐户组
 
 可通过合并科目组创建要用于合并数据的科目组。 通常，合并科目组表示政府规定的会计科目表，或将科目映射到公司总部定义的组。 可以在 **合并** 模块的 **设置** 区域中找到合并科目组。 添加新组时，请为科目组输入唯一标识和名称。
 

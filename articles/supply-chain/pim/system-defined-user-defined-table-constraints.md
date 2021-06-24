@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812665"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187959"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
@@ -57,8 +57,7 @@ ms.locfileid: "5812665"
 
 在表约束可以在产品配置模型上生效之前，表约束必须包括在一个模型的组件上的约束中。 过程是创建新约束，选择表约束类型，然后选择要使用的表约束定义。 最后，表中的所有字段都必须映射到产品配置模型中的属性。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [产品配置模型概述](product-configuration-models.md)
 

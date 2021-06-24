@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ccefb5c9738641577571ce979a95a8dd048939c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edac31cb8a4f28f06819c791b308286f474c9b55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822147"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188654"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 
@@ -30,8 +30,7 @@ ms.locfileid: "5822147"
 
 
 
-<a name="periodic-processes-for-generating-budget-plans"></a>生成预算计划的周期性流程
-----------------------------------------------
+## <a name="periodic-processes-for-generating-budget-plans"></a>生成预算计划的周期性流程
 
 预算计划可以从以下资源生成：
 

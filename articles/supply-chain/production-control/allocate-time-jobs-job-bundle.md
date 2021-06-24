@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811862"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193037"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间到作业捆绑中的作业
 
@@ -80,7 +80,7 @@ ms.locfileid: "5811862"
 ## <a name="net-time-allocation-key"></a>净时间分配参数
 下表阐释用于计算分配的时间的公式。 这是公式：每个报告的计算时间 = 捆绑时间 ÷ 作业数
 
-|                              | 09:00–10:00（1 小时） | 10:00–11:00（1 小时） | 11:00–13:00（2 小时） | 13:00–15:00（2 小时） | 分配的时间 |
+| 示例                       | 09:00–10:00（1 小时） | 10:00–11:00（1 小时） | 11:00–13:00（2 小时） | 13:00–15:00（2 小时） | 分配的时间 |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | 捆绑中的作业的编号。 | 1                    | 3                    | 2                     | 1                     | 不适用 |
 | 作业 1                        | 1 ÷ 1 = 1 小时       | 1 ÷ 3 = 0.33 小时    | 不适用        | 不适用        | 1.33 小时     |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897028"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188989"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897028"
 
 本主题介绍从哪里访问财务申报，以及如何使用财务申报功能。 其中还包括提供的默认财务报表的描述。
 
-<a name="accessing-financial-reporting"></a>访问财务申报
------------------------------
+## <a name="accessing-financial-reporting"></a>访问财务申报
 
 您可以在以下位置找到 **财务申报** 菜单：
 

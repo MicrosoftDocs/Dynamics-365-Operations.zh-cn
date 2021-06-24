@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980888"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184117"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980888"
 | **被另一个功能取代？**   | 是 |
 | **影响的产品区域**         | Dynamics 365 Finance、Supply Chain Management 和 Project Operations|
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：到 2022 年 4 月 1 日，我们计划不再支持 Microsoft Dynamics Lifecycle Services (LCS) 存储库作为电子报告 (ER) 配置的存储选项。 将发布新的 Microsoft ER 配置，以专门从全局存储库下载。 可以从 Dynamics 365 产品和 RCS 访问全局存储库。 有关详细信息，请参阅[从 RCS 导入 ER 配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)。 |
+| **状态**                         | 已弃用：到 2022 年 4 月 1 日，我们计划不再支持 Microsoft Dynamics Lifecycle Services (LCS) 存储库作为电子报告 (ER) 配置的存储选项。 将发布新的 Microsoft ER 配置，以专门从全局存储库下载。 可以从 Dynamics 365 产品和 RCS 访问全局存储库。 有关详细信息，请参阅[从 RCS 导入 ER 配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)和 [Regulatory Configuration Service - Lifecycle Services 存储弃用](../localizations/rcs-lcs-repo-dep-faq.md)。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 版本中已经删除或弃用的功能
 

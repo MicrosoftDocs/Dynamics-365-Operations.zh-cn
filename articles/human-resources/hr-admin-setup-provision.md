@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053651"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193716"
 ---
 # <a name="provision-human-resources"></a>设置 Human Resources
 
@@ -56,7 +56,7 @@ ms.locfileid: "6053651"
 1. 使用您用于订阅 Human Resources 的帐户登录到 [LCS](https://lcs.dynamics.com/Logon/Index)。
 
    > [!NOTE]
-   > 要确保成功预配，必须将用于预配 Human Resources 环境的帐户分配给与 Human Resources 环境关联的 Power Apps 环境中的 **系统管理员** 或 **系统定制员** 角色。 有关在 Power Platform 中为用户分配安全角色的详细信息，请参阅[为资源配置用户安全性](https://docs.microsoft.com/power-platform/admin/database-security)。
+   > 要确保成功预配，必须将用于预配 Human Resources 环境的帐户分配给与 Human Resources 环境关联的 Power Apps 环境中的 **系统管理员** 或 **系统定制员** 角色。 有关在 Power Platform 中为用户分配安全角色的详细信息，请参阅[为资源配置用户安全性](/power-platform/admin/database-security)。
 
 2. 选择加号 (**+**) 创建项目。
 

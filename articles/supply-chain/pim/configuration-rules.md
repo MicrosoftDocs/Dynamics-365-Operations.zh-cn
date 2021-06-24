@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829562"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190176"
 ---
 # <a name="configuration-rules"></a>配置规则
 
@@ -36,8 +36,7 @@ ms.locfileid: "5829562"
 
 **注意：** 对于 **选择** 方法，将自动选择派生的配置组、物料编号和配置。 对于 **取消选择** 方法，将不能选择派生的配置组、物料编号和配置。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [基于维度的产品配置概览](dimension-based-product-configuration.md)
 

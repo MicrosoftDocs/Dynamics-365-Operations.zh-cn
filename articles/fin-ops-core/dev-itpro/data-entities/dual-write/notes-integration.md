@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018378"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186778"
 ---
 # <a name="note-integration"></a>注释集成
 
@@ -122,5 +122,9 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 | [供应商单据附件](mapping-reference.md#231) | 批注 | 使用纯文本和 URL 来捕获供应商特定信息的企业（针对组织和个人）。 |
 | [销售订单头文档附件](mapping-reference.md#229) | 批注 | 使用纯文本和 URL 来捕获销售订单特定信息的企业。 |
 | [采购订单头文档附件](mapping-reference.md#232) | 批注 | 使用纯文本和 URL 来捕获采购订单特定信息的企业。 |
+
+## <a name="limitations"></a>限制
+
+安装注释解决方案后，无法卸载它。 
 
 有关更多信息，请参见[双重写入映射参考](mapping-reference.md)。

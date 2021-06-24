@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b72ccbcec1e3796917c041def19f3985668e7e1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ac31634844ea5d82f795b2262d17a6be3a926c2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807912"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190128"
 ---
 # <a name="procurement-catalogs-overview"></a>采购目录概览
 
@@ -66,8 +66,7 @@ ms.locfileid: "5807912"
 -   **两者** – 如果目录包括具有 **静态** 默认更新类型的产品类别，则在这些类别更新时，必须手动更新该目录。 如果目录包括具有 **动态** 默认更新类型的产品类别，则在目录发生更改时，将会自动更新。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [设置采购类别层次结构](tasks/set-up-procurement-category-hierarchy.md)
 

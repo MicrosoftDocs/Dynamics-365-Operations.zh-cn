@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910057"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189660"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>使用供应商门户与供应商协作
 
@@ -92,8 +92,7 @@ PO 在 Dynamics AX 中准备。 在您具有状态为 **已审核** 的 PO 时�
 |                           您将 PO 的新版本发送到供应商门户。                            |                                                                                                                                                                    供应商门户上注册了新版本，状态更改为<strong>正在进行外部审查</strong>。                                                                                                                                                                     |
 |                                供应商批准了 PO 的新版本。                                 |                                                                                                                                                     状态将自动更改为<strong>已确认</strong>，或者在您收到供应商响应并确认 PO 时更改为“已确认”。                                                                                                                                                     |
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [供应商门户用户安全性](configure-security-vendor-portal-users.md)
 

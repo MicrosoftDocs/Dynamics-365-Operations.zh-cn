@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813667"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189338"
 ---
 # <a name="delays"></a>延迟
 
@@ -52,8 +52,7 @@ ms.locfileid: "5813667"
 
 **计划订单** 页面的 **延期** 选项卡下是计划订单的 **所需的日期**。 计划订单的所需日期是延期的基准日期，这是等于从 **净需求** 计算出的 **请求日期** 的计算出的日期。 如果计划订单为 BOM 行、生产行或看板行，所需日期将基于 **需求日期**，而 **计划订单** 页面中将不显示所需日期。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [覆盖范围设置](coverage-settings.md)
 

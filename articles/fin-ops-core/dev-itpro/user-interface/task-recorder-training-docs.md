@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744155"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188067"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 
@@ -31,8 +31,7 @@ ms.locfileid: "5744155"
 > [!IMPORTANT]
 > 您可以录制自己的 Dynamics 365 Human Resources 任务指南，但暂时不能将其保存到业务流程建模器 (BPM) 库或从“帮助”窗格中打开它。 您可以将其保存到本地或网络位置，然后使用任务录制器打开并播放。 
 
-<a name="learn-about-task-recorder"></a>了解任务录制器
--------------------------
+## <a name="learn-about-task-recorder"></a>了解任务录制器
 
 任务录制器是一种可用来记录您在产品用户界面 (UI) 上执行的操作的工具。 当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。 您记录的步骤统称为 *任务录制*。 可通过多种方式使用任务录制：
 
@@ -111,8 +110,7 @@ ms.locfileid: "5744155"
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [帮助系统](../../fin-ops/get-started/help-overview.md)
 

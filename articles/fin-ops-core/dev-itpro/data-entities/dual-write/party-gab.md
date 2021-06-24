@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937878"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216604"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -143,16 +143,22 @@ ms.locfileid: "5937878"
 
 ## <a name="setup"></a>设置
 
-1. 安装[双重写入应用程序业务流程解决方案](https://aka.ms/dual-write-app)的最新版本（2.2.2.60 或更高版本）。
+1. 打开您的 Customer Engagement 应用环境。
 
-2. 安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
+2. 安装[双重写入应用程序业务流程解决方案](https://aka.ms/dual-write-app)的最新版本（2.2.2.60 或更高版本）。
 
-3. 停止以下映射，因为不再需要它们。 改为运行 `Contacts V2 (msdyn_contactforparties)` 映射。
+3. 安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
+
+4. 打开 Finance and Operations 应用。 导航到数据管理模块并选择双写入选项卡。将打开双写入管理页面。
+
+5. 使用[应用解决方案](link-your-environment.md)功能应用在步骤 2 和 3 中安装的解决方案。
+
+6. 停止以下映射，因为不再需要它们。 改为运行 `Contacts V2 (msdyn_contactforparties)` 映射。
 
     + CDS 联系人 V2 和联系人（指客户联系人）
     + CDS 联系人 V2 和联系人（指供应商联系人）
 
-4. 针对当事方功能更新以下实体映射，因此必须将最新版本应用到这些映射。
+7. 针对当事方功能更新以下实体映射，因此必须将最新版本应用到这些映射。
 
     映射 | 更新到此版本 | 更改
     ---|---|---
@@ -176,7 +182,7 @@ ms.locfileid: "5937878"
     `Salutations (msdyn_salutations)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
 
-5. 在运行上述映射之前，您必须按照以下步骤中的说明手动更新集成键。 然后选择 **保存**。
+8. 在运行上述映射之前，您必须按照以下步骤中的说明手动更新集成键。 然后选择 **保存**。
 
     | 映射 | 键 |
     |-----|------|
@@ -185,7 +191,7 @@ ms.locfileid: "5937878"
     | 客户/供应商的联系人 | msdyn_contactforpartynumber [当事方的联系人编号]<br>msdyn_associatedcompanyid.cdm_companycode [关联的公司（公司代码）] |
     | 供应商 | msdyn_vendoraccountnumber [供应商帐号]<br>msdyn_company.cdm_companycode [公司（公司代码）]|
 
-6. 在 Dataverse 中，重复检测规则的字符数限制已从 450 个增加到 700 个字符。 此限制让您可以将一个或多个键添加到重复检测规则中。 通过设置以下字段扩展 **客户** 表的重复检测规则。
+9. 在 Dataverse 中，重复检测规则的字符数限制已从 450 个增加到 700 个字符。 此限制让您可以将一个或多个键添加到重复检测规则中。 通过设置以下字段扩展 **客户** 表的重复检测规则。
 
     | 字段 | 值 |
     |-------|-------|
@@ -201,7 +207,7 @@ ms.locfileid: "5937878"
 
     ![客户重复规则](media/duplicate-rule-1.PNG)
 
-7. 通过设置以下字段扩展 **联系人** 表的重复检测规则。
+10. 通过设置以下字段扩展 **联系人** 表的重复检测规则。
 
     | 字段 | 值 |
     |-------|-------|
@@ -217,9 +223,9 @@ ms.locfileid: "5937878"
 
     ![联系人重复规则](media/duplicate-rule-2.PNG)
 
-8. 如果您是现有双重写入用户，请按照[升级到当事方和全球通讯簿模型](upgrade-party-gab.md)中的说明操作升级数据。
+11. 如果您是现有双重写入用户，请按照[升级到当事方和全球通讯簿模型](upgrade-party-gab.md)中的说明操作升级数据。
 
-9. 按照以下顺序运行映射。 如果收到错误，指示“项目验证失败。 缺少目标字段...”，打开映射，选择 **刷新表**。 然后运行映射。
+12. 按照以下顺序运行映射。 如果收到错误，指示“项目验证失败。 缺少目标字段...”，打开映射，选择 **刷新表**。 然后运行映射。
 
     Finance and Operations 应用 | Customer engagement 应用  
     ----------------------------|------------------------

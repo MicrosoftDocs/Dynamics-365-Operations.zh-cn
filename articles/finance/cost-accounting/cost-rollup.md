@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815756"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189037"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
@@ -149,8 +149,7 @@ HR 服务由以下度量值分配使用。
 | CC001                                | 合计         | **HR 服务**        |
 | CC002                                | 合计         | **财务服务** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>成本在成本中心之间如何流动 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>成本在成本中心之间如何流动 
 
 如果要了解成本在组织中的成本中心之间如何流动，可以为每个成本中心创建 **辅助** 类型的成本元素。 这些成本元素将用于在开销计期间在成本中心之间转移余额。
 

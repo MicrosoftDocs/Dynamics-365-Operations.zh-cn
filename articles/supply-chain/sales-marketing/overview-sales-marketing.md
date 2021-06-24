@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810862"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188117"
 ---
 # <a name="sales-and-marketing-overview"></a>销售和市场概览
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810862"
 
 您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。
 
-<a name="marketing"></a>市场营销
----------
+## <a name="marketing"></a>市场营销
 
 使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销业务流程](./media/marketing01.jpg)](./media/marketing01.jpg)
 

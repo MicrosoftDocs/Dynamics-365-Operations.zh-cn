@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: 本主题提供 Regulatory Configuration Service (RCS) 功能的概述并说明如何访问服务。
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019386"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216554"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS 在以下地区正式发布：
 
 有关地区的完整列表，请参阅 [Dynamics 365 和 Power Platform：可用性、数据位置、语言和本地化](https://aka.ms/dynamics_365_international_availability_deck)。
 
+## <a name="rcs-default-company"></a>RCS 默认公司
+
+跨所有公司共享在 RCS 中使用的设计时功能。 没有特定于公司的功能。 因此，我们建议您将一家公司 **DAT** 与您的 RCS 环境结合使用。
+
+但是，在某些情况下，您可能希望使 ER 格式使用与特定法人相关的参数。 仅在这些情况下，您应该使用默认的公司切换器。 有关示例，请参阅[配置 ER 格式以使用针对每个法人指定的参数](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md)。
+
 ## <a name="related-rcs-documentation"></a>相关的 RCS 文档
 
-有关相关组件的详细信息，请参阅以下文档：
+有关相关组件的详细信息，请参阅以下主题：
+
+- **RCS：**
+
+    - [在 RCS 中创建电子报告配置并将其上传到全局存储库](rcs-global-repo-upload.md)
 
 - **全局存储库：**
 
@@ -70,7 +80,20 @@ RCS 在以下地区正式发布：
     - [全局存储库中的增强筛选](enhanced-filtering-global-repo.md)
     - [从全局存储库中下载 ER 配置](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [终止全局存储库中的配置](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](rcs-lcs-repo-dep-faq.md)
 
 - **全球化功能：**
 
     - [Regulatory Configuration Service (RCS) - 全球化功能](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>RCS 注册故障排除
+
+当您从服务页面注册 RCS 时，可能会遇到与 Azure Active Directory (Azure AD) 相关的问题。 您收到的错误消息表明 RCS 的注册当前已关闭，必须先打开，然后才能完成注册流程。
+
+![RCS 注册错误消息](media/01_RCSSignUpError.jpg)
+
+出现此问题是因为您阻止注册临时订阅，并且必须在您的租户中启用 `AllowAdHocSubscriptions` 属性。 
+
+- 如果您的 IT 部门管理组织的 Azure 租户，请联系该部门以报告问题。
+- 如果您负责管理 Azure 租户，可以通过执行 [Azure Active Directory 的自助服务注册是什么](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings)中的步骤修复问题。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815348"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189365"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>“源”字段中的销售税计算方法
 
@@ -52,8 +52,7 @@ ms.locfileid: "5815348"
 | 仅原始金额 = 总额百分比的一个税务代码可以用于交易记录。 如果多个此类税码为交易记录确定，错误将显示销售税不能计算。 |
 
 
-<a name="percentage-of-sales-tax"></a>销售税百分比
------------------------
+## <a name="percentage-of-sales-tax"></a>销售税百分比
 
 当您在“原始金额”字段中选择了“销售税百分比”时，将按照“税上税”字段中选择的增值税的百分比计算增值税。 首先计算在“税上税”字段中选择的增值税。 然后基于第一个增值税金额计算第二个增值税。
 ### <a name="example"></a>示例
@@ -119,8 +118,7 @@ SALESTAX：原始金额 = 净额百分比 为 DUTY 计算选择“在征收销�
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [基于“边际基数”和“计算方法”的销售税比率](marginal-base-field.md)
 

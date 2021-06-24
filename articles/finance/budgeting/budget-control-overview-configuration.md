@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959961"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188037"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959961"
 
 本文介绍预算控制并提供可帮助您配置预算控制，以便您可以管理财务资源的信息。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 预算控制通过会计科目表、工作流、用户组、原始单据和日记帐、可配置的可用资金计算、预算周期和阈值支持组织的财务资源管理。 在提供控制时，组织可以在其整个会计年度中计划、衡量、管理和预测其财务资源。 
 

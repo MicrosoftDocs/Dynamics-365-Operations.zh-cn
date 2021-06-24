@@ -2,7 +2,7 @@
 title: 现金流预测(预览版)
 description: 本主题描述现金流预测功能。
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811403"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186532"
 ---
 # <a name="cash-flow-forecast-preview"></a>现金流预测(预览版)
 
@@ -62,9 +62,5 @@ Dynamics 365 Finance 中的现金流预测功能将使您的组织能够将繁�
 **现金流预测设置** 页上的一个新选项卡可让您控制使用财务维度在 **现金流预测** 工作区中进行筛选。 仅当启用现金流预测功能后，此选项卡才会出现。 
 
 在 **维度** 选项卡上，从要用于筛选的维度列表中进行选择，然后使用箭头键将其移至右侧列。 只能选择两个维度来筛选现金流预测数据。 
-
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

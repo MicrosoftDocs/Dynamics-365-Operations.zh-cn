@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920101"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188832"
 ---
 # <a name="transportation-management-engines"></a>运输管理引擎
 
@@ -43,8 +43,7 @@ ms.locfileid: "5920101"
 | **货运帐单类型**            | 标准化货票和货运单线用于自动化货运单匹配。                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>必须配置什么引擎来评价一次装运？
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>必须配置什么引擎来评价一次装运？
 
 若要评价某个特定承运人的装运，您必须配置多个运输管理引擎。 需要 **费率引擎**，不过，可能需要其他运输管理引擎以支持 **费率引擎**。 例如，**费率引擎** 可用于从 **里程引擎** 中检索数据以基于源地点和目的地点之间的里程计算费率。
 
@@ -62,8 +61,7 @@ ms.locfileid: "5920101"
 |  <em>MileageEngineCode</em>  |                       里程引擎代码标识数据库中的里程引擎记录。                        |
 | <em>ApportionmentEngine</em> |                        通用引擎代码标识数据库中的分摊引擎。                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
 
 依赖于在 Supply Chain Management 中定义的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
 

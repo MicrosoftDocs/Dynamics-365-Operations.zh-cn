@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052233"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193423"
 ---
 # <a name="benefits-management-workspace"></a>福利管理工作区
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052233"
 本主题将介绍 Dynamics 365 Human Resources 中的 **福利管理** 工作区。
 
 > [!NOTE]
-> 要查看 **福利管理** 工作区，必须首先在“功能管理”中启用 **(预览)福利管理工作区** 功能。 有关启用预览功能的详细信息，请参阅[管理功能](../hr-admin-manage-features.md)。<br><br>![雇用福利管理工作区](./media/hr-benefits-management-workspace-enable.png)
+> 要查看 **福利管理** 工作区，必须首先在“功能管理”中启用 **(预览)福利管理工作区** 功能。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br><br>![雇用福利管理工作区](./media/hr-benefits-management-workspace-enable.png)
 
 **福利管理** 工作区为您提供需要您注意的福利项目的快速视图。 在此页上，您可以看到：
 

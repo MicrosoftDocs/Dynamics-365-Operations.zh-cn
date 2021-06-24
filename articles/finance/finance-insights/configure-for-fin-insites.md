@@ -1,8 +1,8 @@
 ---
-title: Finance Insights（预览）的配置
-description: 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
+title: Finance Insights 的配置 - 10.0.19 之前的版本
+description: 本主题介绍的配置步骤用于让系统使用 10.0.19 之前的版本的 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941218"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186412"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Finance Insights（预览）的配置
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941218"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> 以下设置 Finance Insights 的过程对 10.0.19 之前的 Microsoft Dynamics 365 Finance 版本有效。 若要在 10.0.20 版本及更高版本上设置 Finance Insights，请参阅 [Finance Insights（预览）的配置 - 版本 10.0.20 及更高版本](configure-for-fin-insites-PubPrvw.md)。
+
 Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Microsoft Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
 
 ## <a name="deploy-dynamics-365-finance"></a>部署 Dynamics 365 Finance
@@ -38,7 +41,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Microsoft
 
 1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Dynamics 365 Finance 环境。 此环境需要应用版本 10.0.11/平台更新 35 或更高版本。
 2. 该环境必须是沙盒中的高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
-3. 如果您使用的是 Contoso 演示数据，则需要更多示例数据才能使用“客户付款预测”，“现金流预测”和“预算预测”功能。 
+3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分定型预测模型。 
 
 ## <a name="configure-dataverse"></a>配置 Dataverse
 

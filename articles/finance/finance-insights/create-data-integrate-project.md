@@ -2,7 +2,7 @@
 title: 创建数据集成器项目（预览）
 description: 此主题介绍如何创建数据集成器项目。
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867439"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186460"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>创建数据集成器项目（预览）
 
@@ -67,10 +67,5 @@ ms.locfileid: "5867439"
 
 > [!NOTE]
 > 如果在 CDS 中未看到所需实体，请转到 **信用和收款 > 设置 > Finance Insights > Finance insights 参数**，启用客户付款预测功能，然后单击 **创建预测模型** 按钮。 当 AI 模型部署完成（成功或失败）后，将在 CDS 中部署创建集成所需的 CDS 实体。
-
-## <a name="privacy-notice"></a>隐私声明
-
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

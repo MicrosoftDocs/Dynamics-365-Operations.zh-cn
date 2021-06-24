@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 834dc64ce531fb614bc7836e0def16f27ecf5e18
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835116"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188630"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>设置和处理重复发票
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835116"
 
 本文说明如何设置和处理重复发票。 如果您必须定期为客户开具相同金额的发票，可以使用重复发票。
 
-<a name="create-a-recurring-free-text-invoice-template"></a>创建重复执行普通发票的模板
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>创建重复执行普通发票的模板
 
 若要定期就相同服务为客户开票，必须定义可以重新用于创建发票的普通发票模板。 此模板包含以下信息：
 
@@ -52,13 +51,11 @@ ms.locfileid: "5835116"
 ## <a name="generate-the-recurring-invoices"></a>生成重复发票
 在 **重复发票** 页，存在处理重复发票模板的任务。 您指定发票日期和以及从中生成发票的模板。 发票将生成并且为处理的每个发票组分配单一重复执行 ID 号。
 
-<a name="post-recurring-free-text-invoices"></a>过帐重复执行普通发票
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>过帐重复执行普通发票
 
 在重复发票生成后，发票重复执行 ID 出现在 **重复发票** 页的过帐任务中。 您可以通过单击该链接查看重复执行 ID 的所有发票。 在您审查重复执行 ID 的发票时，您可以删除单个发票。 客户的重复执行设置将为该模板重置，以便它可在以后重新生成。 您可以过帐一个、许多或所有重复执行 ID 的发票。 如果启用工作流，您必须单击 **提交**，然后才能过帐发票。
 
-<a name="print-recurring-free-text-invoices"></a>打印重复执行普通发票
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>打印重复执行普通发票
 
 在重复发票过帐后，可以从普通发票列表页打印发票。 您可以打印选择的发票，或者可以选择要打印的发票范围。
 

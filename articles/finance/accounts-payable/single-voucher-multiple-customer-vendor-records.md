@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837289"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193993"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
@@ -207,8 +207,6 @@ ms.locfileid: "5837289"
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | 客户 - 现金折扣 | 2.00      |            |
 | ARP-00001   | 130100-002-     | 客户 - 余额       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>对多个客户和供应商进行净额结算的一个凭证
 当组织与同一家公司进行采购和销售时，净额结算可能有用。 无需支付供应商发票并等待收到客户发票的付款，可以对供应商和客户发票进行净额结算。 对未付余额结算净额结算交易。 

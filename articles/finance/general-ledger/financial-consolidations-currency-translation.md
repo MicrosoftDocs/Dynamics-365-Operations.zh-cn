@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811353"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193897"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -165,7 +165,8 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - **简化货币折算** – 在 Finance 中执行了最低设置之后，可将任何财务申报报表折算为已设置的任何申报币种。 此外，还可以设置不限数目的申报币种。
 - **在源中过帐清除** – 可创建和打印清除报表以验证清除交易记录。 然后可以将任何新清除作为标准内部公司交易记录过帐。 还可以将清除法人用于不希望法人中包含的任何交易记录。
 
-## <a name="supported-consolidation-scenarios"></a>支持的合并方案
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Financial Reporting 支持的合并方案
+
 下面是财务申报支持的部分合并方案：
 
 - 法人之间采用单级和多级合并

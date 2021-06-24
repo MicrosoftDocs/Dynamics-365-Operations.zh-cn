@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7565dac61546ba87f5bf4605d3c6beceef7ac980
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821881"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193798"
 ---
 # <a name="configure-account-structures"></a>配置科目结构
 
@@ -46,9 +46,9 @@ ms.locfileid: "5821881"
 
 **损益科目结构**
 
-|主科目          | 业务单位    |部门          | 成本中心    |
-|----------------------|-----------|----------------------|-----------|
-|400000..999999 | *;” “|*;” “|*;” “|*;” “|
+|主帐户          | 业务单位    |部门          | 成本中心    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **用于添加客户的高级规则**
 

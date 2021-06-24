@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812779"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189836"
 ---
 # <a name="reuse-product-configurations"></a>重复使用产品配置
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812779"
 
 可以指定要自动重用产品的现有配置。 然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。 如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。
 
-<a name="requirements-for-reusing-configurations"></a>要再用配置的要求
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>要再用配置的要求
 
 若要启用将重复使用的配置，必须在 **产品配置模型详细信息** 页上指定组件和属性的以下信息：
 

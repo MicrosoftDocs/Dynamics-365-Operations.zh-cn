@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058816"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189742"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
 
@@ -42,8 +42,7 @@ ms.locfileid: "6058816"
 |**人力资源**|人力资源经理（中部）|人力资源经理|
 
 
- <a name="departments"></a>部门
-------------
+##  <a name="departments"></a>部门
 
 部门是表示组织的类别或功能区域的运营单位，负责组织的特定区域（例如销售或核算）。 部门用于报告功能区域，并且可能具有损益责任。 此外，部门还可能包括成本中心组。 销售、核算和人力资源部门是组织中的部门的一些示例。
 
@@ -96,8 +95,7 @@ ms.locfileid: "6058816"
 
 使用职责范围指示处于针对该作业的职位的工作人员将负责的工作角色、流程和产品。 名为“会计师”的工作的职责范围的一个示例可能是“产品 A 的财务报告”。
 
-<a name="positions"></a>位置
-----------
+## <a name="positions"></a>位置
 
 职位是更低级别的组织层次结构中的重要元素。 位置是工作的单个实例。 例如，职位“销售经理（东部）”只是与工作“销售经理”关联的职位。 各职位存在于部门中，并分配给工作人员。
 ### <a name="position-creation-and-maintenance"></a>职位创建和维护

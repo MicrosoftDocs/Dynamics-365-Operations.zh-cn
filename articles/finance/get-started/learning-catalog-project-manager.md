@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897056"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193323"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的实施项目经理学习目录
 
@@ -88,10 +88,10 @@ ms.locfileid: "5897056"
 
 ## <a name="exams"></a>考试<a name="exams"></a>
 
-| 内容  | 说明  | 格式   |
-|-------------|-----------------|-------------|
-| [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 | |
-| [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 | |
+| 内容 | 说明 | 格式 |
+|---|---|---|
+| [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
+| [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |
 | [Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问整合全球财务和运营，并自动执行任务和工作流，简化客户下单、销售、开票和申报。 | 认证，成本取决于地区 |
 
 

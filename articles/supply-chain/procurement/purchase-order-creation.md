@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909148"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188237"
 ---
 # <a name="create-purchase-orders"></a>创建采购订单
 
@@ -80,8 +80,7 @@ ms.locfileid: "5909148"
 
 您可能必须延迟采购订单的完成。 例如，您可能需要其他有关产品或服务的信息，或您可能必须获得开支授权。 有几种方法来阻止订单。 例如，您可以等待确认订单。 或者，如果正在使用更改管理工作流，请不要提交待订单进行审核。 如果您必须阻止特定供应商的所有订单，您还可以将该供应商标记为 **暂停** 以处理供应商主数据。 也有可能存在阻止该订单被处理的情况。 例如，如果已超出信用额度，或所需的预算资金不可用，处理可能被阻止。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [采购订单概览](purchase-order-overview.md)
 

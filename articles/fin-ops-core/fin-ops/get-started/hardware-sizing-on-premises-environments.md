@@ -2,7 +2,7 @@
 title: 针对本地环境的硬件规模调整要求
 description: 本主题列出了针对本地环境的硬件规模调整要求。
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923472"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168721"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -131,6 +131,8 @@ ms.locfileid: "5923472"
 ## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services
 
 对于一般可用性版本，只可以部署一个 SSRS 节点。 在测试时监控你的 SSRS 节点，并根据需要增加可用于 SSRS 的核心数量。 确保你在不同于 SSRS VM 的虚拟机上有预先配置的次节点可用。 如果托管 SSRS 的虚拟机或虚拟主机出现问题，则这一点很重要。 如果出现这种情况，将需要更换它们。
+
+从 10.0.17 版本开始，可以配置额外的 SSRS 节点以实现高可用性。 有关详细信息，请参阅[为 SQL Server Reporting Services (SSRS) 节点配置高可用性](../../dev-itpro/deployment/onprem-ssrsha.md)。
 
 ## <a name="environment-orchestrator"></a>环境 Orchestrator
 

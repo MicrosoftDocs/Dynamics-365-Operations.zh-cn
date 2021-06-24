@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814576"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188141"
 ---
 # <a name="production-process-overview"></a>生产流程概览
 
@@ -74,8 +74,7 @@ ms.locfileid: "5814576"
 12. **期间关闭** – 某些成本核算原则，例如定期平均、倒冲成本计算、先进先出或者后进先出，要求定期活动以关闭库存或财务期间。 通常，系统在期间关闭之前报告所有物料和资源的消耗，以及库存和报废的更正。 此报告通常通过使用库存变动日记帐或调整日记帐执行。 目标是按期间评估运营单位的经济业绩。 在某些情况下，当使用跨财务申报期间的长时间运行的生产订单时，生产日记帐将用于在期间结束时报告生产进度和资源消耗。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [生产反馈](production-feedback.md)
 

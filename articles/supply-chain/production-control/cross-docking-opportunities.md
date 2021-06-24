@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839141"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190080"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839141"
 
 此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
 
-<a name="introduction"></a>简介
-------------
+## <a name="introduction"></a>简介
 
 从生产到出站库位越库配送适用于大量生产且理想情况下希望将报告为完工入库的成品尽快从生产线装运的制造商。 其目的是将产品装运到物理位置与客户要求距离接近的配送中心，而不是在制造站点堆积库存。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822171"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190277"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel 的预算计划模板
 
@@ -66,8 +66,7 @@ ms.locfileid: "5822171"
 
 ## <a name="select-add-valuemediabpt7png"></a>[![选择“添加值”](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>向预算计划文档模板表添加计算列
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>向预算计划文档模板表添加计算列
 
 接下来，将把计算列添加到生成的预算计划文档模板。 一个 **请求总计** 列，用于计算 Request Q1 到 Request Q4 列之和，以及一个 **调整** 列，用于按预定义的系数重新计算 **请求总数** 列。
 

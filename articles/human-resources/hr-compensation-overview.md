@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058912"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189593"
 ---
 # <a name="compensation-plans"></a>薪酬计划
 
@@ -121,8 +121,7 @@ ms.locfileid: "6058912"
 ## <a name="process-events"></a>流程事件
 流程事件是用于计算特定期间在一个或多个固定或可变薪酬计划中登记的所有员工的薪酬信息。 可以重复运行流程事件以便测试或更新薪酬结果。
 
-<a name="compensation-events"></a>薪酬事件
--------------------
+## <a name="compensation-events"></a>薪酬事件
 
 每次运行流程事件时，都会创建一个薪酬事件。  薪酬事件包含该流程事件中包括的每个员工的薪酬流程的结果。  当计算正确时，您可以加载薪酬事件以更新受流程事件影响的员工的薪酬记录。
 

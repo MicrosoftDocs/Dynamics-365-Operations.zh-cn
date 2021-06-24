@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841567"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188878"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 
@@ -29,8 +29,7 @@ ms.locfileid: "5841567"
 
 此主题描述了如何管理产品、产品维度值和产品属性的转换。 
 
-<a name="what-product-related-data-can-be-translated"></a>如何转换与产品相关的数据？
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>如何转换与产品相关的数据？
 
 您可以创建以下与产品信息相关的转换：
 -   产品的名称和描述。

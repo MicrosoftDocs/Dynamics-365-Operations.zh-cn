@@ -2,7 +2,7 @@
 title: 埃及增值税申报
 description: 本主题说明如何配置和生成埃及增值税退税表。
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021948"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186606"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 
@@ -85,6 +85,7 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 - **VATRateTypeLookup** > 列 B：税收类型
 - **VATRateTypeLookup** > 列 C：表格项类型
 - **PurchaseOperationTypeLookup** > 列 A：单据类型
+- **CustomerTypeLookup** > 列 A：文档类型
 - **SalesOperationTypeLookup** > 列 N：操作类型
 - **SalesItemTypeLookup** > 列 O：项目类型
 
@@ -98,6 +99,8 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 6. 对所有可用的查找重复步骤 3-5。
 7. 选择 **添加**，以包含最终记录行，并在 **查询结果** 列中，选择 **不适用**。 
 8. 在其余列中，选择 **非空**。 
+9. 在 **状态** 字段中，选择 **已完成**。
+10. 选择 **保存**，然后关闭 **应用程序特定参数** 页面。
 
 > [!NOTE]
 > 当您添加最后一条记录（**不适用**）时，您可以定义以下规则：当销售税组、商品销售税组、税码和作为参数传递的名称不满足任何先前的规则时，交易将不包含在销售增值税帐簿中。 尽管在生成报告时未使用此规则，但是当缺少规则配置时，该规则确实有助于避免在生成报告时出现错误。
@@ -138,7 +141,7 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 | 服务       | 7    | VAT_SERV                | *非空白* | SaleExempt            |
 | 服务       | 8    | VAT_SERV                | *非空白* | SalesExemptCreditNote |
 | 调整    | 9    | *空白*                 | VAT_ADJ     | 销售额                 |
-| 调整    | 10   | *空白*                 | VAT_ADJ     | 采购              |
+| 调整    | 10   | *空白*                 | VAT_ADJ     | SalesCreditNote       |
 | 不适用 | 11   | *非空白*             | *非空白* | *非空白*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 | 货物                  | 1    | VAT_GOODS               | *非空白* | 采购                 |
 | 货物                  | 2    | VAT_GOODS               | *非空白* | PurchaseCreditNote       |
 | 服务               | 3    | VAT_SERV                | *非空白* | 采购                 |
-| 服务               | 4    | VAT_SERV                | *非空白*  | PurchaseCreditNote       |
+| 服务               | 4    | VAT_SERV                | *非空白* | PurchaseCreditNote       |
 | 机械和设备  | 5    | VAT_M&E                 | *非空白* | 采购                 |
 | 机械和设备  | 6    | VAT_M&E                 | *非空白* | PurchaseCreditNote       |
 | 零件机器         | 7    | VAT_PARTS               | *非空白* | 采购                 |
 | 零件机器         | 8    | VAT_PARTS               | *非空白* | PurchaseCreditNote       |
 | 免税额             | 9    | VAT_EXE                 | *非空白*  | PurchaseExempt           |
 | 免税额             | 10   | VAT_EXE                 | *非空白* | PurchaseExemptCreditNote |
-| 不适用         | 11   | *空白*                 | VAT_ADJ     | *非空白*              |
-| 不适用         | 12   | *非空白*             | *非空白* | *非空白*              |
-| 不适用         | 13   | *空白*                 | *非空白* | *非空白*              |
+| 不适用         | 11   | *非空白*             | *非空白* | *非空白*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 | 调整    | 9    | *空白*          | VAT_ADJ     | PurchaseCreditNote       |
 | 调整    | 10   | *空白*          | VAT_ADJ     | 采购                 |
 | 不适用 | 11   | *非空白*      | *非空白* | *非空白*              |
+
+**CustomerTypeLookup**
+
+|    查找结果    | 扁平 | 销售税组 |
+|---------------------|------|-----------------|
+| 组织        |  1   | VAT_LOCAL       |
+| 组织        |  2   | VAT_EXPORT      |
+| 组织        |  3   | VAT_EXE         |
+| 最终消费者      |  4   | VAT_FINALC      |
+| 公共组织 |  5   | VAT_PUBLIO      |
+| 不适用      |  6   | *非空白*     |
 
 **VATRateTypeLookup**
 

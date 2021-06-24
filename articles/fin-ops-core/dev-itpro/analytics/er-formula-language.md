@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753256"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223978"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
@@ -38,13 +38,13 @@ ER 表达式可以包含任意或所有以下元素：
 - [路径](#Paths)
 - [功能](#Functions)
 
-## <a name=""></a><a name="Constants">常量</a>
+## <a name="constants"></a><a name="Constants"></a>常量
 
 您可以在设计表达式时使用文本和数值常量（即未计算的值）。 例如，表达式 `VALUE ("100") + 20` 使用数值常量 **20** 和字符串常量 **"100"**，返回数值 **120**。
 
 ER 公式设计器支持转义序列。 因此，可以指定应以不同方式处理的表达式字符串。 例如，表达式 `"Leo Tolstoy ""War and Peace"" Volume 1"` 返回文本字符串 **Leo Tolstoy "War and Peace" Volume 1**。
 
-## <a name=""></a><a name="Operators">运算符</a>
+## <a name="operators"></a><a name="Operators"></a>运算符
 
 下表显示您可以用于执行基本算术运算的算术运算符，例如加、减、乘和除。
 
@@ -88,9 +88,9 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 如果表达式中包含多个具有相同优先级的连续运算符，将从左到右执行这些运算。 例如，表达式 `1 + 6 / 2 \* 3 > 5` 返回 **true**。 我们建议您使用括号明确指示评估表达式中所需的运算顺序，以使表达式更便于读取和维护。
 
-## <a name=""></a><a name="References">参考</a>
+## <a name="references"></a><a name="References"></a>参考
 
-在表达式设计期间当前 ER 组件的所有数据源均可用作指定引用。 当前的 ER 组件可以是模型映射或格式。 例如，当前的 ER 模型映射包含数据源 **ReportingDate** 数据源，该数据源返回 *DateTime* 数据类型的值。 若要获取在生成文档中正确格式化的值，您可以按照如下方法在表达式中引用数据源：`DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`。
+在表达式设计期间当前 ER 组件的所有数据源均可用作指定引用。 当前的 ER 组件可以是模型映射或格式。 例如，当前的 ER 模型映射包含 **ReportingDate** 数据源，该数据源返回 [*日期/时间*](er-formula-supported-data-types-primitive.md#datetime)数据类型的值。 若要获取在生成文档中正确格式化的值，您可以按照如下方法在表达式中引用数据源：`DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`。
 
 不代表字母的引用数据源的名称中的所有字符必须前加单引号 (')。 如果引用数据源的名称包含至少一个不代表字母的符号，名称必须以单引号括起。 例如，这些非字母符号可以是标点符号或其他书面符号。 下面举了一些示例加以说明：
 
@@ -99,7 +99,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 如果应用程序数据源的方法有参数，则使用下面的语法调用这些方法：
 
-- 如果 **System** 数据源的 **isLanguageRTL** 方法具有 *String* 数据类型的 **EN-US** 参数，则该方法必须在 ER 表达式中引用为 `System.isLanguageRTL("EN-US")`。
+- 如果 **System** 数据源的 **isLanguageRTL** 方法具有 [*字符串*](er-formula-supported-data-types-primitive.md#string)数据类型的 **EN-US** 参数，则该方法必须在 ER 表达式中引用为 `System.isLanguageRTL("EN-US")`。
 - 当方法名称仅包含一个字母数字符号时，引号不是必需的。 但是，如果名称中包含括号，则它们是表方法所必需的。
 
 当 **System** 数据源被添加到引用 **全局** 应用程序类的 ER 映射时，表达式 `System.isLanguageRTL("EN-US ")` 返回 *布尔* 值 **FALSE**。 修改后的表达式 `System.isLanguageRTL("AR")` 返回 *布尔* 值 **TRUE**。
@@ -107,9 +107,9 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 可限制值传递到此类型方法的参数的方式：
 
 - 只有常量可传递到此类型的方法。 常量的值定义为设计时间。
-- 此类型的参数仅支持原始（基本）数据类型。 原始数据类型包括 *整数*、*实数*、*布尔值*、*字符串*。
+- 此类型的参数仅支持[原始](er-formula-supported-data-types-primitive.md)（基本）数据类型。 原始数据类型包括 *整数*、*实数*、*布尔值*、*字符串*。
 
-## <a name=""></a><a name="Paths">路径</a>
+## <a name="paths"></a><a name="Paths"></a>路径
 
 在表达式引用结构化的数据源时，可以使用路径定义选择该数据源的特定基本元素。 点字符 (.) 用于分离结构化数据源的各个元素。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，您可以设计以下表达式来计算开票金额：`InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`。 此表达式中的 `InvoiceTransactions.AmountDebit` 构造是用于访问 *记录列表* 类型的 **InvoiceTransactions** 数据源的 **AmountDebit** 字段的路径。
 
@@ -129,7 +129,7 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 有关更多信息，请参阅[在 ER 模型和格式的数据绑定中使用相对路径](relative-path-data-bindings-er-models-format.md)。
 
-## <a name=""></a><a name="Functions">功能</a>
+## <a name="functions"></a><a name="Functions"></a>功能
 
 ER 内置函数可以在 ER 表达式中使用。 根据调用函数参数的列表，可将表达式上下文（即当前 ER 模型映射或 ER 格式）的所有数据源用作调用函数的参数，以便与调用函数的参数列表保持一致。 也可以将常量用作调用函数的参数。 例如，当前的 ER 模型映射包含 **InvoiceTransactions** 数据源，并且该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，并且这两个字段都将返回数值。 因此，若要计算发票金额，可以设计使用内置的 ER 舍入函数的以下表达式：`ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`。
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [扩展电子报告功能的列表](general-electronic-reporting-formulas-list-extension.md)
 
+[支持的原始数据类型](er-formula-supported-data-types-primitive.md)
+
+[支持的复合数据类型](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

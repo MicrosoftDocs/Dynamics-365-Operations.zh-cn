@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899087"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183988"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 
@@ -72,6 +72,7 @@ _计划_ 阶段包括产品定义、计划、订单创建和计划编制以及�
 - 报告报废物料
 - 间接活动
 - 休息
+- 报告为完工入库并储存（还要求您在缩放单元上运行仓库执行工作负荷，另请参阅[在缩放单元上报告为完工入库并储存](#RAF)）
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>在中心上使用制造执行工作负荷
 
@@ -108,6 +109,26 @@ Supply Chain Management 中的批处理作业会自动运行，以处理从工�
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>制造中心到缩放单元消息处理器作业
 
 _制造中心到缩放单元消息处理器_ 作业处理从中心到缩放单元的数据。 在部署制造执行工作负荷时将自动启动此作业。 但是，您可以通过转到 **生产控制 \> 定期任务 \> 后台工作负荷管理 \> 制造中心到缩放单元消息处理器** 随时手动运行它。
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>在缩放单元上报告为完工入库并储存
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+在当前版本中，报告为完工入库并存储操作（对于成品、联产品和副产品）受[仓库执行工作负荷](cloud-edge-workload-warehousing.md)（不是制造执行工作负荷）支持。 因此，若要在连接到缩放单元时使用此功能，您必须执行以下操作：
+
+- 在您的缩放单元上同时安装仓库执行工作负荷和制造执行工作负荷。
+- 使用 Warehouse Management 移动应用报告为完工入库并处理储存工作。 生产车间执行界面目前不支持这些流程。
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

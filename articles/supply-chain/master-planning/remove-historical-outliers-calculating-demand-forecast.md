@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2131ae11e634f9ced0d9696acb61d7b8a94c59cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df20a45707d3f6ff2ba963e3310194c1af830234
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841807"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187378"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>在计算需求预测时，需从历史交易记录数据中删除离群值
 
@@ -39,8 +39,7 @@ ms.locfileid: "5841807"
 
 **注释：** 您还可以创建基于现有查询的查询。 选择要复制的查询，然后单击 **复制**。 **查询日期** 字段标识版本。 您可以按原样使用查询，也可以单击 **编辑查询** 修改条件。 （可选）您可以修改新查询的名称和描述。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [需求预测概览](introduction-demand-forecasting.md)
 

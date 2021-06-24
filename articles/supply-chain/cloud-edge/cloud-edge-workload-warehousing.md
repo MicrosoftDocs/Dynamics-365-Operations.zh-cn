@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980940"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184014"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -289,14 +289,15 @@ ms.locfileid: "5980940"
 | 更改工作的工作池                           | 是 | 是                          |
 | 取消工作                                        | 是 | 是                          |
 
-
 ### <a name="production"></a>生产
 
-缩放单元工作负荷上不支持仓库管理生产方案，如下表所示。
+下面总结了在缩放单元工作负荷上目前支持（以及不支持）哪些仓库管理生产方案。
 
 | 加工 | 中心 | 缩放单元上的 WES 工作负荷 |
 |---------|-----|------------------------------|
-| <p>与生产相关的所有仓库管理流程。 下面举了一些示例加以说明：</p><li>发放到仓库</li><li>生产波次处理</li><li>原材料领取</li><li>RAF 和成品储存</li><li>联产品和副产品储存</li><li>看板储存</li><li>看板领料</li><li>开始生产订单</li><li>生产废料</li><li>最后一个生产托盘</li><li>登记物料消耗量</li><li>空看板</li></ul> | 是 | 不 |
+| 报告为完工入库和成品储存 | 是 | 是 |
+| 联产品和副产品储存 | 是 | 是 |
+| <p>与生产相关的所有其他仓库管理流程，包括：</p><li>发放到仓库</li><li>生产波次处理</li><li>原材料领取</li><li>看板储存</li><li>看板领料</li><li>开始生产订单</li><li>生产废料</li><li>最后一个生产托盘</li><li>登记物料消耗量</li><li>空看板</li></ul> | 是 | 不 |
 
 ## <a name="maintaining-scale-units-for-wes"></a>维护 WES 的缩放单元
 

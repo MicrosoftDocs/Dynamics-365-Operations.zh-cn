@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825859"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190056"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>条码扫描仪的看板转移面板支持
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825859"
 
 看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。
 
-<a name="registration-modes"></a>登记模式
-------------------
+## <a name="registration-modes"></a>登记模式
 
 在 **扫描仪登记** 快速选项卡中，您可以选择登记模式，其控制您扫描看板卡号或在“看板卡号”字段中手动输入该编号的操作。
 
@@ -42,8 +41,7 @@ ms.locfileid: "5825859"
 | 选择                | 登记看板卡号并在看板列表中自动选择引用的作业。 |
 
  
-<a name="registration-mode-select"></a>登记模式选择
-------------------------
+## <a name="registration-mode-select"></a>登记模式选择
 
 当您使用条码阅读器选择作业时，看板面板的显示方式更改。 在此模式中，以下条件适用：
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826363"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193610"
 ---
 # <a name="customer-posting-profiles"></a>客户过帐模板
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826363"
 
 客户过帐模板控制将客户交易记录过帐到总帐。
 
-<a name="customer-posting-profiles"></a>客户过帐模板
--------------------------
+## <a name="customer-posting-profiles"></a>客户过帐模板
 
 客户过帐模板能让您将总帐科目和文档设置分配给所有客户、一组客户或单个客户。 这些设置将在您创建销售订单、普通发票、现金付款、催款单、利息单和注销时使用。 对于某些交易记录，您可以选择不同于在此页面中为交易记录设置的模板的其他过帐模板，并且您选择的过帐模板优先。 
 
@@ -118,7 +117,6 @@ ms.locfileid: "5826363"
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**表限制**
 

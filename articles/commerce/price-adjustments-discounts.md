@@ -2,7 +2,7 @@
 title: 价格调整和折扣
 description: 本文提供有关 Dynamics 365 Commerce 中价格调整和折扣的信息。
 author: scott-tucker
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802783"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240934"
 ---
 # <a name="price-adjustments-and-discounts"></a>价格调整和折扣
 
@@ -48,6 +48,13 @@ ms.locfileid: "5802783"
 - **装运折扣** – 交易总计大于指定金额且订单上使用特定交货方式（例如，两天装运或隔夜装运）时应用的折扣。
 
 价格调整和折扣都可以关联到价格组。 价格组可与渠道、类别、隶属关系和会员计划关联。
+
+> [!NOTE]
+> 组合购买折扣和阈值折扣分别具有名为“计入非折扣产品”和“针对阈值计入非折扣产品”的属性。 如果启用这些属性，不符合任何折扣条件的物料仍然可以帮助使交易符合折扣条件，但不符合条件的物料将无法获得折扣。 
+> 
+> 例如，如果创建具有两行 A 和 B 的组合购买折扣，其中客户应该在这两个物料上获得 10% 的折扣，但物料 A 已选中“阻止所有折扣”配置，这通常会停止将物料 A 包括在折扣中。 但是，如果启用了“计入非折扣产品”属性，则物料 A 可用于获得组合购买折扣的资格，但 10% 的折扣将仅适用于物料 B。类似逻辑也适用于阈值折扣。 
+>
+> 但是，与组合购买折扣的“计入非折扣产品”属性相比，“针对阈值计入非折扣产品”属性具有其他功能。 如果启用了阈值折扣，并且如果某个物料具有的现有折扣将阻止物料获得任何其他折扣，则为该物料支付的价格将满足阈值条件，但此物料将不会获得额外的折扣。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

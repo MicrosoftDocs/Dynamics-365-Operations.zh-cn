@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57495de069a11f2ab41c20d17cfbe87df276ef47
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 191d5aee93217af19364932a0066464b2af89794
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817885"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189268"
 ---
 # <a name="operations-resources"></a>Operations 资源
 
@@ -29,8 +29,7 @@ ms.locfileid: "5817885"
 
 运营资源执行项目或生产流程的活动。 它们可以是不同类型，可以具有不同功能。 
 
-<a name="operations-resources"></a>Operations 资源
---------------------
+## <a name="operations-resources"></a>Operations 资源
 
 运营资源是执行项目活动或生产流程的机器、工具、工作人员、设施、实际区域或供应商。 它们可以是不同类型，可以具有不同功能。
 

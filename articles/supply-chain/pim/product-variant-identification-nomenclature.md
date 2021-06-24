@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812827"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190152"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 
@@ -188,8 +188,7 @@ T 恤衫 (TS1234) 生产为三个尺寸（S、M、L）、四种颜色（红色�
 
 在配置流程的一个步骤中，系统将根据命名法建议一个配置值。 在此步骤中，您可以手动更改配置值。 当您保存配置时，系统将确认配置值是否唯一。 如果您输入的值不是唯一的，您将收到错误消息。 若要保存配置，您必须输入唯一配置值。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [为预定义的产品变型创建产品编号命名法](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

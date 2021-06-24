@@ -14,12 +14,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a83e5be7a5c395cf61ca0c7ab7c8e54ae6ca770
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 40fe6ecc9512b19a4ecc754716c56d027f562dd7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891197"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187808"
 ---
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
@@ -79,8 +79,7 @@ ms.locfileid: "5891197"
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [配置中国的税务集成](apac-chn-tax-integration.md)
 

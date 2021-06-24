@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960041"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187932"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960041"
 
 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 法人的已审核预算保留在一个名为 *“预算登记分录”* 的文档中。 预算登记分录文档中的行称作 *预算科目* 分录，它们包含财务维度信息、日期和已审核预算的金额。 预算登记分录文档与基本财务报表和查询页（其中，将比较分类帐实际金额与预算金额）集成。 
 

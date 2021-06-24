@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908224"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188402"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908224"
 
 此主题描述 **Finance and Operations (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 此移动应用让您的组织可以允许移动设备使用此应用的业务流程。 在您的 IT 管理员为您的组织启用此移动工作区后，用户可以登录到此应用并立即开始从其移动设备运行业务流程。 此移动应用包括可帮助提高生产率的以下功能：
 

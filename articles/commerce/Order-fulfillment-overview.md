@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796406"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193147"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 
@@ -33,7 +33,7 @@ ms.locfileid: "5796406"
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>访问销售点中的统一订单履行
 
-订单履行[操作 ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations) 可用于访问销售点中的商店订单履行工作区。
+订单履行[操作 ID 928](pos-operations.md) 可用于访问销售点中的商店订单履行工作区。
 
 订单履行操作没有自己现成的权限，但用户将来可以使用 **允许检索订单** 权限从销售点调用操作。
 
@@ -93,7 +93,7 @@ ms.locfileid: "5796406"
 
 可以在销售点打印领料单，以便协助工作人员执行领料过程。 工作人员领料时可以携带打印的领料单，并且在领取产品时，工作人员将在领料单上手动标记为已领料。
 
-领料单格式在 Commerce 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
+领料单格式在 Commerce 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](receipt-templates-printing.md)。
 
 如果选择了行并打印了这些行的领料单，会自动将其更新为 **领料** 状态。
 
@@ -119,7 +119,7 @@ ms.locfileid: "5796406"
 - **生成的状态：** 已包装或部分包装
 - **生成的后端办公系统状态：** 已交货或部分交货
 
-此操作将行标记为已包装或部分包装并打印装箱单。 可以打印装箱单以核实包装在一起的产品。 装箱单格式在 Commerce 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
+此操作将行标记为已包装或部分包装并打印装箱单。 可以打印装箱单以核实包装在一起的产品。 装箱单格式在 Commerce 上进行配置并添加到收据模板中。 有关设置收据模板的详细信息，请参阅[收据模板和打印](receipt-templates-printing.md)。
 
 **操作：标记为已包装**
 

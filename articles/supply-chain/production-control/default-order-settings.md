@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 73e6a45dedba0831c15d70ad35676c62a14acabb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e389a6af02b8ee30bc491606f72a2e8e250ef00
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809150"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193298"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -115,7 +115,7 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 
 考虑以下示例产品。
 
-|                                                     |                                         |
+| 物料                                                | 值                                   |
 |-----------------------------------------------------|-----------------------------------------|
 | **产品名称**                                    | 光电传感器                    |
 | **物料编号**                                     | XW56                                    |

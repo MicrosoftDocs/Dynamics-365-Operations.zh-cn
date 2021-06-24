@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820976"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189085"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>会计分配和供应商发票的日记帐条目
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820976"
 
 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。 
 
-<a name="accounting-distributions"></a>会计分配 
--------------------------
+## <a name="accounting-distributions"></a>会计分配 
 
 您可以使用“供应商发票”页中的以下按钮查看和修改普通发票的每笔金额的会计分配。
 -   **分摊金额**– 查看和修改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和修改子行的会计分配。
@@ -227,8 +226,7 @@ ms.locfileid: "5820976"
 </table>
 
 
-<a name="distributing-taxes"></a>分配税
-------------------
+## <a name="distributing-taxes"></a>分配税
 
 无法在计算税金之前创建税金会计分配。 若要计算增值税，必须完成“供应商发票”页中的以下任务之一：
 -   查看发票合计。

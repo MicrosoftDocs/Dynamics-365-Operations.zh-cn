@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935875"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193742"
 ---
 # <a name="financial-analysis"></a>财务分析
 
@@ -87,7 +87,7 @@ ms.locfileid: "5935875"
 下面的对比图可帮助区分这两个选项：
 
 
-|                                                          | Financial Reporting                                               | 财务分析 |
+| 功能                                                   | Financial Reporting                                               | 财务分析 |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **编辑默认报表**                                 | 是                                                               | 不 |
 | **创建新报表**                                   | 是                                                               | 不 |
