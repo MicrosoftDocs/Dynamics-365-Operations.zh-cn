@@ -11,63 +11,63 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e42618a522f5ad551f608605300c30b5ffb8e299
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a0c6f82432a4786f23f12122f3806c3b96a05c8f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795923"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193586"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="5dead-103">Dynamics 365 Commerce 评估环境常见问题</span><span class="sxs-lookup"><span data-stu-id="5dead-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="cbb91-103">Dynamics 365 Commerce 评估环境常见问题</span><span class="sxs-lookup"><span data-stu-id="cbb91-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5dead-104">本主题提供对有关 Microsoft Dynamics 365 Commerce 评估环境的常见问题的解答。</span><span class="sxs-lookup"><span data-stu-id="5dead-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
+<span data-ttu-id="cbb91-104">本主题提供对有关 Microsoft Dynamics 365 Commerce 评估环境的常见问题的解答。</span><span class="sxs-lookup"><span data-stu-id="cbb91-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-<span data-ttu-id="5dead-105">**我们是否可以将 Commerce 评估环境用作当前实现 Retail 的客户的电子商务店面？**</span><span class="sxs-lookup"><span data-stu-id="5dead-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
+<span data-ttu-id="cbb91-105">**我们是否可以将 Commerce 评估环境用作当前实现 Retail 的客户的电子商务店面？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
 
-<span data-ttu-id="5dead-106">编号</span><span class="sxs-lookup"><span data-stu-id="5dead-106">No.</span></span> <span data-ttu-id="5dead-107">Commerce 评估环境仅用于评估。</span><span class="sxs-lookup"><span data-stu-id="5dead-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="5dead-108">如果您需要针对实现 Retail 的客户的环境，请与 Microsoft 联系。</span><span class="sxs-lookup"><span data-stu-id="5dead-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
+<span data-ttu-id="cbb91-106">编号</span><span class="sxs-lookup"><span data-stu-id="cbb91-106">No.</span></span> <span data-ttu-id="cbb91-107">Commerce 评估环境仅用于评估。</span><span class="sxs-lookup"><span data-stu-id="cbb91-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="cbb91-108">如果您需要针对实现 Retail 的客户的环境，请与 Microsoft 联系。</span><span class="sxs-lookup"><span data-stu-id="cbb91-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
 
-<span data-ttu-id="5dead-109">**可以使用 Commerce 评估环境在实现 Retail 的现有应用程序/环境基础上预配电子商务功能吗？**</span><span class="sxs-lookup"><span data-stu-id="5dead-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
+<span data-ttu-id="cbb91-109">**可以使用 Commerce 评估环境在实现 Retail 的现有应用程序/环境基础上预配电子商务功能吗？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
 
-<span data-ttu-id="5dead-110">不可以（通常）。</span><span class="sxs-lookup"><span data-stu-id="5dead-110">No (mostly).</span></span> <span data-ttu-id="5dead-111">Commerce 评估组件仅可用于与先决条件和预配指南中指定的配置匹配的环境。</span><span class="sxs-lookup"><span data-stu-id="5dead-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="5dead-112">此外，所需的基本演示数据在使用 10.0.8 之前的初始版本部署的环境中不可用。</span><span class="sxs-lookup"><span data-stu-id="5dead-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
+<span data-ttu-id="cbb91-110">不可以（通常）。</span><span class="sxs-lookup"><span data-stu-id="cbb91-110">No (mostly).</span></span> <span data-ttu-id="cbb91-111">Commerce 评估组件仅可用于与先决条件和预配指南中指定的配置匹配的环境。</span><span class="sxs-lookup"><span data-stu-id="cbb91-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="cbb91-112">此外，所需的基本演示数据在使用 10.0.8 之前的初始版本部署的环境中不可用。</span><span class="sxs-lookup"><span data-stu-id="cbb91-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
 
-<span data-ttu-id="5dead-113">**通过 Microsoft Dynamics Lifecycle Services (LCS) 在 Microsoft Azure 上部署 Commerce 评估环境会产生哪些成本？**</span><span class="sxs-lookup"><span data-stu-id="5dead-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
+<span data-ttu-id="cbb91-113">**通过 Microsoft Dynamics Lifecycle Services (LCS) 在 Microsoft Azure 上部署 Commerce 评估环境会产生哪些成本？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
 
-<span data-ttu-id="5dead-114">传统 Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce 总部演示环境（虚拟机 \[VM\]）将托管在 Azure 订阅中。</span><span class="sxs-lookup"><span data-stu-id="5dead-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="5dead-115">您可以使用 [Azure 定价计算器](https://azure.microsoft.com/pricing/calculator/)估算此成本。</span><span class="sxs-lookup"><span data-stu-id="5dead-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
+<span data-ttu-id="cbb91-114">传统 Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce 总部演示环境（虚拟机 \[VM\]）将托管在 Azure 订阅中。</span><span class="sxs-lookup"><span data-stu-id="cbb91-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="cbb91-115">您可以使用 [Azure 定价计算器](https://azure.microsoft.com/pricing/calculator/)估算此成本。</span><span class="sxs-lookup"><span data-stu-id="cbb91-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
 
-<span data-ttu-id="5dead-116">其他组件（如 Commerce Scale Unit、Commerce 站点构建器和您的电子商务站点）将作为服务型软件 (SaaS) 提供，由 Microsoft 托管。</span><span class="sxs-lookup"><span data-stu-id="5dead-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
+<span data-ttu-id="cbb91-116">其他组件（如 Commerce Scale Unit、Commerce 站点构建器和您的电子商务站点）将作为服务型软件 (SaaS) 提供，由 Microsoft 托管。</span><span class="sxs-lookup"><span data-stu-id="cbb91-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
 
-<span data-ttu-id="5dead-117">**Commerce 评估环境当前支持哪些 Azure 地理位置？**</span><span class="sxs-lookup"><span data-stu-id="5dead-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
+<span data-ttu-id="cbb91-117">**Commerce 评估环境当前支持哪些 Azure 地理位置？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="5dead-118">Commerce 评估环境只能在北美地区部署 。</span><span class="sxs-lookup"><span data-stu-id="5dead-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
+<span data-ttu-id="cbb91-118">Commerce 评估环境只能在北美地区部署 。</span><span class="sxs-lookup"><span data-stu-id="cbb91-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
 
-<span data-ttu-id="5dead-119">**是否有具有完整的 OneBox 虚拟机 (VM) 选项的可下载虚拟硬盘 (VHD)？**</span><span class="sxs-lookup"><span data-stu-id="5dead-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
+<span data-ttu-id="cbb91-119">**是否有具有完整的 OneBox 虚拟机 (VM) 选项的可下载虚拟硬盘 (VHD)？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
 
-<span data-ttu-id="5dead-120">Dynamics 365 Commerce 和 Commerce Scale Unit 完全是服务型软件 (SaaS)，必须托管在云中。</span><span class="sxs-lookup"><span data-stu-id="5dead-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
+<span data-ttu-id="cbb91-120">Dynamics 365 Commerce 和 Commerce Scale Unit 完全是服务型软件 (SaaS)，必须托管在云中。</span><span class="sxs-lookup"><span data-stu-id="cbb91-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
 
-<span data-ttu-id="5dead-121">**Commerce 评估环境可以使用多长时间？**</span><span class="sxs-lookup"><span data-stu-id="5dead-121">**How long can the Commerce evaluation environment be used?**</span></span>
+<span data-ttu-id="cbb91-121">**Commerce 评估环境可以使用多长时间？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-121">**How long can the Commerce evaluation environment be used?**</span></span>
 
-<span data-ttu-id="5dead-122">从 SaaS 组件（如 Commerce Scale Unit、Commerce 站点构建器和您的电子商务站点）预配之日起，Commerce 评估环境的期限为 30 天。</span><span class="sxs-lookup"><span data-stu-id="5dead-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
+<span data-ttu-id="cbb91-122">从 SaaS 组件（如 Commerce Scale Unit、Commerce 站点构建器和您的电子商务站点）预配之日起，Commerce 评估环境的期限为 30 天。</span><span class="sxs-lookup"><span data-stu-id="cbb91-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
 
-<span data-ttu-id="5dead-123">**我可以延长我的 Commerce 评估环境的时间限制吗？**</span><span class="sxs-lookup"><span data-stu-id="5dead-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
+<span data-ttu-id="cbb91-123">**我可以延长我的 Commerce 评估环境的时间限制吗？**</span><span class="sxs-lookup"><span data-stu-id="cbb91-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="5dead-124">延长时限是标准之外的一个例外，会根据具体情况加以考虑。</span><span class="sxs-lookup"><span data-stu-id="5dead-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="5dead-125">您应该与 Microsoft 合作伙伴联系寻求帮助。</span><span class="sxs-lookup"><span data-stu-id="5dead-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
+<span data-ttu-id="cbb91-124">延长时限是标准之外的一个例外，会根据具体情况加以考虑。</span><span class="sxs-lookup"><span data-stu-id="cbb91-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="cbb91-125">您应该与 Microsoft 合作伙伴联系寻求帮助。</span><span class="sxs-lookup"><span data-stu-id="cbb91-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5dead-126">其他资源</span><span class="sxs-lookup"><span data-stu-id="5dead-126">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="cbb91-126">其他资源</span><span class="sxs-lookup"><span data-stu-id="cbb91-126">Additional resources</span></span>
 
-[<span data-ttu-id="5dead-127">Dynamics 365 Commerce 评估环境概览</span><span class="sxs-lookup"><span data-stu-id="5dead-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
+[<span data-ttu-id="cbb91-127">Dynamics 365 Commerce 评估环境概览</span><span class="sxs-lookup"><span data-stu-id="cbb91-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
 
-[<span data-ttu-id="5dead-128">预配 Dynamics 365 Commerce 评估环境</span><span class="sxs-lookup"><span data-stu-id="5dead-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
+[<span data-ttu-id="cbb91-128">预配 Dynamics 365 Commerce 评估环境</span><span class="sxs-lookup"><span data-stu-id="cbb91-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="5dead-129">配置 Dynamics 365 Commerce 评估环境</span><span class="sxs-lookup"><span data-stu-id="5dead-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
+[<span data-ttu-id="cbb91-129">配置 Dynamics 365 Commerce 评估环境</span><span class="sxs-lookup"><span data-stu-id="cbb91-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
 
-[<span data-ttu-id="5dead-130">在 Dynamics 365 Commerce 评估环境中配置 BOPIS</span><span class="sxs-lookup"><span data-stu-id="5dead-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+[<span data-ttu-id="cbb91-130">在 Dynamics 365 Commerce 评估环境中配置 BOPIS</span><span class="sxs-lookup"><span data-stu-id="cbb91-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-[<span data-ttu-id="5dead-131">为 Dynamics 365 Commerce 评估环境配置可选功能</span><span class="sxs-lookup"><span data-stu-id="5dead-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="cbb91-131">为 Dynamics 365 Commerce 评估环境配置可选功能</span><span class="sxs-lookup"><span data-stu-id="cbb91-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
