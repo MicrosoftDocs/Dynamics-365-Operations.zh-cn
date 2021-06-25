@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Finance 主页
           href: index.md
-        - name: 入门
+        - name: 开始使用
           items:
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
@@ -72,17 +72,15 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20（2021 年 7 月）
+                    - name: Finance 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19（2021 年 7 月）
+                    - name: Finance 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18（2021 年 5 月）
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17（2021 年 4 月）
                       href: get-started/whats-new-changed-10-0-17.md
             - name: 已删除或弃用的功能
               items:
-                - name: 已删除或弃用的功能主页
+                - name: “已删除或弃用的功能”主页
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-finance.md
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: 配置和管理
               items:
-                - name: 配置 Finance 见解
+                - name: 配置 Finance Insights 公开预览版
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: 配置 Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: 启用客户付款预测
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 电子开票
                   items:
                     - name: 电子开票概览
@@ -1476,6 +1478,8 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: 创建 Azure 存储帐户和密钥保管库
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用情况管理仪表板
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: 开始使用
                       items:
                         - name: 开始使用电子开票服务管理
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: 纳税交易记录 ID 不正确
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: GSTR 报告中的字段值不正确
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: 发票日记帐或凭证中的字段值不正确
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: 凭证中的会计科目不正确
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: 打开当前税务配置的设计器
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: 记录和字段不会出现在 GSTR 报告中
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: 运行税务结算时出现扣除规则错误
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: 直接税
                   items:
                     - name: 印度预缴税金
                       items:
-                        - name: 计算减税时包括 GST
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: 计算纳税时包括 GST
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                        - name: 税金阈值常见问题
+                        - name: 税金阈值常见问题解答
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: 货物销售的源头税
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: 印度 TCS
+                          items:
+                            - name: 货物销售 TCS
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: 计算纳税时包括 GST
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: 印度 TDS
+                          items:
+                            - name: 印度从源扣缴税款 (TDS) 概览
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: 计算减税时包括 GST
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: TDS 的基本设置
+                              items:
+                                - name: 设置 TDS 参数
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: 设置 TDS 会计科目
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: 设置法人的 TDS 登记号
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: 设置 TDS 税务类型的预缴税金主管机构
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: 设置 TDS 税务类型的税种组分
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: 设置 TDS 税务类型的预缴税金代码
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: 设置 TDS 税务类型的预缴税金结算期间
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: 设置 TDS 税务类型的预缴税金申报代码
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: 设置 TDS 税务类型的预缴税金代码
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: 将 TDS 税务代码附加到 TDS 税组并定义用于计算 TDS 的公式
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: 记录 TDS 特许证书编号
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: 在应付帐款和应收帐款中设置 TDS 参数
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: 使用 TDS 分配设置付款计划
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: 设置 TDS 主管机构付款的付款费用
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 针对供应商和客户的 TDS 组、PAN 和 TAN 信息设置
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: 针对 TDS 计算的公式设计器和阈值限制
+                                  items: null
+                                - name: 针对 TDS 计算的公式设计器
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: 阈值限制和异常阈值限制
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: 有关发票的 TDS 计算
+                              items:
+                                - name: 有关发票的 TDS 计算
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: 使用日记帐计算有关发票的 TDS
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: 使用采购订单窗体和销售订单窗体计算 TDS 发票
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: 普通发票页面中有关发票的 TDS 计算
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: 拆分发票功能
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: 有关付款和本票的 TDS 计算
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: 有关内部公司交易记录的 TDS 计算
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: TDS 结算流程
+                              items:
+                                - name: 有关付款和本票的 TDS 计算
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: 有关内部公司交易记录的 TDS 计算
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: 运行定期 TDS 结算流程
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: 结算对 TDS 主管机构供应商的 TDS 付款并生成 TDS 凭证
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: 查看 TDS 结算期间的已过帐 TDS 付款及交易记录
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: 固定资产
                   items:
                     - name: 印度固定资产概览
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: 将资本物料转换为固定资产
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: 印度 TDS
-                  items:
-                    - name: 印度在来源处扣除的税 (TDS) 概览
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: TDS 的基本设置
+                    - name: 记录并更新 TDS 证书编号及日期
                       items:
-                        - name: 设置 TDS 参数
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: 设置 TDS 会计科目
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: 设置法人的 TDS 登记号
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: 设置 TDS 税务类型的预缴税金主管机构
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: 设置 TDS 税务类型的税种组分
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: 设置 TDS 税务类型的预缴税金代码
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: 设置 TDS 税务类型的预缴税金结算期间
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: 设置 TDS 税务类型的预缴税金申报代码
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: 设置 TDS 税务类型的预缴税金代码
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: 将 TDS 税务代码附加到 TDS 税组并定义用于计算 TDS 的公式
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: 记录 TDS 特许证书编号
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: 在应付帐款和应收帐款中设置 TDS 参数
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: 使用 TDS 分配设置付款计划
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: 设置 TDS 主管机构付款的付款费用
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 针对供应商和客户的 TDS 组、PAN 和 TAN 信息设置
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: 针对 TDS 计算的公式设计器和阈值限制
-                      items:
-                        - name: 针对 TDS 计算的公式设计器
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: 阈值限制和异常阈值限制
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: 有关发票的 TDS 计算
-                      items:
-                        - name: 有关发票的 TDS 计算
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: 使用日记帐计算有关发票的 TDS
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: 使用采购订单窗体和销售订单窗体计算 TDS 发票
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: 普通发票页面中有关发票的 TDS 计算
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: 拆分发票功能
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: 有关付款和本票的 TDS 计算
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: 有关内部公司交易记录的 TDS 计算
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: TDS 结算流程
-                      items:
-                        - name: 有关付款和本票的 TDS 计算
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: 有关内部公司交易记录的 TDS 计算
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: TDS 结算流程
-                          items:
-                            - name: 运行定期 TDS 结算流程
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: 结算对 TDS 主管机构供应商的 TDS 付款并生成 TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: 查看 TDS 结算期间的已过帐 TDS 付款及交易记录
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: 记录并更新 TDS 证书编号及日期
-                          items:
-                            - name: 记录 TDS 可恢复证书编号
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: 更新 TDS 交易记录的证书编号及日期
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: 记录 TDS 可恢复证书编号
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: 更新 TDS 交易记录的证书编号及日期
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: 意大利
               items:
                 - name: 意大利概览
@@ -4165,8 +4181,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: 生成可打印的普通发票 (FTI) 窗体
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: 跟踪电子报告格式的执行以解决性能问题
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: 设计高效的电子报告解决方案
+                  items:
+                    - name: 跟踪电子报告格式的执行以解决性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: 解决电子报告配置中的性能问题
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
