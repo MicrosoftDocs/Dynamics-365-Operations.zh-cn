@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814794"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270779"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>替代生产中的默认材料预留原则
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *替代默认生产预留* 功能可让您为每个物料模型组设置默认的预留原则。 因此，可以将不同预留原则自动应用于属于生产物料清单 (BOM) 或批次订单配方的一部分的每个物料。 您可以选择是否每个物料模型组都应替代为订单设置的默认预留原则，以及应改为为使用哪个预留原则（*手动*、*估计*、*计划*、*下达* 或 *开始*）。
 
@@ -37,7 +36,7 @@ ms.locfileid: "5814794"
 此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*生产控制*
-- **功能名称**：*（预览）替代默认生产预留*
+- **功能名称**：*替代默认生产预留*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>将生产预留策略分配给物料模型组
 

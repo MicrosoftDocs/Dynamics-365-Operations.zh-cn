@@ -2,7 +2,7 @@
 title: 配置费率
 description: Microsoft Dynamics 365 Human Resources 中的比率定义雇主和员工向福利缴费的数量。
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054972"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266649"
 ---
 # <a name="configure-rates"></a>配置费率
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Human Resources 中的比率定义雇主和员工向福�
    | **到期** | 比率的结束日期。 默认值是 12/31/2154（表示永不）。 |
    | **使用层** | 用于福利比率计算的层。 一层福利比率为单层，两层福利比率为双层。 双层的一个示例是基于性别和年龄的层。 |
    | **付款频率** | 确定多久向福利提供商支付一次福利金比率的付款频率。 例如，如果付款频率为每月一次，那么福利比率代表每月付款金额。 |
-   | **付薪频率舍入** | 舍入比率的方法：标准或截断。 |
+   | **付薪频率舍入** | 舍入比率的方法有：标准、截断、正常、舍尾和进位。 </br></br><ul><li>**标准** - 始终向上舍入。 例如，10.611 将舍入到 10.62。 -10.231 将舍入到 -10.23。 </li><li>**截断** - 始终向下舍入。 例如，10.619 将舍入到 10.61。 -10.231 将舍入到 -10.24。 </li><li>**正常** - 以 5 结尾或大于 5 的十进制值将从零舍入。 以 4 结尾或小于 4 的十进制值将向零舍入。 例如，10.615 将舍入到 10.62。 -10.235 将舍入到 -10.24。 10.614 将舍入到 10.61。 -10.234 将舍入到 -10.23。 </li><li>**舍尾** - 向零舍入。 例如，10.619 将舍入到 10.61。 -10.231 将舍入到 -10.23。 </li><li>**进位** - 从零舍入。 例如，10.619 将舍入到 10.62。 -10.231 将舍入到 -10.24。 |
    | **非吸烟者员工金额** | 福利提供商向不吸烟员工收取的金额。 这是雇主支付给福利提供商的金额，应基于比率设置的付款频率。 |
    | **非吸烟者雇主金额** | 福利提供商向不吸烟员工收取的金额。 这是雇主支付给福利提供商的金额，应基于比率设置的付款频率。 |
    | **吸烟者员工金额** | 福利提供商向吸烟员工收取的金额。 这是雇主支付给福利提供商的金额，应基于比率设置的付款频率。 |
