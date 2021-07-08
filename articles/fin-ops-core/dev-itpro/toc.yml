@@ -16,15 +16,13 @@
                   href: get-started/whats-new-home-page.md
                 - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: 针对 10.0.19 的平台更新（2021 年 6 月）
+                - name: 针对版本 10.0.19 的平台更新（2021 年 6 月）
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: 针对 10.0.18 的平台更新（2021 年 5 月）
+                - name: 针对版本 10.0.18 的平台更新（2021 年 5 月）
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: 针对 10.0.17 的平台更新（2021 年 4 月）
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: 已删除或弃用的功能
               items:
-                - name: 已删除或弃用的功能主页
+                - name: “已删除或弃用的功能”主页
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: 将实体商店用作 Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: 更改 Azure Data Lake 中的数据
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: 数据库移动操作
           items:
             - name: 概览
