@@ -38,16 +38,22 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+      "feedback_product_url": "https://ideas.dynamics.com",
       "contributors_to_exclude": [
-        "OpenLocalizationService"
+        "OpenLocalizationService",
+        "buck1ey",
+        "bishalgoswami"
       ],
       "layout": "Conceptual",
       "searchScope": [
+        "dynamics365-finops",
         "Dynamics 365",
         "Unified Operations"
       ],
       "extendBreadcrumb": "true",
-      "breadcrumb_path": "/dynamics365/ops-bc/toc.json",  
+      "breadcrumb_path": "/dynamics365/ops-bc/toc.json",
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "brand": "dyn-ops",
       "_op_documentIdPathDepotMapping": {
@@ -75,7 +81,7 @@
           "folder_relative_path_in_docset": ".",
           "depot_name": "MSDN.d365OpsHR"
         }
-       },
+      },
       "recommendations": "true"
     },
     "fileMetadata": {
@@ -132,19 +138,34 @@
       },
       "searchScope": {
         "talent/**.md": [
+          "dynamics365-talent",
           "Dynamics 365",
           "Unified Operations",
           "Talent"
         ],
-        "retail/**/**.md": [
+        "commerce/**/**.md": [
+          "dynamics365-commerce",
           "Dynamics 365",
           "Unified Operations",
           "Retail"
         ],
         "human-resources/**/**.md": [
+          "dynamics365-hr",
           "Dynamics 365",
           "Unified Operations",
           "Human Resources"
+        ],
+        "finance/**/**.md": [
+          "dynamics365-finance",
+          "Dynamics 365",
+          "Unified Operations",
+          "Finance"
+        ],
+        "supply-chain/**/**.md": [
+          "dynamics365-supplychain",
+          "Dynamics 365",
+          "Unified Operations",
+          "Supply Chain"
         ]
       },
       "titleSuffix": {
