@@ -1,8 +1,8 @@
 ---
-title: 设置 Human Resources
-description: 本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。
+title: 预配 Human Resources
+description: 此主题将指导您如何为 Microsoft Dynamics 365 Human Resources 配置新生产环境。
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193716"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248813"
 ---
-# <a name="provision-human-resources"></a>设置 Human Resources
+# <a name="provision-human-resources"></a>预配 Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本文将指导您如何为 Microsoft Dynamics 365 Human Resources 预配新生产环境。 本文假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本文中的步骤，请联系支持人员。
+此主题将指导您如何为 Microsoft Dynamics 365 Human Resources 配置新生产环境。 本主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本文中的步骤，请联系支持人员。
 
 若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Human Resources 项目。 除非许可问题妨碍了您预配 Human Resources，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。
+
+## <a name="provision-a-human-resources-trial-environment"></a>预配 Human Resources 试用环境
+
+在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 
+
+不应将试用环境用作生产环境。 它们仅限于 60 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
 
 ## <a name="plan-human-resources-environments"></a>计划 Human Resources 环境
 
@@ -94,8 +100,6 @@ ms.locfileid: "6193716"
 
     > [!NOTE]
     > 如果您尚未验证最终要求，您可以在项目中部署 Human Resources 的测试实例。 您可以随后使用此实例来测试您的解决方案，直到验证完成。 如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。
-
-    > 您可以考虑使用 60 天免费的 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
 ## <a name="select-a-power-apps-environment"></a>选择 Power Apps 环境
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019043"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292729"
 ---
 # <a name="containerization"></a>集装化
 
@@ -108,6 +108,8 @@ ms.locfileid: "6019043"
 
       - **包装到所有开放集装箱** – 系统评估分配行是否适合在集装化周期期间创建的任何集装箱。
       - **仅包装到当前集装箱** – 系统只评估分配行是否适合最近创建的集装箱。
+
+    有关展示如何使用集装箱包装策略的详细信息和示例，请参阅[集装箱包装策略](container-packing-strategy-overview.md)。
 
 1. 若要为集装箱中的包装分配行设置规则，请选择 **混合逻辑分隔符**。 例如，可以创建将允许工作人员在同一个集装箱内对两个不同物料包装分配行的规则。 若要定义混合规则，请执行以下步骤：
 

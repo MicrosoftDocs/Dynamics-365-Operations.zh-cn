@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103585"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301666"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
@@ -109,6 +109,8 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 
 - **是** – 计划优化用于主计划。
 - **否** – 内置 Supply Chain Management 计划引擎用于主计划。
+
+此设置适用于所有法人（公司）。 无法在某些法人中使用计划优化，也无法在其他法人中使用内置主计划。
 
 > [!NOTE]
 > 如果在 **使用计划优化** 选项设置为 **是** 的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。

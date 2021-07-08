@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.19 预览（2021 年 6 月）
+title: Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.19 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114967"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271441"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Dynamics 365 Supply Chain Management 10.0.19 预览（2021 年 6 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.19 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.837，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.19 中的新增或更改的功能。 此版本的构建版本号为 10.0.837，并以下面的形式提供：
 
 - **版本预览：** 2021 年 4 月
 - **版本正式发布（自行更新）：** 2021 年 6 月
@@ -32,7 +31,7 @@ ms.locfileid: "6114967"
 
 下表列出了此版本中包含的功能。 *功能* 列提供了指向[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)的链接，您可以在那里查看每项功能的官方发布日期。 *更多信息* 列提供了更多详细信息和/或相关文档的链接。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 | 特征区域 | 功能 | 更多信息 |
 |---|---|---|

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6f78441445baecba279f96eb3935d9ebbb4ff03f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021876"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270472"
 ---
 # <a name="predefined-product-variants"></a>预定义的产品变型
 
@@ -76,8 +76,6 @@ ms.locfileid: "6021876"
 1. 选择 **保存**。
 
 ## <a name="improved-variant-suggestions"></a>改进的变型建议
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 *变型建议页改进* 功能将改进 **变型建议** 页，为具有大量产品维度组合的公司解决性能和可用性问题。 选择要生成变型建议的产品维度值的增强流程可以更快、更轻松地识别和发布相关的产品变型集。
 

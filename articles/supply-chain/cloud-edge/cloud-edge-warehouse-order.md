@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ff1f13198a7acc35897252f3ca8f6c2b1f56852e
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 080d45170c726cd0351ab344254aa36c1c56ba55
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938268"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271248"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > 当使用缩放单元工作负荷时，并非所有业务功能都在公开预览版中完全受支持。 如果您使用的是缩放单元，请确保仅使用本主题明确描述为受支持的那些流程。

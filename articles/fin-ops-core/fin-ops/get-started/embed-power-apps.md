@@ -2,7 +2,7 @@
 title: 从 Power Apps 嵌入画布应用
 description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 008344766969561417fef5a66faf2c8f0f88910b
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944671"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303404"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
@@ -88,7 +88,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 
-If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
+If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>查看画布应用

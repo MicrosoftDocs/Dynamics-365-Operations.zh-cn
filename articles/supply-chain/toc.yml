@@ -78,11 +78,9 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18（2021 年 5 月）
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17（2021 年 4 月）
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: 已删除或弃用的功能
                   items:
-                    - name: 已删除或弃用的功能主页
+                    - name: “已删除或弃用的功能”主页
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -599,13 +597,27 @@
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
             - name: 了解 Microsoft Power BI 中的访问权限列表安全性和 RLS
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 使用针对 Microsoft Power BI 报告的内容包
+            - name: 使用 Microsoft Power BI 报告的内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: 全球库存核算
+          items:
+            - name: “全球库存核算”主页
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: 开始使用全球库存核算
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: 全球库存核算支持的业务文档
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: 为全球库存核算启用 Power BI
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: 惯例
+              href: global-inventory-accounting/conventions.md
+            - name: 全球库存核算分类帐
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: 成本管理
           items:
-            - name: 成本管理主页
+            - name: “成本管理”主页
               href: cost-management/cost-management-home-page.md
             - name: 针对标准成本的先决条件
               items:
@@ -863,16 +875,22 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 通过采用格式的新基本版本来升级格式
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 电子报告中的配方设计器
+            - name: 电子报告中的公式设计器
               items:
-                - name: 配方设计器
+                - name: 公式设计器
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 高级配方设计器
+                - name: 高级公式设计器
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 配方语言和函数
+            - name: 公式语言和函数
               items:
-                - name: 配方语言
+                - name: 公式语言
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 支持的电子报告公式的数据类型
+                  items:
+                    - name: 原始数据类型
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 复合数据类型
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 函数
                   items:
                     - name: 容器
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 应用程序更新 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 为生成文档指定自定义存储位置
+                    - name: 应用程序更新 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 将创建电子报告目标的任务委托给自定义目标工厂
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 从源代码启动“用户输入参数”类型的数据源值
+                - name: 为生成的文档实施自定义目标
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 从源代码启动 USER INPUT PARAMETER 类型的数据源值
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: 库存管理
           items:
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: 安全宽限期
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: 延迟容差（负天数）
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: 采购申请
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: 生产规划
@@ -1603,11 +1627,13 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: 排除具有某些产品生命周期状态的产品
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: 补货方法和数量修改
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: 覆盖时限
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: 审核计划订单
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: 确定计划订单
+                - name: 确认计划订单
                   href: master-planning/planning-optimization/planned-order-firming.md
                 - name: 使用负现有数量进行计划
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -2141,11 +2167,11 @@
                   href: pim/search-products-product-variants.md
                 - name: 维度和产品变型的默认订单设置
                   href: production-control/default-order-settings.md
-                - name: 物料清单和配方
+                - name: 物料清单和公式
                   href: production-control/bill-of-material-bom.md
                 - name: 使用物料清单设计器
                   href: production-control/bom-designer-functionality.md
-                - name: 使用配方设计器
+                - name: 使用公式设计器
                   href: production-control/formula-designer.md
                 - name: 覆盖生产中物料的默认预留原则
                   href: production-control/override-default-reservation-principle.md
@@ -2243,7 +2269,7 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: 工程版本和工程产品类别
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: 管理配方及其成分的更改
+            - name: 管理公式及其成分的更改
               href: engineering-change-management/manage-formula-changes.md
             - name: 对现有产品启用更改管理
               href: engineering-change-management/change-management-existing-products.md
@@ -2275,7 +2301,7 @@
                   items:
                     - name: 生产设置需求
                       href: production-control/production-set-up-requirements.md
-                    - name: 物料清单和配方
+                    - name: 物料清单和公式
                       href: production-control/bill-of-material-bom.md
                     - name: 物料清单设计器功能
                       href: production-control/bom-designer-functionality.md
@@ -2371,7 +2397,7 @@
                       href: production-control/reverse-production-order-status.md
                     - name: 物料异常的可见性
                       href: production-control/improved-visibility-into-material-exceptions.md
-                    - name: 将物料清单和配方行发放到仓库
+                    - name: 将物料清单和公式行发放到仓库
                       href: production-control/releasing-bom-and-formula-lines-to-warehouse.md
                     - name: 使用移动设备登记物料消耗量
                       href: production-control/register-material-consumption-hand-held-device.md
@@ -2513,9 +2539,9 @@
               items:
                 - name: 维护生产主数据
                   items:
-                    - name: 物料清单和配方
+                    - name: 物料清单和公式
                       href: production-control/bill-of-material-bom.md
-                    - name: 配方和配方版本
+                    - name: 公式和公式版本
                       href: production-control/formulas-versions.md
                     - name: 运营资源
                       href: production-control/operations-resources.md
@@ -2527,11 +2553,11 @@
                       href: production-control/batch-balancing.md
                     - name: 实际称重产品处理
                       href: warehousing/catch-weight-processing.md
-                    - name: 复制配方
+                    - name: 复制公式
                       href: production-control/tasks/copy-formula.md
-                    - name: 从现有配方版本中复制联产品
+                    - name: 从现有公式版本中复制联产品
                       href: production-control/tasks/copy-co-products-existing-formula-version.md
-                    - name: 通过从现有配方复制来创建配方
+                    - name: 通过从现有公式复制来创建公式
                       href: production-control/tasks/create-formula-copying-existing-formula.md
                     - name: 制造执行中的生产参数
                       href: production-control/production-parameters-manufacturing-execution.md
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 使用物料到达日记帐登记启用了基本仓库的物料
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: 通过 V2 数据实体导入传入 ASN
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: 将产品从接收仓库越库配送到商店
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: 设置采购订单储存的位置指令
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: 定义部分库位周期盘点流程
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: 周期盘点示例方案
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: 仓库管理现有条目清除作业
                       href: warehousing/onhand-cleanup.md
                     - name: 库存日记帐
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: 仓库工作疑难解答
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: 仓库应用
+              items:
+                - name: 安装、设置和使用移动设备
+                  items:
+                    - name: Warehouse Management 移动应用中的新增功能或更改
+                      href: warehousing/whats-new-wma.md
+                    - name: 安装和连接 Warehouse Management 移动应用
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: 安装和连接仓库应用
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: 在 Warehouse Management 移动应用中使用摄像头扫描条码
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: 解决 Warehouse Management 移动应用的连接问题
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: 为移动设备设置字段和菜单
+                  items:
+                    - name: 为 Warehouse Management 移动应用配置字段
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: 设置移动设备以执行仓库工作
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 通过 Warehouse Management 移动应用接收牌照
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: 设置移动设备菜单项以完成采购订单中的工作
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: 设置登记已接收物料的移动设备菜单项
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 设置提供领料行概览的移动设备菜单项
+                      href: warehousing/pick-line-overview.md
+                    - name: 创建牌照合并的移动设备菜单项
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: 移动设备上的混合牌照接收
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: 在移动设备上配置“显示仓库内的更早批次”
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: 在移动设备上领取最早的批次
+                      href: warehousing/pick-oldest-batch.md
+                - name: 移动设备用户设置
+                  href: warehousing/mobile-device-user-settings.md
+                - name: 仓库应用事件处理
+                  href: warehousing/warehouse-app-events.md
+                - name: 自定义仓库应用
+                  items:
+                    - name: 流程指南框架
+                      href: warehousing/process-guide-framework.md
+                    - name: 分配步骤图标和标题
+                      href: warehousing/step-icons-titles.md
             - name: 仓库设置
               items:
                 - name: 仓库配置
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: 波次标签打印
                           href: warehousing/configure-wave-label-printing.md
+                        - name: 波次期间安排波次标签打印
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: 集装化
                           href: warehousing/wave-containerization.md
+                        - name: 集装箱包装策略
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: 自动更新装运
                       href: warehousing/auto-update-shipment.md
                     - name: 创建库位配置文件
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: 仓库配置疑难解答
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: 安装和配置 Warehouse Management 移动应用
-                  items:
-                    - name: 安装和连接 Warehouse Management 移动应用
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: 移动设备用户设置
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: 安装和连接仓库应用
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: 在 Warehouse Management 移动应用中使用摄像头扫描条码
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: 为 Warehouse Management 移动应用配置字段
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: 设置移动设备以执行仓库工作
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: 分配步骤图标和标题
-                      href: warehousing/step-icons-titles.md
-                    - name: 仓库应用事件处理
-                      href: warehousing/warehouse-app-events.md
-                    - name: 通过 Warehouse Management 移动应用接收牌照
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: 设置移动设备菜单项以完成采购订单中的工作
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: 设置登记已接收物料的移动设备菜单项
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: 设置提供领料行概览的移动设备菜单项
-                      href: warehousing/pick-line-overview.md
-                    - name: 创建牌照合并的移动设备菜单项
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: 移动设备上的混合牌照接收
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: 在移动设备上配置“显示仓库内的更早批次”
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: 在移动设备上领取最早的批次
-                      href: warehousing/pick-oldest-batch.md
-                    - name: 流程指南框架
-                      href: warehousing/process-guide-framework.md
-                    - name: 解决 Warehouse Management 移动应用的连接问题
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: 升级和迁移
                   items:
                     - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
@@ -3393,7 +3435,23 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: 主计划
               items:
-                - name: 直接派生的确定订单由审查中的工作流处理
+                - name: 运行内置的主计划引擎时出现错误
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: 项不能有物料清单或公式
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: 主计划的参数不存在
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: 确认计划生产订单之前，必须对其进行计划
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: 产品因交易而暂停
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: 未为批次订单审批选择的公式编号。
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: 供应商代码未授权用于特定产品和日期
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: 确认计划订单时未指定供应商
+                  href: troubleshooting/planning/vendor-not-specified.md
+                - name: 直接派生的确认订单由审查中的工作流处理
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: 无法按主计划物料的相关覆盖范围组值对其进行筛选
                   href: troubleshooting/planning/master-planning-batc.md
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: 仓库管理
               items:
+                - name: 取消的物料收货不会将交易状态更新为已登记
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: 实际更新数量的小数四舍五入不正确
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: 用单位表示的实际剩余数量不能为零
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: 生成装箱单期间领料数量不足
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: 生成装箱单期间数量超过超交百分比
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 您尝试更新的数量超过已收到/已交付的数量
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: 生成装箱单期间数量超过欠交百分比
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: 在领料单登记期间选择库位时出错
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: 包装站未显示产品注释

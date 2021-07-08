@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052065"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271470"
 ---
 # <a name="buy-and-sell-leave"></a>购买和出售休假
 
@@ -47,6 +47,12 @@ ms.locfileid: "6052065"
 3. 准备好提交请求时选择 **提交**。
 
 您的余额将自动更新，或者在更新之前经过审批流程。 这取决于如何配置购买策略。
+
+
+## <a name="troubleshooting"></a>疑难解答 
+
+如果购买或出售休假请求工作流失败，具有 **EssLeaveBuySellRequestApprover** 特权的用户可以查看所有休假购买和出售请求的消息日志。 为此，请转到 **休假和缺勤 > 链接 > 购买和出售休假请求 > 消息日志**（在左上角）。 **消息日志** 向用户显示交易的处理方式和关联的工作流历史记录。
+
 
 ## <a name="see-also"></a>请参阅
 

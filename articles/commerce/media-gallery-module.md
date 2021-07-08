@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 809916118d8eb709c0bde31bb23fa8daa1f7e60c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022512"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271271"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 

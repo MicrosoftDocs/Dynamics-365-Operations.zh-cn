@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 418586113c038c3227f0704495a561eac319bdc9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745079"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271175"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子报告配置
 
 [!include [banner](../includes/banner.md)]
 
 此主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[共享资产库](../lifecycle-services/asset-library.md)下载最新版本的[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。
+
+> [!IMPORTANT]
+> 使用 LCS 作为 ER 配置的存储库将[弃用](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
 
 1. 通过使用以下角色之一登录到应用程序：
 

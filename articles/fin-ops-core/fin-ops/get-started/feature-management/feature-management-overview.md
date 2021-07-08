@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923299"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270805"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 
@@ -160,8 +160,8 @@ ms.locfileid: "5923299"
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>为什么没有特定的“强制启用日期”？ 
 更新发布时间是可变的，环境更新时间是可变的，客户可以选择跳过某些更新。 因此，难以确定具体日期。 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>将设为强制的功能的文档在哪里？ 
-此文档来自应用程序团队。 通常，这些内容会在[已删除或弃用的功能](../../../dev-itpro/migration-upgrade/deprecated-features.md)中提到。 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>设为强制的功能的文档在哪里？ 
+此文档来自每个 Dynamics 365 应用程序团队。 通常，[客户端功能状态的更新](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states)或[已删除或弃用的功能](../../../dev-itpro/migration-upgrade/deprecated-features.md)中将涉及这些功能。 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>是否有产品内通知或信号指示将强制启用某项功能？ 
 目前不存在有关设为强制功能的通知机制。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9ec21cda4779fea8c28b73d25842219da900da9d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053963"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271466"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>创建购买和出售休假请求工作流
 
@@ -78,7 +78,8 @@ ms.locfileid: "6053963"
 ## <a name="see-also"></a>请参阅
 
 [休假和缺勤概览](hr-leave-and-absence-overview.md)<br>
-[管理购买和出售休假策略](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[管理购买和出售休假策略](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[购买和出售休假](hr-employee-self-service-buy-sell-leave.md)
 
 
 

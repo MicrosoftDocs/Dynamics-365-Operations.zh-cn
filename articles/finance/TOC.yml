@@ -1206,11 +1206,11 @@
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
             - name: 何时重置数据市场
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
-            - name: 财务报告常见问题
+            - name: 财务报告常见问题解答
               href: general-ledger/financial-reporting-faq.md
-        - name: Finance 见解
+        - name: Finance Insights
           items:
-            - name: Finance 见解主页
+            - name: Finance Insights 主页
               href: finance-insights/finance-insights-home-page.md
             - name: 配置和管理
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: 创建数据集成器项目
                   href: finance-insights/create-data-integrate-project.md
-            - name: 使用 Finance 见解
+            - name: 使用 Finance Insights
               items:
                 - name: 预算方案
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - 删除 RCS 环境
+                      href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 电子开票
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: 欧盟销售清单
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: 英国报告
+                          items:
+                            - name: 准备与 MTD 进行增值税集成
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: 监管更新
               href: localizations/regulatory-updates.md
             - name: 澳大利亚
@@ -2234,7 +2240,7 @@
                               href: general-ledger/tax-engine.md
                             - name: 导入配置
                               href: general-ledger/tax-engine-import-configuration.md
-                            - name: 高级配方设计器
+                            - name: 高级公式设计器
                               href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
                             - name: 税引擎适用性
                               href: general-ledger/tax-engine-applicability.md
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: 应付帐款债务税务登记和债务冲销
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: 应收帐款中的坏帐准备金
+                      href: localizations/rus-bad-debts.md
             - name: 沙特阿拉伯
               items:
                 - name: 沙特阿拉伯概览
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: 设置反向增值税的销售税组
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: 将增值税数字化
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: 付款实践报表统计
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: 美国
@@ -3655,16 +3661,22 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: 通过采用格式的新基本版本来升级格式
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: 电子报告中的配方设计器
+            - name: 电子报告中的公式设计器
               items:
-                - name: 配方设计器
+                - name: 公式设计器
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
-                - name: 高级配方设计器
+                - name: 高级公式设计器
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-            - name: 配方语言和函数
+            - name: 公式语言和函数
               items:
-                - name: 配方语言
+                - name: 公式语言
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: 支持的电子报告公式的数据类型
+                  items:
+                    - name: 原始数据类型
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: 复合数据类型
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: 函数
                   items:
                     - name: 容器
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: 设计电子报告格式以生成各种格式的传出文档
               items:
+                - name: 设计用于生成 OPENXML 格式的报表的配置
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 设计配置以生成 Excel 格式的传出文档
                   items:
                     - name: 设计配置以生成 Excel 格式的文档
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: 生成 OPENXML 格式的报表的示例
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 通过重新应用 Excel 模板修改电子报告格式
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: 将作为水平扩展范围的列动态添加到 Excel 报表
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: 应用程序更新 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
-                - name: 为生成文档指定自定义存储位置
+                    - name: 应用程序更新 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: 将创建电子报告目标的任务委托给自定义目标工厂
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: 从源代码启动“用户输入参数”类型的数据源值
+                    - name: 为生成的文档实施自定义目标
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: 从源代码启动 USER INPUT PARAMETER 类型的数据源值
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: 移动应用
           items:

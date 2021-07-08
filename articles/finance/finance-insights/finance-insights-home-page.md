@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222502"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261902"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
@@ -32,6 +32,9 @@ Finance insights 提供可配置和可扩展的模型，以帮助您准确，智
 Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
 
 可以并且应该仅在第 2 层沙盒环境中启用预览版功能。 在沙盒环境中创建的设置和人工智能 (AI) 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.)。
+
+> [!NOTE]
+> 此功能将作为一组预览功能提供。 作为预览功能，您不应使用生成的机器学习模型来推动或影响您的业务决策或预算提案。 您对该功能的使用受[补充使用条款](https://go.microsoft.com/fwlink/?linkid=2105274)约束。
 
 ## <a name="prerequisites"></a>先决条件
 

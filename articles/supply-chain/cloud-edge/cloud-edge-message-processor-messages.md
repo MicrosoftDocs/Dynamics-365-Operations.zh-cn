@@ -16,17 +16,16 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03d8cad743ac2b2b1e7b2832b8272ca3dbf5a163
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021047"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271093"
 ---
 # <a name="message-processor-messages"></a>消息处理程序消息
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 当为[制造工作负荷](cloud-edge-workload-manufacturing.md)和[仓库管理工作负荷](cloud-edge-workload-warehousing.md)运行云和边缘缩放单元时，将使用消息处理器消息。
 

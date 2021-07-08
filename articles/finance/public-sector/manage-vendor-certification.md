@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 06f4a0feda82d20e5ec01fd75e4bb8a597a6d09b
-ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
+ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "5989008"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270496"
 ---
 # <a name="maintain-vendor-certification"></a>维护供应商认证
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍供应商可以用来使用 **供应商协作工作区** 维护认证的步骤。 认证的示例可能包括 Woman Business Enterprise (WBE) 或 Leadership in Energy and Environment Design (LEED) 公司。 供应商需要在 **供应商信息** 工作区输入认证信息。 从那里，供应商将选择 **更多详细信息**，然后选择 **认证**。
 

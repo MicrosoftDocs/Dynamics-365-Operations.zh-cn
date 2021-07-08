@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f6edc848e1ed03f97e11cd4eb3fd1aaf4ee0c59
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056700"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303212"
 ---
 # <a name="request-time-off"></a>请求休息时间
 
@@ -59,8 +59,6 @@ ms.locfileid: "6056700"
 2. 要查看批准的休息时间请求，请选择 **批准的休息时间**。 要查看等待处理的休息时间请求，请选择 **休息时间请求**。
 
 ## <a name="cancel-time-off-requests"></a>取消休息时间请求
-
-[!include [Preview feature](includes/preview-feature.md)]
 
 1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **查看休息时间**。
 

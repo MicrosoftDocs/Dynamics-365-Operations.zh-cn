@@ -11,19 +11,18 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019146"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271369"
 ---
 # <a name="wave-execution-notifications"></a>波次执行通知
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *波次执行通知* 功能使用业务事件和操作中心来提供与波次执行相关的通知。 它使您可以指定生成通知的事件类型、生成通知的仓库以及接收通知的用户。
 

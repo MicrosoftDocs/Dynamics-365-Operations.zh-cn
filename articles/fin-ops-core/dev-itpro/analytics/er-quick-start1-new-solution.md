@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224026"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304385"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
@@ -185,7 +185,7 @@ ms.locfileid: "6224026"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>导入新数据模型配置
 
-1. 下载 [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。
@@ -300,7 +300,7 @@ ms.locfileid: "6224026"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>导入新模型映射配置
 
-1. 下载 [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。
@@ -366,7 +366,7 @@ ms.locfileid: "6224026"
     2. 选择 **添加**。
     3. 在对话框的 **名称** 字段中，输入 **\$ResultGroup**。
     4. 选择 **编辑公式**。
-    5. 在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中，在 **公式** 字段中，输入 **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** 以使用 KMCollection 和 KMQuestionResultGroup 表之间的一对多关系的[路径](er-formula-language.md#paths)。
+    5. 在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中，在 **公式** 字段中，输入 **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** 以使用 KMCollection 和 KMQuestionResultGroup 表之间的一对多关系的[路径](er-formula-language.md#Paths)。
     6. 选择 **保存**，然后关闭公式编辑器。
     7. 选择 **确定** 添加新计算字段。
 
@@ -547,7 +547,7 @@ ms.locfileid: "6224026"
 
 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）的报表。 在生成所需报表时，将根据配置的数据流使用所需数据填充模板。 因此，您必须首先为自定义报表设计模板。 此模板必须设计为 Excel 工作簿，其结构代表自定义报表的布局。 您必须为计划填充所需数据的每个 Excel 项命名。
 
-1. 下载 [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) 文件，并将其保存到本地计算机。
 2. 在 Excel 中打开文件，查看工作簿的结构。
 
 如下图所示，下载的模板已设计为打印指定的调查表，这些调查表显示调查表的问题以及相应的答案。
@@ -572,7 +572,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>导入设计的格式配置
 
-1. 下载 [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。

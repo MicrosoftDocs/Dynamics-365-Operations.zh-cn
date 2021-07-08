@@ -13,17 +13,16 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: e271bbae84605b4adace1809b53b7cbdb6932da0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 63121a9b5f1b062b7ca927f6b9eb1689ce8aa698
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020003"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270675"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>为 POS 登录配置 Azure Active Directory 身份验证
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题说明如何将 Azure Active Directory (Azure AD) 配置为 Microsoft Dynamics 365 Commerce 销售点 (POS) 中的身份验证方法。
 

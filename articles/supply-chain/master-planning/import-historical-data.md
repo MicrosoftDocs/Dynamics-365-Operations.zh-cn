@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908872"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301642"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 
@@ -39,26 +39,6 @@ ms.locfileid: "5908872"
 
 有关如何导入数据（包括如何在导入后清理数据）的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)及其相关主题。
 
-## <a name="example"></a>示例
-
-您可以使用以下文件作为示例。 下载 [HistoricalDemandData](/dynamics/s-e/)。 此文件包含物料 D0001 的历史需求数据。 它仅包含以下必填字段：站点、数量和需求日期。
-
-1. 选择历史需求数据要导入到的公司。
-2. 打开 **数据管理** 工作区。
-3. 选择 **导入** 磁贴。
-4. 为导入项目输入一个名称，如 **导入物料 D0001 的历史需求**。
-5. 在 **源数据格式** 字段中，选择您导入的文件的文件格式。 若要导入此示例的 HistoricalDemandData 文件，选择 **CSV**。
-6. 在 **实体名称** 字段，选择 **历史外部需求**。
-7. 将文件保存到您的计算机，然后上载。
-8. 选择 **导入**。
-9. **执行汇总** 页自动打开。 验证页面上导入的数据。
-
-在您导入历史需求数据后，可以生成需求预测。
-
-## <a name="additional-resources"></a>其他资源
-
-[生成统计基准预测](generate-statistical-baseline-forecast.md)  
-[数据导入和导出作业概览](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+另请参阅[生成统计基准预测](generate-statistical-baseline-forecast.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

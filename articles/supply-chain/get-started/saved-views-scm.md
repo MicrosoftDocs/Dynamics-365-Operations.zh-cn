@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821241"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270651"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management 的标准已保存视图
 
@@ -79,16 +79,14 @@ Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您
 
 ## <a name="saved-views-for-the-production-control-module"></a>生产控制模块的已保存视图
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 下表描述了生产控制模块可用的已保存视图。
 
 | 页 | 视图名称 | 视图描述 | 功能名称 |
 |---|---|---|---|
-| 生产订单 BOM 页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
-| 生产订单详细信息页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
-| 生产订单领料单页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
-| 生产订单列表页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | (预览版)用于生产控制的已保存视图 |
+| 生产订单 BOM 页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
+| 生产订单详细信息页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
+| 生产订单领料单页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
+| 生产订单列表页 | 简化 | 此简化视图仅包括最常用的字段。 这样，它可以提供更快的概览和简化的工作流程。 | 生产控制的已保存视图 |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>销售和市场营销模块的已保存视图
 

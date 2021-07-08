@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938292"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261738"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>用于制造和仓库管理工作负载的云和边缘缩放单元
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938292"
 > [!IMPORTANT]
 > 根据管理服务使用的条款向您提供 Microsoft Dynamics 365 Supply Chain Management 的缩放单元功能。 有关详细信息，请参阅 [Microsoft Dynamics 法律信息](https://go.microsoft.com/fwlink/?LinkID=290927)。
 >
-> 通过启用 Cloud Scale Unit 和 Edge Scale Unit，您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本主题后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
+> 当启用 Cloud Scale Unit 和 Edge Scale Unit 时，系统将要求您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本主题后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
 
 ## <a name="core-value-proposition-for-scale-units"></a>缩放单元的核心价值主张
 

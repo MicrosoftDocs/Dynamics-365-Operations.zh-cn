@@ -2,7 +2,7 @@
 title: 从 Lifecycle Services 导入配置
 description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b58ecb8a7d6f52631dbca7642a4acbcf6ff895a3
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752356"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270829"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 
 [!include [banner](../../includes/banner.md)]
 
 此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)导入新[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)版本。
+
+> [!IMPORTANT]
+> 使用 LCS 作为 ER 配置的存储库将[弃用](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
 
 在此示例中，您将为名称为 Litware, Inc. 的示例公司选择所需的 ER 配置版本并将其导入。这些步骤可以在任何公司完成，因为这些公司共享 ER 配置。 为了完成这些步骤，您必须首先完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤。 还需要 LCS 的访问权限。
 

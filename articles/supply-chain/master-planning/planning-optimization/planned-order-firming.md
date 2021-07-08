@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193873"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271200"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -123,8 +123,6 @@ ms.locfileid: "6193873"
 如果您将前面提到的所有时限都设置为 *0*（零），实际将禁用相关覆盖物料的自动确认。
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>使用查询确认计划订单
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 基于查询的确认可让您根据预先定义的条件来计划确认。 与自动确认不同，基于查询的确认允许在不同的时间点自动确认订单的不同子集。 此外，您还可以使用手动或自动操作来确认不同类型的计划订单。 您还可以根据您的设置预览选择了哪些确认的订单。 因此，您可以确认所作的选择符合您的预期。
 
