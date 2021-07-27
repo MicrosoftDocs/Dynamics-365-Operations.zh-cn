@@ -6,16 +6,17 @@ ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 59f9db309312bbbc88b4fa47c12c4c02f09e7c6d
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301690"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336971"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 

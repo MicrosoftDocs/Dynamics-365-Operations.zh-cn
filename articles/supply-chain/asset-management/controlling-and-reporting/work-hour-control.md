@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838650"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346194"
 ---
 # <a name="work-hour-control"></a>工时控制
 
@@ -66,7 +66,7 @@ ms.locfileid: "5838650"
 - **实际工时** 字段显示工作订单中的已过帐工时。 
 - **承诺工时** 字段显示在与工作订单关联时，公司承诺的工时总量。
 
-![资产工时控制计算示例](media/04-controlling-and-reporting.png)
+![资产工时控制计算的示例。](media/04-controlling-and-reporting.png)
 
 另外一种创建工时计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。 然后单击 **常规** 快速选项卡上的 **工时控制** 按钮。 将在 **要包括的记录** 快速选项卡上的 **资产** 字段中自动插入所选资产。 单击 **资产工时控制** 对话框中的 **确定**，然后将显示所选资产的计算。 可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。
 

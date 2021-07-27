@@ -2,7 +2,7 @@
 title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088379"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333061"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
@@ -33,26 +33,27 @@ ms.locfileid: "6088379"
 
 下表显示了 Dynamics 365 Commerce 站点放置的 cookie 的当前参考列表。
 
-| Cookie 名称                               | 用法                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | 存储用于单点登录的 (SSO) 的 Microsoft Azure Active Directory (Azure AD) 身份验证 cookie。 存储加密的用户主体信息（名字、姓氏、电子邮件）。 |
-| &#95;msdyn365___cart&#95;                           | 存储用于获取已添加到购物车实例的产品列表的购物车 ID。 |
-| &#95;msdyn365___ucc&#95;                            | Cookie 合规性同意跟踪。                          |
-| ai_session                                  | 检测有多少用户活动会话已包含应用的某些页面和功能。 |
-| ai_user                                     | 检测有多少人使用了应用及其功能。 使用匿名 ID 对用户进行计数。 |
-| b2cru                                       | 动态存储重定向 URL。                              |
-| JSESSIONID                                  | 由付款连接器 Adyen 用来存储用户会话。       |
-| OpenIdConnect.nonce.&#42;                       | 身份验证                                               |
-| x-ms-cpim-cache:.&#42;                          | 用于维护请求状态。                      |
-| x-ms-cpim-csrf                              | 用于防御 CRSF 的跨网站请求伪造 (CRSF) 令牌。     |
-| x-ms-cpim-dc                                | 用于将请求路由到适当的生产身份验证服务器实例。 |
-| x-ms-cpim-rc.&#42;                              | 用于将请求路由到适当的生产身份验证服务器实例。 |
-| x-ms-cpim-slice                             | 用于将请求路由到适当的生产身份验证服务器实例。 |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | 用于维护 SSO 会话。                        |
-| x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 |
-| \_msdyn365___muid_                            | 用于针对环境激活试验的情况；用作 userId 以供试验。 |
-| \_msdyn365___exp_                             | 用于针对环境激活试验的情况；用于度量性能负载均衡。         |
-| d365mkt                                       | 在 Commerce 站点构建器中在 **站点设置 > 常规 > 启用基于位置的商店检测** 启用了基于位置的检测来跟踪用户的 IP 地址以获取商店位置建议时使用。      |
+| Cookie 名称                               | 使用                                                        | 生存期 |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | 存储用于单点登录的 (SSO) 的 Microsoft Azure Active Directory (Azure AD) 身份验证 cookie。 存储加密的用户主体信息（名字、姓氏、电子邮件）。 | 会话 |
+| \_msdyn365___cart_                           | 存储用于获取已添加到购物车实例的产品列表的购物车 ID。 | 会话 |
+| \_msdyn365___checkout_cart_                           | 存储用于获取已添加到结帐购物车实例的产品列表的结帐购物车 ID。 | 会话 |
+| \_msdyn365___ucc_                            | Cookie 合规性同意跟踪。                          | 1 年 |
+| ai_session                                  | 检测有多少用户活动会话已包含应用的某些页面和功能。 | 30 分钟 |
+| ai_user                                     | 检测有多少人使用了应用及其功能。 使用匿名 ID 对用户进行计数。 | 1 年 |
+| b2cru                                       | 动态存储重定向 URL。                              | 会话 |
+| JSESSIONID                                  | 由付款连接器 Adyen 用来存储用户会话。       | 会话 |
+| OpenIdConnect.nonce.&#42;                       | 身份验证                                               | 11 分钟 |
+| x-ms-cpim-cache:.&#42;                          | 用于维护请求状态。                      | 会话 |
+| x-ms-cpim-csrf                              | 用于防御 CRSF 的跨网站请求伪造 (CRSF) 令牌。     | 会话 |
+| x-ms-cpim-dc                                | 用于将请求路由到适当的生产身份验证服务器实例。 | 会话 |
+| x-ms-cpim-rc.&#42;                              | 用于将请求路由到适当的生产身份验证服务器实例。 | 会话 |
+| x-ms-cpim-slice                             | 用于将请求路由到适当的生产身份验证服务器实例。 | 会话 |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | 用于维护 SSO 会话。                        | 会话 |
+| x-ms-cpim-trans                             | 用于跟踪事务（对企业对消费者 (B2C) 站点进行身份验证的打开选项卡的数量），包括当前事务。 | 会话 |
+| \_msdyn365___muid_                            | 用于针对环境激活试验的情况；用作用户 ID 以供试验。 | 1 年 |
+| \_msdyn365___exp_                             | 用于针对环境激活试验的情况；用于度量性能负载均衡。         | 1 小时 |
+| d365mkt                                       | 在 Commerce 站点构建器中在 **站点设置 \> 常规 \> 启用基于位置的商店检测** 启用了基于位置的检测来跟踪用户的 IP 地址以获取商店位置建议时使用。      | 1 小时 |
 
 如果站点用户选择站点内的任何社交媒体链接，还将在其浏览器中跟踪下表中的 cookie。
 

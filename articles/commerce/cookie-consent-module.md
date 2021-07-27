@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352510"
 ---
 # <a name="cookie-consent-module"></a>Cookie 同意模块
 
@@ -35,7 +35,7 @@ cookie 同意模块提示站点用户明确提供同意，以便允许跟踪浏�
 可以在页面的页眉片段中配置 cookie 同意模块，以便在页面加载时实施该模块。 cookie 同意模块中应该包含明确的消息，以便告知站点用户站点中的 cookie 使用情况，还应提供站点隐私页面的链接。
 
 下图突出显示了 cookie 同意消息和站点页面中显示的站点隐私政策页面的链接的示例。
-![cookie 同意模块的示例](./media/ecommerce-cookieconsent.png)
+![Cookie 同意模块的示例。](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Cookie 同意模块属性
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352004"
 ---
 # <a name="home-page-overview"></a>主页概览
 
@@ -31,7 +32,7 @@ ms.locfileid: "5792187"
 
 下图显示使用模块库和“Fabrikam”主题生成的主页的示例。
 
-![主页示例](./media/Homepage2.PNG)
+![主页的示例。](./media/Homepage2.PNG)
 
 主页顶部是显示所有产品类别的页眉和零售商希望客户浏览的其他页面。 主页底部是页脚，其中包含可能吸引客户的各主题的快速链接。
 
@@ -41,13 +42,13 @@ ms.locfileid: "5792187"
 
     下图显示主页的示例，在该主页中，主部分的第一项是名称为“新品”的内容块模块主图布局。
 
-    ![主图模块的示例](./media/Hero.PNG)
+    ![主图模块的示例。](./media/Hero.PNG)
 
 - **特色** – 内容块模块的特色布局用于通过图像和文本的组合营销产品或促销。 特色布局可以独立使用，也可以承载在传送模块中。
 
     下图显示了主页上内容块模块特色布局的示例。
 
-    ![特色模块示例](./media/Feature.PNG)
+    ![功能模块的示例。](./media/Feature.PNG)
 
 - **磁贴** – 内容块模块的磁贴布局在多列布局中用于使用图像和文本的组合展示多个产品或产品类别。 在此主题前文显示的主页图中，对 **购买女装**、**购买男装** 和 **购买配饰** 项的三列呈现方式使用了磁贴布局。
 - **视频播放器** – 视频播放器模块可用于在主页中展示视频内容。 此主题前文显示的主页图中有一个视频播放器模块。
@@ -56,7 +57,7 @@ ms.locfileid: "5792187"
 
     下图显示主页中的产品建议模块的示例。
 
-    ![产品建议模块示例](./media/Recommendations.PNG)
+    ![产品建议模块的示例。](./media/Recommendations.PNG)
 
 > [!NOTE]
 > 可在任何站点页中使用此处列出的所有模块。 但是，其在主页中的位置非常重要，因为主页是客户首次与您的站点交互的位置。

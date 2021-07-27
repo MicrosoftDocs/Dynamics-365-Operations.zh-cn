@@ -2,7 +2,7 @@
 title: 视频播放器模块
 description: 此主题介绍视频播放器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797399"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479272"
 ---
 # <a name="video-player-module"></a>视频播放器模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍视频播放器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -43,12 +44,16 @@ ms.locfileid: "5797399"
 
 下图显示了主页上的视频播放器模块的示例。
 
-![视频播放器模块示例](./media/ecommerce-videoplayer.PNG)
+![视频播放器模块的示例。](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>视频播放器模块属性
 
 | 属性名称         | 值                               | 说明 |
 |-----------------------|-------------------------------------|-------------|
+| 标题               | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 默认情况下，**H2** 标题标记用于标题，但是可以更改标记以满足辅助功能要求。 |
+| 富文本             | 段落文本 | 模块支持富文本格式的段落文本。 支持某些基本的富文本功能，如超链接、加粗，加下划线、斜体文本。 为模块应用的页面主题可替代这些功能中的一部分。 |
+| 链接                  | 链接文本、链接 URL、可访问丰富 Internet 应用程序 (ARIA) 标签和 **在新选项卡中打开链接** 选择器 | 该模块支持一个或多个“调用操作”链接。 如果添加链接，则需要链接文本、URL 和 ARIA 标签。 ARIA 标签应该具有描述性，以满足辅助功能要求。 可将链接配置为在新标签页中打开。 |
+| 子文本              | 标题、文本或链接 | 可以添加视频播放器模块的其他上下文，例如作者或设计者姓名，或指向个人博客的链接。 |
 | 自动播放             | **True** 或 **False**               | 如果此值设置为 **True**，将自动播放视频。 |
 | 静音                  | **True** 或 **False**               | 如果此值设置为 **True**，将静音。 对于此播放器，默认值为 **False**。 在 Chrome 浏览器中，自动播放的视频默认静音，仅当用户手动播放视频时，才播放音频。 |
 | 循环                  | **True** 或 **False**               | 如果此值设置为 **True**，将循环重复播放视频。 |
@@ -58,6 +63,9 @@ ms.locfileid: "5797399"
 | 视频播放器控件 | **True** 或 **False**               | 如果此值设置为 **True**，将显示所有视频播放器控件。 这些控件包括播放和暂停按钮、进度指示器和隐藏式字幕选项。 |
 | 隐藏海报图像     | **True** 或 **False**               | 视频可具有海报框架。 如果此属性的值设置为 **True**，将隐藏海报框架。 |
 | 蒙板级别            | 从 **0** 到 **100** 的数字 | 为风格而向视频应用的蒙板。 |
+
+> [!IMPORTANT]
+> **标题**、**富文本**、**链接** 和 **子文本** 属性从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
 ## <a name="add-a-video-player-module-to-a-page"></a>向页面添加视频播放器模块
 

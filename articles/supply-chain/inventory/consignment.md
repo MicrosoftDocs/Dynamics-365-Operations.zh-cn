@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360392"
 ---
 # <a name="set-up-consignment"></a>设置托运
 
@@ -61,7 +61,7 @@ USMF 执行其他定期流程：
 
 **所有者** 维度用于分隔与供应商拥有的库存有关和与接收法人拥有的库存有关的信息。 托运补货订单行只要是行未接收或取消全部数量，便具有 **未结订单** 的状态。 已接收或取消全部数量后，状态更改为 **已完成**。 可以使用登记流程和收货更新流程记录与托运补货订单有关的实际现有库存量。 登记可作为物料到达流程的一部分或通过手动更新订单行完成。 使用收货更新流程时，在收货日记帐中进行记录，可用来向供应商确认收货。
 
-[![托运补货订单](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![托运补货订单。](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>库存所有权更改日记帐
 
@@ -74,7 +74,7 @@ USMF 执行其他定期流程：
 
 不可能在创建订单后在托运采购订单行上更新数量。
 
-[![库存所有权更改日记帐](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![库存所有权更改日记帐。](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>托运流程中的供应商协作
 
@@ -90,13 +90,13 @@ USMF 执行其他定期流程：
 
 要记录实际入站托运库存，您需要定义供应商所有者。 此操作在 **库存所有者** 页完成。 当您选择一个 **供应商帐户** 后，将为 **名称** 和 **所有者** 字段生成默认值。 **所有者** 字段中的值将对供应商可见，因此如果您的供应商帐户名称不易被外部人员识别，则您可能要更改该名称。 可以编辑 **所有者** 字段，但仅在您保存 **库存所有者** 记录时。 **名称** 字段使用供应商帐户关联的当事方的名称进行填充，并且无法更改。
 
-[![库存所有者](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![库存所有者。](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>跟踪维度组
 
 要在托运流程中使用的物料必须与 **所有者** 维度设置为 **活动** 的 **跟踪维度组** 相关联。 所有者维度始终选择了 **实际库存** 和 **财务库存** 选项。 从不选择 **按维度的覆盖范围计划**。
 
-[![跟踪维度组](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![跟踪维度组。](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

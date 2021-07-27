@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754366"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355362"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Base64StringToContainer ER 函数
 
@@ -73,7 +73,7 @@ BASE64STRINGTOCONTAINER (input)
 
 在此示例中，**\#MediaAsBase64String** 数据源将当前媒体附件的二进制内容编码为表示二进制到文本编码方案的 Base64 组的文本。 **\#BlobFomBase64** 数据源对 Base64 字符串进行解码，以 BLOB 格式返回二进制值。
 
-![ER 模型映射设计器页上的示例数据源](./media/er-functions-container-base64stringtocontainer-1.png)
+![ER 模型映射设计器页面上的示例数据源。](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>其他资源
 

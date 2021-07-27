@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271200"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360368"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -81,7 +81,7 @@ ms.locfileid: "6271200"
     - **按期间进行分组**（在 **采购订单** 部分）– 选择用于分组计划采购订单的期间。 若要使用此选项，还必须选择 **按供应商进行分组** 选项。
     - **按期间进行分组**（在 **转移** 部分）– 选择用于分组计划转移单的期间。 订单将基于 **源仓库** 和 **目标仓库** 值进行分组。
 
-    ![“确认”对话框中的“参数”快速选项卡](./media/manual-firming.png "“确认”对话框中的“参数”快速选项卡")
+    ![“确认”对话框中的“参数”快速选项卡。](./media/manual-firming.png "“确认”对话框中的“参数”快速选项卡")
 
 1. 在 **在后台运行** 快速选项卡上，设置作业，使其以批处理模式运行。 但是，在进行手动确认时，设置定期计划是没有意义的。 这些字段的工作方式与它们用于 Supply Chain Management 中其他类型的[后台作业](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)时一样。 但是，对于手动确认，批处理作业将仅处理当前选择的计划订单。 它不会处理与页面上当前应用的筛选器相符的任何订单。
 1. 选择 **确定** 应用设置并生成确认的订单。
@@ -140,15 +140,15 @@ ms.locfileid: "6271200"
     - **确认向前时限(天)** – 选择主计划必须计算将来多长时间范围内的各个要求和其他注意事项。
     - **确认向后时限(天)** – 选择主计划必须计算过去多长时间范围内的各个要求和其他注意事项。
 
-    ![“计划订单确认”对话框中的“参数”快速选项卡](./media/planned-order-firming-main-1.png "“计划订单确认”对话框中的“参数”快速选项卡")
+    ![“计划订单确认”对话框中的“参数”快速选项卡。](./media/planned-order-firming-main-1.png "“计划订单确认”对话框中的“参数”快速选项卡")
 
 1. 要指定订单中应包含哪些记录，选择 **要包括的记录** 快速选项卡上的 **筛选器** 按钮。 将出现一个标准查询对话，您可以在其中定义选择条件、排序条件和联接。 这些字段的工作方式与它们用于 Supply Chain Management 中其他类型的查询时一样。 此处的字段是只读的，显示与您的查询相关的值。
 
-    ![“计划订单确认”对话框上的“要包括的记录”快速选项卡](./media/planned-order-firming-main-2.png "“计划订单确认”对话框上的“要包括的记录”快速选项卡")
+    ![“计划订单确认”对话框上的“要包括的记录”快速选项卡。](./media/planned-order-firming-main-2.png "“计划订单确认”对话框上的“要包括的记录”快速选项卡")
 
 1. 选择 **预览** 根据您到目前为止的设置预览已确认订单的内容。 将确认的计划订单列表显示为一条消息。 然后，您可以根据需要调整设置，直到预览显示您预期的确认订单。
 
-    ![确认订单预览的示例](./media/planned-order-firming-preview.png "确认订单预览的示例")
+    ![确认订单预览的示例。](./media/planned-order-firming-preview.png "确认订单预览的示例")
 
     > [!WARNING]
     > 此功能将确认所有符合筛选条件的计划订单。 不加选择地确认计划订单可能会导致产生大量不需要的采购订单、转移单和生产订单。 在继续之前，请始终使用 **预览** 按钮验证要包括的记录。

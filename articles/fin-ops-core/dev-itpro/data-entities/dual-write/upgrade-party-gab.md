@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346538"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -89,7 +89,7 @@ ms.locfileid: "6112665"
 
 10. 部署后，验证数据工厂的数据集、数据流和链接服务。
 
-   ![数据集、数据流和链接服务](media/data-factory-validate.png)
+   ![数据集、数据流和链接服务。](media/data-factory-validate.png)
 
 11. 导航到 **管理**。 在 **连接** 下，选择 **链接服务**。 选择 **DynamicsCrmLinkedService**。 在 **编辑链接服务 (Dynamics CRM)** 窗体中，输入以下值。
 
@@ -154,7 +154,7 @@ ms.locfileid: "6112665"
 
 7. 在数据工厂中，通过选择 **立即触发** 运行模板，如下图所示。 根据数据量，此流程可能需要几个小时才能完成。
 
-    ![触发器运行](media/data-factory-trigger.png)
+    ![触发器运行。](media/data-factory-trigger.png)
 
     > [!NOTE]
     > 如果您有 **客户**、**联系人** 和 **供应商** 的自定义，则需要修改模板。
@@ -164,7 +164,7 @@ ms.locfileid: "6112665"
     + 从 Azure Blob 存储中下载 `FONewParty.csv` 文件。 路径为 `partybootstrapping/output/FONewParty.csv`。
     + 将 `FONewParty.csv` 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。 如果 csv 导入适合您，您可以直接导入 csv 文件。 导入可能需要几个小时才能运行，具体取决于数据量。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
 
-    ![导入 Datavers 当事方记录](media/data-factory-import-party.png)
+    ![导入 Datavers 当事方记录。](media/data-factory-import-party.png)
 
 9. 在 Customer Engagement 应用中，启用以下插件步骤：
 
@@ -199,7 +199,7 @@ ms.locfileid: "6112665"
 3. 基于以逗号分隔的 csv 文件运行数据工厂。 如果字段值带有逗号，则可能会干扰结果。 您需要删除逗号。
 4. **监视** 选项卡提供有关所有步骤和已处理的数据的信息。 选择特定步骤以对其进行调试。
 
-    ![监视选项卡](media/data-factory-monitor.png)
+    ![监视选项卡。](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>了解有关模板的详细信息
 

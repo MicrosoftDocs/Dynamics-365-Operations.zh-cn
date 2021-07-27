@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828482"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359829"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>将项目列表从Supply Chain Management 同步到 Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5828482"
 
 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的项目的模板和基础任务。
 
-[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 以下模板和基础任务用于运行项目从 Supply Chain Management 到 Field Service 的同步。
@@ -63,7 +63,7 @@ ms.locfileid: "5828482"
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>项目（Supply Chain Management 到 Field Service）：项目
 
-[![数据集成中的模板映射](./media/FSProject1.png)](./media/FSProject1.png)
+[![数据集成中的模板映射。](./media/FSProject1.png)](./media/FSProject1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

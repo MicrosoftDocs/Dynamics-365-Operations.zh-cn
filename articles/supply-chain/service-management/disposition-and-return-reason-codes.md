@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0f4d8825a4218b440affee3aad3d52902aef89f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11194c7fef1326e293011c05f0c796894b1727e7
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824526"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336405"
 ---
 # <a name="customer-returns-overview"></a>客户退货概览
 

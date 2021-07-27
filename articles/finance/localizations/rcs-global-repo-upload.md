@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361203"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>在 Regulatory Configuration Service (RCS) 中创建 ER 配置并上传到全局知识库
 
@@ -51,7 +51,7 @@ ms.locfileid: "5838711"
 5. 输入名称和说明，然后选择 **创建配置** 创建新的派生版本。
 6. 选择新派生的配置，添加版本说明，然后选择 **确定**。 配置的状态将更改为 **已完成**。
 
-![RCS 中的新配置版本](media/RCS_CompleteConfig.JPG)
+![RCS 中的新配置版本。](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > 更改配置状态之后，可能会收到与相连应用程序有关的验证错误消息。 若要关闭验证，请在操作窗格上的 **配置** 选项卡中，选择 **用户参数**，然后将 **配置状态更改时跳过验证并重定基本值** 选项设置为 **是** 
@@ -63,7 +63,7 @@ ms.locfileid: "5838711"
 1. 选择配置的已完成版本，然后选择 **上传到知识库中**。
 2. 选择 **全局 (Microsoft)** 选项，然后选择 **上传**。
 
-    ![“上传到知识库中”选项](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![“上传到知识库”选项。](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. 在配置消息框中选择 **是**。 
 4. 按照需要更新版本说明，然后选择 **确定**。 
@@ -73,7 +73,7 @@ ms.locfileid: "5838711"
 - 将其导入到您的 Dynamics 365 实例中。 有关详细信息，请参阅 [(ER) 从 RCS 导入配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)。
 - 与第三方或外部组织共享；请参阅 [RCS 与外部组织共享电子申报 (ER) 配置](rcs-global-repo-share-configuration.md)
 
-    ![全局知识库中的派生内部统计 Contoso 配置版本](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![全局存储库中的派生内部统计 Contoso 配置版本。](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>从全局存储库中删除配置
 完成以下步骤，删除您的组织创建的配置。
@@ -84,11 +84,11 @@ ms.locfileid: "5838711"
 4. 在 **筛选器** 快速选项卡上，使用 **筛选器** 功能找到要删除的配置。
 5. 在 **版本** 快速选项卡上，选择要删除的配置版本，然后选择 **删除**：
 
-    ![从全局存储库中删除配置](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![从全局存储库中删除配置。](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. 在配置消息框中选择 **是**。
 
-    ![删除配置版本确认消息](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![删除配置版本确认消息。](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 配置版本已删除，并显示确认消息。 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023058"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358210"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>在应付帐款和应收帐款中设置 TDS 参数
 
@@ -38,12 +38,12 @@ ms.locfileid: "6023058"
     - **提示** – 用户收到一条消息，提示他们在订单行上更新 TDS 组。
 4. 选择 **确定**。
 
-    [![更新订单行对话框](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![更新订单行对话框。](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. 转到 **税务 \> 设置 \> 参数 \> 应付帐款参数**。
 6. 在 **常规** 选项卡的 **基于交货信息拆分** 快速选项卡上，将 **产品收据** 设置为 **是**，以过帐和拆分具有不同交货地址和税务帐号 (TAN) 的产品收据。 如果此选项设置为 **否**，则不能过帐具有不同交货地址和 TAN 的采购装箱单。
 7. 将 **发票** 选项设置为 **是**，以过帐和拆分具有不同交货地址和 TAN 的采购发票。
 
-    [![基于交货信息拆分快速选项卡](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![基于交货信息拆分快速选项卡。](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. 关闭该页面。

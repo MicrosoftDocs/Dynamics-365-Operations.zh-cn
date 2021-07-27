@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e4aa941c57e8c31793d6db8ae87140cd1bb1a82b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 348643d7213b8c053d6a15b4b716a3ce75ba2fa2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021336"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346366"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>设置用于主数据查询的环境
 
@@ -69,16 +69,16 @@ ms.locfileid: "6021336"
 
 8. 选择 **检查连接**，然后完成连接流程。 
 
-   [![检查连接按钮](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+   [![检查连接按钮。](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 9. 转到 **电子报告** > **税务配置**，然后从[税务配置](https://go.microsoft.com/fwlink/?linkid=2158352)中导入税务配置。
 
-   [![税收配置页面，税务数据模型树](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+   [![税务配置页面，税务数据模型树。](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 10. 如果您使用 Microsoft 配置，转到 **应纳税单据模型映射** 或 **Dataverse 模型映射**，然后在 **已连接的应用程序** 字段中，选择您在步骤 7 中创建的记录。
 11. 将 **模型映射的默认值** 设置为 **是**。
 
-   [![模型映射页面](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+   [![模型映射页面。](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

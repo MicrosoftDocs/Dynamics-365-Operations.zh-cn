@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829370"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356991"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 
@@ -27,7 +28,7 @@ ms.locfileid: "5829370"
 
 下图说明了设置和使用危险物料功能所需的步骤。
 
-![设置和使用危险物料功能](media/hazmat-overview.png "设置和使用危险物料功能")
+![设置和使用危险物料功能。](media/hazmat-overview.png "设置和使用危险物料功能")
 
 危险物料功能在“产品信息管理”中设置，提供可通过“仓库管理”打印的文档。 因此，从广义上讲，以下区域是您将检查、设置和使用此功能的功能的两个主要区域：
 

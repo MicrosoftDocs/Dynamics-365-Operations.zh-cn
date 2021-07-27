@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751146"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351882"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>为每个法人设置 ER 格式的参数
 
@@ -49,7 +49,7 @@ ms.locfileid: "5751146"
     
     下图显示了完成后必须具有的配置。
 
-    ![ER 配置页](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![ER 配置页面。](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>为 DEMF 公司设置参数
 
@@ -59,7 +59,7 @@ ms.locfileid: "5751146"
 2.  在配置树中，选择 **用于了解如何查找 LE 数据的格式** 格式。
 3.  在操作窗格的 **配置** 选项卡的 **应用程序特定参数** 组中，选择 **设置**。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm.PNG)
     
     在 **应用程序特定参数** 页面上，您可以为 **用于了解如何查找 LE 数据的格式** 格式的 **选择器** 数据源配置规则。
     
@@ -75,14 +75,14 @@ ms.locfileid: "5751146"
 
     查找显示可供选择的税码列表。 此列表由在基本 ER 格式中配置的 **Model.Data.Tax** 数据源返回。 由于此数据源包含 **名称** 字段，因此每个税码的名称将显示在查找中。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  选择 **VAT19** 税码。
 8.  在新记录的 **查找结果** 字段中，选择下拉箭头以打开查找。 查找显示 TaxationLevel 格式枚举的值列表供选择。
 
     请注意，如果选择德语作为用来登录的用户的首选语言，则查找中值的标签将以德语显示，前提是它们已在基本 ER 格式中进行翻译。 此外，如果查找数据源的标签已翻译，该标签将以用户的首选语言显示在 **查找** 选项卡上。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  选择 **正常税收** 值。
 
@@ -120,7 +120,7 @@ ms.locfileid: "5751146"
     
     通过添加最后这个记录，您可以定义以下规则：每当作为参数传递的税码不满足任何先前的规则时，查找数据源将返回 **其他** 作为请求的征税级别。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. 在 **状态** 字段中，选择 **已完成**。
 
@@ -144,7 +144,7 @@ ms.locfileid: "5751146"
 6.  选择 **InVAT7** 税码。
 7.  在操作窗格的 **销售税代码** 选项卡上的 **查询** 组中，选择 **已过帐的销售税** 以查看有关每个税码的税金值和所应用税率的信息。
 
-    ![已过帐的销售税页面](./media/GER-AppSpecParms-Statement.PNG)
+    ![已过帐的销售税页面。](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  关闭“已过帐的销售税”页。
 
@@ -160,7 +160,7 @@ ms.locfileid: "5751146"
 
     现在，查找将显示 **USMF** 公司税务的税码列表供选择。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  选择 **EXEMPT** 税码。
 9.  在新记录的 **查找结果** 字段中，选择 **免税** 值。
@@ -170,7 +170,7 @@ ms.locfileid: "5751146"
 13. 在 **状态** 字段中，选择 **已完成**。
 14. 选择 **保存**。
 
-    ![ER 应用程序特定参数页面](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![ER 应用程序特定参数页面。](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. 关闭 **应用程序特定参数** 页面。
 
@@ -225,13 +225,13 @@ ER 格式与其特定于应用程序的参数之间的关系由 ER 格式不依�
 
 1.  重用现有的 **ERSolutionAppSpecificParametersDesigner** 菜单项，或实现自己的 **ERSolutionAppSpecificParametersDesigner** 菜单项。
 
-    ![Visual studio 页面](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio 页面。](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  按以下步骤之一：
 
     1.  创建一个新的菜单项按钮，并将其 **数据源** 属性设置为 **ERSolutionTable**，通过此方式将其链接到 **ERSolutionTable** 表中的相应记录。
     
-        ![Visual studio 页面](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio 页面。](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  创建一个简单的按钮，并覆盖 **单击** 方法，如以下示例所示。
     

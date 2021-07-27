@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349272"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>促进变体和完成试验
 
 本主题描述了如何促进在试验中产生最佳结果的变体，以及如何完成试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 审查和完成](./media/experimentation_review_complete.svg)](./media/experimentation_review_complete.svg#lightbox)
+[![试验用户旅程 - 审查和完成。](./media/experimentation_review_complete.svg)](./media/experimentation_review_complete.svg#lightbox)
 
 在[运行试验](experimentation-run-monitor.md)并收集了足够的数据来确定您要在活动站点上使用哪种变体后，您将促进变体并结束试验。
 

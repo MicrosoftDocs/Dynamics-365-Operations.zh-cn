@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357658"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -242,7 +242,7 @@ ER 检查数据模型字段的数据类型是否与配置为该字段的绑定�
 1. 开始同时配置 ER 数据模型和 ER 模型映射组件。
 2. 在数据模型树中，添加一个名为 **X** 的字段，然后选择 **整数** 作为数据类型。
 
-    ![X 字段和整数数据类型已添加到“数据模型”页面上的数据模型树中](./media/er-components-inspections-01.png)
+    ![已添加到“数据模型”页面上的数据模型树的 X 字段和整数数据类型。](./media/er-components-inspections-01.png)
 
 3. 在模型映射设计器内的 **数据源** 窗格中，添加一个 **计算字段** 类型的数据源。
 4. 将新数据源命名为 **Y**，然后对其进行配置，以使其包含表达式 `INTVALUE(100)`。
@@ -250,17 +250,17 @@ ER 检查数据模型字段的数据类型是否与配置为该字段的绑定�
 6. 在数据模型设计器中，将 **X** 字段的数据类型从 **整数** 更改为 **Int64**。
 7. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件。
 
-    ![验证模型映射设计器页上的可编辑模型映射组件](./media/er-components-inspections-01.gif)
+    ![验证模型映射设计器页面上的可编辑模型映射组件。](./media/er-components-inspections-01.gif)
 
 8. 选择 **验证** 检查 **配置** 页上所选 ER 配置的模型映射组件。
 
-    ![检查“配置”页面上的模型映射组件](./media/er-components-inspections-01a.png)
+    ![检查“配置”页面上的模型映射组件。](./media/er-components-inspections-01a.png)
 
 9. 请注意，发生了验证错误。 消息说明 **Y** 数据源的 `INTVALUE(100)` 表达式返回的 **整数** 类型的值不能存储在 **Int64** 类型的 **X** 数据模型字段中。
 
 下图显示了如果忽略此警告并选择 **运行** 以运行配置为使用模型映射的格式，将出现的运行时错误。
 
-![“格式设计器”页上的运行时错误](./media/er-components-inspections-01b.png)
+![“格式设计器”页面上的运行时错误。](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -290,7 +290,7 @@ ER 检查格式元素的数据类型是否与配置为该格式元素的绑定�
 6. 在格式结构树中，将 **Y** 格式元素的数据类型从 **整数** 更改为 **Int64**。
 7. 选择 **验证** 检查 **格式设计器** 页上的可编辑格式组件。
 
-    ![在“格式设计器”页面上验证类型兼容性](./media/er-components-inspections-02.gif)
+    ![在“格式设计器”页面上验证类型兼容性。](./media/er-components-inspections-02.gif)
 
 8. 请注意，发生了验证错误。 该消息指出配置的表达式只能接受 **Int64** 值。 因此，不能在 **Y** 格式元素中输入类型为 **整数** 的 **X** 数据模型字段值。
 
@@ -317,7 +317,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 1. 开始同时配置 ER 数据模型和 ER 模型映射组件。
 2. 在数据模型树中，添加一个名为 **X** 的字段，然后选择 **整数** 作为数据类型。
 
-    ![“数据模型”页面上包含 X 字段和整数数据类型的数据模型树](./media/er-components-inspections-01.png)
+    ![“数据模型”页面上包含 X 字段和整数数据类型的数据模型树。](./media/er-components-inspections-01.png)
 
 3. 在模型映射设计器内的 **数据源** 窗格中，添加一个 **计算字段** 类型的数据源。
 4. 将新数据源命名为 **Y**，然后对其进行配置，以使其包含表达式 `INTVALUE(100)`。
@@ -325,7 +325,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 6. 在模型映射设计器的 **数据源** 窗格中，删除 **Y** 数据源。
 7. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件。
 
-    ![检查模型映射设计器页上的可编辑 ER 模型映射组件](./media/er-components-inspections-03.gif)
+    ![检查模型映射设计器页面上的可编辑 ER 模型映射组件。](./media/er-components-inspections-03.gif)
 
 8. 请注意，发生了验证错误。 该消息指出，**X** 数据模型字段的绑定中包含引用 **Y** 数据源的路径，但找不到此数据源。
 
@@ -359,13 +359,13 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 8. 将这个新的嵌套字段命名为 **$AccNumber**，然后对其进行配置，以使其包含表达式 `TRIM(Vendor.AccountNum)`。
 9. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询 **Vendor** 数据源中的 `FILTER(Vendor, Vendor.AccountNum="US-101")` 表达式。
 
-    ![验证是否可以在“模型映射设计器”页面上查询表达式](./media/er-components-inspections-04.gif)
+    ![验证是否可以在“模型映射设计器”页面上查询表达式。](./media/er-components-inspections-04.gif)
 
 10. 请注意，发生了验证错误，因为 **Vendor** 数据源中包含一个类型为 **计算字段** 的嵌套字段，并且该嵌套字段不允许将 **FilteredVendor** 数据源的表达式转换为直接 SQL 语句。
 
 下图显示了如果忽略此警告并选择 **运行** 以运行配置为使用模型映射的格式，将出现的运行时错误。
 
-![在“格式设计器”页面运行可编辑格式时发生的运行时错误](./media/er-components-inspections-04a.png)
+![在“格式设计器”页面上运行可编辑格式时发生的运行时错误。](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -396,23 +396,23 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     - 选择 **Trans** 数据源作为应分组的记录的来源。
     - 在 **执行位置** 字段中，选择 **查询** 以指定要在数据库级运行此数据源。
 
-    ![在“编辑分组依据参数”页面上配置数据源](./media/er-components-inspections-05a.gif)
+    ![在编辑“分组依据”参数页面上配置数据源。](./media/er-components-inspections-05a.gif)
 
 6. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询配置的 **GroupedTrans** 数据源。
 7. 通过向裁剪后的供应商帐号添加 **计算字段** 类型的嵌套字段，修改 **Trans** 数据源。
 8. 将新数据源命名为 **$AccNumber**，然后对其进行配置，以使其包含表达式 `TRIM(Trans.AccountNum)`。
 
-    ![在“模型映射设计器”页面中配置数据源](./media/er-components-inspections-05a.png)
+    ![在“模型映射设计器”页面上配置数据源。](./media/er-components-inspections-05a.png)
 
 9. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询配置的 **GroupedTrans** 数据源。
 
-    ![验证 ER 模型映射组件，并验证是否可在“模型映射设计器”页面中查询 GroupedTrans 数据源](./media/er-components-inspections-05b.png)
+    ![验证 ER 模型映射组件，并验证是否可在“模型映射设计器”页面上查询 GroupedTrans 数据源。](./media/er-components-inspections-05b.png)
 
 10. 请注意，发生了验证错误，因为 **Trans** 数据源中包含一个类型为 **计算字段** 的嵌套字段，并且该嵌套字段不允许调用要转换为直接 SQL 语句的 **GroupedTrans** 数据源。
 
 下图显示了如果忽略此警告并选择 **运行** 以运行配置为使用模型映射的格式，将出现的运行时错误。
 
-![在“格式设计器”页面上忽略了警告时发生的运行时错误](./media/er-components-inspections-05c.png)
+![在“格式设计器”页面上忽略警告时发生的运行时错误。](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -448,21 +448,21 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     2. 将 **Vendor.FilteredTrans** 数据源作为要联接的第二组记录添加。 选择 **INNER** 作为类型。
     3. 在 **执行** 字段中，选择 **查询** 以指定要在数据库级运行此数据源。
 
-    ![在“联接设计器”页面中配置数据源](./media/er-components-inspections-06a.gif)
+    ![在“联接设计器”页面上配置数据源。](./media/er-components-inspections-06a.gif)
 
 10. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询配置的 **JoinedList** 数据源。
 11. 将 **Vendor.FilteredTrans** 数据源的表达式从 `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` 更改为 `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`。
 12. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询配置的 **JoinedList** 数据源。
 
-    ![验证可编辑模型映射组件，然后在“模型映射设计器”页面中验证是否可查询 JoinedList 数据源](./media/er-components-inspections-06b.png)
+    ![验证可编辑模型映射组件，然后在“模型映射设计器”页面上验证是否可查询 JoinedList 数据源。](./media/er-components-inspections-06b.png)
 
 13. 请注意，发生了验证错误，因为 **Vendor.FilteredTrans** 数据源无法转换为直接 SQL 调用。 此外，直接 SQL 调用不允许调用要转换为直接 SQL 语句的 **JoinedList** 数据源。
 
-    ![“模型映射设计器”页面中验证 JoinedList 数据源失败导致的运行时错误](./media/er-components-inspections-06c.png)
+    ![在“模型映射设计器”页面上验证 JoinedList 数据源失败导致的运行时错误。](./media/er-components-inspections-06c.png)
 
 下图显示了如果忽略此警告并选择 **运行** 以运行配置为使用模型映射的格式，将出现的运行时错误。
 
-![在“格式设计器”页面上运行可编辑格式](./media/er-components-inspections-06e.png)
+![在“格式设计器”页面上运行可编辑格式。](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -474,7 +474,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 按照警告的建议，将 **Vendor.FilteredTrans** 数据源的表达式从 `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` 更改为 `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`。
 
-![“模型映射设计器”页面中更新后的数据源表达式](./media/er-components-inspections-06d.png)
+![“模型映射设计器”页面上更新后的数据源表达式。](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>选项 2
 
@@ -497,11 +497,11 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 9. 将新数据源命名为 **FilteredVendor**，然后对其进行配置，以使其包含表达式 `WHERE(Vendor, Vendor.AccountNum="US-101")`。
 10. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件。
 
-    ![检查模型映射设计器页上的可编辑模型映射组件](./media/er-components-inspections-07a.png)
+    ![检查模型映射设计器页面上的可编辑模型映射组件。](./media/er-components-inspections-07a.png)
 
 11. 请注意，验证警告建议对 **FilteredVendor** 和 **FilteredTrans** 数据源使用 **FILTER** 函数，而不是 **WHERE** 函数。
 
-    ![建议在“模型映射设计器”页面上使用 FILTER 函数，而不是 WHERE 函数](./media/er-components-inspections-07b.png)
+    ![建议在“模型映射设计器”页面上使用 FILTER 函数，而不是 WHERE 函数。](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -509,7 +509,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 或者，您可以在网格中选择单个警告的行，然后选择 **修复所选**。 在这种情况下，仅在所选警告中提到的数据源中自动更改表达式。
 
-![选择“修复”以在“模型映射设计器”页面上将 WHERE 函数自动替换为 FILTER 函数](./media/er-components-inspections-07c.png)
+![选择“修复”以在“模型映射设计器”页面上将 WHERE 函数自动替换为 FILTER 函数。](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>手动解决
 
@@ -530,11 +530,11 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 7. 将新数据源命名为 **FilteredVendorTrans**，然后对其进行配置，以使其包含表达式 `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`。
 8. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件。
 
-    ![检查“模型映射设计器”页上的可编辑模型映射组件](./media/er-components-inspections-08a.png)
+    ![检查“模型映射设计器”页面上的可编辑模型映射组件。](./media/er-components-inspections-08a.png)
 
 9. 请注意，发生了验证警告。 此消息建议为 **FilteredVendorTrans** 数据源使用 **ALLITEMSQUERY** 函数，而不是 **ALLITEMS** 函数。
 
-    ![建议在“模型映射设计器”页面上使用 ALLITEMSQUERY 函数，而不是 ALLITEMS 函数](./media/er-components-inspections-08b.png)
+    ![建议在“模型映射设计器”页面上使用 ALLITEMSQUERY 函数，而不是 ALLITEMS 函数。](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -542,7 +542,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 或者，您可以在网格中选择单个警告的行，然后选择 **修复所选**。 在这种情况下，仅在所选警告中提到的数据源中自动更改表达式。
 
-![在“模型映射设计器”页面上选择“修复所选”](./media/er-components-inspections-08c.png)
+![在“模型映射设计器”页面上选择“修复所选”。](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>手动解决
 
@@ -563,7 +563,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     - 添加一个类型为 **字符串** 的嵌套字段，然后将其命名为 **Name**。
     - 添加一个类型为 **字符串** 的嵌套字段，然后将其命名为 **AccountNumber**。
 
-    ![在“数据模型”页面上添加嵌套字段](./media/er-components-inspections-09a.png)
+    ![在“数据模型”页面上添加嵌套字段。](./media/er-components-inspections-09a.png)
 
 6. 在模型映射设计器内的 **数据源** 窗格中，添加一个 **Dynamics 365 for Operations \\ 表记录** 类型的数据源。
 7. 将新数据源命名为 **Vendor**。 在 **表** 字段中，选择 **VendTable** 指定此数据源将请求 VendTable 表。
@@ -577,7 +577,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     - 将 **FilteredVendor.AccountNum** 绑定到 **Vendor.AccountNumber**。
     - 将 **FilteredVendor.'name()'** 绑定到 **Vendor.Name**。
 
-    ![在“模型映射设计器”页面中绑定数据模型项](./media/er-components-inspections-09b.png)
+    ![在“模型映射设计器”页面上绑定数据模型项。](./media/er-components-inspections-09b.png)
 
 13. 在格式结构树中，添加以下项，以便生成一个 XML 格式且包含供应商详细信息的传出文档：
 
@@ -595,15 +595,15 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 15. 选择 **验证** 检查 **格式设计器** 页上的可编辑格式组件。
 
-    ![在“格式设计器”页面上验证绑定到数据源的格式元素](./media/er-components-inspections-09c.png)
+    ![在“格式设计器”页面上验证绑定到数据源的格式元素。](./media/er-components-inspections-09c.png)
 
 16. 请注意，发生了验证错误。 此消息表示，如果 `model.Vendor` 列表为空，在运行时可能为配置的 **Statement\\Party\\Name** 和 **Statement\\Party\\AccountNum** 格式组件引发错误。
 
-    ![有关配置的格式组件的潜在错误的验证错误](./media/er-components-inspections-09d.png)
+    ![有关配置的格式组件的潜在错误的验证错误。](./media/er-components-inspections-09d.png)
 
 下图显示了如果忽略此警告，选择 **运行** 以运行格式，然后选择不存在的供应商的帐号，将出现的运行时错误。 因为请求的供应商不存在，`model.Vendor` 列表将为空（即，其中将不包含任何记录）。
 
-![格式映射运行期间发生的运行时错误](./media/er-components-inspections-09e.png)
+![格式映射运行期间发生的运行时错误。](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -615,7 +615,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 您可以将 **Statement\\Party\\Name** 格式元素绑定到 `model.Vendor` 数据源项。 在运行时，此绑定首先调用 `model.Vendor` 数据源。 当 `model.Vendor` 返回空记录列表时，将不运行嵌套的格式元素。 因此，此格式配置不发生验证警告。
 
-![在“格式设计器”页面上将格式元素绑定到数据源项](./media/er-components-inspections-09e.gif)
+![在“格式设计器”页面上将格式元素绑定到数据源项。](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>选项 2
 
@@ -626,7 +626,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 因此，绑定到 `FIRSTORNULL(model.Vendor).Name` 表达式时，**Statement\\Party\\Name** 格式元素不会发生验证警告。
 
-![更改后的绑定解决了“格式设计器”页面上的验证警告](./media/er-components-inspections-09f.gif)
+![更改后的绑定解决了“格式设计器”页面上的验证警告。](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>选项 3
 
@@ -653,17 +653,17 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 7. 将新数据源命名为 **FilteredVendor**，然后对其进行配置，以使其包含表达式 `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`。
 8. 将配置的 **Vendor** 数据源标记为已高速缓存。
 
-    ![在“模型映射设计器”页上配置模型映射组件](./media/er-components-inspections-10a.gif)
+    ![在“模型映射设计器”页面上配置模型映射组件。](./media/er-components-inspections-10a.gif)
 
 9. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件。
 
-    ![在“模型映射设计器”页面上验证应用于高速缓存供应商数据源的 FILTER 函数](./media/er-components-inspections-10a.png)
+    ![在“模型映射设计器”页面上验证应用于高速缓存供应商数据源的 FILTER 函数。](./media/er-components-inspections-10a.png)
 
 10. 请注意，发生了验证错误。 该消息指出不能将 **FILTER** 函数应用于高速缓存的 **Vendor** 数据源。
 
 下图显示了如果忽略此警告并选择 **运行** 以运行格式，将出现的运行时错误。
 
-![在“格式设计器”页面运行格式映射期间发生的运行时错误](./media/er-components-inspections-10b.png)
+![在“格式设计器”页面上运行格式映射期间发生的运行时错误。](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>自动解决
 
@@ -694,7 +694,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     - 添加一个类型为 **字符串** 的嵌套字段，然后将其命名为 **Name**。
     - 添加一个类型为 **字符串** 的嵌套字段，然后将其命名为 **AccountNumber**。
 
-    ![在“数据模型”页面上向供应商项添加嵌套字段](./media/er-components-inspections-11a.png)
+    ![在“数据模型”页面上向供应商项添加嵌套字段。](./media/er-components-inspections-11a.png)
 
 6. 在模型映射设计器内的 **数据源** 窗格中，添加一个 **Dynamics 365 for Operations \\ 表记录** 类型的数据源。
 7. 将新数据源命名为 **Vendor**。 在 **表** 字段中，选择 **VendTable** 指定此数据源将请求 VendTable 表。
@@ -710,7 +710,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
     > [!NOTE]
     > **Vendor.Name** 数据模型字段保持未绑定。
 
-    ![绑定到配置的数据源的数据模型项，以及“模型映射设计器”页面中取消绑定的数据模型项](./media/er-components-inspections-11b.png)
+    ![绑定到配置的数据源的数据模型项，以及在“模型映射设计器”页面上取消绑定的数据模型项。](./media/er-components-inspections-11b.png)
 
 13. 在格式结构树中，添加以下项，以便生成一个 XML 格式且包含查询的供应商的详细信息的传出文档：
 
@@ -729,15 +729,15 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 15. 选择 **验证** 检查 **格式设计器** 页上的可编辑格式组件。
 
-    ![在“格式设计器”页面上验证 ER 格式组件](./media/er-components-inspections-11c.png)
+    ![在“格式设计器”页面上验证 ER 格式组件。](./media/er-components-inspections-11c.png)
 
 16. 请注意，发生了验证警告。 此消息指出 **model.Vendor.Name** 数据源字段未绑定到模型映射中配置供格式使用的任何数据源。 因此，在运行时不能填充 **Statement\\Party\\Name** 格式，并且可能会发生运行时异常。
 
-    ![在“格式设计器”页面上验证 ER 格式元素](./media/er-components-inspections-11d.png)
+    ![在“格式设计器”页面上验证 ER 格式元素。](./media/er-components-inspections-11d.png)
 
 下图显示了如果忽略此警告并选择 **运行** 以运行格式，将出现的运行时错误。
 
-![在“格式设计器”页面上运行可编辑格式](./media/er-components-inspections-11e.png)
+![在“格式设计器”页面上运行可编辑格式。](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 
@@ -766,7 +766,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 5. 在 **Excel\\File** 元素中，选择工作簿文件 A。
 6. 选择 **验证** 检查 **格式设计器** 页上的可编辑格式组件。
 
-    ![在“格式设计器”页面上验证工作簿文件的可编辑格式组件](./media/er-components-inspections-12a.gif)
+    ![在“格式设计器”页面上验证工作簿文件的可编辑格式组件。](./media/er-components-inspections-12a.gif)
 
 7. 请注意，发生了验证警告。 该消息指出工作簿文件 B.xlsx 未链接到任何组件，并且将在更改配置版本状态后将其删除。
 
@@ -794,11 +794,11 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 4. 将 **Excel\\Cell** 元素 **Title** 作为 **Report** 元素的嵌套元素添加。 在 **Excel 范围** 字段中，输入 **ReportTitle**。
 5. 选择 **验证** 检查 **格式设计器** 页上的可编辑格式组件。
 
-    ![在“格式设计器”页面上验证嵌套元素和字段](./media/er-components-inspections-13a.png)
+    ![在“格式设计器”页面上验证嵌套元素和字段。](./media/er-components-inspections-13a.png)
 
 6. 请注意，发生了验证警告。 此消息指出您正在使用的 Excel 模板的工作表 **Sheet1** 中无名称 **ReportTitle**。
 
-    ![有关 Excel 模板的 Sheet1中无名称 ReportTitle 的验证警告](./media/er-components-inspections-13b.png)
+    ![有关 Excel 模板的 Sheet1 中无名称 ReportTitle 的验证警告。](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>自动解决
 

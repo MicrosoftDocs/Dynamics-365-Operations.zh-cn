@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360584"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
@@ -48,7 +48,7 @@ ms.locfileid: "6055092"
 
 5. 在 **Dynamics 365 Human Resources** 页面上，选择 LinkedIn Talent Hub 要链接到的环境，然后选择 **链接**。
 
-    ![LinkedIn Talent Hub 入职](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub 入职。](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > 您只能链接到用户帐户对 Human Resources 环境以及关联的 Power Apps 环境具有管理员访问权限的环境。 如果 Human Resources 链接页面上未列出任何环境，请确保已在租户上获得了 Human Resources 环境的许可，并且您以该身份登录到链接页面的用户对 Human Resources 环境和 Power Apps 环境具有管理员权限。
@@ -91,7 +91,7 @@ ms.locfileid: "6055092"
 
 6. 使用列表上方的下拉菜单将视图从默认的 **已启用用户** 视图更改为 **申请用户**。
 
-    ![申请用户视图](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![申请用户视图。](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. 在工具栏上，选择 **新建**。
 
@@ -163,7 +163,7 @@ ms.locfileid: "6055092"
     - 在 **位置** 字段中，输入员工的所在地。
     - 输入或验证员工的电子邮件地址。
 
-![LinkedIn Talent Hub 中的“导出到 HRIS”窗格](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![LinkedIn Talent Hub 中的“导出到 HRIS”窗格。](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>在 Human Resources 中完成入职
 

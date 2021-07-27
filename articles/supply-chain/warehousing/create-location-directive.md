@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: a896953a5603d9766f2c4938158088fc9424d5bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343740"
 ---
 # <a name="work-with-location-directives"></a>使用库位指令
 
@@ -51,7 +51,7 @@ ms.locfileid: "5911288"
 
 可为库位指令设置的许多字段通用于所有工作订单类型。 但是，其他字段特定于特定的工作订单类型。
 
-![库位指令工作订单类型](media/Location_Directives_Work_Order_Types.png "库位指令工作订单类型")
+![库位指令工作订单类型。](media/Location_Directives_Work_Order_Types.png "库位指令工作订单类型")
 
 > [!NOTE]
 > 系统仅使用两种工作订单类型：*已取消工作* 和 *周期盘点*。 无法为这些工作订单类型创建库位指令。

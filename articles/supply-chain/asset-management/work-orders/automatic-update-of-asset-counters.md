@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820434"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359117"
 ---
 # <a name="automatic-update-of-asset-counters"></a>自动更新资产计数器
 
@@ -49,7 +49,7 @@ ms.locfileid: "5820434"
 
     下图显示了 **更新资产计数器** 对话框的示例。
 
-    ![图 1](media/12-work-orders.png)
+    ![图 1.](media/12-work-orders.png)
 
 5. 选择 **确定**。 
 
@@ -59,7 +59,7 @@ ms.locfileid: "5820434"
 
 下图显示了 **资产汇总值** 页面的示例。
 
-![图 2](media/13-work-orders.png)
+![图 2.](media/13-work-orders.png)
 
 请注意以下点：
 

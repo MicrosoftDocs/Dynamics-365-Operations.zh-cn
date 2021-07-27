@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360890"
 ---
 # <a name="phantom-items"></a>虚拟物料
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814770"
 
 此主题详细介绍如何在物料清单 (BOM) 和配方的行中使用虚拟行类型。 在下图中，(a) 是产品 H 和部件 F 和 G 的物料清单，而 (b) 则是产品 H 和部件 F 的工艺路线单。
 
-![产品 H 和部件 F](media/product-H-part-F.png)
+![产品 H 和部件 F。](media/product-H-part-F.png)
 
 
 此图显示的示例为分两个级别的物料清单结构。 成品 H 表示需要进行机器装配的产品。 这个机器装配由两个部件、一个含两种物料（A 和 B）的电子单元 (F)，以及也含两种材料（C 和 D）的一组包装材料构成。 另一种材料 (E) 则在常规装配该机器时使用。
 
-![产品 H 和部件 F](media/product-H-part-B.png)
+![产品 H 和部件 F。](media/product-H-part-B.png)
 
 上图表示产品 H 的工程物料清单。此结构很好地囊括了整个机器装配的部件和组件。 但是，尽管产品设计师可能希望以这种方式表示物料清单，此结构可能无法正确地表示机器在车间中是如何制造地。 
 
@@ -53,23 +53,23 @@ ms.locfileid: "5814770"
 ## <a name="multilevel-phantom-bom-structures"></a>多级虚拟物料清单结构
 可以在多级虚拟物料清单结构中使用虚拟行类型，如下图中所示。 在该图中，(a) 是产品 G 的物料清单，而 (b) 则是部件 E 和 F 及产品 G 的工艺路线单。 
 
-![带工艺路线单的产品 G 和部件 F](media/product-G-route-sheet-G.png)
+![带工艺路线单的产品 G 和部件 F。](media/product-G-route-sheet-G.png)
 
 
 下图显示配置了部件 E 和 F 的物料清单行以便让行类型为虚拟时生成的制造物料清单和工艺路线单。 在该图中，(a) 是产品 G 的物料清单，而 (b) 则是产品 G 的工艺路线单。
 
-![产品 G](media/product-G.png)
+![产品 G。](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>虚拟和工艺路线网络
 也可以将虚拟物料清单用于具有工艺路线网络的物料清单。 在工艺路线网络中，一个或多个工序同时运行。 下图显示多级物料清单中使用的工艺路线网络的示例。 在该图中，(a) 是产品 G 和部件 F 的物料清单，而 (b) 则是产品 G 和部件 F 的工艺路线单，后者具有工艺路线网络。
 
-![产品 G 和部件 F](media/product-G-part-F.png)
+![产品 G 和部件 F。](media/product-G-part-F.png)
 
 
 在下图中，(a) 是产品 G 和部件 F 的物料清单，而 (b) 则是产品 G 和部件 F 的工艺路线单。
 
-![带工艺路线单的产品 G 和部件 F](media/product-G-part-F-with-route-sheet.png)
+![带工艺路线单的产品 G 和部件 F。](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837865"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361136"
 ---
 # <a name="asset-fault-analysis"></a>资产故障分析
 
@@ -60,7 +60,7 @@ ms.locfileid: "5837865"
 - 已对三种故障特征创建了故障登记：“漏气”、“保险丝熔断”和“设备卡住”。  
 - 在 **概率 %** 列中，所有百分比之和为 100%。 在此故障分析中，概率基于所有 **特征** 登记。
 
-![图 1](media/06-controlling-and-reporting.png)
+![图 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>按特征和时段分组
 
@@ -69,7 +69,7 @@ ms.locfileid: "5837865"
 - 故障特征现在显示为每年/月的登记。  
 - 在 **概率 %** 列，如果将每月的所有百分比相加，则总和为 100%。 在此故障分析中，概率基于 **特征** 登记。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障特征以找到方法来限制该故障特征的登记数量。
 
-![图 2](media/07-controlling-and-reporting.png)
+![图 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>按多个特征和资产分组
 
@@ -84,7 +84,7 @@ ms.locfileid: "5837865"
 - 故障特征现在已拆分为 **资产** / **资产类型** / **特征** 组合。  
 - 在 **概率 %** 列，如果将 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征** 登记。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障特征以找到方法来限制该故障特征的登记数量。
 
-![图 3](media/08-controlling-and-reporting.png)
+![图 3.](media/08-controlling-and-reporting.png)
 
 **按两个特征、资产和资产类型分组**
 
@@ -92,7 +92,7 @@ ms.locfileid: "5837865"
 
 - 在 **概率 %** 列，如果资产的 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征** 和 **区域** 的组合。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障区域以找到方法来限制该故障区域的登记数量。  
 
-![图 4](media/09-controlling-and-reporting.png)
+![图 4.](media/09-controlling-and-reporting.png)
 
 **按三个特征、资产和资产类型分组**
 
@@ -100,7 +100,7 @@ ms.locfileid: "5837865"
  
 - 在 **概率 %** 列，如果资产的 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征**、**区域** 和 **类型** 的组合。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障类型以找到方法来限制该故障类型的登记数量。
 
-![图 5](media/10-controlling-and-reporting.png)
+![图 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

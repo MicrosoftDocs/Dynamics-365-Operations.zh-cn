@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0330cb8c11252a67ad92fd028707e4135b510c9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3778a95fbc459e927cc97711f3e3d06bd4917dc5
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837313"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337544"
 ---
 # <a name="warehouse-management-overview"></a>仓库管理概览
 

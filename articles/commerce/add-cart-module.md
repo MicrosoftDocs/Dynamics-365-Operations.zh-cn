@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797855"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346844"
 ---
 # <a name="cart-module"></a>购物车模块
 
@@ -35,11 +35,11 @@ ms.locfileid: "5797855"
 
 下图显示了 Fabrikam 站点上购物车页面的示例。
 
-![Fabrikam 站点上的购物车模块示例](./media/cart2.PNG)
+![Fabrikam 站点上的购物车模块的示例。](./media/cart2.PNG)
 
 下图显示了 Fabrikam 站点上购物车页面的示例。 在此示例中，行项有手续费。
 
-![行项包含手续费的购物车模块的示例](./media/ecommerce-handling-fee.png)
+![行项包含手续费的购物车模块的示例。](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>购物车模块属性和插槽
 

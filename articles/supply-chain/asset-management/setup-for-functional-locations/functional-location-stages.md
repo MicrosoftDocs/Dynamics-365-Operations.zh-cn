@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360962"
 ---
 # <a name="functional-location-lifecycle-states"></a>功能位置生命周期状态
 
@@ -56,9 +56,9 @@ ms.locfileid: "5837745"
 1. 选择 **资产管理** > **设置** > **功能位置** > **生命周期模型**。
 2. 选择 **新建** 以创建新的生命周期模型。
 3. 在 **生命周期模型** 字段中插入生命周期模型 ID，在 **名称** 字段中插入生命周期模型的名称。 在 **功能位置类型** 和 **生命周期状态** 字段中，可查看使用该生命周期模型的功能位置类型数量和生命周期模型中选择的状态数量。
-4. 在 **生命周期状态** 快速选项卡上，选择模型中应包含的状态。 方法是单击 **其余生命周期状态** 部分中的状态，然后单击 ![前进箭头](media/02-setup-for-functional-locations.png) 按钮。
-5. 如果要为模型选择所有可用状态，请单击![选择所有可用阶段](media/03-setup-for-functional-locations.png)按钮。 将把所有状态移到 **所选生命周期状态** 部分。
-6. 如果要从模型删除所选状态，请在 **所选生命周期状态** 部分中选择状态，然后单击 ![后退箭头](media/04-setup-for-functional-locations.png) 按钮。
+4. 在 **生命周期状态** 快速选项卡上，选择模型中应包含的状态。 通过单击 **其余生命周期状态** 部分中的状态，然后单击 ![前进箭头。](media/02-setup-for-functional-locations.png) 按钮 完成此操作。
+5. 如果要为模型选择所有可用状态，请单击 ![选择所有可用阶段。](media/03-setup-for-functional-locations.png) 按钮。 将把所有状态移到 **所选生命周期状态** 部分。
+6. 如果要从模型删除所选状态，请在 **所选生命周期状态** 部分中选择状态，然后单击 ![后退箭头。](media/04-setup-for-functional-locations.png) 按钮。
 7. 要定义哪些生命周期状态可采用所选状态，选择 **生命周期状态更新**。
 
 

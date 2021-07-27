@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193274"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355821"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 
@@ -42,20 +42,20 @@ PDP 中的三个模块显示评分和评价摘要：
  
 下图显示评分和评价模块在 PDP 上的外观。
 
-![PDP 上的评分和评价模块](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![PDP 上的评分和评价模块。](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > 有关如何优化 PDP 模板和布局，以便在电子商务站点中的多个 PDP 之间共享评分和评价模块的配置的信息，请参阅[模板和布局概述](templates-layouts-overview.md)。
 
 下图显示 Dynamics 365 Commerce 中 **添加模块** 对话框如何显示评分和评价模块。
-![“添加模块”对话框](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![“添加模块”对话框。](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>撰写评价模块
 
 撰写评价模块中有一个 **撰写评价** 按钮，供用户登录，分配评分和撰写产品评价。 用户可使用此模块编辑之前提交的评分或评价。 此模块通常在 PDP 上的评分直方图和产品评价列表模块上方显示。
 下图显示当客户选择 **撰写评价** 时显示的 **撰写评价** 对话框。 客户可使用此对话框提交评分和评价。
 
-![“撰写评价”对话框](media/rnr-eCommerce-write-review-module.png)
+![“撰写评价”对话框。](media/rnr-eCommerce-write-review-module.png)
 
 下表显示需要在制作工具中配置的撰写评价模块属性。
 
@@ -67,7 +67,7 @@ PDP 中的三个模块显示评分和评价摘要：
 
 评分直方图模块显示评分直方图。 此模块通常在 PDP 中撰写评论模块与产品评论列表模块之间显示。
 评分直方图模块不需要配置。 只需在 PDP 模板中添加此模块。 下图显示将评分和评价模块配置为在 PDP 中显示时，PDP 模板在 Dynamics 365 Commerce 中的外观。
-![将评分或评价配置为在 PDP 中显示时的 PDP 模板](media/rnr-eCommerce-pdp-reviews-modules.png)
+![将评分或评价配置为在 PDP 中显示时的 PDP 模板。](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>产品评级列表模块
 
@@ -82,11 +82,11 @@ PDP 中的三个模块显示评分和评价摘要：
 
 产品评论列表模块中有一个插槽，可在其中添加评分直方图模块。 下图显示如何在 Dynamics 365 Commerce 中的产品评论列表模块内添加评分直方图模块。
 
-![在产品评论列表模块中添加评分直方图模块](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![在产品评价列表模块中添加评分直方图模块。](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[模块库概述](starter-kit-overview.md)
+[模块库概览](starter-kit-overview.md)
 
 [容器模块](add-container-module.md)
 

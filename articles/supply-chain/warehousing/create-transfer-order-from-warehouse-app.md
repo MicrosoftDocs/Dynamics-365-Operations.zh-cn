@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164838"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343617"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 
@@ -95,7 +95,7 @@ ms.locfileid: "6164838"
 
 您是零售商，拥有多个牌照，每个牌照包含物料组合，这些物料放在您的一个仓库（*仓库 51*）中的特定位置。 您想要启用允许工作人员创建到另一个仓库（*仓库 61*）的转移单以收集扫描的牌照的过程。 一旦确定了该订单的最后一个牌照，您将自动装运/更新转移单。
 
-![自动化转移单过程示例](media/create-transfer-order-from-app-example.png "自动化转移单过程示例")
+![自动化转移单流程示例。](media/create-transfer-order-from-app-example.png "自动化转移单过程示例")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>创建用于创建转移单的移动设备菜单项
 

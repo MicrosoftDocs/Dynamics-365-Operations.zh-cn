@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271175"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358687"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子报告配置
 
@@ -41,7 +41,7 @@ ms.locfileid: "6271175"
 3. 在 **配置提供程序** 部分中，选择 **Microsoft** 磁贴。
 4. 在 **Microsoft** 磁贴上，选择 **存储库**。
 
-    [“本地化配置”页面中的 ![Microsoft 磁贴](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![本地化配置页面上的 Microsoft 磁贴。](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. 在 **配置存储库** 页面，在网格中，选择 **LCS** 类型的现有存储库。 如果此存储库没有显示在网格中，请执行以下步骤：
 
@@ -55,7 +55,7 @@ ms.locfileid: "6271175"
 
 6. 选择 **打开** 查看选择的存储库的 ER 配置列表。
 
-    [![配置存储库页面](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![配置存储库页面。](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > 如果访问 LCS 存储库以从 LCS 中的共享资产库下载配置时遇到问题，可以改为从[全局存储库](er-download-configurations-global-repo.md)下载配置。
@@ -67,7 +67,7 @@ ms.locfileid: "6271175"
     > [!NOTE]
     > **导入** 按钮对当前实例中已呈现的 ER 配置版本不可用。
 
-    [![配置存储库页面](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![配置存储库页面。](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本主题的相关主题列表。

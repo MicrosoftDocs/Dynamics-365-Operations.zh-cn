@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354777"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>移动平均回退成本序列
 
@@ -42,7 +42,7 @@ ms.locfileid: "5832266"
     - **有效成本 - 上次发货**
     - **有效成本 – 物料价格** – 组织使用的业务流程中库存定期变负，并且同时交易量极高，组织可能会遇到性能问题。 此设置有助于缓解这些性能问题。
 
-![库存会计参数](media/inventory-accounting-parameters.png "库存会计参数")
+![库存会计参数。](media/inventory-accounting-parameters.png "库存会计参数")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

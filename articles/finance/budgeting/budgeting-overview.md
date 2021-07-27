@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187908"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355692"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
@@ -32,7 +34,7 @@ ms.locfileid: "6187908"
 
 公司的资源计划周期通常包含计划、预算编制和预测活动。
 
-[![预算编制功能组件](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![预算编制功能组件。](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 长期战略计划和年度预算计划的流程均通过预算计划文档来获得支持。 预算计划文档与 Microsoft Excel 紧密集成在一起。 用户可配置无数个货币和数量方案，也可以定义一个预算编制组织层次结构以支持自上而下和自下而上的预算编制方法。 在应用程序中建立和审核预算之后，将预算计划转换为预算登记条目。 预算登记条目提供了用于维护预算以及通过预算代码保持金额的可追溯性的工具。 预算登记条目可让您修订原始预算、执行转移和从上一年结转预算金额。 根据建立的预算，公司可启用预算控制。 控制的级别取决于组织文化和组织的成熟度级别。 成熟度较低的组织可能将预算保留“原样”，当预算未达到预期时，它们可能更多的是被动地响应，而不是主动采取措施。 其他组织可能会启用预算控制策略以防止用户在没有预算资金时进行采购。
 
@@ -46,7 +48,7 @@ ms.locfileid: "6187908"
 -   [Excel 的预算计划模板](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>预算编制工具
-[![预算编制工具](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![预算编制工具。](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 提供了其他计划和预算功能，并且与分类帐预算集成在一起。
 

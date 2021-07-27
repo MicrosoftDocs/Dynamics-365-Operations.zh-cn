@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754080"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361371"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -33,7 +33,7 @@ ms.locfileid: "5754080"
 
 在这些应用界面中，可以实时访问处理状态和发票信息。 因此，可以在 Supply Chain Management 中更轻松地管理产品库存、库存处理和履行等功能，不必重新创建报价单和订单。
 
-![目标客户到现金中的双写入数据流](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![目标客户到现金中的双重写入数据流。](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 有关客户和联系人集成的信息，请参阅[集成客户主数据](customer-mapping.md)。 有关产品集成的信息，请参阅[统一的产品体验](product-mapping.md)。
 

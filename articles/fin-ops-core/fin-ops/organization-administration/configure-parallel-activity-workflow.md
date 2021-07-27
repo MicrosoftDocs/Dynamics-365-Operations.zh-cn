@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1a47857cbe65c00ad678b2b0372c642abf01b41
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c0bc97f401ad9e097248dfd5afb0baa8edbb6b3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350662"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>配置工作流中的并行活动
 
@@ -45,7 +45,7 @@ ms.locfileid: "5747823"
 1. 双击并行活动显示并行活动的分支。
 2. 要添加分支，将 **工作流元素** 区域的 **分支** 元素拖到画布上的一个插入点。 下图显示一个插入点。
 
-    ![插入点](./media/workflow_insertionpoint.gif)
+    ![插入点。](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
     > 分支的顺序并不重要，因为并行活动的所有分支同时运行。

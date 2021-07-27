@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 24671
+ms.custom:
+- "24671"
+- intro-internal
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d42b3aa5b692a300a4a2cb3eb64c9a014aa52f9e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188774"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339076"
 ---
 # <a name="configure-accounts-payable-overview"></a>配置应付帐款概览
 

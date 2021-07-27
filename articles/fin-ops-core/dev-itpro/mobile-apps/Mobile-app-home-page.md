@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188402"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360808"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -39,7 +39,7 @@ ms.locfileid: "6188402"
 ## <a name="elements-of-the-mobile-app"></a>移动应用的元素
 移动应用的导航包括四个基本的概念：仪表板、工作区、页面和操作。 
 
-[![移动应用的导航概念](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![移动应用中的导航概念。](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. 当您启动应用后，转到 **仪表板**。
 2. 在仪表板上，可以看到已发布的 **工作区**。
@@ -53,7 +53,7 @@ ms.locfileid: "6188402"
 ## <a name="implementation-process"></a>实施流程
 下图显示实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的流程。 
 
-[![移动应用实现流程](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![移动应用实现流程。](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 下表包括可以帮助您实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的资源的链接。 第一列的数字对应上一图中已编号的步骤。
 

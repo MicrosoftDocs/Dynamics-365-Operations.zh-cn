@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963231"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357406"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
@@ -49,7 +49,7 @@ ms.locfileid: "5963231"
 5. 选择 **添加策略** 添加存储的访问策略。
 6. 根据需要设置 **标识符** 和 **权限** 字段。 在 **权限** 字段中，您应该选择所有权限。
 
-    ![授予 Blob 存储权限](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![授予 Blob 存储权限。](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. 输入开始日期和到期日期。 到期日期应该在将来。
 8. 选择 **确定** 保存策略，然后保存对容器进行的更改。
@@ -57,7 +57,7 @@ ms.locfileid: "5963231"
 10. 用鼠标右键单击容器，然后选择 **获取共享访问签名**。
 11. 在 **共享访问签名** 对话框中，将值复制并存储到 **URI** 字段中。 此值将在下一个过程中使用，将称为 *共享访问签名 URI*。
 
-    ![选择并复制 URI 值](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![选择并复制 URI 值。](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>设置密钥保管库以存储存储帐户 URI
 
@@ -69,11 +69,11 @@ ms.locfileid: "5963231"
 6. 设置访问策略，以授予电子开票访问您创建的密码的正确安全访问级别。 转到 **设置 \> 访问策略**，选择 **添加访问策略**。
 7. 为 **获取** 和 **列出** 操作设置密码权限。
 
-    ![授予服务访问权限](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![授予服务访问权限。](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. 为 **获取** 和 **列出** 操作设置证书权限。
 
-    ![授予证书权限](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![授予证书权限。](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. 在 **选择主体** 字段中，选择 **未选择**。
 10. 在 **主体** 对话框中，通过添加 **电子开票服务** 选择主体。

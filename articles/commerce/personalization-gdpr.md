@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804445"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352268"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>选择退出个性化建议
 
@@ -44,11 +44,11 @@ ms.locfileid: "5804445"
 1. 在后端主页上搜索 **所有客户**。
 1. 搜索并选择一个客户，然后选择 **零售** 快速选项卡。
 
-    ![“零售”快速选项卡](./media/Disablepersonalizationpart1.png)
+    ![“零售”快速选项卡。](./media/Disablepersonalizationpart1.png)
 
 1. 在 **隐私** 下，将 **禁用个性化设置** 选项设置为 **是**。
 
-    ![隐私设置](./media/Disablepersonalizationpart2.png)
+    ![隐私设置。](./media/Disablepersonalizationpart2.png)
 
 1. 选择 **保存**，然后关闭页面。
 

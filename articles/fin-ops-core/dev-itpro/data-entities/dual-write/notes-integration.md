@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358971"
 ---
 # <a name="note-integration"></a>注释集成
 
@@ -51,23 +51,23 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 1. 在 Customer Engagement 应用中，打开客户的帐户记录。
 2. 在 **时间线** 窗格中，选择加号 (**+**)，然后选择 **注释** 以创建注释。
 
-    ![在 Customer Engagement 应用中创建注释](media/notes-ce-1.png)
+    ![在 Customer Engagement 应用中创建注释。](media/notes-ce-1.png)
 
 3. 输入标题和描述，然后选择 **添加注释**。
 
-    ![输入标题和描述](media/notes-ce-2.png)
+    ![输入标题和描述。](media/notes-ce-2.png)
 
     新注释将添加到客户时间线中。
 
-    ![客户时间线上的新注释](media/notes-ce-3.png)
+    ![客户时间线上的新注释。](media/notes-ce-3.png)
 
 4. 登录到 Finance and Operations 应用，然后打开相同的客户记录。 请注意右上角的 **附件** 按钮（回形针符号）表示该记录具有附件。
 
-    ![关于附件的通知](media/notes-ce-4.png)
+    ![关于附件的通知。](media/notes-ce-4.png)
 
 5. 选择 **附件** 按钮以打开 **附件** 页。 您应该查找在 Customer Engagement 应用中创建的注释。
 
-    ![来自 Customer Engagement 应用的注释](media/notes-ce-5.png)
+    ![来自 Customer Engagement 应用的注释。](media/notes-ce-5.png)
 
 注释的任何更新都会在 Finance and Operations 应用和 Customer Engagement 应用之间来回同步。
 
@@ -79,21 +79,21 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
 1. 在 Finance and Operations 应用中的 **附件** 页面上，选择 **新建**\>**注释**。
 
-    ![在 Finance and Operations 应用中创建注释](media/notes-fo-1.png)
+    ![在 Finance and Operations 应用中创建注释。](media/notes-fo-1.png)
 
 2. 输入标题和一组简要说明，然后选择 **保存**。
 
-    ![输入标题和说明](media/notes-fo-2.png)
+    ![输入标题和说明。](media/notes-fo-2.png)
 
 3. 在 Customer Engagement 应用中，更新记录。 您应该会在时间线上找到新注释。
 
-    ![Customer Engagement 应用中时间线上的新注释](media/notes-fo-3.png)
+    ![Customer Engagement 应用中时间线上的新注释。](media/notes-fo-3.png)
 
 您可以将注释归类为内部注释或外部注释。
 
 - 在 Finance and Operations 应用的 **附件** 页上，打开注释，然后在 **限制** 字段中，选择 **内部** 或 **外部**。
 
-    ![限制字段](media/notes-fo-4.png)
+    ![限制字段。](media/notes-fo-4.png)
 
 您还可以创建 URL。
 
@@ -101,13 +101,13 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 2. 输入标题和 URL。
 3. 在 **限制** 字段中，选择 **内部** 或 **外部**。
 
-    ![在 Finance and Operations 应用中创建 URL](media/notes-fo-5.png)
+    ![在 Finance and Operations 应用中创建 URL。](media/notes-fo-5.png)
 
 4. 选择 **保存**。
 
     由于 Customer Engagement 应用没有 URL 类型，因此该 URL 已与双重写入功能集成为注释。
 
-    ![Customer Engagement 应用中显示为注释的 URL](media/notes-ce-6.png)
+    ![Customer Engagement 应用中显示为注释的 URL。](media/notes-ce-6.png)
 
 > [!NOTE]
 > 不支持文件附件。

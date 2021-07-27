@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 37dd76773abb69819bfd32bb2813bb8b42b2a375
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 778d00d777c44aa5cd19eced6d2d30e9b85500fd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820827"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339052"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>自动化供应商开票流程概述
 

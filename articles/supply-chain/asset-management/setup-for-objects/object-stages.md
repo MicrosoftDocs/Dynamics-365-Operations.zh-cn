@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360093"
 ---
 # <a name="asset-lifecycle-states"></a>资产生命周期状态
 
@@ -61,9 +61,9 @@ ms.locfileid: "5808272"
 
 5. 在 **生命周期状态** 快速选项卡上，选择资产生命周期模型中应包含的资产生命周期状态。
 
-    - 若要为模型使用某个生命周期状态，请在 **其余生命周期状态** 部分中选择该生命周期状态，然后选择向右箭头按钮 ![向右箭头](media/15-setup-for-objects.png) 将其移到 **所选生命周期状态** 部分。
-    - 若要为模型使用所有可用生命周期状态，请选择 **所有可用生命周期状态** 按钮 ![所有可用生命周期状态](media/20-setup-for-objects.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
-    - 若要从模型中删除生命周期状态，请在 **生命周期状态模型** 部分中选择该生命周期状态，然后选择向左箭头按钮 ![向左箭头](media/16-setup-for-objects.png) 将其移到 **其余生命周期状态** 部分。
+    - 若要为模型使用生命周期状态，请在 **其余生命周期状态** 部分中选择它，然后选择向右箭头按钮 ![向右箭头。](media/15-setup-for-objects.png) 以将其移到 **所选生命周期状态** 部分。
+    - 若要为模型使用所有可用生命周期状态，请选择 **所有可用生命周期状态** 按钮 ![所有可用生命周期状态。](media/20-setup-for-objects.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
+    - 若要从模型中删除生命周期状态，请在 **所选生命周期状态** 部分中选择它，然后选择向左箭头按钮 ![向左箭头。](media/16-setup-for-objects.png) 以将其移到 **其余生命周期状态** 部分。
 
 6. 要定义可采用所选生命周期状态的资产生命周期状态，选择 **生命周期状态更新**。
 7. 如果要处理收到待维修的资产，请使用 **资产状态** 快速选项卡。 在 **入站/出站** 部分中，可选择资产生命周期状态以指示收到待维修的资产的工作流。 如果为客户或部门提供出借资产，可在 **借出** 部分中为出借资产选择生命周期状态。

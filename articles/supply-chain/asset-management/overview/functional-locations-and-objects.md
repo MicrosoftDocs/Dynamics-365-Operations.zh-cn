@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351577"
 ---
 # <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -34,13 +34,13 @@ ms.locfileid: "5816741"
 
 资产管理与其他 Finance and Operations 应用的多个模块无缝集成。 下图显示界面和其他模块。
 
-![显示资产管理如何与其他模块交互的图](media/01-overview-image.png)
+![显示资产管理如何与其他模块交互的图表。](media/01-overview-image.png)
 
 资产管理可用于高效管理和执行与管理和服务公司中大量类型的设备有关的所有任务。 这些设备包括机器、生产设备和交通工具。 资产管理还支持多个行业的解决方案。
 
 下图显示资产管理中包含的主要功能的概览。
 
-![显示资产管理中的主要功能的图](media/02-overview-image.png)
+![显示资产管理中的主要功能的图表。](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -50,11 +50,11 @@ ms.locfileid: "5816741"
 
 功能位置层次结构的创建方法取决于公司对维护内部设备或服务客户设备的要求。 下图显示基于地理位置的功能位置的示例。
 
-![显示基于地理位置的功能位置的图](media/03-overview-image.png)
+![显示基于地理位置的功能位置的图表。](media/03-overview-image.png)
 
 下图显示基于客户的功能位置的示例。
 
-![显示基于客户的功能位置的图](media/04-overview-image.png)
+![显示基于客户的功能位置的图表。](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

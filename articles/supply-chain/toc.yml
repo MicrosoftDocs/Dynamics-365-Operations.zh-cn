@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 开始使用适用于埃及的电子开票
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 开始使用适用于意大利的电子开票
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 开始使用适用于墨西哥的电子开票
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 设置电子开票
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: 计划优化适应分析
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: 计划优化未使用的参数
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: 为计划应用筛选器
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: 主计划与需求预测
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: 生产规划
                   href: master-planning/planning-optimization/production-planning.md
+                - name: 具有无限容量的计划
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: 通过计划优化进行库存标记
                   href: master-planning/planning-optimization/marking.md
                 - name: 内部公司计划
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 配置审核步骤
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 配置支出审核人
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 配置手动决策
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 配置条件决策
@@ -1899,7 +1903,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: 预警
               items:

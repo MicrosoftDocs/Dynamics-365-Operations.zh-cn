@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6016998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358090"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 
@@ -143,7 +143,7 @@ ms.locfileid: "6016998"
 
             有关此变量的详细信息，请参阅本主题后面的[设置库存可见性集成](#setup-inventory-visibility-integration)一节。
 
-        ![配置触发器](media/configuration-trigger.png "配置触发器")
+        ![配置触发器。](media/configuration-trigger.png "配置触发器")
 
     1. 选择 **打开**。
 
@@ -157,7 +157,7 @@ ms.locfileid: "6016998"
 1. 在环境页上，向下滚动，直到看到 **Power Platform 集成** 部分中的 **环境加载项** 部分，您可以在其中找到 Dataverse 环境名称。
 1. 在 **环境加载项** 部分中，选择 **安装新加载项**。
 
-    ![LCS 中的环境页面](media/inventory-visibility-environment.png "LCS 中的环境页面")
+    ![LCS 中的环境页面。](media/inventory-visibility-environment.png "LCS 中的环境页面")
 
 1. 选择 **安装新加载项** 链接。 将打开可用加载项的列表。
 1. 在列表中选择 **库存可见性**。
@@ -166,7 +166,7 @@ ms.locfileid: "6016998"
     - **AAD 应用程序（客户端）ID**
     - **AAD 租户 ID**
 
-    ![加载项设置页面](media/inventory-visibility-setup.png "加载项设置页面")
+    ![加载项设置页面。](media/inventory-visibility-setup.png "加载项设置页面")
 
 1. 通过选中 **条款和条件** 复选框同意条款和条件。
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 完成后，刷新页面以查看状态更改为 **已安装**。

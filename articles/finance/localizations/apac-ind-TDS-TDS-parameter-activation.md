@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023056"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358234"
 ---
 # <a name="set-the-tds-parameters"></a>设置 TDS 参数
 
@@ -34,13 +34,13 @@ ms.locfileid: "6023056"
 3. 将 **发票** 选项设置为 **是**，以激活用于在发票级别计算和扣除 TDS 的字段。
 4. 将 **付款** 选项设置为 **是**，以激活用于在付款级别计算和扣除 TDS 的字段。
 
-    [![直接税选项卡](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![直接税选项卡。](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. 在 **编号规则** 选项卡上，查找 **参考** 字段设置为 **预缴税金付款** 的行。 在该行的 **编号规则代码** 字段中，选择编号规则代码。 编号规则代码用于为定期 TDS 结算流程生成凭证编号。
 
     > [!NOTE]
     > 若要运行定期 TDS 结算流程，请转到 **税务 \> 申报 \> 预缴税金 \> 预缴税金付款**。
 
-    [![“编号规则”选项卡](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![“编号规则”选项卡。](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. 关闭该页面。
