@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3cbd4a034b89308c33651c5a923b67bc0eabf413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750124"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345754"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -58,11 +58,11 @@ ER 公式设计器可以用于定义转换接收自数据源的数据的表达�
 
 下图显示了此类表达式的设计。 在此示例中，表达式将内部统计表中的 **Intrastat.AmountMST** 字段的值舍入到两位小数，然后返回舍入值。
 
-[![数据绑定表达式](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![数据绑定表达式。](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 下图显示了如何使用此类表达式。 在此示例中，设计的表达式的结果输入在 **纳税申报模型** 数据模型的 **Transaction.InvoicedAmount** 组件中。
 
-[![使用的数据绑定表达式](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![要使用的数据绑定表达式。](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 运行时，设计的公式 `ROUND (Intrastat.AmountMST, 2)` 将内部统计表中各记录的 **AmountMST** 字段的值舍入为两位小数。 然后在 **纳税申报** 数据模型的 **Transaction.InvoicedAmount** 组件中输入化整后的值。
 
@@ -72,17 +72,17 @@ ER 配方设计器可以用于定义确定接收自数据源的数据的格式�
 
 下图显示了此类转换的设计。 在此示例中，**TrimmedString** 转换通过去除前导空格和尾随空格截断 *字符串* 数据类型的传入数据。 然后返回截断后的字符串值。
 
-[![转换](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![转换。](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 下图显示了如何使用此类转换。 在此示例中，若干格式组件在运行时将文本作为输出发送到生成电子单据。 所有这些组件名义上引用 **TrimmedString** 转换。
 
-[![正在使用的转换](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![要使用的转换。](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 上图中 **partyName** 组件之类格式组件引用 **TrimmedString** 转换时，该转换将把文本作为输出发送到生成电子单据。 此文本中不包含前导空格和尾随空格。
 
 如果您具有必须单独应用的格式，可以将此格式作为特定格式组件绑定的单个表达式引入。 下图显示了此类表达式。 在此示例中，**partyType** 格式组件通过将数据源中 **Model.Company.RegistrationType** 字段的传入数据转换为大写文本的表达式绑定到数据源。 然后，该表达式将该文本作为输出发送到电子单据。
 
-[![将格式应用于单个组件](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![将格式应用于单个组件。](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>流程控制
 
@@ -98,7 +98,7 @@ ER 格式设计器可用于定义控制生成电子单据的流程的表达式�
 - 如果事务列表为空，验证将停止执行流程并返回 **FALSE**。
 - 验证返回使用用户首选语言的包括标签 SYS70894 文本的错误消息。
 
-[![验证](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![验证。](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 ER 配方设计器还可用于生成文件名来生成电子单据和控制文件创建流程。 下图显示了此类流程控制的设计。 此示例中是对配置的说明：
 
@@ -107,7 +107,7 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 - 表达式通过连接文件名和文件名扩展返回生成电子文档的文件名。 对于第二个批次和所有后续的批次，文件名作为后缀包含批次 ID。
 - 表达式为包含至少一条记录的批次启用（通过返回 **TRUE**）文件创建流程。
 
-[![流程控制](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![流程流控制。](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>单据内容控制
 
@@ -121,18 +121,18 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 - **PaymentNotes** 组件用于生成付款附注的文本。
 - **DelimitedSequence** 组件生成以逗号分隔的发票编号，用于结算当前贷方转帐。
 
-[![PaymentNotes 和 DelimitedSequence 组件](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![PaymentNotes 和 DelimitedSequence 组件。](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > **PaymentNotes** 和 **DelimitedSequence** 组件使用问号标记。 问号表示组件的使用是有条件的。 在这种情况下，组件的使用基于以下条件：
 >
 > - 为 **PaymentNotes** 组件定义的 `@.PaymentsNotes <> ""` 表达式使（通过返回 **TRUE**） **Ustrd** XML 元素能够填充付款附注文本（如果该文本在当前贷方转帐中不是空白）。
 >
->    [![PaymentNotes 组件的表达式](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![PaymentNotes 组件的表达式。](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - 为 **DelimitedSequence** 组件定义的 `@.PaymentsNotes = ""` 表达式使（通过返回 **TRUE**）**Ustrd** XML 元素可以填充为用于结算当前贷方转帐的发票编号的逗号分隔列表（如果该贷方转帐的付款批注文本是空白的）。
 >
->    [![DelimitedSequence 组件的表达式](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![DelimitedSequence 组件的表达式。](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > 根据此设置，为每笔借方付款生成的消息（**Ustrd** XML 元素）中将包含付款附注的文本，或当该文本为空时，则包含用于结算此付款的以逗号分隔的发票编号列表。
 
@@ -140,7 +140,7 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 
 在 **公式设计器** 页面，选择 **测试** 验证配置的公式如何工作。
 
-[![选择“测试”验证公式](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![选择“测试”以验证公式。](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 当需要公式参数的值时，可以从 **公式设计器** 页打开 **测试表达式** 对话框。 在大多数情况下，这些参数必须手动定义，因为配置的绑定不是在设计时运行。 **公式设计器** 页面的 **测试结果** 选项卡将显示执行已配置公式的结果。
 
@@ -148,15 +148,15 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 
 测试此公式时，可以使用 **测试表达式** 对话框来指定用于测试的内部统计商品代码的值。
 
-[![指定用于测试的内部统计商品代码](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![指定用于测试的内部统计商品代码。](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 指定内部统计商品代码并选择 **确定** 后，**公式设计器** 页面 **测试结果** 选项卡将显示执行已配置公式的结果。 然后，您可以评估结果是否可接受。 如果结果不可接受，您可以更新公式并再次进行测试。
 
-[![测试结果](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![测试结果。](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 有些公式无法在设计时测试。 例如，公式可能会返回无法显示在 **测试结果** 选项卡上的数据类型的结果。在这种情况下，您会收到一条错误消息，指示该公式无法测试。
 
-[![错误消息](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![错误消息。](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027955"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352052"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 
@@ -35,15 +36,15 @@ ms.locfileid: "6027955"
 
 下图显示帐户管理登陆页的示例。
 
-![帐户管理登陆页示例](./media/Account-Management.PNG)
+![帐户管理登陆页面的示例。](./media/Account-Management.PNG)
 
-### <a name="my-profile-page"></a>我的个人资料页
+### <a name="my-profile-page"></a>我的模板页
 
 **我的个人资料** 页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
 
 下图显示使用模块库生成的 **我的个人资料** 页的示例。
 
-![“我的个人资料”页示例](./media/Account-Management-MyProfile.PNG)
+![“我的个人资料”页面的示例。](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>“地址”页
 
@@ -51,7 +52,7 @@ ms.locfileid: "6027955"
 
 下图显示 **地址** 页的示例。
 
-![“地址”页示例](./media/Account-Management-Address.png)
+![“地址”页面的示例。](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>“订单历史记录”和“订单详细信息”页
 
@@ -59,11 +60,11 @@ ms.locfileid: "6027955"
 
 下图显示 **订单历史记录** 页的示例。
 
-![“订单历史记录”页示例](./media/Account-Management-OrderHistory.PNG)
+![“订单历史记录”页面的示例。](./media/Account-Management-OrderHistory.PNG)
 
 下图显示 **订单详细信息** 页的示例。
 
-![“订单详细信息”页示例](./media/Account-Management-OrderDetails.PNG)
+![“订单详细信息”页面的示例。](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>“会员计划”页
 
@@ -71,7 +72,7 @@ ms.locfileid: "6027955"
 
 下图显示了 **会员计划** 页的示例。
 
-![“会员计划”页示例](./media/Account-Management-Loyalty.PNG)
+![“会员计划”页面的示例。](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>愿望列表页面
 
@@ -79,7 +80,7 @@ ms.locfileid: "6027955"
 
 下图显示了 **愿望列表** 页的示例。
 
-![“愿望列表”页示例](./media/Account-Management-Wishlist.PNG)
+![“愿望列表”页面的示例。](./media/Account-Management-Wishlist.PNG)
 
 有关帐户管理模块及其制作方法的详细信息，请参阅[帐户管理](account-management.md)。
 

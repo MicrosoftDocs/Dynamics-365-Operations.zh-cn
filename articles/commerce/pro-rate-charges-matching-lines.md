@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018598"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352172"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -56,9 +56,9 @@ ms.locfileid: "6018598"
 
 在此方案中，组织为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 没有为交货方式 **21** 配置自动费用。
 
-![关闭了匹配行按比例分配时交货方式 99 的自动费用](media/99_disabled.png)
+![关闭了匹配行按比例分配时交货方式 99 的自动费用。](media/99_disabled.png)
 
-![关闭了匹配行按比例分配时交货方式 11 的自动费用](media/11_disabled.png)
+![关闭了匹配行按比例分配时交货方式 11 的自动费用。](media/11_disabled.png)
 
 在呼叫中心创建一个销售订单，并将交货方式设置为 **99**。 此订单中包含五个项。 已将两个订单号配置为使用交货方式 **99**，将两个行配置为使用交货方式 **11**，将一个行配置为使用交货方式 **21**，如下表中所示。
 
@@ -78,9 +78,9 @@ ms.locfileid: "6018598"
 
 在此方案中，为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 但是，为这些自动费用表把 **按比例分配给匹配的销售行** 选项设置为 **是**。
 
-![开启了匹配行按比例分配时交货方式 99 的自动费用](media/99_enabled.png)
+![打开了匹配行按比例分配时交货方式 99 的自动费用。](media/99_enabled.png)
 
-![开启了匹配行按比例分配时交货方式 11 的自动费用](media/11_enabled.png)
+![打开了匹配行按比例分配时交货方式 11 的自动费用。](media/11_enabled.png)
 
 此方案使用同一个包含五个行的销售订单。 订单抬头中的交货方式设置为 **99**，但是销售订单中各项的交货方式配置如下表。
 
@@ -130,9 +130,9 @@ ms.locfileid: "6018598"
     - 产品值总和 = $15
     - **费用值 = $0**（尚未为客户和交货方式的此组合配置任何自动费用。）
 
-    ![交货方式 11 费用在突出显示的层中](media/step2mode11.png)
+    ![交货方式 11 费用在突出显示的层中。](media/step2mode11.png)
 
-    ![交货方式 99 费用在突出显示的层中](media/step2mode99.png)
+    ![交货方式 99 费用在突出显示的层中。](media/step2mode99.png)
 
 3. 系统基于按比例分配逻辑（这种逻辑将考虑与组的产品值总和有关的行的按比例分配值）计算将为每个行应用的费用值。
 
@@ -163,7 +163,7 @@ ms.locfileid: "6018598"
 
 因此，对于此示例，将为项 81334 分配 $5.62 的运费。 可在销售行的 **维护费用** 页面中查看这些费用。 下图显示项 81334 的此页面的显示效果。
 
-![项 81334 的销售行的按比例分配费用](media/proratedlinecharge.png)
+![物料 81334 的销售行的按比例分配费用。](media/proratedlinecharge.png)
 
 如果在部分退货方案中使用这种计算方法，并且费用代码为可退款，则该项退货时仅为分配给该行的那部分费用退款。
 

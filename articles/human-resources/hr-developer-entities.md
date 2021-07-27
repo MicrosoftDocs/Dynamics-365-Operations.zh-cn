@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054348"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346290"
 ---
 # <a name="dataverse-tables"></a>Dataverse 表
 
@@ -152,27 +152,27 @@ Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集
 
 ### <a name="worker"></a>工作线程
 
-![工作线程](./media/HCMCommon-worker-entity-diagram.png)
+![工作人员。](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>工作和工作职位
 
-![工作和工作职位](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![工作和工作职位。](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
 ### <a name="benefits"></a>福利
 
-![福利](./media/HCMCommon-benefits-entity-diagram.png)
+![福利。](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>薪酬
 
-![薪酬](./media/HCMCommon-compensation-entity-diagram.png)
+![薪酬。](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>离开
+### <a name="leave"></a>休假
 
-![离开](./media/HCMCommon-leave-entity-diagram.png)
+![休假。](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>工作日历
 
-![工作日历](./media/HCMCommon-work-calendar-entity-diagram.png)
+![工作日历。](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>请参阅
 

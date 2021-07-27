@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025440"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353772"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>POS 中的库存查找操作
 
@@ -45,7 +45,10 @@ ms.locfileid: "6025440"
 
 位置列表视图包括在当前商店链接到的履行组中配置的所有商店和仓库，如以下示例图像所示。
 
-![库存查找操作列表视图](media/inventory-lookup-list-view.png)
+![库存查找操作列表视图。](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> 确保当前商店包括在关联的履行组中。
 
 POS 应用栏上提供以下操作：
 
@@ -65,7 +68,7 @@ POS 应用栏上提供以下操作：
 - **添加到交易** - 此操作将产品添加到购物车，并将用户重定向到交易屏幕。
 
 > [!NOTE]
-> 对于基于位置的排序，位置与当前商店之间的距离由 Commerce headquarters 中定义的坐标（纬度和经度）确定。 对于商店，位置信息在与商店关联的运营单位的主要地址中定义。 对于非商店仓库，位置信息在仓库地址中定义。 如果当前商店没有正确定义坐标，基于位置的排序选项将在列表顶部显示当前商店，然后按名称对其他位置进行排序。
+> 对于基于位置的排序，位置与当前商店之间的距离由 Commerce headquarters 中定义的坐标（纬度和经度）确定。 对于商店，位置信息在与商店关联的运营单位的主要地址中定义。 对于非商店仓库，位置信息在仓库地址中定义。 如果当前商店没有定义坐标，基于位置的排序选项将在列表顶部显示当前商店，然后按名称对其他位置进行排序。
 
 > [!NOTE]
 > **显示商店可用性**、**显示商店位置**、**店内提货** 和 **装运产品** 操作对非商店位置不可用。
@@ -76,7 +79,7 @@ POS 应用栏上提供以下操作：
 
 以下示例图像显示了 POS 中的库存查找矩阵视图。
 
-![库存查找操作矩阵视图](media/inventory-lookup-matrix-view.png)
+![库存查找操作矩阵视图。](media/inventory-lookup-matrix-view.png)
 
 在此矩阵视图中，每个单元代表一个单独的变型，在右下角显示现有库存量（实际可用）值，在左上角显示 **已预留**（实际预留）和 **已订购**（订购总量）值。 下表说明各个现有值的含义。
 
@@ -103,7 +106,7 @@ POS 用户可以从 POS 中的其他页面访问库存查找操作。
 
 以下示例图像显示了来自 POS 中的 PDP 的库存查找结果。
 
-![产品详细信息页中的查找库存](media/inventory-lookup-from-product-details-page.png)
+![产品详细信息页面中的库存查找。](media/inventory-lookup-from-product-details-page.png)
 
 在基础产品的 PDP 上，您可以使用应用栏上的 **查看所有变型** 操作启动库存查找矩阵视图，该视图显示当前商店中产品所有变型的库存可用性信息。 对于单个产品，PDP 显示当前商店中该产品的现有库存量（实际可用）值。 此外，您还可以选择 **其他商店库存** 链接启动库存查找操作，来检查产品在其他商店或仓库中的库存可用性。
 

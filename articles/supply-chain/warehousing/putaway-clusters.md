@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f681d08268bdf92212eb5e0c99532bb0827afe7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344162"
 ---
 # <a name="putaway-clusters"></a>储存群集
 
@@ -284,7 +284,7 @@ ms.locfileid: "5840357"
 
     您可以使用标准选项来替代或跳过此步骤。
 
-    ![“群集储存: 放置”页](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
+    ![“群集储存：放置”页面。](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
 
 1. 选择 **确定** 确认群集的储存。
 

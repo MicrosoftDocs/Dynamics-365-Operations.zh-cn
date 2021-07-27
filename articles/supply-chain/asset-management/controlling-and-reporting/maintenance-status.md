@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354966"
 ---
 # <a name="maintenance-status"></a>维护状态
 
@@ -57,13 +57,13 @@ ms.locfileid: "5808608"
 
 在下面的屏幕截图中，已激活 **年** 和 **月** 按钮。 选择这些 **分组依据** 选项后，您将获取基于与维护请求和工作订单关联的月工作负载和吞吐量的一般概览。 
 
-![月工作负载示例](media/13-controlling-and-reporting.png)
+![月工作负荷的示例。](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>示例 2
 
 在下面的屏幕截图中，已添加了有关功能位置的信息。 请注意，可以比较多个功能位置（可以是地理位置、工厂或工作区域）的工作负载和吞吐量。 
 
-![包含功能位置的月工作负载示例](media/14-controlling-and-reporting.png)
+![包含功能位置的月工作负荷的示例。](media/14-controlling-and-reporting.png)
 
 
 

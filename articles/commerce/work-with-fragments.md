@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350200"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -45,7 +45,7 @@ ms.locfileid: "5793937"
 
 下图显示如何使用片段在电子商务站点中集中创作共享模块配置。
 
-![显示如何使用片段在电子商务站点中集中创作共享模块配置的插图](./media/fragment-figure1.png)
+![显示如何使用片段在电子商务站点中集中创作共享模块配置的图示。](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>创建片段
 
@@ -62,7 +62,7 @@ ms.locfileid: "5793937"
 1. 在 **另存为片段** 对话框中，输入片段的名称。
 1. 选择 **确定** 将模块配置保存为可添加到其他页面的片段。
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>创建新片段
 
@@ -73,7 +73,7 @@ ms.locfileid: "5793937"
 1. 选择片段的模块类型。
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > 如果需要在以后更新和配置片段，则选择通用容器模块类型的灵活性最大。
 
@@ -88,14 +88,14 @@ ms.locfileid: "5793937"
 1. 在左侧的大纲窗格中或直接在可视页面构建器中，选择可向其添加子模块的容器或插槽。
 1. 选择容器或插槽名称旁边的省略号 (**...**)。  或者，如果使用可视页面构建器，请选择加号 (**+**)。  
 1. 选择 **添加片段**。
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > 如果容器或插槽不支持新的子模块，则 **添加片段** 选项不可用。
     
 1. 在 **选择片段** 对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
 1. 选择所需的片段以将其添加到页面上的容器或插槽中。
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > 容器或插槽中允许的模块由页面的模板或模块自己的定义定义。

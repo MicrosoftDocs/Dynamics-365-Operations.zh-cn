@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0ecb03d7d826fc6d79f1df800da22dc913177ee4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b65f23516d6be3d5d942d787261f5b8394c9f9c5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824862"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356943"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>将具有库存单位的产品从 Supply Chain Management 同步到 Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5824862"
 
 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的具有库存单位的产品的模板和基础任务。
 
-[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 所用 **具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）** 模板基于 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板。 有关详细信息，请参阅[将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品](field-service-product.md)。
 
@@ -59,7 +59,7 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>具有库存单位的 Field Service 产品（Supply Chain Management 到 Field Service）：产品
 
-[![数据集成中的模板映射](./media/FSProduct1.png)](./media/FSProduct1.png)
+[![数据集成中的模板映射。](./media/FSProduct1.png)](./media/FSProduct1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

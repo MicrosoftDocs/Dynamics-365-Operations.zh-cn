@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8b95975f5be9ef49eee2fd6c6ff1cbbde49c9336
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350586"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 
@@ -54,7 +54,7 @@ ms.locfileid: "5842241"
 
 下图显示了 **资产计数器** 页面的示例。
 
-![图 1](media/11-work-orders.png)
+![图 1.](media/11-work-orders.png)
 
 在 **资产计数器** 页面上（**资产管理** > **查询** > **资产** > **资产计数器**），您可以根据需要同时对多个资产进行计数器登记。
 

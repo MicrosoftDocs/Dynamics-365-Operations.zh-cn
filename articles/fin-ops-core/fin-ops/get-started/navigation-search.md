@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2fc57579f817d2735aaa94a5f6834185961dab39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd9b6239a8f5db51ab3f238593197408e641b782
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750220"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349100"
 ---
 # <a name="navigation-search"></a>导航搜索
 
@@ -34,7 +34,7 @@ ms.locfileid: "5750220"
 > [!NOTE]
 > **搜索** 框可帮助您查找并导航至页面。 它不会帮助您查找特定的数据或操作。
 
-[![搜索框](media/navigation-search.png "搜索框")
+[![搜索框。](media/navigation-search.png "搜索框")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>快速导航到特定页面
 

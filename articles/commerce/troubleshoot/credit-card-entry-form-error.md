@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ea9105481e6c5812565f0d3604906c905bcb5443
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 593c1bdb502330c5dc9f26254dbed809cea7651b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347384"
 ---
 # <a name="credit-card-entry-page-shows-an-error-at-checkout"></a>在结帐时信用卡录入页显示错误
 
@@ -32,7 +32,7 @@ ms.locfileid: "6018498"
 
 当您打开在线商店的结帐页面时，**付款方式** 部分未加载，并显示以下错误消息：“出了点问题。 请稍后重试。”
 
-![付款模块错误](media/payment-module-error.jpg)
+![付款模块错误。](media/payment-module-error.jpg)
 
 ## <a name="resolution"></a>解决方法
 

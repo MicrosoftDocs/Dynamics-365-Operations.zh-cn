@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353532"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 
@@ -56,7 +56,7 @@ ms.locfileid: "5921209"
     - **产品** – 如果您选择此值，则可以为基础产品设置单位转换。 此单位转换用作没有为其定义任何单位转换的所有产品变型的应变计划。
     - **产品变型** – 如果您选择此值，则可以为特定产品变型设置单位转换。 请使用 **产品变型** 字段选择变型。
 
-    ![添加新单位转换](media/uom-new-conversion.png "添加新单位转换")
+    ![添加新单位转换。](media/uom-new-conversion.png "添加新单位转换")
 
 1. 请使用提供的其他字段设置单位转换。
 1. 选择 **确定** 保存新单位转换。

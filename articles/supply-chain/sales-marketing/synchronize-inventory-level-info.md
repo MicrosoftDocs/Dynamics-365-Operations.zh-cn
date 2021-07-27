@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910267"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355893"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>将库存级别信息从 Supply Chain Management 同步到 Field Service 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910267"
 
 本主题讨论用于将 Dynamics 365 Supply Chain Management 中的库存水平信息同步到 Dynamics 365 Field Service 的模板和基础任务。
 
-[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 以下模板和基础任务用于将库存现有水平从 Supply Chain Management 同步到 Field Service。
@@ -89,7 +89,7 @@ Supply Chain Management 将充当库存水平的主水平。 因此，如果在 
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>产品库存（Supply Chain Management 到 Field Service）：产品库存
 
-[![数据集成中的模板映射](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+[![数据集成中的模板映射。](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

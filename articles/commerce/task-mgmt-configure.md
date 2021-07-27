@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354557"
 ---
 # <a name="configure-task-management"></a>配置任务管理
 
@@ -44,7 +44,7 @@ ms.locfileid: "5791692"
 
 下图显示如何为商店经理配置任务管理权限。
 
-![为商店经理配置任务管理权限](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![为商店经理配置任务管理权限。](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>为员工配置权限
 
@@ -78,7 +78,7 @@ ms.locfileid: "5791692"
 
 下图显示 **POS 操作** 页中的 **任务管理** 操作。
 
-![POS 操作页中的任务管理操作](media/HQ-POS-Tasks-Notifications.png)
+![POS 操作页面中的任务管理操作。](media/HQ-POS-Tasks-Notifications.png)
 
 有关如何配置 POS 通知的详细信息，请参阅[在销售点 (POS) 中显示订单通知](notifications-pos.md)。
 
@@ -95,13 +95,13 @@ ms.locfileid: "5791692"
 
 下图显示 POS 主页中的 **任务** 磁贴的示例。
 
-![POS 主页上的“任务”磁贴](media/POS-home-screen-tasks-button-image.png)
+![POS 主页上的“任务”磁贴。](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[任务管理概述](task-mgmt-overview.md)
+[任务管理概览](task-mgmt-overview.md)
 
-[创建任务列表和添加任务](task-mgmt-create-lists.md)
+[创建任务列表并添加任务](task-mgmt-create-lists.md)
 
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 

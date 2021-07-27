@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347800"
 ---
 # <a name="process-collection-letters-example"></a>处理催款单示例
 
@@ -40,7 +40,7 @@ ms.locfileid: "6021408"
 
 下图显示了表格中的信息，该信息与 **催款单** 页上显示的信息完全一样。 
 
-[![设置催款单序列](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![设置催款单序列。](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  现在，您必须设置此示例所需的两个参数。
 
@@ -49,7 +49,7 @@ ms.locfileid: "6021408"
     1. 在 **收款** 选项卡上，将 **忽略计算催款单代码时的付款及贷项通知单** 选项设置为 **是**。
     2. 确保将 **依据以下条件创建催款单** 字段设置为 **客户**。
 
-    [![设置信用收款的应收帐款参数](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![设置信用收款的应收帐款参数。](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. 转到 **应收帐款 \> 发票 \> 所有普通发票**，选择 **新建**，然后按照以下步骤执行操作：
 
@@ -74,7 +74,7 @@ ms.locfileid: "6021408"
 5. 重复步骤 4，但在 **单价** 字段中输入 **-200.00**。
 6. 转到 **应收帐款 \> 客户 \> 所有客户**，然后选择客户 **US-045**。 然后，在操作窗格上，选择 **交易 \> 交易** 以查看您先前过帐的客户交易。
 
-    [![查看已过帐的客户交易](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![查看已过帐的客户交易。](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     现在，您必须为客户 US-045 创建催款单。
 
@@ -93,7 +93,7 @@ ms.locfileid: "6021408"
 
     1. 请注意，抬头和交易行上的催款单代码均为 **催款单 1**，因为此催款单是序列中的第一个催款单。 （要查看交易行，您可能必须选择 **交易** 快速选项卡。）
 
-   [![验证相同的催款单代码是否会出现在抬头和行上](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![验证相同的催款单代码是否会出现在标头和行上。](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. 在操作窗格上，选择 **过帐**。
     3. 在 **过帐日期** 字段中，输入 **1/19/2021**。
@@ -115,7 +115,7 @@ ms.locfileid: "6021408"
 
     1. 请注意，抬头上的催款单代码为 **催款单 1**。 但是，交易行上的代码是 **催款单 2**。
 
-   [![验证不同的催款单代码是否会出现在抬头和行上](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![验证不同的催款单代码是否会出现在标头和行上。](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   因为 **忽略计算催款单代码时的付款及贷项通知单** 选项设置为 **是**，所以代码不同。
 
@@ -123,7 +123,7 @@ ms.locfileid: "6021408"
 
 11. 转到 **信用和收款 \> 设置 \> 应收帐款参数**，然后在 **收款** 选项卡上，将 **忽略计算催款单代码时的付款及贷项通知单** 选项设置为 **否**。
 
-    [![将“忽略计算催款单代码时的付款及贷项通知单”选项设置为“否”](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![将“忽略计算催款单代码时的付款及贷项通知单”选项设置为“否”。](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     现在，您必须再次为客户 US-045 创建收款单。
 
@@ -140,6 +140,6 @@ ms.locfileid: "6021408"
 
 13. 转到 **信用和收款 \> 催款单 \> 查看并处理催款单**，请注意，抬头和交易行上的催款单代码均为 **催款单 2**。
 
-    [![再次显示相同的催款单代码会出现在抬头和行上](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![再次显示相同的催款单代码会出现在标头和行上。](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     因为 **忽略计算催款单代码时的付款及贷项通知单** 选项现在设置为 **是**，所以这两个位置会出现相同的代码。

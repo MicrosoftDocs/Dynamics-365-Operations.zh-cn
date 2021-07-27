@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8d9b5e1248497ec74e1c7125b2395c0ed4c825c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cafe28e0aa71d623a728829ff1bf71bef5a132b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820513"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347192"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 
@@ -34,9 +34,9 @@ ms.locfileid: "5820513"
 有两种方法可以访问收入确认计划的详细信息。
 
 - 您可以直接从已开票的销售订单打开收入确认计划。 在此情况下，将会对收入计划中的信息进行筛选以仅显示选定销售订单的详细信息。 在验证销售订单的计划详细信息时，此方法很有用。
-- 您可以从 **收入确认 \> 定期任务** 页面打开收入确认计划。 在期末确认收入时，通常使用此方法。 首次打开页面时，不会显示任何信息。 请使用网格上面的筛选器，为应显示的计划详细信息定义条件。 您可以通过在账单日期中输入日期范围、销售订单、客户、项目 ID 或状态来进行筛选。
+- 您可以从 **收入确认 \> 定期任务** 页面打开收入确认计划。 在期末确认收入时，通常使用此方法。 首次打开页面时，不会显示任何信息。 请使用网格上面的筛选器，为应显示的计划详细信息定义条件。 您可以通过在发票日期中输入日期范围、销售订单、客户、项目 ID 或状态来进行筛选。
 
-[![收入计划页面插图](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![收入计划页面插图。](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 网格下面的 **财务维度** 快速选项卡显示销售订单行的财务维度。 过帐到延期收入期间会考虑这些维度。 确认收入时也会考虑这些维度。 使用的维度值取决于分配给收入和延期收入主科目的科目结构。
 
@@ -46,7 +46,7 @@ ms.locfileid: "5820513"
 
 若要定义用于选择和过帐收入的条件，请选择 **创建日记帐** 以打开 **创建日记帐** 对话框。
 
-[![创建日记帐参数选项](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![创建日记帐参数选项。](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 在该对话框中，使用 **处理日期** 字段组中的选项定义在确认收入时使用的过帐日期。 如果您选择 **所选日期**，则可以在 **交易记录日期** 字段中输入过帐日期。 如果您选择 **收入计划日期**，则不使用交易记录日期。 计划的每行中 **确认日期** 字段的值将用作过帐日期。
 
@@ -56,11 +56,11 @@ ms.locfileid: "5820513"
 
 运行该流程之后，计划中已转移到日记帐的行将标记为 **已处理**。 **已处理** 标记指示行已转移到日记帐，但它们可能已过帐，也可能未过帐。 在过帐收入确认日记帐之后，**已处理** 标记仍将存在。 如果删除了收入确认日记帐，或者删除了行，则 **已处理** 标记将会被移除。 这样，当再次运行 **创建日记帐** 流程时，可以确认该行。
 
-[![收入确认计划页面](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![收入确认计划页面。](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 在 **收入确认日记帐** 页面上（**收入确认 \> 日记帐条目 \> 收入确认日记帐**），请打开 **行** 以查看要确认的内容的详细信息。 对于要确认的计划的每一行，始终将会创建一条单独的交易记录，即使所有行都将在同一个日期使用相同的会计科目进行过帐也是如此。
 
-[![日记帐凭证页面](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![日记帐凭证页面。](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 **科目** 列显示延期收入的会计科目。 此会计科目无法进行编辑。 此限制有助于确保将解除正确的延期收入会计科目。 此会计科目不会针对科目结构进行验证，因为它在上次过帐到引用的收入会计科目之后，可能已经更改。
 
@@ -82,7 +82,7 @@ ms.locfileid: "5820513"
 
 - **暂停** - 可以在处理行之前设置或清除此标记。 若要清除该标记，请选择相应行，然后选择 **移除暂停**。 处于暂停状态的行中的收入无法进行确认。 如果收入计划设置为自动暂停，则行可以自动置于暂停状态。
 
-    [![收入计划 - 编辑计划行](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![收入计划 - 编辑计划行。](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **确认日期** - 可以在处理行之前更改确认日期。 对于创建日记帐以确认收入的流程，如果运行该流程，则将在 **确认收入截止日期** 字段中输入日期。 该日期将与 **确认日期** 字段中的日期相比以确定应确认哪些行。
 - **要发放的金额** - 将发放的金额可以在处理行之前进行更改。 您可以减少确认的收入金额，但不能增加该金额。 此字段允许组织于确认日期确认收入的一部分。 如果更改金额，则 **余额** 字段中的金额将显示仍必须确认的收入金额。
@@ -94,18 +94,18 @@ ms.locfileid: "5820513"
 
 若要更改该计划，请选择要更改的物料的任何计划行。 在下图中，选择了使用 12 个月收入计划过帐的物料 S0008 的行。 选择 **更新合同条款** 后，将会显示一个对话框，其中说明了合同的开始日期和结束日期以及收入计划。
 
-[![合同开始日期和结束日期](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![合同开始日期和结束日期。](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 更改合同的开始日期和结束日期，以便反映正确的日期范围。 更改日期范围时，**发生次数** 字段中的值必须匹配系统中定义的收入计划。 在此示例中，由于合同已更改为 24 个月合同，则必须设置 24 个月收入计划。 由于存在 24 个月收入计划，因此默认会输入该计划并且可以更改该合同。 如果不存在具有匹配发生次数的收入计划，则无法更改该合同。 根据需要完成合同条款和收入计划更新后，请选择对话框中的 **确定** 以保存所做的更改。
 
-[![更新的合同日期范围](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![更新的合同日期范围。](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 合同更改对收入计划详细信息具有以下影响：
 
 - 如果未确认该产品的任何收入，则所有先前的计划详细信息都将移除并替换为新的收入计划详细信息。 例如，计划详细信息中的物料 S0008 最初具有 12 行。 根据新的收入计划，这 12 行都已移除并替换为 24 行。
 - 如果已确认产品的收入，则某些收入并没有得到正确确认，因为确认基于错误的收入计划。 这些行必须进行冲销并根据新的计划再次确认。 在此情况下，将会创建在原始确认日期具有负金额的新收入计划行。 然后，将创建新行以基于新收入计划确认金额。 例如，在 2019 年 8 月 8 日，您确认了 10.53 美元的收入。 在 2019 年 9 月 8 日，您确认了 13.16 美元的收入。 因此，将在相同的日期创建两个新行。 一行表示 -10.53 美元，另一行表示 -13.16 美元。 然后，将创建 24 个新行，并分配跨这些行的总延期收入 160.61 美元。 您可以通过运行 **创建日记帐** 流程来过帐冲销行。
 
-[![收入确认计划](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+[![收入确认计划。](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

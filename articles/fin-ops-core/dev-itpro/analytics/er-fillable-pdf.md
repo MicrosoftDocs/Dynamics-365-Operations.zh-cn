@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355410"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
@@ -115,11 +115,11 @@ ms.locfileid: "5753280"
 
 下图显示报表第一页的 PDF 模板。
 
-![模板 1](media/rcs-ger-filloutpdf-template1.png)
+![模板 1.](media/rcs-ger-filloutpdf-template1.png)
 
 下图显示报表其他页的 PDF 模板。
 
-![模板 2](media/rcs-ger-filloutpdf-template2.png)
+![模板 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. 在 **配置** 页上，选择 **设计器**。
 2. 选择 **添加根**。
@@ -146,7 +146,7 @@ ms.locfileid: "5753280"
 
 12. 选择 **确定**。
 
-    ![“从 PDF 导入”对话框](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![“从 PDF 导入”对话框。](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. 在树中，展开 **输出**。
 
@@ -176,7 +176,7 @@ ms.locfileid: "5753280"
 
     请注意，导入的 PDF 文档已附加到编辑后的 ER 格式。
 
-    ![PDF 附件预览](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF 附件预览。](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. 继续设计此格式，方法是导入第二个 PDF 模板，向数据源添加必要的绑定等。
 20. 选择 **保存**。
@@ -215,7 +215,7 @@ ms.locfileid: "5753280"
 1. 在 **格式设计器** 页中，选择 **映射** 选项卡。
 2. 在树中，展开 **分页 \> 页面**。
 
-    ![其中展开了模型树的配方设计器页](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![展开了模型树的公式设计器页面。](media/rcs-ger-filloutpdf-reviewformat.png)
 
     注意以下详细信息：
 
@@ -238,7 +238,7 @@ ms.locfileid: "5753280"
 
     请注意，此格式元素的 **名称** 属性定义为 **Correction 1**。 另请注意，格式元素的 **Name** 表达式定义为 **Paging.FldName("Correction",\@.Number)**。
 
-![其中选择了映射的格式设计器](media/rcs-ger-filloutpdf-reviewformat2.png)
+![选择了映射的格式设计器。](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 请注意，**字段** 格式元素用于填写定义为 **PDF 文件** 格式父元素的模板的可填写 PDF 文档的单个字段。 **PDF 文件** 格式元素或其嵌套元素（如果有任何嵌套元素）的绑定指定在相应 PDF 字段中输入的值。 **字段** 格式元素的不同属性可用于指定单个格式元素填充哪个 PDF 字段：
 
@@ -275,7 +275,7 @@ ms.locfileid: "5753280"
 
     如果 **模型映射的默认值** 选项设置为 **是**，则将导入的 **内部统计（从 Excel 导入）** ER 格式指定为 **内部统计报表 (PDF)** 格式配置的默认数据源。 然后，在运行 **内部统计报表 (PDF)** 格式配置时，**内部统计（从 Excel 导入）** ER 格式解析的 Excel 工作簿的内容将模拟必须报告的外贸交易记录。 下图显示了一个 Excel 工作簿的示例。
 
-    ![包含示例数据的 Excel 工作簿](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![包含示例数据的 Excel 工作簿。](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>运行格式配置
 
@@ -289,11 +289,11 @@ ms.locfileid: "5753280"
 
 下图显示生成的报表的第一页的示例。
 
-![生成的报表的第一页](media/rcs-ger-filloutpdf-generatedreport.png)
+![生成报表的第一页。](media/rcs-ger-filloutpdf-generatedreport.png)
 
 下图显示生成的报表的另一页的示例。
 
-![生成的报表的另一页](media/rcs-ger-filloutpdf-generatedreport2.png)
+![生成报表的另一页。](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>其他资源
 

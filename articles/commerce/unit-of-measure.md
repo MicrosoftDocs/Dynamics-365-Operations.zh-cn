@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271393"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350320"
 ---
 # <a name="apply-unit-of-measure-settings"></a>应用度量单位设置
 
@@ -32,7 +32,7 @@ ms.locfileid: "6271393"
 
 在下图中的示例中，已在 Commerce headquarters 中为产品配置了销售度量单位 **ea**（每个）。
 
-![在 Commerce headquarters 中配置了度量单位的产品示例](./media/Productunit-headquarters.PNG)
+![在 Commerce Headquarters 中配置了度量单位的产品的示例。](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > 从 Commerce 版本 10.0.19 开始提供应用和显示度量单位的支持。
@@ -54,11 +54,11 @@ ms.locfileid: "6271393"
 
 在下图的示例中，产品详细信息页 (PDP) 为产品显示了度量单位 (**ea**)。
 
-![显示度量单位的 PDP 示例](./media/Productunit-PDP.png)
+![显示度量单位的 PDP 的示例。](./media/Productunit-PDP.png)
 
 在下图的示例中，产品集合模块为产品显示了度量单位 (**ea**)。
 
-![显示度量单位的产品集合模块的示例](./media/Productunit-productcollection.png)
+![显示度量单位的产品集合模块的示例。](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>其他资源
 

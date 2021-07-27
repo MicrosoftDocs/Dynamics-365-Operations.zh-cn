@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751768"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350686"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 
@@ -156,7 +156,7 @@ ms.locfileid: "5751768"
 
     - **单个审核人**– 应用到文档的操作将由第一个响应的人员决定。 例如，Sam 提交了一份 15,000 美元的支出报表。 该支出报表当前分配给 Sue、Jo 和 Bill。 如果 Sue 是第一个响应该文档的人员，则她采取的操作将应用到该文档。 如果素心拒绝了单据，该单据将被拒绝并发还建豪。 如果 Sue 批准了文档，该文档将发送给 Ann 进行审核。
 
-        ![具有审核流程的工作流](./media/workflow_multipleusersinstep.gif)
+        ![具有审批流程的工作流。](./media/workflow_multipleusersinstep.gif)
 
     - **大多数审核人**– 应用到文档的操作将由大多数响应的人员决定。 例如，Sam 提交了一份 15,000 美元的支出报表。 该支出报表当前分配给 Sue、Jo 和 Bill。 如果前两个响应的审核人是 Sue 和 Jo，则他们采取的操作将应用到该文档。
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d9cecb3598e0686192d394903e8bb58d304a7665
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023050"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349944"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金主管机构
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023050"
 
 1. 转到 **税 \> 间接税 \> 预缴税金主管机构**。
 
-    [![预缴税金主管机构页面](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![预缴税金主管机构页面。](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. 在 **税务类型** 字段中，选择 **TDS** 为 TDS 税务类型设置预缴税金主管机构。
 3. 在“操作窗格”中，选择 **新建** 创建一行。

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347558"
 ---
 # <a name="container-module"></a>容器模块
 
@@ -42,7 +42,7 @@ ms.locfileid: "5797783"
 
 下图显示了 Commerce 站点构建器中包含传送模块的容器模块的示例。 在此示例中，容器模块的 **宽度** 属性设置为 **填充屏幕**。
 
-![容器模块的示例](./media/ecommerce-container.PNG)
+![容器模块的示例。](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>容器模块属性
 

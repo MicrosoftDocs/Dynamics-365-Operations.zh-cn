@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 38ee9db94b3b222e8c0ce5d0883f47bd5d3e7d22
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f24ee67cd140fe75d65442484f673b17d32c1f93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796914"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354533"
 ---
 # <a name="task-management-in-pos"></a>POS 中的任务管理
 
@@ -44,15 +44,15 @@ ms.locfileid: "5796914"
 
 下图显示 Commerce POS 应用程序中的 **我的任务** 选项卡。
 
-![Commerce POS 应用程序中的“我的任务”选项卡](media/POS-task-management.png)
+![Commerce POS 应用程序中的“我的任务”选项卡。](media/POS-task-management.png)
 
 下图显示 **任务列表** 选项卡。
 
-![Commerce POS 应用程序中的“任务列表”选项卡](media/POS-task-lists-management.png)
+![Commerce POS 应用程序中的“任务列表”选项卡。](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[任务管理概述](task-mgmt-overview.md)
+[任务管理概览](task-mgmt-overview.md)
 
 [配置任务管理](task-mgmt-configure.md)
 

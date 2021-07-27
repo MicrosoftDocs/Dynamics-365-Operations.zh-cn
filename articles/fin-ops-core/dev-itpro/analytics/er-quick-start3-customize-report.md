@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b2b22d6e18974ed600dae6501ec103a49876d2db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893292"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345904"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>自定义电子报告配置以生成电子单据
 
@@ -106,7 +108,7 @@ ms.locfileid: "5893292"
 5. 在 **版本** 快速选项卡中，选择版本 **11.2.2**。
 6. 选择 **导入** 以从全局存储库中下载所选版本。
 
-![配置存储库页面](./media/er-quick-start3-import-solution1.png)
+![配置存储库页面。](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > 如果在访问[全球存储库](er-download-configurations-global-repo.md)时遇到问题，可改为从 Microsoft Dynamics Lifecycle Services (LCS)[ 下载配置](download-electronic-reporting-configuration-lcs.md)。
@@ -120,7 +122,7 @@ ms.locfileid: "5893292"
 
 请注意，除了所选的 **Peppol 销售发票** ER 格式，还导入了其他必需的 ER 配置。 因为将向全局存储库和 LCS 不断发布 ER 配置的新版本以使相应的解决方案符合新要求，因此导入了所需的[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)配置及其[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)配置的最新版本。
 
-![配置页面](./media/er-quick-start3-imported-solution1a.png)
+![配置页面。](./media/er-quick-start3-imported-solution1a.png)
 
 若要在之前已导入 **Peppol 销售发票** ER 格式的版本 **11.2.2**（例如 2019 年 8 月 7 日）的情况下模拟 ER 配置在当前 Finance 实例中的状态，请按照以下步骤操作。
 
@@ -134,7 +136,7 @@ ms.locfileid: "5893292"
     - 版本 11 包含[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components) ER 组件的版本 10，用于表示开票业务域的数据结构。 此 ER 配置已导入，作为选择导入的 **Peppol 销售发票** ER 格式的上级。
     - 版本 50 包含数据模型 ER 组件的版本 31。 此 ER 配置已导入，作为 **发票模型映射** ER 模型映射配置的 2019 年 8 月 7 日版本的上级。
 
-    ![“配置”页面上的发票模型 ER 数据模型配置](./media/er-quick-start3-imported-solution1b1.png)
+    ![“配置”页面上的发票模型 ER 数据模型配置。](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > 如果看不到该数据模型的版本 50，请打开全局存储库，然后导入 **发票模型映射** ER 配置的版本 50.19。
@@ -143,7 +145,7 @@ ms.locfileid: "5893292"
 
     - 版本 50.19 已导入，作为 **发票模型** ER 数据模型配置的版本 50 的最新实现。 它包含两个[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components) ER 组件，用于描述在运行时如何使用应用程序数据填充数据模型。
 
-    ![“配置”页面上的发票模型映射 ER 模型映射配置](./media/er-quick-start3-imported-solution1b2.png)
+    ![“配置”页面上的发票模型映射 ER 模型映射配置。](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > 如果看不到该模型映射的版本 50.19，请打开全局存储库，然后导入 **发票模型映射** ER 配置的版本 50.19。
@@ -156,7 +158,7 @@ ms.locfileid: "5893292"
 
     - 版本 11.2.2 包含格式和格式映射 ER 组件，它们配置为生成泛欧洲 Public Procurement OnLine (PEPPOL) 格式的电子发票。
 
-    ![“配置”页面上的 Peppol 销售发票 ER 格式配置](./media/er-quick-start3-imported-solution1b3.png)
+    ![“配置”页面上的 Peppol 销售发票 ER 格式配置。](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>配置应收帐款参数
 
@@ -164,7 +166,7 @@ ms.locfileid: "5893292"
 2. 在 **电子单据** 选项卡上，在 **电子报告** 快速选项卡上，在 **销售和普通发票** 字段中，选择 **Peppol 销售发票**。
 3. 选择 **保存**。
 
-![应收帐款参数页面上的电子单据选项卡](./media/er-quick-start3-configure-ar1.png)
+![应收帐款参数页面上的电子文档选项卡。](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>配置法人参数
 
@@ -216,7 +218,7 @@ ms.locfileid: "5893292"
 
 5. 选择 **保存**。
 
-![普通发票页面](./media/er-quick-start3-add-invoice.png)
+![普通发票页面。](./media/er-quick-start3-add-invoice.png)
 
 有关详细信息，请参阅[创建普通发票](../../../finance/accounts-receivable/create-free-text-invoice-new.md)。
 
@@ -226,14 +228,14 @@ ms.locfileid: "5893292"
 2. 在 **普通发票** 页面上，在“操作”窗格上，选择 **过帐**。
 3. 在 **过帐普通发票** 对话框中，选择 **确定**。
 
-![普通发票详细信息页面](./media/er-quick-start3-post-invoice.png)
+![普通发票详细信息页面。](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>发送一个已过帐发票
 
 1. 转至 **应收帐款** \> **发票** \> **所有普通发票**。
 2. 在 **普通发票** 页面上，在“操作”窗格的 **单据** 组中，选择 **发送** \> **原始**。
 
-    ![原始发票预览](./media/er-quick-start3-send-invoice.png)
+    ![原始发票的预览。](./media/er-quick-start3-send-invoice.png)
 
 3. 关闭 **普通发票** 页面。
 
@@ -243,12 +245,12 @@ ms.locfileid: "5893292"
 2. 在 **电子报告作业** 页面上，选择具有任务描述 **发送电子发票 XML** 的初始记录。
 3. 选择 **显示文件** 以访问生成的文件列表。
 
-    ![电子报告作业页面](./media/er-quick-start3-jobs-list.png)
+    ![电子报告作业页面。](./media/er-quick-start3-jobs-list.png)
 
 4. 选择 **打开** 以下载生成的电子发票 XML 文件。
 5. 分析电子发票 XML 文件。 请注意，客户税架构当前由 **schemeID** 和 **schemeAgencyID** XML 属性表示。 另请注意，**cbc:CustomizationID** XML 元素当前包含以下文本：`urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`。
 
-    ![生成的电子发票 XML 文件预览](./media/er-quick-start3-e-invoice1.png)
+    ![生成的电子发票 XML 文件的预览。](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>添加自定义数据库字段
 
@@ -280,7 +282,7 @@ ms.locfileid: "5893292"
 12. 在显示的消息框中，选择 **是** 以确认您要为 **客户** 表创建新的 **FederalTaxID** 字段输入。
 13. 选择 **插入** 以 <a name="insert_custom_field"></a>向当前页面添加 **FederalTaxID\_Custom** 字段。
 
-    ![所有客户页面](./media/er-quick-start3-create-new-field.gif)
+    ![所有客户页面。](./media/er-quick-start3-create-new-field.gif)
 
 14. 关闭 **所有客户** 页面。
 
@@ -310,7 +312,7 @@ ms.locfileid: "5893292"
 
 现在，您可以使用 ER 数据模型设计器在 **草稿**[状态](general-electronic-reporting.md#component-versioning)下编辑 **发票模型 (Litware)** ER 配置的版本 50.1。
 
-![“配置”页面上的 ER 配置的版本 50.1](./media/er-quick-start3-added-custom-model.png)
+![“配置”页面上的 ER 配置的版本 50.1。](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>配置自定义数据模型
 
@@ -326,7 +328,7 @@ ms.locfileid: "5893292"
 8. 在 **物料类型** 字段中，接受默认值 **字符串**。
 9. 选择 **添加**，然后选择 **保存**。
 
-    ![数据模型设计器页面](./media/er-quick-start3-add-data-model-field.png)
+    ![数据模型设计器页面。](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > **标签** 和 **描述** 字段描述了新字段的目的。 您可以用多种语言填写这些字段。 有关详细信息，请参阅[在电子报告中设计多语言报告](er-design-multilingual-reports.md)。
@@ -343,7 +345,7 @@ ms.locfileid: "5893292"
 
 版本 50.1 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 50.2，其状态为 **草稿**。 您可以使用此版本在自定义 ER 数据模型配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 50.1](./media/er-quick-start3-completed-custom-model1.png)
+![在“配置”页面上完成的版本 50.1。](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>自定义模型映射配置
 
@@ -363,7 +365,7 @@ ms.locfileid: "5893292"
 
 7. 选择 **创建配置** 以添加新 ER 配置。
 
-![在“配置”页面上添加自定义模型映射配置](./media/er-quick-start3-adding-custom-mapping.png)
+![在“配置”页面上添加自定义模型映射配置。](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>配置自定义模型映射
 
@@ -374,7 +376,7 @@ ms.locfileid: "5893292"
 3. 在操作窗格上，选择 **设计器**。
 4. 在 **模型到数据源映射** 页面上，选择 **客户发票** 映射。
 
-    ![模型到数据源映射页面](./media/er-quick-start3-select-customer-mapping.png)
+    ![模型到数据源映射页面。](./media/er-quick-start3-select-customer-mapping.png)
 
 5. 选择 **设计器**。
 6. 在 **模型映射设计器** 页面上，在 **数据源** 窗格中，展开表示 **CustInvoiceJour** 应用程序表的 **CustInvoiceJour** 数据源。
@@ -384,7 +386,7 @@ ms.locfileid: "5893292"
 10. 在 **数据模型** 窗格中，展开 **客户信息（客户）**，然后选择 **FederalTaxID\_Litware** 数据模型字段。
 11. 选择 **绑定**。
 
-    ![模型映射设计器页面](./media/er-quick-start3-customize-model-mapping.gif)
+    ![模型映射设计器页面。](./media/er-quick-start3-customize-model-mapping.gif)
 
 12. 选择 **保存**。
 13. 关闭 **模型映射设计器** 页。
@@ -400,7 +402,7 @@ ms.locfileid: "5893292"
 
 版本 50.19.1 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 50.19.2，其状态为 **草稿**。 您可以使用此版本在自定义 ER 模型映射配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 50.19.1](./media/er-quick-start3-completed-custom-mapping1.png)
+![在“配置”页面上完成的版本 50.19.1。](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > 支持的配置[生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)不包含数据库更改的生命周期。 如果您从当前 Finance 实例中导出 **发票模型映射 (Litware)** 配置的版本 50.19.1，并尝试将其导入在 **CustTable** 表中不包含自定义 **FederalTaxID\_Custom** 字段的另一个实例，将发生异常。 该异常指出导入的 ER 配置与目标 Finance 实例的元数据不兼容。
@@ -424,11 +426,11 @@ ms.locfileid: "5893292"
 7. 在 **数据模型** 字段中，选择 **InvoiceCustomer** 根定义。
 8. 选择 **创建配置** 以添加新 ER 配置。
 
-![在“配置”页面上添加自定义格式配置](./media/er-quick-start3-adding-custom-format.png)
+![在“配置”页面上添加自定义格式配置。](./media/er-quick-start3-adding-custom-format.png)
 
 现在，您可以使用 ER Operations 设计器在 **草稿**[状态](general-electronic-reporting.md#component-versioning)下编辑 **Peppol 销售发票 (Litware)** ER 配置的版本 11.2.2.1。
 
-![“配置”页面上的 ER 配置的版本 11.2.2.1](./media/er-quick-start3-added-custom-format.png)
+![“配置”页面上的 ER 配置的版本 11.2.2.1。](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>配置自定义格式
 
@@ -444,7 +446,7 @@ ms.locfileid: "5893292"
 8. 在格式树中，在 **XMLHeader** \> **发票** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** 下，选择 **FederalTaxID**。
 9. 选择 **上移**。
 
-![格式设计器页面上的新格式元素](./media/er-quick-start3-customized-format.png)
+![格式设计器页面上的新格式元素。](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>配置自定义格式映射
 
@@ -452,7 +454,7 @@ ms.locfileid: "5893292"
 2. 在 **发票** 下，展开 **客户信息（客户）**，然后选择 **FederalTaxID\_Litware**。
 3. 选择 **绑定**。
 
-    ![“格式设计器”页面](./media/er-quick-start3-customized-format-mapping.png)
+    ![“格式设计器”页面。](./media/er-quick-start3-customized-format-mapping.png)
 
 4. 选择 **模型** 类型的 **发票** 数据源，然后选择 **编辑**。
 5. 在 **版本** 字段中，选择自定义数据模型的版本 **1**，然后选择 **确定**。
@@ -469,7 +471,7 @@ ms.locfileid: "5893292"
 
 版本 11.2.2.1 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 11.2.2.2，其状态为 **草稿**。 您可以使用此版本在自定义 ER 格式配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 11.2.2.1](./media/er-quick-start3-completed-custom-format1.png)
+![在“配置”页面上完成的版本 11.2.2.1。](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>配置应收帐款参数以开始使用自定义 ER 配置
 
@@ -477,7 +479,7 @@ ms.locfileid: "5893292"
 2. 在 **电子单据** 选项卡上，在 **电子报告** 快速选项卡上，在 **销售和普通发票** 字段中，选择 **Peppol 销售发票 (Litware)**。
 3. 选择 **保存**。
 
-![应收帐款参数页面、电子单据选项卡、电子报告快速选项卡](./media/er-quick-start3-configure-ar2.png)
+![应收帐款参数页面、电子文档选项卡、电子报告快速选项卡。](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>通过添加联邦纳税标识代码来更新客户记录
 
@@ -486,7 +488,7 @@ ms.locfileid: "5893292"
 3. 在 **常规** 快速选项卡上，在 **税号标识** 字段中，输入 **LITWARE-6789**。
 4. 选择 **保存**。
 
-    ![DE-014 客户详细信息页面](./media/er-quick-start3-added-tax-id-value.png)
+    ![DE-014 客户详细信息页面。](./media/er-quick-start3-added-tax-id-value.png)
 
 5. 关闭 **所有客户** 页面。
 
@@ -507,7 +509,7 @@ ms.locfileid: "5893292"
 4. 选择 **打开** 以下载生成的电子发票 XML 文件。
 5. 分析电子发票 XML 文件。 请注意，根据您的自定义，除了 **schemeID** 和 **schemeAgencyID** XML 属性，客户税架构还包括自定义 **FederalTaxID** XML 属性。 此新 XML 属性的值由为已开票客户输入的 **LITWARE-6789** 税号标识指定。
 
-    ![具有您的自定义的已生成电子发票 XML 文件预览](./media/er-quick-start3-e-invoice2.png)
+    ![具有您的自定义的已生成电子发票 XML 文件的预览。](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>导入标准 ER 配置的最新版本
 
@@ -520,7 +522,7 @@ ms.locfileid: "5893292"
 5. 在 **版本** 快速选项卡上，选择所选 ER 格式配置的版本 **32.6.7**，该版本已发布以支持 PEPPOL BIS 3 格式的客户电子发票。 有关详细信息，请参阅 [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic)。
 6. 选择 **导入** 将所选版本从全局存储库下载到当前 Finance 实例。
 
-![在配置存储库页面上选择的版本 32.6.7](./media/er-quick-start3-import-solution2.png)
+![在配置存储库页面上选择的版本 32.6.7。](./media/er-quick-start3-import-solution2.png)
 
 有关如何自动执行此过程的信息，请参阅[导入 ER 配置的更新版本](er-download-updated-versions-global-repo.md)。
 
@@ -541,13 +543,13 @@ ms.locfileid: "5893292"
 
     - 版本 206（或更高版本）包含数据模型 ER 组件的版本 24（或更高版本），用于表示开票业务域的数据结构。 此 ER 配置已导入，作为可用的最新 **发票模型映射** ER 模型映射配置的上级。
 
-    ![“配置”页面上的版本 206](./media/er-quick-start3-imported-solution2b1.png)
+    ![“配置”页面上的版本 206。](./media/er-quick-start3-imported-solution2b1.png)
 
 - **发票模型映射** ER 模型映射配置：
 
     - 版本 206.132（或更高版本）已导入，作为 **发票模型** ER 数据模型配置的版本 206 的最新实现。 它包含若干模型映射 ER 组件，用于描述在运行时如何使用应用程序数据填充数据模型。
 
-    ![“配置”页面上的版本 206.132](./media/er-quick-start3-imported-solution2b2.png)
+    ![“配置”页面上的版本 206.132。](./media/er-quick-start3-imported-solution2b2.png)
 
 - **UBL 销售发票** ER 格式配置：
 
@@ -557,7 +559,7 @@ ms.locfileid: "5893292"
 
     - 版本 32.6.7 包含格式和格式映射 ER 组件，它们配置为生成 PEPPOL 格式的电子发票。
 
-    ![“配置”页面上的版本 32.6.7](./media/er-quick-start3-imported-solution2b3.png)
+    ![“配置”页面上的版本 32.6.7。](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>在您的自定义 ER 配置中采用对新标准 ER 配置所做的更改
 
@@ -577,7 +579,7 @@ ms.locfileid: "5893292"
 
 版本 206.2 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 206.3，其状态为 **草稿**。 您可以使用此版本在自定义 ER 数据模型配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 206.2](./media/er-quick-start3-completed-custom-model2.png)
+![在“配置”页面上完成的版本 206.2。](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>采用您的自定义 ER 模型映射
 
@@ -590,12 +592,12 @@ ms.locfileid: "5893292"
 
     请注意，发现了一些重定基本版本冲突。 现在，您必须手动解决这些冲突。
 
-    ![“配置”页面上的重定基本版本冲突消息](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![“配置”页面上的重定基本版本冲突消息。](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. 在“操作”窗格上，选择 **设计器**，然后在映射列表中，选择 **客户发票**。
 6. 对于每个重定基本版本冲突，选择 **保留自定义值**，因为您必须为提及的每个组件保留自定义数据模型的版本号。
 
-    ![模型映射设计器页面上的重定基本版本冲突](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![模型映射设计器页面上的重定基本版本冲突。](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. 选择 **保存**，然后关闭 **模型映射设计器** 页面。
 8. 在映射列表中，选择 **项目发票**。
@@ -609,7 +611,7 @@ ms.locfileid: "5893292"
 
 版本 206.132.2 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 206.132.3，其状态为 **草稿**。 您可以使用此版本在自定义 ER 模型映射配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 206.132.2](./media/er-quick-start3-completed-custom-mapping2.png)
+![在“配置”页面上完成的版本 206.132.2。](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>采用您的自定义 ER 格式
 
@@ -637,7 +639,7 @@ ms.locfileid: "5893292"
 
 版本 32.6.7.2 的状态将从 **草稿** 更改为 **已完成**，并且该版本变为只读。 添加了一个新的可编辑版本 32.6.7.3，其状态为 **草稿**。 您可以使用此版本在自定义 ER 格式配置中进行进一步更改。
 
-![在“配置”页面上完成的版本 32.6.7.2](./media/er-quick-start3-completed-custom-format2.png)
+![在“配置”页面上完成的版本 32.6.7.2。](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>使用自定义 ER 配置的新版本处理客户发票
 
@@ -660,7 +662,7 @@ ms.locfileid: "5893292"
 4. 选择 **打开** 以下载生成的电子发票 XML 文件。
 5. 分析电子发票 XML 文件。 请注意，根据您的自定义，除了 **schemeID** 和 **schemeAgencyID** XML 属性，客户税架构仍然包含自定义 **FederalTaxID** XML 属性。 另外，因为基本 **UBL 销售发票** 格式的新版本中的更改已与您的自定义合并，因此 **cbc:CustomizationID** XML 元素的文本已从 `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` 更改为 `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`。
 
-    ![具有自定义的已生成电子发票 XML 文件预览](./media/er-quick-start3-e-invoice3.png)
+    ![具有自定义的已生成电子发票 XML 文件的预览。](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>其他资源
 

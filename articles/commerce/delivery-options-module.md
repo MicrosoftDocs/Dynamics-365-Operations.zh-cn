@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350442"
 ---
 # <a name="delivery-options-module"></a>交付选项模块
 
@@ -41,7 +41,7 @@ Fabrikam 主题支持混合交货方式，有些商品被选出进行装运，�
 
 下图显示了结帐页上的交货选项模块的示例。
 
-![结帐页上的交货选项模块的示例](./media/ecommerce-deliveryoptions.PNG)
+![结帐页面上的交货选项模块的示例。](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>交货选项模块属性
 

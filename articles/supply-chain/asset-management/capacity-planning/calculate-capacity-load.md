@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351625"
 ---
 # <a name="calculate-capacity-load"></a>计算产能负荷
 
@@ -53,7 +53,7 @@ ms.locfileid: "5821721"
 
 7. 在 **分组依据...** 组中，单击相关按钮显示所需成本计算详细程度。 在下面的屏幕截图中，选中的 **分组依据** 按钮以蓝色突出显示。 单击按钮将其激活或停用。
 
-    ![图 1](media/01-capacity-planning.png)
+    ![图 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。

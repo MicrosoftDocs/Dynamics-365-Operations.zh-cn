@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216604"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346612"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -41,7 +41,7 @@ ms.locfileid: "6216604"
 
 下图显示了当事方的数据模型。
 
-![当事方的数据模型](media/party-gab-image1.png)
+![当事方的数据模型。](media/party-gab-image1.png)
 
 > [!TIP]
 > 当您尝试创建新的客户记录时，请使用 **当事方** 字段按名称搜索记录。 这样，如果找到记录，只需选择它。 系统然后将自动填充当事方的所有数据。 您不必手动设置所有必填字段。 可以在现成的 **客户**、**联系人** 和 **供应商** 页面上找到此行为。
@@ -58,7 +58,7 @@ ms.locfileid: "6216604"
 
 下图显示了全球通讯簿的数据模型。
 
-![全球通讯簿的数据模型](media/party-gab-image2.png)
+![全球通讯簿的数据模型。](media/party-gab-image2.png)
 
 ## <a name="contact"></a>联系人
 
@@ -94,7 +94,7 @@ ms.locfileid: "6216604"
     + 如果您在 **关联的联系人** 字段中选择值，您将选择属于 **个人** 类型的出售联系人。
     + 如果您在 **关联的客户** 或 **关联的供应商** 字段中选择值，您将选择组织。
 
-    ![联系人页上的“关联的组织”选项卡](media/party-gab-image3.png)
+    ![联系人页面上的“关联的组织”选项卡。](media/party-gab-image3.png)
 
     无论您的选择如何，将在当事方级别创建关联，此关联将应用于当事方的所有角色，存储在 **当事方的联系人** 实体中。
 
@@ -109,7 +109,7 @@ ms.locfileid: "6216604"
 
 已在 **客户**、**联系人** 和 **供应商** 页引入了新的 **地址** 选项卡。 此选项卡使用网格支持多个邮寄地址，如下图所示。
 
-![邮寄地址的网格](media/party-gab-image4.png)
+![邮寄地址的网格。](media/party-gab-image4.png)
 
 此网格包括以下列：
 
@@ -121,7 +121,7 @@ ms.locfileid: "6216604"
 
 **客户** 页的 **摘要** 选项卡上的 **地址 1** 和 **地址 2** 字段分别对应于 **交货** 和 **发票** 地址。
 
-![邮寄地址的“摘要”选项卡](media/party-gab-image5.png)
+![邮寄地址的“摘要”选项卡。](media/party-gab-image5.png)
 
 **联系人** 页的 **摘要** 选项卡上的 **地址 1**、**地址 2** 和 **地址 3** 字段分别对应于 **企业**、**交货** 和 **发票** 地址。
 
@@ -129,7 +129,7 @@ ms.locfileid: "6216604"
 
 已在 **客户**、**联系人** 和 **供应商** 页引入了新的 **电子地址** 选项卡。 此选项卡使用网格支持多个电子地址，如下图所示。
 
-![电子地址的网格](media/party-gab-image6.png)
+![电子地址的网格。](media/party-gab-image6.png)
 
 此网格包括以下列：
 
@@ -205,7 +205,7 @@ ms.locfileid: "6216604"
     | 当事方 ID（字段） | 完全匹配 |
     | 选择（字段） | （空白） |
 
-    ![客户重复规则](media/duplicate-rule-1.PNG)
+    ![客户的重复规则。](media/duplicate-rule-1.PNG)
 
 10. 通过设置以下字段扩展 **联系人** 表的重复检测规则。
 
@@ -221,7 +221,7 @@ ms.locfileid: "6216604"
     | 当事方 ID（字段） | 完全匹配 |
     | 选择（字段） | （空白） |
 
-    ![联系人重复规则](media/duplicate-rule-2.PNG)
+    ![联系人的重复规则。](media/duplicate-rule-2.PNG)
 
 11. 如果您是现有双重写入用户，请按照[升级到当事方和全球通讯簿模型](upgrade-party-gab.md)中的说明操作升级数据。
 
@@ -300,11 +300,11 @@ ms.locfileid: "6216604"
 + 在 **客户**、**联系人** 和 **供应商** 窗体的电子地址选项卡上设置的电子地址来自 `msdyn_partyelectronicaddress` 表。 此信息不会流向其关联交易，如销售订单、报价单和采购订单。 我们计划在增量版本中解决此问题。 客户和联系人记录上电子地址字段中的现有数据将继续用于销售订单、报价单和采购订单之类的交易。
 + 在 Finance and Operations 应用中，您可以从 **添加联系人** 窗体创建联系人记录。 当您尝试从 **查看联系人** 窗体创建新联系人时，操作将失败。 这是一个已知问题。
 
-    ![添加联系人的已知问题](media/party-gab-contact-issue.png)
+    ![添加联系人的已知问题。](media/party-gab-contact-issue.png)
 
 + **初始同步** 不支持 **ContactForParty** 上的 **Available From** 和 **Available To** 时间字段，因为 DIXF 会将值转换为字符串而不是整数。 转换将触发错误 `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`。
 + 当出于多种原因使用邮寄地址时，例如，业务通信地址和帐单地址，它应显示为 `Business;Invoice`，如下图所示。 如果在两个值之间添加空格，会出现错误。
 
-    ![地址的已知问题](media/party-gab-address-issue.png)
+    ![地址的已知问题。](media/party-gab-address-issue.png)
 
 + 您不能使用具有双重写入功能的 Finance and Operations 应用输入将来的邮寄地址，因为 Dataverse 不支持日期有效期。 如果您使用 Finance and Operations 应用输入将来的邮寄地址，它将完全同步到 Dataverse，您会在用户界面立即看到该地址。 此记录的任何更新都将导致错误，因为它在 Finance and Operations 应用中是将来的日期，而不是当前日期。

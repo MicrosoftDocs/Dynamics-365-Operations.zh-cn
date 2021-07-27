@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797807"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347582"
 ---
 # <a name="checkout-module"></a>结帐模块
 
@@ -33,7 +33,7 @@ ms.locfileid: "5797807"
 
 下图显示了结帐页上的 Fabrikam 结帐模块的示例。
 
-![结帐模块的示例](./media/Checkout.PNG)
+![结帐模块的示例。](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>结帐模块属性
 
@@ -52,13 +52,13 @@ ms.locfileid: "5797807"
 
     下图显示了结帐页上的装运地址模块的示例。
 
-    ![装运地址模块示例](./media/ecommerce-shippingaddress.PNG)
+    ![装运地址模块的示例。](./media/ecommerce-shippingaddress.PNG)
 
 - **交货选项** – 客户可使用此模块为订单选择交货方式。 有关此模块的详细信息，请参阅[交货选项模块](delivery-options-module.md)。
 
     下图显示了结帐页上的交货选项模块的示例。
  
-    ![交付选项模块示例](./media/ecommerce-deliveryoptions.PNG)
+    ![交付选项模块的示例。](./media/ecommerce-deliveryoptions.PNG)
 
 - **结帐分区容器** – 此模块是可在其中放置多个模块以在结帐流程中创建分区的容器。 例如，可以将所有与付款有关的模块放在此容器内，以便使其显示为一个分区。 此模块仅影响流程的布局。
 
@@ -70,7 +70,7 @@ ms.locfileid: "5797807"
 
     下图显示了结帐页面上的礼品卡、会员积分和付款模块的示例。
 
-    ![结帐页面上的礼品卡、会员积分和付款模块的示例](./media/ecommerce-payments.PNG)
+    ![结帐页面上的礼品卡、会员积分和付款模块的示例。](./media/ecommerce-payments.PNG)
 
 - **联系信息** – 此模块可供客户为订单添加或更改联系信息（电子邮件地址）。
 
@@ -80,7 +80,7 @@ ms.locfileid: "5797807"
 
     下图显示了结帐页上的条款和条件的示例。
 
-    ![结帐页上条款和条件的示例](./media/ecommerce-checkout-terms.PNG)
+    ![结帐页面上的条款和条件的示例。](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 

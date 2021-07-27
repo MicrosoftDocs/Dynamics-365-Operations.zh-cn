@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4bad102224f05e97ff7b83534d6796fbbb67874e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348845"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -105,7 +105,7 @@ ms.locfileid: "5908722"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>使用现有库存量移动工作区查看产品的现有库存量
 

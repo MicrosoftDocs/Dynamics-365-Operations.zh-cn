@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a3da8e1b8176eb25fe4e0a320aa3e907c06e09c5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cdac52ed7f11f796b9559e5454456fb139c6ba00
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346390"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>使用扩展在税务集成中添加数据字段
 
@@ -41,7 +41,7 @@ ms.locfileid: "6021384"
 
 下图显示了这些对象之间的关系。
 
-[![数据模型对象关系](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![数据模型对象关系。](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 **单据** 对象可以包含许多 **行** 对象。 每个对象都包含税务服务的元数据。
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347702"
 ---
 # <a name="improve-scheduling-engine-performance"></a>提高计划编制引擎性能
 
@@ -66,11 +66,11 @@ ms.locfileid: "5812899"
 | 10 | 辅助&nbsp;1 | | | | 1 | 20 |
 | 20 | 第一位 | | 3.00 | 1.00 | 3 | 0 |
 
-![示例工艺路线图](media/scheduling-engine-route.png "示例工艺路线图")
+![示例工艺路线图。](media/scheduling-engine-route.png "示例工艺路线图")
 
 将其发送到引擎后，它将拆分为八个作业，如下图所示（选择图像以放大它）。
 
-[![计划编制引擎作业](media/scheduling-engine-jobs.png "计划编制引擎作业")](media/scheduling-engine-jobs-large.png)
+[![计划引擎作业](media/scheduling-engine-jobs.png“计划引擎作业。”](media/scheduling-engine-jobs-large.png)
 
 两个作业之间的标准链接是 `FinishStart`，这意味着一个作业的结束时间必须早于另一个作业的开始时间。 因为设置必须由稍后执行该流程的同一资源执行，所以它们之间存在 `OnSameResource` 约束。 在编号为 10 的主工序和辅助工序的作业之间，有 `StartStart` 和 `FinishFinish` 链接，这意味着这些作业必须同时开始和结束，并且有 `NotOnSameResource` 约束，这将防止主工序和辅助工序的资源相同。
 

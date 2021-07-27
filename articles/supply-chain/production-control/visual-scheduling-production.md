@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908698"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353412"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>用于作业级排产的甘特图
 
@@ -45,10 +45,10 @@ ms.locfileid: "5908698"
 
 ## <a name="order-view"></a>订单视图
 
-[![订单视图](./media/orderview.png)](./media/orderview.png)
+[![订单视图。](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>资源视图
-[![资源视图](./media/resview.png)](./media/resview.png)
+[![资源视图。](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>活动
 这些活动显示为条形，并且以具有计划开始和结束时间的时间刻度网格进行整理，使得条形长度与完成该活动所需的时间成比例。 这些活动根据时间刻度进行显示。 您可以调整您选择开始和结束日期和时间单位（例如小时或天数）的菜单上的时间刻度。 通过调整时间刻度可以设置您要管理活动的时间间隔的焦点。 
@@ -102,25 +102,25 @@ ms.locfileid: "5908698"
 
 在活动网络中，例如属于同一生产订单的作业，您可以使用 **计划上一个作业** 功能计划相对于网络中的选定作业的上一个作业。 在以下示例中，突出显示的活动是选定的作业。 该图显示计划上一个作业之前和计划上一个作业之后的情况。 
 
-[![计划上一个作业](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![计划上一个作业。](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>计划下一个作业
 
 您可以使用 **计划下一个作业** 功能计划相对于活动网络中的选定作业的下一个作业。 在以下示例中，突出显示的活动是选定的作业。 该图显示计划下一个作业之前和计划下一个作业之后的情况。 
 
-[![计划下一个作业](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![计划下一个作业。](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>针对作业计划
 
 您可以使用 **针对作业计划** 功能计划相对于活动网络中的选定作业的下一个作业和上一个作业。 在以下示例中，突出显示的活动是选定的作业。 该图显示计划一个作业之前和计划该作业之后的情况。 
 
-[![针对作业计划](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![针对作业计划。](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>安排作业
 
 您可以使用 **安排** 功能对相同的资源安排选定的活动。 这些活动可以处于相同的活动网络中，但也可以属于不同网络。 当您使用安排功能时，选定活动之间的时间差将被消除。 您可以使用此功能优化资源的产能利用率。 该图显示计划一个作业之前和计划该作业之后的情况。 
 
-[![安排作业](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![安排作业。](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>将一个资源的活动重新分配到另一个资源
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346488"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
@@ -39,11 +39,11 @@ ms.locfileid: "5750610"
 
 如果您不希望将供应商数据存储在 Dataverse 中的 **客户/联系人** 表中，您可以使用新的供应商设计。
 
-![供应商数据流](media/dual-write-vendor-data-flow.png)
+![供应商数据流。](media/dual-write-vendor-data-flow.png)
 
 如果您希望继续将供应商数据存储在 **客户/联系人** 表中，您可以使用扩展的供应商设计。 要使用扩展的供应商设计，必须在双写入解决方案包中配置供应商工作流。 有关详细信息，请参阅[在供应商设计之间切换](vendor-switch.md)。
 
-![扩展供应商数据流](media/dual-write-vendor-detail.jpg)
+![扩展供应商数据流。](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > 如果您正在使用自助服务供应商的 Power Apps 门户，供应商信息可以直接流向 Finance and Operations 应用。

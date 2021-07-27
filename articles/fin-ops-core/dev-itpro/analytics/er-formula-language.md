@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355386"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 
@@ -117,15 +117,15 @@ ER 公式设计器支持转义序列。 因此，可以指定应以不同方式�
 
 如果结构化数据源的路径以“at”符号 (@) 开头，它是相对路径。 显示的是“at”符号，而不是所使用的层次结构树结构的绝对路径的其余部分。 下图显示了一个示例。 在这里，绝对路径 `Ledger.'accountingCurrency()'` 表示来自 **分类帐** 数据源的记帐币种值已输入到数据模型的 **AccountingCurrency** 字段中。
 
-![ER 模型映射设计器页面上的绝对路径的示例](./media/ER-FormulaLanguage-AbsolutePath.png)
+![ER 模型映射设计器页面上的绝对路径的示例。](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 下图中的示例显示了如何使用相对路径。 相对路径 `@.AccountNum` 表示 **Intrastat** 数据源（在数据模型层次结构树中的 **AccountNum** 字段上方显示一个级别）的 **AccountNum** 字段用于在数据模型的 **AccountNum** 字段中输入客户或供应商帐号。
 
-![ER 模型映射设计器页面上的相对路径的示例](./media/ER-FormulaLanguage-RelativePath1.png)
+![ER 模型映射设计器页面上的相对路径的示例。](./media/ER-FormulaLanguage-RelativePath1.png)
 
 绝对路径的其余部分还显示在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中。
 
-![ER 公式设计器页面上绝对路径的其余部分](./media/ER-FormulaLanguage-RelativePath2.png)
+![ER 公式设计器页面上的绝对路径的其余部分。](./media/ER-FormulaLanguage-RelativePath2.png)
 
 有关更多信息，请参阅[在 ER 模型和格式的数据绑定中使用相对路径](relative-path-data-bindings-er-models-format.md)。
 

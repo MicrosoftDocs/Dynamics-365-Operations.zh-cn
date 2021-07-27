@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5644b5076aeda30d5535c0128497e267359583a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f5c8ca5acab8f62637be8f6a04d982a3181ffc2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808200"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354220"
 ---
 # <a name="warranty-agreements"></a>保修协议
 
@@ -51,7 +51,7 @@ ms.locfileid: "5808200"
     3. 在 **间隔** 字段中，输入一个数字。 此字段定义保修的有效期间数量。
     4. 在 **百分比** 字段中，输入保修行的覆盖百分比。 此百分比指示公司涵盖的量。
 
-![保修页面](media/01-warranty.png)
+![保修页面。](media/01-warranty.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893972"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351738"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>从 Configuration service 的全局知识库下载 ER 配置
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893972"
 3. 在 **配置提供程序** 部分中，选择 **Microsoft** 磁贴。
 3. 在 **Microsoft** 磁贴上，选择 **存储库**。
 
-    ![电子申报工作区](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![电子报告工作区。](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. 在 **配置存储库** 页面，在网格中，选择 **全局** 类型的现有存储库。 如果此存储库没有显示在网格中，请执行以下步骤：
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893972"
 
 5. 选择 **打开** 查看选择的存储库的 ER 配置列表。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![配置存储库页面。](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>导入单个配置
 
@@ -63,7 +63,7 @@ ms.locfileid: "5893972"
     > [!NOTE]
     > **导入** 按钮对当前 Finance 实例中已呈现的 ER 配置版本不可用。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-repository-content.png)
+    ![配置存储库页面。](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>导入筛选的配置
 
@@ -77,7 +77,7 @@ ms.locfileid: "5893972"
 4. 在 **配置** 快速选项卡上，选择 **导入** 将筛选出的配置从全局知识库下载到当前实例。
 5. 在 **配置** 快速选项卡上，选择 **重置筛选器** 清理指定的选择条件。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![配置存储库页面。](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 必须先解决这些问题，然后才可以使用导入的配置版本。 有关详细信息，请参阅本主题的相关资源列表。

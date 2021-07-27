@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1330aa04a57809ff34dcca9791f8fb0a93c8d71
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f1398ae255e6b7809c743aa4a9efa7adf24ae7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808440"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349834"
 ---
 # <a name="responsible-maintenance-workers"></a>负责的维护工人
 
@@ -50,7 +50,7 @@ ms.locfileid: "5808440"
 
 下图显示 **负责的维护工人** 页的示例。
 
-![负责维护工人页面](media/08-setup-for-requests.png)
+![负责维护工人页面。](media/08-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

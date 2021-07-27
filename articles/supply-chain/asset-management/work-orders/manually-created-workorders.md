@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354849"
 ---
 # <a name="manually-created-work-orders"></a>手动创建的工作订单
 
@@ -111,7 +111,7 @@ ms.locfileid: "5839551"
 
 下图显示 **创建相关工作订单** 对话框的示例。
 
-![图 1](media/03-work-orders.png)
+![图 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >如果已经在 **资产管理参数** > **工作订单** 选项卡 > **相关工作订单掩码** 字段中设置了相关工作订单掩码，将根据掩码设置创建工作订单 ID。 如果未设置相关工作订单掩码，将把下一个可用工作订单 ID 用于相关工作订单。
@@ -137,7 +137,7 @@ ms.locfileid: "5839551"
 
 下图显示了 **复制工作订单** 对话框的示例。
 
-![图 2](media/04-work-orders.png)
+![图 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>基于维护请求创建工作订单
@@ -157,7 +157,7 @@ ms.locfileid: "5839551"
 
 下图显示了 **创建工作订单** 对话框的示例。
 
-![图 3](media/05-work-orders.png)
+![图 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

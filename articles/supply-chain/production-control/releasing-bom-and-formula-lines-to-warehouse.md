@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350538"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
@@ -61,7 +61,7 @@ ms.locfileid: "5811670"
 
 下图显示包含两个作业（10 和 20）的生产订单，这两个作业涵盖生产订单的装配和包装。 设置每个作业以使用一定数量的物料。 在此图中，时间行下方的绿色箭头指示的发放时限等于在 **(LessThanDate())** 条件中指定的天数。 例如，**(LessThanDate(2))** 表示作业应仅查找两天时限内的未发放数量。
 
-![含有两个批处理作业的生产订单示例](media/bach-job-setup.PNG)
+![含有两个批处理作业的生产订单的示例。](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>按照工序编号或按照成品数量的比例发放物料
 
@@ -78,7 +78,7 @@ ms.locfileid: "5811670"
 
 下图显示含有两个工序（10 和 20）的生产订单。 在此示例中，您可以限制发放到工序 10，仅发放物料 M9203。
 
-![按工序编号发放物料的示例](media/two-operations.PNG)
+![按工序编号发放物料的示例。](media/two-operations.PNG)
 
 有关如何按照成品数量按比例发放物料的快速演示，请观看下面的 YouTube 短片：[关于生产订单下达流程的增强](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)。
 

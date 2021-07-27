@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020131"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352826"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>税款计算性能影响交易
 
@@ -36,7 +36,7 @@ ms.locfileid: "6020131"
 - 多个会话同时处理同一个交易税款计算。
 - 交易有多个行，视图会实时更新。 例如，更改行的字段时，会实时更新 **普通日记帐** 页上的 **计算销售税金额** 字段。
 
-   [![日记帐凭证页上的“计算销售税金额”字段](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![日记帐凭证页面上的“计算销售税金额”字段。](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 如果满足这些条件的任何一个，请延迟税款计算。
 
@@ -53,11 +53,11 @@ ms.locfileid: "6020131"
 
 - 交易将导致系统停止响应，直到会话结束。 因此，交易无法计算税收结果。 下图显示了您收到的“会话已结束”消息框。
 
-    [![会话已结束消息](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![会话已结束消息。](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - **TaxUncommitted** 方法会比其他方法花费更多时间。 例如，在下图中，**TaxUncommitted::updateTaxUncommitted()** 方法需要 43,347.42 秒，而其他方法则需要 0.09 秒。
 
-    [![方法持续时间](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![方法持续时间。](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>自定义和调用税款计算
 

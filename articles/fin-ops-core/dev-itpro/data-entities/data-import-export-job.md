@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937322"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351011"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -106,7 +107,7 @@ ms.locfileid: "5937322"
 
 通过选择 **生成源映射** 可以在页面上生成映射。 生成的映射表现地类似于自动映射。 因此，您必须手动映射所有未映射的字段。
 
-![数据映射](./media/dixf-map.png)
+![数据映射。](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>验证您的导入或导出作业的安全性
 **数据管理** 工作区的访问权限可能受到限制，因此非管理员用户可能仅可访问特定的数据作业。 对数据作业的访问权限暗示着对该作业的执行历史记录的完全访问权限和对暂存表的访问权限。 因此，您必须确保在创建数据作业时采取适当的访问权限控制。
@@ -132,7 +133,7 @@ ms.locfileid: "5937322"
 ## <a name="validate-that-the-job-ran-as-expected"></a>验证该作业按预期运行
 作业历史记录可用于导入和导出作业的故障排除和调查。 历史作业运行按时间范围进行组织。
 
-![作业历史记录范围](./media/dixf-job-history.md.png)
+![作业历史记录范围。](./media/dixf-job-history.md.png)
 
 每次作业运行提供以下详细信息：
 

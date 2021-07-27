@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353882"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 
@@ -38,7 +38,7 @@ ms.locfileid: "5907757"
 
 Power Apps 门户中的联系人作为记录存储在 Microsoft Dataverse 中的 **联系人** 表中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
 
-![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")
+![客户门户联系人的系统图。](media/customer-portal-contacts.png "客户门户联系人的系统图")
 
 在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 表映射。
 

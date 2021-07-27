@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187989"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355027"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
@@ -48,7 +48,7 @@ ms.locfileid: "6187989"
 
 开销计算独立于版本运行。 因此，可以在实际版本前计算预算版本。 开销计算包括四个步骤，如下图所示。 在每个步骤中，创建包含日记帐条目的日记帐标头。 此日记帐标头为每个计算步骤保留输入数据。 政策和规则应用于每个日记帐行，成本条目生成为输出。 因此，您始终具有完全的可跟踪性。 
 
-[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![开销计算。](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>计算和分摊电间接成本
 在财务会计中，有些成本（如电）登记为总计。 因此，不为成本核算提供详细的管理洞察。 在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。 此流必须基于消耗量的准确记录或公平评估。 在总帐中，可以过帐电成本，如下表所示。
@@ -618,7 +618,7 @@ ms.locfileid: "6187989"
 
 分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Finance 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 
 
-[![互惠方法](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![互惠方法。](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>定义成本分摊
 

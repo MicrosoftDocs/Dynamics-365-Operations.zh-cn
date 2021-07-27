@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022464"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353004"
 ---
 # <a name="e-commerce-site-overview"></a>电子商务站点概览
 
@@ -47,27 +47,27 @@ ms.locfileid: "6022464"
 
 从 LCS 启动 Commerce 站点构建器时，将显示 **站点** 页面。 该页面包括两个预配置的站点（**默认** 和 **Fabrikam**），如下图中的示例所示。
 
-![Commerce 站点构建器中的站点页面](media/e-commerce-site-01.png)
+![Commerce 站点构建器中的站点页面。](media/e-commerce-site-01.png)
 
 当您选择其中一个站点时，系统会提示您选择域名、默认的在线商店渠道、所选渠道的受支持语言以及路径。 如果仅使用一个渠道，可以将路径保留为空白。 稍后可以在 Commerce 站点构建器中配置更多在线商店渠道或语言。 每个附加的渠道或语言都需要唯一的路径。 例如，您有两个与单个站点相关联的在线渠道，并且该站点的域名为 `www.fabrikam.com`。 在这种情况下，一个渠道的路径可以是没有路径的默认值 (`https://www.fabrikam.com`)，第二个渠道可以设置为将具有 URL `https://www.fabrikam.com/site2` 的新路径，例如 **site2**。 下图显示 Commerce 站点构建器中的站点初始化对话框的示例。
 
-![Commerce 站点构建器中的站点初始化对话框](media/e-commerce-site-02.png)
+![Commerce 站点构建器中的站点初始化对话框。](media/e-commerce-site-02.png)
 
 **站点** 页面还包含 **新建站点** 按钮。 选择此按钮时显示的对话框类似于站点初始化对话框，但是它用于创建新站点。 新站点为空白。 它们不包含通过 **默认** 和 **Fabrikam** 站点提供的相同默认模板、片段、页面和图像。 但是，您可以根据需要打开支持票证，以请求将默认内容的副本添加到新的空白站点。 有关详细信息，请参阅[创建电子商务站点](create-ecommerce-site.md)。
 
 初始化新站点后，将显示 Commerce 站点构建器 **主页**。 该页面包含指向常见操作和指导内容的链接，如下图中的示例所示。
 
-![Commerce 站点构建器中的主页上的链接](media/e-commerce-site-03.png)
+![Commerce 站点构建器中的主页上的链接。](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>修改在线商店渠道或将在线商店渠道添加到电子商务站点
 
 创建电子商务站点后，您可以按照[将电子商务站点与在线渠道关联](associate-site-online-store.md)中的步骤更改与之关联的渠道。 下图中的示例显示如何在 **渠道** 页面（**站点设置 \> 渠道**）上更改渠道操作单位编号 (OUN)。 完成更改后，请务必选择 **保存并发布**。 这样，您可以确保发布更改。
 
-![Commerce 站点构建器中的渠道页面](media/e-commerce-site-04.png)
+![Commerce 站点构建器中的渠道页面。](media/e-commerce-site-04.png)
 
 您可以通过选择 **添加渠道** 添加新渠道。 若要将新语言添加到渠道，请选择该渠道，然后在显示的渠道对话框中选择 **添加区域设置**。 在区域设置显示在对话框中之前，必须在 Commerce 总部中为在线商店渠道预先配置它们。
 
-![Commerce 站点构建器中的渠道对话框](media/e-commerce-site-05.png)
+![Commerce 站点构建器中的渠道对话框。](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>设置 Azure B2C 租户
 

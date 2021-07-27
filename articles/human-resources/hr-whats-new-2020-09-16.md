@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fe3ac2393e66a00e070d8cb6862c29625d39b53
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b1386cca9fd39c2cf021e87fcc33da2bbda89630
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057156"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353582"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 16 日）中的新增功能或更改
 
@@ -99,9 +99,9 @@ ms.locfileid: "6057156"
 
 - Dynamics 365 2020 发行波次 2 计划中的[组织和个人管理工作流体验增强](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements)
 
-![分配给我的工作项](./media/hr-workflow-work-items-assigned-to-me.png)
+![分配给我的工作项。](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![工作流项快速访问](./media/hr-workflow-quick-access.png)
+![工作流项快速访问。](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>休假和缺勤日历
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7b97eca8c2d4fe9f71c3cd8f1e40a3bbb7ee4879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021361"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348408"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>转移单的税务功能支持
 
@@ -40,7 +40,7 @@ ms.locfileid: "6021361"
 
 1. 在 **税务功能** 页面上的 **版本** 选项卡上，选择草稿功能版本，然后选择 **编辑**。
 
-    ![选择编辑](../media/tax-feature-support-01.png)
+    ![选择编辑。](../media/tax-feature-support-01.png)
 
 2. 在 **税务功能设置** 页面上的 **税码** 选项卡上，选择 **添加** 以创建新税码。 对于此示例，创建了三个税码：**NL-Exempt**、**BE-RC-21** 和 **BE-RC+21**。
 
@@ -53,7 +53,7 @@ ms.locfileid: "6021361"
         4. 在 **比率** 表中选择 **添加**。
         5. 在 **常规** 部分中，将 **是免税** 切换到 **是**。
 
-        ![NL-Exempt 税码](../media/tax-feature-support-02.png)
+        ![NL-Exempt 税码。](../media/tax-feature-support-02.png)
 
     - 当在比利时仓库收到转移单时，通过使用 **BE-RC-21** 和 **BE-RC+21** 税码应用冲销费用机制。
         
@@ -66,7 +66,7 @@ ms.locfileid: "6021361"
         6. 在 **常规** 部分中，将 **是冲销费用** 切换到 **是**。
         7. 选择 **保存**。
 
-        ![冲销费用的 BE-RC-21 税码](../media/tax-feature-support-03.png)
+        ![冲销费用的 BE-RC-21 税码。](../media/tax-feature-support-03.png)
         
         创建税码 **BE-RC+21**。
         1. 选择 **添加**，在 **税码** 字段中输入 **BE-RC-21**。
@@ -76,7 +76,7 @@ ms.locfileid: "6021361"
         5. 在 **税率** 字段中输入 **21**。
         6. 选择 **保存**。
 
-        ![冲销费用的 BE-RC+21 税码](../media/tax-feature-support-04.png)
+        ![冲销费用的 BE-RC+21 税码。](../media/tax-feature-support-04.png)
 
 3. 定义税码的适用性。
 
@@ -105,11 +105,11 @@ ms.locfileid: "6021361"
         6. 在 **税码** 字段中，选择 **BE-RC+21** 和 **BE-RC-21**。
         7. 在 **税组** 字段和 **物料税组** 中，输入在 Finance 系统中定义的相关销售税组和物料销售税组。
 
-        ![适用性规则](../media/image5.png)
+        ![适用性规则。](../media/image5.png)
 
 4. 完成并发布新的税务功能版本。
 
-    [![更改新版本的状态](../media/image6.png)](../media/image6.png)
+    [![更改新版本的状态。](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>为转移单事务设置 Finance
 
@@ -121,7 +121,7 @@ ms.locfileid: "6021361"
     > [!IMPORTANT]
     > **转移单中的税务** 功能完全依赖于税务服务。 因此，仅在安装税务服务后才能打开它。
 
-    ![转移单中的税务功能](../media/image7.png)
+    ![转移单中的税务功能。](../media/image7.png)
 
 3. 启用税务服务，然后选择 **库存** 业务流程。
 
@@ -131,11 +131,11 @@ ms.locfileid: "6021361"
     1. 转到 **税务** \> **设置** \> **税务配置** \> **税务服务设置**。
     2. 在 **业务流程** 字段中，选择 **库存**。
 
-    ![设置“业务流程”字段](../media/image8.png)
+    ![设置“业务流程”字段。](../media/image8.png)
 
 4. 验证已设置冲销费用机制。 转到 **总帐** \> **设置** \> **参数**，然后在 **冲销费用** 选项卡上，验证 **启用冲销费用** 选项已设置为 **是**。
 
-    ![启用冲销费用选项](../media/image9.png)
+    ![启用冲销费用选项。](../media/image9.png)
 
 5. 验证已根据税务服务指南在 Finance 中设置了相关的税码、税组、物料税组和增值税登记编号。
 6. 设置一个临时中转科目。 仅在应用到转移单的税务不适用于免税或冲销费用机制时，才需要此步骤。
@@ -143,7 +143,7 @@ ms.locfileid: "6021361"
     1. 转到 **税务** \> **设置** \> **销售税** \> **分类帐过帐组**。
     2. 在 **临时中转** 字段中，选择分类帐科目。
 
-    ![选择临时中转科目](../media/image10.png)
+    ![选择临时中转科目。](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>为转移单事务设置基本库存
 
@@ -158,7 +158,7 @@ ms.locfileid: "6021361"
     > [!NOTE]
     > 您创建的站点之一应命名为 **中转**。 在此过程的后续步骤中，您将此站点分配给中转仓库，以便可以在转移单的“装运”和“收货”事务中过帐与税务相关的库存凭证。 中转站点的地址与税务计算无关。 因此，您可以将其留为空白。
 
-    ![设置站点](../media/image11.png)
+    ![设置站点。](../media/image11.png)
 
 2. 创建发货、中转和运达仓库。 在仓库中维护的任何地址信息将在税务计算过程中覆盖站点地址。
 
@@ -166,24 +166,24 @@ ms.locfileid: "6021361"
     2. 选择 **新建** 以创建仓库，并将其分配给相应的站点。
     3. 重复步骤 2，以根据需要为每个站点创建仓库。
 
-    ![设置仓库](../media/image12.png)
+    ![设置仓库。](../media/image12.png)
 
     > [!NOTE]
     > 对于发货仓库，必须在转移单事务的 **中转仓库** 字段中选择中转仓库。
     >
-    > ![选择中转仓库](../media/image13.png)
+    > ![选择中转仓库。](../media/image13.png)
 
 3. 验证为转移单事务设置了库存过帐配置。
 
     1. 转到 **库存管理** \> **设置** \> **过帐** \> **过帐**。
     2. 在 **库存** 选项卡上，验证为 **库存发货** 和 **库存收货** 过帐设置了分类帐科目。
 
-        ![设置库存发货和库存收货过帐](../media/image14.png)
+        ![设置库存发货和库存收货过帐。](../media/image14.png)
 
     3. 验证为 **内部单位应付帐款** 过帐设置了分类帐科目。
 
-        ![设置内部单位应付帐款过帐](../media/image15.png)
+        ![设置内部单位应付帐款过帐。](../media/image15.png)
 
     4. 验证为 **内部单位应收帐款** 过帐设置了分类帐科目。
 
-        ![设置内部单位应收帐款过帐](../media/image16.png)
+        ![设置内部单位应收帐款过帐。](../media/image16.png)

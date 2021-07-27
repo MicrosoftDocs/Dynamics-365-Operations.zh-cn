@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349026"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>启用客户付款预测(预览)
 
@@ -51,7 +51,7 @@ ms.locfileid: "6222577"
 
     1. 转到 **信用和收款 \> 设置 \> Finance insights \> Finance insights 参数**。
 
-        [![配置此功能之前的“Financial insights 参数”页](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![配置此功能之前的“Financial Insights 参数”页面。](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. 在 **Financial insights 参数** 页的 **客户付款见解** 选项卡上，选择 **查看预测模型中使用的数据字段** 链接打开 **预测模型的数据字段** 页。 在那里，您可以查看用于为客户付款预测创建人工智能 (AI) 预测模型的字段的默认列表。
 
@@ -77,7 +77,7 @@ ms.locfileid: "6222577"
 
 开启并配置此功能，并且预测模型已创建且正在工作之后，**Financial insights 参数** 页的 **预测模型** 部分显示模型的准确性，如下图中所示。
 
-[![“Financial insights 参数”页的预测模型的准确性](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![“Financial Insights 参数”页面上的预测模型的准确性。](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>发布详细信息
 

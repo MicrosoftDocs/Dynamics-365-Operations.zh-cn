@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348260"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>礼品卡和贷项通知单操作无缝脱机切换
 
@@ -36,7 +36,7 @@ ms.locfileid: "6019949"
 
 若要在切换到脱机模式后让此功能完成礼品卡交易，请转到 **Commerce 参数** 页中的 **过帐** 选项卡。 在该选项卡上，找到 **礼品卡** 快速选项卡，然后将 **允许在脱机模式下完成礼品卡交易** 设置为 **是**。
 
-![脱机礼品卡设置](../media/gift.png)
+![脱机礼品卡设置。](../media/gift.png)
 
 通常将缓存 Commerce 参数。 因此，更新此参数的设置，并且启动了分发计划以将更改同步到渠道之后，更改可能最多需要 24 小时才会生效。 若要让更改立即生效，请重置 Microsoft Internet 信息服务 (IIS)。
 
@@ -46,7 +46,7 @@ ms.locfileid: "6019949"
 
 若要在切换到脱机模式后让此功能完成贷项通知单交易，请转到 **Commerce 参数** 页中的 **过帐** 选项卡。 在该选项卡上，找到 **贷项通知单** 快速选项卡，然后将 **允许在脱机模式下完成贷项通知单交易** 设置为 **是**。
 
-![脱机贷项通知单设置](../media/creditmemo.png)
+![脱机贷项通知单设置。](../media/creditmemo.png)
 
 通常将缓存 Commerce 参数。 因此，更新此参数的设置，并且启动了分发计划以将更改同步到渠道之后，更改可能最多需要 24 小时才会生效。 若要使更改立即生效，请重置 IIS。
 

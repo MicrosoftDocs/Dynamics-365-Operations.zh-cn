@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352850"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 
@@ -42,14 +42,14 @@ ms.locfileid: "5815564"
 
 日记帐名称只能用于调整。 在这种情况下，您可以指定只有 **分类帐** 科目类型在所有公司都有效。 
 
-[![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![日记帐控制科目类型。](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 日记帐名称只能用于某个特定科目段或用于主科目的某个范围。 
 
-[![日记帐控制科目段](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![日记帐控制段。](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **自动冲销** 选项可用于普通日记帐。 例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。
-[![普通日记帐冲销](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![普通日记帐冲销。](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。 **在 Excel 中打开行** 操作可用于 **普通日记帐** 和 **日记帐凭证** 页。 
 
