@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353508"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
@@ -72,37 +72,50 @@ ms.locfileid: "5841783"
 > [!NOTE]
 > 在此主题中的所有图示中，x 轴表示库存，y 轴表示天数，条形表示库存水平，箭头表示交易记录，例如销售订单行、采购订单行或计划订单。
 
-[![安全存货履行的常见方案](./media/Scenario1.png)](./media/Scenario1.png)**最小完成量** 参数可具有以下值：
+[![安全存货履行的常见方案。](./media/Scenario1.png)](./media/Scenario1.png)
+**最小完成量** 参数可具有以下值：
 ### <a name="todays-date"></a>今天的日期 
 运行主计划时满足当天的指定最小数量。 系统尝试尽快履行安全存货限制，即使因为提前期的原因而不现实。 
-[![今日日期的需求](./media/TodayReq.png)](./media/TodayReq.png)针对今天的日期创建计划订单 P1，以便将该日期的可用库存提升到安全存货水平以上。 销售订单行 S1 至 S3 继续降低库存水平。 主计划生成计划订单 P2 至 P4，以便在每个销售订单需求后将库存水平恢复至安全限制。
+[![今天的日期的需求。](./media/TodayReq.png)](./media/TodayReq.png)
+针对今天的日期创建计划订单 P1，以便将该日期的可用库存提升到安全存货水平以上。 销售订单行 S1 至 S3 继续降低库存水平。 主计划生成计划订单 P2 至 P4，以便在每个销售订单需求后将库存水平恢复至安全限制。
 使用 **需求** 覆盖范围代码时，创建多个计划订单。 针对频繁需求的物料和材料使用 **期间** 或 **最小值/最大值** 覆盖范围来绑定补货始终是一个不错的方法。 下图显示覆盖范围代码 **期间** 的一个示例。
-[![期间。今日日期](./media/TodayPeriod.png)](./media/TodayPeriod.png)下图显示覆盖范围代码 **最小值/最大值** 的一个示例。
-[![MinMax. 今日日期](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![期间。今天的日期。](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+下图显示覆盖范围代码 **最小值/最大值** 的一个示例。
+[![最小值/最大值。今天的日期。](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>今日日期 + 采购时间 
 在运行主计划的日期满足指定的最小数量，以及采购或生产提前期。 此时间包括任何安全宽限期。 如果物料实行贸易协议，并且在 **主计划参数** 页上选择了 **查找贸易协议** 复选框，将不考虑贸易协议中的交货提前期。 而考虑来自物料覆盖范围设置或物料的提前期。
 该履行模式将创建具有更短延迟和更少计划订单的计划，不考虑在物料上设置的覆盖范围组。 下图显示覆盖范围代码为 **需求** 或 **期间** 时的计划结果。  
-[![需求。期间。今日日期和提前期](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)下图显示覆盖范围代码为 **最小值/最大值** 时的计划结果。  
-[![MinMax. 今日日期和提前期](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![需求。期间。今天的日期和提前期。](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+下图显示覆盖范围代码为 **最小值/最大值** 时的计划结果。  
+[![最小值/最大值。今天的日期和提前期。](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>第一次发货 
 在可用库存低于最低水平的当天满足指定的最小数量，如下图所示。 在运行主计划的当天，即使可用库存低于最低水平，在下一次需求进入前，**第一次发货** 也不会尝试覆盖它。
 下图显示覆盖范围代码 **需求** 的一个示例。
-[![使用**需求**覆盖代码和**第一次发货**履行计划物料](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)下图显示覆盖范围代码 **期间** 的一个示例。
-[![使用**期间**覆盖代码和**第一次发货**履行计划物料](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)下图显示覆盖范围代码 **最小值/最大值** 的一个示例。
-[![使用 **MinMax** 覆盖代码和**第一次发货**履行计划物料](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)在运行主计划的当天，如果可用库存已经低于安全存货限制，**今日日期** 和 **今日日期 + 采购时间** 将立即触发补货。 **第一次发货** 将等待，直到出现另一个针对该物料的发货交易记录，例如销售订单和物料清单行需求，之后它将在该交易记录的当天触发补货。 在运行主计划的当天，如果可用库存不低于安全存货限制，**今日日期** 和 **第一次发货** 将提供完全相同的结果，如下图中所示。 
+[![使用**需求**覆盖范围代码和**第一次发货**履行计划物料。](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+下图显示覆盖范围代码 **期间** 的一个示例。
+[![使用**期间**覆盖范围代码和**第一次发货**履行计划物料。](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+下图显示覆盖范围代码 **最小值/最大值** 的一个示例。
+[![使用**最小值/最大值**覆盖范围代码和**第一次发货**履行计划物料。](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+在运行主计划的当天，如果可用库存已经低于安全存货限制，**今天的日期** 和 **今天的日期 + 采购时间** 将立即触发补货。 **第一次发货** 将等待，直到出现另一个针对该物料的发货交易记录，例如销售订单和物料清单行需求，之后它将在该交易记录的当天触发补货。 在运行主计划的当天，如果可用库存不低于安全存货限制，**今日日期** 和 **第一次发货** 将提供完全相同的结果，如下图中所示。 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) 在运行主计划的当天，如果可用库存不低于安全存货限制，**今日日期 + 采购时间** 将提供以下结果，因为它将履行延迟到采购提前期结束时。
-![使用**需求**覆盖范围代码和**第一次发货**履行计划物料](./media/ReqTodayLT.png)
+[![NotUnderLimit。](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+在运行主计划的当天，如果可用库存不低于安全存货限制，**今天的日期 + 采购时间** 将提供以下结果，因为它将履行延迟到采购提前期结束时。
+![使用**需求**覆盖范围代码和**第一次发货**履行计划物料。](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>覆盖时限
 在 **覆盖时限** 字段指定的期间内满足指定的最低数量。 当主计划不允许将可用库存用于实际订单（例如销售或转移）来试图维持安全水平时，此选项有用。 但在未来的版本中，此补货模式将不再需要，且此选项将被弃用。
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>为先过期先出 (FEFO) 物料计划安全存货补货
 在任何时间点，具有最新到期日期的库存收货将用于安全存货，以允许按照 FEFO（先过期先出）的顺序履行实际需求，如销售行或物料清单行。
 要演示其工作方式，请考虑以下方案。
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) 在运行计划时，它将涵盖来自现在的现有库存量的第一个销售订单和一个用于剩余数量的额外采购订单。
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) 创建一个计划订单，以确保可用库存恢复至安全限制。
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) 在计划第二个销售订单时，使用之前创建的涵盖安全存货的计划订单涵盖此数量。 因此，安全存货在持续滚动。
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) 最后创建另一个计划订单以涵盖安全存货。
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) 所有批次相应到期，并创建计划订单以便在到期后重填安全存货。
+[![FEFOScenario。](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+在运行计划时，它将涵盖来自现在的现有库存的第一个销售订单和一个用于剩余数量的额外采购订单。
+[![FEFO1。](./media/FEFO1.png)](./media/FEFO1.png)
+创建一个计划订单，以确保可用库存恢复至安全限制。
+[![FEFO2。](./media/FEFO2.png)](./media/FEFO2.png)
+在计划第二个销售订单时，使用之前创建的涵盖安全存货的计划订单涵盖此数量。 因此，安全存货在持续滚动。
+[![FEFO3。](./media/FEFO3.png)](./media/FEFO3.png)
+最后，创建另一个计划订单以涵盖安全存货。
+[![FEFO4。](./media/FEFO4.png)](./media/FEFO4.png)
+所有批次相应到期，并创建计划订单以便在到期后重填安全存货。
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>主计划如何处理安全存货约束
 

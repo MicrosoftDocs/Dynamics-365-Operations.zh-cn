@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744655"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348647"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>使用 Regression Suite Automation Tool 的数据不可知测试
 
@@ -30,7 +30,7 @@ ms.locfileid: "5744655"
 - ATL 框架
 - Regression Suite Automation Tool (RSAT)
 
-[![测试分类金字塔](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![测试分类金字塔。](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>概览
 -   **SysTest 框架** – SysTest 框架可以可靠地用于编写单元测试。 因为单元测试通常测试方法或功能，所以始终应该数据不可知，并且仅依赖在测试中提供的输入数据。
@@ -42,7 +42,7 @@ ms.locfileid: "5744655"
     - o 通过编号规则或通过使用 Microsoft Excel 函数（如 =TEXT(NOW(),"yyyymmddhhmm")）输入唯一标识符，如发票编号。 此函数每分钟提供一个唯一编号，这样您就可以跟踪执行的操作。 可将其用于变量，如产品收据编号和供应商发票编号。 这些测试将重复使用同一个数据库，无需进行任何还原。
     - 请始终将环境的 **编辑模式** 设置为 **读取** 或 **编辑** 来充当第一个测试案例，因为默认选项为 **自动**。**自动** 选项始终使用前一个设置，可能导致不可靠的测试。 
  
-    [![“选项”页“性能”选项卡](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![“选项”页面，“性能”选项卡。](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - 仅在筛选了特定交易记录后才验证，而不是进行常规验证。 例如，对于记录数量，筛选交易记录编号或交易记录日期，以便验证中排除其他所有交易记录。 
     - 如果检查客户余额或预算检查，请首先保存值，然后添加交易记录值以验证预期结果，而不是验证固定预期值。 

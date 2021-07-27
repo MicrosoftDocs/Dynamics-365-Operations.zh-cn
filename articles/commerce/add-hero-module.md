@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797639"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347496"
 ---
 # <a name="content-block-module"></a>内容块模块
 
@@ -46,11 +46,11 @@ ms.locfileid: "5797639"
 
 下图显示了具有主图布局的内容块模块的示例。
 
-![主图模块的示例](./media/Hero.PNG)
+![主图模块的示例。](./media/Hero.PNG)
 
 下图显示了具有特色布局的内容块模块的示例。
 
-![特色模块示例](./media/Feature.PNG)
+![功能模块的示例。](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>内容块模块属性
 

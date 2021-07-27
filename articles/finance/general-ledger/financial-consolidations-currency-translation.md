@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193897"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345372"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -66,13 +67,13 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 ## <a name="legal-entity-setup"></a>设置法人
 必须先设置法人，才能处理合并。 运行的合并数量不受限制，而所有数据将从源公司的记帐币种折算为为合并公司定义的币种。 因此，对于以下组织结构，如果必须首先将所有北美公司折算为美元 (USD)，然后折算为欧元 (EUR)（这是父公司的币种），则必须至少有两个合并公司。
 
-![组织结构](./media/organizational-structure.png "组织结构")
+![组织结构。](./media/organizational-structure.png "组织结构")
 
 在前面的组织结构中，北美合并必须有一个组织结构，因为合并始终从源公司的记帐币种合并到合并公司的币种。 在此示例中，如果所有公司都包含在一个合并中，则墨西哥子公司将从墨西哥比索 (MXN) 折算为 EUR，而不是从 MXN 折算为 USD，再折算为 EUR。
 
 创建法人时，可以指定公司同时用于合并过程和清除过程，还是仅用于这两个过程之一。 在下图中，公司同时用于这两个进程。 请注意，不能在合并公司中过帐日常日记帐，但是在清除公司中则可以。 因此，可能需要单独设置一个清除公司。
 
-![同时用于合并和清除的法人](./media/sep-elimination-company.png "同时用于合并和清除的法人")
+![同时用于合并和清除的法人。](./media/sep-elimination-company.png "同时用于合并和清除的法人")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>主科目和合并科目组
 必须选择如何合并会计科目表。 合并过程中，合并主科目的选项有三种。
@@ -81,11 +82,11 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 第二个选项是在 **主科目** 页中指定默认合并科目。 然后将该科目映射到合并科目。 如果有不同会计科目表或必须映射到总部定义的科目表，此选项可能很有用。
 
-![“主科目”页中指定了默认合并科目](./media/main-accounts.png "“主科目”页中指定了默认合并科目")
+![“主帐户”页面上指定的默认合并帐户。](./media/main-accounts.png "“主科目”页中指定了默认合并科目")
 
 第三个选项是使用合并科目组。 根据需要定义任意数量的合并科目组。 然后，在 **其他合并科目** 页中，仅将会计科目表的主科目映射到该组所需科目。
 
-![在“其他合并科目”页中映射](./media/additional-consolidation-accounts.png "在“其他合并科目”页中映射")
+![在“其他合并帐户”页面上映射。](./media/additional-consolidation-accounts.png "在“其他合并科目”页中映射")
 
 ## <a name="consolidating-online"></a>在线合并
 若要了解如何输入在线合并的详细信息，请参阅[在线财务合并](./consolidate-online.md)。
@@ -97,7 +98,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - 查看合并公司中的 **试算平衡表** 列表页。
 - 在 **合并** 页上的合并交易记录列表中，查看按日期为每个期间的每个源公司创建的余额。
 
-    ![“合并”页面的“合并交易记录”](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
+    ![“合并”页面上的“合并交易”。](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
 
 若要再次运行合并，只需处理合并。 也可以先选择 **合并** 页中的 **删除合并**。
 如果您的合并帐户中的余额不准确，可以使用 **结转期间调整** 页更正这些余额。
@@ -118,7 +119,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 可根据需要设置清除规则的生效日期和到期日期。 如果要使清除规则在清除方案流程中可用，必须将 **有效** 选项设置为 **是**。 选择类型为 **清除** 的日记帐名称。
 
-![清除规则的基本属性](./media/ledger-elimination-rule-journal.png "清除规则的基本属性")
+![清除规则的基本属性。](./media/ledger-elimination-rule-journal.png "清除规则的基本属性")
 
 定义基本属性之后，选择 **行** 定义实际处理规则。 清除选项有两种：清除净改变金额，或定义金额。
 
@@ -126,7 +127,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 选择源科目之后，使用 **科目说明** 字段指定所用目标公司的科目。 选择 **源** 以使用在源科目中定义的同一个主科目。 如果选择 **用户定义的**，则必须指定目标科目。
 
-![分类帐清除规则行页面](./media/ledger-elimination-rule-line.png "分类帐清除规则行页面")
+![分类帐清除规则行页面。](./media/ledger-elimination-rule-line.png "分类帐清除规则行页面")
 
 **维度说明** 字段的工作原理类似 **科目说明** 字段。 选择 **源**，以便在源公司和目标公司中使用相同的维度。 如果选择 **用户定义的**，则必须通过选择 **目标维度** 菜单项指定目标公司中的维度。 然后选择源维度和财务维度，以及用作清除源的值。
 

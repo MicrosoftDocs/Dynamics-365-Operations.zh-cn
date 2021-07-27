@@ -10,19 +10,21 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: ''
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4f6dccb7c69eb5dc692ce9543ae31738e95e38fa
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193664"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336826"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
 

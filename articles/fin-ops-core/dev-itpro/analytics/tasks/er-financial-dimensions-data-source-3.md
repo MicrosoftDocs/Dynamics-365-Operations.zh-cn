@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356311"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER 将财务维度用作数据源（第 3 部分 - 设计报表）
 
@@ -92,7 +92,7 @@ ms.locfileid: "5752404"
 59. 单击“添加属性”。
 60. 在“名称”字段中，键入“描述”。
 61. 单击“确定”。
-![ER Operations 设计器页](../media/er-financial-dimensions-guides-format1.png)
+![ER 操作设计器页面。](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>将报表元素映射到数据源
 1. 单击“映射”选项卡。
@@ -139,9 +139,9 @@ ms.locfileid: "5752404"
 42. 在树中，选择“根: XML 元素\公司: XML 属性”。
 43. 在树中，选择“模型: 数据模型财务维度示例模型\公司: 字符串”。
 44. 单击“绑定”。
-45. 单击“保存”。
+45. 单击保存。
 46. 关闭该页面。
-![ER Operations 设计器页](../media/er-financial-dimensions-guides-format2.png)
+![ER 操作设计器页面。](../media/er-financial-dimensions-guides-format2.png)
 
 
 

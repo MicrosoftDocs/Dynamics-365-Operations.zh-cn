@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796358"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345152"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -36,7 +36,7 @@ ms.locfileid: "5796358"
 
 在 **更改目录** 页上，员工可以轻松选择任何商店，或者可以跨所有商店搜索产品。
 
-![更改目录](./media/Changecatalog.png "更改目录")
+![更改目录。](./media/Changecatalog.png "更改目录")
 
 本地产品搜索在以下产品属性中进行搜索：
 
@@ -59,7 +59,7 @@ ms.locfileid: "5796358"
 - 零售商可以将产品搜索配置为当用户键入产品名称时显示搜索建议。 此功能的新设置在 POS 功能配置文件中命名为 **产品搜索** 的组中可用。 设置命名为 **在键入时显示搜索建议**。 此功能使员工无需手动键入全部名称，因此可以帮助员工快速查找其搜索的产品。
 - 产品搜索算法现在可以搜索在产品的 **搜索名称** 属性中搜索的词语。
 
-![产品建议](./media/Productsuggestions.png "产品建议")
+![产品建议。](./media/Productsuggestions.png "产品建议")
 
 ## <a name="customer-search"></a>客户搜索
 
@@ -83,7 +83,7 @@ ms.locfileid: "5796358"
 
 系统不显示其他法人查询的客户的客户 ID，因为没有在当前公司为这些相关方创建客户 ID。 但是，如果员工打开客户详细信息页，系统将自动为相关方生成一个客户 ID，且将商店的客户通讯簿与该客户相关联。 因此，该客户将在以后执行的本地商店搜索中可见。
 
-![全局客户搜索](./media/Globalcustomersearch.png "全局客户搜索")
+![全局客户搜索。](./media/Globalcustomersearch.png "全局客户搜索")
 
 ### <a name="additional-local-customer-search-capabilities"></a>其他本地客户搜索功能
 
@@ -94,11 +94,11 @@ ms.locfileid: "5796358"
 
 传统的客户搜索可能很费时间，因为要在多个字段中进行搜索。 不过，收银员可在单个客户属性（如姓名、电子邮件地址或电话号码）中进行搜索。 客户搜索算法使用的属性统称为 *客户搜索条件*。 系统管理员可以轻松地将一个或多个条件配置为 POS 中显示的快捷方式。 因为搜索限制为单个条件，所以将仅显示相关搜索结果，而性能则比标准客户搜索的性能好得多。 下图显示 POS 中的客户搜索快捷方式。
 
-![客户搜索快捷方式](./media/SearchShortcutsPOS.png "客户搜索快捷方式")
+![客户搜索快捷方式。](./media/SearchShortcutsPOS.png "客户搜索快捷方式")
 
 若要设置搜索条件快捷方式，管理员必须在 Commerce 中打开 **商业参数** 页，然后在 **POS 搜索条件** 选项卡上选择所有应显示为快捷方式的条件。
 
-![配置搜索快捷方式](./media/ConfigureShortcutsAX.png "配置搜索快捷方式")
+![配置搜索快捷方式。](./media/ConfigureShortcutsAX.png "配置搜索快捷方式")
 
 > [!NOTE]
 > 如果添加的快捷方式过多，POS 中搜索栏上的下拉菜单将变得杂乱不堪，从而可能影响员工的搜索体验。 建议仅根据需要添加快捷方式。

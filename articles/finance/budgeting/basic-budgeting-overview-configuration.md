@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 60113
+ms.custom:
+- "60113"
+- intro-internal
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9f79da43fa89fd98b3079dc69614553e74493376
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187932"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338774"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750476"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350248"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>更新业务文档模板的结构 
 
@@ -58,7 +58,7 @@ ms.locfileid: "5750476"
 
     将打开新模板，以便在模板编辑器页面上的 Excel Online 嵌入式控件中进行编辑。
 
-[![使用业务文档管理工作区开始编辑业务文档模板](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![使用业务文档管理工作区开始编辑业务文档模板。](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>查看可编辑模板的当前结构
 
@@ -68,7 +68,7 @@ ms.locfileid: "5750476"
 4. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 5. 请注意，在 Finance 中的模板结构中，**rptHeaderCompLogo** 项表示为 **报表 \> 发票 \> rptHeader \> rptHeaderPart1** 的一个子项。
 
-[![使用业务文档管理工作区查看可编辑模板的当前结构](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![使用业务文档管理工作区查看可编辑模板的当前结构。](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>通过删除图片更新业务文档模板的结构
 
@@ -85,7 +85,7 @@ ms.locfileid: "5750476"
 4. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 5. 请注意，Finance 中的模板结构中不再包含 **rptHeaderCompLogo** 项。
 
-[![使用业务文档管理工作区从业务文档模板删除图片](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![使用业务文档管理工作区从业务文档模板中删除图片。](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>通过添加图片更新业务文档模板的结构
 
@@ -97,7 +97,7 @@ ms.locfileid: "5750476"
 6. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 7. 请注意，Finance 中的模板结构中现在包含这个新图片，形式为一个项。
 
-[![使用业务文档管理工作区向业务文档模板添加图片](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![使用业务文档管理工作区向业务文档模板添加图片。](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>相关链接
 

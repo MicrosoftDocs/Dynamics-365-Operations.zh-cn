@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344608"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>工作订单的维护停机时间
 
@@ -45,7 +45,7 @@ ms.locfileid: "5813717"
 
 下图显示 **维护停机时间原因代码** 页面的示例。
 
-![图 1](media/15-work-orders.png)
+![图 1.](media/15-work-orders.png)
 
 创建要使用的维护停机时间原因代码之后，可以为工作订单和资产创建维护停机时间登记。
 
@@ -71,15 +71,15 @@ ms.locfileid: "5813717"
 
 下图显示了维护停机时间登记的示例。
 
-![图 2](media/16-work-orders.png)
+![图 2.](media/16-work-orders.png)
 
 用于计算维护停机时间登记的日历取决于在设置资产和参数时进行的选择。 如果在 **所有资产** 页面的 **固定资产** 快速选项卡上的 **资源** 字段中为资产选择资源，则使用为关联的资源组设置的日历，如下图中所示。
 
-![图 3](media/17-work-orders.png)
+![图 3.](media/17-work-orders.png)
 
 如果不为资产选择任何资源，则使用在 **资产管理参数** 页面选择的标准日历，如下图中所示。
 
-![图 4](media/18-work-orders.png)
+![图 4.](media/18-work-orders.png)
 
 要查看所有维护停机时间登记的概览，单击 **资产管理** > **查询** > **维护停机时间**。
 

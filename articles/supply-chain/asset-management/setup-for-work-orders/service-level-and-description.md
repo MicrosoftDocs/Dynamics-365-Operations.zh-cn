@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808248"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356456"
 ---
 # <a name="service-level-and-description"></a>服务级别和描述
 
@@ -45,7 +45,7 @@ ms.locfileid: "5808248"
 8. 除了结束日期，若要为工作订单再设置结束时间，请将 **设置结束时间** 选项设置为 **是**。 然后在 **结束时间** 字段中输入结束时间。 如果将此选项设置为 **否**，将使用当前时间。
 9. 选择 **保存**。
 
-![工作订单服务级别页面](media/19-setup-for-work-orders.png)
+![工作订单服务级别页面。](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>创建描述
 

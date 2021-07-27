@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345126"
 ---
 # <a name="install-the-pos-layout-designer"></a>安装 POS 布局设计器
 
@@ -40,7 +40,7 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 5. 在安装完成后，在 **登录** 页面输入您的 Commerce 用户名和密码，然后单击 **登录** 启动设计器。
 6. 在您的凭据验证和设计器启动后，可以开始设计自己的布局或修订现有布局。
 
-    [![一键式设计器中的布局](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![一键式设计器中的布局。](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>布局设计器安装疑难解答
 

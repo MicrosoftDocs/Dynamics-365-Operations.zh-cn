@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820803"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350638"
 ---
 # <a name="automate-vendor-payment-proposals"></a>自动运行供应商付款方案
 
@@ -97,11 +97,11 @@ ms.locfileid: "5820803"
 
 创建供应商付款方案自动化系列后，每项付款的执行将显示在流程自动化周视图中。 对于供应商付款，流程自动化周视图已经添加到 **供应商付款** 工作区和 **流程自动化** 页面。
 
-[![供应商付款工作区中的流程自动化周视图](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![供应商付款工作区中的流程自动化周视图。](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 **供应商付款** 工作区中的流程自动化周视图仅显示供应商付款方案自动化。 它显示登录用户具有安全权限的所有法人当前一周的所有付款执行。 例如，如果 AP 付款职员负责 USMF 和 USSI 公司的付款，其将看到这两家公司的供应商付款方案自动化的执行，但看不到其他公司的。
 
-[![USMF 和 USSI 公司的流程自动化周视图](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF 和 USSI 公司的流程自动化周视图。](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 每个执行将显示已创建或将创建付款日记帐的公司。 如果付款是使用集中付款创建的，显示的公司是将创建付款的公司。 执行并不一定显示将支付哪些公司的账单。
 

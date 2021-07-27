@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0cd19f218e9fa05cd23c52fdf9bbdac6ad82a23b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795349"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357706"
 ---
 # <a name="social-share-module"></a>社交共享模块
 
@@ -36,7 +36,7 @@ ms.locfileid: "5795349"
 
 下图突出显示产品详细信息页中使用的社交共享模块的示例。
 
-![社交共享模块的示例](./media/ecommerce-socialshare.png)
+![社交共享模块的示例。](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>社交共享模块属性
 

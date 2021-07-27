@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937054"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349666"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
@@ -51,9 +51,9 @@ ms.locfileid: "5937054"
 
 将在商业产品层次结构和按类别的已发布产品的 HQ 中体现渠道导航层次结构的显示顺序。
 
-![使用负值排序的产品层次结构自定义](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![使用负值排序的产品层次结构自定义。](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![基于产品层次结构按类别自定义排序的已发布产品](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![基于产品层次结构按类别自定义排序的已发布产品。](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>配置渠道导航层次结构中的类别的显示顺序
 
@@ -77,11 +77,11 @@ ms.locfileid: "5937054"
 
 将在 HQ、目录和渠道中体现渠道导航层次结构的显示顺序。
 
-![已为渠道导航层次结构自定义排序](./media/ChannelNavCustomSorted.png)
+![已排序渠道导航层次结构自定义。](./media/ChannelNavCustomSorted.png)
 
-![已基于渠道导航层次结构为目录导航层次结构自定义排序](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![基于渠道导航层次结构排序的目录导航层次结构自定义。](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![具有自定义排序的类别的 POS](./media/POSChannelCategoriesCustomSorted.png)
+![具有自定义排序的类别的 POS。](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。

@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015869"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344236"
 ---
 # <a name="maintenance-requests"></a>维护请求
 
@@ -40,7 +40,7 @@ ms.locfileid: "6015869"
 
 若要查看维护请求，请选择 **资产管理** \> **常用** \> **维护请求** \> **所有维护请求**、**有效维护请求** 或 **我的功能位置维护请求**。 每个列表页显示与维护请求有关的部分信息。
 
-![查看维护请求](media/01-manage-maintenance-requests.png)
+![查看维护请求。](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > 使用 **我的功能位置维护请求** 列表页查看维护请求的列表，这些维护请求中包含您作为工人关联的功能位置或在此类功能位置安装的资产。 （有关如何为维护工人设置功能位置的信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
@@ -49,7 +49,7 @@ ms.locfileid: "6015869"
 
 要打开记录的详细信息视图，请在 **所有维护请求** 列表页的网格视图中，选择 **维护请求** 列中的链接。
 
-![查看维护请求的详细信息](media/02-manage-maintenance-requests.png)
+![查看维护请求的详细信息。](media/02-manage-maintenance-requests.png)
 
 操作窗格上的按钮排列在选项卡上。 下表简述与资产管理有关的按钮。
 

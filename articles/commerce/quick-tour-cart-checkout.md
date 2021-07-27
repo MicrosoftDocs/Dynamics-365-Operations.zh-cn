@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352028"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>购物车和结帐页面概览
 
@@ -37,7 +38,7 @@ ms.locfileid: "6027931"
 
 下图显示使用模块库和“Fabrikam”主题生成的购物车页的示例。
 
-![购物车页示例](./media/cart2.PNG)
+![购物车页面的示例。](./media/cart2.PNG)
 
 购物车页的主体显示客户已添加到购物车的所有商品。 将显示所有适用的折扣。 这些折扣包括复合折扣。 例如，“买 3 件打九折”或“买一瓶和一个背包打九折”。 订单汇总模块显示应用折扣、运费、税等后的应付金额。 还有一个促销代码模块，供客户应用或删除促销代码。
 
@@ -53,7 +54,7 @@ ms.locfileid: "6027931"
 
 下图显示使用模块库生成的结帐页的示例。
 
-![结帐页示例](./media/Checkout.PNG)
+![结帐页面的示例。](./media/Checkout.PNG)
 
 结帐页的主题是收集所有订单信息的位置。 此信息包括装运地址、交货选项和付款信息。 结帐采用分步流程，因为必须按照特定顺序输入要处理的信息。 例如，必须先输入装运地址，才能计算装运成本和为付款授权。
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349642"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>设置用户登录自定义页面
 
@@ -40,7 +40,7 @@ ms.locfileid: "5936772"
 
 设置 Azure AD B2C 租户并将其与 Commerce 环境关联之后，在 Azure 门户中转到 **Azure AD B2C** 页面，在菜单中 **策略** 下选择 **用户流(策略)**。
 
-![菜单中的“用户流(策略)”命令](./media/B2C_CustomPage_PoliciesMenu.png)
+![菜单上的用户流（策略）命令。](./media/B2C_CustomPage_PoliciesMenu.png)
 
 现在可使用“注册和登录”、“个人资料编辑”和“密码重置”用户登录流。
 
@@ -54,13 +54,13 @@ ms.locfileid: "5936772"
 1. 在 **收集属性** 列中，选中 **电子邮件地址**、**给定名称** 和 **姓** 复选框。
 1. 在 **返回声明** 列中，选中 **电子邮件地址**、**给定名称**、**身份提供程序**、**姓** 和 **用户的对象 ID** 复选框。
 
-    ![已选中属性和声明](./media/B2C_SignInSignUp_Attributes.png)
+    ![已选择属性和声明。](./media/B2C_SignInSignUp_Attributes.png)
 
 1. 选择 **确定** 创建策略。
 1. 双击新策略名称，然后在导航窗格中选择 **属性**。
 1. 将 **启用 JavaScript 执行页面布局(预览)** 选项设置为 **开**。
 
-    ![新策略的属性页](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![新策略的属性页面。](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > 将在 Commerce 环境中完全引用策略名称。 （引用中将包括前缀 **B2C\_1\_**。）策略在创建后不能重命名。 如果要更换 Commerce 环境的现有策略，可删除原始策略，然后生成一个同名新策略。 此外，如果已预配了环境，可以通过服务请求提交新策略名称。
@@ -150,7 +150,7 @@ Commerce 中包括专用 Azure AD 模块以为 Azure AD B2C 用户策略生成�
     1. 对于 **电子邮件地址**、**给定名称** 和 **姓** 属性，在 **可选** 列中选择 **否**。
 1. 选择 **保存**。
 
-    ![本地帐户注册页面策略的配置](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![本地帐户注册页面策略的配置。](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>使用自定义页面信息更新“个人资料编辑”策略
 
@@ -188,11 +188,11 @@ Commerce 中包括专用 Azure AD 模块以为 Azure AD B2C 用户策略生成�
 
 例如，遗忘密码链接的默认文本为 **忘记密码了?**。 下面显示登录页面中的默认文本。
 
-![登录页面中忘记密码了链接的默认文本](./media/B2C_SignUp_ModuleFace.png)
+![登录页面上忘记密码链接的默认文本。](./media/B2C_SignUp_ModuleFace.png)
 
 但是，在模块库登录模块的 global.json 文件中，可将文本编辑为 **忘记了密码?**，如下图中所示。
 
-![登录模块的 global.json 文件中更新后的链接文本](./media/B2C_CustomizingStringsForModule.png)
+![登录模块的 global.json 文件中更新后的链接文本。](./media/B2C_CustomizingStringsForModule.png)
 
 更新 global.json 文件并发布更改之后，将在 Commerce 中和活动的登录页面内登录模块中显示新链接文本。
 

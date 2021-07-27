@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944501"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348083"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>推迟执行 ER 格式的序列元素
 
@@ -88,14 +88,14 @@ ms.locfileid: "5944501"
 6. 在配置树中，展开 **用于了解推迟的元素的模型**。
 7. 在配置树中查看导入的 ER 配置的列表。
 
-    ![“配置”页面上导入的 ER 配置](./media/ER-DeferredSequence-Configurations.png)
+    ![“配置”页面上导入的 ER 配置。](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>启用配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 Litware, Inc. (`http://www.litware.com`) 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出此配置提供程序，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](./tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
 
-    ![“本地化配置”页面上的示例公司 Litware, Inc.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![“本地化配置”页面上的 Litware, Inc. 示例公司。](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>查看导入的模型映射
 
@@ -117,7 +117,7 @@ ms.locfileid: "5944501"
     - **分组依据** 类型的 *已分组* 数据源被配置为将 **已筛选** 数据源的已筛选税收交易记录分组。
     - **已分组** 数据源的 **TotalSum** 聚合字段被配置为针对该数据源的所有已筛选税收交易记录汇总 **已筛选** 数据源的 **\$TaxAmount** 字段值。
 
-        ![“编辑‘GroupBy’参数”页面上的 TotalSum 聚合字段](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![编辑“GroupBy”参数页面上的 TotalSum 聚合字段。](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. 查看配置的数据源如何绑定到数据模型，以及它们如何公开访问的数据以使其以 ER 格式可用：
 
@@ -125,7 +125,7 @@ ms.locfileid: "5944501"
     - **已筛选** 数据源的 **\$TaxAmount** 字段已绑定到数据模型的 **Data.List.Value** 字段。
     - **已分组** 数据源的 **TotalSum** 字段已绑定到数据模型的 **Data.Summary.Total** 字段。
 
-    ![模型映射设计器页面](./media/ER-DeferredSequence-ModelMapping.png)
+    ![模型映射设计器页面。](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. 关闭 **模型映射设计器** 和 **模型映射** 页面。
 
@@ -138,12 +138,12 @@ ms.locfileid: "5944501"
 
     - **报表\\行** 序列格式元素被配置为用嵌套序列元素（**标题**、**记录** 和 **汇总**）生成的单个行填充出站文档。
 
-        ![“格式设计器”页面上的行序列格式元素和嵌套元素](./media/ER-DeferredSequence-Format.png)
+        ![“格式设计器”页面上的行序列格式元素和嵌套元素。](./media/ER-DeferredSequence-Format.png)
 
     - **报表\\行\\标题** 序列格式元素被配置为用单个标题行填充出站文档，以显示处理的开始日期和时间。
     - **报表\\行\\记录** 序列格式元素被配置为用显示各项税收交易记录详细信息的单行填充出站文档。 这些税收交易记录以分号分隔。
 
-        ![记录使用分号作为分隔符的序列格式元素](./media/ER-DeferredSequence-Format1.png)
+        ![记录使用分号作为分隔符的序列格式元素。](./media/ER-DeferredSequence-Format1.png)
 
     - **报表\\行\\汇总** 序列格式元素被配置为用包括已处理税收交易记录中税收值总计的单个汇总行填充的出站文档。
 
@@ -162,14 +162,14 @@ ms.locfileid: "5944501"
     - **TotalTaxAmount** 元素已绑定到 **model.Data.Summary.Total** 以生成已处理税收交易记录的税收值总和。
     - **ExecutionDateTime** 元素会生成汇总行的添加日期和时间（包括毫秒）。
 
-    ![“格式设计器”页上的“映射”选项卡](./media/ER-DeferredSequence-Format2.png)
+    ![“格式设计器”页面上的“映射”选项卡。](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>运行导入的格式
 
 1. 在 **格式设计器** 页上，选择 **运行**。
 2. 下载 Web 浏览器提供的文件，然后将其打开以进行检查。
 
-    ![示例报表下载文件](./media/ER-DeferredSequence-Run.png)
+    ![下载的示例报表文件。](./media/ER-DeferredSequence-Run.png)
 
 请注意，汇总行 22 显示了已处理交易记录的税收值总和。 由于该格式已配置为使用 **model.Data.Summary.Total** 绑定返回此总和，所以通过调用使用模型映射的 **GroupBy** 类型的 **已分组** 数据源 *TotalSum* 汇总计算了此总和。 为了计算此汇总，模型映射会在 **已筛选** 数据源中选择的所有交易记录上迭代。 通过比较第 21 行和第 22 行的执行时间，可以确定计算总和用了 10 毫秒 (ms)。 通过比较第 2 行和第 21 行的执行时间，可以确定生成所有交易记录行用了 7 ms。 因此，总共需要 17 ms。
 
@@ -183,12 +183,12 @@ ms.locfileid: "5944501"
 4. 将 **收集的数据密钥名称** 表达式配置为 `WsColumn`。
 5. 将 **收集的数据密钥值** 表达式配置为 `WsRow`。
 
-    ![“格式设计器”页面上的行序列元素](./media/ER-DeferredSequence-Format3.png)
+    ![“格式设计器”页面上的行序列元素。](./media/ER-DeferredSequence-Format3.png)
 
 6. 选择 **报表\\行\\记录\\TaxAmount** 数字元素。
 7. 将 **收集的数据密钥名称** 表达式配置为 `SummingAmountKey`。
 
-    ![“格式设计器”页面上的 TaxAmount 数字元素](./media/ER-DeferredSequence-Format4.png)
+    ![“格式设计器”页面上的 TaxAmount 数字元素。](./media/ER-DeferredSequence-Format4.png)
 
     您可以考虑使用此设置来实现虚拟工作表，其中单元格 A1 的值将附加来自每个已处理税收交易记录的税额值。
 
@@ -196,13 +196,13 @@ ms.locfileid: "5944501"
 9. 使用内置 [SUMIF](er-functions-datacollection-sumif.md) ER 函数配置 `SUMIF(SummingAmountKey, WsColumn, WsRow)` 表达式。
 10. 选择 **保存**。
 
-    ![SUMIF 表达式](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![SUMIF 表达式。](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. 关闭 **公式设计器** 页。
 12. 选择 **保存**，然后选择 **运行**。
 13. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载文件 - 总计税收值](./media/ER-DeferredSequence-Run1.png)
+    ![下载的文件 - 总计税务值。](./media/ER-DeferredSequence-Run1.png)
 
     第 21 行包含使用生成的输出作为数据源为所有已处理交易记录计算的税值累计总和。 此数据源从报表的开头开始，一直持续到最后一个税收交易记录。 第 22 行包含使用 *GroupBy* 类型数据源在模型映射中计算的所有已处理交易记录的税值总和。 请注意，这些值相等。 因此，可以使用基于输出的求和来代替 **GroupBy**。 通过比较第 2 行和第 21 行的执行时间，可以确定生成所有交易记录行和总和用了 9 ms。 因此，就生成明细行和税值总和而言，修改后的格式大约比原始格式快两倍。
 
@@ -211,7 +211,7 @@ ms.locfileid: "5944501"
 16. 选择 **保存**，然后选择 **运行**。
 17. 下载并查看 Web 浏览器提供的文件。
 
-    ![公式经过编辑的下载文件](./media/ER-DeferredSequence-Run2.png)
+    ![公式经过编辑的下载文件。](./media/ER-DeferredSequence-Run2.png)
 
     请注意，最后一个交易记录明细行上的税收值累计总和现在等于汇总行上的总和。
 
@@ -224,7 +224,7 @@ ms.locfileid: "5944501"
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![在报表标题中执行合计的下载文件](./media/ER-DeferredSequence-Run3.png)
+    ![在报表标题中执行合计的下载文件。](./media/ER-DeferredSequence-Run3.png)
 
     请注意，汇总行 2 上的税收值总和现在等于 0（零），因为此总和现在是基于生成的输出计算的。 生成第 2 行时，生成的输出尚不包含具有交易记录明细的行。 您可以配置此格式以延迟执行 **报表\\行\\汇总** 序列元素，直到已经为所有税收交易记录运行了 **报表\\行\\记录** 序列元素为止。
 
@@ -233,12 +233,12 @@ ms.locfileid: "5944501"
 1. 在 **格式设计器** 页面的 **格式** 选项卡上，选择 **报表\\行\\汇总** 序列元素。
 2. 将 **推迟执行** 选项设置为 **是**。
 
-    ![“格式设计器”页面上“汇总”序列元素的推迟执行选项](./media/ER-DeferredSequence-Format5.png)
+    ![“格式设计器”页面上“汇总”序列元素的推迟执行选项。](./media/ER-DeferredSequence-Format5.png)
 
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![下载文件 - 延期执行](./media/ER-DeferredSequence-Run4.png)
+    ![下载的文件 - 推迟执行。](./media/ER-DeferredSequence-Run4.png)
 
     **报表\\行\\汇总** 序列元素现在仅在其父元素 **报表\\行** 下嵌套的所有其他项目运行之后才运行。 因此，它在针对 **model.Data.List** 数据源的所有税收交易记录运行 **报表\\行\\记录** 序列元素后运行。 第 1、2 和 3 行以及最后第 22 行的执行时间揭示了这一事实。
 

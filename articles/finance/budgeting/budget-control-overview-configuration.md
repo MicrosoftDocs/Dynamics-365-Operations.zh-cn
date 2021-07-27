@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 60493
+ms.custom:
+- "60493"
+- intro-internal
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 010f5c5e2609cf4b39548a121615c50971aee68b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188037"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357454"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -38,7 +40,7 @@ ms.locfileid: "6188037"
 
 下图显示了典型的预算周期各个阶段中预算控制的位置。
 
-[![典型预算周期](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
+[![典型预算周期。](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
 您可以根据若干因素配置预算控制：
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: baba699a1b8efc986b4b274b8faf143d24d69e96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355773"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>允许用户设置 ER 格式参考，以从全局存储库中查询格式
 
@@ -34,27 +34,27 @@ ms.locfileid: "5893924"
 
 如果当前的 Finance 实例不包含与 Intrastat 业务流程相关的 ER 格式，则此查找字段将为空。
 
-[![外贸参数页面](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![外贸参数页面。](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 如果当前的 Finance 实例包含与 Intrastat 业务流程相关的 ER 格式，则此查找字段将提供 ER 格式。
 
-[![外贸参数页面](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![外贸参数页面。](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 此查找仅提供已导入到当前 Finance 实例的 ER 格式。 要将 ER 解决方案[导入](./tasks/er-import-configuration-lifecycle-services.md)到当前 Finance 实例中，您需要有权运行 ER 框架的适当功能，并且该框架支持包含 ER 格式的 ER 解决方案的[生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)。
 
 从 Finance 版本 10.0.9（2020 年 4 月发布）开始，已扩展了用 ER 框架 API 实现的 ER 格式查找用户界面。 您仍然可以选择 **选择格式配置** 快速选项卡上的现有 ER 格式。 此外，扩展查找还提供了新的选项来搜索全局存储库 (GR) 以查找特定的 ER 格式。 GR 的所有 ER 格式均在 **从全局知识库导入** 快速选项卡上提供。
 
-[![外贸参数页面](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![外贸参数页面。](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 类似于 **选择格式配置** 快速选项卡，**从全局知识库导入** 快速选项卡仅显示适用于在此查找字段选择 ER 格式所针对的业务流程的 ER 格式。 在此示例中，生成 Intrastat 声明。 ER 格式适用于用户当前登录的公司，具体取决于公司所在国家/地区的上下文。
 
 在 **从全局知识库导入** 快速选项卡上选择 ER 格式时，会从 GR 将选定的 ER 格式[配置](general-electronic-reporting.md#Configuration)导入到当前的 Finance 实例中。
 
-[![外贸参数页面](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![外贸参数页面。](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 然后，如果导入成功完成，则对导入的 ER 格式的引用将存储在此查找字段中。 首次访问 GR 时，您需要点击提供的链接以注册用于管理对 GR 存储的访问的 [Regulatory Configuration Service](https://aka.ms/rcs) (RCS)。
 
-[![外贸参数页面](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![外贸参数页面。](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 默认情况下，**从全局知识库导入** 快速选项卡会显示基于 GR 内容自动创建的临时存储中的 ER 格式列表，以提高性能。 第一次打开 **从全局知识库导入** 快速选项卡时会出现这种情况，打开过程可能需要几秒钟。
 
@@ -64,7 +64,7 @@ ms.locfileid: "5893924"
 
 此功能的可用性由 **功能管理** 中的 **允许查询全局知识库的 ER 格式配置的扩展查找** 功能控制。 默认情况下启用了此功能。
 
-[![功能管理页面](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![功能管理页面。](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>安全考虑
 
@@ -72,7 +72,7 @@ ms.locfileid: "5893924"
 
 以下屏幕截图显示了如何将此权限授予分配有 **会计** 角色的用户。 该角色允许用户在 **外贸参数** 页上的 **文件格式映射** 和 **报告格式映射** 字段中配置外贸参数，并设置对 ER 格式的引用。
 
-[![安全配置页面](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![安全配置页面。](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>限制
 

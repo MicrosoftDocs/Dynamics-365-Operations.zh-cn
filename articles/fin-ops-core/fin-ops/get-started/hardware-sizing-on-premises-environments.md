@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343950"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -36,7 +36,7 @@ ms.locfileid: "6168721"
 
 在下图显示的所有系数都对规模调整具有影响。 收集的详细信息越多，你就越能更加精确地确定规模调整。 不具有支持数据的硬件规模调整可能不准确。 所需数据的绝对最低需求是峰值交易记录行每小时负荷。
 
-[![针对本地环境的硬件规模调整](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![针对本地环境的硬件规模调整。](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 从左到右查看，准确估计规模调整所需的第一个和最重要的系数是交易记录模板或交易记录特征。 始终查找每小时交易量峰值很重要。 如果存在多个峰值期间，则需要准确地定义这些期间。
 

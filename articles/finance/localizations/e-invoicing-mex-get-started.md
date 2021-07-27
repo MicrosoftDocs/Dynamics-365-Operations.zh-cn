@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894875"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344774"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>开始使用适用于墨西哥的电子开票
 
@@ -56,7 +58,7 @@ ms.locfileid: "5894875"
     > [!NOTE]
     > 如果您没有在列表中看到此功能，请选择 **同步**，然后重复步骤 3。
 
-![导入 CFDI 发票 (MX) 功能](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![导入 CFDI 发票 (MX) 功能。](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 从全局存储库导入 **CFDI 发票 (MX)** 能时，还将导入所有功能设置，包括配置和操作。
 
@@ -66,13 +68,13 @@ ms.locfileid: "5894875"
 
 - 在 **电子开票功能** 页上的 **版本** 选项卡上，选择 **新建**。
 
-![添加新的电子开票功能版本](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![添加新的电子开票功能版本。](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>更新配置版本
 
 1. 在 **电子开票功能** 页上的 **配置** 选项卡上，选择 **添加** 或 **删除** 管理配置版本（ER 文件格式配置）。
 
-    ![管理电子开票功能配置](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![管理电子开票功能配置。](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     创建新版本时，所有配置都将从上次发布的版本继承。 要处理 CFDI 发票，需要以下配置：
 
@@ -84,17 +86,17 @@ ms.locfileid: "5894875"
 
 2. 在列表中，选择配置版本，然后选择 **编辑** 或 **查看** 打开 **格式设计器** 页，您可以在其中编辑或查看配置。
 
-    ![打开“格式设计器”页](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![打开“格式设计器”页面。](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
 3. 使用 **格式设计器** 页编辑和查看 ER 格式文件配置。 有关详细信息，请参阅[创建电子单据配置](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)。
 
-    ![“格式设计器”页面](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![“格式设计器”页面。](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>管理电子开票功能设置
 
 - 在 **电子开票功能** 页上的 **设置** 选项卡上，选择 **添加**、**删除** 或 **编辑** 管理电子开票功能设置。
 
-![管理电子开票功能设置](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![管理电子开票功能设置。](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 要提交 CFDI 发票进行授权（生成 XML 文件、提交 XML 文件和处理响应），需要 **销售发票** 功能设置。
 
@@ -105,13 +107,13 @@ ms.locfileid: "5894875"
 1. 在 **电子开票功能** 页上的 **设置** 选项卡上，在 **功能设置** 列中，选择 **销售发票**。
 2. 选择 **编辑** 配置操作、适用性规则和变量。
 
-    ![编辑电子开票功能设置](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![编辑电子开票功能设置。](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. 在 **功能版本设置** 页上，选择 **操作** 选项卡管理操作列表。 操作定义必须按顺序运行以完成事件的完全执行的操作的列表。
 
-    ![“操作”选项卡](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![“操作”选项卡。](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
-    | 行动 ID | 行动                   | 操作名称                                  | 操作描述                                          |
+    | 行动 ID | 变动                   | 操作名称                                  | 操作描述                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
     | 1         | 转换文档       | 生成没有数字签名的 CFDI 电子发票 | 生成 CFDI 电子发票。                                |
     | 2         | 对文档签名            | 数字签名                                 | 对电子发票进行数字签名以进行提交。                |
@@ -133,7 +135,7 @@ ms.locfileid: "5894875"
 3. 在 **生效开始日期** 字段中，选择环境应该生效的日期。
 3. 选择 **启用**。
 
-![启用电子开票环境](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![启用电子开票环境。](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>将版本状态更改为“已完成”
 
@@ -149,7 +151,7 @@ ms.locfileid: "5894875"
 1. 在 **电子开票功能** 页上，选择 **版本** 选项卡管理 **CFDI 发票 (MX)** 功能的状态。
 2. 选择 **更改状态** 更改功能的状态。
 
-![更改电子开票功能的状态](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![更改电子开票功能的状态。](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing--integration-in-finance"></a>在 Finance 中设置电子开票集成
 
@@ -171,7 +173,7 @@ ms.locfileid: "5894875"
 1. 转到 **组织管理 \> 设置 \> 电子单据参数**。
 2. 在 **功能** 选项卡上，选中功能引用 **MX-00010** 和 **MX-00016** 的行中的 **启用** 复选框。
 
-![打开处理 CFDI 发票的功能](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![打开处理 CFDI 发票的功能。](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>导入 ER 配置并设置更新 CFDI 发票的响应类型
 
@@ -221,7 +223,7 @@ ms.locfileid: "5894875"
 2. 对于任何文档的首次提交，请始终将 **重新提交文档** 选项设置为 **否**。 如果必须通过服务重新提交文档，请将此选项设置为 **是**。
 3. 在 **要包括的记录** 快速选项卡上，选择 **筛选** 打开 **查询** 对话框，您可以在其中构建查询来选择要提交的文档。
 
-![提交 CFDI 文档](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![提交 CFDI 文档。](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
 > 在首次尝试通过服务提交单据时，系统会提示您确认与电子开票的连接。 选择 **单击此处连接到电子单据提交服务**。
@@ -237,11 +239,11 @@ ms.locfileid: "5894875"
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 电子单据提交日志**。
 2. 在 **文档类型** 字段中，选择 **客户发票日记帐** 筛选所需的电子单据。
 
-    ![选择文档类型以查看提交日志](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![选择文档类型以查看提交日志。](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. 在操作窗格上，选择 **查询 \> 提交详细信息** 查看提交执行日志的详细信息。
 
-    ![查看提交日志详细信息](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![查看提交日志详细信息。](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 提交日志中的信息划分到三个快速选项卡：
 
@@ -259,7 +261,7 @@ ms.locfileid: "5894875"
 2. 选择打开 **可配置电子开票集成** 功能后提交的 CFDI 发票。
 3. 在操作窗格上的 **历史记录** 选项卡中，选择 **电子单据日志**。
 
-![查看 CFDI 发票的提交日志](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![查看 CFDI 发票的提交日志。](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
 > 对于在打开 **可配置电子开票集成** 功能之前提交的 CFDI 发票，**历史记录** 按钮可用。 对于在打开 **可配置电子开票集成** 功能之后提交的 CFDI 发票，**历史记录** 按钮不可用。
@@ -282,11 +284,11 @@ ms.locfileid: "5894875"
 
     **相关提交** 页显示给定 CFDI 发票的所有相关提交及其提交状态。 在下图中，第一行表示请求审批 CFDI 发票的提交。 第二行表示取消该 CFDI 发票的提交。
 
-    ![查看取消提交日志](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![查看取消提交日志。](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. 在操作窗格上，选择 **查询 \> 提交详细信息** 查看提交执行日志的详细信息。
 
-    ![查看取消提交日志详细信息](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![查看取消提交日志详细信息。](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>隐私声明
 启用 **CFDI 墨西哥电子发票 (MX)** 功能可能需要发送有限的数据，其中包括组织税务登记 ID。 这将被传输到税务机构授权的第三方机构，以便以与政府的 Web 服务集成所需的预定义格式向该税务机构发送电子发票。 管理员可以通过导航到 **组织管理 \> 设置 \> 电子单据参数** 来启用和禁用 **CFDI 墨西哥电子发票 (MX)** 功能。 选择 **功能** 选项卡，选择包含 **CFDI 墨西哥电子发票 (MX)** 功能的行，然后进行适当的选择。 从这些外部系统导入到此 Dynamics 365 在线服务的数据受我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=512132)的约束。 有关详细信息，请查阅国家/地区特定功能文档中的“隐私声明”部分。

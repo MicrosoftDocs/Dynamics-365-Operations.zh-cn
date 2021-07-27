@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023067"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358474"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>将 TDS 税码附加到 TDS 税组并定义用于计算 TDS 的公式
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023067"
 
 1. 转到 **税务 \> 间接税 \> 预缴税金 \> 预缴税金组**。
 
-    [![预缴税金组页面](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![预缴税金组页面。](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. 在操作窗格上，选择 **新建** 以为 TDS 创建预缴税金组，然后输入所需的详细信息。
 3. 在 **税务类型** 字段中，选择 **TDS**。
@@ -43,7 +43,7 @@ ms.locfileid: "6023067"
 7. 若要阻止在交易中计算税组，请选中 **免税** 复选框。
 8. 在操作窗格上，选择 **设计器** 以打开公式设计器，以便您可以定义用于计算 TDS 税组的 TDS 的公式。 在 **设计器** 页面上，**税务** 选项卡显示已为 TDS 税组选择的 TDS 税码。
 
-    [![设计器页面](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![设计器页面。](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. 在 **计算** 选项卡上，选择 **Alt+N** 以创建行。 **ID** 字段显示 TDS 计算的自动生成的优先级 ID。
 10. 在 **税码** 字段中，选择要为其定义公式的 TDS 税码。 可在字段中选择已为 TDS 税组选择的所有 TDS 税码。

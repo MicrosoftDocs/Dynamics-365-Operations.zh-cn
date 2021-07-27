@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797471"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348336"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>向交易记录屏幕添加建议
 
@@ -43,7 +43,7 @@ ms.locfileid: "5797471"
 6. 在登录时，将显示如下页面。 布局将由为您的商店执行的自定义决定。
 
 
-    [![布局设计器](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![布局设计器。](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>选择显示选项
 
@@ -58,11 +58,11 @@ ms.locfileid: "5797471"
 1. 缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。
 
 
-    [![减少的交易记录行详细信息区域高度](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![减少的交易行详细信息区域的高度。](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. 将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。 调整控件大小，使其适合该空间。
 
-    [![添加到布局中的建议控件](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![添加到布局中的建议控件。](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. 单击 **X** 保存并退出布局设计器。
@@ -77,13 +77,13 @@ ms.locfileid: "5797471"
 
 2. 单击 **自定义**。
 
-    [![自定义 - 选项卡控件对话框](./media/pic-5.png)](./media/pic-5.png)
+    [![自定义 - 选项卡控件对话框。](./media/pic-5.png)](./media/pic-5.png)
 
 3. 单击 **新建选项卡**。
 4. 找到刚添加的新选项卡。 您可能需要向下滚动。
 5. 在 **目录** 下拉菜单中，选择 **建议的产品**。
 
-    [![在“目录”字段中选择“建议的产品”](./media/pic-6.png)](./media/pic-6.png)
+    [![在“目录”字段中选择“建议的产品”。](./media/pic-6.png)](./media/pic-6.png)
 
 6. 在 **标签** 字段，键入建议选项卡的名称。例如，键入“建议的产品”。
 7. 在 **图像** 字段中，选择要在该选项卡上显示的图像。

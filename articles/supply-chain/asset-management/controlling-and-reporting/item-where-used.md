@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 262a5a9d83767599f6e15183d6afcacf4b5901fe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 34b0c972ce007a40c7033bcce6000c5c08e28e2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808632"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346242"
 ---
 # <a name="item-where-used"></a>物料的使用位置
 
@@ -66,7 +66,7 @@ ms.locfileid: "5808632"
 
 在下面的屏幕截图中，可以看到编号为“1000”的物料的物料使用位置计算的示例。
 
-![使用位置计算的物料的示例](media/12-controlling-and-reporting.png)
+![使用位置计算的物料的示例。](media/12-controlling-and-reporting.png)
 
 
 

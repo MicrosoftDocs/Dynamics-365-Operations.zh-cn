@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808320"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349810"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 
@@ -99,7 +99,7 @@ ms.locfileid: "5808320"
 
 ## <a name="the-document-types-tab"></a>“文档类型”选项卡
 
-选择应该可用于打印与工作订单报表关联的附件的单据类型。 方法是选择 **可用** 部分中的单据类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
+选择应该可用于打印与工作订单报表关联的附件的单据类型。 通过选择 **可用** 部分中的文档类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮来完成此操作。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
 
 ## <a name="the-number-sequences-tab"></a>“编号规则”选项卡
 

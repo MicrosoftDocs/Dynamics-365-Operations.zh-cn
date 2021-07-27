@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792921"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348234"
 ---
 # <a name="create-and-update-store-hours"></a>创建和更新商店营业时间
 
@@ -49,14 +49,14 @@ Microsoft Dynamics 365 Retail 版本 8.1.2 及更高版本中提供此功能。
     > [!NOTE]
     > 可创建开始和结束日期重合的多个模板。 因此，可以执行为不同时区的商店定义商店营业时间之类操作。
 
-    ![“添加范围”对话框](../dev-itpro/media/Storehours1.png "“添加范围”对话框")
+    ![“添加范围”对话框。](../dev-itpro/media/Storehours1.png "“添加范围”对话框")
 
 4. 将商店营业时间模板与其使用商店关联。 在 **选择组织节点** 对话框中，选择应与模板关联的商店、地区和组织。
 
     - 只能为每个商店关联一个商店营业时间模板。
     - 使用箭头按钮选择商店、地区或组织。 商店或商店组可使用日历，POS 中将显示日历供参考。
 
-    ![选择组织节点对话框](../dev-itpro/media/Storehours2.png "选择组织节点对话框")
+    ![选择组织节点对话框。](../dev-itpro/media/Storehours2.png "选择组织节点对话框")
 
 5. 在 **配送计划** 页中，运行 **1070** 和 **1090** 作业以便将商店营业时间提供给 POS。
 
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 Retail 版本 8.1.2 及更高版本中提供此功能。
 
 POS 收银条中现在包含商店营业时间。 如果模板中包含任何节假日，将在收银条中显示这些节假日。
 
-![收据示例](../dev-itpro/media/Storehours3.png "收据示例")
+![收据示例。](../dev-itpro/media/Storehours3.png "收据示例")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357850"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
@@ -68,19 +68,19 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 在下图的示例中，PDP 显示有存货（“可用”）消息。
 
-![显示有存货消息的 PDP 模块的示例](./media/pdp-InStock.png)
+![显示有存货消息的 PDP 模块的示例。](./media/pdp-InStock.png)
 
 在下图的示例中，PDP 显示有“库存不足”消息。
 
-![显示库存不足消息的 PDP 模块的示例](./media/pdp-outofstock.png)
+![显示库存不足消息的 PDP 模块的示例。](./media/pdp-outofstock.png)
 
 在下图的示例中，购物车显示有存货（“可用”）消息。
 
-![显示有存货消息的购物车模块的示例](./media/cart-instock.png)
+![显示有存货消息的购物车模块的示例。](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[模块库概述](starter-kit-overview.md)
+[模块库概览](starter-kit-overview.md)
 
 [配置库存缓冲区和库存级别](inventory-buffers-levels.md)
 

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804397"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353796"
 ---
 # <a name="pickup-information-module"></a>提货信息模块
 
@@ -40,7 +40,7 @@ ms.locfileid: "5804397"
 
 下图显示了通过结帐页面上的提货信息模块选择时隙的示例。
 
-![结帐页上的提货信息模块的示例](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![结帐页面上的提货信息模块的示例。](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>模块属性
 
@@ -56,11 +56,11 @@ ms.locfileid: "5804397"
 
 下图显示了包括提货行项时隙的电子商务结帐页面的示例。
 
-![包括提货行项时隙的电子商务结帐页面的示例](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![包括提货行项时隙的电子商务结帐页面的示例。](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>其他资源
 
-[创建和更新客户提货时隙](dev-itpro/pickup-timeslots.md)
+[创建和更新用于客户提货的时隙](dev-itpro/pickup-timeslots.md)
 
 [结帐模块](add-checkout-module.md)
 

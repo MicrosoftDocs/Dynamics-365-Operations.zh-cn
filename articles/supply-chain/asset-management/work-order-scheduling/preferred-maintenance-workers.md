@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354100"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>设置首选维护工人
 
@@ -59,7 +59,7 @@ ms.locfileid: "5822531"
 
     [!NOTE] 通常当在安排工作订单期间选择了首选维护工人时，资产将在所有 **首选维护工人** 记录中查找可能的匹配项，始终首先查找最具体的组合。 如果未找到匹配项，将使用在 **首选维护工人组** 字段或 **首选维护工人** 字段中进行了选择的“默认”记录。
 
-![图 1](media/02-work-order-scheduling.png)
+![图 1.](media/02-work-order-scheduling.png)
 
 也可以设置在创建维护请求或工作订单时可选择的 *负责* 维护工人。 如果需要，可在 **所有工作订单** 和 **所有维护请求** 中编辑所选内容。 有关详细信息，请参阅[负责维护工人](../setup-for-maintenance-requests/responsible-workers.md)。
 

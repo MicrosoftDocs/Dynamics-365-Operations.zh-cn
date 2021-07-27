@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349992"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>未生成 TaxTrans 记录
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018773"
 
 如果您为交易选择 **已过帐销售税**，但是 **已过帐销售税** 页上未显示税务行或缺少税务行，有可能是未生成 **TaxTrans** 记录。
 
-[![没有行项的“已过帐销售税”页](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![没有行项的“已过帐销售税”页面。](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 要解决此问题，请根据需要按照以下各节中的步骤操作。
 
@@ -34,7 +34,7 @@ ms.locfileid: "6018773"
 
 1. 在过帐交易之前，在 **过帐发票** 页上，选择 **销售税** 检查计算。
 
-    [![“过帐发票”页上的“销售税”按钮](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![“过帐发票”页面上的“销售税”按钮。](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. 在 **临时销售税交易** 页上，查看计算结果。 如果未计算税款，请参阅[未计算税款或税额为零](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md)。
 
@@ -44,16 +44,16 @@ ms.locfileid: "6018773"
 2. 在 **凭证** 列标题中，选择筛选符号查找 **TaxTrans** 记录。
 3. 如果找到了所需的销售税记录，请检查日期。 如果日期不同于日记帐标头的日期，请创建 Microsoft 服务请求寻求其他支持。
 
-    [![已过帐的销售税页面](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![已过帐的销售税页面。](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>调试以检查详细信息
 
 1. 有关如何调试和确定是否正确生成了 **TmpTaxWorkTrans** 和 **TaxUncommitted** 的信息，请参阅 [TaxTrans 中的字段值不正确](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md)。
 2. 如果正确生成了 **TaxTmpWorkTrans** 或 **TaxUncommitted**，在 **TaxPost::SaveAndPost()** 和 **Tax::SaveAndPost** 处添加中断点来调试未插入 **TaxTrans** 的原因。
 
-    [![在代码中添加的中断点](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![在代码中添加的中断点。](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![添加的中断点的结果](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![添加的中断点的结果。](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>确定是否存在自定义
 

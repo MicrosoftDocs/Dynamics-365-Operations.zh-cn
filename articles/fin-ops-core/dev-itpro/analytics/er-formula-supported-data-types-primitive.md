@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224079"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355314"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的原始数据类型
 
@@ -112,13 +112,13 @@ ms.locfileid: "6224079"
 
 下图显示了您可以如何将 **CustVendCorrectiveReasonCode** 模型枚举添加到可编辑的 ER 数据模型。
 
-[![在 ER 数据模型设计器中配置模型枚举](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![在 ER 数据模型设计器中配置模型枚举。](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 模型 *枚举* 可用于已在引入了 *枚举* 的数据模型下创建的任何 ER 模型映射和 ER 格式的表达式中。
 
 下图显示了您可以如何将 **Natura 冲销费用子类别的列表** 格式枚举添加到可编辑的 ER 格式。
 
-[![在 ER 格式设计器中配置格式枚举](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![在 ER 格式设计器中配置格式枚举。](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 格式 *枚举* 仅可用于引入了 *枚举* 的 ER 格式的表达式中。
 
@@ -126,15 +126,15 @@ ms.locfileid: "6224079"
 
 - 可以使用 **Dynamics 365 for Operations \ 枚举** 和 **常规 \ 用户输入参数** 数据源访问应用程序枚举。 下图显示了您可以如何将引用 **NoYes** 应用程序枚举的 **appenumNoYes** 和 **uipNoYes** 数据源添加到可编辑的 ER 格式。
 
-    [![在 ER 格式设计器中添加应用程序枚举数据源](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![在 ER 格式设计器中添加应用程序枚举数据源。](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - 可以使用 **数据模型 \ 枚举** 和 **数据模型 \ 枚举用户输入参数** 数据源访问数据模型枚举。 下图显示了您可以如何将引用 **CustVendCorrectiveReasonCode** 数据模型枚举的 **CustVendCorrectiveReasonCode** 数据源添加到可编辑的 ER 格式。
 
-    [![在 ER 格式设计器中添加模型枚举数据源](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![在 ER 格式设计器中添加模型枚举数据源。](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - 可以使用 **格式 \ 枚举** 和 **格式 \ 枚举用户输入参数** 数据源访问格式枚举。 下图显示了您可以如何将引用 **Natura 冲销费用子类别** 格式枚举的 **NaturaReverseCharge** 数据源添加到可编辑的 ER 格式。
 
-    [![在 ER 格式设计器中添加格式枚举数据源](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![在 ER 格式设计器中添加格式枚举数据源。](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 *枚举* 没有隐式转换。 但是，您可以使用 [TEXT](er-functions-text-text.md) 转换函数将 *枚举* 转换为文本字符串。 此转换与语言无关。 若要了解您可以如何将 *枚举* 值与特定于语言的相应标签相关联，请参阅 [LISTOFFIELDS](er-functions-list-listoffields.md) 和 [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) 函数的使用示例。
 

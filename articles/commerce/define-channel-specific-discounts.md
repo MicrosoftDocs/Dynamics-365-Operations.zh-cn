@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802061"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349568"
 ---
 # <a name="define-channel-specific-discounts"></a>定义特定于渠道的折扣
 
@@ -37,7 +37,7 @@ Commerce 使用价格组来定义渠道特定的折扣。 价格组可分配给�
 
 ## <a name="price-groups"></a>价格组
 
-[![价格组](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![价格组。](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 上图说明可以位于交易记录上的实体（渠道、目录、隶属关系、客户、会员卡）和可以配置的不同折扣类型之间的关系。 所有交易记录都在渠道中进行，因此，要确保渠道存在于交易记录上。 剩余的实体是可选的。 在每个主数据页上，都有一个指向相关价格组的链接，您可以根据需要在其中查看和添加价格组。 价格组用于将四个不同类型的实体关联到折扣、价格调整和贸易协议。 我们建议您针对如何命名价格组以使其组织有序规划一种策略。 一个选项是使用字母或数字前缀或后缀来区分不同类型。 例如，渠道价格组的 1-xxxxx 和目录价格组的 2-xxxxx。 有四个查询页侧重于每个可以具有与其关联的折扣的商业实体。
 

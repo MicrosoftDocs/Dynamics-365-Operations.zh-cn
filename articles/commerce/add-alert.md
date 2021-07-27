@@ -2,7 +2,7 @@
 title: 促销横幅模块
 description: 此主题介绍促销横幅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796238"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479344"
 ---
 # <a name="promo-banner-module"></a>促销横幅模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍促销横幅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
@@ -34,7 +35,7 @@ ms.locfileid: "5796238"
 
 促销横幅模块由内容管理系统 (CMS) 的数据驱动，可放到任何页面中。
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>电子商务中促销横幅的用法示例
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>电子商务中促销横幅的使用情况示例
 
 可以在网站标题中使用促销横幅，以显示网站范围内的促销或消息，如以下示例所示。
 
@@ -46,7 +47,7 @@ ms.locfileid: "5796238"
 
 下图显示了一个促销横幅示例。
 
-![促销横幅模块示例](./media/ecommerce-Promobanner.PNG)
+![促销横幅模块的示例。](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>促销横幅模块属性
 
@@ -59,6 +60,10 @@ ms.locfileid: "5796238"
 | 显示轮播翻转器     | **True** 或 **False**              | 一个值，该值指示是否应显示轮播翻转器，以便客户可以手动循环浏览多个横幅项目。 |
 | 文本对齐            | **向右对齐**、**向左对齐** 或 **居中对齐** | 促销横幅模块中的文本对齐。 |
 | 链接                      | URL                              | 可选链接的 URL。 |
+|文本对齐方式             | **向右对齐**、**向左对齐** 或 **居中对齐** | 此属性作为 Adventure Works 主题中的主题扩展提供。 它允许用户在促销横幅中设置文本对齐方式。 |
+
+> [!IMPORTANT]
+> Adventure Works 主题从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>向页面添加促销横幅模块 
 
@@ -78,7 +83,6 @@ ms.locfileid: "5796238"
 
 > [!NOTE]
 > 通常在页面标题槽或子标题槽中使用促销横幅。
-
 
 ## <a name="additional-resources"></a>其他资源
 

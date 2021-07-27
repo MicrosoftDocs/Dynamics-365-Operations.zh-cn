@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27e1275199d098fffb56db61ed6bfd2fc3cdb790
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9428ff1f53928f104df4736911ce34756128da44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359427"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并将其标记为有效
 
@@ -41,7 +41,7 @@ ms.locfileid: "5755122"
 1. 选择 Litware 提供商。
 2. 选择 **设置有效**。
 
-![电子申报工作区概览](../media/GER-Task-ActiveProvider-1.png)
+![电子报告工作区页面。](../media/GER-Task-ActiveProvider-1.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

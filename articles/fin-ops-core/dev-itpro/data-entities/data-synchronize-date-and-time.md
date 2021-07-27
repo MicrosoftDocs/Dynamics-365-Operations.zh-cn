@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 32090af050fdb97e7b581cefcfc9155357327441
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748661"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350983"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>同步导入作业中的日期和时间
 
@@ -33,7 +33,7 @@ ms.locfileid: "5748661"
 
 3. 在 **源日期格式** 下，选择 **CSV-Unicode**。
 
-   [![将源日期格式更改为 UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![将源日期格式更改为 UTC。](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. 将 **时区** 更改为 **协调世界时区**，将 **语言** 更改为 **En-US**。
 

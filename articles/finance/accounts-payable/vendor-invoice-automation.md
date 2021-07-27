@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344798"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>已扫描文档的账单自动化
 
@@ -34,7 +34,7 @@ ms.locfileid: "5841229"
 
 下图显示 Contoso 与 OCR 服务提供商合作进行供应商发票处理的集成示例场景。 Contoso 的供应商通过电子邮件将发票发送给服务提供商。 通过 OCR 处理，该服务提供商生成发票元数据（抬头和/或行）和发票的扫描图像。 然后，集成层将这些项目进行转换，使其可以使用。
 
-![集成示例场景](media/vendor_invoice_automation_01.png)
+![集成示例场景。](media/vendor_invoice_automation_01.png)
 
 如果要求发票集成，上述场景可以存在多种变体。 数据迁移是使用此界面创建发票和附件的另一个使用案例。
 
@@ -92,7 +92,7 @@ ms.locfileid: "5841229"
 
 新的发票异常列表页在 **应付帐款** > **发票** > **导入功能** > **导入失败的供应商发票** 中可用。 此页显示来自供应商发票抬头数据实体暂存表的所有供应商发票抬头记录。 请注意，您可以从 **数据管理** 工作区查看相同的记录。 也可以从 **数据管理** 工作区执行在异常处理功能中提供的相同操作。 已针对功能性用户优化异常处理功能，使其更易于使用。
 
-![异常列表页](media/vendor_invoice_automation_02.png)
+![异常列表页面。](media/vendor_invoice_automation_02.png)
 
 此列表页包括通过馈送进入的以下字段：
 
@@ -136,7 +136,7 @@ ms.locfileid: "5841229"
 + 按用户
 + 按法人
 
-![按用户角色和法人受到保护的导入作业](media/vendor_invoice_automation_04.png)
+![按用户角色和法人受到保护的导入作业。](media/vendor_invoice_automation_04.png)
 
 如果对发票导入作业配置安全性，异常列表页将遵守这些设置。 用户将仅能够看到此设置允许他们看到的发票异常记录。
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188926"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350490"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
@@ -45,7 +45,7 @@ ms.locfileid: "6188926"
 
 简单工艺路线具有连续性，并且只有一个起点。  
 
-[![简单工艺路线](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![简单工艺路线。](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 如果您在“生产控制参数”中仅启用简单工艺路线，在您定义工艺路线时，Supply Chain Management 将自动生成工序编号（10、20、30，依此类推）。
 
@@ -53,7 +53,7 @@ ms.locfileid: "6188926"
 
 如果您在“生产控制参数”中启用更复杂的工艺路线网络，则可以定义多个起点和工序，并且这些工序可以并行运行。  
 
-[![工艺路线网络](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![工艺路线网络。](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - 每道工序只能有一个后续工序，而整个工艺路线只能在一道工序中结束。
@@ -64,7 +64,7 @@ ms.locfileid: "6188926"
 
 有时需要组合多个具有不同特征的工序资源，才能执行某道工序。 例如，装配工序可能要求为每两台机器配备一台机器、一个工具和一位工作人员，以便监督该工序。 可通过使用并行工序来建模，其中一道工序被指定为主工序，其他工序被指定为辅助工序。  
 
-[![具有主工序和辅助工序的工艺路线](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![具有主工序和辅助工序的工艺路线。](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 主工序通常表示瓶颈资源，并指示辅助工序的运行时间。 但是，涉及有限产能的安排期间，同时为主工序和辅助工序安排的资源必须同时可用且拥有可用产品。  
 

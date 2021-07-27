@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce10817d677f7e48194272b5ebb91b95d657441f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754818"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360240"
 ---
 # <a name="action-search"></a>操作搜索
 
@@ -31,7 +31,7 @@ ms.locfileid: "5754818"
 
 页面主要在操作窗格（页面顶部显示的标准操作窗格和页面各部分中显示的工具栏）中显示命令。 在以前版本中，“键提示”功能能够让您通过按下 Alt 键和一系列字母的方式快速访问“操作窗格”上的任何按钮。
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6。](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 操作搜索功能取代了“键提示”，后者不能再使用。 这一新的功能允许您迅速搜索和运行所有可见操作窗格中的按钮。
 
@@ -45,7 +45,7 @@ ms.locfileid: "5754818"
 
 该按钮运行后，焦点返回到您在页面的最后一个位置，以便您可以继续工作。
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field。](./media/action-search-field.png)](./media/action-search-field.png)
 
 您还可以通过按 Ctrl+/ 或 Alt+Q 开始操作搜索。 再次按键盘快捷方式将焦点返回到您在页面上的最后一个位置。
 
@@ -61,11 +61,11 @@ ms.locfileid: "5754818"
 
 例如，您在 **操作搜索** 字段中键入 **tot**，现在正在检查结果列表。 名为 **总计** 的按钮的第一个条目将高亮显示。 **销售订单** &gt; **查看** 的按钮路径也将显示。 路径的 **销售订单** 部分与“操作窗格”中的 **销售订单** 选项卡对应，路径的 **查看** 部分与该选项卡上的 **查看** 组对应。同样，**总折扣** 按钮的路径（**销售** &gt; **计算**）告知您此按钮位于“操作窗格”的 **销售** 选项卡上的 **计算** 组中。 因此，此信息帮助您确切了解哪个按钮将由操作搜索触发（如果您在结果列表中选择该按钮）。
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data。](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 在之前的示例中，操作搜索在页面顶部显示了标准操作窗格的结果。 但是，操作搜索还显示位于页面其他位置的可见工具栏的结果。 例如，您搜索位于 **销售订单行** 快速选项卡的 **现有库存量** 按钮。 这种情况下，结果列表中的按钮路径（**销售订单行** &gt; **库存** &gt; **查看**）告知您此按钮位于 **销售订单行** 快速选项卡的 **库存** 菜单按钮上的 **查看** 标题下。
 
-[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory。](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > 有一些按钮在操作搜索中不显示。 包括下拉对话框按钮和子窗体的按钮。 

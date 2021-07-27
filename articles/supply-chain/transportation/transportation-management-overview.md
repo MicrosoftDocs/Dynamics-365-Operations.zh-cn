@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359501"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
@@ -67,17 +69,17 @@ ms.locfileid: "5807720"
 ## <a name="planning-transportation-in-supply-chain-management"></a>在 Supply Chain Management 中计划运输
 在运输管理中， 运输计划可以基于订单或基于根据这些订单创建的装运。 装运在某个时间点上始终存在，但对运输计划不是必需的。 转移单是出站方案的一部分，并且可以与销售订单一起计划。 
 
-![装载图](./media/Load-drawing1-1024x477.jpg)
+![负荷图。](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>入站运输
 当您从供应商订购物料，且物料必须交付至您的仓库，您可能想要亲自安排物料的运输。 您可以使用 Supply Chain Management 来计划运输和入站负荷的收货。 下图显示了计划入站负荷的运输的业务流程。 
 
-![入站装载运输的业务流程](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![入站负荷运输的业务流程流。](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>出站运输
 您可以计划和处理一个出站负荷来将指定物料从公司仓库装运至客户。 您可以使用 Supply Chain Management 来计划运输和出站负荷的装运。 下图显示了计划和处理装运的出站负荷的业务流程。 
 
-![计划和处理出站装载](./media/Planningandprocessingoutboundloads.jpg)
+![计划和处理出站负荷。](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>装载计划
 Supply Chain Management 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在 **装载计划工作台** 页中 **设置** 快速选项卡上的 **装载计划策略** 字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。

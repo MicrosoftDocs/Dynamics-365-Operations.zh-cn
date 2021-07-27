@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800413"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352656"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 
@@ -41,7 +41,7 @@ Dynamics 365 Commerce 搜索体验的功能已改进，可以帮助零售商改�
 
 下图显示典型浏览和搜索功能的示例。
 
-![搜索登陆页](./media/SearchLanding.png)
+![搜索登陆页面。](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>分面导航和选项汇总 
 
@@ -51,7 +51,7 @@ Dynamics 365 Commerce 搜索体验的功能已改进，可以帮助零售商改�
 
 下图显示一个示例，其中在搜索中使用分面导航。
 
-![选项汇总](./media/ChoiceSummary.png)
+![选项汇总。](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>沉浸式自动建议
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 
 下图显示正在使用沉浸式自动建议的示例。
 
-![沉浸式自动建议](./media/ImmersiveAutoSuggestUX.png)
+![沉浸式自动建议。](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>排序
 
@@ -69,7 +69,7 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 
 >[!NOTE]
 >从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数** 下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
-![云助力搜索的配置参数](./media/CloudPoweredSearchConfigurationParameters.png)
+![云助力搜索的配置参数。](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224078"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355338"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的复合数据类型
 
@@ -43,11 +43,11 @@ ms.locfileid: "6224078"
 
 下图显示了如何添加 **类** 类型的 **系统信息 (xInfo)** 数据源以创建 **(xInfo)** 应用程序类的实例并调用其 **productName()** 方法，从而接收当前应用程序的名称。 通过执行已为 ER 数据模型的 **软件名称 (SoftwareName)** 字段配置的 `xInfo.productName` 绑定，在运行时获取当前应用程序的名称。 此绑定调用在当前模型映射中表示为 **系统信息 (xInfo)** 数据源的 **xInfo** 应用程序类的 `productName()` 方法。
 
-[![在 ER 模型映射设计器中配置类数据源](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![在 ER 模型映射设计器中配置类数据源。](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 下图显示了如何配置 ER 格式以将提供的应用程序名称放入生成的单据中。 使用的数据模型的 **软件名称 (SoftwareName)** 字段已绑定到在 ER 格式的 **softwareUsed** XML 元素下嵌套的 **字符串** 组件。 因此，当前应用程序的名称在运行时放置到生成的 XML 格式单据的 **softwareUsed** XML 元素中。
 
-[![在 ER 格式设计器中配置电子出库单据的结构](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![在 ER 格式设计器中配置电子传出文档的结构。](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>容器
 
@@ -60,7 +60,7 @@ ms.locfileid: "6224078"
 
 下图显示了如何将 *容器* 类型的 **位图（图像）** 字段绑定到 **销售发票** 模型映射中 **容器** 类型的数据模型 **徽标** 字段。 此绑定使公司徽标可用于专为 **销售发票** 根定义设计并在运行时使用此模型映射的任何 ER 格式。
 
-[![在 ER 模型映射设计器中绑定容器类型的字段](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![在 ER 模型映射设计器中绑定容器类型的字段。](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>录制
 
@@ -109,7 +109,7 @@ ms.locfileid: "6224078"
 
 下图显示如何添加 *对象* 类型的 **ReportDataContract** 数据源，以将生成的发票从源代码传递到 **项目发票** 模型映射。 例如，发票实例文本作为执行上下文的一部分传递。 通过执行为 ER 数据模型的 **注释** 字段配置的 `ReportDataContract.parmInvoiceInstanceText` 绑定，在运行时从源代码中获取此文本。 此绑定调用在当前模型映射中表示为 **ReportDataContract** 数据源的 **PSAProjInvoiceContract** 应用程序类的 `parmInvoiceInstanceText()` 方法。
 
-[![在 ER 模型映射设计器中配置对象数据源](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![在 ER 模型映射设计器中配置对象数据源。](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 若要了解如何将执行上下文的详细信息从源代码传递到运行 ER 解决方案，请参阅[开发应用程序伪像以调用设计的报表](er-quick-start1-new-solution.md#DevelopCustomCode)。
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023069"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356601"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金组分组
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023069"
 
 1. 转到 **税 \> 设置 \> 预缴税金 \> 预缴税金组分组**。
 
-    [![预缴税金组分组页面](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![预缴税金组分组页面。](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. 在 **税务类型** 字段中，选择 **TDS** 为 TDS 税务类型设置预缴税金组分组。
 3. 在“操作窗格”中，选择 **新建** 创建一行。

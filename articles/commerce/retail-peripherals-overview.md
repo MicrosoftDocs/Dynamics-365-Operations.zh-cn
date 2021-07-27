@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345024"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -119,7 +121,7 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 -   **控件对象** – 设备类（如行显示器）的控件对象提供软件程序的界面。 Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) 提供一组标准的 OPOS 控件对象，称为公共控件对象 (CCO)。 CCO 用于测试 Commerce 的 POS 组件。 因此，如果 Commerce 通过 OPOS 为设备类提供支持，并且制造商提供为 OPOS 构建的服务对象，此项测试有助于确保可以支持多种设备类型。 无需明确测试每个设备类型。
 -   **服务对象** – 服务对象提供控件对象 (CCO) 与设备之间的通信。 设备的服务对象通常由设备制造商提供。 但是在某些情况下，您可能必须从制造商的网站下载服务对象。 例如，可能提供了更新的服务对象。 若要查找制造商的网站地址，请参阅您的硬件文档。
 
-[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试也不例外。 
+[![控件对象和服务对象。](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 
 
 > [!NOTE]
 > 支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Commerce 必须首先通过 OPOS 支持该设备类型（或类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
