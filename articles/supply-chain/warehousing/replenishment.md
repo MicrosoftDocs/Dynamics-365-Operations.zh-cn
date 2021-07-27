@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2b9ae560a991d50b9e63e6c3d73f01ce72394fb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e381af433eb3041d92ddfe375e6b4c75c1feb7c2
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814456"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335812"
 ---
 # <a name="replenishment-overview"></a>补货概览
 

@@ -8,19 +8,21 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: 141393
+ms.custom:
+- "141393"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 7b99b5f7b5b972d41e0831995bde69e9041369b9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: adab650451a4ff22fcba82b0aa053c923f5dc5ef
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028003"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339423"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 

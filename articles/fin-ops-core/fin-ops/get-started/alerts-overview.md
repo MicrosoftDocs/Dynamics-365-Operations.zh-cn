@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 5a92d84a5e8eaa2477d90df5065c0941d90dad5a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f114e6bd04622dcac668d15ad6c55f7de70b4e7e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749844"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336734"
 ---
 # <a name="alerts-overview"></a>预警概览
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 78212
+ms.custom:
+- "78212"
+- intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 85f2c623255b8fec17acfcf7da7adbb105e921c7
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187594"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336527"
 ---
 # <a name="standard-cost-conversion-overview"></a>标准成本转换概览
 

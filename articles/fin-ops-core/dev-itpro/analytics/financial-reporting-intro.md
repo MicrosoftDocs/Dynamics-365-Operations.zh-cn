@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 68813
+ms.custom:
+- "68813"
+- intro-internal
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0dbe9621760fbb56eb8123d58f72e2fb0080c4f4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5498fef48320c6daa878fc7b979a8ae08670192e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743395"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339303"
 ---
 # <a name="financial-reporting"></a>财务报告
 

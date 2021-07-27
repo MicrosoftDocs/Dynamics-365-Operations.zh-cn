@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: edc0bab7287e271f1d1197d87a95709599e12b5b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42d126c598ee1811b686a9066e15e9f82264e4ce
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820537"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339255"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 

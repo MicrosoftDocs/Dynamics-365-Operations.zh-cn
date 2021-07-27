@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 51941
+ms.custom:
+- "51941"
+- intro-internal
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 09efb52a76be8ee458135b013b577666a56953f7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: adb0fc344963b33fe1704a22a35415d9c07b9a08
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052113"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338089"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概述
 

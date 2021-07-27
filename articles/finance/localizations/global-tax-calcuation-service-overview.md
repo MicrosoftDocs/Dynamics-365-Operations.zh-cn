@@ -10,17 +10,17 @@ ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
-ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
+ms.openlocfilehash: bab6e0e0ea1b9fb7f598e37843b52e3ba9c7f94e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184093"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336624"
 ---
 # <a name="tax-calculation-preview"></a>税款计算(预览版)
 

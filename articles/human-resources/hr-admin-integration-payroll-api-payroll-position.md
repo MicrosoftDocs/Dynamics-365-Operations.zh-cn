@@ -13,18 +13,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8918044dbf84e79015dc3bca904f204123a37db8
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e13a6b3608802eb7bb2bc00686c2e914cc765587
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056772"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314157"
 ---
 # <a name="payroll-position"></a>工资单职位
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题提供 Dynamics 365 Human Resources 中职位实体的详细信息和工资单详细信息的示例查询。
+本主题介绍 Dynamics 365 Human Resources 中的工资单职位实体。
+
+物理名称：mshr_payrollpositionentity。
+
+### <a name="description"></a>说明
+
+该实体为给定员工提供与职位相关的信息。
+
+物理名称： 
 
 ## <a name="properties"></a>属性
 
@@ -41,9 +49,9 @@ ms.locfileid: "6056772"
 | **失效日期**<br>validto<br>*日期/时间偏移* | 只读<br>必填 |位置详细信息有效的开始日期。  |
 | **生效日期**<br>validfrom<br>*日期/时间偏移* | 只读<br>必填 |位置详细信息有效的结束日期。  |
 
-**查询**
+## <a name="example-query"></a>示例查询
 
-**申请**
+**请求**
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_payrollpositionentities?$filter=mshr_positionid eq @positionid and mshr_validfrom le @asofdate and mshr_validto ge @asofdate&@positionid='000276'&@asofdate=2021-04-01
@@ -53,15 +61,21 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollpositionentities?$filter=mshr_po
 
 ```json
 {
-            "mshr_positionid": "000276",
-            "mshr_paycycleid": "w",
-            "mshr_annualregularhours": 3000,
-            "mshr_paidbylegalentity": "USMF",
-            "mshr_validfrom": "2021-03-14T00:00:00Z",
-            "mshr_validto": "2154-12-31T00:00:00Z",
-            "mshr_primaryfield": "000276 | 3/14/2021",
-            "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
-            "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-            "mshr_payrollpositionentityid": "00010097-0000-0000-df00-014105000000"
+    "mshr_positionid": "000276",
+    "mshr_paycycleid": "w",
+    "mshr_annualregularhours": 3000,
+    "mshr_paidbylegalentity": "USMF",
+    "mshr_validfrom": "2021-03-14T00:00:00Z",
+    "mshr_validto": "2154-12-31T00:00:00Z",
+    "mshr_primaryfield": "000276 | 3/14/2021",
+    "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
+    "mshr_payrollpositionentityid": "00010097-0000-0000-df00-014105000000"
 }
 ```
+
+## <a name="see-also"></a>请参阅
+
+[工资单集成 API 简介](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 7911
+ms.custom:
+- "7911"
+- intro-internal
 ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3da1e7d4f6fb709f5ed849022b199a367dbafbee
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a07a8a2a8ef1307abb462db0670e600bfc7ca187
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187498"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335346"
 ---
 # <a name="master-plans-overview"></a>主计划概览
 

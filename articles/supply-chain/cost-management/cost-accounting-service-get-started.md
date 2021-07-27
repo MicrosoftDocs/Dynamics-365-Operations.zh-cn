@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: b6756e3745aa4596bd5d63ad15aaf4385cfc4813
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 207c9dfe9e49b845d2c98040c1571099e01b43f7
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813187"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337688"
 ---
 # <a name="get-started-with-the-cost-accounting-service-private-preview"></a>开始使用成本核算服务（私人预览版）
 

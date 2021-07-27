@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261902"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338221"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261902"
 
 Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。 将这些新功能与供应商付款和收款中的自动化相结合时，它们将提供丰富而智能的财务系统，以推动决策制定，并帮助您采取行动以有效应对当前和预期的业务挑战。
 
-Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
-
-可以并且应该仅在第 2 层沙盒环境中启用预览版功能。 在沙盒环境中创建的设置和人工智能 (AI) 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.)。
+> [!NOTE]
+> Finance Insights 预览版可用于美利坚合众国、加拿大、英国、欧洲、亚太、澳大利亚和新西兰的部署。 Microsoft 将逐渐增加对更多地区的支持。 为了在生产环境上启用 Finance Insights，首先应该在生产环境上启用[导出到 Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) 功能。
 
 > [!NOTE]
 > 此功能将作为一组预览功能提供。 作为预览功能，您不应使用生成的机器学习模型来推动或影响您的业务决策或预算提案。 您对该功能的使用受[补充使用条款](https://go.microsoft.com/fwlink/?linkid=2105274)约束。
@@ -46,7 +47,7 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 
 ### <a name="system-requirements"></a>系统要求
 
-需要第 2 层沙盒环境（多盒）才能预览 Finance insights。 有关环境的背景信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
+需要第 2 层环境（多盒）才能预览 Finance Insights。 有关环境的背景信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
 
 ### <a name="version-requirements"></a>版本要求
 
@@ -55,8 +56,6 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 ### <a name="historical-data-requirements"></a>历史数据要求
 
 需要至少一年的客户发票价值才能正确训练用于客户付款预测功能的机器学习模型。
-
-示例数据可用于具有 Contoso 演示数据集的演示系统。
 
 ### <a name="role-and-permission-requirements"></a>角色和权限要求
 
@@ -72,7 +71,7 @@ Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Mi
 ## <a name="configure-finance-insights"></a>配置 Finance insights
 
 您必须先完成一些配置步骤，然后才能使用 Finance insights。 有关如何配置 Finance Insights 的详细信息，请参阅：
-  - 对于 10.0.19 之前的版本：[Finance Insights 的配置 - 10.0.19 之前的版本](configure-for-fin-insites.md)。
+  - 对于 10.0.19 之前的版本：[Finance Insights（预览）的配置 - 10.0.19 之前的版本](configure-for-fin-insites.md)。
   - 对于版本 10.0.20 及更高版本：[Finance Insights 的配置（预览）- 版本 10.0.20 及更高版本](configure-for-fin-insites-PubPrvw.md)。
 
 ## <a name="create-a-data-integrator-project"></a>创建数据集成器项目

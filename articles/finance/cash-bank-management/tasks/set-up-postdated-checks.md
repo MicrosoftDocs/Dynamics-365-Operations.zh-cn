@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026197"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309758"
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
@@ -58,6 +58,7 @@ ms.locfileid: "6026197"
 > 
 > 设置 **付款方式**（**应付帐款 > 付款设置 >付款方式**）时，请勿填写 **过渡帐户**。 在这种情况下，抵销帐户将填充为 **付款方式** 中设置的银行帐户。
 >  
-> 启用此功能且会话日期早于到期日期时，过帐付款日记帐时将显示以下错误消息：“如果抵销帐户类型为‘银行’，到期日期必须早于或等于会话日期”。 如果未启用此功能，您可以在会话日期早于到期日期时过帐带有远期支票的付款日记帐。    
+> 启用此功能且会话日期早于到期日期时，过帐付款日记帐时将显示以下错误消息：“如果抵销帐户类型为‘银行’，到期日期必须早于或等于会话日期”。 如果未启用此功能，您可以在会话日期早于到期日期时过帐带有远期支票的付款日记帐。
+> 版本 10.0.21 或更高版本中提供此功能。    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

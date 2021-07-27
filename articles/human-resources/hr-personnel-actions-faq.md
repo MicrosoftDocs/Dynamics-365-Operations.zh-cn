@@ -2,7 +2,7 @@
 title: 人事行动常见问题
 description: 如果您的组织使用人事行动，本文包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054540"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333011"
 ---
 # <a name="personnel-actions-faq"></a>人事行动常见问题
 
@@ -42,7 +42,7 @@ ms.locfileid: "6054540"
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>人事行动状态的意思是什么？
 人事行动可具有以下状态：
 
-- **草稿** -如果使用了工作流，且未提交行动。 如果不使用工作流，则未完成行动。
+- **草稿** – 如果使用了工作流，未提交行动。 如果不使用工作流，未完成行动。
 - **正在审核** –人事行动已提交到工作流，但工作流未完成。
 - **等待批准** – 工作流已完成，但仍在处理更改。 已取消 –工作流已取消或人事行动已撤回。 已拒绝 –批准人否决行动请求。
 - **处理行动** –行动请求已得到批准，正在处理更改。
@@ -51,7 +51,7 @@ ms.locfileid: "6054540"
 - **已拒绝** –批准人拒绝行动请求。
 
 ## <a name="can-i-delete-a-personnel-action"></a>我是否可以删除人事行动？
-您可以删除状态为 **草稿**、**错误**、**失败** 或 **已取消** 的人事行动。
+您可以删除状态为 **草稿**、**错误**、**失败** 或 **已取消** 的人事行动。 仅可以在 **Human Resources 共享参数** 页面上 **允许删除完成的工作人员行动** 选项已设置为 **是** 时，才删除具有 **已完成** 状态的人事行动。
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>检查人事行动请求状态的最快捷方法是什么？
 打开任何人事行动清单页然后选择一个人事行动。
@@ -66,7 +66,7 @@ ms.locfileid: "6054540"
 > 3. 解决该错误，然后单击 **完成** 或 **提交**。
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>当完成最终批准时使用工作流，人事行动会发生什么？
-如果没有任何错误，人事行动变为只读。 （您可以查看有关 **所有工作人员变动** 列表页的历史记录，不过，您不能更改人事行动。）当人事行动的状态为 **已完成** 时，职位或工作人员记录已更新。 若要查看已执行的更改，可打开 **职位** 或 **工作人员** 列表页。
+如果没有任何错误，人事行动变为只读。 （您可以查看有关 **所有工作人员行动** 列表页面上的历史记录，不过，您不能更改人事行动。）当人事行动的状态为 **已完成** 时，职位或工作人员记录已更新。 若要查看已执行的更改，可打开 **职位** 或 **工作人员** 列表页。
 
 ## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>当我在付费率字段中输入一个非零值时，为何受到如下错误？ “该值不在其有效范围内 - 它必须介于 0.00 和 0.00 之间”
 收到此消息是因为作业窗体中的级别字段对于与所选职位关联的作业为空。
@@ -80,10 +80,10 @@ ms.locfileid: "6054540"
 > 5. 在级别字段中选择一个级别。
 > 6. 关闭作业页面。
 > 7. 关闭职位页面。
-> 8. 返回到工作人员页上的薪酬选项卡，选择固定薪酬。  在职位字段中选择新建并输入员工的职位。  在计划字段中输入一个值，然后在付薪比率字段输入员工的薪酬。
+> 8. 返回到工作人员页上的薪酬选项卡，选择固定薪酬。  在“职位”字段中选择“新建”并输入员工的职位。  在“计划”字段中输入一个值，然后在“付薪比率”字段中输入员工的薪酬。
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>为什么无法在工作人员行动窗体抬头上更改生效日期？
-因为该字段格式化为行动类型的最合理日期，因此不能更改生效日期。
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>为什么无法在工作人员行动窗体的标头中更改生效日期？
+因为使用行动类型的最合理日期填充该字段，因此不能更改生效日期。
 
 例如：
 

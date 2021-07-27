@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13151
+ms.custom:
+- "13151"
+- intro-internal
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9eb1440a67ae96f2a456bcee07515841f205bd2a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e478b3d614e38f8af851b93e948d6fe375d21a9
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827402"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338678"
 ---
 # <a name="consolidation-and-elimination-overview"></a>合并和清除概览
 

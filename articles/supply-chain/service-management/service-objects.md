@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ded41bb49c9ce4f0ceb003d1d7537aa4b2023a60
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4a078b2573a08dfd4ac2232bb22f2d694cab090e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840477"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335860"
 ---
 # <a name="service-objects-overview"></a>服务对象概览
 

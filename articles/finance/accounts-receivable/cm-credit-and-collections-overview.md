@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7929150cd9f6c28620f4c4d4cb7b57b02d27a104
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 81518cf7e70e8283d55e0b031bb1c48f1fad840f
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835404"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337271"
 ---
 # <a name="credit-and-collections-overview"></a>信用和收款概览
 

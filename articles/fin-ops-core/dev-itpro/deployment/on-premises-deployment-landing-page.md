@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
+ms.custom:
+- "55651"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ef19a154b4e18246c88adea48ee2709af17f039f
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5940953"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338922"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 

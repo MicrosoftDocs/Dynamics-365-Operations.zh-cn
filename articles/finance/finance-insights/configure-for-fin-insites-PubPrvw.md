@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222604"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309657"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>公开预览版（预览）的 Finance insights 的配置 - 版本 10.0.20 及更高版本
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222604"
 Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍如何配置 Dynamics 365 Finance 版本 10.0.20，以便系统可以使用 Finance insights 公开预览版中的可用功能。
 
 > [!NOTE]
-> 本主题中描述的配置步骤仅适用于 Finance 版本 10.0.20 及更高版本。 “若要在版本 10.0.19 及更早版本上设置 Finance Insights，请参阅 [Finance Insights 的配置 - 10.0.18 之前的版本](configure-for-fin-insites.md)。
+> 本主题中描述的配置步骤仅适用于 Finance 版本 10.0.20 及更高版本。 “若要在版本 10.0.19 及更早版本上设置 Finance Insights，请参阅 [Finance Insights 的配置 - 10.0.19 之前的版本](configure-for-fin-insites.md)。
 
 ## <a name="deploy-finance"></a>部署 Finance
 
@@ -748,6 +748,8 @@ finally {
 2. 在 **环境加载项** 部分中，选择 **安装新加载项**。
 3. 选择 **Finance Insights** 加载项。
 4. 同意条款，然后选择 **安装**。
+
+安装加载项可能需要几分钟时间。
 
 ## <a name="feedback-and-support"></a>反馈和支持
 

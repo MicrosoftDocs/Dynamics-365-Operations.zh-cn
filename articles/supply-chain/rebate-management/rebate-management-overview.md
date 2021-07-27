@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271045"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339986"
 ---
 # <a name="rebate-management-module-overview"></a>返点管理模块概述
 

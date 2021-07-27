@@ -355,6 +355,8 @@
           items:
             - name: 简介
               href: hr-admin-integration-ats-api-introduction.md
+            - name: ATS 集成的服务器到服务器身份验证
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: 招聘请求和相关实体
               items:
                 - name: 招聘请求
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: 生成并查看工资单实体
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: 工资单员工
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: 工资单工作人员地址
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: 工资单固定薪酬计划
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: 工资单职位工作
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: 工资单职位
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: 工资单集成参数
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: 工资单实体
+              items:
+                - name: 工资单员工
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: 工资单工作人员地址
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: 工资单固定薪酬计划
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: 工资单可变薪酬计划
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: 工资单职位
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: 工资单职位工作
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: 休假和缺勤相关实体
+              items:
+                - name: 剩余休假时间
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: 休假类型
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: 休假请求
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: 选项集
+              items:
+                - name: 性别
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: 否/是
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: 奖励类型
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: 流程类型
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: 用户指南
       items:
         - name: 概览
@@ -563,7 +589,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
             - name: 预警
               items:
@@ -599,19 +625,23 @@
           items:
             - name: 组织您的劳动力
               href: hr-personnel-departments-jobs-positions.md
-            - name: 设置工作组件
+            - name: 人员管理工作区
+              href: hr-personnel-personnel-management-workspace.md
+            - name: 设置作业组件
               href: hr-personnel-jobs.md
             - name: 定义部门
               href: hr-personnel-define-departments.md
             - name: 将部门添加到层次结构
               href: hr-personnel-add-department-hierarchy.md
-            - name: 定义工作
+            - name: 定义作业
               href: hr-personnel-define-jobs.md
+            - name: 职位
+              href: hr-personnel-positions.md
             - name: 创建工作时间日历
               href: hr-personnel-create-working-time-calendar.md
             - name: 招聘工作应聘者
               href: hr-personnel-recruit.md
-            - name: 人事行动常见问题
+            - name: 人事行动常见问题解答
               href: hr-personnel-actions-faq.md
             - name: 使用工作流管理员工信息
               href: hr-workflow-manage-employee-information.md
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: 限制对个人信息的编辑
               href: hr-employee-self-service-restrict-editing.md
+        - name: 使用工作流系统
+          items:
+            - name: 工作流系统概览
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流系统体系结构
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流元素
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流操作
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: 创建工作流
+              items:
+                - name: 创建工作流概览
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置工作流属性
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置手动任务
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置自动化任务
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置审核流程
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置审核步骤
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置支出审核人
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置手动决策
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置条件决策
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置并行活动
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置并行分支
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 配置行项工作流
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: 将工作流消息处理批处理作业配置为关键作业
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: 在工作流中委托工作项
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: 查看工作流历史记录
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: 配置系统以向用户发送工作流相关电子邮件
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流类型
+              items:
+                - name: 创建工作流类型
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: 工作流类型清单
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建工作流类别
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建工作流类型查询
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建新的工作流类型
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建工作流文档类
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: 创建 SubmitToWorkflow 类
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 将工作流文档类与工作流类型关联
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流类型报告
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: 工作流常见问题解答
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
