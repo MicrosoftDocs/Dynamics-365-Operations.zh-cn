@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358378"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>记录 TDS 减免证书编号
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023046"
 2. 在 **税务类型** 字段中，选择 **TDS** 以记录 TDS 税务类型的减免证书。
 3. 在 **概述** 选项卡上，选择 **Alt+N** 以创建行。
 
-    [![新行的标头](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![新行的标头。](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. 在 **预缴税金代码** 字段中，选择为其发放供应商减免证书的 TDS 税码。 **预缴税金代码名称** 字段显示 TDS 税码的名称。
 5. 在 **开始日期** 和 **结束日期** 字段中，定义使用 TDS 税码基于减免计算供应商 TDS 的减免证书的有效期。
@@ -50,6 +50,6 @@ ms.locfileid: "6023046"
 
 11. 在 **证书** 字段中，输入 TDS 减免证书编号。
 
-    [![证书快速选项卡](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![证书快速选项卡。](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. 关闭该页面。

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822387"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359309"
 ---
 # <a name="customer-payment-insights-preview"></a>客户付款见解(预览)
 
@@ -47,11 +49,11 @@ ms.locfileid: "5822387"
 
 客户付款见解（预览）也提供预期付款的聚合视图，可帮助组织了解他们可以期望客户会在三个时段（按时、逾期和长时间逾期）的哪一个收到付款总金额。
 
-[![付款预测的聚合视图](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![付款预测的聚合视图。](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 而且，每个发票都指定了按时付款的概率。 如果按时付款的概率小于 50%，发票上会标有红色圆圈，以表示这些发票可能需要注意收款问题。 
 
-[![付款概率列表](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![付款概率的列表。](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 客户付款见解（预览）还提供上下文信息以解释预测，例如影响预测的主要因素，客户的业务现状以及有关客户历史付款行为的详细信息。 在许多企业中，收款流程是一种被动活动；在发票到期之前，收款流程不会开始。 
 

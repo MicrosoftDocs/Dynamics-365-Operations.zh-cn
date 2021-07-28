@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361250"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>直接与外部组织共享 Regulatory Configuration Services (RCS) 全局知识库中的电子申报 (ER) 配置
 
@@ -47,7 +47,7 @@ ms.locfileid: "5838737"
 
 1. 在 **电子申报** 工作区中，选择配置提供程序的 **知识库**。
 
-    ![配置提供程序](media/1_RCS_Repo_for_config_provider.JPG)
+    ![配置提供程序。](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. 选择 **全局知识库**\>**打开**。
 3. 搜索要共享的配置。 可以使用筛选器字段缩小搜索范围。 如果在全局知识库中找不到此配置，请执行[新建和上传电子申报 (ER) 配置版本](rcs-global-repo-upload.md)中的步骤。
@@ -61,11 +61,11 @@ ms.locfileid: "5838737"
 3. 选择要共享的配置。
 4. 在 **共享对象** 快速选项卡上，选择 **组织**。
 
-    ![“共享对象”快速选项卡](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![“共享对象”快速选项卡。](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. 在此对话框中，输入外部组织的域名，然后选择 **确定**。
 
-    ![“与外部组织共享配置版本”对话框](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![“与外部组织共享配置版本”对话框。](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 将与外部组织共享配置，并在全局知识库中提供给该组织。 可以在这里将其导入到组织的 RCS 实例中或其 Finance and Operations 应用实例中。
 

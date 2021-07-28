@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358661"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -69,11 +69,11 @@ ms.locfileid: "5893570"
 
 下图显示了在为单个用户操作配置了每个记录时，如何通过将 ER 目标配置为单个目标记录集来实现此目的：
 
-![为单个用户操作配置了每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面](./media/er-destination-action-dependent-01.png)
+![为单个用户操作配置每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面。](./media/er-destination-action-dependent-01.png)
 
 下图显示了在为单个目标配置了每个记录时，如何另外通过将 ER 目标配置为单个目标记录集来实现相同目的：
 
-![为单个目标配置了每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面](./media/er-destination-action-dependent-01a.png)
+![为单个目标配置每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面。](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > 如果为正在运行的 ER 格式提供了操作代码，但尚未为该操作代码配置目标，将应用[默认](electronic-reporting-destinations.md#default-behavior)目标行为。
@@ -84,7 +84,7 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 
 下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](../../../finance/accounts-receivable/create-free-text-invoice-new.md)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
 
-![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框](./media/er-destination-action-dependent-02.gif)
+![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框。](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > 如果您为正在运行的 ER 格式的多个组件配置了 ER 目标，将为每个已配置的 ER 格式组件单独提供一个选项。
@@ -103,7 +103,7 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 6. 在 **配置调试日志** 页上，筛选 ER 运行日志来查找您的 ER 格式运行的日志。
 7. 如果为 ER 格式运行提供了任何操作，请查看必须包含呈现所提供的用户操作代码的记录的日志条目。
 
-    ![电子报告运行日志页，其中包含有关为筛选出的 ER 格式运行提供的用户操作代码的信息](./media/er-destination-action-dependent-03.png)
+    ![电子报告运行日志页面，其中包含有关为筛选出的 ER 格式运行提供的用户操作代码的信息。](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">业务文档列表（第 1 波）</a>
 

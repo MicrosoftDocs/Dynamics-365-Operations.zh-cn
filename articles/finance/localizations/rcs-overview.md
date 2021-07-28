@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358114"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS 提供以下功能：
 
 您可以从 [Regulatory Configuration Service 页面](https://marketing.configure.global.dynamics.com/)注册或登录到 RCS。
 
-![RCS 注册/登录](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![RCS 注册/登录。](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 在 **Regulatory Configuration Service** 页面上，查看并接受使用服务的补充条款和条件，然后选择以下按钮之一：
 
@@ -91,7 +93,7 @@ RCS 在以下地区正式发布：
 
 当您从服务页面注册 RCS 时，可能会遇到与 Azure Active Directory (Azure AD) 相关的问题。 您收到的错误消息表明 RCS 的注册当前已关闭，必须先打开，然后才能完成注册流程。
 
-![RCS 注册错误消息](media/01_RCSSignUpError.jpg)
+![RCS 注册错误消息。](media/01_RCSSignUpError.jpg)
 
 出现此问题是因为您阻止注册临时订阅，并且必须在您的租户中启用 `AllowAdHocSubscriptions` 属性。 
 

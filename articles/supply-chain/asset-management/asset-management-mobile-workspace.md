@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360117"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>使用资产管理移动工作区
 
@@ -60,7 +60,7 @@ ms.locfileid: "5837937"
 
 1. 登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    ![选择工作区](media/am-mobile-01.png "选择工作区")
+    ![选择工作区。](media/am-mobile-01.png "选择工作区")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>在日历视图中查看分配的工作订单作业
 
@@ -72,7 +72,7 @@ ms.locfileid: "5837937"
 
 1. 在列表中选择一个工单作业以查看作业详细信息：资产和功能位置详细信息以及查看 **附件**、**清单**、**工具**、**资产计数器**、**注释**、**日记帐** 的其他导航链接。
 
-    ![在日历视图中查看分配的工作订单作业](media/am-mobile-02.png "在日历视图中查看分配的工作订单作业")
+    ![在日历视图中查看分配的工作订单作业。](media/am-mobile-02.png "在日历视图中查看分配的工作订单作业")
 
 ## <a name="create-a-work-order-job"></a>创建工作订单作业
 
@@ -90,7 +90,7 @@ ms.locfileid: "5837937"
 
 1. 选择 **完成**。
 
-    ![添加行屏幕](media/am-mobile-03.png "添加行屏幕")
+    ![添加行屏幕。](media/am-mobile-03.png "添加行屏幕")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>将附件添加到工作订单作业
@@ -112,7 +112,7 @@ ms.locfileid: "5837937"
 
 1. 选择 **完成**。
 
-    ![查看和添加工作订单作业的附件](media/am-mobile-04.png "查看和添加工作订单作业的附件")
+    ![查看和添加工作订单作业的附件。](media/am-mobile-04.png "查看和添加工作订单作业的附件")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>查看工作订单作业上的维护清单
 
@@ -129,7 +129,7 @@ ms.locfileid: "5837937"
 
 1. 选择返回按钮 (**<**) 以返回到上一页。
 
-    ![维护清单和行详细信息](media/am-mobile-05.png "维护清单和行详细信息")
+    ![维护清单和行详细信息。](media/am-mobile-05.png "维护清单和行详细信息")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>查看和更新工作订单作业上的资产计数器
 
@@ -146,7 +146,7 @@ ms.locfileid: "5837937"
 
 1. 输入一个新的计数器值，然后选择 **完成**。
 
-    ![查看和更新资产计数器](media/am-mobile-06.png "查看和更新资产计数器")
+    ![查看和更新资产计数器。](media/am-mobile-06.png "查看和更新资产计数器")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>登记工作订单作业的消耗量
 
@@ -178,7 +178,7 @@ ms.locfileid: "5837937"
     1. 输入费用登记的 **成本价**。
     1. 选择 **完成**。
 
-    ![更新工作订单日记帐](media/am-mobile-07.png "更新工作订单日记帐")
+    ![更新工作订单日记帐。](media/am-mobile-07.png "更新工作订单日记帐")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>更新工作订单上的生命周期状态
 
@@ -194,7 +194,7 @@ ms.locfileid: "5837937"
 
 1. 选择 **完成**。
 
-    ![更新工作订单上的生命周期状态](media/am-mobile-08.png "更新工作订单上的生命周期状态")
+    ![更新工作订单上的生命周期状态。](media/am-mobile-08.png "更新工作订单上的生命周期状态")
 
 ## <a name="create-a-maintenance-request"></a>创建维护请求
 
@@ -216,7 +216,7 @@ ms.locfileid: "5837937"
 
 1. 选择 **完成**。
 
-    ![创建维护请求](media/am-mobile-09.png "创建维护请求")
+    ![创建维护请求。](media/am-mobile-09.png "创建维护请求")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>将附件添加到维护请求
 
@@ -236,7 +236,7 @@ ms.locfileid: "5837937"
 
 1. 选择 **完成**。
 
-    ![将附件添加到维护请求](media/am-mobile-10.png "将附件添加到维护请求")
+    ![将附件添加到维护请求。](media/am-mobile-10.png "将附件添加到维护请求")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

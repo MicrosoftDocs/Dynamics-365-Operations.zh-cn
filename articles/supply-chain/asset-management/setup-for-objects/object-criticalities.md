@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808344"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351481"
 ---
 # <a name="asset-criticality-types"></a>资产关键性类型
 
@@ -40,7 +40,7 @@ ms.locfileid: "5808344"
 4. 在 **名称** 字段中，输入关键性类型的名称。
 5. 在 **系数** 字段中，输入一个系数。 此系数在计算工作订单排产时用于确定应使用的关键性记录。 （始终使用系数最大的记录。）如果创建的关键性行具有相同的关键性值（如下图所示），则此设置相关。
 
-    ![关键性类型页面](media/23-setup-for-objects.png)
+    ![关键性类型页面。](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>设置资产关键性
 

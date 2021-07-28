@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360250"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 
@@ -36,7 +36,7 @@ ms.locfileid: "5752906"
 
 以下图像显示 **创建预警规则** 对话框，其现在包括 **发送电子邮件** 选项。
 
-[![创建将“发送电子邮件”选项设置为“是”的预警规则对话框](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![创建将“发送电子邮件”选项设置为“是”的预警规则对话框。](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > 在 **发送电子邮件** 选项设置为 **是** 时，预警通知将继续从操作中心提供。
@@ -47,7 +47,7 @@ ms.locfileid: "5752906"
 
 以下图像显示通过电子邮件收到预警通知时预警通知的结构。
 
-[![用户记录创建、字段更改和模板删除的基于模板的预警通知](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![记录创建、字段更改和模板删除的基于模板的预警通知。](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

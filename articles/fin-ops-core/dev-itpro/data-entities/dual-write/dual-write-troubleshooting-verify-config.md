@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350756"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证 Finance and Operations 应用和 Dataverse 中的双写入配置
 
@@ -39,11 +39,11 @@ ms.locfileid: "5748841"
 
 + 如果您在 Finance and Operations 应用中有管理员权限，请转到 **工作区 \> 数据管理**，然后选择 **双写入** 磁贴。 如果显示了链接环境的详细信息以及正在运行的表映射的列表，则说明配置了双写入。
 
-    ![验证具有管理员权限时 Finance and Operations 应用的连接](media/verify_fin_ops_1.png)
+    ![验证具有管理员权限时 Finance and Operations 应用的连接。](media/verify_fin_ops_1.png)
 
 + 如果您没有管理员权限，则会收到错误消息 *无法将数据写入实体 \<entity name\>*。 在下图的示例中，您无法在 Finance and Operations 应用中创建客户行，因为配置了双写入，但客户组和付款期限引用数据在 Dataverse 中不存在。
 
-    ![验证没有管理员权限时 Finance and Operations 应用的连接](media/verify_fin_ops_2.png)
+    ![验证没有管理员权限时 Finance and Operations 应用的连接。](media/verify_fin_ops_2.png)
 
 有关如何解决在 Finance and Operations 应用中创建数据时出现的问题的信息，请参阅[解决实时同步问题](dual-write-troubleshooting-live-sync.md)。
 
@@ -51,7 +51,7 @@ ms.locfileid: "5748841"
 
 创建数据时，如果您在 Dataverse 中的页面上看到了 **公司** 列，则说明配置了双写入。
 
-![验证 Dataverse 连接](media/verify_cds.png)
+![验证 Dataverse 连接。](media/verify_cds.png)
 
 有关如何解决在 Dataverse 中创建数据时出现的问题的信息，请参阅[解决实时同步问题](dual-write-troubleshooting-live-sync.md)。
 

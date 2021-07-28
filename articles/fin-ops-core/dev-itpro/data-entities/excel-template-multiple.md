@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750556"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352904"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>带有多个工作表的数据模板
 
@@ -32,13 +32,13 @@ ms.locfileid: "5750556"
 
 如果您在不离开 **添加文件** 窗体的情况下添加第二个实体 **仓库**，您可以通过工作表查找功能选择 **仓库** 工作表，无需再一次上传文件。 若要上传新文件，唯一的原因是 **仓库** 数据位于不同的文件中。
 
-![多个工作表](./media/AddFileMultipleWorkSheets.png)
+![多个工作表。](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>将工作表固定到实体映射
 
 可以从网格固定在导入作业中将工作表映射到数据实体。 网格中的 **工作表** 列显示进行映射的文件的工作表。 您可以从下拉菜单中选择不同的工作表。 如果选中的工作表已经映射到数据项目中的实体，系统将要求您确认更改。 我们建议您固定网格中的所有映射。
 
-![更新工作表映射](./media/UpdateMappings.png)
+![更新工作表映射。](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>重新映射到新文件
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348821"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>仓库流程质量管理
 
@@ -43,7 +43,7 @@ _仓库流程质量管理_ 功能会作为接收流程的一部分自动生成�
 
 启用 _仓库流程质量管理_ 功能后，它将更改关键仓库管理和质量管理实体的设置。 下图提供了为仓库流程启用质检订单的实体的概览。 括号中的文本指示在启用 _仓库管理流程质量管理_ 功能之前应用质量管理的建议操作。
 
-![质量管理实体](media/quality-management-entity-diagram.png "质量管理实体")
+![质量管理实体。](media/quality-management-entity-diagram.png "质量管理实体")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>促成因素：质检物料抽样和质检订单工作订单类型
 

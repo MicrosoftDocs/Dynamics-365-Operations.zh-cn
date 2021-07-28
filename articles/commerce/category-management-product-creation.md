@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794365"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351289"
 ---
 # <a name="manage-product-categories-and-products"></a>管理产品类别和产品
 
@@ -35,17 +35,17 @@ ms.locfileid: "5794365"
 
 在改进的产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构的结构。
 
-![基于属性适用范围分组的字段](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![基于属性适用范围分组的字段。](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 您可以在跨所有法人管理法人特定属性与针对特定法人进行管理之间进行切换。
 
 若要管理所有法人的属性，请选择 **查看所有法人**（或 **编辑所有法人**）。
 
-![查看/编辑所有法人](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![查看/编辑所有法人。](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 若要管理特定法人的属性，请选择 **查看特定法人**（或 **编辑特定法人**）。
 
-![查看/编辑特定法人](media/ToggleToEditForAllLegalEntities.PNG)
+![查看/编辑特定法人。](media/ToggleToEditForAllLegalEntities.PNG)
 
 此外，在增强的产品类别结构中，促销活动经理现在可以在单个类别级别再为一组产品属性定义默认值。 然后，创建产品时，产品将根据其产品属性与产品层次结构中的单个类别的关联，继承这些属性的默认值。 还可以针对每个产品修改这些继承的产品属性，以满足单独的业务要求。
 
@@ -53,7 +53,7 @@ ms.locfileid: "5794365"
 
 可使用这个新改进的产品属性结构选择必须将哪些更新的产品属性推送到关联的产品。 在 **商业产品层次结构** 页上的操作窗格中，选择 **类别**，然后选择 **更新产品** 以打开 **更新产品** 对话框。
 
-![“更新产品”对话框](media/NewUpdateProductsEnhancedView.PNG)
+![“更新产品”对话框。](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

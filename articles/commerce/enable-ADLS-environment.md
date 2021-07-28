@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792599"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349488"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
 
@@ -59,7 +59,7 @@ ms.locfileid: "5792599"
 
 下图显示了一个 Azure Data Lake Storage 配置示例。
 
-![Azure Data Lake Storage 配置示例](./media/exampleADLSConfig1.png)
+![Azure Data Lake Storage 配置的示例。](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>测试 Azure Data Lake Storage 连接
 
@@ -79,7 +79,7 @@ ms.locfileid: "5792599"
 
 下图显示了启用了自动刷新的实体商店的示例。
 
-![启用了自动刷新的实体商店示例](./media/exampleADLSConfig2.png)
+![启用了自动刷新的实体商店的示例。](./media/exampleADLSConfig2.png)
 
 现在为环境配置了 Azure Data Lake Storage。 
 

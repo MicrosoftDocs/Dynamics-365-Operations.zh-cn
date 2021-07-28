@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023070"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349920"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金代码
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023070"
 
 1. 转到 **税 \> 间接税 \> 预缴税金 \> 预缴税金代码**。
 
-    [![预缴税金代码页面](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![预缴税金代码页面。](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. 在操作窗格上，选择 **新建** 为 TDS 创建预缴税金代码，然后输入所需的详细信息。
 3. 在 **常规** 快速选项卡上，在 **税务类型** 字段中，选择 **TDS** 将税代码分类为 TDS 税代码。

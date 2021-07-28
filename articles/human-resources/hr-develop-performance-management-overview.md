@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 221024
+ms.custom:
+- "221024"
+- intro-internal
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4276e33f3df60bedcd2b056dababc280ccb96b4a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b1265c2ad63bffee055a925f9241a9df91a0bec9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058456"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360488"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -33,7 +35,7 @@ ms.locfileid: "6058456"
 -   目标
 -   绩效复查
 
-下图显示绩效管理的主要组件彼此之间的关系。 [![性能流程概述](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+下图显示绩效管理的主要组件彼此之间的关系。 [![性能流程概述。](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>绩效日记帐
 

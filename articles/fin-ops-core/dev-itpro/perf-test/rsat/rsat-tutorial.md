@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866148"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357510"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 
@@ -67,11 +67,11 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 可使用此功能验证是否执行了某个操作。 例如，创建、估计，然后开始履行生产订单时，应用程序将显示“生产 - 开始”消息，通知您已开始履行生产订单。
 
-![“生产 – 开始”通知](./media/use_rsa_tool_05.png)
+![“生产 – 开始”通知。](./media/use_rsa_tool_05.png)
 
 可通过 RSAT 验证此消息，方法是在相应录制的 Excel 参数文件的 **MessageValidation** 选项卡上输入消息文本。
 
-![“消息验证”选项卡](./media/use_rsa_tool_06.png)
+![“消息验证”选项卡。](./media/use_rsa_tool_06.png)
 
 运行测试用例之后，将把 Excel 参数文件中的消息与显示的消息进行比较。 如果这些消息不匹配，测试用例将失败。
 
@@ -104,11 +104,11 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 下图显示此场景的流程。
 
-![演示场景的流程](./media/use_rsa_tool_14.png)
+![演示场景的流。](./media/use_rsa_tool_14.png)
 
 下图显示该方案在业务流程建模器中的业务流程层次结构。
 
-![演示场景的业务流程](./media/use_rsa_tool_15.png)
+![演示场景的业务流程。](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>策略 – 关键学习点
 

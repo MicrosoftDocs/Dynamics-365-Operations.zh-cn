@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022699"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353052"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
@@ -43,7 +43,7 @@ ms.locfileid: "6022699"
 
 在 **Retail 和 Commerce \> 总部设置 \> 参数 \> Commerce 参数** 页，转到 **客户订单** 选项卡。在 **费用** 快速选项卡上，将 **使用高级自动费用** 设置为 **是**。
 
-![高级自动费用参数](media/advancedchargesparameter.png)
+![高级自动费用参数。](media/advancedchargesparameter.png)
 
 在启用高级自动费用时，在创建全部装运或装运所选产品客户订单时，不再提示用户在 POS 终端中手动输入装运费用。 POS 订单费用将系统化地计算并添加到 POS 交易（如果找到与正在创建的订单的条件匹配的相应自动费用表）。 用户还可以通过可以添加到 POS 屏幕布局的新添加的 POS 操作手动添加或维护标题或行级别费用。
 
@@ -86,7 +86,7 @@ ms.locfileid: "6022699"
 
 对于陆运费用，在 **自动费用** 页的行部分，将 0.01 美元到 100 美元之间的订单要应用的费用定义为 10.00 美元。 创建另一个费用行来指示超过 100.01 美元的订单没有费用。
 
-![两个自动收费表示例](media/headerchargesexample.png)
+![两个自动费用表示例。](media/headerchargesexample.png)
 
 对于空运费用，在自动费用窗体的行部分中，定义将应用于所有订单（值为 0.01 美元到 9,999,999 美元）的 20.00 美元费用。
 
@@ -116,7 +116,7 @@ ms.locfileid: "6022699"
 
 将 **级别** 下拉菜单设置为 **行**，然后为要收取设置费用的特定产品或产品组的所有客户创建新的自动费用记录。
 
-![一个行级别自动收费表示例](media/linechargesexample.png)
+![一个行级别自动费用表示例。](media/linechargesexample.png)
 
 将费用发送到 Commerce Scale Unit/通道 DB，以便 POS 可以通过运行 **1040 配送计划** 作业使用它们。
 
@@ -136,7 +136,7 @@ ms.locfileid: "6022699"
 
 确保将此场景中使用的费用代码已正确配置，方法是转到 **应收帐款 \> 费用设置 \> 费用** 为此场景定义适当的费用代码。
 
-![费用示例](media/chargesexample.png)
+![费用示例。](media/chargesexample.png)
 
 如果由于装运相关的折扣或促销目的，费用应被视作“装运”相关费用，应将费用代码中的 **装运费用** 设置为 **是**。 如果在处理 POS 应用程序中的退货交易期间，此费用也被允许系统地退还，应将 **可退还** 设置为 **是**。 **可退还** 标志仅在 **使用高级自动费用** 参数设置为 **是** 时适用。
 

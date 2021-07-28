@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a8a93f5252e2785329bf3d24414841cf724f0aa3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b826d7a47a4e6eff927552e292dd64a89fbe99ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832410"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359189"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>计划的工作订单维护作业
 
@@ -47,7 +47,7 @@ ms.locfileid: "5832410"
 
 下面的屏幕截图显示 **计划的工作订单维护作业** 页面的示例。
 
-![图 1](media/07-work-order-scheduling.png)
+![图 1.](media/07-work-order-scheduling.png)
 
 
 

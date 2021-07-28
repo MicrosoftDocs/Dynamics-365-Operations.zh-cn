@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 45a989604d829db715756b6cd206a5675a18acf2
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f765a6f0cbdc99604e0b0191e1cb6a200546769b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909983"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359573"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品
 
@@ -69,7 +69,7 @@ service       :  690970002
 
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service 产品（Supply Chain Management 到 Field Service）：产品 - 产品
 
-[![数据集成中的模板映射](./media/FSProduct.png)](./media/FSProduct.png)
+[![数据集成中的模板映射。](./media/FSProduct.png)](./media/FSProduct.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

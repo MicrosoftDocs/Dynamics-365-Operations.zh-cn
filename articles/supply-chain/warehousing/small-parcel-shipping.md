@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910201"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358018"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 
@@ -274,7 +274,7 @@ Supply Chain Management 不包括任何费率引擎。 您必须获取或创建�
 
     发货标签现在应该已经在您先前选择的 ZPL 打印机上打印。 标签应类似于以下示例。
 
-    ![示例发货标签](media/sps-label-example.png "示例发货标签")
+    ![示例发货标签。](media/sps-label-example.png "示例发货标签")
 
 1. 注意 **集装箱清单 ID** 和 **总运费** 值已添加从承运人处收到的值。
 

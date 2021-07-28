@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822459"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344212"
 ---
 # <a name="vendor-rebates"></a>供应商返利
 
@@ -53,7 +53,7 @@ ms.locfileid: "5822459"
 
 若要打开 **供应商返利协议** 页，请选择 **采购** &gt; **供应商返利** &gt; **返利协议**。
 
-![采购协议](media/purchase-agreement.PNG)
+![采购协议。](media/purchase-agreement.PNG)
 
 在 **供应商返利协议** 页，可以查看与供应商协议的经协商条件有关的详细信息。
 
@@ -129,7 +129,7 @@ ms.locfileid: "5822459"
 
     为索赔金额过帐应计返利日记帐。 此过帐将应计供应商返利应收账款借记为预期供应商贷记，将临时应计供应商返利应收账款贷记为预期收益。
 
-    ![消息](media/message.png)
+    ![消息。](media/message.png)
 
 5. 在返利列表中，选择行，然后在操作窗格中，选择 **返利交易记录** 以查看并导航到此返利应计过帐的日记帐批号。
 

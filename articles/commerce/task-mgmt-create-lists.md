@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: e7964181a739a8138011abca77d0321d819e0a98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354485"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>创建任务列表并添加任务
 
@@ -70,7 +70,7 @@ Commerce 让您可以将任务链接到特定 POS 操作，如运行销售报表
 
 下图显示 **编辑任务** 对话框中的任务链接的选择情况。
 
-![在“编辑任务”对话框中选择任务链接](media/HQ-POS-Tasks-Linking.png)
+![在“编辑任务”对话框中选择任务链接。](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>配置 POS 操作以使其可链接到任务
 

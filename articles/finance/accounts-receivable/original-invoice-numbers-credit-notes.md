@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897324"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347826"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 
@@ -51,7 +51,7 @@ ms.locfileid: "5897324"
 1. 转到 **应收帐款** \> **设置** \> **应收帐款参数**。
 2. 在 **更新** 选项卡上，在 **发票** 快速选项卡上，将 **将贷记开票版式应用到销售和项目发票报表** 选项设置为 **是**。
 
-![配置应收帐款参数](media/original-invoice-number-in-credit-note.jpg)
+![配置应收帐款参数。](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>定义对原始发票的引用
 
@@ -65,7 +65,7 @@ ms.locfileid: "5897324"
 4. 在操作窗格上的 **发票** 选项卡上，在 **功能** 组中，选择 **贷记开票**。
 5. 输入对原始发票的引用，然后选择更正原因。
 
-![定义普通发票的引用](media/reference-original-invoice-FTI.jpg)
+![定义普通发票的引用。](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>客户贷方通知单
 
@@ -74,7 +74,7 @@ ms.locfileid: "5897324"
 3. 在操作窗格上的 **销售** 选项卡上，在 **贷方通知单** 组中，选择 **贷方通知单**。
 4. 输入更正原因。 对原始发票的引用将自动建立。
 
-![定义销售订单的引用](media/reference-original-invoice-SO.jpg)
+![定义销售订单的引用。](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>项目贷方通知单
 
@@ -84,13 +84,13 @@ ms.locfileid: "5897324"
 4. 选择 **贷记开票**。
 5. 输入更正原因。 对原始发票的引用将自动建立。
 
-![定义项目发票的引用](media/reference-original-invoice-project.jpg)
+![定义项目发票的引用。](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>打印贷方通知单
 
 当您打印普通、客户和项目贷方通知单时，它们将包括对原始发票的引用和更正原因。
 
-![打印的贷方通知单](media/credit-note-FTI.jpg)
+![打印的贷方通知单。](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > 假设将打印对原始发票的引用，请确保正确配置文档的可打印格式。

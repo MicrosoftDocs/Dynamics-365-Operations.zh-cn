@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346820"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
@@ -74,11 +74,11 @@ CDN 的设置过程通常包含下面的步骤：
 
 下图显示 Azure Front Door 服务中输入了后端主机名的 **添加后端** 对话框。
 
-![“添加后端池”对话框](./media/CDN_BackendPool.png)
+![“添加后端池”对话框。](./media/CDN_BackendPool.png)
 
 下图显示 Azure Front Door 服务中具有默认负载均衡值的 **添加后端池** 对话框。
 
-![“添加后端池”对话框（续）](./media/CDN_BackendPool_2.png)
+![“添加后端池”对话框（续）。](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > 当为 Commerce 设置自己的 Azure Front Door 服务时，请确保禁用 **运行状况探测**。
@@ -107,13 +107,13 @@ CDN 的设置过程通常包含下面的步骤：
 
 下图显示 Azure Front Door Service 中的 **CNAME 配置** 对话框。
 
-![“CNAME 配置”对话框](./media/CNAME_Configuration.png)
+![“CNAME 配置”对话框。](./media/CNAME_Configuration.png)
 
 可使用 Azure Front Door Service 管理证书，也可以对自定义域使用您自己的证书。
 
 下图显示 Azure Front Door Service 中的 **自定义域 HTTPS** 对话框。
 
-![“自定义域 HTTPS”对话框](./media/Custom_Domain_HTTPS.png)
+![“自定义域 HTTPS”对话框。](./media/Custom_Domain_HTTPS.png)
 
 有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](/azure/frontdoor/front-door-custom-domain)。
 

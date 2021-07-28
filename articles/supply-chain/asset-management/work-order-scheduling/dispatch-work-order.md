@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825534"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354148"
 ---
 # <a name="dispatch-work-order"></a>分派工作订单
 
@@ -52,7 +52,7 @@ ms.locfileid: "5825534"
 
 下图显示 **计划工作订单** 对话框中选择的分派的示例。
 
-![图 1](media/04-work-order-scheduling.png)
+![图 1.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 如果要删除对工作订单的计划，在 **所有工作订单** 中选择工作订单，然后单击 **常规** 选项卡上的 **删除计划**。如果删除计划，请记住要手动更新工作订单生命周期状态。

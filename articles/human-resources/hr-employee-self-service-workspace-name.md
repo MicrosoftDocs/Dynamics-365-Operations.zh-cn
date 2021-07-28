@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0339f5ef5bf5655d0471394539aee56437bb26f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d3fbcdfde48af0b14237ead22a4b94e73e5aa4df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055644"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357135"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>更改员工自助服务工作区名称
 
@@ -37,7 +37,7 @@ ms.locfileid: "6055644"
 
 3. 在 **显示名称** 下，选择 **自助服务**。
 
-   ![将员工自助服务工作区名称更改为“自助服务”](./media/hr-employee-self-service-workspace-name.png)
+   ![将员工自助服务工作区名称更改为“自助服务”。](./media/hr-employee-self-service-workspace-name.png)
 
 4. 选择 **保存**。
 

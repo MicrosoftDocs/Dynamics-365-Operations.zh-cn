@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894140"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348132"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 
@@ -41,7 +41,7 @@ ms.locfileid: "5894140"
 
 要生成您计划为其添加自定义存储位置的文档，请将 **固定资产前滚** ER 格式[导入](er-download-configurations-global-repo.md)到当前拓扑中。
 
-![配置存储库页面](./media/er-custom-storage-generated-files-import-format.png)
+![配置存储库页面。](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>运行固定资产前滚报表
 
@@ -52,7 +52,7 @@ ms.locfileid: "5894140"
 5. 在 **格式映射** 字段中，选择 **固定资产前滚**。
 6. 选择 **确定**。
 
-![固定资产前滚报表的“运行时”对话框](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![固定资产前滚报表的“运行时”对话框。](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 在 Microsoft Excel 中，查看生成并可供下载的传出文档。 这种行为是未为其配置[目标](electronic-reporting-destinations.md)的 ER 格式且以交互模式运行的 ER 格式的[默认行为](electronic-reporting-destinations.md#default-behavior)。
 

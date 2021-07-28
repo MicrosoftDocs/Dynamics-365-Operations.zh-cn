@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355917"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
 
@@ -38,7 +38,7 @@ ms.locfileid: "5908100"
 
 “从目标客户到现金”使用“数据集成”功能来同步 Supply Chain Management 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用有关 Supply Chain Management 与 Sales 之间的客户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Supply Chain Management 与 Sales 之间的数据如何同步。
 
-[![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![“从目标客户到现金”中的数据流。](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
@@ -119,16 +119,16 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 
 ### <a name="contact-to-contact"></a>从联系人到联系人
 
-![数据集成器中的模板映射](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![数据集成器中的模板映射。](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>从联系人到客户
 
-![数据集成器中的模板映射](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![数据集成器中的模板映射。](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>相关主题
 
-[现金的目标客户](prospect-to-cash.md)
+[目标客户到现金](prospect-to-cash.md)
 
 [将 Sales 的客户直接同步到 Supply Chain Management 中的客户](accounts-template-mapping-direct.md)
 

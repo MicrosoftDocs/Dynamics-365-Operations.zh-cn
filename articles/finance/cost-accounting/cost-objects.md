@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d91fc52b184fda73fcf36175598aa514945db48
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355123"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 
@@ -34,7 +34,7 @@ ms.locfileid: "5818769"
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>成本对象维度和成本对象维度成员
 成本对象被称为“*成本对象维度*”。 在您决定成本对象维度应引用哪个实体后，您必须指定单独的维度值或者将它们从其他源系统导入到成本核算中。 这些单独的维度值被称为“*成本对象维度成员*”。 例如，您要使用名为“成本中心”的财务维度作为成本对象维度。 要查看成本如何流向各个成本中心，您必须导入成本对象维度成员。 在这种情况下，成本对象维度成员是实际成本中心，例如销售、生产、管理和地理位置。 以下屏幕截图举例说明了作为成本对象维度的成本中心及其作为成本对象维度成员的实际成本中心。 
 
-[![显示作为成本对象维度的成本中心的屏幕截图](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![显示作为成本对象维度的成本中心的屏幕截图。](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>通过数据连接器导入成本对象维度成员
 要更加轻松地导入成本对象维度成员，您可以使用数据连接器从您要作为成本对象维度使用的实体中检索值。 您可以使用预构建的数据连接器或您构建的自定义数据连接器。

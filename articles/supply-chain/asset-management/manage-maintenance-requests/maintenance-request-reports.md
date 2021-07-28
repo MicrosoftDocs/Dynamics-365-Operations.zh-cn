@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdc345ca3bdf227e5543a6f1178e6bbe2a5f7f78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839647"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345348"
 ---
 # <a name="maintenance-request-reports"></a>维护请求报告
 
@@ -41,7 +41,7 @@ ms.locfileid: "5839647"
 
 下图显示 **维护请求详细信息** 报告的示例。
 
-![维护请求详细信息报告](media/09-manage-maintenance-requests.png)
+![维护请求详细信息报表。](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>创建维护请求列表报告
 
@@ -54,7 +54,7 @@ ms.locfileid: "5839647"
 
 下图显示所有有效维护请求的 **维护请求列表** 报告的示例。
 
-![维护请求列表报告](media/10-manage-maintenance-requests.png)
+![维护请求列表报表。](media/10-manage-maintenance-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

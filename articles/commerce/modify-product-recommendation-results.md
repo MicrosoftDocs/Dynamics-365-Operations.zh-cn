@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796962"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346660"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
@@ -51,7 +51,7 @@ ms.locfileid: "5796962"
 
 “最畅销”产品列表有一个可更改的参数：
 
-![示例最畅销列表默认参数](./media/examplebestsellingparameters.PNG)
+![最畅销列表默认参数示例。](./media/examplebestsellingparameters.PNG)
 
 1. **包括过去 X 天的销售量** - 可使用当天前指定天数内进行的销售交易记录订购产品。 上面的默认值表明过去 30 天某个产品的所有购买用于决定此产品在最畅销产品列表中的位置。 
 
@@ -65,13 +65,13 @@ ms.locfileid: "5796962"
 1.  若要向表添加产品，请选择 **添加行**。 
 1.  在“产品”列下，按 **名称** 或 **产品编号** 搜索产品。
 
-    ![在“新品”产品列表中搜索产品的示例](./media/examplenewlistconfiguration1.png)
+    ![在“新产品”列表中搜索产品的示例。](./media/examplenewlistconfiguration1.png)
 
 1.  在“行类型”列下，选择两个选项之一：
     -   **包含** – 强制产品位于列表前部
     -   **排除** – 在列表中隐藏某个产品。
     
-    ![在“新品”产品列表中包含或排除某个产品的示例](./media/examplenewlistconfiguration2.png)
+    ![在“新产品”列表中包含或排除产品的示例。](./media/examplenewlistconfiguration2.png)
 
 1.  更改 **显示顺序** 将更改标记为 **包含** 的产品在列表中的显示顺序。
     - 如果两个产品的 **显示顺序** 值相同，则这两个结果的最终顺序可能与后端不同。
@@ -87,11 +87,11 @@ ms.locfileid: "5796962"
 执行以下步骤手动添加或删除种子产品的结果：
 1.  选择 **种子产品**。 
 1.  在 **产品** 列下，按 **名称** 或 **产品编号** 搜索产品。
-![搜索“人气组合”列表中的产品的示例](./media/exampleFBTlistconfiguration1.png)
+![搜索“人气组合”列表中的产品的示例。](./media/exampleFBTlistconfiguration1.png)
 1. 在 **行类型** 列下，选择两个选项之一：
     - **包含** – 强制产品位于列表前部
     - **排除** – 在列表中隐藏某个产品。     
-![在“人气组合”列表中包含或排除产品的示例](./media/exampleFBTlistconfiguration2.png)
+![在“人气组合”列表中包含或排除产品的示例。](./media/exampleFBTlistconfiguration2.png)
 1.  若要从表中删除产品：选择要删除的行，然后选择删除。
 
 

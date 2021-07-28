@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826267"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355596"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 
@@ -43,7 +43,7 @@ ms.locfileid: "5826267"
 在将固定资产作为废料处置之前，必须创建与资产的购置价值、当年的折旧、前一年的折旧以及资产的 NBV 关联的会计科目。 固定资产交易记录类型列在 **固定资产过帐模板** 页面上。 转到 **固定资产 \> 设置 \> 固定资产过帐模板**，然后在 **处置** 快速选项卡上，在网格上方的字段中选择 **废料**。 下图显示了 **固定资产过帐模板** 页面上的固定资产交易记录类型的列表。
 
 
-[![作为废料处置资产，图 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![作为废料处置资产，图 1。](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 对于以下示例，固定资产于 2018 年 1 月 1 日购置，将于 2019 年 3 月 31 日报废。
 
@@ -58,27 +58,27 @@ ms.locfileid: "5826267"
 
 在此示例中，从 2018 年 1 月到 2019 年 3 月，固定资产购置和折旧为时 15 个月。 因此，资产的 NBV 为 9,000.00 美元（24,000.00 美元 – 15,000.00 美元）。
 
-[![固定资产折旧示例](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![固定资产折旧示例。](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 要创建处置日记帐，请转到 **固定资产 \> 日记帐分录 \> 固定资产日记帐**，然后，在“操作窗格”中，选择 **行**。 选择 **处置 – 报废**，然后选择固定资产 ID。 要完全处置资产，请不要在 **借记** 字段或 **贷记** 字段中输入值。
 
-[![固定资产日记帐](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![固定资产日记帐。](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 固定资产处置报废交易记录通过以下方式更改固定资产帐簿的字段值：
 
 - 在 **余额** 部分，**状态** 字段更新为 **已报废**。
 - 在 **签发** 部分，**处置日期** 字段设置为资产报废的日期。
 
-[![固定资产日记帐明细](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![固定资产日记帐详细信息。](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 下图显示了固定资产余额。
 
-[![固定资产余额](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![固定资产余额。](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 下图显示了已过帐的凭证。
 
-[![帐面净值](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![帐面净值。](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795373"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357754"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>启用“购买相似外观产品”建议
 
@@ -68,7 +68,7 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 
 下图显示了 Commerce headquarters 中 **功能管理** 页面上的 **购买相似外观产品** 功能。
 
-![Commerce headquarters 中“功能管理”页面上的“购买相似外观产品”功能](./media/enableshopsimilarlooks.png)
+![Commerce Headquarters 中“功能管理”页面上的“购买相似外观产品”功能。](./media/enableshopsimilarlooks.png)
 
 完成上述任务后，POS 终端将自动增强，提供上下文 **购买相似外观产品** 面板。 选择 **查看更多**，POS 终端用户可以转到专用的“购买相似外观产品”页面，可以在那里进一步筛选。
 
@@ -88,7 +88,7 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 
 下图显示了站点构建器中示例 PDP 上的 **启用“购买相似外观产品”链接** 复选框和 **购买相似外观产品** 按钮。
 
-![站点构建器中 PDP 上的“启用‘购买相似外观产品’链接”复选框和“购买相似外观产品”按钮](./media/SSLecomtooling.png)
+![站点构建器中 PDP 上的“启用‘购买相似外观产品’链接”复选框和“购买相似外观产品”按钮。](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>其他资源
 

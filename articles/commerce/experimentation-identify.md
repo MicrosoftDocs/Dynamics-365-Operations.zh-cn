@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799031"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349344"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>标识假设并确定试验的成功指标
 试验生命周期的第一阶段包括标识试验假设并确定要跟踪以评估成功与否的指标。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上[设置和运行试验](experimentation-overview.md)所涉及的所有步骤。 其他步骤在单独的主题中介绍。 
 
-[![试验用户旅程 - 标识](./media/experimentation_identify.svg)](./media/experimentation_identify.svg#lightbox)
+[![试验用户旅程 - 标识。](./media/experimentation_identify.svg)](./media/experimentation_identify.svg#lightbox)
 
 假设是您可以预测试验结果的语句。 定义一个假设有许多因素，例如，有关用户行为的研究和您已收集的网站数据。 通过假设，您将定义要通过试验验证的假定或理论。 试验假设的一个示例可能是“*在夏季，我主页上的白色 T 恤图片比海军毛衣的点击率更高，因为人们希望在夏天穿轻便浅色的衣服。*” 在这种情况下，您将创建包括白色 T 恤和海军毛衣的变体，并同时发布它们。
 

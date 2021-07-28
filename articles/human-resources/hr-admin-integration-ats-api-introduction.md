@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055284"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357380"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>申请人跟踪系统集成 API 简介
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055284"
 
 本主题介绍 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API。 此 API 的目的是在 Dynamics 365 Human Resources 和合作的 ATS 之间实现简化的集成。
 
-![ATS 集成流](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS 集成流。](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 当招聘经理创建招聘请求时，集成体验便在 Human Resources 中开始。 激活请求后，ATS 会提取请求的详细信息来创建招聘项目。 然后，它跟随招聘管道为职位选择和雇用应聘者。 最后，ATS 通过将所选应聘者记录发送到 Human Resources 来完成往返集成。 然后，应聘者记录可以经过更多的入职验证和工作流来创建员工记录。
 
@@ -69,7 +69,7 @@ ATS 集成 API 的终结点使用 Microsoft Dataverse 的虚拟表平台功能�
 
 下图说明了 API 中的关系。 若干个类型具有 Human Resources 中其他预先存在的实体的外键，这里没有说明。 本文档提供有关特定于招聘集成场景的实体的信息。 但是，适用于 Dynamics 365 Human Resources 的 Dataverse Web API 中还有很多其他实体也可能与您的集成相关。 例如，您可能还需要工作人员、工作、职位或此处未定义的其他实体的详细信息。 这些实体中有很多在外键关系或导航属性中引用。
 
-![ATS 集成 API 数据模型](media/hr-admin-integration-ats-api-data-model.png)
+![ATS 集成 API 数据模型。](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>招聘请求以及相关实体和选项集
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751648"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358997"
 ---
 # <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 
@@ -77,7 +77,7 @@ ms.locfileid: "5751648"
 3. 选择文档级别以指定要处理的发票范围。
 4. 为指定的文档级别选择 ER 格式。
 
-![打印管理设置](media/FTIbyGER-PMSetting.png)
+![打印管理设置。](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > 所选格式的 **报表格式查找** 字段中仅显示 **CustomersInvoicing** 数据模型的 **FreeTextInvoice** 根描述符。
@@ -87,9 +87,9 @@ FTI 表单在 ER 框架中按照生成 SSRS 报表的相同方法生成。
 
 若要生成 FTI 表单，可以根据范围或根据选择来选择发票。 
 
-![发票选择](media/FTIbyGER-InvoiceSelection.png)
+![发票选择。](media/FTIbyGER-InvoiceSelection.png)
 
-![发票预览](media/FTIbyGER-InvoiceExcelPreview.png)
+![发票预览。](media/FTIbyGER-InvoiceExcelPreview.png)
 
 按照这种方式使用 ER 格式打印 FTI 表单时，将使用默认 ER 文件目标。 不能更改该目标。 有关如何为 ER 格式配置 ER 目标的详细信息，请参阅[电子申报 (ER) 目标](electronic-reporting-destinations.md)。
 
@@ -101,9 +101,9 @@ FTI 表单在 ER 框架中按照生成 SSRS 报表的相同方法生成。
 > - **名称：** ERFormatDestinationRuntimeMaintain
 > - **标签：** 在运行时维护电子报告格式目标
 
-![电子报告目标](media/FTIbyGER-ERFileDestinationSetting.png)
+![电子报告目标。](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![电子申报格式目标](media/FTIbyGER-ERFileDestinationUsage.png)
+![电子报告格式目标。](media/FTIbyGER-ERFileDestinationUsage.png)
 
 ER 框架当前支持生成的文档采用以下目标：
 
@@ -128,7 +128,7 @@ ER 框架当前支持生成的文档采用以下目标：
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>以示例 ER 格式实施的功能
 在示例 ER 格式配置中，Excel 文件用作模板来生成 FTI 表单。
 
-![格式设计器](media/FTIbyGER-ERFormat.png)
+![格式设计器。](media/FTIbyGER-ERFormat.png)
 
 现在，此示例 ER 格式支持以下功能以生成 FTI 表单：
 
@@ -179,7 +179,7 @@ ER 框架当前支持生成的文档采用以下目标：
 - 为使用芬兰的国家/地区上下文，并且至少有一个银行帐户标记为 **转帐帐户** 和 **银行条码** 的法人。 
 - 为标记为 **芬兰的** 关联付款附件所需的发票。
 
-![转帐单](media/FTIbyGER-GiroSlip.PNG)
+![转帐单。](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > 示例 ER 格式已配置为可选择在单独的工作表中生成银行转帐单。
@@ -194,7 +194,7 @@ ER 框架当前支持生成的文档采用以下目标：
 - 可通过以下 ER 表达式访问电子邮件主题文本：**Emailing.TxtToUse.Subject**。
 - 可通过以下 ER 表达式访问电子邮件正文文本：**Emailing.TxtToUse.Body**。
 
-![目标设置](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![目标设置。](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 电子邮件的主题和正文的默认文本以示例 ER 格式定义。 语言取决于格式的标签。 如果尚未添加已预定义了 **ERFTITMP** ID 的自定义组织电子邮件模板，将把这些默认文本用于电子邮件。
 
@@ -203,9 +203,9 @@ ER 框架当前支持生成的文档采用以下目标：
 
 如果已为您要处理其发票的法人添加了具有预定义的 **ERFTITMP** ID 的组织电子邮件模板，将把电子邮件主题和正文的模板用于生成电子邮件。 
 
-![组织电子邮件模板](media/FTIbyGER-EmailTemplate.png)
+![组织电子邮件模板。](media/FTIbyGER-EmailTemplate.png)
 
-![上载电子邮件模板](media/FTIbyGER-EmailTemplateBody.png)
+![上传电子邮件模板。](media/FTIbyGER-EmailTemplateBody.png)
 
 将配置示例 ER 格式的 **Emailing.TxtToUse.Subject** ER 表达式，以便通过处理发票 ID 替换出现的所有占位符 %1。
 
@@ -218,10 +218,10 @@ ER 框架当前支持生成的文档采用以下目标：
 - 将把“%5”替换为公司的联系人的职称。
 - 将把“%6”替换为公司的联系人的电子邮件地址。
 
-![电子邮件地址](media/FTIbyGER-Email.PNG)
+![电子邮件。](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>其他资源
-[电子申报 (ER) 概览](general-electronic-reporting.md)
+[电子报告 (ER) 概览](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

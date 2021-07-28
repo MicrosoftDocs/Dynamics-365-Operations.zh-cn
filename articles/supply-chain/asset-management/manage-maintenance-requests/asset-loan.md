@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813379"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354921"
 ---
 # <a name="asset-loans"></a>资产出借
 
@@ -44,7 +44,7 @@ ms.locfileid: "5813379"
 
 若要查看您已出借给其他位置或客户的所有资产的列表，请选择 **资产管理** \> **常用** \> **资产出借** \> **所有资产出借**。 如果为资产选中了 **已结束** 复选框，则已将资产登记为已退给公司。
 
-![管理维护请求](media/06-manage-maintenance-requests.png)
+![管理维护请求。](media/06-manage-maintenance-requests.png)
 
 在 **有效资产出借** 页上，可查看尚未退给您的公司的所有出借资产的列表。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356552"
 ---
 # <a name="understand-date-and-time-fields"></a>了解日期和时间字段
 
@@ -36,13 +36,13 @@ ms.locfileid: "6051729"
 
 在 **日期和时间** 字段中显示数据时，Human Resources 会根据用户在 **用户选项** 窗体（**通用 > 设置 > 用户选项**）设置的时区调整日期和时间。 您在字段中输入的日期和时间信息可能与写入数据库的信息不同。
 
-[![用户选项窗体](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![用户选项窗体。](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>了解窗体中的日期和时间字段 
 
 如果用户的时区未设置为协调世界时 (UTC)，屏幕上显示的 **日期和时间** 数据将与存储在数据库中的数据不同。 **日期和时间** 字段中的数据始终存储为 UTC。
 
-[![工作人员窗体 UTC](./media/worker-form.png)](./media/worker-form.png)
+[![工作人员窗体 UTC。](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>了解数据库中的日期和时间字段 
 
@@ -52,7 +52,7 @@ ms.locfileid: "6051729"
   
 在下面的示例中，无论时区如何，员工 000724 的雇用都会同时变为活动状态。 该员工将于 GMT 时区的 04/30/2019 进入活动状态，与 GMT+12:00 时区的 05/01/2019 相同。 两者都指的是相同时间点而不是特定日期。 
 
-[![工作人员窗体 GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![工作人员窗体 GMT。](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Data Management Framework、Excel、Dataverse 和 Power BI 中的日期和时间数据 
 
@@ -68,27 +68,27 @@ Data Management Framework、Excel 加载项、Dataverse 和 Power BI 报告的�
 
 **用户时区设置为 UTC 的 Human Resources**
 
-[![工作人员窗体设置为 UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![工作人员窗体设置为 UTC。](./media/worker-form3.png)](./media/worker-form3.png)
 
 **用户时区设置为 GMT +12:00 的 Human Resources** 
 
-[![工作人员窗体设置为 GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![工作人员窗体设置为 GMT。](./media/worker-form4.png)](./media/worker-form4.png)
 
 **通过 OData 使用 Excel**
 
-[![通过 OData 使用 Excel](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![通过 OData 使用 Excel。](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF 暂存**
 
-[![DMF 暂存](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF 暂存。](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **DMF Export**
 
-[![DMF 导出](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF 导出。](./media/DMFexport.png)](./media/DMFexport.png)
 
 **通过 Dataverse 使用 Excel**
 
-[![通过 Dataverse 使用 Excel](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![通过 Dataverse 使用 Excel。](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>请参阅
 

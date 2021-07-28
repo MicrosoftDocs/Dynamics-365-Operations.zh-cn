@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054900"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346266"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>优化 Dataverse 虚拟表查询
 
@@ -50,11 +50,11 @@ ms.locfileid: "6054900"
 - **查询超时**：查询可能会超时并返回以下错误：“已获取令牌以调用 Finance and Operations，但 Finance and Operations 返回了类型 InternalServerError 的错误。”
 - **意外错误**：查询可能返回错误类型 400，并具有以下消息：“发生意外错误。”
 
-  ![HcmWorkerBaseEntity 上的错误类型 400](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![HcmWorkerBaseEntity 上的错误类型 400。](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **限制**：查询可能会过度使用服务器资源，并可能受到限制。 在这种情况下，查询返回以下错误：“已获取令牌以调用 Finance and Operations，但 Finance and Operations 返回了类型 429 的错误。” 有关 Human Resources 中的限制的详细信息，请参阅[限制常见问题解答](./hr-admin-integration-throttling-faq.md)。
 
-  ![HcmWorkerBaseEntity 上的错误类型 429](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![HcmWorkerBaseEntity 上的错误类型 429。](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>解决方法
 
@@ -96,7 +96,7 @@ OData-Version: 4.0
 2. 在 **获取数据** 窗口中，在搜索框中输入 **Common Data Service**，选择 **Common Data Service** 连接器，然后选择 **连接**。
 3. 在 Common Data Service 窗口的 **服务器 URL** 字段中，输入您的 Dataverse 环境的组织 URI，然后选择 **确定**。
   
-   ![输入您的 Dataverse 环境的 URI](./media/PowerBIDataverseURLSetup.png)
+   ![输入您的 Dataverse 环境的 URI。](./media/PowerBIDataverseURLSetup.png)
   
 4. 在“导航器”窗口中，展开 **实体** 节点。
 5. 在搜索框中，输入 **mshr_hcmworkerbaseentity**，然后选择实体。
@@ -113,7 +113,7 @@ OData-Version: 4.0
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![在 Power Query 编辑器的高级编辑器中更新查询](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![在 Power Query 编辑器的高级编辑器中更新查询。](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. 选择 **完成**。
 
@@ -138,7 +138,7 @@ OData-Version: 4.0
 
 您可以使用 [Power Apps 监视器](/powerapps/maker/monitor-overview)以确保查询中仅包含所需的列以获取 Power App 的数据。 您可以查看为 getRows 操作构造的 URL，以确保为应用选择的列最适用于检索数据。
 
-![使用 Power Apps 监视器以分析 getData 操作](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![使用 Power Apps 监视器以分析 getData 操作。](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>筛选数据查询
 

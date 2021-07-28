@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359779"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -30,7 +30,7 @@ ms.locfileid: "6103160"
 
 下图显示具有采购订单数量的入站负荷到达仓库时的典型处理流程。
 
-![入站负荷处理流程](media/inbound-process.png "入站负荷处理流程")
+![入站负荷处理流程。](media/inbound-process.png "入站负荷处理流程")
 
 1. **供应商确认采购订单。**
 
@@ -293,7 +293,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
     可以让其他所有设置保留其默认值。
 
-    ![移动设备菜单项设置](media/inbound-mobile-menu-items.png "移动设备菜单项设置")
+    ![移动设备菜单项设置。](media/inbound-mobile-menu-items.png "移动设备菜单项设置")
 
     有关如何设置移动设备菜单项的详细信息，请参阅[为仓库工作设置移动设备](configure-mobile-devices-warehouse.md)。
 
@@ -328,7 +328,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
     - 在 **负荷** 快速选项卡上，**负荷状态** 字段设置为 _未结_。
     - 在 **负荷行** 部分中，有一行中的 **数量** 字段设置为 _10_，**创建的工作数量** 字段设置为 _0_（零）。
 
-    ![负荷明细](media/inbound-load-details.png "负荷明细")
+    ![负荷详细信息。](media/inbound-load-details.png "负荷明细")
 
 1. 在操作窗格上 **装运和接收** 选项卡上，选择 **确认 \> 入站装运**。 请注意，**负荷状态** 已更改为 _已装运_。
 1. 记下 **负荷 ID** 值，以便在下一个过程中使用。

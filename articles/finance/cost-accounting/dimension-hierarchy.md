@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355075"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 
@@ -39,7 +39,7 @@ ms.locfileid: "5897568"
 
 以下是维度层次结构的示例。
 
-![维度层次结构的示例](./media/dimension-hierarchy.png)
+![维度层次结构的示例。](./media/dimension-hierarchy.png)
 
 可以为以下维度类型创建维度层次结构：
 
@@ -80,7 +80,7 @@ ms.locfileid: "5897568"
 
 一个小公司具有以下组织结构，其中财务和人力资源属于管理部门，装配和包装属于生产部门。
 
-![组织结构的示例](./media/dimension-hierarchy-org.png)
+![组织结构的示例。](./media/dimension-hierarchy-org.png)
 
 成本对象维度表示组织中的所有成本中心。
 

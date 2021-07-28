@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e6f5ffbebdfcd9f945e6237904d80e8734b0220
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 15f564ec0b4639ba7a27c6f3f989304c71695ee4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752428"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356335"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER 将财务维度用作数据源（第 2 部分 - 模型映射）
 
@@ -56,14 +56,14 @@ ms.locfileid: "5752428"
 21. 在“要求主科目”字段中选择“是”。
     * 将“请求主科目”设置为“是”将允许用户把主科目作为维度列表的一部分选择。   如果设置为“否”，将不会在维度列表中包含主科目，并且启用“主科目是否必填”选项。 如果“主科目是否必填”设置为“是”，无论用户如何选择，都应该在维度列表中包含主科目。  
 22. 单击“确定”。
-![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping1.png)
+![ER 模型映射设计器页面。](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 24. 单击“添加根”。
 25. 在“名称”字段中，键入“分类日记帐”。
 26. 在“要求查询”字段中选择“是”。
 27. 在“表格”字段中，键入“分类日记帐表”。
 28. 单击“确定”。
-![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping2.png)
+![ER 模型映射设计器页面。](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>将数据模型元素映射到添加的数据源
 1. 在树中，展开“日记帐”。
@@ -94,7 +94,7 @@ ms.locfileid: "5752428"
 25. 在树中，选择“分类日记帐\<关系\分类日记帐交易记录\Account.Dimension(LedgerDimension.Dimension)\主科目和维度”。
 26. 在树中，选择“日记帐\交易\维度数据”。
 27. 单击“绑定”。
-![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping3.png)
+![ER 模型映射设计器页面。](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. 在树中，选择“分类日记帐\<关系\分类日记帐交易\Debit(AmountCurDebit)”。
 29. 在树中，选择“日记帐\交易\借方”。
 30. 单击“绑定”。
@@ -132,10 +132,10 @@ ms.locfileid: "5752428"
 62. 单击“编辑”。
 63. 在“expressionAsStringText”字段中，输入“Company.'find()'.'name()'”。
     * Company.'find()'.'name()'  
-64. 单击“保存”。
-![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping4.png)
+64. 单击保存。
+![ER 模型映射设计器页面。](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. 关闭该页面。
-66. 单击“保存”。
+66. 单击保存。
 67. 关闭该页面。
 
 ## <a name="complete-this-draft-models-version"></a>完成此草稿模型的版本
@@ -144,7 +144,7 @@ ms.locfileid: "5752428"
 3. 单击“更改状态”。
 4. 单击“完成”。
 5. 单击“确定”。
-![ER 模型映射设计器页面](../media/er-financial-dimensions-guides-model-mapping5.png)
+![ER 模型映射设计器页面。](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804225"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347458"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>配置和运行作业以过帐报表
 
@@ -31,9 +31,9 @@ ms.locfileid: "5804225"
 2. 单击“成批过帐对帐单”。
     * 选择一个组织层次结构，然后在组织节点树结构中，选择一个商店或节点。 如果您想要为一组商店创建批处理作业，选择一个节点。  
     * 单击箭头以添加您的选择。  
-3. 单击“在后台运行”选项卡。![在后台运行](../dev-itpro/media/runbackground.png "在后台运行") 
+3. 单击“在后台运行”选项卡。![在后台运行。](../dev-itpro/media/runbackground.png "在后台运行") 
 4. 选中或取消选中“批处理”复选框。
-![批处理](../dev-itpro/media/batchprocessing.png "批处理和重复执行") 
+![批处理。](../dev-itpro/media/batchprocessing.png "批处理和重复执行") 
 5. 单击“再循环”。
 6. 在“开始日期”字段中，输入一个日期。
 7. 在“开始时间”字段中，输入时间。

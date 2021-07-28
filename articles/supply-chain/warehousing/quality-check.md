@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838218"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358042"
 ---
 # <a name="quality-check"></a>质量检查
 
@@ -310,7 +310,7 @@ ms.locfileid: "5838218"
 
     出现的 **质量检查** 页面没有输入字段。 它只在底部有一个确认（复选标记）按钮，在顶部有一个菜单按钮 (**≡**)。 （菜单按钮有时称为汉堡包或汉堡包按钮。）为了加快质量检查流程，当托盘通过质量检查时，用户只需确认 **质量检查** 页。
 
-    ![质量检查页面](media/quality-check.png "质量检查页面")
+    ![质量检查页面。](media/quality-check.png "质量检查页面")
 
 1. 选择确认按钮通过行 1 的托盘 1 的质量检查。
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748915"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350903"
 ---
 # <a name="integrated-customer-master"></a>集成客户主数据
 
@@ -36,7 +36,7 @@ ms.locfileid: "5748915"
 
 *客户* 是应用程序中精心定义的概念。 因此，客户数据的集成包括在这两个应用程序之间协调客户概念。 下图显示客户数据流。
 
-![客户数据流](media/dual-write-customer-data-flow.png)
+![客户数据流。](media/dual-write-customer-data-flow.png)
 
 客户可以大致分为两类：商业/组织客户和消费者/最终用户。 这两种类型的客户存储在 Finance and Operations 和 Dataverse 中并以不同方式处理。
 

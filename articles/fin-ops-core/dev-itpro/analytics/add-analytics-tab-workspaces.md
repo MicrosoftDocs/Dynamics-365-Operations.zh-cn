@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354437"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
@@ -54,11 +54,11 @@ ms.locfileid: "5754590"
 3. 在 **添加新物料** 对话框中，在 **Operations 项目** 下，选择 **资源** 模板。
 4. 输入将用于在 X++ 元数据中引用报表的名称，然后单击 **添加**。
 
-    ![“添加新物料”对话框](media/analytical-workspace-add.png)
+    ![“添加新物料”对话框。](media/analytical-workspace-add.png)
 
 5. 查找包含分析报表的定义的 .pbix 文件，然后单击 **打开**。
 
-    ![选择“资源”文件对话框](media/analytical-workspace-select-resource.png)
+    ![选择“资源”文件对话框。](media/analytical-workspace-select-resource.png)
 
 既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。
 
@@ -67,7 +67,7 @@ ms.locfileid: "5754590"
 
 下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。
 
-![进行更改前的 FMClerkWorkspace 窗体](media/analytical-workspace-definition-before.png)
+![进行更改前的 FMClerkWorkspace 窗体。](media/analytical-workspace-definition-before.png)
 
 执行以下步骤扩展 **预订管理** 工作区中的窗体定义。
 
@@ -92,7 +92,7 @@ ms.locfileid: "5754590"
 
 下图显示设计在应用这些更改后的外观。
 
-![进行更改后的 FMClerkWorkspace](media/analytical-workspace-definition-after.png)
+![进行更改后的 FMClerkWorkspace。](media/analytical-workspace-definition-after.png)
 
 既然你已添加了将用于嵌入工作区报表的窗体控件，你现在必须定义父控件的大小，使之适应布局。 默认情况下，**筛选器窗格** 页和 **选项卡** 页将在报表上显示。 但是，你可以根据报表的目标使用者相应地更改这些控件的可见性。
 
@@ -142,7 +142,7 @@ ms.locfileid: "5754590"
 
 现在你已完成添加业务逻辑以初始化嵌入的报表查看器控件的任务。 下图显示工作区在应用这些更改后的外观。
 
-![在工作区嵌入的报表](media/analytical-workspace-final.png)
+![在工作区中嵌入的报表。](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > 你可以使用页标题下方的工作区选项卡访问现有的操作视图。

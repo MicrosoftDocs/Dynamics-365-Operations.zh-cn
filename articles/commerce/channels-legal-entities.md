@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346026"
 ---
 # <a name="create-legal-entities"></a>创建法人
 
@@ -44,7 +44,7 @@ ms.locfileid: "5800606"
 1. 在 **国家/地区** 字段中，输入或选择一个值。
 1. 选择 **确定**。 
 
-   ![法人创建](media/legal-entities.png)
+   ![法人创建。](media/legal-entities.png)
 
 1. 在 **常规** 部分中，请提供有关法人的以下一般信息： 
    1. 如果需要搜索名称，请输入搜索名称。 搜索名称是可用于搜索此法人的替代名称。 
@@ -67,7 +67,7 @@ ms.locfileid: "5800606"
 
 下图显示了示例法人的详细信息。
 
-![法人常规部分](media/legal-entities-general.png)
+![法人常规部分。](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>其他资源
 

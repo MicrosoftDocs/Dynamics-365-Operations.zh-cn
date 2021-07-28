@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016124"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354945"
 ---
 # <a name="cost-and-date-control"></a>成本和日期控制
 
@@ -58,7 +58,7 @@ ms.locfileid: "6016124"
 
     下图显示 **资产成本控制** 对话框的示例。
 
-    ![“资产成本控制”对话框](media/01-controlling-and-reporting.png)
+    ![“资产成本控制”对话框。](media/01-controlling-and-reporting.png)
 
 10. 在 **资产成本控制** 页面上，单击 **分组依据** 按钮显示所需的计算详细程度。 将突出显示所选 **分组依据** 按钮。 单击按钮将其激活或停用。
 
@@ -71,7 +71,7 @@ ms.locfileid: "6016124"
 - **未结承诺成本** 字段显示对要为您已订购或收到，但尚未付款的物料、工时和服务的付款承诺。 
 - **实际成本** 字段显示过帐所有消耗登记之后的相关成本。
 
-![“资产成本控制”中的计算结果示例](media/02-controlling-and-reporting.png)
+![“资产成本控制”中的计算结果的示例。](media/02-controlling-and-reporting.png)
 
 另外一种创建成本计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。 然后，单击 **常规** 选项卡上的 **成本控制** 按钮。在 **资产成本控制** 对话框中，将把所选资产自动插入到 **要包括的记录** 快速选项卡上的 **资产** 字段中。 单击 **确定**，然后将显示所选资产的成本计算。 可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。
 
@@ -99,7 +99,7 @@ ms.locfileid: "6016124"
 - **平均结束延迟** 字段显示工作订单的计划结束日期与实际结束日期之间的天数。 例如，如果实际结束日期在计划结束日期的三天后，则此字段中将显示“3”。  
 - **发生次数** 字段显示工作订单的计划开始日期与实际开始日期之间和计划结束日期与实际结束日期之间发生偏差的次数。
 
-![“工作订单日期控制”中的计算结果示例](media/03-controlling-and-reporting.png)
+![“工作订单日期控制”中的计算结果的示例。](media/03-controlling-and-reporting.png)
 
 
 

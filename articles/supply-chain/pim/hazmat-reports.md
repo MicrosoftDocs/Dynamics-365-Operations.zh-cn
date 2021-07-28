@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820314"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347012"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>危险物料查询和报表
 
@@ -29,7 +29,7 @@ Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各
 
 下图显示了系统生成危险物料报表时发生的活动序列。
 
-![危险物料报表的活动序列](media/hazmat-report-sequence.png "危险物料报表的活动序列")
+![危险物料报表的活动序列。](media/hazmat-report-sequence.png "危险物料报表的活动序列")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>设置危险物料报告
 
