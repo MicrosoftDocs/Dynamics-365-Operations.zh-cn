@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352582"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>配置渠道以使用渠道导航层次结构
 
@@ -45,7 +45,7 @@ ms.locfileid: "5796116"
 
 下图显示了如何配置渠道以使用渠道导航层次结构。
 
-![渠道配置示例](media/configure-channel-hierarchy-1.png)
+![渠道配置示例。](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>设置属性元数据
 
@@ -61,9 +61,9 @@ ms.locfileid: "5796116"
 
 下图显示了在渠道类别节点上配置的一组渠道产品属性的示例。
 
-![渠道类别节点上的渠道属性](media/configure-channel-hierarchy-2.png)
+![渠道类别节点上的渠道属性。](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>发布渠道
+## <a name="publish-changes"></a>发布更改
 
 若要让更改生效，则需要发布这些更改。
 
@@ -74,7 +74,7 @@ ms.locfileid: "5796116"
 
 下图显示了如何发布渠道更新。
 
-![发布渠道更新](media/configure-channel-hierarchy-3.png)
+![发布渠道更新。](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>其他资源
 

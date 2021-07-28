@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358541"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>任务录制的安全诊断
 
@@ -39,7 +39,7 @@ ms.locfileid: "5745757"
 
 4. 在 **用户 ID** 字段中，选择一个用户。 如果用户没有某些菜单项的权限，则 **缺少权限** 字段将更新为 **是**。
   
-  ![安全菜单项详细信息页面](../media/Security-Menu-Item-Details.png)
+  ![安全菜单项详细信息页面。](../media/Security-Menu-Item-Details.png)
 
 5. 选择 **添加引用** 以查看安全对象的列表，包括授予缺少的权限的角色、职责和特权。
 6. 从列表中选择安全对象：

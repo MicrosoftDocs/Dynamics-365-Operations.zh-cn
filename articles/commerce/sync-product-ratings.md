@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791671"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354605"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 
@@ -59,7 +59,7 @@ ms.locfileid: "5791671"
 
 下图显示 Commerce 中的子作业详细信息的示例。
 
-![RetailProductRating 子作业的详细信息](media/rnr-hq-ratings-sub-job.png)
+![RetailProductRating 子作业的详细信息。](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > 如果找不到 **RetailProductRating** 子作业，说明在初始化商业调度之前，您可能已运行了 **同步产品评分** 作业和 **1040 CDX** 作业。 在此情况下，请执行以下步骤运行 **完全数据同步** 作业。
@@ -83,7 +83,7 @@ ms.locfileid: "5791671"
 
 下图显示 Commerce 中的批处理作业配置的示例。
 
-![配置同步产品评分批处理作业](media/rnr-hq-batchjob-recurrence.png)
+![同步产品评分批处理作业的配置。](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>验证产品评分同步批处理作业是否成功
 
@@ -95,7 +95,7 @@ ms.locfileid: "5791671"
 
 下图显示当安排批处理作业以两小时的间隔运行时，Commerce 中的批处理作业详细信息的示例。
 
-![同步产品评分批处理作业的详细信息](media/rnr-hq-batchjob-status-checking.png)
+![同步产品评分批处理作业的详细信息。](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>使产品评分在 POS 可用
 
@@ -113,15 +113,15 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 
 下图显示要在 POS 中开启产品评分所需商业参数配置的示例。
 
-![POS 中产品评分的商业参数配置](media/rnr-hq-enable-ratings-in-pos.png)
+![POS 中产品评分的 Commerce 参数配置。](media/rnr-hq-enable-ratings-in-pos.png)
 
 下图显示 POS 中的产品评分的示例。
 
-![POS 中的产品评分](media/rnr-pos-catalog-ratings.png)
+![POS 中的产品评分。](media/rnr-pos-catalog-ratings.png)
 
 下图显示呼叫中心渠道中的产品评分的示例。
 
-![呼叫中心渠道中的产品评分](media/rnr-call-center-ratings.png)
+![呼叫中心渠道中的产品评分。](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>其他资源
 

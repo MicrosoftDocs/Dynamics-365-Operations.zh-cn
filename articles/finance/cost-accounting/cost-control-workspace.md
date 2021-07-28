@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833034"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355219"
 ---
 # <a name="cost-control-workspace"></a>成本控制工作区 
 
@@ -116,7 +116,7 @@ ms.locfileid: "5833034"
 
 对用户（如经理）可用的报表列表通过设置 **成本控制工作区配置** 页上的 **已发布** 选项进行控制。
 
-![用户可以在成本控制工作区查看的报表](./media/report-cost-control.png)
+![用户可以在成本控制工作区中查看的报表。](./media/report-cost-control.png)
 
 经理可以选择要查看的会计日历期间。 会话日期用于确定默认的当前期间。
 
@@ -136,11 +136,11 @@ ms.locfileid: "5833034"
 
 两个图表按期间显示实际与预算对比及预算差异的汇总。
 
-![按期间显示实际与预算对比及预算差异的汇总的图表](./media/cost-element-details-operations.png)
+![按期间显示实际与预算对比及预算差异的汇总的图表。](./media/cost-element-details-operations.png)
 
 用户可以单击 **成本条目** 以根据需要深化到条目详细信息。
 
-![成本条目](./media/cost-entries.png)
+![成本条目。](./media/cost-entries.png)
 
 例如，租金是分配到成本中心的支出。 用户若要了解其成本中心必须承担的租金成本，必须深化以查看租金的计算方式。
 
@@ -148,7 +148,7 @@ ms.locfileid: "5833034"
 
 在以下示例中，分配基础为 **公式分配基础** 类型，且显示公式。 列出了定义公式的系数。 此外，网格还显示每个成本对象完成的计算。
 
-![每个成本对象的计算](./media/cost-entries-allocation-base.png)
+![每个成本对象的计算。](./media/cost-entries-allocation-base.png)
 
 其他资源 
 

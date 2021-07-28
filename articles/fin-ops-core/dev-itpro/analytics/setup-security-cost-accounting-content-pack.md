@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359451"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>设置成本核算分析 Power BI 内容的安全性
 
@@ -42,11 +42,11 @@ ms.locfileid: "5754256"
 3. 找到 **成本核算分析** Power BI 内容的数据集。
 4. 打开安全性页面。
 
-    ![打开安全性页面](./media/CA-picture-1.png)
+    ![打开安全性页面。](./media/CA-picture-1.png)
 
 5. 已创建了 **成本对象控制员** 角色。 添加属于成本核算访问级别组织层次结构的其他成员。
 
-    ![添加成员](./media/CA-picture-2.png)
+    ![添加成员。](./media/CA-picture-2.png)
 
 添加到 **成本对象控制员** 角色的用户只能查看根据成本核算访问级别组织层次结构中的定义允许其查看的数据。
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747143"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348545"
 ---
 # <a name="workflow-elements"></a>工作流元素
 
@@ -60,7 +60,7 @@ ms.locfileid: "5747143"
 
 可以创建工作流来处理文档或文档上的行项。 例如，您为工时单创建了审核工作流。 （我们将把此工作流称为 *单据工作流*。）您可以向该单据工作流添加 *行项工作流* 元素。 在运行行项元素时，提交文档上的每个行项进行处理。 您可能想要由同一行项工作流来处理所有行项，或者您可能想要由不同的行项工作流来处理各行项。 假定员工提交了类似于下图的时间表。
 
-![具有行项的工作流](./media/workflow_lineitemworkflow.gif)
+![具有行项的工作流。](./media/workflow_lineitemworkflow.gif)
 
 在这种情况下，您可能要创建以下行项工作流：
 

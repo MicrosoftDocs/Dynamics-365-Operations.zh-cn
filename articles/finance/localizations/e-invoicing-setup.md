@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348478"
 ---
 # <a name="set-up-electronic-invoicing"></a>设置电子开票
 
@@ -37,7 +37,7 @@ ms.locfileid: "5890823"
 
 下图显示了电子开票功能的主要组件。
 
-![电子开票功能概述](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![电子开票功能概述。](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 由于发票格式和操作流的变化，功能设置可能会因国家或地区或业务要求而异。
 
@@ -50,7 +50,7 @@ ms.locfileid: "5890823"
 3. 在 **电子开票功能** 页面上，选择 **导入** 以从全局存储库导入 ER 数据模型配置。
 4. 选择 **添加** 以创建电子开票功能。 您可以从头创建此功能，也可以从现有的电子开票功能派生。
 
-    ![添加电子开票功能](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![添加电子开票功能。](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > 创建新的电子开票功能时，它具有版本号，默认状态将设置为 **草稿**。
@@ -63,21 +63,21 @@ ms.locfileid: "5890823"
 
 1. 在 **电子开票功能** 页面上的 **配置** 选项卡上，选择 **添加** 以为电子开票功能添加 ER 文件格式配置。
 
-    ![添加电子开票功能配置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![添加电子开票功能配置。](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > 从头创建电子开票功能时，必须手动添加所有 ER 文件格式配置。 从现有功能派生电子开票功能时，将自动创建 ER 文件格式配置，因为它们从原始电子开票功能继承而来。
 
 2. 选择 **编辑** 打开 **格式设计器** 页，您可以在其中编辑 ER 文件格式配置。
 
-    ![编辑电子开票功能配置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![编辑电子开票功能配置。](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > 在编辑格式时，配置版本的状态将设置为 **草稿**。
 
 3. 使用 **格式设计器** 页更改文件格式配置。 有关详细信息，请参阅[创建电子单据配置](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)。
 
-    ![“格式设计器”页面](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![“格式设计器”页面。](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>功能设置
 
@@ -87,20 +87,20 @@ ms.locfileid: "5890823"
 
 1. 在 **电子开票功能** 页面上的 **设置** 选项卡上，选择 **添加** 以向电子开票功能添加功能设置。
 
-    ![添加电子开票功能设置](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![添加电子开票功能设置。](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > 从头创建电子开票功能时，必须手动添加所需的所有功能设置。 从现有功能派生电子开票功能时，将自动创建所有功能设置，因为它们从原始电子开票功能继承而来。
 
 2. 选择 **编辑** 编辑功能版本设置。
 
-    ![编辑电子开票功能设置](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![编辑电子开票功能设置。](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. 使用 **功能版本设置** 页配置操作、适用性规则和变量。
 
-    ![操作、适用性规则和变量](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![操作、适用性规则和变量。](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
-### <a name="actions"></a>行动
+### <a name="actions"></a>变动
 
 操作是按顺序运行的预定义操作列表。 此列表表示完整执行电子开票功能所需的步骤的分解。 操作可以在同一个电子开票功能中封装双向通信：发送目标请求、接收响应和分析内容。
 
@@ -113,7 +113,7 @@ ms.locfileid: "5890823"
 - 选择 **新建** 或 **删除** 添加新操作或删除现有操作。
 - 选择 **向上** 或 **向下** 在网格中向上或向下移动选定的动作，从而更改它们的运行顺序。 操作从上到下按照它们在网格中出现的顺序运行。
 
-![管理操作](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![管理操作。](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 下表说明了 **操作** 快速选项卡上可用的字段。
 
@@ -129,7 +129,7 @@ ms.locfileid: "5890823"
 
 **参数** 快速选项卡列出在 **操作** 快速选项卡上选择的操作的参数。
 
-![“参数”快速选项卡](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![“参数”快速选项卡。](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 下表说明了 **参数** 快速选项卡上可用的字段。
 
@@ -259,20 +259,20 @@ ms.locfileid: "5890823"
 
 1. 在 **功能版本设置** 页，在 **适用性规则** 选项卡上，选择 **新建** 添加适用性规则。
 
-    ![管理适用性规则](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![管理适用性规则。](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. 在网格中，选择应分组的子句。
 3. 选择 **分组子句**。
 
-    ![分组子句](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![分组子句。](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     将子句分组后，一个新列将添加到网格中。 此列指定分组子句的逻辑运算符。
 
-    ![分组子句的逻辑运算符](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![分组子句的逻辑运算符。](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 若要取消对子句的分组，请选择要取消分组的分组子句，然后选择 **取消子句分组**。
 
-![取消子句分组](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![取消子句分组。](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > 取消子句分组时，请始终从最内部的分组级别开始。
@@ -294,7 +294,7 @@ ms.locfileid: "5890823"
 
 - 在 **功能版本设置** 页上的 **变量** 选项卡上，选择 **新建** 或 **删除** 管理变量。
 
-    ![管理变量](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![管理变量。](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 下表说明了 **变量** 选项卡上可用的字段。
 
@@ -310,7 +310,7 @@ ms.locfileid: "5890823"
 
 - 在 **功能版本设置** 页上的操作窗格上，选择 **验证** 验证功能版本设置。
 
-   ![选择“验证”按钮](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![选择“验证”按钮。](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 验证检查整个配置的一致性。 例如，如果某个操作的特定参数是强制性的，但其值仍为空白，验证会检测到这种不一致，您会收到警告。
 
@@ -323,7 +323,7 @@ ms.locfileid: "5890823"
 1. 在 **电子开票功能** 页面上的 **环境** 选项卡上，选择 **启用** 以添加电子开票环境。
 2. 在 **生效开始日期** 字段中，输入新环境生效的日期。
 
-![启用电子开票环境](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![启用电子开票环境。](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>组织
 

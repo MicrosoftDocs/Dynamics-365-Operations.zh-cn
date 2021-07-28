@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a18bb14ba8c3c926065c97b0ee26c38ee86ded2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 46532fce05b7faf15b3dc2e843dcd93a976c0da1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053267"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357257"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>将任务指南保存到 LCS 并重新播放它们
 
@@ -52,7 +52,7 @@ Microsoft Dynamics 365 Human Resources 通过 Microsoft Dynamics Lifecycle Servi
 10. 创建任务录制。
 11. 当您完成时，选择 **保存到 Lifecycle Services**。
 
-    ![保存到 Lifecycle Services](media/task-guides.png)
+    ![保存到 Lifecycle Services。](media/task-guides.png)
 
 12. 选择要保存任务录制的 BPM 库和节点。
 

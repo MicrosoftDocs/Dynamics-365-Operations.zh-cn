@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360141"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -71,11 +71,11 @@ ms.locfileid: "6053675"
 
 4. 在 **复制实例** 任务窗格中，选择要覆盖的实例，然后选择 **复制**。 等待 **复制状态** 字段的值更新为 **已完成**。
 
-   ![[选择要覆盖的实例](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[选择要覆盖的实例。](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. 选择 **Power Platform**，然后登录到 Microsoft Power Platform 管理中心。
 
-   ![[选择 Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[选择 Power Platform。](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
 

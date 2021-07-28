@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357430"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Finance Insights（预览）的配置
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>个人预览版（预览）的 Finance insights 的配置 - 10.0.19 之前的版本
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Microsoft
 
     1. 打开 **环境** 页面。
 
-        [![环境页面](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![环境页面。](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. 选择上面创建的 Dataverse 环境，然后选择 **设置**。
     3. 选择 **资源 \> 所有旧设置**。
@@ -792,6 +792,8 @@ finally {
     | CDS 组织 URL                                     | 从上面复制的 Dataverse 组织 URL。 |
     | CDS 组织 ID                                               | 从上面复制的 Dataverse 组织 ID。 |
 5. 启用 **是租户的默认环境**。
+
+安装加载项可能需要几分钟时间。
     
 ## <a name="configure-the-entity-store"></a>配置实体存储
 

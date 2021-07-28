@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102679"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359877"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
 
@@ -27,7 +27,7 @@ ms.locfileid: "6102679"
 
 客户门户提供了一些现成的网页和操作。 以下站点地图提供了这些网页和操作以及可以执行这些操作的角色的概览。
 
-![客户门户站点地图](media/customer-portal-site-map.png "客户门户站点地图")
+![客户门户站点地图。](media/customer-portal-site-map.png "客户门户站点地图")
 
 ## <a name="typical-customizations"></a>典型自定义
 
@@ -61,12 +61,12 @@ ms.locfileid: "6102679"
     - **申请编号** – 输入订单的申请编号。 此字段不是必填项。
     - **运达国家/地区** – 输入物料将送达的国家或地区。 此字段将为非管理员用户自动设置。
 
-    ![订单信息页面](media/customer-portal-order-information.png "订单信息页面")
+    ![订单信息页面。](media/customer-portal-order-information.png "订单信息页面")
 
 1. 选择 **下一步**。
 1. 在 **物料** 页上，选择 **添加物料**。
 
-    ![“物料”页面](media/customer-portal-items.png "“物料”页面")
+    ![物料页面。](media/customer-portal-items.png "“物料”页面")
 
 1. 在 **物料信息** 对话框中，设置以下字段：
 
@@ -75,14 +75,14 @@ ms.locfileid: "6102679"
     - **单位** – 指定度量单位（例如，**个**、**公斤** 或 **箱**）。
     - **估计净额** – 此值计算为“物料的估计价格 × 所选单位的数量”。
 
-    ![“物料信息”对话框](media/customer-portal-item-information.png "“物料信息”对话框")
+    ![物料信息对话框。](media/customer-portal-item-information.png "“物料信息”对话框")
 
 1. 选择 **提交** 将物料添加到订单。
 1. 重复步骤 4 到 6，直到您添加了要订购的所有物料。
 1. 添加完物料后，在 **物料** 页上选择 **下一步**。
 1. **订单信息** 页提供订单摘要。 查看订单内容和交货详细信息。 如果每一项看起来都正确，选择 **提交** 提交订单。
 
-    ![已完成订单信息页面](media/customer-portal-order-submit.png "已完成订单信息页面")
+    ![已完成订单信息页面。](media/customer-portal-order-submit.png "已完成订单信息页面")
 
 ### <a name="standard-data-setup"></a>标准数据设置
 
@@ -147,19 +147,19 @@ ms.locfileid: "6102679"
 
 客户门户模板中包含的唯一自定义控件用于在主页上创建磁贴。
 
-![主页上的磁贴](media/customer-portal-home-page-tiles.png "主页上的磁贴")
+![主页上的磁贴。](media/customer-portal-home-page-tiles.png "主页上的磁贴")
 
 要修改磁贴，请按照下列步骤操作。
 
 1. 打开[“门户管理”应用](/powerapps/maker/portals/configure/configure-portal)。
 1. 在左侧的导航窗格中，选择 **页面模板**。
 
-    ![“门户管理”导航窗格](media/customer-portal-nav.png "“门户管理”导航窗格")
+    ![门户管理导航窗格。](media/customer-portal-nav.png "“门户管理”导航窗格")
 
 1. 选择名为 **主页** 的页面模板。
 1. 在 **Web 模板** 字段中，选择 **主页** 链接打开该页面的源代码。
 
-    ![“Web 模板”字段](media/customer-portal-web-template.png "“Web 模板”字段")
+    ![Web 模板字段。](media/customer-portal-web-template.png "“Web 模板”字段")
 
 1. 现在，您应该可以看到主页的所有源代码，并可以根据需要对其进行修改。
 

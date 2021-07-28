@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923438"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373359"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -35,7 +37,7 @@ ms.locfileid: "5923438"
 
 在所有这些应用中，可以从 **帮助** 窗格访问产品特定的帮助。
 
-![帮助窗格](./media/help-pane-ops-help.png)
+![帮助窗格。](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
 
@@ -46,12 +48,23 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 
 可以使用任何搜索引擎在 docs.microsoft.com 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
+<!--## Get notified about changes through an RSS feed
 
-若要订阅对 docs.microsoft.com 上内容所有更新的真正简单的整合 (RSS) 源，请使用以下链接：
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[RSS 源](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>为我们提供反馈
 
 如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。
@@ -60,7 +73,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 
 2. 开始键入您的评论，然后选择 **提交反馈**。
 
-    ![发布评论](./media/feedback.png)
+    ![发布评论。](./media/feedback.png)
 
 > [!NOTE]
 > 如果要提交文档反馈，必须使用 GitHub 帐户登录。 有关详细信息，请参阅[设置和管理 GitHub 配置文件](https://help.github.com/github/setting-up-and-managing-your-github-profile)。
@@ -84,11 +97,11 @@ YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dyn
 
 Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版发布了产品版本的任务指南库。 本主题中[从“帮助”窗格访问任务指南](#accessing-task-guides-from-the-help-pane)部分介绍如何查找适用于您的产品的正确任务指南。
 
-![任务指南阅读视图](./media/task-guide-ops.png)
+![任务指南阅读视图。](./media/task-guide-ops.png)
 
 若要开始引导式、交互式的体验，请在 **帮助** 窗格底部选择 **启动任务指南**。 将通过黑色指针显示首先访问何处。 按照用户界面 (UI) 中显示的说明进行操作，并按照指示输入数据。
 
-![任务指南步骤说明](./media/task-guide-step-1-ops.png)
+![任务指南步骤说明。](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > 您在播放任务指南时输入的数据是真实的。 如果您处于生产环境中，则数据将输入您当前使用的公司中。
@@ -101,7 +114,7 @@ Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版�
 
 若要访问帮助内容，请选择 **帮助** 按钮 (**?**)，然后选择 **帮助**。 或者按 **Ctrl+Shift+?**。 在这两种情况下，都将显示 **帮助** 窗格。 可从 **帮助** 窗格访问与当前所在产品区域有关的概念性主题或任务指南。
 
-![帮助窗格](./media/help-pane-ops-help.png)
+![帮助窗格。](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>从“帮助”窗格中访问帮助主题
 
@@ -118,13 +131,13 @@ Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版�
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 系统管理员完成这些步骤后，您可以打开 **帮助** 窗格并选择 **任务指南** 选项卡。您现在将看到适用于您当前所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在 **帮助** 窗格中选择一个任务指南后，**帮助** 窗格会显示分步说明，而且您可以播放该任务指南。
 
-![任务指南阅读视图](./media/task-guide-ops.png)
+![任务指南阅读视图。](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>翻译后的 Microsoft 任务指南库在哪里？
 

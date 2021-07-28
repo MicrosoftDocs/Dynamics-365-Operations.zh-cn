@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e69c35745959c6f3a90a7c597d37316e9da5358e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359549"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>将仓库从Supply Chain Management 同步到 Field Service
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910249"
 
 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的仓库的模板和基础任务。
 
-[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 以下模板和基础任务用于运行仓库从 Supply Chain Management 到 Field Service 的同步。
@@ -77,7 +77,7 @@ ms.locfileid: "5910249"
 
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>仓库（Supply Chain Management 到 Field Service）：仓库
 
-[![数据集成中的模板映射](./media/Warehouse1.png)](./media/Warehouse1.png)
+[![数据集成中的模板映射。](./media/Warehouse1.png)](./media/Warehouse1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

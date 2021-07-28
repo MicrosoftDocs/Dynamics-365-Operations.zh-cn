@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020107"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352802"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>未计算税款或税额为零
 
@@ -32,17 +32,17 @@ ms.locfileid: "6020107"
 
 1. 在交易行的 **行详细信息** 快速选项卡上，在 **设置** 选项卡的 **销售税** 部分，验证是否在 **物料销售税组** 和 **销售税组** 字段中选择了正确的税组。 如果未选择正确的税组，请进行选择。
 
-    [![“物料销售税组”和“销售税组”字段](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![“物料销售税组”和“销售税组”字段。](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. 转到 **税** \> **间接税** \> **销售税** \> **销售税组**。
 3. 选择适当的销售税组，然后在 **设置** 快速选项卡上，记下 **销售税代码** 字段中的税代码。
 
-    [![销售税组页面](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![销售税组页面。](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. 转到 **税** \> **间接税** \> **销售税** \> **物料销售税组**。
 5. 选择适当的物料销售税组，然后在 **设置** 快速选项卡上，验证 **销售税代码** 字段中的税代码与销售税组的税代码是否匹配。
 
-    [![物料销售税组页面](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![物料销售税组页面。](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. 如果税代码不匹配，更新其中一个组的销售税代码。
 
@@ -53,12 +53,12 @@ ms.locfileid: "6020107"
 1. 转到 **税** \> **间接税** \> **销售税** \> **销售税组**。
 2. 选择适当的销售税组，然后，在 **设置** 快速选项卡上，验证 **免税** 复选框是否清除。 如果已选中，请清除。
 
-    [![“销售税组”页上的“免税”复选框](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![“销售税组”页面上的“免税”复选框。](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. 转到 **税** \> **间接税** \> **销售税** \> **销售税代码**。
 4. 选择适当的销售税代码，然后验证 **值** 字段中的税率值是否不为 0（零）。 如果为 0，更新该字段，将其设置为正确的税率。
 
-    [![销售税代码值页面上的“值”字段](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![销售税代码值页面上的“值”字段。](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>确定零是否是正确的税额
 
@@ -67,7 +67,7 @@ ms.locfileid: "6020107"
 1. 转到 **总帐** \> **分类帐设置** \> **总帐参数**。
 2. 在 **销售税** 选项卡上，在 **计算方法** 字段中，确认选择了 **总计**。
 
-    [![“总帐参数”页上的“计算方法”字段](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![“总帐参数”页面上的“计算方法”字段。](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. 转到 **税** \> **间接税** \> **销售税** \> **销售税代码**。
 4. 选择适当的销售税代码，选择 **计算**\>**边际基数**，确认边际基数设置为 **发票余额的净额** 或 **包括其他销售税金额的发票合计**。 有关详细信息，请参阅[包括其他销售税金额的发票合计](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts)。

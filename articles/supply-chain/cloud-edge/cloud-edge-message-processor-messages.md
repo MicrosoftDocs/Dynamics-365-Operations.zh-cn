@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271093"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350562"
 ---
 # <a name="message-processor-messages"></a>消息处理程序消息
 
@@ -88,15 +88,15 @@ ms.locfileid: "6271093"
 
 1. 在 [Power Automate](https://preview.flow.microsoft.com) 中，为流触发器 **当业务事件发生时 - Fin & Ops App (Dynamics 365)** 创建一个新的自动化云端流，后跟 **分析 JSON** 和 **发送电子邮件** 步骤，如下图所示。
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate自动化云端流":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate 自动化云端流。":::
 
 1. 在 **当业务事件发生时** 步骤中，您可以查找或输入中心 **实例**，之后是 **类别**，然后是 **业务事件***消息处理器消息已处理*，如下图所示。
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate 当业务事件发生时步骤":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate 当业务事件发生时步骤。":::
 
 1. 对于 **分析 JSON** 步骤，输入定义扩展字段的 **架构**。 您可以使用 Supply Chain Management 中 **业务事件目录** 页上的 *下载架构* 选项，也可以从粘贴示例架构文本开始。 下图之后提供了此示例文本。
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate 分析 JSON步骤":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate 分析 JSON步骤。":::
 
     ```json
     {
@@ -183,7 +183,7 @@ ms.locfileid: "6271093"
 
 1. 在 **发送电子邮件** 步骤中，您可以选择各个字段，也可以从将电子邮件正文示例粘贴到 **正文** 字段中开始。 下图之后提供了此示例。
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate 发送电子邮件步骤":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate 发送电子邮件步骤。":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

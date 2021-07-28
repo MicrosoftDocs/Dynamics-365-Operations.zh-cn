@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056340"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360536"
 ---
 # <a name="set-up-reason-codes"></a>设置原因代码
 
@@ -56,15 +56,15 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
 
 1. 选择 **原因代码** 了解有关迁移状态的详细信息。
 
-   [![原因代码](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![原因代码。](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. 选择迁移失败的原因代码。
 
-   [![原因代码迁移状态](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![原因代码迁移状态。](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. 选择 **迁移原因代码**。
 
-   [![迁移原因代码](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![迁移原因代码。](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. 在 **福利原因代码迁移** 窗格中，有两个用于映射到人事管理原因代码的选项：
 
@@ -73,10 +73,10 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
      > 如果尚未将另一个福利管理原因代码迁移到“人事管理”，您只能在其中使用现有原因代码。
    - 要在“人事管理”中创建新的原因代码，在 **新建原因代码** 中输入新的原因代码，然后在 **新增描述** 中输入描述。
 
-   [![映射到人事管理原因代码](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![映射到人事管理原因代码。](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 原因代码迁移到“人事管理”后，在“福利管理”中使用它们的选项将自动设置为 **是**。
 
-[![在“福利管理”中使用原因代码](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![在“福利管理”中使用原因代码。](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

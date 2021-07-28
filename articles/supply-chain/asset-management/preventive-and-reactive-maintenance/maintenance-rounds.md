@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361034"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 
@@ -80,7 +80,7 @@ ms.locfileid: "5825726"
 
 下图显示其中包含三个资产的维护阶段的示例。
 
-![图 1](media/13-preventive-maintenance.png)
+![图 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>安排维护阶段
@@ -106,9 +106,9 @@ ms.locfileid: "5825726"
 
 下面的两个图在 **安排维护阶段** 对话框中显示一个安排作业，在 **所有维护安排** 中显示根据该安排作业创建的维护安排行。
 
-![图 2](media/14-preventive-maintenance.png)
+![图 2.](media/14-preventive-maintenance.png)
 
-![图 3](media/15-preventive-maintenance.png)
+![图 3.](media/15-preventive-maintenance.png)
 
 - 为供应商保修涵盖的资产手动创建工作订单时，将显示一个对话框，用于提醒用户注意保修。 然后可以取消创建此工作订单。 将对自动创建的工作订单忽略检查保修关联。  
 - 可以在 **在后台运行** 快速选项卡上设置批处理作业，以便安排定期执行的阶段。  

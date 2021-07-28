@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c8ad853b8d1f8383b23f2ac4341a5f37a904795
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: eae89e9c3bf32ab5a4c4e6c497c9d3baa5b75fde
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359213"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 3 日）中的新增功能或更改
 
@@ -99,9 +99,9 @@ ms.locfileid: "6054444"
 
 - Dynamics 365 2020 发行波次 2 计划中的[组织和个人管理工作流体验增强](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements)
 
-![分配给我的工作项](./media/hr-workflow-work-items-assigned-to-me.png)
+![分配给我的工作项。](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![工作流项快速访问](./media/hr-workflow-quick-access.png)
+![工作流项快速访问。](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>即将推出
 

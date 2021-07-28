@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353678"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
@@ -32,7 +32,7 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 
 您必须先创建每项福利的元素，然后工作人员才能在这些福利中登记。 这些元素结合类似的福利计划并定义默认设置，如扣缴比率和核算详细信息。 许多这些设置可在工作人员随后在福利中登记时进行调整。 对于每个福利计划，组织可提供多个登记选项，或者工作人员可放弃该福利计划中的登记。 
 
-[![福利处理流程](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![福利流程流。](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>福利元素
 
@@ -44,7 +44,7 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 
 对于每种类型的福利（例如视力或护齿），组织可向其工作人员提供一个或多个计划。 对于每个计划，该组织可提供不同的选项。 例如，工作人员可以其年薪的一倍、两倍或三倍购买附加期限的人寿保险。 计划和选项的每个组合将成为工作人员可登记的福利。 
 
-[![福利图片](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![福利图片。](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>资格
 许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Dynamics 365 Human Resources 中创建福利时，可以设置应用于该福利的资格类型。 

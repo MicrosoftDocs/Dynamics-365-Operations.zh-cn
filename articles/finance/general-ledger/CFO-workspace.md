@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823828"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360704"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823828"
 11. 将 **跨筛选器方向** 值更改为 **单一**。
 12. 同时选择 **使此关系可用** 和 **假设引用完整性**，选择 **确定**，然后选择 **关闭**。
 
-    [![创建关系](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![创建关系。](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. 在 **字段** 列表中，应该可以看到表和可用财务维度。 将所需财务维度拖到报表级筛选器。
 14. 保存所做的更改。
 15. 在应用程序对象树 (AOT) 中，右键单击项目，然后选择 **同步**。
 16. 构建项目，然后打开应用程序查看结果。
 
-    [![已完成的工作区](./media/workspace.png)](./media/workspace.png)
+    [![已完成的工作区。](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

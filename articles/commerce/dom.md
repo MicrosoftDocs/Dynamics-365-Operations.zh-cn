@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356846"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -34,7 +34,7 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
 
 下图显示了 DOM 系统中销售订单的生命周期。
 
-![DOM 情景下的销售订单生命周期](./media/flow.png "DOM 情景下的销售订单生命周期")
+![DOM 情景下的销售订单生命周期。](./media/flow.png "DOM 情景下的销售订单生命周期")
 
 ## <a name="set-up-dom"></a>设置 DOM
 
@@ -200,7 +200,7 @@ DOM 将仅在批处理作业中运行。 要为 DOM 运行配置批处理作业�
 
 在应用规则、库存约束和优化之后，DOM 将选择与客户的交货地址最近的位置。
 
-![销售订单条件](./media/ordercriteria.png "销售订单条件")
+![销售订单条件。](./media/ordercriteria.png "销售订单条件")
 
 ## <a name="results-of-dom-runs"></a>DOM 运行结果
 

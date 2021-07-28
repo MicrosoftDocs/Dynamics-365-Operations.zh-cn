@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188833"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353436"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>用于精益生产的可视排产
 
@@ -47,7 +47,7 @@ ms.locfileid: "6188833"
 ## <a name="kanban-schedule-board"></a>看板计划板
 如下图中所示，**看板计划板** 页包含七个主要元素。 
 
-![看板计划板](./media/kanban-schedule-board-1024x554.png)
+![看板计划板。](./media/kanban-schedule-board-1024x554.png)
 1.  操作窗格
 2.  筛选器字段
 3.  用于未计划的作业的按钮
@@ -71,7 +71,7 @@ ms.locfileid: "6188833"
 ## <a name="plan-unplanned-jobs"></a>计划未计划的作业
 您可以从 **计划未计划的作业** 对话框计划未计划的看板作业。 要打开此对话框，单击 **未计划的作业** 按钮，此时将显示当前未计划作业的数量。 或者单击操作窗格 **看板** 选项卡上的 **计划未计划的作业**。 对话框显示工作单元的未计划的看板作业的列表。 您可以使用 **筛选器** 字段筛选网格中的所有字段。 例如，您可以筛选特定产品的看板作业。 筛选您要计划的作业的列表后，在列表中进行选择，然后单击 **确定**。 要使用自动规划来计划作业，将 **自动规划** 选项设置为 **是**。 在这种情况下，将根据作业的到期日期将作业计划到一个时间段。 您可以按时间段计划作业。 只需在 **时间段** 字段中选择一个时间段。 下图显示 **计划未计划的作业** 对话框的示例。 
 
-![计划未计划的作业对话框](./media/plan-unplanned-jobs-1024x564.png)
+![计划未计划的作业对话框。](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>在相同时间段中为看板作业排序
 您可以更改一个时间段内的一个或多个所选作业的序列。 如果您要确定一些作业在时间段内的优先级，此功能很有用。 或者，您可能要对具有相同产品属性的作业排序，以优化作业执行。 您可以通过拖放操作，或者使用操作窗格 **看板** 选项卡上的 **后退** 和 **前进** 菜单项更改序列。

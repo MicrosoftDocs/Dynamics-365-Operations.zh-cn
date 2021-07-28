@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744115"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360281"
 ---
 # <a name="accessibility-features"></a>辅助功能
 
@@ -52,13 +52,13 @@ ms.locfileid: "5744115"
 
 您想要运行在“操作”窗格中 **销售订单** 选项卡上的 **电子邮件通知** 组中出现的 **电子邮件通知日志** 操作。
 
-![“操作”窗格上的电子邮件通知日志操作](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "“操作”窗格上的“电子邮件通知日志”操作")
+![操作窗格上的电子邮件通知日志操作。](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "“操作”窗格上的“电子邮件通知日志”操作")
 
 一个选择是使用您的键盘。 按 Ctrl+F6 将焦点移至“操作”窗格，然后反复按 Tab 在所有选项卡和操作之间移动，直到 **电子邮件通知日志** 操作获得焦点。
 
 不过您还可以更直接地运行操作。 从页面的任何位置，按 Ctrl+Apostrophe (') 可以显示操作的搜索框。
 
-![操作的搜索框](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "操作的搜索框")
+![操作的搜索框。](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "操作的搜索框")
 
 在搜索框中，键入描述操作的文字。 操作已对您可用，您可以直接运行它。 例如，通过键入 **电子邮件**、**通**（部分文字）或 **日志**，您可以“跳”到电子邮件通知日志功能。
 

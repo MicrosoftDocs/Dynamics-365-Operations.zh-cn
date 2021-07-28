@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349618"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>销售点 (POS) 中的客户订单
 
@@ -44,7 +46,7 @@ ms.locfileid: "5936722"
 
 若要使用客户订单，必须配置商店渠道可以使用的交付方式。 必须定义至少一种在从商店向客户装运订单行时可使用的交货方式。 还必须定义至少一种在从商店为订单行提货时可使用的交货提货方式。 交货方式在 Commerce 总部中 **交货方式** 页面定义。 有关如何为 Commerce 渠道设置交货方式的详细信息，请参阅[定义交货方式](./configure-call-center-delivery.md#define-delivery-modes)。
 
-![“交货方式”页面](media/customer-order-modes-of-delivery.png)
+![“交货方式”页面。](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>设置履行组
@@ -53,7 +55,7 @@ ms.locfileid: "5936722"
 
 在 Commerce 版本 10.0.12 及更高版本中，组织可以定义是否可以将在履行组中定义的仓库或仓库与商店组合用于装运和/或提货。 这为企业提供了更大的灵活性，让他们可以确定在为要装运的商品创建客户订单时可以选择哪些仓库，以及在为要提货的商品创建客户订单时可以选择哪些仓库。 若要使用这些配置选项，请打开 **用于在履行组中将位置指定为已启用的装运或提货** 功能。 如果链接到履行组的仓库不是商店，则只能将其配置为装运位置。 在 POS 中配置提货订单时不能使用。
 
-![“履行组”页面](media/customer-order-fulfillment-group.png)
+![“履行组”页面。](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>配置渠道设置
 
@@ -65,7 +67,7 @@ ms.locfileid: "5936722"
 - **使用基于目的地的税金**  – 此选项指示是否使用装运地址来确定应用于要装运到客户地址的订单行的税组。
 - **使用基于客户的税金**  – 此选项指示是否使用为客户的交货地址定义的税组对在 POS 中创建的要运送到客户家中的客户订单征税。
 
-![“商店”页面中的商店渠道设置](media/customer-order-all-stores.png)
+![“商店”页面中的商店渠道设置。](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>设置客户订单参数
 
@@ -80,7 +82,7 @@ ms.locfileid: "5936722"
 - **装运费用代码**  – 如果 **使用高级自动收费** 选项设置为 **是** ，此参数设置无效。 如果该选项设置为 **否** ，系统会提示用户在 POS 中创建客户订单时手动输入装运费用。 此参数用于映射在客户输入装运费用时应用于订单的应收帐款费用代码。 费用代码定义装运费用的财务过帐逻辑。
 - **使用高级自动收费** – 将此选项设置为 **是** 将在 POS 中创建客户订单时使用系统计算的自动收费。 这些自动收费可用于计算装运费用或其他订单或物料特定的费用。 有关如何设置和使用高级自动收费功能的详细信息，请参阅[全渠道高级自动收费](./omni-auto-charges.md)。
 
-![“Commerce 参数”页面中的“客户订单”选项卡](media/customer-order-parameters.png)
+![“Commerce 参数”页面上的“客户订单”选项卡。](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>更新 POS 中的交易记录屏幕布局
 
@@ -95,7 +97,7 @@ ms.locfileid: "5936722"
 - **更改交货方式** – 此操作可用于快速更改已经配置为要装运的行的交货方式，无需用户再次完成“装运所有产品”或“装运所选产品”流。
 - **保证金覆盖** – 此操作可用于更改客户将为所选客户订单支付的保证金金额。
 
-![POS 交易记录屏幕中的操作](media/customer-order-screen-layout.png)
+![POS 交易屏幕上的操作。](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>在 POS 中处理客户订单
 

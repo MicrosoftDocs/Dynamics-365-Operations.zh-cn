@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361058"
 ---
 # <a name="asset-fault-cost-control"></a>资产故障成本控制
 
@@ -56,7 +56,7 @@ ms.locfileid: "5811174"
 - **实际成本** 字段显示工作订单中的已过帐成本。 
 - **承诺成本** 字段显示在与工作订单关联时，公司承诺的总成本。
 
-    ![图 1](media/05-controlling-and-reporting.png)
+    ![图 1.](media/05-controlling-and-reporting.png)
 
 有关如何设置故障的信息，请参阅[故障管理](../setup-for-work-orders/fault-management.md)主题。
 
