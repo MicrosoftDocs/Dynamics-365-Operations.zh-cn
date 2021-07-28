@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: bdb90f8d629a026a84f8c65e7e95b589169a3e4d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752328"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356255"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuration Key 和数据实体
 
@@ -52,24 +52,24 @@ ms.locfileid: "5752328"
 ### <a name="entity-list-refresh"></a>刷新实体列表
 刷新实体列表时，数据管理框架构建配置键元数据供运行时使用。 此元数据使用上面介绍的逻辑构建。 我们强烈建议先等待实体列表刷新完毕，再使用数据管理框架中的作业和实体。 如果不等待，配置键元数据可能不是最新的，从而导致意外结果。 刷新实体列表时，实体列表页面中将显示以下消息。
 
-![刷新实体列表](./media/Entity_refresh_list.png)
+![实体列表刷新。](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>数据实体列表页面
 “数据管理”工作区中的数据实体列表页面显示实体的配置键设置。 请从该页面开始了解配置键对数据实体的影响。
 
 此信息使用实体刷新期间构建的元数据显示。 配置键列显示与数据实体关联的配置键的名称。 如果此列为空，说明没有配置键与数据实体关联。 配置键状态列显示配置键的状态。 如果它有选中标记，说明已启用该键。 如果为空，说明已禁用该键或没有关联的键。
 
-![实体列表页面](./media/Data_entity_list_page.png)
+![实体列表页面。](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>目标字段
 下一步是钻取到数据实体中以查看配置键对表和字段的影响。 数据实体的目标字段窗体显示数据实体中的相关表和字段的配置键和键状态信息。 如果数据实体本身已禁用其配置键，将显示一条警告消息，说明无论实体的配置键为哪种状态，该实体的目标字段窗体中的表和字段都将不可用。
 
-![目标字段](./media/Target_fields_1.png)
+![目标字段。](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>子实体 
 某些实体将其他实体用作数据库，或为复合数据实体：将在子实体窗体中显示这些实体的配置键信息。 此窗体的使用方法类似上面介绍的实体列表页面。 子实体的目标字段窗体的行为也类似上面介绍的行为。
 
-![目标字段](./media/Target_fields_2.png)
+![目标字段。](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>使用数据实体
 了解了配置键对要使用的数据实体的全部影响（如果有）之后，现在可继续使用数据实体，方法是将其添加到数据项目。 
@@ -91,7 +91,7 @@ ms.locfileid: "5752328"
 ### <a name="managing-configuration-key-changes"></a>管理配置键更改
 只要在实体、表或字段级别更新配置键，都必须刷新数据管理框架中的实体列表。 此流程确保该框架拾取最新的配置键设置。 刷新实体列表前，实体列表页面中将显示以下警告。 刷新实体列表之后，更新后的配置键更改将立即生效。 建议在配置键更改生效后，验证现有数据对象和作业，以确保其功能正常。
 
-![目标字段](./media/Target_fields_3.png)
+![目标字段。](./media/Target_fields_3.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022828"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356822"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
@@ -38,7 +38,7 @@ ms.locfileid: "6022828"
 
 下图显示 LCS 电子商务预配屏幕，其中突出显示了 **支持的主机名** 框。 
 
-![LCS 电子商务预配屏幕，其中突出显示了**支持的主机名**框](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS 电子商务预配屏幕，其中突出显示了**支持的主机名**框。](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 如果已进行了预配，可以创建服务请求以向环境添加更多域。 若要在 LCS 中创建服务请求，请在环境中转到 **支持 \> 支持问题**，然后选择 **提交事件**。
 
@@ -56,7 +56,7 @@ ms.locfileid: "6022828"
 
 下图显示在您首次在站点构建器中访问名称为“default”的站点时，该站点的 **设置您的站点** 对话框。
 
-![**设置您的站点**对话框](./media/Domains_SetupyoursiteScreen.png)
+![**设置您的站点**对话框。](./media/Domains_SetupyoursiteScreen.png)
 
 可在站点构建器中使用 **选择域** 框将 LCS 中为您的站点提供的一个支持的主机名关联到您的站点。
 
@@ -79,11 +79,11 @@ ms.locfileid: "6022828"
 
 下图显示站点构建器中的 **新建 URL** 对话框，并突出显示了一个示例 URL 路径。 
 
-![站点构建器中的**新建 URL** 对话框](./media/Domains_PageSetup2a.png)
+![站点构建器中的**新建 URL** 对话框。](./media/Domains_PageSetup2a.png)
 
 下图显示站点构建器中的 **URL** 页面，并突出显示了列表中的一个示例 URL。
 
-![策略流中的“运行用户流”选项](./media/Domains_URLsInSiteBuilder2a.png)
+![策略流中的“运行用户流”选项。](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>站点构建器中的域
 

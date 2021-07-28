@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743839"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351834"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER 模板的备份存储
 
@@ -65,19 +65,19 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 > [!NOTE]
 > 此参数定义为应用程序用户，并特定于记录的公司。
 
-![ER 配置页](./media/GER-BackupTemplates-1.png)
+![ER 配置页面。](./media/GER-BackupTemplates-1.png)
 
 下图显示当 **自动运行受损附件批量还原** 参数设置为 **开** 时显示的消息的示例。
 
-![供应商付款日记帐页](./media/GER-BackupTemplates-2.png)
+![供应商付款日记帐页面。](./media/GER-BackupTemplates-2.png)
 
 下图显示 **批处理作业** 页上的 **通过内部数据库备份还原受损模板** 批处理流程。
 
-![批处理作业页](./media/GER-BackupTemplates-3.png)
+![批处理作业页面。](./media/GER-BackupTemplates-3.png)
 
 已完成的 **通过内部数据库备份还原受损模板** 批处理流程的执行日志中包含有关已从备份存储位置还原到主存储位置的模板的信息。
 
-![批处理作业历史记录页](./media/GER-BackupTemplates-4.png)
+![批处理作业历史记录页面。](./media/GER-BackupTemplates-4.png)
 
 命若琴弦看，已开启 ER 格式配置中的模板的自动创建备份副本流程。 若要停止创建模板的备份副本，请将 **电子申报参数** 页 **附件** 选项卡上的 **停止制作模板的备份副本** 选项设置为 **是**。 可从 **电子申报** 工作区打开此页。
 
@@ -85,7 +85,7 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 
 如果您已将环境升级到 Finance and Operations 版本 10.0.5（2019 年 10 月），并想迁移到包含可以运行的 ER 格式配置的新环境，请选择 **电子申报参数** 页面上的 **填写备份存储**，然后进行迁移。 此按钮用于开始创建所有可用模板的备份副本，所以可将其存储到模板的 ER 备份存储位置中。
 
-![“电子申报参数”页面](./media/GER-BackupTemplates-5.png)
+![“电子报告参数”页面。](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>手动回收
 

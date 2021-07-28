@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 13482ab7b9ee6303138a7a5e82dce78138e0b8ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053459"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357305"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>通过将批处理作业安排到非营业时间优化性能
 
@@ -51,11 +51,11 @@ ms.locfileid: "6053459"
 
 3. 选择 **在后台运行**，然后选择 **重复执行**。
 
-   ![设置重复执行](media/talent-batch-history-cleanup-recurrence.png)
+   ![设置重复执行。](media/talent-batch-history-cleanup-recurrence.png)
 
 4. 在 **定义重复项** 下，将 **开始日期** 和 **开始时间** 设置为在下班时间或周末进行。 选择 **无结束日期**。 
 
-   ![定义重复执行的开始日期和时间](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![定义重复执行的开始日期和时间。](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. 选择 **确定**。
 

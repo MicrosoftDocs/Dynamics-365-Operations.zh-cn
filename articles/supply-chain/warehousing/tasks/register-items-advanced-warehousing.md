@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357994"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了高级仓库的物料
 
@@ -53,14 +53,14 @@ ms.locfileid: "5830826"
 1. 将 **帐户编号** 设置为 *1001*。
 1. 将 **编号** 设置为您为此练习标识的采购订单的编号。
 
-    ![物料到达日记帐](../media/item-arrival-journal-header.png "物料到达日记帐")
+    ![物料到达日记帐。](../media/item-arrival-journal-header.png "物料到达日记帐")
 
 1. 选择 **确定** 以创建日记帐标题。
 1. 在 **日记帐行** 部分中，选择 **添加行** 并输入以下数据：
     - **物料编号** – 设置为 *M9200*。 将基于 10 个托盘（1000 个）的库存交易记录数据设置 **场地**、**仓库** 和 **数量**。
     - **库位** – 设置为 *001*。 此特定库位不跟踪牌照。
 
-    ![物料到达日记帐行](../media/item-arrival-journal-line.png "物料到达日记帐行")
+    ![物料到达日记帐行。](../media/item-arrival-journal-line.png "物料到达日记帐行")
 
     > [!NOTE]
     > **日期** 字段确定此现有数量的物料将记入库存的日期。  

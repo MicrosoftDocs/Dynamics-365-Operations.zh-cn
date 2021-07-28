@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352754"
 ---
 # <a name="procurement"></a>采购
 
@@ -36,7 +36,7 @@ ms.locfileid: "5842217"
 
 下图显示 **工作订单采购申请** 列表页的示例。
 
-![图 1](media/08-work-orders.png)
+![图 1.](media/08-work-orders.png)
 
 
 **工作订单采购** 列表页（**资产管理** > **常用** > **采购** > **工作订单采购申请**）显示与工作订单关联的采购订单的列表。 在此页面上选择工作订单作业时，可以使用操作窗格的 **工作订单采购** 选项卡上 **显示** 组中的按钮来执行各个操作：
@@ -47,7 +47,7 @@ ms.locfileid: "5842217"
 
 下图显示 **工作订单采购** 列表页的示例。
 
-![图 2](media/09-work-orders.png)
+![图 2.](media/09-work-orders.png)
 
 
 在 **工作订单采购** 列表页和 **工作订单采购申请** 列表页上，与交货日期控制相关的符号出现在每行的右侧。 如果符号是红色圆圈包起来的感叹号，关联采购订单或采购申请的交货可能延迟。
@@ -93,7 +93,7 @@ ms.locfileid: "5842217"
 
 下图显示 **采购订单** 页面的示例，焦点位于 **活动编号**。
 
-![图 3](media/10-work-orders.png)
+![图 3.](media/10-work-orders.png)
 
 同样，要查看或输入与工作订单采购申请行相关的活动编号，请在 **工作订单采购申请** 列表页上，选择采购申请记录，然后在 **采购申请** 列中选择采购申请的链接。 您可以在 **行明细** 快速选项卡的 **项目** 选项卡上找到 **活动编号** 字段。
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188189"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349786"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
@@ -47,7 +49,7 @@ ms.locfileid: "6188189"
 
 下图显示了分配给采购申请和采购申请行的状态（当它们在工作流程中移动时）。  
 
-[![采购申请标题和行状态](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![采购申请标头和行状态。](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>采购申请标头和行状态关系
 
@@ -179,7 +181,7 @@ ms.locfileid: "6188189"
 
 在工作流中的采购申请审核时，以及如果为您的组织配置了预算控制，记录预算预留和预留款后，将启动要求合并的流程。 下图显示需求合并的流程。  
 
-[![需求合并的流程流](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![需求合并的流程流。](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 若要合并已审核的采购申请行，请执行以下步骤：
 

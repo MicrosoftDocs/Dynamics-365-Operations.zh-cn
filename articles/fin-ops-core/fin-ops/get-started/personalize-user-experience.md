@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944525"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348671"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -85,7 +85,7 @@ ms.locfileid: "5944525"
 
 此外，大多数最基本的个性化类型可以通过右键单击元素再选择 **个性化** 来执行。 （注意，并非您页面上的所有元素都能可行化。）当您使用这种个性化设置方法时，将显示元素的 *属性窗口*。
 
-![个性化元素的属性](./media/cli-element-property-window.png)
+![个性化元素的属性。](./media/cli-element-property-window.png)
 
 可使用属性窗口通过下面的方法对元素进行个性化设置：
 
@@ -107,7 +107,7 @@ ms.locfileid: "5944525"
 - 在任意页面的操作窗格的 **选项** 选项卡上的 **个性化** 组中选择 **个性化设置此页面**。
 - 选择导航栏上的 **设置** 按钮（齿轮符号），然后选择 **个性化**。
 
-[![个性化设置工具栏](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![个性化工具栏。](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>导航页面
 
@@ -147,7 +147,7 @@ ms.locfileid: "5944525"
 > [!NOTE]
 > 如果[保存的视图](saved-views.md)功能已开启，则推送到工作区的内容将直接链接到视图。 视图的查询用于检索工作区中的数据，工作区中的对应磁贴或链接打开该视图的页面，以便将视图的查询和个性化设置应用于该视图。 如果更新了视图，相应的工作区元素将被调整为新的视图定义。
 
-[![添加到工作区](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![添加到工作区。](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - 若要向工作区添加列表，请首先在页面中对列表排序或筛选，以便将信息按照您希望在工作区中显示的方式显示。 （如果已打开 **已保存视图** 功能，则必须先保存具有这些条件的视图，然后才能继续。）然后选择 **添加到工作区**。 选择一个工作区，然后在 **展示** 字段中选择 **列表**。 选择 **配置** 之后，将显示一个对话框，可在其中选择应在工作区中的列表内显示的列。 还可以指定用于工作区中的列表的标签。
 - 若要向工作区添加磁贴，首先请在页面中对列表进行筛选，使其显示应该汇总或要快速访问的数据。 （如果已打开 **已保存视图** 功能，则必须先保存具有这些条件的视图，然后才能继续。）然后选择 **添加到工作区**。 选择一个工作区，然后在 **展示** 字段中选择 **磁贴**。 选择 **配置** 之后，将显示一个对话框，可在其中指定应在工作区中用于磁贴的标签。 也可以指定磁贴是否应显示计数。 将磁贴添加到工作区后，可以选择它以从工作区中打开当前页面。 然后，您可以查看与磁贴关联的筛选的列表。

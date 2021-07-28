@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022438"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352100"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>从 Dynamics 365 Commerce 预配 Microsoft Teams
 
@@ -49,7 +49,7 @@ ms.locfileid: "6022438"
 > [!TIP]
 > 如果您的区域经理、商店经理和商店工作人员均未与 Teams 许可证相关联，您可能会收到以下错误消息：“无法为用户检索适用的 Sku 类别。” 若要更正此问题，请在操作窗格上选择 **同步团队和成员**。
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>在 Teams 管理中心中验证 Teams 预配
 
@@ -63,7 +63,7 @@ ms.locfileid: "6022438"
 
 下图显示 Teams 管理中心中 **管理团队** 页面的示例。
 
-![Teams 管理中心中“管理团队”页面的示例](media/Teams-FLW-Admin-Teams.png)
+![Teams 管理中心中“管理团队”页面的示例。](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>将 Commerce 组织层次结构上传到 Teams
     
@@ -86,7 +86,7 @@ Commerce 组织层次结构可在 Microsoft Teams 中使用，以将任务发布
 1. 在 **已发布列表** 选项卡上，创建具有虚拟任务的新列表。
 1. 选择 **发布**。 组织层次结构应显示在 **选择要发布给的人** 对话框中，如下图中的示例所示。
 
-![“选择要发布给的人”对话框中的组织层次结构的示例](media/Microsoft-teams-verify-org-hierarchy.png)
+![“选择要发布给的人”对话框中的组织层次结构的示例。](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>其他资源
 

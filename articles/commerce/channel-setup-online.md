@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936936"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351168"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
 
@@ -55,11 +55,11 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了新在线渠道的创建过程。
 
-![新在线渠道](media/channel-setup-online-1.png)
+![新在线渠道。](media/channel-setup-online-1.png)
 
 下图显示了一个在线渠道示例。
 
-![在线渠道示例](media/channel-setup-online-2.png)
+![在线渠道示例。](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>设置语言
 
@@ -75,7 +75,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了 **设置** 选项卡上的 **交货方式**、**付款方式** 和 **履行组分配** 设置选项。
 
-![其他在线渠道设置操作](media/channel-setup-online-3.png)
+![其他在线渠道设置操作。](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>设置付款方式
 
@@ -90,9 +90,9 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了现金支付方式的示例。
 
-![付款方法示例](media/channel-setup-retail-5.png)
+![付款方式示例。](media/channel-setup-retail-5.png)
 
-### <a name="set-up-modes-of-delivery"></a>设置交货方式
+### <a name="set-up-modes-of-delivery"></a>设置交货模式
 
 您可以从 **操作窗格** 上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
 
@@ -104,7 +104,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了交货方式的示例。
 
-![设置交货方式](media/channel-setup-retail-7.png)
+![设置交货模式。](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>设置履行组分配
 
@@ -118,7 +118,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了履行组分配设置的示例。
 
-![设置履行组分配](media/channel-setup-retail-9.png)
+![设置履行组分配。](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ad4ba2781c1b1086f2b554ec1db0f0f970d2d671
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351433"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
@@ -120,12 +120,12 @@ ms.locfileid: "5907931"
 4.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 5.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>使用供应商协作移动工作区
 当您选择 **供应商协作** 工作区时，您将看到以下选项。
 
-![供应商协作移动工作区](./media/vendor-collaboration-mobile-app.png)
+![供应商协作移动工作区。](./media/vendor-collaboration-mobile-app.png)
 
 **供应商协作** 工作区包括以下页面。
 

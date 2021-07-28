@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796067"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352534"
 ---
 # <a name="configure-ratings-and-reviews"></a>配置评分和评价
 
@@ -46,7 +46,7 @@ ms.locfileid: "5796067"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![配置站点以显示评分和评价](media/rnr-eCommerce-site-appsettings.png)
+![配置站点以显示评分和评价。](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>将产品评分链接到 PDP 的“评论”部分
 
@@ -60,7 +60,7 @@ ms.locfileid: "5796067"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![将产品评分链接到 PDP 的“评论”部分](media/rnr-eCommerce-buy-box-rating-summary.png)
+![将产品评分链接到 PDP 的“评价”部分。](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>配置隐私和政策页的链接
 
@@ -75,7 +75,7 @@ ms.locfileid: "5796067"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![配置隐私和政策页的链接](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![配置隐私和政策页面的链接。](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>配置产品详细信息页中的评分和评论模块
 

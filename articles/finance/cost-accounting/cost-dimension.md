@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09dd9e2d648bec32d1504175dbb1470751e5c915
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355171"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
@@ -36,7 +36,7 @@ ms.locfileid: "5822919"
 
 下图说明在成本核算中使用的维度。
 
-[![成本会计维度](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![成本会计维度。](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 在数据导入到成本核算后，您可以使用它生成各种视角，为组织中的所有级别的经理提供见解。 以下主题提供有关创建维度和导入维度成员的信息。 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359525"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 
@@ -59,7 +59,7 @@ ms.locfileid: "6102798"
 
 **资金** 页中记录了分配给贸易折让协议的资金。 若要打开 **资金** 页，请选择 **销售和市场营销** \> **贸易折让** \> **资金** \> **资金**。
 
-![“资金”页面](./media/trade-allowance-management-funds-page.png "“资金”页面")
+![“资金”页面。](./media/trade-allowance-management-funds-page.png "“资金”页面")
 
 在 **资金** 页上，可查看促销资金的详细信息。
 
@@ -75,9 +75,9 @@ ms.locfileid: "6102798"
 
 **贸易折让协议** 页中记录了贸易折让协议。 若要打开 **贸易折让协议** 页，请选择 **销售和市场营销** \> **贸易折让** \> **贸易折让协议**。
 
-![“贸易折让协议”页面](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页面")
+![“贸易折让协议”页面。](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页面")
 
-#### <a name="header"></a>​页眉
+#### <a name="header"></a>单头
 
 选择 **标题** 切换到标题视图。
 
@@ -103,7 +103,7 @@ ms.locfileid: "6102798"
 
 如果选择促销活动，然后选择 **金额** 选项卡，将显示活动的详细信息。
 
-![贸易折让协议行](./media/trade-allowance-management-agreements-lines.png "贸易折让协议行")
+![贸易折让协议行。](./media/trade-allowance-management-agreements-lines.png "贸易折让协议行")
 
 在 **贸易折让行** 部分中，为定义指定要获得奖励，客户必须达到的数量或金额范围。
 

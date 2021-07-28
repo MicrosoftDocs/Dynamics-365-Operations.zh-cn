@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352930"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER 函数
 
@@ -62,7 +62,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 在下图中，数据模型中引入了 **ReportDirection** 枚举。 请注意，为枚举值定义标签。
 
-![数据模型枚举的可用值](./media/ER-data-model-enumeration-values.PNG)
+![数据模型枚举的可用值。](./media/ER-data-model-enumeration-values.PNG)
 
 下图显示以下详细信息：
 
@@ -70,7 +70,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - `$IsArrivals` 表达式设计为将基于模型枚举的 **$Direction** 数据源用作此函数的参数。
 - 此比较表达式的值为 **TRUE**。
 
-![数据模型枚举的示例](./media/ER-data-model-enumeration-usage.PNG)
+![数据模型枚举的示例。](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>示例 2
 
@@ -78,14 +78,14 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 在下图中，模型映射中引入了 **TransType** 数据源。 此数据源引用 **LedgerTransType** 应用程序枚举。
 
-![引用应用程序枚举的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![引用应用程序枚举的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 下图显示了在模型映射中配置的 **TransTypeList** 数据源。 此数据源是根据 **TransType** 应用程序枚举配置的。 `LISTOFFIELDS` 函数用于将所有枚举值作为包含字段的记录列表返回。 这样，每个枚举值的详细信息都将公开。
 
 > [!NOTE]
 > 将使用 `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` 表达式为 **TransTypeList** 数据源配置 **EnumValue** 字段。 此字段为此列表中的每个记录返回枚举值。
 
-![作为记录列表返回选定枚举的所有枚举值的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![作为记录列表返回选定枚举的所有枚举值的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 下图显示了在模型映射中配置的 **VendTrans** 数据源。 此数据源从 **VendTrans** 应用程序表返回供应商交易记录。 每个交易记录的分类帐类型由 **TransType** 字段的值定义。
 
@@ -94,11 +94,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 >
 > **TransTypeTitle** 字段将绑定到数据模型的 **LedgerType** 字段，让此信息可以在使用该数据模型作为数据源的每个 ER 格式中使用。
 
-![返回供应商交易记录的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![返回供应商交易的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 下图显示了如何使用[数据源调试器](er-debug-data-sources.md)测试配置的模型映射。
 
-![使用数据源调试器测试配置的模型映射](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![使用数据源调试器测试配置的模型映射。](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 数据模型的 **LedgerType** 字段预期将公开交易记录类型的标签。
 

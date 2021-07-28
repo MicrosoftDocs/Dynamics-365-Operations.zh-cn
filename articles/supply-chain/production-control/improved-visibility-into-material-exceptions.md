@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348360"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 
@@ -37,7 +37,7 @@ ms.locfileid: "5831978"
 
 在下图中，蓝色栏表示对资源计划的生产作业。 该作业计划于 2017 年 5 月 1 日 (2017/05/01) 开始。 此日期为原材料日期。 换言之，在物料清单和配方行上分配给该作业的物料必须在该日期准备就绪。 图中的另外一个日期，即 2017 年 5 月 6 日 (2017/05/06)，表示工作区日期。 在此示例中，原材料日期早于工作区日期。 因此，计划要开始使用原材料的日期已经过时，且物料清单和配方行满足需要关注的条件。
 
-![原材料日期早于工作区日期的生产作业的示例](./media/improved-visibility.png)
+![原材料日期早于工作区日期的生产作业的示例。](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>需要关注的未发布物料行
 

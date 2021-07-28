@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350152"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>在 ER 模型和格式的数据绑定中使用相对路径
 
@@ -31,20 +31,20 @@ ms.locfileid: "5749978"
 
 为了提高 ER 映射设计器的可用性，已发布了[相对路径](er-formula-language.md#relative-path)功能。 默认情况下，将为应用程序的所有新实例（其中启用了 ER 设计体验，即 Microsoft Dynamics 365 Finance、Microsoft Regulatory Configuration Service）开启相对路径表示选项。 实施相对路径参数是为了让用户在使用 ER 绑定的此表示时继续使用完整路径。
 
-[![用户参数](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![用户参数。](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 开启相对路径使用参数后，将在当前模型元素的绑定中使用一个 @ 字符替换父项的路径。 整个绑定路径将变短，从而让整个映射更明显，更容易理解。 大多数情况下，不需要在 ER 设计器中再滚动即可查看数据模型的所有绑定。
 
-[![模型映射设计器](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![模型映射设计器。](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 开始设计新的 ER 表达式时，只需输入一个字符即可定义与父项之间的绑定。
 
-[![配方设计器](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![公式设计器。](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 如果决定使用绝对路径更改模型父项的数据源，则必须将此模型项和所有嵌套项重新绑定到新数据源。 开启使用相对路径并选择要绑定到父项的新数据源之后，将提供一个选项，单击一次即可自动重新绑定此父项的所有嵌套元素。
 
-[![替换现有路径消息](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![替换现有路径消息。](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 如果确认重新绑定嵌套项，则将把新父项放到包含现有父项的每个嵌套项的路径中。
 此功能不会破坏 ER 框架的向后兼容性。 以前设计的所有 ER 配置都支持这项新功能，不需要升级或转换。

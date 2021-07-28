@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351505"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>设置资产管理移动工作区
 
@@ -47,7 +47,7 @@ ms.locfileid: "5837769"
 1. 在 Supply Chain Management 中，选择 **设置** 按钮（右上角的齿轮符号），然后在菜单上选择 **移动应用**。
 1. 在 **管理移动应用** 对话框中，找到 **资产管理** 磁贴。 如果它包含文本“在元数据中 - 未发布”，说明该工作区尚未发布。 如果它包含文本“在元数据中 - 已发布”，说明工作区已发布，您可以跳过此过程的其余部分。
 
-    ![管理移动应用对话框](media/mobile-workspaces.png "管理移动应用对话框")
+    ![管理移动应用对话框。](media/mobile-workspaces.png "管理移动应用对话框")
 
 1. 选择 **资产管理** 磁贴，然后在工具栏上选择 **发布**。 几秒钟后，您应该收到一条通知，说明工作区已成功发布。 此外，磁贴上的文本应会变为“在元数据中 - 已发布”。
 
@@ -60,22 +60,22 @@ ms.locfileid: "5837769"
 
 1. 打开 Finance and Operations (Dynamics 365) 应用。 登录页面应会出现。 在 **登录** 字段中，输入您的 Supply Chain Management URL，或在 **最近环境** 列表中选择一个最近的 URL，然后点击 **连接**。
 
-    ![登录页](media/mobile-app-sign-in.png "登录页")
+    ![登录页面。](media/mobile-app-sign-in.png "登录页")
 
 1. 如果系统提示您确认连接，请选中 **我知道** 复选框，然后点击 **连接**。
 1. 在 **选择帐户** 页上，使用您的 Microsoft 帐户登录到移动应用程序。
 
     **工作区** 页将显示。 其中将列出您的 Supply Chain Management 实例已发布的每个移动工作区。
 
-    ![工作区列表](media/mobile-app-workspaces.png "工作区列表")
+    ![工作区的列表。](media/mobile-app-workspaces.png "工作区列表")
 
 1. 如果必须更改法人（公司），请点击左上角的菜单按钮（有时称为汉堡包或汉堡包按钮），然后点击 **更改公司**。
 
-    ![更改法人](media/mobile-app-change-comp.png "更改法人")
+    ![更改法人。](media/mobile-app-change-comp.png "更改法人")
 
 1. 在 **工作区** 页上，选择要使用的工作区将其打开。
 
-    ![资产管理移动工作区](media/mobile-app-asset-workspace.png "资产管理移动工作区")
+    ![资产管理移动工作区。](media/mobile-app-asset-workspace.png "资产管理移动工作区")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>使用资产管理移动工作区
 

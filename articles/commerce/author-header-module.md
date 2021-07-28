@@ -2,7 +2,7 @@
 title: 页眉模块
 description: 此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799895"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479248"
 ---
 # <a name="header-module"></a>标题模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 
@@ -33,7 +34,7 @@ ms.locfileid: "5799895"
 
 下图显示了主页上的标题模块的示例。
 
-![标题模块示例](./media/ecommerce-header.png)
+![标题模块的示例。](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>标题模块的属性
 
@@ -58,9 +59,16 @@ ms.locfileid: "5799895"
 - **商店选择器** - 商店选择器模块可以包含在标题模块的商店选择器插槽中。 它允许用户浏览和查找附近的商店。 用户还可以指定首选商店。 该商店随后将显示在标题中。 当商店选择器模块包含在标题模块中时，其 **模式** 属性必须设置为 **查找商店**。 有关详细信息，请参阅[商店选择器模块](store-selector.md)。
 
 > [!NOTE]
-> - Dynamics 365 Commerce 10.0.11 版本中提供在标题模块中使用购物车图标模块的支持。
-> - Dynamics 365 Commerce 10.0.14 版本中提供在标题模块中使用站点选择器模块的支持。
-> - Dynamics 365 Commerce 10.0.15 版本中提供在标题模块中使用商店选择器模块的支持。
+> - 在标题模块中使用购物车图标模块的支持从 Dynamics 365 Commerce 版本 10.0.11 发行版本开始提供。
+> - 在标题模块中使用站点选择器模块的支持从 Dynamics 365 Commerce 版本 10.0.14 发行版本开始提供。
+> - 在标题模块中使用商店选择器模块的支持从 Dynamics 365 Commerce 版本 10.0.15 发行版本开始提供。
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Adventure Works 主题中的标题模块
+
+在 Adventure Works 主题中，标题模块支持 **移动徽标** 属性。 此属性允许为移动视区指定徽标。 **移动徽标** 属性作为模块定义扩展可用。
+
+> [!IMPORTANT]
+> Adventure Works 主题从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
 ## <a name="create-a-header-fragment-for-a-page"></a>创建页面的标题片段
 

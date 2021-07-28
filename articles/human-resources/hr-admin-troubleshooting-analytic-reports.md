@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8dab12213e9730e72aede70c5b5d1368ef77664e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 382780405b2496cc655451790ef4a99ef60ba129
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354244"
 ---
 # <a name="troubleshoot-analytic-reports"></a>分析报告疑难解答
 
@@ -41,7 +41,7 @@ ms.locfileid: "6053531"
 1. 在列表中查找 **部署度量** 作业。
 1. 选择该页顶部的 **编辑**，将计划的开始日期/时间设置为将刷新更接近当前时间的分析的值。
 
-![批处理作业](media/batch-jobs.png)
+![批处理作业。](media/batch-jobs.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

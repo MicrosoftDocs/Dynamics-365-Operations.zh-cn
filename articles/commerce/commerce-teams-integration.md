@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352630"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce 和 Microsoft Teams 集成概览
 
@@ -50,7 +51,7 @@ Commerce 和 Teams 集成从 Commerce 版本 10.0.18 版本开始可用。
 
 下图显示 Dynamics 365 Commerce 和 Microsoft Teams 集成的概念体系结构，以旧金山商店为例。 Teams 和 Commerce POS 应用程序使用 Microsoft Planner 作为存储库，以便从 Teams 发布的任务显示在 POS 应用程序中，而由商店经理在 POS 应用程序中创建的临时任务显示在 Teams 中，从而在应用程序之间提供无缝的任务管理体验。    
 
-![Commerce 和 Teams 集成的体系结构](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Commerce 和 Teams 集成的体系结构。](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023059"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358258"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>为供应商和客户设置的 TDS 组、PAN 和 TAN 信息
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023059"
 
 1. 转到 **应付帐款 \> 供应商 \> 所有供应商** 或 **应收帐款 \> 客户 \> 所有客户**。
 
-    [![所有供应商页面](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![所有供应商页面。](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. 在操作窗格上，选择 **新建** 以创建供应商或客户，然后输入所需的详细信息。 或者，选择一个现有供应商或客户。
 3. 在 **发票和交货** 快速选项卡的 **预缴税金** 部分中，将 **计算预缴税金** 选项设置为 **是** 以为供应商或客户计算预缴税金、TDS 或从源征收税款 (TCS)。
@@ -60,7 +60,7 @@ ms.locfileid: "6023059"
     - 本地主管机构
     - 其他
 
-    [![税务信息快速选项卡](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![税务信息快速选项卡。](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. 在操作窗格上的 **供应商** 选项卡上，在 **登记** 组中，选择 **登记 ID** 以打开 **管理地址** 页面。
 10. 在 **管理地址** 页面的 **税务信息** 快速选项卡上，选择 **添加** 或 **编辑** 以打开 **管理税务信息** 页面，您可以在该页面中维护税务登记条目。

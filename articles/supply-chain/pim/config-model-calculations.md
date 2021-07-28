@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356408"
 ---
 # <a name="product-configuration-model-calculations"></a>产品配置模型计算
 
@@ -70,7 +70,7 @@ ms.locfileid: "5829610"
 
 以下屏幕截图显示此属性的设置在您的系统中的外观。
 
-![示例 2 的属性类型设置](media/model-calculations-example2.png "示例 2 的属性类型设置")
+![示例 2 的属性类型设置。](media/model-calculations-example2.png "示例 2 的属性类型设置")
 
 在以下条件语句中使用该属性：
 
@@ -92,7 +92,7 @@ ms.locfileid: "5829610"
 
 以下屏幕截图显示此属性的设置在您的系统中的外观。
 
-![示例 3 的属性类型设置](media/model-calculations-example3.png "示例 3 的属性类型设置")
+![示例 3 的属性类型设置。](media/model-calculations-example3.png "示例 3 的属性类型设置")
 
 使用以下条件语句计算 `textFixedList` 属性的值：
 

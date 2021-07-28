@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354801"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>用于制造和仓库管理工作负载的云和边缘缩放单元
 
@@ -41,7 +41,7 @@ ms.locfileid: "6261738"
 
 缩放单元通过添加专用的处理容量来扩展您的集中 Supply Chain Management 中心环境。 缩放单元可在 Cloud 中运行。 或者，它们可在您的本地机构的 Edge 上本地运行。
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="具有缩放单元的 Dynamics 365":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="具有缩放单元的 Dynamics 365。":::
 
 缩放单元为已分配的工作负荷提供弹性、可靠性和规模。 Edge Scale Unit 可以临时从云中心环境中断开连接，工作人员可以继续在 Edge 上的已分配工作负荷中工作。
 
@@ -157,7 +157,7 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 
 入门级 SKU 称为 *基本*，性能更高的 SKU 称为 *标准*。 每个 SKU 都预先加载有特定数量的每月交易。 但是，您可以通过为每个 SKU 添加超额加载项来增加每月交易预算。
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Cloud Scale Unit 的加载项":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Cloud Scale Unit 的加载项。":::
 
 > [!TIP]
 > 若要确定最能满足您的需求的规模，请与您的合作伙伴和 Microsoft 合作，以了解所需的每月交易规模。
@@ -181,11 +181,11 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 
 对于每个租户，列表都会显示加入状态。
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 租户选项卡上的租户列表":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 租户选项卡上的租户列表。":::
 
 选择 **单击此处开始** 以请求加入 LCS 租户。 您必须接受这些条款。 您还必须提供公司电子邮件地址，Microsoft 可以通过该地址发送与加入流程相关的通信。
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="租户的注册提交":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="租户的注册提交。":::
 
 Microsoft 将审查您的请求，并通过向您在注册窗体中提供的地址发送电子邮件来通知有关后续步骤的信息。 Microsoft 将与您紧密合作，为您的业务场景在混合拓扑中启用缩放单元。
 
@@ -195,13 +195,13 @@ Microsoft 将审查您的请求，并通过向您在注册窗体中提供的地�
 
 转到[缩放单元管理器门户](https://aka.ms/SCMSUM)，然后使用您的租户帐户登录。 在 **配置缩放单元** 页面上，如果尚未列出中心环境，则可以添加一个。 然后，可以选择要使用缩放单元和工作负荷配置的中心。
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元和工作负荷管理体验":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元和工作负荷管理体验。":::
 
 若要添加一个或多个在订阅中可用的缩放单元，请选择 **添加缩放单元**。
 
 在 **已定义工作负荷** 选项卡上，使用 **创建工作负荷** 按钮将仓库管理工作负荷添加到您的缩放单元之一。 对于每个工作负荷，您必须指定工作负荷将负责的流程的上下文。 对于仓库管理工作负荷，上下文是特定站点和法人中的特定仓库。
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="工作负荷创建":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="工作负荷创建。":::
 
 > [!TIP]
 > 随着时间的推移，将向缩放单元管理器体验添加增量增强，以帮助简化生命周期管理操作。 当前版本的特定功能记录在加入手册中，该手册适用于正在加入到 Supply Chain Management 的分布式混合拓扑。 <!-- KFM: Add a link to the handbook when it is published -->

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: 48e54c0f7d4bd1b4e1661a5bd1d4c11fd9cec986
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951977"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351113"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
@@ -54,11 +54,11 @@ ms.locfileid: "5951977"
 
 下图显示了如何在可编辑 ER 数据模型中完成此翻译。 在此示例中，可编辑 **发票模型** 的 **PurchaseOrder** 字段的 **描述** 属性被翻译为奥地利德语 (DE-AT) 和日语 (JA) 语言。
 
-![在 ER 数据模型设计器中提供 ER 标签的翻译](./media/er-multilingual-labels-refer.png)
+![在 ER 数据模型设计器中提供 ER 标签的翻译。](./media/er-multilingual-labels-refer.png)
 
 只能翻译位于可编辑 ER 组件中的标签的标签文本。 例如，如果为 ER 模型映射数据源的标签属性选择 **翻译**，然后选择位于父 ER 数据模型中的 ER 标签，则会看到标签的内容，但是无法更改。 在这些情况下，**已翻译的文本** 字段不可用，如下图所示。
 
-![在 ER 模型映射设计器中查看提供的 ER 标签的翻译](./media/er-multilingual-labels-refer-mapping.png)
+![在 ER 模型映射设计器中查看提供的 ER 标签的翻译。](./media/er-multilingual-labels-refer-mapping.png)
 
 > [!NOTE]
 > 您无法使用设计器删除已在可编辑 ER 组件中输入的标签。
@@ -71,19 +71,19 @@ ER 标签可以在 ER 组件的几个可翻译属性中引用。
 
 配置 ER 数据模型时，可以为其添加 ER 标签。 可以将模型项目的 **标签** 和 **描述** 属性、每个模型的字段以及每个<a id="LinkModelEnum"></a>模型枚举值链接到一个已添加到 ER 数据模型中的 ER 标签。
 
-![在 ER 数据模型设计器中为描述属性提供翻译](./media/er-multilingual-labels-refer.png)
+![在 ER 数据模型设计器中为描述属性提供翻译。](./media/er-multilingual-labels-refer.png)
 
 当以这种方式配置 ER 数据模型时，其内容将以每个用户的首选语言呈现给 ER 数据模型设计器的用户。 因此，简化了模型维护。 下图说明了将 DE-AT 和 JA 设置为首选语言的用户如何使用此功能。
 
-![将 DE-AT 设置为首选语言的用户的 ER 数据模型设计器的布局](./media/er-multilingual-labels-refer-de.png)
+![将 DE-AT 设置为首选语言的用户的 ER 数据模型设计器的布局。](./media/er-multilingual-labels-refer-de.png)
 
-![将 JA 设置为首选语言的用户的 ER 数据模型设计器的布局](./media/er-multilingual-labels-refer-ja.png)
+![将 JA 设置为首选语言的用户的 ER 数据模型设计器的布局。](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>模型映射组件
 
 因为 ER 模型映射基于 ER 数据模型，所以所引用的数据模型元素的标签在模型映射设计器中以用户的首选语言显示。 下图显示了如何通过使用已添加到已配置数据模型中的 **描述** 属性的标签，在可编辑模型映射中解释 **PurchaseOrder** 字段的含义。 请注意，此标签以用户的首选语言（在此示例中为 DE-AT）呈现。
 
-![将 DE-AT 设置为首选语言的用户的 ER 模型映射设计器的布局](./media/er-multilingual-labels-show-mapping.png)
+![将 DE-AT 设置为首选语言的用户的 ER 模型映射设计器的布局。](./media/er-multilingual-labels-show-mapping.png)
 
 当将 **用户输入参数** 数据源的 **标签** 属性配置为链接到 ER 标签时，与此数据源对应的参数字段将在运行时在用户对话框中以用户首选语言呈现给用户。
 
@@ -100,21 +100,21 @@ ER 标签可以在 ER 组件的几个可翻译属性中引用。
 
 当将 **用户输入参数** 数据源的 **标签** 属性配置为链接到 ER 标签时，在运行时与用户对话框中的参数相对应的字段将作为提示呈现给用户。 下图显示了如何在设计时将 **用户输入参数** 数据源的 **标签** 属性链接到 ER 标签，以便在运行时以不同的用户首选语言向用户提示参数（为美国英语 (EN-US) 和 DE-AT 语言显示）。
 
-![在 ER 操作设计器中提供用户输入参数的属性的翻译](./media/er-multilingual-labels-refer-format.png)
+![在 ER 操作设计器中提供用户输入参数的属性的翻译。](./media/er-multilingual-labels-refer-format.png)
 
-![运行时 EN-US 用户首选语言的 ER 供应商付款处理](./media/er-multilingual-labels-show-runtime-en.png)
+![运行时 EN-US 用户首选语言的 ER 供应商付款处理。](./media/er-multilingual-labels-show-runtime-en.png)
 
-![运行时 DE-AT 用户首选语言的 ER 供应商付款处理](./media/er-multilingual-labels-show-runtime-de.png)
+![运行时 DE-AT 用户首选语言的 ER 供应商付款处理。](./media/er-multilingual-labels-show-runtime-de.png)
 
 ### <a name="expressions"></a>表达式
 
 要在 ER [表达式](er-formula-language.md)中使用标签，必须使用语法 **@"GER\_LABEL:X"**，其中前缀 **@** 表示操作数引用标签，**GER\_LABEL** 表示引入了 ER 标签，**X** 是 ER 标签 ID。
 
-![在 ER 公式设计器中配置包含对 ER 标签的引用的 ER 表达式](./media/er-multilingual-labels-expression1.png)
+![在 ER 公式设计器中配置包含对 ER 标签的引用的 ER 表达式。](./media/er-multilingual-labels-expression1.png)
 
 要引用系统（应用程序）标签，请使用语法 **@"X"**，其中前缀 **@** 表示操作数引用标签，**X** 是系统标签 ID。
 
-![在 ER 公式设计器中配置包含对应用程序标签的引用的 ER 表达式](./media/er-multilingual-labels-expression2.png)
+![在 ER 公式设计器中配置包含对应用程序标签的引用的 ER 表达式。](./media/er-multilingual-labels-expression2.png)
 
 #### <a name="model-mapping"></a>模型映射
 
@@ -126,19 +126,19 @@ ER 标签可以在 ER 组件的几个可翻译属性中引用。
 
 可以使用标签来配置 ER 格式的 ER 表达式。 当运行此格式来生成传出文档时，执行的上下文将包括语言代码。 配置的表达式标签将使用为该上下文的语言配置的标签文本填充。
 
-![在 ER 公式设计器中提供可编辑 ER 表达式的 ER 标签的翻译](./media/er-multilingual-labels-refer-in-expression.png)
+![在 ER 公式设计器中提供可编辑 ER 表达式的 ER 标签的翻译。](./media/er-multilingual-labels-refer-in-expression.png)
 
-![在 ER 操作设计器中引用 ER 标签的数据绑定的示例](./media/er-multilingual-labels-refer-in-binding.png)
+![在 ER 操作设计器中引用 ER 标签的数据绑定的示例。](./media/er-multilingual-labels-refer-in-binding.png)
 
 您可以配置 ER 格式的 **文件** 组件来以用户的首选语言生成报告。
 
-![在 ER 操作设计器中设置 FILE 组件来以用户首选语言生成报告](./media/er-multilingual-labels-language-context-user.png)
+![在 ER 操作设计器中设置 FILE 组件来以用户首选语言生成报表。](./media/er-multilingual-labels-language-context-user.png)
 
 如果以这种方式配置 ER 格式，将使用 ER 标签的相应文本生成报告。 下图显示了 EN-US 和 DE-AT 用户语言的报告示例。
 
-![以 EN-US 用户首选语言生成的报告的预览](./media/er-multilingual-labels-report-preview-en.png)
+![以 EN-US 用户首选语言生成的报表的预览。](./media/er-multilingual-labels-report-preview-en.png)
 
-![以 DE-AT 用户首选语言生成的报告的预览](./media/er-multilingual-labels-report-preview-de.png)
+![以 DE-AT 用户首选语言生成的报表的预览。](./media/er-multilingual-labels-report-preview-de.png)
 
 如果引用的标签没有对格式执行上下文的语言的翻译，将改用 EN-US 语言的标签文本。
 
@@ -148,16 +148,16 @@ ER 支持多种为生成的报告指定语言的方式。 在 **格式** 选项�
 
 - **公司首选项** – 使用公司指定的语言生成报告。
 
-    ![在 ER 操作设计器中指定公司首选语言作为生成的报告的语言](./media/er-multilingual-labels-language-context-company.png)
+    ![在 ER 操作设计器中指定公司首选语言作为生成的报表的语言。](./media/er-multilingual-labels-language-context-company.png)
 
 - **用户首选项** – 使用用户首选语言生成报告。
 - **明确定义** – 使用在设计时指定的语言生成报告。
 
-    ![在 ER 操作设计器中指定设计时定义的语言作为生成的报告的语言](./media/er-multilingual-labels-language-context-fixed.png)
+    ![在 ER 操作设计器中指定设计时定义的语言作为生成的报表的语言。](./media/er-multilingual-labels-language-context-fixed.png)
 
 - **运行时定义** – 使用在运行时指定的语言生成报告。 如果选择此值，请在 **语言** 字段中配置返回语言的语言代码的 ER 表达式，如相应客户的语言。
 
-    ![在 ER 操作设计器中指定运行时定义的语言作为生成的报告的语言](./media/er-multilingual-labels-language-context-runtime.png)
+    ![在 ER 操作设计器中指定运行时定义的语言作为生成的报表的语言。](./media/er-multilingual-labels-language-context-runtime.png)
 
 ## <a name="culture-specific-formatting"></a>区域性特定格式
 
@@ -165,15 +165,15 @@ ER 支持多种为生成的报表指定区域性的方式。 因此，正确的�
 
 - **用户首选项** – 根据用户的首选区域性确定值的格式。 该区域性在 **用户选项** 页 **首选项** 选项卡上的 **日期、时间和数字格式** 字段中定义。
 
-    ![在 ER 操作设计器中将用户的首选区域性定义为所生成报表的区域性](./media/er-multilingual-labels-culture-context-user-preferred.png)
+    ![在 ER 操作设计器中将用户的首选区域性定义为所生成报表的区域性。](./media/er-multilingual-labels-culture-context-user-preferred.png)
 
 - **明确定义** – 根据设计时指定的区域性确定值的格式。
 
-    ![在 ER 操作设计器中将在设计时指定的区域性定义为所生成报表的区域性](./media/er-multilingual-labels-culture-context-fixed.png)
+    ![在 ER 操作设计器中将在设计时指定的区域性定义为所生成报表的区域性。](./media/er-multilingual-labels-culture-context-fixed.png)
 
 - **运行时定义** – 根据运行时指定的区域性确定值的格式。 如果选择此值，在 **映射** 选项卡上的 **日期、时间和数字格式** 字段中，配置一个 ER 表达式，以返回该区域性的区域性代码，如相应客户的区域性。
 
-    ![在 ER 操作设计器中将在运行时定义的区域性定义为所生成报表的区域性](./media/er-multilingual-labels-culture-context-runtime.png)
+    ![在 ER 操作设计器中将在运行时定义的区域性定义为所生成报表的区域性。](./media/er-multilingual-labels-culture-context-runtime.png)
 
 > [!NOTE]
 > 您为其定义特定区域性的 ER 组件可能包含配置为填充文本值的子 ER 组件。 默认情况下，父组件的区域性用于确定那些组件的值的格式。 您可以使用以下内置 ER 函数为那些组件配置绑定，并为值格式应用替代区域性：
@@ -196,19 +196,19 @@ ER 支持多种为生成的报表指定区域性的方式。 因此，正确的�
 
 ER 组件的配置是在可编辑 ER 组件所在的 ER 配置的草稿版本中完成的。
 
-![提供对“草稿”状态下的配置版本的访问的 ER 配置页面](./media/er-multilingual-labels-configurations.png)
+![提供对“草稿”状态下的配置版本的访问的 ER 配置页面。](./media/er-multilingual-labels-configurations.png)
 
 如本主题前面所述，您可以将所需的 ER 标签添加到可编辑 ER 组件中。 这样，您可以用 EN-US 语言指定 ER 标签的文本。 然后，您可以使用内置的 ER 函数导出 ER 组件的标签。 选择包含可编辑的 ER 组件的 ER 配置的草稿版本，然后选择 **交换 \> 导出标签**。
 
-![允许从选定的配置版本导出 ER 标签的 ER 配置页面](./media/er-multilingual-labels-export.png)
+![允许从选定的配置版本导出 ER 标签的 ER 配置页面。](./media/er-multilingual-labels-export.png)
 
 您可以导出所有标签，也可以导出在导出开始时指定的一种语言的标签。 标签将导出为包含 XML 文件的 zip 文件。 每个 XML 文件包含一种语言的标签。
 
-![包含 DE-AT 语言的 ER 标签的导出文件的示例](./media/er-multilingual-labels-in-xml.png)
+![包含 DE-AT 语言的 ER 标签的导出文件的示例。](./media/er-multilingual-labels-in-xml.png)
 
 此格式用于通过外部翻译服务自动翻译标签，如 [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md)。 收到翻译的标签后，可以将它们重新导入到包含拥有这些标签的 ER 组件的 ER 配置的草稿版本中。 选择包含可编辑的 ER 组件的 ER 配置的草稿版本，然后选择 **交换 \> 加载标签**。
 
-![允许将 ER 标签导入到选定的配置版本的 ER 配置页面](./media/er-multilingual-labels-load.png)
+![允许将 ER 标签导入到选定的配置版本的 ER 配置页面。](./media/er-multilingual-labels-load.png)
 
 翻译的标签将导入到所选的 ER 配置中。 此 ER 配置中存在的翻译的标签将被替换。 如果 ER 配置中缺少任何翻译的标签，将追加。
 

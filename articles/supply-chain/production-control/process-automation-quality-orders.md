@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115165"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353980"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>调用流程自动化流来创建质检订单
 
@@ -30,7 +30,7 @@ Supply Chain Management 的可下载自动化解决方案模板以质量订单�
 
 有关此功能及其功能的概述，请参见以下视频：[在 Dynamics 365 Supply Chain Management 中利用 RPA 创建质检订单](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![RPA 的自动化选项](media/rpa-automation-options.png "RPA 的自动化选项")
+![RPA 的自动化选项。](media/rpa-automation-options.png "RPA 的自动化选项")
 
 Power Automate 解决方案模板包括一个云自动化流和一个桌面自动化流，它们可以在 Supply Chain Management 中自动创建质检订单。
 
@@ -38,7 +38,7 @@ Power Automate 解决方案模板包括一个云自动化流和一个桌面自�
 
 包含了解决方案参数来针对生产设施中的特定用例配置自动化。
 
-![创建质检订单](media/rpa-create-quality-roder.png "创建质检订单")
+![创建质检订单。](media/rpa-create-quality-roder.png "创建质检订单")
 
 有关如何下载、安装和使用示例解决方案来自动创建质检订单的完整的分步指南，请参阅[使用 Power Automate Desktop 通过机器人流程自动化在 Dynamics 365 Supply Chain Management 上自动创建质检订单](/power-automate/desktop-flows/dynamics365-scm-rpa)。
 

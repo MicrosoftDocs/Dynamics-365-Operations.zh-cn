@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: df727f3e66691409b98d2f74f78329b03e638959
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355195"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
@@ -70,7 +70,7 @@ ms.locfileid: "5897928"
 
     当您选择链接时，为各成本要素显示卡。 将显示每个卡中的以下金额：“实际值”、“预算差异”、“预算差异百分比”、“已修订的预算”、“已修订的预算差异”和“已修订的预算差异百分比”。
     
-    [![成本元素的卡](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![成本元素的卡。](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
@@ -125,7 +125,7 @@ ms.locfileid: "5897928"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>使用成本控制移动工作区查看成本中心的绩效
 

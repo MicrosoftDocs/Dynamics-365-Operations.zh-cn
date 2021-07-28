@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306381"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358585"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -33,15 +33,15 @@ ms.locfileid: "6306381"
 
 这是来自 Sales 的产品数据模型。
 
-![CE 中的产品数据模型](media/dual-write-product-4.jpg)
+![CE 中的产品数据模型。](media/dual-write-product-4.jpg)
 
 这是来自 Finance and Operations 应用的产品数据模型。
 
-![Finance and Operations 中的产品数据模型](media/dual-write-products-5.jpg)
+![Finance and Operations 中的产品数据模型。](media/dual-write-products-5.jpg)
 
 如下所示，这两个产品数据模型已集成到 Dataverse 中。
 
-![Dynamics 365 应用中的产品数据模型](media/dual-write-products-6.jpg)
+![Dynamics 365 应用中的产品数据模型。](media/dual-write-products-6.jpg)
 
 产品的双写入表映射设计为仅单向流动数据，实时地从 Finance and Operations 应用流动到 Dataverse。 但是，如果需要，产品基础结构已经开放，可以实现双向。 虽然您可以进行自定义，但需自担风险，因为 Microsoft 不建议使用此方法。
 
@@ -86,7 +86,7 @@ Dataverse 发布的独特产品 | 产品 | **产品** 表包含定义产品的�
 - **基础产品** 用作具有定义和规则的一般产品，这些定义和规则确定业务流程中的行为。 基于这些定义，可以生成称为产品变型的独特产品。 例如，T 恤是基础产品，可以具有颜色和尺寸维度。 可以发布具有这些维度的不同组合的变型，例如小号蓝色 T 恤或中号绿色 T 恤。 在集成中，在产品表中为每个变型创建一行。 此行包含特定于变型的信息，例如不同的维度。 产品的一般信息存储在 **msdyn\_sharedproductdetails** 表中。 （此一般信息保留在基础产品中。）创建已发放的基础产品后（但在发放变型之前），基础产品信息即同步到 Dataverse。
 - **独特产品** 是指所有产品子类型产品和所有产品变型。 
 
-![产品的数据模型](media/dual-write-product.png)
+![产品的数据模型。](media/dual-write-product.png)
 
 启用双写入功能后，Finance and Operations 中的产品将在其他 Dynamics 365 产品中同步并处于 **草稿** 状态。 它们将以相同的货币添加到第一个价目表中。 换言之，它们将被添加到 Dynamics 365 应用中的第一个价目表中，该应用与在 Finance and Operations 应用中发放产品的法人的货币相匹配。 如果没有给定货币的价目表，将会自动创建一个价目表，并将产品分配给该价目表。 
 
@@ -112,7 +112,7 @@ Dataverse 发布的独特产品 | 产品 | **产品** 表包含定义产品的�
 
 产品维度是标识产品变型的特性。 四个产品维度（颜色、尺寸、样式和配置）也映射到 Dataverse 以定义产品变型。 下图显示了产品维度“颜色”的数据模型。 相同的模型也应用于“尺寸”、“样式”和“配置”。 
 
-![产品维度的数据模型](media/dual-write-product-two.png)
+![产品维度的数据模型。](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Dataverse 发布的独特产品 | 产品 | **产品** 表包含定义产品的�
 
 度量单位及其各自的转换按照图中所示的数据模型在 Dataverse 中提供。
 
-![度量单位的数据模型](media/dual-write-product-three.png)
+![度量单位的数据模型。](media/dual-write-product-three.png)
 
 度量单位概念在 Finance and Operations 应用与其他 Dynamics 365 应用之间进行了集成。 对于 Finance and Operations 应用中的每个单位类别，将在 Dynamics 365 应用中创建一个单位组，其中包含属于该单位类别的单位。 另外还为每个单位组创建一个默认基础单位。 
 

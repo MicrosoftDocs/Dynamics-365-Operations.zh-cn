@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748939"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350927"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 
@@ -82,13 +82,13 @@ Microsoft 代表将在两到三个工作日内与您联系以完成后续步骤�
 
 迁移完成后，管理员可以设置货币精度。 转到 **设置 \> 管理**，然后选择 **系统设置**。 然后，在 **常规** 选项卡上，更改 **设置用于整个系统定价的货币精度** 列的值，如下图所示。
 
-![货币的系统设置](media/currency-system-settings.png)
+![货币的系统设置。](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>业务管理：货币
 
 如果您需要特定货币的货币精度与用于定价的货币精度不同，可以对其进行更改。 转到 **设置 \> 业务管理**，选择 **货币**，然后选择要更改的货币。 然后，将 **货币精度** 列设置为所需的小数位数，如下图所示。
 
-![特定区域的货币设置](media/specific-currency.png)
+![特定区域的货币设置。](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>表：货币列
 

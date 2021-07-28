@@ -932,6 +932,8 @@
                   href: manage-ecommerce-users-roles.md
                 - name: 应用库存设置
                   href: inventory-settings.md
+                - name: 应用“将产品添加到购物车”设置
+                  href: add-cart-settings.md
                 - name: 站点的搜索引擎优化 (SEO) 注意事项
                   href: search-engine-optimization-considerations.md
                 - name: 管理内容安全策略 (CSP)
@@ -1016,6 +1018,10 @@
                       href: customize-site-navigation.md
                     - name: 创建页面 URL
                       href: create-page-URL.md
+                - name: Adventure Works 主题
+                  items:
+                    - name: Adventure Works 主题概览
+                      href: adventure-works-theme.md
             - name: 管理数字资产
               items:
                 - name: 数字资产管理概览
@@ -1070,9 +1076,19 @@
                       href: add-hero-module.md
                     - name: 视频播放器模块
                       href: add-video-player.md
-                - name: 标题和页脚模块
+                    - name: 可用图像模块
+                      href: active-image-module.md
+                    - name: 图像列表模块
+                      href: image-list-module.md
+                    - name: 交互功能模块
+                      href: interactive-feature-module.md
+                    - name: 订阅模块
+                      href: subscribe-module.md
+                    - name: 磁贴列表模块
+                      href: tile-list-module.md
+                - name: 页眉和页脚模块
                   items:
-                    - name: 标题模块
+                    - name: 页眉模块
                       href: author-header-module.md
                     - name: 页脚模块
                       href: author-footer-module.md
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: 收银机部署指南
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: 俄罗斯
+              items:
+                - name: 适用于俄罗斯的 Commerce 本地化
+                  href: localizations/rus-commerce-localization.md
             - name: 瑞典
               items:
                 - name: 收银机功能
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: 配置审核步骤
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 配置支出审核人
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: 配置手动决策
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: 配置条件决策
@@ -2184,7 +2206,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
                 - name: 工作流类型报告
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
-                - name: 工作流常见问题
+                - name: 工作流常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
             - name: 预警
               items:
@@ -2558,6 +2580,8 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: 渠道数据库扩展
                   href: dev-itpro/channel-db-extensions.md
+                - name: 删除 Cloud Scale Unit 扩展
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: 通过扩展启用自定义 CDX 同步
                   href: dev-itpro/cdx-extensibility.md
                 - name: 定义和设置订单属性

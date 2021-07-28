@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022414"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352076"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
@@ -90,16 +90,16 @@ ms.locfileid: "6022414"
 1. 在 **应用程序版本** 字段中，选择最新版本。 如果您明确需要选择除最新版本以外的其他应用程序版本，请不要选择 **10.0.14** 之前的版本。
 1. 在 **平台版本** 字段中，使用为所选应用程序版本自动选择的平台版本。 
 
-    ![选择应用程序和平台版本](./media/project1.png)
+    ![选择应用程序和平台版本。](./media/project1.png)
 
 1. 选择 **下一步**。
 1. 选择 **演示** 作为环境拓扑。
 
-    ![选择环境拓扑 1](./media/project2.png)
+    ![选择环境拓扑 1。](./media/project2.png)
 
 1. 在 **部署环境** 页面上，输入环境名称。 高级设置保持原样。
 
-    ![部署环境页面](./media/project4.png)
+    ![部署环境页面。](./media/project4.png)
 
 1. 根据需要调整 VM 大小。 （我们建议使用 VM 库存单位 \[SKU\] **D13 v2**。）
 1. 查看定价和许可条款，然后选中指示您同意这些条款的复选框。

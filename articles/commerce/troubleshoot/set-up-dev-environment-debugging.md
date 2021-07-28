@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019438"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350394"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>设置电子商务开发环境以针对 1 级零售服务器虚拟机进行调试
 
@@ -38,11 +38,11 @@ ms.locfileid: "6019438"
 
 下图显示了在产品详细信息页面上选择变体时可能会发生的错误的示例。
 
-![在产品详细信息页面上选择变体时出错](media/unhandled-rejection-error.jpg)
+![在产品详细信息页面上选择变体时出错。](media/unhandled-rejection-error.jpg)
 
 下图显示了浏览器的调试器工具（F12 开发人员工具）中类似错误的示例。 该错误消息提到违反内容安全策略指令。
 
-![调试器工具错误](media/debugger-tools-error.JPG)
+![调试器工具错误。](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>解决方法
 

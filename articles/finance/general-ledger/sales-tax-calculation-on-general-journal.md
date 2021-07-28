@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937298"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358825"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>普通日记帐行的销售税计算
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "5937298"
 
 下图以图形方式演示规则。
 
-![项目科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
+![项目科目的税务方向可能情况。](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>科目类型为“供应商”
 
@@ -73,7 +73,7 @@ ms.locfileid: "5937298"
 
 下图以图形方式演示规则。
 
-![供应商科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
+![供应商科目的税务方向可能情况。](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>科目类型为“客户”
 
@@ -89,7 +89,7 @@ ms.locfileid: "5937298"
 
 下图以图形方式演示规则。
 
-![客户科目的税金方向可能情况](media/Sales-Tax-Direction-Customer.jpg)
+![客户科目的税务方向可能情况。](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>科目类型为“分类帐”
 
@@ -103,7 +103,7 @@ ms.locfileid: "5937298"
 
 下图以图形方式演示规则。
 
-![分类帐科目的税金方向可能情况](media/Sales-Tax-Direction-Ledger.jpg)
+![分类帐科目的税务方向可能情况。](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>覆盖税金方向
 
@@ -115,7 +115,7 @@ ms.locfileid: "5937298"
 
 此部分介绍如何计算销售税金额符号。
 
-![销售税交易记录页面](media/sales-tax-amount-sign.jpg)
+![销售税交易页面。](media/sales-tax-amount-sign.jpg)
 
 下表显示用于确定临时销售税表中的销售税方向和销售税金额符号的一般规则。
 

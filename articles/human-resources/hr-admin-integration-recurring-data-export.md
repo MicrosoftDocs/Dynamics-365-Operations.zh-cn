@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054996"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361209"
 ---
 # <a name="create-a-recurring-data-export-app"></a>创建重复性数据导出应用
 
@@ -63,13 +63,13 @@ ms.locfileid: "6054996"
 
 完成的逻辑应用将类似于下图。
 
-![逻辑应用概览](media/integration-logic-app-overview.png)
+![逻辑应用概览。](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>步骤 1：在 Human Resources 中创建数据导出项目
 
 在 Human Resources 中，创建一个导出工作人员的数据导出项目。 将项目命名为 **导出工作人员**，并确保将 **生成数据包** 选项设置为 **是**。 将单个实体（**工作人员**）添加到项目，然后选择导出要使用的格式。 （本教程使用 Microsoft Excel 格式。）
 
-![“导出工作人员”数据项目](media/integration-logic-app-export-workers-project.png)
+![导出工作人员数据项目。](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > 记住数据导出项目的名称。 在下一步中创建逻辑应用时，将需要用到它。
@@ -80,12 +80,12 @@ ms.locfileid: "6054996"
 
 1. 在 Azure 门户中，创建一个逻辑应用。
 
-    ![逻辑应用创建页面](media/integration-logic-app-creation-1.png)
+    ![逻辑应用创建页面。](media/integration-logic-app-creation-1.png)
 
 2. 在逻辑应用设计器中，从空白逻辑应用开始。
 3. 添加[重复执行计划触发器](/azure/connectors/connectors-native-recurrence)，每 24 小时（或根据您选择的计划）运行一次逻辑应用。
 
-    ![“重复执行”对话框](media/integration-logic-app-recurrence-step.png)
+    ![重复执行对话框。](media/integration-logic-app-recurrence-step.png)
 
 4. 调用 [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API 计划数据包的导出。
 
@@ -97,7 +97,7 @@ ms.locfileid: "6054996"
         > [!NOTE]
         > Human Resources 服务尚未提供用于公开构成 DMF 包 REST API（如 **ExportToPackage**）的所有 API 的连接器。 您必须通过带有 Azure AD 连接器的 HTTP 使用原始 HTTPS 请求来调用 API。 此连接器使用 Azure Active Directory (Azure AD) 对 Human Resources 进行身份验证和授权。
 
-        ![带有 Azure AD 连接器的 HTTP](media/integration-logic-app-http-aad-connector-step.png)
+        ![带有 Azure AD 连接器的 HTTP。](media/integration-logic-app-http-aad-connector-step.png)
 
     2. 通过带有 Azure AD 连接器的 HTTP 登录到您的 Human Resources 环境。
     3. 设置 HTTP **POST** 请求以调用 **ExportToPackage** DMF REST API。
@@ -116,21 +116,21 @@ ms.locfileid: "6054996"
             }
             ```
 
-        ![调用 HTTP 请求操作](media/integration-logic-app-export-to-package-step.png)
+        ![调用 HTTP 请求操作。](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > 您可能需要重命名每个步骤，以使其比默认名称 **调用 HTTP 请求** 更有意义。 例如，您可以重命名此步骤 **ExportToPackage**。
 
 5. [初始化变量](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)以存储 **ExportToPackage** 请求的执行状态。
 
-    ![初始化变量操作](media/integration-logic-app-initialize-variable-step.png)
+    ![初始化变量操作。](media/integration-logic-app-initialize-variable-step.png)
 
 6. 等待直到数据导出的执行状态为 **已成功**。
 
     1. 添加一个一直重复到 **ExecutionStatus** 变量的值为 **已成功** 的 [Until 循环](/azure/logic-apps/logic-apps-control-flow-loops#until-loop)。
     2. 添加等待五秒钟，然后才轮询导出的当前执行状态的 **延迟** 操作。
 
-        ![Until 循环容器](media/integration-logic-app-until-loop-step.png)
+        ![Until 循环容器。](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > 将限制计数设置为 **15**，以最多等待 75 秒（15 次迭代 × 5 秒）完成导出。 如果导出需要更多时间，请适当调整限制计数。        
@@ -146,9 +146,9 @@ ms.locfileid: "6054996"
             > [!NOTE]
             > 您可能必须在代码视图或设计器的函数编辑器中输入 **请求的正文** 值。
 
-        ![调用 HTTP 请求 2 操作](media/integration-logic-app-get-execution-status-step.png)
+        ![调用 HTTP 请求 2 操作。](media/integration-logic-app-get-execution-status-step.png)
 
-        ![设置变量操作](media/integration-logic-app-set-variable-step.png)
+        ![设置变量操作。](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > **设置变量** 操作的值 (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) 与 **调用 HTTP 请求 2** 正文值的值不同，即使设计器将以相同方式显示这些值。
@@ -161,7 +161,7 @@ ms.locfileid: "6054996"
         - **请求的 URL：** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **请求的正文：**{"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![GetExportedPackageURL 操作](media/integration-logic-app-get-exported-package-step.png)
+        ![GetExportedPackageURL 操作。](media/integration-logic-app-get-exported-package-step.png)
 
 8. 下载导出的包。
 
@@ -173,7 +173,7 @@ ms.locfileid: "6054996"
             > [!NOTE]
             > 您可能必须在代码视图或设计器的函数编辑器中输入 **URI** 值。
 
-        ![HTTP GET 操作](media/integration-logic-app-download-file-step.png)
+        ![HTTP GET 操作。](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > 此请求不需要任何其他身份验证，因为 **GetExportedPackageUrl** API 返回的 URL 包含一个共享访问签名令牌，该令牌授予下载文件的访问权限。
@@ -187,7 +187,7 @@ ms.locfileid: "6054996"
         - **文件名：** worker\_package.zip
         - **文件内容：** 上一步中的正文（动态内容）
 
-        ![创建文件操作](media/integration-logic-app-create-file-step.png)
+        ![创建文件操作。](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>步骤 3：测试逻辑应用
 
@@ -197,7 +197,7 @@ ms.locfileid: "6054996"
 
 下图显示了逻辑应用的所有步骤成功运行时逻辑应用设计器呈现的状态。
 
-![成功的逻辑应用运行](media/integration-logic-app-successful-run.png)
+![成功的逻辑应用运行。](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>摘要
 

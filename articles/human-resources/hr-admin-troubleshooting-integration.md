@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357281"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
@@ -37,7 +37,7 @@ ms.locfileid: "6053368"
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Talent 申请用户的默认设置](media/DynamicsApplicationUser.png)
+![Talent 申请用户的默认设置。](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>所有数据均同步还是只是一些数据实体？
 
@@ -57,7 +57,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 对于位于 Finance 但不存在于 Human Resources 中的数据，请使用 Human Resources 中的 **配置链接** 将两个系统链接在一起。
 
-![映射财务维度](media/MapFinancialDimensions.png)
+![映射财务维度。](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>在某些情况下，当我导入员工时，他们在 Finance 中成为空闲工作人员。 为什么？
 
@@ -71,14 +71,14 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 使用“高级查询”，您可以在将数据传递到目标前筛选并改造源数据。
 
-![可用工作人员高级查询](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![可用工作人员高级查询。](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>我可以指定将特定实体的哪些字段发送到 Finance 吗？
 
 字段可以在集成任务中添加或删除。 并非 Dataverse 表上存在的所有数据字段都从 Human Resources 填充。
 附加数据可以通过 Power Apps 填充。
 
-![在集成任务中添加或删除字段](media/SpecifyFieldsIncludedInIntegration.png)
+![在集成任务中添加或删除字段。](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>我将集成设置为批处理作业，但 Human Resources 失去了与目标系统的连接。 我如何将同一组更改发送到目标系统？
 
@@ -126,11 +126,11 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 1. 从数据集成器捕获任务索引（在本示例中是“9”）。
 
-    ![从数据集成器捕获任务索引](media/CaptureTaskIndex.png)
+    ![从数据集成器捕获任务索引。](media/CaptureTaskIndex.png)
 
 2. 跟踪项目的执行时间。
 
-    ![跟踪项目的执行时间](media/CaptureTimeOfExecution.png)
+    ![跟踪项目的执行时间。](media/CaptureTimeOfExecution.png)
 
 3. 在 Finance 中，识别索引 - 1。 在此示例中，后缀为“8”的项目和索引“0”项目的执行时间与步骤 2 中的执行时间匹配。
 
@@ -140,7 +140,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 与 Finance 的集成是一个两步流程。 首先，验证 Human Resources 数据在 Dataverse 中已更新并可用。 这是一个接近实时的同步，可以在 Power Apps 中通过查看数据表中的数据验证。
 
-![Dataverse 中的数据](media/DataInCDS.png)
+![Dataverse 中的数据。](media/DataInCDS.png)
 
 如果数据未按预期出现在 Dataverse 中，请验证集成中是否支持该实体。 若要在 Dataverse 中包括附加数据，需要 Microsoft 一端进行更改。
 
@@ -165,7 +165,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 通过转到 **数据管理 \> 框架参数 \> 实体设置 \> 刷新实体列表** 刷新 Finance 中的数据实体。 这应需要两三分钟完成，然后您应该看到这些映射。 在已创建新项目时，将发生此问题。
 
-![缺少字段映射](media/MissingFieldMapping.png)
+![缺少字段映射。](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>其他资源
 

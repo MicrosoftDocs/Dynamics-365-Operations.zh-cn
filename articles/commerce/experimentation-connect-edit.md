@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4dbfa96e6393bae6ad4ffa642b39a5d04c596c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799075"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349368"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>连接试验和编辑变体
 
@@ -28,7 +28,7 @@ ms.locfileid: "5799075"
 
 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 连接和编辑](./media/experimentation_connect_edit.svg)](./media/experimentation_connect_edit.svg#lightbox)
+[![试验用户旅程 - 连接和编辑。](./media/experimentation_connect_edit.svg)](./media/experimentation_connect_edit.svg#lightbox)
 
 在第三方服务中[设置试验](experimentation-setup.md)后，您将在 Dynamics 365 Commerce 中连接试验和编辑试验变体。
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117210"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353854"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>将产品维度值配置为作为样本显示
 
@@ -39,11 +39,11 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图显示了一个示例，其中颜色在 Commerce PDP 上显示为样本。
 
-![在产品详细信息页上显示为样本的颜色示例](../dev-itpro/media/swatch_pdp.png)
+![在产品详细信息页面上显示为样本的颜色的示例。](../dev-itpro/media/swatch_pdp.png)
 
 下图显示了一个示例，其中颜色在 Commerce 搜索结果列表页上显示为样本。
 
-![在搜索结果列表页上显示为样本的颜色示例](../dev-itpro/media/swatch_searchresults.PNG)
+![在搜索结果列表页面上显示为样本的颜色的示例。](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>在 Commerce headquarters 中启用将维度显示为样本功能
 
@@ -57,15 +57,15 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 - **维度** – 在 Commerce headquarters 中，通过搜索 **颜色**、**尺寸** 或 **样式** 打开维度的页面。 在每个页面上，一个网格将列出维度值。 您可以管理显示顺序、十六进制代码和图像 URL 值。 下图显示了 **颜色** 页上的示例配置。
 
-    ![“颜色”页上的维度配置的示例](../dev-itpro/media/swatch_Color.PNG)
+    ![“颜色”页面上的维度配置的示例。](../dev-itpro/media/swatch_Color.PNG)
 
 - **维度组** – 在 Dynamics 365 Commerce 中，您可以使用 **RefinerGroup** 属性创建维度组。 如果定义了维度组，通过搜索 **颜色组**、**尺寸组** 或 **样式组** 打开相应的页面。 在每个页面上，您可以管理十六进制代码、图像 URL 和提炼组值。 下图显示了 **颜色组** 页上的示例配置。
 
-    ![“颜色组”页上的维度配置的示例](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![“颜色组”页面上的维度配置的示例。](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **产品维度（产品创建期间）** – 创建新产品时，您可以使用 **产品维度** 页输入维度值。 对于现有产品，**Hexcode**、**URL**（图像）和 **RefinerGroup** 字段可能已经设置。 不过，您可以根据需要更改这些值。 下图显示了 **产品维度** 页上的示例配置。
 
-    ![“产品维度”页上的维度配置的示例](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![“产品维度”页面上的维度配置的示例。](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > 管理十六进制代码和图像 URL 配置的流程遵照用于管理维度显示顺序的相同模式。
@@ -76,7 +76,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图显示了使用十六进制代码值配置颜色维度的示例。
 
-![使用十六进制代码的维度配置的示例](../dev-itpro/media/swatch_color_hexcode.png)
+![使用十六进制代码的维度配置的示例。](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>使用图像 URL 配置维度值
 
@@ -86,13 +86,13 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图显示了一个示例，其中图像 URL 用于 **颜色** 页上的配置。
 
-![使用图像 URL 的维度配置的示例](../dev-itpro/media/swatch_color_urls.PNG)
+![使用图像 URL 的维度配置的示例。](../dev-itpro/media/swatch_color_urls.PNG)
 
 您可以使用媒体模板来定义图像 URL，就像为产品和类别图像定义一样。 当您将图像上载到站点构建器时，文件名约定和文件路径必须一致。
 
 下图显示了一个示例，其中图像 URL 用于媒体模板的配置。
 
-![媒体模板配置示例](../dev-itpro/media/swatch_media_template.PNG)
+![媒体模板配置的示例。](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>同时使用十六进制代码和图像 URL 配置维度值
 
@@ -100,7 +100,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图显示了一个示例，其中十六进制代码和图像 URL 同时用于 **颜色** 页上的配置。
 
-![同时使用十六进制代码和图像 URL 的维度配置的示例](../dev-itpro/media/swatch_color_hexandimage.png)
+![同时使用十六进制代码和图像 URL 的维度配置的示例。](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>配置提炼组
 
@@ -110,7 +110,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图中的示例显示了 Commerce headquarters 中 **颜色** 和 **RefinerGroup** 属性之间的关系。
 
-![提炼组管理示例](../dev-itpro/media/swatch_refiner_group.png)
+![优化组管理的示例。](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>在 Commerce 站点构建器中管理图像
 
@@ -118,7 +118,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 下图显示了一个示例，其中 **上载文件** 对话框用于将图像上载到站点构建器媒体库。 可供选择的 **尺寸**、**颜色** 和 **样式** 类别突出显示。
 
-![上载到站点构建器媒体库期间的图像文件类别的示例](../dev-itpro/media/swatch_sitebuilder.png)
+![上传到站点构建器媒体库期间的图像文件类别的示例。](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>在电子商务站点页面上启用样本显示
 

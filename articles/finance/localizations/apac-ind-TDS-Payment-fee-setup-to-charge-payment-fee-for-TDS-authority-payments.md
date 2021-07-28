@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023073"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358426"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>为 TDS 主管机构付款设置付款费用
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023073"
 
 1. 转到 **应付帐款 \> 付款设置 \> 付款费用**。
 
-    [![付款费用页面](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![付款费用页面。](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. 选择 **新建** 以创建付款费用，并输入所需的详细信息。
 3. 在 **费用类型** 字段中，选择付款费用的类型：
@@ -46,7 +46,7 @@ ms.locfileid: "6023073"
 5. 输入其他所需的详细信息。
 6. 在操作窗格上，选择 **付款费用设置** 以打开 **付款费用设置** 页面，您可以在该页面中设置银行、付款方式、付款说明、货币和日期间隔的各种组合的付款费用。
 
-    [![付款费用设置页面](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![付款费用设置页面。](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. 在 **概述** 选项卡上，在 **分组** 字段中，指定要为其设置付款费用的银行：
 
@@ -64,7 +64,7 @@ ms.locfileid: "6023073"
 15. 在 **费用货币** 字段中，指定费用的货币代码。
 16. 选择 **常规** 选项卡以查看或修改选定银行帐户的详细信息。
 
-    [![常规选项卡](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![常规选项卡。](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. 在 **最小值** 字段中，输入激活费用的最小交易金额。
 17. 在 **最大值** 字段中，输入激活费用的最大交易金额。
@@ -74,7 +74,7 @@ ms.locfileid: "6023073"
 21. 在 **物料销售税组** 字段中，选择用于计算费用金额的物料销售税的物料销售税组。
 22. 选择 **间隔** 选项卡。 
 
-    [![间隔选项卡](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![间隔选项卡。](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. 在 **天数** 字段中，输入付款的过帐日期（折扣日期）和本票的截止日期之间的天数。
 24. 在 **百分比/金额** 字段中，选择规格是百分比还是设置的金额。

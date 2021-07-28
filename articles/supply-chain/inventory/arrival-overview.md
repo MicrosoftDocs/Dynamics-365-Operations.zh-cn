@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809582"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360440"
 ---
 # <a name="arrival-overview"></a>到达概览
 
@@ -34,7 +36,7 @@ ms.locfileid: "5809582"
 ## <a name="business-scenario"></a>业务方案
 在入站流程中考虑以下方案。
 
-[![业务方案](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![业务方案。](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy，一名验收员，希望了解预期当天将收到的物料。 在 **到达概览** 页，Sammy 可以获得当前任务的概览和数量、体积、重量、不同订单类型的粗略估计，等等。 然后，交货到达进货台中的一个，Sammy 接收交货列表。 在 **到达概览** 页，Sammy 可以执行以下任务：
 
@@ -66,7 +68,7 @@ Sammy，一名验收员，希望了解预期当天将收到的物料。 在 **�
 
 -   必须指定创建日记帐的日记帐名称。
 
-[![指定日记帐名称](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![指定日记帐名称。](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   如果您在 **仓库** 和 **库位** 字段中指定值，那些值在日记帐行上应用。 如果未指定值，系统将使用来自在库存交易记录中所指定维度的值。
 

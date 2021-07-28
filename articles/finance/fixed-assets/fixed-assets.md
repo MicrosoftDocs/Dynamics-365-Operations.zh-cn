@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897980"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355548"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897980"
 
 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值来确定折旧，对固定资产进行管理。 可以计算固定资产调整值以及处置固定资产。 在您将总帐与固定资产一起使用时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
 
-[![业务流程](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![业务流程。](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349464"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -68,7 +68,7 @@ ms.locfileid: "6019851"
 1. 选择 **产品建议** 功能。
 1. 在 **产品建议** 属性窗格中，选择 **立即启用**。
 
-![开启建议](./media/FeatureManagement_Recommendations.PNG)
+![打开建议。](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > 此过程开始生成产品建议列表。 可能需要几小时，列表才可用，并且可以在销售点 (POS) 或 Dynamics 365 Commerce 中查看。

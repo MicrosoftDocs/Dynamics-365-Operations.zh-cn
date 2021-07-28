@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304359"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355965"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>查看、管理和审核计划订单
 
@@ -65,7 +65,7 @@ ms.locfileid: "6304359"
 
 下图显示了如何使用分配给每个计划订单的 **状态** 值来实施审核工作流。 要实施审核流程，请按照上一节中所述为每个计划订单手动调整 **状态** 值。
 
-![计划订单流](media/approved-planned-orders-1.png)
+![计划订单流。](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > 我们建议您审核所有修改的计划订单。 否则，所做编辑将被下一次计划运行忽略和覆盖。

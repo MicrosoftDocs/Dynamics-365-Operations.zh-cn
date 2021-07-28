@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 71767e733dd6ac9d11e8757abf0b12dcf2a7a441
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348597"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
 
@@ -75,7 +75,7 @@ ms.locfileid: "5754720"
 
 - **消息框** - 在界面上方显示，必须与其交互后才能继续使用本产品。  
 
-![下图显示消息框的示例](media/user-interface-07.png)
+![下图显示消息框的示例。](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>工具栏、网格和列表
 

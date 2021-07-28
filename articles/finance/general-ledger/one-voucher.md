@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897760"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356695"
 ---
 # <a name="one-voucher"></a>一个凭证
 
@@ -33,18 +33,18 @@ ms.locfileid: "5897760"
 
 - 设置日记帐名称（**总帐** \> **日记帐设置** \> **日记帐名称**），以便 **新凭证** 字段设置为 **仅一个凭证号**。 您添加到日记帐的各行现在都包括在同一凭证中。 因此，凭证可以作为多行凭证、同一行上的科目/对方科目或组合输入。
 
-    [![单行](./media/same-line.png)](./media/same-line.png)
+    [![单行。](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > “一个凭证”的定义 **不** 包括日记帐名称设置为 **仅一个凭证号**，但用户随后输入仅包含会计科目类型的凭证的情况。 在本主题中，“一个凭证”意味着有单个凭证包含多个供应商、客户、银行、固定资产或项目。
 
 - 输入没有对方科目的多行凭证。
 
-    [![多行凭证](./media/Multi-line.png)](./media/Multi-line.png)
+    [![多行凭证。](./media/Multi-line.png)](./media/Multi-line.png)
 
 - 输入科目和对方科目都包含子分类帐科目类型（如 **供应商**/**供应商**、**客户**/**客户**、**供应商**/**客户** 或 **银行**/**银行**）的凭证。
 
-    [![子分类帐凭证](./media/subledger.png)](./media/subledger.png)
+    [![子分类帐凭证。](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>一个凭证存在的问题
 
@@ -52,11 +52,11 @@ ms.locfileid: "5897760"
 
 例如，您过帐以下多行凭证。
 
-[![多行凭证示例](./media/example.png)](./media/example.png)
+[![多行凭证的示例。](./media/example.png)](./media/example.png)
 
 然后您在 **财务见解** 工作区生成 **按供应商分类的费用** 报表。 在此报表中，支出帐户余额按供应商组然后按供应商分组。 当生成报表时，系统不能确定哪些供应商组/供应商发生了 250.00 费用。 因为交易记录明细缺少，系统假定所有 250.00 费用是由在凭证中找到的第一个供应商产生。 因此，250.00 费用（包含在主科目 600120 的余额中）显示在该供应商组/供应商下。 但是，凭证中的第一个供应商很有可能不是正确的供应商。 因此，报表可能不正确。
 
-[![按供应商分类的费用报表](./media/expenses.png)](./media/expenses.png)
+[![按供应商分类的费用报表。](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>一个凭证的未来
 

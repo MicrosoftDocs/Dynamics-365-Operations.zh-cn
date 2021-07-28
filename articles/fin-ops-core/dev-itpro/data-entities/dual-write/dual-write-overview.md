@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350877"
 ---
 # <a name="dual-write-overview"></a>双写入概览
 
@@ -37,7 +37,7 @@ ms.locfileid: "5754104"
 
 双写入提供 Finance and Operations 应用与 Dataverse 之间紧密耦合的双向集成。 Finance and Operations 应用中的所有数据变化都会写入 Dataverse，而 Dataverse 中的所有数据变化也会导致写入 Finance and Operations 应用。 这个自动化的数据流提供了应用之间的集成用户体验。
 
-![应用之间的数据关系](media/dual-write-overview.jpg)
+![应用之间的数据关系。](media/dual-write-overview.jpg)
 
 双写入有两个方面：*基础结构* 方面和 *应用程序* 方面。
 

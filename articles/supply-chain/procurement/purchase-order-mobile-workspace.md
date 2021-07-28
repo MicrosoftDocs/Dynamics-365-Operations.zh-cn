@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353484"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
@@ -83,7 +83,7 @@ ms.locfileid: "5909100"
 3. 首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4. 登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-![可用工作区列表中的采购订单审核工作区](./media/po-workspaces.png)
+![可用工作区列表中的采购订单审批工作区。](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>查看分配给您的订单
 1. 在移动设备上，选择 **采购订单审核** 工作区。

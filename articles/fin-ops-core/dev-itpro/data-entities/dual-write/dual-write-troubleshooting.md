@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350732"
 ---
 # <a name="general-troubleshooting"></a>常规故障排除
 
@@ -44,16 +44,16 @@ ms.locfileid: "5748817"
 
 1. 从 Yammer.com 下载最新的解决方案包文件。 下载包 zip 文件后，右键单击它，然后选择 **属性**。 选择 **解锁** 复选框，然后选择 **应用**。 如果看不到 **解锁** 复选框，则说明 zip 文件已被解锁，您可以跳过此步骤。
 
-    ![属性对话框](media/unblock_option.png)
+    ![属性对话框。](media/unblock_option.png)
 
 2. 提取包 zip 文件，然后将所有文件复制到 **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438** 文件夹中。
 
-    ![Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 文件夹的内容](media/extract_package.png)
+    ![Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 文件夹的内容。](media/extract_package.png)
 
 3. 将所有复制的文件粘贴到 Package Deployer 工具的 **工具** 文件夹中。 
 4. 运行 **PackageDeployer.exe** 以选择 Dataverse 环境并安装解决方案。
 
-    ![“工具”文件夹的内容](media/paste_copied_files.png)
+    ![“工具”文件夹的内容。](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>在 Dataverse 中启用和查看插件跟踪日志以查看错误详细信息
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9392245abe5858b03b8324dcb471f5652aed7cd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c2d88315d95d8376cd1b00ddb11ba008f11a98c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351601"
 ---
 # <a name="calculate-item-forecast"></a>计算物料预测
 
@@ -56,7 +56,7 @@ ms.locfileid: "5813885"
 
 8. 如果要查看与物料关联的产品、存储或跟踪维度，请单击 **显示维度** 按钮。 选中相关复选框，然后单击 **确定**。
 
-![图 1](media/02-capacity-planning.png)
+![图 1.](media/02-capacity-planning.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

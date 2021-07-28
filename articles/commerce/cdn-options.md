@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021882"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351241"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 
@@ -40,7 +40,7 @@ ms.locfileid: "6021882"
 
 下图显示了 Commerce 体系结构的概览。
 
-![Commerce 体系结构概览](media/Commerce_CDN-Option_ComparisonModels.png)
+![Commerce 体系结构的概览。](media/Commerce_CDN-Option_ComparisonModels.png)
 
 有关如何为您的 Commerce 站点设置 Azure Front Door 实例的更多信息，请参见[添加 CDN 支持](add-cdn-support.md)。
 
@@ -54,7 +54,7 @@ ms.locfileid: "6021882"
 
 下图显示了由 Commerce 提供的 Azure Front Door 实例的体系结构。
 
-![Commerce 提供的 Azure Front Door 实例](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![Commerce 提供的 Azure Front Door 实例。](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>使用客户拥有的 Azure Front Door 实例
 
@@ -66,7 +66,7 @@ ms.locfileid: "6021882"
 
 下图显示了一个包含客户拥有的 Azure Front Door 实例的 Commerce 基础结构。
 
-![包含客户拥有的 Azure Front Door 实例的 Commerce 基础结构](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![包含客户拥有的 Azure Front Door 实例的 Commerce 基础结构。](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>使用外部 CDN 服务
 
@@ -78,7 +78,7 @@ ms.locfileid: "6021882"
 
 下图显示了包含外部 CDN 服务的 Commerce 基础结构。
 
-![包含外部 CDN 服务的 Commerce 基础架构](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![包含外部 CDN 服务的 Commerce 基础结构。](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>其他资源
 

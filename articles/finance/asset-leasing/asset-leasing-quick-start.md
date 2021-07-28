@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360728"
 ---
 # <a name="asset-leasing-get-started"></a>资产租赁入门
 
@@ -35,7 +37,7 @@ ms.locfileid: "5892425"
 ## <a name="asset-leasing-elements"></a>资产租赁元素
 下图显示了租赁业务流程的主要元素。
 
-[![资产租赁元素](./media/overview-01.png)](./media/overview-01.png)
+[![资产租赁元素。](./media/overview-01.png)](./media/overview-01.png)
 
 租赁资产包含以下主要组成部分：
 
@@ -54,7 +56,7 @@ ms.locfileid: "5892425"
 
 下图显示了租赁帐簿、租赁、计算的付款计划、租赁和租赁帐簿的分类测试以及相应的会计交易。
 
-[![租赁、租赁帐簿和付款计划](./media/overview-02.png)](./media/overview-02.png)
+[![租赁、租赁帐簿和付款计划。](./media/overview-02.png)](./media/overview-02.png)
 
 - **租赁帐簿** - 租赁帐簿包含所有租赁合同信息，例如租赁期、公平价值和租赁付款。 它还包括您遵循的会计标准、租赁类型和在租赁分类测试中考虑的阈值。 租赁帐簿还包含过帐到总帐的租赁交易。 
   
@@ -117,7 +119,7 @@ ms.locfileid: "5892425"
 
 分类测试包括所有权转移、购买选项、租赁期、净现值和唯一资产。 下图说明了租赁分类测试。
 
-[![租赁分类测试](./media/overview-03.png)](./media/overview-03.png)
+[![租赁分类测试。](./media/overview-03.png)](./media/overview-03.png)
 
 对于不同的租赁交易，每种租赁类型会以不同方式处理交易。 交易包括初始确认、利息支出、租赁到期付款和租赁折旧，它们基于您遵循的会计标准（IFRS 16 或 ASC 842）。 根据租赁过帐配置文件为每种交易类型和会计框架定义总帐。
 
@@ -232,7 +234,7 @@ ms.locfileid: "5892425"
 
    **付款计划** 页列出了租赁 ID 的未来付款计划。 选择 **确认计划** 才能过帐 **初始确认** 交易。 
 
-[![初始确认功能](./media/overview-13.png)](./media/overview-13.png)
+[![初始确认功能。](./media/overview-13.png)](./media/overview-13.png)
 
 8. 选择 **初始确认** 创建初始确认日记帐。 
 
@@ -246,7 +248,7 @@ ms.locfileid: "5892425"
 
    **资产折旧计划** 页显示了所选租赁 ID 的折旧交易。 
 
-   [![使用权资产交易页面](./media/overview-20.png)](./media/overview-20.png)
+   [![使用权资产交易页面。](./media/overview-20.png)](./media/overview-20.png)
 
    **使用权资产交易** 页面列出了初始确认、累计折旧和资产余额。 
 

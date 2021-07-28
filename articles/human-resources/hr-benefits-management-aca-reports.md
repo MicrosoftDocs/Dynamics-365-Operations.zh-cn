@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353654"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>在“福利管理”中生成 ACA 报告
 
@@ -48,11 +48,11 @@ ms.locfileid: "6052256"
 
 1. 在 **福利管理** 工作区，选择 **平价医疗保险范围组**。
 
-    ![选择“平价医疗保险范围组”](./media/hr-benefits-management-aca-coverage-group.png)
+    ![选择“平价医疗保险范围组”。](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. 选择 **新建** 创建新的平价医疗保险范围组，或选择 **编辑** 更改现有组。
 
-    ![选择“新建”或“编辑”](./media/hr-benefits-management-aca-new.png)
+    ![选择“新建”或“编辑”。](./media/hr-benefits-management-aca-new.png)
 
 3. 设置以下字段。
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052256"
     | 组生效日期 | 此记录有效的第一个日期。 |
     | 组失效日期 | 此记录有效的最后一个日期。 如果没有到期日期，输入 **从不**。 |
 
-    ![创建覆盖范围组](./media/hr-benefits-management-aca-new-group.png)
+    ![创建保险范围组。](./media/hr-benefits-management-aca-new-group.png)
 
 4. 选择 **保存**。
 
@@ -77,11 +77,11 @@ ms.locfileid: "6052256"
 2. 选择要向其中分配员工的组。
 3. 选择 **成批分配**。
 
-    ![选择“成批分配”](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![选择“成批分配”。](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. 在列表中选择员工，然后选择 **分配**。
 
-    ![将选定的员工分配到组](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![将选定的员工分配到组。](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>维护保险范围选项的多个版本
 
@@ -111,12 +111,12 @@ ms.locfileid: "6052256"
 2. 在列表中选择员工。
 3. 在 **雇用** 选项卡上，在 **更多信息** 部分，选择 **平价医疗保险范围**。
 
-    ![为一个员工更改选项](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![为一个员工更改选项。](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. 选择 **编辑**。
 5. 对于需要更改的每个月份，选中 **替代默认值** 复选框，然后根据需要更改其他值。
 
-    ![替代默认值](./media/hr-benefits-management-aca-override-default.png)
+    ![替代默认值。](./media/hr-benefits-management-aca-override-default.png)
 
 6. 选择 **保存**。
 
@@ -131,7 +131,7 @@ ms.locfileid: "6052256"
 3. 选择 **编辑**。
 4. 将 **根据平价医疗法案进行报告** 选项设置为 **是**。
 
-    ![报告医疗保险范围](./media/hr-benefits-management-aca-report-coverage.png)
+    ![报告医疗保险范围。](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. 选择 **保存**。
 
@@ -147,23 +147,23 @@ ms.locfileid: "6052256"
     > [!NOTE]
     > 如果您为 500 名以上员工打印 1095-C 表单，您将收到多个 PDF 文件。 我们建议您将 **文档管理参数** 页上的 **最大文件大小(MB)** 字段的值增加到 **150**。 （要快速打开该页面，可以使用导航栏上的搜索字段。）
     >
-    > ![更改最大文件大小](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![更改最大文件大小。](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. 要检查报告的状态以及查看报告，使用导航栏上的搜索字段打开 **电子报告作业** 页。
 
-    ![搜索电子报告作业页面](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![搜索电子报告作业页面。](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. 选择要查看的报告，然后选择 **显示文件**。
 
-    ![显示文件](./media/hr-benefits-management-aca-show-files.png)
+    ![显示文件。](./media/hr-benefits-management-aca-show-files.png)
 
 5. 选择 **打开**。
 
-    ![打开文件](./media/hr-benefits-management-aca-open-file.png)
+    ![打开文件。](./media/hr-benefits-management-aca-open-file.png)
 
 6. 从显示在浏览器窗口底部的通知栏中，打开 zip 文件，然后选择报告。 您可以查看或打印 PDF 文件。
 
-    ![示例 1095-C 表单](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![示例 1095-C 窗体。](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>查看 ACA 保险范围信息
 
@@ -178,7 +178,7 @@ ms.locfileid: "6052256"
 1. 在 **福利管理** 工作区，选择 **工作人员平价医疗保险范围**。
 2. 在 **组名称** 字段中，选择一个组。
 
-    ![查看 ACA 保险范围](./media/hr-benefits-management-aca-view-coverage.png)
+    ![查看 ACA 保险范围。](./media/hr-benefits-management-aca-view-coverage.png)
 
 如果平价医疗保险范围组的任何默认值已被替代，被更改的值的旁边将显示星号。 如果所有 12 个月的值相同且未被替代，该值将出现在 **所有 12 个月** 列中。
 
@@ -198,11 +198,11 @@ ms.locfileid: "6052256"
 
 如果由于您提供自保型保险范围而必须报告投保的个人，可以查看标记为 **ACA 可报告** 的福利计划覆盖的依赖方。 在操作窗格上，选择 **查看依赖方保险范围**。
 
-![查看依赖方保险范围](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![查看依赖方保险范围。](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 员工依赖方的保险范围信息将显示。
 
-![被抚养人保险范围](./media/hr-benefits-management-aca-dependents.png)
+![依赖方保险范围。](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > 此页面仅显示标记为 **ACA 可报告** 的福利计划。

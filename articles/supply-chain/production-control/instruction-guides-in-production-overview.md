@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354004"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>为生产中的工作人员提供混合现实指南
 
@@ -57,7 +59,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 ### <a name="assembly"></a>程序集
 
-![在装配任务中使用指南](media/instruction-guides-hero-assembly.png "在服务任务中使用指南")
+![在装配任务中使用指南。](media/instruction-guides-hero-assembly.png "在服务任务中使用指南")
 
 装配操作说明向工作人员介绍了他们所需的工具和零件，以及如何在实际工作中使用它们。
 
@@ -65,7 +67,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 ### <a name="service"></a>服务
 
-![在服务任务中使用指南](media/instruction-guides-hero-service.png "在服务任务中使用指南")
+![在服务任务中使用指南。](media/instruction-guides-hero-service.png "在服务任务中使用指南")
 
 在作业现场为技术人员提供指导说明，从而无需计划其他访问。
 
@@ -73,7 +75,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 ### <a name="quality"></a>质量
 
-![在质量保证任务中使用指南](media/instruction-guides-hero-quality.png "在质量保证任务中使用指南")
+![在质量保证任务中使用指南。](media/instruction-guides-hero-quality.png "在质量保证任务中使用指南")
 
 推出新流程并通过将员工的知识变成可重复的工具来确保提高一致性。
 
@@ -81,13 +83,13 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 ### <a name="certifications"></a>认证
 
-![在与认证相关的任务中使用指南](media/instruction-guides-hero-certification.png "在与认证相关的任务中使用指南")
+![在与认证相关的任务中使用指南。](media/instruction-guides-hero-certification.png "在与认证相关的任务中使用指南")
 
 通过快速确定谁需要帮助以及哪里需要帮助，确保每个员工都符合高标准。
 
 ### <a name="safety"></a>安全
 
-![在工作安全说明中使用指南](media/instruction-guides-hero-safety.png "在工作安全说明中使用指南")
+![在工作安全说明中使用指南。](media/instruction-guides-hero-safety.png "在工作安全说明中使用指南")
 
 提供在尝试进入物理环境之前以虚拟方式完成危险过程的说明。 通过混合现实方法，工作人员可以通过虚拟方式体验危险过程。
 
@@ -119,7 +121,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 若要配置指南在车间中的显示方式，请转到 **混合现实 \> Dynamics 365 Guides \> 配置指南集成**。
 
-![为制造配置指南集成](media/instruction-guides-configure-integration.png "为制造配置指南集成")
+![为制造配置指南集成。](media/instruction-guides-configure-integration.png "为制造配置指南集成")
 
 设置以下字段：
 
@@ -136,7 +138,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 使用 **所有指南** 页面以查看组织中所有可用指南的列表以及生产流程和资源的所有分配。 若要打开它，请转到 **混合现实 \> 指南 \> 所有指南**。 顶部的列表显示了所有可用指南，您可以在此处使用该字段筛选列表。 底部的列表显示了所有指南分配，并提供了用于管理它们的工具栏。
 
-![管理指南](media/instruction-guides-allguides.png "管理指南")
+![管理指南。](media/instruction-guides-allguides.png "管理指南")
 
 以下部分描述了可以将指南分配到的对象类型。 每个分配的指南都提供了将自动附加到各个生产作业的说明，这些说明将在车间中提供。
 
@@ -157,7 +159,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 展开 **关联的指南** 快速选项卡。
 1. 从 **关联的指南** 工具栏中选择 **添加**。 新行将添加到网格中。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。 如果您有大量指南，可以筛选列表以查找所需的指南。
-    ![管理指南](media/instruction-guides-allguides.png "管理指南")
+    ![管理指南。](media/instruction-guides-allguides.png "管理指南")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>将指南关联到资源组
 
@@ -178,7 +180,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 展开 **关联的指南** 快速选项卡。
 1. 从 **关联的指南** 工具栏中选择 **添加**。 新行将添加到网格中。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。 如果您有大量指南，可以筛选列表以查找所需的指南。
-    ![将指南添加到资源组](media/instruction-guides-resourcegroup.png "将指南添加到资源组")
+    ![将指南添加到资源组。](media/instruction-guides-resourcegroup.png "将指南添加到资源组")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>将指南关联到已发布产品
 
@@ -198,7 +200,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 将针对选定产品打开 **关联的指南** 页面。
 1. 在“操作”窗格上，选择 **添加** 以向网格添加一个新行。 
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到已发布产品](media/instruction-guides-ReleasedProduct-AddGuides.png "将指南添加到已发布产品")
+    ![将指南添加到已发布产品。](media/instruction-guides-ReleasedProduct-AddGuides.png "将指南添加到已发布产品")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>将指南关联到配方
 
@@ -223,7 +225,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 展开 **关联的指南** 快速选项卡。
 1. 从 **关联的指南** 工具栏中选择 **添加**。 新行将添加到网格中。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到配方](media/instruction-guides-Formula.png "将指南添加到配方")
+    ![将指南添加到公式。](media/instruction-guides-Formula.png "将指南添加到配方")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>将指南关联到配方版本
 
@@ -248,11 +250,11 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 打开顶部快速选项卡上方的 **标题** 选项卡。
 1. 在 **配方版本** 快速选项卡上，选择要为其分配指南的版本。
 1. 在 **配方版本** 工具栏上，选择 **关联的指南**。
-    ![打开与所选配方版本关联的指南](media/instruction-guides-FormulaVersion.png "打开与所选配方版本关联的指南")
+    ![打开与所选公式版本关联的指南。](media/instruction-guides-FormulaVersion.png "打开与所选配方版本关联的指南")
 1. 将针对配方版本打开 **关联的指南** 页面。
 1. 在“操作”窗格上，选择 **添加** 以向网格添加一个新行。 
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到配方版本](media/instruction-guides-FormulaVersionAddGuide.png "将指南添加到配方版本")
+    ![将指南添加到公式版本。](media/instruction-guides-FormulaVersionAddGuide.png "将指南添加到配方版本")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>将指南关联到物料清单
 
@@ -275,7 +277,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 展开 **关联的指南** 快速选项卡。
 1. 从 **关联的指南** 工具栏中选择 **添加**。 新行将添加到网格中。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到物料清单](media/instruction-guides-BOM.png "将指南添加到物料清单")
+    ![将指南添加到物料清单。](media/instruction-guides-BOM.png "将指南添加到物料清单")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>将指南关联到物料清单版本
 
@@ -297,11 +299,11 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 打开顶部快速选项卡上方的 **标题** 选项卡。
 1. 在 **物料清单版本** 快速选项卡上，选择要为其分配指南的版本。
 1. 在 **物料清单版本** 工具栏上，选择 **关联的指南**。
-    ![打开与所选物料清单版本关联的指南](media/instruction-guides-BOMVersion.png "打开与所选物料清单版本关联的指南")
+    ![打开与所选物料清单版本关联的指南。](media/instruction-guides-BOMVersion.png "打开与所选物料清单版本关联的指南")
 1. 将针对物料清单版本打开 **关联的指南** 页面。
 1. 在“操作”窗格上，选择 **添加** 以向网格添加一个新行。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到物料清单版本](media/instruction-guides-BOMVersionAddGuide.png "将指南添加到物料清单版本")
+    ![将指南添加到物料清单版本。](media/instruction-guides-BOMVersionAddGuide.png "将指南添加到物料清单版本")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>将指南关联到工艺路线
 
@@ -322,7 +324,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 展开 **关联的指南** 快速选项卡。
 1. 从 **关联的指南** 工具栏中选择 **添加**。 新行将添加到网格中。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到工艺路线](media/instruction-guides-Route.png "将指南添加到工艺路线")
+    ![将指南添加到工艺路线。](media/instruction-guides-Route.png "将指南添加到工艺路线")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>将指南关联到工艺路线版本
 
@@ -340,11 +342,11 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 打开要为其分配指南的工艺路线。
 1. 在 **版本** 快速选项卡上，选择要为其分配指南的版本。
 1. 在 **版本** 工具栏上，选择 **关联的指南**。
-    ![打开与所选工艺路线版本关联的指南](media/instruction-guides-RouteVersion.png "打开与所选工艺路线版本关联的指南")
+    ![打开与所选工艺路线版本关联的指南。](media/instruction-guides-RouteVersion.png "打开与所选工艺路线版本关联的指南")
 1. 将针对物料清单版本打开 **关联的指南** 页面。
 1. 在“操作”窗格上，选择 **添加** 以向网格添加一个新行。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。
-    ![将指南添加到工艺路线版本](media/instruction-guides-RouteVersionAddGuide.png "将指南添加到工艺路线版本")
+    ![将指南添加到工艺路线版本。](media/instruction-guides-RouteVersionAddGuide.png "将指南添加到工艺路线版本")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>将指南关联到工艺路线工序关系
 
@@ -367,8 +369,8 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 1. 将针对所选工艺路线打开 **工艺路线详细信息** 页面。
 1. 在顶部网格中，选择要为其提供指南的工序。
 1. 在底部网格中，选择一个特定的关系（或通用 **所有** 关系）。
-    ![选择一个工序，然后选择一个关系](media/instruction-guides-RouteOperationRelation.png "选择一个工序，然后选择一个关系")
-1. 在底部网格的上方，打开 **关联的指南** 选项卡。![关联的指南选项卡](media/instruction-guides-RouteOperationRelation-AddGuide.png "关联的指南选项卡")
+    ![选择一个工序，然后选择一个关系。](media/instruction-guides-RouteOperationRelation.png "选择一个工序，然后选择一个关系")
+1. 在底部网格的上方，打开 **关联的指南** 选项卡。![关联的指南选项卡。](media/instruction-guides-RouteOperationRelation-AddGuide.png "关联的指南选项卡")
 1. 在底部网格的顶部，从工具栏中选择 **添加** 以向网格添加一个新行。
 1. 对于新行，请使用 **名称** 列中的下拉列表选择要分配的指南。 在该行的其余部分，为每个环境选择相应的复选框，其中所选指南应该可用。
 
@@ -379,11 +381,11 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 
 当工作人员在车间执行界面上打开作业列表时，Supply Chain Management 将为显示的作业找到相关的指南。 使用 **指南** 按钮以查看相关的指南。
 
-![车间执行界面中的指南按钮](media/instruction-guides-Shopfloor1.png "车间执行界面中的指南按钮")
+![车间执行界面中的指南按钮。](media/instruction-guides-Shopfloor1.png "车间执行界面中的指南按钮")
 
 然后设定 HoloLens，通过浏览 QR 码并激活相应的指南来访问相应的指南。
 
-![用于使用 HoloLens 访问指南的 QR 码](media/instruction-guides-Shopfloor2.png "用于使用 HoloLens 访问指南的 QR 码")
+![用于使用 HoloLens 访问指南的 QR 码。](media/instruction-guides-Shopfloor2.png "用于使用 HoloLens 访问指南的 QR 码")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>解析用于选择指南的逻辑
 
@@ -406,7 +408,7 @@ Dynamics 365 Guides 可以帮助您的员工通过实践进行学习。 您可�
 - 如果将工艺路线版本附加到生产订单，则附加到此版本的任何指南以及附加到该版本的父级工艺路线的指南都将显示在作业上。
 - 如果定义多个包括 *所有* 关系的工艺路线工艺关系并向其分配指南，则仅为该作业显示最具体关系中的指南。  
 
-![解析相关指南的图表](media/instruction-guides-Resolve.png "解析相关指南的图表")
+![解析相关指南的图表。](media/instruction-guides-Resolve.png "解析相关指南的图表")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

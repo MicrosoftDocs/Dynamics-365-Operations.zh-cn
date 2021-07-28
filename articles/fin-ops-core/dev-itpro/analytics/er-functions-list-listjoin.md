@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027907"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353722"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER 函数
 
@@ -66,15 +66,15 @@ LISTJOIN (list 1 [, list 2, …, list N])
 - **金额**：此字段包含返回 `Real` 类型的值的表达式。
 - **IsValid**：此字段包含返回 `Boolean` 类型的值的表达式。
 
-![ER 模型映射设计器页面](./media/er-functions-list-listjoin-image1.gif)
+![ER 模型映射设计器页面。](./media/er-functions-list-listjoin-image1.gif)
 
 在此例中，表达式 `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` 返回包含两个记录的新列表。
 
-![带有两个记录的 ER 模型映射设计器页面](./media/er-functions-list-listjoin-image2.gif)
+![带有两个记录的 ER 模型映射设计器页面。](./media/er-functions-list-listjoin-image2.gif)
 
 此列表的结构由一个 `Real` 类型的 **金额** 字段组成，因为此字段是被调用函数每个参数中显示的唯一字段。
 
-![ER 模型映射设计器页面金额字段](./media/er-functions-list-listjoin-image3.gif)
+![ER 模型映射设计器页面金额字段。](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>其他资源
 

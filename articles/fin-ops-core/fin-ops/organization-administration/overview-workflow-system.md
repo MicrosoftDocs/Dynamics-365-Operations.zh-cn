@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dc73f1bde3407c144dc1cd48283385c19713430e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747727"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349076"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 
@@ -39,7 +41,7 @@ ms.locfileid: "5747727"
 
 “工作流”代表业务流程。 它通过显示谁必须完成任务、制定决策或批准文档定义单据如何在系统中流动或移动。 例如，下图显示支出报表的工作流。
 
-![具有分配给用户的元素的工作流](./media/workflow_user.gif)
+![具有分配给用户的元素的工作流。](./media/workflow_user.gif)
 
 为了更好地理解这一工作流，假定 Sam 提交 7,000 美元的支出报表。 在此场景中，Ivan 必须审核 Sam 传送给他的收据。 然后，晓辉和素心必须对该支出报表进行审核。 现在，假定 Sam 提交了一份 11,000 美元的支出报表。 在这种情况下，Ivan 必须复核相关收据，并且 Frank、Sue 和 Ann 必须审核该支出报表。
 

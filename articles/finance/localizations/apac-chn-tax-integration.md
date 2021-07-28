@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc23975e4deb6f00fd79011efe63e98b6ff8085e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 4f4f8d8f625c49df285d68fc8cdf7646a3e7ccb2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891171"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354280"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
@@ -65,7 +65,7 @@ ms.locfileid: "5891171"
 
 下图显示了税务集成流程。
 
-[![税务集成流程](./media/ic666469.gif)](./media/ic666469.gif)
+[![税务集成流程。](./media/ic666469.gif)](./media/ic666469.gif)
 
 ## <a name="additional-resources"></a>其他资源
 
