@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345682"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
@@ -101,7 +103,7 @@ ER 支持两种组件类型：**数据模型** 和 **格式**。
 
 下图显示这些格式的数据流情况。
 
-[![传出格式组件的数据流](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![传出格式组件的数据流。](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 要运行单个 ER 格式配置和生成传出电子文档，您必须确定格式配置的映射。
 
@@ -115,7 +117,7 @@ ER 支持两种组件类型：**数据模型** 和 **格式**。
 
 下图显示这些格式的数据流情况。
 
-[![传入格式组件的数据流](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![传入格式组件的数据流。](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 要运行单个 ER 格式配置以从传入电子文档导入数据，您必须确定格式配置的预期映射，以及模型映射的集成点。 您可以使用不同的格式为不同类型的传入文档同时使用相同的模型映射和目标。
 
@@ -290,7 +292,7 @@ ER 支持在当前草稿版的派生组件中自动采用最新版本的基础�
 
 Finance 的 ER 配置列表会不断更新。 打开[全局存储库](er-download-configurations-global-repo.md)查看当前支持的 ER 配置列表。 在 **停用详细信息** 快速选项卡上，您可以查看有关已停用或不再维护的配置的信息。 
 
-![配置存储库页上的全局存储库的内容](./media/er-overview-03.gif)
+![配置存储库页面上的全局存储库的内容。](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>其他资源
 

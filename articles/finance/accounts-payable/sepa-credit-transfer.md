@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897154"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346442"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897154"
 
 ## <a name="what-is-a-credit-transfer-message"></a>贷方转帐消息是什么？
 贷方转帐消息是发起方（您公司）为了将资金从自己的帐户转移到贷方而发出的请求。 贷方转帐消息有大量国家/地区特定和银行特定的实施。 其中一些在一个国家/地区内使用，一些则成为了标准。 一个享有盛誉的全球标准为 ISO 20022 及其初始消息，如“贷方转帐”。 下图显示选定贷方转帐消息的关系和范围。 
-![贷方转帐](./media/credit-transfer.jpg)贷方转帐消息 
+![贷方转帐。](./media/credit-transfer.jpg) 贷方转帐消息 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>ISO 20022 和 SEPA 付款是什么？
 单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内付款和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及爱尔兰、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。 欧盟执委会通过付款服务规定 (PSD) 建立 SEPA 付款的法律基础。 欧元支付委员会 (EPC) 通过以下活动支持 SEPA:

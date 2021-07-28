@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.custom: intro-internal
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a58ba9f6fb895c11aa98c6f67cb580e7408f2c64
-ms.sourcegitcommit: 5a42748d107139a6f0d138ac86cb7ff8809c8e97
+ms.openlocfilehash: 903ec78c9f0f5521f9d0282914e23f235d95c3f4
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "6032201"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340169"
 ---
 # <a name="china-overview"></a>中国概览
 

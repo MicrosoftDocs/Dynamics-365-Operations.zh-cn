@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d42936a94e0f4d50ae227d760d5bee6e1e3a12e6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c7a6bcbccd9ea8c50fbf56ba080d2004dfa05087
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826970"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339809"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 

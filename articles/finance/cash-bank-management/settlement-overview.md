@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14551
+ms.custom:
+- "14551"
+- intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7d3ba2b484efa0107ac7e055272ee2169a0fd35c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a4950c4276fb862bcbf82e489ea3313a92e0515a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834852"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336061"
 ---
 # <a name="settlement-overview"></a>结算概览
 

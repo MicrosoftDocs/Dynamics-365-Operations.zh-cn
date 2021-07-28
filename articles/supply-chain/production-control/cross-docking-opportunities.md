@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190080"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347678"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 
@@ -42,7 +42,7 @@ ms.locfileid: "6190080"
 -   如果已经为货架门分配拖车，将指示卡车司机将产品直接装载到拖车上。
 -   如果没有转移产品的已计划活动，将指示铲车司机将产品入库到内部仓库 (5) 的库位中。
 
-[![机会性越库配送](./media/scenario1.png)](./media/scenario1.png)
+[![机会性越库配送。](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>配置越库配送
 在 **工作策略** 中配置越库配送流程。 工作策略包括工作订单类型、库位和产品。 在以下示例中，对产品 X 和库位 Y 配置越库配送。

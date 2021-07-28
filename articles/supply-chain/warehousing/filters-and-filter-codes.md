@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838242"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345226"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>为仓库交易配置产品筛选器
 
@@ -46,11 +46,11 @@ ms.locfileid: "5838242"
 1. 在 **筛选器标题** 字段中，选择一个值。
 1. 在 **筛选器代码** 字段中，输入一个值。
 
-    ![设置产品筛选器](media/Product_Filters10.png "设置产品筛选器")
+    ![设置产品筛选器。](media/Product_Filters10.png "设置产品筛选器")
 
 1. 在 **描述** 字段中，为代码输入名称。 例如，*代码 2* 可能表示供应商。 然后，您可以为特定供应商或供应商组创建产品筛选器。 有关详细信息，请参阅本主题后面的[设置供应商筛选器代码](#vendor-product-filters)部分。
 
-    ![设置产品筛选器](media/Product_Filters.png "设置产品筛选器")
+    ![设置产品筛选器。](media/Product_Filters.png "设置产品筛选器")
 
 ## <a name="set-up-product-filter-groups"></a>设置产品筛选器组
 
@@ -69,7 +69,7 @@ ms.locfileid: "5838242"
 1. 在 **物料组** 字段中，选择产品筛选器应该应用的物料组。
 1. 在 **代码 1** 到 **代码 10** 字段中，根据需要选择要包含在组中的筛选器代码。
 
-    ![物料组](media/ProdFilterGroup.png "物料组")
+    ![物料组。](media/ProdFilterGroup.png "物料组")
 
 > [!NOTE]
 > 如果您在关闭页面时收到错误消息，一个代码设置将会丢失。 在 **物料组** 页上，您可以通过选中 **为物料组分配筛选器代码 1**、**为物料组分配筛选器代码 2** 等复选框来让代码成为物料组的强制代码。
@@ -88,7 +88,7 @@ ms.locfileid: "5838242"
 
     要更新已发布的产品，打开它的 **已发布产品详细信息** 页，然后在操作窗格上，选择 **编辑**。 然后，与代码关联的筛选器将在 **仓库** 快速选项卡上可用。
 
-    ![物料组](media/ItemGroup10.png "物料组")
+    ![物料组。](media/ItemGroup10.png "物料组")
 
 1. 在 **物料组筛选器** 部分，选中必须与要作为物料默认筛选器组的筛选器组匹配的筛选器的复选框。
 

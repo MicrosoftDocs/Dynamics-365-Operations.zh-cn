@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345928"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整 ER 格式以生成自定义电子单据
 
@@ -142,7 +144,7 @@ ms.locfileid: "5891711"
 5. 在 **版本** 快速选项卡上，选择所选 ER 格式配置的版本 **1.1**。
 6. 选择 **导入** 将所选版本从全局存储库下载到当前 Finance 实例。
 
-![配置存储库页面](./media/er-quick-start2-import-solution1.png)
+![配置存储库页面。](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > 如果在访问[全球存储库](er-download-configurations-global-repo.md)时遇到问题，可改为从 Microsoft Dynamics Lifecycle Services (LCS)[ 下载配置](download-electronic-reporting-configuration-lcs.md)。
@@ -158,7 +160,7 @@ ms.locfileid: "5891711"
     - **付款模型映射 1611** – 此配置中包含[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components) ER 组件，用于描述如何在运行时使用应用程序数据填充数据模型。
     - **BACS (UK)** – 此配置中包含[格式](general-electronic-reporting.md#FormatComponentOutbound)和格式映射 ER 组件。 格式组件指定报表布局。 格式映射组件中包含模型数据源，并指定如何在运行时使用此数据源填充报表布局。
 
-![配置页面](./media/er-quick-start2-imported-solution1.png)
+![配置页面。](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>准备要处理的供应商付款
 
@@ -177,7 +179,7 @@ ms.locfileid: "5891711"
     5. 在 **IBAN** 字段中，输入 **GB33BUKB20201555555555**。
     6. 在 **银行代号** 字段中，保留默认值 <a id="DefineRoutingNumber"></a>**123456**。
 
-    ![“供应商银行帐户”页面](./media/er-quick-start2-bank-account.png)
+    ![“供应商银行帐户”页面。](./media/er-quick-start2-bank-account.png)
 
 4. 选择 **保存**。
 5. 关闭该页面。
@@ -185,7 +187,7 @@ ms.locfileid: "5891711"
 7. 在供应商详细信息页面上，选择 **编辑** 使页面可编辑（如果需要）。
 8. 在 **付款** 快速选项卡的 **银行帐户** 字段中，选择 **GBP OPER**。
 
-    ![供应商详细信息页面](./media/er-quick-start2-bank-account-reference.png)
+    ![供应商详细信息页面。](./media/er-quick-start2-bank-account-reference.png)
 
 9. 选择 **保存**。
 10. 关闭该页面。
@@ -202,11 +204,11 @@ ms.locfileid: "5891711"
 6. 在 **供应商付款方案** 对话框中，将条件配置为仅筛选 **GB_SI_000001** 供应商帐户的记录，然后选择 **确定**。
 7. 选择发票 **00000007_Inv** 的行，然后选择 **创建付款**。
 
-    ![供应商付款方案对话框](./media/er-quick-start2-payment-proposal.png)
+    ![供应商付款方案对话框。](./media/er-quick-start2-payment-proposal.png)
 
 8. 验证是否将输入的付款配置为使用 **电子** 付款方式。
 
-    ![供应商付款页面](./media/er-quick-start2-payment-line.png)
+    ![供应商付款页面。](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>使用标准 ER 格式处理供应商付款
 
@@ -220,7 +222,7 @@ ms.locfileid: "5891711"
 4. 在 **文件格式** 快速选项卡上，将 **一般电子导出格式** 选项设置为 **是**。
 5. 在 **导出格式配置** 字段中，选择 **BACS (UK)** 格式配置。
 
-    ![付款方式 - 供应商页面](./media/er-quick-start2-method-of-payment1.png)
+    ![付款方式 - 供应商页面。](./media/er-quick-start2-method-of-payment1.png)
 
 6. 选择 **保存**。
 
@@ -237,7 +239,7 @@ ms.locfileid: "5891711"
 5. 选择 **确定**。
 6. 在 **电子报表参数** 对话框中，将 **打印控制报表** 选项设置为 **是**，然后选择 **确定**。
 
-    ![“电子报表参数对话框”页面](./media/er-quick-start2-payment-dialog1.png)
+    ![“电子报表参数对话框”页面。](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > 除了付款文件，现在还可以生成控制报表。
@@ -249,7 +251,7 @@ ms.locfileid: "5891711"
 
         请注意，按照提供的 ER 格式的[结构](#PositionRoutingNumber)，生成的文件中的付款行以为配置的用户帐户[定义的](#DefineRoutingNumber)银行代号开始。
 
-        ![TXT 格式的付款文件](./media/er-quick-start2-payment-file1.png)
+        ![TXT 格式的付款文件。](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>自定义标准 ER 格式
 
@@ -265,13 +267,13 @@ ms.locfileid: "5891711"
 4. 在 **新建** 字段组中，选择 **从以下名称派生: BACS (UK), Microsoft** 选项。
 5. 在 **名称** 字段中，输入 **BACS（UK 自定义）**。
 
-    ![“创建配置”下拉对话框](./media/er-quick-start2-add-derived-format.png)
+    ![“创建配置”下拉对话框。](./media/er-quick-start2-add-derived-format.png)
 
 6. 选择 **创建配置**。
 
 将创建 **BACS（UK 自定义）** ER 格式配置的版本 1.1.1。 此版本的 [状态](general-electronic-reporting.md#component-versioning)为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
 
-![配置页面](./media/er-quick-start2-derived-format-configuration1.png)
+![配置页面。](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>编辑自定义格式
 
@@ -291,7 +293,7 @@ ms.locfileid: "5891711"
 
 7. 选择 **transaction** 元素。
 
-    ![ER Operations 设计器中的 transaction 元素](./media/er-quick-start2-derived-format0.png)
+    ![ER 操作设计器中的交易元素。](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > 将配置提供的报表，使<a id="PositionRoutingNumber"></a>每个付款行以银行代号开头。 **vendBankRouteNum** 格式元素用于此目的。 
@@ -309,13 +311,13 @@ ms.locfileid: "5891711"
 9. 在格式结构树中，选择 **vendBankSWIFT**。
 10. 选择 **上移** 将所选格式元素上移一级。 重复此步骤，直到 **vendBankSWIFT** 元素成为父 **transaction** 元素下的<a id="PositionSWIFTCode"></a>第一个元素。
 
-    ![VendBankSWIFT 为 ER Operations 设计器中 transaction 下的第一个元素](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT 为 ER 操作设计器中交易下的第一个元素。](./media/er-quick-start2-derived-format1.png)
 
 11. 格式结构树中 **vendBankSWIFT** 仍处于选中状态时，选择 **映射** 选项卡，然后展开 **模型** 数据源。
 12. 展开 **model.Payment** \> **model.Payment.CreditorAgent**，然后选择 **model.Payment.CreditorAgent.BICFI** 数据源字段。 此数据源字段显示供应商银行的 SWIFT 代码，该代码在处理的供应商付款中为银行分配代理角色。
 13. 选择 **绑定**。 **vendBankSWIFT** 格式元素现在已经与 **model.Payment.CreditorAgent.BICFI** 数据源字段绑定，因此将在生成的付款文件中输入 SWIFT 代码。
 
-    ![ER Operations 设计器中 vendBankSWIFT 格式元素与 model.Payment.CreditorAgent.BICFI 数据源字段绑定](./media/er-quick-start2-derived-format2.png)
+    ![在 ER 操作设计器中与 model.Payment.CreditorAgent.BICFI 数据源字段绑定在一起的 vendBankSWIFT 格式元素。](./media/er-quick-start2-derived-format2.png)
 
 14. 选择 **保存**。
 15. 关闭设计器页面。
@@ -333,7 +335,7 @@ ms.locfileid: "5891711"
 5. 在左侧窗格的配置树中，选择 **BACS（UK 自定义）**。
 6. 将 **运行草稿** 选项设置为 **是**。
 
-    !["配置"页面上的"运行草稿"选项](./media/er-quick-start2-derived-format-configuration2.png)
+    !["配置"页面上的"运行草稿"选项。](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>使用自定义 ER 格式处理供应商付款
 
@@ -347,7 +349,7 @@ ms.locfileid: "5891711"
 4. 在 **文件格式** 快速选项卡上，将 **一般电子导出格式** 选项设置为 **是**。
 5. 在 **导出格式配置** 字段中，选择 **BACS（UK 自定义）** 格式配置。
 
-    ![付款方式 - 供应商页面](./media/er-quick-start2-method-of-payment2.png)
+    ![付款方式 - 供应商页面。](./media/er-quick-start2-method-of-payment2.png)
 
 6. 选择 **保存**。
 
@@ -376,7 +378,7 @@ ms.locfileid: "5891711"
 
         请注意，按照自定义 ER 格式的结构，生成的文件中的付款行现在以为处理了其付款的供应商的银行帐户[输入的](#DefineSWIFTCode) SWIFT 代码[开始](#PositionSWIFTCode)。
 
-        ![TXT 格式的付款文件](./media/er-quick-start2-payment-file2.png)
+        ![TXT 格式的付款文件。](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>导入标准 ER 格式配置的新版本
 
@@ -393,7 +395,7 @@ ms.locfileid: "5891711"
 5. 在 **版本** 快速选项卡上，选择所选 ER 格式配置的版本 **3.3**。
 6. 选择 **导入** 将所选版本从全局存储库下载到当前 Finance 实例。
 
-![配置存储库页面](./media/er-quick-start2-import-solution2.png)
+![配置存储库页面。](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > 如果在访问[全球存储库](er-download-configurations-global-repo.md)时遇到问题，可改为从 LCS [下载配置](download-electronic-reporting-configuration-lcs.md)。
@@ -408,7 +410,7 @@ ms.locfileid: "5891711"
 6. 在 **格式设计器** 页面中，展开 **BACSReportsFolder** 格式元素。
 7.  请注意，版本 3.3 中包含 **PaymentAdviceReport** 格式元素，用于在处理供应商付款时生成付款通知报表。
 
-    ![ER Operations 设计器中的 PaymentAdviceReport 格式元素](./media/er-quick-start2-imported-solution2.png)
+    ![ER 操作设计器中的 PaymentAdviceReport 格式元素。](./media/er-quick-start2-imported-solution2.png)
 
 8. 关闭设计器页面。
 
@@ -434,14 +436,14 @@ ms.locfileid: "5891711"
 3. 在 **版本** 快速选项卡上，选择版本 **1.1.2**，然后选择 **重定**。
 4. 在 **重定** 对话框的 **目标** 字段中，选择基本配置的版本 **3.3** 将其作为新基础应用，并用于更新配置。
 
-    ![“重定基本版本”对话框](./media/er-quick-start2-rebase1.png)
+    ![“重定基本版本”对话框。](./media/er-quick-start2-rebase1.png)
 
 5. 选择 **确定**。
 6. 请注意，草稿版本的版本号已经从 **1.1.2** 更改为 **3.3.2** 以体现基本版本中的更改。
 
     在合并自定义版本和新基本版本时，可能会发现一些冲突，因为不能自动合并格式更改。
 
-    ![“配置”页中存在冲突的重定后配置](./media/er-quick-start2-rebase2.png)
+    ![“配置”页面中存在冲突的重定基本版本后的配置。](./media/er-quick-start2-rebase2.png)
 
     如果发现了冲突，必须在格式设计器中手动解决。
 
@@ -449,13 +451,13 @@ ms.locfileid: "5891711"
 8. 选择 **设计器**。
 9. 在 **格式设计器** 页面的 **详细信息** 快速选项卡上，选择重定冲突记录，然后选择 **应用基值**。
 
-    ![ER Operations 设计器中的重定冲突记录](./media/er-quick-start2-rebase3.png)
+    ![ER 操作设计器中的重定基本版本冲突记录。](./media/er-quick-start2-rebase3.png)
 
 10. 选择 **保存**。
 
     **详细信息** 快速选项卡中不应再显示重定冲突记录。
 
-    ![ER Operations 设计器中已解决冲突](./media/er-quick-start2-rebase4.png)
+    ![ER 操作设计器中已解决的冲突。](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > 您通过确认必须在此 ER 格式中使用基本模型版本 3 解决了冲突。
@@ -463,7 +465,7 @@ ms.locfileid: "5891711"
 11. 展开 **BACSReportsFolder** \> **文件** \> **transactions** \> **transaction**。
 12. 在 **映射** 选项卡上，注意自定义 ER 格式版本 3.3.2 中同时包含您的自定义（**vendBankSWIFT** 格式元素及其绑定）和 Microsoft 提供的基本 ER 格式版本 3.3 的新功能（**PaymentAdviceReport** 格式元素及其嵌套元素和配置的绑定）。 您单击了几次鼠标通过将新基本版本的修改与自定义合并，采用了这些修改。
 
-    ![ER Operations 设计器中合并后的格式](./media/er-quick-start2-rebase5.png)
+    ![ER 操作设计器中已合并的格式。](./media/er-quick-start2-rebase5.png)
 
 13. 关闭设计器页面。
 
@@ -488,7 +490,7 @@ ms.locfileid: "5891711"
     - 将 **打印控制报表** 选项设置为 **是**。
     - 将 **打印付款通知** 选项设置为 **是**。
 
-    ![电子报表参数对话框](./media/er-quick-start2-payment-dialog2.png)
+    ![电子报表参数对话框。](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > 除了付款文件，现在还可以生成控制报表和付款通知报表。
@@ -499,13 +501,13 @@ ms.locfileid: "5891711"
     - Excel 格式的控制报表
     - Excel 格式的付款通知报表
 
-        ![Excel 格式的付款通知报表](./media/er-quick-start2-payment-advice-report.png)
+        ![Excel 格式的付款通知报表。](./media/er-quick-start2-payment-advice-report.png)
 
     - TXT 格式的付款文件
 
         请注意，生成的文件中的付款行以为处理了其付款的供应商的银行帐户输入的 SWIFT 代码开始。
 
-        ![TXT 格式的付款文件](./media/er-quick-start2-payment-file3.png)
+        ![TXT 格式的付款文件。](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>其他资源
 

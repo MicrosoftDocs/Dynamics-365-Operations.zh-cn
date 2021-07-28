@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052449"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344680"
 ---
 # <a name="configure-dataverse-integration"></a>配置 Dataverse 集成
 
@@ -48,15 +48,15 @@ ms.locfileid: "6052449"
 
 1. 在要查看或配置与 Dataverse 集成的设置的 Human Resources 实例中，选择 **系统管理** 磁贴。
 
-    [![系统管理磁贴](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![系统管理磁贴。](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. 选择 **链接** 选项卡。
 
-    [![链接选项卡](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![链接选项卡。](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. 在 **集成** 下，选择 **Dataverse 配置**。
 
-    [![Dataverse 配置链接](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Dataverse 配置链接。](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>打开或关闭 Human Resources 和 Dataverse 之间的数据集成
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052449"
 
 - 要关闭集成，请将此选项设置为 **否**。
 
-[![打开或关闭 Dataverse 集成](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![打开或关闭 Dataverse 集成。](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > 强烈建议在执行数据迁移任务时关闭 Dataverse 集成。 上载大量数据会严重影响性能。 例如，启用集成后，上载 2000 个工作人员可能要花费几个小时，禁用后则不到一小时。 本示例中提供的数字仅用于演示目的。 导入记录所需的确切时间由于很多因素可能出现很大差异。
@@ -98,7 +98,7 @@ ms.locfileid: "6052449"
 
 - 要删除 Human Resources 记录和 Dataverse 行之间的记录的关联，请在 **Dataverse 表** 字段中选择表，然后选择 **清除跟踪信息**。
 
-[![清除跟踪信息](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![清除跟踪信息。](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 要在清除跟踪后在表上运行完全同步，请参见下一个过程。
 
@@ -116,13 +116,13 @@ ms.locfileid: "6052449"
 
 2. 选择 **立即同步**。
 
-[![运行完全同步](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![运行完全同步。](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>请参阅
 
 [Dataverse 表](hr-developer-entities.md)<br>
 [配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Human Resources 虚拟表常见问题解答](hr-admin-virtual-entity-faq.md)<br>
+[Human Resources 虚拟表常见问题](hr-admin-virtual-entity-faq.md)<br>
 [什么是 Microsoft Dataverse？](/powerapps/maker/data-platform/data-platform-intro)<br>
 [术语更新](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

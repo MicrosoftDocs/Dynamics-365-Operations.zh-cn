@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 69399a0e086225bc95c42b01863296a3259162a8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345444"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票
 
@@ -100,11 +100,11 @@ ms.locfileid: "6102726"
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>协议发票（Field Service 到 Supply Chain Management）：发票头
 
-[![发票抬头在数据集成中的模板映射](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![发票标头的数据集成中的模板映射。](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>协议发票（Field Service 到 Supply Chain Management）：发票行
 
-[![发票行在数据集成中的模板映射](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![发票行的数据集成中的模板映射。](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

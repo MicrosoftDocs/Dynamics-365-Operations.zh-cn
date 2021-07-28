@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343716"
 ---
 # <a name="container-packing-strategies"></a>集装箱包装策略
 
@@ -251,7 +252,7 @@ ms.locfileid: "6292753"
 1. 在列表中选择 **默认** 策略。
 1. 在操作窗格上，选择 **编辑**。
 1. 在 **合并字段** 快速选项卡上的 **选定字段** 列表中，选择 **字段名称** 字段设置为 *订单编号* 的行。
-1. 选择 **删除** 按钮 ![向左箭头](media/backward-button.png) 将字段移到 **其余字段** 列表中。
+1. 选择 **删除** 按钮 ![向左箭头。](media/backward-button.png) 以将字段移动到 **其余字段** 列表。
 1. 在操作窗格上，选择 **保存**。
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>为产品设置物理维度

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750586"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346512"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 
@@ -48,14 +48,14 @@ ms.locfileid: "5750586"
 
 1. 为 **供应商** 表创建工作流程，然后选择 **在“客户”表中创建供应商** 工作流程模板。 然后选择 **确定**。 此工作流处理 **客户** 表的供应商创建方案。
 
-    ![在“客户”表中创建供应商工作流程](media/create_process.png)
+    ![在“客户”表中创建供应商工作流程。](media/create_process.png)
 
 2. 为 **供应商** 表创建工作流程，然后选择 **在“客户”表中更新供应商** 工作流程模板。 然后选择 **确定**。 此工作流处理 **客户** 表的供应商更新方案。
 3. 为 **客户** 表创建工作流程，然后选择 **在“供应商”表中创建供应商** 工作流程模板。
 4. 为 **客户** 表创建工作流程，然后选择 **在“供应商”表中更新供应商** 工作流程模板。
 5. 您可以根据需要将工作流配置为实时工作流或后台工作流。 要将工作流配置为后台工作流，请选择 **转换为后台工作流**。
 
-    ![“转换为后台工作流”按钮](media/background_workflow.png)
+    ![“转换为后台工作流”按钮。](media/background_workflow.png)
 
 6. 启用您为 **客户** 和 **供应商** 表创建的工作流，以开始使用 **客户** 表存储 **组织** 类型的供应商信息。
 

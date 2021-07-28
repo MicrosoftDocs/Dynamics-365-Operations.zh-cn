@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838338"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345250"
 ---
 # <a name="cycle-counting"></a>周期盘点
 
@@ -34,7 +34,7 @@ ms.locfileid: "5838338"
 2.  **处理周期盘点** – 在创建周期盘点工作之后，您通过盘点仓库库位的物料执行周期盘点，然后使用移动设备将结果输入到 Dynamics 365 Supply Chain Management 中。 或者，您可以在不创建周期盘点的情况下在仓库场所盘点物料。 此过程被称为 *现场周期盘点*。
 3.  **解决周期盘点值中的差异** – 周期盘点之后，与盘点值有差异的任何物料必须在 **所有工作** 页中设定为 **待核查** 的工作状态。 您可以在 **周期盘点工作待审阅** 页上解决这些差异。
 
-下图显示了周期盘点流程。 ![周期盘点流程](./media/performcyclecountinginawarehouselocation.jpg)
+下图显示了周期盘点流程。 ![周期盘点的流程流。](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>周期盘点先决条件
 下表显示必须先就绪然后才能开始使用周期盘点。

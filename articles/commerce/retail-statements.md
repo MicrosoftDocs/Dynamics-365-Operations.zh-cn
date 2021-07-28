@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791913"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344998"
 ---
 # <a name="retail-statements"></a>零售对帐单
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791913"
 
 下图显示了报表过帐流程。 在此流程中，通过使用商业调度将 POS 中记录的交易记录传输给客户端。 在客户端接收交易记录后，你可以为商店创建、计算和过帐交易记录报表。
 
-[![报表过帐流程](./media/retail-statements.png)](./media/retail-statements.png)
+[![报表过帐流程。](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>创建和过帐报表
 

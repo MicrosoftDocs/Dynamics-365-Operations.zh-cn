@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344138"
 ---
 # <a name="work-split"></a>工作拆分
 
@@ -51,7 +51,7 @@ ms.locfileid: "5830754"
 - **拆分工作** – 将当前的工作 ID 拆分为可以由单独的工作人员处理的多个较小的工作 ID。
 - **取消工作拆分会话** – 取消工作拆分会话，让工作可以处理。
 
-![拆分工作和取消工作拆分会话按钮](media/Work_split_buttons.png "拆分工作和取消工作拆分会话按钮")
+![拆分工作和取消工作拆分会话按钮。](media/Work_split_buttons.png "拆分工作和取消工作拆分会话按钮")
 
 > [!IMPORTANT]
 > 如果满足以下任一条件，**拆分工作** 按钮将不可用：
@@ -94,7 +94,7 @@ ms.locfileid: "5830754"
 
     当前工作的 **工作锁定原因** 字段将设置为 *拆分工作*，工作将被锁定。
 
-    ![锁定原因](media/Blocking_reason.png "锁定原因")
+    ![锁定原因。](media/Blocking_reason.png "锁定原因")
 
 1. 选择要从当前工作 ID 中删除的行，然后将其添加到新工作 ID 中。 将发生以下事件：
 

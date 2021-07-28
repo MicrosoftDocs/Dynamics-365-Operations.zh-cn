@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344706"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
@@ -41,7 +41,7 @@ Human Resources 中的所有 Open Data Protocol (OData) 实体都可用作 Datav
 
 您可以查看在环境中启用的虚拟表列表，然后开始使用 **Dynamics 365 HR 虚拟表** 解决方案的 [Power Apps](https://make.powerapps.com) 中的表。
 
-![Power Apps 中的 Dynamics 365 HR 虚拟表](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Power Apps 中的 Dynamics 365 HR 虚拟表。](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>虚拟表与本地表
 
@@ -147,7 +147,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
    - **AAD 应用程序密码**：为在 Microsoft Azure 门户中注册的应用程序创建的客户端密码。 您在步骤[在 Microsoft Azure 中注册应用](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)的早期阶段就收到了此信息。
 
-   ![Microsoft HR 数据源](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Microsoft HR 数据源。](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. 选择 **保存并关闭**。
 
@@ -187,7 +187,7 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 4. 选择 **生成/刷新**。
 
-![Dataverse 集成](./media/hr-admin-integration-dataverse-integration.png)
+![Dataverse 集成。](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>检查表生成状态
 

@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: d64f8fd0f59581995866b5463682acdfb24e9bce
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301666"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335418"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 

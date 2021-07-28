@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d6e7b0ad4fe0723575a0ec55a9b02d110568db58
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797225"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346770"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -31,7 +31,7 @@ ms.locfileid: "5797225"
 
 下图显示了站点页上的页脚模块的示例。
 
-![页脚模块示例](./media/ecommerce-footer.PNG)
+![页脚模块的示例。](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>页脚模块属性 
 

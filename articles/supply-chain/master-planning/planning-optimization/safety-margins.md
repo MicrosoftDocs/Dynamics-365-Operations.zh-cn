@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908285"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347726"
 ---
 # <a name="safety-margins"></a>安全宽限期
 
@@ -41,7 +41,7 @@ ms.locfileid: "5908285"
 
 下图显示这些安全宽限期在一段时间的应用情况。
 
-![安全宽限期](media/safety-margins-1.png)
+![安全宽限期。](media/safety-margins-1.png)
 
 所有宽限期均以天为单位定义。 默认值 *0*（零）表示不应用宽限期。 如果设置多个宽限期，这些宽限期将全部添加到从供应 *订单日期* 到需求 *要求日期* 的总时间。 例如，某个设置没有提前期，并且所有三种宽限期都设置为一天。 在这种情况下，供应订单日期和需求要求日期之间将相隔三天，因此，如果订单日期为 7 月 1 日，则要求日期将为 7 月 4 日。
 
@@ -51,7 +51,7 @@ ms.locfileid: "5908285"
 
 下图突出显示了收货宽限期。
 
-![收货宽限期](media/safety-margins-2.png)
+![收货宽限期。](media/safety-margins-2.png)
 
 收货宽限期通常用作缓冲来确保仓库等记或系统中不作为常规提前期一部分捕获的其他耗时流程提供时间。 对于采购来说，其中一个优点是采购订单的 *计划日期* 相应向前推。 如果增加提前期而不是使用安全宽限期，仍然会请供应商在最后一分钟交货。
 
@@ -66,7 +66,7 @@ ms.locfileid: "5908285"
 
 下图突出显示了再订购宽限期。
 
-![再订购宽限期](media/safety-margins-3.png)
+![再订购宽限期。](media/safety-margins-3.png)
 
 再订购宽限期在主计划期间所有计划订单的物料提前期之前添加。 因此，确保了为下达供应订单提供额外时间。 此宽限期通常用作缓冲来确保为创建供应订单期间所需审批流程或其他内部流程提供时间。 再订购宽限期介于供应 *订单日期* 和 *开始日期* 之间。
 
@@ -77,7 +77,7 @@ ms.locfileid: "5908285"
 
 下图突出显示了发货宽限期。
 
-![发货宽限期](media/safety-margins-4.png)
+![发货宽限期。](media/safety-margins-4.png)
 
 主计划期间将从需求要求日期扣除发货宽限期。 这有助于确保有时间处理和装运传入的需求订单。 此宽限期通常用作缓冲区来确保为装运和相关传出仓库流程提供时间。
 
@@ -165,7 +165,7 @@ ms.locfileid: "5908285"
 - **仓库 (WH)：** 白色
 - **供应商 (V)：** 蓝色
 
-[![日历设置概览矩阵](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![日历设置概览矩阵。](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>计算延迟
 
@@ -173,7 +173,7 @@ ms.locfileid: "5908285"
 
 例如，一件商品的提前期为一天，收货宽限期为三天。 此商品的销售订单根据需要设置为今天。 在此情况下，延迟的计算方法为 *提前期* + *收货宽限期* = 四天。 因此，如果今天是 8 月 14 日，则四天的延迟会导致交货日期为 8 月 18 日。 下图显示此示例。
 
-![延迟计算示例](media/safety-margins-delays.png)
+![延迟计算示例。](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>其他资源
 

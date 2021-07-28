@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344874"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -56,14 +56,14 @@ ms.locfileid: "6295565"
 
 应用程序中生成的每个 Er 性能跟踪都作为执行日志记录的附件存储。 文档管理 (DM) 框架用于管理这些附件。 必须提前配置 ER 参数，以便指定应该用于附加性能跟踪的 DM 文档类型。 在 **电子申报** 工作区中，选择 **电子申报参数** 链接。 然后在 **电子申报参数** 页 **附件** 选项卡上的 **其他** 字段中，选择要用于性能跟踪的 DM 文档类型。
 
-![“电子申报参数”页面](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![“电子报告参数”页面。](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 若要让某个 DM 文档类型出现在 **其他** 查找字段中，必须在 **文档类型** 页（**组织管理 \> 文档管理 \> 文档类型**）中以下面的方式对其进行配置：
 
 - **类：** 附加文件
 - **组：** 文件
 
-![“单据类型”页面](./media/GER-PerfTrace-DM-DocumentType.png)
+![文档类型页面。](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > 所选文档类型必须在当前实例中的每个公司内可用，因为 DM 附件特定于公司。
@@ -72,7 +72,7 @@ ms.locfileid: "6295565"
 
 将通过使用 ER 格式设计器和 ER 映射设计器把生成的 ER 性能跟踪导入 RCS 中进行分析。 因为 ER 性能跟踪以与 ER 格式有关的执行日志记录附件形式存储，所以必须提前配置 RCS 参数，以便指定应该用于附加性能跟踪的 DM 文档类型。 在已经针对贵公司进行过配置的 RCS 实例中的 **电子申报** 工作区中，选择 **电子申报参数**。 然后在 **电子申报参数** 页 **附件** 选项卡上的 **其他** 字段中，选择要用于性能跟踪的 DM 文档类型。
 
-![RCS 中的“电子申报参数”页](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![RCS 中的“电子报告参数”页面。](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 若要让某个 DM 文档类型出现在 **其他** 查找字段中，必须在 **文档类型** 页（**组织管理 \> 文档管理 \> 文档类型**）中以下面的方式对其进行配置：
 
@@ -92,7 +92,7 @@ ms.locfileid: "6295565"
     2. 选择 **浏览** 为所需 ER 配置选择 XML 格式的相应文件。
     3. 选择 **确定**。
 
-    ![RCS 中的“配置”页](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![RCS 中的“配置”页面。](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>运行 ER 解决方案以跟踪执行情况
 
@@ -109,7 +109,7 @@ ms.locfileid: "6295565"
     3. 在 **配置** 快速选项卡上，选择 **性能跟踪格式** 配置。
     4. 在 **版本** 快速选项卡上，选择所选配置的版本 **1.1**，然后选择 **导入**。
 
-    ![配置存储库页面](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![配置存储库页面。](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 将把相应的数据模型和模型映射配置版本作为所导入 ER 格式配置的先决条件自动导入。
 
@@ -156,7 +156,7 @@ ms.locfileid: "6295565"
     > [!NOTE]
     > **用户参数** 对话框中的参数特定于用户和当前公司。
 
-    ![“用户参数”选项卡](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![“用户参数”对话框。](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>运行 ER 格式
 
@@ -177,11 +177,11 @@ ms.locfileid: "6295565"
 2. 在 **电子申报运行日志** 页左窗格中 **配置名称** 字段中，选择 **性能跟踪格式** 查找已通过执行 **性能跟踪格式** 配置生成的日志记录。
 3. 选择页面右上角的 **附件** 按钮（回形针符号），或按 **Ctrl+Shift+A**。
 
-    ![“电子申报运行日志”页上的“附件”按钮](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![“电子报告运行日志”页面上的“附件”按钮。](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. 在 **电子申报运行日志的附件** 页上操作窗格中，选择 **打开** 获取 zip 文件格式的性能跟踪并存储在本地。
 
-    ![电子申报运行日志的附件](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![电子报告运行日志的附件。](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > 生成的跟踪只有对源 ER 报表通过 **GUID** 格式的唯一报表标识进行的引用。 不考虑格式的版本编号。
@@ -198,7 +198,7 @@ ms.locfileid: "6295565"
 6. 选择 **浏览** 以选择之前导出的 zip 文件。
 7. 选择 **确定**。
 
-    ![RCS 中的“性能跟踪结果设置”对话框](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![RCS 中的“性能跟踪结果设置”对话框。](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>在 RCS 中使用性能跟踪进行分析 – 格式执行
 
@@ -209,7 +209,7 @@ ms.locfileid: "6295565"
     - 通过使用格式项在生成的输出中输入数据实际所用时间
     - 表示为占生成整个输出所用时间总量的百分比的相同时间
 
-    ![RCS 中的“格式设计器”页](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![RCS 中的“格式设计器”页面。](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. 关闭 **格式设计器** 页。
 
@@ -232,7 +232,7 @@ ms.locfileid: "6295565"
 - 一次调用是为了根据配置的绑定在数据模型中输入每个交易记录的详细信息。
 - 一次调用是为了在数据模型中输入为每个供应商计算出的交易记录数量。
 
-![RCS 中“模型映射设计器”页上有关重复数据库请求的消息](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![RCS 中“模型映射设计器”页面上有关重复数据库请求的消息。](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 值 **\[Q:530\]** 表示 VendTrans 表被调用了 530 次以将一个记录从该表返回到 VendTable/\<Relations/VendTrans.VendTable\_AccountNum 数据源。 值 **\[530\]** 表示 VendTable/\<Relations/VendTrans.VendTable\_AccountNum 数据源被调用了 530 次以从该数据源返回一个记录并在数据模型中输入来自该记录的详细信息。
 
@@ -240,7 +240,7 @@ ms.locfileid: "6295565"
 
 减少对 LedgerTransTypeList 数据源执行的调用数量可能也很有用。 此数据源用于将 **LedgerTransType** 枚举的每个值与其标签关联。 可通过使用此数据源找到相应标签并在每个供应商交易记录的数据模型中输入。 相对 265 个交易记录而言，对此数据源的当前调用数量 (9,027) 相当高。
 
-![RCS 中的“模型映射设计器”页，其中显示了对数据源的 9,027 个调用](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![RCS 中的“模型映射设计器”页面，其中显示了对数据源的 9,027 个调用。](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>根据来自执行跟踪的信息改善模型映射
 
@@ -253,7 +253,7 @@ ms.locfileid: "6295565"
     3. 展开 **VendTable** 向，展开 VendTable 数据源的一对多关系列表（即 **\<Relations** 项），然后选择 **VendTrans.VendTable\_AccountNum** 项。
     4. 选择 **高速缓存**。
 
-    ![用于帮助避免重复调用的高速缓存设置](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![用于帮助避免重复调用的高速缓存设置。](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. 执行以下步骤将 LedgerTransTypeList 数据源纳入 VendTable 数据源的范围内：
 
@@ -274,7 +274,7 @@ ms.locfileid: "6295565"
     3. 选择 **VendTable.\$TransType** 项。
     4. 选择 **高速缓存**。
 
-    ![$TransType 字段的高速缓存设置](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![$TransType 字段的高速缓存设置。](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. 执行以下步骤更改 **\$TransTypeRecord** 字段，使其开始使用高速缓存的 **\$TransType** 字段：
 
@@ -329,19 +329,19 @@ ms.locfileid: "6295565"
 
 请注意，您对模型映射进行的调整消除了对数据库的重复查询。 还减少了对此模型映射的数据库表和数据源的调用数量。 因此提高了整个 ER 解决方案的性能。
 
-![在 RCS 的“模型映射设计器”页中跟踪 VendTable 数据源的信息](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![在 RCS 的“模型映射设计器”页面中跟踪 VendTable 数据源的信息。](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 在跟踪信息中，VendTable 数据源的值 **\[12\]** 表示此数据源被调用了 12 次。 值 **\[Q:6\]** 表示六个调用被转换为了对 VendTable 表的数据库调用。 值 **\[C:6\]** 表示已缓存了从数据库获取的记录，并且通过使用高速缓存还除了另外六个调用。
 
 请注意，对 LedgerTransTypeList 数据源的调用数量已从 9,027 降低到了 240。
 
-![在 RCS 的“模型映射设计器”页中跟踪 LedgerTransTypeList 数据源的信息](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![在 RCS 的“模型映射设计器”页面中跟踪 LedgerTransTypeList 数据源的信息。](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>检查应用程序中的执行跟踪
 
 除了 RCS，还有一些版本可能提供针对 ER 框架设计器体验的功能。 这些版本有一个可开启的 **启用设计模式** 选项。 可以在 **电子申报参数** 页（可从 **电子申报** 工作区打开该页）中的 **常规** 选项卡上找到此选项。
 
-![在“电子申报参数”页面中启用设计模式选项](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![在“电子报告参数”页面中启用设计模式选项。](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 如果使用这些版本中的一个，您可以直接在应用程序中分析生成的性能跟踪的详细信息。 无需将其从应用程序中导出，再导入 RCS。
 
@@ -359,7 +359,7 @@ ms.locfileid: "6295565"
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。
 
-![PerfView 格式的性能跟踪信息](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![PerfView 格式的性能跟踪信息。](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>使用外部工具查看其中包含数据库查询的执行跟踪
 
@@ -375,7 +375,7 @@ ms.locfileid: "6295565"
     - 将 **收集查询统计信息** 选项设置为 **是**。
     - 将 **跟踪查询** 选项设置为 **是**。
 
-    ![执行跟踪部分，“用户参数”对话框](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![执行跟踪部分，“用户参数”对话框。](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>运行 ER 格式
 
@@ -383,7 +383,7 @@ ms.locfileid: "6295565"
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。 执行 ER 格式期间，此跟踪中现在包含 SQL 数据库访问权限的详细信息。
 
-![在 PerfView 中跟踪执行的 ER 格式的信息](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![在 PerfView 中跟踪执行的 ER 格式的信息。](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>其他资源
 

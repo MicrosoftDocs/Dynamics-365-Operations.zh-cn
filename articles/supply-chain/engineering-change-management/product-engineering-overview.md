@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 70567489e5a1b84677ee63c296d15f5bdeb728ca
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115041"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338599"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 

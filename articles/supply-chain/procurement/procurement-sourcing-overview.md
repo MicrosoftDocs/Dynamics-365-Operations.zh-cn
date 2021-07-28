@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 58021
+ms.custom:
+- "58021"
+- intro-internal
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc0e3b503b71092062c1f70bc8cd1b8cf882e02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd673807a9a5a13fb4040933af6220f66a4a57fe
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807960"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337945"
 ---
 # <a name="procurement-and-sourcing-overview"></a>采购概览
 

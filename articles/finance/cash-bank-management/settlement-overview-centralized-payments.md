@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 222414
+ms.custom:
+- "222414"
+- intro-internal
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: febe29500714e5cbe9e364a79f128a55b23defa8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a1a4efd312b0e44fd17de1607cbae6471616461
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834876"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336085"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7bc02a97005f84f7ac01f9fd9371f2a0a29314c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894068"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346636"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>设计新 ER 配置以生成 Word 格式的报表
 
@@ -26,37 +26,37 @@ ms.locfileid: "5894068"
 
 以 Microsoft Word 文档形式生成报表，您必须使用 Word 桌面应用程序等为报表设计模板。 下图显示了控制报表的示例模板，生成后显示已处理供应商付款的详细信息。
 
-![Word 桌面应用程序中控制报表的示例模板](./media/er-design-configuration-word-image1.png)
+![Word 桌面应用程序中控制报表的示例模板。](./media/er-design-configuration-word-image1.png)
 
 要将 Word 文档用作 Word 格式的报表的模板，可以配置一个新的[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)。 此解决方案必须包含一个包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。
 
 > [!NOTE]
 > 当您创建新 ER 格式配置以 Word 格式生成报表时，必须在 **创建配置** 下拉对话框中选择 **Word** 作为格式类型，或保留 **格式类型** 字段为空。
 
-![在“配置”页上创建格式配置](./media/er-design-configuration-word-image2.gif)
+![在“配置”页面上创建格式配置。](./media/er-design-configuration-word-image2.gif)
 
 解决方案的 ER 格式组件必须包含 **Excel\\File** 格式元素，并且该格式元素必须链接到将在运行时用作所生成报表的模板的 Word 文档。 要配置 ER 格式组件，必须在 ER 格式设计器中打开已创建的 ER 配置的[草稿](general-electronic-reporting.md#component-versioning)版本。 然后添加 **Excel\\File** 元素，将 Word 模板附加到可编辑 ER 格式，然后将该模板链接到添加的 **Excel\\File** 元素。
 
 > [!NOTE]
 > 在附加模板时，必须使用之前已在 ER 参数中[配置](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的[文档类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)来存储 ER 格式的模板。
 
-![在“格式设计器”页附加模板](./media/er-design-configuration-word-image3.gif)
+![在“格式设计器”页面上附加模板。](./media/er-design-configuration-word-image3.gif)
 
 您可以为 **Excel\\File** 元素添加 **Excel\\Range** 和 **Excel\\Cell** 嵌套元素，来指定运行时将在生成的报表中输入的数据结构。 然后，您必须将这些元素绑定到可编辑 ER 格式的数据源，来指定运行时将在生成的报表中输入的实际数据。
 
-![在“格式设计器”页添加嵌套元素](./media/er-design-configuration-word-image4.gif)
+![在“格式设计器”页面上添加嵌套元素。](./media/er-design-configuration-word-image4.gif)
 
 在设计期间保存对 ER 格式的更改时，分层格式结构将作为名为 **报表** 的[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)存储在附加的 Word 模板中。 您必须访问修改后的模板，从 Finance 中下载它，将它存储在本地，然后在 Word 桌面应用程序中打开它。 下图显示了包含 **报表** 自定义 XML 部件的控制报表的本地存储的示例模板。
 
-![在 Word 桌面应用程序中预览示例报表模板](./media/er-design-configuration-word-image5.gif)
+![在 Word 桌面应用程序中预览示例报表模板。](./media/er-design-configuration-word-image5.gif)
 
 在运行时 **Excel\\Range** 和 **Excel\\Cell** 格式元素的绑定运行时，每个绑定提供的数据将作为 **报表** 自定义 XML 部件的单独字段进入生成的 Word 文档。 要在生成的文档中输入自定义 XML 部件的字段中的值，您必须将适当的 Word [内容控件](/office/client-developer/word/content-controls-in-word)添加到 Word 模板中，以在运行时用作将要填充的数据的占位符。 要指定内容控件的填充方式，请将每个内容控件映射到 **报表** 自定义 XML 部件的相应字段。
 
-![在 Word 桌面应用程序中添加和映射内容控件](./media/er-design-configuration-word-image6.gif)
+![在 Word 桌面应用程序中添加和映射内容控件。](./media/er-design-configuration-word-image6.gif)
 
 然后，您必须用修改后的模板替换可编辑 ER 格式的原始 Word 模板，修改后的模板现在包含映射到 **报表** 自定义 XML 部件的字段的 Word 内容控件。
 
-![在“格式设计器”页替换模板](./media/er-design-configuration-word-image7.gif)
+![在“格式设计器”页面上替换模板。](./media/er-design-configuration-word-image7.gif)
 
 当您运行配置的 ER 格式时，附加的 Word 模板用于生成新报表。 实际数据作为名为 **报表** 的自定义 XML 部件存储在 Word 报表中。 打开生成的报表时，Word 内容控件中将填充来自 **报表** 自定义 XML 部件的数据。
 

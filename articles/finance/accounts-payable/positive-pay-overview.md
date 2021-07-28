@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 88463
+ms.custom:
+- "88463"
+- intro-internal
 ms.assetid: 1e3a39d3-f9b3-4073-9730-c96a607243e2
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c72b50c3becb305cff6e21bc281962f5372bc273
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f469cdbd74f228d235f9a84f52d9bd8656e97020
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828002"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340269"
 ---
 # <a name="positive-pay-overview"></a>付款确认概览
 

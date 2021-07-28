@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17a454cd32a08db105a13577c32368ad819bed1c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 292db7e430bf0f2171f2b0a482ad70250774caec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053363"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346338"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 未出现在 Microsoft Dynamics 365 应用中
 
@@ -39,11 +39,11 @@ ms.locfileid: "6053363"
 
 3. 在 **安全** 选项卡上，在 **环境角色** 选项卡上，选择 **环境制造者**。
 
-    ![环境角色选项卡](media/environment-roles.png)
+    ![环境角色选项卡。](media/environment-roles.png)
 
 4. 在 **用户** 选项卡上，添加用户或您的组织。
 
-    ![用户选项卡](media/environment-maker.png)
+    ![用户选项卡。](media/environment-maker.png)
 
 5. 选择 **保存**。
 
@@ -51,7 +51,7 @@ ms.locfileid: "6053363"
 
 7. 选择 **同步** 更新用户应用。
 
-    ![同步按钮](media/get-more.png)
+    ![同步按钮。](media/get-more.png)
 
     在完成同步后，Human Resources 将显示在主页上。
 

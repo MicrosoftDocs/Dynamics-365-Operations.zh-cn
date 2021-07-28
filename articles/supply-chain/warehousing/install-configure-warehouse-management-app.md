@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049308"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346074"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
@@ -78,28 +78,28 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 输入有权访问 Azure 订阅的用户的名称和密码。
 1. 在 Azure 门户的左侧导航窗格中，选择 **Azure Active Directory**。
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory。](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. 确保使用 Supply Chain Management 所用 Azure AD 实例。
 1. 在 **管理** 列表中，选择 **应用注册**。
 
-    ![应用注册](media/app-connect-azure-register.png "应用注册")
+    ![应用注册。](media/app-connect-azure-register.png "应用注册")
 
 1. 在工具栏中，选择 **新注册** 打开 **注册应用程序** 向导。
 1. 输入应用程序的名称，选择 **仅此组织目录中的帐户** 选项，然后选择 **注册**。
 
-    ![注册应用程序向导](media/app-connect-azure-register-wizard.png "注册应用程序向导")
+    ![注册应用程序向导。](media/app-connect-azure-register-wizard.png "注册应用程序向导")
 
 1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本主题后文将此 ID 称为 *客户端 ID*。
 
-    ![应用程序（客户端）ID](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
+    ![应用程序（客户端）ID。](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
 
 1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本主题后文的[使用证书或客户端密码](#authenticate)部分。）
 
     - **上传证书** – 上传证书充当密码。 建议使用此方法，因为更安全，也可以更完整地自动执行。 如果要在 Windows 设备上运行仓库管理移动应用，请记下上传证书后显示的 **指纹** 值。 在 Windows 设备上配置证书时需要此值。
     - **新客户端密码** – 通过在 **密码** 部分中输入密钥说明和持续时间创建密钥，然后选择 **添加**。 创建密钥备份，然后安全存储。
 
-    ![证书和密码](media/app-connect-azure-authentication.png "证书和密码")
+    ![证书和密码。](media/app-connect-azure-authentication.png "证书和密码")
 
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
@@ -119,7 +119,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
     1. 创建一个用户。
     1. 分配仓库移动设备用户。
 
-    ![分配仓库移动设备用户](media/app-connect-app-users.png "分配仓库移动设备用户")
+    ![分配仓库移动设备用户。](media/app-connect-app-users.png "分配仓库移动设备用户")
 
 1. 将您的 Azure AD 应用程序与仓库管理移动应用用户关联：
 
@@ -127,7 +127,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
     1. 创建一行。
     1. 输入在上一部分中记下的客户端 ID，为其命名，然后选择刚才创建的用户。 建议标记所有设备。 然后，如果设备丢失，可以轻松从此页解除其对 Supply Chain Management 的访问权限。
 
-    ![Azure Active Directory 应用程序](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
+    ![Azure Active Directory 应用程序。](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>使用证书或客户端密码进行身份验证
 
@@ -213,30 +213,30 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 1. 在您的移动设备上启动仓库管理移动应用。 首次启动该应用时，会显示一条欢迎消息。 选择 **选择连接**。
 
-    ![欢迎消息](media/app-configure-welcome-screen.png "欢迎消息")
+    ![欢迎消息。](media/app-configure-welcome-screen.png "欢迎消息")
 
 1. 如果要从文件导入连接设置，并且保存该文件时使用的是默认名称和默认位置，应用可能已经找到了该文件。 在这种情况下，直接跳到步骤 4。 否则，选择 **设置连接**，然后继续执行步骤 3。
 
-    ![设置连接](media/app-configure-set-up-connection.png "设置连接")
+    ![设置连接。](media/app-configure-set-up-connection.png "设置连接")
 
 1. 在 **连接设置** 对话框中，选择 **从文件添加** 或 **从 QR 码添加**，具体取决于您要导入设置的方式：
 
     - 如果要从文件导入连接设置，则选择 **从文件添加**，浏览到本地设备上的文件，然后选择它。 如果选择自定义位置，应用将存储该文件，并在下次自动使用。
     - 如果要通过扫描 QR 码导入连接设置，则选择 **从 QR 码添加**。 应用将提示您提供使用设备摄像头所需权限。 提供权限后，将启动摄像头，以便您将其用于扫描。 您可能发现很难获得正确扫描，具体取决于设备摄像头的质量和 QR 代码的复杂程度。 在这种情况下，请尝试通过为每个 QR 码仅生成一个连接来降低 QR 代码的复杂程度。 （现在，只能使用设备摄像头扫描 QR 代码。）
 
-    ![连接设置菜单](media/app-configure-connection-setup-flyout.png "连接设置菜单")
+    ![连接设置菜单。](media/app-configure-connection-setup-flyout.png "连接设置菜单")
 
 1. 成功加载连接设置后，将显示所选的连接。
 
-    ![已加载连接设置](media/app-configure-select-connection.png "已加载连接设置")
+    ![已加载连接设置。](media/app-configure-select-connection.png "已加载连接设置")
 
 1. 如果在使用 Android 设备，并使用证书进行身份验证，设备将提示您选择证书。
 
-    ![Android 设备上的选择证书提示](media/app-configure-select-certificate.png "Android 设备上的选择证书提示")
+    ![Android 设备上的选择证书提示。](media/app-configure-select-certificate.png "Android 设备上的选择证书提示")
 
 1. 此应用将连接到您的 Supply Chain Management 服务器，并显示登录页。
 
-    ![登录页](media/app-configure-sign-in-page.png "登录页")
+    ![登录页面。](media/app-configure-sign-in-page.png "登录页")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>手动配置应用程序
 
@@ -246,15 +246,15 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 如果应用以 **演示模式** 启动，选择 **连接设置**。 如果应用启动时出现 **登录** 页，选择 **更改连接**。
 1. 选择 **设置连接**。
 
-    ![设置连接](media/app-configure-set-up-connection.png "设置连接")
+    ![设置连接。](media/app-configure-set-up-connection.png "设置连接")
 
 1. 选择 **手动输入**。
 
-    ![连接设置菜单](media/app-configure-connection-setup-flyout.png "连接设置菜单")
+    ![连接设置菜单。](media/app-configure-connection-setup-flyout.png "连接设置菜单")
 
     **新建连接** 页将出现，显示手动输入连接详细信息所需的设置。
 
-    ![手动连接字段](media/app-configure-input-manually.png "手动连接字段")
+    ![手动连接字段。](media/app-configure-input-manually.png "手动连接字段")
 
 1. 输入以下信息：
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346708"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
@@ -41,7 +41,7 @@ ms.locfileid: "6271271"
 
 在下图的示例中，PDP 上的购买框使用媒体库模块托管产品图像。
 
-![使用媒体库模块托管产品图像的产品详细信息页面上的购买框示例](./media/ecommerce-pdp-buybox.PNG)
+![使用媒体库模块托管产品图像的产品详细信息页面上的购买框示例。](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>媒体库属性
 
@@ -59,11 +59,11 @@ ms.locfileid: "6271271"
 
 下图显示了一个媒体库模块的示例，其中全屏和缩放选项可用。
 
-![全屏和缩放选项可用的媒体库模块的示例](./media/ecommerce-media-zoom.png)
+![全屏和缩放选项可用的媒体库模块的示例。](./media/ecommerce-media-zoom.png)
 
 下图显示了具有精选图像的媒体库模块的示例（即，指定图像不依赖于产品 ID 或页面上下文）。
 
-![具有精选图像的媒体库模块的示例](./media/ecommerce-media-curated.PNG)
+![具有精选图像的媒体库模块的示例。](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 

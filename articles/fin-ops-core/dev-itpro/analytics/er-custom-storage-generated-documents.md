@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348156"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 
@@ -39,7 +39,7 @@ ms.locfileid: "5894116"
 
 在当前拓扑中，[创建新的 ER 格式](tasks/er-format-configuration-2016-11.md)以生成计划添加的自定义存储位置所属单据。 也可以[在此拓扑中导入现有 ER 格式](general-electronic-reporting-manage-configuration-lifecycle.md)。
 
-![“格式设计器”页面](media/er-extend-file-storages-format.png)
+![“格式设计器”页面。](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > 创建或导入的 ER 格式中必须包含至少一个下面的格式元素：
@@ -58,7 +58,7 @@ ms.locfileid: "5894116"
 3. 在 **类** 字段中，指定 **附加文件**。
 4. 在 **组** 字段中，指定 **文件**。
 
-![“单据类型”页面](media/er-extend-file-storages-document-type.png)
+![文档类型页面。](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > 单据类型特定于公司。 若要在多个公司中使用某个 ER 格式和配置的目标，必须在每个公司中配置一个单独的单据类型。
@@ -113,14 +113,14 @@ public DocuRef insertFile(
 - **存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 格式创建一个新记录。 此记录的 **已存档** 字段设置为 **False**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 目标中选择的单据类型决定附加的文件的存储位置（Microsoft Azure 存储或 Microsoft SharePoint 文件夹）。
 - **作业存档** – 如果使用此目标，将在 ERFormatMappingRunJobTable 表中为运行的 ER 窗体创建一个新记录。 此记录的 **已存档** 字段设置为 **True**。 如果 ER 格式运行成功，将把生成的单据附加到此记录，并引发 **AttachingFile()** 事件。 此 ER 参数中配置的单据类型决定附加的文件的存储位置（Azure 存储或 Microsoft SharePoint 文件夹）。
 
-![“电子申报参数”页面](media/er-extend-file-storages-parameters.png)
+![“电子报告参数”页面。](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>配置 ER 目标
 
 1. 为创建或导入的 ER 格式的之前介绍的一个元素（文件、文件夹、合并器或附件）配置存档目标。 有关指南，请参阅 [ER 配置目标](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11)。
 2. 请使用前面为配置的目标添加的单据类型。 （例如，在本主题中，单据类型为 **FileX**。）
 
-![“目标设置”对话框](media/er-extend-file-storages-destination.png)
+![“目标设置”对话框。](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>修改源代码
 

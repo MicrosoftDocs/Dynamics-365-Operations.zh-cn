@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796478"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345200"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>在销售点 (POS) 中显示订单通知
 
@@ -72,14 +72,14 @@ POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务�
 
 下图显示按钮网格设计器中的实时内容设置。
 
-![按钮网格设计器中的实时内容设置](./media/ButtonGridDesigner.png "按钮网格设计器中的实时内容设置")
+![按钮网格设计器中的实时内容设置。](./media/ButtonGridDesigner.png "按钮网格设计器中的实时内容设置")
 
 若要在按钮上显示通知数量，需要确保更新正确的屏幕布局。 若要确定 POS 使用的屏幕布局，请选择右上角的 **设置** 图标，然后记下 **屏幕布局 ID** 和 **布局分辨率**。 现在使用 Edge 浏览器转到 **屏幕布局** 页面，找到上面确定的 **屏幕布局 ID** 和 **布局分辨率**，然后选中 **启用动态内容** 复选框。 转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 配送计划**，然后运行 1090（收银机）作业以同步布局更改。
 
-![查找 POS 使用的屏幕布局](./media/Choose_screen_layout.png "查找屏幕布局")
+![查找 POS 使用的屏幕布局。](./media/Choose_screen_layout.png "查找屏幕布局")
 
 下图显示在 **内容对齐** 字段中选择 **靠上右对齐** 与 **居中** 对各种尺寸的按钮的影响。
 
-![POS 按钮上的实时内容](./media/ButtonsWithLiveContent.png "POS 按钮上的实时内容")
+![POS 按钮上的实时内容。](./media/ButtonsWithLiveContent.png "POS 按钮上的实时内容")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

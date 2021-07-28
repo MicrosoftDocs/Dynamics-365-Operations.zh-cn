@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344363"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 1. 登录 [Azure 门户](https://portal.azure.com/)。
 1. 在 Azure 门户菜单中选择 **创建资源**。 请务必使用将与您的 Commerce 环境连接的订阅和目录。
 
-    ![在 Azure 门户中创建资源](./media/B2CImage_1.png)
+    ![在 Azure 门户中创建资源。](./media/B2CImage_1.png)
 
 1. 转到 **标识 \> Azure Active Directory B2C**。
 1. 进入 **创建新的 B2C 租户或链接至现有租户** 页之后，使用下面一个最适合贵公司需要的选项：
@@ -52,25 +52,25 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
         1. 对于 **国家或地区**，选择国家或地区。
         1. 选择 **创建** 创建租户。
 
-     ![创建新的 Azure AD 租户](./media/B2CImage_2.png)
+     ![创建新的 Azure AD 租户。](./media/B2CImage_2.png)
 
      - **将现有 Azure AD B2C 租户链接至我的 Azure 订阅**：如果您已经有需要链接至的 Azure AD B2C 租户，请使用此选项。
         1. 选择 **将现有 Azure AD B2C 租户链接至我的 Azure 订阅**。
         1. 对于 **Azure AD B2C 租户**，选择相应 B2C 租户。 如果选择框中显示消息“未发现符合要求的 B2C 租户”，说明您还没有符合要求的 B2C 租户，需要新建一个。
         1. 对于 **资源组**，选择 **新建**。 输入将包含该租户的资源组的 **名称**，选择 **资源组位置**，然后选择 **创建**。
 
-    ![将现有 Azure AD B2C 租户链接至 Azure 订阅](./media/B2CImage_3.png)
+    ![将现有 Azure AD B2C 租户链接到 Azure 订阅。](./media/B2CImage_3.png)
 
 1. 创建新的 Azure AD B2C 目录（可能需要一些时间）之后，仪表板中将显示这个新目录的链接。 这个链接将把您带到“欢迎使用 Azure Active Directory B2C”页面。
 
-    ![链接到新的 AAD 目录](./media/B2CImage_4.png)
+    ![链接到新的 AAD 目录。](./media/B2CImage_4.png)
 
 > [!NOTE]
 > 如果您在您的 Azure 帐户中有多个订阅，或者如果您已经设置了 B2C 租户但未链接到有效订阅，**疑难解答** 横幅将引导您把该租户链接到订阅。 选择疑难解答消息，然后按照指示解决订阅问题。
 
 下图显示一个 Azure AD B2C **疑难解答** 横幅示例。
 
-![其中显示目录无有效订阅的警告](./media/B2CImage_5.png)
+![显示目录无有效订阅的警告。](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>创建 B2C 应用程序
 
@@ -136,11 +136,11 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 下图是 Azure AD B2C 注册和登录用户流的一个示例。
 
-![注册和登录策略设置](./media/B2CImage_11.png)
+![注册和登录策略设置。](./media/B2CImage_11.png)
 
 下图显示 Azure AD B2C 注册和登录用户流中的 **运行用户流** 选项。
 
-![策略流中的“运行用户流”选项](./media/B2CImage_23.png)
+![策略流中的“运行用户流”选项。](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>创建配置文件编辑用户流策略
 
@@ -161,7 +161,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 下图显示 Azure AD B2C 配置文件编辑用户流的一个示例。
 
-![创建配置文件编辑用户流](./media/B2CImage_12.png)
+![创建配置文件编辑用户流。](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>创建密码重置用户流策略
 
@@ -225,18 +225,18 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 下图显示 Azure AD B2C 中 **添加标识提供程序** 和 **设置社交标识提供程序** 屏幕的示例。
 
-![向应用程序添加社交标识提供程序](./media/B2CImage_14.png)
+![向应用程序添加社交标识提供者。](./media/B2CImage_14.png)
 
 下图显示如何在 Azure AD B2C **标识提供程序** 页中选择标识提供程序的示例。
 
-![选择要为策略启用的每个社交标识提供程序](./media/B2CImage_16.png)
+![选择要为策略启用的每个社交标识提供者。](./media/B2CImage_16.png)
 
 下图显示默认登录屏幕的示例，该屏幕中显示了一个社交标识提供程序登录按钮。
 
 > [!NOTE]
 > 如果为用户流选择内置于 Commerce 的自定义页面，将需要使用 Commerce 模块库的可扩展性功能添加社交标识提供者的按钮。 此外，在使用特定的社交标识提供者设置应用程序时，在某些情况下，URL 或配置字符串可能区分大小写。 有关详细信息，请参考您的社交标识提供者的连接说明。
  
-![其中显示社交标识提供程序登录按钮的示例默认登录屏幕](./media/B2CImage_17.png)
+![显示社交标识提供者登录按钮的示例默认登录屏幕。](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>使用新的 Azure AD B2C 信息更新 Commerce Headquarters
 
@@ -291,15 +291,15 @@ Azure AD B2C 租户设置完毕之后，必须在 Commerce 站点构建器中配
 
 下图显示 **Azure AD B2C - 应用程序** 页的示例。
 
-![在租户内导航到“B2C 应用程序”](./media/B2CImage_19.png)
+![在租户内导航到“B2C 应用程序”。](./media/B2CImage_19.png)
 
 下图显示 Azure AD B2C 中一个应用程序 **属性** 页的示例。 
 
-![从 B2C 应用程序的属性复制应用程序 ID](./media/B2CImage_21.png)
+![从 B2C 应用程序的属性复制应用程序 ID。](./media/B2CImage_21.png)
 
 下图显示 **Azure AD B2C – 用户流（策略）** 页中用户流策略的一个示例。
 
-![收集各 B2C 策略流的名称](./media/B2CImage_22.png)
+![收集每个 B2C 策略流的名称。](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>在 Commerce 中输入您的 AAD B2C 租户应用程序信息
 

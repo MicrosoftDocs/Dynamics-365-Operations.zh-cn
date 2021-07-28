@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184014"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345492"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -73,7 +73,7 @@ ms.locfileid: "6184014"
 
 波次发放后，缩放单元拥有实际波次处理（例如工作分配、补货工作和需求工作创建）。 因此，仓库工作人员可以使用连接到缩放单元的仓库管理移动应用处理出库工作。
 
-![波次处理流](./media/wes-wave-processing-ga.png "波次处理流")
+![波次处理流。](./media/wes-wave-processing-ga.png "波次处理流")
 
 ### <a name="process-work-and-ship"></a>处理工作和装运
 
@@ -81,7 +81,7 @@ ms.locfileid: "6184014"
 
 中心将交易更新为 *已领料* 后，就可以处理负荷的出站装运确认和关联的销售装箱单或转移单装运。
 
-![出站处理流](./media/WES-outbound-processing-19.png "出站处理流")
+![出站处理流。](./media/WES-outbound-processing-19.png "出站处理流")
 
 ## <a name="inbound-process-flow"></a>入站流程流
 
@@ -107,11 +107,11 @@ ms.locfileid: "6184014"
 
 如果您由于不使用 *发放到仓库* 流程而不使用 *仓库订单*，中心可以独立于缩放单元处理仓库接收和工作处理。
 
-![入站流程流](./media/wes-inbound-ga.png "入库处理流")
+![入站流程流。](./media/wes-inbound-ga.png "入库处理流")
 
 当通过仓库应用接收流程对缩放单元仓库订单执行入站登记时，缩放单元工作负荷将通知中心将相关的采购订单行交易更新为 *已登记*。 完成后，您即可以在中心运行采购订单产品收货。
 
-![入站处理流](./media/WES-inbound-processing-19.png "入站处理流")
+![入站处理流。](./media/WES-inbound-processing-19.png "入站处理流")
 
 ## <a name="supported-processes-and-roles"></a>支持的流程和角色
 

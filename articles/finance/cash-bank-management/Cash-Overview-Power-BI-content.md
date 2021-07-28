@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 19f07222a9d61cd153d4741f464009562340b939
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897444"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336157"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753496"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347988"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -48,13 +48,13 @@ ms.locfileid: "5753496"
 
 可以通过两种方法为 ER 配置电子邮件地址。 可以用打印管理功能完成配置所用的相同方式来完成此配置，或者可以通过公式使用 ER 配置的直接引用来解析电子邮件地址。
 
-[![将电子邮件目标的“已启用”选项设置为“是”](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![将电子邮件目标的“已启用”选项设置为“是”。](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>电子邮件地址类型
 
 如果选择 **目标设置** 对话框中 **收件人** 或 **抄送** 字段旁边的 **编辑**，将显示 **电子邮件收件人** 对话框。 选择 **添加**，然后选择要使用的电子邮件地址类型。 现在支持两种类型：**打印管理电子邮件** 和 **配置电子邮件**。
 
-[![选择电子邮件地址的类型](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![选择电子邮件地址的类型。](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>打印管理电子邮件
 
@@ -84,7 +84,7 @@ ms.locfileid: "5753496"
 
 在 **公式设计器** 页面的 **公式** 字段中，输入对受支持角色的特定于文档的引用。 请不要键入此引用，而是在 **数据源** 页面中找到并选择表示所配置角色的帐户的数据源节点，然后选择 **添加数据源** 以更新公式。 例如，如果为用于处理供应商付款的 **ISO 20022 贷方转帐** 配置配置电子邮件目标，则提供供应商帐户的角色为 `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`。
 
-![配置电子邮件源帐户](./media/er_destinations-emaildefineaddresssource.gif)
+![配置电子邮件源帐户。](./media/er_destinations-emaildefineaddresssource.gif)
 
 如果所配置角色的帐号对整个 Microsoft Dynamics 365 Finance 实例是唯一的，则 **电子邮件收件人** 对话框中的 **电子邮件源公司** 字段可以保留为空。
 
@@ -108,7 +108,7 @@ ms.locfileid: "5753496"
 
 如果所用配置在数据源中有一个返回一个电子邮件地址或多个电子邮件地址（以分号 (;) 分隔）的节点，请选择 **配置电子邮件** 作为电子邮件地址类型。 可以在公式设计器中使用[数据源](general-electronic-reporting.md#FormatComponentOutbound)和[函数](er-formula-language.md#functions)获取格式正确的一个电子邮件地址或多个电子邮件地址（以分号分隔）。 例如，如果使用 **ISO 20022 贷方转帐** 配置，则应该将表示供应商联系人详细信息中的供应商主要电子邮件地址（包括字母）设置为 `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`。
 
-[![配置电子邮件源](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![配置电子邮件地址源。](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>为格式组件分组
 
@@ -126,11 +126,11 @@ ms.locfileid: "5753496"
 
 下图显示了 ER 格式的结构，该格式已配置为生成压缩的传出文件，该文件中包含催款单和 PDF 格式的相应客户发票。
 
-[![生成传出文档的 ER 格式的结构](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![生成传出文档的 ER 格式的结构。](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 下图显示了本主题中所述的以下流程：将各个组件分组并为新组启用 **电子邮件** 目标，以便将催款单和相应的客户发票一起作为电子邮件附件发送。
 
-[![为单个组件分组并启用电子邮件目标](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![为单个组件分组并启用电子邮件目标。](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>其他资源
 

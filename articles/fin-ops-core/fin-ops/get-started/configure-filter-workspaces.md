@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744019"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344289"
 ---
 # <a name="configure-and-filter-workspaces"></a>配置和筛选工作区
 
@@ -32,11 +32,11 @@ ms.locfileid: "5744019"
 
 您可以通过更新应用于整个工作区的设置来更改一些工作区的外观和行为。 在可以配置工作区时，“操作”窗格包括指示您单击它进行配置更改的按钮。 例如，在下图中，按钮称为 **配置我的工作区域**。
 
-[![配置和筛选工作区](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![配置和筛选工作区。](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 在单击按钮后，一个对话框将显示，从中可以修改该工作区的预定义设置。 此对话框中显示的特定设置因工作区而异，具体取决于工作区中可用的特定控件和业务数据。
 
-[![配置我的工作区](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![配置我的工作区。](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>筛选工作区
 
@@ -46,11 +46,11 @@ ms.locfileid: "5744019"
 
 您可以使用工作区范围的筛选器来筛选整个工作区。 工作区范围的筛选器将出现在工作区的左上角。 在下拉列表中选择某个特定值时，将基于所选内容筛选工作区的内容。
 
-[![工作区筛选器](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![工作区筛选器。](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 当单击以打开筛选器时，将为您显示多个选项。
 
-[![扩展的工作区筛选器](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![扩展的工作区筛选器。](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 选择一个选项来基于该选项筛选工作区。
 
@@ -58,7 +58,7 @@ ms.locfileid: "5744019"
 
 如果工作区的各个部分具有筛选器，您可以单独筛选每个部分。 在下图中，筛选器（包含文本“Filter”的字段）是自由格式文本字段筛选器的示例。
 
-[![工作区部分筛选器](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![工作区部分筛选器。](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 正如工作区范围的筛选器一样，在用于入筛选部分内容的字段中选择或输入值。
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187690"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343642"
 ---
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
 
@@ -41,7 +41,7 @@ ms.locfileid: "6187690"
 
 在该生产订单结束时，下图为物料的成本记录内生成订单的实际成本和计算的成本之间的差异显示帐户的四个差异。 
 
-![计入已完成生产订单差异的差异](./media/control.jpg) 
+![计入已完成生产订单差异的差异。](./media/control.jpg) 
 
 可以通过使用 **差异** 页或 **生产差异** 报表分析生产差异。 使用显示选项卡按物料和运营资源，或按成本组查看详细差异。 库存参数中的成本细分策略确定是否按成本组跟踪差异。 您还可以使用 **单个**、**多个** 和 **总计** 显示选项查看汇总的差异。 有关详细差异的信息可以帮助您理解每个差异的来源。 为了在结束生产订单前预测差异，应分析在 **成本预估和成本计算** 报表中提供的详细信息。
 

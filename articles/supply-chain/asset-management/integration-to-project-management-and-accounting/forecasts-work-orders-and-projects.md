@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345420"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 
@@ -58,13 +58,13 @@ ms.locfileid: "5813813"
 
 例如，在下图中，**卡车引擎** 资产类型的设置方式导致使用 **卡车引擎** 资产类型创建的每个工作订单作业成为项目 ID 000186 的子项目。
 
-![图 1](media/01-integration-to-pma.png)
+![图 1.](media/01-integration-to-pma.png)
 
 工作订单作业中的项目 ID 和关联的活动编号的用途是在 **项目管理与核算** 模块中跟踪与工作订单作业有关的成本和在其中选择的资产。 （若要查看项目 ID 和活动编号，请选择 **资产管理** > **常用** > **工作订单** > **所有工作订单**，然后选择工作订单。 **行详细信息** 快速选项卡上的 **项目 ID** 字段显示项目 ID，**活动编号** 字段显示活动编号。）有关资产管理中的成本控制的详细信息，请参阅[成本和日期控制](../controlling-and-reporting/cost-and-date-control.md)。
 
 下图显示工作订单项目和关联的项目活动的图形概览。
 
-![图 2](media/02-integration-to-pma.png)
+![图 2.](media/02-integration-to-pma.png)
 
 为工作订单创建新的工作订单作业时，将为该作业自动创建一个工作订单项目。 将把与该工作订单作业关联的资产的财务维度自动传输到该工作订单项目。
 
@@ -86,17 +86,17 @@ ms.locfileid: "5813813"
 
 下图显示工作订单项目组、关联的项目类型、项目阶段和工作订单生命周期状态之间的关联。
 
-![图 3](media/03-integration-to-pma.png)
+![图 3.](media/03-integration-to-pma.png)
 
-![图 4](media/04-integration-to-pma.png)
+![图 4.](media/04-integration-to-pma.png)
 
-![图 5](media/05-integration-to-pma.png)
+![图 5.](media/05-integration-to-pma.png)
 
 有关如何设置工作订单项目的信息，请参阅[工作订单项目设置](../setup-for-work-orders/work-order-project-setup.md)。 有关如何创建工作订单生命周期状态的信息，请参阅[工作订单生命周期状态](../setup-for-work-orders/work-order-lifecycle-states.md)。
 
 下图显示为了实现与 **项目管理与核算** 模块集成而在 **资产管理** 模块中创建的各项目的图形概览。 还显示这些项目关联的工作流程。
 
-![图 6](media/06-integration-to-pma.png)
+![图 6.](media/06-integration-to-pma.png)
 
 
 

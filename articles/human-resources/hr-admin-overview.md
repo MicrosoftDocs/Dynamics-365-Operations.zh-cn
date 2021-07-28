@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2009b3965f032ae54b83835ae481c47b0234a231
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 08988d2e90ed9d6f60569092e231a527d3d73d55
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053723"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337139"
 ---
 # <a name="administration-overview"></a>管理概述
 

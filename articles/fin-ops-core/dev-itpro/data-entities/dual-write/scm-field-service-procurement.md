@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346586"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management 提供强大的采购功能。 Dy
 
 下图显示了这两个系统中的表以及它们如何相互映射。 Field Service 中的采购订单引用 *帐户* 行，而 Supply Chain Management 中的采购订单引用 *供应商* 行。 为处理集成，双写入使用引用将 *供应商* 行与 *帐户* 行关联起来。 有关详细信息，请参阅[集成供应商主数据](vendor-mapping.md)。
 
-![采购映射](media/scm-field-service-tables.png)
+![采购映射。](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>先决条件
 

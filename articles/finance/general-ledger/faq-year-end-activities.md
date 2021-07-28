@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345468"
 ---
 # <a name="year-end-activities-faq"></a>年终活动常见问题解答 
 
@@ -29,7 +29,7 @@ ms.locfileid: "5822823"
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>总帐：怎样知道我们正在运行年终结算而不是撤消年终结算？
 我们已经注意到一些组织尝试运行年终结算，而不是对年终结算执行撤消操作。 如果年终结算很快将完成或者年终结算未产生期初余额，请验证 **年终结算** 中的 **撤消上一次结算** 设置（**总帐 > 期间结算 > 年终结算 > 运行会计结算**）。 
 
-[![运行年终结算与撤消年终结算](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![运行年终结算与撤消年终结算。](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 如果 **撤消上一次结算** 选择设置为 **是**，将反转上一次年终结算。 运行撤消操作时，将删除所有期末余额和期初余额条目，好像从未运行年终结算一样。 已删除凭证。 将不会自动重新运行年终结算。 您必须重新启动该流程，此时会将 **撤消上一次结算** 更改为 **否**。 
 
@@ -39,11 +39,11 @@ ms.locfileid: "5822823"
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>总帐：针对年终结算的“撤消总帐”和“删除总帐”参数有何差别？
 **年终结算** 对话框中的 **撤消上一次结算** 参数与总帐中的 **在转移期间删除年末结转交易记录** 参数（**总帐 > 期间结算 > 年终结算 > 运行会计结算**）之间的差异可能存在混淆。  
 
-[![针对年终结算的“撤消总帐”和“删除总帐”参数有何差别？](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![针对年终结算的“撤消总帐”和“删除总帐”参数有何差别。](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
 运行年终结算流程时选择下拉对话框中的 **撤消上一次结算**，可以删除所有期末余额和期初余额，好像从未运行年终结算一样。 将删除凭证。 将不会自动重新运行年终结算。 要运行年终结算，必须再次启动此流程，此时会将 **撤消上一次结算** 更改为 **否**（**总帐 > 分类帐设置 > 总帐参数**）。 
 
-[![总帐参数设置](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![总帐参数设置。](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 仅当运行（非撤消）年终结算（**撤消上一次结算** 选择设置为 **否**）时，才会使用总帐中的 **在转移期间删除年末结转交易记录** 参数。 如果该参数设置为 **是**，将会删除所有期末余额和期初余额条目，并将再次运行年终结算。 如果组织想要在单个会计条目中过帐期末余额和期初余额条目的所有交易记录，包括自上一次年终结算以来的调整，将使用此流程。 
 
@@ -60,7 +60,7 @@ ms.locfileid: "5822823"
 
 不必要的维度集也会影响批处理作业 **BudgetDimensionFocusInitializeBalance**（**总帐 > 会计科目表 > 维度 > 财务维度集**）。
 
-[![财务维度集](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![财务维度集。](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>年终结算模板配置
 组织可以使用年终结算模板，来选择当将损益余额转移到留存收益时要维护的财务维度级别。 当将余额移至留存收益或选择将金额汇总为单个维度值（**结算单个**）时，组织可以使用这些设置维护详细的财务维度（**结算全部**）。 可以针对每个财务维度进行此定义。 有关这些设置的详细信息，请参阅[年终结算](year-end-close.md)主题。
@@ -72,14 +72,14 @@ ms.locfileid: "5822823"
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>总帐 – 期间结算 – 年终计算执行哪些操作？
  
-[![期间结算、年终结算](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![期间结算、年终结算。](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>用于重新生成财务维度集的性能改进（新功能）
 版本 10.0.16 中添加的新功能提高了年终结算和合并流程的性能。 该新功能命名为“用于重新生成财务维度集的性能改进”。 此功能将更改重新生成维度集的方式，以便仅在相关时间范围内重新生成维度集。 在先前的版本中，为会所有日期重新生成维度集。 例如，如果您要对 2020 年进行结算，则系统将仅重新生成 2020 会计年度内的交易记录的余额。 如果您对 2020 年 11 月 1 日至 2020 年 11 月 30 日的日期范围运行合并，则系统将仅重新生成该日期范围的余额。
 
 由于此功能被认为是中断性变更，因此您需要使用 **功能管理** 工作区来启用它。
  
-[![年终结算](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![年终结算。](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>应付帐款：做出了哪些更改以支持 2020 年 1099 年终报告？
 
@@ -106,7 +106,7 @@ ms.locfileid: "5822823"
 - 电子归档 - 格式已更改以适应新的 NEC 表格，MISC 栏更改如上所述。 有关电子归档要求的特定信息，请参阅 [IRS 发布 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf)。
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>应付帐款：1099 – 对于全年都未跟踪 1099 信息的供应商，如何更改该供应商的 1099 栏和值？
-使用更新 1099 功能（**应付帐款 > 供应商 > 所有供应商 > 选择供应商 > 功能区中的“供应商”选项卡 > 更新 1099**）检查先前已付款的账单交易记录，以根据 **供应商** 页面上的 **1099 税** 选项卡中的设置相应地重新分配 1099 数据。
+使用更新 1099 功能（**应付帐款 > 供应商 > 所有供应商 > 选择供应商 > 功能区中的“供应商”选项卡 > 更新 1099**）检查先前已付款的发票交易记录，以根据 **供应商** 页面上的 **1099 税** 选项卡中的设置相应地重新分配 1099 数据。
 
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>我可以一次对我的所有供应商运行更新 1099 吗？
 否。 一次只能针对单个供应商执行更新 1099 例程。 如果您的组织需要此要求，请投票支持标题为[用于更新供应商的 1099 数据的批处理流程](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8)的创意。
@@ -114,18 +114,18 @@ ms.locfileid: "5822823"
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>应付帐款：1099 - 更新 1099 实用程序中的“重新计算现有的 1099 金额”与“全部更新”。
 与 **全部更新** 复选框一起使用时，**重新计算现有的 1099 金额** 复选框会将 1099 金额重置为总付款值。 
 
-[![1099 税交易记录：运行更新例程之前](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![1099 税交易记录：运行更新例程之前。](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
-仅当账单中存在部分 1099 值或在 1099 税表格中修改了值时，**重新计算现有的 1099 金额** 复选框才会起效。 例如，假设您的账单价值为 $1000.00，但是用户在账单中将 1099 金额手动键入为 $500.00。
+仅当发票中存在部分 1099 值或在 1099 税表格中修改了值时，**重新计算现有的 1099 金额** 复选框才会起效。 例如，假设您的发票价值为 $1000.00，但是用户在发票中将 1099 金额手动键入为 $500.00。
 
-[![1099 税交易记录：同时标记“全部更新”和“重新计算现有的 1099 金额”](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![1099 税交易记录：同时标记“全部更新”和“重新计算现有的 1099 金额”。](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 支付此款项后，$500.00 将为支付的 1099 金额。 如果执行重新计算例程，系统会将 1099 金额更改为 $1000.00，这是已支付的总额。
 
-[![1099 税交易记录：运行 1099 例程后](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![1099 税交易记录：运行 1099 例程后。](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>应付帐款：1099 - 手动创建 1099 交易记录
-组织可能需要手动创建与账单不相关的 1099 交易记录。 您可以通过转到 **应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算**，来添加手动 1099 交易记录。 选择 **手动 1099 交易记录** 按钮。 
+组织可能需要手动创建与发票不相关的 1099 交易记录。 您可以通过转到 **应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算**，来添加手动 1099 交易记录。 选择 **手动 1099 交易记录** 按钮。 
 
 使用 **更新 1099** 实用程序中的 **全部更新** 流程或 **重新计算现有的 1099 金额** 流程未更新手动创建的 1099 交易记录。
 

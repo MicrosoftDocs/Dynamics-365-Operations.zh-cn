@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 22104
+ms.custom:
+- "22104"
+- intro-internal
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83852509ad7dd1057906c0e12ffc278768ea986
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 93ba7c8dc29a50de4b4cec342a5a83efe03e6419
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830560"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336133"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>高级银行对帐概览
 

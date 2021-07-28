@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db3dc6c89b5c12a4144a6c080540bfcb6d6bdaa2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e62c2c88f3669df4088e648478baec992cd3eede
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821673"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337019"
 ---
 # <a name="asset-attribute-overview"></a>资产属性概述
 

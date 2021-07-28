@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 79300c84b07db23ad387e0f3e475ca1707c79548
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347360"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>付款会在订单开发票或装运之前自动结清
 
@@ -43,12 +43,12 @@ ms.locfileid: "6018252"
 1. 在顶部导航栏上，选择 **帐户**，然后选择 **设置**。
 1. 在 **捕获延迟** 字段中，选择 **手动**。
 
-    ![Adyen 门户中的“捕获延迟”设置](media/adyen-capture-delay.jpg)
+    ![Adyen 门户中的“捕获延迟”设置。](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>其他资源
 
 [Adyen 付款捕获](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[适用于 Adyen 的 Dynamics 365 付款连接器](../dev-itpro/adyen-connector.md)
+[面向 Adyen 的 Dynamics 365 Payment Connector](../dev-itpro/adyen-connector.md)
 
 [设置适用于 Dynamics 365 的 Adyen 付款连接器](https://docs.adyen.com/plugins/microsoft-dynamics)

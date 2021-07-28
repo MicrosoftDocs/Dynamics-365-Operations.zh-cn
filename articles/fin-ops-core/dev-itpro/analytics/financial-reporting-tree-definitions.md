@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866294"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345778"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
@@ -170,23 +170,23 @@ ms.locfileid: "5866294"
 - 最低级别的详细信息报告单位（Home Sales、Auto Sales、Client Services 和 Operations）代表财务数据中的部门。 这些报告单位在图中的阴影区域中。
 - 更高级别的汇总单位汇总了详细信息单位中的信息。
 
-[![Contoso 汇总报表结构 - 示例 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso 汇总报表结构 - 示例 1。](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>报告单位结构 – 示例 2
 
 在下图中，报告结构树具有按业务职能划分的组织结构树。
 
-[![Contoso 汇总报表结构 - 示例 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso 汇总报表结构 - 示例 2。](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>“从维度插入报告单位”对话框的示例
 
 下图显示了 **从维度插入报告单位** 对话框的示例。 在本示例中，结果将返回业务单位、成本中心和部门的组合。
 
-[![插入报告单位](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![插入报告单位。](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 结果报告结构树定义按业务单位排序，然后按成本中心，再然后按部门。 第五个报告单位的维度是 **业务单位 = \[001\]、成本中心 =\[\]、部门 = \[022\]**，标识特定于业务单位 001 和部门 022 的帐户的报告单位。
 
-[![报告树的图示](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![报告树的图示。](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>数据累积的示例
 
@@ -194,11 +194,11 @@ ms.locfileid: "5866294"
 
 #### <a name="example-1"></a>示例 1
 
-[![多公司累积](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![多公司累积。](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>示例 2
 
-[![跨公司部门累积](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![跨公司部门累积。](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>其他资源
 

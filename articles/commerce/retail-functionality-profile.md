@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b8d481597485775796290f61de19ef7682cb9f43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84423e1a7cf90cc6427e7e42005f52417abff091
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791989"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345048"
 ---
 # <a name="create-a-retail-functionality-profile"></a>创建零售功能配置文件
 
@@ -47,7 +47,7 @@ Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个�
   
 下图显示了一个功能配置文件示例。
   
-![功能配置文件示例](media/retail-functionality-profile.png)
+![功能配置文件示例。](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>其他资源
 

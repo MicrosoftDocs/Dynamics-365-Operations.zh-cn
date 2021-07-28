@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908559"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344262"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
 
@@ -56,38 +56,38 @@ ms.locfileid: "5908559"
     1. 在 **维护清单行** 快速选项卡上，选择要与指南关联的行。
     1. 在 **关联的指南** 快速选项卡上，选择 **添加指南**。
 
-        ![将指南与维护清单行关联](media/am-guides-integration-add-guide.png "将指南与维护清单行关联")
+        ![将指南与维护清单行关联。](media/am-guides-integration-add-guide.png "将指南与维护清单行关联")
 
     1. 在 **名称** 字段中，选择指南，然后选择 **保存**。
 
-        ![在“名称”字段中选择指南](media/am-guides-integration-select-guide.png "在“名称”字段中选择指南")
+        ![在“名称”字段中选择指南。](media/am-guides-integration-select-guide.png "在“名称”字段中选择指南")
 
 1. 将维护清单模板与作业类型关联：
 
     1. [创建维护作业类型](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type)，或选择现有的维护作业类型。
     1. 在操作窗格上，选择 **维护作业类型默认值**。
 
-        ![维护作业类型默认值按钮](media/am-guides-integration-job-defaults.png "维护作业类型默认值按钮")
+        ![维护作业类型默认值按钮。](media/am-guides-integration-job-defaults.png "维护作业类型默认值按钮")
 
     1. 创建一个行，然后选择 **保存**。
 
-        ![创建行](media/am-guides-integration-add-line.png "创建行")
+        ![创建一行。](media/am-guides-integration-add-line.png "创建行")
 
     1. 在操作窗格上，选择 **维护清单**。
 
-        ![维护清单按钮](media/am-guides-integration-maintenance-checklist.png "维护清单按钮")
+        ![维护清单按钮。](media/am-guides-integration-maintenance-checklist.png "维护清单按钮")
 
     1. 在 **维护清单行** 快速选项卡上，添加一个行，然后将 **类型** 字段的值更改为 **模板**。
 
-        ![更改类型值](media/am-guides-integration-checklist-lines.png "更改类型值")
+        ![更改类型值。](media/am-guides-integration-checklist-lines.png "更改类型值")
 
     1. 在 **行详细信息** 快速选项卡上的 **模板** 字段中，选择与指南关联的模板，然后选择 **保存**。
 
-        ![选择模板](media/am-guides-integration-checklist-line-details.png "选择模板")
+        ![选择模板。](media/am-guides-integration-checklist-line-details.png "选择模板")
 
 1. [创建工作订单](work-orders/manually-created-workorders.md#create-work-order)，然后选择使用与指南相关联的维护清单模板的维护作业类型。 指南会自动与工作订单关联。
 
-    ![选择维护作业类型](media/am-guides-integration-create-work-order.png "选择维护作业类型")
+    ![选择维护作业类型。](media/am-guides-integration-create-work-order.png "选择维护作业类型")
 
 1. 查看与工作订单和工作人员相关联的指南：
 
@@ -95,11 +95,11 @@ ms.locfileid: "5908559"
     1. 针对此工作订单，[打开维护清单](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job)。
     1. 选择清单行以查看关联的指南。
 
-        ![与清单行关联的指南](media/am-guides-integration-show-guide.png "与清单行关联的指南")
+        ![与清单行关联的指南。](media/am-guides-integration-show-guide.png "与清单行关联的指南")
 
     1. 在 HoloLens 上打开指南。
 
-        ![在 HoloLens 上打开指南](media/am-guides-integration-hololens-select.png "在 HoloLens 上打开指南")
+        ![在 HoloLens 上打开指南。](media/am-guides-integration-hololens-select.png "在 HoloLens 上打开指南")
 
 > [!NOTE]
 > 您也可以直接在工作订单或工作类型的维护清单中关联指南。

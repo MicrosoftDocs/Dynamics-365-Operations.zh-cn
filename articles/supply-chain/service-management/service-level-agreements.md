@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55d65de5c041bd100bf8267bdbe3c5c5eb061a61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d39d76151ddc91b0242b17f344415b2746cc9598
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835910"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336333"
 ---
 # <a name="service-level-agreements-overview"></a>服务级别协议概览       
 

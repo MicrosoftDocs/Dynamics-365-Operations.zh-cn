@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755244"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347940"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 
@@ -174,7 +174,7 @@ ms.locfileid: "5755244"
 
 在以下示例中，由于现金科目中无活动，用户想要防止打印报表 **现金总额** 行中的标题和下划线。 因此，在第 220 行（如 **---** 格式代码表示，此行是格式行）的 **相关公式/行/单位** 单元格中，她输入 **250**，该数是用户想要隐藏的金额行的行代码。
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition。](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>选择列计算的基准行
 在关系报告中，通过使用 **CBR**（更改基准行）格式代码在行定义中分配一个或多个基准行。 然后，列定义中的计算会引用基准行。 下面是 CBR 计算的一些典型示例：
@@ -399,7 +399,7 @@ ms.locfileid: "5755244"
 2. 双击 **指向财务维度的链接** 列中的单元格。
 3. 在 **维度** 对话框中，双击维度名称下的单元格。
 4. 在维度的对话框中，选择 **单个或系列**。
-5. 在 **从** 字段中，输入起始维度，或单击![浏览](media/browse.gif "浏览")搜索可用维度。 要输入维度的范围，在 **到** 字段中输入结束维度。
+5. 在 **从** 字段中，输入起始维度，或者单击 ![浏览。](media/browse.gif "浏览") 以搜索可用维度。 要输入维度的范围，在 **到** 字段中输入结束维度。
 6. 单击 **确定** 以关闭维度的对话框。 **维度** 对话框将显示更新后的维度或范围。
 7. 单击 **确定** 以关闭 **维度** 对话框。
 
@@ -476,7 +476,7 @@ ms.locfileid: "5755244"
 
 | 项目                | 说明 |
 |---------------------|-------------|
-| 单个或范围 | 在 **从** 字段中，输入科目的名称，或单击 **浏览** 按钮 ![浏览](media/browse.gif "浏览") 以浏览科目。 要选择范围，请在 **到** 字段中输入值或浏览值。 |
+| 单个或范围 | 在 **从** 字段中，输入帐户的名称，或单击 **浏览** 按钮 ![浏览。](media/browse.gif "浏览") 以浏览帐户。 要选择范围，请在 **到** 字段中输入值或浏览值。 |
 | 维度值集 | 在 **名称** 字段中，输入维度值集的名称。 要创建、修改、复制或删除集，请单击 **管理维度值集**。 **公式** 字段将使用行定义中此维度值集的 **链接到财务维度** 单元格中的公式填充。 |
 | 会计科目合计   | 在 **名称** 字段中，输入或浏览汇总科目的维度。 **公式** 字段将使用报表定义中此汇总科目的 **链接到财务维度** 单元格中的公式填充。 |
 

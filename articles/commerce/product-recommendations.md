@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 044a5c21e4ebf1bf83edc74335e655b9388bc1d4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795589"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337495"
 ---
 # <a name="product-recommendations-overview"></a>产品建议概览
 
@@ -32,6 +32,9 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 客户可通过产品建议轻松、快速地找到所需产品，同时享受良好的服务体验。 甚至可使用交叉销售和向上销售帮助客户找到甚至最初不打算购买的更多产品。 使用建议增强产品发现时，可以产生更多转化商机，帮助提高销售利润，甚至帮助加强客户满意度和保留。
 
 在电子商务中，Microsoft Recommendations 机器学习技术大幅助力产品建议。
+
+此服务是 Dynamics 365 Commerce 的附加产品。 有关详细信息，请下载最新的 [Microsoft Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544)。
+
 
 ## <a name="recommendation-service"></a>建议服务
 
@@ -47,7 +50,7 @@ Microsoft Dynamics 365 Commerce 可用于在电子商务网站和销售点 (POS)
 - **在电子商务中用于浏览或登录页面的任何商店页面上：** 如果客户或商店助理访问某个商店页面，建议引擎可在 **新品**、**最畅销** 和 **热门** 列表中推荐产品。
 - **在“产品详细信息”页中：** 如果客户或商店助理访问 **产品详细信息** 页，建议引擎将推荐也可能购买的更多商品。 这些商品在 **用户也喜欢** 列表中显示。
 - **在“交易记录”页或结帐页中：** 建议引擎基于购物篮中的完整商品列表推荐商品。 这些商品在 **人气组合** 列表中显示。
-- **个性化建议：** 商品交易商可以为登录客户提供个性化的 **为您推荐** 列表，以及新功能，从而允许根据该客户对现有列表方案进行个性化设置。 若要了解详细信息，请参阅[启用个性化建议](personalized-recommendations.md)。
+- **个性化建议：** 商品交易商可以为登录客户提供个性化的 **为您推荐** 列表，以及新功能，从而允许根据该客户对现有列表方案进行个性化。 若要了解详细信息，请参阅[启用个性化建议](personalized-recommendations.md)。
 
 ### <a name="types-of-product-recommendations"></a>产品建议的类型
 

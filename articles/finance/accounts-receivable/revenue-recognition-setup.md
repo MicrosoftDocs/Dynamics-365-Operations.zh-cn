@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837145"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345618"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ ms.locfileid: "5837145"
     - 将此选项设置为 **否** 可限制将更正的交易记录过帐到总帐。 当将此选项设置为 **否** 时，不会在应收帐款中创建用于内部会计更正的附加文档。 对发票付款时，结算流程使用旧会计条目过帐任何现金折扣，或者任何已实现利润或已有损失。
     - 将此选项设置为 **是**，可自动为应收帐款中的更正交易记录创建冲销文档和新发票。 由于此更正是内部会计更正，将不会向客户发送或传达新文档。 冲销文档将结算到原始发票，并且新更正的发票由客户付款。 请注意，所有三个文档都将显示在报表中，例如客户对帐单。
 
-[![设置信息](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![设置信息。](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>收入计划
 
@@ -82,7 +82,7 @@ ms.locfileid: "5837145"
 
 收入计划在 **收入计划** 页面（**收入确认 \> 设置 \> 收入计划**）中创建。
 
-[![收入计划](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![收入计划。](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 在 **收入计划** 和 **说明** 字段中输入描述性值。 以下附加设置用于在过帐发票时创建收入计划。
 
@@ -104,7 +104,7 @@ ms.locfileid: "5837145"
 
 选择 **收入计划详细信息** 按钮，可查看每个期间中确认的一般期间和百分比。 默认情况下，**确认百分比** 值在期间数之间平均划分。 如果确认基础设置为 **每月** 或 **发生次数**，则可以更改确认百分比。 更改确认百分比时，将会显示一条警告消息，通知您总计不等于 100%。 如果您收到该消息，可以继续编辑行。 但在关闭页面之前，百分比总计必须达到 100。
 
-[![收入计划详细信息](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![收入计划详细信息。](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>库存设置
 
@@ -139,7 +139,7 @@ ms.locfileid: "5837145"
 
 在配置已发布产品的设置完成后，必须通过手动在 **收入价格** 页面（转至 **收入确认 \> 设置 \> 库存设置 \> 已发布产品**，然后在操作窗格的 **销售** 选项卡的 **收入确认** 组中，选择 **收入价格**）上输入公平价值价格或中间价格，来定义收入价格。
 
-[![收入价格](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![收入价格。](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 此页面上手动定义的收入价格用于基于所定义的条件，来确定每个销售订单上的收入价格分配。 每个条件都与销售订单行匹配，以确定应在分配流程中使用的收入价格。
 
@@ -181,9 +181,9 @@ ms.locfileid: "5837145"
 
 然后，必须在 **物料清单版本** 页面（转到 **收入确认 \> 设置 \> 库存和产品设置 \> 已发布产品**，然后在操作窗格的 **工程师** 选项卡的 **物料清单** 组中，选择 **物料清单版本**）上将组件分配到捆绑/物料清单父物料。 有关详细信息，请参阅物料清单的设置文档。
 
-[![已发布产品、物料清单计划](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![已发布产品、物料清单计划。](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
-如果设置捆绑父物料和捆绑组件以分配，则捆绑收入价格将基于其收入贡献百分比而分配到组件。
+如果设置捆绑销售父物料和捆绑销售组件以进行分配，则捆绑销售收入价格将基于其收入贡献百分比而分配到组件。
 
 ## <a name="project-setup"></a>项目设置
 

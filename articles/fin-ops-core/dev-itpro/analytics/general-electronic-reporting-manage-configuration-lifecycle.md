@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893193"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345730"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
@@ -80,7 +80,7 @@ ms.locfileid: "5893193"
 
 在开发环境中设计的 ER 配置可[上传](#data-persistence-consideration)到测试环境以进行配置评估（适当的流程集成、结果的正确性、性能）和质量保证（例如角色驱动的访问权限的正确性和职责划分）。 启用 ER 配置交换的功能可以用于此目的。 已审核的 ER 配置可上传到 LCS 以与服务订阅者共享，它们也可[导入](#data-persistence-consideration)到生产环境以供内部使用。
 
-![ER 配置生命周期](./media/ger-configuration-lifecycle.png)
+![ER 配置生命周期。](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />数据持久性注意事项
 

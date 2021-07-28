@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 265694
+ms.custom:
+- "265694"
+- intro-internal
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0be4f3526e7a81398a3e06aef9432ef0c60945ed
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52c6c6cd9b05ca4e094486b5205584753e5a3132
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753110"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336776"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI 内容主页
 

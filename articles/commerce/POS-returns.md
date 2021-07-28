@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129796"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345176"
 ---
 # <a name="create-returns-in-pos"></a>在 POS 中创建退货
 
@@ -48,7 +48,7 @@ ms.locfileid: "6129796"
 
 对于可退货产品列表中的每个订单行，POS 会显示有关原始采购数量和先前处理的任何退货数量的信息。 用户为订单行输入的退货数量必须小于或等于 **可以退货** 字段的值。
 
-![可退货产品页面](media/returnslist.png)
+![可退货产品页面。](media/returnslist.png)
 
 在退货处理期间，如果用户有实物产品，并且该产品有条码，用户可以扫描条码进行退货登记。 每扫描一次条码，退货数量就会增加一件。 但是，如果条码标签具有嵌入的数量，该数量将在 **立即退回** 字段中输入。
 
@@ -97,6 +97,13 @@ ms.locfileid: "6129796"
 
 > [!NOTE]
 > 当打开 **POS 中的统一退货处理体验** 功能时，支持验证序列化产品退货的新可选功能变得可用。 有关详细信息，请参阅[在销售点 (POS) 中退回序列号控制的产品](POS-serial-returns.md)。
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>对具有部分数量的退货启用正确的税金计算
+
+此功能可确保在使用多个发票进行订单退货时，最终的税金等于最初收取的税额。
+1.  转到 **功能管理** 工作区并搜索 **对具有部分数量的退货启用正确的税金计算**。
+2.  选择 **对具有部分数量的退货启用正确的税金计算**，然后单击 **启用**。
+
 
 ## <a name="additional-resources"></a>其他资源
 

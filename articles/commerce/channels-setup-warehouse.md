@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345976"
 ---
 # <a name="warehouse-set-up"></a>仓库设置
 
@@ -45,7 +45,7 @@ ms.locfileid: "5800487"
 
 下图显示了一个仓库站点示例。
 
-![仓库站点示例](media/warehouse-site.png)
+![仓库站点示例。](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>设置仓库
 
@@ -98,7 +98,7 @@ ms.locfileid: "5800487"
     
 下图显示了旧金山仓库库存库位设置过程。
 
-![库存库位设置示例](media/warehouse-inventory-locations.png)
+![库存库位设置示例。](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>完成仓库设置
 
@@ -121,7 +121,7 @@ ms.locfileid: "5800487"
 
 下图显示了已配置仓库的详细信息。
 
-![已配置仓库示例](media/warehouse-sample.png)
+![已配置仓库示例。](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>其他资源
 

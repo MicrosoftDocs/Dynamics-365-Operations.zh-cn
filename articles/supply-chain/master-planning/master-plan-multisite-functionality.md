@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2434
+ms.custom:
+- "2434"
+- intro-internal
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e30bb8dfb790958b30cb3be807847ee737fb5026
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 65a1b7570466907e6b919f583db0bf553cbd542a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833561"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335956"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>主计划和多站点功能概览
 
