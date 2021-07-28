@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097226"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354729"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>负天数和动态负天数
 
@@ -43,7 +43,7 @@ ms.locfileid: "6097226"
 
 下图显示此场景的图形视图。
 
-![场景 1 的图形视图](./media/negative-days-1.jpg)
+![场景 1 的图形视图。](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>案例 A：负天数小于物料提前期
 
@@ -51,11 +51,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 1 的案例 A 屏幕截图](./media/negative-days-2.png)
+![场景 1 的案例 A 的屏幕截图。](./media/negative-days-2.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 1 的案例 A 图形视图](./media/negative-days-3.png)
+![场景 1 的案例 A 的图形视图。](./media/negative-days-3.png)
 
 如果考虑 MRP 绩效和计划紧张，则此案例的效果不佳。 MRP 必须创建新计划订单，并且必须计算延迟和行动。 这些任务比较耗时。 此案例将向计划再添加两个交易。 另一方面，销售订单仅延迟六天，而不是七天。
 
@@ -73,11 +73,11 @@ ms.locfileid: "6097226"
 
 如果使用动态负天数，则 MRP 查看收货的时段现在为 6 + 2 + 0 = 8 天。 MRP 查找现有采购订单并将销售订单与其关联。 将不创建任何新的计划订单。 因此，MRP 的运行时间较短。 下图显示 DemoProduct 物料的净需求。
 
-![场景 1 的案例 C 净需求](./media/negative-days-4.png)
+![场景 1 的案例 C 的净需求。](./media/negative-days-4.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 1 的案例 C 图形视图](./media/negative-days-5.png)
+![场景 1 的案例 C 的图形视图。](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>案例 D：仅使用动态负天数
 
@@ -85,11 +85,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 1 的案例 D 屏幕截图](./media/negative-days-6.png)
+![场景 1 的案例 D 的屏幕截图。](./media/negative-days-6.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 1 的案例 D 图形视图](./media/negative-days-7.png)
+![场景 1 的案例 D 的图形视图。](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>案例 E：同时使用大于物料提前期的负天数和动态负天数时段
 
@@ -106,7 +106,7 @@ ms.locfileid: "6097226"
 
 下图显示此场景的图形视图。
 
-![场景 2 的图形视图](./media/negative-days-8.png)
+![场景 2 的图形视图。](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>案例 A：负天数小于物料提前期
 
@@ -114,11 +114,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 2 的案例 A 屏幕截图](./media/negative-days-9.png)
+![场景 2 的案例 A 的屏幕截图。](./media/negative-days-9.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 2 的案例 A 图形视图](./media/negative-days-10.png)
+![场景 2 的案例 A 的图形视图。](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>案例 B：负天数大于物料提前期
 
@@ -130,11 +130,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 2 的案例 C 屏幕截图](./media/negative-days-11.png)
+![场景 2 的案例 C 的屏幕截图。](./media/negative-days-11.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 2 的案例 C 图形视图](./media/negative-days-12.png)
+![场景 2 的案例 C 的图形视图。](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>案例 D：仅使用动态负天数
 
@@ -155,7 +155,7 @@ ms.locfileid: "6097226"
 
 下图显示此场景的图形视图。
 
-![场景 3 的图形视图](./media/negative-days-13.png)
+![场景 3 的图形视图。](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>案例 A：负天数小于物料提前期
 
@@ -163,11 +163,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 3 的案例 A 屏幕截图](./media/negative-days-14.png)
+![场景 3 的案例 A 的屏幕截图。](./media/negative-days-14.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 3 的案例 A 图形视图](./media/negative-days-15.png)
+![场景 3 的案例 A 的图形视图。](./media/negative-days-15.png)
 
 > [!NOTE]
 > 在前面的屏幕截图中，采购订单需求日期为 1 月 12 日。 因为该屏幕截图是在 2015 年截取的，当时 1 月 11 日是星期日，MRP 将需求日期移到了下一个工作日，即 1 月 12 日，星期一。 不过，采购订单的交付日期为 1 月 11 日。
@@ -178,11 +178,11 @@ ms.locfileid: "6097226"
 
 下图显示此案例的屏幕截图。
 
-![场景 3 的案例 B 屏幕截图](./media/negative-days-16.png)
+![场景 3 的案例 B 的屏幕截图。](./media/negative-days-16.png)
 
 下图显示此案例中的结果的图形视图。
 
-![场景 3 的案例 B 图形视图](./media/negative-days-17.png)
+![场景 3 的案例 B 的图形视图。](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>案例 C：将物料提前期与负天数时段自动关联
 
@@ -192,7 +192,7 @@ ms.locfileid: "6097226"
 
 下图显示此案例中的结果的图形视图。
 
-![场景 3 的案例 C 图形视图](./media/negative-days-18.png)
+![场景 3 的案例 C 的图形视图。](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>案例 D：仅使用动态负天数
 
@@ -219,11 +219,11 @@ ms.locfileid: "6097226"
 
 下图显示结果的图形视图。
 
-![示例的图形回顾](./media/negative-days-19.png)
+![示例的图形回顾。](./media/negative-days-19.png)
 
 MRP 产生以下结果。
 
-![结果示例 1](./media/negative-days-20.png)
+![结果示例 1。](./media/negative-days-20.png)
 
 在上一个屏幕截图中，销售订单需求日期为 1 月 9 日，而不是 1 月 10 日。 因为该屏幕截图是在 2015 年截取的，当时 1 月 10 日是星期六，所以订单的需求日期应该是上一个工作日，即 1 月 9 日，星期五。
 
@@ -233,7 +233,7 @@ MRP 创建计划采购订单以履行第一个销售订单请求的需求，但�
 
 如果将负天数减小到更接近物料提前期的数字，并且使用动态负天数，MRP 将产生以下结果。
 
-![结果示例 2](./media/negative-days-21.png)
+![结果示例 2。](./media/negative-days-21.png)
 
 MRP 创建一个附加到第一个销售订单的计划订单。 然后，基于负天数设置将第二个销售订单与现有采购订单关联。这是正常现象。 这个计划结果也是正确的，并且 MRP 的运行时间可能较短。 在此情况下，务必了解并知道如何使用行动消息。
 

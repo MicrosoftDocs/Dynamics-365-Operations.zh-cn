@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353364"
 ---
 # <a name="work-policies"></a>工作策略
 
@@ -200,7 +200,7 @@ ms.locfileid: "5838122"
 
 在以下示例中，有两个生产订单，*PRD-001* 和 *PRD-002*。 生产订单 *PRD-001* 具有名为 *装配* 的工序，其中的产品 *SC1* 正报告为完工入库到位置 *001*。 生产订单 *PRD-002* 具有名为 *喷涂* 的工序，使用来自位置 *001* 的产品 *SC1*。 生产订单 *PRD-002* 还使用来自位置 *001* 的原材料 *RM1*。 原材料 *RM1* 存储在仓库位置 *BULK-001*，将通过原材料领料的仓库工作领取到位置 *001*。 生产 *PRD-002* 发放时生成领料工作。
 
-[![仓库工作策略](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![仓库工作策略。](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 当您计划为此方案配置仓库工作策略时，您应该考虑以下几点：
 

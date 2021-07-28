@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893900"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359021"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -39,7 +39,7 @@ ms.locfileid: "5893900"
 
 若要配置此配置的 ER 格式组件，请在操作窗格上选择 **设计器**，然后打开要用于在 ER 操作设计器中进行编辑的 ER 格式组件。
 
-![配置页面](./media/er-excel-format-add-format.png)
+![配置页面。](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Excel 文件组件
 
@@ -47,14 +47,14 @@ ms.locfileid: "5893900"
 
 必须向配置的 ER 格式添加 **Excel\\文件** 组件，才能生成 Excel 格式的传出文档。
 
-![Excel\File 组件](./media/er-excel-format-add-file-component.png)
+![Excel\文件组件。](./media/er-excel-format-add-file-component.png)
 
 若要指定传出文档的布局，请向 **Excel\\文件** 组件添加一个扩展名为 .xlsx 的 Excel 工作簿充当传出文档的模板。
 
 > [!NOTE]
 > 手动附加模板时，必须使用已经在 [ER 参数](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)中为此目的配置的[文档类型](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types)。
 
-![向“Excel\文件”组件添加附件](./media/er-excel-format-add-file-component2.png)
+![向“Excel\文件”组件添加附件。](./media/er-excel-format-add-file-component2.png)
 
 若要指定在运行配置的 ER 格式时如何填写附加的模板，必须向 **Excel\\文件** 组件添加嵌套的 **工作表**、**范围** 和 **单元格** 组件。 每个嵌套组件必须与一个 Excel 命名项关联。
 
@@ -62,7 +62,7 @@ ms.locfileid: "5893900"
 
 可以选择操作窗格 **导入** 选项卡上的 **从 Excel 导入**，以将新模板导入到空白 ER 格式中。 在此示例中，将自动创建一个 **Excel\\文件** 组件，并为其附加导入的模板。 还将根据发现的 Excel 命名项列表自动创建所有必需 ER 组件。
 
-![选择“从 Excel 导入”](./media/er-excel-format-import-template.png)
+![选择“从 Excel 导入”。](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > 如果要创建可编辑 ER 格式的可选 **工作表** 元素，请将 **创建 Excel 工作表格式元素** 选项设置为 **是**。
@@ -79,7 +79,7 @@ ms.locfileid: "5893900"
 - 如果将 **启用** 属性的表达式配置为在运行时返回 **True**，或者如果根本不配置任何表达式，将把适当的工作表放入生成的文档中。
 - 如果将 **启用** 属性的表达式配置为在运行时返回 **False**，生成的文档中将不包含工作表。
 
-![工作表组件的示例](./media/er-excel-format-sheet-component.png)
+![工作表组件的示例。](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>范围组件
 
@@ -182,7 +182,7 @@ ms.locfileid: "5893900"
 >
 > 如果可编辑 ER 格式中最初包含 **工作表** 元素，建议在导入更新后的模板时，将 **创建 Excel 工作表格式元素** 选项设置为 **是**。 否则，将从头开始创建原始 **工作表** 元素的所有嵌套元素。 因此，更新后的 ER 中将不包含重新创建的格式元素的所有绑定。
 
-![在“从 Excel 更新”对话框中创建 Excel 工作表格式元素](./media/er-excel-format-update-template.png)
+![在“从 Excel 更新”对话框中创建 Excel 工作表格式元素。](./media/er-excel-format-update-template.png)
 
 若要详细了解此功能，请执行[通过重新应用 Excel 模板修改电子报告格式](modify-electronic-reporting-format-reapply-excel-template.md)中的步骤。
 
@@ -190,7 +190,7 @@ ms.locfileid: "5893900"
 
 验证可编辑的 ER 格式时，将执行一致性检查以确保当前所用 Excel 模板中包含 Excel 名称。 将通知您任何不一致。 将为某些不一致提供用于自动解决问题的选项。
 
-![验证错误消息](./media/er-excel-format-validate.png)
+![验证错误消息。](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>控制 Excel 公式的计算
 
@@ -209,7 +209,7 @@ ms.locfileid: "5893900"
 1. 使用提供的 ER 配置[生成](er-generate-printable-fti-forms.md)可打印的自由文本发票 (FTI) 文档。
 2. 查看生成的文档的页脚。 请注意，它包含有关文档中的当前页码和页面总数的信息。
 
-    ![查看以 Excel 格式生成的文档的页脚](./media/er-fillable-excel-footer-1.gif)
+    ![查看 Excel 格式的生成文档的页脚。](./media/er-fillable-excel-footer-1.gif)
 
 3. 在 ER 格式设计器中，[打开](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format)样本 ER 格式以供审核。
 
@@ -222,7 +222,7 @@ ms.locfileid: "5893900"
 
     - 第二个 **字符串** 组件填充的文本包含当前文档中的当前页码和页面总数。
 
-    ![在“格式设计器”页面上查看页脚 ER 格式组件](./media/er-fillable-excel-footer-2.png)
+    ![在“格式设计器”页面上查看页脚 ER 格式组件。](./media/er-fillable-excel-footer-2.png)
 
 4. 自定义示例 ER 格式以修改当前页面页脚：
 
@@ -237,20 +237,20 @@ ms.locfileid: "5893900"
         1. 添加一个 **字符串** 组件，使处理日期右对齐并以 8 磅的 "Segoe UI Regular" 字体(**"&R&"Segoe UI,Regular"&8"**) 显示。
         2. 添加一个以自定义格式 (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**) 填写处理日期的 **字符串** 组件。
 
-        ![在“格式设计器”页面上查看页脚 ER 格式组件](./media/er-fillable-excel-footer-3.png)
+        ![在“格式设计器”页面上查看页脚 ER 格式组件。](./media/er-fillable-excel-footer-3.png)
 
     4. [完成](er-quick-start2-customize-report.md#CompleteDerivedFormat)草稿版本的派生 **普通发票 (Excel) 自定义** ER 格式。
 
 5. [配置](er-generate-printable-fti-forms.md#configure-print-management)打印管理，以使用派生的 **普通发票 (Excel) 自定义** ER 格式，而不是示例 ER 格式。
 6. 生成可打印的 FTI 文档，并查看生成的文档的页脚。
 
-    ![查看以 Excel 格式生成的文档的页脚](./media/er-fillable-excel-footer-4.gif)
+    ![查看 Excel 格式的生成文档的页脚。](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>其他资源
 
 [电子申报概览](general-electronic-reporting.md)
 
-[设计以 OPENXML 格式生成报表的配置](tasks\er-design-reports-openxml-2016-11.md)
+[设计用于生成 OPENXML 格式的报表的配置](tasks\er-design-reports-openxml-2016-11.md)
 
 [通过重新应用 Excel 模板修改电子报告格式](modify-electronic-reporting-format-reapply-excel-template.md)
 

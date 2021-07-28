@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: be78b92858979b8bb009a4699eff96379ef7cef3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 45df6566a24cd519ccaad67c5d47abd9b7af7aee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791094"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353028"
 ---
 # <a name="create-an-online-functionality-profile"></a>创建在线功能配置文件
 
@@ -42,9 +42,9 @@ ms.locfileid: "5791094"
 
 下图显示了一个在线功能配置文件示例。
   
-![在线功能配置文件示例](media/online-functionality-profile.png)
+![在线功能配置文件示例。](media/online-functionality-profile.png)
 
-## <a name="functions"></a>函数
+## <a name="functions"></a>功能
 
 - **聚合产品**：启用后，此功能允许购物车在多次添加同一商品时更新数量。
 - **允许不付款结帐**：启用后，此功能可以处理添加到购物车中的商品价格为 0.00 美元的情况。

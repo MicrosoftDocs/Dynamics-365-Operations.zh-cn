@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102966"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354897"
 ---
 # <a name="create-maintenance-requests"></a>创建维护请求
 
@@ -52,7 +52,7 @@ Active maintenance requests section of the Related information pane on the right
 11. 在 **注释** 字段中，输入所需的其他任何注释。
 12. 选择 **确定**。
 
-![创建维护请求](media/03-manage-maintenance-requests.png)
+![创建维护请求。](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>维护请求的后续处理
 
@@ -67,7 +67,7 @@ Active maintenance requests section of the Related information pane on the right
 - 选择维护作业类型，并且如果此信息相关，则选择关联的维护作业变体和作业交易。
 - 在 **纬度** 和 **经度** 字段中输入地理坐标。 将把向维护请求添加的所有坐标自动传输给关联的工作订单。 
 
-![更新维护请求](media/04-manage-maintenance-requests.png)
+![更新维护请求。](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > 如果在创建维护请求时选择资产，则可向该资产添加一个故障。 创建维护请求之后，可以根据需要添加更多故障。 若要添加故障，请选择 **所有维护请求** 页中的 **资产故障**。

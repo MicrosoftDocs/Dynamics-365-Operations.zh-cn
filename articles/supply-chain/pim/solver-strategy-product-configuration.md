@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812707"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359925"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 
@@ -50,7 +50,7 @@ ms.locfileid: "5812707"
 
 若要更改求解器策略，请在 **配置产品模型** 页面中的操作窗格上，选择 **模型属性**。 然后，在 **编辑模型详细信息** 对话框中，选择求解器策略。
 
-[![更改求解器策略](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![更改求解器策略。](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 目前不存在自动检测哪个求解器策略对基于约束的产品配置效率最高的逻辑。 因此，必须逐一尝试求解器策略。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356504"
 ---
 # <a name="manage-leave-requests-in-teams"></a>管理 Teams 中的休假申请
 
@@ -61,7 +61,7 @@ ms.locfileid: "6097251"
 
 - 为您启动休假请求。 例如，发送一条消息“休假”或“我想在下周四和周五休假”，以更具体地提出休假类型的休假请求。 
 
-  ![在 Teams 聊天中发起休假请求](./media/hr-teams-leave-app-initiate.png)
+  ![在 Teams 聊天中发起休假请求。](./media/hr-teams-leave-app-initiate.png)
 
 - 聊天机器人将为您填充休假请求。 选择 **请求休假**，然后编辑您的请求的详细信息。
 
@@ -69,11 +69,11 @@ ms.locfileid: "6097251"
 
    如果您在休假请求单位为天时选择半天休假，您可以通过从 **更多选项** 菜单中选择 **半天定义** 选项来指定是要申请上半天还是下半天休息时间。
    
-   ![半天定义](./media/HalfDayDefinitions.png)
+   ![半天定义。](./media/HalfDayDefinitions.png)
 
 - 完成休假请求详细信息的编辑后，选择 **提交** 提交请求进行审批。
 
-  ![提交休假请求](./media/hr-teams-leave-app-submit.png)
+  ![提交休假请求。](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>在 Teams 中管理休假
 
@@ -93,7 +93,7 @@ ms.locfileid: "6097251"
 
 2. 输入请假天数，然后选择 **添加**。
 
-   ![Human Resources Teams 休假应用添加休假](./media/TimeOffHours.png)
+   ![Human Resources Teams 休假应用添加休假。](./media/TimeOffHours.png)
 
 3. 如果适用，输入原因代码。 并且输入任何注释和添加任何附件。
 
@@ -123,7 +123,7 @@ ms.locfileid: "6097251"
 
 1. 在 Teams 中的团队或聊天中，选择聊天窗口下方的 Human Resources 按钮。
 
-   ![聊天窗口下的 Human Resources 按钮](./media/hr-teams-leave-app-chat-button.png)
+   ![聊天窗口下的 Human Resources 按钮。](./media/hr-teams-leave-app-chat-button.png)
 
 2. 选择您要共享的休假请求。 如果要共享休假请求草稿，请先选择 **草稿**。
 
@@ -173,11 +173,11 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 
 在 Teams 中，查看 **设置** 中的 **应用语言**。
 
-![Teams 设置](./media/hr-teams-leave-app-settings.png)
+![Teams 设置。](./media/hr-teams-leave-app-settings.png)
 
 在 Human Resources 中，选择 **设置**，然后选择 **用户选项**。 验证 Teams 中的 **语言** 字段是否与 **应用语言** 字段匹配。
 
-![Human Resources 用户选项](./media/hr-teams-leave-app-user-options.png)
+![Human Resources 用户选项。](./media/hr-teams-leave-app-user-options.png)
 
 如果您仍然遇到翻译问题，请告诉我们。 有关信息，请参阅[获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
 

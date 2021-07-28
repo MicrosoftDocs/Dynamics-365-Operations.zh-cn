@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117211"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356894"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>应用产品维度的显示设置
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度来区分产品�
 
 在 Commerce 站点构建器中，维度设置在 **站点设置 \> 扩展 \> 维度设置** 处定义。 下图显示了站点构建器中维度设置的示例。
 
-![Commerce 站点构建器中站点设置的示例](./dev-itpro/media/swatch_site_settings.PNG)
+![Commerce 站点构建器中站点设置的示例。](./dev-itpro/media/swatch_site_settings.PNG)
 
 有两个维度设置可用：
 
@@ -41,13 +41,13 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度来区分产品�
 
     下图显示了一个示例，其中电子商务站点上的 PDP 包含颜色和尺寸样本。 在此示例中，为颜色维度配置了十六进制代码。 因此，样本显示为颜色。 但是，没有为尺寸维度配置十六进制代码和图像 URL。 因此，显示文本。
 
-    ![在电子商务产品详细信息页上显示为样本的颜色维度的示例](./dev-itpro/media/swatch_pdp.png)
+    ![在电子商务产品详细信息页面上显示为样本的颜色维度的示例。](./dev-itpro/media/swatch_pdp.png)
 
 - **在产品卡中显示的维度** – 指定应在列表和列表页上显示的产品卡上显示哪些维度。 必须为维度启用此设置，维度才能够显示在产品卡上。 **显示为图像的维度** 设置也应启用。 产品卡上的样本选择行为针对颜色维度进行了优化。 对于其他维度，可能需要扩展视图来自定义样本选择行为。
 
     下图显示了一个示例，其中电子商务站点上的列表页包含包括颜色样本的产品卡。
 
-    ![在电子商务列表页上显示为样本的颜色维度的示例](./dev-itpro/media/swatch_searchresults.PNG)
+    ![在电子商务列表页面上显示为样本的颜色维度的示例。](./dev-itpro/media/swatch_searchresults.PNG)
 
 有关如何配置产品维度以使其在站点页面上显示为样本的信息，请参阅[将产品维度值配置为作为样本显示](./dev-itpro/dimensions-swatch.md)。
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356069"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>开始使用适用于意大利的电子开票
 
@@ -59,7 +61,7 @@ ms.locfileid: "5894769"
 
 4. 选择 **电子发票导出 (IT)** 功能，然后选择 **导入**。
 
-![导入电子发票导出 (IT) 功能](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![导入电子发票导出 (IT) 功能。](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 从全局存储库导入 **电子发票导出 (IT)** 功能时，还将导入接下来几节中所述的所有设置。
 
@@ -67,13 +69,13 @@ ms.locfileid: "5894769"
 
 1. 在 **电子开票功能** 页上的 **版本** 选项卡上，选择 **新建**。 
 
-    ![添加新的电子开票功能版本](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![添加新的电子开票功能版本。](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     接下来，您将配置与电子开票功能关联的电子报告 (ER) 格式。
 
 2. 在 **配置** 选项卡上，选择 **添加** 管理配置版本。
 
-    ![管理电子开票功能配置版本](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![管理电子开票功能配置版本。](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     在此步骤中，您将添加和配置用于导出意大利电子发票的不同文件的 ER 格式。 对于意大利 FatturaPA 电子发票，请使用以下标准配置或用于电子开票的实际的自定义配置：
 
@@ -85,17 +87,17 @@ ms.locfileid: "5894769"
 3. 选择特定的 ER 格式文件配置。
 4. 选择 **编辑** 或 **查看** 打开 **格式设计器** 页。
 
-    ![打开“格式设计器”页](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![打开“格式设计器”页面。](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. 使用 **格式设计器** 页编辑和查看 ER 格式文件配置。
 
-    ![“格式设计器”页面](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![“格式设计器”页面。](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>管理电子开票功能设置
 
 - 在 **电子开票功能** 页上的 **设置** 选项卡上，选择 **添加**、**删除** 或 **编辑** 管理电子开票功能设置。
 
-![管理电子开票功能设置](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![管理电子开票功能设置。](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 在此步骤中，您将配置适用于电子发票的事件，包括生成 **FatturaPA** 格式的 XML 输出文件和数字签名（如果需要）。
 
@@ -105,7 +107,7 @@ ms.locfileid: "5894769"
 2. 选择 **编辑**。
 3. 在 **功能版本设置** 页上，选择 **操作** 选项卡管理操作列表。 操作定义必须按顺序运行以完成事件的完全执行的操作的列表。
 
-    ![“操作”选项卡](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![“操作”选项卡。](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | 行动 ID | 操作名称        | 操作描述                                     |
     |-----------|--------------------|--------------------------------------------------------|
@@ -114,11 +116,11 @@ ms.locfileid: "5894769"
 
 4. 选择 **适用性规则** 选项卡查看和维护适用性规则。 适用性规则定义操作将在其中运行的上下文。
 
-    ![“适用性规则”选项卡](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![“适用性规则”选项卡。](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. 选择 **变量** 选项卡查看和维护变量。
 
-    ![“变量”选项卡](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![“变量”选项卡。](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. 定义运行操作所需的公共变量。
 
@@ -133,7 +135,7 @@ ms.locfileid: "5894769"
 3. 在 **生效开始日期** 字段中，选择环境应该生效的日期。
 4. 选择 **启用**。 
 
-![启用电子开票环境](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![启用电子开票环境。](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>发布电子开票功能
 
@@ -149,7 +151,7 @@ ms.locfileid: "5894769"
 1. 在 **电子开票功能** 页的 **版本** 选项卡上，选择状态为 **已完成** 的电子开票功能的版本。
 2. 选择 **更改状态 \> 发布**。
 
-![更改电子开票功能的状态](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![更改电子开票功能的状态。](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>在 Finance 中设置电子开票集成
 
@@ -170,7 +172,7 @@ ms.locfileid: "5894769"
 1. 转到 **组织管理 \> 设置 \> 电子单据参数**。
 2. 在 **功能** 选项卡上，选中功能引用 **IT00036** 的行中的 **已启用** 复选框。
 
-![打开 FatturaPA 功能](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![打开 FatturaPA 功能。](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>配置电子单据
 
@@ -185,7 +187,7 @@ ms.locfileid: "5894769"
     - 对于 **客户发票日记帐**，选择 **客户发票上下文**。
     - 对于 **项目发票**，选择 **项目发票上下文**。
 
-![设置响应类型](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![设置响应类型。](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>电子发票处理
 
@@ -207,13 +209,13 @@ ms.locfileid: "5894769"
 2. 对于任何文档的首次提交，请将 **重新提交文档** 选项设置为 **否**。 如果必须通过服务重新提交文档，请将此选项设置为 **是**。
 3. 在 **要包括的记录** 快速选项卡上，选择 **筛选** 打开 **查询** 对话框，您可以在其中构建查询来选择要提交的文档。
 
-![“提交电子单据”对话框](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![“提交电子单据”对话框。](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>筛选器查询
 
 1. 在 **查询** 对话框中，配置销售发票和项目发票的筛选条件，或将条件留空以包括所有未提交的发票。
 
-    ![设置提交筛选条件](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![设置提交筛选条件。](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. 单击 **确定** 以关闭 **查询** 对话框。
 3. 选择 **确定** 提交所选文档。
@@ -227,13 +229,13 @@ ms.locfileid: "5894769"
 1. 转到 **组织管理 \> 定期 \> 电子单据 \> 电子单据提交日志**。
 2. 在 **文档类型** 字段中，选择 **客户发票日记帐** 或 **项目发票** 筛选所需的电子单据。
 
-    ![选择文档类型以查看提交日志](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![选择文档类型以查看提交日志。](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     **提交状态** 列中显示的值表示提交流程的状态。 指示流程是否按配置运行，以及是否需要其他操作。
 
 3. 在操作窗格上，选择 **查询 \> 提交详细信息** 查看提交执行日志的详细信息。
 
-    ![查看提交日志详细信息](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![查看提交日志详细信息。](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. 在 **处理操作** 快速选项卡上，您可以查看在 RCS 中设置的功能版本中配置的操作的执行日志。 **状态** 列显示操作是否成功运行。
 5. 在 **操作文件** 快速选项卡上，您可以查看在执行操作期间生成的中间文件。 您可以选择 **查看** 以 **FatturaPA** 格式下载输出 XML 文件并查看其内容。

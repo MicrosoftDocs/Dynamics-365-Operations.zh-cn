@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054372"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360464"
 ---
 # <a name="authentication"></a>身份验证
 
@@ -87,7 +87,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 6. 选择 **注册**。
 
-   [![在 Azure 门户中注册新应用](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![在 Azure 门户中注册新应用。](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD 为您的应用分配唯一的应用程序 ID（客户端 ID），并将您转到您的应用的 **概览** 页面。 要为您的应用添加更多功能，您可以选择其他配置选项，例如品牌选项以及证书和密钥选项。
 

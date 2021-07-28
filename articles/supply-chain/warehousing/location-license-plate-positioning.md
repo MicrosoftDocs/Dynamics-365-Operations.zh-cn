@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359755"
 ---
 # <a name="location-license-plate-positioning"></a>货位牌照定位
 
@@ -88,7 +88,7 @@ ms.locfileid: "5831377"
 1. 在 **牌照** 仍处于选中状态的情况下，选择 **添加表联接**。
 1. 在显示的表列表的 **关系** 列中，选择 **货位牌照定位（牌照）**。 然后选择 **选择** 将 **货位牌照定位** 添加到 **库存维度** 表联接。
 
-    ![表联接](media/LpTableJoin.png "表联接")
+    ![表联接。](media/LpTableJoin.png "表联接")
 
 1. 选择 **确定** 确认更新后的联接表，然后关闭查询编辑器。
 1. 在 **位置指令操作** 快速选项卡上，再次选择 **编辑查询** 重新打开查询编辑器。
@@ -100,7 +100,7 @@ ms.locfileid: "5831377"
     - **字段**：*牌照定位*
     - **条件**：*1*
 
-    ![新范围](media/LpPositionCriteria.png "新范围")
+    ![新范围。](media/LpPositionCriteria.png "新范围")
 
 1. 选择 **确定** 确认范围，然后关闭查询编辑器。
 
@@ -275,7 +275,7 @@ ms.locfileid: "5831377"
 1. 在 **扫描工作 ID/牌照 ID** 页面中，选择 **ID** 字段，然后输入销售行中的工作 ID。
 1. 请注意，领料工作将指示您从货位 *01A01R1S2B* 领物料 *A0002*。 您收到此指示是因为，物料 *A0002* 所在牌照位于该货位的位置 *1* 中。
 
-    ![位置 1 货位](media/LocationLicensePlatePositioning.png "位置 1 货位")
+    ![位置 1 库位。](media/LocationLicensePlatePositioning.png "位置 1 货位")
 
 1. 输入您为该货位创建的牌照 ID，然后按照提示为销售订单领料。
 

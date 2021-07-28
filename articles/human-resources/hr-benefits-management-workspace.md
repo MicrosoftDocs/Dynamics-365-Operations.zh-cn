@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193423"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353606"
 ---
 # <a name="benefits-management-workspace"></a>福利管理工作区
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193423"
 本主题将介绍 Dynamics 365 Human Resources 中的 **福利管理** 工作区。
 
 > [!NOTE]
-> 要查看 **福利管理** 工作区，必须首先在“功能管理”中启用 **(预览)福利管理工作区** 功能。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br><br>![雇用福利管理工作区](./media/hr-benefits-management-workspace-enable.png)
+> 要查看 **福利管理** 工作区，必须首先在“功能管理”中启用 **(预览)福利管理工作区** 功能。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br><br>![启用福利管理工作区。](./media/hr-benefits-management-workspace-enable.png)
 
 **福利管理** 工作区为您提供需要您注意的福利项目的快速视图。 在此页上，您可以看到：
 
@@ -43,13 +43,13 @@ ms.locfileid: "6193423"
 - 有活动生活事件的工作人员
 - 有打开的登记但未选择任何计划的工作人员
 
-![福利管理工作区](./media/hr-benefits-management-workspace.png)
+![福利管理工作区。](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>查看操作项
 
 您可以通过选择磁贴或选项卡来查看操作项。如果选择选项卡，您可以在工作区页面上直接查看和选择工作人员。
 
-![操作项](./media/hr-benefits-management-workspace-action-items.png)
+![操作项。](./media/hr-benefits-management-workspace-action-items.png)
 
 如果选择磁贴，转到该区域的页面。 例如，选择这些磁贴中的任意一个将显示 **工作人员福利计划** 页，该页面已针对您需要执行操作的员工进行了筛选：
 
@@ -58,21 +58,21 @@ ms.locfileid: "6193423"
 - **登记的福利**
 - **新雇员未登记**
 
-![工作人员福利计划](./media/hr-benefits-management-workspace-plans.png)
+![工作人员福利计划。](./media/hr-benefits-management-workspace-plans.png)
 
 选择 **活动生活事件** 或 **将来生活事件** 磁贴会将您带到活动或将来生活事件的列表。
 
-![生命事件](./media/hr-benefits-management-workspace-life-events.png)
+![生命事件。](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>处理
+## <a name="processing"></a>处理中
 
 要处理登记资格、生活事件或比率更改更新，请在导航栏上选择适当的项目。
 
-![处理](./media/hr-benefits-management-workspace-processing.png)
+![处理中。](./media/hr-benefits-management-workspace-processing.png)
 
 要查看处理结果，在页面上选择 **处理结果**。
 
-![流程结果](./media/hr-benefits-management-workspace-process-results.png)
+![流程结果。](./media/hr-benefits-management-workspace-process-results.png)
 
 有关福利处理的详细信息，请参阅：
 
@@ -86,13 +86,13 @@ ms.locfileid: "6193423"
 
 要查看不同的福利期间，从 **期间** 下拉列表中选择期间。
 
-![更改期间](./media/hr-benefits-management-workspace-period.png)
+![更改期间。](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>查看更多选项
 
 要查看更多信息以及您可以执行的操作，选择 **链接**。
 
-![链接](./media/hr-benefits-management-workspace-links.png)
+![链接。](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>请参阅
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352558"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>在 Commerce 环境中配置多个 B2C 租户
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 云标识服务为用户凭据和身�
 
 下图显示一个 Commerce 环境中的多个 B2C 租户。
 
-![一个 Commerce 环境中的多个 B2C 租户](media/MultiB2C_In_Environment.png)
+![一个 Commerce 环境中的多个 B2C 租户。](media/MultiB2C_In_Environment.png)
 
 如果认定您的企业在同一个 Commerce 环境中每个渠道需要不同 B2C 租户，请完成以下部分中的过程请求此功能。
 

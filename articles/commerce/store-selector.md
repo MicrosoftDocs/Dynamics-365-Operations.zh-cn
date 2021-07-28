@@ -2,7 +2,8 @@
 title: 商店选择器模块
 description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021456"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479368"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
@@ -50,12 +52,12 @@ ms.locfileid: "6021456"
 1. 在左侧窗格中选择仓库库位。
 1. 在 **地址** 快速选项卡上，选择 **高级**。
 
-    ![总部中商店详细信息的示例](./media/Store-address.png)
+    ![总部中商店详细信息的示例。](./media/Store-address.png)
 
 1. 在操作窗格上，选择 **编辑**。
 1. 在 **常规** 快速选项卡上，输入 **纬度** 和 **经度** 的值。
 
-    ![总部中商店的纬度和经度设置的示例](./media/Store-latitude-longitude.png)
+    ![总部中商店的纬度和经度设置的示例。](./media/Store-latitude-longitude.png)
 
 1. 在操作窗格上，选择 **保存**。 
 
@@ -70,7 +72,6 @@ ms.locfileid: "6021456"
 - 对于 **script-src** 指令，**添加 &#42;.bing.com、&#42;.virtualearth.net**。
 - 对于 **script style-src** 指令，添加 **&#42;.bing.com**。
 
- 
 ## <a name="pickup-in-store-mode"></a>店内提货模式
 
 商店选择器模块支持 **店内提货** 模式，其显示可提货的商店列表。 它还在列表中显示每个商店的营业时间和产品库存。 如果产品的交货方式设置为在所选商店 **提货**，商店选择器模块将需要产品的上下文来呈现产品可用性并允许用户将产品添加到购物车。 有关详细信息，请参阅[库存设置](inventory-settings.md)。 
@@ -81,7 +82,7 @@ ms.locfileid: "6021456"
 
 下图显示了 PDP 上使用的商店选择器模块的示例。
 
-![PDP 上使用的商店选择器模块的示例](./media/BOPIS.PNG)
+![PDP 上使用的商店选择器模块的示例。](./media/BOPIS.PNG)
 
 > [!NOTE]
 > 在版本 10.0.16 及更高版本中，可以启用一项新功能，该功能让组织可以为客户定义多个提货交货方式选项。  如果启用此功能，商店选择器和电子商务的其他模块将得到增强，可以允许购物者从可能提供的多个提货交货选项（如果配置）中进行选择。  要了解有关此功能的详细信息，请参阅[本文档](./multiple-pickup-modes.md)。 
@@ -92,7 +93,7 @@ ms.locfileid: "6021456"
 
 下图显示了与商店位置页面上的地图模块一起使用的商店选择器模块的示例。
 
-![商店位置页面上的商店选择器模块和地图模块的示例](./media/ecommerce-Storelocator.PNG)
+![商店位置页面上的商店选择器模块和地图模块的示例。](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>呈现地图
 
@@ -110,6 +111,10 @@ ms.locfileid: "6021456"
 | 自动建议选项：最多结果 | 数值 | 此属性定义可通过必应自动建议 API 显示的自动建议结果的最大数量。 |
 | 搜索半径 | 数值 | 此属性定义商店的搜索半径，以英里为单位。 如果未指定任何值，则使用默认的 50 英里搜索半径。 |
 | 服务条款 | URL |  此属性指定使用必应地图服务所需的服务条款 URL。 |
+
+## <a name="site-settings"></a>站点设置
+
+商店选择器模块遵守[将产品添加到购物车设置](add-cart-settings.md)。 从商店选择器模块将物料添加到购物车后，站点用户将看到相应的配置工作流。
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>向页面添加商店选择器模块
 

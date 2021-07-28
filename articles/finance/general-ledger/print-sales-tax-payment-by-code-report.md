@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358849"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>打印销售税支付（按代码）报表 
 
@@ -40,11 +40,11 @@ ms.locfileid: "5815444"
     - **记帐币种** – 使用记帐币种打印报表金额。
     - **销售税代码币种** – 使用销售税代码的币种打印报表金额。
 
-    ![“增值税支付（按代码）”对话框](media/Sales-tax-payment-by-code.png)
+    ![“销售税支付（按代码）”对话框。](media/Sales-tax-payment-by-code.png)
 
 下图显示生成的报表的示例。 如果报告代码分配给的销售税代码的 **销售税币种** 字段设置为 **EUR**，则此报表显示报告代码 **101** 的币种为 **EUR**。
 
-![销售税支付（按代码）报表的示例](media/Sales-tax-payment-by-code-2.png)
+![销售税支付（按代码）报表的示例。](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800679"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351217"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>将渠道添加到组织层次结构
 
@@ -44,7 +44,7 @@ ms.locfileid: "5800679"
 
 下图显示了所选层次结构的组织层次结构详细信息。
 
-![所选层次结构的组织层次结构详细信息](media/channel-add-to-org-hierarchy-1.png)
+![所选层次结构的组织层次结构详细信息。](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>将渠道添加到层次结构节点
 
@@ -58,11 +58,11 @@ ms.locfileid: "5800679"
 
 下图显示了如何选择要添加到层次结构节点的渠道。
 
-![选择要添加到层次结构节点的渠道](media/channel-add-to-org-hierarchy-2.png)
+![选择要添加到层次结构节点的渠道。](media/channel-add-to-org-hierarchy-2.png)
 
 下图显示了添加了各种渠道的层次结构。
 
-![添加了各种渠道的层次结构](media/channel-add-to-org-hierarchy-3.png)
+![添加了各种渠道的层次结构。](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>其他资源
 

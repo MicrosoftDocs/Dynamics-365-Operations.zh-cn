@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ece4875b69d3cf797ab90e54f0cc0fda317cc931
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054780"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359645"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>准备 Human Resources 实行
 
@@ -32,7 +32,7 @@ ms.locfileid: "6054780"
 
 此图显示了实行流程的各个阶段。 
 
-![实行流程](./media/hr-admin-go-live-prepare-process.png)
+![实行流程。](./media/hr-admin-go-live-prepare-process.png)
 
 下表列出了流程中的所有步骤、预期持续时间以及行为负责人。
 

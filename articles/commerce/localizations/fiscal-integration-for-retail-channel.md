@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 155056eb3a2acd0d66e0ace8d5558929678cb8e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348182"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
 
@@ -62,7 +63,7 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 7. POS 分析来自会计设备或服务的响应以确定会计登记是否成功。
 8. CRT 将响应保存到通道数据库。
 
-![解决方案架构](media/emea-fiscal-integration-solution.png "解决方案架构")
+![解决方案架构。](media/emea-fiscal-integration-solution.png "解决方案架构")
 
 ## <a name="error-handling"></a>错误处理
 

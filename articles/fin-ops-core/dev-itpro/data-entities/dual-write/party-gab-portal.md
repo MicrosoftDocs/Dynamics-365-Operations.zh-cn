@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: a2ea914344341ee26138e853727c551bdd5d733e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833082"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358609"
 ---
 # <a name="using-power-portal-with-the-party-data-model"></a>将 Power Portal 与当事方数据模型配合使用
 
@@ -28,11 +28,11 @@ ms.locfileid: "5833082"
 
 该图显示了 **没有** 当事方和全球通讯簿数据模型的表关系：
 
-   ![没有当事方模型](media/without-party-model.PNG)
+   ![没有当事方模型。](media/without-party-model.PNG)
 
 该图显示了 **具有** 当事方和全球通讯簿数据模型的表关系：
 
-   ![具有当事方模型](media/with-party-model.png)
+   ![具有当事方模型。](media/with-party-model.png)
 
 ## <a name="create-a-new-table-permission"></a>创建新的表权限
 

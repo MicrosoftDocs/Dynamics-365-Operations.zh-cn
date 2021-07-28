@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839599"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361106"
 ---
 # <a name="maintenance-plans"></a>维护计划
 
@@ -145,23 +145,23 @@ ms.locfileid: "5839599"
 
 **示例 1 - 基于时间的维护计划行：** 可以为润滑作业设置固定间隔，每周进行一次。 因此，请在 **间隔类型** 字段中选择“从计划日期开始重复”。 请参阅下图中的示例。
 
-![以固定间隔设置的服务作业，每周执行一次](media/02-preventive-maintenance.png "以固定间隔设置的服务作业，每周执行一次")
+![以固定间隔设置的服务作业，每周执行一次。](media/02-preventive-maintenance.png "以固定间隔设置的服务作业，每周执行一次")
 
 **示例 2 - 基于时间的维护计划行：** 可将一个检验作业设置为一周大约执行一次。 因此，请在 **间隔类型** 字段中选择“从最后一个工作订单开始重复”。 请参阅下图中的示例。
 
-![设置为大约一周执行一次的检查作业](media/03-preventive-maintenance.png "设置为大约一周执行一次的检查作业")
+![设置为大约一周执行一次的检查作业。](media/03-preventive-maintenance.png "设置为大约一周执行一次的检查作业")
 
 **示例 3 - 基于计数器的维护计划行：** 下图显示每次过去 250 小时都将为其创建一个新的维护安排行的小时计数器。 这个基于计数器的行的间隔类型为“从开始日期开始重复”。 开始日期是关联资产在 **所有资产** 详细信息视图 \> **资产维护计划** 快速选项卡 \> **开始日期** 字段中或 **功能位置** 详细信息视图 \> **维护计划** 快速选项卡 \> **开始日期** 字段中的开始日期。 这是 *预防性* 维护计划的示例，因为每次达到阈值 (+ 250) 时，都将自动创建维护安排行。
 
-![定期创建维护安排行的小时计数器](media/04-preventive-maintenance.png "定期创建维护安排行的小时计数器")
+![定期创建维护安排行的小时计数器。](media/04-preventive-maintenance.png "定期创建维护安排行的小时计数器")
 
 **示例 4 - 基于计数器的维护计划行：** 下图显示用于度量制动衬块磨损情况的计数器值降低。 当为制动衬块创建低于 20 毫米的计数器登记时，将创建一个维护安排行。 这个基于计数器的行的间隔类型为“达到下限时一次”或“从上一个开始日期开始时一次”。 这是 *反应式* 维护计划的示例，因为在登记的度量低于 20 毫米之前，不创建维护安排行。
 
-![计数器值降低，度量制动衬块磨损情况](media/05-preventive-maintenance.png "计数器值降低，度量制动衬块磨损情况")
+![计数器值降低，度量制动衬块磨损情况。](media/05-preventive-maintenance.png "计数器值降低，度量制动衬块磨损情况")
 
 **示例 5 - 基于计数器的维护计划行：** 下图显示阈值为 -18° 摄氏度的计数器。 当创建的计数器登记超过 -18° 摄氏度时，将创建一个维护安排行。 这个基于计数器的行的间隔类型为“达到上限时一次”。 这是 *反应式* 维护计划的示例，因为在登记的度量高于 -18° 摄氏度之前，不创建维护安排行。
 
-![阈值为 -18° 摄氏度的计数器](media/06-preventive-maintenance.png "阈值为 -18° 摄氏度的计数器")
+![阈值为 -18° 摄氏度的计数器。](media/06-preventive-maintenance.png "阈值为 -18° 摄氏度的计数器")
 
 - 当您创建新资产，并且该资产使用与维护计划关联的资产类型时，将在 **所有对象 \> 资产维护计划** 快速选项卡中自动插入该维护计划。 并且将在 **维护计划** 快速选项卡上的 **资产类型默认** 中自动插入关联的维护计划。
 - 如果在 **维护计划** 中添加或删除资产类型或功能位置类型，将仅在执行更改之后新建的资产上体现该更改。
@@ -169,7 +169,7 @@ ms.locfileid: "5839599"
 
 下图显示 **维护计划** 页中“卡车维修”维护计划的一个示例。
 
-![卡车维修维护计划的示例](media/07-preventive-maintenance.png "卡车维修维护计划的示例")
+![卡车维修维护计划的示例。](media/07-preventive-maintenance.png "卡车维修维护计划的示例")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>向资产添加维护计划
 
@@ -187,7 +187,7 @@ ms.locfileid: "5839599"
 
 下图显示 **所有资产** 页中为资产设置的维护计划的一个示例。
 
-![在资产上设置维护计划的示例](media/08-preventive-maintenance.png "在资产上设置维护计划的示例")
+![在资产上设置维护计划的示例。](media/08-preventive-maintenance.png "在资产上设置维护计划的示例")
 
 <a id="counter-based-maintenance"></a>
 

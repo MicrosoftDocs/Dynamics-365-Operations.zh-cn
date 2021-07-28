@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7b4734fd363cd5ee44f228e0c0f9ce73abad1aaa
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 633717d77f4d31463d51c575d837a65dbb0e5ce2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021844"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358719"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户角色
 
@@ -30,7 +30,7 @@ ms.locfileid: "6021844"
 
 下图显示了 Microsoft Teams 管理中心中团队成员及其用户角色列表的示例。
 
-![Microsoft Teams 管理中心中的团队成员和用户角色](media/d365-commerce-teams-integration-user-roles.png)
+![Microsoft Teams 管理中心中的团队成员和用户角色。](media/d365-commerce-teams-integration-user-roles.png)
 
 有关详细信息，请参阅[在 Microsoft Teams 中分配团队负责人和成员](/microsoftteams/assign-roles-permissions)。
 

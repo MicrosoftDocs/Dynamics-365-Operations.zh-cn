@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351786"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>在 Microsoft Excel 中将新字段添加到业务文档模板
 
@@ -50,14 +50,14 @@ ms.locfileid: "5751122"
 
 有关如何导入 ER 配置的更多信息，请参阅[管理 ER 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)。
 
-![LCS 共享资产库页面](./media/BDM-AddFldExcel-LCS.png)
+![LCS 共用资产库页面。](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>编辑 ER 解决方案模板
 
 1.  以有权访问 **业务文档管理** 工作区的用户身份登录。
 2.  打开 **业务文档管理** 工作区。
 
-    ![业务文档管理工作区](./media/BDM-AddFldExcel-Workspace.png)
+    ![业务文档管理工作区。](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  在网格中，选择 **普通发票(Excel)** 模板。
 4.  在右窗格中，选择 **新建模板** 以创建基于所选模板的新模板。
@@ -66,20 +66,20 @@ ms.locfileid: "5751122"
 
 将出现 BDM 模板编辑器页面。 您可以使用 Microsoft 365 在嵌入式控件中在线编辑所选模板。
 
-![BDM 模板编辑器页面](./media/BDM-AddFldExcel-EditableTemplate.png)
+![BDM 模板编辑器页面。](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>将新字段的标签添加到模板
 
 1.  在 BDM 模板编辑器页面的 Excel 功能区，在 **视图** 选项卡上，选中可编辑 Excel 模板的 **标题和网格线** 复选框。
 
-    ![选中“标题和网格线”复选框](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![选中“标题和网格线”复选框。](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  选择单元格 **E8:F8**。
 3.  在 Excel 功能区的 **主页** 选项卡上，选择 **合并居中**，将选定的单元格合并到新合并的 **E8:F8** 单元格中。
 4.  在合并的单元格 **E8:F8** 中，输入 **URL**。
 5.  选择合并的单元格 **E7:F7**，选择 **格式刷**，然后选择合并的单元格 **E8:F8** 以与合并的单元格 **E7:F7** 相同的方式设置其格式。
 
-    ![新字段标签已添加到模板](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![新字段标签已添加到模板。](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>设置模板模式以为新字段保留空间
 
@@ -87,13 +87,13 @@ ms.locfileid: "5751122"
 2.  在 Excel 功能区的 **主页** 选项卡上，选择 **合并居中** 以将选定的单元格合并到新合并的 **G8:H8** 单元格中。
 3.  选择合并的单元格 **G7:H7**，选择 **格式刷**，然后选择合并的单元格 **G8:H8** 以与合并的单元格 **G7:H7** 相同的方式设置其格式。
 
-    ![已为新字段保留空间](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![已为新字段保留空间。](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  在 **名称** 框字段中，选择 **CompanyInfo**。
 
     当前 Excel 模板的 **CompanyInfo** 范围包含用于使用作为卖方的当前公司的详细信息填充所生成报表的标头的所有字段。
 
-    ![已选择 CompanyInfo 范围](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![已选择 CompanyInfo 范围。](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>向模板添加新字段
 
@@ -103,7 +103,7 @@ ms.locfileid: "5751122"
     > [!NOTE]
     > 您必须调整要用作新字段的模板的那一部分。 您已经通过设置合并的单元格 **G8:H8** 的格式进行了此调整。
 
-    ![向模板添加新字段](./media/BDM-AddFldExcel-AddCell.png)
+    ![向模板添加新字段。](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  选择 **Excel\单元格** 以在模板中作为单元格添加新字段。
 
@@ -114,11 +114,11 @@ ms.locfileid: "5751122"
 4.  在 **Excel 范围** 字段中，输入 **CompanyURL_Value**。
 5.  选择 **确定**。
 
-    ![CompanyURL_Value 字段已添加到模板结构](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![CompanyURL_Value 字段已添加到模板结构。](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  在 **模板结构** 窗格中，选择省略号按钮 (...)，然后选择 **显示绑定**。
 
-    ![已选择“显示绑定”](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![已选择“显示绑定”。](./media/BDM-AddFldExcel-ShowBindings.png)
 
     **模板结构** 窗格现在显示基础 ER 格式中可用的数据源。
 
@@ -126,21 +126,21 @@ ms.locfileid: "5751122"
 8.  在 **模板结构** 窗格的 **数据源** 部分，展开 **模型 \> InvoiceBase \> CompanyInfo**。
 9.  在 **CompanyInfo** 下，选择 **WebsiteURI** 项。
 
-    ![已选择 WebsiteURI 项](./media/BDM-AddFldExcel-BindURL.png)
+    ![已选择 WebsiteURI 项。](./media/BDM-AddFldExcel-BindURL.png)
 
 10. 选择 **绑定**。
 11. 在 **模板结构** 窗格中，选择 **保存**，然后关闭 BDM 模板编辑器页面。
 
 在 **业务文档管理** 工作区中，右窗格中的 **模板** 选项卡显示更新后的模板。 在网格中，请注意，已编辑模板的 **状态** 字段已更改为 **草稿**，**修订** 字段不再为空。 这些更改表明编辑此模板的过程已经开始。
 
-![已编辑业务文档管理工作区中的模板](./media/BDM-AddFldExcel-Workspace2.png)
+![已编辑业务文档管理工作区中的模板。](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>查看公司设置
 
 1.  转至 **组织管理 \> 组织 \> 法人实体**。
 2.  在 **联系信息** 快速选项卡上，确认输入了公司 URL。
 
-![已在法人页面上输入公司 URL](./media/BDM-AddFldExcel-CompanyInfo.png)
+![已在法人页面上输入公司 URL。](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>生成业务文档以测试更新的模板
 
@@ -148,15 +148,15 @@ ms.locfileid: "5751122"
 2.  选择发票 **FTI-00000002**，然后选择 **打印管理**。
 3.  在左窗格中，展开 **模块 - 应收帐款 \> 文档 \> 普通发票**。
 4.  在 **普通发票** 下，选择 **原始凭证** 级别以指定要处理的发票范围。
-5.  在右窗格的 **报表格式** 字段中，为指定的文档级别选择 **普通发票(Excel) Contoso** 模板。
+5.  在右侧窗格的 **报表格式** 字段中，为指定的文档级别选择 **普通发票 (Excel) Contoso** 模板。
 
-    ![已选择“普通发票(Excel) Contoso”模板](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![已选择“普通发票 (Excel) Contoso”模板。](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  按 **Esc** 关闭当前页。
 7.  选择 **打印 \> 选定**。
 8.  下载生成的文档，然后在 Excel 中打开它。
 
-    ![Excel 中的普通发票](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Excel 中的普通发票。](./media/BDM-AddFldExcel-PreviewReport.png)
 
 修改后的模板将用于为所选物料生成普通发票报表。 要分析此报表如何受到模板更改的影响，请在另外一个应用程序会话中更改模板后立即在一个应用程序会话中运行报表。
 

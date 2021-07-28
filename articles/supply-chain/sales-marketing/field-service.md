@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824886"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359597"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service 集成概览
 
@@ -34,7 +34,7 @@ Supply Chain Management 实现 Dynamics 365 Supply Chain Management 与 Dynamics
 
 Field Service 集成紧接着现有客户到现金功能建立。
 
-![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/field-service-integration.png)
+![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/field-service-integration.png)
 
 Field Service 与 Supply Chain Management 集成的第一阶段的重点是让 Field Service 中的工作订单和协议在 Supply Chain Management 中开票。 支持的流程在 Field Service 中启动，在这里将工作订单的信息作为销售订单同步到 Supply Chain Management。 在 Supply Chain Management 中，将为销售订单开票以生成发票单据。 此外，还会将 Field Service 协议发票的信息同步到 Supply Chain Management。 Microsoft Dynamics 365 数据集成器使用可定制项目同步数据。 可使用标准模板创建定制集成项目，还可以使用模板映射更多标准列和自定义列以及表以调整集成并满足具体要求。
 
@@ -58,7 +58,7 @@ Field Service 与 Supply Chain Management 集成的第二阶段是实现以下�
 - 与 Dynamics 365 Field Service 工作订单连接的 Supply Chain Management 项目
 - 包含 Supply Chain Management 项目链接的 Dynamics 365 Field Service 工作订单将此项目编号应用于销售订单以允许从项目开票。 
 
-![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSv2overview.png)
+![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Field Service 与 Supply Chain Management 集成的第二阶段支持与以下模板的同步：
 - 仓库（Supply Chain Management 到 Field Service）- 仓库从 Supply Chain Management 到 Field Service [高级查询] 

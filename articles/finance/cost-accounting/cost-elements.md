@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355147"
 ---
 # <a name="cost-element-dimensions"></a>成本元素维度
 
@@ -63,7 +63,7 @@ ms.locfileid: "5811429"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>成本元素维度和成本元素维度成员
 成本元素被称为“*成本元素维度*”。 各个维度值被称为“*成本元素维度成员*”。 例如，你将美国会计科目表结构 (COA) 作为法定申报的基础。 此 COA 用作成本元素维度。 科目为主要成本元素，在成本核算中表示为成本元素维度成员。 以下屏幕截图举例说明了作为成本元素维度的主科目及其作为成本元素维度成员的实际主科目。 
 
-[![作为成本元素维度的主科目的屏幕截图](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![作为成本元素维度的主科目的屏幕截图。](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>通过数据连接器导入成本元素维度成员
 为了便于设置成本核算中的成本元素维度成员，您可以使用预构建或您自定义构建的数据连接器检索一个或多个源系统中的主要成本元素。

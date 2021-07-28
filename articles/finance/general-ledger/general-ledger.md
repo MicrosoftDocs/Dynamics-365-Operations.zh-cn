@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 65431
+ms.custom:
+- "65431"
+- intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 403cd616faef2f856c21a771d46607c41987f0bb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dc5bc56ccbbafa16d1de5da89f45354d281cbd6a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897520"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348978"
 ---
 # <a name="general-ledger-home-page"></a>总帐主页
 
@@ -37,9 +39,9 @@ ms.locfileid: "5897520"
 - [总帐科目余额](general-ledger-account-balances.md)
 - [财务维度](financial-dimensions.md)
 
-[![业务流程](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![业务流程。](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-## <a name="sales-tax"></a>销售税
+## <a name="sales-tax"></a>增值税
 每个公司都需要向各种税务主管机构缴纳税款。 规则和比率根据国家/地区、省/市/自治区、县和城市而改变。
 此外，当税务主管部门更改它们的要求时，必须定期更新规则。 增值税代码包含您收取以及支付给主管机构的金额数的信息。 当您设置增值税代码时，您定义了必须收取的金额或百分比。 您还定义了将这些金额或百分比应用到交易记录金额中的各种方法。 本节中的主题提供了如何针对您的税务主管机构要求的方法和比率设置增值税的信息。
 

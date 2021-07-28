@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023068"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361278"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金申报代码
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023068"
 
 1. 转到 **税 \> 设置 \> 预缴税金 \> 预缴税金申报代码**。
 
-    [![预缴税金申报代码页面](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![预缴税金申报代码页面。](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. 在 **税务类型** 字段中，选择 **TDS** 为 TDS 税务类型定义预缴税金申报代码。
 3. 在 **预缴税金组分** 字段中，选择要为其定义预缴税金申报代码的 TDS 组分。 **预缴税金组分组** 字段显示为您要定义的 TDS 组分定义的 TDS 组分组。

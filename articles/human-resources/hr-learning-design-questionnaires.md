@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2427e866a1cff91ff0ceca6a71e8052b880c7e5c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4a1cd6460ed93ce46e561071aedee314bf4f088
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056868"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357111"
 ---
 # <a name="create-questionnaires"></a>创建调查表
 
@@ -92,7 +92,7 @@ ms.locfileid: "6056868"
 ## <a name="questionnaire-components"></a>调查表组成部分
 调查表包含三个主要元素：包含多选问题回答的回答组、问题和调查表本身。 您可以（可选）将调查表上的问题分成结果组。 结果组能让您对问题进行分类，并提供对调查表的进一步分析。 
 
-[![调查表组成部分](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![调查表组成部分。](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>回答组和回答
 

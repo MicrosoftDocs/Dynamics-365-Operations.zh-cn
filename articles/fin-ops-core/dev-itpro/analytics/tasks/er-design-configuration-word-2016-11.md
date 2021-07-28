@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944284"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359403"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
 
@@ -54,14 +54,14 @@ ms.locfileid: "5944284"
 5. 选择 **设计器**。
 6. 在 **格式设计器** 页上，注意根格式元素的标题指示当前正在使用 Excel 模板。
 
-![选择现有配置](../media/er-design-configuration-word-2016-11-image01.gif)
+![选择现有配置。](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>查看下载的 Word 模板
 
 1. 在 Word 桌面应用程序中，打开您先前下载的 **SampleVendPaymDocReport.docx** 模板文件。
 2. 确认此模板仅包含要作为 ER 输出生成的文档的布局。
 
-![桌面应用程序中的 Word 模板布局](../media/er-design-configuration-word-2016-11-image02.png)
+![桌面应用程序中的 Word 模板布局。](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>将 Excel 模板替换为 Word 模板并添加自定义 XML 部件
 
@@ -84,7 +84,7 @@ ms.locfileid: "5944284"
 
 9. 注意根格式元素的标题指示当前正在使用 Word 模板。
 
-    ![将 Excel 模板替换为 Word 模板并添加自定义 XML 部件](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![将 Excel 模板替换为 Word 模板并添加自定义 XML 部件。](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. 在 **格式** 选项卡中，选择 **附件**。
 
@@ -110,7 +110,7 @@ ms.locfileid: "5944284"
 1. 在 Word 桌面应用程序中，打开 **SampleVendPaymDocReportBounded.docx** 模板文件。
 2. 确认此模板包含要作为 ER 输出生成的文档的布局。 用作 ER 将在运行时在此模板中输入的数据的占位符的内容控件，基于在 **报表** 自定义 XML 部件的元素与 Word 文档的内容控件之间配置的映射。
 
-![桌面应用程序中的 Word 模板预览](../media/er-design-configuration-word-2016-11-image04.png)
+![桌面应用程序中的 Word 模板预览。](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>上载将自定义 XML 部件映射到内容控件的 Word 模板
 
@@ -144,7 +144,7 @@ ms.locfileid: "5944284"
 3. 在 **供应商付款** 页上，选择网格中的所有行。
 4. 选择 **付款状态**\>**无**。
 
-    ![供应商付款页上要进行处理的付款](../media/er-design-configuration-word-2016-11-image05.png)
+    ![供应商付款页面上要进行处理的付款。](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. 在操作窗格上，选择 **生成付款**。
 6. 在出现的对话框中，执行以下步骤：
@@ -156,11 +156,11 @@ ms.locfileid: "5944284"
 7. 在 **电子申报参数** 对话框中，选择 **确定**。
 8. 生成的输出以 Word 格式表示，其中包含处理的付款的详细信息。 分析生成的输出。
 
-    ![以 Word 格式生成的输出](../media/er-design-configuration-word-2016-11-image06.png)
+    ![以 Word 格式生成的输出。](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-- [设计新 ER 配置以生成 Word 格式的报表](../er-design-configuration-word.md)
+- [设计新的电子报告配置以生成 Word 格式的报表](../er-design-configuration-word.md)
 - [使用 ER 在您生成的文档中嵌入图像和形状](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

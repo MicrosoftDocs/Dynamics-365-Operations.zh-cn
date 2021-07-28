@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356576"
 ---
 # <a name="workers-without-employment"></a>未雇用的工作人员
 
@@ -42,13 +42,13 @@ ms.locfileid: "6051705"
 
 2. 在 **特权** 选项卡中，筛选 **特权** 列表以 **维护工作人员**。
 
-   [![筛选特权列表](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![筛选特权列表。](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. 在 **参考** 列中，选择 **显示菜单项**。
 
 4. 在 **显示菜单项** 中，选择 **HcmWorkersWithoutEmployment**。
 
-   [![选择窗体](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![选择窗体。](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. 将 **删除** 权限设置为 **授权**。
 
@@ -56,6 +56,6 @@ ms.locfileid: "6051705"
 
 7. 选择 **全部发布**。
 
-   [![发布更改](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![发布更改。](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

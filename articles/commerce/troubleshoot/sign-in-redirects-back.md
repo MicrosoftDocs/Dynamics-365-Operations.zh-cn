@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020595"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350370"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>登录链接重定向回电子商务站点
 
@@ -43,7 +43,7 @@ ms.locfileid: "6020595"
 1. 选择您在 Azure AD B2C 设置期间创建的应用程序。
 1. 在 **回复 URL** 下面，请确保该列表同时包含站点域 URL 和电子商务生成的 URL 的条目，如以下插图中的示例所示。
 
-    ![Azure AD B2C 回复 URL 条目](media/aad-b2c-reply-url.jpg)
+    ![Azure AD B2C 回复 URL 条目。](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > 站点域 URL 和电子商务生成的 URL 都必须采用有效的 URL 格式，此格式不包含前导斜杠或尾随斜杠。

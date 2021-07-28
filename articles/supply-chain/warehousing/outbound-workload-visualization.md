@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810478"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351409"
 ---
 # <a name="outbound-workload-visualization"></a>出站工作负荷可视化
 
@@ -60,7 +60,7 @@ ms.locfileid: "5810478"
     - **包括天数** – 输入过去应为其生成图表的天数。
     - **工作订单类型** – 选择要筛选的出库工作订单类型。
 
-    ![配置筛选器页面](media/work-viz-filters-1.png "配置筛选器页面")
+    ![配置筛选器页面。](media/work-viz-filters-1.png "配置筛选器页面")
 
 1. 关闭 **配置筛选器** 页面以返回到 **出库工作负荷可视化** 页面。
 
@@ -70,11 +70,11 @@ ms.locfileid: "5810478"
     - **上次刷新** – 此字段显示上次更新图表中的信息的日期和时间。
     - **估计/实际时间** – 如果在系统中设置了人工标准，将此选项设置为 *是* 以在图表的每一列顶部显示累计的估计领料时间。 如果您不使用人工标准，则此选项不可用。
 
-    ![可视化示例](media/work-viz-chart.png "可视化示例")
+    ![可视化示例。](media/work-viz-chart.png "可视化示例")
 
 1. 选择图表中的任何栏以查看关联的工作行详细信息。
 
-    ![工作行详细信息](media/work-viz-work-details.png "工作行详细信息")
+    ![工作行详细信息。](media/work-viz-work-details.png "工作行详细信息")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>示例：区域的出库工作负荷可视化
 
@@ -92,7 +92,7 @@ ms.locfileid: "5810478"
 
 下图显示生成图表的示例。
 
-![区域与工作状态可视化](media/work-viz-chart.png "区域与工作状态可视化")
+![区域与工作状态可视化。](media/work-viz-chart.png "区域与工作状态可视化")
 
 此图表显示两个名为 **FLOOR** 和 **BULK** 的区域，再加上一个名为 **Blank** 的区域。 **Blank** 区域表示不是任何区域成员的所有工作行。 该图表始终将所有不相关的筛选数据显示为 **Blank**，以提供尽可能多的可见性。 在 **FLOOR** 区域中，图表显示三个已结行和四个未结行。 在 **BULK** 区域中，图表显示四个已结行、一个未结行和 24 个已取消行。 最后，图表显示八个已结行，它们不属于任何区域，因此作为 **Blank** 列出。
 

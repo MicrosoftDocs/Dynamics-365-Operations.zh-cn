@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349416"
 ---
 # <a name="recall-order-operation-in-pos"></a>POS 中的撤回订单操作
 
@@ -29,7 +29,7 @@ Commerce 销售点 (POS) 中的 **撤回订单** 操作提供更新的订单搜�
 
 **撤回订单** 操作按钮的配置使组织可以使用预定义的显示来部署操作。
 
-![按钮网格配置](media/recallorderbuttongrid.png)
+![按钮网格配置。](media/recallorderbuttongrid.png)
 
 显示选项如下。
 - **无** – 此选项将部署操作，而不显示任何特定内容。 当用户使用此配置打开操作时，将提示他们搜索和查找订单，或从预定义的订单筛选器中进行选择。
@@ -42,11 +42,11 @@ Commerce 销售点 (POS) 中的 **撤回订单** 操作提供更新的订单搜�
 - 在 AppBar 上选择 **搜索订单** 或 **搜索和筛选** 图标，以使用筛选机制来查找符合筛选条件的订单。
 - 从 **显示订单** 下拉菜单的预定义筛选器中进行选择（履行订单、提货订单或转运订单）。
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu。](media/recallordermain.png)
 
 应用搜索条件后，应用程序将显示匹配的销售订单列表。 重要的是要注意，使用搜索/筛选选项时，检索到的订单不必是链接到用户当前商店的订单。 该搜索过程将检索并显示与搜索条件匹配的任何客户订单，即使该订单已创建或者设置为由另一个商店/渠道或仓库位置来完成。
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail。](media/orderrecalldetail.png)
 
 用户可以在列表上选择一个订单以查看其他详细信息。 屏幕右侧的信息面板显示所选订单的具体信息，包括订单行详细信息、交货详细信息和履行详细信息。
 

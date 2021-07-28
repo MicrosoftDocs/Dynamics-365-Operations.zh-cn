@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 9c26b45fc94d9983157eef9af5c0af6845d24056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356743"
 ---
 # <a name="set-up-fixed-assets"></a>设置固定资产
 
@@ -32,7 +32,7 @@ ms.locfileid: "6216578"
 
 固定资产在创建时分配到组。 默认情况下，分配到固定资产组的帐簿会分配到固定资产。 配置为过帐到总帐的帐簿与过帐模板相关联 会计科目对过帐模板中的每个帐簿进行定义，对固定资产交易记录过帐时使用。
 
-![固定资产组件](./media/FAComponents_Updated.png)
+![固定资产组件。](./media/FAComponents_Updated.png)
 
 ## <a name="depreciation-profiles"></a>折旧模板
 

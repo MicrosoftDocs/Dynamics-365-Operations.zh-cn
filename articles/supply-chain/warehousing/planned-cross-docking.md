@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911240"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359069"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
@@ -318,7 +318,7 @@ ms.locfileid: "5911240"
 
 下图显示 Microsoft Dynamics 365 Supply Chain Management 中可能如何显示已完成的越库配送工作。
 
-![越库配送工作已完成](media/PlannedCrossDockingWork.png "越库配送工作已完成")
+![越库配送工作已完成。](media/PlannedCrossDockingWork.png "越库配送工作已完成")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

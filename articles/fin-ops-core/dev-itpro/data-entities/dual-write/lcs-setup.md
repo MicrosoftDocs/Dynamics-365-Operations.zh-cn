@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103561"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359355"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 
@@ -40,7 +40,7 @@ ms.locfileid: "6103561"
 
 2. 选择 **双写入应用程序** 按钮。
 
-    ![Power Platform 集成](media/powerplat_integration_step2.png)
+    ![Power Platform 集成。](media/powerplat_integration_step2.png)
 
 3. 查看条款和条件，然后选择 **配置**。
 
@@ -52,7 +52,7 @@ ms.locfileid: "6103561"
 
 7. 选择 **链接到 Power Platform 环境** 在 Dataverse 和当前环境的数据库之间创建链接。 这通常需要不到 5 分钟时间。
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="链接到 Power Platform 环境":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="链接到 Power Platform 环境。":::
 
 8. 链接完成后，将显示一个超链接。 使用此链接登录到 Finance and Operations 环境中的双写入管理区域。 从那里，您可以设置实体映射。
 

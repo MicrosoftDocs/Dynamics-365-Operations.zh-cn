@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356480"
 ---
 # <a name="maintenance-downtime-activities"></a>维护停机时间活动
 
@@ -40,7 +40,7 @@ ms.locfileid: "5837817"
 
 单击 **资产管理** > **常用** > **维护停机时间活动** > **所有维护停机时间活动** 以打开所有维护停机时间活动的列表和查看与这些活动有关的部分信息。 单击 **维护停机时间活动** 列中的一个链接以打开详细信息视图。 下图显示 **维护停机时间活动** 列表的示例。
 
-![图 1](media/19-preventive-maintenance.png)
+![图 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>创建维护停机时间活动
@@ -61,7 +61,7 @@ ms.locfileid: "5837817"
 
 下图显示 **维护停机时间活动** 详细信息视图的示例。
 
-![图 2](media/20-preventive-maintenance.png)
+![图 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >如果在创建维护停机时间活动之后创建了新的工作订单或维护安排行，将自动更新与所选资产关联的工作订单维护作业和维护安排行。 例如，如果在创建维护停机时间活动的两天后为关联资产安排维护安排或维护阶段，将自动向维护停机时间活动添加新的维护安排行。
@@ -72,7 +72,7 @@ ms.locfileid: "5837817"
 
 10. 单击 **确定** 开始计算。 将在 **产能负荷** 概览中显示总工时数。 在 **产能负荷** 选项卡 > **分组依据** 操作窗格组中，单击相关按钮获取更详细的预测工时分配概览。 下图显示 **产能负荷** 计算的结果。
 
-![图 3](media/21-preventive-maintenance.png)
+![图 3.](media/21-preventive-maintenance.png)
 
 11. 获取产能负荷概览之后，如果要对工作订单维护作业或维护安排行进行调整，请回到 **维护停机时间活动** 详细信息视图，然后在 **生成的工作订单维护作业** 和 **维护安排行** 快速选项卡上选择要进行调整的行。
 
@@ -89,7 +89,7 @@ ms.locfileid: "5837817"
 
 16. 单击 **确定** 开始计算。 将在 **物料预测** 概览中显示物料预测总数。 在 **物料预测** 选项卡 > **分组依据** 操作窗格组中，单击相关按钮获取更详细的预测物料分配概览。下图显示 **物料预测** 计算的结果。
 
-![图 4](media/22-preventive-maintenance.png)
+![图 4.](media/22-preventive-maintenance.png)
 
 - 可将资产从一个维护停机时间活动复制到另一个维护停机时间活动。 在 **所有维护停机时间活动** 中，选择 **复制维护停机时间活动** 按钮，在 **源维护停机时间活动** 和 **目标维护停机时间活动** 字段中进行选择，然后单击 **确定**。
 - 在 **所有维护停机时间活动** 中，单击 **维护安排行** 按钮或 **有效工作订单** 按钮打开相关列表和查看与所选维护停机时间活动关联的行。

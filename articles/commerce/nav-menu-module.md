@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353100"
 ---
 # <a name="navigation-menu-module"></a>导航菜单模块
 
@@ -33,7 +33,7 @@ ms.locfileid: "5798745"
 导航菜单模块可以添加到页面的标题模块。 默认情况下，Fabrikam 主题中的导航菜单显示两个级别。 默认情况下，Starter 主题中的导航菜单显示三个级别。 若要切换为级别数量，主题中需要视图扩展。
 
 下图显示 Fabrikam 站点的导航菜单示例，以及两个类别层次结构级别和一些静态菜单项。
-![导航菜单模块的示例](./media/ecommerce-header.png)
+![导航菜单模块的示例。](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>导航菜单模块属性
 
@@ -50,7 +50,7 @@ ms.locfileid: "5798745"
 | 根菜单 | 字符串 | 如果 **显示根菜单** 属性设置为 **True**，此属性可用于为自定义根定义文本。 |
 
 下图显示 Fabrikam 站点的导航菜单中显示的类别图像的示例。
-![导航菜单模块和类别图像的示例](./media/ecommerce-categoryimages.PNG)
+![具有类别图像的导航菜单模块的示例。](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>向标题模块添加导航菜单模块
 

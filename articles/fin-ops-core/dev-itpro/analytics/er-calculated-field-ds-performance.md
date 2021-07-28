@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349176"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 
@@ -56,7 +56,7 @@ ms.locfileid: "5944821"
     2. 选择 **浏览** 并为 ER 配置选择 XML 格式的相应文件。
     3. 选择 **确定**。
 
-![“配置”页面上导入的配置](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![“配置”页面上导入的配置。](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>检查示例 ER 解决方案
 
@@ -76,7 +76,7 @@ ms.locfileid: "5944821"
 
     此配置中的模型映射实施为此模型创建并在 Finance 中运行的任何 ER 格式的基本数据模型。 因此，**Trans** 数据源的内容将对抽象 **model** 数据源之类 ER 格式公开。
 
-    ![“模型映射设计器”页面中的 Trans 数据源](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![“模型映射设计器”页面上的 Trans 数据源。](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. 关闭 **模型映射设计器** 页。
 5. 关闭 **模型到数据源映射** 页。
@@ -90,7 +90,7 @@ ms.locfileid: "5944821"
 
     此 ER 格式用于生成 XML 格式的供应商交易记录报表。
 
-    ![“格式设计器”页面中的 Format 数据源和配置的格式元素绑定](media/er-calculated-field-ds-performance-format.png)
+    ![“格式设计器”页面上的 Format 数据源和配置的格式元素绑定。](media/er-calculated-field-ds-performance-format.png)
 
 5. 关闭 **格式设计器** 页。
 
@@ -103,7 +103,7 @@ ms.locfileid: "5944821"
 1. 选择 **DEMF** 公司。
 2. 执行[开启 ER 性能跟踪](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace)中的步骤，以便在运行 ER 格式时生成性能跟踪。
 
-    ![“用户参数”选项卡](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![“用户参数”对话框。](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>运行 ER 格式
 
@@ -124,7 +124,7 @@ ms.locfileid: "5944821"
 - 使用数据源获取数据实际所用时间
 - 表示为占运行整个模型映射所用时间总量的百分比的相同时间
 
-![“模型映射设计器”页面上的执行时间详细信息](./media/er-calculated-field-ds-performance-mapping-2.png)
+![“模型映射设计器”页面上的执行时间详细信息。](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 **性能统计信息** 网格显示 **Trans** 数据源调用一次 VendTrans 表。 **Trans** 数据源的值 **\[265\]\[Q:265\]** 说明已从应用程序表提取了 265 笔供应商交易记录并返回到了数据模型。
 
@@ -137,7 +137,7 @@ ms.locfileid: "5944821"
 
 - 将为每个迭代供应商记录调用供应商表，即使已经仅为五个供应商过帐了提取的交易记录也不例外。 这 530 个调用中的 525 是重复的。 下图显示收到的有关重复调用（数据库请求）的消息。
 
-![“模型映射设计器”页上有关重复数据库请求的消息](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![“模型映射设计器”页面上有关重复数据库请求的消息。](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 请注意，已使用了模型映射总执行时间（大约八秒）中超过 80%（大约六秒）从 VendTable 应用程序表检索值。 与 VendTrans 应用程序表中的信息量相比，此百分比对于五个供应商的两个属性而言太大。
 
@@ -172,7 +172,7 @@ ms.locfileid: "5944821"
     3. 在对话框的 **名称** 字段中，输入 **Box**。
     3. 选择 **确定**。
 
-    ![“模型映射设计器”页面中的 Box 数据源](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![“模型映射设计器”页面上的 Box 数据源。](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. 执行以下步骤添加 **计算字段** 类型的参数化数据源：
 
@@ -208,7 +208,7 @@ ms.locfileid: "5944821"
 
 9. 选择 **保存**。
 
-    ![“模型映射设计器”页面中的 Vend 数据源](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![“模型映射设计器”页面上的 Vend 数据源。](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. 关闭 **模型映射设计器** 页。
 11. 关闭 **模型映射** 页。
@@ -232,11 +232,11 @@ ms.locfileid: "5944821"
 
 请注意，您对模型映射进行的调整消除了对数据库的重复查询。 还减少了对此模型映射的数据库表和数据源的调用数量。
 
-![跟踪“模型映射设计器”页面 1 中的信息](./media/er-calculated-field-ds-performance-mapping-5.png)
+![跟踪“模型映射设计器”页面 1 上的信息。](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 总执行时间已缩短了大约 20 倍（从大约 8 秒到大约 400 毫秒）。 因此提高了整个 ER 解决方案的性能。
 
-![跟踪“模型映射设计器”页面 2 中的信息](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![跟踪“模型映射设计器”页面 2 上的信息。](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>附录 1：下载示例 Microsoft ER 解决方案的组件
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92b44532dfae70f03d6686ca1d2f8b6f74345ee6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce7b1ad5472a6e276d356ff4e814defcc5af1f9d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752452"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359379"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER 将财务维度用作数据源（第 1 部分 - 设计数据模型）
 
@@ -101,10 +101,10 @@ ms.locfileid: "5752452"
 66. 单击“新建”，以打开对话框。
 67. 在“名称”字段中，键入“名称”。
 68. 单击“添加”。
-69. 单击“保存”。
+69. 单击保存。
 70. 关闭该页面。
 
-![ER 数据模型设计器页面](../media/er-financial-dimensions-guides-data-model.png)
+![ER 数据模型设计器页面。](../media/er-financial-dimensions-guides-data-model.png)
 
 
 

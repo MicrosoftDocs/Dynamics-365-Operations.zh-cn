@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 447d319f5a96851f7eb3104b3330026d269e7dd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358801"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>按分录的销售税明细报表
 [!include [banner](../includes/banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "5815252"
 
 若要在报表中仅显示非纳税科目，请设置筛选条件，如星号 (\*)，如下图中所示。
 
-![报表显示非纳税科目](media/taxspecperledgertrans.png)
+![显示非纳税科目的报表。](media/taxspecperledgertrans.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353930"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management 客户门户概述
 
@@ -63,7 +64,7 @@ ms.locfileid: "5907831"
 
 [双写入](/powerapps/maker/portals/overview)是一种自带基础结构产品，其提供客户互动应用与 Finance and Operations 应用之间的近实时交互。 双写入提供 Finance and Operations 应用与 Microsoft Dataverse 之间的双向集成。 因此，它可以提供应用之间的集成用户体验。 客户门户依赖于与双写入同步的表。 必须先对所有适当的表启用双写入，才能在客户门户中显示来自 Supply Chain Management 的数据。
 
-![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")
+![客户门户依赖关系。](media/customer-portal-elements.png "客户门户依赖关系")
 
 对于想要使用 Power Apps 门户构建面向外部的使用其 Supply Chain Management 安装中数据的网站的组织，客户门户充当一个起点。 它帮助组织连接双写入、Supply Chain Management 和 Power Apps 门户。
 

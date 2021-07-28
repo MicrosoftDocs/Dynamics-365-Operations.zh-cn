@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357353"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053555"
 
 员工可通过 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用在 Microsoft Teams 中快速请假和查看自己的请假余额信息。 员工可以与机器人交互以请求信息。 **休假** 选项卡提供更详细信息。 此外，他们可以在 Human Resources 应用之外在团队和聊天中发送有关近期休假的人员信息。
 
-![Human Resources Teams 休假应用机器人](./media/hr-teams-leave-app-bot.png)
+![Human Resources Teams 休假应用机器人。](./media/hr-teams-leave-app-bot.png)
 
-![Human Resources Teams 休假应用“休假”选项卡](./media/hr-teams-leave-app-timeoff-tab.png)
+![Human Resources Teams 休假应用“休假”选项卡。](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Human Resources 休假请求卡](./media/hr-teams-leave-app-chat-card.png)
+![Human Resources 休假请求卡。](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>安装和设置
 
@@ -57,11 +57,11 @@ ms.locfileid: "6053555"
 
 4. 在 **常规** 选项卡中，将 **启用 Teams 应用通知** 设置为 **是**。
 
-   ![在系统参数中启用 Teams 应用通知](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![在系统参数中启用 Teams 应用通知。](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. 若要为所有用户打开 Teams 通知，请在提示符处选择 **是**。
 
-   ![为所有用户启用 Teams 通知](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![为所有用户启用 Teams 通知。](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>为单个用户打开或关闭 Teams 通知
 
@@ -77,7 +77,7 @@ ms.locfileid: "6053555"
 
 5. 将 **启用 Teams 应用通知** 设置为 **是** 为用户启用通知，或设置为 **否** 为用户禁用通知。
 
-   ![在“用户选项工作流”选项卡中启用 Teams 应用通知](./media/hr-admin-teams-leave-app-notifications.png)
+   ![在“用户选项工作流”选项卡中启用 Teams 应用通知。](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. 选择 **保存**。
 

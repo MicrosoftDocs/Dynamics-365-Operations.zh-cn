@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355572"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>固定资产价值模型和折旧帐簿合并
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826730"
 
 在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 版本中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。
 
-新的帐簿功能以先前的价值模型功能为基础，但还包括以前仅在折旧帐簿中提供的所有功能。 [![作为价值模型与折旧帐簿功能合并的帐簿](./media/fixed-assets.png)](./media/fixed-assets.png) 由于进行了合并，您现在可以对您的所有固定资产流程使用单一的页面、查询和报表集合。 本主题中的表格列出了早期版本的折旧帐簿和价值模型功能以及新版本的帐簿功能。
+新的帐簿功能以先前的价值模型功能为基础，但还包括以前仅在折旧帐簿中提供的所有功能。 [![作为价值模型与折旧帐簿功能合并的帐簿。](./media/fixed-assets.png)](./media/fixed-assets.png) 由于此合并，您现在可以对您的所有固定资产流程使用单一的页面、查询和报表集合。 本主题中的表格列出了早期版本的折旧帐簿和价值模型功能以及新版本的帐簿功能。
 
 ## <a name="setup"></a>设置
 默认情况下，帐簿过帐到总帐 (GL) 和固定资产子分类帐。 帐簿具有新的 **过帐到总帐** 选项，您可以禁用过帐到总帐，仅过帐到固定资产子分类帐。 此功能类似于早期版本的折旧帐簿过帐行为。 日记帐名称设置具有新的过帐层，名为“无”。 此过帐层特别针对固定资产交易记录而添加。 若要过帐不过帐到总帐的帐簿的交易记录，您必须使用过帐层设置为 **无** 的日记帐名称。

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: bc33a8b21c75a308aea738f0db1f3786695f0633
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ffe85a028f7bfda971157b376e82ea86b81fe11b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354509"
 ---
 # <a name="task-management-overview"></a>任务管理概览
 
@@ -37,13 +38,13 @@ ms.locfileid: "5791718"
 
 下图显示 Commerce 中的任务管理的概念体系结构。
 
-![任务管理概念体系结构](media/Tasks-management-conceptual-architecture.png)
+![任务管理概念体系结构。](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [配置任务管理](task-mgmt-configure.md)
 
-[创建任务列表和添加任务](task-mgmt-create-lists.md)
+[创建任务列表并添加任务](task-mgmt-create-lists.md)
 
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 

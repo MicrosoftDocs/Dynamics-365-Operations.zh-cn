@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350828"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753982"
 
 **设置到 Dataverse 的链接** 页面上的错误通常是由不完整的设置或权限问题引起的。 请在 **设置到 Dataverse 的链接** 页面上通过了整个运行状况检查，如下图所示。 除非整个运行状况检查通过，否则您无法链接双写入。
 
-![成功的运行状况检查](media/health_check.png)
+![成功的运行状况检查。](media/health_check.png)
 
 您必须具有 Azure AD 租户管理员凭据才能链接 Finance and Operations 和 Dataverse 环境。 链接环境后，用户可以使用其帐户凭据登录并更新现有表映射。
 
@@ -77,7 +77,7 @@ ms.locfileid: "5753982"
 4. 选择配置双写入时链接的公司。
 5. 验证 **默认负责团队** 列是否具有值。 在下图中，**默认负责团队** 列设置为 **USMF 双写入**。
 
-    ![验证默认负责团队](media/default_owning_team.png)
+    ![验证默认负责团队。](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>查找可以为双写入链接的法人或公司的数量限制
 

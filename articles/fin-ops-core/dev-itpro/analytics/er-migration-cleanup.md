@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351041"
 ---
 # <a name="er-migration-cleanup"></a>ER 迁移清理 
 
@@ -30,11 +30,11 @@ ms.locfileid: "5750878"
 
 如果尝试运行使用模板生成业务文档的 ER 格式，则会发生异常，并且会通知您缺少的模板。 系统还会指导您使用 ER 迁移清理选项删除包含模板的 ER 格式配置，然后重新导入该配置。
 
-[![运行 ER 格式](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![运行 ER 格式。](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 如果您导航到 **配置** 页面（**组织管理** \> **电子申报** \> **配置**）并位于配置树中，那么您将收到类似的错误，请尝试删除使用模板的 ER 格式配置。
 
-[![删除 ER 格式](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![删除 ER 格式。](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 完成以下步骤来解决您无法访问 ER 模板的问题。
 
@@ -50,7 +50,7 @@ ms.locfileid: "5750878"
 >
 > 在 Blob 存储中有可用的引用模板时，如果使用 **迁移清理** 选项删除 ER 格式配置，则将仅删除应用程序数据库中的相关配置项目。 Blob 存储中的模板物理文件仍然保留。 不再允许在 Blob 存储中覆盖文件。 有关详细信息，请参阅 [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217)。 此外，您将无法再重新导入在该环境中使用迁移清理删除的配置。 要解决此问题，您需要在 Blob 存储中找到相应的文件并手动将其删除。
 
-[![导入 ER 格式](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![导入 ER 格式。](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 如果将应用程序实例迁移到已多次用作迁移目标的另一个位置，并且 Blob 存储已经包含其 ER 模板文件，则可能会发生类似的问题。
 

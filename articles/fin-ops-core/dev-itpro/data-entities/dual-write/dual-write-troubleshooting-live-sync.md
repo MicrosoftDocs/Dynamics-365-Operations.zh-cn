@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748889"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350780"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -73,21 +73,21 @@ ms.locfileid: "5748889"
 
 在 Finance and Operations 应用中创建数据时，您可能会收到类似于以下示例的“错误请求”错误消息。
 
-![“错误请求”错误消息的示例](media/error_record_id_source.png)
+![“错误请求”错误消息的示例。](media/error_record_id_source.png)
 
 若要解决此问题，您必须为映射的 Dynamics 365 Sales 或 Dynamics 365 Customer Service 业务单位的团队分配正确的安全角色，以启用缺少的权限。
 
 1. 在 Finance and Operations 应用中，找到在数据集成连接集中映射的业务单位。
 
-    ![组织映射](media/mapped_business_unit.png)
+    ![组织映射。](media/mapped_business_unit.png)
 
 2. 登录到 Dynamics 365 中的模型驱动应用内的环境，导航至 **设置 \> 安全**，找到映射业务单位的团队。
 
-    ![映射业务单位的团队](media/setting_security_page.png)
+    ![映射业务单位的团队。](media/setting_security_page.png)
 
 3. 打开要编辑的团队页面，然后选择 **管理角色** 打开 **管理团队角色** 对话框。
 
-    ![管理角色按钮](media/manage_team_roles.png)
+    ![管理角色按钮。](media/manage_team_roles.png)
 
 4. 为相关表分配具有读/写权限的角色，然后选择 **确定**。
 

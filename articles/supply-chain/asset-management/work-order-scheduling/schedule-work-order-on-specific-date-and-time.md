@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354052"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>将工作订单安排到特定日期和时间
 
@@ -38,13 +38,13 @@ ms.locfileid: "5822507"
 
 4. 在 **工作订单标题** 快速选项卡上，在 **预计的开始时间** 和 **预计的结束时间** 字段中插入开始和结束日期和时间。
 
-    ![图 1](media/05-work-order-scheduling.png)
+    ![图 1.](media/05-work-order-scheduling.png)
 
 5. 在 **常规** 选项卡上，单击 **计划** 以使用标准计划流程，如果要将工作订单分配给特定工作人员，则单击 **分派**。
 
 6. 若要替换任何现有产能预留以确保将工作订单安排在预计期间，请在 **安排工作订单** 对话框 > **有限产能** 部分中按照下图所示进行选择。 这意味着安排流程将忽略现有产能预留，因为此工作订单必须在预计开始时间开始。
 
-    ![图 2](media/06-work-order-scheduling.png)
+    ![图 2.](media/06-work-order-scheduling.png)
 
 7. 单击 **确定** 开始安排。
 

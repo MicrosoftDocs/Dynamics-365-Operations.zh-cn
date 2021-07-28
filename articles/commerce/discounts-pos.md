@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792839"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356870"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 
@@ -33,7 +33,7 @@ ms.locfileid: "5792839"
 
 Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显示商店中当前正在实施的所有折扣。 可以将“查看所有折扣”操作映射到 销售点 (POS) 中的按钮，而该按钮可以添加到 **欢迎** 页或 **交易记录** 页。 下图显示打开的 **所有折扣** 页的示例。
 
-![“所有折扣”页](./media/View_all_discounts.png "“所有折扣”页")
+![所有折扣页面。](./media/View_all_discounts.png "“所有折扣”页")
 
 为了显示折扣，系统将查找与下面的一个或多个条件匹配的所有折扣：
 
@@ -61,11 +61,11 @@ Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显�
 
 下图显示当折扣并发控件设置为 **最优价格和复合位于优先级中，请勿跨多个优先级进行复合** 时使用的逻辑。
 
-![“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑](./media/Model_1.png "“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑")。
+![“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑。](./media/Model_1.png "“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑")。
 
 下图显示当折扣并发控件设置为 **最优价格仅位于优先级中，请始终跨多个优先级进行复合** 时使用的逻辑。
 
-![“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑](./media/Model_2.png "“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑")。
+![“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑。](./media/Model_2.png "“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑")。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

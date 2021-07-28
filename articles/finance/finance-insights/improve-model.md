@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186634"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355668"
 ---
 # <a name="improve-the-prediction-model-preview"></a>改进预测模型（预览）
 
@@ -33,7 +33,7 @@ ms.locfileid: "6186634"
 
 您首先选择三种可能的发票结果中的一个或多个：**按时**、**逾期** 和 **严重逾期**。 应选择所有三个结果。 如果您清除任何结果的选择，发票将被从训练过程中筛选掉，并且预测的准确性将降低。
 
-[![确认结果](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![确认结果。](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 如果您的组织仅需要两个结果，则将 **逾期** 和 **严重逾期** 阈值设置为 0（零）天。 这样，您可以有效地将预测折叠为二进制状态 **按时** 或 **逾期**。
 
@@ -51,7 +51,7 @@ ms.locfileid: "6186634"
 
 下图显示可用于发票表的字段。
 
-[![发票表的可用字段](./media/available-fields.png)](./media/available-fields.png)
+[![发票表的可用字段。](./media/available-fields.png)](./media/available-fields.png)
 
 不应选择以下字段进行训练：
 
@@ -66,7 +66,7 @@ ms.locfileid: "6186634"
 
 下图显示可用于客户表的字段。
 
-[![客户表的可用字段](./media/related-entities.png)](./media/related-entities.png)
+[![客户表的可用字段。](./media/related-entities.png)](./media/related-entities.png)
 
 不应选择以下字段进行训练：
 
@@ -74,8 +74,8 @@ ms.locfileid: "6186634"
 
 ## <a name="filters"></a>筛选器
 
-筛选器当前不支持“客户付款预测器”方案。 因此，请选择 **跳过此步骤**，然后转到摘要页面。
+您可以通过为发票上或客户表中的字段设置筛选条件来筛选用于培训的发票。 例如，您可以设置一个阈值以仅包括总金额等于或超过特定金额的发票。 或者，您可以排除与特定客户组中的客户关联的发票。
 
-[![带筛选器的焦点模型](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+有关筛选数据的详细信息，请参阅[创建预测模型](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
