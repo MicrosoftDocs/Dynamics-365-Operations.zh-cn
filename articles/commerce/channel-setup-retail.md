@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937526"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346050"
 ---
 # <a name="set-up-a-retail-channel"></a>设置零售渠道
 
@@ -50,11 +50,11 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了新零售渠道的创建过程。
 
-![新零售渠道](media/channel-setup-retail-1.png)
+![新零售渠道。](media/channel-setup-retail-1.png)
 
 下图显示了一个零售渠道示例。
 
-![零售渠道示例](media/channel-setup-retail-2.png)
+![零售渠道示例。](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>其他设置
 
@@ -64,7 +64,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了一个零售渠道设置配置示例。
 
-![零售渠道配置示例](media/channel-setup-retail-3.png)
+![零售渠道配置示例。](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>其他渠道设置
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了 **设置** 选项卡上的各个其他零售渠道设置选项。
 
-![设置渠道](media/channel-setup-retail-4.png)
+![设置渠道。](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>设置付款方式
 
@@ -89,7 +89,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了现金支付方式的示例。
 
-![付款方法示例](media/channel-setup-retail-5.png)
+![付款方式示例。](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>设置现金清点
 
@@ -98,9 +98,9 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了现金清点的示例。
 
-![设置现金清点](media/channel-setup-retail-6.png)
+![设置现金清点。](media/channel-setup-retail-6.png)
 
-### <a name="set-up-modes-of-delivery"></a>设置交货方式
+### <a name="set-up-modes-of-delivery"></a>设置交货模式
 
 您可以从操作窗格上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
 
@@ -112,7 +112,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了交货方式的示例。
 
-![设置交货方式](media/channel-setup-retail-7.png)
+![设置交货模式。](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>设置收入/支出帐户
 
@@ -129,7 +129,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了收入/支出帐户的示例。
 
-![设置收入/支出帐户](media/channel-setup-retail-8.png)
+![设置收入/支出帐户。](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>设置部门
 
@@ -155,7 +155,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了履行组分配设置的示例。
 
-![设置履行组分配](media/channel-setup-retail-9.png)
+![设置履行组分配。](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>设置金库
 

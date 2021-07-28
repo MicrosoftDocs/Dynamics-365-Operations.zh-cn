@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188117"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359853"
 ---
 # <a name="sales-and-marketing-overview"></a>销售和市场概览
 
@@ -29,20 +31,20 @@ ms.locfileid: "6188117"
 
 ## <a name="marketing"></a>市场营销
 
-使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销业务流程](./media/marketing01.jpg)](./media/marketing01.jpg)
+使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销的业务流程。](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>关系
 
-在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。 例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。 在对方成为客户前了解该方实体的流程至关重要。 下图显示了当潜在客户变为实际客户时的实体关系的流程。 [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。 例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。 在对方成为客户前了解该方实体的流程至关重要。 下图显示了当潜在客户变为实际客户时的实体关系的流程。 [![SalesandMarketing01。](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>市场活动
 
 市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。 在 Supply Chain Management 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。 随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。
 
 ## <a name="sales"></a>销售额
-您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售业务流程](./media/sales01.jpg)](./media/sales01.jpg)
+您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售的业务流程。](./media/sales01.jpg)](./media/sales01.jpg)
 
-### <a name="sales-quotations"></a>销售报价单
+### <a name="sales-quotations"></a>销售报价
 
 创建销售报价单向客户显示您将提供的商品或服务的优惠。 客户可能请求报价单，或您可以创建报价单来响应潜在或现有客户的请求。 当客户审核销售报价单时，可以将其转化为销售订单。
 

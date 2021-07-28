@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023045"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348901"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金结算期间
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023045"
 
 1. 转到 **税 \> 间接税 \> 预缴税金 \> 预缴税金结算期间**。
 
-    [![预缴税金结算期间页面](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![预缴税金结算期间页面。](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. 在 **税务类型** 字段中，选择 **TDS** 为 TDS 税务类型设置预缴税金结算期间。
 3. 选择 **新建** 创建行。
@@ -47,6 +47,6 @@ ms.locfileid: "6023045"
     > [!NOTE]
     > 要运行定期 TDS 结算流程，转到 **总帐 \> 定期 \> 预缴税金 \> 预缴税金付款**。
 
-    [![预缴税金付款页面](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![预缴税金付款页面。](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. 关闭该页面。

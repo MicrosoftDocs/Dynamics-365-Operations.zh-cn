@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753592"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348036"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>禁止在生成的报告中使用 Word 内容控件
 
@@ -63,7 +63,7 @@ ms.locfileid: "5753592"
     > [!NOTE]
     > 重复内容控件由 **SummaryLines** 键标记，此键与已映射到的自定义 XML 部件的字段相匹配。
 
-    ![Word 模板布局](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Word 模板布局。](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>选择现有 ER 报表配置
 
@@ -98,7 +98,7 @@ ms.locfileid: "5753592"
 7. 选择 **确定**。
 8. 在 **电子报告参数** 对话框中，选择 **确定**，并分析生成的输出。
 
-    ![供应商付款页上要进行处理的付款](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![供应商付款页面上要进行处理的付款。](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     输出以 Word 格式显示，并包含摘要部分。
 
@@ -149,7 +149,7 @@ ms.locfileid: "5753592"
 
 9. 选择 **保存** 以保存对可编辑格式所做的更改。
 
-    ![以 Word 格式生成的输出](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![以 Word 格式生成的输出。](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>运行修改的格式以创建 Word 输出
 
@@ -163,7 +163,7 @@ ms.locfileid: "5753592"
 8. 在 **电子报告参数** 对话框内的 **禁止显示摘要部分** 字段中，选择 **是**。
 9. 选择 **确定**，并分析生成的输出。
 
-    ![以 Word 格式生成的输出](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![以 Word 格式生成的输出。](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     请注意，该输出不包含摘要部分，因为它已被禁止显示。
 

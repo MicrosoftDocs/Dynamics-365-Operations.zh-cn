@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360193"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>在 RCS 全局知识库中停用配置
 
@@ -45,7 +45,7 @@ ms.locfileid: "6018725"
 2. 将 **停用** 参数设置为 **是**。
 3. 选择 **确定** 以停用配置。 保存更改时，将填充 **停用日期** 字段。
 
-![停用配置信息](media/Discontinue-details-2.png)
+![停用配置信息。](media/Discontinue-details-2.png)
   
 您可以将配置恢复为 **共享**，或者可以随时调整停用信息。 如果您共享配置，请指定 **支持截止日期** 以及与停用有关的所有其他信息，以表明您计划将来停用。
 

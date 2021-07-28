@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14131
+ms.custom:
+- "14131"
+- intro-internal
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a441828cb7db9b5346ecf086e8be0b2c3a20029a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 456b07adf6756ee1a86813e3d6fdfc53e56e842c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823804"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339783"
 ---
 # <a name="accruals-overview"></a>应计概览
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358777"
 ---
 # <a name="country-of-origin"></a>原产国家/地区
 
@@ -86,7 +86,7 @@ ms.locfileid: "5829538"
 
 显示有关每个部件原产国家/地区的信息的报告将生成并显示。 以下是一个报告示例。
 
-![原产国家/地区报告](media/country-of-origin-report.png "原产国家/地区报告")
+![原产国家/地区报表。](media/country-of-origin-report.png "原产国家/地区报告")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

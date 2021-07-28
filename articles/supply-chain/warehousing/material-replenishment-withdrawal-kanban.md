@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189936"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356919"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
@@ -35,7 +35,7 @@ ms.locfileid: "6189936"
 
 以下方案显示提取信号触发看板的创建以对生产流程进行物料补货的基于提取的补货系统。 
 
-[![提取信号触发看板的创建以对生产流程进行物料补货](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![提取信号触发看板的创建以对生产流程进行物料补货。](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  提领看板
 2.  看板“源”库位和用于仓库工作的入库库位
@@ -72,7 +72,7 @@ ms.locfileid: "6189936"
 
 在以下方案中，提领看板的转移活动配置为在同一仓库的两个库位之间转移。 提领看板的转移活动设置为自动完成。 
 
-[![处理看板领料工作时自动完成转移活动](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![处理看板领料工作时自动完成转移活动。](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  原材料和生产的共享仓库
 2.  原材料的仓库库位

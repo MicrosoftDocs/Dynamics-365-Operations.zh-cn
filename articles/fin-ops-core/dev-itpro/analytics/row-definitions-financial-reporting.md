@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754286"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344040"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>财务报表设计器中的行定义
 
@@ -158,7 +158,7 @@ ms.locfileid: "5754286"
 
 1. 在报表设计器中，打开要修改的行定义。
 2. 选择要设置格式的单元格。 要选择多个单元格，请在选择单元格的同时按住 Ctrl 键。
-3. 单击要应用的格式的工具栏按钮。 例如，要缩进行，请选择行，然后单击工具栏中的 **增加缩进** ![增加缩进](media/indent.gif "增加缩进")。
+3. 单击要应用的格式的工具栏按钮。 例如，若要缩进行，请选择行，然后单击工具栏上的 **增加缩进** ![增加缩进。](media/indent.gif "增加缩进") 。
 
 ### <a name="adjust-columns-while-you-design-reports"></a>在设计报表时调整列
 

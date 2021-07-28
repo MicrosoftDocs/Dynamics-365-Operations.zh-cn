@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348699"
 ---
 # <a name="assortment-management"></a>分类管理
 
@@ -35,27 +35,27 @@ Dynamics 365 Commerce 提供 *分类*，供您管理渠道中的产品可用性�
 
 在以下示例中，为每个商店配置了一个唯一的分类。 在此情况下，商店 1 中只有产品 1 可用，商店 2 中只有产品 2 可用。
 
-![每个产品可在一个商店提供](./media/Managing-assortments-figure1.png)
+![每个产品可在一个商店提供。](./media/Managing-assortments-figure1.png)
 
 若要让产品 2 在商店 1 可用，可将该产品添加到分类 1。
 
-![添加到分类 1 的产品 2](./media/Managing-assortments-figure2.png)
+![添加到分类 1 的产品 2。](./media/Managing-assortments-figure2.png)
 
 也可以将商店 1 添加到分类 2。
 
-![添加到分类 2 的商店 1](./media/Managing-assortments-figure3.png)
+![添加到分类 2 的商店 1。](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>组织层次结构
 
 如果多个渠道共用同一个产品分类，则可使用 Commerce 分类组织层次结构配置分类。 添加此层次结构中的节点时，将包括该节点及其子节点中的所有渠道。
 
-![组织层次结构](./media/Managing-assortments-figure4.png)
+![组织层次结构。](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>产品类别
 
 同样，在产品方面，可使用产品类别层次结构包括产品组。 可通过包括一个或多个类别层次结构节点配置分类。 在此情况下，分类将包括该类别节点及其子节点中的所有产品。
 
-![产品类别](./media/Managing-assortments-figure5.png)
+![产品类别。](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>排除的产品或类别
 
@@ -64,7 +64,7 @@ Dynamics 365 Commerce 提供 *分类*，供您管理渠道中的产品可用性�
 > [!NOTE]
 > 如果按照定义某个产品同时在一个或多个分类中既包括又排除，将始终把该产品视为排除。
 
-![排除的产品](./media/Managing-assortments-figure6.png)
+![排除的产品。](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>全局产品和已发放产品
 

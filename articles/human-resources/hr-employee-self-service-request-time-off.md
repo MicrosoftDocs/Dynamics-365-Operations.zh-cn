@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303212"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357183"
 ---
 # <a name="request-time-off"></a>请求休息时间
 
@@ -68,7 +68,7 @@ ms.locfileid: "6303212"
 
 4. 在 **取消详细信息** 窗格中，输入注释，然后选择 **提交**。
 
-   ![取消休假申请](media/hr-leave-and-absence-cancel.png)
+   ![取消休假请求。](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>请参阅
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352704"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
 
@@ -65,7 +65,7 @@ ms.locfileid: "5830116"
 
 下图说明在选择了加权平均库存模型和直接结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![不具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![不具有“包括实际值”的加权平均直接结算。](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -99,7 +99,7 @@ ms.locfileid: "5830116"
 
 下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![不具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![不具有“包括实际值”的加权平均汇总结算。](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -128,7 +128,7 @@ ms.locfileid: "5830116"
 
 下图说明在选择了加权平均库存模型和直接结算原则（有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![具有“包括实际值”的加权平均直接结算。](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -161,7 +161,7 @@ ms.locfileid: "5830116"
 
 下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![具有“包括实际值”的加权平均汇总结算。](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -209,7 +209,7 @@ ms.locfileid: "5830116"
 
 下图说明在选择具有标记的加权平均库存模型的情况下此系列的交易记录。 
 
-![具有标记的加权平均](./media/weightedaveragewithmarking.gif) 
+![具有标记的加权平均。](./media/weightedaveragewithmarking.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。

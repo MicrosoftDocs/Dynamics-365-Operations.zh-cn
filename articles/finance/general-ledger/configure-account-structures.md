@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8d4d3ebed7cf3f006672454e086fc0f918f2418d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360656"
 ---
 # <a name="configure-account-structures"></a>配置科目结构
 
@@ -65,7 +65,7 @@ ms.locfileid: "6193798"
 
 **允许的值详细信息** 部分可引导您使用开头为、介于、包含等各种 **运算符** 创建条件。
 
-[![允许值](./media/account.png)](./media/account.png) 
+[![允许值。](./media/account.png)](./media/account.png) 
 
 在根据科目结构设置没有其他潜在值可供选择时，将把允许的值设置为日记帐或会计分配录入页中的默认值。
 

@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0f33dad05fc9a17fc673525ac5ab79f9cf0ab08
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f66786d634bc08f07d1739af5e49c902640a469a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821625"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352778"
 ---
 # <a name="introduction-to-work-orders"></a>工作订单简介
 
@@ -51,7 +51,7 @@ ms.locfileid: "5821625"
 
 下图显示了 **所有工作订单** 列表页的示例。
 
-![图 1](media/01-work-orders.png)
+![图 1.](media/01-work-orders.png)
 
 要查看只有有效工作订单的列表，请选择 **资产管理** > **常用** > **工作订单** > **有效工作订单**。 
 
@@ -69,7 +69,7 @@ ms.locfileid: "5821625"
 
 下图显示了 **所有工作订单** 详细信息视图的示例。
 
-![图 2](media/02-work-orders.png)
+![图 2.](media/02-work-orders.png)
 
 
 操作窗格上的按钮排列在选项卡上。 下表简述与资产管理有关的按钮：

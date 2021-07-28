@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350064"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>按时间顺序对文件和凭证编号
 
@@ -69,7 +69,7 @@ ms.locfileid: "5838853"
 
 为每个编号规则指定一个公司。 必须定义编号规则的细分，让它们为期间提供时间顺序。 例如，细分名称可以包含标识特定期间的特殊前缀。
 
-![编号规则设置](media/chrono-num-sequence.jpg)
+![编号规则设置。](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>配置编号规则组
 
@@ -77,7 +77,7 @@ ms.locfileid: "5838853"
 
 对于每个组，在 **引用** 部分，选择其中一个受支持的单据引用，在 **编号规则代码** 字段中，引用先前为相关期间创建的编号规则。
 
-![编号规则组设置](media/chrono-num-sequence-group.jpg)
+![编号规则组设置。](media/chrono-num-sequence-group.jpg)
 
 同样，在 **应付帐款** 和 **项目管理和会计** 模块中配置编号规则组。
 
@@ -85,7 +85,7 @@ ms.locfileid: "5838853"
 
 要配置编号规则组的时间顺序，转到 **组织管理** > **编号规则** > **时间顺序编号规则组**。 定义编号规则组的适用条件。
 
-![时间顺序编号设置](media/chrono-num-sequence-group-period.jpg)
+![时间顺序编号设置。](media/chrono-num-sequence-group-period.jpg)
 
 | 字段            | 说明                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ ms.locfileid: "5838853"
 ## <a name="document-posting"></a>单据过帐
 当您过帐单据时，会根据单据的过帐日期将适当的编号规则组分配给该单据，然后根据检测到的编号规则将该编号规则组用于生成单据编号。 系统将提供有关编号规则组分配的消息。
 
-![文档编号](media/chrono-num-sequence-fti.jpg)
+![单据编号。](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > 对于有些国家/地区，已经为单据编号实现了特定逻辑。 在这种情况下，国家/地区特定的逻辑将替代 **按时间顺序编号** 功能。

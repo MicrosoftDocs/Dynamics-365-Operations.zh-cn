@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799896"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349690"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>按渠道启用和配置自动费用
 
@@ -66,7 +66,7 @@ ms.locfileid: "5799896"
 1. 在操作窗格上，选择 **立即运行**。
 1. 重复前两个步骤运行 **1070**（**渠道配置**）和 **1110**（**全局配置**）作业。
 
-![配置零售自动收费组织层次结构目的](media/Auto-charges-org-hierarchy-purpose.png)
+![零售自动费用组织层次结构目的的配置。](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>定义按渠道自动收费
 
@@ -86,7 +86,7 @@ ms.locfileid: "5799896"
 1. 在操作窗格上，选择 **立即运行**。
 1. 重复前两个步骤运行 **1070**（**渠道配置**）和 **1110**（**全局配置**）作业。
     
-![渠道定义的自动收费](media/Auto-charges-line-charge-by-channel.png)
+![按渠道定义的自动费用。](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>示例场景
 
@@ -94,7 +94,7 @@ ms.locfileid: "5799896"
 
 组织定义一个名称为 **RECYCLE** 的费用代码，如下图中所示。
 
-![RECYCLE 费用代码](media/Auto-charges-charge-code.png)
+![RECYCLE 费用代码。](media/Auto-charges-charge-code.png)
 
 将在行级别创建一项自动费用。 它具有以下配置：
 
@@ -112,13 +112,13 @@ ms.locfileid: "5799896"
 - **类别** 字段将设置为 **固定**。
 - **费用** 字段设置为 **$6.25**。
 
-![行级别自动费用和自动费用行的配置](media/Auto-charges-recyclingfee-line-fee.png)
+![行级别自动费用和自动费用行的配置。](media/Auto-charges-recyclingfee-line-fee.png)
 
 在 POS 应用程序中，将在 **San Francisco** 商店渠道中创建一个销售订单。 **费用** 行显示回收费为 **$6.25**。
 
 可通过在 POS 应用程序中选择 **交易记录选项 \> 费用 \> 管理费用** 查看这笔回收费的费用代码和说明。
 
-![POS 应用程序中的回收费](media/pos-auto-charges-recyclingfee-line-fee.png)
+![POS 应用程序中的回收费。](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>其他资源
 

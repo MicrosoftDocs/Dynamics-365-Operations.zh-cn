@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350346"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>与默认付款服务有关的订单同步错误
 
@@ -32,7 +32,7 @@ ms.locfileid: "6021119"
 
 同步在线订单时，您会收到以下错误消息：“必须有默认的付款服务才能处理信用卡交易。”
 
-![缺少默认付款服务错误](media/default-payment-method-error.jpg)
+![缺少默认付款服务错误。](media/default-payment-method-error.jpg)
 
 ## <a name="resolution"></a>解决方法
 

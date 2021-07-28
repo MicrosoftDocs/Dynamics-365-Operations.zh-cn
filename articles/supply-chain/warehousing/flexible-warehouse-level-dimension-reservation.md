@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103038"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343766"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -58,7 +58,7 @@ ms.locfileid: "6103038"
 
 为了适应与 *Batch-below\[location\]* 库存预留层次结构相关联的物料的批次预留行为的灵活性，库存管理员必须在 **库存预留层次结构** 页面上为 **批号** 级别选中 **允许在需求订单上预留** 复选框。
 
-![使库存预留层次结构更灵活](media/Flexible-inventory-reservation-hierarchy.png)
+![使库存预留层次结构更灵活。](media/Flexible-inventory-reservation-hierarchy.png)
 
 当在层次结构中选择了 **批号** 级别时，从该级别开始直至 **货位** 级别的所有维度都将被自动选择。 （默认情况下，会预先选择 **货位** 级别以上的所有维度。）此行为反映了这样的逻辑：在订单行上预留特定批号后，批号和货位之间的范围内的所有维度也会自动预留。
 
@@ -145,7 +145,7 @@ ms.locfileid: "6103038"
 
 6. 在 **批次预留** 页面上，选择 **B11** 这一行，然后选择 **预留行**。 在自动预留期间，没有用于分配货位和牌照的指定逻辑。 您可以在 **预留** 字段中手动输入数量。 请注意，在 **提交到源行的批号** 快速选项卡上，批次 **B11** 将显示为 **已提交**。
 
-    ![在“批次预留”页面上向销售订单行提交特定批号](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![在“批次预留”页面上向销售订单行提交特定批号。](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > 可以跨多个批次在销售订单行上预留数量。 同样，可以针对多个货位和牌照进行同一批次的预留（如果已为货位启用了牌照）。
@@ -154,7 +154,7 @@ ms.locfileid: "6103038"
 
 7. 转到 **产品信息管理** \> **产品** \> **已发布产品**。 选择您的物料，然后选择 **管理库存** \> **查看**\>**交易记录**。
 
-    ![将订单承诺预留作为库存交易记录类型](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![将订单承诺预留作为库存交易类型。](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. 查看与销售订单行预留相关的物料库存交易记录。
 
@@ -172,7 +172,7 @@ ms.locfileid: "6103038"
     - 为了创建工作，系统使用工作模板，而不是货位指令。 为工作模板定义的所有标准设置（例如，最大领料行数或特定度量单位）将应用来确定何时应创建新工作。 但是，不考虑与用于识别领料货位的货位指令相关联的规则，因为订单承诺预留已经指定了所有库存维度。 这些库存维度包括仓库存储级别的维度。 因此，作品将继承这些维度，而不必参考货位指令。
     - 批号不显示在领料行上（对于为具有关联的 *Batch-above\[location\]* 预留层次结构的物料创建的工作行就是这种情况。）而“源”批号和所有其他存储维度将显示在工作行的工作库存交易记录中，该交易记录是从关联的库存交易记录引用的。
 
-        ![源自订单承诺预留的工作的仓库库存交易记录](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![源自订单承诺预留的工作的仓库库存交易。](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - 创建工作后，**参考** 字段设置为 **订单承诺预留** 的物料的库存交易记录将删除。 **参考** 字段设置为 **工作** 的库存交易记录现在在所有数量的库存维度中保留实际预留。
 
@@ -207,7 +207,7 @@ ms.locfileid: "6103038"
 
 要在订单上启用牌照预留，您必须在与相关物料关联的层次结构的 **库存预留层次结构** 页，选中 **牌照** 级别的 **允许在需求订单上预留** 复选框。
 
-![灵活牌照预留层次结构的“库存预留层次结构”页面](media/Flexible-LP-reservation-hierarchy.png)
+![灵活牌照预留层次结构的“库存预留层次结构”页面。](media/Flexible-LP-reservation-hierarchy.png)
 
 您可以在部署中的任何时候在订单上启用牌照预留。 此更改不会影响更改发生之前创建的任何预留或开放仓库工作。 但是，如果与该预订层次结构关联的一个或多个物料存在状态为 *在单*、*订购预留* 或 *实际预留* 的未结出站库存交易记录，则无法清除 **允许在需求订单上预留** 复选框。
 
@@ -227,7 +227,7 @@ ms.locfileid: "6103038"
 
 如果仓库工作项由等同于一个完整托盘的行组成，并且具有牌照承诺数量，您可以使用移动设备菜单项（**按牌照处理** 选项设置为 *是*）来优化领料流程。 然后，仓库工作人员可以扫描牌照来完成领料，而不必在工作中逐个扫描物料。
 
-![“按牌照处理”选项设置为“是”的移动设备菜单项](media/Handle-by-LP-menu-item.png)
+![“按牌照处理”选项设置为“是”的移动设备菜单项。](media/Handle-by-LP-menu-item.png)
 
 由于 **按牌照处理** 功能不支持包含多个托盘的工作，因此最好为不同的牌照使用单独的工作项。 要使用此方法，请在 **工作模板** 页面上添加 **订单承诺牌照 ID** 字段作为工作标题分行符。
 
@@ -249,7 +249,7 @@ ms.locfileid: "6103038"
 1. 在 **名称** 字段中，输入值（例如，*FlexibleLP*）。
 1. 在 **描述** 字段中，输入值（例如，*灵活牌照预留*）。
 1. 在 **选定** 列表中，选择 **批号**、**序列号** 和 **所有者**。
-1. 选择 **删除** 按钮 ![向后箭头](media/backward-button.png) 将选定记录移到 **可用** 列表中。
+1. 选择 **删除** 按钮 ![向后箭头。](media/backward-button.png) 以将选定记录移动到 **可用** 列表。
 1. 选择 **确定**。
 1. 在 **牌照** 维度级别行中，选择 **允许在需求订单上预留** 复选框。 **位置** 级别将自动选择，您不能清除它的复选框。
 1. 选择 **保存**。

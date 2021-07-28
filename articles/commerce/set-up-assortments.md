@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344339"
 ---
 # <a name="set-up-assortments"></a>设置分类
 
@@ -31,7 +31,7 @@ ms.locfileid: "5790974"
 
 分类是您分配给商业渠道相关产品的集合，例如实体商店或在线商店。 您使用分类标识每个商店中可用的产品。 分类可以包括产品的类别。 因此，分配给包括在此分类中特定类别的所有产品。 分类还可以包括特定产品和产品的特定款式。 通过设置分类，可以同时将上千种产品以商店需要的任意组合分配到您的渠道。 如果您需要可以设置多个产品分类。 每个产品可以包括在一个或多个分类中，并且每个分类可以分配给一个或多个渠道。 例如，您可以定义包含基本产品组的一个分类。 所有商店接收此分类。 然后定义另一个分类，其中仅包括大型体育设备。 只有您的更大商店接收此分类。 下图显示如何分配产品给分类，并且这些分类如何可分配给渠道。
 
-![产品分类关系](./media/assortments_relationship.gif)
+![产品分类关系。](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>先决条件
 

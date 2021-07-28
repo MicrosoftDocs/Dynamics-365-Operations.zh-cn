@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023064"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358282"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>从普通发票页面中根据发票的 TDS 计算
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023064"
 
 1. 转到 **应收帐款 \> 发票 \> 所有普通发票**。
 
-    [![普通发票页面](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
+    [![普通发票页面。](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
 
 2. 选择 **新建** 以创建普通发票，并输入所需的详细信息。
 3. 选择 **发票** 选项卡。在 **预缴税金组** 部分中，**评估对象的性质** 字段显示客户的评估对象类别的性质。

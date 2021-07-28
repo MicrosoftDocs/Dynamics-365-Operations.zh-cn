@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186556"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355611"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>使用客户付款预测(预览)
 
@@ -38,13 +38,13 @@ ms.locfileid: "6186556"
 - **每笔交易的付款预测** 磁贴显示在 **按时** 时段中付款概率低于 50% 的未结客户交易记录的数量。 您可以选择此磁贴打开 **每笔交易的付款预测** 列表页。
 - **预计逾期余额较高的客户** 磁贴显示预计总余额中超过一半 (50％) 付款逾期和/或严重逾期的客户的数量。 您可以选择此磁贴打开 **每个客户的付款预测** 列表页。
 
-[![管理“客户信用和收款”工作区](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+[![管理“客户信用和收款”工作区。](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>“每笔交易的付款预测”列表页
 
 在 **每笔交易的付款预测** 列表页，您可以在 **按时**、**逾期** 和 **严重逾期** 时段中查看未结交易记录的付款概率。 对于网格中的每个交易，**按时概率** 列显示在到期日或之前付款的概率。 如果按时付款的概率小于 50％，则在 **按时概率** 列旁边显示一个红圈以指示逾期付款的风险。
 
-[![“每笔交易的付款预测”页](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![“每笔交易的付款预测”页面。](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 页面右侧的 **相关信息** 窗格显示有关预测的更多详细信息：
 
@@ -54,13 +54,13 @@ ms.locfileid: "6186556"
 
 **主要因素** 部分、**Customer Insights** 和 **客户历史记录** 快速选项卡中的数据有助于说明付款预测。 它可以帮助您增加对预测效果的信心。
 
-[![“相关信息”窗格中付款预测的图形指示符](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![“相关信息”窗格中付款预测的图形指示符。](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="payment-prediction-per-customer-list-page"></a>“每个客户的付款预测”列表页
 
 **每个客户的付款预测** 列表页显示 **按时**、**逾期** 和 **严重逾期** 时段中预计付款的总未结余额和金额。
 
-[![“每个客户的付款预测”页](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![“每个客户的付款预测”页面。](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 每个时段中的付款金额的计算方法是交易余额的加权平均值之和。 此金额根据每个时段中的付款概率计算。
 
@@ -92,11 +92,11 @@ ms.locfileid: "6186556"
 
 可以转到 **信用和收款 \> 设置 \> Finance insights \> Finance insights 参数** 查看付款预测的准确性。 **客户付款见解** 选项卡上的 **预测模型** 部分以百分比形式显示预测模型的准确性。
 
-[![付款预测的准确性](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![付款预测的准确性。](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 如果您对准确性不满意，请选择 **提高模型准确性** 链接打开 AI Builder 扩展体验。 在 AI Builder 扩展体验中，您可以选择或取消选择字段，直到选择了您认为对准确预测付款概率最重要的字段。 完成后，您可以轻松地重新训练预测模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的预测模型以进行预测。
 
-[![AI Builder 扩展经验](./media/ai-builder.png)](./media/ai-builder.png)
+[![AI Builder 扩展经验。](./media/ai-builder.png)](./media/ai-builder.png)
 
 ## <a name="release-details"></a>发布详细信息
 

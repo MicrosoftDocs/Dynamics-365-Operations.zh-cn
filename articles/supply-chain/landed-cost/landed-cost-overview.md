@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ccc6f0100582b9703b9755b50b7e8504aa153d15
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e646b5fed29aa4c6e67a83703a51c4a322a1918b
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022124"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338415"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 

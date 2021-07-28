@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346562"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>设置销售订单状态列的映射
 
@@ -100,7 +100,7 @@ ms.locfileid: "5750706"
 1. 在浏览器中，转到 `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`。 将 **\<test-name\>** 替换为您公司的 Sales 链接。
 2. 在打开的页面上，找到 **organizationid**，记下值。
 
-    ![查找 organizationid](media/sales-map-orgid.png)
+    ![查找 organizationid。](media/sales-map-orgid.png)
 
 3. 在 Sales 中，打开浏览器控制台，运行以下脚本。 使用步骤 2中的 **organizationid** 值。
 
@@ -119,33 +119,33 @@ ms.locfileid: "5750706"
     );
     ```
 
-    ![浏览器控制台中的 JavaScript 代码](media/sales-map-script.png)
+    ![浏览器控制台中的 JavaScript 代码。](media/sales-map-script.png)
 
 4. 确认 **IsSOPIntegrationEnabled** 已设置为 **true**。 使用步骤 1 中的 URL 检查此值。
 
-    ![IsSOPIntegrationEnabled 设置为 true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled 设置为 true。](media/sales-map-integration-enabled.png)
 
 要启用 **isIntegrationUser** 属性，请按照下列步骤操作。
 
 1. 在 Sales 中，转到 **设置 \> 自定义 \> 自定义系统**，选择 **用户表**，然后打开 **窗体 \> 用户**。
 
-    ![打开用户窗体](media/sales-map-user.png)
+    ![打开用户窗体。](media/sales-map-user.png)
 
 2. 在字段资源管理器中，找到 **集成用户模式**，然后双击它将它添加到窗体中。 保存所做的更改。
 
-    ![将“集成用户模式”列添加到窗体](media/sales-map-field-explorer.png)
+    ![将“集成用户模式”列添加到窗体。](media/sales-map-field-explorer.png)
 
 3. 在 Sales 中，转到 **设置 \> 安全 \> 用户**，将视图从 **已启用用户** 更改为 **应用程序用户**。
 
-    ![将视图从“已启用用户”更改为“应用程序用户”](media/sales-map-enabled-users.png)
+    ![将视图从“已启用用户”更改为“应用程序用户”。](media/sales-map-enabled-users.png)
 
 4. 选择 **DualWrite IntegrationUser** 的两个条目。
 
-    ![应用程序用户列表](media/sales-map-user-mode.png)
+    ![应用程序用户的列表。](media/sales-map-user-mode.png)
 
 5. 将 **集成用户模式** 列的值更改为 **是**。
 
-    ![更改“集成用户模式”列的值](media/sales-map-user-mode-yes.png)
+    ![更改“集成用户模式”列的值。](media/sales-map-user-mode-yes.png)
 
 现在，您的销售订单已映射。
 

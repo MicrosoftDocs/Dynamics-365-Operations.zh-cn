@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349889"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 
@@ -77,7 +77,7 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 
 埃及的销售和购买帐簿报表包括一组列，这些列作为特定于埃及的业务、产品和单据的类型与特定的交易分类相对应。 在过帐交易时，不要将这些新分类作为新录入数据包括在内，而是要根据 **配置** > **设置特定于应用程序的参数** > **设置** 中引入的不同查找来确定分类，以满足埃及增值税报告的要求。 
 
-![应用程序特定参数页面](media/egypt-vat-declaration-setup1.png)
+![应用程序特定参数页面。](media/egypt-vat-declaration-setup1.png)
 
 以下这些查找配置用于对采购和销售增值税帐簿报告中的交易进行分类：
 
@@ -206,7 +206,7 @@ Dynamics 365 Finance 中的增值税退税表包括以下报告：
 2. 在 **销售税** 选项卡上的 **税选项** 部分，在 **增值税对帐单格式映射** 字段中，选择 **增值税申报 Excel (EG)**。 如果您将该字段留空，则标准销售税报告将以 SSRS 格式生成。
 3. 选择 **类别层次结构**。 此类别启用“外贸”选项卡交易中的商品代码，以允许用户选择和分类商品和服务。 在销售和购买交易报告中详细描述了此分类。 此配置为可选配置。
 
-![申报表](media/egypt-vat-declaration-setup2.png)
+![申报窗体。](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>生成增值税退税报表

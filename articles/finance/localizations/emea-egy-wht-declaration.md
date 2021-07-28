@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022803"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349865"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>埃及预缴税金申报 (EG-00005)
 
@@ -103,7 +103,7 @@ Dynamics 365 Finance 中的 **预缴税金申报** 报表包括以下报告：
 2. 在 **预扣税** 选项卡上的 **WHT 申报格式映射** 字段中，选择 **WHT 申报 Excel (EG)**。 如果您将该字段留空，则标准销售税报告将以 SSRS 格式生成。
 
 
-![申报表](media/egypt-wht-declaration-setup1.png)
+![申报窗体。](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>生成预扣税申报表
 针对特定时期准备和提交预扣税申报表的过程基于在结算和过帐纳税作业期间过帐的预扣税交易。 有关全球预缴税金的更多信息，请参见[全球预缴税金](../general-ledger/global-withholding-tax-overview.md)。

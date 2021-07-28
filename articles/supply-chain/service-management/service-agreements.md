@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f906beb4f239add265cf280f6bfade66cb9eadc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 94b61cc9ade04affd6199a07cd283cf7de3cbece
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835934"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336357"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>制定和建立服务协议概览
 

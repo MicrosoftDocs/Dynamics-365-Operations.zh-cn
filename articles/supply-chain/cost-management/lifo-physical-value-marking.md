@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344536"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 
@@ -53,7 +53,7 @@ ms.locfileid: "5809726"
 
 新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 下图说明了在未使用 **包括实际成本** 选项时，先进先出库存模型对此系列的交易记录的影响。 
 
-![不具有“包括实际成本”的后进先出](./media/lifowithoutincludephysicalvalue.gif) 
+![不具有“包括实际值”的后进先出。](./media/lifowithoutincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -89,7 +89,7 @@ ms.locfileid: "5809726"
 
 下图说明了在使用 **包括实际成本** 选项时，先进先出库存模型对此系列的交易记录的影响。 
 
-![具有“包括实际成本”的后进先出](./media/lifowithincludephysicalvalue.gif) 
+![具有“包括实际值”的后进先出。](./media/lifowithincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -133,7 +133,7 @@ ms.locfileid: "5809726"
 
 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 
 
-![具有标记的后进先出](./media/lifowithmarking.gif) 
+![具有标记的后进先出。](./media/lifowithmarking.gif) 
 
 **图形要点**
 

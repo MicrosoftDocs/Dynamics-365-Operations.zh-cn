@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7504b2b36f6869f90de196bf32c09e7bdd51e7b5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac58ea4f1dfd8208c1c2f78e36d82d1375475413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792649"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349512"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
 
@@ -59,7 +59,7 @@ ms.locfileid: "5792649"
 
 下图显示了一些示例电子邮件模板设置。
 
-![电子邮件模板设置](media/email-template.png)
+![电子邮件模板设置。](media/email-template.png)
 
 ### <a name="create-an-email-event"></a>创建电子邮件事件
 
@@ -74,7 +74,7 @@ ms.locfileid: "5792649"
 
 下图显示了一些示例事件通知设置。
 
-![事件通知设置](media/email-notification-profile.png)
+![事件通知设置。](media/email-notification-profile.png)
 
 ### <a name="next-steps"></a>后续步骤
 

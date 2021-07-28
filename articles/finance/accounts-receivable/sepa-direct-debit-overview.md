@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11144
+ms.custom:
+- "11144"
+- intro-internal
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 42d552f0954d36354429579628d650feeeabc175
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188678"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336181"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA 直接借记概览
 

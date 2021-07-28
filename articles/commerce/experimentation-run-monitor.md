@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792527"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349248"
 ---
 # <a name="run-and-monitor-an-experiment"></a>运行和监视试验
 
@@ -28,7 +28,7 @@ ms.locfileid: "5792527"
 
 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 运行和监视](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
+[![试验用户旅程 - 运行和监视。](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
 
 发布变体后，完成在 Commerce 中运行试验所需的所有步骤。 下一步是确定在每个用户请求页面时向他们显示哪个变体。 第三方服务可以做出决定，但是首先您必须在服务中激活试验。 由于激活试验的步骤因服务而异，因此您需要按照服务或提供商提供的说明进行操作。 如果未激活试验，用户将仅看到页面的默认版本（不显示任何变体）。
 

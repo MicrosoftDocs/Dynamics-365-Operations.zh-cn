@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347108"
 ---
 # <a name="schedule-work-orders"></a>计划工作订单
 
@@ -56,7 +56,7 @@ ms.locfileid: "5813741"
 
 *示例：* 在下图中，**预计的开始日期** 字段中插入的公式将为所有工作订单生成预计开始日期为一周后的工作订单计划。 如果您应持续运行工作订单计划，但是希望确保不重新计划为接下来 5-6 天计划的工作订单，此公式可能非常有用。
 
-![图 1](media/03-work-order-scheduling.png)
+![图 1.](media/03-work-order-scheduling.png)
 
 与工作订单关联的工作订单类型可以为一位维护工人设置计划（**资产管理** > **设置** > **工作订单** > **工作订单类型** > **一位维护工人** 切换按钮设置为“是”）。 这意味着，如果在工作订单中使用工作订单类型，**所有工作订单** 详细信息页 > **标题** 视图 > **计划** 快速选项卡上的 **一位维护工人** 切换按钮将自动设置为“是”。 工作订单计划期间，将把为该工作订单创建的所有工作订单作业相继安排给同一个维护工人。 如果需要，可编辑 **所有工作订单** 中 **一位维护工人** 切换按钮上的进行的选择，以便允许为工作订单作业安排多位工人或一位工人。
 

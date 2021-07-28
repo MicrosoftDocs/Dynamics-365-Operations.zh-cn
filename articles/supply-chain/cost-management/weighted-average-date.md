@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343692"
 ---
 # <a name="weighted-average-date"></a>加权平均日期
 
@@ -39,7 +39,7 @@ ms.locfileid: "5821289"
 
 在库存结转期间，将通过如下图中所示的结转期间每天执行计算。 
 
-![加权平均日期每日计算模型](./media/weightedaveragedatedailycalculationmodel.gif) 
+![加权平均日期每日计算模型。](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 脱离库存的库存交易记录，如销售订单、库存日志、采购贷方通知单和生产订单，将在过帐时按预估的成本价发生。 此预估成本价也称作移动平均成本价。 在库存结转时，此系统分析以前期间、前几天和当天的库存交易记录。 这一分析用于确定应使用以下哪些结转原则：
 
@@ -72,7 +72,7 @@ ms.locfileid: "5821289"
 -   2b. 为数量 2（单件成本为 USD 10.00）更新库存财务发货。
 -   3. 通过使用直接结算方法执行库存结转，以便结算对库存财务发货的库存财务收货。
 
-![没有“包括实际成本”选项的加权平均日期直接结算](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![没有“包括实际值”选项的加权平均日期直接结算。](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **插图要点：**
 
@@ -126,7 +126,7 @@ ms.locfileid: "5821289"
 
 下图显示在使用了加权平均库存模型和汇总结算原则（但没有使用 **包括实际成本** 选项）的情况下此系列的交易记录。 
 
-![没有“包括实际成本”选项的加权平均日期汇总结算](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![没有“包括实际值”选项的加权平均日期汇总结算。](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **插图要点**
 
@@ -175,7 +175,7 @@ ms.locfileid: "5821289"
 
 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图显示在使用加权平均日期库存模型和标记的情况下此系列的交易记录。
 
-![具有标记的加权平均日期](./media/weightedaveragedatewithmarking.gif) 
+![具有标记的加权平均日期。](./media/weightedaveragedatewithmarking.gif) 
 
 **插图要点：**
 

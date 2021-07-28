@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049356"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344482"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用分配步骤图标和标题
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049356"
 
 下图显示了 Warehouse Management 移动应用中步骤图标和标题的显示方式。
 
-![Warehouse Management 移动应用中步骤图标和步骤标题的示例](media/step-icon-example.png "Warehouse Management 移动应用中步骤图标和步骤标题的示例")
+![Warehouse Management 移动应用中步骤图标和步骤标题的示例。](media/step-icon-example.png "Warehouse Management 移动应用中步骤图标和步骤标题的示例")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>在系统中开启此功能
 
@@ -350,13 +350,13 @@ ms.locfileid: "6049356"
 
 下图显示了此任务流。
 
-![任务流图](media/step-icons-example-task-flow.png "任务流图")
+![任务流图。](media/step-icons-example-task-flow.png "任务流图")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>为集装箱输入页面创建步骤类
 
 通过集装箱输入页面，工作人员可以扫描或输入集装箱 ID。
 
-![集装箱输入页面](media/step-icons-example-container-input.png "集装箱输入页面")
+![集装箱输入页面。](media/step-icons-example-container-input.png "集装箱输入页面")
 
 在集装箱输入页面上，输入字段的控件名称为 `ContainerId`。 由于此控件名称不在[步骤 ID 列表](#step-ids-classes)中，所以您找不到基于它的现有步骤。 因此，您必须创建一个表示该步骤的步骤类。 下面是一个示例。
 
@@ -382,7 +382,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 重量输入页面让工作人员可以输入重量。
 
-![重量输入页面](media/step-icons-example-weight-input.png "重量输入页面")
+![重量输入页面。](media/step-icons-example-weight-input.png "重量输入页面")
 
 在重量输入页面上，输入字段的控件名称为 `Weight`，在[步骤 ID 列表](#step-ids-classes)中。 因此，如果您可以接受在 `WHSMobileAppStepWeight` 类中定义的步骤图标和标题，则无需为此步骤进行更改任何。
 

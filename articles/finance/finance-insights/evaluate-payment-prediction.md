@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349002"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>评估初始客户付款预测模型（预览）
 
@@ -33,32 +33,32 @@ ms.locfileid: "6186730"
 
 在 Microsoft Dynamics 365 Finance 中的 **Finance Insights 参数** 页面上，准确性分数旁边将显示 **提高模型准确性** 链接。
 
-[![“提高模型准确性”链接](./media/prediction-model.png)](./media/prediction-model.png)
+[![“提高模型准确性”链接。](./media/prediction-model.png)](./media/prediction-model.png)
 
 该链接将带您到 AI Builder，在这里您可以了解有关当前模型的详细信息，并采取措施进行改进。 下图显示了已打开的页面。
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder。](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 打开的页面显示以下信息：
 
 - 在 **性能** 部分中，模型性能等级提供有关模型质量的观点。 有关该等级的详细信息，请参阅 AI Builder 文档中的[预测模型性能](/ai-builder/prediction-performance)。
 - **最有影响力的数据** 部分显示数据的不同输入类型对模型的重要程度。 您可以评估此列表和相应的百分比，以确定信息是否与您对业务和市场的了解一致。
 
-    [![预测模型的“性能”和“最有影响力的数据”部分](./media/models.png)](./media/models.png)
+    [![预测模型的“性能”和“最有影响力的数据”部分。](./media/models.png)](./media/models.png)
 
 - 在 **性能** 部分中，选择 **查看详细信息** 了解有关性能和其他注意事项的详细信息。 在下图中，详细信息显示该模型使用的信息少于建议的信息。 因此，系统已生成警告消息。
 
-    [![有关模型性能的警告](./media/details.png)](./media/details.png)
+    [![有关模型性能的警告。](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>深层发掘
 
 尽管准确性是评估模型的良好起点，并且性能等级提供了视角，但 AI Builder 提供了更详细的度量标准，可用于评估。 要下载详细信息，请在 **性能** 部分中选择 **使用模型** 按钮旁边的省略号按钮 (**...**)，然后选择 **下载详细指标**。
 
-[![“下载详细指标”命令](./media/performance.png)](./media/performance.png)
+[![“下载详细指标”命令。](./media/performance.png)](./media/performance.png)
 
 下图显示可下载的数据的格式。
 
-[![下载的数据的格式](./media/data-format.png)](./media/data-format.png)
+[![下载的数据的格式。](./media/data-format.png)](./media/data-format.png)
 
 要对结果进行更深入的分析，一个很好的起点是查看“混淆矩阵”指标。 例如，下面是上图中为该指标显示的数据。
 

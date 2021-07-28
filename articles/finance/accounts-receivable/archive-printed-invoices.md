@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018970"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356791"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户账单
 
@@ -60,5 +60,5 @@ ms.locfileid: "6018970"
 
 针对打印的发票打开 **附件** 页面。 在 **附件** 快速选项卡上 **其他详细信息** 字段组内的 **文件哈希编号** 字段中，查找为打印发票计算的已存储哈希编号。
 
-![附件哈希编号](media/attach-hash-num.jpg)
+![附件哈希编号。](media/attach-hash-num.jpg)
 

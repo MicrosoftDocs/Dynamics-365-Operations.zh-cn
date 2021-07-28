@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343926"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>配置 Finance and Operations 应用的帮助体验
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745681"
 
 Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/dynamics365](/dynamics365/) 站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
 
-[![帮助体系结构](./media/help-architecture.png)](./media/help-architecture.png)
+[![帮助体系结构。](./media/help-architecture.png)](./media/help-architecture.png)
 
 产品内帮助系统从 docs.microsoft.com 和其他相连网站提取文章。 还提取 Microsoft Dynamics Lifecycle Services (LCS) 中的业务流程建模器 (BPM) 内存储的任务指南。
 
@@ -47,14 +47,14 @@ Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/d
 > - 若要配置帮助，必须通过使用与部署应用的租户相同的租户中的帐户登录。
 > - 不能从本地虚拟硬盘 (VHD) 上正在运行的应用实例访问 LCS 库。
 
-[![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![具有帮助设置的系统参数窗体。](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 若要配置解决方案的任务指南，请在 **系统参数** 页中执行以下步骤。
 
 > [!IMPORTANT]
 > 首次打开 **帮助** 选项卡时，必须连接到 Lifecycle Services。 请确保选择窗体中间的链接，等待连接，关闭对话框，单后选择 **确定** 以转至 **系统参数** 页面。
 >
-> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS")](./media/connect-to-lcs-crop.png)
+> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png“连接到 LCS。”](./media/connect-to-lcs-crop.png)
 
 1. 选择要连接到的 Lifecycle Services 项目。
 2. 选择要从中检索任务录制的 BPM 库（在所选项目内）。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085492"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351144"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
@@ -62,7 +62,7 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 > [!NOTE]
 > 作业描述通知您 ER 格式映射运行相关信息。 它还包含已运行的 ER 组件的名称。
 
-[![运行 ER 格式](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![运行 ER 格式。](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 您可以在以下几个地方找到有关此作业的信息：
 
@@ -74,17 +74,17 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 
 - 在 **电子申报作业** 页面上选择 **显示文件**，以查看作业执行期间生成的任何错误和警告的列表。
 
-    [![审阅 ER 作业列表](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![审阅 ER 作业列表。](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>用户配置的行为
 
 在 **电子报告目标** 页面上，您可以覆盖配置的默认行为。 直到选择 **新建**，然后在 **引用** 字段中选择要为其创建目标设置的配置，才会在此页面上显示导入的配置。
 
-[![在“参考”字段中选择一个配置](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![在“参考”字段中选择配置。](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 创建引用后，可以为引用的 ER 格式的每个 **文件夹** 或 **文件** 输出组件创建文件目标。
 
-[![创建文件目标](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![创建文件目标。](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 然后，在 **目标设置** 对话框中，您可以针对文件目标启用和禁用单个目标。 **设置** 按钮用来控制所选文件目标的所有目标。 在 **目标设置** 对话框中，您可以通过设置目标的 **已启用** 选项来分别控制每个目标。
 
@@ -92,7 +92,7 @@ ER 格式配置的默认行为取决于您在 ER 格式启动时指定的执行�
 
 例如，您可以使用此功能为用于生成 Excel 格式出站文档的文件组件配置文件目标。 可以配置一个目标 ([存档](er-destination-type-archive.md))，以将原始 Excel 文件存储在 ER 作业归档文件中；可以配置另一个目标([电子邮件](er-destination-type-email.md))，以同时将 Excel 文件[转换](#OutputConversionToPDF)为 PDF 格式，并通过电子邮件发送 PDF 文件。
 
-[![为单个格式元素配置多个目标](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![为单个格式元素配置多个目标。](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 运行 ER 格式时，始终会运行为该格式的组件配置的所有目标。 此外，在 Finance **版本 10.0.17 和更高版本** 中，ER 目标功能已得到改进，现在您可以为单个 ER 格式配置不同的目标集。 此配置将每个集标记为为特定用户操作配置。 ER API [已扩展](er-apis-app10-0-17.md)，因此可以提供用户通过运行 ER 格式执行的操作。 提供的操作代码将传递到 ER 目标。 您可以运行 ER 格式的不同目标，具体取决于提供的操作代码。 有关详细信息，请参阅[配置依赖操作的 ER 目标](er-action-dependent-destinations.md)。
 
@@ -116,11 +116,11 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 在为选定格式配置文件目标时，可以针对整个格式配置它们。
 
-[![配置链接](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![配置链接。](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 同时，您可能有该格式的多个已导入到当前 Finance 实例中的[版本](general-electronic-reporting.md#component-versioning)。 如果您选择在选择 **参考** 字段时提供的配置 **链接**，则可以查看它们。
 
-[![配置版本](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![配置版本。](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 默认情况下，仅当您运行状态为 **已完成** 或 **已共享** 的 ER 格式版本时，才会应用配置的目标。 但是，有时在运行 ER 格式的草稿版本时必须使用配置的目标。 例如，您修改格式的草稿版本，并且想要使用配置的目标来测试将如何传递生成的输出。 运行草稿版本时，请按照以下步骤为 ER 格式应用目标。
 
@@ -128,7 +128,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
 3. 将 **将目标用于草稿状态** 选项设置为 **是**。
 
-[![将目标用于草稿状态选项](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![将目标用于草稿状态选项。](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 要使用 ER 格式的草稿版本，必须相应地标记 ER 格式。
 
@@ -136,11 +136,11 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
 3. 将 **运行设置** 选项设置为 **是**。
 
-[![运行设置选项](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![运行设置选项。](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 完成此设置后，**运行草稿** 选项可用于您修改的 ER 格式。 将此选项设置为 **是**，以在运行格式时开始使用该格式的草稿版本。
 
-[![运行草稿选项](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![运行草稿选项。](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>目标故障处理
 
@@ -148,7 +148,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 例如，您配置供应商付款处理，以便运行 **ISO20022 贷方转帐** ER 格式以生成付款文件和补充文件（例如，随函和控制报表）。 如果仅在通过电子邮件成功发送随函后才应该认为付款已成功处理，则必须针对适当文件目标中的 **随函** 组件选中 **失败时停止处理** 复选框，如下图所示。 在这种情况下，仅当成功接受了生成的随函以由 Finance 实例中配置的电子邮件提供程序传送时，所选择要处理的付款的状态才将从 **无** 更改 **已发送**。
 
-[![为文件目标故障配置流程处理](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![为文件目标故障配置流程处理。](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 如果针对目标中的 **随函** 组件清除 **失败时停止处理** 复选框，则付款将被认为已成功处理，即使未通过电子邮件成功传送随函也不例外。 即使无法发送随函，比如说因收件人或发件人的电子邮件地址丢失或不正确，付款状态也将从 **无** 更改为 **已发送**。
 
@@ -160,7 +160,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 要在当前的 Finance 实例中提供 PDF 转换选项，请打开 **功能管理** 工作区，然后打开 **将电子报告传出文档从 Microsoft Office 格式转换为 PDF** 功能。
 
-[![在功能管理中打开传出文档 PDF 转换功能](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![在功能管理中打开传出文档 PDF 转换功能。](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>适用性
 
@@ -185,13 +185,13 @@ PDF 转换选项仅可用于云部署。
 
 要为文件目标打开 PDF 转换，请选择 **转换成 PDF** 复选框。
 
-[![为文件目标打开 PDF 转换](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![为文件目标打开 PDF 转换。](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">选择 PDF 转换的页面方向</a>
 
 如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以指定 PDF 文档的页面方向。 当您选择 **转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向** 字段在 **PDF 转换设置** 快速选项卡上显示。 在 **页面方向** 字段中，选择首选方向。
 
-[![选择 PDF 转换的页面方向](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![选择 PDF 转换的页面方向。](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > 若要有选择 PDF 页面方向的选项，您必须安装 Finance 版本 10.0.10 或更高版本。
@@ -222,7 +222,7 @@ PDF 转换选项仅可用于云部署。
     > [!NOTE]
     > 当您选择 **单独文件** 时，生成的输出以压缩状态在内存中收集。 因此，当实际文件大小可能超过此限制时，将对压缩输出应用最大[文件大小限制](er-compress-outbound-files.md)。 当您预期生成的输出的大小会非常大时，建议您选择此值。
 
-[![为文件夹格式组件配置目标](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![为文件夹格式组件配置目标。](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>限制
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355443"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>创建和更新客户提货时隙
 
@@ -34,7 +34,7 @@ ms.locfileid: "5791157"
 
 下图显示了在电子商务结帐期间选择时隙的示例。
 
-![电子商务结帐期间选择时隙的示例](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![电子商务结帐期间时隙选择的示例。](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>时隙属性
 
@@ -60,7 +60,7 @@ ms.locfileid: "5791157"
 - **有效日期** – 指定提货时隙在一周的哪一天有效。 此属性让零售商可以定义要支持提供订单的日期。
 - **零售渠道** – 指定零售渠道。 每个时隙可以与一个或多个零售商店关联。 根据每个商店的营业时间，可以创建一个或多个时隙条目并将其与渠道关联。 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 每个渠道只能配置一个时隙模板。 这些渠道包括实体商店、呼叫中心、移动设备和电子商务网站。
 
@@ -85,14 +85,14 @@ ms.locfileid: "5791157"
     > [!NOTE]
     > 您可以创建多个模板，但只有一个模板可以与一个渠道或商店关联。
 
-    ![“订单提货 - 时间设置”对话框](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![“订单提货 - 时间设置”对话框。](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. 当您完成时，选择 **确定**。
 1. 如果一天中的时隙会变化，请在 **订单提货 - 时间设置** 快速选项卡上创建其他条目，以确保日期和时间不会重叠。
 1. 在 **零售渠道** 快速选项卡上，选择 **添加** 将时隙模板与将使用该模板的商店或渠道关联。
 1. 在 **选择组织节点** 对话框中，使用箭头按钮选择（或清除选择）应与模板关联的商店、地区和组织。
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. 当您完成时，选择 **确定**。
 1. 在 **配送计划** 页，运行 **1070** 和 **1135** 作业将数据与渠道同步。
@@ -103,7 +103,7 @@ ms.locfileid: "5791157"
 
 下图显示了 POS 订单的时隙选择的示例。
 
-![POS 订单的时隙选择示例](../dev-itpro/media/Curbside_timeslot_POS.png)
+![POS 订单的时隙选择的示例。](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>电子商务订单的时隙选择
 
@@ -114,13 +114,13 @@ ms.locfileid: "5791157"
 
 下图显示了一个已选择提货时隙的电子商务订单的示例。
 
-![已选择提货时隙的电子商务订单的示例](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![已选择提货时隙的电子商务订单的示例。](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>呼叫中心订单的时隙选择
 
 在呼叫中心应用中，呼叫中心代理可以选择提货商店或位置，以及下图中突出显示的日期和时隙。
 
-![已选择提货时隙的呼叫中心订单的示例](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![已选择提货时隙的呼叫中心订单的示例。](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354124"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>维护工人日历和排产
 
@@ -32,7 +32,7 @@ ms.locfileid: "5808128"
 
 下面的屏幕截图显示与使用工作时间日历“生产”的资源关联的维护工人的示例。
 
-![图 1](media/01-work-order-scheduling.png)
+![图 1.](media/01-work-order-scheduling.png)
 
 与工作订单排产关联时，不需要为工具和资产设置日历。 假设工具和资产全天候可用，以便进行维护。
 

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: abd534035a75d5d63b972c7d6668c9dc766b019a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799869"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349738"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce 支持创建和管理多个网站，每个网站可以有�
 
 下图显示创作页面。
 
-![Dynamics 365 Commerce 创作页面](../commerce/media/authoring_tools_01.png)
+![Dynamics 365 Commerce 创作页面。](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>使用“主页”按钮选择工具
 

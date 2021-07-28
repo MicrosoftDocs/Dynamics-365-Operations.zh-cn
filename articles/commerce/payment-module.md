@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804471"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352316"
 ---
 # <a name="payment-module"></a>付款模块
 
@@ -46,9 +46,9 @@ Adyen 付款连接器还支持强大客户身份验证 (SCA)。 欧盟 (EU) 修�
 
 下图显示结帐页面上的礼品卡、会员和 Adyen 付款模块的示例。
 
-![结帐页面上的礼品卡、会员和 Adyen 付款模块的示例](./media/ecommerce-payments.PNG)
+![结帐页面上的礼品卡、会员和 Adyen 付款模块的示例。](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>适用于 PayPal 的 Dynamics 365 Payment Connector
+## <a name="dynamics-365-payment-connector-for-paypal"></a>面向 PayPal 的 Dynamics 365 Payment Connector
 
 从 Commerce 版本 10.0.14 开始，付款模块还与适用于 PayPal 的 Dynamics 365 Payment Connector 集成。 有关如何设置和配置此付款连接器的详细信息，请参阅[适用于 PayPal 的 Dynamics 365 Payment Connector](paypal.md)。
  
@@ -59,10 +59,10 @@ Adyen 付款连接器还支持强大客户身份验证 (SCA)。 欧盟 (EU) 修�
 PayPal Payment Connector 不需要账单地址模块，因为所有与账单相关的信息都由 PayPal 在其 iframe 中处理。 但是，需要装运地址和交货选项模块。
 
 下图显示结帐页面上两个付款模块的示例，一个配置有 Adyen Payment Connector，另一个配置有 PayPal Payment Connector。
-![结帐页面上的 Adyen 付款和 PayPal 模块的示例](./media/ecommerce-paypal.png)
+![结帐页面上的 Adyen 付款和 PayPal 模块的示例。](./media/ecommerce-paypal.png)
 
 下图显示使用 PayPal 按钮调用的 PayPal iframe 的示例。 
-![结帐页面上的 Paypal iframe 的示例](./media/ecommerce-paypal-iframe.png)
+![结帐页面上的 Paypal iframe 的示例。](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>付款模块属性
 
@@ -76,7 +76,7 @@ PayPal Payment Connector 不需要账单地址模块，因为所有与账单相�
 |为主付款|  **True** 或 **False** | 如果为 **True**，将在结帐页面上从主付款连接器中生成任何错误消息。 如果同时配置了 Adyen Payment Connector 和 PayPal Payment Connector，请将 Adyen 设置为 **True**，已在 Commerce 版本 10.0.14 中添加它。|
 
 下图显示在 Commerce 总部的付款连接器配置中 **支持的支付方式** 值设置为“PayPal”的示例。
-![Commerce 总部中支持的支付方式的示例](./media/ecommerce-paymenttendertypes.png)
+![Commerce Headquarters 中支持的支付方式的示例。](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>帐单地址
 

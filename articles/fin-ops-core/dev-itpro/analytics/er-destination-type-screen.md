@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 67af34d2c9c583d8c9befbd2675cee41a3db05e0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bda671923c79d028b77e255f6e5b0e829a63e466
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351762"
 ---
 # <a name="screen-destination"></a>屏幕目标
 
@@ -30,7 +30,7 @@ ms.locfileid: "5753400"
 
 如果将 **已启用** 设置为 **是**，将创建输出的预览。 可以直接在浏览器窗口中查看某些文件类型，如 XML、TXT 或 PDF。 对于其他文件类型（如 Microsoft Excel 或 Word），将使用 Microsoft Office Online 服务。
 
-[![目标设置页面](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![目标设置页面。](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>其他资源
 

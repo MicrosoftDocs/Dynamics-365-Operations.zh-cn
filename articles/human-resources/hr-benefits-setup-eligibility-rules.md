@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351649"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项
 
@@ -137,20 +137,20 @@ ms.locfileid: "6093912"
 
 例如，上面的 **在职员工** 规则由以下条件组成。 员工要根据 **在职员工** 规则获得资格，必须受雇于法人 USMF *并且* 职位类型必须为全职。  
 
-![资格规则内的条件](media/CriteriaWithinAnEligibilityRule.png) 
+![资格规则内的条件。](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>条件内的多个条件
 
 可以进一步扩展规则来在单个条件内使用多个条件。 员工必须至少满足一个条件才有资格。 在上述示例的基础上，可以进一步扩展 **在职员工** 规则，包括同时也是兼职员工的员工。 这样，现在员工必须是 USMF 的员工 *并且* 是全职或兼职员工。  
 
-![条件内的多个条件](media/MultipleConditionsWithinCriteria.png) 
+![条件内的多个条件。](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>自定义字段条件内的资格条件 
 与上述类似，自定义字段可以在创建资格规则时使用，工作方式相同。 例如，您可能想要向在家工作的法戈和哥本哈根员工提供互联网费用报销，因为这些地方的互联网费用较高。 要实现此目的，创建两个自定义字段：**办公地点**（选择列表）和 **在家办公**（复选框）。 然后创建一个名为 **WFH 员工** 的规则。 此规则的条件是 **办公地点 = 法戈** 或 **哥本哈根**，*并且***在家办公 = 是**。
 
 需要如下图所示设置自定义资格规则。 
 
-![自定义字段条件内的资格条件](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![自定义字段条件内的资格条件。](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>配置捆绑
 

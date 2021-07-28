@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188165"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353460"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 
@@ -51,7 +51,7 @@ ms.locfileid: "6188165"
 -   **采购代理** – 执行采购审核和可以批准文档的用户。
 -   **申请人的经理** – 执行管理审核和可以批准文档的用户。
 
-![采购申请工作流审核流程](./media/purchreqworkflowoverview_submission.gif)  
+![采购申请工作流审核流程。](./media/purchreqworkflowoverview_submission.gif)  
 本示例中，采购申请的工作流过程包括以下步骤：
 
 1.  准备人员提交审核的采购申请。
@@ -74,7 +74,7 @@ ms.locfileid: "6188165"
 -   **部门经理** – 执行支出审核和可以批准文档的用户。
 -   **组经理** – 执行签名主管机构审核和可以批准文档的用户。
 
-![采购申请行工作流审核流程](./media/purchreqlineworkflowoverview.gif)  
+![采购申请行工作流审核流程。](./media/purchreqlineworkflowoverview.gif)  
 本示例中，采购申请行的工作流过程包括以下步骤：
 
 1.  准备人员提交审核的采购申请。 每一行将传送到配置为在工作流过程中接收它的审核人。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e119eee82b1438dd8c3ccbaf2d54962b59fe6ae3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47fd386875e3000d579890ae58a462b643ef1876
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808392"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360914"
 ---
 # <a name="counters"></a>计数器
 
@@ -62,7 +62,7 @@ ms.locfileid: "5808392"
 
 在 **计数器** 中向计数器类型添加资产类型时，将把该计数器自动添加到 [资产类型](../setup-for-objects/object-types.md)中 **计数器** 快速选项卡上的资产类型。
 
-![图 1](media/071-setup-for-objects.png)
+![图 1.](media/071-setup-for-objects.png)
 
 
 

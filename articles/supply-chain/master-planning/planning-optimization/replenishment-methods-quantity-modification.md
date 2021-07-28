@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347750"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>补货方法和数量修改
 
@@ -34,15 +34,15 @@ ms.locfileid: "6261688"
 
 - **期间** – 将一个期间的所有需求合并为产品的一个订单的补货方法。 将针对期间的第一天计划订单，其数量将在确定的期间内满足净需求。 期间从产品的第一个需求开始，并覆盖定义的时间长度。 下一个期间将从产品的下一个需求开始。 *期间* 覆盖范围代码通常用于不可预测的库存签发、受季节影响的产品或高成本产品。 下图显示了一个示例。
 
-    ![期间覆盖范围代码使用的示例](./media/coverage-code-period.png "期间覆盖范围代码使用的示例")
+    ![期间覆盖范围代码使用的示例。](./media/coverage-code-period.png "期间覆盖范围代码使用的示例")
 
 - **补货** – 在补货方法中，系统根据需求为产品创建计划采购订单、转移单或生产订单。 此方法用于具有间歇性需求的昂贵产品。 *需求* 覆盖范围代码通常用于可配置产品或按订单生产场景。 下图显示了一个示例。
 
-    ![需求覆盖范围代码使用的示例](./media/coverage-code-requirement.png "需求覆盖范围代码使用的示例")
+    ![需求覆盖范围代码使用的示例。](./media/coverage-code-requirement.png "需求覆盖范围代码使用的示例")
 
 - **最小值/最大值** – 补货方法基于库存级别。 当预测的现有量级别低于特定阈值时，它将库存补货定义到特定级别。 补货数量将是最大级别与预计现有量级别之间的差值。 *最小值/最大值* 覆盖范围代码通常用于可预测的库存签发、高运行器或较便宜的产品。 下图显示了一个示例。
 
-    ![最小值/最大值覆盖范围代码使用的示例](./media/coverage-code-min-max.png "最小值/最大值覆盖范围代码使用的示例")
+    ![最小值/最大值覆盖范围代码使用的示例。](./media/coverage-code-min-max.png "最小值/最大值覆盖范围代码使用的示例")
 
 - **手动** – 在补货方法中，系统不为产品建议采购订单、转移单或生产订单。 相反，产品的计划员负责为产品补货创建所需的订单。 *手动* 覆盖范围代码通常用于不需要系统生成的计划订单的产品。
 

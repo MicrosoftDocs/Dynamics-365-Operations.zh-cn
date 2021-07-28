@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: baf6064fbddc3b49cfb0d950896c0b448bddb560
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795397"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357778"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>启用“购买相似说明产品”建议
 
@@ -79,7 +79,7 @@ Dynamics 365 Commerce 中的“购买相似说明产品”推荐功能利用人�
 
 下图显示了站点构建器中示例 PDP 上的 **启用“购买相似说明产品”链接** 复选框和 **购买相似说明产品** 按钮。
 
-![站点构建器中 PDP 上的“启用‘购买相似说明产品’链接”复选框和“购买相似说明产品”按钮](./media/ter_site_builder_buybox_button.png)
+![站点构建器中 PDP 上的“启用‘购买相似说明产品’链接”复选框和“购买相似说明产品”按钮。](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>其他资源
 

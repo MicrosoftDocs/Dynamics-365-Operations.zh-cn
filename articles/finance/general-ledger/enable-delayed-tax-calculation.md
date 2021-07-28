@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350016"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>为日记帐启用延迟税金计算
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ ms.locfileid: "5823708"
 1. 转到 **总帐 \> 分类帐设置 \> 总帐参数**。
 2. 在 **销售税** 选项卡，在 **常规** 快速选项卡，将 **延迟税金计算** 选项设置为 **是**。
 
-![总帐参数图像](media/delayed-tax-calculation-gl.png)
+![总帐参数图像。](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>在日记帐名称级别启用延迟税金计算
 
 1. 转到 **总帐 \> 日记帐设置 \> 日记帐名称**。
 2. 在 **常规** 快速选项卡上，在 **销售税** 部分，将 **延迟税金计算** 选项设置为 **是**。
 
-![日记帐名称图像](media/delayed-tax-calculation-journal-name.png)
+![日记帐名称图像。](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>在日记帐标头级别启用延迟税金计算
 
@@ -61,7 +61,7 @@ ms.locfileid: "5823708"
 3. 选择一个日记帐名称。
 4. 在 **设置** 选项卡上，将 **延迟税金计算** 选项设置为 **是**。
 
-![普通日记帐页面图像](media/delayed-tax-calculation-journal-header.png)
+![普通日记帐页面图像。](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

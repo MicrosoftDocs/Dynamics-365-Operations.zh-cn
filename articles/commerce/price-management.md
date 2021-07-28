@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794155"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352220"
 ---
 # <a name="retail-sales-price-management"></a>零售销售价格管理
 
@@ -46,7 +46,7 @@ ms.locfileid: "5794155"
 
 下图说明如何使用价格组。 请注意，此图中“价格组”的确位于定价和折扣管理的中央。 可用于管理差异价格和折扣的商业实体位于左侧，实际价格和折扣记录位于右侧。
 
-![价格组](./media/PriceGroups.png "价格组")
+![价格组。](./media/PriceGroups.png "价格组")
 
 创建价格组时，不应将一个价格组用于多种商业实体。 否则可能很难确定为何将特定价格或折扣应用于某个交易。
 

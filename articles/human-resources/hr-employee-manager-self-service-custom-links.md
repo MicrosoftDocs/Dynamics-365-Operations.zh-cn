@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fd92ab2646031a488352e1a0d250c21d1527eaa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357231"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>在经理自助服务中创建自定义链接
 
@@ -38,11 +38,11 @@ ms.locfileid: "6051321"
 
 2. 在 **为经理设置链接** 下，您可以添加、编辑或删除链接。 您也可以将链接分组在一起，以便它们在经理自助服务中成组显示。
 
-   ![在经理自助服务中设置自定义链接](./media/hr-employee-manager-self-service-custom-links-setup.png)
+   ![在经理自助服务中设置自定义链接。](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
 3. 若要查看链接，请转到员工自助服务中的 **我的团队** 选项卡。
 
-   ![在经理自助服务中查看自定义链接](./media/hr-employee-manager-self-service-custom-links-view.png)
+   ![在经理自助服务中查看自定义链接。](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>请参阅
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350804"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941047"
 
 启用映射模板后，映射的状态应为 **正在运行**。 如果状态为 **未运行**，在初始同步期间将发生错误。 要查看错误，请选择 **双写入** 页面上的 **初始同步详细信息** 选项卡。
 
-![初始同步详细信息选项卡上的错误](media/initial_sync_status.png)
+![初始同步详细信息选项卡上的错误。](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>您无法完成初始同步：400 错误请求
 
@@ -85,7 +85,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 1. 登录到 Finance and Operations 应用。
 2. 在 **Azure Active Directory 应用程序** 页面上，删除 **DtAppID** 客户端，然后再次添加。
 
-![Azure AD 应用程序列表中的 DtAppID 客户端](media/aad_applications.png)
+![Azure AD 应用程序列表中的 DtAppID 客户端。](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>初始同步期间自引用或循环引用失败
 
@@ -115,11 +115,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. 搜索 **primarycontactperson** 查找 **PrimaryContactPersonId** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
-        ![删除 PrimaryContactPersonId 列](media/vend_selfref3.png)
+        ![删除 PrimaryContactPersonId 列。](media/vend_selfref3.png)
 
     4. 重复这些步骤删除 **InvoiceVendorAccountNumber** 列。
 
-        ![删除 InvoiceVendorAccountNumber 列](media/vend-selfref4.png)
+        ![删除 InvoiceVendorAccountNumber 列。](media/vend-selfref4.png)
 
     5. 将更改保存到映射。
 
@@ -129,11 +129,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. 选择 **供应商 V2** 表。
     3. 在操作窗格上，选择 **选项**，然后选择 **更改跟踪**。
 
-        ![选择更改跟踪选项](media/selfref_options.png)
+        ![选择更改跟踪选项。](media/selfref_options.png)
 
     4. 选择 **禁用更改跟踪**。
 
-        ![选择“禁用更改跟踪”](media/selfref_tracking.png)
+        ![选择“禁用更改跟踪”。](media/selfref_tracking.png)
 
 3. 运行 **供应商 V2 (msdyn\_vendors)** 映射的初始同步。 初始同步应会成功运行，没有任何错误。
 4. 运行 **CDS 联系人 V2 (contacts)** 映射的初始同步。 如果要同步供应商表上的主要联系人列，则必须同步此映射，因为还必须对联系人行进行初始同步。
@@ -162,11 +162,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. 搜索 **contactperson** 查找 **ContactPersonID** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
-        ![删除 ContactPersonID 列](media/cust_selfref3.png)
+        ![删除 ContactPersonID 列。](media/cust_selfref3.png)
 
     4. 重复这些步骤删除 **InvoiceAccount** 列。
 
-        ![删除 InvoiceAccount 列](media/cust_selfref4.png)
+        ![删除 InvoiceAccount 列。](media/cust_selfref4.png)
 
     5. 将更改保存到映射。
 
@@ -176,11 +176,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. 选择 **客户 V3** 表。
     3. 在操作窗格上，选择 **选项**，然后选择 **更改跟踪**。
 
-        ![选择更改跟踪选项](media/selfref_options.png)
+        ![选择更改跟踪选项。](media/selfref_options.png)
 
     4. 选择 **禁用更改跟踪**。
 
-        ![选择“禁用更改跟踪”](media/selfref_tracking.png)
+        ![选择“禁用更改跟踪”。](media/selfref_tracking.png)
 
 3. 运行 **客户 V3 (Accounts)** 映射的初始同步。 初始同步应会成功运行，没有任何错误。
 4. 运行 **CDS 联系人 V2 (contacts)** 映射的初始同步。
@@ -196,7 +196,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         下图显示了一个更新 **CustomerAccount** 和 **ContactPersonId** 的项目。
 
-        ![更新 CustomerAccount 和 ContactPersonId 的数据集成项目](media/cust_selfref6.png)
+        ![更新 CustomerAccount 和 ContactPersonId 的数据集成项目。](media/cust_selfref6.png)
 
     2. 将公司条件添加到 Dataverse 一端的筛选器中，以仅让与筛选条件匹配的行在 Finance and Operations 应用中更新。 要添加筛选器，请选择筛选器按钮。 然后，在 **编辑查询** 对话框中，您可以添加筛选器查询，如 **\_msdyn\_company\_value eq '\<guid\>'**。 
 
@@ -204,7 +204,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         如果您没有为 **\_msdyn\_company\_value** 输入筛选器查询，那么所有行都将同步。
 
-        ![添加筛选器查询](media/cust_selfref7.png)
+        ![添加筛选器查询。](media/cust_selfref7.png)
 
     行的初始同步现已完成。
 

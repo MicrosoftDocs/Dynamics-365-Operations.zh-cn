@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 20691
+ms.custom:
+- "20691"
+- intro-internal
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d24035aa326c2232cc77a576d24c15b3a8f9d93b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3b8779f0ece4f9befe612750ceb9c78e19a7a483
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188339"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338647"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
