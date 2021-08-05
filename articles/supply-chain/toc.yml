@@ -76,11 +76,9 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18（2021 年 5 月）
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: 已删除或弃用的功能
                   items:
-                    - name: “已删除或弃用的功能”主页
+                    - name: 已删除或弃用的功能主页
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -188,7 +186,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 实施常见问题
+                - name: 实施常见问题解答
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -1999,11 +1997,9 @@
                   href: procurement/tasks/create-purchase-order.md
                 - name: 创建含交货计划的采购订单
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
-                - name: 创建零星供应商的采购订单
+                - name: 创建一次性供应商的采购订单
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: 创建采购订单时创建采购下达单
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: 基于采购协议创建采购下达订单
+                - name: 创建采购订单时应用采购协议
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: 创建采购退货单
                   href: procurement/tasks/create-purchase-return-order.md

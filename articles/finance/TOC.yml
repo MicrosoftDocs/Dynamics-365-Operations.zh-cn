@@ -76,11 +76,9 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19（2021 年 6 月）
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18（2021 年 5 月）
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: 已删除或弃用的功能
               items:
-                - name: “已删除或弃用的功能”主页
+                - name: 已删除或弃用的功能主页
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-finance.md
@@ -186,7 +184,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
                 - name: 准备实施
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: 实施常见问题
+                - name: 实施常见问题解答
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -1366,17 +1364,17 @@
                   href: public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: 公共部门中的过帐定义
                   href: public-sector/posting-definitions-public-sector.md
-                - name: 公共部门中的零星供应商
+                - name: 公共部门中的一次性供应商
                   href: public-sector/one-time-vendors-public-sector.md
-                - name: 在公共部门中创建零星供应商和账单
+                - name: 在公共部门中创建一次性供应商和账单
                   href: public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
                 - name: 在公共部门中创建供应商认证类型
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: 在公共部门中导入和创建多个零星供应商和发票
+                - name: 在公共部门中导入和创建多个一次性供应商和发票
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
                 - name: 限制编辑发票的会计分配
                   href: public-sector/restrict-edit-accounting-distributions.md
-                - name: 计划公共部门中的零星供应商
+                - name: 计划公共部门中的一次性供应商
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: 控制对公共部门中的采购协议的访问
                   href: public-sector/tasks/control-access-purchase-agreements-public-sector.md
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: 进项税
+                  href: localizations/emea-aut-purchase-duties.md
             - name: 巴林
               items:
                 - name: 巴林概览
@@ -1992,11 +1992,15 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: 生成欧盟内部统计申报
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: 法国内部统计
+                      href: localizations/emea-fra-intrastat.md
+                    - name: 意大利内部统计
+                      href: localizations/emea-ita-intrastat.md
                 - name: 库存日记帐报表
                   href: localizations/emea-set-up-report-inventory-journal-names.md
-                - name: 账单签发截止时间
+                - name: 发票签发截止时间
                   href: localizations/emea-invoice-issue-deadline.md
-                - name: 账单处理
+                - name: 发票处理
                   href: localizations/emea-invoice-processing.md
                 - name: 签发欧盟入境证
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
@@ -2964,10 +2968,16 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: 交易额余额对账单
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: 拆分应付帐款/应收帐款汇率差额
+                - name: 拆分 AP/AR 汇率差额
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 增值税申报与登记（JPK_V7M、VDEK）
                   href: localizations/emea-pol-vdek.md
+                - name: 准备 JPK-V7M 报告
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M 报告
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: JPK-V7M 报表中特定业务场景的详细信息
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: 卡塔尔
               items:
                 - name: 卡塔尔概览
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: 应收帐款中的坏帐准备金
                       href: localizations/rus-bad-debts.md
+                    - name: 税务资产计算和应交税金登记
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: 沙特阿拉伯
               items:
                 - name: 沙特阿拉伯概览
@@ -3240,7 +3252,7 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: 集团内部增值税
                   href: localizations/emea-esp-intra-community-vat.md
-                - name: 零星客户
+                - name: 一次性客户
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: 以西班牙版式打印支票
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: 生成包含嵌入图像的 Office 格式报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: 设计 ER 格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: 禁止在生成的文件中使用物料清单字符

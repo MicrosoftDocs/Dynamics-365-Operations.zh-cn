@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 7 月 12 日
+          href: hr-whats-new-2021-07-12.md
         - name: 2021 年 6 月 22 日
           href: hr-whats-new-2021-06-22.md
         - name: 2021 年 5 月 20 日
@@ -253,8 +255,10 @@
           href: hr-admin-teams-leave-app.md
         - name: 准备实施
           href: hr-admin-go-live-prepare.md
-        - name: 实施常见问题
+        - name: 实施常见问题解答
           href: hr-admin-go-live-faq.md
+        - name: Human Resources 基础结构合并常见问题解答
+          href: hr-infrastructure-merge-faq.md
         - name: 文档资源
           items:
             - name: 帮助系统
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: 处理薪酬计划
               href: hr-compensation-process.md
+            - name: 将员工标记为已准备付款
+              href: hr-compensation-payroll.md
         - name: 管理福利
           items:
             - name: 福利管理
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: 配置生活事件类型
                       href: hr-benefits-setup-life-event-types.md
-                    - name: 创建计划类型
+                    - name: 计划类型概览
                       href: hr-benefits-setup-plan-types.md
                     - name: 设置原因代码
                       href: hr-benefits-setup-reason-codes.md
@@ -807,7 +813,9 @@
               href: hr-employee-self-service-request-time-off.md
             - name: 查看团队和公司日历
               href: hr-employee-self-service-calendar.md
-            - name: 管理购买和出售休假策略
+            - name: 配置缺勤管理者角色
+              href: hr-configure-absence-manager.md
+            - name: 管理购买和出售休假政策
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: 创建购买和出售休假工作流
               href: hr-leave-and-absence-buy-sell-workflow.md

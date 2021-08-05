@@ -18,11 +18,9 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: 针对版本 10.0.19 的平台更新（2021 年 6 月）
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: 针对版本 10.0.18 的平台更新（2021 年 5 月）
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: 已删除或弃用的功能
               items:
-                - name: “已删除或弃用的功能”主页
+                - name: 已删除或弃用的功能主页
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -362,11 +360,13 @@
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: 更新环境
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: 对通过自助服务部署所部署的环境进行疑难解答
+                    - name: 对通过自助服务部署所部署的环境进行故障排除
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: 自助服务环境中的计划内维护常见问题解答
                       href: deployment/plannedmaintenance-selfservice.md
-                - name: 完成 Azure 资源管理器使用培训
+                    - name: 业务连续性和灾难恢复
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: 完成 Azure 资源管理器入门培训
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute 和 Finance and Operations
                   href: deployment/expressroute.md
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: 将更新和扩展应用于 Commerce Scale Unit（云）
                   href: deployment/Update-retail-channel.md
+                - name: Commerce Scale Unit（云）的自动更新
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: 初始化 Commerce Scale Unit（云）
                   href: deployment/Initialize-Retail-Channels.md
                 - name: 将渠道迁移到其他 Commerce Scale Unit
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: 计划和准备本地部署
                       href: deployment/plan-onprem-deployment.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) 支持的软件
+                      href: deployment/onprem-compatibility.md
                     - name: 硬件规模调整要求
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Dynamics 365 Finance + Operations (on-premises) 中的身份验证
@@ -502,9 +506,7 @@
                   href: dev-tools/access-instances.md
                 - name: 配置一体框开发环境
                   href: dev-tools/configure-developer-vm.md
-                - name: 在开发计算机上创建新用户
-                  href: dev-tools/enable-development-machine.md
-                - name: 开发和构建不允许管理员访问的 VM 的常见问题
+                - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 重命名本地环境以访问 Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: 当事方和全球通讯簿
                       href: data-entities/dual-write/party-gab.md
-                    - name: 将 Power Portal 与当事方数据模型配合使用
+                    - name: 将 Microsoft Power Apps 门户与当事方数据模型配合使用
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: 升级到当事方和全球通讯簿模型
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,9 +1606,11 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 升级 - 实施
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: 从 AX 2012 升级 - 数据升级常见问题解答
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 影响从 AX 2012 升级的更改
                   items:
-                    - name: 使会计科目表分隔符的成为唯一的
+                    - name: 设置唯一的会计科目表分隔符
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
                     - name: 升级单一凭证日记帐和货币重估
                       href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
