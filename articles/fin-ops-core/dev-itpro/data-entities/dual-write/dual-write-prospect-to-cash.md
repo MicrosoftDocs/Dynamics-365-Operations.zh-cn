@@ -4,30 +4,21 @@ description: 此主题提供有关双写入中的目标客户到现金的信息�
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361371"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542263"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 大多数业务的一个重要目标是将目标客户转换为客户，然后维护与这些客户之间的当前业务关系。 在 Microsoft Dynamics 365 应用中，通过报价或订单处理工作流进行目标客户到现金流程，并核对和确认财务。 将目标客户到现金与双写入集成将创建一个工作流，该工作流采用源自 Dynamics 365 Sales 或 Dynamics 365 Supply Chain Management 的报价单和订单，并使该报价单和订单在这两个应用中可用。
 
@@ -70,6 +61,7 @@ ms.locfileid: "6361371"
 + **货运条款**、**交货条款**、**装运方法** 和 **交货方式** 列不是默认映射的一部分。 若要映射这些列，必须设置特定于在其中同步表的组织中的数据的值映射。
 
 如果您还使用 Field Service 解决方案，请确保重新启用 **询价行快速创建** 参数。 重新启用此参数可使您继续使用快速创建功能创建询价行。
+
 1. 导航到您的 Dynamics 365 Sales 应用程序。
 2. 选择顶部导航栏中的设置图标。
 3. 选择 **高级设置**。
@@ -121,43 +113,25 @@ ms.locfileid: "6361371"
 
 | Finance and Operations 应用 | 客户互动应用 | 说明 |
 |-----------------------------|-----------------------------------|-------------|
-| 销售账单抬头 V2    | 发票                          | Finance and Operations 应用中的“销售发票抬头 V2”表包含销售订单的发票和普通发票。 Dataverse 中为双写入应用了筛选器，将筛选出所有普通发票单据。 |
-| 销售账单行 V2      | invoicedetails                    |             |
-| CDS 销售订单标题     | salesorders                       |             |
-| CDS 销售订单行       | salesorderdetails                 |             |
-| 销售订单来源代码    | msdyn\_salesorderorigins          |             |
-| CDS 销售报价单标题  | 询价                            |             |
-| CDS 销售报价行   | quotedetails                      |             |
+[所有产品](mapping-reference.md#138) | msdyn_globalproducts | |
+[客户 V3](mapping-reference.md#101) | 帐户 | |
+[客户 V3](mapping-reference.md#116) | 联系人 | |
+[联系人 V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[CDS 销售订单标题](mapping-reference.md#217) | salesorders | |
+[CDS 销售订单行](mapping-reference.md#216) | salesorderdetails | |
+[CDS 销售报价标题](mapping-reference.md#215) | 询价 | |
+[CDS 销售报价行](mapping-reference.md#214) | quotedetails | |
+[已发布产品 V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[销售账单抬头 V2](mapping-reference.md#118) | 发票 | Finance and Operations 应用中的“销售发票抬头 V2”表包含销售订单的发票和普通发票。 Dataverse 中为双写入应用了筛选器，将筛选出所有普通发票单据。 |
+[销售账单行 V2](mapping-reference.md#117) | invoicedetails | |
+[销售订单来源代码](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-下面是目标客户到现金的相关核心表映射：
-
-+ [客户 V3 到帐户](customer-mapping.md#customers-v3-to-accounts)
-+ [CDS 联系人 V2 到联系人](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [客户 V3 到联系人](customer-mapping.md#customers-v3-to-contacts)
-+ [发放的产品 V2 到 msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [所有产品到 msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [价目表](product-mapping.md)
+有关价目表的信息，请参阅[统一的产品体验](product-mapping.md)。
 
 ## <a name="limitations"></a>限制
+
 - 不支持退货单。
 - 不支持贷方通知单。
-- 必须为主数据（例如，客户和供应商）设置财务维度。 将客户被添加到报价单或销售订单后，与客户记录关联的财务维度会自动流向订单。 当前，双写入不包括主数据的财务维度数据。 
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
+- 必须为主数据（例如，客户和供应商）设置财务维度。 将客户被添加到报价单或销售订单后，与客户记录关联的财务维度会自动流向订单。 当前，双写入不包括主数据的财务维度数据。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

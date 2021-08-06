@@ -2,7 +2,7 @@
 title: Finance Insights 的配置 - 10.0.19 之前的版本
 description: 本主题介绍的配置步骤用于让系统使用 10.0.19 之前的版本的 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9f46fd95b516eeff4b716a0ecc093f94fac722af
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357430"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638720"
 ---
 # <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>个人预览版（预览）的 Finance insights 的配置 - 10.0.19 之前的版本
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 

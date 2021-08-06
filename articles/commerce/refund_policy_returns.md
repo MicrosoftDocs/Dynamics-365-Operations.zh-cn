@@ -2,7 +2,7 @@
 title: 为渠道创建和更新退货和退款政策
 description: 本主题说明了如何为渠道设置退货和退款政策。
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345100"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558289"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>创建和更新渠道的退货和退款政策
 
@@ -36,12 +36,21 @@ ms.locfileid: "6345100"
 
 ## <a name="enable-return-policy"></a>启用退货政策
 
-要启用渠道退货政策功能，请执行以下操作：
+要在 Commerce Headquarters 中启用渠道退货政策功能，请按照下列步骤操作。
 
 1. 转到 Dynamics 365 Commerce 中的 **功能管理** 工作区。
 1. 在功能名称列表中搜索 **启用渠道退货政策** 功能。
 1. 选择 **立即启用**。
-1. 在 **分配计划** 页面上，运行 **1110**（全局配置）作业以分配功能更改。 
+1. 在 **分配计划** 页面上，运行 **1110**（全局配置）作业以分配功能更改。
+
+## <a name="initialize-the-commerce-scheduler"></a>初始化 Commerce 计划程序
+
+启用 **启用渠道退货政策** 功能后，您必须初始化 Commerce 计划程序以确保通过 Commerce Data Exchange (CDX) 同步添加新的功能数据库更改。 
+
+要在 Commerce headquarters 中初始化 Commerce 计划程序，请按照下列步骤操作。
+
+- 转到 **Retail 和 Commerce \> Headquarters 设置 \>  商业调度 \> 初始化商业调度**。 或者，您可以搜索“初始化 Commerce 计划程序”。
+- 在 **初始化 Commerce 计划程序** 对话框中，确保 **删除现有配置** 选项设置为 **否**，然后选择 **确定**。
 
 ## <a name="configure-return-policy"></a>配置退货政策
 

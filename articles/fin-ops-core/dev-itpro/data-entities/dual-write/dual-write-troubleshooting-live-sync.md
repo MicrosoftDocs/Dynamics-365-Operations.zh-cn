@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350780"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542507"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决实时同步问题的信息。
 
@@ -81,7 +79,7 @@ ms.locfileid: "6350780"
 
     ![组织映射。](media/mapped_business_unit.png)
 
-2. 登录到 Dynamics 365 中的模型驱动应用内的环境，导航至 **设置 \> 安全**，找到映射业务单位的团队。
+2. 登录到 Customer Engagement 应用内的环境，导航至 **设置 \> 安全**，找到映射业务单位的团队。
 
     ![映射业务单位的团队。](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ ms.locfileid: "6350780"
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**无法为实体 CustCustomerV3Entity 生成有效负载**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*
 
-这是在 Dynamics 365 中的模型驱动应用中出现的错误情况：
+以下是 Customer Engagement 应用中错误呈现的样子：
 
 *ISV 代码发生意外错误。(ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败*
 
@@ -125,6 +123,5 @@ ms.locfileid: "6350780"
 
 3. 确保 **externalenvironmentURL** 列具有正确的 Dataverse 或应用 URL。 删除任何指向错误的 Dataverse URL 的重复行。 删除 DUALWRITEPROJECTFIELDCONFIGURATION 和 DUALWRITEPROJECTCONFIGURATION 表中的相应行。
 4. 停止表映射，然后重新开始映射
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

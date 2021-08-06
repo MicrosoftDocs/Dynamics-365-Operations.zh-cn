@@ -2,7 +2,7 @@
 title: 开始使用税款计算
 description: 本主题说明如何设置税务计算。
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336648"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644966"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>开始使用税务计算（预览）
 
@@ -58,15 +58,16 @@ ms.locfileid: "6336648"
 此部分中的步骤与特定法人无关。 您只能完成一次此过程，并且可以在 RCS 中的任何法人中完成该过程。
 
 1. 登录 [RCS](https://marketing.configure.global.dynamics.com/)。
-2. 在 **电子申报** 工作区中，添加新配置提供程序。 使用您的公司名称作为提供者的名称。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
-3. 选择刚创建的配置提供者，然后选择 **设置有效**。
-4. 选择 **Microsoft** 配置提供者，然后选择 **存储库**。
-5. 在 **类型** 字段中，选择 **全局**。
-6. 选择 **打开**。
-7. 转到 **税务数据模型**，展开文件树，然后选择 **税务配置**。
-8. 选择最新版本，然后选择 **导入**。
-9. 返回到 **全球化功能(预览)** 工作区，选择 **功能**，选择 **税务计算** 磁贴，然后选择 **添加**。
-10. 选择以下功能类型之一：
+2. 在 **功能管理** 工作区中，选择并启用功能 **全球化功能**。
+3. 在 **电子申报** 工作区中，添加新配置提供程序。 使用您的公司名称作为提供者的名称。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
+4. 选择刚创建的配置提供者，然后选择 **设置有效**。
+5. 选择 **Microsoft** 配置提供者，然后选择 **存储库**。
+6. 在 **类型** 字段中，选择 **全局**。
+7. 选择 **打开**。
+8. 转到 **税务数据模型**，展开文件树，然后选择 **税务配置**。
+9. 选择最新版本，然后选择 **导入**。
+10. 返回到 **全球化功能** 工作区，选择 **功能**，选择 **税务计算** 磁贴，然后选择 **添加**。
+11. 选择以下功能类型之一：
 
     - **新功能** – 创建具有空白内容的功能设置。
     - **基于现有功能** – 从现有功能创建功能，然后从现有功能设置复制内容。

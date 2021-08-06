@@ -2,24 +2,24 @@
 title: 在 B2B 电子商务网站上管理业务合作伙伴用户
 description: 本主题介绍管理员如何在企业到企业 (B2B) 电子商务网站上添加、编辑和删除业务合作伙伴用户。
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936648"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655598"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 
@@ -67,7 +67,7 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 
 1. 转到 **Retail 和 Commerce IT \> 配送计划**，运行 **1010**（**客户**）作业将新创建的客户和客户层次结构记录推送到渠道数据库。
 
-批准请求并将客户和客户层次结构记录同步到渠道数据库后，请求者可以使用他们在提交请求时提供的电子邮件地址登录 B2B 电子商务网站。 用户可以使用注册流来定义其帐户的密码。
+批准请求并将客户和客户层次结构记录同步到渠道数据库后，请求者可以使用他们在提交请求时提供的电子邮件地址登录 B2B 电子商务网站。 用户可以使用注册流来定义其帐户的密码。 要将标识提供者 (Azure AD B2C) 记录链接到在注册或登录时创建的 B2B 客户记录，请按照[启用标识记录到客户帐户的自动链接](../identity-record-linking.md)中的说明操作。
 
 ## <a name="onboard-additional-business-partner-users"></a>加入其他业务合作伙伴用户
 
@@ -83,7 +83,7 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 
 1. 运行 **1010**（**客户**）作业将新的业务合作伙伴用户同步到渠道数据库。
 
-同步客户记录后，B2B 电子商务网站上的用户状态将设置为 **活动**，新用户可以使用其电子邮件地址登录 B2B 电子商务网站。 用户可以使用注册流来定义其帐户的密码。
+同步客户记录后，B2B 电子商务网站上的用户状态将设置为 **活动**，新用户可以使用其电子邮件地址登录 B2B 电子商务网站。 用户可以使用注册流来定义其帐户的密码。 要将标识提供者 (Azure AD B2C) 记录链接到在注册或登录时创建的 B2B 客户记录，请按照[启用标识记录到客户帐户的自动链接](../identity-record-linking.md)中的说明操作。
 
 ## <a name="edit-business-partner-user-details"></a>编辑业务合作伙伴用户详细信息
 

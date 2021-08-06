@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350732"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542483"
 ---
 # <a name="general-troubleshooting"></a>常规故障排除
 
@@ -61,14 +61,14 @@ ms.locfileid: "6350732"
 
 若要打开跟踪日志，请执行以下步骤。
 
-1. 在 Dynamics 365 中登录到模型驱动应用，打开 **设置** 页面，然后在 **系统** 下面选择 **管理**。
+1. 登录到 Customer Engagement 应用，打开 **设置** 页面，然后在 **系统** 下，选择 **管理**。
 2. 在 **管理** 页面中，选择 **系统设置**。
 3. 在 **自定义** 选项卡上，在 **插件和自定义工作流活动跟踪** 列中，选择 **所有** 启用插件跟踪日志。 如果只想在发生异常时记录跟踪日志，则可以改为选择 **异常**。
 
 
 若要查看跟踪日志，请执行以下步骤。
 
-1. 在 Dynamics 365 中登录到模型驱动应用，打开 **设置** 页面，然后在 **自定义** 下面选择 **插件跟踪日志**。
+1. 登录到 Customer Engagement 应用，打开 **设置** 页面，然后在 **自定义** 下，选择 **插件跟踪日志**。
 2. 找到 **类型名称** 列设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
 3. 双击一个项目查看完整日志，然后在 **执行** 快速选项卡上，查看 **消息块** 文本。
 

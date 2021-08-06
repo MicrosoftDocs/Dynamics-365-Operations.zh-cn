@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350828"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542407"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -71,7 +71,7 @@ ms.locfileid: "6350828"
 
 为确保双写入正常工作，将在 Dataverse 环境中创建您在配置过程中选择的公司。 默认情况下，这些公司是只读的，**IsDualWriteEnable** 属性设置为 **True**。 此外，还将创建默认的负责业务单位负责人和团队，并包括公司名称。 在启用映射之前，请验证是否已指定默认团队负责人。 要查找 **公司(CDM\_公司)** 表，请按照以下步骤操作。
 
-1. 在 Dynamics 365 中的模型驱动应用中，选择右上角的筛选器。
+1. 在 Customer Engagement 应用中，在右上角选择筛选器。
 2. 在下拉列表中，选择 **公司**。
 3. 选择 **运行** 查看结果。
 4. 选择配置双写入时链接的公司。

@@ -2,7 +2,7 @@
 title: 创建覆盖范围选项
 description: Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055572"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558217"
 ---
 # <a name="create-coverage-options"></a>创建覆盖范围选项
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。 例如，覆盖范围选项可以包括某个医疗计划的 **仅限员工**，或某个人寿保险计划的 **2x 薪金**。 定义后，可以重复使用福利覆盖范围选项。 可以将一个选项与一个或多个计划关联。
+覆盖范围选项确定谁应该被范围，或者保险计划中有多少可用覆盖范围。 例如，对于医疗计划，您可能有 **仅员工** 选项、**员工 + 1** 选项和 **家庭** 选项。 对于人寿保险，您可以提供 **1 x 薪水** 或 **2 x 薪水** 覆盖范围。
 
-定义覆盖范围选项后，将覆盖范围选项附加到福利计划类型中。 然后计划类型将与福利计划或项目关联。 与计划类型相关联的覆盖范围选项可用于使用该计划类型创建的所有计划。 
+定义福利覆盖选项后，您可以重复使用它们。 可以将一个选项与一个或多个计划关联。
 
+> [!IMPORTANT]
+> 定义覆盖范围选项后，将选项附加到福利计划类型中。 然后计划类型将与福利计划或项目关联。 与计划类型相关联的覆盖范围选项可用于创建的类型的所有计划。
+
+## <a name="create-coverage-options"></a>创建覆盖范围选项
 1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **覆盖范围选项**。
 
 2. 选择 **新建**。
@@ -40,7 +44,7 @@ Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在�
    | --- | --- |
    | **覆盖范围选项** | 唯一的覆盖范围选项名称。 |
    | **说明** | 覆盖范围选项的描述。 |
-   | **覆盖范围代码** | 覆盖范围代码为每个合格的已覆盖人员类型分配最小和最大金额。 覆盖范围代码指示某计划类型覆盖哪些人员以及允许的覆盖范围金额。 您可以用美元金额或百分比表示覆盖范围金额。 例如:</br></br>- **Emp+1** – 要取得资格，员工必须选择一个依赖方（如果选择了多个，将不再具有资格）。</br></br>- **Emp+家庭** – 要取得资格，员工必须至少选择两个依赖方。 |
+   | **覆盖范围代码** | 覆盖范围代码为每个合格的已覆盖人员类型分配最小和最大金额。 覆盖范围代码指示某计划类型覆盖哪些人员以及允许的覆盖范围金额。 您可以用美元金额或百分比表示覆盖范围金额。 例如:<ul><li>**Emp+1** – 要取得资格，员工必须选择一个依赖方（如果选择了多个，将不再具有资格）。</li><li>**Emp+家庭** – 要取得资格，员工必须至少选择两个依赖方。</li></ul> |
    | **最大数** | 最大依赖方数。 |
    | **状态** | 覆盖范围选项的状态。 如果覆盖范围选项的状态设置为“无效”，则不能在计划类型上选择该覆盖范围选项。 |
    | **百分比** | 百分比金额。 仅当在“覆盖范围代码”字段中选择了“% x 薪金”时，此字段才有效。 |

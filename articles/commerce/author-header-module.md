@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: e99b50bd563af885c40713f60a0cbbb21d15e0c4
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479248"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638235"
 ---
 # <a name="header-module"></a>标题模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 

@@ -4,24 +4,17 @@ description: 本主题介绍有关双写入中的客户会员卡和奖励积分�
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: d2c3845c1a7371d9e992495246e8dd0eb8631020
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d70fc6fea0e4e4e8f4ad73de5699b6b3fd481613
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747979"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542605"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 
@@ -33,16 +26,10 @@ ms.locfileid: "5747979"
 
 ## <a name="templates"></a>模板
 
-| Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
+Finance and Operations 应用 | 客户互动应用     | 说明
 |-----------------------------|-----------------------------------|-------------|
-| 会员卡                | msdyn\_loyaltycards               | 此模板同步有关客户会员卡的信息。 |
-| 会员奖励分       | msdyn\_loyaltyrewardpoints        | 此模板同步有关客户奖励积分的信息。 |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
-
-[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
-
+[会员卡](mapping-reference.md#149) | msdyn_loyaltycards | 此模板同步有关客户会员卡的信息。 |
+[忠诚度级别](mapping-reference.md#226) | msdyn_loyaltylevels | 此模板同步有关客户奖励积分的信息。 |
+[会员奖励分](mapping-reference.md#150) | msdyn_loyaltyrewardpoints | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

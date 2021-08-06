@@ -1,7 +1,7 @@
 ---
 title: 会计源资源管理器
 description: 本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820923"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661029"
 ---
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 
@@ -46,8 +46,10 @@ ms.locfileid: "5820923"
 
 对于这些凭证，您还可以导航到会计源资源管理器的实际原始凭证。
 
-
-
-
+> [!NOTE]
+> 从版本 10.0.20 开始，**更新** 按钮提供两个附加范围来限制为在页面上输入数据而运行的初始查询。 这些附加范围同时也在版本 10.0.19 中作为服务更新提供。 添加了以下字段：
+>
+> - 源凭证、目标凭证
+> - 源主科目、目标主科目
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

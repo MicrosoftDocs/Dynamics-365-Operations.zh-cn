@@ -4,24 +4,17 @@ description: 本主题提供有关如何以双写入方式检查库存可用性�
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 175e1cc568ed027feee39eabfd9f08de6fe7f4b4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193399"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542629"
 ---
 # <a name="inventory-availability-in-dual-write"></a>采用双写入的库存可用性
 
@@ -64,58 +57,12 @@ ms.locfileid: "6193399"
 - CDS 现有库存请求 (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>模板
+
 以下模板可用于公开现有库存量数据。
 
-Finance and Operations 应用 | Customer engagement 应用 | 说明 
+Finance and Operations 应用 | 客户互动应用     | 说明
 ---|---|---
-[CDS 库存现有条目](#145) | msdyn_inventoryonhandentries |
-[CDS 库存现有请求](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>CDS 现有库存条目 (msdyn_inventoryonhandentries)
-
-此模板在 Finance and Operations 应用与 Dataverse 之间同步数据。
-
-Finance and Operations 字段 | 映射类型 | Customer engagement 字段 | 默认值
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>CDS 现有库存请求 (msdyn_inventoryonhandrequests)
-
-此模板在 Finance and Operations 应用与 Dataverse 之间同步数据。
-
-Finance and Operations 字段 | 映射类型 | Customer engagement 字段 | 默认值
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[CDS 库存现有条目](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[CDS 库存现有请求](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271147"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641072"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -70,8 +70,6 @@ ms.locfileid: "6271147"
 - 生产车间执行界面的资产管理功能
 
 ### <a name="enable-job-search"></a>启用作业搜索
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 使用此功能可以将搜索字段添加到作业列表中。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 

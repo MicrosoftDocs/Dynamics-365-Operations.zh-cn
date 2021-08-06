@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314277"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538846"
 ---
 # <a name="payroll-employee"></a>工资单员工
 
@@ -32,15 +32,19 @@ ms.locfileid: "6314277"
 
 该实体提供有关员工的信息。 在使用此实体之前，您必须设置[工资单集成参数](hr-admin-integration-payroll-api-parameters.md)。
 
+>[!IMPORTANT] 
+>**FirstName**、**MiddleName**、**LastName**、**NameValidFrom** 和 **NameValidTo** 字段在此实体上将不再可用。 这是为了确保只有一个有效日期数据源支持此实体，即 **HcmEmployment**，带有 **EmploymentStartDate** 和 **EmploymentEndDate** 字段。
+
+>这些字段将在平台更新 43 中发布的 **DirPersonNameHistoricalEntity** 上可用。 **人员** 字段上存在从 **PayrollEmployeeEntity** 到 **DirPersonNameHistoricalEntity** 的 OData 关系。 或者，可以使用公共名称 **PersonHistoricalNames** 通过 OData 直接查询 **DirPersonNameHistoricalEntity** 实体。
+
+
 ## <a name="properties"></a>属性
 
 | 属性<br>**物理名称**<br>**_类型_** | 使用 | 说明 |
 | --- | --- | --- |
 | **人员编号**<br>mshr_personnelnumber<br>*字符串* | 只读<br>必填 | 员工的唯一人员编号。 |
 | **主要字段**<br>mshr_primaryfield<br>*字符串* | 必填<br>系统生成的 |  |
-| **姓**<br>mshr_lastname<br>*字符串* | 只读<br>必填 | 员工姓氏。 |
 | **法人 ID**<br>mshr_legalentityID<br>*字符串* | 只读<br>必填 | 指定法人（公司）。 |
-| **生效日期**<br>mshr_namevalidfrom<br>*日期/时间偏移* | 只读 <br>必填 | 员工信息有效的开始日期。  |
 | **性**<br>mshr_gender<br>[mshr_hcmpersongender 选项集](hr-admin-integration-payroll-api-gender.md) | 只读<br>必填 | 员工的性别。 |
 | **工资单员工实体 ID**<br>mshr_payrollemployeeentityid<br>*GUID* | 必填<br>系统生成的 | 系统生成的用于唯一标识员工的 GUID 值。 |
 | **雇用开始日期**<br>mshr_employmentstartdate<br>*日期/时间偏移* | 只读<br>必填 | 员工受雇用的开始日期。 |
@@ -50,8 +54,6 @@ ms.locfileid: "6314277"
 | **失效日期**<br>mshr_namevalidto<br>*日期/时间偏移* |  只读<br>必填 | 员工信息有效的结束日期。 |
 | **出生日期**<br>mshr_birthdate<br>*日期/时间偏移* | 只读 <br>必填 | 员工的出生日期 |
 | **标识号**<br>mshr_identificationnumber<br>*字符串* | 只读 <br>必填 |针对员工定义的标识号。  |
-| **名**<br>mshr_firstname<br>*字符串* | 只读<br>必填 | 员工名字。 |
-| **中间名**<br>mshr_middlename<br>*字符串* | 只读<br>必填 |员工中间名。  |
 
 ## <a name="example-query-for-payroll-employee"></a>工资单员工的示例查询
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

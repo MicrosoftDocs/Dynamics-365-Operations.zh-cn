@@ -2,7 +2,7 @@
 title: 模型管理生命周期（预览）
 description: 本主题介绍维护组织的机器学习模型以优化它们生成的预测的方法。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d5566bde97a2e60d050f4a7b499b554df4848bf9
-ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
+ms.openlocfilehash: 3daec03b7ba349d8f72863317e2d601a83417d58
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309782"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638384"
 ---
 # <a name="model-management-lifecycle-preview"></a>模型管理生命周期（预览）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍维护组织的机器学习模型以优化它们生成的预测的方法。
 

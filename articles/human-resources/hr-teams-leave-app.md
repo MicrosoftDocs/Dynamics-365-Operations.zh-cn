@@ -2,7 +2,7 @@
 title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356504"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639430"
 ---
 # <a name="manage-leave-requests-in-teams"></a>管理 Teams 中的休假申请
 
@@ -166,6 +166,10 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>无法登录到 Teams 中的 Human Resources 应用
 
 如果您无法登录该应用，则可能是您用来登录 Microsoft Teams 的帐户与 Dynamics 365 Human Resources 中的员工记录无关。 请与系统管理员联系，以确保您的员工记录已正确关联。
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>在设置中找不到 Dynamics 365 Human Resources 环境
+
+如果无法选择正确的 Dynamics 365 环境，用户记录可能尚未正确同步。 请与您的系统管理员联系重新创建用户记录，然后将其与用户凭据关联。 然后尝试在几分钟内登录 Microsoft Teams 的 Human Resources 应用。
 
 ### <a name="translations-dont-display-correctly"></a>翻译未正确显示
 

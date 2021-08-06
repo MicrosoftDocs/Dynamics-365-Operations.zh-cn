@@ -2,7 +2,7 @@
 title: 改进预测模型（预览）
 description: 本主题介绍可用于改善预测模型性能的功能。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 376e48a442f5a1b459077fb7a0d52faf974a792f
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355668"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638408"
 ---
 # <a name="improve-the-prediction-model-preview"></a>改进预测模型（预览）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍可用于改善预测模型性能的功能。 您开始在 Microsoft Dynamics 365 Finance 中的 **客户付款预测** 工作区中开始改进模型。 然后在 AI Builder 中完成改进步骤。
 

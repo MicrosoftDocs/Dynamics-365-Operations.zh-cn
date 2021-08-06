@@ -1,8 +1,8 @@
 ---
 title: 子分类帐转移到总帐
-description: 本主题描述 Microsoft Dynamics 365 Finance 中与总帐内的子分类帐转移过程有关的功能。
-author: roschlom
-ms.date: 09/09/2019
+description: 本主题介绍与总帐内的子分类帐转移过程有关的功能。
+author: rcarlson
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,34 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1efdf095e379b73d553ca3525abbeee8ca35bcbb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
+ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897496"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6646792"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述 Microsoft Dynamics 365 Finance 中与用于转移子分类日记帐分录批次的规则有关的功能。
+本主题介绍与用于转移子分类日记帐分录批次的规则有关的功能。
 
 在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[已删除或弃用 Finance and Operations 的功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)。
 
-以下选项可用于传输子分类帐批次。 
+以下选项可用于传输子分类帐批次：
 
- - 异步 – 此选项将立即安排将子分类帐会计条目转移到总分类帐。 只要有资源可自由地在服务器上处理此请求，就会记录总帐凭证。 
+- **异步** – 立即安排将子分类帐会计条目转移到总分类帐。 只要有资源可在服务器上处理此请求，就会记录总帐凭证。
+- **计划批处理** – 必须转移的子分类帐会计条目被添加到总帐的处理队列中。 队列中的条目将按条目的接收顺序进行处理。 如果有资源可在服务器上处理此批处理作业，每个总帐凭证将在计划的时间更新科目。
 
-- 计划批处理 – 此选项将添加要转移到总帐中的处理队列的子分类帐会计分录，在该队列中将按接收顺序处理分录。 如果有资源可自由地在服务器上处理此批处理作业，就会在计划的时间记录总帐凭证。 
- 
-在 10.0.8 版本中，进行了改进以增强“异步”选项的性能。 在功能名称 **子分类帐转移到总帐性能优化** 下启用了此功能。 
- 
-此功能改善了从子分类帐到总分类帐的数据转移。 它使流程更加高效，并将更小的交易集组合在一起进行转移。 这样可以更有效地使用批处理服务器。 此功能要求批处理服务器已设置、联机并正常运行，以使“异步转移”选项起作用。 
+在 10.0.8 版本中，进行了改进以增强 **异步** 选项的性能。 在功能名称 **子分类帐转移到总帐性能优化** 下启用了此功能。
 
+异步转移子分类帐批次的功能可以帮助改进数据从子分类帐到总帐的转移。 通过对更小的一组交易进行分组，然后按组转移交易，此功能可以更高效地处理交易。 分组交易后，批处理服务器的资源将被更高效地利用。
+
+子分类帐批次的异步转移需要批处理服务器完成设置、联机且正常运行。 否则，**异步** 转移选项将无法工作。
+
+批处理级别的效率更改对系统中的所有法人使用单个定期批处理作业。 在运行时，将创建新的批处理作业来处理尚未转移的必需记录。 更多设置可以从系统管理中的 **流程自动化** 页面进行控制。 在该页面上，您可以修改后台流程，更改频率并定义睡眠期间。
+
+有关流程自动化设置的详细信息，请参阅[流程自动化](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

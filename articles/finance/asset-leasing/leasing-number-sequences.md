@@ -2,7 +2,7 @@
 title: 分配编号规则
 description: 本主题说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 331542811b2ba9399185478b6d25d1a57fce3a05
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 5d29115c95c358da9479ea68352ef72f227cd365
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881076"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638433"
 ---
 # <a name="assign-number-sequences"></a>分配编号规则
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
 

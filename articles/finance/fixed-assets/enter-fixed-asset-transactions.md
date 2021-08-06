@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815708"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645364"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 
@@ -46,7 +46,7 @@ ms.locfileid: "5815708"
 ## <a name="general-ledger"></a>总帐
 任何一种固定资产交易记录类型都可以在“普通日记帐”页中过帐。 您还可以在固定资产中使用日志过帐固定资产交易记录。
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>用于输入固定资产交易记录类型的选项
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>用于输入固定资产交易记录类型的选项
 
 
 | 交易记录类型                    | 模块                   | 期权                                   |
@@ -61,10 +61,20 @@ ms.locfileid: "5815708"
 | ** **                               | 总帐           | 普通日记帐                           |
 | ** **                               | 应收帐款      | 普通发票                         |
 
-
 固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，此值将更新。
 
 有关详细信息，请参阅[固定资产集成](fixed-asset-integration.md)。
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>需要不同凭证号的交易
+
+以下固定资产交易将使用不同的凭证号：
+
+- 对资产进行其他购置，以及计算“采纳”折旧。
+- 拆分资产。
+- 计算处置折旧的参数打开，然后处置资产。
+- 资产的服务日期在购置日期之前。 因此，折旧调整将过帐。
+
+> [!NOTE]
+> 输入交易时，请确保所有交易都适用于同一固定资产。 如果凭证包含多个固定资产，凭证不会过帐，即使在总帐的 **日记帐名称** 页上将 **新凭证** 字段设置为 **仅一个凭证号**。 如果凭证中包含多个固定资产，您会收到消息“每个凭证只能有一个固定资产交易”，您将无法过帐凭证。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

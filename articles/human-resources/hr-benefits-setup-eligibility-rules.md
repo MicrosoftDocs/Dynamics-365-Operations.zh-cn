@@ -2,7 +2,7 @@
 title: 配置资格规则和选项
 description: 在 Microsoft Dynamics 365 Human Resources 的“福利管理”中设置资格规则和选项。
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351649"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558361"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项
+# <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-在 Microsoft Dynamics 365 Human Resources 中配置福利管理的必要参数之后，您可以创建将与福利计划相关联的资格规则、捆绑、期间和项目。
+配置福利管理的必需参数之后，您可以创建将与福利计划相关联的资格规则、捆绑、期间和项目。
+
+资格规则用于确定员工是否有资格参加计划。 员工必须满足至少一项规则的条件才能被视为有资格享受该福利。 例如，您的计划有两个规则。 第一个规则（行 1）规定员工类型必须为 **员工**。 第二个规则（行 2）规定员工必须是全职员工。 因此，满足规则 1 的员工即使只是兼职也有资格。
+
+不过，单个规则可以设置多个条件。 在这种情况下，员工必须满足规则的所有条件才能被视为有资格享受该福利。 例如，您有一个名为 **员工全职** 的规则。 此规则规定员工类型必须是 **员工***而且* 员工必须是全职员工。 因此，员工必须满足规则的两个条件才有资格。
+
+> [!IMPORTANT]
+> 至少有一个资格规则必须与每个福利计划关联。 您可以将多个规则与福利关联。
 
 ## <a name="create-an-eligibility-rule"></a>创建资格规则
 
@@ -72,7 +79,7 @@ ms.locfileid: "6351649"
    | **符合条件的职位类型** | 指定符合资格规则的职位类型。 例如，全职。 |
    | **符合条件的状态** | 指定符合资格规则的州/省/市/自治区。 例如，美国北达科他州或加拿大不列颠哥伦比亚省。 |
    | **符合条件的雇用条款** | 指定符合资格规则的雇用条款。 例如，随意或集体合同。 |
-   | **符合条件的工会** | 指定符合资格规则的工会成员资格。 例如，美国叉车司机协会。 </br></br>使用基于工会的资格规则时，工作人员的工会记录中必须填写结束日期。 不能将其留为空白。 |
+   | **符合条件的工会** | 指定符合资格规则的工会成员资格。 例如，美国叉车司机协会。</br></br>使用基于工会的资格规则时，工作人员的工会记录中必须填写结束日期。 不能将其留为空白。 |
    | **合格的邮政编码** | 指定符合资格规则的邮政编码。 例如，58104。 |
 
 5. 在 **其他详细信息** 下，您可以查看以下其他详细信息。

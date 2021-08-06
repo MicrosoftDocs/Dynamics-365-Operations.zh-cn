@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.20 的预览（2021 年 8 月）
+title: Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.20 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301738"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641048"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的预览（2021 年 8 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.20 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.886，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.20 中的新增或更改的功能。 此版本的构建版本号为 10.0.886，并以下面的形式提供：
 
 - **版本预览：** 2021 年 5 月
 - **版本正式发布（自行更新）：** 2021 年 7 月
 - **版本的正式发布时间（自动更新）：** 2021 年 8 月
 
-
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
 下表列出了此版本中包含的功能。 *功能* 列提供了指向[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)的链接，您可以在那里查看每项功能的官方发布日期。 *更多信息* 列提供了更多详细信息和/或相关文档的链接。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 | 特征区域 | 功能 | 更多信息 |
 |---|---|---|
@@ -49,7 +47,7 @@ ms.locfileid: "6301738"
 
 | 特征区域 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
-| 主计划 | 计划优化的负天数 | 此预览功能使计划优化能够根据覆盖范围组中定义的 **负天数** 参数考虑延迟容差。 |
+| 主计划 | 计划优化的负天数 | 此功能使计划优化能够根据覆盖范围组中定义的 **负天数** 参数考虑延迟容差。 |
 | 主计划 | 针对调整后需求预测的并行授权 | 此功能允许从 **调整后的需求预测** 页并行授权调整后的需求预测。 此功能的目的是在授权大量预测时提高性能。 授权时，用户可以在授权对话中指定 **线程数**。 |
 | 主计划 | (预览)计划散装批次订单和包装批次订单的可批处理确认和合并 | 此功能允许您使用批处理作业来确认和合并计划散装订单和包装订单。 |
 | 生产控制 | 复制通用工艺路线 | 此功能增强了复制工艺路线功能，允许用户复制不特定于物料的工艺路线。 利用此功能，系统可在复制工艺路线功能用于覆盖尚未分配给物料的工艺路线之后更新所有相关信息（如站点、工艺路线组、资源要求以及不同时间）。 |
@@ -75,7 +73,7 @@ ms.locfileid: "6301738"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.20（2021 年 7 月）的平台更新](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)。 <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.20（2021 年 7 月）的平台更新](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

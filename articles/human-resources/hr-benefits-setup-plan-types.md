@@ -1,8 +1,8 @@
 ---
-title: 创建计划类型
+title: 计划类型概述
 description: Microsoft Dynamics 365 Human Resources 中的计划类型是特定福利类型的高级分组。 每个计划类型都有一个计划类型代码，用于确定该计划类型的规则。
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057854"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558265"
 ---
-# <a name="create-plan-types"></a>创建计划类型
+# <a name="plan-type-overview"></a>计划类型概述
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources 中的计划类型是特定福利类型的高级分组。 每个计划类型都有一个计划类型代码，用于确定该计划类型的规则。 例如，计划类型“基本人寿”将具有计划类型代码 Life，因为它是一种人寿保险计划，必须符合为 Life 计划类型代码建立的规则。 另一种计划类型可能是“补充人寿”，也具有计划类型代码 Life。
+计划类型是特定福利类型的高级分组。 每个计划类型都有一个计划类型代码，用于确定该计划类型的规则。 例如，**基本人寿** 计划类型将具有 **Life** 计划类型代码，因为它是一种人寿保险计划，必须符合为 **Life** 计划类型代码建立的规则。 另一个计划类型可能是 **补充人寿**。 此计划类型也具有 **Life** 计划类型代码。
 
 各个计划类型指示员工是否可以登记加入一个或多个该类型的计划。 例如，员工可能能够同时加入计划类型 Life 的“基本人寿”和“补充人寿”政策。 有可能只允许员工加入一个 Medical 类型的政策。
 
 如果计划类型涉及联系人，该计划类型将指示联系人是受益人还是依赖方。 例如，“基本人寿”计划类型将有受益人，而“基本医疗”计划类型将有依赖方。 在某些情况下，计划可能没有任何个人联系人。 例如，“弹性支出帐户”或“停车津贴”。
 
 计划类型可以定义覆盖范围选项。 覆盖范围选项在覆盖范围选项窗体中定义。 覆盖范围选项可以指定福利的金额或符合计划类型条件的联系人。 例如，如果联系人类型为“受益人”，覆盖范围选项应定义受益人在使用福利时有资格享受哪些项目的条款。 如果联系人类型为“依赖方”，覆盖范围选项应定义依赖方与员工之间的关系。 
+
+> [!IMPORTANT]
+> 此窗体包含影响创建新福利计划时可用选项的关键数据：
+>
+> - **计划类型代码** – 当设置实际福利时，此字段会影响 **配置** 选项卡上显示的内容。  
+> - **并发登记** – 此字段确定是否允许多个登记。 （对于医疗计划，此字段通常设置为 **一个登记**。）
+> - **联系人类型** – 此字段允许将依赖方或受益人添加到计划中。 如果设置为 **无**，登记福利的员工将无法选择受益人或依赖方。
+> - **覆盖范围选项** – 使用此字段将覆盖范围选项与计划类型关联。 它定义将受此计划类型覆盖的个人或可用于此计划类型的覆盖范围金额。 例如，您可以指定医疗计划类型的覆盖范围仅可用于员工、用于员工和另一人或用于员工及其家人。
+
+## <a name="create-plan-types"></a>创建计划类型
 
 1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **计划类型**。
 

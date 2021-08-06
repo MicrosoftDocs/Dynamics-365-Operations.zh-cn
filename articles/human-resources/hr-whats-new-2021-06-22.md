@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303554"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560066"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Dynamics 365 Human Resources（2021 年 6 月 22 日）中的新增功能或更改
 
@@ -44,7 +44,7 @@ ms.locfileid: "6303554"
 | --- | --- | --- |
 | 通知用户“未雇用的工作人员”功能 - 当高级访问处于打开状态，并且 **查看所有未雇用的工作人员** 功能在功能管理中处于禁用状态时，“未雇用的工作人员”窗体中将显示一个横幅。 该横幅将指导用户打开 **查看所有未雇用的工作人员** 功能。 | 不适用| [未雇用的工作人员](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | 对福利管理资格规则的自定义字段支持 | [资格处理的自定义字段支持](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[配置资格规则](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| 休假应计交易记录审计 | 不适用 | [休假应计交易记录审计](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| 休假应计交易记录审计 | 不适用 | [休假应计交易记录审计](hr-leave-and-absence-accrue.md)|
 | 休假和缺勤工作流体验增强 | [休假和缺勤工作流体验增强](https://go.microsoft.com/fwlink/?linkid=2147528) | [申请休假](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>缺陷修复

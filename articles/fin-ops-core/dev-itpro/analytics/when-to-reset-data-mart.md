@@ -2,7 +2,7 @@
 title: 数据市场重置常见问题解答
 description: 本主题提供有关数据市场重置的一些常见问题的解答。
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266601"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638259"
 ---
 # <a name="data-mart-resets-faq"></a>数据市场重置常见问题解答
 
@@ -37,6 +37,9 @@ ms.locfileid: "6266601"
 
 - 应用程序数据库已还原。
 - 您打开了一个支持票证，支持工程师已指导您在故障排除步骤中重置数据市场。
+ 
+> [!NOTE]
+> 重置数据市场的过程受数据库中的总帐和预算交易数的影响。 根据系统中的交易数，数据市场重置可能只需 15 分钟完成，也可能长达四个小时。 不过，如果您的重置时间超过了四个小时，我们建议您与支持人员联系。
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>何时进行数据市场重置不合适？
 

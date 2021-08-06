@@ -4,24 +4,17 @@ description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间�
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 36cfed92535c1df3ba55fd56bc8aa2f9eccf3003
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346488"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542431"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
@@ -29,9 +22,7 @@ ms.locfileid: "6346488"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
-术语 *供应商* 是指为企业提供商品或服务的供应商组织或独立经营者。 尽管 *供应商* 是 Microsoft Dynamics 365 Supply Chain Management 中的一个熟悉的概念，而 Dynamics 365 中的模型驱动应用中则不存在供应商这个概念。 但是，您可以重载 **客户/联系人** 表来存储供应商信息。 集成的供应商主数据在 Dynamics 365 中的模型驱动应用中引入了明确的供应商概念。 您可以使用新的供应商设计，也可以将供应商数据存储在 **客户/联系人** 表中。 双写入同时支持这两种方法。
+术语 *供应商* 是指为企业提供商品或服务的供应商组织或独立经营者。 尽管 *供应商* 是 Microsoft Dynamics 365 Supply Chain Management 中的一个熟悉的概念，但客户互动应用中不存在供应商这个概念。 但是，您可以重载 **客户/联系人** 表来存储供应商信息。 集成的供应商主数据在客户互动应用中引入了明确的供应商概念。 您可以使用新的供应商设计，也可以将供应商数据存储在 **客户/联系人** 表中。 双写入同时支持这两种方法。
 
 在这两种方法中，供应商数据在 Dynamics 365 Supply Chain Management、Dynamics 365 Sales、Dynamics 365 Field Service 和 Power Apps 门户之间集成。 在 Supply Chain Management 中，此数据可用于工作流，如采购申请和采购订单。
 
@@ -52,27 +43,17 @@ ms.locfileid: "6346488"
 
 供应商数据包括有关供应商的所有信息，如供应商组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 供应商数据交互期间，表映射集合协同工作，如下表中所示。
 
-Finance and Operations 应用 | 其他 Dynamics 365 应用     | 说明
+Finance and Operations 应用 | 客户互动应用     | 说明
 ----------------------------|-----------------------------|------------
-供应商 V2                   | 科目                     | 使用客户表存储供应商信息的企业可以继续按照相同方法使用此表。 还可以利用 Finance and Operations 应用集成带来的显式供应商功能。
-供应商 V2                   | Msdyn\_vendors              | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Dataverse 中引入的现成供应商概念。 
-供应商组               | msdyn\_vendorgroups         | 此模板同步供应商组信息。
-供应商付款方式       | msdyn\_vendorpaymentmethods | 此模板同步供应商付款方式信息。
-CDS 联系人 V2             | 联系人                    | [联系人](customer-mapping.md#cds-contacts-v2-to-contacts)模板同步客户和供应商的所有第一、第二和第三联系信息。
-付款计划行      | msdyn\_paymentschedulelines | [付款计划行](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines)模板同步客户和供应商的引用数据。
-付款计划            | msdyn\_paymentschedules     | [付款计划](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules)模板同步客户和供应商的付款计划引用数据。
-付款日行 CDS V2    | msdyn\_paymentdaylines      | [付款日行](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines)模板同步客户和供应商的付款日行引用数据。
-付款日 CDS            | msdyn\_paymentdays          | [付款日](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays)模板同步客户和供应商的付款日引用数据。
-付款期限            | msdyn\_paymentterms         | [付款期限](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms)模板同步客户和供应商的付款期限引用数据。
-名称词缀                | msdyn\_nameaffixes          | [名称词缀](customer-mapping.md#name-affixes-to-msdyn_nameaffixes)模板同步客户和供应商的名称词缀引用数据。
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
-
-[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
-
-[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
+[CDS 联系人 V2](mapping-reference.md#115) | 联系人 | 此模板同步客户和供应商的所有第一、第二和第三联系信息。
+[名称词缀](mapping-reference.md#155) | msdyn_nameaffixes | 此模板同步客户和供应商的名称词缀引用数据。
+[付款日行 CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | 此模板同步客户和供应商的付款日行引用数据。
+[付款日 CDS](mapping-reference.md#158) | msdyn_paymentdays | 此模板同步客户和供应商的付款日引用数据。
+[付款计划行](mapping-reference.md#159) | msdyn_paymentschedulelines | 同步客户和供应商的付款计划行引用数据。
+[付款计划](mapping-reference.md#160) | msdyn_paymentschedules | 此模板同步客户和供应商的付款计划引用数据。
+[付款期限](mapping-reference.md#161) | msdyn_paymentterms | 此模板同步客户和供应商的付款期限引用数据。
+[供应商 V2](mapping-reference.md#202) | msdyn_vendors | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Dataverse 中引入的现成供应商概念。
+[供应商组](mapping-reference.md#200) | msdyn_vendorgroups | 此模板同步供应商组信息。
+[供应商付款方式](mapping-reference.md#201) | msdyn_vendorpaymentmethods | 此模板同步供应商付款方式信息。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

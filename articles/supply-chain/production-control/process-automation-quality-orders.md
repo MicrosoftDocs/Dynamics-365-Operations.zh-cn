@@ -11,11 +11,11 @@ ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.sourcegitcommit: 4492e5d835bbb4d61208730675849dba0a6fe828
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353980"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6641024"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>调用流程自动化流来创建质检订单
 

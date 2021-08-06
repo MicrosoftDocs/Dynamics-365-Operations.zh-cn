@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afa64474e8eaf4c7b73e4f76d85e379f77b570a7
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: c7b7f71cf084a05bb0278f5df4ddb022ef3d640f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111559"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560042"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 5 月 20 日）
 
@@ -70,7 +70,7 @@ ms.locfileid: "6111559"
 | 福利管理工作区 | [福利管理工作区（预览）](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [福利管理工作区](hr-benefits-management-workspace.md) |
 | 休假和缺勤工作流体验增强 | [休假和缺勤工作流体验增强](https://go.microsoft.com/fwlink/?linkid=2147528) | [申请休假](hr-employee-self-service-request-time-off.md)|
 | 启用简化的工资单集成（工资单集成 API） | [启用与工资单提供商的简化集成](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [工资单集成 API](hr-admin-integration-payroll-api-introduction.md)|
-| 休假应计交易记录审计 | - | [休假应计交易记录审计](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| 休假应计交易记录审计 | - | [休假应计交易记录审计](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>即将推出
 

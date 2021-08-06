@@ -2,7 +2,7 @@
 title: 启用客户付款预测(预览)
 description: 本主题说明如何在 Finance Insights 中开启和配置客户付款预测功能。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 03320aa925ae94ef39d54e64701846089ec66084
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349026"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638576"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>启用客户付款预测(预览)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何在 Finance Insights 中开启和配置客户付款预测功能。 在 **功能管理** 工作区中开启功能，然后在 **Financial insights 参数** 页中输入配置设置。 本主题还包括可以帮助您有效使用该功能的信息。
 

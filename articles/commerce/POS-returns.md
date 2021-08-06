@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 53cad70e2c4866a18427157bc8b7fa1c3fda4daa
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345176"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638136"
 ---
 # <a name="create-returns-in-pos"></a>在 POS 中创建退货
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用中为现金和结转交易或客户订单启动退货。
 

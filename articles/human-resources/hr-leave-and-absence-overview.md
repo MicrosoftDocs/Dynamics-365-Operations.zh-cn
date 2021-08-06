@@ -2,7 +2,7 @@
 title: 休假和缺勤概览
 description: 在 Dynamics 365 Human Resources 中，休假和缺勤工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339707"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639478"
 ---
 # <a name="leave-and-absence-overview"></a>休假和缺勤概览
 
@@ -35,6 +35,7 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 - [配置休假和缺勤参数](hr-leave-and-absence-parameters.md)
 - [创建工作时间日历](hr-leave-and-absence-working-time-calendar.md)
 - [创建休假申请工作流](hr-leave-and-absence-workflow.md)
+- [配置缺勤管理人员角色](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>创建和管理休假计划
 
@@ -50,8 +51,9 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 
 您的员工可以提交休息时间请求，您可以在 **员工自助服务** 工作区进行管理。
 
-[请求休假](hr-employee-self-service-request-time-off.md)
-[管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
+- [请求休假](hr-employee-self-service-request-time-off.md)
+- [管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
+- [配置缺勤管理人员角色](hr-configure-absence-manager.md)
 
 
 

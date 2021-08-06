@@ -1,6 +1,6 @@
 ---
-title: 将 Power Portal 与当事方数据模型配合使用
-description: 本主题介绍由于双重写入中的当事方数据模型对 Power Portal Web 角色的更改。
+title: 将 Microsoft Power Apps 门户与当事方数据模型配合使用
+description: 本主题介绍由于双重写入中的当事方数据模型对 Microsoft Power Apps 门户的 Web 角色的更改。
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358609"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542555"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>将 Power Portal 与当事方数据模型配合使用
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>将 Microsoft Power Apps 门户与当事方数据模型配合使用
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ ms.locfileid: "6358609"
 
     您必须创建三个新权限：
 
-    + 联系人与当事方的连接
-    + 当事方与帐户的连接
-    + 帐户与订单的连接
+    + **联系人** 与 **当事方** 表的连接
+    + **当事方** 与 **客户** 表的连接
+    + **客户** 与 **订单** 表的连接
 
 4. 创建并保存联系人与当事方的连接的新权限，设置以下参数：
 
-    + **名称**：当事方与帐户的连接（或您的选择）
+    + **名称**：**当事方** 与 **客户** 表的连接（或您的选择）
     + **表名称**：msdyn_contactforparty
     + **网站**：客户门户
     + **范围**：联系人

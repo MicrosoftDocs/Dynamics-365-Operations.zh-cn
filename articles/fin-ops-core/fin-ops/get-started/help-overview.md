@@ -2,7 +2,7 @@
 title: 帮助系统
 description: 本主题提供 Finance and Operations 应用帮助系统的概述。
 author: edupont04
-ms.date: 04/14/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
-ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
+ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373359"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646505"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -30,7 +30,7 @@ ms.locfileid: "6373359"
 
 以下应用的用户可访问上下文敏感的帮助和其他基于同一个帮助系统的内容：
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -48,23 +48,23 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 
 可以使用任何搜索引擎在 docs.microsoft.com 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
 
-<!--## Get notified about changes through an RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
 
-To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
+若要跨 Finance and Operations 应用订阅对 docs.microsoft.com 上的内容所做的所有更新的 RSS 源，请使用以下链接：
 
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+[RSS 源](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+> RSS 源返回最近更新的 100 个主题的列表。 此列表不按日期排序。  
 
-Alternatively, you can subscribe to an RSS feed by app:
+或者，您可以按应用订阅 RSS 源：
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
-COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
+- [供应链](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [人才](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+
 ### <a name="leave-us-feedback"></a>为我们提供反馈
 
 如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。

@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e70bc01d4c662d08a9171a9d2feb0e2f7901ccbb
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 6440d761c07a33139babb9e07bdb251c6cb49676
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479417"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638794"
 ---
 # <a name="subscribe-module"></a>订阅模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍订阅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
