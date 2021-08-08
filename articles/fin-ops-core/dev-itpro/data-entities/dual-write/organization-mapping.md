@@ -4,24 +4,17 @@ description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间�
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355290"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542579"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 
@@ -45,32 +38,17 @@ ms.locfileid: "6355290"
 
 产品信息包含与产品及其定义有关的所有信息，例如产品维度或跟踪维度和存储维度。 如下表所示，将创建表映射的集合以同步产品和相关信息。
 
-Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
+Finance and Operations 应用 | 客户互动应用     | 说明
 -----------------------|--------------------------------|---
-组织层次结构目的 | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的表的单向同步。
-组织层次结构类型 | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型表的单向同步。
-组织层次结构 - 已发布 | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布表的单向同步。
-运营单位 | msdyn_internalorganizations |
-法人 | msdyn_internalorganizations |
-法人 | cdm_companies | 提供法人实体（公司）信息的双向同步。
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[法人](mapping-reference.md#102) | cdm_companies | 提供法人实体（公司）信息的双向同步。
+[法人](mapping-reference.md#142) | msdyn_internalorganizations |
+[运营单位](mapping-reference.md#143) | msdyn_internalorganizations |
+[组织层次结构 - 已发布](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布表的单向同步。
+[组织层次结构目的](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | 此模板提供组织层次结构目的表的单向同步。
+[组织层次结构类型](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | 此模板提供组织层次结构类型表的单向同步。
 
 ## <a name="internal-organization"></a>内部组织
 
 Dataverse 中的内部组织信息来自两个表：**运营单位** 和 **法人**。
-
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

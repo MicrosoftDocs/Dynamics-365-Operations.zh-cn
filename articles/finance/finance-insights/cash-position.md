@@ -2,7 +2,7 @@
 title: 现金头寸（预览）
 description: 本主题描述现金流预测功能如何预测组织在特定时间的现金头寸。 还描述了可用于显示不同期间的预测的选项。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186484"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638744"
 ---
 # <a name="cash-position-preview"></a>现金头寸（预览）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 现金头寸是对现金流的短期预测。 它基于对支付未付发票和订单的客户的现金收入的预测，还基于对购买发票和订单支付给供应商的现金支出的预测。
 

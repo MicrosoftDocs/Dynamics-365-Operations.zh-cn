@@ -2,7 +2,7 @@
 title: 内容分发网络实施选项
 description: 本主题回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351241"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657111"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 
@@ -50,7 +50,7 @@ ms.locfileid: "6351241"
 
 | 优点 | 缺点 |
 |------|------|
-| <ul><li>该实例已包含在 Commerce 成本中。</li><li>因为实例是由 Commerce 团队管理的，所以需要的维护较少，并且有共享的设置步骤。</li><li>Azure 托管的基础结构具有可伸缩性、安全性和可靠性。</li><li>安全套接字层 (SSL) 证书需要一次性设置并且会自动更新。</li><li>Commerce 团队将监视实例是否有错误和异常。</li></ul> | <ul><li>WAF 不受支持。</li><li>没有特定的自定义或设置调整。</li><li>实例依靠 Commerce 团队进行更新或更改。</li><li>Apex 域需要一个单独的 Azure Front Door 实例，并且需要额外的工作才能将 apex 域与 Azure DNS 集成。</li><li>没有向客户提供有关每秒响应次数 (RPS) 或错误率的遥测。</li></ul> |
+| <ul><li>该实例已包含在 Commerce 成本中。</li><li>因为实例是由 Commerce 团队管理的，所以需要的维护较少，并且有共享的设置步骤。</li><li>Azure 托管的基础结构具有可伸缩性、安全性和可靠性。</li><li>安全套接字层 (SSL) 证书需要一次性设置并且会自动更新。</li><li>Commerce 团队将监视实例是否有错误和异常。</li></ul> | <ul><li>不支持 WAF。</li><li>没有特定的自定义或设置调整。</li><li>实例依靠 Commerce 团队进行更新或更改。</li><li>Apex 域需要一个单独的 Azure Front Door 实例，并且需要额外的工作才能将 apex 域与 Azure DNS 集成。</li><li>没有向客户提供有关每秒响应次数 (RPS) 或错误率的遥测。</li></ul> |
 
 下图显示了由 Commerce 提供的 Azure Front Door 实例的体系结构。
 
@@ -74,7 +74,7 @@ ms.locfileid: "6351241"
 
 | 优点 | 缺点 |
 |------|------|
-| <ul><li>当现有域已经托管在外部 CDN 上时，此选项很有用。</li><li>竞争对手的 CDN（例如 Akamai）可能具有更多的 WAF 功能。</li></ul> | <ul><li>需要单独的合同和额外的成本计算。</li><li>SSL 可能会产生额外费用。</li><li>由于该服务与 Azure 云结构是分开的，因此必须管理其他基础结构。</li><li>该服务可能需要在终结点和安全性设置上投入较多时间。</li><li>此服务是自我托管型服务。</li><li>此服务是自我监控型服务。</li></ul> |
+| <ul><li>当现有域已经托管在外部 CDN 上时，此选项很有用。</li><li>WAF：依赖外部提供程序。</li></ul> | <ul><li>需要单独的合同和额外的成本计算。</li><li>SSL 可能会产生额外费用。</li><li>由于该服务与 Azure 云结构是分开的，因此必须管理其他基础结构。</li><li>该服务可能需要在终结点和安全性设置上投入较多时间。</li><li>此服务是自我托管型服务。</li><li>此服务是自我监控型服务。</li></ul> |
 
 下图显示了包含外部 CDN 服务的 Commerce 基础结构。
 
