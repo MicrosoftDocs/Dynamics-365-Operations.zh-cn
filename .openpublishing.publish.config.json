@@ -20,6 +20,7 @@
     }
   ],
   "notification_subscribers": [],
+  "report_severity_level": "Verbose",
   "branches_to_filter": [
     "master-sxs",
     "live-sxs"
