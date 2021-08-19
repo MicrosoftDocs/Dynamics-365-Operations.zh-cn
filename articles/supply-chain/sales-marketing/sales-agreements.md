@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d6351b58149cd66875459708973e9a8f987ca80
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cff7125e4ba6b27c60253d6dc5ef37b0fd61267800000ea75cb8fb5d3b7a6ccd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779174"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14d971475c71e6a02957acfa0c6e6494c4638fc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec1dfed6573792f9ff9fd1bfacf38d58972f0a79884a7ad542e592c4f2843f1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773926"
 ---
 # <a name="create-a-bill-of-lading"></a>创建提单
 

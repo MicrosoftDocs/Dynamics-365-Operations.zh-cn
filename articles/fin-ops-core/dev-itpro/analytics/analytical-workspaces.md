@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a758d696833ff68b234b77f93d67c3788a18daf2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64a960d4658fa38aa45c08c443d12202ebe8acae1cb6fa80113d0132fa226d70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772050"
 ---
 # <a name="analytical-workspaces"></a>分析工作区
 [!include[banner](../includes/banner.md)]

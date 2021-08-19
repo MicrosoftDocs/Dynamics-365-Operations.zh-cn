@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9504cd02cc2b9e0495cffc950a0c014d3694dc2a9b74772b8ab0fb40c5a88618
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780546"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>使用供应商门户与供应商协作
 

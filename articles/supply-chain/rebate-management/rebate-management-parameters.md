@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: dc41df33d01c3c8523afb6d8f16bfec88e0c42b8
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 9afff67d043d00ade83a522cf801f2b0af7929f512c83040a37f3de0cf0e2579
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779996"
 ---
 # <a name="rebate-management-parameters"></a>返点管理参数
 

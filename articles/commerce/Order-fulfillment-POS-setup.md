@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 5fe93ef95d445c245168ad52d187a604bb5a85c62516e2df39b8038242b75468
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714082"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>设置商店订单履行
 

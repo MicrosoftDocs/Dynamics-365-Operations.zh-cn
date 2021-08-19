@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 295006cac0a67cd577809a1b62566de043ea55fb
-ms.sourcegitcommit: 636c1bf096a8666a551b67e898da1f48feb9a187
+ms.openlocfilehash: 4349e649e48e5103a53a5e6ab332d127fd1de27aa7b06953533198d3928d250a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782363"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>小于货车荷载 (LTL) 类
 

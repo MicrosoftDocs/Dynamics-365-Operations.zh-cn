@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aa36d1cc7f3c84c2a4f8d88616f782ec634b3b8
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 29e0cf7e67436de1ac73b639c93c498cadc5ff55c18e68bc6b8402c2f340175e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777999"
 ---
 # <a name="payroll---gender-option-set"></a>工资单 - 性别选项集
 

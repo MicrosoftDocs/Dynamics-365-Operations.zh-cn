@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2a075f1c01e086e6767bc7b3554bd832a7446794
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: af909fe7f1e7049ed80f101808a2895a7792572e3132c3c18c3afc6e24358175
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775270"
 ---
 # <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Finance and Operations 的支持
 

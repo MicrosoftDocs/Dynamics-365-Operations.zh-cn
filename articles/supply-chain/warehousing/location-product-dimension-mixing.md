@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4906fa0459c12594fe0473158784d4c929d8644413091a122808b57fd27c18af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778474"
 ---
 # <a name="location-product-dimension-mixing"></a>货位产品维度混合
 

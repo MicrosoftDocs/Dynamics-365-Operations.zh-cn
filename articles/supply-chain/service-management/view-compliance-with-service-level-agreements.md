@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 377cb1ebed85dffd4c294cac2e41d9f555c6b61f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e720dca64e328e2b085b21d2cd8cf7733719ae159c3f6ac3b98c2338a01a104
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780934"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>查看对服务级别协议的遵从性    
 

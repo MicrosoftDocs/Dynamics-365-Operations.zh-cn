@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 4319f6b117df38379c88aa8fa06c0f93b3eb917852af3c6461c1d12ead11ecc0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5919933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773145"
 ---
 # <a name="create-a-new-trade-agreement"></a>创建新的贸易协议
 

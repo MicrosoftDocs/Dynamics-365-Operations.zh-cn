@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 562b9f505311b6cfe505a76fc5c0a384eb641936
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bcd7eabb4861b6c62dca5b113f25982e40d0c52e8ecb598b99d5186317aac504
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775811"
 ---
 # <a name="job-detail-api"></a>作业详细信息 API
 

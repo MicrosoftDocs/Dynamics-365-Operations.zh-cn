@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8d1ed8e3b6f13f83e3c870b17b423cf42ad0ecc1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f252f034df6c0fd26165b53c4ec13f2c03c23a92ae3285f1c893c61c83a2c2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777687"
 ---
 # <a name="troubleshoot-warehouse-setup"></a>仓库设置疑难解答
 

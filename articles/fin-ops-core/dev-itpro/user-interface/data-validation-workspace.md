@@ -12,12 +12,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 96385f94ac8e3f3d16924c079af0d6d258d5ec39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a8c57cc2c8e6e16e3eeb37dd360e2f7730668fa13f4f9c2af2da42a3ef26394e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773746"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 

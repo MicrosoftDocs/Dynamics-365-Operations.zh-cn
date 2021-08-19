@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 444edde75298c45db141abae3117bfcaeb2865ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 455ff6b2f337af272c63fce08f40de574622ad55c6fb2c3e5b354a9d34843559
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777184"
 ---
 # <a name="vendor-transactions-list-page"></a>供应商交易记录列表页
 

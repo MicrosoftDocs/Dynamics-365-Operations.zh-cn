@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7e689d5b02178758a8f850b3cd735f70898dbc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 75e7d40a647577687f0be671500968a883a1d24643af39224ae0d9e43ff206ed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713202"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 411c2d33c81738dcacfb7c8feec991d0fd06fb78
-ms.sourcegitcommit: 9069a8511dfe11d09a2b51d32547ba10fea48bed
+ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6130498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776466"
 ---
 # <a name="usage-management-dashboard"></a>使用情况管理仪表板
 

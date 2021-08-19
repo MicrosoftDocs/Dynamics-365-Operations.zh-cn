@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 580095bacafe74c9e22aba47ca657e1cf42b3c6ae7929478a0d2f8bd241868f1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780118"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 

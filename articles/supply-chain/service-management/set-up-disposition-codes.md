@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5049c6d1fc5fcfae3bb6c7da1dd8d078ce9c33e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39be90f458dcd5de8824389eb0837b402b5e11f12075f513e85e4ea895645cf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777759"
 ---
 # <a name="set-up-disposition-codes"></a>设置处置代码 
 

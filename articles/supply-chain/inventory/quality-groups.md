@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 272cb748e0a2722d9744fe6b357d767a1d6aeb26
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0f26aa50e814a7abb8e7ed3e6a943136578208854a9efb3b8e8d38016917681d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781481"
 ---
 # <a name="item-quality-groups"></a>物料质量组
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: ed3ebbf09403090a1173c3cda1a4b11b74419b90
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ec2847a55dfdf1d3fabc10898f29f73a96749244ef30bf5c31d3769b6d9024de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775787"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>优化 BYOD 计划批处理作业
 

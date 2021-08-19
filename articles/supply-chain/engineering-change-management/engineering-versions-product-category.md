@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 18f187ef6805b8d2bfe777aaad54ad2cf0fb0d71a981c5b02932f3cccf2404e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776402"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>工程版本和工程产品类别
 

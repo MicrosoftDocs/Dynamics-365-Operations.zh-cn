@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f2c623255b8fec17acfcf7da7adbb105e921c7
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: c1b1d02660d4cc8de07c9073ca4bc97a7ef4864d04fb2716ac7c80172040adcc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781529"
 ---
 # <a name="standard-cost-conversion-overview"></a>标准成本转换概览
 

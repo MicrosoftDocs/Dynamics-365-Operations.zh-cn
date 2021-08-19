@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 296e26d2006f3601d4c519128797690474bc150d57b58a6b06b1372ea311eb04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780642"
 ---
 # <a name="arrival-overview"></a>到达概览
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85124eba19a7b4a0338b0ba7d0fcf616945c48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 367354273328a7976498d10832fcecf755f52002b1072819f888ed52f9706c55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780498"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>将库存物料附加到服务对象    
 
