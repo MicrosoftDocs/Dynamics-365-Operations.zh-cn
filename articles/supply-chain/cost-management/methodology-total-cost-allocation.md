@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63efbe25a7327dc454d4141f0ae4a640dc77e84b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c11b847b5b7995e4eb61e69888aa00d4a5d4478850ce6a346561e0ea0e256b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715834"
 ---
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
 

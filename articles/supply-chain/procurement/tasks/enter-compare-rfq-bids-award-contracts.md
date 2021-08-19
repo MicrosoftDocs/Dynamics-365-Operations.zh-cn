@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: d0f1028211f3c9cc0082e127a24d10cd2fe9ab5ac903570664233b10e5737bee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717140"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 

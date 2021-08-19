@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 920c3741ab45f4ae88ea5febba583d34b5a1230cd25316226db850730927798d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717835"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>将项目列表从Supply Chain Management 同步到 Field Service
 

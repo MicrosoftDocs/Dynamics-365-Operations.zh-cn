@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73bcfb2018822cebf0d602cdf014f06073d98009
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56555b6bf35aabfae43acefb0ac1ee7f7d944ff25f87f894797cc4cba8447654
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711569"
 ---
 # <a name="copy-service-templates-lines"></a>复制服务模板行 
 

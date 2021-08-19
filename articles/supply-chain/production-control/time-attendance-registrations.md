@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f6b3f682906dacc4e284b77e75e0c6dc99b2e06
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: fc026562d06fcc569cebe540d47b6ef9185c2bc3a131363748e7c08b2d0f7b1c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713582"
 ---
 # <a name="time-and-attendance-registration-overview"></a>考勤管理登记概览
 

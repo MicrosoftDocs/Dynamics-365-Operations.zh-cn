@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 7628f2fc3d3a7e5bb1175edf59f856bc40f9b987
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 44d8876aac8f8a3439a9a1285780bcc076c95807b950e3640c2a7523beae3f3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717020"
 ---
 # <a name="flex-groups"></a>弹性组
 

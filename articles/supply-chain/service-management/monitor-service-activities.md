@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19cfa9bb32c9180d216b27fef9404972e2991864
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 423038241aa54f721de81eba01435db61f0623f5a35abf84a6086a674893e6a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713510"
 ---
 # <a name="monitor-service-activities"></a>监控服务活动 
 

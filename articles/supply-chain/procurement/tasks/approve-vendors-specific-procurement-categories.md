@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 887905c35c684f2f60c3ce17eb652532831193cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 65a42e10edda7b492e86029ca05655d7c0175c23589dc55573c7ac5976e820d3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717206"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>审核特定采购类别的供应商
 

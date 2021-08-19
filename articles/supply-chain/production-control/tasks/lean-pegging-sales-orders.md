@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff57169ea58a90d1113bb7ef0a581f900e62a9b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 63d3b17d5a5a387d000fbac7f7bbf4431d4febca75cc2a85c2c359ed479c911e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714876"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>销售订单的精益限定标准
 

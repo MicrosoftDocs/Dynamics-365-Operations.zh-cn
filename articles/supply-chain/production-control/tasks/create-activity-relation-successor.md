@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e46dda12d4ad2b23ee86d240e6cdd8a1d46f1838
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ea5e7c145b2daf1e9c0afdb64c865e9fbfee3e5578edc24538e077ef4e83fe34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717045"
 ---
 # <a name="create-activity-relation---successor"></a>创建活动关系 - 后续活动
 

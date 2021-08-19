@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f7cde239107528a6bc2aeb0e424d024d4f3fb2a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f2550ff22b838aa5d85022582fd9715917fe462aa34dbfc833941f5ada3325
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717382"
 ---
 # <a name="cost-calculation-level"></a>成本计算级别
 

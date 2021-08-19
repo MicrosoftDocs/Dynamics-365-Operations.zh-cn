@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fe59a4cd5448a29372e18fb6c5378ec8f136a639
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 813065b32df8388ef2e86841267e499691b528e16d5bb9ef3072b3ce811ffaa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712998"
 ---
 # <a name="manage-folios"></a>管理帐页
 

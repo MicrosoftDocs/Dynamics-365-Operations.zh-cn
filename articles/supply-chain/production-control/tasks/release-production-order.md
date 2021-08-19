@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f5c5ca5ebf51d0722318c455e6ca59d3a893793
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ab4b3567afb0d07c98d442e19f9e91be482a6eebbb2a0810c892cb60209fdcf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717955"
 ---
 # <a name="release-a-production-order"></a>下达生产订单
 

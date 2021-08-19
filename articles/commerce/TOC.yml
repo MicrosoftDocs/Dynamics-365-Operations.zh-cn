@@ -94,6 +94,8 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21（2021 年 10 月）
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19（2021 年 6 月）
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: 跳过 POS 中的“到期更改”对话框
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyen Payment Connector
-                      href: dev-itpro/adyen-connector.md
+                    - name: 面向 Adyen 的 Dynamics 365 Payment Connector
+                      items:
+                        - name: “面向 Adyen 的 Dynamics 365 Payment Connector”概览
+                          href: dev-itpro/adyen-connector.md
+                        - name: 设置面向 Adyen 的 Dynamics 365 Payment Connector
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: “面向 Adyen 的 Dynamics 365 Payment Connector”常见问题解答
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: “面向 Adyen 的 Dynamics 365 Payment Connector”疑难解答
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: 使用 Adyen 连接器保存在线付款方式
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: 使用 Adyen 连接器的强大客户身份验证 (SCA)
@@ -1182,6 +1192,10 @@
               items:
                 - name: 生成在线渠道报表
                   href: generate-reports.md
+            - name: 目标
+              items:
+                - name: 设备、市场和地理位置目标
+                  href: targeting-overview.md
             - name: 试验
               items:
                 - name: Dynamics 365 Commerce 试验
@@ -1336,6 +1350,10 @@
               items:
                 - name: 适用于俄罗斯的 Commerce 本地化
                   href: localizations/rus-commerce-localization.md
+                - name: 设置适用于俄罗斯的 Commerce 本地化
+                  href: localizations/rus-commerce-setup.md
+                - name: 适用于俄罗斯的 Commerce 中的预付款
+                  href: localizations/rus-commerce-prepayments.md
             - name: 瑞典
               items:
                 - name: 收银机功能

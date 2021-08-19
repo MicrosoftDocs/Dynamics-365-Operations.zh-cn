@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c512fff1c20fbe539e98a6da02a9a4362c3753b0897b48ee5c6a785d8893bbe9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717230"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 

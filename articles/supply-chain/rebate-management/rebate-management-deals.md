@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716484"
 ---
 # <a name="rebate-management-deals"></a>返点管理交易
 
@@ -102,6 +102,7 @@ ms.locfileid: "6020499"
         - *全部* – 交易行适用于全部物料。
 
     - **物料关系** – 如果在 **物料代码** 字段中选择了 *表*，选择交易行适用的物料。 如果您选择了 *组*，选择物料组。 如果您选择了 *全部*，此字段不可用。
+    - **单位类型** - 选择适用于交易行的单位类型（*库存单位* 或 *实际称重单位*）。 请注意，对于较旧的记录，此字段可能为空。 在这种情况下，系统会假定 *库存单位* 值。
     - **（库存管理参数）**– 在交易行的其余字段中，为库存管理参数指定价值，这些参数将用于定义包括在交易中的物料（例如物料大小、颜色、样式、场地和仓库）。 若要添加或删除维度，请在操作窗格上选择 **显示维度**。
 
 1. 在操作窗格上，选择 **保存**。

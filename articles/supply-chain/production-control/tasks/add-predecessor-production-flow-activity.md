@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 968880db317f74db6bc6d92a4beca9136c0d8de4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9036c33cfea590148bb74de026410ecdb8ce9fbc516489ccb2f864ca8c0dd0bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715690"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>将前导活动添加到生产流活动
 

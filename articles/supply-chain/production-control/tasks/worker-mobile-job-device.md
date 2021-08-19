@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fe4e195763f5329ee7732a2f087094acbad595a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd1f191e3d1a0d5ba245082dbb56bb291236ed8d39c4ad0dd379a662ef3dfee7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717907"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>使用移动作业设备配置工作人员
 

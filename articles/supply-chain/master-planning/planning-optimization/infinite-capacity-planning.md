@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c493522ea55dd7e69c0133aceef43a3e59021c3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fc40dc2bcf1969e4c566b624a9425638e69ab2a17892f035aeabb74068aadd14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718964"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>无限容量计划
 

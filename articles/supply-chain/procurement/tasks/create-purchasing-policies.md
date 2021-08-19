@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2cc64d0b9492a7bfcf0076ea74ca36a9a26ee6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06af7dd5d7c47267de3a91f13d6558c2a3b324794fc643f6cd3be9f0770ac7bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717164"
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 

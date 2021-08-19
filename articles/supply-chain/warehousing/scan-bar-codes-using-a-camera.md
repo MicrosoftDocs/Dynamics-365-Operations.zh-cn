@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2f61f9c45b95b730a7f1743963658ec00abfbb56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62280b8401c1f7d5dc859a2130981405e69d03cfb5383123d7069e71e6cb1f47
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711655"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>在仓库管理移动应用中使用相机扫描条码
 

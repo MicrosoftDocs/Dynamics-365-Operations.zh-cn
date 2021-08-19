@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1a54fa9dc21fb1691d74905a1215f4dfea31f136
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f606c71d24083f8458d220808c7bcae9e5e1a04979295b4a7059ace000f83d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716996"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>领料和打包疑难解答
 

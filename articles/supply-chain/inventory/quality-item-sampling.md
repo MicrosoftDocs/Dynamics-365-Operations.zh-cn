@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae8bfd329ca0d7c30adcd93a759ee6bea7b76278
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dfdffc1ff0e0541cfad5669d0787abfafbd424ddf0807c61b957e7f330f21af7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717308"
 ---
 # <a name="quality-management-item-sampling"></a>质量管理物料抽样
 

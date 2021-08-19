@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9bec1f915a5008a9f9949ac69732061802b388b438267489a3be7d3f203a9cc9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711847"
 ---
 # <a name="vendor-rebates"></a>供应商返利
 
