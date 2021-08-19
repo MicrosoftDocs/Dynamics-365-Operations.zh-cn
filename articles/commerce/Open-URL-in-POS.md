@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714106"
 ---
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 

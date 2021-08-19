@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dba179e47f586d7fe689b4a021eb9003eb0d9fc
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 4e8274fc339dfd79b95d8bca23f9a937d64f64c5dc02ce505ed868b2819cfa67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714396"
 ---
 # <a name="set-up-flex-credit-programs"></a>设置弹性信贷项目
 

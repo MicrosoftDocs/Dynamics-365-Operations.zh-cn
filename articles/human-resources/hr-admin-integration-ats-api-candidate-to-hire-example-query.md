@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efec8c0a8eb75f818acd4ed02632f1db96719d81
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5e4239b0760228699c6623ee825e08c64da5f3bb27a3b27ac8a7705e65c16b81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716583"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>“可雇用的应聘者”的查询示例
 

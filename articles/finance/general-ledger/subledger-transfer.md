@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
-ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
+ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "6646792"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716637"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 

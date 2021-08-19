@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aad10770750d2614da804380a7bba03d348e8c9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712211"
 ---
 # <a name="configure-ledgers"></a>配置分类帐
 

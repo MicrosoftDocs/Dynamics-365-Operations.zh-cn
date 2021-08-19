@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715498"
 ---
 # <a name="checkout-module"></a>结帐模块
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b02f262136c0d970ca9eee3e5e63ef6dc8ccb7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715398"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>管理电子商务用户和角色
 

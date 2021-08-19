@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: f5ecc71326892683e0a49685262aae0db4a49ea9
-ms.sourcegitcommit: 41a5d18552bcc94cb1ddbbe3f3278eaf9d05f418
+ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "6617062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712560"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 

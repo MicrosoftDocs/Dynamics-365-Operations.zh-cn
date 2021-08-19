@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 70282eb7856ae6b37e885eac2daf49efd971087d7c204af4b653263edb0d8fc4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716062"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>对 Dynamics 365 Sales 使用 Dynamics 365 Commerce 定价引擎
 

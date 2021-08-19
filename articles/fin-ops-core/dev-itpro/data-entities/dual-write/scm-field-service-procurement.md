@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c29efb885babea833e3c3fde0155e3722f8b77e9
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 4a2420981553957b6b234fe56747bc6f3568acf6b8ad77366c33caeae63b4faf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716751"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 

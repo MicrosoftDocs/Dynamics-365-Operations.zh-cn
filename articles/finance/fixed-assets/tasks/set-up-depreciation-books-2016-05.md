@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0ab7f9332e3224c3dadd62aae532ccffb05c82a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 722eebf363b6abf0d72ea3f1f891292a6577616165df9dae91dac917587fe490
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713772"
 ---
 # <a name="set-up-depreciation-books"></a>设置折旧帐簿 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 25542e72e620e5273a9cd215d5b6cd2f89a2f364
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: bfb8d307079e4cca86a34eef3f0bdd6c6a268a1038940ecb8cf46950c1f5c9e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713250"
 ---
 # <a name="customer-payment-predictions-preview"></a>客户付款预测(预览版)
 

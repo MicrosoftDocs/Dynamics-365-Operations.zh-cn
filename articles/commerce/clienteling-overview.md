@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9342ab8121b41aa98d93d80198296f721d6e080182e432ead0f84ac7b051fc06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717739"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 

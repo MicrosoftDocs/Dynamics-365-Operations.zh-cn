@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41b5e25c6e4569d72124bff55781dba16227861a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09dd2b88c3c27f5908d98139ab07308268f93f6a5c9ac5fe658bb288d2b1822e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716825"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>创建销售点 (POS) 可视化配置文件
 

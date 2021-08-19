@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 37ec7d238b40c44891ff2a09a9db5a9265fb8321
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89f926af540ff7c7a57824419edb295ab3b78ee8b22684cb14a0ab6f3436bb01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715374"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS 外围设备和服务的运行状况检查
 

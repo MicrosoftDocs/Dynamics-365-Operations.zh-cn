@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1660399e7e88a8f7c96714f9af271b73a17eca2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7b26ab8c6d752b994c280d2bb9cef75060905fde0becec6202d7d1ecb98f47c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714727"
 ---
 # <a name="call-center-sales-functionality"></a>呼叫中心销售功能
 

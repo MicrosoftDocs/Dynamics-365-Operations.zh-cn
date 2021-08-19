@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715432"
 ---
 # <a name="container-module"></a>容器模块
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e99b50bd563af885c40713f60a0cbbb21d15e0c4
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712782"
 ---
 # <a name="header-module"></a>标题模块
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f76ce395d7f5a82ab622dd323aee52a39b09847
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 0c489b99d5d05ddac46d222e701512288aeb10583a5e829212e0e1c924622f16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712065"
 ---
 # <a name="payroll-integration-parameters"></a>工资单集成参数
 

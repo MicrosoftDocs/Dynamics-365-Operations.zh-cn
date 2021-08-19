@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714751"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>在 Modern POS (MPOS) 和 Cloud POS 之间选择
 

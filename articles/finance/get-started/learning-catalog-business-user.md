@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1095e7d55ea27e5ba5225145acad47febdccc073
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 75fbf177cd74739b35e72f2cae56a6c46fe69540145f16c80766b3ec260e8d0b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713748"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance 用户学习目录
 

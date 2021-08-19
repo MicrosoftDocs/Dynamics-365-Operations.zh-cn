@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24c94aeb743aa1c9267b63472db2ac68badd0130
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5783bfa494570a928b0db64664e9b63c82aa7091eb93d15f3e1bc57e93642780
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713704"
 ---
 # <a name="example-query-for-recruiting-request"></a>招聘请求的查询示例
 

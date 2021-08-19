@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fee4fea9b67ff8a0c8d813940a65cf882bd13abe
-ms.sourcegitcommit: bf2daeccbe3f2826e734f409bfc823820144aa23
+ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "6617983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711993"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources 基础结构合并常见问题
 

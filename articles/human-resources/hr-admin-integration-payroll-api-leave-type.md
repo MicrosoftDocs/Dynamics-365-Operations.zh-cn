@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a99d53805efd7ee2001217ea3154d46b5d5e66cd
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 5e64b533ad7be23060701e8826a25736a078b59d1ecf824bee0e2dd05c9c78f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314331"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713094"
 ---
 # <a name="leave-type"></a>休假类型
 

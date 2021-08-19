@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717664"
 ---
 # <a name="work-with-publish-groups"></a>使用发布组
 

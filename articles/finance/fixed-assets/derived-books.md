@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c53d72220890803d561ebe057acfdf0974bd421b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e3bb4d5ac566ef361ff0b7e34823e11eeb6c979d058130c50a4618997fd50a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712429"
 ---
 # <a name="derived-books"></a>派生帐簿
 

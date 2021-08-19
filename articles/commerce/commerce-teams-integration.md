@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 38235c237f4311a9616f88b56f1503935b25b251d1c2d35d4392418e8c1a357b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714008"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce 和 Microsoft Teams 集成概览
 

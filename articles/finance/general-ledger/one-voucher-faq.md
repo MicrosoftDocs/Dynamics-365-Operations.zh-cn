@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 1a2c677f853e4d524ad5fc91ea9ee34315608e24
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 04e1f53802a69aa9de84826bfad05db7b29739a26441b1222cabc224d2873177
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715038"
 ---
 # <a name="one-voucher-faq"></a>一个凭证常见问题解答
 

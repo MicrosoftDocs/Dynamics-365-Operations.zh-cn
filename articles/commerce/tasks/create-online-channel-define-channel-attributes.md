@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e28e717dcf594c5079b4b6987331115356b6bdbc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 98d218a2d4f3b31084adfbc013dd0999f459dc1572e29a6470edc7cb899809c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713358"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 

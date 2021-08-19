@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: e0ba43ff1bab391d141f28289144cc552ee28609
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 973e46d5e5e7e9efb3037757ccb2b30f319ad13fd92261d58fde10fe0c235f9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714603"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>使用条码数据源生成条码图像
 

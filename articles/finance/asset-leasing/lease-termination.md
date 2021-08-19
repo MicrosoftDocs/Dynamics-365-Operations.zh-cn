@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717489"
 ---
 # <a name="propose-a-lease-for-termination"></a>建议要终止的租赁
 

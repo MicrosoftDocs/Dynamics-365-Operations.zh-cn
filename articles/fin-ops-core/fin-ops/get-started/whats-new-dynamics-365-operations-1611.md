@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dbde0d374a70aba94fc13086c1bce69bb532cb40
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce31755e326ca598ad83c59c7025e3802d15a8b471d62f63e3150f61300777ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715190"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 

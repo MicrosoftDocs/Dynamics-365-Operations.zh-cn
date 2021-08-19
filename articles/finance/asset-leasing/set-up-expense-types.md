@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a1d6667a7c6fe1cd44196f2e753ca72b2ca97649
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 1e5af18921314061ba3256559d7fc7ceacef606a9b3d5cc3a8047c83494074fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715134"
 ---
 # <a name="set-up-expense-types"></a>设置费用类型
 

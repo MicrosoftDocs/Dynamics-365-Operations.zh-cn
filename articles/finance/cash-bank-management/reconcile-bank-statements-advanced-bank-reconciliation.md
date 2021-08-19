@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714440"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>使用高级银行对帐对银行对帐单进行对帐
 

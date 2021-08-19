@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 281a5e2be6f43f5a83ef7435b2041423dd5d4caa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715350"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>设置和设计收据格式
 

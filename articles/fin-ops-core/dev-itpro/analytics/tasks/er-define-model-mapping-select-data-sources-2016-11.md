@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d88aaa24d61d6768801a84c81002d7a6ab2f316
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 69fb025b273aca6a0cf7733732f2849686eaa470ded6804a10b793cff9837562
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717537"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20b458e67b6504ca1c3efce6b40d1cea4faa7193
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 825754d75dee5f8c86922e9e407fbc20f8ad125d1e91a4461218678001c569ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716558"
 ---
 # <a name="process-life-event-eligibility"></a>处理生命事件资格
 

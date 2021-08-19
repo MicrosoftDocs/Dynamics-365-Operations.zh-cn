@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717763"
 ---
 # <a name="assortment-management"></a>分类管理
 

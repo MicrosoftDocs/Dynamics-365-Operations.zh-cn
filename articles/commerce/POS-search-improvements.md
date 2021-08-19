@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716383"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 

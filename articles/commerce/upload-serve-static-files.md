@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d5f092042b3dda65b041ab2f25f7319dd8e158d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714675"
 ---
 # <a name="upload-and-serve-static-files"></a>上传并处理静态文件
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36b41561069a14936550948e659f211aba7e71be
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715981"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 

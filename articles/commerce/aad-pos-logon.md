@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 63121a9b5f1b062b7ca927f6b9eb1689ce8aa698
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 14d8ac93241d05245ad989bcb3cb35aaf8969164d6cfc6010a8e9d426987a1ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716292"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>为 POS 登录配置 Azure Active Directory 身份验证
 

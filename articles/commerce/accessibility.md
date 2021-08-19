@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716268"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
 

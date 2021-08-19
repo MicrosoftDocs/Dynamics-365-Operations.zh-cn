@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9741b5f30f5e62b9e80000953113377fe016253
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716104"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>采购花费分析 Power BI 内容
 
