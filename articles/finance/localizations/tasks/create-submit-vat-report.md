@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9129372091c85106ab29214301b0688ffbc6e64e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26418be526ff13d8b77e0418b3b252881ff05140e6eb7678f526444a0850a84b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719667"
 ---
 # <a name="create-and-submit-vat-report"></a>创建和提交增值税报表
 

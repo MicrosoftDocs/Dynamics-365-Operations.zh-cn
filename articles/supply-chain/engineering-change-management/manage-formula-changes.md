@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d25ddfc992d49c9a3c24d03cb0c71d68f7aa21fa
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720388"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>管理配方及其成分的更改
 

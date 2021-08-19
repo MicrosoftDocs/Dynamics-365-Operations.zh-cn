@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dbd66d499b5d5f9f8ef21c0ce3752031a5f4672
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 9b9d7636a9a246b069fbd419d1d857ca47c73ff6ddd9b620f077b0ab15c23c67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721263"
 ---
 # <a name="delivery-schedules"></a>交货计划
 

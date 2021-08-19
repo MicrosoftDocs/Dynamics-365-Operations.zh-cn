@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 2ac8dc8787ab0bdb796ec849f9ede3f697b09680
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719888"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba67903639804fb5c345a713073a5a46f37d91f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1453357649c2617c5daaa1a38af772ae5eeea80adf9f0ab8316e9f46f1a78fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721407"
 ---
 # <a name="costing-sheets"></a>成本计算单
 

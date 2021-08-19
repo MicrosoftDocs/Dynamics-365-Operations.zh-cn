@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 56a6462d948abe3d96efa97b59c91dcf987b56c131970d6a1a57f8752a70b213
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719639"
 ---
 # <a name="weighted-average-date"></a>加权平均日期
 

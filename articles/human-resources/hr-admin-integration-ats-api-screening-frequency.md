@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b98f25cb0129c2723a5a9e86839db0b0958bbb11
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e6e0636c48c867f88918decc31e00fda8cf844e1f6a356f76a1b0e706a946b58
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718147"
 ---
 # <a name="screening-frequency"></a>筛选频率
 

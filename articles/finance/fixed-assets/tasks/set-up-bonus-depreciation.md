@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad1b7f584d2b2a63dba5f8519ada9d89d6265e7b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 417c820faec79067227eedc964e02b049218e87b1c11dbd62dc25cf52b2c03d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721771"
 ---
 # <a name="set-up-bonus-depreciation"></a>设置额外折旧
 

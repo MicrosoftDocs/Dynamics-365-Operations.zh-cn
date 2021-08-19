@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720244"
 ---
 # <a name="rebate-management-module-overview"></a>返点管理模块概述
 
@@ -91,10 +91,9 @@ ms.locfileid: "6339986"
 
 计算返点时，该流程将创建可在过帐之前查看的交易记录。 单独的流程过帐返点管理交易。 然后，可以在过帐到建议的交易期间创建日记帐、贷方通知单或借方交易。 可以获取报告对帐单和交易记录列表以确保合规性、有效性和透明度。
 
-
 ## <a name="guaranteed-royalty-payments"></a>担保特许使用费付款
 
-在返点管理中，通过自动付款生成可以快速轻松地处理特许使用费，即使在最低担保适用时。 
+在返点管理中，通过自动付款生成可以快速轻松地处理特许使用费，即使在最低担保适用时。
 
 ## <a name="maximizing-spend-versus-rebates"></a>最大化支出与返点
 

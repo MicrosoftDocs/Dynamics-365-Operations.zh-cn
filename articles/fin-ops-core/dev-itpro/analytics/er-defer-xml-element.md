@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f89c671ae012907a4c3e07c09bdc867c1d67a101
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718373"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 

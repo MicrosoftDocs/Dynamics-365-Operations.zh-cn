@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 050ba58073d6e7e7710ab768e7ce3ea628440f4d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720004"
 ---
 # <a name="breadcrumb-module"></a>痕迹导航模块
 

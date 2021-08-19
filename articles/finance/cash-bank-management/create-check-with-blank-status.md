@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1b01daa86055156092d035d61aad78a13349f869
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c431ed975aecf116fbf626018038b112a0a8cca063e1462e31e206480643e11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720542"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 
@@ -33,7 +33,7 @@ ms.locfileid: "5815948"
 > [!NOTE]
 > 仅当在 **功能管理** 页面中启用 **在“支票”页面中创建具有空白状态的支票** 功能时，此功能才在 **支票** 页面中可用。 如果未启用该功能，则只能在应付帐款的付款生成流程期间从 **支票付款** 对话框创建具有 **空白** 状态的支票。
 
-若要打开 **支票** 页面，请转到 **现金和银行管理 \> 银行账户 \> 银行账户**，然后在操作窗格的 **管理付款** 选项卡的 **相关信息** 组中，选择 **支票**。 或者，请转到 **现金和银行管理 \> 查询和报表 \> 支票**。
+若要打开 **支票** 页面，请转到 **现金和银行管理 \> 银行帐户 \> 银行帐户**，然后在操作窗格的 **管理付款** 选项卡的 **相关信息** 组中，选择 **支票**。 或者，请转到 **现金和银行管理 \> 查询和报表 \> 支票**。
 
 然后，若要创建具有 **空白** 状态的支票，请在操作窗格中选择 **创建空白支票**。 当系统创建空白支票时，关联的银行帐户将会暂时禁用。 此行为将会降低在创建空白支票时生成付款的风险。 处理完成后，关联的银行帐户将重新激活。
 

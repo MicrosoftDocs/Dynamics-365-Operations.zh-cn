@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd3ffa08b7714d1c6019ea5987dc18ad717720a7
-ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
+ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6558313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719135"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
 

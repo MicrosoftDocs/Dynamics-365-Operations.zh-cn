@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2478d86a24bc6e41dd43b41c9e7062108c3122e8b5a3d699db2fc8243e8be5c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721287"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 

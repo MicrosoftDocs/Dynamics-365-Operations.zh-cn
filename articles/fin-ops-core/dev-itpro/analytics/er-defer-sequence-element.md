@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2af6c95e459246f25574860dc319928380d06cc9fd4fdb68f42203f943b4d386
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718407"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>推迟执行 ER 格式的序列元素
 

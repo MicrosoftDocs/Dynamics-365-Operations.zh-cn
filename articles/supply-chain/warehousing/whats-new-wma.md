@@ -2,7 +2,7 @@
 title: Warehouse Management 移动应用中的新增功能或更改的功能
 description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720076"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>版本 2.0.7.0 中的新增功能、修复和改进
+
+- 将某个部分添加到 **关于** 页面，该页面会检查应用的最新已发布版本。
+- 更容易在页面之间轻拂和轻扫。
+- 更改了工作列表上的升序/降序按钮的图标。
+- 减少 **详细信息** 卡上的边距以使卡能够容纳更多信息。
+- 应用了各种性能改进，以减少应用随着时间推移而变慢的问题。
+- 如果屏幕上的控件过多而无法容纳，导致分页，则微调控件不再以与页面相同的方式滚动。
+- 将优先显示上次扫描的值，而不是先显示任务标题，因此如果它们重叠，则将截断任务标题。
+- 修复了导致系统停止响应的各种问题。
+- 在某些语言中，不同位置的文本不再被截断。
+- 默认情况下，应用现在会在全屏模式下运行。
+- 修复了在某些设备上偶尔会导致主页上的扫描被忽略的问题。
+
+### <a name="known-issues-in-version-2070"></a>版本 2.0.7.0 中的已知问题
+
+- 在某些设备上，当您启动应用或开始任务时，您会收到以下错误消息：“无法找到指定大小的合适视图。” 如果您在任何设备上看到此错误消息，则必须将 Warehouse Management 移动应用降级为该设备上的版本 2.0.6.0，并等待升级，直到下一个版本的应用发布为止。
 
 ## <a name="version-2060"></a>版本 2.0.6.0
 

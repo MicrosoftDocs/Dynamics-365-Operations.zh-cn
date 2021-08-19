@@ -3,7 +3,6 @@ title: 记录类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的记录函数的信息。
 author: NickSelin
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe25b8d4b2c0900d68eec79e14639424a0e4960a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2612222ce21e382dae13ee65fb9b9a1d9852e99ddd176bee9fcc3067f72e57db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718301"
 ---
 # <a name="list-of-er-functions-in-the-record-category"></a>记录类别的 ER 函数列表
 

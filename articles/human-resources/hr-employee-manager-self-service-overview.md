@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: adb0fc344963b33fe1704a22a35415d9c07b9a08
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2effea18c149ae4fe8a4fd6a1a26882d4adb058f3f09e4f9fdac7d594db3acc9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719615"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概述
 

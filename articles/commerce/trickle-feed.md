@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0686b1b3113440808ea195683e15fb2c66b4558
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 900480c926df58cc1eaca052903384ceeadcccbdc3a0ede8a35f4b2a8ff87556
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719433"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>为零售商店交易记录创建基于缓慢馈送的订单
 
 [!include [banner](includes/banner.md)]
 
-在 Dynamics 365 Retail 10.0.4 及早期版本中，对账单过账是日结操作，于一天结束时在账簿中过账所有交易记录。 大量的交易记录必须在有限的时间范围内处理，有时会导致加载、锁定和对帐单过帐失败。 零售商也无法全天在其帐簿中确认收入和付款。
+在 Dynamics 365 Retail 10.0.4 及早期版本中，对帐单过帐是日结操作，于一天结束时在帐簿中过帐所有交易记录。 大量的交易记录必须在有限的时间范围内处理，有时会导致加载、锁定和对帐单过帐失败。 零售商也无法全天在其帐簿中确认收入和付款。
 
 通过 Retail 版本 10.0.5 中推出的、基于缓慢馈送的订单创建，可在全天中处理交易记录，并且在一天结束时仅处理支付方式和其他现金管理交易记录的财务对帐。 此功能将创建销售订单、发票和付款的负荷拆分到全天中完成，从而更够更清晰地了解绩效并且能够近乎实时地在帐簿中确认收入和付款。 
 
@@ -40,7 +40,7 @@ ms.locfileid: "5801835"
 
 2. 当前对帐单文档将拆分为两种类型：交易记录对帐单和财务报表。
 
-      - 交易记录对帐单将选取所有未过帐的和已验证的交易记录，并按照您配置的频率创建销售订单、销售账单、付款和折扣日记帐以及收入-支出交易记录。 您应将此过程配置为以较高的频率运行，以便当通过 P 作业将交易记录上传到 Headquarters 中时会创建文档。 对于已创建销售订单和销售账单的交易记录对账单，则无需配置 **过账库存** 批处理作业。 但是，您仍可以使用它来满足您可能具有的特定业务需求。  
+      - 交易记录对帐单将选取所有未过帐的和已验证的交易记录，并按照您配置的频率创建销售订单、销售发票、付款和折扣日记帐以及收入-支出交易记录。 您应将此过程配置为以较高的频率运行，以便当通过 P 作业将交易记录上传到 Headquarters 中时会创建文档。 对于已创建销售订单和销售发票的交易记录对帐单，则无需配置 **过帐库存** 批处理作业。 但是，您仍可以使用它来满足您可能具有的特定业务需求。  
       
      - 财务报表设计为仅在一天结束时创建，并且仅支持 **班次** 的结帐方法。 此对帐单仅限用于财务对帐，并且仅针对不同支付方式的计算金额与交易记录金额之间的差异金额而创建日记帐，以及针对其他现金管理交易记录创建日记帐。   
 
@@ -49,9 +49,9 @@ ms.locfileid: "5801835"
 4. 若要计算财务报表，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算财务报表**。 若要对财务报表进行批量过帐，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐财务报表**。
 
 > [!NOTE]
-> 此新功能中删除了菜单项 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量计算对账单** 和 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过账 > 批量过账对账单**。
+> 此新功能中删除了菜单项 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算对帐单** 和 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐对帐单**。
 
-或者，可以手动创建交易记录对账单和财务报表类型。 转至 **Retail 和 Commerce > 渠道 > 商店**，然后单击 **对账单**。 单击 **新建**，然后选择您要创建的对账单类型。 **对账单** 页面上的字段和该页面的 **对账单组** 下的操作将基于选定的对账单类型显示相关的数据和操作。
+或者，可以手动创建交易记录对帐单和财务报表类型。 转至 **Retail 和 Commerce > 渠道 > 商店**，然后单击 **对帐单**。 单击 **新建**，然后选择您要创建的对帐单类型。 **对帐单** 页面上的字段和该页面的 **对帐单组** 下的操作将基于选定的对帐单类型显示相关的数据和操作。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

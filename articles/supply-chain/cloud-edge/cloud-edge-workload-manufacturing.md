@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721455"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 

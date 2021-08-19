@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 2dda45f475f0119b202008f6f8d95c8ccc59a1e63108dbd766a49b3551cdf778
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720100"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>通过从装载计划工作台下达到仓库合并装运
 
