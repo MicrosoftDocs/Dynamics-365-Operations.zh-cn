@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f5fa80e0f45cd9318a15d846f00a8e1a58f91e0e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2b9351ae5963902d93b7ef8dee38b45db06d52bf67d0207f869108d043cd4d48
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020331"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725618"
 ---
 # <a name="rebate-statuses"></a>返点状态
 

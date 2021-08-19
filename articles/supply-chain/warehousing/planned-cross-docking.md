@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730002"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
@@ -117,6 +117,9 @@ ms.locfileid: "6359069"
     - **序列号**：*1*
     - **供应源**：*采购订单*
 
+> [!NOTE]
+> 您可以设置查询来控制什么时候使用特定的越库配送模板。 越库配送模板的查询仅包含 *InventTable*（物料）表和内部联接的 *WHSInventTable*（WHS 物料）表。 如果要将其他表添加到此查询，则只能使用 *存在联接* 或 *不存在联接* 来联接它们。 在联接表上筛选时，会为联接表中的每个匹配记录检索主表中的记录。 如果联接类型为 *存在联接*，则搜索将在找到第一个匹配项后结束。 例如，如果您将销售订单行表联接到物料表，系统将验证和返回至少一个销售订单行具有定义条件的物料。 本质上，数据是从父（物料）表中获取的，而不是从子（销售订单行）表中获取的。 因此，不能立即按源文档（如销售订单行或客户）进行筛选。
+
 ### <a name="create-a-work-class"></a>创建工作类
 
 1. 转到 **仓库管理 \> 设置 \> 工作 \> 工作类**。
@@ -151,6 +154,9 @@ ms.locfileid: "6359069"
     - **工作类 ID**：*CrossDock*
 
 1. 选择 **保存**，然后确认为 *51 越库配送* 模板选中了 **有效** 复选框。
+1. 可选：如果您要将条件设置为控制工作模板的使用时间和位置，请选择 **编辑查询**。
+
+    您可以设置查询来控制什么时候使用一个特定的工作模板。 例如，您可以指定模板只能用于特定位置的工作。 如果您希望将越库配送工作模板应用于特定位置，则必须筛选 **开始位置** 字段，而不是 **位置** 字段，因为入站流程（采购、越库配送和补货）的工作创建从放置行开始。 在创建工作时，位置指令将 **位置** 字段设置为放置位置。 但是，领料位置存储在 **开始位置** 字段中。
 
 > [!NOTE]
 > *领料* 和 *放置* 工作类型的工作类 ID 必须相同。

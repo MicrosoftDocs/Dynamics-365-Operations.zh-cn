@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 995212dd40f8665da64ca0bf8e1c878002778904
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e1deba0eb03567a453466ebc477ddb099058d73906d96062de02de0a7e7b1218
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726481"
 ---
 # <a name="define-cycle-counting"></a>定义周期盘点 
 

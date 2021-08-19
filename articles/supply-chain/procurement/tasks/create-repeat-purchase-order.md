@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 894233f28e84ed924ba7e22fdc0c8aaedf1b1ea1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b75d8414e40d65267494eb495bf99daa62b3e2d5850db27ecae99f30d543c870
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719591"
 ---
 # <a name="create-a-repeat-purchase-order"></a>创建重复采购订单
 

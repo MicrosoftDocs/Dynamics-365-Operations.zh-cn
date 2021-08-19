@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7b347773bd4d7f17fe1180a17b2a49b7d6a9a24
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 015d64abd3ca71759a490fc7c3d4f05dbc09864a101f5a0150107bcedbc132c9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744622"
 ---
 # <a name="reassign-activities"></a>重新分配活动 
 

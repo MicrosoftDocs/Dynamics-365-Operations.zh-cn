@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a52c512d630e560afac998e1a35e71204d98f5d1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3bf52a90a709aa74c579aa0047a38c1f3c7a845711f61f07a491705c798f1c62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744074"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 

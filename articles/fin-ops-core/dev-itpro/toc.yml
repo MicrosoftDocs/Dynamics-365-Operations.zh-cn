@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.21 的平台更新（2021 年 10 月）
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: 针对版本 10.0.19 的平台更新（2021 年 6 月）
@@ -446,11 +448,13 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: 本地代理部署前和部署后脚本
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: 本地代理的部署配置
+                      href: deployment/onprem-localagent-options.md
                     - name: 更新本地代理
                       href: lifecycle-services/update-local-agent.md
                 - name: 疑难解答
                   items:
-                    - name: 对本地部署进行疑难解答
+                    - name: 本地部署疑难解答
                       href: deployment/troubleshoot-on-prem.md
                     - name: 在本地环境中解决问题的脚本
                       href: deployment/onprem-tsg-implementations.md

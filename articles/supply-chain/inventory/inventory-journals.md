@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a655b91af6515d856418c5e21d012c3705e25dfa5fa2d0151a6de34a9ce68170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741301"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 

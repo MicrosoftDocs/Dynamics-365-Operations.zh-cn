@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747507"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：
 
-[Finance and Operations 应用在中国由 21Vianet 运营](../deployment/china-local-deployment.md)
+[由世纪互联在中国运营的 Finance and Operations 应用](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>本地化和监管功能
 

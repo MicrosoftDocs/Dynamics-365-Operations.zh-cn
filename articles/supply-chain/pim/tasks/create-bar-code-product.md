@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: ff86677aa8fe24c72936df86dfc11559afd47ccb07dbd2de66c127c54d2cc566
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742672"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>为产品创建条码
 

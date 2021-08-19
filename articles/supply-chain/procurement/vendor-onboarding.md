@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5c038462bb84c7fe68acc3825482286581e55358
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: fb0c5eff505a0e405a1c850014cfdf9e600921130d1751befdf45e168603b566
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743522"
 ---
 # <a name="onboard-vendors"></a>载入供应商
 

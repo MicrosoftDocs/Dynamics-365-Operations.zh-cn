@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 89783eec7c6dea663b97ba50b72b4ee499d6044443bbb7e8df29ebdd16bc6c97
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748755"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
