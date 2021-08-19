@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f02b22249e5a03a079d4b2df1f51200088a24fb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 992dbcd85f613073999e0d03730b6dbeffa322806a3916478b323db401d254af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725570"
 ---
 # <a name="receive-returned-items"></a>接收退回物料 
 

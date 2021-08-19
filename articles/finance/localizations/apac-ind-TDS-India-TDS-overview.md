@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 8064f10978712fc474dd72a5b5bdd9a445606d7a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b55e6aa5f56090ca14836894e9e51232ab63dce1ef33255b8eac1170404190c9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723764"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概述
 

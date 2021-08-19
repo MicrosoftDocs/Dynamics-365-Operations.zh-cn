@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ea5483ff1eea8922ffeb9e65768a0e5eab28890
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 359d4c360238db746402321a82f825f0d2c9a88a012800c5455d453e3a8bda73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725450"
 ---
 # <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>将字段添加到 Excel 工作簿以编辑零售交易记录
 

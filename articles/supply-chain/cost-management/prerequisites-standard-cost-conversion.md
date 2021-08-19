@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b78cfb2c6f0462a86cf3785038c5fe4e5d63b9cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2eefb305f12996eb8fe1b72715f7e8e2509c551ff1e6abb3656221a8dbc76461
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734299"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>用于标准成本转换的先决条件
 

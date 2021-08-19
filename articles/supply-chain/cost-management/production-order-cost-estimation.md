@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59b93b41b74bd3f4cc480c8e60e8c69b25e40e51
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a5debf62a3a0fc3ae8828473d7dd593c690e298712e5ed696077db1562796943
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724908"
 ---
 # <a name="production-order-cost-estimation"></a>生产订单成本估计
 

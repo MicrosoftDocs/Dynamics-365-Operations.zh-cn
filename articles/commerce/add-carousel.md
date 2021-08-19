@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721047"
 ---
 # <a name="carousel-module"></a>传送模块
 

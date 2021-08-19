@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d831c6fe4c28674a1a8419459f15c2879c29c8d5d81f87d22b34c67771eaac7b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734983"
 ---
 # <a name="containerization"></a>集装化
 

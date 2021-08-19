@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f0501fd67da0cbc5c10171b55004cb7f4fd4fd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735590"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>为 RCS 和 ER 准备应用程序特定的元数据
 

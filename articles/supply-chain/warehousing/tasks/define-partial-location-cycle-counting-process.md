@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcda301934c6ccc06f17ed8ae13c52754336d2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2d3362aed9627d30f8c117e303e1124fa1dd2069e8629e55325c6ff21fe51c01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722095"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>定义部分库位周期盘点流程 
 

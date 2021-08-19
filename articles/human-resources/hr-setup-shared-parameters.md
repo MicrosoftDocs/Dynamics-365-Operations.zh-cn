@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aff01bee8cadcf852ae32fd60447c68e2174a2a
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 66f57c9613ba04ebb3748699105469586c27d66131c062d1af286b24199c4be7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6332987"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723639"
 ---
 # <a name="configure-shared-parameters"></a>配置共享参数
 

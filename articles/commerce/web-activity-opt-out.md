@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25464c89352f44a77a96dee6ad2f633b7a55669e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729822"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>选择退出 Web 活动事件收集
 [!include [banner](includes/banner.md)]

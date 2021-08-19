@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 24e41e35b3e810c509a16b91fffd1e796ab9d134
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1198bc12830afa2ae2c5eb8e77413a9d8ef70c625823f676ab1965ff250c2443
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730379"
 ---
 # <a name="troubleshoot-inventory-operations"></a>库存操作故障排除
 

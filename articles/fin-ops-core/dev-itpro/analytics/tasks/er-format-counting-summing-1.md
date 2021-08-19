@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f1db144b2bfafa72abeaa92c6b21de717e4acbf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b0d1a90c0949e98b4c1e9ccb356d39de9c23b670c518ad14a99974ae2aed7301
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728181"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
 

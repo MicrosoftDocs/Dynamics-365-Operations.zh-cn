@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d64ab282972e46e8857581b59e5705dd15667328
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: 6b4361682246397732e8326b98b1b86ff878664e54c8c352296b0d7eaff6bbbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719543"
 ---
 # <a name="work-isnt-blocked"></a>工作未锁定
 
