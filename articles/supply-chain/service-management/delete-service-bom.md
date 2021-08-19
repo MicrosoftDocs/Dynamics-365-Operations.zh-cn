@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a439186dee6fcfbe25e9184634bdfd48efcca48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4b26e74979a1d603b8e6537603203a2e1f03ec45818aada4f78eb1b4136d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817549"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764708"
 ---
 # <a name="delete-a-service-bom"></a>删除服务物料清单 
 

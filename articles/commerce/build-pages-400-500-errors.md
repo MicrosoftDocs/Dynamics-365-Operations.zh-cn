@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6b35b3c07b1edd41e6a3763c0001529e125e4636
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741133"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>为 4xx/5xx 状态代码错误生成自定义响应页面
 

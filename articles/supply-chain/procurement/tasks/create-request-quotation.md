@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6426b5e655359788822f8dd5c554397ac715c5ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 743777fcf7abdb60aa48a3e08e364c1edca1d27d2d084a014d13f51e50f464e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764051"
 ---
 # <a name="create-a-request-for-quotation"></a>创建询价
 

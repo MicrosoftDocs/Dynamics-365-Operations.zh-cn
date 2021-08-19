@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 60fea46da2d1ac9b319ed0a7b832809da70baa6eb8ae22319321200fb938c70e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737620"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 

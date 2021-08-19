@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2f81b6c3ab60f5e0e852d2bc0ae44e6595a90c1
-ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
+ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5906665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759153"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 

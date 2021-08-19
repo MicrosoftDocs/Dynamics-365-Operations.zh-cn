@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 80d62b29fcc95a3153c604512e1ee6b3e55ba840
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760840"
 ---
 # <a name="generate-online-channel-reports"></a>生成在线渠道报表
 

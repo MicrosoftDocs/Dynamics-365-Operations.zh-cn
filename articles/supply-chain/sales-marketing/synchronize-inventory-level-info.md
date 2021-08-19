@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8b6b052aa988a65fbbb2337b8cb14c9065c78516a1fa41d5d77ef9463d54bc7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770184"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>将库存级别信息从 Supply Chain Management 同步到 Field Service 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8642f7d92a9c0ca69ad4965fd3a8219e57278ed1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d17b719e569d151a5cb54f492e8e0fbbba72573fd23d6d46c99872a7aa84b2bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756068"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>有效的工作订单维护作业概览
 

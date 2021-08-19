@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4d4c256b2384f14fd8439c4a9263860f504113de369142d0913a2538f1f0939f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737943"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>业务文档管理中的 Microsoft Office 样式用户界面
 

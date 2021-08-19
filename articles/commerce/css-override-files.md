@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f460ab6ae90b5daa9bee3c2954727a7bcf79321d661f8ce88f5108fd019fbb3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724572"
 ---
 # <a name="work-with-css-override-files"></a>使用 CSS 覆盖文件
 

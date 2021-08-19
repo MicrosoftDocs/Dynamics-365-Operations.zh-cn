@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 987d487622740eb5e8bcdda9056c43627006555a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd83e26b7c2792a94d334759790b4f3fbf8c9ff650a188c770359ae6b7f02ff4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758584"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 

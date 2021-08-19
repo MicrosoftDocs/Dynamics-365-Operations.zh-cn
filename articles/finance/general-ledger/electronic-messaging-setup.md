@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 947170d1db132ca5a6b7caed0e47ee814b9148cc
-ms.sourcegitcommit: 73d320d2103f2b0c6ecbb2b9df746469bc544ea2
+ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752167"
 ---
 # <a name="set-up-electronic-messages"></a>设置电子消息
 

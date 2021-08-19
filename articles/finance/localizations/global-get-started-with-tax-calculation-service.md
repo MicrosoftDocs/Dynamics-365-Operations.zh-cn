@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
-ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
+ms.openlocfilehash: 1f75fb48cc9af5513916b509056ee08569e6118c82f7c2f9e86f1db6fae3bafd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6644966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769686"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>开始使用税务计算（预览）
 

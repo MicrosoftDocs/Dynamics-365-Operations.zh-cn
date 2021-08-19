@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fe3a1b0c278839069ebd3d047f8052e9da25203
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a121df99d996c80fab3a01ce81fcaacf9b94a2425a826c09dff203def2c60c13
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745814"
 ---
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 

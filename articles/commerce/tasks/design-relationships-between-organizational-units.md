@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 660db4a846eda7fb4b62ba6664acef3e8f718d53
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bd358b72978b2115bd53d95d3ab7a89d0639f0fc9088073fbf891de21cda14df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759229"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>设计组织部门之间的关系
 

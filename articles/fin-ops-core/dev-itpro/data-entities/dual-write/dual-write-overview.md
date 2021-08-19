@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 951136a6a5197d2ec081b325df2980ad2fcf6e42
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 775a85bebdf78f1ac820f29531513e2c8d3a0cf6b4ee1d29435c7a6edff68a60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724335"
 ---
 # <a name="dual-write-overview"></a>双写入概览
 

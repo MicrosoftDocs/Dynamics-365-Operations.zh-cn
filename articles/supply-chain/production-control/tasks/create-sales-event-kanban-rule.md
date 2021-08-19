@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9325bbb8d28587baeb60cdf1fc37121c236f1a10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ed9df21e37a963d3f7dd22f111270ac3069463ba2a0592b8133cef919567f78
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751833"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>创建销售事件看板规则
 

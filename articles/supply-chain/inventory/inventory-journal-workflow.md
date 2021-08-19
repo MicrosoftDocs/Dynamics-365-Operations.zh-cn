@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7906ac95a2421c9a974bb7f3c46ee5ee157a0b28d6e0327a139fc980cf6e9f19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766090"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 

@@ -3,7 +3,6 @@ title: CONTAINS ER 函数
 description: 本主题提供有关 CONTAINS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 02/11/2021
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: AX 10.0.18
-ms.openlocfilehash: a31d89f036a6e821bea2b6733c0c646145d2a47c
-ms.sourcegitcommit: 17cee26b03f7b5afe8a089a0a9b2380e8d377d70
+ms.openlocfilehash: ae6c96b5754946ee971a8f47d4c618751d25f7e86fb9fb115861e97c5e6f536e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "6048862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765138"
 ---
 # <a name="contains-er-function"></a>CONTAINS ER 函数
 

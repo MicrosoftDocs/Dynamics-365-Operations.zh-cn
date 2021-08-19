@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435943ffc47e841f292136d31ae667d9c34ba55cc40300d19cee2b0e59050688
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762954"
 ---
 # <a name="cost-groups"></a>成本组
 

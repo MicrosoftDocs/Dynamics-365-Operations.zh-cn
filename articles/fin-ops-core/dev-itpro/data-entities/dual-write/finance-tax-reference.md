@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f4b158abe41d35286a6ad30ed822fc2ada2adee7
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: f92fa528f98dd04d99145eba311994848a5db2f02b70412f00e8ef17c63bf74e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746575"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>访问财务和税务参考数据
 

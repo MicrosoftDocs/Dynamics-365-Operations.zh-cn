@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1a60ab866f3ad06acc747f8c8b80a65e767b27c8
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 01dd4223bfe4b24f484c1bc070d4c8aa376853fbf32d309b107333fcbdf87080
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732385"
 ---
 # <a name="process-compensation"></a>处理薪酬
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723181"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>配置查找数据源以使用 ER 应用程序特定的参数 
 

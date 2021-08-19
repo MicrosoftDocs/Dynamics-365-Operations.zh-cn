@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: angarmas
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c8ea8322a6c7bafe2dfcaaee3e9989f753c85e2a
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: de471da861785f283eeaa78f97b5d1e1a6b023d71de6fff72ae39edd6bb124cc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765362"
 ---
 # <a name="you-cant-update-the-forecasted-unit-cost-when-you-import-demand-forecast-records"></a>导入需求预测记录时，无法更新预测的单位成本
 

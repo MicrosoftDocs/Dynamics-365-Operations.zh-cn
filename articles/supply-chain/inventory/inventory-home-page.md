@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a818173d902e846bc145b920003c73bc78b49f0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4df35bf21898441b7737d6cb6a43858f7060921fe118b17c109511531a998b84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753268"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 

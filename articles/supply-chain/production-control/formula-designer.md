@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b05f014600fdac03173a0aacf2ad6cd581b789f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673e2a6c135e2dd7cbc593ee737a2f843b2ee2637ae17ce975d157287229646
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767404"
 ---
 # <a name="formula-designer"></a>配方设计器
 

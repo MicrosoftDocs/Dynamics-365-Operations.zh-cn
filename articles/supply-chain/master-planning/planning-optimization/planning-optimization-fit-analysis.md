@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 308b5132056be5bc8591fdd91f6495d1811e5cd0
-ms.sourcegitcommit: 73d320d2103f2b0c6ecbb2b9df746469bc544ea2
+ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751090"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 

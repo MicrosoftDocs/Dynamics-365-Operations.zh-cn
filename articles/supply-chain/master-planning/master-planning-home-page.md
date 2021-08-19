@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15fbab7d0260ed714edfbbb5ef54caddb69cae3c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 135c8bf66f4bbd7bdbc06b50ab2a8630c934c50bc0a51c7cdb2575d3c8f5d5ae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766647"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 

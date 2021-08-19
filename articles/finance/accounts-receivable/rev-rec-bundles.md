@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 272261f9ba189bec55e856aa617bf5716e3f4fa261ef7bfd7269184a09a51a2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770729"
 ---
 # <a name="revenue-recognition-bundles"></a>收入确认捆绑
 

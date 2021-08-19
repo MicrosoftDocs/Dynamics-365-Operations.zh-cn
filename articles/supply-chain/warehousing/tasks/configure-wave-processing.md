@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10277c22f5988797dd55a33ef5151d2bc7a4b0be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d462427b85e12a45058a2fdea7901a83d9e85e5a562376dd438c69dec1ee8948
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769363"
 ---
 # <a name="configure-wave-processing-example"></a>配置波次处理示例
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: a768b2508988c77d669bac2ac443d69a995a5617971693caed8e0563a146f853
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769099"
 ---
 # <a name="customer-aging-snapshots"></a>客户帐龄快照
 

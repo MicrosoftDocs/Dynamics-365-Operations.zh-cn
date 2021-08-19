@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 0b39279d17af4fc02c4394b7a69d654317512646
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 953677a0d7ebe3343b888fdff2867334ef69d861d85a9145aa003177617434d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757822"
 ---
 # <a name="manage-voyages"></a>管理航行
 
