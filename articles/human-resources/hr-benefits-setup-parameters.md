@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d668238378e41287c7a9f845ae3e67078fc7776a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9c6761c549aaa38d16616f3e9e9084cbff7c93d9350f8adc50720d263efaff25
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732769"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>为所有公司设置福利管理和员工自助服务参数
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13aa59ab1c6b0170ae9ab8972fb00bcf47e2b754
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d49dee72d2dc00f762159b849049c61955acf5295fe431a3cd93e30408dca9fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730675"
 ---
 # <a name="configure-credit-card-processing"></a>配置信用卡处理
 

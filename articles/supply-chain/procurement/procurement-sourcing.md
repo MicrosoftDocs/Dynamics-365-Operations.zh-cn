@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
-ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
+ms.openlocfilehash: c14e69b351ad07d2d834fe75aba59b30eb2828879e214de8153535ae846d9c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "6647198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731263"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 

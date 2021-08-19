@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 341d3f37936bcca8d8b273894b4a12debfe6eced
-ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
+ms.openlocfilehash: 1913181e85929951ce240ac31a0ac3f1351f6ae51f6ed2790bae577b2100b308
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "6647174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731239"
 ---
 # <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>创建采购订单时应用采购协议
 

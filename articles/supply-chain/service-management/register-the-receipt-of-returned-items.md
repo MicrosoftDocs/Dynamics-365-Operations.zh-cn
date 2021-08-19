@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96532173c003621271f768dcdc64d67b6948ab6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 04abaa65375224a5881ab8c0c245da627813471dc6366448dc61fc609b8334ae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735055"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>登记退回物料的接收 
 

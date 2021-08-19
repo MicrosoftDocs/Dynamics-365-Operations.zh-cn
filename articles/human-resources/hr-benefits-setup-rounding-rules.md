@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e910f22092fb00b29a94acb501f6ae9635fdb493
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 65747211c8503445fff8c6816e4ca1e705b1369ee27772c13bf3df373a2015e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732649"
 ---
 # <a name="set-up-rounding-rules"></a>设置舍入规则
 

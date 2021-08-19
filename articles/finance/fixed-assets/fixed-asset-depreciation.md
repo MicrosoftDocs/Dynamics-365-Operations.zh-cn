@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ec8544b885485781b0b9c0a59ec47f90fdceb6b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a72aa631f4678876de28c1d8b94c658c092d90865b2db4b10dac13e5cbcc7e7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734530"
 ---
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 

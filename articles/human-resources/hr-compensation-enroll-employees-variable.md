@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2da79af8ab311cb41d62bff0e976ea76d2682e4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2de7393e67fb01842cdd45c2ef8a041a1e694fabd5e62bcf9894941e7272bd03
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732529"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
 

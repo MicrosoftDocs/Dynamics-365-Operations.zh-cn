@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d2a0d6d2e70bfb797de919b536fa1ca62fd181a8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734656"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 

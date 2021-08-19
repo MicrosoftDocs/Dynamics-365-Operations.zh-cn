@@ -2,7 +2,7 @@
 title: 媒体库模块
 description: 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733189"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
@@ -56,6 +56,10 @@ ms.locfileid: "6346708"
 | 图像 | 从站点构建器媒体库中选择的图像 | 除了从产品呈现外，还可以为媒体库模块挑选图像。 这些图像将被附加到任何可用的产品图像上。 Commerce 版本 10.0.12 中提供了此功能。 |
 | 缩略图方向 | **垂直** 或 **水平** | 此属性指定缩略图图像应显示为垂直条还是水平条。 |
 | 隐藏变型的基础产品图像 | **True** 或 **False** | 如果将此属性设置为 **True**，当选择变型时，基础产品的图像将隐藏，除非该变型没有图像。 此属性不会影响没有变型的产品。 |
+| 选择维度时更新媒体 | **True** 或 **False** | 如果此属性设置为 **True**，则在选择任何维度（如颜色、样式或大小）时，以及在图像可用的情况下，媒体库中的图像将会更新。 此属性有助于简化浏览体验，因为不必选择每个产品变型维度，便可更新相应的图像。 此属性在 **高级** 选项卡上可用。 |
+
+> [!IMPORTANT]
+> 自 Commerce 版本 10.0.21 版起，**选择维度时更新媒体** 属性可用。 它要求安装 Commerce 模块库包版本 9.31。
 
 下图显示了一个媒体库模块的示例，其中全屏和缩放选项可用。
 

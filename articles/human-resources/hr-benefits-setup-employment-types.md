@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f87c6217aeed0173a730e332f566356f3f2609f0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f3a1eac54d2f608b43b93b92f3b6373d1e96d9362e88666d3c70dcc21f9dd598
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732841"
 ---
 # <a name="set-up-employment-types"></a>设置雇用类型
 

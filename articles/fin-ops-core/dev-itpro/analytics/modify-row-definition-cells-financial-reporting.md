@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e0bab0c9ecff1161612a6654209735b23a40aa6d085c6e83cdd44d3bf41e8b5e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734712"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 

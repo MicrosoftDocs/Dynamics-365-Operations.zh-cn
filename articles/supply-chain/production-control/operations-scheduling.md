@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 94ac865db8a01f6b3c72e3a8851d6be4fe2ce0cf9faaa21bdb0d465605066b4f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734131"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 

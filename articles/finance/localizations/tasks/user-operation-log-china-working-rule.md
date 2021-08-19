@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fe7896b58c7fa90ab9295f95c24299307fd9dca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a497454846d4c0c9e32ce37ffddaab620b566febfc667dd316bdb8683d58ff6b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732888"
 ---
 # <a name="cn-00016-user-operation-log-by-china-working-rule"></a>CN-00016 按中国工作规则的用户操作日志
 

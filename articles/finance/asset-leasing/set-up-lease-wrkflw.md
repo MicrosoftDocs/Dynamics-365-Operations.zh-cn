@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0e7280bbf60901266c81a0c89395c5183f991425
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733627"
 ---
 # <a name="set-up-lease-approval-workflows"></a>设置租赁审批工作流
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a55b1068835f1e050110c57e6af3340a018ff31
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bb0a7ede00b129638d42ef3feb1cb683e844b048bf212efc17cf28b2eb76240f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734347"
 ---
 # <a name="inventory-object-values"></a>库存对象值
 

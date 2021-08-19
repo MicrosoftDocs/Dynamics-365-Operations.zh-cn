@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44c653dc67c50d4bb6fe7b3c2b7f1d30e47e8704
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bab34efb36ba72141095ebd81cfea56dd2d718e9b22b3a5fc08138e674e1c5fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732073"
 ---
 # <a name="custom-fields"></a>自定义字段
 

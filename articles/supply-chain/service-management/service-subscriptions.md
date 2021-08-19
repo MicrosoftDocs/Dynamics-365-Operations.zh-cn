@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17b770bda7306e5296d5375a5d0c7e278865b538
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab47566ba7fa84eedc4adbd989f26ea75b64bd9fc8f568afb04f71e5ac78a6d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729355"
 ---
 # <a name="service-subscriptions"></a>服务预订
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0307437d3868f7ac34fa16a0913907a046ac14d4
-ms.sourcegitcommit: 636c1bf096a8666a551b67e898da1f48feb9a187
+ms.openlocfilehash: 8e6aac6b3a8b730b6adc5c3d4410b98c3e8d5090eac866c337ed1d03409ba765
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731143"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>全国汽车货运分类 (NMFC) 代码
 

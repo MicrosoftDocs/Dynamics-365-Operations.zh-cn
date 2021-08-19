@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9aa9e60b51b1801c07981ad120cb77f65fee286
-ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
+ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "6560093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732409"
 ---
 # <a name="ready-to-pay"></a>准备付款
 

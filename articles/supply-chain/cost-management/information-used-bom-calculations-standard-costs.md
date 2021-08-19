@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b5096ae7901a91f602f520e4e869ff67771c244
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26d5590943ece1480e11a17a684cd7ec8cbaae451ddd5e0407bc72576ae53055
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731857"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>在使用标准成本进行的物料清单计算中使用的信息
 

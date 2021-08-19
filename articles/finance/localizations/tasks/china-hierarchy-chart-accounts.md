@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8294b482af5ccf2592db0e86326b17c17c994c0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aa375f015955d4009001bafd3ac9027faf0a4d7e174f09cf3a9b0329e7f2e78e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733582"
 ---
 # <a name="cn-00010-china-hierarchy-of-chart-of-accounts"></a>CN-00010 中国会计科目表的层次结构
 

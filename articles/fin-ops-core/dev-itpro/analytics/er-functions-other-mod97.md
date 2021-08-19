@@ -3,7 +3,6 @@ title: MOD_97 ER 函数
 description: 本主题提供有关 MOD_97 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1054407addaf6f7c2a7d2f72bf1479e9dc374389
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: edc29cac14014929e0672183be1c5db44fe6b5afe9543cd00942a95c79ec8897
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734760"
 ---
 # <a name="mod_97-er-function"></a>MOD_97 ER 函数
 

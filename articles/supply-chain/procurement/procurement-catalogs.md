@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4898e140f4c4ffc038248d27d21a0a6b4d314ec2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f8ed639b6cb2e49cdd6afb4b259d04044facf691b1122eac4fb2694b0946025d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730290"
 ---
 # <a name="procurement-catalogs-overview"></a>采购目录概览
 

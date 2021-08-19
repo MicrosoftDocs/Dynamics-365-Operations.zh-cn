@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16c3f13081dffd154f1a019357f1d9af7cc8912b
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: ab4e2bac4799e56a3b9298f259730c04821bd63264dc574ec9597ddd7667c7d3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734227"
 ---
 # <a name="merge-inventory-batches"></a>合并库存批次
 

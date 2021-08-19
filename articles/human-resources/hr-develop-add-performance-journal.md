@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: caedd7df4f86abfbf154b367065fb075e6ef081c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b147ee6cd2b674d6d251230420929dff948c6203ec015833396ab1ec468c0573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732265"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>添加到绩效日记帐并向某人发送表扬
 

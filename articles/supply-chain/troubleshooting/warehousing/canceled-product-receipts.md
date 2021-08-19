@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 9c86457d50a7a9ac2a699a0e0a9c7bdf4cd7c67b
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: eae703ce0b2c981518b18c4badd4f90031b902ece62f3ca0837427b306d618b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731095"
 ---
 # <a name="canceled-product-receipts-dont-update-transaction-status-to-registered"></a>取消产品收货后不会将交易状态更新为“已登记”
 

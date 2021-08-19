@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
-ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
+ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6558265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732721"
 ---
 # <a name="plan-type-overview"></a>计划类型概述
 

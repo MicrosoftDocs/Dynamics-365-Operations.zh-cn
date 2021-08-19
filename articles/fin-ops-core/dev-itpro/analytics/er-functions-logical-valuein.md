@@ -3,7 +3,6 @@ title: VALUEIN ER 函数
 description: 本主题提供有关 VALUEIN 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 08/18/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 909aef5e52817a67e400f3132cb5d6ecc8a18906
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f230b05cd88554d30106337ae3e3f684c958c76eaf8ad8eae0dceda53f0b6862
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729063"
 ---
 # <a name="valuein-er-function"></a>VALUEIN ER 函数
 

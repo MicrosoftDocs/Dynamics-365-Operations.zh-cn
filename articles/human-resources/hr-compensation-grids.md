@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a66dffa26a62f2937fd54ffb175add115887398
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9592c993cb1d1d392c5cd349663325d326d821521ca7042ba593d74e8f3b5d2f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732457"
 ---
 # <a name="set-up-compensation-grids"></a>设置薪酬网格
 

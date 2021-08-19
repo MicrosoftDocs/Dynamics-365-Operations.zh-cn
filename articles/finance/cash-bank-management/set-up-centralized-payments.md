@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ff7051611c1253ce8f431e24274fab53cf79b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 524d4e59e9fad38bd9104ee7e7a3e9d5311b735340bcd03376fc0ebc48eb7174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731492"
 ---
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 

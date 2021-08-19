@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91783b7085641bac559433815adb72f8cef2013d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 983d36344340c320d70e507abfca377db15adef0e50254d90abe8c819fe84e96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732601"
 ---
 # <a name="configure-waiting-days"></a>配置等待天数
 

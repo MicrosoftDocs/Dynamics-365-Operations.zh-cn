@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2e523aef09dd362b265fe412a1a6bd372622f6680e9c5cee9261f0f6c192cb57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732121"
 ---
 # <a name="authentication"></a>身份验证
 
