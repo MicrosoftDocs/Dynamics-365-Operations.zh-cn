@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22d173f6ced2af3e8023bd40f70ca70728c3a0a7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0efe960bee8f5c2c0b683ad641379345ce6d470180d29893b373acc6e1de8aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726030"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>设置高级银行对帐导入流程
 

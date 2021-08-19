@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: 757d2103bd629c0107a3f29599196a56ea56d431a66cf1e69c7b3cf3d817c087
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724812"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>查看计划历史记录和计划日志
 

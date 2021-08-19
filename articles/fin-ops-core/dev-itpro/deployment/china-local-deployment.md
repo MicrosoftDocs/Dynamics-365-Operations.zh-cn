@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6fff628ef5135d7908455f811c6e887576897d67
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: c7653493977c4d6aa744699748f4d42eeaef07cbe8c3c3fb5ba4e0917b836a84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116967"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726173"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 

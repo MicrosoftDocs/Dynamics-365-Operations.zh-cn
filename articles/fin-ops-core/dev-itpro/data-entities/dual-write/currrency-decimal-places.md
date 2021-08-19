@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1bfb719b20694db9af8a2a013786b8309c23c9d963c8746346930bbde96e9bbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725128"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: eee4076c5f16d9655bde3ee4943f79732598199f286d14aa542c167497d83262
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726203"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>将 Microsoft Power Apps 门户与当事方数据模型配合使用
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a8e04f89673b3e0eb07e19aa1e14276f1f22c25b9aaabc91e2919892f74ed985
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727975"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>固定资产价值模型和折旧帐簿合并
 

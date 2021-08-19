@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b5270660f0dbe4351f0088787468a563d2f36cf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ffd12a351af58e4b20af7f9aadb88fbbc682edfc86b35eb009f949eb850e8fee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724295"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>配置工作流中的并行分支
 

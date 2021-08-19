@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c769d225ee0f7b35719c37d9b9bc690a20060911
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 208c2a422d130e076b7b31721328e95e0c514b015d2fc047b9ea613d03b8ce12
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728881"
 ---
 # <a name="customer-workflow"></a>客户工作流
 

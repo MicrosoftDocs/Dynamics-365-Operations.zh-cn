@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69baad02bb1c1577022f65eabc38c717a184b3c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba9bdf17b637e88306ecb52eb46bf5c8577334a11d6d4777f33156f3e9ad6a9f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726745"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>在移动作业设备上报告进度
 

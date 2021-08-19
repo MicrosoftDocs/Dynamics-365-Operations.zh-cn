@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
-ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
+ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722711"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>供应商发票自动化工作区
 

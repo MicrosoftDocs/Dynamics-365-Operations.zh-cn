@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8be53c415d3b0c0fd057bb0d9c51b391d1c0c7471610c861909344059803441
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727213"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>在 Regulatory Configuration Service (RCS) 中创建 ER 配置并上传到全局知识库
 

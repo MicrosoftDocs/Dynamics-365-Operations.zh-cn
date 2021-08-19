@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0ace8ff57b91828eb055658af5c8ecc50064ad
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ef6d77aae52dc81bb1b34acc74d4174a7dfe0482f3af5123f93688244cf50f9f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728523"
 ---
 # <a name="revert-kanban-job-status"></a>恢复看板作业状态
 

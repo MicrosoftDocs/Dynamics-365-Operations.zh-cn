@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: d65e3c4220c05d143d57413749ef805fd58dcf08
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 333ff164b8fa6d92dbab89a33e5d95c1a0144a2e6b38f6cdc5903cf437a56283
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725786"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>显示制造物料的费用
 

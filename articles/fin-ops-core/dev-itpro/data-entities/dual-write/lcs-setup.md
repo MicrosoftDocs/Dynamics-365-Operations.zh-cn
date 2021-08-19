@@ -1,8 +1,8 @@
 ---
 title: Lifecycle Services 的双写入设置
 description: 本主题说明如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置双写入连接。
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729035"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 
@@ -66,5 +66,18 @@ ms.locfileid: "6359355"
 
 > [!NOTE]
 > 不能使用 LCS 取消链接环境。 若要取消链接环境，请在 Finance and Operations 环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
+
+## <a name="linking-mismatch"></a>链接不匹配
+
+您的 LCS 环境可能会链接到一个 Dataverse 实例，而您的双重写入环境则链接到另一个 Dataverse 实例。 此链接不匹配可能导致意外行为，最终可能会将数据发送到错误的环境。 建议用于双重写入的环境是作为 Power Platform 集成的一部分而创建的环境，长期而言，这将是在环境之间建立链接的唯一方法。
+
+如果您的环境存在链接不匹配，则 LCS 会在环境详细信息页上显示类似于“Microsoft 检测到您的环境通过双重写入功能链接到非 Power Platform 集成中指定的目标（不建议）”的警告：
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform集成链接不匹配。":::
+
+如果您遇到此错误，则会根据您的需要提供两个选项：
+
++ [取消链接并重新链接 LCS 环境详细信息页上指定的双重写入环境（重置或更改链接）](relink-environments.md#scenario-reset-or-change-linking)。 这是理想的选择，因为您可以在没有 Microsoft 支持的情况下运行它。  
++ 如果想要在双重写入中保持链接，您可以向 Microsoft 支持部门寻求帮助，以更改 Power Platform 集成，以使用您现有的 Dataverse 环境，如上一节所述。  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c59e85cd8f2b5cedd65b47ef2ef0818c13ddc328
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c61d36141297bb2151f2444d7d4749da6d72a4d96807a1c55ecc0d006e4772fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725300"
 ---
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 

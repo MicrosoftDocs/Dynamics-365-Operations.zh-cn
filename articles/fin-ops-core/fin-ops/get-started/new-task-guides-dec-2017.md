@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4301c31a5152dce73497208f02efb1da4611e1c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723047"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>新的或更新任务指南（2017 年 12 月）
 

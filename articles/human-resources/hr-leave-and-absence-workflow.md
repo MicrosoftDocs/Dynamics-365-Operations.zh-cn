@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5580b4b07b2d335ad9444a064c726bc4aca1db6a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 35ce23c46acf4fe9b01a40ca01fb63c4b36f03edd10eb8b56863d4bb84f01ee9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722551"
 ---
 # <a name="create-a-leave-request-workflow"></a>创建休假请求工作流
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ced09fb4be49dbfd10dac9f9ece86372d38e854460c7ca6cd72922c64ac7cce4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724127"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>按时间顺序对文件和凭证编号
 

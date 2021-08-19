@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a78ec681ff9bfe9f7792da04553e4b543bf4a183
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 98b759e5c5c918f14ca36bec93908d2f5eeb35044de77e3f450d79ead0993c16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725690"
 ---
 # <a name="vendor-request-configurations"></a>供应商请求配置
 [!include [banner](../includes/banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3963b4ed63021dd3c84a0d87b768486dcb0f386d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722687"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐到默认描述
 

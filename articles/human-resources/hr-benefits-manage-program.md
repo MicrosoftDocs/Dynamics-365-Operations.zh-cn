@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1e2a43b0c08cadebd6181991ddb3aa46ce63b4388768de400ab43ef77bf4ecd6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727081"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 

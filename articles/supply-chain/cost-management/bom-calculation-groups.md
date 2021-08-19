@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce954b61b4d6a12f2bc62a71ef2e1bc69732a4c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02db6c834654732095fc4d1c63ce377fcb02359b9f9db762c5bff835a996f8de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725810"
 ---
 # <a name="bom-calculations-groups"></a>物料清单计算组
 

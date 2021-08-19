@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 11b1336289f1fad0366882a18867ff527900d8bfb14051c909a0b0ff72779073
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726002"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>为 TDS 税务类型设置税种组分
 

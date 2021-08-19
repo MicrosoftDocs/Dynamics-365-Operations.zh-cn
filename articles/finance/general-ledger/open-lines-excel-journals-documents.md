@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d95584ff02eac7353b01c2159be02e694b4c83fe
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 7ad4d44030e49b9c07c0827e916d9b4f31fb54fce8b1121e9f69ea754e099591
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727268"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
 

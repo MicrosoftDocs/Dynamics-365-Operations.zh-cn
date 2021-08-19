@@ -2,7 +2,7 @@
 title: 礼品卡模块
 description: 此主题介绍礼品卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728331"
 ---
 # <a name="gift-card-module"></a>礼品卡模块
 
@@ -48,11 +48,17 @@ ms.locfileid: "6347485"
 
 - **显示其他字段** – 此属性定义除了礼品卡编号（默认始终显示），还应该显示礼品卡的哪些字段。 例如，某些礼品卡支持显示个人标识号 (PIN)，其他则支持显示 PIN 和到期日期。 错误，还可以将此属性设置为“无”，这将仅显示礼品卡编号，不显示其他字段。
 
-支持的值：
--   PIN
--   到期日期
--   PIN 和到期日期 
--   None
+    支持以下值：
+
+    - PIN
+    - 到期日期
+    - PIN 和到期日期 
+    - 否
+
+- **为来宾用户启用** - 启用此属性后，来宾用户可以兑换或检查礼品卡上的余额。 此属性要求在 Commerce Headquarters 中启用礼品卡的匿名（来宾）访问权限。 有关详细信息，请参阅[为来宾结帐启用礼品卡付款](#enable-gift-card-payments-for-guest-checkout)。
+
+> [!IMPORTANT]
+> **为来宾用户启用** 属性从 Commerce 版本 10.0.21 版开始可用。 它要求安装 Commerce 模块库包版本 9.31。
 
 ## <a name="site-settings-for-gift-card-modules"></a>礼品卡模块的站点设置
 

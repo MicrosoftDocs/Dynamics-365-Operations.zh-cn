@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 80a2f38f2b3f039b17556116d6aea738faa1db50
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d7b51ffb3613800033d817b1e911ba22cb978c0cdb21a256693ba52674ad5885
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728307"
 ---
 # <a name="assess-customer-and-product-profitability"></a>评估客户和产品收益率
 

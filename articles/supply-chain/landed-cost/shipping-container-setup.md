@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8f86f3603b64093214bb7cf7d165ba0fc2229ca3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c13102ac1c852aabd25c54e4b51d2f14548290a3d6b90090425aa37e5bde110b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727886"
 ---
 # <a name="shipping-container-setup"></a>装运集装箱设置
 

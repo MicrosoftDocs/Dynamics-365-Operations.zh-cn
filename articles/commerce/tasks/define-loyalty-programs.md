@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8013ffc0727fddd7acde58e75182ee9f3165c09d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ebd2a4ca736862c0262e9b15b375e0677cb52192646d9b524a729536a3f5305f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724459"
 ---
 # <a name="define-loyalty-programs"></a>定义会员计划
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1e63440834f516879aa8ad711bd789e62b0ee993
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726553"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>实际更新数量的小数舍入不正确
 

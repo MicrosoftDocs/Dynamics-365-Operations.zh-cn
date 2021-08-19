@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962caff0e8e41487231c6075fa7b2df2a59dca48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727598"
 ---
 # <a name="customize-image-focal-points"></a>自定义图像焦点
 

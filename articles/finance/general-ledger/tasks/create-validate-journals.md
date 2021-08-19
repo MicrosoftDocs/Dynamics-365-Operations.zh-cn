@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72c97c6afb7bbe602fcb7a5e24a1d2a2cd727f6d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8775b5f9b3c1cd2bb65c674b00ddbccdda64f28fff8534340ec45ad0080bf528
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725042"
 ---
 # <a name="create-and-validate-journals"></a>创建和验证日记帐
 

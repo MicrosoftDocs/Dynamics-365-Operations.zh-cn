@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 872ec404da0cce41c4ea0f882a3fa8af56316ce3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728953"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>查看供应商发票自动化结果
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2594b90ed58a1e7f12c8a94d3c48266faef557f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 711e2f445e043dc74cba0ee11f1ab2dc22215ff30f495e06dce1f6f3ab4a0a09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723791"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>结算会计科目之间的交易记录
 

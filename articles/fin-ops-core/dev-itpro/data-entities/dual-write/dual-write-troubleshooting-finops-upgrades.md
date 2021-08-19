@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a68e17e3bce4efdd1a10f8f8319ff996690604572d57e9f8232f5ec45fa39e7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728155"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>解决 Finance and Operations 应用升级存在的问题
 

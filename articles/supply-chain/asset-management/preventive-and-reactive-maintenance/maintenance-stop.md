@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6168033afb97c6f4f1b8466801a6f16332df82a039927ec1b45e03aa3694b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727910"
 ---
 # <a name="maintenance-downtime-activities"></a>维护停机时间活动
 

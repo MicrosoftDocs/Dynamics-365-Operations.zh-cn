@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: ca6ca1ce53e81ac7c64489f505decd84a9534f74
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ef8241424d3f512378849f820202b842b6c61ac208edd1d1e8e6a7efa06e9615
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725834"
 ---
 # <a name="backflush-costing"></a>倒冲成本计算
 

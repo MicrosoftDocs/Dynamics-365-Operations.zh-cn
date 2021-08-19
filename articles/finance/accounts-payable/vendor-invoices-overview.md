@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 613760166769e9885b32317c3ef1cb02e88ff2f9
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722783"
 ---
 # <a name="vendor-invoices-overview"></a>供应商账单概览
 

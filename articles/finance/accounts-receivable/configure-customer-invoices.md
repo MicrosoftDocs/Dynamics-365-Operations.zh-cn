@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c033684e56f97a5da80a1934ee1299229f58cfba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723863"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 

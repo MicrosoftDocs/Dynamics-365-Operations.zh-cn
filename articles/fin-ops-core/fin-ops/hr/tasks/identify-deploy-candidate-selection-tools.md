@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9e0b300692d817024455c669c226a81e601366e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cae72f9ad1e627c1de547de9689f951a6aea0f9eb37d426034652332a7929a22
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723023"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 

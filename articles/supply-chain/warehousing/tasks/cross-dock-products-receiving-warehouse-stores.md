@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7caec5329774baaa03c72f9236f8e3192399089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c660534053793b454f8558a114eb4db1d715472c126f55dc97171a31e2a1ab9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724716"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>将产品从接收仓库越库配送到商店
 

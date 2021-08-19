@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: ad4ba2781c1b1086f2b554ec1db0f0f970d2d671
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 21187bbc287c66ca1aee259089b2bebbabb72fdaa459b77359c8c5555b6cd801
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727838"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 

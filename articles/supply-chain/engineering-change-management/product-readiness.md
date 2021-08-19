@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723543"
 ---
 # <a name="product-readiness"></a>产品准备情况
 

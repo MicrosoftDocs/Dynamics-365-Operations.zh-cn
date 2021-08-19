@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5c9f38cc7874fa6c9188f87ca01e561d434092fadaddf2504c79e4bd6dc322ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725330"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 

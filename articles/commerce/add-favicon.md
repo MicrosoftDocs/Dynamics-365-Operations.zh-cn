@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41beef346744dc93be3f2d83e660a96e27562f3da933363a1f99144e34060d9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797711"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724620"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 

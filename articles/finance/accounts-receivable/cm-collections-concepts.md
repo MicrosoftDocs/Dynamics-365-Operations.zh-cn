@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7f23f3668bfc344b2964c1b0062a5ed1174df05c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0a6cbdb79f0ee0c51b2e1fb7af93931da490c1bb514dfed89d48412f6779fdf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724031"
 ---
 # <a name="collections-management-key-concepts"></a>收款管理关键概念
 

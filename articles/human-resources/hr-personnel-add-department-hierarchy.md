@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 379e19455136393bb5679bdbda7959b85ee05de7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727009"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6cbdac74eaf5d57aa6fc80e53686f1aaa776685
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4d4fb4f245330d95fb771a8127d4e2d36eb3962bb0446a7676c2c498112567ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726649"
 ---
 # <a name="attach-templates-to-service-objects"></a>将模板附加到服务对象    
 

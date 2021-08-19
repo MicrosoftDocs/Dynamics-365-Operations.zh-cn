@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727670"
 ---
 # <a name="ways-to-add-content"></a>添加内容的方法
 

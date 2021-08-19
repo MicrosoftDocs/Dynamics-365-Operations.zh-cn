@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3ce207b74c9515c72f4fce7680ee9eea50edd0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728023"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>将成本元素维度成员映射到一组常用维度成员
 
