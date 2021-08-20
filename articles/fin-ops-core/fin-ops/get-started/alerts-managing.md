@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 471e7d32e3507fef7765adda105f203cb898346d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bc5366ea0e0a93cbd7806bb87608590f5304031a92751ff25a1531c2a3b135b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764424"
 ---
 # <a name="batch-processing-of-alerts"></a>预警的批处理
 

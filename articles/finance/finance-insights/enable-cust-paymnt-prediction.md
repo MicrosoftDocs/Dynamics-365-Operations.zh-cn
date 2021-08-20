@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 03320aa925ae94ef39d54e64701846089ec66084
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 0b945111f360838dfa35cddb916c4fb34a41f55bdd8f3095bd97c906b7dd3dd7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768883"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>启用客户付款预测(预览)
 

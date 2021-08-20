@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3314803b994aed40e5b04d8546a45bd305d48b6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83c8be1b397f90445230835e415ea4fcea5a8d0bf695e6cc5eadc55275ded7f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768955"
 ---
 # <a name="customer-prepayments"></a>客户预付款
 

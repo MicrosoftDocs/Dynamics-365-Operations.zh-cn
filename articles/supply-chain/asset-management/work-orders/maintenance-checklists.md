@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 135887e4ca8dfc6cae9aa73b316815ed3a7041a9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9ece9abcbaed0a1881f6b6a0d1b2357bc87ef181636a37564709f62c6aa38475
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760554"
 ---
 # <a name="maintenance-checklists"></a>维护清单
 

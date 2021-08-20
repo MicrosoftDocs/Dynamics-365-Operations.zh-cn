@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1ff65a0518232275f7c5d0b4a70d04f77e4936c5
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314105"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761966"
 ---
 # <a name="payroll-worker-address"></a>工资单工作人员地址
 

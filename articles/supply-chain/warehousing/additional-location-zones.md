@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ee6e0b824ff16bf757159da5198a4215f4f5d121
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4801077ac498699972244f3f86216790b517b47247fc7fb288614ec143c3c5cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762762"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 

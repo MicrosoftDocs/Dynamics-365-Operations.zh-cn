@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a34c9f265a3adbbe938d90f2aa7f5d02b7201c05
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762660"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 

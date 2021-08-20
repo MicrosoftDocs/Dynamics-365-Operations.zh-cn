@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 98c22fbdd2f60a73b5662b0054c79fa1841f705d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9355409076886b70ad224c82561cf0cf81066e9b97e1a22ad59ce04be2c90158
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762107"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 

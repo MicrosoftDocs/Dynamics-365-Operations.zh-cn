@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f0e480b93e663f81db5a1edb2ae71b559bb05e
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757113"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>银行对账单文件导入故障排除
 

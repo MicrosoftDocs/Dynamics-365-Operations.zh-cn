@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 37e370cec8134ba12e58da9ece137a786325c41f0d5b335c4e8e8ab3679267ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775691"
 ---
 # <a name="set-up-consignment"></a>设置托运
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 456b07adf6756ee1a86813e3d6fdfc53e56e842c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 1f3eaf49a730586e4d97b0a68cdfebc666933a7a97cb99965d67b00bde464e3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339783"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778934"
 ---
 # <a name="accruals-overview"></a>应计概览
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a93fccc1b2c73e0c32898b58384f590d393d939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 532ab6389a5b4326898e215716532ea768aef3433038ab53a9e0070f8f3c1d56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782387"
 ---
 # <a name="view-undispatched-service-orders"></a>查看未分派的服务订单 
 

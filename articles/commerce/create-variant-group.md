@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b47f38375fc8925288db36f066ed7820bab3fe9b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749923"
 ---
 # <a name="create-a-variant-group"></a>创建款式组
 

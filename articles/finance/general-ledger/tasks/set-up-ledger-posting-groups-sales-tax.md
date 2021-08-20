@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 509fb03708670d056edb97dcc1c656b9fcca9cac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754162"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 

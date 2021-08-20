@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757750"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 

@@ -3,7 +3,6 @@ title: ORDERBY ER 函数
 description: 本主题提供有关 ORDERBY 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51da7f3766f5af901c8be6668bc2511cd8e2f9e9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fcacacbf0727fa26350ff23c781c2da54d0ba77262c94dd48d88d01444352947
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753184"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776138"
 ---
 # <a name="orderby-er-function"></a>ORDERBY ER 函数
 

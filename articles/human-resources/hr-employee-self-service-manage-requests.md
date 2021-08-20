@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efa85c4a3371bb5096df1a56d818527156654279
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769651"
 ---
 # <a name="manage-leave-and-absence-requests"></a>管理休假和缺勤申请
 

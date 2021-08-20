@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 470cc0c39f211a5d0f106c4c6e193867388e2b53
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: 8f3c42e28b01afd3b7ca8b1af8381dd5377e17eb31da655a397bd7805779f879
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6249063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751689"
 ---
 # <a name="import-inbound-asns-through-the-v2-data-entity"></a>通过 V2 数据实体导入入站 ASN
 

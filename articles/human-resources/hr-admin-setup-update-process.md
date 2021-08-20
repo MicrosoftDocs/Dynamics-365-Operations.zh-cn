@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2466c53885340991aeeb0a07af83517473b332b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 14bdfa175257023ab68b4cbbda9311bfde77723050355e9d983337c9fa9eb551
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761132"
 ---
 # <a name="update-process"></a>更新流程
 

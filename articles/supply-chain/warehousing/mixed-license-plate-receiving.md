@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b17b3a4d704c5bfd051426e708d39022e59cc67a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84b01e9c6ad041fe95b46c97d89b90e85422d170399754062a6422319fc23a63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769459"
 ---
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 

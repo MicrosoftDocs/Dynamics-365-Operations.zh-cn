@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a44907442241ed231d9a9919c030d46cf57a8850
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87263f5e640025db09db48e4e6a1d57f729e7222b50a5cd691b99fc6dd1edea7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759351"
 ---
 # <a name="transportation-management-discounts"></a>运输管理折扣
 

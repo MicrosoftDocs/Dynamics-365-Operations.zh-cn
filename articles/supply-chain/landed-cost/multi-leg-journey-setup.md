@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 45e32c59c79389bcab15dd07d1bbd33d7ff34340
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 045ded1fb881b0572f4490ab3a5d4ca1cb8c341a4d245e6d98991228a90aadb7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774070"
 ---
 # <a name="multi-leg-journey-setup"></a>多支线行程设置
 

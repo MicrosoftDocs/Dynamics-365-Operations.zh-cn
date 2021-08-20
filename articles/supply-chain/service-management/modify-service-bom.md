@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8fb074dae7686b73bf63fcdcce7e58c331f6dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c081e31cd60069ac7ba8cb2c52e974bf5d2e2870467465404c229bee6b6ef57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767332"
 ---
 # <a name="modify-a-service-bom"></a>修改服务项清单 
 

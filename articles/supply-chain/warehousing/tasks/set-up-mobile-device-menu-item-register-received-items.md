@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfe068bd964f31b77e30b34ef20c2b0f70ed6238
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9dc74d51dae4af21679ed71b68286ca29ff6201977242490fb749364a223f64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764660"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>设置登记已接收物料的移动设备菜单项
 

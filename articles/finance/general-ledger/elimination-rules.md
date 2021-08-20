@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0427c05f0c960bd898de3ac308d743f7ccec08f3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c31df2526f3b852bbc2b5086ce2154310118352d43c9f8803b72d49df4a450b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755634"
 ---
 # <a name="elimination-rules"></a>清除规则
 

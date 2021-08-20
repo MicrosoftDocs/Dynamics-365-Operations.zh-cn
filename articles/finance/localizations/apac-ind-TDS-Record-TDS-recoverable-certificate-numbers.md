@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2c7fe2e1050053fb2ddaf85854e7ac46dd6912a5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fae748123a47650075150fe0c37d11b56c06afe7f5258fc4e31d4ede0a478051
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781167"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>记录 TDS 可退税证书编号
 

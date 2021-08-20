@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3afce380f1fd6d83c7e05424079e9e4b9e72bdf9ef90ee8baaa26748aab9d4e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764972"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-07
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 052b8944c0a015187d1d7c4ba3db878c52faeeea
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: 16000243bc8aa76b04ac56dfb8bfbab7cd644eb3120cc68493ff066598f6cf85
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758069"
 ---
 # <a name="change-or-reassign-a-ledger-calendar"></a>更改或重新分配分类帐日历
 

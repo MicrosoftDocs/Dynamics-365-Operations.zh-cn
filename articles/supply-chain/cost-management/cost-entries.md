@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b258e111139f52f5ccf3ea3f385a1367576eacd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c03a059aa3491f3f42a1a7ce67cff56e67314edaebbcbe8a766fe769ee06ae88
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781992"
 ---
 # <a name="cost-entries"></a>成本条目
 

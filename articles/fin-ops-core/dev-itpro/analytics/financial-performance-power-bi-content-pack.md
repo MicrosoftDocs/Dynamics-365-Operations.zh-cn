@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767795"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 

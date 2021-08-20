@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753714"
 ---
 # <a name="create-a-new-product-in-commerce"></a>在 Commerce 中创建新产品
 

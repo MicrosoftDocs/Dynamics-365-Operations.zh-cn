@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 158ae6013bf1348b00791ff44154d626a5bd4f5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 507e05cc950bc0c2956b605008916ee6c66877bc96bed2ac127e9dfa531b89d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768682"
 ---
 # <a name="create-employment-categories"></a>创建雇用类别
 

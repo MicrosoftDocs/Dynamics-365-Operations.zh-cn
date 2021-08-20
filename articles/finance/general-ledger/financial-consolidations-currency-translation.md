@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748972"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 

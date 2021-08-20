@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe322c63321250e8c7fe2018ed544c768747235
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 42a71d9f8a7229b147d5e322456c44c4d0d7b7f7303d8b13946eed7e68c75343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776840"
 ---
 # <a name="production-process-overview"></a>生产流程概览
 

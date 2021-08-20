@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a07a8a2a8ef1307abb462db0670e600bfc7ca187
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 022b5dcab8ef431edbed308660f92b841eb972cdb7a53095f057e6718880ceed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759543"
 ---
 # <a name="master-plans-overview"></a>主计划概览
 

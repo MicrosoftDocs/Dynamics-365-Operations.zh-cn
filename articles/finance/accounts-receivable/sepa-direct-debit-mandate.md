@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fb167798a1c721d9f0e81f5e33e2989259037e9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a4f63f88daf65676104384a2d612aa415ae6533044ea52ce85947f75ad876ced
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758913"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>设置 SEPA 直接借记授权单
 

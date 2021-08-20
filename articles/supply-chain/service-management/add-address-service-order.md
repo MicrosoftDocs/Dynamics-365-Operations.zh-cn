@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a54ec439fc88dc9688bbb3d6b833b5d80482f024
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 55af2de689c70ca5041bb7bf5d0b7c199ae19384472ac96eb922df80f77150b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760988"
 ---
 # <a name="add-an-address-to-a-service-order"></a>将地址添加到服务订单    
 

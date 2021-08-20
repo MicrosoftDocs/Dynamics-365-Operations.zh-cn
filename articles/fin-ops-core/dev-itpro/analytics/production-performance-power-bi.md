@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4118d8f5e147d27e1620d236dbe0e0bd40dc3068
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761408"
 ---
 # <a name="production-performance-power-bi-content"></a>生产绩效 Power BI 内容
 

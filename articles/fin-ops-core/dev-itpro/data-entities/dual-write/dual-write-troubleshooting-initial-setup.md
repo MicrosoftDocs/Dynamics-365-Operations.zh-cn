@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 7c51a92ab101937a0ccf630fa0355485e42e9a0deca36c23327d96976f5228b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758184"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 

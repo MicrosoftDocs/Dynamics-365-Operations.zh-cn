@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50b6ad0abd566fbcaf9cf8ad36af69fb4b3e551
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb022179a1eb919eaf3d2ea74927ab4d61bd6fffb81348e352af7cf78d4b178c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754282"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>停征、复征或冲销利息费
 

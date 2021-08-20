@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1102f5388043299e35d3e6a00d4fe203a4e696a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 022ec17d0fdc8b1ee204280ecaac40d75e9c1a44974f2bd4a9bb49fa0aa7878e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759423"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>使用安全存货日记帐更新最小覆盖范围
 

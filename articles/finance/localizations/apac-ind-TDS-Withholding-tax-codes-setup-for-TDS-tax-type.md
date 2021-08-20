@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: add91eaef2ad091df7fd45e3de2dfe3993e6d62fdcbbcfcf95a7fc4953189239
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754871"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金代码
 

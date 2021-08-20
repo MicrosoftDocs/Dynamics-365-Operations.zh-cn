@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777855"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 

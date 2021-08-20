@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d42b3aa5b692a300a4a2cb3eb64c9a014aa52f9e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 30fe9433e7fe5f240ed46272e869d442d226af6c7da19a42faba87a0baf5131b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749166"
 ---
 # <a name="configure-accounts-payable-overview"></a>配置应付帐款概览
 

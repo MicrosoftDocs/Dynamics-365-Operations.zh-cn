@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82742298937c55db13222e5f564f75066f9a212
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 688fae26e556fcc7d41e5f79d7dcce3327094e62f4a82b9c802efac8072f47b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779006"
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 

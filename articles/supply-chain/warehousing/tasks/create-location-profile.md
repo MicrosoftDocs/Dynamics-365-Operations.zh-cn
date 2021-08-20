@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 101d80216f786eb8edb687031e4deac8cc3033ff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e06490761488881a7ea1c57cf9eb3d12dd7624753593e4aacd3c07b6a3f6998
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750020"
 ---
 # <a name="create-a-location-profile"></a>创建库位模板
 

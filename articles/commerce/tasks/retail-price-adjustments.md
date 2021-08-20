@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0e6ce8ca1d9f63e7ddf6af897a6de5544e4edd9b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0506c78a1a5191ff467f5bd65c0403113336cc9720ea4a447d77331dfe366232
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764505"
 ---
 # <a name="retail-price-adjustments"></a>零售价调整
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1794c297bef86a62ff5dc24524332df07ea26f39
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e0fbc877a05b2bd73401c2c4a49228aa7e73fa7526813f6f6285c2bc7c72a5bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755994"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 

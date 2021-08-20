@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766962"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 

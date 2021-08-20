@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24eb64679b458d14e30dc5b4365c7305d71cfc4c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e66a2e24d3b1e77d5c790d2f3b7cfdce98fc4cca6e3734ad8b87ac7714192853
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749648"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改格式
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 125cc9dd1fb2ba0d3aeced8018d15e615b5d78e6
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749044"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 

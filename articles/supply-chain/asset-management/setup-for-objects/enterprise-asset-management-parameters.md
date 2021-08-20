@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751953"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 

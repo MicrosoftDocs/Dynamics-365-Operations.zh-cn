@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 7a1865115882d8b9e2beed7bdbc70be3d5118db8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3060f024538725e3a29d0268677c5a74e5e27de92b3157a534763a1d533512f5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768634"
 ---
 # <a name="cost-accounting-service-home-page-private-preview"></a>成本核算服务主页（私人预览版）
 
