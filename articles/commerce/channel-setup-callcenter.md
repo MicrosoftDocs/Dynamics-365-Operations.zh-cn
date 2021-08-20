@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744526"
 ---
 # <a name="set-up-a-call-center-channel"></a>设置呼叫中心渠道
 

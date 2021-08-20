@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742edec8570610efe41a2c627efd1df586e0733e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ded53fd273ace8a6ed7f37219ca50ade329d9f08249596b524b1e3673d6ad547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744814"
 ---
 # <a name="problem-types-for-nonconformances"></a>不符合项的问题类型
 

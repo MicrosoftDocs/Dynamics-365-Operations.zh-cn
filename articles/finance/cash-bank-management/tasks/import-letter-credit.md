@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743113"
 ---
 # <a name="import-letter-of-credit"></a>导入信用证
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b7e9c8981968cbe36070c336d57f0b086b9ab930d0287d11faaeb0f32ee46364
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742871"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 

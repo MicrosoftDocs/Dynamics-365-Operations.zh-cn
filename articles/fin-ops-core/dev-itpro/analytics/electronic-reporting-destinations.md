@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743303"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
