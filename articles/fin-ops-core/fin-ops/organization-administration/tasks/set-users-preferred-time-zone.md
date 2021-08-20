@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede109f42b255008511b6f9a94430fd6ba78e2de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 97f73ef51e3ff3bfdc3a130128cf98e09edd1425f77646bf4e539568cf2c8b05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749428"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>设置用户的首选时区
 

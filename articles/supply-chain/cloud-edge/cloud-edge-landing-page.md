@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780666"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>用于制造和仓库管理工作负载的云和边缘缩放单元
 
@@ -102,7 +102,7 @@ ms.locfileid: "6354801"
 > [!IMPORTANT]
 > 作为服务架构 (IaaS) 运行的环境类型不受支持。 这些环境通常标记有 LCS 中的 **Microsoft 托管** 类型。 如果您拥有此类型的环境，请与您的 Microsoft 联系人合作以了解迁移到 **自助服务** 类型的时间线。
 
-Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转换到在 Service Fabric 中托管的拓扑。 此迁移可以提供更好的可扩展性，并且有助于简化服务管理。 因此，可以更快实现部署和维护操作。 同样，服务组件将迁移到微服务的概念，服务托管模型将从虚拟机 (VM) 模型[转换](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm)到轻型容器化体系结构。
+Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转换到在 Service Fabric 中托管的拓扑。 此迁移可以提供更好的可扩展性，并且有助于简化服务管理。 因此，可以更快实现部署和维护操作。 同样，服务组件将迁移到微服务的概念，服务托管模型将从虚拟机 (VM) 模型[转换](/virtualization/windowscontainers/about/containers-vs-vm)到轻型容器化体系结构。
 
 最终，相同的基于 Service Fabric 的容器化服务基础架构将同时为服务的 Cloud 和 Edge 实例提供支持，而不管实例是 Cloud 中的中心，还是 Cloud 中或 Edge 上的缩放单元。
 

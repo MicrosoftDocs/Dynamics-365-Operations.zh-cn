@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1c395caedfce7efa0a087ff6944052958c72327e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d2b6754dadd3bf6ad797ecf2831c486fc03f64fcc5e0bb570a7adc98ae42d106
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743951"
 ---
 # <a name="set-up-bar-codes"></a>设置条码
 

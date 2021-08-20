@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773281"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
@@ -42,7 +42,7 @@ ms.locfileid: "6336971"
 > [!IMPORTANT]
 > 若要使用全球库存核算，您必须具有启用了 LCS 的高可用性环境（而不是 OneBox 环境）。 此外，您必须运行 Supply Chain Management 版本 10.0.19 或更高版本。
 
-若要注册全球库存核算公开预览版，请将您的 LCS 环境 ID 通过电子邮件发送至[全球库存核算团队](mailto:GlobalInventoryAccounting@service.microsoft.com)。 在您获得该计划的批准后，团队将向您发送一封跟进电子邮件，其中包含全球库存核算测试密钥和您的服务终结点。 收到测试密钥后，您可以[安装加载项](#install)。
+若要注册全球库存核算公开预览版，请将您的 LCS 环境 ID 通过电子邮件发送至[全球库存核算团队](mailto:GlobalInvAccount@microsoft.com)。 在您获得该计划的批准后，团队将向您发送一封跟进电子邮件，其中包含全球库存核算测试密钥和您的服务终结点。 收到测试密钥后，您可以[安装加载项](#install)。
 
 ## <a name="licensing"></a>许可授权
 

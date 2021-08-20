@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66fe9b62c207338c8a34ec49a0299312d9f27c0d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774369"
 ---
 # <a name="cost-accounting-terminology"></a>成本核算术语
 

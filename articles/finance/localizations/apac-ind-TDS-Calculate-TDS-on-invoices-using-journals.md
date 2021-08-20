@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: bc1a8570e60e2b17f27c3e63c5ff847b3cb7a2dd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778885"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>使用日记帐计算发票的 TDS
 

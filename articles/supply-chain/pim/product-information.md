@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db979454527447bd9b070e77234bcb9498dd0a5
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: bee9b122e916b62c88bdb9299e823d58bf5bfa25e3b401638145fc431c98df53
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766018"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 

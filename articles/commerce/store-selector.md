@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b054101d6d177018e54162537cfd756c84b11ae3
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772148"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 

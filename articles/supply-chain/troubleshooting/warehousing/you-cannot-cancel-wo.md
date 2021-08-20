@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e5f6912cfb1d5be8e46b7989856af99f8a611c11
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: 1d7b0140d0c2724234a549ca4dfb23109012654abe0e60fcea1f98e8f17c153a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748683"
 ---
 # <a name="you-cant-cancel-work-that-is-on-a-user"></a>您无法取消用户正在进行的工作
 

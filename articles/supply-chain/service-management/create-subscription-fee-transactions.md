@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49fd0be39c2271f21fcff33c9e53df4b29a6cb1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1060023d278f89cb0bc49e66e3014aabb8177dcb69a345290f705c2e5b99be4c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760964"
 ---
 # <a name="create-subscription-fee-transactions"></a>创建预订费用交易记录 
 

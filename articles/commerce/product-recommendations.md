@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 667c26a8ab7665f9eb1e2cc91217338fc0eb00d6c9c21ba7b4a7e5a203e41410
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763756"
 ---
 # <a name="product-recommendations-overview"></a>产品建议概览
 

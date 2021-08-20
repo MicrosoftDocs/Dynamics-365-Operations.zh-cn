@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780267"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>将工作订单安排到特定日期和时间
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776186"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 919b6f433db47f24adc9a474942557a1467d1f71
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 491803c5f9394f47a996c4e4c7fb8925e9464e644c99e5c1ab434706af6ad74e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756647"
 ---
 # <a name="troubleshoot-outbound-warehouse-operations"></a>出货仓库工序疑难解答
 

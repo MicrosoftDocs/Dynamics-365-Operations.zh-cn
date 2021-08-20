@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e296118b3b806a5267e29c2b2d4d859c1aea1977
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 737c56ab1fe30f7200edf959bd6a039cb62de913e8aa8d11153e9afe89c50eb7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769786"
 ---
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>从交易记录科目和合计科目创建预算
 

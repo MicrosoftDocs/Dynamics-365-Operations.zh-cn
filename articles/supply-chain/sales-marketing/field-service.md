@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761750"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service 集成概览
 

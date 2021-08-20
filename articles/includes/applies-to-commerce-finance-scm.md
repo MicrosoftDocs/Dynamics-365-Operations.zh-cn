@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: abbebfc104f77a234c3bed12e31174b7d7ebbd6a
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 5631cd0a5f0626b107c09a95356841e462721f29e3b77e6e69fa773b322e109d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753412"
 ---
 **适用于以下 Dynamics 365 应用**：<br>
 Commerce、Finance、Supply Chain Management

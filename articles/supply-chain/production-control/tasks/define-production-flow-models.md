@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82d79dc7ae577e837e045b2ea04e423ae622e832
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 548def312e101243877fbb2b3eafc5b756325d820f6dfa6fc53b1e4c2596b81a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779222"
 ---
 # <a name="define-production-flow-models"></a>定义生产流模型
 

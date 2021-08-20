@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766425"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>从 Dynamics 365 Commerce 预配 Microsoft Teams
 

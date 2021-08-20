@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e937361802aa1443f3e2ef9f3bb95d3f4966da7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc29d11b61bf794fe5afc8e0def61a89065a5ef1dea81e3384c1f5a950af281
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748996"
 ---
 # <a name="postdated-checks"></a>远期支票
 

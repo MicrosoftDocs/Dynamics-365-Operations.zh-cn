@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758680"
 ---
 # <a name="service-level-and-description"></a>服务级别和描述
 

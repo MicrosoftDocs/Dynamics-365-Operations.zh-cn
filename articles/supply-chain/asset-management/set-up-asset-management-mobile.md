@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 04188a1b6c65fd2430b34aa6af464c76dbad25feb40f185c261e10896bb2396b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782603"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>设置资产管理移动工作区
 

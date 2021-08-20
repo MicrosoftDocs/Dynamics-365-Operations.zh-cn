@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0f57f3119039337922dcd4035e1c4d64e6ae7295
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2afe967248136e9b658e1ee18053a54ab3f0d325c088a5eb2e522fac335c01f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752451"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>零售商店中的财务对帐
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7240ed69b8f4a27cbd87b0f395615d0ad0746f3a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760530"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>使用 Dynamics 365 Supply Chain Management 的实施项目经理学习目录
 

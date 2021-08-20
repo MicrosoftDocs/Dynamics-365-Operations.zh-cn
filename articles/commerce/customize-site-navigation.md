@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bc50243ac3845adc60bfc173fc532fb28f3cdf6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755874"
 ---
 # <a name="customize-site-navigation"></a>自定义站点导航
 

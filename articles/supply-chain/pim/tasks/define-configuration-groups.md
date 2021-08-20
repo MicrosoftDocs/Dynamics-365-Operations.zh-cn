@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 938e36c59776d0b786725313d2de23d2198da9ab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 25f78d9e817979d4e4d74963e1acedb01a1d3403d09343947338f9f309875a5e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774817"
 ---
 # <a name="define-configuration-groups"></a>定义配置组
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca9ad7bb7a14652f31b3cde4448b983a43436d6c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 5b0de1100d36f8399caf4cf73c1883f25e61e3c66341eb5419e8350b90d2362e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779924"
 ---
 # <a name="subscription-workflow-overview"></a>预订工作流概览 
 

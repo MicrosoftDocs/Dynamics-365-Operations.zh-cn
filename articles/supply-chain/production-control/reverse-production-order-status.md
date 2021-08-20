@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3aa8b8ed35ec489ad48319ec15b66e75f9ab289
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760410"
 ---
 # <a name="reverse-the-production-order-status"></a>冲销生产订单状态
 

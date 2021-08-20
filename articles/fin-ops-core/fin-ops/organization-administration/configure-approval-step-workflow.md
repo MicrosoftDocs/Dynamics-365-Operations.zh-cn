@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5730851bbeeab72d10192b1644bfb7acba65e7cd1a576fe1309c3a71e25477e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764399"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 

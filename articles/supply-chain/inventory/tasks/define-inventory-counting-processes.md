@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4166ffd043db24e814bcb85df07f0b940d5328d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 535fa6cfcf1f966b02ee7b391bb41dcbc2c2ac1fc85bcd09e3811fc027621cc4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755387"
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 

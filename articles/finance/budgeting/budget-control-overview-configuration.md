@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7a1ffa5d0025decf7d8a77e0267d184de2cc956
-ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
+ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6645436"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772871"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 

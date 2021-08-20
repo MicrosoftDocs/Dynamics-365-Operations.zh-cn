@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46d6b7696d606333a170eaa1c06b9e0503ae1e02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33006e86830314a1c92e3ac4ee2ceb2ffb9e362a18066e7300d2608ad215be2f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751066"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>创建 lean manufacturing 的流程活动
 

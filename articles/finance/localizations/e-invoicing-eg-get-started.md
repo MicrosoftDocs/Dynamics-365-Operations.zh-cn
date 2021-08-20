@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 133c47d52bb301f862888c367d19fd58701ecb3c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 03ccc18d4c767dbb2a314e2eb1076b1c6e9019e991c6de3fc80be65d765fdd36
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758792"
 ---
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>开始使用适用于埃及的电子开票
 

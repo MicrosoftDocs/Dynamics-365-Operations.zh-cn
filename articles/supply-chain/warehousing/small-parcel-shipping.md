@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e4682674e6f61b9b75276df57afa522b29b5f052fd8a4c450c7fcfbe79654f90
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780450"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 

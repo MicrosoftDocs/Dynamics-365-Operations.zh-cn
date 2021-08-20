@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: caebd0ba0a3863920c165e1c6a61be35bcaf1e44
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763278"
 ---
 # <a name="create-a-free-text-invoice"></a>创建普通账单
 

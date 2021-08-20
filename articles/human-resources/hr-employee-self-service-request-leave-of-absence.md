@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: b4801fbfbdaf60bd99ef5828dd4bedf728bd0ccb5776f2971b48dde32f135426
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782016"
 ---
 # <a name="request-a-leave-of-absence"></a>申请休假
 

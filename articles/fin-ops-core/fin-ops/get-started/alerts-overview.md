@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f114e6bd04622dcac668d15ad6c55f7de70b4e7e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: d504b751a3a14309ab84192b6af0946018f43b61d8b27d86dd3cbea4299a69ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757235"
 ---
 # <a name="alerts-overview"></a>预警概览
 

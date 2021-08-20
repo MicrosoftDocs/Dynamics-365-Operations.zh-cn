@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bb172d595f7eb1b3c77b002e9f881182b385d49
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 684f3f1601fcc1c71751c71bf26598740269a13e5c04fdfb65f7901c2b52170f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776450"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 

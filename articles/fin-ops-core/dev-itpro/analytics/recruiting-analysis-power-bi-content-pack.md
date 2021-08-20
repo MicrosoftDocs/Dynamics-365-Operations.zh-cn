@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3b0366873b1af7fbf98fe13c971adbec0316f2d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765114"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 

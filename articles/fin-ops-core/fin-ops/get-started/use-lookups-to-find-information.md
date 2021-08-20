@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46ae85fc4f4f305d1ff8063b43aeef51d043742f9860940add0e0dbca02413d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750452"
 ---
 # <a name="find-information-by-using-lookups"></a>使用查询来查找信息
 

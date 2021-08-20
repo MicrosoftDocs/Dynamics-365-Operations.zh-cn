@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef755dd9a44ce24d3bfb2953cf9a52e6a8ac849
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70428b653f1263f5c753e0c2d756238b647fe4ba657add467a0142369bbbdd8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822871"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778306"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>配置成本对象控制器的访问权限
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ba583c2c9bcaaf106af75f8ac41f79bebc2c363
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f082fe4af9c095d841dbcabf85d365a3fbee71b79a7765e39fbe691db7da458e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748385"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771942"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>使用“在新窗口中打开”功能并排显示页面
 

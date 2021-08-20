@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b42dc7766f8a69a7409c28d21b49cc96eca18dd4
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: cf9331e1da54520787686a3f190e2ef6d150c0c10bd521919407f5e6c74551d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774575"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>在销售点 (POS) 启用客户登记通知
 

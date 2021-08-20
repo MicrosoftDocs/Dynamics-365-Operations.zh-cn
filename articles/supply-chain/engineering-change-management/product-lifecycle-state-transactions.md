@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 099e8af88d7f6dfaf6268d0ca73a120487920c4c694dc3f540d7ef6a21ddd730
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6016948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744146"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 

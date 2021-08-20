@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dfff9e4520659ac1a9d0f85dd0e091f9fa5e2528ff092b650296a47aef9ca7b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765847"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>配置和运行作业以过帐报表
 

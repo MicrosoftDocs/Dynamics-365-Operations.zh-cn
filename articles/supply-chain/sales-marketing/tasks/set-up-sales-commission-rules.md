@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f46344dfd816e0960a7a9d74089a493ca5237b95
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07d52e1152275e05e0d4ccc2c8d88818a19866e154f52275a8370606414102af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774697"
 ---
 # <a name="set-up-sales-commission-rules"></a>设置销售佣金规则
 

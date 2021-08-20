@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a6c7b7ee36ae1ea37842aea744fc8601f972d89
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 99647578c11c960cf67439b1cd9994464637feff862d191338811d8ba3e6bef5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759912"
 ---
 # <a name="number-sequences-overview"></a>编号规则概览
 
