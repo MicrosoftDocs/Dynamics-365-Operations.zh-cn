@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9e60a7736bffbaad00905fffafe4c4565dc2257
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 94bdf49fadf04d0233a93e0d4348ceb712450a3b992a11f6012102db6d40abb1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745638"
 ---
 # <a name="suspend-leave"></a>暂停休假
 

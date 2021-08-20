@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b5389b0d5a8ff68a3c16dedd2d8bb62f6e99af4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f4a28b0cf47ec1c2534fc97c4dee6790fa6c51637bddf64caa7147e9ce6d6db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746104"
 ---
 # <a name="troubleshoot-sales-orders"></a>销售订单故障排除
 

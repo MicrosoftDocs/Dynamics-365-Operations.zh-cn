@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9d8889581e2e11fa5261805c866a6014df57611
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748538"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>为 MPOS 和 Cloud MPOS 设置扩展登录功能
 
