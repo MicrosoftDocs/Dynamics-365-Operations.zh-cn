@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9570ce08a87f16327b036ab8225f4ae0c9097e01
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c16d55426dec090947311b485e68010a6e0b8943b67d00da10d4cd24ac214393
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762636"
 ---
 # <a name="assess-sales-performance-by-product"></a>按产品评估销售业绩
 

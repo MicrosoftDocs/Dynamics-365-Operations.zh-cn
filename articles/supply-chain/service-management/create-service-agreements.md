@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2343d60f5960702bc05705ee2dd0994c9e2d4fc1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4daf023cb65cad39eab9e1560a0093e78cada0fbfb993b8db2d182c26f476397
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759399"
 ---
 # <a name="create-service-agreements"></a>创建服务协议
 

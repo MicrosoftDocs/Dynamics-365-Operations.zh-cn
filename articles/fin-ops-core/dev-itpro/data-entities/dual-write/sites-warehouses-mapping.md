@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 574dcb36e48c51ff0f8692b40af3decfc9832580
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: b7c0d8b4108821d1bf0f505f3578cb931781dbb835ae4a2519398a5549584224
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761382"
 ---
 # <a name="integrated-sites-and-warehouses"></a>集成的站点和仓库
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf6c766eefc51155594545e640c96d789621c29
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e458d14986a3b2c649ccb600d33adaeda52d1cbe78667ae7f269cbeb15b6535d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776210"
 ---
 # <a name="set-up-service-intervals"></a>设置服务间隔  
 

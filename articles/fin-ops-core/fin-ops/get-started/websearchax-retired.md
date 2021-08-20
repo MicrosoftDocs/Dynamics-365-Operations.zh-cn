@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 12f74ab741481f078607d1755b40d60b3a551dda
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 720afe9b979128d412fbfa89e45dc7794425164491f7565e5c5548e05d09ba9c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771917"
 ---
 # <a name="websearchax-page-has-been-retired"></a>WebSearchAX 页面已停用
 

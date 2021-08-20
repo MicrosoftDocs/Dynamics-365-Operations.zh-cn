@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf5d56baef7b9daaf8756cdf3a566b353063b51e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a36e04fc14671115c7e74565dc689fca14ecae165ed841d6797dc64cf75ca262
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759081"
 ---
 # <a name="change-the-date-for-a-session"></a>更改会话的日期
 

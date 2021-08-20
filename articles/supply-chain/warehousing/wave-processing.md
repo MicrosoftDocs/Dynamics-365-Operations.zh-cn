@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5d3e8038c4651bb75b3d36ed0d398be0d032b591dedda757d2fc3a6399e512c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773049"
 ---
 # <a name="wave-creation-and-processing"></a>波次创建和处理
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5dbfdef01d098cc1a958b06c55747ff1eead7386
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f244612ee59bf20d33ad9f5967bc7950e71bff7ac928430826f196eee6a0e716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756573"
 ---
 # <a name="digital-asset-management-overview"></a>数字资产管理概览
 

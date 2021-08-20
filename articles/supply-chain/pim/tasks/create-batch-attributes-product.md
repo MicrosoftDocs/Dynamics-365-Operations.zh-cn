@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5deb35028ee499633fb6b0bb5155df2fd91e643a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70141cfd6fd973038b2ac2aa51d1d6d5cc445b4c416d32a30dec120b0929b8da
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762882"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>创建产品的批属性
 

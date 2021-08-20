@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81518cf7e70e8283d55e0b031bb1c48f1fad840f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 24df4ffe5b8af7535611bdf71472bc580ef594e94c96cdafc0e4ec52a5d07c13
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763350"
 ---
 # <a name="credit-and-collections-overview"></a>信用和收款概览
 

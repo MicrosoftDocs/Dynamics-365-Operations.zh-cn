@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 070d8441700cd0051d421ea7e2210bcb668e8c22
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a2af6b4553592099919be19aab62875e43ffdb0838a7e32e90a72283044fa348
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770256"
 ---
 # <a name="create-a-schedule-for-a-site"></a>创建站点计划
 

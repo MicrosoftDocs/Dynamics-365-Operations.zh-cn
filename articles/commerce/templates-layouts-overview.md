@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 02c184ce8690c0000450fa58e03dde9b01c7d91304cfac680a312be90d59a09d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756541"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 

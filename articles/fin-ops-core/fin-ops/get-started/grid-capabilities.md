@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775234"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -158,6 +158,13 @@ ms.locfileid: "5923590"
  ```this.forceLegacyGrid();```
 
 在新网格控件在 2021 年 10 月发布中被强制使用之前，此 API 一直可以使用。 如果有任何问题需要使用此 API，请向 Microsoft 报告。
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>在之前选择退出网格后，强制页面使用新网格
+如果您从使用新网格的过程中已选择退出单个页面，您可能需要稍后在解决基本问题后重新启用新网格。 要执行此操作，您只需删除 `forceLegacyGrid()` 调用即可。 除非发生以下任一情况，否则更改不会生效：
+
+- **环境重新部署**：更新和重新部署环境后，系统会自动清除存储了已选择退出新网格 (FormControlReactGridState) 的页面的表。
+
+- **手动清除表**：对于开发方案，您需要使用 SQL 清除 FormControlReactGridState 表，然后重新启动 AOS。 此操作组合将重置已选择退出新网格的页面缓存。  
 
 ## <a name="developer-size-to-available-width-columns"></a>[开发人员]尺寸到可用宽度列
 如果开发人员将新网格内的列的 **WidthMode** 属性设置为 **SizeToAvailable**，这些列的初始宽度会与将此属性设置为 **SizeToContent** 时的宽度相同。 不过，它们会拉伸以使用网格内任何可用的额外宽度。 如果将多个列的此属性设置为 **SizeToAvailable**，所有这些列将在网格内共享任何可用的额外宽度。 但是，如果用户手动调整这些列中一个列的大小，该列将变为静态。 它将保持该宽度，不会再拉伸，占用可用的额外网格宽度。  

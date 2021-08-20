@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c35ff67d90860bef82130f61eeec0af94fe0f2e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e36ccd7b1c0b1902e3631379d71e681e533fa3a6103cc59a3ec65731c4e6326f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775595"
 ---
 # <a name="create-a-requisition-for-consumption"></a>创建消耗量申请
 

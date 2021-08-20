@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a71b24b0c2ea072aeff8c994cfdac10bc57b64c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffd50104c13972f8d15d3260600ea239d16284447c76d984e78f4aaa4bc08cab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765708"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>更改多项固定资产的折旧惯例
 

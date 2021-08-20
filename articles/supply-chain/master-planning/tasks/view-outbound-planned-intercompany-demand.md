@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2eb361e1c1d18369d6b945ec18a7e3a6a1ebfb97
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3529c65944d1563f107d0186aa314a178eb1ee6a9e2898d2810ba110cc6d1c46
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755267"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>查看传出计划内部公司需求
 

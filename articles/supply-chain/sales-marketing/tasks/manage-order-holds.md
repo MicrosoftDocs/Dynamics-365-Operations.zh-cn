@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0a6acbc55a69f854463e72391fb0fff4dfb459c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 38e5ea0dcec84704c9674412d12d0e857459975b3e928467a76e9fa677f6cbc1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771291"
 ---
 # <a name="manage-order-holds"></a>管理订单保留
 

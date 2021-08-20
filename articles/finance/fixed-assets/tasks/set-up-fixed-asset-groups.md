@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c1b97193f09cfbb943522ca7af6bace9a14d9cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 04a054fb0233a9f47fd8df38cf0bd60d0662bae80c433d7f2f8ed21c0f1bfdf8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771672"
 ---
 # <a name="set-up-fixed-asset-groups"></a>设置固定资产组
 
