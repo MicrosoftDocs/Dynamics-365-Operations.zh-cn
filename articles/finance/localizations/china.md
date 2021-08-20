@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 903ec78c9f0f5521f9d0282914e23f235d95c3f4
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2ae2cb32702ba93c5862bb07c37fa58c6df0f8c21fb2d467b9fd1c20a5ad1ed4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781695"
 ---
 # <a name="china-overview"></a>中国概览
 
