@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76919c6289fe0c2367cedecc64bbdae9ee86e63
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9f8da50ad6912b5b8815a0e5774268b40c2be87663dd9c4fc4757b84ee9476fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769762"
 ---
 # <a name="position-forecasting"></a>职位预测
 

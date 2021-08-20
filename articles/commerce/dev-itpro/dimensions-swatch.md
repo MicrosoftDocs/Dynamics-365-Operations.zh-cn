@@ -2,7 +2,7 @@
 title: 将产品维度值配置为作为样本显示
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 总部中将产品维度值配置为样本。
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764606"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>将产品维度值配置为作为样本显示
 
@@ -46,7 +46,7 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>在 Commerce headquarters 中启用将维度显示为样本功能
 
-要在 Commerce headquarters 中启用将维度显示为样本功能，转到 **工作区 \> 功能管理**，打开 **为产品维度值启用图像支持** 功能。 此功能标志启用后，将在 Commerce headquarters 中的相应表中为每个维度添加三个新字段：**Hexcode**、**URL**（图像）、**RefinerGroup**。
+要在 Commerce headquarters 中启用将维度显示为样本功能，转到 **工作区 \> 功能管理**，打开 **启用将维度显示为样本的机制** 功能。 此功能标志启用后，将在 Commerce headquarters 中的相应表中为每个维度添加三个新字段：**Hexcode**、**URL**（图像）、**RefinerGroup**。
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>在 Commerce headquarters 中配置维度值
 
@@ -125,9 +125,22 @@ Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变�
 
 此外，您应该为搜索结果模块启用 **在搜索结果中包括产品属性** 属性。 如果您的站点使用自定义类别页面，您应该更新在这些页面上使用的搜索结果模块，以启用 **在搜索结果中包括产品属性** 属性。 有关详细信息，请参阅[搜索结果模块](../search-result-module.md)。
 
+## <a name="inventory-awareness-on-swatches"></a>样本库存意识
+
+样本具有显示产品变型颜色或维度的库存可用性的可选功能。 例如，一种产品以多种尺寸出售，但某些尺寸却缺货。 在这种情况下，系统会以不同方式呈现库存不足产品的样本以指示它们缺货。 此功能有助于减少确定产品可用性所需的客户单击次数。
+
+样本库存可用性功能可以配置为在 PDP 和显示样本的搜索或类别列表页面上使用。 若要激活它，您必须在 [媒体库模块](../media-gallery-module.md)中将 **更新维度选择的媒体** 设置为 **True**。 该设置允许在选择维度时更新媒体库图像。 
+
+> [!IMPORTANT]
+> 样本库存可用性功能从 Commerce 版本 10.0.21 版开始可用。 它要求安装 Commerce 模块库包版本 9.31。
+
+下图显示了有关 PDP 大小样本的库存意识的示例。
+
+![有关 PDP 大小样本的库存意识示例](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>在 POS 和其他渠道中显示样本
 
-Commerce 目前没有支持在销售点 (POS) 和其他渠道中显示样本的现成实现。 不过，您可以将样本显示功能作为扩展来实现，使渠道 API 返回呈现样本所需的十六进制代码和图像 URL。
+Commerce 目前没有支持在销售点 (POS) 和其他渠道中显示样本的现成实现。 不过，您可以将样本显示功能作为扩展来实现，因为渠道 API 返回呈现样本所需的十六进制代码和图像 URL。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: dbb81929538ac93ba970e1a8f0a21a2787efb0b65e827d1b90d231860d4f6662
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920549"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764075"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>为电子采购发包设置外部目录
 

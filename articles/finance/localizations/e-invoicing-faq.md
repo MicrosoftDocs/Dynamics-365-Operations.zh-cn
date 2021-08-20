@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0b3bd48cbc1ce5f236f51b79b8235d6b7c3890c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770504"
 ---
 # <a name="electronic-invoicing-faq"></a>电子开票常见问题
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45f6942c99e03a5abf6de736f1adb0b4e232783f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 10b0397016bfb03dfc59a09f0b36ea1c87b6a75981609733dfbeb48d89637904
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760458"
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 

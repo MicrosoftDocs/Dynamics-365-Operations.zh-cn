@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: b9279c264294d95c2a06f9614189b26ce8f78566
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ec52495fba19c69a22d6403ed15cbe33fca542cd5476b5560033e7798f72383
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779852"
 ---
 # <a name="ledger-settlements"></a>分类帐结算
 

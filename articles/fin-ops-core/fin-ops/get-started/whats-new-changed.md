@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 3fa57f23ac156962911887a4cbab2cf6af7a1a4c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759177"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
 

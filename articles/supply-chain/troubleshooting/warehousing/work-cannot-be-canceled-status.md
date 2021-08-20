@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60b4da44ca5e6790302e0797640317cef8493db7
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: f983501b490c5516525b4d5904603ed62e8799f9e6124e5672b36a12804ecb0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755970"
 ---
 # <a name="work-cant-be-canceled-because-of-its-status"></a>工作由于其状态无法取消
 

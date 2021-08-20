@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 62b5890f02b6b9598ba5a87e25745fa7633df769
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f74692ffe8afbdeea7519ac8bdfbbe54105b9ccee83031a9b1c223be78fc12e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770400"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources（2020 年 2 月 18 日）中的新增功能或更改
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771648"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>总帐的外币重估
 

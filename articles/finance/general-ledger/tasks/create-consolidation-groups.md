@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c60b09fd0481c84a9c3a3eb35b66264d92d00eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0f146eca39ef3aa690eb69283371d40c5c6d439bd868f1aa4763ffa76c8f682
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757041"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>创建合并组和其他合并帐户
 

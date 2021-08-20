@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 0758997163e0bba6b81193ffade23e16a375a55d
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 6ab0f2be9761e167acd821ed499891d5c37abe72649e56dd6c5c6077780c6e5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758146"
 ---
 # <a name="ax-40-content-that-has-been-retired"></a>AX 4.0 内容已停用。
 
