@@ -2,7 +2,7 @@
 title: 财务报告常见问题解答
 description: 本主题提供有关财务报告的一些常见问题的解答。
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733603"
 ---
 # <a name="financial-reporting-faq"></a>财务报告常见问题解答
 
@@ -77,5 +77,29 @@ USMF 演示公司有一个 **资产负债表** 报表，并非所有财务报告
 
 - 通过转到 Report Designer 中的 **工具 \> 集成状态**，查看数据的集成状态。 如果集成未完成，请等待它完成。 然后，在收到消息时重试所执行的操作。
 - 联系支持人员以确定并解决问题。 系统中可能存在不一致的数据。 支持工程师可以帮助您确定服务器上的问题，并找到可能需要更新的特定数据。
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>选择历史利率转换对报表绩效有何影响？
+
+历史利率通常用于留存收益、财产、工厂和设备以及所有者权益科目。 根据财务会计标准委员会 (FASB) 或公认会计准则 (GAAP) 的指导，可能需要历史利率。 有关详细信息，请参阅[财务报告中的货币功能](financial-reporting-currency-capability.md)。
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>存在多少种类型的币种汇率？
+
+一般存在三种类型：
+
+- **当前利率** - 此类型通常用于资产负债表科目。 它通常称为 *即期汇率*，可以是当月最后一天或其他预先确定日期的汇率。
+- **平均利率** - 此类型通常用于利润表（损益）帐户。 您可以设置平均利率以进行简单平均或加权平均。
+- **历史利率** – 通常用于留存收益、财产、工厂和设备以及所有者权益科目。 根据 FASB 或 GAAP 准则，可能需要这些帐户。
+
+## <a name="how-does-historical-currency-translation-work"></a>历史币种如何进行转换？
+
+利率特定于交易日期。 因此，每项交易都是根据最接近的汇率单独换算的。
+
+对于历史币种转换，可以使用预计算的期间余额，而不是单项交易的详细信息。 此行为不同于当前利率转换的行为。
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>历史币种转换如何影响绩效？
+
+更新报表上显示的数据时，可能会出现延迟，因为必须通过检查交易详细信息来重新计算金额。 每次更新利率或过帐更多交易时，都会触发此延迟。 例如，如果每天多次设置数千个帐户进行历史转换，可能在经历长达一小时的延迟后，报告上的数据才会更新。 但是，如果特定帐户的数量较少，则更新报表数据所需的处理时间可以缩短至数分钟或更少。
+
+同样，当使用历史类型帐户的货币转换生成报表时，将需要对每笔交易进行额外的计算。 根据帐户数，报表生成所需时间可能延长一倍以上。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

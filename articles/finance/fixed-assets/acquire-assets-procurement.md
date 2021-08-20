@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dcf5088e0c2d61b453f374c73b66843f74e98d1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b1834f0087931760d223a018c93decdea1ddfddca219fdca57c97181d37084c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727999"
 ---
 # <a name="acquire-assets-through-procurement"></a>通过采购获得资产
 

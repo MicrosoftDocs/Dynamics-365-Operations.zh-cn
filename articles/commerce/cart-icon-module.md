@@ -2,7 +2,7 @@
 title: 购物车图标模块
 description: 此主题介绍购物车图标模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6637993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735670"
 ---
 # <a name="cart-icon-module"></a>购物车图标模块
 
@@ -35,9 +35,14 @@ ms.locfileid: "6637993"
 
 ## <a name="module-properties"></a>模块属性
 
-- **显示迷你购物车** – 如果为 true，此属性用于启用将鼠标光标悬停在购物车图标上方时显示的购物车摘要（迷你购物车）。 只有桌面视图端口中才支持此功能。
+- **显示迷你购物车** – 如果将此属性设置为 **True**，当用户将鼠标悬停在购物车图标上时会显示购物车摘要（迷你购物车）。 只有桌面视图端口才支持此功能。
+- **允许匿名签出** - 当此属性设置为 **True** 时，这款小型购物车允许未登录的用户进行来宾签出。 作为 Commerce 模块库包的一部分，此属性在 Commerce 版本 10.0.21 版中可用。
+- **物料顺序** - 此属性控制在小型购物车中显示物料的顺序。 选择 **添加到列表顶部的新物料** 选项后，添加到购物车的新物料将显示在小型购物车物料列表的顶部。 选择 **添加到列表底部的新物料** 默认选项后，添加到购物车的新物料将显示在小型购物车物料列表的顶部。 作为 Commerce 模块库包的一部分，此属性从 Commerce 版本 10.0.21 版起可用。
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Adventure Works 主题中的模块属性
+> [!IMPORTANT]
+> 自 Commerce 版本 10.0.21 版起，**允许匿名签出** 和 **物料订单** 属性可用。 它们要求安装 Commerce 模块库包版本 9.31。
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Adventure Works 主题中的模块属性和插槽
 
 在 Adventure Works 主题中，购物车图标模块包括两个额外的迷你购物车插槽。 这些插槽作为模块定义扩展包含在内。
 

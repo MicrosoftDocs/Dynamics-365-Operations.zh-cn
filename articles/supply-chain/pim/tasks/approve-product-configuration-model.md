@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 208dd55720a54ef1516f2691811ff9c86e5b132d3e5c459a048f5889faec24fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735175"
 ---
 # <a name="approve-a-product-configuration-model"></a>审核产品配置模型
 

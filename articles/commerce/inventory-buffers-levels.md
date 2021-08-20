@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727525"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>配置库存缓冲区和库存级别
 

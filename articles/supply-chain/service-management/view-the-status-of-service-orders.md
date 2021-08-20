@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61486ca37de890dd990f2f36a2d3d3f228b63758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1daeb8d850d5dc063e5c3f33a2ccb76428ff261ccd65fc05b2f84beef1ce97ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726601"
 ---
 # <a name="view-the-status-of-service-orders"></a>产科服务订单的状态 
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 55a1756b4114e2a7f6e2ff2479b78c8215390262
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5ab9b8555f88fc598e5c7f831ed15e350976f5659bdc32892de603187a8a5f0b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731635"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce 功能顾问学习目录
 

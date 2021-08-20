@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 311c894d709985d0d053b0ec3a317142aa582c39
-ms.sourcegitcommit: eceae470f4ae58000ec33fea34db34b7a7a1af43
+ms.openlocfilehash: cdb2d119e9b49887bb66fa737f97c3d91e5b793ceea1b2389072a02b5c463ba9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "6273121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726842"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>全球库存核算支持的业务单据
 

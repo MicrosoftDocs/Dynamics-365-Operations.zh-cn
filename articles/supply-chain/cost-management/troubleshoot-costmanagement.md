@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7677878e0232b3c33301216aac4655c3dc00469d6149ffec637f0118274e5012
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735271"
 ---
 # <a name="troubleshoot-cost-management"></a>成本管理疑难解答
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ce655cc85212699864e0ac4430ce79f24d2563a8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dada2f9a3ae13f41b7f63d1f0907002860d0717ff9d8c2453fc6f3ad123cbf78
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736735"
 ---
 # <a name="costing-parameter-values-setup"></a>成本计算参数值设置
 

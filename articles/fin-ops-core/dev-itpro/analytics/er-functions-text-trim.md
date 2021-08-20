@@ -3,7 +3,6 @@ title: TRIM ER 函数
 description: 本主题提供有关 TRIM 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93b08792a7aab7245d0443da05e0330bf8b2d56e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ba47df2b5f06b979436339e414e9e0cf7d9fd0358d8c9055c1591923b5d9c517
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734736"
 ---
 # <a name="trim-er-function"></a>TRIM ER 函数
 

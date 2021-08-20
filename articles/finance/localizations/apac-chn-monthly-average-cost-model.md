@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: add6185bc9d321becec1d255969bef269d226443
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 58647fd0bec1eec9e642c2daf679a614b4c9af0232d74ee08521cca8bb62dd5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736134"
 ---
 # <a name="monthly-average-cost-model-for-china"></a>中国的每月平均成本模型
 

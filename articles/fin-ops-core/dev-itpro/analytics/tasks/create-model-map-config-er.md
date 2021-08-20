@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a614ce0f055691e36c1aab5d84d4fc3355026f1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da00af487e3d85edf2401e71678d7a9fc621a672e2ba477f3195f8a06d5419b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735542"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>创建电子申报 (ER) 模型映射配置
 

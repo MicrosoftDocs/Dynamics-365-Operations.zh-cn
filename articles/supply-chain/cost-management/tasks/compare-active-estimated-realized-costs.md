@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c77f7ba17d263c61719f3eaeeadd95ca7700286
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: daf073c9d56c1ed329f472ecc50014387d137502e63742a8406ff53b4a42e820
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735319"
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>比较生产订单上的有效、估计和实际成本
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc8c904daf3d3fd84630d73be479734c487fdbc0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 69d215bd5332555f0df31faa9ea019a819db6565dd6a7c8d68b22bbe46d31898
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722999"
 ---
 # <a name="manage-email-templates"></a>管理电子邮件模板
 

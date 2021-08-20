@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 36d75451ca31f6b3e14fc1cbd8dd9f886e454c4a0dbadcae9524b556623d72ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727814"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 

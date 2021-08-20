@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
-ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
+ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "6224530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735622"
 ---
 # <a name="upload-videos"></a>上传视频
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 100adef4dfd257ba86dd394b401766d2cb00394c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cda9da1a084bf3c04aef6911516ebee0facf1be61e94bfc1abab95e9dee75475
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729451"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>采购工作流故障排除
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 550e094fd34bfbdc66665be2ceed306de722c0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ca6c89f5f6dc4660a77587112526a6516f683f64ce95a9a83f39add119d2ee12
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731387"
 ---
 # <a name="go-live-faq"></a>实施常见问题 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 351c5a6624f7ee912c507a9f74324f4c8f61166b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 16d76d243779f83646f14418a12c9c895fdf043451d82bd7062289be6cd8014a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728714"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER 设计域特定数据模型
 

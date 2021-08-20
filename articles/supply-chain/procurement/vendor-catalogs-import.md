@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ee709d72098b4304cf7748cae1a328736fa16188
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5114a512da1024029ac72cd919bd99e11cb863f2d52d101bd4527996da9011f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730242"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 

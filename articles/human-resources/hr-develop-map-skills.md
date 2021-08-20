@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 03b7860fbde89097141cfe48f2c240dc127aa9c3
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: d16607ca76816e0751ed8a3f9ad1757e7e193309dc426625b0830b8c6c71b20c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732193"
 ---
 # <a name="map-skills"></a>映射技能
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: f3a5777196317b59c67b872822594f776782b3dde890581723cfb9c292e3495d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735984"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 

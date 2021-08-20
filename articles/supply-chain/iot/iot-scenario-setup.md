@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 9a45ed57f1fb5e4d508c30b2f3a83dafacfb7dd870701a8f519bbc1e807ed982
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736785"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 

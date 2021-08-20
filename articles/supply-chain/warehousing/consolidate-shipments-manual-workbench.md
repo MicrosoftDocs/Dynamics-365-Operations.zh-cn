@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 29dd403ce2378beb6f4ba71a0b3c0836eed7566a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4234cbe591079daf45aef6309cc84da16246ba6461a513b93589b2e1e6bf28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728427"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>使用装运合并工作台合并装运
 

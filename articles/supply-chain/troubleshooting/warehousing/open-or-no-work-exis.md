@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: beef0909d41e69f3e7bcc1021527be35b7e6fd44
-ms.sourcegitcommit: c2c6d687a89bc1534c029109315c23e92865b63b
+ms.openlocfilehash: 59def4427f9fff32fd3839bb9f9b5d5cccdc7720f92a84f1af3adad596d8b352
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2021
-ms.locfileid: "6123835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730050"
 ---
 # <a name="you-cant-confirm-a-shipment-because-of-incomplete-or-missing-work"></a>由于工作不完整或缺失，您无法确认装运
 

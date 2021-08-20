@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: bb7a1b1b18c52ce03f6e343971a753dda5373172f90863db565f769269f47a6d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734395"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>移动平均回退成本序列
 

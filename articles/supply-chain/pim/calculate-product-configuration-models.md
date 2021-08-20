@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d13702dad170285951f980d9a19ad04bd7cf9d90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8ae7289031e8952bd9ea396c807e7136b70ef34afd0cb6c26adf57d515c90b4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730338"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 

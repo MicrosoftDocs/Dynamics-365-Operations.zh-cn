@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: e479c7686ab9445b012d335ddc9fc4cdc6b2275c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a84751da6e9303ed9ffe0f0b5aa6c12512e0fa624a5a2e0c7d85ebbffad0669a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726577"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA 原产地认证
 

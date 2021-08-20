@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 135d74d70023fbe1f52b292c09733e77baa14003
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c61fa41f5502750c07e773568e65cc03df86fa6af4878de7d2c956317a15d495
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724980"
 ---
 # <a name="analyzing-questionnaire-results"></a>分析调查表结果
 

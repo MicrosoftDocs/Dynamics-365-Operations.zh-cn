@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
-ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
+ms.openlocfilehash: 73da1fff8f79b4fcde38f9da643b8a3479247959f763976d782279e4e2af7a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6657111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729906"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 
