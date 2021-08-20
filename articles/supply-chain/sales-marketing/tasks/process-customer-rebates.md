@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: 450d630c133f2ef9ce10bbf199c3c125a9cdf4bc09d23180f956190096265654
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779582"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 

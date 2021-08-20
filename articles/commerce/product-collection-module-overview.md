@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 206f0096f481fc37d05a8258535c016e2834e732
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ea2cd8c168cef40099f611a25367b13247a331b95deea12ff63ca5dd15bc4df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763804"
 ---
 # <a name="product-collection-modules"></a>产品集合模块
 

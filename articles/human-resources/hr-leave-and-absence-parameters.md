@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c3a3f4a8a1fa0b5dbc4869f81f091cc66437e978
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777951"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>配置休假和缺勤参数
 

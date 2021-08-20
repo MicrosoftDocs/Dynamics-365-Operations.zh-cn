@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: f73e163084ec2870d01cc063c63246a4480fd3a056d04617771b955477325671
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782483"
 ---
 # <a name="category-requests-from-vendors"></a>供应商的类别请求
 

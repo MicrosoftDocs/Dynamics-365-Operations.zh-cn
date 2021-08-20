@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a926adcc631ec286f37796713466eb0144494c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 92bc11b605f7061263b6cd783a4718a11d8d9b5796797b83104c3aba6e340e10
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779876"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>平衡单位间核算的日记帐
 

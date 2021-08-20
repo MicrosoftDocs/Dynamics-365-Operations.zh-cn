@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758280"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 

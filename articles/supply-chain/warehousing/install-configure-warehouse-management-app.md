@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782339"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 

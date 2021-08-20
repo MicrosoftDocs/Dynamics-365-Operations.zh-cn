@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d3f9fc1fb7724632dbc9c4c3e1e28c6e85eaf61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777280"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>使用供应商发票的 AP 中的重要发票数据
 

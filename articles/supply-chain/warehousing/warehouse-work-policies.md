@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1d7f00891925a5c313d0d86dddaba4b7da335ad534b682473446abd2617e9937
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773073"
 ---
 # <a name="work-policies"></a>工作策略
 

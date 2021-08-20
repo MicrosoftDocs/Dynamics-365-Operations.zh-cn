@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9196e9c4ce1a8aa629400b8bf379e7164a797b85
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 52b42bd0b97564a493a50331d1424ca8084b389b29518f012f443d9cf722efe7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763907"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>包括容器重量和负荷的体积
 

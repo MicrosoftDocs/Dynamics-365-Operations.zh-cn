@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fa80610f35bd46ed130a99abd4448ab51ac6ccfd3fb77f55dbbab0cd1734446d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780618"
 ---
 # <a name="outbound-process-overview"></a>出站流程概览
 

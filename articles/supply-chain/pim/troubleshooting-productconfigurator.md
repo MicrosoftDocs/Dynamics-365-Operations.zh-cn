@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77d0c21fbb5a8479ca5e7bdb759c1373b6b255a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f09ca4e69ca4bd3e87ee425c483b7a338045a0f28312a92b154fa07eb125927a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772488"
 ---
 # <a name="troubleshoot-the-product-configurator"></a>产品配置器疑难解答
 

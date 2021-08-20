@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4315de48cbb5a84680724614ecbeab729cd29567
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: d16fb38766f5c4208d9658b9e7f61b1c39031b3a132db1412622be693096b14f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778023"
 ---
 # <a name="award-type"></a>奖励类型
 

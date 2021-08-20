@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2d5aa55b0e7a4e462ecf6e6ffcc5abb78951491
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758985"
 ---
 # <a name="create-an-operating-unit"></a>创建运营单位
 

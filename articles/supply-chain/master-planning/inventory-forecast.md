@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757798"
 ---
 # <a name="inventory-forecasts"></a>库存预测
 

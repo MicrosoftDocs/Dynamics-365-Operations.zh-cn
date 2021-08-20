@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4112605c605209134cc41170c1f236804533f4aa
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775210"
 ---
 # <a name="asset-leasing-home-page"></a>资产租赁主页
 

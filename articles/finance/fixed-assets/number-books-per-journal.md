@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d8c6a3aab9063e1f2143c10f9e442001660dc121bfee0b3b2c9e17ade5f762e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767024"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2031fcedc978a198a244908951679d6f70e9cb90
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 26e9d4796e1820b859f35d0baef516b463c7145c2b9e8dc1824d3cf12a9ec035
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314330"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775033"
 ---
 # <a name="process-type"></a>流程类型
 

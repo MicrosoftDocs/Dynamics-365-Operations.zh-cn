@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4642a8912ea3794b2dc3c7c58ee771128b0f2174
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06ec6e16bad20b150e45fd954d79d697facf19d4d742f4226962a594fcc5a8f5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778546"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>设置表示客户站点中对象的模板 
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774501"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 

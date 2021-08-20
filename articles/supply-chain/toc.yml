@@ -72,6 +72,8 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21（2021 年 10 月）
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19（2021 年 6 月）
@@ -248,7 +250,7 @@
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 设置电子开票
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 电子开票常见问题
+                    - name: 电子开票常见问题解答
                       href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 税款计算
                   items:
@@ -262,7 +264,7 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 使用扩展在税务集成中添加数据字段
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 多个增值税登记编号
+                    - name: 多个 VAT 登记编号
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 设置用于主数据查询的环境
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: 开始使用计划优化
                   href: master-planning/planning-optimization/get-started.md
+                - name: 计划优化发布流程和发布历史
+                  href: master-planning/planning-optimization/release-process.md
                 - name: 计划优化适应分析
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: 计划优化未使用的参数
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: 覆盖时限
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: 净需求和计划优化限定标准信息
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: 审核计划订单
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: 确认计划订单
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: 与内部供应链客户协作
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: 净需求和内置主计划限定标准信息
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: 预测
               items:
                 - name: 需求和供应预测
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: 创建询价
                   href: procurement/tasks/create-request-quotation.md
+                - name: 询价的密封投标
+                  href: procurement/sealed-bidding.md
                 - name: 创建使用询价的申请
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: 创建询价的计分方法
@@ -2281,7 +2291,9 @@
               href: engineering-change-management/product-readiness.md
             - name: 发布产品结构
               href: engineering-change-management/release-product-structure.md
-            - name: 工程更改管理常见问题
+            - name: 生成工程产品的变型
+              href: engineering-change-management/engineering-variants.md
+            - name: 工程更改管理常见问题解答
               href: engineering-change-management/change-management-faq.md
         - name: 生产控制
           items:
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: 设置和配置返点管理模块
               items:
+                - name: 启用系统返点管理模块
+                  href: rebate-management/rebate-management-enable.md
                 - name: 返点管理参数
                   href: rebate-management/rebate-management-parameters.md
                 - name: 返点管理交易工作流
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 处理、审核和发布返点
               href: rebate-management/process-review-post.md
+            - name: 使用扣缴工作台管理扣缴
+              href: rebate-management/deduction-workbench.md
         - name: 销售和市场营销
           items:
             - name: 销售和市场营销概览
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: 处理上/下级交易
               href: landed-cost/over-under-transactions.md
+            - name: 要储存的更新追踪信息
+              href: landed-cost/update-tracking-putaway.md
             - name: 到岸成本查询
               href: landed-cost/landed-cost-inquiries.md
             - name: 到岸成本报告
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: 系统导向的群集领料
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: 超出销售订单和转移单需求的领料
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: 设置不同的包装和存储尺寸
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: 批次和牌照确认
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: 仓库管理
               items:
+                - name: 由于客户处于暂停状态，无法确认装运
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: 由于负荷行数量为零，无法确认装运
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: 无法更新负荷行，因为已发放的数量将为负数
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: 取消的物料收货不会将交易状态更新为已登记
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: 实际更新数量的小数四舍五入不正确

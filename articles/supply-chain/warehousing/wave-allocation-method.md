@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b01de3c9f1cbcb24abc2b5a0c91db7f0791020bf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c534f5e10f5797543d56ff4a5a7ada937edcb017228ebe395ae8a45efa10886
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781313"
 ---
 # <a name="wave-allocation"></a>波次分配
 

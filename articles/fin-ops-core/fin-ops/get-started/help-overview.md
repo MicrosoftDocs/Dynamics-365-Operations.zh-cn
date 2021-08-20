@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: 4489cb2ba2f793066a0fdfb5906bd7232ecd970b9b9d0c04e95f4f69711290c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776569"
 ---
 # <a name="help-system"></a>帮助系统
 

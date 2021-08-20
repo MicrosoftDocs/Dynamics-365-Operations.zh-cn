@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cdd0a1b6d022c958e00a1ba8fa87a8715ff88ce5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513d74af52c9b3581827b653d58c95d7d1f2f78a75bea03296495fed0ea85de7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771123"
 ---
 # <a name="change-work-pool-on-work"></a>更改工作的工作池
 

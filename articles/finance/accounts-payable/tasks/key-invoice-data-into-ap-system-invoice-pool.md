@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777256"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>使用发票池将发票数据键入 AP 系统
 

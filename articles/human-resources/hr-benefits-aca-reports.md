@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1091460ee1996b944b760f3771007bd2a26666a9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 498705b86b705c70e7e84e3a03e459d02dfcb88f5cfbd4b7ef27e18173c2a1e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774166"
 ---
 # <a name="generate-aca-reports"></a>生成 ACA 报表
 

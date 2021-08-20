@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: c7de5e6b8c4111b13585cf0f3c58a8f78eb18f73c01294f660b106e13774848f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756345"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 

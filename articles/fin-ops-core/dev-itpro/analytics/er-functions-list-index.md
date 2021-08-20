@@ -3,7 +3,6 @@ title: INDEX ER 函数
 description: 本主题提供有关 INDEX 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 05/20/2021
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a0fdb8958670efe8e2a37cee183bf836fa6c7e8
-ms.sourcegitcommit: 047b0503868cc7d7b21868e24405d76af35db747
+ms.openlocfilehash: e68f1690d6f852b0db560ef67a36fbde9e099715942a4b8a6e486d759af46682
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755771"
 ---
 # <a name="index-er-function"></a>INDEX ER 函数
 

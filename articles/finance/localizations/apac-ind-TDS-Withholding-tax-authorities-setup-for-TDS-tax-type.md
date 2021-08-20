@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d9cecb3598e0686192d394903e8bb58d304a7665
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: aff7c932a1395393935819dee1f342d2abdc75169bb68c6c6776edc1c5b2a3bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758817"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金主管机构
 

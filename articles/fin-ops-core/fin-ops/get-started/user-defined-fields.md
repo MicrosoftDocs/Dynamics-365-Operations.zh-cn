@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: b15b25ac172e8ab942e950c9e8c4aff1e26c9291
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: c941fa30662ed54159e303bf2a944026900d8c04107bc800d109a80d9ef456a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760702"
 ---
 # <a name="create-and-work-with-custom-fields"></a>创建并使用自定义字段
 

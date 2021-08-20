@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 88e93e7a363bf5db3d25d7fe6a0ab390f79912b0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778668"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>具有需求预测的主计划
 
