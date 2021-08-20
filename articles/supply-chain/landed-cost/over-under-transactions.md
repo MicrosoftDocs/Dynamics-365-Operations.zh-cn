@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 53b1ebf27a58b1c16c6c249ca044fd746cce1436
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ef9575d2b6dbb5c12912624544cb4a3508601237e6f49150d13b31786bb76877
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777927"
 ---
 # <a name="overunder-transactions"></a>超过/低于交易记录
 

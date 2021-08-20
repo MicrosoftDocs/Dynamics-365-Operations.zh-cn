@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 9ee38138914ba0a33891083bae00fd582943bc30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4c79115dbe3a38cf4e772f9025f52bbf3b5b350bea4d55dd32e9ad6b01d2cfd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779630"
 ---
 # <a name="bom-calculations"></a>BOM 计算
 

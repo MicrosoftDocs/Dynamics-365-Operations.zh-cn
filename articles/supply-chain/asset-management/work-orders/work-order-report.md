@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d2aff88880f27d50f3795e97aadf95a86a90cab
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3686629af4116df6fc7ea530216ec0d12ecd60bab8f7150e0d2a3917bc12adaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780238"
 ---
 # <a name="work-order-report"></a>工作订单报告
 

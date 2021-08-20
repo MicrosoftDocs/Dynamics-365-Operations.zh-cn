@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9c43d59e8022a365853f4b9cbb32ac3c3074e3f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 895126d9c80c2eb6328c5c6c24140d1a7dc0818762f3f93c737a7858843d3eb7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780020"
 ---
 # <a name="troubleshoot-discrete-manufacturing"></a>离散制造疑难解答
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a2b6f1c3d98ca8265dea83bde4bc5e7d677da3d88533d39fe06a49a61cb1b9ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771411"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 

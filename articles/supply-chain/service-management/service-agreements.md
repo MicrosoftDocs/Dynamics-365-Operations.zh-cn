@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94b61cc9ade04affd6199a07cd283cf7de3cbece
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e90161e7fa599fc76013277d3c80919fc144b77d3477e5d0318bdb5ef6da422c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771243"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>制定和建立服务协议概览
 

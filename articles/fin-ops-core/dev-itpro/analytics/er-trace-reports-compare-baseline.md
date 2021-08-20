@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: e4245f5951cc4891b378f2343a1563ced33bc937
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769916"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>跟踪生成的报表结果并将其与基准值进行比较。
 
