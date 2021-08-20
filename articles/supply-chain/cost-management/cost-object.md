@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4590a1c1761d72472ec681be0cc3fbd098957d42
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7a835f699a8f412cf15dc528c11d2bfcbf7988985eea21386e92994c66259094
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781601"
 ---
 # <a name="cost-objects"></a>成本对象
 

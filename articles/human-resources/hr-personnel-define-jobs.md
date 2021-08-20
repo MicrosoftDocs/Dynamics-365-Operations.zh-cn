@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff331ace04602075cd7d61aa04439cae52cf4bab
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770448"
 ---
 # <a name="define-new-jobs"></a>定义新工作
 

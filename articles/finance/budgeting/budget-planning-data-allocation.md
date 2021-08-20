@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 112d3d37d1f70218265f264cda7ecefcb76f1f67
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 18afd1cd59932269086736cb5e350af84b5aa3a34de3f8084462489c18fb9347
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778330"
 ---
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 

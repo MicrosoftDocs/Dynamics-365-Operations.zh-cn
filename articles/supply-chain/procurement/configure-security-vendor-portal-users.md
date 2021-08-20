@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c99107483bd5f6901cd87897151b107d2e1fe12f277032f379b739fa10ad84c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771363"
 ---
 # <a name="vendor-portal-user-security"></a>供应商门户用户安全
 

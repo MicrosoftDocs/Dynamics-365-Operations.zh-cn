@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767234"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>在 Microsoft Excel 中将新字段添加到业务文档模板
 

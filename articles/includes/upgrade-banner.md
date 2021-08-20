@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 092f889deec84f8dd9bae8529657cd14b7069216
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ac4b4bf236f2834331f761fe5005277b4970310b10bfc052888cc4327ee9dc5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776960"
 ---
 > [!IMPORTANT]
 > 此功能目前仅通过邀请方式提供。 要推荐您的组织参与，请完成[此调查](https://aka.ms/ax2012upgrade)。 

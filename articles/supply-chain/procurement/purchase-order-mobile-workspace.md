@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8a1a9e62b542bfd46607da213225338354187e29caa94ba6e67f8c4ca38e5437
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781433"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 

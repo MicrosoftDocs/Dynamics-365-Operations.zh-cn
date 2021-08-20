@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46009f09f6e843c45f50351963ad01419e24a878
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1d4e6d8bbdb50394ef575e1088dd238eb39170124854edb878f6dccb6c9e07d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771339"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>转移物料与看板作业
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c15108a92c753780d91467b066b62ff398c85b62671ea6a3a48ed97a89c9e6b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759495"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: c4ebbdaa3aa95de0253a70b63ce100b8dbb3b0a822d472cb8acedf4421fa6061
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762978"
 ---
 # <a name="overview"></a>概览
 

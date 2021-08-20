@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 841e3c0546bb7b0b01d02960f785cc3559d31081460e8cdab082104b9dbef8e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766743"
 ---
 # <a name="delays"></a>延迟
 

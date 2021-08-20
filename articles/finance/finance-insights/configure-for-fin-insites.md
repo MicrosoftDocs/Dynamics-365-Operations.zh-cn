@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9f46fd95b516eeff4b716a0ecc093f94fac722af
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 77d51302ee38c843a1988d9a65537015edb9b5159ed1e9f657a04b5e0fe72cea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764326"
 ---
 # <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>个人预览版（预览）的 Finance insights 的配置 - 10.0.19 之前的版本
 

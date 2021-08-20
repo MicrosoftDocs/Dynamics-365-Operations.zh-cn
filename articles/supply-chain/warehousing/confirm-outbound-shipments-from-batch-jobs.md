@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69e61e1c04dd72efbe1d2f028c078100e07176f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82945ac3426bb5e063006495a20463d204fb3c8c9dd90bb51a1f023edeaff728
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838434"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762738"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>确认来自批处理作业的出站装运
 

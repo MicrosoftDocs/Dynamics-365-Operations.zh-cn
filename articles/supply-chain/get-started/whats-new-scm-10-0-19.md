@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
@@ -35,6 +35,7 @@ ms.locfileid: "6641120"
 
 | 特征区域 | 功能 | 更多信息 |
 |---|---|---|
+| 库存和物流&nbsp;&nbsp; | [审核并保存供应商提交的银行详细信息](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [维护供应商银行帐户信息](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | 库存和物流 | [联系人数据实体导出优化](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | 此功能启用后，对引用数据的更改将不会导致相关联系人被包含在下一个增量导出中。 此功能禁用后，对引用数据的更改会让相关联系人被包含在下一个增量导出中。 |
 | 库存和物流 | [带有缩放单元的仓库执行功能的增量增强](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[消息处理程序消息](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[仓库库存调整](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[云和边缘缩放单元的仓库管理工作负载](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | 库存和物流 | [销售报价单页上的文档介绍和文档结论字段的查找功能](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | 此功能为 **销售报价单** 页上的 **文档介绍** 和 **文档结论** 字段添加了查找功能。<br><br>默认情况下启用了此功能。 |

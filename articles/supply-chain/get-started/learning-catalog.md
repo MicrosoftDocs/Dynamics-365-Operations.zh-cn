@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 305ae298a075bad4d19bb509e8726d924c03da03
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0549a994f8f67951d116eb18a56190943a66e1778165221818d2404aebca0cbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781053"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>适用于 Dynamics 365 Supply Chain Management 的学习目录
 

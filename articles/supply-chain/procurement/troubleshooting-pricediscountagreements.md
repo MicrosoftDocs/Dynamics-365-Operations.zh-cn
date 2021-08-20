@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 237ec60823eb5fded09c32d6a51b1eb504456a1dc666d7d6f2e6678382433de9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762834"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>价格、折扣、协议和返点故障排除
 

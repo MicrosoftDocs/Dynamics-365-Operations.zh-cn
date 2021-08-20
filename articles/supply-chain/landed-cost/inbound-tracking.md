@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 94754447b3f363716595de4902f48188c4ebbda9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 86e73ddc8b259299abe73ad3e393cfdf3dd68824421f216a68308ddcac735828
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779246"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>跟踪入站航行和装运集装箱行程
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ac1e9d8c5255b8347c9563ce9ea846933c0c9dd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 783da0fed3065aebd1f5cb19c819eb0a925d1e02970433035db69c1b105bede8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779828"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>审核应付帐款中的账单和关键数据
 

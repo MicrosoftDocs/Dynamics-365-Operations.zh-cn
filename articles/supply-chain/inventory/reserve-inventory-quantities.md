@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 43443f510f5b8a627b4fd2b391c0c63d7d2ed147f1dea8f9cdd78a07009c2449
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764852"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 

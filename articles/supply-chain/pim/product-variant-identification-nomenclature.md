@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 87b78b3003a13586b10fac57fb1d39f004efdf1f81c23420614eb3abd1e4a016
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761036"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 

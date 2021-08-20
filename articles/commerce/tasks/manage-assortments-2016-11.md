@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2321c78ba50ba0bfc996e8bd4e96cfbd0843ec45
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769287"
 ---
 # <a name="manage-assortments-november-2016"></a>管理分类（2016 年 11 月）
 
@@ -40,7 +40,7 @@ ms.locfileid: "5796746"
 6. 在“到期日期”字段中，输入一个日期。
 7. 展开“Commerce 渠道”部分。
 8. 单击“添加行”。
-9. 在树形图中，选择“绝对零售\电子产品\波士顿”。
+9. 在树形图中，选择“'Contoso 零售\电子产品\波士顿”。
 10. 单击“添加”。
 11. 单击“确定”。
 12. 展开“产品”部分。

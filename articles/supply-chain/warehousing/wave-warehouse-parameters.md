@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b120c24ad3289f5f46119d70c8cb7124546e41b1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e26c1b308242176e916d9e930f7eded5df49de6683af03dbdab42358c724831a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766527"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>波次处理的仓库参数
 

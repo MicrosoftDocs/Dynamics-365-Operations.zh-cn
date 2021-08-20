@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 6a0f3aaa35abc0b1818ebcedded3fb9d18d1ecf7f3a26a9aa75477b53d2eacdc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772680"
 ---
 # <a name="manage-employee-leave"></a>管理员工休假
 

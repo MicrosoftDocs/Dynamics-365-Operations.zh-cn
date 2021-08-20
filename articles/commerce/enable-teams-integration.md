@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 040cac9f3678a0a983d3dd917ae553a5184e4d1e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775330"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>启用 Dynamics 365 Commerce 和 Microsoft Teams 集成
 

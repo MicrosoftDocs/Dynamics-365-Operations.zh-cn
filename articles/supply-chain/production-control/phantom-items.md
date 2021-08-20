@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8d08db47e39bb53d46570e8a5911e062a5b39da6ad41db967856f30034c0af8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774769"
 ---
 # <a name="phantom-items"></a>虚拟物料
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 6dc63554f5ed32b2b3b387ef3fa4bcde2c202489003a99cb414547e33160ac8e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764150"
 ---
 # <a name="leave-and-absence-overview"></a>休假和缺勤概览
 
