@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6b643c4fe51ae6ce73b34ab81d4e458dcd5032df
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 96af593d2e8a738258fe614f0f252620cb48c5f19eeb4425c9659ee6f9cd8c0c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741205"
 ---
 # <a name="you-cant-remove-the-warehouse-demand-forecast-dimension-from-forecast-lines"></a>您无法从预测行中删除仓库需求预测维度
 

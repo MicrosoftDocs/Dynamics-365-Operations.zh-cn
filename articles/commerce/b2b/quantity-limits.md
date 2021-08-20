@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e9f14bc9aa6586e87f3e8ccb82e63d0ec2e46534
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738763"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>设置 B2B 电子商务站点的产品数量限制
 

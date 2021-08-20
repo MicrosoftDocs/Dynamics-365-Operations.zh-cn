@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e59fe56bc34e7412466daaeb04564aa3349f60e0370364b7ce5184a5785a278c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740567"
 ---
 # <a name="transportation-management-engines"></a>运输管理引擎
 

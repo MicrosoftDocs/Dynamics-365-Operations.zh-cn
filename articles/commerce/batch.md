@@ -1,6 +1,6 @@
 ---
 title: 改进了批量跟踪物料的处理
-description: 本主题介绍了对于对账单过账流程中批量跟踪物料的批次处理所做的改进。
+description: 本主题介绍了对于对帐单过帐流程中批量跟踪物料的批次处理所做的改进。
 author: josaw1
 ms.date: 11/04/2019
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739554"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>改进了批量跟踪物料的处理
 
@@ -36,7 +36,7 @@ ms.locfileid: "5799701"
 
 要定义为客户订单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **客户订单** 选项卡上，在 **订单** 快速选项卡中设置 **默认批处理 ID** 字段。
 
-要定义为通过对账单过账进行的销售订单开单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **过账** 选项卡上，在 **库存更新** 快速选项卡中设置 **默认批处理 ID** 字段。
+要定义为通过对帐单过帐进行的销售订单开单使用的默认批处理 ID，请在 **Commerce 参数** 页面的 **过帐** 选项卡上，在 **库存更新** 快速选项卡中设置 **默认批处理 ID** 字段。
 
 > [!NOTE]
 > 只有为特定商店仓库和物料启用了高级仓储时，此功能才可用。 在以后的版本中，未使用高级仓库管理的方案也将支持此功能。

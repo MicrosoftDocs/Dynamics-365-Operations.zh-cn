@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f469cdbd74f228d235f9a84f52d9bd8656e97020
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 5a428a945be8fd6b570cc4ad61e1f1d285b2a0205e72aab2418c300bdb967da3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737323"
 ---
 # <a name="positive-pay-overview"></a>付款确认概览
 

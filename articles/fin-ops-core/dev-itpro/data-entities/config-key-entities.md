@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 72204c0a454c9893b05f2cf37a3d43c49f06532faba48f344644ba83e3351110
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356255"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737843"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuration Key 和数据实体
 

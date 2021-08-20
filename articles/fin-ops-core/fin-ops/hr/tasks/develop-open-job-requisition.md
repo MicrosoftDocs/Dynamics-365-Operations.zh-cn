@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca271450bfa534105caabbd45be98d929a3986b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ae2e42627d7d3dbbc0bde2740e7c017c5858eab8cd825b77a1bc4611a3a4ab7b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752022"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738472"
 ---
 # <a name="develop-and-open-job-requisition"></a>制订和开放工作申请
 

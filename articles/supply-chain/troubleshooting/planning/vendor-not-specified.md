@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cf41295045211f8a714194494028922d573c9e9e
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: 4d523d57a862f67fcd40edd60a0fabf40ea7dabcf058f2d11af1fe003c9e304b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741972"
 ---
 # <a name="vendor-isnt-specified-when-planned-orders-are-firmed"></a>确认计划订单时未指定供应商
 

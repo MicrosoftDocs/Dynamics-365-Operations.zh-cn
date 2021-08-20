@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9c0da21c0074468c5942bf853df701151ef7ee95
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a90daf02862b9c6e5415999a491d54d841d8f5f9a236b9cc472112145c50e6d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739266"
 ---
 # <a name="generate-payroll-entities"></a>生成工资单实体
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 49cf6dcbeff00d3918d2ab953da9d44957804ccaf95f0fdb3405c4e89934c365
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352004"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738015"
 ---
 # <a name="home-page-overview"></a>主页概览
 

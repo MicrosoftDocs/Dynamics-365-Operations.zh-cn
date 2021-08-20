@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c8b80406991bab6ba87fc8e38b9e49391921d98df5dbf223561848157f8f419d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738335"
 ---
 # <a name="reset-stuck-batch-jobs"></a>重置卡住的批处理作业
 

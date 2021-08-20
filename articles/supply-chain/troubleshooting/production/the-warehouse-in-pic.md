@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5d24c0b8538f3894fd1d2a3edb3a6ed8633c9609
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 970930bbdd30b57a8374de7810bb3ece8cb19a7010b5ef19d90bfc39d09f172b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740543"
 ---
 # <a name="the-warehouse-in-the-picking-list-journal-isnt-updated-on-a-bom-line"></a>领料单日记帐中的仓库在物料清单行上未更新
 

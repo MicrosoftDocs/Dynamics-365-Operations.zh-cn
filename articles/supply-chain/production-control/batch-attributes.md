@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 064b3dc7f0209b5c81580d4eb80384df74155aee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d4a62b54b6b12c6bc69d9d1ec09ecac1aedb180ea81babac8d9be146d6e2825
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739746"
 ---
 # <a name="batch-attributes"></a>批次属性
 

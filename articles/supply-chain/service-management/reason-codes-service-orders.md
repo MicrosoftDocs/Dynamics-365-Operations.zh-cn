@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9548d3a29c787b49713499519e1a02b5d218ac1c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6200047a43a9ea953f31e14b4a93029338336c7ec0bacb8d554287012ce04277
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739722"
 ---
 # <a name="reason-codes-for-service-orders"></a>服务订单的原因代码   
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62a42e2403fe024bd7ea49bff5bef139964e944727a245a480bc240c112154cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808032"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738979"
 ---
 # <a name="purchase-requisitions"></a>采购申请
 

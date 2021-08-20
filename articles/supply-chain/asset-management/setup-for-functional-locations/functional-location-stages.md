@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 16fbef7b390fd7a6c00bc5e4bdac28aee458613e4dc69941f26c7f7732e58de0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739171"
 ---
 # <a name="functional-location-lifecycle-states"></a>功能位置生命周期状态
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d54f81c4d45d060784daf0666253fc60287ba26
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: afa7021278d5dc8ba307ae1cf72504d08660f7ce34dea86ce2e8ca2a709366b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737374"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>发票匹配和内部公司采购订单
 

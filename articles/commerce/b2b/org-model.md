@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 487af939f92ece8bc3e543b3beeffa239baa1863
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0602e0f4e36beda06f47314f40b59967272469755d1b9959432e86f407c098e7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738069"
 ---
 # <a name="create-org-modeling-hierarchies-for-b2b-organizations"></a>为 B2B 组织创建组织建模层次结构
 

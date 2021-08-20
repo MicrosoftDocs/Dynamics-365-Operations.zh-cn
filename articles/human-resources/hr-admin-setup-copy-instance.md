@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740831"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -52,9 +52,9 @@ ms.locfileid: "6360141"
 
 - Microsoft Azure Blob 存储中的文档不会从一个环境复制到另一个环境。 因此，附加的所有文档和模板都不会被复制，并将保留在源环境中。
 
-- 除管理员用户和其他内部服务用户帐户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
+- 除具有“系统管理员”安全角色和其他内部服务用户帐户的用户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
 
-- 管理员用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
+- 任何具有“系统管理员”安全角色的用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
 
 ## <a name="copy-the-human-resources-database"></a>复制 Human Resources 数据库
 
@@ -111,7 +111,7 @@ ms.locfileid: "6360141"
 
 此外，复制实例时，以下状态也会更改：
 
-- 除管理员以外的所有用户均设置为 **已禁用**。
+- 除具有“系统管理员”安全角色的用户外，所有用户均设置为 **已禁用**。
 
 - 除某些系统作业外，所有批处理作业均设置为 **预扣**。
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741748"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>序列化产品的销售点 (POS) 改进
 

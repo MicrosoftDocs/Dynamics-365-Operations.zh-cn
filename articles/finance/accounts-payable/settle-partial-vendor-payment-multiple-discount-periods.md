@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56e2b3a8dadd824fa0170a1db19fffeaecb47775
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737081"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分供应商付款
 

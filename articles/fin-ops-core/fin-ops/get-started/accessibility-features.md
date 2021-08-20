@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7381f9b9e84a970e01d44238d9891b5edc0d2d5b24e5140518d3ef302be1c123
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740187"
 ---
 # <a name="accessibility-features"></a>辅助功能
 

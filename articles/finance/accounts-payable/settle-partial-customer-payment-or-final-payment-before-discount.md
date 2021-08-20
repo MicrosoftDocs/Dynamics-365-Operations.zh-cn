@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7d13b533cda70dba432b2de20a65d6dcedb6863
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ac544c86804a54aaad5038e0c470095ee145346b337a5a66d5450562da2cffc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737153"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分和最后付款
 
