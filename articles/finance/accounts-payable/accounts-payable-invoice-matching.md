@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baba6f9f0fbe3b2ac13fad2a9cf8bbb166d0c35e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3c9f7c19d81a22feaeccc31a3f3d390b1a721485083c32e215b155e7896a06d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737422"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>应付帐款发票匹配概览
 

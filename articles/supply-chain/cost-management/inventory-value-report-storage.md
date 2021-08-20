@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15c27696a7f810b275cc9daf155d030d01bb725c69ce1a05b2f3a2d0a52899ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764900"
 ---
 # <a name="inventory-value-storage-report"></a>库存值存储报表
 

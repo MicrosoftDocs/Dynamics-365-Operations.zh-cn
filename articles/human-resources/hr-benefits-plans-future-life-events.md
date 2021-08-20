@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d52e91e7b050027485b3536f40f6ad80afd90de8
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 25675e7704bdb3ead2618925561d1d0dded95747e0e1d6151e6ae2d714ceac43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758656"
 ---
 # <a name="configure-future-life-events"></a>配置未来的生命事件
 

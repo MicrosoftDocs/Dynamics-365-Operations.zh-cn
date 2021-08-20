@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 339e0c811a70ca6b722d8967c2df103500578664
-ms.sourcegitcommit: 73d320d2103f2b0c6ecbb2b9df746469bc544ea2
+ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433711"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768331"
 ---
 # <a name="electronic-messaging"></a>电子消息
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: efa672bc264a39a4356e1581a6401cb331522c17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d20615eb72b036659fe99b140ca18b1fb529bf5ec03bf9390615ea315e9202
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760242"
 ---
 # <a name="shipment-auto-updates"></a>装运自动更新
 

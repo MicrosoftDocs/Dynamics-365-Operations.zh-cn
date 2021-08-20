@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8a168da2309709baaf9f8006880d738f754751d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86b0c8fa3c6379b9f1df11fd6b20f9e263656c2b98ea00f4225aebd5d25ac41
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780044"
 ---
 # <a name="formulas-and-formula-versions"></a>配方和配方版本
 

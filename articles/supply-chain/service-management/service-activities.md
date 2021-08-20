@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfd08267c770b9a89fd947132071a7e650caadff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9bb2bb388f34fed0fd3f9d88982724e8e246a67b8231014285a0fb1c8d96f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819032"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768610"
 ---
 # <a name="service-activities"></a>服务活动        
 

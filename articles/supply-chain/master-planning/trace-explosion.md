@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 6c24a976063a6a87718368822b224290181147fa7c640f973184a234cc726ed3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762906"
 ---
 # <a name="use-tracing-for-explosion"></a>使用跟踪进行分解
 

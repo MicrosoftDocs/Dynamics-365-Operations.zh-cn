@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: d70fc6fea0e4e4e8f4ad73de5699b6b3fd481613
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: d20dca3e8f15d04b85bcdf102dda8794c68dc2d54acb65dbd0088da1e6c6cdc5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765090"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a7808357916ed80ddfa46e1e4f362e0dde1671
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c9e0e869f22fc6f294c2dfc35b883cafe0e4205c6269e1b1fec7b223c1a9ea6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751785"
 ---
 # <a name="create-service-task-relations"></a>创建服务任务关系    
 

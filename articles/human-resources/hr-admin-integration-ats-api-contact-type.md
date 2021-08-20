@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a674f9651d382c0b4d3f53dcf6a97e208996dcd
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 63e5dc8a29d3cf3aee400083a416046b91e8382a4fef553e3af43b8e32123a55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766887"
 ---
 # <a name="contact-type"></a>联系人类型
 

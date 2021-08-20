@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c2215ae4162616fec892a8bce6cff5d5f68e5aa1457b41d86bb540bdcff87197
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747857"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 

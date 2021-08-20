@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17ed0adefb2c3dd10e5e6020929c877cf5c3b8c9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750640"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 

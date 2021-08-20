@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: beac0d6666055a278cab0be9080e49c51885671d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775009"
 ---
 # <a name="process-life-events"></a>处理生命事件
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ed76d22ab6b917c931220f3ba462f4f14cae207
-ms.sourcegitcommit: bd684c9eb6de718573e6be5479e1832fe614d919
+ms.openlocfilehash: aabe2cd9fd962c8f1c5bbf7fe911e7c6ceeae082f61fc4359aaf7bf197531eff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778071"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS 集成 API 的服务器到服务器身份验证
 

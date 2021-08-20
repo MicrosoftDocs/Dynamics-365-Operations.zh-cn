@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5d20f732f02140204d67e5602acaf42f9d9df424
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c9e36bef0b4cf87fa3fbad5d191731b48221a41e9d92241733e1bc3edb2ca838
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747003"
 ---
 # <a name="delivery-information-setup"></a>交货信息设置
 

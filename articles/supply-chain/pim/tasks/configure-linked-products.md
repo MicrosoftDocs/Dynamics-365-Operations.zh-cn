@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863108901516ddbcdd9bbe29785a6b163cd28492
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf4789a3ff05b9ae892af4aaa6eead08db8de957315aeed34059294b1a85619d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759471"
 ---
 # <a name="configure-linked-products"></a>配置链接的产品
 

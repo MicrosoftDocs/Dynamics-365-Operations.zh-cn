@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7254d5b7fbcb7bb3d29148325e074453b134d6a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 104d3a33c4710a911b679e7821c5fe8f0fcfe52839f77d277376e76932e1eaf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770494"
 ---
 # <a name="post-vouchers-from-the-general-journal"></a>过帐普通日记帐的凭证
 

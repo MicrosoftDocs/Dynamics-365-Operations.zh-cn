@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: ffd426c893a93ffa02aa52a2d2bad39227f8dd35
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 226e60d5e374f16d27185ebda512769d36650d24e90ae279d22761d54e238a64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744957"
 ---
 # <a name="create-a-withholding-tax-payment"></a>创建预缴税金支付
 

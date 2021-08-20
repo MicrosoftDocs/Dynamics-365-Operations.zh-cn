@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771267"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 

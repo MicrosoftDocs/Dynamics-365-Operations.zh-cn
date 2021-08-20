@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741774"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的传入库存操作
 

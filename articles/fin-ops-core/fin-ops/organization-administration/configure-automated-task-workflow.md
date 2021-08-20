@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f02b128036ebc0bd8789ecafd1e72e26fe31436
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0cc7097d956b0fabdc8cf16cfb99b065e3e03f21e9cfd56c4b4b91930dbef2b7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764375"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>配置工作流中的自动化任务
 

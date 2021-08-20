@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1db181913be8ecb4940eba2321d56cfb67f9e9d112495ddbb3e978abe813d918
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188950"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779198"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>授权调整后的预测
 

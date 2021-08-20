@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650d02d2160757d9629e4deb1e9217c85e9d01df
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 800f8ec8c016f95fbbf88a89184ffc45d183969ef02df526bbc6b9b3b78be3ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773974"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8cf4ed879b6b2202d0b0f1f45052f5e21452967
-ms.sourcegitcommit: 9b07d536b4bd8addfbdba42d2429c9fedb664635
+ms.openlocfilehash: 5da2859a3cd63a497ffe62eb6d8831726d2d85d878de2158e911fe7066daa3fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746176"
 ---
 # <a name="create-an-intercompany-plan"></a>创建内部公司计划
 

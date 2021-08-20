@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 3bd66d00542a3cd3234b24f29025bda3dccc2340
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: b75462694a044d5b1fa59096b6832417855f48e186c9336d707db2577306f915
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468596"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766767"
 ---
 **适用于以下 Dynamics 365 应用**：<br>
 Supply Chain Management

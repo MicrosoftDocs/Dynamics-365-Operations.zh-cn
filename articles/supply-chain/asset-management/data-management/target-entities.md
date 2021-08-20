@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772560"
 ---
 # <a name="target-entities"></a>目标实体
 

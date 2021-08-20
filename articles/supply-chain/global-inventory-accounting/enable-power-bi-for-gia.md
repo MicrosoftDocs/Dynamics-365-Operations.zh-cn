@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d7979ed18b98ee6133774cd91bc866d6fca92d5f
-ms.sourcegitcommit: eceae470f4ae58000ec33fea34db34b7a7a1af43
+ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "6273119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773337"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>为全球库存核算启用 Power BI
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42d126c598ee1811b686a9066e15e9f82264e4ce
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: ef59e6a3a0c553ad43db2ed35cb68b57c505f2ac7414592880e361fa3f5c4a12
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339255"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756265"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 

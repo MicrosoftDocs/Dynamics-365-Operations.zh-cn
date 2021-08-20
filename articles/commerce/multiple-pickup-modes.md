@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 9516e9e1bd9725e8bd2eec81c5e2b70c8257bc7f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a8fec96eb644cccea3566a32f3eb2ac3c699faa412be2bb9cdb2690d34999542
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745348"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>为客户订单启用多种提货交货方式
 

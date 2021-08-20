@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: cd0d9569055d14822a728aeb2c629387de8ecfb1
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: f80a82f4c3c00ee263cc0bf31b0dc5fc69a05dea324fe96e3e0db9a13a488fac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779360"
 ---
 # <a name="italian-intrastat"></a>意大利内部统计
 

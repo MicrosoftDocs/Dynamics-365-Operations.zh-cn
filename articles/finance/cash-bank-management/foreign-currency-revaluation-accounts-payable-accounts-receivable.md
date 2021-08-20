@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1c84a373363fc066f46eb7891b421be098c0033526f2604d0ee52ff9c3fd9db3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774345"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的货币重估
 

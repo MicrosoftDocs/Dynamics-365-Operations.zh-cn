@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a9086da036712fc8c63498d95dc9f71f32f75c6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85c4bd4c03b6ac09f2226d1767deabde1879f869e4b7c4d45e4d4c2a1d8effb3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765330"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>编辑并审计现金和结转及现金管理交易记录
 
@@ -32,7 +32,7 @@ ms.locfileid: "5792721"
 
 Dynamics 365 Commerce 客户使用第一方销售点 (POS) 应用程序和第三方 POS 应用程序。 使用第一方应用程序时，可以通过批处理将渠道中的商店交易记录导入到 Commerce Headquarters。 使用第三方应用程序时，可以通过集成将交易记录导入到 Commerce Headquarters。 在这两种情况下，将交易记录导入到 Commerce Headquarters 后，必须执行一致性检查过程。 此过程对交易记录执行多项验证，并且只有已成功通过验证的交易记录才会导入到报表中，以便可以在 Commerce Headquarters 中对这些交易记录进行过帐。
 
-Commerce 交易记录可能会由于各种原因而验证失败。 集成代码或 POS 应用程序中的 Bug 可能会导致数据不一致。 另外，用户错误也可能会导致数据不一致。 例如，用户在产品同步到渠道后删除了该产品，或者用户未过帐会计期间的交易记录即关闭了该期间。 尽管这些交易记录已标记并从对帐单中排除，但是它们会干扰客户将每日销售过账到财务的每日流程。 在 Commerce 中，可以编辑验证失败的交易记录，同时还保持对所有更改的审计。
+Commerce 交易记录可能会由于各种原因而验证失败。 集成代码或 POS 应用程序中的 Bug 可能会导致数据不一致。 另外，用户错误也可能会导致数据不一致。 例如，用户在产品同步到渠道后删除了该产品，或者用户未过帐会计期间的交易记录即关闭了该期间。 尽管这些交易记录已标记并从对帐单中排除，但是它们会干扰客户将每日销售过帐到财务的每日流程。 在 Commerce 中，可以编辑验证失败的交易记录，同时还保持对所有更改的审计。
 
 ## <a name="edit-transactions"></a>编辑交易记录
 
@@ -90,7 +90,7 @@ Commerce 版本 10.0.6 及更高版本支持在对帐单级别批量编辑交易
         - **金库支付交易记录** - 此工作表包含所有金库投箱交易记录详细信息。
         - **钱币清点** - 此工作表包含所有钱币清点交易记录详细信息。
         - **收入 - 支出交易记录** - 此工作表包含所有收入 - 支出交易记录行详细信息。
-        - **付款交易记录** - 此工作表包含 **付款账单** 操作以及收入 - 支出交易记录的所有付款相关信息。
+        - **付款交易记录** - 此工作表包含 **付款发票** 操作以及收入 - 支出交易记录的所有付款相关信息。
 
 1. 编辑所需交易记录。
 

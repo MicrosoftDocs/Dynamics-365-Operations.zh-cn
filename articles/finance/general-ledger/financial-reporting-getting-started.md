@@ -2,7 +2,7 @@
 title: 财务报告概览
 description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748202"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -47,10 +47,10 @@ ms.locfileid: "6338149"
 -   会计帐户表
 -   货币
 -   将交易至少发布到一个帐户
--   MainAccount 在 **总帐 > 分类帐设置 > Financial Reporting 设置** 的“已选择”列中列出。
+-   MainAccount 列在 **Financial Reporting 设置** 页面（**总帐 > 分类帐设置 > Financial Reporting 设置**）上的 **选定** 列中
 
 ## <a name="granting-security-access-to-financial-reporting"></a>授予对 Financial Reporting 的安全访问权限
-财务报表功能可用于具有相应的权限和责任的用户（通过安全角色分配给他们）。 以下各节列出这些权限和责任，以及关联的角色。
+Financial Reporting 功能可用于具有相应的权限和责任的用户（通过安全角色分配给他们）。 以下各节列出这些权限和责任，以及关联的角色。
 
 ### <a name="duties"></a>责任
 
@@ -79,7 +79,7 @@ ms.locfileid: "6338149"
 | 生成财务报表            | 生成财务报表            | CEO、CFO、会计师                                                            |
 | 查看财务报表                | 审查财务绩效          | 未分配                                                                   |
 
-在添加用户或更改角色后，用户应该在几分钟内就能访问财务报表。 
+在添加用户或更改角色后，用户应该在几分钟内就能访问 Financial Reporting。 
 
 > [!NOTE]
 > 将向财务申报中的所有角色添加 sysadmin 角色。
@@ -165,10 +165,47 @@ ms.locfileid: "6338149"
   如果另一个用户可以打开报表设计器，请选择 **工具**，然后选择 **集成状态**。 验证集成映射“公司用户提供程序到公司”是否已成功运行，因为已为您分配了使用 Financial Reporting 的权限。 
 * 可能是另一个错误阻止了 **Dynamics 用户到 Financial Reporting 用户的集成** 完成。 或者可能是由于已启动但尚未完成数据市场重置，或者发生了另一个系统错误。 请稍后再次尝试运行此流程。 如果问题仍然存在，请与系统管理员联系。
 
-问题 3：您可以从 ClickOnce 报表设计器登录页面继续访问，但无法在报表设计器中完成登录。 
+问题 3：您可以从 **ClickOnce 报表设计器** 登录页面继续访问，但无法在报表设计器中完成登录。 
 
-* 输入登录凭据时，在本地计算机上设置的时间必须在 Financial Reporting 服务器上时间的五分钟之内。 如果相差超过五分钟，系统将不允许登录。 
-* 在这种情况下，我们建议启用 Windows 选项来自动设置您的 PC 时间。 
+* 登录系统时，在本地计算机上设置的时间必须在 Financial Reporting 服务器上时间的五分钟之内。 如果相差超过五分钟，系统将不允许登录。 
+* 如果计算机上的时间与 Financial Reporting 服务器上的时间不同，我们建议启用 Windows 选项以自动设置计算机的时间。 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>解决事件查看器的报表设计器问题
+
+您可以使用事件查看器分析使用 Financial Reporting 时出现的一些问题。 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>您具有 Financial Reporting 连接问题时会发生什么情况？ 
+
+以下是您可以采取的一些步骤，以使您与 Microsoft 支持的对话更加有效，并使您更快地解决问题。 
+ 
+以下步骤将演练为 Financial Reporting 打开事件查看器消息的过程。 事件查看器生成的日志将帮助支持工程师快速识别连接问题的来源。 联系支持人员时，将这些日志的副本与票证一起提交。
+
+> 1.    将 RegisterETW.zip 文件复制到客户端工作站（最好是桌面），并提取 [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)。
+
+> 2.    确保 Windows 事件查看器已关闭。
+
+> 3.    打开管理员 PowerShell 命令提示并转到 RegisterETW.ps1 所在的目录。
+
+> 4.    运行以下命令：.\RegisterETW.ps1
+   
+   PowerShell 中的成功输出将使用消息 **已完成 RegisterETW 脚本** 来进行验证。
+重新打开事件查看器，现在您将在 **Microsoft > Dynamics** 下看到这些日志：* MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. 重现报表设计器中的问题。
+   
+> 6. 使用事件查看器导出 MR-Logger 事件。
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>解决连接到 Financial Reporting 的问题
+
+问题：您收到错误“无法连接到 Financial Reporting 服务器”。
+
+* 确定问题是否发生在 Chrome 和 Edge Internet 浏览器中。
+* 如果问题仅发生在一个浏览器中，则可能是 ClickOnce 问题。 
+* 获取连接错误消息后，选择 **测试** 以测试连接，从而查看显示的消息。 
+* 此问题可能是其他用户无权访问 Financial Reporting 造成的。 如果用户没有访问权限，他们将收到一条消息，说明他们无权限。
+* 如果问题发生在多个浏览器上，请确保工作站上的时钟设置为“自动”。
+* 与在 Dynamics 365 Finance 中具有安全管理员权限和网络域管理员权限的用户一起登录到您的工作站，以查看他们是否能够连接。 如果他们能连接，问题可能与网络权限相关。
+* 在工作站上，暂时禁用防火墙。 如果能够连接到报表设计器，问题出在防火墙上。 与组织的 IT 部门合作解决此问题。
 
 ## <a name="additional-resources"></a>其他资源
 - [查看财务报表](view-financial-reports.md)

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: a1f1f83fbf4b7280aec579b17c96e8d9fc59e39bcea5d6d5d7366397cf8f2875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773361"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a> Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改（2020 年 4 月）
 
