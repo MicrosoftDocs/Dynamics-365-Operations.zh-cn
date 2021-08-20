@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bface512eb93b728aa72d241d96a73f5e14fb5db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f908fa9120a91d19040906c8aef7f137f78cdfc45215287db373e79295c1bad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753340"
 ---
 # <a name="view-cost-object-balance"></a>查看成本对象余额
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3f3697ed3c451d966dc9e2c71a2c740eb734cef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 902b7b5c3655394a0e23da3066dcdb91e556c66bd63c525991b7aff866b99dbe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743787"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>设置和创建折旧模板
 

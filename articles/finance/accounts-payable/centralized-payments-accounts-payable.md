@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7162545d07cdc249a4f785606957076de1676d5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 340e276e1943129033898a3cca174f07fadbb43f45fa9fb49e0b4f8eb4772d40
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749068"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>应付帐款的集中付款
 

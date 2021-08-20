@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cf95a3d9551174d09df84ab970b8dc415386f12c4aa234b14552f6f8f2bdfd5c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356991"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745590"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 

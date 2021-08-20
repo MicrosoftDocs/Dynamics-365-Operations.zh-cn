@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cff70c25f63e314c084d74097d6b2d9547823b22
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f0f92ccbe057f6bcadb09a6143c2915d1d0af855108ebec21f11bc89a1a0377
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747761"
 ---
 # <a name="set-up-service-activity-types"></a>设置服务活动类型 
 

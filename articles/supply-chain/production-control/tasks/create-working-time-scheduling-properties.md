@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8489cc8eac8013041d4c138930feab57e43b81d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 679ea4557b959d45e03c6c3e454c0c3fd1398f8452db392c5257544e4efd0908
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747833"
 ---
 # <a name="create-working-time-scheduling-properties"></a>创建工作时间计划属性
 

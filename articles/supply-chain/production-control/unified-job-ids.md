@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 00212803c46d898a39eafbc5c62016eb829535e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8ff8fae0bb20b11b15c7520fbb14727ff0372ca0255adc82599c6680a64671af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748707"
 ---
 # <a name="unified-number-sequence-for-job-ids"></a>统一作业 ID 编号规则
 

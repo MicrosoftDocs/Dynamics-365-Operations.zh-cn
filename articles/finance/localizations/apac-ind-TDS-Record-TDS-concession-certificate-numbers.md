@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 33fae9b6d2c69b4404e6faf0a822c704ef0e73f049d0eea000b27501009c74aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748130"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>记录 TDS 减免证书编号
 

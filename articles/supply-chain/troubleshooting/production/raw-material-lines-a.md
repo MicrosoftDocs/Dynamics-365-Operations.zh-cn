@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5a4e2ffd24904f822f4993525cc196a050db1ba4
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: f56dcf27704db5d304f002f1204631f8d389cd60bce8b3235433c0131b9473a9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744026"
 ---
 # <a name="users-can-unpick-material-lines-for-products-that-have-been-reported-as-finished"></a>用户可以取消已报告为已完工入库的产品的材料行的领料
 

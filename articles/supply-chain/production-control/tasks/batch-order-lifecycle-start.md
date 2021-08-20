@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d9ed44c9e05ea815e78ae041234ad61f76d89d8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ac0ce1d3267df917a6ba8ed9dd8cc72168c79936d53600776972c2e5f4f16857
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745542"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>从创建到开始的批次订单生命周期
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6437e6a90574ccbb1d166c4dc75328bb93a3ff4d072faacc5bd69f42870991b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750212"
 ---
 # <a name="recruit-job-candidates"></a>招聘工作应聘者
 

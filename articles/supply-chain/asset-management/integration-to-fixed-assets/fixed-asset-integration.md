@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a45bf1f62cdcc8abed2ec157a223e7f3fddec7ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 63ab3e772d54c7d27ade1c0cef07f275f49a143ad382fe618035117bca2cd43d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809846"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746272"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>将资产管理与固定资产进行集成
 

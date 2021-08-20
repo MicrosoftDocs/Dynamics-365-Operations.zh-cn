@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7eb7697163cf487bca5855f06362f4debdf8f85f
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: fbb37f8cf9b0dd47684e0be142aec2a01cf50857c3426d4b2db996b9306e8a52
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745764"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>考虑了 Dynamics 365 Finance 的业务决策者学习目录
 

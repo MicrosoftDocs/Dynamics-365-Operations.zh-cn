@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d0a97ed7b01a32e9276433713448a672f83f7d02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4dde844d38448b2de5c5e0c9b2da4a16405f83c0d72f3a20b9e29afe84d322ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743474"
 ---
 # <a name="zone-threshold-replenishment"></a>区域阈值补货
 

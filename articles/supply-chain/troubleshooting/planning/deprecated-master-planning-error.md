@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 9c950292a4f43319d21a7deafdfb341b7bef15d8
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: 7c0c674818a21d3ad422661fc427b0b9c4aad52b8d44d08791d2d703be528fe3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751713"
 ---
 # <a name="you-receive-an-error-when-running-the-built-in-master-planning-engine"></a>运行内置主计划引擎时收到错误
 

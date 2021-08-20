@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 930b4229ad7d96eef93937ef7dff2a23acbf74ee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d93dd38acb9c25bde5aaacd74f68468864e77228f2463d492a7fb817c9ca2973
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751737"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>为仓库流配置编号规则
 

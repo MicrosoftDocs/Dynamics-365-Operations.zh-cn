@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
-ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
+ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "6240934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748490"
 ---
 # <a name="price-adjustments-and-discounts"></a>价格调整和折扣
 

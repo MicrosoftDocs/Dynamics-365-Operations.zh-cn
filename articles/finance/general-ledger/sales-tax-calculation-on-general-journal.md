@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 96a87e5de3fb247e4554a64ecff3a4c63477b6a70f7a969b80f538601cda08bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746360"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>普通日记帐行的销售税计算
 [!include [banner](../includes/banner.md)]

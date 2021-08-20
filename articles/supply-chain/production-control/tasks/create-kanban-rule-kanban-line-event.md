@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe92336c3f80909e5b0865b461e45d55bf08c4b4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b6a589d95fde61cbd6743f9e3e3170a1b8d6f91613cde0df94037872b491018
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746883"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>使用看板行事件创建看板规则
 

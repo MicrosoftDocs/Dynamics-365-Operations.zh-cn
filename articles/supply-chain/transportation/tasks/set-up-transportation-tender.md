@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15dc99f6b355e71e9890ba78709e5959a32d35f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e69836ee13296f593c261c8f00bd9af2ac084d3c0cd369abb84dd17a2d6a448
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750946"
 ---
 # <a name="set-up-a-transportation-tender"></a>设置运输支付方式
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5fe475bd0fceea7e1e8edf7c375d34a4be6d92a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750566"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>准备要在 RCS 中使用的应用程序元数据
 [!include [banner](../../includes/banner.md)]

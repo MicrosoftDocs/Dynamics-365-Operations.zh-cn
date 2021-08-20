@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b83b36102cc1c0f8ed9c08920ac3817435a6b24
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9331ac4d22f87ca0b2e6f2dcdac1aafe25849bc44e06e7cb2d91b7af125f87
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745446"
 ---
 # <a name="work-with-customer-service-overview"></a>处理客户服务概览
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46e5edb61da7539b51c2678c69238c9df9c85043dfc71903e1633843a3071d4d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748368"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 

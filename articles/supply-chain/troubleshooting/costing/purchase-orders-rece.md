@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9508d6d75d8ebee7ca10140ed4c4215d7ad1dda7
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 49faa2c68d496c5c0d8c7e4abfd93d9a917857220dd23c09a050fa3436e1d49a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746859"
 ---
 # <a name="physically-received-purchase-orders-dont-appear-on-the-inventory-closing-report"></a>已实际接收的采购订单未显示在库存结帐报表中
 

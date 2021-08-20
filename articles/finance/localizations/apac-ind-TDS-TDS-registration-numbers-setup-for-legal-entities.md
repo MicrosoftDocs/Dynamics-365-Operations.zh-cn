@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f74c8813fb4aa8e159cfadfd171741487e2910d96a92540d4023d60e69c5c8c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750308"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>设置法人的 TDS 登记编号
 
