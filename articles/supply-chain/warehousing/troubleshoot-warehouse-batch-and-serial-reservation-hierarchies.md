@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 3/12/2021
-ms.openlocfilehash: 1cd4883cdd95a97f821e0103da910e2c0346a08d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a2b6f76aba22c24c07a2727b2eb8752f6ce763654403d47e34932a21a776dccb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748635"
 ---
 # <a name="troubleshoot-warehouse-batch-and-serial-reservation-hierarchies"></a>仓库批次和序列预留层次结构故障排除
 

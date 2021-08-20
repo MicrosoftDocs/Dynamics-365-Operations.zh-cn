@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 71767e733dd6ac9d11e8757abf0b12dcf2a7a441
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c2c50fadb38f3c6e20c72288b2c1e23278c10119250a0d0fcde643307cbaf7f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745056"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
 

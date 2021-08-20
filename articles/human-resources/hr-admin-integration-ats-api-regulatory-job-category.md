@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c78cb5ec7604851ef3a8c0ac6d2afe1089c0809c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7d3fcd0f200653be1ec0215246002799e749dce96689c400a981af870c4afed7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752866"
 ---
 # <a name="regulatory-job-category"></a>监管工作类别
 

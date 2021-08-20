@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a4b4847046af541644338157d95e6fcba315f9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4fc158ac70834c5d3b590acbe015cb9200d9f4f99df339bc7c1874a6a74d5f34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751042"
 ---
 # <a name="create-a-production-flow-version"></a>创建生产流版本
 

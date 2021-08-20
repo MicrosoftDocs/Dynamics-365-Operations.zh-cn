@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df40d25e2027cf484e3f596fd315dca1c5b8809137aad9948da228245ad85f50
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749238"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>会计分配和供应商发票的日记帐条目
 

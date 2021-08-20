@@ -3,24 +3,19 @@ title: 电子申报公式语言
 description: 本主题提供有关如何在电子申报 (ER) 中使用公式语言的信息。
 author: NickSelin
 ms.date: 05/04/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0ef0b9e411fabca1427b985eb51640bfd2a0d59318a456cb5b1ecdea1445fab5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750616"
 ---
 # <a name="electronic-reporting-formula-language"></a>电子申报公式语言
 

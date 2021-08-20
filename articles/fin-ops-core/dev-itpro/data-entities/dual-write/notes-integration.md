@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cebab0635679fcb2c3e56c22aed1f33f8846c839ab9de694ae596c9366da96db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744354"
 ---
 # <a name="note-integration"></a>注释集成
 

@@ -2,7 +2,7 @@
 title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747689"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
@@ -54,6 +54,10 @@ ms.locfileid: "6333061"
 | \_msdyn365___muid_                            | 用于针对环境激活试验的情况；用作用户 ID 以供试验。 | 1 年 |
 | \_msdyn365___exp_                             | 用于针对环境激活试验的情况；用于度量性能负载均衡。         | 1 小时 |
 | d365mkt                                       | 在 Commerce 站点构建器中在 **站点设置 \> 常规 \> 启用基于位置的商店检测** 启用了基于位置的检测来跟踪用户的 IP 地址以获取商店位置建议时使用。      | 1 小时 |
+| \_msdyn365___tuid_                           | 仅在为环境激活试验时使用；生成 GUID 以充当用户标识符。 如果用户的登录状态发生变化，值将发生变化。      | 1 年 |
+| \_msdyn365___aud_0                          | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
+| \_msdyn365___aud_1                           | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
+| \_msdyn365___aud_2                           | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
 
 如果站点用户选择站点内的任何社交媒体链接，还将在其浏览器中跟踪下表中的 cookie。
 

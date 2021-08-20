@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef33e3922ca676b1312a3d60ae07aa2fe2828056
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 223f7537dfb5f87e590e74888228ce703a3454d7e33fbd31b6b9a6915884fa4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748097"
 ---
 # <a name="person-identification-number"></a>人员标识号
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8d4bbd0c95126bd869fafccc3e7c63f65f939d8c6b2a1afec8ff95f8519fe9af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756164"
 ---
 # <a name="configure-integration-with-finance"></a>配置与 Finance 的集成
 

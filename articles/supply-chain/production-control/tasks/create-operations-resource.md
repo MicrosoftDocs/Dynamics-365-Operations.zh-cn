@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc70e81fff66deee93bef53b5ceabf0b7b3fd0f1587f1b4b3e5d998730d7709b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757571"
 ---
 # <a name="create-an-operations-resource"></a>创建运营资源
 

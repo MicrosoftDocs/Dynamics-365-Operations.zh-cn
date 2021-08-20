@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744218"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
 
@@ -47,7 +47,7 @@ ms.locfileid: "6639382"
 
 缺勤管理人员角色的用户可以在日历中查看休假请求。 按照以下步骤访问休假日历。
 
-1. 在 **员工自助服务** 工作区中，选择 **缺勤管理人员**，然后选择 **缺勤管理人员日历**。
+1. 在 **员工自助服务** 工作区中，选择 **休假管理**，然后选择 **缺勤管理人员日历**。
 
 2. 在 **日期** 字段中，输入所需日期。
 

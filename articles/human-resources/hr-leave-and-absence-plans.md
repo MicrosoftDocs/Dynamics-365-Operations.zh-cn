@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 26d85ce226bd601e3ce0bc789e54a7a1a7ec6812
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0903c77676ce8ce7c8d585f24dfe4f554ca1321cd3e5ecc33a0b792dfcc4a66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745662"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
 

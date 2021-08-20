@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744790"
 ---
 # <a name="goods-in-transit-processing"></a>在途货物处理
 
@@ -104,6 +104,7 @@ ms.locfileid: "6021192"
 1. 打开航行、集装箱或帐页。
 1. 在操作窗格上的 **管理** 选项卡上，在 **功能** 组中，选择 **创建到达日记帐**。
 1. 在 **创建到达日记帐** 对话框中，设置以下值：
+
     - **初始化数量** – 将此选项设置为 *是* 将从在途数量设置数量。 如果此选项设置为 *否*，不从在途行设置默认数量。
     - **从在途货物创建** - 将此选项设置为 *是* 将从选定航行、集装箱或帐页的所选在途行获取数量。
     - **从订单行创建** – 将此选项设置为 *是* 将从采购订单行设置到达日记帐中的默认数量。 仅当采购订单行上的数量与在途货物订单上的数量匹配时，才可以通过这种方式设置到达日记帐中的默认数量。
@@ -140,4 +141,21 @@ ms.locfileid: "6021192"
 
 ### <a name="work-templates"></a>工作模板
 
+本节描述 **到岸成本** 模块添加到工作模板中的功能。
+
+#### <a name="goods-in-transit-work-order-type"></a>在途货物工作订单类型
+
 登陆成本在 **工作模板** 页增加了一个名为 *在途货物* 的新工作订单类型。 此工作订单类型的配置方式应与[采购订单工作模板](/dynamicsax-2012/appuser-itpro/create-a-work-template)的配置方式相同。
+
+#### <a name="work-header-breaks"></a>工作标题中断
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+具有 *在途货物* 的工作订单类型的工作模板可以配置为拆分工作标题。 在 **工作模板** 页上，执行以下步骤之一：
+
+- 在模板的 **常规** 选项卡上，设置工作标题最大值。 这些最大值的工作方式与其在采购订单工作模板中的工作方式相同。 （有关详细信息，请参阅[采购订单工作模板](/dynamicsax-2012/appuser-itpro/create-a-work-template)。）
+- 使用 **工作标题分解** 按钮定义系统应在何时根据用于排序的字段来创建新的工作标题。 例如，若要为每个容器 ID 创建一个工作标题，在操作窗格上选择 **编辑查询**，然后将 **容器 ID** 字段添加到查询编辑器的 **排序** 选项卡。 添加到 **排序** 选项卡的字段可用于作为 *分组字段* 进行选择。 若要设置分组字段，在操作窗格上选择 **工作标题分解**，然后对于要用作分组字段的每个字段，选中 **按此字段分组** 列中的复选框。
+
+如果注册数量超过原始订单数量，则到岸成本会[创建超额交易记录](over-under-transactions.md)。 工作标题完成后，系统将更新主体订单数量的库存交易记录的状态。 但是，在完全购买主体后，它会首先更新链接到超额交易记录的数量。
+
+如果您取消已注册的超额交易记录的工作标题，则超额交易记录将首先减少已取消的数量。 将超额交易记录缩减为 0（零）后，记录会被删除，并且将根据主体订单数量注销任何其他数量。

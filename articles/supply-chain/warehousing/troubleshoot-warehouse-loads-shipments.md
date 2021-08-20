@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e9964376a794661058da78152879d2142dd7ec51
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c82ec33eb2f1d918b86770343f41e3b9d0996a52ecb5ee091c0576c33770f31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756671"
 ---
 # <a name="troubleshoot-load-building-and-shipments"></a>负荷构建和装运疑难解答
 

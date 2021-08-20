@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 64dcb02e9d35f530ea498c65473a98de3d18912e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 18805963e164e4f39a9c0109f3b3538613272a3dbcc980969471412b3640308e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742480"
 ---
 # <a name="channels-overview"></a>渠道概览
 

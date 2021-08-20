@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c17c2e00c8c3b32062f70baf1da76a04dcd5d924
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3586ad009f4639d3606a935f98108b07d379852567e0faa365749f5b0bea07b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749214"
 ---
 # <a name="accounting-distributions"></a>会计分配
 

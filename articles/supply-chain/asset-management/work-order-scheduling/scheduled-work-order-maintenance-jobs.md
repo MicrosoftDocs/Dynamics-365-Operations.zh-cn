@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b826d7a47a4e6eff927552e292dd64a89fbe99ba
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 077ea3c122086ec0f06722f8f166f057ffa36ec60ec55da334c9b563210b362b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748025"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>计划的工作订单维护作业
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8d5459e37b5827b6a2ff07c892c2ff25b76ecd6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c79e893287994df01b2a1aaa469464a2274ab2471637a607ee72110b5e50fef
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754051"
 ---
 # <a name="inventory-locations"></a>库存库位
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fb9f8864ec91332c4c66658b94b6d88715120c8
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 091eb23397ed8f8efb50db6acba956fc49ef5a044a7d5fcc9d1e3201a68d54fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755898"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 

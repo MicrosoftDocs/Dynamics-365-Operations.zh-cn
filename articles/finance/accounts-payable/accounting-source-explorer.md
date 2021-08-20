@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
-ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
+ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6661029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749190"
 ---
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 

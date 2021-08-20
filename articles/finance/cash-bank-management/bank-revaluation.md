@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 706b47afe6cf51f8cf8cd612b579bb8d20083d02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 575e92c79eb3524af3e19e29b91567d13e08f9c783d0cca432d23dc5a6d68254
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745005"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 
