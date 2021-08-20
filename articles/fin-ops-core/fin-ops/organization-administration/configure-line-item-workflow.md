@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84da7080542b4cc2ecc487b0a1331482fb69b998
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11a3ff7d8d952bf0599ad9a38f21ffbb9e9dafa651a1bb32830b8fafaf42ecaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754946"
 ---
 # <a name="configure-line-item-workflows"></a>配置行项工作流
 

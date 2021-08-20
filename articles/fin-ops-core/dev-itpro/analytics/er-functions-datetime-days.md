@@ -3,7 +3,6 @@ title: DAYS ER 函数
 description: 本主题提供有关 DAYS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/04/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 310359a29a506d69d1f34aaa710a82b0f2ea528e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 19e363e7bc8b8ad898244702ad6ba14bcf490f5ca2381b006a35dc0ed9309d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750592"
 ---
 # <a name="days-er-function"></a>DAYS ER 函数
 

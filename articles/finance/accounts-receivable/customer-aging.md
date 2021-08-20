@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b80345513d355115a182c108bf3843963e9a59d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c1e3b724c95aa91192c77d5f3b8be4f93f0357f5f2f940c198bc8da47933fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769075"
 ---
 # <a name="customer-aging-report"></a>客户帐龄分析表 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64f9b8f6a7620015bae3471e60be340652af9435
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed91d3363f99cc6c7bc7b66ad8fba55adad3c2006fd10571e85a44cd14f43463
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761726"
 ---
 # <a name="set-up-subscription-groups"></a>设置预订组 
 

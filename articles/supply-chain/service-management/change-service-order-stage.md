@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b35efb92de1ed91001561d39126d10063290a346
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 85feeb463da158500771ee786f767541f803adbaad94b5f9aeed90ce8f22c043
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767991"
 ---
 # <a name="change-the-service-order-stage"></a>更改服务订单阶段 
 

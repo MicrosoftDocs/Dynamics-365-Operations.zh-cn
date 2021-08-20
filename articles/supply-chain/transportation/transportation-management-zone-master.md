@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 7347add052ec4a9540417a5aeea64ab623026954
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: d011986ee89d6d20045a0b44bfd186afad09d0d7032893734f38dc656bd9eab4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753148"
 ---
 # <a name="transportation-management-zone-master"></a>运输管理主区域
 

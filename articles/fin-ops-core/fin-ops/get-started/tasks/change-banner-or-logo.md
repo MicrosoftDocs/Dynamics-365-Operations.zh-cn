@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dd795b86e4aa05ac96123ed6b879d3dbca9166e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0cf47b81f10bb74907e12872ef52e01b2d6ef6ae654afd3b5d6c273053ad6678
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745611"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750476"
 ---
 # <a name="change-the-banner-or-logo"></a>更改横幅或徽标
 

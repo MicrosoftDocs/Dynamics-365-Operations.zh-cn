@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37e61a3c48d646dce9007229fcb7fa4ecde45a8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d1ed614a036e1d2cbd16f4757ec7c69a1d02f1d2adc92b86203f184a0b5d106
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742528"
 ---
 # <a name="packing-materials-and-fees"></a>包装材料和费用
 

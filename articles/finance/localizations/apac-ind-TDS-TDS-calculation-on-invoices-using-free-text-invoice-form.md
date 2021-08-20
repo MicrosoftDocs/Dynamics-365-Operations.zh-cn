@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c543876c48eca55eaaa6fd67585ec357dfea276ffbf8abad3c28c6f4cf29f782
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750356"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>从普通发票页面中根据发票的 TDS 计算
 

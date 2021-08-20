@@ -2,7 +2,7 @@
 title: 在 Regulatory Configuration Services (RCS) 中配置电子开票
 description: 本主题说明如何在 Dynamics 365 Regulatory Configuration Services (RCS) 中配置电子开票。
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757966"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>在 Regulatory Configuration Services (RCS) 中配置电子开票
 
@@ -46,21 +46,13 @@ ms.locfileid: "6075135"
 
 最后，这些功能还支持与税务主管机构或某些认可方托管的外部 Web 服务交换消息，并支持请求授权或在电子发票中增加审核戳记。
 
-### <a name="availability-of-electronic-invoicing-features"></a>电子开票功能的可用性
+## <a name="availability-of-electronic-invoicing-features"></a>电子开票功能的可用性
 
 电子开票功能的可用性取决于国家或地区。 虽然有些功能已正式发布，但其他功能仍处于预览阶段。
 
-#### <a name="generally-available-features"></a>正式发布的功能
+### <a name="generally-available-features"></a>正式发布的功能
 
 下表显示了正式发布的电子开票功能。
-
-| 国家/地区 | 功能名称                         | 业务文档 |
-|----------------|--------------------------------------|-------------------|
-| 埃及          | 埃及电子发票 (EG) | 销售发票和项目发票 |
-
-#### <a name="preview-features"></a>预览功能
-
-下表显示了当前处于预览阶段的电子开票功能。
 
 | 国家/地区 | 功能名称                         | 业务文档 |
 |----------------|--------------------------------------|-------------------|
@@ -68,29 +60,39 @@ ms.locfileid: "6075135"
 | 比利时        | 比利时电子发票 (BE)      | 销售发票和项目发票 |
 | 巴西         | 巴西 NF-e (BR)                  | 会计单据模型 55，更正单、取消和弃用 |
 | 巴西         | 巴西 NFS-e ABRASF 库里蒂巴 (BR) | 服务会计单据 |
+| 巴西         | 从电子邮件导入巴西 NF-e (BR) | 会计单据模型 55 |
 | 丹麦        | 丹麦电子发票 (DK)       | 销售发票和项目发票 |
+| 埃及          | 埃及电子发票 (EG)     | 销售发票和项目发票 |
 | 爱沙尼亚        | 爱沙尼亚电子发票 (EE)     | 销售发票和项目发票 |
 | 芬兰        | 芬兰电子发票 (FI)      | 销售发票和项目发票 |
 | 法国         | 法国电子发票 (FR)       | 销售发票和项目发票 |
 | 德国        | 德国电子发票 (DE)       | 销售发票和项目发票 |
 | 意大利          | FatturaPA (IT)                       | 销售发票和项目发票 |
-| 墨西哥         | 墨西哥 CFDI (MX)                    | 销售发票、装箱单、库存转移、付款补充和取消 |
 | 荷兰    | 荷兰电子发票 (NL)        | 销售发票和项目发票 |
 | 挪威         | 挪威电子发票 (NO)    | 销售发票和项目发票 |
 | 西班牙          | 西班牙电子发票 (ES)      | 销售发票和项目发票 |
 | 欧洲         | PEPPOL 电子发票            | PEPPOL 销售发票和项目发票 |
+| 欧洲         | PEPPOL 供应商发票                | PEPPOL 导入供应商发票 |
+
+### <a name="preview-features"></a>预览功能
+
+下表显示了当前处于预览阶段的电子开票功能。
+
+| 国家/地区 | 功能名称                         | 业务文档 |
+|----------------|--------------------------------------|-------------------|
+| 墨西哥         | 墨西哥 CFDI (MX)                    | 销售发票、装箱单、库存转移、付款补充和取消 |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>电子开票功能的可配置组件
 
 电子开票功能由以下几组可配置组件组成：
 
-- **格式** – 格式让您可以配置当电子单据成为电子发票时电子开票必须生成的内容。 格式包括电子发票的格式配置，以及当需要与外部 Web 服务通信时用于提交请求和接收响应的文件和消息的格式配置。
-- **操作** – 操作让您可以配置电子开票如何将 Finance 和 Supply Chain Management 提交的电子单据转换为电子发票。
-- **适用性规则** – 适用性规则让您可以配置电子开票在处理电子开票功能时必须考虑的上下文。
-- **变量** – 变量让您可以配置对构造配置逻辑的支持。 变量可以用作执行特定操作的值的输入。 或者，还可以用作 Finance 和 Supply Chain Management 与电子开票之间的值的交换。
-- **电子单据模型映射** – 电子单据模型映射可让您配置 ER 模型映射。 此模型映射定义提交电子单据时集成到电子开票中的摘要发票的数据映射。
-- **发票上下文模型** – 发票上下文模型让您可以配置 ER 发票上下文模型并定义电子开票功能的上下文。
-- **响应类型** – 响应类型让您可以配置由于进行电子发票处理，电子开票必须在 Finance 和 Supply Chain Management 中更新的内容。
+- **格式**：格式让您可以配置当电子单据成为电子发票时电子开票必须生成的内容。 格式包括电子发票的格式配置，以及当需要与外部 Web 服务通信时用于提交请求和接收响应的文件和消息的格式配置。
+- **操作**：操作让您可以配置电子开票如何将 Finance 和 Supply Chain Management 提交的电子单据转换为电子发票。
+- **适用性规则**：适用性规则让您可以配置电子开票在处理电子开票功能时必须考虑的上下文。
+- **变量**：变量让您可以配置对构造配置逻辑的支持。 变量可以用作执行特定操作的值的输入。 或者，还可以用作 Finance 和 Supply Chain Management 与电子开票之间的值的交换。
+- **电子单据模型映射**：电子单据模型映射可让您配置 ER 模型映射。 此模型映射定义提交电子单据时集成到电子开票中的摘要发票的数据映射。
+- **发票上下文模型**：发票上下文模型让您可以配置 ER 发票上下文模型并定义电子开票功能的上下文。
+- **响应类型**：响应类型让您可以配置由于进行电子发票处理，电子开票必须在 Finance 和 Supply Chain Management 中更新的内容。
 
 ### <a name="formats"></a>格式
 
@@ -204,10 +206,10 @@ ms.locfileid: "6075135"
 | 行为                                        | 说明                                                                  | 可用性         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | 转换文档                            | 运行电子报告格式来转换文档。                   | 正式发布  |
-| 对 xml 文档签名                             | 使用数字签名对 xml 文档进行签名。                                   | 预览模式           |
-| 对埃及税务主管机构的 json 文档签名 | 使用数字签名对埃及税务主管机构的 json 文档签名。       | 正式发布  |
+| 对 xml 文档签名                             | 使用数字签名对 xml 文档进行签名。                                   | 正式发布  |
+| 对埃及税务主管机构 json 文档进行签名 | 使用数字签名对埃及税务主管机构的 json 文档签名。       | 正式发布  |
 | 与埃及 ETA 服务集成           | 与埃及税务主管机构通信。                                     | 正式发布  |
-| 调用巴西 SEFAZ 服务                  | 与巴西 SEFAZ 服务集成以提交会计单据。       | 预览模式           |
+| 调用巴西 SEFAZ 服务                  | 与巴西 SEFAZ 服务集成以提交会计单据。       | 正式发布  |
 | 调用墨西哥 PAC 服务                      | 与墨西哥 PAC 服务集成以提交 CFDI。                      | 预览模式           |
 | 处理响应                              | 分析从 Web 服务调用收到的响应。                     | 正式发布  |
 | 使用 MS Power Automate                         | 与 Microsoft Power Automate 内置流集成。                       | 预览模式           |

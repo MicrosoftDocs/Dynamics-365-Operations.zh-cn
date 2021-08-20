@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 625003731485329b93f5f9454ccece580c889613
-ms.sourcegitcommit: c2c6d687a89bc1534c029109315c23e92865b63b
+ms.openlocfilehash: a6a5b1140d1bc5d09a1bc582fb1d2ac9446fae0920cbb9957797dbdea4c684e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2021
-ms.locfileid: "6123811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760314"
 ---
 # <a name="you-cant-confirm-a-shipment-because-the-quantity-exceeds-the-underdelivery-percentage"></a>您无法确认装运，因为数量超过了欠交百分比
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3ce429290f98e2e1ae7ff20e3554db43d3371c65
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9b9aada2c110ea3b7e70157e6edce9647bbfd28fe307654e10f6d38585090563
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758937"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>收入确认重新分配 - 方案 4
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 24a39f35b81c47fb7f17adf335738ac6a32713308be90f6194d24908e152884e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769213"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 

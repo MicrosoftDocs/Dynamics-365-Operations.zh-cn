@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 5f282d26f4b2f607cf5f16cdf3dee4ad2c6b9c203973135f75db3f652fdd81c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746200"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 

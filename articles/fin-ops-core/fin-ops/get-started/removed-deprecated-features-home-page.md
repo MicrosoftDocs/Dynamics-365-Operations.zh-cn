@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d8d09ba4d2922852c62608afd2787d12765faa9
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 00beaba2d3ddb3672d335d4176723b77a8dc263650cae343a3bbcdfd52601d45
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763378"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>已删除或弃用的功能主页
 

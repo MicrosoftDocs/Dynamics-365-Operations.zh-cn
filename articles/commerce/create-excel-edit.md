@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a2d41dd0470a4abae1a8238be8f1549fb094a026
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753100"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>创建 Excel 工作簿以编辑零售交易记录
 
@@ -58,7 +58,7 @@ ms.locfileid: "5795731"
     | 金库投箱 | 交易记录（可审计）、金库支付交易记录（可审计） |
     | 钱币清点 | 交易记录（可审计）、钱币清点交易记录（可审计） |
     | 收入、支出 | 交易记录（可审计）、收入/支出交易记录（可审计）、付款交易记录（可审计） |
-    | 清点起始金额、支付方式删除、浮动条目、找零支付方式、账单付款、客户存款 | 交易记录（可审计）、付款交易记录（可审计） |
+    | 清点起始金额、支付方式删除、浮动条目、找零支付方式、发票付款、客户存款 | 交易记录（可审计）、付款交易记录（可审计） |
 
     > [!NOTE]
     > 务必注意，只能向每个 Excel 工作簿添加一个数据实体。 此外，必须将钥匙符号标记的所有字段都添加到相关工作簿中。

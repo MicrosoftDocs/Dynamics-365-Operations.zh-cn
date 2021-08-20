@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b52dc87e4a6a47f0c656c25bd5b5506f9de919c3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: be8090ee8fc3b58d37e221a6e1a5b8caf9704cf242a9ae22f860499c5b5bafcf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755049"
 ---
 # <a name="loyalty-overview"></a>会员概览
 

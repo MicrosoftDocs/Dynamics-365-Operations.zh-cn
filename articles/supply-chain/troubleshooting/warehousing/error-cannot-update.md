@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b7fc579821f9a80d94aea949fcc0301b9d8f6935
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: da5905fb7ed1e890c85e891843379aa07de3279bd8972d6fc57136aa703c9ea4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762786"
 ---
 # <a name="an-error-occurs-when-the-location-is-selected-during-picking-list-registration"></a>在领料单登记期间选择位置时发生错误
 

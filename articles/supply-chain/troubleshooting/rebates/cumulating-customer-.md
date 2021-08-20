@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5222d5a52a34ecfa4a1eac96a2cb561f257f17ea
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: fc3381dab77cf80c0fd65f3bc27c11b814e72368631bd0e2145aac0be4f4fba4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760362"
 ---
 # <a name="cumulation-of-customer-rebates-fails-when-item-rebate-groups-are-used"></a>使用物料返点组时客户返点累计失败
 

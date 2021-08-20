@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 41588b7dc037f6d748bac818f8707540ce8afe8d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ea60826ddfd9553ba16c22f077d65732bf08e18fa079c6311431d35dd9aaa99f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765482"
 ---
 # <a name="landed-cost-reports"></a>登陆成本报表
 

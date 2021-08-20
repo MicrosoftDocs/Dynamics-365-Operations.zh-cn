@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
-ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
+ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6645364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764255"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 

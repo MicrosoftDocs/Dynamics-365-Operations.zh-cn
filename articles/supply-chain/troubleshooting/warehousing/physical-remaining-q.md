@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: bfd381160bcfd1e6e5489e16cc22178b8a5142ee
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744646"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>单位中的实际剩余数量不得为零
 

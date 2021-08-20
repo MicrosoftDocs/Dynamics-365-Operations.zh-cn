@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4adc0d6211c687aff60c39ce999d6ef9e15089af
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 00b14abddc0df74c28c6442a5d41acbce269e63d23d9a3a3575db9d182d89819
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752650"
 ---
 # <a name="picking-list-report-doesnt-show-new-notes-that-are-attached-to-a-journal"></a>领料单报表不显示日记帐附加的新注释
 

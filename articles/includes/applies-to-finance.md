@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b1edfa36c27673c6da8748bfd30e3cadb0fd2ce6
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 658f71c0a43bd4e4aa8557ed90e8c49d41ed5fb733c6dedb6c2b5d6e3508fc76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766815"
 ---
 **适用于以下 Dynamics 365 应用**：<br>
 Finance

@@ -2,7 +2,7 @@
 title: 管理电子申报 (ER) 配置生命周期
 description: 本主题介绍如何管理 Dynamics 365 Finance 的电子报告 (ER) 配置的生命周期。
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767771"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
@@ -82,20 +82,34 @@ ms.locfileid: "6345730"
 
 ![ER 配置生命周期。](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />数据持久性注意事项
+## <a name="data-persistence-consideration"></a>数据持久性注意事项
 
 您可以将 ER [配置](general-electronic-reporting.md#Configuration)的不同[版本](general-electronic-reporting.md#component-versioning)单独[导入](tasks/er-import-configuration-lifecycle-services.md)到您的 Finance 实例。 导入新版本的 ER 配置时，系统将控制此配置的草稿版本的内容：
 
-   - 当导入的版本低于当前 Finance 实例中此配置的最高版本时，此配置的草稿版本内容将保持不变。
-   - 当导入的版本高于当前 Finance 实例中此配置的任何其他版本时，导入版本的内容将复制到此配置的草稿版本，以使您可以继续编辑最后完成的版本。
+- 当导入的版本低于当前 Finance 实例中此配置的最高版本时，此配置的草稿版本内容将保持不变。
+- 当导入的版本高于当前 Finance 实例中此配置的任何其他版本时，导入版本的内容将复制到此配置的草稿版本，以使您可以继续编辑最后完成的版本。
 
 如果此配置由当前已激活的配置 [提供商](general-electronic-reporting.md#Provider)负责，您可以在 **配置** 页面的 **版本** 快速选项卡上看到此配置的草稿版本（**组织管理** > **电子报告** > **配置**）。 您可以选择配置的草稿版本，然后通过使用相关的 ER 设计器[修改](er-quick-start2-customize-report.md#ConfigureDerivedFormat)其内容。 在编辑 ER 配置的草稿版本后，其内容不再与当前 Finance 实例中此配置的最高版本的内容相匹配。 若要防止更改丢失，系统将显示一个错误，即由于此配置的版本高于当前 Finance 实例中此配置的最高版本，因此导入无法继续。 当发生这种情况时，例如，对于格式配置 **X**，将显示 **格式“X”版本未完成** 错误。
 
 若要撤消在草稿版本中引入的更改，请在 **版本** 快速选项卡上选择 Finance 中 ER 配置的已完成或已共享最高版本，然后选择 **获取此版本** 选项。 所选版本的内容将复制到草稿版本。
 
+## <a name="applicability-consideration"></a>适用性注意事项
+
+当您设计新版本的 ER 配置时，您可以定义其对其他软件组件的[依赖关系](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)。 此步骤被视为控制从 ER 存储库或外部 XML 文件下载此配置的版本和进一步使用此版本的先决条件。 当您尝试导入 ER 配置的新版本时，系统使用配置的先决条件控制是否可以导入该版本。
+
+在某些情况下，您可能要求系统在您导入新版本的 ER 配置时忽略配置的先决条件。 要使系统在导入期间忽略先决条件，请按照以下步骤操作。
+
+1. 转到 **组织管理** \> **电子申报** \> **配置**。
+2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
+3. 将 **导入期间跳过产品更新和版本先决条件检查** 设置为 **是**。
+
+    > [!NOTE]
+    > 此参数特定于用户并且特定于公司。
+
 ## <a name="additional-resources"></a>其他资源
 
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
+[定义其他组件上的电子报告配置的依赖关系](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
