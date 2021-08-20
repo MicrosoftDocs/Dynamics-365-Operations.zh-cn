@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ec21cda4779fea8c28b73d25842219da900da9d
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: d4fa6b6be890c4a16a18591bb979a28a9d0a32ea995d6de681fe8b7a771c513a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777975"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>创建购买和出售休假请求工作流
 

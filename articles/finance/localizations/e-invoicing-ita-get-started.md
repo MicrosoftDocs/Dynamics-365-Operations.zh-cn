@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 64da0fb70653f3a73d7a9f24c4f8ac6d4d0f2d8b42bc4ea5c7ff529d82d5f0c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768283"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>开始使用适用于意大利的电子开票
 

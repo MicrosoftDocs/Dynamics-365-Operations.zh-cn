@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbe809eb3c0149c907559a4b6c78e74159dcbcd5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e973b05b6e501288b4a0cee1fdc068aca78227425ae70c5d37cdfcd24f8cf5db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773241"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 

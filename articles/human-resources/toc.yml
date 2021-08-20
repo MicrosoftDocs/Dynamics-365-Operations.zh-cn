@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 7 月 26 日
+          href: hr-whats-new-2021-07-26.md
         - name: 2021 年 7 月 12 日
           href: hr-whats-new-2021-07-12.md
         - name: 2021 年 6 月 22 日
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 2021 年 1 月 21 日
           href: hr-whats-new-2021-01-21.md
-        - name: 2020 年 12 月 2 日
-          href: hr-whats-new-2020-12-02.md
-        - name: 2020 年 10 月 22 日
-          href: hr-whats-new-2020-10-22.md
-        - name: 2020 年 10 月 6 日
-          href: hr-whats-new-2020-10-06.md
-        - name: 2020 年 9 月 26 日
-          href: hr-whats-new-2020-09-26.md
-        - name: 2020 年 9 月 16 日
-          href: hr-whats-new-2020-09-16.md
-        - name: 2020 年 9 月 3 日
-          href: hr-whats-new-2020-09-03.md
-        - name: 2020 年 8 月 20 日
-          href: hr-whats-new-2020-08-20.md
-        - name: 2020 年 8 月 6 日
-          href: hr-whats-new-2020-08-06.md
-        - name: 2020 年 7 月 23 日
-          href: hr-whats-new-2020-07-23.md
-        - name: 2020 年 7 月 8 日
-          href: hr-whats-new-2020-07-08.md
-        - name: 2020 年 6 月 25 日
-          href: hr-whats-new-2020-06-23.md
-        - name: 2020 年 6 月 11 日
-          href: hr-whats-new-2020-06-11.md
-        - name: 2020 年 5 月 28 日
-          href: hr-whats-new-2020-05-28.md
-        - name: 2020 年 5 月 14 日
-          href: hr-whats-new-2020-05-14.md
-        - name: 2020 年 5 月 1 日
-          href: hr-whats-new-2020-05-01.md
         - name: 2020 年新增功能存档
           items:
+            - name: 2020 年 12 月 2 日
+              href: hr-whats-new-2020-12-02.md
+            - name: 2020 年 10 月 22 日
+              href: hr-whats-new-2020-10-22.md
+            - name: 2020 年 10 月 6 日
+              href: hr-whats-new-2020-10-06.md
+            - name: 2020 年 9 月 26 日
+              href: hr-whats-new-2020-09-26.md
+            - name: 2020 年 9 月 16 日
+              href: hr-whats-new-2020-09-16.md
+            - name: 2020 年 9 月 3 日
+              href: hr-whats-new-2020-09-03.md
+            - name: 2020 年 8 月 20 日
+              href: hr-whats-new-2020-08-20.md
+            - name: 2020 年 8 月 6 日
+              href: hr-whats-new-2020-08-06.md
+            - name: 2020 年 7 月 23 日
+              href: hr-whats-new-2020-07-23.md
+            - name: 2020 年 7 月 8 日
+              href: hr-whats-new-2020-07-08.md
+            - name: 2020 年 6 月 25 日
+              href: hr-whats-new-2020-06-23.md
+            - name: 2020 年 6 月 11 日
+              href: hr-whats-new-2020-06-11.md
+            - name: 2020 年 5 月 28 日
+              href: hr-whats-new-2020-05-28.md
+            - name: 2020 年 5 月 14 日
+              href: hr-whats-new-2020-05-14.md
+            - name: 2020 年 5 月 1 日
+              href: hr-whats-new-2020-05-01.md
             - name: 2020 年 4 月 13 日
               href: hr-whats-new-2020-04-13.md
             - name: 2020 年 4 月 3 日
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: 休假请求
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: 福利相关实体
+              items:
+                - name: 工资单工作人员福利计划
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: 选项集
               items:
                 - name: 性别
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: 流程类型
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: 福利计划类型覆盖范围
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: 福利员工计划状态
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: 用户指南
       items:
         - name: 概览

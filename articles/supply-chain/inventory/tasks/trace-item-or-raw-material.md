@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: chuzheng
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46e46d75ecab3ec2e94372aecfd2c29783756446
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 01e945b94017dd95a43e0f089902ffd3ea1298ef230f84d9198031b30e323ef9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781918"
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 

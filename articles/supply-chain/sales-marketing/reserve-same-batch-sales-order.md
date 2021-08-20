@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9bb3eb067e7e9f8a9108da05602fc6771e7dd12c47be44f989ded53ff7c9d250
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754504"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 

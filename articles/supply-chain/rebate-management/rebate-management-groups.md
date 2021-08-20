@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 10b5238f53f89dbd79e6a0fa4ef24ee92f0ae752f220c1f4d19ea629969a3049
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767380"
 ---
 # <a name="rebate-management-groups"></a>返点管理组
 

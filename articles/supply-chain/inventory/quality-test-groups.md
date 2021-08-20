@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 020a610e6a7e4d4b35ceb176d542bae32503a615
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fdd7c2eb452d7d34e05d9e067e61d6587e1fd4b67b22723ecef2832501be1eaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774118"
 ---
 # <a name="quality-management-test-groups"></a>质量管理测试组
 

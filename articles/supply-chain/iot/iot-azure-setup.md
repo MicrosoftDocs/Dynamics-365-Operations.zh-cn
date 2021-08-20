@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 33c28f8e7982c6ec9b892e975525de69fc637892
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: b605f283bc53c1c5b87ad88d4f19aeba9737e00563290413f3cb75b4e20dbbde
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774865"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>设置 IoT 智能的 Azure 资源
 

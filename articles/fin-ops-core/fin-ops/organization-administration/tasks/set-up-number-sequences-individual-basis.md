@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 50f7f42f3d24a608d43cf7469a7624efe09a74db8f1d0fcd2704dedbd8f503be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749500"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>逐个设置编号规则
 

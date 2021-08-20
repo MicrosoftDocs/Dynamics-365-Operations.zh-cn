@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d782e9bf4793e2c6d1ef8b334d3bfc3bb729ad31
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99c53931b95816188367f903628db4e6d62b38bd16aba0014b03c8a79e815194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760940"
 ---
 # <a name="take-returned-items-through-inspection"></a>将退回物料送交检查 
 

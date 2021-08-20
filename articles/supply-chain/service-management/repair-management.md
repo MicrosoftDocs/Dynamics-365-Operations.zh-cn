@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d0c6ee65713af86378ada79075f969a41f1c0ad
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aa739685791596fe1a3dce3abff344b21b8d7f6dd5cefc525c7e749a75138a9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774673"
 ---
 # <a name="repair-management"></a>维修管理       
 

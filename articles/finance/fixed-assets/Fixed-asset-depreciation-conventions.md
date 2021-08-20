@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 684e81354559401cfb0095a6455fd9def44d5a6a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 03b362670a02d3f7a76844f3b5e2f120230ef17d9f067f07c005714af5413c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756241"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>固定资产折旧惯例
 

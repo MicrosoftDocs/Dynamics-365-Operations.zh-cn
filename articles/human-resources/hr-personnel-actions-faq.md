@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: c005c08c7ceafffc63650b64c3602aa65ae94e2788a5c70b5fd372a4f54a0301
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748827"
 ---
 # <a name="personnel-actions-faq"></a>人事行动常见问题
 

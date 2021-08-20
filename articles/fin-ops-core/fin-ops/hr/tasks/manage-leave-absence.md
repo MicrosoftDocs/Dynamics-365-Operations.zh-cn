@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5bb65e7cd77450751718aaa0b6179ba7386de8ab
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 465b2efef89a6a14a76282c782da9e6b4830d70bf463065deeae186aff7b7298
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752243"
 ---
 # <a name="manage-leave-of-absence"></a>管理休假
 

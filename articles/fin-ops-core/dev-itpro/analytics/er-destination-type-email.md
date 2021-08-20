@@ -2,7 +2,7 @@
 title: 电子邮件 ER 目标类型
 description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769311"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -42,23 +42,43 @@ ms.locfileid: "6347988"
 
 可以为一个 ER 格式配置配置多组组件。 这样，您可以为每组组件配置一个电子邮件目标，并为每个组件配置一个电子邮件目标。
 
-## <a name="configure-an-email-destination"></a>配置电子邮件目标
+## <a name="enable-an-email-destination"></a>启用电子邮件目标
 
-要通过电子邮件发送一个或多个输出文件，请在 **电子申报目标** 页面上的 **文件目标** 快速选项卡上的网格中选择一个或一组组件，然后选择 **设置**。 在显示的 **目标设置** 对话框的 **电子邮件** 选项卡上，将 **已启用** 选项设置为 **是**。 然后可以指定电子邮件收件人，以及编辑电子邮件的主题和正文。 可以为电子邮件主题和正文设置固定文本，也可以使用 ER [公式](er-formula-language.md)动态创建电子邮件文本。
+要通过电子邮件发送一个或多个输出文件，请按照以下步骤操作。
 
-可以通过两种方法为 ER 配置电子邮件地址。 可以用打印管理功能完成配置所用的相同方式来完成此配置，或者可以通过公式使用 ER 配置的直接引用来解析电子邮件地址。
+1. 在 **电子申报目标** 页面上的 **文件目标** 快速选项卡上，选择网格中的一个或一组组件。
+2. 选择 **设置**，然后在 **目标设置** 对话框的 **电子邮件** 选项卡上，将 **已启用** 选项设置为 **是**。
 
 [![将电子邮件目标的“已启用”选项设置为“是”。](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>配置电子邮件目标
+
+您可以指定电子邮件发件人和电子邮件收件人，并且可以编辑电子邮件的主题和正文。 可以为电子邮件主题和正文设置固定文本，或者使用 ER [公式](er-formula-language.md)动态创建电子邮件文本。
+
+默认情况下，将代表当前用户发送电子邮件。 若要指定其他电子邮件发件人，您必须配置 **发件人** 字段。
+
+> [!NOTE]
+> 配置电子邮件目标后，**发件人** 字段仅对具有 `ERFormatDestinationSenderEmailConfigure` 安全特权的用户可见，请 **为 ER 格式目标配置发件人电子邮件地址**。
+>
+> 提供电子邮件目标以在 [运行时](electronic-reporting-destinations.md#security-considerations)修改时，**发件人** 字段仅对具有 `ERFormatDestinationSenderEmailMaintain` 安全特权的用户可见，请 **为 ER 格式目标维护发件人电子邮件地址**。
+>
+> 当 **发件人** 字段配置为使用当前用户电子邮件地址之外的其他电子邮件地址时，**发送人** 或 **发送人代表** 权限必须提前正确[设置](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide)。 否则，运行时会引发以下异常：“无法从 \<current user account\> 帐户以 \<from email account\> 身份发送电子邮件，请检查 \<from email account\> 上的“发送人”权限。
+
+您可以配置 **发件人** 字段以返回多个电子邮件地址。 在这种情况下，列表中的第一个地址用作电子邮件发件人地址。
+
+若要指定电子邮件收件人，您必须配置 **收件人** 和 **抄送** 字段（可选）。
+
+可以通过两种方法为 ER 配置电子邮件地址。 可以用打印管理功能所用的相同方式来完成此配置，或者可以通过公式使用 ER 配置的直接引用来解析电子邮件地址。
+
 ## <a name="email-address-types"></a>电子邮件地址类型
 
-如果选择 **目标设置** 对话框中 **收件人** 或 **抄送** 字段旁边的 **编辑**，将显示 **电子邮件收件人** 对话框。 选择 **添加**，然后选择要使用的电子邮件地址类型。 现在支持两种类型：**打印管理电子邮件** 和 **配置电子邮件**。
+如果选择 **目标设置** 对话框中 **发件人**、**收件人** 或 **抄送** 旁边的 **编辑**，将显示相应的 **电子邮件发件人**、**电子邮件收件人** 或 **电子邮件抄送** 对话框。 在那里，您可以配置电子邮件发件人和电子邮件收件人。 选择 **添加**，然后选择要使用的电子邮件地址类型。 现在支持两种类型：**打印管理电子邮件** 和 **配置电子邮件**。
 
 [![选择电子邮件地址的类型。](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>打印管理电子邮件
 
-如果选择 **打印管理电子邮件** 作为电子邮件地址类型，您可以通过设置以下字段在 **电子邮件收件人** 对话框中输入固定电子邮件地址：
+如果选择 **打印管理电子邮件** 作为电子邮件地址类型，您可以通过设置以下字段在 **电子邮件发件人**、**电子邮件收件人** 或 **电子邮件抄送** 对话框中输入固定电子邮件地址：
 
 - 在 **电子邮件源** 字段中，选择 **无**。
 - 在 **更多电子邮件，以“;”分隔** 字段中，输入固定电子邮件地址。
@@ -74,6 +94,7 @@ ms.locfileid: "6347988"
 - 申请人
 - 潜在供应商
 - 非许可供应商
+- 法人
 
 例如，若要为用于处理供应商付款的 ER 格式配置电子邮件目标，请选择 **供应商** 角色。
 
@@ -106,7 +127,7 @@ ms.locfileid: "6347988"
 
 ### <a name="configuration-email"></a>配置电子邮件
 
-如果所用配置在数据源中有一个返回一个电子邮件地址或多个电子邮件地址（以分号 (;) 分隔）的节点，请选择 **配置电子邮件** 作为电子邮件地址类型。 可以在公式设计器中使用[数据源](general-electronic-reporting.md#FormatComponentOutbound)和[函数](er-formula-language.md#functions)获取格式正确的一个电子邮件地址或多个电子邮件地址（以分号分隔）。 例如，如果使用 **ISO 20022 贷方转帐** 配置，则应该将表示供应商联系人详细信息中的供应商主要电子邮件地址（包括字母）设置为 `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`。
+如果所用配置在数据源中有一个返回一个电子邮件地址或多个电子邮件地址（以分号 (;) 分隔）的节点，请选择 **配置电子邮件** 作为电子邮件地址类型。 可以在公式设计器中使用[数据源](general-electronic-reporting.md#FormatComponentOutbound)和[函数](er-formula-language.md#Functions)获取格式正确的一个电子邮件地址或多个电子邮件地址（以分号分隔）。 例如，如果使用 **ISO 20022 贷方转帐** 配置，则应该将表示供应商联系人详细信息中的供应商主要电子邮件地址（包括字母）设置为 `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`。
 
 [![配置电子邮件地址源。](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

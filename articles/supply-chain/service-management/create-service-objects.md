@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b33d3cc14085dd25f58dd4d6039bc6f9c83f5375
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 524871ea50b08133982d72f8e0d069868a5d1359907a97f530e84b6335a5fb55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772392"
 ---
 # <a name="create-service-objects"></a>创建服务对象  
 
