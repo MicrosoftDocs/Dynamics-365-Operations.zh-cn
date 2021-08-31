@@ -2,7 +2,7 @@
 title: Finance 主页
 description: 本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779414"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394555"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
@@ -29,20 +29,22 @@ ms.locfileid: "6779414"
 
 本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。 
 
-选择一个功能区域以了解有关它的更多信息。
+选择一个功能区域进行详细了解。
 
 :::row:::
     :::column:::
         - [应付帐款](accounts-payable/accounts-payable.md) 
         - [应收帐款](accounts-receivable/accounts-receivable.md)
+        - [资产租赁](asset-leasing/asset-leasing-homepage.md)
         - [预算编制](budgeting/budgeting-overview.md) 
         - [现金和银行管理](cash-bank-management/cash-bank-management.md)
         - [成本核算](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [费用管理](/dynamics365/project-operations/prod-exp/expense-management)
+        - [支出管理](/dynamics365/project-operations/prod-exp/expense-management)
         - [财务报告](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [固定资产](fixed-assets/fixed-assets.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [总帐和财务报告](general-ledger/general-ledger.md) 
         - [项目管理与核算](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [公共部门](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ ms.locfileid: "6779414"
 - [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [财务博客](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
 
 ### <a name="videos"></a>视频
 

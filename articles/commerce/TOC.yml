@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS 体系结构
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: 发布在线商店渠道
+                - name: 发布在线商店目录
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI 内容
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -536,7 +536,7 @@
                       href: pos-multi-hws.md
                     - name: 礼品卡和贷项通知单操作的无缝离线切换
                       href: dev-itpro/seamless-offline-improvements.md
-                    - name: 设置付款账单方案
+                    - name: 设置付款发票方案
                       href: payinvoice.md
                     - name: 重复付款预防
                       href: duplicate-payment-protection.md
@@ -794,7 +794,7 @@
                   href: orderexchanges.md
                 - name: 限制没有收据的退货的付款方式
                   href: payment-methods-restrictions.md
-                - name: 跨多个客户订单和账单的退回物料
+                - name: 跨多个客户订单和发票的退回物料
                   href: multireturn.md
                 - name: 创建和更新渠道的退货和退款政策
                   href: refund_policy_returns.md
@@ -820,7 +820,7 @@
                   href: tasks/process-loyalty-reward-point-adjustments.md
         - name: 管理财务
           items:
-            - name: 对账单概览
+            - name: 对帐单概览
               href: retail-statements.md
             - name: 交易记录一致性检查器
               href: valid-checker.md
@@ -844,17 +844,17 @@
               href: tasks/create-calculate-post-statement-retail-store.md
             - name: 零售商店中的财务对帐
               href: fin-recon.md
-            - name: 对账单过帐功能的改进
+            - name: 对帐单过帐功能的改进
               href: statement-posting-eod.md
             - name: 改进了批量跟踪物料的处理
               href: batch.md
-            - name: 配置影响零售对账单的付款方式设置
+            - name: 配置影响零售对帐单的付款方式设置
               href: tasks/payment-configurations-retail-statements.md
-            - name: 配置和运行计算对账单作业
+            - name: 配置和运行计算对帐单作业
               href: tasks/run-job-calculate-statements.md
-            - name: 配置和运行过帐对账单作业
+            - name: 配置和运行过帐对帐单作业
               href: tasks/run-job-post-statements.md
-            - name: 配置影响零售对账单的商店设置
+            - name: 配置影响零售对帐单的商店设置
               href: tasks/store-configurations-retail-statements.md
             - name: 过帐在线销售和付款
               href: tasks/posting-online-sales-payments.md
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: 将电子报告配置下载到 Commerce
+                  items:
+                    - name: 从 RCS 下载配置
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 从 RCS 导入配置
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: 全局存储库 (GR)
+                  items:
+                    - name: 从 GR 导入配置
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: 导入电子报告配置的更新版本
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: 增强的筛选，用于在 GR 中查找配置
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: 将配置上传到 GR
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: 共享 GR 中的配置
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: 终止 RCS 全局存储库中的配置
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: 奥地利
               items:
                 - name: 奥地利的会计登记服务集成示例
@@ -1296,7 +1316,7 @@
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: 东欧的 Commerce 备用金管理
                       href: localizations/emea-eeu-petty-cash-for-retail.md
-                    - name: 东欧国家/地区的客户账单和退货销售订单
+                    - name: 东欧国家/地区的客户发票和退货销售订单
                       href: localizations/emea-eeu-retail-invoices.md
                     - name: 面向捷克共和国、匈牙利和波兰的收银机部署指南
                       href: localizations/emea-eeu-deployment.md
@@ -1315,6 +1335,12 @@
                 - name: 收银机功能
                   href: localizations/emea-fra-cash-registers.md
                 - name: 收银机部署指南
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: 会计存档和数据完整性验证
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: 适用于法国的旧版功能迁移
+                  href: localizations/emea-fra-fi-migration.md
+                - name: 收银机部署指南（旧版）
                   href: localizations/emea-fra-deployment.md
             - name: 德国
               items:
@@ -1338,7 +1364,7 @@
                   href: localizations/emea-ita-customer-information.md
             - name: 墨西哥
               items:
-                - name: 墨西哥全球 CFDI 电子账单
+                - name: 墨西哥全球 CFDI 电子发票
                   href: ../finance/localizations/latam-mex-global-cfdi-3-3.md?toc=/dynamics365/commerce/toc.json
             - name: 挪威
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: 适用于俄罗斯的 Commerce 本地化
                   href: localizations/rus-commerce-localization.md
+                - name: 适用于俄罗斯的 Commerce POS 中的简化客户地址格式
+                  href: localizations/rus-simplified-address.md
                 - name: 设置适用于俄罗斯的 Commerce 本地化
                   href: localizations/rus-commerce-setup.md
                 - name: 适用于俄罗斯的 Commerce 中的预付款
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: 导入配置 (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: RCS 中的全球化功能
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: 将电子报告配置下载到 Commerce
-                      items:
-                        - name: 从 RCS 下载配置
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: 从 RCS 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: 全局存储库 (GR)
-                      items:
-                        - name: 从 GR 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: 导入电子报告配置的更新版本
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: 增强的筛选，用于在 GR 中查找配置
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: 将配置上传到 GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: 共享 GR 中的配置
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: 终止富通信全局存储库中的配置
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: 快速入门指南
               items:
                 - name: 调整电子报告格式以生成自定义电子单据
@@ -2086,7 +2090,7 @@
                   href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: 现有库存
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
-                - name: 账单审核
+                - name: 发票审核
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: 在 Excel 中打开实体数据并使用 Excel 加载项更新它
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: 创建“在 Excel 中打开”体验
+            - name: “在 Excel 中打开”体验常见问题解答
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: 将模板添加到“在 Excel 中打开行”菜单
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: 设置 Azure 密钥保管库以进行安全的密钥管理
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: 创建请求管道插件挂钩
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: 开发数据操作
                   items:
                     - name: 数据操作概览
@@ -2422,6 +2428,12 @@
                   items:
                     - name: 配置并启用连接器
                       href: e-commerce-extensibility/connectors.md
+                - name: 性能
+                  items:
+                    - name: 配置页面缓存
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: 数据操作实例缓存
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: 遥测和分析
                   items:
                     - name: 遥测记录器

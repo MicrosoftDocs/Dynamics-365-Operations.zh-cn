@@ -222,6 +222,26 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 将电子报告配置下载到 Supply Chain Management
+                      items:
+                        - name: 从 RCS 下载配置
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 从 RCS 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 全局存储库 (GR)
+                      items:
+                        - name: 从 GR 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 导入电子报告配置的更新版本
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 增强的筛选，用于在 GR 中查找配置
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 将配置上传到 GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: 共享 GR 中的配置
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 终止 RCS 全局存储库中的配置
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 电子开票
                   items:
                     - name: 电子开票概览
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 导入配置 (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: RCS 中的全球化功能
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 将电子报告配置下载到 Supply Chain Management
-                      items:
-                        - name: 从 RCS 下载配置
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 从 RCS 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 全局存储库 (GR)
-                      items:
-                        - name: 从 GR 导入配置
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 导入电子报告配置的更新版本
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 增强的筛选，用于在 GR 中查找配置
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 将配置上传到 GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: 共享 GR 中的配置
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 终止富通信全局存储库中的配置
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: 快速入门指南
               items:
                 - name: 调整电子报告格式以生成自定义电子单据
@@ -1574,7 +1570,19 @@
             - name: 存档库存交易记录
               href: inventory/archive-inventory-transactions.md
             - name: 库存可见性加载项
-              href: inventory/inventory-visibility.md
+              items:
+                - name: 库存可见性加载项概览
+                  href: inventory/inventory-visibility.md
+                - name: 设置库存可见性
+                  href: inventory/inventory-visibility-setup.md
+                - name: 配置库存可见性
+                  href: inventory/inventory-visibility-configuration.md
+                - name: 库存可见性预留
+                  href: inventory/inventory-visibility-reservations.md
+                - name: 库存可见性 Power App
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: 库存可见性公共 API
+                  href: inventory/inventory-visibility-api.md
         - name: IoT 智能
           items:
             - name: IoT 智能主页
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: 计划优化适应分析
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: 内置主计划与计划优化之间的差异
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 计划优化未使用的参数
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: 为计划应用筛选器
@@ -1769,7 +1779,7 @@
                   href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: 现有库存
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 账单审核
+                - name: 发票审核
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: 在 Excel 中打开实体数据并使用 Excel 加载项更新它
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 创建“在 Excel 中打开”体验
+            - name: “在 Excel 中打开”体验常见问题解答
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: 将模板添加到“在 Excel 中打开行”菜单
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: 创建询价
                   href: procurement/tasks/create-request-quotation.md
-                - name: 询价的密封投标
-                  href: procurement/sealed-bidding.md
                 - name: 创建使用询价的申请
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: 创建询价的计分方法
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: 安装和连接仓库应用
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: 移动条码支持
+                      href: warehousing/mobile-barcode-support.md
                     - name: 在 Warehouse Management 移动应用中使用摄像头扫描条码
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: 解决 Warehouse Management 移动应用的连接问题
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: 设置移动设备以执行仓库工作
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 自定义 Warehouse Management 移动应用的步骤标题和说明
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: 通过 Warehouse Management 移动应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: 仓库应用事件处理
                   href: warehousing/warehouse-app-events.md
-                - name: 自定义仓库应用
+                - name: 扩展仓库移动流程
                   items:
                     - name: 流程指南框架
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: 牌照标签的文档路线选择布局
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: 移动条码支持
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1 条码和二维码
+                      href: warehousing/gs1-barcodes.md
                     - name: 设置仓库以支持转移单
                       href: warehousing/transfer-orders-warehouse.md
                     - name: 仓库配置疑难解答

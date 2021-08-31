@@ -142,7 +142,7 @@
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
+                        - name: 将销售发票标题和行从 Finance and Operations 直接同步到 Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: 配置与 Field Service 的集成
                       items:
@@ -152,7 +152,7 @@
                           href: ../../supply-chain/sales-marketing/field-service-product.md
                         - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
+                        - name: 将 Field Service 中的协议发票同步到 Finance and Operations 中的普通发票
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
                         - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: 获取操作活动状态
                       href: database/api/v1/reference-get-status.md
-                    - name: 开始和停止环境
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: 演示数据
           items:
             - name: 演示数据概览
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: 业务连续性和灾难恢复
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: 完成 Azure 资源管理器入门培训
+                - name: 完成 Azure 资源管理器入门培训流程
                   href: deployment/arm-onboarding.md
+                - name: 完成美国政府 LCS 项目的 Azure 资源管理器入门培训流程
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute 和 Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operations 体系结构
@@ -852,7 +852,7 @@
                       href: extensibility/breaking-changes.md
                     - name: 兼容性检查器工具
                       href: extensibility/compatibility-checker-tool.md
-            - name: 绩效
+            - name: 性能
               items:
                 - name: 使用 Trace parser 进行跟踪
                   href: perf-test/trace-trace-tutorial.md
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: 适用于合作伙伴的 LCS
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: 开始和停止环境
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: 提取环境元数据
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: 提取环境历史记录
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: 提取环境 RSAT 证书 ZIP 包
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Lifecycle Services 中的新增功能或更改
                   href: lifecycle-services/whats-new-lcs.md
             - name: Lifecycle Services 用户指南
@@ -1022,47 +1032,47 @@
           items:
             - name: Microsoft Power Platform 与 Finance and Operations 的集成
               href: power-platform/overview.md
-            - name: 双写入
+            - name: 双重写入
               items:
-                - name: 双写入主页
+                - name: 双重写入主页
                   href: data-entities/dual-write/dual-write-home-page.md
-                - name: 双写入中的新增功能或更改
+                - name: 双重写入中的新增功能或更改
                   href: data-entities/dual-write/whats-new-dual-write.md
-                - name: 双写入概览
+                - name: 双重写入概览
                   href: data-entities/dual-write/dual-write-overview.md
-                - name: 双写入设置
+                - name: 双重写入设置
                   items:
-                    - name: 双写入的系统要求
+                    - name: 双重写入的系统要求
                       href: data-entities/dual-write/dual-write-system-req.md
-                    - name: 双写入设置指南
+                    - name: 双重写入设置指南
                       href: data-entities/dual-write/connection-setup.md
                     - name: 初始同步注意事项
                       href: data-entities/dual-write/initial-sync-guidance.md
-                    - name: Lifecycle Services 的双写入设置
+                    - name: Lifecycle Services 的双重写入设置
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: 为现有 Finance and Operations 应用启用双写入
+                    - name: 为现有 Finance and Operations 应用启用双重写入
                       items:
-                        - name: 为现有 Finance and Operations 应用启用双写入
+                        - name: 为现有 Finance and Operations 应用启用双重写入
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: 系统要求和先决条件
                           href: data-entities/dual-write/requirements-and-prerequisites.md
-                        - name: 如何使用双写入向导链接您的环境
+                        - name: 如何使用双重写入向导链接您的环境
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: 启用双写入实体映射
+                        - name: 启用双重写入实体映射
                           href: data-entities/dual-write/enable-entity-map.md
-                    - name: 双写入货币数据类型迁移
+                    - name: 双重写入货币数据类型迁移
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: 设置销售订单状态字段的映射
                       href: data-entities/dual-write/sales-status-map.md
                     - name: 筛选内部公司订单以避免同步订单和订单行
                       href: data-entities/dual-write/filtering-intercompany-orders.md
-                - name: 管理双写入
+                - name: 管理双重写入
                   items:
                     - name: 自定义实体和字段映射
                       href: data-entities/dual-write/customizing-mappings.md
                     - name: 处理多个实体映射
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: 设置双写入后编辑法人
+                    - name: 设置双重写入后编辑法人
                       href: data-entities/dual-write/edit-legal-entity.md
                     - name: 错误管理和预警通知
                       href: data-entities/dual-write/errors-and-alerts.md
@@ -1070,7 +1080,7 @@
                       href: data-entities/dual-write/app-lifecycle-management.md
                     - name: 用户指定的团队负责人
                       href: data-entities/dual-write/user-specified-team-owner.md
-                    - name: 取消链接和重新链接双写入环境
+                    - name: 取消链接和重新链接双重写入环境
                       href: data-entities/dual-write/relink-environments.md
                 - name: 应用之间的概念映射
                   items:
@@ -1138,23 +1148,25 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: 疑难解答
                       items:
-                        - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: 常规疑难解答
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: 解决初始设置过程中的问题
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: 解决初始同步过程中的问题
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: 解决 Finance and Operations 应用中的双重写入问题
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: 解决实时同步问题
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 解决 Finance and Operations 应用中的双重写入问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: 解决当事方和全球通讯簿的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: 解决与解决方案意识相关的问题
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: 解决 Finance and Operations 应用升级问题
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: 常规疑难解答
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                - name: 双写入常见问题解答
+                        - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                - name: 双重写入常见问题解答
                   href: data-entities/dual-write/dual-write-faq.md
             - name: 虚拟实体
               items:

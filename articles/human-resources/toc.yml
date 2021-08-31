@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 8 月 9 日
+          href: hr-whats-new-2021-08-09.md
         - name: 2021 年 7 月 26 日
           href: hr-whats-new-2021-07-26.md
         - name: 2021 年 7 月 12 日
@@ -127,7 +129,7 @@
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 更新 Excel 中的实体数据
                   href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: 创建“在 Excel 中打开”体验
+                - name: “在 Excel 中打开”体验常见问题解答
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 解决 Office 集成问题
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
