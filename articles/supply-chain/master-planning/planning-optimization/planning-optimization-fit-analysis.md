@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751090"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344970"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -51,6 +51,9 @@ ms.locfileid: "6751090"
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>拟合分析的可能结果概述
 
 下表显示了拟合分析后可能显示的各种结果。 数字符号 (_\#_) 将替换为一个数字，指示具有所列出问题的记录数。 支持或预览功能在 10.0.9 或更高版本中可用（除非“预期可用性”列中列出了更高的版本号）。
+
+> [!NOTE]
+> 计划优化适应分析无法识别某些不一致。 有关详细信息，请参阅[经典主计划与计划优化之间的差异](planning-optimization-differences-with-built-in.md)。
 
 | 功能 | 列出问题 | 摘要 | 预期可用性 |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ ms.locfileid: "6751090"
 [计划优化概览](planning-optimization-overview.md)
 
 [开始使用计划优化](get-started.md)
+
+[经典主计划与计划优化之间的差异](planning-optimization-differences-with-built-in.md)
+
+[计划优化未使用的参数](not-used-parameters.md)
 
 [查看计划历史记录和计划日志](plan-history-logs.md)
 

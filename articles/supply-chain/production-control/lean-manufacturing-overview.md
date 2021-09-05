@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738907"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343910"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing 概览
 

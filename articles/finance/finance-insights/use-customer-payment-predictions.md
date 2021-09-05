@@ -1,5 +1,5 @@
 ---
-title: 使用客户付款预测(预览)
+title: 使用客户付款预测
 description: 本主题介绍了使用 Finance insights 试用版的先决条件和各种步骤。
 author: ShivamPandey-msft
 ms.date: 07/17/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 6e89ab13f005a9a0e00da6ce9da14dd505219c497e1105785843b2375166dbce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748226"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386282"
 ---
-# <a name="use-customer-payment-predictions-preview"></a>使用客户付款预测(预览)
+# <a name="use-customer-payment-predictions"></a>使用客户付款预测
 
 [!include [banner](../includes/banner.md)]
 

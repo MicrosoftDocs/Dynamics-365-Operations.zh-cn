@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763086"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402365"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance 功能顾问学习目录
 
@@ -34,6 +34,7 @@ ms.locfileid: "6763086"
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [开始使用 Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | 通过 Dynamics 365 Intelligent Order Management，客户可以管理订单编排到履行。 这些功能使组织能够编排跨不同平台和应用的订单流。 | 自由、自定进度的在线学习模块 | 30 分钟 |
 | [购买之前](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | 无论您是仍然在评估 Finance and Operations 还是准备购买，都请查看此分步指导。 | 文档 | |
 | [发布计划](/dynamics365/release-plans/) | 了解 Dynamics 365 的最新功能和增强 | 文档 | |
 
@@ -41,6 +42,7 @@ ms.locfileid: "6763086"
 
 | 内容  | 说明 | 格式  | 长度    |
 |----------|-------------|---------|-----------|
+| [使用 Success by Design for Dynamics 365 解决方案](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 旨在帮助客户和合作伙伴成功部署 Dynamics 365 解决方案。 若要提供此服务，解决方案架构师应使用 Success by Design。 此学习路径讨论 Success by Design 概念。 | 自由、自定进度的在线学习模块 | 12 小时 |
 | [使用 Lifecycle Services 设计和规划 Finance and Operations 应用的实施](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) 是一款协作工作区，供客户及其合作伙伴用于从售前到实施阶段，最后到生产环境管理 Finance and Operations 应用项目。 它提供了核对清单和工具来帮助您管理项目，包括用于帮助进行实施和定期更新服务的预构建方法。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [在 Finance and Operations 应用中配置组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
 | [迁移数据和实行 Finance and Operations 应用](/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行 Finance and Operations 应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
@@ -102,6 +104,5 @@ ms.locfileid: "6763086"
 | [Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问整合全球财务和运营，并自动执行任务和工作流，简化客户下单、销售、开票和申报。 | 认证，成本取决于地区 |
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: 配置与 Dayforce 的集成
-description: Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题介绍了 Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成所需的配置步骤。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782723"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414576"
 ---
 # <a name="configure-integration-with-dayforce"></a>配置与 Dayforce 的集成
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
+Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
 
 使用 Dayforce 之类的服务完成付薪时，必须在 Human Resources 中启用集成。 此集成需要来自 Human Resources 的特定数据。 因此，必须验证已按照支持集成的方式在 Human Resources 中配置了映射到 Dayforce 的数据。 此集成使用下面的各种数据类别：
 
@@ -35,7 +35,7 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 - 工资单数据，如付薪周期、付薪期间和收入代码
 - 工作人员数据
 
-本文介绍要启用集成必须执行的步骤。 还介绍了集成所需的数据类型和配置详细信息。
+本主题介绍了启用集成必须遵循的步骤，并说明了集成所需的数据类型和配置详细信息。
 
 ## <a name="enable-the-integration"></a>启用集成
 
@@ -50,7 +50,7 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 
 开启集成后，将创建数据导出包和文件，并设置频率。 可根据需要更改此频率。
 
-有关 Azure ML 存储帐户和 Azure 存储连接字符串的详细信息，请参阅以下 Azure ML 文章：
+有关 Azure ML 存储帐户和 Azure 存储连接字符串的详细信息，请参阅以下 Azure ML 主题：
 
 - [关于 Azure 存储帐户](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [配置 Azure 存储连接字符串](/azure/storage/common/storage-configure-connection-string)
@@ -122,7 +122,7 @@ Dayforce 根据福利计划中定义的工资单影响创建以下扣缴。
 | 仅缴纳          | 创建雇主扣缴。             |
 | 扣除和缴纳 | 创建员工扣缴和雇主扣缴。 |
 
-有关如何定义和管理福利计划的详细信息，请参阅以下文章：
+有关如何定义和管理福利计划的详细信息，请参阅以下主题：
 
 - [交付员工福利计划](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [创建新福利](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
@@ -135,7 +135,7 @@ Dayforce 根据福利计划中定义的工资单影响创建以下扣缴。
 
 Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬计划和付薪比率转换。 必须将员工与固定薪酬计划关联。
 
-有关薪酬计划的详细信息，请参阅以下文章：
+有关薪酬计划的详细信息，请参阅以下主题：
 
 - [创建固定薪酬计划](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [创建可变薪酬计划](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 #### <a name="jobs"></a>工作 
 
-作业是执行作业的人员需要承担的任务和责任的集合。 有关详细信息，请参阅以下文章：
+作业是执行作业的人员需要承担的任务和责任的集合。 有关详细信息，请参阅以下主题：
 
 - [设置作业组件](/dynamics365/unified-operations/talent/create-job)
 - [定义新工作](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 如果同一个部门中多个职位与同一个工作关联，应在 Dayforce 中将这些职位合并为一个位置。
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅以下主题：
 
 - [使用部门、工作和职位组织您的劳动力](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [设置职位](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +181,7 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅以下主题：
 
 - [创建一个部门并将其与部门层次结构关联](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [定义新部门](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

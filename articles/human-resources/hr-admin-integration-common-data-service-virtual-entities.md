@@ -1,8 +1,8 @@
 ---
 title: 配置 Dataverse 虚拟表
-description: 本主题介绍如何为 Dynamics 365 Human Resources 配置虚拟表。 生成和更新现有虚拟表，并分析生成的实体和可用表。
-author: andreabichsel
-ms.date: 01/25/2021
+description: 本主题介绍如何针对 Dynamics 365 Human Resources 配置、生成、更新现有虚拟表，以及分析生成的表和可用表。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721599"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414656"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
@@ -140,6 +140,9 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
      >[!NOTE]
      >确保在 URL 的结尾包括“**/**”字符，以避免收到错误。
+
+     >[!NOTE]
+     >目标 URL 确定虚拟表将针对数据指向的 Human Resources 环境。 如果您通过创建生产环境的副本来创建沙盒环境，请将此值更新为新沙盒环境的命名空间 URL。 这可确保虚拟表连接到沙盒环境数据，而不是继续指向生产环境。
 
    - **租户 ID**：Azure Active Directory (Azure AD) 租户 ID。
 

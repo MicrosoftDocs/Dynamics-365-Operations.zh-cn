@@ -2,7 +2,7 @@
 title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742432"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416471"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
@@ -128,7 +128,7 @@ ms.locfileid: "6742432"
 若要在站点中执行测试交易，可使用以下测试信用卡信息：
 
 - **卡号：** 4111-1111-1111-1111
-- **到期日期：** 10/20
+- **到期日期：** 10/30
 - **卡验证值 (CVV) 代码：** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ ms.locfileid: "6742432"
 在预配和配置步骤完成之后，您就可以开始使用评估环境了。 使用 Commerce 站点构建器 URL 可以转到创作体验。 使用 Commerce 站点 URL 可以转到零售客户站点体验。
 
 要为 Commerce 评估环境配置可选功能，请参阅[为 Commerce 评估环境配置可选功能](cpe-optional-features.md)。
+
+> [!NOTE]
+> Commerce 评估环境随预先加载的 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户一起提供，以用于演示目的。 评估环境不需要配置自己的 Azure AD B2C 租户。 但是，如果您要配置评估环境以使用自己的 Azure AD B2C 租户，请确保通过 Azure 门户在 Azure AD B2C 应用程序中将 ``https://login.commerce.dynamics.com/_msdyn365/authresp`` 添加为回复 URL。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -159,6 +162,8 @@ ms.locfileid: "6742432"
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
+
+[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

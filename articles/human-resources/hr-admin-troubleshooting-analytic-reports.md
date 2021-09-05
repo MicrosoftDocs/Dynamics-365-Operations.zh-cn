@@ -1,8 +1,8 @@
 ---
 title: 分析报告疑难解答
-description: 本文说明如果客户的数据更改不出现在任何客户的工作区时该怎么做。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题说明如果客户的数据更改不出现在任何客户的工作区时，如何排除和诊断问题。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d4e76f3b6231b6f307173fa176360daf775c8a7950bc4ab2f2162c768102c369
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d085c041c1d12eef1271fd3f78262be19fd0629
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717406"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413427"
 ---
 # <a name="troubleshoot-analytic-reports"></a>分析报告疑难解答
 

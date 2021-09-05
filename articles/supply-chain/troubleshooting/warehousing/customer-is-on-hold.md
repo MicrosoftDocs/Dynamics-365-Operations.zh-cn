@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 82b28e7cfd8c88e453cdd09398f5a92f605eab15a17d33defa0b9729a53c05b6
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 801778fc8f04b106bf168a3dcd5a89767a837740
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012141"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344256"
 ---
 # <a name="you-cant-confirm-a-shipment-because-the-customer-is-on-hold"></a>由于客户处于暂停状态，无法确认装运
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 854dc3ece8b37c134723efb817551f3f276f69ec120eb9168e5d6566f0bc5a43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03eb04d85c854e100f6ee00583cb67e037bbf8bd
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770561"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402559"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Dynamics 365 Finance 管理员学习目录
 
@@ -32,6 +32,7 @@ ms.locfileid: "6770561"
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance 使企业用户能够适应快速变化的业务环境。 它为企业提供利用财务计划和预测的准确信息控制财务和管理资金所需的一切资源，并借助分析工具帮助他们掌握最新情况。 由于财务是任何一个企业的核心，因此熟悉 Dynamics 365 Finance 的功能很重要。 | 自由、自定进度的在线学习模块 | 1 小时 |
+| [开始使用 Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | 通过 Dynamics 365 Intelligent Order Management，客户可以管理订单编排到履行。 这些功能使组织能够编排跨不同平台和应用的订单流。 | 自由、自定进度的在线学习模块 | 30 分钟 |
 | [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [开始使用 Dynamics 365 Project Operations 中的“费用管理”](/learn/modules/get-started-expense-management/) | Dynamics 365 Project Operations 中的“费用管理”模块让组织可以跟踪和管理员工费用。 “费用管理”让您可以存储付款信息，导入信用卡交易并跟踪员工在为组织产生费用时花费的资金。 您还可以使用 Project Operations 设置费用策略、自动化审批以及提供简化的业务流程。 | 自由、自定进度的在线学习路径 | 1 小时 |
 | [Dynamics 365 基本原理](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 | |
@@ -60,7 +61,7 @@ ms.locfileid: "6770561"
 
 | 内容 | 说明  | 格式 | 长度    |
 |---------|--------------|--------|-----------|
-| [将 Dynamics AX 2012 升级到 Finance and Operations 应用](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到 Finance and Operations 应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
+| [将 Dynamics AX 2012 升级到 Finance and Operations 应用](/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到 Finance and Operations 应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Finance and Operations：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 | 自由录制 Web 会议 | 61 分钟 |
 | [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 Finance and Operations 应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 自由录制 Web 会议 | 58 分钟 |
 | [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 自由录制 Web 会议 | 45 分钟 |
@@ -84,6 +85,5 @@ ms.locfileid: "6770561"
 | [Finance and Operations: Regression Suite Automation Tool -- 背景和设置 (DYN646PAL) ](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第一部分。 在此会话中，我们将介绍如何通过 RSAT 使用自动化测试与持续更新保持一致。 将介绍有关如何使用 RSAT 创建任务录制和执行测试的学习和建议，以及安装和设置的分步演练。 | 自由录制 Web 会议 | 70 分钟 |
 | [Finance and Operations: Regression Suite Automation Tool -- 测试 Lifecycle 演示 (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第二部分。 此会话将介绍以下整个周期的演示：从 Finance and Operations 创建任务录制并保存到 LCS 中的 BPM 库，同步该 BPM 库以在 Azure DevOps 中创建测试用例，将测试案例分组为测试套件，然后在 RSAT中加载并执行测试套件。 | 自由录制 Web 会议 | 70 分钟 |
 | [Finance and Operations：Dynamics 365 的性能诊断工具 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | 在此技术交流中，将提供可用于诊断 Microsoft Dynamics 365 for Finance and Operations 性能问题的不同工具。 此会话中包含一些基于方案的演示和有关如何解决典型性能问题的重要指导。 | 自由录制 Web 会议 | 64 分钟 |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

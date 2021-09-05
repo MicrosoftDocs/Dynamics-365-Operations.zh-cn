@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716613"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402168"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的实施项目经理学习目录
 
@@ -61,7 +61,6 @@ ms.locfileid: "6716613"
 | [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 Finance and Operations 应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 技术交流（录制的网络研讨会） | 58 分钟 |
 | [Finance and Operations：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 2 部分中的第 1 部分。 | 技术交流（录制的网络研讨会） | 61 分钟 |
 | [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-| [Dynamics 365 for Operations 中的报告选项 (VIR810PAL)](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | 此会话将讨论 D365 for Operations 中的各种打印方案，包括文档路线选择代理的提示和窍门。 | 技术交流（录制的网络研讨会） | 60 分钟 |
 | [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| 请与我们一起加入这场有关两个相关主题的环境计划技术交流。 首先，我们将讨论适用于 Dynamics 365 for Finance and Operations Enterprise Edition 的分析和报告解决方案模式和工具。 其次，我们将讨论打印方案和文档路线选择代理。 | 技术交流（录制的网络研讨会） | 45 分钟 |
 | [课程 MB-300T01-A：Dynamics 365 for Finance and Operations 的核心常用功能](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心常用功能。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [课程 MB-300T02-A：Dynamics 365 for Finance and Operations 中的核心配置](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心配置任务。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
@@ -93,6 +92,5 @@ ms.locfileid: "6716613"
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-310：Microsoft Dynamics 365 for Finance and Operations、Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |
 | [Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft 认证：Dynamics 365 for Finance and Operations 财务功能顾问整合全球财务和运营，并自动执行任务和工作流，简化客户下单、销售、开票和申报。 | 认证，成本取决于地区 |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

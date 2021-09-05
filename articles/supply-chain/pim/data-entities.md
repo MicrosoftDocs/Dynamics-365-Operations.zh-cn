@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747905"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344750"
 ---
 # <a name="product-data-entities"></a>产品数据实体
 

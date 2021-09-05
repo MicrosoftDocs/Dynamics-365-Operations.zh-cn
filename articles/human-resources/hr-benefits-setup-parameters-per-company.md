@@ -1,8 +1,8 @@
 ---
-title: 针对每个公司配置福利管理参数
-description: 在 Microsoft Dynamics 365 Human Resources 中针对每个公司配置福利管理的参数。
-author: andreabichsel
-ms.date: 12/07/2020
+title: 配置每个公司的福利管理参数
+description: 本主题介绍如何在 Microsoft Dynamics 365 Human Resources 中针对每个公司配置福利管理的参数。
+author: twheeloc
+ms.date: 8/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c0f9f31006ca83082ddc61da5927841855077737289e31f66708ade6d66acaf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d0bc8d511126901be09028dc3c10636f2902e79
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423276"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>针对每个公司配置福利管理参数
 
@@ -36,7 +36,7 @@ ms.locfileid: "6732793"
 
    | 字段 | 说明 |
    | --- | --- |
-   | **发送确认电子邮件** | 打开此功能后，当员工从员工自助服务中的福利登记体验中签出时，将向他们发送确认电子邮件。 |
+   | **发送确认电子邮件** | 打开此功能后，当员工从 **员工自助服务** 中的福利登记体验中签出时，将向他们发送确认电子邮件。 |
    | **确认电子邮件模板** | 选择发送登记确认时要使用的组织电子邮件模板。 如果您不选择模板，将发送以下通用电子邮件：<br><br>%EmployeeFirstName%，<br><br>恭喜! 您已成功完成福利登记。<br><br>谢谢，<br><Company/Org name> 福利。 |
    | **默认电子邮件发件人地址** | 发送确认电子邮件时要使用的电子邮件地址。 |
 

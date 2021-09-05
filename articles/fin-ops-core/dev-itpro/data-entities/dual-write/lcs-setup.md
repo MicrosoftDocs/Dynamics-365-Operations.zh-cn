@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729035"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416643"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 

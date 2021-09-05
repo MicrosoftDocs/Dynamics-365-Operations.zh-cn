@@ -2,7 +2,7 @@
 title: 计划优化发布流程和发布历史记录
 description: 本主题提供有关计划优化的发布流程和发布历史记录的信息。
 author: crytt
-ms.date: 7/28/2021
+ms.date: 8/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 64c8cd3ed6ff522a9ef90831ae502c5d50fbc05816aaa764d2a8e122934fc2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd18341629afcf3092a457ae711e27b0bbfeb2a
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722383"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394406"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>计划优化发布流程和发布历史记录
 
@@ -33,7 +33,8 @@ Microsoft 每月都会更新计划优化。 但是，根据业务要求，我们
 
 | 更改 | 功能管理详细信息 | 发放日期 |
 |---|---|---|
-| <p>无限产能计划的资源类型要求</p><p>无限产能计划的资源效率和日历效率</p><p>有关详细信息，请参阅[具有无限容量的计划](infinite-capacity-planning.md)。 | <p>自 10.0.20 版起在功能管理中发布。</p><p>功能名称：*计划优化的无限容量计划*</p> | 2021 年 7 月 6 日 |
-| 常规质量改进 | 无需功能管理。 | 2021 年 7 月 6 日 |
+| <p>已将 **提前期** 字段添加到了计划订单。</p><p>一般性能、质量和稳定性改进。</p> | 无需功能管理。 | 2021 年 8 月 16 日 |
+| <p>添加了无限产能计划的资源类型要求。</p><p>提高了无限产能计划的资源效率和日历效率。</p><p>有关详细信息，请参阅[具有无限容量的计划](infinite-capacity-planning.md)。 | <p>自 10.0.20 版起在功能管理中发布。</p><p>功能名称：*计划优化的无限容量计划*</p> | 2021 年 7 月 6 日 |
+| 常规质量改进。 | 无需功能管理。 | 2021 年 7 月 6 日 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

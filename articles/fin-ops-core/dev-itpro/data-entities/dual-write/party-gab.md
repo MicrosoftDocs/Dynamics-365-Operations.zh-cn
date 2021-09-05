@@ -2,19 +2,19 @@
 title: 当事方和全球通讯簿
 description: 本主题介绍双重写入的当事方和全球通讯簿功能。
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729768"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386677"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -139,7 +139,10 @@ ms.locfileid: "6729768"
 
 您可以使用网格上方的 **新建电子地址** 按钮创建任意数量的地址。
 
-电子地址仅在此网格中可用。 在将来的版本中，所有邮寄地址和电子地址字段将从其他选项卡中删除（例如，**摘要** 和 **详细信息** 选项卡）。
+电子地址仅在此网格中可用。 在将来的版本中，所有邮寄地址和电子地址字段将从其他选项卡中删除，例如，**摘要** 和 **详细信息** 选项卡。 **详细信息** 选项卡上显示的联系人详细信息是主要电子地址（如主要手机、主要电子邮件、主要电话、主要传真和主要 Twitter ID）的只读副本。 在潜在顾客资格授予期间，您可以同时提供业务电话号码和移动电话号码。 如果 **IsMobile=No**，则将业务电话号码视为主要电话，如果 **IsMobile=Yes**，这将移动电话号码视为主要电话。
+
+> [!TIP]
+> 请使用 **帐户** 和 **联系人** 窗体上的 **地址** 和 **电子地址** 选项卡管理邮寄地址和电子地址。 这样可以确保将地址数据同步到 Finance and Operations 应用。
 
 ## <a name="setup"></a>设置
 
@@ -249,13 +252,11 @@ ms.locfileid: "6729768"
     [CDS 销售订单标题](mapping-reference.md#217) | salesorders
     [销售账单抬头 V2](mapping-reference.md#118) | 发票
 
-> [!Note]
+> [!NOTE]
 > `CDS Contacts V2 (contacts)` 映射是您在步骤 1 中停止的映射。 当您尝试运行其他映射时，这 2 个映射可能会显示在依赖项列表中。 不要运行这些映射。
-
-> [!Note]
+>
 > 如果安装了当事方和全球通讯簿解决方案，则必须禁用名为 `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` 的插件。 如果卸载当事方和全球通讯簿解决方案，则必须重新启用该插件。
-
-> [!Note]
+>
 > **客户**、**联系人** 和 **供应商** 表中包含的 `msdyn_*partynumber` 字段（单行文本字段）不应该继续使用。 为了清楚起见，标签名称带有 **(Deprecated)** 前缀。 而应改为使用 **msdyn_partyid** 字段。 此字段是对 **msdyn_party** 表的查找。
 
 > 表名 | 旧字段 | 新字段
@@ -296,7 +297,6 @@ ms.locfileid: "6729768"
 
 + 在n Finance and Operations 应用中，当您创建客户以及地址并进行保存时，地址可能不会同步到 **地址** 表。 这是由于双重写入平台排序问题。 解决方法是，先创建客户并进行保存。 然后添加地址。
 + 在 Finance and Operations 应用中，如果客户记录具有主要地址，当您为该客户创建新联系人时，联系人记录将从关联的客户记录继承主要地址。 供应商联系人也是如此。 Dataverse 目前不支持此行为。 如果启用了双重写入，从 Finance and Operations 应用通过主要地址继承的客户联系人将随其地址一起同步到 Dataverse。
-+ 来自 `msdyn_partyelectronicaddress` 表的电子地址不会流向 **客户** 和 **联系人** 表的电子地址字段。 我们计划在增量版本中解决此问题。 **客户** 和 **联系人** 表中电子地址字段上的现有数据不会被覆盖。
 + 在 **客户**、**联系人** 和 **供应商** 窗体的电子地址选项卡上设置的电子地址来自 `msdyn_partyelectronicaddress` 表。 此信息不会流向其关联交易，如销售订单、报价单和采购订单。 我们计划在增量版本中解决此问题。 客户和联系人记录上电子地址字段中的现有数据将继续用于销售订单、报价单和采购订单之类的交易。
 + 在 Finance and Operations 应用中，您可以从 **添加联系人** 窗体创建联系人记录。 当您尝试从 **查看联系人** 窗体创建新联系人时，操作将失败。 这是一个已知问题。
 

@@ -1,8 +1,8 @@
 ---
-title: 处理比率更改
-description: 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。
-author: andreabichsel
-ms.date: 04/06/2020
+title: 处理费率更改
+description: 本主题介绍如何在 Microsoft Dynamics 365 Human Resources 中处理福利费率更改。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb9206df990fa8980c4c641b565203828715ada9f1d2f2107a7bb707f545e225
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa94584749e72cab7aa3466814ed8ea9d59665da
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718123"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417440"
 ---
-# <a name="process-rate-changes"></a>处理比率更改
+# <a name="process-rate-changes"></a>处理费率更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
+本主题介绍如何处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利费率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
 
 1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **比率更改更新处理**。
 

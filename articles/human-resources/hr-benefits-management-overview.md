@@ -1,8 +1,8 @@
 ---
 title: 福利管理概览
-description: Dynamics 365 Human Resources 中的福利管理功能概述。 通过易于使用的在线体验，为您的员工提供更多的福利选项。
-author: andreabichsel
-ms.date: 07/13/2021
+description: 此主题概要介绍 Dynamics 365 Human Resources 中的福利管理功能。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,38 +12,38 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719135"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417384"
 ---
-# <a name="benefits-management-overview"></a>福利管理概述
+# <a name="benefits-management-overview"></a>福利管理概览
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理为您提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
+为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
 
 - 增强的福利计划使您可以创建和管理独特的福利计划，并支持复杂的福利比率表和嵌套层。 您可以轻松创建福利计划、捆绑和自动登记规则，以提供更轻松的员工体验。
-- 弹性信贷项目可让您按比例来支持退休和其他生命事件。
+- 弹性信贷项目可让您按比例来支持退休和其他生活事件。
 - 广泛的资格规则可确保您为合适的员工提供合适的福利。
 - 在线福利登记为您的员工提供轻松的体验。
-- 合格的生命事件处理支持未来的生命事件。
+- 合格的生活事件处理支持未来的生活事件。
 
 如果您想访问演示数据，您需要重新部署沙盒环境。
 
 > [!NOTE]
-> 现在，您可以自定义“福利管理”窗体。 您现在可以将与覆盖范围比率相关的自定义字段添加到福利计划的 **覆盖范围选项** 窗体。 有关使用自定义字段的详细信息，请参阅[自定义字段](hr-developer-custom-fields.md)。
+> 现在，您可以自定义“福利管理”页面。 可以将与覆盖范围比率相关的自定义字段添加到福利计划的 **覆盖范围选项** 页面。 有关使用自定义字段的详细信息，请参阅[自定义字段](hr-developer-custom-fields.md)。
 >
 > ![福利管理自定义字段](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>雇用福利管理
 
-本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换 Human Resources 中的哪些现有功能或哪些功能将禁用。
+本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换 Human Resources 中的哪些现有功能和哪些功能将禁用。
 
 > [!IMPORTANT]
 > 不能在 **生产** 环境中禁用已启用的福利管理。 建议在 **生产** 环境中启用福利管理之前，在 **沙盒** 环境中启用和测试。 旧福利功能和新福利管理功能之间差别很大，需要在投入生产之前进行更多设置和应该进行测试。
@@ -63,14 +63,14 @@ ms.locfileid: "6719135"
 7.  处理员工以确定资格。
 8.  员工通过员工自助服务选择计划（可选）。
 9.  确认员工计划选择。
-10. 生命事件处理（可选）。
+10. 生活事件处理（可选）。
 11. 比率更新（可选）。
 
 ## <a name="set-up-required-benefit-information"></a>设置必需福利信息
 
 必须设置多个组件，然后员工才能够在计划中登记：
 
-- **福利管理参数** – 这些设置在公司之间共享。 您可以设置默认原因代码、启用 **福利年薪** 选项、设置新雇员的默认付款频率以及启用生命事件。 有关详细信息，请参阅[设置福利管理参数](hr-benefits-setup-parameters.md)。
+- **福利管理参数** – 这些设置在公司之间共享。 您可以设置默认原因代码、启用 **福利年薪** 选项、设置新雇员的默认付款频率以及启用生活事件。 有关详细信息，请参阅[设置福利管理参数](hr-benefits-setup-parameters.md)。
 - **个人联系人资格选项** – 个人联系人是将成为所设置计划的依赖方或受益人的个人。 通常，他们是子女、配偶或信托机构。 有关详细信息，请参阅[配置个人联系人资格选项](hr-benefits-setup-contact-eligibility-options.md)。
 - **覆盖范围选项** – 设置可用于计划的覆盖范围类型。 具体来说，定义谁应该被覆盖，或者有多少可用覆盖范围。 有关详细信息，请参阅[创建覆盖范围选项](hr-benefits-setup-coverage-options.md)。
 - **计划类型** – 设置创建福利计划时可用的计划类型。 计划类型的示例包括 **牙科**、**愿景** 和 **储蓄**。 计划类型中的一些重要设置确定福利计划中可用的设置。 有关详细信息，请参阅[创建计划类型](hr-benefits-setup-plan-types.md)。
@@ -87,7 +87,7 @@ ms.locfileid: "6719135"
 
 - **计划** – 计划是一组由相同资格规则管理的福利。 例如，销售部门的每个人都可能有一部手机。
 - **捆绑** – 捆绑是一组福利，要显示选择其他计划的选项，必须先选择一个计划。 例如，高自付医疗计划可能与健康储蓄帐户 (HSA) 计划捆绑在一起。
-- **生命事件类型** – 生命事件是允许员工覆盖范围发生变化的事件。 生命事件类型与计划类型关联。 例如，医疗计划类型可能允许因出生或收养或婚姻状况改变而更改计划。 但是，保险计划类型可能不允许因生命事件进行任何更改。 有关详细信息，请参阅[配置生命事件类型](hr-benefits-setup-life-event-types.md)。
+- **生活事件类型** – 生活事件是允许员工覆盖范围发生变化的事件。 生活事件类型与计划类型关联。 例如，医疗计划类型可能允许因出生或收养或婚姻状况改变而更改计划。 但是，保险计划类型可能不允许因生活事件进行任何更改。 有关详细信息，请参阅[配置生活事件类型](hr-benefits-setup-life-event-types.md)。
 - **等待天数和等待期** – 可以在福利计划中设置覆盖范围等待期。 例如，新雇用的员工可能只有在工作三个月后才能在 401(k) 中登记。 在这种情况下，等待期为三个月。 如果只能在当月的特定日期处理新登记并将其提交给提供商，则会在等待期内使用等待天数。 例如，如果 401(k) 登记只能在当月第十五天处理，那么入职三个月后，设置的等待期为三个月，等待日为十五号。 有关详细信息，请参阅[配置等待天数](hr-benefits-setup-waiting-days.md)和[配置等待期](hr-benefits-setup-waiting-periods.md)。
 - **原因代码** – 原因代码用于说明为何有可能会更改员工的福利。 有关详细信息，请参阅[设置原因代码](hr-benefits-setup-reason-codes.md)。
 
@@ -123,17 +123,17 @@ ms.locfileid: "6719135"
 
 ## <a name="employees-select-plans-via-employee-self-service-optional"></a>员工通过员工自助服务选择计划（可选）
 
-当进行开放登记、新雇用员工或发生生命事件时，员工可以通过员工自助服务选择或更新其福利。 有关详细信息，请参阅[配置员工自助服务](hr-benefits-setup-employee-self-service.md)。
+当进行开放登记、新雇用员工或发生生活事件时，员工可以通过员工自助服务选择或更新其福利。 有关详细信息，请参阅[配置员工自助服务](hr-benefits-setup-employee-self-service.md)。
 
 ## <a name="confirm-employee-plan-selections"></a>确认员工计划选择
 
 必须先确认员工选择的福利，然后才能将员工视为已在计划中登记。 也可以代表员工选择福利。 要选择或确认福利，在 **员工** 页面上的 **福利** 选项卡上，选择 **工作人员福利计划**。 要为多个员工选择或确认福利，使用 **工作人员福利计划批量更新** 页面。
 
-## <a name="life-event-processing-optional"></a>生命事件处理（可选）
+## <a name="life-event-processing-optional"></a>生活事件处理（可选）
 
-在员工生命周期中，每个员工都可能会经历各种生命事件，如婚姻、就业变化或依赖方或受益人的变化。 要使用生命事件，您必须在 **人力资源共享参数** 页上启用它们。 设置计划类型的生命事件类型和生命事件选项。
+在员工生命周期中，每个员工都可能会经历各种生活事件，如婚姻、就业变化或依赖方或受益人的变化。 要使用生活事件，您必须在 **人力资源共享参数** 页上启用它们。 设置计划类型的生活事件类型和生活事件选项。
 
-您必须在招聘期限内至少已经运行了一次开放登记，之后才能够处理生命事件。 在美国，开放登记通常每年一次。 在美国以外地区，开放登记可能在雇用时进行。 生命事件处理不需要工作人员选择福利计划。 但是，工作人员必须已包括在开放登记处理中。 有关详细信息，请参阅以下主题：
+您必须在招聘期限内至少已经运行了一次开放登记，之后才能够处理生活事件。 在美国，开放登记通常每年一次。 在美国以外地区，开放登记可能在雇用时进行。 生活事件处理不需要工作人员选择福利计划。 但是，工作人员必须已包括在开放登记处理中。 有关详细信息，请参阅以下主题：
 
 - [处理生活事件](hr-benefits-process-life-events.md)
 - [处理生活事件更改](hr-benefits-process-life-event-changes.md)

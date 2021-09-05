@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0549a994f8f67951d116eb18a56190943a66e1778165221818d2404aebca0cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46302589ac5139ee6297aba26572225c0e392287
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781053"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402512"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>适用于 Dynamics 365 Supply Chain Management 的学习目录
 
@@ -88,9 +88,11 @@ ms.locfileid: "6781053"
 
     [管理员学习目录](learning-catalog-administrator.md)
 
-    [开始](learning-catalog-administrator.md#get-started)
+    [开始使用](learning-catalog-administrator.md#get-started)
 
     [核心平台知识](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [Supply Chain Management](learning-catalog-administrator.md#scm)
 
     [核心开发](learning-catalog-administrator.md#core-development)
 

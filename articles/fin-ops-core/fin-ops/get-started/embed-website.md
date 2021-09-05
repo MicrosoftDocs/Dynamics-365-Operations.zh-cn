@@ -2,7 +2,7 @@
 title: 嵌入第三方应用
 description: 本主题说明如何嵌入第三方应用以扩展产品的功能。
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737791"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345402"
 ---
 # <a name="embed-third-party-apps"></a>嵌入第三方应用
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-很多客户使用各种应用程序来开展业务。 这些应用程序中有一些是与 Finance and Operations 应用结合使用的第三方 Web 应用。 要提供更无缝的用户体验，您可以使用 **(预览)整页应用** 功能将那些第三方应用直接嵌入到您的 Finance and Operations 应用中（前提是第三方应用允许被嵌入）。 这样，用户可以访问所需的网站和应用，而无需切换选项卡或窗口。
+很多客户使用各种应用程序来开展业务。 这些应用程序中有一些是与 Finance and Operations 应用结合使用的第三方 Web 应用。 要提供更无缝的用户体验，您可以使用 **整页应用** 功能将那些第三方应用直接嵌入到您的 Finance and Operations 应用中（前提是第三方应用允许被嵌入）。 这样，用户可以访问所需的网站和应用，而无需切换选项卡或窗口。
 
-您必须先在“功能管理”中打开 **(预览)整页应用** 功能，然后才能够将第三方应用嵌入产品。 然后，您可以使用以下方法之一嵌入第三方应用或网站。 这些方法类似于将 Microsoft Power Apps 中的画布应用嵌入到 Finance and Operations 应用的方法。
+您必须先在“功能管理”中打开 **整页应用** 功能，然后才能够将第三方应用嵌入产品。 然后，您可以使用以下方法之一嵌入第三方应用或网站。 这些方法类似于将 Microsoft Power Apps 中的画布应用嵌入到 Finance and Operations 应用的方法。
 
 - 将应用或网站作为新的选项卡（数据透视选项卡、快速选项卡、边栏选项卡或工作区部分）嵌入到现有页面。
 - 从仪表板为应用或网站创建新的整页体验。
@@ -64,7 +64,7 @@ ms.locfileid: "6737791"
 如果您要嵌入的应用与现有页面不相关，或者您只想在 Finance and Operations 应用中获得该应用的整页体验，请使用此过程。
 
 1. 打开仪表板。
-2. 选择并按住（或右键单击）页面，选择 **个性化**，然后选择 **添加页面**。
+2. 选择并按住（或右键单击）此仪表反，选择 **个性化**，然后选择 **添加页面**。
 3. 在 **添加页面** 窗格中，选择 **网站**。
 4. 配置嵌入的应用：
 
@@ -82,9 +82,9 @@ ms.locfileid: "6737791"
 
 使用上一节中介绍的方法之一嵌入应用后，您可能希望与系统中的其他用户共享视图。 要共享嵌入的应用，请使用以下方法之一：
 
-- **发布视图（推荐）：** 如果嵌入的应用已保存到视图，共享应用的推荐的首选方法是将视图发布给具有适当安全角色的用户。 然后，具有发布视图所针对的安全角色的所有用户都会在 Finance and Operations 应用中看到该应用。 有关如何发布视图的详细信息，请参阅[发布视图](saved-views.md#publishing-views)。
+- **发布视图（推荐）：** 如果嵌入的应用已保存到视图，共享应用的推荐的首选方法是将视图发布给在目标法人中具有适当安全角色的用户。 在这种情况下，只有所需的用户才会在该页面上看到嵌入式应用。 有关如何发布视图的详细信息，请参阅[发布视图](saved-views.md#publishing-views)。
 
-    您还可以从仪表板发布已嵌入为整页体验的应用。 在仪表板上，选择并按住（或右键单击）与应用关联的磁贴，选择 **个性化**，然后选择 **发布页面**。 当前，您只能发布给安全角色。 但是，向法人发布的功能会在该功能正式发布之前添加。
+    您还可以从仪表板发布已嵌入为整页体验的应用。 在仪表板上，选择并按住（或右键单击）与应用关联的磁贴，选择 **个性化**，然后选择 **发布页面**。 系统显示了与 *发布视图* 体验相似的体验，您可以选择要发布到的安全角色。 在更新 10.0.21 或更高版本中，如果打开了 **改进了对已保存视图的法人支持** 功能，您还可以将应用发布到所需的法人。
 
 - **复制个性化：** 对于不支持视图的页面（例如，对话框或工作区），或者对于整页应用体验，您可以将个性化设置复制给适当的用户。 有关详细信息，请参阅[共享个性化](personalize-user-experience.md#sharing-personalizations)。
 

@@ -15,18 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7caabeaf92bbce63cc30b2fb76111b33455af1910c2ea822453c550c61e02dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740876"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343206"
 ---
 # <a name="set-up-lease-journal-names"></a>设置租赁日记帐名称
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 租赁日记帐名称指定资产租赁交易过帐到的日记帐。 **资产租赁参数** 页面中的 **初始确认** 和 **月日记帐名称** 字段中显示分配给 **资产租赁** 日记帐类型的日记帐名称。 只能将 **供应商发票记录** 日记帐类型分配给 **发票日记帐名称** 字段。
+
+系统将锁定某些财务字段从而使其不能被编辑，以防止交易和计划之间出现任何差异。 已锁定的某些字段包括：**帐户**、**金额**、**财务维度**、**货币** 和 **交易类型**。 此外，您将无法在任何资产租赁日记帐条目中添加或删除日记帐条目行，因为这可能会导致计划与交易之间出现差异。
+
 
 要配置租赁日记帐名称，请按照下列步骤操作。
 

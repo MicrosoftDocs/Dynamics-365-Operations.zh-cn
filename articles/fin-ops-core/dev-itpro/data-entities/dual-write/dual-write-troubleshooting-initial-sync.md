@@ -4,24 +4,17 @@ description: 本主题提供故障排除信息，可以帮助您解决初始同�
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736366"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416973"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -46,7 +39,7 @@ ms.locfileid: "6736366"
 
 当您尝试运行映射和初始同步时，您可能会收到以下错误消息：
 
-*（\[错误请求\]，远程服务器返回错误：(400) 错误请求。），AX 导出遇到错误*
+*（\[错误请求\]，远程服务器返回错误：(400) 错误请求。），AX 导出遇到错误。*
 
 以下是完整错误消息的示例。
 
@@ -198,7 +191,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         ![更新 CustomerAccount 和 ContactPersonId 的数据集成项目。](media/cust_selfref6.png)
 
-    2. 将公司条件添加到 Dataverse 一端的筛选器中，以仅让与筛选条件匹配的行在 Finance and Operations 应用中更新。 要添加筛选器，请选择筛选器按钮。 然后，在 **编辑查询** 对话框中，您可以添加筛选器查询，如 **\_msdyn\_company\_value eq '\<guid\>'**。 
+    2. 将公司条件添加到 Dataverse 一端的筛选器中，以仅让与筛选条件匹配的行在 Finance and Operations 应用中更新。 要添加筛选器，请选择筛选器按钮。 然后，在 **编辑查询** 对话框中，您可以添加筛选器查询，如 **\_msdyn\_company\_value eq '\<guid\>'**。
 
         > [注意]如果筛选器按钮未出现，请创建支持票证，让数据集成团队在您的租户上启用筛选器功能。
 
@@ -210,5 +203,36 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 8. 在 Finance and Operations 应用中，为 **客户 V3** 表重新打开更改跟踪。
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>具有 10 个以上查找字段的映射的初始同步失败
+
+当您尝试对 **客户 V3 - 帐户**、**销售订单** 映射或包含 10 个以上查找字段的任何映射运行初始同步失败时，您可能会收到以下错误消息：
+
+*CRMExport：包执行已完成。错误说明 5：尝试从 https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc 获取数据失败。*
+
+由于查询具有查找限制，因此当实体映射包含 10 多个查找时，初始同步失败。 有关详细信息，请参阅[使用查询检索相关表记录](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query)。
+
+若要解决此问题，请按照以下步骤操作：
+
+1. 从双重写入实体映射中删除可选查找字段，以使查找数目为 10 个或更少。
+2. 保存映射并执行初始同步。
+3. 当第一步的初始同步成功时，添加剩余的查找字段并删除您在第一步中同步的查找字段。 请确保查找字段数为 10 个或更少。 保存映射并运行初始同步。
+4. 重复这些步骤，直到同步了所有查找字段为止。
+5. 将所有查找字段添加回映射，保存映射，然后使用 **跳过初始同步** 运行映射。
+
+此流程启用实时同步模式的映射。
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>当事方邮寄地址和当事方电子地址初始同步期间的已知问题
+
+尝试运行当事方邮寄地址和当事方电子地址的初始同步时，您可能会收到以下错误消息：
+
+*在 Dataverse 中找不到当事方编号。*
+
+对 Finance and Operations 应用中的 **DirPartyCDSEntity** 设置了一个范围，用于筛选 **人员** 和 **组织** 类型的当事方。 因此，**CDS 当事方 - msdyn_parties** 映射的初始同步将不会同步其他类型的当事方，包括 **法人** 和 **运营单位**。 针对 **CDS 当事方邮寄地址 (msdyn_partypostaladdresses)** 或 **当事方联系人 V3 (msdyn_partyelectronicaddresses)** 运行初始同步时，您可能会收到错误。
+
+我们正在努力修复以删除 Finance and Operations 实体上的当事方类型范围，以便所有类型的当事方都可以成功同步 Dataverse。
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>运行客户或联系人数据初始同步时是否存在任何性能问题？
+
+如果您已运行 **客户** 数据初始同步并且在一直运行 **客户** 映射，然后运行 **联系人** 数据初始同步，则插入和更新 **联系人** 地址的 **LogisticsPostalAddress** 和 **LogisticsElectronicAddress** 表期间可能会出现性能问题。 针对 **CustCustomerV3Entity** 和 **VendVendorV2Entity** 跟踪了相同的全球邮政地址和电子地址表，并且双重写入会尝试生成更多查询以将数据写入另一端。 如果您已运行 **客户** 初始同步，则在运行 **联系人** 数据初始同步时停止相应的映射。 对 **供应商** 数据执行相同操作。 完成初始同步后，您可以跳过初始同步来运行所有映射。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

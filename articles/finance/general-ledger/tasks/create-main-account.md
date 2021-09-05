@@ -1,6 +1,6 @@
 ---
 title: 创建主科目
-description: 此任务指南介绍添加主科目到现有会计科目表的步骤。
+description: 此程序逐步演示如何添加主科目到现有会计科目表。
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729622"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394627"
 ---
 # <a name="create-a-main-account"></a>创建主科目
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南介绍添加主科目到现有会计科目表的步骤。 此记录使用 USMF 公司演示。  
+此程序逐步演示如何添加主科目到现有会计科目表。 此记录使用 USMF 公司演示。  
 
 1. 转到 **导航窗格 > 模块 > 总帐 > 会计科目表 > 科目 > 主科目**。
 2. 单击 **新建**。

@@ -1,8 +1,8 @@
 ---
 title: 系统要求
-description: 本文介绍 Microsoft Dynamics 365 Human Resources 的要求。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 此主题列出了 Microsoft Dynamics 365 Human Resources 的系统要求。
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761084"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393465"
 ---
 # <a name="system-requirements"></a>系统要求
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本文介绍 Microsoft Dynamics 365 Human Resources 的要求。 还概述支持 Human Resources 的国家和地区，以及有关 Human Resources 数据的语言和本地化的信息。
+此主题列出了 Microsoft Dynamics 365 Human Resources 的系统要求。 还概述支持 Human Resources 的国家和地区，以及有关 Human Resources 数据的语言和本地化的信息。
 
 ## <a name="supported-web-browsers"></a>支持的 Web 浏览器
 
-Human Resources 可在指定操作系统上运行的以下任一 Web 浏览器中运行： 
+用户可以使用在指定操作系统上运行的以下任一 Web 浏览器访问 Microsoft Dynamics 365 Human Resources： 
 
 *   Windows 10 上的 Microsoft Edge（最新公开提供的版本）
 *   Windows 10、Windows 8.1 或 Windows 7 上的 Internet Explorer 11
@@ -39,14 +39,17 @@ Human Resources 可在指定操作系统上运行的以下任一 Web 浏览器�
 
 要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 
 
-> [!NOTE]
-> * 若要捕获从任务录制器生成的图像并插入到 Microsoft Word 文档中，必须安装 Chrome 扩展。 
-> * Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
-> * 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
->   网络要求
-> * Human Resources 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Human Resources 的 Microsoft Azure 数据中心的延迟。 建议在以下位置测试网络延迟：[www.azurespeed.com](https://www.azurespeed.com "Azure 延迟测试")。
-> * Human Resources 带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
-> 
+## <a name="special-considerations"></a>特殊注意事项
+
+* 若要允许任务录制器捕获屏幕截图并包括在生成的 Microsoft Word 文档中，必须安装预发布 Chrome 扩展
+* Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
+* 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
+
+## <a name="network-requirements"></a>网络要求
+
+* Human Resources 适用于延迟等于或低于 250-300 毫秒 (ms) 的网络。 该延迟是从浏览器客户端到托管 Human Resources 的 Microsoft Azure 数据中心的延迟。 建议在以下位置测试网络延迟：[www.azurespeed.com](https://www.azurespeed.com "Azure 延迟测试")。
+* Human Resources 带宽要求取决于您的方案。 典型方案要求带宽超过每秒 50 千字节 (KBps)。
+ 
 > [!WARNING]
 > 请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Human Resources 的试用版本。
 
@@ -63,6 +66,5 @@ Human Resources 可在指定操作系统上运行的以下任一 Web 浏览器�
 > 由于用户界面已本地化为其他语言，所以所有用户数据使用输入语言存储。 可以使用其他语言创建电子邮件和模板，但是目前日程安排信息之类数据仅提供英文版。
 
 如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

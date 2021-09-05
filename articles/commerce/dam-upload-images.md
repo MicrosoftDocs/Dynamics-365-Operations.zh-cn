@@ -2,7 +2,7 @@
 title: 上传图像
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423247"
 ---
 # <a name="upload-images"></a>上传图像
 
@@ -52,10 +52,17 @@ Commerce 站点构建器的媒体库允许您上传单个图像或使用文件�
 - 类别图像应该命名为 **/Categories/\{CategoryName\}.png**
 - 客户图像应该命名为 **/Customers/\{CustomerNumber\}.jpg**
 - 员工图像应该命名为 **/Workers/\{WorkerNumber\}.jpg**
-- 产品图像应该命名为 **/Products/\{ProductNumber\}_000_001.png**
+- 产品图像应该命名为 "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 是图像的序号，可以是 001、002、003、004 或 005
 - 产品变型图像应该命名为“**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**”
-    - 例如：93039 \^ \^ 2 \^ Black \^_000_001.png
+    - 例如：93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- 具有配置维度的产品变型图像应该命名为 "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - 例如：93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> 对于产品变型图像，如果维度值为空，则文件名中的插入符号之间必须有两个空格。
+
+上面的示例使用默认配置。 分隔符字符和维度是可配置的，需要的确切命名可能因部署而异。 标识所需的确切命名约定的方法之一是使用浏览器的开发人员控制台检查产品变型图像请求，同时更改店面产品详细信息 (PDP) 页上的产品维度。
 
 ## <a name="upload-an-image"></a>上传图片
 

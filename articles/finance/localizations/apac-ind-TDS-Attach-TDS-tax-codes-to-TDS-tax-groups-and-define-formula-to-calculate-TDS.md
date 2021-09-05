@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739302"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345220"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>将 TDS 税码附加到 TDS 税组并定义用于计算 TDS 的公式
 
@@ -55,7 +55,7 @@ ms.locfileid: "6739302"
     > [!NOTE]
     > 对于优先级 ID 为 **1** 的 TDS 税码，**应纳税基数** 字段不能设置为 **不含总额**。
 
-12. TDS 计算基于在 **计算表达式** 字段中为附加到 TDS 税组的每个税码定义的公式。 选择加号 (**+**)、减号 (**-**)、乘号 (**\**_) 或除号 (_*/**) 按钮，在 **计算表达式** 字段中输入选定 TDS 税码的计算表达式。
+12. TDS 计算基于在 **计算表达式** 字段中为附加到 TDS 税组的每个税码定义的公式。 选择加号 (+)、减号 (-)、乘号 (\*) 或除号 (/) 按钮，在 **计算表达式** 字段中输入选定 TDS 税码的计算表达式。
 
     > [!NOTE]
     > 针对优先级 ID 为 **1** 的 TDS 税码，不定义任何计算表达式。

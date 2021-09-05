@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423439"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -81,9 +81,9 @@ Finance and Operations 应用 | 其他 Dynamics 365 应用 | 说明
 
 ![产品的数据模型。](media/dual-write-product.png)
 
-启用双写入功能后，Finance and Operations 中的产品将在其他 Dynamics 365 产品中同步并处于 **草稿** 状态。 它们将以相同的货币添加到第一个价目表中。 换言之，它们将被添加到 Dynamics 365 应用中的第一个价目表中，该应用与在 Finance and Operations 应用中发放产品的法人的货币相匹配。 如果没有给定货币的价目表，将会自动创建一个价目表，并将产品分配给该价目表。
+启用双写入功能后，Finance and Operations 中的产品将在其他 Dynamics 365 产品中同步并处于 **草稿** 状态。 它们已添加到使用客户参与应用中使用的相同货币的第一个价目表中，并在价目表名称上使用字母排序。 换言之，它们将被添加到 Dynamics 365 应用中的第一个价目表中，该应用与在 Finance and Operations 应用中发放产品的法人的货币相匹配。 如果没有给定货币的价目表，将会自动创建一个价目表，并将产品分配给该价目表。
 
-将默认价目表与单位关联的双重写入插件的当前实现可查找与 Finance and Operations 应用关联的货币，并使用价目表名称上的字母排序在 Customer Engagement 应用中查找第一个价目表。 要在特定货币具有多个价目表时为该货币设置默认价目表，必须将价目表名称更新为某个名称，此名称在字母顺序上比该相同货币的任何其他价目表的名称更靠前。
+将默认价目表与单位关联的双重写入插件的当前实现可查找与 Finance and Operations 应用关联的货币，并使用价目表名称上的字母排序在 Customer Engagement 应用中查找第一个价目表。 要在特定货币具有多个价目表时为该货币设置默认价目表，必须将价目表名称更新为某个名称，此名称在字母顺序上比该相同货币的任何其他价目表的名称更靠前。 如果给定货币没有任何价目表，则将创建一个新价目表。
 
 默认情况下，Finance and Operations 应用中的产品会以 **草稿** 状态同步到其他 Dynamics 365 应用。 要同步状态为 **活动** 的产品，以便您可以直接在销售订单报价单中使用它，例如，需要选择以下设置：**系统 > 管理 > 系统管理 > 系统设置 > Sales** 选项卡，选择 **创建处于活动状态的产品 = 是**。
 

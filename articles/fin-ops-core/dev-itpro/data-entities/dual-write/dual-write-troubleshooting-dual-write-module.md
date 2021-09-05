@@ -2,26 +2,19 @@
 title: 解决 Finance and Operations 应用中的双写入问题
 description: 本主题提供故障排除信息，可以帮助您解决 Finance and Operations 应用中的双写入模块问题。
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720728"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380132"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双写入问题
 
@@ -44,8 +37,7 @@ ms.locfileid: "6720728"
 
 当您尝试为双写入配置新表时，您可能会收到以下错误消息。 可以创建映射的唯一用户是设置双写入连接的用户。
 
-*响应状态代码未指示成功：401（未授权）*
-
+*响应状态代码未指示成功：401（未授权）。*
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>打开双写入用户界面时出错
 
@@ -61,7 +53,11 @@ ms.locfileid: "6720728"
 
 链接或创建映射时，您可能会遇到以下错误：
 
-*响应状态代码未指示成功：403 (tokenexchange)。<br>会话 ID：\<your session id\><br> 根活动 ID：\<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 如果您没有足够的权限链接双写入或创建映射，则会发生此错误。 如果在不取消双写入链接的情况下重置了 Dataverse 环境，也会发生此错误。 任何在 Finance and Operations 应用和 Dataverse 中都具有系统管理员角色的用户都可以链接环境。 只有设置双写入连接的用户才可以添加新表映射。 设置后，具有系统管理员角色的任何用户都可以监视状态并编辑映射。
 
@@ -75,16 +71,29 @@ ms.locfileid: "6720728"
 
 要解决此问题，请为数据集成团队创建票证。 附加网络跟踪，以便数据集成团队可以在后端将映射标记为 **未运行**。
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>尝试开始表映射时出错
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>尝试开始表映射时出错
 
-当您尝试将映射的状态设置为 **正在运行** 时，可能会收到如下错误：
+### <a name="unable-to-complete-initial-data-sync"></a>无法完成初始数据同步
+
+当您尝试运行初始数据同步时，您可能会收到以下错误：
 
 *无法完成初始数据同步。错误：双写入失败 - 插件注册失败：无法建立双写入查找元数据。错误对象引用未设置为对象的实例。*
 
-此错误的解决方法取决于错误原因：
+当您尝试将映射的状态设置为 **正在运行** 时，可能会收到此错误。 解决方法取决于错误原因：
 
 + 如果映射具有相关映射，请确保启用此表映射的相关映射。
 + 映射可能缺少源或目标列。 如果缺少 Finance and Operations 应用中的列，请按照[映射中缺少表列问题](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的列，请单击映射上的 **刷新表** 按钮，让这些列自动填充回映射中。
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>版本不匹配错误和升级双重写入解决方案
+
+当您尝试运行表映射时，您可能会收到以下错误消息：
+
++ *客户组 (msdyn_customergroups)：双重写入失败 - Dynamics 365 for Sales 解决方案 "Dynamics365Company" 具有不匹配的版本。版本为 "2.0.2.10"，但需要的版本为："2.0.133"*
++ *Dynamics 365 for Sales 解决方案 "Dynamics365FinanceExtended" 具有不匹配的版本。版本为 "1.0.0.0"，但需要的版本为："2.0.227"*
++ *Dynamics 365 for Sales 解决方案 "Dynamics365FinanceAndOperationsCommon" 具有不匹配的版本。版本为 "1.0.0.0"，但需要的版本为："2.0.133"*
++ *Dynamics 365 for Sales 解决方案 "CurrencyExchangeRates" 具有不匹配的版本。版本为 "1.0.0.0"，但需要的版本为："2.0.133"*
++ *Dynamics 365 for Sales 解决方案 "Dynamics365SupplyChainExtended" 具有不匹配的版本。版本为 "1.0.0.0"，但需要的版本为："2.0.227"*
+
+若要解决这些问题，请在 Dataverse 中更新双重写入解决方案。 确保升级到与所需解决方案版本匹配的最新解决方案。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 供应商付款概览
-description: 此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。
+description: 此程序会逐步向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721819"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394420"
 ---
 # <a name="vendor-payment-overview"></a>供应商付款概览
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
+此程序会逐步向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
 
 1. 转到 **导航窗格 > 模块 > 应付帐款 > 付款 > 付款日记帐**。
 2. 单击 **新建**。

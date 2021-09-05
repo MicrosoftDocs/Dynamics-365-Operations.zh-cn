@@ -1,8 +1,8 @@
 ---
 title: 在“福利管理”中生成平价医疗法案报告
-description: 本主题介绍“福利管理”如何帮助您跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。
-author: andreabichsel
-ms.date: 12/28/2020
+description: 本主题介绍“福利管理”如何跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727057"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416246"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>在“福利管理”中生成 ACA 报告
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-“福利管理”帮助您跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。 与旧 **福利** 工作区中的 ACA 报告功能一样，此功能仅适用于美国的法人。
+“福利管理”跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。 与旧 **福利** 工作区中的 ACA 报告功能一样，此功能仅适用于美国的法人。
 
 要使用此功能，必须首先打开 **高级福利管理**。 有关详细信息，包括有关“福利管理”的重要说明，请参阅[启用或禁用“福利管理”](hr-admin-manage-features.md#enable-or-disable-benefits-management)。
 
@@ -145,7 +145,7 @@ ms.locfileid: "6727057"
 2. 根据需要更改参数，然后选择 **确定**。
 
     > [!NOTE]
-    > 如果您为 500 名以上员工打印 1095-C 表单，您将收到多个 PDF 文件。 我们建议您将 **文档管理参数** 页上的 **最大文件大小(MB)** 字段的值增加到 **150**。 （要快速打开该页面，可以使用导航栏上的搜索字段。）
+    > 如果您为 500 名以上员工打印 1095-C 表单，您将收到多个 PDF 文件。 我们建议您将 **文档管理参数** 页上的 **最大文件大小(MB)** 字段的值增加到 **150**。 （若要快速打开该页面，请使用导航栏上的搜索字段。）
     >
     > ![更改最大文件大小。](./media/hr-benefits-management-aca-maximum-file-size.png)
 

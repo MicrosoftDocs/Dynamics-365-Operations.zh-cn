@@ -9,15 +9,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b03287689d0cb78b2b733864329233d065e1d6665f970ca75086ea7a4ae16d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fd6630a92ad9c7ad9b270e99814355fafc5510c
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773854"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402464"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Dynamics 365 Commerce 开发人员学习目录
 

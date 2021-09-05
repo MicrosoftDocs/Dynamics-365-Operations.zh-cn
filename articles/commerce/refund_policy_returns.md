@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763684"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388925"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>创建和更新渠道的退货和退款政策
 
@@ -42,15 +42,6 @@ ms.locfileid: "6763684"
 1. 在功能名称列表中搜索 **启用渠道退货政策** 功能。
 1. 选择 **立即启用**。
 1. 在 **分配计划** 页面上，运行 **1110**（全局配置）作业以分配功能更改。
-
-## <a name="initialize-the-commerce-scheduler"></a>初始化 Commerce 计划程序
-
-启用 **启用渠道退货政策** 功能后，您必须初始化 Commerce 计划程序以确保通过 Commerce Data Exchange (CDX) 同步添加新的功能数据库更改。 
-
-要在 Commerce headquarters 中初始化 Commerce 计划程序，请按照下列步骤操作。
-
-- 转到 **Retail 和 Commerce \> Headquarters 设置 \>  商业调度 \> 初始化商业调度**。 或者，您可以搜索“初始化 Commerce 计划程序”。
-- 在 **初始化 Commerce 计划程序** 对话框中，确保 **删除现有配置** 选项设置为 **否**，然后选择 **确定**。
 
 ## <a name="configure-return-policy"></a>配置退货政策
 

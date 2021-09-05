@@ -4,24 +4,17 @@ description: 本主题介绍 Finance and Operations 与 Dataverse 之间的公�
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 46e5edb61da7539b51c2678c69238c9df9c85043dfc71903e1633843a3071d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 24cd936fd330ce2bdfc6aa7cac75ab5bacbbf3d0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748368"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416771"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 

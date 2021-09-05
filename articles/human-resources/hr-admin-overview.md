@@ -1,8 +1,8 @@
 ---
 title: 管理概述
-description: 此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题提供了用于设置、管理 Dynamics 365 Human Resources 以及对其进行故障排除的帮助主题和其他资源的列表。
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765606"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393563"
 ---
 # <a name="administration-overview"></a>管理概述
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765606"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
+本主题提供了用于设置、管理 Dynamics 365 Human Resources 以及对其进行故障排除的帮助主题和其他资源的列表。
 
 - [系统要求](hr-admin-system-requirements.md)
 
@@ -92,13 +92,22 @@ ms.locfileid: "6765606"
   - [执行薪酬流程](hr-admin-troubleshooting-compensation.md)
   - [将任务指南保存到 LCS](hr-admin-troubleshooting-task-guide.md)
   - [通过安全角色访问专用地址](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources 不出现在 Dynamics 365 应用中](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources 未显示在 Dynamics 365 应用中](hr-admin-troubleshooting-not-in-apps.md)
   - [报告选项](hr-admin-troubleshooting-reporting.md)
   - [集成常见问题](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>其他资源
+
+### <a name="elearning-courses"></a>网络培训课程
+要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)。
+
+### <a name="videos"></a>视频
+
+查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
+
 ## <a name="see-also"></a>请参阅
 
-- [Human Resources 的新增功能或更改](hr-admin-whats-new.md)
+- [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)
 - [开发人员指南](hr-developer-overview.md)
 - [用户指南](hr-hrpro-overview.md)
 

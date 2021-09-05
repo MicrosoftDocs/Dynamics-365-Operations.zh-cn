@@ -9,15 +9,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a75f61af39cde381ec77790a0962c355593a3b053b0903396b5315d686f8b22
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6d9dab85a5756d86051db52f16e6e0a46e20dcb
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724507"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402416"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>考虑了 Dynamics 365 Commerce 的业务和技术决策者学习目录
 

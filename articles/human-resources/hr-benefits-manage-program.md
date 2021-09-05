@@ -1,8 +1,8 @@
 ---
 title: 定义和管理福利计划
-description: 人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置管理福利的信息。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本主题提供了有关如何设置并管理福利的信息。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1e2a43b0c08cadebd6181991ddb3aa46ce63b4388768de400ab43ef77bf4ecd6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f2cc35086e788e10543e54bb93909f8a4f50d47
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727081"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416495"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Human Resources 提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置和管理福利的信息。
+Human Resources 提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本主题提供了有关如何设置并管理福利的信息。
 
 ## <a name="benefit-setup"></a>福利设置
 

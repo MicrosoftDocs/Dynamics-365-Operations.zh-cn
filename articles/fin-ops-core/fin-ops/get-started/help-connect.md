@@ -2,7 +2,7 @@
 title: 配置 Finance and Operations 应用的帮助体验
 description: 此主题介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714515"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343804"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>配置 Finance and Operations 应用的帮助体验
 
@@ -54,7 +54,7 @@ Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/d
 > [!IMPORTANT]
 > 首次打开 **帮助** 选项卡时，必须连接到 Lifecycle Services。 请确保选择窗体中间的链接，等待连接，关闭对话框，单后选择 **确定** 以转至 **系统参数** 页面。
 >
-> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png“连接到 LCS。”](./media/connect-to-lcs-crop.png)
+> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS。")](./media/connect-to-lcs-crop.png)
 
 1. 选择要连接到的 Lifecycle Services 项目。
 2. 选择要从中检索任务录制的 BPM 库（在所选项目内）。

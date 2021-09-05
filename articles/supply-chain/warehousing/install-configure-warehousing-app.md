@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753787"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384627"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
@@ -136,7 +136,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 | ConnectionName | 指定连接设置的名称。 最大长度为 20 个字符。 因为此值是连接设置的唯一标识符，因此请确保其在列表中唯一。 如果设备中已有同名连接，所导入文件中的设置将覆盖该连接。 |
 | ActiveDirectoryClientAppId | 指定[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)部分中设置 Azure AD 时记下的客户端 ID。 |
 | ActiveDirectoryResource | 指定 Supply Chain Management 的根 URL。 |
-| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 |
+| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。 |
 | 公司 | 在 Supply Chain Management 中指定希望应用程序连接到的法人。 |
 | ConnectionType | （可选）指定连接设置应使用证书还是客户端密码连接到环境。 有效值为 *certificate* 和 *clientsecret*。 默认值为 *certificate*。<p>**注意：** 不能导入客户端密码。</p> |
 | IsEditable | （可选）指定应用用户是否应该可以编辑连接设置。 有效值为 *true* 和 *false*。 默认值为 *true*。 |
@@ -248,7 +248,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
         > [!NOTE]
         > 请勿为此值使用反斜杠 (/)。
 
-    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。
+    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。
 
         > [!NOTE]
         > 请勿为此值使用反斜杠 (/)。

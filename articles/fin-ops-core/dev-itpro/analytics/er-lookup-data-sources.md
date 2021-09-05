@@ -2,7 +2,7 @@
 title: 配置查找数据源以使用 ER 应用程序特定的参数
 description: 本主题说明如何配置电子报告 (ER) 格式的查找数据源以使用 ER 应用程序特定的参数。
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723181"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343421"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>配置查找数据源以使用 ER 应用程序特定的参数 
 
@@ -69,7 +69,7 @@ ms.locfileid: "6723181"
 下图显示了如何配置 **计算字段** 类型的 `Model.Data.Summary.LevelByLookup` 数据源以调用提供所需参数的已配置 **查找** 数据源。 若要在运行时处理此调用，ER 按定义的顺序浏览已配置规则的列表，以找到满足所提供条件的第一个规则。 在此示例中，该规则包含与提供的税码匹配的税码。 因此，找到最适合的规则，此数据源返回为找到的规则配置的枚举值。
 
 > [!NOTE]
-> 如果找不到适用的规则，则会引发异常。 若要防止这些异常，请在规则列表的末尾配置其他规则，以处理提供非配置值或未提供值的情况。 相应地使用 **\*非空白\***和 **\*空白\***选项。  
+> 如果找不到适用的规则，则会引发异常。 若要防止这些异常，请在规则列表的末尾配置其他规则，以处理提供非配置值或未提供值的情况。 相应地使用 **\*非空白**\*和 **\*空白**\*选项。  
 >
 > ![添加数据源以调用已配置的查找数据源。](./media/er-lookup-data-sources-img7.png)
 

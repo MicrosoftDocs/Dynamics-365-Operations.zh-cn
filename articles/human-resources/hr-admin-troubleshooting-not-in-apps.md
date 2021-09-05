@@ -1,8 +1,8 @@
 ---
 title: Human Resources 未出现在 Microsoft Dynamics 365 应用中
-description: 本文说明如果客户在 Microsoft Dynamics 365 应用之间看不到 Microsoft Dynamics 365 Human Resources 应用该做什么。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题介绍如果 Microsoft Dynamics 365 Human Resources 未与 Microsoft Dynamics 365 应用一起列出，应该执行哪种操作。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f90af26483cf82de57cbe8dd4237b39b281786804557319d5f6a7fc407027523
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dfed82463eece882bed66c7b2dac1dd30e04720e
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782112"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413356"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 未出现在 Microsoft Dynamics 365 应用中
+# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 应用未显示在 Microsoft Dynamics 365 应用中
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**发货**
+**问题**
 
 客户在 Microsoft Dynamics 365 应用之间看不到 Dynamics 365 Human Resources。
 

@@ -1,12 +1,12 @@
 ---
-title: 税款计算(预览版)
+title: 税款计算概览
 description: 本主题说明税务计算功能的总体范围和功能。
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775086"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394578"
 ---
-# <a name="tax-calculation-preview"></a>税款计算(预览版)
+# <a name="tax-calculation-overview"></a>税款计算概览
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ ms.locfileid: "6775086"
 税务计算与 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 集成。 最终，它还将与 Dynamics 365 Project Operations、Dynamics 365 Commerce 以及其他第一方和第三方应用程序集成。
 
 > [!IMPORTANT]
-> 当您启用税务计算服务时，可能在数据中心（维护您的服务数据的数据中心除外）中执行对相关数据的某些操作。 在启用税务计算服务之前，查看[条款和条件](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。 我们非常尊重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
+> 当您启用税款计算时，可能在数据中心（维护您的服务数据的数据中心除外）中执行对相关数据的某些操作。 在启用税款计算之前，查看[条款和条件](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。 我们非常尊重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
 
-税务计算是基于微服务的税务引擎，可提供指数可扩展性。 它可以帮助您执行以下任务：
+税款计算是一款基于微服务的税务引擎，它提供指数级可扩展性，并且可以帮助您执行以下任务：
 
-- 通过 Regulatory Configuration Service (RCS) 配置税务计算。 RCS 是增强版本的电子报告 (ER) 设计器，可作为独立服务提供。
-- 配置税务矩阵以自动确定税码和税率。
-- 配置税务矩阵以自动确定税务登记编号。
-- 配置税务计算设计器以定义公式和条件。
-- 跨法人共享税务确定和计算解决方案。
+- 通过增强的确定机制自动确定正确的销售税组、物料销售税组和税码。
+- 支持一个法人多个税务登记号，自动确定应税交易的正确税务登记号。
+- 支持转移单的税务确定、计算、过帐和结算。
+- 定义特定业务要求的可配置税金计算公式和条件。
+- 在法人之间共享税务确定和计算解决方案，以省去维护工作并避免错误。
+- 支持客户和供应商税务登记编号确定。
+- 支持列表代码确定。
+- 在税区级别支持税款计算参数。
 
-若要使用税务计算服务，请在 Microsoft Dynamics Lifecycle Services (LCS) 中从您的项目安装税务计算服务加载项。 然后，在 RCS 中完成设置，并在 Finance 和 Supply Chain Management 中启用税务计算服务。 有关详细信息，请参阅[开始使用税务服务](./global-get-started-with-tax-calculation-service.md)。
+若要使用税款计算，请在 Microsoft Dynamics Lifecycle Services 中从您的项目安装税款计算加载项。 然后，在 [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) 中完成设置，并在 Finance 和 Supply Chain Management 中启用税款计算。 有关详细信息，请参阅[开始使用税务服务](global-get-started-with-tax-calculation-service.md)。
 
 ## <a name="availability"></a>可用性
 
-税务计算通过公开预览版计划仅在沙盒环境中对所选客户可用。 最终，它将在生产环境中对所有客户公开可用。
+从版本 10.0.21 起，税款计算在生产环境中向所有客户公开发布。
 
-将继续提供新功能，因此务必经常查看最新文档，以了解受支持功能的覆盖率和范围。
+将继续交付新功能。 请经常查看最新的发布计划，以了解受支持功能的覆盖率和范围。
 
-税务计算在以下 Azure 地理区域中部署。 它还将根据客户需求部署到更多 Azure 地理区域：
+税务计算在以下 Azure 地理区域中部署。 将根据客户需求添加更多 Azure 地理区域。
 
-- 美国
+- 亚太
+- 澳大利亚
+- 加拿大
 - 欧洲
+- 日本
+- 英国
+- 美国
 
 > [!NOTE]
-> 税务计算不支持 Dynamics 365 的本地部署。 它还不支持早期版本，例如 Dynamics AX 2012。
+> 税款计算不支持早期版本的 Dynamics 365，例如 Dynamics AX 2012 或 Dynamics 365 的本地部署。
 
-## <a name="feature-highlights"></a>功能亮点
+## <a name="data-flow"></a>数据流
 
-- 可配置的税务矩阵，用于自动确定和计算税务
-- 支持多个税务登记编号
-- 对税务确定和计算的转移单支持
-- 对确定多个税务登记编号的转移单支持
+以下是 tTax 计算的数据流流程的概述。 
+
+1. 在 RCS 中，查看和导入应纳税单据模型配置和模型映射配置。 如果您必须扩展高级方案的配置，请参阅[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)。
+2. 在 RCS 中，创建或维护税务功能。 您可以使用税务功能来维护税率和税适用性规则。
+3. 完成税务功能设置后，将 RCS 中的税务配置和税务功能发布到全局存储库。
+4. 在 Finance 中，选择要用于特定法人的税务功能设置版本。
+5. 在 Finance 和 Supply Chain Management 中，照常操作交易。 需要税款计算时，客户端将从交易（如销售订单或采购订单）中收集信息，并将信息打包为有效负载。 然后将发送一个请求以计算税款。
+6. 从客户端收到税款计算请求，并完成计算。 税务结果随后返回到客户端。
+7. Dynamics 365 客户端将收到税务结果，并在销售税页面上显示税金计算结果。
 
 ## <a name="supported-transactions"></a>支持的交易
 
-可以通过法人和交易启用税务计算。 支持以下交易：
+可以通过交易来启用税款计算。 
 
-- 销售流程
+以下交易在版本 10.0.21 中受支持： 
+
+- 销售额
 
     - 销售报价
     - 销售订单
@@ -83,12 +98,12 @@ ms.locfileid: "6775086"
     - 标题杂项费用
     - 行杂项费用
 
-- 采购流程
+- 采购
 
     - 采购订单
     - 确认单
     - 收货清单
-    - 产品收据
+    - 产品收货
     - 采购账单
     - 标题杂项费用
     - 行杂项费用
@@ -100,10 +115,36 @@ ms.locfileid: "6775086"
     - 询价标题杂项费用
     - 询价行杂项费用
 
-- 库存流程
+- 库存
 
     - 转移单 – 装运
     - 转移单 – 接收
+
+## <a name="supported-countriesregions"></a>支持的国家/地区
+
+法人可以启用税款计算。 
+
+版本 10.0.21 支持法人主要地址的以下国家/地区：
+
+- 奥地利
+- 比利时
+- 丹麦
+- 爱沙尼亚
+- 芬兰
+- 法国
+- 德国
+- 匈牙利
+- 冰岛
+- 意大利
+- 拉脱维亚
+- 立陶宛
+- 荷兰
+- 挪威
+- 波兰
+- 瑞典
+- 瑞士
+- 英国
+- 美国
 
 ## <a name="related-resources"></a>相关资源
 

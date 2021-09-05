@@ -1,8 +1,8 @@
 ---
 title: 设置价值模型
 description: 此过程显示如何创建新固定资产帐簿并将其与固定资产组关联。
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741528"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344650"
 ---
 # <a name="set-up-value-models"></a>设置价值模型
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 此过程显示如何创建新固定资产帐簿并将其与固定资产组关联。 它为 USMF 法人实体使用会计角色和演示数据。
-
 
 ## <a name="create-a-book"></a>创建帐簿
 1. 转到“固定资产”>“设置”>“帐簿”。
@@ -48,9 +49,10 @@ ms.locfileid: "6741528"
 1. 单击“固定资产组”。
 2. 在“固定资产组”字段中，输入或选择一个值。
 3. 在“使用年限”字段中，输入一个数字。
-    * 请注意，在设置使用年限后，计算“折旧期间”。  
-    * 您可以为税务目的将折扣惯例设置为必需。  
 
+  - 在输入资产的使用年限后计算了折旧期。  
+  - 您可以为税务目的需要来设置折扣惯例。
+  - 对于与租赁关联的固定资产，**使用年限** 字段中的值将被资产帐簿中的租赁期或资产的使用年限这二者中的较小值所替代。 如果租赁帐簿的 **所有权转移** 字段设置为 **是**，则 **使用年限** 字段中的值将始终是资产的使用年限。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

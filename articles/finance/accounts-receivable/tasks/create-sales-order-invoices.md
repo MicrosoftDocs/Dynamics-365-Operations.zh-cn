@@ -1,6 +1,6 @@
 ---
-title: 创建销售订单发票
-description: 此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。
+title: 创建销售订单账单
+description: 此主题介绍如何给销售订单开票，包括合并发票以及成批处理。
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771816"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394602"
 ---
-# <a name="create-sales-order-invoices"></a>创建销售订单发票
+# <a name="create-sales-order-invoices"></a>创建销售订单账单
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
+此主题介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>为一个销售订单创建一张发票
 1. 转到 **导航窗格 > 模块 > 应收帐款 > 订单 > 已装运但未开票的销售订单**。
 2. 从列表中选择一个销售订单。 
-3. 在 **操作窗格** 上，单击 **发票 > 生成 > 发票**。 请注意此销售订单具有多个相关的装箱单。 它将只显示单词“<multiple>”，不会显示装箱单编号。  
+3. 在 **操作窗格** 上，单击 **发票 > 生成 > 发票**。 请注意此销售订单具有多个相关的装箱单。 它将只显示单词 *多个*，不会显示装箱单编号。  
 4. 展开 **参数** 部分。
     - 若要过帐发票，请设定为“是”。 也可以关闭过帐功能只打印发票。 但是您还可以通过创建形式发票代替发票，效果一样。  
     - 此选项用于批处理作业。 运行批处理作业，查询将会运行。

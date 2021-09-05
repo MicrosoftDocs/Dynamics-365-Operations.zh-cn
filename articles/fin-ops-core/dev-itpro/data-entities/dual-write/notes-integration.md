@@ -4,24 +4,17 @@ description: 本主题介绍双重写入过程中的注释数据集成。
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: cebab0635679fcb2c3e56c22aed1f33f8846c839ab9de694ae596c9366da96db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: e850b44479d36c16db3c993e196cd6bfdbc52ee7
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744354"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416593"
 ---
 # <a name="note-integration"></a>注释集成
 

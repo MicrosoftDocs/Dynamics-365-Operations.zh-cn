@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778354"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345362"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>记录使用权资产折旧（预览）
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 对于在组织资产负债表上确认的租赁，使用权 (ROU) 资产按月摊销。 本主题说明如何为摊销创建日记帐条目。 摊销根据您的过帐配置文件和租赁类型的设置借记费用分类帐科目和贷记累计折旧分类帐科目。 可以为每个租赁创建这些条目，也可以使用批量日记帐功能为多个租赁创建它们。
 
@@ -36,6 +38,9 @@ ms.locfileid: "6778354"
 
 2. 选择折旧期间，然后选择 **创建日记帐**。 您将收到一条消息，指出已创建了用于记录折旧的日记帐。
 3. 选择 **日记帐 \> 资产租赁日记帐** 打开 **资产租赁日记帐** 页面，您可以在其中查看创建的折旧费用日记帐条目。
+
+   系统将锁定某些财务字段从而使其不能被编辑，以防止交易和计划之间出现任何差异。 已锁定的某些字段包括：**帐户**、**金额**、**财务维度**、**货币** 和 **交易类型**。 此外，您将无法在任何资产租赁日记帐条目中添加或删除日记帐条目行，因为这可能会导致计划与交易之间出现差异。
+
 4. 选择日记帐条目，然后选择 **过帐** 将折旧条目记录到总帐中。
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>计算经营性租赁的使用权资产摊销费用

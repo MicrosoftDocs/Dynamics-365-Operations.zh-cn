@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9da14c22b0ab62a8384fbe76918cc19da0205cdbbf2f4fd2ef8e7aec57b264ee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bead8a80110df174c094d0729fbde3d96b230cbf
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781006"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343989"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 

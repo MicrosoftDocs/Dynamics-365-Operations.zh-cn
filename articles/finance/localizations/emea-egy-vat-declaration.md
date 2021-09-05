@@ -10,15 +10,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5aed9b07d852918967cbf80034a538445f4a38b24b1fabfb95f9d468279b66b2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713152"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403940"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 

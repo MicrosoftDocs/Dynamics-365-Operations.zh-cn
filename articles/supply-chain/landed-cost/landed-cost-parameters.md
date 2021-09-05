@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 138ef5b3fc210a6a717200d0c41422ea901373c1dfbf1a53cd558603c11277ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b6678b2579db00a9f8884786fdaacd027fab744
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747976"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403968"
 ---
 # <a name="landed-cost-parameters-setup"></a>登陆成本参数设置
 

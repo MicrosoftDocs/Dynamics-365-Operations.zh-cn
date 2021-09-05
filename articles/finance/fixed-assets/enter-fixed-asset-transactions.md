@@ -1,8 +1,8 @@
 ---
 title: 固定资产交易记录选项
 description: 本主题介绍可用来创建固定资产交易记录的不同方法。
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764255"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344682"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍可用来创建固定资产交易记录的不同方法。
 
@@ -58,14 +59,16 @@ ms.locfileid: "6764255"
 | 折旧                        | 固定资产             | 固定资产                              |
 |                                     | 总帐           | 普通日记帐                           |
 | 处置                            | 固定资产             | 固定资产                              |
-| ** **                               | 总帐           | 普通日记帐                           |
-| ** **                               | 应收帐款      | 普通发票                         |
+|                                     | 总帐           | 普通日记帐                           |
+|                                     | 应收帐款      | 普通发票                         |
 
-固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，此值将更新。
+固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，将更新剩余值。
 
 有关详细信息，请参阅[固定资产集成](fixed-asset-integration.md)。
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>需要不同凭证号的交易
+系统禁止将折旧过帐到同一期间两次。 例如，如果两个用户为 1 月份单独创建折旧方案，则第一个用户的折旧将在第一个日记帐中过帐。 当第二个用户过帐第二个日记帐中的折旧时，系统将检查上次运行折旧的日期，并且不会第二次过帐同一期间的折旧。
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>需要不同凭证号的交易
 
 以下固定资产交易将使用不同的凭证号：
 

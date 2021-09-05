@@ -1,5 +1,5 @@
 ---
-title: Finance insights 主页（预览）
+title: Finance Insights 主页
 description: Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8c9d5b9857e978eb5e591f4d854d687f33b438025e81fe2c827ab7ecdb2be4e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768811"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386378"
 ---
-# <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
+# <a name="finance-insights-home-page"></a>Finance Insights 主页
 
 [!include [banner](../includes/banner.md)]
 

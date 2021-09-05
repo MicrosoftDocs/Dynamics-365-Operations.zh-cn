@@ -2,7 +2,7 @@
 title: 记录 TDS 可退税证书编号
 description: 本主题说明如何使用可退税证书页面，记录特定供应商、客户或分类帐收到的从源扣缴税款 (TDS) 证书的证书编号和日期。
 author: kailiang
-mms.date: 02/12/2021
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fae748123a47650075150fe0c37d11b56c06afe7f5258fc4e31d4ede0a478051
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc92a1321e6b2fe44bf7967c2aa1ad21dc353a03
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781167"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402440"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>记录 TDS 可退税证书编号
 

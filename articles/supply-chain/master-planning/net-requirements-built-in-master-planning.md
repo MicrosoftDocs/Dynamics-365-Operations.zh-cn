@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 94944ca733601cf302a0ccd6849d6e8dfd1c0b2d7f570d9de81a3e46d95d1cfc
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 6ace54dd3e1691013f7156b3bf315b5e35ca21bb
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012142"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345110"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>内置主计划的净需求和限定标准信息
 

@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737741"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392466"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>将固定资产与租赁关联
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何将现有固定资产与新租赁相关联。 将固定资产与租赁相关联时，初始确认时的使用权 (ROU) 资产价值将是固定资产的购置成本。
 
@@ -49,8 +50,18 @@ ms.locfileid: "6737741"
 
 现在可以使用固定资产中的标准折旧功能对固定资产进行折旧。 有关折旧的详细信息，请参阅[折旧法和惯例](../fixed-assets/depreciation-methods-conventions.md)。
 
+当租赁与固定资产关联时，固定资产帐簿上的 **使用年限** 字段将更新，以与以下条件中的最小值保持一致： 
+
+ - 资产的使用年限
+ - 关联租赁帐簿中的租赁期
+
+如果租赁帐簿的 **所有权转移** 字段设置为 **是**，则 **使用年限** 字段中的值将始终是资产的使用年限。 
+ 
+每次调整租赁时，都将更新使用年限，以确保在租赁期间折旧使用权资产，就像在资产租赁中折旧一样。
+
 > [!NOTE]
 > 如果您将固定资产与租赁关联，“资产租赁”中将禁用 **资产折旧** 和 **租赁减损** 按钮。 您可以从“固定资产”查看资产折旧和租赁减损交易。 还将禁用 **资产交易** 按钮，该按钮用于打开一个查询窗体。 您也可以在“固定资产”中打开 **资产交易** 查询窗体。  
 
+**固定资产** 和 **固定资产帐簿** 页将显示与固定资产关联的租赁 ID。 如果固定资产与租赁关联，则租赁 ID 和租赁描述将显示在 **固定资产** 页面上的 **租赁信息** 快速选项卡上。 对于与租赁帐簿关联的固定资产帐簿，**租赁 ID**、**租赁描述** 和 **帐簿类型** 字段将显示 **租赁信息** 快速选项卡上所选固定资产帐簿的信息，以指示它与租赁帐簿关联。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

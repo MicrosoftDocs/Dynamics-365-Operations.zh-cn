@@ -4,24 +4,18 @@ description: 本主题概括介绍双写入，其提供客户互动应用与 Fin
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.custom: intro-internal
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 775a85bebdf78f1ac820f29531513e2c8d3a0cf6b4ee1d29435c7a6edff68a60
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 859bb270a0c1e37b6673413b1e8444a6e4b00e2d
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724335"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7417023"
 ---
 # <a name="dual-write-overview"></a>双写入概览
 

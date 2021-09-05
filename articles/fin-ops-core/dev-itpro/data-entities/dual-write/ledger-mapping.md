@@ -8,12 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: rhaertle
-ms.openlocfilehash: 18a95725af8014845d6fb39806917de7632ad56b92b75387cd916de927127b38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: e5bdef8ef440bd5ef84060b61b4cf1d0088f204c
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723073"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416825"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 

@@ -4,24 +4,17 @@ description: 本主题说明如何筛选内部公司订单，以不同步 Orders
 author: negudava
 ms.date: 11/09/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: negudava
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 3e136839f51ec2d5405bc53af43e188da5f437380e28a676109d099a0d9040c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: e09f2037645609d5b5b5d05f27bc5f094287ef03
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752331"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416945"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>筛选内部公司订单以避免同步订单和订单行
 

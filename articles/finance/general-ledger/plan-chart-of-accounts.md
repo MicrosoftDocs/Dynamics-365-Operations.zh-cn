@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 375ef1b53faf9ca5c651338e3a09735b88b85734e330d683165b210e6c6962f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c4a5c0d758ecacce6433b13a2b2044d2417d018
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780378"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403857"
 ---
 # <a name="plan-your-chart-of-accounts"></a>计划您的会计科目表
 

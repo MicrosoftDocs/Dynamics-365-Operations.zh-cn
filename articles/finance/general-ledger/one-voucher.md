@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720518"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344050"
 ---
 # <a name="one-voucher"></a>一个凭证
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>什么是“一个凭证”？
@@ -81,7 +82,7 @@ ms.locfileid: "6720518"
 
 以下场景只能使用一个凭证功能完成。 如果您的组织遇到这些场景案中的任何一个，您必须启用要在凭证中输入的多个交易记录，方法是更改 **总帐参数** 页上 **一个凭证可以允许多个交易记录** 参数的设置。。 这些功能空白将通过以后发布的其他功能填补。
 
-> [!Note]
+> [!NOTE]
 > [对于以下每个场景，必须在 **总帐参数** 页面上的 **常规** 快速选项卡中将 **一个凭证可以允许多个交易记录** 设置为“是”。]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>将汇总窗体中的供应商或客户付款过帐到银行帐户
@@ -115,15 +116,7 @@ ms.locfileid: "6720518"
 如果“偿还”定期任务从应收帐款模块运行，它将创建将余额从客户移至供应商的交易记录。 对于此场景，“一个凭证”必须用于偿还客户。
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>固定资产维护：采纳折旧、拆分资产、计算处置折旧
-以下固定资产交易记录还在单个凭证中创建多个交易记录：
-
-- 对资产进行其他购置，以及计算“采纳”折旧。
-- 拆分资产。
-- 计算处置折旧的参数打开，然后处置资产。
-- 资产的服务日期在购置日期之前。 因此，折旧调整将过帐。
-
-> [!Note]
-> 输入交易记录时，请确保所有交易记录都适用于同一固定资产。 如果凭证包含多个固定资产，凭证不会过帐，即使在总帐的 **日记帐名称** 页面上将 **新凭证** 字段设置为“仅一个凭证号”。 如果凭证中包含多个固定资产，则会显示消息 **每个凭证只能有一个固定资产交易记录**，您将无法过帐凭证。  
+在版本 10.0.21 及更高版本中，将使用不同凭证号创建采纳折旧、拆分资产、计算资产处置折旧的固定资产交易记录。
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> 汇票和本票
 汇票和本票需要使用“一个凭证”，因为交易记录根据付款状态将客户或供应商余额从一个应收帐款/应付帐款会计科目移至另一个。

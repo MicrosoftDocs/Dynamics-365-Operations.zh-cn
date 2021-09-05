@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721455"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345290"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 
@@ -44,7 +44,7 @@ ms.locfileid: "6721455"
 
 如下图所示，制造生命周期分为三个阶段：*计划*、*执行* 和 *完成*。
 
-[![使用单个环境时的制造执行阶段](media/mes-phases.png“使用单个环境时的制造执行阶段。”](media/mes-phases-large.png)
+[![使用单个环境时的制造执行阶段](media/mes-phases.png "使用单个环境时的制造执行阶段。")](media/mes-phases-large.png)
 
 _计划_ 阶段包括产品定义、计划、订单创建和计划编制以及发放。 发放步骤指示从 _计划_ 阶段转换为 _执行_ 阶段。 发放生产订单后，生产订单作业将在生产车间可见并准备好执行。
 
@@ -54,7 +54,7 @@ _计划_ 阶段包括产品定义、计划、订单创建和计划编制以及�
 
 如下图所示，使用缩放单元时，_执行_ 阶段将拆分为单独的工作负荷。
 
-[![使用缩放单元时的制造执行阶段](media/mes-phases-workloads.png“使用缩放单元时的制造执行阶段。”](media/mes-phases-workloads-large.png)
+[![使用缩放单元时的制造执行阶段](media/mes-phases-workloads.png "使用缩放单元时的制造执行阶段。")](media/mes-phases-workloads-large.png)
 
 现在，该模型将从单实例安装变为基于中心和缩放单元的模型。 _计划_ 和 _完成_ 阶段在中心上作为后台操作运行，制造执行工作负荷在缩放单元上运行。 在中心和缩放单元之间异步传输数据。
 

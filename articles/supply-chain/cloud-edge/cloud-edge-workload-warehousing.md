@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7541688e8428dbc17a3c53d696913365580c3db8
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740687"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343756"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 

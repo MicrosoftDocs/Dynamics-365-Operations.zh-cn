@@ -1,8 +1,8 @@
 ---
 title: 处理登记资格
-description: 本文介绍如何运行登记资格流程。
-author: andreabichsel
-ms.date: 04/06/2020
+description: 本主题介绍如何运行登记资格流程。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782064"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417393"
 ---
 # <a name="process-enrollment-eligibility"></a>处理登记资格
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本文介绍如何运行登记资格流程。
+本主题介绍如何运行登记资格流程。
 
 1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **登记资格处理**。
 
@@ -53,11 +53,11 @@ ms.locfileid: "6782064"
 
 ## <a name="view-process-results"></a>查看流程结果
 
-本文介绍如何查看资格流程结果。
+本主题介绍如何查看资格流程结果。
 
 1.  在 **福利管理** 工作区中，在 **处理** 下，选择 **流程结果**。
 
-2.  在 **流程结果** 窗体中，指定了以下字段：
+2.  在 **流程结果** 页面中，指定了以下字段：
 
    | 字段 | 说明 |
    | --- | --- |

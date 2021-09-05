@@ -1,6 +1,6 @@
 ---
 title: 产品准备情况
-description: 本主题说明如何使用准备情况检查来确保在交易中使用产品之前，产品所需的主数据已完成。
+description: 本主题说明如何使用准备情况检查来确保在交易中使用产品之前，针对产品填写了所需的主数据。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723543"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415313"
 ---
 # <a name="product-readiness"></a>产品准备情况
 
 [!include [banner](../includes/banner.md)]
 
-您可以使用准备情况检查来确保在交易中使用产品之前已为该产品指定了所有必需的主数据。 使用准备情况检查时，将设置由用户或团队负责验证特定的预定义产品相关数据。 如果产品有已打开的准备情况检查，该产品则不能发布或用于交易。
+您可以使用准备情况检查来确保在交易中使用产品之前已为该产品指定了所有必需的主数据。 使用准备情况检查时，将设置由用户或团队负责验证特定的预定义产品相关数据。 如果产品有已打开的准备情况检查，该产品则不能用于交易。
 
-工程产品、变型或版本的 **可用** 复选框仅在输入并验证了所有必需数据之后，并且在处理了所有准备情况检查之后才可用。 到时，产品、版本或变型可以发布给其他公司以及用于交易。 您可以为新产品、新变型和新工程版本创建准备情况检查。
+工程产品、变型或版本的 **可用** 复选框仅在输入并验证了所有必需数据之后，并且在处理了所有准备情况检查之后才可用。 到时，产品、版本或变型可用于交易。 您可以为新产品、新变型和新工程版本创建准备情况检查。
 
 您还可以对标准（非工程）产品应用就绪情况检查。 有关详细信息，请参阅本主题后面的[标准产品的就绪情况检查](#standard-products)一节。
 

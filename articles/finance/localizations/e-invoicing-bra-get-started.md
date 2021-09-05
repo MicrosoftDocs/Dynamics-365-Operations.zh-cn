@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730469"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345189"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>开始使用适用于巴西的电子开票 
 
@@ -55,7 +55,7 @@ ms.locfileid: "6730469"
 
 此部分补充 [开始使用电子开票](e-invoicing-get-started.md)主题中的 **应用程序设置的国家/地区特定配置** 部分。
 
-1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择**电子开票* 磁贴。
+1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 2. 在 **电子开票功能** 页面上，验证是否选择了 **巴西 NF-e (BR)** 电子开票功能。
 3. 在 **版本** 选项卡上，验证是否已选择 **草稿** 版本。
 4. 在 **设置** 选项卡上，选择 **应用程序设置**，并在 **相连应用程序** 字段中，选择要部署到的应用程序。

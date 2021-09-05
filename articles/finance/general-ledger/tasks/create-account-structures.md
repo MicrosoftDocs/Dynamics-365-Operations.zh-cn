@@ -1,6 +1,6 @@
 ---
 title: 创建科目结构
-description: 此任务指南介绍创建科目结构的步骤。
+description: 此过程逐步演示如何创建科目结构。
 author: aprilolson
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93cc2e9ceb15070491bb3d0a790367e6d5bf8c4a30cd7efa690fd825963165b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779533"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394531"
 ---
 # <a name="create-account-structures"></a>创建科目结构
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南介绍创建科目结构的步骤。 步骤使用演示数据公司 USMF。
+此过程逐步演示如何创建科目结构。 步骤使用演示数据公司 USMF。
 
 1. 转到 **导航窗格 > 模块 > 总帐 > 会计科目表 > 结构 > 配置科目结构**。
 2. 在 **操作窗格** 中，单击 **新建** 打开对话框。

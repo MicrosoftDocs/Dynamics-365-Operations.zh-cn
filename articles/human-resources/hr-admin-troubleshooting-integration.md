@@ -1,8 +1,8 @@
 ---
 title: 与 Finance 集成的常见问题
-description: 本文说明在 Human Resources 和 Finance 集成中要同步哪些数据。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题说明在 Human Resources 和 Finance 集成中要同步哪些数据。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782136"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413360"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
@@ -158,8 +158,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>当同步雇佣时，发生错误“CompanyInfo_FK 不存在”或“未在相关表‘雇佣’中找到字段‘雇佣结束日期’中的值‘12/31/2154 11:59:59 pm’”。我应该怎么做？
 
-确保您在映射到正确的法人。 法人同步不是默认模板的一部分，因此，Human Resources 和 Dataverse 中存在的每个法人也会出现在 Finance 中。
-此外，还请确保您为关联的连接集选择了正确的法人。
+确保您在映射到正确的法人。 法人同步不是默认模板的一部分，因此，Human Resources 和 Dataverse 中存在的每个法人也会出现在 Finance 中。 此外，还请确保您为关联的连接集选择了正确的法人。
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>在设置我的项目后，Finance 的字段映射似乎是空的。 我应该怎么做？
 

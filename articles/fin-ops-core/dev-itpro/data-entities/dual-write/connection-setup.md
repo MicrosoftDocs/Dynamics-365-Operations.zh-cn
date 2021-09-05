@@ -4,24 +4,17 @@ description: 此主题介绍支持双写入的方案。
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e4072ee29984a99742de8c99be5943fb0f07639bf3c1c969bf43b1ab7076fd5b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6450ef7b0a59df3a8da2c8bed3aa9c0b14a9cc97
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776623"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7417049"
 ---
 # <a name="guidance-for-dual-write-setup"></a>双写入设置指南
 

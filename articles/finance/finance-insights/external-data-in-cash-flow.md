@@ -1,5 +1,5 @@
 ---
-title: 在现金流预测中使用外部数据（预览）
+title: 在现金流量预测中使用外部数据
 description: 本主题介绍了要将外部数据输入或导入到现金流预测中必须完成的设置步骤。
 author: rcarlson
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ff2a454b422cc4decc15339e6b328d99df85ccbc66ba3928f6c9e9f21b7b51a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768835"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386454"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts-preview"></a>在现金流预测中使用外部数据（预览）
+# <a name="use-external-data-in-cash-flow-forecasts"></a>在现金流量预测中使用外部数据
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,8 +1,8 @@
 ---
 title: 管理 Human Resources 中的功能
-description: 了解如何在 Dynamics 365 Human Resources 中打开或关闭新功能。
-author: andreabichsel
-ms.date: 04/06/2020
+description: 本主题介绍功能管理功能及其用法。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a9c459b2b34164a9be3ed609a99deb4c5b710d340ef560e6f991e760375d6146
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61e40f7177a1c8cf3d60a9a991ecbb0ed4d93aa1
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738359"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414625"
 ---
 # <a name="manage-features-in-human-resources"></a>管理 Human Resources 中的功能
 
@@ -69,7 +69,7 @@ ms.locfileid: "6738359"
 - **福利资格政策**
 - **资格事件**
 
-您可以以只读模式查看这些窗体中的信息。 如果要编辑信息，必须先禁用“福利管理”（仅适用于 **沙盒** 环境）。
+您可以以只读模式查看这些页面中的信息。 如果要编辑信息，必须先禁用“福利管理”（仅适用于 **沙盒** 环境）。
 
 ## <a name="enable-or-disable-leave-and-absence"></a>启用或禁用休假和缺勤
 

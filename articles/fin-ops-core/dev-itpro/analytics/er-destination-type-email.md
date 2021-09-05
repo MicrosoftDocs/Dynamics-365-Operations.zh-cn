@@ -2,7 +2,7 @@
 title: 电子邮件 ER 目标类型
 description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769311"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343852"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -53,9 +53,22 @@ ms.locfileid: "6769311"
 
 ## <a name="configure-an-email-destination"></a>配置电子邮件目标
 
-您可以指定电子邮件发件人和电子邮件收件人，并且可以编辑电子邮件的主题和正文。 可以为电子邮件主题和正文设置固定文本，或者使用 ER [公式](er-formula-language.md)动态创建电子邮件文本。
+### <a name="email-content"></a>电子邮件内容
 
-默认情况下，将代表当前用户发送电子邮件。 若要指定其他电子邮件发件人，您必须配置 **发件人** 字段。
+您可以编辑电子邮件的主题和正文。
+
+在 **主题** 字段中，输入电子邮件主题文本，此文本应显示在运行时生成的电子消息的主题字段中。 在 **正文** 字段中，输入电子邮件正文文本，此文本应显示在电子消息的正文字段中。 可以为电子邮件主题和正文设置固定文本，或者使用 ER [公式](er-formula-language.md)在运行时动态创建电子邮件文本。 配置的公式必须返回[字符串](er-formula-supported-data-types-primitive.md#string)类型的值。
+
+电子邮件正文采用文本或 HTML 格式组成，具体取决于电子邮件客户端。 可使用 HTML 和内嵌级联样式表 (CSS) 允许的任何布局、样式和品牌。
+
+> [!NOTE]
+> 每个电子邮件客户端实施的布局和样式限制可能需要调整用于消息正文的 HTML 和 CSS。 建议您自己熟悉有关最受欢迎电子邮件客户端将支持的 HTML 创建最佳实践。
+>
+> 使用正确的编码实现回车，具体取决于正文格式。 有关详细信息，请参阅[字符串](er-formula-supported-data-types-primitive.md#string)数据类型的定义。
+
+### <a name="email-addresses"></a>电子邮件地址
+
+您可以指定电子邮件发件人和电子邮件收件人。 默认情况下，将代表当前用户发送电子邮件。 若要指定其他电子邮件发件人，您必须配置 **发件人** 字段。
 
 > [!NOTE]
 > 配置电子邮件目标后，**发件人** 字段仅对具有 `ERFormatDestinationSenderEmailConfigure` 安全特权的用户可见，请 **为 ER 格式目标配置发件人电子邮件地址**。

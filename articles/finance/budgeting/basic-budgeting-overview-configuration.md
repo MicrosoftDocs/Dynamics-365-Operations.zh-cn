@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720590"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343648"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 
@@ -38,7 +38,7 @@ ms.locfileid: "6720590"
 
 -   在 **预算登记分录** 页上手动输入文档信息。
 -   使用可通过单击 **预算登记分录** 页上的 **在 Excel 中打开** 按钮打开的 Microsoft Excel 模板。
--   使用数据管理中的 **预算科目分录** 数据实体导入预算登记分录。 当您必须将多个预算科目分录导入系统中时，应考虑使用此方法并启用 **基于集的** **处理** 参数。
+-   使用数据管理中的 **预算科目分录** 数据实体导入预算登记分录。 当您必须将多个预算科目分录导入系统中时，应考虑使用此方法并启用 **基于集的处理** 参数。
 -   如果公司使用预算计划功能来准备预算数据，您可以使用 **生成预算登记分录** 定期流程。
 
 在更新预算余额后，预算登记分录将视为已完成。 在 **预算登记分录** 页上，单击所选预算登记分录或多个分录的 **更新预算余额**。 在更新预算余额后，预算登记分录的状态将变为 **已完成**。 无法重新打开已完成的预算登记分录以进行编辑。 因此，如果必须调整预算数据，您必须创建新的预算登记分录，而不是更正已完成的预算登记分录中的数据。

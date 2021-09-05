@@ -1,5 +1,5 @@
 ---
-title: 客户付款预测(预览版)
+title: 客户付款预测
 description: 此主题介绍可帮助您更好理解客户的典型付款实践的付款预测功能。 此功能还可以帮助您确定应导致您开始执行本应提前进行的收款流程的情况。
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bfb8d307079e4cca86a34eef3f0bdd6c6a268a1038940ecb8cf46950c1f5c9e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713250"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386653"
 ---
-# <a name="customer-payment-predictions-preview"></a>客户付款预测(预览版)
+# <a name="customer-payment-predictions"></a>客户付款预测
 
 [!include [banner](../includes/banner.md)]
 

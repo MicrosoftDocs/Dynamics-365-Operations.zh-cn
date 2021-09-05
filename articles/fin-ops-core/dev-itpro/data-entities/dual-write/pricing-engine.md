@@ -4,24 +4,17 @@ description: 本主题介绍如何在 Dynamics 365 Sales 的 Microsoft Dynamics 
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 957935a565ed70b40dcda0390e1bea3105a1f55b69e07f14d8bab42d1227c30b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729743"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416172"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>按需与 Supply Chain Management 定价引擎同步
 

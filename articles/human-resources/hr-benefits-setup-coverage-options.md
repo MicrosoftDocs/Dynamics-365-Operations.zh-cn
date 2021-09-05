@@ -1,8 +1,8 @@
 ---
 title: 创建覆盖范围选项
-description: Microsoft Dynamics 365 Human Resources 中的覆盖范围选项是参与者在福利计划或项目中的选择覆盖级别。
-author: andreabichsel
-ms.date: 06/25/2021
+description: 本主题介绍 Microsoft Dynamics 365 Human Resources 中的覆盖范围选项，这些选项供参与者在福利计划或项目中进行选择。
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 447317d0e9cb23bea21dae448048d05a3d989c89df17e4b8ea836201c20aefff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a553fa1aa4bac0d2fb11b87ee05e4e52c019411d
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423512"
 ---
 # <a name="create-coverage-options"></a>创建覆盖范围选项
 
@@ -46,7 +46,7 @@ ms.locfileid: "6741421"
    | **说明** | 覆盖范围选项的描述。 |
    | **覆盖范围代码** | 覆盖范围代码为每个合格的已覆盖人员类型分配最小和最大金额。 覆盖范围代码指示某计划类型覆盖哪些人员以及允许的覆盖范围金额。 您可以用美元金额或百分比表示覆盖范围金额。 例如:<ul><li>**Emp+1** – 要取得资格，员工必须选择一个依赖方（如果选择了多个，将不再具有资格）。</li><li>**Emp+家庭** – 要取得资格，员工必须至少选择两个依赖方。</li></ul> |
    | **最大数** | 最大依赖方数。 |
-   | **状态** | 覆盖范围选项的状态。 如果覆盖范围选项的状态设置为“无效”，则不能在计划类型上选择该覆盖范围选项。 |
+   | **状态** | 覆盖范围选项的状态。 如果覆盖范围选项的状态设置为 **无效**，则不能在计划类型上选择该覆盖范围选项。 |
    | **百分比** | 百分比金额。 仅当在“覆盖范围代码”字段中选择了“% x 薪金”时，此字段才有效。 |
    | **除数** | 选择覆盖范围代码 % x 薪金时要在计算中使用的除数。 |
    | **最小百分比** | 选择百分比覆盖范围代码时的最小百分比。 |
@@ -58,8 +58,8 @@ ms.locfileid: "6741421"
 
    | 字段 | 说明 |
    | --- | --- |
-   | **允许员工缴纳金额** | 指定是否允许员工在选择福利时在福利自助服务上修改缴纳金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的缴纳金额来计算福利计划参数。 |
-   | **允许员工覆盖范围金额** | 指定是否允许员工在选择福利时在福利自助服务上修改覆盖范围金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的覆盖范围金额来计算福利计划参数。 |
+   | **允许员工缴纳金额** | 指定是否允许员工在选择福利时在福利自助服务中修改缴纳金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的缴纳金额来计算福利计划参数。 |
+   | **允许员工覆盖范围金额** | 指定是否允许员工在选择福利时在福利自助服务中修改覆盖范围金额。 如果选中此复选框，系统将根据员工在福利自助服务中输入的覆盖范围金额来计算福利计划参数。 |
 
 6. 选择 **保存**。 
 

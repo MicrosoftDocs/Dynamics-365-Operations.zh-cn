@@ -1,8 +1,9 @@
 ---
 title: 商业渠道的会计整合概览
 description: 此主题提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733933"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343279"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>简介
+此主题是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 
 
-此主题是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
+会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
 
 - 在连接到销售点 (POS) 的会计设备（如税控打印机）上登记销售，以及为客户打印财务收据。
 - 安全地向税务主管机构管理的外部 Web 服务提交与在 Retail POS 完成的销售和退货相关的信息。
 - 通过数字签名帮助确保销售交易数据的不变性。
 
-会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Commerce SDK 中的会计整合示例](#fiscal-integration-samples-in-the-commerce-sdk)。 有关如何安装和使用 Commerce SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
 
 为了支持会计整合示例不支持的其他方案，将 Retail POS 与其他会计设备或服务整合，或者满足其他国家或地区的要求，您必须扩展用现有的会计整合示例或将现有示例用作范例创建新示例。
 
@@ -55,13 +56,13 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 以下示例显示会计设备的典型会计登记执行流。 此流从 POS 中的事件开始（例如，销售交易的最终完成），实现以下步骤序列：
 
 1. POS 从 CRT 请求会计单据。
-2. CRT 确定当前事件是否需要会计登记。
-3. 基于会计登记流程设置，CRT 标识用于会计登记的会计连接器和对应的会计单据提供程序。
-4. CRT 运行生成表示交易或事件的会计单据（例如，XML 文档）的会计单据提供程序。
-5. POS 将 CRT 准备的会计单据发送到硬件工作站。
-6. 硬件工作站运行处理会计单据并将其传送到会计设备或服务的会计连接器。
-7. POS 分析来自会计设备或服务的响应以确定会计登记是否成功。
-8. CRT 将响应保存到通道数据库。
+1. CRT 确定当前事件是否需要会计登记。
+1. 基于会计登记流程设置，CRT 标识用于会计登记的会计连接器和对应的会计单据提供程序。
+1. CRT 运行生成表示交易或事件的会计单据（例如，XML 文档）的会计单据提供程序。
+1. POS 将 CRT 准备的会计单据发送到硬件工作站。
+1. 硬件工作站运行处理会计单据并将其传送到会计设备或服务的会计连接器。
+1. POS 分析来自会计设备或服务的响应以确定会计登记是否成功。
+1. CRT 将响应保存到通道数据库。
 
 ![解决方案架构。](media/emea-fiscal-integration-solution.png "解决方案架构")
 
@@ -117,6 +118,8 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - 会计登记的状态：**已完成** 表示成功的登记，如果操作员为失败的登记选择了 **跳过** 选项则为 **已跳过**，或者如果操作员选择了 **标记为已登记** 选项，则为 **标记为已登记**。
 - 与所选会计交易记录相关的信息代码交易记录。 要查看信息代码交易记录，在 **会计交易记录** 快速选项卡上，选择状态为 **已跳过** 或 **标记为已登记** 的会计交易记录，然后选择 **信息代码交易记录**。
 
+通过选择 **扩展数据**，您还可以查看会计交易的某些属性。 可查看的属性列表特定于生成会计交易的会计登记功能。 例如，您可以查看法国数字签名功能的数字签名、序列号、证书指纹、哈希算法标识和其他会计交易记录属性。
+
 ## <a name="fiscal-texts-for-discounts"></a>折扣的会计文本
 
 某些国家或地区对在应用不同类型的折扣时必须在财务收据上打印的其他文本有特殊要求。 会计整合功能允许您在财务收据上打印的折扣行后面设置特殊的折扣文本。 对于手动折扣，您可以为在 POS 功能配置文件中指定为 **产品折扣** 信息代码的信息代码配置会计文本。 有关如何为折扣设置会计文本的更多详细信息，请参阅[设置折扣的会计文本](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts)。
@@ -128,26 +131,29 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - 运行相应操作的新按钮应添加到 POS 屏幕布局。 更多详细信息，请参阅[从 POS 设置会计 X/Z 报表](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos)。
 - 在会计整合示例中，这些操作应匹配到会计设备的相应操作。
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK 中的会计整合示例
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Commerce SDK 中的会计整合示例
 
-以下会计整合示例当前在 Retail SDK 中可用：
+以下会计整合示例当前在 Commerce SDK 中可用：
 
-- [意大利税控打印机集成示例](emea-ita-fpi-sample.md)
-- [波兰税控打印机集成示例](emea-pol-fpi-sample.md)
-- [奥地利的会计登记服务集成示例](emea-aut-fi-sample.md)
-- [捷克共和国的会计登记服务集成示例](emea-cze-fi-sample.md)
+- [意大利税控打印机集成示例](./emea-ita-fpi-sample.md)
+- [波兰税控打印机集成示例](./emea-pol-fpi-sample.md)
+- [奥地利的会计登记服务集成示例](./emea-aut-fi-sample.md)
+- [捷克共和国的会计登记服务集成示例](./emea-cze-fi-sample.md)
 - [瑞典的控制单元集成示例](./emea-swe-fi-sample.md)
 - [德国的会计登记服务集成示例](./emea-deu-fi-sample.md)
 
-以下会计整合功能也在 Retail SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
+以下会计整合功能也通过使用会计集成框架来实现，但该功能可即装即用，并且未包含在 Commerce SDK 中：
 
+- [巴西的会计登记](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [法国数字签名](./emea-fra-cash-registers.md)
 
-- [法国数字签名](emea-fra-cash-registers.md)
-- [挪威数字签名](emea-nor-cash-registers.md)
+以下会计整合功能也在 Commerce SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
 
-Retail SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
+- [挪威数字签名](./emea-nor-cash-registers.md)
+
+Commerce SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
 
 - [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)
-
+- [法国数字签名（旧版）](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

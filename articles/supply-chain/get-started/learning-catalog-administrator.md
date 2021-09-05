@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764876"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402217"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management 管理员学习目录
 
@@ -61,6 +61,14 @@ ms.locfileid: "6764876"
 | [Finance and Operations：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 | 自由录制 Web 会议 | 61 分钟 |
 | [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 Finance and Operations 应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 自由录制 Web 会议 | 58 分钟 |
 | [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 自由录制 Web 会议 | 45 分钟 |
+| [AX2009 到 Dynamics 365 for Operations 迁移工具 (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | 此会话讨论可用于帮助您从 AX2009 迁移到 D365 for Operations 的工具。 | 自由录制 Web 会议 | 55 分钟 |
+| [AX2009 迁移工具](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | 此会话讨论可用于帮助您从 AX2009 迁移到 D365 for Operations 的工具。 | 自由录制 Web 会议 | 55 分钟 |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| 内容 | 说明 | 格式 | 长度 |
+|---------|-------------|--------|--------|
+| [设置 Dynamics 365 Supply Chain Management 的工程更改管理](/learn/paths/set-up-engineering-change-management/) | 当今的制造商需要强大的产品数据管理、版本控制和工程更改管理，才能在不断缩短的产品生命周期、不断提高的质量和可靠性要求以及日益增加的产品安全关注的世界中取得成功。 在此学习路径中了解如何设置工程更改管理。 | 自由、自定进度的在线学习路径 | 4 小时 |
 
 ## <a name="servicing"></a>服务<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ ms.locfileid: "6764876"
 | [Finance and Operations：功能管理 (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | 有关功能管理体验的技术交流。 提供一个工作区，可在其中查看、启用、禁用和安排每个发行版中已交付的功能。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 若要查看 10.0.3 中交付了哪些功能和我们对未来发行版的计划，请参加此会议。 | 自由录制 Web 会议 | 47 分钟 |
 | [Finance and Operations：服务、支持和维护生产 (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | 有关如何有效支持，维护和服务 Dynamics 365 for Finance and Operations 生产环境的技术交流。 | 自由录制 Web 会议 | 53 分钟 |
 | [Finance And Operations：Microsoft 管理的持续更新 (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Finance and Operations 的持续更新节奏已开始！ 请在这个小时加入我们讨论 Microsoft 管理的持续更新，这是 Lifecycle Services 中已提供，并且将来的更新中将提供的用户体验。 | 自由录制 Web 会议 | 61 分钟 |
+| [Finance And Operations：Microsoft 管理的持续更新：新增功能 - 2018 年 11 月 1 日 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | 这个小时我们将讨论 Microsoft 管理的持续更新频率的更新，并查看 Lifecycle Services 中的用户体验。 | 自由录制 Web 会议 | 59 分钟 |
 | [Microsoft 管理的持续更新：新增功能 (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | 这个小时介绍初始公布 Microsoft 管理的持续更新依赖的新增功能。 我们将讨论更新的频率，我们如何响应了您对流程的宝贵反馈，并查看即将推出的 Lifecycle Services 用户体验，通过此用户体验，您可以管理您的更新。 | 自由录制 Web 会议 | 56 分钟 |
 | [Microsoft 管理的持续更新 (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | 将考虑 Microsoft 有关使用最新发行版让您的系统保持最新的计划。 将介绍时间线、主要更新和次要更新的频率、计划的过程、影响，以及要获得最佳结果应该执行的操作。 | 自由录制 Web 会议 | 62 分钟 |
 | [监控、优化顾问和关键 KB (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | 我们将讨论监控功能和 Microsoft 在您的生产环境中为您监控哪些对象，优化顾问及其扩展方法，LCS 中的“关键 X++ 更新”体验，以及 LCS 中的“报告生产中断”选项的最佳实践。 | 自由录制 Web 会议 | 40 分钟 |
@@ -86,6 +95,5 @@ ms.locfileid: "6764876"
 | 内容  | 说明  | 格式  |
 |----------|--------------|---------|
 | [Dynamics 365 基本原理](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

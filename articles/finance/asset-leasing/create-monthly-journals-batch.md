@@ -2,7 +2,7 @@
 title: 批量创建月日记帐条目
 description: 本主题说明如何在记录月租赁费用时批量创建日记帐条目来帮助提高效率。
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb03ebe316b1655b1d0ad1d2b9108c4ead7fc61f7a25b4f554b574186efa03b7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737717"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344845"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>批量创建月日记帐条目
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 本主题说明如何在记录月租赁费用时批量创建日记帐条目来帮助提高效率。 批处理可用于从多个计划创建日记帐条目。 这些日记帐条目可以包括租赁付款、负债摊销、使用权 (ROU) 资产摊销以及执行成本费用。 您还可以使用批处理来同时对多个租赁进行初始识别，或者同时为多个租赁创建转换调整。
 
@@ -35,5 +37,6 @@ ms.locfileid: "6737717"
 >
 > 将创建日记帐条目，但是在您选择 **运行** 命令之前，不会过帐这些条目。
 
+若要在租赁开始日期之外的其他日期过帐初始确认日记帐，请选择 **分配初始确认过帐日期**。 将显示 **日期** 字段，以便您可以指定正确的过帐日期。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

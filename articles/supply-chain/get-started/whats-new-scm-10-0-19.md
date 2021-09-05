@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773529"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384651"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
@@ -41,8 +41,8 @@ ms.locfileid: "6773529"
 | 库存和物流 | [销售报价单页上的文档介绍和文档结论字段的查找功能](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | 此功能为 **销售报价单** 页上的 **文档介绍** 和 **文档结论** 字段添加了查找功能。<br><br>默认情况下启用了此功能。 |
 | 库存和物流 | [在自定义硬件上使用边缘缩放单元的仓库执行](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [使用 LBD 在自定义硬件上部署边缘缩放单元](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | 制造 | [在自定义硬件上使用边缘缩放单元的制造执行](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [使用 LBD 在自定义硬件上部署边缘缩放单元](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| 计划 | [计划优化的无限容量计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | 此功能为计划优化启用具有无限容量的容量计划。 如果未启用此功能，计划的生产订单将从已发布产品库存提前期获取其提前期，不论计划时限如何。 |
-| 计划 | 基于查询的计划订单确认 | [确定计划订单](../master-planning/planning-optimization/planned-order-firming.md) |
+| 计划 | [计划优化的无限容量计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [具有无限容量的计划](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| 计划 | 基于查询的计划订单确认 | [确认计划订单](../master-planning/planning-optimization/planned-order-firming.md) |
 | 产品信息管理 | [变型建议页改进](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [创建预定义的产品变型](../pim/tasks/create-predefined-product-variants.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强

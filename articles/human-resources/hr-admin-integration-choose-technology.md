@@ -1,8 +1,8 @@
 ---
 title: 选择数据集成技术
-description: 本文介绍如何与 Human Resources 管理的数据集成。 其介绍可帮助您决定哪些技术最适合您的需要的不同集成技术。
-author: andreabichsel
-ms.date: 02/28/2020
+description: 本主题介绍如何与 Human Resources 管理的数据集成。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720460"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414706"
 ---
 # <a name="choose-a-data-integration-technology"></a>选择数据集成技术
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720460"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本文介绍如何与 Dynamics 365 Human Resources 管理的数据集成。 其介绍可帮助您决定哪些技术最适合您的需要的不同集成技术。
+本主题介绍如何与 Dynamics 365 Human Resources 管理的数据集成。 其介绍可帮助您决定哪些技术最适合您的需要的不同集成技术。
 
 ## <a name="data-integration-background"></a>数据集成背景
 
 业务数据是使您的公司与众不同的关键资产。 您的业务数据非常有价值。 可使用通过业务收集的数据之间的关系改进业务流程和组织中的业务智能。 无论系统来自何处，我们都致力于提供轻松、安全、稳定访问您的业务数据的方法。
 
-从历史上看，在多个系统之间集成数据一直很困难。
-Microsoft 正在采取措施使数据集成变得更加容易，朝着该目标迈出的一大步是通过 [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)。
+从历史上看，在多个系统之间集成数据一直很困难。 Microsoft 正在采取措施使数据集成变得更加容易，朝着该目标迈出的一大步是通过 [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)。
 
 Human Resources 正在使 Dataverse 成为 Human Resources 数据的首选公共接口。 随着时间的推移，我们期望 Human Resources 管理的所有最重要数据都将在 Dataverse 中公开。 我们推荐 Dataverse 作为大多数集成应用程序的首选技术。
 

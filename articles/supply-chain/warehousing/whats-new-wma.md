@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720076"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386091"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720076"
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>版本 2.0.9.0
+
+此版本修复了如果用户从列表顶部向上翻页，应用可能会停止响应的问题。
+
+## <a name="version-2080"></a>版本 2.0.8.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 添加了对 Supply Chain Management 版本 10.0.21 中引入的[步骤说明功能](mobile-app-titles-instructions.md)的支持。
+- 添加了提示动画，向用户展示他们可以通过向下滑动来关闭覆盖。
+- 添加了对操作列表和菜单上的功能键的支持。 用户可以按住任何功能键三秒钟以获取可用命令的列表。
+- 修复了导致在某些设备上显示以下错误消息的问题：“无法找到适合指定尺寸的视图。”
+- 修复了使用屏幕键盘时全屏模式并不总是可用的问题。
+- 修复了在 Windows 设备上无法进行页面滑动的问题。
+- 修复了导致系统停止响应的各种问题。
+
+## <a name="version-2070"></a>版本 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>版本 2.0.7.0 中的新增功能、修复和改进
 

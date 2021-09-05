@@ -1,7 +1,7 @@
 ---
 title: 配置键和数据实体
 description: 此主题介绍配置键和数据实体之间的关系。
-author: Sunil-Garg
+author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 72204c0a454c9893b05f2cf37a3d43c49f06532faba48f344644ba83e3351110
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16498f9e4766022951047d40173a0a3e664470d
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737843"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7404097"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuration Key 和数据实体
 

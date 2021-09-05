@@ -14,12 +14,12 @@ ms.search.region: China (PRC)
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c6b7d6ba24d43098d1ad95f71bc899ed5d11cca7bcb2a92c9919193b09c6cf91
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 7f76c48f3fd07b485294afeb585defa8f6b22540
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012132"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344567"
 ---
 # <a name="select-account-groups-for-chinese-voucher-types"></a>选择中国凭证类型的帐户组
 

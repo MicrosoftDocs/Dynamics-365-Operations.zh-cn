@@ -2,7 +2,7 @@
 title: 在 Commerce 中设置 B2C 租户
 description: 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772244"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344490"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
  
  > [!NOTE]
  > Commerce 评估环境随预先加载的 Azure AD B2C 租户一起提供，以用于演示目的。 评估环境不需要使用下面的步骤加载自己的 Azure AD B2C 租户。
+
+> [!TIP]
+> 您可以通过 Azure AD 标识保护和条件访问进一步保护站点用户并增强 Azure AD B2C 租户的安全性。 若要查看 Azure AD B2C Premium P1 和 Premium P2 租户可用的功能，请参阅 [Azure AD B2C 的标识保护和条件访问](/azure/active-directory-b2c/conditional-access-identity-protection-overview)。
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>在 Azure 门户中创建或链接到现有的 AAD B2C 租户
 

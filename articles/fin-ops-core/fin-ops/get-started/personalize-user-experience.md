@@ -2,7 +2,7 @@
 title: 打造个性化的用户体验
 description: 本主题说明如何个性化应用程序。
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719293"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344366"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -169,7 +169,7 @@ ms.locfileid: "6719293"
 仪表板上提供的一项独特的个性化功能是添加磁贴。 
 
 - 如果 **整页应用** 功能关闭，您将通过右键单击仪表板上的元素，然后选择 **添加工作区** 来添加新磁贴。 将在仪表板底部创建一个新工作区。 可按照您的意愿为这个新工作区命名。 也可以按照本主题中的[向工作区添加磁贴、列表和链接](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace)部分中的介绍向工作区添加列表、磁贴和链接。
-- 如果 **整页应用** 功能打开，您将通过右键单击仪表板上的元素，然后选择 **添加应用** 来添加新磁贴。 在对话框中，选择是要为新工作区添加磁贴，还是要添加包含 Power Apps 或网站内容的磁贴。 然后按照步骤配置您选择的选项。 将在仪表板底部创建新磁贴。 
+- 如果 **整页应用** 功能打开，您将通过右键单击仪表板上的元素，然后选择 **添加应用** 来添加新磁贴。 在对话框中，选择是要为新工作区添加磁贴，还是要添加包含 Power Apps 或网站内容的磁贴。 然后按照步骤配置您选择的选项。 将在仪表板底部创建新磁贴。 有关如何添加、编辑、删除和共享这些嵌入式应用的详细信息，请参阅[从 Power Apps 嵌入区域应用](embed-power-apps.md)和[嵌入第三方应用](embed-website.md)。
 
 ## <a name="sharing-personalizations"></a>共享个性化
 

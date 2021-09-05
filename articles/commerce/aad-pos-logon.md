@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 14d8ac93241d05245ad989bcb3cb35aaf8969164d6cfc6010a8e9d426987a1ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716292"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402143"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>为 POS 登录配置 Azure Active Directory 身份验证
 
