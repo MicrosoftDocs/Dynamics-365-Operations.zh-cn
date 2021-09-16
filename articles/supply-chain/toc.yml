@@ -6,6 +6,8 @@
           href: index.md
         - name: 开始使用
           items:
+            - name: 服务描述
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: 注册预览订阅
@@ -14,7 +16,7 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version 服务更新常见问题
+                - name: One Version 服务更新常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 管理更新和自定义代码生命周期，包括 Dynamics 365 Commerce
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
@@ -72,6 +74,8 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.22（2021 年 11 月）
+                      href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21（2021 年 10 月）
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20（2021 年 8 月）
@@ -136,7 +140,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 客户端常见问题
+                - name: 客户端常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/supply-chain/toc.json
@@ -192,7 +196,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
@@ -212,15 +216,15 @@
               items:
                 - name: 全球化服务概览
                   href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: Regulatory Configuration Service 概览
+                    - name: Regulatory configuration service (RCS) 概览
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service - 全球化功能
+                    - name: Regulatory configuration service (RCS) - 全球化功能
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
+                    - name: 在 Regulatory configuration service (RCS) 中创建电子报告配置并将其上传到全局存储库
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
+                    - name: Regulatory Configuration Service (RCS) – Lifecycle Services 存储弃用
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 将电子报告配置下载到 Supply Chain Management
                       items:
@@ -284,9 +288,9 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 使用扩展在税务集成中添加数据字段
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 多个 VAT 登记编号
+                    - name: 多个增值税登记编号
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 设置用于主数据查询的环境
+                    - name: 设置用于主数据查找的环境
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: 监管更新
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
@@ -302,9 +306,9 @@
                   items:
                     - name: 来自供应商的在途货物
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: 云和边缘
+        - name: 分布式混合拓扑
           items:
-            - name: 用于制造和仓库管理工作负载的云和边缘缩放单元
+            - name: 分布式混合拓扑中的缩放单元
               href: cloud-edge/cloud-edge-landing-page.md
             - name: 使用 LBD 在自定义硬件上部署边缘缩放单元
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
@@ -753,8 +757,6 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: 成本管理 Power BI 内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 成本管理疑难解答
-              href: cost-management/troubleshoot-costmanagement.md
         - name: 报告和 Power BI 集成
           items:
             - name: 利用 Power BI 进行报告和分析
@@ -1257,6 +1259,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 导入配置 (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service (RCS) 概览
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 将电子报告配置下载到 Supply Chain Management
+                      items:
+                        - name: 从 RCS 下载配置
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 从 RCS 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 全局存储库 (GR)
+                      items:
+                        - name: 从 GR 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 导入电子报告配置的更新版本
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 增强的筛选，用于在 GR 中查找配置
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 将配置上传到 GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 共享 GR 中的配置
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 终止富通信全局存储库中的配置
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: 快速入门指南
               items:
                 - name: 调整电子报告格式以生成自定义电子单据
@@ -1313,10 +1339,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 修改并运行格式以使用文档管理文件
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 使用条形码生成条形码图像
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 配置查找数据源以使用电子报告应用程序特定的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 使用电子报告格式的数据收集数据源
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 使用条码生成条码图像
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
@@ -1383,6 +1413,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 配置与操作有关的目标
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 配置打印管理记录特定的电子报告目标
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 设置对电子报告格式的引用
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 自动验证生成的报表
@@ -1431,6 +1463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 应用程序更新 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 应用程序更新 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
@@ -1441,6 +1475,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 从源代码启动 USER INPUT PARAMETER 类型的数据源值
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 更改代码以允许用户配置和使用指定的电子报告目标
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: 库存管理
           items:
             - name: 库存管理概览
@@ -1509,7 +1545,7 @@
                   href: inventory/inventory-statuses.md
                 - name: 创建新仓库布局
                   href: inventory/tasks/create-new-warehouse-layout.md
-                - name: 维护条码类型
+                - name: 维护条形码类型
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: 检查库存可用性
                   href: inventory/tasks/check-availability-stock.md
@@ -1547,8 +1583,6 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: 现有库存量移动工作区
                   href: inventory/inventory-on-hand-mobile-workspace.md
-                - name: 库存操作故障排除
-                  href: inventory/troubleshoot-inventory-operations.md
             - name: 出库流程
               items:
                 - name: 出库流程概览
@@ -1573,14 +1607,14 @@
               items:
                 - name: 库存可见性加载项概览
                   href: inventory/inventory-visibility.md
-                - name: 设置库存可见性
+                - name: 安装和设置库存可见性
                   href: inventory/inventory-visibility-setup.md
                 - name: 配置库存可见性
                   href: inventory/inventory-visibility-configuration.md
+                - name: 使用库存可见性应用
+                  href: inventory/inventory-visibility-power-platform.md
                 - name: 库存可见性预留
                   href: inventory/inventory-visibility-reservations.md
-                - name: 库存可见性 Power App
-                  href: inventory/inventory-visibility-power-platform.md
                 - name: 库存可见性公共 API
                   href: inventory/inventory-visibility-api.md
         - name: IoT 智能
@@ -1697,6 +1731,8 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: 日历和主计划
                   href: master-planning/supply-chain-calendars-master-planning.md
+                - name: 解决“找不到足够容量”计划编制引擎错误
+                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: 改善主计划性能
                   href: master-planning/master-planning-performance.md
                 - name: 改善计划编制引擎性能
@@ -1759,8 +1795,6 @@
                   items:
                     - name: 预测缩减参数
                       href: master-planning/reduction-keys.md
-            - name: 主计划疑难解答
-              href: master-planning/troubleshoot-masterplanning.md
         - name: 移动应用
           items:
             - name: 移动应用主页
@@ -1851,7 +1885,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 通讯簿常见问题
+                - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
@@ -1963,8 +1997,6 @@
               href: procurement/procurement-sourcing-overview.md
             - name: 采购工作流
               href: procurement/procurement-sourcing-workflows.md
-            - name: 解决采购工作流问题
-              href: procurement/troubleshoot-procurementworkflows.md
             - name: 采购目录
               items:
                 - name: 采购目录概览
@@ -2005,8 +2037,6 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: 记录采购订单上的收货
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-                - name: 解决采购订单问题
-                  href: procurement/troubleshoot-purchaseorders.md
             - name: 采购订单创建
               items:
                 - name: 手动创建采购订单
@@ -2037,8 +2067,6 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: 供应商返点
                   href: procurement/vendor-rebates.md
-                - name: 解决价格、折扣、协议和返点问题
-                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: 采购策略
               items:
                 - name: 采购策略概览
@@ -2051,10 +2079,8 @@
               items:
                 - name: 针对采购订单的物料收货
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: 供应商发票概览
+                - name: 供应商账单的概览
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 解决物料收货和开单问题
-                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: 供应商管理和协作
               items:
                 - name: 设置和维护供应商协作
@@ -2109,6 +2135,8 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: 提交和审核项目预算修订
                   href: procurement/tasks/submit-approve-project-budget-revision.md
+            - name: 采购常见问题解答
+              href: procurement/procurement-faq.md
         - name: 产品信息管理
           items:
             - name: 产品信息概览
@@ -2157,7 +2185,7 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: 排除主计划中的产品
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: 为产品创建条码
+                - name: 为产品创建条形码
                   href: pim/tasks/create-bar-code-product.md
                 - name: 输入产品的 GTIN 代码
                   href: pim/tasks/enter-gtin-code-product.md
@@ -2179,7 +2207,7 @@
                       href: pim/hazmat-items.md
                     - name: 危险物料查询和报告
                       href: pim/hazmat-reports.md
-                - name: 产品信息翻译常见问题
+                - name: 产品信息翻译常见问题解答
                   href: pim/translations-product-related-information.md
                 - name: 在订单输入期间搜索产品
                   href: pim/search-products-product-variants.md
@@ -2203,8 +2231,6 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: 物料清单计算
                   href: cost-management/bom-calculations.md
-                - name: 产品信息疑难解答
-                  href: pim/troubleshooting-productinformation.md
             - name: 产品配置
               items:
                 - name: 产品配置概览
@@ -2237,7 +2263,7 @@
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: 产品配置模型计算
                       href: pim/config-model-calculations.md
-                    - name: 产品配置模型的计算常见问题
+                    - name: 产品配置模型的计算常见问题解答
                       href: pim/calculate-product-configuration-models.md
                     - name: 配置规则
                       href: pim/configuration-rules.md
@@ -2267,8 +2293,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: 转移产品模型的数据
                       href: pim/tasks/transfer-data-product-models.md
-                - name: 产品配置器疑难解答
-                  href: pim/troubleshooting-productconfigurator.md
+            - name: 产品信息管理常见问题解答
+              href: pim/product-information-faq.md
         - name: 工程更改管理
           items:
             - name: 工程更改管理概览
@@ -2461,11 +2487,9 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: 弹性组
                       href: production-control/time-attendance-flex-groups.md
-                - name: 离散制造疑难解答
-                  href: production-control/troubleshoot-discretemanufacturing.md
-            - name: 精益化生产
+            - name: Lean manufacturing
               items:
-                - name: 精益化生产概览
+                - name: Lean manufacturing 概览
                   href: production-control/lean-manufacturing-overview.md
                 - name: 基于活动的转包
                   href: production-control/activity-based-subcontracting.md
@@ -2489,7 +2513,7 @@
                       href: production-control/job-scheduling.md
                 - name: 执行看板作业
                   items:
-                    - name: 对条码扫描仪的看板转移面板支持
+                    - name: 对条形码扫描仪的看板转移面板支持
                       href: production-control/kanban-transfer-board-support-barcode-scanner.md
                     - name: 生产反馈
                       href: production-control/production-feedback.md
@@ -2615,11 +2639,9 @@
                       href: production-control/consumption.md
                     - name: 生产过帐
                       href: cost-management/production-posting.md
-                - name: 流程制造疑难解答
-                  href: production-control/troubleshoot-processmanufacturing.md
         - name: 返点管理
           items:
-            - name: 返点管理模块概述
+            - name: 返点管理模块概览
               href: rebate-management/rebate-management-overview.md
             - name: 设置和配置返点管理模块
               items:
@@ -2681,8 +2703,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: 确认销售订单
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: 解决销售订单问题
-                  href: sales-marketing/troubleshooting-sales.md
+                - name: 销售订单常见问题解答
+                  href: sales-marketing/sales-orders-faq.md
             - name: 销售协议
               items:
                 - name: 销售协议概览
@@ -2701,12 +2723,10 @@
               items:
                 - name: 价格模拟
                   href: sales-marketing/price-simulation.md
-                - name: 成批创建销售报价单
+                - name: 批量创建销售报价单
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: 创建和编辑销售报价单
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-                - name: 解决销售报价单问题
-                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: 退货
               items:
                 - name: 销售退货
@@ -3115,26 +3135,18 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: 质量检查
                   href: warehousing/quality-check.md
-                - name: 收货仓库工序疑难解答
-                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: 出货仓库工序
               items:
-                - name: 仓库管理中的预留
-                  items:
-                    - name: 灵活的仓库级维度预留策略
-                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                    - name: 仓库管理中的预留疑难解答
-                      href: warehousing/troubleshoot-warehouse-reservations.md
-                    - name: 仓库批处理和序列预留层次结构疑难解答
-                      href: warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md
+                - name: 灵活的仓库级维度预留策略
+                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: 发放到仓库
+                  href: warehousing/release-to-warehouse-process.md
                 - name: 部分发放和部分装运
                   items:
                     - name: 运输负荷的部分装运
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: 部分预留的转移单批发布
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-                    - name: 部分发放和部分装运疑难解答
-                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: 领料和打包
                   items:
                     - name: 设置群集领料
@@ -3177,8 +3189,6 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: 出站工作负荷可视化
                       href: warehousing/outbound-workload-visualization.md
-                    - name: 领料和打包疑难解答
-                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: 补货
                   items:
                     - name: 补货概览
@@ -3195,9 +3205,7 @@
                       href: warehousing/replenishment-strategies.md
                     - name: 库位容量范围内的补货
                       href: warehousing/replenishment-over-location-capacity.md
-                    - name: 仓库补货疑难解答
-                      href: warehousing/troubleshoot-warehouse-replenishment.md
-                - name: 装载计划和装运
+                - name: 负荷构建和装运
                   items:
                     - name: 确认并转移
                       href: warehousing/confirm-and-transfer.md
@@ -3209,8 +3217,6 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: 小型包裹装运
                       href: warehousing/small-parcel-shipping.md
-                    - name: 装载计划和装运疑难解答
-                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: 装运合并政策
                   items:
                     - name: 装运合并政策
@@ -3231,8 +3237,6 @@
                   href: warehousing/wave-processing.md
                 - name: 重新打印波次标签并使之无效
                   href: warehousing/reprint-and-void-wave-labels.md
-                - name: 出货仓库工序疑难解答
-                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: 仓库内操作
               items:
                 - name: 仓库工作策略
@@ -3297,8 +3301,6 @@
                       href: warehousing/work-split.md
                     - name: 物料处理设备接口 (MHAX)
                       href: warehousing/mhax.md
-                    - name: 仓库工作疑难解答
-                      href: warehousing/troubleshoot-warehouse-work.md
             - name: 仓库应用
               items:
                 - name: 安装、设置和使用移动设备
@@ -3309,12 +3311,10 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: 安装和连接仓库应用
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: 移动条码支持
+                    - name: 移动条形码支持
                       href: warehousing/mobile-barcode-support.md
-                    - name: 在 Warehouse Management 移动应用中使用摄像头扫描条码
+                    - name: 在 Warehouse Management 移动应用中使用摄像头扫描条形码
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: 解决 Warehouse Management 移动应用的连接问题
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: 为移动设备设置字段和菜单
                   items:
                     - name: 为 Warehouse Management 移动应用配置字段
@@ -3415,20 +3415,14 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: 牌照标签的文档路线选择布局
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: GS1 条码和二维码
+                    - name: GS1 条形码和 QR 码
                       href: warehousing/gs1-barcodes.md
                     - name: 设置仓库以支持转移单
                       href: warehousing/transfer-orders-warehouse.md
-                    - name: 仓库配置疑难解答
-                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: 升级和迁移
                   items:
                     - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-                    - name: 升级和迁移到高级仓库管理疑难解答
-                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
-                - name: 仓库设置疑难解答
-                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南
@@ -3441,6 +3435,14 @@
           items:
             - name: 成本管理
               items:
+                - name: 库存帐龄报表差异
+                  href: troubleshooting/costing/aging-report-discrepancies.md
+                - name: 在未结算库存的情况下更改分类帐期间状态时出现警告或错误
+                  href: troubleshooting/costing/change-ledger-period-without-closing.md
+                - name: 库存值/帐龄报表与其存储版本之间的功能差距
+                  href: troubleshooting/costing/function-gaps-storage-reports.md
+                - name: 当库存评估方法为“标准成本”或“移动平均”时，发生更新冲突
+                  href: troubleshooting/costing/update-conflict-standard-moving.md
                 - name: 缺少有关将物料模型组复制到另一个法人的字段设置
                   href: troubleshooting/costing/copying-item-model-groups.md
                 - name: 未入帐间接成本报告包括已删除的生产订单
@@ -3453,6 +3455,20 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: 库存管理
               items:
+                - name: 找不到库存日记帐的“工作流”下拉对话框
+                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
+                - name: 库存日记帐工作流从未完成，无法处理该日记帐
+                  href: troubleshooting/inventory/cant-post-inventory-journal.md
+                - name: 您的库存日记帐已锁定，工作流批处理作业不起作用
+                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
+                - name: 单位和单位数量在库存日记帐中不能正常工作
+                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
+                - name: 库存日记帐工作流条件应用于日记帐级别，而不是行级别
+                  href: troubleshooting/inventory/journal-workflow-conditions.md
+                - name: 现有列表页上的筛选器窗格未按预期工作
+                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
+                - name: 库存单位的最大小数位数为 0
+                  href: troubleshooting/inventory/sku-max-decimals-zero.md
                 - name: 没有“实际更新时间”的批号存在多个库存交易记录
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: 冲销一项完工入库时产生意外的未结交易记录
@@ -3467,6 +3483,20 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: 主计划
               items:
+                - name: 已确认的生产订单和估计的生产订单的物料清单分解行为不同
+                  href: troubleshooting/planning/bom-explosion-works-differently.md
+                - name: 对已计划的订单重新编制计划时，延迟值未更新
+                  href: troubleshooting/planning/delay-value-not-updated.md
+                - name: 计划订单的更新花费较长时间
+                  href: troubleshooting/planning/planned-order-long-update.md
+                - name: 为具有生产订单的库存量生成计划订单
+                  href: troubleshooting/planning/planned-orders-in-stock-items.md
+                - name: 生产计划未考虑安全宽限期
+                  href: troubleshooting/planning/prod-schedule-safety-margins.md
+                - name: 主计划的计划容量超过可用容量
+                  href: troubleshooting/planning/respect-capacity-limitations.md
+                - name: 找不到足够容量
+                  href: troubleshooting/planning/not-enough-capacity-error.md
                 - name: 运行内置的主计划引擎时出现错误
                   href: troubleshooting/planning/deprecated-master-planning-error.md
                 - name: 项不能有物料清单或公式
@@ -3499,20 +3529,102 @@
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: 采购
               items:
+                - name: 一个或多个会计分配的分配过度或分配不足
+                  href: troubleshooting/procurement/accounting-over-under-distributed.md
+                - name: 只能完成完全分配的行号的采购订单操作
+                  href: troubleshooting/procurement/action-requires-full-distribution.md
+                - name: 无法更改核准供应商的生效日期
+                  href: troubleshooting/procurement/approved-vendor-effective-date.md
+                - name: 已取消的采购订单显示在工作区的草稿列表中
+                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
+                - name: 无法将交易记录过帐到已暂停的会计科目
+                  href: troubleshooting/procurement/canceled-receipts-posted.md
+                - name: 取消剩余交货会将采购订单移至“已确认”状态
+                  href: troubleshooting/procurement/change-management-canceled-remainder.md
+                - name: 无法将多个产品收据合并到一个采购订单中
+                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
+                - name: 未填写发票帐户中的默认税组和现金折扣
+                  href: troubleshooting/procurement/default-tax-group-and-discount.md
+                - name: 更改采购订单交货地址后未同步交货名称
+                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
+                - name: 过帐供应商发票期间出现异常
+                  href: troubleshooting/procurement/invocation-target-exception.md
+                - name: 导入的采购订单显示不正确的行号
+                  href: troubleshooting/procurement/line-number-increments.md
+                - name: 采购申请中的采购协议上限无效
+                  href: troubleshooting/procurement/max-limit-on-requisition.md
+                - name: 确认采购订单期间出现“未设置对象引用”错误
+                  href: troubleshooting/procurement/object-reference-not-set.md
+                - name: 会计分配的分配过度或分配不足
+                  href: troubleshooting/procurement/over-under-distribution.md
+                - name: 无法将“计价单位”字段添加到采购协议页面
+                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
+                - name: 采购订单未反映法人的语言设置
+                  href: troubleshooting/procurement/po-language.md
+                - name: 采购订单收据不包括所有费用
+                  href: troubleshooting/procurement/po-receipt-missing-charges.md
+                - name: 采购订单上的单位价格未基于单位转换进行计算
+                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
+                - name: 未启用“过帐到分类帐中的费用帐户”设置
+                  href: troubleshooting/procurement/post-setting-turned-off.md
+                - name: 更改后将采购订单重新提交到工作流时出错
+                  href: troubleshooting/procurement/resubmit-po-after-change.md
+                - name: 贸易协议币种转换问题
+                  href: troubleshooting/procurement/trade-agreement-currencies.md
+                - name: 未将贸易协议条件应用于导入的订单行
+                  href: troubleshooting/procurement/trade-agreement-not-applied.md
+                - name: 可以根据拒绝的询价创建贸易协议
+                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
+                - name: 未根据发票累计供应商返点
+                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
+                - name: 即使未生成凭证时也使用了物料收货凭证号
+                  href: troubleshooting/procurement/voucher-number-consumed.md
                 - name: 无法为面向客户的销售订单开票
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: 无法在请求更改后向采购申请中添加行
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: 产品信息管理
               items:
-                - name: 无法应用模板以创建已发布的产品
+                - name: 无法删除已发放的产品
+                  href: troubleshooting/products/cant-delete-released-prod.md
+                - name: 计算产品配置模型时未正确舍入整数
+                  href: troubleshooting/products/integers-incorrectly-rounded.md
+                - name: 在销售订单行上配置产品时覆盖了物料文本
+                  href: troubleshooting/products/text-overwritten-configured-item.md
+                - name: 无法应用模板以创建已发放的产品
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: 无法使用已发布产品 V2 实体导入物料
+                - name: 无法使用已发放产品 V2 实体导入物料
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: 采购订单未显示翻译后的产品文本
                   href: troubleshooting/products/when-the-customer-ad.md
             - name: 生产控制
               items:
+                - name: 结算库存期间倒冲成本计算出错
+                  href: troubleshooting/production/backflush-costing-calculation-error.md
+                - name: 由于物料清单 consumptionCost 值错误，无法结束生产订单
+                  href: troubleshooting/production/bom-consumption-cost-error.md
+                - name: 创建新生产订单时无法插入物料清单和工艺路线
+                  href: troubleshooting/production/cant-insert-bom-route-number.md
+                - name: 报告上次作业中的部分数量时，先前正在进行的作业结束
+                  href: troubleshooting/production/in-progress-jobs-ended.md
+                - name: 发布生产订单时，无法完全预留物料 RM
+                  href: troubleshooting/production/item-rm-not-reserved.md
+                - name: 由于出现数量缺失错误，完工入库更新失败
+                  href: troubleshooting/production/missing-report-finished-quantity.md
+                - name: 过帐完工入库日记帐时出错
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: 将生产订单状态从“完工入库”更改为“结束”时出错
+                  href: troubleshooting/production/production-order-status-error.md
+                - name: 生产订单没有显示在“标记”页上
+                  href: troubleshooting/production/production-orders-marking-page.md
+                - name: 在通讯簿中更改工作人员姓名后，未更新资源名称
+                  href: troubleshooting/production/resource-name-not-updated.md
+                - name: 尝试结束生产订单时出现完好数量合计错误
+                  href: troubleshooting/production/total-good-quantity-order-error.md
+                - name: 无法根据这些消费品跟踪成品的序列号
+                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
+                - name: 由于当前正在使用流程，无法预留或发布工作
+                  href: troubleshooting/production/warehouse-management-processes-used.md
                 - name: 未遵守物料清单行的耗用原则设置
                   href: troubleshooting/production/flushing-principle-n.md
                 - name: 选择新的批次 ID 时会清除批处理号
@@ -3531,6 +3643,18 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: 销售和市场营销
               items:
+                - name: 内部公司流程不支持捆绑物料
+                  href: troubleshooting/sales/bundle-item-intercompany-process.md
+                - name: 无法取消链接到销售订单的内部公司采购订单
+                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
+                - name: 取消订单时无法删除预留
+                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
+                - name: 如果重叠日期中存在两个贸易协议，将始终选择同一个协议
+                  href: troubleshooting/sales/same-trade-agreement-selected.md
+                - name: 无法更改销售报价行上服务物料的销售数量
+                  href: troubleshooting/sales/service-item-sales-quantity.md
+                - name: 如果更改销售订单标题上的位置，不会更新税务信息
+                  href: troubleshooting/sales/tax-information-not-updated.md
                 - name: 取消销售订单时不能减少数量
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 系统管理员无法清除订单保留，因为他们未获授权
@@ -3541,6 +3665,90 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: 仓库管理
               items:
+                - name: 即使存在可用库存，也会显示批处理号自动预留提示
+                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
+                - name: 由于存在未完成的补货工作，无法解锁领料工作
+                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
+                - name: 装箱单从销售订单过帐后，无法取消
+                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
+                - name: 如果序列号允许空发货和空收货，则无法移动牌照
+                  href: troubleshooting/warehousing/cant-move-license-plate.md
+                - name: 无法将库存移动到牌照控制的位置
+                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
+                - name: 设置应用连接时未找到认证路径的信任定位点
+                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                - name: 找不到群集配置文件
+                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
+                - name: 无法处理交货通知更正
+                  href: troubleshooting/warehousing/delivery-note-correction.md
+                - name: 为顺序物料创建转移单后确认装运时出错
+                  href: troubleshooting/warehousing/dimension-location-left-blank.md
+                - name: 无法为启用 WMS 的仓库处理直接交货
+                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
+                - name: 使用码头管理配置文件时正在混合库存类型
+                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
+                - name: “多 SKU”选项不会评估多位置指令操作
+                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
+                - name: 发放出站负荷时未立即生成领料工作
+                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
+                - name: 在移动应用中扫描牌照 ID 时发生“牌照无效”错误
+                  href: troubleshooting/warehousing/invalid-license-plate.md
+                - name: 在仓库应用中处理变动时不允许使用库存所有者
+                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
+                - name: 由于交易记录不足，系统无法更新库存数量
+                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
+                - name: 无法在“工作类型”列中选择库存状态更改
+                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
+                - name: 在移动应用中扫描时发生“牌照或库位无效”错误
+                  href: troubleshooting/warehousing/license-plate-location-invalid.md
+                - name: 登记入站订单时牌照数量无效
+                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
+                - name: 确认转移单的装运时出现牌照说明错误
+                  href: troubleshooting/warehousing/license-plate-specified-location.md
+                - name: 其中一行已在负荷中
+                  href: troubleshooting/warehousing/line-already-on-load.md
+                - name: 在库位之间处理工作时出现负荷重量错误并且更新已取消
+                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
+                - name: 混合牌照接收不使用“贷记”以外的任何处置代码
+                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
+                - name: 只能使用管理员角色访问移动设备应用模拟器
+                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
+                - name: 从基本仓库转移到高级仓库时出现问题
+                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
+                - name: 使用系统导向的群集领料时找不到足够的群集工作
+                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
+                - name: 即使在已对销售订单开票之后，订单状态仍保持为“部分下达”
+                  href: troubleshooting/warehousing/order-status-partially-released.md
+                - name: 无法使用 Warehouse Management 移动应用进行部分领料
+                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
+                - name: 为部分数量工作启用库存状态更改
+                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
+                - name: 按仓库或站点打印交货通知或打包内容
+                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
+                - name: 当在一个位置中存在具有多个牌照的领料工作时，数量无效
+                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
+                - name: 在多个批处理中执行拆分领料时，数量无效
+                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
+                - name: 无法将部分装运的负荷重新发放到仓库
+                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
+                - name: 系统无法进行预留，因为库存中有 0.00 个可用
+                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
+                - name: 由于库存维度无效，无法为退货销售订单创建负荷行
+                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
+                - name: 无法通过出站仓库操作发放销售订单
+                  href: troubleshooting/warehousing/sales-order-not-released.md
+                - name: 负荷装运已确认，但未过帐任何行
+                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
+                - name: 时隙模板未考虑高于批处理的物料的现有库存量
+                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
+                - name: 无法为具有高于批处理的预留层次结构的部分数量发放负荷
+                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
+                - name: 运行更新物料收货后确认了未确认的采购订单
+                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
+                - name: 无法在销售订单行上取消预留库存
+                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
+                - name: 更新并迁移到 WMS 时未找到认证路径的信任定位点
+                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 由于客户处于暂停状态，无法确认装运
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 由于负荷行数量为零，无法确认装运

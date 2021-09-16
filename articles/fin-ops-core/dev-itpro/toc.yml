@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.22 的平台更新（2021 年 11 月）
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: 针对版本 10.0.21 的平台更新（2021 年 10 月）
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
@@ -72,7 +74,7 @@
           items:
             - name: 连续交货主页
               href: dev-tools/continuous-delivery-home-page.md
-            - name: 开发和连续交货常见问题
+            - name: 开发和连续交货常见问题解答
               href: dev-tools/continuous-delivery-faq.md
             - name: 从生成输出中排除测试包
               href: dev-tools/exclude-test-packages.md
@@ -352,7 +354,7 @@
                       href: deployment/infrastructure-stack.md
                     - name: 部署新环境
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: 部署常见问题
+                    - name: 部署常见问题解答
                       href: deployment/deploymentFAQ.md
                     - name: 自助服务部署的已知问题
                       href: deployment/known-issues-new-deployment-experience.md
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ 编程语言
               items:
-                - name: X++ 和调试器功能
-                  href: dev-tools/new-x-debugger-features.md
-                - name: X++ 的 Visual Studio 2017 要求
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: 调试 X++ 代码
-                  href: dev-tools/debug-xpp.md
-                - name: 请求或响应方案中的 EventHandlerResult 类
-                  href: dev-tools/event-handler-result-class.md
-                - name: 使用 C# 和 X++ 源代码编写业务逻辑
-                  href: dev-tools/write-business-logic.md
-                - name: X++ 和 X++ 编译器中的更改
-                  href: dev-tools/programming-language-support.md
-                - name: C# 的 LINQ 提供程序
-                  href: dev-tools/linq-provider-c.md
-                - name: 编写最佳实践规则
-                  href: dev-tools/author-best-practice-rules.md
-                - name: 应用程序资源管理器属性
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ 语言支持
+                  items:
+                    - name: X++ 的 Visual Studio 2017 要求
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: 调试 X++ 代码
+                      href: dev-tools/debug-xpp.md
+                    - name: 请求或响应方案中的 EventHandlerResult 类
+                      href: dev-tools/event-handler-result-class.md
+                    - name: 使用 C# 和 X++ 源代码编写业务逻辑
+                      href: dev-tools/write-business-logic.md
+                    - name: C# 的 LINQ 提供程序
+                      href: dev-tools/linq-provider-c.md
+                    - name: 编写最佳实践规则
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: 应用程序资源管理器属性
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: X++ 语言参考
                   items:
                     - name: X++ 语言参考概览
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: 库
                           href: dev-ref/xpp-library-objects.md
-                        - name: 事件
+                        - name: 事件和委托
                           href: dev-ref/xpp-events.md
                     - name: X++ 数据选择和操作
                       items:
@@ -726,7 +726,7 @@
                       href: extensibility/extensibility-roadmap.md
                     - name: 可扩展性请求
                       href: extensibility/extensibility-requests.md
-                    - name: 可扩展性常见问题
+                    - name: 可扩展性常见问题解答
                       href: extensibility/app-sealing-faq.md
                     - name: 从覆盖迁移到扩展
                       href: extensibility/migrate-overlayer-extension.md
@@ -900,12 +900,14 @@
                       href: perf-test/code-generation-wizard.md
                     - name: 接受度测试库的最佳实践
                       href: perf-test/atl-best-practices.md
-                    - name: 常见问题
+                    - name: 常见问题解答
                       href: perf-test/atl-faq.md
             - name: 日期有效性
               href: dev-tools/date-effectivity.md
             - name: 独立软件供应商开发
               items:
+                - name: ISV 开发主页
+                  href: dev-tools/isv-dev-home-page.md
                 - name: 使用 ISV Studio 将 X++ 模块链接到软件包
                   href: dev-tools/isv-studio-solutions.md
                 - name: ISV 许可
@@ -1002,7 +1004,7 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: 将服务请求提交给 Dynamics 服务工程团队
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: 计划的维护时段常见问题
+                - name: 计划的维护时段常见问题解答
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
               href: lifecycle-services/monitoring-diagnostics.md
@@ -1014,10 +1016,12 @@
               href: lifecycle-services/user-logins.md
             - name: 资产库
               href: lifecycle-services/asset-library.md
-            - name: 使用 LCS 中的工具进行性能疑难解答
+            - name: 使用 LCS 中的工具进行性能故障排除
               href: lifecycle-services/performancetroubleshooting.md
             - name: 查询指南
               href: lifecycle-services/querycookbook.md
+            - name: 已过期的订阅和数据删除
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Dynamics 365 Translation Service 概览
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: 初始同步注意事项
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: 实时同步的限制
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Lifecycle Services 的双重写入设置
                       href: data-entities/dual-write/lcs-setup.md
                     - name: 为现有 Finance and Operations 应用启用双重写入
@@ -1180,7 +1186,7 @@
                   href: power-platform/admin-reference.md
                 - name: Finance and Operations 的 Power Apps 门户
                   href: power-platform/power-portal-reference.md
-                - name: Finance and Operations 虚拟实体常见问题
+                - name: Finance and Operations 虚拟实体常见问题解答
                   href: power-platform/faq.md
             - name: 加载项
               items:
@@ -1798,7 +1804,7 @@
                   href: user-interface/slider-messagebox.md
                 - name: 消息中心、消息栏和消息详细信息 API
                   href: user-interface/messaging-api-center-bar-details.md
-                - name: 消息中心、消息栏和消息详细信息常见问题
+                - name: 消息中心、消息栏和消息详细信息常见问题解答
                   href: user-interface/messaging-user.md
             - name: 窗体模式准则
               items:

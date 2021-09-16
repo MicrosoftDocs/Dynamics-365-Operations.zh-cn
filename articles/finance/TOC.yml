@@ -6,6 +6,8 @@
           href: index.md
         - name: 开始使用
           items:
+            - name: 服务描述
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: 购买之前
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: 注册预览订阅
@@ -14,7 +16,7 @@
               items:
                 - name: One Version 服务更新概览
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: One Version 服务更新常见问题
+                - name: One Version 服务更新常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: 管理更新和自定义代码生命周期，包括 Dynamics 365 Commerce
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/finance/toc.json
@@ -72,6 +74,8 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.22（2021 年 11 月）
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21（2021 年 10 月）
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20（2021 年 8 月）
@@ -136,7 +140,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/finance/toc.json
                 - name: 功能管理概览
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: 客户端常见问题
+                - name: 客户端常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 操作搜索
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/finance/toc.json
@@ -190,7 +194,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 提交服务请求
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
-                - name: 订阅、LCS 项目和 Azure AD 租户常见问题
+                - name: 订阅、LCS 项目和 Azure AD 租户常见问题解答
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/finance/toc.json
                 - name: 在数据中心之间移动环境
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/finance/toc.json
@@ -730,7 +734,7 @@
               href: /dynamics365/project-operations/prod-exp/post-expense
             - name: 支出报表和多个审核人
               href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: 支出管理中的 VAT 退税
+            - name: 支出管理中的增值税退税
               href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: 出差津贴规则
               href: /dynamics365/project-operations/prod-exp/per-diem
@@ -1060,7 +1064,7 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: 一个凭证
                   href: general-ledger/one-voucher.md
-                - name: 一个凭证常见问题
+                - name: 一个凭证常见问题解答
                   href: general-ledger/one-voucher-faq.md
                 - name: 分类帐结算
                   href: general-ledger/ledger-settlements.md
@@ -1076,7 +1080,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: 批量财务期间结帐
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: 年终活动常见问题
+                - name: 年终活动常见问题解答
                   href: general-ledger/faq-year-end-activities.md
             - name: 销售税
               items:
@@ -1168,11 +1172,15 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: 年终结算缺少期初余额
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: 如何设置平衡的财务维度？
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: 在 Office 中打开财务日记帐模板
                   href: general-ledger/open-fincl-jrnls-in-office.md
-                - name: 不平衡导致的日记帐过帐失败
+                - name: 财务日记帐上的默认财务维度
+                  href: general-ledger/dimension-default-values.md
+                - name: 由于不平衡导致日记帐过帐失败
                   href: general-ledger/posting-fail-imbalance.md
-                - name: 为什么无法冲销此交易？
+                - name: 为什么无法冲销此交易记录？
                   href: general-ledger/cant-reverse-transctns.md
         - name: 财务报告
           items:
@@ -1472,17 +1480,17 @@
               items:
                 - name: 全球化服务概览
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: Regulatory Configuration Service 概览
+                    - name: Regulatory configuration service (RCS) 概览
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service - 全球化功能
+                    - name: Regulatory configuration service (RCS) - 全球化功能
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: 在 Regulatory Configuration Service 中创建电子报告配置并将其上传到全局存储库
+                    - name: 在 Regulatory configuration service (RCS) 中创建电子报告配置并将其上传到全局存储库
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service - 删除 RCS 环境
+                    - name: Regulatory Configuration Service (RCS) - 删除 RCS 环境
                       href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service - Lifecycle Services 存储弃用
+                    - name: Regulatory Configuration Service (RCS) – Lifecycle Services 存储弃用
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: 将电子报告配置下载到 Finance
                       items:
@@ -1546,10 +1554,12 @@
                       items:
                         - name: 开始使用税款计算
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                        - name: 设置用于主数据查询的环境
+                        - name: 设置用于主数据查找的环境
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: 确定
                       items:
+                        - name: 税务计算数据模型
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: 销售税适用性和销售税组判定逻辑
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: 计算
@@ -1558,29 +1568,33 @@
                           href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                         - name: 税务计算舍入规则
                           href: localizations/tax-calculation-rounding-rules.md
-                    - name: 多个 VAT 登记
+                    - name: 多个增值税登记
                       items:
-                        - name: 多个 VAT 登记编号
+                        - name: 多个增值税登记编号
                           href: localizations/emea-multiple-vat-registration-numbers.md
-                        - name: 多个 VAT 登记报告
+                        - name: 多个增值税登记报告
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: 法国报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: 荷兰报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: 欧盟销售清单
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: 瑞典报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: 瑞士报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: 英国报告
                           items:
-                            - name: 将 VAT 数字化，为集成做好准备
+                            - name: 将增值税数字化，为集成做好准备
                               href: localizations/emea-gbr-mtd-vat-integration.md
                     - name: 启用转移单的税务计算
                       items:
@@ -1618,7 +1632,7 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: 包装材料费用
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: VAT 报表
+                - name: 增值税报表
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
                   href: localizations/emea-aut-cross-border-services-report.md
@@ -1630,7 +1644,7 @@
                   href: localizations/bahrain.md
                 - name: 配置巴林的发票版式
                   href: localizations/emea-bhr-invoice-layout.md
-                - name: 巴林 VAT 申报
+                - name: 巴林增值税申报
                   href: localizations/emea-bhr-vat-declaration.md
                 - name: 发票签发截止时间
                   href: localizations/gcc-invoice-issue-deadline.md
@@ -1898,7 +1912,7 @@
                   href: localizations/apac-chn-negative-debits-credits.md
                 - name: 符合中国工作规则的用户操作日志
                   href: localizations/tasks/user-operation-log-china-working-rule.md
-                - name: VAT 客户发票常见问题解答
+                - name: 增值税客户发票常见问题解答
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
                 - name: GB/T 24589-2010 导出
                   href: localizations/apac-chn-gbt-24589-2010.md
@@ -1928,13 +1942,13 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 更新金额在报表和单据上显示的方式
                   href: localizations/emea-amount-printing-forms.md
-                - name: VAT 报表
+                - name: 增值税报表
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: VAT 申报（捷克共和国）
+                - name: 增值税申报（捷克共和国）
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: 银行帐户的银行符号
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
-                - name: 集团内部 VAT
+                - name: 集团内部增值税
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: 年终结算
                   href: localizations/emea-cze-hun-year-end.md
@@ -1974,7 +1988,7 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: 埃及的客户电子发票
                   href: localizations/emea-egy-e-invoices.md
-                - name: 埃及 VAT 申报
+                - name: 埃及增值税申报
                   href: localizations/emea-egy-vat-declaration.md
                 - name: 埃及预缴税金申报
                   href: localizations/emea-egy-wht-declaration.md
@@ -1984,7 +1998,7 @@
                   href: localizations/estonia.md
                 - name: 个人信息请求
                   href: localizations/emea-est-personal-info.md
-                - name: VAT 报表
+                - name: 增值税报表
                   href: localizations/emea-est-vat-statement-details.md
             - name: 欧洲
               items:
@@ -2072,7 +2086,7 @@
                   href: localizations/emea-eur-forced-einvoices.md
                 - name: 原始发票参考（东欧）
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
-                - name: 使用 VAT ID 搜索当事方
+                - name: 使用增值税 ID 搜索当事方
                   href: localizations/tasks/eur-00015-party-search-vat-id.md
                 - name: 付款参考生成工具（东欧）
                   href: localizations/tasks/ee-00015-payment-reference-generation-tool.md
@@ -2116,21 +2130,21 @@
                   href: localizations/use-fiscal-data-from-invoice-account.md
                 - name: 增值税 (VAT)
                   items:
-                    - name: 设置 VAT ID
+                    - name: 设置增值税 ID
                       href: localizations/tasks/eur-00015-vat-id.md
-                    - name: 登记供应商 VAT ID
+                    - name: 登记供应商增值税 ID
                       href: localizations/tasks/eur-00015-registration-vendor-vat-id.md
-                    - name: VAT 汇率
+                    - name: 增值税汇率
                       href: localizations/emea-vat-exchange-rate.md
-                    - name: VAT 对帐报表
+                    - name: 增值税对帐报表
                       href: localizations/tasks/eur-00018-vat-reconciliation-report.md
-                    - name: 东欧的 VAT 登记簿交易记录
+                    - name: 东欧的增值税登记簿交易记录
                       href: localizations/emea-vat-register-transactions.md
-                    - name: 起税日期（VAT 登记簿日期）
+                    - name: 起税日期（增值税登记簿日期）
                       href: localizations/emea-tax-point-date.md
-                    - name: VAT 报告
+                    - name: 增值税报告
                       href: localizations/emea-vat-reporting.md
-                    - name: 创建和提交 VAT 报表
+                    - name: 创建和提交增值税报表
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: 查看有关结算的交易记录
                   href: localizations/emea-transactions-settlement-form.md
@@ -2202,7 +2216,7 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: 更新客户付款方式
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2 报表
                   href: localizations/emea-fra-das2-report.md
@@ -2226,11 +2240,11 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: 第二年中其他购置的折旧调整
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: VAT 申报的电子传输 (ELSTER)
+                - name: 增值税申报的电子传输 (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: 德国内部统计
                   href: localizations/emea-deu-intrastat.md
-                - name: 德国 VAT 申报
+                - name: 德国增值税申报
                   href: localizations/emea-de-vat-declaration.md
                 - name: 客户电子发票报告
                   href: localizations/emea-deu-e-invoices.md
@@ -2654,9 +2668,9 @@
               items:
                 - name: 意大利概览
                   href: localizations/italy.md
-                - name: VAT 报表明细
+                - name: 增值税报表明细
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: 每季度 VAT 申报报表
+                - name: 每季度增值税申报报表
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: 阻止列表报告
                   href: localizations/emea-ita-black-list-report.md
@@ -2672,7 +2686,7 @@
                   href: localizations/emea-ita-packing-slip.md
                 - name: 销售税帐簿
                   href: localizations/emea-ita-fiscal-books.md
-                - name: 按起税日期（VAT 登记簿日期）进行 VAT 管理和报告
+                - name: 按起税日期（增值税登记簿日期）进行增值税管理和报告
                   href: localizations/emea-ita-vat-management.md
                 - name: 拆分签发给公共行政部门的发票的付款
                   href: localizations/emea-ita-split-payment-invoices-issued-public-administration.md
@@ -2684,12 +2698,14 @@
                   href: localizations/emea-ita-exil-separate-account-credit.md
                 - name: 按装箱单对销售发票行排序
                   href: localizations/emea-ita-exil-invoicing-packing-slips.md
-                - name: 金额为零的过帐发票
+                - name: 过帐金额为零的发票
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: 银行数据可用性增强
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: 意大利内部统计
                   href: localizations/emea-ita-intrastat.md
+                - name: 过帐内部统计的到货和发货
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: 内部统计申报中的每千克杂项费用
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: 意向书 - 向常见的出口商提供发票
@@ -2776,7 +2792,7 @@
                   href: localizations/tasks/depreciate-accrue-interest-expense.md
                 - name: 折旧具有已过帐缩减条目的固定资产
                   href: localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: 折旧常见问题
+                - name: 折旧常见问题解答
                   href: localizations/apac-jpn-fixed-asset-depreciation.md
                 - name: 处置具有缩减条目的固定资产
                   href: localizations/tasks/dispose-fixed-asset-reduction-entry.md
@@ -2894,7 +2910,7 @@
                   href: localizations/emea-invoices-packing-slips-numbering.md
                 - name: 自然资源税报表
                   href: localizations/emea-lva-tax-natural-resources.md
-                - name: VAT 报表明细
+                - name: 增值税报表明细
                   href: localizations/emea-lva-vat-statement-details.md
             - name: 立陶宛
               items:
@@ -2904,7 +2920,7 @@
                   href: localizations/emea-ltu-fixed-asset-repair-statement.md
                 - name: 生成仓库文档之间的固定资产转移
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: VAT 报表明细
+                - name: 增值税报表明细
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: 立陶宛的 i.SAF 报告
                   href: localizations/emea-ltu-isaf.md
@@ -2974,7 +2990,7 @@
                   href: localizations/tasks/mx-00006-sales-tax-code.md
                 - name: 设置法人会计科目表（墨西哥）
                   href: localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: 为银行帐户指定 RFC 登记 ID（墨西哥）
+                - name: 为墨西哥银行帐户指定 RFC 登记 ID
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: 供应商注册 ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
@@ -2982,19 +2998,21 @@
               items:
                 - name: 阿曼概览
                   href: localizations/oman.md
+                - name: 阿曼增值税申报 (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: 荷兰
               items:
                 - name: 荷兰概览
                   href: localizations/netherlands.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报（电子 VAT ）
+                - name: 电子纳税申报（电子增值税）
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: 审计文件 (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
-                - name: VAT 申报（荷兰）
+                - name: 增值税申报（荷兰）
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: 欧盟销售清单
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3008,7 +3026,7 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: 净导入格式
                   href: localizations/emea-nor-nets-import-format.md
-                - name: VAT 报表
+                - name: 增值税报表
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: 挪威税务标准审计文件 (SAF-T)
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
@@ -3048,9 +3066,9 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 设置和使用波兰的 PKWiU 代码
                   href: localizations/emea-pol-pkwiu-code.md
-                - name: VAT 申报与登记（JPK_V7M、VDEK）
+                - name: 增值税申报与登记（JPK_V7M、VDEK）
                   items:
-                    - name: VAT 申报与登记（JPK_V7M、VDEK）概览
+                    - name: 增值税申报与登记（JPK_V7M、VDEK）概览
                       href: localizations/emea-pol-vdek.md
                     - name: 准备 JPK-V7M 报告
                       href: localizations/emea-pol-vdek-setup.md
@@ -3110,9 +3128,9 @@
                       href: localizations/emea-petty-cash.md
                     - name: 现金 - 本地主要窗体和统一报表
                       href: localizations/rus-local-primary-forms-and-unified-reports.md
-                - name: VAT
+                - name: 增值税
                   items:
-                    - name: 销项 VAT 的本地特定过帐
+                    - name: 销项增值税的本地特定过帐
                       href: localizations/rus-local-specific-posting-sales-vat.md
                     - name: 发票处理和打印
                       href: localizations/rus-invoice-facture-process-print.md
@@ -3120,13 +3138,13 @@
                       href: localizations/rus-revise-invoice-facture.md
                     - name: 税务代理的增值税 (VAT)
                       href: localizations/rus-tax-agent.md
-                    - name: VAT 申报
+                    - name: 增值税申报
                       href: localizations/rus-VAT-declaration.md
                     - name: 销售帐簿、采购帐簿和发票日记帐
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: 预付款管理
                       href: localizations/rus-prepayments-management.md
-                    - name: 传入 VAT 还原
+                    - name: 传入增值税还原
                       href: localizations/rus-incoming-VAT-restoring.md
                     - name: 处理出口贸易发票
                       href: localizations/rus-export-trade.md
@@ -3338,7 +3356,7 @@
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
                 - name: 固定资产重估组
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: 集团内部 VAT
+                - name: 集团内部增值税
                   href: localizations/emea-esp-intra-community-vat.md
                 - name: 一次性客户
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
@@ -3354,7 +3372,7 @@
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: 特殊条目和期初单
                   href: localizations/emea-esp-opening-sheets-spain.md
-                - name: 立即提供 VAT 信息
+                - name: 立即提供增值税信息
                   href: localizations/emea-esp-sii.md
             - name: 瑞典
               items:
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: 瑞典的销售税付款报表
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: 瑞典增值税申报
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: 瑞典内部统计
+                  href: localizations/emea-swe-intrastat.md
             - name: 瑞士
               items:
                 - name: 瑞士概览
@@ -3374,7 +3396,7 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: 瑞士 QR-汇票
                   href: localizations/emea-che-swiss-qr-bills.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: 泰国
               items:
@@ -3386,13 +3408,13 @@
                   href: localizations/apac-tha-tax-invoices.md
                 - name: 替换/调整税务发票
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: '未实现的 VAT '
+                - name: 未实现的增值税
                   href: localizations/apac-tha-unrealized-vat.md
-                - name: 采购交易的平均 VAT
+                - name: 采购交易的平均增值税
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: 分支机构维度
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: 销项 VAT 报告
+                - name: 销项增值税报告
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: 预缴税金
                   href: localizations/apac-tha-withholding-tax.md
@@ -3410,16 +3432,38 @@
                   items:
                     - name: 在结算折扣上创建贷项
                       href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                    - name: 创建包括要求反向 VAT 的物料的采购订单
+                    - name: 创建包括要求冲销费用增值税的物料的采购订单
                       href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                    - name: 创建包括要求反向 VAT 的物料的销售订单
+                    - name: 创建包括要求冲销费用增值税的物料的销售订单
                       href: localizations/tasks/gb-00002-sales-order.md
-                    - name: 设置反向 VAT 的物料销售税组
+                    - name: 设置冲销费用增值税的物料销售税组
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                    - name: 设置反向 VAT 物料组、规则和参数
+                    - name: 设置冲销费用增值税物料组、规则和参数
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: 设置反向 VAT 的销售税组
+                    - name: 设置冲销费用增值税的销售税组
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: 英国报告
+                  items:
+                    - name: 将增值税数字化 (MTD)
+                      items:
+                        - name: 在英国进行税务数字化 (MTD) 增值税退税提交
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: 准备您的环境以与 HMRC 的 MTD 增值税 Web 服务进行互操作
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: 授权您的 Finance 环境以与 HMRC 的 MTD Web 服务进行互操作
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: 测试与 MTD 增值税沙盒的互操作
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: 将增值税退税提交到 HMRC 的 MTD Web 服务
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: MTD 增值税的电子消息设置的核对清单
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: 生成纸张格式的增值税申报（增值税 100 报表）
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: 英国增值税申报的增值税设置详细信息
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: 从 HMRC 中检索有关增值税付款和负债的信息
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: 付款实践报表统计
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: 美国
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: 导入配置 (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service (RCS) 概览
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: 将电子报告配置下载到 Finance
+                      items:
+                        - name: 从 RCS 下载配置
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 从 RCS 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: 全局存储库 (GR)
+                      items:
+                        - name: 从 GR 导入配置
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 导入电子报告配置的更新版本
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 增强的筛选，用于在 GR 中查找配置
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 将配置上传到 GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: 共享 GR 中的配置
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: 终止富通信全局存储库中的配置
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: 快速入门指南
               items:
                 - name: 调整电子报告格式以生成自定义电子单据
@@ -4203,10 +4271,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: 修改并运行格式以使用文档管理文件
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: 使用条码生成条码图像
+                    - name: 使用条形码生成条形码图像
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 配置查找数据源以使用电子报告应用程序特定的参数
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用电子报告格式的数据收集数据源
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: 配置模型映射
@@ -4275,6 +4345,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 配置与操作有关的目标
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: 配置打印管理记录特定的电子报告目标
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: 设置对电子报告格式的引用
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: 自动验证生成的报表
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: 应用程序更新 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: 应用程序更新 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
@@ -4333,6 +4407,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: 从源代码启动 USER INPUT PARAMETER 类型的数据源值
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+                - name: 更改代码以允许用户配置和使用指定的电子报告目标
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: 移动应用
           items:
             - name: 移动应用主页
@@ -4421,7 +4497,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
-                - name: 通讯簿常见问题
+                - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
@@ -4553,7 +4629,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-earning-code-group-tasks.md
                 - name: 设置税、税区、税码和税组
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-information-tasks.md
-                - name: 税码、税组和过帐定义常见问题
+                - name: 税码、税组和过帐定义常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
                 - name: 输入工资期初余额
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-enter-beginning-balances.md
@@ -4565,7 +4641,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
                 - name: 设置津贴收入
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-premium-earning-setup-tasks.md
-                - name: 扣押、征税和管理费用常见问题
+                - name: 扣押、征税和管理费用常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
             - name: 跟踪家庭医疗休假法的休假
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-track-time-for-fmla.md
@@ -4579,7 +4655,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-issue-worker-payments.md
                 - name: 过帐工资单分配并生成供应商发票
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: 工资单和付款生成常见问题
+                - name: 工资单和付款生成常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: 完成付款流程
               items:
@@ -4591,7 +4667,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements.md
             - name: 维护和申报
               items:
-                - name: 工资单数据更新常见问题
+                - name: 工资单数据更新常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-payroll-data-updates.md
                 - name: 标准工资单报表
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-payroll-reports.md
