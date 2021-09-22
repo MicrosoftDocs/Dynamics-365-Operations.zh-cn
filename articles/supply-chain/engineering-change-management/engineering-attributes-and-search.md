@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a367b95a65c45b1e7ac46e9ac96baa2417bf3e48e3d5bfeca21c82cc8c427c24
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714346"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475004"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>工程属性和工程属性搜索
 
@@ -26,15 +26,13 @@ ms.locfileid: "6714346"
 
 若要确保可以在系统中登记所有产品主数据，您应该使用工程属性指定所有非标准特征。 然后，您可以使用工程属性搜索基于这些登记的特征轻松查找产品。
 
-## <a name="engineering-attributes"></a>工程属性
+## <a name="create-engineering-attributes-and-attribute-types"></a>创建工程属性和属性类型
 
 通常，工程产品具有许多必须捕获的特征和属性。 尽管您可以使用标准产品字段登记某些属性，但也可以根据需要创建新的工程属性。 您可以定义自己的 *工程属性* 并将它们作为产品定义的一部分。
 
-### <a name="create-engineering-attributes-and-attribute-types"></a>创建工程属性和属性类型
-
 每个工程属性必须属于一种 *属性类型*。 之所以存在此要求，是因为每个工程属性必须具有一种 *数据类型*，以便定义它所具有的值类型。 工程属性类型可以是标准类型（例如自由文本、整数或小数）或自定义类型（例如具有一组特定值可供选择的文本）。 您可以重复使用具有任何数量的工程属性的每种属性类型。
 
-#### <a name="set-up-engineering-attribute-types"></a>设置工程属性类型
+### <a name="set-up-engineering-attribute-types"></a>设置工程属性类型
 
 若要查看、创建或编辑工程属性类型，请按照下列步骤操作。
 
@@ -48,7 +46,7 @@ ms.locfileid: "6714346"
     - **值范围** – 此选项仅在 **类型** 字段设置为 *整数*、*小数* 或 *货币* 时才可用。 设置为 *是* 以建立此类型的属性可接受的最小值和最大值。 您使用 **范围** 快速选项卡建立最小值和最大值，以及（对于货币）适用于您输入的限制的货币。 将此选项设置为 *否* 以接受任何值。 
     - **度量单位** – 此字段仅在 **类型** 字段设置为 *整数* 或 *小数* 时才可用。 选择适用于此属性类型的度量单位。 如果不需要任何单位，请将此字段留空。
 
-#### <a name="set-up-engineering-attributes"></a>设置工程属性
+### <a name="set-up-engineering-attributes"></a>设置工程属性
 
 若要查看、创建或编辑工程属性，请按照下列步骤操作。
 
@@ -70,17 +68,43 @@ ms.locfileid: "6714346"
     - **最小值** – 输入建议或接受的最小值。
     - **最大值** – 输入建议或接受的最大值。
 
-### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>将工程属性连接到工程产品类别
+### <a name="engineering-attribute-inheritance"></a>工程属性继承
+
+对于物料清单 (BOM) 或配方之类产品结构，可以将所选属性从子项向上传递到父项。 您可以将此流程视为“反向继承”。
+
+#### <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
+
+如果您的系统尚未包含本部分中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，然后打开 *工程更改管理的已改进属性继承* 功能。
+
+#### <a name="attribute-inheritance-example"></a>属性继承示例
+
+对于胡萝卜饼之类食品产品，系统必须记录产品含有的每种过敏原。 胡萝卜饼可以在系统中建模为具有配方的工程产品。 此配方中包含胡萝卜饼的成分，如面粉、牛奶、胡萝卜和坚果。 在此示例中，公司为胡萝卜饼提供了两个模型：一个含乳糖，一个不含乳糖。
+
+含乳糖的饼在成分级别具有以下属性：
+
+- 成分“”面粉：属性“麸质”= 是
+- 成分“牛奶”：属性“乳糖”= 是
+- 成分“坚果”：属性“坚果”= 是
+
+不含乳糖的饼使用无乳糖牛奶，在成分级别具有以下属性：
+
+- 成分“”面粉：属性“麸质”= 是
+- 成分“牛奶”：属性“乳糖”= 否
+- 成分“坚果”：属性“坚果”= 是
+
+由于这些产品大都相似，因此可能非常容易将这些属性从子产品（两种变体）传递到父产品（基本胡萝卜饼）。 若要实现此“反向继承”，可以使用 *属性继承* 功能。 将为每种[工程版本](engineering-versions-product-category.md)定义此功能。
+
+## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>将工程属性连接到工程产品类别
 
 一些工程属性适用于所有产品，而其他工程属性特定于单独的产品或产品类别。 例如，机械产品不需要电子属性。 因此，您可以设置 *工程产品类别*。 工程产品类别将建立工程属性的集合，这些工程属性必须是属于该类别的产品定义的一部分。 您还可以指定哪些工程属性是必需的以及是否有默认值。
 
 有关如何使用工程产品类别的详细信息，包括有关如何将属性连接到类别的信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
 
-### <a name="set-values-for-engineering-attributes"></a>设置工程属性的值
+## <a name="set-attribute-values-for-engineering-attributes"></a>设置工程属性的属性值
 
 当您创建基于该类别的新工程产品时，将显示连接到工程产品类别的工程属性。 此时，您可以设置属性的值。 之后，这些值可以在 **工程版本** 页面上进行更改，或作为工程更改订单中工程更改管理的一部分。 有关详细信息，请参阅[管理工程产品的更改](engineering-change-management.md)。
 
-### <a name="create-an-engineering-product"></a>创建工程产品
+## <a name="create-an-engineering-product"></a>创建工程产品
 
 若要创建工程产品，请打开 **已发布产品** 页面。 然后，在操作窗格的 **产品** 选项卡上的 **新建** 组中，选择 **工程产品**。
 

@@ -1,5 +1,5 @@
 ---
-title: 制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit
+title: 分布式混合拓扑中的缩放单元
 description: 本主题提供有关制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit 的信息。
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780666"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471732"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>用于制造和仓库管理工作负载的云和边缘缩放单元
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780666"
 >
 > 当启用 Cloud Scale Unit 和 Edge Scale Unit 时，系统将要求您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本主题后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
 
-## <a name="core-value-proposition-for-scale-units"></a>缩放单元的核心价值主张
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>分布式混合拓扑的核心价值主张
 
-从事制造和分销业务的公司必须能够不中断且大规模地全天候运行关键业务流程。 通过 Cloud Scale Unit 和 Edge Scale Unit，公司能够不中断地运行重要的任务关键型制造和仓库流程，即使偶尔遇到网络连接或延迟问题也是如此。
+从事制造和分销业务的公司必须能够不中断且大规模地全天候运行关键业务流程。 通过分布式混合拓扑，公司能够不中断地运行重要的任务关键型制造和仓库流程，即使偶尔遇到网络连接或延迟问题也是如此。
 
-通过 Cloud Scale Unit 和 Edge Scale Unit，可在不同的环境中分配车间和仓库执行工作负荷。 此功能可以帮助提高性能，防止服务中断并最大化运行时间。 通过 Supply Chain Management 订阅的以下加载项提供缩放单元：
+分布式混合拓扑引入了 *缩放单元* 之一概念，从而可将店面和仓库执行工作负载分布到不同环境。 此功能可以帮助提高性能，防止服务中断并最大化运行时间。 通过 Supply Chain Management 订阅的以下加载项提供缩放单元：
 
 - Dynamics 365 Supply Chain Management 的 Cloud Scale Unit 加载项（*2021 年 4 月推出*）
 - Dynamics 365 Supply Chain Management 的 Edge Scale Unit 加载项（*即将推出*）

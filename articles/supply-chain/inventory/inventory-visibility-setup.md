@@ -1,5 +1,5 @@
 ---
-title: 安装库存可见性
+title: 安装库存可见性加载项
 description: 本主题介绍如何安装适用于 Microsoft Dynamics 365 Supply Chain Management 的库存可见性加载项。
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343576"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474812"
 ---
-# <a name="set-up-inventory-visibility"></a>安装库存可见性
+# <a name="install-and-set-up-inventory-visibility"></a>安装和设置库存可见性
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "7343576"
     - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
 
 > [!NOTE]
-> 目前支持的国家和地区包括加拿大（CCA、ECA）、美国（WUS、EUS）、欧盟（NEU、WEU）、英国（SUK、WUK）和澳大利亚（EAU、SEAU）。
+> 目前支持的国家和地区包括加拿大（CCA、ECA）、美国（WUS、EUS）、欧盟（NEU、WEU）、英国（SUK、WUK）、澳大利亚（EAU、SEAU）、日本（EJP、WJP）和巴西（SBR、SCUS）。
 
 如果您对这些先决条件有任何疑问，请与库存可视性产品团队联系。
 
@@ -119,6 +119,9 @@ ms.locfileid: "7343576"
 1. 通过选中 **条款和条件** 复选框同意条款和条件。
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 在安装完成时，刷新页面。 状态应更改为 **已安装**。
 
+> [!IMPORTANT]
+> 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 只有最后安装的才有效。
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>卸载库存可见性加载项
 
 若要卸载库存可见性加载项，请在 LCS 页面上选择 **卸载**。 卸载流程终止库存可见性加载项，从 LCS 注销该加载项，并删除存储在库存可见性加载项数据缓存中的所有临时数据。 但是，不删除您的 Dataverse 订阅中存储的主库存数据。
@@ -133,7 +136,7 @@ ms.locfileid: "7343576"
 
 删除这些解决方案之后，也将删除表中存储的数据。
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>安装 Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>在 Supply Chain Management 中设置库存可见性
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>部署库存可见性集成包
 
@@ -153,8 +156,23 @@ ms.locfileid: "7343576"
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>设置库存可见性集成
 
-1. 在 Supply Chain Management 中，打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区，然后打开 *库存可见性集成* 功能。
-1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**，输入要运行“库存可见性”的环境的 URL。 有关详细信息，请参阅[查找服务终结点](inventory-visibility-power-platform.md#get-service-endpoint)。
+安装此加载项之后，请执行以下步骤准备 Supply Chain Management 系统以使用此加载项。
+
+1. 在 Supply Chain Management 中，打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区，然后打开以下功能：
+    - *库存可见性集成* – 必需。
+    - *带预留抵销的库存可见性集成* – 推荐但可选。 需要版本 10.0.22 或更高版本。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。
+
+1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**。
+1. 打开 **常规** 选项卡，然后设置以下设置：
+    - **库存可见性终结点** – 输入运行库存可见性的环境的 URL。 有关详细信息，请参阅[查找服务终结点](inventory-visibility-configuration.md#get-service-endpoint)。
+    - **单个请求中的最大记录数** – 设置为单个请求中要包含的最大记录数。 必须输入小于或等于 1000 的正整数。 默认值为 512。 强烈建议您保留默认值，除非您已收到 Microsoft 支持部门的建议或您确信需要更改该值。
+
+1. 如果启用了可选的 *带预留抵销的库存可见性集成* 功能，请打开 **预留抵销** 选项卡，然后进行以下设置：
+    - **启用预留抵销** – 设置为 *是* 以启用此功能。
+    - **预留抵销修饰符** – 选择将抵销在库存可见性中所做预留的库存交易记录状态。 此设置决定触发抵销的订单处理阶段。 此阶段通过订单的库存交易记录状态跟踪。 选择以下各项之一：
+        - *在单* – 对于 *在交易记录* 状态，创建订单时间发送抵销请求。 抵销数量将为所创建订单的数量。
+        - *预留* – 对于 *预留订购的交易记录* 状态，对订单进行预留，拣货，过帐装箱单或开票时，订单将发送抵销请求。 此请求仅在上述流程发生时为第一个步骤触发一次。 抵销数量将为其中的相应订单行上库存交易记录状态已从 *在单* 更改为 *订购预留*（或更晚状态）的数量。
+
 1. 转到 **库存管理 \> 定期 \> 库存可见性集成**，启用作业。 现在，来自 Supply Chain Management 的所有库存更改事件都将发布到库存可见性。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

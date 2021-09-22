@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384577"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467414"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 
@@ -122,6 +122,9 @@ ms.locfileid: "7384577"
     - **查看历史记录** – 使用 **对未结交易的业务影响** 对话框打开对选定交易执行的操作的历史记录。 （例如，历史记录显示通知是否已发送或交易是否已被锁定。） 
     - **查看所有交易** – 打开所有交易的完整列表，而不只是未结交易。
 
+> [!IMPORTANT]
+> 仅当系统中开启了 *面向生产部门的工程通知* 功能，**通知生产** 按钮才可用。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>查看和处理交易的更改通知
 
 您可以通过以下方式阅读和处理收到的更改通知：
@@ -131,6 +134,9 @@ ms.locfileid: "7384577"
 - 对于生产订单，您可以选择仅查看适用于您管理的生产资源的更改通知。 在 **生产车间管理** 工作区的操作窗格中，选择 **配置我的工作区** 筛选页面，以仅显示有关您管理的生产单位、组和/或资源的信息。 在 **摘要** 部分，名为 **具有已更改产品的生产订单** 的磁贴显示与您的筛选器设置匹配的通知计数。 选择此磁贴打开 **工程通知** 页，其中显示了符合您的筛选器条件的交易的完整列表。
 
 当您在 **工程通知** 页上查看生产订单通知时，您可以通过选择列值或使用操作窗格上的相关命令访问相关更改订单或生产订单的链接。 完成更改评估后，在根据需要取消或修改生产订单之后，您可以将通知标记为已解决。 选择通知，然后在操作窗格上，选择 **解决**。 通知将被从所有用户的视图中删除。
+
+> [!IMPORTANT]
+> 如需发送生产订单的通知，需要系统中开启 *面向生产部门的工程通知* 功能。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ### <a name="create-a-change-order-from-a-change-request"></a>根据更改请求创建更改订单
 

@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766138"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471828"
 ---
 # <a name="generate-variants-for-engineering-products"></a>生成工程产品的变型
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 本主题介绍如何生成工程产品的变型。
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>开启为工程产品生成变型
+
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+
+- **模块**：*工程更改管理*
+- **功能名称**：*为工程产品生成变型*
+
+> [!IMPORTANT]
+> 只有启用了 *工程更改管理* 配置密钥，才会在系统中显示 *为工程产品生成变型* 功能。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>生成工程产品的一个或多个新变型
 
@@ -38,10 +49,15 @@ ms.locfileid: "6766138"
 1. 根据需要将物料清单 (BOM) 和工艺路线添加到该变型。
 1. 在操作窗格上，打开 **产品** 选项卡，从 **产品主数据** 组中，选择 **产品维度**。
 1. **产品维度** 页将打开。 此页面包含每个可用维度的选项卡。 在每个选项卡上，为您将为每个相关维度支持的每个值添加一行。 （在这个例子中，您可以在 **颜色** 选项卡上为 *白色*、*黄色* 和 *绿色* 添加行）。
-1. 关闭页面并选择 **已发布产品变型**。 请注意，此时会显示第一个创建的变型（白色 V-1）。
-1. 选择 **变型建议**。
-1. 系统建议使用具有已创建颜色值的变型（例如，白色 V-1、黄色 V-1 和绿色 V-1）。
-1. 选择建议的变型并选择 **确定** 以将变型发放到工程公司。 注意，以下条件将适用： 
+1. 关闭页面，然后选择 **已发布产品变型**。 请注意，将显示您创建的第一个变型（蓝色 V-1）。
+1. 在操作窗格的 **产品变型** 选项卡中，选择 **变型建议**。
+1. 在 **变型建议** 对话框中，执行以下步骤之一：
+
+    - 在对话框的顶部，每个可用维度都有一个部分。 为每个维度选中您要为其生成变型建议的每个值的复选框，然后选择工具栏中的 **建议**。 将把相关建议添加到 **建议的变型** 部分中。
+    - 选择工具栏中的 **全部建议** 将为维度值的所有可用组合生成变型建议。 将把这些建议添加到 **建议的变型** 部分中。
+
+1. 在 **建议的变型** 部分中，选中要创建的每个变型的复选框。 然后选择 **创建** 生成所选变型并发布到工程公司。 下列情况适用：
+
     - 任何已创建的变型都将没有物料清单或工艺路线。
     - 这些变型的属性将默认自工程类别，并且将不会从上一个变型中复制。
 

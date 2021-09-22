@@ -2,7 +2,7 @@
 title: 在电子报告中设计多语言报告
 description: 本主题说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718397"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473397"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>概览
 
@@ -229,10 +231,14 @@ ER 版本控制将控制向 ER 组件中的任何属性的标签分配。 对标
 - 链接到 **标签** 属性的 ER 标签的值存储在返回记录的 **标签** 字段中。
 - 链接到 **描述** 属性的 ER 标签的值存储在返回记录的 **描述** 字段中。
 
+## <a name="performance"></a><a name=performance></a>绩效
+
+当您配置 ER 格式组件，以便生成首选 [语言](#language)的报表或导入其中的内容使用首选语言解析的传入文档时，我们建议您在 [功能管理](../../fin-ops/get-started/feature-management/feature-management-overview.md)工作区中启用 **为 ER 运行高速缓存当前用户的首选语言** 功能。 此功能有助于改进性能，尤其是对于其中包含对 ER 公式和绑定的多个引用以及用于使用您的首选语言生成用户消息的大量[验证](general-electronic-reporting-formula-designer.md#TestFormula)规则的 ER 格式组件。
+
 ## <a name="additional-resources"></a>其他资源
 
 - [电子申报概览](general-electronic-reporting.md)
-- [电子报告功能](er-formula-language.md#functions)
+- [电子报告功能](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

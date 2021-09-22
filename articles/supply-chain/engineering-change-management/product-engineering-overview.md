@@ -2,7 +2,7 @@
 title: 工程更改管理概述
 description: 此主题概述了工程更改管理，可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714948"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467390"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -43,9 +43,11 @@ ms.locfileid: "6714948"
 
 前面的视频（[Dynamics 365 Supply Chain Management 中的更改管理功能](https://youtu.be/N313FqvRuBc)）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>为系统打开工程更改管理和版本维度功能
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>为系统开启工程更改管理功能
 
-必须同时启用 *工程更改管理* 功能及其配置密钥，然后才能够使用工程更改管理。 如果您还想要跟踪交易中产品的版本维度（可选），还必须启用 *产品版本维度* 功能及其配置密钥。
+必须同时启用 *工程更改管理* 功能及其配置密钥，然后才能够使用工程更改管理。 如果您还想要跟踪交易中产品的版本维度（可选），还必须启用 *产品版本维度* 功能及其配置密钥。 根据需要设置这些必备项后，就可以为工程更改管理开启更多可选功能。
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>开启基本工程更改管理功能
 
 首先，按照以下步骤打开这些功能。
 
@@ -53,6 +55,8 @@ ms.locfileid: "6714948"
 1. 检查更新。
 1. 开启名为 *工程更改管理* 的功能。
 1. 如果要使用它，还要打开名为 *产品维度版本* 的功能。
+
+### <a name="turn-on-the-required-configuration-keys"></a>开启必需的配置密钥
 
 接下来，按照以下步骤打开配置密钥。
 
@@ -70,5 +74,18 @@ ms.locfileid: "6714948"
 
 > [!IMPORTANT]
 > 从 2022 年 4 月开始，默认情况下，所有新安装的 **工程更改管理** 和 **产品维度 - 版本** 的许可证密钥都将启用，但是如果需要，您仍然可以将其禁用。
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>开启更多工程更改管理功能
+
+开启基本工程更改管理功能并启用其配置密钥后，将向功能管理添加一些其他和可选的工程更改管理功能。 **工程更改管理** 模块下列出了所有这些功能。 下表介绍各项可选功能，并提供有关详细信息的链接。
+
+| 功能管理中的功能名称 | 说明 |
+|---|---|
+| 对现有产品启用更改管理 | <p>利用此功能，您可以将现有产品转换为工程产品，这样就可以通过使用工程更改管理开始管理这些产品。</p><p>有关详细信息，请参阅[对现有产品启用更改管理](change-management-existing-products.md)。</p> |
+| 面向生产部门的工程通知 | <p>在工程中更改产品时，向生产方通知这些更改可能非常重要。 这样，生产工作人员就可以采取适当的操作，例如，更换组件、替换物料清单 (BOM)，或替换工艺路线。 利用此功能，您可以向生产方通知对正在生产的产品进行的更改。</p><p>有关详细信息，请参阅[管理工程产品的更改](engineering-change-management.md)。</p> |
+| 工程更改管理的已改进属性继承 | <p>此功能可以简化对成品或中间物料的属性管理。 开启此功能后，可以更轻松地确定属于物料的所有属性，并且可以选择应从该物料传播到其父物料的属性。 此功能非常有用，例如，某个成品的一个组件易碎，有毒或易燃，因为您可以轻松识别易碎、有毒或易燃属性并传播到成品。</p><p>有关详细信息，请参阅[工程属性和工程属性搜索](engineering-attributes-and-search.md)。</p> |
+| 产品准备情况检查 | <p>此功能允许您为标准（非工程）产品设置就绪情况检查。 产品就绪情况检查用于确保每个产品在提供到交易记录中并使用之前，已完全定义，并且配置了所有必需策略。 如果在使用此功能一段时间后将其禁用，则将删除标准产品的所有现有准备情况检查。</p><p>有关详细信息，请参阅[产品准备](product-readiness.md)。</p> |
+| 管理对配方及其成分的更改 | <p>利用此功能，您可以跟踪对配方成分、联产品和副产品的更改。</p><p>有关详细信息，请参阅[管理配方及其成分的更改](manage-formula-changes.md)。</p> |
+| 生成工程产品的变型 | <p>利用此功能，您可以根据可用维度值生成工程产品的变型。</p><p>有关详细信息，请参阅[生成工程产品的变型](engineering-variants.md)。</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 在 Commerce 中设置 B2C 租户
 description: 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344490"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466260"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 
 > [!TIP]
 > 您可以通过 Azure AD 标识保护和条件访问进一步保护站点用户并增强 Azure AD B2C 租户的安全性。 若要查看 Azure AD B2C Premium P1 和 Premium P2 租户可用的功能，请参阅 [Azure AD B2C 的标识保护和条件访问](/azure/active-directory-b2c/conditional-access-identity-protection-overview)。
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics 环境先决条件
+
+首先，通过满足以下先决条件确保已正确配置了您的 Dynamics 365 Commerce 环境和电子商务渠道。
+
+- 在 Commerce Headquarters 中将 POS 操作 **AllowAnonymousAccess** 值设置为“1”：
+    1. 转到 **POS 操作**。
+    1. 在操作网格中，双击并选择 **个性化**。
+    1. 选择 **添加字段**。
+    1. 在可用列列表中，选择 **AllowAnonymousAccess** 列以添加该列。
+    1. 选择 **更新**。
+    1. 对于 **612** “客户添加”操作，将 **AllowAnonymousAccess** 更改为“1”。
+    1. 运行 **1090 (收银机)** 作业。
+- 在 Commerce Headquarters 中，将客户帐户编号规则 **手动** 设置为 **否**：
+    1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> 应收帐款参数**。
+    1. 选择 **编号规则**。
+    1. 在 **客户帐户** 行中，双击 **编号规则代码** 值。
+    1. 在编号规则的 **常规** 快速选项卡上，将 **手动** 设置为 **否**。
+
+还建议您在部署 Dynamics 365 Commerce 环境之后，在该环境中[初始化种子数据](enable-configure-retail-functionality.md)。
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>在 Azure 门户中创建或链接到现有的 AAD B2C 租户
 

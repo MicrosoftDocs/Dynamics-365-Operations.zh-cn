@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774401"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463607"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -32,7 +32,29 @@ ms.locfileid: "6774401"
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>功能弃用通知于 2021 年 5 月生效
+## <a name="feature-deprecation-effective-august-2021"></a>功能弃用从 2021 年 8 月开始生效
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 中的 Microsoft Azure SQL 报表
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将弃用 LCS 中的部分 SQL 报表。 您将不再需要监视这些报表，因为此功能已被其他服务取代。 |
+| **被另一个功能取代？**   | 无 |
+| **影响的产品区域**         | SQL 报表：当前 DTU、当前 DTU 详细信息、获取锁定详细信息、当前计划向导列表、获取查询 ID 列表、获取给定计划 ID 的 SQL 查询计划、获取查询计划和执行状态、获取限制配置、获取等待统计信息、列举最耗资源的查询 |
+| **部署选项**              | 云部署：影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
+| **状态**                         | 已弃用：计划删除日期为 2021 年 10 月。 |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS 中的 Azure SQL 操作
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将弃用 LCS 中的部分 SQL 操作。  |
+| **被另一个功能取代？**   | 无 |
+| **影响的产品区域**         | SQL 操作：创建计划指南以强制使用计划 ID，创建计划指南以添加表提示，删除计划指南，禁用/启用页面锁和锁升级，更新表中的统计信息，重建索引，创建索引 |
+| **部署选项**              | 云部署：影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
+| **状态**                         | 已弃用：计划删除日期为 2021 年 10 月。 |
+
+## <a name="feature-deprecation-effective-may-2021"></a>功能弃用从 2021 年 5 月开始生效
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 中的全球化门户
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56c253d8ef2c8114edbd7098c29464d83086b2db
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748202"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441207"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用 Financial reporting 
 
@@ -180,7 +180,7 @@ Financial Reporting 功能可用于具有相应的权限和责任的用户（通
  
 以下步骤将演练为 Financial Reporting 打开事件查看器消息的过程。 事件查看器生成的日志将帮助支持工程师快速识别连接问题的来源。 联系支持人员时，将这些日志的副本与票证一起提交。
 
-> 1.    将 RegisterETW.zip 文件复制到客户端工作站（最好是桌面），并提取 [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)。
+> 1.    将 RegisterETW.zip 文件复制到客户端工作站（最好是桌面），并提取 [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122)。
 
 > 2.    确保 Windows 事件查看器已关闭。
 
@@ -189,7 +189,7 @@ Financial Reporting 功能可用于具有相应的权限和责任的用户（通
 > 4.    运行以下命令：.\RegisterETW.ps1
    
    PowerShell 中的成功输出将使用消息 **已完成 RegisterETW 脚本** 来进行验证。
-重新打开事件查看器，现在您将在 **Microsoft > Dynamics** 下看到这些日志：* MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+重新打开事件查看器，现在您将在 **Microsoft > Dynamics** 下看到这些日志：* MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
    
 > 5. 重现报表设计器中的问题。
    

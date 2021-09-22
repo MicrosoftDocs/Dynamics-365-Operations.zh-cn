@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712041"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474908"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16 中的新增功能或更改（2021 年 2 月）
 
@@ -56,30 +56,6 @@ ms.locfileid: "6712041"
 - [危险物料概述](../pim/hazmat-overview.md)（和相关主题）
 - [将主计划迁移到计划优化](../master-planning/new-master-planning-engine.md)
 - [采购 cXML 增强功能](../procurement/purchasing-cxml-enhancements.md)
-- [成本管理疑难解答](../cost-management/troubleshoot-costmanagement.md)
-- [收货仓库工序疑难解答](../warehousing/troubleshoot-warehouse-inbound.md)
-- [装载计划和装运疑难解答](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [主计划疑难解答](../master-planning/troubleshoot-masterplanning.md)
-- [出货仓库工序疑难解答](../warehousing/troubleshoot-warehouse-outbound.md)
-- [部分发放和部分装运疑难解答](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [产品配置器疑难解答](../pim/troubleshooting-productconfigurator.md)
-- [产品信息疑难解答](../pim/troubleshooting-productinformation.md)
-- [解决采购工作流问题](../procurement/troubleshoot-procurementworkflows.md)
-- [解决采购订单问题](../procurement/troubleshoot-purchaseorders.md)
-- [解决价格、折扣、协议和返点问题](../procurement/troubleshooting-pricediscountagreements.md)
-- [解决物料收货和开单问题](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [离散制造疑难解答](../production-control/troubleshoot-discretemanufacturing.md)
-- [领料和打包疑难解答](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [流程制造疑难解答](../production-control/troubleshoot-processmanufacturing.md)
-- [仓库管理中的预留疑难解答](../warehousing/troubleshoot-warehouse-reservations.md)
-- [解决销售订单问题](../sales-marketing/troubleshooting-sales.md)
-- [解决销售报价单问题](../sales-marketing/troubleshooting-salesquotation.md)
-- [升级和迁移到高级仓库管理疑难解答](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [仓库管理移动应用连接问题故障排除](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [仓库配置疑难解答](../warehousing/troubleshoot-warehouse-configuration.md)
-- [仓库补货疑难解答](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [仓库设置疑难解答](../warehousing/troubleshoot-warehouse-setup.md)
-- [仓库工作疑难解答](../warehousing/troubleshoot-warehouse-work.md)
 - [储存群集](../warehousing/putaway-clusters.md)
 - [补货策略](../warehousing/replenishment-strategies.md)
 - [工作拆分](../warehousing/work-split.md)

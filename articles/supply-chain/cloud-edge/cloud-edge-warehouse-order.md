@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731881"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471684"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731881"
 
 ## <a name="what-are-warehouse-orders"></a>什么是仓库订单？
 
-*仓库订单* 是为支持中心和缩放单元仓库部署而创建的一种订单。 当您在缩放单元上运行仓库工作负荷时，您可以使用它们来接收库存。 它们当前只能与采购订单一起使用。
+*仓库订单* 是一种用于支持中心和缩放单元仓库部署的订单。 当您在缩放单元上运行仓库工作负荷时，您可以使用它们来接收和装运库存。
 
-仓库订单用作仓库管理处理的一部分，例如在处理入库采购订单期间使用仓库管理移动应用登记实际现有库存时。 仓库订单的创建是 *发放到仓库* 流程的一部分，可用于指定缩放单位仓库的采购订单，以及为使用仓库管理流程启用的项目。
+仓库订单用作入站和出站仓库管理处理的一部分。 其作为 *发放到仓库* 流程的一部分创建，从而在中心中初始化。
+对于在处理入站订单时将 Warehouse Mobile App 用于等记实际现有库存的入站处理，这可用于指定为了使用仓库管理处理而启用的缩放单元仓库和物料的采购订单和生产订单。
+出站仓库订单用作转移单和销售订单的装运波次流程的一部分。
 
 > [!IMPORTANT]
 > 仓库订单仅在将[仓库管理工作负荷用于云和边缘缩放单元](cloud-edge-workload-warehousing.md)的部署中可用。
 
-## <a name="create-a-warehouse-order"></a>创建仓库订单
+## <a name="create-an-inbound-warehouse-order"></a>创建入站仓库订单
 
-要创建仓库订单，请按照下面的步骤操作。
+若要为采购订单流程创建入站仓库订单，请执行以下步骤。
 
 1. 登录到在中心运行的 Microsoft Dynamics 365 Supply Chain Management 的实例。 （在中心登录后，您必须启动 *发放到仓库* 流程。）
 1. 转到 **采购 \> 采购订单 \> 所有采购订单**。

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416172"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481307"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>按需与 Supply Chain Management 定价引擎同步
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
     + 税金总计
     + 总金额
     
-5. 为确保系统考虑贸易和销售协议来计算价格：
+5. 若要确保系统考虑贸易协议来计算价格：
     1. 导航到您的 Supply Chain Management 环境。
     2. 导航到 **应收帐款 \> 设置 \> 应收帐款参数**。
     3. 选择侧导航栏中的 **价格** 选项卡。
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 
 当您在 Sales 中选择 **价格订单** 时，将为关联销售订单调用 Supply Chain Management 中 **销售订单 \> 视图** 选项卡上的 **总计** 函数。 Sales 中订单总计中的值用于填写 Supply Chain Management 中的对应列。
 
-在 Supply Chain Management 中计算销售订单总计时，计算将评估客户的现有贸易协议和销售协议以及销售订单中列出的产品。 此信息用于计算总计。 选择 **价格订单** 时，Sales 会自动反映 Supply Chain Management 中已经完成的所有设置。
+在 Supply Chain Management 中计算销售订单总计时，计算将评估客户的现有贸易销售协议以及销售订单中列出的产品。 此信息用于计算总计。 选择 **价格订单** 时，Sales 会自动反映 Supply Chain Management 中已经完成的所有设置。
 
 ## <a name="limitations"></a>限制
 

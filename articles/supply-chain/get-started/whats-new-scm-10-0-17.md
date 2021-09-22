@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760506"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474594"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 中的新增功能或更改（2021 年 4 月）
 
@@ -99,10 +99,6 @@ ms.locfileid: "6760506"
 
 我们最近添加或大幅更新了以下帮助主题。 它们不一定与上一节中列出的为此版本添加的新功能相关，但是它们可以帮助您从现有功能中获得更多益处。
 
-### <a name="cost-management"></a>成本管理
-
-- [成本管理疑难解答](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>资产管理
 
 - [设置资产管理移动工作区](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ ms.locfileid: "6760506"
 - [部分库位周期盘点](../warehousing/partial-location-cycle-counting.md)
 
 - [领料行分组](../warehousing/pick-line-grouping.md)
-
-- [库存操作故障排除](../inventory/troubleshoot-inventory-operations.md)
 
 - [仓库时隙](../warehousing/warehouse-slotting.md)
 

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345642"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441281"
 ---
 # <a name="maintain-bar-code-types"></a>维护条码类型
 
@@ -32,7 +32,8 @@ ms.locfileid: "7345642"
 1. 在 **条码设置** 字段中，键入一个值。
 1. 在 **描述** 字段中，键入一个值。
 1. 在 **条码类型** 字段中，选择一个选项。
-    * 如果您使用 USMF，您可以选择“代码 39”。  
+    * 如果您使用 USMF，您可以选择“代码 39”。
+1. 在 **掩码 ID** 字段中，指定条码掩码 ID。 条码掩码用于创建条码，以及快速标识扫描到销售点 (POS) 系统中的条码。 有关详细信息，请参阅[设置条码掩码](../../../commerce/set-up-bar-code-masks.md)。
 1. 在 **大小** 字段中，输入一个数字。
 1. 在 **最大长度** 字段中，输入一个数字。
 1. 选择 **保存**。

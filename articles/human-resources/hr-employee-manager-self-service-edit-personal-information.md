@@ -1,8 +1,8 @@
 ---
 title: 编辑个人信息
 description: 本文介绍如何在员工和经理自助服务中编辑个人信息。
-author: andreabichsel
-ms.date: 03/19/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715887"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431454"
 ---
 # <a name="edit-personal-information"></a>编辑个人信息
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-您可以在 **员工自助服务工作区** 的 Dynamics 365 Human Resources 中编辑您的个人信息。
+您可以在 **员工自助服务** 工作区的 Dynamics 365 Human Resources 中编辑您的个人信息。
 
 您可以编辑的个人信息包括：
 
@@ -40,7 +40,7 @@ ms.locfileid: "6715887"
 >[!NOTE]
 >您可能无法编辑某些类型的个人信息，如业务联系人详细信息。 有关详细信息，请参阅[限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)。
 
-在全局通讯簿中设置的参数确定可以查看您的个人信息的角色。
+在 **全局通讯簿参数** 页面中设置的参数决定哪些角色可以查看您的个人信息。
 
 1. 在 Human Resources 中，选择 **员工自助服务**。
 

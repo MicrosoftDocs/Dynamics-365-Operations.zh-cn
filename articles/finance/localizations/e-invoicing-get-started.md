@@ -2,7 +2,7 @@
 title: 开始使用电子开票
 description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票。
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732973"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463826"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>开始使用电子开票
 
@@ -43,7 +43,7 @@ ms.locfileid: "6732973"
 2. 在 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 3. 选择 **导入**，然后选择 **同步**。
 4. 使用一词 **Microsoft** 筛选 **配置提供者** 列。
-5. 从本主题开头的表中选择电子开票功能的名称，然后选择 **导入**。
+5. 从表中选择电子开票功能的名称，然后选择 **导入**。
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>在您的组织提供者下创建电子开票功能
 
@@ -113,7 +113,7 @@ ms.locfileid: "6732973"
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
 
-7. 对于您创建的每个表名称，根据下表选择并输入上下文值。
+6. 对于您创建的每个表名称，根据下表选择并输入上下文值。
 
     | 功能名称                         | 业务文档 | 上下文 |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ ms.locfileid: "6732973"
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
 
-8. 对于每个表名称和上下文，根据下表选择并输入业务单据映射值。
+7. 对于每个表名称和上下文，根据下表选择并输入业务单据映射值。
 
     | 功能名称                         | 业务文档 | 业务文档映射 |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ ms.locfileid: "6732973"
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>将电子开票功能部署到连接的应用程序
 
 1. 在 **版本** 选项卡上，选择要部署的电子开票功能的版本。
-4. 选择 **部署**。
-5. 将 **部署到连接的应用程序** 选项设置为 **是**。
-6. 在 **连接应用程序** 字段上，选择与您的 Finance 或 Supply Chain Management 实例关联的连接。
-7. 将 **部署到服务环境** 选项设置为 **否**。
-10. 选择 **确定**。
+2. 选择 **部署**。
+3. 将 **部署到连接的应用程序** 选项设置为 **是**。
+4. 在 **连接应用程序** 字段上，选择与您的 Finance 或 Supply Chain Management 实例关联的连接。
+5. 将 **部署到服务环境** 选项设置为 **否**。
+6. 选择 **确定**。
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>在 Finance 或 Supply Chain Management 中打开电子开票功能
 

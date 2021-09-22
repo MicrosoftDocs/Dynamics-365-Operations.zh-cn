@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344280"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474980"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>库存可见性加载项概述
 
@@ -31,22 +31,20 @@ ms.locfileid: "7344280"
 
 可以通过为标准化库存维度设置配置选项和设置交易记录类型，将库存可见性与多个第三方系统集成。 库存可见性还支持通过可配置的计算数量进行自定义扩展。
 
-## <a name="supported-features"></a>支持的功能
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>库存可见性与 Dynamics 365 Supply Chain Management 的集成
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>库存可见性与 Dynamics 365 Supply Chain Management 的集成
+这款集成解决方案从 Dynamics 365 Supply Chain Management 提取库存数据，并持续跟踪库存更改。 有关详细信息，请参阅 [安装和设置库存可见性](inventory-visibility-setup.md)和[配置库存可见性](inventory-visibility-configuration.md)。
 
-这款集成解决方案从 Dynamics 365 Supply Chain Management 提取库存数据，并持续跟踪库存更改。 有关详细信息，请参阅[设置库存可见性](inventory-visibility-setup.md)。
+## <a name="get-a-global-view-of-inventory"></a>获取库存的全局视图
 
-### <a name="get-a-global-view-of-inventory"></a>获取库存的全局视图
-
-这款集成解决方案可用于定义自己的数据源和集中库存数据。 有关详细信息，请参阅[库存可见性配置](inventory-visibility-configuration.md)。
+这款集成解决方案可用于定义自己的数据源和集中库存数据。 有关详细信息，请参阅[配置库存可见性](inventory-visibility-configuration.md)。
 
 查看库存的方法有两种：
 
 - 通过高性能 API 提交查询。 此 API 可以直接从缓存实例返回近实时库存数据。 您可以在[库存可见性公共 API](inventory-visibility-api.md) 中找到合同和示例 。
 - 查看原始现有库存列表。 此列表定期从缓存实例同步，并在 Dataverse 中显示。 有关详细信息，请参阅[库存可见性应用](inventory-visibility-power-platform.md)。
 
-### <a name="soft-reservations"></a>软预留
+## <a name="soft-reservations"></a>软预留
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

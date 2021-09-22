@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393515"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441157"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -43,6 +43,11 @@ ms.locfileid: "7393515"
 在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 
 
 不应将试用环境用作生产环境。 它们仅限于 60 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
+
+在创建 Human Resources 试用环境时，还将在租户上创建 Power Apps 试用环境并链接到 Human Resources 环境。 Power Apps 环境的名称为“TestDrive”，其试用期与 Human Resources 环境相同。
+
+> [!NOTE]
+> 如果经过身份验证的用户无权创建 Power Apps 试用环境，则设置 Human Resources 试用环境将失败 。 该用户必须属于可在 Power Platform 管理中心中创建试用环境的用户组。 有关详细信息，请参阅[控制谁可以在 Power Platform 管理中心中创建和管理环境](//power-platform/admin/control-environment-creation)。
 
 ## <a name="plan-human-resources-environments"></a>计划 Human Resources 环境
 

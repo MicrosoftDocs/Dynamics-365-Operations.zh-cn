@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384651"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474884"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
@@ -66,8 +66,7 @@ ms.locfileid: "7384651"
 | 采购 | [供应商的类别请求](../procurement/category-requests-from-vendors.md) |
 | 产品信息管理 | [管理度量单位](../pim/tasks/manage-unit-measure.md)<br><br>[产品配置模型计算](../pim/config-model-calculations.md) |
 | 生产控制 | [统一作业 ID 编号规则](../production-control/unified-job-ids.md) |
-| 运输管理 | [LTL 类](../transportation/ltl-class.md)<br><br>[NMFC 代码](../transportation/nmfc-codes.md) |
-| 仓库管理 | [仓库批处理和序列预留层次结构疑难解答](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
+| 运输管理 | [LTL 类](../transportation/ltl-class.md)<br><br>[美国国家汽车运费分类代码](../transportation/nmfc-codes.md) |
 | 仓库管理、波次创建和处理 | [波次创建和处理](../warehousing/wave-processing.md)<br><br>[用于波次处理的仓库参数](../warehousing/wave-warehouse-parameters.md)<br><br>[波次模板](../warehousing/wave-templates.md)<br><br>[波次分配](../warehousing/wave-allocation-method.md)<br><br>[波次期间安排工作创建](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[集装化](../warehousing/wave-containerization.md)<br><br>[波次执行通知](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>其他资源

@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dce22b77862c41bc702f46735da8ce1100bb5e7d
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731585"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473296"
 ---
 # <a name="manage-ratings-and-reviews"></a>管理评分和评价
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
-
-## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥亵词自动审查评价文本。 此外，审查者可以使用 Dynamics 365 Commerce 站点构建器实现以下手动任务：
 

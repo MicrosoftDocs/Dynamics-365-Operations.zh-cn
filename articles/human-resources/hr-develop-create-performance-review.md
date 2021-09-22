@@ -1,8 +1,8 @@
 ---
 title: 创建绩效审核
 description: 此主题介绍如何创建绩效审核和介绍审核各部分的目的。
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732241"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431152"
 ---
 # <a name="create-performance-reviews"></a>创建绩效审核
 
@@ -65,13 +65,13 @@ ms.locfileid: "6732241"
 30. 选择 **等级** 选项卡。  
 
     - **等级详细信息** 快速选项卡允许员工对自己进行评分，并允许经理对员工进行评分。 如果使用权重，将自动计算分数的权重值。  
-    - 要查看此部分，请启用用于显示员工等级的参数设置。  
+    - 若要查看此部分，请在 **Human resources 共享参数** 页面中启用有关显示雇用评分的参数设置。  
 
-31. 选择 **签核** 选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。 如果不使用工作流，则同时在此处列出工作人员和经理。 将根据审核类型的设置选中所需复选框。  
+31. 选择 **签核** 选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。 如果不使用工作流，则同时在此处列出工作人员和经理。 将根据审核类型的设置选中 **签核** 的 **必需** 复选框。  
 32. 选择 **常规** 选项卡。
 
     - 绩效期间创建默认开始和结束日期。 这些日期可编辑。  
-    - 状态控制对审核的访问。 **未开始** 状态允许任何人编辑审核。 **进行中** 状态仅允许员工查看和编辑审核。 **为审核做准备** 仅允许管理员查看和编辑审核。 **最终审核** 状态使员工和经理都可以查看审核，还允许进行编辑（如果在审核类型中进行了设置）。 **已完成** 和 **已取消** 状态会使审核为只读。 如果审核被 **拒绝** 并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。
+    - 状态控制对审核的访问。 **未开始** 状态允许任何人编辑审核。 **进行中** 状态仅允许员工查看和编辑审核。 **为审核做准备** 仅允许管理员查看和编辑审核。 如果在最终审核中选择了 **最终审核中允许编辑** 选项，**最终审核** 状态将允许员工和经理查看和编辑评论。 **已完成** 和 **已取消** 状态会使审核为只读。 如果审核被 **拒绝** 并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。
 
 33. 在 **概述** 字段中，键入一个值。
 34. 选择 **审核** 选项卡。随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。  

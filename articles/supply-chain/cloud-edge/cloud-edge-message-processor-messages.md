@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748851"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471636"
 ---
 # <a name="message-processor-messages"></a>消息处理程序消息
 
@@ -44,7 +44,7 @@ ms.locfileid: "6748851"
   - *已排队* – 消息已准备好由消息处理器处理。
   - *已处理* – 消息已由消息处理器成功处理。
   - *已取消* – 消息已处理，但处理失败。
-- **消息内容** – 此筛选器对消息内容进行全文搜索。 （消息内容未在网格中显示。）此筛选器将大多数特殊符号（例如“-”）视为空格，并将所有空格字符视为布尔 OR 运算符。 T=例如，这意味着如果您搜索等于“USMF-123456”的特定 `journalid` 值，系统将查找所有包含“USMF”或“123456”的消息，这可能是一个很长的列表。 因此，最好只输入“123456”，因为这样会返回更具体的结果。
+- **消息内容** – 此筛选器对消息内容进行全文搜索。 （消息内容未在网格中显示。）此筛选器将大多数特殊符号（例如“-”）视为空格，并将所有空格字符视为布尔 OR 运算符。 例如，这意味着如果您搜索等于“USMF-123456”的特定 `journalid` 值，系统将查找所有包含“USMF”或“123456”的消息，这可能是一个很长的列表。 因此，最好只输入“123456”，因为这样会返回更具体的结果。
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>示例消息类型：请求库存调整财务更新
 
@@ -65,7 +65,7 @@ ms.locfileid: "6748851"
 
 ## <a name="message-processor-batch-job"></a>消息处理器批处理作业
 
-在运行云和边缘部署时，在创建新消息以进行处理时，将自动引发 *消息处理器* 批处理作业，因此，您应该无需手动计划此作业。
+在运行分布式混合拓扑和缩放单元时，在创建新消息以进行处理时，将自动引发 *消息处理器* 批处理作业，因此，您应该无需手动计划此作业。
 
 如有必要，您可以转到 **系统管理 > 消息处理器 > 消息处理器** 来访问此批处理作业。
 

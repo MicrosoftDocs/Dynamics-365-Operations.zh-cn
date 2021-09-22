@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345141"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475028"
 ---
 # <a name="inventory-visibility-reservations"></a>库存可见性预留
 
@@ -32,19 +32,20 @@ ms.locfileid: "7345141"
 
 如果开启预留功能，Supply Chain Management 将自动为抵销使用库存可见性进行的预留做好准备。
 
-> [!NOTE]
-> 抵销功能需要 Supply Chain Management 版本 10.0.22 或更高版本。 如果要使用库存可见性预留，我们建议您等到已将 Supply Chain Management 升级到版本 10.0.22 或更高版本。
-
-## <a name="turn-on-the-reservation-feature"></a>开启预留功能
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>开启和设置预留功能
 
 若要打开预留功能，请执行以下步骤。
 
-1. 在 Power Apps 中，打开 **库存可见性**。
+1. 登录 Power Apps，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
 1. 在 **功能管理** 选项卡上，打开 *OnHandReservation* 功能。
 1. 登录 Supply Chain Management。
-1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**。
-1. 在 **预留抵销** 下，将 **启用预留抵销** 选项设置为 *是*。
+1. 转到 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区，然后启用 *带预留抵销的库存可见性集成* 功能（需要版本 10.0.22 或更高版本）。
+1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**，打开 **预留抵销** 选项卡，然后进行以下设置：
+    - **启用预留抵销** – 设置为 *是* 以启用此功能。
+    - **预留抵销修饰符** – 选择将抵销在库存可见性中所做预留的库存交易记录状态。 此设置决定触发抵销的订单处理阶段。 此阶段通过订单的库存交易记录状态跟踪。 选择以下各项之一：
+        - *在单* – 对于 *在交易记录* 状态，创建订单时间发送抵销请求。 抵销数量将为所创建订单的数量。
+        - *预留* – 对于 *预留订购的交易记录* 状态，对订单进行预留，拣货，过帐装箱单或开票时，订单将发送抵销请求。 此请求仅在上述流程发生时为第一个步骤触发一次。 抵销数量将为其中的相应订单行上库存交易记录状态已从 *在单* 更改为 *订购预留*（或更晚状态）的数量。
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>使用库存可见性中的预留功能
 
@@ -56,13 +57,21 @@ ms.locfileid: "7345141"
 
 预留层次结构可能与索引层次结构不同。 此独立性让您可以实施类别管理，从而让用户可以将维度细分为详细信息，以便指定有关进行更精确预留的要求。
 
-若要在 Power Apps 中配置软预留层次结构，请打开 **配置** 页面，然后在 **软预留映射** 选项卡上，通过添加和/或修改维度及其层次结构级别设置预留层次结构。
+若要在 Power Apps 中配置软预留层次结构，请打开 **配置** 页面，然后在 **软预留层次结构** 选项卡上，通过添加和/或修改维度及其层次结构级别设置预留层次结构。
+
+软预留层次结构中应包含组件形式的 `SiteId` 和 `LocationId`，因为其构造分区配置。
+
+有关如何配置预留的详细信息，请参阅[预留配置](inventory-visibility-configuration.md#reservation-configuration)。
 
 ### <a name="call-the-reservation-api"></a>调用预留 API
 
 在库存可见性服务中创建预留的方法是，向服务的 URL（如 `/api/environment/{environment-ID}/onhand/reserve`）提交 POST 请求。
 
 对于预留，请求正文中必须包含组织 ID、产品 ID、预留数量和维度。 该请求将为每个预留记录生成一个唯一预留 ID。 预留记录中包含产品 ID 和维度的唯一组合。
+
+调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值为 `True` 表示需要验证，而值为 `False` 则表示不需要验证。 默认值为 `True`。
+
+如果要取消预留或撤消指定的库存数量，请将数量设置为负数，然后将 `ifCheckAvailForReserv` 参数设置为 `False` 以跳过验证。
 
 下面是请求正文的示例，供您参考。
 
@@ -108,18 +117,9 @@ Authorization: "Bearer {access_token}"
 
 抵销数量遵循在库存交易记录中指定的库存数量。 如果库存可见性服务中没有预留数量，则抵销不会生效。
 
-> [!NOTE]
-> 从版本 10.0.22 开始提供抵销功能
+### <a name="set-up-the-reservation-offset-modifier"></a>设置预留抵销修饰符
 
-### <a name="set-up-the-reserve-offset-modifier"></a>设置预留抵销修饰符
-
-预留抵销修饰符决定触发抵销的订单处理阶段。 此阶段通过订单的库存交易记录状态跟踪。 若要设置预留抵销修饰符，请按照以下步骤操作。
-
-1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数 \> 预留抵销**。
-1. 将 **预留抵销修饰符** 字段设置为以下值之一：
-
-    - *在单* – 对于 *在交易记录* 状态，创建订单时间发送抵销请求。
-    - *预留* – 对于 *预留订购的交易记录* 状态，对订单进行预留，拣货，过帐装箱单或开票时，订单将发送抵销请求。 此请求仅在上述流程发生时为第一个步骤触发一次。
+如果尚未执行此操作，请按照[开启和设置预留功能](#turn-on)中的说明设置预留修饰符。
 
 ### <a name="set-up-reservation-ids"></a>设置预留 ID
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: efd773313f89784d8fca6b37d867e204cb2d06ab29694a19cbec7eed107a8019
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf6eb0eb755de3f2842c235946bfd7ccad04ccf7
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764684"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474716"
 ---
 # <a name="you-cant-import-an-item-by-using-the-released-products-v2-entity"></a>您不能使用已发布产品 V2 实体导入物料
 

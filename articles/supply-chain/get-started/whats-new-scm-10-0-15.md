@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751138"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 
@@ -35,7 +35,7 @@ ms.locfileid: "6751138"
 
 此版本中包含以下功能。 单击[发布计划](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
-- 具有制造和仓库执行工作负载的 Cloud 和 Edge Scale Unit 管理<br> - 有关详细信息，请参阅[用于制造和仓库管理工作负荷的云和边缘缩放单元](../cloud-edge/cloud-edge-landing-page.md)。
+- 具有制造和仓库执行工作负载的 Cloud 和 Edge Scale Unit 管理<br> - 有关详细信息，请参阅[分布式混合拓扑中的缩放单元](../cloud-edge/cloud-edge-landing-page.md)。
 
 - [通过仓库应用创建和处理转移单](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库应用创建转移单](../warehousing/create-transfer-order-from-warehouse-app.md)。
 

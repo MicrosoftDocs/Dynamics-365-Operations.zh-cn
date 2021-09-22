@@ -2,7 +2,7 @@
 title: 电子消息
 description: 此主题提供 Microsoft Dynamics 365 Finance 中电子消息的概述和设置信息。
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768331"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478715"
 ---
 # <a name="electronic-messaging"></a>电子消息
 
@@ -57,6 +57,16 @@ EM 功能支持以下场景：
 - 存储和查看生成的所有报表。
 - 存储和查看与为消息或消息项运行的行动有关的所有日志信息。
 - 通过各个消息状态和消息项状态控制处理。
+
+## <a name="security-privileges"></a>安全特权
+
+以下安全权限可用于电子消息。
+
+| 安全权限           | 访问级别 | 关联 |
+|------------------------------|--------------|-------------|
+| 维护电子消息 | 此权限提供 EM 功能的完全访问权限。 如果您有此权限，则可以设置电子消息和运行所有处理。 | 此特权包含在 **维护销售税交易记录** 安全责任中。 而该责任则包含在 **会计师** 安全角色中。 |
+| 查看电子消息     | 此权限提供 EM 功能的只读访问权限。 如果您有此权限，则可以查看电子消息设置和消息。 但是，不能设置和运行任何内容。 | 此特权包含在 **查询销售税交易记录状态** 安全责任中。 而该责任则包含在以下安全角色中：<ul><li>收款经理</li><li>应收帐款员</li><li>应收帐款经理</li><li>税务会计师</li><li>会计师</li><li>会计经理</li><li>会计主管</li><li>销售经理</li><li>应付帐款员</li></ul> |
+| 操作电子消息  | 此权限仅提供 **电子消息** 和 **电子消息项** 页面的访问权限。 如果您有此权限，则可以运行从这些页面调用的所有处理。 | 此权限包含在 **操作电子消息** 安全责任中。 而该责任则包含在 **电子消息操作员** 安全角色中。 |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>EM 功能支持的特定于国家/地区的监管功能
 

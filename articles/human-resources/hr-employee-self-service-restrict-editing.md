@@ -1,8 +1,8 @@
 ---
 title: 限制对个人信息的编辑
 description: 限制员工在 Dynamics 365 Human Resources 中编辑联系人详细信息。
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a13818103434df5005ad2805ac2ea7495bb767
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748875"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431397"
 ---
 # <a name="restrict-editing-of-personal-information"></a>限制对个人信息的编辑
 
@@ -54,7 +54,7 @@ ms.locfileid: "6748875"
 
 限制员工添加或编辑联系人详细信息后，他们可以查看信息，但不能更改。
 
-在此示例中，在限制员工编辑 **业务** 联系人详细信息时，他们仍然可以在员工自助服务中看到该信息：
+在此示例中，在限制员工编辑 **业务** 联系人详细信息时，他们仍然可以在 **员工自助服务** 中看到该信息：
 
 ![查看业务联系人详细信息。](./media/hr-employee-self-service-restrict-view.png)
 

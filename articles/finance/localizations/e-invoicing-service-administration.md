@@ -2,7 +2,7 @@
 title: 电子开票管理组件
 description: 本主题提供有关与电子开票的管理相关的组件的信息。
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721718"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463866"
 ---
 # <a name="electronic-invoicing-administration-components"></a>电子开票管理组件
 
@@ -31,14 +31,14 @@ ms.locfileid: "6721718"
 
 ## <a name="azure"></a>Azure
 
-使用 Microsoft Azure 为密钥保管库和存储帐户创建机密。 然后，在电子开票的配置中使用这些机密。
+使用 Microsoft Azure 为密钥保管库创建密码和设置存储帐户。 然后在电子开票的配置中使用密钥保管库密码和存储帐户 SAS 令牌。
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-使用 Microsoft Dynamics Lifecycle Services (LCS) 为您的 LCS 部署项目启用微服务。
+使用 Microsoft Dynamics Lifecycle Services (LCS) 为您的 LCS 部署项目启用电子开票加载项。
 
 > [!NOTE]
-> 在 LCS 中安装微服务至少需要第 2 层虚拟机。 有关环境计划的详细信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
+> 在 LCS 中安装此加载项至少需要 **第 2 层环境**。 有关环境计划的详细信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 
 必须先配置 RCS 以允许与电子开票通信，然后才能使用 RCS 配置电子发票。 您在 **电子报告参数** 页面的 **电子开票** 选项卡上完成此配置。
 
-#### <a name="service-endpoint"></a>服务终结点
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>服务终结点
 
 电子开票在一些 Azure 数据中心地理区域中可用。 下表列出了每个区域的可用性。
 
-| Azure 数据中心地理位置 |
-|----------------------------|
-| 美国              |
-| 欧洲                     |
-| 英国             |
-| 亚洲                       |
+
+| 数据中心 Azure 地理位置 | 服务终结点 URI                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| 美国              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| 欧洲                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| 英国             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| 亚洲                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>服务环境
 
-服务环境是逻辑分区，创建这些逻辑分区以支持电子开票中电子开票功能的执行。 必须在服务环境级别配置安全机密和数字证书以及治理（即访问权限）。
+服务环境是逻辑分区，创建这些逻辑分区是为了支持在电子开票中执行全球化功能。 必须在服务环境级别配置安全机密和数字证书以及治理（即访问权限）。
 
 客户可以根据需要创建任意数量的服务环境。 客户创建的所有服务环境都是相互独立的。
 
@@ -84,8 +85,8 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 
 电子开票服务负责将所有业务数据存储在您的公司拥有的 Azure 资源中。 若要确保服务正常运行，并且相应地访问电子开票所需和生成的所有业务数据，您必须创建两个主要 Azure 资源：
 
-- 将存储电子发票的 Azure 存储帐户（Blob 存储）
-- 将存储证书和存储帐户的统一资源标识符 (URI) 的 Azure 密钥保管库
+- 一个 Azure 存储帐户（Blob 转储），将存储电子单据，包括电子发票、单据转换结果，以及外部 Web 服务的响应。
+- 将存储证书和存储帐户（SAS 令牌）的统一资源标识符 (URI) 的 Azure 密钥保管库。
 
 
 必须专门分配专用的密钥保管库和客户存储帐户，以与电子开票一起使用。 有关详细信息，请参阅[创建 Azure 存储帐户和密钥保管库](e-invoicing-create-azure-storage-account-key-vault.md)。
@@ -122,13 +123,13 @@ Dynamics 365 Regulatory Configuration Services (RCS) 是用于配置电子开票
 
 服务终结点是电子开票所在的 URL。 必须先在 Finance 和 Supply Chain Management 配置服务终结点以允许与服务通信，然后才能够开具电子发票。
 
-若要配置服务终结点，请转到 **组织管理 \> 设置 \> 电子单据参数**，然后在 **提交服务** 选项卡上的 **电子开票 URL** 字段中，按照 **服务终结点** 部分所述的表中的说明输入 URL。
+要配置服务终结点，转到 **组织管理 \> 设置 \> 电子单据参数**，然后在 **电子开票** 选项卡上的 **终结点 URL** 字段中，输入本主题前文中[服务终结点](#svc-endpoint-uris)部分中的表中的终结点 URL。
 
 #### <a name="environments"></a>环境
 
 在 Finance 和 Supply Chain Management 中输入的环境名称是指在 RCS 中创建并发布到电子开票的环境的名称。
 
-必须在 **电子单据参数** 页面的 **提交服务** 选项卡上配置环境，以便让每个开具电子发票的请求都包含电子开票可以确定哪个电子开票功能必须处理请求的环境。
+必须在 **电子单据参数** 页面的 **电子开票** 选项卡中配置环境。 这样，有关颁发电子发票的每个请求中都包含满足以下条件的环境：其中的电子开票可以决定哪个电子开票功能必须处理这些请求。
 
 ## <a name="additional-resources"></a>其他资源
 
