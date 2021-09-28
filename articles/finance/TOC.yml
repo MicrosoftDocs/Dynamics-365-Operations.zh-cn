@@ -80,11 +80,9 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19（2021 年 6 月）
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: 已删除或弃用的功能
               items:
-                - name: 已删除或弃用的功能主页
+                - name: “已删除或弃用的功能”主页
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-finance.md
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: 收款流程自动化
                   href: accounts-receivable/collections-process-automate.md
+                - name: 配置收款流程自动化参数
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: 信用管理设置
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: 信用管理设置信息
@@ -1635,7 +1635,9 @@
                 - name: 增值税报表
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: 内部统计报表
+                  href: localizations/emea-aut-intrastat.md
                 - name: 进项税
                   href: localizations/emea-aut-purchase-duties.md
             - name: 巴林
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: 设置和维护 PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: 国内销售的年度增值税清单
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: 巴西
               items:
                 - name: 巴西概览
@@ -2974,7 +2978,9 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: 电子发票
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: 电子分类科目报表
+                - name: 运单 (Carta de Porte) 补充（版本 1.0）
+                  href: localizations/latam-mex-carta-de-porte.md
+                - name: 电子分类帐会计报表
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: 输入法人税务登记 ID（墨西哥）
                   href: localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
@@ -2990,23 +2996,17 @@
                   href: localizations/tasks/mx-00006-sales-tax-code.md
                 - name: 设置法人会计科目表（墨西哥）
                   href: localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: 为墨西哥银行帐户指定 RFC 登记 ID
+                - name: 为银行帐户指定 RFC 登记 ID（墨西哥）
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: 供应商注册 ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: 阿曼
-              items:
-                - name: 阿曼概览
-                  href: localizations/oman.md
-                - name: 阿曼增值税申报 (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: 荷兰
               items:
                 - name: 荷兰概览
                   href: localizations/netherlands.md
                 - name: 增值税申报
                   href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报（电子增值税）
+                - name: 电子纳税申报 (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: 欧盟销售清单
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: 新西兰
+              items:
+                - name: 新西兰 GST 申报表 GST101A (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: 挪威
               items:
                 - name: 挪威概览
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: 挪威的客户电子发票
                   href: localizations/emea-nor-e-invoices.md
+            - name: 阿曼
+              items:
+                - name: 阿曼概览
+                  href: localizations/oman.md
+                - name: 阿曼增值税申报 (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: 波兰
               items:
                 - name: 波兰概览
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: 准备您的环境以与 HMRC 的 MTD 增值税 Web 服务进行互操作
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: 授权您的 Finance 环境以与 HMRC 的 MTD Web 服务进行互操作
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: 测试与 MTD 增值税沙盒的互操作
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: 将增值税退税提交到 HMRC 的 MTD Web 服务
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: MTD 增值税的电子消息设置的核对清单
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: 生成纸张格式的增值税申报（增值税 100 报表）
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: 英国增值税申报的增值税设置详细信息
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: 测试与 MTD 增值税沙盒的互操作
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: 授权您的 Finance 环境以与 HMRC 的 MTD Web 服务进行互操作
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: 将增值税退税提交到 HMRC 的 MTD Web 服务
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: 从 HMRC 中检索有关增值税付款和负债的信息
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: 英国增值税申报的增值税设置详细信息
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: 生成纸张格式的增值税申报（增值税 100 报表）
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: 付款实践报表统计
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: 美国
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: 运行格式以将列动态添加到 Excel 报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: 设计电子报告格式以对 Excel 中生成的文档进行分页
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 设计配置以生成 Word 格式的报表
                   items:
                     - name: 设计新的电子报告配置以生成 Word 格式的报表

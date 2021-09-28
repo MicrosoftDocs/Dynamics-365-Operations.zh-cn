@@ -102,11 +102,9 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19（2021 年 6 月）
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: 已删除或弃用的功能
                   items:
-                    - name: 已删除或弃用的功能主页
+                    - name: “已删除或弃用的功能”主页
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
                     - name: Finance and Operations 中已删除或弃用的功能
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: 使用类别定价规则创建贸易协议
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: 延迟精确价格和折扣计算
+                  href: delayed-price-calculation.md
             - name: 建议
               items:
                 - name: 产品建议概览
@@ -1328,9 +1328,11 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: 通过 Commerce Headquarters 中的零售对帐单过帐巴西会计单据
                   href: localizations/latam-bra-retail-statements.md
+                - name: 适用于巴西的 Commerce POS 中面向 Adyen 的 Dynamics 365 Payment Connector
+                  href: localizations/latam-bra-adyen.md
             - name: 东欧
               items:
-                - name: 公用
+                - name: 通用
                   items:
                     - name: 东欧的 Commerce 预付款发票
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: 核心数据操作
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: 调用 Retail Server API
+                    - name: 调用 Commerce Scale Unit API
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: 调用 Retail Server 扩展 API
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: 设置独立包装 SDK 的生成管道
                   href: dev-itpro/build-pipeline.md
-                - name: 合并 Commerce 和 Finance and Operations 的生成系统
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: 将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK 可扩展性示例
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Station 可扩展性
               items:
-                - name: Hardware Station 和可扩展性
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: 将 POS 与新的硬件设备集成
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server 可扩展性

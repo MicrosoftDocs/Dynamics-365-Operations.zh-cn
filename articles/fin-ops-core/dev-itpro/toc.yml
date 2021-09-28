@@ -1007,8 +1007,12 @@
                 - name: 计划的维护时段常见问题解答
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
-              href: lifecycle-services/monitoring-diagnostics.md
-            - name: 重新启动服务环境
+              items:
+                - name: 监控和诊断工具
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: 使用 Azure 数据资源管理器查询原始信息日志
+                  href: lifecycle-services/azure-data-explorer.md
+            - name: 重新启动环境服务
               href: lifecycle-services/restart-environment-services.md
             - name: 报告生产中断
               href: lifecycle-services/report-production-outage.md

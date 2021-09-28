@@ -80,11 +80,9 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20（2021 年 8 月）
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19（2021 年 6 月）
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: 已删除或弃用的功能
                   items:
-                    - name: 已删除或弃用的功能主页
+                    - name: “已删除或弃用的功能”主页
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: 具有无限容量的计划
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: 基于功能选择资源的计划
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: 通过计划优化进行库存标记
                   href: master-planning/planning-optimization/marking.md
                 - name: 内部公司计划
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: 创建询价
                   href: procurement/tasks/create-request-quotation.md
+                - name: 询价的密封投标
+                  href: procurement/sealed-bidding.md
                 - name: 创建使用询价的申请
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: 创建询价的计分方法
