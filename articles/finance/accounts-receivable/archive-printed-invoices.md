@@ -1,8 +1,8 @@
 ---
-title: 使用哈希编号存档打印的客户账单
+title: 使用哈希编号存档打印的客户发票
 description: 本主题说明如何启用存档以存储带有哈希编号的打印客户发票。
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724199"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500519"
 ---
-# <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户账单
+# <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户发票
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 在某些国家/地区，法律要求将计算出的哈希编号与某些文档的打印输出一起存储在系统中。 哈希编号可用于向权威机构报告以及在审核期间报告。
 

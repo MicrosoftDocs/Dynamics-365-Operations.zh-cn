@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.21 预览（2021 年 10 月）
+title: Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.21 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391200"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500547"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 预览（2021 年 10 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.21 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.960，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.21 中的新增或更改的功能。 此版本的构建版本号为 10.0.960，并以下面的形式提供：
 
 - **版本预览：** 2021 年 8 月
 - **版本的正式发布时间（自行更新）：** 2021 年 9 月
@@ -46,13 +45,14 @@ ms.locfileid: "7391200"
 
 下表列出了此版本中包含的功能。 *功能* 列提供了指向[发布计划](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)的链接，您可以在那里查看每项功能的官方发布日期。 *更多信息* 列提供了更多详细信息和/或相关文档的链接。
 
-这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。
+这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 | 特征区域 | 功能 | 更多信息 |
 |---|---|---|
-| 库存和物流&nbsp;&nbsp; | [Dynamics 365 Supply Chain Management 全球库存核算加载项](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [“全球库存核算”主页](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| 库存和物流&nbsp;&nbsp; | [Dynamics 365 Supply Chain Management 全球库存核算加载项](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [“全球库存核算”主页](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | 库存和物流&nbsp;&nbsp; | [使用连接到抵销帐户的代码过帐现有库存量调整](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [库存盘点原因代码](../warehousing/reason-codes-for-counting-journals.md) |
 | 库存和物流&nbsp;&nbsp; | [销售报价引用数据导出策略](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | 选择对报价单所引用的数据的更改是否会导致这些报价单（或行）包含在下一次增量导出中。 如果您选择不包含此类报价单或行，则您的增量导出将更快地运行。<br><br>此功能会将一个名为 **在更改跟踪期间跳过销售报价参考数据** 的设置添加到 **应收帐款参数** 页面。 |
+| 库存和物流&nbsp;&nbsp; | 密封投标 <!-- KFM: Add RP link when available --> | [询价的密封投标](../procurement/sealed-bidding.md) |
 | 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) |
 | 库存和物流&nbsp;&nbsp; | [库存可见性加载项中的软预留](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [库存可见性预留](../inventory/inventory-visibility-reservations.md) |
 | 库存和物流&nbsp;&nbsp; | [返点管理的扣缴和实际称重增强功能](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [使用扣缴工作台管理扣缴](../rebate-management/deduction-workbench.md )<br><br>[处理、审核和发布返点](../rebate-management/process-review-post.md)<br><br>[返点管理交易](../rebate-management/rebate-management-deals.md) |

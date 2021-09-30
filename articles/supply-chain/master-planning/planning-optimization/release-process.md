@@ -2,7 +2,7 @@
 title: 计划优化发布流程和发布历史记录
 description: 本主题提供有关计划优化的发布流程和发布历史记录的信息。
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474692"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506775"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>计划优化发布流程和发布历史记录
 
@@ -33,6 +33,7 @@ Microsoft 每月都会更新计划优化。 但是，根据业务要求，我们
 
 | 更改 | 功能管理详细信息 | 发布日期 |
 |---|---|---|
+| <p>添加了对将 **计划方法** 设置为 *工序级排产* 的主计划的支持。</p><p>在 **工艺路线组** 页面上，沿用 *设置* 或 *流程* 为 **工艺路线/作业类型** 的行的 **激活**、**工作时间** 和 **容量** 复选框设置。 </p><p>一般性能、质量和稳定性改进。 | <p>工序级排产自版本 10.0.20 起在功能管理中提供。</p><p>功能名称：*计划优化的无限容量计划*</p>  | 2021 年 9 月 9 日–17 日 |
 | 一般性能、质量和稳定性改进。 | 无需功能管理。 | 2021 年 8 月 25 日到 30 日 |
 | <p>已将 **提前期** 字段添加到了计划订单。</p><p>一般性能、质量和稳定性改进。</p> | 无需功能管理。 | 2021 年 8 月 12 日到 17 日 |
 | <p>添加了无限产能计划的资源类型要求。</p><p>提高了无限产能计划的资源效率和日历效率。</p><p>有关详细信息，请参阅[具有无限容量的计划](infinite-capacity-planning.md)。 | <p>自 10.0.20 版起在功能管理中发布。</p><p>功能名称：*计划优化的无限容量计划*</p> | 2021 年 7 月 6 日到 12 日 |

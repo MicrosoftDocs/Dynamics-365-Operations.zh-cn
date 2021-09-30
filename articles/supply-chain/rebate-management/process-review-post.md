@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729398"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500467"
 ---
 # <a name="process-review-and-post-rebates"></a>处理、审核和过帐返点
 
@@ -43,8 +43,6 @@ ms.locfileid: "6729398"
 转到 **返点管理 \> 定期任务 \> 计算 FIFO 采购价格**。 在显示的对话框中，选择 **确定** 以运行计算。
 
 ## <a name="create-source-transactions"></a>创建源交易记录
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 您可以创建在创建适用的返点管理交易之前或之后具有源交易记录的销售订单或采购订单。
 
@@ -158,8 +156,6 @@ ms.locfileid: "6729398"
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>使用返点工作台处理交易
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 您可以使用 *返点工作台* 来同时处理多个交易，而不是处理特定交易或交易行。 您可以选择应用记录筛选器和/或设置定期计划。 您不必选择任何行。 系统将处理满足您设置的日期和筛选要求的所有行。
 
 若要使用返点工作台处理交易，请按照下列步骤操作。
@@ -213,8 +209,6 @@ ms.locfileid: "6729398"
 > 如果您要使用声明流程，当处理下一个期间时，交易列表将包括上一个过帐中的所有未声明交易，以及选定期间的任何新交易。
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>使用返点工作台查看和编辑返点管理交易记录
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 要使用返点工作台查看和编辑返点管理交易记录，请按照以下步骤操作。
 
@@ -295,8 +289,6 @@ ms.locfileid: "6729398"
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>使用返点工作台过帐交易记录
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 处理预配、返点或勾销交易记录后，请按照这些步骤使用返点工作台审核和过帐所有交易的一个或多个特定交易记录行的所生成交易记录。
 
 1. 转到 **返点管理 \> 返点管理交易 \> 返点工作台**。
@@ -332,8 +324,6 @@ ms.locfileid: "6729398"
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>使用返点工作台查看日记帐
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 若要使用返点工作台查看日记帐，请按照下列步骤操作。
 
 1. 转到 **返点管理 \> 返点管理交易 \> 返点工作台**。
@@ -342,8 +332,6 @@ ms.locfileid: "6729398"
 1. 显示相关日记帐、单据或项目的列表。 若要查看有关任何日记帐、单据或项目的详细信息，请选择其行，然后在操作窗格上选择 **查看详细信息**。
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>扣缴工作台上的返点管理交易记录
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 当您过帐具有以下 **付款类型** 值之一的返点管理交易记录时，系统将为相关客户帐户创建客户扣缴日记帐或普通发票：
 
@@ -358,8 +346,6 @@ ms.locfileid: "6729398"
 
 ## <a name="purge-unposted-transactions"></a>清除未过帐的交易记录
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 处理预配、返点或勾销交易记录后，请按照以下步骤清除所选未过帐的交易记录。
 
 1. 转到 **返点管理 \> 返点管理交易 \> 返点工作台**。
@@ -368,8 +354,6 @@ ms.locfileid: "6729398"
 4. 选择 **确定** 以删除未过帐的交易记录。
 
 ## <a name="cancel-a-posted-provision"></a>取消已过帐的预配
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 处理并过帐预配后，请按照以下步骤取消已过帐的预配交易记录。
 

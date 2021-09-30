@@ -2,7 +2,7 @@
 title: 从 Power Apps 嵌入画布应用
 description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344521"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488046"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需编写代码即可为移动设备、平板电脑和 Web 构建自定义业务应用。 Finance and Operations 应用支持与 Power Apps 集成。 您、您的组织或更广泛的生态系统开发的画布应用可以嵌入到 Finance and Operations 应用中来细分产品的功能。 例如，您可以利用 Power Apps 构建画布应用以使用从其他系统检索的信息补充 Finance and Operations 应用。
 

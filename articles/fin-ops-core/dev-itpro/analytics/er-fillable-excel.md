@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748464"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488130"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -138,6 +138,55 @@ ms.locfileid: "6748464"
 
 **分页符** 组件强制 Excel 新分页。 如果希望使用 Excel 的默认分页，则无需此组件，但是如果希望 Excel 按照您的 ER 格式构造分页，应使用此组件。
 
+## <a name="page-component"></a><a name="page-component"></a>页面组件
+
+### <a name="overview"></a>概览
+
+当您希望 Excel 在生成的出站文档中采用您的电子报告格式和结构分页时，您可以使用 **页面** 组件。 当电子报告格式运行 **页面** 组件下的组件时，将自动添加所需的分页符。 在此过程中，将考虑生成内容的大小、Excel 模板的页面设置以及Excel 模板中选择的纸张大小。
+
+如果您必须将生成的文档拆分为不同的部分，每个部分有不同的分页，您可以在每个 [工作表](er-fillable-excel.md#sheet-component)组件中配置多个 **页面** 组件。
+
+### <a name="structure"></a><a name="page-component-structure"></a>结构
+
+如果 **页面** 组件下的第一个组件是 [范围](er-fillable-excel.md#range-component)组件，其中 **复制方向** 属性设置为 **无复制**，此范围将被考虑用于基于当前 **页面** 组件设置的分页页眉。 与此格式组件关联的 Excel 范围在使用当前 **页面** 组件的设置生成的每个页面的顶部重复出现。
+
+> [!NOTE]
+> 要正确分页，如果在您的 Excel 模板中配置了 [要在顶部重复的行](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409)范围，此 Excel 范围的地址必须等于与上述 **范围** 组件关联的 Excel 范围的地址。
+
+如果 **页面** 组件下的最后一个组件是 **范围** 组件，其中 **复制方向** 属性设置为 **无复制**，此范围将被考虑用于基于当前 **页面** 组件设置的分页页脚。 与此格式组件关联的 Excel 范围在使用当前 **页面** 组件的设置生成的每个页面的底部重复出现。
+
+> [!NOTE]
+> 要正确分页，不应在运行时调整与 **范围** 组件关联的 Excel 范围。 我们不建议您使用 **在单元格内自动换行** 和 **自动调整行高** Excel [选项](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)来设置此范围的单元格的格式。
+
+您可以在可选的 **范围** 组件之间添加多个其他 **范围** 组件，来指定如何填充生成的文档。
+
+如果 **页面** 组件下的嵌套 **范围** 组件集不符合前面所述的结构，在电子报告格式设计器中设计时将发生验证[错误](er-components-inspections.md#i17)。 此错误消息将通知您该问题可能会导致运行时出现问题。
+
+> [!NOTE]
+> 要生成正确的输出，不要为 **页面** 组件下的任何 **范围** 组件指定绑定（如果该 **范围** 组件的 **复制方向** 属性设置为 **无复制**，并且范围配置为生成页眉或页脚）。
+
+如果您希望与分页相关的合计和盘点计算运行总计和每页总计，我们建议您配置所需的[数据收集](er-data-collection-data-sources.md)数据源。 要了解如何使用 **页面** 组件对生成的 Excel 文档分页，请完成[设计电子报告格式以对生成的 Excel 格式的文档进行分页](er-paginate-excel-reports.md)中的过程。
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>限制
+
+当您使用 **页面** 组件进行 Excel 分页时，在分页完成之前您不会知道生成的文档中的最终页数。 因此，您无法使用电子报告公式计算总页数，也就无法在最后一页之前的任何页面上打印生成文档的正确页数。
+
+> [!TIP]
+> 可以通过对页眉和页脚使用特殊的 Excel [格式](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers)，在 Excel 页眉或页脚中实现此结果。
+
+在 Dynamics 365 Finance 版本 10.0.22 中更新可编辑格式的 Excel 模板时，不会考虑已配置的 **页面** 组件。 考虑在 Finance 的将来版本中实现此功能。
+
+如果您将 Excel 模板配置为使用[条件格式](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting)，在某些情况下它可能无法按预期工作。
+
+### <a name="applicability"></a>适用性
+
+仅当组件配置为使用 Excel 中的模板时，**页面** 组件才可用于 [Excel 文件](er-fillable-excel.md#excel-file-component)格式组件。 如果您使用 Word 模板 [替换](tasks/er-design-configuration-word-2016-11.md) Excel 模板，然后运行可编辑的电子报告格式，**页面** 组件将被忽略。
+
+**页面** 组件仅在启用了 **支持在电子报告框架中使用 EPPlus 库** 功能时起作用。 如果电子报告在禁用此功能时尝试处理 **页面** 组件，将在运行时引发异常。
+
+> [!NOTE]
+> 如果电子报告格式处理 Excel 模板的 **页面** 组件，该模板至少包含一个引用无效单元格的公式，将在运行时引发异常。 为帮助防止运行时错误，请按照[如何更正 #REF! 错误](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be)中所述修复 Excel 模板。
+
 ## <a name="footer-component"></a>页脚组件
 
 **页脚** 组件用于在 Excel 工作簿中生成的工作表底部填充页脚。
@@ -197,9 +246,12 @@ ms.locfileid: "6748464"
 如果生成的传出文档为 Microsoft Excel 工作簿格式，该文档的某些单元格中可能包含 Excel 公式。 如果启用了 **支持在电子申报框架中使用 EPPlus 库** 功能，可以通过更改正在使用的 Excel 模板中的 **计算选项** 的[参数](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows)值来控制何时计算公式。
 
 - 如果选择 **自动**，则每次为生成的文档附加新的范围、单元格等时，都将重新计算所有依赖 公式。
+
     >[!NOTE]
     > 这可能会导致包含多个相关公式的 Excel 模板出现性能问题。
+
 - 如果选择 **手动**，则可避免在生成文档时重新计算公式。
+
     >[!NOTE]
     > 使用 Excel 打开生成的文档进行预览时，将手动强制重新计算公式。
     > 如果配置的 ER 目标位置需要使用生成的文档，但 Excel 中无预览（PDF 转换、电子邮件等），请不要使用此选项，因为生成的文档中包含的公式中可能不包含值。

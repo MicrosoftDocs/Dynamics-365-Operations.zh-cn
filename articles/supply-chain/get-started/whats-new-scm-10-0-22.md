@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471852"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484064"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22 预览版（2021 年 11 月）
 
@@ -34,7 +34,7 @@ ms.locfileid: "7471852"
 
 | 特征区域 | 功能 | 更多信息 | 启用者: ，时间:  |
 |---|---|---|---|
-| 计划 | [计划优化对基于产能的资源分配的支持](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [具有无限容量的计划](../master-planning/planning-optimization/infinite-capacity-planning.md) | 功能管理（*计划优化的无限容量计划*） |
+| 计划 | [计划优化对基于产能的资源分配的支持](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [基于功能选择资源的计划](../master-planning/planning-optimization/capability-based-scheduling.md) | 功能管理（*计划优化的无限容量计划*） |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强
 

@@ -2,7 +2,7 @@
 title: 无限容量计划
 description: 本主题提供有关计划优化的无限容量计划的信息。 它还介绍当前的功能限制。
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471660"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506799"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>无限容量计划
 
@@ -27,7 +27,12 @@ ms.locfileid: "7471660"
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>打开无限容量计划功能
 
-如果您的系统尚未包含本主题中所述的功能，请打开 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区，然后打开 *计划优化的无限容量计划* 功能。
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+
+- **模块**：*主计划*
+- **功能名称**：*计划优化的无限产能计划*
+
+有关此功能的详细信息，请参阅[基于能力选择资源的计划](capability-based-scheduling.md)。
 
 ## <a name="added-functionality"></a>添加的功能
 
@@ -42,7 +47,7 @@ ms.locfileid: "7471660"
 - 资源类型
 - 资源
 - 资源组
-- 功能
+- 能力（有关详细信息，请参阅[基于能力选择资源的计划](capability-based-scheduling.md)。）
 
 > [!NOTE]
 > 尚不支持与 Human Resources 相关的要求（例如技能或证书要求）。
@@ -55,7 +60,6 @@ ms.locfileid: "7471660"
 
 当您使用计划优化的计划时，以下限制适用：
 
-- 该功能仅支持作业计划。 无论主计划上的计划方法如何，在计划期间都不考虑与工序计划相关的设置。
 - 该功能仅支持无限容量。
 - 该功能不支持资源负荷功能。
 - 该功能不考虑工艺路线废料。

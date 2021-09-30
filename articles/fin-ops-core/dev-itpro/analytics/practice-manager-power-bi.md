@@ -1,7 +1,7 @@
 ---
 title: 实践经理 Power BI 内容
 description: 此主题介绍实践经理 Power BI 内容中的内容。
-author: KimANelson
+author: kfend
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d942ef8dcaa237935d3079b26c95ec5559c12b9904754688842527e4761f0aed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741700"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500213"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 

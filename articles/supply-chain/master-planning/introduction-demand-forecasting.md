@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736663"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484041"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -34,7 +34,9 @@ ms.locfileid: "6736663"
 若要生成基准预测，历史交易记录汇总被传递到在 Azure 上承载的 Microsoft Azure 机器学习。 由于此服务不在用户之间共享，其可以轻松地自定义以满足特定于行业的要求。 您可以使用 Supply Chain Management 可视化预测、调整预测和查看有关预测准确性的关键绩效指标 (KPI)。
 
 > [!NOTE]
-> 使用机器学习进行预测生成需要 Microsoft Azure 机器学习工作室（经典）。 自 2021 年 1 月起，它在日本东部、美国中南部、东南亚、美国中西部和西欧推出。 有关当前可用性的更新信息，请参阅[按地区划分的 Azure 产品](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> 使用机器学习进行预测生成需要 Microsoft Azure 机器学习工作室（经典）。 自 2021 年 12 月 1 日起，您将无法创建新的机器学习工作室（经典）资源。 但是，在 2024 年 8 月 31 日之前，您将能够继续使用现有的机器学习工作室（经典）资源。 要了解更新信息，请参阅 [Azure 机器学习工作室](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio)。
+> 
+> Dynamics 365 Supply Chain Management 版本 10.0.23 及更高版本支持新的 Azure 机器学习工作室。
 
 ## <a name="key-features-of-demand-forecasting"></a>需求预测的主要功能
 

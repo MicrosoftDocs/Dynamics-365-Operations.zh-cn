@@ -2,7 +2,7 @@
 title: 配置缺勤管理人员角色
 description: 本主题说明如何设置缺勤管理人员角色以管理员工休假。
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732337"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485746"
 ---
 # <a name="configure-the-absence-manager-role"></a>配置缺勤管理人员角色
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 在某些组织中，人事经理可能不会管理团队的休假。 而是可能由缺勤管理人员跨多个部门和团队管理团队成员的这个流程。 缺勤管理人员能够进行以下休假管理：
 
@@ -38,7 +36,7 @@ ms.locfileid: "6732337"
 
 1. 在 **系统管理** 工作区，选择 **功能管理**。
 
-2. 在 **功能管理** 选项卡上，启用 **(预览)管理休假的缺勤管理人员** 功能。
+2. 在 **功能管理** 选项卡上，启用 **管理休假的缺勤管理人员** 功能。
 
 ## <a name="define-a-custom-hierarchy"></a>定义自定义层次结构
 

@@ -2,7 +2,7 @@
 title: DATEFORMAT ER 函数
 description: 本主题提供有关 DATEFORMAT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 01/04/2021
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e535f779e1fb87e6e14261df542f39e47323611a55483f03eba18ec379e92ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a6c113f5f8147cbeaab103e86a44d4c66272c13
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770877"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485484"
 ---
 # <a name="dateformat-er-function"></a>DATEFORMAT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`DATEFORMAT` 函数返回一个 *字符串* 值，此值以指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期值显示为文本。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+`DATEFORMAT` 函数返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，此值以指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期值显示为文本。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -41,20 +41,20 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="arguments"></a>参数
 
-`date`：*日期*
+`date`：*[日期](er-formula-supported-data-types-primitive.md#date)*
 
 代表要设定格式的日期的日期值。
 
 `format`：*字符串*
 
-输出字符串的格式。
+输出字符串的格式。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 > [!NOTE]
 > 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
 
 `culture`：*字符串*
 
-用于设定格式的区域性。
+用于设定格式的区域性。 有关受支持的区域性的信息，请参阅[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)。
 
 ## <a name="return-values"></a>返回值
 

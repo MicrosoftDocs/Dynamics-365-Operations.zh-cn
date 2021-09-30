@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463607"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500101"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -38,7 +38,7 @@ ms.locfileid: "7463607"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 我们将弃用 LCS 中的部分 SQL 报表。 您将不再需要监视这些报表，因为此功能已被其他服务取代。 |
+| **弃用/移除的原因** |   所有活动和监视都将由平台通过自动化在内部执行。 不需要任何手动干预。|
 | **被另一个功能取代？**   | 无 |
 | **影响的产品区域**         | SQL 报表：当前 DTU、当前 DTU 详细信息、获取锁定详细信息、当前计划向导列表、获取查询 ID 列表、获取给定计划 ID 的 SQL 查询计划、获取查询计划和执行状态、获取限制配置、获取等待统计信息、列举最耗资源的查询 |
 | **部署选项**              | 云部署：影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
@@ -181,7 +181,7 @@ ms.locfileid: "7463607"
 | **被另一个功能取代？**   | [新网格控件](../..//fin-ops/get-started/grid-capabilities.md) |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
-| **状态**                         | 在版本 10.0.13 中，新网格控件已正式推出，客户可以选择打开此功能。 新网格控件将在 2021 年 10 月版本中强制使用。 强制使用新网格控件后，将不再支持 **forceLegacyGrid()** API。 |
+| **状态**                         | 在版本 10.0.13 中，新网格控件已正式推出，客户可以选择打开此功能。 新网格控件将在 2021 年 10 月版本中默认启用，目前计划在 2022 年 4 月强制使用。 强制使用新网格控件后，将不再支持 **forceLegacyGrid()** API。 |
 
 ### <a name="personalization-without-saved-views"></a>无已保存视图的个性化 
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481307"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485726"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>按需与 Supply Chain Management 定价引擎同步
 
@@ -60,6 +60,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括处理贸易协议、价目
 + Supply Chain Management 中的费用设置和费用分配不会在 Sales 中复制。
 + 定价不考虑在 Supply Chain Management 中销售订单行页面上的 **零售渠道** 列中指定的特殊零售定价。
 + 不考虑 Supply Chain Management 的 **贸易折让管理** 部分定义的折扣。
++ 定价不考虑销售协议。
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: 制订薪酬结构
-description: 本文介绍如何创建固定薪酬计划，以及如何通过资格规则在该计划中等记员工。
-author: andreabichsel
-ms.date: 02/10/2020
+description: 本主题说明如何创建固定薪酬计划并通过资格规则在计划中登记员工。
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732361"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483944"
 ---
 # <a name="develop-a-compensation-structure"></a>制订薪酬结构
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本文介绍如何创建固定薪酬计划，以及如何通过资格规则在该计划中等记员工。 本文使用 USMF 演示数据，适用于薪酬和福利经理。
+本主题介绍如何创建固定薪酬计划并通过资格规则在计划中登记员工。 本主题使用 USMF 演示数据，适用于薪酬和福利经理。
 
 ## <a name="create-a-fixed-compensation-plan"></a>创建固定薪酬计划。
 
@@ -42,7 +42,7 @@ ms.locfileid: "6732361"
 
 7. 在 **类型** 字段中，选择固定薪酬计划为 **分段**、**级别** 还是 **步骤** 计划。
 
-8. **允许推荐** 复选框作为流程事件中添加到此计划的所有行动的默认值。 允许“推荐”让您在处理薪酬时覆盖计算出的指导性金额。
+8. **允许建议** 复选框将是流程事件中添加到此计划的所有行动的默认值。 允许“推荐”让您在处理薪酬时覆盖计算出的指导性金额。
 
 9. **超出容差范围** 允许您决定如何处理，下降到给定薪酬结构范围之外的的薪酬金额。 将 **超出容差范围** 字段设置为 **无** 将允许您使用任何薪酬金额。 若薪酬金额低于该等级的最小参考点金额，或高于该等级的最大参考点金额，**虚拟容差** 将向用户发出警告。 用户可以忽略该警告并继续。 如果一员工的薪酬在该级别最低和最高参考范围之外，且在可用范围内自动调整员工薪酬失败，则 **硬容差** 将产生错误。
 

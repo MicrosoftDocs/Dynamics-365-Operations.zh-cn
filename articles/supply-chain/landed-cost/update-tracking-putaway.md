@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782579"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500015"
 ---
 # <a name="update-tracking-for-put-away"></a>要储存的更新追踪信息
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *更新储存的追踪信息* 定期任务设计为作为夜间定期批处理任务运行。 它标识哪些航程已收到所有库存交易记录，哪些航程没有实际结束日期的值。 然后，它会根据需要将实际结束日期设置为当前日期。
 

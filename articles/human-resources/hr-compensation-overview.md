@@ -1,8 +1,8 @@
 ---
 title: 薪酬计划
-description: 薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
-author: andreabichsel
-ms.date: 06/20/2017
+description: 本主题介绍如何使用薪酬管理来管理和处理薪酬计划。
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732433"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483797"
 ---
 # <a name="compensation-plans"></a>薪酬计划
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
+薪酬和福利经理可以使用 **薪酬管理** 来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
 
 ### <a name="introduction"></a>简介
 
@@ -42,7 +42,7 @@ ms.locfileid: "6732433"
 <table>
 <thead>
 <tr class="header">
-<th>组件</th>
+<th>组分</th>
 <th>更多信息…</th>
 </tr>
 </thead>
@@ -89,7 +89,7 @@ ms.locfileid: "6732433"
 </tr>
 <tr class="even">
 <td>控制点</td>
-<td>该控制点定义您认为处于某一薪酬水平的所有员工的理想付薪比率是什么。 对于等级计划结构，控制点通常是范围的中点。 分段结构很少用于控制点。 您可以在“固定薪酬计划”窗体中指定固定薪酬计划的控制点。</td>
+<td>该控制点定义您认为处于某一薪酬水平的所有员工的理想付薪比率是什么。 对于等级计划结构，控制点通常是范围的中点。 分段结构很少用于控制点。 您可以在 **固定薪酬计划** 页面指定固定薪酬计划的控制点。</td>
 </tr>
 <tr class="odd">
 <td>工作职能</td>

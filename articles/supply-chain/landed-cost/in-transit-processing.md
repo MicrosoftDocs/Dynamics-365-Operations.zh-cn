@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744790"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500271"
 ---
 # <a name="goods-in-transit-processing"></a>在途货物处理
 
@@ -148,8 +148,6 @@ ms.locfileid: "6744790"
 登陆成本在 **工作模板** 页增加了一个名为 *在途货物* 的新工作订单类型。 此工作订单类型的配置方式应与[采购订单工作模板](/dynamicsax-2012/appuser-itpro/create-a-work-template)的配置方式相同。
 
 #### <a name="work-header-breaks"></a>工作标题中断
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 具有 *在途货物* 的工作订单类型的工作模板可以配置为拆分工作标题。 在 **工作模板** 页上，执行以下步骤之一：
 

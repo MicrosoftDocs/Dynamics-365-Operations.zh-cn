@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773505"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506823"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
@@ -38,7 +38,8 @@ ms.locfileid: "6773505"
 | 库存和物流&nbsp;&nbsp; | [销售订单详细信息性能增强](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | 此功能使用户界面在打开销售订单（尤其是包含多行的订单）时更具响应性。 |
 | 制造 | [调用流程自动化流来创建质检订单](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [调用流程自动化流来创建质检订单](../production-control/process-automation-quality-orders.md ) |
 | 制造 | [用于制造的增强生产车间执行界面](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [配置生产车间执行界面](../production-control/production-floor-execution-configure.md) |
-| 产品信息管理 | [管理配方及其成分的更改](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [管理配方及其成分的更改](../engineering-change-management/manage-formula-changes.md) |
+| 计划 | [计划优化的无限容量计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [具有无限容量的计划](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| 产品信息管理 | [管理公式及其成分的更改](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [管理配方及其成分的更改](../engineering-change-management/manage-formula-changes.md) |
 | 产品信息管理 | [产品准备情况检查](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [产品准备情况](../engineering-change-management/product-readiness.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强

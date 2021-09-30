@@ -2,7 +2,7 @@
 title: 检查配置的 ER 组件以防止运行时问题
 description: 本主题说明如何检查配置的电子申报 (ER) 组件，以防止可能发生的运行时问题。
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718615"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488106"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -229,6 +229,12 @@ ER 使用以下类别为一致性检查检验分组：
 <p>页眉/页脚（&lt;组件类型：页眉或页脚&gt;）不一致</p>
 <p><b>运行时：</b>如果执行了已配置的 ER 格式的草稿版本，则会在运行时使用最后配置的组件。</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>页面组件的设置不一致</a></td>
+<td>数据完整性</td>
+<td>错误​</td>
+<td>有两个以上没有复制的范围组件。 请删除不必要的组件。</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 #### <a name="option-2"></a>选项 2
 
 修改其中一个不一致的 **Excel\\页眉** 或 **Excel\\页脚** 组件的 **页眉/页脚外观** 属性值。
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>页面组件的设置不一致
+
+当您 [配置](er-fillable-excel.md)电子报告格式组件来使用Excel 模板生成出站文档时，您可以添加 **Excel\\页面** 组件来使用电子报告公式对生成的文档进行分页。 对于您添加的每个 **Excel\\页面** 组件，您可以添加很多嵌套[范围](er-fillable-excel.md#range-component)组件，并仍然保持以下[结构](er-fillable-excel.md#page-component-structure)：
+
+- 可以配置第一个嵌套 **范围** 组件，以将 **复制方向** 属性设置为 **不复制**。 此范围用于在生成的文档中制作页眉。
+- 您可以添加很多其他嵌套 **范围** 组件，将组件的 **复制方向** 属性设置为 **垂直**。 这些范围用于填充生成的文档。
+- 可以配置最后一个嵌套 **范围** 组件，以将 **复制方向** 属性设置为 **不复制**。 此范围用于在生成的文档中制作页脚并添加所需的分页符。
+
+如果您在设计时没有在电子报告格式设计器中为电子报告格式采用此结构，将会发生验证错误，您会收到以下错误消息：“有两个以上没有复制的范围组件。 请删除不必要的组件。”
+
+### <a name="automatic-resolution"></a>自动解决
+
+没有用于自动修复此问题的选项。
+
+### <a name="manual-resolution"></a>手动解决
+
+#### <a name="option-1"></a>选项 1
+
+通过更改所有不一致的 **Excel\\范围** 组件的 **复制方向** 属性来修改配置的格式。
 
 ## <a name="additional-resources"></a>其他资源
 

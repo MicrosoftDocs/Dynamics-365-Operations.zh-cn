@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384529"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500322"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>GS1 条码和 QR 码
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 仓库工作人员使用移动设备扫描仪登记物料、货盘或集装箱的移动时，通常必须完成多个任务。 这些任务包括在移动设备上扫描条码和手动输入信息。 条码使用您使用 Microsoft Dynamics 365 Supply Chain Management 定义和管理的公司特定格式。
 

@@ -1,8 +1,8 @@
 ---
 title: 配置休假和缺勤类型
 description: 在 Dynamics 365 Human Resources 中设置员工可以申请的休假类型。
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730410"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485799"
 ---
 # <a name="configure-leave-and-absence-types"></a>配置休假和缺勤类型
 
@@ -65,9 +65,9 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 
 1. 设置休假类型的舍入选项。 选项包括 **无**、**向上**、**向下** 和 **最近**。 您还可以为休假类型设置舍入精度。
 
-2. 为休假类型设置 **假日更正**。 选择此选项时，Human Resources 将使用工作日的假日数来确定如何累积休假类型的休息时间。 例如，如果圣诞节在星期一，Human Resources 在处理累积时将从休假类型中减去一天。
+2. 为休假类型设置 **假日更正**。 选择此选项时，工作日的假日数将用来确定如何累积休假类型的休息时间。 例如，如果圣诞节在星期一，Human Resources 在处理累积时将从休假类型中减去一天。
 
-   在工作时间日历中设置假日。 有关详细信息，请参阅[创建工作时间日历](hr-leave-and-absence-working-time-calendar.md)
+   在工作时间日历中设置假日。 有关详细信息，请参阅[创建工作时间日历](hr-leave-and-absence-working-time-calendar.md)。
    
  3. 为休假类型设置 **结转休假类型**。 选择此选项时，任何结转余额都将转移到指定的休假类型。 结转休假类型也需要包括在休假和缺勤计划中。 
  
@@ -76,7 +76,7 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 ## <a name="configure-the-required-attachment-per-leave-type"></a>配置每个休假类型所需的附件
 
 > [!NOTE]
-> 要使用 **需要附件** 字段，您必须首先在功能管理中打开 **(预览)配置休假请求所需的附件** 功能。 有关如何打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+> 要使用 **需要附件** 字段，您必须首先在功能管理中打开 **配置休假请求所需的附件** 功能。 有关如何打开功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
 1. 在 **休假和缺勤** 页面，在 **链接** 选项卡上，在 **设置** 下，选择 **休假和缺勤类型**。
 
@@ -87,7 +87,7 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>配置每个休假类型的休假单位（小时/天）
 
 > [!NOTE]
-> 要使用每个休假类型的休假单位功能，您必须首先在功能管理中打开 **(预览)配置每个休假类型的休假单位** 功能。 有关如何打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+> 要使用每个休假类型的休假单位功能，您必须首先在功能管理中打开 **配置每个休假类型的休假单位** 功能。 有关如何打开功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
 
 > [!IMPORTANT]
 > 默认情况下，法人中的休假类型使用法人级别休假参数配置中的休假单位。

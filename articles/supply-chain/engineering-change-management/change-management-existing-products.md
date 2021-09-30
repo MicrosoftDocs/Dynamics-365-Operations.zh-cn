@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744170"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488194"
 ---
 # <a name="enable-change-management-on-existing-products"></a>对现有产品启用更改管理
 
@@ -47,7 +47,9 @@ ms.locfileid: "6744170"
 
 *工程产品类别* 必须分配给每个工程产品。 您将在运行 **转换为工程产品** 向导时进行此分配。 所有相关的标准产品都必须存在工程产品类别，*然后* 您才可以转换这些产品。
 
-工程产品类别为创建工程产品提供基础，并建立一组默认值和策略。 工程产品类别必须与您向其分配的产品匹配。 例如，产品类型和维度组必须同时与产品及其工程产品类别匹配。 有关详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
+工程产品类别为创建工程产品提供基础，并建立一组默认值和策略。 工程属性及其默认值（为工程类别定义）也将应用于产生的工程产品。 您可以根据需要编辑属性值和/或向产生的产品添加更多工程属性。
+
+工程产品类别必须与您向其分配的产品匹配。 例如，产品类型和维度组必须同时与产品及其工程产品类别匹配。 有关详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
 
 > [!IMPORTANT]
 > **转换为工程产品** 向导只能将产品转换为在交易中未跟踪版本的工程产品。 因此，对于为转换现有产品而创建的工程产品类别，必须将 **在交易中未跟踪版本** 选项设置为 *否*。

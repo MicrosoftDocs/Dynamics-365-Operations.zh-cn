@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715326"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500295"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -562,7 +562,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 > 如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 选择收银机，然后将 **收款后即可选择** 选项设置为 **是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
 
 ## <a name="extensibility"></a>可扩展性
-有关硬件工作站的可扩展性方案的信息，请参阅[硬件工作站可扩展性](dev-itpro/hardware-station-extensibility.md)。
+有关硬件工作站的可扩展性场景的信息，请参阅[将 POS 与新硬件设备集成并生成扩展安装程序](dev-itpro/hardware-device-extension.md)。
 
 ## <a name="security"></a>安全性
 根据当前安全标准，以下设置应用于生产环境： 

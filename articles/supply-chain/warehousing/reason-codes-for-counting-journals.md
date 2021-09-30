@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345258"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500582"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 原因代码用于分析盘点流程的结果和执行该流程期间出现的任何差异。 可指定执行盘点的原因，如货盘损坏或基于库存样本调整存货。 同时，您可以根据每个库存调整的原因，使用调整功能将现有库存调整的值过帐到适当的抵销帐户。
 
@@ -42,8 +41,6 @@ ms.locfileid: "7345258"
 - 原因代码是否应推动财务抵销帐户过帐？
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>在系统中启用原因代码功能
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 如果您在系统中未看到本主题中描述的所有功能，您可能必须启用 *使用连接到抵销帐户可配置原因代码过帐现有库存量调整* 功能。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 

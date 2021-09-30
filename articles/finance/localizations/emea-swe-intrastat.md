@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417074"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486938"
 ---
 # <a name="swedish-intrastat"></a>瑞典内部统计
 
@@ -48,7 +48,7 @@ ms.locfileid: "7417074"
 3. 在 **报表格式映射** 字段中，选择 **内部统计报表**。
 4. 在 **商品代码层次结构** 快速选项卡上，在 **类别层次结构** 字段中，选择 **内部统计**。
 5. 在 **交易代码** 字段中，选择财产转移的交易代码。 您将此代码用于导致实际或计划转移财产以进行补偿（财务或其他）的交易。 您还使用它进行更正。 瑞典的公司使用一位数的交易代码。
-6. 在 **贷方通知单** 字段中，选择退货的交易代码。 您可以将此代码用于最初在交易代码下记录交易之后的退货。 瑞典的公司使用一位数的交易代码。
+6. 在 **贷方通知单** 字段中，选择退货的交易代码。
 7. 在 **国家/地区属性** 选项卡上的 **国家/地区** 字段中，列出与您的公司有业务往来的所有国家或地区。 对于 EU 中的每个成员国家或地区，在 **国家/地区类型** 字段中，选择 **欧盟**，以便国家/地区显示在内部统计报表中。
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>设置内部统计申报的产品参数

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471708"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500419"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -157,6 +157,7 @@ ms.locfileid: "7471708"
 
 - 分配到负荷的采购订单行的入库处理。
 - 项目采购订单的入库处理。
+- 管理登陆成本、使用航程与跟踪在途货物。
 - 具有有效跟踪维度 **负责人** 和/或 **序列号** 的物料的入库和出库处理。
 - 具有锁定状态值的库存的处理。
 - 在任何工作变动流程期间更改库存状态。
@@ -187,6 +188,7 @@ ms.locfileid: "7471708"
 |--------------------------------------------------------------|-----|------------------------------|
 | 原始凭证处理                                   | 是 | 无 |
 | 负荷和运输管理处理                | 是，但只有装载计划流程。 不支持运输管理处理  | 无 |
+| 登陆成本与在途货物接收                                         | 是 | 无 |
 | 发放到仓库                                         | 是 | 无 |
 | 计划越库配送                                        | 无  | 无 |
 | 装运合并                                       | 是，在使用装载计划时 | 是 |

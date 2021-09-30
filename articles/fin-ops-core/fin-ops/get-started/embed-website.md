@@ -2,7 +2,7 @@
 title: 嵌入第三方应用
 description: 本主题说明如何嵌入第三方应用以扩展产品的功能。
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345402"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488226"
 ---
 # <a name="embed-third-party-apps"></a>嵌入第三方应用
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 很多客户使用各种应用程序来开展业务。 这些应用程序中有一些是与 Finance and Operations 应用结合使用的第三方 Web 应用。 要提供更无缝的用户体验，您可以使用 **整页应用** 功能将那些第三方应用直接嵌入到您的 Finance and Operations 应用中（前提是第三方应用允许被嵌入）。 这样，用户可以访问所需的网站和应用，而无需切换选项卡或窗口。
 

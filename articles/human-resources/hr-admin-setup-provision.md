@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441157"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488075"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -41,6 +41,8 @@ ms.locfileid: "7441157"
 ## <a name="provision-a-human-resources-trial-environment"></a>预配 Human Resources 试用环境
 
 在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 
+
+试用环境为尚未访问 Human Resources 环境的个人提供评估人力资源功能的能力。 如果您在预配试用环境并且经过身份验证的用户已经有权访问一个或多个现有 Human Resources 环境，该用户将被重定向到现有环境或环境列表。
 
 不应将试用环境用作生产环境。 它们仅限于 60 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
 
@@ -135,7 +137,12 @@ ms.locfileid: "7441157"
    
     - **不支持的地理区域** - 环境必须位于受支持的地理区域。 有关详细信息，请参阅[支持的地理区域](hr-admin-setup-provision.md#supported-geographies)。
 
-6. 确定了要使用的正确环境之后，可以继续进行配置流程。 
+6. 只有为环境选择了 **启用 Dynamics 365 应用** 选项，才能使用将 Human Resources 数据与 Power Apps 环境集成的双重写入功能。 有关双重写入的详细信息，请参阅[双重写入主页](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)。
+
+    > [!NOTE]
+    > 在创建 Power Apps 环境时，必须选择 **启用 Dynamics 365 应用** 选项。 如果在预配时未选择此选项，您将无法使用双重写入在 Dynamics 365 Human Resources 和 Power Apps 环境之间集成数据，或在环境中安装 Dynamics 365 应用，如 Dynamics 365 Sales 和 Field Service。 此选项不可逆。 有关详细信息，请参阅 Power Platform 文档站点上的[创建新环境时的一些重要注意事项](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment)。
+
+7. 确定了要使用的正确环境之后，可以继续进行配置流程。 
 
 ### <a name="supported-geographies"></a>支持的地理区域
 

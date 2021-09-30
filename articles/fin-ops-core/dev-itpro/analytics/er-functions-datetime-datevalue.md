@@ -2,7 +2,7 @@
 title: DATEVALUE ER 函数
 description: 本主题提供有关 DATEVALUE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/04/2019
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2db02e95c0e744c863381cff779b92679e7a396d7edb7bf90d3bffc0229619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747585"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485566"
 ---
 # <a name="datevalue-er-function"></a>DATEVALUE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`DATEVALUE` 函数返回一个 *日期* 值，此值从指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期值。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+`DATEVALUE` 函数返回一个 *[日期](er-formula-supported-data-types-primitive.md#date)* 值，此值从指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期值。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -41,17 +41,17 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>参数
 
-`text`：*字符串*
+`text`：*[字符串](er-formula-supported-data-types-primitive.md#string)*
 
 代表要设定格式的值的文本。
 
 `format`：*字符串*
 
-给定文本的格式。
+给定文本的格式。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 `culture`：*字符串*
 
-用于设定给定文本的格式的区域性。
+用于设定给定文本的格式的区域性。 有关受支持的区域性的信息，请参阅[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)。
 
 ## <a name="return-values"></a>返回值
 

@@ -2,7 +2,7 @@
 title: 设置和设计收据格式
 description: 本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Dynamics 365 Commerce 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715350"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500161"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>设置和设计收据格式
 
@@ -46,7 +46,12 @@ ms.locfileid: "6715350"
 
 ## <a name="print-images"></a>打印图像
 
-收据设计器包含一个 **徽标** 变量，可用于指定要在收据上打印的图像。 使用 **徽标** 变量包含在收据中的图像应为单色位图 (.bmp) 文件类型。 如果在收据设计器中指定了 .bmp 图像，但是发送到打印机时未打印，说明文件大小可能太大或图像的像素维度与打印机不兼容。 如果发生这种情况，请尝试降低图像文件的分辨率。   
+收据设计器包括 **徽标** 变量。 您可以使用此变量指定应打印在收据上的图像。 使用 **徽标** 变量在收据上打印的图像应为单色位图 (.bmp) 文件类型。 如果在收据设计器中指定了位图图像，但在将收据发送到打印机时未打印，原因可能是以下问题之一：
+
+- 文件太大，或图像的像素维度与打印机不兼容。 在这种情况下，请尝试降低图像文件的分辨率或尺寸。
+- 销售点 (OPOS) 打印机驱动程序的某些对象链接和嵌入没有实现硬件工作站用来打印徽标图像的 **PrintMemoryBitmap** 方法。 在这种情况下，请尝试将以下标记添加到您的专用或共享硬件站的 **HardwareStation.Extension.config** 文件中：
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>设计收据格式
 
@@ -68,7 +73,7 @@ ms.locfileid: "6715350"
     - **对齐**– 将字段的对齐方式设置为 **左** 或 **右**。
     - **填充字符** – 指定空格字符。 默认情况下，使用空白间距，不过，您可以输入任意字符。
     - **前缀** – 输入要显示在所选字段开头的值。 此设置仅适用于布局的 **行** 部分。
-    - **字符** – 指定如果元素包含变量，字段可包含的最大字符数。 如果该字段中的文本长于您指定最长的编号，该文本被截断以适合该字段。
+    - **字符** – 指定如果元素包含变量，字段可包含的最大字符数。 如果该字段中的文本长于您指定的字符数，该文本被截断以适合该字段。
     - **变量** – 如果该元素包含变量且无法自定义，则会自动选中此复选框。
     - **字体类型** – 设置字体为 **常规** 或 **粗体**。 粗体字母使用的空间是常规字母的两倍。 因此，一些字符可能被截断。
     - **字体大小** – 将字体大小设置为 **常规** 或 **大号**。 大号字母是常规字母的两倍。 因此，使用大号字母可能导致在收据中产生重叠文本。

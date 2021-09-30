@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59ef82551bc4dba444405c0ea63e1bdfa1f7b17
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 874fa7a04d872b411716f57b121ab24458245fa2
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441305"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485873"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中新增或更改的功能
 
@@ -40,6 +40,7 @@ ms.locfileid: "7441305"
 
 若要了解 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下主题：
 
+[2021 年 9 月 6 日](hr-whats-new-2021-09-06.md)</br>
 [2021 年 8 月 23 日](hr-whats-new-2021-08-23.md)</br>
 [2021 年 8 月 9 日](hr-whats-new-2021-08-09.md)</br>
 [2021 年 7 月 26 日](hr-whats-new-2021-07-26.md)</br>

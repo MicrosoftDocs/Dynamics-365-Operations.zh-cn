@@ -2,7 +2,7 @@
 title: DATETIMEVALUE ER 函数
 description: 本主题提供有关 DATETIMEVALUE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/03/2019
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711889e23e85b05c5e4c5ab904ec12ceb0bbb4da1f17d1c994adda1eec8ccb74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776162"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485514"
 ---
 # <a name="datetimevalue-er-function"></a>DATETIMEVALUE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`DATETIMEVALUE` 函数返回一个 *日期时间* 值，此值从指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期/时间值。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+`DATETIMEVALUE` 函数返回一个 *[日期/时间](er-formula-supported-data-types-primitive.md#datetime)* 值，此值从指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）的给定文本值转换为日期/时间值。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -41,21 +41,21 @@ DATETIMEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>参数
 
-`text`：*字符串*
+`text`：*[字符串](er-formula-supported-data-types-primitive.md#string)*
 
 代表要设定格式的值的文本。
 
 `format`：*字符串*
 
-给定文本的格式。
+给定文本的格式。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 `culture`：*字符串*
 
-用于设定给定文本的格式的区域性。
+用于设定给定文本的格式的区域性。 有关受支持的区域性的信息，请参阅[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)。
 
 ## <a name="return-values"></a>返回值
 
-*DateTime*
+*日期时间*
 
 生成的日期/时间值。
 
