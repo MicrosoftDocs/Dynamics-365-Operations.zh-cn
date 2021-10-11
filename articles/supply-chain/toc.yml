@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 计划优化未使用的参数
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: 供应计划
+                  href: master-planning/supply-schedule.md
                 - name: 为计划应用筛选器
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: 主计划与需求预测
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: 查看传出计划内部公司需求
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: 与内部供应链客户协作
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: 净需求和内置主计划限定标准信息
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: 预测
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: 采购订单审核移动工作区
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: 创建内部公司采购订单并为其开票供内部使用
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: 检查内部公司订单价格差异
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: 记录采购订单上的收货
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: 采购订单创建
               items:
                 - name: 手动创建采购订单
@@ -2725,10 +2729,66 @@
               items:
                 - name: 价格模拟
                   href: sales-marketing/price-simulation.md
-                - name: 批量创建销售报价单
+                - name: 成批创建销售报价单
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: 创建和编辑销售报价单
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: 内部公司交易
+              items:
+                - name: 设置内部公司交易
+                  items:
+                    - name: 设置内部公司交易
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: 内部公司参数
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 为内部公司交易设置供应商、客户和物料
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: 在内部公司订单上设置费用
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: 设置用于过帐内部公司订单的参数
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: 同步内部公司信息
+                  items:
+                    - name: 同步内部公司价格和折扣
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: 同步内部公司费用
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: 同步内部公司客户信息
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: 同步内部公司处置代码
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: 内部公司销售订单和发票
+                  items:
+                    - name: 在多个公司中创建内部公司采购和销售订单
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: 内部公司订单和退货单
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: 创建内部公司销售订单供内部使用
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: 为外部客户创建内部公司销售订单，并为这些订单开票
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: 内部公司预留
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: 更改或删除原始内部公司销售订单
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: 更改内部公司订单
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: 内部公司批处理和序列号
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: 内部公司装箱单
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: 为内部公司客户发票自动登记付款
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: 内部公司采购订单
+                  items:
+                    - name: 创建内部公司采购订单并为其开票供内部使用
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: 检查内部公司订单价格差异
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: 内部公司币种转换
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: 内部公司主计划编制
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: 退货
               items:
                 - name: 销售退货
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: 设置和配置到岸成本模块
               items:
+                - name: 启用系统到岸成本模块
+                  href: landed-cost/landed-cost-enable.md
                 - name: 到岸成本参数
                   href: landed-cost/landed-cost-parameters.md
                 - name: 到岸成本采购参数
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: 库位指令库存领料帐龄
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: 定位
+                      href: warehousing/anchoring.md
                     - name: 出站排序
                       href: warehousing/outbound-sorting.md
                     - name: 上架 - 放到店内
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: 在移动设备上领取最早的批次
                       href: warehousing/pick-oldest-batch.md
+                - name: 全局移动设备参数
+                  href: warehousing/mobile-device-parameters.md
                 - name: 移动设备用户设置
                   href: warehousing/mobile-device-user-settings.md
                 - name: 仓库应用事件处理

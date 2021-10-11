@@ -5,6 +5,8 @@
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2021 年 9 月 20 日
+          href: hr-whats-new-2021-09-20.md
         - name: 2021 年 9 月 6 日
           href: hr-whats-new-2021-09-06.md
         - name: 2021 年 8 月 23 日
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: 重置卡住的批处理作业
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: 重置 Dataverse 同步
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: 未更新分析报表
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: 无法在 Power Apps 管理中心内创建环境
@@ -485,6 +489,12 @@
               items:
                 - name: 工资单工作人员福利计划
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: 其他实体
+              items:
+                - name: 人员姓名历史记录
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: 转化率
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: 选项集
               items:
                 - name: 性别
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: 地址设置
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: 配置通讯簿
@@ -779,8 +791,10 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: 处理费率更改
                       href: hr-benefits-process-rate-changes.md
-                - name: ACA 报告
+                - name: ACA 报表
                   href: hr-benefits-management-aca-reports.md
+                - name: 福利报表
+                  href: hr-benefits-statement.md
             - name: 定义和管理福利计划
               href: hr-benefits-manage-program.md
             - name: 福利资格政策

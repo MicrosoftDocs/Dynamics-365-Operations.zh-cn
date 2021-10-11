@@ -1398,12 +1398,16 @@
               items:
                 - name: 适用于俄罗斯的 Commerce 本地化
                   href: localizations/rus-commerce-localization.md
-                - name: 适用于俄罗斯的 Commerce POS 中的简化客户地址格式
-                  href: localizations/rus-simplified-address.md
                 - name: 设置适用于俄罗斯的 Commerce 本地化
                   href: localizations/rus-commerce-setup.md
                 - name: 适用于俄罗斯的 Commerce 中的预付款
                   href: localizations/rus-commerce-prepayments.md
+                - name: 适用于俄罗斯的 Commerce POS 中的简化客户地址格式
+                  href: localizations/rus-simplified-address.md
+                - name: 俄罗斯税控打印机集成示例
+                  href: localizations/rus-fpi-sample.md
+                - name: 俄罗斯的客户信息管理
+                  href: localizations/rus-customer-information.md
             - name: 瑞典
               items:
                 - name: 收银机功能
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: 地址设置
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置通讯簿
@@ -2329,7 +2335,11 @@
         - name: 可扩展性
           items:
             - name: Commerce 开发和可扩展性
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: 面向 IT 专业人员和开发人员的 Commerce
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: 设置本地开发环境
+                  href: dev-itpro/setup-local-dev-env.md
             - name: 在线渠道可扩展性
               items:
                 - name: 在线渠道可扩展性概览

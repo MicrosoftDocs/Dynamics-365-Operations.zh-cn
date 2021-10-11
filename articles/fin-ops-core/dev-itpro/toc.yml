@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: 针对版本 10.0.19 的平台更新（2021 年 6 月）
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: 已删除或弃用的功能
               items:
-                - name: 已删除或弃用的功能主页
+                - name: “已删除或弃用的功能”主页
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -1080,6 +1078,8 @@
                   items:
                     - name: 自定义实体和字段映射
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: 双重写入自定义指南
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: 处理多个实体映射
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: 设置双重写入后编辑法人

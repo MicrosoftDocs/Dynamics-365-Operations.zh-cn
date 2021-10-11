@@ -1,7 +1,7 @@
 ---
 title: 应付帐款主页
 description: 此主题概要介绍了应付帐款。
-author: ShylaThompson
+author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 991befc1fb8ceef1a5cc2fd6d9c723e45eee91d89eb0ae301ff20764d80dbee5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749142"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595278"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 

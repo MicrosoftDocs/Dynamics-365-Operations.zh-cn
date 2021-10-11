@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: 特许使用合同管理
               href: accounts-payable/royalty-contract.md
+            - name: 对贷方通知单中的原始发票的引用（供应商发票）
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: 付款和结算
               items:
                 - name: 应付帐款的集中付款
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: 快照概览
                   href: finance-insights/payment-snapshots.md
+            - name: Finance Insights 故障排除常见问题解答
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: 项目管理与核算
           items:
             - name: 项目管理与核算概览
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: 多个增值税登记报告
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: 奥地利报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: 法国报告
                           items:
                             - name: 增值税申报
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: 内部统计报表
+                - name: 奥地利内部统计
                   href: localizations/emea-aut-intrastat.md
                 - name: 进项税
                   href: localizations/emea-aut-purchase-duties.md
+                - name: 增值税申报
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: 巴林
               items:
                 - name: 巴林概览
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: 每季度增值税申报报表
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: 阻止列表报告
-                  href: localizations/emea-ita-black-list-report.md
                 - name: 生效日期和会计日记帐
                   href: localizations/emea-ita-competence-date.md
                 - name: 固定资产的折旧
@@ -3801,6 +3809,8 @@
           items:
             - name: 电子报告概览
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: 电子报告组件
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: 配置
               items:
                 - name: 创建配置
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: 地址设置
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: 配置通讯簿
