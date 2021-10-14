@@ -1,7 +1,7 @@
 ---
 title: 供应计划
 description: 本主题提供有关供应计划页面及其功能的信息。
-author: crytt
+author: ChristianRytt
 ms.date: 9/3/2021
 ms.topic: article
 ms.search.form: ReqSupplyDemandSchedule, ReqSupplyDemandScheduleFilters, ReqSupplyDemandItemDetails, ReqTransFuturesActionsPart, ReqSupplyDemandOverviewLegendPart
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0760fcd5408d3960dcc55f773b4e09efc3c9f81c
-ms.sourcegitcommit: 99bde425ade701ef244c6bca6d411aef94a59b3c
+ms.openlocfilehash: 0d2f0f38d86ae307ef80bd02901e19a08d5e30ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7505551"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578360"
 ---
 # <a name="supply-schedule"></a>供应计划
 

@@ -1,7 +1,7 @@
 ---
 title: 危险物料查询和报表
 description: 本主题说明如何处理与危险物料有关的各个报表。 这些报表中有很多是必需的，用来帮助您在装运和存储过程中始终遵守各项危险物料法规。
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c48dc05f33ba93abbbe9152c322030bbc1920f5adaf6fc51268075ac49c3e921
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743570"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568535"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>危险物料查询和报表
 

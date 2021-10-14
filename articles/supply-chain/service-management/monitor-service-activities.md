@@ -1,7 +1,7 @@
 ---
 title: 监控服务活动
 description: “派遣板”窗体提供掌握不同的计划服务活动的状态更新，并且可以使用此窗体的工具跟踪您的公司中的一般服务订单流。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/04/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 423038241aa54f721de81eba01435db61f0623f5a35abf84a6086a674893e6a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 508910b0d32b946cb1d120a5eec5a2e50197f35a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713510"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580400"
 ---
 # <a name="monitor-service-activities"></a>监控服务活动 
 

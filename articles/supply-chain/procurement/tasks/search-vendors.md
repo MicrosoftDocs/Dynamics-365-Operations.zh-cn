@@ -1,7 +1,7 @@
 ---
 title: 搜索供应商
 description: 了解如何基于特定条件检索供应商。
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewC
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d735e1944ea78315ac6ada85108223cd10b480b2726106a5b922ac26184ec529
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9fd2b300586e5a4880a21fa2251342f37726ad0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744766"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577136"
 ---
 # <a name="search-for-vendors"></a>搜索供应商
 

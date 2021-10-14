@@ -1,7 +1,7 @@
 ---
 title: 导入供应商目录
 description: 此主题介绍供应商目录数据导入流程。
-author: kamaybac
+author: Henrikan
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5114a512da1024029ac72cd919bd99e11cb863f2d52d101bd4527996da9011f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb7e9735ac29fae50a4a3874b713a9a75799605c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730242"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570385"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 

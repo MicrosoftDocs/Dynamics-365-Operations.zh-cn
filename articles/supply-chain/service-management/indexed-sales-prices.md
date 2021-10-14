@@ -1,7 +1,7 @@
 ---
 title: 指数化销售价
 description: 您在创建预订费用时为预订销售价设置指数。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49b9cb5d27a8b28398e7f502fccf7409b021f7224343afbda5a772071195e716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c1cd4436f48dde570dc1582d0be902e1f66264b8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734107"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578816"
 ---
 # <a name="indexed-sales-prices"></a>指数化销售价  
 

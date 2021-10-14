@@ -1,13 +1,13 @@
 ---
 title: 工艺路线和工序
 description: 本主题提供了有关工艺路线和工序的信息。
-author: sorenva
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 268124
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2478d86a24bc6e41dd43b41c9e7062108c3122e8b5a3d699db2fc8243e8be5c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721287"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566687"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 

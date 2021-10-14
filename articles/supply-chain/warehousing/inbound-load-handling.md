@@ -1,7 +1,7 @@
 ---
 title: 仓库对采购订单入站负荷的处理
 description: 此主题介绍仓库对采购订单入站负荷的处理流程。
-author: omulvad
+author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,17 +10,19 @@ ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench,
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 23f63cca3ff080ad9113fdf0e2c74b0397c25a53fa44fb1c6dc1d0777dedffb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733364"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577832"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
+
+[!include [banner](../includes/banner.md)]
 
 此主题介绍仓库对采购订单入站负荷的处理流程。
 

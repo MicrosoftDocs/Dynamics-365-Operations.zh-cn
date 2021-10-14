@@ -1,7 +1,7 @@
 ---
 title: 设置服务间隔
-description: 服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。
-author: ShylaThompson
+description: 此主题描述如何设置服务间隔。 服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e458d14986a3b2c649ccb600d33adaeda52d1cbe78667ae7f269cbeb15b6535d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776210"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567839"
 ---
 # <a name="set-up-service-intervals"></a>设置服务间隔  
 

@@ -1,7 +1,7 @@
 ---
 title: 创建重复采购订单
 description: 此主题演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。
-author: kamaybac
+author: Henrikan
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b75d8414e40d65267494eb495bf99daa62b3e2d5850db27ecae99f30d543c870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719591"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569353"
 ---
 # <a name="create-a-repeat-purchase-order"></a>创建重复采购订单
 

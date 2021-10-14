@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472217"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563053"
 ---
 # <a name="customer-management-in-stores"></a>商店中的客户管理
 
@@ -45,7 +45,8 @@ ms.locfileid: "7472217"
 
 ## <a name="sync-customers-and-async-customers"></a>同步客户和异步客户
 
-> [重要信息] 只要 POS 脱机，系统都将自动异步创建客户，即使禁用了异步客户创建模式也不例外。 因此，无论您在同步客户创建与异步客户创建之间作何选择，Commerce Headquarters 管理员都必须为 **P 作业**、**从异步模式同步客户和业务合作伙伴** 作业（以前称为 **从异步模式同步客户和业务合作伙伴** 作业）和 **1010** 作业创建和计划定期批处理作业，以便在 Commerce Headquarters 中将所有异步客户转换为同步客户。
+> [!IMPORTANT]
+> 只要 POS 脱机，系统都将自动异步创建客户，即使禁用了异步客户创建模式也不例外。 因此，无论您在同步客户创建与异步客户创建之间作何选择，Commerce Headquarters 管理员都必须为 **P 作业**、**从异步模式同步客户和业务合作伙伴** 作业（以前称为 **从异步模式同步客户和业务合作伙伴** 作业）和 **1010** 作业创建和计划定期批处理作业，以便在 Commerce Headquarters 中将所有异步客户转换为同步客户。
 
 在 Commerce 中，有两种客户创建模式：同步和异步。 默认情况下，系统会同步创建客户。 换句话说，客户是在 Commerce Headquarters 中实时创建的。 同步客户创建模式很有用，因为可以跨渠道立即搜索新客户。 但是，它也有一个缺点。 因为它会向 Commerce Headquarters 发出 [Commerce Data Exchange：实时服务](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)请求，如果同时发出许多客户创建请求，则性能可能会受到影响。
 

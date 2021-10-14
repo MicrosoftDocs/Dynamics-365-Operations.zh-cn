@@ -2,7 +2,7 @@
 title: 使用 Excel 查看和更新实体数据
 description: 此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761346"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592657"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -60,7 +60,7 @@ ms.locfileid: "6761346"
 
 6. 选择 **确定**，然后选择 **是** 确认更改。 此 Excel 加载项将重新启动并加载元数据。
 
-    **设计** 按钮现在可用。 如果此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题[故障排除](../office-integration/use-excel-add-in.md#troubleshooting)部分中的“显示‘加载小程序’按钮”。
+    **设计** 按钮现在可用。 如果此 Excel 加载项有 **加载小程序** 链接，您可能无法作为正确用户登录。 有关解决此问题的详细信息，请参阅[加载小程序](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane)疑难解答条目。
 
 7. 选择 **设计**。 此 Excel 加载项将检索实体元数据。
 8. 选择 **添加表**。 将显示实体列表。 将以“名称 - 标签”格式列出实体。
@@ -136,7 +136,7 @@ Excel 工作簿模板作者可以使用相同的过程来设置模板的发布�
 ## <a name="troubleshooting"></a>疑难解答
 可通过某些简单步骤解决一些问题。
 
-- **将显示“加载小程序”按钮** – 如果登录后此 Excel 加载项有 **加载小程序** 按钮，您可能无法作为正确用户登录。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
+- **显示“加载小程序”链接** - 有关解决此问题的详细信息，请参阅[加载小程序](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane)疑难解答条目。 
 - **您收到“已禁止”消息** – 如果此 Excel 加载项加载元数据时收到“已禁止”消息，则登录了该 Excel 加载项的帐户无权使用目标服务、实例或数据库。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请选择该用户名，注销，然后再次登录。
 - **Excel 上方显示空白网页** – 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此 Excel 加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](/deployoffice/overview-office-deployment-tool)[从推迟渠道转到当前渠道](/deployoffice/overview-update-channels)。
 - **发布数据更改时收到超时** – 如果在尝试将数据更改发布到实体时收到超时消息，请考虑减少受影响工作簿的发布批处理大小。 在记录更改时触发大量逻辑的实体可能需要以较小的批处理发送更新，以帮助防止超时。

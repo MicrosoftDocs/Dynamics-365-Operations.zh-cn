@@ -1,7 +1,7 @@
 ---
 title: 创建采购退货单
 description: 此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。
-author: kamaybac
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, Inve
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a391b8dd122bbc9aed57741879fcbca91b9fc26f0caa561702a92e4aaa517bbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738189"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569401"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 

@@ -1,7 +1,7 @@
 ---
 title: 使用看板行事件创建看板规则
 description: 此过程通过使用看板行事件设置触发从进程活动的提取来创建看板规则。
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b6a589d95fde61cbd6743f9e3e3170a1b8d6f91613cde0df94037872b491018
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b7aaf959db0f0a136fc615f9a57ec787ef6cf2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746883"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579152"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>使用看板行事件创建看板规则
 

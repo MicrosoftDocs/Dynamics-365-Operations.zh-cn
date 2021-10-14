@@ -1,7 +1,7 @@
 ---
 title: 会计分配
 description: 本主题提供有关会计分配的信息并介绍可用于处理它们的选项。
-author: ShylaThompson
+author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3586ad009f4639d3606a935f98108b07d379852567e0faa365749f5b0bea07b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f81444e0865715925dad2483e8c789221bccb2b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749214"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595306"
 ---
 # <a name="accounting-distributions"></a>会计分配
 

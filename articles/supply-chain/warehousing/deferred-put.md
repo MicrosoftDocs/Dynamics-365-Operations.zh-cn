@@ -1,7 +1,7 @@
 ---
 title: 推迟处理仓库工作
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
-author: josaw1
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f6e35e52aea389d90dd140a4f85fe21e335704cad4cbab4ea26bcad1fd6774eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735864"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577856"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 

@@ -1,7 +1,7 @@
 ---
 title: 直接在 Sales 和 Supply Chain Management 之间同步销售订单
 description: 本主题讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753220"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566423"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>直接在 Sales 和 Supply Chain Management 之间同步销售订单
 
@@ -189,19 +189,19 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>销售订单（Supply Chain Management 到 Sales）- 直接：OrderHeader
 
-[![数据集成中的模板映射。](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![数据集成中的模板映射，销售订单（Supply Chain Management 到 Sales）- 直接：OrderHeader。](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>销售订单（Supply Chain Management 到 Sales）- 直接：OrderLine
 
-[![数据集成中的模板映射。](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![数据集成中的模板映射，销售订单（Supply Chain Management 到 Sales）- 直接：OrderLine。](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>销售订单（Sales 到 Supply Chain Management）- 直接：OrderHeader
 
-[![数据集成中的模板映射。](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![数据集成中的模板映射，销售订单（Sales 到 Supply Chain Management）- 直接：OrderHeader。](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>销售订单（Sales 到 Supply Chain Management）- 直接：OrderLine
 
-[![数据集成中的模板映射。](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![数据集成中的模板映射，销售订单（Sales 到 Supply Chain Management）- 直接：OrderLine。](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>相关主题
 

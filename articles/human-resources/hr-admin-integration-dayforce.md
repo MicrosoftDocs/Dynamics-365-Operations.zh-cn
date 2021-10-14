@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414576"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559453"
 ---
 # <a name="configure-integration-with-dayforce"></a>配置与 Dayforce 的集成
 
@@ -64,7 +64,6 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 
 > [!NOTE]
 > 将使用数据包的唯一密钥加密传输到 SFTP 终结点的数据包。 此密钥位于只有 Ceridian 才能访问的 Azure 密钥保管库。 不能解密和检查数据包内容。 如果需要检查数据包的内容，需要手动导出“工资单集成导出”数据终结点，下载，然后打开。 手动导出不会应用加密或传输包。
-> 对于将集成文件从 Dynamics 365 Human Resources UAT 或沙盒环境发送到 Ceridian Dayforce 测试环境的实例，您可以使用以下密钥保管库 URL：https://payrollintegrationprod.vault.azure.net。
 
 ## <a name="configure-your-data"></a>配置数据 
 

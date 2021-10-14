@@ -13,15 +13,17 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de5789e1b8e36fc52f308967961fe12389628209ff423e26928d1fb15395a08f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772368"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574801"
 ---
 # <a name="rating-profiles"></a>评级模板
+
+[!include [banner](../../includes/banner.md)]
 
 评级资料类似于物流合同（不是法律合同）。 它用于确定负荷的运输关税。 
 

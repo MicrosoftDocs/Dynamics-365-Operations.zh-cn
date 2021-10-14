@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781798"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579872"
 ---
 # <a name="work-split"></a>工作拆分
+
+[!include [banner](../includes/banner.md)]
 
 使用工作拆分功能，您可以将较大的工作 ID（即有几个行的工作订单）拆分为几个较小的工作 ID，然后将其分配给多个仓库工作人员。 这样，同一个工作创建编号可以同时由几个仓库工人工作人员选择。
 

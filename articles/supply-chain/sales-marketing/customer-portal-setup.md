@@ -1,7 +1,7 @@
 ---
 title: 安装、设置和更新客户门户
 description: 本主题提供客户门户的许可详细信息和设置说明。
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
@@ -9,18 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ff23d57a155d79b34074b4c13c8ec9c51fa54e37609d0d8920550bdf3eeb98a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755195"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572641"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="licensing-requirements"></a>许可要求

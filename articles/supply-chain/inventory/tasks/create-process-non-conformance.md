@@ -1,7 +1,7 @@
 ---
 title: 创建和处理不符合项
 description: 此主题介绍如何执行不符合项管理，基于现有的质检订单。
-author: perlynne
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933efff1be545816504ab31f7a3135bf79996d7b8a50dac9fcc5b994e57a8965
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747953"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580856"
 ---
 # <a name="create-and-process-nonconformances"></a>创建和处理不符合项
 

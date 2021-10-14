@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ac15eba28d777017e8a4f34ff16ec4ea8a1d645222f218aa5024d98ac547b3e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 080f72da1b5b00d189f0c7916354cbf2d7093370
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753196"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576128"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 

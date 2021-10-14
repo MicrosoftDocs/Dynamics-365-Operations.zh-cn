@@ -1,7 +1,7 @@
 ---
 title: 创建服务协议
 description: 本主题描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
-author: ShylaThompson
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4daf023cb65cad39eab9e1560a0093e78cada0fbfb993b8db2d182c26f476397
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5d580b0bb146bf5d445823b37f607e507f7eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759399"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569135"
 ---
 # <a name="create-service-agreements"></a>创建服务协议
 

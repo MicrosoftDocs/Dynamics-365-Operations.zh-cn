@@ -1,7 +1,7 @@
 ---
 title: 预算计划
 description: 此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 Finance 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。
-author: ShylaThompson
+author: panolte
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e995a3fb7f87db2aed676d12ca4b4732eb3e96c5e52b702890d53cd1840d7cb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775186"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595302"
 ---
 # <a name="budget-planning"></a>预算计划
 
@@ -36,7 +36,7 @@ ms.locfileid: "6775186"
 
 ## <a name="prerequisites"></a>先决条件 
 
-对于本教程，您将需要访问包含 Contoso 演示数据的 Microsoft Dynamics 365 Finance 环境，并需要在该实例上预配为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用管理员凭据登录。 在登录时，**必须** 选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到应用程序，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您 **必须** 选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
+对于本教程，您需要访问含 Contoso 演示数据的 Microsoft Dynamics 365 Finance 环境，并需要在该实例上被配置为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用管理员凭据登录。 在登录时，**必须** 选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到应用程序，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您 **必须** 选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
 
 ## <a name="scenario-overview"></a>**方案概览**
 Julia 担任德国 Contoso Entertainment Systems (DEMF) 的财务经理。 由于 FY2016 即将来临，她需要为下一个年度设定公司的预算。 预算编制看似如下：

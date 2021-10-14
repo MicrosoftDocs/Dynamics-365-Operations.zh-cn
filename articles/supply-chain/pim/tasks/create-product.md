@@ -1,7 +1,7 @@
 ---
 title: 创建产品
 description: 此程序会逐步演示如何在商业产品层次结构中创建新产品。
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetails, EcoResProductCreate, EcoResCategorySingleL
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a18273182535f1a737b85da58509f4cb8d738a509b8ff4982a9958454fc28fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6e2e66568509e3034b44e065af658ea2ae95e754
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738213"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567071"
 ---
 # <a name="create-a-product"></a>创建产品
 

@@ -1,7 +1,7 @@
 ---
 title: 创建牌照合并的移动设备菜单项
 description: 此过程显示如何为牌照合并工作创建移动设备菜单项。
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6891da5b6f088e708c07301c6c441032ab0e65902e3e5d57aabba3b027594760
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 92c971bef440d9f5ba0949b7ba93c1614e998d39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757462"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574081"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>创建牌照合并的移动设备菜单项
 

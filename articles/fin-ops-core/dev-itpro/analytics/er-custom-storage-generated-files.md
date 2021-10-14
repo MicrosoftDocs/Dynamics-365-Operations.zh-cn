@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718469"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594901"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. 修改现有 `AssetRollForwardService` 类，并编写代码以为报表运行器设置自定义目标工厂。 请注意，在构建自定义目标工厂时，将传递指定目标文件夹的应用程序驱动参数。 这样，该目标文件夹用于存储生成的文件。
 
     > [!NOTE] 
-    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。
+    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) 异常。
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

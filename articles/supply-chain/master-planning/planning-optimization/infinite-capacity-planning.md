@@ -1,7 +1,7 @@
 ---
 title: 无限容量计划
 description: 本主题提供有关计划优化的无限容量计划的信息。 它还介绍当前的功能限制。
-author: crytt
+author: ChristianRytt
 ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
-ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "7506799"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575624"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>无限容量计划
 

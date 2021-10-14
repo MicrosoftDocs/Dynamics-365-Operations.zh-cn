@@ -1,7 +1,7 @@
 ---
 title: 发货牌
 description: 一个发货牌是您可以查看服务订单中活动状态的中心场所。
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a42e783d9ab96cdbe5eef1cefde2f36dc35bf47e5bca869cb67d55a0cfc03a41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98e6ab6d03027daa164b2544f994cd59f4f0611c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779558"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576512"
 ---
 #  <a name="dispatch-board"></a>发货牌 
 

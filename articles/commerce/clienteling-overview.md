@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9342ab8121b41aa98d93d80198296f721d6e080182e432ead0f84ac7b051fc06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48e3b93b7e53a47673f824d35ac95b65d8566bce
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717739"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594794"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -125,7 +125,7 @@ ms.locfileid: "6717739"
 - 在 **密码** 部分下：
     - **名称**：任何名称，例如，“CISecret”。
     - **描述**：任何值。
-    - **密码**：**vault**://<Name of key vault>/<name of secret>> 在此示例中将为“vault://KeyVaultName/SecretName”。
+    - **机密**：**保管库**：`//<Name of key vault>/<name of secret>>`在此示例中，它将是 `vault://KeyVaultName/SecretName`。
 
 更新字段后，选择 **验证** 确保密码可以被 Commerce 应用程序访问。
 

@@ -1,7 +1,7 @@
 ---
 title: 设置承运人燃油指数
 description: 本指南介绍了如何创建燃油指数区域、燃油指数和承运人燃油指数。
-author: ShylaThompson
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 504c5143fac0e46f4d7be134d400ae53d999d25b1b364fe0278343b3d7664bf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782315"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576248"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>设置承运人燃油指数
 

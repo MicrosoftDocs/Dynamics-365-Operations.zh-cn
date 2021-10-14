@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e1db6c1da4ab311cc3e304d4f422004d5b8423d76f24c8bc8e528f742b1f42fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 0fe795127300ac99c3f5ee65cb1f6e0841ad4d95
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736759"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575792"
 ---
 # <a name="auto-costs-setup"></a>自动成本设置
 

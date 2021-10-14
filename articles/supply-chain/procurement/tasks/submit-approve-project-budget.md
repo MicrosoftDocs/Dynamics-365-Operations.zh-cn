@@ -1,7 +1,7 @@
 ---
 title: 提交和审查项目预算
 description: 此过程显示如何创建和提交项目的预算。
-author: kamaybac
+author: Henrikan
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c6089929762030aedcb5c78467710c91fba08b49f68dcb17e3f22609a7d6de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16a4f8102a954fa8337aa7f5de0f8dcd2b3a288
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738955"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569362"
 ---
 # <a name="submit-and-approve-project-budget"></a>提交和审查项目预算
 

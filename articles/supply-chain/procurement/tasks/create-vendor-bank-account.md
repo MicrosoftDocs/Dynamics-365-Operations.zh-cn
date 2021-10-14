@@ -1,7 +1,7 @@
 ---
 title: 创建供应商银行帐户
 description: 此过程演示如何为供应商创建银行帐户。
-author: kamaybac
+author: Henrikan
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a2e4aa9121dd295649201ea8f674fb1872cd6f5d5bdaf9c6f1cdc47de580dfe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5d24535035d26ca1313e293f9958b1b5000bb845
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730266"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575403"
 ---
 # <a name="create-a-vendor-bank-account"></a>创建供应商银行帐户
 

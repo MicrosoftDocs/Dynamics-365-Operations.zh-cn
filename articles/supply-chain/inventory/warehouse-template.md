@@ -1,7 +1,7 @@
 ---
 title: 使用仓库配置模板设置仓库
 description: 此主题介绍如何使用仓库配置模板设置仓库。
-author: perlynne
+author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: adb14507ad26879ee4811c6eb984ce3888b1913a0e6f0664a99079ba49f1a4c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751905"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571081"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 

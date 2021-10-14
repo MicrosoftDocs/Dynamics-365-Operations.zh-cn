@@ -1,7 +1,7 @@
 ---
 title: 采购主页
 description: 此主题提供了可用于采购的帮助主题和其他资源列表。
-author: kamaybac
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c14e69b351ad07d2d834fe75aba59b30eb2828879e214de8153535ae846d9c1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731263"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565487"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 

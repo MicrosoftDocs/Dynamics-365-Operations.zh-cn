@@ -1,6 +1,6 @@
 ---
 title: 按成本对象查看库存报表和 KPI
-description: 创建此程序的演示数据公司是 USMF。
+description: 本主题介绍如何按成本对象查看库存报表和 KPI。
 author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6bc60baa723cee91b219bc078f4486e971d2c99fc89b9c42e2d4472d161a163
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f813b0e04a2450cb64e92128d36495a483ad14e1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721335"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568151"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>按成本对象查看库存报表和 KPI
 
@@ -27,14 +27,14 @@ ms.locfileid: "6721335"
 
 创建此程序的演示数据公司是 USMF。 此程序是专为成本控制设计的。
 
-1. 单击“成本管理”。
-2. 单击“已发布产品”。
-3. 使用“快速筛选器”以查找记录。 例如，使用值“d0005”在“物料编号”字段中进行筛选。
-4. 在“操作窗格”中，单击“管理成本”。
-5. 单击“成本对象”。
-6. 单击“库存报表和 KPI”。
-7. 在“开始日期”字段中输入日期。
-8. 在“结束日期”字段中输入日期。
+1. 选择 **成本管理**。
+2. 选择 **已发布产品**。
+3. 使用“快速筛选器”以查找记录。 例如，使用值 *d0005* 在 **物料编号** 字段中进行筛选。
+4. 在“操作”窗格上，选择 **管理成本**。
+5. 选择 **成本对象**。
+6. 选择 **库存报表和 KPI**。
+7. 在 **开始日期** 字段中输入日期。
+8. 在 **结束日期** 字段中输入日期。
 
 
 

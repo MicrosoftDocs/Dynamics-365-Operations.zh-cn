@@ -1,7 +1,7 @@
 ---
 title: 设置运输支付方式
 description: 此过程显示如何设置运输支付方式。
-author: ShylaThompson
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e69836ee13296f593c261c8f00bd9af2ac084d3c0cd369abb84dd17a2d6a448
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6d149225e5ff59b448bb0ebbd97fcfd511242ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750946"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571177"
 ---
 # <a name="set-up-a-transportation-tender"></a>设置运输支付方式
 

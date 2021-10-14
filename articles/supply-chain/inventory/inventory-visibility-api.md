@@ -2,7 +2,7 @@
 title: 库存可见性公共 API
 description: 本主题介绍库存可见性提供的公共 API。
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474644"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592480"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -82,6 +82,8 @@ Microsoft 已在 Power Apps 中内置了用户接口 (UI)，供您获取微服�
 
 平台安全令牌用于调用库存可见性公共 API。 因此，您必须使用Azure AD 应用程序生成 _Azure Active Directory (Azure AD) 令牌_。 然后，必须使用 Azure AD 令牌从安全服务获取 _访问令牌_。
 
+Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/496645018f96b3f0455e>。
+
 若要获取安全服务令牌，请执行以下步骤。
 
 1. 登录 Azure 门户，然后将其用于查找 Dynamics 365 Supply Chain Management 应用的 `clientId` 和 `clientSecret` 值。
@@ -131,7 +133,7 @@ Microsoft 已在 Power Apps 中内置了用户接口 (UI)，供您获取微服�
    - `context` 值必须是要在其中部署加载项的 LCS 环境 ID。
    - 如示例中所示设置所有其他值。
 
-1. 提交具有以下属性的 HTTP 请求：
+1. 通过提交具有以下属性的 HTTP 请求来获取访问令牌 (`access_token`)：
 
    - **URL：**`https://securityservice.operations365.dynamics.com/token`
    - **方法：**`POST`
@@ -148,7 +150,8 @@ Microsoft 已在 Power Apps 中内置了用户接口 (UI)，供您获取微服�
    }
    ```
 
-在后面的章节中，您将使用 `$access_token` 表示上一步中提取的令牌。
+> [!IMPORTANT]
+> 当您使用 *Postman* 请求集合调用库存可见性公共 API 时，您必须为每个请求添加一个持有者令牌。 若要查找您的持有者令牌，请在请求 URL 下选择 **授权** 选项卡，选择 **持有者令牌** 类型，并复制最后一步中提取的访问令牌。 在本主题的后面章节中，`$access_token` 将用于表示上一步中提取的令牌。
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>创建现有库存更改事件
 
@@ -508,7 +511,7 @@ Body:
 
 - `organizationId` 中应仅包含一个值，但它仍然是数组。
 - `productId` 中可以包含一个或多个值。 如果它是空数组，将返回所有产品。
-- `siteId` 和 `locationId` 在库存可见性中用于分区。
+- `siteId` 和 `locationId` 用于在库存可见性中分区。 您可以在 *查询现有库存* 请求中指定多个 `siteId` 和 `locationId` 值。 在当前版本中，必须同时指定 `siteId` 和 `locationId` 值。
 
 `groupByValues` 参数应遵循您的索引配置。 有关详细信息，请参阅[产品索引层次结构配置](./inventory-visibility-configuration.md#index-configuration)。
 

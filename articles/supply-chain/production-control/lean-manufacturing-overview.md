@@ -1,7 +1,7 @@
 ---
 title: Lean manufacturing 概述
 description: 本文在 Dynamics 365 Supply Chain Management 中提供 lean manufacturing 功能的概览和描述。
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9c58d00d04c1e34e179d0a94485a86779f7f686e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343910"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579368"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing 概览
 

@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5254978cadc2526f8a381b725035bab35def23c683515c62afad2184c21077d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22f4a423a0ca9e7fc5ddc9d46a618a20c7a5ca9f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781967"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568175"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>查看生产订单当前的 WIP 状态
 

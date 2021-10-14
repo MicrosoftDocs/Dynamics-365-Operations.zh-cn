@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 64c200664c5b64199de96cae866c8e1d20b277625f6cd3a95209189b92511688
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9e99d350abd810045b6b5b4c840f67d21c9d5e39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721383"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569857"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>查看成本对象的成本条目
 

@@ -1,7 +1,7 @@
 ---
 title: 定义生产流版本的到期日期
 description: 若要在给定日期终止某个生产流版本的有效性和处理，或计划将某个有效版本替换为新版本，必须为该版本设置到期日期。
-author: cvocph
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6dfb830b3180ecf4cc2bf6ccc4112581bee0da8cbe793bf53e61fd2828f51fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9f6ee9177664767c31eaa3e9b65d7559a1a9662f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754600"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574417"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>定义生产流版本的到期日期
 

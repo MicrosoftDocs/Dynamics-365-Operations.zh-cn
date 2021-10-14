@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: de753eda43cb358dfa9edc76f102d4b268291b4e
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386430"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595029"
 ---
 # <a name="improve-the-prediction-model"></a>改进预测模型
 
@@ -75,6 +75,6 @@ ms.locfileid: "7386430"
 
 您可以通过为发票上或客户表中的字段设置筛选条件来筛选用于培训的发票。 例如，您可以设置一个阈值以仅包括总金额等于或超过特定金额的发票。 或者，您可以排除与特定客户组中的客户关联的发票。
 
-有关筛选数据的详细信息，请参阅[创建预测模型](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data)。
+有关筛选数据的详细信息，请参阅[创建预测模型](/ai-builder/prediction-create-model#filter-your-data)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

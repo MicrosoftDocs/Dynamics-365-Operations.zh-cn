@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bee9b122e916b62c88bdb9299e823d58bf5bfa25e3b401638145fc431c98df53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 103a8915d56d9883cb5dc06414bc05150d07a03c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766018"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565727"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 

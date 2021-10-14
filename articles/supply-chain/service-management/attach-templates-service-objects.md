@@ -1,7 +1,7 @@
 ---
 title: 将模板附加到服务对象
 description: 物料清单 (BOM) 模板可以附加到某一服务对象关系。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d4fb4f245330d95fb771a8127d4e2d36eb3962bb0446a7676c2c498112567ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77f03a4f74ae4f0ebec67c2a86e369d7e7280b01
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726649"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566255"
 ---
 # <a name="attach-templates-to-service-objects"></a>将模板附加到服务对象    
 

@@ -1,7 +1,7 @@
 ---
 title: 指定如何处置退回物料
 description: 指定如何处置退回物料。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722239"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571321"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
+# <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料
 
 [!include [banner](../includes/banner.md)]
-
 
 在您处理退货单时，必须指定一个退货原因代码来标识产品被退回的原因。 您还必须指定一个处置代码和处置操作代码来确定该如何处理被退回的产品。
 
@@ -35,9 +34,9 @@ ms.locfileid: "6722239"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ ms.locfileid: "6722239"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ ms.locfileid: "6722239"
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>为检验单选择处置代码
 
-1.  单击 **库存管理** \> **定期** \> **质量管理** \> **检验单**。
-
-2.  对于现有检验单，请从 **概述** 选项卡上的 **处置代码** 字段中选择某一操作。
-
-
+1. 转到 **库存管理** \> **定期** \> **质量管理** \> **检验单**。
+1. 对于现有检验单，请从 **概述** 选项卡上的 **处置代码** 字段中选择某一操作。
 
 ## <a name="see-also"></a>请参阅
 
 [检验单（窗体）](/dynamicsax-2012//quarantine-order-form)
 
 [处置代码（窗体）](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

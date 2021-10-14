@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: f2fe01dc8eae2f4cb350b2733c1f4c9f5a57907943b20cc0bd776cce2e097dd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b4fbdc29c03b9bb9b427a19afc2f1b8fb16623a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758416"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578624"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>使用装运合并策略合并装运
 

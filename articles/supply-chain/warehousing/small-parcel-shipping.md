@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: e4682674e6f61b9b75276df57afa522b29b5f052fd8a4c450c7fcfbe79654f90
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: cb5a4195d94750fcbee00e7301bd250f653cb347
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780450"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576080"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 

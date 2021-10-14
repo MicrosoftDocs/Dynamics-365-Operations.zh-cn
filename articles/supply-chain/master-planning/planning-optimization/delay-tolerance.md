@@ -1,7 +1,7 @@
 ---
 title: 延迟容差（负天数）
 description: 本主题提供有关延迟容差计算以及它如何影响计划优化中的计划订单创建的信息。
-author: crytt
+author: ChristianRytt
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c0bc3d429a1bf13285b385130d419f628330bb3728c6f071cf118edac2a59d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778692"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577472"
 ---
 # <a name="delay-tolerance-negative-days"></a>延迟容差（负天数）
 

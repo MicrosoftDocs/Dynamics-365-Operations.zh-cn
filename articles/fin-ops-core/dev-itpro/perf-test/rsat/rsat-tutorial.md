@@ -1,24 +1,21 @@
 ---
 title: Regression Suite Automation Tool 教程
 description: 本主题说明如何使用 Regression Suite Automation Tool (RSAT)。 其中介绍各种功能，并提供使用高级脚本的示例。
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714541"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556757"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 
@@ -82,13 +79,19 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 此功能用于拍摄任务录制期间执行的步骤的屏幕快照。 非常适合审核或调试用途。
 
-- 若要使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** 文件，然后将以下元素的值从 **false** 更改为 **true**。
+- 若要在通过用户界面运行 RSAT 时使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** 文件，然后将以下元素中的值从 **false** 更改为 **true**。
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-运行测试用例时，RSAT 将在工作目录中测试用例的播放文件夹内生成步骤的快照（映像）。 如果使用的 RSAT 版本较低，将把这些映像保存到 **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** 中，这是为运行的每个测试用例创建的单独文件夹。
+- 若要在通过 CLI（例如 Azure DevOps）运行 RSAT 时使用此功能，请打开 RSAT 安装文件夹（如 **C:\\Program Files (x86)\\Regression Suite Automation Tool**）下的 **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** 文件，然后将以下元素中的值从 **false** 更改为 **true**。
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+运行测试用例时，RSAT 将在工作目录中测试用例的播放文件夹内生成步骤的快照（映像）并保存它们。 在播放文件夹中，创建了名为 **StepSnapshots** 的单独子文件夹。 该文件夹包含运行的测试用例的快照。
 
 ## <a name="assignment"></a>赋值
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 以下示例使用开放数据协议 (OData) 调用查找采购订单的订单状态。 例如，如果状态不是 **已开票**，则可调用 RSAT 测试用例以过帐发票。
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

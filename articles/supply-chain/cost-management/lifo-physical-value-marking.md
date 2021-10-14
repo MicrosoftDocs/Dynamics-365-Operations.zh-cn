@@ -13,15 +13,15 @@ ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dfb68803bcced86397d58241887588ee556d32076505dfd64457b3870a236cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60ec1c1c24f05157b72a3ed57abe7dfaaa763093
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767476"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578528"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 

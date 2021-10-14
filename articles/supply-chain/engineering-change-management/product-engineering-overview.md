@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.21
-ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
-ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7467390"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574681"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 

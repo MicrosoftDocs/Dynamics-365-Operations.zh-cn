@@ -1,7 +1,7 @@
 ---
 title: 创建新产品
 description: 此主题描述如何创建新共享产品。
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bab383e4e1b33cbeeb0bbd7712e4907301057fd293c8334b45888be8f3d97277
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761798"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575576"
 ---
 # <a name="create-a-new-product"></a>创建新产品
 

@@ -1,7 +1,7 @@
 ---
 title: 创建基于维度的配置
 description: 此过程显示如何定义基于维度的产品的配置。
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductO
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b233f4a52652b359cd033c08544ca6f49470fc4d24d6cc33b79e32a372a259f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d244170d9cbde00e3fe94b291348e9b0e6040813
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757702"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565566"
 ---
 # <a name="create-dimension-based-configurations"></a>创建基于维度的配置
 

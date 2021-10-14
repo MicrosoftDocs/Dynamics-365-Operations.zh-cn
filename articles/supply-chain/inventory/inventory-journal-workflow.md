@@ -1,7 +1,7 @@
 ---
 title: 库存日记帐审核工作流
 description: 本主题介绍如何为各种类型的实际库存交易设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
-author: sherry-zheng
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7906ac95a2421c9a974bb7f3c46ee5ee157a0b28d6e0327a139fc980cf6e9f19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766090"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568847"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 

@@ -1,7 +1,7 @@
 ---
 title: 复制服务模板行
 description: 模板信息可以复制到服务协议或服务订单。
-author: ShylaThompson
+author: kamaybac
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56555b6bf35aabfae43acefb0ac1ee7f7d944ff25f87f894797cc4cba8447654
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b72af2b22d7194ef567f5703134525c27c32d18b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711569"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575307"
 ---
 # <a name="copy-service-templates-lines"></a>复制服务模板行 
 

@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Supply Chain Management 客户门户概述
 description: 本主题介绍客户门户，并说明谁应该使用它及其如何工作。
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,19 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fc0f8187c10bfc95f94e59b62be8e89d4556dbfc373294aa17579d8c69caed18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 79dc0527c4e65b6984ea3bf043a653961fcab14f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764003"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572665"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management 客户门户概述
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="what-is-the-customer-portal"></a>什么是客户门户？

@@ -13,15 +13,15 @@ ms.custom: 54591
 ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78babdd3942001d749641a4c9afdedd4b4c2ad632a08d20d35faeb107653defb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee3eaf11f5d77861e7abd29bb428f67b57a3e0e3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751929"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565943"
 ---
 # <a name="production-posting"></a>生产过帐
 
