@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343852"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595195"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -75,7 +75,7 @@ ms.locfileid: "7343852"
 >
 > 提供电子邮件目标以在 [运行时](electronic-reporting-destinations.md#security-considerations)修改时，**发件人** 字段仅对具有 `ERFormatDestinationSenderEmailMaintain` 安全特权的用户可见，请 **为 ER 格式目标维护发件人电子邮件地址**。
 >
-> 当 **发件人** 字段配置为使用当前用户电子邮件地址之外的其他电子邮件地址时，**发送人** 或 **发送人代表** 权限必须提前正确[设置](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide)。 否则，运行时会引发以下异常：“无法从 \<current user account\> 帐户以 \<from email account\> 身份发送电子邮件，请检查 \<from email account\> 上的“发送人”权限。
+> 当 **发件人** 字段配置为使用当前用户电子邮件地址之外的其他电子邮件地址时，**发送人** 或 **发送人代表** 权限必须提前正确[设置](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group)。 否则，运行时会引发以下异常：“无法从 \<current user account\> 帐户以 \<from email account\> 身份发送电子邮件，请检查 \<from email account\> 上的“发送人”权限。
 
 您可以配置 **发件人** 字段以返回多个电子邮件地址。 在这种情况下，列表中的第一个地址用作电子邮件发件人地址。
 

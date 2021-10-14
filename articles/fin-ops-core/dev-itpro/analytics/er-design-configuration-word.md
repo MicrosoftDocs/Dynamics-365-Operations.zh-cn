@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718349"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595254"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>设计新 ER 配置以生成 Word 格式的报表
 
@@ -46,7 +46,7 @@ ms.locfileid: "6718349"
 
 ![在“格式设计器”页面上添加嵌套元素。](./media/er-design-configuration-word-image4.gif)
 
-在设计期间保存对 ER 格式的更改时，分层格式结构将作为名为 **报表** 的[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)存储在附加的 Word 模板中。 您必须访问修改后的模板，从 Finance 中下载它，将它存储在本地，然后在 Word 桌面应用程序中打开它。 下图显示了包含 **报表** 自定义 XML 部件的控制报表的本地存储的示例模板。
+在设计期间保存对 ER 格式的更改时，分层格式结构将作为名为 **报表** 的[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview)存储在附加的 Word 模板中。 您必须访问修改后的模板，从 Finance 中下载它，将它存储在本地，然后在 Word 桌面应用程序中打开它。 下图显示了包含 **报表** 自定义 XML 部件的控制报表的本地存储的示例模板。
 
 ![在 Word 桌面应用程序中预览示例报表模板。](./media/er-design-configuration-word-image5.gif)
 
