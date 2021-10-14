@@ -1,7 +1,7 @@
 ---
 title: 时间范围
 description: 您可以使用时间范围优化服务订单行的计划。
-author: ShylaThompson
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29c43d5c21d435086bcc272e89b4c877f4057a44374e4d0005a842e10fe43a88
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1a0ac2c038b76d64ff8d55708e57f7c3b88c3393
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741229"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574971"
 ---
 # <a name="time-windows"></a>时间范围  
 

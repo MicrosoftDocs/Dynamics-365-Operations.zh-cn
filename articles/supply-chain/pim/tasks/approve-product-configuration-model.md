@@ -1,7 +1,7 @@
 ---
 title: 审核产品配置模型
 description: 该过程的运行要求至少有一个产品配置模型可用。
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProdu
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 208dd55720a54ef1516f2691811ff9c86e5b132d3e5c459a048f5889faec24fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2aefc1a26158fd23af7330bfff7a6ac0e8f3e347
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735175"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578168"
 ---
 # <a name="approve-a-product-configuration-model"></a>审核产品配置模型
 

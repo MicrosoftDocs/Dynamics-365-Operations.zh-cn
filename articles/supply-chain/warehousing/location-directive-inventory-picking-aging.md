@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a08b1582ee5edba019031a687dba375a195d661484c0f0bdd2983fed2a0d6cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714178"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578576"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 

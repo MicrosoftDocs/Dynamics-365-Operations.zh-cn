@@ -1,7 +1,7 @@
 ---
 title: 计划优化的净需求和限定标准信息
 description: 本主题提供计划优化中有关计算出的净需求的信息和限定标准信息。
-author: crytt
+author: ChristianRytt
 ms.date: 7/28/2021
 ms.topic: article
 ms.search.form: ReqTransOverview
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 77b04f417e5bd8d236fa53810f9cbfe5860d9dd7
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 5dbe4633ef061a054388e1b6aa6300e1c835c36a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343230"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569761"
 ---
 # <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>计划优化的净需求和限定标准信息
 

@@ -1,7 +1,7 @@
 ---
 title: 询价 (RFQ) 概览
 description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc7700c825feb9727b816d9a2776e37fdbd2ff8416ffb4530e5af8c35d61b070
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9965e906bdbbf93cdced66b8b39b85a47c62b080
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757678"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569473"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 

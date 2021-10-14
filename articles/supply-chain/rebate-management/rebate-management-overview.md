@@ -13,13 +13,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: b6b986128961a77ba641cf4642c99578484b28e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720244"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573505"
 ---
 # <a name="rebate-management-module-overview"></a>返点管理模块概述
 

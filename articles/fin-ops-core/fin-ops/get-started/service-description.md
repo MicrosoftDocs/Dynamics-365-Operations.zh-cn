@@ -2,19 +2,19 @@
 title: Finance and Operations 应用的服务描述
 description: 本主题提供 Finance and Operations 应用的服务描述。
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472497"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581808"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
 
@@ -28,7 +28,7 @@ Finance and Operations 应用是基于并为了 [Microsoft Azure](https://azure.
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-这些应用与[商业智能](/power-bi/fundamentals/power-bi-service-overview)、[基础结构](https://azure.microsoft.com/global-infrastructure/)、[计算](/azure/service-fabric/service-fabric-overview)和[数据服务](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview)共同让组织可以运行业务特定的运营业务流程。 客户在其实现合作伙伴的支持下，可以确定最适合自己的唯一业务流程的业务应用程序配置。 可以通过下面的一种或多种解决方案增强或扩展功能和业务流程：
+这些应用与[商业智能](/power-bi/fundamentals/power-bi-service-overview)、[基础结构](https://azure.microsoft.com/global-infrastructure/)、[计算](/azure/service-fabric/service-fabric-overview)和[数据服务](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/)共同让组织可以运行业务特定的运营业务流程。 客户在其实现合作伙伴的支持下，可以确定最适合自己的唯一业务流程的业务应用程序配置。 可以通过下面的一种或多种解决方案增强或扩展功能和业务流程：
 
 - [个性化体验](personalize-user-experience.md)中内置
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) 工具
@@ -197,17 +197,17 @@ SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备
 | 预配所有生产实例和非生产实例。 | X | |
 | 验证部署的生产实例和非生产实例。 | | X |
 | **服务更新** | |
-| Microsoft 将服务更新应用于指定的非生产实例和生产实例。 | X | X |
-| 从 LCS 下载更新，定义，开发和测试更新，以及将代码更新包还给 LCS。 | | X |
-| 请求将扩展更新应用于生产实例。 | | X |
+| 将服务更新应用于指定的非生产实例和生产实例。 | X | |
+| 手动将服务更新从 LCS 应用于沙盒实例。 定义、开发、测试更新，并将代码更新包重新提供给 LCS。 | | X |
+| 请求将计划扩展更新应用于生产实例。 | | X |
 | 在应用任何更新之前，为生产实例创建代码和数据备份。 | X | |
 | 如果失败，请将生产实例回滚到代码和数据备份。 | X | |
 | **数据管理（备份、还原和更新）** | | |
 | 备备数据库。 | X | |
 | 确定高可用性和灾难恢复计划。 | X | |
-| 监控生产实例数据库的性能。 | X | X |
-| 针对性能调整生产实例数据库。 | X | X |
-| 开始将生产实例数据库复制到非生产实例。 | | X |
+| 监控生产实例数据库的性能。 | X | |
+| 针对性能调整生产实例数据库。 | X | |
+| 对非生产实例执行生产实例数据库时间点刷新。 | | X |
 | **更新基础结构** | | |
 | 计划基础结构常规更新。 | X | |
 | **向上扩展和向下扩展（用户、存储和实例）** | | |
@@ -215,7 +215,7 @@ SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备
 | 在 LCS 订阅估算器工具中更新使用情况更改。 | | X |
 | 报告影响使用服务的任何重大性能问题。 | | X |
 | 主动管理适用服务所需的资源。 | X | |
-| 调查和排除事件。 | X | X |
+| 调查和排除事件。 | X | |
 | **安全性（用户访问权限）** | | |
 | 为用户提供服务的访问权限。 | | X |
 | 提供 LCS 项目访问权限以管理和操作通过 LCS 部署的实例。 | | X |

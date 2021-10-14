@@ -1,7 +1,7 @@
 ---
 title: 初始化仓库中的库存级别
 description: 该过程说明如何利用“库存移动日记帐”手动更新现有库存。
-author: perlynne
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a49a217b2da36c39f82ecb5ec8100e3222108b1e20bfb1640f83c9fe2123f1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 264dabf9c1c10c3d2cee3e0c942abbfa249f21f5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721355"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565871"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>初始化仓库中的库存级别
 

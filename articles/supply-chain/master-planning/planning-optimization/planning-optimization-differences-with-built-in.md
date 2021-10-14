@@ -1,7 +1,7 @@
 ---
 title: 内置主计划与计划优化之间的差异
 description: 本主题列出了计划优化尚不支持的功能，以及“计划优化适合分析”页面上未列出的功能。
-author: crytt
+author: ChristianRytt
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 63f3bc6cb7563ee6ff719272a0795efffcb40bc8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500188"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568679"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>内置主计划与计划优化之间的差异
 

@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: bb7a1b1b18c52ce03f6e343971a753dda5373172f90863db565f769269f47a6d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734395"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568199"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>移动平均回退成本序列
+
+[!include [banner](../includes/banner.md)]
 
 库存成本的一种计算方法是使用 _移动平均_。 可以为每项库存物料最多关联三个成本值：
 

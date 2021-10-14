@@ -1,7 +1,7 @@
 ---
 title: 日历和主计划
 description: 此主题提供供应链日历及其如何影响主计划的概述。
-author: t-benebo
+author: ChristianRytt
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a2b6f1c3d98ca8265dea83bde4bc5e7d677da3d88533d39fe06a49a61cb1b9ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771411"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568607"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 

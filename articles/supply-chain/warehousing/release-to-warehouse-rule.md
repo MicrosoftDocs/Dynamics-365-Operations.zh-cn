@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 2a9decad96f92450b9473ca10ccf7a98edf07a4316edd6d9ef92a70cc78c05ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716412"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580016"
 ---
 # <a name="release-to-warehouse-rule"></a>发放到仓库规则
 

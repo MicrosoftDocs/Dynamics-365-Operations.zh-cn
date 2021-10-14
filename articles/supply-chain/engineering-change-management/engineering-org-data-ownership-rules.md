@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8bfb0a05fb608f1ee7c6377adaba0c15ee360579aefb74d8218ea4b3dfed9003
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716534"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572905"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>工程公司和数据所有权规则
 

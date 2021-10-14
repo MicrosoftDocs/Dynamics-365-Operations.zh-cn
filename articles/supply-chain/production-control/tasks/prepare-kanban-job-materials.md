@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6131d4c27a9ac4392f20e9350855cc2c026e554bcb192b5b0731268b192f07d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e16272376924da03b0a470d143e03c8319f06d5b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781409"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573673"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>在物料对于工作单元可用时准备处理看板作业
 

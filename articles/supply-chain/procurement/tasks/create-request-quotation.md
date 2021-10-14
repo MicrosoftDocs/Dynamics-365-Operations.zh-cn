@@ -1,7 +1,7 @@
 ---
 title: 创建询价
 description: 此过程向您说明如何创建询价。
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdL
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 743777fcf7abdb60aa48a3e08e364c1edca1d27d2d084a014d13f51e50f464e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b0e9e4d7c31b1e6905abeac03e462ac185f3f489
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764051"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565367"
 ---
 # <a name="create-a-request-for-quotation"></a>创建询价
 

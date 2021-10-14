@@ -1,7 +1,7 @@
 ---
 title: 库存状态
 description: 本文介绍如何使用库存状态来分类和跟踪库存。
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58e9895afecf24a84281049c63d661e690fe2a2f7963d4711dc7cc4d5630322b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b38ab4674c80da496e09e5179a412d6dcd85a7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735223"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577664"
 ---
 # <a name="inventory-statuses"></a>库存状态
 

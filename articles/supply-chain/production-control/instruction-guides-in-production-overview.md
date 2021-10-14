@@ -1,7 +1,7 @@
 ---
 title: 为生产中的工作人员提供混合现实指南
 description: 本主题说明了如何将 Microsoft Dynamics 365 Supply Chain Management 中的生产管理模块与 Dynamics 365 Guides 集成。
-author: cabeln
+author: johanhoffmann
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
@@ -15,18 +15,19 @@ ms.custom:
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 801d2671d238e2cd616bfc59448b2c91c7c1347de6066033a377a807a56bd633
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717116"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576896"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>为生产中的工作人员提供混合现实指南
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 生产流程中的工作人员将从在其工作范围内在适当时间提供的相关说明中受益。 *说明* 适用于多个工作领域，包括：装配、服务、工序、认证和安全。 在所有这些核心业务功能中，持续进行的培训说明可以帮助员工实现更多目标，更好地进行工作。

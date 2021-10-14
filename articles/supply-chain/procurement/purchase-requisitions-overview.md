@@ -1,7 +1,7 @@
 ---
 title: 采购申请概览
 description: 此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08902aa8f7376fb394f319f186a339bb967a871dfa9151eb99b80e89cf797716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ef018319a2d6992c270aa7f898fd1c6d649ea43
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769531"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569497"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 

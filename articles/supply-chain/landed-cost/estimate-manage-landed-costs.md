@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: a30c1efd2fa37a5fb192156ab6edf1d57be8cad36c781f236385fc6884bda097
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 5a8df57eaa779fe7b1f709a59372d9c634447c4a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736687"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565799"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>估计和管理登陆成本
 

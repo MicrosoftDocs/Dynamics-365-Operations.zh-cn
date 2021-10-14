@@ -1,7 +1,7 @@
 ---
 title: 产品数据实体
 description: 本主题提供有关可用于导入和导出产品数据的不同实体的信息。
-author: cvocph
+author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344750"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567143"
 ---
 # <a name="product-data-entities"></a>产品数据实体
 

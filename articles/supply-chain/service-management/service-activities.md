@@ -1,7 +1,7 @@
 ---
 title: 服务活动
 description: 创建服务活动以定义和维护服务订单中的任务。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb9bb2bb388f34fed0fd3f9d88982724e8e246a67b8231014285a0fb1c8d96f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 656c16f812afccd58ea9031fd83a4b09a4c44957
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768610"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566135"
 ---
 # <a name="service-activities"></a>服务活动        
 

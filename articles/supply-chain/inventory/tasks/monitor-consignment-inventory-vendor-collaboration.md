@@ -1,7 +1,7 @@
 ---
 title: 使用供应商协作监控托运库存
 description: 此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。
-author: sherry-zheng
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cca89917148f782a67c80fc47ac1af0582c79d19337dd1093965c87a4c9a42e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0d194728805cd1eee741069538352b497867981
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755315"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571825"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>使用供应商协作监控托运库存
 

@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69634e9fb1c493e051bc72a65c909fba90514fe3eafc31e9df13e8eb3070a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714853"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574105"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
 

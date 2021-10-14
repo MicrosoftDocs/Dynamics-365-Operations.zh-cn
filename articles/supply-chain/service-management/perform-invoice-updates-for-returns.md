@@ -1,7 +1,7 @@
 ---
 title: 为退货执行发票更新
 description: 此功能支持组织选择采用的业务流程，即同时由同一人对退货单和销售订单开票。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3890ea31ee899f021405fb5475b20f9dd63c1e2e103b63af8b53bccc53d0781f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 736496a0499e70987f80f3d4687414371606cd8c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730146"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578744"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>为退货执行发票更新 
 

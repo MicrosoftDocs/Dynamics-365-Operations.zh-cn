@@ -1,7 +1,7 @@
 ---
 title: 创建使用询价的申请
 description: 此主题介绍如何将价格和供应商信息添加到询价流程的采购申请。
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65c6c7b718b3538ebd0096cd173c933b9d750da1102b0c32d73200f4428026a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f88d50c24e84b94128aa3fd567562f3240832910
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776330"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578048"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>创建使用询价的申请
 

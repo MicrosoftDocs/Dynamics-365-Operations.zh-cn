@@ -1,7 +1,7 @@
 ---
 title: 更正库存跟踪信息
 description: 该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aae70bf74f3b640167a01d8a5935989d7225695dc5d4f3817ac2ce92d191cb31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 69921651ecd0969e9cdd3cdd3740db212a1953e1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766695"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573793"
 ---
 # <a name="correct-inventory-tracking-information"></a>更正库存跟踪信息
 

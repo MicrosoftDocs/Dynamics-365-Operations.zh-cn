@@ -1,7 +1,7 @@
 ---
 title: 定义部分库位周期盘点流程
 description: 使用周期盘点计划创建盘点工作时，可以通过请求仅盘点特定产品和产品变型，而不是盘点库位中的所有现成库存，指导实际盘点操作。
-author: ShylaThompson
+author: Mirzaab
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanLis
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d3362aed9627d30f8c117e303e1124fa1dd2069e8629e55325c6ff21fe51c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c179b7f6e0b8546e20204a971cb2951c7b62d7b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722095"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579968"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>定义部分库位周期盘点流程 
 

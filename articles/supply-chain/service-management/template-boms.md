@@ -1,7 +1,7 @@
 ---
 title: 物料清单模板
 description: 使用物料清单模板提供定期提供服务的服务对象组件的标准化列表。
-author: ShylaThompson
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
@@ -15,25 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab8586f81dc4a897d243b9d289109f039c390fcbf90c5c205125cf49eb5e8e39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724740"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571297"
 ---
-# <a name="template-boms"></a>物料清单模板    
+# <a name="template-boms"></a>物料清单模板
 
 [!include [banner](../includes/banner.md)]
-
 
 使用物料清单模板为您提供定期提供服务的服务对象组件的标准化列表。 物料清单模板中所列的组件表示服务对象的各个子组件。 当您将物料清单模板应用到某服务对象时，您可以记录为该服务对象更换了哪些子组件。
 
 为了将物料清单模板应用到某一服务协议或服务订单，您将它附加到某一服务对象关系。
 
-
 > [!NOTE]
-> <P>每个服务对象只能应用一个物料清单模板。</P>
+> 每个服务对象只能应用一个物料清单模板。
 
 ## <a name="create-a-template-bom"></a>创建物料清单模板
 
@@ -41,8 +39,8 @@ ms.locfileid: "6724740"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +68,6 @@ ms.locfileid: "6724740"
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>将物料清单模板应用到某一服务协议或服务订单
 
 您可以将物料清单模板应用到服务协议、服务订单或两者同时应用。 服务协议通常涉及与客户的长期关系。 服务物料清单上记录的更换历史信息对服务协议是有用的数据。
@@ -81,7 +78,7 @@ ms.locfileid: "6724740"
 
 可以将服务物料清单行的历史记录从一个服务协议复制到另一个服务协议。 通过在服务协议间复制服务历史记录，可以保存物料的更换记录。
 
-**示例**
+### <a name="example"></a>示例
 
 您为客户的小汽车设置了三年的服务协议。 在该期间，客户已习惯公司提供的优良服务。 因此，在协议到期后，客户想要设置新的协议。 您现在可以寻求通过谈判签订对公司更有利的协议。 因为更换组件的记录在将来可能有用，您将服务物料清单的历史记录复制到新协议。
 
@@ -99,26 +96,18 @@ ms.locfileid: "6724740"
 
 若要使用物料清单模板，您必须设置两个编号规则。 设置一个编号规则用于物料清单模板，一个用于物料清单历史记录行号。
 
-
 > [!NOTE]
-> <P>编号规则用于分配标识到需要它们的记录。 在您可以将某一编号规则分配给物料清单模板或物料清单历史记录行编号之前，必须设置编号规则代码。</P>
-
+> 编号规则用于分配标识到需要它们的记录。 在您可以将某一编号规则分配给物料清单模板或物料清单历史记录行编号之前，必须设置编号规则代码。
 
 ## <a name="set-up-number-sequences"></a>设置编号规则
 
-1.  在 **编号规则** 列表页，创建物料清单模板和物料清单历史记录行编号的编号规则。 
-
-2.  单击 **服务管理** \> **设置**\> **服务管理参数**。
-
-3.  单击 **编号规则** ，然后为您在 **编号规则** 窗体中创建的编号规则引用的编号规则代码。
-
-4.  关闭窗体以保存您所做更改。
-
+1. 在 **编号规则** 列表页，创建物料清单模板和物料清单历史记录行编号的编号规则。
+1. 选择 **服务管理** \> **设置**\> **服务管理参数**。
+1. 选择 **编号规则** ，然后为您在 **编号规则** 窗体中创建的编号规则引用选择编号规则代码。
+1. 关闭窗体以保存您所做更改。
 
 > [!NOTE]
-> <P>系统使用物料清单历史记录行编号将物料清单历史记录中的交易记录与某一服务协议或服务订单关联。 编号不显示在用户界面上。</P>
-
-
+> 系统使用物料清单历史记录行编号将物料清单历史记录中的交易记录与某一服务协议或服务订单关联。 编号不显示在用户界面上。
 
 ## <a name="see-also"></a>请参阅
 
@@ -127,10 +116,5 @@ ms.locfileid: "6724740"
 [管理针对对象关系的物料清单模板](manage-template-boms-on-object-relations.md)
 
 [修改服务项清单](modify-service-bom.md)
-
- 
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

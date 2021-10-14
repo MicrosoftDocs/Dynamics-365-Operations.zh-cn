@@ -1,7 +1,7 @@
 ---
 title: 采购 cXML 增强功能
 description: 采购 cXML 增强功能建立在现有的外部目录功能 PunchOut 的基础上，该功能用于采购申请。
-author: dasani-madipalli
+author: Henrikan
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-08-03
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d61087d21035e532ad86b6669626f55e8411a6f421bf69f817199e9063417761
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779606"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575456"
 ---
 # <a name="purchasing-cxml-enhancements"></a>采购 cXML 增强功能
 

@@ -1,7 +1,7 @@
 ---
 title: 库存管理概览
 description: 本主题提供库存管理的概览。
-author: ShylaThompson
+author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4df35bf21898441b7737d6cb6a43858f7060921fe118b17c109511531a998b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 568a8b984b794baa25083cc3a30023b5d4db36db
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753268"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567383"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 

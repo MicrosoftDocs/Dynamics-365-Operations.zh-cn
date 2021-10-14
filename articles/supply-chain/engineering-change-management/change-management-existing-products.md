@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488194"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571969"
 ---
 # <a name="enable-change-management-on-existing-products"></a>对现有产品启用更改管理
 

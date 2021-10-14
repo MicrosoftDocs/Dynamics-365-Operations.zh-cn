@@ -1,7 +1,7 @@
 ---
 title: 产品变型编号和名称的命名法
 description: 此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。
-author: roxanadiaconu
+author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 87b78b3003a13586b10fac57fb1d39f004efdf1f81c23420614eb3abd1e4a016
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761036"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569689"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 

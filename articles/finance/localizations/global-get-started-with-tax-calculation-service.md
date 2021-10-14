@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465069"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562118"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
@@ -100,7 +100,7 @@ ms.locfileid: "7465069"
     | 10.0.18         | 税款配置 - 欧洲 30.12.82     |
     | 10.0.19         | 税款计算配置 36.38.193 |
     | 10.0.20         | 税款计算配置 40.43.208 |
-    | 10.0.21         | 税款计算配置 40.46.212 |
+    | 10.0.21         | 税款计算配置 40.48.215 |
 
 9. 在 **全球化功能** 工作区，选择 **功能**，选择 **税务计算** 磁贴，然后选择 **添加**。
 10. 选择以下功能类型之一：

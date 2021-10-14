@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 2f8803e46ce6f104a5afee64faaf393a2df47a61
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475004"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568103"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>工程属性和工程属性搜索
 

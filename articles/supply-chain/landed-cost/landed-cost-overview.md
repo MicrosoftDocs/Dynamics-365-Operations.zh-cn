@@ -13,13 +13,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 87cce7a00d5ae8af2f9992a7dadda6a55880e4af51e26c31b54baf065c34059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 384649ada36496e8f0bf5709e7f2ab53730aca1a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744122"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565847"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 

@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e95cb358b8e79ff091f428140e908be2ab3131f264e8cc43cd7de1f1745d8dfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755411"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573985"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>工程更改管理功能演练
 
@@ -55,7 +55,7 @@ ms.locfileid: "6755411"
 1. 选择 **新建** 以向网格添加一行，然后为其设置以下值：
 
     - **工程组织：***DEMF*
-    - **组织名称**：*德国 Contoso 娱乐系统*
+    - **组织名称：***德国 Contoso 娱乐系统*
 
     ![添加工程组织。](media/engineering-org.png "添加工程组织")
 

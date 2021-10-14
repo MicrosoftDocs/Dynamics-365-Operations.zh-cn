@@ -1,7 +1,7 @@
 ---
 title: 库存标签盘点
 description: 此主题提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99d2dadf7d49a37b5f06bf08ece5454bf742d5dc6ab001402ace3097d5ec96b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64315b8c5f0be1dbd19239a8b07746e90aebb0d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735199"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567359"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 

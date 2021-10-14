@@ -1,7 +1,7 @@
 ---
 title: 创建基于维度的基础产品的物料清单
 description: 对于此过程，您应该已经以八个记录的这个顺序完成之前的 4 个指南。
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductO
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 696cb96c6e934eaa44bfe6f51347df4541e5648f75f1ce07139787a1b235d69d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f86625821f8a01a6d4949f9dca538a279f52ce9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715763"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565573"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>创建基于维度的基础产品的物料清单
 

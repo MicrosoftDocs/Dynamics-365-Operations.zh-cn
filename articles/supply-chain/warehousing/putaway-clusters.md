@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c2b12798a6ef9c2d4aa022e0c270d8191b2cf4e7fc844042ed88c4eb9f5b98a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741900"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573001"
 ---
 # <a name="putaway-clusters"></a>储存群集
 

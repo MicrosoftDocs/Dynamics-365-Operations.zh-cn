@@ -1,7 +1,7 @@
 ---
 title: 基于维度的产品配置概览
 description: 基于维度的产品配置表示从单个基础产品和物料清单创建多个产品变型的简单解决方案。
-author: cvocph
+author: t-benebo
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8578561366051dc459bf81304fea334853879152c4867bf19e72d7a8838bba3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1eb610cc0eaa687ca2552cd71227fe48e379eb5c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752746"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568559"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>基于维度的产品配置概览
 

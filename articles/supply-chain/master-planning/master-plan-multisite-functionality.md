@@ -1,7 +1,7 @@
 ---
 title: 主计划和多站点功能概览
 description: 主计划考虑站点和仓库库存维度的设置。
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d4360f524fb9a7dd9d844d94c1d3a7db76d4cdcfc1119ba93485c8df4353869
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edcf35ea0a5be870d8a57cd782664d0a0b77de5c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713678"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575672"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>主计划和多站点功能概览
 

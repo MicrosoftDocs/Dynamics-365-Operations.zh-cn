@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fe6241db869924b0497e35ced2cc05fd89c320387359f5eb443bdb36b6d05823
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727742"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574657"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 

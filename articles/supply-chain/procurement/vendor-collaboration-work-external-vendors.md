@@ -1,7 +1,7 @@
 ---
 title: 供应商与外部供应商的协作
 description: 本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36d75451ca31f6b3e14fc1cbd8dd9f886e454c4a0dbadcae9524b556623d72ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727814"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576968"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 

@@ -1,7 +1,7 @@
 ---
 title: 预留库存数量
 description: 此主题介绍预留库存时可用的不同选项。
-author: perlynne
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43443f510f5b8a627b4fd2b391c0c63d7d2ed147f1dea8f9cdd78a07009c2449
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764852"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571129"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 

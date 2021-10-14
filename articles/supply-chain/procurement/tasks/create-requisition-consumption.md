@@ -1,7 +1,7 @@
 ---
 title: 创建消耗量申请
 description: 本主题介绍申请的创建过程。
-author: kamaybac
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ccd7b1c0b1902e3631379d71e681e533fa3a6103cc59a3ec65731c4e6326f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f7ca6e843688e0415f7ef31ed7cd40a77eccdeb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775595"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579440"
 ---
 # <a name="create-a-requisition-for-consumption"></a>创建消耗量申请
 

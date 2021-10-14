@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: cdeceb9457aa8706b57baa713ae18f892d4803b41859da0a01acb39ed262f67c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da98b24b9e0ab1ae19fd353ec226b2e0ab008fe
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773902"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574201"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>使用合并装运页面手动合并装运
 

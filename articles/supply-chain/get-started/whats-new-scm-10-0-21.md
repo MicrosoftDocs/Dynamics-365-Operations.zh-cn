@@ -4,18 +4,18 @@ description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.21 中
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500547"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579728"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 
@@ -26,20 +26,6 @@ ms.locfileid: "7500547"
 - **版本预览：** 2021 年 8 月
 - **版本的正式发布时间（自行更新）：** 2021 年 9 月
 - **版本的正式发布时间（自动更新）：** 2021 年 10 月
-
-## <a name="known-deployment-issue"></a>已知部署问题
-
-在 IaaS 上部署版本 10.0.21 时，您可能会收到以下部署警告：
-
-**警告代码：** 95017
-
-**警告消息**：对 VM 执行脚本 \[SetupDiagnostics\] 失败
-
-尽管出现警告，但部署将正常工作。 但是，Lifecycle Services (LCS) 中可能会出现以下已知问题：
-
-- 在 **环境监控** 页面上，**查看详细版本信息** 链接将不会显示，因此您将无法查看环境中安装的模块的特定版本。 如果没有此数据，后续修补程序可能会失败，因为应用修补程序的流程使用此数据验证是否满足模块版本先决条件。 由于无法在生产中使用 PEAP/预览版本或应用修补程序，因此影响应最小。
-- SQL 见解下 **环境监视** 页面上的 **性能指标** 和 **索引分析** 选项卡将不会显示任何数据。 所有其他 **环境监视** 功能将正常工作。
-- **完整系统诊断** 页面将无法访问。 有关夜间收集器运行的状态及其规则检测到的问题的关联数据也将不会显示。
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 

@@ -1,7 +1,7 @@
 ---
 title: 登记约会的驾驶员签入和签出
 description: 此过程显示如何登记驾驶员签入和驾驶员签出。
-author: ShylaThompson
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4516d14d623e3302298bbecc92a18fd67f99336d472ab21374386f49462cf711
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1e7e383d72f45b9b3ea69dcff7b3534a2a3d22f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755171"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567719"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>登记约会的驾驶员签入和签出
 

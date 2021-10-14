@@ -13,15 +13,15 @@ ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d25db42351529fafbc68313c992f873918cd5e8638d9dc9417cb04f1ba5698f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 078969e12275c3abd2e4ea2f8c6c9579dce73e5f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711921"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574009"
 ---
 # <a name="inventory-close"></a>库存结转
 

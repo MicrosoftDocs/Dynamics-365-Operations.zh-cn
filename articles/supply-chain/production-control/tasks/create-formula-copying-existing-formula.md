@@ -1,7 +1,7 @@
 ---
 title: 通过从现有配方复制来创建配方
 description: 该过程显示如何通过复制现有配方，快速创建新的配方。
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00a6cde2b42e471d97440645de652d6448ab1e65c9d615ed7a8ff7d3f064201
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11d430d1f02789566d136a0e0f0d8dde80934dad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729427"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579176"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>通过从现有配方复制来创建配方
 

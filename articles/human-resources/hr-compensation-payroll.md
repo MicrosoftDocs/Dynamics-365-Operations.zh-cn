@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483774"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559599"
 ---
 # <a name="ready-to-pay"></a>准备付款
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > 如果您希望将员工标记为准备付款，您必须首先在功能管理中启用 **(预览版)工资单集成** 功能。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
@@ -72,10 +70,9 @@ ms.locfileid: "7483774"
 
 如果 **准备付款** 字段为 **否**，则指示您必须执行操作以确保工作人员个人资料完整。 这不会停止在任何数据实体中公开的数据。 
 
-## <a name="known-issues"></a>已知问题
+## <a name="process-automation"></a>流程自动化
 
-- 您必须在功能管理中禁用 **简化的员工输入** 功能。 如果您使用此功能，薪酬管理工作区中的磁贴将无法正常工作。
-- 在 **工作人员** 页面，**工资单选项卡** 上的 **准备付款** 组可用于任何用户角色。 
+您可以使用[流程自动化](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation)自动验证所有员工。 在 **薪酬管理** 工作区中，转到 **链接**\>**参数**\>**流程自动化**。
 
 ## <a name="see-also"></a>请参阅
 

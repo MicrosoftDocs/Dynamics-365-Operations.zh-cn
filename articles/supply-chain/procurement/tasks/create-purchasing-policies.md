@@ -1,7 +1,7 @@
 ---
 title: 创建采购策略
 description: 本主题显示如何创建与您的采购业务流程一致的采购政策。
-author: kamaybac
+author: Henrikan
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPu
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06af7dd5d7c47267de3a91f13d6558c2a3b324794fc643f6cd3be9f0770ac7bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717164"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579488"
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 

@@ -1,7 +1,7 @@
 ---
 title: 维护计划订单
 description: 本主题提供有关如何管理计划订单的信息。 介绍如何更新计划订单的状态，确定计划订单，并筛选与所选计划订单具有相同状态的计划订单。
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19151
 ms.assetid: 54123f4c-b4ca-4ce4-9358-b067aa04c968
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27324ae72c4e86718538bc1bc51a6450f6307a6ed957260591cff9c15cb6c486
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4ec4e50d37403107b31117912423b8bbc8ebb35
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757774"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575720"
 ---
 # <a name="maintain-planned-orders"></a>维护计划订单
 

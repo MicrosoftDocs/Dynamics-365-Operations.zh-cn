@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: dba864cd11ab9ae7a4ca4c2e2094cbdd066d9ba9a42ddd7d53eebf72955ec191
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10c0b8b9478c8b31957cc08a1a827461c4621b8a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716436"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574273"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>使用自动下达销售订单合并下达到仓库的装运
 

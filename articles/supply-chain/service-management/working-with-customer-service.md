@@ -1,7 +1,7 @@
 ---
 title: 处理客户服务概览
 description: 客户服务支持专业的、基于服务的公司以及制造服务组织。
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb9331ac4d22f87ca0b2e6f2dcdac1aafe25849bc44e06e7cb2d91b7af125f87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1e88014c34591dad678b9491076f339396fa3822
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745446"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566063"
 ---
 # <a name="work-with-customer-service-overview"></a>处理客户服务概览
 

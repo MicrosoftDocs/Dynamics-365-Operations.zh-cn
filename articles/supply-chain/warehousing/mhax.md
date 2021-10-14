@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 418bca7795e545676a7afe1e9c4b5759d4b55a8ebeaaf3c36378831c55160820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 7e71ca2877effe671723be53e844e8401714038a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769483"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565200"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>物料处理设备接口 (MHAX)
 

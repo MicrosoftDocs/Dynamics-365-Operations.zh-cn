@@ -13,15 +13,15 @@ ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2461db43e0f4e231ac6675791a485e4786f5cb440101c6c0a78965ef98693f4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753316"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571993"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
 

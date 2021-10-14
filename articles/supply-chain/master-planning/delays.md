@@ -1,7 +1,7 @@
 ---
 title: 延迟
 description: 本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 841e3c0546bb7b0b01d02960f785cc3559d31081460e8cdab082104b9dbef8e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e89830feea12b4f5703e0eda622729887dd9bf46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766743"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573745"
 ---
 # <a name="delays"></a>延迟
 

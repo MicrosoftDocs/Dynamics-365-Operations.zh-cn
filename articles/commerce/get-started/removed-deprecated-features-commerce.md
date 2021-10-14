@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386733"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559551"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -36,6 +36,18 @@ ms.locfileid: "7386733"
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 版本中已经删除或弃用的功能
 
 [!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>叠加 Commerce 参数中的折扣处理设置
+
+Commerce 版本 10.0.21 版中已弃用 **Commerce 参数** 页上的 **叠加折扣处理** 设置。 今后，Commerce 定价引擎将使用单个算法来确定叠加折扣的最佳组合。
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | <p>Commerce 参数中的 **叠加折扣处理** 设置控制 Commerce 定价引擎的搜索方式，并确定叠加折扣的最佳组合。 它当前提供了三个选项：<p><ul><li> **最佳性能** - 此选项使用高级启发算法和[边际值排名](../optimal-combination-overlapping-discounts.md)方法，以便及时确定最佳折扣组合的优先级并评估和确定最佳折扣组合。</li><li>**平衡计算** - 在当前代码库中，此选项就像 **最佳性能** 选项一样。 因此，它基本上是重复的选项。</li><li>**详尽计算** - 此选项使用旧算法，该算法在价格计算期间会遍历所有可能的折扣组合。 对于具有大行和大数量的订单，此选项可能会导致性能问题。</li></ul><p>为了帮助简化配置、改进性能和减少由旧算法导致的事件，我们将完全删除 **叠加折扣处理** 设置，并更新 Commerce 定价引擎的内部逻辑，以便它现在仅使用高级算法（即 **最佳性能** 选项背后的算法）。</p> |
+| **被另一个功能取代？**   | 否。 我们建议使用 **平衡计算** 或 **详尽计算** 选项的组织在删除此功能之前切换到 **最佳性能** 选项。 |
+| **影响的产品区域**         | 定价和折扣 |
+| **部署选项**              | 全部 |
+| **状态**                         | 从 10.0.21 版本开始，将在 2022 年 10 月从 Commerce 参数中删除 **叠加扣处理设置**。 |
 
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>使用 Lifecycle Services 分发的 Retail SDK
 
@@ -103,7 +115,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
 | **影响的产品区域**         | 所有 Dynamics 365 产品 |
-| **部署选项**              | 所有|
+| **部署选项**              | 全部|
 | **状态**                         | 已弃用。 2021 年 8 月之后将不再支持 Internet Explorer 11。|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Commerce 10.0.11 版本中已经删除或弃用的功能

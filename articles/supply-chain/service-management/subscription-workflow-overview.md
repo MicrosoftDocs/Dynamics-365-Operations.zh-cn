@@ -1,7 +1,7 @@
 ---
 title: 预订工作流概览
 description: 此主题概要介绍预订工作流。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b0de1100d36f8399caf4cf73c1883f25e61e3c66341eb5419e8350b90d2362e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98591a2bf712cc4df70ab18b5e65b37218d5b709
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779924"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569953"
 ---
 # <a name="subscription-workflow-overview"></a>预订工作流概览 
 

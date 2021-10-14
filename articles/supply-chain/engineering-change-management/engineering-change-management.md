@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
-ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7467414"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568127"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 

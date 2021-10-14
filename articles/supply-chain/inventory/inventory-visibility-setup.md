@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474812"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581857"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>安装和设置库存可见性
 
@@ -35,63 +35,11 @@ ms.locfileid: "7474812"
 
 - 获取至少部署了一个环境的 LCS 实施项目。
 - 确保已满足安装加载项的先决条件。 有关这些先决条件的信息，请参见[加载项概述](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)。 库存可见性不需要双写入链接。
-- 请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性产品团队联系，获取以下必需文件：
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
 
 > [!NOTE]
 > 目前支持的国家和地区包括加拿大（CCA、ECA）、美国（WUS、EUS）、欧盟（NEU、WEU）、英国（SUK、WUK）、澳大利亚（EAU、SEAU）、日本（EJP、WJP）和巴西（SBR、SCUS）。
 
-如果您对这些先决条件有任何疑问，请与库存可视性产品团队联系。
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>设置 Dataverse
-
-若要安装 Dataverse，以使其与库存可见性配合使用，请使用 Package Deployer 工具部署库存可见性包。 以下小节介绍如何完成每个任务。
-
-> [!NOTE]
-> 目前仅支持使用 LCS 创建的 Dataverse 环境。 如果您的 Dataverse 环境是使用其他方法创建的（例如，使用 Power Apps 管理中心创建的），并且其已链接到您的 Supply Chain Management 环境，您必须首先联系库存可见性产品团队解决映射问题。 然后就可以安装库存可见性。
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>从旧版本 Dataverse 解决方案迁移
-
-如果您已安装旧版本的库存可见性 Dataverse 解决方案，请按照以下说明更新您的版本。 分为两种情况：
-
-- **情况 1：** 如果您的 Dataverse 是通过导入 `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip` 解决方案手动安装的，请执行以下步骤：
-
-    1. 下载下面的三个文件：
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. 按照以下步骤将 `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` 和 `InventoryServiceBase_managed.cab` 手动导入 Dataverse 中：
-
-        1. 打开您的 Dataverse 环境的 URL。
-        1. 打开 **解决方案** 页。
-        1. 选择 **导入**。
-
-    1. 使用 Package Deployer 工具部署 `InventoryServiceApplication.PackageDeployer.zip` 包。 有关说明，请参阅本主题后文的[使用 Package Deployer 工具部署包](#deploy-package)部分。
-
-- **情况 2：** 如果您的 Dataverse 是您在安装旧版本 `.*PackageDeployer.zip` 包之前使用 Package Deployer 工具安装的，请下载 `InventoryServiceApplication.PackageDeployer.zip`，然后执行更新。 有关说明，请参阅[使用 Package Deployer 工具部署包](#deploy-package)部分。
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>使用 Package Deployer 工具部署包
-
-1. 按照[从 NuGet 下载工具](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget)中所述安装开发人员工具。
-1. 通过执行以下步骤取消阻止您从 Teams 组下载的 `InventoryServiceApplication.PackageDeployer.zip` 文件：
-
-    1. 选择并按住（或右键单击）文件，然后选择 **属性**。
-    1. 在 **属性** 对话框中的 **常规** 选项卡上，找到 **安全** 部分，选择 **取消阻止**，然后应用更改。 如果 **常规** 选项卡上没有 **安全** 部分，说明未阻止该文件。 在这种情况下，请继续到下一步。
-
-    ![取消阻止下载的文件](media/unblock-file.png "取消阻止下载的文件")
-
-1. 解压缩 `InventoryServiceApplication.PackageDeployer.zip` 以查找以下项：
-
-    - `InventoryServiceApplication` 文件夹
-    - `[Content_Types].xml` 文件
-    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` 文件
-
-1. 将这些项目全部复制到 `.\Tools\PackageDeployment` 目录。 （此目录是您在安装开发人员工具时创建的。）
-1. 运行 `.\Tools\PackageDeployment\PackageDeployer.exe`，然后按照屏幕上的说明导入解决方案。
+如果您对这些先决条件有任何疑问，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可视性产品团队联系。
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>安装库存可见性加载项
 
@@ -102,7 +50,11 @@ ms.locfileid: "7474812"
 1. 登录 [LCS](https://lcs.dynamics.com/Logon/Index)。
 1. 在主页上，选择在其中部署环境的项目。
 1. 在项目页面上，选择要在其中安装加载项的环境。
-1. 在环境页上向下滚动，直到在 **Power Platform 集成** 部分中找到 **环境加载项** 部分。 可以在这里找到 Dataverse 环境名称。
+1. 在环境页上向下滚动，直到在 **Power Platform 集成** 部分中找到 **环境加载项** 部分。 可以在这里找到 Dataverse 环境名称。 确认 Dataverse 环境名称是您要用于库存可见性的名称。
+
+    > [!NOTE]
+    > 目前仅支持使用 LCS 创建的 Dataverse 环境。 如果您的 Dataverse 环境是使用其他方法创建的（例如，使用 Power Apps 管理中心创建的），并且其已链接到您的 Supply Chain Management 环境，您必须首先通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 联系库存可见性产品团队解决映射问题。 然后就可以安装库存可见性。
+
 1. 在 **环境加载项** 部分中，选择 **安装新加载项**。
 
     ![LCS 中的环境页面](media/inventory-visibility-environment.png "LCS 中的环境页面")
@@ -118,6 +70,7 @@ ms.locfileid: "7474812"
 
 1. 通过选中 **条款和条件** 复选框同意条款和条件。
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 在安装完成时，刷新页面。 状态应更改为 **已安装**。
+1. 在 Dataverse 中，在左侧导航中选择 **应用** 部分，并验证是否已成功安装 **库存可见性** Power Apps。 如果 **应用** 部分不存在，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性产品团队联系。
 
 > [!IMPORTANT]
 > 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 只有最后安装的才有效。
@@ -126,13 +79,13 @@ ms.locfileid: "7474812"
 
 若要卸载库存可见性加载项，请在 LCS 页面上选择 **卸载**。 卸载流程终止库存可见性加载项，从 LCS 注销该加载项，并删除存储在库存可见性加载项数据缓存中的所有临时数据。 但是，不删除您的 Dataverse 订阅中存储的主库存数据。
 
-若要卸载您的 Dataverse 订阅中存储的库存数据，请打开 [Power Apps](https://make.powerapps.com)，在导航栏中选择 **环境**，然后选择与您的 LCS 环境绑定的 Dataverse 环境。 然后转到 **解决方案**，并删除下面的五个解决方案：
+若要卸载您的 Dataverse 订阅中存储的库存数据，请打开 [Power Apps](https://make.powerapps.com)，在导航栏中选择 **环境**，然后选择与您的 LCS 环境绑定的 Dataverse 环境。 然后转到 **解决方案**，并按以下顺序删除下面的五个解决方案：
 
-- Dynamics 365 解决方案中适用于库存可见性应用程序的定位点解决方案
-- Dynamics 365 FNO SCM 库存可见性应用程序解决方案
-- 库存服务配置
-- 库存可见性单机版
-- Dynamics 365 FNO SCM 库存可见性基础解决方案
+1. Dynamics 365 解决方案中适用于库存可见性应用程序的定位点解决方案
+1. Dynamics 365 FNO SCM 库存可见性应用程序解决方案
+1. 库存服务配置
+1. 库存可见性单机版
+1. Dynamics 365 FNO SCM 库存可见性基础解决方案
 
 删除这些解决方案之后，也将删除表中存储的数据。
 

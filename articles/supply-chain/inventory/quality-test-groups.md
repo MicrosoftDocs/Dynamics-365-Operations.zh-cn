@@ -1,7 +1,7 @@
 ---
 title: 质量管理测试组
 description: 本主题介绍如何创建测试组，以可以在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单使用多个测试。
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdd7c2eb452d7d34e05d9e067e61d6587e1fd4b67b22723ecef2832501be1eaf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 230e402c322509f3ea89d4f1dccb5555828377ff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774118"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578384"
 ---
 # <a name="quality-management-test-groups"></a>质量管理测试组
 

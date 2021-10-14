@@ -1,7 +1,7 @@
 ---
 title: 供应商协作移动工作区
 description: 此主题提供有关供应商协作移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
-author: kamaybac
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: dabourq
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 21187bbc287c66ca1aee259089b2bebbabb72fdaa459b77359c8c5555b6cd801
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727838"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577016"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 

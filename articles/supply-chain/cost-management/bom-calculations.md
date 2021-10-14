@@ -13,15 +13,15 @@ ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: b4c79115dbe3a38cf4e772f9025f52bbf3b5b350bea4d55dd32e9ad6b01d2cfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a3939d092bcba00aa9dc63c0fe7546beed2041d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779630"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575937"
 ---
 # <a name="bom-calculations"></a>BOM 计算
 

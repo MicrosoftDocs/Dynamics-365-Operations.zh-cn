@@ -1,7 +1,7 @@
 ---
 title: 审核和确认采购订单
 description: 本主题介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
-author: kamaybac
+author: Henrikan
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 580095bacafe74c9e22aba47ca657e1cf42b3c6ae7929478a0d2f8bd241868f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780118"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570529"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 

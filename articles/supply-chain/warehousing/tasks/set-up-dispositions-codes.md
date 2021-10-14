@@ -1,7 +1,7 @@
 ---
 title: 设置处置代码
 description: 此过程在针对可以在移动设备上用于退货单接收流程的处置代码的设置。
-author: ShylaThompson
+author: Mirzaab
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0c7d4a6cc0b8850696f403e21e8dce5e0986c649f7a75d38be02fbee753f9e7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb83108c934e864da0df39ec4ee36a0bc7ba7588
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731737"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574057"
 ---
 # <a name="set-up-dispositions-codes"></a>设置处置代码
 

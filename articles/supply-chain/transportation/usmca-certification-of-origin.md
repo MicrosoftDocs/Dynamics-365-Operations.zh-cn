@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: a84751da6e9303ed9ffe0f0b5aa6c12512e0fa624a5a2e0c7d85ebbffad0669a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 4d34c1778802baaa0de0506d3dd4bc7efeb13f27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726577"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573049"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA 原产地认证
 

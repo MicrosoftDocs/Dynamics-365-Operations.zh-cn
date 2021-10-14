@@ -13,15 +13,15 @@ ms.custom: 53201
 ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1453357649c2617c5daaa1a38af772ae5eeea80adf9f0ab8316e9f46f1a78fb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28597fde8257c6b6518fd52a636354cf2b64b658
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721407"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579800"
 ---
 # <a name="costing-sheets"></a>成本计算单
 

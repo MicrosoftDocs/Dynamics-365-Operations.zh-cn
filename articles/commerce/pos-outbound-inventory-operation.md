@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772270"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581129"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS 中的传出库存操作
 
@@ -116,7 +116,7 @@ POS 用户可通过出站操作执行以下任务：
 
 ### <a name="over-delivery-shipping-validations"></a>超交装运验证
 
-单据行的接收流程中执行验证。 其中包括超交验证。 如果用户尝试接收的库存比采购订单中订购的多，但是未配置超交，或接收的数量超过了为采购订单行配置的超交容差，用户将收到错误，并且不能接收超额数量。
+单据行的履行流程中执行验证。 其中包括超交验证。 如果用户尝试装运的库存比转移单中订购的多，但是未配置超交，或装运的数量超过了为转移单行配置的超交容差，用户将收到错误，并且不能装运超额数量。
 
 ### <a name="underdelivery-close-lines"></a>欠交结束行
 

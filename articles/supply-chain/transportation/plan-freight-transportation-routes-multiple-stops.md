@@ -1,7 +1,7 @@
 ---
 title: 计划具有多个停止点的货运运输路线
 description: 本文介绍用于在 Dynamics 365 Supply Chain Management 中计划运输路线的各种元素。
-author: MarkusFogelberg
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d5c51650bdc1d391d868a353f886e62683c40ba8ec80deeb67191666646dcd1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eff1efd7530c410b392646e39325b58cbd8bcf78
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778522"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571225"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>计划具有多个停止点的货运运输路线
 

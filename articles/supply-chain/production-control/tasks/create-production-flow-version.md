@@ -1,7 +1,7 @@
 ---
 title: 创建生产流版本
 description: 该过程主要讲述创建新的生产流版本。
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4fc158ac70834c5d3b590acbe015cb9200d9f4f99df339bc7c1874a6a74d5f34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b72d6162edd0ae6ccbfdcfe3e63ecff30528454
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751042"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569252"
 ---
 # <a name="create-a-production-flow-version"></a>创建生产流版本
 

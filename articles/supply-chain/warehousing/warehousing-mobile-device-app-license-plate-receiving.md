@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a6bfa77f6d55e3b0a7a678ec552040a47514e4872a0a05e9f6e522eab2a5c11f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735007"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576032"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过仓库管理移动应用的牌照接收
 

@@ -1,7 +1,7 @@
 ---
 title: 缩减预订费用天数
 description: 若要缩减现有预订费用的天数，可以创建一个新的交易记录，从中您删除不应继续作为预订费用间隔的一部分的时段。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4ea4a70749d75ce5f894bcf3a3adfe7c2077e368c18679bf3169c74feef25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df1a27576b93c4ace4a5f17271595d259e96a51a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726625"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573217"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>缩减预订费用天数 
 

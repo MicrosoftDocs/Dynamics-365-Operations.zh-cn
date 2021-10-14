@@ -1,7 +1,7 @@
 ---
 title: 将库存转移和调整从 Field Service 同步到 Supply Chain Management
 description: 本主题讨论用于将 Dynamics 365 Supply Chain Management 中的库存调整和转移同步到 Dynamics 365 Field Service 的模板和基础任务。
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717883"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566375"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>将库存转移和调整从 Field Service 同步到 Supply Chain Management
 
@@ -72,12 +72,12 @@ Field Service 中进行的库存调整和转移将在 **过帐状态** 从 **已
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>库存调整（Field Service 到 Supply Chain Management）：库存调整
 
-[![数据集成中的模板映射。](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![数据集成中的模板映射，库存调整（Field Service 到 Supply Chain Management）：库存调整。](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>库存转移（Field Service 到 Supply Chain Management）：库存转移
 
-[![数据集成中的模板映射。](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![数据集成中的模板映射，库存转移（Field Service 到 Supply Chain Management）：库存转移。](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

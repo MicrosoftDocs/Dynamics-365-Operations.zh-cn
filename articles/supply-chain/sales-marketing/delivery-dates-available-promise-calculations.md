@@ -1,7 +1,7 @@
 ---
 title: 订单承诺
 description: 本主题提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
-author: ShylaThompson
+author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8317362a67b1b7e63f340b4badb722b28ea20709edc35bbbddef0d0e7a3e1b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711727"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572593"
 ---
 # <a name="order-promising"></a>订单承诺
 

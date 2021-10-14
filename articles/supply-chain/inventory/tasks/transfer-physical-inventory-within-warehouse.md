@@ -1,7 +1,7 @@
 ---
 title: 转移仓库内的实际库存
 description: 该过程向您介绍创建和过帐库存转移日记帐，以登记物料在仓库内的库位转移。
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557187d0c9f322729bbdd707525e18b54df34cd27aeed09adf4820e3c3d0f3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cf5a3711cfcd6e5a2ddce09af8569ea26c3502c8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754003"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580784"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>转移仓库内的实际库存
 

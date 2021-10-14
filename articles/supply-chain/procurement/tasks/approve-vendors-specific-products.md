@@ -1,7 +1,7 @@
 ---
 title: 审核特定产品的供应商
 description: 此过程显示如何审核特定产品的供应商。
-author: kamaybac
+author: Henrikan
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10b0397016bfb03dfc59a09f0b36ea1c87b6a75981609733dfbeb48d89637904
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c4c48bfbcc3fb64bae66fe3cfef1d55d15049bb9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760458"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575427"
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 

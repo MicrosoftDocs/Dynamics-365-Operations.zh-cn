@@ -1,7 +1,7 @@
 ---
 title: 配置链接的产品
 description: 此程序会逐步演示如何配置链接产品。
-author: ShylaThompson
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf4789a3ff05b9ae892af4aaa6eead08db8de957315aeed34059294b1a85619d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac45df682da7903517659994db8f51f2ab83453
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759471"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568463"
 ---
 # <a name="configure-linked-products"></a>配置链接的产品
 

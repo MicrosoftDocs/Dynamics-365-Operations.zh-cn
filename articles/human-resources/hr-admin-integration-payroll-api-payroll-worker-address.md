@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761966"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559501"
 ---
 # <a name="payroll-worker-address"></a>工资单工作人员地址
 
@@ -36,20 +36,26 @@ ms.locfileid: "6761966"
 
 | 属性</br>**物理名称**</br>**_类型_** | 使用 | 说明 |
 | --- | --- | --- |
-| **市**</br>mshr_city</br>*字符串* | 只读</br>必填 | 针对地址定义的城市。   |
-| **人员编号**</br>mshr_personnelnumber</br>*字符串* | 只读</br>必填 | 员工的唯一人员编号。  |
-| **国家/地区**</br>mshr_countryregionid</br>*字符串* | 只读</br>必填 | 针对地址定义的国家/地区。  |
-| **生效日期**</br>mshr_postaladdressvalidfrom</br>*日期/时间偏移* | 只读 </br>必填 | 地址有效的开始日期。 |
-| **工作地址** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes 选项集](hr-admin-integration-payroll-api-no-yes.md)* | 只读</br>必填 | 表示地址是否是员工的工作地址。 |
-| **县**</br>mshr_county</br>*字符串* | 只读</br>必填 | 针对地址定义的县。  |
-| **工资单工作人员地址 ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | 必填</br>系统生成的 | 系统生成的用于唯一标识地址的 GUID 值。  |
-| **主要字段**</br>mshr_primaryfield</br>*字符串* | 只读</br>必填 |  |
-| **街道**</br>mshr_street</br>*字符串* | 只读</br>必填 | 针对地址定义的街道。 |
-| **失效日期**</br>mshr_postaladdressvalidto</br>*日期/时间偏移* | 只读 </br>必填 | 地址有效的结束日期。  |
-| **位置 ID**</br>mshr_locationidbr>*String* | 只读 <br>必填 | 地址的 ID。  |
-| **邮政编码**</br>mshr_zipcode<br>*字符串* | 只读 <br>必填 |针对员工定义的标识号。  |
-| **家庭地址**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes 选项集](hr-admin-integration-payroll-api-no-yes.md)* | 只读</br>必填 | 表示地址是否是员工的家庭地址。 |
-| **州或省/自治区/直辖市**</br>mshr_state</br>*字符串* | 只读</br>必填 | 针对地址定义的省/自治区/直辖市。  |
+| **人员编号**</br>mshr_personnelnumber</br>*字符串* | 只读 | 员工的唯一人员编号。 |
+| **位置 ID**</br>mshr_locationidbr>*String* | 只读 | 地址的 ID。 |
+| **家庭地址**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes 选项集](hr-admin-integration-payroll-api-no-yes.md)* | 只读 | 一个指示地址是否为员工居住地的值。 |
+| **工作地址** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes 选项集](hr-admin-integration-payroll-api-no-yes.md)* | 只读 | 一个指示地址是否为员工工作场所的值。 |
+| **国家/地区**</br>mshr_countryregionid</br>*字符串* | 只读</br>必需 | 为地址定义的国家或地区。 |
+| **邮政编码**</br>mshr_zipcode<br>*字符串* | 只读 | 针对员工定义的标识号。 |
+| **街道**</br>mshr_street</br>*字符串* | 只读 | 针对地址定义的街道。 |
+| **城市**</br>mshr_city</br>*字符串* | 只读 | 针对地址定义的城市。 |
+| **州或省/自治区/直辖市**</br>mshr_state</br>*字符串* | 只读 | 为地址定义的省/市/自治区。 |
+| **县**</br>mshr_county</br>*字符串* | 只读 | 针对地址定义的国家/地区。 |
+| **生效日期**</br>mshr_postaladdressvalidfrom</br>*日期/时间偏移* | 只读 | 地址生效的开始日期。 |
+| **失效日期**</br>mshr_postaladdressvalidto</br>*日期/时间偏移* | 只读 | 地址有效的结束日期。 |
+| **主要字段**</br>mshr_primaryfield</br>*字符串* | 只读 | 主要字段。 |
+| **工资单工作人员地址 ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | 系统生成的 | 系统生成的用于唯一标识地址的全局唯一标识符 (GUID) 值。 |
+
+## <a name="relations"></a>关系
+
+| 属性值 | 相关实体 | 导航属性 | 集合类型 |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>示例查询
 

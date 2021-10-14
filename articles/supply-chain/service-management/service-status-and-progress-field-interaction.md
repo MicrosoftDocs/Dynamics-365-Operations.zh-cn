@@ -1,7 +1,7 @@
 ---
 title: 服务状态和进度字段交互
 description: 在“服务订单”窗体中，标题上的“进度”字段反映整个服务订单的状态，而“状态”报告各个服务订单行的状态。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,26 +15,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210ff82a904e9657d9808a0994c70683e9126622d279aae94e946be0c4f484c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0758c370fd1548770d596115b18f133071f3bbc0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756044"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566087"
 ---
-# <a name="service-status-and-progress-field-interaction"></a>服务状态和进度字段交互 
+# <a name="service-status-and-progress-field-interaction"></a>服务状态和进度字段交互
 
 [!include [banner](../includes/banner.md)]
-
 
 在 **服务订单** 窗体中，服务订单标题上的 **进度** 字段反映整个服务订单的状态，而 **状态** 报告各个服务订单行的状态。
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,14 +83,8 @@ ms.locfileid: "6756044"
 </tbody>
 </table>
 
-
 如果所有行都具有 **已创建** 状态，则服务订单的进度为进行中。如果有些行具有 **已取消** 状态或 **已过帐** 状态，则其进度仍为进行中。
 
 如果服务订单中的所有行都标记为 **已过帐**，则状态订单的进度为 **已过帐**。 如果有些行的状态为 **已过帐**，而有些行的状态为 **已取消**，则进度仍为 **已过帐**。
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

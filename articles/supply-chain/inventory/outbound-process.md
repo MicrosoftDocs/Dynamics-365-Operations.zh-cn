@@ -1,7 +1,7 @@
 ---
 title: 出站流程概览
 description: 此主题概要介绍了库存管理中的出库流程。
-author: perlynne
+author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: fa80610f35bd46ed130a99abd4448ab51ac6ccfd3fb77f55dbbab0cd1734446d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27043828b44cf532d0d8d5091324ba30f3f90cf8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780618"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578504"
 ---
 # <a name="outbound-process-overview"></a>出站流程概览
 

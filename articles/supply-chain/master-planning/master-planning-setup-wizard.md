@@ -1,7 +1,7 @@
 ---
 title: 主计划设置向导
-description: 此主题介绍用于设置主计划的各种重要策略和参数。
-author: t-benebo
+description: 本主题介绍如何运行主计划设置向导以设置主计划。
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767452"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577496"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 
@@ -142,7 +142,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
     - **问题**：“是否要指定计划区间的天数？”
     - **回答**：“是，按照覆盖范围组中的定义。”
 
-    因为物料的提前期相差很大，所以 Contoso 不必将所有物料计划在将来的同一个期间。 将为物料创建覆盖范围组。 将把提前期相似的物料分派给同一个覆盖范围组。 每个覆盖范围组的计划区间（即覆盖时限）大致为提前期加一周的差额。 然后，主计划确保根据其提前期提前计划物料。
+    因为物料的提前期相差很大，所以 Contoso 不必将所有物料安排在将来的同一个期间。 将为物料创建覆盖范围组。 将把提前期相似的物料分派给同一个覆盖范围组。 每个覆盖范围组的计划区间（即覆盖时限）大致为提前期加一周的差额。 然后，主计划确保根据其提前期提前计划物料。
 
     因此，将为此示例创建两个覆盖范围组。 一个覆盖范围组的覆盖时限为两周，另一个的覆盖时限为八周。
 
@@ -153,7 +153,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
     - **问题**：“是否需要计划拆分为单个作业的工序?”
     - **回答**：“是。”
 
-    Contoso Manufacturing 必须计划和安排将对车间执行的单独作业。 因此，将使用作业级排产。
+    Contoso Manufacturing 必须计划和安排将对车间执行的单个作业。 因此，将使用作业级排产。
 
 - **产能：**
 
@@ -180,7 +180,7 @@ Contoso Manufacturer 是一家生产扬声器的制造公司。 该公司从大�
 
 Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计划，基于预测销量计算应在何时下达采购订单。 下面是该公司的部分特征：
 
-- Contoso Retailer 使用需求预测来预测销量。 将根据此预测计划采购订单。
+- Contoso Retailer 使用需求预测预测销量。 将根据此预测计划采购订单。
 - 商店使用补货申请。
 - 从主仓库到每家商店的提前期为所有物料大约两周。
 
@@ -191,14 +191,14 @@ Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计�
     - **问题**：“是否要在主计划中使用预测计划以便建议计划订单来满足预测的需求?”
     - **回答**：“是，按照此主计划中的定义”。
 
-    Contoso 包括一个需求预测，用于预测其销量。 因此，主计划必须推荐计划订单以实现预测。
+    Contoso 中有一个需求预测，用于预测其销量。 因此，主计划必须推荐计划订单以实现预测。
 
 - **确认：**
 
     - **问题**：“是否希望主计划自动将计划订单确认到订单单据(例如生产或采购订单)?”
     - **回答**：“是，按照此主计划中的定义”。 输入了 **1 天**。
 
-    因为 Contoso Retailer 将直接从计划采购订单创建采购订单，因此如果自动确认计划采购订单，这非常有用。 因为公司每天运行主计划，所以一天的确认时限将自动确认下一天需要的所有订单。
+    因为 Contoso Retailer 将直接从计划采购订单创建采购订单，所以如果自动确认计划采购订单，这非常有用。 因为公司每天运行主计划，所以一天的确认时限将自动确认下一天需要的所有订单。
 
 - **已审核的申请：**
 

@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 41f2550ff22b838aa5d85022582fd9715917fe462aa34dbfc833941f5ada3325
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717382"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581024"
 ---
 # <a name="cost-calculation-level"></a>成本计算级别
+
+[!include [banner](../includes/banner.md)]
 
 名为 **成本计算级别** 的物料清单 (BOM) 级别从计算中排除生产订单和批次订单。 系统在成本核算版本中运行成本计算时将使用此级别。 在重新计算和库存结转等流程中，系统改用 **成本核算级别** 物料清单级别。
 

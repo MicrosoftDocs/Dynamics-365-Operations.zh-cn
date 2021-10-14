@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f32c3fd523c3272665b4b45b6d3e136591d12cda191766970ebfaf74b81f0558
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726845"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567311"
 ---
 # <a name="coverage-time-fences"></a>覆盖时限
+
+[!include [banner](../../includes/banner.md)]
 
 本主题介绍使用计划优化时如何设置 *覆盖时限*。 计划者可以定义计划范围（以天为单位的覆盖时限），并可以排除超出该范围的供应和需求。 因此，覆盖时限可以帮助在几个月内阻止您无需作出反应的供应建议引起的“噪音”。 例如，下一年的预测和距离正常提前期还有很长时间的客户订单。
 

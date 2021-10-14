@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 6332b4b15b277faca506da4ea67fcc3ddb9799153a6fe73a711050ab93bdf565
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782459"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570169"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>设计生产车间执行界面
 

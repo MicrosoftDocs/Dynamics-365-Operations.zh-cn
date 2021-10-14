@@ -1,7 +1,7 @@
 ---
 title: 设置服务订单阶段
 description: 设置服务订单阶段。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e32687165fe7b81571f0103a7afa2bbae7cacb57b369d280e4cd544a561dd70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf05b86fe0fd08c72351ea753a97d36604a55ac9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731167"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580280"
 ---
 # <a name="set-up-service-order-stages"></a>设置服务订单阶段 
 

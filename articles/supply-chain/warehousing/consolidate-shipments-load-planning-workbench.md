@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2dda45f475f0119b202008f6f8d95c8ccc59a1e63108dbd766a49b3551cdf778
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720100"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577880"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>通过从装载计划工作台下达到仓库合并装运
 

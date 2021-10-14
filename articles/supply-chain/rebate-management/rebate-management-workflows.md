@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: fe0b367ecabb5267204fbeb800c9acc6b396af3ff551752bb121d49dec63ac5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756887"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576656"
 ---
 # <a name="rebate-management-deal-workflows"></a>返点管理交易工作流
 

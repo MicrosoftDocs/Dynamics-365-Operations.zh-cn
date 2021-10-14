@@ -1,7 +1,7 @@
 ---
 title: 混合模式计划 - 合并不同的流程和精益采购
 description: 文主题提供有关混合模式计划的信息。
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4c9c7d244e7709491cfa97283a9ea0a33914817e3f6d69923d4910796f276d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759447"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566759"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 

@@ -1,7 +1,7 @@
 ---
 title: 创建提款看板规则
 description: 此过程显示在精益环境中创建转移物料的提领看板规则所需的设置。
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 111e74b4408c91a884add39e8556aeef2c0d65ba7e5fa64f76da957162627966
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba30e9d09e9eeb0cd7428aafc1195d6b7e7caaa4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780522"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574465"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>创建提款看板规则
 

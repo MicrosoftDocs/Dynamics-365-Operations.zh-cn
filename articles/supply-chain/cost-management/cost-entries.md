@@ -13,15 +13,15 @@ ms.custom: 19131
 ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c03a059aa3491f3f42a1a7ce67cff56e67314edaebbcbe8a766fe769ee06ae88
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e2dd7375daf0d33ff61b870fecfdaa44dd0838
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781992"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575912"
 ---
 # <a name="cost-entries"></a>成本条目
 

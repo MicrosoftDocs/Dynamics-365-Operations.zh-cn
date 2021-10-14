@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4286f72f9aed1b4dd91e7c45203cfab2af43f3c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500575"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571945"
 ---
 # <a name="product-readiness"></a>产品准备情况
 

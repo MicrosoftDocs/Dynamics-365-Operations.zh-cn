@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: aca03e3fda4405fa6fe2b427a47066af5bb95b644b7f5b47d22736347208a8bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: a606f413bf3660a89270c0751b2656fab07cd80d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751617"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575984"
 ---
 # <a name="wave-templates"></a>波次模板
 

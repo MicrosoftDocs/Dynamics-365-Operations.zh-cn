@@ -1,8 +1,8 @@
 ---
 title: 现金流量预测
 description: 此主题提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779438"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547947"
 ---
 # <a name="cash-flow-forecasting"></a>现金流量预测
 
@@ -83,7 +83,10 @@ ms.locfileid: "6779438"
 
 ### <a name="budgeting"></a>预算编制
 
-现金流量预测中可以包括从预算模型创建的预算。 在 **现金流量预测设置** 页的 **预算** 选项卡上，选择要包括在预测中的预算模型。 默认情况下，为现金流量预测启用预算模型后，在预测中包括新预算登记分录。 可以在各个预算登记分录上覆盖包括在现金流量预测中。
+现金流量预测中可以包括从预算模型创建的预算。 在 **现金流量预测设置** 页的 **预算** 选项卡上，选择要包括在预测中的预算模型。 默认情况下，为现金流量预测启用预算模型后，在预测中包括新预算登记分录。
+
+预算登记条目可以通过个性化操作单独包含在现金流量预测中。 当您将“包含在现金流量预测中”列添加到 **预算登记条目** 页时，系统将覆盖 **现金流量预测设置** 页面上的设置，以便在预测中包括单个预算登记条目。
+
 
 ### <a name="inventory-management"></a>库存管理
 
@@ -144,7 +147,7 @@ ms.locfileid: "6779438"
 
 **现金概览 – 当前公司** 工作区以公司定义的会计币种显示现金流量预测分析。 用于分析的记帐币种在 **分类帐** 页上进行定义。 此工作区显示当前公司的现金流量预测和银行帐户余额概览。 现金流入和流出图表提供未来现金移动和记帐币种的余额的概览，以及关于预测交易记录的详细信息。 您还可以看到预测币种余额。
 
-有关现金流预测分析的详细信息，请参阅[现金概览 Power BI 内容](./cash-overview-power-bi-content.md)主题。
+有关现金流量预测分析的详细信息，请参阅[现金概览 Power BI 内容](Cash-Overview-Power-BI-content.md)。
 
 此外，您还可以在以下页面上查看特定帐户、订单和物料的现金流量预测数据：
 

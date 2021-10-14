@@ -1,7 +1,7 @@
 ---
 title: 将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
 description: 本主题说明如何将 Microsoft Dynamics 365 Supply Chain Management 中的资产管理模块与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。
-author: kamaybac
+author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94d98aa011d0db3991c14596f5d6bdecc0fb6c831915ae124f623fa57277fcfe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721527"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568247"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
+
+[!include [banner](../includes/banner.md)]
 
 您可以将 Microsoft Dynamics 365 Supply Chain Management 中的 **资产管理模块** 与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。 如果指南与资产管理工作订单相关联，则在 Supply Chain Management (Dynamics 365) 移动应用中打开工作订单的维护清单的工作人员会发现指南可用。 然后，工作人员可以在 Dynamics 365 Guides HoloLens 应用中查找并打开该指南。
 

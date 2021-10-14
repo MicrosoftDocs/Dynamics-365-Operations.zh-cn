@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d462427b85e12a45058a2fdea7901a83d9e85e5a562376dd438c69dec1ee8948
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39c3fecf9250ee89c22003d5dff4ea662c3042e3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769363"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572977"
 ---
 # <a name="configure-wave-processing-example"></a>配置波次处理示例
 

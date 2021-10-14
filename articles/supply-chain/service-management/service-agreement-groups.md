@@ -1,7 +1,7 @@
 ---
 title: 服务协议概览
-description: 服务协议组用于对服务协议进行排序和筛选。
-author: ShylaThompson
+description: 本主题概述了服务协议的工作原理。
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3baaccf490af8231ca4389fa409b71f6286ff8d37bdcde78d8af95916d55cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734083"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578696"
 ---
 # <a name="service-agreements-overview"></a>服务协议概览
 
@@ -32,9 +32,9 @@ ms.locfileid: "6734083"
 
 ## <a name="example"></a>示例
 
--  您可以根据提供的服务级别对服务协议进行分组。 
--  您在公司中设置了三个协议组，即金牌、银牌和铜牌。
--  新的服务帐户经理在您的公司中已雇用。 服务经理负责与金牌协议组中的所有客户交易。 您可以筛选金牌协议组上的协议记录，以便找到您必须将新的服务经理指定为其负责人的所有协议。
+- 您可以根据提供的服务级别对服务协议进行分组。
+- 您在公司中设置了三个协议组，即金牌、银牌和铜牌。
+- 新的服务帐户经理在您的公司中已雇用。 服务经理负责与金牌协议组中的所有客户交易。 您可以筛选金牌协议组上的协议记录，以便找到您必须将新的服务经理指定为其负责人的所有协议。
 
 ## <a name="related-topics"></a>相关主题
 

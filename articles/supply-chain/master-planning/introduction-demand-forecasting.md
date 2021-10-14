@@ -1,7 +1,7 @@
 ---
 title: 需求预测概览
 description: 需求预测用于从销售订单预测无关需求并从客户订单的任何解耦点预测相关需求。 增强型需求预测缩减规则为批量自定义提供了一个理想的解决方案。
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 980001dda67e96ab3f428ad60cb7951dd5de4d0c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484041"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571009"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 

@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12e5cc0bec937df45a3930aabeca0011723960e5532088c69a11074cf2d046a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780862"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577760"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 

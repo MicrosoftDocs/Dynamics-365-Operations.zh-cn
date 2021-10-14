@@ -1,7 +1,7 @@
 ---
 title: 使用阶段原因代码
 description: 使用原因代码指示服务级别协议 (SLA) 已取消的原因，或者服务订单超出您在 SLA 中定义的时限的原因。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2e823a2e015c4bf22da8eff94e2bc85c813c03b5bb744aa4ce52c95dcaff898
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac825fe96ee69491953bd50c758dde42744cea85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753834"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573145"
 ---
 # <a name="use-stage-reason-codes"></a>使用阶段原因代码 
 

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 6302d596245e058ae0c25fbd91333dbf050e21db5b48f6893131ec1a561e046d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768538"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567671"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>为仓库交易配置产品筛选器
 
