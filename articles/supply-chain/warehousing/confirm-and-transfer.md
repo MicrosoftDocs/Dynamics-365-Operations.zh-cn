@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767943"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592620"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 
@@ -45,8 +45,8 @@ ms.locfileid: "6767943"
 
 - 一个或多个负荷行具有已领料数量。
 - 负荷状态为低于已装载数量。
-- 无负荷行数据。 （此数据通过在暂存阶段合并牌照创建，而 *确认并转移* 功能不支持合并牌照。）
-- 包装货位现在没有任何库存在等待包装。 （*确认并转移* 功能不支持已领到打包站但尚未打包的库存。）
+- 无负荷行数据。 （此数据通过在暂存阶段合并牌照创建，而确认并转移功能不支持合并牌照。）
+- 包装货位现在没有任何库存在等待包装。 （*确认并转移* 功能不支持已领料到装箱工作站但尚未包装的库存，除非已包装的集装箱放在已创建装载工作的暂存库位。）
 
 > [!NOTE]
 > 此功能与运输负荷功能不同，后者在领料前不可计划和创建负荷，但是领料完成后使用可用运输空间装运的仓库中使用。

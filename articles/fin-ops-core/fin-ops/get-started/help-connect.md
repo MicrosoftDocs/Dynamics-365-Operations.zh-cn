@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343804"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594849"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>配置 Finance and Operations 应用的帮助体验
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343804"
 
 ## <a name="help-architecture"></a>帮助体系结构
 
-Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/dynamics365](/dynamics365/) 站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
+Finance and Operations 应用中包含已发布到 [Microsoft Dynamics 365 文档](/dynamics365/)站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
 
 [![帮助体系结构。](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/d
 ## <a name="adding-task-guides"></a>添加任务指南
 
 > [!NOTE]
-> Human Resources 或 Commerce 中现在无 **任务指南** 选项卡。 <!--We are currently working to enable this functionality in a future release.--> 但是，Human Resources 中的入门中的任务指南体验可用，以涵盖基本功能。 [https://docs.microsoft.com/dynamics365](/dynamics365/) 站点中提供 Human Resources 和 Commerce 的过程帮助。
+> Human Resources 或 Commerce 中现在无 **任务指南** 选项卡。 <!--We are currently working to enable this functionality in a future release.--> 但是，Human Resources 中的入门中的任务指南体验可用，以涵盖基本功能。 [Microsoft Dynamics 365 文档](/dynamics365/)站点中提供 Human Resources 和 Commerce 的过程帮助。
 
 系统管理员可在 **系统参数** 页中配置对实施的相关任务指南库的访问。
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768433"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594976"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
 
@@ -90,7 +90,7 @@ ms.locfileid: "6768433"
 
 您现在可以将 **报表** 自定义 XML 部件的元素映射到 Word 文档的内容控件。
 
-如果您熟悉此流程：将 Word 文档设计为包含映射到[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)的元素的[内容控件](/office/client-developer/word/content-controls-in-word)的表单，请完成下一个过程中的所有步骤来创建文档。 有关详细信息，请参阅[在 Word 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b)。 否则，请跳过下一个过程。
+如果您熟悉此流程：将 Word 文档设计为包含映射到[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview)的元素的[内容控件](/office/client-developer/word/content-controls-in-word)的表单，请完成下一个过程中的所有步骤来创建文档。 有关详细信息，请参阅[在 Word 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b)。 否则，请跳过下一个过程。
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>获取具有自定义 XML 部件的 Word 文档并进行数据映射
 

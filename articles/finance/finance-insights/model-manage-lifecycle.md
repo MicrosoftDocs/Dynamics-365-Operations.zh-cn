@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386330"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594823"
 ---
 # <a name="model-management-lifecycle"></a>模型管理生命周期
 
@@ -32,4 +32,4 @@ ms.locfileid: "7386330"
 
 由于 AI 模型基于可用的发票和客户数据，因此沙盒环境具有生产数据的最新副本非常重要。 您可以按照[使用客户付款预测](use-customer-payment-predictions.md)中的步骤开始训练您的模型。 重新训练模型后，按[评估初始客户付款预测模型](evaluate-payment-prediction.md)中所述评估结果。 使用[改进预测模型](improve-model.md)中的信息试验有助于改进模型的功能和筛选器组合。
 
-当您对训练结果感到满意时，请按照[分配您的 AI 模型](https://docs.microsoft.com/ai-builder/distribute-model)中的步骤将模型转换到您的生产环境。
+当您对训练结果感到满意时，请按照[分配您的 AI 模型](/ai-builder/distribute-model)中的步骤将模型转换到您的生产环境。

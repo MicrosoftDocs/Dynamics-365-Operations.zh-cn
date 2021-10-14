@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733677"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595378"
 ---
 # <a name="create-new-users"></a>创建新用户
 
@@ -29,7 +29,7 @@ ms.locfileid: "6733677"
 有关如何购买 Finance and Operations 应用和获得许可的信息，请参阅 [Microsoft Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409)。
 
 ## <a name="assign-a-license-to-a-user"></a>向用户分配许可证
-系统管理员可以在 [Microsoft 365 管理中心](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)[向用户分配许可证](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。
+系统管理员可以在 [Microsoft 365 管理中心](/office365/admin/admin-overview/about-the-admin-center)[向用户分配许可证](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>在 Azure AD 中添加外部用户并分配许可证 
 外部用户必须在您的租户目录 (Azure Active Directory (Azure AD)) 中出现，才可以为他们分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 Finance and Operations 应用的要求是，来宾用户的公司必须使用 Azure AD。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](/azure/active-directory/b2b/add-users-administrator)。
