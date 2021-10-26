@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: 关联退款
                   href: dev-itpro/linked-refunds.md
+                - name: 使用面向 Adyen 的 Dynamics 365 Commerce Payment Connector 处理非关联退款
+                  href: dev-itpro/unlinked-refunds.md
                 - name: 销售和退回未包含在商店的分类中的产品
                   href: sell-return-outside-assortments.md
                 - name: 配置和处理有关退货单的交换

@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: 财务报告中的货币功能
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: 财务报告中的留存收益计算
+              href: general-ledger/retained-earnings-enhancements.md
             - name: 资产负债表财务报表
               href: general-ledger/balance-sheet-financial-reports.md
             - name: 生成财务报表

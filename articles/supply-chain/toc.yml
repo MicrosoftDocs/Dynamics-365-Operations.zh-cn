@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: 创建新的贸易协议
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: 销售历史记录清理性能改进
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: 服务管理
           items:
             - name: 服务管理概览
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: 销售和市场营销
               items:
+                - name: 销售更新历史记录清理作业失败或存在性能问题
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: 内部公司流程不支持捆绑物料
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: 无法取消链接到销售订单的内部公司采购订单

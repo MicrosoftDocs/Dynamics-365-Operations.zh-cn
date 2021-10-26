@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733603"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605271"
 ---
 # <a name="financial-reporting-faq"></a>财务报告常见问题解答
 
@@ -101,5 +101,28 @@ USMF 演示公司有一个 **资产负债表** 报表，并非所有财务报告
 更新报表上显示的数据时，可能会出现延迟，因为必须通过检查交易详细信息来重新计算金额。 每次更新利率或过帐更多交易时，都会触发此延迟。 例如，如果每天多次设置数千个帐户进行历史转换，可能在经历长达一小时的延迟后，报告上的数据才会更新。 但是，如果特定帐户的数量较少，则更新报表数据所需的处理时间可以缩短至数分钟或更少。
 
 同样，当使用历史类型帐户的货币转换生成报表时，将需要对每笔交易进行额外的计算。 根据帐户数，报表生成所需时间可能延长一倍以上。
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>估计的数据市场集成间隔是多久？
+
+Financial Reporter 使用 16 个任务将数据从 Dynamics 365 Finance 复制到 Financial Reporter 数据库。 下表列出了这 16 个任务，并显示指定每个任务的运行频率的间隔。 间隔无法更改。
+
+| 名称                                                       | 间隔 | 间隔计时单位 |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 科目类别到科目类别            | 41       | 分钟         |
+| AX 2012 帐户到帐户                                | 7        | 分钟         |
+| AX 2012 公司到公司                               | 300      | 秒         |
+| AX 2012 公司到组织                          | 23       | 分钟         |
+| AX 2012 维度组合到维度组合    | 1        | 分钟         |
+| AX 2012 维度值到维度值                | 11       | 分钟         |
+| AX 2012 维度到维度                            | 31       | 分钟         |
+| AX 2012 汇率到汇率                    | 17       | 分钟         |
+| AX 2012 会计年度到会计年度                        | 13       | 分钟         |
+| AX 2012 总帐交易到事实                | 1        | 分钟         |
+| AX 2012 组织层次结构到树                   | 3,600    | 秒         |
+| AX 2012 方案到方案                              | 29       | 分钟         |
+| AX 2012 交易类型限定符到事实类型限定符 | 19       | 分钟         |
+| 维护任务                                           | 1        | 分钟         |
+| MR 报表定义到 AX7 财务报表             | 45       | 秒         |
+| MR 报表版本到 AX 财务报表版本         | 45       | 秒         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
