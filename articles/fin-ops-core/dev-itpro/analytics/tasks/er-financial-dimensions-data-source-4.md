@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743205"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605297"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER 将财务维度用作数据源（第 4 部分 - 运行报表）
 
@@ -37,16 +37,16 @@ ms.locfileid: "6743205"
 ![ER 配置页面。](../media/er-financial-dimensions-guides-run1.png)
 5. 在“维度名称”字段中，输入或选择一个值。
     * 若要选择当前公司中的所有维度，请输入以下信息：BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![ER 配置页面。](../media/er-financial-dimensions-guides-run2.png)
+![电子报表参数滑出，维度名称下拉列表。](../media/er-financial-dimensions-guides-run2.png)
 6. 扩展“要包括的记录”部分。
 7. 单击“筛选器”。
 8. 选择“分类日记帐”表和“日记帐批号”字段的行。
 9. 在“标准”字段中，键入“00057”。
 10. 单击“确定”。
 11. 单击“确定”。
-![ER 配置页面。](../media/er-financial-dimensions-guides-run3.png)
+![电子报表参数滑出，“要包括的报表”部分。](../media/er-financial-dimensions-guides-run3.png)
     * 检查生成的输出。 设置的相应维度中的财务维度表示所选批次的每个交易。 运行此报表并选择不同维度，以便了解该报表不依赖所选维度数量或为此实例配置的维度数量。  
-![ER 配置页面。](../media/er-financial-dimensions-guides-run4.png)
+![电子报告配置生成的输出。](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

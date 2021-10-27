@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488075"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644519"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -49,7 +49,7 @@ ms.locfileid: "7488075"
 在创建 Human Resources 试用环境时，还将在租户上创建 Power Apps 试用环境并链接到 Human Resources 环境。 Power Apps 环境的名称为“TestDrive”，其试用期与 Human Resources 环境相同。
 
 > [!NOTE]
-> 如果经过身份验证的用户无权创建 Power Apps 试用环境，则设置 Human Resources 试用环境将失败 。 该用户必须属于可在 Power Platform 管理中心中创建试用环境的用户组。 有关详细信息，请参阅[控制谁可以在 Power Platform 管理中心中创建和管理环境](//power-platform/admin/control-environment-creation)。
+> 如果经过身份验证的用户无权创建 Power Apps 试用环境，则设置 Human Resources 试用环境将失败 。 该用户必须属于可在 Power Platform 管理中心中创建试用环境的用户组。 有关详细信息，请参阅[控制谁可以在 Power Platform 管理中心中创建和管理环境](/power-platform/admin/control-environment-creation)。
 
 ## <a name="plan-human-resources-environments"></a>计划 Human Resources 环境
 

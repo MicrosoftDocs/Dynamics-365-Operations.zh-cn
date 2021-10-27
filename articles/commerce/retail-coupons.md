@@ -1,8 +1,8 @@
 ---
 title: 设置零售销售优惠券
-description: 此主题提供优惠券概览并阐述如何进行设置。
-author: scott-tucker
-ms.date: 06/04/2020
+description: 此主题提供优惠券概览并阐述如何在 Dynamics 365 Commerce 中设置优惠券。
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745300"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603115"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
@@ -40,6 +40,8 @@ ms.locfileid: "6745300"
 > 优惠券关联到折扣后，Commerce 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
 > 
 > 在呼叫中心渠道中使用优惠券时，您需要选择 **重新计算** 按钮 **（“销售”选项卡 > 计算 > 重新计算）**，以便应用关联到优惠券的折扣。 此附加步骤将在以后的版本中删除。
+
+若要将优惠券应用于销售点 (POS) 中的销售交易，您可以使用 **优惠券代码** 或 **优惠券条码**。 要使用 **优惠券代码**，必须在 POS **交易**[屏幕布局](pos-screen-layouts.md)中配置 **添加优惠券代码** 操作。 选择 **添加优惠券代码** 并输入优惠券代码。 或者，要使用 **优惠券条码**，请扫描条码或使用 **交易** 屏幕上的数字键盘输入条码。
 
 ### <a name="limited-use-coupons"></a>有限使用的优惠券
 

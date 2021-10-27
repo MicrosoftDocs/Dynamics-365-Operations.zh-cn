@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724409"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605323"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>从 Configuration service 的全局知识库下载 ER 配置
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724409"
     > [!NOTE]
     > **导入** 按钮对当前 Finance 实例中已呈现的 ER 配置版本不可用。
 
-    ![配置存储库页面。](./media/er-download-configurations-global-repo-repository-content.png)
+    ![配置存储库页面，“配置”快速选项卡。](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>导入筛选的配置
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724409"
 4. 在 **配置** 快速选项卡上，选择 **导入** 将筛选出的配置从全局知识库下载到当前实例。
 5. 在 **配置** 快速选项卡上，选择 **重置筛选器** 清理指定的选择条件。
 
-    ![配置存储库页面。](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![“配置存储库”页面、“版本”快速选项卡、“导入”按钮。](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 必须先解决这些问题，然后才可以使用导入的配置版本。 有关详细信息，请参阅本主题的相关资源列表。

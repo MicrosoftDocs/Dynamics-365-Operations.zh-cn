@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718543"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605349"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>配置依赖于国家/地区上下文的 ER 模型映射
 
@@ -48,7 +48,7 @@ ms.locfileid: "6718543"
 
 请按照本主题的[附录 1](#appendix1) 中的步骤设计所需的 ER 组件。 现在，您具有 **映射(一般)** 模型映射配置，其中包含 **入口点 1** 定义的模型映射。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-Tree.PNG)
+![电子报告配置页面，用于了解映射配置的格式。](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>运行配置的格式
 
@@ -61,7 +61,7 @@ ms.locfileid: "6718543"
 
 请按照本主题的[附录 2](#appendix2) 中的步骤设计所需的 ER 组件。 现在，您具有 **映射(一般)** 和 **映射(一般)自定义** 模型映射配置，每个配置都包含 **入口点 1** 定义的模型映射。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![电子报告配置页面，映射常规自定义配置。](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>运行配置的格式
 
@@ -71,7 +71,7 @@ ms.locfileid: "6718543"
 
 请注意，所选 ER 格式的执行将不成功。 一条错误消息通知您，**映射(一般)** 和 **映射(一般)自定义** 模型映射配置中的 **用于了解映射的模型** 模型和 **入口点 1** 定义存在多个模型映射。 此消息还建议您选择这些配置之一作为默认配置。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![包含错误消息的电子报告配置页面。](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>定义默认映射配置
 
@@ -82,7 +82,7 @@ ms.locfileid: "6718543"
 3.  将 **模型映射的默认值** 选项设置为 **是**。
 4.  选择 **保存**。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![电子报告配置页面，“模型映射的默认值”滑块设置为“是”。](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>运行配置的格式
 
@@ -101,7 +101,7 @@ ms.locfileid: "6718543"
 
 请注意，已配置 **映射(FR)** 模型映射配置的版本 1，使其仅应用于在具有法国国家/地区上下文的 Finance 公司中运行的 **用于了解映射的模型** 模型的格式。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![电子报告配置页面，模型映射 (FR) 配置。](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>运行配置的格式
 
@@ -121,7 +121,7 @@ ms.locfileid: "6718543"
 3.  将 **模型映射的默认值** 选项设置为 **是**。
 4.  选择 **保存**。
 
-![ER 配置页面。](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![电子报告配置页面，映射 (FR) 配置，“模型映射的默认值”滑块设置为“是”。](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>运行配置的格式
 
@@ -276,7 +276,7 @@ ms.locfileid: "6718543"
 5.  选择 **保存**。
 6.  关闭 **公式设计器** 页。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![电子报告模型映射设计器页面，入口点 1 定义。](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  选择 **保存**。
 8.  关闭 **模型映射设计器** 页。
@@ -289,12 +289,12 @@ ms.locfileid: "6718543"
 15. 选择 **保存**。
 16. 关闭 **公式设计器** 页。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![电子报告模型映射设计器页面，入口点 2 定义。](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. 选择 **保存**。
 18. 关闭 **模型映射设计器** 页。
 
-    ![ER 模型映射页面。](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![带有入口点定义的电子报告模型映射页面。](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. 关闭 **模型映射** 页。
 
@@ -369,7 +369,7 @@ ms.locfileid: "6718543"
 6.  选择 **保存**。
 7.  关闭该页面。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![电子报告模型映射设计器页面，通用功能 1 自定义公式。](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  选择 **保存**。
 9.  关闭该页面。
@@ -380,12 +380,12 @@ ms.locfileid: "6718543"
 14. 选择 **保存**。
 15. 关闭该页面。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![电子报告模型映射设计器页面，通用功能 2 自定义公式。](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. 选择 **保存**。
 17. 关闭该页面。
 
-    ![ER 模型映射页面。](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![“映射（一般）复制”映射的电子报告模型到数据源映射页面。](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. 关闭该页面。
 
@@ -432,7 +432,7 @@ ms.locfileid: "6718543"
 7.  选择 **保存**。
 8.  关闭该页面。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![电子报告模型映射设计器页面，FR 功能 1 公式。](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  选择 **保存**。
 10. 关闭该页面。
@@ -444,12 +444,12 @@ ms.locfileid: "6718543"
 16. 选择 **保存**。
 17. 关闭该页面。
 
-    ![ER 模型映射设计器页面。](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![电子报告模型映射设计器页面，FR 功能 2 公式。](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. 选择 **保存**。
 19. 关闭该页面。
 
-    ![ER 模型映射页面。](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![电子报告模型到数据源映射页面。](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. 关闭该页面。
 

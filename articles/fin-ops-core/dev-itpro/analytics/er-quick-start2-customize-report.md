@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770012"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605222"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整 ER 格式以生成自定义电子单据
 
@@ -160,7 +160,7 @@ ms.locfileid: "6770012"
     - **付款模型映射 1611** – 此配置中包含[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components) ER 组件，用于描述如何在运行时使用应用程序数据填充数据模型。
     - **BACS (UK)** – 此配置中包含[格式](general-electronic-reporting.md#FormatComponentOutbound)和格式映射 ER 组件。 格式组件指定报表布局。 格式映射组件中包含模型数据源，并指定如何在运行时使用此数据源填充报表布局。
 
-![配置页面。](./media/er-quick-start2-imported-solution1.png)
+![具有树中可用的指定电子报告配置的配置页面。](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>准备要处理的供应商付款
 
@@ -222,7 +222,7 @@ ms.locfileid: "6770012"
 4. 在 **文件格式** 快速选项卡上，将 **一般电子导出格式** 选项设置为 **是**。
 5. 在 **导出格式配置** 字段中，选择 **BACS (UK)** 格式配置。
 
-    ![付款方式 - 供应商页面。](./media/er-quick-start2-method-of-payment1.png)
+    ![付款方式 - 用于设置电子付款方式以使用标准格式处理供应商付款的供应商页面。](./media/er-quick-start2-method-of-payment1.png)
 
 6. 选择 **保存**。
 
@@ -273,7 +273,7 @@ ms.locfileid: "6770012"
 
 将创建 **BACS（UK 自定义）** ER 格式配置的版本 1.1.1。 此版本的 [状态](general-electronic-reporting.md#component-versioning)为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
 
-![配置页面。](./media/er-quick-start2-derived-format-configuration1.png)
+![包含 BACS（UK 自定义）电子报告格式配置版本 1.1.1 的配置页面。](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>编辑自定义格式
 
@@ -349,7 +349,7 @@ ms.locfileid: "6770012"
 4. 在 **文件格式** 快速选项卡上，将 **一般电子导出格式** 选项设置为 **是**。
 5. 在 **导出格式配置** 字段中，选择 **BACS（UK 自定义）** 格式配置。
 
-    ![付款方式 - 供应商页面。](./media/er-quick-start2-method-of-payment2.png)
+    ![付款方式 - 用于设置电子付款方式以使用自定义格式处理供应商付款的供应商页面。](./media/er-quick-start2-method-of-payment2.png)
 
 6. 选择 **保存**。
 
@@ -378,7 +378,7 @@ ms.locfileid: "6770012"
 
         请注意，按照自定义 ER 格式的结构，生成的文件中的付款行现在以为处理了其付款的供应商的银行帐户[输入的](#DefineSWIFTCode) SWIFT 代码[开始](#PositionSWIFTCode)。
 
-        ![TXT 格式的付款文件。](./media/er-quick-start2-payment-file2.png)
+        ![用于处理供应商付款的 TXT 格式付款文件。](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>导入标准 ER 格式配置的新版本
 
@@ -395,7 +395,7 @@ ms.locfileid: "6770012"
 5. 在 **版本** 快速选项卡上，选择所选 ER 格式配置的版本 **3.3**。
 6. 选择 **导入** 将所选版本从全局存储库下载到当前 Finance 实例。
 
-![配置存储库页面。](./media/er-quick-start2-import-solution2.png)
+![“配置存储库”页面、“版本”快速选项卡、“导入”按钮。](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > 如果在访问[全球存储库](er-download-configurations-global-repo.md)时遇到问题，可改为从 LCS [下载配置](download-electronic-reporting-configuration-lcs.md)。
@@ -507,7 +507,7 @@ ms.locfileid: "6770012"
 
         请注意，生成的文件中的付款行以为处理了其付款的供应商的银行帐户输入的 SWIFT 代码开始。
 
-        ![TXT 格式的付款文件。](./media/er-quick-start2-payment-file3.png)
+        ![用于使用重定电子报告格式处理供应商付款的 TXT 格式付款文件。](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>其他资源
 

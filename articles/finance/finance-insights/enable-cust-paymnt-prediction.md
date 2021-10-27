@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386579"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599366"
 ---
 # <a name="enable-customer-payment-predictions"></a>启用客户付款预测
 
@@ -41,7 +41,7 @@ ms.locfileid: "7386579"
 2. 开启客户付款见解功能：
 
     1. 转到 **系统管理 \> 工作区 \> 功能管理**。
-    2. 找到名称为 **客户付款见解（预览）** 的功能。
+    2. 找到名称为 **（预览版）客户付款见解** 的功能。
     3. 选择 **立即启用**。
 
     现在已打开且可以配置客户付款见解功能。

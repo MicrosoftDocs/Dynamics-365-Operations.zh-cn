@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773337"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641103"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>为全球库存核算启用 Power BI
 
@@ -49,7 +49,10 @@ ms.locfileid: "6773337"
 1. 通过执行以下步骤配置 **全球库存核算** Power BI 报表：
 
     1. 转到 **我的工作区**，查找全球库存核算的数据集，然后在 **选项** 菜单上，选择 **设置**。
-    1. 在 **全球库存核算的设置** 中，展开 **参数**，并根据需要更新所有参数。
+    1. 在 **全球库存核算的设置** 中，展开 **参数**，并根据需要更新所有参数。 特别是，请务必检查以下设置：
+        1. 使用在 LCS 中 **环境详细信息** 页面上找到的值（在 **Power Platform 集成** 部分）覆盖默认的 **Dataverse URL** 和 **环境 ID** 值。
+        1. 选择 **数据源凭据** 部分中 **Cds** 标签旁边的 **编辑凭据** 链接。 然后使用 **OAuth2** 身份验证方法登录到您的 Dataverse 帐户。
+    1. 验证在 **我的工作区 \> 报表 \> 全球库存核算** 中找到的 Power BI 报表现在是否正常工作，并且是否显示系统中的内容。
 
 1. 如[配置 PowerBI.com 集成](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process)中所述注册应用程序。
 1. 通过执行以下步骤将 **全球库存核算** Power BI 报表文件集成到 Dynamics 365 Supply Chain Management 中：

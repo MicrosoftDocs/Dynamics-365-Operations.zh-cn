@@ -2,7 +2,7 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404026"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612356"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -198,18 +198,12 @@ ms.locfileid: "7404026"
 > [!NOTE]
 > 如果无法完全清理暂存表中的记录，请确保将清理作业安排为重复运行。 正如前面的说明，在执行任何清理时，作业能够清理的执行 ID 记录数量不超过提供的最大小时数内能够清理的数量。 若要继续清理任何剩余暂存记录，必须将作业安排为定期运行。
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>作业历史记录的清理和存档（平台更新 39 或版本 10.0.15 中可预览）
+## <a name="job-history-clean-up-and-archival"></a>作业历史记录清理和存档 
 作业历史记录清理和存档功能取代了以前版本的清理功能。 本节将解释这些新功能。
 
-清除功能的主要变化之一是使用系统批处理作业来清除历史记录。 使用系统批处理作业允许 Finance and Operations 应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜 12 点开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。
+清理功能的主要变化之一是使用系统批处理作业来清理历史记录。 使用系统批处理作业允许 Finance and Operations 应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。 从版本 10.0.20 开始，此功能始终开启。
 
-> [!NOTE]
-> 因为此功能处于预览版阶段，所以系统批处理作业将不会删除任何执行历史记录，除非通过外部测试版 DMFEnableExecutionHistoryCleanupSystemJob 启用。 如果该功能在将来的版本中公开发布，则不需要此外部测试版，并且系统准备就绪后，系统批处理作业将根据上面定义的计划开始清除和存档。 
-
-> [!NOTE]
-> 在将来的版本中，将从 Finance and Operations 应用中删除以前版本的清理功能。
-
-清除过程的第二个变化是所清除执行历史的存档。 清理作业会将已删除的记录归档到 DIXF 用于常规集成的 Blob 存储中。 归档的文件将采用 DIXF 软件包格式，并且在 blob 中保留 7 天，在此期间可供下载。 可在参数中将归档文件的 7 天这一默认寿命更改为最大 90 天。
+清理过程的第二个变化是所清除执行历史的存档。 清理作业会将已删除的记录归档到 DIXF 用于常规集成的 Blob 存储中。 归档的文件将采用 DIXF 软件包格式，并且在 blob 中保留 7 天，在此期间可供下载。 可在参数中将归档文件的 7 天这一默认寿命更改为最大 90 天。
 
 ### <a name="changing-the-default-settings"></a>更改默认设置
 该功能当前处于预览版阶段，必须通过启用外部测试版 DMFEnableExecutionHistoryCleanupSystemJob 明确将其打开。 还必须在功能管理中开启暂存清理功能。

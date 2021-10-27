@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568679"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645798"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>内置主计划与计划优化之间的差异
 
@@ -29,7 +29,7 @@ ms.locfileid: "7568679"
 | 可扩展维度 | 计划订单中的可扩展维度为空，即使选中了 **存储维度组** 或 **跟踪维度组** 页面上的 **按维度的覆盖范围计划** 复选框也不例外。 |
 | 筛选的生产运行 | 有关详细信息，请参阅[生产计划 - 筛选器](production-planning.md#filters)。 |
 | 预测计划 | 不支持预测计划。 我们建议您使用主计划，在主计划中，预测模型分配给主计划。 |
-| 计划订单的编号规则 | 不支持计划订单的编号规则。 计划订单编号在服务端生成。 |
+| 计划订单的编号规则 | 不支持计划订单的编号规则。 计划订单编号在服务端生成。 计划订单编号通常显示为 10 位，但序列实际上基于 20 个字符构建，为计划运行计数分配了 10 位数字，为计划订单计数分配了另外 10 位数字。 |
 | 计划副本，删除计划和计划版本清除 | <p>已禁用了导航窗格中 **主计划 \> 主计划 \> 维护计划** 下的以下项：</p><ul><li>计划副本</li><li>删除计划</li><li>计划版本清除</li></ul> |
 | 退货单 | 不考虑退货单。 |
 | 计划相关功能 | 有关详细信息，请参阅[具有无限容量的计划](infinite-capacity-planning.md#limitations)。 |

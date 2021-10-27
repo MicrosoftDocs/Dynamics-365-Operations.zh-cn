@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769916"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605174"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>跟踪生成的报表结果并将其与基准值进行比较。
 
@@ -76,7 +76,7 @@ ms.locfileid: "6769916"
 3. 在下拉对话框的 **名称** 字段中，输入 **用于了解 ER 基准的模型**。
 4. 选择 **创建配置** 以确认创建新的 ER 数据模型条目。
 
-![“创建配置”下拉对话框。](media/GER-BaselineSample-ModelAdd.PNG "“创建配置”下拉对话框的屏幕截图")
+![“创建配置”对话框，添加新电子报告模型配置。](media/GER-BaselineSample-ModelAdd.PNG "“创建配置”下拉对话框的屏幕截图")
 
 ### <a name="design-a-data-model"></a>设计数据模型
 
@@ -99,7 +99,7 @@ ms.locfileid: "6769916"
 3. 在 **名称** 字段中，输入 **用于了解 ER 基准的格式**。
 4. 选择 **创建配置** 以确认创建新的 ER 格式条目。
 
-![“创建配置”下拉对话框。](media/GER-BaselineSample-FormatAdd.PNG "“创建配置”下拉对话框的屏幕截图")
+![“创建配置”对话框，添加新电子报告格式配置。](media/GER-BaselineSample-FormatAdd.PNG "“创建配置”下拉对话框的屏幕截图")
 
 ### <a name="design-a-format"></a>设计格式
 
@@ -107,41 +107,41 @@ ms.locfileid: "6769916"
 
 1. 在 **配置** 页的操作窗格上，选择 **设计器**。
 2. 选择 **添加根**。
-2. 在下拉对话框中，执行以下步骤：
+3. 在下拉对话框中，执行以下步骤：
 
     1. 在树中，选择 **常见\\文件**。
     2. 在 **名称** 字段中，输入 **输出**。
     3. 选择 **确定**。
 
-3. 选择 **添加**。
-4. 在下拉对话框中，执行以下步骤：
+4. 选择 **添加**。
+5. 在下拉对话框中，执行以下步骤：
 
     1. 在树中，选择 **XML\\元素**。
     2. 在 **名称** 字段中，输入 **文档**。
     3. 选择 **确定**。
 
-5. 在树中，选择 **输出\\文档**。
-6. 选择 **添加**。
-7. 在下拉对话框中，执行以下步骤：
+6. 在树中，选择 **输出\\文档**。
+7. 选择 **添加**。
+8. 在下拉对话框中，执行以下步骤：
 
     1. 在树结构中，选择 **XML\\属性**。
     2. 在 **名称** 字段中，输入 **ID**。
     3. 选择 **确定**。
 
-    ![“格式设计器”页面。](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
+    ![“格式设计器”页面，在树中选择的 XML 属性。](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
 
-8. 在 **映射** 选项卡上，选择 **删除**。
-9. 选择 **添加根**。
-10. 在下拉对话框的树中，选择 **常规\\用户输入参数**，然后执行以下步骤：
+9. 在 **映射** 选项卡上，选择 **删除**。
+10. 选择 **添加根**。
+11. 在下拉对话框的树中，选择 **常规\\用户输入参数**，然后执行以下步骤：
 
     1. 在 **名称** 字段中，输入 **ID**。
     2. 在 **标签** 字段中，输入 **输入 ID**。
     3. 选择 **确定**。
 
-11. 在树中，选择 **输出\\文档\\Id**。
-12. 选择 **绑定**，然后选择 **保存**。
+12. 在树中，选择 **输出\\文档\\Id**。
+13. 选择 **绑定**，然后选择 **保存**。
 
-![“格式设计器”页面。](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
+![“格式设计器”页面，“映射”选项卡。](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
 
 配置的格式将根据设计的结构生成 XML 文件。 此 XML 中包含 **根** 元素，该元素的 **ID** 属性设置为用户在“ER 运行时”对话框中输入的值。
 
@@ -201,7 +201,7 @@ ms.locfileid: "6769916"
 10. 在 **基准** 字段中，输入或选择 **out.Admin** 附件。
 11. 选择 **保存**。
 
-![“电子报告格式基准”页面。](media/GER-BaselineSample-SetupBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页面，选择了基准的“基准”快速选项卡。](media/GER-BaselineSample-SetupBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>运行设计的 ER 格式和检查日志以分析结果
 
@@ -212,7 +212,7 @@ ms.locfileid: "6769916"
 5. 选择 **确定**。
 6. 转到 **组织管理** \> **电子申报** \> **配置调试日志**。
 
-    ![“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "“电子申报运行日志”页的屏幕截图")
+    ![具有同等基准的“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "“电子申报运行日志”页的屏幕截图")
 
     > [!NOTE]
     > 执行日志中包含有关所生成文件与所配置基准的比较结果的信息。 在此示例中，日志指示生成的文件和基准相等。
@@ -228,7 +228,7 @@ ms.locfileid: "6769916"
 5. 选择 **确定**。
 6. 转到 **组织管理** \> **电子申报** \> **配置调试日志**。
 
-    ![“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "“电子申报运行日志”页的屏幕截图")
+    ![具有不同基准的“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "“电子申报运行日志”页的屏幕截图")
 
     > [!NOTE]
     > 执行日志中包含有关所生成文件与所配置基准的比较结果的信息。 在此示例中，日志指示生成的文件和基准不同。

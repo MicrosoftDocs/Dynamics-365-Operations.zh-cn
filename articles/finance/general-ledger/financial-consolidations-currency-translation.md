@@ -1,8 +1,8 @@
 ---
 title: 财务合并和货币折算概览
 description: 此主题介绍总帐中的财务合并和货币折算。
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748972"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615927"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -182,5 +182,17 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 ## <a name="generating-consolidated-financial-statements"></a>生成合并的财务报表
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
 
+## <a name="performance-enhancement-for-large-consolidations"></a>大型合并的性能增强
+
+具有许多总帐交易的环境可能比最佳环境运行得慢。 要解决此问题，您可以设置一个使用用户定义的日期数的并行批处理。 若要确保解决方案按预期方式工作，请将扩展点添加到合并中，以返回日期范围的容器。 基本实现应包含适用于合并的开始状态和结束日期的一个日期范围。 将验证基本实现中的日期范围以确保它们不包含间隔或重叠。 日期范围将用于为每个公司创建并行批处理捆绑。
+
+您可以自定义日期范围数以满足组织的要求。 通过自定义日期范围数，您可以帮助简化测试并尽量减少对现有代码的影响，因为没有分配逻辑。 唯一的所需新测试会验证批处理捆绑的创建、验证日期范围和测试日期范围的子集，以验证是否可以为最终批处理任务汇集批次。 
+
+在批处理中运行流程时，此功能将增强总帐中的合并流程。 通过将合并的内容拆分为可并行处理的多个任务，增强功能可提高总帐合并流程的性能。 在运行合并的默认方法中，每个任务将处理八天的总帐活动。 但是，已添加了扩展点，以便您可以自定义所创建的编号任务。
+
+此功能只有在系统中开启之后才能使用。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+
+- **模块：** 总帐
+- **功能名称：** 大型合并的性能增强
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

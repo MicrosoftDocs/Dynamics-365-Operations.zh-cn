@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574105"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599340"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
 
@@ -33,7 +33,7 @@ ms.locfileid: "7574105"
 2. 单击 **新建**。
 3. 在 **仓库** 字段中，键入一个值。
 4. 在 **名称** 字段中，键入一个值。
-5. 在 **站点** 字段中，输入一个值。
+5. 在 **站点** 字段中，选择或键入现有站点值。
 6. 展开 **仓库** 部分。
 7. 将 **使用仓库管理流程选项** 设置为“是”。 此设置可使您使用仓库工作和移动设备运行高级仓储流程。
 8. 关闭该页面。
