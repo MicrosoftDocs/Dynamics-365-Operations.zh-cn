@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
+ms.lasthandoff: 10/27/2021
 ms.locfileid: "7471828"
 ---
 # <a name="generate-variants-for-engineering-products"></a>生成工程产品的变型
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 本主题介绍如何生成工程产品的变型。
 
