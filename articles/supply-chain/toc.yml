@@ -74,12 +74,12 @@
                   items:
                     - name: “Supply Chain Management 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22（2021 年 11 月）
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21（2021 年 10 月）
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20（2021 年 8 月）
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: “已删除或弃用的功能”主页
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: 使用采购贸易协议进行主计划
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 计划优化使用的日期和时间参数
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: 安全宽限期
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: 延迟容差（负天数）
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置全球通讯簿
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 地址设置
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 通讯簿常见问题解答
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置通讯簿
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: 将生产订单报告为已完工入库
                       href: production-control/report-production-orders-as-finished.md
-                    - name: 设置并使用生产车间执行界面
-                      items:
-                        - name: 配置生产车间执行界面
-                          href: production-control/production-floor-execution-configure.md
-                        - name: 设计生产车间执行界面
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: 设置设备以运行生产车间执行界面
-                          href: production-control/production-floor-execution-setup.md
-                        - name: 工作人员如何使用生产车间执行界面
-                          href: production-control/production-floor-execution-use.md
-                        - name: 为生产车间执行界面设计样式
-                          href: production-control/production-floor-execution-styles.md
                     - name: 配置设备的作业卡
                       href: production-control/config-job-card-device.md
                     - name: 从作业卡设备报告为已完工入库
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: 生产过帐
                       href: cost-management/production-posting.md
+            - name: 设置并使用生产车间执行界面
+              items:
+                - name: 配置生产车间执行界面
+                  href: production-control/production-floor-execution-configure.md
+                - name: 设计生产车间执行界面
+                  href: production-control/production-floor-execution-tabs.md
+                - name: 设置设备以运行生产车间执行界面
+                  href: production-control/production-floor-execution-setup.md
+                - name: 工作人员如何使用生产车间执行界面
+                  href: production-control/production-floor-execution-use.md
+                - name: 为生产车间执行界面设计样式
+                  href: production-control/production-floor-execution-styles.md
         - name: 返点管理
           items:
             - name: 返点管理模块概览
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: 自定义 Warehouse Management 移动应用的步骤标题和说明
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: 为移动设备中的步骤配置提升字段
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: 为移动设备菜单项中的步骤配置 Detours
+                      href: warehousing/warehouse-app-detours.md
                     - name: 通过 Warehouse Management 移动应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: 全局移动设备参数
                   href: warehousing/mobile-device-parameters.md
+                - name: 移动设备用户帐户
+                  href: warehousing/mobile-device-work-users.md
                 - name: 移动设备用户设置
                   href: warehousing/mobile-device-user-settings.md
                 - name: 仓库应用事件处理
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: 仓库管理
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: 设置应用连接时未找到认证路径的信任定位点
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: 更新并迁移到 WMS 时未找到认证路径的信任定位点
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 即使存在可用库存，也会显示批处理号自动预留提示
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: 由于存在未完成的补货工作，无法解锁领料工作
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: 无法将库存移动到牌照控制的位置
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: 设置应用连接时未找到认证路径的信任定位点
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: 找不到群集配置文件
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: 无法处理交货通知更正
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: 无法在销售订单行上取消预留库存
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 更新并迁移到 WMS 时未找到认证路径的信任定位点
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 由于客户处于暂停状态，无法确认装运
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 由于负荷行数量为零，无法确认装运

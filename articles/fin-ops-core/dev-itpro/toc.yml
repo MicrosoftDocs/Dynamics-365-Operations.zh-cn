@@ -14,12 +14,12 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.23 的平台更新
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: 针对版本 10.0.22 的平台更新（2021 年 11 月）
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: 针对版本 10.0.21 的平台更新（2021 年 10 月）
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: 针对版本 10.0.20 的平台更新（2021 年 8 月）
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -32,47 +32,11 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: 业务事件
+        - name: 持续交付
           items:
-            - name: 业务事件概览
-              href: business-events/home-page.md
-            - name: 应用程序业务事件
-              href: business-events/app-business-events.md
-            - name: 工作流业务事件
-              href: business-events/business-events-workflow.md
-            - name: 批处理业务事件
-              href: business-events/system-business-events.md
-            - name: 业务事件预警
-              href: business-events/alerts-business-events.md
-            - name: Microsoft Flow 中的业务事件
-              href: business-events/business-events-flow.md
-            - name: 业务事件开发人员文档
-              href: business-events/business-events-dev-doc.md
-            - name: 业务事件疑难解答
-              href: business-events/troubleshooting.md
-            - name: 业务事件用例
-              href: business-events/potential-use-cases.md
-            - name: 教程
-              items:
-                - name: 业务事件和 Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: 业务事件和 Azure 事件网格
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: 业务事件和 Azure 服务总线
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: 业务事件和工作流审核
-                  href: business-events/how-to/how-to-workflow.md
-                - name: 业务事件和 Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: 业务事件和 Azure 事件中心
-                  href: business-events/how-to/event-hub.md
-                - name: 财务期间结帐中的业务事件
-                  href: business-events/how-to/period-close.md
-        - name: 连续交货
-          items:
-            - name: 连续交货主页
+            - name: 持续交付主页
               href: dev-tools/continuous-delivery-home-page.md
-            - name: 开发和连续交货常见问题解答
+            - name: 开发和持续交付常见问题解答
               href: dev-tools/continuous-delivery-faq.md
             - name: 从生成输出中排除测试包
               href: dev-tools/exclude-test-packages.md
@@ -592,7 +556,7 @@
               items:
                 - name: X++ 语言支持
                   items:
-                    - name: X++ 的 Visual Studio 2017 要求
+                    - name: X++ 的 Visual Studio 要求
                       href: dev-tools/developer-tools-vs2017.md
                     - name: 调试 X++ 代码
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: 应用程序资源管理器属性
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute 属性
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++ 语言参考
                   items:
                     - name: X++ 语言参考概览
@@ -1038,6 +1004,10 @@
           items:
             - name: Microsoft Power Platform 与 Finance and Operations 的集成
               href: power-platform/overview.md
+            - name: 启用 Power Platform 集成
+              href: power-platform/enable-power-platform-integration.md
+            - name: 身份验证和授权
+              href: power-platform/authentication-and-authorization.md
             - name: 双重写入
               items:
                 - name: 双重写入主页
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: 设置双重写入后编辑法人
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: 暂停双重写入以进行维护
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: 错误管理和预警通知
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: 应用程序生命周期管理
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: 表映射运行状况检查的错误代码
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: 双重写入常见问题解答
                   href: data-entities/dual-write/dual-write-faq.md
             - name: 虚拟实体
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: 应用程序生命周期管理
                   href: power-platform/application-lifecycle-management.md
-                - name: Finance and Operations 和 Dataverse 管理员参考
+                - name: 配置 Dataverse 虚拟实体
                   href: power-platform/admin-reference.md
+                - name: 启用 Dataverse 虚拟实体
+                  href: power-platform/enable-virtual-entities.md
                 - name: Finance and Operations 的 Power Apps 门户
                   href: power-platform/power-portal-reference.md
                 - name: Finance and Operations 虚拟实体常见问题解答
                   href: power-platform/faq.md
+            - name: 业务事件
+              items:
+                - name: 业务事件概览
+                  href: business-events/home-page.md
+                - name: 应用程序业务事件
+                  href: business-events/app-business-events.md
+                - name: 工作流业务事件
+                  href: business-events/business-events-workflow.md
+                - name: 批处理业务事件
+                  href: business-events/system-business-events.md
+                - name: 业务事件预警
+                  href: business-events/alerts-business-events.md
+                - name: 数据事件
+                  href: business-events/data-events.md
+                - name: Power Automate 中的业务事件
+                  href: business-events/business-events-flow.md
+                - name: 业务事件开发人员文档
+                  href: business-events/business-events-dev-doc.md
+                - name: 业务事件疑难解答
+                  href: business-events/troubleshooting.md
+                - name: 业务事件用例
+                  href: business-events/potential-use-cases.md
+                - name: 教程
+                  items:
+                    - name: 业务事件和 Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: 业务事件和 Azure 事件网格
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: 业务事件和 Azure 服务总线
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: 业务事件和工作流审核
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: 业务事件和 Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: 业务事件和 Azure 事件中心
+                      href: business-events/how-to/event-hub.md
+                    - name: 财务期间结帐中的业务事件
+                      href: business-events/how-to/period-close.md
             - name: 加载项
               items:
                 - name: 加载项概览
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: 取消正在执行的批处理作业
                   href: sysadmin/batch-abort.md
+                - name: 批处理 OData API
+                  href: sysadmin/batch-odata-api.md
             - name: 优化顾问
               items:
                 - name: 优化顾问概览
