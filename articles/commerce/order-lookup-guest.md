@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0368f567898210f122047a9f298bcb28b7540de1
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472572"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674968"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>启用来宾结帐订单查找功能
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
 

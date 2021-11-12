@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1fcea155f330fa1eced8035f11f7cf204d3b2de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 382814eb3d4322ed52bd39fcb22740201335614e
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575695"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678997"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>基于能力安排资源选择
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 通过指定生产工艺路线工序的资源要求，您可以定义执行该工序所需的条件。 例如，工序可能需要特定的资源或资源组，或者需要技能或能力的组合。 本主题介绍在将能力指定为工序的资源要求时无限产能计划期间的资源选择。
 

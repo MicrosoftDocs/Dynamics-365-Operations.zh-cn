@@ -2,7 +2,7 @@
 title: 在税务配置中添加数据字段
 description: 本主题说明如何通过添加数据字段自定义税务配置。
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500136"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674892"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>在税务配置中添加数据字段
 
@@ -31,8 +31,12 @@ ms.locfileid: "7500136"
 ## <a name="customize-the-tax-data-model"></a>自定义税务数据模型
 
 1. 在 Microsoft Dynamics 365 Finance 中，转到 **电子报告** > **税务配置**。
-2. 在配置树中，选择 **税务数据模型 - 欧洲**。 然后，在操作窗格上，选择 **创建配置**。
-3. 在下拉对话框中，选择 **派生自名称的应纳税单据模型: 税务数据模型 -- 欧洲，Microsoft**，输入新税务数据模型的名称，然后选择 **创建配置**。
+2. 在配置树中，选择 **税款计算数据模型**。 然后，在操作窗格上，选择 **创建配置**。 
+
+  > [!NOTE] 
+  > 如果没有可用的配置提供程序，请创建一个配置，并使其对您的税务配置可用。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
+  
+3. 在下拉对话框中，选择 **派生自名称的应纳税单据模型: 税款计算数据模型，Microsoft**，输入新税务数据模型的名称，然后选择 **创建配置**。
 4. 选择您刚创建的税务数据模型，然后在操作窗格上，选择 **设计器**。
 5. 展开数据模型树，选择 **行**，然后选择 **新建**。
 6. 在 **创建节点** 对话框中，输入名称，指定物料类型，然后选择 **添加**。
@@ -43,8 +47,8 @@ ms.locfileid: "7500136"
 ## <a name="customize-the-tax-configuration"></a>自定义税务配置
 
 1. 在 Finance 中，转到 **电子报告** > **税务配置**。
-2. 在配置树中，选择 **税务配置 -- 欧洲**。 然后，在操作窗格上，选择 **创建配置**。
-3. 在下拉对话框中，选择 **派生自名称的税务服务配置: 税务配置 -- 欧洲，Microsoft**，输入新税务配置的名称，然后选择 **创建配置**。
+2. 在配置树中，选择 **税款计算配置**。 然后，在操作窗格上，选择 **创建配置**。
+3. 在下拉对话框中，选择 **派生自名称的税务服务配置: 税款计算配置，Microsoft**，输入新税务配置的名称，然后选择 **创建配置**。
 4. 选择您刚创建的税务配置，然后在操作窗格上，选择 **设计器**。
 5. 在 **属性** 部分中，在 **数据模型** 字段中，选择您之前创建的自定义税务数据模型。
 6. 在 **数据模型版本** 字段中，选择税务数据模型的已完成版本。

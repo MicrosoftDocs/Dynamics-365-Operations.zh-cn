@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769411"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647477"
 ---
 # <a name="mobile-device-user-settings"></a>移动设备用户设置
 
@@ -54,7 +54,7 @@ ms.locfileid: "6769411"
 
 请按照以下步骤创建和管理您的移动设备的用户设置。
 
-1. 转到 **仓库管理 \> 移动设备 \> 移动设备用户设置**。
+1. 转到 **Warehouse management \> 设置 \> 移动设备 \> 移动设备用户设置**。
 1. 在列表窗格中选择一个现有的用户设置配置文件打开其记录。 或者，在操作窗格上选择 **新建** 创建新配置文件。
 
     列表窗格中的每个配置文件都标有指示该配置文件将应用的品牌、型号和/或用户 ID 的标签。 更通用的配置文件的这些特征中有部分或全部为 *所有* 值。
@@ -83,7 +83,7 @@ ms.locfileid: "6769411"
 
 请按照以下步骤创建和管理您的移动设备品牌和型号。
 
-1. 转到 **仓库管理 \> 移动设备 \> 移动设备品牌**。
+1. 转到 **Warehouse management \> 设置 \> 移动设备 \> 移动设备品牌**。
 1. 在列表窗格中，选择一个移动设备品牌打开其记录。 或者，在操作窗格上选择 **新建** 创建新品牌。
 1. 在新的或所选设备品牌的记录的标头部分，设置以下字段：
 

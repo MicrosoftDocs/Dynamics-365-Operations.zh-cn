@@ -2,7 +2,7 @@
 title: JSONVALUE ER 函数
 description: 本主题提供有关 JSONVALUE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733765"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700055"
 ---
 # <a name="jsonvalue-er-function"></a>JSONVALUE ER 函数
 
@@ -41,7 +41,7 @@ JSONVALUE (input, path)
 
 `path`：*字符串*
 
-JSON 数据的标量值的标识符。
+JSON 数据的标量值的标识符。 使用正斜杠 (/) 分隔相关 JSON 节点的名称。 使用括号 (\[\]) 表示法指定 JSON 数组中特定值的索引。 请注意，此索引使用了从零开始的编号。
 
 ## <a name="return-values"></a>返回值
 
@@ -49,13 +49,37 @@ JSON 数据的标量值的标识符。
 
 生成的文本值。
 
-## <a name="example"></a>示例
+## <a name="example-1"></a>示例 1
 
 **JsonField** 数据源包含 JSON 格式的以下数据：**{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**。 在此例中，表达式 `JSONVALUE (JsonField, "BuildNumber")` 返回 *字符串* 数据类型的以下值：**"7.3.1234.1"**。
+
+## <a name="example-2"></a>示例 2
+
+*计算字段* 类型的 **JsonField** 数据源包含以下表达式：`"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+此表达式配置为返回一个 [*字符串*](er-formula-supported-data-types-primitive.md#string)值，此值以 JSON 格式表示以下数据。
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+在此例中，表达式 `JSONVALUE(json, "workers/[1]/emails/[0]")` 返回 *字符串* 数据类型的以下值：`JohnS@Contoso.com`。
 
 ## <a name="additional-resources"></a>其他资源
 
 [文本函数](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

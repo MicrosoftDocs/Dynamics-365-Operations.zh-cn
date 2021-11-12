@@ -2,7 +2,7 @@
 title: 对贷方通知单中的原始账单的引用
 description: 本主题说明如何在相关的贷方通知单中设置和打印原始发票编号。
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723839"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700347"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 
@@ -95,5 +95,10 @@ ms.locfileid: "6723839"
 > [!NOTE]
 > 假设将打印对原始发票的引用，请确保正确配置文档的可打印格式。
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>对借方通知单中的原始发票的引用
+
+默认情况下，可以为贷方通知单输入对原始发票的引用。 例如，您可以在对原始发票进行负（减少）更正时输入引用。
+
+要在对原始发票进行正（增加）更正时输入引用，您必须在 **功能管理** 工作区启用 **在借方通知单中引用原始发票** 功能。  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

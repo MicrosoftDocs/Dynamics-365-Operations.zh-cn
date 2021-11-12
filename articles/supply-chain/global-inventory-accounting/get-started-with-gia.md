@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773281"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678851"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 全球库存核算使您可以在已设置的全球库存核算分类帐中执行多个库存核算。 您必须将每个全球库存核算分类帐与一个 *惯例* 关联。 惯例是以下几种会计政策的集合：
 
@@ -60,7 +60,7 @@ ms.locfileid: "6773281"
 1. 在 **Power Platform 环境设置** 对话框中，选中该复选框，然后选择 **设置**。 通常，设置需要 60 到 90 分钟。
 1. 在完成 Microsoft Power Platform 环境的设置后，页面将显示您的环境的名称。 此外，**Power Platform 集成** 部分显示声明，“Power Platform 环境设置完成。” 全球库存核算不需要双写入应用程序。
 
-有关详细信息，请参阅[在环境部署后设置](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment)。
+有关详细信息，请参阅[在环境部署后启用](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy)。
 
 ### <a name="set-up-dataverse"></a>设置 Dataverse
 

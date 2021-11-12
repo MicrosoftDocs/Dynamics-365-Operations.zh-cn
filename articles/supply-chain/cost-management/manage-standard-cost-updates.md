@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579752"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678657"
 ---
 # <a name="manage-standard-cost-updates"></a>管理标准成本更新
 
@@ -43,8 +43,6 @@ ms.locfileid: "7579752"
 此示例使用了一个附加成本计算版本来管理整个 2020 年的更新。 可以使用更多的成本计算版本，例如使用单独的版本来用于各个更新批处理。 当使用了多个附加成本计算时，必须用有效成本表示回调，因为有效成本分散在多个成本计算版本中。
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>标准成本重估的财务维度
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 激活新的标准价格通常会通过标准成本重估交易来重估现有库存量值。 通常，之后会在交易中发布物料的财务维度。 但是，如果您想要控制是否以及如何发布财务维度，请使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)打开名为 *用于库存标准成本重估的默认财务维度的选项* 功能。 启用此功能后，转到 **成本管理 > 库存会计政策设置 > 参数**，将新的 **财务维度的来源** 下拉列表设置为以下值之一：
 

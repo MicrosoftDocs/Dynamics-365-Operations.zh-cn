@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474668"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678463"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
@@ -366,16 +366,12 @@ ms.locfileid: "7474668"
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>预留配置（可选）
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 如果要使用软预留功能，则需要预留配置。 该配置由两个基本部分构成：
 
 - 软预留映射
 - 软预留层次结构
 
 ### <a name="soft-reservation-mapping"></a>软预留映射
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 进行预留时，可能希望了解现有库存当前是否可用于预留。 验证将链接到计算度量，计算度量表示实际度量组合的计算公式。
 
@@ -446,8 +442,6 @@ ms.locfileid: "7474668"
 > 调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值为 `True` 表示需要验证，而值为 `False` 则表示不需要验证。 默认值为 `True`。
 
 ### <a name="soft-reservation-hierarchy"></a>软预留层次结构
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 预留层次结构描述在进行预留时必须指定的维度的序列。 其工作方式与产品索引层次结构处理现有库存查询的工作方式相同。
 
@@ -747,8 +741,6 @@ ms.locfileid: "7474668"
 此部分介绍默认预留配置。
 
 #### <a name="reservation-mapping"></a>预留映射
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 下表显示默认预留映射。
 

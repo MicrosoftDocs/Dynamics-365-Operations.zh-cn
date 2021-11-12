@@ -1,7 +1,7 @@
 ---
 title: 折旧帐簿升级概览
-description: 在以前的版本中，固定资产有两种评估概念，价值模型和折旧帐簿。
-author: ShylaThompson
+description: 本主题介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344706"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675144"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 
 [!include [banner](../includes/banner.md)]
 
-在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。 
+本主题介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。 价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 帐簿功能让您可以对组织的所有固定资产流程使用一组页面、查询和报表。 本主题提供了升级前应考虑的一些事项。 
 
-升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至 **过帐到总帐** 设置为 **否** 的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为 **无** 的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。 
+升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至过帐到总帐设置为否的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为无的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。
 
-在运行数据升级之前，应了解将折旧帐簿日志行升级到交易记录凭证的两个选项以及凭证系列将要使用的编号规则。 
+在运行数据升级之前，应了解将折旧帐簿日志行升级到交易记录凭证的两个选项以及凭证系列将要使用的编号规则。
 
 选项 1：**系统定义的编号规则** -这是优化升级性能的默认选项。 升级不使用编号规则框架，而是使用基于设置的方法分配凭证。 升级后，将基于升级的交易记录使用适当的 **下一个编号集** 创建新的编号规则。 默认情况下，编号规则将以 FADBUpgr\#\#\#\#\#\#\#\#\# 格式使用。 使用此方法时有一些参数可供您调整格式：
 

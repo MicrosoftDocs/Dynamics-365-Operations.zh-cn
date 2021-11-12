@@ -2,7 +2,7 @@
 title: 开始使用税款计算
 description: 本主题说明如何设置税务计算。
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562118"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647426"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 本主题提供有关如何开始使用税务计算的信息。 它指导您完成 Microsoft Dynamics Lifecycle Services (LCS)、Regulatory Configuration Service (RCS) 以及 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的配置步骤。 然后，它审查在 Finance 和 Supply Chain Management 交易中使用税务计算功能的通用流程。
 
@@ -41,29 +39,10 @@ ms.locfileid: "7562118"
 
 在完成本主题中的过程之前，每种环境类型必须具备一些先决条件。
 
-### <a name="for-a-production-environment"></a>对于生产环境
-
-对于生产环境，必须满足以下先决条件：
+必须满足以下先决条件：
 
 - 您必须有权访问 LCS 帐户，并且必须已部署具有运行 Dynamics 365 版本 10.0.21 或更高版本的第 2 层（或以上）环境的 LCS 项目。
 - 您必须为组织创建 RCS 环境，并且您必须有权访问您的帐户。 有关如何创建 RCS 环境的详细信息，请参阅 [Regulatory Configuration Service 概览](rcs-overview.md)。
-- 必须根据您的业务需求，在已部署的 Finance 或 Supply Chain Management 环境的 **功能管理** 工作区中启用以下功能：
-
-    - 税款计算服务
-    - 支持多个增值税登记编号
-    - 转移单中的税金
-
-- 必须在已部署的 RCS 环境的 **功能管理** 工作区中启用以下功能。
-
-    - 全球化功能
-
-### <a name="for-a-test-environment-public-preview"></a>对于测试环境（公开预览版）
-
-对于测试环境，必须满足以下先决条件：
-
-- 您必须有权访问 LCS 帐户，并且必须已部署具有运行 Dynamics 365 版本 10.0.21 或更高版本的第 2 层（或以上）环境的 LCS 项目。
-- 您必须为组织创建 RCS 环境，并且您必须有权访问您的帐户。 有关如何创建 RCS 环境的详细信息，请参阅 [Regulatory Configuration Service 概览](rcs-overview.md)。
-- 您必须通过电子邮件 <taxcalc@microsoft.com> 与 Microsoft 联系，以在您部署的 Finance 或 Supply Chain Management 环境中启用发布外部测试版。
 - 必须根据您的业务需求，在已部署的 Finance 或 Supply Chain Management 环境的 **功能管理** 工作区中启用以下功能：
 
     - 税款计算服务

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720999"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713740"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 
@@ -37,7 +37,7 @@ ms.locfileid: "6720999"
 
 您可以通过 **站点设置 \> 扩展** 访问站点构建器中的站点级别设置。 以下两个站点级别设置适用于 B2B 场景：
 
-- **启用客户帐户付款** – 此属性让用户可以使用客户帐户支付订单。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。 如果您的 B2B 站点支持客户帐户，则应选择 **为 B2C 客户启用**。
+- **启用客户帐户付款** – 此属性让用户可以使用客户帐户支付订单。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。 如果您的 B2B 站点支持客户帐户，则应选择 **为 B2B 客户启用**。
 - **启用订单数量限制** – 此属性让您可以限制每个产品或类别可以订购的件数。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。
 
 > [!NOTE]

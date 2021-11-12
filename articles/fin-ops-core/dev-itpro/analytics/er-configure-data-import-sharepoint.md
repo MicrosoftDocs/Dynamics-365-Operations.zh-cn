@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 20e4e03a347cb046b58c4aceec8c473cf2aba6f50f09497b7bab2bcddc947cf2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718567"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675337"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
@@ -203,6 +203,8 @@ ER 框架不提供启动新批处理作业的功能，该作业将以无人参�
 [电子申报概览](general-electronic-reporting.md)
 
 [针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)
+
+[针对 Application update 10.0.23 的 ER API 更改](er-apis-app10-0-23.md)
 
 
 

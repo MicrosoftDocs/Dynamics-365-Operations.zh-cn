@@ -1,7 +1,7 @@
 ---
 title: 过帐定义
-description: 本文提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。
-author: ShylaThompson
+description: 本主题提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。
+author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22a261c1ac139d5caa51e05ff90675eca89e40fd804ff7e87a7c69a18c1f3e4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753496"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726958"
 ---
 # <a name="posting-definitions"></a>过帐定义
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关过帐定义以及如何定义和关联它们的信息。
+本主题提供有关过帐定义以及如何定义和关联它们的信息。
 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。 您可以在 **交易记录过帐定义** 页上查看支持的文档和过帐类型。 
 
 若要开始使用过帐定义，则在 **总帐参数** 页选择 **使用过帐定义** 选项。 即使在您使用过帐定义时，您仍必须为源条目和不支持的过帐类型和文档定义过帐模板。 

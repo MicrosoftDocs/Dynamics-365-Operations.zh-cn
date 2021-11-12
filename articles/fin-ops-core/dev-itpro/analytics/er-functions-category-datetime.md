@@ -2,7 +2,7 @@
 title: 日期和时间类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的日期和时间函数的信息。
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760042"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647255"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>日期和时间类别的 ER 函数列表
 
@@ -31,8 +31,9 @@ ms.locfileid: "6760042"
 
 | 职能 | 说明 |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | 此函数返回一个 *日期时间* 值，此值是指定开始日期之前或之后的指定的天数。 |
-| [DateFormat](er-functions-datetime-dateformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）将给定日期值显示为文本。 |
+| [AddDays](er-functions-datetime-adddays.md) | 此函数返回一个 *[日期/时间](er-formula-supported-data-types-primitive.md#datetime)* 值，此值是指定开始日期之前或之后的指定的天数。 |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | 此函数返回一个 *日期/时间* 值，此值从一个时区中的给定日期/时间值转换为另一个时区中的日期/时间值。 |
+| [DateFormat](er-functions-datetime-dateformat.md) | 此函数返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，此值以指定格式和指定的区域性（可选）将给定日期值显示为文本。 |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）将给定日期/时间值显示为文本。 |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | 此函数返回一个 *日期时间* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期/时间值。 |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | 此函数返回一个 *日期时间* 值，此值从给定日期/时间值转换为协调世界时（格林威治标准时间 \[GMT\]）的日期/时间值。 |

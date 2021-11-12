@@ -2,7 +2,7 @@
 title: 税款计算概览
 description: 本主题说明税务计算功能的总体范围和功能。
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394578"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647049"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 税务计算是一种超级可扩展的多租户服务，使 Global Tax Engine 可以自动化并简化税务确定和计算流程。 税务引擎完全可配置。 可配置的元素包括但不限于应纳税数据模型、税码、税务适用性矩阵和税务计算公式。 税务引擎在 Microsoft Azure 核心服务平台上运行，并提供现代技术和指数可扩展性。
 
@@ -120,6 +118,10 @@ ms.locfileid: "7394578"
     - 转移单 – 装运
     - 转移单 – 接收
 
+以下交易在版本 10.0.23 中受支持： 
+
+- 普通发票
+
 ## <a name="supported-countriesregions"></a>支持的国家/地区
 
 法人可以启用税款计算。 
@@ -145,6 +147,28 @@ ms.locfileid: "7394578"
 - 瑞士
 - 英国
 - 美国
+
+版本 10.0.22 支持法人主要地址的以下国家/地区：
+
+- 澳大利亚
+- 巴林
+- 加拿大
+- 埃及
+- 香港特别行政区
+- 科威特
+- 新西兰
+- 阿曼
+- 卡塔尔
+- 沙特阿拉伯
+- 南非
+- 阿拉伯联合酋长国
+
+版本 10.0.23 支持法人主要地址的以下国家/地区：
+
+- 泰国
+- 日本
+- 马来西亚
+- 新加坡
 
 ## <a name="related-resources"></a>相关资源
 

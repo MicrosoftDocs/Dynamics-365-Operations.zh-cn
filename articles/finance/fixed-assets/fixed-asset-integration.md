@@ -1,7 +1,7 @@
 ---
 title: 固定资产集成
 description: 固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
-author: ShylaThompson
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 290cf4bb28c07dc8ba11250da0fa3af5a8e9cfd7b7c36f688c7f40742dc57b31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761270"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674767"
 ---
 # <a name="fixed-assets-integration"></a>固定资产集成
 

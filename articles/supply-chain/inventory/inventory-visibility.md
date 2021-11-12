@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575163"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678901"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>库存可见性加载项概述
 
@@ -45,8 +45,6 @@ ms.locfileid: "7575163"
 - 查看原始现有库存列表。 此列表定期从缓存实例同步，并在 Dataverse 中显示。 有关详细信息，请参阅[库存可见性应用](inventory-visibility-power-platform.md)。
 
 ## <a name="soft-reservations"></a>软预留
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 当企业必须预留特定数量的产品来为履行订单提供支持，以免超兽之类时，适合采用软预留。 在 Supply Chain Management 或其他订单管理系统中创建并确认订单之后，将向库存可见性发送有关预留该数量的请求。 可使用库存可见性预留具有维度详细信息和特定库存交易类型的产品。 （有关详细信息，请参阅[库存可见性应用](inventory-visibility-power-platform.md) 。）在成功预留数量后，将返回预留 ID。 可以在 Supply Chain Management 或其他订单管理系统中使用此预留 ID 重新链接到原始订单。
 

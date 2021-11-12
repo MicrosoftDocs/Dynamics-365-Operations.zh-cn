@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592480"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678779"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -374,8 +374,6 @@ Body:
 ```
 
 ## <a name="create-reservation-events"></a>创建预留事件
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 若要使用 *预留* API，必须开启预留功能并完成预留配置。 有关详细信息，请参阅[预留配置（可选）](inventory-visibility-configuration.md#reservation-configuration)。
 

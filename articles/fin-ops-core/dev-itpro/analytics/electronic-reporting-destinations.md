@@ -2,7 +2,7 @@
 title: 电子报告 (ER) 目标
 description: 本主题提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743303"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647085"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
@@ -164,12 +164,12 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 ### <a name="applicability"></a>适用性
 
-只能对用于以 Office（Excel 或 Word）格式（**Excel 文件**）生成输出的文件组件打开 PDF 转换选项。 启用此选项后，以 Office 格式生成的输出会自动转换为 PDF 格式。 在 **版本 10.0.18 之前** 的 Finance 版本中，您只能为 **Excel\\ 文件** 类型的组件打开此选项，这些组件用于生成 [Excel](er-fillable-excel.md) 或 [Word](er-design-configuration-word.md) 格式的输出。 但是，在 **版本 10.0.18 及更高版本** 中，您还可以为 **常见\\文件** 类型的组件打开此选项。
+在 **版本 10.0.18 之前** 的 Finance 版本中，只能为 **Excel\\File** 组件打开 PDF 转换选项，这些组件用于生成 Office（Excel 或 Word）格式的输出。 启用此选项后，以 Office 格式生成的输出会自动转换为 PDF 格式。 但是，在 **版本 10.0.18 及更高版本** 中，您还可以为 **常见\\文件** 类型的组件打开此选项。
 
 > [!NOTE]
 > 当您针对 **常见\\文件** 类型的 ER 组件打开 PDF 转换选项时，请注意收到的警告消息。 该消息通知您，在设计时无法保证所选文件组件将在运行时公开 PDF 格式的内容或 PDF 可转换型内容。 因此，只有在确定所选文件组件已配置为在运行时公开 PDF 格式的内容或 PDF 可转换型内容时，才应打开该选项。
 > 
-> 如果您针对 **Excel\\文件** 类型的组件打开了 PDF 转换选项，该组件以 PDF 以外的格式公开内容，并且公开的内容不能转换为 PDF 格式，则在运行时会发生异常。 您收到的消息会告诉您生成的内容无法转换为 PDF 格式。
+> 如果您针对格式组件打开了 PDF 转换选项，该组件以 PDF 以外的格式公开内容，并且公开的内容不能转换为 PDF 格式，则在运行时会发生异常。 您收到的消息会告诉您生成的内容无法转换为 PDF 格式。
 
 ### <a name="limitations"></a>限制
 
@@ -189,16 +189,26 @@ PDF 转换选项仅可用于云部署。
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">选择 PDF 转换的页面方向</a>
 
-如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以指定 PDF 文档的页面方向。 当您选择 **转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向** 字段在 **PDF 转换设置** 快速选项卡上显示。 在 **页面方向** 字段中，选择首选方向。
+如果您以 Excel 格式生成 ER 配置并将其转换为 PDF 格式，您可以明确指定 PDF 文档的页面方向。 当您选择 **转换为 PDF** 复选框以打开文件目标（生成 Excel 格式的输出文件）的 PDF 转换时，**页面方向** 字段在 **PDF 转换设置** 快速选项卡上显示。 在 **页面方向** 字段中，选择首选方向。
 
 [![选择 PDF 转换的页面方向。](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> 若要有选择 PDF 页面方向的选项，您必须安装 Finance 版本 10.0.10 或更高版本。
->
-> 所选页面方向将应用于以 Excel 格式生成然后转换为 PDF 格式的所有 ER 配置。
->
-> 如果将 Word 格式的 ER 配置转换为 PDF 格式，PDF 文档的页面方向将从 Word 文档中获取。
+若要有选择 PDF 页面方向的选项，请安装 Finance 版本 10.0.10 或更高版本。 在 **版本 10.0.23 之前** 的 Finance 版本中，此选项提供以下页面方向选项：
+
+- 纵向打印
+- 横向打印
+
+所选页面方向将应用于以 Excel 格式生成然后转换为 PDF 格式的传出文档的所有页面。
+
+但是，在 **版本 10.0.23 及更高版本** 中，页面方向选项的列表已扩展如下：
+
+- 纵向打印
+- 横向打印
+- 特定于工作表
+
+当您选择 **特定于工作表** 选项时，生成的 Excel 工作簿的每个工作表都将使用在使用的 Excel 模板中为此工作表配置的页面方向转换为 PDF。 因此，您可能有包含纵向和横向页面的最终 PDF 文档。 
+
+如果将 Word 格式的 ER 配置转换为 PDF 格式，PDF 文档的页面方向始终会从 Word 文档中获取。
 
 ## <a name="output-unfolding"></a>输出展开
 

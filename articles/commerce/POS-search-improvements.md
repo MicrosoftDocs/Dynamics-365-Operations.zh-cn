@@ -2,7 +2,7 @@
 title: 销售点 (POS) 中的产品搜索和客户搜索
 description: 此主题概述 Dynamics 365 Commerce 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716383"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700081"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -45,9 +45,9 @@ ms.locfileid: "6716383"
 - 说明
 - 维度
 - 条码
-- 搜索姓名
+- 搜索名称
 
-### <a name="additional-local-product-search-capabilities"></a>其他本地产品搜索功能
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>其他本地产品搜索功能（传统 SQL 全文搜索） 
 
 - 对于多个关键字搜索（即使用搜索词的搜索），零售商可以配置搜索结果是否包括匹配 *任何* 搜索词的结果或仅包括匹配 *所有* 搜索词的结果。 此功能的设置在 POS 功能配置文件中命名为 **产品搜索** 的新组中可用。 默认设置为 **匹配任何搜索词**。 此设置也是建议的设置。 如果使用 **匹配任何搜索词** 设置，将把完全或部分匹配一个或多个搜索词的所有产品作为结果返回。 这些结果将自动按照关键字匹配项（完全或部分）最多的产品的升序排序。
 
@@ -55,6 +55,8 @@ ms.locfileid: "6716383"
 
     - 对单独的产品属性进行搜索。 例如，仅返回在至少一个产品属性中具有所有搜索关键字的产品。
     - 不搜索维度。
+> [!NOTE]
+> POS 功能配置文件中 **匹配任意搜索词**/**匹配所有搜索词** 的以下配置仅适用于 **本地** 产品搜索（传统 SQL 全文搜索）体验。 此配置对云助力的搜索体验没有影响。 新的搜索引擎具有自己的高级算法，为产品搜索结果的搜索相关性提供支持。 
 
 - 零售商可以将产品搜索配置为当用户键入产品名称时显示搜索建议。 此功能的新设置在 POS 功能配置文件中命名为 **产品搜索** 的组中可用。 设置命名为 **在键入时显示搜索建议**。 此功能使员工无需手动键入全部名称，因此可以帮助员工快速查找其搜索的产品。
 - 产品搜索算法现在可以搜索在产品的 **搜索名称** 属性中搜索的词语。
@@ -147,7 +149,5 @@ ms.locfileid: "6716383"
 > 使用 Azure 认知搜索服务的客户搜索功能仅在有限的区域中可用以进行预览。 客户搜索功能在以下地区中 *不* 可用：
 > - 巴西
 > - 印度
-> - 加拿大
-> - 英国
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: 供应商发票自动化的设置选项（预览）
 description: 本主题介绍了可用于设置和配置供应商发票自动化的选项。
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724271"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675461"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>供应商发票自动化的设置选项
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724271"
 
 本主题介绍了可用于设置和配置供应商发票自动化的选项。 发票自动化功能使用以下类型的设置参数：
 
+- 用于在导入的发票中自动应用预付款的参数。
 - 将导入的供应商发票提交到工作流系统并将过帐的物料收货行与待处理的供应商发票行进行匹配的参数。
 - 用于处理自动化后台任务的参数。 流程自动化框架用于将导入的供应商发票提交到工作流系统。 它还用于自动将过帐的产品收货行与待定的供应商发票行进行匹配，并对自动匹配到产品收货行的手动发票执行发票匹配验证。 不同的业务流程使用此框架来定义所选流程的运行频率。 **将物料收货与发票行进行匹配** 和 **将供应商发票提交到工作流** 后台流程的可用频率包括 **小时** 和 **每日**。
 
 若要设置或查看有关后台任务的信息，请转到 **系统管理 \> 设置 \> 流程自动化**，然后选择 **后台任务** 选项卡。
 
 若要通过供应商发票过帐从导入流程中实现非接触式自动化，您必须设置供应商发票工作流。 若要设置工作流，请转到 **应付帐款 > 设置 > 应付帐款工作流**。 为了确保整个发票处理流程都没有人工干预，您必须在您的工作流配置中包括自动化过帐任务。
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>用于在导入的发票中自动应用预付款的参数
+
+- **自动对导入的发票应用预付款** – 当此选项设置为 **是** 时，在导入供应商发票时系统会自动查找对应采购订单的现有预付款。 如果找到可应用的任何预付款，将另外添加一行以在导入的供应商发票中应用预付款。
+- **预付款应用失败时锁定跟进自动化流程** – 当此选项设置为 **是** 时，如果无法应用预付款，将锁定发票。 与其他自动化流程（如收据匹配流程和提交到工作流流程）一样，在手动应用预付款之前，发票自动化流程不会选取被锁定的发票。 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>用于将导入的供应商发票提交到工作流系统的参数
 

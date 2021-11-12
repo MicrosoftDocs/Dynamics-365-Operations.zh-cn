@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580976"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
@@ -46,7 +46,7 @@ ms.locfileid: "7580976"
 
 下表列出了此版本中包含的功能增强。 每一项增强都提供了对现有功能的渐进性改进。 由于它们仅是功能增强，因此未列在[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)中。 但是，为确保这些功能增强不会与您现有的自定义或首选项冲突，默认情况下，每项增强均处于关闭状态（除非另有说明）。 如果要使用这些功能中的任何一个，您必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中明确启用。
 
-| 特征区域 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
+| 模块 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
 | 主计划 | 针对调整后需求预测的并行授权 | 此功能允许从 **调整后的需求预测** 页并行授权调整后的需求预测。 此功能的目的是在授权大量预测时提高性能。 授权时，用户可以在授权对话中指定 **线程数**。 |
 | 主计划 | (预览)计划散装批次订单和包装批次订单的可批处理确认和合并 | 此功能允许您使用批处理作业来确认和合并计划散装订单和包装订单。 |

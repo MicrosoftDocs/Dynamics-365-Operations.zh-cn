@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3438d12f4ffd06b07cbef724cda8fa490a5f4eb
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 9f2f815299335a88663311caaa243f854610f885
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472575"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674795"
 ---
 # <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>未启用评分和评价解决方案时搜索结果和类别页面中显示评分优化器
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本主题提供有关在未为电子商务站点启用 Microsoft Dynamics 365 Commerce 评分和评价解决方案时如何在搜索结果和类别页面中隐藏评分优化器的故障排除说明。
 

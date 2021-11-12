@@ -1,7 +1,7 @@
 ---
 title: 额外折旧
 description: 本文提供红利折旧功能的概览。
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e14e85def96153edb5b52cf9968354945ec673abf4b281648d04132020dc05c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04ee70fab05d033923a675e0db5c62d3c938d0e4
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762332"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674397"
 ---
 # <a name="bonus-depreciation"></a>额外折旧
 

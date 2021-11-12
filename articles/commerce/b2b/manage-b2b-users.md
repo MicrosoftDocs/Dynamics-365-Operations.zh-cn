@@ -2,7 +2,7 @@
 title: 在 B2B 电子商务网站上管理业务合作伙伴用户
 description: 本主题介绍管理员如何在企业到企业 (B2B) 电子商务网站上添加、编辑和删除业务合作伙伴用户。
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734935"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713685"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 
@@ -68,6 +68,18 @@ Commerce headquarters 中的 B2B 电子商务功能让组织可以加入业务�
 1. 转到 **Retail 和 Commerce IT \> 配送计划**，运行 **1010**（**客户**）作业将新创建的客户和客户层次结构记录推送到渠道数据库。
 
 批准请求并将客户和客户层次结构记录同步到渠道数据库后，请求者可以使用他们在提交请求时提供的电子邮件地址登录 B2B 电子商务网站。 用户可以使用注册流来定义其帐户的密码。 要将标识提供者 (Azure AD B2C) 记录链接到在注册或登录时创建的 B2B 客户记录，请按照[启用标识记录到客户帐户的自动链接](../identity-record-linking.md)中的说明操作。
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>在批准或拒绝 B2B 目标客户时通知他们
+
+当您批准或拒绝 B2B 目标客户加入请求时，您可以自动向目标客户发送电子邮件通知。 
+
+要在 Commerce Headquarters 中为 B2B 目标客户已批准或 B2B 目标客户已拒绝通知类型的事件设置电子邮件通知，请按照这些步骤操作。
+
+1. 为在触发 B2B 目标客户已批准或 B2B 目标客户已拒绝通知类型时发送给目标客户的电子邮件创建电子邮件模板。
+
+    有关 B2B 目标客户已批准和 B2B 目标客户已拒绝通知类型支持的占位符的信息，请参阅[通知类型](../email-templates-transactions.md#notification-types)。 有关如何创建电子邮件模板的信息，请参阅[创建电子邮件模板](../email-templates-transactions.md#create-an-email-template)。 
+
+1. 将 B2B 目标客户已批准和 B2B 目标客户已拒绝通知类型添加到电子邮件通知配置文件中，并将它们映射到您创建的电子邮件模板。 有关通知配置文件的详细信息，请参阅[设置电子邮件通知配置文件](../email-notification-profiles.md)。 
 
 ## <a name="onboard-additional-business-partner-users"></a>加入其他业务合作伙伴用户
 

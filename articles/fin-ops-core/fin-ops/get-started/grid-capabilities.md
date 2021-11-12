@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483846"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700129"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 新的网格控件提供了多个有用而强大的功能，您可以用来提高用户生产率、构造更有趣的数据视图并获得有意义的数据见解。 本文将介绍以下功能： 
@@ -32,6 +33,8 @@ ms.locfileid: "7483846"
 -  评估数学表达式 
 -  为表格式数据分组（已使用 **在网格中分组** 功能单独启用）
 -  锁定列
+-  自动调整列宽
+-  可扩展列
 
 ## <a name="calculating-totals"></a>正在计算合计
 在 Finance and Operations 应用中，用户可以在网格中数字列的底部查看总计。 网格底部的页脚部分显示这些总计。 
@@ -43,7 +46,7 @@ ms.locfileid: "7483846"
 - 已配置数字列底部的总计
 - 数据集中的行数 
 
-默认情况下，此页脚为隐藏状态，您可以将其打开。 要显示网格的页脚，右键单击网格中的列标题，然后选择 **显示页脚** 选项。 在为特定网格打开页脚后，该设置将被记住，直到用户选择隐藏页脚为止。 要隐藏页脚，右键单击列标题，选择 **隐藏页脚**。  （**显示页脚/隐藏页脚** 操作的位置可能在以后的更新中移到新位置。 
+默认情况下，此页脚为隐藏状态，您可以将其打开。 要显示网格的页脚，选择网格标头中的 **网格选项** 按钮，然后选择 **显示页脚** 选项。 在为特定网格打开页脚后，该设置将被记住，直到用户选择隐藏页脚为止。 要隐藏页脚，在 **网格选项** 菜单上选择 **隐藏页脚**。  
 
 ### <a name="specifying-columns-with-totals"></a>指定包含总计的列
 当前，默认情况下，没有列会显示总计。 而是将此视为一次性设置活动，类似于调整网格中列的宽度。 指定要查看某列的总计后，该设置将在您下次访问页面时被记住。  
@@ -82,7 +85,7 @@ ms.locfileid: "7483846"
 当用户在服务器要处理的地方之前输入数据时，他们的数据输入体验可能会有所下降，如缺少查找、控制级别验证和默认值输入。 建议需要下拉列表来查找值的用户等待服务器开始处理当前行时再操作。 当服务器处理该行时，也将进行控制级验证和默认值的输入。   
 
 ### <a name="pasting-from-excel"></a>从 Excel 粘贴
-通过使用 **导出到 Excel** 机制，用户始终能够将 Finance and Operations 应用中网格中的数据导出到 Excel。 但是，能够提前于系统输入数据的功能使新网格能够支持从 Excel 复制表并将其直接粘贴到 Finance and Operations 应用内的网格中。 从其发起粘贴操作的网格单元确定复制表开始粘贴的位置。 网格的内容将被复制表的内容覆盖，以下两种情况除外：
+通过使用 **导出到 Excel** 机制，用户始终能够将 Finance and Operations 应用中网格中的数据导出到 Microsoft Excel。 但是，能够提前于系统输入数据的功能使新网格能够支持从 Excel 复制表并将其直接粘贴到 Finance and Operations 应用内的网格中。 从其发起粘贴操作的网格单元确定复制表开始粘贴的位置。 网格的内容将被复制表的内容覆盖，以下两种情况除外：
 
 - 如果复制表中的列数超过网格中剩余的列数（从粘贴位置开始），将通知用户多余列已被忽略。 
 - 如果复制表中的行数超过网格中的行数（从粘贴位置开始），现有单元将被粘贴的内容覆盖，复制表中多余的行将作为新行插入到网格底部。 
@@ -125,6 +128,9 @@ ms.locfileid: "7483846"
 要取消列的锁定，右键单击锁定列标题，然后选择 **取消锁定列**。 
 
 请注意，新网格中的行选择和行状态列始终锁定为前两列。 因此，当这些列包含在网格中时，无论网格中的水平滚动位置如何，用户会始终看到它们。 这两列不能重新排序。
+
+## <a name="autofit-column-width"></a>自动调整列宽
+与 Excel 类似，用户可以根据该列中当前显示的内容自动强制调整列大小。 要执行此操作，双击列中的大小调整句柄，或将焦点放入列标头，然后按 **A**（进行自动调整）。 从版本 10.0.23 起提供此功能。  
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>如何在我的环境中启用新的网格控件？ 

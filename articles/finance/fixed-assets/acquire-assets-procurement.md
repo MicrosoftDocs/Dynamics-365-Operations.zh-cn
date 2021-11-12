@@ -1,7 +1,7 @@
 ---
 title: 通过采购获得资产
 description: 本主题介绍如何设置固定资产和应付帐款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。
-author: ShylaThompson
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b1834f0087931760d223a018c93decdea1ddfddca219fdca57c97181d37084c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c51abd3ce380f0cb1ad688ffab16b239460bc45
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727999"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674739"
 ---
 # <a name="acquire-assets-through-procurement"></a>通过采购获得资产
 

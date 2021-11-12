@@ -2,7 +2,7 @@
 title: 应用库存设置
 description: 本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765258"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647576"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
@@ -39,7 +39,7 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 ## <a name="inventory-settings"></a>库存设置
 
-在 Commerce 中，库存设置在站点构建器中的 **站点设置 \> 扩展 \> 库存管理** 处定义。 有五种库存设置，其中一种已过时（已弃用）：
+在 Commerce 中，库存设置在站点构建器中的 **站点设置 \> 扩展 \> 库存管理** 处定义。 有六种库存设置，其中一种已过时（已弃用）：
 
 - **在应用中启用存货检查** – 此设置打开产品库存检查。 然后，商店模块中的购买框、购物车和提货将检查产品库存，并且仅在有库存时允许将产品添加到购物车中。
 - **库存级别确定条件** – 此设置定义如何计算库存级别。 可用值为 **总可用量**、**实际可用量** 和 **库存不足阈值**。 在 Commerce 中，可以为每个产品和类别定义库存阈值和范围。 库存 API 返回 **总可用量** 属性和 **实际可用量** 属性的产品库存信息。 零售商决定是应该使用 **总可用量** 还是 **实际可用量** 值来确定库存盘点，以及有存货和库存不足状态的相应范围。
@@ -48,8 +48,13 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
 
 - **多个仓库的库存级别** – 此设置可以针对默认仓库或多个仓库计算库存级别。 **基于单个仓库** 选项将基于默认仓库计算库存级别。 或者，电子商务站点可以指向多个仓库以推进履行。 在这种情况下，**基于装运和提货仓库的聚合** 选项用于指示存货可用性。 例如，当客户购买物料并选择“装运”作为交货方式时，可以从履行组中具有可用库存的任何仓库装运物料。 如果履行组中的任何可用装运仓库有库存，产品详细信息页 (PDP) 将为装运显示“有存货”消息。 
 
-> [!IMPORTANT] 
-> **多个仓库的库存级别** 设置从 Commerce 版本 10.0.19 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+    > [!IMPORTANT] 
+    > **多个仓库的库存级别** 设置从 Commerce 版本 10.0.19 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+
+- **产品列表页的库存设置** – 此设置定义库存不足产品在产品集合和搜索结果模块呈现的产品列表中的显示方式。 可用值有 **与其他产品一起按顺序显示**、**从列表中隐藏库存不足产品** 和 **在列表末尾显示库存不足产品**。 要使用此设置，您必须首先在 Commerce Headquarters 中配置一些必备设置。 有关详细信息，请参阅[为搜索结果模块启用库存意识](search-result-module.md#enable-inventory-awareness-for-the-search-results-module)。
+
+    > [!IMPORTANT] 
+    > **产品列表页的库存设置** 设置从 Commerce 版本 10.0.20 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
 - **库存范围** – 此设置定义在站点模块上显示消息的库存范围。 仅当为 **库存级别确定条件** 选择了 **总可用量** 值或 **实际可用量** 值时，此设置才适用。 可用值有 **所有**、**低库存和库存不足** 和 **库存不足**。
 

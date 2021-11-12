@@ -2,7 +2,7 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612356"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675361"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -68,6 +68,9 @@ ms.locfileid: "7612356"
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML 元素 XML 属性 |
 | 分隔，固定宽度 | 逗号、分号、制表符、竖线、冒号 | \-NA-                     |
+
+> [!NOTE]
+> 如果 **文件格式** 选项设置为 **分隔**，则必须为 **行分隔符**、**列分隔符** 和 **文本限定符** 选择正确的值。 请确保您的数据不包含用作分隔符或限定符的字符，因为这可能会在导入和导出过程中导致错误。
 
 ### <a name="sequence-the-entities"></a>给实体排序
 实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。

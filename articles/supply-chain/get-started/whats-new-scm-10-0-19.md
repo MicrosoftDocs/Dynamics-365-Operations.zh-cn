@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638462"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647207"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
@@ -48,7 +48,7 @@ ms.locfileid: "7638462"
 
 下表列出了此版本中包含的功能增强。 每一项增强都提供了对现有功能的渐进性改进。 由于它们仅是功能增强，因此未列在[发布计划](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)中。 但是，为确保这些功能增强不会与您现有的自定义或首选项冲突，默认情况下，每项增强均处于关闭状态（除非另有说明）。 如果要使用这些功能中的任何一个，您必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中明确启用。
 
-| 特征区域 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
+| 模块 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
 | 销售和市场营销 | 销售历史记录清理性能改进 | 如果销售历史记录清理不是经常在具有大量销售更新的环境中运行，可能会花费很长时间。 为了减少持续时间并提高可靠性，此功能将清理分为可在有限持续时间内运行的批处理。 在可能的情况下，将利用数据库功能来最大程度地减少锁定，和避免在清理过程中加入交易表。 有关详细信息，请参阅[销售历史记录清理性能改进](../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。 |
 | 销售和市场营销 | 使用内部公司订单的确认日期更新请求接收日期 | 使用此功能，您可以控制在使用内部公司直接交货时销售和购买日期字段值发生什么行为。 您可以选择系统是更新请求的日期还是跳过更新日期。 如果您跳过更新，请求的日期将代表客户的请求。 如果启用更新，请求的日期（使用交货日期控制时）仅在最初代表客户的请求。 当与 *无* 不同时，交货日期控制将覆盖最初的请求。 您可以使用内部公司供应商或客户设置上的新 **使用确认日期更新请求接收日期** 设置来设置此选项。<br><br>如果禁用此功能，系统将根据交货日期控制规则覆盖原始销售订单上的请求收货日期，但请求的装运日期将保持不变。 |

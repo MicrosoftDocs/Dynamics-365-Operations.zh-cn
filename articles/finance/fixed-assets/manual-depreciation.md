@@ -1,7 +1,7 @@
 ---
 title: 手动折旧
 description: 本文提供手动折旧法的概览。
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 444506bdbf33cb1bd05ae7b55f2059e0eb1ab5b136e8fb1adb6f9e5f53b7067c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743017"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674819"
 ---
 # <a name="manual-depreciation"></a>手动折旧
 
@@ -30,11 +30,11 @@ ms.locfileid: "6743017"
 
 在设置固定资产折旧模板并在 **折旧模板** 页的 **方法** 字段中选择 **手动** 之后，对于分配到此折旧模板的固定资产，其折旧均取决于为日历年度中的每个间隔输入的百分比。 您为其设置百分比的间隔是根据您在 **折旧模板** 页的 **常规** 快速选项卡上的 **期间频率** 字段中选择的值过帐的。 下面是可供选择的值：
 
--   每年
--   每月
--   每季度
--   每半年
--   日常
+- 每年
+- 每月
+- 每季度
+- 每半年
+- 日常
 
 在您选择期间频率后，请单击 **手动计划**，并为每个过帐间隔设置百分比。 手动计划和过帐间隔共同定义折旧金额，如在本文中的下例所示。 手动折旧总是以购置价格的百分比形式进行计算。 对于手动折旧，在折旧间隔中输入的百分比之和不必等于 100%。 手动折旧是一种灵活的折旧方法，通常用来在 **帐簿** 页上定义特别折旧模板，例如用于特殊用途（例如，纳税）的非定期折旧。
 

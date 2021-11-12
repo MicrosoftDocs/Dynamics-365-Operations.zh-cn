@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463826"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700371"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>开始使用电子开票
 
@@ -84,6 +84,7 @@ ms.locfileid: "7463826"
 | 挪威电子发票 (NO)    | <p>客户发票上下文模型</p><p>发票模型</p> |
 | 西班牙电子发票 (ES)      | <p>客户发票上下文模型</p><p>发票模型</p> |
 | PEPPOL 电子发票            | <p>客户发票上下文模型</p><p>发票模型</p> |
+| 沙特阿拉伯电子发票 (SA)| <p>客户发票上下文模型</p><p>发票模型</p> |
 
 
 ## <a name="configure-the-application-setup"></a>配置应用程序设置
@@ -111,7 +112,8 @@ ms.locfileid: "7463826"
     | 荷兰电子发票 (NL)        | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
-    | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
+    | PEPPOL 电子发票            | <p>销售账单</p><p>项目发票</p> | <p>客户发票日记帐</p><p>项目发票</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>客户发票日记帐</p><p>项目发票</p> |
 
 6. 对于您创建的每个表名称，根据下表选择并输入上下文值。
 
@@ -133,6 +135,7 @@ ms.locfileid: "7463826"
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
 
 7. 对于每个表名称和上下文，根据下表选择并输入业务单据映射值。
 
@@ -154,6 +157,7 @@ ms.locfileid: "7463826"
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>应用程序设置的国家/地区特定配置
@@ -207,6 +211,8 @@ ms.locfileid: "7463826"
     | 挪威电子发票 (NO)                     | 挪威          |
     | PEPPOL 电子发票                             | 全局          |
     | 西班牙电子发票 (ES)                       | 西班牙           |
+    | 沙特阿拉伯电子发票 (SA)                 | 沙特阿拉伯    |
+    
 
 4. 选择 **保存**。
 
@@ -244,6 +250,7 @@ ms.locfileid: "7463826"
 - [开始使用适用于墨西哥的电子开票](e-invoicing-mex-get-started.md)
 - [开始使用适用于意大利的电子开票](e-invoicing-ita-get-started.md)
 - [埃及的客户电子发票](emea-egy-e-invoices.md)
+- [沙特阿拉伯的客户电子发票](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

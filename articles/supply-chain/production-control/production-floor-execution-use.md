@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569329"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678681"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -93,7 +93,6 @@ ms.locfileid: "7569329"
 1. **登记停机时间** – 选择此按钮将打开一个对话框，您可以在其中登记机器停机时间。 您可以选择原因码并输入停机时间的日期/时间跨度。 机器停机时间登记用于计算机器资产的效率。
 1. **查看或编辑** – 选择此按钮将打开一个对话框，您可以在其中编辑或查看现有停机时间记录。
 
-
 ## <a name="starting-and-completing-production-jobs"></a>开始和完成生产作业
 
 工作人员通过在 **所有作业** 选项卡上选择作业，然后选择 **开始作业** 以打开 **开始作业** 对话框来开始生产作业。
@@ -109,6 +108,32 @@ ms.locfileid: "7569329"
 当工作人员完成或部分完成作业时，他们可以通过在 **活动作业** 选项卡上选择作业，然后选择 **报告进度** 来报告已生产的完好数量。 然后，在 **报告进度** 对话框中，工作人员使用数字键盘输入完好数量。 默认情况下，该数量为空白。 输入数量后，工作人员可以将作业状态更新为 *进行中*、*已停止* 或 *已完成*。
 
 ![报表进度对话框。](media/pfei-report-progress-dialog.png "报告进度对话框")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>报告具有联产品和副产品的批次订单的完好数量
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+工作人员可以使用生产车间执行界面报告批次订单的进度。 此报告包括联产品和副产品报告。
+
+有些制造商，尤其是加工行业的制造商，使用批次订单来管理他们的生产流程。 批次订单根据配方创建，这些配方可以定义为将联产品和副产品作为输出。 报告有关这些批次订单的反馈后，必须在配方物料上以及联产品和副产品上登记输出金额。
+
+当工作人员完成或部分完成批次订单上的作业时，他们可以报告定义为订单输出的每个产品的完好或报废数量。 定义为批次订单输出的产品可以是 *配方*、*联产品* 或 *副产品* 类型。
+
+要报告产品的完好数量，工作人员在 **活动作业** 选项卡上选择一个作业，然后选择 **报告进度**。
+
+然后，在 **报告进度** 对话框中，工作人员可以在定义为要报告的批次订单输出的产品中进行选择。 工作人员可以在列表中选择一个或多个产品，然后选择 **报告进度**。 对于每个产品，默认情况下数量为空，工作人员可以使用数字键盘输入数量。 工作人员可以使用 **上一个** 和 **下一个** 按钮在所选产品之间移动。 为每个产品输入数量后，工作人员可以将作业状态更新为 *进行中*、*已停止* 或 *已完成*。
+
+![报告联产品和副产品。](media/report-co-by-products.png "报告联产品和副产品")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>报告计划物料的批次订单
+
+当工作人员完成计划物料的批次订单的作业时，他们将仅报告联产品和副产品的数量，因为计划物料不包含 *配方* 类型的物料。
+
+### <a name="reporting-co-product-variation"></a>报告联产品变体
+
+如果从 **联产品变体** 选项设置为 *是* 的配方版本创建批次订单，工作人员可以报告不属于批次订单定义一部分的联产品。 此功能用于生产流程中可能发生意外产品输出的场景。
+
+在这种情况下，工作人员可以通过在报表进度对话框中选择 **联产品变体** 来指定要报告的联产品和数量。 然后，工作人员可以在定义为联产品的所有已发布产品中进行选择。
 
 ## <a name="reporting-scrap"></a>报告废料
 

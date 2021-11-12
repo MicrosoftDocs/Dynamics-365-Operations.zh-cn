@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595137"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725041"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -31,6 +31,64 @@ ms.locfileid: "7595137"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="feature-removal-effective-october-2021"></a>功能删除从 2021 年 10 月开始生效
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 中的 Microsoft Azure SQL 报表
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 所有活动和监视都将由平台通过自动化在内部执行。 不需要任何手动干预。|
+| **被另一个功能取代？**   | 是的，现在有一个自动化系统，它使这些功能过时。 |
+| **影响的产品区域**         | SQL 报表：当前 DTU、当前 DTU 详细信息、获取锁定详细信息、当前计划向导列表、获取查询 ID 列表、获取给定计划 ID 的 SQL 查询计划、获取查询计划和执行状态、获取限制配置、获取等待统计信息、列举最耗资源的查询 |
+| **部署选项**              | 云部署：影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
+| **状态**                         | 已删除 |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS 中的 Azure SQL 操作
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将弃用 LCS 中的部分 SQL 操作。 所有活动和监视都将由平台通过自动化在内部执行。 不需要任何手动干预。 |
+| **被另一个功能取代？**   | 是的，现在有一个自动化系统，它使这些功能过时。 |
+| **影响的产品区域**         | SQL 操作：创建计划指南以强制使用计划 ID，创建计划指南以添加表提示，删除计划指南，禁用/启用页面锁和锁升级，更新表中的统计信息，重建索引，创建索引 |
+| **部署选项**              | 云部署：影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
+| **状态**                         | 已删除 |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>功能弃用从 2021 年 10 月开始生效
+
+### <a name="show-related-document-attachments-feature"></a>“显示相关文档附件”功能
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 此功能返回意外结果。 |
+| **被另一个功能取代？**   | 否。 与此功能相关的任何进一步计划都将通过我们的标准发布波次披露流程传达。 |
+| **影响的产品区域**         | Web 客户端 - 文档附件体验 |
+| **部署选项**              | 全部 |
+| **状态**                         | 已弃用  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.23 的平台更新
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize 事件
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 没有用于执行此事件的控件。 |
+| **被另一个功能取代？**   | 是的，将通过 **OnDBSynchronzie** 事件订阅的现有方法移到 SysSetup 扩展类。 |
+| **影响的产品区域**         | 数据库同步 |
+| **部署选项**              | 全部 |
+| **状态**                         | 已弃用。 计划删除日期为 2022 年 10 月。 |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 添加通知时，Microsoft 需要其他参数。 |
+| **被另一个功能取代？**   | 是的，**SystemNotificationsManager.AddSystemNotification()** API。 此 API 需要您为生成的通知明确设置 ExpirationDateTime 和 RuleID。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 全部 |
+| **状态**                         | 已弃用。 计划删除日期为 2023 年 4 月。 |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.21 的平台更新
 

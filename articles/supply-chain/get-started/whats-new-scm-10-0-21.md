@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.21 中的新增功能或更改的功能。
 author: kamaybac
-ms.date: 08/09/2021
+ms.date: 10/28/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579728"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715246"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 
@@ -38,7 +38,7 @@ ms.locfileid: "7579728"
 | 库存和物流&nbsp;&nbsp; | [Dynamics 365 Supply Chain Management 全球库存核算加载项](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [“全球库存核算”主页](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | 库存和物流&nbsp;&nbsp; | [使用连接到抵销帐户的代码过帐现有库存量调整](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [库存盘点原因代码](../warehousing/reason-codes-for-counting-journals.md) |
 | 库存和物流&nbsp;&nbsp; | [销售报价引用数据导出策略](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | 选择对报价单所引用的数据的更改是否会导致这些报价单（或行）包含在下一次增量导出中。 如果您选择不包含此类报价单或行，则您的增量导出将更快地运行。<br><br>此功能会将一个名为 **在更改跟踪期间跳过销售报价参考数据** 的设置添加到 **应收帐款参数** 页面。 |
-| 库存和物流&nbsp;&nbsp; | 密封投标 <!-- KFM: Add RP link when available --> | [询价的密封投标](../procurement/sealed-bidding.md) |
+| 库存和物流&nbsp;&nbsp; | [密封投标](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [询价的密封投标](../procurement/sealed-bidding.md) |
 | 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) |
 | 库存和物流&nbsp;&nbsp; | [库存可见性加载项中的软预留](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [库存可见性预留](../inventory/inventory-visibility-reservations.md) |
 | 库存和物流&nbsp;&nbsp; | [返点管理的扣缴和实际称重增强功能](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [使用扣缴工作台管理扣缴](../rebate-management/deduction-workbench.md )<br><br>[处理、审核和发布返点](../rebate-management/process-review-post.md)<br><br>[返点管理交易](../rebate-management/rebate-management-deals.md) |
@@ -50,7 +50,7 @@ ms.locfileid: "7579728"
 
 下表列出了此版本中包含的功能增强。 每一项增强都提供了对现有功能的渐进性改进。 由于它们仅是功能增强，因此未列在[发布计划](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)中。 但是，为确保这些功能增强不会与您现有的自定义或首选项冲突，默认情况下，每项增强均处于关闭状态（除非另有说明）。 如果要使用这些功能中的任何一个，您必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中明确启用。
 
-| 特征区域 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
+| 模块 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
 | 成本管理 | 库存结算进度详细信息 | 此预览功能启用库存结算进度的详细视图。 |
 | 采购 | 防止工作流中包含多个采购申请时过度消耗常规预算预留 | 此预览功能可改进用户提交和审核超出常规预算预留行余额的采购申请时的错误检查。 这有助于防止在工作流中存在多个采购申请时过度消耗常规预算预留。 |
@@ -59,6 +59,64 @@ ms.locfileid: "7579728"
 | 仓库管理 | 将储存工作与 ASN 分离 | 当您在缩放单元上运行仓库管理工作负荷（作为分布式混合拓扑的一部分）时，需要使用此功能发送和接收预装运通知 (ASN)。 它添加了专门存储有关储存工作的信息的新数据库表。 以前，此信息存储在也用于 ASN 的表中。 |
 | 仓库管理 | 放入混合单位 | 允许系统将物料插入包括混合单位（例如盒子和箱子）的库位。 对于每个时隙模板行，此功能允许您选择该行是应将物料插入到混合单元库位还是单个单元库位。 |
 | 仓库管理 | 对装箱工作站上关闭/重新打开的集装箱使用更快的 API | 启用此预览功能后，将使用新的轻量流程创建与集装箱相关的库存交易记录，该流程可提高在手动包装站处理期间关闭或重新打开集装箱的性能。 |
+
+## <a name="features-turned-on-by-default-in-this-release"></a>此版本中默认启用的功能
+
+下表列出了 10.0.21 中默认启用的功能。 大多数自动启用的功能都可以在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中关闭。
+
+| 功能名称 | 启用日期 | 功能添加时间 | 功能状态 | 模块 |
+| :--- | :--- | :--- | :--- | :--- |
+| 现有库存报表存储 | 2021 年 9 月 1 日 | 2020 年 4 月 1 日 | 默认打开 | 库存和仓库管理 |
+| 转移单取消 | 2021 年 9 月 1 日 | 2020 年 7 月 13 日 | 默认打开 | 库存和仓库管理 |
+| 将库存日记帐解锁 | 2021 年 9 月 1 日 | 2020 年 8 月 17 日 | 默认打开 | 库存和仓库管理 |
+| 库存管理的已保存视图 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 库存和仓库管理 |
+| 从物料清单行导航到物料清单版本。 | 2021 年 9 月 1 日 | 2019 年 11 月 11 日 | 默认打开 | 库存和仓库管理 |
+| 在库存日记帐中使用度量单位和单位数量。 | 2021 年 9 月 1 日 | 2019 年 11 月 11 日 | 默认打开 | 库存和仓库管理 |
+| 允许空的批属性值 | 2021 年 9 月 1 日 | 2019 年 11 月 11 日 | 默认打开 | 库存和仓库管理 |
+| 自动递增库存转移单行的行号。 | 2021 年 9 月 1 日 | 2019 年 10 月 11 日 | 默认打开 | 库存和仓库管理 |
+| 库存日记账审核工作流 | 2021 年 9 月 1 日 | 2020 年 1 月 6 日 | 默认打开 | 库存和仓库管理 |
+| 启用库存质量管理参数警告功能 | 2021 年 9 月 1 日 | 2019 年 10 月 7 日 | 默认打开 | 库存和仓库管理 |
+| 从销售行创建转移单 | 2021 年 9 月 1 日 | 2019 年 8 月 31 日 | 默认打开 | 库存和仓库管理 |
+| 需求预测详细信息中的预测模型选择 | 2021 年 9 月 1 日 | 2019 年 10 月 11 日 | 默认打开 | 主计划 |
+| 主计划进度可视化 | 2021 年 9 月 1 日 | 2019 年 10 月 7 日 | 默认打开 | 主计划 |
+| 自动确认计划优化 | 2021 年 9 月 1 日 | 2019 年 10 月 11 日 | 默认打开 | 主计划 |
+| 并行确认计划订单 | 2021 年 9 月 1 日 | 2019 年 8 月 31 日 | 默认打开 | 主计划 |
+| 出价提交成功消息 | 2021 年 9 月 1 日 | 2019 年 5 月 15 日 | 默认打开 | 采购 |
+| 添加到采购订单的询价引用链接 | 2021 年 9 月 1 日 | 2019 年 8 月 31 日 | 默认打开 | 采购 |
+| 批量确认通过供应商协作接受的采购订单的能力 | 2021 年 9 月 1 日 | 2019 年 9 月 10 日 | 默认打开 | 采购 |
+| 采购 cXML 增强功能 | 2021 年 9 月 1 日 | 2019 年 11 月 11 日 | 默认打开 | 采购 |
+| 将&quot;打开已发布的询价&quot;链接显示为一个磁贴 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 采购 |
+| 询价问题和回答 | 2021 年 9 月 1 日 | 2020 年 2 月 19 日 | 默认打开 | 采购 |
+| 危险物料产品信息和装运单据 | 2021 年 9 月 1 日 | 2020 年 6 月 14 日 | 默认打开 | 产品信息管理 |
+| 对默认订单数量的严格验证 | 2021 年 9 月 1 日 | 2020 年 6 月 24 日 | 默认打开 | 产品信息管理 |
+| 原产国家/地区管理功能 | 2021 年 9 月 1 日 | 2020 年 7 月 13 日 | 默认打开 | 产品信息管理 |
+| 已发放产品的已保存视图 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 产品信息管理 |
+| 对“审核”和“转移作业”对话框进行的改进 | 2021 年 9 月 1 日 | 2019 年 10 月 11 日 | 默认打开 | 生产控制 |
+| 用于报告为完工入库的牌照已添加作业卡设备 | 2021 年 9 月 1 日 | 2019 年 8 月 31 日 | 默认打开 | 生产控制 |
+| 已将一个“停止休息”新按钮添加到“作业卡终端”页面。 | 2021 年 9 月 1 日 | 2020 年 2 月 19 日 | 默认打开 | 生产控制 |
+| 启用分包物料的部分收货，并解决有关“供应商”类型的物料清单行的废料计算问题。 | 2021 年 9 月 1 日 | 2019 年 11 月 11 日 | 默认打开 | 生产控制 |
+| 用于生产控制的已保存视图 | 2021 年 9 月 1 日 | 2020 年 8 月 17 日 | 默认打开 | 生产控制 |
+| 面向制造业的 Dynamics 365 Guides | 2021 年 9 月 1 日 | 2020 年 7 月 13 日 | 默认打开 | 生产控制 |
+| 生产车间执行 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 生产控制 |
+| 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能。 | 2021 年 9 月 1 日 | 2020 年 5 月 10 日 | 默认打开 | 生产控制 |
+| 销售订单上的费用分配 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 销售和市场营销 |
+| 限制可选择进行过帐的销售订单数 | 2021 年 9 月 1 日 | 2021 年 9 月 1 日 | 默认打开 | 销售和市场营销 |
+| 清除销售订单更新历史记录 | 2021 年 9 月 1 日 | 2021 年 9 月 1 日 | 默认打开 | 销售和市场营销 |
+| 更改周期盘点工作的编号规则 | 2021 年 9 月 1 日 | 2019 年 10 月 7 日 | 默认打开 | 仓库管理 |
+| 基于任务的波次需求补货 | 2021 年 9 月 1 日 | 2019 年 10 月 7 日 | 强制 | 仓库管理 |
+| 隐藏&quot;所有负荷&quot;和&quot;负荷详细信息&quot;页上的“总值”字段 | 2021 年 9 月 1 日 | 2019 年 10 月 7 日 | 默认打开 | 仓库管理 |
+| 波次标签打印 | 2021 年 9 月 1 日 | 2020 年 2 月 19 日 | 强制 | 仓库管理 |
+| 将采购订单库存交易记录与负荷相关联 | 2021 年 9 月 1 日 | 2020 年 1 月 6 日 | 强制 | 仓库管理 |
+| 增强的牌照标签布局 | 2021 年 9 月 1 日 | 2020 年 2 月 19 日 | 默认打开 | 仓库管理 |
+| 组织范围内的工作阻止 | 2021 年 9 月 1 日 | 2020 年 2 月 19 日 | 强制 | 仓库管理 |
+| 工作行详细信息 | 2021 年 9 月 1 日 | 2019 年 10 月 11 日 | 默认打开 | 仓库管理 |
+| 使移动设备库存移动库存状态字段可编辑 | 2021 年 9 月 1 日 | 2019 年 10 月 16 日 | 默认打开 | 仓库管理 |
+| 确认来自批处理作业的出站装运 | 2021 年 9 月 1 日 | 2020 年 7 月 13 日 | 默认打开 | 仓库管理 |
+| 控制是否在移动设备上显示接收汇总页 | 2021 年 9 月 1 日 | 2020 年 4 月 1 日 | 默认打开 | 仓库管理 |
+| 提示解析不明确的&#39;位置/牌照&#39;名称 | 2021 年 9 月 1 日 | 2020 年 4 月 1 日 | 默认打开 | 仓库管理 |
+| 在接收负荷物料期间捕获仓库应用中的产品变型和跟踪维度 | 2021 年 9 月 1 日 | 2020 年 5 月 10 日 | 默认打开 | 仓库管理 |
+| 不允许创建不符合波次负荷构建模板要求的负荷。 | 2021 年 9 月 1 日 | 2020 年 8 月 17 日 | 默认打开 | 仓库管理 |
+| 评估针对多 SKU 库位指令的所有操作 | 2021 年 9 月 1 日 | 9/30/2020 | 默认打开 | 仓库管理 |
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 

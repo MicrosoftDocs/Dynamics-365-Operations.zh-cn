@@ -2,7 +2,7 @@
 title: 导航菜单模块
 description: 此主题介绍导航菜单模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761578"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713844"
 ---
 # <a name="navigation-menu-module"></a>导航菜单模块
 
@@ -41,8 +41,8 @@ ms.locfileid: "6761578"
 |---------------------------|-----------------------|-------------|
 | 源                  | **零售**、**手动创作**、**零售和手动创作** | **零售** 值允许在导航菜单中显示 Commerce 总部的渠道导航层次结构。 **手动创作** 值允许策划静态菜单项。 **零售和手动创作** 值允许混合使用两者。 |
 | 显示类别图像 | **True** 或 **False**    | 启用后，此属性将在 Commerce 总部中为每个类别定义的导航菜单上显示类别图像。 Commerce 版本 10.0.14 中已添加。 |
-| 显示促销 | **True** 或 **False** | 启用此属性后，可以使用图像、链接和文本配置促销。 此属性在 Commerce 版本 10.0.17 中添加。 |
-| 添加促销 | 文本、图像或链接 | **显示促销** 属性启用后，您可以在导航菜单上添加文本、图像或链接作为促销内容。 |
+| 显示促销图像 | **True** 或 **False** | 启用此属性后，可以使用图像、链接和文本配置促销。 此属性在 Commerce 版本 10.0.17 中添加。 |
+|添加类别促销内容 | 文本、图像或链接 | **显示促销图像** 属性启用后，您可以在导航菜单上添加文本、图像或链接作为促销内容。 |
 | 启用多级导航菜单 | **True** 或 **False** | 启用此属性后，导航菜单可以显示多级导航层次结构。 Commerce 版本 10.0.15 中提供此功能。 |
 | 级别数 | 整数 | 如果 **启用多级导航菜单** 属性设置为 **True**，此属性将定义应该显示的级别数。 |
 | 静态菜单项| 值数组| 将菜单项名称与静态站点页的链接关联的静态菜单项。 可以在其他菜单项下创建菜单项。 默认情况下，静态菜单在根级别显示，并将追加到渠道导航层次结构（如果有）。 |

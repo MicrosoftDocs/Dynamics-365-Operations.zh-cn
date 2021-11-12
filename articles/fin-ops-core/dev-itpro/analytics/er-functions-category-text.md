@@ -2,7 +2,7 @@
 title: 文本类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的文本函数的信息。
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741006"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647552"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>文本类别的 ER 函数列表
 
@@ -40,7 +40,8 @@ ms.locfileid: "6741006"
 | [左对齐](er-functions-text-left.md) | 此函数返回 *字符串* 值，该值在指定字符串的开头显示指定的字符数量。 |
 | [Len](er-functions-text-len.md) | 此函数返回 *整数* 值，该值在指定的字符串中显示字符数量。 |
 | [Lower](er-functions-text-lower.md) | 在将指定的文本字符串转换为小写字母后，此函数作为 *字符串* 值返回该字符串。 |
-| [Mid](er-functions-text-mid.md) | 此函数返回 *字符串* 值，该值在指定位置的开始处，在指定的字符串中显示指定的字符数量。 |
+| [Mid](er-functions-text-mid.md) | 此函数返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，此值在指定位置的开始处，在指定的字符串中显示指定的字符数量。 |
+| [NewGUID](er-functions-text-newguid.md) | 此函数返回新生成的 *[GUID](er-formula-supported-data-types-primitive.md#guid)* 值。 |
 | [NumberFormat](er-functions-text-numberformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）显示指定数字。 |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | 在使用指定语言拼出（即转换为文本字符串）指定数字后，此函数作为 *字符串* 返回指定数字。 |
 | [PadLeft](er-functions-text-padleft.md) | 此函数返回指定长度的 *字符串* 值，其中指定字符串的开头是使用一个或多个指定字符的实例填充的。 |
