@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: 调整现有库存量成本价值
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: 库存值存储报表
+                - name: 库存值报表
                   href: cost-management/inventory-value-report-storage.md
+                - name: 库存值报表示例和逻辑
+                  href: cost-management/inventory-value-report-examples.md
                 - name: 库龄报表存储
                   href: cost-management/inventory-aging-report-storage.md
                 - name: 库龄报表示例和逻辑
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: 基于功能选择资源的计划
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: 基于优先级的计划
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: 通过计划优化进行库存标记
                   href: master-planning/planning-optimization/marking.md
                 - name: 内部公司计划
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: 物料的安全存货履行
                   href: master-planning/safety-stock-replenishment.md
+                - name: 使用安全存货日记帐更新物料的最小覆盖范围
+                  href: master-planning/safety-stock-journal.md
                 - name: 延迟
                   href: master-planning/delays.md
                 - name: 取消主计划作业
@@ -2347,10 +2353,12 @@
               href: production-control/mixed-mode-plan.md
             - name: 管理生产中的转包工作
               href: production-control/manage-subcontract-work-production.md
-            - name: 统一作业 ID 编号规则
+            - name: 统一作业 ID 编号顺序
               href: production-control/unified-job-ids.md
             - name: 调用流程自动化流以创建质检订单
               href: production-control/process-automation-quality-orders.md
+            - name: 与第三方制造执行系统集成
+              href: production-control/mes-integration.md
             - name: 离散制造
               items:
                 - name: 维护生产主数据
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: 为生产车间执行界面设计样式
                   href: production-control/production-floor-execution-styles.md
+                - name: 自定义生产车间执行界面
+                  href: production-control/production-floor-execution-customize.md
         - name: 返点管理
           items:
             - name: 返点管理模块概览

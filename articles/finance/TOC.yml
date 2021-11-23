@@ -706,50 +706,8 @@
               href: general-ledger/electronic-messaging-setup.md
             - name: 使用电子消息功能
               href: general-ledger/electronic-messaging-work-with-em.md
-            - name: 调用简单的导出 ER 格式以生成 Excel 报表
+            - name: 调用简单的导出电子报告格式以生成 Excel 报表
               href: general-ledger/electronic-messaging-example.md
-        - name: 费用管理
-          items:
-            - name: 费用管理概览
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: 已重构的费用报表
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: 规划费用管理
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: 费用管理参数
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: 费用管理移动工作区
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: 设置费用管理的工作流
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: 出差费用管理工作流
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: 管理费用委托
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: 支出收据处理
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: 导入和维护信用卡交易记录
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: 费用报表上的分配
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: 内部公司支出
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: 制定支出策略
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: 查看支出报表
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: 发布支出报表
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: 支出报表和多个审核人
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: 支出管理中的增值税退税
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: 出差津贴规则
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: 出差申请
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: 支出报表上的人员支出
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: 固定资产
           items:
             - name: 固定资产主页
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: 设置和管理
               items:
-                - name: 配置 Finance Insights 公开预览版
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: 配置 Finance Insights 个人预览版
+                - name: 配置 Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: 启用客户付款预测
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Finance Insights 故障排除常见问题解答
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: 项目管理与核算
-          items:
-            - name: 项目管理与核算概览
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: 内部公司开单
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: 配置内部公司项目开单
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: 配置人工和支出的标准成本
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: 创建并应用供应商付款保留条款
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: 设置并使用被付后支付的供应商付款
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: 采购收据上的项目成本应计
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: 项目开单
-              href: accounts-payable/project-invoicing.md
-            - name: 项目合同
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: 根据进度创建高级计费合同
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: 项目预测和预算
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: 创建项目预算的预测模型
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: 在会计年度末转移项目预算
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: 项目销售订单
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: 项目采购订单
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: 项目报价单
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 确认、更新并发送项目报价单
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: 将报价单转移到项目
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: 项目资源
-              items:
-                - name: 项目资源概览
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: 设置项目资源
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: 管理资源能力
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: 创建新项目
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: 设置基于角色的定价
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: 创建项目团队
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: 同步资源产能
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: 项目资源计划编制性能
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: 在工作分解结构模板上设置角色
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: 计划资源的资源完成
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: 根据物料需求接收采购订单上的物料
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: 工作分解结构
-              items:
-                - name: 工作分解结构概览
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Client 集成
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Project 移动应用程序概览
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: 项目时间条目移动工作区
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Project Timesheet 移动应用程序
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: 移动设备上的项目工时单
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: 为 Project Timesheet 移动应用实施自定义字段
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: 项目授权
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: 清除项目评估
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: 公共部门
           items:
             - name: 公共部门主页
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: 设置财务设施的 NF-e 参数
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: 将 NF-e XML 文件作为附件移动
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 – 电子会计单据 (NF-e) 中的布局和验证更新
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - NF-e 的中介销售数字平台
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: 查看有关结算的交易记录
                   href: localizations/emea-transactions-settlement-form.md
+                - name: 财务原因
+                  href: localizations/emea-financial-reason.md
             - name: 芬兰
               items:
                 - name: 芬兰概览
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: 银行数据可用性增强
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: 意大利内部统计
-                  href: localizations/emea-ita-intrastat.md
-                - name: 过帐内部统计的到货和发货
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: 内部统计
+                  items:
+                    - name: 意大利内部统计
+                      href: localizations/emea-ita-intrastat.md
+                    - name: 过帐内部统计的到货和发货
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: 内部统计 (IT) 文件格式
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: 内部统计申报中的每千克杂项费用
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: 意向书 - 向常见的出口商提供发票
@@ -3110,7 +2992,9 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: 销售税报表
                   href: localizations/emea-pol-sales-tax-reports.md
-                - name: 按仓库设置编号规则
+                - name: 波兰内部统计
+                  href: localizations/emea-pol-intrastat.md
+                - name: 按仓库设置编号顺序
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: 标准审计文件
                   href: localizations/emea-pol-standard-audit-file-saf.md
@@ -4207,7 +4091,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: 生成包含嵌入图像的 Office 格式报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-                    - name: 设计 ER 格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
+                    - name: 设计电子报告格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
                       href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: 数据绑定中的相对路径
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: 设计表达式以调用应用类方法
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: 在 Finance 中使用电子报告解决方案
               items:
                 - name: 配置框架

@@ -2,7 +2,7 @@
 title: Finance 主页
 description: 本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394555"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753713"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
@@ -41,12 +41,10 @@ ms.locfileid: "7394555"
         - [成本核算](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [支出管理](/dynamics365/project-operations/prod-exp/expense-management)
         - [财务报告](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [固定资产](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [总帐和财务报告](general-ledger/general-ledger.md) 
-        - [项目管理与核算](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [公共部门](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ ms.locfileid: "7394555"
 
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
-国家/地区法规会影响税务设置和财务管理的其他方面。 请参阅我们帮助内容中的[本地化和监管功能](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)部分，了解特定于国家/地区的功能。
+国家/地区法规会影响税务设置和财务管理的其他方面。 要了解特定于国家/地区的功能，请参阅[本地化和监管功能](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)。
 
 ### <a name="additional-content"></a>其他内容
 
-供应链管理功能涵盖了采购到付款流程的多个部分，包括针对您组织所购买的商品或服务的申请、订购、接收、开票和付款。 请参阅 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)，了解有关管理采购、库存和制造的功能的信息。
+供应链管理功能涵盖了采购到付款流程的多个部分，包括：
+
+   - 申请
+   - 订购 
+   - 收货
+   - 开票
+   - 针对您组织所购买的商品或服务付款 
+    
+有关管理采购、库存和制造的功能的信息，请访问 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)。
 
 ## <a name="elearning-courses"></a>网络培训课程
 

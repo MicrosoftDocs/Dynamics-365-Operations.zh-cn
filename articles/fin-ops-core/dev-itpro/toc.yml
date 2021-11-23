@@ -1172,6 +1172,8 @@
               items:
                 - name: 业务事件概览
                   href: business-events/home-page.md
+                - name: 管理业务事件终结点
+                  href: business-events/managing-business-event-endpoints.md
                 - name: 应用程序业务事件
                   href: business-events/app-business-events.md
                 - name: 工作流业务事件
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: 业务事件和 Azure 服务总线
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: 业务事件和 Azure 服务总线队列
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: 业务事件和工作流审核
                       href: business-events/how-to/how-to-workflow.md
                     - name: 业务事件和 Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: 业务事件和 Azure 事件中心
                       href: business-events/how-to/event-hub.md
+                    - name: 订阅 Dataverse 中的事件
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: 财务期间结帐中的业务事件
                       href: business-events/how-to/period-close.md
             - name: 加载项
@@ -1654,8 +1660,6 @@
                   items:
                     - name: 设置唯一的会计科目表分隔符
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: 升级单一凭证日记帐和货币重估
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: 项目资源计划数据模型
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: 工作流子系统更改
