@@ -12,7 +12,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-		"LandingData": "Content",
+        "LandingData": "Content",
         "ContentObject": "Toc"
       },
       "build_entry_point": "docs",
@@ -20,6 +20,7 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": null,
   "report_severity_level": "Verbose",
   "branches_to_filter": [
     "master-sxs",
@@ -28,27 +29,28 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
+  "contribution_branch_mappings": null,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-CN",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
-    },	
-    {	
-      "path_to_root": "_repo.en-us",	
-      "url": "https://github.com/MicrosoftDocs/Dynamics-365-Operations",	
-      "branch": "live",	
-      "branch_mapping": {	
-        "live": "live",	
-        "master": "master"	
-      }	
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/Dynamics-365-Operations",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "main": "main"
+      }
     }
   ],
   "branch_target_mapping": {
@@ -65,6 +67,6 @@
   },
   "need_generate_intellisense": false,
   "docs_build_engine": {
-  "name": "docfx_v3"
+    "name": "docfx_v3"
   }
 }
