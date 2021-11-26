@@ -1,8 +1,8 @@
 ---
 title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
-author: andreabichsel
-ms.date: 02/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3b717cf2fb8663ed8e4981981d563672c9e645c4f9b592ee1896cfef4236396
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772709"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771498"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -106,7 +106,7 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 | --- | --- |
 | 提交将来日期的请假时，余额不正确。 | 预测尚不可用。 显示当前日期的余额。 |
 | 不能取消 **审查中** 请求。 | 现在不支持此功能，将来的版本中将增加此功能。 |
-| 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在“休假和缺勤”参数中配置。 |
+| 将计算截止当天的余额信息。 | 系统现在不显示截止实际期间的余额，即使已在 **休假和缺勤参数** 页上配置。 |
 
 ## <a name="troubleshooting"></a>疑难解答
 
@@ -130,15 +130,15 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 
 2. 确保用户使用与用于审批休假申请相同的凭据登录到 **聊天** 选项卡。 使用消息“注销”，然后使用“登录”以正确的凭据登录。
 
-3. 如果问题仍然存在，请以系统管理员身份检查业务事件系统批处理作业的状态。 如果是处于等待或执行阶段，请过几分钟再次检查。 如果状态保持不变，请记录支持票证，以便我们的团队可以帮助解决问题。
+3. 如果问题仍然存在，请以系统管理员身份检查 **业务事件系统** 批处理作业的状态。 如果是处于 **等待** 或 **执行** 阶段，请过几分钟再次检查。 如果状态保持不变，请记录支持票证，以便我们的团队可以帮助解决问题。
 
 ## <a name="privacy-notice"></a>隐私声明
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft 语言理解智能服务 (LUIS)
 
-Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类的用户输入将传递到一个名为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于理清或了解用户输入的意图（在此示例中，意图为查找信息）和目标实体（在此示例中，意图实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/)，后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。
+Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类用户输入将传递到一个名称为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于厘清或了解用户输入的意图（此示例中的意图为查找信息）和目标实体（此示例中的意向实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/)，后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。
 
-安装并允许访问使用机器人即表示您同意允许 LUIS 服务和 Azure 机器人框架处理输入背后的意图，从而增强对话用户体验。 与 Dynamics 365 Human Resources 相比，LUIS 服务和 Azure 机器人框架的合规性级别可能很多。 由于 LUIS 服务只能访问用户查询，不应连接到用户的 Dynamics 365 Human Resources 数据或帐户，所以 Dynamics 365 Human Resources 机器人的用户可以自愿输入其中包含客户数据、个人数据或其他数据的查询，并且可能将此类查询意图发送给 LUIS 服务和 Azure 机器人框架。 
+安装并允许访问使用机器人即表示您同意允许 LUIS 服务和 Azure 机器人框架处理输入背后的意图，从而增强对话用户体验。 与 Dynamics 365 Human Resources 相比，LUIS 服务和 Azure 机器人框架的合规性级别可能很多。 由于 LUIS 服务只能访问用户查询，不应连接到用户的 Dynamics 365 Human Resources 数据或帐户，所以 Dynamics 365 Human Resources 机器人的用户可以自愿输入其中包含客户数据、个人数据或其他数据的查询，并且可能将此类查询意图发送给 LUIS 服务和 Azure bot framework。 
 
 用户的查询和消息的意图在 LUIS 系统中最多保留 30 天，静态加密，且不用于改进训练或服务。 请在 [此处](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/)详细了解 Cognitive Services。 
 

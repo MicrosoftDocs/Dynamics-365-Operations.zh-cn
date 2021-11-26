@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 31541
 ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
 ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7cdc583f44e50f378702280db6f641204086d226fef138539e43d9787abe206e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5bff9986467b79beb68e9274d3c554fe10c9cbb
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745956"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781821"
 ---
 # <a name="configure-online-stores"></a>配置在线商店
 

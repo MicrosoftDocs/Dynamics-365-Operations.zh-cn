@@ -1,8 +1,8 @@
 ---
-title: 创建数据集成器项目
-description: 此主题介绍如何创建数据集成器项目。
+title: 创建数据集成项目
+description: 此主题介绍如何创建数据集成项目。
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386354"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752656"
 ---
-# <a name="create-a-data-integrator-project"></a>创建数据集成器项目
+# <a name="create-a-data-integration-project"></a>创建数据集成项目
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-此主题介绍如何创建数据集成器项目。
+此主题介绍如何创建数据集成项目。
 
 1. 登录到 Microsoft Dynamics 365 Finance。
 2. 转到 **工作区 \> 数据管理**，然后选择 **数据实体**。 等至所有数据实体都已刷新，然后再继续下一步。
 3. 打开 [Power Apps 门户](https://make.powerapps.com/)，然后按照以下步骤操作：
 
     1. 选择相应环境。
-    2. 在左侧导航窗格中，选择 **数据 \> 连接**。
+    2. 在左侧导航窗格中，选择 **Dataverse \> 连接**。
     3. 连接到以下各项的相应实例：
 
         - Dynamics 365
@@ -41,7 +42,7 @@ ms.locfileid: "7386354"
 
 4. 打开 [Power Apps 环境](https://admin.powerapps.com/environments)，然后按照以下步骤操作：
 
-    1. 选择 **数据集成器**。
+    1. 选择 **数据集成**。
     2. 选择 **连接集**。
     3. 选择 **新建连接集**。
     4. 输入连接名称。
@@ -57,8 +58,7 @@ ms.locfileid: "7386354"
 
     1. 通过使用刚创建的连接集，为以下模板创建数据集成项目：
 
-        - 客户付款见解结果（CDS 到 Fin and Ops）
-            - 如果使用的是版本 10.0.17 或更高版本，则需要使用名为“客户付款见解结果（CDS 到 Fin and Ops 10.0.17+）”的模板。
+        - 客户付款见解结果（CDS 到 Fin and Ops 10.0.17+）
         - 现金流时序结果（CDS 到 Fin 和 Ops）
         - 预算时序结果（CDS 到 Fin 和 Ops）
 

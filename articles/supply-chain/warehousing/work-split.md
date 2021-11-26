@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579872"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778249"
 ---
 # <a name="work-split"></a>工作拆分
 
@@ -33,7 +33,7 @@ ms.locfileid: "7579872"
 
 必须先在系统中开启工作拆分功能及其先决功能，然后才能够使用此功能。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态，然后根据需要开启功能。
 
-首先，开启 *组织范围内的工作锁定* 先决功能（如果尚未开启）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+首先，开启 *组织范围内的工作锁定* 先决功能（如果尚未开启）。 从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。 但是，此功能仍按以下方式列在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中：
 
 - **模块**：*仓库管理*
 - **功能名称**：*组织范围内的工作锁定*

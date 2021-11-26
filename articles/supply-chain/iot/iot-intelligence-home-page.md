@@ -1,24 +1,24 @@
 ---
 title: IoT 智能主页
 description: 本主题提供有关 IoT 智能的信息的链接。
-author: robinarh
+author: tonyafehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f32cb5578f3c15a10f863980491a687f64312cd
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651936"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782673"
 ---
 # <a name="iot-intelligence-home-page"></a>IoT 智能主页
 

@@ -1,8 +1,8 @@
 ---
 title: 根据前一个问题的回答设定问题依赖项
 description: 有条件问题允许您根据前一问题的回答，指定向回答者显示哪些后续问题。
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745686"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728897"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>根据前一个问题的回答设定问题依赖项
 
@@ -30,28 +30,28 @@ ms.locfileid: "6745686"
 
 
 ## <a name="find-the-existing-questionnaire"></a>找到现有的调查表
-1. 转到“调查表”>“设计”>“调查表”。
+1. 转到 **调查表** > **设计** > **调查表**。
 2. 在列表中，选择 WorkFH 调查表。
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>添加所有问题和子问题到调查表中
-1. 单击问题。
-2. 单击“新建”。
-3. 在“问题”字段中，选择问题编号 00016。
+1. 单击 **问题**。
+2. 单击 **新建**。
+3. 在 **问题** 字段中，选择问题编号 00016。
 4. 在列表中，找到并选择所需记录。
 5. 在列表中，单击所选行中的链接。
-6. 单击“保存”。
+6. 单击 **保存**。
 7. 关闭该页面。
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>设置有条件问题的调查表顺序，并使问题依赖于相应问题
-1. 单击“编辑”。
-2. 展开“设置”部分。
-3. 在“问题顺序”字段中，选择“有条件”。
-4. 单击“有条件问题”。
+1. 单击 **编辑**。
+2. 展开 **设置** 部分。
+3. 在 **问题顺序** 字段中，选择“有条件”。
+4. 单击 **有条件** 问题。
 5. 在树结构中，选择“问题\说明为什么以这种方式回答前一问题”。
-6. 在“主要问题”字段中，选择问题编号 00009
+6. 在 **主要问题** 字段中，选择问题编号 00009。
 7. 在列表中，单击所选行中的链接。
-8. 在“回答”字段中，输入您所希望的依赖项的回答选项的序列 ID。 例如，在第一个回答选项中输入 1。
-9. 单击“保存”。
+8. 在 **回答** 字段中，输入您所希望的依赖项的回答选项的序列 ID。 例如，在第一个回答选项中输入 1。
+9. 单击 **保存**。
 10. 在树结构中，选择“问题\我获得公平的工作报酬”。
     * 请注意，问题树已更新以显示差异。  
 

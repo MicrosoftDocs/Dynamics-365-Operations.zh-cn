@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647528"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800185"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -128,8 +128,10 @@ ms.locfileid: "7647528"
 
 ## <a name="grid-shortcuts"></a>网格快捷方式
 
-| 要执行的操作                                                                                                             | 按                           |
+| 要执行的操作                                                                                                             | 按                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| 垂直滚动                                                                                                     | 鼠标滚轮                     |
+| 水平滚动                                                                                                   | Shift + 鼠标滚轮             |
 | 移到下一个/上一个列                                                                                       | Tab / Shift+Tab                 |
 | 移到下一个/上一个行                                                                                          | 向下箭头/向上箭头           |
 | 移到下一行/上一行但不选中<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote> | Ctrl+向上箭头/Ctrl+向下箭头 |
@@ -141,15 +143,15 @@ ms.locfileid: "7647528"
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
 | 移至最后一条记录                                                                                                | Ctrl+End                        |
 | 选中或清除所有行                                                                                               | Ctrl+Shift+M                    |
-| 移至第一个标记行                                                                                           | Alt+Shift+M，F                    |
-| 移至下一个标记行                                                                                            | Alt+Shift+M，L                    |
-| 移至上一个标记行                                                                                        | Alt+Shift+M，P                    |
-| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                    |
+| 移至第一个标记行                                                                                           | Alt+Shift+M，F                  |
+| 移至下一个标记行                                                                                            | Alt+Shift+M，L                  |
+| 移至上一个标记行                                                                                        | Alt+Shift+M，P                  |
+| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                  |
 | 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
 | 打开当前列的网格筛选（焦点放在标题行中）                                              | Enter                           |
-| 调整当前列的大小以适应内容（焦点位于标题行）                                           | A                               |
+| 调整当前列的大小以适应内容（焦点位于标题行）                                           | A（或双击列大小调整句柄） |
 
 ## <a name="input-control-shortcuts"></a>输入控制快捷方式
 

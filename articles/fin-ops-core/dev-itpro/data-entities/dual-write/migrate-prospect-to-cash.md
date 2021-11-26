@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/04/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d216f1c46aa3362730c126ffc33fefdddddf1853
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: d119a9e5874f73e024cedc4cdb581f947e5bf1a0
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416369"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782497"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>将“目标客户到现金”数据从数据集成器迁移到双写入
 

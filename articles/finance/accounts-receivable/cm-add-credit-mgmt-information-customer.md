@@ -1,7 +1,7 @@
 ---
 title: 为客户添加信用管理信息
 description: 本主题说明如何为客户添加信用管理信息。
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 080b1c4a3887aa5f354743315dc11ffd9f089e73350429d5e08710927f6b2454
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724055"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753962"
 ---
 # <a name="add-credit-management-information-for-customers"></a>为客户添加信用管理信息
 

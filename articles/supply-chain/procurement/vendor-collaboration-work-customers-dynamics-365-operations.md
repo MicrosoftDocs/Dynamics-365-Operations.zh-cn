@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575379"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777586"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 
@@ -102,7 +102,7 @@ ms.locfileid: "7575379"
 
     如果您收到了出价邀请，在 **新出价邀请** 页上可以找到相同的询价。 在某些情况下，您可能要对您未收到出价邀请的开放询价出价。 在这种情况下，您可能可以邀请您自己，前提是客户已经对该询价案例启用了自行邀请。
 
-    通过打开 **将“打开发布的询价”链接显示为磁贴** 功能，增强 **打开发布的询价** 链接的可访问性。 此功能可将链接转换为磁贴并将其移动到突出位置，使其可以轻松找到。
+    通过打开 **将“打开发布的询价”链接显示为磁贴** 功能，增强 **打开发布的询价** 链接的可访问性。 此功能可将链接转换为磁贴并将其移动到突出位置，使其可以轻松找到。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 - 选择 **关闭的已发布询价** 链接可以查看公开提供的已关闭询价的列表。 关闭的询价是已经到期的询价。 在询价标头上可以找到到期日期和时间。
 

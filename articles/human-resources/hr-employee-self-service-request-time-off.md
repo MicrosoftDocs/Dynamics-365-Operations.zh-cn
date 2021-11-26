@@ -1,8 +1,8 @@
 ---
 title: 请求休息时间
 description: 在 Dynamics 365 Human Resources 中请求休息时间。
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756092"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771404"
 ---
 # <a name="request-time-off"></a>请求休息时间
 
@@ -42,7 +42,7 @@ ms.locfileid: "6756092"
 
 6. 准备好提交请求时选择 **提交**。 否则，选择 **保存草稿**。
 
-提交新休假请求的员工可以选择不同的休假类型来构建其休假请求。 但是，作为单个休假请求的一部分选择的所有休假类型应具有相同的休假单位。 员工可以在 **申请休假** 窗体中查看每个休假类型的休假单位。
+提交新休假请求的员工可以选择不同的休假类型来构建其休假请求。 但是，作为单个休假请求的一部分选择的所有休假类型应具有相同的休假单位。 员工可以在 **申请休假** 页上查看每个休假类型的休假单位。
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>将附件添加到现有请求
 
@@ -64,7 +64,7 @@ ms.locfileid: "6756092"
 
 1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **查看休息时间**。
 
-2. 在 **休息时间** 窗体上，选择一个或多个要取消的休息时间请求。
+2. 在 **休息时间** 页上，选择一个或多个要取消的休息时间请求。
 
 3. 选择 **取消** 按钮。
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/31/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 673c3a68e2eccdabdfc2df281389537297ec3524bee5e744e910c50d38b8d298
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ed2a8a06b9a026a47ee8bee62aeb63bd64291ef
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720680"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783056"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 

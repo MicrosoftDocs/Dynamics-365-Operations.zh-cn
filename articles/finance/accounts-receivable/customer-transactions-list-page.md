@@ -1,7 +1,7 @@
 ---
 title: 客户交易记录列表页
 description: 此主题提供有关 Microsoft Dynamics 365 Finance 的“客户交易记录列表”页的信息。
-author: mikefalkner
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e91e21c765c30740082ed0c5e5405a8748ffe8cc3babbe821103976d14c7a43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728905"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753866"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 

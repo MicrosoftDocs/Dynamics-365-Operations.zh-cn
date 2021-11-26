@@ -1,7 +1,7 @@
 ---
 title: 打印机和银箱的专用的付款终端和提示
 description: 本主题提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
-author: rubendel
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0611e90e47eabf0cb96208690acda22651d669ae812d2af2547a294c32ed0a1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764529"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779762"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>打印机和银箱的专用的付款终端和提示
 

@@ -2,7 +2,7 @@
 title: 在 Regulatory Configuration Services (RCS) 中配置电子开票
 description: 本主题说明如何在 Dynamics 365 Regulatory Configuration Services (RCS) 中配置电子开票。
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757966"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779662"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>在 Regulatory Configuration Services (RCS) 中配置电子开票
 
@@ -73,6 +73,7 @@ ms.locfileid: "6757966"
 | 西班牙          | 西班牙电子发票 (ES)      | 销售发票和项目发票 |
 | 欧洲         | PEPPOL 电子发票            | PEPPOL 销售发票和项目发票 |
 | 欧洲         | PEPPOL 供应商发票                | PEPPOL 导入供应商发票 |
+| 沙特阿拉伯   | 沙特阿拉伯电子发票 (SA)| 销售发票和项目发票 |
 
 ### <a name="preview-features"></a>预览功能
 
@@ -196,6 +197,11 @@ ms.locfileid: "6757966"
 
 - 销售发票 (ES)
 - 项目发票 (ES)
+
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>沙特阿拉伯 (SA) 电子发票：沙特阿拉伯的销售和项目发票
+
+- 销售电子发票 (SA)
+- 项目电子发票 (SA)
 
 除了现成的可用于电子开票服务的电子报告格式配置外，您还可以创建自己的电子报告格式配置。 但是，为与电子开票功能一起使用创建的格式配置不支持直接引用 Finance 或 Supply Chain Management 或任何相应的元数据。 仅支持对电子报告模型映射的引用。
 

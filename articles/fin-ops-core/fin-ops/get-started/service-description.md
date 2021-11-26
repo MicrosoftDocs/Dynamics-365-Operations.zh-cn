@@ -311,9 +311,9 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
 
 | Microsoft 的职责 | 客户的职责 |
 |---|---|
-| 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 否 |
-| 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 否 |
-| Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 否 |
+| 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 无 |
+| 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 无 |
+| Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 无 |
 | <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 数据丢失最多 5 秒。 有关详细信息，请参阅 [Azure SQL 数据库异地恢复](https://azure.microsoft.com/blog/azure-sql-database-geo-restore)。</p><p>如果数据丢失，Microsoft 将请求客户签字以进行故障转移。</p> | 如果数据丢失，客户可能必须提供书面签字才能触发故障转换。 |
 | 发生故障转移时，适用的服务将以受限模式工作。 故障转移模式下不能触发更新维护。 | 故障模式下客户不能请求包部署和其他常规维护请求。 |
 | 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时时注销。 |
@@ -333,9 +333,9 @@ Microsoft 为 Finance and Operations 客户提供三款支持计划：顶级、�
 | 无限中断/修复事件提交 | 是 | 是 | 是 |
 | 全天候通过 LCS 访问 | 是 | 是 | 是 |
 | 事件响应时间 | 少于 1 小时 | 少于 1 小时 | 下一个工作日 |
-| 咨询小时 | 按协议购置池。 | 无 | 无 |
-| 专门的支持客户经理 | 是 | 无 | 无 |
-| 专门的支持工程师 | 根据单独的协议联系 | 无 | 无 |
+| 咨询小时 | 按协议购置池。 | 否 | 否 |
+| 专门的支持客户经理 | 是 | 否 | 否 |
+| 专门的支持工程师 | 根据单独的协议联系 | 否 | 否 |
 
 有关详细信息，请参阅[支持概述](/power-platform/admin/support-overview)。
 

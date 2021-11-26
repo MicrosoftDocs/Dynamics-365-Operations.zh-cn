@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471732"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733431"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 
@@ -32,8 +32,8 @@ ms.locfileid: "7471732"
 
 分布式混合拓扑引入了 *缩放单元* 之一概念，从而可将店面和仓库执行工作负载分布到不同环境。 此功能可以帮助提高性能，防止服务中断并最大化运行时间。 通过 Supply Chain Management 订阅的以下加载项提供缩放单元：
 
-- Dynamics 365 Supply Chain Management 的 Cloud Scale Unit 加载项（*2021 年 4 月推出*）
-- Dynamics 365 Supply Chain Management 的 Edge Scale Unit 加载项（*即将推出*）
+- Dynamics 365 Supply Chain Management 的 Cloud Scale Unit 加载项
+- Dynamics 365 Supply Chain Management 的 Edge Scale Unit 加载项
 
 将通过增量增强不断发布工作负荷功能。
 
@@ -51,21 +51,12 @@ ms.locfileid: "7471732"
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用仓库管理工作负荷功能
 
-仓库管理工作负荷是缩放单元的第一个分发的工作负荷，并且已正式发布。
-
-对于仓库管理，缩放单元提供以下功能：
-
-- 系统可以处理销售订单和需求补货的选定波次方法。
-- 仓库工作人员可以使用仓库管理移动应用运行销售和需求补货仓库工作。
-- 仓库工作人员可以使用仓库管理移动应用查询现有库存。
-- 仓库工作人员可以使用仓库管理移动应用创建和运行库存移动。
-- 仓库工作人员可以使用仓库管理移动应用登记采购订单并进行储存。
-
+仓库管理工作负荷使您能够在孤立部署下运行仓库管理流程。
 有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](cloud-edge-workload-warehousing.md)。
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用制造执行工作负荷功能
 
-制造工作负荷的第一个版本当前处于预览状态，将提供以下功能：
+制造工作负荷提供以下功能：
 
 - 机器操作员和车间主管可以访问操作生产计划。
 - 机器操作员可以通过运行离散和流程制造作业来使计划保持最新状态。
@@ -191,17 +182,33 @@ Microsoft 将审查您的请求，并通过向您在注册窗体中提供的地�
 
 完成加入后，您可以使用端口配置缩放单元和工作负荷。
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>使用缩放单元管理器门户管理 Cloud Scale Unit 和工作负荷
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>使用缩放单元管理器门户管理缩放单元和工作负荷
 
 转到[缩放单元管理器门户](https://aka.ms/SCMSUM)，然后使用您的租户帐户登录。 在 **配置缩放单元** 页面上，如果尚未列出中心环境，则可以添加一个。 然后，可以选择要使用缩放单元和工作负荷配置的中心。
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元和工作负荷管理体验。":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元管理器门户的配置缩放单元页面。":::
 
 若要添加一个或多个在订阅中可用的缩放单元，请选择 **添加缩放单元**。
 
 在 **已定义工作负荷** 选项卡上，使用 **创建工作负荷** 按钮将仓库管理工作负荷添加到您的缩放单元之一。 对于每个工作负荷，您必须指定工作负荷将负责的流程的上下文。 对于仓库管理工作负荷，上下文是特定站点和法人中的特定仓库。
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="工作负荷创建。":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="定义工作负荷对话。":::
+
+#### <a name="manage-workloads"></a>管理工作负荷
+
+启用一个或多个工作负荷后，使用 **管理工作负荷** 选项启动和管理流程，如下表中列出的流程。
+
+| 加工 | Description |
+|---|---|
+| 暂停缩放单元通信 | 暂停中心和缩放单元之间的管道消息。 此流程将停止通信并清理中心和缩放单元之间的数据管道。 您必须在中心或缩放单元上运行 Supply Chain Management 服务操作之前运行此流程，也可以在其他情况下使用它。 |
+| 继续缩放单元通信 | 继续中心和缩放单元之间的管道消息。 例如，在中心或缩放单元上运行 Supply Chain Management 服务操作后，您可能必须使用此流程。 |
+| 升级工作负荷 | 在中心和缩放单元工作负荷之间同步新功能。 例如，当服务导致数据交换查询发生变化和/或在工作负荷中添加了新表或字段时，您可能必须使用此流程。 |
+| 将工作负荷转移到缩放单元 | 计划目前在中心运行的工作负荷，将其移到缩放单元。 运行此流程时，数据的同步将流动，中心和缩放单元都将设置为更改工作负荷的所有权。 |
+| 将缩放单元转移到中心 | 计划目前在缩放单元上运行的工作负荷，将其移到中心。 运行此流程时，数据的同步将流动，中心和缩放单元都将设置为更改工作负荷的所有权。
+| 紧急转移到中心 | <p>将现有工作负荷立即转移到中心。 *此流程仅更改中心当前可用数据的所有权。*</p><p><strong>警告：</strong>此流程可能会因数据未同步导致数据丢失以及导致业务处理失败。 因此，它应该只在紧急情况下使用：由于缩放单元出现无法在合理时间内缓解的中断，必须在中心处理业务流程。</p> |
+| 停用分布式拓扑 | 删除缩放单元部署，仅在中心运行，无需处理工作负荷。 |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="缩放单元和工作负荷管理体验。":::
 
 > [!TIP]
 > 随着时间的推移，将向缩放单元管理器体验添加增量增强，以帮助简化生命周期管理操作。 当前版本的特定功能记录在加入手册中，该手册适用于正在加入到 Supply Chain Management 的分布式混合拓扑。 <!-- KFM: Add a link to the handbook when it is published -->

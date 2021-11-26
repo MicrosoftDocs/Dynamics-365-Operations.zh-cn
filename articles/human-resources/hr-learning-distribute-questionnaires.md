@@ -1,8 +1,8 @@
 ---
 title: 分发和计划调查表
-description: 本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
-author: andreabichsel
-ms.date: 04/04/2017
+description: 本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755507"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728995"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
+本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
 
 有多种方式来分配调查表：
 
--   将调查表标记为有效。 然后，调查表可用于所有员工，除非设置调查表组来限制对它的访问。
+-   将调查表标记为 **有效**。 然后，调查表可用于所有员工，除非设置调查表组来限制对它的访问。
 -   向调查表组分配权限。 然后，调查表可供所选组的所有成员使用。
 -   创建计划应答期。 然后，调查表只可供特定人员使用。
 -   创建计划。 然后，调查表中可供多个人员使用。

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6450ef7b0a59df3a8da2c8bed3aa9c0b14a9cc97
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 434d1a432cc4b8cfd31198f8f668aef6e04a51fa
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417049"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782595"
 ---
 # <a name="guidance-for-dual-write-setup"></a>双写入设置指南
 

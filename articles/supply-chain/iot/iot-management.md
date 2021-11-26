@@ -1,25 +1,25 @@
 ---
 title: 监视和管理 IoT 智能
 description: 本主题说明如何监视和管理 IoT 智能。
-author: robinarh
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9d0bea8fb434e4733715da7ec88e33d3f25733339e4987df8f704227dc387ab9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736835"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782649"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>监视和管理 IoT 智能
 

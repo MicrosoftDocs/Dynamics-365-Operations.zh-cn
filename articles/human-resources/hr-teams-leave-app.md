@@ -1,8 +1,8 @@
 ---
 title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725858"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771523"
 ---
 # <a name="manage-leave-requests-in-teams"></a>管理 Teams 中的休假申请
 
@@ -41,7 +41,7 @@ ms.locfileid: "6725858"
 如果应用不让您自动登录，请选择 **设置** 选项卡登录。
 
 > [!NOTE]
-> 如果未看到登录对话框，请检查浏览器设置允许弹出窗口。 
+> 如果未看到登录对话框，请更新浏览器设置允许弹出窗口。 
 
 如果可以访问多个 Human Resources 实例，可以在 **设置** 选项卡中选择要连接哪个环境。
 
@@ -53,7 +53,7 @@ ms.locfileid: "6725858"
 安装应用后，将显示欢迎消息，告知您机器人可代表您执行的操作类型。
 
 > [!NOTE]
-> 首次与机器人交互时，可能需要登录。 如果未看到登录对话框，请检查浏览器设置允许弹出窗口。
+> 当您首次与机器人交互时，可能必须登录。 如果未看到登录对话框，请更新浏览器设置允许弹出窗口。
 
 可以让机器人：
 
@@ -113,7 +113,7 @@ ms.locfileid: "6725858"
    
 ### <a name="respond-to-teams-notifications"></a>响应 Teams 通知
 
-当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知进行查看。 也会在 **聊天** 区域中显示通知。
+当您或作为审批者的您的下属工作人员提交请假时，您将在 Teams 中的 Human Resources 应用内收到通知。 您可以选择通知来查看休假请求。 也会在 **聊天** 区域中显示通知。
 
 如果您是审批者，您可以在通知中选择 **批准** 或 **拒绝**。 还可以提供可选消息。
 
@@ -199,7 +199,7 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 
 2. 确保用户使用与用于审批休假申请相同的凭据登录到 **聊天** 选项卡。 使用消息“注销”，然后使用“登录”以正确的凭据登录。
 
-3. 如果问题仍然存在，请以系统管理员身份检查业务事件系统批处理作业的状态。 如果是处于等待或执行阶段，请过几分钟再次检查。 如果状态保持不变，请记录支持票证，以便我们的团队可以帮助解决问题。
+3. 如果问题仍然存在，请以系统管理员身份检查 **业务事件系统** 批处理作业的状态。 如果是处于 **等待** 或 **执行** 阶段，请过几分钟再次检查。 如果状态保持不变，请记录支持票证，以便我们的团队可以帮助解决问题。
 
 ## <a name="known-accessibility-issues"></a>已知的可访问性问题
 
@@ -208,7 +208,7 @@ Teams 中的 Human Resources 应用具有以下可访问性问题，我们正在
 | 签发 | 解决方法或说明 |
 | --- | --- |
 | 在桌面上放大到 400％ 时，将看不见某些操作按钮。 | 建议您改用放大镜，直到我们可以支持此缩放级别为止。 |
-| 在 **休假** 选项卡上，在读出休假网格的标题时，VoiceOver 将宣布一个按钮操作。 | 网格中的标题和元素按年份分组，并且可以折叠。 VoiceOver 将此解释为可操作的项目，但并非如此。 |
+| 在 **休假** 选项卡上，在读出休假网格的标题时，VoiceOver 将宣布一个按钮操作。 | 网格中的标题和元素按年份分组，并且可以折叠。 VoiceOver 将此状态解释为可操作的项目，但并非如此。 |
 | 在 **休假** 选项卡上，当在新请求中导航到 **原因代码** 时，有一个额外的轻扫手势。 | 没有轻扫导航要尝试获取的隐藏控件。 |
 | 在 **休假** 选项卡上，如果您在打开日历时进行轻扫，您最终位于控件之外，而不是在新请求中或编辑请求时位于顶部。 | 当您到达 **立即前往** 时，将其视为控件的结束，然后以相反方向轻扫以返回到顶部。 |
 | 在 **聊天** 选项卡上，在使用辅助工具或键盘导航的同时输入日期时，焦点会跳回到顶部。 | 按 Tab 键，直到再次到达输入区域。 |
@@ -217,9 +217,9 @@ Teams 中的 Human Resources 应用具有以下可访问性问题，我们正在
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft 语言理解智能服务 (LUIS)
 
-Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类的用户输入将传递到一个名为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于理清或了解用户输入的意图（在此示例中，意图为查找信息）和目标实体（在此示例中，意图实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/)，后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。 
+Microsoft Teams 中的 Dynamics 365 Human Resources 机器人用于分析用户的文本输入以了解底层的查询/意图。 “搜索帐户 Contoso”之类用户输入将传递到一个名称为语言理解智能服务 (LUIS) 的 Microsoft Cognitive Service。 请在 [此处](https://www.luis.ai/)详细了解 LUIS。 LUIS 服务用于厘清或了解用户输入的意图（此示例中的意图为查找信息）和目标实体（此示例中的意向实体为帐户 Contoso）。 然后将此信息继续传递到 Microsoft 的  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/)，后者与来自 Dynamics 365 Human Resources 的数据交互和检索用户查询所需信息。 
 
-安装并允许访问使用机器人即表示您同意允许 LUIS 服务和 Azure 机器人框架处理输入背后的意图，从而增强对话用户体验。 与 Dynamics 365 Human Resources 相比，LUIS 服务和 Azure 机器人框架的合规性级别可能很多。 由于 LUIS 服务只能访问用户查询，不应连接到用户的 Dynamics 365 Human Resources 数据或帐户，所以 Dynamics 365 Human Resources 机器人的用户可以自愿输入其中包含客户数据、个人数据或其他数据的查询，并且可能将此类查询意图发送给 LUIS 服务和 Azure 机器人框架。 
+安装并允许访问使用机器人即表示您同意允许 LUIS 服务和 Azure 机器人框架处理输入背后的意图，从而增强对话用户体验。 与 Dynamics 365 Human Resources 相比，LUIS 服务和 Azure 机器人框架的合规性级别可能很多。 由于 LUIS 服务只能访问用户查询，不应连接到用户的 Dynamics 365 Human Resources 数据或帐户，所以 Dynamics 365 Human Resources 机器人的用户可以自愿输入其中包含客户数据、个人数据或其他数据的查询，并且可能将此类查询意图发送给 LUIS 服务和 Azure bot framework。 
 
 用户的查询和消息的意图在 LUIS 系统中最多保留 30 天，静态加密，且不用于改进训练或服务。 请在 [此处](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/)详细了解 Cognitive Services。 
 

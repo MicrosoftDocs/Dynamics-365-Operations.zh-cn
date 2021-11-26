@@ -1,8 +1,8 @@
 ---
 title: 配置 Human Resources 参数
 description: 本主题说明如何在 Dynamics 365 Human Resources 中设置特定于公司的参数。
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739243"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771427"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 
@@ -65,7 +65,7 @@ ms.locfileid: "6739243"
 
 **招聘** 选项卡上的设置定义用于自动发送给申请人的通信的文档类型。 您还可以指出用于主动提供的申请的招聘项目。
 
-为招聘项目帐龄定义的期间确定包含在 **招聘管理** 工作区中的 **帐龄项目** 磁贴上的招聘项目。 为申请截止日期警告定义的期间用于显示接近其在 **招聘** 工作区中的 **接近申请截止日期** 磁贴上的申请截止日期的招聘项目。
+在 **招聘项目帐龄** 中定义的期间确定哪些招聘项目包含在 **招聘管理** 工作区中的 **帐龄项目** 磁贴上。 为申请截止日期警告定义的期间用于显示接近其在 **招聘** 工作区中的 **接近申请截止日期** 磁贴上的申请截止日期的招聘项目。
 
 有关招聘的详细信息，请参阅[招聘工作应聘者](hr-personnel-recruit.md)。
 
@@ -107,20 +107,20 @@ ms.locfileid: "6739243"
 
 ## <a name="employee-self-service"></a>员工自助服务
 
-**员工自助服务** 选项卡上的设置会影响员工自助服务对员工的显示方式。 在此选项卡上，您可以：
+**员工自助服务** 选项卡上的设置会影响 **员工自助服务** 对员工的显示方式。 在此选项卡上，您可以完成以下任务：
 
-- 为员工自助服务工作区输入名称
+- 为 **员工自助服务** 工作区输入名称
 - 选择经理可以为员工输入的信息
 - 为员工添加有用的链接
 - 限制员工添加或编辑业务联系人详细信息。 有关详细信息，请参阅[限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)。
 
-有关设置员工自助服务的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
+有关如何设置 **员工自助服务** 的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
 
 ![员工自助服务选项卡。](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>经理自助服务
 
-**经理自助服务** 选项卡上的设置会影响经理在经理自助服务中看到的内容。 在此选项卡上，您可以配置以下选项：
+**经理自助服务** 选项卡上的设置会影响经理在 **经理自助服务** 中看到的内容。 在此选项卡上，您可以配置以下选项：
 
 - 即将过期的记录的范围
 - 经理可以在即将过期的记录中查看的信息
@@ -128,13 +128,13 @@ ms.locfileid: "6739243"
 - 正离职的工作人员视图
 - 对经理有用的链接
 
-有关设置经理自助服务的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
+有关如何设置 **经理自助服务** 的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
 
 ![经理自助服务选项卡。](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>福利管理
 
-在“福利管理”选项卡上，您可以为“福利管理”配置电子邮件选项。 有关设置和使用福利管理的信息，请参阅[福利管理概述](hr-benefits-management-overview.md)。
+在 **福利管理** 选项卡上，您可以为“福利管理”配置电子邮件选项。 有关如何设置和使用福利管理的信息，请参阅[福利管理概述](hr-benefits-management-overview.md)。
 
 ![福利管理选项卡。](./media/hr-setup-parameters-benefits-management.png)
 

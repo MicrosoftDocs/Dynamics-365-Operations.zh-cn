@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e850b44479d36c16db3c993e196cd6bfdbc52ee7
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416593"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782348"
 ---
 # <a name="note-integration"></a>注释集成
 
@@ -26,7 +26,7 @@ ms.locfileid: "7416593"
 
 可以通过以下方式对客户信息进行分类：
 
-+ **Dynamics 365 用户代表客户处理的可操作信息** – 例如，Contoso（一个 Dynamics 365 用户）在举办一个游戏节目。 Contoso 的一位客户（一个客户）希望参加此游戏节目。 客户要求 Contoso 员工为其预订该游戏节目中的广告位。 预订在 Contoso 的活动参与者日历中进行。
++ **Dynamics 365 用户代表客户处理的可操作信息** – 例如，Contoso（Dynamics 365 用户）正在进行游戏节目。 Contoso 的一位客户（一位客户）希望参加游戏节目。 客户要求 Contoso 员工为其预订游戏节目中的广告位。 预订在 Contoso 的活动参与者日历中进行。
 + **Dynamics 365 用户的可操作信息** – 例如，购买 Surface 设备的客户输入特殊说明，指明该设备在交付前应进行礼品包装。 这些说明是可操作信息，应由负责包装的 Contoso 员工进行处理。
 + **非可操作性信息** – 例如，客户访问了 Contoso 商店，并且在与售货员交谈期间表达了 *Halo* 游戏和游戏配件方面的兴趣。 售货员记录了此信息。 然后，产品推荐引擎使用此信息向客户提供建议。
 

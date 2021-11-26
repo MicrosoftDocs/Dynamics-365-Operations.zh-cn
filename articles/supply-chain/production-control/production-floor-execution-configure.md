@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647181"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777953"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -39,7 +39,7 @@ ms.locfileid: "7647181"
 
 ### <a name="the-production-floor-execution-interface"></a>生产车间执行界面
 
-这是此主题中所述的主要功能。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+这是此主题中所述的主要功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - 生产车间执行
 
@@ -47,19 +47,19 @@ ms.locfileid: "7647181"
 
 这些功能让牌照功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
+1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
 
 ### <a name="print-labels"></a>打印标签
 
 这些功能让标签打印功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
+1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 1. 通过作业卡设备打印标签
 
 ### <a name="allow-locking-the-touch-screen"></a>允许锁定触摸屏
 
-此功能在生产车间执行界面中添加了一个按钮，让工作人员可以对触摸屏进行净化。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 此功能在生产车间执行界面中添加了一个按钮，让工作人员可以对触摸屏进行净化。 如果您想要使用它，请确保在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576032"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777581"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过仓库管理移动应用的牌照接收
 
@@ -77,7 +77,7 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 - **显示详细摘要** – 牌照收货期间，工作人员将看到一个额外页面，其中显示完整的 ASN 信息。
 - **跳过摘要** – 工作人员将看不到完整的 ASN 信息。 仓库工作人员也将无法在接收过程中设置处置代码或添加例外。
 
-要使此功能在您的系统上可用，您必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *控制是否在移动设备上显示接收摘要页* 功能。
+要使此功能在您的系统上可用，必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *控制是否在移动设备上显示接收摘要页* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>阻止转移单已装运牌照用于目标仓库以外的其他仓库
 

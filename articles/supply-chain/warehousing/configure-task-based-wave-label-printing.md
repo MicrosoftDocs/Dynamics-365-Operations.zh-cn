@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735888"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777857"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>在波次期间计划波次标签打印
 
@@ -33,7 +33,7 @@ ms.locfileid: "6735888"
 若要使用本主题中描述的功能，必须为您的系统打开这些功能。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区按以下顺序打开功能：
 
 1. *波次标签打印* – 为波次标签打印启用波次流程方法时需要此功能。
-1. *组织范围内的工作锁定* - 手动和自动配置计划的工作创建时需要此功能。
+1. *组织范围内的工作锁定* - 手动和自动配置计划的工作创建时需要此功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
 1. *基于任务的波次标签打印* – 将波次标签打印拆分为单独的交易范围时需要此功能。
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>手动启用新的波次步骤方法

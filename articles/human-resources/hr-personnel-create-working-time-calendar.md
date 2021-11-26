@@ -1,8 +1,8 @@
 ---
 title: 创建日历并生成工作时间
-description: 日历描述运营资源的产能和工作时间。 本文介绍如何定义基于工作时间模板的工作日历。
-author: andreabichsel
-ms.date: 07/09/2019
+description: 日历描述运营资源的产能和工作时间。 此主题介绍如何定义基于工作时间模板的工作日历。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalend
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e25acf541fe607d1b28ba8a0492186f2a8eaad949c84d8d61ba492a2072e38e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726985"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731659"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>创建日历并生成工作时间
 
@@ -26,15 +26,15 @@ ms.locfileid: "6726985"
 
 
 
-日历描述运营资源的产能和工作时间。 本文介绍如何定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
+日历描述运营资源的产能和工作时间。 此主题介绍如何定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 
 1. 在主页上，选择 **资源生命周期管理**。
 2. 选择 **日历**。
 3. 选择 **新建**。
 4. 在 **日历** 字段中，为日历分类。 这是日历的 ID，用作分配日历时的参考，如分配至运营资源或资源组。  
-5. 在 **名称** 字段中，为日历命名。
+5. 在 **名称** 字段中，为日历输入名称。
 6. 在 **标准工作日工时数** 字段中，输入一个数字。
-7. 确保选择行，然后从操作窗格选择 **工作时间**。
+7. 确保选择行，然后从 **操作窗格** 选择 **工作时间**。
 8. 选择 **设计工作时间**。 生成您希望能够安排工作的每日工时。 随着时间的推移，您可以生成其他期间的工作时间。  
 9. 在 **开始日期** 字段中输入日期。 这是日历必须打开的第一天。  
 10. 在 **结束日期** 字段中输入日期。 这是日历打开的最后一天。  

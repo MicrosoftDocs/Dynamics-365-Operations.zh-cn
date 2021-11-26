@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344166"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778075"
 ---
 # <a name="wave-label-printing"></a>波次标签打印
 
@@ -53,7 +53,7 @@ ms.locfileid: "7344166"
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>开启波次标签打印功能
 
-*波次标签打印* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。 但是，此功能仍按以下方式列在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中：
 
 - **模块**：*仓库管理*
 - **功能名称**：*波次标签打印*

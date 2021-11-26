@@ -1,8 +1,8 @@
 ---
 title: 制订继任计划
 description: 随着组织的发展，您必须开始继任计划。
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768207"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731508"
 ---
 # <a name="develop-a-succession-plan"></a>制订继任计划
 
@@ -48,7 +48,7 @@ ms.locfileid: "6768207"
 20. 在 **重要** 字段中选择一个选项。
 21. 在列表中，选择第 4 行 。
 22. 选择 **可选** 复选框。
-23. 在“重要”字段中选择一个选项。
+23. 在 **重要** 字段中选择一个选项。
 24. 展开 **教育** 快速选项卡以查看或编辑技能表所包含的教育能力。
 25. 选择 **执行**。
 26. 选择 **确定**。

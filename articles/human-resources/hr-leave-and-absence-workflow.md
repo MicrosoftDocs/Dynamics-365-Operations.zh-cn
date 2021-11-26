@@ -1,8 +1,8 @@
 ---
 title: 创建休假请求工作流
 description: 在 Dynamics 365 Human Resources 中创建休假和缺勤请求工作流以一致地管理休假请求。
-author: andreabichsel
-ms.date: 05/08/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35ce23c46acf4fe9b01a40ca01fb63c4b36f03edd10eb8b56863d4bb84f01ee9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c8030e568ac8ef47d8383f09e06ce02a62947698
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722551"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728630"
 ---
 # <a name="create-a-leave-request-workflow"></a>创建休假请求工作流
 

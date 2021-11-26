@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746811"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777807"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 
@@ -36,7 +36,7 @@ ms.locfileid: "6746811"
 1. 然后，启用 *通过仓库应用创建转移单* 功能，该功能列出为：
     - **模块** - 仓库管理
     - **功能名称** - 通过仓库应用创建和处理转移单
-1. 若要自动化出站装运的过程，您还必须启用[从批处理作业确认出站装运](confirm-outbound-shipments-from-batch-jobs.md)功能。 此功能列出为：
+1. 若要自动化出站装运的过程，您还必须启用[从批处理作业确认出站装运](confirm-outbound-shipments-from-batch-jobs.md)功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
     - **模块** - 仓库管理
     - **功能名称** - 从批处理作业确认出站装运
 

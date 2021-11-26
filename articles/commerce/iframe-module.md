@@ -2,7 +2,7 @@
 title: iframe 模块
 description: 此主题介绍 iframe 模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767282"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754006"
 ---
 # <a name="iframe-module"></a>Iframe 模块
 
@@ -66,10 +66,13 @@ iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 H
 1. 根据您的要求设置其他属性，如 **标题** 和 **高度**。
 1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 1. 转到您的站点上的市场营销页面。 您应该会看到视频已在 iframe 模块中呈现。
- 
+
+> [!NOTE]
+> 由于 iframe 模块托管外部内容，站点作者必须确保 iframe 模块内托管的内容不会违反相应市场的内容限制政策。 如果使用 iframe 模块的页面存在内容违规，站点作者可以通过在站点构建器中打开页面，在 iframe 模块插槽中选择 **删除模块**，然后保存并重新发布页面。
+
 ## <a name="additional-resources"></a>其他资源
 
-[模块库概述](starter-kit-overview.md)
+[模块库概览](starter-kit-overview.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
 

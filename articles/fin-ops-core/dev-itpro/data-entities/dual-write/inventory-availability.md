@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: f967f832fc716938c544aad266d2c14a9ea19dd0ca8ee11fe228ce47145f3e78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762418"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782521"
 ---
 # <a name="inventory-availability-in-dual-write"></a>采用双写入的库存可用性
 

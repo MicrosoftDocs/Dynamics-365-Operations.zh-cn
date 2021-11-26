@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
+ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380204"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781166"
 ---
 # <a name="general-troubleshooting"></a>常规故障排除
 

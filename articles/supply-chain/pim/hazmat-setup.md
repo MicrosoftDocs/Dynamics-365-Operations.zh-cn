@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577424"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778001"
 ---
 # <a name="set-up-hazardous-materials"></a>设置危险物料
 
@@ -27,7 +27,7 @@ ms.locfileid: "7577424"
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>打开系统的危险物料功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块**：*产品信息管理*
 - **功能名称**：*危险物料产品信息和装运文档*

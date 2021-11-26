@@ -5,16 +5,16 @@ author: dasani-madipalli
 ms.date: 06/25/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: eb3e3e87f7615a289f019a5d47dbc596f0266aa5
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416568"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782276"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>设置销售订单状态列的映射
 

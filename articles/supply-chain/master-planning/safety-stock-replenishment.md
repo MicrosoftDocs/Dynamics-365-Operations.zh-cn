@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474620"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790930"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
@@ -189,5 +189,9 @@ ms.locfileid: "7474620"
 在主计划的覆盖范围阶段，不再降低安全存货补货的优先级。 现有库存量可以在任何其他需求类型前使用。 在延迟计算过程中，将添加新的逻辑来检查延迟的销售行、物料清单行需求以及所有其他需求类型，以确定在使用安全存货的前提下是否可以按时交付。 如果系统确定使用安全存货可以最大程度地减少延迟，则销售行或物料清单行将使用安全存货替代其初始覆盖范围，并且系统将改为针对安全存货触发补货。
 
 如果没有为延迟计算设置计划或物料，则安全存货约束将具有与任何其他需求类型相同的优先级。 这意味着在其他需求类型前存在现有和其他可用库存的预留。
+
+## <a name="additional-resources"></a>其他资源
+
+- [使用安全存货日记帐更新最小物料覆盖范围](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

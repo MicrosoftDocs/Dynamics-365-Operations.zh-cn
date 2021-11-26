@@ -1,8 +1,8 @@
 ---
 title: 创建和开放工作申请
 description: 招聘项目帮助您管理您的招聘流程。
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778764"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731553"
 ---
 # <a name="create-and-open-job-requisition"></a>创建和开放工作申请
 
@@ -39,7 +39,7 @@ ms.locfileid: "6778764"
 6. 在列表中，找到并选择您的记录。
 7. 在列表中，选择所选择行中的链接。
 8. 选择 **选择**。
-9. 在“部门”字段中，选择下拉按钮以打开查找。
+9. 在 **部门** 字段中，选择下拉按钮以打开查找。
 10. 在列表中，选择所选择行中的链接。
 11. 在 **工作** 字段中，选择下拉按钮以打开查找。
 12. 在列表中，找到并选择您的记录。
@@ -58,10 +58,10 @@ ms.locfileid: "6778764"
 25. 在 **结束日期** 字段中，输入日期。
 26. 选择 **保存**。
 27. 关闭该页面。
-28. 选择工作广告。
+28. 选择 **工作广告**。
 29. 选择 **保存**。
 30. 关闭该页面。
-31. 选中或取消选中 **在员工自助服务中显示** 复选框。 选中 **在员工自助服务中显示** 复选框。 此选择让招聘项目在员工的“员工自助服务”页面上对他们可见。
+31. 选中或取消选中 **在员工自助服务中显示** 复选框。 选中 **在员工自助服务中显示** 复选框。 此选择让招聘项目在员工的 **员工自助服务** 页面上对他们可见。
 32. 选择 **招聘项目状态**。
 33. 选择 **开始**。 **已开始** 状态表示项目即将收到申请。  
 34. 选择 **确定**。

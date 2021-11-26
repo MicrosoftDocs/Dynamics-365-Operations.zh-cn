@@ -2,7 +2,7 @@
 title: 客户付款预测
 description: 此主题介绍可帮助您更好理解客户的典型付款实践的付款预测功能。 此功能还可以帮助您确定应导致您开始执行本应提前进行的收款流程的情况。
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386653"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752728"
 ---
 # <a name="customer-payment-predictions"></a>客户付款预测
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 此主题介绍可帮助您更好理解客户的典型付款实践的付款预测功能。 此功能还可以帮助您确定应导致您开始执行本应提前进行的收款流程的情况。
 
@@ -67,11 +68,5 @@ ms.locfileid: "7386653"
 ## <a name="methodology"></a>方法
 
 过去，通常很难开发和部署人工智能 (AI) 解决方案。 此流程需要一支由数据科学家、主题专家 (SME) 和工程师组成的团队长时间工作，以制定、开发、部署和维护可用的 AI 解决方案。 客户付款预测有助于在 Microsoft Dynamics 365 Finance 中部署和使用 AI 解决方案。 Microsoft 正在预打包基于 Microsoft AI Builder 构建的 AI 解决方案。 因此，用户只需单击一下鼠标即可部署 AI 解决方案，以利用智能预测的优势。 如果您对预测的准确性不满意，那么高级用户可以（再次强调，只需单击一次鼠标）进入 AI Builder 扩展体验，然后选择或清除用于生成预测的字段。 准备就绪后，您可以“训练”模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的模型以生成预测。
-
-## <a name="release-details"></a>发布详细信息
-
-Finance Insights 公开预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
-
-应该仅在第 2 层沙盒环境中启用公开预览版功能。 在沙盒环境中创建的设置和 AI 模型可能不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

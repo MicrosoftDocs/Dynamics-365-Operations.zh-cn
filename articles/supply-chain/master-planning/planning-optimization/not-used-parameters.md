@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645750"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728947"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
@@ -60,7 +60,7 @@ ms.locfileid: "7645750"
 
 - **常规** 快速选项卡：
 
-  - **正天数** – 待定 *正天数* 支持。
+  - **正天数** – 不使用 *正天数* 值。 使用计划优化时，正天数会被视为无限。
   - **消耗现有库存** – 待定 *现有库存的消耗* 支持。
   - **使用指定的物料清单或公式版本** – 待定 *具有联产品/副产品的公式版本* 支持。
   - **使用指定的工艺路线版本** – 待定 *定义了特定物料清单或工艺路线要求的需求* 支持。

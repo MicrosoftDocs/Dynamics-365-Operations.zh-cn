@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: d20dca3e8f15d04b85bcdf102dda8794c68dc2d54acb65dbd0088da1e6c6cdc5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 919ce0d57fb306b39cdcdd8655ac9f0b9e26847e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765090"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781656"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 

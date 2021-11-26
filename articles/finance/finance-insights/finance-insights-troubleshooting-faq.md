@@ -2,7 +2,7 @@
 title: 解决 Finance Insights 设置问题
 description: 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512882"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752609"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 
@@ -53,6 +54,12 @@ ms.locfileid: "7512882"
 
 1. 如果您使用的是 Finance Insights 预览版，请删除与 **客户付款见解结果（CDS 到 Fin and Ops）** 模板关联的 DI 项目。
 2. 按照[创建数据集成器项目](create-data-integrate-project.md)中的步骤操作。 使用 **客户付款见解结果（CDS 到 Fin and Ops 10.0.17 及更高版本）** 模板。
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>问题：当我尝试使用客户付款预测设置页面上的链接打开 AI Builder 时，为什么会收到以下错误消息：“抱歉，已断开连接”？
+
+### <a name="resolution"></a>解决方法
+
+Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐户，并且该用户帐户必须具有系统定制员角色。 Microsoft Power Apps 系统管理员可以创建此用户帐户并分配角色。 然后，您可以转到 <https://make.preview.powerapps.com/>，使用该用户帐户登录，然后再次尝试链接。
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>症状：为什么“现金流预测”工作区中的“现金预测”选项卡未显示任何数据？
 

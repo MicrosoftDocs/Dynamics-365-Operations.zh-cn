@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475669"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778417"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>单位和单位数量在库存日记帐中不能正常工作
 
@@ -31,7 +31,7 @@ ms.locfileid: "7475669"
 
 若要解决此问题，请按照以下步骤操作。
 
-1. 在 **功能管理** 工作区，请确保 *在库存日记帐中使用度量单位和单位数量* 功能已开启。 此功能会将 **单位** 和 **单位数量** 字段添加到日记帐中。
+1. 在 **功能管理** 工作区，请确保 *在库存日记帐中使用度量单位和单位数量* 功能已开启。 此功能会将 **单位** 和 **单位数量** 字段添加到日记帐中。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 1. 开启此功能后，通过以下方式使用 **数量**、**单位数量** 和 **单位** 字段：
 
     - **数量** – 使用为已发布产品定义的默认单位指定数量。 但是，默认单位本身不在此处显示。 如果在默认单位和 **单位** 字段中选择的单位之间设置了转换，**数量** 字段将根据 **单位数量** 和 **单位** 字段中的选择自动更新。

@@ -1,7 +1,7 @@
 ---
 title: 编号规则概览
 description: 编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一标识符。
-author: MargoC
+author: SunilGarg
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: margoc
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99647578c11c960cf67439b1cd9994464637feff862d191338811d8ba3e6bef5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d65eb3824cfa158e6b382ee7bae2c86aab9396b
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759912"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778321"
 ---
 # <a name="number-sequences-overview"></a>编号规则概览
 

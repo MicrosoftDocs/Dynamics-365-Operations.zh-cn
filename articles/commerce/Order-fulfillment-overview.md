@@ -1,7 +1,7 @@
 ---
 title: 商店订单履行
 description: 此主题概要介绍了商店订单履行。
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67a0199cd15e0a10b41ed3ab288951f86c9790ba0499fee0754f05876faf4843
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d22d01ab82148ba389cb7c14722bd07df91f762d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714058"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779638"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 

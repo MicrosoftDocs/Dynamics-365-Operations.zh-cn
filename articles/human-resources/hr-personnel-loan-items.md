@@ -1,8 +1,8 @@
 ---
 title: 管理借给工作人员的物品
 description: 借出物品是帮助经理跟踪您的公司借出给工作人员的实际物品。
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760578"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728751"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>管理借给工作人员的物品
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760578"
 
 借出物品是帮助经理跟踪您的公司借出给工作人员的实际物品。 
 
-以下各点列出公司可能借出给工作人员的物品的示例：
+以下是公司可能借出给工作人员的物品的一些示例：
+
 -   手机
 -   汽车
 -   计算机设备
@@ -37,7 +38,7 @@ ms.locfileid: "6760578"
 
 借出物品时，应输入物品的借出日期和预定归还日期。 当归还物品时，应输入实际的归还日期。
 
-员工可以使用员工自助服务工作区查看借出给他们的物品的记录。 如果他们收到额外的实际物品，则他们还可以编辑现有记录或输入新借出物品。  工作流可以设置为通过审核流程将更改传输到新的或现有的借出物品。 
+员工可以使用 **员工自助服务** 工作区查看借出给他们的物品的记录。 如果他们收到额外的实际物品，则他们还可以编辑现有记录或输入新借出物品。 工作流可以设置为通过审核流程将更改传输到新的或现有的借出物品。 
 
 经理可以查看借出给其直接下属的物品。 他们还可以被授予权限来代表其新员工添加新借出物品。
 

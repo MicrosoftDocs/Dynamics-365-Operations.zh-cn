@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569279"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778223"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>从作业卡设备报告完工入库
 
@@ -218,7 +218,7 @@ ms.locfileid: "7569279"
 
 要使用本节介绍的功能，必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能（按此顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
+1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
 1. 从作业卡设备打印标签
 

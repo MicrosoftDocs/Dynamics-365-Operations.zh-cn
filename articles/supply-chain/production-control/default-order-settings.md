@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579416"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778099"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -188,7 +188,7 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 
 ### <a name="enable-the-strict-validation-option"></a>启用严格验证选项
 
-必须先在系统上启用严格验证选项，然后才能够使用它。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 此功能在此处列出为：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块** - *产品信息管理*
 - **功能名称** - *严格验证默认订单数量*

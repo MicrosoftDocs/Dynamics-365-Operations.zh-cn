@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764828"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778513"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -39,7 +39,7 @@ ms.locfileid: "6764828"
 
 并行确认通过将确认流程在多个线程之间并行化来帮助加快此流程。 当确认很多计划订单时，此方法会很有用。
 
-要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *并行确认计划订单* 功能。
+要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *并行确认计划订单* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>启用通过筛选确认计划订单
 
@@ -51,7 +51,7 @@ ms.locfileid: "6764828"
 
 自动确认可以让您在确认时限内作为主计划流程的一部分确认计划订单。 Supply Chain Management 中内置的计划引擎始终支持自动确认。 但是，如果还要将它与计划优化一起使用，则必须打开此功能。
 
-要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化自动确认* 功能。
+要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化自动确认* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 ## <a name="manually-firm-planned-orders"></a>手动确认计划订单
 

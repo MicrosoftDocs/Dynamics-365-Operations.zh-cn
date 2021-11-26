@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575456"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777759"
 ---
 # <a name="purchasing-cxml-enhancements"></a>采购 cXML 增强功能
 
@@ -28,7 +28,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>打开“采购 cXML 增强功能”
 
-要打开此功能，请打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 页，然后搜索名为 *采购 cXML 增强功能* 的功能。 选择此功能，然后然后选择 **立即启用** 将其打开。
+要打开此功能，请打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 页，然后搜索名为 *采购 cXML 增强功能* 的功能。 选择此功能，然后然后选择 **立即启用** 将其打开。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 启用功能后，应在以下三个区域配置设置：
 

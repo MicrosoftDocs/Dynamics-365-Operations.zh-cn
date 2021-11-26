@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568847"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778297"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 
@@ -31,7 +31,7 @@ ms.locfileid: "7568847"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>打开库存日记帐审核工作流功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块**：*库存和仓库管理*
 - **功能名称**：*库存日记帐审核工作流*

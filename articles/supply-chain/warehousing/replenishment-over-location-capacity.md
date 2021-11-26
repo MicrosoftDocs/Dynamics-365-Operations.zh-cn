@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576104"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778199"
 ---
 # <a name="replenishment-over-location-capacity"></a>库位容量范围内的补货
 
@@ -32,7 +32,7 @@ ms.locfileid: "7576104"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 组织范围内的工作阻止
+1. 组织范围内的工作锁定（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
 1. 库位容量范围内的补货
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>为示例方案设置此功能

@@ -2,7 +2,7 @@
 title: 打造个性化的用户体验
 description: 本主题说明如何个性化应用程序。
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581057"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777977"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -219,6 +219,9 @@ ms.locfileid: "7581057"
 ### <a name="export-and-import-views-or-personalizations"></a>导出和导入视图或个性化设置
 
 共享个性化设置的另一种方法是通过导出和导入。 单个用户或代表他们执行操作的管理员可以使用此方法导出其个性化设置或视图，然后将导出的文件提供给其他用户进行导入。 或者，用户可以将导出的个性化设置给予具有管理员权限的用户，然后该用户可以使用 **个性化** 管理页面将个性化文件同时应用于多个用户。
+
+> [!IMPORTANT]
+> 由于个性化在更新中持续存在，因此在服务更新后或任何其他时间重新导入所有个性化是不必要的，并且非常不建议这样做。   
 
 #### <a name="export"></a>出口
 

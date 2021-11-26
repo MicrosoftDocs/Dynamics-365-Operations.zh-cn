@@ -5,16 +5,16 @@ author: laneswenka
 ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675289"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781384"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 

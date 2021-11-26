@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579632"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778025"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 
@@ -67,7 +67,7 @@ ms.locfileid: "7579632"
 
 **注意：**
 
--   如果从“功能管理”启用 **根据需求预测详细信息选择预测模型**，您将能够选择要包含在 **需求预测详细信息** 页上的历史预测的预测模型。
+-   如果从“功能管理”启用 **根据需求预测详细信息选择预测模型**，您将能够选择要包含在 **需求预测详细信息** 页上的历史预测的预测模型。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 -   显示在该页的 **预测** 部分中的置信区间表示置信区间上限和置信区间下限之间的差异。 要查看上限和下限的值，将鼠标悬停在 **以图形方式表示的历史需求和预测** 部分的图表上。
 -   如果您使用需求预测 Microsoft Azure 机器学习，您可以指定生成的预测应具有的可信度百分比。 置信区间包含一系列用作良好的需求预测估计的值。 可信度百分比 95% 表示需求预测有 5% 的几率超出置信区间范围。
 

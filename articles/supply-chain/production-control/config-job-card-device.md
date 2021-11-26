@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576944"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777732"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
@@ -34,19 +34,19 @@ ms.locfileid: "7576944"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能（按顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
+1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
 
 ### <a name="print-label"></a>打印标签
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能（按顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
-1. 从作业卡设备打印标签
+1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+1. 通过作业卡设备打印标签
 
 ### <a name="allow-locking-of-touch-screen"></a>允许锁定触摸屏
 
-要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 如果您想要使用它，请确保在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
 

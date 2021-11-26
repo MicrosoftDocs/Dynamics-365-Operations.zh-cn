@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2b21fdb5e09684a23e52333fcb74d3d43ad325ba0eae5294cacf61ac06d9b1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d137b5dbde52423d0e040c3012fb4f1eee2368d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740211"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781224"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 

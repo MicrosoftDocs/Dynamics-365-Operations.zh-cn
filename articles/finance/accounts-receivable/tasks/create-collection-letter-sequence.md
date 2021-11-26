@@ -1,7 +1,7 @@
 ---
 title: 创建催款单序列
 description: 使用此过程创建催款单序列。
-author: mikefalkner
+author: abruer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b3062390da10f344c354cd2cc5cd7fb73623570
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394674"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753578"
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
 

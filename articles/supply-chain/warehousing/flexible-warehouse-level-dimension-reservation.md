@@ -119,7 +119,7 @@ ms.locfileid: "7474932"
 
     | 存放地点 | 批号 | 货位 | 牌照 | 数量 |
     |-----------|--------------|----------|---------------|----------|
-    | 24        | B11          | BULK-001 | 否          | 10       |
+    | 24        | B11          | BULK-001 | 无          | 10       |
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
@@ -421,7 +421,7 @@ ms.locfileid: "7474932"
 <td>不适用</td>
 </tr>
 <tr>
-<td>无</td>
+<td>否</td>
 <td>
 <ol>
 <li>开始领料工作时，在仓库管理移动应用上选择<strong>替代库位</strong>菜单项。</li>
@@ -719,7 +719,7 @@ ms.locfileid: "7474932"
 </tr>
 <tr>
 <td>设置<strong>领料短缺</strong>类型的工作异常，其中，<strong>物料重新分配</strong> = <strong>手动</strong>，<strong>调整库存</strong> = <strong>是</strong>，<strong>删除预留</strong> = <strong>否</strong>。 此外，<strong>允许手动重新分配物料</strong>选项在工作人员上启用。</td>
-<td>无</td>
+<td>否</td>
 <td>
 <ol>
 <li>运行领料工作时，在仓库管理移动应用上选择<strong>领料不足</strong>菜单项。</li>
@@ -732,7 +732,7 @@ ms.locfileid: "7474932"
 </tr>
 <tr>
 <td>设置<strong>领料短缺</strong>类型的工作异常，其中，<strong>物料重新分配</strong> = <strong>手动</strong>，<strong>调整库存</strong> = <strong>是</strong>，<strong>删除预留</strong> = <strong>是</strong>。 此外，<strong>允许手动重新分配物料</strong>选项在工作人员上启用。</td>
-<td>无</td>
+<td>否</td>
 <td>
 <ol>
 <li>运行领料工作时，在仓库管理移动应用上选择<strong>领料不足</strong>菜单项。</li>

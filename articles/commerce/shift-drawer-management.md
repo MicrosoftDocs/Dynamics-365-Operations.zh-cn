@@ -13,15 +13,15 @@ ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b437f2cef4be389c1b6bc2aa9f543cb5400e3e3ec59e55ec8034c957e57195d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737498"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779736"
 ---
 # <a name="shift-and-cash-drawer-management"></a>班次和银箱管理
 

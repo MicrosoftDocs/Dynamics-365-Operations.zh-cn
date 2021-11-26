@@ -1,7 +1,7 @@
 ---
 title: 冲销日记帐过帐
 description: 此主题介绍用于冲销凭证交易记录列表中或财务日记帐中的凭证的功能。
-author: MikeFalkner
+author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463581"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753770"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 

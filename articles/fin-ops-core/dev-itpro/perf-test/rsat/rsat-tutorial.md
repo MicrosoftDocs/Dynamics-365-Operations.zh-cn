@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556757"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781955"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 

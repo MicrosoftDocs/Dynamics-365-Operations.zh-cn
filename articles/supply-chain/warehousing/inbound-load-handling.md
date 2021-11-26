@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577832"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778051"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -205,7 +205,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 | 允许一个负荷多次物料收货 | 负荷数量 | 负荷状态 | 票据 |
 |---|---|---|---|
 | 当此字段不可用时（10.0.10 之前版本） | <p>设置负荷数量，使其等于登记数量。</p><p>如果将负荷数量更新为 0（零）（这意味着未进行任何登记），将删除负荷行。</p><p>如果负荷中无负荷行，将删除负荷。</p> | _已收到_ | 如果订单行的登记数量有多个负荷，则仅把收货的过帐来源负荷的状态更新为 _已接收_。 |
-| 无 | <p>将设置负荷数量，使其等于与负荷 ID 关联的登记数量。</p><p>如果没有为库存交易记录记录任何负荷 ID，则行为与 10.0.10 之前版本中的行为相符。</p> | _已收到_ | |
+| 否 | <p>将设置负荷数量，使其等于与负荷 ID 关联的登记数量。</p><p>如果没有为库存交易记录记录任何负荷 ID，则行为与 10.0.10 之前版本中的行为相符。</p> | _已收到_ | |
 | 是 | 无更新 | _已接收_ 如果登记的负荷数量总数等于或大于负荷数量 | |
 | 是 | 无更新 | _已装运_ 或 _进行中_，如果登记的负荷数量总数小于负荷数量 | |
 
@@ -267,7 +267,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 1. 打开 **功能管理** 工作区。 （有关如何找到并使用此工作区的完整详细信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。）
 
-1. 按照下面的方法开启列出的 _将采购订单库存交易记录与负荷相关联_ 功能：
+1. 确保 _将采购订单库存交易记录与负荷相关联_ 功能已启用。 从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。 但是，此功能仍按以下方式列在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中：
 
     - **模块：**_仓库管理_
     - **功能名称：**_将采购订单库存交易记录与负荷相关联_

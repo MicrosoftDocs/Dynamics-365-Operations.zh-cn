@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 3cf30c203d936f171796d9dd8d766cbbb8c997e0
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647789"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777783"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Dynamics 365 Supply Chain Management 10.0.23 预览
 
@@ -36,7 +36,9 @@ ms.locfileid: "7647789"
 | 全球通讯簿 | 在地址设置中为每个国家/地区定义默认省/自治区/直辖市 | 现在，您可以在全球通讯簿的地址设置中为每个国家/地区定义默认省/自治区/直辖市。 设置默认省/自治区/直辖市时，当您为国家/地区创建新的县或市/市记录时，它将是省/自治区/直辖市字段中输入的默认值。 另请参阅[地址设置](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | 默认启用。 |
 | 库存和物流&nbsp;&nbsp; | [在 Warehouse Management 移动应用中暂停任务](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [为移动设备菜单项中的步骤配置绕过](../warehousing/warehouse-app-detours.md) | 功能管理（*Warehouse Management 应用绕过*） |
 | 库存和物流&nbsp;&nbsp; | [仓库应用提升的字段](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [为移动设备中的步骤配置提升的字段](../warehousing/warehouse-app-promoted-fields.md)| 功能管理（*仓库应用提升的字段*） |
-| 生产控制 | [报告来自生产车间执行界面的联产品和副产品](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理（*报告来自生产车间执行界面的联产品和副产品*） |
+| 制造 | [制造执行系统集成](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [与第三方制造执行系统集成](../production-control/mes-integration.md) | 功能管理（*制造执行系统集成*） |
+| 制造 | [报告来自生产车间执行界面的联产品和副产品](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理（*报告来自生产车间执行界面的联产品和副产品*） |
+| 计划 | [基于优先级的计划的计划优化支持](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [基于优先级的计划](../master-planning/planning-optimization/priority-based-planning.md) | 功能管理（*针对计划优化的优先级驱动的 MRP 支持*） |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强
 
@@ -47,13 +49,14 @@ ms.locfileid: "7647789"
 | 模块 | 功能管理中的功能名称 | 更多信息 |
 |---|---|---|
 | 资产管理 | 工作订单日记帐中的支出的对方科目 | 利用此功能，您可以为工作订单日记帐中列出的每笔费用指定抵销帐户。 您通常可以将供应商帐户与每笔费用关联，但也支持其他帐户类型。 它向 **工作订单日记帐** 页上的 **费用** 快速选项卡添加了两个新列（**抵销帐户类型** 和 **抵销帐户**）。|
+| 成本管理 | 创建用于标准成本舍入重估的相关凭证 | <p>在创建库存财务过帐（如销售订单发票或库存交易记录）时，此功能会导致系统为任何相关标准成本舍入重估创建单独的凭证，然后将其作为相关凭证附加到该财务过帐凭证。</p><p>如果没有此功能，系统将记录将标准成本舍入重估记录到同一个凭证过帐中。 该行为有时可能导致日期信息冲突，因为重估使用会话日期或系统日期，而财务过帐则使用过帐日期。</p> |
 | 库存和仓库管理 | \[俄罗斯\] 根据销售订单的财务凭证中的更正标志过帐 Storno 财务库存交易记录 | 此功能将影响俄罗斯的贷方通知单更正功能。 它支持根据总帐中的更正选项过帐销售发票的库存交易记录。 启用此功能后，库存交易的财务凭证上的 **更正** 标记和库存交易记录上的 **Storno** 标记之间不再存在差异。 |
 | 库存和仓库管理 | (俄罗斯)以分批方式运行库存余额交易额报表计算 | 在 Supply Chain Management 的俄语本地化方面，通过此功能能够以批处理方式运行 *库存余额交易额* 报表，以存储该报表和查看先前生成的报表。 |
 | 库存和仓库管理 | (俄罗斯)在库存管理的特定于国家/地区的主要窗体中使用当地语言的翻译 | 在 Supply Chain Management 的俄语本地化方面，通过此功能可以在以下特定于俄罗斯的库存打印输出中使用产品/物料名称和度量单位的俄罗斯语翻译：盘点清单 (INV-3)、盘点清单 (INV-5) 和盘点清单 (INV-6)。 |
 | 采购 | 清理采购订单更新历史记录 | 利用此功能，您可以清理与采购订单更新相关的临时历史记录。 它向 **所有采购订单** 页上的操作窗格添加了一个名为 **清理采购订单更新历史记录** 的新按钮。 默认情况下启用了此功能。 |
 | 生产控制 | (预览版)自动领取支持仓库的物料以便自动过帐领料单 | 通过此功能可以自动领取和解析库存维度，以便自动过帐、派生和倒冲领料单日记帐。 |
 | 生产控制 | 根据计划消耗日期验证原材料的到期日期 | 此功能更改了在预留要在生产过程中使用的原材料批次时验证批次到期日期的方式。 启用此功能后，批次到期日期将根据在生产物料清单行或批次订单配方行上设定的计划消耗日期（原材料日期）进行验证。 禁用此功能后，批次到期日期将根据生产或批次订单的计划交货日期（与之前一样）进行验证。 |
-| 销售和市场营销 | 清除销售订单更新历史记录 | 利用此功能，您可以清理与销售订单更新相关的临时历史记录。 它将一个名为 **清理销售更新历史记录** 的新按钮添加到销售订单的详细信息和列表页的操作窗格中。 |
+| 销售和市场营销 | 根据使用时间清除销售更新历史记录 | 此功能可让您设置在运行 **销售更新历史记录清理** 定期任务时要保留记录的最长年限。 较早的记录将被删除。 这在您将任务设置为定期运行时很有用，因为年限始终是相对于任务运行的日期计算的。 如果没有此功能，您只能为要保留的最早记录设置特定日期。 |
 | 销售和市场营销 | 改善“前 100 位”客户的报表性能 | 此功能通过始终运行所有客户的报表（作为其目标用途），而不是通过允许自定义查询，来改善 **前 100 位** 客户的报表性能。 启用此功能后，**前 100 位** 报表对话中将禁用所有 **要包括的记录** 设置。 |
 | 仓库管理 | 对于发布到出站订单仓库的缩放单元支持 | 启用此功能后，出站订单可从中心直接发布到履行订单的缩放单元。 |
 

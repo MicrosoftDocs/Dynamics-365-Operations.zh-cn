@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 21f48574d34b810c8ca554a55f1c063893a34b4d
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 90e29359aa2a367fe540411a8a808d86abb06dcc
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416801"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781312"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 

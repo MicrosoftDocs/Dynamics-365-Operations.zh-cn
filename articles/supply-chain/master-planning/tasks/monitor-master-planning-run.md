@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575600"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778123"
 ---
 # <a name="monitor-a-master-planning-run"></a>监控主计划运行
 
@@ -33,7 +33,7 @@ ms.locfileid: "7575600"
 要使用此功能，请按照下列步骤操作。
 
 1. 在 **功能管理** 工作区中的 **新** 选项卡上，在列表中选择 **主计划进度可视化**。 如果该功能未出现在 **新** 选项卡上，请查看 **未启用** 和 **所有** 选项卡。
-1. 选择 **立即启用**。 或者，选择 **时间表**，然后选择要启用该功能的时间。
+1. 选择 **立即启用**。 或者，选择 **时间表**，然后选择要启用该功能的时间。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
 
 **查看主计划进度** 页面可以显示历史计划作业和活动计划作业。 
 

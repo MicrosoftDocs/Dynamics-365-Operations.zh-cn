@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
+ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380132"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781190"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双写入问题
 

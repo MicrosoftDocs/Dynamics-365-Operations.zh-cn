@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572377"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778465"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>确认来自批处理作业的出站装运
 
@@ -27,7 +27,7 @@ ms.locfileid: "7572377"
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>启用“从批处理作业确认出站装运”功能
 
-此功能只有在系统中启用了之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 此功能的清单如下：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块** - *仓库管理*
 - **功能名称** - *从批处理作业确认出站装运*

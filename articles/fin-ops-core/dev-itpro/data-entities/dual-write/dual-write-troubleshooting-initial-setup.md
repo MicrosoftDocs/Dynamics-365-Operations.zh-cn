@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2b75155aac12d79b9d68cce3e066acaaf80d6764
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
+ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380180"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781432"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 

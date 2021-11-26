@@ -2,7 +2,7 @@
 title: 组织和组织层次结构概览
 description: 组织层次结构表示构成您的公司的组织之间的关系。
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715981"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798338"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 
@@ -64,9 +64,19 @@ ms.locfileid: "6715981"
 
 设置组织的层次结构以查看和申报来自不同视角的业务。 例如，您可以针对纳税、法律或法定申报设置法人的层次结构。 设置基于运营单位的层次结构以报告不是法律要求但用于内部控制的财务信息。 例如，您可以创建一个采购层次结构以控制采购策略、规则和义务流程。
 
+> [!NOTE]
+> 将运营单位添加到层次结构后，将无法删除该运营单位。 
+
 每个层次结构都将分配用途。 层次结构用途确定可以包括在层次结构中的组织的类型。 该用途还决定着哪些应用程序方案能够在该层次结构中使用。
 
 层次结构中的组织可以共享参数、策略和交易记录。 组织可以继承或覆盖其父级组织的参数。 但是，产品和地址簿等共享的主数据适用于整个组织，但是不能被单个组织覆盖。 创建组织和层次结构要求详细计划。 有关详细信息，请参阅[计划组织层次结构](plan-organizational-hierarchy.md)。
+
+## <a name="additional-resources"></a>其他资源
+- [规划组织层次结构](plan-organizational-hierarchy.md)
+- [创建组织层次结构](tasks/create-organization-hierarchy.md)
+- [创建法人](tasks/create-legal-entity.md)
+- [创建运营单位](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

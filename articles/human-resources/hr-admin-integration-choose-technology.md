@@ -143,7 +143,7 @@ Excel 加载项适用于业务领域专家的专门数据导入/导出。 对于
 | BYOD                   | 是，由 Human Resources 中的管理员计划        | 异步，批处理                                | 否<sup>3</sup>                                    | 高（成千上万条记录）                    | 支持所有 DMF 实体           |
 | 启用 OData 的实体 | 是，使用中间件                    | 同步                                        | 是，通过 Human Resources 数据服务 (OData)  | 因使用案例而异（交互使用支持分页） | 高                                |
 | Excel 加载项           | 否                                       | 同步                                        | 否                                        | 中（成千上万条记录）                      | 支持所有启用 OData 的实体 |
-| 数据集成器        | 是，在数据集成器中计划        | 异步，批处理                                | 不                                        | 因使用案例而异                                       | 支持所有 Dataverse 表           |
+| 数据集成器        | 是，在数据集成器中计划        | 异步，批处理                                | 否                                        | 因使用案例而异                                       | 支持所有 Dataverse 表           |
 
 <sup>2</sup>Microsoft 正大力投资以增加 Dataverse 表的数据覆盖。 建议实现覆盖后使用 Dataverse。 目前，Dataverse 相对于 DMF 和启用 OData 的实体，数据覆盖较低。
 

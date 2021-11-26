@@ -1,26 +1,26 @@
 ---
 title: 设置作业组件
-description: 本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。
-author: andreabichsel
-ms.date: 06/24/2021
+description: 此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754768"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731532"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 
@@ -60,7 +60,7 @@ ms.locfileid: "6754768"
 可通过使用 **工作职能** 页面维护工作职能。 在 **工作职能** 页面中，输入工作职能的标识代码和简要描述。
 
 ## <a name="compensation"></a>薪酬
-若要将固定薪酬计划分配给在工作中具有职位的员工，必须在工作上设置薪酬级别。 当在薪酬结构（薪酬网格）中设置最小、中点和最大金额时，使用薪酬级别。 创建固定薪酬计划时，将选择薪酬结构。 薪酬结构还包括薪酬级别。 当您为员工选择固定薪酬计划时，可供选择的薪酬级别取决于与员工职位关联的工作。 有关如何设置薪酬的详细信息，请参阅[薪酬计划](hr-compensation-overview.md)。
+若要将固定薪酬计划分配给在工作中具有职位的员工，必须在工作上设置薪酬级别。 当在薪酬结构（薪酬网格）中设置最小、中点和最大金额时，使用 **薪酬级别**。 创建固定薪酬计划时，将选择薪酬结构。 薪酬结构还包括薪酬级别。 当您为员工选择固定薪酬计划时，可供选择的薪酬级别取决于与员工职位关联的工作。 有关如何设置薪酬的详细信息，请参阅[薪酬计划](hr-compensation-overview.md)。
 
 ## <a name="job-skills"></a>工作技能
 工作技能描述执行工作所需的技能。 技能级别必须与每个工作技能相关联。 技能级别是用户定义的。 它们指示技能所需的知识水平或熟练程度。 例如，公司可能会设置数字级别，例如 1 到 5，其中 **1** 表示初学者，**5** 表示专家。 或者，公司可能设置标记为 **初学者**、**中级** 或 **专家** 的级别。 设置技能级别后，还可以设置技能的重要性。 例如，如果会计师需要具备丰富的 Microsoft Excel 知识，可以创建名为 **Excel 知识** 的技能。 然后，可以将技能级别设置为 **中级**，将重要性设置为 **最重要**。

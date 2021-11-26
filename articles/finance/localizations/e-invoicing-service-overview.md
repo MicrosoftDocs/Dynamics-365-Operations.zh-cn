@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eebe51ae89326965235c031ed11008c6af3d453f0f297d3201862946ab4caca9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741500"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778176"
 ---
 # <a name="electronic-invoicing-overview"></a>电子开票概览
 
@@ -52,6 +52,8 @@ Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的电�
 
 - 美国
 - 欧洲
+- 英国
+- 亚洲
 
 > [!NOTE]
 > 电子开票不支持本地部署。

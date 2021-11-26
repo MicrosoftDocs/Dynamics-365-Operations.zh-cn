@@ -2,7 +2,7 @@
 title: 现金头寸
 description: 本主题描述现金流预测功能如何预测组织在特定时间的现金头寸。 还描述了可用于显示不同期间的预测的选项。
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386306"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752872"
 ---
 # <a name="cash-position"></a>现金头寸
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 现金头寸是对现金流的短期预测。 它基于对支付未付发票和订单的客户的现金收入的预测，还基于对购买发票和订单支付给供应商的现金支出的预测。
 
@@ -44,8 +45,5 @@ ms.locfileid: "7386306"
 - **银行科目** 网格显示预期现金流入和流出对银行余额的影响。
 
 要保存和编辑现金头寸，请创建快照。 有关如何处理快照的详细信息，请参阅[快照概述](payment-snapshots.md)。
-
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

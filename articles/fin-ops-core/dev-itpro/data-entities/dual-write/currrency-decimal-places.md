@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/06/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 62b24da65bfef64d54552e4a098941fee8c9bfd4
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416723"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782799"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 

@@ -1,7 +1,7 @@
 ---
 title: 使用向导设置编号规则
 description: 此主题说明如何同时使用向导设置所有必需的数序。
-author: sericks007
+author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd335f73b2851352dce1eb36c5e5e6838f8611c8ed9fa8cb65fd1c826530f857
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749476"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777560"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>使用向导设置编号规则
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e3b4a9dc25dc8130df7fa4799430c8358edcfe8e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567119"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777613"
 ---
 # <a name="country-of-origin"></a>原产国家/地区
 
@@ -28,7 +28,7 @@ ms.locfileid: "7567119"
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>打开原产国家/地区功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块**：*产品信息管理*
 - **功能名称**：*远程国家/地区管理功能*

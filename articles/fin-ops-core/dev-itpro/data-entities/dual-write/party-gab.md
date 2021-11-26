@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386677"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781336"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -30,8 +30,8 @@ ms.locfileid: "7386677"
 
 + **工作人员** – 员工。 例如，Contoso 的员工。
 + **供应商** – 为企业提供商品或服务的供应商组织或独立经营者。 例如，如果 Fabrikam 将供应品出售给 Contoso，Fabrikam 就是 Contoso 的供应商。
-+ **联系人** – 要联系的人员。 例如，如果 Contoso 从 Fabrikam 购买供应品，Contoso 的员工将与 Fabrikam 的联系人联系。
-+ **客户** – 从公司购买商品的个人或公司。 例如，如果 Contoso 从 Fabrikam 购买供应品，Contoso 就是 Fabrikam 的客户。
++ **联系人** – 要联系的人员。 例如，如果 Contoso 从 Fabrikam 购买供应品，则 Contoso 的员工将与 Fabrikam 的联系人联系。
++ **客户** – 从公司购买商品的个人或公司。 例如，如果 Contoso 从 Fabrikam 购买供应品，则 Contoso 是 Fabrikam 的客户。
 
 当事方模型通常用于表示组织和个人之间中等到复杂的关系，特别是在当事方扮演多个角色时。 下面是一些常见示例：
 

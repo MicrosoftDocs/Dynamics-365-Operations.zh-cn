@@ -2,7 +2,7 @@
 title: 现金流量预测
 description: 此主题提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547947"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752896"
 ---
 # <a name="cash-flow-forecasting"></a>现金流量预测
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 您可以使用现金流量预测工具分析即将发生的现金流量和币种要求，因此可以估计公司对现金的未来需求。 要获取现金流量的预测，您必须完成以下任务：
 
@@ -93,9 +94,12 @@ ms.locfileid: "7547947"
 现金流量预测中可以包括库存供应和需求预测。 在 **现金流量预测设置** 页的 **库存管理** 选项卡上，选择要包括在现金流量预测中的预测模型。 可以在各个供应和需求预测行上覆盖包括在现金流量预测中。
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>设置现金流预测的维度
-**现金流预测设置** 页上的一个新选项卡可让您控制使用财务维度在 **现金流预测** 工作区中进行筛选。 仅当启用现金流预测功能后，此选项卡才会出现。 
+**现金流预测设置** 页上的一个新选项卡可让您控制使用哪些财务维度在 **现金流预测** 工作区中进行筛选。 仅当在 Finance insights 中启用现金流预测功能后，此选项卡才会出现。 
 
 在 **维度** 选项卡上，从要用于筛选的维度列表中进行选择，然后使用箭头键将其移至右侧列。 只能选择两个维度来筛选现金流预测数据。 
+
+### <a name="setting-up-external-source"></a>设置外部源
+可以将外部数据输入或导入现金流预测中。 在输入或导入外部数据之前，必须设置外部源。 在 **外部源** 选项卡上，设置外部现金流类别。 类别可以是 **传出** 或 **传出**。 应选择 **流动性** 作为过帐类型。 在 **法人设置** 网格中，选择外部现金流类别适用的法人和相应的主科目。
 
 ### <a name="project-management-and-accounting"></a>项目管理与核算
 

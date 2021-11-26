@@ -203,7 +203,7 @@ ms.locfileid: "7571921"
 <td rowspan="3">工艺路线工序</td>
 <td rowspan="3">报告为完工入库</td>
 <td rowspan="2">之前</td>
-<td>否</td>
+<td>无</td>
 <td rowspan="3">特定 ID、组或全部，以及特定资源、组或全部</td>
 </tr>
 <tr>
@@ -211,13 +211,13 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>之后</td>
-<td>否</td>
+<td>无</td>
 </tr>
 <tr>
 <td rowspan="3">联产品生产</td>
 <td>注册</td>
 <td>不适用</td>
-<td rowspan="3">否</td>
+<td rowspan="3">无</td>
 <td rowspan="3">所有</td>
 </tr>
 <tr>
@@ -344,7 +344,7 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>固定数量：1</td>
-<td>无</td>
+<td>否</td>
 <td>
 <p>批处理号：否</p>
 <p>序列号：否</p>
@@ -399,7 +399,7 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>固定数量：2</td>
-<td>无</td>
+<td>否</td>
 <td>
 <p>批处理号：是</p>
 <p>序列号：是</p>

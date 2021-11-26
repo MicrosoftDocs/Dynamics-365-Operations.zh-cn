@@ -1,7 +1,7 @@
 ---
 title: 管理国际银行帐号 (IBAN) 帐户验证
 description: 此主题介绍如何管理国际银行帐号 (IBAN) 帐户验证。
-author: mikefalkner
+author: roscholm
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f7f6bcb9085630966310efb5af2e7def23d919d6653376b8f6637a6da915a8d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c992d1df0f363960caa363a514a3c6f6d51e78d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757137"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753602"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 

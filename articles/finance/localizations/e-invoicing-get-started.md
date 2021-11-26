@@ -2,7 +2,7 @@
 title: 开始使用电子开票
 description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票。
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700371"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779686"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>开始使用电子开票
 
@@ -57,7 +57,12 @@ ms.locfileid: "7700371"
 
 根据国家或地区，电子开票功能可能需要特定配置。 
 
-有关具体步骤，请参阅为您所在国家或地区提供的“入门”文档。
+> [!NOTE]
+> 当您为芬兰启用电子开票功能时，不支持查找中的应用程序特定参数。 要解决此问题，在 **电子报告** 模块中查看销售发票和项目发票格式的配置。 手动设置 **$PaymentMethodSubstitution** 映射的计算字段，然后将该字段绑定到销售发票和项目发票格式中的 **EpiPaymentMeansCode** 字段。
+>
+> 当您为意大利启用电子开票功能时，不支持查找中的应用程序特定参数。 要解决此问题，在 **电子报告** 模块中手动设置 **$NaturaReverseCharge** 映射的计算字段。
+>
+> 对于与其他位置相关的特定步骤，请参阅为您所在国家或地区提供的“入门”文档。
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>从电子报告中导入模型映射配置
 
@@ -241,6 +246,14 @@ ms.locfileid: "7700371"
 
 3. 在网格中选择一个发票，然后选择 **查询**\>**提交详细信息**。
 
+## <a name="download-an-electronic-document-file"></a>下载电子单据文件
+
+1. 转到 **组织管理** \> **定期** \> **电子单据** \> **电子单据提交日志**。
+2. 在 **文档类型** 字段中，选择包含发票的表。
+3. 在网格中选择文档，然后选择 **电子单据**\>**下载文件**。 将建议下载包含电子单据文件的存档。
+
+> [!NOTE]
+> 在下载文件之前，必须为 RCS 中电子开票功能设置中的相关操作打开 **导出结果** 选项。
 
 ## <a name="related-topics"></a>相关主题
 

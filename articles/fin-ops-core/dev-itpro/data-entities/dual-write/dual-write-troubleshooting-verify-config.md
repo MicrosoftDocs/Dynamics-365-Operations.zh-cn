@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 074cfd5dc2d2877e83e7e65a8b2178ed954a288e
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416673"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782619"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证 Finance and Operations 应用和 Dataverse 中的双写入配置
 
