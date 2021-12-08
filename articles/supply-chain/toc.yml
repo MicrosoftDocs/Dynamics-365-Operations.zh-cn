@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 法国的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: 新增功能或更改
               items:
                 - name: Finance and Operations 应用新增功能或更改
@@ -2091,11 +2087,11 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: 设置采购类别层次结构的策略
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
-            - name: 产品收货和开单
+            - name: 产品收货和开票
               items:
                 - name: 针对采购订单的物料收货
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: 供应商账单的概览
+                - name: 供应商发票的概览
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
             - name: 供应商管理和协作
               items:
@@ -2147,7 +2143,7 @@
               items:
                 - name: 设置项目资源信息
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: 提交和审核项目预算
+                - name: 创建和提交项目预算工作流
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: 提交和审核项目预算修订
                   href: procurement/tasks/submit-approve-project-budget-revision.md

@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: 法国的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: 新增功能或更改
               items:
                 - name: Finance and Operations 应用新增功能或更改
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: 客户帐龄分析表
               href: accounts-receivable/customer-aging.md
+            - name: 客户帐龄数据存储
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: 创建客户的勾销日记帐
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: 高级注释管理
@@ -1470,15 +1468,19 @@
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: 奥地利报告
                           items:
-                            - name: 增值税申报
+                            - name: VAT 申报
                               href: localizations/emea-aut-vat-declaration-austria.md
                         - name: 法国报告
                           items:
-                            - name: 增值税申报
+                            - name: VAT 申报
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: 德国报告
+                          items:
+                            - name: VAT 申报
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: 荷兰报告
                           items:
-                            - name: 增值税申报
+                            - name: VAT 申报
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: 欧盟销售清单
                               href: localizations/emea-nl-eu-sales-list.md
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: 第二年中其他购置的折旧调整
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: 增值税申报的电子传输 (ELSTER)
+                - name: VAT 申报
+                  href: localizations/emea-deu-vat-declaration-germany.md
+                - name: VAT 申报的电子传输 (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: 德国内部统计
                   href: localizations/emea-deu-intrastat.md
-                - name: 德国增值税申报
+                - name: VAT 报表
                   href: localizations/emea-de-vat-declaration.md
                 - name: 客户电子发票报告
                   href: localizations/emea-deu-e-invoices.md

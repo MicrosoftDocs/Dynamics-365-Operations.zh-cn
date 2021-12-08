@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 针对帮助进行扩展、自定义和协作
                   href: help/contributor-guide.md
+            - name: 部署注意事项
+              items:
+                - name: 针对 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 Sovereign 和本地云部署选项
+                  href: deployment/deployment-options-geo.md
+                - name: 美国政府社区云 (GCC) 中的 Finance 和 Supply Chain Management
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance 和 Supply Chain Management 由世纪互联在中国运营
+                  href: deployment/china-local-deployment.md
+                - name: 法国的 Finance and Operations 应用
+                  href: deployment/france-local-deployment.md
         - name: 开发和自定义
           items:
             - name: 开发和自定义主页
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: 升级到当事方和全球通讯簿模型
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: 查看当事方数据
+                      href: data-entities/dual-write/view-party.md
                     - name: 注释集成
                       href: data-entities/dual-write/notes-integration.md
                     - name: 映射引用
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: 创建批处理作业
                   href: sysadmin/tasks/create-batch-job.md
-                - name: 启用批处理作业的自动重试
+                - name: 启用批处理重试
                   href: sysadmin/retryable-batch.md
                 - name: 复制批处理作业
                   href: sysadmin/copy-batch-job.md

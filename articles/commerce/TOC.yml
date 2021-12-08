@@ -70,14 +70,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: 本地环境中 Retail 渠道组件的安装步骤
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: 购买 Finance + Operations（本地版）
+                - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange 实施指南
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: 法国的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: 获取支持
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: 升级和 N-1 支持
@@ -1274,6 +1270,8 @@
               href: set-up-rfm-analysis.md
             - name: 在 Dynamics 365 Commerce 中设置 Microsoft Clarity
               href: set-up-clarity.md
+            - name: Commerce 分析（预览版）
+              href: commerce-analytics.md
         - name: 全球化
           items:
             - name: Commerce 渠道的会计整合概览
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: 俄罗斯的客户信息管理
                   href: localizations/rus-customer-information.md
+            - name: 沙特阿拉伯
+              items:
+                - name: 为沙特阿拉伯生成 QR 码并将其打印在收据上
+                  href: localizations/emea-sau-qr-code.md
             - name: 瑞典
               items:
                 - name: 收银机功能
@@ -1878,7 +1880,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: 生成包含嵌入图像的 Office 格式报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: 设计 ER 格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
+                    - name: 设计电子报告格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
                       href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Dynamics 365 Commerce 开发的调试最佳实践
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: 测试电子商务站点页面是否存在内存泄漏
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: 迁移到 Commerce SDK
