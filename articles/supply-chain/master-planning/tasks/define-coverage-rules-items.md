@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567215"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860605"
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则
 
@@ -113,6 +113,7 @@ ms.locfileid: "7567215"
 1. 在 **采购时间** 字段中，输入“5”。
 1. 选择 **保存**。
 
-
+> [!NOTE]
+> 对于制造物料，如果没有物料工艺路线，则使用 **生产提前期**。 如果可用工艺路线已与物料关联，则主计划将根据资源的工艺路线时间和产能（如果适用）安排订单并计算其日期。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

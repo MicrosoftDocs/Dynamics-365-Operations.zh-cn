@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: d4eeee3c1228b278fea07464f35946c295c5aea8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 3dc36c8562f39a076bd4871524e2d132d1883d28
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679047"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860709"
 ---
 # <a name="saleshistorycleanupperformanceimprovements"></a>销售历史记录清除性能改进
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!-- GA with 10.0.24 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] 
+<!-- KFM: Preview until GA with 10.0.24 -->
 
 如果 **销售更新历史记录清理** 定期批处理作业不是经常在具有大量销售更新的环境中运行，可能会花费很长时间。 在这些情况下，*销售历史记录清理性能改进* 功能可以帮助减少运行持续时间并提高可靠性。
 

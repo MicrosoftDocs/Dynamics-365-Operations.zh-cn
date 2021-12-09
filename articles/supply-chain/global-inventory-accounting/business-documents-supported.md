@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 369b6996c09f4bd1a4da8c7b3902221495c58bf2
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 47251a7167a00346aed26b9e9535f1b12301e5a6
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678803"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860578"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>全球库存核算支持的业务单据
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 完全设置全球库存核算加载项后，即可处理在 Microsoft Dynamics 365 Supply Chain Management 中输入的与库存相关的单据。
 

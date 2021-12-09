@@ -2,7 +2,7 @@
 title: Finance Insights 的配置
 description: 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752970"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827020"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights 的配置
 
@@ -43,21 +43,41 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse
 
 2. 如果您要在沙盒环境中配置 Finance Insights，可能必须将生产数据复制到该环境，预测才能够工作。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分定型预测模型。 
 
+## <a name="configure-your-azure-ad-tenant"></a>配置您的 Azure AD 租户
+
+必须配置 Azure Active Directory (Azure AD)，以便它可以与 Dataverse 和 Microsoft Power Platform 应用程序一起使用。 此配置要求将 **项目负责人** 角色或 **环境管理员** 角色分配给 LCS 内 **项目安全角色** 字段中的用户。
+
+验证以下设置是否已完成：
+
+- 您在 Power Portal 管理中心具有 **系统管理员** 和 **系统定制员** 访问权限。
+- Dynamics 365 Finance 许可证或等效许可证适用于正在安装 Finance Insights 加载项的用户。
+
+已在 Azure AD 中注册以下 Azure AD 应用。
+
+|  申请                             | 应用程序 ID                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>配置 Dataverse
 
 按照以下步骤为 Finance Insights 配置 Dataverse。
 
 - 在 LCS 中，打开环境页面，验证是否已设置 **Power Platform 集成** 部分。
 
-    - 如果已经设置，链接到 Finance 环境的 Dataverse 环境名称应该列出。
-    - 如果尚未设置，请选择 **设置**。 设置 Dataverse 环境最多可能需要一个小时。 设置成功完成后，链接到 Finance 环境的 Dataverse 环境名称应该列出。
+    - 如果已经设置 Dataverse，则应该列出链接到 Finance 环境的 Dataverse 环境名称。
+    - 如果尚未设置 Dataverse，请选择 **设置**。 设置 Dataverse 环境最多可能需要一个小时。 设置成功完成后，应该会列出 Finance 环境中链接到的 Dataverse 环境名称。
+    - 如果已用现有 Microsoft Power Platform 环境设置了此集成，请与您的管理员联系以确保链接的环境未处于禁用状态。
+
+        有关详细信息，请参阅[启用 Power Platform 集成](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md)。 
+
+        要访问 Microsoft Power Platform 管理员站点，请转到 <https://admin.powerplatform.microsoft.com/environments>。
 
 ## <a name="configure-the-finance-insights-add-in"></a>配置 Finance Insights 加载项
 
 如果之前安装了 Finance insights 加载项，请先卸载，然后再完成以下过程。
 
 > [!NOTE]
-> 如果您已经在 LCS 中安装了数据湖加载项，Finance insights 将使用它来保存预测所需的数据。 如果您尚未在 LCS 中安装数据湖加载项，Finance insights 加载项将为您创建一个托管数据湖。
+> 如果您已经在 LCS 中安装了 Data Lake 加载项，Finance insights 将使用它来保存预测所需的数据。 如果您尚未在 LCS 中安装 Data Lake 加载项，Finance insights 加载项将为您创建一个托管 Data Lake。
 
 按照以下步骤安装 Finance Insights 加载项。
 

@@ -2,7 +2,7 @@
 title: Finance Insights 主页
 description: Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752848"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813731"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights 主页
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance insights 提供可配置和可扩展的模型，以帮助您智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。 将这些新功能与供应商付款和收款中的自动化相结合时，它们将提供丰富而智能的财务系统，以推动决策制定，并帮助您采取行动以有效应对当前和预期的业务挑战。
+Finance insights 提供可配置和可扩展的解决方案，以帮助您智能地预测公司的现金流，预测何时可能会收到未清应收款的付款，并生成可以帮助加快预算编制过程的预算提案。 这些功能使用智能机器学习模板，以使用您提供的数据（包括来自第三方的数据，例如来自某个局的消费者报告信息）来构建模型。 这些智能功能为制定决策提供信息，并帮助您采取行动以有效应对当前和预期的业务挑战。 您对 Finance Insights 所使用或输出的任何数据负责。
 
 > [!NOTE]
 > Finance Insights 预览版可用于美利坚合众国、加拿大、英国、欧洲、亚太、日本、澳大利亚和新西兰的部署。 Microsoft 将逐渐增加对更多地区的支持。

@@ -2,19 +2,19 @@
 title: Finance and Operations 应用的服务描述
 description: 本主题提供 Finance and Operations 应用的服务描述。
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581808"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825392"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
 
@@ -50,10 +50,10 @@ Finance and Operations 应用的运行模型定义客户、实现合作伙伴和
 
 ### <a name="customer-activities"></a>客户活动
 
-客户与其合作伙伴和 [Microsoft FastTrack](/dynamics365/fasttrack/) 合作，遵循 [Success by Design](/dynamics365/fasttrack/success-by-design-overview) 框架并使用 [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) 中提供的工具和最佳实践来实现自己的解决方案。 常见活动包括：
+客户与其合作伙伴和 [Microsoft FastTrack](/dynamics365/fasttrack/) 合作，遵循 [Dynamics 365 实施指南](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)和 [Success by Design](/dynamics365/fasttrack/success-by-design-overview) 框架，并使用 [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) 中提供的工具和最佳实践来实现自己的解决方案。 常见活动包括：
 
 - 用户标识和安全管理
-- 定义，开发和操作业务流程
+- 定义、开发和操作业务流程
 - 定义，开发，测试和操作扩展
 - 监控和管理非生产部署
 - 管理应用程序更新和验证扩展

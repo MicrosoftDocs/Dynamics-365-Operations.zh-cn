@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678875"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860417"
 ---
 # <a name="global-inventory-accounting-ledger"></a>全球库存核算分类帐
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 全球库存核算具有自己的一组分类帐。 每次为相关法人处理与库存相关的交易时，系统都可以根据需要在任意数量的全球库存核算分类帐中对该交易进行核算。
 

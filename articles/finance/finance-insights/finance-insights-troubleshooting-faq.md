@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752609"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827045"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
@@ -70,3 +70,26 @@ Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐�
 首先，设置并启用现金流预测和流动性帐户。 有关详细信息，请参阅[现金流预测](../cash-bank-management/cash-flow-forecasting.md)。 如果此设置已完成，但您看不到所期望的结果，请参阅[现金流预测设置疑难解答](../cash-bank-management/cash-flow-forecasting-tsg.md)，以了解详细信息。
 
 接下来，确认已启用 Finance Insights（**现金和银行管理设置 \> 设置 \> Finance Insights \> 现金流预测**）中的现金流预测功能，并且已完成 AI 模型训练。 如果尚未完成训练，请选择 **立即预测** 以启动模型训练流程。
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>症状：为什么“安装新加载项”按钮在 Microsoft Dynamics Lifecycle Services 中不可见？
+
+### <a name="resolution"></a>解决方法
+
+首先，验证 **环境管理员** 或 **项目负责人** 角色是否已分配给 Microsoft Dynamics Lifecycle Services (LCS) 内 **项目安全角色** 字段中的登录用户。 安装新加载项需要这些项目安全角色之一。
+
+如果为您分配了正确的项目安全角色，您可能需要刷新浏览器窗口才能看到 **安装新加载项** 按钮。
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>症状：Finance Insights 加载项似乎未安装。 为什么？
+
+### <a name="resolution"></a>解决方法
+
+应完成以下步骤。
+
+- 验证您在 Power Portal 管理中心是否具有 **系统管理员** 和 **系统定制员** 访问权限。
+- 验证 Dynamics 365 Finance 许可证或等效许可证是否适用于正在安装加载项的用户。
+- 验证以下 Azure AD 应用是否已在 Azure AD 中注册： 
+
+  | 申请                  | 应用程序 ID           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

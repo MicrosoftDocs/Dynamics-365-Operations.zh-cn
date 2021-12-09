@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781456"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817353"
 ---
 # <a name="dual-write-overview"></a>双写入概览
 
@@ -68,11 +68,7 @@ ms.locfileid: "7781456"
 + 查找现有库存量和详细信息
 + 项目到现金体验
 + 通过当事方概念处理多个地址和角色
-+ 针对用户的单个源管理
-+ 集成的零售和市场营销渠道
-+ 查看促销和折扣
-+ 请求服务功能
-+ 简化的服务操作
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>使用双写入的主要原因
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569665"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825346"
 ---
 # <a name="product-identifiers"></a>产品标识符
 
@@ -39,7 +39,7 @@ ms.locfileid: "7569665"
 
 在很多情况下，产品编号不是在 Dynamics 365 Supply Chain Management 中初始创建。 而是与产品生命周期管理 (PLM) 系统或产品数据管理 (PDM) 系统中的产品关联。 在这种情况下，使用数据实体导入产品和产品变型。 然后，Supply Chain Management 在所有操作中使用这些编号。
 
-在实施 Supply Chain Management 时，应特别注意您的产品编号策略。 一个好的编号系统可以改进物流流动，并且帮助预防错误。 一个好的产品标识符最多包含 15 个字符。 理想情况下，它有少于 10 个字符，包括不超过五个分类字符。 您还可以使用搜索名称来进行快速搜索。 搜索名称是表示产品分类的额外名称。
+在实施 Supply Chain Management 时，应特别注意您的产品编号策略。 一个好的编号系统可以改进物流流动，并且帮助预防错误。 一个好的产品标识符通常应该有 20 个字符或更少字符，但我们通常建议使用的字符少于 10 个并且包括的分类字符不超过 5 个。 您还可以使用搜索名称来进行快速搜索。 搜索名称是表示产品分类的额外名称。
 
 如果使用 Microsoft Dataverse，Supply Chain Management 中的产品编号也是 Microsoft Dataverse 中的产品编号。 产品变型作为独特产品同步到 Dataverse。
 

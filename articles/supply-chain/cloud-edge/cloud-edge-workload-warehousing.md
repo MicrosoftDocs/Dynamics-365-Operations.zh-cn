@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641152"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813715"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
@@ -290,7 +290,8 @@ ms.locfileid: "7641152"
 |---------|-----|------------------------------|
 | 报告为完工入库和成品储存 | 是 | 是 |
 | 联产品和副产品储存 | 是 | 是 |
-| <p>与生产相关的所有其他仓库管理流程，包括：</p><li>发放到仓库</li><li>生产波次处理</li><li>原材料领取</li><li>看板储存</li><li>看板领料</li><li>开始生产订单</li><li>生产废料</li><li>最后一个生产托盘</li><li>登记物料消耗量</li><li>空看板</li></ul> | 是 | 否 |
+| 开始生产订单 | 是 | 是 |
+| <p>与生产相关的所有其他仓库管理流程，包括：</p><li>发放到仓库</li><li>生产波次处理</li><li>原材料领取</li><li>看板储存</li><li>看板领料</li><li>生产废料</li><li>最后一个生产托盘</li><li>登记物料消耗量</li><li>空看板</li></ul> | 是 | 否 |
 | 原材料补货 | 否 | 否 |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>为仓库执行维护缩放单元
