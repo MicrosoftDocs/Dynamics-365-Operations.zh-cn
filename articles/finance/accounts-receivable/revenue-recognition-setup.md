@@ -2,7 +2,7 @@
 title: 收入确认设置
 description: 本主题将介绍收入确认的设置选项及其影响。
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675170"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867212"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "7675170"
 
 第二种情形发生在重新分配之后创建日记帐时。 将销售订单行添加到之前已开票的销售订单，或者创建包括原始合同中的某行的新销售订单时，会产生重新分配。 如果在添加新销售订单行之前过帐发票，则必须为已过帐的客户发票创建更正的会计条目。
 
-日记帐将在 **日记帐名称** 页面（**收入确认 \> 设置 \> 日记帐名称**）中设置。 日记帐类型必须设置为 **收入确认**。 通过收入确认日记帐可选择要过帐到的过帐层。
+日记帐将在 **日记帐名称** 页面（**收入确认 \> 设置 \> 日记帐名称**）中设置。 日记帐类型必须设置为 **收入确认**。 
 
 ## <a name="parameters-for-revenue-recognition"></a>收入确认的参数
 

@@ -4,6 +4,8 @@
     - name: 新增功能
       items:
         - name: Human Resources 中的新增功能或更改
+          href: hr-whats-new-2021-11-29.md
+        - name: 2021 年 11 月 29 日
           href: hr-admin-whats-new.md
         - name: 2021 年 10 月 5 日
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: 处理费率更改
                       href: hr-benefits-process-rate-changes.md
+                - name: 员工福利选择
+                  href: employee-select-benefits-ess.md
                 - name: ACA 报表
                   href: hr-benefits-management-aca-reports.md
                 - name: 福利报表

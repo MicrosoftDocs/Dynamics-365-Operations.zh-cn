@@ -92,7 +92,9 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24（2022 年 2 月）
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23（2022 年 1 月）
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22（2021 年 11 月）
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: 全渠道付款概览
                       href: omni-channel-payments.md
+                    - name: 店内提货的多种可用付款方式
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: 全渠道 Commerce 订单付款
                       href: dev-itpro/commerce-payments.md
                     - name: 存档信用卡交易记录数据
@@ -814,6 +818,10 @@
           items:
             - name: 商店中的客户管理
               href: customer-mgmt-stores.md
+            - name: 异步客户创建模式
+              href: async-customer-mode.md
+            - name: 将异步客户转换为同步客户
+              href: convert-async-to-sync.md
             - name: 客户服务解决方案
               items:
                 - name: 客户服务解决方案概览
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: 通过 Commerce Headquarters 中的零售对帐单过帐巴西会计单据
                   href: localizations/latam-bra-retail-statements.md
+                - name: 适用于巴西的 Commerce POS 中的通过 SAT 实现的 CF-e 会计单据功能和集成功能
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: 适用于巴西的 Commerce POS 中面向 Adyen 的 Dynamics 365 Payment Connector
                   href: localizations/latam-bra-adyen.md
             - name: 东欧
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: 适用于印度的升级和 N-1 支持
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: 生成 QR 码并将其打印在收据上
+                - name: 生成 QR 码并将其打印在适用于印度的收据上
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: 电子商务站点的商品劳务税 (GST) 集成
+                  href: localizations/apac-ind-e-commerce.md
             - name: 意大利
               items:
                 - name: 意大利税控打印机集成示例
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: 列表
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: 列表函数
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

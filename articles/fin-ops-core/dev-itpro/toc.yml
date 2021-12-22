@@ -14,12 +14,12 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对版本 10.0.23 的平台更新
+                - name: 针对版本 10.0.24 的平台更新（2022 年 2 月）
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: 针对版本 10.0.23 的平台更新（2022 年 1 月）
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: 针对版本 10.0.22 的平台更新（2021 年 11 月）
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: 针对版本 10.0.21 的平台更新（2021 年 10 月）
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake 概览
-              href: data-entities/azure-data-lake-overview.md
-            - name: 配置导出到 Azure Data Lake
+            - name: 导出到 Azure Data Lake 概览
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: 安装“导出到 Azure Data Lake”加载项
               href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake 中的 Finance and Operations 应用
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: 在多个环境中重复使用相同的 AD FS 实例
                       href: deployment/onprem-reuseadfs.md
+                    - name: 升级 Microsoft Dynamics 365 Finance + Operations (on-premises) 环境的 SQL Server 实例
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: 本地代理
                   items:
                     - name: AD FS Microsoft 365 兼容性
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform 集成
           items:
-            - name: Microsoft Power Platform 与 Finance and Operations 的集成
+            - name: 概览
               href: power-platform/overview.md
             - name: 启用 Power Platform 集成
               href: power-platform/enable-power-platform-integration.md

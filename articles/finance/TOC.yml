@@ -70,12 +70,12 @@
                   items:
                     - name: “Finance 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24（2 月）
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23（1 月）
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22（2021 年 11 月）
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21（2021 年 10 月）
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: 预算编制概览
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: 可用预算资金
+              href: budgeting/budget-funds-available.md
             - name: 职位预测
               href: budgeting/position-forecasting.md
             - name: 预算计划证明文档
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: 设置电子开票
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Power Platform 插件管理员参考
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: 电子开票常见问题解答
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 税款计算
@@ -1444,6 +1448,14 @@
                       items:
                         - name: 开始使用税款计算
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: 设置税务代码
+                          href: localizations/set-up-tax-codes.md
+                        - name: 设置税组
+                          href: localizations/set-up-tax-groups.md
+                        - name: 设置物料税组
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: 导入和导出税金计算
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: 设置用于主数据查找的环境
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: 确定
@@ -1542,7 +1554,7 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: 包装材料费用
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: 增值税报表
+                - name: VAT 报表
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
                   href: localizations/emea-aut-vat-statement-details.md
@@ -1862,7 +1874,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 更新金额在报表和单据上显示的方式
                   href: localizations/emea-amount-printing-forms.md
-                - name: 增值税报表
+                - name: VAT 报表
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: 增值税申报（捷克共和国）
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
@@ -1918,7 +1930,7 @@
                   href: localizations/estonia.md
                 - name: 个人信息请求
                   href: localizations/emea-est-personal-info.md
-                - name: 增值税报表
+                - name: VAT 报表
                   href: localizations/emea-est-vat-statement-details.md
             - name: 欧洲
               items:
@@ -2064,7 +2076,7 @@
                       href: localizations/emea-tax-point-date.md
                     - name: 增值税报告
                       href: localizations/emea-vat-reporting.md
-                    - name: 创建和提交增值税报表
+                    - name: 创建和提交 VAT 报表
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: 查看有关结算的交易记录
                   href: localizations/emea-transactions-settlement-form.md
@@ -2594,13 +2606,15 @@
               items:
                 - name: 印度尼西亚概览
                   href: localizations/indonesia.md
-                - name: 印度尼西亚增值税申报
+                - name: 税务发票编号和开票
+                  href: localizations/apac-idn-invoicing.md
+                - name: 印度尼西亚 VAT 申报
                   href: localizations/apac-idn-ppn-declaration.md
             - name: 意大利
               items:
                 - name: 意大利概览
                   href: localizations/italy.md
-                - name: 增值税报表明细
+                - name: VAT 报表明细
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: 每季度增值税申报报表
                   href: localizations/emea-ita-quarterly-vat-communication.md
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: 客户电子发票
                   href: localizations/emea-ita-e-invoices.md
+                - name: 供应商电子发票
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: 年度税务申报
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: 付款可追溯性
@@ -2844,7 +2860,7 @@
                   href: localizations/emea-invoices-packing-slips-numbering.md
                 - name: 自然资源税报表
                   href: localizations/emea-lva-tax-natural-resources.md
-                - name: 增值税报表明细
+                - name: VAT 报表明细
                   href: localizations/emea-lva-vat-statement-details.md
             - name: 立陶宛
               items:
@@ -2854,7 +2870,7 @@
                   href: localizations/emea-ltu-fixed-asset-repair-statement.md
                 - name: 生成仓库文档之间的固定资产转移
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: 增值税报表明细
+                - name: VAT 报表明细
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: 立陶宛的 i.SAF 报告
                   href: localizations/emea-ltu-isaf.md
@@ -2962,8 +2978,22 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: 净导入格式
                   href: localizations/emea-nor-nets-import-format.md
-                - name: 增值税报表
+                - name: VAT 报表
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: 直接提交给 Altinn 的 VAT 退税
+                  items:
+                    - name: 直接提交给 Altinn 的 VAT 退税概览
+                      href: localizations/emea-nor-vat-return.md
+                    - name: 在 ID-porten Web 门户中注册集成点
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: 做好环境准备以与 ID-porten 和 Altinn Web 服务进行互操作
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: VAT 退税的电子消息设置的核对清单
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: 授权您的 Finance 环境以与 ID-porten 和 Altinn Web 服务进行互操作
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: 将 VAT 退税提交到 Altinn Web 服务
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: 挪威税务标准审计文件 (SAF-T)
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: 挪威的客户电子发票
@@ -3402,9 +3432,9 @@
                       href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
                     - name: 授权您的 Finance 环境以与 HMRC 的 MTD Web 服务进行互操作
                       href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                    - name: 将增值税退税提交到 HMRC 的 MTD Web 服务
+                    - name: 将 VAT 退税提交到 HMRC 的 MTD Web 服务
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                    - name: 从 HMRC 中检索有关增值税付款和负债的信息
+                    - name: 从 HMRC 中检索有关 VAT 付款和负债的信息
                       href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                     - name: 英国增值税申报的增值税设置详细信息
                       href: localizations/emea-gbr-mtd-vat-integration-declaration.md
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: 列表
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: 列表函数
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
