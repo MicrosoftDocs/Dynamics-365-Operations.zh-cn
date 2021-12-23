@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.23 预览
+title: Dynamics 365 Supply Chain Management 10.0.23 预览（2022 年 1 月）
 description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.23 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777783"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891785"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Dynamics 365 Supply Chain Management 10.0.23 预览
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 预览（2022 年 1 月）
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ ms.locfileid: "7777783"
 
 - **预览版：** 2021 年 10 月
 - **版本的正式发布时间（自行更新）：** 2021 年 12 月
+- **版本的正式发布时间（自动更新）：** 2022 年 1 月
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
@@ -53,7 +54,8 @@ ms.locfileid: "7777783"
 | 库存和仓库管理 | \[俄罗斯\] 根据销售订单的财务凭证中的更正标志过帐 Storno 财务库存交易记录 | 此功能将影响俄罗斯的贷方通知单更正功能。 它支持根据总帐中的更正选项过帐销售发票的库存交易记录。 启用此功能后，库存交易的财务凭证上的 **更正** 标记和库存交易记录上的 **Storno** 标记之间不再存在差异。 |
 | 库存和仓库管理 | (俄罗斯)以分批方式运行库存余额交易额报表计算 | 在 Supply Chain Management 的俄语本地化方面，通过此功能能够以批处理方式运行 *库存余额交易额* 报表，以存储该报表和查看先前生成的报表。 |
 | 库存和仓库管理 | (俄罗斯)在库存管理的特定于国家/地区的主要窗体中使用当地语言的翻译 | 在 Supply Chain Management 的俄语本地化方面，通过此功能可以在以下特定于俄罗斯的库存打印输出中使用产品/物料名称和度量单位的俄罗斯语翻译：盘点清单 (INV-3)、盘点清单 (INV-5) 和盘点清单 (INV-6)。 |
-| 采购 | 清理采购订单更新历史记录 | 利用此功能，您可以清理与采购订单更新相关的临时历史记录。 它向 **所有采购订单** 页上的操作窗格添加了一个名为 **清理采购订单更新历史记录** 的新按钮。 默认情况下启用了此功能。 |
+| 主计划 | 用于需求预测的 Azure 机器学习服务 | 此功能使 Azure 机器学习服务能够根据历史数据生成需求预测。 有关详细信息，请参阅[需求预测设置](../master-planning/demand-forecasting-setup.md)。 |
+| 采购 | 清除采购订单更新历史记录 | 利用此功能，您可以清理与采购订单更新相关的临时历史记录。 它向 **所有采购订单** 页上的操作窗格添加了一个名为 **清理采购订单更新历史记录** 的新按钮。 默认情况下启用了此功能。 |
 | 生产控制 | (预览版)自动领取支持仓库的物料以便自动过帐领料单 | 通过此功能可以自动领取和解析库存维度，以便自动过帐、派生和倒冲领料单日记帐。 |
 | 生产控制 | 根据计划消耗日期验证原材料的到期日期 | 此功能更改了在预留要在生产过程中使用的原材料批次时验证批次到期日期的方式。 启用此功能后，批次到期日期将根据在生产物料清单行或批次订单配方行上设定的计划消耗日期（原材料日期）进行验证。 禁用此功能后，批次到期日期将根据生产或批次订单的计划交货日期（与之前一样）进行验证。 |
 | 销售和市场营销 | 根据使用时间清除销售更新历史记录 | 此功能可让您设置在运行 **销售更新历史记录清理** 定期任务时要保留记录的最长年限。 较早的记录将被删除。 这在您将任务设置为定期运行时很有用，因为年限始终是相对于任务运行的日期计算的。 如果没有此功能，您只能为要保留的最早记录设置特定日期。 |

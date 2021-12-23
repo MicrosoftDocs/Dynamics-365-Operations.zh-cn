@@ -2,7 +2,7 @@
 title: 建立 B2B 电子商务站点
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置企业到企业 (B2B) 电子商务站点。
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713740"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891377"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 企业到企业 (B2B) 电子商务站点提供一些关键功能，可以优化 B2B 用户的工作流。 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置 B2B 电子商务站点。 其中介绍了必须配置以支持特定于 B2B 的场景的模块和站点设置。
 
@@ -306,6 +307,30 @@ ms.locfileid: "7713740"
 
 > [!NOTE] 
 > 快速添加模块自 Commerce 版本 10.0.17 开始提供。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>将批量购买模块添加到产品详细信息页面
+
+产品详细信息页面 (PDP) 上的批量购买模块提供基于矩阵的体验，让采购员可以快速将产品的多个变型添加到购物车。 当站点用户必须订购同一产品的多个变型时，此体验无需选择产品维度组合、定义数量、将变型添加到购物车，然后对其他产品维度组合重复这一过程。
+
+要将批量购买模块添加到 Commerce 站点构建器中的 PDP，请按照以下步骤操作。
+
+1. 转到 **模板**，选择您的站点的 PDP 模板。
+1. 选择 **编辑**。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **批量购买** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
+1. 转到 **页面**，选择您的站点的 PDP。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 模块的属性窗格中，在 **宽度** 下，选择 **填充容器**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **批量购买** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
+
+> [!NOTE] 
+> 批量购买模块自 Commerce 版本 10.0.24 开始提供。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
 ## <a name="additional-resources"></a>其他资源
 

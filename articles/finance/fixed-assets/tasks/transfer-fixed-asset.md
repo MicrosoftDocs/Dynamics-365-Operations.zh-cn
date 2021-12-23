@@ -1,7 +1,7 @@
 ---
 title: 转移固定资产
 description: 此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。
-author: saraschi2
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirm
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c307568ab1cc064c27fa8d3e24756f564947e4716aaed1c280019c1283da1c93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765684"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883354"
 ---
 # <a name="transfer-a-fixed-asset"></a>转移固定资产
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。  它为 USMF 法人实体使用会计角色和演示数据。
+此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。  
 
 1. 在导航窗格中，转到 **模块 > 固定资产 > 固定资产 > 固定资产**。
 2. 在列表中，查找并选择要转移的固定资产。

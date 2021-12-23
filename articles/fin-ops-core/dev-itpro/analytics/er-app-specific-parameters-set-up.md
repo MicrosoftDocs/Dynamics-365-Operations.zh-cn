@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733455"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913643"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>为每个法人设置 ER 格式的参数
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>先决条件
 

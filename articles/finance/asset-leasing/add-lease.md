@@ -2,7 +2,7 @@
 title: 添加或复制租赁（预览）
 description: 本主题描述如何通过在资产租赁中输入新信息或从现有租赁中复制信息来创建新租赁。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761318"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893637"
 ---
 # <a name="add-or-copy-leases-preview"></a>添加或复制租赁（预览）
 
@@ -35,6 +35,8 @@ ms.locfileid: "6761318"
 1. 在 **租赁摘要** 页的“操作窗格”上，选择 **新建**。
 2. 输入租赁信息。 必填字段带有红色边框。
 
+> 租赁付款的开始日期不能早于租赁开始日期。 如果您输入的租赁付款开始日期早于租赁开始日期，您将收到一条错误消息。
+  
 ## <a name="create-a-lease-schedule"></a>创建租赁计划
 
 输入完租赁信息后，请按照以下步骤创建租赁计划。

@@ -1,7 +1,7 @@
 ---
 title: 安装和连接仓库管理移动应用
 description: 本主题说明如何在每个移动设备上安装仓库管理移动应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647612"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901981"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 

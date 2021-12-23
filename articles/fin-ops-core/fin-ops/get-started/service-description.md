@@ -2,19 +2,19 @@
 title: Finance and Operations 应用的服务描述
 description: 本主题提供 Finance and Operations 应用的服务描述。
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825392"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898381"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
 
@@ -314,9 +314,9 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
 | 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 无 |
 | 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 无 |
 | Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 无 |
-| <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 数据丢失最多 5 秒。 有关详细信息，请参阅 [Azure SQL 数据库异地恢复](https://azure.microsoft.com/blog/azure-sql-database-geo-restore)。</p><p>如果数据丢失，Microsoft 将请求客户签字以进行故障转移。</p> | 如果数据丢失，客户可能必须提供书面签字才能触发故障转换。 |
+| <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 客户可能会遇到长达 15 分钟的数据丢失，具体取决于中断的性质和时间。 | 如果数据丢失，客户可能必须提供书面签字才能触发故障转移。 |
 | 发生故障转移时，适用的服务将以受限模式工作。 故障转移模式下不能触发更新维护。 | 故障模式下客户不能请求包部署和其他常规维护请求。 |
-| 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时时注销。 |
+| 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时签字。 |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations 支持产品
 

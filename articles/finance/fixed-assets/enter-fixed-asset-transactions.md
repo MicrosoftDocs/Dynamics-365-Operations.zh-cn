@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 129f88037691096c22478e4f186667a502e394ec
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674466"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891564"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍可用来创建固定资产交易记录的不同方法。
 

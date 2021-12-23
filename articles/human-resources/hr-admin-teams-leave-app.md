@@ -2,7 +2,7 @@
 title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771498"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913481"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -111,6 +111,9 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 ## <a name="troubleshooting"></a>疑难解答
 
 如果用户在登录或使用 Human Resources Teams 应用时遇到问题，请尝试按照以下疑难解答说明进行操作。 如果在进行疑难解答后仍有问题，请联系支持人员。 有关详细信息，请参阅[获取支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
+
+### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>确保 Teams Human Resources 应用程序是最新版本
+如果您遇到 Teams Human Resources 应用的问题，需要确认您运行的是最新版本。 支持的最小版本为 1.1.5。 有关如何更新 Teams 应用程序的说明，请参阅 [Teams 文档](/MicrosoftTeams/apps-update-experience)。
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>无法登录到 Teams 中的 Human Resources 应用
 

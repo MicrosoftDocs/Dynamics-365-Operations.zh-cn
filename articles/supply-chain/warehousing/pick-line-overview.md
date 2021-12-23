@@ -1,7 +1,7 @@
 ---
 title: 设置移动设备菜单项以提供领料行概览
 description: 本主题说明如何定义何时向在移动设备上处理仓库工作的仓库工作人员显示所有工作行的列表。 对于经常需要在工作订单中查看领料行概览以便可以优化领料顺序的仓库工作人员，此功能会很有用。
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8bb5a7851987b71d5a1df1d37054547f28ecf9a4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580040"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901914"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>设置移动设备菜单项以提供领料行概览
 

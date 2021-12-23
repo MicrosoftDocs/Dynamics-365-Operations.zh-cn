@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647255"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890769"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>日期和时间类别的 ER 函数列表
 
@@ -37,8 +37,8 @@ ms.locfileid: "7647255"
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）将给定日期/时间值显示为文本。 |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | 此函数返回一个 *日期时间* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期/时间值。 |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | 此函数返回一个 *日期时间* 值，此值从给定日期/时间值转换为协调世界时（格林威治标准时间 \[GMT\]）的日期/时间值。 |
-| [DateValue](er-functions-datetime-datevalue.md) | 此函数返回一个 *日期* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期值。 |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | 此函数返回一个 *整数* 值，此值表示 1 月 1 日到指定日期之间的天数。 |
+| [DateValue](er-functions-datetime-datevalue.md) | 此函数返回一个 *[日期](er-formula-supported-data-types-primitive.md#date)* 值，此值从指定格式和指定的区域性（可选）的给定文本值转换为日期值。 |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | 此函数返回一个 *[整数](er-formula-supported-data-types-primitive.md#integer)* 值，此值表示 1 月 1 日到指定日期之间的天数。 |
 | [天数](er-functions-datetime-days.md) | 此函数返回一个 *整数* 值，此值表示一个指定日期至第二个指定日期之间的天数。 |
 | [Now](er-functions-datetime-now.md) | 此函数返回一个 *日期时间* 值，此值表示当前应用程序服务器的日期和时间。 |
 | [NullDate](er-functions-datetime-nulldate.md) | 此函数返回一个表示 **空** 日期（1900 年 1 月 1 日）的 *日期* 值。 |
@@ -46,6 +46,7 @@ ms.locfileid: "7647255"
 | [SessionNow](er-functions-datetime-sessionnow.md) | 此函数返回一个 *日期时间* 值，此值表示当前应用程序会话的日期和时间。 |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | 此函数返回一个 *日期* 值，此值表示当前应用程序会话的日期。 |
 | [今天](er-functions-datetime-today.md) | 此函数返回一个 *日期* 值，此值表示当前应用程序服务器的日期。 |
+| [WeekNum](er-functions-datetime-weeknum.md) | 此函数返回一个 *整数* 值，表示一年中的第几周。 |
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700129"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890848"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -119,6 +119,9 @@ ms.locfileid: "7700129"
 
 ### <a name="hiding-column-names"></a>隐藏列名
 对数据分组时，默认行为是在组标题行中显示列名。 您可以通过选择 **网格选项** > **隐藏组列名** 在组标题行中隐藏列名。
+
+### <a name="grouping-on-date-and-time-columns"></a>日期和时间列分组
+从版本 10.0.24 开始，对于日期或日期/时间字段，此选项已添加，可以按年、月或日分组。 相应标题行中的组“值”将匹配该字段的格式。 此外，对于日期/时间和时间字段，您将能够按小时、分钟或秒分组。    
 
 ## <a name="freezing-columns"></a>锁定列
 网格中的某些列对于上下文而言可能足够重要，您不希望它们滚动到视图之外。 相反，您可能希望这些列中的值始终可见。 **锁定网格中的列** 功能将为用户提供这种灵活性。 

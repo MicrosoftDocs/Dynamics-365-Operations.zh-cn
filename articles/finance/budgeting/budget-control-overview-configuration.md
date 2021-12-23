@@ -2,7 +2,7 @@
 title: 预算控制概览
 description: 本主题介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772871"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890692"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -78,9 +78,7 @@ ms.locfileid: "6772871"
 接下来，在 **可用预算资金** 选项卡上，您可以定义用于计算可用预算资金的公式。 根据组织保守地管理其财务资源的方式或根据法规或行业要求，计算可包含汇票或未过帐单据。 
 
 > [!NOTE]
-> 如果在预算周期内修改此计算，则更改不会影响之前通过预算控制检查并且已过帐或已完成的单据。 在 10.0.17 应用程序版本中，仅有限的客户可以使用新的 **仅跟踪预算资金可用计算中的金额** 功能。 此功能允许您更改在 BudgetSourceTracking 表中跟踪的数据。 启用此功能后，仅当在可用预算资金计算中选择使用金额时，才会存储金额。 要请求启用 **仅跟踪预算资金可用计算中的金额** 功能，请联系客户支持。 
-
-### <a name="documents-and-journals"></a>单据和日记帐
+> 如果在预算周期内修改此计算，则更改不会影响之前通过预算控制检查并且已过帐或已完成的单据。 名为 **仅跟踪预算资金可用计算中的金额** 的功能可让您更改在 BudgetSourceTracking 表中跟踪的数据。 启用此功能后，仅当在可用预算资金计算中选择使用金额时，才会存储金额。 有关详细信息，请参阅[可用预算资金](budget-funds-available.md)。
 
 接下来，在 **单据和日记帐** 选项卡上，您可以选择哪些原始单据和日记帐将要进行预算控制检查以及检查是将发生在行条目还是发生在整个单据级别。 
 

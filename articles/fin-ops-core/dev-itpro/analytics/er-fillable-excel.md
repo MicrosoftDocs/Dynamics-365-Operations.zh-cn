@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731630"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890857"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
 [!include[banner](../includes/banner.md)]
 
-可以设计一种[电子申报 (ER)](general-electronic-reporting.md) 格式配置，该配置中有一个 ER [格式组件](general-electronic-reporting.md#FormatComponentOutbound)可配置来生成 Microsoft Excel 工作簿格式的传出文档。 必须为此用途使用特定 ER 格式组件。
+可以设计一种[电子报告 (ER)](general-electronic-reporting.md) 格式配置，该配置中有一个 ER 格式组件可配置来生成 Microsoft Excel 工作簿格式的传出文档。 必须为此用途使用特定 ER 格式组件。
 
 若要了解此功能，请执行[设计用于生成 OPENXML 格式的报表的配置](tasks/er-design-reports-openxml-2016-11.md)主题中的步骤。
 
@@ -330,6 +330,40 @@ ms.locfileid: "7731630"
 6. 生成可打印的 FTI 文档，并查看生成的文档的页脚。
 
     ![查看 Excel 格式的生成文档的页脚。](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>示例 2：修复合并的单元格的 EPPlus 问题
+
+您可以运行 ER 格式来生成 Excel 工作簿格式的传出文档。 当 **功能管理** 工作区中的 **支持在电子报告框架中使用 EPPlus 库** 功能启用时，[EPPlus 库](https://www.nuget.org/packages/epplus/4.5.2.1)将用于创建 Excel 输出。 但是，由于已知的 [Excel 行为](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9)和 EPPlus 库的限制，您可能会遇到以下异常：“无法删除/覆盖合并的单元格。 某个范围与另一个合并的范围部分合并。” 要了解哪种 Excel 模板可能会导致此异常以及如何解决此问题，请完成以下示例。
+
+1. 在 Excel 桌面应用程序中，创建一个新的 Excel 工作簿。
+2. 在工作表 **Sheet1** 上，为单元格 **A2** 添加 **ReportTitle** 名称。
+3. 合并单元格 **A1** 和 **A2**。
+
+    ![在 Excel 桌面应用程序中查看在设计的 Excel 工作簿中合并单元格 A1 和 A2 的结果。](./media/er-fillable-excel-example2-1.png)
+
+3. 在 **配置** 页面上，[添加新的 ER 格式](er-fillable-excel.md#add-a-new-er-format)以生成 Excel 工作簿格式的传出文档。
+4. 在 **格式设计器** 页面，将设计好的 Excel 工作簿[导入](er-fillable-excel.md#template-import)到添加的 ER 格式中，作为新的传出文档模板。
+5. 在 **映射** 选项卡上，为 [单元格](er-fillable-excel.md#cell-component)类型的 **ReportTitle** 组件配置绑定。
+6. 运行配置的 ER 格式。 注意将引发以下异常：“无法删除/覆盖合并的单元格。 某个范围与另一个合并的范围部分合并。”
+
+    ![在格式设计器页面上查看运行配置的 ER 格式的结果。](./media/er-fillable-excel-example2-2.png)
+
+您可以通过以下任一方式解决此问题：
+
+- **更简单但不建议：** 在 **功能管理** 工作区中，关闭 **支持在电子报告框架中使用 EPPlus 库** 功能。 尽管此方法更简单，但如果使用它，您可能会遇到其他问题，因为仅当启用 **支持在电子报告框架中使用 EPPlus 库** 功能时才支持某些 ER 功能。
+- **建议：** 按照以下步骤操作：
+
+    1. 在 Excel 桌面应用程序中，通过以下方式之一修改 Excel 工作簿：
+
+        - 在工作表 **Sheet1** 上，取消合并单元格 **A1** 和 **A2**。
+        - 将 **ReportTitle** 名称的引用从 **=Sheet1!$A$2** 更改为 **=Sheet1!$A$1**。
+
+        ![在 Excel 桌面应用程序中查看在设计的 Excel 工作簿中更改引用的结果。](./media/er-fillable-excel-example2-3.png)
+
+    2. 在 **格式设计器** 页面上，将修改后的 Excel 工作簿[导入](er-fillable-excel.md#template-import)到可编辑的 ER 格式，来更新现有模板。
+    3. 运行修改后的 ER 格式。
+
+        ![在 Excel 桌面应用程序中查看生成的文档。](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>其他资源
 

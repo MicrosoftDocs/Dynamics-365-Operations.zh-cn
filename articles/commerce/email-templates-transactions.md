@@ -2,7 +2,7 @@
 title: 为交易事件创建电子邮件模板
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713789"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913744"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
@@ -136,7 +136,7 @@ B2B 目标客户批准通知类型支持以下其他占位符。
 | `storename`        | 创建目标客户的渠道的名称。 |
 | `storeurl`         | 默认情况下为空。 必须创建自定义扩展才能使用此占位符。 |
 
-### <a name="b2b-prospect-approved"></a>已审核 B2B 目标客户
+### <a name="b2b-prospect-rejected"></a>已拒绝 B2B 目标客户
 
 在 Commerce Headquarters 中拒绝目标客户加入请求时，将触发 *B2B 目标客户拒绝* 通知类型。 有关如何批准或拒绝 B2B 目标客户的详细信息，请参阅[为新业务合作伙伴设置管理员用户](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner)。 
 

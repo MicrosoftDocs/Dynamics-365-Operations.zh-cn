@@ -1,7 +1,7 @@
 ---
 title: 固定资产折旧惯例
 description: 文主题介绍了固定资产的折旧惯例。
-author: saraschi2
+author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03b362670a02d3f7a76844f3b5e2f120230ef17d9f067f07c005714af5413c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 823f8826e297a01c3658ceb8e82e6f9902d7a359
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756241"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883404"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>固定资产折旧惯例
 

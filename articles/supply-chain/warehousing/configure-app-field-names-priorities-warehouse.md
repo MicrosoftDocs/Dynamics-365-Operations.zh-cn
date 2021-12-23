@@ -1,7 +1,7 @@
 ---
 title: 为仓库管理移动应用配置字段
 description: 本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9f9504ec87fd58bbf685519108477a48055da93
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344142"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902288"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为仓库管理移动应用配置字段
 

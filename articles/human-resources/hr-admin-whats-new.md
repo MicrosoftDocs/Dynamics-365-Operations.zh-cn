@@ -2,7 +2,7 @@
 title: Human Resources 中的新增功能或更改
 description: 每隔两周，我们都会为 Microsoft Dynamics 365 Human Resources 提供新版本。 此处列举的主题详细介绍了每周进行的更改。
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641177"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902525"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中新增或更改的功能
 
@@ -40,6 +40,7 @@ ms.locfileid: "7641177"
 
 若要了解 Human Resources 的双周版本的中的新增功能或更改的功能，请参阅以下主题：
 
+[2021 年 11 月 29 日](hr-whats-new-2021-11-29.md)<br>
 [2021 年 10 月 5 日](hr-whats-new-2021-10-04.md)</br>
 [2021 年 9 月 20 日](hr-whats-new-2021-09-20.md)</br>
 [2021 年 9 月 6 日](hr-whats-new-2021-09-06.md)</br>

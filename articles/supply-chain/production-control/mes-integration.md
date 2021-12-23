@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778441"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891918"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -191,7 +191,7 @@ ms.locfileid: "7778441"
 
 | 字段名称 | Status | 类型 |
 |---|---|---|
-| `OperationNumber` | 强制 | 强制，整数 |
+| `OperationNumber` | 强制 | 整数 |
 | `OperationPriority` | 可选 | 枚举 (Primary \| Secondary1 \| Secondary2 \| ... \| Secondary20) |
 | `OperationId` | 可选 | 字符串 |
 | `OperationsResourceId` | 可选 | 字符串 |

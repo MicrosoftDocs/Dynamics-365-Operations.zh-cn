@@ -2,7 +2,7 @@
 title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416471"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913719"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
@@ -39,6 +39,7 @@ ms.locfileid: "7416471"
 1. 在列表中选择您的环境。
 1. 在右侧的环境信息中，选择 **登录到环境**。 您将被送到 Commerce headquarters。
 1. 确保选择了右上角的 **USRT** 法人。
+2. 转到 **Commerce 参数 > 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目设置为 **true**。 如果缺少此条目，您可以添加此条目并为与您的电子商务网站关联的 Commerce Scale unit 运行 **渠道数据库 > 完全同步**。
 
 在 Commerce headquarters 进行预配后活动期间，请确保 **USRT** 法人始终处于选中状态。
 
@@ -105,6 +106,12 @@ ms.locfileid: "7416471"
     1. 选择记录。
     1. 在操作窗格上，在 **批处理作业** 选项卡上，选择 **更改状态**。
     1. 选择 **取消**，然后选择 **确定**。
+
+1. 如果作业的状态为 **预扣**，请执行以下步骤：
+
+    1. 选择记录。
+    1. 在操作窗格上，在 **批处理作业** 选项卡上，选择 **更改状态**。
+    1. 选择 **等待**，然后选择 **确定**。
 
 （可选）您还可以将以下作业的重复执行间隔设置为一 (1) 分钟：
 

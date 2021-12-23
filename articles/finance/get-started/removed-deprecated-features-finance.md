@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781193"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890945"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -32,6 +32,58 @@ ms.locfileid: "6781193"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance 10.0.24 版本中已经删除或弃用的功能
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>瑞典销售税报表（基于申报代码设计）
+
+[瑞典销售税报表](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新的增值税申报设计[瑞典增值税申报](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 全部 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持瑞典销售税报表（瑞典报表布局）。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (SE**) 和 **增值税申报 Excel (SE)** 电子报告 (ER) 格式。 |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>奥地利增值税报表（基于申报代码设计）
+
+[奥地利增值税报表详细信息](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新的增值税申报设计[奥地利增值税申报](../localizations/emea-aut-vat-declaration-austria.md) |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 全部 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **增值税申报模型** 下的 **增值税申报 (AT)** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (AT)** 和 **增值税申报 Excel (AT)** 格式。 |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>德国 ELSTER 申报（基于申报代码设计）
+
+[VAT 报表](../localizations/emea-de-vat-declaration.md)</br>
+[设置德国的电子纳税申报设置](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[VAT 申报的电子传输 (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新的增值税申报设计[德国增值税申报](../localizations/emea-deu-vat-declaration-germany.md) |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 全部 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **Elster (DE)** 和 **Elster 模型** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (DE)** 和 **增值税申报 Excel (DE)** 格式。 |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>荷兰 OB 申报（基于申报代码设计）
+
+[OB 申报](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新的增值税申报设计[荷兰增值税申报](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 申请 |
+| **部署选项**              | 全部 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **OB 申报 (NL)** 和 **OB 申报模型** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (NL)** 和 **增值税申报 Excel (NL)** 格式。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 版本中已经删除或弃用的功能
 

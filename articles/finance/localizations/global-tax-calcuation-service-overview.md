@@ -2,7 +2,7 @@
 title: 税款计算概览
 description: 本主题说明税务计算功能的总体范围和功能。
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647049"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892416"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -65,9 +65,23 @@ ms.locfileid: "7647049"
 > [!NOTE]
 > 税款计算不支持早期版本的 Dynamics 365，例如 Dynamics AX 2012 或 Dynamics 365 的本地部署。
 
+## <a name="versions"></a>版本
+我们建议您使用与您的 Finance 或 Supply Chain Management 版本相匹配的版本导入和设置税款计算配置。
+
+| Finance 或 Supply Chain Management 版本 | 税务配置版本               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | 税款配置 - 欧洲 30.12.82     |
+| 10.0.19         | 税款计算配置 36.38.193 |
+| 10.0.20         | 税款计算配置 40.43.208 |
+| 10.0.21         | 税款计算配置 40.48.215 |
+| 10.0.22         | 税款计算配置 40.48.215 |
+| 10.0.23         | 税款计算配置 40.50.221 |
+| 10.0.24         | 税款计算配置 40.50.225 |
+
+
 ## <a name="data-flow"></a>数据流
 
-以下是 tTax 计算的数据流流程的概述。 
+以下是税款计算的数据流流程的概述。 
 
 1. 在 RCS 中，查看和导入应纳税单据模型配置和模型映射配置。 如果您必须扩展高级方案的配置，请参阅[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)。
 2. 在 RCS 中，创建或维护税务功能。 您可以使用税务功能来维护税率和税适用性规则。
@@ -169,6 +183,10 @@ ms.locfileid: "7647049"
 - 日本
 - 马来西亚
 - 新加坡
+
+版本 10.0.24 支持法人主要地址的以下国家/地区：
+
+- 墨西哥
 
 ## <a name="related-resources"></a>相关资源
 

@@ -1,7 +1,7 @@
 ---
 title: 125% 余额递减法
-description: 本文提供了 125% 余额递减法折旧方法的概览。
-author: saraschi2
+description: 本主题提供了 125% 余额递减法折旧方法的概览。
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744981"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883510"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125% 余额递减法
 
 [!include [banner](../includes/banner.md)]
 
-本文提供了 125% 余额递减法折旧方法的概览。
+本主题提供了 125% 余额递减法折旧方法的概览。
 
 如果您设置固定资产折旧模板并在 **折旧模板** 页面上的 **方法** 字段中选择 **125% 余额递减法**，已分配此折旧模板的固定资产将在每个折旧期间按相同的百分比进行折旧。 此百分比按资产的使用年限进行计算。 例如，如果资产的使用年限为 5 年，则该百分比按 25% (125% ÷ 5) 计算。
 

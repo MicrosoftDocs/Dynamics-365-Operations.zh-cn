@@ -2,7 +2,7 @@
 title: 开始使用适用于墨西哥的电子开票
 description: 本主题提供的信息将帮助您开始使用适用于墨西哥的电子开票。
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742145"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881583"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>开始使用适用于墨西哥的电子开票
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742145"
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的步骤之前，您必须完成[开始使用电子开票](e-invoicing-get-started.md)中的步骤。
+在完成本主题中的步骤之前，您必须完成[开始使用电子开票服务管理](e-invoicing-get-started-service-administration.md)和[开始使用电子开票](e-invoicing-get-started.md)中的步骤。
+
+## <a name="set-up-the-cadena-xslt"></a>设置 Cadena XSLT
+
+要将 Cadena XSLT 架构添加到 CFDI 处理全球化功能，请完成以下步骤。
+
+1. 从 [SAT 网站](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt)下载架构。
+2. 将架构压缩到 ZIP 文件。
+3. 将 xslt 文件保存到在服务环境中为新容器设置的 Azure 存储帐户。
 
 ## <a name="rcs-setup"></a>RCS 设置
 
@@ -127,6 +135,17 @@ ms.locfileid: "6742145"
 
 > [!NOTE]
 > 使用相同的步骤为 **取消** 和 **取消请求** 功能设置更新 **调用墨西哥 PAC 服务** 操作的 URL。
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>设置 Cadena XLST 架构的路径
+
+1. 在 **功能版本设置** 页上的 **变量** 选项卡上，选择变量名称 **DigitalSignatureXSLT**。
+2. 在 **值** 字段中输入：{"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    其中：<RelativePath> = folder\\folder\\filename，使用双反斜杠，ContainerName 必须表示用于服务的容器。
+   
+    变量示例将是这样：
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>将草稿版本分配给电子开票环境
 

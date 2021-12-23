@@ -2,7 +2,7 @@
 title: 上传图像
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423247"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891514"
 ---
 # <a name="upload-images"></a>上传图像
 
@@ -41,7 +41,8 @@ Commerce 站点构建器的媒体库允许您上传单个图像或使用文件�
 - **上传后发布资产**：如果选中此复选框，图像在上传后将立即发布。
 
 > [!NOTE]
-> 还将对已分配了类别的图像资产使用该类别作为关键字进行标记，以便帮助搜索特定类别的资产。
+> - 还将对已分配了类别的图像资产使用该类别作为关键字进行标记，以便帮助搜索特定类别的资产。
+> - 产品详细信息页面使用产品名称动态生成 **替代文本**，因此更改产品图像的 **替代文本** 不会对呈现的图像产生影响。
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>全渠道图像的命名约定 
 

@@ -2,7 +2,7 @@
 title: 子分类帐转移到总帐
 description: 本主题介绍与总帐内的子分类帐转移过程有关的功能。
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716637"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900714"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
@@ -39,7 +39,7 @@ ms.locfileid: "6716637"
 
 异步转移子分类帐批次的功能可以帮助改进数据从子分类帐到总帐的转移。 通过对更小的一组交易进行分组，然后按组转移交易，此功能可以更高效地处理交易。 分组交易后，批处理服务器的资源将被更高效地利用。
 
-子分类帐批次的异步转移需要批处理服务器完成设置、联机且正常运行。 否则，**异步** 转移选项将无法工作。
+子分类帐批次的异步转移需要批处理服务器完成设置、在线并且在工作，因为创建批处理任务是为了在批处理服务器上立即执行。 当 **子分类帐转移到总帐性能优化** 功能启用时，名为 **流程自动化轮询系统作业** 的 **流程自动化** 系统批处理作业也必须启用。 有关详细信息，请参阅[流程自动化](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md)。
 
 批处理级别的效率更改对系统中的所有法人使用单个定期批处理作业。 在运行时，将创建新的批处理作业来处理尚未转移的必需记录。 更多设置可以从系统管理中的 **流程自动化** 页面进行控制。 在该页面上，您可以修改后台流程，更改频率并定义睡眠期间。
 

@@ -1,7 +1,7 @@
 ---
 title: 设置折旧帐簿
 description: 此过程将逐步完成创建新折旧帐簿并将其与固定资产组关联的流程。
-author: saraschi2
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 722eebf363b6abf0d72ea3f1f891292a6577616165df9dae91dac917587fe490
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713772"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883612"
 ---
 # <a name="set-up-depreciation-books"></a>设置折旧帐簿 
 

@@ -2,7 +2,7 @@
 title: 福利管理概览
 description: 此主题概要介绍 Dynamics 365 Human Resources 中的福利管理功能。
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417384"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892494"
 ---
 # <a name="benefits-management-overview"></a>福利管理概览
 
@@ -109,21 +109,29 @@ ms.locfileid: "7417384"
 
 ## <a name="configure-required-employee-information"></a>配置必需员工信息
 
-必须先为员工提供必需信息，才能为员工登记福利。 每个员工都必须有职位。 您必须在员工入职日期在固定薪酬计划中登记员工，或者他们必须有年度福利薪水金额。 此外，在 **工作人员** 页面的 **雇用详细信息** 部分，您必须在 **福利支付频率** 字段中选择一个值。
+必须先为员工提供必需信息，才能为员工登记福利。 
 
-如果您有一名员工将收到诸如佣金之类的附加报酬，您可以从员工记录添加 **福利年薪** 金额。 人力资源部门在确定覆盖范围金额时将使用 **福利年薪** 金额，而不是固定薪酬年度金额。 **福利年薪** 必须自员工的开始日期或福利期开始之日（以较早者为准）起生效。 如果同时记录了员工的固定薪酬和福利年薪金额，福利年薪将用于确定覆盖范围金额。
+员工必须被分配了 **职位**。 通过更新 **工作人员分配**，可以在 **工作人员** 或 **职位** 页面为员工分配 **职位**。 
+
+接下来，员工必须在开始日期在固定薪酬计划中登记，或者有 **年度福利薪水** 金额。 在为员工分配 **固定薪酬** 之前，必须先分配 **职位**。 
+
+> [!NOTE] 
+> **固定薪酬开始日期** 不能早于 **职位分配日期**。
+
+或者，如果您有一名员工将收到诸如佣金之类的附加报酬，您可以从员工记录添加 **福利年薪** 金额。 人力资源部门在确定覆盖范围金额时将使用 **福利年薪** 金额，而不是 **固定薪酬年度** 金额。 **福利年薪** 必须自员工的开始日期或福利期开始之日（以较早者为准）起生效。 但是，职位不需要分配 **福利年薪**。 要启用 **福利年薪** 功能，转到 **人力资源共享参数** 页面，在 **福利管理** 选项卡上。此功能默认关闭。
+
+> [!IMPORTANT]
+> 如果同时输入了员工的 **固定薪酬** 和 **福利年薪** 金额，**福利年薪** 将用于确定覆盖范围金额。 在 **工作人员** 页面的 **雇用详细信息** 部分，您必须在 **福利支付频率** 字段中选择一个值。
 
 ## <a name="configure-optional-employee-information"></a>配置可选员工信息
-
 创建用户基于性别或年龄评定的福利计划时，必须输入员工的生日和性别以计算福利成本。
 
 ## <a name="process-employees-to-determine-eligibility"></a>处理员工以确定资格
+在员工可以在计划中登记之前，将运行资格处理以确定他们有资格参加哪些计划。 您可以在 **处理结果查看器** 中查看资格处理的结果。 有关详细信息，请参阅[处理登记资格](hr-benefits-process-enrollment-eligibility.md)。
 
-在员工可以在计划中登记之前，将运行资格处理以确定他们有资格参加哪些计划。 您可以在处理结果查看器中查看资格处理的结果。 有关详细信息，请参阅[处理登记资格](hr-benefits-process-enrollment-eligibility.md)。
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>员工使用 **员工自助服务** 选择计划（可选）
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>员工通过员工自助服务选择计划（可选）
-
-当进行开放登记、新雇用员工或发生生活事件时，员工可以通过员工自助服务选择或更新其福利。 有关详细信息，请参阅[配置员工自助服务](hr-benefits-setup-employee-self-service.md)。
+当进行开放登记、新雇用员工或发生生活事件时，员工可以使用 **员工自助服务** 选择或更新其福利。 有关详细信息，请参阅[配置员工自助服务](hr-benefits-setup-employee-self-service.md)。
 
 ## <a name="confirm-employee-plan-selections"></a>确认员工计划选择
 

@@ -1,7 +1,7 @@
 ---
 title: 流程指南框架
 description: 本主题为正在 X++ 中扩展我们的仓库移动流程的开发人员提供有关流程指南框架的信息。
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: ecf4bf884bca80cabb066ae43d38cd9c0e159216
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651940"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902038"
 ---
 # <a name="process-guide-framework"></a>流程指南框架
 

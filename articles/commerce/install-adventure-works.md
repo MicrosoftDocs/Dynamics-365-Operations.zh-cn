@@ -2,7 +2,7 @@
 title: 安装 Adventure Works 主题
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中安装 Adventure Works 主题。
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763828"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913694"
 ---
 # <a name="install-the-adventure-works-theme"></a>安装 Adventure Works 主题
 
@@ -32,7 +32,7 @@ ms.locfileid: "6763828"
 
 ## <a name="prerequisites"></a>先决条件
 
-在安装 Adventure Works 主题之前，您必须有一个 Dynamics 365 Commerce（Commerce 版本 10.0.20 或更高版本），其中包括 Retail Cloud Scale Unit (RCSU)、Commerce 联机软件开发套件 (SDK) 和 Commerce 模块库。 有关如何安装 Commerce SDK 和模块库的信息，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)。 
+在安装 Adventure Works 主题之前，您必须有一个 Dynamics 365 Commerce（Commerce 版本 10.0.20 或更高版本），其中包括 Retail Cloud Scale Unit (RCSU)、Commerce 联机软件开发套件 (SDK) 和 Commerce 模块库。 有关如何安装 Commerce SDK 和模块库的信息，请参阅[设置开发环境](e-commerce-extensibility/setup-dev-environment.md)。 
 
 ## <a name="installation-steps"></a>安装步骤
 
@@ -48,11 +48,19 @@ Adventure Works 主题包在 **dynamics365-commerce** 源中提供，如 **@msdy
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-要在本地环境中安装包，请从命令提示符运行以下命令。 此命令会自动更新 package.json 文件，使其包含依赖项。
+要在本地环境中安装包，从命令提示符运行 `yarn add THEME_PACKAGE@VERSION` 命令，其中 **THEME_PACKAGE** 是主题包 (@msdyn365-commerce-theme/adventureworks-theme-kit)，**VERSION** 是正在使用的模块库的版本号。 主题包和模块库的版本匹配很重要。 要找到要使用的正确模块库版本号，打开 package.json 文件，找到 **dependencies** 部分下的 **starter-pack** 值。 在以下示例中，package.json 文件使用模块库的版本 9.32，此模块库将映射到 Dynamics 365 Commerce 版本 10.0.22。  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-在 **package.json** 文件中，您应将主题版本更新为特定版本。
+以下示例显示如何运行 `yarn add` 命令以添加 Adventure Works 主题的版本 9.32。 此命令会自动更新 package.json 文件，使其包含依赖项。
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+有关更新模块库版本的详细信息，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)。 
 
 > [!IMPORTANT]
 > - 主题版本应与模块库版本匹配，以确保所有功能都按预期工作。 

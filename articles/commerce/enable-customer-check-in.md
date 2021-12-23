@@ -2,7 +2,7 @@
 title: 在销售点 (POS) 启用客户登记通知
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
 author: bicyclingfool
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: cf9331e1da54520787686a3f190e2ef6d150c0c10bd521919407f5e6c74551d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 320e9d73ca98bf4ed22ac9bdff2fc34ae83223ec
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774575"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891404"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>在销售点 (POS) 启用客户登记通知
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
 
@@ -50,17 +51,48 @@ ms.locfileid: "6774575"
 
 您必须在模板上添加 **我在这里** 链接或按钮，指向客户在订单准备好可以提货时收到的交易电子邮件。 客户将使用此链接或按钮通知商店，他们已经到达，可以提货。 
 
-将此链接或按钮添加到映射到 **包装已完成** 通知类型和您用于路边订单履行的交货方式的模板中。 在模板中，创建一个 HTML 链接或按钮，指向您创建的登记确认页面的 URL。 下面是一个示例。
+将此链接或按钮添加到映射到 **包装已完成** 通知类型和您用于路边订单履行的交货方式的模板中。 在模板中，创建一个 HTML 链接或按钮，指向您创建的登记确认页面的 URL，并包含参数名称和值，如以下示例所示。
 
-```
-<a href="https://[YOUR_SITE_DOMAIN]/[CHECK-IN_CONFIRMATION_PAGE]?channelReferenceId=%channelreferenceid%&channelId=%channelid%&packingSlipId=%packingslipid%" target="_blank">I am here!</a>
-```
+`<a href="https://[YOUR_SITE_DOMAIN]/[CHECK-IN_CONFIRMATION_PAGE]?channelReferenceId=%confirmationid%&channelId=%channelid%&packingSlipId=%packingslipid%" target="_blank">I am here!</a>`
+
 有关如何配置电子邮件模板的详细信息，请参阅[按交货模式自定义交易电子邮件](customize-email-delivery-mode.md)。 
 
 ## <a name="a-check-in-confirmation-task-is-created-in-pos"></a>POS 中将创建登记确认任务
 
-在客户通知商店他们在现场可以提货时，他们会收到登记确认通知，POS 中的任务列表中将为客户提货的商店创建一个任务。 此任务包含履行订单所需的所有客户和订单信息。 在任务中，说明字段显示通过其他信息表单从客户那里收集的所有信息。 
+在客户通知商店他们到场提货后，登记页面会显示一条确认消息和一个包含客户订单确认 ID 的可选 QR 码。 同时，将在 POS 中的任务列表中为客户提货的商店创建一个任务。 该任务包含履行订单所需的所有客户和订单信息。 任务的说明字段显示通过其他信息表单从客户那里收集的所有信息。
+
+## <a name="end-to-end-testing"></a>端到端测试
+
+客户登记需要将特定参数和值传递到登记页面，然后传递到客户登记 API。 因此，最简单的方法是在可以创建和打包测试订单的环境中测试此功能。 这样，可以生成具有包含所需参数名称和值的 URL 的“订单可提货”电子邮件。
+
+要测试客户登记功能，请按照这些步骤操作。
+
+1. 创建客户登记页面，然后添加和配置客户登记模块。 有关详细信息，请参阅[提货登记模块](check-in-pickup-module.md)。 
+1. 签入页面，但不发布。
+1. 将以下链接添加到由交货提货方式的打包完成通知类型调用的电子邮件模板。 有关详细信息，请参阅[创建交易事件的电子邮件模板](email-templates-transactions.md)。
+
+    - **对于预生产 (UAT) 环境：** 添加本主题前面[配置交易电子邮件模板](#configure-the-transactional-email-template)一节中的代码片段。
+    - **对于生产环境：** 添加以下注释代码，以便现有客户不受影响。
+
+        `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`
+
+1. 创建已指定交货提货方式的订单。
+1. 当您收到由打包完成通知类型触发的电子邮件时，通过打开包含您之前添加的 URL 的登记页面来测试登记流。 由于 URL 包含 `&preview=inprogress` 标志，系统会提示您进行身份验证，然后才能查看页面。
+1. 输入配置模块所需的任何其他信息。
+1. 验证登记确认视图是否正确显示。
+1. 为将要提货的商店打开 POS 终端。
+1. 选择 **要提货的订单** 磁贴，验证订单是否出现。
+1. 验证在登记模块中配置的任何其他信息是否出现在详细信息窗格中。
+
+在您从头到尾验证客户登记功能可以正常工作后，按照以下步骤操作。
+
+1. 发布登记页面。
+1. 如果您在生产环境中进行测试，请在“订单可提货”电子邮件模板中取消对 URL 的注释，以显示 **我在这里** 链接或按钮。 然后重新上载模板。
 
 ## <a name="additional-resources"></a>其他资源
 
 [提货登记模块](check-in-pickup-module.md)
+
+[按交货模式自定义事务电子邮件](customize-email-delivery-mode.md)
+
+[创建交易事件的电子邮件模板](email-templates-transactions.md)

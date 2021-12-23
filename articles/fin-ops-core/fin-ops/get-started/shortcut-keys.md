@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800185"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913510"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 以下键盘快捷方式可帮助您快速、高效地在 Finance and Operations 应用中输入数据。
 
@@ -150,6 +149,7 @@ ms.locfileid: "7800185"
 | 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
+| 将当前列移到下一个/上一个位置（焦点位于标题行）                                   | Ctrl+Shift+右箭头/Ctrl+Shift+左箭头 |
 | 打开当前列的网格筛选（焦点放在标题行中）                                              | Enter                           |
 | 调整当前列的大小以适应内容（焦点位于标题行）                                           | A（或双击列大小调整句柄） |
 
