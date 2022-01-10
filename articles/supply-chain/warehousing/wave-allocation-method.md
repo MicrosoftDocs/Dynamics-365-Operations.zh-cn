@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576008"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920590"
 ---
 # <a name="wave-allocation"></a>波次分配
 
@@ -77,7 +77,7 @@ ms.locfileid: "7576008"
 
 如有必要，您可以撤销在为您的实例自动启用 *分配波次方法的波次并行化* 功能时默认进行的每个设置。 若要实现此操作：
 
-- 转到 **仓库管理 \> 设置 \> 仓库管理参数**。 在 **波次处理** 选项卡上，应用 **分批处理波次** 和 **等待锁定(毫秒)** 的首选值。
+- 转到 **仓库管理 \> 设置 \> 仓库管理参数**。 在 **波次处理** 选项卡上，应用 **分批处理波次** 和 **等待锁定(毫秒)** 的首选值。
 - 转到 **仓库管理 \> 设置 \> 波次 \> 波次处理方法**。 选择 `allocateWave` 方法。 在操作窗格上，选择 **任务配置** 以打开一个页面，其中列出了将方法设置为并行运行的每个仓库。 根据需要修改或删除每个列出的仓库的批处理任务数和分配的波次组。
 
 ## <a name="troubleshooting"></a>疑难解答

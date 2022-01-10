@@ -1,5 +1,5 @@
 ---
-title: 收入确认概览
+title: 收入确认概览（包含视频）
 description: 本主题提供有关收入确认功能的信息。 此功能提供了灵活框架，供您定义特定于公司的多元素订单收入价格和收入计划确认规则。
 author: kweekley
 ms.date: 11/11/2019
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ef59e6a3a0c553ad43db2ed35cb68b57c505f2ac7414592880e361fa3f5c4a12
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c027b3edb12c34c2373c58a5aa7e39cfbff39045
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756265"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937574"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 

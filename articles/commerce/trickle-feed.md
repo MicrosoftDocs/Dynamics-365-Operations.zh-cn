@@ -1,8 +1,8 @@
 ---
 title: 为零售商店交易记录创建基于缓慢馈送的订单
 description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 中的商店交易记录创建基于缓慢馈送的订单。
-author: josaw1
-ms.date: 09/04/2020
+author: analpert
+ms.date: 12/14/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,43 +15,49 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 900480c926df58cc1eaca052903384ceeadcccbdc3a0ede8a35f4b2a8ff87556
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719433"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921230"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>为零售商店交易记录创建基于缓慢馈送的订单
 
 [!include [banner](includes/banner.md)]
 
-在 Dynamics 365 Retail 10.0.4 及早期版本中，对帐单过帐是日结操作，于一天结束时在帐簿中过帐所有交易记录。 大量的交易记录必须在有限的时间范围内处理，有时会导致加载、锁定和对帐单过帐失败。 零售商也无法全天在其帐簿中确认收入和付款。
+如果您使用的是 Microsoft Dynamics 365 Commerce 版本 10.0.5 及更高版本，我们建议您将所有对帐单过帐流程转换为基于缓慢馈送的对帐单过帐流程。 使用缓慢馈送功能可获得的重要性能和业务权益。 可实现全天候处理销售交易记录。 在一天结束时可在财务报表中处理支付方式和现金管理交易记录。 使用缓慢馈送功能可对销售订单、发票和付款进行连续处理。 因此，可以近乎实时更新和确认库存、收入和付款事宜。
 
-通过 Retail 版本 10.0.5 中推出的、基于缓慢馈送的订单创建，可在全天中处理交易记录，并且在一天结束时仅处理支付方式和其他现金管理交易记录的财务对帐。 此功能将创建销售订单、发票和付款的负荷拆分到全天中完成，从而更够更清晰地了解绩效并且能够近乎实时地在帐簿中确认收入和付款。 
+## <a name="use-trickle-feed-based-posting"></a>使用基于缓慢馈送的过帐
 
+> [!IMPORTANT]
+> 在启用基于缓慢馈送的过帐之前，您必须确保不存在已计算和未过帐的对帐单。 在启用此功能之前对所有对帐单进行过帐。 您可以在 **商店财务** 工作区中查看未结对帐单。
 
-## <a name="how-to-use-trickle-feed-based-posting"></a>如何使用基于缓慢馈送的过帐
-  
-1. 要启用基于缓慢馈送的零售交易记录过帐，请使用功能管理启用名为 **零售对帐单 - 缓慢馈送** 的功能。
+要启用基于缓慢馈送的零售交易记录过帐，请在 **功能管理** 工作区中启用 **零售对帐单 - 缓慢馈送** 功能。 对帐单将拆分为两种类型：交易记录对帐单和财务报表。
 
-    > [!IMPORTANT]
-    > 在启用该功能之前，请确保不存在等待过帐的待处理对帐单。
+### <a name="transactional-statements"></a>交易记录对帐单
 
-2. 当前对帐单文档将拆分为两种类型：交易记录对帐单和财务报表。
+计划以高频率全天执行交易记录对帐单处理作业，以便在将交易记录上传到 Commerce Headquarters 时创建文档。 执行 **P 作业** 时，交易记录将从商店加载到 Commerce Headquarters 中。 您还必须执行 **验证商店交易记录** 作业才能对交易记录进行验证，以便交易记录对帐单选取交易记录。
 
-      - 交易记录对帐单将选取所有未过帐的和已验证的交易记录，并按照您配置的频率创建销售订单、销售发票、付款和折扣日记帐以及收入-支出交易记录。 您应将此过程配置为以较高的频率运行，以便当通过 P 作业将交易记录上传到 Headquarters 中时会创建文档。 对于已创建销售订单和销售发票的交易记录对帐单，则无需配置 **过帐库存** 批处理作业。 但是，您仍可以使用它来满足您可能具有的特定业务需求。  
-      
-     - 财务报表设计为仅在一天结束时创建，并且仅支持 **班次** 的结帐方法。 此对帐单仅限用于财务对帐，并且仅针对不同支付方式的计算金额与交易记录金额之间的差异金额而创建日记帐，以及针对其他现金管理交易记录创建日记帐。   
+安排以下作业以高频率执行：
 
-3. 若要计算交易记录对帐单，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算交易记录对帐单**。 若要对交易记录对帐单进行批量过帐，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐交易记录对帐单**。
+- 要计算交易记录对帐单，请执行 **批量计算交易记录对帐单** 作业（**Retail 和 Commerce \> Retail 和 Commerce IT \> POS 过帐 \> 批量计算交易记录对帐单**）。 此作业将选取所有未过帐和已验证的交易记录，然后将这些交易记录添加到新的交易记录对帐单中。
+- 要批量过帐交易记录对帐单，请执行 **批量过帐交易记录对帐单** 作业（**Retail 和 Commerce \> Retail 和 Commerce IT \> POS 过帐 \> 批量过帐交易记录对帐单**）。 此作业将执行过帐流程，为无任何错误的未过帐对帐单创建销售订单、销售发票、付款日记帐、折扣日记帐和收支交易记录。 
 
-4. 若要计算财务报表，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算财务报表**。 若要对财务报表进行批量过帐，请转到 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐财务报表**。
+### <a name="financial-statements"></a>财务报表
 
-> [!NOTE]
-> 此新功能中删除了菜单项 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量计算对帐单** 和 **Retail 和 Commerce > Retail 和 Commerce IT > POS 过帐 > 批量过帐对帐单**。
+财务报表处理是一天中最后一道流程。 此类型的对帐单处理仅支持 **班次** 结算方法，将仅选取已结束的班次。 对帐单仅限用于财务对帐。 对帐单仅针对支付方式的计算金额与交易记录金额之间的差额而创建日记帐，以及针对其他现金管理交易记录创建日记帐。
 
-或者，可以手动创建交易记录对帐单和财务报表类型。 转至 **Retail 和 Commerce > 渠道 > 商店**，然后单击 **对帐单**。 单击 **新建**，然后选择您要创建的对帐单类型。 **对帐单** 页面上的字段和该页面的 **对帐单组** 下的操作将基于选定的对帐单类型显示相关的数据和操作。
+根据预计的工作结束时间，安排下列财务报表作业的开始时间和结束时间：
 
+- 要计算财务报表，请执行 **批量计算财务报表** 作业（**Retail 和 Commerce \> Retail 和 Commerce IT \> POS 过帐 \> 批量计算财务报表**）。 此作业将收集所有未过帐的财务交易记录并将其添加到新的财务报表中。
+- 要批量过帐财务报表，请执行 **批量过帐财务报表** 作业（**Retail 和 Commerce \> Retail 和 Commerce IT \> POS 过帐 \> 批量过帐财务报表**）。
+
+### <a name="manually-create-statements"></a>手动创建对帐单
+
+也可以手动创建交易记录对帐单和财务报表类型。 
+
+1. 转至 **Retail 和 Commerce \> 渠道 \> 商店**，然后选择 **对帐单**。 
+2. 选择 **新建**，然后选择要创建的对帐单类型。 **对帐单** 页面上的字段将显示与所选对帐单类型相关的数据，**对帐单组** 下的操作将显示相关的操作。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

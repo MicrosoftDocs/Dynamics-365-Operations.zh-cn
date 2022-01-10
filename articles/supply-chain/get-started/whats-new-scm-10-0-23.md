@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.23 预览（2022 年 1 月）
+title: Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
 description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.23 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891785"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920192"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 预览（2022 年 1 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.23 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1037，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.23 中的新增或更改的功能。 此版本的构建版本号为 10.0.1037，并以下面的形式提供：
 
 - **预览版：** 2021 年 10 月
 - **版本的正式发布时间（自行更新）：** 2021 年 12 月

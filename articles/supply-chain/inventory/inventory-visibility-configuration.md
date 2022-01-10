@@ -2,7 +2,7 @@
 title: 配置库存可见性
 description: 本主题介绍如何配置库存可见性。
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678463"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920290"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
@@ -61,7 +61,7 @@ ms.locfileid: "7678463"
 各数据源表示您的数据的来源系统。 示例数据源包括 `fno`（代表“Dynamics 365 Finance and Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
 > [!NOTE]
-> `fno` 数据源是为 Dynamics 365 Supply Chain Management 保留的。
+> `fno` 数据源是为 Supply Chain Management 预留的。 如果您的库存可见性加载项与 Supply Chain Management 环境集成，我们建议您不要删除数据源中与 `fno` 相关的配置。
 
 若要添加数据源，请按以下步骤操作。
 
@@ -273,17 +273,17 @@ ms.locfileid: "7678463"
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>分区配置
 
-分区配置由基础维度组合构成。 其定义数据分发模式。 同一分区中的数据操作支持高性能，并且成本不高。 因此，良好的分区模式拥有显著的优点。
-
-库存可见性提供以下默认分区配置。
+当前，分区配置由两个基本维度（`SiteId` 和 `LocationId`）组成，这两个维度指示数据的分配方式。 同一分区下的操作可以以更低的成本提供更高的性能。 下表显示了库存可见性加载项提供的默认分区配置。
 
 | 基础维度 | 层次结构 |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> 默认分区配置仅供参考。 不必在库存可见性中定义。 现在不支持分区配置升级。
+默认情况下，该解决方案包括此分区配置。 因此，*您不必亲自定义它*。
+
+> [!IMPORTANT]
+> 不自定义默认分区配置。 如果删除或更改它，则可能会导致意外错误。
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>产品索引层次结构配置
 

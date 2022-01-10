@@ -1,8 +1,8 @@
 ---
 title: 配置和管理数据库日志记录
 description: 您可以使用数据库日志记录跟踪 Dynamics 365 Human Resources 中对表和字段的更改。
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781649"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924812"
 ---
 # <a name="configure-and-manage-database-logging"></a>配置和管理数据库日志记录
 
@@ -93,14 +93,14 @@ ms.locfileid: "6781649"
 要设置数据库日志清理，请执行以下步骤： 
 
 1. 转到 **系统管理 > 链接 > 数据库 > 数据库日志**。 选择 **清理日志**。
-
-2. 通过输入以下选项之一，选择用于选择要删除的日志的方法：
+2. 在 **要包括的记录** 标题下，选择 **筛选器**。
+3. 选择将用于选择要删除的日志的方法。 输入以下选项之一：
 
    - 表 ID
    - 日志的类型
    - 创建日期和时间
 
-3. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
+4. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

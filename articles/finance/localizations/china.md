@@ -13,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2ae2cb32702ba93c5862bb07c37fa58c6df0f8c21fb2d467b9fd1c20a5ad1ed4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d6cf53cc15be2a7310852f4585349fdf692120f
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781695"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944727"
 ---
 # <a name="china-overview"></a>中国概览
 
@@ -39,7 +39,7 @@ ms.locfileid: "6781695"
     -   [设置基本税务集成模板](tasks/set-up-basic-tax-integration-profile-china.md)
 -   [固定资产折旧方法](apac-chn-depreciation-methods-fixed-assets.md)
     -   [设置固定资产折旧费用分配](tasks/fixed-asset-depreciation-allocation.md)
--   [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
+-   [导入中国金税文件](apac-chn-import-golden-tax-data-entity.md)
     -   [金税集成导出设置](tasks/golden-tax-integration-export-setup.md)
 -   [每月平均成本模型](apac-chn-monthly-average-cost-model.md)
 -   [按站点过帐库存主科目](apac-chn-post-inventory-main-accounts-by-site.md)

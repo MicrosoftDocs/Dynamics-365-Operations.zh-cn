@@ -2,7 +2,7 @@
 title: 折旧方法和惯例
 description: 本文提供 Microsoft Dynamics 365 Finance 支持的折旧惯例和折旧方法的概览。
 author: moaamer
-ms.date: 04/25/2017
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674518"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927421"
 ---
 # <a name="depreciation-methods-and-conventions"></a>折旧方法和惯例
 
@@ -46,7 +46,7 @@ ms.locfileid: "7674518"
 -   半年(下一年)
 
 可以从以下计算方法中进行选择。
--   直线法
+-   直线法使用年限
 -   余额递减法
 -   手动
 -   系数
