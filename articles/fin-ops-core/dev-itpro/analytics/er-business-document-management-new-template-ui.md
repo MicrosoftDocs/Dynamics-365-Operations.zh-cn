@@ -1,5 +1,5 @@
 ---
-title: 业务文档管理中的 Microsoft Office 样式用户界面
+title: 业务文档管理中的 Microsoft Office 样式用户界面（包含视频）
 description: 本主题说明如何在电子报告 (ER) 框架的业务文档管理功能中使用新用户界面。
 author: v-anamir
 ms.date: 04/12/2021
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4d4c256b2384f14fd8439c4a9263860f504113de369142d0913a2538f1f0939f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0c481e73daf74803d3582e4089e76dcd383e8a4
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737943"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937548"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>业务文档管理中的 Microsoft Office 样式用户界面
 

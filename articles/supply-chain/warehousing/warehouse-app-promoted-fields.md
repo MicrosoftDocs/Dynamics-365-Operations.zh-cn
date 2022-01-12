@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 117730fd7b744e0462e10468e32a13203d0695bf
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901838"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920315"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用中的步骤配置提升的字段
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until GA with 10.0.23 -->
 
 > [!IMPORTANT]
 > 本主题中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。

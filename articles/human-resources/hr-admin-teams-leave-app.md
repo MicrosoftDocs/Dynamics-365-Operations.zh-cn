@@ -2,7 +2,7 @@
 title: Teams 中的 Human Resources 应用
 description: 此主题介绍 Microsoft Teams 中的 Microsoft Dynamics 365 Human Resources 应用。
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913481"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924714"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams 中的 Human Resources 应用
 
@@ -41,6 +41,21 @@ ms.locfileid: "7913481"
 有关在 Teams 中管理应用权限的信息，请参阅[在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies)。
 
 如果要让用户在应用中查看休假和缺勤日历，您需要在“功能管理”中启用 **Teams 中的休假和缺勤日历**。 有关启用功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+
+## <a name="update-app"></a>更新应用
+>[!NOTE]
+> 从 2021 年 12 月 20 日起，在 Microsoft 租户中托管的 Human Resources App 机器人服务将停用。 对可供安装的最新扩展（版本 1.1.5）不会产生任何影响。 主要将对过期扩展（版本 1.1.4）产生影响。 此版本中的聊天机器人将停止工作。 **休假** 选项卡将继续在这两个扩展中工作。
+
+对于版本 1.1.4，聊天机器人将停止响应任何消息。 例如，**登录**、**查看余额** 和 **查看休假**。 必须手动将应用更新为最新版本。 有关详细信息，请参阅[在 Microsoft Teams 中更新应用](/MicrosoftTeams/apps-update-experience)。
+
+要更新到版本 1.1.5，请完成以下步骤：
+1. 在 Microsoft Teams 中，转到 **应用**。
+2. 查找 **Human Resources** 应用。
+3. 选择 **升级**。
+
+您可以通过转到 **关于** 选项卡或转到 **个人应用** 部分来检查 Human Resources 应用的版本。 
+
+![Human Resources **关于**选项卡。](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>在 Teams 中启用 Human Resources 应用通知
 

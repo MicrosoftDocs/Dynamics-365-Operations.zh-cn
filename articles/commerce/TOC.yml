@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22（2021 年 11 月）
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21（2021 年 10 月）
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: “已删除或弃用的功能”主页
@@ -110,7 +108,7 @@
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: 延迟发布的 AX 2012 功能
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+                - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: 文档资源
               items:
@@ -842,11 +840,11 @@
           items:
             - name: 对帐单概览
               href: retail-statements.md
-            - name: 交易记录一致性检查器
+            - name: 验证用于进行对帐单计算的商店交易记录
               href: valid-checker.md
             - name: 禁用零售交易记录一致性检查器中的规则
               href: disable-consistency-check-rule.md
-            - name: 编辑和审计零售商店交易记录
+            - name: 编辑并审计零售商店交易记录
               items:
                 - name: 编辑并审计现金和结转及现金管理交易记录
                   href: edit-cash-trans.md
@@ -1282,13 +1280,15 @@
               href: commerce-analytics.md
         - name: 全球化
           items:
-            - name: Commerce 渠道的会计整合概览
+            - name: Commerce 渠道的会计集成概览
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: 设置 Commerce 渠道的会计整合
+            - name: 设置 Commerce 渠道的会计集成
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: 设置会计集成示例的生成管道
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: 用于零售商店的用户定义的证书配置文件
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory configuration service (RCS)
+            - name: Regulatory Configuration Service (RCS)
               items:
                 - name: Regulatory configuration service (RCS) 概览
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
@@ -1320,8 +1320,10 @@
                           href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: 奥地利
               items:
-                - name: 奥地利的会计登记服务集成示例
+                - name: 奥地利会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
+                - name: 奥地利会计集成示例部署指南（旧版）
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: 巴西
               items:
                 - name: 适用于巴西的 Commerce 本地化
@@ -1358,12 +1360,16 @@
                   items:
                     - name: 捷克共和国的会计登记服务集成示例
                       href: localizations/emea-cze-fi-sample.md
+                    - name: 捷克共和国会计集成示例部署指南（旧版）
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: 波兰
                   items:
                     - name: 波兰税控打印机集成示例
                       href: localizations/emea-pol-fpi-sample.md
                     - name: 波兰的客户信息管理
                       href: localizations/emea-pol-customer-information.md
+                    - name: 波兰会计集成示例部署指南（旧版）
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: 法国
               items:
                 - name: 收银机功能
@@ -1378,8 +1384,10 @@
                   href: localizations/emea-fra-deployment.md
             - name: 德国
               items:
-                - name: 德国的会计登记服务集成示例
+                - name: 德国会计登记服务集成示例
                   href: localizations/emea-deu-fi-sample.md
+                - name: 德国会计集成示例部署指南（旧版）
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: 印度
               items:
                 - name: 收银机的商品劳务税 (GST) 集成
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: 意大利的客户信息管理
                   href: localizations/emea-ita-customer-information.md
+                - name: 意大利会计集成示例部署指南（旧版）
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: 墨西哥
               items:
                 - name: 墨西哥全球 CFDI 电子发票
@@ -1407,6 +1417,8 @@
                 - name: 收银机功能
                   href: localizations/emea-nor-cash-registers.md
                 - name: 收银机部署指南
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: 收银机部署指南（旧版）
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: 俄罗斯
               items:
@@ -1432,7 +1444,9 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: 瑞典的控制单元集成示例
                   href: localizations/emea-swe-fi-sample.md
-                - name: Retail POS 与控制单元（旧版）集成的示例
+                - name: 瑞典控制单元集成示例部署指南（旧版）
+                  href: localizations/emea-swe-fi-sample-sdk.md
+                - name: Retail POS 与控制单元集成的示例（旧版）
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: 报告和 Power BI 集成
           items:
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: 创建请求管道插件挂钩
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: 图像组件
+                      href: e-commerce-extensibility/image-component.md
                 - name: 开发数据操作
                   items:
                     - name: 数据操作概览
@@ -2570,10 +2586,12 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: 在没有管理员访问权限的情况下在云托管环境中开发
                   href: dev-itpro/cloud-dev-box.md
-                - name: 设置 Commerce SDK 构建管道
+                - name: 设置 Commerce SDK 生成管道
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: 从 GitHub 和 NuGet 下载示例和软件包
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: 设置 Visual Studio 2017 生成代理以创建 Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Retail SDK 常见问题解答
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: 销售点 (POS) 可扩展性

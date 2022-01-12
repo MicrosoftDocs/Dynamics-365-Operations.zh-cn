@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725041"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927471"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
 
@@ -74,7 +74,7 @@ ms.locfileid: "7725041"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 没有用于执行此事件的控件。 |
-| **被另一个功能取代？**   | 是的，将通过 **OnDBSynchronzie** 事件订阅的现有方法移到 SysSetup 扩展类。 |
+| **被另一个功能取代？**   | 是的，将通过 **OnDBSynchronize** 事件订阅的现有方法移到 SysSetup 扩展类。 |
 | **影响的产品区域**         | 数据库同步 |
 | **部署选项**              | 全部 |
 | **状态**                         | 已弃用。 计划删除日期为 2022 年 10 月。 |

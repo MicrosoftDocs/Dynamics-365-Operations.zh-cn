@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719708"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945533"
 ---
 # <a name="configure-account-structures"></a>配置科目结构
 
@@ -79,7 +79,7 @@ ms.locfileid: "6719708"
 
 ## <a name="more-than-7-criteria-needed"></a>需要 7 个以上的条件
 
-如果需要的条件超过 7 个，则可在下一行中继续添加条件。 您将发现在 **允许的值详细信息** 部分中工作时，输入了第七个条件之后，**+新添** 添加将不再处于活动状态。 原因很多，例如： 
+如果需要的条件超过 7 个，则可在下一行中继续添加条件。 您将发现在 **允许的值详细信息** 部分中工作时，输入了第七个条件之后，**+新添** 条件将不再处于活动状态。 原因很多，例如： 
  - 列宽 
  - 数据的存储方式 
  - **允许的值详细信息** 控件的性能
@@ -100,7 +100,7 @@ ms.locfileid: "6719708"
 
 - 请不要只是为科目结构中的每个科目段放一个星号，然后单纯地依赖高级规则。 这样可能很难管理，往往会在维护期间导致用户错误，从而让系统无法过帐。
 
-## <a name="account-structure-activation"></a>科目结构启用
+## <a name="account-structure-activation"></a>帐户结构启用
 如果对科目结构的新设置或更改感到满意，必须将其激活。 如果为日记帐分配了科目结构，此项激活可能需要运行很长一段时间，因为必须将系统中的所有未过帐交易记录同步到新结构中。 科目结构的变化不影响已过帐交易记录。
 
 有关详细信息，请参阅[计划您的会计科目表](plan-chart-of-accounts.md)、[财务维度](financial-dimensions.md)和[输入科目和维度组合（分段式录入控件）](enter-account-dimension-combinations-segmented-entry-control.md)。

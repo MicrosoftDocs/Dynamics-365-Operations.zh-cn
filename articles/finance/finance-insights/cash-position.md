@@ -2,7 +2,7 @@
 title: 现金头寸
 description: 本主题描述现金流预测功能如何预测组织在特定时间的现金头寸。 还描述了可用于显示不同期间的预测的选项。
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752872"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945781"
 ---
 # <a name="cash-position"></a>现金头寸
 
@@ -45,5 +45,17 @@ ms.locfileid: "7752872"
 - **银行科目** 网格显示预期现金流入和流出对银行余额的影响。
 
 要保存和编辑现金头寸，请创建快照。 有关如何处理快照的详细信息，请参阅[快照概述](payment-snapshots.md)。
+
+## <a name="details-of-the-cash-position-capability"></a>现金头寸功能的详细信息 
+
+现金头寸功能包括以下功能。 
+
+- 现金头寸功能根据系统中的现有文档以及从外部系统导入的现金流入行和流出行显示现金流。
+- 轻松将来自外部系统的现金流数据集成到 Dynamics 365 Finance 中。 现金头寸也可以使用数据导入-导出框架。 该框架使与 Excel OData 的集成变得容易。 您还可以合并来自多个来源的数据以创建全面的现金头寸解决方案。
+- 介绍智能现金头寸。 根据客户的付款行为创建现金头寸，以预测公司何时可以期望现金进入其帐户。
+- 对于客户订单和发票，客户付款预测 AI 功能用于将来支付订单或发票时确定历史客户付款行为。
+- 对于供应商订单和发票，我们使用装运并开票与支付每个供应商的发票之间的平均时间来确定何时将支付供应商订单或发票，从而使现金流出更加准确。
+
+这将根据出纳员的历史付款行为创建更准确的现金流视图。 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

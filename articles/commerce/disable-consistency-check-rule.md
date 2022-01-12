@@ -1,8 +1,8 @@
 ---
-title: 禁用零售交易记录一致性检查器中的规则
-description: 本主题将介绍在 Microsoft Dynamics 365 Commerce 中禁用交易记录一致性检查器规则的功能。
-author: josaw1
-ms.date: 10/15/2019
+title: 禁用交易记录验证流程中使用的规则
+description: 本主题将介绍 Microsoft Dynamics 365 Commerce 中用于禁用交易记录验证规则的功能。
+author: analpert
+ms.date: 12/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 381bc8534d4b0a06a50c8c18b3f78aba9d43a1f497bfd271361216ed1dee9197
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdaea51b4c84e6a62f0eb9412315ae77b4c11503
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746653"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919517"
 ---
-# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>禁用零售交易记录一致性检查器中的规则 
+# <a name="disable-rules-used-in-the-transaction-validation-process"></a>禁用交易记录验证流程中使用的规则
 
 [!include [banner](../includes/banner.md)]
 
-零售商可以具有对于他们唯一的业务方案和流程。 因此，并非默认包括在商业交易记录一致性检查器中的所有规则都适用于所有零售商。 为了适应这些差异，Microsoft Dynamics 365 Commerce 提供了可用于禁用不适用规则的功能。
+零售商可以拥有量身定制的业务方案和流程。 因此，并非商业交易记录验证流程所涉及的所有规则都适用于所有零售商。 为了适应这些差异，Microsoft Dynamics 365 Commerce 提供了可用于禁用不适用规则的功能。
 
-若要在您的环境中查看零售交易记录一致性检查器中可用的规则列表，请转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**，然后选择 **交易记录验证** 选项卡。
+要在您的环境中查看交易记录验证流程中可用的规则列表和每个规则的状态，请转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**，然后选择 **交易记录验证** 选项卡。在 **验证商店交易记录** 流程中，所有启用的规则都会用于验证交易记录，交易记录必须符合这些规则，交易记录对帐单才能收集和过帐交易记录。
 
-默认情况下，每个规则的状态设置为 **已启用**。 因此，在将交易记录导入商业对帐单之前，将使用所有规则验证这些交易记录。 若要禁用某一规则，请将其状态更改为 **已禁用**。 当在对帐单计算过程中验证交易记录时，将不考虑已禁用的规则。
-
-若要跳过整个验证过程，而不管已启用的规则如何，请转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数**，然后在 **交易记录验证** 选项卡中，将 **禁用对 Commerce 交易记录的一致性检查** 选项设置为 **是**。 在将此选项设置为 **否** 后，无法从用户界面 (UI) 重新将其设置为 **是**。
-
+默认情况下，每个规则的状态设置为 **已启用**。 因此，在将交易记录导入商业交易记录对帐单之前，将使用所有规则验证这些交易记录。 要禁用某一规则，请将其状态更改为 **已禁用**。 在 **验证商店交易记录** 过程中验证交易记录时，将不考虑已禁用的规则。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

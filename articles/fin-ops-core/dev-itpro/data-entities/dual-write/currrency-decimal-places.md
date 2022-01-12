@@ -2,19 +2,19 @@
 title: 双写入货币数据类型迁移
 description: 本主题介绍如何更改双写入支持的货币的小数位数。
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782799"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917722"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 
@@ -87,5 +87,16 @@ Microsoft 代表将在两到三个工作日内与您联系以完成后续步骤�
 
 可以为特定货币列配置的小数位数限制为四个。
 
+### <a name="default-currency-decimal-precision"></a>默认币种小数精度
+有关迁移和非迁移方案下的默认货币小数精度的预期行为，请参阅以下表。 
+
+| 创建日期  | 货币小数字段    | 现有组织（未迁移币种字段） | 现有组织（已迁移币种字段） | 在内部版本 9.2.21062.00134 之后创建的新组织 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| 在内部版本 9.2.21111.00146 之前创建的货币字段  |     |  |       |
+|    | UI 中可见的最大精度   | 4 位数    | 10 位数    | 不适用    |
+| | 数据库和 DB 查询结果 UI 中可见的最大精度         | 4 位数   | 10 位数   | 不适用    |
+| 在内部版本 9.2.21111.00146 之后创建的货币字段 |    |  |     |   |
+|   | UI 中可见的最大小数精度     | 4 位数   | 10 位数   | 10 位数     |
+|          | 数据库和 DB 查询结果 UI 中可见的最大小数精度 | 10 位数。 但是，但是，只有 4 位数是有效位数，4 个十进制数字之后全为零。 这样可以更简单、更快地迁移组织（如果需要）。 | 10 位数      | 10 位数     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

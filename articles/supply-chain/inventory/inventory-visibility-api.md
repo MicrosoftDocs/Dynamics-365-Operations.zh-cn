@@ -2,7 +2,7 @@
 title: 库存可见性公共 API
 description: 本主题介绍库存可见性提供的公共 API。
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678779"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920092"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -41,8 +41,8 @@ ms.locfileid: "7678779"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | 过帐 | [设置/覆盖现有库存数量](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | 过帐 | [创建一个预留事件](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | 过帐 | [创建多个预留事件](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | 获取 | [使用过帐方法查询](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用获取方法查询](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用过帐方法查询](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | 获取 | [使用获取方法查询](#query-with-get-method) |
 
 Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>。
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>查询现有库存
 
-_查询现有库存_ API 用于提取产品的当前现有库存数据。
+使用 _查询现有库存_ API 提取产品的当前现有库存数据。 API 当前最多支持按 `ProductID` 值查询 100 个单个项。 也可以在每个查询中指定多个 `SiteID` 值和 `LocationID` 值。 最大限制定义为 `NumOf(SiteID) * NumOf(LocationID) <= 100`。
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>使用过帐方法查询
 
@@ -551,7 +551,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 下面是示例获取 URL。 此获取请求与前面提供的过帐示例完全相同。
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

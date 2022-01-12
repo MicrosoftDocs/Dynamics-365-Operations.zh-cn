@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778513"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920715"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -80,6 +80,9 @@ ms.locfileid: "7778513"
     - **按采购协议分组** – 将此选项设置为 *是* 可以将与现有采购协议具有相同供应商的计划采购订单分组到一起，并为每个采购协议创建一个采购订单。 当启用 **按供应商进行分组** 时，此选项会自动启用。 要使用 **按采购协议分组**，**主计划参数** 页上的 **查找采购协议** 必须设置为 *是*。
     - **按期间进行分组**（在 **采购订单** 部分）– 选择用于分组计划采购订单的期间。 若要使用此选项，还必须选择 **按供应商进行分组** 选项。
     - **按期间进行分组**（在 **转移** 部分）– 选择用于分组计划转移单的期间。 订单将基于 **源仓库** 和 **目标仓库** 值进行分组。
+
+    > [!NOTE]
+    > 每个“分组依据”选项都会导致系统将每个计划订单转换为单个采购订单中的行，该采购订单是分组的结果。
 
     ![“确认”对话框中的“参数”快速选项卡。](./media/manual-firming.png "“确认”对话框中的“参数”快速选项卡")
 

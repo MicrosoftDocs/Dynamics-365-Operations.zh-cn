@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402217"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920415"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management 管理员学习目录
 
@@ -66,7 +66,7 @@ ms.locfileid: "7402217"
 
 ## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | 说明 | 格式 | Length |
 |---------|-------------|--------|--------|
 | [设置 Dynamics 365 Supply Chain Management 的工程更改管理](/learn/paths/set-up-engineering-change-management/) | 当今的制造商需要强大的产品数据管理、版本控制和工程更改管理，才能在不断缩短的产品生命周期、不断提高的质量和可靠性要求以及日益增加的产品安全关注的世界中取得成功。 在此学习路径中了解如何设置工程更改管理。 | 自由、自定进度的在线学习路径 | 4 小时 |
 

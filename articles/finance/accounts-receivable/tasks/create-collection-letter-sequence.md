@@ -1,8 +1,8 @@
 ---
 title: 创建催款单序列
 description: 使用此过程创建催款单序列。
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753578"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921191"
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
 
@@ -31,10 +31,10 @@ ms.locfileid: "7753578"
 3. 在 **收款单序列** 字段中，输入要代表序列的序列 ID。 将使用该 ID 设置过帐模板。
 4. 在 **描述** 字段中，键入一个值。  付款期限是可选的。 如果您在此处输入一个值，则收款单费用发票将使用这些付款期限，而非客户所保留的付款期限。  
 5. 在 **收款单代码** 字段中，选择您想要发送的第一个收款单代码。 根据发票上的截止日期、您在“天数”字段中输入的宽限期值以及您在此行中输入的其它信息创建第一个收款单。  
-6. 在 **描述** 字段中，键入一个值。 该费用的币种默认为客户币种。 此币种代码可以不同于发票币种。  
-7. 单击 **添加**，添加下一个被发送至序列的收款单。 在大多数情况下，第一个收款单仅是警告。 您可以根据需要添加费用。  
-8. 在“收款单代码”字段中，选择下一个被发送至序列的收款单。
-9. 在 **描述** 字段中，键入一个值。
+6. 在 **描述** 字段中，键入一个值。 
+7. 该费用的默认货币为法人货币。 此币种代码可以不同于发票币种。   
+8. 单击 **添加**，添加下一个被发送至序列的收款单。 在大多数情况下，第一个收款单仅是警告。 您可以根据需要添加费用。  
+9. 在 **收款单代码** 字段中，选择下一个被发送至序列的收款单。
 10. 在 **主帐单** 字段中，选择用于费用的收入帐户。
 11. 在将收款单过帐时输入要收取的费用。
 12. 在 **物料销售税组** 字段中，单击下拉按钮以打开查找。 如果销售税额必须计算在费用中，请选择物料销售税组。  

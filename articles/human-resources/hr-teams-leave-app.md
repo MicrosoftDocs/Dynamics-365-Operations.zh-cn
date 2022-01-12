@@ -2,7 +2,7 @@
 title: 在 Teams 中管理请假
 description: 此主题显示如何在 Microsoft Teams 中的 Dynamics 365 Human Resources 应用内请假。
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771523"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924739"
 ---
 # <a name="manage-leave-requests-in-teams"></a>管理 Teams 中的休假申请
 
@@ -35,6 +35,9 @@ ms.locfileid: "7771523"
 1. 在 Microsoft Teams 中，导航到应用列表。
  
 2. 搜索 Dynamics 365 Human Resources，然后选择 **Human Resources** 磁贴。
+
+> [!NOTE]
+> 从 2021 年 12 月 20 日起，在 Microsoft 租户中托管的 Human Resources App 机器人服务（版本 1.1.4）将停用。 最新扩展（版本 1.1.5）可供安装。 有关详细信息，请参阅[管理 Teams 中的休假申请](hr-admin-teams-leave-app.md#update-app)。
 
 3. 选择 **添加** 按钮安装应用。
 

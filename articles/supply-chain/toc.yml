@@ -4,6 +4,34 @@
       items:
         - name: Dynamics 365 Supply Chain Management 主页
           href: index.md
+        - name: 新增功能或更改
+          items:
+            - name: Finance and Operations 应用新增功能或更改
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Supply Chain Management 新增功能或更改
+              items:
+                - name: “Supply Chain Management 新增功能或更改”主页
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24（2022 年 2 月）
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23（2022 年 1 月）
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22（2021 年 11 月）
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21（2021 年 10 月）
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: 已删除或弃用的功能
+              items:
+                - name: “已删除或弃用的功能”主页
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: 先前版本中已删除或弃用的功能
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: 开始使用
           items:
             - name: 服务描述
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 新增功能或更改
-              items:
-                - name: Finance and Operations 应用新增功能或更改
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Supply Chain Management 新增功能或更改
-                  items:
-                    - name: “Supply Chain Management 新增功能或更改”主页
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24（2022 年 2 月）
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23（2022 年 1 月）
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22（2021 年 11 月）
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21（2021 年 10 月）
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: 已删除或弃用的功能
-                  items:
-                    - name: “已删除或弃用的功能”主页
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: 先前版本中已删除或弃用的功能
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 延迟发布的 AX 2012 功能
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: 库存可见性公共 API
                   href: inventory/inventory-visibility-api.md
+                - name: 库存可见性提示
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT 智能
           items:
             - name: IoT 智能主页
@@ -2827,7 +2829,7 @@
               href: sales-marketing/trade-allowance.md
             - name: 创建新的贸易协议
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: 销售历史记录清理性能改进
+            - name: 销售历史记录清除性能改进
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: 服务管理
           items:
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: 主计划
               items:
+                - name: 处理多个订单时，系统无法找到计划订单
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: 已确认的生产订单和估计的生产订单的物料清单分解行为不同
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: 对已计划的订单重新编制计划时，延迟值未更新

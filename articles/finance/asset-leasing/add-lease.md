@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893637"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931973"
 ---
 # <a name="add-or-copy-leases-preview"></a>添加或复制租赁（预览）
 
@@ -50,6 +50,9 @@ ms.locfileid: "7893637"
     **帐簿详细资料** 页显示了如何通过已为其分配的帐簿来计算租赁。 在这里，您可以查看租赁计划。
 
     付款计划中包含在 **添加租赁** 页上的 **付款计划行** 选项卡中进行的输入。 您仍然可以更改每个付款金额和可变付款。 租赁负债根据修改后的付款计划计算。
+    
+> [!NOTE]
+> 租赁付款的开始日期必须与租赁的开始日期相同或晚于租赁的开始日期。 如果付款的开始日期早于租赁开始日期，您将收到一条错误消息。 
 
 4. 检查完付款计划后，请选择 **确认计划**。 确认计划后，该租赁将不再可编辑。
 

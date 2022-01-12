@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890857"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943604"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -364,6 +364,22 @@ ms.locfileid: "7890857"
     3. 运行修改后的 ER 格式。
 
         ![在 Excel 桌面应用程序中查看生成的文档。](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>限制
+
+### <a name="known-epplus-library-limitations"></a>已知的 EPPlus 库限制
+
+#### <a name="external-data-sources"></a>外部数据源
+
+如果您的一个模板包含的透视表基于引用 [外部数据源](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b)的 PowerPivot 模型，并且启用了 **支持在电子报告框架中使用 EPPlus 库** 功能，则运行使用该模板以 Excel 格式生成出站文档的 ER 格式时，您将收到以下错误消息：“缓存源不是工作表”。 若要解决此问题，请可以使用以下选项：
+
+- **建议：** 重新设计您正在使用的 Excel 解决方案：
+
+    1. 隔离单独的 Excel 工作簿（工作簿 A）中包含数据透视的部分。 
+    2. 使用 ER 从 Finance 生成具有所需详细信息的第二个 Excel 工作簿（工作簿 B）。 
+    3. 生成工作簿 B 后立即在工作簿 A 中参考工作簿 B。
+
+- 使用 EPPlus 以外的选项来关闭该功能。 
 
 ## <a name="additional-resources"></a>其他资源
 

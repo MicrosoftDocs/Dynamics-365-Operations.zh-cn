@@ -30,7 +30,7 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 延迟发布的 AX 2012 功能
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: 持续交付
           items:
@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: 翻译记忆库文件
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps 扩展（公开预览版）
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platform 集成
           items:
             - name: 概览
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: 复制批处理作业
                   href: sysadmin/copy-batch-job.md
+                - name: 基于优先级的批处理计划
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: 活动批处理期间
                   href: sysadmin/activeperiod.md
                 - name: 活动批处理期间的夏令时支持

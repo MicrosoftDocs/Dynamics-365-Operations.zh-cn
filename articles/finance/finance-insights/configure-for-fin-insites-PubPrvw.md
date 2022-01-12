@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752934"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927396"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>公开预览版（预览）的 Finance insights 的配置 - 版本 10.0.20 及更高版本
 
@@ -39,7 +40,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse
 
 1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Finance 环境。 此环境需要 Finance and Operations 应用的应用版本 10.0.20 或更高版本。
 2. 该环境必须是沙盒中的高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
-3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分定型预测模型。 
+3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分训练预测模型。 
 
 ## <a name="configure-dataverse"></a>配置 Dataverse
 

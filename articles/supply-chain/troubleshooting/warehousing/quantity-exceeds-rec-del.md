@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711679"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920390"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>您尝试更新的数量超过收货/交货的数量
 
@@ -62,8 +62,8 @@ ms.locfileid: "6711679"
 
 1. 转到 **仓库管理 \> 负荷 \> 所有负荷**。
 1. 选择无法为其生成装箱单的负荷。
-1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
-1. 在 **负荷行** 选项卡上，为导致问题的物料选择负荷行。
+1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
+1. 在 **负荷行** 选项卡上，为导致问题的物料选择负荷行。
 1. 选择 **减少领料数量** 以调整领料数量。
 1. 设置 **减少负荷行** 字段以反映对负荷行的调整。
 
@@ -75,5 +75,5 @@ ms.locfileid: "6711679"
 
 1. 转到 **应收帐款 \> 订单 \> 所有订单**。
 1. 选择无法为其过帐负荷的装箱单的销售订单。
-1. 在 **销售订单行** 选项卡上，选择为其完成领料登记的销售订单行。
+1. 在 **销售订单行** 选项卡上，选择为其完成领料登记的销售订单行。
 1. 选择 **更新行 \> 领料** 以取消领料物料。

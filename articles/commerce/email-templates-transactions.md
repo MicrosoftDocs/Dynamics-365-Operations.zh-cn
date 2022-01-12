@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913744"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919493"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 

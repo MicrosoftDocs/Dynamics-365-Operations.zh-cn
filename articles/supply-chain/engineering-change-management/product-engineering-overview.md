@@ -1,5 +1,5 @@
 ---
-title: 工程更改管理概述
+title: 工程更改管理概述（包含视频）
 description: 此主题概述了工程更改管理，可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574681"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937652"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -28,7 +28,7 @@ ms.locfileid: "7574681"
 
 当今的制造商需要强大的产品数据管理、版本控制和工程更改管理，才能在不断缩短的产品生命周期、不断提高的质量和可靠性要求以及日益增加的产品安全关注的世界中取得成功。
 
-工程更改管理为产品数据管理流程带来了结构和规范，让产品能够以工作流支持的受控方式定义、发布和修订。通过产品版本和工程更改管理，您可以在产品的整个生命周期内记录、评估影响和应用工程更改。
+工程更改管理为产品数据管理流程带来了结构和规范，让产品能够以工作流支持的受控方式定义、发布和修订。 通过产品版本和工程更改管理，您可以在产品的整个生命周期内记录、评估影响和应用工程更改。
 
 工程更改管理可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。 以下是其主要功能的列表：
 
