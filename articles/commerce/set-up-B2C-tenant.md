@@ -2,7 +2,7 @@
 title: 在 Commerce 中设置 B2C 租户
 description: 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 author: BrianShook
-ms.date: 08/31/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466260"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952436"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
@@ -58,7 +58,9 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 
 还建议您在部署 Dynamics 365 Commerce 环境之后，在该环境中[初始化种子数据](enable-configure-retail-functionality.md)。
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>在 Azure 门户中创建或链接到现有的 AAD B2C 租户
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>在 Azure 门户中创建或链接到现有的 Azure AD B2C 租户
+
+本节介绍创建或链接 Azure AD B2C 租户以在您的 Commerce 站点中使用。 有关详细信息，请参阅[教程：创建 Azure Active Directory B2C 租户](/azure/active-directory-b2c/tutorial-create-tenant)。
 
 1. 登录 [Azure 门户](https://portal.azure.com/)。
 1. 在 Azure 门户菜单中选择 **创建资源**。 请务必使用将与您的 Commerce 环境连接的订阅和目录。
@@ -68,7 +70,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 1. 转到 **标识 \> Azure Active Directory B2C**。
 1. 进入 **创建新的 B2C 租户或链接至现有租户** 页之后，使用下面一个最适合贵公司需要的选项：
 
-    - **创建新的 Azure AD B2C 租户**：此选项用于创建新的 AAD B2C 租户。
+    - **创建新的 Azure AD B2C 租户**：此选项用于创建新的 Azure AD B2C 租户。
         1. 选择 **创建新的 Azure AD B2C 租户**。
         1. 在 **组织名称** 下，输入组织名称。
         1. 在 **初始域名** 下，输入初始域名。
@@ -86,7 +88,7 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 
 1. 创建新的 Azure AD B2C 目录（可能需要一些时间）之后，仪表板中将显示这个新目录的链接。 这个链接将把您带到“欢迎使用 Azure Active Directory B2C”页面。
 
-    ![链接到新的 AAD 目录。](./media/B2CImage_4.png)
+    ![链接到新的 Azure AD 目录](./media/B2CImage_4.png)
 
 > [!NOTE]
 > 如果您在您的 Azure 帐户中有多个订阅，或者如果您已经设置了 B2C 租户但未链接到有效订阅，**疑难解答** 横幅将引导您把该租户链接到订阅。 选择疑难解答消息，然后按照指示解决订阅问题。
@@ -104,11 +106,11 @@ Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提�
 1. 在 Azure 门户中，选择 **应用注册**，然后选择 **新注册**。
 1. 在 **名称** 下方，输入此 Azure AD B2C 应用程序的名称。
 1. 在 **受支持的帐户类型** 下方，选择 **任何标识提供者或组织目录中的帐户(用于使用用户流对用户进行身份验证)**。
-1. 对于 **重定向 URI**，输入您的专用回复 URL 作为类型 **Web**。 有关回复 URL 的信息以及如何进行格式化，请参阅下面的[回复 URL](#reply-urls)。
+1. 对于 **重定向 URI**，输入您的专用回复 URL 作为类型 **Web**。 有关回复 URL 的信息以及如何进行格式化，请参阅下面的[回复 URL](#reply-urls)。 当用户进行身份验证时，必须输入重定向 URI/回复 URL 以启用从 Azure AD B2C 重定向回您的站点。 回复 URL 可以在注册过程中添加，也可以以后通过从 B2C 应用程序的 **概览** 部分的 **概览** 菜单中选择 **添加重定向 URI** 链接来添加。
 1. 对于 **权限**，选择 **授予对 OpenID 和脱机访问权限的管理员同意**。
 1. 选择 **注册**。
-1. 选择新创建的应用程序，然后导航到 **身份验证** 菜单。 如果需要，您可以在此处添加 **重定向 URI**（现在或以后）。 如果当前不需要，请继续执行下一步。
-1. 在 **隐式授权** 下方，选择 **访问令牌** 和 **ID 令牌** 以为应用程序启用它们。 选择 **保存**。
+1. 选择新创建的应用程序，然后导航到 **API 权限** 菜单。 
+1. 如果输入回复 URL，在 **隐式授权和混合流** 下同时选择 **访问令牌** 和 **ID 令牌** 选项，以为应用程序启用它们，然后选择 **保存**。 如果注册时没有输入回复 URL，也可以在此页面添加，方法是选择 **添加平台**，选择 **Web**，然后输入应用程序的重定向 URI。 然后，**隐式授权和混合流** 部分将可用于选择 **访问令牌** 和 **ID 令牌** 选项。
 1. 转到 Azure 门户的 **概述** 菜单，然后复制 **应用程序(客户端) ID**。 记下此 ID 以用于以后的设置步骤（以后称为 **客户端 GUID**）。
 
 有关 Azure AD B2C 中应用注册的其他参考，请参阅 [Azure Active Directory B2C 的新应用注册体验](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -131,7 +133,7 @@ Azure AD B2C 提供三种基本的用户流类型：
 - 配置文件编辑
 - 密码重置
 
-可选择使用 Azure AD 提供的默认用户流，这将显示 AAD B2C 托管的页面。 也可以创建 HTML 页面以控制这些用户流体验的外观。 
+可选择使用 Azure AD 提供的默认用户流，这将显示 Azure AD B2C 托管的页面。 也可以创建 HTML 页面以控制这些用户流体验的外观。 
 
 若要自定义具有内置于 Dynamics 365 Commerce 的页面的用户策略页面，请参阅[设置用户登录的自定义页面](custom-pages-user-logins.md)。 有关更多信息，请参阅[定义 Azure Active Directory B2C 中的用户体验界面](/azure/active-directory-b2c/tutorial-customize-ui)。
 
@@ -143,9 +145,9 @@ Azure AD B2C 提供三种基本的用户流类型：
 1. 在 **Azure AD B2C – 用户流（策略）** 页面中，选择 **新建用户流**。
 1. 选择 **注册和登录** 策略，然后选择 **建议** 版本。
 1. 在 **名称** 下面，输入策略名称。 此名称在门户分配的前缀后显示（例如，“B2C_1_”）。
-1. 在 **标识提供程序** 下，选中相应复选框。
+1. 在 **标识提供者** 下，在 **本地帐户** 部分选择 **电子邮件注册**。 电子邮件身份验证用于最常见的 Commerce 场景。 如果您还在使用社交标识提供者身份验证，此时也可以选择以下选项。
 1. 在 **多重身份验证** 下，选择适合贵公司的选项。 
-1. 在 **用户特性和声明** 下，根据需要选择用于收集特性或返回声明的选项。 Commerce 需要以下默认选项：
+1. 在 **用户特性和声明** 下，根据需要选择用于收集特性或返回声明的选项。 选择 **显示更多...** 获取属性和声明选项的完整列表。 Commerce 需要以下默认选项：
 
     | **收集特性** | **返回声明** |
     | ---------------------- | ----------------- |
@@ -161,9 +163,6 @@ Azure AD B2C 提供三种基本的用户流类型：
 
 ![注册和登录策略设置。](./media/B2CImage_11.png)
 
-下图显示 Azure AD B2C 注册和登录用户流中的 **运行用户流** 选项。
-
-![策略流中的“运行用户流”选项。](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>创建配置文件编辑用户流策略
 
@@ -173,18 +172,22 @@ Azure AD B2C 提供三种基本的用户流类型：
 1. 在 **Azure AD B2C – 用户流（策略）** 页面中，选择 **新建用户流**。
 1. 选择 **配置文件编辑**，然后选择 **建议** 版本。
 1. 在 **名称** 下，输入配置文件编辑用户流。 此名称在门户分配的前缀后显示（例如，“B2C_1_”）。
-1. 在 **标识提供者** 下方，选择 **电子邮件登录**。
+1. 在 **标识提供者** 下，在 **本地帐户** 部分选择 **电子邮件登录**。
 1. 在 **用户属性** 下，选中以下复选框：
-    - **电子邮件地址**（仅限 **返回声明**）
-    - **给定名称**（**收集特性** 和 **返回声明**）
-    - **标识提供程序**（仅限 **返回声明**）
-    - **姓**（**收集特性** 和 **返回声明**）
-    - **用户的对象 ID**（仅限 **返回声明**）
+    
+    | **收集特性** | **返回声明** |
+    | ---------------------- | ----------------- |
+    |                        | 电子邮件地址   |
+    | 给定名称             | 给定名称        |
+    |                        | 标识提供方 |
+    | 姓                | 姓           |
+    |                        | 用户的对象 ID  |
+    
 1. 选择 **创建**。
 
 下图显示 Azure AD B2C 配置文件编辑用户流的一个示例。
 
-![创建配置文件编辑用户流。](./media/B2CImage_12.png)
+![Azure AD B2C 配置文件编辑用户流示例](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>创建密码重置用户流策略
 
@@ -324,11 +327,11 @@ Azure AD B2C 租户设置完毕之后，必须在 Commerce 站点构建器中配
 
 ![收集每个 B2C 策略流的名称。](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>在 Commerce 中输入您的 AAD B2C 租户应用程序信息
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>在 Commerce 中输入您的 Azure AD B2C 租户应用程序信息
 
 必须在 Commerce 站点构建器中输入 Azure AD B2C 租户的详细信息，才能将 B2C 租户与站点关联。
 
-若要将您的 AAD B2C 租户应用程序信息添加到 Commerce 中，请执行以下步骤。
+要将您的 Azure AD B2C 租户应用程序信息添加到 Commerce 中，请执行以下步骤。
 
 1. 以管理员身份登录您的环境的 Commerce 站点构建器。
 1. 在左侧导航窗格中，选择 **租户设置** 将其展开。

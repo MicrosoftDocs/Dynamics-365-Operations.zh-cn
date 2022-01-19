@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731532"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948467"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
+此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
 
 必须先设置一些参考信息，才能创建工作。 创建的工作只能有一个名称。 但是，通过添加更多信息（如职称“，可以为向其分配工作的职位提供默认值。 此外，还可以将输入的一些信息用于筛选特定工作的薪酬计划。 如果要设置可用于筛选特定工作的薪酬计划的资格，应在设置工作之前设置工作职能和工作类型。 通过提供这些默认值，可以在为工作添加职位时节约时间。 
 

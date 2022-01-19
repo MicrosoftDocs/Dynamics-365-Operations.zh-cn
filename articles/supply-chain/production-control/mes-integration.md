@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891918"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952669"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -37,10 +37,17 @@ ms.locfileid: "7891918"
 
 ## <a name="turn-on-the-mes-integration-feature"></a>开启 MES 集成功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+管理员必须按照以下过程在您的系统中打开此功能，您才能够使用。
 
-- **模块**：*生产控制*
-- **功能名称**：*制造执行系统集成*
+1. 转到 **系统管理 \> 设置 \> 许可证配置**。
+1. 确保 **考勤管理** 许可证密钥已启用（显示复选标记）。 此许可证密钥是必需的，因为它控制制造执行系统的功能和数据。 如果未启用，请执行以下步骤：
+    1. 将您的系统置于维护模式下，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
+    1. 在 **许可证配置** 页面上，选择 **考勤管理** 复选框。
+    1. 按照[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述关闭维护模式
+1. 转到 **系统管理 \> 工作区 \> 功能管理**。
+1. 打开按以下方式列出的功能（另请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)）：
+    - **模块**：*生产控制*
+    - **功能名称**：*制造执行系统集成*
 
 ## <a name="processes-available-for-mes-integration"></a>可用于 MES 集成的流程
 

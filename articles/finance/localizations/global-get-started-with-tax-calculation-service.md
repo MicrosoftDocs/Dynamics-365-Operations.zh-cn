@@ -2,7 +2,7 @@
 title: 开始使用税款计算
 description: 本主题说明如何设置税务计算。
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647426"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952513"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关如何开始使用税务计算的信息。 它指导您完成 Microsoft Dynamics Lifecycle Services (LCS)、Regulatory Configuration Service (RCS) 以及 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的配置步骤。 然后，它审查在 Finance 和 Supply Chain Management 交易中使用税务计算功能的通用流程。
+本主题提供有关如何开始使用税务计算的信息。 本主题中的各节内容指导您完成 Microsoft Dynamics Lifecycle Services (LCS)、Regulatory Configuration Service (RCS)、Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的高级设计和配置步骤。 
 
-该设置由四个主要步骤组成：
+设置由三个主要步骤组成。
 
 1. 在 LCS 中，安装税款计算加载项。
 2. 在 RCS 中，设置税务计算功能。 此设置不特定于法人。 它可以在 Finance 和 Supply Chain Management 中跨法人共享。
 3. 在 Finance 和 Supply Chain Management 中，按法人设置税务计算参数。
-4. 在 Finance 和 Supply Chain Management 中，创建销售订单等交易，然后使用税务计算以确定和计算税务。
+
+## <a name="high-level-design"></a>高级设计
+
+### <a name="runtime-design"></a>运行时设计
+
+下图显示了税款计算的高级运行时设计。 税款计算可以与多个 Dynamics 365 应用集成，此图使用与 Finance 的集成作为示例。
+
+1. 在 Finance 中创建交易记录，如销售订单或采购订单。
+2. Finance 会自动使用销售税组和物料销售税组的默认值。
+3. 在交易记录中选择 **销售税** 按钮时，将触发税款计算。 然后，Finance 将有效负载发送到税款计算服务。
+4. 税款计算服务将有效负载与税务功能中的预定义规则匹配，来同时查找更准确的销售税组和物料销售税组。
+
+    - 如果有效负载可以与 **税组适用性** 矩阵匹配，该有效负载将在适用性规则中用匹配的税组值替代销售税组值。 否则，它将继续使用 Finance 中的销售税组值。
+    - 如果有效负载可以与 **物料税组适用性** 矩阵匹配，该有效负载将在适用性规则中用匹配的物料税组值替代物料销售税组值。 否则，它将继续使用 Finance 中的物料销售税组值。
+
+5. 税款计算服务使用销售税组和物料销售税组的交集来确定最终的税代码。
+6. 税款计算服务根据其确定的最终税代码计算税款。
+7. 税款计算服务将税款计算结果返回到 Finance。
+
+![税款计算运行时设计。](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>高级配置
+
+以下步骤提供了税款计算服务的配置流程的高级概览。
+
+1. 在 LCS 中，在您的 LCS 项目中安装 **税款计算** 加载项。
+2. 在 RCS 中，创建 **税款计算** 功能。
+3. 在 RCS 中，设置 **税款计算** 功能：
+
+    1. 选择税务配置版本。
+    2. 创建税代码。
+    3. 创建税组。
+    4. 创建物料税组。
+    5. 可选：如果要替代从客户或供应商主数据输入的默认销售税组，则创建税组适用性。
+    6. 可选：如果要替代从物料主数据输入的默认物料销售税组，则创建物料组适用性。
+
+4. 在 RCS 中，完成并发布 **税款计算** 功能。
+5. 在 Finance 中，选择已发布的 **税款计算** 功能。
+
+完成这些步骤后，以下设置将自动从 RCS 同步到 Finance。
+
+- 销售税代码
+- 销售税组
+- 物料销售税组
+
+本主题的其余各节提供更详细的配置步骤。
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的过程之前，每种环境类型必须具备一些先决条件。
-
-必须满足以下先决条件：
+在完成本主题中的其余过程之前，必须满足以下先决条件：<!--TO HERE-->
 
 - 您必须有权访问 LCS 帐户，并且必须已部署具有运行 Dynamics 365 版本 10.0.21 或更高版本的第 2 层（或以上）环境的 LCS 项目。
 - 您必须为组织创建 RCS 环境，并且您必须有权访问您的帐户。 有关如何创建 RCS 环境的详细信息，请参阅 [Regulatory Configuration Service 概览](rcs-overview.md)。
@@ -72,15 +115,7 @@ ms.locfileid: "7647426"
 5. 在 **类型** 字段中，选择 **全局**。
 6. 选择 **打开**。
 7. 转到 **税务数据模型**，展开文件树，然后选择 **税务配置**。
-8. 根据 Finance 版本选择正确的税务配置版本，然后选择 **导入**。
-
-    | 发行版本 | 税项配置                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | 税款配置 - 欧洲 30.12.82     |
-    | 10.0.19         | 税款计算配置 36.38.193 |
-    | 10.0.20         | 税款计算配置 40.43.208 |
-    | 10.0.21         | 税款计算配置 40.48.215 |
-
+8. 根据 Finance 版本选择正确的 [税务配置版本](global-tax-calcuation-service-overview.md#versions)，然后选择 **导入**。
 9. 在 **全球化功能** 工作区，选择 **功能**，选择 **税务计算** 磁贴，然后选择 **添加**。
 10. 选择以下功能类型之一：
 
@@ -209,42 +244,3 @@ ms.locfileid: "7647426"
 
 5. 在 **多个增值税登记** 选项卡上，您可以分别启用增值税申报、欧盟销售清单和内部统计，以便在多个增值税登记方案下工作。 有关多个增值税登记的纳税申报的详细信息，请参阅[申报多个增值税登记](emea-reporting-for-multiple-vat-registrations.md)。
 6. 保存设置，并对每个其他法人重复以前的步骤。 发布新版本并且希望应用新版本时，请在 **税款计算参数** 页面的 **常规** 选项卡上设置 **功能设置** 字段（请参阅第 2 步）。
-
-## <a name="transaction-processing"></a>交易处理
-
-完成所有设置过程后，您可以使用税款计算在 Finance 中确定和计算税款。 处理交易的步骤保持不变。 以下交易在 Finance 版本 10.0.21 中受支持：
-
-- 销售流程
-
-    - 销售报价
-    - 销售订单
-    - 确认单
-    - 领料单
-    - 装箱单
-    - 销售账单
-    - 贷方通知单
-    - 退货单
-    - 标题费用
-    - 行费用
-
-- 采购流程
-
-    - 采购订单
-    - 确认单
-    - 收货清单
-    - 产品收据
-    - 采购账单
-    - 标题费用
-    - 行费用
-    - 贷方通知单
-    - 退货单
-    - 采购申请
-    - 采购申请行费用
-    - 询价
-    - 询价标题费用
-    - 询价行费用
-
-- 库存流程
-
-    - 转移单 – 装运
-    - 转移单 - 接收

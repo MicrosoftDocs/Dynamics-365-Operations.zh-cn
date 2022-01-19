@@ -2,7 +2,7 @@
 title: 预配 Human Resources
 description: 此主题介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644519"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952694"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -44,7 +44,7 @@ ms.locfileid: "7644519"
 
 试用环境为尚未访问 Human Resources 环境的个人提供评估人力资源功能的能力。 如果您在预配试用环境并且经过身份验证的用户已经有权访问一个或多个现有 Human Resources 环境，该用户将被重定向到现有环境或环境列表。
 
-不应将试用环境用作生产环境。 它们仅限于 60 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
+不应将试用环境用作生产环境。 它们仅限于 30 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
 
 在创建 Human Resources 试用环境时，还将在租户上创建 Power Apps 试用环境并链接到 Human Resources 环境。 Power Apps 环境的名称为“TestDrive”，其试用期与 Human Resources 环境相同。
 

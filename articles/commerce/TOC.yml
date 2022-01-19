@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: 设置 Azure 密钥保管库以进行安全的密钥管理
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: 创建请求管道插件挂钩
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: 图像组件
                       href: e-commerce-extensibility/image-component.md
                 - name: 开发数据操作

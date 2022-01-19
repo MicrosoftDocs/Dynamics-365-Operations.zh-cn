@@ -2,19 +2,19 @@
 title: Finance and Operations 应用的服务描述
 description: 本主题提供 Finance and Operations 应用的服务描述。
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898381"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952358"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
 
@@ -117,7 +117,7 @@ Finance and Operations 应用从全球多个 Azure 区域提供。 Finance and O
 ### <a name="countryregion-specific-considerations"></a>特定于国家/地区的注意事项
 
 - 与需要在本地驻留数据的法国实体开展业务的受监管行业或商业组织的客户应该查看[法国的 Finance and Operations](../../dev-itpro/deployment/france-local-deployment.md)。
-- 在中国经营的客户应该查看[由世纪互联在中国运营的 Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md)。
+- 在中国经营的客户应该查看 [Azure 中国 Playbook](/azure/china/) 和[由世纪互联在中国运营的 Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md)。
 - 在俄罗斯运营的客户应该查看[俄罗斯个人数据本地化法](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia)。
 
 ### <a name="general-data-protection-regulation-gdpr"></a>一般数据保护条例 (GDPR)
@@ -356,6 +356,7 @@ Microsoft 承诺每个服务月的可用率为 99.9%。 如果 Microsoft 未能�
 - **[许可指南](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – 本指南用于详细了解如何许可 Dynamics 365。
 - **[客户支持](https://dynamics.microsoft.com/support/)** – 获取针对 Dynamics 365 应用的行业领先支持。
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – 管理您的应用程序生命周期，以及向可预测、可重复的高质量实现努力。
+- **[Dynamics 365 实施指南](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 实施指南记录了久经考验的 Success by Design 原则，为架构、构建、测试和部署 Dynamics 365 解决方案提供说明性指导。
 
 ## <a name="definitions"></a>定义
 
@@ -428,6 +429,10 @@ Finance and Operations 应用中包含的任何核心服务。
 ### <a name="service-update"></a>服务更新
 
 Microsoft 通过服务更新始终如一地服务 Finance and Operations 环境。 客户根据业务需求制订自己的服务更新日历。 有关预览版的详细信息，请参阅 [One Version 服务更新](../../dev-itpro/lifecycle-services/oneversion-overview.md)。
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+此框架通过关键阶段的一系列评估系统地指导实施，以确保 Dynamics 365 解决方案的最佳体系结构、安全性、性能和用户体验。
 
 ### <a name="user"></a>用户
 

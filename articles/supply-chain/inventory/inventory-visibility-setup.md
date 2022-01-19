@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581857"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952488"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>安装和设置库存可见性
 
@@ -71,6 +71,9 @@ ms.locfileid: "7581857"
 1. 通过选中 **条款和条件** 复选框同意条款和条件。
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 在安装完成时，刷新页面。 状态应更改为 **已安装**。
 1. 在 Dataverse 中，在左侧导航中选择 **应用** 部分，并验证是否已成功安装 **库存可见性** Power Apps。 如果 **应用** 部分不存在，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性产品团队联系。
+
+> [!TIP]
+> 我们建议您加入库存可见性加载项用户组，您可以在其中找到有用的指南，获取我们的最新更新，并发布您可能遇到的有关使用库存可见性的任何问题。 要加入，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 向库存可见性产品团队发送电子邮件，并提供您的 Supply Chain Management 环境 ID。
 
 > [!IMPORTANT]
 > 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 只有最后安装的才有效。

@@ -2,7 +2,7 @@
 title: 付款模块
 description: 此主题介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: anupamar-ms
-ms.date: 11/18/2020
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 303b5f0bdfdb00accab2598acc2545bca69660412e170202152303c8ed81314e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774549"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952461"
 ---
 # <a name="payment-module"></a>付款模块
 
@@ -52,7 +52,7 @@ Adyen 付款连接器还支持强大客户身份验证 (SCA)。 欧盟 (EU) 修�
 
 从 Commerce 版本 10.0.14 开始，付款模块还与适用于 PayPal 的 Dynamics 365 Payment Connector 集成。 有关如何设置和配置此付款连接器的详细信息，请参阅[适用于 PayPal 的 Dynamics 365 Payment Connector](paypal.md)。
  
-在结帐页面上，可以同时配置 Adyen 和 PayPal 连接器。 付款模块已通过附加属性增强，有助于确定应使用的连接器。 有关详细信息，请参阅下表中的 **支持的支付方式** 和 **为主付款** 模块属性。
+在结帐页面上，可以同时配置 Adyen 和 PayPal 连接器。 付款模块已通过附加属性增强，有助于确定应使用的连接器。 有关详细信息，请参阅下表中的 **Supported tender types** 和 **Is primary payment** 模块属性。
   
 当付款模块配置为使用 PayPal Payment Connector 时，结帐页面上将显示 PayPal 按钮。 当付款模块由客户调用时，将显示包含 PayPal 信息的 iframe。 客户可以登录并在此 iframe 中提供其 PayPal 信息，以完成其交易。 当客户选择使用 PayPal 付款时，将通过 PayPal 收取订单上的余额。
 
@@ -90,7 +90,24 @@ PayPal Payment Connector 不需要账单地址模块，因为所有与账单相�
 
 付款模块只能添加到结帐模块。 有关如何为结帐页面配置付款模块的详细信息，请参阅[结帐模块](add-checkout-module.md)。
 
-如果同时需要 Adyen Payment Connector 和 PayPal Payment Connector，将这两个模块添加到付款部分。 确保已为 PayPal 配置 **支持的支付方式** 属性值，对于 Adyen 则保留为空白。 另外，对于 Adyen，将 **为主付款** 属性设置为 **True**。
+## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>在两者都使用时配置 Adyen 和 PayPal 付款连接器
+
+如果 Adyen 和 PayPal 付款连接器都将用于您的站点，请按照 Commerce 站点构建器中的这些步骤将每个连接器的付款模块添加到结帐模块，然后配置每个模块的属性。
+
+1. 在 PayPal 付款模块的属性窗格中，按照以下步骤操作：
+
+    1. 在 **Supported tender types** 属性的字段中，输入 **PayPal**。
+    1. 清除 **Is primary payment** 属性的复选框。
+    1. 选中 **Use connector ID** 属性的复选框。
+
+1. 在 Adyen 付款模块的属性窗格中，按照以下步骤操作：
+
+    1. 将 **Supported tender types** 属性的字段保留为空。
+    1. 选中 **Is primary payment** 属性的复选框。
+    1. 选中 **Use connector ID** 属性的复选框。
+
+> [!NOTE]
+> 当您将 Adyen 和 PayPal 连接器配置为一起使用时，**适用于 Adyen 的 Dynamics 365 付款连接器** 配置必须位于 Commerce headquarters 中在线渠道的 **付款帐户** 连接器配置的第一位置。 要确认或更改连接器顺序，转到 **在线商店**，为您的站点选择渠道。 然后，在 **设置** 选项卡的 **付款帐户** 快速选项卡上，在 **连接器** 下，确保 **适用于 Adyen 的 Dynamics 365 付款连接器** 配置位于第一位置（即在顶行），**适用于 PayPal 的 Dynamics 365 付款连接器** 配置位于第二行。 根据需要添加或删除连接器来重新排序。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -98,7 +115,7 @@ PayPal Payment Connector 不需要账单地址模块，因为所有与账单相�
 
 [购物车图标模块](cart-icon-module.md)
 
-[结帐模块](add-checkout-module.md)
+[结账模块](add-checkout-module.md)
 
 [收货地址模块](ship-address-module.md)
 

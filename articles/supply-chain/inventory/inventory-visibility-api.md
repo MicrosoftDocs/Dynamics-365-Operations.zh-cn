@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920092"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952619"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -48,6 +48,8 @@ Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享�
 
 > [!NOTE]
 > 此路径的 {environmentId} 部分是 Microsoft Dynamics Lifecycle Services (LCS) 中的环境 ID。
+> 
+> 批量 API 最多可为每个请求返回 512 条记录。
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>根据 Lifecycle Services 环境查找终结点
 
@@ -249,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>创建多个更改事件
 
-此 API 可以同时创建多个记录。 此 API 和[单事件 API](#create-one-onhand-change-event) 的唯二差异是 `Path` 和 `Body`值。 对于此 API，`Body` 提供一组记录。
+此 API 可以同时创建多个记录。 此 API 和[单事件 API](#create-one-onhand-change-event) 的唯二差异是 `Path` 和 `Body`值。 对于此 API，`Body` 提供一组记录。 最大记录数为 512，这意味着现有库存更改批量 API 一次最多可支持 512 个更改事件。
 
 ```txt
 Path:

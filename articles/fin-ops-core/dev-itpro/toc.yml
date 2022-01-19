@@ -512,7 +512,9 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
                   href: dev-tools/pipeline-lcs-connection.md
-                - name: 更新托管 Azure Pipeline，获取新的 NuGet 包
+                - name: 在 Azure Pipelines 中将 LCS 连接身份验证任务更新到 MSAL
+                  href: dev-tools/pipeline-lcs-connection-update.md
+                - name: 更新托管的 Azure Pipelines 以获取新的 NuGet 包
                   href: dev-tools/pipeline-nuget-split.md
                 - name: 更新 Azure Pipelines 中的旧管道
                   href: dev-tools/pipeline-msbuild-update.md
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: 使用 Regression Suite Automation Tool 的数据无关测试
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: 利用并行执行运行 Regression Suite Automation Tool (RSAT)
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: 疑难解答
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
