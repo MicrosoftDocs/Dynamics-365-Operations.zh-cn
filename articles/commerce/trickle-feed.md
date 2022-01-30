@@ -2,7 +2,7 @@
 title: 为零售商店交易记录创建基于缓慢馈送的订单
 description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 中的商店交易记录创建基于缓慢馈送的订单。
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921230"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964620"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>为零售商店交易记录创建基于缓慢馈送的订单
 
@@ -47,6 +47,10 @@ ms.locfileid: "7921230"
 ### <a name="financial-statements"></a>财务报表
 
 财务报表处理是一天中最后一道流程。 此类型的对帐单处理仅支持 **班次** 结算方法，将仅选取已结束的班次。 对帐单仅限用于财务对帐。 对帐单仅针对支付方式的计算金额与交易记录金额之间的差额而创建日记帐，以及针对其他现金管理交易记录创建日记帐。
+
+财务报表还可以用于审查以下交易记录：钱币清点交易记录、付款交易记录、银行支付交易记录和金库支付交易记录。 仅当选择财务报表时，支付方式详细信息页才可见。
+
+![仅在选择财务报表时，有关已过帐报表窗体的支付方式详细信息部分的图像才可显示。](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 根据预计的工作结束时间，安排下列财务报表作业的开始时间和结束时间：
 
