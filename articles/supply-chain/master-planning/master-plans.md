@@ -3,7 +3,7 @@ title: 主计划概览
 description: 使用各种主计划来支持公司的日常运营、模拟要监控的不同计划策略、实现公司策略，例如有关内部绩效或客户满意度的政策。
 author: ChristianRytt
 ms.date: 05/28/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75f18d708bf71a7bec1d8a5bd95008aaa2ec4d90
-ms.sourcegitcommit: 2084fc166d027f8192a08cd5c00169c448869ac8
+ms.openlocfilehash: 03467778025287f3692e171bea37b1bfb2ca1646
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7582532"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982346"
 ---
 # <a name="master-plans-overview"></a>主计划概览
 

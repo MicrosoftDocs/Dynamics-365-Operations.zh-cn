@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b0ccbd1781ccb5aa7f5f62ea86888e1673cb77653af57f6c49319a2b5089ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782435"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968788"
 ---
 # <a name="production-setup-requirements"></a>生产设置需求
 
@@ -39,7 +39,7 @@ ms.locfileid: "6782435"
 -   定义物料组。
 -   为物料组设置会计科目。
 -   在库存管理中设置库存物料表。
--   在库存管理中创建物料清单 (BOM) 和物料清单版本。
+-   在产品信息管理中创建物料清单 (BOM) 和物料清单版本。
 
 ## <a name="required-calendar-and-resource-setup"></a>要求的日历和资源设置
 在您使用生产控制前，请打开组织管理，并按以下顺序创建和定义日历和运营资源：

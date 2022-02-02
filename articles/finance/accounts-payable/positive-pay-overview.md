@@ -3,7 +3,7 @@ title: 付款确认概览
 description: 本文提供有关付款确认的信息，其用于生成一份可以呈现给银行的支票电子列表。
 author: panolte
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankPositivePaySummary
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5a428a945be8fd6b570cc4ad61e1f1d285b2a0205e72aab2418c300bdb967da3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f36230b68986cffc985353a7130ba429dabd10e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737323"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984044"
 ---
 # <a name="positive-pay-overview"></a>付款确认概览
 

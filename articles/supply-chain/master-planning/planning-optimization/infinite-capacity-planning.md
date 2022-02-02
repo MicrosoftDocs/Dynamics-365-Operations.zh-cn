@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920166"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982142"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>无限容量计划
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 *计划优化的无限容量计划* 功能引入基于工艺路线信息的计划。 它允许您基于各种工艺路线设置计划作业。 计划优化的计划涵盖常用的工艺路线设置，包括工艺路线工序顺序或工艺路线工序资源的要求。
 
@@ -51,7 +49,9 @@ ms.locfileid: "7920166"
 - 能力（有关详细信息，请参阅[基于能力选择资源的计划](capability-based-scheduling.md)。）
 
 > [!NOTE]
-> 尚不支持与 Human Resources 相关的要求（例如技能或证书要求）。
+>
+> - 如果资源和/或资源组设置为无限产能，则主计划会将它们视为无限产能。
+> - 尚不支持与 Human Resources 相关的要求（例如技能或证书要求）。
 
 该功能还支持 **设置时间** 和 **运行时间** 操作属性。 当您在工艺路线工序上设置这些属性时，计划流程将创建适当的设置和处理作业。
 

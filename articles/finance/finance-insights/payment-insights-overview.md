@@ -3,7 +3,7 @@ title: 客户付款预测
 description: 此主题介绍可帮助您更好理解客户的典型付款实践的付款预测功能。 此功能还可以帮助您确定应导致您开始执行本应提前进行的收款流程的情况。
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752728"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982029"
 ---
 # <a name="customer-payment-predictions"></a>客户付款预测
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 此主题介绍可帮助您更好理解客户的典型付款实践的付款预测功能。 此功能还可以帮助您确定应导致您开始执行本应提前进行的收款流程的情况。
 
@@ -39,7 +38,7 @@ ms.locfileid: "7752728"
 - 开始得太晚的收款流程
 - 下达给可能拖欠付款的客户的订单
 
-客户付款预测（预览）可帮助组织预测客户何时为发票付款。 因此，他们可以创建收款策略，以帮助增加按时付款的可能性。
+客户付款预测可帮助组织预测客户何时为发票付款。 因此，他们可以创建收款策略，以帮助增加按时付款的可能性。
 
 ## <a name="predictions"></a>预测
 
@@ -67,6 +66,6 @@ ms.locfileid: "7752728"
 
 ## <a name="methodology"></a>方法
 
-过去，通常很难开发和部署人工智能 (AI) 解决方案。 此流程需要一支由数据科学家、主题专家 (SME) 和工程师组成的团队长时间工作，以制定、开发、部署和维护可用的 AI 解决方案。 客户付款预测有助于在 Microsoft Dynamics 365 Finance 中部署和使用 AI 解决方案。 Microsoft 正在预打包基于 Microsoft AI Builder 构建的 AI 解决方案。 因此，用户只需单击一下鼠标即可部署 AI 解决方案，以利用智能预测的优势。 如果您对预测的准确性不满意，那么高级用户可以（再次强调，只需单击一次鼠标）进入 AI Builder 扩展体验，然后选择或清除用于生成预测的字段。 准备就绪后，您可以“训练”模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的模型以生成预测。
+过去，通常很难开发和部署人工智能 (AI) 解决方案。 此流程需要一支由数据科学家、主题专家 (SME) 和工程师组成的团队长时间工作，以制定、开发、部署和维护可用的 AI 解决方案。 客户付款预测有助于在 Microsoft Dynamics 365 Finance 中部署和使用 AI 解决方案。 Microsoft 正在预打包基于 Microsoft AI Builder 构建的 AI 解决方案。 因此，用户只需单击一下鼠标即可部署 AI 解决方案，以利用智能预测的优势。 如果您对预测的准确性不满意，那么高级用户可以（再次强调，只需单击一次鼠标）获得 AI Builder 扩展体验，然后选择或清除用于生成预测的字段。 准备就绪后，您可以“训练”模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的模型以生成预测。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

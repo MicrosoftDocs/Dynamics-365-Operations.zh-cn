@@ -3,24 +3,23 @@ title: 评分和评价概览
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的评分和评价。
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473469"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982244"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
 
@@ -53,6 +52,14 @@ Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Se
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)
+
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
+
+[评分和评价常见问题解答](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: 全渠道付款概述
 description: 本主题提供有关 Dynamics 365 Commerce 中的全渠道付款的概述。
 author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779710"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984158"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 

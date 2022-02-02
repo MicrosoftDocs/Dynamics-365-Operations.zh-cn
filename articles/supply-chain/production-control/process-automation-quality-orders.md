@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ae0aebc73fc9b5d31409131d78ad1bff7f3771cd
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: fa0c9ea5a2e92ae5af7d937b5f7f16df0ee3c9ef
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860630"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985179"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>调用流程自动化流来创建质检订单
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 12/1/2021 -->
 
 组织对自动化标准业务流程，为员工提供更便捷的交互以及利用各种数据信号和系统来自动驱动业务流程的需求日益增长。 借助机器人流程自动化 (RPA) 和 Microsoft Power Automate，企业可以使用无代码体验来自动化重复流程，从而提高效率和准确性。
 

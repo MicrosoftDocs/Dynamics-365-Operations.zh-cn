@@ -1,5 +1,5 @@
 ---
-title: 评估初始客户付款预测模型（预览）
+title: 评估初始客户付款预测模型
 description: 本主题描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f45392d540b6696d23261a6b2197c3185f5ede2b7c646f6b751480145dcacfdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768859"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969104"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>评估初始客户付款预测模型（预览）
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>评估初始客户付款预测模型
 
 [!include [banner](../includes/banner.md)]
 

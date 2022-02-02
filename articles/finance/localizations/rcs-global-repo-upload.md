@@ -2,7 +2,7 @@
 title: 在 RCS 中创建 ER 配置并上传到全局知识库
 description: 此主题介绍如何在 Microsoft Regulatory Configuration Services (RCS) 中创建电子申报 (ER) 配置并上传到全局知识库。
 author: JaneA07
-ms.date: 09/21/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b8be53c415d3b0c0fd057bb0d9c51b391d1c0c7471610c861909344059803441
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727213"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965081"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>在 Regulatory Configuration Service (RCS) 中创建 ER 配置并上传到全局知识库
 
@@ -32,24 +32,29 @@ ms.locfileid: "6727213"
 
 必须先满足以下先决条件，才能完成这些过程：
 
-- 访问 RCS 实例。
-- 创建有效配置提供程序。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
+- 有权访问组织的 RCS 环境。
+- 创建一个可用的配置提供程序并将其设为活动状态。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
 
-还必须确保为公司预配 RCS 环境。
+必须确保为组织预配 RCS 环境。 如果您没有为组织预配 RCS 实例，则可以使用以下步骤执行此操作：
 
-1. 在 Finance and Operations 应用中，转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 如果没有为公司预配 RCS 环境，请选择 **Regulatory services – 配置外部**，然后按照说明预配一个。
+1. 在 Finance and Operations 应用中，转到 **组织管理** \> **工作区** \> **电子报告**。
+2. 在 **相关链接/外部链接** 中，选择 **Regulatory services – 配置**，然后按照说明进行 **注册** 以预配一个。
 
-如果已经为公司预配了 RCS 环境，请通过选择登录选项使用页面 URL 访问该环境。
+如果已经为组织预配了 RCS 环境，请使用页面 URL 访问该环境，然后选择 **注册** 选项。
 
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>在 RCS 中创建配置的派生版本
 
-1. 在 **电子申报** 工作区中，验证您是否有组织的有效配置提供程序。 
-2. 选择 **申报配置**。
-3. 选择新版本的派生来源配置。 可以使用上面的筛选器字段缩小搜索范围。
-4. 选择 **创建配置** \> **从名称派生**。
-5. 输入名称和说明，然后选择 **创建配置** 创建新的派生版本。
-6. 选择新派生的配置，添加版本说明，然后选择 **确定**。 配置的状态将更改为 **已完成**。
+> [!NOTE]
+> 如果这是您第一次使用 RCS，则您将没有任何可供从中派生的配置。 您需要从全局存储库导入配置。 有关详细信息，请参阅[从 Configuration service 的全局知识库下载 ER 配置](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)。
+
+1. **登录** RCS，然后选择 **电子申报** 工作区。
+2. 验证您是否有适用于组织并且设置为活动状态的可用配置提供程序（请参阅先决条件）。 
+3. 选择 **申报配置**。
+4. 选择新版本的派生来源配置。 可以使用上面的筛选器字段缩小搜索范围。
+5. 选择 **创建配置** \> **从名称派生**。
+6. 输入名称和说明，然后选择 **创建配置** 创建“草稿”状态的新派生版本。
+7. 选择新派生的配置，并在需要时对配置格式进行其他更改。 
+8. 完成更改后，您需要将配置的 **更改状态** 设置为 **已完成**，以便能够将其发布到存储库。 选择 **确定**。
 
 ![RCS 中的新配置版本。](media/RCS_CompleteConfig.JPG)
 
@@ -58,7 +63,7 @@ ms.locfileid: "6727213"
 
 ## <a name="upload-a-configuration-to-the-global-repository"></a>将配置上传到全局知识库
 
-若要与组织共享新配置或派生配置，可以将其上传到全局知识库。
+若要与组织共享新配置或派生配置，可以通过执行以下步骤将其上传到全局存储库：
 
 1. 选择配置的已完成版本，然后选择 **上传到知识库中**。
 2. 选择 **全局 (Microsoft)** 选项，然后选择 **上传**。
@@ -66,9 +71,11 @@ ms.locfileid: "6727213"
     ![“上传到知识库”选项。](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. 在配置消息框中选择 **是**。 
-4. 按照需要更新版本说明，然后选择 **确定**。 
+4. 按照需要更新版本说明，然后选择 **确定**。 您还可以有选择性地将版本上传到已连接的应用程序或 GIT 存储库。  
 
-配置状态将更新为 **共享**，并将配置上传到全局知识库中。 可以在此处按照下面的方法进行处理：
+配置状态将更新为 **已共享**，并将配置上传到全局存储库中。 还创建了您上传的配置的草稿版本，如果需要后续更改，则可以使用该版本。
+
+在将配置上传到全局存储库后，您可以通过以下方式使用该配置：
 
 - 将其导入到您的 Dynamics 365 实例中。 有关详细信息，请参阅 [(ER) 从 RCS 导入配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)。
 - 与第三方或外部组织共享；请参阅 [RCS 与外部组织共享电子申报 (ER) 配置](rcs-global-repo-share-configuration.md)

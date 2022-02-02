@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749094"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966707"
 ---
 # <a name="automate-vendor-payment-proposals"></a>自动运行供应商付款方案
 
@@ -32,6 +32,9 @@ ms.locfileid: "6749094"
 - 在哪个供应商付款日记帐中保存生成的付款
 
 付款方案自动化不会自动过帐付款。 因此，您可以继续使用当前用于审核所创建付款的任何验证和工作流程。
+
+> [!NOTE]
+> 必须在功能管理中启用 **供应商付款方案自动化** 功能才能利用此功能。 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>定义供应商付款方案的执行
 

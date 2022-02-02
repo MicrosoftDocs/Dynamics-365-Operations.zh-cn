@@ -1,5 +1,5 @@
 ---
-title: 修复“找不到足够的产能”计划编制引擎错误
+title: 修复“找不到足够的产能”计划编制引擎错误和有限产能
 description: 本主题提供有关无法为生产订单 %1 计划编制的原因和解决方法的信息。 找不到足够的产能”计划编制引擎错误。
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565751"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985022"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>修复“找不到足够的产能”计划编制引擎错误
 
@@ -105,5 +105,11 @@ ms.locfileid: "7565751"
 
 1. 转到 **组织管理 \> 资源 \> 资源组**，然后选择适合不能排产的订单的资源组。
 1. 在操作窗格上 **资源组** 选项卡中 **视图** 组内，选择 **产能负荷** 或 **产能负荷，图形方式**，然后确保有可用产能。
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>关闭资源日历时主计划会预订资源
+
+使用工序计划时，主计划将根据主要资源组的日历来计划产能。 它与主要工序同时预订次要工序，并且不考虑次要工序的日历或产能。 这可能导致在已关闭日历上或在次要工序不可用（日历已关闭，无产能）时计划生产订单。
+
+在使用作业计划时，主计划将在计划订单时同时考虑主要工序和次要工序的产能和日历。 要计划订单，这两个工序的资源的日历都必须为“开启”且具有可用产能。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

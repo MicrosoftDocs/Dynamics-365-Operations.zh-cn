@@ -3,23 +3,22 @@ title: Dynamics 365 Commerce 和 Microsoft Teams 集成概览
 description: 本主题介绍了 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成的概览。
 author: gvrmohanreddy
 ms.date: 03/31/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38235c237f4311a9616f88b56f1503935b25b251d1c2d35d4392418e8c1a357b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39de59d182fd6f4cb1616a47a09b44cd249f2187
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714008"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984187"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce 和 Microsoft Teams 集成概览
 

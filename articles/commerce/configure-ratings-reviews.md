@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473541"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968094"
 ---
 # <a name="configure-ratings-and-reviews"></a>配置评分和评价
 
@@ -87,9 +87,17 @@ ms.locfileid: "7473541"
 
 [管理评分和评价](manage-reviews.md)
 
-[配置产品详细信息页中的评分和评论模块](ratings-reviews-modules.md)
-
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
+
+[评分和评价常见问题解答](ratings-reviews-faq.md)
+
+[评分和评价模块](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

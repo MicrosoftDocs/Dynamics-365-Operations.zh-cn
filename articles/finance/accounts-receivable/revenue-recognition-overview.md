@@ -3,23 +3,22 @@ title: 收入确认概览（包含视频）
 description: 本主题提供有关收入确认功能的信息。 此功能提供了灵活框架，供您定义特定于公司的多元素订单收入价格和收入计划确认规则。
 author: kweekley
 ms.date: 11/11/2019
-ms.topic: index-page
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c027b3edb12c34c2373c58a5aa7e39cfbff39045
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937574"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982579"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -39,7 +38,7 @@ ms.locfileid: "7937574"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo) 视频（如上所示）包括在 YouTube 上提供的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) 中。
+[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 收入确认功能提供了灵活框架，供您定义特定于公司的收入价格和收入计划确认规则。
 

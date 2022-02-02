@@ -3,23 +3,22 @@ title: 返点管理模块概述
 description: 本主题提供 Microsoft Dynamics 365 Supply Chain Management 的返点管理模块的概述。
 author: sherry-zheng
 ms.date: 02/19/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6b986128961a77ba641cf4642c99578484b28e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573505"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985488"
 ---
 # <a name="rebate-management-module-overview"></a>返点管理模块概述
 

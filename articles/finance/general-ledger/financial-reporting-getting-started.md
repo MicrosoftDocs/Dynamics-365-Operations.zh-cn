@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486962"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983969"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用财务报告 
 
@@ -148,7 +146,7 @@ ms.locfileid: "7486962"
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>通过流式方法更新 Financial reporting 版本
 
-Finance and Operations 应用每月更新。 但是，Financial reporting 不一定按这种节奏更新。 而且，客户在为 Finance and Operations 应用实施更新方面有更多选择。 Financial reporting 更新会自动安装。 Financial reporting 具有一个指定版本，可以在实施服务更新、启动停机或客户环境处于维护模式时在客户环境中使用。 此过程称为 *流式* 或 *调整*，因为所有客户实施都将设置为 Financial reporting 的相同版本。
+Finance and Operations 应用每月都会更新。 但是，Financial reporting 不一定按这种节奏更新。 而且，客户在为 Finance and Operations 应用实施更新方面有更多选择。 Financial reporting 更新会自动安装。 Financial reporting 具有一个指定版本，可以在实施服务更新、启动停机或客户环境处于维护模式时在客户环境中使用。 此过程称为 *流式* 或 *调整*，因为所有客户实施都将设置为 Financial reporting 的相同版本。
 
 每个版本中发布的更改可以在 [Dynamics 365 Finance 新增功能或更改](../../finance/get-started/whats-new-home-page.md)中找到。 平台更新和 bug 修复可以在每个版本的页面底部的“其他资源”部分找到。
 

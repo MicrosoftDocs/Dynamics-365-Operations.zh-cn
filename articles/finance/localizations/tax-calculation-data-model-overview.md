@@ -3,7 +3,7 @@ title: 税务计算数据模型
 description: 本主题介绍税务数据模型，以及税务计算交易记录上下文如何确定各数据模型的字段值。
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864252"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985958"
 ---
 # <a name="tax-calculation-data-model"></a>税务计算数据模型
 
 本主题介绍如何在税务计算交易记录中确定税务数据模型中的字段值。
 
-*税务数据模型* 由税务计算所需字段构成。 Microsoft 提供 *税务计算数据模型*，该模型在 Finance and Operations 应用中添加交易记录单据的标题字段和子项字段。 税务计算数据模型中定义的字段是税务计算功能配置的配置中的适用性规则表可用列。
+*税务数据模型* 由税务计算所需字段构成。 Microsoft 提供 *税务计算数据模型*，该模型在 Finance and Operations 应用中添加交易单据的标题字段和子项字段。 税务计算数据模型中定义的字段是税务计算功能配置的配置中的适用性规则表可用列。
 
 > [!NOTE] 
 > 该数据模型中定义的某些节点（如 **记录 ID** 和 **表 ID**）针对技术用途。 它们不是税务计算功能配置中的可用列。

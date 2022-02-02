@@ -3,24 +3,23 @@ title: 业务文档管理概览
 description: 本主题介绍有关如何使用 ER 框架的业务文档管理功能的信息。
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753068"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986243"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -28,7 +27,7 @@ ms.locfileid: "6753068"
 
 业务用户使用[电子申报 (ER)](general-electronic-reporting.md) 框架根据各个国家/地区的法律要求配置传出文档的格式。 用户也可以定义数据流，以便指定在生成的文档中放置哪些数据。 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）格式的传出文档。 将根据生成所需文档时配置的数据流使用必需数据填充模板。 可以在 ER 解决方案中发布配置的每种格式，以便生成特定传出文档。 这通过 ER 格式配置表示，其中可包含可用于生成不同传出文档的模板。 业务用户可使用此框架管理所需业务文档。
 
-**业务文档管理** 建立在 ER 框架的基础上，可供业务用户使用 Microsoft 365 服务或相应的 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
+**业务文档管理** 建立在 ER 框架的基础上，可供业务用户使用 Microsoft 365 服务或相应 Microsoft Office 桌面应用程序编辑业务文档模板。 对此类文档的编辑包括在不执行源代码更改和不进行新部署的情况下，更改业务文档设计和为更多数据添加占位符。 若要更新业务文档模板，无需了解 ER 框架。
 
 > [!NOTE]
 > 请注意，可通过业务文档管理修改用于生成订单、发票等之类业务文档的模板。修改模板和发布模板新版本之后，此版本用于生成必需的业务文档。 业务文档管理不可用于修改已生成的业务文档。
@@ -306,7 +305,7 @@ ms.locfileid: "6753068"
 
 ### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>在 Microsoft 365 中编辑模板
 
-您可以使用 Microsoft 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从 **常规** 更改为 **加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
+无法使用 Microsoft 365 修改模板。 例如，在 Office Online 中，将模板标题中的字段提示的字体从 **常规** 更改为 **加粗**。 这些更改会自动存储在主模板存储（默认情况下为 Azure blob 存储）中存储的可编辑模板中。 已为 ER 框架配置此项。
 
 ![在业务文档管理模板编辑器页面上的模板标题中将字体更改为粗体。](./media/BDM-Overview-EditingLayout2.png)
 
@@ -408,7 +407,7 @@ ms.locfileid: "6753068"
 
 此问题是一个涉及 Microsoft 365 重定向的已知问题。 首次登录 Microsoft 365 时会出现此问题。 要解决此问题，在浏览器中选择 **返回** 返回上一页。
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>我知道如何在第一个应用程序会话中通过使用 Microsoft 365 编辑模板，以及如何在第二个应用程序会话中使用模板，并调整模板来查看我的更改对生成的业务文档有何影响。 我能否以相同方式使用 Office 桌面应用程序？
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>我知道如何在第一个应用程序会话中通过使用 Microsoft 365 来编辑模板，以及如何在第二个应用程序会话中使用模板，并调整模板来查看我的更改对生成的业务文档有何影响。 我能否以相同方式使用 Office 桌面应用程序？
 
 是的，可以。 在第一个应用程序会话中，选择 **在桌面应用程序中打开**。 将把您的模板存储到临时文件存储中，并在 Office 桌面应用程序中打开。 接下来，完成以下步骤在生成的业务文档中预览模板更改：
 

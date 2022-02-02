@@ -3,23 +3,22 @@ title: 渠道概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道。
 author: samjarawan
 ms.date: 01/27/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 18805963e164e4f39a9c0109f3b3538613272a3dbcc980969471412b3640308e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc7f00d69a6fd57efcd9b6eece56ddc0702c6935
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742480"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984997"
 ---
 # <a name="channels-overview"></a>渠道概览
 

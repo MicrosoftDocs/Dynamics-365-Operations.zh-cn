@@ -3,7 +3,7 @@ title: 解决发票合计匹配期间出现的差异概览
 description: 您可以使用发票合计匹配来帮助确保发票总金额与预期金额之间的差异不会超出可接受的差异。
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a938dcc1b574361b6f0c8ed5f245b0d9443d2b50cef7153a5ed2bd9cb265d01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f15edb0423bba2a6fe01f4b3ef1ba1be4e463d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737227"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985305"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>解决发票合计匹配期间出现的差异概览
 

@@ -3,7 +3,7 @@ title: 采购订单概览
 description: 本文提供有关采购订单 (PO)，以及与采购订单所经历的各个阶段相关的其他文章的链接的一般信息。
 author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ea818432e193863d5339d78377fbc4d2a09a3e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578096"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982296"
 ---
 # <a name="purchase-order-overview"></a>采购订单概览
 

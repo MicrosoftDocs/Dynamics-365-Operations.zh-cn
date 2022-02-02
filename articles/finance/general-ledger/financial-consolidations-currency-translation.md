@@ -3,23 +3,22 @@ title: 财务合并和货币折算概览
 description: 此主题介绍总帐中的财务合并和货币折算。
 author: jiwo
 ms.date: 10/07/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
-ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
+ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7615927"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982397"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 

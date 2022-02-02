@@ -3,7 +3,7 @@ title: 客户服务解决方案概述
 description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
 ms.date: 02/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 48e3b93b7e53a47673f824d35ac95b65d8566bce
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594794"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984588"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 

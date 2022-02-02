@@ -3,24 +3,23 @@ title: 任务管理概述
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中适用于经理和工作人员的任务管理。
 author: gvrmohanreddy
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 588608241261f9a2d68221a3d6da24c0f452a0463077081425ba99b8546cd5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730771"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985385"
 ---
 # <a name="task-management-overview"></a>任务管理概览
 

@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 320e9d73ca98bf4ed22ac9bdff2fc34ae83223ec
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891404"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983153"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>在销售点 (POS) 启用客户登记通知
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
 

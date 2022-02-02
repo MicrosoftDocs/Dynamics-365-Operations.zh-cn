@@ -3,24 +3,23 @@ title: 产品详细信息页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 author: anupamar-ms
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb8535a0c03029c347d5fc6e3fe49ca556c6f7bdd22d2baa7815ced1db21a13a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760168"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986193"
 ---
 # <a name="product-details-pages-overview"></a>产品详细信息页面概览
 

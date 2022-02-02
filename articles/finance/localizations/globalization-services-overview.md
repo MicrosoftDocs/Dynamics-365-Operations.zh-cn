@@ -3,7 +3,7 @@ title: Dynamics 365 全球化服务
 description: 本主题提供 Microsoft Dynamics 365 全球化服务的概述。
 author: JaneA07
 ms.date: 04/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization, Electronic invoicing, Tax calculation
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8fa82f741471a8314d01972b3ae3393eea4fd6b47bde647bf4ecdaebfea814a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775062"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985983"
 ---
 # <a name="dynamics-365-globalization-services"></a>Dynamics 365 全球化服务
 

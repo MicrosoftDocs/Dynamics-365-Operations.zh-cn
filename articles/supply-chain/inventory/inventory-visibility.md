@@ -3,7 +3,7 @@ title: 库存可见性加载项概述
 description: 本主题介绍库存可见性的定义及其功能。
 author: yufeihuang
 ms.date: 10/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678901"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985537"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>库存可见性加载项概述
 

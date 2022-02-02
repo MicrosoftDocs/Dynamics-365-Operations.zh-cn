@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674566"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968169"
 ---
 # <a name="ratings-and-reviews-faq"></a>评分和评价常见问题解答
 
@@ -41,5 +41,17 @@ ms.locfileid: "7674566"
 [选择使用评分和评价](opt-in-ratings-reviews.md)
 
 [启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[管理评分和评价](manage-reviews.md)
+
+[配置评分和评价](configure-ratings-reviews.md)
+
+[同步产品评分](sync-product-ratings.md)
+
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
 
 [未启用评分和评价解决方案时搜索结果和类别页面中显示评分优化器](troubleshoot/hide-ratings-refiner.md)

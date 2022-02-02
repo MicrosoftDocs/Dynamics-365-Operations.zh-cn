@@ -2,8 +2,8 @@
 title: 组织和组织层次结构概览
 description: 组织层次结构表示构成您的公司的组织之间的关系。
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798338"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992074"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>组织和组织层次结构概览
 
@@ -54,7 +54,7 @@ ms.locfileid: "7798338"
 | 业务单位       | 创建来满足战略业务目标的一个半自主运营单位。 | 用于基于组织单独服务的法人的工厂或产品行的财务报表。 |
 | 价值流        | 控制一个或多个生产流的工序单位。 | 通常在控制产品或服务要求提供给客户的活动和流的精益制造中。 |
 | 部门          | 表示执行销售或记帐等特定任务的组织的类别或功能部分的运营单位。 | 用于申报功能区域。 某部分可能具有损益责任，而且可能是由一组成本中心构成的。 |
-| 商业渠道      | 应用单位表示传统实体店、在线商店或联机市场。 | 用于法人内或跨法人的一个或多个商店的管理和运营控制。 |
+| 零售渠道      | 运营单位表示传统实体店、在线商店或呼叫中心。 | 用于法人内或跨法人的一个或多个商店的管理和运营控制。 |
 
 ### <a name="teams"></a>团队
 

@@ -3,7 +3,7 @@ title: 配置应收帐款以及信用和收款
 description: 配置“应收帐款”和“信用和收款”以跟踪来自客户的发票和收入。
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70655c0eba94a5d4fd8dff5393a4b4838374d2f9916dde2b0fbb699120be345
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 744170988351bf2c0ecb04e419045056965398c0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724223"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983535"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>配置应收帐款以及信用和收款
 

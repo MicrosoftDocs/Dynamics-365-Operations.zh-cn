@@ -3,7 +3,7 @@ title: 预算控制概览
 description: 本主题介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
 author: panolte
 ms.date: 11/08/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890692"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986048"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 

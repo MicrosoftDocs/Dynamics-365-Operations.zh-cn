@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: cfcdbe76d640d1786b4622febf9157f5fb1c42f9
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752680"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969129"
 ---
 # <a name="enable-cash-flow-forecasting"></a>启用现金流预测
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何在 Finance Insights 中开启现金流预测功能。
 

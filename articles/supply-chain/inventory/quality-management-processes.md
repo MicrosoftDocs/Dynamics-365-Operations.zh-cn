@@ -3,7 +3,7 @@ title: 质量和不符合项管理概述
 description: 本主题介绍 Microsoft Dynamics 365 Supply Chain Management 中的质量和不符合项管理功能，并说明这些功能如何帮助改善供应链中的产品质量。
 author: yufeihuang
 ms.date: 03/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e61dd50eb3a91197937ab319479e398c03e0a05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568823"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985501"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>质量和不符合项管理概述
 

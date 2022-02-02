@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473421"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967995"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>选择使用评分和评价
 
@@ -58,7 +58,13 @@ ms.locfileid: "7473421"
 
 [在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)
 
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
 
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
+
+[评分和评价常见问题解答](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

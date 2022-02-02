@@ -3,7 +3,7 @@ title: 电子开票概览
 description: 本主题提供有关 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票的信息。
 author: gionoder
 ms.date: 03/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778176"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983841"
 ---
 # <a name="electronic-invoicing-overview"></a>电子开票概览
 

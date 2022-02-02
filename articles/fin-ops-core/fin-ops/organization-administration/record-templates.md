@@ -3,7 +3,7 @@ title: 记录模板概览
 description: 本文介绍记录模板的概念并说明如何使用它们创建共享信息的记录。
 author: pvillads
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4f96422c917ec48bbe422a2606ff76ae23812b5ef8e6f50aa82905e345f05c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa13e47a48b98a59766790c9a24bb04ed67007cd
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759129"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983609"
 ---
 # <a name="record-templates-overview"></a>记录模板概览
 

@@ -3,7 +3,7 @@ title: 印度从源扣缴税款 (TDS) 概述
 description: 本主题提供有关印度从源扣缴税款 (TDS) 的详细信息。 TDS 文档涵盖了此功能的功能性。
 author: kailiang
 ms.date: 03/19/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b55e6aa5f56090ca14836894e9e51232ab63dce1ef33255b8eac1170404190c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d33faaff8be4821005b8772875eb91f0afe26cb0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723764"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983895"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概述
 

@@ -3,7 +3,7 @@ title: 资产属性概述
 description: 本主题概述资产管理中的资产属性。
 author: johanhoffmann
 ms.date: 06/26/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f86f6be390bcc8bed85fae24df499569e9e9961b37e76e8b1f85ed3bc5106d44
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773577"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986452"
 ---
 # <a name="asset-attribute-overview"></a>资产属性概述
 

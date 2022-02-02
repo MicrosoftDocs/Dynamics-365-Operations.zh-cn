@@ -2,23 +2,22 @@
 title: 工程更改管理概述（包含视频）
 description: 此主题概述了工程更改管理，可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952590"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985204"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -39,9 +38,9 @@ ms.locfileid: "7952590"
 - 工作流支持的工程更改请求
 - 工作流支持的工程更改订单
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-前面的视频（[Dynamics 365 Supply Chain Management 中的更改管理功能](https://youtu.be/N313FqvRuBc)）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+前面的视频（[Dynamics 365 Supply Chain Management 中的更改管理功能](https://youtu.be/N313FqvRuBc)）包含在 YouTube 上提供的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>为系统开启工程更改管理功能
 
@@ -71,7 +70,9 @@ ms.locfileid: "7952590"
 
 1. 如果您还想使用版本维度，还要选中 **产品维度 - 版本** 复选框。 （此复选框在列表再下面，不是嵌套在 **工程更改管理** 节点下。）
 1. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
-1. 运行数据库同步以确保正确启用配置键。
+1. 必须同步数据库以确保正确启用配置键。 执行以下步骤之一，具体取决于您所使用的环境类型：
+    - **对于第 1 层（开发）环境**：在 Microsoft Visual Studio 中打开您的项目，然后选择 **Dynamics 365 \> 同步数据库 \> 同步**。
+    - **对于第 2 层（及更高）环境**：将环境置于维护模式和退出维护模式后，数据库会自动同步，因此您可以跳过此步骤。
 
 > [!IMPORTANT]
 > 从 2022 年 4 月开始，默认情况下，所有新安装的 **工程更改管理** 和 **产品维度 - 版本** 的许可证密钥都将启用，但是如果需要，您仍然可以将其禁用。

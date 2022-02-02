@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752766"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968904"
 ---
 # <a name="use-customer-payment-predictions"></a>使用客户付款预测
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何使用客户付款预测。 使用此功能之前，请确保已完成该功能的设置步骤。 有关详细信息，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。
 
@@ -89,8 +88,8 @@ ms.locfileid: "7752766"
 
 [![付款预测的准确性。](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-如果您对准确性不满意，请选择 **提高模型准确性** 链接打开 AI Builder 扩展体验。 在 AI Builder 扩展体验中，您可以选择或取消选择字段，直到选择了您认为对准确预测付款概率最重要的字段。 完成后，您可以轻松地重新训练预测模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的预测模型以进行预测。
+如果您对准确性不满意，请选择 **提高模型准确性** 链接以打开 AI Builder 扩展体验。 在 AI Builder 扩展体验中，您可以选择或取消选择字段，直到选择了您认为对准确预测付款概率最重要的字段。 完成后，您可以轻松地重新训练预测模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的预测模型以进行预测。
 
-[![AI Builder 扩展经验。](./media/ai-builder.png)](./media/ai-builder.png)
+[![AI Builder 扩展体验。](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

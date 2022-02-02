@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cd110a94991659036ac5cee1cd5f77e0cd3ba7356be902bdae37e957247535ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737522"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964773"
 ---
 # <a name="select-a-site-theme"></a>选择站点主题
 
@@ -50,8 +50,6 @@ ms.locfileid: "6737522"
 [处理 CSS 覆盖文件](css-override-files.md)
 
 [添加收藏夹图标](add-favicon.md)
-
-[添加欢迎消息](add-welcome-message.md)
 
 [添加版权声明](add-copyright-notice.md)
 

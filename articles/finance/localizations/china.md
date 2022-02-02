@@ -3,22 +3,21 @@ title: 中国概览
 description: 此主题概览中国的专有功能。
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0d6cf53cc15be2a7310852f4585349fdf692120f
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: a9a3c79c134686ce65afa7e25bd4716752594f66
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944727"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983887"
 ---
 # <a name="china-overview"></a>中国概览
 

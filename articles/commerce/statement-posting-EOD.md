@@ -13,21 +13,20 @@ ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891433"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982195"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 此主题介绍对对报单过帐功能的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 7.3.2 中提供了这些改进。
 
-## <a name="activation"></a>激活
+## <a name="activation"></a>启用
 
 默认情况下，部署 Finance and Operations 7.3.2 期间，程序设置为使用传统功能执行对帐单过帐。 若要启用改进的对帐单过帐功能，必须为其开启配置键。
 

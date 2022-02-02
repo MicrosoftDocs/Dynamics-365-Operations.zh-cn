@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473517"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967942"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 
@@ -130,6 +130,16 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 [管理评分和评价](manage-reviews.md)
 
 [配置评分和评价](configure-ratings-reviews.md)
+
+[同步产品评分](sync-product-ratings.md)
+
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
+
+[评分和评价常见问题解答](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
