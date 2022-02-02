@@ -96,8 +96,6 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23（2022 年 1 月）
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22（2021 年 11 月）
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: 已删除或弃用的功能
                   items:
                     - name: “已删除或弃用的功能”主页
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: 启用由审核员手动发布评分和评价
                   href: manual-publish-rating-reviews.md
+                - name: 导入和导出评分和评价
+                  href: import-export-reviews.md
+                - name: 配置服务到服务身份验证
+                  href: service-to-service-auth.md
                 - name: 评分和评价常见问题解答
                   href: ratings-reviews-faq.md
             - name: 管理您的库存
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: 添加收藏夹图标
                       href: add-favicon.md
-                    - name: 添加欢迎消息
-                      href: add-welcome-message.md
                     - name: 添加版权声明
                       href: add-copyright-notice.md
                     - name: 添加语言

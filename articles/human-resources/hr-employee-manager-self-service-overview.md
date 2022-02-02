@@ -3,7 +3,7 @@ title: 员工和经理自助服务概览
 description: 本文提供了“员工自助服务”和“经理自助服务”工作区的概述。
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431203"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992038"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>员工和经理自助服务概览
 
@@ -93,7 +93,7 @@ ms.locfileid: "7431203"
 
 此部分提供其他 **员工自助服务** 区域的链接，类似于 **我的职业信息** 部分。
 
-通过 **福利** 链接注册福利。 有关福利管理的详细信息，请参阅[福利概述](hr-benefits-management-overview.md)
+通过 **福利** 链接注册福利。 有关福利管理的详细信息，请参阅[福利概述](hr-benefits-management-overview.md)。
 
 在 **绩效** 下，您可以选择 **绩效日记帐** 来创建同时用于绩效目标和审核的绩效日记帐条目。 您可以选择 **发送反馈** 为组织内的其他员工提供反馈。 根据组织的设置，电子邮件可能会发送给收件人、发件人和经理。 您可以将反馈发送给组织内的所有员工。 发送反馈不受公司的限制。
 

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 7434c2ed486fe0546a746afdd2c4c4aacdcc3d5c
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
+ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817280"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8015707"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -34,7 +34,7 @@ ms.locfileid: "7817280"
 
 | 文件名 | 目的 |
 |---|---|
-| FONewParty.csv | 此文件有助于在 Finance and Operations 应用内创建新的 **当事方** 记录。 |
+| FONewParty.csv | 此文件有助于在 Finance and Operations 应用内创建新 **当事方** 记录。 |
 | ImportFONewPostalAddressLocation.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **邮政地址位置** 记录。 |
 | ImportFONewPartyPostalAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **当事方邮政地址** 记录。 |
 | ImportFONewPostalAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **邮政地址** 记录。 |
@@ -43,7 +43,7 @@ ms.locfileid: "7817280"
 本主题说明如何使用数据工厂模板和升级数据。 如果没有任何自定义项，可以按原样使用模板。 但是，如果您有 **客户**、**联系人** 和 **供应商** 数据的自定义项，则必须按照本主题中的描述修改模板。
 
 > [!IMPORTANT]
-> 如果您将运行当事方邮政地址和当事方电子地址模板，则有特殊说明。 您必须先运行当事方模板，然后运行当事方邮政地址模板，再运行当事方电子地址模板。
+> 有关于运行当事方邮政地址和当事方电子地址模板的特殊说明。 您必须先运行当事方模板，然后运行当事方邮政地址模板，再运行当事方电子地址模板。 每个模板都旨在在单独的数据工厂中导入。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -61,7 +61,7 @@ ms.locfileid: "7817280"
 + **集成密钥**：Customer Engagement 应用中的 **帐户（客户）**、**联系人** 和 **供应商** 表使用现成的集成密钥。 如果已自定义集成密钥，必须自定义模板。
 + **当事方编号：** 将升级的所有 **帐户（客户）**、**联系人** 和 **供应商** 记录都具有当事方编号。 将忽略没有当事方编号的记录。 如果要升级这些记录，请在开始升级流程之前，向其添加当事方编号。
 + **系统中断：** 在升级流程期间，您必须使 Finance and Operations 环境和 Customer Engagement 环境脱机。
-+ **快照：** 拍摄 Finance and Operations 应用和 Customer Engagement 应用的快照。 如果必须，则可以使用快照还原以前的状态。
++ **快照**：拍摄 Finance and Operations 和 Customer Engagement 应用的快照。 如果必须，则可以使用快照还原以前的状态。
 
 ## <a name="deployment"></a>部署
 
@@ -161,7 +161,7 @@ ms.locfileid: "7817280"
 
 2. 确保从 Dataverse 的 **msdy_dualwriteruntimeconfig** 表中删除地图。
 3. 从 AppSource 中安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
-4. 在 Finance and Operations 应用中，如果以下表包含数据，则针对它们运行 **初始同步**：
+4. 在 Finance and Operations 应用中，如果以下表包含数据，则针对它们运行 **初始同步**。
 
     + 称呼
     + 人员特点类型
@@ -264,7 +264,7 @@ ms.locfileid: "7817280"
 8. 将新 **当事方** 记录导入到 Finance and Operations 应用中。
 
     1. 从 Azure Blob 存储中下载 **FONewParty.csv** 文件。 路径为 **partybootstrapping/output/FONewParty.csv**。
-    2. 将 **FONewParty.csv** 文件转换为 Excel 文件，并将 Excel 文件导入到 Finance and Operations 应用中。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
+    2. 将 **FONewParty.csv** 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
 
     ![正在导入 Dataverse 当事方记录。](media/data-factory-import-party.png)
 

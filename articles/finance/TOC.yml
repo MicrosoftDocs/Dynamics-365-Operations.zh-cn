@@ -4,6 +4,30 @@
       items:
         - name: Dynamics 365 Finance 主页
           href: index.md
+        - name: 新增功能或更改
+          items:
+            - name: Finance and Operations 应用新增功能或更改
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Finance 新增功能或更改
+              items:
+                - name: “Finance 新增功能或更改”主页
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24（2 月）
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23（1 月）
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: 已删除或弃用的功能
+              items:
+                - name: “已删除或弃用的功能”主页
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Dynamics 365 Finance 中已删除或弃用的功能
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: 先前版本中已删除或弃用的功能
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: 开始使用
           items:
             - name: 服务描述
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: 配置用于本地部署的仓库
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: 新增功能或更改
-              items:
-                - name: Finance and Operations 应用新增功能或更改
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Finance 新增功能或更改
-                  items:
-                    - name: “Finance 新增功能或更改”主页
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24（2 月）
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23（1 月）
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: Finance 10.0.22（2021 年 11 月）
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: 已删除或弃用的功能
-              items:
-                - name: “已删除或弃用的功能”主页
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Dynamics 365 Finance 中已删除或弃用的功能
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: 先前版本中已删除或弃用的功能
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: 延迟发布的 AX 2012 功能
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: 创建租赁组
                   href: asset-leasing/create-lease-group.md
+                - name: 付款金额类型
+                  href: asset-leasing/Payment-amount-type.md
                 - name: 设置指数利率
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: 设置支出类型
@@ -1456,15 +1456,17 @@
                           href: localizations/set-up-tax-groups.md
                         - name: 设置物料税组
                           href: localizations/set-up-item-tax-groups.md
-                        - name: 导入和导出税金计算
+                        - name: 导入和导出税款计算
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: 设置用于主数据查找的环境
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: 将“税款计算服务”的税务设置同步到 Finance
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: 确定
                       items:
-                        - name: 税务计算数据模型
+                        - name: 税款计算数据模型
                           href: localizations/tax-calculation-data-model-overview.md
-                        - name: 销售税适用性和销售税组判定逻辑
+                        - name: 销售税适用性和销售税组确定逻辑
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                         - name: 使用税区参数进行现金折扣计算设置
                           href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
@@ -1491,7 +1493,7 @@
                         - name: 德国报告
                           items:
                             - name: 增值税申报
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: 荷兰报告
                           items:
                             - name: 增值税申报
@@ -1502,6 +1504,8 @@
                           items:
                             - name: '立即提供增值税信息 (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: 增值税申报
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: 瑞典报告
                           items:
                             - name: 增值税申报
@@ -1536,6 +1540,8 @@
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: 监管更新
               href: localizations/regulatory-updates.md
+            - name: 搜索监管更新
+              href: localizations/search-for-regulatory-updates.md
             - name: 澳大利亚
               items:
                 - name: 澳大利亚概览
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: 计算客户付款的利息和罚款
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: 为巴西设置银行帐号
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: 税金
                   items:
                     - name: 巴西税金概览
@@ -1782,6 +1790,8 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: ICMS-ST 补充和补偿流程以及 RS、SC 和 SP 状态声明
                       href: localizations/latam-bra-complement-restitution.md
+                    - name: 其他州供应商产品的 ICMS-DIF 税款计算基数更改
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: 为 IPI 税设置调整代码
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: PIS 和 COFINS 固定资产
@@ -1812,7 +1822,7 @@
               items:
                 - name: 中国概览
                   href: localizations/china.md
-                - name: 由世纪互联在中国运营的 Finance and Operations
+                - name: Finance and Operations 由世纪互联在中国运营
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: 中国式凭证类型的帐户组选择
                   href: localizations/apac-chn-account-groups-selection.md
@@ -1884,6 +1894,8 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: 增值税申报（捷克共和国）
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: 捷克内部统计
+                  href: localizations/emea-cze-intrastat.md
                 - name: 银行帐户的银行符号
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: 集团内部增值税
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: 设置付款单格式
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: 丹麦内部统计
+                  href: localizations/emea-dnk-intrastat.md
             - name: 埃及
               items:
                 - name: 埃及概览
@@ -1938,6 +1952,8 @@
                   href: localizations/emea-est-personal-info.md
                 - name: 增值税报表
                   href: localizations/emea-est-vat-statement-details.md
+                - name: 爱沙尼亚内部统计
+                  href: localizations/emea-est-intrastat.md
             - name: 欧洲
               items:
                 - name: 欧洲概览
@@ -2084,6 +2100,8 @@
                       href: localizations/emea-vat-reporting.md
                     - name: 创建和提交增值税报表
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: 供应商增值税登记簿的日期
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: 查看有关结算的交易记录
                   href: localizations/emea-transactions-settlement-form.md
                 - name: 财务原因
@@ -2872,6 +2890,8 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: 增值税报表明细
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: 拉脱维亚内部统计
+                  href: localizations/emea-lva-intrastat.md
             - name: 立陶宛
               items:
                 - name: 立陶宛概览
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: JPK-V7M 报表中特定业务场景的详细信息
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: 商业交易记录报表中的付款条款
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: 卡塔尔
               items:
                 - name: 卡塔尔概览
@@ -3354,8 +3376,10 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: 报表 340
                   href: localizations/emea-esp-report-340.md
-                - name: 申报 347 报告
+                - name: 申报 347 报表
                   href: localizations/emea-esp-declaration-347-report.md
+                - name: 增值税申报 303
+                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: 销售和采购周期
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: 特殊条目和期初单
@@ -3466,6 +3490,8 @@
           items:
             - name: Human Resources 概览
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: 基础结构版本 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: 设置 Human Resources
               items:
                 - name: 配置 Human Resources 参数
@@ -3473,7 +3499,7 @@
                 - name: 配置 Human Resources 共享参数
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: 设置 Human Resources 工作流
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: 了解日期和时间字段
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: 管理人员

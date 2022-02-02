@@ -3,24 +3,23 @@ title: 管理概述
 description: 本主题提供了用于设置、管理 Dynamics 365 Human Resources 以及对其进行故障排除的帮助主题和其他资源的列表。
 author: twheeloc
 ms.date: 08/11/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: a62fdf1936f36332a00818a1e1c706256aecafa9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393563"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984763"
 ---
 # <a name="administration-overview"></a>管理概述
 

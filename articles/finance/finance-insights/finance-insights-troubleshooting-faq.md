@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827045"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968828"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 

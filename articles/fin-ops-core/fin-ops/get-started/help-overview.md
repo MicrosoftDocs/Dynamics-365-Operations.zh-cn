@@ -3,7 +3,7 @@ title: 帮助系统（包含视频）
 description: 本主题提供 Finance and Operations 应用帮助系统的概述。
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937521"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984426"
 ---
 # <a name="help-system"></a>帮助系统
 

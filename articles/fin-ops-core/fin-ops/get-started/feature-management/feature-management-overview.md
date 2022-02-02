@@ -1,27 +1,26 @@
 ---
 title: 功能管理概览
-description: 本主题介绍功能管理功能及其用法。
+description: 本主题介绍功能管理及其用法。
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488170"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984451"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 
@@ -75,9 +74,9 @@ ms.locfileid: "7488170"
 > [!NOTE]
 > 由于将自动启用这些功能，因此您必须确定您的组织是否已准备好接受这些功能，或者是否需要更多时间。 如果需要更多时间，则可能需要暂时禁用这些功能。 请注意，通常会先在主要版本中将功能转换为 **默认打开**，然后才会定位该功能以变为 **必备** 状态。 此时，您没有用于禁用该功能的选项。 
 
-### <a name="released-features-mandatory"></a>已发布功能（必备）
+### <a name="mandatory"></a>强制
 
-**已发布** 是功能的最终状态。 它指示功能已启用，并且您无法在未与 Microsoft 联系的情况下禁用这些功能。 可选功能应在两个主要版本后成为必备功能。 作为例外，关键功能可以作为必备功能引入。
+**必备** 是功能的预期最终状态。 它指示功能已启用，并且您无法在未与 Microsoft 联系的情况下禁用这些功能。 可选功能应在两个主要版本后成为必备功能。 作为例外，关键功能可以作为必备功能引入。
 
 ## <a name="example-of-expected-feature-lifecycles"></a>预期功能生命周期的示例
 

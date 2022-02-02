@@ -3,22 +3,21 @@ title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
 ms.date: 10/21/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a7e867b2815920a68e3cd79843ba7b15ed6bb635
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675361"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7981977"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 

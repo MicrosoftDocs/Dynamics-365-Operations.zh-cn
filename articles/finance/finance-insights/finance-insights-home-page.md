@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813731"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968764"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights 主页
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance insights 提供可配置和可扩展的解决方案，以帮助您智能地预测公司的现金流，预测何时可能会收到未清应收款的付款，并生成可以帮助加快预算编制过程的预算提案。 这些功能使用智能机器学习模板，以使用您提供的数据（包括来自第三方的数据，例如来自某个局的消费者报告信息）来构建模型。 这些智能功能为制定决策提供信息，并帮助您采取行动以有效应对当前和预期的业务挑战。 您对 Finance Insights 所使用或输出的任何数据负责。
 
 > [!NOTE]
-> Finance Insights 预览版可用于美利坚合众国、加拿大、英国、欧洲、亚太、日本、澳大利亚和新西兰的部署。 Microsoft 将逐渐增加对更多地区的支持。
+> Finance Insights 可用于美利坚合众国、加拿大、英国、欧洲、亚太、日本、澳大利亚和新西兰的部署。 Microsoft 将逐渐增加对更多地区的支持。
 
 ## <a name="prerequisites"></a>先决条件
 
