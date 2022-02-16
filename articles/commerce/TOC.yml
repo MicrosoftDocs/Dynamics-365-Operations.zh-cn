@@ -92,6 +92,8 @@
                   items:
                     - name: “Commerce 新增功能或更改”主页
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.25（2022 年 4 月）
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: Commerce 10.0.24（2022 年 2 月）
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23（2022 年 1 月）
@@ -124,8 +126,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: 视频
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: 词汇表
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: 学习目录
               items:
                 - name: 学习目录主页
@@ -1936,7 +1936,9 @@
                   items:
                     - name: 创建配置以从外部 XML 文件导入数据
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
+                    - name: 在批处理模式下导入来自手动选择文件的数据
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
+                - name: 在批处理模式下配置来自 SharePoint 定位文件的数据导入
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: 导入 XML 格式的文件
                   items:
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: 应用程序更新 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: 应用程序更新 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
@@ -2384,6 +2388,8 @@
               items:
                 - name: 面向 IT 专业人员和开发人员的 Commerce
                   href: dev-itpro/dev-retail-home-page.md
+                - name: 实现 Commerce 商店技术堆栈的现代化（白皮书）
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: 设置本地开发环境
                   href: dev-itpro/setup-local-dev-env.md
             - name: 在线渠道可扩展性

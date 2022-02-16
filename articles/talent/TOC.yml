@@ -1,7 +1,9 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Dynamics 365 Talent 停用
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
-    - name: 入门
+    - name: Dynamics 365 Talent 主页
+      href: ./index.md
+    - name: 开始使用
       items:
         - name: Talent 入门
           href: talent-get-started.md

@@ -2,7 +2,7 @@
 title: 验证用于进行对帐单计算的商店交易记录
 description: 本主题将介绍 Microsoft Dynamics 365 Commerce 中用于验证商店交易记录的功能。
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924763"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087441"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>验证用于进行对帐单计算的商店交易记录
 
@@ -51,7 +51,7 @@ ms.locfileid: "7924763"
 
 下表列出了交易记录标头验证规则，在将交易记录传递到对帐单过帐之前，该规则会对这些零售交易记录标头进行检查。
 
-| 标题 | 说明 |
+| 规则 | 说明 |
 |-------|-------------|
 | 业务日期 | 此规则可验证交易记录的业务日期是否与分类帐中的启用会计期间关联。 |
 | 货币舍入 | 此规则可验证交易记录金额是否根据货币舍入规则舍入。 |
@@ -72,7 +72,7 @@ ms.locfileid: "7924763"
 
 下表列出了交易记录行验证规则，在将交易记录传递到对帐单过帐之前，该规则会对这些零售交易记录行详细信息进行检查。
 
-| 标题 | 说明 |
+| 规则 | 说明 |
 |-------|-------------|
 | 条形码 | 此规则可验证交易记录行上使用的所有物料条形码是否都存在于数据库中。 |
 | 费用行 | 此规则可验证计算的金额与费用行的免税金额的总和是否等于原始计算金额。 |

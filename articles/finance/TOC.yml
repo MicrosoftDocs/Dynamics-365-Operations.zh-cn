@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25（4 月）
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24（2 月）
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23（1 月）
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: 视频
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: 词汇表
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: 学习目录
               items:
                 - name: 学习目录主页
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: 在发票日记帐中记录供应商发票
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: 将付款应用于发票日记帐
+                  href: accounts-payable/payment-invoice-journal.md
             - name: 审核应付帐款中的发票和关键数据
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: 三向匹配政策
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: 分类帐结算
                   href: general-ledger/ledger-settlements.md
+                - name: 区分分类帐结算与年终结算
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: 期间结束关闭
               items:
                 - name: 在期间结束时关闭总帐
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: 年终活动常见问题解答
                   href: general-ledger/faq-year-end-activities.md
-            - name: 销售税
-              items:
-                - name: 销售税概览
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: 基于边际基数和计算方法的销售税率
-                  href: general-ledger/marginal-base-field.md
-                - name: 销售税支付和舍入规则
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: “源”字段中的销售税计算方法
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: 全部金额和销售税代码的间隔计算选项
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: 普通日记帐行的销售税计算
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: 计算和调整供应商发票上的销售税
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: 对日记帐启用延期税金计算
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: 创建销售税支付
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: 基于自定义货币小数位的税务结算舍入
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: 在单据中创建销售税交易记录
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: 设置销售税分类帐记帐组
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: 设置销售税主管机构
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: 设置销售税代码
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: 设置销售税组和物料销售税组
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: 设置销售税申报代码
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: 销售税的双货币支持
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: 销售税明细（按分类帐）报表
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: 设置销售税结算期间
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: 查看已过帐的销售税交易记录
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: 按代码报告打印销售税付款
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: 销售税疑难解答
-                  items:
-                    - name: 未计算税款或税额为零
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: 税收计算绩效会影响交易记录
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: TaxTrans 中的字段值不正确
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: 未生成 TaxTrans 记录
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: 税款过帐到了凭证中的错误会计科目
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: 未生成凭证
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: 预缴税金
-              items:
-                - name: 设置预缴税金
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: 全球预缴税金
-                  items:
-                    - name: 全球预缴税金概览
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: 设置全球预缴税金
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: 购买交易记录中的预缴税金
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: 销售交易记录中的预缴税金
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: 创建预缴税金付款
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: 审计工作台
               items:
                 - name: 审计策略规则
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: 税款计算常见问题解答
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: 税款
+              items:
+                - name: 销售税
+                  items:
+                    - name: 销售税概览
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: 基于边际基数和计算方法的销售税率
+                      href: general-ledger/marginal-base-field.md
+                    - name: 销售税支付和舍入规则
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: “源”字段中的销售税计算方法
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: 全部金额和销售税代码的间隔计算选项
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: 普通日记帐行的销售税计算
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: 计算和调整供应商发票上的销售税
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: 对日记帐启用延期税金计算
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: 创建销售税支付
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: 基于自定义货币小数位的税务结算舍入
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: 在单据中创建销售税交易记录
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: 设置销售税分类帐记帐组
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: 设置销售税主管机构
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: 设置销售税代码
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: 设置销售税组和物料销售税组
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: 设置销售税申报代码
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: 销售税的双货币支持
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: 销售税明细（按分类帐）报表
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: 设置销售税结算期间
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: 查看已过帐的销售税交易记录
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: 按代码报告打印销售税付款
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: 销售税疑难解答
+                      items:
+                        - name: 未计算税款或税额为零
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: 税收计算绩效会影响交易记录
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: TaxTrans 中的字段值不正确
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: 未生成 TaxTrans 记录
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: 税款过帐到了凭证中的错误会计科目
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: 未生成凭证
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: 预缴税金
+                  items:
+                    - name: 设置预缴税金
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: 全球预缴税金
+                      items:
+                        - name: 全球预缴税金概览
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: 设置全球预缴税金
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: 购买交易记录中的预缴税金
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: 销售交易记录中的预缴税金
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: 创建预缴税金付款
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: 监管更新
               href: localizations/regulatory-updates.md
             - name: 搜索监管更新
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: 帐户活动报表
                       href: localizations/rus-account-activity-reports.md
+                    - name: 联邦会计准则 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: 启用电子报告目标以存储俄罗斯会计单据
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: 预付款持有人
                   items:
                     - name: 俄罗斯预付款持有人概览
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: 工作服/特殊设备会计（俄罗斯）
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: 将固定资产与资产管理模块进行集成
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: 应付帐款和应收帐款
                   items:
                     - name: 贷方通知单更正（俄罗斯）
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: 佣金销售
                           href: localizations/rus-sales-on-commission.md
+                    - name: 应收帐款和应付帐款中的本地报表和主要窗体
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: 库存
                   items:
                     - name: 来自供应商的在途货物
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: 设置供应商进行 1099 申报
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Human Resources 概览
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: 基础结构版本 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: 设置 Human Resources
-              items:
-                - name: 配置 Human Resources 参数
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: 配置 Human Resources 共享参数
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: 设置 Human Resources 工作流
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: 了解日期和时间字段
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: 管理人员
-              items:
-                - name: 组织您的劳动力
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: 设置作业组件
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: 定义部门
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: 将部门添加到层次结构
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: 定义作业
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: 创建工作时间日历
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: 人事行动常见问题解答
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: 使用工作流管理员工信息
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: 修改职位的报告关系
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: 输入工作人员信息
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: 向工作人员借出物品
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: 创建借出物品
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: 管理借出物品
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: 制订继任计划
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: 输入项目工时单
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: 大批雇用项目
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: 创建大批雇用项目
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: 设置职位
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: 设置伤害和疾病信息
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: 维护员工伤害和疾病信息
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: 招聘应聘者
-              items:
-                - name: 管理招聘流程
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: 大批雇用项目
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: 创建大批雇用项目
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: 手动输入申请人和申请表数据
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: 制订和开放工作申请
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: 设置职位
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: 通过招聘雇用应聘者
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: 通过招聘雇用现有员工
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: 确定和部署应聘者选择工具
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: 设置薪酬计划
-              items:
-                - name: 薪酬计划概览
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: 设置薪酬网格
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: 制订薪酬结构和计划
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: 创建固定薪酬计划
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: 创建可变薪酬计划
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: 在固定薪酬计划中登记员工
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: 在可变薪酬计划中登记员工
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: 定义薪酬流程并计算结果
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: 处理薪酬计划
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: 管理福利
-              items:
-                - name: 定义和管理福利计划
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: 福利资格政策
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: 福利资格处理
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: 定义福利资格规则和策略
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: 交付员工福利计划
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: 创建新福利
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: 在福利中登记工作人员
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: 管理福利到期日期
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: 生成 ACA 报表
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: 培养员工
-              items:
-                - name: 绩效管理概览
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: 调整劳动力技能
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: 添加到您的绩效日记帐
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: 创建目标
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: 创建绩效审核
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: 创建课程
-              items:
-                - name: 设置培训课程
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: 调查表概览
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: 设计调查表
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: 分发和计划调查表
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: 使用计划分发调查表
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: 查看调查表结果
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: 分析调查表结果
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: 创建开放式问题
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: 创建封闭式问题
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: 创建相关问题
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: 工作场所安全和合规（美国）
-              items:
-                - name: I-9 表格验证
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: 使用 I-9 表格验证雇用资格
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: 设置 I-9 表格文档类型
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: 符合《美国残疾人法案》
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: 管理工作人员便利设施
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: 报告和 Power BI 集成
           items:
             - name: 利用 Power BI 进行报告和分析
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,7 +4043,9 @@
                   items:
                     - name: 创建配置以从外部 XML 文件导入数据
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
+                    - name: 在批处理模式下导入来自手动选择文件的数据
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
+                - name: 在批处理模式下配置来自 SharePoint 定位文件的数据导入
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: 导入 XML 格式的文件
                   items:
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: 运行报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用 GROUPBY 数据源对记录进行分组并执行盘点和合计
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 使用生成的输出作为数据源执行盘点和合计
                       items:
                         - name: 创建格式
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: 应用程序更新 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: 应用程序更新 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
@@ -4759,3 +4617,5 @@
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

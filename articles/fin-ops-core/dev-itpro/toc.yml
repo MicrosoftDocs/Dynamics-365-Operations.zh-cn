@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.25 的平台更新（2022 年 4 月）
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: 针对版本 10.0.24 的平台更新（2022 年 2 月）
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: 针对版本 10.0.23 的平台更新（2022 年 1 月）
@@ -426,10 +428,12 @@
               items:
                 - name: 创建模型的可部署包
                   href: deployment/create-apply-deployable-package.md
-                - name: 安装来自命令行的可部署包
+                - name: 通过命令行安装可部署包
                   href: deployment/install-deployable-package.md
                 - name: 卸载包
                   href: deployment/uninstall-deployable-package.md
+                - name: 运行具有零故障时间的自定义 X++ 脚本
+                  href: deployment/run-custom-scripts.md
                 - name: 解决包应用程序问题
                   href: deployment/deployable-package-troubleshooting.md
             - name: 部署自定义帮助
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: 使用类和方法属性的 SysTest 筛选
                   href: perf-test/systest-filtering.md
+                - name: 用于测试多个值的 SysTestRow 属性
+                  href: perf-test/systest-row.md
                 - name: 接受度测试库
                   items:
                     - name: 接受度测试库资源
