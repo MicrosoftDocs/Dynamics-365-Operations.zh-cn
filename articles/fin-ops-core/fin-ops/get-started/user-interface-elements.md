@@ -12,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2c50fadb38f3c6e20c72288b2c1e23278c10119250a0d0fcde643307cbaf7f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745056"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069315"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题介绍应用程序中使用的用户界面 (UI) 元素。 浏览界面之前，务必了解构成界面的元素的名称和功能。
 

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a90daf02862b9c6e5415999a491d54d841d8f5f9a236b9cc472112145c50e6d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1249b29031c3c7b7eb8bcbeee91895d1085b9bd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739266"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066110"
 ---
 # <a name="generate-payroll-entities"></a>生成工资单实体
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 使用此 OData 函数以生成工资单集成所需的实体。 如果在 Human Resources 中对这些实体进行了任何更改（例如添加自定义字段），则可以再次调用此函数以刷新每个实体的元数据。 响应中包含您可以监视的操作 ID，以便您知道生成流程何时完成。
 

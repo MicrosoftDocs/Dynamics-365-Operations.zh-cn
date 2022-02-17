@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a01e172f5c62b746f4733e03d25ea43f0247790003ea1a1470bc28e98db12deb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741397"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061376"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources 2020 年 9 月 26 日中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -39,7 +39,7 @@ ms.locfileid: "6741397"
 
 此发布通常提供以下功能：
 
-- **平台更新 10.0.13 现在可用**：有关更新的详细信息，请参阅[针对 Finance and Operations 应用（2020 年 10 月）的版本 10.0.13 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)。
+- **平台更新 10.0.13 现在可用**：有关更新的详细信息，请参阅[针对财务和运营应用（2020 年 10 月）的版本 10.0.13 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964698"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075442"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>手动输入申请人和申请表数据
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> 本主题中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
+
 
 此过程显示如何手动维护申请人及其申请表的信息。 您可以输入和维护个人信息、面试日期和时间、推荐人、能力和申请人的住宿请求。 您还可以更新申请人的工作申请状态，以及写信或发送电子邮件与申请人沟通。 在您创建申请人记录时，在全球通讯簿中创建该申请人的人员记录。 创建此过程时使用的是 **USMF** 演示数据格式。
 

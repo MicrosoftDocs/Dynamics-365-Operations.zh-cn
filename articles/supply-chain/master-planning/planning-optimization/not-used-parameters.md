@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728947"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087491"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
@@ -160,6 +160,10 @@ ms.locfileid: "7728947"
   - **将计算延迟添加到需求日期**（在 **计划生产订单** 部分中）– 待定 *计算延迟* 支持。
   - **将计算延迟添加到需求日期**（在 **计划转移** 部分中）– 待定 *计算延迟* 支持。
   - **将计算延迟添加到需求日期**（在 **计划看板** 部分中）– 待定 *计算延迟* 支持。
+
+- **操作消息** 快速选项卡：
+
+  - **将延迟的日期更新为需求日期** - 此参数在计划优化中已终止使用。
 
 - **先后顺序** 快速选项卡：
 

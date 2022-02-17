@@ -1,5 +1,5 @@
 ---
-title: 集成的供应商主数据
+title: 集成供应商主控
 description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间的供应商数据集成。
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782469"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063154"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 术语 *供应商* 是指为企业提供商品或服务的供应商组织或独立经营者。 尽管 *供应商* 是 Microsoft Dynamics 365 Supply Chain Management 中的一个熟悉的概念，但客户互动应用中不存在供应商这个概念。 但是，您可以重载 **客户/联系人** 表来存储供应商信息。 集成的供应商主数据在客户互动应用中引入了明确的供应商概念。 您可以使用新的供应商设计，也可以将供应商数据存储在 **客户/联系人** 表中。 双写入同时支持这两种方法。
 
@@ -37,7 +37,7 @@ ms.locfileid: "7782469"
 ![扩展供应商数据流。](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> 如果您正在使用自助服务供应商的 Power Apps 门户，供应商信息可以直接流向 Finance and Operations 应用。
+> 如果您正在使用自助服务供应商的 Power Apps 门户，供应商信息可以直接流向财务和运营应用。
 
 ## <a name="templates"></a>模板
 

@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345290"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068836"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> 此时，制造执行工作负荷在预览状态下可用。
+> [!IMPORTANT]
+> 制造执行工作负荷目前仅在预览状态下可用。
+>
 > 当使用工作负荷缩放单元时，公开预览版中不完全支持某些业务功能。
+>
+> 您不能在同时安装了仓库执行工作负荷的缩放单元上运行预览制造执行工作负荷。
 
 在制造执行中，缩放单元提供以下功能：
 
@@ -128,6 +131,22 @@ This section describes how to enable the abilities to report as finished and the
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>在缩放单元上启用和使用启动操作
+
+在当前版本中，生产和批次订单的启动操作受[仓库执行工作负荷](cloud-edge-workload-warehousing.md)（不是制造执行工作负荷）支持。 因此，若要在连接到缩放单元时使用此功能，您必须完成这些任务：
+
+- 在您的缩放单元上同时安装仓库执行工作负荷和制造执行工作负荷。
+- 在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用 *对云和边缘缩放单元的仓库管理工作负荷启动生产订单* 功能。
+- 使用 Warehouse Management 移动应用启动生产或批次订单。
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>在缩放单元上启用和使用物料消耗量
+
+在当前版本中，Warehouse Management 移动应用中用于登记物料消耗量的流受[仓库执行工作负荷](cloud-edge-workload-warehousing.md)（而不是制造执行工作负荷）支持。 因此，若要在连接到缩放单元时使用此功能，您必须完成这些任务：
+
+- 在您的缩放单元上同时安装仓库执行工作负荷和制造执行工作负荷。
+- 在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用 *使用移动应用登记缩放单元中的物料消耗量* 功能。
+- 使用 Warehouse Management 移动应用登记物料消耗量。
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

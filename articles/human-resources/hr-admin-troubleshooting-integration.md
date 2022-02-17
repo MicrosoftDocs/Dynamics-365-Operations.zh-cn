@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413360"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071102"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主题回答有关在 Dynamics 365 Human Resources 与 Dynamics 365 Finance 集成时同步的数据的常见问题。
 
@@ -86,7 +89,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>我可以设置双向集成吗？
 
-否，目前集成是单向的（Human Resources 到 Finance and Operations）。 不过，提供了默认模板将数据从 Human Resources 发送到 Finance。
+否，集成现在是单向的（Human Resources 到财务和运营）。 不过，提供了默认模板将数据从 Human Resources 发送到 Finance。
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>我在集成时可以允许删除记录吗？
 

@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576896"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062944"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>为生产中的工作人员提供混合现实指南
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 生产流程中的工作人员将从在其工作范围内在适当时间提供的相关说明中受益。 *说明* 适用于多个工作领域，包括：装配、服务、工序、认证和安全。 在所有这些核心业务功能中，持续进行的培训说明可以帮助员工实现更多目标，更好地进行工作。
 

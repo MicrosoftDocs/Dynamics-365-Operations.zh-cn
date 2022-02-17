@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738141"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087362"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -138,7 +138,6 @@ ms.locfileid: "6738141"
 - 启用变量的实际称重产品不能与此功能一起用于转换不同的度量单位。
 - 实际称重产品不能标记为商业“产品配套件”。
 - 实际称重产品只能与具有实际称重处理单位且将实际称重单位作为最低序列的单位序列组一起使用。
-- 对于实际称重产品，只有当转换生成大于 1 的标准数量时，库存单位才可以转换为实际称重单位。
 - 实际称重产品的条码设置不支持可变重量设置。
 
 ### <a name="order-processing"></a>订单处理

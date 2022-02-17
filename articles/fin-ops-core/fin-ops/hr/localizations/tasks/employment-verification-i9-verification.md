@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea77f112413a5b7d5c96768ad46fdb361023bd84
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964875"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065673"
 ---
 # <a name="employment-verification-i9-verification"></a>雇用验证 i9 验证
 
 [!include [banner](../../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
 
 《移民改革和控制法案》要求美国雇主验证新雇用员工的雇用资格状态。 此过程将向您介绍记录 I-9 验证所需文件的步骤。 此过程使用 USMF 公司演示。
 

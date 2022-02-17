@@ -2,7 +2,7 @@
 title: 创建电子商务站点
 description: 本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 author: bicyclingfool
-ms.date: 07/02/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60fea46da2d1ac9b319ed0a7b832809da70baa6eb8ae22319321200fb938c70e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737620"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090761"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 
@@ -48,8 +48,15 @@ ms.locfileid: "6737620"
 | 域                              | 选择将充当此在线商店的域的域名。 如果尚未在 LCS 中配置任何域，可将此字段保留为空。 在 LCS 中配置域之后，必须在 **站点设置** 中将其添加到您的在线商店。  |
 | 路径                              | 如果您的站点支持对给定域名使用多种语言，请使用路径字段为该域和语言的组合创建唯一站点。 如果在 **默认语言** 中指定的语言是此域将支持的唯一语言，或将在将站点本地化为更多语言后继续充当默认语言，建议您将此字段保留为空。 |
 
-
 创建站点之后，可通过选择 **产品** 选项卡将其与在线商店关联。应该可以查看已经分配给在线商店的产品的分类。 还可以使用页面左上角的下拉菜单按类别访问分配的产品。
+
+## <a name="rename-your-site"></a>重命名您的站点
+
+要在站点构建器中重命名您的站点，请按照以下步骤操作。
+
+1. 要打开站点列表视图，在右上角选择 **站点切换器**，然后选择 **管理站点**。 
+1. 选中要重命名的站点旁边的复选框，然后在命令栏上选择 **重命名**。
+1. 在 **新建站点名称** 对话框中，输入新站点名称，然后选择 **确定**。 站点列表将更新，显示站点的新名称。
 
 ## <a name="additional-resources"></a>其他资源
 

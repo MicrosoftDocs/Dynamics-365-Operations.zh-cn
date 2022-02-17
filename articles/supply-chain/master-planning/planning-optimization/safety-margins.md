@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774841"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074959"
 ---
 # <a name="safety-margins"></a>安全宽限期
 
@@ -61,9 +61,6 @@ ms.locfileid: "6774841"
 
 ### <a name="reorder-margin"></a>再订购宽限期
 
-> [!NOTE]
-> **即将推出：** 计划优化尚不支持此功能。 在支持之前，将把为 **再订购宽限期添加到物料提前期** 输入的所有值视为 *0*（零）。
-
 下图突出显示了再订购宽限期。
 
 ![再订购宽限期。](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ ms.locfileid: "6774841"
 再订购宽限期在主计划期间所有计划订单的物料提前期之前添加。 因此，确保了为下达供应订单提供额外时间。 此宽限期通常用作缓冲来确保为创建供应订单期间所需审批流程或其他内部流程提供时间。 再订购宽限期介于供应 *订单日期* 和 *开始日期* 之间。
 
 ### <a name="issue-margin"></a>发货宽限期
-
-> [!NOTE]
-> **即将推出：** 计划优化尚不支持此功能。 在支持之前，将把为 **从要求日期扣除的发货宽限期** 输入的所有值视为 *0*（零）。
 
 下图突出显示了发货宽限期。
 

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 48070628aafd7daac65327a484c87dc01ffb3954
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781682"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063281"
 ---
 # <a name="integrated-customer-master"></a>集成客户主数据
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 可以在多个 Dynamics 365 应用程序中掌管客户数据。 例如，客户行可以源自 Dynamics 365 Sales（Customer Engagement 应用）中的销售活动，或者行可以源自 Dynamics 365 Commerce（Finance and Operations 应用）中的零售活动。 无论客户数据源自何处，它都在后台集成。 集成的客户主数据使您可以灵活地在任何 Dynamics 365 应用程序中掌管客户数据，并在整个 Dynamics 365 应用程序套件中提供客户的全面概览。
 
@@ -32,7 +32,7 @@ ms.locfileid: "7781682"
 
 客户可以大致分为两类：商业/组织客户和消费者/最终用户。 这两种类型的客户存储在 Finance and Operations 和 Dataverse 中并以不同方式处理。
 
-在 Finance and Operations 中，商业/组织客户和消费者/最终用户在名为 **CustTable** (CustCustomerV3Entity) 的一个表中主控，并根据 **类型** 属性分类。 （如果 **类型** 设置为 **组织**，则客户为商业/组织客户，如果 **类型** 设置为 **个人**，则客户为消费者/最终用户。）主联系人信息通过 SMMContactPersonEntity 表处理。
+在财务和运营中，商业/组织客户和消费者/最终用户在名为 **CustTable** (CustCustomerV3Entity) 的一个表中主控，并根据 **类型** 属性分类。 （如果 **类型** 设置为 **组织**，则客户为商业/组织客户，如果 **类型** 设置为 **个人**，则客户为消费者/最终用户。）主联系人信息通过 SMMContactPersonEntity 表处理。
 
 在 Dataverse 中，商业/组织客户在客户表中主控，并在 **RelationshipType** 属性设置为 **客户** 时标识为客户。 消费者/最终用户和联系人均通过联系人表表示。 为了提供客户/最终用户与联系人之间的清晰界限，**联系人** 表有一个布尔值标记，名称为 **Sellable**。 如果 **Sellable** 为 **True**，则联系人为消费者/最终用户，可以为该联系人创建报价单和订单。 如果 **Sellable** 为 **False**，则联系人只是客户的主要联系人。
 

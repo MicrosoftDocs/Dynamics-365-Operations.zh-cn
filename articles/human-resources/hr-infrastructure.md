@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec6d47c44136f7a105a702358370dd676d9339c1
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018340"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024559"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources 基础结构合并 - 版本 10.0.25 更新
 
@@ -53,7 +53,7 @@ ms.locfileid: "8018340"
     | 打印绩效审核 | 您可以打印 PDF 格式的绩效考核。 | 正式发布 | 
     | **经理自助服务** 中的自定义链接 | 您可以创建 **经理自助服务** 的 **相关链接** 部分中显示的自定义链接。 | 正式发布 | 
     | 跨公司薪酬视图 | 用户可以在 **经理自助服务** 中查看所有法人的薪酬计划，而无需切换公司。 | 正式发布 | 
-    | 按工作配置多个薪酬级别\*&dagger; | 工作现在支持多种薪酬级别。 | 正式发布 | 
+    | 按工作配置多个薪酬级别\*&dagger; | 工作现在支持多种薪酬级别。 | 预览版 | 
     | 任务管理\* | 您可以创建入职、离职和调动流程的核对清单和任务。 | 预览版 | 
     | 简化了员工输入 | 此功能在现有 **工作人员** 页面上提供更新的用户体验。 | 预览版 | 
     | 人力资源用户体验增强 | 查看下一节中的表。  | 预览版 | 

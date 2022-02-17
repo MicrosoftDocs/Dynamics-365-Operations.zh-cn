@@ -4,18 +4,19 @@ description: 本主题提供有关制造和仓库管理工作负荷的 Cloud Sca
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733431"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065756"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 
@@ -51,8 +52,7 @@ ms.locfileid: "7733431"
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用仓库管理工作负荷功能
 
-仓库管理工作负荷使您能够在孤立部署下运行仓库管理流程。
-有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](cloud-edge-workload-warehousing.md)。
+仓库管理工作负荷是第一个分发的工作负荷，帮助缩放单元正式发布。 它使您的仓库工序能够使用独立的维护时段在可复原的环境中扩展和运行。 仓库管理工作负荷支持大多数企业中心仓库管理流程。 有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](cloud-edge-workload-warehousing.md)。
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用制造执行工作负荷功能
 

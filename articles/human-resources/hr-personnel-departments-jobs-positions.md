@@ -2,7 +2,7 @@
 title: 使用部门、工作和职位组织您的员工
 description: 本主题介绍有关部门、工作和职位的概念信息，这些是在人力资源中维护的组织元素。
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731800"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071420"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,30 +51,16 @@ ms.locfileid: "7731800"
 
 ## <a name="jobs-and-positions"></a>作业和职位
 作业是执行作业的人员需要承担的任务和责任的集合。 位置是工作的单个实例。 作业所需的职责范围、作业任务、工作职能、技能、教育信息和证书也是与作业关联职位所需的。
+
 ### <a name="job-tasks"></a>作业任务
+
 您可以创建描述基本任务的作业任务，位于针对该作业的职位的工作人员必须完成该任务。 同一作业任务可以添加到多个作业，而针对这些作业的职位将继承这些作业任务。 下表中列出了一些工作任务示例。
 
-<table>
-<thead>
-<tr class="header">
-<th>作业</th>
-<th>作业任务</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>销售经理</td>
-<td><ul>
-<li><span class="input">Perf-review</span> – 查看每个销售人员的作业绩效。</li>
-<li><span class="input">Abs-review</span> – 批准或拒绝每个销售人员的缺勤请求或登记。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>会计师</td>
-<td><span class="input">FIN-Report</span> – 向首席财务官呈交每周财务报表。</td>
-</tr>
-</tbody>
-</table>
+| 作业           | 作业任务                                                |
+|---------------|-------------------------------------------------------------|
+| 销售经理 | Perf-review – 查看每个销售人员的作业绩效。    |
+| 会计师    | Abs-review – 批准或拒绝每个销售人员的缺勤请求或登记。 |
+
 
 ### <a name="job-functions"></a>工作职能
 

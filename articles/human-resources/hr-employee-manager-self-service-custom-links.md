@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431176"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071396"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>在经理自助服务中创建自定义链接
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,11 +39,11 @@ ms.locfileid: "7431176"
 
 1. 在 **Human Resources 参数** 中，选择 **经理自助服务**。
 
-2. 在 **为经理设置链接** 下，您可以添加、编辑或删除链接。 您也可以将链接分组在一起，以便它们在经理自助服务中成组显示。
+2. 在 **为经理设置链接** 下，您可以添加、编辑或删除链接。 您也可以将链接分组在一起，以便它们在 **经理自助服务** 中成组显示。
 
    ![在经理自助服务中设置自定义链接。](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. 若要查看链接，请转到员工自助服务中的 **我的团队** 选项卡。
+3. 若要查看链接，请转到 **员工自助服务** 中的 **我的团队** 选项卡。
 
    ![在经理自助服务中查看自定义链接。](./media/hr-employee-manager-self-service-custom-links-view.png)
 

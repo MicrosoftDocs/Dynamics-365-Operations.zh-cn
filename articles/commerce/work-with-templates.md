@@ -2,7 +2,7 @@
 title: 使用模板
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用模板。
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f9487ab7a6ea10c841708e41fb7085d4bafe0d224ec5eb28810ec34b35a0ebc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762516"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090786"
 ---
 # <a name="work-with-templates"></a>使用模板
 
@@ -49,7 +49,7 @@ ms.locfileid: "6762516"
 
 可使用模板编辑器修改模板。
 
-若要打开模板编辑器，请执行以下步骤之一：
+要在 Commerce 站点构建器中打开模板编辑器，请按照以下步骤之一操作：
 
 - 在站点的导航窗格中，选择 **模板**，然后选择要修改的模板。
 - 在现有页面的页面编辑器中，选择左侧大纲树中的顶级节点。 然后，在右侧属性窗格中，选择 **编辑模板**。
@@ -66,7 +66,7 @@ ms.locfileid: "6762516"
 
 ## <a name="create-a-new-template"></a>创建新模板
 
-若要创建新模板，请执行以下步骤。
+要在站点构建器中创建新模板，请执行以下步骤。
 
 1. 在站点的导航窗格中，选择 **模板** 打开模板检查器视图。
 1. 选择 **新建模板**。
@@ -85,7 +85,7 @@ ms.locfileid: "6762516"
 
 ## <a name="add-a-header-and-a-footer"></a>添加页眉和页脚
 
-如果站点已经有页眉片段，请执行以下步骤向模板添加页眉和引脚。
+如果站点已经有页眉片段，请在站点构建器中执行以下步骤向模板添加页眉和页脚。
 
 1. 在大纲树中，展开 **正文** 插槽及其子页模块。
 1. 选择 **页眉** 插槽。
@@ -98,7 +98,7 @@ ms.locfileid: "6762516"
 
 ## <a name="change-the-template-theme"></a>更改模板主题
 
-若要设置所有使用模板的页面的默认主题，请执行以下步骤。
+要设置所有使用模板的页面的默认主题，请在站点构建器中执行以下步骤。
 
 1. 在左侧的大纲树中，展开 **正文** 插槽。
 1. 在 **正文** 插槽中，选择页面容器模块（例如，**默认页**）。
@@ -110,7 +110,7 @@ ms.locfileid: "6762516"
 
 可向模板添加其中包含 JavaScript 的 HTML **&lt;script&gt;** 元素。 这样，就可以向页面的 HTML 标题、正文开始和正文结束部分提供默认脚本行为。
 
-若要向模板添加脚本，请执行以下步骤。
+要将脚本添加到站点构建器中的模板，请按照下列步骤操作。
 
 1. 在左侧的大纲树中，选择要在其中添加 **&lt;script&gt;** 元素（如 HTML 标题、正文开始或正文结束）的插槽。
 1. 选择插槽的省略号按钮，然后选择 **添加模块**。
@@ -123,7 +123,7 @@ ms.locfileid: "6762516"
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>保存，签入，预览和发布模块
 
-若要保存和签入模板，请执行以下步骤。
+要在站点构建器中保存和签入模板，请执行以下步骤。
 
 1. 选择模板编辑器顶部的 **保存**。 保存的更改在签入前，不影响下游页。
 1. 选择 **完成编辑**。 现在可为下游工作流发现更改。
@@ -138,6 +138,18 @@ ms.locfileid: "6762516"
 
 > [!WARNING]
 > 模板或其他任何内容管理系统 (CMS) 项发布后，可在 Internet 中发现。 准备好公开文档或资产之前，切勿发布这些文档或资产。 只有已经过身份验证的用户才可以发现已保存且签入，但尚未发布的文档版本。
+
+## <a name="rename-a-template"></a>重命名模板
+
+要在站点构建器中重命名现有模板，请执行以下步骤。
+
+1. 在左侧导航窗格中，选择 **模板**。
+1. 选择您想要重命名的模板的模板名称。
+1. 选择 **编辑** 开始编辑模板。 请注意，如果其他人已在编辑模板，您将无法编辑该模板。
+1. 在模板属性窗格中，选择模板名称旁边的笔符号。
+1. 根据需要编辑模板名称。
+1. 选择复选标记确认名称更改。
+1. 选择 **完成编辑**。
 
 ## <a name="additional-resources"></a>其他资源
 

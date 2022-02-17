@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c0ab67517d9efdc59f3d1b1ea9405f08dbab5c636322758cab761ecd5481681
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5f3ae95d0670369ac63e5a5d521885fe55ce8af
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755442"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070644"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

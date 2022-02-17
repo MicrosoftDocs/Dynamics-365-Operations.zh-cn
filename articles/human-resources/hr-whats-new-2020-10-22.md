@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84bcf2ce850de95186c1ffee3bdd152255fc0d5c2832e47ea61918d240bcb1c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772632"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063510"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Dynamics 365 Human Resources 2020 年 10 月 22 日中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -41,7 +41,7 @@ ms.locfileid: "6772632"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 平台更新 10.0.14(38) | -- | [针对 Finance and Operations 应用（2020 年 11 月）的版本 10.0.14 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| 平台更新 10.0.14(38) | -- | [财务和运营应用版本 10.0.14 的平台更新（2020 年 11 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | 组织和人员管理工作流体验增强 | [组织和人员管理工作流体验增强](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [用于定位“分配给我的工作项”列表的配置选项](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 

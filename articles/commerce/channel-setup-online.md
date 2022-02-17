@@ -2,7 +2,7 @@
 title: 设置在线渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714703"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092104"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
-
-## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 除了在其零售商店中购买外，在线商店还使客户可以选择从零售商的在线商店中购买产品。
 
@@ -60,6 +57,10 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 下图显示了一个在线渠道示例。
 
 ![在线渠道示例。](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>将渠道分配给 Commerce Scale Unit
+
+您的新渠道必须分配给 Commerce Scale Unit。 有关说明，请参阅[配置渠道以使用 Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit)。
 
 ## <a name="set-up-languages"></a>设置语言
 
