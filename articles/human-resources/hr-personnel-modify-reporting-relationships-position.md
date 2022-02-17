@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db15394bf4bcd1b56781d269ad81aa1ad20b5e69
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728801"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066617"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>修改职位的报告关系
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

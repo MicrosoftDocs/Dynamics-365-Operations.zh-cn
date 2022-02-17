@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c3dd0202295136c95d5c50980f5dd6952c35629692d9752f83f70d71a899905e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ed22a56c0f15c7df3d372faf871cf3c3d9fdeb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712089"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068526"
 ---
 # <a name="benefit-plan-type-cover"></a>福利计划类型覆盖范围
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

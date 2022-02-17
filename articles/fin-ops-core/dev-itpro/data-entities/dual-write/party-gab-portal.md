@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 872b477ae73a374cd62b9e86048bfc27c84064c1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781360"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060912"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>将 Microsoft Power Apps 门户与当事方数据模型配合使用
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-[!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 双重写入应用程序业务流程解决方案版本 2.0.999.0 及更高版本包括对帐户和联系人表的当事方和全球通讯簿的数据模型更改。 这些更改允许支持高级业务方案的多对多关系。 这些更改不受门户 Web 角色支持，包括客户门户，在安装双重写入之前，这些角色是现成的或存在于您的环境中。 为了使 Web 角色按预期工作，您需要使用新的数据模型创建新 Web 角色。 
 

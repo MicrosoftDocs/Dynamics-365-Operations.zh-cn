@@ -2,7 +2,7 @@
 title: 设置薪酬网格
 description: 薪酬网格用于定义及维持固定薪酬计划的工资结构。
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483804"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071393"
 ---
 # <a name="set-up-compensation-grids"></a>设置薪酬网格
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ ms.locfileid: "7483804"
 7. 在 **调整类型** 字段中，选择一个选项。
 8. 在 **调整金额** 字段中，输入一个数值。
 9. 在列表中，找到并选择所需记录。
-10. 在列表中，找到并选择所需记录。
-11. 在列表中，找到并选择所需记录。
-12. 在列表中，找到并选择所需记录。
-13. 单击 **应用于网格**。
-14. 在列表中，找到并选择所需记录。
-15. 在列表中，找到并选择所需记录。
-16. 在列表中，找到并选择所需记录。
-17. 单击 **应用于网格**。
-18. 在列表中，找到并选择所需记录。
-19. 在列表中，找到并选择所需记录。
-20. 单击 **应用于网格**。
-21. 在列表中，找到并选择所需记录。
-22. 单击“应用于网格”。
+10. 单击 **应用于网格**。
     * 现在使用批量更改功能调整每个级别的“最小”与“最大”参考点值。 此示例将使用 50% 的点差，那么其最小参考点值将调整 -20%，而最大参考点值调整 +20%。  
-23. 在 **调整金额** 字段中，输入一个数值。
-24. 在 **参考点** 字段中，输入或选择一个值。
-25. 在列表中，标记或取消标记所有行。
-26. 单击 **应用于网格**。
-27. 在 **调整金额** 字段中，输入一个数值。
-28. 在 **参考点** 字段中，输入或选择一个值。
-29. 在列表中，标记或取消标记所有行。
-30. 单击 **应用于网格**。
+11. 在 **调整金额** 字段中，输入一个数值。
+12. 在 **参考点** 字段中，输入或选择一个值。
+13. 在列表中，标记或取消标记所有行。
+14. 单击 **应用于网格**。
+15. 在 **调整金额** 字段中，输入一个数值。
+16. 在 **参考点** 字段中，输入或选择一个值。
+17. 在列表中，标记或取消标记所有行。
+18. 单击 **应用于网格**。
 
 
 

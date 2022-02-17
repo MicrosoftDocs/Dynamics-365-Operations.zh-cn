@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 39083c8f907b05c646cbc465c883e29c62b0f423
-ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903290"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066410"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>员工使用员工自助服务选择计划（可选）
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db0d345ae5038657d7cf2d0e275dec591b78b8df5c80730944d318571b55b979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8c191db3072b1333e8b1b599c45f43b23ab9f2b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717358"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066692"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>查看休假和缺勤分析
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 06c783c1e4a2961f1445909ea03d557c0985064e
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728581"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060881"
 ---
 # <a name="understand-date-and-time-fields"></a>了解日期和时间字段
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 **日期和时间** 字段是 Microsoft Dynamics 365 Human Resources 中的基本概念。 了解如何在页面、Dataverse 和外部源中使用 **日期和时间** 数据非常重要。
 

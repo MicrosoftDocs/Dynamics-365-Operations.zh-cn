@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920290"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060993"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 本主题介绍如何在 Power Apps 中使用库存可见性应用配置库存可见性。
 
@@ -58,7 +58,7 @@ ms.locfileid: "7920290"
 
 ## <a name="data-source-configuration"></a>数据源配置
 
-各数据源表示您的数据的来源系统。 示例数据源包括 `fno`（代表“Dynamics 365 Finance and Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
+各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 Finance 和 Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
 > [!NOTE]
 > `fno` 数据源是为 Supply Chain Management 预留的。 如果您的库存可见性加载项与 Supply Chain Management 环境集成，我们建议您不要删除数据源中与 `fno` 相关的配置。

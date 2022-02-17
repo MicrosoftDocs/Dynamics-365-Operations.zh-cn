@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777929"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075291"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 
@@ -39,7 +39,6 @@ ms.locfileid: "7777929"
 | 库存和物流&nbsp;&nbsp; | [使用连接到抵销帐户的代码过帐现有库存量调整](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [库存盘点原因代码](../warehousing/reason-codes-for-counting-journals.md) |
 | 库存和物流&nbsp;&nbsp; | [销售报价引用数据导出策略](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | 选择对报价单所引用的数据的更改是否会导致这些报价单（或行）包含在下一次增量导出中。 如果您选择不包含此类报价单或行，则您的增量导出将更快地运行。<br><br>此功能会将一个名为 **在更改跟踪期间跳过销售报价参考数据** 的设置添加到 **应收帐款参数** 页面。 |
 | 库存和物流&nbsp;&nbsp; | [密封投标](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [询价的密封投标](../procurement/sealed-bidding.md) |
-| 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) |
 | 库存和物流&nbsp;&nbsp; | [库存可见性加载项中的软预留](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [库存可见性预留](../inventory/inventory-visibility-reservations.md) |
 | 库存和物流&nbsp;&nbsp; | [返点管理的扣缴和实际称重增强功能](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [使用扣缴工作台管理扣缴](../rebate-management/deduction-workbench.md )<br><br>[处理、审核和发布返点](../rebate-management/process-review-post.md)<br><br>[返点管理交易](../rebate-management/rebate-management-deals.md) |
 | 库存和物流&nbsp;&nbsp; | [仓库应用步骤说明](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [为 Warehouse Management 移动应用自定义步骤标题和说明](../warehousing/mobile-app-titles-instructions.md) |
@@ -140,7 +139,7 @@ ms.locfileid: "7777929"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.21 的平台更新（2021 年 10 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.21 的平台更新（2021 年 10 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

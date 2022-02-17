@@ -1,6 +1,6 @@
 ---
 title: 常规故障排除
-description: 本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的常规故障排除信息。
+description: 本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781166"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062330"
 ---
-# <a name="general-troubleshooting"></a>常规故障排除
+# <a name="general-troubleshooting"></a>常规疑难解答
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的常规故障排除信息。
+
+本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
@@ -44,37 +44,37 @@ ms.locfileid: "7781166"
 2. 找到 **类型名称** 列设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
 3. 双击一个项目查看完整日志，然后在 **执行** 快速选项卡上，查看 **消息块** 文本。
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>启用调试模式来解决 Finance and Operations 应用中的实时同步问题
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>启用调试模式来解决财务和运营应用中的实时同步问题
 
 **查看错误所需的角色：** 系统管理员
 
-源自 Dataverse 的双写入错误可能出现在 Finance and Operations 应用中。 要为错误启用详细日志记录，请执行以下步骤：
+源自 Dataverse 的双写入错误可能出现在财务和运营应用中。 要为错误启用详细日志记录，请执行以下步骤：
 
-1. 对于 Finance and Operations 应用中的所有项目配置，**DualWriteProjectConfiguration** 表上有一个 **IsDebugMode** 标志。
-2. 使用 Excel 加载项打开 **DualWriteProjectConfiguration**。 若要使用加载项，请在 Finance and Operations Excel 加载项中启用设计模式，并将 **DualWriteProjectConfiguration** 添加到表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+1. 对于财务和运营应用中的所有项目配置，**DualWriteProjectConfiguration** 表上有一个 **IsDebugMode** 标志。
+2. 使用 Excel 加载项打开 **DualWriteProjectConfiguration**。 若要使用加载项，请在财务和运营Excel 加载项中启用设计模式，并将 **DualWriteProjectConfiguration** 添加到表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
 3. 针对此项目将 **IsDebugMode** 设置为 **是**。
 4. 运行产生错误的方案。
 5. 详细日志存储在 **DualWriteErrorLog** 表中。
 6. 要查找表浏览器上的数据，请使用以下链接：`https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`，并根据需要替换 `999`。
 7. 在 [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe) 后重新更新，该知识库文章可用于平台更新 37 及更高版本。 如果您已安装此修复程序，则调试模式将捕获更多日志。  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>检查 Finance and Operations 应用的虚拟机上的同步错误
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>检查财务和运营应用的虚拟机上的同步错误
 
 **查看错误所需的角色：** 系统管理员
 
 1. 登录 Microsoft Dynamics Lifecycle Services (LCS)。
 2. 打开选择要对其进行双写入测试的 LCS 项目。
 3. 选择 **云托管的环境** 磁贴。
-4. 使用远程桌面登录到 Finance and Operations 应用的虚拟机 (VM)。 使用 LCS 中显示的本地帐户。
+4. 使用远程桌面登录到财务和运营应用的虚拟机 (VM)。 使用 LCS 中显示的本地帐户。
 5. 打开事件查看器。
 6. 选择 **应用程序和服务日志 \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**。
 7. 查看最近错误的列表。
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>从 Finance and Operations 应用取消链接并链接另一个 Dataverse 环境
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>从财务和运营应用取消链接和链接其他 Dataverse 环境
 
-**取消环境链接所需的角色：** Finance and Operations 应用或 Dataverse 的系统管理员。
+**取消环境链接所需的角色：** 财务和运营应用或 Dataverse 的系统管理员。
 
-1. 登录到 Finance and Operations 应用。
+1. 登录财务和运营应用。
 2. 转到 **工作区 \> 数据管理**，然后选择 **双写入** 磁贴。
 3. 选择所有正在运行的映射，然后选择 **停止**。
 4. 选择 **取消链接环境**。

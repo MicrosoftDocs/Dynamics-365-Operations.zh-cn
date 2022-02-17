@@ -2,7 +2,7 @@
 title: 设置呼叫中心渠道
 description: 本主题提供有关如何使用 Dynamics 365 Commerce 来处理呼叫中心的订单的信息。
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750640"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092424"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 
@@ -56,6 +56,9 @@ ms.locfileid: "6750640"
 此外，如果开启了 **启用订单完成** 设置，则当用户创建销售订单且处于行项录入模式时，主销售订单头上的 **来源** 字段将可用。 **来源** 字段用于在直接营销销售场景中捕获[目录源代码](/dynamics365/unified-operations/retail/call-center-catalogs)。 然后，此代码可促成特价和促销。
 
 即使关闭了 **启用订单完成** 设置，用户仍然可以为销售订单应用源代码。 但是，必须首先打开销售订单头详细信息以访问 **来源** 字段。 换言之，还需要单击几次。 同样的行为适用于发货完成和已加速的订单之类功能。 这些功能可用于呼叫中心中创建的所有订单。 但是，如果开启了 **启用订单完成** 设置，则用户在行录入视图中时，可在销售订单头中看到这些功能的配置。 无需深入到销售订单头详细信息，即可找到相应设置和字段。
+
+> [!NOTE]
+> 启用 **全渠道 Commerce 订单付款** 功能后，呼叫中心 **启用订单完成** 按钮将在 **Retail 和 Commerce \> 渠道 \> 呼叫中心** 的 **常规** 快速选项卡上在总部中隐藏。
 
 ### <a name="enable-direct-selling"></a>启用直接销售
 

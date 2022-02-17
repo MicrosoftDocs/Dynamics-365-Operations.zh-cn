@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431306"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071429"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-“薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。 此程序假设已经创建了一个可变薪酬计划，且该计划的资格规定也已经创建完成，在 **招聘能力** 字段中设置为“是”。 创建此程序的演示数据公司是 USMF。 启动该过程，请转到 **人力资源** > **工作人员** > **雇员** > **薪酬** > **可变薪酬计划招聘**。
+“薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。 此过程假设已经创建了一个可变薪酬计划，**启用登记** 字段设置为 **是**，且该计划的资格规则也已经创建完成。 创建此程序的演示数据公司是 USMF。 启动该过程，请转到 **人力资源** > **工作人员** > **员工** > **薪酬** > **可变计划登记**。
 
 1. 单击 **新建**。
 2. 在 **计划** 字段中，单击下拉按钮以打开查找。
     * 计划查找筛选后，仅显示固定薪酬计划符合资格规定的雇员。  
 3. 在列表中，单击所选行中的链接。
-4. 切换“概况”部分的扩展。
+4. 切换 **常规** 部分的扩展。
 5. 在 **生效日期** 字段中，输入日期。
 6. 单击 **保存**。
 7. 切换 **覆盖** 部分的扩展。

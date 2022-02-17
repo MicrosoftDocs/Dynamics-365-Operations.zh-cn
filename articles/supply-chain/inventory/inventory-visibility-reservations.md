@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4a85520c0911bb7eed5842b3fd5bd706009351e5
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500347"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061696"
 ---
 # <a name="inventory-visibility-reservations"></a>库存可见性预留
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 本主题介绍如何设置预留功能，以使用库存可见性创建预留，使用预留和/或取消预留指定的库存数量。
 

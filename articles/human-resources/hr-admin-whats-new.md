@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902525"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087516"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中新增或更改的功能
+# <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中的新增功能或更改
+
+> [!IMPORTANT]
+> 本主题中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.25 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

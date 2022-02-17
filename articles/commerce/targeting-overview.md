@@ -2,7 +2,7 @@
 title: 设备、市场和地理位置目标定位
 description: 本主题介绍如何使用设备、市场和地理位置信息在 Microsoft Dynamics 365 Commerce 站点生成器中创建、编辑和管理受众和目标。
 author: sushma-rao
-ms.date: 07/30/2021
+ms.date: 02/03/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985129"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090686"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>设备、市场和地理位置目标定位
 
@@ -96,6 +96,18 @@ Commerce 允许您通过连接到第三方细分提供程序来扩展可用客�
 
 > [!NOTE]
 > 受众是 Commerce 站点生成器中的站点级别概念。 您可以在多个目标中共享相同的受众。
+
+### <a name="rename-an-audience-in-site-builder"></a>在站点构建器中重命名受众
+
+要在 Commerce 站点构建器中重命名现有受众，请执行以下步骤。
+
+1. 在左侧导航窗格中，选择 **受众**。
+1. 选择您想要重命名的受众客户细分的名称。
+1. 选择 **编辑** 开始编辑受众。
+1. 在受众属性窗格中，选择受众名称旁边的笔符号。
+1. 根据需要编辑受众名称。
+1. 选择复选标记确认名称更改。
+1. 选择 **完成编辑**。
 
 ## <a name="targets"></a>目标
 

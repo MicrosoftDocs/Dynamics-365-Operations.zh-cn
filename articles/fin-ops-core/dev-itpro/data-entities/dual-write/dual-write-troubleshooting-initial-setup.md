@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781432"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061459"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
+
+本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>您无法将 Finance and Operations 应用链接到 Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>您无法将财务和运营应用链接到 Dataverse
 
-**设置双写入所需的角色：** Finance and Operations 应用和 Dataverse 中的系统管理员。
+**设置双写入所需的角色：** 财务和运营应用和 Dataverse 中的系统管理员。
 
 **设置到 Dataverse 的链接** 页面上的错误通常是由不完整的设置或权限问题引起的。 请在 **设置到 Dataverse 的链接** 页面上通过了整个运行状况检查，如下图所示。 除非整个运行状况检查通过，否则您无法链接双写入。
 
 ![成功的运行状况检查。](media/health_check.png)
 
-您必须具有 Azure AD 租户管理员凭据才能链接 Finance and Operations 和 Dataverse 环境。 链接环境后，用户可以使用其帐户凭据登录并更新现有表映射。
+您必须具有 Azure AD 租户管理员凭据才能链接财务和运营和 Dataverse 环境。 链接环境后，用户可以使用其帐户凭据登录并更新现有表映射。
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>查找可以为双写入链接的法人或公司的数量限制
 
@@ -55,7 +55,7 @@ ms.locfileid: "7781432"
 
 若要解锁客户，请从 Dataverse 内的 **cdm_company** 表中删除重复记录。 此外，如果 **cdm_company** 表具有空白名称的记录，请删除或更正这些记录。
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>在 Finance and Operations 应用中打开双重写入页面时出错
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>在财务和运营应用中打开双写入页面时出错
 
 当您尝试为双重写入链接 Dataverse 环境时，您可能会收到以下错误消息：
 
@@ -70,22 +70,22 @@ ms.locfileid: "7781432"
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + 选择 **接受** 以表示同意。 您同意在租户中安装应用（具有 `id=33976c19-1db5-4c02-810e-c243db79efde`）。
-+ Dataverse 需要此应用才能与 Finance and Operations 应用通信。
++ Dataverse 需要此应用才能与财务和运营应用通信。
 
     ![初始同步设置疑难解答。](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > 如果这不起作用，请在 Microsoft Edge 的专用模式或 Chrome 的匿名模式下启动 URL。
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>无法发现 Finance and Operations 环境
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>无法发现财务和运营环境
 
 您可能会收到以下错误消息：
 
-无法发现 *Finance and Operations 应用环境 \*\*\*.cloudax.dynamics.com。*
+*无法发现财务和运营应用环境 \*\*\*.cloudax.dynamics.com。*
 
 存在两个可能导致环境无法发现的问题：
 
-+ 用于登录的用户与 Finance and Operations 实例不在同一租户中。
-+ 一些由 Microsoft 托管的旧 Finance and Operations 实例存在发现问题。 要解决此问题，请更新 Finance and Operations 实例。 通过任何更新，将可以发现环境。
++ 用于登录的用户与财务和运营实例不在同一租户中。
++ 一些由 Microsoft 托管的旧财务和运营实例存在发现问题。 要解决此问题，请更新财务和运营实例。 通过任何更新，将可以发现环境。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

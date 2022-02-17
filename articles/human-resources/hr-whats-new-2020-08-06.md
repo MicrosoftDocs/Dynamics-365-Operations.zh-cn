@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c9cd01f5d96794cf3ed7f29a9fae21b67cd298acda36401b7f0f65d073cbbfbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761870"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062178"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3444。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
 ## <a name="platform-update-1001236-is-now-available"></a>现已推出了平台更新 10.0.12(36)
 
-有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.12（2020 年 8 月）的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md)。
+有关详细信息，请参阅[财务和运营应用版本 10.0.12 的平台更新（2020 年 8 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md)。
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>用于福利管理的数据管理框架 (DMF) 实体
  

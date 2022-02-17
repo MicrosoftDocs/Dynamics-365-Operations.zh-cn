@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781384"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063664"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题说明如何从 Microsoft Dynamics Lifecycle Services (LCS) 启用双写入。
 
@@ -53,18 +53,18 @@ ms.locfileid: "7781384"
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="链接到 Power Platform 环境。":::
 
-8. 链接完成后，将显示一个超链接。 使用此链接登录到 Finance and Operations 环境中的双写入管理区域。 从那里，您可以设置实体映射。
+8. 链接完成后，将显示一个超链接。 使用此链接登录到财务和运营环境中的双写入管理区域。 从那里，您可以设置实体映射。
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>为现有 Dataverse 环境设置双写入
 
 要为现有 Dataverse 环境设置双写入，必须创建 Microsoft [支持票证](../../lifecycle-services/lcs-support.md)。 票证必须包括：
 
-+ 您的 Finance and Operations 环境 ID。
++ 您的财务和运营环境 ID。
 + Lifecycle Services 中的环境名称。
 + 来自 Power Platform 管理中心的 Dataverse 组织 ID 或 Power Platform 环境 ID。 在您的票证中，要求 ID 是用于 Power Platform 集成的实例。
 
 > [!NOTE]
-> 不能使用 LCS 取消链接环境。 若要取消链接环境，请在 Finance and Operations 环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
+> 不能使用 LCS 取消链接环境。 若要取消链接环境，请在财务和运营环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
 
 ## <a name="linking-mismatch"></a>链接不匹配
 

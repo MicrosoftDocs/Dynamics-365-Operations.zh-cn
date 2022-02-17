@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4239b0760228699c6623ee825e08c64da5f3bb27a3b27ac8a7705e65c16b81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716583"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069213"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>“可雇用的应聘者”的查询示例
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

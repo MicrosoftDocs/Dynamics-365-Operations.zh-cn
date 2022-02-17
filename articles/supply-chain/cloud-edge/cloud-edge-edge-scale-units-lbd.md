@@ -2,7 +2,7 @@
 title: 使用 LBD 在自定义硬件上部署边缘缩放单元
 description: 本主题介绍如何使用基于本地业务数据 (LBD) 的自定义硬件和部署预配本地边缘缩放单元。
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920665"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024534"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>使用 LBD 在自定义硬件上部署边缘缩放单元
 
@@ -26,6 +26,13 @@ ms.locfileid: "7920665"
 可以通过创建本地业务数据 (LBD) [本地环境](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md)来部署边缘缩放单元，然后将其配置为在分布式混合拓扑中充当 Supply Chain Management 的缩放单元。 这通过将本地 LBD 环境与云中的 Supply Chain Management 环境关联来实现，该环境已配置作为中心。  
 
 本主题介绍如何将本地 LBD 环境设置为边缘缩放单元，然后将其与中心关联。
+
+## <a name="infrastructure-considerations"></a>基础结构注意事项
+
+边缘缩放单元在本地环境中运行，因此基础结构要求非常相似。 但是，有一些差异需要注意：
+
+- 边缘缩放单元不使用 Financial Reporting，因此它们不需要 Financial Reporting 节点。
+- 制造和仓库工作负荷不是计算密集型的，因此应考虑相应地调整 AOS 节点的计算能力。
 
 ## <a name="deployment-overview"></a>部署概述
 

@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414706"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065033"
 ---
 # <a name="choose-a-data-integration-technology"></a>选择数据集成技术
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题介绍如何与 Dynamics 365 Human Resources 管理的数据集成。 其介绍可帮助您决定哪些技术最适合您的需要的不同集成技术。
 
@@ -68,7 +71,7 @@ Dataverse 表及其关联的 API 是从 Web 应用程序、Web 服务/API 以及
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF 实体
 
-Human Resources 主要基于与 Finance and Operations 应用程序相同的平台构建，并提供[数据管理框架 (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)。 DMF 也称为数据导入导出框架 (DIXF)。 Human Resources 提供一组数据实体，可用于导入和导出 Human Resources 数据。 尽管 Dataverse 表是 Human Resources 的首选数据集成接口，但 DMF 实体在某些情况下仍然有用，例如：
+Human Resources 主要基于与财务和运营应用程序相同的平台构建，提供[数据管理框架 (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)。 DMF 也称为数据导入导出框架 (DIXF)。 Human Resources 提供一组数据实体，可用于导入和导出 Human Resources 数据。 尽管 Dataverse 表是 Human Resources 的首选数据集成接口，但 DMF 实体在某些情况下仍然有用，例如：
 
 - Dataverse 表尚不可用。
 
@@ -111,7 +114,7 @@ BYOD 主要是只读解决方案。 尽管您可以在 Azure SQL 数据库中处
 
 ### <a name="odata-enabled-entities"></a>启用 OData 的实体
 
-大多数 DMF 实体也可以通过 Human Resources 数据服务 (OData) 进行访问。 为 [Finance and Operations OData 服务](/dynamics365/unified-operations/dev-itpro/data-entities/odata)提供的文档适用于 Human Resources，但创建您自己的公开 OData 实体时除外。
+大多数 DMF 实体也可以通过 Human Resources 数据服务 (OData) 进行访问。 为[财务和运营 OData 服务](/dynamics365/unified-operations/dev-itpro/data-entities/odata)提供的文档适用于 Human Resources，但创建您自己的公开 OData 实体时除外。
 
 虽然 Dataverse 和 Dataverse 提供的 OData 实现（通过 [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))）优先于 Human Resources 数据服务，但 Human Resources 数据服务当前对于 Human Resources 数据的实体覆盖更完整。
 

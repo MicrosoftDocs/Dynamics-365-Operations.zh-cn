@@ -2,7 +2,7 @@
 title: 解决 Finance Insights 设置问题
 description: 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968828"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064858"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
@@ -92,3 +92,25 @@ Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐�
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>故障：错误，“我们未找到所选筛选器范围的任何数据。 请选择其他筛选器范围，然后重试。” 
+
+### <a name="resolution"></a>解决方法
+
+检查数据集成器设置，验证它是否按预期运行以及是否将数据从 AI Builder 插入回 Finance。  
+有关详细信息，请参阅[创建数据集成项目](../finance-insights/create-data-integrate-project.md)。
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>故障：客户付款预测训练失败，AI Builder 的错误状态为“预测应该只使用 2 个不同的结果值来训练模型。 请映射两个结果，然后重新训练”，“训练报告问题：IsNotMinRequiredDistinctNonNullValues”。
+
+### <a name="resolution"></a>解决方法
+
+此错误表示过去一年中没有足够的历史交易记录可以代表 **按时**、**逾期** 和 **严重逾期** 类别中描述的每个类别。 要解决此错误，请调整 **严重逾期** 交易记录的期间。 如果调整 **严重逾期** 交易记录的期间不能解决此错误，说明 **客户付款预测** 不是最佳解决方案，因为它需要使用每个类别的数据进行训练。
+
+有关如何调整 **按时**、**逾期** 和 **严重逾期** 类别的详细信息，请参阅[启用客户付款预测](../finance-insights/enable-cust-paymnt-prediction.md)。
+
+## <a name="symptom-model-training-failed"></a>故障：模型训练失败
+
+### <a name="resolution"></a>解决方法
+
+**现金流预测** 模型训练需要跨度超过一年且包含 100 个以上交易记录的数据。 这些交易记录必须影响包含在现金流预测设置中的流动性帐户。
+
+**客户付款预测** 需要在过去 6 到 9 个月内至少有 100 个客户发票和付款交易记录来创建预测。  

@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924863"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063254"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>分隔的双重写入应用程序业务流程包
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 以前，双重写入应用程序流程包是包含以下解决方案的单个包：
 
 - Dynamics 365 说明
 - Dynamics 365 Finance and Operations 公共定位点
-- Dynamics 365 Finance and Operations 双重写入实体映射
+- Dynamics 365 Finance and Operations 双写入实体映射
 - Dynamics 365 资产管理应用
 - Dynamics 365 资产管理
 - HCM 常用
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Dynamics 365 Finance and Operations（公共）
 - Dynamics 365 公司
 - 币种汇率
 - Field Service Common
@@ -51,7 +51,7 @@ ms.locfileid: "7924863"
 | 唯一名称                           | 显示的名称                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 公司                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations（公共） |
 | CurrencyExchangeRates                 | 币种汇率                    |
 | msdyn_DualWriteAppCoreMaps            | 双重写入应用程序核心实体映射   |
 | msdyn_DualWriteAppCoreAnchor          | 双重写入应用程序核心定位点        |

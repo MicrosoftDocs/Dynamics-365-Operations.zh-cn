@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964926"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070467"
 ---
 # <a name="enter-project-timesheets"></a>输入项目工时单
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 通过该过程，您可以利用空时间表页面创建时间表。 新时间表是以之前的时间表的信息为基础，或以 **我的收藏夹** 页上的项目和活动分配为基础。 在默认情况下，**所有时间表** 列表页显示了您在当前周期内的所有时间表。 您可以利用 **我的时间表** 页面上 **显示** 字段，按周期或项目来筛选工时单列表，或者查看代表其他工作人员创建的工时单。 创建此过程时使用的是 **USSI** 演示数据格式。
 

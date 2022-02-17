@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465165"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071426"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ ms.locfileid: "7465165"
 2. 单击 **新建**。
 3. 在 **回答组** 字段中，键入一个值。
 4. 在 **描述** 字段中，键入一个值。
-    * 每次将回答组用于问题时，使用随机功能以随机在不同订单中设置回答。  
+    * 每次将回答组用于问题时，使用 **随机** 功能以随机在不同订单中设置回答。  
 5. 单击 **回答**。
 6. 单击 **新建**。
-    * 序列号控制回答显示的顺序，除非回答组已选择“随机”。  
+    * 序列号控制回答显示的顺序，除非 **回答组** 已选择 **随机**。  
     * 可规定回答项分数，以对调查表进行评分。  
 7. 在 **分数** 字段中，输入一个数字。
     * 可以标记正确答案，以指示所选答案正确。 这可用于对调查表进行评分。  
@@ -61,8 +64,8 @@ ms.locfileid: "7465165"
 ## <a name="create-the-question"></a>创建问题
 1. 转到 **调查表** > **设计** > **问题**。
 2. 单击 **新建**。
-3. 使用“类型”字段，以将相关问题分组。
-    * 您可以选择输入类型：复选框、备选按钮或封闭式问题的组合框。  
+3. 使用 **类型** 字段，以将相关问题分组。
+    * 您可以选择输入类型：**复选框**、**备选按钮** 或封闭式问题的 **组合框**。  
 4. 在 **输入类型** 字段中，选择一个选项。
 5. 在 **回答组** 字段中，输入或选择一个值。
 6. 在 **文本** 字段中，键入一个值。

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548119"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074986"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>为外部客户创建内部公司销售订单，并为这些订单开票
 
@@ -75,5 +75,18 @@ ms.locfileid: "7548119"
 1. 选择销售订单，然后选择 **确定**。
 
 内部公司销售订单的客户发票自动过帐到法人 B 中。然后在法人 A 中自动创建和过账内部公司供应商发票。如果原始销售订单设置为直接交运，在法人 A 中为原始销售订单创建客户发票。
+
+> [!NOTE]
+> 以前，对于内部公司销售场景，如果在内部公司采购公司中配置了供应商发票工作流，内部公司销售订单将无法成功开票。 因此，必须关闭内部公司采购公司的供应商发票工作流。 
+> 
+> 此限制已在版本 10.0.25 中推出的最新功能中得到修复。 在内部公司采购公司中配置供应商发票工作流时，内部公司销售订单现在可以开票。
+> 
+> 要启用此功能，请执行以下步骤。
+>
+> 1. 选择内部公司销售法人。  
+> 2. 转到 **应付帐款 \> 客户 \> 所有客户**。
+> 3. 选择内部公司采购公司的客户。
+> 4. 转到 **常规 \> 设置 \> 内部公司**。
+> 5. 在 **采购订单策略** 选项卡上，选择 **跳过内部公司供应商发票的供应商发票工作流** 参数。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

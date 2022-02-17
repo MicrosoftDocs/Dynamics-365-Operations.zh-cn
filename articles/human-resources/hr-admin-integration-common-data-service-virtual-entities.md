@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414656"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069138"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>配置 Dataverse 虚拟表
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources 是 Microsoft Dataverse 中的虚拟数据源。 它提供 Dataverse 和 Microsoft Power Platform 中的完全创建、读取、更新和删除 (CRUD) 操作。 虚拟表的数据未存储在 Dataverse 中，但存储在应用程序数据库中。
 
@@ -119,10 +122,10 @@ Human Resources 的本地表单独生成，并在 Dataverse 的 HCM 通用解决
 
 4. 在 **解决方案运行状况中心** 中，选择应用程序页面右上角的 **高级查找** 图标。
 
-5. 在 **高级查找** 页面上的 **查找** 下拉列表中，选择 **Finance and Operations 虚拟数据源配置**。
+5. 在 **高级查找** 页面上的 **查找** 下拉列表中，选择 **财务和运营虚拟数据源配置**。
 
    > [!NOTE]
-   > 上一个设置步骤中安装虚拟表应用可能需要几分钟。 如果列表中没有 **Finance and Operations 虚拟数据源配置**，请稍等片刻，然后刷新列表。
+   > 上一个设置步骤中安装虚拟表应用可能需要几分钟。 如果列表中没有 **财务和运营虚拟数据源配置**，请稍等片刻，然后刷新列表。
 
 6. 选择 **结果**。
 

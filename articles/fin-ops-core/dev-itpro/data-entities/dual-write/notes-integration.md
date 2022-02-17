@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782348"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062767"
 ---
 # <a name="note-integration"></a>注释集成
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 在业务流程中，Microsoft Dynamics 365 用户经常会收集有关其客户的信息。 此信息记录为活动和注释。 本主题介绍双重写入过程中的注释数据集成。
 
@@ -30,7 +30,7 @@ ms.locfileid: "7782348"
 + **Dynamics 365 用户的可操作信息** – 例如，购买 Surface 设备的客户输入特殊说明，指明该设备在交付前应进行礼品包装。 这些说明是可操作信息，应由负责包装的 Contoso 员工进行处理。
 + **非可操作性信息** – 例如，客户访问了 Contoso 商店，并且在与售货员交谈期间表达了 *Halo* 游戏和游戏配件方面的兴趣。 售货员记录了此信息。 然后，产品推荐引擎使用此信息向客户提供建议。
 
-通常，可操作性信息在 Finance and Operations 应用和 Customer Engagement 应用中以 *活动* 形式被捕获。 非可操作性信息在 Finance and Operations 应用中以 *注释* 形式被捕获，在 Customer Engagement 应用中以 *批注* 形式被捕获。
+通常，可操作性信息在财务和运营应用和客户互动应用中作为 *活动* 捕获。 非可操作性信息在财务和运营应用中作为 *注释* 捕获，在客户互动应用中作为 *批注* 捕获。
 
 > [!TIP]
 > 尽管注释适用于非可操作信息，但如果您想使用它们来存储和处理可操作信息，则应用不会阻止您这么做。
@@ -39,7 +39,7 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>在 Customer Engagement 应用中创建注释
 
-要在 Customer Engagement 应用中创建注释，然后将其同步到 Finance and Operations 应用，请按照以下步骤操作。
+要在客户互动应用中创建注释，然后将其同步到财务和运营应用，请按照以下步骤操作。
 
 1. 在 Customer Engagement 应用中，打开客户的帐户记录。
 2. 在 **时间线** 窗格中，选择加号 (**+**)，然后选择 **注释** 以创建注释。
@@ -54,7 +54,7 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
     ![客户时间线上的新注释。](media/notes-ce-3.png)
 
-4. 登录到 Finance and Operations 应用，然后打开相同的客户记录。 请注意右上角的 **附件** 按钮（回形针符号）表示该记录具有附件。
+4. 登录到财务和运营应用，然后打开相同的客户记录。 请注意右上角的 **附件** 按钮（回形针符号）表示该记录具有附件。
 
     ![关于附件的通知。](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
     ![来自 Customer Engagement 应用的注释。](media/notes-ce-5.png)
 
-注释的任何更新都会在 Finance and Operations 应用和 Customer Engagement 应用之间来回同步。
+注释的任何更新都会在财务和运营应用和客户互动应用之间来回同步。
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中创建注释
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>在财务和运营应用中创建注释
 
-您还可以在 Finance and Operations 应用中创建注释，然后它将同步到 Customer Engagement 应用。
+您还可以在财务和运营应用中创建注释，然后它将同步到客户互动应用。
 
-要在 Finance and Operations 应用中创建注释，然后将其同步到 Customer Engagement 应用，请按照以下步骤操作。
+要在财务和运营应用中创建注释，然后将其同步到客户互动应用，请按照以下步骤操作。
 
-1. 在 Finance and Operations 应用中的 **附件** 页面上，选择 **新建**\>**注释**。
+1. 在财务和运营应用中，在 **附件** 页面上选择 **新建** \> **注释**。
 
-    ![在 Finance and Operations 应用中创建注释。](media/notes-fo-1.png)
+    ![在财务和运营应用中创建注释。](media/notes-fo-1.png)
 
 2. 输入标题和一组简要说明，然后选择 **保存**。
 
@@ -84,17 +84,17 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
 您可以将注释归类为内部注释或外部注释。
 
-- 在 Finance and Operations 应用的 **附件** 页上，打开注释，然后在 **限制** 字段中，选择 **内部** 或 **外部**。
+- 在财务和运营应用的 **附件** 页上，打开注释，然后在 **限制** 字段中，选择 **内部** 或 **外部**。
 
     ![限制字段。](media/notes-fo-4.png)
 
 您还可以创建 URL。
 
-1. 在 Finance and Operations 应用中的 **附件** 页面上，选择 **新建**\>**URL**。
+1. 在财务和运营应用中，在 **附件** 页面上选择 **新建** \> **URL**。
 2. 输入标题和 URL。
 3. 在 **限制** 字段中，选择 **内部** 或 **外部**。
 
-    ![在 Finance and Operations 应用中创建 URL。](media/notes-fo-5.png)
+    ![在财务和运营应用中创建 URL。](media/notes-fo-5.png)
 
 4. 选择 **保存**。
 
@@ -109,7 +109,7 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
 注释集成包括表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | Customer engagement 应用 | 说明 |
+| 财务和运营应用 | Customer engagement 应用 | Description |
 |----------------------------|-------------------------|-------------|
 | [客户附件](mapping-reference.md#230) | 批注 | 使用纯文本和 URL 来捕获客户特定信息的企业（针对组织和个人）。 |
 | [供应商单据附件](mapping-reference.md#231) | 批注 | 使用纯文本和 URL 来捕获供应商特定信息的企业（针对组织和个人）。 |

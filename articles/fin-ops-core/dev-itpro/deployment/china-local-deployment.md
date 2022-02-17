@@ -12,18 +12,18 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c7653493977c4d6aa744699748f4d42eeaef07cbe8c3c3fb5ba4e0917b836a84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 920230dd0fe05b84020f3a7ed27ee48418072ea1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726173"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061265"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 联机服务由世纪互联运营，可符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称 **世纪互联**）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
 
@@ -59,7 +59,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   从 Dynamics AX 2012 升级时，不能使用 **代码升级**。
 
-    -   **服务和支持请求** 可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
+    -   **服务和支持请求** 可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[对 21Vianet 在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
     
     -   [可扩展性请求](../extensibility/extensibility-requests.md)将不可用。
     
@@ -84,7 +84,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 ## <a name="additional-resources"></a>其他资源
 
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
+- [对 21Vianet 在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
 - [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)

@@ -2,7 +2,7 @@
 title: 添加新的站点页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725378"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090711"
 ---
 # <a name="add-a-new-site-page"></a>添加新的站点页面
 
@@ -33,11 +33,11 @@ ms.locfileid: "6725378"
 
 可为新页面使用模板或布局。 有关详细信息，请参阅[模板和布局概述](templates-layouts-overview.md)。
 
-## <a name="page-name"></a>页面名称
+## <a name="specify-the-page-name"></a>指定页面名称
 
-页面名称对于页面必须唯一。 应该具有描述性，以便您轻松找到，其他人可以知道页面的用途。 请仔细选择页面名称，因为以后不能更改。
+页面名称对于您的站点必须是唯一的，并且应该具有描述性，以便您可以轻松找到，其他人可以知道页面的用途。 您可以稍后通过编辑页面，然后在属性窗格中选择页面名称旁边的笔符号来重命名页面。
 
-## <a name="page-url"></a>页面 URL
+## <a name="specify-the-page-url"></a>指定页面 URL
 
 提供了用于为新页面输入 URL 的选项。 创建页面时，可输入将用于构成完整 URL 的字符串。 此字符串称为相对 URL 或 URL 数据域。 然后基于 URL 数据域生成完整 URL，并将新页面分配给它。 可在以后发布页面前更改 URL 数据域。 有关详细信息，请参阅[创建页面 URL](create-page-URL.md)。
 

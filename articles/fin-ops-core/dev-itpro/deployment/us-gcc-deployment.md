@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817437"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062278"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>美国政府社区云 (GCC) 中的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 选择可供合格政府和私人实体使用的 Microsoft Dynamics 365 United States (US) Government 产品。 这些实体仅限于以下类型：
 
@@ -38,9 +38,9 @@ ms.locfileid: "7817437"
 
 ## <a name="environment-deployment"></a>环境部署
 
-完成项目培训后，您可以查看[适用于 Finance and Operations 应用客户的 Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md) 中描述的其他 LCS 功能。 然后，继续进行环境部署。
+完成项目培训后，您可以查看[适用于财务和运营应用客户的 Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md) 中描述的其他 LCS 功能。 然后，继续进行环境部署。
 
-- 若要通过 LCS 部署 Microsoft 托管环境，请按照[适用于 Finance and Operations 应用客户的 Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience) 中的说明进行操作。
+- 要通过 LCS 部署 Microsoft 托管环境，请按照[适用于财务和运营应用客户的 Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience) 中的说明进行操作。
 - 对于云托管的环境，请参阅[部署和访问开发环境](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md)。 您还必须完成连接器的资源管理器培训流程，如[完成美国政府 Lifecycle Services 项目的 Azure 资源管理器入门培训流程](arm-onbarding-us-goverment.md)中所述。
 
 > [!NOTE]

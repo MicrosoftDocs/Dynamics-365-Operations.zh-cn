@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740900"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070001"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或 **匹配** 运算符时的可用过滤和查询选项。
 
@@ -119,9 +122,9 @@ ms.locfileid: "6740900"
 <td>两个连续的双引号 (<strong>""</strong>) 查找当前列没有值的行。</td>
 </tr>
 <tr>
-<td>（<span class="code">Finance and Operations 查询</span>）（连字符之间的 Finance and Operations 查询）</td>
+<td>（<span class="code">财务和运营查询</span>）（括号之间的财务和运营查询）</td>
 <td>匹配定义的查询</td>
-<td>使用 Finance and Operations 查询语言在连字符之间键入 SQL 语句格式的查询。</td>
+<td>使用财务和运营查询语言在括号之间键入 SQL 语句格式的查询。</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        这是根数据源中的一个字段和另一个数据源（对于 AII 客户页面）的字段的筛选条件语法示例</td>
 </tr>

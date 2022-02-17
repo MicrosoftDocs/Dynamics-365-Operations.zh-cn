@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944807"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076980"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>波兰会计打印机整合示例的部署准则（旧版）
 
@@ -116,7 +116,7 @@ Retail SDK 中包含 Hardware Station 扩展组件。 若要完成以下过程�
 
 ## <a name="design-of-extensions"></a>扩展设计
 
-波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)。 有关会计整合解决方案设计的详细信息，请参阅 [会计整合示例设计概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
+波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)。 有关会计整合解决方案设计的详细信息，请参阅 [会计整合示例设计概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)。
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime 扩展设计
 
@@ -124,7 +124,7 @@ Retail SDK 中包含 Hardware Station 扩展组件。 若要完成以下过程�
 
 CRT 扩展为 **Runtime.Extensions.DocumentProvider.PosnetSample**。 此扩展以 POSNET 规格 19-3678 定义的 JavaScript 对象表示法 (JSON) 格式生成一组特定于打印机的命令。
 
-有关会计整合解决方案设计的详细信息，请参阅[会计设备的会计整合流程和会计整合示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
+有关会计整合解决方案设计的详细信息，请参阅[会计设备和服务的会计整合流程和会计整合示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)。
 
 #### <a name="request-handler"></a>请求处理程序
 

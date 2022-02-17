@@ -2,7 +2,7 @@
 title: Finance Insights 主页
 description: Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968764"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087285"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights 主页
 
@@ -37,10 +37,6 @@ Finance insights 提供可配置和可扩展的解决方案，以帮助您智能
 
 本节列出了使用 Finance insights 的要求。 将尽可能提供指向其他信息源的链接。
 
-### <a name="legal-requirements"></a>法律要求
-
-要申请预览项目，请填写 [Finance insights Preview for Dynamics 365 Finance 协议](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u)。
-
 ### <a name="system-requirements"></a>系统要求
 
 需要第 2 层环境（多盒）才能预览 Finance Insights。 有关环境的背景信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
@@ -48,6 +44,10 @@ Finance insights 提供可配置和可扩展的解决方案，以帮助您智能
 ### <a name="version-requirements"></a>版本要求
 
 此主题适用于 Microsoft Dynamics 365 Finance 版本 10.0.21 及更高版本。
+
+### <a name="license-requirements"></a>许可要求证
+
+Finance Insights 使用 AI Builder 积分创建财务预测。 完成此任务需要的所有许可证均包含在租户许可证中。 每个 Dynamics 365 Finance 租户每月获得 20,000 AI Builder 积分。 如果业务需要额外的积分，可以直接从 AI Builder 购买。
 
 ### <a name="historical-data-requirements"></a>历史数据要求
 

@@ -2,7 +2,7 @@
 title: 外围设备
 description: 此主题介绍与商业外设有关的概念。
 author: BrianShook
-ms.date: 02/06/2020
+ms.date: 02/04/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec991f34fcaa1a71a7e7aa3d1eaac4c6988acfa7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986218"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092476"
 ---
 # <a name="peripherals"></a>外围设备
 
 [!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
 此主题介绍与商店外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 
@@ -34,15 +35,15 @@ ms.locfileid: "7986218"
 
 ### <a name="pos-registers"></a>POS 收银机
 
-导航：单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括外设的硬件配置文件或设置，它们将被用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
+导航：转到 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> 收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括外设的硬件配置文件或设置，它们将被用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
 
 ### <a name="devices"></a>设备
 
-导航：单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 
+导航：转到 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> 设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 
 
-设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
+设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Android 和 Retail Modern POS – iOS。
 
-### <a name="modern-pos"></a>现代 POS 机
+### <a name="modern-pos"></a>Modern POS
 
 Modern POS 是适用于 Microsoft Windows 的 POS 程序。 它可以部署到 Windows 10 操作系统 (OS) 上。
 
@@ -62,13 +63,13 @@ Modern POS for Android 是基于 Android 且可部署到 Android 设备上的 Mo
 
 POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常划分为特定类。 有关这些类的详细信息，请参阅此主题的“设备分类”部分。
 
-### <a name="hardware-station"></a>Hardware Station
+### <a name="hardware-station"></a>硬件工作站
 
-导航：单击 **Retail 和 Commerce** &gt; **渠道** &gt; **商店** &gt; **所有商店**。 选择一个商店，然后单击 **硬件工作站** 快速选项卡。 **硬件工作站** 设置是一种基于渠道的设置，用于定义将部署外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
+导航：转到 **Retail 和 Commerce \> 渠道 \> 商店 \> 所有商店**。 选择一个商店，然后选择 **硬件工作站** 快速选项卡。 **硬件工作站** 设置是一种基于渠道的设置，用于定义将部署外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
 
 ### <a name="hardware-profile"></a>硬件配置文件
 
-导航：单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
+导航：转到 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS 配置文件 \> 硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
 
 ## <a name="devices-classes"></a>设备分类
 POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设备的概览。
@@ -97,9 +98,9 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 
 可以使用 OPOS 驱动程序通过 USB 将签名捕获设备直接连接到计算机。 在配置签名捕获时，将提示客户在设备上签名。 提供签名后，它会对收银员显示，待其接受。
 
-### <a name="scale"></a>比例
+### <a name="scale"></a>称量
 
-可以使用 OPOS 驱动程序通过 USP 将秤连接到计算机。 标记为“已称重”产品的产品添加到交易记录时，POS 从秤读取重量，将该产品添加到交易记录，然后使用秤提供的数量。
+可以使用 OPOS 驱动程序通过 USB 将秤连接到计算机。 标记为“已称重”产品的产品添加到交易记录时，POS 从秤读取重量，将该产品添加到交易记录，然后使用秤提供的数量。
 
 ### <a name="pin-pad"></a>PIN 小键盘
 
@@ -131,15 +132,21 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Windows 打印快得多。 因此，最好使用 OPOS 进行打印，特别是在需要打印 40 列收据，并且交易时间必须非常快的环境中。 对于大多数设备，您将使用 OPOS 控件。 但是，某些 OPOS 收据打印机也支持 Windows 驱动程序。 通过使用 Windows 驱动程序，您可以通过一台打印机访问多台收银机的最新字体和网络。 但是使用 Windows 驱动程序有一些缺点。 以下是这些缺点的一些示例：
 
 -   使用 Windows 驱动程序时，图像在打印前渲染。 因此，打印速度往往比使用 OPOS 控件的打印机慢。
--   使用 Windows 驱动程序时，通过打印机连接（“菊链方式”）的设备可能无法正常工作。 例如，银箱可能无法打开，或者票据打印机可能无法正常工作。
+-   使用 Windows 驱动程序时，通过打印机连接（菊链方式）的设备可能无法正常工作。 例如，银箱可能无法打开，或者票据打印机可能无法正常工作。
 -   OPOS 还支持特定于收据打印机的更多变体集合，如裁纸或票据打印。
 -   不通过 IIS 硬件工作站来支持 Windows 打印机。 
 
 如果 OPOS 控件适用于您在使用的 Windows 打印机，该打印机仍然可以与 Commerce 配合正常工作。
 
-### <a name="universal-windows-platform"></a>通用 Windows 平台
+### <a name="plug-and-play-devices"></a>即插即用设备
 
-对于外设，UWP 与 Windows 对即插即用设备的支持有关。 当即插即用设备连接到支持这种设备的 Windows 操作系统版本时，该设备不需要驱动程序即可正常使用。 例如，如果 Windows 检测到 Bluetooth 扬声器设备，该操作系统知道此设备的类类型为 **扬声器**。 因此，它将把此设备视为扬声器。 无需再执行任何设置。 对于 POS 设备，可以插入大量 USB 设备，并且 Windows 将把其识别为人机接口设备 (HID)。 但是，可能不能确定设备提供的功能，因为设备不指定设备的类（即类型）。 在 Windows 10 中，已增加了条码扫描仪 和 MSR 的设备类。 因此，如果设备向 Windows 10 声明自己是这些类之一的设备，Windows 将在相应时间注意来自该设备的事件。 Modern POS 支持 UWP MSR 和扫描仪。 因此，准备好从这些设备之一输入，并且已连接属于这些类之一的设备时，可以使用该设备。 例如，如果在 Windows 10 计算机中插入一台 UWP 条码扫描仪，并且为 Modern POS 配置了条码签到，将在签到屏幕上激活该条码扫描仪。 无需再执行任何设置。 正在向 Windows 添加更多服务点 UWP 设备类。 这些类中包括银箱和收据打印机的类。 Modern POS 中对这些新设备的支持待定。
+当即插即用设备连接到支持这种设备的 Windows 操作系统版本时，该设备不需要驱动程序即可正常使用。 例如，如果 Windows 检测到 Bluetooth 扬声器设备，该操作系统知道此设备的类类型为“扬声器”，会将该设备视为扬声器。 无需再执行任何设置。 
+
+对于 POS 外围设备，可以插入大量 USB 设备，Windows 操作系统会将其识别为人机接口设备 (HID)。 但是，Windows 可能不能确定设备提供的功能，因为设备不指定设备的类或类型。 在 Windows 10 中，已增加了条码扫描仪 和 MSR 的设备类。 因此，如果设备向 Windows 10 声明自己是这些类之一的设备，Windows 将在相应时间注意来自该设备的事件。
+
+Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从这些设备之一输入，并且已连接属于这些设备类之一的设备时，可以使用该设备。 例如，如果在 Windows 10 计算机中插入一台即插即用条码扫描仪，并且为 Modern POS 配置了条码登录，将在登录页面上激活该条码扫描仪。 无需再执行任何设置。
+
+其他类的 POS 外围设备正在添加到 Windows，如现银箱和收据打印机类。 Modern POS 中对这些新设备的支持待定。
 
 ### <a name="keyboard-wedge"></a>键盘 wedge
 
@@ -148,9 +155,9 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 > [!NOTE]
 > 当在 POS 中使用键盘 wedge 扫描仪时，必须对其进行编程以在最后扫描的字符之后发送回车符或 **Enter** 事件。 如果未完成此配置，键盘 wedge 扫描仪将无法正常运行。 请查阅设备制造商提供的文档，以获取有关如何追加回车符事件的详细信息。  
 
-### <a name="native-printer"></a>本机打印机
+### <a name="device-printers"></a>设备打印机
 
-可以将本机（或“设备”，因为类型是在硬件配置文件中命名的）配置为提示用户选择为计算机配置的打印机。 配置了 **设备** 类型的打印机时，如果 Modern POS 收到了打印命令，将提示用户在列表中选择打印机。 此行为与 Windows 驱动程序的行为不同，因为硬件配置文件中的 **Windows** 打印机类型不显示打印机列表。 相反，它要求在 **设备名称** 字段中提供命名的打印机。
+“设备”类型的打印机可以配置为提示用户选择为计算机配置的打印机。 配置了“设备”类型的打印机时，如果 Modern POS 收到了打印命令，将提示用户在列表中选择打印机。 此行为与 Windows 驱动程序的行为不同，因为硬件配置文件中的“Windows”打印机类型不向用户显示打印机列表。 相反，它要求在 **设备名称** 字段中提供命名的打印机。
 
 ### <a name="network"></a>网络
 
@@ -162,7 +169,12 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 适用于 Windows 和 Android 的现代 POS 客户端包括 **专用** 或内置硬件工作站。 这些客户端可以使用应用程序内置的业务逻辑直接与外围设备通信。 Android 应用程序仅支持网络设备。 有关 Android 外设支持的更多信息，请访问[在 Android 和 iOS 上安装 POS Hybrid 应用](./dev-itpro/hybridapp.md)文章。
 
-若要使用专用硬件工作站，请为将使用 Modern POS for Windows 或 Android 应用程序的收银机分配硬件配置文件。 然后为将使用该收银机的商店创建一个类型为 **专用** 的硬件工作站。 在非银箱模式下启动 Modern POS 并使用 **管理硬件工作站** 操作打开硬件工作站功能，默认情况下专用硬件工作站将处于活动状态。 接下来，注销 Modern POS，然后重新登录并打开一个班次，即可使用硬件配置文件中配置的外围设备。 
+要使用专用硬件工作站，请执行以下步骤。
+
+1. 为将使用 Modern POS for Windows 或 Android 应用程序的收银机分配硬件配置文件。
+1. 为将使用该 POS 收银机的商店创建一个类型为“专用”的硬件工作站。 
+1. 在非银箱模式下打开 Modern POS，使用 **管理硬件工作站** 操作打开硬件工作站功能。 默认情况下，专用硬件工作站将处于活动状态。 
+1. 注销 Modern POS。 然后重新登录，打开一个班次。 在硬件配置文件中配置的外围设备现在将可用。 
 
 ### <a name="shared"></a>已共享 
 
@@ -207,8 +219,8 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 有关 OPOS 组件的详细信息，请参阅本文的“支持的接口”。 OPOS 驱动程序通常由设备制造商提供。 安装 OPOS 设备驱动程序时，将在 Windows 注册表中的以下位置添加一个键：
 
--   **32 位系统：** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 位系统：** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 位系统：** HKEY\_LOCAL\_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS
+-   **64 位系统：** HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\OLEforRetail\ServiceOPOS
 
 在 ServiceOPOS 注册表位置中，配置的设备根据 OPOS 设备类组织。 将保存多个设备驱动程序。
 
@@ -488,9 +500,9 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
     > [!NOTE]
     > 不必在硬件工作站中设置其他任何属性。 其他所有所需信息（如硬件配置文件）将来自收银机本身。
 
-4.  单击 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **配送计划**。
-5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击 **立即运行** 将更改同步到 POS。
-6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击 **立即运行** 将更改同步到 POS。
+4.  转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 分配计划**。
+5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 选择 **立即运行** 将更改同步到 POS。
+6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 选择 **立即运行** 将更改同步到 POS。
 7.  安装并激活 Modern POS for Windows。
 8.  启动 Modern POS for Windows，然后登录到连接的外设。
 
@@ -515,18 +527,18 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
     -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
     -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
-4.  单击 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **配送计划**。
-5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击 **立即运行** 将更改同步到 POS。
-6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击 **立即运行** 将更改同步到 POS。
+4.  转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 分配计划**。
+5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 选择 **立即运行** 将更改同步到 POS。
+6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 选择 **立即运行** 将更改同步到 POS。
 7.  安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 8.  安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅[配置、安装和激活 Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 9.  登录 Modern POS，然后选择 **执行非开票人操作**。
 10. 启动 **管理硬件工作站** 操作。
-11. 单击 **管理**。
+11. 选择 **管理**。
 12. 在硬件工作站管理页中，设置用于打开硬件工作站的选项。
-13. 选择要使用的硬件工作站，然后单击 **配对**。
-14. 在硬件工作站配对后，单击 **关闭**。
-15. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。
+13. 选择要使用的硬件工作站，然后选择 **配对**。
+14. 在硬件工作站配对后，选择 **关闭**。
+15. 在硬件工作站选择页中，选择最近选择的硬件工作站将其激活。
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>有共享 IIS 硬件工作站的所有 Modern POS 客户端
 
@@ -538,28 +550,28 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
     -   **主机名** – 将运行硬件工作站的主计算机的名称。
     -   **描述** – 用于帮助识别硬件工作站的文本，如 **退货** 或 **店前**。
     -   **端口** – 硬件工作站用于与 Modern POS 客户端通信的端口。
-    -   **硬件配置文件** – 对于共享硬件工作站，每个硬件工作站都应该有一个硬件配置文件。 可以在硬件工作站之间共享硬件配置文件，但必须将其映射到每个硬件工作站。 此外，建议在多个设备共享同一个共享硬件工作站时使用共享班次。 若要设置共享班次，单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 对于每个共享硬件配置文件，选择银箱，然后将 **共享班次银箱** 选项设置为 **是**。
+    -   **硬件配置文件** – 对于共享硬件工作站，每个硬件工作站都应该有一个硬件配置文件。 可以在硬件工作站之间共享硬件配置文件，但必须将其映射到每个硬件工作站。 此外，建议在多个设备共享同一个共享硬件工作站时使用共享班次。 要设置共享班次，转到 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS 配置文件 \> 硬件配置文件**。 对于每个共享硬件配置文件，选择银箱，然后将 **共享班次银箱** 选项设置为 **是**。
     -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
     -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
 4.  为商店中所需其他每个硬件工作站重复步骤 2 和 3。
-5.  单击 **Retail 和 Commerce** &gt; **Retail 和 Commerce IT** &gt; **配送计划**。
-6.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击 **立即运行** 将更改同步到 POS。
-7.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击 **立即运行** 将更改同步到 POS。
+5.  转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 分配计划**。
+6.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 选择 **立即运行** 将更改同步到 POS。
+7.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 选择 **立即运行** 将更改同步到 POS。
 8.  在步骤 2 和 3 中设置的每个主机上安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 9.  安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅[配置、安装和激活 Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
 10. 登录 Modern POS，然后选择 **执行非开票人操作**。
 11. 启动 **管理硬件工作站** 操作。
 
-12. 单击 **管理**。
+12. 选择 **管理**。
 13. 在硬件工作站管理页中，设置用于打开硬件工作站的选项。
-14. 选择要使用的硬件工作站，然后单击 **配对**。
+14. 选择要使用的硬件工作站，然后选择 **配对**。
 15. 为 Modern POS 将使用的每个硬件工作站重复步骤 14。
-16. 为所需全部硬件工作站配对之后，单击 **关闭**。
-17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 
+16. 为所需全部硬件工作站配对之后，选择 **关闭**。
+17. 在硬件工作站选择页中，选择最近选择的硬件工作站将其激活。 
 
 > [!NOTE]
-> 如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 选择收银机，然后将 **收款后即可选择** 选项设置为 **是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
+> 如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 转至 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> 收银机**。 选择收银机，然后将 **收款后即可选择** 选项设置为 **是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
 
 ## <a name="extensibility"></a>可扩展性
 有关硬件工作站的可扩展性场景的信息，请参阅[将 POS 与新硬件设备集成并生成扩展安装程序](dev-itpro/hardware-device-extension.md)。
@@ -569,15 +581,15 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 ### <a name="hardware-station-installer"></a>硬件工作站安装程序
 硬件工作站安装程序将在安装期间通过自助服务自动执行这些注册表编辑。
- 
+
 -   应禁用安全套接字层 (SSL)。
 -   应启用并使用传输层安全性 (TLS) 版本 1.2（或当前最高版本）。 
 
 ### <a name="ssl-and-tls"></a>SSL 和 TLS
 默认情况下，已禁用 SSL 和除 TLS 1.2 外的所有 TLS 版本。 要编辑或启用这些值，请执行以下步骤：
     1.  按 Windows 徽标键+R 打开 **运行** 窗口。
-    2.  在 **打开** 字段中，键入 **Regedit**，然后单击 **确定**。
-    3.  如果显示 **用户帐户控制** 消息框，请单击 **是**。
+    2.  在 **打开** 字段中，键入 **Regedit**，然后选择 **确定**。
+    3.  如果显示 **用户帐户控制** 消息框，选择 **是**。
     4.  在 **注册表编辑器** 窗口中，导航至 **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**。 以自动输入了以下键，以便仅允许 TLS 1.2。
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
@@ -609,13 +621,15 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 #### <a name="printer"></a>打印机
 
 | 制造商 | 型号    | 接口 | 注释                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
+| ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88VI | OPOS      |                         |
 | Epson        | TM-T88   | 自定义    | 通过网络连接   |
+| HP           | F7M67AA  | OPOS      | 带电 USB             |
 | Star         | TSP650II | 自定义    | 通过网络连接   |
 | Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
-| HP           | F7M67AA  | OPOS      | 带电 USB             |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 > [!NOTE]
 > 内置硬件工作站不支持 Star TSP 100 打印机。 内置硬件工作站使用 64 位进程，此进程与现有的 Star TP 100 驱动程序不兼容。 
@@ -687,17 +701,21 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 注释                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88V  | 自定义    | 已通过网络连接     |
-| Star         | TSP650II | 自定义    | 通过网络连接     |
-| HP           | F7M67AA  | OPOS      | 带电 USB               |
+| 制造商 | 型号    | 接口 | 注释              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88V  | 自定义    | 通过网络连接 |
+| HP           | F7M67AA  | OPOS      | 带电 USB           |
+| Star         | TSP650II | 自定义    | 通过网络连接 |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
+
+
 
 #### <a name="bar-code-scanner"></a>条码扫描仪
 
-| 制造商  | 型号   | 接口 | 评论 |
+| 制造商  | 型号   | 接口 | 注释 |
 |---------------|---------|-----------|----------|
 | Motorola      | DS9208  | OPOS      |          |
 | 符号        | LS2208  | OPOS      |          |
@@ -762,17 +780,19 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 注释                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | TM-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88   | 自定义    | 通过网络连接     |
-| Star         | TSP650II | 自定义    | 通过网络连接     |
-| HP           | F7M67AA  | OPOS      | 带电 USB               |
+| 制造商 | 型号    | 接口 | 注释              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88   | 自定义    | 通过网络连接 |
+| HP           | F7M67AA  | OPOS      | 带电 USB           |
+| Star         | TSP650II | 自定义    | 通过网络连接 |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
 
 #### <a name="payment-terminal"></a>付款终端
 
-| 制造商 | 型号 | 接口 | 评论                                                                       |
+| 制造商 | 型号 | 接口 | 注释                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
 | VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
 | VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
@@ -788,17 +808,17 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 
 ## <a name="troubleshooting"></a>疑难解答
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS 可以在其列表中检测硬件工作站以进行选择，但是不能完成配对
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS 可以在其列表中检测硬件工作站以进行选择，但是不能完成配对。
 
 **解决方案：** 验证以下潜在故障点列表：
 
 -   运行 Modern POS 的计算机信任运行硬件工作站的计算机上使用的证书。
     -   若要验证此设置，请在 Web 浏览器中转至以下 URL：https://&lt;计算机名称&gt;:&lt;端口号&gt;/HardwareStation/ping。
-    -   此 URL 使用 ping 验证计算机是否可访问，而浏览器则指示证书是否可信。 （例如，在 Internet Explorer 中，地址栏中显示锁图标。 当您单击此图标时，Internet Explorer 验证证书当前是否可信。 您可以通过查看显示的证书的详细信息，将证书安装到本地计算机上。）
+    -   此 URL 使用 ping 验证计算机是否可访问，而浏览器则指示证书是否可信。 （例如，在 Internet Explorer 中，地址栏中显示锁符号。 当您选择此符号时，Internet Explorer 验证证书当前是否可信。 您可以通过查看显示的证书的详细信息，将证书安装到本地计算机上。）
 -   在运行硬件工作站的计算机上，防火墙中将打开硬件工作站使用的端口。
 -   硬件工作站已通过硬件工作站安装程序结束时运行的安装商家信息工具正确安装了商家帐户信息。
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS 不能在其列表中检测到硬件工作站来进行选择
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS 不能在其列表中检测到硬件工作站来进行选择。
 
 **解决方案：** 以下因素之一可能导致此问题：
 
@@ -823,15 +843,15 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 -   有时，设备驱动程序可能导致公共控件对象 (CCO) 停止正常工作。 如果最近安装了设备，但是该设备无法正常工作，或您发现了其他问题，通常可以通过重新安装 CCO 来解决问题。 若要下载 CCO，请访问 <http://monroecs.com/oposccos_current.htm>。
 -   如果在测试或故障排除期间频繁更改外设，可能必须重置 IIS，而不是等待高速缓存自行刷新。 若要重置 IIS，请执行以下步骤:
     1.  在 **开始** 菜单中键入 **CMD**。
-    2.  在搜索结果中，右键单击 **命令提示符**，然后单击 **以管理员身份运行**。
+    2.  在搜索结果中，右键单击 **命令提示符**，然后选择 **以管理员身份运行**。
     3.  在 **命令提示符** 窗口中，键入 **iisreset /Restart**，然后按 Enter。
     4.  IIS 重新启动后，重新启动 Modern POS。
 -   频繁更改外设时，如果也频繁启动和退出 POS 客户端，则上一个 POS 会话的 dllhost 进程可能干扰当前会话。 在这种情况下，关闭正在管理上一个会话的动态链接库 (DLL) 主机之前，设备可能不可用。 若要关闭 DLL 主机，请执行以下步骤：
     1.  在 **开始** 菜单中键入 **任务管理器**。
-    2.  在搜索结果中，单击 **任务管理器**。
-    3.  在“任务管理器”中的 **详细信息** 选项卡上，单击带有 **名称** 标签的列标题，按名称以字母顺序为表排序。
+    2.  在搜索结果中，选择 **任务管理器**。
+    3.  在“任务管理器”中的 **详细信息** 选项卡上，选择带有 **名称** 标签的列标题，按名称以字母顺序为表排序。
     4.  向下滚动，直到找到 dllhost.exe。
-    5.  选择每个 DLL 主机，然后单击 **结束任何**。
+    5.  选择每个 DLL 主机，然后选择 **结束任务**。
     6.  关闭 DLL 主机后，重新启动 Modern POS。
 
 

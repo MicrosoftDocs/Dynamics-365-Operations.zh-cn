@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7122dc7325c7fb33c4bf90e3d1a6cf1c95bd73e72232b9060f7cc04899223765
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c71d31d7045c73097b81671793181a29dcac3b5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782699"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064909"
 ---
 # <a name="payroll-integration-api-introduction"></a>工资单集成 API 简介
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

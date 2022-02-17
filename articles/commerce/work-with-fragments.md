@@ -2,7 +2,7 @@
 title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776186"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090736"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -121,6 +121,20 @@ ms.locfileid: "6776186"
 1. 根据需要编辑片段的模块属性和结构。 此流程类似在页面编辑器视图中编辑模块的流程。
 
 也可以通过在页面、模板或父片段中打开片段，然后在右侧属性窗格中选择 **编辑片段** 来编辑片段。
+
+### <a name="rename-a-fragment"></a>重命名片段
+
+要在站点构建器中重命名现有片段，请执行以下步骤。
+
+1. 在左侧导航窗格中，选择 **片段**。
+1. 选择您想要重命名的片段的片段名称。
+1. 选择 **编辑** 开始编辑片段。 请注意，如果其他人已在编辑片段，您将无法编辑该片段。
+1. 在片段属性窗格中，选择片段名称旁边的笔符号。
+1. 根据需要编辑片段名称。
+1. 选择复选标记确认名称更改。
+1. 选择 **完成编辑**。
+
+您可以在创建片段后重命名片段，方法是对其进行编辑，然后在属性窗格中选择片段名称旁边的笔符号。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781106"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063050"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决初始同步期间可能发生的问题的信息。
+
+本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决初始同步期间可能发生的问题的信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中检查初始同步错误
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>在财务和运营应用中检查初始同步错误
 
 启用映射模板后，映射的状态应为 **正在运行**。 如果状态为 **未运行**，在初始同步期间将发生错误。 要查看错误，请选择 **双写入** 页面上的 **初始同步详细信息** 选项卡。
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 如果此错误持续发生，您无法完成初始同步，请按照以下步骤解决问题。
 
-1. 登录到 Finance and Operations 应用的虚拟机 (VM)。
+1. 登录到财务和运营应用的虚拟机 (VM)。
 2. 打开微软管理终端程序。
 3. 在 **服务** 窗格中，请确保 Microsoft Dynamics 365 数据导入导出框架服务正在运行。 如果已停止，请重新启动，因为初始同步需要它。
 
@@ -75,7 +75,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 若要解决此问题，请按照以下步骤操作。
 
-1. 登录到 Finance and Operations 应用。
+1. 登录财务和运营应用。
 2. 在 **Azure Active Directory 应用程序** 页面上，删除 **DtAppID** 客户端，然后再次添加。
 
 ![Azure AD 应用程序列表中的 DtAppID 客户端。](media/aad_applications.png)
@@ -102,7 +102,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 如果供应商表中的任何行在 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列中都具有值，请按照以下步骤完成初始同步。
 
-1. 在 Finance and Operations 应用中，从映射中删除 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列，然后保存映射。
+1. 在财务和运营应用中，从映射中删除 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列，然后保存映射。
 
     1. 在 **供应商 V2 (msdyn\_vendors)** 的双写入映射页面上，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations apps.Vendors V2**。 在右侧的筛选器中，选择 **Sales.Vendor**。
     2. 搜索 **primarycontactperson** 查找 **PrimaryContactPersonId** 源列。
@@ -149,7 +149,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 如果客户表中的任何行在 **ContactPersonID** 和 **InvoiceAccount** 列中都具有值，请按照以下步骤完成初始同步。 您可以对任何现成的表（如 **客户** 和 **联系人**）使用此方法。
 
-1. 在 Finance and Operations 应用中，从 **客户 V3 (accounts)** 映射中删除 **ContactPersonID** 和 **InvoiceAccount** 列，然后保存映射。
+1. 在财务和运营应用中，从 **客户 V3 (accounts)** 映射中删除 **ContactPersonID** 和 **InvoiceAccount** 列，然后保存映射。
 
     1. 在 **客户 V3 (accounts)** 的双写入映射页面，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations app.Customers V3**。 在右侧的筛选器中，选择 **Dataverse.Account**。
     2. 搜索 **contactperson** 查找 **ContactPersonID** 源列。
@@ -182,16 +182,16 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     > 有两个名称相同的映射。 请确保在 **详细信息** 选项卡上选择具有以下描述的映射：**FO.CDS 供应商联系人 V2 与 CDS.Contacts 之间同步的双写入模板。需要新包 \[Dynamics365SupplyChainExtended\]。**
 
 5. 将 **InvoiceAccount** 和 **ContactPersonId** 列重新添加到 **客户 V3 (Accounts)** 映射，然后保存映射。 **InvoiceAccount** 列和 **ContactPersonId** 列现在又成为了实时同步模式的一部分。 在下一步中，您将执行这些列的初始同步。
-6. 再次运行 **客户 V3 (Accounts)** 映射的初始同步。 由于更改跟踪已关闭，Finance and Operations 应用中 **InvoiceAccount** 和 **ContactPersonId** 的数据将同步到 Dataverse。
-7. 要将 **InvoiceAccount** 和 **ContactPersonId** 的数据从 Dataverse 同步到 Finance and Operations 应用，必须使用数据集成项目。
+6. 再次运行 **客户 V3 (Accounts)** 映射的初始同步。 由于更改跟踪已关闭，财务和运营应用中 **InvoiceAccount** 和 **ContactPersonId** 的数据将同步到 Dataverse。
+7. 要将 **InvoiceAccount** 和 **ContactPersonId** 的数据从 Dataverse 同步到财务和运营应用，必须使用数据集成项目。
 
-    1. 在 Power Apps 中，在 **Sales.Account** 和 **Finance and Operations apps.Customers V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到 Finance and Operations 应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](/power-platform/admin/data-integrator)。
+    1. 在 Power Apps 中，在 **Sales.Account** 和 **Finance and Operations apps.Customers V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到财务和运营应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](/power-platform/admin/data-integrator)。
 
         下图显示了一个更新 **CustomerAccount** 和 **ContactPersonId** 的项目。
 
         ![更新 CustomerAccount 和 ContactPersonId 的数据集成项目。](media/cust_selfref6.png)
 
-    2. 将公司条件添加到 Dataverse 一端的筛选器中，以仅让与筛选条件匹配的行在 Finance and Operations 应用中更新。 要添加筛选器，请选择筛选器按钮。 然后，在 **编辑查询** 对话框中，您可以添加筛选器查询，如 **\_msdyn\_company\_value eq '\<guid\>'**。
+    2. 将公司条件添加到 Dataverse 一端的筛选器中，以仅让与筛选条件匹配的行在财务和运营应用中更新。 要添加筛选器，请选择筛选器按钮。 然后，在 **编辑查询** 对话框中，您可以添加筛选器查询，如 **\_msdyn\_company\_value eq '\<guid\>'**。
 
         > [注意]如果筛选器按钮未出现，请创建支持票证，让数据集成团队在您的租户上启用筛选器功能。
 
@@ -201,7 +201,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     行的初始同步现已完成。
 
-8. 在 Finance and Operations 应用中，为 **客户 V3** 表重新打开更改跟踪。
+8. 在财务和运营应用中，为 **客户 V3** 表重新打开更改跟踪。
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>具有 10 个以上查找字段的映射的初始同步失败
 
@@ -227,9 +227,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 *在 Dataverse 中找不到当事方编号。*
 
-对 Finance and Operations 应用中的 **DirPartyCDSEntity** 设置了一个范围，用于筛选 **人员** 和 **组织** 类型的当事方。 因此，**CDS 当事方 - msdyn_parties** 映射的初始同步将不会同步其他类型的当事方，包括 **法人** 和 **运营单位**。 针对 **CDS 当事方邮寄地址 (msdyn_partypostaladdresses)** 或 **当事方联系人 V3 (msdyn_partyelectronicaddresses)** 运行初始同步时，您可能会收到错误。
+对财务和运营应用中的 **DirPartyCDSEntity** 设置了一个范围，用于筛选 **人员** 和 **组织** 类型的当事方。 因此，**CDS 当事方 - msdyn_parties** 映射的初始同步将不会同步其他类型的当事方，包括 **法人** 和 **运营单位**。 针对 **CDS 当事方邮寄地址 (msdyn_partypostaladdresses)** 或 **当事方联系人 V3 (msdyn_partyelectronicaddresses)** 运行初始同步时，您可能会收到错误。
 
-我们正在努力修复以删除 Finance and Operations 实体上的当事方类型范围，以便所有类型的当事方都可以成功同步 Dataverse。
+我们正在努力修复以删除财务和运营实体上的当事方类型范围，以便所有类型的当事方都可以成功同步 Dataverse。
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>运行客户或联系人数据初始同步时是否存在任何性能问题？
 

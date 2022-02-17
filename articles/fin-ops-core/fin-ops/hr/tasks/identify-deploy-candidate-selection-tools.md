@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964823"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067975"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。 但是，具有所需技能的候选人可能已在您的组织中被雇用。 您可以在现有员工或新申请人之间搜索特定的技能组。 这允许招聘人员快速收集和筛选现在或过去申请空缺位置的申请人，或从现有员工库中找到潜在候选人。 使用此过程学习技能映射功能如何帮助您为空缺职位找到合适人选。 创建此过程时使用的是 **USMF** 演示数据格式。
 

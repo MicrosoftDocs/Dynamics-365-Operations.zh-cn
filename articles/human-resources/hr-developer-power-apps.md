@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a466ef2d2002ebc9d35b33571009727626cd5c678e995d42a00dbe64a2806729
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778047"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070292"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本文介绍 Microsoft Dynamics 365 Human Resources 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
@@ -38,13 +41,13 @@ ms.locfileid: "6778047"
 - 若要导入包，用户必须具有 **环境制造者** 权限。
 - 若要导出或导入应用，用户必须拥有 Power Apps 计划 2 许可证或 Power Apps 计划 2 试用许可证。
 
-## <a name="integration-with-microsoft-365-power-automate"></a>与 Microsoft 365 Power Automate 集成
+## <a name="integration-with-microsoft-365-power-automate"></a>与 Microsoft 365 的集成 Power Automate
 
-**与 Microsoft 365 集成** 应用可用于从 Microsoft 365 为已登录用户提取团队信息。 它引用 Human Resources 中的工作人员来提取员工身份证明类型。 经理可以检查员工 ID 类型的到期日期。 如果员工 ID 类型即将到期，他们还可以发送电子邮件提醒。 Power Automate 与 Power Apps 集成来发送此提醒。 发送提醒后，确认将从 Power Automate 发送回 Power Apps。 身份证明类型包括驾照、护照和其他可接受的 ID 形式。
+**与 Microsoft 365 的集成** 应用可用于从 Microsoft 365 为已登录用户提取团队信息。 它引用 Human Resources 中的工作人员来提取员工身份证明类型。 经理可以检查员工 ID 类型的到期日期。 如果员工 ID 类型即将到期，他们还可以发送电子邮件提醒。 Power Automate 与 Power Apps 集成来发送此提醒。 发送提醒后，确认将从 Power Automate 发送回 Power Apps。 身份证明类型包括驾照、护照和其他可接受的 ID 形式。
 
 您可以扩展此应用来处理其他场景。 例如，可以使用它来显示团队休假信息、日历事件和团队特定的任何事件。
 
-若要下载 **与 Microsoft 365 Power Automate 集成** 应用，请转到 Microsoft 下载中心中的[与 Microsoft 365 集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
+若要下载 **与 Microsoft 365 的集成 Power Automate** 应用，请转到 Microsoft 下载中心中的[与 Microsoft 365 的集成](https://go.microsoft.com/fwlink/?linkid=2081787)。
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL 连接和执行
 

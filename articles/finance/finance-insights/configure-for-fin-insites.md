@@ -2,7 +2,7 @@
 title: Finance Insights 的配置
 description: 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 11/19/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827020"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051362"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights 的配置
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。 要成功完成本主题中的过程，您必须在 [Power Portal 管理中心](https://admin.powerplatform.microsoft.com/)具有系统管理员和系统定制员访问权限，在 Dynamics 365 Finance 中具有系统管理员访问权限，并在 Microsoft Dynamics Lifecycle Services (LCS) 中具有创建环境的访问权限。
+Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。 要成功完成本主题中的过程，您必须在 [Power Portal 管理中心](https://admin.powerplatform.microsoft.com/)具有系统管理员和系统定制员访问权限，在 Dynamics 365 Finance 中具有系统管理员访问权限，并在 Microsoft Dynamics Lifecycle Services (LCS) 中具有创建环境的访问权限。
 
 > [!NOTE]
 > 以下设置 Finance Insights 的过程适用于 Dynamics 365 Finance 版本 10.0.21 及更高版本。
@@ -100,6 +100,9 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse
 
    **见解预配状态检查** 流程成功运行后，您可以在 **功能管理** 工作区中启用 Finance insights 功能。
 
+> [!NOTE]
+> 如果 **Insights 预配状态检查** 流程未运行，请转到 **系统管理** > **查询** > **批处理作业**。 在 **流程自动化轮询系统** 字段中，将值更改为 **等待** 以启动流程。 
+> 
 ## <a name="feedback-and-support"></a>反馈和支持
 
 如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights（预览）](mailto:fiap@microsoft.com)发送电子邮件。

@@ -1,6 +1,6 @@
 ---
 title: 在供应商设计之间切换
-description: 本主题介绍如何在 Finance and Operations 应用与 Dataverse 之间切换供应商数据集成。
+description: 本主题介绍如何在财务和运营应用与 Dataverse 之间的供应商数据集成之间切换。
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 90e29359aa2a367fe540411a8a808d86abb06dcc
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781312"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062742"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 

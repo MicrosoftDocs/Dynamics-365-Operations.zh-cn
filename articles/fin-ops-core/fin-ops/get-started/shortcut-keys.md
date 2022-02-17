@@ -1,6 +1,6 @@
 ---
 title: 键盘快捷方式
-description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
+description: 本主题概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913510"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070975"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
 
-以下键盘快捷方式可帮助您快速、高效地在 Finance and Operations 应用中输入数据。
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+以下键盘快捷方式可帮助您快速、高效地在财务和运营应用中输入数据。
 
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。

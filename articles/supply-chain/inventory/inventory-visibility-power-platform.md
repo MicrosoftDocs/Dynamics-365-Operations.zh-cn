@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678511"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060964"
 ---
 # <a name="use-the-inventory-visibility-app"></a>使用库存可见性应用
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 本主题介绍如何使用库存可见性应用。
 

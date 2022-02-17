@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944882"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077030"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>瑞典控制单元整合示例的部署准则（旧版）
 
@@ -193,7 +193,7 @@ Hardware Station 示例中包含 Hardware Station 扩展组件。 若要完成�
 
 CRT 扩展为 **Runtime.Extensions.DocumentProvider.CleanCashSample**。
 
-有关会计整合解决方案设计的详细信息，请参阅[会计设备的会计整合流程和会计整合示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
+有关会计整合解决方案设计的详细信息，请参阅[会计设备和服务的会计整合流程和会计整合示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)。
 
 #### <a name="request-handler"></a>请求处理程序
 

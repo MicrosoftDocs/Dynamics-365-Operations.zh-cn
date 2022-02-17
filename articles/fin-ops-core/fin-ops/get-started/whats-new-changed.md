@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations 应用中的新增功能或更改的功能主页
+title: 财务和运营应用主页的新增功能或更改
 description: 此页面向您介绍可以帮助您了解 Finance and Operations 应用程序最新版本的新功能的主题。
 author: josaw1
 ms.date: 02/14/2020
@@ -17,30 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759177"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075192"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finance and Operations 应用中的新增功能或更改的功能主页
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>财务和运营应用主页的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>应用程序发布
 
-要查看每个版本的 Finance and Operations 应用中的新增功能或更改的功能，请参阅以下主题：
+要查看每个版本的财务和运营应用中的新增功能或更改的功能，请参阅以下主题：
 
-- **Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md)
+- **Human Resources（合并基础结构）**：[Microsoft Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management：** [Dynamics 365 Supply Chain Management 中的新增功能或更改的功能](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>独立应用程序
+
+要查看独立 Dynamics 365 Human Resources 中的新增功能或更改，请参阅以下主题：
+
 - **Human Resources：**[Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>平台更新 
 
-要查看 Finance and Operations 应用的平台更新中的新增功能或更改的功能，请参见以下主题：
+要查看财务和运营应用的平台更新中的新增功能或更改，请参阅以下主题：
 
 - [Platform update 新增功能或更改](../../dev-itpro/get-started/whats-new-home-page.md)
 

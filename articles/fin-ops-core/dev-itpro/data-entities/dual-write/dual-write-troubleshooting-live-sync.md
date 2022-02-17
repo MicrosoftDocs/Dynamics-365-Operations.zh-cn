@@ -9,27 +9,27 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782571"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062355"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主题提供 Finance and Operations 应用与 Microsoft Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决实时同步问题的信息。
+
+本主题提供财务和运营应用与 Microsoft Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决实时同步问题的信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Azure Active Directory (Azure AD) 租户管理员凭据。 每一节说明是否需要特定角色或特定凭据。
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>实时同步在您创建行时显示错误
 
-当您在 Finance and Operations 应用中创建行时，您可能会收到以下错误消息：
+当您在财务和运营应用中创建行时，您可能会收到以下错误消息：
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"此用户不是组织的成员。\\"}}\]，远程服务器返回错误：(403) 已禁止。"}}".*
 
@@ -39,27 +39,27 @@ ms.locfileid: "7782571"
 
 **解决此问题所需的角色：** 系统管理员
 
-当您尝试在 Finance and Operations 应用中保存表数据时，您可能会收到以下错误消息：
+当您尝试在财务和运营应用中保存表数据时，您可能会收到以下错误消息：
 
 *无法将更改保存到数据库。工作单元无法提交事务。无法将数据写入实体 uoms。写入 UnitOfMeasureEntity 失败，并显示错误消息“无法与实体 uoms 同步”。*
 
-要解决此问题，请确保 Finance and Operations 应用和 Dataverse 中都存在必备的引用数据。 例如，客户记录属于特定客户组，请确保 Dataverse 中存在该客户组记录。
+要解决此问题，请确保财务和运营应用和 Dataverse 中都存在必备的引用数据。 例如，客户记录属于特定客户组，请确保 Dataverse 中存在该客户组记录。
 
 如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。
 
-1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在 Finance and Operations Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在财务和运营 Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
 2. 选择并删除在双重写入映射和项目中有问题的记录。 每个双重写入映射将有两条记录。
 3. 使用 Excel 加载项发布更改。 此步骤非常重要，因为它会从实体和基础表中删除记录。
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>在 Finance and Operations 应用中创建数据时处理读或写权限错误
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>在财务和运营应用中创建数据时处理读或写权限错误
 
-当您在 Finance and Operations 应用中创建数据时，您可能会收到“错误请求”错误消息。
+当您在财务和运营应用中创建数据时，您可能会收到“错误请求”错误消息。
 
 ![“错误请求”错误消息的示例。](media/error_record_id_source.png)
 
 若要解决此问题，您必须启用缺少的权限，方法是为映射的 Dynamics 365 Sales 或 Dynamics 365 Customer Service 业务单位的团队分配正确的安全角色。
 
-1. 在 Finance and Operations 应用中，找到在数据集成连接集中映射的业务单位。
+1. 在财务和运营应用中，找到在数据集成连接集中映射的业务单位。
 
     ![组织映射。](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "7782571"
 
 **解决此问题所需的角色：** 系统管理员
 
-当您在 Finance and Operations 应用中创建数据时，您可能会收到以下错误消息：
+当您在财务和运营应用中创建数据时，您可能会收到以下错误消息：
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**无法为实体 CustCustomerV3Entity 生成有效负载**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"有效负载创建失败，显示错误“URI 无效：此 URI 是空的”。"}\],"isErrorCountUpdated":true}*
 
@@ -85,19 +85,19 @@ ms.locfileid: "7782571"
 
 > ISV 代码发生意外错误。 (ErrorType = ClientError) 插件发生意外异常 (Execute)：Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception：无法处理实体帐户 -（连接尝试失败，因为连接方未在一段时间后正确响应，或由于连接的主机未能响应导致建立的连接失败。
 
-如果在您尝试在 Finance and Operations 应用中创建数据时未正确重置 Dataverse 环境，将发生此错误。
+如果在您尝试在财务和运营应用中创建数据时未正确重置 Dataverse 环境，将发生此错误。
 
 > [!IMPORTANT]
 > 如果您已重新链接环境，则必须先停止所有实体映射，然后才能继续执行缓解步骤。
 
-若要解决此问题，您必须同时完成 Dataverse 和 Finance and Operations 应用中的步骤。
+若要解决此问题，您必须同时完成 Dataverse 和财务和运营应用中的步骤。
 
-1. 在 Finance and Operations 应用中，执行以下步骤：
+1. 在财务和运营应用中，执行以下步骤：
 
-    1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在 Finance and Operations Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+    1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在财务和运营 Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
     2. 选择并删除在双重写入映射和项目中有问题的记录。 每个双重写入映射将有两条记录。
     3. 使用 Excel 加载项发布更改。 此步骤非常重要，因为它会从实体和基础表中删除记录。
-    4. 若要帮助防止重新链接 Finance and Operations 或 Dataverse 环境时出错，请确保未保留双重写入配置。
+    4. 若要帮助防止重新链接财务和运营或 Dataverse 环境时出错，请确保未保留双重写入配置。
 
 2. 在 Dataverse 中执行以下步骤：
 
@@ -108,12 +108,12 @@ ms.locfileid: "7782571"
     5. 选择 **结果** 以查看配置。
     6. 删除所有实例。
 
-3. 在 Finance and Operations 应用中，执行以下步骤：
+3. 在财务和运营应用中，执行以下步骤：
 
-    1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在 Finance and Operations Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+    1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在财务和运营 Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
     2. 选择并删除在双重写入映射和项目中有问题的记录。 每个双重写入映射将有两条记录。
     3. 使用 Excel 加载项发布更改。 此步骤非常重要，因为它会从实体和基础表中删除记录。
-    4. 若要帮助防止重新链接 Finance and Operations 或 Dataverse 环境时出错，请确保未保留双重写入配置。
+    4. 若要帮助防止重新链接财务和运营或 Dataverse 环境时出错，请确保未保留双重写入配置。
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>执行数据库完全复制后发生实时同步错误
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>不会将来自 Finance and Operations 应用的数据同步到 Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>财务和运营应用中的数据未同步到 Dataverse
 
-在实时同步期间，您可能会遇到以下问题：只有部分数据从 Finance and Operations 应用同步到 Dataverse，或者数据根本不同步。
+在实时同步期间，您可能会遇到以下问题：只有部分数据从财务和运营应用同步到 Dataverse，或者数据根本不同步。
 
 > [!NOTE]
 > 您必须在开发期间解决此问题。
@@ -200,13 +200,13 @@ while(qRun.next())
 
 + 请确保在单个交易记录范围内写入自定义更改。
 + 业务事件和双重写入框架不处理 `doinsert()`/`doUpdate()` 和 `recordset()` 运算或带有 `skipBusinessEvents(true)` 标记的记录。 如果您的代码在这些函数内，将不会触发双重写入。
-+ 必须为映射的数据源注册业务事件。 某些数据源可能使用外部联接，并且可能在 Finance and Operations 应用中标记为只读。 不跟踪这些数据源。
++ 必须为映射的数据源注册业务事件。 某些数据源可能使用外部联接，并且可能在财务和运营应用中标记为只读。 不跟踪这些数据源。
 + 仅当对映射的字段进行修改，才会触发更改。 修改未映射的字段不会触发双重写入。
 + 确保筛选器评估提供有效结果。
 
 ### <a name="troubleshooting-steps"></a>疑难解答步骤
 
-1. 检查双重写入管理页面上的字段映射。 如果字段未从 Finance and Operations 应用映射到 Dataverse，则将不会跟踪该字段。 例如，在下图中，**说明** 字段从 Dataverse 跟踪，而不是从 Finance and Operations 应用跟踪。 将不会跟踪在 Finance and Operations 应用内对该字段所做的更改。
+1. 检查双重写入管理页面上的字段映射。 如果字段未从财务和运营应用映射到 Dataverse，则将不会跟踪该字段。 例如，在下图中，**说明** 字段从 Dataverse 跟踪，而不是从财务和运营应用跟踪。 将不会跟踪在财务和运营应用内对该字段所做的更改。
 
     ![跟踪的字段。](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ while(qRun.next())
 
 ### <a name="sample-scenario"></a>示例场景
 
-在 Finance and Operations 应用中，已更新联系人记录的地址，但对地址的更改未同步到 Dataverse。 出现此情况的原因是，**BusinessEventsDefinition** 表中的所有记录都没有受影响表和实体的组合。 特别是，**LogisticsPostalAddress** 表不是 **smmContactpersonCDSV2Entity** 实体的直接数据源。 **smmContactpersonCDSV2Entity** 实体有 **smmContactPersonV2Entity** 充当数据源，而 **smmContactPersonV2Entity** 则有 **LogisticsPostalAddressBaseEntity** 充当数据源。 **LogisticsPostalAddress** 表是 **LogisticsPostalAddressBaseEntity** 的数据源。
+在财务和运营应用中，已更新联系人记录的地址，但对地址的更改未同步到 Dataverse。 出现此情况的原因是，**BusinessEventsDefinition** 表中的所有记录都没有受影响表和实体的组合。 特别是，**LogisticsPostalAddress** 表不是 **smmContactpersonCDSV2Entity** 实体的直接数据源。 **smmContactpersonCDSV2Entity** 实体有 **smmContactPersonV2Entity** 充当数据源，而 **smmContactPersonV2Entity** 则有 **LogisticsPostalAddressBaseEntity** 充当数据源。 **LogisticsPostalAddress** 表是 **LogisticsPostalAddressBaseEntity** 的数据源。
 
-类似情况可能会出现在某些非标准模式中，例如，Finance and Operations 应用中正在修改的表未明确链接到其所在实体中。 例如，在 **smmContactPersonCDSV2Entity** 实体中计算主地址数据。 双重写入框架尝试确定如何将对基础表的更改映射回实体。 此方法通常足够。 但是，在某些情况下，链接非常复杂，以至于您必须具体处理。 必须确保相关表的 **RecId** 在实体上直接可用。 然后添加一个静态方法来监视表的更改。
+类似情况可能会出现在某些非标准模式中，例如，财务和运营应用中正在修改的表未明确链接到其所在实体中。 例如，在 **smmContactPersonCDSV2Entity** 实体中计算主地址数据。 双重写入框架尝试确定如何将对基础表的更改映射回实体。 此方法通常足够。 但是，在某些情况下，链接非常复杂，以至于您必须具体处理。 必须确保相关表的 **RecId** 在实体上直接可用。 然后添加一个静态方法来监视表的更改。
 
 例如，查看 **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()** 方法。 为了应对此情况，已修改了 **CustCustomerV3entity** 和 **VendVendorV2Entity**。
 
@@ -250,19 +250,19 @@ while(qRun.next())
 5. 停止在 **smmContactPersonCDSV2Entity** 实体上创建的所有双重写入映射。
 6. 启动映射。 您应该会看到您已通过使用其中的 **refentityname** 值等于 **BusinessEventsDefinition** 表中的 **smmContactPersonCDSV2Entity** 的行的 **RefTableName** 列跟踪的新表（此示例中为 **LogisticsPostalAddress**）。
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>创建的记录中有多条记录在同一批处理中从 Finance and Operations 应用发送到 Dataverse 时出错
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>创建的记录中有多条记录在同一批处理中从财务和运营应用发送到 Dataverse 时出错
 
-对于任何交易记录，Finance and Operations 应用都将在批处理中创建数据，并将其作为批处理发送到 Dataverse。 如果两条记录作为同一个交易记录的组成部分创建，并且彼此引用，您可能会在 Finance and Operations 应用中收到如下示例的错误消息：
+对于任何交易记录，财务和运营应用都将在批处理中创建数据，并将其作为批处理发送到 Dataverse。 如果两条记录作为同一个交易记录的组成部分创建，并且彼此引用，您可能会在财务和运营应用中收到如下示例的错误消息：
 
 *无法向 aaa_fundingsources 实体写入数据。无法查找值为 {PC00...} 的 ebecsfs_contracts。无法查找值为 {PC00...} 的 aaa_fundingsources。写入 aaa_fundingsources 失败，错误消息为：异常消息：远程服务器返回了错误：(400) 错误请求。*
 
-若要解决此问题，请在 Finance and Operations 应用中创建实体关系，以指示这两个实体彼此相关，并且相关记录将在同一条交易记录中处理。
+若要解决此问题，请在财务和运营应用中创建实体关系，以指示这两个实体彼此相关，并且相关记录将在同一条交易记录中处理。
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>启用错误消息详细日志记录
 
-在 Finance and Operations 应用中，您可能会遇到与 Dataverse 环境有关的错误。 错误消息中可能不包含消息的全文或其他相关数据。 若要获取详细信息，请启用详细日志记录，方法是在 Finance and Operations 中的所有项目配置内设置 **DualWriteProjectConfigurationEntity** 实体上存在的 **IsDebugMode** 标志。
+在财务和运营应用中，您可能会遇到与 Dataverse 环境有关的错误。 错误消息中可能不包含消息的全文或其他相关数据。 若要获取详细信息，请启用详细日志记录，方法是在财务和运营应用中的所有项目配置内设置 **DualWriteProjectConfigurationEntity** 实体上存在的 **IsDebugMode** 标志。
 
-1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在 Finance and Operations Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+1. 使用 Excel 加载项打开 **DualWriteProjectConfigurationEntity** 实体。 若要使用加载项，请在财务和运营 Excel 加载项中启用设计模式，并将 **DualWriteProjectConfigurationEntity** 添加到工作表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
 2. 将项目的 **IsDebugMode** 标志设置为 **是**。
 3. 运行场景。
 4. 详细日志在 **DualWriteErrorLog** 表中提供。 若要使用表浏览器查找数据，请使用以下 URL：`https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`。
@@ -270,7 +270,7 @@ while(qRun.next())
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>为客户或联系人添加地址时出错
 
-在 Finance and Operations 应用或 Dataverse 中尝试为客户或联系人添加地址时，可能会收到以下错误消息：
+在财务和运营应用或 Dataverse 中尝试为客户或联系人添加地址时，可能会收到以下错误消息：
 
 *无法向实体 msdyn_partypostaladdresses 写入数据。写入 DirPartyPostalAddressLocationCDSEntity 失败，错误消息为“请求失败，状态代码为 BadRequest，CDS 错误代码为： 0x80040265；响应消息为：插件中出错。已存在属性值为“位置 ID”的记录。实体键“位置 ID 键”需要这组属性包含唯一值。请选择唯一值并重试。*
 
@@ -290,7 +290,7 @@ while(qRun.next())
 
 *“RecordError0”：“实体 Customers V3 的写入失败，发生了未知异常 - 未找到当事方类型为‘组织’的当事方记录”}。*
 
-在 Dataverse 中创建客户时，将生成新的当事方编号。 如果将客户记录与当事方一起同步到 Finance and Operations 应用，但是已经有一条具有其他当事方编号的客户记录时，将显示此错误消息。
+在 Dataverse 中创建客户时，将生成新的当事方编号。 如果将客户记录与当事方一起同步到财务和运营应用，但是已经有一条具有其他当事方编号的客户记录时，将显示此错误消息。
 
 若要解决此问题，请通过查找当事方查找客户。 如果不存在该客户，请新建一条客户记录。 如果确实存在该客户，请使用现有当事方创建新客户记录。
 
@@ -300,7 +300,7 @@ while(qRun.next())
 
 *无法将当事方的类型从“DirOrganization”更新为“DirPerson”，应该改为先删除现有当事方，再插入新类型的当事方。*
 
-在 Dataverse 中，**msdyn_party** 表内有编号规则。 如果在 Dataverse 中创建客户，将创建一个新的当事方（例如，类型为 **组织** 的 **Party-001**）。 将把此数据发送到 Finance and Operations 应用。 如果重置 Dataverse 环境，或者将 Finance and Operations 环境链接到其他 Dataverse 环境，再在 Dataverse 中创建一条新的联系人记录，将创建一个以 **Party-001** 开头的新当事方值。 这次，创建的第三方记录将为 **Party-001**，并且其类型为 **个人**。 同步此数据时，Finance and Operations 将显示前面的错误消息，因为已存在类型为 **组织** 的当事方记录 **Party-001**。
+在 Dataverse 中，**msdyn_party** 表内有编号规则。 如果在 Dataverse 中创建客户，将创建一个新的当事方（例如，类型为 **组织** 的 **Party-001**）。 此数据将发送到财务和运营应用。 如果重置 Dataverse 环境，或者将财务和运营环境链接到其他 Dataverse 环境，再在 Dataverse 中创建一条新的联系人记录，将创建一个以 **Party-001** 开头的新当事方值。 这次，创建的第三方记录将为 **Party-001**，并且其类型为 **个人**。 同步此数据时，财务和运营应用将显示前面的错误消息，因为已存在类型为 **组织** 的当事方记录 **Party-001**。
 
 若要解决此问题，请在 Dataverse 中将 **msdyn_party** 表的 **msdyn_partynumber** 字段的自动编号规则更改为其他自动编号规则。
 

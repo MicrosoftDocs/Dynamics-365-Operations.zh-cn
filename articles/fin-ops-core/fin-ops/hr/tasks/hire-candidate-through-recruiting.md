@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964953"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075365"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>通过招聘雇用候选人
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> 本主题中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
+
 
 此过程使得招聘人员能够雇用通过特定招聘项目提交申请表的申请人。 通过招聘项目雇用申请人时，将会创建新的工作人员记录，且申请人的记录状态将为 **已雇用**。 创建此过程时使用的是 **USMF** 演示数据格式。
 

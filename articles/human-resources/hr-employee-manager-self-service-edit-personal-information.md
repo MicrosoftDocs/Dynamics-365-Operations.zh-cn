@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431454"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071392"
 ---
 # <a name="edit-personal-information"></a>编辑个人信息
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ ms.locfileid: "7431454"
     - 要添加身份证明编号，请选择 **新建**。 根据需要填写字段，然后选择 **保存**。
     - 要编辑编号，请选择 **编辑**。 根据需要编辑字段，然后选择 **保存**。
 
-7. 要更改付款方式，请选择 **我的付款信息** 选项卡。此选项卡仅在 **人力资源参数** 窗体中启用了付款方式时可用。 人力资源可以启用 **银行汇票**、**现金**、**支票**、**电子付款** 或 **其他**。 人力资源还可以禁用电子付款验证（用于美国工资单）以及银行账户和银行代号验证。
+7. 要更改付款方式，请选择 **我的付款信息** 选项卡。此选项卡仅在 **人力资源参数** 页面中启用了付款方式时可用。 人力资源可以启用 **银行汇票**、**现金**、**支票**、**电子付款** 或 **其他**。 人力资源还可以禁用电子付款验证（用于美国工资单）以及银行账户和银行代号验证。
 
 8. 要更改显示在 Human Resources 中的个人资料的图像，请选择 **图像** 选项卡。根据组织的设置，可能会传送图像以进行审核。
 

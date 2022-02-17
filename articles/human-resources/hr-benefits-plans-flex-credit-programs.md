@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e8274fc339dfd79b95d8bca23f9a937d64f64c5dc02ce505ed868b2819cfa67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f28e3fb603fde2c19669e9936ea0bdcfc866d0e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714396"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065910"
 ---
 # <a name="set-up-flex-credit-programs"></a>设置弹性信贷项目
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

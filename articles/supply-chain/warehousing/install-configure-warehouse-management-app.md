@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901981"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069371"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
@@ -143,6 +143,10 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库管理移动应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 
 必须在运行仓库管理移动应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](/mem/intune/protect/certificates-configure)。
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>配置云和边缘缩放单元的 Warehouse Management 移动应用
+
+如果您计划对云或边缘缩放单元运行 Warehouse Management 移动应用，需要执行一些额外的步骤。 有关说明，请参阅[为云和边缘缩放单元配置 Warehouse Management 移动应用](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)。
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>通过导入连接设置配置应用程序
 
@@ -306,5 +310,6 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 - [移动设备用户设置](mobile-device-user-settings.md)
 - [为 Warehouse Management 移动应用分配步骤图标和标题](step-icons-titles.md)
+- [配置云和边缘缩放单元的 Warehouse Management 移动应用](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

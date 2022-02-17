@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781336"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060323"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*当事方* 和 *全球通讯簿* 是 Finance and Operations 应用程序中的概念。 当事方可以是组织或个人。 在全球范围内存储和管理当事方的属性（如姓名、语言、联系人和地址）非常方便。 然后，当某个属性值在一个地方更改时，更改将反映在涉及当事方的所有地方。
+
+*当事方* 和 *全球通讯簿* 是财务和运营应用程序中的概念。 当事方可以是组织或个人。 在全球范围内存储和管理当事方的属性（如姓名、语言、联系人和地址）非常方便。 然后，当某个属性值在一个地方更改时，更改将反映在涉及当事方的所有地方。
 
 ## <a name="party"></a>当事方
 
@@ -46,7 +46,7 @@ ms.locfileid: "7781336"
 > [!TIP]
 > 当您尝试创建新的客户记录时，请使用 **当事方** 字段按名称搜索记录。 这样，如果找到记录，只需选择它。 系统然后将自动填充当事方的所有数据。 您不必手动设置所有必填字段。 可以在现成的 **客户**、**联系人** 和 **供应商** 页面上找到此行为。
 
-双重写入不能支持 Finance and Operations 应用的所有当事方角色。 有关当事方角色的完整列表，请参阅[全球通讯簿概览](../../../fin-ops/organization-administration/overview-global-address-book.md)。
+双写入不支持财务和运营应用的所有当事方角色。 有关当事方角色的完整列表，请参阅[全球通讯簿概览](../../../fin-ops/organization-administration/overview-global-address-book.md)。
 
 ### <a name="global-address-book"></a>全球通讯簿
 
@@ -75,7 +75,7 @@ ms.locfileid: "7781336"
 |----------|-------------|
 | 作为客户的个人（例如，可出售联系人或 B2C 客户） | **公司** 字段不为空并且 **是客户** 字段设置为 **是** 的出售联系人记录。 |
 | 作为供应商的个人（例如，诸如供应商的独立经营者） | **公司** 字段不为空并且 **是供应商** 字段设置为 **是** 的出售联系人记录。 |
-| 既是客户又是供应商的个人 | **公司** 字段不为空，**是客户** 字段设置为 **是** 并且 **是供应商** 字段设置为 **是** 的出售联系人记录。 个人既可以是一个产品的生产者，也可以是另一个产品的消费者。 Finance and Operations 应用和双重写入支持此关系。 |
+| 既是客户又是供应商的个人 | **公司** 字段不为空，**是客户** 字段设置为 **是** 并且 **是供应商** 字段设置为 **是** 的出售联系人记录。 个人既可以是一个产品的生产者，也可以是另一个产品的消费者。 财务和运营应用和双写入均支持此关系。 |
 | 作为组织联系人的个人不能是客户或供应商 | **公司** 字段为空，**是客户** 字段设置为 **否** 并且 **是供应商** 字段设置为 **否** 的非出售联系人记录。 |
 
 ## <a name="contact-for-party-table"></a>当事方的联系人表
@@ -142,7 +142,7 @@ ms.locfileid: "7781336"
 电子地址仅在此网格中可用。 在将来的版本中，所有邮寄地址和电子地址字段将从其他选项卡中删除，例如，**摘要** 和 **详细信息** 选项卡。 **详细信息** 选项卡上显示的联系人详细信息是主要电子地址（如主要手机、主要电子邮件、主要电话、主要传真和主要 Twitter ID）的只读副本。 在潜在顾客资格授予期间，您可以同时提供业务电话号码和移动电话号码。 如果 **IsMobile=No**，则将业务电话号码视为主要电话，如果 **IsMobile=Yes**，这将移动电话号码视为主要电话。
 
 > [!TIP]
-> 请使用 **帐户** 和 **联系人** 窗体上的 **地址** 和 **电子地址** 选项卡管理邮寄地址和电子地址。 这样可以确保将地址数据同步到 Finance and Operations 应用。
+> 请使用 **帐户** 和 **联系人** 窗体上的 **地址** 和 **电子地址** 选项卡管理邮寄地址和电子地址。 这样可以确保将地址数据同步到财务和运营应用。
 
 ## <a name="setup"></a>设置
 
@@ -230,7 +230,7 @@ ms.locfileid: "7781336"
 
 12. 按照以下顺序运行映射。 如果收到错误，指示“项目验证失败。 缺少目标字段...”，打开映射，选择 **刷新表**。 然后运行映射。
 
-    Finance and Operations 应用 | Customer engagement 应用  
+    财务和运营应用 | Customer engagement 应用  
     ----------------------------|------------------------
     [CDS 当事方](mapping-reference.md#220) | msdyn_parties
     [CDS 邮政地址位置](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ ms.locfileid: "7781336"
 
 对于当事方和全球通讯簿交互，表映射集合协同工作，如下表中所示。
 
-| Finance and Operations 应用 | Customer engagement 应用 | 说明 |
+| 财务和运营应用 | Customer engagement 应用 | Description |
 |----------------------------|-------------------------|-------------|
 | [联系人职务](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [客户 V3](mapping-reference.md#101) | 帐户 |
@@ -295,10 +295,10 @@ ms.locfileid: "7781336"
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
-+ 在n Finance and Operations 应用中，当您创建客户以及地址并进行保存时，地址可能不会同步到 **地址** 表。 这是由于双重写入平台排序问题。 解决方法是，先创建客户并进行保存。 然后添加地址。
-+ 在 Finance and Operations 应用中，如果客户记录具有主要地址，当您为该客户创建新联系人时，联系人记录将从关联的客户记录继承主要地址。 供应商联系人也是如此。 Dataverse 目前不支持此行为。 如果启用了双重写入，从 Finance and Operations 应用通过主要地址继承的客户联系人将随其地址一起同步到 Dataverse。
++ 在财务和运营应用中，当您创建客户以及地址并进行保存时，地址可能不会同步到 **地址** 表。 这是由于双重写入平台排序问题。 解决方法是，先创建客户并进行保存。 然后添加地址。
++ 在财务和运营应用中，如果客户记录具有主要地址，当您为该客户创建新联系人时，联系人记录将从关联的客户记录继承主要地址。 供应商联系人也是如此。 Dataverse 目前不支持此行为。 如果启用了双重写入，从财务和运营应用通过主要地址继承的客户联系人将随其地址一起同步到 Dataverse。
 + 在 **客户**、**联系人** 和 **供应商** 窗体的电子地址选项卡上设置的电子地址来自 `msdyn_partyelectronicaddress` 表。 此信息不会流向其关联交易，如销售订单、报价单和采购订单。 我们计划在增量版本中解决此问题。 客户和联系人记录上电子地址字段中的现有数据将继续用于销售订单、报价单和采购订单之类的交易。
-+ 在 Finance and Operations 应用中，您可以从 **添加联系人** 窗体创建联系人记录。 当您尝试从 **查看联系人** 窗体创建新联系人时，操作将失败。 这是一个已知问题。
++ 在财务和运营应用中，您可以从 **添加联系人** 窗体创建联系人记录。 当您尝试从 **查看联系人** 窗体创建新联系人时，操作将失败。 这是一个已知问题。
 
     ![添加联系人的已知问题。](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ ms.locfileid: "7781336"
 
     ![地址的已知问题。](media/party-gab-address-issue.png)
 
-+ 您不能使用具有双重写入功能的 Finance and Operations 应用输入将来的邮寄地址，因为 Dataverse 不支持日期有效期。 如果您使用 Finance and Operations 应用输入将来的邮寄地址，它将完全同步到 Dataverse，您会在用户界面立即看到该地址。 此记录的任何更新都将导致错误，因为它在 Finance and Operations 应用中是将来的日期，而不是当前日期。
++ 您不能使用具有双写入功能的财务和运营应用输入将来的邮寄地址，因为 Dataverse 不支持日期有效期。 如果您使用财务和运营应用输入将来的邮寄地址，它将完全同步到 Dataverse，您会在用户界面立即看到该地址。 此记录的任何更新都将导致错误，因为它在财务和运营应用中是将来的日期，而不是当前日期。

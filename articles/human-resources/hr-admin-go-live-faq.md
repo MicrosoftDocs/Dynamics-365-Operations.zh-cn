@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ca6c89f5f6dc4660a77587112526a6516f683f64ce95a9a83f39add119d2ee12
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c449ae6eb84fb4150072c386d02b100ca3cca219
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731387"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067218"
 ---
 # <a name="go-live-faq"></a>实施常见问题 
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。 
 

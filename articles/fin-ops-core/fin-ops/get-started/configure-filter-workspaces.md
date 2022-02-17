@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e62ef719652ca0e75333c239b741b723190fde34dd6348c1d8a5e8541cb6c8c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765758"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068726"
 ---
 # <a name="configure-and-filter-workspaces"></a>配置和筛选工作区
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本文提供有关如何配置和筛选工作区的概览。
 

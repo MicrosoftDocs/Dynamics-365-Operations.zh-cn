@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7fba7cc060dbfaecc25c41a8cbda5bc8f169acf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985462"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062667"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service 集成概览
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Supply Chain Management 实现 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 之间的业务流程同步。 集成方案的配置方法是使用可扩展的数据集成器模板和 Microsoft Dataverse 实现业务流程同步。
 可使用标准模板创建定制集成项目，还可以使用模板映射更多标准列和自定义列以及表以调整集成并满足具体业务需求。 

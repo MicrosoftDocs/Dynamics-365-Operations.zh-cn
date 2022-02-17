@@ -1,6 +1,6 @@
 ---
-title: 解决 Finance and Operations 应用中的双写入问题
-description: 本主题提供故障排除信息，可以帮助您解决 Finance and Operations 应用中的双写入模块问题。
+title: 解决 Finance and Operations 应用中的双重写入问题
+description: 本主题提供故障排除信息，可以帮助您解决财务和运营应用中的双写入模块问题。
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781190"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061800"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双写入问题
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双重写入问题
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主题提供 Finance and Operations 应用与 Dataverse 之间的双写入集成的故障排除信息。 具体来说，提供可以帮助您解决 Finance and Operations 应用中的 **双写入** 模块问题的信息。
+
+本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决财务和运营应用中的 **双写入** 模块问题的信息。
 
 > [!IMPORTANT]
 > 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>您无法在 Finance and Operations 应用中加载双写入模块
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>您无法在财务和运营应用中加载双写入模块
 
 如果您无法通过选择 **数据管理** 工作区中的 **双写入** 磁贴来打开 **双写入** 页面，则说明数据集成服务可能中断。 请创建支持票证请求重新启动数据集成服务。
 
@@ -49,7 +49,7 @@ ms.locfileid: "7781190"
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>为双写入链接环境或添加新表映射时出错
 
-**解决此问题所需的角色：** 同时是 Finance and Operations 应用和 Dataverse 的系统管理员。
+**解决此问题所需的角色：** 财务和运营应用和 Dataverse 中的系统管理员。
 
 链接或创建映射时，您可能会遇到以下错误：
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-如果您没有足够的权限链接双写入或创建映射，则会发生此错误。 如果在不取消双写入链接的情况下重置了 Dataverse 环境，也会发生此错误。 任何在 Finance and Operations 应用和 Dataverse 中都具有系统管理员角色的用户都可以链接环境。 只有设置双写入连接的用户才可以添加新表映射。 设置后，具有系统管理员角色的任何用户都可以监视状态并编辑映射。
+如果您没有足够的权限链接双写入或创建映射，则会发生此错误。 如果在不取消双写入链接的情况下重置了 Dataverse 环境，也会发生此错误。 任何在财务和运营应用和 Dataverse 中都具有系统管理员角色的用户都可以链接环境。 只有设置双写入连接的用户才可以添加新表映射。 设置后，具有系统管理员角色的任何用户都可以监视状态并编辑映射。
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>停止表映射时出错
 
@@ -82,7 +82,7 @@ Root activity ID: \<your root activity\> id
 当您尝试将映射的状态设置为 **正在运行** 时，可能会收到此错误。 解决方法取决于错误原因：
 
 + 如果映射具有相关映射，请确保启用此表映射的相关映射。
-+ 映射可能缺少源或目标列。 如果缺少 Finance and Operations 应用中的列，请按照[映射中缺少表列问题](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的列，请单击映射上的 **刷新表** 按钮，让这些列自动填充回映射中。
++ 映射可能缺少源或目标列。 如果缺少财务和运营应用中的列，请按照[映射中缺少表列问题](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的步骤进行操作。 如果缺少 Dataverse 中的列，请单击映射上的 **刷新表** 按钮，让这些列自动填充回映射中。
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>版本不匹配错误和升级双重写入解决方案
 

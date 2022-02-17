@@ -2,7 +2,7 @@
 title: 检查配置的 ER 组件以防止运行时问题
 description: 本主题说明如何检查配置的电子申报 (ER) 组件，以防止可能发生的运行时问题。
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488106"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074783"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
 [!include[banner](../includes/banner.md)]
 
-配置的每个[电子申报 (ER)](general-electronic-reporting.md) [格式](general-electronic-reporting.md#FormatComponentOutbound)和[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)组件都可以在设计时[验证](er-fillable-excel.md#validate-an-er-format)。 在此验证期间，将运行一致性检查以帮助防止可能发生的运行时问题，例如执行错误和性能降级。 对于发现的每个问题，检查都会提供问题元素的路径。 对于某些问题，可以使用自动修复。
+配置的每个[电子申报 (ER)](general-electronic-reporting.md) [格式](er-overview-components.md#format-components-for-outgoing-electronic-documents)和[模型映射](er-overview-components.md#model-mapping-component)组件都可以在设计时[验证](er-fillable-excel.md#validate-an-er-format)。 在此验证期间，将运行一致性检查以帮助防止可能发生的运行时问题，例如执行错误和性能降级。 对于发现的每个问题，检查都会提供问题元素的路径。 对于某些问题，可以使用自动修复。
 
 默认情况下，在以下情况下，将自动对包含先前提到的 ER 组件的 ER 配置应用验证：
 
@@ -236,6 +236,15 @@ ER 使用以下类别为一致性检查检验分组：
 <td>错误​</td>
 <td>有两个以上没有复制的范围组件。 请删除不必要的组件。</td>
 </tr>
+<tr>
+<td><a href='#i18'>带 ORDERBY 函数的表达式的可执行性</a></td>
+<td>可执行性</td>
+<td>错误</td>
+<td>
+<p>ORDERBY 函数的列表表达式无法查询。</p>
+<p><b>运行时错误：</b>不支持排序。 验证配置以获得有关此问题的更多详细信息。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 8. 将这个新的嵌套字段命名为 **$AccNumber**，然后对其进行配置，以使其包含表达式 `TRIM(Vendor.AccountNum)`。
 9. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询 **Vendor** 数据源中的 `FILTER(Vendor, Vendor.AccountNum="US-101")` 表达式。
 
-    ![验证是否可以在“模型映射设计器”页面上查询表达式。](./media/er-components-inspections-04.gif)
+    ![验证是否可以在“模型映射设计器”页面上查询具有 FILTER 函数的表达式。](./media/er-components-inspections-04.gif)
 
 10. 请注意，发生了验证错误，因为 **Vendor** 数据源中包含一个类型为 **计算字段** 的嵌套字段，并且该嵌套字段不允许将 **FilteredVendor** 数据源的表达式转换为直接 SQL 语句。
 
@@ -671,19 +680,19 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 ![在“格式设计器”页面上运行格式映射期间发生的运行时错误。](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>自动解决
+### <a name="automatic-resolution"></a>自动解决
 
 没有用于自动修复此问题的选项。
 
-### <a name=&quot;manual-resolution&quot;></a>手动解决
+### <a name="manual-resolution"></a>手动解决
 
-#### <a name=&quot;option-1&quot;></a>选项 1
+#### <a name="option-1"></a>选项 1
 
 删除 **Vendor** 数据源中的 **Cache** 标志。 然后，**FilteredVendor** 数据源将变为可执行，但是每次调用 **FilteredVendor** 数据源时，都将访问 VendTable 表中引用的 **Vendor** 数据源。
 
-#### <a name=&quot;option-2&quot;></a>选项 2
+#### <a name="option-2"></a>选项 2
 
-将 **FilteredVendor** 数据源的表达式从 `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` 更改为 `WHERE(Vendor, Vendor.AccountNum="US-101")`。 在此情况下，仅在首次调用 **Vendor** 数据源时，才能访问 VendTable 表中引用的 **Vendor** 数据源。 但是，将在内存中选择记录。 因此，这种方法可能会导致性能低下。
+将 **FilteredVendor** 数据源的表达式从 `FILTER(Vendor, Vendor.AccountNum="US-101")` 更改为 `WHERE(Vendor, Vendor.AccountNum="US-101")`。 在此情况下，仅在首次调用 **Vendor** 数据源时，才能访问 VendTable 表中引用的 **Vendor** 数据源。 但是，将在内存中选择记录。 因此，这种方法可能会导致性能低下。
 
 ## <a name="missing-binding"></a><a id="i11"></a>缺少绑定
 
@@ -892,6 +901,47 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 #### <a name="option-1"></a>选项 1
 
 通过更改所有不一致的 **Excel\\范围** 组件的 **复制方向** 属性来修改配置的格式。
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>带 ORDERBY 函数的表达式的可执行性
+
+内置 [ORDERBY](er-functions-list-orderby.md) ER 函数用于对指定为函数参数的 **[记录列表](er-formula-supported-data-types-composite.md#record-list)** 类型的 ER 数据源的记录进行排序。
+
+`ORDERBY` 函数的参数可以被[指定](er-functions-list-orderby.md#syntax-2)通过执行单一数据库调用作为记录列表获取排序的数据，来对应用程序表、视图或数据实体的记录进行排序。 **记录列表** 类型的数据源用作此函数的参数，并指定调用的应用程序源。
+
+ER 检查是否可以为 `ORDERBY` 函数中引用的数据源建立直接数据库查询。 如果无法建立直接查询，ER 模型映射设计器中会发生验证错误。 您收到的消息指出在运行时不能运行其中包含 `ORDERBY` 函数的 ER 表达式。
+
+以下步骤显示可能会如何发生此问题。
+
+1. 开始配置 ER 模型映射组件。
+2. 添加一个类型为 **Dynamics 365 for Operations \\ 表记录** 的数据源。
+3. 将新数据源命名为 **Vendor**。 在 **表** 字段中，选择 **VendTable** 指定此数据源将请求 **VendTable** 表。
+4. 添加一个类型为 **计算字段** 的数据源。
+5. 将新数据源命名为 **OrderedVendors**，然后对其进行配置，以使其包含表达式 `ORDERBY("Query", Vendor, Vendor.AccountNum)`。
+ 
+    ![在“模型映射设计器”页面上配置数据源。](./media/er-components-inspections-18-1.png)
+
+6. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询 **OrderedVendors** 数据源中的表达式。
+7. 通过向裁剪后的供应商帐号添加 **计算字段** 类型的嵌套字段，修改 **Vendor** 数据源。
+8. 将这个新的嵌套字段命名为 **$AccNumber**，然后对其进行配置，以使其包含表达式 `TRIM(Vendor.AccountNum)`。
+9. 选择 **验证** 检查 **模型映射设计器** 页上的可编辑模型映射组件，然后验证是否可查询 **Vendor** 数据源中的表达式。
+
+    ![验证是否可以在“模型映射设计器”页面上查询 Vendor 数据源中的表达式。](./media/er-components-inspections-18-2.png)
+
+10. 请注意，发生了验证错误，因为 **Vendor** 数据源中包含一个类型为 **计算字段** 的嵌套字段，并且该嵌套字段不允许将 **OrderedVendors** 数据源的表达式转换为直接数据库语句。 如果您忽略验证错误并选择 **运行** 运行此模型映射，则会在运行时发生同样的错误。
+
+### <a name="automatic-resolution"></a>自动解决
+
+没有用于自动修复此问题的选项。
+
+### <a name="manual-resolution"></a>手动解决
+
+#### <a name="option-1"></a>选项 1
+
+不是向 **Vendor** 数据源添加类型为 **计算字段** 的嵌套字段，而是将 **$AccNumber** 嵌套字段添加到 **FilteredVendors** 数据源，并配置此字段，使其包含表达式 `TRIM(FilteredVendor.AccountNum)`。 这样，`ORDERBY("Query", Vendor, Vendor.AccountNum)` 表达式就可以在数据库级别运行，**$ AccNumber** 嵌套字段可以在以后计算。
+
+#### <a name="option-2"></a>选项 2
+
+将 **FilteredVendors** 数据源的表达式从 `ORDERBY("Query", Vendor, Vendor.AccountNum)` 更改为 `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`。 建议不要更改包含大量数据的表（事务表）的表达式，因为将提取所有记录，并且将在内存中排序所需的记录。 因此，这种方法可能会导致性能低下。
 
 ## <a name="additional-resources"></a>其他资源
 

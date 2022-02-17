@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917722"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061828"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>双写入货币数据类型迁移
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 您最多可以将货币值支持的小数位数增加到 10。 默认限制是四个小数位。 通过增加小数位数，可以帮助您防止在使用双写入同步数据时丢失数据。 小数位数的增加是一种选择更改。 要实现它，您必须寻求 Microsoft 的帮助。
 
@@ -29,7 +29,7 @@ ms.locfileid: "7917722"
 1. 从 Microsoft 请求迁移。
 2. 在 Dataverse 中更改小数位数。
 
-Finance and Operations 应用和 Dataverse 必须在货币值中支持相同数量的小数位数。 否则，在应用之间同步此信息时，可能会发生数据丢失。 迁移流程将重新配置货币和汇率值的存储方式，但不会更改任何数据。 迁移完成后，可以增加币种代码和定价的小数位数，用户输入和查看的数据可以具有更高的小数精度。
+财务和运营应用和 Dataverse 必须在货币值中支持相同数量的小数位数。 否则，在应用之间同步此信息时，可能会发生数据丢失。 迁移流程将重新配置货币和汇率值的存储方式，但不会更改任何数据。 迁移完成后，可以增加币种代码和定价的小数位数，用户输入和查看的数据可以具有更高的小数精度。
 
 迁移是可选的。 如果支持更多小数位可能对您有好处，建议您考虑迁移。 不需要四位以上小数位的值的组织不必迁移。
 
@@ -37,7 +37,7 @@ Finance and Operations 应用和 Dataverse 必须在货币值中支持相同数�
 
 Dataverse 中现有货币列的存储无法支持超过四个小数位。 因此，在迁移流程中，货币值将被复制到数据库中的新内部列。 此流程将持续进行，直到所有数据都已迁移。 在内部，在迁移结束时，新的存储类型将替换旧的存储类型，但是数据值不变。 然后，货币列最多可以支持 10 个小数位。 在迁移流程中，Dataverse 可以继续使用而不会中断。
 
-同时，汇率将修改，使其支持最多 12 个小数位，而不是当前的 10 个限制。 此更改是必需的，以使 Finance and Operations 应用和 Dataverse 中的小数位数相同。
+同时，汇率将修改，使其支持最多 12 个小数位，而不是当前的 10 个限制。 此更改是必需的，以使财务和运营应用和 Dataverse 中的小数位数相同。
 
 迁移不会更改任何数据。 货币和汇率列转换后，管理员可以通过指定每种交易货币和定价的小数位数来配置系统以最多为货币列使用 10 个小数位。
 

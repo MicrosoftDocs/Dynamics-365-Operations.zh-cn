@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b114448db4f70ec1ef3fcae539030238659f37393e6d5ae126666348343ad47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712477"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066460"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>配置工作流中的手动任务
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题说明如何配置手动任务的属性。
 

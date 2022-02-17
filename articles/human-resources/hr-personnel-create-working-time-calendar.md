@@ -13,17 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: d56e38edc00780ad16aaafdb501b8f5df49020f2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731659"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075241"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>创建日历并生成工作时间
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
+> [!IMPORTANT]
+> 本主题中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
 
 
 日历描述运营资源的产能和工作时间。 此主题介绍如何定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。

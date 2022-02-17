@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592657"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068784"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -28,7 +28,10 @@ ms.locfileid: "7592657"
 [!include [banner](../includes/banner.md)]
 
 
-此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Finance and Operations 应用开始。
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+
+此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 要打开实体数据，可从 Excel 或财务和运营应用开始。
 
 通过在 Excel 中打开实体数据，可以使用 Excel 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016 或更高版本。
 
@@ -37,15 +40,15 @@ ms.locfileid: "7592657"
 
 若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>从 Finance and Operations 应用开始时在 Excel 中打开实体数据
-1. 在 Finance and Operations 应用中的页面上，选择 **在 Microsoft Office 中打开**。
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>从财务和运营应用开始时在 Excel 中打开实体数据
+1. 在财务和运营应用中的一个页面内，选择 **在 Microsoft Office 中打开**。
 
     如果该页面的根数据源（表）与任何实体的根数据源相同，将为该页面生成默认 **在 Excel 中打开** 选项。 可以在常用页面（如 **所有供应商** 和 **所有客户**）中找到 **在 Excel 中打开** 选项。
  
 2. 选择 **在 Excel 中打开** 选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
 3. 在 Excel 中，选择 **启用编辑** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 如果首次运行此 Excel 加载项，则选择 **信任此加载项**。
-5. 如果系统提示您登录，选择 **登录**，然后使用用于登录 Finance and Operations 应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
+5. 如果系统提示您登录，选择 **登录**，然后使用用于登录财务和运营应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
 
 此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 
@@ -54,7 +57,7 @@ ms.locfileid: "7592657"
 2. 在 Office 应用商店中，搜索关键字 **Dynamics**，然后选择 **Microsoft Dynamics Office 加载项**（即此 Excel 加载项）旁边的 **添加**。
 3. 如果首次运行此 Excel 加载项，请选择 **信任此加载项** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 选择 **添加服务器信息** 打开 **选项** 页面。
-5. 在浏览器中，复制目标 Finance and Operations 应用实例的 URL，将其粘贴到 **服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
+5. 在浏览器中，复制目标财务和运营应用实例的 URL，将其粘贴到 **服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
 
     例如，如果 URL 为 `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`，则删除除 `https://xxx.dynamics.com` 以外的所有内容。
 
@@ -73,7 +76,7 @@ ms.locfileid: "7592657"
 此 Excel 加载项将实体数据读入工作簿之后，随时可通过选择 Excel 加载项中的 **刷新** 更新这些数据。
 
 ## <a name="edit-entity-data-in-excel"></a>在 Excel 中编辑实体数据
-可根据需要更改实体数据，然后通过选择 Excel 加载项中的 **发布** 将其发布回 Finance and Operations 应用。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
+可根据需要更改实体数据，然后通过选择 Excel 加载项中的 **发布** 将其发布回财务和运营应用。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
 
 - 单击数据源表中的任意位置，然后选择此 Excel 加载项中的 **新建**。
 - 在数据源表最后一行中单击任何位置，然后按 Tab 键，直到光标移出该行的最后一列，并创建一个新行。

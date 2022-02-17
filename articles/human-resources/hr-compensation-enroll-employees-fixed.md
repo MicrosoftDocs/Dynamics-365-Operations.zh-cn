@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431080"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071436"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,8 +34,8 @@ ms.locfileid: "7431080"
 3. 在列表中，单击所选行中的链接。
 4. 在 **职位** 字段中，单击下拉按钮以打开查找。
 5. 在列表中，单击所选行中的链接。
-    * 该标准是根据“工作职位”的“薪酬水平”呈现的。 该工作标准必须在付给雇员薪酬之前设置。  
-6. 在 **计划** 字段中，为该雇员选择“固定薪酬计划”。 “计划查找”仅显示经过筛选后固定薪酬计划符合“资格规定”的雇员。
+    * 显示的级别来自分配给 **职位** 的 **工作** 的 **薪酬** 快速选项卡 > **级别** 字段。 该工作标准必须在付给雇员薪酬之前设置。  
+6. 在 **计划** 字段中，为该雇员选择“固定薪酬计划”。 **计划** 查找仅显示经过筛选后固定薪酬计划符合 **资格规则** 的员工。
 7. 在列表中，找到并选择所需记录。
     * 薪酬 **生效日期** 与 **截止日期** 默认为指派工作人员职位的开始日期与结束日期。 可以根据需要更改相关日期。  
     * 如果该雇员的“固定薪酬计划”是一步计划，则选择包含相应工资标准的薪酬阶梯。 如果该雇员的固定薪酬计划是根据等级或期间设置，输入其工资标准。 该工资标准将验证该薪酬计划设置的可行性程度，以及该工作薪酬水平的最小和最大参考值。  

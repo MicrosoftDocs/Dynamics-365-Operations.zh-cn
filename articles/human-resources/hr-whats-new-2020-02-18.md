@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f74692ffe8afbdeea7519ac8bdfbbe54105b9ccee83031a9b1c223be78fc12e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770400"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062996"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources（2020 年 2 月 18 日）中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.2903。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
 ## <a name="platform-update-32"></a>平台 update 32 
 
-现已推出了平台更新 32。 有关详细信息，请参阅 [Finance and Operations 应用的平台更新 32（2020 年 2 月）的新增功能或更改的功能](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)。
+现已推出了平台更新 32。 有关详细信息，请参阅[财务和运营的平台更新 32（2020 年 2 月）的新增或更改内容](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)。
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>更改简化的员工窗体中的查看选项时记忆搜索值 (383833)
 

@@ -2,7 +2,7 @@
 title: 在电子报告中设计多语言报告
 description: 本主题说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674421"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074934"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674421"
 
 ## <a name="overview"></a>概览
 
-作为业务用户，您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架根据各个国家或地区的法律要求配置必须生成的传出文档的格式。 当这些要求需要针对不同国家或地区以不同语言生成传出文档时，您可以配置一个包含语言相关资源的 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)。 这样，您可以重用此格式来生成各个国家或地区的传出文档。 您可能还希望使用一个 ER 格式为相应的客户、供应商、子公司或任何其他方生成不同语言的传出文档。
+作为业务用户，您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架根据各个国家或地区的法律要求配置必须生成的传出文档的格式。 当这些要求需要针对不同国家或地区以不同语言生成传出文档时，您可以配置一个包含语言相关资源的 ER 格式。 这样，您可以重用此格式来生成各个国家或地区的传出文档。 您可能还希望使用一个 ER 格式为相应的客户、供应商、子公司或任何其他方生成不同语言的传出文档。
 
-您可以将 ER 数据模型和模型映射配置为已配置的 ER 格式的数据源，来定义指定将哪些应用程序数据放入生成的文档的数据流。 作为 ER 配置[提供者](general-electronic-reporting.md#Provider)，您可以[发布](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs)配置的[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)、[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)和[格式](general-electronic-reporting.md#FormatComponentOutbound)作为 ER 解决方案的组成部分，来生成特定的传出文档。 您还可以允许客户[上载](general-electronic-reporting-manage-configuration-lifecycle.md)已发布的 ER 解决方案，以便可以使用和定制该解决方案。 如果您希望客户讲其他语言，则可以配置 ER 组件，使其包含语言相关资源。 以此方式，可在设计时以客户的用户首选语言呈现可编辑 ER 组件的内容。
+您可以将 ER 数据模型和模型映射配置为已配置的 ER 格式的数据源，来定义指定将哪些应用程序数据放入生成的文档的数据流。 作为 ER 配置[提供者](general-electronic-reporting.md#Provider)，您可以[发布](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs)配置的[数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)、[模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)和格式作为 ER 解决方案的组成部分，来生成特定的传出文档。 您还可以允许客户[上载](general-electronic-reporting-manage-configuration-lifecycle.md)已发布的 ER 解决方案，以便可以使用和定制该解决方案。 如果您希望客户讲其他语言，则可以配置 ER 组件，使其包含语言相关资源。 以此方式，可在设计时以客户的用户首选语言呈现可编辑 ER 组件的内容。
 
 您可以将语言相关资源配置为 ER 标签。 然后，可以使用这些标签来配置 ER 组件以用于以下目的：
 
@@ -232,6 +232,19 @@ ER 版本控制将控制向 ER 组件中的任何属性的标签分配。 对标
 ## <a name="performance"></a><a name=performance></a>绩效
 
 当您配置 ER 格式组件，以便生成首选 [语言](#language)的报表或导入其中的内容使用首选语言解析的传入文档时，我们建议您在 [功能管理](../../fin-ops/get-started/feature-management/feature-management-overview.md)工作区中启用 **为 ER 运行高速缓存当前用户的首选语言** 功能。 此功能有助于改进性能，尤其是对于其中包含对 ER 公式和绑定的多个引用以及用于使用您的首选语言生成用户消息的大量[验证](general-electronic-reporting-formula-designer.md#TestFormula)规则的 ER 格式组件。
+
+当您将 ER 配置版本的状态从 **草稿** 更改为 **已完成** 时，如果配置版本包含 ER 标签，这些标签将存储在应用程序数据库中。 存储架构取决于 **加速 ER 标签存储** 功能的状态：
+
+- 如果未启用此功能，所有标签都将作为单个 XML 片段存储在 **ERSOLUTIONVERSIONTABLE** 表的 **LABELXML** 字段中。
+- 如果已启用此功能，将为 **ERSOLUTIONVERSIONLABELSTABLE** 表中的每种语言创建单独的记录。 此表的 **内容** 字段作为压缩的 XML 片段存储每种语言的标签。
+
+我们建议您在 **功能管理** 工作区启用 **加速 ER 标签存储** 功能。 此功能有助于提高网络带宽利用率和整体系统性能，因为在大多数情况下，当您使用单个 ER 配置时，会使用单个语言的 ER 标签。
+
+要应用所选存储架构以保留当前 Finance 实例中所有 ER 配置的标签，请完成以下步骤。
+
+1. 转到 **组织管理** > **定期** > **为所有 ER 配置应用选定的标签存储架构**。
+2. 选择 **确定**。
+
 
 ## <a name="additional-resources"></a>其他资源
 

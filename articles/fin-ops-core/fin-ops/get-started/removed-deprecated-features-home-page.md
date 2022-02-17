@@ -1,6 +1,6 @@
 ---
 title: 已删除或弃用的功能主页
-description: 本主题提供了有关 Finance and Operations 应用中已删除或已弃用的功能的帮助主题列表。
+description: 本主题提供了有关财务和运营应用中已删除或已弃用的功能的帮助主题列表。
 author: sericks007
 ms.date: 05/27/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a642114d6fee90b084e2d7c3cb432d2b8fb29a95
-ms.sourcegitcommit: 3f77e0b988f6dd0c9edfdec1dbd9815380501dbb
+ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7916934"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087337"
 ---
-# <a name="removed-or-deprecated-features-home-page"></a>已删除或弃用的功能主页
+# <a name="removed-or-deprecated-features-home-page"></a>“已删除或弃用的功能”主页
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>Finance and Operations 应用中已删除或弃用的功能
-以下主题提供了有关 Finance and Operations 应用中已删除或已弃用的功能的信息：
+## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>财务和运营应用中已删除或弃用的功能
+以下主题提供了有关财务和运营应用中已删除或已弃用的功能的信息：
 
 - [Dynamics 365 Commerce 中已删除或弃用的功能](../../../commerce/get-started/removed-deprecated-features-commerce.md)
 - [Dynamics 365 Finance 中已删除或弃用的功能](../../../finance/get-started/removed-deprecated-features-finance.md)
 - [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](../../../supply-chain/get-started/removed-deprecated-features-scm-updates.md)
-- [Dynamics 365 Project Operations 中已删除或弃用的功能](/project-operations/whats-new/removed-depreciated-features-project)
+- [Dynamics 365 Project Operations 中已删除或弃用的功能](/dynamics365/project-operations/whats-new/removed-depreciated-features-project)
 - [已删除或弃用的平台功能](../../dev-itpro/get-started/removed-deprecated-features-platform-updates.md)
 - [先前版本中已删除或弃用的功能](../../dev-itpro/migration-upgrade/deprecated-features.md)
 

@@ -12,16 +12,19 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 17673f3f37588bb6a19dbb0d880706dc6b7ff746
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781268"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070819"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题提供 **数据验证核对清单工作区** 和相关配置的概览。
 

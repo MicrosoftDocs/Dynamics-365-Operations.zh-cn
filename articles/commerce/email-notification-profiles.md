@@ -2,7 +2,7 @@
 title: 设置电子邮件通知配置文件
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771023"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087859"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771023"
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
 
-创建渠道时，可以设置电子邮件通知配置文件。 这样，就可以针对各种交易事件（例如，订单创建、订单运送状态和付款失败）给客户发送电子邮件。
+创建渠道时，可以设置电子邮件通知配置文件。 电子邮件通知配置文件定义销售交易记录事件（如订单已创建、订单已包装和订单已开票事件），您将为这些事件向客户发送通知。 
 
 有关其他电子邮件配置信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "6771023"
 
 ### <a name="create-an-email-template"></a>创建电子邮件模板
 
-必须先在 Commerce Headquarters 中创建组织电子邮件模板，然后才能启用电子邮件通知类型。 该模板针对您要支持的每种语言定义电子邮件主题、发件人、默认语言和电子邮件正文。
+必须先在 Commerce Headquarters 中为您要支持的每个通知类型创建组织电子邮件模板，然后才能启用电子邮件通知类型。 此模板针对每个支持的语言定义电子邮件主题、发件人、默认语言和电子邮件正文。
 
 若要创建电子邮件模板，请执行以下步骤。
 
@@ -61,6 +61,8 @@ ms.locfileid: "6771023"
 
 ![电子邮件模板设置。](media/email-template.png)
 
+有关如何创建电子邮件模板的详细信息，请参阅[创建交易事件的电子邮件模板](email-templates-transactions.md)。 
+
 ### <a name="create-an-email-event"></a>创建电子邮件事件
 
 若要创建电子邮件事件，请执行以下步骤。
@@ -76,10 +78,12 @@ ms.locfileid: "6771023"
 
 ![事件通知设置。](media/email-notification-profile.png)
 
+> [!NOTE]
+> 客户创建的通知类型需要先实现自定义，然后才能够发送电子邮件通知。
+
 ### <a name="next-steps"></a>后续步骤
 
 必须先配置出站邮件服务和设置批处理作业，然后才能发送邮件。 有关详细信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
-
 
 ## <a name="additional-resources"></a>其他资源
 

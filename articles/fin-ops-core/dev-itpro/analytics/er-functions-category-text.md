@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647552"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075492"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>文本类别的 ER 函数列表
 
@@ -35,6 +35,7 @@ ms.locfileid: "7647552"
 | [连接](er-functions-text-concatenate.md) | 在将所有指定的文本字符串合并为一个字符串之后，此函数将这些字符串作为 *字符串* 值返回。 |
 | [格式](er-functions-text-format.md) | 通过使用第 *N* 个参数替换出现的所有 **%N** 设定指定字符串的格式后，此函数作为 *字符串* 值返回该字符串。 |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | 此函数通过使用指定为 *字符串* 值的枚举名称在指定的枚举数据源中搜索特定的 *枚举* 值。 如果找到 *枚举* 值，函数将返回此值。 |
+| [GetLabelText](er-functions-text-getlabeltext.md) | 此函数搜索特定标签以返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，该值表示使用指定语言对指定标签的翻译。 |
 | [GuidValue](er-functions-text-guidvalue.md) | 此函数将 *字符串* 类型的指定输入转换为 *GUID* 类型的数据项。 |
 | [JsonValue](er-functions-text-jsonvalue.md) | 此函数分析在指定路径访问且格式为 JavaScript Object Notation (JSON) 的数据，并提取基于指定 ID 的标量值。 然后将提取的标量值返回为 *字符串* 值。 |
 | [左对齐](er-functions-text-left.md) | 此函数返回 *字符串* 值，该值在指定字符串的开头显示指定的字符数量。 |

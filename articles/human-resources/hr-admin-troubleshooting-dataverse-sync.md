@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-27
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d88f538fbf22313feaca6771b7cb1757a3c3fbad
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: d6b20b6b2ae4fdbbfb27a765dfb7a1dc82fe7981
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559628"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071152"
 ---
 # <a name="reset-dataverse-synchronization"></a>重置 Dataverse 同步
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

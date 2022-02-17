@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a0f3aaa35abc0b1818ebcedded3fb9d18d1ecf7f3a26a9aa75477b53d2eacdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772680"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067369"
 ---
 # <a name="manage-employee-leave"></a>管理员工休假
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
