@@ -2,24 +2,27 @@
 title: 高级银行对帐 MT940 导入 - 综合数据实体升级
 description: 需要将序列号添加到银行对账单导入实体以支持 MT940 格式。
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c891a5139ff7de85e6762513f57236e24f1644529d7825c9ce5e1dfda50fbad8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440694"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>高级银行对帐 MT940 导入 - 综合数据实体升级
 
@@ -61,6 +64,3 @@ ms.locfileid: "6739375"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

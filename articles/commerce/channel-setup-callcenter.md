@@ -2,24 +2,27 @@
 title: 设置呼叫中心渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的呼叫中心渠道。
 author: samjarawan
+manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744526"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410638"
 ---
 # <a name="set-up-a-call-center-channel"></a>设置呼叫中心渠道
 
@@ -54,11 +57,11 @@ ms.locfileid: "6744526"
 
 下图显示了新呼叫中心渠道的创建过程。
 
-![新呼叫中心渠道。](media/channel-setup-callcenter-1.png)
+![新呼叫中心渠道](media/channel-setup-callcenter-1.png)
 
 下图显示了一个呼叫中心渠道示例。
 
-![呼叫中心渠道示例。](media/channel-setup-callcenter-2.png)
+![呼叫中心渠道示例](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>其他渠道设置
 
@@ -66,7 +69,7 @@ ms.locfileid: "6744526"
 
 下图显示了 **设置** 选项卡上的 **交货方式** 和 **付款方式** 设置选项。
 
-![其他呼叫中心渠道设置操作。](media/channel-setup-callcenter-3.png)
+![其他呼叫中心渠道设置操作](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>设置付款方式
 
@@ -81,9 +84,9 @@ ms.locfileid: "6744526"
 
 下图显示了现金支付方式的示例。
 
-![付款方式示例。](media/channel-setup-callcenter-payments.png)
+![付款方法示例](media/channel-setup-callcenter-payments.png)
 
-### <a name="set-up-modes-of-delivery"></a>设置交货模式
+### <a name="set-up-modes-of-delivery"></a>设置交货方式
 
 您可以从 **操作窗格** 上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
 
@@ -97,7 +100,7 @@ ms.locfileid: "6744526"
 
 下图显示了交货方式的示例。
 
-![设置交货模式。](media/channel-setup-retail-7.png)
+![设置交货方式](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>设置渠道用户
 
@@ -133,6 +136,3 @@ ms.locfileid: "6744526"
 [设置和使用欺诈预警](set-up-fraud-alerts.md)
 
 [设置呼叫中心的连续性计划](set-up-continuity-program.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

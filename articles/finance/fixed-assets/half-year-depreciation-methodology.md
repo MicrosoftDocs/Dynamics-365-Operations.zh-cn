@@ -2,25 +2,28 @@
 title: 半年折旧惯例方法
 description: 本主题介绍固定资产用于计算使用半年惯例的折旧的方法，即计算资产第一年到最后一年服务期间的六个月折旧。
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440615"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 
@@ -36,9 +39,6 @@ ms.locfileid: "6746432"
 > 年折旧 50,000/5 = 10,000，月折旧 10,000/12 = 833.33 <br>
 > 第一年折旧 10,000/2 = 5,000，后续月折旧 5,000/9 = 555.56
 
-   [![半年折旧惯例的折旧计划。](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![半年折旧惯例的折旧计划](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 半年惯例增加的延长后折旧期的折旧分配更精确。 六个月惯例提供的折旧费用更平均，这对损益表中的报告非常有用。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

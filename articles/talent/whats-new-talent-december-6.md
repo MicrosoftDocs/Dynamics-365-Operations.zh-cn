@@ -143,6 +143,3 @@ Talent 和 Ceridian Dayforce 之间的集成在 UK 的预览中提供。 请参�
 
 ![“性别”字段转换](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

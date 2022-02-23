@@ -2,30 +2,33 @@
 title: 批次和牌照确认
 description: 此主题描述如何从移动设备设置和应用批次和牌照确认。
 author: Mirzaab
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13e246f9a496dcc38829eef788d09c50300c99fb95daffad134012733341e4af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726529"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514294"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>批次和牌照确认
 
 [!include [banner](../includes/banner.md)]
 
-批次确认允许您从移动设备确认正领取正确的批次。 在仅 *Batch-above\[location\]* 物料的初始领料工作上，上方批次表示高于搜索层次结构中的库位的批次，您必须验证领取的批次与工作行上的批次是否匹配。
+批次确认允许您从移动设备确认正领取正确的批次。 在仅物料上方批次的初始领料工作上，上方批次表示高于搜索层次结构中的库位的批次范围，您必须验证领取的批次与工作行上的批次匹配。
 
 牌照确认允许您从移动设备确认正领取正确的牌照。 从暂存位置执行领料工作时，您必须核实已领取的牌照与该工作关联的牌照匹配。 如果通过扫描牌照启动该工作，将跳过此确认步骤。
 
@@ -45,6 +48,3 @@ ms.locfileid: "6726529"
 
 1. 从移动设备菜单项输入工作确认设置。  
 1. 为批次或牌照确认选择选项。 两个选项对未启用自动确认的工作类型领料均可用。  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

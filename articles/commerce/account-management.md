@@ -1,13 +1,16 @@
 ---
-title: 帐户管理页面和模块
+title: 帐户管理页和模块
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的帐户管理页和模块。
 author: v-chgri
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716242"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410406"
 ---
-# <a name="account-management-pages-and-modules"></a>帐户管理页面和模块
+# <a name="account-management-pages-and-modules"></a>帐户管理页和模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 中的帐户管理页和模块。
+
+## <a name="overview"></a>概览
 
 帐户管理指的是 Dynamics 365 Commerce 中一组用于管理与用户帐户有关的信息的页面。 帐户管理页包括帐户管理登陆页、用户个人资料页、用户地址页、订单历史记录页、订单详细信息页、会员页和愿望列表页。
 
@@ -49,9 +54,9 @@ ms.locfileid: "6716242"
 
 订单详细信息页提供每个订单的详细信息，可从订单历史记录页访问。 它使用订单详细信息模块，后者需要销售 ID 或交易 ID 才能检索订单详细信息。
 
-### <a name="my-profile-page"></a>我的模板页
+### <a name="user-profile-page"></a>用户个人资料页
 
-我的个人资料页面使用帐户个人资料模块显示用户的帐户个人资料详细信息。 该页面显示与用户帐户关联的电子邮件地址，以及为该帐户设置的首选项。 如果设置自定义客户属性，则“其他信息”部分还将显示这些属性。 用户可以编辑其名称、首选项或其他信息（如果可用）。
+用户个人资料页显示用户帐户详细信息，如用户的姓名和电子邮件地址。 它使用用户个人资料详细信息和用户个人资料编辑模块。 虽然不能删除电子邮件地址，但可以对其进行编辑。 用户个人资料页面还显示用户首选项，使用户可以选择加入或退出某些功能，例如建议列表的个性化。 
 
 ### <a name="user-address-page"></a>用户地址页
 
@@ -84,6 +89,3 @@ ms.locfileid: "6716242"
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

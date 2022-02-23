@@ -2,30 +2,36 @@
 title: 渠道设置先决条件
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道设置先决条件。
 author: samjarawan
+manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742456"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410445"
 ---
 # <a name="channel-setup-prerequisites"></a>渠道设置先决条件
+
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道设置先决条件。
+
+## <a name="overview"></a>概览
 
 在可以创建 Dynamics 365 Commerce 通道之前，必须完成几个先决条件任务。 以下先决条件任务列表按渠道类型进行组织。
 
@@ -80,6 +86,3 @@ ms.locfileid: "6742456"
 [设置零售渠道](channel-setup-retail.md)
     
 [设置在线渠道](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

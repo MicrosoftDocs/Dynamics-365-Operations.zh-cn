@@ -1,24 +1,27 @@
 ---
 title: 设置折旧帐簿
 description: 此过程将逐步完成创建新折旧帐簿并将其与固定资产组关联的流程。
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440826"
 ---
 # <a name="set-up-depreciation-books"></a>设置折旧帐簿 
 
@@ -52,6 +55,3 @@ ms.locfileid: "7883612"
 6. 在“使用年限”字段中，输入一个数字。
     * 请注意，“折旧期间”字段值将在设置使用年限后计算。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

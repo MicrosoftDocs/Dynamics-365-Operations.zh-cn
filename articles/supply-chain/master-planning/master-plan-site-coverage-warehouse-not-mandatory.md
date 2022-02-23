@@ -1,10 +1,12 @@
 ---
 title: 站点覆盖范围的主计划，仓库非必需
 description: 此主题介绍如何计划为覆盖范围设置站点维度的物料。
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 2474
 ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484b178f3ac43f727fd6acb5deb40b7907c931ec
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fe5cb5f9d21afcd12f3041bb9acc89fff360c95e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579608"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970448"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>站点覆盖范围的主计划，仓库非必需
 
@@ -41,11 +43,12 @@ ms.locfileid: "7579608"
 -   为仓库定义重填关系。 单击 **库存管理 &gt; 设置 &gt; 库存细分 &gt; 仓库**。 在 **主计划** 选项卡上，查看 **主仓库** 字段组。
 -   默认订单类型设置为“生产”、“采购订单”或“看板”。 单击 **产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择物料，然后依次单击 **计划 &gt; 默认订单设置**。 在 **默认订单设置** 窗体中，查看 **默认订单类型** 字段。
 
-![站点覆盖范围需求（仓库非必需）。](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+![站点需求（覆盖范围仓库非必需）](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [主计划和多站点功能概览](master-plan-multisite-functionality.md)
 
@@ -59,6 +62,3 @@ ms.locfileid: "7579608"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

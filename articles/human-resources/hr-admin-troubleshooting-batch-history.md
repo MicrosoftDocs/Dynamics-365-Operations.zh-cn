@@ -1,32 +1,30 @@
 ---
 title: 使用自动清理任务优化性能
-description: 此主题介绍如何通过清理批处理作业历史记录来提升 Microsoft Dynamics 365 Human Resources 中的性能。
-author: twheeloc
-ms.date: 08/21/2021
+description: 此文介绍如何通过清理批处理作业历史记录来解决 Microsoft Dynamics 365 Human Resources 的某些性能问题。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066085"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417404"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>使用自动清理任务优化性能
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **发货**
 
@@ -44,28 +42,25 @@ ms.locfileid: "8066085"
 
 2. 在 **搜索** 栏中，输入 **批处理作业历史记录清理**。
 
-   ![搜索批处理作业历史记录清理。](media/talent-batch-history-cleanup-search-bar.png)
+   ![搜索批处理作业历史记录清理](media/talent-batch-history-cleanup-search-bar.png)
 
 3. 在 **历史记录限制(天)** 中，输入 **30**。
 
-   ![将历史记录限制设置为 30。](media/talent-batch-history-cleanup-history-limit.png)
+   ![将历史记录限制设置为 30](media/talent-batch-history-cleanup-history-limit.png)
 
 4. 选择 **在后台运行**，然后选择 **重复执行**。
 
-   ![设置重复执行。](media/talent-batch-history-cleanup-recurrence.png)
+   ![设置重复执行](media/talent-batch-history-cleanup-recurrence.png)
 
 5. 在 **定义重复项** 下，将 **开始日期** 和 **开始时间** 设置为在下班时间或周末进行，然后选择 **无结束日期**。 
 
-   ![定义重复执行的开始日期和时间。](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![定义重复执行的开始日期和时间](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. 在 **重复执行模式** 下，选择 **天**，然后将 **指定间隔过后重复** 设置为 **7**。
 
-   ![设置每周重复清理。](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![设置每周重复清理](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. 选择 **确定**。
 
 8. 根据需要更改 **在后台运行** 下的其他任何参数，然后选择 **确定**。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

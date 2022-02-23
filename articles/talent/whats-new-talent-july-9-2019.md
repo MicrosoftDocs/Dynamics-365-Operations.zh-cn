@@ -115,6 +115,3 @@ ms.locfileid: "4528021"
 - **休假类型**
 - **工作人员银行帐户**
 - **工作日历**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

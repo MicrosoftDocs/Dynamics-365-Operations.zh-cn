@@ -2,27 +2,28 @@
 title: 高级银行对帐概览
 description: 本文介绍高级银行对帐流程的流程。 高级银行对帐功能可以导入可从银行交易记录内自动对帐的银行对账单。
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "22104"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebddf6c77df227f896e6f275f741ea69fb68474
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b26b6e1e50e5a9b53ca6b5315de760f5bcec4769
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983584"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440849"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>高级银行对帐概览
 
@@ -50,6 +51,3 @@ ms.locfileid: "7983584"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

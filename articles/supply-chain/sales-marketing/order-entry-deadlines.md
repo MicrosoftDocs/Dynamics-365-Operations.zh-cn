@@ -1,26 +1,29 @@
 ---
 title: 订单输入截止时间
 description: 本文提供有关订单条目截止时间的信息。 订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422829"
 ---
 # <a name="order-entry-deadlines"></a>订单输入截止时间
 
@@ -99,12 +102,10 @@ ms.locfileid: "7580520"
 
 **注意：** 如果夏时制保存时间调整生效，则相应调整订单输入截止时间。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [交货计划](delivery-schedules.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

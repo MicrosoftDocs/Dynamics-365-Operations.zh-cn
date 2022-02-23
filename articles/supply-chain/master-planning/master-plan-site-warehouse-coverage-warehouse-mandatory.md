@@ -1,27 +1,30 @@
 ---
 title: 站点和仓库覆盖范围主计划，仓库是必需的
 description: 此主题介绍如何计划将站点和仓库作为覆盖范围维度的物料。 仓库维度是必填的。
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2554
 ms.assetid: 3211e95f-b91a-4d27-8d92-f328ae2bcf12
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360d84f7d9087cc9d6e39cb573b8e85381d02da0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 92160b45590245e2b1caab6732d1b0aaeaabd208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579584"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422876"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>站点和仓库覆盖范围主计划，仓库是必需的
 
@@ -41,11 +44,12 @@ ms.locfileid: "7579584"
 -   为仓库定义重填关系。 单击 **库存管理 &gt; 设置 &gt; 库存细分 &gt; 仓库**。 在 **主计划** 快速选项卡上，查看 **主仓库** 字段组。
 -   默认订单类型设置为“生产”、“采购订单”或“看板”。 单击 **产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择该物料，然后在“操作窗格”上，在 **计划** 选项卡上单击 **默认订单设置**。 在 **默认订单设置** 窗体中，查看 **默认订单类型**。
 
-![需求站点和仓库覆盖范围（仓库必需）。](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
+![需求站点和仓库覆盖范围（仓库必需）](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
 
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [主计划和多站点功能概览](master-plan-multisite-functionality.md)
 
@@ -59,6 +63,3 @@ ms.locfileid: "7579584"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

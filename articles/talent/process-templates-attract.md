@@ -71,6 +71,3 @@ ms.locfileid: "4460491"
     - 若要删除活动，展开它，然后选择活动标题上的垃圾桶按钮。
 
 8. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

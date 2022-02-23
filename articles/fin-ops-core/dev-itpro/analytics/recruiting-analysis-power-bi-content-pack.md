@@ -1,10 +1,12 @@
 ---
 title: 招聘 Power BI 内容
-description: 此主题描述招聘 Power BI 内容。
+description: 此主题描述招聘 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765114"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680554"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 
@@ -62,6 +64,3 @@ ms.locfileid: "6765114"
 | 绩效          | 评级，描述和评级模型                            | 申请人、已雇用的申请人、已离职的申请人 |
 | 招聘项目  | 项目描述、项目状态和空缺                | 申请人、已雇用的申请人、已离职的申请人 |
 | 已离职的申请人 | 已离职的申请人、原因、表现和离职日期 | 公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

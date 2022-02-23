@@ -2,30 +2,35 @@
 title: 选择站点主题
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置或更改站点的主题。
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964773"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556421"
 ---
 # <a name="select-a-site-theme"></a>选择站点主题
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置或更改站点的主题。
+
+## <a name="overview"></a>概览
 
 站点的布局和样式（如字体、大小和颜色）由主题定义，并应用于站点。 主题由公司的开发人员创建和部署。 有关主题概述，请参阅[主题概述](e-commerce-extensibility/theming.md)。 有关如何创建和部署主题的详细信息，请参阅[创建新主题](e-commerce-extensibility/create-theme.md)。
 
@@ -51,6 +56,8 @@ ms.locfileid: "7964773"
 
 [添加收藏夹图标](add-favicon.md)
 
+[添加欢迎消息](add-welcome-message.md)
+
 [添加版权声明](add-copyright-notice.md)
 
 [向站点添加语言](add-languages-to-site.md)
@@ -61,6 +68,3 @@ ms.locfileid: "7964773"
 
 [创建新主题](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

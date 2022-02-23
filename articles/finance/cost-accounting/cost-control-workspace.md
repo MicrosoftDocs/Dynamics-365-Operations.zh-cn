@@ -2,13 +2,16 @@
 title: 成本控制工作区
 description: 此主题提供了有关成本控制工作区的信息。 此工作区是负责控制一个维度内或跨维度的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763182"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440977"
 ---
 # <a name="cost-control-workspace"></a>成本控制工作区 
 
@@ -116,7 +119,7 @@ ms.locfileid: "6763182"
 
 对用户（如经理）可用的报表列表通过设置 **成本控制工作区配置** 页上的 **已发布** 选项进行控制。
 
-![用户可以在成本控制工作区中查看的报表。](./media/report-cost-control.png)
+![用户可以在成本控制工作区查看的报表](./media/report-cost-control.png)
 
 经理可以选择要查看的会计日历期间。 会话日期用于确定默认的当前期间。
 
@@ -136,11 +139,11 @@ ms.locfileid: "6763182"
 
 两个图表按期间显示实际与预算对比及预算差异的汇总。
 
-![按期间显示实际与预算对比及预算差异的汇总的图表。](./media/cost-element-details-operations.png)
+![按期间显示实际与预算对比及预算差异的汇总的图表](./media/cost-element-details-operations.png)
 
 用户可以单击 **成本条目** 以根据需要深化到条目详细信息。
 
-![成本条目。](./media/cost-entries.png)
+![成本条目](./media/cost-entries.png)
 
 例如，租金是分配到成本中心的支出。 用户若要了解其成本中心必须承担的租金成本，必须深化以查看租金的计算方式。
 
@@ -148,13 +151,10 @@ ms.locfileid: "6763182"
 
 在以下示例中，分配基础为 **公式分配基础** 类型，且显示公式。 列出了定义公式的系数。 此外，网格还显示每个成本对象完成的计算。
 
-![每个成本对象的计算。](./media/cost-entries-allocation-base.png)
+![每个成本对象的计算](./media/cost-entries-allocation-base.png)
 
 其他资源 
 
 [定义成本对象控制员的访问权限](access-rights-cost-object-controller.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

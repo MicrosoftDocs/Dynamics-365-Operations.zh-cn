@@ -2,9 +2,11 @@
 title: 成本管理 Power BI 内容
 description: 此主题介绍成本管理 Power BI 内容中的内容。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752632"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683887"
 ---
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 
@@ -29,7 +31,12 @@ ms.locfileid: "7752632"
 
 ## <a name="overview"></a>概览
 
-**成本管理** Microsoft Power BI 内容面向库存核算师或组织中负责库存或在制品 (WIP) 的状态或对此类状态感兴趣的个人，或负责分析标准成本差异或对此类差异感兴趣的人员。
+**成本管理** Microsoft Power BI 内容面向库存核算师或负责库存或在制品 (WIP) 的状态或对此类状态感兴趣的个人，或负责分析标准成本差异或对此类差异感兴趣的人员。
+
+> [!NOTE]
+> 本主题中介绍的 **成本管理** Power BI 内容适用于 Dynamics 365 Finance and Operations 8.0。
+> 
+> 已废弃了 AppSource 站点中的 **成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)。
 
 此 Power BI 内容提供分类格式，帮助您监控库存性能，并显示库存中的成本分布。 您可获取管理见解，如周转率、现货库存天数，以及首选聚合级别的“ABC 分类”（公司、物料、物料组或站点）。 也可以将可用信息用作财务报表的详细补充。
 
@@ -200,6 +207,3 @@ ms.locfileid: "7752632"
 | 法人                                          | 法人名称                              |
 | 会计日历                                        | 会计日历、年、季度、期间、月   |
 | 站点                                                    | ID、名称、地址、省/市/自治区、国家/地区               |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

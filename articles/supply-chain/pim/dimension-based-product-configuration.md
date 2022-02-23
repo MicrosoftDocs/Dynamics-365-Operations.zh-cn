@@ -1,29 +1,30 @@
 ---
 title: 基于维度的产品配置概览
 description: 基于维度的产品配置表示从单个基础产品和物料清单创建多个产品变型的简单解决方案。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "19821"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19821
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982919"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423199"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>基于维度的产品配置概览
 
@@ -68,7 +69,7 @@ ms.locfileid: "7982919"
 配置规则表示，确保包括在物料清单的一个配置组中的产品在同一物料清单的不同配置组中强制包含或排除某一产品的机制。
 
 ## <a name="product-modeling-process"></a>产品建模流程
-为基于维度的产品构建产品模型的自然顺序从定义相关配置组开始。 请务必确保物料清单中使用的所有产品已发布到已为其构建产品模型的公司。 这些构建基块在位后，用户可以创建物料清单并将配置组分配到所有相关物料清单行。 在物料清单完成后，配置流程可为在适当序列中订购配置组定义。 [![基于维度的产品建模流程。](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) 如果存在来自必须或禁止一起使用的不同配置组的某些产品，您可以创建将强制这些产品关系的配置规则。 在物料清单通过物料清单版本与基于维度的基础产品关联，并且二者均已审核和激活后，您可以创建产品配置并为每个配置输入一个名称。 配置可以在所有交易记录生成前定义，或者可以在某些配置需求发生前进行。
+为基于维度的产品构建产品模型的自然顺序从定义相关配置组开始。 请务必确保物料清单中使用的所有产品已发布到已为其构建产品模型的公司。 这些构建基块在位后，用户可以创建物料清单并将配置组分配到所有相关物料清单行。 在物料清单完成后，配置流程可为在适当序列中订购配置组定义。 [![基于维度的产品建模过程](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png)如果存在来自必须或禁止一起使用的不同配置组的某些产品，您可以创建将强制这些产品关系的配置规则。 在物料清单通过物料清单版本与基于维度的基础产品关联，并且二者均已审核和激活后，您可以创建产品配置并为每个配置输入一个名称。 配置可以在所有交易记录生成前定义，或者可以在某些配置需求发生前进行。
 
 ### <a name="suggested-use"></a>建议的使用
 
@@ -87,6 +88,3 @@ ms.locfileid: "7982919"
 7.  [创建配置规则](tasks/create-configuration-rules.md)
 8.  [创建基于维度的配置](tasks/create-dimension-based-configurations.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

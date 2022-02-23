@@ -2,24 +2,27 @@
 title: 创建渠道导航层次结构
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建渠道导航层次结构。
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749947"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410382"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>创建渠道导航层次结构
 
@@ -49,7 +52,7 @@ ms.locfileid: "6749947"
 
 下图显示了根节点示例。
 
-![示例根节点。](media/create-channel-hierarchy-1.png)
+![示例根节点](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>创建导航类别节点
 
@@ -65,7 +68,7 @@ ms.locfileid: "6749947"
 
 下图显示了完成的渠道导航层次结构的示例。
 
-![示例渠道层次结构。](media/create-channel-hierarchy-2.png)
+![示例渠道层次结构](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>向类别节点添加产品
 
@@ -77,11 +80,11 @@ ms.locfileid: "6749947"
 1. 在操作窗格上，选择 **保存**。
 
 > [!NOTE]
-> 将产品添加到渠道导航层次结构内的节点并不能让产品在所选渠道上显示，这些产品也必须归类为某个渠道。 有关分类的详细信息，请参阅[分类管理](assortments.md)。
+> 将产品添加到渠道导航层次结构内的节点并不能让产品在所选渠道上显示，这些产品也必须归类为某种产品。
 
 下图显示了添加有产品的节点示例。
 
-![添加到类别节点的产品。](media/create-channel-hierarchy-3.png)
+![添加到类别节点的产品](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>将产品属性组添加到类别节点
 
@@ -97,13 +100,10 @@ ms.locfileid: "6749947"
 
 下图显示了添加有产品属性组的示例节点。
 
-![节点上的产品属性组。](media/create-channel-hierarchy-4.png)
+![节点上的产品属性组](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [设置分类](set-up-assortments.md)
 
 [管理属性和属性组](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 库位库存限制
 description: 本主题介绍库位库存限制的功能。
 author: perlynne
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
+ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714154"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "4607271"
 ---
 # <a name="location-stocking-limits"></a>库位库存限制
 
@@ -81,7 +84,7 @@ ms.locfileid: "6714154"
 
 您将首先接收尺寸 *S* 的单位 *PL* 的数量 *4*，并查看所创建工作的放置行库位。 然后，将接收尺寸 *L* 的单位 *PL* 的数量 *4*，并查看所创建工作的放置行库位。
 
-1. 在仓库管理移动应用中，使用 *24* 作为用户 ID 和 *1* 作为密码登录。
+1. 在仓库应用中，使用 *24* 作为用户 ID 和 *1* 作为密码登录。
 1. 选择 **入库** \> **采购接收**。
 1. 接收尺寸 *S* 的物料编号 *D0013* 的 *4* *PL*。
 1. 查看所创建的储存工作。 应该会看到以下结果：
@@ -101,6 +104,3 @@ ms.locfileid: "6714154"
 
 > [!NOTE]
 > 例如，您不能使用库位库存限制来控制在同一库位上具有不同数量的物料的补货。 在这种情况下，使用 *补货模板*。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

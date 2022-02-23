@@ -2,25 +2,28 @@
 title: 每个日记帐的帐簿数
 description: 本主题描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以定义各项购置和折旧所包括的最大帐簿数。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d8c6a3aab9063e1f2143c10f9e442001660dc121bfee0b3b2c9e17ade5f762e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767024"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650648"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 
@@ -41,11 +44,6 @@ ms.locfileid: "6767024"
 
 批处理作业不包括已结帐簿。 例如，在一个折旧批处理作业中，前 2,000 本帐簿中有 10 本已结。 在此示例中，第一个日记帐将包含与固定资产关联的帐簿，这些帐簿的编号为 1 到 2,011。 然后，第二个日记帐将包含与固定资产关联的帐簿，这些帐簿的编号为 2,012 到 4,000。
 
-> [!NOTE]
-> 如果您具有包含不同分隔符（例如 – 或 /）的固定资产 ID，并且在批处理作业中创建了固定资产交易，则必须针对每种类型的分隔符运行单独的批处理作业。 系统无法在同一批处理作业中处理不同的分隔符。
-
 如果同一日记帐中不存在重复的资产 ID，则将限制帐簿的数量。 但是，如果资产 ID 与帐簿 ID 相同，则可以超出每个日记帐的帐簿数，以将资产 ID 保留在同一日记帐中。
 
-例如，有 5,001 个固定资产 ID，每个固定资产 ID 与三本帐簿关联，而每本资产帐簿过帐到同一个过帐层。 您连续三个月运行折旧，但不汇总。  折旧日记帐将通过批处理作业创建，并且系统将创建七个日记帐，这些日记帐具有 667 个固定资产 ID，每个固定资产 ID 包含三本帐簿。 结果将为 2,001 本帐簿。 因此，在三个月内，将有 6003 个日记帐行在同一日记帐中维护相同的资产 ID。 系统还将创建一个日记帐，其中有 332 个固定资产 ID，每个固定资产 ID 三本帐簿。 在三个月内，将有 2988 行。
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+例如，有 5,001 个固定资产 ID，每个固定资产 ID 与三本帐簿关联，而每本资产帐簿过帐到同一个过帐层。 您连续三个月运行折旧，但不汇总。 折旧日记帐将通过批处理作业创建，并且系统将创建七个日记帐，这些日记帐具有 667 个固定资产 ID，每个固定资产 ID 包含三本帐簿。 结果将为 2,001 本帐簿。 因此，在三个月内，将有 6003 个日记帐行在同一日记帐中维护相同的资产 ID。 系统还将创建一个日记帐，其中有 332 个固定资产 ID，每个固定资产 ID 三本帐簿。 在三个月内，将有 2988 行。

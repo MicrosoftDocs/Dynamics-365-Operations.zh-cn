@@ -153,6 +153,3 @@ ms.locfileid: "4460410"
 ## <a name="closing-an-offer"></a>关闭聘约 
 
 当聘约被接受、拒绝或撤回且无需进一步操作时，您可以关闭该聘约，以使该聘约包无法再被进一步编辑。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

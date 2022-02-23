@@ -2,13 +2,16 @@
 title: 将生产订单报告为已完工入库
 description: 完工入库是生产阶段。 在此阶段，将报告成品并将其从生产订单移到库存。
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 27061
 ms.assetid: 1c2dfc54-a293-49f2-9b96-5a912ac5762c
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d509f0f732c1255a87bf810ab9a3bba3f61e2061f9a761ee0797b3fec45e45a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 87e5d4f46a2ae34a2bc114a92ed4e037875dde43
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717068"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422931"
 ---
 # <a name="report-production-orders-as-finished"></a>将生产订单报告为已完工入库
 
@@ -45,6 +48,3 @@ ms.locfileid: "6717068"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

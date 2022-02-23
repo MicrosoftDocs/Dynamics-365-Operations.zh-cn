@@ -2,36 +2,40 @@
 title: 供应商与客户的协作
 description: 本主题介绍您如何使用供应商协作处理采购订单和监控托运库存。
 author: TaylorVH
+manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022966"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654332"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍您在 Microsoft Dynamics 365 Supply Chain Management 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
 
 - **采购订单确认** - 监视和响应采购订单 (PO)。
 - **供应商出价** - 查看询价 (RFQ) 并输入出价以响应询价。
 - **供应商信息** - 查看和更新供应商主数据。
-- **开票** - 处理发票。 此主题不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。
+- **开票** - 处理发票。 此主题不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。
 
 供应商还可以监视与托运库存有关的信息。
 
@@ -78,7 +82,7 @@ ms.locfileid: "8022966"
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>在“供应商出价”工作区处理询价
 
-在 **供应商出价** 工作区可以查看公司受邀响应的询价 (RFQ)。 还可以响应询价。
+在 **供应商出价** 工作区可以查看公司受邀响应的询价 (RFQ)。 还可以响应询价。 
 
 该工作区还显示您已经失去或赢得的所有询价。 此外，如果针对公共部门配置了该系统，该工作区将显示公开可用的询价。
 
@@ -100,17 +104,9 @@ ms.locfileid: "8022966"
 
 - 选择 **打开发布的询价** 链接可以查看公开提供的开放询价的列表。 开放的询价是指尚未到期的询价。 在询价标头上可以找到到期日期和时间。
 
-    如果您收到了出价邀请，在 **新出价邀请** 页上可以找到相同的询价。 在某些情况下，您可能要对您未收到出价邀请的开放询价出价。 在这种情况下，您可能可以邀请您自己，前提是客户已经对该询价案例启用了自行邀请。 
+    如果您收到了出价邀请，在 **新出价邀请** 页上可以找到相同的询价。 在某些情况下，您可能要对您未收到出价邀请的开放询价出价。 在这种情况下，您可能可以邀请您自己，前提是客户已经对该询价案例启用了自行邀请。
 
-    **新出价邀请** 页面可以提供一个筛选器，让您可以查看打开的 RFQ 并确定包含与已批准采购类别匹配的行的筛选器。 要使此筛选器可用，您必须在系统中启用 *允许供应商按采购类别搜索 RFQ* 功能。 管理员可以使用 **功能管理** 工作区检查此功能的状态和开启功能（如果需要）。 在此工作区，此功能按以下方式列出：
-
-    - **模块**：*应付帐款*
-    - **功能名称**：*允许供应商按采购类别搜索 RFQ* <!-- KFM: I don't see this here, is this right? -->
-
-    您可以通过打开 *将“打开发布的询价”链接显示为磁贴* 功能，增强 **打开发布的询价** 链接的可访问性。 此功能可将链接转换为磁贴并将其移动到突出位置，使其可以轻松找到。 管理员可以使用 **功能管理** 工作区检查此功能的状态和开启功能（如果需要）。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）在那里，此功能以下列方式列出：
-
-    - **模块**：*采购任务*
-    - **功能名称**：*将“打开发布的询价”链接显示为磁贴*
+    通过打开 **将“打开发布的询价”链接显示为磁贴** 功能，增强 **打开发布的询价** 链接的可访问性。 此功能可将链接转换为磁贴并将其移动到突出位置，使其可以轻松找到。
 
 - 选择 **关闭的已发布询价** 链接可以查看公开提供的已关闭询价的列表。 关闭的询价是已经到期的询价。 在询价标头上可以找到到期日期和时间。
 
@@ -151,6 +147,3 @@ ms.locfileid: "8022966"
 ## <a name="additional-resources"></a>其他资源
 
 [管理供应商协作用户](manage-vendor-collaboration-users.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

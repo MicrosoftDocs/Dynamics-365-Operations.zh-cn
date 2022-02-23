@@ -2,23 +2,26 @@
 title: 为客户创建直接借记授权单
 description: 此任务指南向您演示如何创建直接借记授权并将其使用在发票上。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51fea2b9a0f25b078abc3ca83ee02c585eaf465128bebba0234ffadb030ef42a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86d29782f616219b5d84e3567910cb28c60b65ae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740042"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440647"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>为客户创建直接借记授权单
 
@@ -87,6 +90,3 @@ ms.locfileid: "6740042"
 3. 选择您已添加了授权的客户。
 4. 在 **直接借记授权 ID** 字段中，输入或选择一个值。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

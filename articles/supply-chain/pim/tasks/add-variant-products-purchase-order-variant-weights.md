@@ -1,24 +1,26 @@
 ---
 title: 使用可变权重将变型产品添加到采购订单
 description: 此程序会逐步演示如何使用变型权重，自动填充每个产品变型的采购订单行。
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9523410447c102481dd2c709b1fa3dd69d03e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d0cb0a99b926e1e129c5f7a174cac18e3b93aafa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565634"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966997"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>使用可变权重将变型产品添加到采购订单
 
@@ -45,6 +47,3 @@ ms.locfileid: "7565634"
 17. 将“数量”设置为“1000”。
 18. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

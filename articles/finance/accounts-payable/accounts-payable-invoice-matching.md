@@ -1,28 +1,29 @@
 ---
 title: 应付帐款发票匹配概览
 description: 应付帐款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "27361"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 27361
 ms.assetid: 9f3dace7-05d8-4974-8f85-aca2e224876c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984069"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440841"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>应付帐款发票匹配概览
 
@@ -48,7 +49,7 @@ ms.locfileid: "7984069"
 
 按单位价格的双向始终与和三个向匹配与价格信息。 您还可以配置这些策略价格匹配的合计与价格信息。
 -   匹配的净单位价格–通过各行的净单位价格匹配双向匹配的价格信息或三个向匹配在发票与采购订单上的相应的净单位价格进行比较。 以下公式由净单位价格：行的净额/数量
--   匹配的净单位价格–通过各行的净单位价格匹配双向匹配的价格信息或三个向匹配在发票与采购订单上的相应的净单位价格进行比较。 以下公式由净单位价格：*（单价 \* 行数量）+ 行费用 - 行折扣*。 按百分比匹配价格合计时，系统会使用交易记录币种比较值。 按金额匹配价格合计时，系统会使用记帐币种比较值。 当您对采购订单行部分开票时，将在该行的最后一个发票上验证价格总匹配。 
+-   匹配的净单位价格–通过各行的净单位价格匹配双向匹配的价格信息或三个向匹配在发票与采购订单上的相应的净单位价格进行比较。 以下公式由净单位价格：*（单价 \* 行数量）+ 行费用 - 行折扣*。 按百分比匹配价格合计时，系统会使用交易记录币种比较值。 按金额匹配价格合计时，系统会使用记帐币种比较值。
 
 通常，在编辑“供应商发票”页上的供应商发票时，发票匹配计算自动执行。 或者，可以在需要时，根据需要执行发票匹配。 按需执行的发票匹配由“发票验证”选项卡“应付帐款参数”页上的“自动更新发票抬头状态”针对法人控制。发票匹配还可以作为发票审核过程的一部分执行。 您可以在“供应商发票”页上和相关发票匹配页上查看发票匹配的结果。
 
@@ -193,6 +194,3 @@ ms.locfileid: "7984069"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

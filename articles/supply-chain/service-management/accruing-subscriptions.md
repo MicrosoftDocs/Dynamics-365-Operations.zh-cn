@@ -1,10 +1,12 @@
 ---
 title: 应计预订
 description: 使用服务预订，您可以在费用交易记录开票日期后的期间中手动计入收入。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580472"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966072"
 ---
 # <a name="accruing-subscriptions"></a>应计预订 
 
@@ -41,7 +43,7 @@ ms.locfileid: "7580472"
 
   - 您可以具有在过帐贷方通知单的日期或在应计的原始过帐日期冲销的应计金额。
 
-有关详细信息，请参阅[预订参数（窗体）](/dynamicsax-2012//subscription-parameters-form)。
+有关详细信息，请参阅[预订参数（窗体）](https://technet.microsoft.com/library/aa619615.aspx)。
 
 ## <a name="setup-requirements"></a>设置需求
 
@@ -65,7 +67,7 @@ ms.locfileid: "7580472"
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>针对预订组启用收入应计
 
-单击 **服务管理** \> **设置** \> **服务预订** \> **预订组**。
+1.  单击 **服务管理** \> **设置** \> **服务预订** \> **预订组**。
 
 ## <a name="periods"></a>期间
 
@@ -75,8 +77,8 @@ ms.locfileid: "7580472"
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -149,6 +151,3 @@ ms.locfileid: "7580472"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

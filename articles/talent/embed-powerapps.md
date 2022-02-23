@@ -66,6 +66,3 @@ Power Apps 的嵌入方式已更改。 Power Apps 现在通过个性化模型添
 2. 在工具栏上，选择 **从 Power Apps 中添加应用**。
 
     ![使用个性化设置工具栏从 Power Apps 中添加应用](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

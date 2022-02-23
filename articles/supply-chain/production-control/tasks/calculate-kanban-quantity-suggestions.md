@@ -1,24 +1,27 @@
 ---
 title: 计算看板数量建议
 description: 此过程重点是通过使用看板数量计算，优化特定看板规则的看板大小和数量。
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18d2a8dd2a8c132873744ba890ca6b1eb1fd34b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: aa6a01d8f918c45aaa454e5234f80c312d7a5061
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570122"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422727"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 
@@ -82,6 +85,3 @@ ms.locfileid: "7570122"
     * 请注意，这是来自看板数量计算的固定看板数量 4.  
 5. 单击“列表面板”选项卡。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

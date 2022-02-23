@@ -56,6 +56,3 @@ ms.locfileid: "4460402"
 > 如果现在已开始使用 Attract，则需要等到有 10 个或更多具有完整个人资料或简历的申请人，才能使用此功能。
 
 为了避免推荐中存在潜在偏见，Attract 仅扫描应聘者个人资料以查找技能、资格和其他与工作描述匹配的关键字。 此外，Attract 还会在评估之前从应聘者个人资料中删除个人身份信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

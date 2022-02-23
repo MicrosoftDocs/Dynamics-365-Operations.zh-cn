@@ -2,8 +2,11 @@
 title: FILTER ER 函数
 description: 本主题提供有关 FILTER 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/14/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 55fa3d4ad4427e2a45f7c5fce679c50a91c40b6d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922415"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679430"
 ---
 # <a name="filter-er-function"></a>FILTER ER 函数
 
@@ -49,17 +52,11 @@ FILTER (list, condition)
 
 生成的记录列表。
 
-## <a name="usage-notes"></a><a name="usage-notes"></a>使用说明
+## <a name="usage-notes"></a>使用说明
 
 此函数与 [WHERE](er-functions-list-where.md) 函数不同，因为指定条件适用于数据库级别的 *表格记录* 类型的任何电子申报 (ER) 数据源。 可使用表格和关系定义列表和条件。
 
 如果为此函数配置的一个或两个参数（`list` 和 `condition`）不允许将此请求转换为直接 SQL 调用，在设计时会引发异常。 此异常通知用户 `list` 或 `condition` 不能用于查询数据库。
-
-> [!NOTE]
-> 当 [`VALUEIN`](er-functions-logical-valuein.md) 函数用于指定选择条件时，`FILTER` 函数的行为与 `WHERE` 函数的行为不同。
-> 
-> - 如果在 `WHERE` 函数范围内使用 `VALUEIN`函数，并且 `VALUEIN` 的第二个参数引用未返回任何记录的数据源，则将考虑 `VALUEIN` 返回的 *[False](er-formula-supported-data-types-primitive.md#boolean)* 布尔值。 因此，如果 **VendGroups** 数据源未返回供应商组记录，则表达式 `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` 不会返回供应商记录。
-> - 如果在 `FILTER` 函数范围内使用 `VALUEIN`函数，并且 `VALUEIN` 的第二个参数引用未返回任何记录的数据源，则将忽略 `VALUEIN` 返回的 *[False](er-formula-supported-data-types-primitive.md#boolean)* 布尔值。 因此，即使 **VendGroups** 数据源未返回供应商组记录，表达式 `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` 也会返回 **供应商** 数据源的所有供应商记录。
 
 ## <a name="example-1"></a>示例 1
 
@@ -76,6 +73,3 @@ FILTER (list, condition)
 ## <a name="additional-resources"></a>其他资源
 
 [列表函数](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

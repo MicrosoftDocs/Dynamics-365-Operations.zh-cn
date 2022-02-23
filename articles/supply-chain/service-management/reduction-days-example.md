@@ -1,43 +1,47 @@
 ---
 title: 缩减天数示例
 description: 缩减天数示例。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87c46cd7ee7410e1c7cb88868cd19f5075482f8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567935"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422742"
 ---
-# <a name="reduction-days-example"></a>缩减天数示例
+# <a name="reduction-days-example"></a>缩减天数示例 
 
 [!include [banner](../includes/banner.md)]
+
 
 您已经为客户的维护预订创建了预订交易记录，如下表中所述。
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,20 +69,21 @@ ms.locfileid: "7567935"
 </tbody>
 </table>
 
+
 客户报告不需要两天（3 月 10 日和 3 月 11 日）的服务覆盖范围。 您同意缩减这两天的预订。
 
 您如下表中所述，创建类型为 **缩减天数** 的新交易记录。
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,10 +111,13 @@ ms.locfileid: "7567935"
 </tbody>
 </table>
 
+
 在给 2011 年 3 月的交易记录开票时，EUR 200 的销售价将减少 EUR 12.90。 因此，预测交易记录的应计费金额是 EUR 187.10，并且按 EUR 187.10 的合计对这两个交易记录开票。
 
 ## <a name="see-also"></a>请参阅
 
 [缩减预订费用天数](reduce-the-days-on-subscription-fees.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

@@ -2,9 +2,11 @@
 title: 系统导向的群集领料
 description: 本主题概述 Microsoft Dynamics 365 Supply Chain Management 中的系统导向的群集领料。
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772344"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965669"
 ---
 # <a name="system-directed-cluster-picking"></a>系统导向的群集领料
 
@@ -204,6 +206,3 @@ ms.locfileid: "6772344"
 1. 移动设备上的最后一步是将群集 **放置** 到最终位置。 选择 **确定**
     - 确认此放置操作后，将根据您在群集配置文件中为 **群集分解位置** 字段设置的值关闭和分解群集。 工作 ID 也将关闭。
 1. 移动设备上显示“群集完成”消息。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

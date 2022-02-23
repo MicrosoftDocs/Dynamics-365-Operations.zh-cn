@@ -2,24 +2,27 @@
 title: 将生产订单报告为已完工入库
 description: 该过程显示如何报告生产订单为完工入库。
 author: johanhoffmann
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa27691942b27886e85c52b7b3a736a62db7b7bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422691"
 ---
 # <a name="report-a-production-order-as-finished"></a>将生产订单报告为已完工入库
 
@@ -49,6 +52,3 @@ ms.locfileid: "7580592"
 4. 在列表中，单击所选行中的链接。
     * 过帐“完工入库日记帐”。 如果您想要对日记帐作调整，您可以在可进行更改的位置手动创建新日记帐。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

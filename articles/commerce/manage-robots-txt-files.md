@@ -2,30 +2,36 @@
 title: 管理 robots.txt 文件
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中管理 robots.txt 文件。
 author: BrianShook
+manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754384"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517444"
 ---
 # <a name="manage-robotstxt-files"></a>管理 robots.txt 文件
+
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中管理 robots.txt 文件。
+
+## <a name="overview"></a>概览
 
 机器人排除标准或 robots.txt 是网站用于与 Web 机器人通信的标准。 它通知 Web 机器人有关网站上不应访问的区域的信息。 机器人经常被搜索引擎用来为网站建立索引。
 
@@ -101,6 +107,3 @@ Dynamics 365 Commerce 可让您为您的域上载 robots.txt 文件。 对于您
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

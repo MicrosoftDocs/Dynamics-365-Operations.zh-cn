@@ -2,9 +2,11 @@
 title: 新的或更新任务指南（2017 年 12 月）
 description: 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723047"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799054"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>新的或更新任务指南（2017 年 12 月）
 
@@ -366,6 +368,3 @@ ms.locfileid: "6723047"
 **已删除 BPM 行**
 
 - 移动计划的看板作业
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

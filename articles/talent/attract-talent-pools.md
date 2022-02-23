@@ -149,6 +149,3 @@ ms.locfileid: "4527685"
 1. 在申请页面，选择 **添加到人才池**。 您具有访问权限的人才池列表将显示。
 
 1. 选择或搜索人才池，然后选择 **添加** 将应聘者添加到该人才池。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

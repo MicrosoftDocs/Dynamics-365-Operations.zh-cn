@@ -2,25 +2,28 @@
 title: 双重申报
 description: 本主题通过一个示例指导您如何在资产租赁中同时满足国际财务申报标准 (IFRS) 申报和法定申报的要求。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseBookMaster
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 406fbb53fc4cd17a7c257b5f5463227118c9051f44d81db000fbe87dca142efe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e1d4d460aef2f74422d5e4bd4fc68255466455
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767048"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440940"
 ---
 # <a name="dual-reporting"></a>双重申报
 
@@ -47,7 +50,7 @@ IFRS 16 帐簿设置为遵守 IFRS 16 会计标准。 此帐簿中过帐的所�
 | 现值/资产的公平价值设置 | 0.00           |
 | 短期阈值                    | 12             |
 | 低价值阈值                     | 5,000.00       |
-| 向供应商付款                           | 否             |
+| 向供应商付款                           | 不             |
 
 **法定帐簿**
 
@@ -64,7 +67,7 @@ IFRS 16 帐簿设置为遵守 IFRS 16 会计标准。 此帐簿中过帐的所�
 | 现值/资产的公平价值设置 | 0.00        |
 | 短期阈值                    | 0           |
 | 低价值阈值                     | 0           |
-| 向供应商付款                           | 否          |
+| 向供应商付款                           | 不          |
 
 **法定冲销帐簿**
 
@@ -81,7 +84,7 @@ IFRS 16 帐簿设置为遵守 IFRS 16 会计标准。 此帐簿中过帐的所�
 | 现值/资产的公平价值设置 | 0.00                           |
 | 短期阈值                    | 0                              |
 | 低价值阈值                     | 0                              |
-| 向供应商付款                           | 否                             |
+| 向供应商付款                           | 不                             |
 
 在此示例中，创建了一个租赁，该租赁在 **常规** 和 **付款计划行** 选项卡上的设置如下。
 
@@ -520,6 +523,3 @@ IFRS 16 帐簿设置为遵守 IFRS 16 会计标准。 此帐簿中过帐的所�
 | 11         | 累计折旧 |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 批量财务期间结帐
 description: 此主题显示如何暂停期间，或一次性永久关闭一个期间或多个法人。
 author: aprilolson
+manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968721"
 ---
 # <a name="mass-financial-period-close"></a>批量财务期间结帐
 
@@ -39,6 +41,3 @@ ms.locfileid: "6751269"
 11. 选择 **更新期间状态**，然后将状态设置为 **暂停**、**开放** 或 **永久关闭**。 **开放** 表示期间内可进行过帐，但用户必须有访问权限。 **暂停** 表示期间内不能过帐，但是可以重新打开期间。 **永久关闭** 表示期间已关闭，永远不能打开。 不能过帐调整。 不建议在完成所有调整和审计前设置期间为 **永久关闭**。  
 12. 选择 **更新**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 生成在线渠道报表
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为在线渠道生成报表。
 author: psimolin
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58342f07233e3c6a6e6a1af87ab23513ad63caf5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760840"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970034"
 ---
-# <a name="generate-online-channel-reports"></a>生成在线渠道报表
+# <a name="generate-online-channel-reports"></a>生成在线渠道报告
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为在线渠道生成报表。
+
+## <a name="overview"></a>概览
 
 可以在 Commerce 中生成和查看多个报表以了解在线渠道的表现。
 
@@ -131,7 +136,4 @@ ms.locfileid: "6760840"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [Commerce 主页](./index.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Commerce 主页](../retail/index.md)

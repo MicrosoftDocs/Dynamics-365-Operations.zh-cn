@@ -2,9 +2,11 @@
 title: 输入科目和维度组合（Segmented Entry 控件）
 description: 本文介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
 author: aprilolson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1e35f5fb4400f849e9a139e1a96b18e8b9df384
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778910"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968771"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>输入科目和维度组合（Segmented Entry 控件）
 
@@ -111,6 +113,3 @@ ms.locfileid: "6778910"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

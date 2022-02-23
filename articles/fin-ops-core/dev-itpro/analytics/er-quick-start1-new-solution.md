@@ -2,27 +2,27 @@
 title: 设计新的 ER 解决方案打印自定义报表
 description: 本主题说明如何设计电子报告 (ER) 解决方案来打印自定义报表。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770060"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680234"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
@@ -121,19 +121,19 @@ ms.locfileid: "6770060"
 
 - [其他资源](#References)
 
-在此示例中，您将为[调查表](../../../human-resources/hr-learning-questionnaires.md)模块创建新的 ER 解决方案。 这个新的 ER 解决方案使您可以使用 Microsoft Excel 工作表作为模板来设计报表。 然后，除了生成现有的 SQL Server Reporting Services (SSRS) 报表之外，您还可以生成 Excel 或 PDF 格式的 **调查表** 报表。 您还可以稍后根据要求修改新报表。 无需进行编码。
+在此示例中，您将为[调查表](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires)模块创建新的 ER 解决方案。 这个新的 ER 解决方案使您可以使用 Microsoft Excel 工作表作为模板来设计报表。 然后，除了生成现有的 SQL Server Reporting Services (SSRS) 报表之外，您还可以生成 Excel 或 PDF 格式的 **调查表** 报表。 您还可以稍后根据要求修改新报表。 无需进行编码。
 
 1. 要运行现有报表，请转到 **调查表** \> **设计** \> **调查表报表**。
 
-    ![在“调查表”模块中选择“调查表报表”菜单项来运行现有 SSRS 报表。](./media/er-quick-start1-application-menu-origin.png)
+    ![在“调查表”模块中选择“调查表报表”菜项来运行现有 SSRS 报表](./media/er-quick-start1-application-menu-origin.png)
 
 2. 在 **调查表报表** 对话框中，指定选择条件。 应用筛选器，让报表仅包含 **SBCCrsExam** 调查表。
 
-    ![在“调查表报表”对话框中指定选择条件。](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![在“调查表报表”对话框中指定选择条件](./media/er-quick-start1-ssrs-report-dialog.png)
 
 下图显示了 **SBCCrsExam** 调查表的 SSRS 报表的生成版本。
 
-![生成的 SSRS 报表。](./media/er-quick-start1-ssrs-report.png)
+![生成的 SSRS 报表](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>配置 ER 框架
 
@@ -187,7 +187,7 @@ ms.locfileid: "6770060"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>导入新数据模型配置
 
-1. 下载 [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。
@@ -273,7 +273,7 @@ ms.locfileid: "6770060"
 
     下图显示了 **数据模型设计器** 页上完成的可编辑数据模型。
 
-    ![ER 数据模型设计器中配置的数据模型。](./media/er-quick-start1-model2.png)
+    ![ER 数据模型设计器中配置的数据模型](./media/er-quick-start1-model2.png)
 
 7. 保存所做的更改。
 8. 关闭 **数据模型设计器** 页。
@@ -287,7 +287,7 @@ ms.locfileid: "6770060"
 
 此配置的版本 1 的状态将从 **草稿** 更改为 **已完成**。 版本 1 不能再更改。 此版本包含已配置的数据模型，可以用作其他 ER 配置的基础。 此配置的版本 2 将创建，状态为 **草稿**。 您可以编辑此版本来调整 **调查表** 数据模型。
 
-![“配置”页面上可编辑配置的版本。](./media/er-quick-start1-model-configuration.png)
+![“配置”页上可编辑 ER 配置的版本](./media/er-quick-start1-model-configuration.png)
 
 有关 ER 配置的版本控制的详细信息，请参阅[电子报告 (ER) 概述](general-electronic-reporting.md#component-versioning)。
 
@@ -302,7 +302,7 @@ ms.locfileid: "6770060"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>导入新模型映射配置
 
-1. 下载 [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。
@@ -368,7 +368,7 @@ ms.locfileid: "6770060"
     2. 选择 **添加**。
     3. 在对话框的 **名称** 字段中，输入 **\$ResultGroup**。
     4. 选择 **编辑公式**。
-    5. 在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中，在 **公式** 字段中，输入 **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** 以使用 KMCollection 和 KMQuestionResultGroup 表之间的一对多关系的[路径](er-formula-language.md#Paths)。
+    5. 在 [ER 公式编辑器](general-electronic-reporting-formula-designer.md)中，在 **公式** 字段中，输入 **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** 以使用 KMCollection 和 KMQuestionResultGroup 表之间的一对多关系的[路径](er-formula-language.md#paths)。
     6. 选择 **保存**，然后关闭公式编辑器。
     7. 选择 **确定** 添加新计算字段。
 
@@ -441,7 +441,7 @@ ms.locfileid: "6770060"
 5. 关闭 **文本翻译** 对话框。
 6. 选择 **取消**。
 
-![为可编辑模型映射添加 ER 标签。](./media/er-quick-start1-adding-labels.png)
+![为可编辑模型映射添加 ER 标签](./media/er-quick-start1-adding-labels.png)
 
 您仅为默认语言输入了 ER 标签。 有关如何将 ER 标签翻译为其他语言的信息，请参阅[设计多语言报表](er-design-multilingual-reports.md)。
 
@@ -475,7 +475,7 @@ ms.locfileid: "6770060"
     8. 选择 **保存**，然后关闭公式编辑器。
     9. 选择 **确定** 添加新数据源。
 
-![ER 模型映射设计器中配置的模型映射。](./media/er-quick-start1-added-data-sources.png)
+![ER 模型映射设计器中配置的模型映射](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>将数据源与数据模型字段绑定
 
@@ -526,7 +526,7 @@ ms.locfileid: "6770060"
 
     下图显示了 **模型映射设计器** 页面上配置的模型映射的最终状态。
 
-    ![ER 模型映射设计器中完全配置的模型映射。](./media/er-quick-start1-mapping2.png)
+    ![ER 模型映射设计器中完全配置的模型映射](./media/er-quick-start1-mapping2.png)
 
 7. 保存所做的更改。
 8. 关闭 **模型映射设计器** 页。
@@ -540,7 +540,7 @@ ms.locfileid: "6770060"
 
 此配置的版本 1.1 的状态将从 **草稿** 更改为 **已完成**。 版本 1.1 不能再更改。 此版本包含已配置的模型映射，可以用作其他 ER 配置的基础。 此配置的版本 1.2 将创建，状态为 **草稿**。 您可以编辑此版本来调整 **调查表映射** 配置。
 
-![“配置”页面上可编辑 ER 配置的版本。](./media/er-quick-start1-mapping-configuration.png)
+![“配置”页上可编辑 ER 配置的版本](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > 配置的模型映射是表示 **调查表** 业务域的抽象数据模型的 Finance 特定实现。
@@ -549,22 +549,22 @@ ms.locfileid: "6770060"
 
 ER 框架使用预定义的模板生成 Microsoft Office 格式（Excel 工作簿或 Word 文档）的报表。 在生成所需报表时，将根据配置的数据流使用所需数据填充模板。 因此，您必须首先为自定义报表设计模板。 此模板必须设计为 Excel 工作簿，其结构代表自定义报表的布局。 您必须为计划填充所需数据的每个 Excel 项命名。
 
-1. 下载 [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
 2. 在 Excel 中打开文件，查看工作簿的结构。
 
 如下图所示，下载的模板已设计为打印指定的调查表，这些调查表显示调查表的问题以及相应的答案。
 
-![可打印指定调查表的 Excel 模板。](./media/er-quick-start1-template-layout.png)
+![可打印指定调查表的 Excel 模板](./media/er-quick-start1-template-layout.png)
 
 Excel 名称已添加到此模板中以填充调查表详细信息。 您可以使用名称管理器来查看 Excel 名称。
 
-![使用名称管理器查看提供的 Excel 模板中的 Excel 名称。](./media/er-quick-start1-template-names.png)
+![使用名称管理器查看提供的 Excel 模板中的 Excel 名称](./media/er-quick-start1-template-names.png)
 
 报表标签已添加为英语的固定文本。 您可以使用 ER 格式[标签](#AddMmLabels)将报表标签替换为将使用语言相关文本填充标签的新的 Excel 名称，就像在配置的模型映射中使用语言相关表达式一样。 在这种情况下，必须以可编辑的 ER 格式添加 ER 标签。
 
 如下图所示，已指定自定义报表标题来使 Excel 能够分页。
 
-![提供的 Excel 模板中的自定义报表标题。](./media/er-quick-start1-template-header.png)
+![提供的 Excel 模板中的自定义报表标题](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>设计格式
 
@@ -574,7 +574,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>导入设计的格式配置
 
-1. 下载 [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) 文件，并将其保存到本地计算机。
+1. 下载 [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) 文件，并将其保存到本地计算机。
 2. 转到 **组织管理** \> **工作区** \> **电子申报**。
 3. 在 **电子报告** 工作区中，选择 **报告配置**。
 4. 在操作窗格上，选择 **交换** \> **从 XML 文件加载**。
@@ -614,11 +614,11 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
     2. 找到并选择本地保存的 **Questionnaires report template.xslx** 文件，然后选择 **打开**。
     3. 选择 **确定** 导入模板。
 
-    ![导入报表模板。](./media/er-quick-start1-template-import.png)
+    ![导入报表模板](./media/er-quick-start1-template-import.png)
 
 **Excel\\文件** 格式元素将作为根元素自动添加到可编辑格式中。 此外，将为导入模板的每个确认的 Excel 名称自动添加 **Excel\\范围** 格式元素或 **Excel\\单元格** 格式元素。 具有嵌套 **字符串** 元素的 **Excel\\标题** 格式会自动添加，以反映导入模板的标题设置。
 
-![包括在 ER 操作设计器中自动添加的元素的格式结构。](./media/er-quick-start1-template-import2.png)
+![包括在 ER 操作设计器中自动添加的元素的格式结构](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>配置格式
 
@@ -629,12 +629,12 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
     有关如何为 ER 流程指定语言和区域性上下文的信息，请参阅[设计多语言报表](er-design-multilingual-reports.md)。
 
-    ![在 ER 操作设计器中为设计的报表配置语言和区域性设置。](./media/er-quick-start1-template-format-structure1.png)
+    ![在 ER 操作设计器中为设计的报表配置语言和区域性设置](./media/er-quick-start1-template-format-structure1.png)
 
 5. 在格式树中，展开根节点，然后选择 **结果组**。
 6. 在 **格式** 选项卡中，在 **复制方向** 字段中，选择 **不复制**，因为您不希望单个调查表具有多个结果组。
 
-    ![在 ER 操作设计器中定义范围格式元素的复制方向。](./media/er-quick-start1-template-format-structure2.png)
+    ![在 ER 操作设计器中定义范围格式元素的复制方向](./media/er-quick-start1-template-format-structure2.png)
 
 7. 选择 **保存**。
 
@@ -654,7 +654,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 5. 关闭公式编辑器。
 
-    ![配置绑定以填充生成报表的标题。](./media/er-quick-start1-add-report-title-label.png)
+    ![配置绑定以填充生成报表的标题](./media/er-quick-start1-add-report-title-label.png)
 
 您可以使用此方法让当前模板的所有其他标签成为语言相关标签。 有关如何将单个 ER 配置的已添加标签翻译为所有支持语言的信息，请参阅[设计多语言报表](er-design-multilingual-reports.md)。
 
@@ -664,7 +664,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 2. 选择 **编辑**。
 3. 查看 **数据源属性** 对话框中的信息。 此数据源表示位于 **调查表模型** ER 配置中的 **调查表** 数据模型组件的版本 1。
 
-![ER 操作设计器中模型数据源的属性。](./media/er-quick-start1-model-data-source.png)
+![ER 操作设计器中模型数据源的属性](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>将格式元素与数据源字段绑定
 
@@ -680,11 +680,11 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
     **调查表** 范围格式元素已配置为垂直复制。 将其绑定到 **记录列表** 类型的数据源时，将对绑定数据源的每条记录重复 Excel 模板的相应的 **调查表** 范围。
  
-    ![在 ER 操作设计器中将调查表范围格式元素绑定到相应的记录列表数据源。](./media/er-quick-start1-bindings1.png)
+    ![将调查表范围格式元素绑定到 ER 操作设计器中相应的记录列表数据源](./media/er-quick-start1-bindings1.png)
 
     由于 Excel 模板的 **调查表** 范围是在第 5 到 14 行之间定义的，因此每个报告的调查表都将重复这些行。
 
-    ![生成报表中将为记录列表数据源的每条记录重复的 Excel 模板中的行。](./media/er-quick-start1-template-questionnaire-range.png)
+    ![生成报表中将为记录列表数据源的每条记录重复的 Excel 模板中的行](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. 为其余格式元素配置类似的绑定，如下表所述。
 
@@ -720,7 +720,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 下图显示了 **模式设计器** 页面上配置的数据绑定的最终状态。
 
-![ER 操作设计器中配置的数据绑定。](./media/er-quick-start1-bindings2.png)
+![ER 操作设计器中配置的数据绑定](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > 指定数据源和绑定的整个集合表示已配置格式的格式映射组件。 当您运行配置的格式以生成报表时，将调用此格式映射。
@@ -740,9 +740,9 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 [默认](electronic-reporting-destinations.md#default-behavior)情况下，生成的报表以 Excel 文件的形式提供，您可以进行下载。 下图以 Excel 格式显示了生成报表的两个页面。
 
-![Excel 格式的生成报表的示例，第 1 页。](./media/er-quick-start1-report1a.png)
+![Excel 格式的生成报表的示例，第 1 页](./media/er-quick-start1-report1a.png)
 
-![Excel 格式的生成报表的示例，第 2 页。](./media/er-quick-start1-report1b.png)
+![Excel 格式的生成报表的示例，第 2 页](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>调整设计的格式
 
@@ -763,7 +763,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 1. 在 **格式设计器** 页中，选择 **报表** 根项。
 2. 在 **映射** 选项卡上的格式树中，展开 **报表\\调查表\\问题**。
 
-    ![ER 操作设计器中范围类型的问题格式元素。](./media/er-quick-start1-bindings3.png)
+    ![ER 操作设计器中范围类型的问题格式元素](./media/er-quick-start1-bindings3.png)
 
 3. 在 **映射** 选项卡上，选择 **model.Questionnaire**。
 4. 选择 **添加** \> **函数\\计算字段**，然后在 **名称** 字段中输入 **OrderedQuestions**。
@@ -776,7 +776,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 11. 选择 **绑定**，然后确认在嵌套元素的所有绑定中，当前的 **model.Questionnaire.Questions** 路径已被新的 **model.Questionnaire.OrderedQuestions** 路径替换。
 12. 选择 **保存**。
 
-![在 ER 操作设计器中将问题格式元素绑定到配置的 OrderedQuestions 数据源。](./media/er-quick-start1-bindings4.png)
+![将问题格式元素绑定到 ER 操作设计器中配置的 OrderedQuestions 数据源](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>从 ER 运行修改的格式
 
@@ -790,7 +790,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 下图显示了 Excel 格式的生成报表，其中问题已正确排序。
 
-![问题已正确排序的 Excel 格式的生成报表。](./media/er-quick-start1-report2.png)
+![问题已正确排序的 Excel 格式的生成报表](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>完成格式设计
 
@@ -801,7 +801,7 @@ Excel 名称已添加到此模板中以填充调查表详细信息。 您可以�
 
 此配置的版本 1.1 的状态将从 **草稿** 更改为 **已完成**。 版本 1.1 不能再更改。 此版本包含配置的格式，可用于打印自定义报表。 此配置的版本 1.2 将创建，状态为 **草稿**。 您可以编辑此版本来调整 **调查表** 报表的格式。
 
-![“配置”页面上的可编辑 ER 配置。](./media/er-quick-start1-format-configuration.png)
+![“配置”页上可编辑 ER 配置的版本](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > 配置的格式是您的 **调查表** 报表的设计，不包含与 Finance 特定伪像的关系。
@@ -1051,7 +1051,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 1. 转到 **调查表** \> **设计** \> **调查表报表(由 ER 提供支持)**。
 
-    ![在“调查表”模块中选择“调查表报表（由 ER 提供支持）”菜单项来运行配置的 ER 格式。](./media/er-quick-start1-application-menu-modified.png)
+    ![在“调查表”模块中选择“调查表报表(由 ER 提供支持)”菜单项来运行配置的 ER 格式](./media/er-quick-start1-application-menu-modified.png)
 
 2. 在对话框中，在 **格式映射** 字段中，选择 **调查表报表**。
 3. 选择 **确定**。
@@ -1059,7 +1059,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 5. 选择 **确定** 确认筛选选项。
 6. 选择 **确定** 运行报表。
 
-    ![在“电子报表”对话框中指定选择条件。](./media/er-quick-start1-report-run-dialog-page.png)
+    ![在“电子报表”对话框中指定选择条件](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. 查看生成的报表。
 
@@ -1084,7 +1084,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 添加的数据源提供有关正在运行的 ER 格式映射的记录 ID 的信息。
 
-![ER 模型映射设计器中添加的数据源。](./media/er-quick-start1-mapping3.png)
+![ER 模型映射设计器中添加的数据源](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>添加数据源以访问 ER 格式映射记录
 
@@ -1119,7 +1119,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 由于您使用了 **FormatName** 字段，配置的模型映射现在公开在执行期间调用此模型映射的 ER 格式的名称。
 
-![在 ER 模型映射设计器中将数据模型字段绑定到添加的数据源的方法。](./media/er-quick-start1-mapping4.png)
+![将数据模型字段绑定到 ER 模型映射设计器中添加的数据源的方法](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>完成模型映射的设计
 
@@ -1156,7 +1156,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 配置的格式现在已经修改，以使用 **页脚\\字符串** 元素将其名称输入到生成报表的页脚中。
 
-![在 ER 操作设计器中将页脚格式元素添加到配置的格式。](./media/er-quick-start1-template-format-structure3.png)
+![将页脚格式元素添加到 ER 操作设计器中的配置的格式中](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>完成格式设计
 
@@ -1178,7 +1178,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
 请注意，生成的报表的页脚包含用于生成报表的 ER 格式的名称。
 
-![以 Excel 格式生成的报表。](./media/er-quick-start1-report4.png)
+![以 Excel 格式生成报表](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>从 ER 运行格式
 
@@ -1199,7 +1199,7 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 3. 在 **文件目标** 快速选项卡上，为已作为配置的 **调查表报表** ER 格式的根元素 [添加](#AddFormatRootElement)的 **报表** 格式组件设置 **屏幕**[目标](er-destination-type-screen.md)。
 4. 在 **PDF 转换设置** 快速选项卡上，配置目标以将报表转换为使用 **横向** 页面方向的 [PDF 格式](electronic-reporting-destinations.md#OutputConversionToPDF)。
 
-![在电子报告目标页面上为 ER 格式配置自定义屏幕目标。](./media/er-quick-start1-destination.png)
+![在电子报告目标页面上为 ER 格式配置自定义屏幕目标](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>从应用程序运行格式以作为 PDF 文档预览
 
@@ -1211,12 +1211,12 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 
     在 **目标** 快速选项卡上，注意 **输出** 字段已设置为 **屏幕**。 如果要更改配置的目标，选择 **更改**。
 
-    ![您可以在其中更改配置目标的 ER 报表运行时对话框。](./media/er-quick-start1-run-settings.png)
+    ![您可以在其中更改配置的目标的 ER 报表运行时对话框](./media/er-quick-start1-run-settings.png)
 
 6. 选择 **确定** 运行报表。
 7. 查看生成的 PDF 格式的报表。
 
-    ![以 PDF 格式生成的报表的屏幕预览。](./media/er-quick-start1-preview-PDF.png)
+    ![生成的 PDF 格式的报表的屏幕预览](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>其他资源
 
@@ -1233,6 +1233,3 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 - [IF 函数](er-functions-logical-if.md)
 - [ORDERBY 函数](er-functions-list-orderby.md)
 - [SESSIONNOW 函数](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

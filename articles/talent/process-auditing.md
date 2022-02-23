@@ -61,6 +61,3 @@ ms.locfileid: "4460490"
 |工作申请历史记录 | 工作申请 (msdyn_JobapplicatonId)<br></br>状态 (msdyn_status) <br></br>状态描述 (msdyn_statusreason) <br></br>拒绝原因 (msdyn_rejectionreason) |
 | 职位空缺历史记录 | 职位空缺 (msdyn_JobopeningId) <br></br>状态 (msdyn_jobopeningstatus) <br></br>状态描述 (msdyn_jobopeningstatusreason) |
 | 应聘者历史记录 | 应聘者 (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

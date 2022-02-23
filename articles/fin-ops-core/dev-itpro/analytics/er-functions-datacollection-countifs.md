@@ -2,8 +2,11 @@
 title: COUNTIFS ER 函数
 description: 本主题提供有关 COUNTIFS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23da226fe1ef95ad037c33a5b423968531557896e300c6223b36bc44b0a8a015
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 554750b2dae5ec1f0fcf6fdbdf439b4dbe4fa615
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734832"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681126"
 ---
 # <a name="countifs-er-function"></a>COUNTIFS ER 函数
 
@@ -74,6 +77,3 @@ COUNTIFS (condition 1 range, condition 1 value[, condition 2 range, condition 2 
 ## <a name="additional-resources"></a>其他资源
 
 [数据收集功能](er-functions-category-data-collection.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

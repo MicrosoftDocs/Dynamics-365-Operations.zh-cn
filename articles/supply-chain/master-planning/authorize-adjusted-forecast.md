@@ -1,10 +1,12 @@
 ---
 title: 授权调整后的预测
 description: 不必立即授权所有预测数据。 本文介绍如何指定为预测授权的期间。 还说明如何可以授权特定公司和预测模型的预测。
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568704"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961417"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>授权调整后的预测
 
@@ -39,7 +41,8 @@ ms.locfileid: "7568704"
 
 您知道复选框 **保存对基准需求预测进行的手动调整** 如何工作非常重要。 如果您已手动调整统计基准预测，则授权使用调整的值，即使清除此复选框也是如此。 但是，在此授权之后将放弃更改。 因此，下次预测生成时，该预测只是统计预测，不具有任何手动覆盖，即使选择了 **转移对需求预测进行的手动调整**。 因此，您可以视 **保存对基准需求预测进行的手动调整** 复选框为可以保留或放弃所有手动更改的机制。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
@@ -47,6 +50,3 @@ ms.locfileid: "7568704"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

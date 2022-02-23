@@ -2,27 +2,30 @@
 title: 配置生产车间执行界面
 description: 本主题介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
+ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777953"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664288"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 车间工作人员使用生产车间执行界面来登记他们的日常工作，例如何时开始作业、报告关于作业的反馈、登记间接活动和报告缺勤。 这些登记是跟踪生产订单的进度和成本以及计算工作人员付薪的依据的基础。
 
@@ -39,47 +42,28 @@ ms.locfileid: "7777953"
 
 ### <a name="the-production-floor-execution-interface"></a>生产车间执行界面
 
-这是此主题中所述的主要功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
-
+这是此主题中所述的主要功能。 它将生产车间执行界面添加到您的系统。 要启用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：  
 - 生产车间执行
 
 ### <a name="generate-license-plates"></a>生成牌照
 
 这些功能让牌照功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+1. 用于报告为完工入库的牌照已添加作业卡设备
 1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
 
 ### <a name="print-labels"></a>打印标签
 
 这些功能让标签打印功能在生产车间执行界面可用。 如果您想要使用它们，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+1. 用于报告为完工入库的牌照已添加作业卡设备
 1. 通过作业卡设备打印标签
 
 ### <a name="allow-locking-the-touch-screen"></a>允许锁定触摸屏
 
-从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 此功能在生产车间执行界面中添加了一个按钮，让工作人员可以对触摸屏进行净化。 如果您想要使用它，请确保在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+此功能在生产车间执行界面中添加了一个按钮，让工作人员可以对触摸屏进行净化。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - 用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
-
-### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>生产车间执行界面的资产管理功能
-
-此功能将资产管理选项卡添加到生产车间执行界面。 工作人员可以使用此选项卡来选择连接到作业列表中所选筛选器内机器资源的资产。 对于选择的机器资产，工作人员可以通过最多四个所选计数器的计数器值查看资产的状态和运行状况。 如果您想要使用此功能，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
-
-- 生产车间执行界面的资产管理功能
-
-### <a name="enable-job-search"></a>启用作业搜索
-
-使用此功能可以将搜索字段添加到作业列表中。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
-
-- 生产车间执行界面的作业搜索
-
-### <a name="enable-reporting-on-co-products-and-by-products"></a>启用联产品和副产品报告
-
-利用此功能，工作人员可以使用生产车间执行界面报告批次订单的进度。 此报告包括联产品和副产品报告。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
-
-- 报告来自生产车间执行界面的联产品和副产品
 
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 
@@ -90,8 +74,6 @@ ms.locfileid: "7777953"
 
 接下来，配置所选设备配置的各种设置。 提供以下字段：
 
-- **仅上下班打卡** - 将此选项设置为 *是* 将创建仅提供上班打卡和下班打卡功能的简化界面。 这将禁用此页面上的大多数其他选项。 您必须先从 **选项卡选择** 快速选项卡中删除所有行，然后才能启用此选项。
-- **启用搜寻** - 将此选项设置为 *是* 将在作业列表中包含搜索字段。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。
 - **在下班打卡时报告数量** – 将此选项设置为 *是* 以提示工作人员在下班打卡时报告有关正在进行的作业的反馈。当此选项设置为 *否* 时，不会提示工作人员。
 - **锁定员工** – 当此选项设置为 *否* 时，在工作人员进行登记（例如新作业）后，他们将立即注销。 然后，设备将返回到登录页面。 当此选项设置为 *是* 时，工作人员将在作业卡设备中保持登录状态。 但是，工作人员可以手动注销，以便其他工作人员可以在作业卡设备继续在同一系统用户帐户下运行的同时登录。 有关这些帐户的类型的详细信息，请参阅[指定的用户](config-job-card-device.md#assigned-users)。
 - **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是*，通常需要将此选项设置为 *是*。
@@ -112,6 +94,3 @@ ms.locfileid: "7777953"
 1. 在“操作”窗格上，选择 **清理客户端配置**。
 1. 在 **清理客户端配置** 对话框中，将 **天数** 字段设置为要考虑的不活动天数（今天之前）。 您将删除在此期间未处于活动状态的设备的所有配置和登录记录。
 1. 选择 **确定** 以根据 **天数** 设置清理相关的配置。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

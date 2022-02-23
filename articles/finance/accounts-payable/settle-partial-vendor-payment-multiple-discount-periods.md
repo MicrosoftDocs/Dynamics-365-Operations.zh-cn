@@ -2,25 +2,28 @@
 title: 结算具有多个折扣期的部分供应商付款
 description: 本文向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 659fb6c98b9ed0589932f8c4a67cb7b08264283c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737081"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440908"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分供应商付款
 
@@ -54,7 +57,7 @@ ms.locfileid: "6737081"
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/02/2015 |
 | 现金折扣金额         | -20.00    |
@@ -70,7 +73,7 @@ ms.locfileid: "6737081"
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/02/2015 |
 | 现金折扣金额         | -20.00    |
@@ -103,7 +106,7 @@ April 决定支付 495.00，并提取 5.00 现金折扣。 因此，已结算的
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/12/2015 |
 | 现金折扣金额         | -10.00    |
@@ -137,6 +140,3 @@ April 决定支付 495.00，并提取 5.00 现金折扣。 因此，已结算的
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

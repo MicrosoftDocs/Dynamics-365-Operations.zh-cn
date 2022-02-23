@@ -2,9 +2,11 @@
 title: 创建 POS 收银机的财务维度并配置收银机上的维度值
 description: 此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。
 author: jashanno
+manager: AnnBe
 ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759253"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964762"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>创建 POS 收银机的财务维度并配置收银机上的维度值
 
@@ -45,6 +47,3 @@ ms.locfileid: "6759253"
 17. 在列表中，查找并选择正在更新的收银机的维度值。
 18. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

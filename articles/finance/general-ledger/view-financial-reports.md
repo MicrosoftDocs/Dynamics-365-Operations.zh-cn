@@ -2,25 +2,28 @@
 title: 查看财务报表
 description: 本主题介绍如何在 Microsoft Dynamics 365 Finance 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 author: kweekley
+manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440755"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
@@ -28,7 +31,8 @@ ms.locfileid: "6730498"
 
 本主题介绍如何查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
-## <a name="financial-reporting-overview"></a>财务报告概览
+<a name="financial-reporting-overview"></a>财务报告概览
+----------------------------
 
 ## <a name="open-a-financial-report"></a>打开财务报表
 若要打开报表，选择报表名称。 首次打开报表，它将为上个月自动生成。 例如，如果在 2015 年 8 月首次打开报表，将为 2015 年 7 月 31 日生成报表。 在打开报表后，可以通过深化到特定的数据部分并更改报表选项来开始探索报表。
@@ -75,13 +79,11 @@ ms.locfileid: "6730498"
 ## <a name="export-a-financial-report"></a>导出财务报表
 若要导出财务报表，在操作窗格中，单击 **导出**。 报表导出到 Microsoft Excel，并且，您的浏览器将提示您打开或保存导出的文件。 在报表设计中定义的导出设置应用到导出的报表。    
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
-[财务报告](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
-
-
-
+[财务报告](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

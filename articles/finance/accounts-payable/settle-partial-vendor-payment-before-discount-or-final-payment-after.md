@@ -1,28 +1,31 @@
 ---
-title: 在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
+title: 在使用最后付款的折扣日期之前的折扣日期之后结算部分供应商付款
 description: 本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。
 author: abruer
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737129"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440599"
 ---
-# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>在使用最后付款的折扣日期之前的折扣日期之后结算部分供应商付款
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +49,7 @@ Fabrikam 从供应商 3057 中采购货物。 如果发票在 14 天内支付，
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | -10.00    |
@@ -71,7 +74,7 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 折扣信息显示在 **结算交易记录** 页的底部。 April 可以看到自己已获得 3.00 折扣。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 0.00      |
@@ -97,7 +100,7 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 折扣信息显示在 **结算交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 7.00      |
@@ -119,6 +122,3 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

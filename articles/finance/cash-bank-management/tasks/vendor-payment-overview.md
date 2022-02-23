@@ -1,30 +1,32 @@
 ---
 title: 供应商付款概览
-description: 此程序会逐步向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。
+description: 此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。
 author: kweekley
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394420"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440789"
 ---
 # <a name="vendor-payment-overview"></a>供应商付款概览
 
 [!include [banner](../../includes/banner.md)]
 
-此程序会逐步向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
+此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
 
 1. 转到 **导航窗格 > 模块 > 应付帐款 > 付款 > 付款日记帐**。
 2. 单击 **新建**。
@@ -61,6 +63,3 @@ ms.locfileid: "7394420"
 33. 单击 **确定** 以生成付款。
 34. 如果所有付款已获得审批和生成，单击 **过帐**。 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

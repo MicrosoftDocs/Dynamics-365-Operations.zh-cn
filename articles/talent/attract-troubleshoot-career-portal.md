@@ -72,5 +72,3 @@ Attract 用户无法通过求职门户申请职位。 当他们尝试申请在 D
 
    1. 从新的浏览器窗口登录到求职门户。
    2. 通过求职门户申请职位。 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

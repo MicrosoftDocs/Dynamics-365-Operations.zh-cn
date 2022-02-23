@@ -2,13 +2,16 @@
 title: 排除具有特定产品生命周期状态的产品
 description: 此主题说明使用计划优化功能时如何基于产品的生命周期状态排除产品。
 author: ChristianRytt
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 371d98eefa482fc3e430f2f0977ddffb9dd0d30e
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739027"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645083"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>排除具有特定产品生命周期状态的产品
 
@@ -39,6 +42,3 @@ ms.locfileid: "6739027"
 有关产品生命周期状态的详细信息，请参阅[产品生命周期状态概述](../../pim/product-lifecycle.md)。
 
 有关包括使用产品生命周期状态将产品从主计划和物料清单级别计算中排除的步骤的详细信息，请参阅[创建产品生命周期状态以从主计划中排除产品](../../pim/tasks/exclude-products-master-planning.md)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

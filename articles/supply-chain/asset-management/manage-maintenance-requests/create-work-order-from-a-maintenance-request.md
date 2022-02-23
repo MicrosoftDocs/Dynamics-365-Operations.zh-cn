@@ -1,10 +1,12 @@
 ---
 title: 根据维护请求创建工作订单
 description: 本主题说明如何在资产管理中根据维护请求创建工作订单。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726913"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018088"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>根据维护请求创建工作订单
 
@@ -50,8 +52,5 @@ ms.locfileid: "6726913"
 
 6. 选择 **资产管理** \> **常用** \> **工作订单** \> **所有工作订单**，然后打开新工作订单。
 
-    ![打开新工作订单。](media/05-manage-maintenance-requests.png)
+    ![打开新工作订单](media/05-manage-maintenance-requests.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

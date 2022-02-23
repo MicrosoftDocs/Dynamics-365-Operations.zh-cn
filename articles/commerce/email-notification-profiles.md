@@ -1,33 +1,39 @@
 ---
 title: 设置电子邮件通知配置文件
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
-author: bicyclingfool
-ms.date: 02/02/2022
+author: samjarawan
+manager: annbe
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: stuharg
+ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087859"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410399"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
+
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
 
-创建渠道时，可以设置电子邮件通知配置文件。 电子邮件通知配置文件定义销售交易记录事件（如订单已创建、订单已包装和订单已开票事件），您将为这些事件向客户发送通知。 
+## <a name="overview"></a>概览
+
+在创建渠道之前，您需要设置一个配置文件，以确保可以针对各种事件发送电子邮件通知，例如订单创建、订单运送状态和付款失败。
 
 有关其他电子邮件配置信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
 
@@ -43,7 +49,7 @@ ms.locfileid: "8087859"
 
 ### <a name="create-an-email-template"></a>创建电子邮件模板
 
-必须先在 Commerce Headquarters 中为您要支持的每个通知类型创建组织电子邮件模板，然后才能启用电子邮件通知类型。 此模板针对每个支持的语言定义电子邮件主题、发件人、默认语言和电子邮件正文。
+在创建电子邮件通知之前，您必须创建一个组织电子邮件模板，其中包含发件人电子邮件信息和电子邮件模板。
 
 若要创建电子邮件模板，请执行以下步骤。
 
@@ -53,15 +59,13 @@ ms.locfileid: "8087859"
 1. 在 **发件人名称** 字段中，输入发件人姓名。
 1. 在 **电子邮件描述** 中，输入有意义的描述。
 1. 在 **发件人电子邮件** 中，输入发件人电子邮件地址。
-1. 在 **常规** 部分，为电子邮件模板选择默认语言。 当指定语言的本地化模板不存在时，将使用默认语言。
+1. 在 **常规** 部分中，填写所需的所有可选信息（例如电子邮件优先级）。
 1. 展开 **电子邮件内容** 部分并选择 **新建** 以创建模板内容。 对于每个内容项，选择语言并提供电子邮件主题行。 如果电子邮件有正文，请确保选中 **有正文** 框。
 1. 在操作窗格上，选择 **电子邮件** 以提供电子邮件正文模板。
 
 下图显示了一些示例电子邮件模板设置。
 
-![电子邮件模板设置。](media/email-template.png)
-
-有关如何创建电子邮件模板的详细信息，请参阅[创建交易事件的电子邮件模板](email-templates-transactions.md)。 
+![电子邮件模板设置](media/email-template.png)
 
 ### <a name="create-an-email-event"></a>创建电子邮件事件
 
@@ -76,14 +80,12 @@ ms.locfileid: "8087859"
 
 下图显示了一些示例事件通知设置。
 
-![事件通知设置。](media/email-notification-profile.png)
-
-> [!NOTE]
-> 客户创建的通知类型需要先实现自定义，然后才能够发送电子邮件通知。
+![事件通知设置](media/email-notification-profile.png)
 
 ### <a name="next-steps"></a>后续步骤
 
 必须先配置出站邮件服务和设置批处理作业，然后才能发送邮件。 有关详细信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
+
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -94,6 +96,3 @@ ms.locfileid: "8087859"
 [渠道设置先决条件](channels-prerequisites.md)
 
 [组织和组织层次结构概览](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

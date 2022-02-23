@@ -1,49 +1,51 @@
 ---
 title: 安装、设置和更新客户门户
 description: 本主题提供客户门户的许可详细信息和设置说明。
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060604"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529522"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="licensing-requirements"></a>许可要求
 
 要实施客户门户，您必须具有以下许可证：
 
-- **Power Apps 门户** – 托管客户门户需要此许可证。 门户根据使用获得许可。 有关详细信息，请参阅 [Power Apps 门户许可要求](/power-platform/admin/powerapps-flow-licensing-faq#portals)。
-- **双写入** – 您必须具有必要的许可证才能为 Supply Chain Management 表启用双写入。 有关详细信息，请参阅[双写入的系统要求](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)。
+- **Power Apps 门户** – 托管客户门户需要此许可证。 门户根据使用获得许可。 有关详细信息，请参阅 [Power Apps 门户许可要求](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals)。
+- **双写入** – 您必须具有必要的许可证才能为 Supply Chain Management 启用双写入。 有关详细信息，请参阅[双写入的系统要求](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)。
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>双写入和 Power Apps 门户的依赖关系
 
 客户门户依赖 Power Apps 门户和双写入，如下图所示。
 
-![客户门户依赖关系。](media/customer-portal-elements.png "客户门户依赖关系")
+![客户门户依赖关系](media/customer-portal-elements.png "客户门户依赖关系")
 
-与 Supply Chain Management 的其他功能不同，客户门户模板位于 Power Apps 门户中。 因此，客户门户受 Power Apps 门户和采用双写入的表提供的功能限制。
+与 Supply Chain Management 的其他功能不同，客户门户模板位于 Power Apps 门户中。 因此，客户门户受 Power Apps 门户和采用双写入的实体提供的功能限制。
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>启用客户门户需要设置
 
-确定已有必需的许可证后，您可以按照[双写入初始同步说明](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md)所述设置双写入。
+确定已有必需的许可证后，您可以按照[双写入初始同步说明](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md)所述设置双写入。
 
-确保以双写入方式启用以下表映射：
+确保以双写入方式启用以下实体映射：
 
 - 销售订单头
 - 销售订单详细信息
@@ -75,15 +77,12 @@ ms.locfileid: "8060604"
 
 要了解如何设置和自定义客户门户，您应该先查看以下有关基础技术的文档：
 
-- [Power Apps 门户文档](/powerapps/maker/portals/overview)
+- [Power Apps 门户文档](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [双写入文档](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-为了有效地管理门户，您必须了解 Power Apps 门户和 Microsoft Dataverse 生命周期。 有关详细信息，请参阅以下资源：
+为了有效地管理门户，您必须了解 Power Apps 门户和 Common Data Service 生命周期。 有关详细信息，请参阅以下资源：
 
-- [关于门户生命周期](/powerapps/maker/portals/admin/portal-lifecycle)
-- [升级门户](/powerapps/maker/portals/admin/upgrade-portal)
-- [迁移门户配置](/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [关于门户生命周期](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
+- [升级门户](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
+- [迁移门户配置](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [解决方案生命周期管理：Dynamics 365 for Customer Engagement 应用](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

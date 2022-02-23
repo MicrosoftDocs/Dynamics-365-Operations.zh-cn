@@ -2,12 +2,15 @@
 title: 复制实例
 description: 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060814"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527829"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。 如果您有另一个沙盒环境，还可以将数据库从该环境复制到目标沙盒环境。
 
@@ -38,9 +39,9 @@ ms.locfileid: "8060814"
 
 - 您必须是目标环境中的管理员，这样您才能在复制实例后登录环境。
 
-- 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](/dynamics365/admin/switch-instance)。
+- 复制 Human Resources 数据库时，不复制 Microsoft Power Apps 环境中包含的元素（应用或数据）。 有关如何在 Power Apps 环境中复制元素的信息，请参阅[复制环境](https://docs.microsoft.com/power-platform/admin/copy-environment)。 您要覆盖的 Power Apps 环境必须是沙盒环境。 您必须是全局租户管理员才能将 Power Apps 生产环境更改为沙盒环境。 有关更改 Power Apps 环境的详细信息，请参阅[切换实例](https://docs.microsoft.com/dynamics365/admin/switch-instance)。
 
-- 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Dataverse 集成，必须将自定义字段重新应用于 Dataverse 表。 请参阅[将自定义字段应用于 Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
+- 如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。 请参阅[将自定义字段应用于 Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)。
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>复制 Human Resources 数据库的影响
 
@@ -52,9 +53,9 @@ ms.locfileid: "8060814"
 
 - Microsoft Azure Blob 存储中的文档不会从一个环境复制到另一个环境。 因此，附加的所有文档和模板都不会被复制，并将保留在源环境中。
 
-- 除具有“系统管理员”安全角色和其他内部服务用户帐户的用户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
+- 除管理员用户和其他内部服务用户帐户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
 
-- 任何具有“系统管理员”安全角色的用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
+- 管理员用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
 
 ## <a name="copy-the-human-resources-database"></a>复制 Human Resources 数据库
 
@@ -71,15 +72,15 @@ ms.locfileid: "8060814"
 
 4. 在 **复制实例** 任务窗格中，选择要覆盖的实例，然后选择 **复制**。 等待 **复制状态** 字段的值更新为 **已完成**。
 
-   ![[选择要覆盖的实例。](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[选择要覆盖的实例](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. 选择 **Power Platform**，然后登录到 Microsoft Power Platform 管理中心。
 
-   ![[选择 Power Platform。](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[选择 Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
 
-7. 复制过程完成后，登录到目标实例，然后启用 Dataverse 集成。 有关详细信息和说明，请参阅[配置 Dataverse 集成](./hr-admin-integration-common-data-service.md)。
+7. 复制过程完成后，登录到目标实例，然后启用 Common Data Service 集成。 有关详细信息和说明，请参阅[配置 Common Data Service 集成](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)。
 
 ## <a name="data-elements-and-statuses"></a>数据元素和状态
 
@@ -111,7 +112,7 @@ ms.locfileid: "8060814"
 
 此外，复制实例时，以下状态也会更改：
 
-- 除具有“系统管理员”安全角色的用户外，所有用户均设置为 **已禁用**。
+- 除管理员以外的所有用户均设置为 **已禁用**。
 
 - 除某些系统作业外，所有批处理作业均设置为 **预扣**。
 
@@ -121,11 +122,11 @@ ms.locfileid: "8060814"
 
 目标沙盒环境中的所有非管理员用户均会被禁用，以防止在沙盒环境中进行不必要的登录。 管理员可以根据需要重新启用用户。
 
-## <a name="apply-custom-fields-to-dataverse"></a>将自定义字段应用于 Dataverse
+## <a name="apply-custom-fields-to-common-data-service"></a>将自定义字段应用于 Common Data Service
 
-如果将实例复制到沙盒环境中，并想要将沙盒环境与 Dataverse 集成，必须将自定义字段重新应用于 Dataverse 表。
+如果将实例复制到沙盒环境中，并想要将沙盒环境与 Common Data Service 集成，必须将自定义字段重新应用于 Common Data Service 实体。
 
-对于在 Dataverse 表上公开的每个自定义字段，请执行以下步骤：
+对于在 Common Data Service 实体上公开的每个自定义字段，请执行以下步骤：
 
 1. 转到自定义字段，然后选择 **编辑**。
 
@@ -139,9 +140,9 @@ ms.locfileid: "8060814"
 
 6. 再次选择 **应用更改**。
 
-取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Dataverse 中进行更新以包含自定义字段。
+取消选择、应用更改、重新选择和应用更改的流程会提示架构在 Common Data Service 中进行更新以包含自定义字段。
 
-有关自定义字段的详细信息，请参阅[创建并使用自定义字段](../fin-ops-core/fin-ops/get-started/user-defined-fields.md)。
+有关自定义字段的详细信息，请参阅[创建并使用自定义字段](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)。
 
 ## <a name="see-also"></a>请参阅
 
@@ -149,6 +150,3 @@ ms.locfileid: "8060814"
 [删除实例](hr-admin-setup-remove-instance.md)</br>
 [更新流程](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

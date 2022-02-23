@@ -2,12 +2,15 @@
 title: 手风琴模块
 description: 本主题介绍手风琴模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410404"
 ---
-# <a name="accordion-module"></a>可折叠模块
+# <a name="accordion-module"></a>手风琴模块
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍手风琴模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 手风琴模块是类似于容器的模块，用于通过提供可折叠的类似于抽屉的功能来组织页面上的信息或模块。 手风琴模块可以在任何页面上使用。
 
@@ -34,7 +39,7 @@ ms.locfileid: "6719519"
 
 下图显示了手风琴模块的示例，该模块用于组织商店的常见问题 (FAQ) 页面的信息。
 
-![手风琴模块的示例。](./media/ecommerce-accordion.PNG)
+![手风琴模块的示例](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>手风琴模块属性
 
@@ -82,6 +87,3 @@ ms.locfileid: "6719519"
 [标签模块](add-tab.md)
 
 [文本块模块](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,6 +48,3 @@ ms.locfileid: "4460433"
 | 报告问题。 | 选择页面右上角的 **帮助** 按钮 (**?**)，然后选择 **报告问题**。 输入问题的说明，如果要跟进问题，请加入电子邮件地址。 |
 | 获取与 Talent 许可有关的问题的帮助。 | 联系合作伙伴或 Microsoft 销售代表。 |
 | 申请 Onboard 内的新特性和功能。 | 选择 **帮助** 按钮 (**?**)，然后选择 **想法**。 也可以访问 [Dynamics 365 Talent: Onboard 想法](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard)以查看、搜索现有想法或为其投票，或添加新想法。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

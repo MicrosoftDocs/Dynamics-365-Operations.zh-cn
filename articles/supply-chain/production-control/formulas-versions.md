@@ -1,27 +1,30 @@
 ---
 title: 配方和配方版本
 description: 此主题提供有关配方和配方版本的信息。 配方定义流程制造中的特定流程的物料、成分和结果。 配方用于计划和生产流程制造中的产品。
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570265"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422932"
 ---
 # <a name="formulas-and-formula-versions"></a>配方和配方版本
 
@@ -68,6 +71,3 @@ ms.locfileid: "7570265"
 
 ## <a name="use-step-consumption"></a>使用步骤消耗量
 步骤消耗量清除必须在 **配方行** 选项卡上输入成分数量的要求。 相反，将步骤消耗量配置为具有 **开始系列** 值和 **数量** 值。 从每系列记录的步骤消耗量选择满足批次订单上的数量的信息。 当消耗率与批次订单的大小不呈线性关系且仅增加满足特定数量阈值的要求时，步骤消耗量非常有用。 若要对新配方启用此功能，在 **消耗计算** 组下，将适用成分的配方设置从 **标准** 更改为 **步骤**。 在 **配方行** 页的 **设置** 选项卡上指定此工作量法。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

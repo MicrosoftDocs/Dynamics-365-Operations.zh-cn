@@ -1,26 +1,29 @@
 ---
 title: 创建客户发票
-description: 销售订单的客户发票是与销售相关的、组织提供给客户的单据。
+description: '**销售订单的客户发票** 是与销售相关的、组织提供给客户的单据。'
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+manager: AnnBe
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087415"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440623"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -42,23 +45,6 @@ ms.locfileid: "8087415"
 
 
 **估价单** 是一种在过帐发票前作为对实际发票金额的评估而准备的发票。 您可为用于销售订单的客户发票或普通发票打印估价单。
-
-## <a name="using-sales-order-customer-invoice-data-entities"></a>使用销售订单客户发票数据实体
-您可以使用数据实体导入和导出有关销售订单的客户发票的信息。 对于销售发票标头和销售发票行上的信息，存在不同的实体。
-
-以下实体可用于销售发票标头上的信息：
-
-- **销售发票日记帐标头** 实体 (SalesInvoiceJournalHeaderEntity)
-- **销售发票标头 V2** 实体 (SalesInvoiceHeaderV2Entity)
-
-我们建议您使用 **销售发票日记帐标头** 实体，因为它为销售标头导入和导出提供更高效的体验。 此实体不包含 **销售税金额** (INVOICEHEADERTAXAMOUNT) 列，此列表示销售发票标头上的销售税值。 如果您的业务场景需要该信息，请使用 **销售发票标头 V2** 实体导入和导出销售发票抬头信息。
-
-以下实体可用于销售发票行上的信息：
-
-- **客户发票行** 实体 (BusinessDocumentSalesInvoiceLineItemEntity)
-- **销售发票行 V3** 实体 (SalesInvoiceLineV3Entity)
-
-在确定要用于导出的行实体时，请考虑是使用完全推送还是增量推送。 此外，还应考虑数据构成。 **销售发票行 V3** 实体支持更复杂的场景（例如，映射到库存字段）。 另外还支持完全推送导出场景。 对于增量推送，我们建议您使用 **客户发票行** 实体。 此实体包含的数据构成比 **销售发票行 V3** 实体简单得多，因而是首选选择，特别是在不需要库存字段集成的情况下。 由于行实体之间的映射支持差异，**客户发票行** 实体的性能通常高于 **销售发票行 V3** 实体。
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>过帐并打印基于销售订单的各个客户发票
 使用此流程创建基于销售订单的发票。 如果您决定在交付货物或服务之前给客户开发票，您可以执行此操作。 
@@ -181,6 +167,3 @@ ms.locfileid: "8087415"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

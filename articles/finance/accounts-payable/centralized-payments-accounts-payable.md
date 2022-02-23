@@ -2,25 +2,28 @@
 title: 应付帐款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: abruer
+manager: AnnBe
 ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 340e276e1943129033898a3cca174f07fadbb43f45fa9fb49e0b4f8eb4772d40
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a4632056d6873cfeb748251c77becc410f5cf54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749068"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440802"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>应付帐款的集中付款
 
@@ -298,6 +301,3 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

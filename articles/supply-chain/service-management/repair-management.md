@@ -1,26 +1,29 @@
 ---
 title: 维修管理
 description: 可以系统化地将多个问题进行分组，以便帮助建议在过去成功的解决方案。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1456c65f28d2a1d06497ddde81c9e68cc078c061
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4d45732ff35069a64b37b6c53d9e22adf9a9a46d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567911"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422740"
 ---
 # <a name="repair-management"></a>维修管理       
 
@@ -35,11 +38,15 @@ ms.locfileid: "7567911"
 
 使用以下设置窗体可以输入将用于指定维修的故障、诊断和解决方法的信息。
 
-- **服务管理** \> **设置** \> **维修** \> **条件**。
-- **服务管理** \> **设置** \> **维修** \> **故障区域**。
--  **服务管理** \> **设置** \> **维修** \> **诊断区域**。
-- **服务管理** \> **设置** \> **维修** \> **解决方法**。
-- **服务管理** \> **设置** \> **维修** \> **维修阶段**。
+1.  单击 **服务管理** \> **设置** \> **维修** \> **条件**。
+
+2.  单击 **服务管理** \> **设置** \> **维修** \> **故障区域**。
+
+3.  单击 **服务管理** \> **设置** \> **维修** \> **诊断区域**。
+
+4.  单击 **服务管理** \> **设置** \> **维修** \> **解决方法**。
+
+5.  单击 **服务管理** \> **设置** \> **维修** \> **维修阶段**。
 
 ## <a name="symptoms-and-conditions"></a>故障和条件
 
@@ -75,19 +82,19 @@ ms.locfileid: "7567911"
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>在服务订单上创建维修行
 
-1.  转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
 
 2.  选择具有需要维修的服务对象的服务订单。
 
-3.  **维修** \> **维修行** 打开 **维修行** 窗体。
+3.  单击 **维修** \> **维修行** 打开 **维修行** 窗体。
 
-4.  选择 **新建** 创建新行。
+4.  按 Ctrl+N 创建新行。
 
 5.  选择某一服务对象。 您可以选择已用该服务订单上的对象关系设置的任何服务对象。
 
-6.  选择在维修行中相关的任何预设故障、诊断和执行值，如果需要，然后选择 **备注** 选项卡以便创建针对该维修行的备注。
+6.  选择在维修行中相关的任何预设故障、诊断和执行值，如果需要，然后单击 **备注** 选项卡以便创建针对该维修行的备注。
 
-7.  选择 **保存** 保存新维修行。 使用保存时间更新 **维修行** 窗体的 **常规** 选项卡的 **创建日期和时间** 字段。
+7.  按下 CTRL+S 以保存这一新的维修行。 使用保存时间更新 **维修行** 窗体的 **常规** 选项卡的 **创建日期和时间** 字段。
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>跟踪进度和解决维修问题
 
@@ -106,6 +113,3 @@ ms.locfileid: "7567911"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

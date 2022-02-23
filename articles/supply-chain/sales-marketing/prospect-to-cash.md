@@ -1,27 +1,30 @@
 ---
 title: 从目标客户到现金
 description: 本主题提供在 Dynamics 365 Supply Chain Management 与 Dynamics 365 Sales 之间从目标客户到现金解决方案的概述。
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b96f22d711ce5b34c2f8de5a86caf5f89dd3f337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 55c39fac40498488519fcb539b3c3f7560a46b30
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422926"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 
@@ -79,6 +82,3 @@ ms.locfileid: "7578984"
 
 - Dynamics 365 Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) online 或更高版本
 - Dynamics 365 Sales 版本 1.15.0.0 或更高版本的从目标客户到现金解决方案。 可从 AppSource 下载此解决方案。 [下载 Dynamics 365 从目标客户到现金](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,34 @@
 ---
 title: 预订销售价
 description: 在您创建某一预订时，销售价将从在“销售价(预订)”窗体中创建的销售价设置中导出。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f03efbbca4fc9da76c6ead7566457beb79c8c249
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422922"
 ---
-# <a name="subscription-sales-prices"></a>预订销售价
+# <a name="subscription-sales-prices"></a>预订销售价   
 
 [!include [banner](../includes/banner.md)]
+
 
 在您创建某一预订时，销售价将从在 **销售价(预订)** 窗体中创建的销售价设置中导出。
 
@@ -32,14 +36,14 @@ ms.locfileid: "7569977"
 
 如果预订和销售价的期间代码和币种完全相同，则将基于在下表中列出的优先级选择预订销售价。 表中的空电池表示空字段，X 表示值等于从其生成交易记录的预订中的值。
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -119,6 +123,7 @@ ms.locfileid: "7569977"
 </tbody>
 </table>
 
+
 在创建预订费用时，具有最高详细级别的销售价（如上表中所述）将选作预订销售价。
 
 ## <a name="update-and-index-subscription-sales-prices"></a>对预订销售价进行更新并编制索引
@@ -133,15 +138,15 @@ ms.locfileid: "7569977"
 
 您想要为新项目 9030 设置 EUR 500 的预订销售价。 在 **销售价(预订)** 窗体中，可按照下表所示创建预订销售价。
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -172,14 +177,14 @@ ms.locfileid: "7569977"
 
 然后，您创建以下预订。
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -224,14 +229,14 @@ ms.locfileid: "7569977"
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -272,15 +277,15 @@ ms.locfileid: "7569977"
 
 以后，您决定要为项目 9030 的类别 SubCat1 指定销售价。 因此，您创建一个新的销售价行，该行具有针对项目 9030 和费用类别 SubCat1 的组合的 EUR 550 的销售价。 现在项目 9030 存在两个预订销售价行，如下表中所示。
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -315,18 +320,19 @@ ms.locfileid: "7569977"
 </tbody>
 </table>
 
+
 您重复执行上述过程，以便为预订组 Sub1 中的两个预订都创建预订费用。 下表显示为每个预订创建的附加到该预订组的交易记录。
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -364,10 +370,13 @@ ms.locfileid: "7569977"
 </tbody>
 </table>
 
+
 在预订 00020\_135 的第一个交易记录中，EUR 550 的销售价从为特定项目和类别的组合设置的预订销售价中导出。 在预订 00021\_135 的第二个交易记录中，EUR 500 的销售价用作项目预订销售价，因为不存在为项目 9030 和类别 SubCat2 的组合设置的价格。
 
 ## <a name="see-also"></a>请参阅
 
 [对预订销售价进行更新并编制索引](update-and-index-subscription-sales-prices.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

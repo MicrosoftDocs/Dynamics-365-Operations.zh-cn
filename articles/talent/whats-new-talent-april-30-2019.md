@@ -101,6 +101,3 @@ Talent 中用于提供反馈的选项位于 **帮助** 菜单 (**?**) 上。 可
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 
 安装 Finance and Operations 平台更新 26 之后，用户可创建警报规则，用于在事件触发通知后自动向联系人发送电子邮件通知。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

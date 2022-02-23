@@ -2,30 +2,32 @@
 title: 一个凭证
 description: 财务日记帐（普通日记帐、固定资产日记帐、供应商付款日记帐等）的一个凭证让您可以在单个凭证的上下文中输入多个子分类帐交易记录。
 author: kweekley
+manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344050"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440809"
 ---
 # <a name="one-voucher"></a>一个凭证
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>什么是“一个凭证”？
@@ -34,45 +36,44 @@ ms.locfileid: "7344050"
 
 - 设置日记帐名称（**总帐** \> **日记帐设置** \> **日记帐名称**），以便 **新凭证** 字段设置为 **仅一个凭证号**。 您添加到日记帐的各行现在都包括在同一凭证中。 因此，凭证可以作为多行凭证、同一行上的科目/对方科目或组合输入。
 
-    [![单行。](./media/same-line.png)](./media/same-line.png)
+    [![单行](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > “一个凭证”的定义 **不** 包括日记帐名称设置为 **仅一个凭证号**，但用户随后输入仅包含会计科目类型的凭证的情况。 在本主题中，“一个凭证”意味着有单个凭证包含多个供应商、客户、银行、固定资产或项目。
 
 - 输入没有对方科目的多行凭证。
 
-    [![多行凭证。](./media/Multi-line.png)](./media/Multi-line.png)
+    [![多行凭证](./media/Multi-line.png)](./media/Multi-line.png)
 
 - 输入科目和对方科目都包含子分类帐科目类型（如 **供应商**/**供应商**、**客户**/**客户**、**供应商**/**客户** 或 **银行**/**银行**）的凭证。
 
-    [![子分类帐凭证。](./media/subledger.png)](./media/subledger.png)
+    [![子分类帐凭证](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>一个凭证存在的问题
 
-“一个凭证”功能会在结算、纳税计算、交易记录冲销、子分类帐与总帐的对帐、财务报告等期间导致问题。 （有关结算期间可能发生的问题的详细信息，请参阅如[具有多个客户或供应商记录的单个凭证](../accounts-payable/single-voucher-multiple-customer-vendor-records.md)。）为了正确工作和报告，这些流程和报告需要交易记录明细。 尽管取决于您的组织的设置，某些可能方案仍能正确工作，但当在一个凭证中输入多个交易记录时通常会有问题。
+“一个凭证”功能会在结算、纳税计算、交易记录冲销、子分类帐与总帐的对帐、财务报告等期间导致问题。 （有关结算期间可能发生的问题的详细信息，请参阅如[具有多个客户或供应商记录的单个凭证](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records)。）为了正确工作和报告，这些流程和报告需要交易记录明细。 尽管取决于您的组织的设置，某些可能方案仍能正确工作，但当在一个凭证中输入多个交易记录时通常会有问题。
 
 例如，您过帐以下多行凭证。
 
-[![多行凭证的示例。](./media/example.png)](./media/example.png)
+[![示例](./media/example.png)](./media/example.png)
 
 然后您在 **财务见解** 工作区生成 **按供应商分类的费用** 报表。 在此报表中，支出帐户余额按供应商组然后按供应商分组。 当生成报表时，系统不能确定哪些供应商组/供应商发生了 250.00 费用。 因为交易记录明细缺少，系统假定所有 250.00 费用是由在凭证中找到的第一个供应商产生。 因此，250.00 费用（包含在主科目 600120 的余额中）显示在该供应商组/供应商下。 但是，凭证中的第一个供应商很有可能不是正确的供应商。 因此，报表可能不正确。
 
-[![按供应商分类的费用报表。](./media/expenses.png)](./media/expenses.png)
+[![支出](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>一个凭证的未来
 
-由于使用“一个凭证”时可能发生问题，此功能最终将被弃用。 但是，因为存在依赖此功能的功能空白，不会突然全部弃用。 而是使用以下计划：
+由于之前所提到的问题，“一个凭证”功能将被废弃。 但是，因为存在依赖此功能的功能空白，此功能不会一次全部废弃。 而是使用以下计划：
 
-- **2018 年春季发布** – 此功能通过 **总帐参数** 页的 **常规** 选项卡上的 **一个凭证可以允许多个交易记录** 参数默认关闭。 但是，如果您的组织有属于本主题后面列出的功能空白之一的方案，您可以重新打开此功能。
+- **2018 年春季发布** – 默认情况下，该功能将通过 **总帐参数** 页的 **常规** 选项卡上的 **一个凭证可以允许多个交易记录** 参数默认关闭。 但是，如果您的组织有属于本主题后面列出的功能空白之一的方案，您可以打开此功能。
 
-    - 如果您的业务场景不需要“一个凭证”，我们建议继续关闭此功能。 如果使用此功能，即使存在另一种解决方案，Microsoft 也不会修复本主题后面确定的区域的“bug”。
-    - 除非您需要使用一个凭证来填补记录的其中一个功能空白，否则我们建议您停止使用此功能进行集成。
+    - 如果客户的业务方案不需要一个凭证，他们不应打开此功能。 如果使用此功能，即使存在另一种解决方案，Microsoft 也不会修复本主题后面确定的区域的 "bug"。
+    - 除非需要使用一个凭证来填补其中一个功能空白，否则请停止使用此功能来集成。
 
-- **以后发布** – 有一些要求只能使用一个凭证满足。 Microsoft 必须确保在该功能弃用后，所有已确定的业务要求在系统中仍然能够得到满足。 因此，可能必须添加新功能来填补功能空白。 Microsoft 无法提供具体的解决方案，因为每个功能空白都是不同的，必须根据业务要求进行评估。 一些功能上的空白可能会替换为帮助满足特定业务要求的功能。 但是，其他空白可能通过继续允许在日记帐中输入来填补，就像使用“一个凭证”时一样，但会根据需要增强系统来跟踪更多详细信息。
+- **以后发布** – 将填补所有功能空白。 **在填补功能空白并提供新功能后，在关闭“一个凭证”之前至少还会留有一年时间**，因为客户和独立软件供应商 (ISV) 必须有足够的时间来对新功能作出反应。 例如，他们可能必须更新其业务流程、实体和集成。
 
-填补所有功能空白后，Microsoft 将通知您该功能将弃用。 但是，收到通知到弃用生效至少会间隔一年。 Microsoft 无法提供关于何时弃用一个凭证功能的估计，可能至少会在两年以后。 Microsoft 的政策是在宣布弃用功能与实际弃用之间至少留有 12 个月时间，以便客户和独立软件供应商 (ISV) 可以有时间对更改作出反应。 例如，某个组织可能必须更新其业务流程、实体和集成。
-
-弃用“一个凭证”是一项重大更改，会广泛传达。 作为信息传达的一部分，Microsoft 将更新此主题，在 Microsoft Dynamics 365 Finance 博客上发布博客文章，更新“已删除或弃用的功能”主题，在合适的 Microsoft 会议上传达更改，等等。
+> [!IMPORTANT]
+> 日记帐名称设置中尚 **未** 移除 **仅一个凭证号** 选项。 凭证仅包含会计科目类型时，仍然支持此选项。 客户在使用此设置时应小心谨慎，因为如果使用 **仅一个凭证号** 选项，但随之输入多个客户、供应商、银行、固定资产或项目，则该凭证将不过帐。 而且，客户仍然可以在包含 **供应商**/**银行** 科目类型的单个凭证内输入子分类帐科目类型，如付款。
 
 ## <a name="why-use-one-voucher"></a>为何使用一个凭证？
 
@@ -82,7 +83,7 @@ ms.locfileid: "7344050"
 
 以下场景只能使用一个凭证功能完成。 如果您的组织遇到这些场景案中的任何一个，您必须启用要在凭证中输入的多个交易记录，方法是更改 **总帐参数** 页上 **一个凭证可以允许多个交易记录** 参数的设置。。 这些功能空白将通过以后发布的其他功能填补。
 
-> [!NOTE]
+> [!Note]
 > [对于以下每个场景，必须在 **总帐参数** 页面上的 **常规** 快速选项卡中将 **一个凭证可以允许多个交易记录** 设置为“是”。]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>将汇总窗体中的供应商或客户付款过帐到银行帐户
@@ -116,7 +117,15 @@ ms.locfileid: "7344050"
 如果“偿还”定期任务从应收帐款模块运行，它将创建将余额从客户移至供应商的交易记录。 对于此场景，“一个凭证”必须用于偿还客户。
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>固定资产维护：采纳折旧、拆分资产、计算处置折旧
-在版本 10.0.21 及更高版本中，将使用不同凭证号创建采纳折旧、拆分资产、计算资产处置折旧的固定资产交易记录。
+以下固定资产交易记录还在单个凭证中创建多个交易记录：
+
+- 对资产进行其他购置，以及计算“采纳”折旧。
+- 拆分资产。
+- 计算处置折旧的参数打开，然后处置资产。
+- 资产的服务日期在购置日期之前。 因此，折旧调整将过帐。
+
+> [!Note]
+> 输入交易记录时，请确保所有交易记录都适用于同一固定资产。 如果凭证包含多个固定资产，凭证不会过帐，即使在总帐的 **日记帐名称** 页面上将 **新凭证** 字段设置为“仅一个凭证号”。 如果凭证中包含多个固定资产，则会显示消息 **每个凭证只能有一个固定资产交易记录**，您将无法过帐凭证。  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> 汇票和本票
 汇票和本票需要使用“一个凭证”，因为交易记录根据付款状态将客户或供应商余额从一个应收帐款/应付帐款会计科目移至另一个。
@@ -177,6 +186,3 @@ Microsoft Dynamics 365 for Operations 版本 1611（2016 年 11 月）中添加�
 ### <a name="the-system-allows-it"></a>系统允许使用
 
 组织使用“一个凭证”功能经常只是因为系统允许他们使用，而不了解影响。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

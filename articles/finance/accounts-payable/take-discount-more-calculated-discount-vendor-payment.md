@@ -1,28 +1,31 @@
 ---
-title: 获取比供应商付款的计算折扣更多的折扣
+title: 采取的折扣大于供应商付款的计算折扣
 description: 本文向您展示为超过发票上最初可用折扣的金额执行现金折扣的情况。 如果组织履行协议，供应商支付发票上的较小金额，可能发生此情况。
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52e18e75cfad34829dc78486d2b78b8e4211bb948bc5ddd0be85552bd914010b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736937"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440594"
 ---
-# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>获取比供应商付款的计算折扣更多的折扣
+# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>采取的折扣大于供应商付款的计算折扣
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +39,7 @@ ms.locfileid: "6736937"
 
 折扣信息显示在 **结算交易记录** 页的底部。
 
-| 字段                        | 值     |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/12/2015 |
 | 现金折扣金额         | 60.00     |
@@ -48,6 +51,3 @@ April 过帐付款日志。 使用付款 940.00 和 60.00 折扣完全结算发�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

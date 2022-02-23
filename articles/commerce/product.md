@@ -2,9 +2,11 @@
 title: 在 POS 中添加产品建议
 description: 本主题介绍如何在销售点 (POS) 设备上使用产品建议。
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763732"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969918"
 ---
 # <a name="add-product-recommendations-on-pos"></a>在 POS 中添加产品建议
 
@@ -39,7 +41,7 @@ ms.locfileid: "6763732"
 
     - 如果售货员在查看跨不同渠道的早期交易记录时访问 **产品详细信息** 页面，建议服务将推荐更多可能搭配购买的物料。
 
-    [![有关“产品详细信息”页面的建议。](./media/proddetails.png)](./media/proddetails.png)
+    [![有关“产品详细信息”页的建议](./media/proddetails.png)](./media/proddetails.png)
 
 2. 在 **交易记录** 页面中：
 
@@ -48,7 +50,7 @@ ms.locfileid: "6763732"
     > [!NOTE]
     > 若要在 **交易记录** 页面中显示建议，零售商需要更新 Dynamics 365 Commerce 中的屏幕布局。 必须将 **建议** 控件拖到 **交易记录** 页面中。
 
-    [![有关“交易”页面的建议。](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![有关“交易记录”页的建议](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>配置 Commerce 以启用 POS 建议
 
@@ -89,6 +91,3 @@ ms.locfileid: "6763732"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

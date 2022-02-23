@@ -2,9 +2,11 @@
 title: 查看工作流历史记录
 description: 本主题介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。
 author: jasongre
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069951"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798972"
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 本主题介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。 创建此程序的演示数据公司是 USMF。
 
@@ -47,6 +46,3 @@ ms.locfileid: "8069951"
     - **重新分配** 按钮将打开一个对话框，从中可向其他用户重新分配工作项。  
     - 确保已展开 **跟踪详细信息** 部分。 在此部分中，可以查看所选单据的工作流历史记录。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

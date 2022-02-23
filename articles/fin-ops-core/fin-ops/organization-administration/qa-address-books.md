@@ -2,9 +2,11 @@
 title: 通讯簿常见问题
 description: 本主题提供对有关通讯簿的常见问题的解答。
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463606"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796890"
 ---
 # <a name="address-books-faq"></a>通讯簿常见问题
 
@@ -65,13 +67,3 @@ ms.locfileid: "7463606"
 ## <a name="can-i-translate-address-information-for-party-records"></a>是否可以转换当事方记录的地址信息？
 
 您可以设置地址信息的转换以便该信息在程序中用您的用户语言（系统语言）显示，不过在文档上用其他语言，如用销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>导入地址后为什么无法编辑记录？
-
-导入地址时，有一个字段名称为 **IsLocationOwner**。 此字段指示与位置（地址）关联的当事方是否为地址的负责人。 如果当事方是地址的负责人，则在全球通讯簿中或从主记录页面（如客户、供应商或工作人员）使用该当事方访问该地址时，可以编辑该地址。 如果当事方不是地址的负责人，则不能编辑记录。 
-
-导入地址时，如果您希望可使用关联的当事方编辑地址，则 **IsLocationOwner** 字段应该设置为 **是**。 如果未正确导入此字段，则可在全局通讯簿中更新位置负责人。
-
-有关如何更改所导入地址的位置负责人的详细信息，请参阅[管理位置负责人](./global-address-book-location-owner.md)。
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

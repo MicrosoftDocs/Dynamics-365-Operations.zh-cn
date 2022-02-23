@@ -2,28 +2,29 @@
 title: 装载计划工作台
 description: 本主题介绍如何使用负荷构建工作台。
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574849"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646365"
 ---
 # <a name="load-building-workbench"></a>装载计划工作台
-
-[!include [banner](../../includes/banner.md)]
 
 负荷构建工作台可让您在创建负荷时应用负荷构建策略。
 
@@ -66,6 +67,3 @@ ms.locfileid: "7574849"
 1. 查看建议的负荷和建议的负荷行。
 1. 在操作窗格上，选择 **创建负荷** 以创建基于 **建议的负荷行** 快速选项卡上的源单据行的负荷。
 1. 关闭 **负荷构建工作台** 页面。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

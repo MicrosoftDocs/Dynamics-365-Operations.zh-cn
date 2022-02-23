@@ -60,6 +60,3 @@ ObjectId                             DisplayName UserPrincipalName      UserType
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

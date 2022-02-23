@@ -2,23 +2,26 @@
 title: 发放到仓库规则
 description: 本主题介绍“发放到仓库规则”功能，该功能用于在发放到仓库期间提供灵活性。 其添加了一个配置选项，用于控制系统是否允许发放部分保留的订单行。
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580016"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422792"
 ---
 # <a name="release-to-warehouse-rule"></a>发放到仓库规则
 
@@ -128,6 +131,3 @@ ms.locfileid: "7580016"
 
 > [!NOTE]
 > 部分预留第二行时，结果应该相同。 在此情况下，将为预留行数量创建工作，但是不会为未预留数量创建。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

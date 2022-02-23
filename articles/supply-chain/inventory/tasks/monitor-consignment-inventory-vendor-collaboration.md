@@ -1,25 +1,27 @@
 ---
 title: 使用供应商协作监控托运库存
 description: 此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。
-author: yufeihuang
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0d194728805cd1eee741069538352b497867981
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f2e782bed4cd9f2f13e2ee45afffaef277279131
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571825"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020121"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>使用供应商协作监控托运库存
 
@@ -40,6 +42,3 @@ ms.locfileid: "7571825"
 1. 转到“供应商协作”>“托运库存”>“现有托运库存”。
     * “现有托运库存”页面显示您在客户的仓库中拥有的存货。 可以通过单击“显示维度”选项卡显示更多维度，如站点和仓库。   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

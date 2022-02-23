@@ -1,25 +1,28 @@
 ---
 title: 启用生产流版本
 description: 应先启用生产流版本，才能为该版本创建看板作业和处理活动。
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57facac81febda1102defb11aa3b214e95a6bbe0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 94888a0ad10371a9aa449d1c7706f85cf5d9d5e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579320"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422733"
 ---
 # <a name="activate-a-production-flow-version"></a>启用生产流版本
 
@@ -38,6 +41,3 @@ ms.locfileid: "7579320"
 5. 单击“启用”。
 6. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: 将成本元素维度成员映射到一组常用维度成员
 description: 通过将不同的成本元素维度成员映射到一组通用的成本元素维度成员，您可以将数据合并为通用格式进行分析。
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6a9618a762d3af840beb05d86518b3588118e80
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440670"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>将成本元素维度成员映射到一组常用维度成员
 
@@ -50,6 +53,3 @@ ms.locfileid: "6728023"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: 页脚模块
 description: 此主题介绍页脚模块和如何在 Dynamics 365 Commerce 中制作页脚模块。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719978"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410466"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -27,11 +30,13 @@ ms.locfileid: "6719978"
 
 此主题介绍页脚模块和如何在 Microsoft Dynamics 365 Commerce 中创建该模块。
 
+## <a name="overview"></a>概览
+
 页脚模块是用于承载页脚中显示的模块的特殊容器。 例如，其中可包含站点中各页面（如 **联系我们** 和 **商店政策** 页面）的链接。
 
 下图显示了站点页上的页脚模块的示例。
 
-![页脚模块的示例。](./media/ecommerce-footer.PNG)
+![页脚模块示例](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>页脚模块属性 
 
@@ -82,6 +87,3 @@ ms.locfileid: "6719978"
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

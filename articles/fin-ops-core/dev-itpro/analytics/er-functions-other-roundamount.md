@@ -2,8 +2,11 @@
 title: ROUNDAMOUNT ER 函数
 description: 本主题提供有关 ROUNDAMOUNT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770853"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683055"
 ---
 # <a name="roundamount-er-function"></a>ROUNDAMOUNT ER 函数
 
@@ -69,7 +72,7 @@ ROUNDAMOUNT (number, decimals, round rule)
 
 当 `round rule` 参数设置为 **RoundOffType.RoundUp** 时，此函数离零舍入到最接近的舍入金额。
 
-当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数的行为类似于 [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel 函数和 [ROUND](../dev-ref/xpp-math-run-time-functions.md#round) X++ 函数。
+当 `round rule` 参数设置为 **RoundOffType.Ordinary** 时，此函数的行为类似于 [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel 函数和 [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ 函数。
 
 ## <a name="remarks"></a>注解
 
@@ -88,6 +91,3 @@ ROUNDAMOUNT (number, decimals, round rule)
 [其他（业务域特定的）函数](er-functions-category-other.md)
 
 [数学函数](er-functions-category-mathematical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

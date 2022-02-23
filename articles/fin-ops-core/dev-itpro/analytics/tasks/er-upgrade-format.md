@@ -1,10 +1,12 @@
 ---
 title: ER 通过采用该格式的新的基本版本升级格式
-description: 本主题介绍如何维护电子报告 (ER) 格式配置。
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何维护电子申报 (ER) 格式配置。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720800"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684251"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER 通过采用该格式的新的基本版本升级格式
 
@@ -241,6 +243,3 @@ Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>测试付款文件生成的自定义格式
 在一个并行 Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,28 +1,29 @@
 ---
 title: SEPA 贷方转帐概览
 description: 此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11124"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f0fc01508bd206f750a4101521cd9dff7b647656
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440703"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
 
@@ -32,7 +33,7 @@ ms.locfileid: "7984019"
 
 ## <a name="what-is-a-credit-transfer-message"></a>贷方转帐消息是什么？
 贷方转帐消息是发起方（您公司）为了将资金从自己的帐户转移到贷方而发出的请求。 贷方转帐消息有大量国家/地区特定和银行特定的实施。 其中一些在一个国家/地区内使用，一些则成为了标准。 一个享有盛誉的全球标准为 ISO 20022 及其初始消息，如“贷方转帐”。 下图显示选定贷方转帐消息的关系和范围。 
-![贷方转帐。](./media/credit-transfer.jpg) 贷方转帐消息 
+![贷方转帐](./media/credit-transfer.jpg)贷方转帐消息 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>ISO 20022 和 SEPA 付款是什么？
 单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内付款和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及爱尔兰、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。 欧盟执委会通过付款服务规定 (PSD) 建立 SEPA 付款的法律基础。 欧元支付委员会 (EPC) 通过以下活动支持 SEPA:
@@ -56,7 +57,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置** 的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
--   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。
+-   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。
 -   在配置应付帐款付款方式时，请选中 **一般电子申报** 复选框，并选择相应的贷方转帐格式（如 **ISO 20022 贷方转帐 (AT)**）作为导出格式配置。
 -   还必须设置法人和银行帐户信息。
 -   需要银行帐号、IBAN，有时还需要 SWIFT 代码 (BIC) 或其他 ID，才能创建有效的贷方转帐付款。 必须为供应商银行帐户和请求转帐的银行帐户设置这些信息。
@@ -125,6 +126,3 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

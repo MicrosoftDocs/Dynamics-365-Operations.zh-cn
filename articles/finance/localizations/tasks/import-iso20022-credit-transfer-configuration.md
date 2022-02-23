@@ -2,23 +2,26 @@
 title: 导入 ISO20022 贷方转帐配置
 description: 此过程显示如何导入供应商付款电子申报配置。
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffc86ba9dade0ae494ca4ace8d9f562da9c9527a4731493d892b60112293af3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01f44c49b6623cbcc2f08cfd6e4978c9a1676b83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440799"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>导入 ISO20022 贷方转帐配置
 
@@ -42,6 +45,3 @@ ms.locfileid: "6781128"
     * 如果导入按钮没出现，表示该配置文件已经被导入了。  
 9. 单击“是”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

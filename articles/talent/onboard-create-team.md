@@ -75,6 +75,3 @@ ms.locfileid: "4460460"
 - [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
 - [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
 - [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

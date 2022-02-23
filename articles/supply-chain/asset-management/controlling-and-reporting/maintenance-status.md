@@ -1,10 +1,12 @@
 ---
 title: 维护状态
 description: 本主题说明如何在资产管理中计算维护状态。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 138e2e72fbf761d209d288c2bd778c08519b9c69b0715f4466d4838255a2a31e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5bac42d5cdc62361ee9a562e59bafa09ca7a215
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752001"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018488"
 ---
 # <a name="maintenance-status"></a>维护状态
 
@@ -57,14 +59,11 @@ ms.locfileid: "6752001"
 
 在下面的屏幕截图中，已激活 **年** 和 **月** 按钮。 选择这些 **分组依据** 选项后，您将获取基于与维护请求和工作订单关联的月工作负载和吞吐量的一般概览。 
 
-![月工作负荷的示例。](media/13-controlling-and-reporting.png)
+![月工作负载示例](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>示例 2
 
 在下面的屏幕截图中，已添加了有关功能位置的信息。 请注意，可以比较多个功能位置（可以是地理位置、工厂或工作区域）的工作负载和吞吐量。 
 
-![包含功能位置的月工作负荷的示例。](media/14-controlling-and-reporting.png)
+![包含功能位置的月工作负载示例](media/14-controlling-and-reporting.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

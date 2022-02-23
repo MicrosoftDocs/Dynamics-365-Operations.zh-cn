@@ -1,29 +1,30 @@
 ---
 title: 库存管理概览
 description: 本主题提供库存管理的概览。
-author: yufeihuang
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2094"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dee04677858228b66d64bb0a217206b5557cc30
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422758"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -42,7 +43,7 @@ ms.locfileid: "7982656"
 下面的学习图显示构成库存管理模块框架的主要概念和任务。 单击下面的学习图将其展开。 此学习图将帮助您开始使用。
 
 
-[![库存学习图。](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
+[![库存学习图](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -53,10 +54,7 @@ ms.locfileid: "7982656"
 若要了解更多信息，请参阅[库存结转](../cost-management/inventory-close.md)。
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>制造和 Supply Chain Management 博客
-您可以在 [Dynamics AX 制造研发团队博客](/archive/blogs/axmfg/)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。
+您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关库存管理及其他解决方案的建议、新闻和其他信息。
 
 ### <a name="task-guides"></a>任务指南
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

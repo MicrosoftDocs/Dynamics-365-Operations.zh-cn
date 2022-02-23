@@ -1,28 +1,28 @@
 ---
 title: 功能位置简介
 description: 本主题概述资产管理中的功能位置。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationEditSubLocations, EntAssetFunctionalLocationLookup, EntAssetFunctionalLocationRename, EntAssetFunctionalLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62cfd913393c3533c232dd89c90c3cdfffa72244
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767545"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018165"
 ---
 # <a name="introduction-to-functional-locations"></a>功能位置简介
 
@@ -82,6 +82,3 @@ ms.locfileid: "6767545"
 | 故障                              | 打开 **资产故障** 页，可在其中查看与所选功能位置关联的资产故障登记的列表。 |
 | 更新功能位置状态    | 更新所选功能位置的阶段。                                                                                        |
 | 生命周期状态日志                 | 查看日志，其中显示所选功能位置的阶段。                                                                        |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

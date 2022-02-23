@@ -1,24 +1,27 @@
 ---
 title: 银行外币重估
 description: 本主题概述银行外币重估流程。 其中包括有关该流程的设置、运行、计算，以及重估交易记录的冲销的信息。
-author: roschlom
+author: mikefalkner
+manager: AnnBe
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3df6a22e06abbfa75a12ffddac242dd34f5beba5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754112"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440850"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 
@@ -85,6 +88,3 @@ ms.locfileid: "7754112"
 如果您必须冲销重估交易记录，请选择 **外币重估** 页面的操作窗格上的 **冲销交易记录**。 将创建新的外币重估历史记录，以维护何时发生或冲销重估的历史审核线索。
 
 若要冲销多个重估，必须首先冲销最新重估。 然后按日期顺序冲销更早的重估。 然后可以处理您已冲销的期间的新重估。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: 职位预测
 description: 与工作人员相关的费用通常在组织成本中占较大比例。 职位预测让您计划这些费用并将它们包含在预算计划中。
-author: panolte
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595478"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440793"
 ---
 # <a name="position-forecasting"></a>职位预测
 
@@ -30,7 +33,7 @@ ms.locfileid: "7595478"
 
 ## <a name="position-forecasting-in-budget-planning"></a>预算计划中的职位预测
 
-[![职位预测的组件。](./media/graphic-top.png)](./media/graphic-top.png) 
+[![职位预测的组件](./media/graphic-top.png)](./media/graphic-top.png) 
 
 职位预测使用三个主要组件为职位费用提供准确预算金额。 这些金额然后可以放入预算计划以进行预算计算。 
 
@@ -42,14 +45,14 @@ ms.locfileid: "7595478"
 
 ### <a name="position-forecasting-processes"></a>职位预测流程
 
-[![职位预测流程图。](./media/graphic1b.png)](./media/graphic1b.png) 
+[![职位预测流程图](./media/graphic1b.png)](./media/graphic1b.png) 
 
 在职位预测的典型流程中，您首先创建设置组件（预算成本元素和薪酬组）。 然后基于现有职位生成预测职位。 随后您可以进行调整。 例如，您可以添加或结束职位、更改付薪比率和福利成本并添加工资涨幅。 您可以创建多个预测职位版本来推进不同预算方案之间的对比。 接下来，您可以将预测职位包括在预算计划内，并作为预算计划行放入预测职位的成本。
 
 由于预算计划被修订，您可以创建其他预测职位版本。 这些新版本提供修订的基础。
 
 ## <a name="position-forecasting-setup"></a>职位预测设置
-[![突出显示设置的图。](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![突出显示设置的图](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>预算成本元素
 
@@ -67,9 +70,9 @@ Jodi 的组织提供员工基本工资 5% 的培训津贴。 Jodi 想要为此�
 
 Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖** 字段中选择 **不允许成本更改**。 组织希望此成本平均分配给每个月。 因此，Jodi 在 **分配方法** 字段中选择 **每季度**。 
 
-接下来，Jodi 添加一个成本计算行，设置日期和主科目，然后输入百分比 **5.00**。 组织每年有 5,000 美元的福利额度。 因此，Jodi 输入该金额作为每年限额。 
+接下来，Jodi 添加一个成本计算行，设置日期和主科目，然后输入百分比 **5.00**。 她的组织每年有 5,000 美元的福利额度。 因此，Jodi 输入该金额作为每年限额。 
 
-最后，Jodi 添加用于基本工资的所有收入成本元素作为计算基础。 预算成本元素现在可以使用。
+最后，Jodi 添加用于基本工资的所有收入成本元素作为计算基础。 她的预算成本现在可以使用。
 
 ### <a name="compensation-groups"></a>薪酬组
 
@@ -86,7 +89,7 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 当您为组中的预测职位创建收入时，包括其基本工资和所有薪档提升，使用在薪酬组中选择的收入成本元素。 **薪酬固定计划** 字段将薪酬组与人力资源中的固定薪酬计划链接起来。 此链接可以将工作人员的固定薪酬信息分配到预测职位，因此可以使预算计划更准确。 请记住，薪酬组的薪酬网格的结构应与固定薪酬计划的结构匹配。 否则，系统不能正确链接薪酬组和固定薪酬计划。
 
 ## <a name="creating-forecast-positions"></a>创建预测职位
-[![突出显示“创建预测职位”的图。](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![突出显示“创建预测职位”的图](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>创建现有职位的预测职位
 
@@ -115,7 +118,7 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 您还可以创建全新的预测职位。 选择一个现有的作业，同时选择预算计划流程和预算计划方案。 然后您可以添加您要添加的所有其他详细信息。 同样，在人力资源中同时创建新职位。
 
 ## <a name="working-with-forecast-positions"></a>使用预测职位
-[![突出显示“修改预测职位”的图。](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![突出显示“修改预测职位”的图](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>预测职位的多个版本
 
@@ -137,7 +140,7 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 
 **示例** 
 
-组织考虑减少会计职位成本的两个选项。 一个选项是结束全年方法的职位部分。 另一个选项是将职位更改为全年半工。 Brad 在基准方案中为现有会计职位创建了一个预测职位。 Brad 将此基准预测职位复制到方案 A，设置退休日期为 5 月 31 日，并重新计算。 然后，Brad 将基准预测职位复制到方案 B，更改 FTE 值为 **0.50**，并重新计算。 Brad 现在有三个版本，每个版本均有与选项一致的成本合计。
+组织考虑减少会计职位成本的两个选项。 一个选项是结束全年方法的职位部分。 另一个选项是将职位更改为全年半工。 Brad 在基准方案中为现有会计职位创建了一个预测职位。 他将此基准预测职位复制到方案 A，设置退休日期为 5 月 31 日，并重新计算。 然后，Brad 将基准预测职位复制到方案 B，更改 FTE 值为 **0.50**，并重新计算。 Brad 现在有三个版本，每个版本均有与其选项一致的成本合计。
 
 #### <a name="assigning-a-compensation-group"></a>分配薪酬组
 
@@ -171,7 +174,7 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>将预测职位放入预算计划
 
-[![突出显示“添加到预算计划”的图。](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![突出显示“添加到预算计划”的图](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 创建和修改预测职位的目的是将它们添加到预算计划，以便预算计划包含最准确的预算金额。 将预测职位添加到预算计划有两种方法。 您可以在预算计划中使用生成流程或选择流程。
 
@@ -215,6 +218,3 @@ Jodi 不希望经理更改福利金额。 因此，她在 **预测职位覆盖**
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,29 @@
 ---
 title: 创建绩效审核
 description: 此主题介绍如何创建绩效审核和介绍审核各部分的目的。
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066942"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417451"
 ---
 # <a name="create-performance-reviews"></a>创建绩效审核
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 此主题介绍如何创建绩效审核和介绍审核各部分的目的。 创建该过程的演示数据公司是 USMF。
@@ -68,18 +66,15 @@ ms.locfileid: "8066942"
 30. 选择 **等级** 选项卡。  
 
     - **等级详细信息** 快速选项卡允许员工对自己进行评分，并允许经理对员工进行评分。 如果使用权重，将自动计算分数的权重值。  
-    - 若要查看此部分，请在 **Human resources 共享参数** 页面中启用有关显示雇用评分的参数设置。  
+    - 要查看此部分，请启用用于显示员工等级的参数设置。  
 
-31. 选择 **签核** 选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。 如果不使用工作流，则同时在此处列出工作人员和经理。 将根据审核类型的设置选中 **签核** 的 **必需** 复选框。  
+31. 选择 **签核** 选项卡。如果审核使用工作流，则仅在完成工作流之后，才显示签核。 如果不使用工作流，则同时在此处列出工作人员和经理。 将根据审核类型的设置选中所需复选框。  
 32. 选择 **常规** 选项卡。
 
     - 绩效期间创建默认开始和结束日期。 这些日期可编辑。  
-    - 状态控制对审核的访问。 **未开始** 状态允许任何人编辑审核。 **进行中** 状态仅允许员工查看和编辑审核。 **为审核做准备** 仅允许管理员查看和编辑审核。 如果在最终审核中选择了 **最终审核中允许编辑** 选项，**最终审核** 状态将允许员工和经理查看和编辑评论。 **已完成** 和 **已取消** 状态会使审核为只读。 如果审核被 **拒绝** 并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。
+    - 状态控制对审核的访问。 **未开始** 状态允许任何人编辑审核。 **进行中** 状态仅允许员工查看和编辑审核。 **为审核做准备** 仅允许管理员查看和编辑审核。 **最终审核** 状态使员工和经理都可以查看审核，还允许进行编辑（如果在审核类型中进行了设置）。 **已完成** 和 **已取消** 状态会使审核为只读。 如果审核被 **拒绝** 并发回给员工，则员工和经理都可以进行必要的编辑，以便员工可以重新提交。
 
 33. 在 **概述** 字段中，键入一个值。
 34. 选择 **审核** 选项卡。随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。  
 35. 选择 **签核** 选项卡。工作人员和经理可以签核审核。 当所有必需签核均已完成时，状态将更改为 **已完成**，并且再也不能执行更改。  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

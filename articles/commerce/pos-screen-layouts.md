@@ -2,13 +2,16 @@
 title: POS 用户界面视觉效果配置
 description: 此主题提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
 author: boycezhu
+manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -16,31 +19,31 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765872"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410618"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
 [!include [banner](includes/banner.md)]
 
 
-可组合使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
+可使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
 
 下图显示构成 POS UI 可配置项的各实体之间的关系。
 
-![POS 屏幕布局实体。](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![POS 屏幕布局实体](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>可视化配置文件
 
 视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。 每位登录收银机的用户都将看到相同的主题、布局、颜色和图像。
 
-![采用浅色主题的 POS 欢迎屏幕。](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![采用浅色主题的 POS 欢迎使用屏幕](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![采用深色主题的 POS 交易屏幕。](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![采用深色主题的 POS 交易记录屏幕](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **配置文件编号** – 配置文件编号是可视化配置文件的唯一标识符。
 - **描述** - 您可以指定有意义的名称，帮助确定适合您的情况的配置文件。
@@ -65,15 +68,15 @@ ms.locfileid: "6765872"
 
 屏幕布局配置决定 POS **欢迎** 屏幕和 **交易记录** 屏幕中的 UI 控件的操作、内容和位置。
 
-![POS 屏幕布局视图。](../commerce/media/POS-Screen-Layout-View.png)
+![POS 屏幕布局视图](../commerce/media/POS-Screen-Layout-View.png)
 
 - **欢迎屏幕** – 在大多数情况下，欢迎屏幕是用户首次登录 POS 时看到的页面。 欢迎屏幕中可以包含品牌图像和用于访问 POS 操作的按钮网格。 此屏幕通常放置不特定于当前交易记录的操作。
 
-    ![POS 欢迎屏幕。](../commerce/media/POS-Welcome-Screen.png)
+    ![POS 欢迎屏幕](../commerce/media/POS-Welcome-Screen.png)
 
 - **交易记录屏幕** – **交易记录** 屏幕是 POS 中用于处理销售交易记录和订单的主屏幕。 内容和布局使用屏幕布局设计器配置。
 
-    ![POS 交易屏幕。](../commerce/media/POS-Transaction-Screen.png)
+    ![POS 交易记录屏幕](../commerce/media/POS-Transaction-Screen.png)
 
 - **默认开始屏幕** – 有些零售商倾向于收银员在登录后直接进入 **交易记录** 屏幕。 **默认启动屏幕** 设置用于指定登录后每个屏幕布局显示的默认屏幕。
 
@@ -89,7 +92,7 @@ ms.locfileid: "6765872"
 
 启动时，POS 应用程序将自动选择为设备配置的最接近的布局尺寸。 屏幕布局中也可以包含横向和纵向模式的配置，以及全尺寸设备和精简型设备的配置。 因此，可以为用户分配一个屏幕布局，而该屏幕布局支持商店内的多种尺寸和外形。
 
-![POS 布局尺寸。](../commerce/media/POS-Screen-Layout-Sizes.png)
+![POS 布局尺寸](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **名称** – 您可以输入有意义的名称来标识屏幕大小。
 - **布局类型** – POS 应用程序可以以各种模式显示其 UI，以便在给定设备上提供最佳用户体验。
@@ -102,7 +105,7 @@ ms.locfileid: "6765872"
 > [!TIP]
 > 可以通过在应用程序中查看分辨率了解 POS 需要的布局尺寸。 启动 POS，然后转至 **设置 \> 会话信息**。 POS 显示当前加载的屏幕布局，布局尺寸和应用程序窗口的分辨率。
 
-![POS 会话信息页面，显示当前加载的屏幕布局、布局尺寸和应用窗口的分辨率。](../commerce/media/POS-Session-Information.png)
+![POS 会话信息页显示当前加载的屏幕布局，布局尺寸和应用程序窗口的分辨率](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>按钮网格
 
@@ -112,10 +115,7 @@ ms.locfileid: "6765872"
 
 在精简型 POS 布局中，按钮网格自动从上到下，从最小编号（“交易记录”屏幕 1）到最大编号分布。 可以在 **操作** 菜单中访问这些按钮网格。
 
-![精简型布局按钮网格。](../commerce/media/Compact-View-Button-Grids.png)
-
-> [!NOTE]
-> 设计器中的按钮大小将缩放以适应窗口的大小，因此它们可能无法准确反映 POS 中呈现的实际按钮。 为了最好地模拟按钮网格布局，请将设计器窗口调整为与 POS 相同的大小。
+![精简型布局按钮网格](../commerce/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>图像
 
@@ -132,7 +132,7 @@ ms.locfileid: "6765872"
 
 用户可使用完整型布局设计器将 UI 控件拖到 POS **交易记录** 屏幕上和配置这些控件的设置。
 
-![POS 完整布局设计器（横向模式）。](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![POS 完整型布局设计器（横向）](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **导入布局/导出布局** – 可将将 POS 屏幕布局设计作为 XML 文件导出和导入，以便轻松重复使用和在环境之间共享。 请务必导入正确布局尺寸的布局设计。 否则，UI 元素可能不能正确适应屏幕。
 - **横向/纵向** – 如果 POS 设备允许用户在横向和纵向模式之间切换，则您必须为各模式定义屏幕布局。 POS 将自动检测屏幕旋转方向并显示正确的布局。
@@ -140,11 +140,11 @@ ms.locfileid: "6765872"
 - **设计器缩放** – 可以缩放设计器视图，以便更好查看 POS 屏幕上的内容。 POS 上的屏幕分辨率与设计器中使用的屏幕分辨率差别很大时，此功能非常有用。
 - **显示/隐藏导航栏** – 对于完整型 POS 布局，您可以选择 **交易记录** 屏幕中是否显示左侧导航栏。 此功能对分辨率较低的显示器很有用。 若要设置可见性，请在设计器中右键单击导航栏，然后选中或清除 **始终显示** 复选框。 如果导航栏已隐藏，POS 用户仍然可以使用左上角的菜单访问。
 
-    ![显示/隐藏导航栏。](../commerce/media/Navigation-Bar.PNG)
+    ![显示/隐藏导航栏](../commerce/media/Navigation-Bar.PNG)
 
 - **POS 控件** – POS 布局设计器支持以下控件。 可通过右键单击和使用快捷菜单配置大量控件。
 
-    ![POS UI 控件。](../commerce/media/POS-UI-Controls.png)
+    ![POS UI 控件](../commerce/media/POS-UI-Controls.png)
 
     - **数字键盘** - 数字键盘是 POS **交易记录** 屏幕中的主要用户输入机制。 您可以配置控件，以便显示完整型的数字键盘。 此选项是触控屏设备的理想选择。 您也可以将其配置为仅显示输入字段。 在这种情况下，使用物理键盘进行输入。 只有完整型布局中才有数字键盘设置。 对于精简型布局，**交易记录** 屏幕上始终显示完整型的数字键盘。
     - **总计面板** - 您可以将总计面板配置为一列或两列，以显示值，如行计数、折扣金额、费用、小计和税。 精简型布局仅支持一列。
@@ -159,13 +159,13 @@ ms.locfileid: "6765872"
 
 和完整型布局设计器一样，精简型布局设计器可用于针对手机和小型平板电脑配置 POS 屏幕布局。 但是，在这种情况下，布局本身是固定的。 可通过右键单击和使用快捷菜单在布局中配置控件。 但是，您不能为其他内容使用拖放操作。
 
-![精简型布局设计器。](../commerce/media/Compact-Layout-Designer.png)
+![精简型布局设计器](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>按钮网格设计器
 
 可通过按钮网格设计器为完整型布局和精简型布局配置 POS 欢迎屏幕和 **交易记录** 屏幕上可使用的按钮网格。 可跨布局和布局类型使用同一个按钮网格。 和屏幕布局设计器一样，只要用户访问应用程序，按钮网格设计器都将使用 ClickOnce 部署技术下载、安装和启动应用程序的最新版本。 请确保检查 ClickOnce 的浏览器要求。 某些浏览器（如 Google Chrome）需要扩展。
 
-![按钮网格设计器。](../commerce/media/Button-Grid-Designer.png)
+![按钮网格设计器](../commerce/media/Button-Grid-Designer.png)
 
 - **新按钮** – 单击以向按钮网格添加新按钮。 默认情况下，新按钮在网格左上角显示。 但是，您可以通过在布局中拖放来重新安排按钮。
 
@@ -178,7 +178,7 @@ ms.locfileid: "6765872"
     > [!IMPORTANT]
     > 某些按钮网格设置仅适用于 Enterprise POS，不适用于 Modern POS 或 Cloud POS。
 
-    ![按钮网格按钮属性。](../commerce/media/Button-grid-button-properties.png)
+    ![按钮网格按钮属性](../commerce/media/Button-grid-button-properties.png)
 
     - **操作** – 在适用 POS 操作列表中，选择在 POS 中单击按钮时调用的操作。
 
@@ -190,7 +190,7 @@ ms.locfileid: "6765872"
     - **工具提示** – 指定用户将鼠标光标悬停在按钮上方时显示的更多帮助文本。
     - **以列为单位的大小/以行为单位的大小** – 您可以指定按钮的高度和宽度。
 
-        ![以行和列为单位的 POS 按钮大小。](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![以行和列为单位的 POS 按钮大小](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **自定义字体** – 如果选中 **启用 POS 的自定义字体** 复选框，则可为 POS 指定非系统默认字体。
     - **自定义主题** – 默认情况下，POS 按钮使用可视化配置文件中的主题颜色。 如果选中 **使用自定义主题** 复选框，则可指定更多颜色。
@@ -200,11 +200,8 @@ ms.locfileid: "6765872"
 
     - –**按钮图像** – 按钮中可以包含图像或图标。 可以在 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS \> 图像** 中指定的可用图像内进行选择。
 
-![POS 中的示例按钮网格。](../commerce/media/Example-Button-Grid-In-POS.png)
+![POS 中的示例按钮网格](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [安装 Retail 销售点 (POS) 布局设计器](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

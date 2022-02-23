@@ -1,24 +1,27 @@
 ---
 title: 客户交易记录列表页
 description: 此主题提供有关 Microsoft Dynamics 365 Finance 的“客户交易记录列表”页的信息。
-author: abruer
+author: mikefalkner
+manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753866"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440973"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 
@@ -94,6 +97,3 @@ ms.locfileid: "7753866"
 - **编辑现金折扣期限** - 根据基准日期和现金折扣期限更改现金折扣。
 
 付款设置编辑完毕后，请选择 **关闭** 以保存更改。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

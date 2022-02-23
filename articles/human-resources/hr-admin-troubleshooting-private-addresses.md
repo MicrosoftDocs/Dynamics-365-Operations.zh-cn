@@ -1,32 +1,30 @@
 ---
 title: 通过安全角色访问专用地址
-description: 本主题说明如何解决客户无法访问专用地址这一问题。
-author: twheeloc
-ms.date: 08/19/2021
+description: 本文说明如何解决客户无法访问专用地址的问题。
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05895d58cfd108c45c3c75921cb6930b904a6482
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fbe0e8acc1b879e4d7982b33413236432f25f630
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068376"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417434"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>通过安全角色访问专用地址
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **发货**
 
@@ -40,7 +38,4 @@ ms.locfileid: "8068376"
 2. 在 **专用位置安全** 选项卡上，将新安全角色从 **可用角色** 列表移到 **选定角色** 列表。
 3. 选择 **保存**。
 
-![全球通讯簿参数页面。](media/GAD-parameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![全球通讯簿参数页面](media/GAD-parameters.png)

@@ -2,22 +2,25 @@
 title: 补货策略
 description: 此主题提供有关补货策略的信息，并说明如何使用波次需求补货模板行上的“补货策略”字段选择补货方式。
 author: mirzaab
+manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: bd2ddbfeef454f2759ca09d8d763bada36a1fc83
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574153"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646125"
 ---
 # <a name="replenishment-strategies"></a>补货策略
 
@@ -45,7 +48,7 @@ ms.locfileid: "7574153"
 
 要访问模板，转到 **仓库管理 \> 设置 \> 补货 \> 补货模板**。 在 **概览** 部分，选择或创建波次需求补货模板，其中的 **补货类型** 字段设置为 *波次需求*。 然后在 **补货模板详细信息** 部分设置补货模板行。 对于每一行，在 **补货策略** 字段中，选择要使用的补货策略。
 
-![补货模板页面。](media/ReplenTempWaveDmdMaxLocCap.png "补货模板页")
+![补货模板页](media/ReplenTempWaveDmdMaxLocCap.png "补货模板页")
 
 如果 **补货策略** 列未出现在 **补货模板详细信息** 部分的网格中，请确保此功能已开启，并且所选补货模板的补货类型为 *波次需求*。
 
@@ -85,7 +88,7 @@ ms.locfileid: "7574153"
 - **补货工作 1：** 从堆放位置领取 4 箱，将它们放到位置“领料-001”。
 - **补货工作 2：** 从堆放位置领取 5 箱，将它们放到位置“领料-002”。
 
-[![示例 1。](media/ReplenTemp_example_1.png "示例 1")](media/ReplenTemp_example_1_large.png)
+[![示例 1](media/ReplenTemp_example_1.png "示例 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>示例 2
 
@@ -109,9 +112,6 @@ ms.locfileid: "7574153"
 
 结果会因创建工作时可用的信息不同而不同。 当在补货领料的位置指令上将 **允许拆分** 设置为 *是* 时，您知道您最终找到了 160 件。 因此，您可以为该数量创建工作。 但是，当 **允许拆分** 选项设置为 *否* 时，您不知道这 160 件的存在。 因为您决定补货的额外数量是 3 箱，所以您放弃了这个额外数量，再次尝试原始数量。
 
-[![示例 2。](media/ReplenTemp_example_2.png "示例 2")](media/ReplenTemp_example_2_large.png)
+[![示例 2](media/ReplenTemp_example_2.png "示例 2")](media/ReplenTemp_example_2_large.png)
 
 因此，要为补货位置获得最大数量，应在补货领料的位置指令上将 **允许拆分** 选项设置为 *是*。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

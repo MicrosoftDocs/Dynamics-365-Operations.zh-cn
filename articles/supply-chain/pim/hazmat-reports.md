@@ -1,27 +1,31 @@
 ---
 title: 危险物料查询和报表
 description: 本主题说明如何处理与危险物料有关的各个报表。 这些报表中有很多是必需的，用来帮助您在装运和存储过程中始终遵守各项危险物料法规。
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568535"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423034"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>危险物料查询和报表
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各个报表。 这些报表中有很多是必需的，用来帮助您在装运和存储过程中始终遵守各项危险物料法规。
 
@@ -29,7 +33,7 @@ Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各
 
 下图显示了系统生成危险物料报表时发生的活动序列。
 
-![危险物料报表的活动序列。](media/hazmat-report-sequence.png "危险物料报表的活动序列")
+![危险物料报表的活动序列](media/hazmat-report-sequence.png "危险物料报表的活动序列")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>设置危险物料报告
 
@@ -106,6 +110,3 @@ Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各
 ## <a name="packing-list-report"></a>装箱单报表
 
 在系统中打开危险物料功能后，装箱单中将包含与物料的装运打印文本有关的其他信息。 与以往一样，可从 **所有负荷** 页面获得此报表。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

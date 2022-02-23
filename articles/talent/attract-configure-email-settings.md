@@ -89,6 +89,3 @@ ms.locfileid: "4460418"
     ![为电子邮件页眉添加贵公司隐私政策和使用条款的链接](./media/attract-admin-email-footer.png)
 
 4. 选择 **保存** 保存您的电子邮件模板设置。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

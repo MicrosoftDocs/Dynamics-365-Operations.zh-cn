@@ -1,28 +1,28 @@
 ---
 title: 预算编制主页
 description: 本主题概要介绍了 Microsoft Dynamics 365 Finance 中的预算编制功能组件、预算编制工具和报告功能。
-author: panolte
-ms.date: 04/29/2021
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/09/2017
+ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "106043"
-- intro-internal
+ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983944"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962902"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
@@ -30,15 +30,16 @@ ms.locfileid: "7983944"
 
 本主题概要介绍了预算编制功能组件、预算编制工具和报告功能。 
 
-## <a name="components-of-budgeting-functionality"></a>预算编制功能组件
+<a name="components-of-budgeting-functionality"></a>预算编制功能组件
+-------------------------------------
 
 公司的资源计划周期通常包含计划、预算编制和预测活动。
 
-[![预算编制功能组件。](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![预算编制功能组件](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 长期战略计划和年度预算计划的流程均通过预算计划文档来获得支持。 预算计划文档与 Microsoft Excel 紧密集成在一起。 用户可配置无数个货币和数量方案，也可以定义一个预算编制组织层次结构以支持自上而下和自下而上的预算编制方法。 在应用程序中建立和审核预算之后，将预算计划转换为预算登记条目。 预算登记条目提供了用于维护预算以及通过预算代码保持金额的可追溯性的工具。 预算登记条目可让您修订原始预算、执行转移和从上一年结转预算金额。 根据建立的预算，公司可启用预算控制。 控制的级别取决于组织文化和组织的成熟度级别。 成熟度较低的组织可能将预算保留“原样”，当预算未达到预期时，它们可能更多的是被动地响应，而不是主动采取措施。 其他组织可能会启用预算控制策略以防止用户在没有预算资金时进行采购。
 
-最后，非常成熟的组织可能会建立一种组织文化，在这种文化中，员工将获得有关组织目标的培训，并通过“考虑在线会议而不是出差”之类的策略实现这些目标。 应用程序包含可支持公司的管理层选择硬控制（防止超过预算的过帐）或软控制（用户将收到超过可用预算资金的警告，但用户可以自行决定如何继续）的预算控制框架。 最后，您可使用滚动预测。 滚动预测是预算与实际支出的定期比较，用于确定公司的预算执行状况。 滚动预测还用于确定趋势。 在 Finance and Operations 中，滚动预测通过在初始规划活动中制定的预算计划文档来获得支持。 滚动预测可以与针对即将到来的预算周期的规划并行执行。
+最后，非常成熟的组织可能会建立一种组织文化，在这种文化中，员工将获得有关组织目标的培训，并通过“考虑在线会议而不是出差”之类的策略实现这些目标。 应用程序包含可支持公司的管理层选择硬控制（防止超过预算的过账）或软控制（用户将收到超过可用预算资金的警告，但用户可以自行决定如何继续）的预算控制框架。 最后，您可使用滚动预测。 滚动预测是预算与实际支出的定期比较，用于确定公司的预算执行状况。 滚动预测还用于确定趋势。 在 Finance and Operations 中，滚动预测通过在初始规划活动中制定的预算计划文档来获得支持。 滚动预测可以与针对即将到来的预算周期的规划并行执行。
 
 -   [预算编制概览](basic-budgeting-overview-configuration.md)
 -   [预算控制概览](budget-control-overview-configuration.md)
@@ -48,9 +49,9 @@ ms.locfileid: "7983944"
 -   [Excel 的预算计划模板](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>预算编制工具
-[![预算编制工具。](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![预算编制工具](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-提供了其他计划和预算功能，并且与分类帐预算集成在一起。
+提供了其他计划和预算功能，并且与分类账预算集成在一起。
 
 -   **劳动力预算** - 劳动力预算编制包括针对职位、薪酬组等方面的详细的预算成本构成计划。
 -   **固定资产预算** - 基于固定资产信息，您可以计算计划的折旧并记录其他与固定资产相关的计划交易记录。
@@ -69,6 +70,3 @@ ms.locfileid: "7983944"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

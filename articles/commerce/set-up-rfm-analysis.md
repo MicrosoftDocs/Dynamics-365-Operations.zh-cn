@@ -2,13 +2,16 @@
 title: 设置 Recency、频率和货币 (RFM) 分析
 description: 本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78943
 ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765210"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410561"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>设置 Recency、频率和货币 (RFM) 分析
 
@@ -94,6 +97,3 @@ RFM 分数显示在 **客户服务** 页右侧的 **订单历史记录** 中。
 2. 在 **RFM 分析** 页上，选择要查看的记录。
 3. 若要查看历史记录，请选择 **历史记录** 快速选项卡。
 4. 若要清除历史记录，请选择 **清除历史记录**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

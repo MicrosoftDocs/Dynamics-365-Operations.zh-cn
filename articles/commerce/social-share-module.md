@@ -2,12 +2,15 @@
 title: 社交共享模块
 description: 此主题介绍社交共享模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410616"
 ---
 # <a name="social-share-module"></a>社交共享模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍社交共享模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 用户可通过社交共享模块在 Facebook、Twitter、Pinterest 和 LinkedIn 之类社交媒体上共享电子商务站点页面 URL。  也可以通过电子邮件共享站点页面 URL。 社交共享模块通常在产品详细信息页 (PDP) 上用于帮助用户共享产品信息。
 
@@ -36,7 +41,7 @@ ms.locfileid: "6730939"
 
 下图突出显示产品详细信息页中使用的社交共享模块的示例。
 
-![社交共享模块的示例。](./media/ecommerce-socialshare.png)
+![社交共享模块的示例](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>社交共享模块属性
 
@@ -77,6 +82,3 @@ ms.locfileid: "6730939"
 [购买框模块](add-buy-box.md)
 
 [Cookie 合规性](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

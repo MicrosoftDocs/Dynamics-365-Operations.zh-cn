@@ -2,22 +2,25 @@
 title: 储存群集
 description: 储存群集提供了一种可以同时为多个牌照领料，然后将它们带到不同位置进行储存的方法。 它们对于零售业务非常有用，因为零售业务的牌照通常不是全部的库存托盘。
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573001"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512322"
 ---
 # <a name="putaway-clusters"></a>储存群集
 
@@ -228,7 +231,7 @@ ms.locfileid: "7573001"
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>接收库存并分类到群集
 
-1. 以已经为仓库 *61* 设置的用户身份登录到仓库管理移动应用。
+1. 以已经为仓库 *61* 设置的用户的身份登录仓库应用。
 1. 在主菜单上，选择 **入站**。
 1. 在 **入站** 菜单上，选择 **群集接收和分类**。
 1. 在 **采购订单编号** 字段中，输入采购订单编号。
@@ -270,7 +273,7 @@ ms.locfileid: "7573001"
 
 #### <a name="put-the-cluster-away"></a>储存群集
 
-1. 以已经为仓库 *61* 设置的用户身份登录到仓库管理移动应用。
+1. 以已经为仓库 *61* 设置的用户的身份登录仓库应用。
 1. 在主菜单上，选择 **入站**。
 1. 在 **入站** 菜单上，选择 **群集储存**。
 1. 选择 **群集 ID**，输入您之前为已关闭群集输入的群集 ID。
@@ -284,7 +287,7 @@ ms.locfileid: "7573001"
 
     您可以使用标准选项来替代或跳过此步骤。
 
-    ![“群集储存：放置”页面。](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
+    ![“群集储存: 放置”页](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
 
 1. 选择 **确定** 确认群集的储存。
 
@@ -293,6 +296,3 @@ ms.locfileid: "7573001"
 ## <a name="notes-and-tips"></a>说明和提示
 
 对于群集 ID 成为嵌套托盘的父牌照的情况，扫描群集 ID 时会自动给出放置位置。 即使将牌照生成设置为手动，也无需再扫描牌照。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

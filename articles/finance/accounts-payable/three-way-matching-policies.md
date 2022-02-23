@@ -2,25 +2,28 @@
 title: 三向匹配政策
 description: 本主题提供三种向匹配的示例。
 author: abruer
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722831"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440699"
 ---
 # <a name="three-way-matching-policies"></a>三向匹配政策
 
@@ -28,7 +31,8 @@ ms.locfileid: "6722831"
 
 本主题提供三种向匹配的示例。
 
-## <a name="example-three-way-matching-for-items"></a>示例：物料的三向匹配
+<a name="example-three-way-matching-for-items"></a>示例：物料的三向匹配
+-------------------------------------
 
 **汇总：** Ken 是名为 Fabrikam 的法人的公司总部的审计员。 Ken 决定基于采购订单的所有供应商发票都应与采购订单行匹配（双向匹配）。 对于将用作固定资产的物料采购，发票应同时与采购订单行和产品收货行匹配（三向匹配）。
 
@@ -36,9 +40,9 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
 
 在以下角色中此示例帮助人员的发票匹配策略满足这些目标：
 
--   Ken 为 Fabrikam 企业的审计员。 Ken 可以帮助组织的人员确定和更正从供应商中订购、接受和支付物料（货物和服务）的问题。
+-   Ken 为 Fabrikam 企业的审计员。 他可以帮助他的组织的人员确定和更正从供应商中订购、接受和支付物料（货物和服务）的问题。
 -   Phyllis 和 April 是 Fabrikam 美国分部应付帐款部门的会计经理。 他们可以执行公司策略，并确保根据需要，仅在其与采购订单和商品和服务收货匹配后支付发票。
--   Tony 为 Fabrikam 美国分部的生产经理。 Tony 和其他生产人员可以确保将物料作为从供应商订购的进行收货和核算，以便人员具有它们必须具有以便执行其作业的能力。
+-   Tony 为 Fabrikam 美国分部的生产经理。 他和其他生产人员可以确保将物料作为从供应商订购的进行收货和核算，以便人员具有它们必须具有以便执行其作业的能力。
 
 ### <a name="prerequisites"></a>先决条件
 
@@ -52,11 +56,11 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
     |-----------------------------|----------|------------|------------|---------------------|---------------|
     | 1500 – CNC Milicron 设备 | 5        | 8,000.00   | 40,000.00  | 装运和处理 | 3,000.00      |
 
--   Arnie 是 Contoso 的应收帐款职员，查看针对周的装运。 Arnie 为 CNC Milicron 设备装运选择 Fabrikam 开发票的装运交易记录。 Arnie 包括装运和处理的费用。 Fabrikam 将费用视为资产成本的一部分。
+-   Arnie是 Contoso 的应收帐款职员，查看针对周的装运。 Arnie 为 CNC Milicron 设备装运选择 Fabrikam 开发票的装运交易记录。 Arnie 包括装运和处理的费用。 Fabrikam 将费用视为资产成本的一部分。
 
 ### <a name="scenario"></a>情况
 
-1.  Sammy 是 Fabrikam 接收部门的工作人员，接受从 Contoso 装运的设备总数。 Sammy 在产品收货中输入数量 5。 由于采购订单已完全收到，则该采购订单的状态将更改为“已接收”。
+1.  Sammy 是 Fabrikam 接收部门的工作人员，接受从 Contoso 装运的设备总数。 他在产品收据中输入 5 的数量。 由于采购订单已完全收到，则该采购订单的状态将更改为“已接收”。
 2.  April 是 Fabrikam 的应付帐款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
     -   对于要求双向或三个向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 Finance 中定义的容差范围内。 这包括价格匹配的以下类型：
@@ -65,7 +69,7 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
 
 Contoso 中的纸质发票包含以下信息。
 
-| 物料                        | 数量 | 单位价格 | 净额 |
+| 物料                        | 已 | 单位价格 | 净额 |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron 设备 | 5        | 8,100.00   | 40,500.00  |
 | 装运和处理       |          |            | 4,000.00   |
@@ -86,7 +90,7 @@ Contoso 中的纸质发票包含以下信息。
 数量和金额很小，并且有从马来西亚的一些供应商装运的问题。 针对这些原因，Cassie 将在马来西亚采购的某些物料和供应商组合的控制级别设置为三向匹配。 
 
 在以下角色中此示例帮助人员的发票匹配策略满足这些目标：
--   Ken 为 Fabrikam 企业的审计员。 Ken 可以帮助组织的人员确定和更正从供应商中订购、接受和支付物料（货物和服务）的问题。
+-   Ken 为 Fabrikam 企业的审计员。 他可以帮助他的组织的人员确定和更正从供应商中订购、接受和支付物料（货物和服务）的问题。
 -   Cassie 是 Fabrikam 马来西亚分部的记帐员。 她可以执行公司策略，并确保根据需要，仅在其与表示商品和服务收货的采购订单行和产品收据匹配后支付发票。 她还可以将控制级别增加到三个向匹配，用于指定物料控制运营成本。
 
 ### <a name="prerequisites"></a>先决条件
@@ -114,7 +118,7 @@ Contoso 中的纸质发票包含以下信息。
 
 Contoso 中的纸质发票包含以下信息。
 
-| 物料                  | 数量 | 单位价格 | 净额 |
+| 物料                  | 已 | 单位价格 | 净额 |
 |-----------------------|----------|------------|------------|
 | PH2500 – 计算机     | 2        | 2,500.00   | 5,000.00   |
 | MM01 - 无线鼠标 | 2        | 41.00      | 82.00      |
@@ -141,6 +145,3 @@ Contoso 中的纸质发票包含以下信息。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

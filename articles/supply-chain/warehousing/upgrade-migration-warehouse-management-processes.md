@@ -2,9 +2,11 @@
 title: 将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management
 description: 此主题提供产品和仓库管理迁移选项的概览。
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775427"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970273"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management 
 
@@ -66,7 +68,7 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 1.  创建至少一个新的库位模板。
 2.  单击 **仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**启用仓库设置**。
 3.  在 **启用仓库设置** 页，添加应启用的仓库。 您可以直接在页面上或使用 Microsoft Office 集成完成此步骤。
-4.  将库位模板分配到所有库位。 您可以直接从页面使用 Microsoft Office 集成轻松地完成此步骤。 您可以在 [数据管理](../../fin-ops-core/dev-itpro/data-entities/data-entities.md) 中导出和导入数据或使用数据实体处理。
+4.  将库位模板分配到所有库位。 您可以直接从页面使用 Microsoft Office 集成轻松地完成此步骤。 您可以在 [数据管理](../../dev-itpro/data-entities/data-entities.md) 中导出和导入数据或使用数据实体处理。
 5.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 6.  处理更改。
 
@@ -77,9 +79,6 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 3.  在 **预留层次结构** 页，根据物料的存储和跟踪维度组定义新的预留层次结构。
 4.  创建一个或多个单位序列组且序列组至少包括与用于物料的库存单位相同的单位。
 5.  单击 **仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**更改物料的存储维度组**。
-6.  在 **更改物料的存储维度组** 页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用[数据管理](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)中的数据实体流程完成此步骤。
+6.  在 **更改物料的存储维度组** 页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用[数据管理](../../dev-itpro/data-entities/data-entities.md)中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,36 @@
 ---
 title: 使用模块
-description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和时间。
+description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
 author: phinneyridge
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728256"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410503"
 ---
 # <a name="work-with-modules"></a>使用模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和时间。
+此主题介绍在 Microsoft Dynamics 365 Commerce 中使用模块的方法和条件。
+
+## <a name="overview"></a>概览
 
 模块是构成页面结构的逻辑构建基块，其具有多种用途和作用范围。 某些模块是高级别容器，唯一用途是容纳和组织其他模块（子模块）。 其他模块（如简单图像放置模块）具有非常具体的用途。 其他模块（如传送模块）介于这两种类别之间。
 
@@ -53,7 +58,7 @@ ms.locfileid: "6728256"
 
 下图显示父容器模块插槽内如何嵌套模块。
 
-![嵌套模块。](../commerce/media/basic-module-nesting.png)
+![嵌套模块](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>添加或删除模块
 
@@ -168,6 +173,3 @@ ms.locfileid: "6728256"
 
 [使用发布组](publish-groups.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

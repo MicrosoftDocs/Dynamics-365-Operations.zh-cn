@@ -2,13 +2,16 @@
 title: 产品建议常见问题
 description: 此主题介绍可用于诊断与产品建议或其结果有关的流程和工具。
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733957"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410376"
 ---
 # <a name="product-recommendations-faq"></a>产品建议常见问题
 
@@ -68,7 +71,7 @@ ms.locfileid: "6733957"
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>如何向电子商务页面添加列表？
 
-有关如何向电子商务网站添加产品建议页面的信息，请参阅[向页面添加产品建议列表](./product-recommendations.md)。
+有关如何向电子商务网站添加产品建议页面的信息，请参阅[向页面添加产品建议列表](add-reco-list-to-page.md)。
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>如何在 POS 上启用建议？
 
@@ -97,6 +100,3 @@ ms.locfileid: "6733957"
 [手动创建策划的建议](create-editorial-recommendation-lists.md)
 
 [使用演示数据创建建议](product-recommendations-demo-data.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

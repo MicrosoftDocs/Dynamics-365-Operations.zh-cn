@@ -1,10 +1,12 @@
 ---
 title: 工作订单生命周期状态
 description: 本主题介绍资产管理中的工作订单生命周期状态。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a8052942ff97c9e8033d5915723e82c42f964c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768658"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021571"
 ---
 # <a name="work-order-lifecycle-states"></a>工作订单生命周期状态
 
@@ -35,11 +37,11 @@ ms.locfileid: "6768658"
 
 下表介绍 **工作订单生命周期状态** 页（**资产管理** \> **设置** \> **工作订单** \> **生命周期状态**）的 **常规** 快速选项卡上 **工作订单** 和 **计划** 部分中的选项。
 
-![工作订单生命周期状态页面。](media/09-setup-for-work-orders.png)
+![工作订单生命周期状态页面](media/09-setup-for-work-orders.png)
 
 | 选项名称                   | 说明 |
 |-------------------------------|-------------|
-| 可用                        | 如果工作订单在此生命周期状态时应该有效，请将此选项设置为 **是**。 |
+| 在职                        | 如果工作订单在此生命周期状态时应该有效，请将此选项设置为 **是**。 |
 | 添加行                      | 如果可以向处于此生命周期状态的工作订单添加工作订单作业，请将此选项设置为 **是**。 |
 | 删除                        | 如果可以删除此生命周期状态的工作订单，请将此选项设置为 **是**。 |
 | 删除行                   | 如果可以才能够处于此生命周期状态的工作订单删除工作订单作业，请将此选项设置为 **是**。 |
@@ -93,7 +95,7 @@ ms.locfileid: "6768658"
     - 如果工作订单要更新为的生命周期状态的 **维护停机时间** 选项设置为 **是**，将验证与工作订单关联的资产的维护停机时间。 如果已创建了维护停机时间登记，但是没有 **已结束** 的登记，则在工作订单更新为此生命周期状态时，将显示一条消息。
     - 如果标准项目设置中不包含资产管理设置所需全部阶段，则可在 **项目管理与核算参数** 页的 **项目阶段** 选项卡上设置用户定义的项目阶段。 下图显示 **项目管理与核算参数** 页上的 **项目阶段** 选项卡。
 
-    ![设置各种项目类型的项目阶段页面。](media/10-setup-for-work-orders.png)
+    ![设置各种项目类型的项目阶段页面](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > 如果将工作订单更新为的生命周期状态无效，将自动删除与该工作订单关联，但尚未过帐的日记帐。 此行为有助于确保自动清理未使用的数据。 （如果在 **工作订单生命周期状态** 页 **常规** 快速选项卡上将某个生命周期状态的 **有效** 选项设置为 **否**，则该生命周期状态无效。）
@@ -111,7 +113,7 @@ ms.locfileid: "6768658"
 
 下图显示工作订单类型、生命周期模型和生命周期状态之间的关联。
 
-![与工作订单生命周期模型页面对比的工作订单类型页面。](media/11-setup-for-work-orders.png)
+![与工作订单生命周期模型页面对比的工作订单类型页面](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>工作订单生命周期模型
 
@@ -126,16 +128,13 @@ ms.locfileid: "6768658"
 
 5. 在 **生命周期状态** 快速选项卡上，选择生命周期模型中应包含的生命周期状态。
 
-    - 若要在生命周期模型中包括生命周期状态，请在 **其余生命周期状态** 部分中选择它，然后选择向右箭头按钮 ![向右箭头。](media/12-setup-for-work-orders.png) 以将其移到 **所选生命周期状态** 部分。
-    - 若要在生命周期模型中包含所有可用生命周期状态，请选择 **选择所有可用阶段** 按钮 ![选择所有可用阶段。](media/13-setup-for-work-orders.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
-    - 若要从生命周期模型中删除生命周期状态，请在 **所选生命周期状态** 部分中选择它，然后选择向左箭头按钮 ![向左箭头。](media/14-setup-for-work-orders.png) 以将其移到 **其余生命周期状态** 部分。
+    - 若要在生命周期模型中包含生命周期状态，请在 **其余生命周期状态** 部分中选择该生命周期状态，然后选择向右箭头按钮 ![向右箭头](media/12-setup-for-work-orders.png) 将其移到 **所选生命周期状态** 部分。
+    - 若要在生命周期模型中包含所有可用生命周期状态，请选择 **选择所有可用阶段** 按钮 ![选择所有可用阶段](media/13-setup-for-work-orders.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
+    - 若要从生命周期模型中删除生命周期状态，请在 **所选生命周期状态** 部分中选择该生命周期状态，然后选择向左箭头按钮 ![向左箭头](media/14-setup-for-work-orders.png) 将其移到 **其余生命周期状态** 部分。
 
 6. 要定义可采用所选生命周期状态的生命周期状态，选择 **生命周期状态更新**。
 7. 无论工作订单的上一个生命周期状态是什么，均在 **更新** 快速选项卡上的 **计划的状态** 字段中选择始终应该为已经为其完成了工作订单安排的工作订单选择的生命周期状态。
 8. 在 **未计划的生命周期状态** 字段中，选择在删除了工作订单安排时，始终应该为工作订单选择的生命周期状态。
 9. 保存工作订单生命周期模型。
 
-![工作订单生命周期模型页面。](media/15-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![工作订单生命周期模型页面](media/15-setup-for-work-orders.png)

@@ -1,26 +1,29 @@
 ---
 title: 自动创建服务订单
 description: 您可以生成基于服务协议的有效期间的服务协议的服务订单。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1acf4620556fe7ec5ae40f0a98b0a23602e2524a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 08fb7363ab87fd6a7f3d38406e72b1f542dc2c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565129"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423177"
 ---
 # <a name="automatically-create-service-orders"></a>自动创建服务订单 
 
@@ -56,6 +59,3 @@ ms.locfileid: "7565129"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

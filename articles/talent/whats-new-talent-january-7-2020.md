@@ -53,6 +53,3 @@ ms.locfileid: "4460455"
 5. 将 **删除** 权限设置为“授予”。
 6. 选择 **已取消发布的对象** 选项卡。
 7. 选择 **全部发布**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

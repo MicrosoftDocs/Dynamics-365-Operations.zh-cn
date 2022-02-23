@@ -1,10 +1,12 @@
 ---
 title: 通过使用 ER 配置访问应用程序元数据
-description: 本主题介绍 Regulatory Configuration Service 用户如何使用元数据设计新的电子申报模型映射。
+description: 本主题中的步骤介绍 Regulatory Configuration Service (RCS) 用户如何在 Finance and Operations 中通过使用元数据设计新的电子申报 (ER) 模型映射。
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754334"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682157"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>通过使用 ER 配置访问应用程序元数据
 
@@ -123,6 +125,3 @@ ms.locfileid: "6754334"
 > [!NOTE]
 > 本地部署的应用程序（此时使用本地业务数据 (LBD) 或本地部署的部署模型）只能使用这种方法获取有关应用程序元数据的信息。
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

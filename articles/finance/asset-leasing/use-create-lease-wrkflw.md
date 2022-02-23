@@ -2,25 +2,28 @@
 title: 使用租赁审批工作流
 description: 本主题说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726078"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440968"
 ---
 # <a name="use-lease-approval-workflows"></a>使用租赁审批工作流
 
@@ -42,6 +45,3 @@ ms.locfileid: "6726078"
 
 8. 要停止工作流，请在 **工作流历史记录** 页面上，选择 **撤回**。 在显示的对话框中，选择一个注释，然后选择 **确定**。
 9. 要停用工作流或激活先前创建的工作流，请转到 **资产租赁 \> 设置 \> 租赁工作流**。 然后，在 **租赁工作流** 页面上，选择 **工作流 \> 版本**。 要使当前工作流处于非活动状态，请在“租赁版本”对话框中选择活动的租赁，然后选择 **停用**。 要激活现有工作流，请选择工作流，然后选择 **激活**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

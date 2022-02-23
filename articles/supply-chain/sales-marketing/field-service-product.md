@@ -1,27 +1,30 @@
 ---
 title: 将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品
 description: 此主题介绍用于同步 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 的产品的模板和基础任务。
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566471"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423160"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>将 Supply Chain Management 中的产品直接同步到 Field Service 中的产品
 
@@ -29,7 +32,7 @@ ms.locfileid: "7566471"
 
 此主题介绍用于将产品从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Field Service 的模板和基础任务。
 
-使用的 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板基于“从目标客户到现金”中的 **产品（Supply Chain Management 到 Sales）– 直接** 模板。 有关详细信息，请参阅[产品（Supply Chain Management 到 Sales）– 直接](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)。
+使用的 **Field Service 产品（Supply Chain Management 到 Field Service）** 模板基于“从目标客户到现金”中的 **产品（Supply Chain Management 到 Sales）– 直接** 模板。 有关详细信息，请参阅[产品（Supply Chain Management 到 Sales）– 直接](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)。
 
 本主题仅介绍 **Field Service 产品（Supply Chain Management 到 Field Service）** 与 **产品（Supply Chain Management 到Sales）– 直接** 模板之间的差异。
 
@@ -69,7 +72,4 @@ service       :  690970002
 
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service 产品（Supply Chain Management 到 Field Service）：产品 - 产品
 
-[![数据集成中的模板映射。](./media/FSProduct.png)](./media/FSProduct.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![数据集成中的模板映射](./media/FSProduct.png)](./media/FSProduct.png)

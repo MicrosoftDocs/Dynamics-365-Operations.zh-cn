@@ -1,14 +1,17 @@
 ---
 title: 付款方式
 description: 设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410497"
 ---
 # <a name="payment-methods"></a>付款方式
 
@@ -46,11 +49,3 @@ ms.locfileid: "7779562"
 2. 创建组织范围的卡类型和卡号。 如果接受信用卡或借记卡，则必须创建一种卡支付方式，然后创建组织范围的卡类型和卡号。
 3. 设置商店付款方式。 将付款方式与每个商店，然后输入每个特定于商店设置的付款方式。
 4. 为存储设置卡付款方式。 对于商店接收的所有卡支付方式，请完成卡设置。
-
-## <a name="handle-change-tendering-for-payment-methods"></a>处理付款方式的找零支付方式
-
-如果在销售点交易期间应将资金返还给客户，某些付款方式不支持直接找零支付方式。 只有 **现金** 和 **货币** 付款方式可用于找零支付方式。 
-
-处理交易过程中需要找零支付方式，但付款方式不支持的情况，可以定义 **找零支付方式** 付款方式。 为商店设置商店付款方式时，选择要使用的付款方式。 然后，在 **找零** 部分，在 **找零支付方式** 字段中，输入找零支付方式付款选项。 例如，您可以输入 **1** 表示现金可以用作找零支付方式付款选项。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

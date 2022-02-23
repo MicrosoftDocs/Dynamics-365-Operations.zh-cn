@@ -1,26 +1,29 @@
 ---
 title: 修改服务项清单
 description: 修改服务项清单。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a363a8997b0a5dc92ee4953f10eac87988d4725a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 962203726cc47e1c9642c53d671d4b63094f2b2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573265"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423147"
 ---
 # <a name="modify-a-service-bom"></a>修改服务项清单 
 
@@ -69,6 +72,3 @@ ms.locfileid: "7573265"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: 限制没有收据的退货的付款方式
 description: 此主题描述如果在没有收据的情况下退货，如何为退款限制某些付款类型。
 author: rapraj
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773830"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410479"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>限制没有收据的退货的付款方式
 
@@ -38,7 +41,7 @@ ms.locfileid: "6773830"
 3. 设置商店付款方式。 将付款方式与每个商店，然后输入每个特定于商店设置的付款方式。
 4. 为存储设置卡付款方式。 对于商店接收的所有卡支付方式，请完成卡设置。
 
-![商店设置。](media/NoReceiptReturns1.png "零售商店设置") 
+![商店设置](media/NoReceiptReturns1.png "零售商店设置") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>限制没有收据的退货的付款方式
@@ -49,15 +52,12 @@ ms.locfileid: "6773830"
 
 在 **对没有收据的退货限制** 设置为 **是** 时，退款将不允许所选付款方式。 
 
-![商店付款方式。](media/NoReceiptReturns3.png "零售商店付款方式") 
+![商店付款方式](media/NoReceiptReturns3.png "零售商店付款方式") 
 
 > [!NOTE]
 > 在出纳选择为没有收据的退货限制的付款方式时，将显示一条消息来验证可接受的付款方式。
 
-![可接受的付款方式。](media/NoReceiptReturns4.png "可接受的付款方式") 
+![可接受的付款方式](media/NoReceiptReturns4.png "可接受的付款方式") 
 
 如果某一交易既有有收据的退货，也有没有收据的退货，由于这类交易将是有收据的退货工作流，因此不强制使用限制条件。 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 处理催款单
 description: 该主题说明如何创建、打印并过帐收款单。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 9355409076886b70ad224c82561cf0cf81066e9b97e1a22ad59ce04be2c90158
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762107"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440689"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 
@@ -85,6 +88,3 @@ ms.locfileid: "6762107"
 
 1. 转到 **导航窗格 > 模块 > 信用和收款 > 设置 > 应收帐款参数**，然后单击 **收款** 选项卡。 
 2. 将 **忽略计算催款单代码时的付款及贷项通知单** 的值更改为 **是**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

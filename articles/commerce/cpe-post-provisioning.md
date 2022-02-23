@@ -2,30 +2,35 @@
 title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410379"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
 [!include [banner](includes/banner.md)]
 
 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
+
+## <a name="overview"></a>概览
 
 请仅在预配了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配 Commerce 评估环境的信息，请参阅[预配 Commerce 评估环境](provisioning-guide.md)。
 
@@ -39,7 +44,6 @@ ms.locfileid: "7913719"
 1. 在列表中选择您的环境。
 1. 在右侧的环境信息中，选择 **登录到环境**。 您将被送到 Commerce headquarters。
 1. 确保选择了右上角的 **USRT** 法人。
-2. 转到 **Commerce 参数 > 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目设置为 **true**。 如果缺少此条目，您可以添加此条目并为与您的电子商务网站关联的 Commerce Scale unit 运行 **渠道数据库 > 完全同步**。
 
 在 Commerce headquarters 进行预配后活动期间，请确保 **USRT** 法人始终处于选中状态。
 
@@ -107,12 +111,6 @@ ms.locfileid: "7913719"
     1. 在操作窗格上，在 **批处理作业** 选项卡上，选择 **更改状态**。
     1. 选择 **取消**，然后选择 **确定**。
 
-1. 如果作业的状态为 **预扣**，请执行以下步骤：
-
-    1. 选择记录。
-    1. 在操作窗格上，在 **批处理作业** 选项卡上，选择 **更改状态**。
-    1. 选择 **等待**，然后选择 **确定**。
-
 （可选）您还可以将以下作业的重复执行间隔设置为一 (1) 分钟：
 
 * 处理零售订单电子邮件通知作业
@@ -135,7 +133,7 @@ ms.locfileid: "7913719"
 若要在站点中执行测试交易，可使用以下测试信用卡信息：
 
 - **卡号：** 4111-1111-1111-1111
-- **到期日期：** 10/30
+- **到期日期：** 10/20
 - **卡验证值 (CVV) 代码：** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ ms.locfileid: "7913719"
 在预配和配置步骤完成之后，您就可以开始使用评估环境了。 使用 Commerce 站点构建器 URL 可以转到创作体验。 使用 Commerce 站点 URL 可以转到零售客户站点体验。
 
 要为 Commerce 评估环境配置可选功能，请参阅[为 Commerce 评估环境配置可选功能](cpe-optional-features.md)。
-
-> [!NOTE]
-> Commerce 评估环境随预先加载的 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户一起提供，以用于演示目的。 评估环境不需要配置自己的 Azure AD B2C 租户。 但是，如果您要配置评估环境以使用自己的 Azure AD B2C 租户，请确保通过 Azure 门户在 Azure AD B2C 应用程序中将 ``https://login.commerce.dynamics.com/_msdyn365/authresp`` 添加为回复 URL。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -162,15 +157,10 @@ ms.locfileid: "7913719"
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
-
-[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

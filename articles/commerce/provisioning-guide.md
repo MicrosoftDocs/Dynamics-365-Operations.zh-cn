@@ -1,10 +1,12 @@
 ---
-title: 配置 Dynamics 365 Commerce 评估环境
+title: 预配 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何预配 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777492"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969893"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>预配 Dynamics 365 Commerce 评估环境
 
 [!include [banner](includes/banner.md)]
 
@@ -32,6 +34,8 @@ ms.locfileid: "6777492"
 
 > [!NOTE]
 > Commerce 评估环境不是公开发布的服务，它根据请求授予合作伙伴和客户使用权。 有关详细信息，请联系您的 Microsoft 合作伙伴联系人。
+
+## <a name="overview"></a>概览
 
 要成功预配 Commerce 评估环境，您必须创建一个具有特定产品名称和类型的项目。 此环境和 Commerce Scale Unit (CSU) 还具有一些特定的参数，当您以后希望预配电子商务时必须使用这些参数。 本主题中的说明介绍完成预配所需的所有步骤以及必须使用的参数。
 
@@ -76,7 +80,7 @@ ms.locfileid: "6777492"
 
 ### <a name="add-the-azure-connector"></a>添加 Azure 连接器
 
-要将 Azure 连接器添加到您的 LCS 项目，请按照[完成 Azure 资源管理器 (ARM) 加入流程](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md)中的步骤操作。
+要将 Azure 连接器添加到您的 LCS 项目，请按照[完成 Azure 资源管理器 (ARM) 加入流程](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding)中的步骤操作。
 
 ### <a name="deploy-the-environment"></a>部署环境
 
@@ -90,16 +94,16 @@ ms.locfileid: "6777492"
 1. 在 **应用程序版本** 字段中，选择最新版本。 如果您明确需要选择除最新版本以外的其他应用程序版本，请不要选择 **10.0.14** 之前的版本。
 1. 在 **平台版本** 字段中，使用为所选应用程序版本自动选择的平台版本。 
 
-    ![选择应用程序和平台版本。](./media/project1.png)
+    ![选择应用程序和平台版本](./media/project1.png)
 
 1. 选择 **下一步**。
 1. 选择 **演示** 作为环境拓扑。
 
-    ![选择环境拓扑 1。](./media/project2.png)
+    ![选择环境拓扑 1](./media/project2.png)
 
 1. 在 **部署环境** 页面上，输入环境名称。 高级设置保持原样。
 
-    ![部署环境页面。](./media/project4.png)
+    ![部署环境页面](./media/project4.png)
 
 1. 根据需要调整 VM 大小。 （我们建议使用 VM 库存单位 \[SKU\] **D13 v2**。）
 1. 查看定价和许可条款，然后选中指示您同意这些条款的复选框。
@@ -180,13 +184,10 @@ ms.locfileid: "6777492"
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit（云）](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit（云）](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure 门户](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce 网站](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

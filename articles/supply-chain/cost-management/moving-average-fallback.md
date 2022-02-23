@@ -2,26 +2,26 @@
 title: 移动平均回退成本序列
 description: 此主题介绍 Microsoft Dynamics 365 Supply Chain Management 中的移动平均回退成本计算顺序。
 author: AndersGirke
+manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568199"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967575"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>移动平均回退成本序列
-
-[!include [banner](../includes/banner.md)]
 
 库存成本的一种计算方法是使用 _移动平均_。 可以为每项库存物料最多关联三个成本值：
 
@@ -44,7 +44,4 @@ ms.locfileid: "7568199"
     - **有效成本 - 上次发货**
     - **有效成本 – 物料价格** – 组织使用的业务流程中库存定期变负，并且同时交易量极高，组织可能会遇到性能问题。 此设置有助于缓解这些性能问题。
 
-![库存会计参数。](media/inventory-accounting-parameters.png "库存会计参数")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![库存会计参数](media/inventory-accounting-parameters.png "库存会计参数")

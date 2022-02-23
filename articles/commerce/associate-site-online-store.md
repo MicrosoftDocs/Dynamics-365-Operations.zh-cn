@@ -1,28 +1,31 @@
 ---
-title: 将 Dynamics 365 Commerce 站点与在线渠道关联
+title: 将 Dynamics 365 Commerce 站点与在线渠道相关联
 description: 此主题介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。
 author: bicyclingfool
+manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737645"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517322"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>将 Dynamics 365 Commerce 站点与在线渠道关联
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>将 Dynamics 365 Commerce 站点与在线渠道相关联
 
 [!include [banner](includes/banner.md)]
 
@@ -55,6 +58,3 @@ ms.locfileid: "6737645"
 [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
 [启用基于位置的商店检测](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

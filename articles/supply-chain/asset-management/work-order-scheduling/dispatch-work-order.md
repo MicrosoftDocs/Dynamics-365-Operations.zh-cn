@@ -1,10 +1,12 @@
 ---
 title: 分派工作订单
 description: 本主题介绍如何在资产管理中分派工作订单。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetScheduledExecution
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87f67f4db143fabbfae926e30e7e5d97ac6af0f6fa5469218e4ab3605aa44dcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4b05dfe351bb61dc47c9c2bfe30831ab7b0a16
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778716"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016848"
 ---
 # <a name="dispatch-work-order"></a>分派工作订单
 
@@ -52,11 +54,8 @@ ms.locfileid: "6778716"
 
 下图显示 **计划工作订单** 对话框中选择的分派的示例。
 
-![图 1.](media/04-work-order-scheduling.png)
+![图 1](media/04-work-order-scheduling.png)
 
 [!NOTE]
 如果要删除对工作订单的计划，在 **所有工作订单** 中选择工作订单，然后单击 **常规** 选项卡上的 **删除计划**。如果删除计划，请记住要手动更新工作订单生命周期状态。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,38 +1,41 @@
 ---
 title: 固定资产处置过帐科目
 description: 本主题说明如何为处理资产设置总帐过帐科目。
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3461
 ms.assetid: dfdc0730-e030-48cc-8d93-15bdc7b23776
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c82cb8b82f2cc8424675f76c68613a2b5aa76745
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e9a46125dbe5262ba388e3958ea452975a98243f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675510"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440735"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>固定资产处置过帐科目
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在处理资产时设置总帐过帐科目。
+本主题说明如何为处理资产设置总帐过帐科目。
 
-要设置在处置资产时使用的总帐过帐科目，在 **固定资产过帐模板** 页面的 **分类帐科目** 快速选项卡中选择 **处置 - 销售** 和 **处置 - 报废**。
+在“固定资产过帐模板”页，在“会计科目”快速选项卡上，选择“处置 - 销售和处置 - 报废”以设置过帐到分类帐。
 
-对于这两种交易类型（通过销售或报废处置资产），为固定资产的处置价值贷记分类帐科目。 贷项将过帐到对方科目，可以是银行帐户（举例）。 如果向客户销售某一固定资产，则使用该客户的帐户，来代替对方科目。 有关详细信息，请参阅[将固定资产作为废料处置](dispose-of-a-fixed-asset-as-scrap.md)。
+对于这两种交易记录类型，为固定资产的处置价值贷记会计科目。 贷项将过帐到对方科目；例如，可以是银行帐户。 如果向客户销售某一固定资产，则使用该客户的帐户，来代替对方科目。
 
-单击 **处置**，然后单击 **销售** 或 **报废**，然后设置详细帐户来冲销固定资产的帐面净值。 您还可以在 **处置参数** 页的 **过帐值** 和 **销售价值类型** 字段中输入信息。 
+单击“处置”，然后单击“销售”或“报废”，然后设置详细帐户来冲销固定资产的帐面净值。 您还可以在“处置参数”页的“过帐值”和“销售价值类型”字段中输入信息。 
 
 低价值池中某一资产的处置交易记录将只按已处置金额减少低价值池的帐面净值。 但是，当某一资产的销售额大于低价值池的帐面净值时，帐面净值将被减少到零。
 
@@ -40,6 +43,3 @@ ms.locfileid: "7675510"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

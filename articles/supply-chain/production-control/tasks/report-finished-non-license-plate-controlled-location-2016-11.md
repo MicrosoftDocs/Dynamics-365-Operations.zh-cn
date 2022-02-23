@@ -1,25 +1,28 @@
 ---
 title: 完工入库到非牌照控制的库位（申请表，2016 年 5 月）
 description: 此任务指南显示报告为完工入库到非牌照控制的位置的示例。
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f891b2e3b20993a08138dfac1aed4f4bab33c6b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a9010b95cfd0528cd3b532627d19a3b340bdca4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422692"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>完工入库到非牌照控制的库位（申请表，2016 年 5 月）
 
@@ -59,6 +62,3 @@ ms.locfileid: "7576704"
 18. 单击“工作详细信息”。
     * 在生产订单报告为完工入库时，尚未为储存生成工作。 发生这种情况是因为将工作策略定义为在产品 L0101 报告为已完工入库到库位 001 时阻止生成工作。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

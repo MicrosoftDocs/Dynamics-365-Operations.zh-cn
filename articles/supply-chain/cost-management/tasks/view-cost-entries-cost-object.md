@@ -2,24 +2,27 @@
 title: 查看成本对象的成本条目
 description: 该过程说明如何查看成本对象的成本条目。
 author: AndersGirke
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e99d350abd810045b6b5b4c840f67d21c9d5e39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b809c66243d3274bd06b72173ecf4f8a6c04ad4a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422759"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>查看成本对象的成本条目
 
@@ -36,6 +39,3 @@ ms.locfileid: "7569857"
 7. 使用值“p000031”通过快速筛选器在“编号”字段中进行筛选。
     * 如果成本条目未填写，则将开始日期设置为 2012 年 1 月 31 日，结束日期设置为 2012 年 12 月 31 日。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

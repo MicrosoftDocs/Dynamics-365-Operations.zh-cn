@@ -2,25 +2,28 @@
 title: 结算具有多个折扣期的部分客户付款
 description: 本文显示在存在多个折扣期间时部分客户付款如何结算。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d0d517524add5e18b1f0795b2ee2fd7f5b7686b26919a7e8f2e20ac1d243fe9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740114"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440650"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分客户付款
 
@@ -31,7 +34,7 @@ ms.locfileid: "6740114"
 Fabrikam 向客户 4031 提供两个现金折扣期间。 如果在五天内支付该发票，则客户获得 2% 的现金折扣；如果在十四天内支付该发票，则客户获得 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于 **应付帐款参数** 页上。
 
 ## <a name="invoice"></a>开票
-6 月 25 日，Arnie 为客户 4031 输入并过帐了 1,000.00 的发票。 在 Arnie 获得此发票的现金折扣时，Arnie 了解到如果客户 4031 在 6 月 30 日之前付款，则获得 20.00 的折扣。 如果该发票在 7 月 9 日之前付款则获得 10.00 的折扣。
+6 月 25 日，Arnie 为客户 4031 输入并过帐了 1,000.00 的发票。 在他获得此发票的现金折扣时，Arnie 了解到如果客户 4031 在 6 月 30 日之前付款，则获得 20.00 的折扣。 如果该发票在 7 月 9 日之前付款则获得 10.00 的折扣。
 
 | 现金折扣日期 | 现金折扣金额 | 交易记录币种金额 |
 |--------------------|----------------------|--------------------------------|
@@ -54,7 +57,7 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 折扣信息显示在 **结算未结交易记录** 页的底部。 如果您不将 **要结算的金额** 值更改为 **294.00**，则显示的 **现金折扣金额** 值将不同。 但是，在过帐付款时，将提取 6.00 的现金折扣，因为结算会自动调整 **要结算的金额** 值。
 
-| &nbsp;                       | &nbsp;    |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 6/30/2015 |
 | 现金折扣金额         | 20.00     |
@@ -73,7 +76,7 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-| &nbsp;                       | &nbsp;    |
+|                              |           |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 30.00     |
@@ -95,6 +98,3 @@ Arnie 可以在 **客户交易记录** 页上查看该交易记录。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

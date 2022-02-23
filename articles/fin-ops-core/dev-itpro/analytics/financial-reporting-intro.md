@@ -1,28 +1,28 @@
 ---
 title: 财务报告
-description: 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。
+description: 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。
 author: aprilolson
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "68813"
-- intro-internal
+ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769866"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682687"
 ---
 # <a name="financial-reporting"></a>财务报告
 
@@ -96,6 +96,3 @@ ms.locfileid: "6769866"
 
 ## <a name="additional-resources"></a>其他资源
 [生成财务报表](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

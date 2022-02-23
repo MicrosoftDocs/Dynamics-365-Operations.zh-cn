@@ -1,14 +1,17 @@
 ---
 title: 改进主计划绩效
 description: 本主题介绍可帮助您提高主计划绩效或诊断问题的各种选项。
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570913"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423216"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 
@@ -79,7 +82,7 @@ ms.locfileid: "7570913"
 
 ### <a name="number-of-orders-in-firming-bundle"></a>固定捆绑销售中的订单数
 
-**固定捆绑销售中的订单数** 参数指定每个线程/批处理同时处理的订单总数。 这会导致自动确认流程并行化。
+**固定捆绑销售中的订单数** 参数指定每个线程/批处理同时处理的订单总数。 这会导致自动确定流程并行化。
 
 可设置 **主计划参数** 页（**主计划 \> 设置 \> 主计划参数**）的 **常规** 选项卡上 **绩效** 部分中的 **固定捆绑销售中的订单数** 参数。 自动确认流程的并行化基于必须一起处理的订单。 例如，如果此参数设置为 **50**，则每个线程或批处理一次性选取 50 个订单并一起处理。 建议通过试错流程找到最佳值。 但是，可使用以下公式计算初始值：
 
@@ -159,6 +162,3 @@ ms.locfileid: "7570913"
 - **一次一个重大例程** – 请勿将主计划与其他任何重大例程一起运行。
 - **检查会话日志。**
 - **筛选物料** – 使用生命周期状态从主计划运行中排除物料。 （请勿使用物料编号。）
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

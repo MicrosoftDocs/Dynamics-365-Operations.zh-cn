@@ -2,9 +2,11 @@
 title: 向安全角色分配用户
 description: 若要访问 Finance and Operations 应用，用户必须分配给安全角色。
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d65c4dafda63b7a54dd343652b0f4b498e064f4aee0fba43c34d40d73ac5062
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748328"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679856"
 ---
 # <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 
@@ -55,6 +57,3 @@ ms.locfileid: "6748328"
 2. 在树中，选择一个角色，然后在 **分配给角色的用户** 菜单中，选择 **手动分配/排除用户**。
 4. 在 **将用户分配给角色或从角色中排除用户** 中，列出了未分配有角色的用户，并且其 **分配模式** 设置为 **无**。 选择一个或多个应该为其分配角色的用户。
 5. 在 **操作窗格** 上，选择 **分配给角色**。 **分配模式** 会更新为 **手动**，并且现在为用户分配了新角色。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

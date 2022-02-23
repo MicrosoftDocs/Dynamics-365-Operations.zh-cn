@@ -1,10 +1,12 @@
 ---
 title: 入站资产和出站资产
 description: 本主题介绍如何在资产管理中登记入站资产和出站资产。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759615"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018063"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 
@@ -42,7 +44,7 @@ ms.locfileid: "6759615"
 3. 选择 **更新维护请求状态**。
 4. 选择 **入站**（或已为入站资产创建的其他生命周期状态），然后选择 **确定**。
 
-![将资产登记为入站资产。](media/07-manage-maintenance-requests.png)
+![将资产登记为入站资产](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>将入站资产登记为接收的资产
 
@@ -51,7 +53,7 @@ ms.locfileid: "6759615"
 3. 选择 **接收资产**。
 4. 在 **接收时间** 字段中，输入日期和时间。 然后选择 **确定**。 将从 **入站资产** 列表页删除记录。
 
-![将入站资产登记为接收的资产。](media/08-manage-maintenance-requests.png)
+![将入站资产登记为接收的资产](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>将资产登记为出站资产
 
@@ -68,6 +70,3 @@ ms.locfileid: "6759615"
 2. 选择资产或维护请求。
 3. 选择 **交付资产**。
 4. 在 **交付时间** 字段中，输入日期和时间。 然后选择 **确定**。 将从 **出站资产** 列表页删除记录。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

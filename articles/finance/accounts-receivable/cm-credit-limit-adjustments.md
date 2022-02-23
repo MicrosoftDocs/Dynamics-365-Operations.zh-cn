@@ -1,23 +1,26 @@
 ---
 title: 信用额度调整
 description: 本主题说明了如何设置和添加信用额度调整。
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753890"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440721"
 ---
 # <a name="credit-limit-adjustments"></a>信用额度调整 
 
@@ -121,6 +124,3 @@ ms.locfileid: "7753890"
 
 > [!NOTE]
 > 当您创建 **信用额度调整** 工作流时，您可以对其进行设置，以便在批准行之后自动过帐调整。 只需在工作流中包括 **自动过帐日记帐** 任务即可。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: ER 将财务维度用作数据源（第 1 部分 - 设计数据模型）
-description: 本主题介绍如何配置电子报告 (ER) 模型以将财务维度用作 ER 报表的数据源。 （第 1 部分）
+description: 以下步骤说明系统管理员或电子申报开发人员可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e165901fdbaf723ea0122f00f79c2ab2050e33db2fcad8e6d6a8d0ba53e41b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35c4a05fb15a7e3166c6d075569debcf9cbc3cc3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734688"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681701"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER 将财务维度用作数据源（第 1 部分 - 设计数据模型）
 
@@ -101,11 +103,8 @@ ms.locfileid: "6734688"
 66. 单击“新建”，以打开对话框。
 67. 在“名称”字段中，键入“名称”。
 68. 单击“添加”。
-69. 单击保存。
+69. 单击“保存”。
 70. 关闭该页面。
 
-![ER 数据模型设计器页面。](../media/er-financial-dimensions-guides-data-model.png)
+![ER 数据模型设计器页面](../media/er-financial-dimensions-guides-data-model.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

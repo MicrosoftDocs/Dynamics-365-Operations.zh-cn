@@ -2,30 +2,36 @@
 title: 创建零售功能配置文件
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建功能配置文件。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9043486050e230fd9ecdefaaa65427264c8e40f5c3e8602c923bbede595a7243
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717614"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410356"
 ---
 # <a name="create-a-retail-functionality-profile"></a>创建零售功能配置文件
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建功能配置文件。
+
+## <a name="overview"></a>概览
 
 Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个渠道必须指定一个功能配置文件。
 
@@ -47,7 +53,7 @@ Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个�
   
 下图显示了一个功能配置文件示例。
   
-![功能配置文件示例。](media/retail-functionality-profile.png)
+![功能配置文件示例](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -58,6 +64,3 @@ Commerce 功能配置文件提供了用于在线渠道的各种设置。 每个�
 [屏幕布局概览](pos-screen-layouts.md)       
 
 [配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

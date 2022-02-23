@@ -2,9 +2,11 @@
 title: 使用电子申报自动执行测试
 description: 本主题介绍如何使用电子申报 (ER) 框架的基准功能自动测试功能。
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749792"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681440"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>自动测试电子报告
 
@@ -59,7 +61,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 - 部署支持测试自动化的拓扑。 必须可以访问 **系统管理员** 角色的此拓扑的实例。 此拓扑中必须包含此示例中将使用的演示数据。 有关详细信息，请参阅[部署和使用支持连续生成和测试自动化的环境](../perf-test/continuous-build-test-automation.md)。
 - 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装并配置 RSAT 以支持 Finance and Operations 应用和 Azure DevOps 的信息，请参阅[Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
 
-    ![RSAT 设置。](media/GER-Configure.png "“RSAT 设置”对话框的屏幕截图")
+    ![RSAT 设置](media/GER-Configure.png "“RSAT 设置”对话框的屏幕截图")
 
 - 若要组织套件中的测试用例以帮助确保正确的执行顺序，以便收集测试的执行日志来进一步报告和调查，必须可以从部署的拓扑访问 Azure DevOps。
 - 若要完成本主题中的示例，建议下载 [ER RSAT 测试的用法](https://go.microsoft.com/fwlink/?linkid=874684)。 这个 zip 文件中包含以下任务指南：
@@ -78,7 +80,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     - **付款模型映射 1611** ER 模型映射配置
     - **BACS (UK)** ER 格式配置
 
-    ![电子报告配置。](media/GER-Configurations.png "电子申报中的“配置”页的屏幕截图")
+    ![电子报告配置](media/GER-Configurations.png "电子申报中的“配置”页的屏幕截图")
 
 3. 选择 **GBSI** 演示数据公司，该公司在英国拥有国家/地区上下文。
 4. 配置应付帐款参数：
@@ -90,7 +92,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
         1. 在 **文件格式** 快速选项卡上，将 **一般电子导出格式** 选项设置为 **是**。
         2. 在 **导出格式配置** 字段中，选择 **BACS (UK)**。
 
-    ![付款方式页面。](media/GER-APParameters.png "“付款方式”页的屏幕截图")
+    ![付款方式页面](media/GER-APParameters.png "“付款方式”页的屏幕截图")
 
     > [!NOTE]
     > 如果有为了支持自定义设置而为此 ER 格式创建的派生版本，可以在 **电子** 付款方式中选择此配置。
@@ -100,7 +102,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     1. 转到 **应付帐款 \> 付款 \> 付款日记帐**。
     2. 确保尚未过帐付款日记帐。
 
-        ![付款日记帐页面。](media/GER-APJournal.png "“付款日记帐”页的屏幕截图")
+        ![付款日记帐页面](media/GER-APJournal.png "“付款日记帐”页的屏幕截图")
 
     3. 选择 **行**。然后输入包含以下信息的行。
 
@@ -113,7 +115,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
         | 对方科目      | GBSI OPER       |
         | 付款方式   | 电子      |
 
-    ![供应商付款页面。](media/GER-APJournalLines.png "“供应商付款”页的屏幕截图")
+    ![供应商付款页面](media/GER-APJournalLines.png "“供应商付款”页的屏幕截图")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>准备 ER 框架以测试供应商付款处理
 
@@ -122,7 +124,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 1. 转到 **组织管理 \> 电子报表 \> 电子报表参数**。
 2. 在 **附件** 选项卡上 **基准** 字段中，选择 **文件** 作为文档管理 (DM) 框架用于保留作为 DM 附件与基准功能有关的单据的单据类型。
 
-    ![“电子报告参数”页面。](media/GER-ERParameters.png "“电子申报”参数页面的屏幕截图")
+    ![“电子申报参数”页面](media/GER-ERParameters.png "“电子申报”参数页面的屏幕截图")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>生成与供应商付款有关的单据的基准副本
 
@@ -139,7 +141,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     - **File** 文本格式的付款文件
     - **ERVendOutPaymControlReport** XLSX 格式的控制报表文件
 
-    ![提取的文件。](media/GER-APJournalProcessed.png "Windows 资源管理器中提取的文件名的屏幕截图")
+    ![提取的文件](media/GER-APJournalProcessed.png "Windows 资源管理器中提取的文件名的屏幕截图")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>开启 ER 基准功能
 
@@ -177,7 +179,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     3. 浏览并选择本地存储的 XLSX 格式的 **ERVendOutPaymControlReport** 控制报表文件。
     4. 在 **说明** 字段中，输入 **付款 XLSX 控制报表**。
 
-    ![供应商付款文件和控制报表的基准。](media/GER-BaselineAttachments.png "已选择了付款 XLSX 控制报表的“配置”页的屏幕截图")
+    ![供应商付款文件和控制报表的基准](media/GER-BaselineAttachments.png "已选择了付款 XLSX 控制报表的“配置”页的屏幕截图")
 
 8. 关闭该页面。
 9. 在 **基准** 快速选项卡上，选择 **新建** 为付款文件配置一个基准：
@@ -196,7 +198,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     4. 在 **文件名掩码** 字段中，输入 **\*.XLSX**，以便将此基准仅应用于 **ERVendOutPaymControlReport** 格式组件的具有 **.xslx** 文件扩展名的输出。
     5. 在 **基准** 字段中，选择 **付款 XLSX 控制报表**，以便将此基准用于与生成的输出进行比较。
 
-    ![“配置”页面上的“基准”快速选项卡。](media/GER-BaselineRules.png "“配置”页上的“基准”快速选项卡的屏幕截图")
+    ![“配置”页上的“基准”快速选项卡](media/GER-BaselineRules.png "“配置”页上的“基准”快速选项卡的屏幕截图")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>录制测试以验证供应商付款处理
 
@@ -226,15 +228,15 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 1. 将处理付款行的状态设置为 **无**。
 
-    ![任务录制步骤 3 到 4。](media/GER-Recording1Review1.png "任务录制步骤 3 到 4 的屏幕截图")
+    ![任务录制步骤 3 到 4](media/GER-Recording1Review1.png "任务录制步骤 3 到 4 的屏幕截图")
 
 2. 开启 **以调试模式运行** ER 用户参数。
 
-    ![任务录制步骤 9 到 10。](media/GER-Recording1Review2.png "任务录制步骤 9 到 10 的屏幕截图")
+    ![任务录制步骤 9 到 10](media/GER-Recording1Review2.png "任务录制步骤 9 到 10 的屏幕截图")
 
 3. 清除其中包含所生成文件与基准的比较结果的 ER 调试日志。
 
-    ![任务录制步骤 13 到 15。](media/GER-Recording1Review3.png "任务录制步骤 13 到 15 的屏幕截图")
+    ![任务录制步骤 13 到 15](media/GER-Recording1Review3.png "任务录制步骤 13 到 15 的屏幕截图")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>录制这些步骤以测试供应商付款处理
 
@@ -253,21 +255,21 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 1. 启动供应商付款处理。
 2. 选择正确的运行时参数，然后开启控制报表的生成。
 
-    ![任务录制步骤 3 到 8。](media/GER-Recording2Review1.png "任务录制步骤 3 到 8 的屏幕截图")
+    ![任务录制步骤 3 到 8](media/GER-Recording2Review1.png "任务录制步骤 3 到 8 的屏幕截图")
 
 3. 访问 ER 调试日志以录制所生成输出与相应基准的比较结果。
 
     在 ER 调试日志中，**生成的文本** 字段中将显示比较结果。 **格式组件** 和 **生成日志条目的格式路径** 字段引用为其比较所生成输出与基准的文件组件。
 
-    ![“电子报告运行日志”页面上的条目。](media/GER-ERDebugLog.png "“电子申报运行日志”页上的条目的屏幕截图")
+    ![“电子申报运行日志”页上的条目](media/GER-ERDebugLog.png "“电子申报运行日志”页上的条目的屏幕截图")
 
 4. 将使用 **验证** 任务录制器选项和选择 **当前值** 录制当前输出与基准的比较。
 
-    ![使用“验证”选项比较当前值。](media/GER-TRRecordValidation.png "使用“验证”选项比较当前值的屏幕截图")
+    ![使用“验证”选项比较当前值](media/GER-TRRecordValidation.png "使用“验证”选项比较当前值的屏幕截图")
 
     下图显示任务录制中录制的验证步骤的情况。
 
-    ![任务录制步骤 13 和 15。](media/GER-Recording2Review2.png "任务录制步骤 13 和 15 的屏幕截图")
+    ![任务录制步骤 13 和 15](media/GER-Recording2Review2.png "任务录制步骤 13 和 15 的屏幕截图")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>将录制的测试添加到 Azure DevOps
 
@@ -284,7 +286,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
     1. 将测试用例命名为 **使用 ER 格式 BACS (UK) 测试对供应商付款的处理**。
     2. 附加 **Process** 文件夹中您之前下载的 **Recording.xml** 文件。
 
-    ![所选测试计划的新测试用例。](media/GER-RSAT-DevOps-Tests-Passed.png "所选测试计划的新测试用例的屏幕截图")
+    ![所选测试计划的新测试用例](media/GER-RSAT-DevOps-Tests-Passed.png "所选测试计划的新测试用例的屏幕截图")
 
 > [!NOTE]
 > 注意所添加测试的正确执行顺序。
@@ -296,14 +298,14 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 1. 打开当前拓扑中的本地 RSAT 应用程序。
 2. 选择 **加载** 以将 Azure DevOps 中的当前测试加载到 RSAT 中。
 
-    ![加载到 RSAT 中的测试。](media/GER-RSAT-RSAT-Tests-Loaded.png "加载到 RSAT 中的测试的屏幕截图")
+    ![加载到 RSAT 中的测试](media/GER-RSAT-RSAT-Tests-Loaded.png "加载到 RSAT 中的测试的屏幕截图")
 
 ### <a name="create-automation-and-parameters-files"></a>创建自动化和参数文件
 
 1. 在 RSAT 中，选择从 Azure DevOps 加载的测试。
 2. 选择 **新建** 以创建 RSAT 自动化和参数文件。
 
-    ![在 RSAT 中创建的 RSAT 自动化和参数文件。](media/GER-RSAT-RSAT-Tests-Initiated.png "在 RSAT 汇总创建的 RSAT 自动化和参数文件的屏幕截图")
+    ![在 RSAT 汇总创建的 RSAT 自动化和参数文件](media/GER-RSAT-RSAT-Tests-Initiated.png "在 RSAT 汇总创建的 RSAT 自动化和参数文件的屏幕截图")
 
 ### <a name="modify-the-parameters-files"></a>修改参数文件
 
@@ -315,7 +317,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 6. 在打开的 Excel 工作簿中 **General** 工作表上，将公司代码更改为 **GBSI**。
 7. 请注意，**ERFormatMappingRunLogTable** 工作表上的单元格 A:3 和 C:3 中包含 ER 调试日志表中用于验证输出和基准比较结果的字段的文本。 这些文本将用于评估执行测试期间创建的 ER 调试日志记录。
 
-    ![ERFormatMappingRunLogTable 工作表。](media/GER-RSAT-RSAT-ExcelParameters.png "ERFormatMappingRunLogTable 工作表的屏幕截图")
+    ![ERFormatMappingRunLogTable 工作表](media/GER-RSAT-RSAT-ExcelParameters.png "ERFormatMappingRunLogTable 工作表的屏幕截图")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>执行测试和分析结果
 
@@ -330,11 +332,11 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 测试的执行结果存储在 RSAT 中。 请注意，两项测试均已通过。
 
-![RSAT 中通过的测试。](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT 中通过了的测试的屏幕截图")
+![RSAT 中通过了的测试](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT 中通过了的测试的屏幕截图")
 
 请注意，还会将测试的执行结果发送到 Azure DevOps，以便执行进一步的分析。
 
-![Azure DevOps 中的测试执行结果。](media/GER-RSAT-DevOps-Tests-Added.png "Azure DevOps 中的测试执行结果的屏幕截图")
+![Azure DevOps 中的测试执行结果](media/GER-RSAT-DevOps-Tests-Added.png "Azure DevOps 中的测试执行结果的屏幕截图")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>模拟测试失败的情况
 
@@ -357,15 +359,15 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 测试的执行结果存储在 RSAT 中。 请注意，第二次执行时，第二项测试失败。
 
-![RSAT 中的失败测试结果。](media/GER-RSAT-RSAT-Tests-Failed.png "RSAT 中的失败测试结果的屏幕截图")
+![RSAT 中的失败测试结果](media/GER-RSAT-RSAT-Tests-Failed.png "RSAT 中的失败测试结果的屏幕截图")
 
 请注意，还会将测试的执行结果发送到 Azure DevOps，以便执行进一步的分析。
 
-![Azure DevOps 中的失败测试结果。](media/GER-RSAT-DevOps-Tests-Failed.png "Azure DevOps 中的失败测试结果的屏幕截图")
+![Azure DevOps 中的失败测试结果](media/GER-RSAT-DevOps-Tests-Failed.png "Azure DevOps 中的失败测试结果的屏幕截图")
 
 可访问每个测试的状态。 也可以访问执行日志，以便分析任何失败的原因。 在下图中，执行日志显示失败的原因是所生成付款文件与其基准之间内容不同。
 
-![Azure DevOps 中用于分析失败的执行日志。](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Azure DevOps 中用于分析失败原因的执行日志的屏幕截图")
+![Azure DevOps 中用于分析失败原因的执行日志](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Azure DevOps 中用于分析失败原因的执行日志的屏幕截图")
 
 因此，如您所见，可以通过将 RSAT 用作测试平台和使用基于任务录制器且使用 ER 基准功能的测试用例自动评估任何 ER 格式的运行。
 
@@ -378,6 +380,3 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 - [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
 - [ER 通过采用该格式的新的基本版本升级格式](tasks/er-upgrade-format.md)
 - [ER 从 Lifecycle Services 导入配置](tasks/er-import-configuration-lifecycle-services.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

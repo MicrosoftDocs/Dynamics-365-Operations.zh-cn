@@ -2,9 +2,11 @@
 title: 配置全球通讯簿
 description: 使用该过程设置全球通讯簿的默认值和安全策略。
 author: msftbrking
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34b0ab8b2d3ffa840e20d73716265c445e77189044840fd6850c5bffb3e3365b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759057"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796794"
 ---
 # <a name="configure-the-global-address-book"></a>配置全球通讯簿
 
@@ -43,6 +45,3 @@ ms.locfileid: "6759057"
 13. 在列表中，找到并选择所需记录。 按下 SHIFT 键选择多个角色，以添加到 **选定角色** 窗格中，然后单击箭头添加选定的角色。  
 14. 单击 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

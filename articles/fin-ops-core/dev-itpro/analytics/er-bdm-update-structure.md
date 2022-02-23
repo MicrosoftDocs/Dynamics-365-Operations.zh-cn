@@ -2,9 +2,11 @@
 title: 更新业务文档模板的结构
 description: 本主题说明如何通过使用“业务文档管理”功能更新业务文档模板的结构。
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775278"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728081"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>更新业务文档模板的结构 
 
@@ -58,7 +60,7 @@ ms.locfileid: "6775278"
 
     将打开新模板，以便在模板编辑器页面上的 Excel Online 嵌入式控件中进行编辑。
 
-[![使用业务文档管理工作区开始编辑业务文档模板。](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![使用业务文档管理工作区开始编辑业务文档模板](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>查看可编辑模板的当前结构
 
@@ -68,7 +70,7 @@ ms.locfileid: "6775278"
 4. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 5. 请注意，在 Finance 中的模板结构中，**rptHeaderCompLogo** 项表示为 **报表 \> 发票 \> rptHeader \> rptHeaderPart1** 的一个子项。
 
-[![使用业务文档管理工作区查看可编辑模板的当前结构。](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![使用业务文档管理工作区查看可编辑模板的当前结构](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>通过删除图片更新业务文档模板的结构
 
@@ -85,7 +87,7 @@ ms.locfileid: "6775278"
 4. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 5. 请注意，Finance 中的模板结构中不再包含 **rptHeaderCompLogo** 项。
 
-[![使用业务文档管理工作区从业务文档模板中删除图片。](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![使用业务文档管理工作区从业务文档模板删除图片](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>通过添加图片更新业务文档模板的结构
 
@@ -97,13 +99,10 @@ ms.locfileid: "6775278"
 6. 在 **模板结构** 窗格中，展开 **报表 \> 发票 \> rptHeader \> rptHeaderPart1**。
 7. 请注意，Finance 中的模板结构中现在包含这个新图片，形式为一个项。
 
-[![使用业务文档管理工作区向业务文档模板添加图片。](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![使用业务文档管理工作区向业务文档模板添加图片](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>相关链接
 
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
 [业务文档管理概览](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

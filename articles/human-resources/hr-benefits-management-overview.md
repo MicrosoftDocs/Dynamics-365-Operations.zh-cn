@@ -1,156 +1,99 @@
 ---
 title: 福利管理概览
-description: 此主题概要介绍 Dynamics 365 Human Resources 中的福利管理功能。
-author: twheeloc
-ms.date: 12/06/2021
-ms.topic: overview
+description: Dynamics 365 Human Resources 中的福利管理功能概述。 通过易于使用的在线体验，为您的员工提供更多的福利选项。
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/17/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065935"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417422"
 ---
-# <a name="benefits-management-overview"></a>福利管理概览
+# <a name="benefits-management-overview"></a>福利管理概述
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
+为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理为您提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
 
 - 增强的福利计划使您可以创建和管理独特的福利计划，并支持复杂的福利比率表和嵌套层。 您可以轻松创建福利计划、捆绑和自动登记规则，以提供更轻松的员工体验。
-- 弹性信贷项目可让您按比例来支持退休和其他生活事件。
+
+- 弹性信贷项目可让您按比例来支持退休和其他生命事件。
+
 - 广泛的资格规则可确保您为合适的员工提供合适的福利。
+
 - 在线福利登记为您的员工提供轻松的体验。
-- 合格的生活事件处理支持未来的生活事件。
+
+- 合格的生命事件处理支持未来的生命事件。
 
 如果您想访问演示数据，您需要重新部署沙盒环境。
 
-> [!NOTE]
-> 现在，您可以自定义“福利管理”页面。 可以将与覆盖范围比率相关的自定义字段添加到福利计划的 **覆盖范围选项** 页面。 有关使用自定义字段的详细信息，请参阅[自定义字段](hr-developer-custom-fields.md)。
->
-> ![福利管理自定义字段](media/hr-benefits-management-custom-fields.png)
-
 ## <a name="enable-benefits-management"></a>雇用福利管理
 
-本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换 Human Resources 中的哪些现有功能和哪些功能将禁用。
+本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换或禁用 Human Resources 中的哪些现有功能。
 
 > [!IMPORTANT]
 > 不能在 **生产** 环境中禁用已启用的福利管理。 建议在 **生产** 环境中启用福利管理之前，在 **沙盒** 环境中启用和测试。 旧福利功能和新福利管理功能之间差别很大，需要在投入生产之前进行更多设置和应该进行测试。
 
-有关更多信息，请参阅[管理功能](hr-admin-manage-features.md)。
+- [管理功能](hr-admin-manage-features.md)
 
-## <a name="process-overview"></a>流程概览
+## <a name="configure-employee-information"></a>配置员工信息
 
-配置福利的流程涉及以下任务：
+必须先提供必需信息，才能为员工登记福利。 您必须在员工的开始日期在 **固定薪酬计划** 中登记员工，并且必须在 **工作人员** 窗体的 **雇用详细信息** 中选择 **福利支付频率**。
 
-1.  设置必需福利信息。
-2.  设置可选福利信息。
-3.  设置福利计划。
-4.  设置弹性信贷计划（可选）。
-5.  配置必需员工信息。
-6.  配置可选员工信息。
-7.  处理员工以确定资格。
-8.  员工通过员工自助服务选择计划（可选）。
-9.  确认员工计划选择。
-10. 生活事件处理（可选）。
-11. 比率更新（可选）。
+如果您有一名员工将收到诸如佣金之类的附加报酬，您可以从员工记录添加 **福利年薪** 金额。 人力资源部门在确定覆盖范围金额时将使用 **福利年薪** 金额，而不是固定薪酬年度金额。 **福利年薪** 必须自员工的开始日期或福利期开始之日（以较早者为准）起生效。 如果同时记录了员工的固定薪酬和福利年薪金额，福利年薪将用于确定覆盖范围金额。
 
-## <a name="set-up-required-benefit-information"></a>设置必需福利信息
-
-必须设置多个组件，然后员工才能够在计划中登记：
-
-- **福利管理参数** – 这些设置在公司之间共享。 您可以设置默认原因代码、启用 **福利年薪** 选项、设置新雇员的默认付款频率以及启用生活事件。 有关详细信息，请参阅[设置福利管理参数](hr-benefits-setup-parameters.md)。
-- **个人联系人资格选项** – 个人联系人是将成为所设置计划的依赖方或受益人的个人。 通常，他们是子女、配偶或信托机构。 有关详细信息，请参阅[配置个人联系人资格选项](hr-benefits-setup-contact-eligibility-options.md)。
-- **覆盖范围选项** – 设置可用于计划的覆盖范围类型。 具体来说，定义谁应该被覆盖，或者有多少可用覆盖范围。 有关详细信息，请参阅[创建覆盖范围选项](hr-benefits-setup-coverage-options.md)。
-- **计划类型** – 设置创建福利计划时可用的计划类型。 计划类型的示例包括 **牙科**、**愿景** 和 **储蓄**。 计划类型中的一些重要设置确定福利计划中可用的设置。 有关详细信息，请参阅[创建计划类型](hr-benefits-setup-plan-types.md)。
-- **资格规则** – 资格规则用于确定员工是否有资格参加计划。 至少有一个资格规则必须与每个福利计划关联。 有关详细信息，请参阅[配置资格规则和选项](hr-benefits-setup-eligibility-rules.md)。
-- **付款频率** – 配置福利比率时需要设置付款频率。 比率中使用的付款频率帮助确定员工和/或雇主每周、每月或每年欠款的金额。 有关详细信息，请参阅[设置付款频率](hr-benefits-setup-payment-frequencies.md)。
-- **比率** – 比率定义员工或雇主将付出多少福利。 如果应将钱重新分配给员工（例如，健身房会员资格点数），则输入负比率。 有关详细信息，请参阅[配置比率](hr-benefits-setup-rates.md)。
-- **层比率** – 当比率必须根据某些标准改变时，将使用层比率。 最常见的层比率是基于年龄的单层比率。 不过，也可以设置双层比率，此比率可能会根据性别、年龄或其他标准而变化。
-- **扣缴** – 扣缴主要是将传递到工资单系统以识别福利扣缴的标头信息/代码。 您必须设置这些扣缴，因为福利计划中需要扣缴。 有关详细信息，请参阅[配置扣缴](hr-benefits-setup-deductions.md)。
-- **福利期间** – 福利期间是员工具有福利覆盖范围的期间。 也称为计划年份。 开放登记期间也在此处设置。
-
-## <a name="set-up-optional-benefit-information"></a>设置可选福利信息
-
-创建福利计划无需设置以下组件：
-
-- **计划** – 计划是一组由相同资格规则管理的福利。 例如，销售部门的每个人都可能有一部手机。
-- **捆绑** – 捆绑是一组福利，要显示选择其他计划的选项，必须先选择一个计划。 例如，高自付医疗计划可能与健康储蓄帐户 (HSA) 计划捆绑在一起。
-- **生活事件类型** – 生活事件是允许员工覆盖范围发生变化的事件。 生活事件类型与计划类型关联。 例如，医疗计划类型可能允许因出生或收养或婚姻状况改变而更改计划。 但是，保险计划类型可能不允许因生活事件进行任何更改。 有关详细信息，请参阅[配置生活事件类型](hr-benefits-setup-life-event-types.md)。
-- **等待天数和等待期** – 可以在福利计划中设置覆盖范围等待期。 例如，新雇用的员工可能只有在工作三个月后才能在 401(k) 中登记。 在这种情况下，等待期为三个月。 如果只能在当月的特定日期处理新登记并将其提交给提供商，则会在等待期内使用等待天数。 例如，如果 401(k) 登记只能在当月第十五天处理，那么入职三个月后，设置的等待期为三个月，等待日为十五号。 有关详细信息，请参阅[配置等待天数](hr-benefits-setup-waiting-days.md)和[配置等待期](hr-benefits-setup-waiting-periods.md)。
-- **原因代码** – 原因代码用于说明为何有可能会更改员工的福利。 有关详细信息，请参阅[设置原因代码](hr-benefits-setup-reason-codes.md)。
-
-## <a name="set-up-benefit-plans"></a>设置福利计划
-
-设置福利计划时，您必须先完成以下步骤，然后才能登记员工：
-
-- 分配福利期间。
-- 附加覆盖范围选项。
-- 在 **常规** 选项卡上设置生效日期和失效日期。
-- 至少分配一个资格规则。
-- 在 **设置** 选项卡上设置 **允许/继续登记** 字段。
-
-有关如何设置福利计划的详细信息，请参阅[设置福利计划](hr-benefits-plans-setup.md)。
-
-## <a name="set-up-flex-credit-programs-optional"></a>设置弹性信贷计划（可选）
-
-您可以使用弹性信贷项目来根据预先确定的弹性信贷数量为员工登记福利。 员工可以选择弹性信贷如何分配。 例如，如果员工已经由其配偶的健康保险计划覆盖，他们就不必将其信贷用于健康保险范围。 因此，他们可能希望将它们用于其他福利。 有关弹性信贷计划的详细信息，请参阅[设置弹性信贷计划](hr-benefits-plans-flex-credit-programs.md)。
-
-## <a name="configure-required-employee-information"></a>配置必需员工信息
-
-必须先为员工提供必需信息，才能为员工登记福利。 
-
-员工必须被分配了 **职位**。 通过更新 **工作人员分配**，可以在 **工作人员** 或 **职位** 页面为员工分配 **职位**。 
-
-接下来，员工必须在开始日期在固定薪酬计划中登记，或者有 **年度福利薪水** 金额。 在为员工分配 **固定薪酬** 之前，必须先分配 **职位**。 
-
-> [!NOTE] 
-> **固定薪酬开始日期** 不能早于 **职位分配日期**。
-
-或者，如果您有一名员工将收到诸如佣金之类的附加报酬，您可以从员工记录添加 **福利年薪** 金额。 人力资源部门在确定覆盖范围金额时将使用 **福利年薪** 金额，而不是 **固定薪酬年度** 金额。 **福利年薪** 必须自员工的开始日期或福利期开始之日（以较早者为准）起生效。 但是，职位不需要分配 **福利年薪**。 要启用 **福利年薪** 功能，转到 **人力资源共享参数** 页面，在 **福利管理** 选项卡上。此功能默认关闭。
-
-> [!IMPORTANT]
-> 如果同时输入了员工的 **固定薪酬** 和 **福利年薪** 金额，**福利年薪** 将用于确定覆盖范围金额。 在 **工作人员** 页面的 **雇用详细信息** 部分，您必须在 **福利支付频率** 字段中选择一个值。
-
-## <a name="configure-optional-employee-information"></a>配置可选员工信息
 创建用户基于性别或年龄评定的福利计划时，必须输入员工的生日和性别以计算福利成本。
 
-## <a name="process-employees-to-determine-eligibility"></a>处理员工以确定资格
-在员工可以在计划中登记之前，将运行资格处理以确定他们有资格参加哪些计划。 您可以在 **处理结果查看器** 中查看资格处理的结果。 有关详细信息，请参阅[处理登记资格](hr-benefits-process-enrollment-eligibility.md)。
+## <a name="configure-benefits-management"></a>配置福利管理
 
-## <a name="employees-select-plans-using-employee-self-service-optional"></a>员工使用 **员工自助服务** 选择计划（可选）
+在为员工创建福利计划之前，需要配置计划的选项。
 
-当进行开放登记、新雇用员工或发生生活事件时，员工可以使用 **员工自助服务** 选择或更新其福利。 有关详细信息，请参阅[配置员工自助服务](hr-benefits-setup-employee-self-service.md)。
+- [设置福利管理参数](hr-benefits-setup-parameters.md)
+- [配置资格规则和选项](hr-benefits-setup-eligibility-rules.md)
+- [配置个人联系人资格选项](hr-benefits-setup-contact-eligibility-options.md)
+- [创建覆盖范围选项](hr-benefits-setup-coverage-options.md)
+- [设置付款频率](hr-benefits-setup-payment-frequencies.md)
+- [配置生活事件类型](hr-benefits-setup-life-event-types.md)
+- [创建计划类型](hr-benefits-setup-plan-types.md)
+- [设置原因代码](hr-benefits-setup-reason-codes.md)
+- [设置层代码](hr-benefits-setup-tier-codes.md)
+- [配置费率](hr-benefits-setup-rates.md)
+- [配置扣缴](hr-benefits-setup-deductions.md)
+- [配置等待天数](hr-benefits-setup-waiting-days.md)
+- [配置等待时段](hr-benefits-setup-waiting-periods.md)
+- [设置舍入规则](hr-benefits-setup-rounding-rules.md)
+- [创建雇用类别](hr-benefits-setup-employment-categories.md)
+- [设置雇用类型](hr-benefits-setup-employment-types.md)
+- [配置员工自助服务](hr-benefits-setup-employee-self-service.md)
 
-## <a name="confirm-employee-plan-selections"></a>确认员工计划选择
+## <a name="create-benefit-plans"></a>创建福利计划
 
-必须先确认员工选择的福利，然后才能将员工视为已在计划中登记。 也可以代表员工选择福利。 要选择或确认福利，在 **员工** 页面上的 **福利** 选项卡上，选择 **工作人员福利计划**。 要为多个员工选择或确认福利，使用 **工作人员福利计划批量更新** 页面。
+这些文章说明如何创建福利计划，包括捆绑和弹性信贷项目。
 
-## <a name="life-event-processing-optional"></a>生活事件处理（可选）
+- [设置福利计划](hr-benefits-plans-setup.md)
+- [设置弹性信贷计划](hr-benefits-plans-flex-credit-programs.md)
 
-在员工生命周期中，每个员工都可能会经历各种生活事件，如婚姻、就业变化或依赖方或受益人的变化。 要使用生活事件，您必须在 **人力资源共享参数** 页上启用它们。 设置计划类型的生活事件类型和生活事件选项。
+## <a name="process-benefit-plans"></a>处理福利计划
 
-您必须在招聘期限内至少已经运行了一次开放登记，之后才能够处理生活事件。 在美国，开放登记通常每年一次。 在美国以外地区，开放登记可能在雇用时进行。 生活事件处理不需要工作人员选择福利计划。 但是，工作人员必须已包括在开放登记处理中。 有关详细信息，请参阅以下主题：
+您需要处理一些更改以使它们生效。
 
-- [处理生活事件](hr-benefits-process-life-events.md)
-- [处理生活事件更改](hr-benefits-process-life-event-changes.md)
-- [处理生活事件资格](hr-benefits-process-life-event-eligibility.md)
+- [处理登记资格](hr-benefits-process-enrollment-eligibility.md)
+- [处理生命事件](hr-benefits-process-life-events.md)
+- [处理生命事件更改](hr-benefits-process-life-event-changes.md)
+- [处理生命事件资格](hr-benefits-process-life-event-eligibility.md)
+- [处理比率更改](hr-benefits-process-rate-changes.md)
 
-## <a name="rate-updates-optional"></a>比率更新（可选）
-
-有时，福利比率会在计划期间内发生变化。 要更新已在计划中登记的员工的比率，您必须处理比率变化。 有关详细信息，请参阅[处理比率变化](hr-benefits-process-rate-changes.md)。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

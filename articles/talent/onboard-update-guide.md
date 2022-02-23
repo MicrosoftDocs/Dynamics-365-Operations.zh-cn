@@ -52,6 +52,3 @@ Onboard 会自动向新雇员发送一封电子邮件，指明更改内容。 �
     ![[将入职模板中的更改推送到从其创建的所有指南](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 打开入职指南的新雇员将可以看到这些更改。 但是，Onboard 不会向新雇员发送电子邮件提醒来告知他们入职指南已经更改。 为便于识别，每项更改旁边都会显示一个红色的 **新** 标签。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

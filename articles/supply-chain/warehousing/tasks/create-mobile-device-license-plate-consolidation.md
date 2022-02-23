@@ -1,25 +1,28 @@
 ---
 title: 创建牌照合并的移动设备菜单项
 description: 此过程显示如何为牌照合并工作创建移动设备菜单项。
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92c971bef440d9f5ba0949b7ba93c1614e998d39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7dc52284473f3e3275675b608386641c8570218b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574081"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422861"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>创建牌照合并的移动设备菜单项
 
@@ -34,6 +37,3 @@ ms.locfileid: "7574081"
 5. 在“模式”字段中，选择“间接”。
 6. 在“活动代码”字段中，选择“合并牌照”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

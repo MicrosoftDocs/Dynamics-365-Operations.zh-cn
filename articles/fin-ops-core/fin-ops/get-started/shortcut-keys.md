@@ -1,10 +1,12 @@
 ---
 title: 键盘快捷方式
-description: 本主题概述使用财务和运营应用时可使用的快捷键组合。
+description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 12/10/2021
+manager: AnnBe
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070975"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798217"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-以下键盘快捷方式可帮助您快速、高效地在财务和运营应用中输入数据。
+以下键盘快捷方式可帮助您快速、高效地在 Finance and Operations 应用中输入数据。
 
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
@@ -130,10 +129,8 @@ ms.locfileid: "8070975"
 
 ## <a name="grid-shortcuts"></a>网格快捷方式
 
-| 要执行的操作                                                                                                             | 按                            |
+| 要执行的操作                                                                                                             | 按                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| 垂直滚动                                                                                                     | 鼠标滚轮                     |
-| 水平滚动                                                                                                   | Shift + 鼠标滚轮             |
 | 移到下一个/上一个列                                                                                       | Tab / Shift+Tab                 |
 | 移到下一个/上一个行                                                                                          | 向下箭头/向上箭头           |
 | 移到下一行/上一行但不选中<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote> | Ctrl+向上箭头/Ctrl+向下箭头 |
@@ -145,24 +142,22 @@ ms.locfileid: "8070975"
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
 | 移至最后一条记录                                                                                                | Ctrl+End                        |
 | 选中或清除所有行                                                                                               | Ctrl+Shift+M                    |
-| 移至第一个标记行                                                                                           | Alt+Shift+M，F                  |
-| 移至下一个标记行                                                                                            | Alt+Shift+M，L                  |
-| 移至上一个标记行                                                                                        | Alt+Shift+M，P                  |
-| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                  |
+| 移至第一个标记行                                                                                           | Alt+Shift+M，F                    |
+| 移至下一个标记行                                                                                            | Alt+Shift+M，L                    |
+| 移至上一个标记行                                                                                        | Alt+Shift+M，P                    |
+| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                    |
 | 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
-| 将当前列移到下一个/上一个位置（焦点位于标题行）                                   | Ctrl+Shift+右箭头/Ctrl+Shift+左箭头 |
 | 打开当前列的网格筛选（焦点放在标题行中）                                              | Enter                           |
-| 调整当前列的大小以适应内容（焦点位于标题行）                                           | A（或双击列大小调整句柄） |
 
 ## <a name="input-control-shortcuts"></a>输入控制快捷方式
 
-| 要执行的操作                                                                   | 按                          |
+| 要执行的操作                                                                   | 按                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | 打开超链接                                                           | Ctrl+Enter                    |
-| 在日期字段中输入会话日期                                       | 日                             |
-| 在日期字段中输入当前日期                                       | 二                             |
+| 在日期字段中输入会话日期                                       | 日                         |
+| 在日期字段中输入当前日期                                       | 二                         |
 | 打开查找、组合框、日期选择器、拖放对话框                         | Alt+向下箭头                |
 | 关闭查找、组合框、日期选择器、拖放对话框                        | Esc                           |
 | 将焦点移到查找内（在查找已打开时）                   | Alt+向下箭头                |
@@ -209,8 +204,8 @@ ms.locfileid: "8070975"
 | 使用移动工具（在个性化模式中）                                                                       | M                                   |
 | 选择当前控件作为要移动的控件（使用移动工具且没有选择要移动的控件时）  | Space 或 Enter                      |
 | 清除要移动的控件（使用移动工具时）                                                                   | Esc                                 |
-| 将选中的控件移动到下一个位置（使用移动工具时）                                              | 选项卡或右箭头或向下箭头    |
-| 将选中的控件移动到上一个位置（使用移动工具时）                                          | Shift+Tab 或左箭头或向上箭头 |
+| 移到下一个位置获取选定控件（使用移动工具时）                                          | 选项卡或右箭头或向下箭头    |
+| 移到上一个位置获取选定控件（使用移动工具时）                                      | Shift+Tab 或左箭头或向上箭头 |
 | 使用隐藏工具（在个性化模式中）                                                                       | H                                   |
 | 切换当前控件是否可见或隐藏（使用隐藏工具时）                                     | Space 或 Enter                      |
 | 使用跳过工具（在个性化模式中）                                                                       | K                                   |
@@ -260,6 +255,3 @@ ms.locfileid: "8070975"
 
 [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

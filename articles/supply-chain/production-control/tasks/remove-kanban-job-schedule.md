@@ -1,24 +1,26 @@
 ---
 title: 从计划中删除看板作业
 description: 此程序用于通过恢复一个作业的“无计划”状态，从预定计划中移除该计划处理的看板作业。
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, SysLookupMultiSelectGrid, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 838270189e08065f791c9e58888351025e0a6df8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573625"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961607"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>从计划中删除看板作业
 
@@ -43,6 +45,3 @@ ms.locfileid: "7573625"
 4. 单击“确定”。
     * 这可以将当前作业状态从“计划”转变为“无计划”，并将其从进程栏上移除。   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

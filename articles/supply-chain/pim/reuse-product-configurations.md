@@ -1,27 +1,30 @@
 ---
 title: 重复使用产品配置
 description: 可以指定要自动重用产品的现有配置。 然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。 如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 201813
 ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0898bd1832fa7007fc3aa265beee2e930f157a39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd6d730528522f4074b6e2a3ce6059cc12ff5a0f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577400"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422767"
 ---
 # <a name="reuse-product-configurations"></a>重复使用产品配置
 
@@ -29,7 +32,8 @@ ms.locfileid: "7577400"
 
 可以指定要自动重用产品的现有配置。 然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。 如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。
 
-## <a name="requirements-for-reusing-configurations"></a>要再用配置的要求
+<a name="requirements-for-reusing-configurations"></a>要再用配置的要求
+---------------------------------------
 
 若要启用将重复使用的配置，必须在 **产品配置模型详细信息** 页上指定组件和属性的以下信息：
 
@@ -41,6 +45,3 @@ ms.locfileid: "7577400"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

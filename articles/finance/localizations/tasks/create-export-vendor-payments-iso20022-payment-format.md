@@ -2,9 +2,11 @@
 title: 使用 ISO20022 付款格式创建和导出供应商付款
 description: 此过程显示如何在供应商付款日记帐中创建付款行，并使用 ISO2022 贷方转帐示例生成供应商付款文件。
 author: mrolecki
+manager: AnnBe
 ms.date: 01/17/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752090"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964533"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>使用 ISO20022 付款格式创建和导出供应商付款
 
@@ -47,6 +49,3 @@ ms.locfileid: "6752090"
     3.    在 **文件名** 字段中，键入一个值。 对于本例，由于 EUR 付款，生成的文件将为 SEPA 合规文件。 ISO20022 贷方转帐以及其他供应商付款格式也可以用于生成其他币种的付款。
     4.    在 **银行帐户** 字段中，输入或选择一个值。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

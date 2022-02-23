@@ -2,30 +2,35 @@
 title: 媒体库模块
 description: 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 08/02/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733189"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410582"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 媒体库模块在库视图中显示一个或多个图像。 媒体库模块支持缩略图，其可以水平排列（作为图像下的一行），或垂直排列（作为图像旁边的一列）。 媒体库模块还提供了使图像能够缩放（放大）或以全屏模式查看的功能。 要在媒体库模块中呈现，图像必须在 Commerce 站点构建器“媒体库”中可用。 当前，媒体库模块仅支持图像。
 
@@ -41,7 +46,7 @@ ms.locfileid: "6733189"
 
 在下图的示例中，PDP 上的购买框使用媒体库模块托管产品图像。
 
-![使用媒体库模块托管产品图像的产品详细信息页面上的购买框示例。](./media/ecommerce-pdp-buybox.PNG)
+![使用媒体库模块托管产品图像的产品详细信息页面上的购买框示例](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>媒体库属性
 
@@ -49,25 +54,19 @@ ms.locfileid: "6733189"
 |---------------|--------|-------------|
 | 图像源 | **页面上下文** 或 **产品 ID** | 默认值为 **页面上下文**。 如果选择 **页面上下文**，模块将预期页面会提供产品 ID 信息。 如果选择了 **产品 ID**，必须提供图像的产品 ID 作为 **产品 ID** 属性的值。 Commerce 版本 10.0.12 中提供了此功能。 |
 | 产品 ID | 产品 ID | 仅当 **图片源** 属性的值为 **产品 ID** 时，此属性才适用。 |
-| 图像缩放 | **内联** 或 **容器** | 此属性使用户可以在媒体库模块中缩放图像。 可以内联缩放图像，也可以在图像旁边的单独容器中缩放图像。 此功能在 10.0.12 中提供。 |
-| 缩放系数 | 小数 | 此属性指定缩放图像的比例系数。 例如，如果值设置为 **2.5**，图像将放大 2.5 倍。 |
-| 全屏 | **True** 或 **False** | 此属性指定是否可以在全屏模式下查看图像。 在全屏模式下，如果打开了缩放功能，也可以进一步放大图像。 Commerce 版本 10.0.13 中提供此功能。 |
-| 缩放图像的质量 | 从 1 到 100 的一个数字，表示百分比，使用跟踪栏控件选择 | 此属性定义放大图像的图像质量。 可以将其设置为 100％，以确保缩放的图像始终使用尽可能高的分辨率。 此属性不适用于 PNG 文件，因为它们使用无损格式。 Commerce 版本 10.0.19 开始提供此功能。 |
+| 图像缩放 | **内联** 或 **容器** | 此属性使用户可以在媒体库模块中缩放图像。 可以内联缩放图像，也可以在图像旁边的单独容器中缩放图像。 此功能在 10.0.12 中提供 |
+| 缩放比例 | 小数 | 此属性指定缩放图像的比例系数。 例如，如果值设置为 **2.5**，图像将放大 2.5 倍。|
+| 全屏 | **True** 或 **False** | 此属性指定是否可以在全屏模式下查看图像。 在全屏模式下，如果打开了缩放功能，也可以进一步放大图像。 Commerce 版本 10.0.13 中提供了此功能。 |
 | 图像 | 从站点构建器媒体库中选择的图像 | 除了从产品呈现外，还可以为媒体库模块挑选图像。 这些图像将被附加到任何可用的产品图像上。 Commerce 版本 10.0.12 中提供了此功能。 |
 | 缩略图方向 | **垂直** 或 **水平** | 此属性指定缩略图图像应显示为垂直条还是水平条。 |
-| 隐藏变型的基础产品图像 | **True** 或 **False** | 如果将此属性设置为 **True**，当选择变型时，基础产品的图像将隐藏，除非该变型没有图像。 此属性不会影响没有变型的产品。 |
-| 选择维度时更新媒体 | **True** 或 **False** | 如果此属性设置为 **True**，则在选择任何维度（如颜色、样式或大小）时，以及在图像可用的情况下，媒体库中的图像将会更新。 此属性有助于简化浏览体验，因为不必选择每个产品变型维度，便可更新相应的图像。 此属性在 **高级** 选项卡上可用。 |
-
-> [!IMPORTANT]
-> 自 Commerce 版本 10.0.21 版起，**选择维度时更新媒体** 属性可用。 它要求安装 Commerce 模块库包版本 9.31。
 
 下图显示了一个媒体库模块的示例，其中全屏和缩放选项可用。
 
-![全屏和缩放选项可用的媒体库模块的示例。](./media/ecommerce-media-zoom.png)
+![全屏和缩放选项可用的媒体库模块的示例](./media/ecommerce-media-zoom.png)
 
 下图显示了具有精选图像的媒体库模块的示例（即，指定图像不依赖于产品 ID 或页面上下文）。
 
-![具有精选图像的媒体库模块的示例。](./media/ecommerce-media-curated.PNG)
+![具有精选图像的媒体库模块的示例](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 
@@ -105,6 +104,3 @@ ms.locfileid: "6733189"
 [容器模块](add-container-module.md)
 
 [上传图像](dam-upload-images.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

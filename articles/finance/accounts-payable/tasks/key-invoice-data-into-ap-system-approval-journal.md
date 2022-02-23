@@ -2,23 +2,26 @@
 title: 使用审核日记帐将发票数据键入应付帐款
 description: 此主题介绍如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。
 author: abruer
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72b2d7a5a554f46813fb31991ffb3df30742d01bf168b4180a1096970f60998f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 788397b5c9a3f42e373f7cdad256c1ee3d058e57
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722927"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440590"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>使用审核日记帐将发票数据键入应付帐款
 
@@ -51,6 +54,3 @@ ms.locfileid: "6722927"
 10. 选择 **过帐**。
 11. 选择 **凭证** 查看已过帐条目。 发票待定审核帐户被冲销，并替换成实际费用帐户。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

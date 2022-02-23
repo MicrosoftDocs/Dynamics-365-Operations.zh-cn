@@ -1,24 +1,27 @@
 ---
 title: 监控主计划运行
 description: 本主题说明生产规划员如何查看主计划运行是否正在进行。
-author: ChristianRytt
+author: josaw1
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778123"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422774"
 ---
 # <a name="monitor-a-master-planning-run"></a>监控主计划运行
 
@@ -33,7 +36,7 @@ ms.locfileid: "7778123"
 要使用此功能，请按照下列步骤操作。
 
 1. 在 **功能管理** 工作区中的 **新** 选项卡上，在列表中选择 **主计划进度可视化**。 如果该功能未出现在 **新** 选项卡上，请查看 **未启用** 和 **所有** 选项卡。
-1. 选择 **立即启用**。 或者，选择 **时间表**，然后选择要启用该功能的时间。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+1. 选择 **立即启用**。 或者，选择 **时间表**，然后选择要启用该功能的时间。
 
 **查看主计划进度** 页面可以显示历史计划作业和活动计划作业。 
 
@@ -124,6 +127,3 @@ ms.locfileid: "7778123"
 1. 在网格中，选择将 **现场** 字段设置为 **物料编号** 的行。
 1. 在 **条件** 字段中，输入一个值。
 1. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

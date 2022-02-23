@@ -2,31 +2,35 @@
 title: 产品信息概览
 description: 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。
 author: t-benebo
+manager: tfehr
 ms.date: 06/01/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063308"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527378"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。 
 
@@ -55,7 +59,7 @@ ms.locfileid: "8063308"
 
 可以在 Supply Chain Management 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Supply Chain Management 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
 
-为了支持将产品数据分配到多个实例，Supply Chain Management 允许您使用 Microsoft Dataverse。 产品定义可以从 Supply Chain Management 的一个实例导出到 Microsoft Dataverse。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Dynamics 365 Sales。
+为了支持将产品数据分配到多个实例，Supply Chain Management 允许您使用 Common Data Service。 产品定义可以从 Supply Chain Management 的一个实例导出到 Common Data Service。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Dynamics 365 Sales。
 
 请注意，在动态和敏捷的组织中，产品信息数据每天都会更改。 因此，维护准确和真实的产品数据本身就是一个重要的业务流程。
 
@@ -92,6 +96,3 @@ ms.locfileid: "8063308"
 ### <a name="manually-creating-a-new-released-product"></a>手动创建新发布的产品
 
 您可以根据组织的业务流程和关于是否应使用此功能的任何规则在单次运行中手动创建已发布的产品。 此功能创建新产品并自动将其发布到当前法人。 要创建新产品，单击 **已发布的产品维护** 工作区中或 **已发布的产品** 列表页上的 **已发布的产品**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: 管理订单保留
 description: 此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 938b21b66b7b61452be104936877278a3bc120f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566284"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423092"
 ---
 # <a name="manage-order-holds"></a>管理订单保留
 
@@ -67,6 +70,3 @@ ms.locfileid: "7566284"
     - 仅当您使用呼叫中心功能时，**清除并提交** 操作才适用。  
 8. 单击 **清除保留**。 保留现在已从订单中清除，并且已从“活动保留”列表中删除。 若要根据特定状态查看所有保留及其子集，请更改“显示”字段中的值。     
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

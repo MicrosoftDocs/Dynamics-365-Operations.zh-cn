@@ -2,24 +2,27 @@
 title: 生成和运行现成报表
 description: 可使用此任务指南运行不同工作区中总部的现成报表和“商业”中的“查询和销售“报表。
 author: ashishmsft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774453"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410517"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>生成和运行现成报表
 
@@ -61,6 +64,3 @@ ms.locfileid: "6774453"
 5. 单击“导出”。
 6. 单击 PDF。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

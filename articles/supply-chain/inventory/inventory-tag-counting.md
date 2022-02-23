@@ -1,26 +1,29 @@
 ---
 title: 库存标签盘点
 description: 此主题提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64315b8c5f0be1dbd19239a8b07746e90aebb0d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: efb555cdfbcf3fd0c10ec0e2abcdbe7f4a90d82d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567359"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422754"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 
@@ -33,6 +36,3 @@ ms.locfileid: "7567359"
 ## <a name="additional-resources"></a>其他资源
 
 [周期盘点](../warehousing/cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

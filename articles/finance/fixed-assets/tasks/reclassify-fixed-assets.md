@@ -1,10 +1,12 @@
 ---
 title: 将固定资产重新分类
-description: 本主题介绍重新分类资产的流程。 若要重新划分固定资产，您必须将固定资产转移到新的固定资产组，或者将新的固定资产编号分配给同一组内的固定资产。
-author: moaamer
+description: 若要重新划分固定资产，您必须将固定资产转移到新的固定资产组，或者将新的固定资产编号分配给同一组内的固定资产。
+author: saraschi2
+manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883638"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968846"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 
@@ -27,25 +29,11 @@ ms.locfileid: "7883638"
 
 为某件固定资产重新分类时：
 
-- 为新的固定资产创建现有固定资产的所有帐簿。 为原始固定资产设置的所有信息都复制到新的固定资产。 原始固定资产的帐簿的状态为“已结算”。 
+* 为新的固定资产创建现有固定资产的所有帐簿。 为原始固定资产设置的所有信息都复制到新的固定资产。 原始固定资产的帐簿的状态为“已结算”。 
 
-- 新固定资产的新帐簿将在 **购置日期** 字段中包含重新分类的日期。 **折旧开始日期** 字段中的日期从原始资产信息复制。 如果已开始折旧，则 **最近计提折旧日期** 字段将显示重新分类的日期。 
+* 新固定资产的新帐簿将在 **购置日期** 字段中包含重新分类的日期。 **折旧开始日期** 字段中的日期从原始资产信息复制。 如果已开始折旧，则 **最近计提折旧日期** 字段将显示重新分类的日期。 
 
-- 为新的固定资产，取消和生成原始固定资产的现有固定资产交易记录。
-
-- 重新分类具有转移交易的资产后，系统将在 **操作中心** 显示一条消息，指示在重新分类流程中转移交易未完成。 必须完成转移交易，才能将现有的重新分类交易转移到适当的财务维度。 
-
-   在重新分类流程中，系统将运行以下操作来将资产余额从原始资产重新分类为新资产。 
-   
-   - 重新分类流程将数据从原始固定资产帐簿复制到新固定资产帐簿。
-
-   - 重新分类交易使用原始的已过帐购置中的信息，其中包括购置交易中包含的财务维度信息。  
-   
-   - 同时，重新分类流程将冲销原始资产购置和资产转移交易。 
-
-下图和过程提供了重新分类流程的示例。 
-
-[![显示重新分类流程的图。](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
+* 为新的固定资产，取消和生成原始固定资产的现有固定资产交易记录。
 
 请执行以下步骤为固定资产重新分类：
 
@@ -56,7 +44,4 @@ ms.locfileid: "7883638"
     * 如果新固定资产组附加到编号规则，使用来自新固定资产组的编号规则的编号更新 **新增固定资产的编号** 字段。 否则，使用来自 **固定资产参数** 页面中设置的编号规则的编号更新 **新增固定资产的编号** 字段。 如果未在 **固定资产参数** 页面中设置编号规则，请在 **新增固定资产的编号** 字段中输入编号。  
 5. 在 **重新分类日期** 字段中，输入一个日期。
 6. 在 **凭证系列** 字段中，输入或选择一个值。
-7. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+7. 单击 **确定**。

@@ -2,13 +2,16 @@
 title: 启用“购买相似外观产品”建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似外观产品”产品建议。
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721992"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410559"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>启用“购买相似外观产品”建议
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似外观产品”产品建议。
+
+## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人工智能和机器学习 (AI-ML) 的力量向客户提供视觉上相似的产品建议。 通过为 Commerce 中的所有零售渠道提供“购买相似外观产品”建议，零售商可以通过帮助客户轻松找到他们想要的商品来提高客户满意度。
 
@@ -68,7 +73,7 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 
 下图显示了 Commerce headquarters 中 **功能管理** 页面上的 **购买相似外观产品** 功能。
 
-![Commerce Headquarters 中“功能管理”页面上的“购买相似外观产品”功能。](./media/enableshopsimilarlooks.png)
+![Commerce headquarters 中“功能管理”页面上的“购买相似外观产品”功能](./media/enableshopsimilarlooks.png)
 
 完成上述任务后，POS 终端将自动增强，提供上下文 **购买相似外观产品** 面板。 选择 **查看更多**，POS 终端用户可以转到专用的“购买相似外观产品”页面，可以在那里进一步筛选。
 
@@ -88,7 +93,7 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 
 下图显示了站点构建器中示例 PDP 上的 **启用“购买相似外观产品”链接** 复选框和 **购买相似外观产品** 按钮。
 
-![站点构建器中 PDP 上的“启用‘购买相似外观产品’链接”复选框和“购买相似外观产品”按钮。](./media/SSLecomtooling.png)
+![站点构建器中 PDP 上的“启用‘购买相似外观产品’链接”复选框和“购买相似外观产品”按钮](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -111,6 +116,3 @@ Dynamics 365 Commerce 中的“购买相似外观产品”推荐功能利用人�
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

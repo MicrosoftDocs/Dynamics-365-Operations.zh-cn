@@ -1,10 +1,12 @@
 ---
 title: 创建维护预算
 description: 本主题说明如何在资产管理中创建维护预算。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776936"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020981"
 ---
 # <a name="create-maintenance-budgets"></a>创建维护预算
 
@@ -50,12 +52,9 @@ ms.locfileid: "6776936"
     > [!NOTE]
     > 您审核维护预算之后，除非先删除审核，否则不能在 **维护预算行** 页中重新计算或调整关联的行。 若要删除维护预算的审核，请在 **维护预算** 页选择预算，然后选择 **审核**。 然后在 **审核预算** 对话框中选择 **确定**。
 
-![维护预算。](media/01-maintenance-budgets.png)
+![维护预算](media/01-maintenance-budgets.png)
 
 还可以通过复制现有预算来创建新的维护预算。 在 **维护预算** 页选择要复制的预算，然后选择 **复制**。 这种方法在如下情况下非常有用：已经为一个月创建了预算，希望将其复制到其他月份。
 
 > [!NOTE]
 > 维护预算基于维护安排行仅计算预算成本。 若要计算同一期间的实际成本，可以在 **实际成本控制** 页中执行该项计算。 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

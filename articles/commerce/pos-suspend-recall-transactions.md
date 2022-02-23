@@ -2,12 +2,15 @@
 title: 暂停和恢复销售点 (POS) 的交易
 description: 本主题说明用户如何使用 Dynamics 365 Commerce 暂停正在进行的交易，然后在以后或在其他收银机上恢复交易。
 author: jblucher
+manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2efc88cfa7a8cede50969484d275c6fdbb2204dd2f29b3f8c7340d02cb61a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f513e2d857908f2b95d27bf48ff1e826724d7cbf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737546"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410570"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>暂停和恢复销售点 (POS) 的交易
 
@@ -79,6 +82,3 @@ POS 可以配置为在暂停交易时生成打印单。 该单以后可以用于
 ### <a name="void-a-suspended-transaction"></a>取消暂停交易
 
 您可以通过撤销交易然后执行 **取消交易** 操作来取消暂停交易，或者通过选择 **撤销交易** 列表中的交易并选择应用栏上的 **取消** 来取消。 或者，可以将商店配置为提示用户在结束班次时取消暂停交易。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,61 +1,77 @@
 ---
-title: Finance Insights 主页
+title: Finance insights 主页（预览）
 description: Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+manager: AnnBe
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
-ms.custom:
-- "14151"
-- intro-internal
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087285"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644913"
 ---
-# <a name="finance-insights-home-page"></a>Finance Insights 主页
+# <a name="finance-insights-home-page-preview"></a>Finance insights 主页（预览）
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Finance insights 提供可配置和可扩展的解决方案，以帮助您智能地预测公司的现金流，预测何时可能会收到未清应收款的付款，并生成可以帮助加快预算编制过程的预算提案。 这些功能使用智能机器学习模板，以使用您提供的数据（包括来自第三方的数据，例如来自某个局的消费者报告信息）来构建模型。 这些智能功能为制定决策提供信息，并帮助您采取行动以有效应对当前和预期的业务挑战。 您对 Finance Insights 所使用或输出的任何数据负责。
+Finance insights 提供可配置和可扩展的模型，以帮助您准确，智能地预测公司的现金流，预测何时收到未清应收款的付款，并生成可以加快预算编制过程的预算提案。 所有这些功能都基于智能机器学习模型。 将这些新功能与供应商付款和收款中的自动化相结合时，它们将提供丰富而智能的财务系统，以推动决策制定，并帮助您采取行动以有效应对当前和预期的业务挑战。
 
-> [!NOTE]
-> Finance Insights 可用于美利坚合众国、加拿大、英国、欧洲、亚太、日本、澳大利亚和新西兰的部署。 Microsoft 将逐渐增加对更多地区的支持。
+Finance insights 预览版可用于美国、欧洲和英国的试用部署。 Microsoft 将逐渐增加对更多地区的支持。
+
+可以并且应该仅在第 2 层沙盒环境中启用预览版功能。 在沙盒环境中创建的设置和人工智能 (AI) 模型不能迁移到生产环境。 有关详细信息，请参阅 [Microsoft Dynamics 365 Previews 补充使用条款](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.)。
 
 ## <a name="prerequisites"></a>先决条件
 
 本节列出了使用 Finance insights 的要求。 将尽可能提供指向其他信息源的链接。
 
+### <a name="legal-requirements"></a>法律要求
+
+要申请预览项目，请填写 [Finance insights Preview for Dynamics 365 Finance 协议](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u)。
+
 ### <a name="system-requirements"></a>系统要求
 
-需要第 2 层环境（多盒）才能预览 Finance Insights。 有关环境的背景信息，请参阅[环境计划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
+需要第 2 层沙盒环境（多盒）才能预览 Finance insights。 有关环境的背景信息，请参阅[环境计划](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning)。
 
 ### <a name="version-requirements"></a>版本要求
 
-此主题适用于 Microsoft Dynamics 365 Finance 版本 10.0.21 及更高版本。
-
-### <a name="license-requirements"></a>许可要求证
-
-Finance Insights 使用 AI Builder 积分创建财务预测。 完成此任务需要的所有许可证均包含在租户许可证中。 每个 Dynamics 365 Finance 租户每月获得 20,000 AI Builder 积分。 如果业务需要额外的积分，可以直接从 AI Builder 购买。
+本文适用于 Finance and Operations 应用版本 10.0.11（平台更新 35）及更高版本。
 
 ### <a name="historical-data-requirements"></a>历史数据要求
 
-需要至少一年的客户发票价值才能正确训练用于客户付款预测功能的机器学习模型。 现金流预测建议使用三年历史数据。 对于智能预算提案，建议使用三年的历史预算和/或实际数据。
+需要至少一年的客户发票价值才能正确训练用于客户付款预测功能的机器学习模型。
 
-## <a name="configure-finance-insights"></a>配置 Finance Insights
+示例数据可用于具有 Contoso 演示数据集的演示系统。
 
-您必须先完成配置步骤，然后才能使用 Finance insights。 有关如何配置 Finance insights 的详细信息，请参阅 [Finance insights 的配置](configure-for-fin-insites.md)。
+### <a name="role-and-permission-requirements"></a>角色和权限要求
+
+将对 Microsoft Dynamics 365 Finance、Microsoft Dynamics Lifecycle Services (LCS)、Power Apps 和 Azure 进行更改。 这些环境中需要正确的权限。 下面是将进行的更改的一些示例：
+
+- 将在 Microsoft Power Platform 中创建一个新环境。
+- 将在 Azure 中创建存储帐户、密钥保管库和应用程序。
+- Active Directory 租户管理员将必须授权 AI Builder 应用程序访问数据湖。
+- 该功能将在 Dynamics 365 中打开。
+
+熟悉在 Azure、Common Data Service 和 LCS 中创建和管理资源的过程有助于完成此过程。
+
+## <a name="configure-finance-insights"></a>配置 Finance insights
+
+您必须先完成一些配置步骤，然后才能使用 Finance insights。 有关如何配置 Finance insights 的详细信息，请参阅 [Finance insights 的配置](configure-for-fin-insites.md)。
 
 ## <a name="create-a-data-integrator-project"></a>创建数据集成器项目
 
@@ -66,12 +82,15 @@ Finance Insights 使用 AI Builder 积分创建财务预测。 完成此任务�
 完成配置步骤并设置演示数据后，必须打开并设置计划使用的每种功能：客户付款预测、现金流预测和预算提案。
 
 ### <a name="enable-customer-payment-predictions"></a>启用客户付款预测
-如果您使用演示数据测试客户付款预测，则可能必须导入更多演示数据才能成功创建 AI 模型。 
+如果您使用演示数据测试客户付款预测，则可能必须导入更多演示数据才能成功创建 AI 模型。 有关导入演示数据的具体步骤，请参阅[为付款预测设置演示数据](set-up-demo-data.md)。
 
 要启用客户付款预测，您必须完成一组步骤来构建一个机器学习模型，该模型使用组织的数据生成有关客户何时可能会支付未清发票和何时可能要支付特定发票的预测。 有关详细信息和要完成的具体步骤，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。 
 
 ### <a name="enable-cash-flow-forecasting"></a>启用现金流预测
-若要启用现金流预测，您必须完成一组步骤来生成机器学习模型，该模型使用组织的数据生成现金流预测。 有关详细信息和要完成的具体步骤，请参阅[启用现金流预测](enable-cash-flow-forecasting.md)。
+要启用现金流预测，您必须完成一组步骤来构建机器学习模型，该模型使用组织的数据生成现金流预测。 有关详细信息和要完成的具体步骤，请参阅[启用现金流预测](enable-cash-flow-forecasting.md) 
+
+### <a name="set-up-and-use-cash-flow-forecasting"></a>设置和使用现金流预测
+有关如何设置和使用现金流预测的详细信息，请参阅[启用现金流预测](enable-cash-flow-forecasting.md)。 有关如何使用此功能的详细信息，请参阅[现金流预测](cash-flow-forecast-intro.md)。
 
 ### <a name="enable-budget-proposals"></a>启用预算提案
 
@@ -81,26 +100,33 @@ Finance Insights 使用 AI Builder 积分创建财务预测。 完成此任务�
 
 ### <a name="using-customer-payment-predictions"></a>使用客户付款预测
 
-- 要了解客户付款预测如何提供主动开始收款活动所需的信息，请参阅[使用客户付款预测](use-customer-payment-predictions.md)。
+智能现金流预测功能基于 Dynamics 365 Finance 中的现有现金流预测功能。 要查看现有功能，请参阅[现金流预测](../cash-bank-management/cash-flow-forecasting.md)。
+
+- 要了解客户付款预测如何提供主动收款活动所需信息，请参阅[使用客户付款预测](use-customer-payment-predictions.md)。
 - 有关可帮助您在开始使用该功能后评估预测模型的有效性的信息，请参阅[评估初始客户付款预测模型](evaluate-payment-prediction.md)。
 - 有关可帮助您调整用于构建预测并由此提高其有效性的数据的信息，请参阅[改进预测模型](improve-model.md)。
-- 要了解有关 AI 预测模型结果的详细信息，请参阅[机器学习模型的结果](confusion-matrix.md)。
+
+要了解有关 AI 预测模型结果的详细信息，请参阅[机器学习模型的结果](confusion-matrix.md)。
 
 ### <a name="using-cash-flow-forecasts"></a>使用现金流预测
 
-现金流预测功能可以帮助您更准确地估计现金头寸。 智能现金流预测功能基于 Dynamics 365 Finance 中的现有现金流预测功能。 要查看现有功能，请参阅[现金流预测](../cash-bank-management/cash-flow-forecasting.md)。
+现金流预测功能可以帮助您更准确地估计现金头寸。 
 
 - 要了解现金流预测中的新功能，请参阅[现金流预测](cash-flow-forecast-intro.md)。
 - 有关在此处导入要包括在现金流预测中的外部数据的信息，请参阅[在现金流预测中使用外部数据](external-data-in-cash-flow.md)。 
-- 有关如何使用 AI 模型预测近期现金流的信息，请参阅[现金头寸](cash-position.md)。
+- 有关如何使用 AI 模型预测长期现金流的信息，请参阅[现金流预测概述](cash-position.md)。
 - 有关将现金流头寸和现金流预测另存为快照以及将快照与实际值进行比较的信息，请参阅[快照概述](payment-snapshots.md)。
 
 ### <a name="using-budget-proposal"></a>使用预算提案
 
 有关加快预算创建速度的信息，请参阅[预算提案](budget-proposals.md)。 
 
+预算提案的演示数据：
+
 ## <a name="feedback-and-support"></a>反馈和支持
 
-如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights](mailto:fiap@microsoft.com) 发送电子邮件。
+如果对提供反馈感兴趣或需要支持，请向 [客户付款见解（预览）](mailto:fiap@microsoft.com)发送电子邮件。
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="privacy-notice"></a>隐私声明
+
+预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。

@@ -1,25 +1,28 @@
 ---
 title: 设置自动装运对帐
 description: 此过程显示如何为自动货运对帐设置数据。
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1dbe3c683d869f86bc7231c68839f431cc61d6b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6f11edc15821faad84485d5b81e4a9ded0b7e974
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574825"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422784"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 
@@ -69,6 +72,3 @@ ms.locfileid: "7574825"
 11. 在“未足额支付原因代码”字段中，输入或选择一个值。
 12. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

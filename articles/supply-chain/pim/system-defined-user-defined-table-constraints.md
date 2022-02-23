@@ -1,27 +1,30 @@
 ---
 title: 系统定义和用户定义的表约束
 description: 本文说明产品配置模型中的组件的表约束的两个类型 - 用户定义和系统定义。 表约束表示允许的属性组合的矩阵，在其中每行定义一组可能的属性值。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4b484c99bc8f1cc830d4177460ec15a26714a56
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3fb1395859b5abd06539e07ada3d968b2e9c9147
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577376"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423014"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
@@ -57,12 +60,10 @@ ms.locfileid: "7577376"
 
 在表约束可以在产品配置模型上生效之前，表约束必须包括在一个模型的组件上的约束中。 过程是创建新约束，选择表约束类型，然后选择要使用的表约束定义。 最后，表中的所有字段都必须映射到产品配置模型中的属性。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [产品配置模型概述](product-configuration-models.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

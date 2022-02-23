@@ -1,25 +1,28 @@
 ---
 title: 设置采购订单的工作模板
 description: 此主题介绍如何设置物料入库时使用的简单工作模板。
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572281"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423209"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>设置采购订单的工作模板
 
@@ -58,6 +61,3 @@ ms.locfileid: "7572281"
 6. 在 **工作类 ID** 字段中，键入一个值。 已设置领料和放置指令。 每个领料/放置必须有相同的工作类。 使用与领料指令相同的工作类。  
 7. 选择 **保存**。 请注意，**有效** 复选框现在已勾选。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

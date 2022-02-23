@@ -2,26 +2,29 @@
 title: BOM 计算
 description: 成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。
 author: AndersGirke
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 2a3939d092bcba00aa9dc63c0fe7546beed2041d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a718a2e825630ccfaa54ff9dece1d3d19d59018c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575937"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423202"
 ---
 # <a name="bom-calculations"></a>BOM 计算
 
@@ -92,6 +95,3 @@ ms.locfileid: "7575937"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

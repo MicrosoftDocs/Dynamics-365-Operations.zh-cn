@@ -2,23 +2,26 @@
 title: 处理利息
 description: 此过程将向您展示如何创建、打印和过帐利息单。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, SysQueryForm, CustInterestNote, SrsReportViewerForm
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b97515e29d04866172216fc29af9a8d992568276c5e01acd67ad9d0028ea0c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093fbd23f9fcaf62db9988a98a94b8cebf582768
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764351"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440775"
 ---
 # <a name="process-interest"></a>处理利息
 
@@ -65,6 +68,3 @@ ms.locfileid: "6764351"
 5. 单击 **确定**。
 6. 在 **状态** 字段中，选择“已过帐”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 运行和监视试验
 description: 本主题介绍了如何在第三方服务中运行和监视试验。 它还介绍了如何在试验开始后更改变体。
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965198"
 ---
 # <a name="run-and-monitor-an-experiment"></a>运行和监视试验
 
@@ -28,7 +30,7 @@ ms.locfileid: "6777564"
 
 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 运行和监视。](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
+[![试验用户旅程 - 运行和监视](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
 
 发布变体后，完成在 Commerce 中运行试验所需的所有步骤。 下一步是确定在每个用户请求页面时向他们显示哪个变体。 第三方服务可以做出决定，但是首先您必须在服务中激活试验。 由于激活试验的步骤因服务而异，因此您需要按照服务或提供商提供的说明进行操作。 如果未激活试验，用户将仅看到页面的默认版本（不显示任何变体）。
 
@@ -50,6 +52,3 @@ ms.locfileid: "6777564"
 
 ## <a name="next-step"></a>后续步骤
 [促进变体和完成试验](experimentation-review-complete.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

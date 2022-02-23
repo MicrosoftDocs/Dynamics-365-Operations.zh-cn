@@ -2,9 +2,11 @@
 title: 为 RCS 和 ER 准备应用程序特定的元数据
 description: 本主题介绍如何为 Regulatory Configuration Service (RCS) 和电子申报 (ER) 准备应用程序特定的元数据。
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735590"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680186"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>为 RCS 和 ER 准备应用程序特定的元数据
 
@@ -278,6 +280,3 @@ ms.locfileid: "6735590"
 ## <a name="additional-resources"></a>其他资源
 
 也可以播放应用程序中的 **准备可在 RCS 中使用的应用程序元数据** 任务指南，以及 RCS 中的 **通过使用 ER 配置访问应用程序元数据** 和 **通过使用相连应用程序访问应用程序元数据** 任务指南。 可以从 [Dynamics 365 for Finance and Operations 8.1 电子申报任务指南](https://go.microsoft.com/fwlink/?linkid=2082739)页下载这些任务指南。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 存放客户付款
 description: 存入客户付款。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 776871aad417d26486ec109f8b0b7f51db32d065d801e51459584c82269f9ac7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d903f557fbaeb720dd4a34dc1c772be0dcb56eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771768"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440747"
 ---
 # <a name="deposit-customer-payments"></a>存放客户付款
 
@@ -45,6 +48,3 @@ ms.locfileid: "6771768"
 17. 选择 **确定**。 第一页用于创建存款单。  
 18. 选择 **确定**。 第二步为打印存款单，此步骤非必填项。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

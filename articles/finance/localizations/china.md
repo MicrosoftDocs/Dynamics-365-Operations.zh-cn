@@ -2,22 +2,25 @@
 title: 中国概览
 description: 此主题概览中国的专有功能。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a9a3c79c134686ce65afa7e25bd4716752594f66
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c118d99371f199a6c8e6e5c42375424b674245c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983887"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409750"
 ---
 # <a name="china-overview"></a>中国概览
 
@@ -38,18 +41,14 @@ ms.locfileid: "7983887"
     -   [设置基本税务集成模板](tasks/set-up-basic-tax-integration-profile-china.md)
 -   [固定资产折旧方法](apac-chn-depreciation-methods-fixed-assets.md)
     -   [设置固定资产折旧费用分配](tasks/fixed-asset-depreciation-allocation.md)
--   [导入中国金税文件](apac-chn-import-golden-tax-data-entity.md)
+-   [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
     -   [金税集成导出设置](tasks/golden-tax-integration-export-setup.md)
 -   [每月平均成本模型](apac-chn-monthly-average-cost-model.md)
 -   [按站点过帐库存主科目](apac-chn-post-inventory-main-accounts-by-site.md)
 -   [显示会计科目的借方和贷方金额](apac-chn-negative-debits-credits.md)
 -   [符合中国工作规则的用户操作日志](tasks/user-operation-log-china-working-rule.md)
--   [GB/T 24589-2010 导出](apac-chn-gbt-24589-2010.md)
 
 ## <a name="additional-resources"></a>其他资源
 - [Microsoft Dynamics 本地化门户：中国报表](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/China.html)
-- [电子报告概览](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [从 Lifecycle Services 下载电子申报配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [电子申报概览](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

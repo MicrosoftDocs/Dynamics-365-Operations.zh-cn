@@ -1,27 +1,30 @@
 ---
 title: 产品变型编号和名称的命名法
 description: 此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。
-author: t-benebo
+author: roxanadiaconu
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569689"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422768"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 
@@ -188,12 +191,10 @@ T 恤衫 (TS1234) 生产为三个尺寸（S、M、L）、四种颜色（红色�
 
 在配置流程的一个步骤中，系统将根据命名法建议一个配置值。 在此步骤中，您可以手动更改配置值。 当您保存配置时，系统将确认配置值是否唯一。 如果您输入的值不是唯一的，您将收到错误消息。 若要保存配置，您必须输入唯一配置值。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [为预定义的产品变型创建产品编号命名法](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [为配置的产品变型创建产品编号命名法](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

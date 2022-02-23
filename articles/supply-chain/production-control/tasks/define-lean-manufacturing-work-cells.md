@@ -1,25 +1,28 @@
 ---
 title: 定义 lean manufacturing 工作单元
 description: 工作单元是可用于精益制造流程活动的特定形式的资源组。
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f1144bd9f99fef44210c2a01f71a39488354ccf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4f460fb42be5cbeda55a82e536e2a83cd2f6b608
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576776"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422701"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>定义 lean manufacturing 工作单元
 
@@ -97,6 +100,3 @@ ms.locfileid: "7576776"
 ## <a name="save"></a>保存
 1. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

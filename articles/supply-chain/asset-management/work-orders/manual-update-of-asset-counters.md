@@ -1,10 +1,12 @@
 ---
 title: 手动更新资产计数器
 description: 本主题介绍如何在资产管理中手动更新资产计数器。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776426"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020867"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 
@@ -54,13 +56,10 @@ ms.locfileid: "6776426"
 
 下图显示了 **资产计数器** 页面的示例。
 
-![图 1.](media/11-work-orders.png)
+![图 1](media/11-work-orders.png)
 
 在 **资产计数器** 页面上（**资产管理** > **查询** > **资产** > **资产计数器**），您可以根据需要同时对多个资产进行计数器登记。
 
 >[!NOTE]
 >您可以设置范围来定义手动计数器登记的偏差。 如果登记超出定义的范围，您还可以指定显示的消息类型。 有关如何设置计数器的详细信息，请参阅[计数器](../setup-for-objects/counters.md)。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

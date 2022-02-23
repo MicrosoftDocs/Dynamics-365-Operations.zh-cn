@@ -2,25 +2,28 @@
 title: 租赁过帐类型
 description: 本主题描述用于资产租赁交易的过帐类型。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718239"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440963"
 ---
 # <a name="lease-posting-types"></a>租赁过帐类型
 
@@ -89,6 +92,15 @@ ms.locfileid: "6718239"
 **贷记：** 折旧费用 XXX<br>
 **贷记：** 累计折旧 XXX
 
+## <a name="retained-earnings"></a>留存收益
+
+与留存收益关联的科目。 可以通过使用完整回溯方法或累积采纳选项 A 方法在转换调整日记帐条目中借记或贷记此科目。 初始使用权资产和租赁负债之间的差额计入留存收益。 在极少数情况下，如果将租赁的类别从财务更改为经营，以增减使用权资产，使其等于租赁负债，则在租赁修改期间，留存收益也可能会受到影响。
+
+**示例日记帐条目：** 转换调整（完整回溯或累积采纳选项 A 方法）<br>
+**贷记：** 租赁负债 XXX<br>
+**贷记：** 租赁资产 XXX<br>
+**贷记：** 留存收益 XXX
+
 ## <a name="variable-payment"></a>可变付款
 
 该科目与根据 ASC 842，ASC 840 和 IAS 17 租赁的指数重估产生的可变租赁付款关联。 在租赁付款计划中，可变付款包含在 **可变付款** 列中。 当针对包含可变付款的付款计划行创建发票时，将借记此科目。
@@ -142,6 +154,3 @@ ms.locfileid: "6718239"
 
 > [!NOTE]
 > 将在执行成本付款计划的行中租赁级别选择对方科目。 此对方科目可以与供应商或分类帐科目关联。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 产品所有者
 description: 此主题提供有关产品所有者的信息。 产品所有者是负责特定产品的一组用户。 只有该组成员可以发布这些产品。 产品所有者也可以在审核工作流中使用。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967325"
 ---
 # <a name="product-owners"></a>产品所有者
 
@@ -58,6 +60,3 @@ ms.locfileid: "7567503"
 ## <a name="product-owners-and-approvals"></a>产品所有者和审核
 
 因为产品所有者知道特定的工程更改是否会对他们的产品有所帮助，所以在工程更改管理中将它们作为审核流程的一部分包括在内通常是有意义的。 您可以通过在用于工程更改管理的工作流中将产品所有者设置为参与者提供方来实现此方法。 然后，系统将基于工程更改请求和工程更改订单中的产品在工作流中分配审核任务。 有关详细信息，请参阅[管理工程产品的更改](engineering-change-management.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

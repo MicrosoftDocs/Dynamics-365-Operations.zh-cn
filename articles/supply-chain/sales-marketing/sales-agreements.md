@@ -1,28 +1,29 @@
 ---
 title: 销售协议概览
 description: 此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "9554"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982501"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422924"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 
@@ -36,7 +37,7 @@ ms.locfileid: "7982501"
 
 您可以使用 **下达订单** 操作直接从销售协议创建一个销售订单。 或者，您可以在提取订单时选择有效销售协议（请参阅本文的“将销售协议应用于订购过程”部分）。  
 
-> [注释!] 在早期版本中，引用销售协议称为总销售订单。
+> [注释！] 在早期版本中，引用销售协议称为总销售订单。
 
 ## <a name="commitment-types"></a>承诺类型
 销售协议的每一行表示销售的承诺。 一般来说，具有两个承诺类别：
@@ -112,6 +113,3 @@ ms.locfileid: "7982501"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

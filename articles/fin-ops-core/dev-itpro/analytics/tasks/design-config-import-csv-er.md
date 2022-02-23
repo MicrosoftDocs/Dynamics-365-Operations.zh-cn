@@ -1,10 +1,12 @@
 ---
 title: 设计 ER 配置以从 CSV 格式的外部文件导入数据
-description: 使用此过程可以设计电子报告配置以从 CSV 格式的外部文件将数据导入 Finance and Operations 应用。
+description: 使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Finance and Operations 应用程序。
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747263"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682037"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>设计 ER 配置以从 CSV 格式的外部文件导入数据
 
@@ -122,6 +124,3 @@ ms.locfileid: "6747263"
     * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。 请注意，导入的 CSV 文件的所有 7 行都被处理。 包含字段的标题行 1 已跳过，4 个交易已正确分析，2 个交易被识别为无效。
 3. 关闭该页面。
 4. 关闭该页面。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

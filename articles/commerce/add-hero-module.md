@@ -2,12 +2,15 @@
 title: 内容块模块
 description: 此主题介绍内容块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,21 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726431"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410424"
 ---
 # <a name="content-block-module"></a>内容块模块
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍内容块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 内容块模块用于通过图像和文本的组合营销产品或促销。 例如，零售商可向电子商务站点的主页添加一个内容块模块来促销新产品和吸引客户的注意。
 
@@ -46,11 +52,11 @@ ms.locfileid: "6726431"
 
 下图显示了具有主图布局的内容块模块的示例。
 
-![主图模块的示例。](./media/Hero.PNG)
+![主图模块的示例](./media/Hero.PNG)
 
 下图显示了具有特色布局的内容块模块的示例。
 
-![功能模块的示例。](./media/Feature.PNG)
+![特色模块示例](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>内容块模块属性
 
@@ -101,6 +107,3 @@ ms.locfileid: "6726431"
 [文本块模块](add-content-rich-block.md)
 
 [视频播放器模块](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

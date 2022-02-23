@@ -2,9 +2,11 @@
 title: 用户界面元素
 description: 此主题介绍应用程序中的用户界面 (UI) 元素。
 author: tlefor
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,17 +14,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069315"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797922"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题介绍应用程序中使用的用户界面 (UI) 元素。 浏览界面之前，务必了解构成界面的元素的名称和功能。
 
@@ -78,7 +77,7 @@ ms.locfileid: "8069315"
 
 - **消息框** - 在界面上方显示，必须与其交互后才能继续使用本产品。  
 
-![下图显示消息框的示例。](media/user-interface-07.png)
+![下图显示消息框的示例](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>工具栏、网格和列表
 
@@ -87,6 +86,3 @@ ms.locfileid: "8069315"
 *列表* 是为可滚动浏览的记录集合提供的名称。 可以通过选择将这些记录提取到页面中。 此操作通常将打开一个网格。
 
 ![下图显示工具栏、网格和列表的示例。](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

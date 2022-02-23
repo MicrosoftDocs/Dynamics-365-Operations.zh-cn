@@ -2,9 +2,11 @@
 title: 具有实际成本和标记的后进先出日期
 description: 后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。 同一日期上的若干发货将按照最后发货、最后收货的顺序结算。
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567551"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967625"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>具有实际成本和标记的后进先出日期
 
@@ -55,9 +57,7 @@ ms.locfileid: "7567551"
 
 新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 
 
-下图说明了在不使用 **包括实际成本** 选项时，后进先出日期库存模型的影响。 
-
-![没有“包括实际成本”选项的后进先出日期。](./media/lifodatewithoutincludephysicalvalue.gif) 
+下图说明了在不使用 **包括实际成本** 选项时，后进先出日期库存模型的影响。 ![具有“包括实际成本”的后进先出日期](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -92,9 +92,7 @@ ms.locfileid: "7567551"
 
 新的移动平均成本价按 USD 20.00 反映财务更新的交易记录的平均值。 
 
-下图说明了在使用 **包括实际成本** 选项时，后进先出库存模型的影响。 
-
-![具有“包括实际成本”选项的后进先出日期。](./media/lifodatewithincludephysicalvalue.gif) 
+下图说明了在使用 **包括实际成本** 选项时，后进先出库存模型的影响。 ![具有“包括实际成本”的后进先出日期](./media/lifodatewithincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -140,7 +138,7 @@ ms.locfileid: "7567551"
 
 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 
 
-下图显示在使用了在发货和收货之间标记时，后进先出库存模型的影响。 ![具有标记的后进先出日期。](./media/lifodatewithmarking.gif) 
+下图显示在使用了在发货和收货之间标记时，后进先出库存模型的影响。 ![具有标记的后进先出日期](./media/lifodatewithmarking.gif) 
 
 **图形要点**
 
@@ -158,6 +156,3 @@ ms.locfileid: "7567551"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

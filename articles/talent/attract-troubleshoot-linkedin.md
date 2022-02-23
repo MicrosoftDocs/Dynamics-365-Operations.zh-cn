@@ -57,6 +57,3 @@ ms.locfileid: "4460413"
 [在 Attract 中创建、审核和发布工作](./creating-jobs-attract.md)
 
 [与 LinkedIn 和 Microsoft Dynamics 365 Talent - Attract 集成疑难解答](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

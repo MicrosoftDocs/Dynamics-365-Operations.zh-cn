@@ -2,23 +2,27 @@
 title: Dynamics 365 Commerce 评估环境概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 评估环境。
 author: v-chgri
+manager: annbe
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: josaw
+ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982631"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410380"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce 评估环境概览
 
@@ -28,6 +32,8 @@ ms.locfileid: "7982631"
 
 > [!NOTE]
 > Commerce 评估环境不是公开发布的服务，它根据请求授予合作伙伴和客户使用权。 有关详细信息，请联系您的 Microsoft 合作伙伴联系人。
+
+## <a name="overview"></a>概览
 
 Commerce 评估环境是 Dynamics 365 Commerce 的一个可选的端到端环境，让合作伙伴和潜在客户可以试用 Commerce 产品。
 
@@ -58,6 +64,3 @@ Commerce 评估环境是 Dynamics 365 Commerce 的一个可选的端到端环境
 [为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
 
 [Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

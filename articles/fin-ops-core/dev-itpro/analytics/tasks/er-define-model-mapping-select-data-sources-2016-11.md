@@ -1,10 +1,12 @@
 ---
 title: 定义 ER 模型映射并从中选择数据源
-description: 本主题介绍系统管理员或电子报告开发人员如何为电子报告数据模型选择数据源。
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表数据模型选择数据源。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69fb025b273aca6a0cf7733732f2849686eaa470ded6804a10b793cff9837562
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717537"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682109"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 
@@ -155,6 +157,3 @@ ms.locfileid: "6717537"
 71. 关闭该页面。
 72. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

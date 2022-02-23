@@ -1,23 +1,26 @@
 ---
 title: 查找过时产品变型
 description: 此过程显示如何查找过时的已发布产品或产品变型以及如何将产品生命周期状态关联到过时的产品。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13db6620575b4c97b3f8079ac94f5231a2fd9c1b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b5efd1d471559d320102cd81e4be1ba8c1858f45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577232"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422852"
 ---
 # <a name="find-obsolete-product-variants"></a>查找过时产品变型 
 
@@ -70,6 +73,3 @@ ms.locfileid: "7577232"
 
 8. 在列表中，找到并选择所需记录。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,6 +54,3 @@ Finance and Operations 平台更新 18 现在是 Talent 版本的一部分。
 ## <a name="bug-fixes"></a>缺陷修复
 
 此版本中还包含若干缺陷修复（包括对 ACA、ADA 和 I9 的引用），并且仅在美国公司中才会启用。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

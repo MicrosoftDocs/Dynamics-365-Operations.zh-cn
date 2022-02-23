@@ -113,5 +113,3 @@ ms.locfileid: "4460393"
 ## <a name="see-also"></a>请参阅
 
 [停用 Dynamics 365 Talent: Attract 和 Dynamics 365 Talent: Onboard 应用](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

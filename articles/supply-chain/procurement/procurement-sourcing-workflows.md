@@ -1,10 +1,12 @@
 ---
 title: 采购工作流
 description: 某些组织要求采购申请和采购订单由输入交易记录的人之外的用户进行审核。 若要设置审核流程，您可以创建一个工作流。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575528"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019745"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>采购工作流
 
@@ -47,7 +49,7 @@ ms.locfileid: "7575528"
 | 供应商添加申请工作流 | 为通过供应商请求添加新供应商创建审核和批准工作流。 |
 
 > [!IMPORTANT]
-> 当您添加新的工作流时，您可能还会在 **创建工作流** 对话框中看到列出的以下过时工作流。 这些与 [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) 中提供的 *收货确认* 功能有关，但现在已弃用。 目前不支持这些工作流。
+> 当您添加新的工作流时，您可能还会在 **创建工作流** 对话框中看到列出的以下过时工作流。 这些与 [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) 中提供的 *收货确认* 功能有关，但现在已弃用。 目前不支持这些工作流。
 > 
 > - 交货到期日期通知工作流
 > - 收到的账单通知工作流
@@ -77,6 +79,3 @@ ms.locfileid: "7575528"
 - [定义采购申请的业务流程工作流](https://www.microsoft.com/download/details.aspx?id=101821)
 - [采购申请工作流](purchase-requisitions-workflow.md)
 - [载入供应商](vendor-onboarding.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

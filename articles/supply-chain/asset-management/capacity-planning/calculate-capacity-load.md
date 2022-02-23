@@ -1,26 +1,29 @@
 ---
 title: 计算产能负荷
 description: 本主题介绍如何在资产管理中计算产能负荷。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCapacityLoad, EntAssetWorkOrderCapacityLoadCalculate, EntAssetWorkOrderCapacityLoad
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eed75cd5268b19d819d42e764bdbb5e6f4c79a0a732c5023b3fc40da798e2ca1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5015955338a4cbc2b51585d6297756f20dccee8b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423116"
 ---
 # <a name="calculate-capacity-load"></a>计算产能负荷
 
@@ -53,11 +56,8 @@ ms.locfileid: "6757870"
 
 7. 在 **分组依据...** 组中，单击相关按钮显示所需成本计算详细程度。 在下面的屏幕截图中，选中的 **分组依据** 按钮以蓝色突出显示。 单击按钮将其激活或停用。
 
-    ![图 1.](media/01-capacity-planning.png)
+    ![图 1](media/01-capacity-planning.png)
 
 >[!NOTE]
 >如果要仅侧重有关计划的工作订单的产能计划，请参阅[对计划的工作订单计算产能负荷](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: 创建维度并导入维度成员
 description: 成本核算是一个独立的模块，需要来自其他模块的主数据。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775114"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440781"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
@@ -36,7 +39,7 @@ ms.locfileid: "6775114"
 
 下图说明在成本核算中使用的维度。
 
-[![成本会计维度。](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![成本会计维度](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 在数据导入到成本核算后，您可以使用它生成各种视角，为组织中的所有级别的经理提供见解。 以下主题提供有关创建维度和导入维度成员的信息。 
 
@@ -52,6 +55,3 @@ ms.locfileid: "6775114"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

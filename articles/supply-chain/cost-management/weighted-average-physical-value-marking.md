@@ -2,26 +2,29 @@
 title: 具有实际成本和标记的加权平均
 description: 加权平均是基于加权平均原则的一种库存模型，其中，按照在库存结转期间入库物料的平均值加上前一期间的所有现有库存量，计算库存发货量。
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571993"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422838"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
 
@@ -65,7 +68,7 @@ ms.locfileid: "7571993"
 
 下图说明在选择了加权平均库存模型和直接结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![不具有“包括实际值”的加权平均直接结算。](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![不具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -99,7 +102,7 @@ ms.locfileid: "7571993"
 
 下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![不具有“包括实际值”的加权平均汇总结算。](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![不具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -128,7 +131,7 @@ ms.locfileid: "7571993"
 
 下图说明在选择了加权平均库存模型和直接结算原则（有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![具有“包括实际值”的加权平均直接结算。](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -161,7 +164,7 @@ ms.locfileid: "7571993"
 
 下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
 
-![具有“包括实际值”的加权平均汇总结算。](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -209,7 +212,7 @@ ms.locfileid: "7571993"
 
 下图说明在选择具有标记的加权平均库存模型的情况下此系列的交易记录。 
 
-![具有标记的加权平均。](./media/weightedaveragewithmarking.gif) 
+![具有标记的加权平均](./media/weightedaveragewithmarking.gif) 
 
 **图形要点**
 - 库存交易记录用垂直箭头表示。
@@ -227,6 +230,3 @@ ms.locfileid: "7571993"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,6 +73,3 @@ ms.locfileid: "4460404"
 
 若要查看活动的流程和关联的任务，请打开 **业务流程** 工作区。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

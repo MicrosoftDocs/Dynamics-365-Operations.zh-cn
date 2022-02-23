@@ -2,9 +2,11 @@
 title: 查看供应商发票自动化结果（预览）
 description: 本主题说明了如何查看自动提交到工作流程中的供应商发票的状态。
 author: abruer
+manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728953"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969718"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>查看供应商发票自动化结果
 
@@ -35,6 +37,3 @@ ms.locfileid: "6728953"
 - **已暂停** – 在 **应付帐款参数** 页面上定义的自动化流程已运行，但流程中至少有一个步骤失败。 如果 **包括在自动化流程中** 字段设置为 **否**，还应用 **已暂停** 状态。 您可以通过选择 **查看最新结果** 来查看失败。
 - **在工作流中** – 导入的发票已通过自动提交到工作流程或手动提交到工作流系统。
 - **工作流完成** – 已完成导入的发票的工作流程。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

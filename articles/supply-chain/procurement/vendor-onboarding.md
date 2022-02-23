@@ -1,24 +1,26 @@
 ---
 title: 载入供应商
 description: 此主题介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566879"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019871"
 ---
 # <a name="onboard-vendors"></a>载入供应商
 
@@ -33,7 +35,7 @@ ms.locfileid: "7566879"
 1. **数据管理 OData** – 实体导入 - 初始请求是潜在供应商注册请求。 此请求通常来自允许匿名访问的来源（如客户托管的网站）。 供应商可以提供基本信息（例如供应商名称、理由、组织编号，以及联系人的姓名和电子邮件地址）进行注册。 此请求通过数据管理界面导入。
 2. **潜在供应商注册请求列表页**- 基于在潜在供应商注册请求中提供的信息，由采购专业人员决定供应商是否应该载入。 采购专业人员 **潜在供应商注册请求** 列表页上查看传入的请求。
 3. **用户设置工作流** - 当采购专业人员验证传入请求中的信息并决定继续执行载入流程后，用户请求工作流对新用户进行设置，并发送邀请电子邮件，接受联系人作为 Microsoft Dynamics 365 的验证用户。
-4. **供应商注册向导** - 供应商的联系人使用新用户帐户注册。 他们完成供应商注册向导以提供信息，如地址、业务信息、采购类别和调查表响应。
+4. **供应商注册向导** - 供应商的联系人使用新用户帐户注册。 她或他完成供应商注册向导以提供信息，如地址、业务信息、采购类别和调查表响应。
 5. **审核工作流** - 创建包含注册信息的供应商请求。 该供应商请求提交到工作流，并进行转发以供审核和批准。
 6. **创建供应商主数据和用户角色修改** - 供应商请求通过审核后，创建供应商记录。 供应商的联系人的用户帐户被授予供应商协作的权限或被禁用。
 
@@ -72,7 +74,7 @@ ms.locfileid: "7566879"
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>提交潜在供应商用户请求
 
-潜在供应商用户请求的目的是设置提交初始请求的人员，以便他们可以使用在潜在供应商注册请求中提供的电子邮件帐户登录到 Supply Chain Management。
+潜在供应商用户请求的目的是设置提交初始请求的人员，以便该人员可以使用在潜在供应商注册请求中提供的电子邮件帐户登录到 Supply Chain Management。
 
 潜在供应商用户请求通过用户请求工作流进行处理。 此工作流通过 Azure AD B2B 协作进行通信。 它在 Supply Chain Management 中创建具有适当安全设置的用户。
 
@@ -87,7 +89,7 @@ ms.locfileid: "7566879"
 
 ## <a name="vendor-registration"></a>供应商注册
 
-登录到 Supply Chain Management 的潜在供应商用户将看到供应商注册向导的首页，他们可在此输入供应商信息。
+登录到 Supply Chain Management 的潜在供应商用户将看到供应商注册向导的首页，他/她可在此输入供应商信息。
 
 向导反映供应商请求的配置。 供应商开展经营所在的国家或地区决定在向导中请求的信息以及必填信息。
 
@@ -127,7 +129,7 @@ ms.locfileid: "7566879"
 |----------------------------|-------------|
 | 草案                      | 尚未提交供应商请求。 |
 | 请求已提交          | 已提交供应商请求，并且正在处理工作流的第一步。 |
-| 待审阅             | 如果一个工作流任务中存在多个审核人，审核人可以接受审核供应商请求的任务并完成审核。 如果只有一名审核人，可以通过选择工作流操作中的 **已完成** 完成审核。 他们不必首先接受工作项。 |
+| 待审阅             | 如果一个工作流任务中存在多个审核人，审核人可以接受审核供应商请求的任务并完成审核。 如果只有一名审核人，可以通过选择工作流操作中的 **已完成** 完成审核。 他/她不必首先接受工作项。 |
 | 请求待审核   | 已经将供应商请求转发给参与者进行审核，并且具有请求附加信息的选项。 请求附加信息导致工作项被发回至提交者。 处于此状态时，也可批准或拒绝供应商请求。 |
 | 申请更改请求 | 审核人已请求附加信息，并且已经将供应商请求转发至提交该供应商请求的人。 提交者可以添加必需信息，然后重新提交供应商请求。 如果重新提交供应商请求，则状态更改回 **请求待审核** 状态。 |
 | 请求已核准           | 此状态是最终状态。 |
@@ -172,6 +174,3 @@ ms.locfileid: "7566879"
 |         已批准         |                                                                               审核供应商请求。                                                                               |                                                                                                   删除潜在供应商注册请求、在供应商注册向导中输入的数据，以及供应商请求。                                                                                                    |
 |         已拒绝         |                                                                               拒绝供应商请求。                                                                               |                                                                                                   删除潜在供应商注册请求、在供应商注册向导中输入的数据，以及供应商请求。                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

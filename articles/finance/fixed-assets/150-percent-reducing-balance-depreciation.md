@@ -1,32 +1,35 @@
 ---
 title: 150% 余额递减法
-description: 本主题提供了 150% 余额递减法折旧方法的概览。
-author: moaamer
+description: 本文提供了 150% 余额递减法折旧方法的概览。
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883304"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440730"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>150% 余额递减法
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了 150% 余额递减法折旧方法的概览。
+本文提供了 150% 余额递减法折旧方法的概览。
 
 如果您设置固定资产折旧模板并在 **折旧模板** 页面上的 **方法** 字段中选择 **150% 余额递减法**，已分配此折旧模板的固定资产将在每个折旧期间按相同的百分比进行折旧。 此百分比按资产的使用年限进行计算。 例如，如果资产的使用年限为 5 年，则该百分比按 30% (150% ÷ 5) 计算。 
 
@@ -64,7 +67,7 @@ ms.locfileid: "7883304"
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>150% 余额递减法的示例
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |
 | Salvage value / 残值                  | 1,000  |
@@ -85,6 +88,3 @@ ms.locfileid: "7883304"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

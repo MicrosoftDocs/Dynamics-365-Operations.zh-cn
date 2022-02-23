@@ -1,26 +1,28 @@
 ---
 title: 财务报表中的报告结构树定义
-description: 本文介绍报告树定义。 报告树定义是定义组织结构的报表组件。
-author: jinniew
-ms.date: 04/01/2021
+description: 本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714627"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682665"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
@@ -52,7 +54,9 @@ ms.locfileid: "6714627"
 | 单位描述      | 如果您输入 **UnitDesc** 作为报表定义的 **页眉和页脚** 选项卡上的代码，则报告单位标题将显示在报表页面或页脚中。 如果在行定义的 **描述** 单元格中输入 **UnitDesc**，则标题将显示在报表行描述中。 |
 | 维度            | 直接从财务数据中提取信息的报告单位。 它定义帐户和相关细分市场的逻辑定位和长度。 每个报告单位行必须在此列具有维度。 您还可以将维度放置在汇总单位行（例如，与该单位直接有关的费用）。 如果您在汇总单位行中输入维度，则不应在子单位中使用父单位中使用的帐户。 否则，金额可能会出现重复。 |
 | 行定义       | 报告单位的行定义的名称。 将对报告树中的每个单位使用相同的行定义。 生成报表时，将对每个报告单位使用此行定义。 行定义可以包括多个财务维度链接。 如果在报告结构树中指定行定义，则选择报表定义的 **报表** 选项卡上的 **使用报告结构树中的行定义** 复选框。 |
-| 财务维度链接| 用于报告单位的财务维度链接。 为行定义定义财务维度链接以标识要链接到的财务维度。 |
+| 行链接              | 要用于报告单位的行链接。 为行定义定义行链接可标识要链接到的财务维度。 |
+| 外部链接         | 要用于此报告单位的行链接。 为行定义定义行链接以标识要链接到的报表。 |
+| 外部文件         | 从中提取数据的财务报告工作表的文件路径。 |
 | 页面选项          | 此列控制在查看或打印报表时是否取消报告单位的详细信息。 |
 | 累积百分比              | 应分配给父单位的报告单位的百分比。 在将行中的值添加到父报表之前，您在此列中输入的百分比适用于行定义的每个行。 例如，如果必须在两个部门之间均匀划分子单位，则会先将每个行中的金额乘以 50%，然后再将该值添加到部门报表。 一个报告单位不能具有两个父单位。 要将一个报告单位中的金额分配给两个父单位，可创建另一个具有相同维度的报告单位以累积额外的 50%。 键入完整百分比（不带小数点）。 例如，**25** 表示 25% 分配给父单位。 如果包含小数点 (**.25**)，0.25% 分配给父单位。 要使用小于 1% 的百分比，可使用报表定义中的 **允许累积 &lt;1%** 选项。 此选项位于 **报表设置** 对话框中的 **其他选项** 选项卡上。 从报表定义的 **设置** 选项卡上的 **其他** 按钮访问此对话框。 |
 | 单位安全性         | 有关哪些用户和组可访问报告单位的信息的限制。 |
@@ -71,7 +75,7 @@ ms.locfileid: "6714627"
     | 包括/字符位置       | 此部分列出了财务数据中定义的维度并显示为每个维度定义的最长值中的字符数。 选中维度的这个复选框以在报告结构树层次结构中包括该维度。 |
     | 细分层次结构和范围     | 此部分显示维度层次结构。 您可以移动列表中的维度来更改其报告顺序。 在 **起始维度** 和 **结束维度** 字段中，指定每个维度中的值的范围。 如果您不指定一个范围，所有维度值都将插入报告结构树。<blockquote>[!NOTE] 如果您使用了多个维度，结果中将只返回已发布的维度组合。</blockquote> |
 
-    有关显示 **从维度插入报告单位** 对话框示例的图示，请参阅本文后面的“‘从维度插入报告单位’对话框的示例”部分。
+    要获取显示 **从维度插入报告单位** 对话框示例的屏幕截图，请参阅本文下文中的“‘从维度插入报告单位’对话框的示例”部分。
 
 5. 要创建其他段（例如，将一个段拆分成两个较短的段），请在 **字符位置** 字段中单击正确的位置，然后单击 **拆分段**。
 6. 要将两个段合并为一个段，请单击要合并段的任一段框，然后单击 **合并段**。
@@ -101,7 +105,7 @@ ms.locfileid: "6714627"
     > 如果指定子单位和父单位的维度，可能导致报表中的数据重复。
 
 - 在报告结构树包含维度的报告单位对应于在行和列定义中使用的维度。 维度的组合确定为该单位返回的金额。 例如，在本文稍后的示例 2 中，行 6 和 7 仅分别返回部门 00 和 01 的值。
-- 在报告结构树中不包含维度的父报告单位的金额由子单位报表确定，并且将金额累积到指定的父单位。 例如，如果父单位（请参阅数据累积示例的示例 2 中的 Contoso 美国）具有两个子单位（022 和 023）且不包含维度，则为每个子单位和父单位生成一个报表。 父总计是两个子金额的和。
+- 在报告结构树中不包含维度的父报告单位的金额由子单位报表确定，并且将金额累积到指定的父单位。 例如，如果父单位（请参阅累积数据示例 2 中的“Contoso 美国”）具有两个子单位（022 和 023）且不包含维度，则为每个子单位和父单位生成一个报表。 父总计是两个子金额的和。
 
 ### <a name="manage-reporting-units"></a>管理报告单位
 
@@ -111,10 +115,10 @@ ms.locfileid: "6714627"
 
 在财务报告中使用以下类型的报告单位：
 
-- 详细信息单位直接从财务数据中提取信息。
+- 详细信息单位直接从财务数据、Excel 工作表或其他财务报告工作表中提取信息。
 - 汇总单位将汇总较低级别单位中的数据。
 
-父报告单位是用于聚合详细信息单位中的汇总信息的汇总单位。 汇总单位可以是详细信息单元和汇总单位。 因此，汇总单位可以从较低级别单位或财务数据中提取信息。 父单位可以是较高级的父单位的子单位。 子报告单位可以是直接从财务数据中提取信息的详细信息单位。 子报告单位还可以是中间汇总单位。 换句话说，它可以是较低级单位的上级单位，也可以是较高级汇总单位的子单位。 报告单位的最常见方案中，父单位在 **维度** 列中具有空的单元格，且子单位具有指向特定的或通配符维度组合的链接。
+父报告单位是用于聚合详细信息单位中的汇总信息的汇总单位。 汇总单位可以是详细信息单元和汇总单位。 因此，汇总单位可以从较低级别单位、财务数据或 Excel 工作表提取信息。 父单位可以是较高级的父单位的子单位。 子报告单位可以是直接从财务数据或 Excel 工作表中提取信息的详细信息单位。 子报告单位还可以是中间汇总单位。 换句话说，它可以是较低级单位的上级单位，也可以是较高级汇总单位的子单位。 报告单位的最常见方案中，父单位在 **维度** 列中具有空的单元格，且子单位具有指向特定的或通配符维度组合的链接。
 
 ### <a name="organize-reporting-units"></a> 组织报告单位
 
@@ -158,7 +162,20 @@ ms.locfileid: "6714627"
 1. 在报表设计器中，打开要修改的报告结构树定义。
 2. 双击要取消其访问权的报告单位行的 **单位安全性** 单元格。
 3. 在 **单位安全性** 对话框中，选择一个名称，然后单击 **删除**。
-4. 单击 **确定**。
+4. 单击 **OK**。
+
+### <a name="link-to-reports"></a>报表链接
+
+在行定义中创建 **报表** 列并指定报表包含在该报表中后，您必须使用链接的列和有关报表的信息更新报告结构树。 可将报表导入报告结构树中的任何单位。
+
+### <a name="identify-the-report-in-a-reporting-tree"></a>在报告结构树中标识报表
+
+1. 在报表设计器中，打开要修改的报告结构树定义。
+2. 在 **行定义** 列中，单元格中的信息基于所选行的信息，因为必须在报告结构树的所有单位中使用相同的行定义。 双击 **行定义** 单元格，然后选择包含有关报表的信息的行定义。
+3. 在报告单位的 **工作表链接** 单元格中，选择与报表对应的链接名称。
+4. 在报告单位的 **工作簿或报表路径** 单元格中，输入报表的名称或浏览以选择报表。
+5. 要指定报表中的某个工作表，请在 **工作表名称** 单元格中输入该工作表的名称。
+6. 对应接收来自报表的数据的每个报告单位重复步骤 3 到 5。 要阻止报表中出现错误的数据，请确保正确的报表名称显示在报告结构树的相应单位中。
 
 ## <a name="examples"></a>示例
 ### <a name="reporting-unit-structure--example-1"></a>报告单位结构 – 示例 1
@@ -166,27 +183,27 @@ ms.locfileid: "6714627"
 此处是以下报告结构树中的报告单位：
 
 - Contoso 日本报告单位是 Contoso 日本销售和 Contoso 日本咨询子单位的父单位。
-- Contoso 日本销售分部单位既是 Contoso 日本单位的子单位，又是 Home Sales 和 Auto Sales 单位的父单位。
+- Contoso 日本分部单位既是Contoso 日本单位的子单位，又是 Home Sales 和 Auto Sales 单位的父单位。
 - 最低级别的详细信息报告单位（Home Sales、Auto Sales、Client Services 和 Operations）代表财务数据中的部门。 这些报告单位在图中的阴影区域中。
 - 更高级别的汇总单位汇总了详细信息单位中的信息。
 
-[![Contoso 汇总报表结构 - 示例 1。](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>报告单位结构 – 示例 2
 
 在下图中，报告结构树具有按业务职能划分的组织结构树。
 
-[![Contoso 汇总报表结构 - 示例 2。](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>“从维度插入报告单位”对话框的示例
 
 下图显示了 **从维度插入报告单位** 对话框的示例。 在本示例中，结果将返回业务单位、成本中心和部门的组合。
 
-[![插入报告单位。](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 结果报告结构树定义按业务单位排序，然后按成本中心，再然后按部门。 第五个报告单位的维度是 **业务单位 = \[001\]、成本中心 =\[\]、部门 = \[022\]**，标识特定于业务单位 001 和部门 022 的帐户的报告单位。
 
-[![报告树的图示。](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>数据累积的示例
 
@@ -194,15 +211,12 @@ ms.locfileid: "6714627"
 
 #### <a name="example-1"></a>示例 1
 
-[![多公司累积。](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>示例 2
 
-[![跨公司部门累积。](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[财务报告](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[财务申报](financial-reporting-intro.md)

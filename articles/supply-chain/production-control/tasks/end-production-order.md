@@ -2,23 +2,26 @@
 title: 结束生产订单
 description: 该过程显示如何结束生产订单。
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb87a8df77ecced213b4bd61c40fa372b092ab765528e1cd96274cf79537d521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fade659c320e0ea1059644324859c9a3cb273c96
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422697"
 ---
 # <a name="end-a-production-order"></a>结束生产订单
 
@@ -43,6 +46,3 @@ ms.locfileid: "6765946"
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看成本比较”。
     * 在结束生产订单后，可以将已实现的成本价与估计成本对比获得生产差异概览。  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,34 +1,38 @@
 ---
 title: 原产国家/地区
 description: 许多组织向其供应商颁发证书，以确保产品符合特定的认证标准。 这些证书通常依赖于原产国家/地区。 本主题提供有关原产国家/地区功能的信息，让您可以将产品链接到其原产国家/地区并跟踪产品认证。
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777613"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422662"
 ---
 # <a name="country-of-origin"></a>原产国家/地区
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 许多组织向其供应商颁发证书，以确保产品符合特定的认证标准。 这些证书通常依赖于原产国家/地区。 原产国家/地区功能让您可以将产品链接到其原产国家/地区并跟踪产品认证。
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>打开原产国家/地区功能
 
-从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*产品信息管理*
 - **功能名称**：*远程国家/地区管理功能*
@@ -86,7 +90,4 @@ ms.locfileid: "7777613"
 
 显示有关每个部件原产国家/地区的信息的报告将生成并显示。 以下是一个报告示例。
 
-![原产国家/地区报表。](media/country-of-origin-report.png "原产国家/地区报告")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![原产国家/地区报告](media/country-of-origin-report.png "原产国家/地区报告")

@@ -1,10 +1,12 @@
 ---
 title: 服务级别和描述
 description: 本主题介绍资产管理中的服务级别和描述。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758680"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019371"
 ---
 # <a name="service-level-and-description"></a>服务级别和描述
 
@@ -45,7 +47,7 @@ ms.locfileid: "6758680"
 8. 除了结束日期，若要为工作订单再设置结束时间，请将 **设置结束时间** 选项设置为 **是**。 然后在 **结束时间** 字段中输入结束时间。 如果将此选项设置为 **否**，将使用当前时间。
 9. 选择 **保存**。
 
-![工作订单服务级别页面。](media/19-setup-for-work-orders.png)
+![工作订单服务级别页面](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>创建描述
 
@@ -53,6 +55,3 @@ ms.locfileid: "6758680"
 2. 选择 **新建**。
 3. 在 **描述** 字段中，输入描述。
 4. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

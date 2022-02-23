@@ -1,10 +1,12 @@
 ---
 title: 创建维护请求
 description: 本主题说明如何在资产管理中创建维护请求。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714972"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019170"
 ---
 # <a name="create-maintenance-requests"></a>创建维护请求
 
@@ -30,7 +32,7 @@ ms.locfileid: "6714972"
 
 如果维护工人或生产工人发现需要维修设备，但是不能立即开展维修作业，可以使用维护请求。
 
-**示例：** 一位维护工人正在进行维修，这时他发现必须维修同一位置的另一个资产。 但是，这位工人没有时间，或没有维修作业所需备件。 因此，他为该资产创建了维护请求，并输入了简短的问题说明。
+**示例：** 一位维护工人正在进行维修，这时她发现必须维修同一位置的另一个资产。 但是，这位工人没有时间，或没有维修作业所需备件。 因此，她为该资产创建了维护请求，并输入了简短的问题说明。
 
 Active maintenance requests section of the Related information pane on the right side of the **所有资产** 或 **有效资产** 页面（**资产管理** \> **常用** \> **资产** \> **所有资产** 或 **有效资产**）右侧 **相关信息** 窗格的 **有效维护请求** 部分中显示与所选资产关联的有效维护请求。
 
@@ -52,7 +54,7 @@ Active maintenance requests section of the Related information pane on the right
 11. 在 **注释** 字段中，输入所需的其他任何注释。
 12. 选择 **确定**。
 
-![创建维护请求。](media/03-manage-maintenance-requests.png)
+![创建维护请求](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>维护请求的后续处理
 
@@ -67,10 +69,7 @@ Active maintenance requests section of the Related information pane on the right
 - 选择维护作业类型，并且如果此信息相关，则选择关联的维护作业变体和作业交易。
 - 在 **纬度** 和 **经度** 字段中输入地理坐标。 将把向维护请求添加的所有坐标自动传输给关联的工作订单。 
 
-![更新维护请求。](media/04-manage-maintenance-requests.png)
+![更新维护请求](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > 如果在创建维护请求时选择资产，则可向该资产添加一个故障。 创建维护请求之后，可以根据需要添加更多故障。 若要添加故障，请选择 **所有维护请求** 页中的 **资产故障**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

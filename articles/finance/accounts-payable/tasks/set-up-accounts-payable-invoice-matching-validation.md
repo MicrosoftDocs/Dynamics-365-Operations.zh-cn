@@ -2,23 +2,26 @@
 title: 设置应付帐款发票匹配验证
 description: 本主题介绍如何设置应付帐款发票匹配验证。
 author: abruer
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440695"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付帐款发票匹配验证
 
@@ -95,6 +98,3 @@ ms.locfileid: "6722855"
 
 1. 若要为单个供应商指定用于覆盖默认容差的容差，请选择 **供应商帐户**。
 2. 输入您为此供应商接收的差异百分比。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

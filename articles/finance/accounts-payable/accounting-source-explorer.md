@@ -1,26 +1,29 @@
 ---
 title: 会计源资源管理器
 description: 本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。
-author: rcarlson
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 904f1f9fb139248205b426aec5a0372f2edb1e59
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749190"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440910"
 ---
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 
@@ -46,10 +49,5 @@ ms.locfileid: "6749190"
 
 对于这些凭证，您还可以导航到会计源资源管理器的实际原始凭证。
 
-> [!NOTE]
-> 从版本 10.0.20 开始，**更新** 按钮提供两个附加范围来限制为在页面上输入数据而运行的初始查询。 这些附加范围同时也在版本 10.0.19 中作为服务更新提供。 添加了以下字段：
->
-> - 源凭证、目标凭证
-> - 源主科目、目标主科目
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

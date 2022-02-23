@@ -1,24 +1,27 @@
 ---
 title: 财务合并和货币折算概览
 description: 此主题介绍总帐中的财务合并和货币折算。
-author: jiwo
-ms.date: 10/07/2021
-ms.topic: overview
+author: aprilolson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982397"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440871"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -66,13 +69,13 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 ## <a name="legal-entity-setup"></a>设置法人
 必须先设置法人，才能处理合并。 运行的合并数量不受限制，而所有数据将从源公司的记帐币种折算为为合并公司定义的币种。 因此，对于以下组织结构，如果必须首先将所有北美公司折算为美元 (USD)，然后折算为欧元 (EUR)（这是父公司的币种），则必须至少有两个合并公司。
 
-![组织结构。](./media/organizational-structure.png "组织结构")
+![组织结构](./media/organizational-structure.png "组织结构")
 
 在前面的组织结构中，北美合并必须有一个组织结构，因为合并始终从源公司的记帐币种合并到合并公司的币种。 在此示例中，如果所有公司都包含在一个合并中，则墨西哥子公司将从墨西哥比索 (MXN) 折算为 EUR，而不是从 MXN 折算为 USD，再折算为 EUR。
 
 创建法人时，可以指定公司同时用于合并过程和清除过程，还是仅用于这两个过程之一。 在下图中，公司同时用于这两个进程。 请注意，不能在合并公司中过帐日常日记帐，但是在清除公司中则可以。 因此，可能需要单独设置一个清除公司。
 
-![同时用于合并和清除的法人。](./media/sep-elimination-company.png "同时用于合并和清除的法人")
+![同时用于合并和清除的法人](./media/sep-elimination-company.png "同时用于合并和清除的法人")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>主科目和合并科目组
 必须选择如何合并会计科目表。 合并过程中，合并主科目的选项有三种。
@@ -81,11 +84,11 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 第二个选项是在 **主科目** 页中指定默认合并科目。 然后将该科目映射到合并科目。 如果有不同会计科目表或必须映射到总部定义的科目表，此选项可能很有用。
 
-![“主帐户”页面上指定的默认合并帐户。](./media/main-accounts.png "“主科目”页中指定了默认合并科目")
+![“主科目”页中指定了默认合并科目](./media/main-accounts.png "“主科目”页中指定了默认合并科目")
 
 第三个选项是使用合并科目组。 根据需要定义任意数量的合并科目组。 然后，在 **其他合并科目** 页中，仅将会计科目表的主科目映射到该组所需科目。
 
-![在“其他合并帐户”页面上映射。](./media/additional-consolidation-accounts.png "在“其他合并科目”页中映射")
+![在“其他合并科目”页中映射](./media/additional-consolidation-accounts.png "在“其他合并科目”页中映射")
 
 ## <a name="consolidating-online"></a>在线合并
 若要了解如何输入在线合并的详细信息，请参阅[在线财务合并](./consolidate-online.md)。
@@ -97,7 +100,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - 查看合并公司中的 **试算平衡表** 列表页。
 - 在 **合并** 页上的合并交易记录列表中，查看按日期为每个期间的每个源公司创建的余额。
 
-    ![“合并”页面上的“合并交易”。](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
+    ![“合并”页面的“合并交易记录”](./media/managing-consolidation-transactions.png "“合并”页面的“合并交易记录”")
 
 若要再次运行合并，只需处理合并。 也可以先选择 **合并** 页中的 **删除合并**。
 如果您的合并帐户中的余额不准确，可以使用 **结转期间调整** 页更正这些余额。
@@ -118,15 +121,15 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 可根据需要设置清除规则的生效日期和到期日期。 如果要使清除规则在清除方案流程中可用，必须将 **有效** 选项设置为 **是**。 选择类型为 **清除** 的日记帐名称。
 
-![清除规则的基本属性。](./media/ledger-elimination-rule-journal.png "清除规则的基本属性")
+![清除规则的基本属性](./media/ledger-elimination-rule-journal.png "清除规则的基本属性")
 
 定义基本属性之后，选择 **行** 定义实际处理规则。 清除选项有两种：清除净改变金额，或定义金额。
 
-选择源科目。 可以使用星号 (\*) 作为通配符。 例如，**1\**_ 将选择以 _* 1** 开头的所有科目作为分配的数据源。
+选择源科目。 可以使用星号 (\*) 作为通配符。 例如，**1\*** 将选择以 **1** 开头的所有科目作为分配的数据源。
 
 选择源科目之后，使用 **科目说明** 字段指定所用目标公司的科目。 选择 **源** 以使用在源科目中定义的同一个主科目。 如果选择 **用户定义的**，则必须指定目标科目。
 
-![分类帐清除规则行页面。](./media/ledger-elimination-rule-line.png "分类帐清除规则行页面")
+![分类帐清除规则行页面](./media/ledger-elimination-rule-line.png "分类帐清除规则行页面")
 
 **维度说明** 字段的工作原理类似 **科目说明** 字段。 选择 **源**，以便在源公司和目标公司中使用相同的维度。 如果选择 **用户定义的**，则必须通过选择 **目标维度** 菜单项指定目标公司中的维度。 然后选择源维度和财务维度，以及用作清除源的值。
 
@@ -165,8 +168,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - **简化货币折算** – 在 Finance 中执行了最低设置之后，可将任何财务申报报表折算为已设置的任何申报币种。 此外，还可以设置不限数目的申报币种。
 - **在源中过帐清除** – 可创建和打印清除报表以验证清除交易记录。 然后可以将任何新清除作为标准内部公司交易记录过帐。 还可以将清除法人用于不希望法人中包含的任何交易记录。
 
-## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Financial Reporting 支持的合并方案
-
+## <a name="supported-consolidation-scenarios"></a>支持的合并方案
 下面是财务申报支持的部分合并方案：
 
 - 法人之间采用单级和多级合并
@@ -180,18 +182,3 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 
 ## <a name="generating-consolidated-financial-statements"></a>生成合并的财务报表
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
-
-## <a name="performance-enhancement-for-large-consolidations"></a>大型合并的性能增强
-
-具有许多总帐交易的环境可能比最佳环境运行得慢。 要解决此问题，您可以设置一个使用用户定义的日期数的并行批处理。 若要确保解决方案按预期方式工作，请将扩展点添加到合并中，以返回日期范围的容器。 基本实现应包含适用于合并的开始状态和结束日期的一个日期范围。 将验证基本实现中的日期范围以确保它们不包含间隔或重叠。 日期范围将用于为每个公司创建并行批处理捆绑。
-
-您可以自定义日期范围数以满足组织的要求。 通过自定义日期范围数，您可以帮助简化测试并尽量减少对现有代码的影响，因为没有分配逻辑。 唯一的所需新测试会验证批处理捆绑的创建、验证日期范围和测试日期范围的子集，以验证是否可以为最终批处理任务汇集批次。 
-
-在批处理中运行流程时，此功能将增强总帐中的合并流程。 通过将合并的内容拆分为可并行处理的多个任务，增强功能可提高总帐合并流程的性能。 在运行合并的默认方法中，每个任务将处理八天的总帐活动。 但是，已添加了扩展点，以便您可以自定义所创建的编号任务。
-
-此功能只有在系统中开启之后才能使用。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块：** 总帐
-- **功能名称：** 大型合并的性能增强
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

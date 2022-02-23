@@ -1,29 +1,34 @@
 ---
 title: 履行服务协议概览
 description: 本主题提供履行服务协议的任务的概览。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985878"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423220"
 ---
-# <a name="fulfill-service-agreements-overview"></a>履行服务协议概览
+# <a name="fulfill-service-agreements-overview"></a>履行服务协议概览 
 
 [!include [banner](../includes/banner.md)]
+
 
 本主题提供履行服务协议的任务的概览。 本主题还列出与每个业务流程组件相关联的窗体，并且讨论与每个业务流程组件相关联的任务。
 
@@ -39,9 +44,9 @@ ms.locfileid: "7985878"
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,9 +67,9 @@ ms.locfileid: "7985878"
 <td><p>创建和维护服务预订。</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>监控和实施协议</p></td>
@@ -77,9 +82,9 @@ ms.locfileid: "7985878"
 <td><p>创建和维护服务订单。</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>更新和评估合同</p></td>
@@ -102,6 +107,3 @@ ms.locfileid: "7985878"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

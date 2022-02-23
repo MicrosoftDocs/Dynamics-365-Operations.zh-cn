@@ -1,32 +1,35 @@
 ---
-title: 应付帐款和应收帐款的货币重估
-description: 本主题提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。
+title: 应付帐款和应收帐款的外币重估
+description: 汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c84a373363fc066f46eb7891b421be098c0033526f2604d0ee52ff9c3fd9db3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440892"
 ---
-# <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的货币重估
+# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的外币重估
 
 [!include [banner](../includes/banner.md)]
 
-汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本主题提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。 
+汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。 
 
 采用外币的未结供应商交易记录的理论价值或帐面价值会由于汇率波动在不同时间发生变化。 若要更新应收帐款和应付帐款的未结交易记录的值，请运行外币重估流程。 应付帐款和应收帐款均可运行外币重估。 该流程将在指定日期使用新的汇率重估未结金额。 原始过帐金额与重估金额之间的差额将导致每个未结交易记录的或有损益。 应付帐款和应收帐款子分类帐然后更新以反映或有损益，且会计条目过帐到总帐。
 
@@ -55,7 +58,7 @@ ms.locfileid: "6774345"
     -   **过帐** – 使用客户交易记录的过帐模板。
     -   **选择** – 在 **过帐模板** 字段中输入过帐模板。
 -   **过帐模板** – 如果在 **使用的过帐模板来自** 字段中选择 **选择**，您在此字段中输入的过帐模板将确定外币重估交易记录的过帐模板。
--   **财务维度** – 在外币重估交易记录的会计条目上过帐的财务维度。 财务维度未根据科目结构的规则进行验证。 过帐发票时所用的科目结构可能与重估完成时所用的规则不同。 重估流程中没有选择特定财务维度的选项，因此将跳过科目结构验证。  
+-   **财务维度** – 在外币重估交易记录的会计条目上过帐的财务维度：
     -   **无** – 不过帐财务维度。 如果您的科目结构中具有所需财务维度，重估流程仍然运行并创建没有财务维度的会计条目。 您首先将收到警告消息，以便您可以取消重估。
     -   **表** – 在外币重估交易记录上过帐的客户帐户或供应商帐户的财务维度。
     -   **过帐** – 在外币重估交易记录上过帐正在重估的交易记录的财务维度。 默认情况下，原始交易记录的 AR/AP 会计科目的财务维度将用于重估交易记录的 AR/AP 主科目，原始交易记录的费用/资产/收入会计科目的财务维度将用于重估交易记录的或有损益主科目。
@@ -63,6 +66,3 @@ ms.locfileid: "6774345"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

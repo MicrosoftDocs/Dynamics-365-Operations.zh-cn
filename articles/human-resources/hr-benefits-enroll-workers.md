@@ -1,35 +1,33 @@
 ---
 title: 登记和删除工作人员的福利
-description: 该过程演示如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等记多个工作人员。
-author: twheeloc
-ms.date: 08/23/2021
+description: 该过程演示了如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等级多个工作人员。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417376"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>登记和删除工作人员的福利
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-该过程演示如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等记多个工作人员。 创建此程序的演示数据公司是 USMF。
+该过程演示了如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等级多个工作人员。 创建此程序的演示数据公司是 USMF。
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>登记单个工作人员的福利
@@ -60,6 +58,3 @@ ms.locfileid: "8065368"
 14. 在列表中，单击所选行中的链接。
 15. 您可以在此页查看哪些员工已登记此福利，哪些员工未登记。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

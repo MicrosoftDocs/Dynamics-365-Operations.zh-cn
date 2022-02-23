@@ -1,23 +1,26 @@
 ---
 title: 为客户添加信用管理信息
 description: 本主题说明如何为客户添加信用管理信息。
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440723"
 ---
 # <a name="add-credit-management-information-for-customers"></a>为客户添加信用管理信息
 
@@ -99,6 +102,3 @@ ms.locfileid: "7753962"
     在此例中，有效信用额度为 125,000 (= A + \[B × C\])。
     
     但是，如果选中 **包含在风险中** 复选框，则会扣除 **更新信用额度** 值 50,000（= 100,000 的 50.00％），因此风险值为 75,000 (= A + \[B × C\] – B)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

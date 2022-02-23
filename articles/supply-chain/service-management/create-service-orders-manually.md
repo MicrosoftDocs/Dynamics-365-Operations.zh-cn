@@ -1,26 +1,29 @@
 ---
 title: 手动创建服务订单
 description: 您可以通过使用服务协议或通过使用 **服务订单** 窗体，手动创建服务订单。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51cfdb94a368df9e7082af3c768c79df44000342
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578840"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423025"
 ---
 # <a name="create-service-orders-manually"></a>手动创建服务订单    
 
@@ -34,17 +37,17 @@ ms.locfileid: "7578840"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>手动从服务协议创建服务订单
 
-1.  选择 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
 
 2.  选择某一服务协议，或者创建新的服务协议。
 
-3.  选择 **交货** 选项卡，然后在 **创建** 组中选择 **计划服务订单** 打开 **创建服务订单** 窗体。
+3.  单击 **交货** 选项卡，然后在 **创建** 组中单击 **计划服务订单** 打开 **创建服务订单** 窗体。
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>在服务订单窗体中手动创建服务订单
 
-1.  选择 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
 
-2.  选择 **新建** 创建新服务订单。
+2.  按 Ctrl+N 创建新的服务订单。
 
 3.  为服务订单创建服务订单行。
 
@@ -53,9 +56,9 @@ ms.locfileid: "7578840"
 
 ## <a name="create-a-service-order-from-a-project"></a>从一个项目创建服务订单
 
-1.  转到 **项目管理与会计** \> **通用** \> **项目** \> **所有项目**。
+1.  单击 **项目管理与核算** \> **通用** \> **项目** \> **所有项目**。
 
-2.  在 **项目** 窗体中的 **操作窗格** 上，选择 **管理** 选项卡 \> **服务** \> **服务订单**。
+2.  在 **项目** 窗体中的 **操作窗格** 上，单击 **管理** 选项卡 \> **服务** \> **服务订单**。
 
 3.  按照前面的过程执行，以便在 **服务订单** 窗体中手动创建某一服务订单。 **项目 ID** 字段显示项目参考。
 
@@ -66,19 +69,19 @@ ms.locfileid: "7578840"
 
 可使用 **基于销售订单创建新的服务订单** 向导从 **服务订单** 窗体创建服务订单。
 
-1.  转到 **销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。
+1.  单击 **销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。
 
 2.  打开相关销售订单。
 
-3.  在 **销售订单** 选项卡上，选择 **服务订单** 启动 **基于销售订单创建新的服务订单** 向导。
+3.  在 **销售订单** 选项卡上，单击 **服务订单** 启动 **基于销售订单创建新的服务订单** 向导。
 
-4.  选择 **下一步 \>**，然后在 **选择服务订单关联的协议** 页上完成以下步骤：
+4.  单击 **下一步 \>**，然后在 **选择服务订单关联的协议** 页上完成以下步骤：
     
       - 使用 **服务协议** 字段可以选择新的服务订单应与之关联的服务协议。
     
       - 可选：使用 **项目 ID** 字段可以将此服务订单与特定项目相关联。
 
-5.  选择 **下一步 \>**，然后在 **创建服务订单** 页上完成以下步骤：
+5.  单击 **下一步 \>**，然后在 **创建服务订单** 页上完成以下步骤：
     
       - 在 **首选服务时间** 字段中输入服务电话要开始的日期和时间。
     
@@ -88,7 +91,7 @@ ms.locfileid: "7578840"
     
       - 在 **联系人 ID** 字段，选择客户公司中应针对此服务订单与之联系的人员。
 
-6.  选择 **下一步 \>**，然后选择 **完成**。
+6.  单击 **下一步\>**，然后单击 **完成**。
 
 
 ## <a name="see-also"></a>请参阅
@@ -99,6 +102,3 @@ ms.locfileid: "7578840"
 
 [创建服务订单（类窗体）](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: 计划负载利用率
 description: 本主题介绍如何设置和计划仓库的负载。
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 728cf6e0b1bce660328f970176c218f66646ec8a
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902063"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422789"
 ---
 # <a name="schedule-load-utilization"></a>计划负载利用率
 
@@ -69,6 +72,3 @@ ms.locfileid: "7902063"
 
 4. 在 **负载类型** 字段中，选择 **体积** 或 **重量** 以指定要预测的空间所属的仓库运营单位。
 5. 在 **空间利用率设置** 字段中，选择应充当预测基础的空间利用率设置。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

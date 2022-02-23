@@ -2,23 +2,26 @@
 title: 渠道概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的渠道。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cc7f00d69a6fd57efcd9b6eece56ddc0702c6935
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984997"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963052"
 ---
 # <a name="channels-overview"></a>渠道概览
 
@@ -85,6 +88,3 @@ After you create a channel, you may need to complete some of the below tasks:
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
 [设置组织层次结构](channels-org-hierarchies.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

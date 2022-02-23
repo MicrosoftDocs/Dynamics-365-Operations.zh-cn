@@ -2,9 +2,11 @@
 title: 创建和分配高级规则结构
 description: 本主题介绍如何创建高级规则结构并分配给科目结构。
 author: aprilolson
+manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 769f3cb44830a4bc9ef48e5bcfda5a47b87954c20f65d1d3eef5d02af9ed5bd1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6a3f7d174c91e357dce8a19ab50a5cd42a85561
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750404"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968585"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>创建和分配高级规则结构
 
@@ -56,6 +58,3 @@ ms.locfileid: "6750404"
 17. 关闭该页面。
 18. 选择 **激活**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

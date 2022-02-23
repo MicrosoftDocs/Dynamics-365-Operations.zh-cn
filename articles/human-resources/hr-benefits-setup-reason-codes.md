@@ -1,42 +1,35 @@
 ---
 title: 设置原因代码
 description: Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利正在更改。
-author: twheeloc
-ms.date: 08/25/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a30a59a648d54eda771845b8bee52df43987d3d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068276"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417487"
 ---
 # <a name="set-up-reason-codes"></a>设置原因代码
 
+Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利正在更改。 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利正在更改。
-
-> [!NOTE]
-> 自 2021 年 1 月起，原因代码已迁移到 **人事管理** 工作区，而不是 **福利管理** 工作区。 有关详细信息，请参阅[将原因代码手动迁移到“人事管理”](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management)。
-
-## <a name="create-reason-codes"></a>创建原因代码
-
-1. 在 **人事管理** 工作区（或 **福利管理** 工作区(如果您的原因代码未迁移)），选择 **链接**，然后选择 **原因代码**。
+1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **原因代码**。
 
 2. 选择 **新建**。
 
@@ -47,39 +40,4 @@ Dynamics 365 Human Resources 使用原因代码来解释为什么员工的福利
    | **原因代码** | 用于标识员工更改福利计划登记的原因的唯一名称。 |
    | **说明** | 原因代码的描述。 |
 
-4. 在 **适用场景** 下，将 **福利管理** 设置为 **是**。 （如果原因代码未迁移到 **人事管理** 工作区则不适用。）
-
-5. 选择 **保存**。
-
-## <a name="manually-migrate-reason-codes-to-personnel-management"></a>将原因代码手动迁移到“人事管理”
-
-在 2021 年 1 月，原因代码已迁移到 **人事管理** 工作区，而不是 **福利管理** 工作区。 大部分原因代码数据将在您的环境中自动迁移。 部分原因代码数据可能无法迁移。 例如，原因码现在最多包含 15 个字符，因此任何长度超过 15 个字符的原因码都不会自动迁移。
-
-您会在 **福利管理** 工作区的 **链接** 页上看到一个横幅，通知您有关迁移以及是否有任何原因代码未迁移的信息。
-
-1. 选择 **原因代码** 了解有关迁移状态的详细信息。
-
-   [![原因代码。](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
-
-2. 选择迁移失败的原因代码。
-
-   [![原因代码迁移状态。](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
-
-3. 选择 **迁移原因代码**。
-
-   [![迁移原因代码。](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
-
-4. 在 **福利原因代码迁移** 窗格中，有两个用于映射到人事管理原因代码的选项：
-
-   - 要在“人事管理”中使用现有原因代码，从 **使用现有原因代码** 下拉列表中选择一个。
-     > [!NOTE]
-     > 如果尚未将另一个福利管理原因代码迁移到“人事管理”，您只能在其中使用现有原因代码。
-   - 要在“人事管理”中创建新的原因代码，在 **新建原因代码** 中输入新的原因代码，然后在 **新增描述** 中输入描述。
-
-   [![映射到人事管理原因代码。](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
-
-原因代码迁移到“人事管理”后，在“福利管理”中使用它们的选项将自动设置为 **是**。
-
-[![在“福利管理”中使用原因代码。](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+4. 选择 **保存**。 

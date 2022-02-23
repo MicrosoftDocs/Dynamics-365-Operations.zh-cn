@@ -1,31 +1,33 @@
 ---
 title: 客户付款概览
-description: 本程序逐步介绍用于输入客户付款的各种方法。
+description: 本任务指南逐步介绍用于输入客户付款的各种方法。
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394481"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440738"
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 
 [!include [banner](../../includes/banner.md)]
 
-本程序逐步介绍用于输入客户付款的各种方法。 此任务使用 USMF 公司演示。
+本任务指南逐步介绍用于输入客户付款的各种方法。 此任务使用 USMF 公司演示。
 
 1. 转到 **导航窗格 > 模块 > 应收帐款 > 付款 > 付款日记帐**。
 2. 单击 **新建**。
@@ -50,6 +52,3 @@ ms.locfileid: "7394481"
 21. 在 **付款参考** 字段中，输入付款参考。 仅当您标记为在存款单上包括付款时才需要付款参考。  
 22. 在 **操作窗格** 上，单击 **过帐** 以过帐客户付款。 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

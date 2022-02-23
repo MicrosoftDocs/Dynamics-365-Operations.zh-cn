@@ -1,26 +1,35 @@
 ---
 title: 在供应商设计之间切换
-description: 本主题介绍如何在财务和运营应用与 Dataverse 之间的供应商数据集成之间切换。
+description: 本主题介绍如何在 Finance and Operations 应用与 Dataverse 之间切换供应商数据集成。
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-09-20
+ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062742"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744457"
 ---
 # <a name="switch-between-vendor-designs"></a>在供应商设计之间切换
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -41,14 +50,14 @@ ms.locfileid: "8062742"
 
 1. 为 **供应商** 表创建工作流程，然后选择 **在“客户”表中创建供应商** 工作流程模板。 然后选择 **确定**。 此工作流处理 **客户** 表的供应商创建方案。
 
-    ![在“客户”表中创建供应商工作流程。](media/create_process.png)
+    ![在“客户”表中创建供应商工作流程](media/create_process.png)
 
 2. 为 **供应商** 表创建工作流程，然后选择 **在“客户”表中更新供应商** 工作流程模板。 然后选择 **确定**。 此工作流处理 **客户** 表的供应商更新方案。
 3. 为 **客户** 表创建工作流程，然后选择 **在“供应商”表中创建供应商** 工作流程模板。
 4. 为 **客户** 表创建工作流程，然后选择 **在“供应商”表中更新供应商** 工作流程模板。
 5. 您可以根据需要将工作流配置为实时工作流或后台工作流。 要将工作流配置为后台工作流，请选择 **转换为后台工作流**。
 
-    ![“转换为后台工作流”按钮。](media/background_workflow.png)
+    ![“转换为后台工作流”按钮](media/background_workflow.png)
 
 6. 启用您为 **客户** 和 **供应商** 表创建的工作流，以开始使用 **客户** 表存储 **组织** 类型的供应商信息。
 
@@ -69,6 +78,3 @@ ms.locfileid: "8062742"
 4. 为 **联系人** 表创建工作流程，然后选择 **在“供应商”表中更新“个人”类型的供应商** 模板。
 5. 您可以根据需要将工作流配置为实时工作流或后台工作流。 要将工作流配置为后台工作流，请选择 **转换为后台工作流**。
 6. 启用您在 **联系人** 和 **供应商** 表上创建的工作流，以开始使用 **联系人** 表存储 **个人** 类型的供应商信息。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

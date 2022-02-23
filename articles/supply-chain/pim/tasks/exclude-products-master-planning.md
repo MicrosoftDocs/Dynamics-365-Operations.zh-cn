@@ -1,23 +1,26 @@
 ---
 title: 创建产品生命周期状态以从主计划中排除产品
 description: 此过程显示如何创建从主计划和物料清单级别计算中排除产品的新产品生命周期状态。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f72be341b81515b7c5540d66f61647df93af41
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5f9573fd220cd8b6a58f81e4d17ca65234f41beb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422857"
 ---
 # <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a>创建产品生命周期状态以从主计划中排除产品
 
@@ -41,6 +44,3 @@ ms.locfileid: "7567023"
 5. 在列表中，标记所选的行。
 6. 在“产品生命周期状态”字段中，输入或选择一个值。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

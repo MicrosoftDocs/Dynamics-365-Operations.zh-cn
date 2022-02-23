@@ -1,27 +1,30 @@
 ---
 title: 使用序列化物料
 description: 本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422925"
 ---
 # <a name="working-with-serialized-items"></a>使用序列化物料
 
@@ -48,12 +51,12 @@ ms.locfileid: "7571681"
 可以为销售订单创建部分发票和装箱单，只登记那些发票和装箱单所包括的物料序列号。 若想创建部分发票，并且具有销售订单的多个装箱单，可以包括多个装箱单中的序列号。 不过，只能有一个不包括所有序列号的装箱单。 例如，若有三个装箱单且每个装箱单包含两个序列化物料，则不能从每个装箱单中为物料创建部分发票。
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>在序列号不可读时该怎么办？
-若序列号不能读取或扫描，可以通过单击 **序列号** 页的 **不可读** 为物料创建一个空白行。 若序列号以后可用，则可以更新发票或装箱单。 有关详细信息，请参阅下一个部分“是否能更正或更改已为销售订单登记的序列号？”
+若序列号不能读取或扫描，可以通过单击 **序列号** 页的 **不可读** 为物料创建一个空白行。 若序列号以后可用，则可以更新发票或装箱单。 有关详细信息，请参阅下一个部分“是否能更正或更改已为销售订单登记的序列号？”。
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>是否能更正或更改已为销售订单登记的序列号？
 可以，则当满足以下条件时可以更正序列号：
--   **发票** – 可以更改未开发票物料的序列号。 然后还更新装箱单。 但是，若销售订单行由登记负数量更改，则不能更改销售订单行的序列号。
--   **装箱单** – 不能部分更正包含序列化物料的装箱单行。 必须冲销该行的全部数量。 若装箱单已被取消或更正，当为相同的序列化物料创建新装箱单时则不必再登记已冲销的序列号。 将使用已登记的编号。
+-   **发票**  – 可以更改未开发票物料的序列号。 然后还更新装箱单。 但是，若销售订单行由登记负数量更改，则不能更改销售订单行的序列号。
+-   **装箱单**  – 不能部分更正包含序列化物料的装箱单行。 必须冲销该行的全部数量。 若装箱单已被取消或更正，当为相同的序列化物料创建新装箱单时则不必再登记已冲销的序列号。 将使用已登记的编号。
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>可以查看随特定装箱单装运的序列号或包含在发票中的序列号吗？
 可以，则可以在装箱单日志行或发票日志行运行查询来查看包含在该文档中的所有序列号列表。
@@ -77,6 +80,3 @@ ms.locfileid: "7571681"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

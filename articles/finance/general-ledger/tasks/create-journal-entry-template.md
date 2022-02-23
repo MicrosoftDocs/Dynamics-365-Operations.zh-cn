@@ -2,23 +2,26 @@
 title: 使用模板创建日记帐分录
 description: 已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。
 author: aprilolson
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c015bbba6784f511ac51802ea005d2114e703861370e33350cff62b6005d630c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440828"
 ---
 # <a name="create-a-journal-entry-using-template"></a>使用模板创建日记帐分录
 
@@ -60,6 +63,3 @@ ms.locfileid: "6730522"
 29. 在 **金额** 字段中，输入要应用于凭证的金额。 仅当凭证模板是百分比类型时才会显示 **金额** 字段。  
 30. 单击 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

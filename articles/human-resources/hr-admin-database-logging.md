@@ -1,33 +1,31 @@
 ---
 title: 配置和管理数据库日志记录
 description: 您可以使用数据库日志记录跟踪 Dynamics 365 Human Resources 中对表和字段的更改。
-author: twheeloc
-ms.date: 12/15/2021
+author: Darinkramer
+manager: AnnBe
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417456"
 ---
 # <a name="configure-and-manage-database-logging"></a>配置和管理数据库日志记录
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以使用数据库日志记录跟踪 Dynamics 365 Human Resources 中对表和字段的更改。 本主题介绍如何：
 
@@ -68,22 +66,7 @@ ms.locfileid: "8066432"
 您可以使用 **记录数据库更改** 向导来设置数据库日志记录。 此向导提供了一种灵活的方式来设置表或字段的日志记录。
 
 1. 转到 **系统管理 > 链接 > 数据库 > 数据库日志设置**。 选择 **新** 启动 **记录数据库更改** 向导。
-2. 选择 **下一步**。 
-3. 在向导的 **表和字段** 页面上，选择要启用数据库日志记录的表和字段，然后选择 **下一步**。
-
-   > [!Note]
-   > 数据库日志记录不适用于 Human Resources 数据库中的所有表。 选择列表下面的 **显示所有表** 可展开表和字段的列表，以显示数据库日志记录可用的所有数据库表，但这将是数据库表的完整列表的子集。
-
-4. 在向导的 **更改类型** 页面上，选择要跟踪每个表和字段的更改的数据操作，然后选择 **下一步**。 有关可用于日志记录的数据操作的描述，请参阅下面的表。
-5. 在 **完成** 页面上，查看将要进行的更改，然后选择 **完成**。
-
-| 操作​ | 说明 |
-| -- | -- |
-| 跟踪新交易记录 | 为在表中创建的新记录创建日志。 |
-| 更新 | 为表记录的更新或表中单独选择的字段的更新创建日志。 如果选择表的日志更新，将在每次更新表上任何记录的任何字段时创建日志记录。 如果选择特定字段的日志更新，仅在更新表记录的这些字段时创建日志记录。 |
-| Delete | 为从表中删除的记录创建日志。 |
-| 重命名键 | 重命名表键后，创建日志记录。 |
-
+2. 完成该向导。
 
 ## <a name="clean-up-database-logs"></a>清理数据库日志
 
@@ -96,14 +79,11 @@ ms.locfileid: "8066432"
 要设置数据库日志清理，请执行以下步骤： 
 
 1. 转到 **系统管理 > 链接 > 数据库 > 数据库日志**。 选择 **清理日志**。
-2. 在 **要包括的记录** 标题下，选择 **筛选器**。
-3. 选择将用于选择要删除的日志的方法。 输入以下选项之一：
+
+2. 通过输入以下选项之一，选择用于选择要删除的日志的方法：
 
    - 表 ID
    - 日志的类型
    - 创建日期和时间
 
-4. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+3. 使用 **数据库日志清理** 选项卡确定何时运行日志清理任务。 默认情况下，数据库日志保留 30 天。

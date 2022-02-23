@@ -2,24 +2,27 @@
 title: 供应商付款工作区
 description: 此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
 author: abruer
+manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749262"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4440926"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
@@ -75,6 +78,3 @@ ms.locfileid: "6749262"
 |    供应商到客户余额     |                                                                                                                   <ul><li>供应商到客户余额</li><li>供应商到客户余额(按公司)</li><li>供应商到客户余额明细</li></ul>                                                                                                                    |
 |    具有付款暂停的发票     |                                                                                         <ul><li>具有付款暂停的发票</li><li>具有付款暂停的发票明细</li><li>具有付款暂停的发票(按公司)</li><li>具有付款暂停的发票(按供应商组)</li></ul>                                                                                          |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

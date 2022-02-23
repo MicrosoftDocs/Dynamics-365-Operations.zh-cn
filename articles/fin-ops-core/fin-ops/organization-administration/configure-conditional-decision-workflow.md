@@ -2,9 +2,11 @@
 title: 配置工作流中的有条件决策
 description: 使用以下过程配置有条件决策的属性。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070950"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798871"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>配置工作流中的有条件决策
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 使用以下过程配置有条件决策的属性。
 
@@ -53,6 +52,3 @@ ms.locfileid: "8070950"
     2. 在该窗体的 **验证条件** 区域中选择某个记录。
     3. 单击 **测试**。 系统对该记录进行评估，判断其是否符合您定义的条件。
     4. 单击 **确定** 或 **取消** 返回到 **属性** 窗体。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

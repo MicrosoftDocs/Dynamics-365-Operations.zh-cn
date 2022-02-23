@@ -1,10 +1,12 @@
 ---
 title: 使用模型映射配置在数据库级别执行聚合计算
-description: 本主题介绍如何设计新电子报告模型映射配置和使用内置 ER 函数执行有效聚合计算。
+description: 此过程提供有关如何设计新电子申报 (ER) 模型映射配置和使用内置 ER 执行有效聚合计算的信息。
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745856"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684107"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>使用模型映射配置在数据库级别执行聚合计算
 
@@ -114,6 +116,3 @@ ms.locfileid: "6745856"
 68. 单击“保存”。
     * 请注意，“执行位置”字段指示此分组将在运行时在内存中执行，即使未定义合并，且所选的“表记录”类型的数据源引用同一个“内部统计”表。 原因在于数据源包含一些不能转换为 SQL 数据库级别的已计算字段。  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

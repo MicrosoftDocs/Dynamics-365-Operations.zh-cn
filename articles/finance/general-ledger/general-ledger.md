@@ -2,27 +2,28 @@
 title: 总帐和财务报表概览
 description: 使用总帐定义和管理法人的财务记录。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "65431"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985229"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440866"
 ---
 # <a name="general-ledger-home-page"></a>总帐主页
 
@@ -39,9 +40,9 @@ ms.locfileid: "7985229"
 - [总帐科目余额](general-ledger-account-balances.md)
 - [财务维度](financial-dimensions.md)
 
-[![业务流程。](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![业务流程](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-## <a name="sales-tax"></a>增值税
+## <a name="sales-tax"></a>销售税
 每个公司都需要向各种税务主管机构缴纳税款。 规则和比率根据国家/地区、省/市/自治区、县和城市而改变。
 此外，当税务主管部门更改它们的要求时，必须定期更新规则。 增值税代码包含您收取以及支付给主管机构的金额数的信息。 当您设置增值税代码时，您定义了必须收取的金额或百分比。 您还定义了将这些金额或百分比应用到交易记录金额中的各种方法。 本节中的主题提供了如何针对您的税务主管机构要求的方法和比率设置增值税的信息。
 
@@ -54,14 +55,14 @@ ms.locfileid: "7985229"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 #### <a name="financial-reporting"></a>财务报告
 转到 [Financial reporting 概述](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)主题，了解有关财务报表的信息。
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找相关意见、资讯及其他信息。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找意见、新闻和其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
@@ -73,6 +74,3 @@ ms.locfileid: "7985229"
 
 - [Dynamics 365 for Finance and Operations 中应该了解的分类帐信息](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

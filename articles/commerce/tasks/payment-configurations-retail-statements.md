@@ -2,24 +2,27 @@
 title: 零售报表的付款配置
 description: 此程序会演示 Commerce 商店付款方式的配置（这会影响到如何创建和过帐对帐单）。
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c8c7678d88b3c01138aa098b8830336885e6445fb41931b19bcda2b95b86b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712349"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410524"
 ---
 # <a name="payment-configurations-for-retail-statements"></a>零售报表的付款配置
 
@@ -50,6 +53,3 @@ ms.locfileid: "6712349"
     * 选择将金库投箱金额过帐到其中的科目。  
 8. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

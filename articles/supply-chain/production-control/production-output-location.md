@@ -2,24 +2,27 @@
 title: 生产输出位置
 description: 本主题描述用于标识生产输出位置的层次结构。
 author: johanhoffmann
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4002bf7dddb196edf306268ecc16e1bfa5d6d1e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720268"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423179"
 ---
 # <a name="production-output-location"></a>生产输出位置
 
@@ -37,6 +40,3 @@ ms.locfileid: "6720268"
 4. 如果在那里找不到任何位置，则使用在为生产订单定义的仓库上定义的输出位置。
 
 仅对使用高级仓库流程进行设置的产品设置默认生产输出位置。 在此类物料报告为已完工入库时，创建 **成品储存** 或 **联产品和副产品储存** 类型的仓库工作。 此类型工作使用生产输出位置作为领料库位。 储存库位由库位指令确定。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

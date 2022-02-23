@@ -1,35 +1,33 @@
 ---
 title: 配置员工自助服务
 description: 在 Microsoft Dynamics 365 Human Resources 中，您可以为员工自助服务中的顶层导航配置磁贴。
-author: twheeloc
-ms.date: 12/06/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067571"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417508"
 ---
 # <a name="configure-employee-self-service"></a>配置员工自助服务
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-在 Microsoft Dynamics 365 Human Resources 中，您可以为 **员工自助服务** 中的顶层导航配置磁贴。 福利计划磁贴可将用户引导至他们有资格登记参加的福利计划。
+在 Microsoft Dynamics 365 Human Resources 中，您可以为员工自助服务中的顶层导航配置磁贴。 福利计划磁贴可将用户引导至他们有资格登记参加的福利计划。
 
 ## <a name="set-up-a-benefit-plans-tile"></a>设置福利计划磁贴
 
@@ -37,16 +35,19 @@ ms.locfileid: "8067571"
 
 2. 选择 **福利计划磁贴设置** 选项卡，然后选择 **新建**。
 
-3. 为以下字段指定值。
+3. 为以下字段指定值：
 
-   | 字段 | Description |
+   | 字段 | 说明 |
    | --- | --- |
-   | **计划类型代码** | 在 **福利自助服务** 中选择此磁贴时显示的计划类型。 |
    | **磁贴 ID** | 磁贴的唯一标识符。 |
-   | **磁贴标签文本** | **福利自助服务** 上磁贴将显示的文本。 |
+   | **磁贴标签文本** | 自助服务上磁贴将显示的文本。 |
    | **说明** | 磁贴的描述。 |
+   | **Internet 地址** | 输入员工自助服务页面的 URL。 |
+   | **磁贴大小** | 磁贴的大小：小、中或大。 |
+   | **目标** | 指定页面应在新窗口中打开还是在当前窗口中打开。 |
    | **磁贴背景图像** | 用于磁贴的图像的 URL（可选）。 |
-   | **跟踪开放登记** | 选择此选项可跟踪此计划类型的开放登记进度。 例如，您可能已创建了 **计划类型 = 其他** 的计划。 这些计划可能是您不希望跟踪其登记进度的可选计划。 如果未选择此计划类型，则在 **公开登记** 选项卡上跟踪登记进度或登记完成时，将忽略此类型的计划。此设置适用于为所有期间和法人选择的计划类型。 |
+   | **开始日期** | 磁贴应该可用的开始日期和时间。 |
+   | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
 4. 选择 **保存**。
 
@@ -56,18 +57,18 @@ ms.locfileid: "8067571"
 
 2. 选择 **弹性信贷计划磁贴设置** 选项卡，然后选择 **新建**。
 
-3. 为以下字段指定值。
+3. 为以下字段指定值：
 
-   | 字段 | Description |
+   | 字段 | 说明 |
    | --- | --- |
-   | **福利信贷 ID** | 在 **福利自助服务** 中选择此磁贴时将显示的弹性信贷项目计划。 |
    | **磁贴 ID** | 磁贴的唯一标识符。 |
-   | **磁贴标签文本** | **福利自助服务** 上磁贴将显示的文本。 |
+   | **磁贴标签文本** | 自助服务上磁贴将显示的文本。 |
    | **说明** | 磁贴的描述。 |
+   | **Internet 地址** | 输入员工自助服务页面的 URL。 |
+   | **磁贴大小** | 磁贴的大小：小、中或大。 |
+   | **目标** | 指定页面应在新窗口中打开还是在当前窗口中打开。 |
    | **磁贴背景图像** | 用于磁贴的图像的 URL（可选）。 |
-   | **跟踪开放登记** | 选择此选项可跟踪此计划类型的开放登记进度。 例如，您可能已创建了 **计划类型 = 其他** 的计划。 这些计划可能是您不希望跟踪其登记进度的可选计划。 如果未选择此计划类型，则在 **公开登记** 选项卡上跟踪登记进度或登记完成时，将忽略此类型的计划。此设置适用于为所有期间和法人选择的计划类型。 |
+   | **开始日期** | 磁贴应该可用的开始日期和时间。 |
+   | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
 4. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

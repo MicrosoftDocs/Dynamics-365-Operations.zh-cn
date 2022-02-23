@@ -2,13 +2,16 @@
 title: 添加徽标
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
 author: bicyclingfool
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964571"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410434"
 ---
 # <a name="add-a-logo"></a>添加徽标
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
+
+## <a name="overview"></a>概览
 
 建立站点时，您可能要做的第一件事就是将公司或品牌徽标添加到站点页眉中。 Dynamics 365 Commerce 在线模块库提供了让此任务轻松实现的模块。
 
@@ -61,12 +66,11 @@ ms.locfileid: "7964571"
 
 [添加收藏夹图标](add-favicon.md)
 
+[添加欢迎消息](add-welcome-message.md)
+
 [添加版权声明](add-copyright-notice.md)
 
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

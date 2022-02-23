@@ -2,9 +2,11 @@
 title: 在购买之前
 description: 在考虑购买 Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 时要使用的分步指导。
 author: ShellyBakke
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874576"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798541"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -42,7 +44,7 @@ Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Com
 - [本地部署的系统要求](system-requirements-on-prem.md)。
 
 > [!IMPORTANT]
-> 所有公共云基础设施（包括 Microsoft Azure）都不支持本地部署。 但是，它们支持在 [Microsoft Azure 堆栈 HCI](https://azure.microsoft.com/products/azure-stack/hci/) 和 [Microsoft Azure 堆栈中心](https://azure.microsoft.com/products/azure-stack/hub/)上运行。
+> 所有公共云基础设施（包括 Microsoft Azure）都不支持本地部署。
 
 有关详细信息，请参阅[部署选项](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -86,11 +88,8 @@ Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户�
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>步骤四：了解 FastTrack 并计划你的部署
 
-Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮助你顺利和放心地迁移到 Dynamics 365，让你更快地实现商业价值。 你参加 FastTrack 计划后，将收到关于最佳实践和如何制定成功的推出计划的指导。 你还将了解按照自己的速度启用新用户和扩展功能的方式。 此外，你还将有权访问旨在让你成功体验 Dynamics 365 的 Microsoft 工程资源。 有关详细信息，请参阅 [Microsoft FastTrack](/dynamics365/fasttrack/)。
+Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮助你顺利和放心地迁移到 Dynamics 365，让你更快地实现商业价值。 你参加 FastTrack 计划后，将收到关于最佳实践和如何制定成功的推出计划的指导。 你还将了解按照自己的速度启用新用户和扩展功能的方式。 此外，你还将有权访问旨在让你成功体验 Dynamics 365 的 Microsoft 工程资源。 有关详细信息，请参阅 [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)。
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果您要从 Dynamics AX 2012 升级或从 AX 2009 迁移
 
 如果您是准备从 Microsoft Dynamics AX 2012 升级或从 Microsoft Dynamics AX 2009 迁移的客户，您可能有资格获得更长的试用期。 联系 <daxcf@microsoft.com> 以获取详细信息。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: 主科目类型
 description: 主科目类型确定主科目如何用于会计科目表。
 author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3381
 ms.assetid: e55b9c0e-597b-46d4-b453-81c780939b6d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93aee50a1004ba6e8bd65fa9c19d1c21f14f7174908a2b42084ef447fdc32dc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe3d6c10891ba8b290f3efdd8e5aab3ca2c1c3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772819"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440664"
 ---
 # <a name="main-account-types"></a>主科目类型
 
@@ -38,6 +41,3 @@ ms.locfileid: "6772819"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

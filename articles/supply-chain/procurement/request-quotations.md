@@ -1,28 +1,28 @@
 ---
 title: 询价 (RFQ) 概览
 description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983384"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016923"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -39,13 +39,13 @@ ms.locfileid: "7983384"
 
 下图显示询价流程的概览。
 
-[![询价流程。](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ 进程](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 您可以从计划订单、采购申请或者通过手动输入创建询价案例。 询价案例是用来向每个供应商发出询价的基础单据。
 
 准备询价案例并添加供应商后，请在询价案例上选择 **发送**（对于公共部门则选择 **发送和发布**）。 将为您发送询价的每个供应商生成询价日记帐。 您可以为“发送”操作配置打印选项，从而为每个供应商打印报表以存档，或将报表发送到每个供应商的电子邮件地址。 此外，您可以使用每个供应商的询价日记帐来生成您可以发送或在以后重新发送到供应商的报表。 您还可以配置“发送”操作，从而生成供应商可以填写的回复表。
 
-此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
+此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
 
 如果您在发送询价后必须对其进行改正，您可以在完成后，使用两个改正操作来重新向供应商发送询价：创建和完成。
 
@@ -80,23 +80,23 @@ ms.locfileid: "7983384"
 - %出价返回的原因%
 - %改正的原因%
 - %改正准备人%
-- %Company%
+- %公司%
 - %询价案例名称%
 - %到期日期时间%
-- %Date%
+- %日期%
 
-%出价返回的原因%和%改正的原因%标志由采购专业人员在他们完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
+%出价返回的原因%和%改正的原因%标志由采购专业人员在他或她完成向导 **改正** 中的改正时可以输入的文本替换。 %改正准备人%和%公司%从询价自动获得。 %日期% 标志由当前日期取代。
 
 如果要在询价已发送之后将其取消，可通过询价案例执行。 若要取消，需要使用电子邮件模板向供应商的联系人发送取消通知。 必须在 **采购参数** 页上选择该模板。 在创建模板时，可以包含以下替换标志：
 
 - %取消的原因%
 - %询价案例%
 - %取消询价者%
-- %Company%
+- %公司%
 - %询价案例名称%
-- %Date%
+- %日期%
 
-%取消的原因% 标志由采购专业人员可以在 **取消** 向导中输入的文本替代。 %Date% 标志由当前日期替换。
+%取消的原因% 标志由采购专业人员可以在 **取消** 向导中输入的文本替代。 %日期% 标志由当前日期取代。
 
 如果您希望在出价中使用原因代码指示出价被拒绝或接受的原因，则必须在 **供应商原因** 页设置原因代码。
 
@@ -167,7 +167,7 @@ ms.locfileid: "7983384"
 
 如果配置了改正流程，使其更加宽松，则不必先选择 **创建**，也可以修改已发送的询价案例的字段。 但是，您必须手动添加有关询价的改正注释，再重新发送案例。 请注意，只有在没有对任何回复（出价）进行编辑的情况下，才可以使用此方法。 如果输入了回复，并处于 **已接收** 状态，则 **发送** 按钮不可用。 在这种情况下，您必须依次选择 **创建** 和 **完成**，正如您在更严格的流程中所必须做的一样。 随后，回复将被重置，以反映询价案例的更改。
 
-如果供应商使用供应商协作界面输入出价，则必须始终使用改正流程通知供应商有关询价案例的更改。 此流程有助于防止供应商在出价进行过程中对已过期的询价案例出价的情况。 有关供应商协作的详细信息，请参阅[供应商与外部供应商的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)。
+如果供应商使用供应商协作界面输入出价，则必须始终使用改正流程通知供应商有关询价案例的更改。 此流程有助于防止供应商在出价进行过程中对已过期的询价案例出价的情况。 有关供应商协作的详细信息，请参阅[供应商与外部供应商的协作](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)。
 
 如果您想邀请更多供应商出价，并且没有对询价案例进行任何更改，可以使用 **发送** 按钮。 您添加的供应商将显示在 **发送** 页上，并且会收到电子邮件邀请。
 
@@ -246,6 +246,3 @@ ms.locfileid: "7983384"
 | 接受其中一个投标。 （或至少一行） |                          已收到                           |                           已接受                           |                    已收到                    |                    已接受                     |                   已收到                   |                   已接受                    |
 |           拒绝所有其他出价。           |                          已拒绝                           |                           已接受                           |                    已拒绝                    |                    已接受                     |                   已拒绝                   |                   已接受                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

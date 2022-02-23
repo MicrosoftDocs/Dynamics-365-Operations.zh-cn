@@ -2,9 +2,11 @@
 title: 用于零售商店的用户定义的证书配置文件
 description: 本主题概述了如何在零售商店中使用证书。
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719922"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018860"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>用于零售商店的用户定义的证书配置文件
 
@@ -79,7 +81,7 @@ ms.locfileid: "6719922"
 - **密钥保管库证书** – 如果您将 **位置类型** 设置为 **密钥保管库**，此字段为必填字段。 使用它来指定密钥保管库证书机密。
 
     > [!NOTE]
-    > 在证书配置文件中使用密钥保管库证书之前，请确保将证书上传到密钥保管库存储，并按照[设置 Azure 密钥保管库客户端](../../finance/localizations/setting-up-azure-key-vault-client.md)中的说明操作。
+    > 在证书配置文件中使用密钥保管库证书之前，请确保将证书上传到密钥保管库存储，并按照[设置 Azure 密钥保管库客户端](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client)中的说明操作。
 
 - **存储名称** – 该字段是可选字段，仅在您将 **位置类型** 字段设置为 **本地证书** 时才可用。 使用它来指定应该用于搜索本地证书的默认存储名称。
 - **存储位置** – 该字段是可选字段，仅在您将 **位置类型** 字段设置为 **本地证书** 时才可用。 使用它来指定应该用于搜索本地证书的默认存储位置。
@@ -119,6 +121,3 @@ ms.locfileid: "6719922"
 
 > [!NOTE]
 > 在 Commerce Runtime 中，将首先调用证书的新版本。 如果尚未在特定商店或特定终端中更新证书，则将调用以前的版本。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

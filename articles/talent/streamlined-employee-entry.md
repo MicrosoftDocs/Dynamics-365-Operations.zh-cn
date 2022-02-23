@@ -91,6 +91,3 @@ Dynamics 365 Talent 允许高效输入员工和雇用数据。 您可以快速�
 
 [![职位](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

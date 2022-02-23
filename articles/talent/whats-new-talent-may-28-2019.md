@@ -74,6 +74,3 @@ HR 和管理员现在可以验证管理层次结构以查找任何可能已无�
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>为 HR 提供休假和缺勤交易记录列表
 
 跟踪员工休假和了解休假的计算方法这一功能不仅可以帮助 HR 解答员工的问题，还可以帮助确保员工的休假奖励精确无误。 HR 现在可以以新的视觉查看交易记录（授权、应计、调整和请求），这样 HR 人员就可以查看休假余额背后的原因。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

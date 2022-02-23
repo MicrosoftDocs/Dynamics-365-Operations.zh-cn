@@ -2,9 +2,11 @@
 title: 更改横幅或徽标
 description: 系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。
 author: aneesmsft
+manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee62376da24adbbe09cb039c095197067f2db59c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069340"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798062"
 ---
 # <a name="change-the-banner-or-logo"></a>更改横幅或徽标
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。 创建此程序的演示数据公司是 USMF。
 
@@ -40,6 +39,3 @@ ms.locfileid: "8069340"
 6. 转到 **导航窗格 > 模块 > 常用 > 常用 > 默认仪表板**。 您可以在仪表板上查看新的横幅或形象标识。  
     
     您可能需要使用公司选择器把您公司的横幅改为您所上传的图像。  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

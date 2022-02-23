@@ -1,27 +1,30 @@
 ---
-title: 供应商发票自动化工作区
+title: 供应商发票条目工作区
 description: 本主题介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。
 author: abruer
+manager: AnnBe
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722711"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4440913"
 ---
-# <a name="vendor-invoice-automation-workspace"></a>供应商发票自动化工作区
+# <a name="vendor-invoice-entry-workspace"></a>供应商发票条目工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +33,11 @@ ms.locfileid: "6722711"
 
 ## <a name="overview"></a>概览
 
-**供应商发票自动化** 工作区显示与供应商发票处理相关的信息。 它包括 **我的工作** 视图和 **分析 - 所有公司** 页面。 **我的工作** 视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析 - 所有公司** 页面使用 Power BI 的功能显示与供应商发票相关的可视化。
+**供应商发票条目** 工作区显示与供应商发票处理相关的信息。 它包括 **我的工作** 视图和 **分析 - 所有公司** 页面。 **我的工作** 视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析 - 所有公司** 页面使用 Power BI 的功能显示与供应商发票相关的可视化。
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>设置工作区以显示 Power BI 内容
 
-您必须先完成此设置，然后才能在 **供应商发票自动化** 工作区的 Power BI 可视化中显示数据。
+您必须先完成此设置，然后才能在 **供应商发票条目** 工作区的 Power BI 可视化中显示数据。
 
 1. 在 **功能管理** 工作区中，筛选列表以查找 **供应商发票自动化** 功能。
 3. 选择 **立即启用**。
@@ -54,7 +57,7 @@ ms.locfileid: "6722711"
 
 ### <a name="company-selection"></a>公司选择
 
-当 **供应商发票自动化** 功能打开时，**公司** 字段显示在工作区的顶部。 **公司** 字段中的选择会影响工作区中显示的所有信息。 默认情况下，该视图显示您登录的公司的信息。 通过在 **公司** 字段中选择不同的公司，您可以在工作区上显示该公司的信息。 然后，您可以在工作区中选择一个磁贴以转到所选公司的相关页面。
+当 **自动化供应商发票** 功能打开时，**公司** 字段显示在工作区的顶部。 **公司** 字段中的选择会影响工作区中显示的所有信息。 默认情况下，该视图显示您登录的公司的信息。 通过在 **公司** 字段中选择不同的公司，您可以在工作区上显示该公司的信息。 然后，您可以在工作区中选择一个磁贴以转到所选公司的相关页面。
 
 ### <a name="summary-tiles"></a>汇总磁贴
 
@@ -114,6 +117,3 @@ ms.locfileid: "6722711"
 | 导入失败的发票 | <ul><li>导入失败的发票</li><li>导入失败的发票（按公司）</li></ul> |
 | 自动化失败的原因 | <ul><li>失败的发票</li><li>失败的发票（按公司）</li><li>失败的发票（按供应商组）</li></ul> |
 | 工作流状态                | <ul><li>工作流中的发票</li><li>供应商发票工作流实例</li><li>分配（按审批者）</li><li>供应商发票工作流（按公司）</li><li>工作流中的平均天数(按审批人)</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

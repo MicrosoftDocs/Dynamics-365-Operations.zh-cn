@@ -2,23 +2,26 @@
 title: 使用供应商发票的 AP 中的重要发票数据
 description: 本任务指南将帮助您根据采购订单创建供应商发票，并查看采购订单、收据和发票的匹配结果（三向匹配）。
 author: abruer
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777280"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440591"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>使用供应商发票的 AP 中的重要发票数据
 
@@ -70,6 +73,3 @@ ms.locfileid: "6777280"
 19. 单击 **过帐**。
 20. 关闭窗体。 请注意，采购订单不再列为“已接收但未开票”。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

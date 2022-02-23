@@ -1,10 +1,12 @@
 ---
 title: 管理供应商协作用户
 description: 本主题介绍您如何请求调配新供应商协作用户，以及如何添加新供应商协作联系人。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578120"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019921"
 ---
 # <a name="manage-vendor-collaboration-users"></a>管理供应商协作用户
 
@@ -62,7 +64,7 @@ Dynamics 365 Supply Chain Management 中的供应商协作界面向外部供应�
 4. 在 **分配用户角色** 部分，选择新用户应有的安全角色的 **分配** 复选框。
 5. 单击 **提交**。
 
-提交供应商用户请求后，**允许供应商协作访问** 字段对选定的供应商帐户设置为 **是**，并开始用户请求工作流。 作为工作流的一部分，创建新用户，并且分配安全角色。 此外还激活 Azure B2B 服务，启动 Azure 门户与“将新的或现有 AAD 帐户与 Supply Chain Management 用户帐户相关联”之间的交互。 有关详细信息，请参阅 [Azure AD B2B 协作简介](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
+提交供应商用户请求后，**允许供应商协作访问** 字段对选定的供应商帐户设置为 **是**，并开始用户请求工作流。 作为工作流的一部分，创建新用户，并且分配安全角色。 此外还激活 Azure B2B 服务，启动 Azure 门户与“将新的或现有 AAD 帐户与 Supply Chain Management 用户帐户相关联”之间的交互。 有关详细信息，请参阅 [Azure AD B2B 协作简介](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
 
 ### <a name="inactivate-a-user"></a>停用用户
 
@@ -91,6 +93,3 @@ Dynamics 365 Supply Chain Management 中的供应商协作界面向外部供应�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

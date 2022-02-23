@@ -2,13 +2,16 @@
 title: 在 POS 中显示折扣
 description: 此主题说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410490"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 
@@ -33,7 +36,7 @@ ms.locfileid: "6731659"
 
 Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显示商店中当前正在实施的所有折扣。 可以将“查看所有折扣”操作映射到 销售点 (POS) 中的按钮，而该按钮可以添加到 **欢迎** 页或 **交易记录** 页。 下图显示打开的 **所有折扣** 页的示例。
 
-![所有折扣页面。](./media/View_all_discounts.png "“所有折扣”页")
+![“所有折扣”页](./media/View_all_discounts.png "“所有折扣”页")
 
 为了显示折扣，系统将查找与下面的一个或多个条件匹配的所有折扣：
 
@@ -61,11 +64,8 @@ Commerce 中有一项操作，名称为“查看所有折扣”。 此操作显�
 
 下图显示当折扣并发控件设置为 **最优价格和复合位于优先级中，请勿跨多个优先级进行复合** 时使用的逻辑。
 
-![“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑。](./media/Model_1.png "“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑")。
+![“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑](./media/Model_1.png "“最优价格和复合位于优先级中，请勿跨多个优先级进行复合”的逻辑")。
 
 下图显示当折扣并发控件设置为 **最优价格仅位于优先级中，请始终跨多个优先级进行复合** 时使用的逻辑。
 
-![“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑。](./media/Model_2.png "“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑")。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑](./media/Model_2.png "“最优价格仅位于优先级中，请始终跨多个优先级进行复合”的逻辑")。

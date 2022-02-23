@@ -1,29 +1,34 @@
 ---
 title: 维护请求
 description: 本主题概述资产管理中如何管理维护请求。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985245"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019621"
 ---
 # <a name="maintenance-requests"></a>维护请求
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 维护请求是为了在尚未创建工作订单的情况下通知经理或规划员需要执行维护或维修作业时，创建的注释或声明。 如果认为维护请求的内容有效，可以根据维护请求创建工作订单。
 
@@ -39,7 +44,7 @@ ms.locfileid: "7985245"
 
 若要查看维护请求，请选择 **资产管理** \> **常用** \> **维护请求** \> **所有维护请求**、**有效维护请求** 或 **我的功能位置维护请求**。 每个列表页显示与维护请求有关的部分信息。
 
-![查看维护请求。](media/01-manage-maintenance-requests.png)
+![查看维护请求](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > 使用 **我的功能位置维护请求** 列表页查看维护请求的列表，这些维护请求中包含您作为工人关联的功能位置或在此类功能位置安装的资产。 （有关如何为维护工人设置功能位置的信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
@@ -48,7 +53,7 @@ ms.locfileid: "7985245"
 
 要打开记录的详细信息视图，请在 **所有维护请求** 列表页的网格视图中，选择 **维护请求** 列中的链接。
 
-![查看维护请求的详细信息。](media/02-manage-maintenance-requests.png)
+![查看维护请求的详细信息](media/02-manage-maintenance-requests.png)
 
 操作窗格上的按钮排列在选项卡上。 下表简述与资产管理有关的按钮。
 
@@ -67,6 +72,3 @@ ms.locfileid: "7985245"
 | 发送出借资产                  | 选择应该用于临时替换所选维护请求中选择的资产的出借资产。 |
 | 退还出借资产                | 将出借资产登记为已退回。 |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: 设置成本核算分析 Power BI 内容的安全性
-description: 此主题介绍在 Microsoft Power BI 中如何将成本核算中的访问级别安全性传播到行级别安全性。
+description: 此主题介绍在 Microsoft Power BI 中如何将成本核算中的访问级别安全性传播到行级别安全性。 此功能有助于确保用户仅查看有权访问的 Power BI 数据。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751483"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682181"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>设置成本核算分析 Power BI 内容的安全性
 
@@ -42,11 +44,11 @@ ms.locfileid: "6751483"
 3. 找到 **成本核算分析** Power BI 内容的数据集。
 4. 打开安全性页面。
 
-    ![打开安全性页面。](./media/CA-picture-1.png)
+    ![打开安全性页面](./media/CA-picture-1.png)
 
 5. 已创建了 **成本对象控制员** 角色。 添加属于成本核算访问级别组织层次结构的其他成员。
 
-    ![添加成员。](./media/CA-picture-2.png)
+    ![添加成员](./media/CA-picture-2.png)
 
 添加到 **成本对象控制员** 角色的用户只能查看根据成本核算访问级别组织层次结构中的定义允许其查看的数据。
 
@@ -61,6 +63,3 @@ ms.locfileid: "6751483"
 
 ## <a name="additional-resources"></a>其他资源
 若要了解有关 Power BI 行级别安全性的详细信息，请参阅[在 Power BI 中管理模型的安全性](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

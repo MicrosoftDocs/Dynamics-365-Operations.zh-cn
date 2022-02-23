@@ -2,24 +2,27 @@
 title: Dynamics 365 Commerce 中的域
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733983"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517347"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
@@ -38,7 +41,7 @@ ms.locfileid: "6733983"
 
 下图显示 LCS 电子商务预配屏幕，其中突出显示了 **支持的主机名** 框。 
 
-![LCS 电子商务预配屏幕，其中突出显示了**支持的主机名**框。](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS 电子商务预配屏幕，其中突出显示了**支持的主机名**框](./media/Domains_ProvisioningeCommerceScreen.png)
 
 如果已进行了预配，可以创建服务请求以向环境添加更多域。 若要在 LCS 中创建服务请求，请在环境中转到 **支持 \> 支持问题**，然后选择 **提交事件**。
 
@@ -56,7 +59,7 @@ ms.locfileid: "6733983"
 
 下图显示在您首次在站点构建器中访问名称为“default”的站点时，该站点的 **设置您的站点** 对话框。
 
-![**设置您的站点**对话框。](./media/Domains_SetupyoursiteScreen.png)
+![**设置您的站点**对话框](./media/Domains_SetupyoursiteScreen.png)
 
 可在站点构建器中使用 **选择域** 框将 LCS 中为您的站点提供的一个支持的主机名关联到您的站点。
 
@@ -79,11 +82,11 @@ ms.locfileid: "6733983"
 
 下图显示站点构建器中的 **新建 URL** 对话框，并突出显示了一个示例 URL 路径。 
 
-![站点构建器中的**新建 URL** 对话框。](./media/Domains_PageSetup2a.png)
+![站点构建器中的**新建 URL** 对话框](./media/Domains_PageSetup2a.png)
 
 下图显示站点构建器中的 **URL** 页面，并突出显示了列表中的一个示例 URL。
 
-![策略流中的“运行用户流”选项。](./media/Domains_URLsInSiteBuilder2a.png)
+![策略流中的“运行用户流”选项](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>站点构建器中的域
 
@@ -151,7 +154,7 @@ Commerce 提供的 Azure Front Door 实例不支持 apex 域（其中不包含�
 
   [部署新的电子商务租户](deploy-ecommerce-site.md)
 
-  [设置在线商店渠道](./channel-setup-online.md)
+  [设置在线商店渠道](online-stores.md)
 
   [创建电子商务站点](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ Commerce 提供的 Azure Front Door 实例不支持 apex 域（其中不包含�
   [添加对内容交付网络 (CDN) 的支持](add-cdn-support.md)
 
   [启用基于位置的商店检测](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

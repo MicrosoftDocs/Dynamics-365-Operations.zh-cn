@@ -1,26 +1,29 @@
 ---
 title: 基于“边际基数”和“计算方法”的销售税比率
 description: 本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 8617785ea969f9f4facaccdf81cfaf5344c30839
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727028"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440665"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>基于“边际基数”和“计算方法”的销售税比率
 
@@ -183,6 +186,3 @@ ms.locfileid: "7727028"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

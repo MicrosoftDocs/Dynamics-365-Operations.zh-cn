@@ -2,9 +2,11 @@
 title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065572"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797383"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题解答有关工作流系统的常见问题。
 
@@ -48,9 +47,9 @@ ms.locfileid: "8065572"
     - 将来的更新中，将添加操作中心消息，以便为用户分配工作流工作项。 
 - 向工作流添加通知
     - 可以为特定用户创建操作中心消息，如使用 X++ 从工作流创建的消息。
-    - [工作流具有业务事件](../../dev-itpro/business-events/business-events-workflow.md)，可供客户用于触发具有客户在寻找的通知的流。   
+    - [工作流具有业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)，可供客户用于触发具有客户在寻找的通知的流。   
 
-总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](../../dev-itpro/business-events/business-events-workflow.md)和 Microsoft Power Automate 提供更多通知或不同通知。
+总之，如果在为用户分配工作流工作项时，该用户未收到来自操作中心的正确通知，请利用[工作流业务事件](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow)和 Microsoft Power Automate 提供更多通知或不同通知。
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>为什么工作流编辑器在 AD FS 下无法启动？
 在升级的环境中的 Active Directory 联合身份验证服务 (AD FS) 下运行时，工作流编辑器可能无法启动。 如果是这样，请确保 URL“https://dynamicsaxworkfloweditor/”已添加到 ADFS 设置中的属性 **Microsoft Dynamics 365 for Operations On-premises - 工作流 - 本机应用程序**。
@@ -60,6 +59,3 @@ ms.locfileid: "8065572"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>什么是“工作流增强错误”功能？
 版本 10.0.13 中的“工作流增强错误”功能添加了错误代码来区分不同的工作流错误类。 报告的错误消息大致相似，只有微小差异，以使它们更清晰。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,6 +80,3 @@ ms.locfileid: "4527282"
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations 平台更新 24
 有关 Finance and Operations 平台更新 24 的更多详细信息，请参阅 [Finance and Operations 平台更新 24（2019 年 3 月）中的新增或更改功能](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

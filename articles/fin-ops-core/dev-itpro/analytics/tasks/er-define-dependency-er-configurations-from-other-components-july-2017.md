@@ -1,10 +1,12 @@
 ---
-title: 定义其他组件上的电子报告配置的依赖关系
-description: 本主题介绍如何设计电子报告 (ER) 配置并指定其与其他软件组件的依赖关系。
+title: 定义 ER 配置与其他组件之间的依赖关系
+description: 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 author: NickSelin
-ms.date: 07/23/2021
+manager: AnnBe
+ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717586"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681965"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义其他组件上的电子报告配置的依赖关系
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义 ER 配置与其他组件之间的依赖关系
 
 [!include [banner](../../includes/banner.md)]
 
@@ -137,9 +139,3 @@ ms.locfileid: "6717586"
 26. 在树中，展开“示例数据模型”。
     * 请注意，已下载了模型“示例映射”映射配置和所选数据模型配置。 一起下载这两个文件是因为已将“示例映射”定义为实施所选数据模型，并且其适用于此应用程序。 尚未下载“示例映射（备用）”配置，因为未满足所需应用程序版本的条件。   
     * 如果登录 Finance and Operations，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但将跳过“示例映射”配置。  
-
-## <a name="additional-resources"></a>其他资源
-
-[管理电子报告 (ER) 配置生命周期](../general-electronic-reporting-manage-configuration-lifecycle.md)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

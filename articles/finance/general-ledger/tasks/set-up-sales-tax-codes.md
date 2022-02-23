@@ -2,23 +2,26 @@
 title: 设置销售税代码
 description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税代码。
 author: twheeloc
-ms.date: 09/27/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 3dad006b486f7cd6714c713a3bd83a95fdf0d2b5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562094"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440660"
 ---
 # <a name="set-up-sales-tax-codes"></a>设置销售税代码
 
@@ -38,19 +41,8 @@ ms.locfileid: "7562094"
 8. 在界面顶部的 **操作窗格** 上，选择 **销售税代码**。
 9. 选择 **值**。
 10. 在 **值** 列中输入此税代码的值。
-
-    在 **计算** 快速选项卡上的 **来源** 字段中，如果选择 **单位金额**，将用该数值乘以该交易记录数量以计算销售税金额。  如果税码不是基于单位税，则该值为在用于该税码的来源上，用以计算销售税金额的百分比。     
-
+    - 在 **计算** 快速选项卡上的“来源”字段中，如果选择“单位金额”，将用该数值乘以该交易记录数量得出销售税金额。  如果销售税代码不是基于单位税，则该值为在用于该税码的来源上，用以计算销售税金额的百分比。     
 11. 选择 **保存**。
 12. 关闭该页面。
 13. 选择 **保存**。
 
-从 Microsoft Dynamics 365 Finance 版本 10.0.22 开始，如果您正在使用 [税务服务](../../localizations/global-tax-calcuation-service-overview.md)，并且在 **功能管理** 工作区中启用了 [**支持多个增值税登记编号**](../../localizations/emea-multiple-vat-registration-numbers.md)功能 ，则您可以使用 **税务类型** 字段来指定税码的类型。 提供以下值：
-
-- 标准增值税
-- 减少增值税
-- 增值税 0%
-- 消费税
-- 其他
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

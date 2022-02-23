@@ -2,22 +2,25 @@
 title: 在 POS 中处理序列化产品
 description: 本主题说明如何在销售点 (POS) 应用程序中管理序列化产品。
 author: boycezhu
-ms.date: 01/08/2021
+manager: annbe
+ms.date: 08/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410599"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>在 POS 中处理序列化产品
 
@@ -87,52 +90,8 @@ ms.locfileid: "6737570"
 - **Retail 和 Commerce** > **Retail 和 Commerce IT** > **产品和库存** > **具有跟踪维度的产品可用性**
 - **Retail 和 Commerce** > **分配计划** > **1130**（**产品可用性**）
 
-## <a name="sell-serialized-items-in-pos"></a>在 POS 中销售序列化产品
-
-虽然 POS 应用程序始终支持销售序列化商品，但在 Commerce 版本 10.0.17 及更高版本中，组织可以启用功能来增强销售配置了序列号跟踪的产品时触发的业务逻辑。
-
-当 **POS 订单捕获和订单履行中增强的序列号验证** 功能启用时，在 POS 中销售序列化产品时，将评估以下产品配置：
-
-- 产品的 **序列类型** 设置（**有效** 或 **在销售中有效**）。
-- 产品的 **允许空发货** 设置。
-- 产品和/或销售仓库的 **实际负库存** 设置。
-
-### <a name="active-serial-configurations"></a>有效的序列配置
-
-在配置了 **有效** 序列号跟踪维度的 POS 中销售产品时，POS 会启动验证逻辑来阻止用户完成在销售仓库的当前库存中找不到的序列号的序列化产品的销售。 此验证规则有两个例外：
-
-- 如果该产品还配置为启用 **允许空发货**，用户可以跳过序列号输入，直接在不指定序列号的情况下销售产品。
-- 如果产品和/或销售仓库配置为启用 **实际负库存**，应用程序接受和销售的序列号无法被确认是否在销售该序列号所依靠的仓库的库存中。 此配置允许该特定产品/序列号的库存交易记录为负，因此系统将允许销售未知序列号。
-
-> [!IMPORTANT]
-> 要确保 POS 应用程序可以正确验证所销售的 **有效** 序列类型产品的序列号是否在销售仓库的库存中，需要组织运行 Commerce headquarters 中的 **具有跟踪维度的产品可用性** 作业，并经常通过 Commerce headquarters 运行附带的 **1130** 产品可用性分配作业。 当新的序列化库存被接收到销售仓库中时，为了让 POS 验证所销售的序列号的库存可用性，库存主数据库必须经常使用最新的库存可用性数据来更新渠道数据库。 **具有跟踪维度的产品可用性** 作业为所有公司仓库拍摄主库存的当前快照，包括序列号。 **1130** 分配作业将获取该库存快照并将其与所有已配置的渠道数据库共享。
-
-### <a name="active-in-sales-process-serial-configurations"></a>“在销售流程中有效”序列配置
-
-将序列维度配置为 **在销售流程中有效** 的产品不会通过任何库存验证逻辑，因为此配置意味着库存序列号未预先登记到存货中，序列号仅在销售时捕获。  
-
-如果还为配置了 **在销售流程中有效** 的产品配置了 **允许空发货**，则可以跳过序列号输入。 如果未配置 **允许空发货**，应用程序将需要用户输入序列号，即使不会根据可用库存进行验证。
-
-### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>在创建 POS 交易期间应用序列号
-
-POS 应用程序会在销售序列化产品时立即提示用户捕获序列号，但是此应用程序允许用户跳过序列号的输入，直接转到销售流程中的某个点。 当用户开始捕获付款时，应用程序将强制执行并要求为所有未配置为通过未来装运或提货履行的产品输入序列号。 为现金和结转或结转履行配置的任何序列化产品，都需要用户在完成销售之前捕获序列号（或同意将其留空(如果产品配置允许)）。
-
-对于销售的要在将来提货或装运的序列化产品，POS 用户可以在最初跳过输入序列号，仍然可以完成客户订单的创建。   
-
-> [!NOTE]
-> 在通过 POS 应用程序销售或履行序列化产品时，销售交易中的序列化产品将被强制选择数量“1”。 这是由在销售行上跟踪序列号信息的方式决定的结果。 通过 POS 销售或履行多个序列化产品的交易时，每个销售行只能配置为数量为“1”。 
-
-### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>在客户订单履行或提货期间应用序列号
-
-在 POS 中使用 **订单履行** 操作履行序列化产品的客户订单行时，POS 会在最终履行之前强制捕获序列号。 因此，如果在初始订单捕获过程中未提供序列号，则必须在 POS 中在提货、包装或装运流程中捕获序列号。 验证将在每个步骤执行，仅在序列号数据丢失或不再有效时才会要求用户输入序列号数据。 例如，如果用户跳过提货或包装步骤，直接开始装运，而该行尚未登记序列号，POS 将要求在完成最终发票步骤之前输入序列号。 在 POS 中执行订单履行操作过程中强制捕获序列号时，本主题前面提到的所有规则仍然适用。 仅配置为 **有效** 的序列化产品会接受序列号库存存货验证。 配置为 **在销售流程中有效** 的产品不会被验证。 如果 **有效** 产品允许 **实际负库存**，则将接受任何序列号，无论存货可用性如何。 对于 **有效** 和 **在销售流程中有效** 产品，如果配置了 **允许空发货**，则用户可以在提货、包装和装运步骤中根据需要将序列号留为空白。
-
-当用户在 POS 中对客户订单执行提货操作时，也会进行序列号验证。 除非序列化产品通过了前面提到的验证，POS 应用程序不允许对序列化产品完成提货。 验证始终基于产品的跟踪维度和销售仓库配置。 
-
 ## <a name="additional-resources"></a>其他资源
 
-[POS 中的传入库存操作](./pos-inbound-inventory-operation.md)
+[POS 中的传入库存操作](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
-[POS 中的传出库存操作](./pos-outbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[POS 中的传出库存操作](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)

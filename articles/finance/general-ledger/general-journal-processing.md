@@ -1,26 +1,29 @@
 ---
 title: 普通日记帐处理
 description: 本主题介绍 Microsoft Dynamics 365 Finance 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726766"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440867"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 
@@ -42,14 +45,14 @@ ms.locfileid: "7726766"
 
 日记帐名称只能用于调整。 在这种情况下，您可以指定只有 **分类帐** 科目类型在所有公司都有效。 
 
-[![日记帐控制科目类型。](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 日记帐名称只能用于某个特定科目段或用于主科目的某个范围。 
 
-[![日记帐控制段。](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![日记帐控制科目段](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **自动冲销** 选项可用于普通日记帐。 例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。
-[![普通日记帐冲销。](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![普通日记帐冲销](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。 **在 Excel 中打开行** 操作可用于 **普通日记帐** 和 **日记帐凭证** 页。 
 
@@ -102,6 +105,3 @@ ms.locfileid: "7726766"
 
 ## <a name="delete-journal-lines"></a>删除日记帐行
 可通过 **功能** > **删除日记帐行** 中的日记帐启用用于快速删除所有日记帐行的功能。 若要启用此功能，请在 **功能管理** 中选择 **删除日记帐性能优化**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

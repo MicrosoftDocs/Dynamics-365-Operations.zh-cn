@@ -2,9 +2,11 @@
 title: 运输负荷部分装运
 description: 本主题说明如何部分装运装载和推迟规划装载的产能。
 author: Mirzaab
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5ea844531314b4dd2ff3fa46d8f0b57d9c47059e684d677f06f8259b264d4a90
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68a3d175e89e89d0909b140863b1aa61a184fce6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782291"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963277"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>运输负荷部分装运
 
@@ -63,6 +65,3 @@ ms.locfileid: "6782291"
 
 1. 选择 **仓库管理** \> **负荷** \> **运输负荷**。
 2. 在操作窗格上 **装运和接收** 选项卡上 **确认** 组中，选择 **运输**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: 资产视图
 description: 本主题介绍资产管理中的资产视图。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765530"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019396"
 ---
 # <a name="asset-view"></a>资产视图
 
@@ -45,6 +47,3 @@ ms.locfileid: "6765530"
 如果已经在树视图中选择了一个资产，则可选择 **有效请求** 或 **有效工作订单** 查看与资产有关的维护请求或工作订单。 也可以选择 **打开** \> **功能位置**、**资产** 或 **资产 BOM** 以打开相关视图。
 
 可在其中选择资产的任何资产查找中也提供可在 **视图** 字段中选择的 **资产功能位置** 选项。 例如，**资产视图** 选项卡上将显示树视图，可在其中[创建资产](../objects/create-an-object.md)，创建维护请求或创建工作订单。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

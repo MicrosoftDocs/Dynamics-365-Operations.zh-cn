@@ -1,23 +1,26 @@
 ---
 title: 管理国际银行帐号 (IBAN) 帐户验证
 description: 此主题介绍如何管理国际银行帐号 (IBAN) 帐户验证。
-author: roschlom
+author: mikefalkner
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860811"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440770"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 
@@ -45,6 +48,3 @@ ms.locfileid: "7860811"
     此项验证还会验证银行帐号是否与表示银行帐号的 IBAN 部分匹配。 如果银行帐号不匹配，将收到警告消息。 此消息只是警告。 即使银行帐号不匹配，也可以继续操作。
 
     此项验证还会验证银行代号是否与表示银行代号的 IBAN 部分匹配。 银行代号包含一个银行编号，通常是其他分行。 如果银行代号不匹配，将收到警告消息。 此消息只是警告。 即使银行代号不匹配，也可以继续操作。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

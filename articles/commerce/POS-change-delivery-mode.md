@@ -2,9 +2,11 @@
 title: 在 POS 中更改交货方式
 description: 此主题介绍如何在 POS 中配置和使用更改交货方式操作。
 author: hhainesms
+manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714032"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965419"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>在 POS 中更改交货方式
 
@@ -31,7 +33,7 @@ ms.locfileid: "6714032"
 
 更改交货方式功能让您可以选择更改 POS 交易记录中一个或多个装运配置的销售行的交货方式。 在 Commerce 的之前版本中，如果要更改现有行中为装运配置的交货方式，必须完成整个 **全部装运** 或 **装运所选产品** 配置流。 此流程需要大量时间，可能导致意外更改行的交货源或交货日期。 此新功能提供了一种备选方法，可以有效更新这些销售行的交货方式。
 
-有关如何向 POS 按钮网格中的按钮添加操作的详细信息，请参阅[销售点的屏幕布局](pos-screen-layouts.md)。
+有关如何向 POS 按钮网格中的按钮添加操作的详细信息，请参阅[销售点的屏幕布局](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts)。
 
 在 POS 中配置此功能之后，如果选择 **更改交货方式**，将显示一个列表页，可供您选择要更改其交货方式的交易记录的行。 可以选择部分或全部行，也可以退出但不进行任何更改。 之前为装运配置的销售行是列表中您只能更改的行。 如果要将为提货或送货上门指定的行更改为装运，必须使用 **全部装运** 或 **装运所选产品** 操作。 相反，如果要将指定为装运的行更改为提货或送货上门，必须使用 **全部提货**、**所选产品提货**、**全部送货上门** 或 **所选产品送货上门** 操作。
 
@@ -44,6 +46,3 @@ ms.locfileid: "6714032"
 [创建呼叫中心订单](tasks/create-call-center-orders.md)
 
 [按交货模式自定义事务电子邮件](customize-email-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

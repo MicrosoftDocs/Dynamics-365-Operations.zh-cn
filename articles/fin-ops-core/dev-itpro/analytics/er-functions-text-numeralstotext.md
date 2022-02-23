@@ -2,8 +2,11 @@
 title: NUMERALSTOTEXT ER 函数
 description: 本主题提供有关 NUMERALSTOTEXT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
+manager: kfend
 ms.date: 12/10/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76431642a6d6961c5c9a2bf15534ad58f83d312dfb3723e75c94fa844717930b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4af3926998d128f8269ab9af46caeb8be896509
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719409"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680210"
 ---
 # <a name="numeralstotext-er-function"></a>NUMERALSTOTEXT ER 函数
 
@@ -85,6 +88,3 @@ NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal po
 ## <a name="additional-resources"></a>其他资源
 
 [文本函数](er-functions-category-text.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

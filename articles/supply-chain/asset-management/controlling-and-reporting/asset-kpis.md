@@ -1,10 +1,12 @@
 ---
 title: 资产 KPI
 description: 本主题介绍资产管理中的资产 KPI。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778740"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021772"
 ---
 # <a name="asset-kpis"></a>资产 KPI
 
@@ -82,11 +84,8 @@ ms.locfileid: "6778740"
 
 下图显示四个资产的 KPI 计算的屏幕截图。
 
-![四个资产的 KPI 计算的屏幕截图。](media/11-controlling-and-reporting.png)
+![四个资产的 KPI 计算的屏幕截图](media/11-controlling-and-reporting.png)
 
 - 可以在 **所有资产** 中选择多个资产，然后单击 **常规** 选项卡上的 **资产 KPI** 按钮。再单击 **计算资产 KPI** 对话框中的 **确定** 以计算所选资产的 KPI。  
 - KPI 计算结果未必包含[维护停机时间登记](../work-orders/maintenance-downtime.md)，具体取决于对维护停机时间原因代码的设置和使用。 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

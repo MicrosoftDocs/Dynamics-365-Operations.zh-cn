@@ -2,9 +2,11 @@
 title: 推迟执行 ER 格式的 XML 元素
 description: 本主题说明如何推迟执行电子报告 (ER) 格式的 XML 元素。
 author: NickSelin
-ms.date: 04/23/2021
+manager: kfend
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718373"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680702"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -44,7 +46,7 @@ ms.locfileid: "6718373"
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>示例：推迟执行 ER 格式的 XML 元素
 
-以下步骤说明了具有系统管理员或电子报告职能顾问[角色](../sysadmin/tasks/assign-users-security-roles.md)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的 XML 元素。
+以下步骤说明了具有系统管理员或电子报告职能顾问[角色](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)的用户如何配置一个 ER 格式，以包含执行顺序与格式层次结构中的执行顺序不同的 XML 元素。
 
 这些步骤可以在 **USMF** 公司内的 Microsoft Dynamics 365 Finance 中执行。
 
@@ -59,14 +61,14 @@ ms.locfileid: "6718373"
 
 | 内容描述            | 文件名 |
 |--------------------------------|-----------|
-| ER 数据模型配置    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
-| ER 模型映射配置 | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
+| ER 数据模型配置    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER 模型映射配置 | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 在开始之前，您还必须将示例 ER 解决方案的以下配置下载并保存到本地计算机上。
 
 | 内容描述     | 文件名 |
 |-------------------------|-----------|
-| ER 格式配置 | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
+| ER 格式配置 | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="import-the-sample-er-configurations"></a>导入示例 ER 配置
 
@@ -90,14 +92,14 @@ ms.locfileid: "6718373"
 6. 在配置树中，展开 **用于了解推迟的元素的模型**。
 7. 在配置树中查看导入的 ER 配置的列表。
 
-    ![“配置”页面上导入的 ER 配置。](./media/ER-DeferredXml-Configurations.png)
+    ![“配置”页面上导入的 ER 配置](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>激活配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 Litware, Inc. (`http://www.litware.com`) 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出此配置提供程序，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](./tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
 
-    ![“本地化配置”页面上的 Litware, Inc. 示例公司。](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![“本地化配置”页面上的示例公司 Litware, Inc.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>查看导入的模型映射
 
@@ -119,7 +121,7 @@ ms.locfileid: "6718373"
     - **分组依据** 类型的 *已分组* 数据源被配置为将 **已筛选** 数据源的已筛选税收交易记录分组。
     - **已分组** 数据源的 **TotalSum** 聚合字段被配置为针对该数据源的所有已筛选税收交易记录汇总 **已筛选** 数据源的 **\$TaxAmount** 字段值。
 
-        ![编辑“GroupBy”参数页面上的 TotalSum 聚合字段。](./media/ER-DeferredXml-GroupByParameters.png)
+        ![“编辑‘GroupBy’参数”页面上的 TotalSum 聚合字段](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. 查看配置的数据源如何绑定到数据模型，以及它们如何公开访问的数据以使其以 ER 格式可用：
 
@@ -127,7 +129,7 @@ ms.locfileid: "6718373"
     - **已筛选** 数据源的 **\$TaxAmount** 字段已绑定到数据模型的 **Data.List.Value** 字段。
     - **已分组** 数据源的 **TotalSum** 字段已绑定到数据模型的 **Data.Summary.Total** 字段。
 
-    ![模型映射设计器页面。](./media/ER-DeferredXml-ModelMapping.png)
+    ![模型映射设计器页面](./media/ER-DeferredXml-ModelMapping.png)
 
 10. 关闭 **模型映射设计器** 和 **模型映射** 页面。
 
@@ -143,7 +145,7 @@ ms.locfileid: "6718373"
     - **报表\\消息\\记录** XML 元素被配置为用显示单项税收交易记录详细信息的单个记录节点填充出站文档。
     - **报表\\消息\\汇总** XML 元素被配置为用包括已处理税收交易记录中税收值总计的单个汇总节点填充的出站文档。
 
-    ![“格式设计器”页面上的消息 XML 元素和嵌套 XML 元素。](./media/ER-DeferredXml-Format.png)
+    ![“格式设计器”页面上的消息 XML 元素和嵌套 XML 元素](./media/ER-DeferredXml-Format.png)
 
 5. 在 **映射** 选项卡上，查看以下详细信息：
 
@@ -157,14 +159,14 @@ ms.locfileid: "6718373"
     - **TotalTaxAmount** 属性已绑定到 **model.Data.Summary.Total** 以生成已处理税收交易记录的税收值总和。
     - **ExecutionDateTime** 属性会生成汇总节点的添加日期和时间（包括毫秒）。
 
-    ![“格式设计器”页面上的“映射”选项卡。](./media/ER-DeferredXml-Format2.png)
+    ![“格式设计器”页上的“映射”选项卡](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>运行导入的格式
 
 1. 在 **格式设计器** 页上，选择 **运行**。
 2. 下载 Web 浏览器提供的文件，然后将其打开以进行检查。
 
-    ![导入格式的下载文件。](./media/ER-DeferredXml-Run.png)
+    ![下载的文件](./media/ER-DeferredXml-Run.png)
 
 请注意，汇总节点显示了已处理交易记录的税收值总和。 由于该格式已配置为使用 **model.Data.Summary.Total** 绑定返回此总和，所以通过调用模型映射中 **GroupBy** 类型的 **已分组** 数据源 *TotalSum* 汇总计算了此总和。 为了计算此汇总，模型映射会在 **已筛选** 数据源中选择的所有交易记录上迭代。 通过比较汇总节点和最后一个记录节点的执行时间，可以确定计算总和用了 12 毫秒 (ms)。 通过比较第一个和最后一个记录节点的执行时间，可以确定生成所有记录节点用了 9 ms。 因此，总共需要 21 ms。
 
@@ -178,25 +180,25 @@ ms.locfileid: "6718373"
 4. 将 **收集的数据密钥名称** 表达式配置为 `WsColumn`。
 5. 将 **收集的数据密钥值** 表达式配置为 `WsRow`。
 
-    ![“格式设计器”页面上的记录 XML 元素。](./media/ER-DeferredXml-Format3.png)
+    ![“格式设计器”页面上的记录 XML 元素](./media/ER-DeferredXml-Format3.png)
 
 6. 选择 **报表\\消息\\记录\\TaxAmount** 属性。
 7. 将 **收集的数据密钥名称** 表达式配置为 `SummingAmountKey`。
 
-    ![“格式设计器”页面上的 TaxAmount 属性。](./media/ER-DeferredXml-Format4.png)
+    ![“格式设计器”页面上的 TaxAmount 属性](./media/ER-DeferredXml-Format4.png)
 
     您可以考虑使用此设置来实现虚拟工作表，其中单元格 A1 的值将附加来自每个已处理税收交易记录的税额值。
 
 8. 选择 **报表\\消息\\记录\\RunningTotal** 属性，然后选择 **编辑公式**。
 9. 使用内置 [SUMIF](er-functions-datacollection-sumif.md) ER 函数配置 `SUMIF(SummingAmountKey, WsColumn, WsRow)` 表达式，然后选择 **保存**。
 
-    ![SUMIF 表达式。](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![SUMIF 表达式](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. 关闭 **公式设计器** 页。
 11. 选择 **保存**，然后选择 **运行**。
 12. 下载并查看 Web 浏览器提供的文件。
 
-    ![生成的含累计总和的税务值列表。](./media/ER-DeferredXml-Run1.png)
+    ![下载的文件](./media/ER-DeferredXml-Run1.png)
 
     最后一个记录节点包含使用生成的输出作为数据源为所有已处理交易记录计算的税值累计总和。 此数据源从报表的开头开始，一直持续到最后一个税收交易记录。 汇总节点包含使用 *GroupBy* 类型数据源在模型映射中计算的所有已处理交易记录的税值总和。 请注意，这些值相等。 因此，可以使用基于输出的求和来代替 **GroupBy**。 通过比较第一个记录节点和汇总节点的执行时间，可以确定生成所有记录节点并进行汇总用了 11 ms。 因此，就生成记录节点和税值总和而言，修改后的格式大约比原始格式快两倍。
 
@@ -205,7 +207,7 @@ ms.locfileid: "6718373"
 15. 选择 **保存**，然后选择 **运行**。
 16. 下载并查看 Web 浏览器提供的文件。
 
-    ![使用经过编辑的公式生成的税务值列表。](./media/ER-DeferredXml-Run2.png)
+    ![下载的文件](./media/ER-DeferredXml-Run2.png)
 
     请注意，最后一个记录节点中的税收值累计总和现在等于汇总节点上的总和。
 
@@ -218,7 +220,7 @@ ms.locfileid: "6718373"
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![报表标题的税务值的下载文件。](./media/ER-DeferredXml-Run3.png)
+    ![下载的文件](./media/ER-DeferredXml-Run3.png)
 
     请注意，汇总节点中的税收值总和现在等于 0（零），因为此总和现在是基于生成的输出计算的。 生成第一个记录节点时，生成的输出尚不包含具有交易记录明细的记录节点。 您可以配置此格式以延迟执行 **报表\\消息\\汇总** 元素，直到已经为所有税收交易记录运行了 **报表\\消息\\记录** 元素为止。
 
@@ -227,12 +229,12 @@ ms.locfileid: "6718373"
 1. 在 **格式设计器** 页面的 **格式** 选项卡上，选择 **报表\\消息\\汇总** XML 元素。
 2. 将 **推迟执行** 选项设置为 **是**。
 
-    ![“格式设计器”页面上“汇总”XML 元素的推迟执行选项。](./media/ER-DeferredXml-Format5.png)
+    ![“格式设计器”页面上“汇总”XML 元素的推迟执行选项](./media/ER-DeferredXml-Format5.png)
 
 3. 选择 **保存**，然后选择 **运行**。
 4. 下载并查看 Web 浏览器提供的文件。
 
-    ![推迟执行的下载文件。](./media/ER-DeferredXml-Run4.png)
+    ![下载的文件](./media/ER-DeferredXml-Run4.png)
 
     **报表\\消息\\汇总** 元素现在仅在其父元素 **报表\\消息** 下嵌套的所有其他项目运行之后才运行。 因此，它在针对 **model.Data.List** 数据源的所有税收交易记录运行 **报表\\消息\\记录** 元素后运行。 第一个和最后一个记录节点的执行时间以及标题和汇总节点的执行时间揭示了这一事实。
 
@@ -241,6 +243,3 @@ ms.locfileid: "6718373"
 - [配置格式以执行计数和合计](./tasks/er-format-counting-summing-1.md)
 - [跟踪 ER 格式的执行情况以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 - [推迟执行 ER 格式的序列元素](er-defer-sequence-element.md#Example)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

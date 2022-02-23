@@ -1,30 +1,34 @@
 ---
 title: 指定如何处置退回物料
 description: 指定如何处置退回物料。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571321"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422667"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料
+# <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
 
 [!include [banner](../includes/banner.md)]
+
 
 在您处理退货单时，必须指定一个退货原因代码来标识产品被退回的原因。 您还必须指定一个处置代码和处置操作代码来确定该如何处理被退回的产品。
 
@@ -34,9 +38,9 @@ ms.locfileid: "7571321"
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -124,8 +128,8 @@ ms.locfileid: "7571321"
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,15 +165,21 @@ ms.locfileid: "7571321"
 </tbody>
 </table>
 
+
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>为检验单选择处置代码
 
-1. 转到 **库存管理** \> **定期** \> **质量管理** \> **检验单**。
-1. 对于现有检验单，请从 **概述** 选项卡上的 **处置代码** 字段中选择某一操作。
+1.  单击 **库存管理** \> **定期** \> **质量管理** \> **检验单**。
+
+2.  对于现有检验单，请从 **概述** 选项卡上的 **处置代码** 字段中选择某一操作。
+
+
 
 ## <a name="see-also"></a>请参阅
 
-[检验单（窗体）](/dynamicsax-2012//quarantine-order-form)
+[检验单（窗体）](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
 [处置代码（窗体）](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

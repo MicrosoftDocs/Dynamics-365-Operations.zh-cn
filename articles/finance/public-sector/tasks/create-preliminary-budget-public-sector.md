@@ -2,24 +2,27 @@
 title: 为公共部门生成基本预算
 description: 您可以为特定的预算模型和维度值创建初步预算登记条目。
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baa9fd8be3b1a46c4b8e4316fdc096f6917fa8a36d77f0d1914b2174aa9f5086
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05e8059f44000fd305ed2c2555511da29b130af9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440845"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>为公共部门生成基本预算
 
@@ -50,6 +53,3 @@ ms.locfileid: "6723687"
 19. 单击“更新”。
     * 要查看更新的结果，请单击蓝色栏上的“详细消息”。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

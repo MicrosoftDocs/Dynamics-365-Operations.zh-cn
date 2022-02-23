@@ -2,24 +2,27 @@
 title: 配置渠道以使用渠道导航层次结构
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置渠道以使用渠道导航层次结构。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410390"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>配置渠道以使用渠道导航层次结构
 
@@ -45,7 +48,7 @@ ms.locfileid: "6713984"
 
 下图显示了如何配置渠道以使用渠道导航层次结构。
 
-![渠道配置示例。](media/configure-channel-hierarchy-1.png)
+![渠道配置示例](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>设置属性元数据
 
@@ -61,9 +64,9 @@ ms.locfileid: "6713984"
 
 下图显示了在渠道类别节点上配置的一组渠道产品属性的示例。
 
-![渠道类别节点上的渠道属性。](media/configure-channel-hierarchy-2.png)
+![渠道类别节点上的渠道属性](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>发布更改
+## <a name="publish-changes"></a>发布渠道
 
 若要让更改生效，则需要发布这些更改。
 
@@ -74,13 +77,10 @@ ms.locfileid: "6713984"
 
 下图显示了如何发布渠道更新。
 
-![发布渠道更新。](media/configure-channel-hierarchy-3.png)
+![发布渠道更新](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [创建渠道导航层次结构](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

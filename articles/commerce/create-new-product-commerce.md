@@ -2,9 +2,11 @@
 title: 在 Commerce 中创建新产品
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新产品。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965296"
 ---
 # <a name="create-a-new-product-in-commerce"></a>在 Commerce 中创建新产品
 
@@ -49,13 +51,13 @@ ms.locfileid: "6753714"
 
 下图显示了添加的产品示例。
 
-![创建产品。](media/create-new-product.png)
+![创建产品](media/create-new-product.png)
 
 添加产品后，可以为其设置其他数据，例如 **产品描述**、**变型组**、**维度组**、**产品属性** 和 **相关产品**。
 
 下图显示了产品的其他详细信息。
 
-![产品详细信息。](media/create-new-product-2.png)
+![产品详细信息](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>创建产品变型
 
@@ -74,23 +76,23 @@ ms.locfileid: "6753714"
 
 1. 从产品页面中，选择 **发布产品**。
 
-    ![发布产品。](media/create-new-product-3.png)
+    ![发布产品](media/create-new-product-3.png)
 
 1. 选择要发布的产品，然后选择 **下一个**。
 
-    ![选择要发布的产品。](media/create-new-product-4.png)
+    ![选择要发布的产品](media/create-new-product-4.png)
 
 1. 选择要发布的产品变型集，然后选择 **下一个**。
 
-    ![选择要发布的变型。](media/create-new-product-5.png)
+    ![选择要发布的变型](media/create-new-product-5.png)
 
 1. 选择法人，然后选择 **下一个**。
 
-    ![选择法人。](media/create-new-product-6.png)
+    ![选择法人](media/create-new-product-6.png)
 
 1. 选择 **完成**。
 
-    ![完成产品发布。](media/create-new-product-7.png)
+    ![完成产品发布](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>配置发布的产品
 
@@ -105,13 +107,10 @@ ms.locfileid: "6753714"
 
 下图显示了一个已发布产品的配置示例。
 
-![配置发布的产品。](media/create-new-product-8.png)
+![配置发布的产品](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [创建法人](channels-legal-entities.md)
 
-[创建款式组](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[创建变型组](create-variant-group.md) 

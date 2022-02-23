@@ -2,9 +2,11 @@
 title: 总成本分摊方法
 description: 本主题提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。
 author: AndersGirke
+manager: tfehr
 ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c11b847b5b7995e4eb61e69888aa00d4a5d4478850ce6a346561e0ea0e256b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a588819926ddd6cb118dd2c12e4cad29f96672df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715834"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967525"
 ---
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
 
@@ -59,6 +61,3 @@ ms.locfileid: "6715834"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

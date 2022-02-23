@@ -2,13 +2,16 @@
 title: 零售报表
 description: 本主题描述如何创建报表和过帐。
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410605"
 ---
 # <a name="retail-statements"></a>零售对帐单
 
@@ -31,7 +34,7 @@ ms.locfileid: "6738688"
 
 下图显示了报表过帐流程。 在此流程中，通过使用商业调度将 POS 中记录的交易记录传输给客户端。 在客户端接收交易记录后，你可以为商店创建、计算和过帐交易记录报表。
 
-[![报表过帐流程。](./media/retail-statements.png)](./media/retail-statements.png)
+[![报表过帐流程](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>创建和过帐报表
 
@@ -85,6 +88,3 @@ ms.locfileid: "6738688"
 - 在 POS 中将客户添加到交易记录所针对的销售会生成单独的销售订单和发票，每个针对一个独有客户。
 
 付款日志在报表中自动为付款创建，并且库存，为 POS 商店更新。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

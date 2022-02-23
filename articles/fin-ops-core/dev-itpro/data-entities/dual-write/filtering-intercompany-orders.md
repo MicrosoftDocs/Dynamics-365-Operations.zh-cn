@@ -2,19 +2,28 @@
 title: 筛选内部公司订单以避免同步订单和订单行
 description: 本主题说明如何筛选内部公司订单，以不同步 Orders 和 OrderLines 实体。
 author: negudava
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: negudava
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-09-20
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782545"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796598"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>筛选内部公司订单以避免同步订单和订单行
 
@@ -26,37 +35,34 @@ ms.locfileid: "7782545"
 
 1. 通过添加对 **IntercompanyOrder** 列的引用扩展 **CDS 销售订单标头** 表。 仅在内部公司订单中填充此列。 **SalesTable** 表中有 **IntercompanyOrder** 列。
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="将暂存映射到 CDS 销售订单标头的目标页面。":::
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="将暂存映射到 CDS 销售订单标头的目标页面":::
 
 2. 扩展 **CDS 销售订单标头** 之后，映射中将可以使用 **IntercompanyOrder** 列。 应用将 `INTERCOMPANYORDER == ""` 作为查询字符串的筛选器。
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="CDS 销售订单标头的编辑查询对话框。":::
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="CDS 销售订单标头的编辑查询对话框":::
 
 3. 通过添加对 **IntercompanyInventTransId** 列的引用扩展 **CDS 销售订单行** 表。 仅在内部公司订单中填充此列。 **SalesLine** 表中有 **InterCompanyInventTransId** 列。
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="将暂存映射到 CDS 销售订单行的目标页面。":::
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="将暂存映射到 CDS 销售订单行的目标页面":::
 
 4. 扩展 **CDS 销售订单行** 之后，映射中将可以使用 **IntercompanyInventTransId** 列。 应用将 `INTERCOMPANYINVENTTRANSID == ""` 作为查询字符串的筛选器。
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="CDS 销售订单行的编辑查询对话框。":::
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="CDS 销售订单行的编辑查询对话框":::
 
 5. 重复步骤 1 和 2 扩展 **销售发票标题 V2** 表并添加筛选器查询。 在这种情况下，使用 `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` 作为筛选器的查询字符串。
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="将暂存映射到销售发票标头 V2 的目标页面。":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="将暂存映射到销售发票标题 V2 的目标页面":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="销售发票标头 V2 的编辑查询对话框。":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="销售发票标题 V2 的编辑查询对话框":::
 
 6. 重复步骤 3 和 4 扩展 **销售发票行 V2** 表并添加筛选器查询。 在这种情况下，使用 `INTERCOMPANYINVENTTRANSID == ""` 作为筛选器的查询字符串。
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="销售发票行 V2 的编辑查询对话框。":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="销售发票行 V2 的编辑查询对话框":::
 
 7. **报价单** 表没有内部公司关系。 如果有人为您的内部公司客户之一创建报价单，您可以使用 **CustGroup** 列将所有这些客户归为一个客户组。 您可以通过添加 **CustGroup** 列来扩展标题和行，然后进行筛选，以使该组不包括在内。
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="将暂存映射到 CDS 销售报价单标头的目标页面。":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="将暂存映射到 CDS 销售报价单标题的目标页面":::
 
 8. 扩展 **报价单** 后，应用将 `CUSTGROUP != "<company>"` 作为查询字符串的筛选器。
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS 销售报价单标头的编辑查询对话框。":::
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS 销售报价单标题的编辑查询对话框":::

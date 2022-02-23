@@ -2,9 +2,11 @@
 title: Power BI ER 目标类型
 description: 此主题提供有关如何为出站文档配置 Power BI ER 目标类型的信息。
 author: NickSelin
+manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3355c3bced950f65964b124fee553d8c5b53c6b0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777420"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679574"
 ---
 # <a name="power-bi-destination"></a>Power BI 目标
 
@@ -30,12 +32,9 @@ ms.locfileid: "6777420"
 
 将 **已启用** 设置为 **是**，以便使用您的 ER 配置安排数据从您的 Dynamics 365 Finance 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅[配置电子申报 (ER) 以便将数据导入 Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)。
 
-[![目标设置页面。](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![目标设置页面](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

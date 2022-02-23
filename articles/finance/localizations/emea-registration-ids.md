@@ -2,24 +2,27 @@
 title: 登记 ID
 description: 本主题提供有关设置和使用登记 ID 的信息。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a0b978228e26ec70457a4bcb1c064070953909b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782808"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440904"
 ---
 # <a name="registration-ids"></a>登记 ID
 
@@ -55,7 +58,7 @@ ms.locfileid: "6782808"
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>输入全球通讯簿记录的登录 ID
 
-全球通讯簿 (GAB) 包含客户、供应商、联系人、业务关系和法人的统一地址格式。 有关详细信息，请参阅[全球通讯簿概览](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md)。 存储在全球通讯簿中的当事方记录可能包含一个或多个地址记录。 这些地址用于多种目的，例如记帐或交运。 可以为客户、供应商、工作人员和法人的地址信息设置登记 ID。 找到要为其输入登记 ID 的当事方（法人、供应商、客户、工作人员）记录，然后在与当事方、法人、供应商、客户、工作人员有关的窗体上单击 **登记 ID** 打开 **管理地址** 页面。 在 **税务登记** 选项卡上，单击 **添加**，然后输入有关登记 ID 的以下信息。
+全球通讯簿 (GAB) 包含客户、供应商、联系人、业务关系和法人的统一地址格式。 有关详细信息，请参阅[全球通讯簿概览](../../fin-and-ops/organization-administration/overview-global-address-book.md)。 存储在全球通讯簿中的当事方记录可能包含一个或多个地址记录。 这些地址用于多种目的，例如记帐或交运。 可以为客户、供应商、工作人员和法人的地址信息设置登记 ID。 找到要为其输入登记 ID 的当事方（法人、供应商、客户、工作人员）记录，然后在与当事方、法人、供应商、客户、工作人员有关的窗体上单击 **登记 ID** 打开 **管理地址** 页面。 在 **税务登记** 选项卡上，单击 **添加**，然后输入有关登记 ID 的以下信息。
 
 
 |字段                |说明                                                |
@@ -109,6 +112,3 @@ ms.locfileid: "6782808"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

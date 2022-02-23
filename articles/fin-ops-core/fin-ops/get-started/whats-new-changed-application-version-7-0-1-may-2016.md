@@ -2,9 +2,11 @@
 title: Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 description: 本文介绍了 Microsoft Dynamics AX 应用程序版本 7.0.1 中的新功能和更改的功能。 本版于 2016 年 5 月发布，版本号为 7.0.1265.23014。
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748256"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797155"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 
@@ -76,7 +78,7 @@ ms.locfileid: "6748256"
 </tr>
 <tr>
 <td>支持包含具有同一物料的不同产品维度的物料的物料清单。</td>
-<td>当在生产环境中使用一个或多个产品维度时，可能遇到希望根据同一物料的不同变型生产物料的情况。 有关详细信息，请参阅<a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">此博客</a>。</td>
+<td>当在生产环境中使用一个或多个产品维度时，可能遇到希望根据同一物料的不同变型生产物料的情况。 有关详细信息，请参阅<a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">此博客</a>。</td>
 </tr>
 <tr>
 <td>在物料清单的第一个级别具有循环结构的生产订单从材料资源规划的物料清单级别计算中排除。</td>
@@ -104,6 +106,3 @@ ms.locfileid: "6748256"
 [Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
 
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

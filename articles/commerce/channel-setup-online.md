@@ -2,30 +2,36 @@
 title: 设置在线渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
 author: samjarawan
-ms.date: 02/04/2022
+manager: annbe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092104"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410637"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
+
+## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 除了在其零售商店中购买外，在线商店还使客户可以选择从零售商的在线商店中购买产品。
 
@@ -52,15 +58,11 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了新在线渠道的创建过程。
 
-![新在线渠道。](media/channel-setup-online-1.png)
+![新在线渠道](media/channel-setup-online-1.png)
 
 下图显示了一个在线渠道示例。
 
-![在线渠道示例。](media/channel-setup-online-2.png)
-
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>将渠道分配给 Commerce Scale Unit
-
-您的新渠道必须分配给 Commerce Scale Unit。 有关说明，请参阅[配置渠道以使用 Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit)。
+![在线渠道示例](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>设置语言
 
@@ -68,7 +70,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 ## <a name="set-up-payment-account"></a>设置付款帐户
 
-从 **付款帐户** 部分中，您可以添加第三方付款提供商。 有关设置 Adyen Payment Connector 的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](./dev-itpro/adyen-connector.md)。
+从 **付款帐户** 部分中，您可以添加第三方付款提供商。 有关设置 Adyen Payment Connector 的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](../retail/dev-itpro/adyen-connector.md)。
 
 ## <a name="additional-channel-setup"></a>其他渠道设置
 
@@ -76,7 +78,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了 **设置** 选项卡上的 **交货方式**、**付款方式** 和 **履行组分配** 设置选项。
 
-![其他在线渠道设置操作。](media/channel-setup-online-3.png)
+![其他在线渠道设置操作](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>设置付款方式
 
@@ -91,9 +93,9 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了现金支付方式的示例。
 
-![付款方式示例。](media/channel-setup-retail-5.png)
+![付款方法示例](media/channel-setup-retail-5.png)
 
-### <a name="set-up-modes-of-delivery"></a>设置交货模式
+### <a name="set-up-modes-of-delivery"></a>设置交货方式
 
 您可以从 **操作窗格** 上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
 
@@ -105,7 +107,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了交货方式的示例。
 
-![设置交货模式。](media/channel-setup-retail-7.png)
+![设置交货方式](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>设置履行组分配
 
@@ -119,7 +121,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 下图显示了履行组分配设置的示例。
 
-![设置履行组分配。](media/channel-setup-retail-9.png)
+![设置履行组分配](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -131,7 +133,4 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
-[适用于 Adyen 的 Dynamics 365 付款连接器](./dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[适用于 Adyen 的 Dynamics 365 付款连接器](../retail/dev-itpro/adyen-connector.md)

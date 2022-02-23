@@ -33,6 +33,3 @@ ms.locfileid: "4460472"
 
 目录将继续每周更新，请返回查找 Talent 最新版本的所有新功能和更改。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

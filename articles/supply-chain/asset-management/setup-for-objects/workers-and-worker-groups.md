@@ -1,10 +1,12 @@
 ---
 title: 维护工人和工人组
 description: 本主题介绍资产管理中的维护工人和工人组。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750116"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017384"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>维护工人和工人组
 
@@ -61,6 +63,3 @@ ms.locfileid: "6750116"
 6. 如果应将资源组与所选维护工人组关联，请选择 **从资源组复制**。 在 **组** 字段中，选择要从中复制日历设置的资源组。 然后，在 **工人组** 字段中，选择要将资源组的日历设置复制到的工人组。 仅当希望在执行工作订单计划期间维护工人使用与资源（工作中心）关联的日历，此步骤才相关。
 
     **详细信息** 快速选项卡上的字段显示已经为所选维护工人组设置的维护工人的数量。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

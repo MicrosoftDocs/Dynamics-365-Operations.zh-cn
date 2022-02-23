@@ -1,25 +1,28 @@
 ---
 title: 日历和主计划
 description: 此主题提供供应链日历及其如何影响主计划的概述。
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568607"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423021"
 ---
 # <a name="calendars-and-master-planning"></a>日历和主计划
 
@@ -90,7 +93,7 @@ ms.locfileid: "7568607"
 
 请注意，每个客户只能包含一个日历。 如果您需要为客户的每个不同地址包含日历，您可以为每个地址创建一个客户，然后分配其各自的日历。 
 
-销售订单行上的请求收货日期受客户日历和交货日期控制方法的影响。 您可以在[订单承诺](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)中阅读有关如何计算最早交货日期的详细信息。
+销售订单行上的请求收货日期受客户日历和交货日期控制方法的影响。 您可以在[订单承诺](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)中阅读有关如何计算最早交货日期的详细信息。
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>法人的装运日历
 若要指示法人可以装运货物的日期，您可以在 **管理组织 > 组织 > 法人** 下设置装运日历。 选择法人，然后在 **装运日历** 字段中的 **外贸和物流** 选项卡中添加日历。 装运日程将充当法人中所有仓库日历的默认源。 
@@ -140,6 +143,3 @@ ms.locfileid: "7568607"
 
 ### <a name="updating-scm-related-calendars"></a>更新 SCM 相关日历
 虽然所有相关日历在其各自的位置（供应商、客户、仓库、交货方式或覆盖范围组）分配很重要，更新它们以反映更改同样非常重要。 系统将根据已分配日历的组合定义生产、转移、采购和销售订单日期。 最佳实践是澄清谁负责在相应区域分配和更新日历。 如果工作日有分解或任何其他异常更改，根据情况更新日历非常重要。 依赖日历的所有任务（如主计划和生产计划编制）均必须在日历更新时重新运行。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

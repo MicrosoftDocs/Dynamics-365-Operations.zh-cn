@@ -1,10 +1,12 @@
 ---
 title: 资产故障分析
 description: 本主题介绍资产管理中的资产故障分析。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779270"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022364"
 ---
 # <a name="asset-fault-analysis"></a>资产故障分析
 
@@ -60,7 +62,7 @@ ms.locfileid: "6779270"
 - 已对三种故障特征创建了故障登记：“漏气”、“保险丝熔断”和“设备卡住”。  
 - 在 **概率 %** 列中，所有百分比之和为 100%。 在此故障分析中，概率基于所有 **特征** 登记。
 
-![图 1.](media/06-controlling-and-reporting.png)
+![图 1](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>按特征和时段分组
 
@@ -69,7 +71,7 @@ ms.locfileid: "6779270"
 - 故障特征现在显示为每年/月的登记。  
 - 在 **概率 %** 列，如果将每月的所有百分比相加，则总和为 100%。 在此故障分析中，概率基于 **特征** 登记。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障特征以找到方法来限制该故障特征的登记数量。
 
-![图 2.](media/07-controlling-and-reporting.png)
+![图 2](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>按多个特征和资产分组
 
@@ -84,7 +86,7 @@ ms.locfileid: "6779270"
 - 故障特征现在已拆分为 **资产** / **资产类型** / **特征** 组合。  
 - 在 **概率 %** 列，如果将 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征** 登记。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障特征以找到方法来限制该故障特征的登记数量。
 
-![图 3.](media/08-controlling-and-reporting.png)
+![图 3](media/08-controlling-and-reporting.png)
 
 **按两个特征、资产和资产类型分组**
 
@@ -92,7 +94,7 @@ ms.locfileid: "6779270"
 
 - 在 **概率 %** 列，如果资产的 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征** 和 **区域** 的组合。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障区域以找到方法来限制该故障区域的登记数量。  
 
-![图 4.](media/09-controlling-and-reporting.png)
+![图 4](media/09-controlling-and-reporting.png)
 
 **按三个特征、资产和资产类型分组**
 
@@ -100,12 +102,9 @@ ms.locfileid: "6779270"
  
 - 在 **概率 %** 列，如果资产的 **资产** / **资产类型** / **特征** 的所有百分比分别相加，则相加之和分别为 100%。 在此故障分析中，概率基于 **特征**、**区域** 和 **类型** 的组合。 如果一个资产有大量行，但是某个行占用的百分比较大，说明需要更仔细地检查某个故障类型以找到方法来限制该故障类型的登记数量。
 
-![图 5.](media/10-controlling-and-reporting.png)
+![图 5](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >有关为工人和维护请求创建的所有故障登记的概览，请单击 **资产管理** > **查询** > **资产故障** > **资产故障**。 在 **资产故障** 页中，选择一个资产故障登记，然后展开 **相关信息** 窗格以查看与关联的工作订单或维护请求有关的信息。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

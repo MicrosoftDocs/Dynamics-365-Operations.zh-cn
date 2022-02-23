@@ -1,26 +1,29 @@
 ---
 title: 创建服务任务关系
 description: 您可以将服务任务和服务管理或服务订单进行关联，以便介绍针对协议或订单要完成了的服务任务。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b13309816af6984e77f828e827ecffe6266b3ede
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1e50b4322c65097ab4f8aba9c36e4d5e6cc4c01b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576536"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423121"
 ---
 # <a name="create-service-task-relations"></a>创建服务任务关系    
 
@@ -30,13 +33,13 @@ ms.locfileid: "7576536"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>创建与服务协议的关系
 
-1.  转到 **服务管理** \> **通用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
 
 2.  选择某一现有服务协议，或者创建新的服务协议。
 
-3.  在操作窗格上，选择 **服务任务** 按钮。
+3.  在“操作窗格”上，单击 **服务任务** 按钮。
 
-4.  在 **服务任务** 窗体上，选择 **新建** 创建新行，然后从 **服务任务** 列表中选择某个服务任务以将该服务任务附加到服务管理。
+4.  在 **服务任务** 窗体上，按 Ctrl+N 创建新行，然后从 **服务任务** 列表中选择某个服务任务以将该服务任务附加到服务管理。
 
 5.  在 **说明** 选项卡上，在自由文本字段中输入任何内部工作记录或外部工作记录描述。
 
@@ -48,13 +51,13 @@ ms.locfileid: "7576536"
 
 ## <a name="create-a-relation-with-a-service-order"></a>创建与服务订单的关系
 
-1.  转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
 
 2.  选择某一现有服务订单，或者创建新的服务订单。
 
-3.  在操作窗格上，选择 **服务任务** 按钮。
+3.  在“操作窗格”上，单击 **服务任务** 按钮。
 
-4.  从 **服务任务** 窗体，选择 **新建** 创建新行，然后从 **服务任务** 列表中选择某个服务任务以将该服务任务附加到服务订单。
+4.  从 **服务任务** 窗体，按 Ctrl+N 创建新行，然后从 **服务任务** 列表中选择某个服务任务以将该服务任务附加到服务管理。
 
 5.  在 **说明** 选项卡上，在自由文本字段中输入任何内部工作记录或外部工作记录描述。
 
@@ -72,6 +75,3 @@ ms.locfileid: "7576536"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

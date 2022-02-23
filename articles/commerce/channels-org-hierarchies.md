@@ -2,30 +2,36 @@
 title: 设置组织层次结构
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746008"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410447"
 ---
 # <a name="set-up-organization-hierarchies"></a>设置组织层次结构
+
 
 [!include [banner](includes/banner.md)]
 
 此主题描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
+
+## <a name="overview"></a>概览
 
 在创建渠道之前，您需要确保已设置组织层次结构。
 
@@ -54,7 +60,7 @@ ms.locfileid: "6746008"
 
 下图显示了为商店的虚拟“Adventure Works”组创建的组织层次结构示例。
 
-![组织层次结构示例。](media/organizational-hierarchies.png)
+![组织层次结构示例](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>将组织添加到层次结构
 
@@ -67,7 +73,7 @@ ms.locfileid: "6746008"
 
 下图显示了在层次结构根位置添加的法人，并为“购物中心”、“出口”、“在线”和“呼叫中心”渠道添加了四个成本中心。 然后可以将各种零售、呼叫中心和在线渠道添加到每个成本中心。
 
-![层次结构设计器示例。](media/hierarchy-designer.png)
+![层次结构设计器示例](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -82,6 +88,3 @@ ms.locfileid: "6746008"
 [渠道概览](channels-overview.md)
 
 [渠道设置先决条件](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

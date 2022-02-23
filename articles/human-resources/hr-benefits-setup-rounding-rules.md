@@ -1,33 +1,31 @@
 ---
 title: 设置舍入规则
-description: 本主题介绍如何在 Dynamics 365 Human Resources 中设置舍入规则来满足组织的需求。
-author: twheeloc
-ms.date: 08/25/2021
+description: 您可以在 Dynamics 365 Human Resources 中设置舍入规则来满足组织的需求。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e955e140b3dee670669e68bfba38c5ac38ff409
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a9b0c33d2e0c47b351463b4b3630a91c6bd9999
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417488"
 ---
 # <a name="set-up-rounding-rules"></a>设置舍入规则
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中设置舍入规则来满足组织的需求。
 
@@ -38,6 +36,3 @@ ms.locfileid: "8068251"
 3. 为 **舍入到最接近的值**、**场景** 和 **舍入形式** 指定值。
 
 4. 选择 **保存**。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

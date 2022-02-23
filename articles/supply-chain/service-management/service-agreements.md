@@ -1,25 +1,29 @@
 ---
 title: 制定和建立服务协议概览
 description: 在服务协议中，您可以定义在典型服务访问中使用的资源以及如何对这些资源向客户开票。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 955e360a1c0d6aec51e82598737c847b190e5e1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dd17cc0304d58d27afe2cededa5bc0b96557b5e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985853"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423087"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>制定和建立服务协议概览
 
@@ -75,6 +79,3 @@ ms.locfileid: "7985853"
 ## <a name="related-topics"></a>相关主题
 
 [创建服务协议](create-service-agreements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,36 +1,39 @@
 ---
 title: 将 Sales 的客户直接同步到 Supply Chain Management 中的客户
 description: 此主题介绍用于将客户从 Dynamics 365 Sales 同步到 Supply Chain Management 的模板和基础任务。
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063077"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529202"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>将 Sales 的客户直接同步到 Supply Chain Management 中的客户
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator)。
+> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 
 此主题介绍用于将客户直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
@@ -38,7 +41,7 @@ ms.locfileid: "8063077"
 
 “从目标客户到现金”使用“数据集成”功能来同步 Supply Chain Management 与 Sales 之间的示例的数据。  提供“数据集成”功能的“从目标客户到现金”模板启用有关 Supply Chain Management 与 Sales 之间的客户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Supply Chain Management 与 Sales 之间的数据如何同步。
 
-[![“从目标客户到现金”中的数据流。](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
@@ -63,11 +66,11 @@ ms.locfileid: "8063077"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 
-**帐号** 列在 **帐户** 页提供。 它由一个自然和唯一参数组成以支持集成。 客户关系管理 (CRM) 解决方案的自然键特征可能影响已经使用 **帐号** 列，但各帐户不使用唯一 **帐号** 值的客户。 目前，集成解决方案不支持此案例。
+**帐号** 字段在 **帐户** 页提供。 它由一个自然和唯一参数组成以支持集成。 客户关系管理 (CRM) 解决方案的自然键特征可能影响已经使用 **帐号** 字段，但各帐户不使用唯一 **帐号** 的客户。 目前，集成解决方案不支持此案例。
 
 当创建新帐户时，如果 **帐号** 值不存在，则使用编号规则自动生成。 该值由 **ACC** 以及依次紧跟在后面的一个增加的编号规则和一个由六个字符组成的后缀构成。 示例：**ACC-01000-BVRCPS**
 
-当对 Sales 应用集成解决方案时，升级脚本为 Sales 中的现有帐户设置 **帐号** 列。 如果没有 **帐号** 值，可以使用之前提到的编号规则。
+当对 Sales 应用集成解决方案时，升级脚本为 Sales 中的现有帐户设置 **帐号** 字段。 如果没有 **帐号** 值，可以使用之前提到的编号规则。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -92,19 +95,19 @@ ms.locfileid: "8063077"
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 > [!NOTE]
-> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 列不包括在默认映射中。 若要映射这些列，必须设置特定于在其中同步表的组织中的数据的值映射。
+> **付款期限**、**货运条款**、**交货条款**、**装运方法** 和 **交货方式** 字段不包括在默认映射中。 若要映射这些字段，必须设置特定于在其中同步实体的组织中的数据的值映射。
 
 下图显示了数据集成中的模板映射的一个示例。 
 
 > [!NOTE]
-> 此映射显示将从 Sales 同步到 Supply Chain Management 的列信息。
+> 此映射显示将从 Sales 同步到 Supply Chain Management 的字段信息。
 
-![数据集成中的模板映射。](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![数据集成中的模板映射](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>相关主题
 
 
-[目标客户到现金](prospect-to-cash.md)
+[现金的目标客户](prospect-to-cash.md)
 
 [将 Sales 的客户直接同步到 Supply Chain Management 中的客户](accounts-template-mapping-direct.md)
 
@@ -114,6 +117,3 @@ ms.locfileid: "8063077"
 
 [将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

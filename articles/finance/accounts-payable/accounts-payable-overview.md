@@ -2,27 +2,28 @@
 title: 配置应付帐款概览
 description: 本文介绍您用于设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
 author: abruer
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "24671"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4981f317697998298ba0c1ea84d50698f135474f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5eed11cbe73ede71cabf83655fc1d37b1a979a4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984872"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440840"
 ---
 # <a name="configure-accounts-payable-overview"></a>配置应付帐款概览
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984872"
 
 本文介绍您用于设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
 
-## <a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
+<a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
+----------------------------------------
 
 在设置应付帐款之前，您必须先完成以下设置：
 
@@ -146,6 +148,3 @@ ms.locfileid: "7984872"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

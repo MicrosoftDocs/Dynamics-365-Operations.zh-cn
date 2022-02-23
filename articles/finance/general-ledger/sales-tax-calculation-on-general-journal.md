@@ -1,26 +1,29 @@
 ---
 title: 普通日记帐行的销售税计算
 description: 此主题介绍如何计算普通日记帐行中不同类型的科目（供应商、客户、分类帐和项目）的销售税。
-author: EricWangChen
-ms.date: 04/22/2021
+author: EricWang
+manager: Ann Beebe
+ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: wangchen
+ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 51d43c8e6d16201e1f8c392c13ead20287782dcc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440607"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>普通日记帐行的销售税计算
 [!include [banner](../includes/banner.md)]
@@ -55,7 +58,7 @@ ms.locfileid: "7488303"
 
 下图以图形方式演示规则。
 
-![项目科目的税务方向可能情况。](media/Sales-Tax-Direction-Vendor.jpg)
+![项目科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>科目类型为“供应商”
 
@@ -73,7 +76,7 @@ ms.locfileid: "7488303"
 
 下图以图形方式演示规则。
 
-![供应商科目的税务方向可能情况。](media/Sales-Tax-Direction-Vendor.jpg)
+![供应商科目的税金方向可能情况](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>科目类型为“客户”
 
@@ -89,7 +92,7 @@ ms.locfileid: "7488303"
 
 下图以图形方式演示规则。
 
-![客户科目的税务方向可能情况。](media/Sales-Tax-Direction-Customer.jpg)
+![客户科目的税金方向可能情况](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>科目类型为“分类帐”
 
@@ -103,7 +106,7 @@ ms.locfileid: "7488303"
 
 下图以图形方式演示规则。
 
-![分类帐科目的税务方向可能情况。](media/Sales-Tax-Direction-Ledger.jpg)
+![分类帐科目的税金方向可能情况](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>覆盖税金方向
 
@@ -115,9 +118,9 @@ ms.locfileid: "7488303"
 
 此部分介绍如何计算销售税金额符号。
 
-![销售税交易页面。](media/sales-tax-amount-sign.jpg)
+![销售税交易记录页面](media/sales-tax-amount-sign.jpg)
 
-下表显示用于确定临时销售税表中的销售税方向和销售税金额符号的一般规则。
+下表显示用于确定临时销售税表中的销售税金额符号的一般规则。
 
 | 日记帐行金额 | 税金方向  | 销售税金额符号 |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +129,7 @@ ms.locfileid: "7488303"
 | 负            | 应收销售税 | 负              |
 | 负            | 应付销售税    | 正              |
 
-在 **分类帐** 行中选择了销售税组或物料销售税组时，只有 **项目** 或 **分类帐** 行的凭证具有特殊规则。 此规则由 **为普通日记帐启用独立销售税计算** 功能控制。 如果关闭了此功能，则 **分类帐** 行的税额使用 **项目** 行的借记/贷记方向。 如果开启了此功能，则 **分类帐** 行的税额使用自己的借记/贷记方向。 下表显示各方案的规则。 
+在 **分类帐** 行中选择了销售税组或物料销售税组时，只有 **项目** 或 **分类帐** 行的凭证具有特殊规则。 此规则由普通日记帐的“启用独立销售税计算”功能控制。 如果关闭了此功能，则 **分类帐** 行的税额使用 **项目** 行的借记/贷记方向。 如果开启了此功能，则 **分类帐** 行的税额使用自己的借记/贷记方向。 下表显示各方案的规则。 
 
 **开启此功能后的规则**
 
@@ -154,6 +157,3 @@ ms.locfileid: "7488303"
 | 应收销售税 | 负              | 应收税金科目 | 负数（贷记）  |
 | 应付销售税    | 正              | 应付税金科目    | 负数（贷记）  |
 | 应付销售税    | 负              | 应付税金科目    | 正数（借记）  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

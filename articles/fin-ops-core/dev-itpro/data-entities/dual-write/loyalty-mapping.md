@@ -2,34 +2,46 @@
 title: 客户会员卡和奖励积分
 description: 本主题介绍有关双写入中的客户会员卡和奖励积分的数据的集成。
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: e9044cffceafc46d923d2b693b00644bd1b2ec60
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061538"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683490"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>客户会员卡和奖励积分
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 企业根据客户的购物和消费模式对客户进行分类并提供完善的服务。 例如，Dynamics 365 Commerce 具有推进和处理客户会员卡、奖励积分、基于会员制的定价和基于奖励的购物体验的基础结构和功能。 当有关 Commerce 中客户会员卡和奖励积分的数据同步到 Dataverse 时，客户参与应用可以使用该数据。 例如，Dynamics 365 Customer Service 用户可以使用数据通过帮助台提供相同的完善服务。
 
 ## <a name="templates"></a>模板
 
-Finance and Operations 应用 | 客户互动应用     | 说明
+| Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
 |-----------------------------|-----------------------------------|-------------|
-[会员卡](mapping-reference.md#149) | msdyn_loyaltycards | 此模板同步有关客户会员卡的信息。 |
-[忠诚度级别](mapping-reference.md#226) | msdyn_loyaltylevels | 此模板同步有关客户奖励积分的信息。 |
-[会员奖励分](mapping-reference.md#150) | msdyn_loyaltyrewardpoints | |
+| 会员卡                | msdyn\_loyaltycards               | 此模板同步有关客户会员卡的信息。 |
+| 会员奖励分       | msdyn\_loyaltyrewardpoints        | 此模板同步有关客户奖励积分的信息。 |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
+
+[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]

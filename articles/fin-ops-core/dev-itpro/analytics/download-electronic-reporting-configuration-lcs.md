@@ -2,9 +2,11 @@
 title: 从 Lifecycle Services 下载电子申报配置
 description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
@@ -15,21 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 719b277fb828ea2085ea80bc4a36c2af3412f66b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762264"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683297"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子报告配置
 
 [!include [banner](../includes/banner.md)]
 
 此主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[共享资产库](../lifecycle-services/asset-library.md)下载最新版本的[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。
-
-> [!IMPORTANT]
-> 使用 LCS 作为 ER 配置的存储库将[弃用](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
 
 1. 通过使用以下角色之一登录到应用程序：
 
@@ -41,7 +40,7 @@ ms.locfileid: "6762264"
 3. 在 **配置提供程序** 部分中，选择 **Microsoft** 磁贴。
 4. 在 **Microsoft** 磁贴上，选择 **存储库**。
 
-    [![本地化配置页面上的 Microsoft 磁贴。](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [“本地化配置”页面中的 ![Microsoft 磁贴](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. 在 **配置存储库** 页面，在网格中，选择 **LCS** 类型的现有存储库。 如果此存储库没有显示在网格中，请执行以下步骤：
 
@@ -55,7 +54,7 @@ ms.locfileid: "6762264"
 
 6. 选择 **打开** 查看选择的存储库的 ER 配置列表。
 
-    [![配置存储库页面。](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![配置存储库页面](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > 如果访问 LCS 存储库以从 LCS 中的共享资产库下载配置时遇到问题，可以改为从[全局存储库](er-download-configurations-global-repo.md)下载配置。
@@ -67,7 +66,7 @@ ms.locfileid: "6762264"
     > [!NOTE]
     > **导入** 按钮对当前实例中已呈现的 ER 配置版本不可用。
 
-    [![配置存储库页面。](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![配置存储库页面](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本主题的相关主题列表。
@@ -77,6 +76,3 @@ ms.locfileid: "6762264"
 [电子报告 (ER) 概览](general-electronic-reporting.md)
 
 [从 Configuration service 的全局知识库下载 ER 配置](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

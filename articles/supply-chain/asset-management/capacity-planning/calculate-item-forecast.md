@@ -1,26 +1,29 @@
 ---
 title: 计算物料预测
 description: 本主题介绍如何在资产管理中计算物料预测。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5773149760ecb2a26f4916036fe36c9cc04f654039dee4eab9bfac86eb02e1fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8f38ac7bfb270f648cd561da50ee5477721ab47
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713022"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423115"
 ---
 # <a name="calculate-item-forecast"></a>计算物料预测
 
@@ -56,7 +59,4 @@ ms.locfileid: "6713022"
 
 8. 如果要查看与物料关联的产品、存储或跟踪维度，请单击 **显示维度** 按钮。 选中相关复选框，然后单击 **确定**。
 
-![图 1.](media/02-capacity-planning.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![图 1](media/02-capacity-planning.png)

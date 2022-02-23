@@ -1,27 +1,30 @@
 ---
 title: 与产品相关的翻译常见问题
 description: 此主题描述了如何管理产品、产品维度值和产品属性的转换。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570473"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422845"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 
@@ -29,7 +32,8 @@ ms.locfileid: "7570473"
 
 此主题描述了如何管理产品、产品维度值和产品属性的转换。 
 
-## <a name="what-product-related-data-can-be-translated"></a>如何转换与产品相关的数据？
+<a name="what-product-related-data-can-be-translated"></a>如何转换与产品相关的数据？
+--------------------------------------------
 
 您可以创建以下与产品信息相关的转换：
 -   产品的名称和描述。
@@ -124,6 +128,3 @@ ms.locfileid: "7570473"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

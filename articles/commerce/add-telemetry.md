@@ -2,30 +2,35 @@
 title: 将脚本代码添加到站点页面以支持遥测
 description: 此主题介绍如何向站点页添加客户端脚本代码来支持收集客户端遥测。
 author: bicyclingfool
+manager: annbe
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964521"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410429"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>将脚本代码添加到站点页面以支持遥测
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向站点页添加客户端脚本代码来支持收集客户端遥测。
+
+## <a name="overview"></a>概览
 
 如果要了解客户如何与您的站点交互，并作出有助于优化最大转换体验的决策，Web 分析是至关重要的工具。 现在有大量 Web 分析包可帮助您实现这些目标，如 Google Analytics、Clicky、Moz Analytics 和 KISSMetrics。 大多数 Web 分析包都需要您在站点所有页面的 THML 的 **\<head\>** 元素中添加客户端脚本代码。
 
@@ -112,9 +117,8 @@ ms.locfileid: "7964521"
 
 [添加收藏夹图标](add-favicon.md)
 
+[添加欢迎消息](add-welcome-message.md)
+
 [添加版权声明](add-copyright-notice.md)
 
 [向站点添加语言](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

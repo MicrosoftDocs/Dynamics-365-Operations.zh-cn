@@ -1,28 +1,29 @@
 ---
 title: 销售税概览
 description: 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/28/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13111"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440806"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 
@@ -30,13 +31,14 @@ ms.locfileid: "7983920"
 
 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 
-## <a name="overview"></a>概览
+<a name="overview"></a>概览
+--------
 
 销售税框架支持许多类型的间接税收，例如销售税、增值税 (VAT)，商品劳务税 (GST)，基于单位的费用和预缴税金。 这些税在采购和销售交易记录期间计算和记录。 它们必须定期申报和支付给税务主管机构。 
 
 下图显示税务设置的实体，以及它们如何关联。
 
-[![显示税务设置实体概览的图。](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![显示税务设置实体概览的图](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 对于公司必须考虑的每个销售税，必须定义销售税代码。 销售税代码存储销售税的税率和计算规则。 
 
@@ -95,6 +97,3 @@ ms.locfileid: "7983920"
 如果您使用远期支票作为付款方式，则在创建付款时不会清除银行帐户。 在某些国家/地区，当付款清除银行时，增值税将变成“已实现”负债，这意味着远期支票已结算。 您可以在 **现金和银行管理 > 设置 > 现金和银行管理参数 > 远期支票** 中选择 **支取远期支票时实现特殊增值税** 来启用该功能。
 
 有关详细信息，请参阅[设置预缴税金](tasks/set-up-withholding-tax.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

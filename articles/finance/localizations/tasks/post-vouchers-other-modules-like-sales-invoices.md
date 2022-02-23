@@ -2,23 +2,26 @@
 title: 从其他模块（如销售发票）过帐凭证
 description: 可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustTrans
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 684f3f1601fcc1c71751c71bf26598740269a13e5c04fdfb65f7901c2b52170f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d0a561abb775b6f2903ec1da5ec2e898dbb2250
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776450"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409745"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 
@@ -105,6 +108,3 @@ ms.locfileid: "6776450"
 36. 单击“凭证”。
     * 例如，可以看到为“中国式凭证类型”分配了“交易”。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

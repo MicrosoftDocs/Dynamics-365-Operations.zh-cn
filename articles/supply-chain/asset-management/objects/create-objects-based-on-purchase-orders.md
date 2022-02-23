@@ -1,10 +1,12 @@
 ---
 title: 基于采购订单创建资产
 description: 本主题说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83419fa5c6b6aee0b321c526565c3518deaf4bd0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754099"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016976"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>基于采购订单创建资产
 
@@ -67,6 +69,3 @@ ms.locfileid: "6754099"
 3. 可以将此作业设置为批处理作业，例如，每天一次。
 
 **注意：** 如果在创建资产 *之后* 根据适合物料更改了采购订单中的数据，将不会在资产上体现这些更改。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

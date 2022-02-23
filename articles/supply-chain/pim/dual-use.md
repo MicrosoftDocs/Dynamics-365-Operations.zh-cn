@@ -1,24 +1,27 @@
 ---
 title: 两用商品
 description: 本主题说明如何跟踪被识别为两用商品的产品，存储每个相关产品的证书编号和目标国家/地区，以及在相关发票、装箱单和/或销售订单上打印有效的证书编号。
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423197"
 ---
 # <a name="dual-use-goods"></a>两用商品
 
@@ -105,6 +108,3 @@ ms.locfileid: "7570745"
     | 打印到发票上 | 选中此复选框可在指定日期范围内在发送到指定国家/地区的发票上打印证书编号。 |
     | 打印到装箱单上 | 选中此复选框可在指定日期范围内在发送到指定国家/地区的装箱单上打印证书编号。 |
     | 打印到销售订单上 | 选中此复选框可在指定日期范围内在发送到指定国家/地区的销售订单上打印证书编号。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

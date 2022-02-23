@@ -1,27 +1,30 @@
 ---
 title: 物料清单版本的分解
 description: 本文介绍涉及物料清单 (BOM) 版本分解的主计划方案。
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4dfc85ad7ab01df9a95a394896873e2d649e12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575091"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423235"
 ---
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 
@@ -34,9 +37,10 @@ ms.locfileid: "7575091"
 -   站点维度是必填的，必须在需求交易记录上输入。
 -   站点维度是一致的。 因此，较低级别需求的站点与初始需求交易记录上的站点相同。
 
-下图显示主计划编制需求分解的过程。 ![使用物料清单版本的需求分解。](./media/multisitedemandexplosionscenariousingbomversion.gif)
+下图显示主计划编制需求分解的过程。 ![使用物料清单版本的需求分解](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [确定物料清单版本](master-plan-bom-version-determined.md)
 
@@ -44,6 +48,3 @@ ms.locfileid: "7575091"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

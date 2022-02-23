@@ -1,25 +1,28 @@
 ---
 title: 定义生产流模型
 description: 生产流模型描述如何计算并维持精益制造工作单元的产能。
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fb12be6f744cee8af3a845d6b278d1f1462ec5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422699"
 ---
 # <a name="define-production-flow-models"></a>定义生产流模型
 
@@ -43,6 +46,3 @@ ms.locfileid: "7579128"
 8. 在“产能短缺反应”字段中，选择一个选项。
     * 选项包括：延期 - 将该计划事件的饱和需求量延期至下一个吞吐量的可用生产日。 取消 - 终止该计划事件的自动计划作业，并取消其关联的作业计划。   添加到所要求的日期 - 将其要求的作业安排到所要求的期间内。 这超过当天该工作单元的负荷并需要计划员进行检查和手动交互。   分配到可用期间 - 从第一个可用生产日开始为该计划事件的所有不同作业分配可用生产日。 此最小分配数量就是该看板作业的数量。 每天分配给最小计划数量（看板作业数量）充足可用的吞吐量。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 设置职责划分
 description: 您可以设置规则，以分离必须由不同用户执行的任务。
 author: peakerbl
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755740"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826386"
 ---
 # <a name="set-up-segregation-of-duties"></a>设置职责划分
 
@@ -40,6 +42,3 @@ ms.locfileid: "6755740"
 
 > [!IMPORTANT] 
 > 创建规则时，不会验证是否符合职责划分规则。 您可以创建一个为现有角色创建冲突的规则。 现有用户角色分配也可能与新规则冲突。 创建或修改规则后，您必须验证合规性。 有关详细信息，请参阅[确定和解决职责划分冲突](identify-resolve-conflicts-segregation-duties.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

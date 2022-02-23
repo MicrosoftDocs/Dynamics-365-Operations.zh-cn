@@ -57,6 +57,3 @@ Talent 支持与 Microsoft Power Apps 服务集成。 开发人员和非技术�
 ## <a name="benefit-enrollment-status-report"></a>福利登记状态报表
 
 有关福利的开放登记的内置报告功能可以帮助您轻松了解员工在开放登记流程的哪个阶段。 您可以了解多少位员工已完成了该流程，多少位员工正在完成，多少位员工尚未开始。 此外，您可以迅速查看员工登记期间出现的任何问题和所有员工提交情况的完整日志。 因此，您可以轻松验证和审核员工提交的信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

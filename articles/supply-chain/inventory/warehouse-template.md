@@ -1,10 +1,12 @@
 ---
 title: 使用仓库配置模板设置仓库
 description: 此主题介绍如何使用仓库配置模板设置仓库。
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571081"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967122"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何使用仓库配置模板设置仓库。 有多个预定义的配置模板可供使用。 有关如何使用这些模板的信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
+此主题介绍如何使用仓库配置模板设置仓库。 有多个预定义的配置模板可供使用。 有关如何使用这些模板的信息，请参阅[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)。
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>配置模板可能有用的方案
 
@@ -88,13 +90,10 @@ ms.locfileid: "7571081"
 4. 选择 **+ 添加文件**，并上载数据包的压缩文件。
 5. 选择 **导入**。 在 **增强型** 视图中，可以使用 **筛选器** 选项快速获取在导入过程中可能发生的问题的概览。
 
-**查看执行** 日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
+**查看执行** 日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)。
 
 若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上的这个 3 分钟的视频：[如何使用仓库模板复制 Finance and Operations 的配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)。
 
 ## <a name="related-topic"></a>相关主题
 
-[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)

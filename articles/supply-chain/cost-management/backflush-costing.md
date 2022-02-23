@@ -1,27 +1,30 @@
 ---
 title: 倒冲成本计算
 description: 本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。
-author: AndersGirke
+author: cvocph
+manager: tfehr
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d158908182a35b7b4cbf0ad8a5d1fc7df37815d3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0c8ef901afacd4ae191f2d01114bbf4bac38b9cd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579824"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423203"
 ---
 # <a name="backflush-costing"></a>倒冲成本计算
 
@@ -123,6 +126,3 @@ Lean manufacturing WIP 模型让您可以使用看板处理单元状态来管理
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

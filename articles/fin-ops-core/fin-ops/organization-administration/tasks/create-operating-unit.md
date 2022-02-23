@@ -2,9 +2,11 @@
 title: 创建运营单位
 description: 运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。
 author: sericks007
+manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758985"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796722"
 ---
 # <a name="create-an-operating-unit"></a>创建运营单位
 
@@ -39,6 +41,3 @@ ms.locfileid: "6758985"
     + 输入关于通信方法的信息，例如电子邮件地址、URL 和电话号码。 要输入新的通信记录，请单击“新建”。 要修改现有通信记录，请单击 **更多选项 > 高级**。   
 6. （可选）根据需要更改 **运营单位编号**。 请注意，此编号是相应 **当事方** 记录的唯一标识符，不能与其他任何运营单位相同。
 7. 选择 **保存**。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

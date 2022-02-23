@@ -2,23 +2,26 @@
 title: 结算会计科目之间的交易记录
 description: 该过程显示如何结算会计科目间的交易和取消分类帐结算。
 author: aprilolson
+manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711e2f445e043dc74cba0ee11f1ab2dc22215ff30f495e06dce1f6f3ab4a0a09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb53e9fee35712343f034389f00f3d4539cc652d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723791"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440776"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>结算会计科目之间的交易记录
 
@@ -46,6 +49,3 @@ ms.locfileid: "6723791"
 7. 单击“分类帐结算”。
 8. 在列表中，标记所选的行。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

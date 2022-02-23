@@ -2,24 +2,27 @@
 title: 添加版权声明
 description: 此主题介绍如何向电子商务网站添加版权声明。
 author: psimolin
+manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410613"
 ---
 # <a name="add-a-copyright-notice"></a>添加版权声明
 
@@ -66,10 +69,9 @@ ms.locfileid: "7964748"
 
 [添加收藏夹图标](add-favicon.md)
 
+[添加欢迎消息](add-welcome-message.md)
+
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

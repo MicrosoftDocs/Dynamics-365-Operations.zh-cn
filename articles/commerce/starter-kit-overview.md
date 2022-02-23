@@ -1,31 +1,37 @@
 ---
-title: 模块库概览
+title: 模块库概述
 description: 此主题概述 Microsoft Dynamics 365 Commerce 模块库。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985751"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410558"
 ---
-# <a name="module-library-overview"></a>模块库概览
+# <a name="module-library-overview"></a>模块库概述
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 模块库。
+
+## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 模块库是可用于生成电子商务网站的模块的集合。 模块同时采用用户界面 (UI) 和功能行为。
 
@@ -60,6 +66,3 @@ Dynamics 365 Commerce 模块库是可用于生成电子商务网站的模块的�
 [页眉模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

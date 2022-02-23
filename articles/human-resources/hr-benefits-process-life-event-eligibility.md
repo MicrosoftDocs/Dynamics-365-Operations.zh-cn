@@ -1,43 +1,41 @@
 ---
-title: 处理生活事件资格
-description: 本主题介绍如何处理生活事件资格。
-author: twheeloc
-ms.date: 08/23/2021
+title: 处理生命事件资格
+description: 本文将向您展示如何运行生命事件资格的流程。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065885"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417406"
 ---
-# <a name="process-life-event-eligibility"></a>处理生活事件资格
+# <a name="process-life-event-eligibility"></a>处理生命事件资格
 
+本文将向您展示如何运行生命事件资格的流程。
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **生命事件资格处理**。
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题介绍如何处理生活事件资格。
-
-1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **生活事件资格处理**。
-
-2. 在 **运行生活事件资格流程** 对话框中，为以下字段指定值：
+2. 在 **运行生命事件资格流程** 对话框中，为以下字段指定值：
 
    | 字段 | 说明 |
    | --- | --- |
-   | **登记期间** | 要处理其间的生活事件资格的登记期间。 |
+   | **登记期间** | 要处理其间的生命事件资格的登记期间。 |
 
 3. 如果要在后台运行此流程，请选择 **在后台运行** 并执行以下任务：
 
@@ -50,6 +48,3 @@ ms.locfileid: "8065885"
    4. 选择 **确定**。 流程将使用您设置的参数运行。
 
 4. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

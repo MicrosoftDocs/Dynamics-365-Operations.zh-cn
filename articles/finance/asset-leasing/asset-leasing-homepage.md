@@ -2,27 +2,28 @@
 title: 资产租赁主页
 description: 本主题概述资产租赁文档，并提供了特定主题的链接。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeasingWorkspace
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "4464"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd32ad1b745d1bfda25abf57330fb1385014e4fc
+ms.sourcegitcommit: f0f5545a8ff99583e0131f435d91c64bb68a1c38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775210"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4440970"
 ---
 # <a name="asset-leasing-home-page"></a>资产租赁主页
 
@@ -30,9 +31,7 @@ ms.locfileid: "6775210"
 
 本主题列出了资产租赁的可用帮助主题，并包括特定主题的链接。 
 
-资产租赁是 Microsoft Dynamics 365 Finance 中用于管理、跟踪和自动执行租赁资产的财务交易记录的高级功能。 资产租赁符合国际会计标准 (IFRS 16) 和 US GAAP 标准 (ASC 842)。 资产租赁捕获和处理有关租赁的信息，并帮助生成整个租赁生命周期的日记帐分录，从租赁的初始确认、月日记帐分录到减损和终止。
-
-此功能只有在系统中开启之后才能使用。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，找到并选择名为 **资产租赁** 的功能，然后单击 **立即启用** 按钮。
+资产租赁是 Microsoft Dynamics 365 Finance 中用于管理、跟踪和自动执行租赁资产的财务交易记录的高级功能。 资产租赁符合国际会计标准 (IFRS 16) 和 US GAAP 标准 (ASC 842)。 资产租赁捕获和处理有关租赁的信息，并帮助生成整个租赁生命周期的日记帐分录，从租赁的初始确认、月日记帐分录到减损和终止。  
 
 ## <a name="asset-leasing-topics"></a>资产租赁主题
 以下主题可用于帮助配置和使用资产租赁。 
@@ -46,7 +45,7 @@ ms.locfileid: "6775210"
   - [设置租赁帐簿](set-up-lease-books.md)
   - [创建租赁组](create-lease-group.md)
   - [设置指数利率](set-up-index-rate-types.md)
-  - [设置支出类型](set-up-expense-types.md)
+  - [设置费用类型](set-up-expense-types.md)
   - [设置租赁日记帐名称](set-up-lease-journal-names.md)
   - [设置租赁过帐科目](set-up-lease-posting-accts.md)
   - [分配编号规则](leasing-number-sequences.md)
@@ -86,7 +85,7 @@ ms.locfileid: "6775210"
 
 ### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 ### <a name="blogs"></a>博客
 
@@ -97,6 +96,3 @@ ms.locfileid: "6775210"
 ### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

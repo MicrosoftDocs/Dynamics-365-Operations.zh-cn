@@ -2,9 +2,11 @@
 title: 设置会计科目别名
 description: 该过程显示如何创建可提供科目编号快捷输入方式的科目别名。
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745788"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968395"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>设置会计科目别名
 
@@ -38,6 +40,3 @@ ms.locfileid: "6745788"
 9. 在“初始焦点”字段中，选择使用别名时将会出现焦点的维度。
     * 在输入快捷方式，以及填充科目和维度后，“初始焦点”字段是光标或焦点的移动目标。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

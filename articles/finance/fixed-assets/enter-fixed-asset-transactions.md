@@ -1,26 +1,29 @@
 ---
 title: 固定资产交易记录选项
 description: 本主题介绍可用来创建固定资产交易记录的不同方法。
-author: moaamer
-ms.date: 08/10/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891564"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440691"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 
@@ -46,7 +49,7 @@ ms.locfileid: "7891564"
 ## <a name="general-ledger"></a>总帐
 任何一种固定资产交易记录类型都可以在“普通日记帐”页中过帐。 您还可以在固定资产中使用日志过帐固定资产交易记录。
 
-### <a name="options-for-entering-fixed-asset-transaction-types"></a>用于输入固定资产交易记录类型的选项
+## <a name="options-for-entering-fixed-asset-transaction-types"></a>用于输入固定资产交易记录类型的选项
 
 
 | 交易记录类型                    | 模块                   | 期权                                   |
@@ -58,25 +61,10 @@ ms.locfileid: "7891564"
 | 折旧                        | 固定资产             | 固定资产                              |
 |                                     | 总帐           | 普通日记帐                           |
 | 处置                            | 固定资产             | 固定资产                              |
-|                                     | 总帐           | 普通日记帐                           |
-|                                     | 应收帐款      | 普通发票                         |
+| ** **                               | 总帐           | 普通日记帐                           |
+| ** **                               | 应收帐款      | 普通发票                         |
 
-固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，将更新剩余值。
+
+固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，此值将更新。
 
 有关详细信息，请参阅[固定资产集成](fixed-asset-integration.md)。
-
-系统禁止将折旧过帐到同一期间两次。 例如，如果两个用户为 1 月份单独创建折旧方案，则第一个用户的折旧将在第一个日记帐中过帐。 当第二个用户过帐第二个日记帐中的折旧时，系统将检查上次运行折旧的日期，并且不会第二次过帐同一期间的折旧。
-
-### <a name="transactions-that-require-a-different-voucher-number"></a>需要不同凭证号的交易
-
-以下固定资产交易将使用不同的凭证号：
-
-- 对资产进行其他购置，以及计算“采纳”折旧。
-- 拆分资产。
-- 计算处置折旧的参数打开，然后处置资产。
-- 资产的服务日期在购置日期之前。 因此，折旧调整将过帐。
-
-> [!NOTE]
-> 输入交易时，请确保所有交易都适用于同一固定资产。 如果凭证包含多个固定资产，凭证不会过帐，即使在总帐的 **日记帐名称** 页上将 **新凭证** 字段设置为 **仅一个凭证号**。 如果凭证中包含多个固定资产，您会收到消息“每个凭证只能有一个固定资产交易”，您将无法过帐凭证。
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

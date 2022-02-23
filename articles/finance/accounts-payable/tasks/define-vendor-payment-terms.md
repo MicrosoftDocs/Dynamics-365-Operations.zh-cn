@@ -2,23 +2,26 @@
 title: 定义供应商付款期限
 description: 本主题说明如何设置供应商发票的付款期限。
 author: abruer
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722975"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440592"
 ---
 # <a name="define-vendor-payment-terms"></a>定义供应商付款期限
 
@@ -44,6 +47,3 @@ ms.locfileid: "6722975"
 16. 输入将为客户发票将现金折扣过帐到的主科目，然后输入将为供应商发票把现金折扣过帐到的主科目。 如果将 **折扣抵消帐户** 设置为 **使用供应商折扣的主科目**，则应使用该“主科目”。 如果该选项设置为 **发票行上的帐号**，现金折扣将过帐到发票行上的资产或支出帐户。  
 17. 选择 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

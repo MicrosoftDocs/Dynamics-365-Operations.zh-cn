@@ -52,6 +52,3 @@ ms.locfileid: "4460458"
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>为工作薪酬级别创建了新实体
 已经创建了一个新的数据管理框架 (DMF) 实体。 提供该实体是为了为系统中定义的每个工作创建和更新薪酬级别、市场价值和调查信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

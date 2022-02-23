@@ -2,9 +2,11 @@
 title: 导入配置以生成包含应用程序数据的单据
 description: 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 author: NickSelin
+manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727477"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684611"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>导入配置以生成包含应用程序数据的单据
 
@@ -73,6 +75,3 @@ ms.locfileid: "6727477"
     * 检查用于生成内部统计报表的格式的结构。 请注意，这设计为通过填充来自数据模型的数据生成 XML 文件，该文件基于根项“用于传出单据”。 验证用户对话框窗体（为其使用了“fn”数据源）中是否定义了所生成文件的名称。   
 30. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

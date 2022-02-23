@@ -2,13 +2,16 @@
 title: 监控销售和利润率
 description: 您可以使用 Dynamics 365 Commerce 实时监控销售和利润率。
 author: ashishmsft
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8455d29b0e1bf7e691a7ac5394724482862b9a4107004aeb0fee91d19823856
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a7b2b6ba8115b43ef2e52e934bf8364e6f4044e7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744474"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410419"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
 
@@ -46,6 +49,3 @@ ms.locfileid: "6744474"
 - **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表**
 - **定价和折扣管理** 工作区 &gt; **Retail 和 Commerce** &gt; **定价和折扣** &gt; **商店管理** &gt; **报表**
 - **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

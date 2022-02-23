@@ -58,6 +58,3 @@ ms.locfileid: "4460468"
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>呈现工作区方面的性能改进
 仅当访问这些页面时，才加载工作区中的分析选项卡。 首次呈现页面时，将在页面的左上角显示一个指示器。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

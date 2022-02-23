@@ -1,10 +1,12 @@
 ---
-title: 为仓库管理移动应用配置字段
-description: 本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
-author: Mirzaab
+title: 在仓库应用中配置应用字段名
+description: 此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902288"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963427"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为仓库管理移动应用配置字段
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>在仓库应用中配置应用字段名
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
+此主题介绍如何在 Dynamics 365 Supply Chain Management 中定义和配置仓库应用程序字段名和优先级。 
 
 > [!NOTE]
-> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 仓库管理移动应用是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 本主题说明如何定义和配置这些仓库管理移动应用字段名称和优先级以及如何使用它们。
+> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Warehousing 之间的连接的详细信息，请参阅教程[安装和配置仓库应用概览](install-configure-warehousing-app.md)。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
@@ -137,9 +139,7 @@ ms.locfileid: "7902288"
 
 其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章[介绍 Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
-[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[安装和配置仓库应用概览](install-configure-warehousing-app.md)

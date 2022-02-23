@@ -2,25 +2,28 @@
 title: 项目开单
 description: 本主题提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
 author: TaylorVH
+manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: zezhangzhao
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883560"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440706"
 ---
 # <a name="project-invoicing"></a>项目开单
 
@@ -72,7 +75,7 @@ ms.locfileid: "7883560"
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>在项目发票列表页面上查看授权信息
 
-公共部门用户可以将 **授权 ID** 和 **授权名称** 添加到 **项目发票方案** 和 **项目发票** 列表页。 这些列使用 **将授权信息添加到项目发票列表页** 功能启用。 此功能默认关闭，但可以 **工作区 > 功能管理** 中启用。 请与系统管理员联系，获取启用此功能的帮助。
+公共部门用户可以将 **授权 ID** 和 **授权名称** 添加到 **项目发票方案** 和 **项目发票** 列表页。 这些列使用 **将授权信息添加到项目发票列表页** 功能启用。 此功能默认关闭，但可以 **工作区 > 功能管理** 中启用。 请与系统管理员联系，获取启用此功能的帮助。
 
 ## <a name="on-account-invoicing"></a>分期付款开票
 您在项目的分期付款发票中输入的金额基于时间、完成百分比和相关项目合同中指定的其他帐单条件。 金额不基于工时、物料、费用或过帐到项目的费用进行计算。 
@@ -129,6 +132,3 @@ ms.locfileid: "7883560"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

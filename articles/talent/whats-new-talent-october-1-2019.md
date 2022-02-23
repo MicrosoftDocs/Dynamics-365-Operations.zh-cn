@@ -84,6 +84,3 @@ ms.locfileid: "4529652"
 ### <a name="print-performance-reviews"></a>打印绩效复查
 
 员工、经理和 HR 专业人员可以打印员工的绩效复查。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

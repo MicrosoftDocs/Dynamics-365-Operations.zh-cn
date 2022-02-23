@@ -142,6 +142,3 @@ Azure AD 登录仅用于内部应聘者。 因此，它只对使用其公司 Azu
 ## <a name="internal-jobs"></a>内部工作
 
 目前，标记为内部并发布到 Attract 求职站点的工作不出现在求职站点上。 只能使用直接的 **申请** URL（可以从 Attract 应用程序复制）访问这些工作。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

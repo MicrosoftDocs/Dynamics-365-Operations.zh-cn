@@ -2,9 +2,11 @@
 title: 审计策略规则
 description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
 author: panolte
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744298"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021233"
 ---
 # <a name="audit-policy-rules"></a>审计策略规则
 
@@ -28,7 +30,8 @@ ms.locfileid: "6744298"
 
 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过帐都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。 
 
-## <a name="queries-and-query-types"></a>查询和查询类型
+<a name="queries-and-query-types"></a>查询和查询类型
+-----------------------
 
 当您创建了审核策略规则时，您要首先选择一个策略规则类型。 该策略规则类型指定 Application Object Tree (AOT) 查询用作创建策略规则的起点。 它还指定用于策略规则的查询类型。 该查询确定了策略规则进行评估的原始凭证。 它还指定了原始凭证中选择文件供审核时使用的标识法人和日期的字段。 查询类型控制查询页和“审计策略规则”页中的默认字段。 下表显示了对审核策略规则可用的查询类型。
 
@@ -90,12 +93,10 @@ ms.locfileid: "6744298"
 
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [审计政策违规记录和案例](audit-policy-violations-cases.md)
 [定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

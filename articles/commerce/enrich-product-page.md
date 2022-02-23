@@ -2,30 +2,36 @@
 title: 丰富产品页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中扩充产品页面。
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777588"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410410"
 ---
 # <a name="enrich-a-product-page"></a>丰富产品页面
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中扩充产品页面。
+
+## <a name="overview"></a>概览
 
 默认情况下，站点使用通用页面显示产品数据。 这种页面中包含有关产品和销售产品需要的控件的基本信息。 但是，可以使用特定产品的更多图像或文本补充来自 Commerce Scale Unit 的信息。 此过程称为扩充产品页。
 
@@ -66,9 +72,4 @@ ms.locfileid: "6777588"
 
 [丰富类别登陆页面](enrich-category-page.md)
 
-[验证页面内容的可访问性](verify-accessibility.md)
-
-[基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[验证页面内容可访问性](verify-accessibility.md)

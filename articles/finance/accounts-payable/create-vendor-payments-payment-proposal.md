@@ -2,25 +2,28 @@
 title: 使用付款方案创建供应商付款
 description: 本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。
 author: abruer
+manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749044"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440731"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 
@@ -62,11 +65,11 @@ ms.locfileid: "6749044"
 | 3075   | 1003    | 六月十五日      | 250.00         | 六月二十九日  |                    | 0.00                 |
 | 3100   | 1004    | 六月十七号      | 100.00         | 七月十七号  | 7 月 1 日             | 1.00                 |
 
-在七月一日，April 向供应商付款。 她使用某付款方案更高效地完成此任务。
+在七月一日，April 向供应商付款。 她使用某付款方案更高效地帮助员工完成此任务。
 
 ### <a name="option-1-by-cash-discount"></a>选项 1：按现金折扣
 
-April 将 **现金折扣** 选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10 日。 以下发票包括在方案中：
+April 将 **现金折扣** 选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10 日。 以下发票包括在方案中：
 
 -   1002，因为折扣日期 7 月 4 日在付款日期范围内。
 -   1004，因为折扣日期 7 月 1 日在付款日期范围内。
@@ -116,10 +119,7 @@ April 将 **到期日期和现金折扣** 选择作为方案类型。 她输入�
 
 #### <a name="bank-account-selection"></a>银行帐户选择
 
-您可以按付款方式定义标准借记付款帐户，无论国家/地区上下文。 这将在由方案生成的付款行中设置。 通过银行账户功能，您可以定义多个通过维度和币种或其组合管理的借记银行账户，以根据每种组合使用不同的借记银行账户。 您可以在 **付款方式** 页使用 **过帐帐户类型** = **银行** 的每种付款方式可用的 **银行帐户** 按钮设置这些组合。
+您可以按付款方式定义标准借记付款帐户，无论国家/地区上下文。 这将在由方案生成的付款行中设置。 通过银行帐户功能，您可以定义多个通过维度和币种或其组合管理的借记银行帐户，以根据每种组合使用不同的借记银行帐户。 您可以在 **付款方式** 页使用 **过帐帐户类型** = **银行** 的每种付款方式可用的 **银行帐户** 按钮设置这些组合。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

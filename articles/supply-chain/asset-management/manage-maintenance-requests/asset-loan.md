@@ -1,10 +1,12 @@
 ---
 title: 资产出借
 description: 本主题介绍如何在资产管理中登记出借资产。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752842"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022324"
 ---
 # <a name="asset-loans"></a>资产出借
 
@@ -44,7 +46,7 @@ ms.locfileid: "6752842"
 
 若要查看您已出借给其他位置或客户的所有资产的列表，请选择 **资产管理** \> **常用** \> **资产出借** \> **所有资产出借**。 如果为资产选中了 **已结束** 复选框，则已将资产登记为已退给公司。
 
-![管理维护请求。](media/06-manage-maintenance-requests.png)
+![管理维护请求](media/06-manage-maintenance-requests.png)
 
 在 **有效资产出借** 页上，可查看尚未退给您的公司的所有出借资产的列表。
 
@@ -55,6 +57,3 @@ ms.locfileid: "6752842"
 3. 在 **已退回** 字段中，输入日期和时间。
 4. 选择 **确定**。
 5. 刷新 **有效资产出借** 列表页，然后注意列表中不再显示该资产出借。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

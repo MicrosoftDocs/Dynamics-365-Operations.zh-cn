@@ -2,28 +2,29 @@
 title: 标准成本转换概览
 description: 本文提供帮助您设置和运行标准成本转换的流程概览。 列出的步骤用于在您完成了标准成本转换的先决条件后完成。
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "78212"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 78212
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423078"
 ---
 # <a name="standard-cost-conversion-overview"></a>标准成本转换概览
 
@@ -94,12 +95,10 @@ ms.locfileid: "7982681"
 -   分析追溯的库存变动。 使用 **库存成本** 报表查看在转换后输入的追溯的库存变动。 报表的开始日期和结束日期应对应于开始过渡日期和转换日期（减一天）。 报告选择条件应反映已转换的物料。 该报告显示在过渡期内根据标准成本所做的库存变动。
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [用于标准成本转换的先决条件](prerequisites-standard-cost-conversion.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

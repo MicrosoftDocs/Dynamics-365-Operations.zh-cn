@@ -1,10 +1,12 @@
 ---
 title: 设置供应商帐户
 description: 此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565463"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016569"
 ---
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 
@@ -115,6 +117,3 @@ ms.locfileid: "7565463"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

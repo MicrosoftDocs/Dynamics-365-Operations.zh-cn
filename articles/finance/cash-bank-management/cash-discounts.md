@@ -2,25 +2,28 @@
 title: 现金折扣
 description: 为应付帐款和应收帐款设置和共享现金折扣。  可用现金折扣可以在客户发票或供应商发票上定义，并在现金折扣日期内支付发票时执行。
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91249186b6f2c7647991d7adb1a2fffd87de65f226345e74cc41460b68a7e6fb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 139fb4fdb7d4f8034bff5e9668dc794f29fb327e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775138"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440896"
 ---
 # <a name="cash-discounts"></a>现金折扣
 
@@ -63,6 +66,3 @@ ms.locfileid: "6775138"
 > [!NOTE]
 > 如果“计算部分付款的现金折扣”选项在“应收帐款参数”或“应付帐款参数”页中被选定时，会使用在每个部分付款的日期有效的汇率。 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,6 +53,3 @@ ms.locfileid: "4460396"
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations 平台更新 23
 细微缺陷修复作为 Finance and Operations 平台更新 23 的一部分包括在内。 有关详细信息，请参阅 [Dynamics 365 Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23)。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

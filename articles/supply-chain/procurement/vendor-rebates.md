@@ -1,24 +1,26 @@
 ---
 title: 供应商返利
 description: 本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566855"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966647"
 ---
 # <a name="vendor-rebates"></a>供应商返利
 
@@ -53,7 +55,7 @@ ms.locfileid: "7566855"
 
 若要打开 **供应商返利协议** 页，请选择 **采购** &gt; **供应商返利** &gt; **返利协议**。
 
-![采购协议。](media/purchase-agreement.PNG)
+![采购协议](media/purchase-agreement.PNG)
 
 在 **供应商返利协议** 页，可以查看与供应商协议的经协商条件有关的详细信息。
 
@@ -129,7 +131,7 @@ ms.locfileid: "7566855"
 
     为索赔金额过帐应计返利日记帐。 此过帐将应计供应商返利应收账款借记为预期供应商贷记，将临时应计供应商返利应收账款贷记为预期收益。
 
-    ![消息。](media/message.png)
+    ![消息](media/message.png)
 
 5. 在返利列表中，选择行，然后在操作窗格中，选择 **返利交易记录** 以查看并导航到此返利应计过帐的日记帐批号。
 
@@ -164,6 +166,3 @@ ms.locfileid: "7566855"
 - 生成准确的返利索赔
 - 在总帐中应计预期应收账款和临时收益
 - 使用到期的折让更新供应商余额和利润表
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

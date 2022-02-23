@@ -2,9 +2,11 @@
 title: 工作流审核流程中的操作
 description: 本文说明每个工作流审核流程的参与者可以采取的操作。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,25 +16,22 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070925"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797594"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 本文说明每个工作流审核流程的参与者可以采取的操作。
 
 工作流可能涉及若干组人员：发起方、任务受托人、决策者和审核人。 例如，在以下支出报表工作流中，Sam 是发起方，队列的成员是任务受托人，John 是决策者，Frank、Sue 和 Ann 是审核人。
 
-[![Workflow\_WithManualDecision。](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 以下部分说明各个组可以执行的工作流操作。
 
@@ -142,6 +141,3 @@ Sam 可以重新提交该支出报表。 他可以首先进行更改，或者可
 例如，Sam 提交了一份 12,000 美元的支出报表，而且该文档分配给 Sue。 如果 Sue 请求更改，该支出报表将发还 Sam。
 
 Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改，或者可以重新提交支出报表的原始版本。 如果 Sam 重新提交了该支出报表，该报表将发送给 Frank 审核，因为 Frank 是审核流程中的第一位审核人。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

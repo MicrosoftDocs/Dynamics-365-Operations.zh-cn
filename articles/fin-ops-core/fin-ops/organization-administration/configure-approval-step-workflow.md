@@ -2,9 +2,11 @@
 title: 配置工作流中的审核步骤
 description: 本主题说明如何配置审核步骤的属性。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070769"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797088"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题说明如何配置审核步骤的属性。
 
@@ -159,7 +158,7 @@ ms.locfileid: "8070769"
 
     - **单个审核人**– 应用到文档的操作将由第一个响应的人员决定。 例如，Sam 提交了一份 15,000 美元的支出报表。 该支出报表当前分配给 Sue、Jo 和 Bill。 如果 Sue 是第一个响应该文档的人员，则她采取的操作将应用到该文档。 如果素心拒绝了单据，该单据将被拒绝并发还建豪。 如果 Sue 批准了文档，该文档将发送给 Ann 进行审核。
 
-        ![具有审批流程的工作流。](./media/workflow_multipleusersinstep.gif)
+        ![具有审核流程的工作流](./media/workflow_multipleusersinstep.gif)
 
     - **大多数审核人**– 应用到文档的操作将由大多数响应的人员决定。 例如，Sam 提交了一份 15,000 美元的支出报表。 该支出报表当前分配给 Sue、Jo 和 Bill。 如果前两个响应的审核人是 Sue 和 Jo，则他们采取的操作将应用到该文档。
 
@@ -277,6 +276,3 @@ ms.locfileid: "8070769"
 
 5. 对每个应添加到呈报路线的用户重复第 3 步到第 4 步。 您可以更改用户的顺序。
 6. 如果呈报路线中的用户未在分配的时间内响应，则系统将自动对该文档采取操作。 若要指定系统执行的操作，选择 **操作** 行，然后，在 **结束操作** 选项卡上，选择一项操作。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

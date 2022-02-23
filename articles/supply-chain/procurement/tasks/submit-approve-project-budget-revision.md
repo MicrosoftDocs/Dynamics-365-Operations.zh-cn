@@ -1,25 +1,27 @@
 ---
 title: 提交和审查项目预算修订
 description: 此过程提供有关如何修订项目预算的信息。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 089c235ac60ce9712da92e445a9c811424f80d00
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: de6faf9442834d5fcf75e5d6219387648edb6840
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576992"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018770"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>提交和审查项目预算修订
 
@@ -43,6 +45,3 @@ ms.locfileid: "7576992"
 12. 在“注释”字段中，键入一个值。
 13. 单击“提交”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,6 +102,3 @@ ms.locfileid: "4460435"
 - **其他**
 
 而是扩展 **TalentSource** 枚举以添加其他来源类型。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

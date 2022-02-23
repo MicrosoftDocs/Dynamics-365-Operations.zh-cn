@@ -2,24 +2,27 @@
 title: 提货信息模块
 description: 此主题介绍提货信息模块，以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的结帐页面。
 author: anupamar-ms
+manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764553"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665340"
 ---
 # <a name="pickup-information-module"></a>提货信息模块
 
@@ -40,7 +43,7 @@ ms.locfileid: "6764553"
 
 下图显示了通过结帐页面上的提货信息模块选择时隙的示例。
 
-![结帐页面上的提货信息模块的示例。](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![结帐页上的提货信息模块的示例](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>模块属性
 
@@ -56,17 +59,14 @@ ms.locfileid: "6764553"
 
 下图显示了包括提货行项时隙的电子商务结帐页面的示例。
 
-![包括提货行项时隙的电子商务结帐页面的示例。](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![包括提货行项时隙的电子商务结帐页面的示例](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>其他资源
 
-[创建和更新用于客户提货的时隙](dev-itpro/pickup-timeslots.md)
+[创建和更新客户提货时隙](dev-itpro/pickup-timeslots.md)
 
 [结帐模块](add-checkout-module.md)
 
 [订单确认模块](order-confirmation-module.md)
 
 [订单详细信息模块](account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

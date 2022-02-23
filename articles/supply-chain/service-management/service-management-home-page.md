@@ -1,25 +1,29 @@
 ---
 title: 服务管理概览
 description: 使用“服务管理”建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422688"
 ---
 # <a name="service-management-overview"></a>服务管理概览
 
@@ -46,7 +50,7 @@ ms.locfileid: "7982994"
 
 下图说明了 **服务管理** 的最高级别的业务流程，并显示了服务流程与其他模块集成的地点。
 
-[![服务管理业务流程图。](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![服务管理业务流程图](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>通过服务管理
 
@@ -63,10 +67,7 @@ ms.locfileid: "7982994"
 服务管理可以与以下模块集成：
 
   - [销售和市场营销概览](../sales-marketing/overview-sales-marketing.md)
-  - [人力资源](/dynamics365/unified-operations/talent/index)
+  - [人力资源](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

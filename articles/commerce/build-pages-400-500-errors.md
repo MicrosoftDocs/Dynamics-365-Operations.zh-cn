@@ -2,30 +2,36 @@
 title: 为 4xx/5xx 状态代码错误生成自定义响应页面
 description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 中的制作工具为 4xx 和 5xx 状态代码错误生成自定义响应页。
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410455"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>为 4xx/5xx 状态代码错误生成自定义响应页面
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 中的制作工具为 4xx 和 5xx 状态代码错误生成自定义响应页。
+
+## <a name="overview"></a>概览
 
 如果请求失败，服务器将发出 HTTP 状态代码错误响应。 如果未找到页面，将捕获并返回 404 状态代码，如果发生了服务器错误，将捕获并返回 500 状态代码。 在 Dynamics 365 Commerce 中，应用程序用户可为这些状态代码错误响应生成自定义状态代码错误响应页，对用户显示。
 
@@ -77,6 +83,3 @@ ms.locfileid: "6741133"
 [添加新的站点页面](add-new-page.md)
 
 [创建页面 URL](create-page-url.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

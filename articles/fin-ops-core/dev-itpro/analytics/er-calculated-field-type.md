@@ -2,9 +2,11 @@
 title: 支持对计算字段类型的 ER 数据源执行参数化调用
 description: 此主题提供有关如何对 ER 数据源使用计算字段类型的信息。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fbe06f2f4f0b9e738f27e87ae3ed5d10998ce949b854d088520837cef3ed9a9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740351"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681248"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -86,7 +88,7 @@ ms.locfileid: "6740351"
 
     此配置中的模型映射实施为此模型创建并在 Finance and Operations 中执行的任何 ER 格式的基本数据模型。 结果，**Tax** 和 **Gr** 数据源的内容将对抽象数据源之类 ER 格式公开。
 
-    ![显示 Tax 和 Gr 数据源的模型映射设计器页面。](media/er-calculated-field-type-01.png)
+    ![其中显示“税”和“组”数据源的模型映射设计器页面](media/er-calculated-field-type-01.png)
 
 5.  关闭 **模型映射设计器** 页。
 6.  关闭 **模型映射** 页。
@@ -101,21 +103,21 @@ ms.locfileid: "6740351"
     - 在报税单中提供以下征税级别：正常、减税、免税。
     - 在每个征税级别提供多项详细信息，从而每个级别包含不同数量的详细信息。
 
-    ![“格式设计器”页面。](media/er-calculated-field-type-02.png)
+    ![“格式设计器”页面](media/er-calculated-field-type-02.png)
 
 4. 选择 **映射**。
 5. 展开 **模型**、**数据** 和 **摘要** 项。 
 
     计算字段 **模型.数据.摘要.级别** 中包含表达式，用于将征税级别（**正常**、**减税**、**免税** 或 **其他**）的代码作为可在运行时从 **模型.数据.摘要** 数据源检索的任何税码的文本值返回。
 
-    ![显示“用于了解参数化调用的数据模型”模型的详细信息的格式设计器页面。](media/er-calculated-field-type-03.png)
+    ![其中显示“用于了解参数化调用的数据模型”模型的详细信息的格式设计器页面](media/er-calculated-field-type-03.png)
 
 6. 展开 **模型**.**数据2** 项。
 7. 展开 **模型**.**数据2.摘要2** 项。
    
     配置 **模型**.**数据2.摘要2** 数据源是为了按（**模型.数据.摘要.级别** 计算字段返回的）征税级别为 **模型.数据.摘要** 数据源交易记录详细信息分组和计算聚合。
 
-    ![显示 Model.Data2.Summary2 数据源的详细信息的格式设计器页面。](media/er-calculated-field-type-04.png)
+    ![其中显示“模型.数据2.摘要2”数据源的详细信息的格式设计器页面](media/er-calculated-field-type-04.png)
 
 8. 查看计算字段 **模型**.**数据2.级别1**、**模型**.**数据2.级别2** 和 **模型**.**数据2.级别3**。 这些计算字段用于筛选 **模型**.**数据2.摘要2** 记录列表和仅返回表示特定征税级别的记录。
 9. 关闭 **格式设计器** 页。
@@ -155,7 +157,7 @@ ms.locfileid: "6740351"
 
     为一个计算字段最多可以指定 8 个参数。
 
-    ![参数数据源列表。](media/er-calculated-field-type-05.png)
+    ![参数数据源列表](media/er-calculated-field-type-05.png)
 
 5. 选择 **确定**。
 
@@ -165,7 +167,7 @@ ms.locfileid: "6740351"
 
    将在此计算字段的数据源列表中提供配置的参数。 可通过选择 **添加数据源** 向配置的表达式添加参数。
 
-   ![数据源字段。](media/er-calculated-field-type-06.png)
+   ![数据源字段](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>定义用于添加计算字段的表达式
 
@@ -181,7 +183,7 @@ ms.locfileid: "6740351"
 
 5. 选择 **保存**。
 
-    ![数据源字段信息。](media/er-calculated-field-type-07.png)
+    ![数据源字段信息](media/er-calculated-field-type-07.png)
 
 6. 关闭 **公式设计器** 页。
 
@@ -191,9 +193,9 @@ ms.locfileid: "6740351"
 
 在 **格式设计器** 页面中，配置的参数化计算字段 **级别** 需要一个 **字符串** 自变量。
 
-![展开的计算字段级别列表。](media/er-calculated-field-type-08.png)
+![展开的计算字段级别列表](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>对绑定格式元素使用配置的计算字段
+### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>对绑定格式元素使用配置的计算字段
 
 1. 选择 **模型.数据2.级别** 以选择配置的计算字段。
 2. 选择 **报.税.正常** 格式元素。
@@ -214,13 +216,13 @@ ms.locfileid: "6740351"
 9. 选择 **绑定**。
 10. 选择 **是** 以确认在所选格式元素下的所有嵌套格式元素中，将当前使用的数据源 **级别3** 替换为新数据源 **级别**。
 
-   为表示征税级别的 XML 元素指定参数化计算字段的自变量时（例如，**模型.数据2.级别(&quot;减税")** 作为文本值），则无需对嵌套的 XML 属性执行z相同操作 — 其绑定将自动继承在父级别（**模型.数据2.级别.聚合.基数**，而不是 **模型.数据2.级别("减税").聚合.基数**）定义的自变量的值。
+   为表示征税级别的 XML 元素指定参数化计算字段的自变量时（例如，**模型.数据2.级别("减税")** 作为文本值），则无需对嵌套的 XML 属性执行z相同操作 — 其绑定将自动继承在父级别（**模型.数据2.级别.聚合.基数**，而不是 **模型.数据2.级别("减税").聚合.基数**）定义的自变量的值。
 
 不支持重复调用任何参数化计算字段。
 
 您在选择的绑定中，可以选择 **编辑配方** 和更改将参数化的计算字段的应用由默认参数。 如果缺少此自变量，可能导致运行时出错 — 在验证当前格式时通知用户此类情况。
 
-![验证警告通知。](media/er-calculated-field-type-10.png)
+![验证警告通知](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>配置参数化计算字段以返回记录
 如果参数化计算字段返回记录，您需要支持将此记录的单个字段绑定到格式元素。 在此类情况下，不存在包含用于调用参数化计算字段的自变量的值的父绑定 — 必须在单个记录的字段的绑定中定义该值。
@@ -272,7 +274,7 @@ ms.locfileid: "6740351"
 8. 选择 **编辑公式**。
 9. 将表达式更改为 **模型.数据2.级别记录("免税").聚合.基数**。
 
-![更新后的表达式。](media/er-calculated-field-type-11.png)
+![更新后的表达式](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>删除不使用的计算字段
 
@@ -340,6 +342,3 @@ ms.locfileid: "6740351"
 - [电子申报中 (ER) 的配方设计器](general-electronic-reporting-formula-designer.md)
 - [通过添加参数化的计算字段数据源提高 ER 解决方案的性能](er-calculated-field-ds-performance.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

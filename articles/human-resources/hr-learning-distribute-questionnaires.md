@@ -1,39 +1,37 @@
 ---
 title: 分发和计划调查表
-description: 本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
-author: twheeloc
-ms.date: 10/28/2021
+description: 本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069521"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417519"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
+本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
 
 有多种方式来分配调查表：
 
--   将调查表标记为 **有效**。 然后，调查表可用于所有员工，除非设置调查表组来限制对它的访问。
+-   将调查表标记为有效。 然后，调查表可用于所有员工，除非设置调查表组来限制对它的访问。
 -   向调查表组分配权限。 然后，调查表可供所选组的所有成员使用。
 -   创建计划应答期。 然后，调查表只可供特定人员使用。
 -   创建计划。 然后，调查表中可供多个人员使用。
@@ -133,6 +131,3 @@ ms.locfileid: "8069521"
 调查表可用于网络中的所有人士，或者可用于特定的用户组或所有用户。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

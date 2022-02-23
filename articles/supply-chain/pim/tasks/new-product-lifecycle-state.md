@@ -1,23 +1,26 @@
 ---
 title: 创建新的产品生命周期状态
 description: 此过程显示如何创建新的产品生命周期状态。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8087bcf6697407cabcd1a35437f222b500dec3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568343"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422853"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>创建新的产品生命周期状态
 
@@ -32,6 +35,3 @@ ms.locfileid: "7568343"
 3. 在“状态”字段中，键入一个值。
 4. 在“描述”字段中，键入一个值。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

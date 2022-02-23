@@ -2,9 +2,11 @@
 title: 辅助功能
 description: 本主题描述专门帮助有伤残用户的功能。
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071050"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798687"
 ---
 # <a name="accessibility-features"></a>辅助功能
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题描述专门帮助有伤残用户使用此应用的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
 
@@ -55,13 +54,13 @@ ms.locfileid: "8071050"
 
 您想要运行在“操作”窗格中 **销售订单** 选项卡上的 **电子邮件通知** 组中出现的 **电子邮件通知日志** 操作。
 
-![操作窗格上的电子邮件通知日志操作。](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "“操作”窗格上的“电子邮件通知日志”操作")
+![“操作”窗格上的电子邮件通知日志操作](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "“操作”窗格上的“电子邮件通知日志”操作")
 
 一个选择是使用您的键盘。 按 Ctrl+F6 将焦点移至“操作”窗格，然后反复按 Tab 在所有选项卡和操作之间移动，直到 **电子邮件通知日志** 操作获得焦点。
 
 不过您还可以更直接地运行操作。 从页面的任何位置，按 Ctrl+Apostrophe (') 可以显示操作的搜索框。
 
-![操作的搜索框。](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "操作的搜索框")
+![操作的搜索框](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "操作的搜索框")
 
 在搜索框中，键入描述操作的文字。 操作已对您可用，您可以直接运行它。 例如，通过键入 **电子邮件**、**通**（部分文字）或 **日志**，您可以“跳”到电子邮件通知日志功能。
 
@@ -98,6 +97,3 @@ ms.locfileid: "8071050"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>帮助开发人员和客户将可理解的想法与其自定义内容相结合的指导
 
 若要更多了解有关启用辅助功能的 Microsoft 最佳实践，请参阅[窗体、产品和控件中的辅助功能](../../dev-itpro/user-interface/enable-accessibility.md)。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

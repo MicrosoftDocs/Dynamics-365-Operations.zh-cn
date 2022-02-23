@@ -2,9 +2,11 @@
 title: 配置从 SharePoint 的数据导入
 description: 本主题介绍如何从 Microsoft SharePoint 导入数据。
 author: NickSelin
-ms.date: 01/05/2022
+manager: AnnBe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074758"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680894"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
@@ -47,13 +49,13 @@ ms.locfileid: "8074758"
 - ER 模型配置 **1099 付款模型**
 - ER 格式配置 **用于从 Excel 导入供应商的交易记录的格式**
 
-![用于从 SharePoint 导入数据的 ER 配置。](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![用于从 SharePoint 导入数据的 ER 配置](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>用于数据导入的传入文件示例
 
 - Excel 文件 **1099import-data.xlsx**，其中包含应导入的供应商交易记录。
 
-![用于从 SharePoint 导入的 Excel 示例文件。](./media/GERImportFromSharePoint-02-Excel.PNG)
+![要从 SharePoint 导入的 Excel 示例文件](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > 将选择用于导入供应商交易记录的格式作为默认模型映射。 因此，如果运行 **1099 付款模型** 的模型映射，并且该模型映射类型为 **截止目标**，则该模型映射运行此格式以从外部文件导入数据。 然后使用这些数据更新申请表。
@@ -68,7 +70,7 @@ ms.locfileid: "8074758"
      - 文件导入源（主）（以下屏幕截图中显示的示例）
      - 文件导入源（备用）
 
-    ![文件导入源（主）。](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![文件导入源（主）](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. （可选）创建以下可以在文件导入后存储文件的文件夹。 
 
@@ -87,7 +89,7 @@ ms.locfileid: "8074758"
 |SP 警告             |文件                |SharePoint     |文件警告文件夹|
 |SP 错误             |文件                |SharePoint     |文件错误文件夹|
 
-![SharePoint 设置 – 新文档类型。](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![SharePoint 设置 – 新文档类型](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>为 ER 格式配置 ER 源
 1. 单击 **组织管理** \> **电子申报** \> **电子申报来源**。
@@ -96,7 +98,7 @@ ms.locfileid: "8074758"
 4. 如果存在若干要导入的文件，并且导入顺序不重要，将 **导入文件前先进行排序** 更改为 **不排序**
 5. 选择前面创建的所有 SharePoint 文件夹。
 
-    [![ER 文件来源设置。](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![ER 文件来源设置](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - 将为每家申请公司分别定义 ER *来源*。 相反，ER *配置* 则由多家公司共用。
@@ -114,7 +116,7 @@ ms.locfileid: "8074758"
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>从 SharePoint 文件夹中的 Excel 文件导入数据
 1. 在 SharePoint 中，将包含供应商交易记录的 Microsoft Excel 文件 **1099import-data.xlsx** 上传到您前面创建的 **文件导入源（主）** SharePoint 文件夹。
 
-    [![SharePoint 内容 – 要导入的 Microsoft Excel 文件。](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint 内容 – 要导入的 Microsoft Excel 文件](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. 在 **源的文件状态** 页中，选择 **刷新** 以刷新页面。 此页面中将显示已上传到 SharePoint 的 Excel 文件，其状态为 **就绪**。 现在支持以下状态：
 
@@ -124,19 +126,19 @@ ms.locfileid: "8074758"
     - **失败** – 文件导入完成，但出现错误或异常时，ER 报表自动分配的状态。
     - **保留** – 用户在此页面中手动分配的状态。 此状态表示暂时不导入该文件。 此状态可用于推迟导入某些文件。
 
-    [![所选来源的已刷新 ER 文件状态页面。](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![所选来源的已刷新 ER 文件状态页](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>从 SharePoint 文件导入数据
 1. 打开 ER 配置树，选择 **1099 付款模型**，然后展开 ER 模型组件列表。
 2. 选择模型映射名称以打开所选 ER 模型配置的模型映射列表。
 
-    [![配置页面。](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![配置页面](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. 选择 **运行** 以运行所选模型映射。 因为您为 ER 格式配置了文件源，所以，如果需要，可以更改 **文件源** 选项的设置。 如果保留此选项的设置，将从配置的源（本示例中为 SharePoint 文件夹）导入 .xslx 文件。
 
     在本示例中，仅导入一个文件。 但是，如果有多个文件，将按这些文件添加到 SharePoint 文件夹的顺序选择导入。 每次运行 ER 格式都将导入选择的一个文件。
 
-    [![从 SharePoint 导入和运行 ER 模型映射。](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![从 SharePoint 导入和运行 ER 模型映射](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. 该模型映射可以以批处理模式的[无人值守](#limitations)方式运行。 在这种情况下，只要批处理运行该 ER 格式，都将从配置的文件源导入一个文件。
 
@@ -144,11 +146,11 @@ ms.locfileid: "8074758"
 
 5. 输入凭证 ID（如 **V-00001**），然后选择 **确定**。
 
-    [![运行 ER 模型映射。](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![运行 ER 模型映射](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. 在 **源的文件状态** 页中，选择 **刷新** 以刷新页面。
 
-    [![来源的 ER 文件状态页面。](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![来源的 ER 文件状态页](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. 在 **文件** 部分，检查文件的列表。 **导入格式的源日志** 部分提供 Excel 文件导入历史记录。 由于该文件已成功导入，所以在 SharePoint 文件夹中标记为 **已删除**。
 8. 检查 **文件导入源（主）** SharePoint 文件夹。 已从该文件夹删除了成功导入的 Excel 文件。
@@ -157,12 +159,12 @@ ms.locfileid: "8074758"
 
     此页面中将显示在 SharePoint 上为凭证 **V-00001** 通过 Excel 文件导入的供应商交易记录。
 
-    [![1099 供应商交易页面。](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![1099 供应商交易记录页](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>准备要导入的 Excel 文件
 1. 打开以前使用过的 Excel 文件。 在第 3 行第 1 列，添加一个申请中没有的供应商代码。 为该行添加更多虚假的供应商信息。
 
-    [![要从 SharePoint 导入的 Microsoft Excel 示例文件。](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![要从 SharePoint 导入的 Microsoft Excel 示例文件](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. 将已更新且包含供应商交易记录的 Excel 文件上传到 **文件导入源（主）** SharePoint 文件夹。
 3. 打开 ER 配置树，选择 **1099 付款模型**，然后展开 ER 模型组件列表。
@@ -170,7 +172,7 @@ ms.locfileid: "8074758"
 5. 选择 **设计器**。
 6. 在 **验证** 选项卡上，必须更改为了评估应用程序中是否存在导入的供应商科目而配置的验证规则的验证后操作。 将 **验证后操作** 字段的值更改为 **停止执行**，保存更改，然后关闭页面。
 
-    [![ER 模型映射设计器页面。](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![ER 模型映射设计器页面](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. 保存更改，然后关闭 ER 模型映射设计器。
 8. 选择 **运行** 以运行修改后的 ER 模型映射。
@@ -178,11 +180,11 @@ ms.locfileid: "8074758"
 
     信息日志中包含用于说明 SharePoint 文件夹中存在包含不正确的供应商科目的文件，因此不能导入的通知。
 
-    [![已完成的“运行 ER 模型映射”。](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![已完成的“运行 ER 模型映射”](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. 在 **源的文件状态** 页，选择 **刷新**，然后在 **文件** 部分中查看文件列表。
 
-    [![所选来源的 ER 文件状态页面。](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![所选来源的 ER 文件状态页](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    **导入格式的源日志** 部分指示导入过程失败，文件在“文件错误”SharePoint 文件夹中（**已删除** 复选框未选中）。 如果您通过添加适当的供应商代码在 SharePoint 上修复了此文件，并将其移到“文件导入源（主）”SharePoint 文件夹，您可以再次导入该文件。
 
@@ -192,11 +194,11 @@ ms.locfileid: "8074758"
 
 ## <a name=""></a><a name="limitations">限制</a>
 
-在版本 10.0.25 之前的 Dynamics 365 Finance 版本中，ER 框架的用户界面 (UI) 不提供启动新批处理作业的功能，该作业将以无人参与模式运行模型映射以进行数据导入。 您必须开发新的逻辑，以便可以从应用程序 UI 调用配置的 ER 模型映射，以从传入文件中导入数据。 要开发此逻辑，需要完成一些工程工作。 
+ER 框架不提供启动新批处理作业的功能，该作业将以无人参与模式执行模型映射以进行数据导入。 为此，您必须开发新的逻辑，以便可以从应用程序用户界面 (UI) 调用配置的 ER 模型映射，以从传入文件中导入数据。 因此，需要一些工程工作。 
 
-有关 ER API 的详细信息，请参阅[针对应用程序更新 7.3 的 ER 框架 API 更改](er-apis-app73.md)中的[用于运行格式映射以导入数据的代码](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import)一节。 查看 `Application Suite` 模型的 `BankImport_RU` 类中的代码，以了解如何实现自定义逻辑。 `BankImport_RU` 类扩展了 `RunBaseBatch` 类。 特别是，查看 `runER()` 方法，在此方法中，创建的 `ERIModelMappingDestinationRun` 对象充当 ER 模型映射的运行器。
+要了解有关 ER API 的详细信息，请参阅[针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)中的[用于运行格式映射以导入数据的代码](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import)部分。
 
-在 Finance 版本 10.0.25 及更高版本中，ER 框架 UI 会提供启动新批处理作业的功能，该作业将以无人参与模式运行模型映射以进行数据导入。 有关此流程的详细信息，请参阅[在批处理模式下从手动选择的文件导入数据](er-configure-data-import-batch.md)。
+查看 `Application Suite` 模型的 `BankImport_RU` 类中的代码，以了解如何实现自定义逻辑。 此类扩展了 `RunBaseBatch` 类。 特别是，查看 `runER()` 方法，在此方法中，创建的 `ERIModelMappingDestinationRun` 对象充当 ER 模型映射的运行器。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -204,10 +206,3 @@ ms.locfileid: "8074758"
 
 [针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)
 
-[针对 Application update 10.0.23 的 ER API 更改](er-apis-app10-0-23.md)
-
-[针对 Application update 10.0.25 的 ER API 更改](er-apis-app10-0-25.md)
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

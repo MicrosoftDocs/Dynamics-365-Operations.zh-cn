@@ -2,24 +2,27 @@
 title: 创建贸易协议使用的类别定价规则
 description: 该过程说明了如何使用分类价格规则创建销售价格贸易协议。
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730699"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410544"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>创建贸易协议使用的类别定价规则
 
@@ -56,6 +59,3 @@ ms.locfileid: "6730699"
 24. 单击“分类价格规则”选项卡。
     * 此列表列明了销售渠道的具体“分类价格规则”。  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

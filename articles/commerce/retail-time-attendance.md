@@ -2,13 +2,16 @@
 title: Retail 中的工时和出勤管理
 description: 此主题介绍 Dynamics 365 Commerce 中工时和出勤管理支持的方案。
 author: aamirallaqaband
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762660"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410604"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 
@@ -38,9 +41,9 @@ ms.locfileid: "6762660"
 
 ### <a name="plan-worker-schedules"></a>计划工作人员计划
 
-- 使用工作进度表应用模板。 有关详细信息，请参阅[使用工作进度表应用模板](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner)。
+- 使用工作进度表应用模板。 有关详细信息，请参阅[使用工作进度表应用模板](https://technet.microsoft.com/library/aa551234.aspx)。
 
-有关配置步骤的信息，请参阅[设置“时间和出勤情况”](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance)。
+有关配置步骤的信息，请参阅[设置“时间和出勤情况”](https://technet.microsoft.com/library/aa496971.aspx)。
 
 ### <a name="commerce-specific-configuration"></a>特定于商业的配置
 
@@ -97,7 +100,7 @@ ms.locfileid: "6762660"
         </tbody>
         </table>
 
-        [![打卡时间状态。](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![打卡时间状态](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - 查看确认消息，验证当前活动时间是否正确。
 - 日志：
@@ -135,7 +138,4 @@ Commerce 用户按照工作流计算、审核和将时间登记转移到工资�
 - 批量下班打卡
 - 登记缺勤
 
-有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](https://technet.microsoft.com/library/aa573180.aspx)。

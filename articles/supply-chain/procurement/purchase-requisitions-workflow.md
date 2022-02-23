@@ -1,10 +1,12 @@
 ---
 title: 采购申请工作流
 description: 工作流在审核过程中移动采购申请，从“草稿”的初始状态到“已审核”最终状态。 在采购申请被提交审核时，该工作流流程开始。 在审核采购申请后，采购订单可为采购申请行生成并提交到供应商进行订单执行。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569449"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021972"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 
@@ -51,7 +53,7 @@ ms.locfileid: "7569449"
 -   **采购代理** – 执行采购审核和可以批准文档的用户。
 -   **申请人的经理** – 执行管理审核和可以批准文档的用户。
 
-![采购申请工作流审核流程。](./media/purchreqworkflowoverview_submission.gif)  
+![采购申请工作流审核流程](./media/purchreqworkflowoverview_submission.gif)  
 本示例中，采购申请的工作流过程包括以下步骤：
 
 1.  准备人员提交审核的采购申请。
@@ -74,7 +76,7 @@ ms.locfileid: "7569449"
 -   **部门经理** – 执行支出审核和可以批准文档的用户。
 -   **组经理** – 执行签名主管机构审核和可以批准文档的用户。
 
-![采购申请行工作流审核流程。](./media/purchreqlineworkflowoverview.gif)  
+![采购申请行工作流审核流程](./media/purchreqlineworkflowoverview.gif)  
 本示例中，采购申请行的工作流过程包括以下步骤：
 
 1.  准备人员提交审核的采购申请。 每一行将传送到配置为在工作流过程中接收它的审核人。
@@ -105,7 +107,8 @@ ms.locfileid: "7569449"
 
 若要使用您在工作流中设置的某一支出审核人，您必须在相关工作流元素属性的 **分配** 属性中将 **参与者的类型** 选项设置为 **支出参与者**。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [创建消耗量申请](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ ms.locfileid: "7569449"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

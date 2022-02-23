@@ -2,13 +2,16 @@
 title: 评估客户和产品收益率
 description: 本文介绍了如何使用内存中和实时分析来从您的 Dynamics 365 Commerce 数据访问、探索和深入了解客户和产品收益率。
 author: ashishmsft
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d7b51ffb3613800033d817b1e911ba22cb978c0cdb21a256693ba52674ad5885
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3218a29995791ce0d9a42d5b6d898d6e548f0f1d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728307"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410463"
 ---
 # <a name="assess-customer-and-product-profitability"></a>评估客户和产品收益率
 
@@ -53,6 +56,3 @@ ms.locfileid: "6728307"
 - **商店管理** 工作区 &gt; **Retail 和 Commerce** &gt; **渠道** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
 - **类别和产品管理** 工作区 &gt; **Retail 和 Commerce** &gt; **产品和类别** &gt; **商店管理** &gt; **报表** &gt; **排名靠前的产品报表**
 - **查询和报表** 部分 &gt; **Retail 和 Commerce** &gt; **查询和报表** &gt; **销售报表** &gt; **排名靠前的产品报表**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

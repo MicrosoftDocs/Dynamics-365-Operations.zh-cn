@@ -1,24 +1,26 @@
 ---
-title: 警报概览（包含视频）
+title: 预警概览
 description: 本主题提供了有关预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984960"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798568"
 ---
 # <a name="alerts-overview"></a>预警概览
 
@@ -86,6 +88,3 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中包含[预警规则选项](https://youtu.be/cpzimwOjicM)视频（上面所示）。
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

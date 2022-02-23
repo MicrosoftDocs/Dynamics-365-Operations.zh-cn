@@ -2,9 +2,11 @@
 title: 创建和更新客户提货时隙
 description: 此主题介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713413"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828203"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>创建和更新客户提货时隙
 
@@ -34,7 +36,7 @@ ms.locfileid: "6713413"
 
 下图显示了在电子商务结帐期间选择时隙的示例。
 
-![电子商务结帐期间时隙选择的示例。](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![电子商务结帐期间选择时隙的示例](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>时隙属性
 
@@ -60,7 +62,7 @@ ms.locfileid: "6713413"
 - **有效日期** – 指定提货时隙在一周的哪一天有效。 此属性让零售商可以定义要支持提供订单的日期。
 - **零售渠道** – 指定零售渠道。 每个时隙可以与一个或多个零售商店关联。 根据每个商店的营业时间，可以创建一个或多个时隙条目并将其与渠道关联。 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 每个渠道只能配置一个时隙模板。 这些渠道包括实体商店、呼叫中心、移动设备和电子商务网站。
 
@@ -85,14 +87,14 @@ ms.locfileid: "6713413"
     > [!NOTE]
     > 您可以创建多个模板，但只有一个模板可以与一个渠道或商店关联。
 
-    ![“订单提货 - 时间设置”对话框。](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![“订单提货 - 时间设置”对话框](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. 当您完成时，选择 **确定**。
 1. 如果一天中的时隙会变化，请在 **订单提货 - 时间设置** 快速选项卡上创建其他条目，以确保日期和时间不会重叠。
 1. 在 **零售渠道** 快速选项卡上，选择 **添加** 将时隙模板与将使用该模板的商店或渠道关联。
 1. 在 **选择组织节点** 对话框中，使用箭头按钮选择（或清除选择）应与模板关联的商店、地区和组织。
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. 当您完成时，选择 **确定**。
 1. 在 **配送计划** 页，运行 **1070** 和 **1135** 作业将数据与渠道同步。
@@ -103,7 +105,7 @@ ms.locfileid: "6713413"
 
 下图显示了 POS 订单的时隙选择的示例。
 
-![POS 订单的时隙选择的示例。](../dev-itpro/media/Curbside_timeslot_POS.png)
+![POS 订单的时隙选择示例](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>电子商务订单的时隙选择
 
@@ -114,17 +116,14 @@ ms.locfileid: "6713413"
 
 下图显示了一个已选择提货时隙的电子商务订单的示例。
 
-![已选择提货时隙的电子商务订单的示例。](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![已选择提货时隙的电子商务订单的示例](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>呼叫中心订单的时隙选择
 
 在呼叫中心应用中，呼叫中心代理可以选择提货商店或位置，以及下图中突出显示的日期和时隙。
 
-![已选择提货时隙的呼叫中心订单的示例。](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![已选择提货时隙的呼叫中心订单的示例](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [提货信息模块](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

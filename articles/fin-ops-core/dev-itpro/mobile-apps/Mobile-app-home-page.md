@@ -2,24 +2,26 @@
 title: 移动应用主页
 description: 此主题描述 Finance and Operations (Dynamics 365) 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
+ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729700"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683450"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
@@ -27,7 +29,8 @@ ms.locfileid: "6729700"
 
 此主题描述 **Finance and Operations (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 
-## <a name="overview"></a>概览
+<a name="overview"></a>概览
+--------
 
 此移动应用让您的组织可以允许移动设备使用此应用的业务流程。 在您的 IT 管理员为您的组织启用此移动工作区后，用户可以登录到此应用并立即开始从其移动设备运行业务流程。 此移动应用包括可帮助提高生产率的以下功能：
 
@@ -39,7 +42,7 @@ ms.locfileid: "6729700"
 ## <a name="elements-of-the-mobile-app"></a>移动应用的元素
 移动应用的导航包括四个基本的概念：仪表板、工作区、页面和操作。 
 
-[![移动应用中的导航概念。](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![移动应用的导航概念](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. 当您启动应用后，转到 **仪表板**。
 2. 在仪表板上，可以看到已发布的 **工作区**。
@@ -53,7 +56,7 @@ ms.locfileid: "6729700"
 ## <a name="implementation-process"></a>实施流程
 下图显示实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的流程。 
 
-[![移动应用实现流程。](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![移动应用实现流程](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 下表包括可以帮助您实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的资源的链接。 第一列的数字对应上一图中已编号的步骤。
 
@@ -90,8 +93,8 @@ ms.locfileid: "6729700"
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">现有库存量移动工作区</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">销售订单移动工作区</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">供应商协作移动工作区</a></li>
-<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
-<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">费用报销管理移动工作区</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">项目时间条目移动工作区</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">费用报销管理移动工作区</a></li>
 
 </ul></td>
 </tr>
@@ -148,6 +151,3 @@ ms.locfileid: "6729700"
 
 ## <a name="troubleshooting"></a>疑难解答
 [移动平台资源](platform/mobile-platform-home-page.md#troubleshooting-the-app)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: 服务活动
 description: 创建服务活动以定义和维护服务订单中的任务。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmActivityTypeGroup, SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 656c16f812afccd58ea9031fd83a4b09a4c44957
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f06d3b7efa57d88d33ab256e0d8c6ebcdea1a41c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423089"
 ---
 # <a name="service-activities"></a>服务活动        
 
@@ -37,6 +40,3 @@ ms.locfileid: "7566135"
 
 [发货牌（窗体）](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

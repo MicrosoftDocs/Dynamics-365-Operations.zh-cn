@@ -2,25 +2,28 @@
 title: 资产租赁报表
 description: 本主题列出并简要描述了资产租赁中的可用报表。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739399"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440957"
 ---
 # <a name="asset-leasing-reports"></a>资产租赁报表
 
@@ -162,6 +165,3 @@ GAAP 披露报表满足 842-20-50-4(g)(1) 中规定的 US GAAP 披露要求。 �
 |     货币                          |     所用交易货币的缩写。 所有报表将交易货币转换为申报币种。  |
 |     剩余租赁付款          |     从 **截止** 日期开始付款计划中剩余未付款租赁付款的总额。            |
 |     剩余加权付款       |     剩余租赁付款乘以所用折扣率。   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

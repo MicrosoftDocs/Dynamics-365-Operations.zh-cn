@@ -2,9 +2,11 @@
 title: 工作流元素
 description: 本主题介绍构成工作流的不同元素。
 author: ChrisGarty
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070442"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797568"
 ---
 # <a name="workflow-elements"></a>工作流元素
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题介绍构成工作流的不同元素。
 
@@ -63,7 +62,7 @@ ms.locfileid: "8070442"
 
 可以创建工作流来处理文档或文档上的行项。 例如，您为工时单创建了审核工作流。 （我们将把此工作流称为 *单据工作流*。）您可以向该单据工作流添加 *行项工作流* 元素。 在运行行项元素时，提交文档上的每个行项进行处理。 您可能想要由同一行项工作流来处理所有行项，或者您可能想要由不同的行项工作流来处理各行项。 假定员工提交了类似于下图的时间表。
 
-![具有行项的工作流。](./media/workflow_lineitemworkflow.gif)
+![具有行项的工作流](./media/workflow_lineitemworkflow.gif)
 
 在这种情况下，您可能要创建以下行项工作流：
 
@@ -90,6 +89,3 @@ ms.locfileid: "8070442"
 ### <a name="subworkflow"></a>子工作流
 
 *子工作流* 是在其他工作流的上下文中运行的工作流。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

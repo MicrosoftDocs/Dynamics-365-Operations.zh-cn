@@ -1,27 +1,30 @@
 ---
 title: 延迟
 description: 本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89830feea12b4f5703e0eda622729887dd9bf46
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: da09d670fd952d885f013693b6362cf9002343ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423243"
 ---
 # <a name="delays"></a>延迟
 
@@ -52,9 +55,7 @@ ms.locfileid: "7573745"
 
 **计划订单** 页面的 **延期** 选项卡下是计划订单的 **所需的日期**。 计划订单的所需日期是延期的基准日期，这是等于从 **净需求** 计算出的 **请求日期** 的计算出的日期。 如果计划订单为 BOM 行、生产行或看板行，所需日期将基于 **需求日期**，而 **计划订单** 页面中将不显示所需日期。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [覆盖范围设置](coverage-settings.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

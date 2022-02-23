@@ -2,12 +2,15 @@
 title: 预览和发布试验
 description: 本主题介绍了如何从 Dynamics 365 Commerce 中预览和发布试验。
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740375"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4410624"
 ---
 # <a name="preview-and-publish-an-experiment"></a>预览和发布试验
 
 本主题介绍了如何在[连接试验和编辑变体](experimentation-connect-edit.md)之后在 Dynamics 365 Commerce 中预览和发布试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 预览和发布。](./media/experimentation_preview_publish.svg)](./media/experimentation_preview_publish.svg#lightbox)
+[![试验用户旅程 - 预览和发布](./media/experimentation_preview_publish.svg)](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>预览试验变体
 您可以预览变体并继续进行编辑，直到它们实现您的预期效果。
@@ -57,6 +60,3 @@ ms.locfileid: "6740375"
 
 ## <a name="next-step"></a>后续步骤
 [运行和监视试验](experimentation-run-monitor.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

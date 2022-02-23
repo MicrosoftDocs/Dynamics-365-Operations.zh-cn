@@ -1,31 +1,35 @@
 ---
-title: 上传并处理静态文件
-description: 此主题介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
+title: 上载和提供静态文件
+description: 此主题介绍如何将静态文件上载到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 author: StuHarg
+manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714675"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594946"
 ---
-# <a name="upload-and-serve-static-files"></a>上传并处理静态文件
+# <a name="upload-and-serve-static-files"></a>上载和提供静态文件
 
-[!include [banner](includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-此主题介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
+此主题介绍如何将静态文件上载到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 
 有些第三方连接器需要文件从电子商务站点托管和提供。 这些连接器预期文件将由对特定回叫 URL 路径和文件名的请求返回。 因此，此主题说明如何在 Dynamics 365 Commerce 电子商务站点上载和提供具有用户可定义 URL 和文件名的静态文件。
 
@@ -103,6 +107,3 @@ URL 发布后，您可以对它进行更新，让它指向另一个文件。 或
 [裁剪图像](dam-crop-images.md)
 
 [自定义图像焦点](dam-custom-focal-point.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

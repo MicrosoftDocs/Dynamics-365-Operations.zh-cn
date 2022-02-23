@@ -51,6 +51,3 @@ ms.locfileid: "4460508"
 
 > [!NOTE]
 > Microsoft 和 Attract 不会参与这些值的创建和维护。 您负责使其在 Attract 中保持最新并与 Broadbean 合作解决涉及您的配置的所有问题。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

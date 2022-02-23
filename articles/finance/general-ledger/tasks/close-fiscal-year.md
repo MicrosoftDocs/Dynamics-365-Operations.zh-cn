@@ -2,23 +2,26 @@
 title: 结算会计年度
 description: 此过程介绍将余额转移到新会计年度的年终结算的步骤。
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902499"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440833"
 ---
 # <a name="close-the-fiscal-year"></a>结算会计年度
 
@@ -36,7 +39,7 @@ ms.locfileid: "7902499"
 
 4. 为 **在结转期间创建期末交易记录** 选项选择“是”或“否”。
 
-    如果设置为“是”，将创建两笔交易。 在正在关闭的会计年度中创建一个凭证，以便将所有会计科目的余额降为零，并在下一个会计年度中为期初余额创建第二个凭证。 如果设置为“否”，将在下一个会计年度中为期初余额创建一个凭证。  
+    如果设置为“是”，将创建两笔交易。 在正在关闭的会计年度中创建一个凭证，以便将损益会计科目的余额降为零，并在下一个会计年度中为期初余额创建第二个凭证。 如果设置为“否”，将在下一个会计年度中为期初余额创建一个凭证。  
 
 5. 为 **将会计年度状态设置为永久关闭** 选项选择“是”或“否”。
 
@@ -80,6 +83,3 @@ ms.locfileid: "7902499"
 23. 年终结算默认批量运行。 最好以批处理模式运行长时间运行的流程。 这通常是这些流程中的一个，也是默认使用批处理模式的原因。  
 24. 单击 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: 库存日记帐审核工作流
 description: 本主题介绍如何为各种类型的实际库存交易设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778297"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422756"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 
@@ -28,13 +31,6 @@ ms.locfileid: "7778297"
 
 > [!NOTE]
 > 库存日记帐审核工作流仅适用于使用库存管理模块记录的交易。 不适用于仓库管理模块触发的库存日记帐。
-
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>打开库存日记帐审核工作流功能
-
-从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
-
-- **模块**：*库存和仓库管理*
-- **功能名称**：*库存日记帐审核工作流*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>创建库存日记帐审核工作流
 
@@ -55,7 +51,7 @@ ms.locfileid: "7778297"
     - **库存物料清单日记帐**
     - **库存调整日记帐**
 
-    ![“创建工作流”对话框。](media/journal-workflow-create-workflow.png "“创建工作流”对话框")
+    ![“创建工作流”对话框](media/journal-workflow-create-workflow.png "“创建工作流”对话框")
 
 1. 工作流编辑器应用将在您的计算机上启动。 （可能会要求您批准此操作。）请根据需要使用它来设计工作流。 有关如何使用工作流编辑器的详细信息，请参阅[工作流系统概览](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md)。
 1. 保存并关闭工作流编辑器应用后，您必须选择是激活此工作流版本还是保持非活动状态。
@@ -73,7 +69,7 @@ ms.locfileid: "7778297"
 1. 从列表列中选择一个日记帐名称来打开其设置页面。
 1. 在 **常规** 快速选项卡上，将 **审核工作流** 设置为 **是**。 如果提示批准操作，请选择 **是**。
 
-    ![将工作流分配给日记帐名称。](media/journal-workflow-journal-name.png "将工作流分配给日记帐名称")
+    ![将工作流分配给日记帐名称](media/journal-workflow-journal-name.png "将工作流分配给日记帐名称")
 
 1. 打开 **工作流** 下拉列表，选择适当的工作流。 此列表显示您使用工作流编辑器应用创建的每个活动工作流。
 
@@ -87,7 +83,7 @@ ms.locfileid: "7778297"
 1. 根据需要完成日记帐。
 1. 当创建或打开具有关联的审核工作流的库存日记帐时，**工作流** 按钮将在操作窗格中处于活动状态。 当您准备好要提交日记帐以供审核时，选择 **工作流** 按钮打开一个下拉对话框，然后选择 **提交**。 然后，审核请求将路由到相关审核人，系统将使用为工作流配置的通知方法提醒审核人。
 
-    ![提交日记帐以供审批。](media/journal-workflow-inventory-journal.png "提交日记帐以供审核")
+    ![提交日记帐以供审核](media/journal-workflow-inventory-journal.png "提交日记帐以供审核")
 
 要撤回审核请求，请打开相关日记帐，选择 **工作流** 按钮，然后选择 **撤回**。 这将重置工作流。
 
@@ -116,6 +112,3 @@ ms.locfileid: "7778297"
 1. 在导航窗格上，展开 **库存管理 \> 日记帐条目 \> 商品**，然后选择库存日记帐类型。
 1. 打开相关日记帐。
 1. 选择操作窗格上的 **工作流** 按钮打开一个下拉对话框。 选择 **工作流历史记录**。 有关详细信息，请参阅[查看工作流历史记录](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

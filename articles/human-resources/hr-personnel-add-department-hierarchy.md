@@ -1,33 +1,31 @@
 ---
 title: 创建部门并将其添加到部门层次结构中
-description: 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。
-author: twheeloc
-ms.date: 10/28/2021
+description: 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8571b254a3dcdeaf562a97f165b8124f04ae7e6d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068886"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417391"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
 
@@ -35,15 +33,15 @@ ms.locfileid: "8068886"
 
 | 字段               | 描述                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **姓名**                | 输入部门名称。                                                                                                                                                                                  |
-| **部门编号**   | 如果向 **编号规则** 页上的 **组织编号** 引用分配编号规则代码，则可能会自动生成默认值。                                                 |
-| **搜索名称**         | 输入可用于搜索部门的名称或缩写。                                                                                                                                            |
-| **备忘录**                | 在此处输入任何附加信息。                                                                                                                                                                            |
-| **在层次结构中**        | 选中的复选框表示部门已包含在部门层次结构中。 有关如何将部门添加到部门层次结构的信息，请参阅本文中后面的信息。 |
-| **DUNS 编码**         | DUNS 代表数据统一编码系统。 这是由 Dun & Bradstreet 发布的 9 位数编号。                                                                                                     |
-| **经理**             | 输入管理部门的人员。                                                                                                                                                                    |
-| **地址**           | 添加部门的地址信息。 例如，添加部门所在的建筑物邮寄地址。                                                                          |
-| **联系人信息** | 添加部门的联系人信息。 例如，添加部门服务台的电话号码。                                                                                           |
+| 姓名                | 输入部门名称。                                                                                                                                                                                  |
+| 部门编号   | 如果向 **编号规则** 页上的 **组织编号** 引用分配编号规则代码，则可能会自动生成默认值。                                                 |
+| 搜索名称         | 输入可用于搜索部门的名称或缩写。                                                                                                                                            |
+| 备忘录                | 在此处输入任何附加信息。                                                                                                                                                                            |
+| 在层次结构中        | 选中的复选框表示部门已包含在部门层次结构中。 有关如何将部门添加到部门层次结构的信息，请参阅本文中后面的信息。 |
+| DUNS 编号         | DUNS 代表数据统一编码系统。 这是由 Dun & Bradstreet 发布的 9 位数编号。                                                                                                     |
+| 经理             | 输入管理部门的人员。                                                                                                                                                                    |
+| 地址           | 添加部门的地址信息。 例如，添加部门所在的建筑物邮寄地址。                                                                          |
+| 联系人信息 | 添加部门的联系人信息。 例如，添加部门服务台的电话号码。                                                                                           |
 
 要将部门添加到部门层次结构，请执行以下步骤。
 
@@ -55,7 +53,4 @@ ms.locfileid: "8068886"
 6.  准备好后，单击层次结构设计器中的 **发布**。 您可以输入一个指示何时应发布层次结构的生效日期。 例如，要在下一个日历年的年初添加新部门，请将生效日期设置为新日历年的 1 月 1 日。 对层次结构进行的更改将在该日期生效。
 
 ## <a name="steps-for-creating-a-department"></a>部门创建步骤
-请参阅[定义新部门](./hr-personnel-define-departments.md)一文了解创建新部门的分步过程。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)一文了解创建新部门的分步过程。 

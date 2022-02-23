@@ -2,9 +2,11 @@
 title: 批次平衡
 description: 此主题介绍批次平衡流程。
 author: johanhoffmann
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966547"
 ---
 # <a name="batch-balancing"></a>批次平衡
 
@@ -184,6 +186,3 @@ ms.locfileid: "6780068"
 1. 如果配方度量单位与有效成分的库存度量单位不同，批次订单则不适用于批次平衡。
 
 不适用批次平衡的批次订单将完成批次订单的常规流程周期。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

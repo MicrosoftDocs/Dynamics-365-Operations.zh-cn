@@ -1,10 +1,12 @@
 ---
 title: 更新维护预算
 description: 本主题说明如何在资产管理中更新维护预算。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724932"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021009"
 ---
 # <a name="update-maintenance-budgets"></a>更新维护预算
 
@@ -72,6 +74,3 @@ ms.locfileid: "6724932"
 
 - 您知道某些资产的整修正处于规划阶段，但是尚未在资产管理中创建关联的作业。 但是，您希望维护预算中包括这些作业的预算成本。
 - 在您创建维护预算之后已创建了新的资产或资产类型，但是尚未为这些资产或资产类型设置维护计划。 但是，您希望维护预算中包括这些资产类型的预算成本。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

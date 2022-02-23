@@ -1,24 +1,26 @@
 ---
 title: 创建采购退货单
 description: 此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569401"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017051"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 
@@ -65,6 +67,3 @@ ms.locfileid: "7569401"
 4. 在 **产品收据** 字段中，键入一个值。 此字段用于输入将用作产品收货日记帐的凭证的参考。  
 5. 单击 **确定**。 此货物现已在采购退货单中记录为已装运，并已创建了产品收货日记帐。 可使用“产品收货”操作审查随采购订单创建的日记帐，以了解产品的收货或退货内容和收货或退货时间。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

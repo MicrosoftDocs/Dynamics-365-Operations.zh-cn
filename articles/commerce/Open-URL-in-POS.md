@@ -2,9 +2,11 @@
 title: 在 POS 中打开 URL
 description: 此主题概述 Dynamics 365 Commerce 中的产品和客户搜索的增强功能。
 author: AamirAllaq
+manager: AnnBe
 ms.date: 01/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,18 +17,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965444"
 ---
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Dynamics 365 Commerce 销售点 (POS) 中配置打开 URL 的按钮。 此功能不需要代码自定义，可以由非开发人员角色的人员配置。 
+本主题介绍如何在 Retail 销售点 (POS) 中配置打开 URL 的按钮。 此功能不需要代码自定义，可以由非开发人员角色的人员配置。 
 
 此功能允许在 POS 中配置按钮，进而使用按钮网格设计器打开 URL。 目前，这在以下配置中不支持：
 
@@ -46,15 +48,15 @@ ms.locfileid: "6714106"
 
 此功能还允许您指定打开本地应用的非 Web URL。 例如，您可以指定 MailTo、SIP、IM 或 MSTEAMS 等 URL 协议，其然后由主机设备上各自的本地应用处理。 为此，您必须使用所选的 **在新窗口中打开** 选项配置 URL。
 
-- 如果您使用部署图像服务和管理 (DISM) 设置您的计算机，对于 Windows 计算机，请参阅[导出或导入默认应用程序关联](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations)来设置默认的协议关联。
-- 如果您使用 MDM（如 Intune）来管理您的 Windows 计算机，请参阅[策略 CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults)。
-- 如果您是构建自定义网站的开发人员，请参阅[启动 URI 的默认应用](/windows/uwp/launch-resume/launch-default-app)。
+- 如果您使用部署图像服务和管理 (DISM) 设置您的计算机，对于 Windows 计算机，请参阅[导出或导入默认应用程序关联](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations)来设置默认的协议关联。
+- 如果您使用 MDM（如 Intune）来管理您的 Windows 计算机，请参阅[策略 CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults)。
+- 如果您是构建自定义网站的开发人员，请参阅[启动 URI 的默认应用](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app)。
 
 ## <a name="open-a-native-app-seamlessly"></a>无缝打开本地应用
 
 Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开应用。 如果您的应用尚未配置为从 Web 浏览器处理打开，您可能需要开发人员进行此配置。
 
-- 对于 Windows，请参阅[使用应用 URI 处理程序启用网站应用](/windows/uwp/launch-resume/web-to-app-linking)。
+- 对于 Windows，请参阅[使用应用 URI 处理程序启用网站应用](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking)。
 - 对于 iOS，请参阅[通用的开发人员链接](https://developer.apple.com/ios/universal-links/)。
 - 对于 Android，请参阅[处理 Android 应用链接](https://developer.android.com/training/app-links/)。
 
@@ -80,6 +82,3 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 5. 选择 **打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

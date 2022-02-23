@@ -1,35 +1,33 @@
 ---
 title: 福利资格策略
-description: 本主题提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
-author: twheeloc
-ms.date: 08/23/2021
+description: 本文提供有关福利资格策略的信息，可帮助您定义哪些人有资格享受特定福利。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e1f64a0beffe12f6b4e0ad53d3bbaa96822dc7e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fd4def17bf60ae2812927221c45547c5ac379f2b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066035"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417378"
 ---
-# <a name="benefit-eligibility-policies"></a>福利资格策略
+# <a name="benefit-eligibility-policies"></a>福利资格政策
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
+本文提供有关福利资格策略的信息，可帮助您定义哪些人有资格享受特定福利。
 
 在您创建福利时，您决定哪些福利可用于哪些员工。 下表显示您可以使其用于特定员工的福利示例。
 
@@ -51,6 +49,3 @@ ms.locfileid: "8066035"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

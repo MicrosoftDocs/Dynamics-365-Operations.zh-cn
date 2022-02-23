@@ -1,23 +1,25 @@
 ---
 title: 预警的批处理
 description: 此主题提供有关批处理预警的信息。
-author: RichdiMSFT
-ms.date: 08/24/2021
+author: tjvass
+manager: AnnBe
+ms.date: 09/10/2010
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416421"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798573"
 ---
 # <a name="batch-processing-of-alerts"></a>预警的批处理
 
@@ -80,6 +82,3 @@ ms.locfileid: "7416421"
 
 1. 转到 **系统管理** &gt; **定期任务** &gt; **预警** &gt; **到期日期预警**。
 2. 在 **到期日期预警** 对话框中，输入相应的信息。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

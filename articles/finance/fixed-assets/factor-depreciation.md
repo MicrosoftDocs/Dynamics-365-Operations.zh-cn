@@ -1,26 +1,29 @@
 ---
 title: 因素/系数折旧
 description: 本文提供系数折旧法的概览。
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674446"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440692"
 ---
 # <a name="factor-depreciation"></a>因素/系数折旧
 
@@ -28,7 +31,7 @@ ms.locfileid: "7674446"
 
 本文提供系数折旧法的概览。
 
-系数是用于对资产进行折旧的百分比。 在您设置固定资产折旧模板并在 **折旧模板** 页的 **方法** 字段中选择 **系数** 时，可以设置累进、非累进或直线折旧法。
+系数是用于对资产进行折旧的百分比。 在您设置固定资产折旧模板并在 **折旧模板** 页的 **方法** 字段中选择 **系数** 时，可以设置累进、非累进或直线折旧法：
 
 -   在累进折旧法中，折旧金额将增加每个折旧期间。
 -   在非累进折旧法中，每个期间的折旧金额将随着时间减少。
@@ -76,6 +79,3 @@ ms.locfileid: "7674446"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

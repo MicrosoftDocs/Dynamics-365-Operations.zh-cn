@@ -2,9 +2,11 @@
 title: 费用管理 Power BI 内容
 description: 此主题介绍费用管理 Power BI 内容包中的内容。
 author: panolte
+manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769890"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016444"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 
@@ -41,7 +43,7 @@ ms.locfileid: "6769890"
 所有金额均以公司币种显示。 将显示所有公司的数据，但是如果需要，可以添加公司筛选器。 
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内找到 Expense Admin Dashboard.pbix 和 Expense Personal Dashboard.pbix Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)。
+可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内找到 Expense Admin Dashboard.pbix 和 Expense Personal Dashboard.pbix Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
 该内容可以以嵌入式 Power Bi 内容的形式从费用管理工作区获取。 费用负责人可以访问自己的个人费用，但是只有应付帐款职员和经理可以访问管理员内容以查看所有用户的费用数据。
 
 ## <a name="refreshing-the-power-bi-content"></a>刷新 Power BI 内容
@@ -91,6 +93,3 @@ ms.locfileid: "6769890"
 | 员工统计信息 | 按成本类型的费用报表            |
 |                     | 个人支出                       |
 |                     | 按统计信息组的费用报表     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: 向站点添加语言
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964546"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410425"
 ---
 # <a name="add-languages-to-your-site"></a>向站点添加语言
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
+
+## <a name="overview"></a>概览
 
 可以将网站本地化为 Commerce 支持的任何语言。 （此主题后文显示了支持的语言的列表。）若要在网站中添加语言，必须首先将其添加到您的站点绑定的在线商店。
 
@@ -165,9 +171,8 @@ ms.locfileid: "7964546"
 
 [添加收藏夹图标](add-favicon.md)
 
+[添加欢迎消息](add-welcome-message.md)
+
 [添加版权声明](add-copyright-notice.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

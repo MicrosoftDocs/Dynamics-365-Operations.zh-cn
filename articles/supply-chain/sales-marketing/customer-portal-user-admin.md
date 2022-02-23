@@ -1,28 +1,30 @@
 ---
-title: 创建和管理客户门户用户（包含视频）
+title: 创建和管理客户门户用户
 description: 本主题说明如何创建客户门户用户帐户并为其设置权限。
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062482"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528285"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>创建和管理客户门户用户
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 在现成的实现中，用户无法自助注册使用客户门户创建的网站。 要登录和使用网站，必须由管理员邀请用户。Microsoft 有意阻止了用户自助注册的能力。
 
@@ -33,38 +35,38 @@ ms.locfileid: "8062482"
 ## <a name="video"></a>视频
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-[邀请客户注册和使用您的客户门户](https://youtu.be/drGUYHX9QIQ)视频（上方所示）包括在 YouTube 上提供的 [财务和运营播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+[邀请客户注册和使用您的客户门户](https://youtu.be/drGUYHX9QIQ)视频（上方所示）包括在 YouTube 上提供的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="prerequisite-setup"></a>先决条件设置
 
-Power Apps 门户中的联系人作为记录存储在 Microsoft Dataverse 中的 **联系人** 表中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
+Power Apps 门户中的联系人作为记录存储在 Common Data Service 中的 **联系人** 实体中。 然后双写入根据需要将这些记录同步到 Microsoft Dynamics 365 Supply Chain Management。
 
-![客户门户联系人的系统图。](media/customer-portal-contacts.png "客户门户联系人的系统图")
+![客户门户联系人的系统图](media/customer-portal-contacts.png "客户门户联系人的系统图")
 
-在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 表映射。
+在开始邀请新客户之前，请确保以双写入形式启用了 **联系人** 实体映射。
 
 ## <a name="the-invitation-process"></a>邀请流程
 
-要将现有联系人邀请到客户门户，请按照 Power Apps 门户文档中的[向门户邀请联系人](/powerapps/maker/portals/configure/invite-contacts)中的步骤操作。
+要将现有联系人邀请到客户门户，请按照 Power Apps 门户文档中的[向门户邀请联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts)中的步骤操作。
 
-在邀请客户加入客户门户之前，请确保客户的[联系人记录](/powerapps/maker/portals/configure/configure-contacts)已通过以下方式提供并设置：
+在邀请客户加入客户门户之前，请确保客户的[联系人记录](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)已通过以下方式提供并设置：
 
 1. 将 **公司** 字段设置为您希望客户在 Supply Chain Management 中所属的法人。
 2. 将 **帐号** 字段设置为您希望用户在 Supply Chain Management 中拥有的客户帐号。
 
 联系人创建后，您应该可以在 Supply Chain Management 中看到它。
 
-有关详细信息，请参阅 Power Apps 门户文档中的[配置要在门户上使用的联系人](/powerapps/maker/portals/configure/configure-contacts)。
+有关详细信息，请参阅 Power Apps 门户文档中的[配置要在门户上使用的联系人](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts)。
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>现成的 Web 角色和表权限
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>现成的 Web 角色和实体权限
 
-Power Apps 门户中的用户角色由 [Web 角色](/powerapps/maker/portals/configure/create-web-roles)和[表权限](/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
+Power Apps 门户中的用户角色由 [Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[实体权限](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)定义。 为客户门户定义了一些现成角色。 您可以创建新角色，并可以修改或删除现有角色。
 
 ### <a name="out-of-box-web-roles"></a>现成的 Web 角色
 
 本节介绍随客户门户提供的 Web 角色。
 
-有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](/powerapps/maker/portals/configure/create-web-roles)和[使用门户的表权限添加基于记录的安全性](/powerapps/maker/portals/configure/assign-entity-permissions)。
+有关如何修改现成的用户角色的详细信息，请参阅 Power Apps 门户文档中的[为门户创建 Web 角色](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles)和[使用门户的实体权限添加基于记录的安全性](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)。
 
 #### <a name="administrator"></a>管理员
 
@@ -88,12 +90,9 @@ Power Apps 门户中的用户角色由 [Web 角色](/powerapps/maker/portals/con
 
 | 销售订单 | 管理员 | 客户&nbsp;X 的客户代表 | 授权用户：Jane | 授权用户：Sam | 未授权用户：May |
 |---|---|---|---|---|---|
-| 客户&nbsp;X 订货人：Jane&nbsp; | 是 | 是 | 是 | 否 | 否 |
-| 客户&nbsp;X 订货人：Sam&nbsp; | 是 | 是 | 否 | 是 | 否 |
-| 客户&nbsp;Y 订货人：May&nbsp; | 是 | 否 | 否 | 否 | 否 |
+| 客户&nbsp;X 订货人：Jane&nbsp; | 是 | 是 | 是 | 无 | 无 |
+| 客户&nbsp;X 订货人：Sam&nbsp; | 是 | 是 | 无 | 是 | 无 |
+| 客户&nbsp;Y 订货人：May&nbsp; | 是 | 无 | 无 | 无 | 无 |
 
 > [!NOTE]
 > 即使 Sam 和 Jane 都是为客户 X 工作的联系人，他们也只能查看他们自己下的订单，而看不到其他信息。 尽管 May 在系统中有一个订单，但由于她是未授权用户，因此她无法在客户门户中查看该订单。 （而且，她一定是通过客户门户以外的某个渠道下的订单。）
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

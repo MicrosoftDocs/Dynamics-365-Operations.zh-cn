@@ -1,41 +1,39 @@
 ---
 title: 定义和管理福利计划
-description: 人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本主题提供了有关如何设置并管理福利的信息。
-author: twheeloc
-ms.date: 08/23/2021
+description: 人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置管理福利的信息。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065343"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417421"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Human Resources 提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本主题提供了有关如何设置并管理福利的信息。
+Human Resources 提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本文章提供了有关如何设置和管理福利的信息。
 
 ## <a name="benefit-setup"></a>福利设置
 
 您必须先创建每项福利的元素，然后工作人员才能在这些福利中登记。 这些元素结合类似的福利计划并定义默认设置，如扣缴比率和核算详细信息。 许多这些设置可在工作人员随后在福利中登记时进行调整。 对于每个福利计划，组织可提供多个登记选项，或者工作人员可放弃该福利计划中的登记。 
 
-[![福利流程流。](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![福利处理流程](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>福利元素
 
@@ -47,7 +45,7 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 
 对于每种类型的福利（例如视力或护齿），组织可向其工作人员提供一个或多个计划。 对于每个计划，该组织可提供不同的选项。 例如，工作人员可以其年薪的一倍、两倍或三倍购买附加期限的人寿保险。 计划和选项的每个组合将成为工作人员可登记的福利。 
 
-[![福利图片。](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![福利图片](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>资格
 许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Dynamics 365 Human Resources 中创建福利时，可以设置应用于该福利的资格类型。 
@@ -66,6 +64,3 @@ Human Resources 提供一组工具，可使用这组工具设置和维护组织�
 同样，如果您决定提供的福利期限比原始计划期限更长，则大批福利到期也让您可以同时扩展福利和已登记该福利的工作人员的到期日期。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

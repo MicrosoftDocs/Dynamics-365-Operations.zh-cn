@@ -1,28 +1,31 @@
 ---
-title: 使用一次付款结算跨多个折扣期间的发票
+title: 使用一次客户付款来结算跨多个折扣期间的多张发票
 description: 本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769051"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440978"
 ---
-# <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>使用一次付款结算跨多个折扣期间的发票
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>使用一次客户付款来结算跨多个折扣期间的多张发票
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,7 +69,7 @@ Fabrikam 向客户 4032 销售货物， 如果发票在 14 天内支付，则 Fa
 | 已选择和突出显示 | 标准            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1,000.00                             |                                       | 美元      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>6 月 29 日部分结算
-客户 4032 可以支付部分金额，如每张发票的一半。 Arnie 为客户 4032 创建一个付款然后打开 **结算交易记录** 页。 在 **结算交易记录** 页上，Arnie 标记全部三个发票行为结算。 在每一行，Arnie 基于客户提供的说明输入要结算的金额。 在 Arnie 选择行时，他看到该行的折扣金额和采用的现金折扣金额。 因为客户支付了发票的一半，Arnie 看到 FTI-10042 的 **现金折扣金额** 字段中的值为 **20.00**，但 **提取的现金折扣** 字段中的值为 **10.00**。 付款金额是 1,485.00。
+客户 4032 可以支付部分金额，如每张发票的一半。 Arnie 为客户 4032 创建一个付款然后打开 **结算交易记录** 页。 在 **结算交易记录** 页上，Arnie 标记全部三个发票行为结算。 在每一行，他基于客户提供的说明输入要结算的金额。 在 Arnie 选择行时，他看到该行的折扣金额和采用的现金折扣金额。 因为客户支付了发票的一半，Arnie 看到 FTI-10042 的 **现金折扣金额** 字段中的值为 **20.00**，但 **提取的现金折扣** 字段中的值为 **10.00**。 付款金额是 1,485.00。
 
 | 标记                     | 使用现金折扣 | 凭证   | 帐户 | 日期      | 到期日期  | 开票 | 交易币种借方金额 | 交易币种贷方金额 | 货币 | 要结算的金额 |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +77,11 @@ Fabrikam 向客户 4032 销售货物， 如果发票在 14 天内支付，则 Fa
 | 选定                 | 标准            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1,000.00                             |                                       | 美元      | 495.00           |
 | 已选择和突出显示 | 标准            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1,000.00                             |                                       | 美元      | 490.00           |
 
-Arnie 还可以在打开 **结算交易记录** 页之前输入付款金额 1,485.00。 如果 Arnie 手动输入付款金额，然后标记全部三个交易记录，但不调整每个交易记录的 **要结算的金额** 字段中的值，当页面关闭时他将收到以下消息：
+Arnie 还可以在打开 **结算交易记录** 页之前输入付款金额 1,485.00。 如果 Arnie 手动输入付款金额，然后标记全部三个交易记录，但不调整每个交易记录的 **要结算的金额** 字段中的值，当他关闭页面时他将收到以下消息：
 
 > 标记的交易记录的总金额与日记帐金额不符。 是否更改日记帐金额?
 
-如果 Arnie 希望付款金额仅为 1,485.00，则单击 **否**，然后过帐日记帐。 结算的交易记录如下：
+如果 Arnie 希望付款金额仅为 1.485.00，则单击 **否**，然后过帐日记帐。 结算的交易记录如下：
 
 1.  发票 FTI-10040 完全结算为 1.000.00，因为它在 5 月 15 日输入，并且它将是最早的发票。 没有提取现金折扣。 在付款交易记录上的剩余金额为 485.00。
 2.  发票 FTI-10041 尚未结算。 发票 FTI-10041 和 FTI-10042 在同一日期输入。 然而，有 1% 的折扣可用于发票 FTI-10041，并且 2% 的折扣可用于发票 FTI-10042。 由于更好的折扣可用于发票 FTI-10042，其余的 485.00 使用发票 FTI-10042 结算。
@@ -98,6 +101,3 @@ Arnie 在 **客户交易记录** 页上查看信息。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
-title: 处理费率更改
-description: 本主题介绍如何在 Microsoft Dynamics 365 Human Resources 中处理福利费率更改。
-author: twheeloc
-ms.date: 08/23/2021
+title: 处理比率更改
+description: 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e0dfbdde8ee950a0341fffb1e268fff05434953
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070367"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417432"
 ---
-# <a name="process-rate-changes"></a>处理费率更改
+# <a name="process-rate-changes"></a>处理比率更改
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题介绍如何处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利费率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
+处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
 
 1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **比率更改更新处理**。
 
@@ -50,6 +48,3 @@ ms.locfileid: "8070367"
    4. 选择 **确定**。 流程将使用您设置的参数运行。
 
 4. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

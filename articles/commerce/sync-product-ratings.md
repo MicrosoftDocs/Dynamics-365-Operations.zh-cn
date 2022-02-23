@@ -2,12 +2,15 @@
 title: 在 Dynamics 365 Commerce 中同步产品评分
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967942"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410553"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
+
+## <a name="overview"></a>概览
 
 若要在全渠道（如销售点 (POS)）中和在呼叫中心中使用产品评分，必须将评分和评价服务中的产品评分导入到 Commerce 渠道数据库中。 当产品评分在全渠道中可用时，可以在客户与销售助理交互时，直接帮助客户。
 
@@ -57,7 +62,7 @@ ms.locfileid: "7967942"
 
 下图显示 Commerce 中的子作业详细信息的示例。
 
-![RetailProductRating 子作业的详细信息。](media/rnr-hq-ratings-sub-job.png)
+![RetailProductRating 子作业的详细信息](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > 如果找不到 **RetailProductRating** 子作业，说明在初始化商业调度之前，您可能已运行了 **同步产品评分** 作业和 **1040 CDX** 作业。 在此情况下，请执行以下步骤运行 **完全数据同步** 作业。
@@ -81,7 +86,7 @@ ms.locfileid: "7967942"
 
 下图显示 Commerce 中的批处理作业配置的示例。
 
-![同步产品评分批处理作业的配置。](media/rnr-hq-batchjob-recurrence.png)
+![配置同步产品评分批处理作业](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>验证产品评分同步批处理作业是否成功
 
@@ -93,7 +98,7 @@ ms.locfileid: "7967942"
 
 下图显示当安排批处理作业以两小时的间隔运行时，Commerce 中的批处理作业详细信息的示例。
 
-![同步产品评分批处理作业的详细信息。](media/rnr-hq-batchjob-status-checking.png)
+![同步产品评分批处理作业的详细信息](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>使产品评分在 POS 可用
 
@@ -111,15 +116,15 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 
 下图显示要在 POS 中开启产品评分所需商业参数配置的示例。
 
-![POS 中产品评分的 Commerce 参数配置。](media/rnr-hq-enable-ratings-in-pos.png)
+![POS 中产品评分的商业参数配置](media/rnr-hq-enable-ratings-in-pos.png)
 
 下图显示 POS 中的产品评分的示例。
 
-![POS 中的产品评分。](media/rnr-pos-catalog-ratings.png)
+![POS 中的产品评分](media/rnr-pos-catalog-ratings.png)
 
 下图显示呼叫中心渠道中的产品评分的示例。
 
-![呼叫中心渠道中的产品评分。](media/rnr-call-center-ratings.png)
+![呼叫中心渠道中的产品评分](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -130,16 +135,3 @@ Dynamics 365 Commerce 中的评分和评价解决方案是全渠道解决方案�
 [管理评分和评价](manage-reviews.md)
 
 [配置评分和评价](configure-ratings-reviews.md)
-
-[同步产品评分](sync-product-ratings.md)
-
-[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
-
-[导入和导出评分和评价](import-export-reviews.md)
-
-[配置服务对服务身份验证](service-to-service-auth.md)
-
-[评分和评价常见问题解答](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

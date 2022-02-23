@@ -2,9 +2,11 @@
 title: 针对本地环境的硬件规模调整要求
 description: 本主题列出了针对本地环境的硬件规模调整要求。
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763426"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798296"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -36,7 +38,7 @@ ms.locfileid: "6763426"
 
 在下图显示的所有系数都对规模调整具有影响。 收集的详细信息越多，你就越能更加精确地确定规模调整。 不具有支持数据的硬件规模调整可能不准确。 所需数据的绝对最低需求是峰值交易记录行每小时负荷。
 
-[![针对本地环境的硬件规模调整。](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![针对本地环境的硬件规模调整](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 从左到右查看，准确估计规模调整所需的第一个和最重要的系数是交易记录模板或交易记录特征。 始终查找每小时交易量峰值很重要。 如果存在多个峰值期间，则需要准确地定义这些期间。
 
@@ -132,15 +134,10 @@ ms.locfileid: "6763426"
 
 对于一般可用性版本，只可以部署一个 SSRS 节点。 在测试时监控你的 SSRS 节点，并根据需要增加可用于 SSRS 的核心数量。 确保你在不同于 SSRS VM 的虚拟机上有预先配置的次节点可用。 如果托管 SSRS 的虚拟机或虚拟主机出现问题，则这一点很重要。 如果出现这种情况，将需要更换它们。
 
-从 10.0.17 版本开始，可以配置额外的 SSRS 节点以实现高可用性。 有关详细信息，请参阅[为 SQL Server Reporting Services (SSRS) 节点配置高可用性](../../dev-itpro/deployment/onprem-ssrsha.md)。
-
 ## <a name="environment-orchestrator"></a>环境 Orchestrator
 
-Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅[计划和准备 Service Fabric 独立群集部署](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)。
+Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服务。 此服务部署为主 Service Fabric 服务并需要至少三个 VM。 此服务与 Service Fabric Orchestration 服务位于同一位置。 这应该调整到群集的峰值负荷。 有关详细信息，请参阅[计划和准备 Service Fabric 独立群集部署](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)。
 
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 
 关键任务服务（如 AOS）应在具有专用资源（核心、内存和磁盘）的虚拟机上托管。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

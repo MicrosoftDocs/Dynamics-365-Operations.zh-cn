@@ -1,10 +1,12 @@
 ---
 title: 退货成本价和退货批次 ID
 description: 您可能希望在您将产品销售给客户时，退回的产品的成本等于产品的成本。 可通过使用 **退货批次 ID** 执行此操作。
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnInventTransIdLookup, ReturnItemNumLookup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8c5ad2f7e46ecefd490936b950d2b579faed60b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eff30383e06677793313e8abac0339c6032c2a7f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965822"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>退货成本价和退货批次 ID        
 
@@ -109,6 +111,3 @@ ms.locfileid: "7580328"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

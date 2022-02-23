@@ -2,24 +2,27 @@
 title: 使用连续性计划
 description: 此过程逐步演示如何销售连续性计划和如何处理相关销售订单。
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b8e3903aac99d32bbf4d065e6db1c3f3aab998c04d052d08338eb3f54ccc96f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761530"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410515"
 ---
 # <a name="using-continuity-program"></a>使用连续性计划
 
@@ -59,6 +62,3 @@ ms.locfileid: "6761530"
     * 输入您在此过程中前面记下的销售订单编号。 这将让此过程的处理时间降到最低。 “销售订单”字段为可选字段，您可以处理任一计划的所有订单。  
 21. 单击“确定”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

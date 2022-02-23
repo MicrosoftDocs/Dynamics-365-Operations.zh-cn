@@ -2,9 +2,11 @@
 title: 设置分类
 description: 本主题介绍 Dynamics 365 Commerce 中的分类并说明如何设置分类。
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774477"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969818"
 ---
 # <a name="set-up-assortments"></a>设置分类
 
@@ -31,7 +33,7 @@ ms.locfileid: "6774477"
 
 分类是您分配给商业渠道相关产品的集合，例如实体商店或在线商店。 您使用分类标识每个商店中可用的产品。 分类可以包括产品的类别。 因此，分配给包括在此分类中特定类别的所有产品。 分类还可以包括特定产品和产品的特定款式。 通过设置分类，可以同时将上千种产品以商店需要的任意组合分配到您的渠道。 如果您需要可以设置多个产品分类。 每个产品可以包括在一个或多个分类中，并且每个分类可以分配给一个或多个渠道。 例如，您可以定义包含基本产品组的一个分类。 所有商店接收此分类。 然后定义另一个分类，其中仅包括大型体育设备。 只有您的更大商店接收此分类。 下图显示如何分配产品给分类，并且这些分类如何可分配给渠道。
 
-![产品分类关系。](./media/assortments_relationship.gif)
+![产品分类关系](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -52,6 +54,3 @@ ms.locfileid: "6774477"
 2. 选择渠道或此分类应用于的渠道的更高级别组。
 3. 添加产品类别、单独的产品或产品变型到此分类。 您在特定类别可以包括所有产品，或可以从包括在分类的类别中排除所选的产品。
 4. 发布分类。 在发布分类时，将自动运行分类计划程序。 此过程生成产品列表。 在此过程完成后，产品分类分配到的渠道可以使用这些产品。 如果对已发布的分类或该分类所分配到的渠道进行了更改，则必须更新该分类。 若要在完成更改后更新此分类，您可以批处理作业形式运行分类计划程序。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

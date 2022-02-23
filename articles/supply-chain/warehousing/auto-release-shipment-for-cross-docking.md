@@ -1,24 +1,27 @@
 ---
 title: 越库配送的自动下达装运
 description: 本主题介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库，以便将数量直接从生产输出位置移动到出库货位。
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577928"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422797"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>越库配送的自动下达装运
 
@@ -161,7 +164,7 @@ ms.locfileid: "7577928"
 8. 在 **生产订单** 页面上的“操作”窗格上，在 **生产订单** 选项卡上的 **流程** 组中，选择 **评估**，然后选择 **确定**。 订单已评估，并为生产预留了原材料数量。
 9. 在“操作”窗格上，在 **生产订单** 选项卡上的 **流程** 组中，选择评估，选择 **下达**，然后选择 **确定**。 将为原材料创建仓库领料工作。
 10. 打开并查看工作。 在“操作”窗格的 **仓库** 选项卡上，在 **常规** 组中，选择 **工作详细信息**。 记录工作 ID。
-11. 登录到仓库管理移动应用以在仓库 51 中运行工作。
+11. 登录仓库应用以在仓库 51 中运行工作。
 12. 转到 **生产** \> **生产领料**。
 13. 输入工作 ID 以开始并完成原材料领料。 
 
@@ -176,6 +179,3 @@ ms.locfileid: "7577928"
 - 为链接的销售订单触发下达到仓库。
 - 根据下达，装运和越库配送工作将创建。 此工作指示仓库操作员领取履行销售订单行所需的数量，并将它们放入越库配送位置指令中指定的出库货位。
 - 如果生产订单数量大于销售订单所需的数量，则会创建常规储存工作。 此工作指示仓库操作员根据位置指令，领取越库配送后剩余的成品数量，并将其移至常规存储。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

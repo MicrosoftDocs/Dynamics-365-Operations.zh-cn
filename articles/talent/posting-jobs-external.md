@@ -102,6 +102,3 @@ Broadbean 删除工作之后，Attract 中的 Broadbean 项将带有 **立即发
 [在 Attract 中创建、审核和发布工作](./creating-jobs-attract.md)
 
 [在 Microsoft Dynamics 365 Talent - Attract 中启用 Broadbean 集成](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

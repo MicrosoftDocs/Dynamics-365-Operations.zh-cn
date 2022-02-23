@@ -2,23 +2,26 @@
 title: 设置供应商发票策略
 description: 本主题说明如何设置供应商发票策略。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728833"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440772"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>设置供应商发票策略
 
@@ -70,6 +73,3 @@ ms.locfileid: "6728833"
 16. 选择 **确定**。
 17. 关闭页面将返回到主页。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

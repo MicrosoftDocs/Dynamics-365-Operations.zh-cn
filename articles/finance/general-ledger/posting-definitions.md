@@ -1,32 +1,35 @@
 ---
 title: 过帐定义
-description: 本主题提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。
-author: kweekley
+description: 本文提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。
+author: ShylaThompson
+manager: AnnBe
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726958"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440777"
 ---
 # <a name="posting-definitions"></a>过帐定义
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关过帐定义以及如何定义和关联它们的信息。
+本文提供有关过帐定义以及如何定义和关联它们的信息。
 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。 您可以在 **交易记录过帐定义** 页上查看支持的文档和过帐类型。 
 
 若要开始使用过帐定义，则在 **总帐参数** 页选择 **使用过帐定义** 选项。 即使在您使用过帐定义时，您仍必须为源条目和不支持的过帐类型和文档定义过帐模板。 
@@ -59,6 +62,3 @@ ms.locfileid: "7726958"
 有关详细信息，请参阅[过帐定义示例](example-posting-definitions.md)。 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

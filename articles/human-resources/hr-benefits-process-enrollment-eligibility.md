@@ -1,35 +1,33 @@
 ---
 title: 处理登记资格
-description: 本主题介绍如何运行登记资格流程。
-author: twheeloc
-ms.date: 08/23/2021
+description: 本文介绍如何运行登记资格流程。
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417411"
 ---
 # <a name="process-enrollment-eligibility"></a>处理登记资格
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题介绍如何运行登记资格流程。
+本文介绍如何运行登记资格流程。
 
 1. 在 **福利管理** 工作区中，在 **处理** 下，选择 **登记资格处理**。
 
@@ -56,11 +54,11 @@ ms.locfileid: "8067621"
 
 ## <a name="view-process-results"></a>查看流程结果
 
-本主题介绍如何查看资格流程结果。
+本文介绍如何查看资格流程结果。
 
 1.  在 **福利管理** 工作区中，在 **处理** 下，选择 **流程结果**。
 
-2.  在 **流程结果** 页面中，指定了以下字段：
+2.  在 **流程结果** 窗体中，指定了以下字段：
 
    | 字段 | 说明 |
    | --- | --- |
@@ -74,6 +72,3 @@ ms.locfileid: "8067621"
    | **结果状态** | 将为“合格”或“不合格”。 如果工作人员不满足资格规则条件，工作人员缺少必需信息（如付款频率或固定薪酬），或福利计划中缺少的信息导致无法登记工作人员，结果状态将为“不合格”。 |
    | **结果消息** | 指示工作人员为何不符合福利计划的资格或是否通过了资格规则。 |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

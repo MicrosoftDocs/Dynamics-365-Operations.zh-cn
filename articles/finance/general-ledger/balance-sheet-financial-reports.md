@@ -2,25 +2,28 @@
 title: 资产负债表财务报表
 description: 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
 author: jcart1106
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734506"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440823"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
@@ -28,7 +31,8 @@ ms.locfileid: "6734506"
 
 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
-## <a name="default-balance-sheet-reports"></a>默认资产负债表
+<a name="default-balance-sheet-reports"></a>默认资产负债表
+-----------------------------
 
 有两个默认的资产负债表。 在一个报表中，这些部分堆积起来。 在另一个报表中，这些部分是并行的。
 
@@ -67,7 +71,8 @@ ms.locfileid: "6734506"
 
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [财务报告概览](financial-reporting-getting-started.md)
 
@@ -77,6 +82,3 @@ ms.locfileid: "6734506"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

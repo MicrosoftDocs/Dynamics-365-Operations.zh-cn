@@ -2,13 +2,16 @@
 title: Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 description: 此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。
 author: mugunthanm
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730747"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410547"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 
@@ -31,7 +34,7 @@ ms.locfileid: "6730747"
 
 ## <a name="overview"></a>概览
 
-Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与 Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
+Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与 Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
 
 ## <a name="architecture"></a>体系结构
 
@@ -55,14 +58,14 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 1. 启动 Retail Modern POS 或 Cloud POS，并登录。
 2. 在 **设置** 页，在 **任务录制器** 部分，单击 **打开任务录制器**。 **任务录制器** 窗格出现。 在开始新录制前，您可以单击右上角的 **关闭** 按钮 (**X**) 关闭 **任务录制器** 窗格。 若要重新打开窗格，请重复执行步骤 2。
 
-    [![任务录制器窗格。](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![任务录制器窗格](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. 输入录制的名称和描述，然后单击 **开始**。 单击 **开始** 后，录制会话随即开始。
 
     > [!NOTE]
     > 如果您在录制正在进行时单击右上角的 **关闭** 按钮 (**X**)，**任务录制器** 窗格将关闭，但录制会话不会结束。 若要重新打开任务录制器窗格，单击屏幕顶部的 **帮助** 按钮（问号）。
     >
-    > [![问号。](./media/help.jpg)](./media/help.jpg)
+    > [![问号](./media/help.jpg)](./media/help.jpg)
 
 4. 单击 **开始** 后，任务录制器进入录制模式。 **任务录制器** 窗格显示与录制流程相关的信息和控制。
 5. 执行您希望在 Retail Modern POS 或 Cloud POS 用户界面 (UI) 执行的操作。
@@ -72,7 +75,7 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 在结束录制会话后，多个选项将显示，以便您可以下载您的录制。
 
-[![下载选项。](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![下载选项](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>保存到此 PC
 
@@ -88,7 +91,7 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 ## <a name="recording-controls"></a>录制控制
 
-[![录制控制。](./media/controls.jpg)](./media/controls.jpg)
+[![录制控制](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>停止
 
@@ -117,32 +120,29 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 注释是您在录制中添加到步骤的其他文本。 例如，您可以使用注释为用户提供更多上下文或说明。 您可以在一个步骤之前或之后添加注释。 您可以通过单击步骤右侧的 **编辑** 按钮（铅笔符号）将注释添加到任何步骤。
 
-[![编辑步骤的按钮。](./media/annotate.jpg)](./media/annotate.jpg)
+[![编辑步骤的按钮](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>文本和注释
 
 您可以使用 **文本** 和 **注释** 字段来添加应与任务指南中的步骤关联的文本。
 
-[![文本和注释字段。](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![文本和注释字段](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>文本
 
 在 **文本** 字段中输入的文本将在任务指南的步骤文本 *上方* 显示。 此位置适合您希望用户在完成步骤前阅读的文本。
 
-#### <a name="notes"></a>说明
+#### <a name="notes"></a>注释
 
 在 **注释** 字段中输入的文本将在任务指南的步骤文本 *下方* 显示。 若要阅读注释文本，用户必须在弹出窗口中展开步骤文本。 此位置适合可能对用户有用，但用户完成操作所不需要的可选阅读材料或其他信息。
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS 和 Cloud POS 中的帮助
 
-要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅 [连接帮助系统](../fin-ops-core/fin-ops/get-started/help-connect.md)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Commerce 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问 **帮助** 菜单，单击屏幕顶部的 **帮助** 按钮（问号），然后在搜索框中键入流程名称并点击搜索按钮。
+要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅 [连接帮助系统](../fin-and-ops/get-started/help-connect.md)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Commerce 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问 **帮助** 菜单，单击屏幕顶部的 **帮助** 按钮（问号），然后在搜索框中键入流程名称并点击搜索按钮。
 
-[![帮助按钮。](./media/help.jpg)](./media/help.jpg)
+[![帮助按钮](./media/help.jpg)](./media/help.jpg)
 
 当您在搜索结果中单击任务指南时，可以作为帮助主题查看步骤或将步骤导出到 Word 文档。
 
 > [!NOTE]
 > Retail Modern POS 和 Cloud POS 中的帮助不会根据您所处的窗体或正在执行的操作提供任务指南。 您必须输入在搜索框中键入流程名称，然后单击 **搜索**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

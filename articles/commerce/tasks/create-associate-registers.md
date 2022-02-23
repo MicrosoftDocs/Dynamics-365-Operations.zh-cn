@@ -1,25 +1,27 @@
 ---
 title: 创建和关联收银机
 description: 此过程演示如何创建销售点 (POS) 收银机。
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964887"
 ---
 # <a name="create-and-associate-registers"></a>创建和关联收银机
 
@@ -41,6 +43,3 @@ ms.locfileid: "7779419"
     * EFT POS 收银机编号用于通知付款处理器哪个终端在发送授权请求。 该值通常称为“终端 ID”或“TID”。 TID 通常位于付款设备上的贴纸中。  
 9. 单击“保存”。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,13 @@
 title: 创建付款发票
 description: 本主题说明如何创建月度租赁发票。 您可以为单个租赁创建发票，也可以使用批处理为多个租赁创建发票。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePaymentSchedule
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bc87c329f6f5dd9532b1319f8d88fbc41dcd4d14
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 303fb0e70530fdc29cb129736b01c0e0e8d02075
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344312"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969570"
 ---
 # <a name="create-payment-invoices"></a>创建付款发票
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 您可以为单个租赁创建月度发票，也可以使用批处理为多个租赁创建发票。 以下过程显示了在已开启 **租赁帐簿设置** 页上的 **向供应商付款** 参数时，如何创建单个租赁付款条目。
 
@@ -41,8 +41,6 @@ ms.locfileid: "7344312"
 5. 选择正确的日记帐，然后选择必须支付的发票。
 
     对于此示例，已开启了租赁帐簿上的 **向供应商付款** 参数。 因此，发票将在发票日记帐中。 **概览** 部分显示日记帐条目的摘要，**行** 部分显示实际日记帐行的详细信息。
-    
-   系统将锁定某些财务字段从而使其不能被编辑，以防止交易和计划之间出现任何差异。 已锁定的某些字段包括：**帐户**、**金额**、**财务维度**、**货币** 和 **交易类型**。 此外，您将无法在任何资产租赁日记帐条目中添加或删除日记帐条目行，因为这可能会导致计划与交易之间出现差异。
 
     > [!NOTE]
     > 如果已关闭 **向供应商付款** 参数，租赁帐簿的 **资产租赁** 页上将列出付款日记帐条目，而系统将创建资产租赁条目，而不是创建发票。 租赁付款条目将过帐到在 **月度租赁日记帐** 字段中指定的日记帐名称。
@@ -50,6 +48,3 @@ ms.locfileid: "7344312"
 6. 过帐交易后，您可以通过选择租赁帐簿中的 **负债交易** 来查看租赁负债的交易信息和帐面价值。
 
     在付款计划中，将选中 **已过帐的日记帐** 复选框，行将显示发票日记帐编号。 创建付款日记帐和该日记帐的条目后，必须冲销该条目，然后才能重新创建。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

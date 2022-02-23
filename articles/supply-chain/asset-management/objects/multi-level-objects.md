@@ -1,10 +1,12 @@
 ---
 title: 多级资产
 description: 本主题介绍如何创建和删除多级资产。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd4da57c3849095909226db53c23b3c25301acdc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769603"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021314"
 ---
 # <a name="multi-level-assets"></a>多级资产
 
@@ -59,6 +61,3 @@ ms.locfileid: "6769603"
 
 > [!NOTE]
 > 如果不能通过此过程删除资产，另一种处理删除的方法是为此目的设置资产生命周期状态。 例如，可在 **资产生命周期状态** 页设置 **已报废** 或 **已删除** 生命周期状态。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

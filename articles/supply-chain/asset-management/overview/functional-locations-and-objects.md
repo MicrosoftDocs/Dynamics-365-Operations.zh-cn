@@ -1,10 +1,12 @@
 ---
 title: 功能位置和资产
 description: 本主题介绍资产管理中的功能位置和资产。 资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750140"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018038"
 ---
 # <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -34,13 +36,13 @@ ms.locfileid: "6750140"
 
 资产管理与其他 Finance and Operations 应用的多个模块无缝集成。 下图显示界面和其他模块。
 
-![显示资产管理如何与其他模块交互的图表。](media/01-overview-image.png)
+![显示资产管理如何与其他模块交互的图](media/01-overview-image.png)
 
 资产管理可用于高效管理和执行与管理和服务公司中大量类型的设备有关的所有任务。 这些设备包括机器、生产设备和交通工具。 资产管理还支持多个行业的解决方案。
 
 下图显示资产管理中包含的主要功能的概览。
 
-![显示资产管理中的主要功能的图表。](media/02-overview-image.png)
+![显示资产管理中的主要功能的图](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -50,11 +52,8 @@ ms.locfileid: "6750140"
 
 功能位置层次结构的创建方法取决于公司对维护内部设备或服务客户设备的要求。 下图显示基于地理位置的功能位置的示例。
 
-![显示基于地理位置的功能位置的图表。](media/03-overview-image.png)
+![显示基于地理位置的功能位置的图](media/03-overview-image.png)
 
 下图显示基于客户的功能位置的示例。
 
-![显示基于客户的功能位置的图表。](media/04-overview-image.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![显示基于客户的功能位置的图](media/04-overview-image.png)

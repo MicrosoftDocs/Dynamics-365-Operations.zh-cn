@@ -1,34 +1,38 @@
 ---
-title: 会计分配和供应商发票的日记帐条目
+title: 会计分配和供应商发票的子分类日记帐条目
 description: 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440898"
 ---
-# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>会计分配和供应商发票的日记帐条目
+# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>会计分配和供应商发票的子分类日记帐条目
 
 [!include [banner](../includes/banner.md)]
 
 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。 
 
-## <a name="accounting-distributions"></a>会计分配 
+<a name="accounting-distributions"></a>会计分配 
+-------------------------
 
 您可以使用“供应商发票”页中的以下按钮查看和修改普通发票的每笔金额的会计分配。
 -   **分摊金额**– 查看和修改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和修改子行的会计分配。
@@ -226,7 +230,8 @@ ms.locfileid: "7594682"
 </table>
 
 
-## <a name="distributing-taxes"></a>分配税
+<a name="distributing-taxes"></a>分配税
+------------------
 
 无法在计算税金之前创建税金会计分配。 若要计算增值税，必须完成“供应商发票”页中的以下任务之一：
 -   查看发票合计。
@@ -245,6 +250,3 @@ ms.locfileid: "7594682"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

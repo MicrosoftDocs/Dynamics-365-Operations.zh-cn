@@ -1,10 +1,12 @@
 ---
-title: 获取针对 Finance and Operations 应用程序或 Lifecycle Services (LCS) 的支持
-description: 本主题介绍如何获取有关 Finance and Operations 应用程序或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
+title: 获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
+description: 本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
 author: EricMoos
-ms.date: 08/02/2021
+manager: AnnBe
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -14,27 +16,24 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068026"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679984"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取针对 Finance and Operations 应用程序或 Lifecycle Services (LCS) 的支持
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-2.md)]
-
-本主题介绍如何获取有关 Finance and Operations 应用程序或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
+本主题介绍如何获取有关 Finance and Operations 应用或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
 
 <table>
 <thead>
 <tr>
 <th>任务</th>
-<th>更多信息…</th>
+<th>更多信息</th>
 </tr>
 </thead>
 <tbody>
@@ -51,7 +50,7 @@ ms.locfileid: "8068026"
 <td>在 <a href="https://lcs.dynamics.com/">LCS</a> 中，可使用<strong>问题搜索</strong>工具快速搜索报告的问题的 Microsoft 知识库 (KB) 文章、修补程序和解决办法。 您可以查看正在为特定功能区域修复哪些报告的问题，以及已经修复的问题。 有关详细信息，请参阅<a href="issue-search-lcs.md">问题搜索（Lifecycle Services，LCS）</a>。</td>
 </tr>
 <tr>
-<td>在财务和运营应用中获取支持。</td>
+<td>获取应用内支持。</td>
 <td>选择应用右上角的<strong>帮助</strong>按钮 (<strong>?</strong>)，然后选择<strong>支持</strong>。 将在 LCS 中的<strong>有效问题</strong>选项卡上报告问题。 管理员可以在那里确定是应该提供内部支持还是将问题提交给 Microsoft。</td>
 </tr>
 <tr>
@@ -69,6 +68,3 @@ ms.locfileid: "8068026"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

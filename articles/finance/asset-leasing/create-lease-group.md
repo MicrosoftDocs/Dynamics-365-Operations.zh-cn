@@ -2,25 +2,28 @@
 title: 创建租赁组
 description: 本主题说明如何设置租赁组。 需要租赁组才能创建建新租赁。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseGroupTable
+ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5ff4892408aa87214231762452c195274192447512525ae9c1f08dad8e318076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728095"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440953"
 ---
 # <a name="create-a-lease-group"></a>创建租赁组
 
@@ -47,6 +50,3 @@ ms.locfileid: "6728095"
 1. 转到 **资产租赁 \> 设置 \> 租赁组**。
 2. 选择一个租赁组，然后选择 **帐簿**。
 3. 选择 **新建**，然后在 **帐簿类型** 字段中，选择要分配给租赁组的帐簿。 如果必须以不同的方式核算租赁，则可以为一个租赁组分配多个帐簿。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

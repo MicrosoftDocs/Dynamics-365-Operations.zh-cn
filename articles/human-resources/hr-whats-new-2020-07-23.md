@@ -1,38 +1,39 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 23 日）
 description: 此主题介绍了 2020 年 7 月 23 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dd8ab95d37c2fbc5d7453fadeae043677c30160
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063714"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528441"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 23 日）
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3416。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>在位置上删除财务维度不能按预期进行 (445476)
 
-现在，从某个位置删除维度会从 Dataverse 中删除这些相同的位置。
+现在，从某个位置删除维度会从 Common Data Service 中删除这些相同的位置。
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>不在层次结构中的位置显示无效职位 (397257)
 
@@ -54,7 +55,7 @@ ms.locfileid: "8063714"
 
 ## <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 
-员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)。 
+员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)。 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>用于福利管理的数据管理框架 (DMF) 实体
  
@@ -93,9 +94,9 @@ DMF 实体现在可用于暂停应计。
 
 ## <a name="coming-soon"></a>即将到期
 
-## <a name="checklist-entities-included-in-dataverse"></a>Dataverse 中包含的核对清单实体
+## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
 
-Dataverse 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
 
 ## <a name="platform-changes"></a>平台变更
 
@@ -104,9 +105,6 @@ Dataverse 内很快将为入职、离职、转移和业务流程提供核对清�
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

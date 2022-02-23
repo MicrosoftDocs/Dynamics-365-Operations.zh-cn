@@ -1,10 +1,12 @@
 ---
 title: 固定资产折旧
-description: 文主题提供固定资产折旧概述。
-author: moaamer
-ms.date: 12/03/2021
+description: 文主题提供固定资产折旧的概览。
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,26 +14,23 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890972"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969095"
 ---
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-文主题提供固定资产折旧概述。
+文主题提供固定资产折旧的概览。
 
 折旧是一种期间交易记录，通常会减少资产负债表中固定资产的价值，并且在损益科目中作为支出计费。 因此，主科目通常用于将折旧定期贷计到资产负债表中。 对方科目是会计科目表中的损益部分中的科目。
-
-从版本 10.0.24 开始，**帐簿** 页面上的 **计算正折旧** 资产帐簿配置选项允许折旧借记购置的具有负帐面价值（贷方）的固定资产。
 
 ## <a name="depreciation-adjustment"></a>折旧调整
 通常，只有对已过帐折旧交易记录的更正作为“折旧调整”过帐。 因此，主科目和对方科目都同折旧科目一样进行设置。 折旧调整可以是正金额或负金额，但“主科目”（作为资产负债表科目）和“对方科目”（通常作为损益科目）的功能保持相同。
@@ -57,6 +56,3 @@ ms.locfileid: "7890972"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

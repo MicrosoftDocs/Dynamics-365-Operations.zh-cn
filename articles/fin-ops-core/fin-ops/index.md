@@ -1,25 +1,27 @@
 ---
 title: Finance and Operations 应用程序文档
-description: Finance and Operations 应用的文档。
-author: tonyafehr
-ms.date: 04/13/2021
+description: 针对 Finance and Operations 应用的文档。
+author: robinarh
+manager: AnnBe
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: tfehr
-ms.custom: intro-internal
+ms.reviewer: rhaertle
+ms.custom: 62303
 ms.search.region: Global
-ms.author: tfehr
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075389"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694377"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -44,7 +46,7 @@ ms.locfileid: "8075389"
  <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">实施生命周期</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
 
@@ -69,25 +71,23 @@ ms.locfileid: "8075389"
 
 <h3><a href="../../finance/index.md">财务管理</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">应付帐款</a></p>
-<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
+<p><a href="../../finance/accounts-receivable/accounts-receivable.md">应收账款</a></p>
 <p><a href="../../finance/budgeting/budgeting-overview.md">预算编制</a></p>
 <p><a href="../../finance/cash-bank-management/cash-bank-management.md">现金和银行管理</a></p>
 <p><a href="../../finance/general-ledger/audit-policy-rules.md">合规性</a></p>
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">成本核算</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">固定资产</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">总帐</a></p>
-<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">项目管理</a></p>
+<p><a href="../../finance/project-management/overview-project-management-accounting.md">项目管理</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">公共部门</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">地区监管功能</a></p>
 
 <h3><a href="hr/hr-landing-page.md">人力资源</a></h3>
-<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">员工自助服务</a></p>
-<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">人事管理</a></p>
-<p><a href="../../human-resources/hr-leave-and-absence-overview.md">休假和缺勤</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">福利</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">员工发展</a></p>
-<p><a href="../../human-resources/hr-learning-courses.md">学习</a></p>
- <p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">员工发展和培训</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">调查表</a></p>
+<p><a href="hr/manage-recruiting-process.md">招聘</a></p>
+<p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
 
 </td>
 <td>
@@ -128,11 +128,16 @@ ms.locfileid: "8075389"
 </td>
 <td>
 <h3>相关产品</h3>
-<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
-<p><a href="../../commerce/call-center-functionality.md">呼叫中心</p>
-<p><a href="../../commerce/define-maintain-retail-channels.md">渠道设置和管理</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
-<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
+<p><a href="../../retail/call-center-functionality.md">呼叫中心</p>
+<p><a href="../../retail/define-maintain-retail-channels.md">渠道设置和管理</p>
+<p><a href="../../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
+
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">管理员指南</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">开发人员指南</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">用户指南</a></p>
 
 
 </td>
@@ -140,6 +145,3 @@ ms.locfileid: "8075389"
 
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

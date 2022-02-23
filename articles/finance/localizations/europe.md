@@ -1,23 +1,26 @@
 ---
 title: 欧洲概览
 description: 此主题提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982086"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512203"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -38,7 +41,6 @@ ms.locfileid: "7982086"
 - [欧盟销售清单报表](emea-eu-sales-list.md)
 - [汇率调整](emea-exchange-rate-adjustments.md)
 - [付款方式的文件格式](emea-select-file-formats-for-the-method-of-payments.md)
-- [关于英国脱欧影响的金融（全球化）指南](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [会计服务 (ESR) 集成](emea-fiscal-service-integration.md)
 - [爱沙尼亚和立陶宛的固定资产处置](emea-credit-note-reverse-fixed-asset-sale.md)
 - [为内部库存转移生成转移文档](tasks/transfer-document-internal-inventory-transfer.md)
@@ -62,9 +64,8 @@ ms.locfileid: "7982086"
 - [发票签发截止时间](emea-invoice-issue-deadline.md)
 - [发票处理](emea-invoice-processing.md)
 - [签发欧盟入境证](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [支持的电子开单标准](emea-oioubl-standards-electronic-invoicing.md)
-- [强制生成电子账单](emea-eur-forced-einvoices.md)
-- [原始账单参考（东欧）](tasks/ee-00004-original-invoice-reference.md)
+- [支持的电子开票标准](emea-oioubl-standards-electronic-invoicing.md)
+- [原始发票参考（东欧）](tasks/ee-00004-original-invoice-reference.md)
 - [使用增值税 ID 搜索当事方](tasks/eur-00015-party-search-vat-id.md)
 - [付款参考生成工具](tasks/ee-00015-payment-reference-generation-tool.md)
 - [付款单报表](emea-eur-payment-slip-report-giro.md)
@@ -93,13 +94,8 @@ ms.locfileid: "7982086"
   - [创建和提交增值税报表](tasks/create-submit-vat-report.md)
   - [查看东欧结算的交易记录](emea-transactions-settlement-form.md)
   - [起税日期（增值税登记簿日期）](emea-tax-point-date.md)
-  - [供应商增值税登记簿的日期](emea-date-vendor-VAT-register.md)
-- [财务原因功能扩展](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>其他资源
 
-- [电子报告概览](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [从 Lifecycle Services 下载电子报告配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [电子报告概览](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [从 Lifecycle Services 下载电子报告配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

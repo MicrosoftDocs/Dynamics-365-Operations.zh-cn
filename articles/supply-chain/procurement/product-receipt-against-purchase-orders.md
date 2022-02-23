@@ -1,10 +1,12 @@
 ---
 title: 针对采购订单的物料收货
 description: 本主题介绍了用于将产品登记为已接收状态的各种选项。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a07b6b05b8eb25b8c41a5eecbb71fb765a3e9d5f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570410"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019671"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 
@@ -53,7 +55,8 @@ ms.locfileid: "7570410"
 
 您可以从 **采购订单** 页的 **收货** 操作组访问此页面。 日记帐中的信息包括有关数量、日期和维度的详细信息。
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [采购订单概览](purchase-order-overview.md)
 
@@ -61,10 +64,7 @@ ms.locfileid: "7570410"
 
 [审核和确认采购订单](purchase-order-approval-confirmation.md)
 
-[供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+[供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

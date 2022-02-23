@@ -2,29 +2,32 @@
 title: 已扫描单据的发票自动化
 description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 author: abruer
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722759"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440696"
 ---
-# <a name="invoice-automation-for-scanned-documents"></a>已扫描文档的账单自动化
+# <a name="invoice-automation-for-scanned-documents"></a>已扫描单据的发票自动化
 
 [!include [banner](../includes/banner.md)]
 
-此主题说明对供应商发票（包括具有附件的发票）端到端自动化提供的数据实体。
+此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 
 想要优化其应付帐款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。
 
@@ -34,7 +37,7 @@ ms.locfileid: "6722759"
 
 下图显示 Contoso 与 OCR 服务提供商合作进行供应商发票处理的集成示例场景。 Contoso 的供应商通过电子邮件将发票发送给服务提供商。 通过 OCR 处理，该服务提供商生成发票元数据（抬头和/或行）和发票的扫描图像。 然后，集成层将这些项目进行转换，使其可以使用。
 
-![集成示例场景。](media/vendor_invoice_automation_01.png)
+![集成示例场景](media/vendor_invoice_automation_01.png)
 
 如果要求发票集成，上述场景可以存在多种变体。 数据迁移是使用此界面创建发票和附件的另一个使用案例。
 
@@ -88,11 +91,11 @@ ms.locfileid: "6722759"
 
 在供应商发票通过集成进入到 Finance and Operations 的场景中，应付帐款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。 此供应商发票异常处理现在是 Finance and Operations 的一部分。
 
-### <a name="vendor-invoices-that-failed-to-import-list-page"></a>无法导入列表页面的供应商发票
+### <a name="exceptions-list-page"></a>异常列表页
 
-新的发票异常列表页在 **应付帐款** > **发票** > **导入功能** > **导入失败的供应商发票** 中可用。 此页显示来自供应商发票抬头数据实体暂存表的所有供应商发票抬头记录。 请注意，您可以从 **数据管理** 工作区查看相同的记录。 也可以从 **数据管理** 工作区执行在异常处理功能中提供的相同操作。 已针对功能性用户优化异常处理功能，使其更易于使用。
+新的发票异常列表页在 **应付帐款** > **发票** > **导入功能** > **导入失败的供应商发票** 中可用。 此页显示来自供应商发票抬头数据实体暂存表的所有供应商发票抬头记录。 请注意，您可以查看来自 **数据管理** 工作区的相同记录，您也可以在这里执行在异常处理功能中提供的相同操作。 但是，异常处理功能提供的 UI 针对功能用户进行了优化。
 
-![异常列表页面。](media/vendor_invoice_automation_02.png)
+![异常列表页](media/vendor_invoice_automation_02.png)
 
 此列表页包括通过馈送进入的以下字段：
 
@@ -116,17 +119,24 @@ ms.locfileid: "6722759"
 此列表页还具有预览窗格，您可以通过以下方式使用：
 
 + 查看完整的错误消息，因而无需在网格中扩展 **错误消息** 列。
++ 如果发票伴随任何附件，则可查看发票附件的完整列表。
 
 列表页支持以下操作：
 
 + **编辑** –在编辑模式中打开异常记录，以便修复问题。
 + **选项** –访问在列表页提供的标准选项。 您可以使用 **添加到工作区** 选项将异常列表页作为列表或图块固定到您的工作区。
 
-### <a name="vendor-invoices-that-failed-to-import-details-page"></a>无法导入详细信息页面的供应商发票
+### <a name="exception-details-page"></a>异常详细信息页
 
-当您开始编辑模式时，将打开具有问题的发票的 **无法导入详细信息的供应商发票** 页面。 如果包含附件的发票存在问题，则不会显示附件。 附件必须重新附加到发票。
+开始编辑模式后，显示存在问题的发票的异常详细信息页。 如果有任何附件，发票和默认附件在异常详细信息页上并排显示。
 
-**无法导入详细信息的供应商发票** 页面可让您创建待定发票。 在异常处理过程中修复发票上的问题后，选择 **创建待定发票** 按钮以创建待定发票。 将在后台创建待定发票。 
+![异常详细信息页](media/vendor_invoice_automation_03.png)
+
+在上图中，进入的供应商发票抬头不具有任何行。 因此，行部分为空。
+
+异常详细信息页支持以下操作：
+
++ **创建待定发票** - 在异常处理过程中修复发票上的问题后，您可以单击此按钮创建待定发票。 创建待定发票在后台进行（作为异步操作）。
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>共享服务与基于组织的异常处理
 
@@ -136,7 +146,7 @@ ms.locfileid: "6722759"
 + 按用户
 + 按法人
 
-![按用户角色和法人受到保护的导入作业。](media/vendor_invoice_automation_04.png)
+![按用户角色和法人受到保护的导入作业](media/vendor_invoice_automation_04.png)
 
 如果对发票导入作业配置安全性，异常列表页将遵守这些设置。 用户将仅能够看到此设置允许他们看到的发票异常记录。
 
@@ -178,7 +188,7 @@ Contoso 还可以决定不强制执行任何安全性，因此相同用户可以
 
 在 **异常处理**、**待定发票** 和 **发票日记帐** 查询页面提供的新按钮让您能够显示或隐藏附件查看器。
 
-## <a name="security"></a>安全性
+### <a name="security"></a>安全性
 
 附件查看器中的以下操作通过基于角色的安全性进行控制：
 
@@ -203,7 +213,7 @@ Contoso 还可以决定不强制执行任何安全性，因此相同用户可以
 + **应付帐款职员** 和 **应付帐款经理** – 维护供应商发票职责被分配到这些角色。
 + **应付帐款职员**、**应付帐款经理**、**应付帐款的集中付款员** 和 **应付帐款付款职员** – 查询供应商发票状态职责被分配到这些角色。
 
-### <a name="vendor-invoice-attachment"></a>供应商发票附件
+### <a name="invoice-exception-details-page"></a>发票异常详细信息页
 
 以下权限提供对附件查看器执行突出显示、锁定和批注操作的只读访问权限或读/写访问权限。
 
@@ -222,6 +232,3 @@ Contoso 还可以决定不强制执行任何安全性，因此相同用户可以
 + **应付帐款职员** 和 **应付帐款经理** – 维护供应商发票职责被分配到这些角色。
 
 默认情况下，如果用户角色提供对任何页面的编辑权限，则用户还将拥有对附件查看器执行突出显示、锁定和批注操作的编辑权限。 但是，如果有些场景中要求特定角色对页面（而不是附件查看器）具有编辑权限，则上述列表中的相应权限可用来满足该使用案例。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

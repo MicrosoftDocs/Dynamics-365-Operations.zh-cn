@@ -1,10 +1,12 @@
 ---
 title: 资产管理参数
 description: 在资产管理中，必须设置与资产、工作订单和工作订单计划编制有关的常用参数。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751953"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020645"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 
@@ -99,11 +101,8 @@ ms.locfileid: "6751953"
 
 ## <a name="the-document-types-tab"></a>“文档类型”选项卡
 
-选择应该可用于打印与工作订单报表关联的附件的单据类型。 通过选择 **可用** 部分中的文档类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮来完成此操作。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
+选择应该可用于打印与工作订单报表关联的附件的单据类型。 方法是选择 **可用** 部分中的单据类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
 
 ## <a name="the-number-sequences-tab"></a>“编号规则”选项卡
 
 在此部分中选择所需编号规则。 资产有两种编号规则：一种用于手动创建的资产，一种用于通过暂挂资产创建的资产。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

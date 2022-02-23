@@ -2,24 +2,27 @@
 title: 产品详细信息页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 author: anupamar-ms
+manager: annbe
 ms.date: 01/23/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986193"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410591"
 ---
 # <a name="product-details-pages-overview"></a>产品详细信息页面概览
 
@@ -27,11 +30,13 @@ ms.locfileid: "7986193"
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 
+## <a name="overview"></a>概览
+
 PDP 提供有关产品的详细信息，可供客户用于选择产品选项，如尺寸、风格和颜色。 PDP 应展示客户要做出采购决定所需全部产品信息。
 
 下图显示 PDP 的示例。
 
-![产品详细信息页面的示例。](./media/pdp.PNG)
+![产品详细信息页示例](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>标题和页脚模块
 
@@ -83,6 +88,3 @@ PDP 上最重要的模块是购买框模块，它在页面主要部分中显示�
 [帐户管理页面概览](quick-tour-account-management.md)
 
 [丰富产品详细信息页面](enrich-product-page.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

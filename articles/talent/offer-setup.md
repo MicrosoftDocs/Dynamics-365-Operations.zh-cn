@@ -209,6 +209,3 @@ ms.locfileid: "4460438"
 
 
 若要了解有关聘约创建流程的更多信息，请参阅[创建、审核和签署聘约](./creating-offers.md)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

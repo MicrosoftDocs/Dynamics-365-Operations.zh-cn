@@ -2,23 +2,26 @@
 title: 生成合并的财务报表
 description: 此主题描述介绍可以生成合并的财务报表的各种情况。
 author: aprilolson
+manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 10f8754c4156893034117a4d449d464754eacafb0c0f6725c36709632af730ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727351"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440805"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
@@ -34,23 +37,23 @@ ms.locfileid: "6727351"
 3. 创建报表树，其中包含要在合并的报表中使用的报表节点，每个公司一个。
 
 > [!TIP]
-> 有关如何创建和管理行定义，列定义和报表树的详细信息，请参阅[财务报表组件](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md)。
+> 有关如何创建和管理行定义，列定义和报表树的详细信息，请参阅[财务报表组件](../../dev-itpro/analytics/financial-report-components.md)。
 
 下图显示如何在财务报告中使用报表树确定要合并的每个公司。
 
-![报告树定义。](./media/reporting-tree-definition.png "报告树定义")
+![报告树定义](./media/reporting-tree-definition.png "报告树定义")
 
 如下图中合并的报表所示，将报表树与报表定义结合使用时，可以分别查看每个公司。 合并的金额以汇总级别显示。
 
-![合并金额汇总级别。](./media/consolidate-amount-summary-level.png "合并科目汇总级别")
+![合并科目汇总级别](./media/consolidate-amount-summary-level.png "合并科目汇总级别")
 
 也可以创建多级报表树，其中包含的级别数量不受限制。 下图显示一个多级报表树定义，其中的汇总按全球区域排列。
 
-![汇总按区域排列的多级报告树定义。](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "其中的汇总按区域排列的多级报表树定义")
+![其中的汇总按区域排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "其中的汇总按区域排列的多级报表树定义")
 
 下图显示一个多级报表树定义，其中的汇总按函数排列。
 
-![汇总按功能排列的多级报告树定义。](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "其中的汇总按功能排列的多级报表树定义")
+![其中的汇总按功能排列的多级报表树定义](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "其中的汇总按功能排列的多级报表树定义")
 
 ### <a name="viewing-companies-side-by-side"></a>并排查看公司
 许多客户希望报表中的公司并排显示，并且其中一列显示合并的总计。 创建报告树之后，非常容易实现此格式。 可通过下面的高级步骤并排显示合并的财务报表中的公司。
@@ -61,19 +64,19 @@ ms.locfileid: "6727351"
 
 下图以并排格式显示列定义。
 
-![并排格式的列定义。](./media/column-definition-side-by-side-format.png "并排格式的列定义")
+![并排格式的列定义](./media/column-definition-side-by-side-format.png "并排格式的列定义")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>合并使用从法人创建的组织结构
-包含维度或法人的组织结构在财务报告中动态创建报告树定义。 简化合并最简单的方法是在财务报告中向报表添加组织层次结构。 Financial Reporting 将根据报告日期在生效日期或之前选择组织层次结构，如下图中所示。
+包含维度或法人的组织结构在财务报告中动态创建报告树定义。 简化合并最简单的方法是在财务报告中向报表添加组织层次结构。 财务报告将根据报告日期在生效日期或之前选择组织层次结构，如下图中所示。
 
-![动态创建报告树定义。](./media/dynamically-create-reporting-tree-definitions.png "动态创建报告树定义")
+![动态创建报告树定义](./media/dynamically-create-reporting-tree-definitions.png "动态创建报告树定义")
 
 ## <a name="consolidations-that-involve-eliminations"></a>合并涉及清除
 清除交易记录是合并流程中的常规组成部分 在此示例中，合并期间清除了五个科目：142600、211400、401420、401180 和 510820。 公司可以以不同方式设置内部公司科目。 例如，如果科目在内部公司交易记录中使用，有的公司会将最后一位设置为 9。 无论使用哪种方法，如果知道内部公司科目，则可在合并的财务报表中显示清除。
 
-下图显示一个合并的利润表的列定义。 通过使用维度筛选器为每个公司定义三个内部公司损益科目。 F、G 和 H 列仅包括 USMF、USRT 和 DEMF 公司的抵销科目。 设置这些列是为了在财务报表中 **不** 打印这些列。
+下图显示一个合并的利润表的列定义。 通过使用维度筛选器为每个公司定义三个内部公司损益科目。 列 D 中仅包含 USMF 公司的清除科目，列 E 中仅包含 DEMF 公司的清除。 同时设置列 D 和列 E 是为了在财务报表中 **不** 打印这些项。
 
-![列定义合并的利润表。](./media/column-definition-consolidated-income-statement.png "列定义合并的利润表")
+![列定义合并的利润表](./media/column-definition-consolidated-income-statement.png "列定义合并的利润表")
 
 生成报表时，将在列 F、G 和 H 中计算清除金额，在列 I 中汇总，在列 J 中显示合并的金额。 这些合并金额中不包含 USMF、USRT 和 DEMF 公司的排除科目。
 
@@ -82,7 +85,7 @@ ms.locfileid: "6727351"
 
 下图显示合并的报表。
 
-![合并的报表利润表。](./media/consolidated-report-income-statement.png "合并的报表利润表")
+![合并的报表利润表](./media/consolidated-report-income-statement.png "合并的报表利润表")
 
 无论使用帐户和/或维度，都可以通过财务报告的维度筛选功能筛选掉清除条目。
 
@@ -95,20 +98,20 @@ ms.locfileid: "6727351"
 > [!NOTE]
 > 可将整个所有权百分比应用于任何报告单位，不仅限于公司级别。 
 
-![使用报告树定义百分比。](./media/Using-reporting-tree-definition-percentage.png "使用报告树定义百分比")
+![使用报告树定义百分比](./media/Using-reporting-tree-definition-percentage.png "使用报告树定义百分比")
 
 生成报表时，Contoso Germany 报表将显示销售额的 100%，再分配该金额的 80% 并汇总到合并的销售级别。
 
 如果拥有的公司比例低于 1%，可选中 **报表设置** 页中 **其他选项** 上的 **允许小于 1% % 的汇总** 复选框，如下图中所示。 在这种情况下，将把报告树中 **汇总百分比** 列内的值视为小于 1%。 例如，如果输入 **.8**，会将 0.8% 汇总到合并级别，而不是 80%。 也可以通过让 **允许小于 1% 的汇总** 复选框保持未选中，并在 **汇总百分比** 列中输入 **.008** 达到同样的效果。
 
-![报告设置选项。](./media/reporting-setting-options.png "报告设置选项")
+![报告设置选项](./media/reporting-setting-options.png "报告设置选项")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>在合并的报表中将所有权作为单独一行显示
 少数股权的另一个选项是在报表中的每行显示子公司的 100%，但在净收入中减去非控股股权。
 
 如下图所示，可使用行定义中的 **IF THEN ELSE** 语句和列限制计算财务报表中的少数股权。
 
-![在合并的报表中将所有权作为单独一行显示。](./media/Showing-ownership-separate-row-consolidated-report.png "在合并的报表中将所有权作为单独一行显示")
+![在合并的报表中将所有权作为单独一行显示](./media/Showing-ownership-separate-row-consolidated-report.png "在合并的报表中将所有权作为单独一行显示")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>法人采用多个会计科目表
 不同法人通常有不同会计科目表，但希望生成合并的财务报表。 在此情况下，可使用财务报表合并数据，以便生成合并的财务报表。 下面是用于在不同法人有不同会计科目表时进行合并的高级步骤。
@@ -122,11 +125,11 @@ ms.locfileid: "6727351"
 > [!TIP]
 > 有关 **指向财务维度的链接** 单元格的详细信息，请参阅“指定指向财务维度的链接单元格”。
 
-![为科目设置第一个指向财务维度的链接。](./media/set-accounts-first-Link-to-Financial-Dimensions.png "为科目设置第一个指向财务维度的链接")
+![为科目设置第一个指向财务维度的链接](./media/set-accounts-first-Link-to-Financial-Dimensions.png "为科目设置第一个指向财务维度的链接")
 
 可使用报告树定义为每家公司使用行定义中的哪个指向财务维度的链接。 在列 E 中选择行定义，然后在列 F 中选择相应行链接，如下图中所示。
 
-![链接所用财务维度行定义。](./media/link-financial-dimensions-row-definition-used.png "链接所用财务维度行定义")
+![链接所用财务维度行定义](./media/link-financial-dimensions-row-definition-used.png "链接所用财务维度行定义")
 
 > [!TIP]
 > 创建指向财务维度的链接时，可使用描述确定各链接适用的公司。 这样就可以在创建报告树时更容易选择正确的公司。 在列定义中，**报告单位** 字段用于将每列限制为报告树的一个单位，这样就可以并排显示数据。 如果不为列指定特定公司，将显示所有公司的合并数据。
@@ -146,16 +149,16 @@ ms.locfileid: "6727351"
 
 在下图中，报表定义中的 **公司名** 字段内指定了 USMF 公司。 因此，将把 USMF 公司的会计日历用作基础会计日历。 在此示例中，为 2018 年 6 月 30 日生成报表时，USMF 公司将使用 BASE 期间，这在报表定义中定义为期间 12。 INMF 公司将使用 BASE-6，即期间 6。 这两个列愿中包含 2018 年 6 月的数据。
 
-![报表基础期间。](./media/report-base-period.png "报表基础期间")
+![报表基础期间](./media/report-base-period.png "报表基础期间")
 
 下表显示报表定义中用于选择对合并使用期间编号还是期间结束日期的选项。
 
-![报表定义的期间编号选项。](./media/options-report-definition-period-number.png "报表定义的期间编号选项")
+![报表定义的期间编号选项](./media/options-report-definition-period-number.png "报表定义的期间编号选项")
 
 ## <a name="business-unit-consolidations"></a>业务单位合并
 此主题重点介绍如何在财务报告中将报告树定义和组织层次结构用于合并用途。 还可以使用报告树创建业务单位合并报表，如有关全球销售或运营的报表。 这些报表是普遍需求。 若要创建，请为要合并的每个单位选择公司和维度。 例如，在下图中，汇总业务单位的方法是在 **公司** 列（列 A）中重复输入每个公司，然后在 **维度** 列（列 D）中为每个公司指定一组部门维度值。
 
-![业务单位合并报表。](./media/business-unit-consolidation-reports.png "业务单位合并报表")
+![业务单位合并报表](./media/business-unit-consolidation-reports.png "业务单位合并报表")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>合并涉及多个申报币种
 查看多种币种的实际值、预算、预算控制和预算规划数据时，财务报告可以提高灵活性。 通过提供关键设置数据，无需在财务报告中执行其他任何步骤即可随时查看任何用户任何币种的任何报表。
@@ -168,7 +171,7 @@ ms.locfileid: "6727351"
 - 在 **财务报告汇率类型** 字段中，选择包含要应用于科目的币种和汇率的汇率类型。 将把这个货币和汇率表应用于错误报告中的实际数据。
 - 在 **货币折算类型** 字段中，选择用于计算科目汇率的方法。 此币种方法同时用于财务报告中的实际值和预算数据。
 
-![Financial Reporting 主科目。](./media/Financial-reporting-main-accounts.png "财务报告主科目")
+![财务报告主科目](./media/Financial-reporting-main-accounts.png "财务报告主科目")
 
 预算、预算控制和预算规划数据的汇率类型则在 **分类帐** 页面中定义。 该表用于提取汇率，将使用分配给科目的货币折算类型。
 
@@ -199,15 +202,15 @@ ms.locfileid: "6727351"
 
 - 使用行定义中的 **化整调整** 页，如下图中所示。
 
-    ![货币折算调整化整调整。](./media/Currency-translation-adjustment-rounding-adjustments.png "货币折算调整化整调整")
+    ![货币折算调整化整调整](./media/Currency-translation-adjustment-rounding-adjustments.png "货币折算调整化整调整")
 
     如果指定应显示化整调整 (CTA) 的行、资产总计行、总负债和权益行，以及所需阈值，财务报告将计算差并放入所需行中。 将创建一个名称为 **化整调整** 的行，该行在向下钻取时显示，如下图中所示。
 
-    ![化整调整向下钻取。](./media/rounding-adjustment-drill-down.png "化整调整向下钻取")
+    ![化整调整向下钻取](./media/rounding-adjustment-drill-down.png "化整调整向下钻取")
 
 - 将从资产到费用的所有科目放到一个区域内。 如下图中所示，差为与化整调整 (CTA) 相同的金额。 因此，可将其用作检查总额以确保化整调整页中不包含缺少的任何科目余额。
 
-    ![化整调整窗体检查。](./media/rounding-adjustment-form-check.png "化整调整窗体检查")
+    ![化整调整窗体检查](./media/rounding-adjustment-form-check.png "化整调整窗体检查")
 
 ### <a name="balance-calculation-approach"></a>余额计算方法
 为了在使用币种时获得当前转换的金额，财务报告对余额使用以下计算方法：
@@ -221,6 +224,3 @@ ms.locfileid: "6727351"
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关如何输入在线合并的详细信息的更多信息，请参阅[在线财务合并](./consolidate-online.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

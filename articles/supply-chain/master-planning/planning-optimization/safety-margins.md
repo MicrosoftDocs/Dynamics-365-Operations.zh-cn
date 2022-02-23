@@ -2,13 +2,16 @@
 title: 安全宽限期
 description: 本主题介绍如何对适用于 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使用安全宽限期。
 author: ChristianRytt
+manager: tfehr
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074959"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422871"
 ---
 # <a name="safety-margins"></a>安全宽限期
 
@@ -41,7 +44,7 @@ ms.locfileid: "8074959"
 
 下图显示这些安全宽限期在一段时间的应用情况。
 
-![安全宽限期。](media/safety-margins-1.png)
+![安全宽限期](media/safety-margins-1.png)
 
 所有宽限期均以天为单位定义。 默认值 *0*（零）表示不应用宽限期。 如果设置多个宽限期，这些宽限期将全部添加到从供应 *订单日期* 到需求 *要求日期* 的总时间。 例如，某个设置没有提前期，并且所有三种宽限期都设置为一天。 在这种情况下，供应订单日期和需求要求日期之间将相隔三天，因此，如果订单日期为 7 月 1 日，则要求日期将为 7 月 4 日。
 
@@ -51,7 +54,7 @@ ms.locfileid: "8074959"
 
 下图突出显示了收货宽限期。
 
-![收货宽限期。](media/safety-margins-2.png)
+![收货宽限期](media/safety-margins-2.png)
 
 收货宽限期通常用作缓冲来确保仓库等记或系统中不作为常规提前期一部分捕获的其他耗时流程提供时间。 对于采购来说，其中一个优点是采购订单的 *计划日期* 相应向前推。 如果增加提前期而不是使用安全宽限期，仍然会请供应商在最后一分钟交货。
 
@@ -61,17 +64,23 @@ ms.locfileid: "8074959"
 
 ### <a name="reorder-margin"></a>再订购宽限期
 
+> [!NOTE]
+> **即将推出：** 计划优化尚不支持此功能。 在支持之前，将把为 **再订购宽限期添加到物料提前期** 输入的所有值视为 *0*（零）。
+
 下图突出显示了再订购宽限期。
 
-![再订购宽限期。](media/safety-margins-3.png)
+![再订购宽限期](media/safety-margins-3.png)
 
 再订购宽限期在主计划期间所有计划订单的物料提前期之前添加。 因此，确保了为下达供应订单提供额外时间。 此宽限期通常用作缓冲来确保为创建供应订单期间所需审批流程或其他内部流程提供时间。 再订购宽限期介于供应 *订单日期* 和 *开始日期* 之间。
 
 ### <a name="issue-margin"></a>发货宽限期
 
+> [!NOTE]
+> **即将推出：** 计划优化尚不支持此功能。 在支持之前，将把为 **从要求日期扣除的发货宽限期** 输入的所有值视为 *0*（零）。
+
 下图突出显示了发货宽限期。
 
-![发货宽限期。](media/safety-margins-4.png)
+![发货宽限期](media/safety-margins-4.png)
 
 主计划期间将从需求要求日期扣除发货宽限期。 这有助于确保有时间处理和装运传入的需求订单。 此宽限期通常用作缓冲区来确保为装运和相关传出仓库流程提供时间。
 
@@ -81,7 +90,7 @@ ms.locfileid: "8074959"
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>在功能管理中开启安全宽限期
 
-此功能只有在系统中开启之后才能用于计划优化。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+此功能只有在系统中开启之后才能用于计划优化。 管理员可以使用[功能管理](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
 
 - **模块**：_主计划_
 - **功能名称**：_计划优化的宽限期_
@@ -159,7 +168,7 @@ ms.locfileid: "8074959"
 - **仓库 (WH)：** 白色
 - **供应商 (V)：** 蓝色
 
-[![日历设置概览矩阵。](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![日历设置概览矩阵](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>计算延迟
 
@@ -167,13 +176,10 @@ ms.locfileid: "8074959"
 
 例如，一件商品的提前期为一天，收货宽限期为三天。 此商品的销售订单根据需要设置为今天。 在此情况下，延迟的计算方法为 *提前期* + *收货宽限期* = 四天。 因此，如果今天是 8 月 14 日，则四天的延迟会导致交货日期为 8 月 18 日。 下图显示此示例。
 
-![延迟计算示例。](media/safety-margins-delays.png)
+![延迟计算示例](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [开始使用计划优化](get-started.md)
 
 [计划优化适应分析](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

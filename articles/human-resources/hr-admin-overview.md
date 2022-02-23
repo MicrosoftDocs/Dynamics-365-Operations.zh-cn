@@ -1,36 +1,35 @@
 ---
-title: 管理概述
-description: 本主题提供了用于设置、管理 Dynamics 365 Human Resources 以及对其进行故障排除的帮助主题和其他资源的列表。
-author: twheeloc
-ms.date: 08/11/2021
-ms.topic: overview
+title: 概览
+description: 此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068401"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527853"
 ---
-# <a name="administration-overview"></a>管理概述
+# <a name="overview"></a>概览
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-本主题提供了用于设置、管理 Dynamics 365 Human Resources 以及对其进行故障排除的帮助主题和其他资源的列表。
+此管理员指南可帮助您设置、管理并解决 Dynamics 365 Human Resources 的问题。
 
 - [系统要求](hr-admin-system-requirements.md)
 
@@ -42,15 +41,15 @@ ms.locfileid: "8068401"
 
 - 设置数据集成
   - [选择数据集成技术](hr-admin-integration-choose-technology.md)
-  - [配置 Dataverse 集成](hr-admin-integration-common-data-service.md)
+  - [配置 Common Data Service 集成](hr-admin-integration-common-data-service.md)
   - [配置与 Finance 的集成](hr-admin-integration-finance.md)
   - [配置与 Dayforce 的集成](hr-admin-integration-dayforce.md)
   - [创建定期数据导出应用](hr-admin-integration-recurring-data-export.md)
   - 与 Office 集成
-    - [Office 集成教程](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [更新 Excel 中的实体数据](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [创建“在 Excel 中打开”体验](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [解决 Office 集成问题](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office 集成教程](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [更新 Excel 中的实体数据](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [创建“在 Excel 中打开”体验](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [解决 Office 集成问题](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [管理功能](hr-admin-manage-features.md)
 
@@ -60,7 +59,7 @@ ms.locfileid: "8068401"
   - [用户界面元素](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [辅助功能](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
   - [功能管理概览](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [客户端常见问题](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
+  - [客户端常见问题解答](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
   - [操作搜索](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [高级筛选和查询语法](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
   - [配置和筛选工作区](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
@@ -85,7 +84,7 @@ ms.locfileid: "8068401"
   - [通过任务录制器创建文档或培训](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resources 故障排除
-  - [获取支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [获取支持](hr-admin-troubleshooting-support.md)
   - [使用自动清理任务优化性能](hr-admin-troubleshooting-batch-history.md)
   - [未更新分析报表](hr-admin-troubleshooting-analytic-reports.md)
   - [无法在 Power Apps 管理中心内创建环境](hr-admin-troubleshooting-power-apps.md)
@@ -94,23 +93,12 @@ ms.locfileid: "8068401"
   - [执行薪酬流程](hr-admin-troubleshooting-compensation.md)
   - [将任务指南保存到 LCS](hr-admin-troubleshooting-task-guide.md)
   - [通过安全角色访问专用地址](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources 未显示在 Dynamics 365 应用中](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources 不出现在 Dynamics 365 应用中](hr-admin-troubleshooting-not-in-apps.md)
   - [报告选项](hr-admin-troubleshooting-reporting.md)
   - [集成常见问题](hr-admin-troubleshooting-integration.md)
 
-## <a name="additional-resources"></a>其他资源
-
-### <a name="elearning-courses"></a>网络培训课程
-要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)。
-
-### <a name="videos"></a>视频
-
-查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
 ## <a name="see-also"></a>请参阅
 
-- [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)
+- [Human Resources 的新增功能或更改](hr-admin-whats-new.md)
 - [开发人员指南](hr-developer-overview.md)
 - [用户指南](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

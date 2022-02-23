@@ -2,31 +2,32 @@
 title: 记录使用权资产折旧（预览）
 description: 本主题说明如何为组织的资产负债表上确认的租赁所需摊销创建日记帐条目。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseAssetSchedule
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.openlocfilehash: 0dd8308acb875affc96ca6d9ed856d74d4b2eb37
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947307"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440946"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>记录使用权资产折旧（预览）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 对于在组织资产负债表上确认的租赁，使用权 (ROU) 资产按月摊销。 本主题说明如何为摊销创建日记帐条目。 摊销根据您的过帐配置文件和租赁类型的设置借记费用分类帐科目和贷记累计折旧分类帐科目。 可以为每个租赁创建这些条目，也可以使用批量日记帐功能为多个租赁创建它们。
 
@@ -35,12 +36,9 @@ ms.locfileid: "7947307"
 1. 在 **租赁摘要** 页上，选择一个租赁。 然后选择 **帐簿 \> 资产折旧计划** 打开 **资产折旧计划** 页。
 
     使用权资产折旧费用日记帐条目基于 **折旧费用** 列中的金额。 有关会计准则合规性指南的示例，请参阅本主题后面的[计算融资租赁的使用权资产摊销费用](#calculation-of-rou-asset-amortization-expense-for-finance-leases)部分。
-    
+
 2. 选择折旧期间，然后选择 **创建日记帐**。 您将收到一条消息，指出已创建了用于记录折旧的日记帐。
 3. 选择 **日记帐 \> 资产租赁日记帐** 打开 **资产租赁日记帐** 页面，您可以在其中查看创建的折旧费用日记帐条目。
-
-   系统将锁定某些财务字段从而使其不能被编辑，以防止交易和计划之间出现任何差异。 已锁定的某些字段包括：**帐户**、**金额**、**财务维度**、**货币** 和 **交易类型**。 此外，您将无法在任何资产租赁日记帐条目中添加或删除日记帐条目行，因为这可能会导致计划与交易之间出现差异。
-
 4. 选择日记帐条目，然后选择 **过帐** 将折旧条目记录到总帐中。
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>计算经营性租赁的使用权资产摊销费用
@@ -71,8 +69,6 @@ ms.locfileid: "7947307"
 > [!NOTE]
 > 根据 ASC 842，经营性租赁的使用权资产折旧在收益表中分类为租赁费用。 为了便于查看，资产租赁将该条目描述为使用权资产的折旧。 但是，应将借方条目分配给经营新租赁费用科目，将贷方条目直接分配给经营性租赁的使用权资产。 但是，在租赁参数中，您可以指定应该为经营性使用权资产的累积折旧科目创建的贷项条目。
 
-如果将租赁归类为经营性租赁，将使用直线折旧计算减损后的每月折旧。
-
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>计算金融租赁的使用权资产摊销费用
 
 对于采用金融分类的租赁，系统以直线法计算使用权资产摊销。 因此，每个月的折旧费用都相同。
@@ -90,6 +86,3 @@ ms.locfileid: "7947307"
 | 1                                    | 22,889.87 ÷ 24 = 953.74                 |
 | 2                                    | 22,889.87 ÷ 24 = 953.74                 |
 | 3                                    | 22,889.87 ÷ 24 = 953.74                 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

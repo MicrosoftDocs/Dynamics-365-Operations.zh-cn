@@ -80,6 +80,3 @@ OData 内现在支持下列实体：工作人员工作经验和工作人员教�
 
 ### <a name="email-support-for-alerts"></a>警报的电子邮件支持
 安装 Finance and Operations 的平台更新 26 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

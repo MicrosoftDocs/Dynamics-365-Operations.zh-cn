@@ -1,10 +1,12 @@
 ---
 title: 资产关键性类型
 description: 本主题介绍资产管理中的资产关键性类型。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776912"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021696"
 ---
 # <a name="asset-criticality-types"></a>资产关键性类型
 
@@ -40,7 +42,7 @@ ms.locfileid: "6776912"
 4. 在 **名称** 字段中，输入关键性类型的名称。
 5. 在 **系数** 字段中，输入一个系数。 此系数在计算工作订单排产时用于确定应使用的关键性记录。 （始终使用系数最大的记录。）如果创建的关键性行具有相同的关键性值（如下图所示），则此设置相关。
 
-    ![关键性类型页面。](media/23-setup-for-objects.png)
+    ![关键性类型页面](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>设置资产关键性
 
@@ -59,6 +61,3 @@ ms.locfileid: "6776912"
 - 只要在工作订单中添加或删除工作订单行，都将重新计算该工作订单中的关键性。
 - 如果一个工作订单中包含多个工作订单作业，则始终在工作订单中使用根据 **关键性类型** 页上的 **系数** 字段的最高关键性。
 - 资产关键性通常会随时间改变。 购买新设备，补货等可能会影响关键性。 请考虑定期（如每年或每隔一年一次）重新评估资产关键性，以确保关键性定义与当前生产设置匹配。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

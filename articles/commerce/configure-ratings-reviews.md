@@ -2,30 +2,35 @@
 title: 配置评分和评价
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968094"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410388"
 ---
 # <a name="configure-ratings-and-reviews"></a>配置评分和评价
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
+
+## <a name="overview"></a>概览
 
 电子商务网站中的评分和评价可帮助客户在做出采购决定之前了解产品，方法是对其显示其他客户对这些产品的看法。 对于电子商务网站，评分和评价也是用于收集有关产品的客户反馈的机制。 
 
@@ -44,7 +49,7 @@ ms.locfileid: "7968094"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![配置站点以显示评分和评价。](media/rnr-eCommerce-site-appsettings.png)
+![配置站点以显示评分和评价](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>将产品评分链接到 PDP 的“评论”部分
 
@@ -58,7 +63,7 @@ ms.locfileid: "7968094"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![将产品评分链接到 PDP 的“评价”部分。](media/rnr-eCommerce-buy-box-rating-summary.png)
+![将产品评分链接到 PDP 的“评论”部分](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>配置隐私和政策页的链接
 
@@ -73,7 +78,7 @@ ms.locfileid: "7968094"
 
 下图显示此配置在 Dynamics 365 Commerce 中的显示效果。
 
-![配置隐私和政策页面的链接。](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![配置隐私和政策页的链接](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>配置产品详细信息页中的评分和评论模块
 
@@ -87,17 +92,6 @@ ms.locfileid: "7968094"
 
 [管理评分和评价](manage-reviews.md)
 
+[配置产品详细信息页中的评分和评论模块](ratings-reviews-modules.md)
+
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
-
-[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
-
-[导入和导出评分和评价](import-export-reviews.md)
-
-[配置服务对服务身份验证](service-to-service-auth.md)
-
-[评分和评价常见问题解答](ratings-reviews-faq.md)
-
-[评分和评价模块](ratings-reviews-modules.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

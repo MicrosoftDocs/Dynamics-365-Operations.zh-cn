@@ -2,25 +2,28 @@
 title: 按中国站点过帐主库存科目
 description: 此主题提供有关按中国的站点过帐库存主科目过帐的信息。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPostingParameters
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 262754
 ms.assetid: f8e0b34d-006a-4baf-86ae-60625ba4b442
 ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e71a1ab8859babcc8b7a301287823d87e4c688853df3f9284a59cc1b076cf53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b26cc7676be3319eb06fee3b0fee6a40a4832222
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768734"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409742"
 ---
 # <a name="post-inventory-main-accounts-by-site-for-china"></a>按中国站点过帐主库存科目
 
@@ -43,6 +46,3 @@ ms.locfileid: "6768734"
 | 15085        | 原材料 | 站点 2 | 3,299,398 |
 
 通过按站点设置库存成本的主科目，您可以过帐库存交易，如每个站点的库存日志、销售订单、采购订单，生产日志和项目物料日志。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

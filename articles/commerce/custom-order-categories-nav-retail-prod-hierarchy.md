@@ -2,30 +2,33 @@
 title: 更改促销实体的排序顺序
 description: 此主题介绍与在 Dynamics 365 Commerce 中控制各种促销相关实体的显示顺序有关的概念。
 author: josaw1
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410493"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
 
-[!Include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 零售商将产品发现视为所有渠道中的主要客户互动工具。 可通过大量功能帮助客户轻松发现产品。 例如，可以浏览类别，进行搜索或使用筛选。
 
@@ -51,9 +54,9 @@ ms.locfileid: "7779534"
 
 将在商业产品层次结构和按类别的已发布产品的 HQ 中体现渠道导航层次结构的显示顺序。
 
-![使用负值排序的产品层次结构自定义。](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![使用负值排序的产品层次结构自定义](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![基于产品层次结构按类别自定义排序的已发布产品。](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![基于产品层次结构按类别自定义排序的已发布产品](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>配置渠道导航层次结构中的类别的显示顺序
 
@@ -77,14 +80,11 @@ ms.locfileid: "7779534"
 
 将在 HQ、目录和渠道中体现渠道导航层次结构的显示顺序。
 
-![已排序渠道导航层次结构自定义。](./media/ChannelNavCustomSorted.png)
+![已为渠道导航层次结构自定义排序](./media/ChannelNavCustomSorted.png)
 
-![基于渠道导航层次结构排序的目录导航层次结构自定义。](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![已基于渠道导航层次结构为目录导航层次结构自定义排序](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![具有自定义排序的类别的 POS。](./media/POSChannelCategoriesCustomSorted.png)
+![具有自定义排序的类别的 POS](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。

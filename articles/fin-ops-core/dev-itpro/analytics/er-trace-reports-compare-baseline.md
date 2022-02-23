@@ -2,9 +2,11 @@
 title: 跟踪生成的报表结果并将其与基准值进行比较。
 description: 本主题介绍如何将生成的电子申报 (ER) 报表的结果与基准报表值进行比较。
 author: NickSelin
+manager: AnnBe
 ms.date: 06/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605174"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682815"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>跟踪生成的报表结果并将其与基准值进行比较。
 
@@ -52,7 +54,7 @@ ms.locfileid: "7605174"
 2. 在 **类** 字段中，输入 **附加文件**。
 3. 在 **组** 字段中，输入 **文件**。
 
-![文档类型页面。](media/GER-BaselineSample-SetupDocumentType.PNG "“文档类型”页的屏幕截图")
+![“单据类型”页面](media/GER-BaselineSample-SetupDocumentType.PNG "“文档类型”页的屏幕截图")
 
 > [!NOTE]
 > 必须为计划用于 ER 基准功能的每个数据集配置同名新文档类型。
@@ -61,11 +63,11 @@ ms.locfileid: "7605174"
 
 1. 在 **电子申报** 工作区的 **相关链接** 部分中，选择 **电子申报参数**。
 
-    ![电子报告工作区。](media/GER-BaselineSample-ERWorkspace.PNG "“电子申报”工作区的屏幕截图")
+    ![电子申报工作区](media/GER-BaselineSample-ERWorkspace.PNG "“电子申报”工作区的屏幕截图")
 
 2. 在 **附件** 选项卡上的 **基准** 字段中，输入或选择刚才创建的文档类型。
 
-    ![“电子报告参数”页面的“附件”选项卡。](media/GER-BaselineSample-ERParameters.PNG "“电子申报”参数的屏幕截图")
+    ![“电子申报参数”页的“附件”选项卡](media/GER-BaselineSample-ERParameters.PNG "“电子申报”参数的屏幕截图")
 
 3. 选择 **保存**，然后关闭 **电子申报参数** 页。
 
@@ -76,7 +78,7 @@ ms.locfileid: "7605174"
 3. 在下拉对话框的 **名称** 字段中，输入 **用于了解 ER 基准的模型**。
 4. 选择 **创建配置** 以确认创建新的 ER 数据模型条目。
 
-![“创建配置”对话框，添加新电子报告模型配置。](media/GER-BaselineSample-ModelAdd.PNG "“创建配置”下拉对话框的屏幕截图")
+![“创建配置”下拉对话框](media/GER-BaselineSample-ModelAdd.PNG "“创建配置”下拉对话框的屏幕截图")
 
 ### <a name="design-a-data-model"></a>设计数据模型
 
@@ -90,7 +92,7 @@ ms.locfileid: "7605174"
 8. 选择 **更改状态**。
 9. 选择 **完成**，然后选择 **确定**。
 
-![配置页面。](media/GER-BaselineSample-ModelComplete.PNG "配置页的屏幕截图")
+![配置页面](media/GER-BaselineSample-ModelComplete.PNG "配置页的屏幕截图")
 
 ### <a name="add-a-new-er-format-configuration"></a>添加新 ER 格式配置
 
@@ -99,7 +101,7 @@ ms.locfileid: "7605174"
 3. 在 **名称** 字段中，输入 **用于了解 ER 基准的格式**。
 4. 选择 **创建配置** 以确认创建新的 ER 格式条目。
 
-![“创建配置”对话框，添加新电子报告格式配置。](media/GER-BaselineSample-FormatAdd.PNG "“创建配置”下拉对话框的屏幕截图")
+![“创建配置”下拉对话框](media/GER-BaselineSample-FormatAdd.PNG "“创建配置”下拉对话框的屏幕截图")
 
 ### <a name="design-a-format"></a>设计格式
 
@@ -107,41 +109,41 @@ ms.locfileid: "7605174"
 
 1. 在 **配置** 页的操作窗格上，选择 **设计器**。
 2. 选择 **添加根**。
-3. 在下拉对话框中，执行以下步骤：
+2. 在下拉对话框中，执行以下步骤：
 
     1. 在树中，选择 **常见\\文件**。
     2. 在 **名称** 字段中，输入 **输出**。
     3. 选择 **确定**。
 
-4. 选择 **添加**。
-5. 在下拉对话框中，执行以下步骤：
+3. 选择 **添加**。
+4. 在下拉对话框中，执行以下步骤：
 
     1. 在树中，选择 **XML\\元素**。
     2. 在 **名称** 字段中，输入 **文档**。
     3. 选择 **确定**。
 
-6. 在树中，选择 **输出\\文档**。
-7. 选择 **添加**。
-8. 在下拉对话框中，执行以下步骤：
+5. 在树中，选择 **输出\\文档**。
+6. 选择 **添加**。
+7. 在下拉对话框中，执行以下步骤：
 
     1. 在树结构中，选择 **XML\\属性**。
     2. 在 **名称** 字段中，输入 **ID**。
     3. 选择 **确定**。
 
-    ![“格式设计器”页面，在树中选择的 XML 属性。](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
+    ![“格式设计器”页面](media/GER-BaselineSample-FormatLayoutDesign.PNG "“格式设计器”页的屏幕截图")
 
-9. 在 **映射** 选项卡上，选择 **删除**。
-10. 选择 **添加根**。
-11. 在下拉对话框的树中，选择 **常规\\用户输入参数**，然后执行以下步骤：
+8. 在 **映射** 选项卡上，选择 **删除**。
+9. 选择 **添加根**。
+10. 在下拉对话框的树中，选择 **常规\\用户输入参数**，然后执行以下步骤：
 
     1. 在 **名称** 字段中，输入 **ID**。
     2. 在 **标签** 字段中，输入 **输入 ID**。
     3. 选择 **确定**。
 
-12. 在树中，选择 **输出\\文档\\Id**。
-13. 选择 **绑定**，然后选择 **保存**。
+11. 在树中，选择 **输出\\文档\\Id**。
+12. 选择 **绑定**，然后选择 **保存**。
 
-![“格式设计器”页面，“映射”选项卡。](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
+![“格式设计器”页面](media/GER-BaselineSample-FormatMappingDesign.PNG "“格式设计器”页的屏幕截图")
 
 配置的格式将根据设计的结构生成 XML 文件。 此 XML 中包含 **根** 元素，该元素的 **ID** 属性设置为用户在“ER 运行时”对话框中输入的值。
 
@@ -151,11 +153,11 @@ ms.locfileid: "7605174"
 2. 在 **输入 ID** 字段中，输入 **1**。
 3. 选择 **确定**。
 
-    ![电子报表参数对话框。](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "“电子报表参数”对话框的屏幕截图")
+    ![电子报表参数对话框](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "“电子报表参数”对话框的屏幕截图")
 
 4. 保存生成的 **out.Admin.xml** 文件的本地副本，以便后面将其用作此 ER 格式的基准。
 
-    ![有关“配置”页面上生成文件的通知。](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "有关“配置”页上生成的文件的通知的屏幕截图")
+    ![有关“配置”页上生成的文件的通知](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "有关“配置”页上生成的文件的通知的屏幕截图")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>配置 ER 参数以使用基准功能
 
@@ -163,20 +165,20 @@ ms.locfileid: "7605174"
 2. 将 **以调试模式运行** 选项设置为 **是**。
 3. 选择 **确定**。
 
-![“用户参数”对话框。](media/GER-BaselineSample-ERUserParameters.PNG "“用户参数”对话框的屏幕截图")
+![“用户参数”选项卡](media/GER-BaselineSample-ERUserParameters.PNG "“用户参数”对话框的屏幕截图")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>为设计的 ER 格式添加新基准
 
 1. 转到 **组织管理** \> **电子申报** \> **配置**。
 2. 在操作窗格上，选择 **基准**。
 
-    ![“配置”页面上的“基准”按钮。](media/GER-BaselineSample-OpenBaselinePage.PNG "“配置”页上的“基准”按钮的屏幕截图")
+    ![“配置”页上的“基准”按钮](media/GER-BaselineSample-OpenBaselinePage.PNG "“配置”页上的“基准”按钮的屏幕截图")
 
 3. 在操作窗格上，选择 **新建**。
 4. 选择之前设计的 **用于了解 ER 基准的格式** ER 格式。
 5. 选择 **保存**。
 
-![“电子报告格式基准”页面。](media/GER-BaselineSample-AddBaseline.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline.PNG "“电子申报格式基准”页的屏幕截图")
 
 将为 **用于了解 ER 基准的格式** 格式的基准。
 
@@ -186,7 +188,7 @@ ms.locfileid: "7605174"
 2. 在操作窗格上，选择 **新建** \> **文件**。 在 ER 参数中，之前应该已将 **文件** 文档类型选择为用于存储基准文件的文档格式。
 3. 选择 **浏览**，然后选择您之前在运行配置的 ER 格式时生成的 **out.Admin.xml** 文件。
 
-    ![“附件”页面。](media/GER-BaselineSample-UploadBaselineFile.PNG "附件页的屏幕截图")
+    ![附件页](media/GER-BaselineSample-UploadBaselineFile.PNG "附件页的屏幕截图")
 
 4. 关闭 **附件** 页。
 5. 在 **基准** 快速选项卡上，选择 **新建**。
@@ -201,7 +203,7 @@ ms.locfileid: "7605174"
 10. 在 **基准** 字段中，输入或选择 **out.Admin** 附件。
 11. 选择 **保存**。
 
-![“电子报告格式基准”页面，选择了基准的“基准”快速选项卡。](media/GER-BaselineSample-SetupBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子申报格式基准”页](media/GER-BaselineSample-SetupBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>运行设计的 ER 格式和检查日志以分析结果
 
@@ -212,7 +214,7 @@ ms.locfileid: "7605174"
 5. 选择 **确定**。
 6. 转到 **组织管理** \> **电子申报** \> **配置调试日志**。
 
-    ![具有同等基准的“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "“电子申报运行日志”页的屏幕截图")
+    ![“电子申报运行日志”页](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "“电子申报运行日志”页的屏幕截图")
 
     > [!NOTE]
     > 执行日志中包含有关所生成文件与所配置基准的比较结果的信息。 在此示例中，日志指示生成的文件和基准相等。
@@ -228,7 +230,7 @@ ms.locfileid: "7605174"
 5. 选择 **确定**。
 6. 转到 **组织管理** \> **电子申报** \> **配置调试日志**。
 
-    ![具有不同基准的“电子报告运行日志”页面。](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "“电子申报运行日志”页的屏幕截图")
+    ![“电子申报运行日志”页](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "“电子申报运行日志”页的屏幕截图")
 
     > [!NOTE]
     > 执行日志中包含有关所生成文件与所配置基准的比较结果的信息。 在此示例中，日志指示生成的文件和基准不同。
@@ -241,6 +243,3 @@ ms.locfileid: "7605174"
 ## <a name="additional-resources"></a>其他资源
 
 - [配置电子报告 (ER) 框架](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

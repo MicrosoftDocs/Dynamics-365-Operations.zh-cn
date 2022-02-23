@@ -2,23 +2,26 @@
 title: 更改工作的工作池
 description: 本主题说明如何使用工作项的“更改工作池”按钮来更改现有工作的工作池。
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566015"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423036"
 ---
 # <a name="change-work-pool-on-work"></a>更改工作的工作池
 
@@ -146,6 +149,3 @@ ms.locfileid: "7566015"
 > 当出现 **更改工作池** 对话框时，默认情况下，**工作池 ID** 字段可能为空白。 如果选择 **确定** 应用更改时此字段为空白，则将工作池从工作中完全删除。
 >
 > 除了切换工作池外，您还可以使用此过程将工作池添加到没有工作池的任何工作项中，或从有工作池的任何工作项中删除工作池。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

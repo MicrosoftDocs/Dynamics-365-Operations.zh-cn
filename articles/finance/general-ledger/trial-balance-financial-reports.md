@@ -1,26 +1,29 @@
 ---
 title: 试算平衡表财务报表
 description: 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。
-author: jinniew
-ms.date: 05/26/2021
+author: jcart1106
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12314
 ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb4977acde8b7a0b2cd6b44c518654fe4a6283b28dfd41216a0173c3aa8b61f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b48510febf5a5f9f4a01728b242d9750b3c62c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440603"
 ---
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
@@ -28,7 +31,8 @@ ms.locfileid: "6758043"
 
 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。 
 
-## <a name="default-trial-balance-reports"></a>默认试算平衡表
+<a name="default-trial-balance-reports"></a>默认试算平衡表
+-----------------------------
 
 三个试算平衡表可用于财务报表。
 
@@ -46,9 +50,6 @@ ms.locfileid: "6758043"
 | 试算平衡表(明细) - 默认               | 试算平衡表 - 默认 | 试算平衡表(明细) - 默认               |
 | 试算平衡表汇总 – 默认                | 试算平衡表 - 默认 | 试算平衡表汇总 - 默认                |
 | 各年汇总试算余额表 – 默认 | 试算平衡表 - 默认 | 各年汇总试算余额表 - 默认 |
-
-> [!NOTE] 
-> 在 Financial Reporting 中运行 **试算平衡表** 报表时，请务必在 **设置** 选项卡中选中 **显示没有金额的行** 和 **显示没有活动行的报表** 的复选框。
 
 ### <a name="row-definition"></a>行定义
 
@@ -96,7 +97,10 @@ ms.locfileid: "6758043"
     -   **FD** – 只包含上一年度的借方的财务数据
     -   **FD** – 只包含上一年度的贷方的财务数据
 
-## <a name="additional-resources"></a>其他资源
+
+
+<a name="additional-resources"></a>其他资源
+--------
 
 [财务报告概览](financial-reporting-getting-started.md)
 
@@ -106,6 +110,3 @@ ms.locfileid: "6758043"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

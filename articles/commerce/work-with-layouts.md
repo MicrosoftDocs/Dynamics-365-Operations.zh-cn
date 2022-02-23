@@ -2,30 +2,36 @@
 title: 使用预设布局
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用预设布局。
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410504"
 ---
 # <a name="work-with-preset-layouts"></a>使用预设布局
+
 
 [!include [banner](includes/banner.md)]
 
 此主题描述如何在 Microsoft Dynamics 365 Commerce 中使用预设布局。
+
+## <a name="overview"></a>概览
 
 完成此主题中的过程之前，务必阅读[预设布局和自定义布局](templates-layouts-overview.md#preset-and-custom-layouts)。 有关一般概述，请参阅[模板和布局概述](templates-layouts-overview.md)。
 
@@ -78,7 +84,7 @@ ms.locfileid: "8090837"
 若要设置或更改使用预设布局的所有子页面的主题，请执行以下步骤。
 
 1. 在布局编辑器中左侧大纲树内，选择页面容器模块。 （此模块通常是第二个节点，名称为 **默认页**。）
-1. 在右侧属性窗格的 **主题** 字段内，选择一个主题。
+1. 在右侧的属性窗格中 **主题** 字段内，选择一个主题。
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>保存，签入，预览和发布预设布局
 
@@ -91,30 +97,15 @@ ms.locfileid: "8090837"
 
 预览对预设布局的更改之后，执行以下步骤之一将布局发布到您的活动站点：
 
-1. 转到 **布局**，选择布局，然后选择 **发布**。
-1. 选择布局名称打开布局编辑器，然后选择 **发布**。
-1. 发布引用未发布布局的页面。 将自动发布布局。
+* 转到 **布局**，选择布局，然后选择 **发布**。
+* 选择布局名称打开布局编辑器，然后选择 **发布**。
+* 发布引用未发布布局的页面。 将自动发布布局。
 
 > [!WARNING]
 > 预设布局可以被多个页面引用。 发布预设布局时，请注意，您可能影响多个页面的布局。
-
-## <a name="rename-a-preset-layout"></a>重命名预设布局
-
-要在站点构建器中重命名预设布局，请按照以下步骤操作。
-
-1. 在左侧导航窗格中，选择 **布局**。
-1. 选择要重命名的布局的布局名称。
-1. 选择 **编辑** 开始编辑布局。
-1. 在布局属性窗格中，选择布局名称旁边的笔符号。
-1. 根据需要编辑布局名称。
-1. 选择复选标记确认名称更改。
-1. 选择 **完成编辑**。
 
 ## <a name="additional-resources"></a>其他资源
 
 [模板和布局概览](templates-layouts-overview.md)
 
 [使用模板](work-with-templates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: 创建默认客户
 description: 本主题描述如何创建在 Microsoft Dynamics 365 Commerce 中创建渠道时要使用的默认客户。
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720951"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410400"
 ---
 # <a name="create-a-default-customer"></a>创建默认客户
+
 
 [!include [banner](includes/banner.md)]
 
 本主题描述如何创建在 Microsoft Dynamics 365 Commerce 中创建渠道时要使用的默认客户。
+
+## <a name="overview"></a>概览
 
 创建渠道时，您将需要提供一个默认客户。 在首先创建客户组和客户地址簿后，可以轻松创建默认客户。
 
@@ -47,7 +53,7 @@ ms.locfileid: "6720951"
 
 下图显示了几个已配置的客户组。
 
-![客户组。](media/customer-groups.png)
+![客户组](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>新建客户通讯簿
 
@@ -63,7 +69,7 @@ ms.locfileid: "6720951"
 
 下图显示了一个通讯簿示例。
 
-![通讯簿。](media/address-book.png)
+![通讯簿](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>创建默认客户
 
@@ -86,11 +92,11 @@ ms.locfileid: "6720951"
 
 下图显示客户创建的示例。
 
-![默认客户创建。](media/default-customer-creation.png)
+![默认客户创建](media/default-customer-creation.png)
 
 下图显示了默认的客户配置。
 
-![客户配置示例。](media/default-customer-configuration1.png)
+![客户配置示例](media/default-customer-configuration1.png)
 
 客户详细信息屏幕上的大多数默认值都可以保留，但是应该更改两个值。
 
@@ -100,13 +106,10 @@ ms.locfileid: "6720951"
 
 下图显示客户配置示例。
 
-![客户配置示例。](media/default-customer-configuration2.png)
+![客户配置示例](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [渠道概览](channels-overview.md)
 
 [渠道设置先决条件](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

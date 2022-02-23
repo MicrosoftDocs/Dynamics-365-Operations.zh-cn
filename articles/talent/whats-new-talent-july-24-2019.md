@@ -78,6 +78,3 @@ Attract 用户现在可以在文档查看器中查看应聘者的 PDF 附件，�
 我们很高兴地宣布，加拿大和东南亚地区将于 2019 年 8 月 1 日推出 Talent。 通过此更改，您可以在加拿大和亚洲地区创建环境，并且所有 Talent 数据将仅在这些位置内维护。 您可以通过在“新建环境”对话框中选择位置来在这些新地区创建环境，并使用该环境在 LCS 中配置 Talent，如[配置 Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) 中所述。
 
 不支持将现有项目的数据从其他地区迁移到加拿大和亚洲地区。 仅新项目可以配置到这些新的支持地区。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

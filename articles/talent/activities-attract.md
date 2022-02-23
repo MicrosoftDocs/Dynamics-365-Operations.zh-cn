@@ -91,6 +91,3 @@ Microsoft 窗体活动让您可以在招聘流程中嵌入 Microsoft 窗体活�
 > 集成的聘约管理应用仅通过综合招聘加载项提供。 有关详细信息，请参阅[哪个 Microsoft Dynamics 365 Talent - Attract 版本](./attract-comprehensive-hiring.md)。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

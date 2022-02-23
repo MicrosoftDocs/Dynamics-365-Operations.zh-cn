@@ -1,34 +1,38 @@
 ---
-title: 会计分配和普通发票的日记帐条目
+title: 会计分配和普通发票的子分类日记帐条目
 description: 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da1d1b41c4da1fafcf20246022c4020b60152917f5df85f8e003e23aaef9433c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728929"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440602"
 ---
-# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>会计分配和普通发票的子分类帐条目
+# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>会计分配和普通发票的子分类日记帐条目
 
 [!include [banner](../includes/banner.md)]
 
 会计分配用于定义将如何对帐金额，例如将如何对帐普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对帐的每笔金额都将具有一个或多个会计分配。
 
-## <a name="accounting-distributions"></a>会计分配
+<a name="accounting-distributions"></a>会计分配
+------------------------
 
 您可以使用“普通发票”页中的以下按钮查看和更改普通发票的每笔金额的会计分配。
 
@@ -132,6 +136,3 @@ ms.locfileid: "6728929"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

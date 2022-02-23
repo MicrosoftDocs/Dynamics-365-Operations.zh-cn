@@ -2,9 +2,11 @@
 title: 配置呼叫中心交货方式和费用
 description: 本主题介绍如何在 Dynamics 365 Commerce 中为呼叫中心订单设置交货方式和费用。
 author: josaw1
+manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748563"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963102"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
@@ -65,11 +67,11 @@ Commerce 有一些功能可供用户限制渠道可使用的交货方式、可�
 
 公司通常会配置分层费用。 在这种情况下，客户为交货支付的金额基于订单值。 若要配置分层费用，除了在 **费用值** 字段中定义费用本身，还需要在 **起始金额** 和 **终止金额** 字段中输入值。 例如，对于值低于 50 美元的订单，零售商将收取 5.95 美元的陆运费用。 对于值等于或高于 50 美元，但低于 100 美元的订单，零售商将收取 7.95 美元。 最后，对于值等于或高于 100 美元的订单，零售商则免收运费。 下图显示这些费用的配置。
 
-![固定分层费用示例。](media/fixedtieredcharges.png)
+![固定分层费用示例](media/fixedtieredcharges.png)
 
 可对费用使用类别组合，具体取决于业务需求。 例如，对于值低于 100 美元的所有订单，运费固定为 9.95 美元。 然后，对于值等于或高于 100 美元的订单，运费为订单值的百分之五。 下图显示这些费用的配置。
 
-![组合分层费用示例。](media/mixedtieredcharges.png)
+![组合分层费用示例](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>呼叫中心订单录入期间应用交货方式
 
@@ -92,6 +94,3 @@ Commerce 有一些功能可供用户限制渠道可使用的交货方式、可�
 例如，对于次日空运的订单，必须在每天下午 1 点前完成拣货。 在这种情况下，可以创建加速代码，并且可以将该代码链接到系统中配置的任何次日交货方式。 仓库创建其拣货波次时，可将 **加速** 字段中的相应加速代码用作筛选器，以便仅对交货方式链接至该代码的订单运行拣货。
 
 此外，输入呼叫中心订单时，可以将加速代码手动应用于销售订单头或单独的销售订单行。 再有，可将该代码用于排序或报告目的。 有时因为客户服务问题，必须仔细处理某个订单。 在此情况下，可以为订单头或行应用特定加速代码，以便在实施过程中帮助识别订单和优先处理该订单。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

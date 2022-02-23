@@ -62,6 +62,3 @@ Microsoft Dynamics 365 Talent: Onboard 提供了各种模板，可以帮助您�
 - [Dynamics 365 Talent 新增功能或更改](./whats-new.md)
 - [发布计划](https://docs.microsoft.com/business-applications-release-notes/index)
 - [获取 Microsoft Dynamics 365 Talent 支持](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

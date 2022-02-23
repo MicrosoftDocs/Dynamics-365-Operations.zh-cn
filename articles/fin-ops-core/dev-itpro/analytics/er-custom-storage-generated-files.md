@@ -2,9 +2,11 @@
 title: 为生成文档指定自定义存储位置
 description: 本主题介绍如何扩展电子申报 (ER) 格式生成的单据的存储位置列表。
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594901"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680750"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 
@@ -27,7 +29,7 @@ ms.locfileid: "7594901"
 
 ## <a name="prerequisites"></a>先决条件
 
-部署支持连续生成的拓扑。 有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。 还必须可以访问以下角色之一的此拓扑：
+部署支持连续生成的拓扑。 有关详细信息，请参阅[部署支持连续生成和测试自动化的拓扑](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)。 还必须可以访问以下角色之一的此拓扑：
 
 - 电子申报开发人员
 - 电子申报功能顾问
@@ -41,7 +43,7 @@ ms.locfileid: "7594901"
 
 要生成您计划为其添加自定义存储位置的文档，请将 **固定资产前滚** ER 格式[导入](er-download-configurations-global-repo.md)到当前拓扑中。
 
-![配置存储库页面。](./media/er-custom-storage-generated-files-import-format.png)
+![配置存储库页面](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>运行固定资产前滚报表
 
@@ -52,7 +54,7 @@ ms.locfileid: "7594901"
 5. 在 **格式映射** 字段中，选择 **固定资产前滚**。
 6. 选择 **确定**。
 
-![固定资产前滚报表的“运行时”对话框。](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![固定资产前滚报表的“运行时”对话框](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 在 Microsoft Excel 中，查看生成并可供下载的传出文档。 这种行为是未为其配置[目标](electronic-reporting-destinations.md)的 ER 格式且以交互模式运行的 ER 格式的[默认行为](electronic-reporting-destinations.md#default-behavior)。
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. 修改现有 `AssetRollForwardService` 类，并编写代码以为报表运行器设置自定义目标工厂。 请注意，在构建自定义目标工厂时，将传递指定目标文件夹的应用程序驱动参数。 这样，该目标文件夹用于存储生成的文件。
 
     > [!NOTE] 
-    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) 异常。
+    > 确保指定的文件夹（此示例中为 **C:\\0**）位于运行 AOS 服务的服务器的本地文件系统中。 否则，将在运行时引发 [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) 异常。
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 - [可扩展性主页](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

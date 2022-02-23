@@ -1,35 +1,33 @@
 ---
 title: 设置作业组件
-description: 此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。
-author: twheeloc
-ms.date: 10/28/2021
+description: 本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: twheeloc
-ms.search.scope: Human Resources
+ms.author: anbichse
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources, Retail
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068151"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417447"
 ---
 # <a name="set-up-the-components-of-a-job"></a>设置作业组件
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
+本文介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
 
 必须先设置一些参考信息，才能创建工作。 创建的工作只能有一个名称。 但是，通过添加更多信息（如职称“，可以为向其分配工作的职位提供默认值。 此外，还可以将输入的一些信息用于筛选特定工作的薪酬计划。 如果要设置可用于筛选特定工作的薪酬计划的资格，应在设置工作之前设置工作职能和工作类型。 通过提供这些默认值，可以在为工作添加职位时节约时间。 
 
@@ -38,7 +36,7 @@ ms.locfileid: "8068151"
 ## <a name="job-titles"></a>职称
 创建工作前，您必须为这些工作设置职称。 职位从这些职位所关联的作业中继承工作职称。 
 
-可使用 **职称** 页面维护职称，可通过使用搜索功能打开该页面。 在 **职称** 页面上，输入计划用于工作的职称。
+可使用 **职称** 页面维护职称，可通过使用搜索功能打开该页面。 在 **职称** 页面中，输入计划用于工作的职称。
 
 ## <a name="job-types"></a>工作类型
 可使用工作类型将类似的工作分组为类别。 不需要工作类型。 但是，如果您在设置薪酬管理的资格规则时计划使用作业类型，则您应在设置作业前设置作业类型。 例如，工作类型可以是全职、兼职或工资和小时工资。. 可通过使用 **工作类型** 页面维护工作类型。 在 **工作类型** 页面中，输入工作类型的名称和简要描述。 在 **免除情况** 字段中，选择以下选项之一以指示拥有此工作类型工作的公平劳动标准法案 (FLSA) 免除情况。
@@ -46,11 +44,6 @@ ms.locfileid: "8068151"
 -   **免除** – 工作从 FLSA 规定下的加班时间中免除。
 -   **不免除** – 工作不从 FLSA 规定下的加班时间中免除。
 -   **不使用** – FLSA 覆盖范围不适用。
-
-## <a name="job-family"></a>工作系列
-工作系列是一组涉及相似工作并且需要相似培训、技能、知识和专业知识的工作。 工作系列可以在 **工作** 页面的 **工作分类** 快速选项卡上和 **所有职位** 页面的 **常规** 快速选项卡上链接到一个工作。 工作系列可能是广泛的，也可能是具体的，具体取决于您的业务和报告要求。 广泛工作系列的一些示例包括 **技能熟练的劳动力** 和 **技能不熟练的劳动力**。 具体工作系列的一些示例包括 **会计**、**制造** 和 **销售**。
-
-使用 **工作系列** 页面维护工作系列，可通过使用搜索功能打开该页面。 在 **工作系列** 页面上，输入系列的唯一名称，然后输入计划用于您的工作的详细说明。
 
 ## <a name="job-functions"></a>工作职能
 工作职能介绍高级别智能类别，并关联高级别职责。 不需要工作职能。 可以将工作职能与工作类型一起使用，以筛选用于特定工作的薪酬计划。 可以通过在 **资格规则** 页面中设置资格规则，将工作职能和工作类型与薪酬计划相关联。 然后可以将一组级别附加到应用于工作类型与工作职的特定组合的薪酬计划，该组合是您通过资格规则定义的。 （这些功能适用于固定薪酬计划和可变薪酬计划。）但是，如果您在设置薪酬管理的资格规则时计划使用工作职能，那么应该在设置作业前就设置好工作职能。 下表显示工作职能的一些示例。
@@ -62,15 +55,7 @@ ms.locfileid: "8068151"
 
 可通过使用 **工作职能** 页面维护工作职能。 在 **工作职能** 页面中，输入工作职能的标识代码和简要描述。
 
-## <a name="compensation"></a>薪酬
-若要将固定薪酬计划分配给在工作中具有职位的员工，必须在工作上设置薪酬级别。 当在薪酬结构（薪酬网格）中设置最小、中点和最大金额时，使用 **薪酬级别**。 创建固定薪酬计划时，将选择薪酬结构。 薪酬结构还包括薪酬级别。 当您为员工选择固定薪酬计划时，可供选择的薪酬级别取决于与员工职位关联的工作。 有关如何设置薪酬的详细信息，请参阅[薪酬计划](hr-compensation-overview.md)。
-
-## <a name="job-skills"></a>工作技能
-工作技能描述执行工作所需的技能。 技能级别必须与每个工作技能相关联。 技能级别是用户定义的。 它们指示技能所需的知识水平或熟练程度。 例如，公司可能会设置数字级别，例如 1 到 5，其中 **1** 表示初学者，**5** 表示专家。 或者，公司可能设置标记为 **初学者**、**中级** 或 **专家** 的级别。 设置技能级别后，还可以设置技能的重要性。 例如，如果会计师需要具备丰富的 Microsoft Excel 知识，可以创建名为 **Excel 知识** 的技能。 然后，可以将技能级别设置为 **中级**，将重要性设置为 **最重要**。
-
-工作中的技能可用于技能映射。 技能映射可以比较工作所需的技能集和与工作人员关联的技能。 然后，它可以根据重叠技能确定百分比匹配。 若要了解有关技能映射的详细信息，请参阅[配置技能](hr-develop-skills.md)。 
-
-## <a name="job-tasks"></a>工作任务
+## <a name="job-tasks"></a>作业任务
 工作任务描述担任某项工作的职位的工作人员必须完成的基本任务。 同一工作任务可以添加到多个工作，以及使用这些工作任务的工作的职位。 下表显示工作任务的一些示例。
 
 <table>
@@ -101,7 +86,4 @@ ms.locfileid: "8068151"
 可使用职责范围指示担任工作的职位的工作人员负责的工作角色、流程和产品。 例如，对于名为“会计师”的工作，一个职责范围可能是“产品 A 的财务申报”。 可通过使用 **职责范围** 页面维护职责范围，您可以通过使用搜索功能找到此页面。 在 **职责范围** 页面中，输入职责范围的名称和描述。 在 **注释** 字段中，可以选择输入更多信息。 无需更改此处输入的注释，即可针对特定工作更新注释。
 
 ## <a name="steps-for-creating-a-job"></a>作业创建步骤
-请参阅[定义新作业](./hr-personnel-define-jobs.md)一文了解创建新作业的分步过程。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+请参阅[定义新作业](../fin-and-ops/hr/tasks/define-new-jobs.md)一文了解创建新作业的分步过程。 

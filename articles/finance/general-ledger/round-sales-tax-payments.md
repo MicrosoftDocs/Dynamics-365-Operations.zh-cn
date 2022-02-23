@@ -1,34 +1,37 @@
 ---
-title: 销售税支付和舍入规则
-description: 本主题说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
-author: kailiang
-ms.date: 10/29/2021
+title: 销售税付款和化整规则
+description: 文本说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
+author: ShylaThompson
+manager: AnnBe
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: kailiang
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4440923"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a>销售税支付和舍入规则
+# <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和化整规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
+文本说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
 
-销售税需要定期申报和缴纳给税务主管机构。 此操作可以通过在 **销售税** 页面运行结算和过帐销售税流程来完成。 期间销售税将对照销售税帐户结算，销售税余额将过帐到销售税结算帐户。 销售税余额将过帐到销售税结算帐户，可以通过在 **销售税** 页设置化整规则来按照税务主管机构的要求化整。 
+销售税需要定期申报和缴纳给税务主管机构。 这可以通过在“销售税”页运行结算和过帐销售税流程完成。 期间销售税将对照销售税帐户结算，销售税余额将过帐到销售税结算帐户。 销售税余额，在销售增值税结算帐户过帐，可以通过在“销售税”页设置化整规则来按照税务主管机构的要求化整。 
 
 化整差额过帐到销售税化整帐户，在“总帐”的“自动交易记录帐户”字段中选择。
 
@@ -63,11 +66,11 @@ ms.locfileid: "7726792"
 
 ### <a name="normal-round-and-round-precision-is-001"></a>正常化整，化整精度为 0.01
 
-```<table>
+<table>
   <tr>
-    <td>Rounding
+    <td>舍入
     </td>
-    <td>Calculation process
+    <td>计算流程
     </td>
   </tr>
     <tr>
@@ -116,7 +119,6 @@ ms.locfileid: "7726792"
     </td>
   </tr>
 </table>
-```
 
 > [!NOTE]                                                                                  
 > 如果您选择“对自身有利”，则化整始终对法人有利。 
@@ -126,9 +128,6 @@ ms.locfileid: "7726792"
 - [创建销售税支付](tasks/create-sales-tax-payment.md)
 - [在单据中创建销售税交易记录](tasks/create-sales-tax-transactions-documents.md)
 - [查看已过帐的销售税交易记录](tasks/view-posted-sales-tax-transactions.md)
-- [化整功能](/previous-versions/dynamics/ax-2012/reference/aa850656(v=ax.60))
+- [化整功能](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

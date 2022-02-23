@@ -1,24 +1,27 @@
 ---
 title: 银行管理工作区
-description: 此主题提供了有关银行管理工作区的信息。 此工作区显示与公司银行帐户相关的信息。
-author: roschlom
+description: 此主题提供了有关银行管理工作区的信息。 此工作区显示与公司银行帐户关联的信息，并包括一个汇总视图和一个分析页。 汇总视图显示汇总磁贴、银行帐户信息、余额图表和关联信息。 分析页使用 Microsoft Power BI 的功能显示与银行帐户余额相关的视觉对象。
+author: saraschi2
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883329"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4440938"
 ---
 # <a name="bank-management-workspace"></a>银行管理工作区
 
@@ -61,6 +64,3 @@ ms.locfileid: "7883329"
 -   原币余额
 
 您可以从 **现金概览–所有公司** 工作区查看跨所有公司的银行分析。 有关详细信息，请参阅[现金概览 Power BI 内容](Cash-Overview-Power-BI-content.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

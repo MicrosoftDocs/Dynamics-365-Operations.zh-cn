@@ -1,31 +1,36 @@
 ---
 title: 容器模块
-description: 本主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 此主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410422"
 ---
 # <a name="container-module"></a>容器模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+此主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 容器是在其内部承载其他模块的模块。 容器模块的主要用途是通过为其设置的属性定义它所包含的模块的布局。 例如，这些模块可以按两列、三列、四列或六列布局并排显示。 其还可限制为容器宽度，也可以充满屏幕。 还可以向每个容器模块添加标题。
 
@@ -42,7 +47,7 @@ ms.locfileid: "6715432"
 
 下图显示了 Commerce 站点构建器中包含传送模块的容器模块的示例。 在此示例中，容器模块的 **宽度** 属性设置为 **填充屏幕**。
 
-![容器模块的示例。](./media/ecommerce-container.PNG)
+![容器模块的示例](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>容器模块属性
 
@@ -137,6 +142,3 @@ ms.locfileid: "6715432"
 [标题模块](author-header-module.md)
 
 [页脚模块](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

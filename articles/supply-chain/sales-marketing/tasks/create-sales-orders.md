@@ -1,24 +1,27 @@
 ---
 title: 创建销售订单
 description: 此过程说明如何创建销售订单。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566281"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422802"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 
@@ -36,7 +39,7 @@ ms.locfileid: "7566281"
 
 ## <a name="enter-sales-order-line-details"></a>输入销售订单行详细信息
     
-您的公司销售的产品可能款式不同，可以不同维度区分，例如配置、颜色、大小和样式。 此外，产品可以设置为使用存储维度，如站点、仓库、托盘和跟踪维度，例如批号和序列号。 在分配这些维度时，您必须在订单行选择维度的数值。 为了提高订单输入效率，您可能要添加各自的维度字段到订单网格中。
+您的公司销售的产品可能款式不同，可以不同维度区分，例如配置、颜色、大小和样式。 此外，产品可以设置为使用存储维度，如站点、仓库、托盘和货架维度，例如批号和序列号。 在分配这些维度时，您必须在订单行选择维度的数值。 为了提高订单输入效率，您可能要添加各自的维度字段到订单网格中。
     
 1. 在 **销售订单行** 部分下，选择 **销售订单行**。
 2. 选择 **维度**。
@@ -65,6 +68,3 @@ ms.locfileid: "7566281"
     **合计** 页面显示整个订单的详细信息。 这包括小计金额（最后单行折扣调整后所有行净额的总和）、总发票金额（最后订单折扣调整后的小计金额）、费用、销售税、客户信用额度情况和其他信息。 发票金额是显示在客户的发票单据上的金额。  
     
 3. 选择 **确定**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

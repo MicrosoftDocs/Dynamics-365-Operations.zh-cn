@@ -2,25 +2,28 @@
 title: 纳税的双币种支持
 description: 此主题介绍如何扩展税域的双币种记帐功能和对税额计算与过帐的影响
 author: EricWang
-ms.date: 12/11/2020
+manager: Ann Beebe
+ms.date: 12/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742196"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440711"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
@@ -41,10 +44,10 @@ ms.locfileid: "6742196"
 
 由于支持双币种，所以功能管理中增加了两项新功能： 
 
-- 销售税转换（版本 10.0.13 中的新增功能）
-- 在已实现的币种调整损益科目中输入财务维度以进行销售税结算（版本 10.0.17 中的新功能）
+- 销售税转换（版本 10.0.9 中发布）
+- 税务结算自动平衡采用申报币种（版本 10.0.11 中发布）
 
-销售税的双币种支持确保使用税金币种准确计算税额，以及同时使用记帐币种和申报币种准确计算销售税结算余额。
+销售税的双币种支持确保使用税金币种准确计算税额，以及同时使用记帐币种和申报币种准确计算销售税结算余额。 
 
 ## <a name="sales-tax-conversion"></a>销售税换算
 
@@ -89,10 +92,6 @@ ms.locfileid: "6742196"
 
 为了避免前面的这种情况，我们建议在不包含任何未结算税务交易记录的新（干净）税务结算期间更改此参数值。 若要在税务结算期间中途更改此值，请在更改此参数值之前，对当前税务结算期间运行“结算并过帐销售税”程序。
 
-此功能将添加会计条目来阐明货币兑换的收益和损失。 在销售税结算期间进行重估时，将在已实现的货币调整损益科目中创建条目。 有关详细信息，请参阅本主题后面的[税务结算自动平衡采用申报币种](#tax-settlement-auto-balance-in-reporting-currency)一节。
-
-> [!NOTE]
-> 在结算期间，财务维度的信息从销售税科目（即资产负债表科目）获取，输入到币种调整损益科目（即损益表科目）中。 由于资产负债表科目和损益表科目之间对财务维度值的限制不同，因此在“结算和过帐销售税”流程中可能会发生错误。 为避免不得不修改科目结构，您可以启用“将财务维度填充到已实现币种调整损益科目中以进行销售税结算”功能。 此功能会强制将财务维度派生到币种调整损益科目。 
 
 ## <a name="track-reporting-currency-tax-amount"></a>跟踪申报币种税额
 
@@ -119,10 +118,10 @@ ms.locfileid: "6742196"
 | 记帐币种             | 100                        | 111                       | 83                       | **83.25**          |
 | 申报币种              | 100                        | 111                       | 83                       | **83**             |
 
-月末运行销售税结算程序时，会计条目将如下所示。
+月末运行销售税结算程序时，会计条目将如下所示：
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>方案：销售税转换 =“记帐币种”
 
-| 主帐户           | 交易币种（英镑） | 记帐币种（美元） | 申报币种（英镑） |
+| 主科目           | 交易币种（英镑） | 记帐币种（美元） | 申报币种（英镑） |
 | ---------------------- | -------------------------- | ------------------------- | ------------------------ |
 | 应付/应收税金 | -83.25                     | -111                      | -83.25                   |
 | 税务结算         | 83.25                      | 111                       | 83.25                    |
@@ -146,6 +145,3 @@ ms.locfileid: "6742196"
 - [双货币](dual-currency.md)
 - [销售税概览](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

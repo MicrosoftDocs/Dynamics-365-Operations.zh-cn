@@ -1,27 +1,28 @@
 ---
 title: 基于约束的产品配置的基于属性的销售价
 description: 本主题描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。
-author: t-benebo
+author: sorenva
+manager: tfehr
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: sorenand
 ms.search.validFrom: 2020-08-17
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577448"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422663"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>基于约束的产品配置的基于属性的销售价
-
-[!include [banner](../includes/banner.md)]
 
 本主题描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。 您可以为每个产品配置模型构建多个销售价模型。
 
@@ -35,7 +36,7 @@ ms.locfileid: "7577448"
 1. 打开 **基于约束的产品配置模型** 选项卡。
 1. 打开 **默认货币** 下拉列表，然后选择您的货币。
 
-    ![为基于约束的产品配置设置默认货币。](media/prod-config-currency.png "为基于约束的产品配置设置默认货币")
+    ![为基于约束的产品配置设置默认货币](media/prod-config-currency.png "为基于约束的产品配置设置默认货币")
 
 1. 如果您想附加一个包含所有订单或报价行的价格明细的 Excel 文件，请在 **价格模型** 部分中，将 **附加** 设置为 *是*。
 
@@ -62,7 +63,7 @@ ms.locfileid: "7577448"
 - 对于红木机箱饰面，增加 119.95 欧元。
 - 对于每单元扬声器高度，增加 12.95 欧元。
 
-![价格模型示例。](media/prod-config-rules-example.png "价格模型示例")
+![价格模型示例](media/prod-config-rules-example.png "价格模型示例")
 
 ## <a name="add-support-for-multiple-currencies"></a>添加对多种货币的支持
 
@@ -83,7 +84,7 @@ ms.locfileid: "7577448"
 
 在下面的示例中，_欧元_ 是默认货币，_美元_ 已添加为其他货币。
 
-![具有多种货币的模型示例。](media/prod-config-rules-currency-example.png "具有多种货币的模型示例")
+![具有多种货币的模型示例](media/prod-config-rules-currency-example.png "具有多种货币的模型示例")
 
 > [!NOTE]
 > 您不能添加唯一用于非默认货币的表达式规则。 若要创建仅与默认货币以外的其他货币相关的表达式规则，请将默认货币的价格表达式设置为零。 然后，为非默认货币设置适当的表达式。
@@ -95,11 +96,11 @@ ms.locfileid: "7577448"
 - 使用此处提供的配置设置选择产品选项，然后查看它们如何影响 **价格和装运日期** 中显示的值。
 - 选择 **查看价格明细** 以下载一个 Excel 文档，该文档显示了有关如何计算价格的完整详细信息。
 
-![测试您的产品模型。](media/prod-config-test.png "测试您的产品模型")
+![测试您的产品模型](media/prod-config-test.png "测试您的产品模型")
 
 下载的电子表格将每个有效价格元素的绝对值和贡献都显示为百分比。 如果在 **产品信息管理参数** 页面上设置 **附加** 价格模型选项，此 Excel 工作表将附加到订单或报价行。
 
-![显示价格明细的 Excel 电子表格。](media/prod-config-excel-example.png "显示价格明细的 Excel 电子表格")
+![显示价格明细的 Excel 电子表格](media/prod-config-excel-example.png "显示价格明细的 Excel 电子表格")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>设置价格模型的选择标准
 
@@ -118,7 +119,7 @@ ms.locfileid: "7577448"
     - **生效日期** - 指定将应用查询的第一天。
     - **到期日期** - 指定将应用查询的最后日期。
 
-    ![价格模型条件。](media/prod-config-price-model-criteria.png "价格模型条件")
+    ![价格模型条件](media/prod-config-price-model-criteria.png "价格模型条件")
 
 1. 选择要定义的查询的行，然后在 **操作窗格** 上选择 **编辑**。 查询设计器对话框将打开。 它的工作方式与 Supply Chain Management 中的大多数查询设计器一样。 使用它来定义应用所选行的价格模型的条件。
 
@@ -139,7 +140,4 @@ ms.locfileid: "7577448"
 1. 选择目标产品配置模型。
 1. 在“操作”窗格上，打开 **模型** 选项卡，然后从 **产品模型详细信息** 组中，选择 **版本**。
 1. **版本** 页面将打开。 确保将 **定价方法** 设置为 **基于属性**。
-    ![将定价方法设置为基于属性。](media/prod-config-versions.png "将定价方法设置为基于属性")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    ![将定价方法设置为基于属性](media/prod-config-versions.png "将定价方法设置为基于属性")

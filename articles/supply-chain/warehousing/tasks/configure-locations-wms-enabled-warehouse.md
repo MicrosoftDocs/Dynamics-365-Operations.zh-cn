@@ -2,24 +2,27 @@
 title: 配置启用了 WMS 的仓库中的位置
 description: 本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用高级仓库管理流程的仓库）。
 author: perlynne
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599340"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422865"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
 
@@ -33,7 +36,7 @@ ms.locfileid: "7599340"
 2. 单击 **新建**。
 3. 在 **仓库** 字段中，键入一个值。
 4. 在 **名称** 字段中，键入一个值。
-5. 在 **站点** 字段中，选择或键入现有站点值。
+5. 在 **站点** 字段中，输入一个值。
 6. 展开 **仓库** 部分。
 7. 将 **使用仓库管理流程选项** 设置为“是”。 此设置可使您使用仓库工作和移动设备运行高级仓储流程。
 8. 关闭该页面。
@@ -172,6 +175,3 @@ ms.locfileid: "7599340"
 6. 在列表中，单击所选行中的链接。
 7. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

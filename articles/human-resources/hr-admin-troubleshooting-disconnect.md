@@ -1,32 +1,30 @@
 ---
 title: 客户端断开连接
-description: 本主题说明如果客户与环境断开时该如何做。
-author: twheeloc
-ms.date: 08/19/2021
+description: 本文说明如果客户与其环境断开并且不知道原因该如何做。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071127"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4417543"
 ---
 # <a name="client-disconnects"></a>客户端断开连接
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **环境详细信息** 
 
@@ -34,7 +32,7 @@ ms.locfileid: "8071127"
  
 **故障** 
 
-客户与环境断开并且不知道原因。 客户收到以下错误消息之一：
+客户与其环境断开并且不知道原因。 客户收到以下错误消息之一：
 
 - 我们已丢失您的连接。 请单击“关闭”以继续操作。
 - 您的网络连接似乎已中断，请单击“重试”以再次尝试。
@@ -54,6 +52,3 @@ ms.locfileid: "8071127"
 请确保一个指定浏览器类型一次只有一个环境打开。 用户可以打开同一个环境的多个会话（即，同一浏览器中的多个选项卡）。
 
 要同时在两个环境之间跳转的用户应该在不同的浏览器类型中打开每个环境。 （例如，用户 A 可以在 Chrome 中查看环境 1，在 Microsoft Edge 中查看环境 2。）
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

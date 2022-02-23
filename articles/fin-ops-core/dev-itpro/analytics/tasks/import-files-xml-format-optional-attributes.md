@@ -2,9 +2,11 @@
 title: (RCS) 导入包含可选属性的 XML 格式文件
 description: 本主题介绍用户如何设计 ER 格式配置以导入 XML 格式且包含可选属性的文件。
 author: NickSelin
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9447c827a02acb616bbfdcb2c7305e8bdd013c9811e28bb25256db056d85d6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720704"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684130"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) 导入包含可选属性的 XML 格式文件
 
@@ -121,6 +123,3 @@ ms.locfileid: "6720704"
 
 > [!NOTE]
 > 已导入同一个文件，因为格式设计现在将“document”元素的“id”属性视为可选。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

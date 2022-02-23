@@ -2,23 +2,26 @@
 title: 配置分类帐
 description: 本主题提供有关如何为每个法人配置分类帐的信息。 包括有关如何选择货币、会计日历、会计科目表以及每个法人应使用的科目结构的信息。
 author: kweekley
+manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
+ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712211"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4440971"
 ---
 # <a name="configure-ledgers"></a>配置分类帐
 
@@ -79,6 +82,3 @@ ms.locfileid: "6712211"
 已实现的损益是已完成交易产生的损益。 它们记录在损益表中。 未实现的损益是已实现但未完成交易的损益。 换句话说，例如，您已过帐发票，但尚未结清并付款。 未实现的损益记录在资产负债表上。
 
 有关如何使用双币种的详细信息，请参阅[双币种](dual-currency.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

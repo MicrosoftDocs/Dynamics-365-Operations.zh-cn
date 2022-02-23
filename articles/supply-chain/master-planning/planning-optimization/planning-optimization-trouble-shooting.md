@@ -2,13 +2,16 @@
 title: 计划优化故障排除
 description: 本主题介绍如何解决在使用计划优化时可能遇到的问题。
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768087"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422778"
 ---
 # <a name="troubleshoot-planning-optimization"></a>计划优化故障排除 
 
@@ -47,6 +50,12 @@ ms.locfileid: "6768087"
 
 **解决方法**：运行计划优化适应分析，然后在引用相关文档了解影响时分析结果。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
 
+## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>主计划不遵守覆盖时限
+
+这是计划优化的待定功能导致的。
+
+**解决方法**：待定功能可用之前，筛选或删除计划的订单以将供应建议移出覆盖时限。
+
 ## <a name="cant-enable-planning-optimization"></a>不能启用计划优化
 
 **连接状态** 必须先为 **已连接**，然后才能将 **使用计划优化** 设置为 **是**。 有关详细信息，请参阅[开始使用计划优化](get-started.md)。
@@ -66,6 +75,3 @@ ms.locfileid: "6768087"
 [开始使用计划优化](get-started.md)
 
 [计划优化适应分析](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

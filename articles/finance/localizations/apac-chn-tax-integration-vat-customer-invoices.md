@@ -2,24 +2,27 @@
 title: 增值税客户发票的中国税务集成修改常见问题
 description: 您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。 接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。
 author: mrolecki
+manager: AnnBe
 ms.date: 05/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264894
 ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9686450d98ceb453053a2a67e58b9518553349bcada7614607338540e2f5d7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb34482194fc04ee549278f08378669876dcdf8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764227"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409761"
 ---
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
@@ -38,7 +41,7 @@ ms.locfileid: "6764227"
 
 ## <a name="can-i-create-an-invoice-that-has-different-sales-tax-codes-and-sales-tax-rates-in-lines"></a>我可以在行中创建具有不同销售税代码和销售税率的发票吗？
 
-是。 如果您开启 **允许在增值税客户发票行中使用多个税码进行中国金税集成** 功能（请参阅 [功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)），并且存在一个税务集成配置文件，其 **税务集成配置文件** 页上的 **销售税代码** 字段为空（**应收帐款 \> 设置 \> 税务集成**），您可以创建和过帐具有不同销售税代码和销售税率的发票。 您还可以将发票导出到文件中。   
+是。 如果您开启 **允许在增值税客户发票行中使用多个税码进行中国金税集成** 功能（请参阅 [功能管理概述](../../fin-and-ops/get-started/feature-management/feature-management-overview.md)），并且存在一个税务集成配置文件，其 **税务集成配置文件** 页上的 **销售税代码** 字段为空（**应收帐款 \> 设置 \> 税务集成**），您可以创建和过帐具有不同销售税代码和销售税率的发票。 您还可以将发票导出到文件中。   
 
 ## <a name="when-should-i-split-a-vat-customer-invoice"></a>我该何时拆分增值税客户发票？
 如果在 **增值税发票集成** 页中选中了 **超过最大发票金额** 复选框，则您应该拆分增值税客户发票。 **超过最大发票金额** 选项是为了发票总金额超过您在 **最大发票金额** 字段（位于 **税务集成模板** 页中）中指定的金额限制的发票选择的。
@@ -79,7 +82,8 @@ ms.locfileid: "6764227"
 
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [配置中国的税务集成](apac-chn-tax-integration.md)
 
@@ -87,6 +91,3 @@ ms.locfileid: "6764227"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

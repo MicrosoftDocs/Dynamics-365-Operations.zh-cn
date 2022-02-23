@@ -1,29 +1,30 @@
 ---
 title: 到达概览
 description: 本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "274363"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567431"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423072"
 ---
 # <a name="arrival-overview"></a>到达概览
 
@@ -36,7 +37,7 @@ ms.locfileid: "7567431"
 ## <a name="business-scenario"></a>业务方案
 在入站流程中考虑以下方案。
 
-[![业务方案。](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![业务方案](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy，一名验收员，希望了解预期当天将收到的物料。 在 **到达概览** 页，Sammy 可以获得当前任务的概览和数量、体积、重量、不同订单类型的粗略估计，等等。 然后，交货到达进货台中的一个，Sammy 接收交货列表。 在 **到达概览** 页，Sammy 可以执行以下任务：
 
@@ -68,7 +69,7 @@ Sammy，一名验收员，希望了解预期当天将收到的物料。 在 **�
 
 -   必须指定创建日记帐的日记帐名称。
 
-[![指定日记帐名称。](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![指定日记帐名称](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   如果您在 **仓库** 和 **库位** 字段中指定值，那些值在日记帐行上应用。 如果未指定值，系统将使用来自在库存交易记录中所指定维度的值。
 
@@ -120,6 +121,3 @@ Sammy 可以查看以下信息：
 
 ## <a name="summary"></a>汇总
 **到达概览** 页可以帮助仓库经理和仓库工作人员获得必须在入站流程期间完成的预期工作的概览。 此页还可能用于开始物料到达流程，帮助保证物料首次进入仓库即受到跟踪。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

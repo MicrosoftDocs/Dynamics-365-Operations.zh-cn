@@ -1,23 +1,26 @@
 ---
 title: 对已发布的基础产品分配产品生命周期状态
 description: 此过程显示如何将产品生命周期状态分配给已发布的基础产品及其变型。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566999"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422851"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>对已发布的基础产品分配产品生命周期状态
 
@@ -51,6 +54,3 @@ ms.locfileid: "7566999"
 2. 在列表中，标记所选的行。
 3. 在“产品生命周期状态”字段中，输入或选择一个值。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

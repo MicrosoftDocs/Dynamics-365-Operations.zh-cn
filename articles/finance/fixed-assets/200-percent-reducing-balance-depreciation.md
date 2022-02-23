@@ -1,32 +1,35 @@
 ---
 title: 200% 余额递减法
-description: 本主题提供了 200% 余额递减法折旧方法的概览。
-author: moaamer
+description: 本文提供了 200% 余额递减法折旧方法的概览。
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883485"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440800"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200% 余额递减法
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了 200% 余额递减法折旧方法的概览。
+本文提供了 200% 余额递减法折旧方法的概览。
 
 如果您设置固定资产折旧模板并在 **折旧模板** 页面上的 **方法** 字段中选择 **200% 余额递减法**，已分配此折旧模板的固定资产将在每个折旧期间按相同的百分比进行折旧。 此百分比按资产的使用年限进行计算。 例如，如果资产的使用年限为 5 年，则该百分比按 40% (200% ÷ 5) 计算。 
 
@@ -66,7 +69,7 @@ ms.locfileid: "7883485"
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>200% 余额递减法折旧示例
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |
 | Salvage value / 残值                  | 1, 000 |
@@ -78,15 +81,12 @@ ms.locfileid: "7883485"
 
 | 期间 | 年折旧金额的计算 | 帐面值             | 年末帐面净值 |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| 第 1 年 | (11,000 – 1,000) × 40% = 4,000                | 11,000 – 4,000 = 7,000 | 11,000 – 1,000 – 4,000 = 6,000        |
-| 第 2 年 | 6,000 × 40% = 2,400                           | 7,000 – 2,400 = 4,600  | 6,000 – 2,400 = 3,600                 |
-| 第 3 年 | 3,600 × 40% = 1,440                           | 4,600 – 1,440 = 3,160  | 3,600 – 1,440 = 2,160                 |
+| 第 1 年 | (11,000 – 1,000) × 40% = 4,000                | 11,000 – 4,000 = 7,000 | 11,000 – 1,000 – 4,000 = 6,000        |
+| 第 2 年 | 6,000 × 40% = 2,400                           | 7,000 – 2,400 = 4,600  | 6,000 – 2,400 = 3,600                 |
+| 第 3 年 | 3,600 × 40% = 1,440                           | 4,600 – 1,440 = 3,160  | 3,600 – 1,440 = 2,160                 |
 
 > [!NOTE] 
 > 通常，当使用 200% 余额递减折旧法计算的金额小于使用直线法计算的金额时，对剩余年限转换到直线法。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

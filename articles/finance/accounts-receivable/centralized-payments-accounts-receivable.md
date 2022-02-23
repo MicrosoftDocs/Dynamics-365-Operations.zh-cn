@@ -2,25 +2,28 @@
 title: 应收帐款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一交易记录。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5dfa3965cc22c0c3bcf31ae076afb586e12d158ef66464ce933b509aaf9a521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724151"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440725"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>应收帐款的集中付款
 
@@ -293,6 +296,3 @@ Fabrikam 从客户 4000 (Northwind Traders) 接收 75.00 的付款。 该付款�
 | 应收帐款 (Fabrikam West)    |              | 75.00         |
 | 从 Fabrikam East (Fabrikam West) 的应收金额 | 25.00        |               |
 | 应收帐款 (Fabrikam West)    |              | 25.00         |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

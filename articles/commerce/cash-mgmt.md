@@ -2,12 +2,15 @@
 title: 现金管理改进
 description: 本主题介绍适用于 Dynamics 365 Commerce 的 POS 中的现金管理改进。
 author: anpurush
+manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410451"
 ---
 # <a name="cash-management-improvements"></a>现金管理改进
 
@@ -59,6 +62,3 @@ Microsoft Dynamics 365 Commerce 的销售点 (POS) 应用程序中包含现金�
 - 对帐期间，如果所选交易记录不平衡，用户必须输入不平衡对帐的原因说明。 用户可以选择一个交易记录并为其对帐，同时添加所需的相关原因说明。
 - 用户继续为交易记录继续对帐和取消对帐，直到班次结束。 班次结束后，不能对交易记录进行取消对帐。
 - 当用户选择结束班次时，Commerce 将验证班次中是否没有未对帐的现金管理交易记录。 如果有未对帐的交易记录，用户就不能结束班次。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

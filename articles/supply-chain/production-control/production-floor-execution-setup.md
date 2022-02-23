@@ -2,35 +2,37 @@
 title: 设置设备以运行生产车间执行界面
 description: 为生产车间中的每个设备设置生产车间执行界面。 公司通常以不同方式设置每个设备，具体取决于设备的用途。 例如，一家公司可能在接待区有一个设备，以供工作人员上班打卡和下班打卡，而在车间有另一个设备，以供工作人员管理作业。
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752824"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966263"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>设置设备以运行生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 为生产车间中的每个设备设置生产车间执行界面。 公司通常以不同方式设置每个设备，具体取决于设备的用途。 例如，一家公司可能在接待区有一个设备，以供工作人员上班打卡和下班打卡，而在车间有另一个设备，以供工作人员管理作业。
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>为特定设备设置配置和筛选器
 
-若要为设备设置配置和作业筛选器，请使用具有包括 *维护时间监管* 责任的安全角色的帐户登录到 **生产车间执行** 页面。 （在开箱即用的安全角色中，仅 *车间主管* 具有此责任。）然后，按照以下步骤操作。
+若要为设备设置配置和作业筛选器，请使用具有包括 *维护时间主管* 责任的安全角色的帐户登录到 **生产车间执行** 页面。 （在开箱即用的安全角色中，仅 *车间主管* 具有此责任。）然后，按照以下步骤操作。
 
-1. 转到要设置的设备，然后以车间主管的身份登录到 Microsoft Dynamics 365 Supply Chain Management。 （使用包括 *维护时间监管* 责任的帐户。）
+1. 转到要设置的设备，然后以车间主管的身份登录到 Microsoft Dynamics 365 Supply Chain Management。 （使用包括 *维护时间主管* 责任的帐户。）
 1. 确保为您要设置的设备提供配置。 如果尚无配置，则提供默认配置。 有关如何设置配置的详细信息，请参阅[配置生产车间执行界面](production-floor-execution-configure.md)。
 1. 转到 **生产控制 \> 制造执行 \> 生产车间执行**。
 
@@ -70,13 +72,10 @@ ms.locfileid: "7752824"
 
 下图的上部显示了默认情况下界面的外观。 下部显示了隐藏导航窗格时全屏模式下界面的外观。
 
-![标准与全屏界面。](media/pfei-full-screen.png "标准与全屏界面")
+![标准与全屏界面](media/pfei-full-screen.png "标准与全屏界面")
 
 ## <a name="extend-the-session-past-12-hours"></a>将会话延长超过 12 小时
 
 默认情况下，如果 12 个小时内没有人使用，生产车间执行界面会自动注销。 然后，Supply Chain Management 用户必须再次登录。 但是，您可以将超时限制最多延长 90 天。
 
 若要延长超时限制，请登录 Supply Chain Management，然后转到 **系统管理 \> 用户 \> 会话扩展**。 指定用于登录设备的 Supply Chain Management 用户帐户，以及会话应保持活动状态的小时数。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

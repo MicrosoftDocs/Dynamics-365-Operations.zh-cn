@@ -1,34 +1,37 @@
 ---
 title: 创建时间范围
-description: 本主题提供了展示如何创建时间范围的过程。
-author: kamaybac
+description: 您可以使用时间范围优化服务订单行的计划。
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 37a16eed6c5a73eb8166ac5ea2469860424aaafd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571418"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423118"
 ---
-# <a name="create-time-windows"></a>创建时间范围
+# <a name="create-time-windows"></a>创建时间范围   
 
 [!include [banner](../includes/banner.md)]
 
 您可以使用时间范围优化服务订单行的计划。
 
-1. 转到 **服务管理** \> **设置** \> **服务协议** \> **时间范围**。
+1. 单击 **服务管理** \> **设置** \> **服务协议** \> **时间范围**。
 2. 按 **Alt+N** 创建新时间范围。
 3. 在 **时间范围** 字段中，输入时间范围的名称。
 4. 在 **描述** 字段中，输入时间范围的描述。
@@ -37,6 +40,3 @@ ms.locfileid: "7571418"
 ## <a name="related-topics"></a>相关主题
 
 [时间范围](time-windows.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,6 +46,3 @@ ms.locfileid: "4460431"
 **长期解决方案**
 
 Microsoft 正在考虑当用户被添加到 Human Resources 时自动向 Onboard 和 Attract 分配相应权限。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

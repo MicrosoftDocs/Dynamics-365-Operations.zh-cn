@@ -59,6 +59,3 @@ ms.locfileid: "4460440"
 此功能现在可在沙盒环境中使用。 要打开此功能，请导航至 **系统管理 > 链接 > 设置 > 系统参数 > 预览功能**。 选择 **增强的工作人员窗体和导航**。 这将为所有用户启用这些更改。 您可以随时关闭此选项。
 
 有关详细信息，请参阅[简化的员工输入和导航](./streamlined-employee-entry.md)。 若要查看这些更改，请观看视频 [Dynamics 365 for Talent 2019 发布第 2 波概述](https://aka.ms/ROGT19RW2ROV)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

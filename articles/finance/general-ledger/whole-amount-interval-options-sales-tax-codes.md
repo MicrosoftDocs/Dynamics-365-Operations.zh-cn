@@ -1,34 +1,37 @@
 ---
 title: 全部金额和销售税代码的间隔计算选项
-description: 本主题说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
-author: kailiang
+description: 本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726815"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440757"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明销售税代码上的 **计算方法** 字段选项，以及如何为间隔和全部金额计算销售税。
+本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
 
-您可以设置基于整个金额或间隔金额将计算出的增值税代码。 在 **销售税代码** 页上，使用字段 **计算方法**（在 **计算** 快速选项卡上）选择销售税代码的计算方法。
+您可以设置基于整个金额或间隔金额将计算出的增值税代码。 在“销售税代码”页中，使用字段“计算方法”（在“计算”快速选项卡上）选择如何计算销售税代码。
 - 全部金额 – 税率适用于整个应纳税金额。
 - 间隔 – 应纳税金额划分为多个部分，每个部分都处于具有特定增值税税率的范围内。 处于给定间隔范围内的金额部分根据该间隔的税率计税。 该增值税是为各个金额间隔计算的税额的总和。
   > [!NOTE]                                                                                                                              
@@ -44,8 +47,9 @@ ms.locfileid: "7726815"
 ## <a name="example-whole-amount-method-of-calculation"></a>示例：计算的全部金额方法
 在“销售税代码值”页中，以下面间隔设置增值税率：
 
-| 下限     | 上限     | 税率     |
+|                   |                   |              |
 |-------------------|-------------------|--------------|
+| **下限** | **上限** | **税率** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |
@@ -62,8 +66,9 @@ ms.locfileid: "7726815"
 ## <a name="example-interval-method-of-calculation"></a>示例：计算的间隔方法
 在“值”页中，以下面间隔设置增值税率：
 
-| 下限     | 上限     | 税率     |
+|                   |                   |              |
 |-------------------|-------------------|--------------|
+| **下限** | **上限** | **税率** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |
@@ -85,6 +90,3 @@ ms.locfileid: "7726815"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

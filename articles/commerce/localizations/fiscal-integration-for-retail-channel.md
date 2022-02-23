@@ -1,93 +1,70 @@
 ---
 title: 商业渠道的会计整合概览
 description: 此主题提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
-author: EvgenyPopovMBS
-ms.date: 01/31/2022
+author: josaw
+manager: annbe
+ms.date: 02/01/2019
 ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
+audience: Application User
+ms.reviewer: josaw
 ms.search.region: Global
+ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077184"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017459"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
 
 [!include [banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
-此主题是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 
+## <a name="introduction"></a>简介
 
-会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
+此主题是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
 
 - 在连接到销售点 (POS) 的会计设备（如税控打印机）上登记销售，以及为客户打印财务收据。
 - 安全地向税务主管机构管理的外部 Web 服务提交与在 Retail POS 完成的销售和退货相关的信息。
 - 通过数字签名帮助确保销售交易数据的不变性。
 
-会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Commerce SDK 中的会计整合示例](#fiscal-integration-samples-in-the-commerce-sdk)。 有关如何安装和使用 Commerce SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+会计整合功能是一个框架，为进一步开发和自定义 Retail POS 与会计设备和服务之间的整合提供通用解决方案。 此功能还包括支持特定国家或地区的基本方案，以及使用特定会计设备或服务的会计整合示例。 会计整合示例由若干 Commerce 组件的扩展组成，包含在软件开发套件 (SDK) 中。 有关会计整合示例的详细信息，请参阅 [Retail SDK 中的会计整合示例](#fiscal-integration-samples-in-the-retail-sdk)。 有关如何安装和使用 Retail SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
 
 为了支持会计整合示例不支持的其他方案，将 Retail POS 与其他会计设备或服务整合，或者满足其他国家或地区的要求，您必须扩展用现有的会计整合示例或将现有示例用作范例创建新示例。
 
-## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services"></a>会计设备和服务的会计登记流程和会计整合示例
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>会计设备的会计登记流程和会计整合示例
 
-Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个步骤涉及一个会计设备或服务的特定交易或事件的会计登记。 以下解决方案组件参与会计设备或服务中的会计登记：
+Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个步骤涉及一个会计设备或服务的特定交易或事件的会计登记。 以下解决方案组件参与连接到硬件工作站的会计设备上的会计登记：
 
-- **会计单据提供程序** – 此组件序列化同时用于与会计设备或服务交互的格式的交易/事件数据，分析来自会计设备或服务的回应，并在通道数据库中存储响应。 此扩展还定义必须登记的特定交易和事件。
-- **会计连接器** – 此组件初始化与会计设备或服务的通信，基于从会计单据提取的交易/事件数据向会计设备或服务发送请求或直接命令，并接收来自会计设备或服务的响应
+- **Commerce Runtime (CRT) 扩展** – 此组件序列化同时用于与会计设备交互的格式的交易/事件数据，分析来自会计设备的回应，并在通道数据库中存储响应。 此扩展还定义必须登记的特定交易和事件。 此组件通常称为 *会计单据提供程序*。
+- **硬件工作站扩展** – 此组件初始化与会计设备的通信，基于从会计单据提取的交易/事件数据向会计设备发送请求和直接命令，并接收来自会计设备的响应。 此组件通常称为 *会计连接器*。
 
-会计整合示例可能包含会计单据提供程序和会计连接器的 Commerce runtime (CRT)、硬件工作站和 POS 扩展。 它还包含以下组件配置：
+会计设备的会计整合示例分别包含会计单据提供程序和会计连接器的 CRT 和硬件工作站扩展。 它还包含以下组件配置：
 
-- **会计单据提供程序配置** – 此配置定义会计单据的输出方法和格式。 它还包含税收和付款方式的数据映射，以使 Retail POS 中的数据与会计设备或服务固件中预定义的值兼容。
-- **会计连接器配置** – 此配置定义与特定会计设备或服务的实际通信。
+- **会计单据提供程序配置** – 此配置定义会计单据的输出方法和格式。 它还包含税收和付款方式的数据映射，以使 Retail POS 中的数据与会计设备固件中预定义的值兼容。
+- **会计连接器配置** – 此配置定义与特定会计设备的实际通信。
 
-特定 POS 登记的会计登记流程由 POS 功能配置文件中的相应设置定义。 有关如何配置会计登记流程、上载会计单据提供程序和会计连接器配置以及更改配置参数的更多详细信息，请参阅[设置会计登记流程](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)。
+特定 POS 登记的会计登记流程由 POS 功能配置文件中的相应设置定义。 有关如何配置会计登记流程、上载会计单据提供程序和会计连接器配置以及更改其参数的更多详细信息，请参阅[设置会计登记流程](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)。
 
-以下典型的会计登记流程从 POS 中的一个事件开始（例如，完成销售交易），实施一系列涉及其他 Commerce 组件（如 CRT 和硬件工作站）的预定义步骤。
+以下示例显示会计设备的典型会计登记执行流。 此流从 POS 中的事件开始（例如，销售交易的最终完成），实现以下步骤序列：
 
-1. POS 从会计整合框架 (FIF) 请求会计单据。
-1. FIF 确定当前事件是否需要会计登记。
-1. 基于会计登记流程的设置，FIF 确定用于会计登记的会计连接器和对应的会计单据提供程序。
-1. FIF 运行生成表示交易或事件的会计单据（例如，XML 文档）的会计单据提供程序。
-1. FIF 将生成的会计单据返回到 POS。
-1. POS 请求 FIF 将会计单据提交到会计设备或服务。
-1. FIF 运行处理会计单据并将其提交到会计设备或服务的会计连接器。
-1. FIF 将会计响应（即会计设备或服务的响应）返回到 POS。
-1. POS 分析会计响应以确定会计登记是否成功。 根据需要，POS 请求 FIF 处理发生的任何错误。 
-1. POS 请求 FIF 处理并保存会计响应。
-1. 会计单据提供程序处理会计响应。 作为此处理的一部分，会计单据提供程序分析响应并从中提取扩展数据。
-1. FIF 将响应和扩展数据保存到渠道数据库。
-1. 根据需要，POS 通过连接到硬件工作站的常规收据打印机打印收据。 收据可以包含来自会计响应的必需数据。
- 
-以下示例显示典型会计设备或服务的会计登记执行流。
- 
-### <a name="fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station"></a>会计登记通过连接到硬件工作站的设备进行
+1. POS 从 CRT 请求会计单据。
+2. CRT 确定当前事件是否需要会计登记。
+3. 基于会计登记流程设置，CRT 标识用于会计登记的会计连接器和对应的会计单据提供程序。
+4. CRT 运行生成表示交易或事件的会计单据（例如，XML 文档）的会计单据提供程序。
+5. POS 将 CRT 准备的会计单据发送到硬件工作站。
+6. 硬件工作站运行处理会计单据并将其传送到会计设备或服务的会计连接器。
+7. POS 分析来自会计设备或服务的响应以确定会计登记是否成功。
+8. CRT 将响应保存到通道数据库。
 
-此配置在实体会计设备（如会计打印机）连接到硬件工作站时使用。 通过在硬件工作站上安装的软件完成与会计设备或服务的通信时也适用。 在这种情况下，会计单据提供程序位于 CRT，会计连接器位于硬件工作站。
-
-![会计登记通过连接到硬件工作站的设备进行。](media/FIF-CRT-HWS.png)
-
-### <a name="fiscal-registration-is-done-via-an-external-service"></a>会计登记通过外部服务完成
-
-此配置在通过外部服务（如由税务机构运营的 Web 服务）完成会计登记时使用。 在这种情况下，会计单据提供程序和会计连接器均位于 CRT。
-
-![会计登记通过外部服务完成。](media/FIF-CRT-CRT.png)
- 
-### <a name="fiscal-registration-is-done-internally-in-the-crt"></a>会计登记在 CRT 中内部完成
-
-此配置在会计登记不需要外部会计设备或服务时使用。 例如，在通过对销售交易记录进行数字签名完成会计登记时使用。 在这种情况下，会计单据提供程序和会计连接器均位于 CRT。
-
-![会计登记在 CRT 中内部完成。](media/FIF-CRT-CRT-SGN.png)
-
-### <a name="fiscal-registration-is-done-via-a-device-or-service-in-the-local-network"></a>会计登记通过本地网络中的设备或服务完成
-
-当商店的本地网络中存在实体会计设备或会计服务并且其提供 HTTPS 应用程序编程接口 (API) 时，将使用此配置。 在这种情况下，会计单据提供程序位于 CRT，会计连接器位于 POS。
-
-![会计登记通过本地网络中的设备或服务完成。](media/FIF-CRT-POS.png)
+![解决方案架构](media/emea-fiscal-integration-solution.png "解决方案架构")
 
 ## <a name="error-handling"></a>错误处理
 
@@ -97,24 +74,19 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - **取消** – 此选项允许操作员在登记失败时延期当前交易或事件的会计登记。 登记延期后，操作员可以继续在 POS 上工作，并可以完成不需要会计登记的任何操作。 在需要会计登记的任何事件在 POS 中发生时（例如，打开新交易记录），错误处理对话框将自动显示以通知操作员上一项交易未正确登记并提供错误处理选项。
 - **跳过** – 操作可以在会计登记可在特定条件下忽略并且可以继续在 POS 上执行常规操作时使用此选项。 例如，当会计登记失败的销售交易可以在特殊的纸质日记帐中登记时，可以使用此选项。
 - **标记为已登记** – 当交易在会计设备中实际已登记（例如，财务收据已打印），但在会计响应保存到通道数据库时失败的情况下，操作员可以使用此选项。
-- **推迟** – 当交易记录因登记服务不可用而未登记时，操作员可以使用此选项。 
 
 > [!NOTE]
-> 在使用前，**跳过**、**标记为已登记** 和 **推迟** 选项必须在会计登记流程中启用。 此外，必须向操作员授予相应权限。
+> 在使用前，**跳过** 和 **标记为已登记** 选项必须在会计登记流程中启用。 此外，必须向操作员授予相应权限。
 
-**跳过**、**标记为已登记** 和 **推迟** 选项支持信息代码获取有关失败的一些具体信息，如失败原因或跳过会计登记或将交易标记为已登记的理由。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
+**跳过** 和 **标记为已登记** 选项支持信息代码获取有关失败的一些具体信息，如失败原因或跳过会计登记或将交易标记为已登记的理由。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
 
 ### <a name="optional-fiscal-registration"></a>可选会计登记
 
 会计登记对某些操作而言为强制，但对其他操作则为可选。 例如，常规销售和退货的会计登记可能为强制，但是与客户存款有关的操作的会计登记可能为可选。 在此情况下，未能完成销售的会计登记可能会妨碍更多销售，但是未能完成客户存款的会计登记应该不会妨碍更多销售。 若要区分强制操作和可选操作，建议通过不同单据提供程序处理，并且在这些提供程序的会计登记流程中设置单独的步骤。 应该为与可选会计登记有关的所有步骤启用 **出错时继续** 参数。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
 
-### <a name="manually-rerun-fiscal-registration"></a>手动重新运行会计登记
+### <a name="manually-running-fiscal-registration"></a>手动运行会计登记
 
 如果失败后已推迟了交易记录或事件的会计登记（例如，如果操作员在错误处理对话框中选择了 **取消**），可以通过调用相应操作手动重新运行会计登记。 有关更多详细信息，请参阅[启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)。
-
-### <a name="postpone-option"></a>推迟选项
-
-如果当前步骤失败，**推迟** 选项可让您继续执行财务登记流程。 当存在会计登记备份选项时，可以使用此选项。
 
 ### <a name="fiscal-registration-health-check"></a>会计登记运行状况检查
 
@@ -143,10 +115,8 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 会计交易记录存储以下详细信息：
 
 - 会计登记流程详细信息（流程、连接器组、连接器等）。 另外还存储 **登记编号** 字段中会计设备的序列号（如果此信息包含在会计响应中）。
-- 会计登记的状态：**已完成** 表示成功的登记，如果操作员为失败的登记选择了 **跳过** 选项则为 **已跳过**，如果操作员选择了 **标记为已登记** 选项，则为 **标记为已登记**，或者如果操作员选择了 **推迟** 选项，则为 **已推迟**。
-- 与所选会计交易记录相关的信息代码交易记录。 要查看信息代码交易记录，在 **会计交易记录** 快速选项卡上，选择状态为 **已跳过**、**标记为已登记** 或 **已推迟** 的会计交易记录，然后选择 **信息代码交易记录**。
-
-通过选择 **扩展数据**，您还可以查看会计交易的某些属性。 可查看的属性列表特定于生成会计交易的会计登记功能。 例如，您可以查看法国数字签名功能的数字签名、序列号、证书指纹、哈希算法标识和其他会计交易记录属性。
+- 会计登记的状态：**已完成** 表示成功的登记，如果操作员为失败的登记选择了 **跳过** 选项则为 **已跳过**，或者如果操作员选择了 **标记为已登记** 选项，则为 **标记为已登记**。
+- 与所选会计交易记录相关的信息代码交易记录。 要查看信息代码交易记录，在 **会计交易记录** 快速选项卡上，选择状态为 **已跳过** 或 **标记为已登记** 的会计交易记录，然后选择 **信息代码交易记录**。
 
 ## <a name="fiscal-texts-for-discounts"></a>折扣的会计文本
 
@@ -159,30 +129,23 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - 运行相应操作的新按钮应添加到 POS 屏幕布局。 更多详细信息，请参阅[从 POS 设置会计 X/Z 报表](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos)。
 - 在会计整合示例中，这些操作应匹配到会计设备的相应操作。
 
-## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Commerce SDK 中的会计整合示例
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK 中的会计整合示例
 
-以下会计整合示例当前在 Commerce SDK 中可用：
+以下会计整合示例当前在 Retail SDK 中可用：
 
-- [意大利税控打印机集成示例](./emea-ita-fpi-sample.md)
-- [波兰税控打印机集成示例](./emea-pol-fpi-sample.md)
-- [奥地利的会计登记服务集成示例](./emea-aut-fi-sample.md)
-- [捷克共和国的会计登记服务集成示例](./emea-cze-fi-sample.md)
+- [意大利税控打印机集成示例](emea-ita-fpi-sample.md)
+- [波兰税控打印机集成示例](emea-pol-fpi-sample.md)
+- [奥地利的会计登记服务集成示例](emea-aut-fi-sample.md)
+- [捷克共和国的会计登记服务集成示例](emea-cze-fi-sample.md)
 - [瑞典的控制单元集成示例](./emea-swe-fi-sample.md)
 - [德国的会计登记服务集成示例](./emea-deu-fi-sample.md)
-- [俄罗斯税控打印机集成示例](./rus-fpi-sample.md)
 
-以下会计整合功能也通过使用会计集成框架来实现，但该功能可即装即用，并且未包含在 Commerce SDK 中：
+以下会计整合功能也在 Retail SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
 
-- [巴西的会计登记](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
-- [法国数字签名](./emea-fra-cash-registers.md)
 
-以下会计整合功能也在 Commerce SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
+- [法国数字签名](emea-fra-cash-registers.md)
+- [挪威数字签名](emea-nor-cash-registers.md)
 
-- [挪威数字签名](./emea-nor-cash-registers.md)
-
-Commerce SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
+Retail SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
 
 - [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)
-- [法国数字签名（旧版）](./emea-fra-deployment.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

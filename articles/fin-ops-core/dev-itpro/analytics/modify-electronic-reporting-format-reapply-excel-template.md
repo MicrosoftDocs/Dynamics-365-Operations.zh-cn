@@ -1,10 +1,12 @@
 ---
-title: 通过重新应用 Excel 模板修改电子报告格式
-description: 本主题介绍如何通过重新应用经修改的 Excel 模板修改用于生成业务文档的电子报告 (ER) 格式。
+title: 通过重新应用 Excel 模板修改电子申报格式
+description: 此主题提供有关如何通过重新应用经修改的 Excel 模板修改用于生成业务文档的电子报告 (ER) 格式的信息。
 author: NickSelin
+manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57f0db12657878fa34c86c55925d62100c26cad8799e5e6ace7e7dd81d91cd9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737867"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682209"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改电子申报格式
 
@@ -31,6 +33,3 @@ ms.locfileid: "6737867"
 ER 工具可用于将业务文档生成为 Microsoft Excel 文件。 可以使用 Excel 文档作为这些文档的模板。 若要在 ER 设计器中定义文档布局，可以将您要用作模板的 Excel 文档的内容导入到定义的 ER 格式中。 若要了解详细信息并实践此方案，播放任务指南 **ER 设计用于生成 OPENXML 格式的报表的配置**（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。
 
 如果编辑用作业务文档模板的 Excel 文档，新的 ER 功能让您可以将更新的模板应用到 ER 格式。 ER 格式然后会更新，以便符合更新的模板。 有关此功能的更多详细信息，请播放任务指南 **ER 通过重新应用 Excel 模板修改格式**（7.5.5.3 获取/开发 IT 服务/解决方案组件 (10683) 业务流程的一部分）。 在导入更新的模板的任务指南步骤中，请使用付款报表 Excel 文件 SampleVendPaymWsReport2 修改后的模板作为模板。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

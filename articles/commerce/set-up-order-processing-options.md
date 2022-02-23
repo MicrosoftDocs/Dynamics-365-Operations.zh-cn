@@ -2,13 +2,16 @@
 title: 设置呼叫中心渠道
 description: 本主题提供有关如何使用 Dynamics 365 Commerce 来处理呼叫中心的订单的信息。
 author: josaw1
-ms.date: 02/04/2022
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: 28954eab857a06da3978ca362081dfc3c525354d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410562"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 
@@ -37,7 +40,7 @@ ms.locfileid: "8092424"
 
 也可以为呼叫中心渠道配置电子邮件通知配置文件。 此配置文件定义将电子邮件发送到通过呼叫中心渠道下单的客户时使用的电子邮件模板组。 可以配置针对系统事件（如提交订单或为订单发货）的电子邮件触发器。
 
-必须为渠道定义正确的[付款方式](/dynamics365/unified-operations/retail/work-with-payments)和交货方式，才能通过呼叫中心渠道正确处理销售订单。
+必须为渠道定义正确的[付款方式](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments)和交货方式，才能通过呼叫中心渠道正确处理销售订单。
 
 可以在呼叫中心渠道级别定义与将链接到该渠道创建的订单的财务维度有关的其他默认值。
 
@@ -47,18 +50,15 @@ ms.locfileid: "8092424"
 
 ### <a name="enable-order-completion"></a>启用订单完成
 
-呼叫中心渠道的 **启用订单完成** 设置对为该渠道输入的销售订单的订单处理流程效果显著。 如果开启了此设置，则所有销售订单先运行一组验证规则，才能予以确认。 这些规则的运行方法是选择销售订单页操作窗格上添加的 **完成** 按钮。 必须为开启了 **启用订单完成** 设置后创建的所有销售订单执行订单完成流程。 此流程实施付款和付款验证逻辑的捕获。 除了实施付款，订单提交流程还可以触发系统中配置的[欺诈检查](/dynamics365/unified-operations/retail/set-up-fraud-alerts)。 将保留付款失败或未通过欺诈验证的订单，解决了导致保留的问题之前，不能发放此类订单进行更进一步的处理（如拣货或发货）。
+呼叫中心渠道的 **启用订单完成** 设置对为该渠道输入的销售订单的订单处理流程效果显著。 如果开启了此设置，则所有销售订单先运行一组验证规则，才能予以确认。 这些规则的运行方法是选择销售订单页操作窗格上添加的 **完成** 按钮。 必须为开启了 **启用订单完成** 设置后创建的所有销售订单执行订单完成流程。 此流程实施付款和付款验证逻辑的捕获。 除了实施付款，订单提交流程还可以触发系统中配置的[欺诈检查](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts)。 将保留付款失败或未通过欺诈验证的订单，解决了导致保留的问题之前，不能发放此类订单进行更进一步的处理（如拣货或发货）。
 
-在为呼叫中心渠道开启了 **启用订单完成** 设置后，如果在销售订单中输入了行项，而渠道用户尝试关闭或离开销售订单窗体但未先选择 **完成**，系统将通过通过打开销售订单概括页并要求用户正确提交订单，实施订单完成流程。 如果不能与付款一起正确提交订单，则用户可使用[订单保留](/dynamics365/unified-operations/retail/work-with-order-holds)功能保留订单。 如果用户要尝试取消订单，则必须正确取消，方法是使用“取消”功能或“删除”功能，具体取决于用户的安全设置允许的功能。
+在为呼叫中心渠道开启了 **启用订单完成** 设置后，如果在销售订单中输入了行项，而渠道用户尝试关闭或离开销售订单窗体但未先选择 **完成**，系统将通过通过打开销售订单概括页并要求用户正确提交订单，实施订单完成流程。 如果不能与付款一起正确提交订单，则用户可使用[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)功能保留订单。 如果用户要尝试取消订单，则必须正确取消，方法是使用“取消”功能或“删除”功能，具体取决于用户的安全设置允许的功能。
 
 如果为呼叫中心渠道开启了 **启用订单完成** 设置，将在订单中跟踪 **付款状态** 字段。 提交销售订单时，系统将计算 **付款状态**。 仅允许系统对已审核付款状态的订单执行更多订单处理步骤，如拣货和发货。 如果拒绝了付款，将为详细订单状态启用 **请勿处理** 标志，从而保留订单，直到解决了付款问题。
 
-此外，如果开启了 **启用订单完成** 设置，则当用户创建销售订单且处于行项录入模式时，主销售订单头上的 **来源** 字段将可用。 **来源** 字段用于在直接营销销售场景中捕获[目录源代码](/dynamics365/unified-operations/retail/call-center-catalogs)。 然后，此代码可促成特价和促销。
+此外，如果开启了 **启用订单完成** 设置，则当用户创建销售订单且处于行项录入模式时，主销售订单头上的 **来源** 字段将可用。 **来源** 字段用于在直接营销销售场景中捕获[目录源代码](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs)。 然后，此代码可促成特价和促销。
 
 即使关闭了 **启用订单完成** 设置，用户仍然可以为销售订单应用源代码。 但是，必须首先打开销售订单头详细信息以访问 **来源** 字段。 换言之，还需要单击几次。 同样的行为适用于发货完成和已加速的订单之类功能。 这些功能可用于呼叫中心中创建的所有订单。 但是，如果开启了 **启用订单完成** 设置，则用户在行录入视图中时，可在销售订单头中看到这些功能的配置。 无需深入到销售订单头详细信息，即可找到相应设置和字段。
-
-> [!NOTE]
-> 启用 **全渠道 Commerce 订单付款** 功能后，呼叫中心 **启用订单完成** 按钮将在 **Retail 和 Commerce \> 渠道 \> 呼叫中心** 的 **常规** 快速选项卡上在总部中隐藏。
 
 ### <a name="enable-direct-selling"></a>启用直接销售
 
@@ -84,6 +84,3 @@ ms.locfileid: "8092424"
 > [!NOTE]
 > 要使用呼叫中心功能，**多次收货** 的配置键必须启用。 可以在 **系统管理** \> **设置** \> **许可证配置** 下的 **贸易配置** 键中找到此配置键。 由于呼叫中心功能会根据在销售订单行级别配置的交货地址执行各种验证，因此这是必需的。 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

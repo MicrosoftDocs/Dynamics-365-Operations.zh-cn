@@ -2,26 +2,27 @@
 title: 销售和市场概览
 description: 您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。
 author: kfend
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "92303"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982526"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422794"
 ---
 # <a name="sales-and-marketing-overview"></a>销售和市场概览
 
@@ -29,22 +30,23 @@ ms.locfileid: "7982526"
 
 您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。
 
-## <a name="marketing"></a>市场营销
+<a name="marketing"></a>市场营销
+---------
 
-使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销的业务流程。](./media/marketing01.jpg)](./media/marketing01.jpg)
+使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销业务流程](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>关系
 
-在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。 例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。 在对方成为客户前了解该方实体的流程至关重要。 下图显示了当潜在客户变为实际客户时的实体关系的流程。 [![SalesandMarketing01。](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。 例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。 在对方成为客户前了解该方实体的流程至关重要。 下图显示了当潜在客户变为实际客户时的实体关系的流程。 [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>市场活动
 
 市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。 在 Supply Chain Management 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。 随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。
 
 ## <a name="sales"></a>销售额
-您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售的业务流程。](./media/sales01.jpg)](./media/sales01.jpg)
+您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售业务流程](./media/sales01.jpg)](./media/sales01.jpg)
 
-### <a name="sales-quotations"></a>销售报价
+### <a name="sales-quotations"></a>销售报价单
 
 创建销售报价单向客户显示您将提供的商品或服务的优惠。 客户可能请求报价单，或您可以创建报价单来响应潜在或现有客户的请求。 当客户审核销售报价单时，可以将其转化为销售订单。
 
@@ -123,6 +125,3 @@ ms.locfileid: "7982526"
 #### <a name="blogs"></a>博客
 
 文章[如何使用 Dynamics 365 for Finance and Operations 开展销售工作](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations)中包含销售流程概览。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

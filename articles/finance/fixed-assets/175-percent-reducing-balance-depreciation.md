@@ -1,26 +1,29 @@
 ---
 title: 175% 余额递减法折旧
 description: 本主题提供了 175% 余额递减法折旧方法的概览。
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883254"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440791"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法折旧
 
@@ -64,7 +67,7 @@ ms.locfileid: "7883254"
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>175% 余额递减法折旧的示例
 
-| 字段                          | 值  |
+|                                |        |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |
 | Salvage value / 残值                  | 1,000  |
@@ -76,15 +79,12 @@ ms.locfileid: "7883254"
 
 | 期间 | 年折旧金额的计算 | 帐面值                  | 年末帐面净值 |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| 第 1 年 | (11,000 – 1,000) × 35% = 3,500                | 11,000 – 3,500 = 7,500      | 11,000 – 1,000 – 3,500 = 6,500        |
-| 第 2 年 | 6,500 × 35% = 2,275                           | 7,500 – 2,275 = 5,225       | 6,500 – 2,275 = 4,225                 |
-| 第 3 年 | 4,225 × 35% = 1,478.75                        | 5,225 – 1,478.75 = 3,746.25 | 4,225 – 1,478.75 = 2,746.25           |
+| 第 1 年 | (11,000 – 1,000) × 35% = 3,500                | 11,000 – 3,500 = 7,500      | 11,000 – 1,000 – 3,500 = 6,500        |
+| 第 2 年 | 6,500 × 35% = 2,275                           | 7,500 – 2,275 = 5,225       | 6,500 – 2,275 = 4,225                 |
+| 第 3 年 | 4,225 × 35% = 1,478.75                        | 5,225 – 1,478.75 = 3,746.25 | 4,225 – 1,478.75 = 2,746.25           |
 
 > [!NOTE] 
 > 通常，当使用 175% 余额递减折旧法计算的金额小于使用直线法计算的金额时，对剩余年限转换到直线法。
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

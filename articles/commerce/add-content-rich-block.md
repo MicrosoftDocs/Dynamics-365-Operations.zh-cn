@@ -2,30 +2,35 @@
 title: 文本块模块
 description: 此主题介绍文本块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410421"
 ---
 # <a name="text-block-module"></a>文本块模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍文本块模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+
+## <a name="overview"></a>概览
 
 文本块模块是用于添加文本内容的模块。 此内容可以是参考内容或促销内容。
 
@@ -42,7 +47,7 @@ ms.locfileid: "6723303"
 
 下图显示了主页上使用的文本块模块的示例。
 
-![文本块模块的示例。](./media/ecommerce-textblock.PNG)
+![文本块模块示例](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>文本块模块属性
 
@@ -84,6 +89,3 @@ ms.locfileid: "6723303"
 
 [视频播放器模块](add-video-player.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

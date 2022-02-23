@@ -2,8 +2,11 @@
 title: DATEFORMAT ER 函数
 description: 本主题提供有关 DATEFORMAT 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 09/08/2021
+manager: kfend
+ms.date: 01/04/2021
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a6c113f5f8147cbeaab103e86a44d4c66272c13
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485484"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826003"
 ---
 # <a name="dateformat-er-function"></a>DATEFORMAT ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`DATEFORMAT` 函数返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，此值以指定格式和指定的[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期值显示为文本。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+`DATEFORMAT` 函数返回一个 *字符串* 值，此值以指定格式和指定的[区域性](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)（可选）将给定日期值显示为文本。 有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)。
 
 ## <a name="syntax-1"></a>语法 1
 
@@ -41,20 +44,20 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="arguments"></a>参数
 
-`date`：*[日期](er-formula-supported-data-types-primitive.md#date)*
+`date`：*日期*
 
 代表要设定格式的日期的日期值。
 
 `format`：*字符串*
 
-输出字符串的格式。 有关支持格式的信息，请参阅[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)和[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+输出字符串的格式。
 
 > [!NOTE]
-> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](/dotnet/standard/base-types/standard-date-and-time-format-strings)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](/dotnet/standard/base-types/custom-date-and-time-format-strings)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
+> 当您使用标准格式或自定义格式时，格式字符串区分大小写。 例如，[标准](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)“d”格式说明符使用短日期模式返回日期，而标准“D”格式说明符使用长日期模式返回日期。 而且，[自定义](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)“M”格式说明符返回月份 1 到 12，而自定义“m”格式说明符返回分钟 0 到 59。
 
 `culture`：*字符串*
 
-用于设定格式的区域性。 有关受支持的区域性的信息，请参阅[区域性](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)。
+用于设定格式的区域性。
 
 ## <a name="return-values"></a>返回值
 
@@ -77,6 +80,3 @@ DATEFORMAT (date, format, culture)
 ## <a name="additional-resources"></a>其他资源
 
 [日期和时间函数](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

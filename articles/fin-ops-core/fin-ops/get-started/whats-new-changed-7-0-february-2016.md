@@ -2,9 +2,11 @@
 title: Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 description: 本文介绍了 Microsoft Dynamics AX 7.0 中的新功能和更改的功能。 此版本包含平台和应用程序功能，于 2016 年 2 月发布。
 author: sericks007
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757211"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797211"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
@@ -732,7 +734,7 @@ Retail Server 和数据管理允许客户和企业跨在线、商店内和呼叫
 </tr>
 <tr>
 <td>通过使用 Commerce Data Exchange，在 Microsoft Dynamics AX 后端办公室和渠道之间移动数据。</td>
-<td>Commerce Data Exchange 是一种在 Microsoft Dynamics AX 和零售渠道（例如，在线商店或实体商店）之间传送数据的系统。 有关详细信息，请参阅<a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>。</td>
+<td>Commerce Data Exchange 是一种在 Microsoft Dynamics AX 和零售渠道（例如，在线商店或实体商店）之间传送数据的系统。 有关详细信息，请参阅<a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>。</td>
 <td>与 Microsoft Dynamics AX 2012 CU8 之间有功能对等性。 不过，请注意以下详细信息：
 <ul>
 <li>Commerce Data Exchange 针对云重新进行了设计。</li>
@@ -1031,6 +1033,3 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 [Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
 
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,6 +67,3 @@ ms.locfileid: "4460467"
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>终止原因代码更新职位分配记录
 终止原因代码现在将在终止雇用员工和结束职位时更新职位分配。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

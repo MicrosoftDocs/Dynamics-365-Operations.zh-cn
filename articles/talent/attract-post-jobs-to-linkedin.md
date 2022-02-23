@@ -80,6 +80,3 @@ Attract 让您可以在 LinkedIn 中发布 Limited Listings（有限列表），
 [使用 LinkedIn Recruiter 寻求应聘者](./attract-linkedin-recruiter.md)
 
 [LinkedIn 集成疑难解答](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

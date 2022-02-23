@@ -1,10 +1,12 @@
 ---
 title: 维护阶段
 description: 本主题介绍资产管理中的维护阶段。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740711"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018538"
 ---
 # <a name="maintenance-rounds"></a>维护阶段
 
@@ -80,7 +82,7 @@ ms.locfileid: "6740711"
 
 下图显示其中包含三个资产的维护阶段的示例。
 
-![图 1.](media/13-preventive-maintenance.png)
+![图 1](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>安排维护阶段
@@ -106,14 +108,11 @@ ms.locfileid: "6740711"
 
 下面的两个图在 **安排维护阶段** 对话框中显示一个安排作业，在 **所有维护安排** 中显示根据该安排作业创建的维护安排行。
 
-![图 2.](media/14-preventive-maintenance.png)
+![图 2](media/14-preventive-maintenance.png)
 
-![图 3.](media/15-preventive-maintenance.png)
+![图 3](media/15-preventive-maintenance.png)
 
 - 为供应商保修涵盖的资产手动创建工作订单时，将显示一个对话框，用于提醒用户注意保修。 然后可以取消创建此工作订单。 将对自动创建的工作订单忽略检查保修关联。  
 - 可以在 **在后台运行** 快速选项卡上设置批处理作业，以便安排定期执行的阶段。  
 - 如果一个阶段包含在多个工作订单池中(请参阅 [工作订单池](../work-orders/work-order-pools.md))，将为 **打开维护安排池** 中的每个池显示一条记录。 这是为了优化工作订单池的筛选选项。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

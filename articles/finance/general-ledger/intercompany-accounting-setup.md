@@ -2,25 +2,28 @@
 title: 内部公司会计设置
 description: 本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15761
 ms.assetid: 1362297b-7a51-4930-b822-2b204a2e3c37
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09c8933b08710ec82dbb449f2ba7f7c29cc24ff3a4c9b73178aa916ea0fab83a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c3bca9d0a7c37716f2334b36d8a948908f52293
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440804"
 ---
 # <a name="intercompany-accounting-setup"></a>内部公司会计设置
 
@@ -47,6 +50,3 @@ ms.locfileid: "6715062"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

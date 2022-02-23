@@ -1,25 +1,28 @@
 ---
 title: 在公共部门创建原始预算，然后预留初步预算条目
-description: 本主题提供有关如何使用具有初步预算金额的预算模型和维值来创建和冲销原始预算条目的信息。
+description: 当您创建了原始预算条目并使用了包含初步预算金额的预算模型和维度值时，则可冲销初步预算金额。
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0120e4aa895d70da418c643a81bd0046a96c031de0ca660e31bb3e0d8f8c2df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744242"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440846"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>在公共部门创建原始预算，然后预留初步预算条目
 
@@ -48,6 +51,3 @@ ms.locfileid: "6744242"
     * 要进行可选选择，请单击此页上方的“解锁”图标。  
 18. 单击“更新”。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

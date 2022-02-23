@@ -1,28 +1,28 @@
 ---
 title: 采购申请概览
 description: 此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2174"
-- intro-internal
+ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982894"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020071"
 ---
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
@@ -49,7 +49,7 @@ ms.locfileid: "7982894"
 
 下图显示了分配给采购申请和采购申请行的状态（当它们在工作流程中移动时）。  
 
-[![采购申请标头和行状态。](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![采购申请标题和行状态](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>采购申请标头和行状态关系
 
@@ -181,7 +181,7 @@ ms.locfileid: "7982894"
 
 在工作流中的采购申请审核时，以及如果为您的组织配置了预算控制，记录预算预留和预留款后，将启动要求合并的流程。 下图显示需求合并的流程。  
 
-[![需求合并的流程流。](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![需求合并的流程流](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 若要合并已审核的采购申请行，请执行以下步骤：
 
@@ -192,7 +192,8 @@ ms.locfileid: "7982894"
 5.  创建合并机会中的合并申请行或采购申请行的采购订单。
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [创建消耗量申请](tasks/create-requisition-consumption.md)
 
@@ -200,6 +201,3 @@ ms.locfileid: "7982894"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,37 +2,36 @@
 title: 将“目标客户到现金”数据从数据集成器迁移到双写入
 description: 本主题介绍如何将“目标客户到现金”数据从数据集成器迁移到双写入。
 author: RamaKrishnamoorthy
-ms.date: 02/01/2022
+manager: AnnBe
+ms.date: 01/04/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2021-01-04
+ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087260"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959838"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>将“目标客户到现金”数据从数据集成器迁移到双写入
 
 [!include [banner](../../includes/banner.md)]
 
-可用于数据集成器的“目标客户到现金”解决方案与双写入不兼容。 原因在于作为“目标客户到现金”解决方案的一部分的帐户表上的 msdynce_AccountNumber 索引。 如果存在此索引，您将无法在两个不同的法人中创建相同的客户帐号。 您可以选择通过将“目标客户到现金”数据从数据集成器迁移到双写入来重新开始双写入，或者可以安装“目标客户到现金”解决方案的最后一个“休眠”版本。 本主题介绍这两种方法。
-
-## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>安装数据集成器“目标客户到现金”解决方案的最后一个“休眠”版本
-
-**P2C 版本 15.0.0.2** 被认为是数据集成器“目标客户到现金”解决方案的最后一个“休眠”版本。 您可以从 [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C) 下载。
-
-您需要手动进行安装。 安装后，除删除 msdynce_AccountNumber 索引外，所有内容都保持不变。
-
-## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>将“目标客户到现金”数据从数据集成器迁移到双写入的步骤
-
 要将“目标客户到现金”数据从数据集成器迁移到双写入，请按照以下步骤操作。
 
-1. 运行“目标客户到现金”数据集成器作业，执行最后一次完全同步。 这样，您可以确保两个系统（财务和运营应用和客户互动应用）具有所有数据。
+1. 运行“目标客户到现金”数据集成器作业，执行最后一次完全同步。 这样，您可以确保两个系统（Finance and Operations 应用和客户互动应用）具有所有数据。
 2. 为帮助防止潜在的数据丢失，将“目标客户到现金”数据从 Microsoft Dynamics 365 Sales 导出到 Excel 文件或逗号分隔值 (CSV) 文件。 从以下实体导出数据：
 
     - [科目](#account-table)
@@ -47,25 +46,25 @@ ms.locfileid: "8087260"
 
 3. 从 Sales 环境中卸载“目标客户到现金”解决方案。 此步骤将删除“目标客户到现金”解决方案引入的列和相应的数据。
 4. 安装双写入解决方案。
-5. 为一个或多个法人在财务和运营应用和客户互动应用之间创建双写入连接。
+5. 为一个或多个法人在 Finance and Operations 应用和客户互动应用之间创建双写入连接。
 6. 启用双写入表映射，然后为所需的参考数据运行初始同步。 （有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。）所需数据的示例包括客户组、付款期限和付款计划。 不要为需要初始化的表启用双写入映射，如客户、报价单、报价单行、订单和订单行表。
 7. 在客户互动应用中，转到 **高级设置 \> 系统设置 \> 数据管理 \> 重复检测规则**，禁用所有规则。
 8. 初始化步骤 2 中列出的表。 有关说明，请参阅本主题的其余章节。
-9. 打开财务和运营应用，启用表映射，如客户、报价单、报价单行、订单和订单行表映射。 然后运行初始同步。 （有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。）此流程将同步来自财务和运营应用的其他信息，如处理状态、装运地址和帐单地址、站点和仓库。
+9. 打开 Finance and Operations 应用，启用表映射，如客户、报价单、报价单行、订单和订单行表映射。 然后运行初始同步。 （有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。）此流程将同步来自 Finance and Operations 应用的其他信息，如处理状态、装运地址和账单地址、站点和仓库。
 
 ## <a name="account-table"></a>客户表
 
 1. 在 **公司** 列中，输入公司名称，如 **USMF**。
 2. 在 **关系类型** 列中，输入 **客户** 作为静态值。 您可能不想在业务逻辑中将每个客户记录分类为客户。
-3. 在 **客户组 ID** 列中，从财务和运营应用输入客户组编号。 “目标客户到现金”解决方案的默认值为 **10**。
-4. 如果您使用的是“目标客户到现金”解决方案，没有任何 **客户编号** 自定义项，请在 **当事方编号** 列中输入 **客户编号** 值。 如果有自定义项，并且您不知道当事方编号，请从财务和运营应用提取此信息。
+3. 在 **客户组 ID** 列中，从 Finance and Operations 应用输入客户组编号。 “目标客户到现金”解决方案的默认值为 **10**。
+4. 如果您使用的是“目标客户到现金”解决方案，没有任何 **客户编号** 自定义项，请在 **当事方编号** 列中输入 **客户编号** 值。 如果有自定义项，并且您不知道当事方编号，请从 Finance and Operations 应用提取此信息。
 
 ## <a name="contact-table"></a>联系人表
 
 1. 在 **公司** 列中，输入公司名称，如 **USMF**。
 2. 根据 CSV 文件中的 **IsActiveCustomer** 值设置以下列：
 
-    - 如果 **IsActiveCustomer** 在 CSV 文件中设置为 **是**，则将 **适售** 列设置为 **是**。 在 **客户组 ID** 列中，从财务和运营应用输入客户组编号。 “目标客户到现金”解决方案的默认值为 **10**。
+    - 如果 **IsActiveCustomer** 在 CSV 文件中设置为 **是**，则将 **适售** 列设置为 **是**。 在 **客户组 ID** 列中，从 Finance and Operations 应用输入客户组编号。 “目标客户到现金”解决方案的默认值为 **10**。
     - 如果 **IsActiveCustomer** 在 CSV 文件中设置为 **否**，则将 **适售** 列设置为 **否**，并将 **联系人** 列设置为 **客户**。
 
 3. 如果您使用的是“目标客户到现金”解决方案，没有对 **联系人编号** 的任何自定义项，请设置以下列：
@@ -76,7 +75,7 @@ ms.locfileid: "8087260"
 
 ## <a name="invoice-table"></a>发票表
 
-由于 **发票** 表中的数据被设计为单向流动，即从财务和运营应用到客户互动应用，所以不需要初始化。 运行初始同步，将所有必需的数据从财务和运营应用迁移到客户互动应用。 有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。
+由于 **发票** 表中的数据被设计为单向流动，即从 Finance and Operations 应用到客户互动应用，所以不需要初始化。 运行初始同步，将所有必需的数据从 Finance and Operations 应用迁移到客户互动应用。 有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。
 
 ## <a name="order-table"></a>订单表
 
@@ -94,11 +93,8 @@ ms.locfileid: "8087260"
 
 ## <a name="products-table"></a>产品表
 
-由于 **产品** 表中的数据被设计为单向流动，即从财务和运营应用到客户互动应用，所以不需要初始化。 运行初始同步，将所有必需的数据从财务和运营应用迁移到客户互动应用。 有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。
+由于 **产品** 表中的数据被设计为单向流动，即从 Finance and Operations 应用到客户互动应用，所以不需要初始化。 运行初始同步，将所有必需的数据从 Finance and Operations 应用迁移到客户互动应用。 有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。
 
 ## <a name="quote-and-quote-product-tables"></a>报价单和报价单产品表
 
 对于 **报价单** 表，请按照本主题前面的[订单表](#order-table)一节的说明操作。 对于 **报价单产品** 表，请按照[订单产品表](#order-products-table)一节的说明操作。
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

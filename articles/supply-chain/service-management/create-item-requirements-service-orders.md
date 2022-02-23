@@ -1,30 +1,34 @@
 ---
 title: 为服务订单创建物料需求
-description: 此主题描述如何为服务订单创建物料需求。
-author: kamaybac
+description: 如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75a05147883f1592b3a09e02e238661f6c20cf27
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575283"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423122"
 ---
-# <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求
+# <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求 
 
 [!include [banner](../includes/banner.md)]
+
 
 您可以创建服务订单跟踪和管理为您的客户提供的服务。 如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。 物料需求可以从库存立即消耗，或可以启动生产订单的物料。
 
@@ -34,24 +38,37 @@ ms.locfileid: "7575283"
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>为服务订单创建物料需求
 
-1. 转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
-1. 选择需要创建物料需求的服务订单。
-1. 在 **操作窗格** 中的 **发货** 选项卡上选择 **物料需求**。
-1. 在 **物料需求** 窗体中输入所需物料的信息。 有关特定字段的更多信息，请参阅[物料需求（窗体）](https://technet.microsoft.com/library/aa552021\(v=ax.60\))。
+1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+
+2.  选择需要创建物料需求的服务订单。
+
+3.  在 **操作窗格** 中的 **发货** 选项卡上单击 **物料需求**。
+
+4.  在 **物料需求** 窗体中输入所需物料的信息。 有关特定字段的更多信息，请参阅[物料需求（窗体）](https://technet.microsoft.com/library/aa552021\(v=ax.60\))。
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>为服务协议创建物料需求
 
-1. 转到 **服务管理** \> **通用** \> **服务协议** \> **服务协议**。
-1. 打开需要创建物料需求的服务协议。
-1. 在 **行** 快速选项卡上，选择 **添加** 创建新行。
-1. 在 **交易记录类型** 字段中选择 **物料**。
-1. 在 **物料设置** 字段中，选择 **物料需求**。
-1. 在 **物料编号** 字段中，选择该服务协议所需的物料。
-1. 在 **行明细** 快速选项卡上 **产品维度** 选项卡中的 **站点** 字段内，为物料选择库存站点。
-1. 若要从协议行中创建服务订单，请在 **行** 快速选项卡中选择 **创建服务订单**，然后将相关信息输入到 **创建服务订单** 窗体中。
+1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+
+2.  打开需要创建物料需求的服务协议。
+
+3.  在 **行** 快速选项卡上，单击 **添加** 创建新行。
+
+4.  在 **交易记录类型** 字段中选择 **物料**。
+
+5.  在 **物料设置** 字段中，选择 **物料需求**。
+
+6.  在 **物料编号** 字段中，选择该服务协议所需的物料。
+
+7.  在 **行明细** 快速选项卡上 **产品维度** 选项卡中的 **站点** 字段内，为物料选择库存站点。
+
+8.  若要从协议行中创建服务订单，请在 **行** 快速选项卡中单击 **创建服务订单**，然后将相关信息输入到 **创建服务订单** 窗体中。 
+
 
 ## <a name="see-also"></a>请参阅
 
 [自动创建服务订单](create-service-orders-automatically.md)。
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

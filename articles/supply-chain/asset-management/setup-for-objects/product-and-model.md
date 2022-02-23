@@ -1,10 +1,12 @@
 ---
 title: 资产制造商和模型
 description: 本主题介绍如何在资产管理中设置资产制造商和相关模型。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetProductLookup, EntAssetModelLookup, EntAssetProduct
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80fcb493d96209d78f842414c198a8275e4818ba365759466034faf5f3405540
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1eca3112b95bc7d1a049f101fc1d461272a63aa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739890"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022248"
 ---
 # <a name="asset-manufacturers-and-models"></a>资产制造商和模型
 
@@ -57,6 +59,3 @@ ms.locfileid: "6739890"
 2. 在 **资产** 列中，选择资产的链接。 将显示 **详细信息** 页。
 3. 选择 **编辑**。
 4. 在 **常规** 快速选项卡上的 **制造商** 和 **模型** 字段中选择值。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

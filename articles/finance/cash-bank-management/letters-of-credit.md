@@ -2,25 +2,28 @@
 title: 信用证
 description: 信用证是通常用于跨国界限的货物采购和销售的银行凭证。
 author: panolte
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfe172c6f635abc95a260403c6b30bfd2bdcdcf0b125efd947109ec6289e6c1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5a9be6ad2ff90dffdf8548d7594f922a7cf9b404
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756289"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440768"
 ---
 # <a name="letters-of-credit"></a>信用证
 
@@ -50,6 +53,3 @@ ms.locfileid: "6756289"
 [创建信用证的银行信贷协议](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

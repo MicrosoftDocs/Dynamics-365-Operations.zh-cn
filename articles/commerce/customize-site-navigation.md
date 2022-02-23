@@ -2,30 +2,36 @@
 title: 自定义站点导航
 description: 此主题介绍如何创建自定义的在线导航层次结构，以便组织产品以在 Microsoft Dynamics 365 Commerce 站点中进行浏览。
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410471"
 ---
 # <a name="customize-site-navigation"></a>自定义站点导航
+
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何创建自定义的在线导航层次结构，以便组织产品以在 Microsoft Dynamics 365 Commerce 站点中进行浏览。
+
+## <a name="overview"></a>概览
 
 客户通常可使用在线店面通过浏览产品类别发现和浏览产品。 此功能通常在页面顶部的选项卡或左侧导航栏中提供。 在 Dynamics 365 Commerce 中，可创建和管理类别导航的分层结构和各类别中包含的产品。
 
@@ -104,6 +110,3 @@ ms.locfileid: "6755874"
 [创建页面 URL](create-page-url.md)
 
 [使用发布组](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: 交付员工福利计划
-description: 本主题介绍如何创建在创建新福利时需要使用的福利元素。
-author: twheeloc
-ms.date: 08/23/2021
+description: 本文将向您展示如何创建在创建新福利时需要使用的福利元素。
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066060"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417484"
 ---
 # <a name="deliver-employee-benefits-program"></a>交付员工福利计划
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-本主题介绍如何创建在创建新福利时需要使用的福利元素。 创建此任务的演示数据公司是 USMF。 此任务专门面向薪资和福利经理。
+本文将向您展示如何创建在创建新福利时需要使用的福利元素。 创建此任务的演示数据公司是 USMF。 此任务专门面向薪资和福利经理。
 
 
 ## <a name="create-benefit-elements"></a>创建福利元素
@@ -70,6 +68,3 @@ ms.locfileid: "8066060"
 16. 在“基础”字段中，选择一个选项。
 17. 在“金额或费率”字段中，输入一个数值。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

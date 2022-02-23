@@ -2,9 +2,11 @@
 title: 创建在线渠道和定义渠道属性
 description: 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。
 author: jashanno
+manager: AnnBe
 ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98d218a2d4f3b31084adfbc013dd0999f459dc1572e29a6470edc7cb899809c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e92e28c721692ed92fa931ed899c48678622349
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964783"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
@@ -64,6 +66,3 @@ ms.locfileid: "6713358"
 3. 运行 1070 配送计划将更改同步到渠道数据库。 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

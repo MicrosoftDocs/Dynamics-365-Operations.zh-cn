@@ -1,30 +1,37 @@
 ---
 title: 云助力的搜索概览
-description: 此主题概述 Microsoft Dynamics 365 Commerce 中的云助力搜索。
+description: 此主题简介 Microsoft Dynamics 365 Commerce 中的云助力搜索。
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983661"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410363"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 
+
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 中的云助力搜索。
+此主题简介 Microsoft Dynamics 365 Commerce 中的云助力搜索。
+
+## <a name="overview"></a>概览
 
 产品发现功能有助于确保客户通过浏览类别，搜索和筛选，快速、轻松地找到产品。 零售商将产品发现视为所有渠道中的主要客户互动工具。
 
@@ -40,7 +47,7 @@ Dynamics 365 Commerce 搜索体验的功能已改进，可以帮助零售商改�
 
 下图显示典型浏览和搜索功能的示例。
 
-![搜索登陆页面。](./media/SearchLanding.png)
+![搜索登陆页](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>分面导航和选项汇总 
 
@@ -50,7 +57,7 @@ Dynamics 365 Commerce 搜索体验的功能已改进，可以帮助零售商改�
 
 下图显示一个示例，其中在搜索中使用分面导航。
 
-![选项汇总。](./media/ChoiceSummary.png)
+![选项汇总](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>沉浸式自动建议
 
@@ -60,7 +67,7 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 
 下图显示正在使用沉浸式自动建议的示例。
 
-![沉浸式自动建议。](./media/ImmersiveAutoSuggestUX.png)
+![沉浸式自动建议](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>排序
 
@@ -68,13 +75,10 @@ Dynamics 365 Commerce 也支持各种类别中使用关键字匹配功能。 客
 
 >[!NOTE]
 >从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数** 下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
-![云助力搜索的配置参数。](./media/CloudPoweredSearchConfigurationParameters.png)
+![云助力搜索的配置参数](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
 
 [管理 SEO 元数据](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

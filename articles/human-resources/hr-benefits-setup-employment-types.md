@@ -2,12 +2,15 @@
 title: 设置雇用类型
 description: 可以在 Dynamics 365 Human Resources 中设置雇用类型以便匹配工作人员。
 author: andreabichsel
+manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d17bb28782e332ded01ba8166f9993bfa195349
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d332f7f355c138cc058185f1b9578a67737fb1d0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417417"
 ---
 # <a name="set-up-employment-types"></a>设置雇用类型
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 在 Dynamics 365 Human Resources 中设置雇用类型以匹配您的工作人员。
 
@@ -43,6 +41,3 @@ ms.locfileid: "8069597"
    | **说明** | 类型类型的描述。 |
 
 4. 选择 **保存**。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

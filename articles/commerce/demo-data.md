@@ -2,13 +2,16 @@
 title: Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 description: 本主题提供了有关 Dynamics 365 Commerce 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761654"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4410642"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 
@@ -33,13 +36,13 @@ ms.locfileid: "6761654"
 
 包括在 Commerce 演示数据中的示例屏幕布局提供为各个零售段、商店工作人员角色和设备优化的内容。 一个布局可以包含多个布局大小和按钮网格组合，以在商店工作人员在设备和工作站之间移动时帮助确保覆盖范围。 此主题突出介绍了这些布局之间的区别、它们提供的操作和整体体验。
 
-![跨设备演示数据布局。](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![跨设备演示数据布局](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>屏幕布局 ID 的分类
 
 若要查找屏幕布局，请转到 **Retail 和 Commerce** \> **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
-![屏幕布局页面。](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![屏幕布局页面](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 屏幕布局 ID 最多可以有 10 个字符。 ID 是一个包括三个信息的字符串，按以下顺序：
 
@@ -52,7 +55,7 @@ ms.locfileid: "6761654"
 | 字母 | 公司         |
 |--------|-----------------|
 | A      | Adventure Works |
-| 五      | Fabrikam        |
+| F      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>布局版本
@@ -79,7 +82,7 @@ F4MGR
 
 下图显示 Fabrikam 商店经理的欢迎屏幕的示例。
 
-![Fabrikam 商店经理的欢迎屏幕。](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Fabrikam 商店经理的欢迎屏幕](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>布局大小
 
@@ -108,7 +111,7 @@ F4MGR
 > [!TIP]
 > POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Modern POS (MPOS) 或 Retail Cloud POS (CPOS) 中，打开 **设置** 页，然后在 **会话信息** 部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找布局内容的源，方法是转到 **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
-![Commerce 和 POS 中的屏幕布局和布局分辨率/大小。](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Commerce 和 POS 中的屏幕布局和布局分辨率/大小](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>公司和品牌
 
@@ -129,19 +132,19 @@ F4MGR
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![演示数据：Adventure Works 的欢迎页面。](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![演示数据：Adventure Works 的欢迎页面](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![演示数据：Adventure Works 的交易页面。](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![演示数据：Adventure Works 的交易页面](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![演示数据：Fabrikam 的欢迎页面。](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![演示数据：Fabrikam 的欢迎页面](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![演示数据：Fabrikam 的交易页面。](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![演示数据：Fabrikam 的交易页面](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![演示数据：Contoso 的布局。](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![演示数据：Contoso 的布局](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>用户登录矩阵
 
@@ -168,11 +171,8 @@ F4MGR
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
