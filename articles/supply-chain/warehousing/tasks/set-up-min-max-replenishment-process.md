@@ -2,24 +2,27 @@
 title: 设置最小-最大补货流程
 description: 此过程显示设置使用最小/最大补货战略的新补货流程。
 author: perlynne
+manager: tfehr
 ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423328"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 
@@ -117,6 +120,3 @@ ms.locfileid: "7577760"
 11. 单击 **确定**。
 12. 单击 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 波次模板分组
 description: 波次模板分组功能让系统使用波次模板设置根据定义的条件确定如何拆分已发放行和将其分配给新波次或现有波次。 在根据特定条件创建了波次，但是经理希望自动，而不是手动创建波次的仓库中，此功能可能非常有用。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423408"
 ---
 # <a name="wave-template-grouping"></a>波次模板分组
 
@@ -198,6 +201,3 @@ ms.locfileid: "7579896"
 1. 选择从第三个销售订单创建的波次 ID。
 1. 选择波次 ID 链接打开波次详细信息页。
 1. 请注意，已经将装运添加到了 **波次行** 快速选项卡，以及第一个销售订单的装运。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

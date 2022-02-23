@@ -2,8 +2,11 @@
 title: 文本类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的文本函数的信息。
 author: NickSelin
-ms.date: 09/09/2021
+manager: kfend
+ms.date: 04/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075492"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686019"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>文本类别的 ER 函数列表
 
@@ -35,14 +38,12 @@ ms.locfileid: "8075492"
 | [连接](er-functions-text-concatenate.md) | 在将所有指定的文本字符串合并为一个字符串之后，此函数将这些字符串作为 *字符串* 值返回。 |
 | [格式](er-functions-text-format.md) | 通过使用第 *N* 个参数替换出现的所有 **%N** 设定指定字符串的格式后，此函数作为 *字符串* 值返回该字符串。 |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | 此函数通过使用指定为 *字符串* 值的枚举名称在指定的枚举数据源中搜索特定的 *枚举* 值。 如果找到 *枚举* 值，函数将返回此值。 |
-| [GetLabelText](er-functions-text-getlabeltext.md) | 此函数搜索特定标签以返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，该值表示使用指定语言对指定标签的翻译。 |
 | [GuidValue](er-functions-text-guidvalue.md) | 此函数将 *字符串* 类型的指定输入转换为 *GUID* 类型的数据项。 |
 | [JsonValue](er-functions-text-jsonvalue.md) | 此函数分析在指定路径访问且格式为 JavaScript Object Notation (JSON) 的数据，并提取基于指定 ID 的标量值。 然后将提取的标量值返回为 *字符串* 值。 |
 | [左对齐](er-functions-text-left.md) | 此函数返回 *字符串* 值，该值在指定字符串的开头显示指定的字符数量。 |
 | [Len](er-functions-text-len.md) | 此函数返回 *整数* 值，该值在指定的字符串中显示字符数量。 |
 | [Lower](er-functions-text-lower.md) | 在将指定的文本字符串转换为小写字母后，此函数作为 *字符串* 值返回该字符串。 |
-| [Mid](er-functions-text-mid.md) | 此函数返回一个 *[字符串](er-formula-supported-data-types-primitive.md#string)* 值，此值在指定位置的开始处，在指定的字符串中显示指定的字符数量。 |
-| [NewGUID](er-functions-text-newguid.md) | 此函数返回新生成的 *[GUID](er-formula-supported-data-types-primitive.md#guid)* 值。 |
+| [Mid](er-functions-text-mid.md) | 此函数返回 *字符串* 值，该值在指定位置的开始处，在指定的字符串中显示指定的字符数量。 |
 | [NumberFormat](er-functions-text-numberformat.md) | 此函数返回一个 *字符串* 值，此值以指定格式和指定的区域性（可选）显示指定数字。 |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | 在使用指定语言拼出（即转换为文本字符串）指定数字后，此函数作为 *字符串* 返回指定数字。 |
 | [PadLeft](er-functions-text-padleft.md) | 此函数返回指定长度的 *字符串* 值，其中指定字符串的开头是使用一个或多个指定字符的实例填充的。 |
@@ -61,6 +62,3 @@ ms.locfileid: "8075492"
 [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 
 [电子申报公式语言](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 物料合并 - 位置利用率
 description: 本主题提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从“物料合并”页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423323"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 
@@ -147,7 +150,7 @@ ms.locfileid: "7578600"
 
 ## <a name="example-scenario"></a>示例场景
 
-以下方案使用仓库管理移动应用对仓库中的两个库位进行库存 *调入*。
+以下方案使用移动设备上的仓库应用对仓库中的两个位置进行库存 *调入*。
 
 ### <a name="add-inventory-to-locations"></a>将库存添加到位置
 
@@ -205,6 +208,3 @@ ms.locfileid: "7578600"
 
     > [!NOTE]
    > 系统会为必须完成的每个移动创建一个工作 ID。 如果您指定的位置已经包含库存，将仅创建一个工作 ID。 如果指定新位置，将创建两个工作 ID。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

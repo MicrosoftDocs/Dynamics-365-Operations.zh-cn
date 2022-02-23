@@ -2,8 +2,11 @@
 title: INTVALUE ER 函数
 description: 本主题提供有关 INTVALUE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d54543a6f9878feb3482c1c1e6c1f1f468718489fbc46aded84a5a84bdfb04e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98b91a983c60bb99280763f7f7a944d08f535e60
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745932"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685995"
 ---
 # <a name="intvalue-er-function"></a>INTVALUE ER 函数
 
@@ -70,6 +73,3 @@ INTVALUE (number)
 ## <a name="additional-resources"></a>其他资源
 
 [类型转换函数](er-functions-category-type-conversion.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 组织培训 Power BI 内容
 description: 此主题介绍 Finance and Operations - 组织培训 Power BI 内容。
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763540"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685827"
 ---
 # <a name="organizational-training-power-bi-content"></a>组织培训 Power BI 内容
 
@@ -28,7 +30,7 @@ ms.locfileid: "6763540"
 此主题介绍 Finance and Operations - 组织培训 Power BI 内容。
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>此内容包中包含的报表
-在连接内容包到您的数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+在连接内容包到您的数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，请可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告          | 内容                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -55,6 +57,3 @@ ms.locfileid: "6763540"
 | 培训\_职位        | 职位、职务和全职等效 (FTE)                  | 培训\_课程安排, 培训\_课程参与者 |
 | 培训\_工作人员姓名      | 名字、姓氏和全名                             | 培训\_课程参与者 |
 | 培训\_工作人员职务     | 职务和资历日期                                         | 培训\_课程参与者 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

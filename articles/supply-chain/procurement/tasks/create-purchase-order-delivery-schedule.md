@@ -1,24 +1,26 @@
 ---
 title: 创建含交货计划的采购订单
 description: 本主题显示如何为采购订单创建交货计划。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670870df1b0fcd86a0f04ce454e6ef84187187b8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b8cbcd46e84ca9e718a0f8f59c106147544a3751
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566927"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021796"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>创建含交货计划的采购订单
 
@@ -71,6 +73,3 @@ ms.locfileid: "7566927"
 6. 折叠 **行** 部分。
 7. 选择 **确定** 以过帐收据。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

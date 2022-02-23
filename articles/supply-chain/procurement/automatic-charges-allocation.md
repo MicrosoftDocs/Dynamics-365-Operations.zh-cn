@@ -1,23 +1,26 @@
 ---
 title: 自动分配费用
 description: Microsoft Dynamics 365 Supply Chain Management 中的费用功能帮助您自动将费用分配给采购订单或销售订单。
-author: Henrikan
-ms.date: 09/30/2021
+author: dasani-madipalli
+manager: tfehr
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592532"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423298"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 
@@ -26,16 +29,6 @@ ms.locfileid: "7592532"
 基于您与之合作的客户或所销售的物料，您可能需要应用特定的附加费用。 Microsoft Dynamics 365 Supply Chain Management 中的 *费用* 功能帮助您自动将费用分配给采购订单或销售订单。
 
 在创建销售订单或采购订单时将自动应用自动费用。 您可以定义特定供应商、客户、供应商组或物料的自动费用。 还可以定义适用于所有供应商、客户或物料的自动费用。
-
-## <a name="set-up-parameters"></a>设置参数
-
-**采购参数** 页上有一些设置，这些设置在您想要自动分配费用时尤为重要。 若要完成此设置，请按照以下步骤操作。
-
-1. 转至 **采购 \> 设置 \> 采购参数**。
-1. 打开 **价格** 选项卡。
-1. 在 **价格** 快速选项卡上，进行以下设置：
-    - **查找标头的自动费用** - 指定是否应针对采购订单头自动分配费用。 将此项设置为 *是* 以使用费用自动分配功能。
-    - **查找行的自动费用** - 指定是否应针对采购订单行自动分配费用。 将此项设置为 *是* 以使用费用自动分配功能。
 
 ## <a name="set-up-charges-codes"></a>设置费用代码
 
@@ -154,7 +147,7 @@ ms.locfileid: "7592532"
     - **站点** 和 **仓库** – 如果仅针对特定的站点和仓库应用费用，指定站点和仓库。
     - **保留** – 选中此复选框以在完成开票后保留这些费用交易记录，以便每次为所选客户帐户创建新发票时应用该费用。
 
-1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
+1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>将费用从标头分配到行
 
@@ -184,6 +177,3 @@ ms.locfileid: "7592532"
         > 当使用 **选择要从分配中排除的行** 网格时，请确保在选择 **分配** 之前将网格保持打开状态。 如果在选择 **分配** 之前关闭网格，您在网格中的设置将丢失。 因此，将根据您先前定义的条件分配费用。
 
 1. 选择 **分配** 以应用设置并关闭对话框。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

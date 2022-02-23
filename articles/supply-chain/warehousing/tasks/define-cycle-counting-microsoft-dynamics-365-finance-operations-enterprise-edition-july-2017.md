@@ -1,24 +1,27 @@
 ---
 title: 定义周期盘点
 description: 周期盘点是用于审计现有库存项目的仓库流程。
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45107dca67ac13669c468c4c32fb4adfdab2195b
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423357"
 ---
 # <a name="define-cycle-counting"></a>定义周期盘点 
 
@@ -93,6 +96,3 @@ ms.locfileid: "7902138"
 21. 单击 **确定**。
 22. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

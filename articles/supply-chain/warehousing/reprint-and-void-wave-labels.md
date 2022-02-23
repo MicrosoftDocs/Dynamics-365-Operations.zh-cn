@@ -1,22 +1,25 @@
 ---
 title: 重新打印和取消波次标签
 description: 本主题说明如何取消和重新打印现有波次标签。
-author: perlynne
+author: GarmMSFT
+manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: PJacobse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572329"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4423441"
 ---
 # <a name="reprint-and-void-wave-labels"></a>重新打印和取消波次标签
 
@@ -215,9 +218,3 @@ ms.locfileid: "7572329"
 1. 选择 **领料短缺**。
 1. 选择您为此方案创建的工作异常代码。
 1. 如果您选择了正确的异常，**取消并重新打印** 复选框应该可用。 选择此框并确认。 确认后，将根据更改的工作行数量重新计算由 **标签生成 ID** 字段标识的标签卷序列。 然后在指定打印机上重新打印。
-
-## <a name="additional-resources"></a>其他资源
-
-- [波次标签打印](configure-wave-label-printing.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: 按照产品变型的度量单位转换
 description: 本主题说明如何为产品变型设置度量单位转换。 其中包括设置示例。
-author: t-benebo
+author: johanhoffmann
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579560"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423286"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 
@@ -56,7 +59,7 @@ ms.locfileid: "7579560"
     - **产品** – 如果您选择此值，则可以为基础产品设置单位转换。 此单位转换用作没有为其定义任何单位转换的所有产品变型的应变计划。
     - **产品变型** – 如果您选择此值，则可以为特定产品变型设置单位转换。 请使用 **产品变型** 字段选择变型。
 
-    ![添加新单位转换。](media/uom-new-conversion.png "添加新单位转换")
+    ![![添加新单位转换](media/uom-new-conversion.png "添加新单位转换")](media/uom-new-conversion.png "Adding a new unit conversion")
 
 1. 请使用提供的其他字段设置单位转换。
 1. 选择 **确定** 保存新单位转换。
@@ -104,6 +107,3 @@ ms.locfileid: "7579560"
 ## <a name="additional-resources"></a>其他资源
 
 [管理度量单位](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

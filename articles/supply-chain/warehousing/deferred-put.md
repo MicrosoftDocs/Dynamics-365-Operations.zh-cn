@@ -1,24 +1,27 @@
 ---
 title: 推迟处理仓库工作
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577856"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423336"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
@@ -28,7 +31,7 @@ ms.locfileid: "7577856"
 
 推迟处理功能让仓库工人可以在后台处理放置操作期间继续执行其他工作。 当必须处理大量工作行，并且工人可以异步处理这些工作时，推迟处理非常有用。 当服务器的处理时间临时或意外增加，并且增加的处理时间可能影响用户的生产率时，此功能也非常有用。
 
-可使用 SysOperation 框架实现后台处理。 有关详细信息，请参阅 [SysOperation 框架概述](/dynamicsax-2012/developer/sysoperation-framework-overview)。
+可使用 SysOperation 框架实现后台处理。 有关详细信息，请参阅 [SysOperation 框架概述](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview)。
 
 ## <a name="configuring-the-work-processing-policies"></a>配置工作处理策略
 
@@ -107,9 +110,3 @@ ms.locfileid: "7577856"
 ## <a name="deleting-completed-tasks"></a>删除已完成任务
 
 可删除已完成的推迟放置处理任务，方法是在页面中选择这些任务，然后删除。
-
-## <a name="additional-resources"></a>其他资源
-
-- [延迟处理手动库存变动操作](deferred-processing-manual-inventory-movement.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

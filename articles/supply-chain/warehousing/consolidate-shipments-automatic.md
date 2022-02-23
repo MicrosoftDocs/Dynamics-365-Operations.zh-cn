@@ -1,26 +1,28 @@
 ---
-title: 使用自动下达销售订单合并下达到仓库的装运
+title: 使用自动发放销售订单发放到仓库时使用合并
 description: 此主题提供以下方案：在同一个自动化发放到仓库定期过程中将多个订单发放到仓库。
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 10c0b8b9478c8b31957cc08a1a827461c4621b8a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 376c7418b61c0192f9071a879b50b9ece7699894
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970348"
 ---
-# <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>使用自动下达销售订单合并下达到仓库的装运
+# <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>使用自动发放销售订单发放到仓库时使用合并
 
 [!include [banner](../includes/banner.md)]
 
@@ -315,6 +317,3 @@ ms.locfileid: "7574273"
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
 - [配置装运合并策略](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

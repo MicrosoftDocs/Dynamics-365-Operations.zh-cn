@@ -2,25 +2,28 @@
 title: 使用移动设备登记物料消耗量
 description: 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423279"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 
@@ -28,15 +31,16 @@ ms.locfileid: "6777855"
 
 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 
-## <a name="introduction"></a>简介
+<a name="introduction"></a>简介
+------------
 
-如果对物料可跟踪性有严格的要求，则此工作流相关。 在这些情况下，为了维护物料的可追踪性，必须申报消耗量的准确时间和数量。 此流程可能被视为与预先耗用或反向耗用工序（登记时间与发生实际消耗的时间之间存在偏移）相反。 这解释了为什么自动消耗策略无法用于具有可追踪性要求的一些物料。 我们来看一个简单的方案解释如何设置工作流以允许通过手持设备登记生产中的原材料消耗量。 [![设置使用手持设备启用原材料消耗量登记的工作流。](./media/scenario3.png)](./media/scenario3.png)
+如果对物料可跟踪性有严格的要求，则此工作流相关。 在这些情况下，为了维护物料的可追踪性，必须申报消耗量的准确时间和数量。 此流程可能被视为与预先耗用或反向耗用工序（登记时间与发生实际消耗的时间之间存在偏移）相反。 这解释了为什么自动消耗策略无法用于具有可追踪性要求的一些物料。 我们来看一个简单的方案解释如何设置工作流以允许通过手持设备登记生产中的原材料消耗量。 [![设置使用手持设备启用原材料消耗量登记的工作流](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>方案详细信息
 
 一个连续生产流程 (5) 使用受批次控制的原材料 RM-100。 物料是牌照 PL-1 上的库位 Bulk-001 (1) 上的现有物料，具有两个批次，B1 和 B2，数量均为 100 磅。 仓库工作 (2) 为 RM-100 进行发布和处理，且物料从 Bulk-001 领取到被定义为非牌照控制的生产输入库位 PIL-01 (3)。 机器操作员从生产输入库位 (3) 称出物料并将重量和批处理号登记为已使用 (4)。 从生产输入库位，部分物料在定义的时间间隔内被手动添加到生产流程。 在机器操作员添加物料时，物料在秤上称重，并登记批号。
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
+## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
 使用具有受批次控制的原材料 RM-100 的物料清单创建成品产品 FG-100。 将数量为 100 的 RM-100 的两个批次，B1 和 B2，添加到库位：Bulk-001，牌照：PL-1。 RM-100 在物料清单行上的耗用原则设置为 **手动**。 将生产输入库位设置为 PIL-01。 为此，您可以选择此库位作为仓库 51 上的默认生产输入库位。
 
 1.  创建新的移动设备菜单项： 
@@ -64,7 +68,7 @@ ms.locfileid: "6777855"
 
 在开始执行生产订单后，您可以使用用于手持设备的工作流登记物料消耗量。 我们先将批次 B1 的消耗量登记为 25 磅。
 
-6.  在手持设备的菜单中选择 **登记物** 料 **消耗量** 菜单项，输入以下详细信息： 
+6.  在手持设备的菜单中选择  **登记物** 料 **消耗量** 菜单项，输入以下详细信息： 
 
 -    生产订单编号。 
 -    要消耗物料的库位，在此例中为 PIL-01。 
@@ -88,6 +92,3 @@ ms.locfileid: "6777855"
 -   物料可以过度消耗。 例如，如果物料的估计消耗数量为 100 磅，则可以过度消耗，例如数量 105 磅。
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

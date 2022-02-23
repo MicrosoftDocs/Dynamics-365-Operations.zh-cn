@@ -2,23 +2,26 @@
 title: 为仓库流配置编号规则
 description: 本主题概括介绍为牌照 ID、波次标签 ID、集装箱 ID 和提单 ID 提供编号规则扩展的功能。
 author: GarmMSFT
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574705"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4423440"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>为仓库流配置编号规则
 
@@ -89,6 +92,3 @@ ms.locfileid: "7574705"
     | 校验位 | 此段类型将添加校验位，这是一个模数 10 计算。 （此行为与牌照 ID 的现有逻辑匹配。）对于此段类型，**值** 字段始终设置为脱字符号 (*^*)，**长度** 字段始终设置为 *1*。 |
 
 1. 要查看最终编号格式的示例，请查看 **段** 快速选项卡底部的 **格式** 字段。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

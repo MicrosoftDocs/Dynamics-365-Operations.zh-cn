@@ -2,25 +2,28 @@
 title: 行动消息
 description: 行动消息是系统生成的关于更改现有计划订单或确定订单的建议。
 author: ChristianRytt
+manager: tfehr
 ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, MCRSalesOrderMessages, MCRSalesTableDetailedStatus, TAMItemVendRebateGroup, TAMVendRebate, TAMVendRebateAgreementLineInfoPart, TAMVendRebateGroup, TAMVendRebateTable, TAMVendRebateTrans, ReqTransActionListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19411
 ms.assetid: 52b46d93-7d02-46b5-aad1-9fd08206bf9d
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb208d390d3b5d2091f5b0f112532794a4d78d8adcf947291a4183c3b3fd3f9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46e170b18a3c32d443c1de55516d19408b7947d3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769555"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423245"
 ---
 # <a name="action-messages"></a>行动消息
 
@@ -50,6 +53,3 @@ ms.locfileid: "6769555"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: 设置登记已接收物料的移动设备菜单项
 description: 此主题重点介绍设置移动设备菜单项。
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFMenu, WHSRFDefaultData
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423354"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>设置登记已接收物料的移动设备菜单项
 
@@ -57,6 +60,3 @@ ms.locfileid: "7565151"
 6. 选择 **保存**。
 7. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

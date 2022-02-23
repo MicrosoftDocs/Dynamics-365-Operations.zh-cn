@@ -1,10 +1,12 @@
 ---
 title: 实践经理 Power BI 内容
-description: 此主题介绍实践经理 Power BI 内容中的内容。
-author: kfend
+description: 此主题介绍实践经理 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
+author: KimANelson
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500213"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685697"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍 **实践经理** Microsoft Power BI 内容中所包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍 **实践经理** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
@@ -115,6 +117,3 @@ ms.locfileid: "7500213"
 | 关键聚合度量       | 字段               | 说明 |
 |---------------------------------|---------------------|-------------|
 | 已完成活动的计划成本 | Sum(TotalCostPrice) | 含已完成任务在内估计的所有项目交易记录类型的总成本价。 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

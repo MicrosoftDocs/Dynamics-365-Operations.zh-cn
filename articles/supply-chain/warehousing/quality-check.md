@@ -2,23 +2,26 @@
 title: 质量检查
 description: 本主题提供有关质量检查功能的信息。 此功能使仓库工作人员在将物料接收到进货台区域时可以快速进行质量抽查。
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423396"
 ---
 # <a name="quality-check"></a>质量检查
 
@@ -299,7 +302,7 @@ ms.locfileid: "7565295"
 
 #### <a name="receive-pallet-1"></a>接收托盘 1
 
-1. 以仓库 *51* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *51*，密码输入 *1*。）
+1. 以仓库 *51* 用户身份登录仓库应用。 （用户 ID 输入 *51*，密码输入 *1*。）
 1. 转到 **入站 \> 采购订单行收货**。
 1. 在 **PONUM** 字段中，输入采购订单编号。
 1. 确认采购订单编号。
@@ -310,7 +313,7 @@ ms.locfileid: "7565295"
 
     出现的 **质量检查** 页面没有输入字段。 它只在底部有一个确认（复选标记）按钮，在顶部有一个菜单按钮 (**≡**)。 （菜单按钮有时称为汉堡包或汉堡包按钮。）为了加快质量检查流程，当托盘通过质量检查时，用户只需确认 **质量检查** 页。
 
-    ![质量检查页面。](media/quality-check.png "质量检查页面")
+    ![质量检查页面](media/quality-check.png "质量检查页面")
 
 1. 选择确认按钮通过行 1 的托盘 1 的质量检查。
 
@@ -394,6 +397,3 @@ ms.locfileid: "7565295"
 1. 选择页面顶部的菜单按钮 (**≡**)，然后在菜单上选择 **取消** 返回菜单。
 
 您现在可以关闭移动应用了。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

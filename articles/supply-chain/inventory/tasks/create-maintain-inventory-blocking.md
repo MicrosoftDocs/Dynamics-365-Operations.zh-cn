@@ -1,60 +1,54 @@
 ---
 title: 创建和维护库存锁定
-description: 本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。
-author: yufeihuang
-ms.date: 03/23/2021
+description: 此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。
+author: perlynne
+manager: tfehr
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572833"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423264"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>创建和维护库存锁定
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。 在开始本主题中的过程之前，您必须有可以达到实际现有库存量的物料。
+此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。 您可以使用所示的示例值运行 USMF 公司演示数据的过程。 在开始此过程前，需要有物料和可用的实际现有库存。
 
-## <a name="block-inventory"></a>锁定库存
 
-要创建库存锁定记录以锁定库存，请按照下列步骤操作。
-
-1. 转到 **库存管理 \> 定期任务 \> 库存锁定**。
-1. 在操作窗格上，选择 **新建**。
-1. 在新锁定记录的标头上，将 **物料编号** 字段设置为要锁定的物料，然后输入描述。
-1. 在 **常规** 快速选项卡上，在 **数量** 字段中，输入要锁定的物料数量。
-1. 在 **库存维度** 快速选项卡上，指定您要锁定的物料当前所在的站点和仓库。
-1. 在操作窗格上，选择 **保存**。
+## <a name="create-an-inventory-blocking"></a>创建库存锁定
+1. 在 **导航窗格** 中，转到 **模块 > 库存管理 > 定期任务 > 库存锁定**。
+2. 单击 **新建**。
+3. 在 **物料编号** 字段中，单击下拉按钮以打开查找。
+4. 在列表中，选择您想选的物料。 选择物料编号以及您想要锁定的实际现有库存。 如果您使用 USMF，您可以选择物料 M9201。  
+5. 在 **数量** 字段中，输入一个数字。 如果您使用物料 M9201，需要选择少于 200。
+6. 展开 **库存维度** 快速选项卡。
+7. 在 **仓库** 字段，单击下拉按钮以打开查找。
+8. 在列表中，找到并选择所需记录。 如果您使用物料 M9201，您可以选择仓库 51。  
+9. 单击 **保存**。
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>更新库存锁定的条件
+1. 在 **常规** 快速选项卡的 **数量** 字段中，输入一个数字。 更新“库存数量”字段以反映锁定数量。  
+2. 在 **预期日期** 字段中输入日期。 您可能希望通过分配预期日期，指定锁定的库存什么时候可供使用。 如果为库存锁定选择所需的收据选项，由于在您手动创建锁定时为默认显示，该日期将出现在预期事务中。  
+3. 单击 **保存**。
 
-要更新库存锁定记录，请按照下列步骤操作。
+## <a name="remove-the-inventory-blocking"></a>取消库存锁定
+1. 在 **操作窗格** 上，单击 **删除**。
+2. 单击 **是**。
+3. 关闭该页面。
 
-1. 转到 **库存管理 \> 定期任务 \> 库存锁定**。
-1. 在列表窗格中，选择相关的锁定记录。
-1. 根据需要编辑记录。 例如，您可以更改 **预期日期** 字段的值，来指示被锁定的库存预计在何时可以预留。 如果选择了 **预期收货** 选项，此日期将出现在预期交易中。 （**预期收货** 选项在您手动创建锁定记录时默认选择。）
-1. 在操作窗格上，选择 **保存**。
-
-## <a name="unblock-inventory"></a>解锁库存
-
-要删除库存锁定记录以解锁库存，请按照下列步骤操作。
-
-1. 转到 **库存管理 \> 定期任务 \> 库存锁定**。
-1. 在列表窗格中，选择相关的锁定记录。
-1. 在操作窗格上，选择 **删除**。
-1. 系统将提示您确认操作。 选择 **是** 继续。
-1. 关闭该页面。
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

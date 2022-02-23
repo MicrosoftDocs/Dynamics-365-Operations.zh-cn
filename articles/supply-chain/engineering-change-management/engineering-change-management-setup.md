@@ -2,23 +2,26 @@
 title: 为工程更改管理建立通用值
 description: 本主题介绍如何建立用于工程更改管理的各部分中的参数的通用值。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565919"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423452"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>为工程更改管理建立通用值
 
@@ -88,6 +91,3 @@ ms.locfileid: "7565919"
 - **严重性** – 选择严重性级别以为其建立规则。 使用 **工程更改严重性** 页面创建和命名级别。 （有关详细信息，请参阅上一部分。）
 
 使用 **规则** 快速选项卡上的按钮添加或删除当前严重性设置的规则。 每个规则都有 **规则** 字段和 **名称** 字段。 规则由系统建立，并指示产品可以具有的更改类型。 名称指示更改的类型。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

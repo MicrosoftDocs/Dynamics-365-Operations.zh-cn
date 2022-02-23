@@ -2,24 +2,27 @@
 title: 设置群集领料
 description: 此主题介绍如何设置群集领料和如何为群集领料应用物料确认。
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423416"
 ---
 # <a name="set-up-cluster-picking"></a>设置群集领料
 
@@ -77,6 +80,3 @@ ms.locfileid: "6744574"
 1. 在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** \> **仓库管理** \> **设置** \> **移动设备** \> **移动设备菜单项**。
 
 1. 从移动设备菜单项打开 **工作确认设置**。 **产品确认** 选项允许您在扫描时从移动设备验证每件库存。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

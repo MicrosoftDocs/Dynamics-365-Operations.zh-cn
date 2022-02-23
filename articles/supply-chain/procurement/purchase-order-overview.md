@@ -1,28 +1,28 @@
 ---
 title: 采购订单概览
 description: 本文提供有关采购订单 (PO)，以及与采购订单所经历的各个阶段相关的其他文章的链接的一般信息。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "93083"
-- intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982296"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022223"
 ---
 # <a name="purchase-order-overview"></a>采购订单概览
 
@@ -43,7 +43,7 @@ ms.locfileid: "7982296"
 -   [创建采购订单](purchase-order-creation.md)
 -   [审核和确认采购订单](purchase-order-approval-confirmation.md)
 -   [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>采购订单的类型
 采购订单有三种类型： 创建采购订单时，必须指定仓库类型。 您可以在 **采购参数** 页为新订单设置默认订单类型。
@@ -78,7 +78,8 @@ ms.locfileid: "7982296"
 -   **已确认** – 订单已被确认后，将分配此状态。 通常，此状态是分配给订单的最后审核状态。
 
 
-## <a name="additional-resources"></a>其他资源
+<a name="additional-resources"></a>其他资源
+--------
 
 [创建采购订单](purchase-order-creation.md)
 
@@ -86,10 +87,7 @@ ms.locfileid: "7982296"
 
 [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
-[供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+[供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

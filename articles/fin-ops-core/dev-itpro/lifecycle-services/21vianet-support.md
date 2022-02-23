@@ -1,10 +1,12 @@
 ---
-title: 对中国世纪互联运营的 Finance and Operations 的支持
-description: Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+title: 对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
+description: Finance and Operations 应用通过21Vianet提供大量自助服务支持选项和支持。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -12,27 +14,27 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af909fe7f1e7049ed80f101808a2895a7792572e3132c3c18c3afc6e24358175
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c56b7ca36c34a8cf915f03860c62a2cacd89902
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775270"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685023"
 ---
-# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Finance and Operations 的支持
+# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对 21Vianet 中国世纪互联运营的 Finance and Operations 的支持
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+Finance and Operations 应用通过21Vianet提供大量自助服务支持选项和支持。
 
 ## <a name="self-help-resources"></a>自助资源
 
 
 - [Finance and Operations 应用程序文档](../../fin-ops/index.md)
 - [Supply Chain Management 的帮助资源](../../../supply-chain/index.md)
-- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
+- [Finance and Operations 应用 - 由21Vianet在中国运营](../deployment/china-local-deployment.md)
 - [Dynamics 社区](https://community.dynamics.com/)
-- [Microsoft Learn](/learn/)
+- [Microsoft Learn](https://docs.microsoft.com/learn/)
 
 ## <a name="assisted-support"></a>协助式支持
 
@@ -44,7 +46,7 @@ Finance and Operations 应用通过世纪互联提供大量自助服务支持选
 
 售前支持提供有关预订功能与权益、套餐比较、定价和许可的协助，并帮助确定可满足您的企业需要的适合解决方案。 此外，售前支持还可以帮助您找到合作伙伴和购买及注册试用。 您可以在周一到周五的当地营业时间致电。 
 
-### <a name="billing-and-subscription-management-support-through-21vianet"></a>世纪互联提供的计费和订阅管理支持
+### <a name="billing-and-subscription-management-support-through-21vianet"></a>21Vianet 提供的计费和订阅管理支持
 
 计费和订阅支持电话号码：+86 400-089-0365。
 
@@ -60,9 +62,9 @@ Finance and Operations 应用通过世纪互联提供大量自助服务支持选
 - 取消付费预订。
 
 
-### <a name="assisted-technical-support-through-21vianet"></a>世纪互联的协助式技术支持
+### <a name="assisted-technical-support-through-21vianet"></a>21Vianet提供的协助式技术支持
 
-如果部署遇到技术问题，请通过 [LCS 门户](https://lcs.dynamics.cn/)或致电支持电话 +86 400-089-0365 向世纪互联报告。  运营的技术支持工作时间为中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00。
+如果部署遇到技术问题，请通过 [LCS 门户](https://lcs.dynamics.cn/)或致电支持电话 +86 400-089-0365 向21Vianet报告。  运营的技术支持工作时间为中国标准时间 (CST) 的周一到周五当地营业时间 9:00 到 18:00。
 
 支持请求 (SR) 会在数小时内处理，具体取决于对您的业务的影响严重性：
 
@@ -80,16 +82,13 @@ Finance and Operations 应用通过世纪互联提供大量自助服务支持选
 有关购买顶级支持的详细信息，请联系您的 Microsoft 客户团队。 如果您有顶级支持套餐，可通过[我的在线顶级支持](https://support.microsoft.com/premier)联系支持。 
 
 ## <a name="additional-resources"></a>其他资源
-- [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
-- [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
+- [由21Vianet运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
+- [Finance and Operations 应用 - 由21Vianet在中国运营](../deployment/china-local-deployment.md)
+- [Dynamics 365 中的模型驱动应用 - 由21Vianet在中国运营](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 法律信息 (Dynamics 365 法律信息)](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
 - [Dynamics 365 Lifecycle Services 的服务条款](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
-- [中国区 Azure 世纪互联](/azure/china/china-welcome)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [中国区 Azure 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)

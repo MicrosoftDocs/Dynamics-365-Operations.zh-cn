@@ -1,25 +1,28 @@
 ---
 title: 设置领料短缺的物料重新分配
 description: 此主题显示如何启用仓库工作人员，以便在为其指示的货位的库存不足时，快速找到备用货位。
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe17246037a35e44d12476f184af3bd4c806022
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423353"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>设置领料短缺的物料重新分配
 
@@ -61,6 +64,3 @@ ms.locfileid: "7565224"
 6. 在列表中选择一个 **用户 ID**。 例如，24。
 7. 展开 **工作** 快速选项卡。
 8. 在 **允许手动重新分配物料** 字段中选择 **是**。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

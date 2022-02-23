@@ -1,10 +1,12 @@
 ---
 title: ER 配置格式以执行盘点和合计（第 3 部分 - 使用计算生成输出）
-description: 本主题介绍如何配置电子报告格式以基于已经生成的文本输出的数据执行盘点和合计。 （第 3 部分）
+description: 以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a59dc2ff4e4e2092911e0aec092ae8182f7601413fc220fda47766a3a0bc061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b26a7f50a2237e0d3d756f8eebf2e4cd81f24683
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718277"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684659"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a>ER 配置格式以执行盘点和合计（第 3 部分 - 使用计算生成输出）
 
@@ -130,6 +132,3 @@ ms.locfileid: "6718277"
 77. 单击“保存”。
 78. 关闭该页面。
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

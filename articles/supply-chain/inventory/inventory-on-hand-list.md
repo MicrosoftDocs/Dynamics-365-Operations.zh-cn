@@ -1,24 +1,27 @@
 ---
 title: 现有库存量列表
 description: 本主题介绍如何使用现有量列表页面检查现有库存量详细信息。 其中演示了将各种筛选和排序选项一起使用的几种方式，以及当组合在一起时这些选项有时会如何产生意外的结果。
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423414"
 ---
 # <a name="inventory-on-hand-list"></a>现有库存量列表
 
@@ -143,6 +146,3 @@ ms.locfileid: "7573913"
 | IA0001 | 1 | 2 | 2 |
 
 请注意，**筛选器** 窗格中的设置将应用于本节开头显示的详细（非聚合）库存表。 因此，条件 **实际可用**\|**小于或等于** \|_1_ 从该表中找到两行（第一和第三行，每行均显示 **实际可用** 值 _1_）。 但是，在此场景中，**现有量列表** 页面未设置为显示 **仓库** 维度。 因此，它将两个原始行聚合到一个生成的行中，因为这两个行在显示的所有维度中都具有相同值。 此行似乎违反了筛选条件，因为 **实际可用** 值显示 _2_。 但是，结果是正确的，因为 **筛选器** 窗格中的设置应用于源表，不应用于 **现有量列表** 页面上显示的聚合表。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

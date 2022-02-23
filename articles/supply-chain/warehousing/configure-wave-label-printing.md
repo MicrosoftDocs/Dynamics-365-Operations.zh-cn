@@ -1,26 +1,29 @@
 ---
-title: 波次标签打印
+title: 设置和使用波次标签打印
 description: 本主题介绍了波次标签打印并解释了如何进行设置。
-author: perlynne
+author: GarmMSFT
+manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: PJacobse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: perlynne
+ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778075"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4423439"
 ---
-# <a name="wave-label-printing"></a>波次标签打印
+# <a name="set-up-and-use-wave-label-printing"></a>设置和使用波次标签打印
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,7 +56,7 @@ ms.locfileid: "7778075"
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>开启波次标签打印功能
 
-从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。 但是，此功能仍按以下方式列在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中：
+*波次标签打印* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
 
 - **模块**：*仓库管理*
 - **功能名称**：*波次标签打印*
@@ -929,10 +932,3 @@ ms.locfileid: "7778075"
 - 波次标签历史记录
 
 对于这些页面中的大多数页面，可以通过在“操作窗格”的 **装运** 选项卡上的 **相关信息** 组中选择 **波次标签** 来查找相关功能。
-
-## <a name="additional-resources"></a>其他资源
-
-- [重新打印波次标签并使之无效](reprint-and-void-wave-labels.md)
-- [在波次期间计划波次标签打印](configure-task-based-wave-label-printing.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

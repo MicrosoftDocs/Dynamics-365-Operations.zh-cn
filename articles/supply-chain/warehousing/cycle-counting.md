@@ -1,26 +1,29 @@
 ---
 title: 周期盘点
 description: 本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423337"
 ---
 # <a name="cycle-counting"></a>周期盘点
 
@@ -34,7 +37,7 @@ ms.locfileid: "7902213"
 2.  **处理周期盘点** – 在创建周期盘点工作之后，您通过盘点仓库库位的物料执行周期盘点，然后使用移动设备将结果输入到 Dynamics 365 Supply Chain Management 中。 或者，您可以在不创建周期盘点的情况下在仓库场所盘点物料。 此过程被称为 *现场周期盘点*。
 3.  **解决周期盘点值中的差异** – 周期盘点之后，与盘点值有差异的任何物料必须在 **所有工作** 页中设定为 **待核查** 的工作状态。 您可以在 **周期盘点工作待审阅** 页上解决这些差异。
 
-下图显示了周期盘点流程。 ![周期盘点的流程流。](./media/performcyclecountinginawarehouselocation.jpg)
+下图显示了周期盘点流程。 ![周期盘点流程](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>周期盘点先决条件
 下表显示必须先就绪然后才能开始使用周期盘点。
@@ -137,6 +140,3 @@ ms.locfileid: "7902213"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

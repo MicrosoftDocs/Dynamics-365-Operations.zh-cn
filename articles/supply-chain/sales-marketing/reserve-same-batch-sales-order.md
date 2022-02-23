@@ -1,27 +1,30 @@
 ---
 title: 为销售订单预留相同批次
 description: 本文说明如何设置产品以对照单个库存批次预留库存。
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d4f3ee5d99648155e663c9ad0849b0b9ae3f80e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423411"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
 
@@ -41,7 +44,4 @@ ms.locfileid: "7576608"
 - 根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。
 - 根据到期日期和最佳使用日期以及任何客户适售期，该批次的保质期剩余天数不足。
 
-对于与启用了 **使用仓库管理流程** 的存储维度组关联的物料，您可以使用批号库存维度在库位维度之上定义的预留层次结构预留特定的批号。 此类型的预留层次结构也称为 *Batch-above \[location\]* 预留层次结构。 销售和转移单行的 **批次预留** 页面还允许您根据可用的批处理号选择和预留多个行。 有关使用批号维度在库位之下的预留层次结构 (*Batch-below \[location\]*) 的操作方法的详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+对于与启用了 **使用仓库管理流程** 的存储维度组关联的物料，您可以使用批处理号库存维度在库位维度之上定义的预留层次结构，来预留特定的批处理号。 销售和转移单行的 **批次预留** 页面还允许您根据可用的批处理号选择和预留多个行。 有关使用批处理号维度在库位之下的预留层次结构的操作方法的详细信息，请参阅[灵活的仓库级维度预留策略](../warehousing/flexible-warehouse-level-dimension-reservation.md)。

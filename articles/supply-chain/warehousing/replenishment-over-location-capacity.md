@@ -2,23 +2,26 @@
 title: 库位容量范围内的补货
 description: 本主题提供有关“按位置容量补货”功能的信息。 此功能使创建当天所需的所有补货工作成为可能，并管理该补货工作的可用性，以确保领料位置既不会用完库存，也不会超出容量。
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423388"
 ---
 # <a name="replenishment-over-location-capacity"></a>库位容量范围内的补货
 
@@ -32,7 +35,7 @@ ms.locfileid: "7778199"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能（按此顺序）：
 
-1. 组织范围内的工作锁定（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
+1. 组织范围内的工作阻止
 1. 库位容量范围内的补货
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>为示例方案设置此功能
@@ -239,7 +242,7 @@ ms.locfileid: "7778199"
 
 #### <a name="on-hand-inventory-license-plate-id"></a>现有库存量牌照 ID
 
-在此方案的后面，您将使用仓库管理移动应用（或模拟器），这时，您必须确定牌照才能完成领料和补货方案。
+在此方案的后面，您将使用仓库应用（或模拟器），这时，您必须确定牌照才能完成领料和补货方案。
 
 要查找以后需要的牌照 ID，请按照以下步骤操作。
 
@@ -264,7 +267,7 @@ ms.locfileid: "7778199"
 
 #### <a name="replenishment"></a>补货
 
-1. 以仓库 *61* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *61*，密码输入 *1*。）
+1. 以仓库 *61* 用户身份登录仓库应用。 （用户 ID 输入 *61*，密码输入 *1*。）
 1. 转到 **库存 \> 补货**。
 
     系统将提示您完成第一项补货工作。 物料编号、数量和要领料的位置将显示。
@@ -294,7 +297,7 @@ ms.locfileid: "7778199"
 
 领料位置的库存必须消耗到可以解锁其余补货工作的级别，才能够完成剩余补货工作任务。 换言之，该位置的现有库存数量与补货数量之和不能超过 **溢出数量** 值。 当此和低于溢出数量时，剩余补货工作将被解锁。
 
-1. 以仓库 *61* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *61*，密码输入 *1*。）
+1. 以仓库 *61* 用户身份登录仓库应用。 （用户 ID 输入 *61*，密码输入 *1*。）
 1. 转到 **出站 \> 销售领料**。
 1. 输入销售订单 1 的第一个工作 ID。
 
@@ -405,6 +408,3 @@ ms.locfileid: "7778199"
 - 如果需要，您可以从 **工作详细信息** 页面手动覆盖每个工作标题的补货工作可用性。
 - 当系统设置补货工作可用性时，将考虑在完成任何工作之前该位置已经存在的任何库存
 - 销售订单工作的每项工作都将关联到特定的补货工作。 没有相应的销售工作可用性功能。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

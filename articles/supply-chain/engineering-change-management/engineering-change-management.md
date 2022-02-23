@@ -2,23 +2,26 @@
 title: 管理工程产品的更改
 description: 本主题提供有关工程更改管理的信息。 工程更改管理提供用于管理工程产品的更改的结构化流程，从提出、请求和作出更改到审查和批准更改、评估其对现有交易的影响和跟进它们。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568127"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423455"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 
@@ -92,13 +95,9 @@ ms.locfileid: "7568127"
 
 **源** 快速选项卡可让您跟踪更改请求的起点。 例如，如果您想查看更改请求是否是从销售订单中创建的，创建者是谁以及创建它的公司，这很有用。
 
-### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>评估更改请求的业务影响并发送通知
+### <a name="evaluate-the-business-impact-of-a-change-request"></a>评估更改请求的业务影响
 
-审查更改请求时，可以搜索依赖项。 这样，您可以评估请求的更改对未结交易（例如销售订单、生产订单和现有库存）的影响。 在查看更改请求时，您可以向负责履行各个类型的相关订单的人员发送通知。
-
-#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>查看受影响的交易、阻止选定的交易并发送通知
-
-要查看受影响的交易、阻止选定的交易并发送相关通知，请按照以下步骤操作。
+审查更改请求时，可以搜索依赖项。 这样，您可以评估请求的更改对未结交易（例如销售订单、生产订单和现有库存）的影响。
 
 1. 转到 **工程更改管理 \> 通用 \> 工程更改管理 \> 工程更改请求**。
 1. 打开现有的更改请求，或在操作窗格上选择 **新建** 以创建新的更改请求。
@@ -107,36 +106,7 @@ ms.locfileid: "7568127"
     - **搜索** – 扫描所有未结交易，然后打开 **对未结交易的业务影响** 对话框，其中列出了将受更改影响的所有交易。
     - **查看上一个搜索** – 打开 **对未结交易的业务影响** 对话框，其中列出了上一个搜索的结果。 （新搜索未完成。）
 
-1. **对未结交易的业务影响** 对话框提供了一组选项卡，每个选项卡显示特定类型（**销售订单**、**采购订单**、**生产订单**、**库存** 等）的受影响交易的列表。 每个选项卡还显示一个数字，指示该类型的受影响交易的数量。 选择一个选项卡查看相关列表。
-1. 要处理列表中的交易，选择它，然后选择工具栏上的以下按钮之一：
-
-    - **查看交易** – 打开所选的交易记录。
-    - **锁定订单** – 此按钮仅在 **销售订单** 选项卡上可用。选择它将锁定选定的销售订单。
-    - **锁定行** – 此按钮仅在 **采购订单** 选项卡上可用。选择它将锁定选定的采购订单行。
-    - **通知负责人** – 此按钮仅在 **销售订单** 选项卡上可用。选择它将向被设置为负责选定销售订单的用户发送更改通知。 有关谁可以查看通知以及如何查看的详细信息，请参阅[查看并处理交易更改通知](#review-notifications)。
-    - **通知订货人** – 此按钮仅在 **采购订单** 选项卡上可用。选择它将向被设置为选定采购订单订货人的用户发送更改通知。 有关谁可以查看通知以及如何查看的详细信息，请参阅[查看并处理交易更改通知](#review-notifications)。
-    - **通知生产** – 此按钮仅在 **生产订单** 选项卡上可用。与销售订单和采购订单不同，生产订单没有设置为端到端负责订单的单个用户。 通常是各个主管或计划人员具有生产的特定站点或特定部分（例如，特定资源或资源组）的所有权。 因此，当您选择此按钮时，负责与所选生产订单相关的任何资源的所有用户都会收到更改通知。 有关谁可以查看通知以及如何查看的详细信息，请参阅[查看并处理交易更改通知](#review-notifications)。
-    - **通知准备人** – 此按钮仅在 **采购申请** 选项卡上可用。选择它将向被设置为选定采购申请准备人的用户发送更改通知。 有关谁可以查看通知以及如何查看的详细信息，请参阅[查看并处理交易更改通知](#review-notifications)。
-    - **通知销售负责人** – 此按钮仅在 **报价单** 选项卡上可用。选择它将向被设置为负责选定报价单的用户发送更改通知。 有关谁可以查看通知以及如何查看的详细信息，请参阅[查看并处理交易更改通知](#review-notifications)。
-    - **报废** – 此按钮仅在 **库存** 选项卡上可用。选择它将报废选定的库存。
-    - **查看历史记录** – 使用 **对未结交易的业务影响** 对话框打开对选定交易执行的操作的历史记录。 （例如，历史记录显示通知是否已发送或交易是否已被锁定。） 
-    - **查看所有交易** – 打开所有交易的完整列表，而不只是未结交易。
-
-> [!IMPORTANT]
-> 仅当系统中开启了 *面向生产部门的工程通知* 功能，**通知生产** 按钮才可用。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
-
-#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>查看和处理交易的更改通知
-
-您可以通过以下方式阅读和处理收到的更改通知：
-
-- 除生产订单外，您所负责的交易的更改通知都会显示在操作中心。 导航栏右侧的 **显示消息** 按钮（铃铛符号）指示操作中心何时有发送给您的消息。 选择 **显示消息** 按钮打开操作中心并查看消息。
-- 要查看已发送工程通知的所有生产订单，转到 **生产订单 \> 生产订单 \> 所有生产订单**。 然后，在操作窗格上的 **生产订单** 选项卡上，在 **工程更改请求** 组中，选择 **工程通知** 打开 **工程通知** 页。
-- 对于生产订单，您可以选择仅查看适用于您管理的生产资源的更改通知。 在 **生产车间管理** 工作区的操作窗格中，选择 **配置我的工作区** 筛选页面，以仅显示有关您管理的生产单位、组和/或资源的信息。 在 **摘要** 部分，名为 **具有已更改产品的生产订单** 的磁贴显示与您的筛选器设置匹配的通知计数。 选择此磁贴打开 **工程通知** 页，其中显示了符合您的筛选器条件的交易的完整列表。
-
-当您在 **工程通知** 页上查看生产订单通知时，您可以通过选择列值或使用操作窗格上的相关命令访问相关更改订单或生产订单的链接。 完成更改评估后，在根据需要取消或修改生产订单之后，您可以将通知标记为已解决。 选择通知，然后在操作窗格上，选择 **解决**。 通知将被从所有用户的视图中删除。
-
-> [!IMPORTANT]
-> 如需发送生产订单的通知，需要系统中开启 *面向生产部门的工程通知* 功能。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
+1. 如果发现了需要更改的关键问题，您可以在 **对未结交易的业务影响** 对话框中使用工具栏上的按钮阻止未结交易或通知负责的用户。
 
 ### <a name="create-a-change-order-from-a-change-request"></a>根据更改请求创建更改订单
 
@@ -172,14 +142,13 @@ ms.locfileid: "7568127"
 
 如[工程公司和数据所有权规则](engineering-org-data-ownership-rules.md)中所述，您可以编辑的产品数据会有所不同，具体取决于您所工作的法人类型（是工程公司还是运营公司）。 数据所有权规则也适用于工程更改订单。 因此，根据您创建工程更改订单的法人，可以作出不同类型的更改。 下面举了一些示例加以说明：
 
-- 对于 *工程公司* 中的工程更改订单，您可以对工程数据进行基本更改。 例如，您可以创建产品的新版本，通过 BOM 更改产品的结构，以及更改工程属性值。 对于每个受影响的产品，请在 **影响** 字段中选择以下值之一：
+- 对于 **工程公司** 中的工程更改订单，您可以对工程数据进行基本更改。 例如，您可以创建产品的新版本，通过 BOM 更改产品的结构，以及更改工程属性值。 对于每个受影响的产品，请在 **影响** 字段中选择以下值之一：
 
     - **无** – 更新现有产品版本（版本内更新）。
     - **新版本** – 创建基于所选产品版本的新版本。
-    - **新产品** – 创建基于所选产品版本的全新产品。
-    - **新变型** – 创建基于所选产品版本的新变型。 它的物料清单和工艺路线信息将被复制。
+    - **新产品** – 创建全新的产品或基于所选产品版本的产品变型。
 
-- 对于 *经营公司* 中的工程更改订单，您可以更改产品的物流数据。 例如，您可以使用用于采购的设置扩充现有 BOM，添加本地工艺路线或本地 BOM，甚至可以通过添加用于本地包装材料、润滑液或本地语言说明的新 BOM 行来扩充 BOM。 当工程公司发送新更新时，将保留用户在运营公司中进行的扩充。 有关详细信息，请参阅[工程公司和数据所有权规则](engineering-org-data-ownership-rules.md)。
+- 对于 **经营公司** 中的工程更改订单，您可以更改产品的物流数据。 例如，您可以使用用于采购的设置扩充现有 BOM，添加本地工艺路线或本地 BOM，甚至可以通过添加用于本地包装材料、润滑液或本地语言说明的新 BOM 行来扩充 BOM。 当工程公司发送新更新时，将保留用户在运营公司中进行的扩充。 有关详细信息，请参阅[工程公司和数据所有权规则](engineering-org-data-ownership-rules.md)。
 
     在工程公司中处理工程更改订单时，仅在工程公司中创建和/或更新产品。 因此，如果还应更新产品主数据，则还必须将产品发布给运营公司。
 
@@ -216,6 +185,3 @@ ms.locfileid: "7568127"
 | 环境健康和安全 | 指定环境健康和安全规则是否适用于更改。 如果适用，则可以选择适用的规则。 |
 
 您可以使用 **维护/复制更改信息** 按钮在受影响的产品之间复制更改信息。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

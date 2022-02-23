@@ -1,34 +1,37 @@
 ---
 title: 管理仓库工作人员
-description: 本文介绍如何使用仓库管理移动应用帮助控制和监视由您仓库的员工执行的工作。
+description: 本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a3261571f7ba43a79ee42afd8cdfe9b69cb83c01de3e4b2b89d2b0aae668ea2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423315"
 ---
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何使用仓库管理移动应用帮助控制和监视由您仓库的员工执行的工作。
+本文介绍如何使用仓库应用帮助监控由您仓库的员工执行的工作。
 
-如果在仓库管理中使用此功能，所有仓库工作人员的操作称作 *工作*。 领料、移动和盘点现有库存量等工作使用移动设备记录。 仓库工作人员必须与 Human Resources 中的工作人员关联，然后才能够执行工作。 每个 **工作人员** 帐户可以有多个仓库工作用户与它关联。 这些工作用户可以在不同的仓库工作，并且可具有不同级别的各个移动设备菜单的访问权限。 您可以将仓库工作用户视作所选工作人员的多重登录。 每个工作用户具有默认仓库，并且特定工作流由可用于该工作用户的菜单项显示。 
+如果在仓库管理中使用此功能，所有仓库工作人员的操作称作 *工作*。 领料、移动和盘点现有库存量等工作使用移动设备记录。 在仓库工作人员可以执行工作之前，他或她必须与人力资源的工作人员关联。 每个 **工作人员** 帐户可以有多个仓库工作用户与它关联。 这些工作用户可以在不同的仓库工作，并且可具有不同级别的各个移动设备菜单的访问权限。 您可以将仓库工作用户视作所选工作人员的多重登录。 每个工作用户具有默认仓库，并且特定工作流由可用于该工作用户的菜单项显示。 
 
 若要创建新的工作用户，在 **工作人员** 页面，在 **常规** 选项卡上，在 **仓库** 部分单击 **工作人员**。 您必须指定用户 ID、用户名、默认仓库和菜单名。 此菜单在该用户登录到仓库移动设备门户时加载，让您定义用户有权访问的菜单项。 
 
@@ -54,6 +57,3 @@ ms.locfileid: "6757510"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

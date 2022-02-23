@@ -1,38 +1,39 @@
 ---
 title: 仓库对采购订单入站负荷的处理
 description: 此主题介绍仓库对采购订单入站负荷的处理流程。
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778051"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423324"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
-[!include [banner](../includes/banner.md)]
-
 此主题介绍仓库对采购订单入站负荷的处理流程。
 
-对于每项入站负荷，系统中应该已经有了一个相关采购订单，并且还可能有相关负荷规范和/或运输计划。 有关如何创建和管理入站负荷的详细信息，请参阅[业务流程：计划入站负荷的运输](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads)。
+对于每项入站负荷，系统中应该已经有了一个相关采购订单，并且还可能有相关负荷规范和/或运输计划。 有关如何创建和管理入站负荷的详细信息，请参阅[业务流程：计划入站负荷的运输](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads)。
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>概述：如何创建、登记和接收入站负荷
 
 下图显示具有采购订单数量的入站负荷到达仓库时的典型处理流程。
 
-![入站负荷处理流程。](media/inbound-process.png "入站负荷处理流程")
+![入站负荷处理流程](media/inbound-process.png "入站负荷处理流程")
 
 1. **供应商确认采购订单。**
 
@@ -40,11 +41,11 @@ ms.locfileid: "7778051"
 
 1. **创建采购订单记录是为了计划到达及其内容。**
 
-    入站负荷表示供应商装运了一个或多个采购订单的内容。 负荷应该作为一个物理运输单元（如整车）到达仓库。 入站负荷记录用于计划用途，可供物流协调员跟踪负荷从供应商开始的进度。 还用于通过仓库操作（如到达和入库工作）登记订单行数量和管理进度。 负荷可以自动或手动创建，还可以基于采购订单或供应商的发货通知 (ASN)。 有关详细信息，请参阅[创建或修改入站负荷](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load)。
+    入站负荷表示供应商装运了一个或多个采购订单的内容。 负荷应该作为一个物理运输单元（如整车）到达仓库。 入站负荷记录用于计划用途，可供物流协调员跟踪负荷从供应商开始的进度。 还用于通过仓库操作（如到达和入库工作）登记订单行数量和管理进度。 负荷可以自动或手动创建，还可以基于采购订单或供应商的发货通知 (ASN)。 有关详细信息，请参阅[创建或修改入站负荷](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load)。
 
 1. **供应商确认负荷分派。**
 
-    供应商分派负荷后，收货仓库的物流协调员将确认负荷装运。 如果收货公司在使用 **运输管理** 模块，确认入站装运将触发与入站负荷关联的其他负荷管理流程。 有关详细信息，请参阅[确认装运的负荷](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping)。
+    供应商分派负荷后，收货仓库的物流协调员将确认负荷装运。 如果收货公司在使用 **运输管理** 模块，确认入站装运将触发与入站负荷关联的其他负荷管理流程。 有关详细信息，请参阅[确认装运的负荷](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping)。
 
 1. **负荷到达仓库，工作人员登记数量。**
 
@@ -66,7 +67,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 - **配置为支持负荷接收的移动设备菜单**
 
-    适用于移动设备的[仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)支持以下工作创建流程：
+    适用于移动设备的[仓库应用](install-configure-warehousing-app.md)支持以下工作创建流程：
 
     - 加载物料接收
     - 加载物料接收和储存
@@ -205,7 +206,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 | 允许一个负荷多次物料收货 | 负荷数量 | 负荷状态 | 票据 |
 |---|---|---|---|
 | 当此字段不可用时（10.0.10 之前版本） | <p>设置负荷数量，使其等于登记数量。</p><p>如果将负荷数量更新为 0（零）（这意味着未进行任何登记），将删除负荷行。</p><p>如果负荷中无负荷行，将删除负荷。</p> | _已收到_ | 如果订单行的登记数量有多个负荷，则仅把收货的过帐来源负荷的状态更新为 _已接收_。 |
-| 否 | <p>将设置负荷数量，使其等于与负荷 ID 关联的登记数量。</p><p>如果没有为库存交易记录记录任何负荷 ID，则行为与 10.0.10 之前版本中的行为相符。</p> | _已收到_ | |
+| 无 | <p>将设置负荷数量，使其等于与负荷 ID 关联的登记数量。</p><p>如果没有为库存交易记录记录任何负荷 ID，则行为与 10.0.10 之前版本中的行为相符。</p> | _已收到_ | |
 | 是 | 无更新 | _已接收_ 如果登记的负荷数量总数等于或大于负荷数量 | |
 | 是 | 无更新 | _已装运_ 或 _进行中_，如果登记的负荷数量总数小于负荷数量 | |
 
@@ -267,7 +268,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 1. 打开 **功能管理** 工作区。 （有关如何找到并使用此工作区的完整详细信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。）
 
-1. 确保 _将采购订单库存交易记录与负荷相关联_ 功能已启用。 从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。 但是，此功能仍按以下方式列在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中：
+1. 按照下面的方法开启列出的 _将采购订单库存交易记录与负荷相关联_ 功能：
 
     - **模块：**_仓库管理_
     - **功能名称：**_将采购订单库存交易记录与负荷相关联_
@@ -285,7 +286,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 仓库验收员使用移动设备登记链接到负荷的入站库存之前，必须先为该目的创建一个移动设备菜单项。
 
-此部分中，将创建一个移动设备菜单项并将其添加到现有菜单中。 然后，仓库工作人员可以在仓库管理移动应用中选择该菜单项。
+此部分中，将创建一个移动设备菜单项并将其添加到现有菜单中。 然后，仓库工作人员可以在仓库应用中选择该菜单项。
 
 1. 转到 **仓库管理 \> 设置 \> 移动设备 \> 移动设备菜单项**，并确保您的移动设备菜单中包含具有以下设置的菜单项：
 
@@ -295,7 +296,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
     可以让其他所有设置保留其默认值。
 
-    ![移动设备菜单项设置。](media/inbound-mobile-menu-items.png "移动设备菜单项设置")
+    ![移动设备菜单项设置](media/inbound-mobile-menu-items.png "移动设备菜单项设置")
 
     有关如何设置移动设备菜单项的详细信息，请参阅[为仓库工作设置移动设备](configure-mobile-devices-warehouse.md)。
 
@@ -330,7 +331,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
     - 在 **负荷** 快速选项卡上，**负荷状态** 字段设置为 _未结_。
     - 在 **负荷行** 部分中，有一行中的 **数量** 字段设置为 _10_，**创建的工作数量** 字段设置为 _0_（零）。
 
-    ![负荷详细信息。](media/inbound-load-details.png "负荷明细")
+    ![负荷明细](media/inbound-load-details.png "负荷明细")
 
 1. 在操作窗格上 **装运和接收** 选项卡上，选择 **确认 \> 入站装运**。 请注意，**负荷状态** 已更改为 _已装运_。
 1. 记下 **负荷 ID** 值，以便在下一个过程中使用。
@@ -477,6 +478,3 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
     - **数量** – 输入 _7_，这是总计 12（其中 10 为原始订单数量，2 为允许的 20% 超交数量）的采购订单数量中授权供应商交付的剩余数量。 请注意，已经对第一个负荷登记了 5 件。
 
 现在已经使用数量 7 更新了第二个负荷，并且可以根据此数量对其进行物料收货更新。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

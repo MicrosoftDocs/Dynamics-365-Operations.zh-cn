@@ -2,22 +2,25 @@
 title: 运输管理模式与方法
 description: 此主题说明如何设置运输管理模式和方法。
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a24e2300f3f3ee21b9c480c8768c4382b21867aa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: ceb3930cdb7764f846e88edfff6906b902a7f5fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574777"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423463"
 ---
 # <a name="transportation-management-modes-and-methods"></a>运输管理模式与方法
 
@@ -44,6 +47,3 @@ ms.locfileid: "7574777"
 1. 选择 **新建** 创建新的运输方法。
 1. 为运输方法输入唯一的 ID 和描述名称。
 1. 关闭该页面。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

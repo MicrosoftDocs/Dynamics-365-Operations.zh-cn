@@ -2,9 +2,11 @@
 title: 计划越库配送
 description: 此主题介绍高级计划越库配送，在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573025"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970298"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
@@ -28,21 +30,19 @@ ms.locfileid: "7573025"
 
 越库配送让工作人员可以跳过已经为出库订单标记的库存的入库储存和出库领料。 因此，如果可以，将把接触库存的次数降到最低。 此外，因为与系统的交互减少，所以可以节约仓库中所用时间和空间。
 
-您必须先配置新的越库配送模板（其中为越库配送指定供应源和其他要求集），然后才能运行越库配送。 创建出库订单时，必须根据包含同一个物料的入库订单标记行。 您可以在越库配送模板上选择指令代码字段，类似于设置补货和采购订单的方式。
+用户必须先配置新的越库配送模板（其中为越库配送指定供应源和其他要求组合），才能使用越库配送。 创建出库订单时，必须根据包含同一个物料的入库订单标记行。
 
 收到入库订单时，越库配送设置将自动确定是否需要越库配送，然后根据货位指令的设置为所需数量创建移动工作。
 
 > [!NOTE]
-> 取消越库配送工作时，*不* 取消等记库存交易记录，即使在仓库管理参数中开启了此功能的设置也不例外。
+> 取消越库配送工作时，**不** 取消等记库存交易记录，即使在仓库管理参数中开启了此功能的设置也不例外。
 
-## <a name="turn-on-the-planned-cross-docking-features"></a>开启计划越库配送功能
+## <a name="turn-on-the-planned-cross-docking-feature"></a>开启计划越库配送功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
+越库配送功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
 
-1. *计划越库配送*
-1. *带有库位指令的越库配送模板*
-    > [!NOTE]
-    > 此功能支持在越库配送模板上指定 **指令代码** 字段，类似于设置补货模板的方式。 启用此功能可防止您在最终 *放置* 行的越库配送工作模板行上添加指令代码。 这可确保在考虑工作模板之前，在工作创建期间确定最终放置库位。
+- **模块**：*仓库管理*
+- **功能名称**：*计划越库配送*
 
 ## <a name="setup"></a>设置
 
@@ -90,10 +90,6 @@ ms.locfileid: "7573025"
 
         此选项定义收货期间是否应重新验证供应。 如果此选项设置为 *是*，将检查最大时间范围和到期日期范围。
 
-    - **指令代码：** 将此字段保留为空
-
-        通过 *带有库位指令的越库配送模板* 功能启用此选项。 系统使用库位指令帮助确定越库配送库存要移动到的最佳库位。 您可以通过为每个相关的越库配送模板分配指令代码来设置此选项。 如果设置指令代码，在生成工作时，系统将按指令代码搜索库位指令。 这样，您可以限制用于特定越库配送模板的库位指令。
-
     - **验证时间范围**：*是*
 
         此选项定义在选择供应源时是否应评估最大时间范围。 如果此选项设置为 *是*，则可使用与最大和最小时间范围有关的字段。
@@ -116,9 +112,6 @@ ms.locfileid: "7573025"
 
     - **序列号**：*1*
     - **供应源**：*采购订单*
-
-> [!NOTE]
-> 您可以设置查询来控制什么时候使用特定的越库配送模板。 越库配送模板的查询仅包含 *InventTable*（物料）表和内部联接的 *WHSInventTable*（WHS 物料）表。 如果要将其他表添加到此查询，则只能使用 *存在联接* 或 *不存在联接* 来联接它们。 在联接表上筛选时，会为联接表中的每个匹配记录检索主表中的记录。 如果联接类型为 *存在联接*，则搜索将在找到第一个匹配项后结束。 例如，如果您将销售订单行表联接到物料表，系统将验证和返回至少一个销售订单行具有定义条件的物料。 本质上，数据是从父（物料）表中获取的，而不是从子（销售订单行）表中获取的。 因此，不能立即按源文档（如销售订单行或客户）进行筛选。
 
 ### <a name="create-a-work-class"></a>创建工作类
 
@@ -154,9 +147,6 @@ ms.locfileid: "7573025"
     - **工作类 ID**：*CrossDock*
 
 1. 选择 **保存**，然后确认为 *51 越库配送* 模板选中了 **有效** 复选框。
-1. 可选：如果您要将条件设置为控制工作模板的使用时间和位置，请选择 **编辑查询**。
-
-    您可以设置查询来控制什么时候使用一个特定的工作模板。 例如，您可以指定模板只能用于特定位置的工作。 如果您希望将越库配送工作模板应用于特定位置，则必须筛选 **开始位置** 字段，而不是 **位置** 字段，因为入站流程（采购、越库配送和补货）的工作创建从放置行开始。 在创建工作时，位置指令将 **位置** 字段设置为放置位置。 但是，领料位置存储在 **开始位置** 字段中。
 
 > [!NOTE]
 > *领料* 和 *放置* 工作类型的工作类 ID 必须相同。
@@ -324,7 +314,4 @@ ms.locfileid: "7573025"
 
 下图显示 Microsoft Dynamics 365 Supply Chain Management 中可能如何显示已完成的越库配送工作。
 
-![越库配送工作已完成。](media/PlannedCrossDockingWork.png "越库配送工作已完成")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![越库配送工作已完成](media/PlannedCrossDockingWork.png "越库配送工作已完成")

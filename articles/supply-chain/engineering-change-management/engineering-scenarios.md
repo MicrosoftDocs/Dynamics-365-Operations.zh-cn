@@ -2,22 +2,25 @@
 title: 工程更改管理功能演练
 description: 本主题提供一个端到端演练，显示如何使用工程更改管理。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573985"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423458"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>工程更改管理功能演练
 
@@ -57,7 +60,7 @@ ms.locfileid: "7573985"
     - **工程组织：***DEMF*
     - **组织名称：***德国 Contoso 娱乐系统*
 
-    ![添加工程组织。](media/engineering-org.png "添加工程组织")
+    ![添加工程组织](media/engineering-org.png "添加工程组织")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>设置版本产品维度组
 
@@ -67,7 +70,7 @@ ms.locfileid: "7573985"
 1. 选择 **保存** 以保存新的维度并将值加载到 **产品维度** 快速选项卡上。
 1. 在 **产品维度** 快速选项卡上，将 **版本** 设置为有效的产品维度。
 
-    ![添加产品维度组。](media/product-dimension-groups.png "添加产品维度组")
+    ![添加产品维度组](media/product-dimension-groups.png "添加产品维度组")
 
 ### <a name="set-up-product-lifecycle-states"></a>设置产品生命周期状态
 
@@ -82,7 +85,7 @@ ms.locfileid: "7573985"
 1. 选择 **保存** 以保存新的生命周期状态并将值加载到 **已启用业务流程** 快速选项卡上。
 1. 在 **已启用业务流程** 快速选项卡上，选择应该可用的业务流程。 对于此示例，针对所有业务流程将 **策略** 字段设置为 *已启用*。
 
-    ![为生命周期状态启用业务流程。](media/product-lifecycle-states-1.png "为生命周期状态启用业务流程")
+    ![为生命周期状态启用业务流程](media/product-lifecycle-states-1.png "为生命周期状态启用业务流程")
 
 1. 选择 **新建** 以添加另一个生命周期状态，然后为其设置以下值：
 
@@ -92,7 +95,7 @@ ms.locfileid: "7573985"
 1. 选择 **保存** 以保存新的生命周期状态并将值加载到 **已启用业务流程** 快速选项卡上。
 1. 在 **已启用业务流程** 快速选项卡上，选择应该可用的业务流程。 对于此示例，针对所有业务流程将 **策略** 字段设置为 *已启用，但有警告*。
 
-    ![为生命周期状态启用（有警告）业务流程。](media/product-lifecycle-states-2.png "为生命周期状态启用（有警告）业务流程")
+    ![为生命周期状态启用（有警告）业务流程](media/product-lifecycle-states-2.png "为生命周期状态启用（有警告）业务流程")
 
 ### <a name="set-up-a-version-number-rule"></a>设置版本号规则
 
@@ -103,7 +106,7 @@ ms.locfileid: "7573985"
     - **编号规则：***自动*
     - **格式：***V-\#\#*
 
-    ![添加产品版本号规则。](media/version-number-rule.png "添加产品版本号规则")
+    ![添加产品版本号规则](media/version-number-rule.png "添加产品版本号规则")
 
 ### <a name="set-up-a-product-release-policy"></a>设置产品发布策略
 
@@ -135,7 +138,7 @@ ms.locfileid: "7573985"
     - **复制工艺路线审批：** 选中此复选框。
     - **复制工艺路线激活：** 选中此复选框。
 
-    ![添加产品发布策略。](media/product-release-policy.png "添加产品发布策略")
+    ![添加产品发布策略](media/product-release-policy.png "添加产品发布策略")
 
 ### <a name="set-up-an-engineering-product-category"></a>设置工程产品类别 
 
@@ -160,7 +163,7 @@ ms.locfileid: "7573985"
 1. 在 **发布策略** 快速选项卡上，将 **产品发布策略** 设置为 *组件*。
 1. 选择 **保存**。
 
-    ![添加工程产品类别。](media/product-category-details.png "添加工程产品类别")
+    ![添加工程产品类别](media/product-category-details.png "添加工程产品类别")
 
 ### <a name="set-up-product-acceptance-conditions"></a>设置产品接受条件
 
@@ -168,7 +171,7 @@ ms.locfileid: "7573985"
 1. 转到 **工程更改管理 &gt; 设置 &gt; 工程更改管理参数**。
 1. 在 **发布控制** 选项卡上的 **产品接受** 部分中，将 **产品接受** 字段设置为 *手动*。
 
-    ![设置产品接受条件。](media/engineering-change-management-parameters.png "设置产品接受条件")
+    ![设置产品接受条件](media/engineering-change-management-parameters.png "设置产品接受条件")
 
 ## <a name="create-a-new-engineering-product"></a>创建新工程产品
 
@@ -187,23 +190,23 @@ ms.locfileid: "7573985"
     - **产品编号**：*Z0001*
     - **产品名称：***扬声器组*
 
-    ![添加工程产品。](media/new-product-dialog.png "添加工程产品")
+    ![添加工程产品](media/new-product-dialog.png "添加工程产品")
 
     请注意，使用您之前设置的产品版本号规则自动设置 **版本** 字段。
 
 1. 选择 **确定** 创建产品，然后关闭对话框。
 1. 打开新产品的详细信息页面。 请注意，某些字段（例如 **存储维度组**、**跟踪维度组** 和/或 **物料模型组**）中已经填写了值。 这些字段已自动设置，因为产品已在 *DEMF* 法人中发布并使用 *组件* 产品发布策略，这与 *组件* 工程产品类别相关联。 因为您之前使用了物料 *D0006* 作为模板来为 *DEMF* 法人设置行，填写的值取自物料 *D0006*。
 
-    ![已发布产品详细信息。](media/product-details.png "已发布产品详细信息")
+    ![已发布产品详细信息](media/product-details.png "已发布产品详细信息")
 
 1. 在操作窗格的 **工程师** 选项卡上，在 **工程更改管理** 组中，选择 **工程版本** 以查看产品的版本。
 
-    ![工程版本。](media/engineering-versions-list.png "工程版本")
+    ![工程版本](media/engineering-versions-list.png "工程版本")
 
 1. 在 **工程版本** 页面上，请注意该产品只有一个版本，并且该版本处于活动状态。
 1. 选择版本以查看其详细信息。
 
-    ![工程版本详细信息。](media/engineering-version-details.png "工程版本详细信息")
+    ![工程版本详细信息](media/engineering-version-details.png "工程版本详细信息")
 
 1. 在 **工程版本** 页面上的 **物料清单** 快速选项卡上，选择 **创建 BOM**。
 1. 在 **创建 BOM** 对话框中，设置以下值：
@@ -212,25 +215,25 @@ ms.locfileid: "7573985"
     - **名称：** 扬声器组
     - **站点：** 1
 
-    ![创建物料清单。](media/create-bom.png "创建 BOM")
+    ![创建 BOM](media/create-bom.png "创建 BOM")
 
 1. 选择 **确定** 以添加 BOM，然后关闭对话框。
 1. 在 **物料清单** 快速选项卡上，选择 **物料清单**。
 1. 在 **物料清单** 页面上的 **物料清单行** 快速选项卡上，添加三行，每一行对应于物料编号 *D0001*、*D0003* 和 *D0006*。
 
-    ![添加物料清单行。](media/bom.png "添加 BOM 行")
+    ![添加 BOM 行](media/bom.png "添加 BOM 行")
 
 1. 选择 **保存**。
 1. 关闭该页面。
 1. 在 **工程版本** 页面上的 **物料清单** 快速选项卡上，选择 **审核**。
 1. 在显示的对话框中，选择 **确定**。
 
-    ![审核物料清单。](media/approve-dialog.png "审核 BOM")
+    ![审核 BOM](media/approve-dialog.png "审核 BOM")
 
 1. 在 **工程版本** 页面上的 **物料清单** 快速选项卡上，选择 **激活**。
 1. 请注意，已针对 BOM 选中 **活动** 和 **已审核** 复选框。
 
-    ![活动和已审核物料清单。](media/approved-bom.png "活动和已审核 BOM")
+    ![活动和已审核 BOM](media/approved-bom.png "活动和已审核 BOM")
 
 1. 关闭该页面。
 
@@ -244,25 +247,25 @@ ms.locfileid: "7573985"
 1. 在操作窗格的 **产品** 选项卡上，在 **维护** 组中，选择 **发布产品结构** 以打开 **发布产品** 向导。
 1. 在 **选择要发布的工程产品** 页面上，针对产品 *Z0001* 选中 **选择** 复选框。
 
-    ![选择要发布的工程产品。](media/select-eng-product-to-release.png "选择要发布的工程产品")
+    ![选择要发布的工程产品](media/select-eng-product-to-release.png "选择要发布的工程产品")
 
 1. 选择 **发布详细信息**。
 1. 将显示 **产品发布详细信息** 页面，您可以在其中查看将要发布的产品的详细信息及其产品结构。 请注意，**发送 BOM** 选项将设置为 *是*。 因此，将发布 BOM 中的产品 *Z0001* 及其所有子物料。
 
     您可以在左窗格中选择任何子物料以查看其详细信息。 如果任何子物料具有 BOM，您还可以选择发布该子物料的 BOM。
 
-    ![查看产品发布详细信息。](media/product-release-details.png "查看产品发布详细信息")
+    ![查看产品发布详细信息](media/product-release-details.png "查看产品发布详细信息")
 
 1. 关闭页面以返回到 **发布产品** 向导。
 1. 选择 **下一步** 以打开 **选择要发布的产品** 页面。 如果您选择了任何标准（非工程）产品，它们将显示在此页面上。 请注意，当您通过选择 **发布产品结构** 发布标准产品时，也将发布其 BOM 和工艺路线。
 
-    ![选择要发布的标准产品。](media/select-std-product-to-release.png "选择要发布的标准产品")
+    ![选择要发布的标准产品](media/select-std-product-to-release.png "选择要发布的标准产品")
 
 1. 选择 **下一步** 以打开 **选择要发布的产品变型** 页面。 对于此示例，没有任何变型。
 1. 选择 **下一步** 以打开 **选择公司** 页面。
 1. 选择产品应发布到的公司。 对于此示例，选中 **USMF** 的复选框。
 
-    ![选择要发布到的公司。](media/select-release-companies.png "选择要发布到的公司")
+    ![选择要发布到的公司](media/select-release-companies.png "选择要发布到的公司")
 
 1. 选择 **下一步** 以打开 **确认选择** 页面。
 1. 选择 **完成**。
@@ -280,7 +283,7 @@ ms.locfileid: "7573985"
 
     **打开产品发布** 页面显示产品 *Z0001*，其状态为 *等待接受*。
 
-    ![打开产品发布。](media/open-product-releases.png "未处理的产品发布")
+    ![未处理的产品发布](media/open-product-releases.png "未处理的产品发布")
 
 1. 在 **产品编号** 列中选择该值以打开 **产品发布详细信息** 页面。 注意以下详细信息：
 
@@ -288,7 +291,7 @@ ms.locfileid: "7573985"
     - **发布详细信息** 快速选项卡显示有关产品和已发布版本的信息。 在此处，您可以修改设置，例如生效日期。
     - **工艺路线** 快速选项卡显示产品的工艺路线。 但是，对于此示例，您没有发布任何工艺路线。
 
-    ![产品发布详细信息。](media/product-release-details-2.png "产品发布详细信息")
+    ![产品发布详细信息](media/product-release-details-2.png "产品发布详细信息")
 
 1. 查看完信息后，您就可以准备接受产品，并通过这种方式在 *USMF* 公司中发布它。 在操作窗格上，选择 **操作 &gt; 接受**。
 1. 现在，在 *USMF* 公司中发布产品。 转到 **产品信息管理 &gt; 产品 &gt; 已发布产品**。 您应该看到物料 *Z0001*。
@@ -304,7 +307,7 @@ ms.locfileid: "7573985"
 1. 在操作窗格的 **产品** 选项卡上，在 **生命周期状态** 组中，选择 **更改生命周期状态**。
 1. 在 **更改生命周期状态** 下拉对话框中，将 **状态** 字段设置为 *原型*，然后选择 **确定**。
 
-    ![更改生命周期状态。](media/change-lifecycle-state.png "更改生命周期状态")
+    ![更改生命周期状态](media/change-lifecycle-state.png "更改生命周期状态")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>将工程产品添加到销售订单
 
@@ -318,7 +321,7 @@ ms.locfileid: "7573985"
 
     您会收到一条警告消息，通知您该物料的状态为 *原型*。 但是，由于该消息只是警告，因此仍然创建销售订单。
 
-    ![工程产品的销售订单。](media/sales-order-eng-product.png "工程产品的销售订单")
+    ![工程产品的销售订单](media/sales-order-eng-product.png "工程产品的销售订单")
 
 ## <a name="request-changes-in-the-engineering-product"></a>在工程产品中请求更改
 
@@ -328,7 +331,7 @@ ms.locfileid: "7573985"
 1. 查找并打开您在上一个练习中创建的销售订单。
 1. 在 **销售订单行** 快速选项卡上，选择 **工程更改管理 &gt; 新工程更改请求**。
 
-    ![根据销售订单创建工程更改请求。](media/sales-order-eng-change-request.png "根据销售订单创建工程更改请求")
+    ![根据销售订单创建工程更改请求](media/sales-order-eng-change-request.png "根据销售订单创建工程更改请求")
 
 1. 根据客户的反馈填写工程更改请求。 对于此示例，设置以下值：
 
@@ -341,7 +344,7 @@ ms.locfileid: "7573985"
 1. 在 **信息** 快速选项卡上，选择 **新建 &gt; 注释** 以向网格添加注释。
 1. 在新注释的 **描述** 字段中，指示应从 BOM 中删除该物料 *D0003*。 如果您必须添加注释的详细信息，可以在 **注释** 字段中输入文本。
 
-    ![工程更改请求。](media/eng-change-request.png "工程更改请求")
+    ![工程更改请求](media/eng-change-request.png "工程更改请求")
 
 1. 在操作窗格上，选择 **保存**。
 1. 请注意，物料已自动添加到 **产品** 快速选项卡上，并且工程更改请求的来源（销售订单）已添加到 **来源** 快速选项卡上。
@@ -370,31 +373,32 @@ ms.locfileid: "7573985"
     - **产品：***Z0001*
     - **影响：***新版本*
 
-    ![创建工程更改订单。](media/eng-change-order.png "创建工程更改订单")
+    ![创建工程更改订单](media/eng-change-order.png "创建工程更改订单")
 
 1. 请注意，因为您将 **影响** 字段设置为 *新版本*，因此 **产品详细信息** 快速选项卡的 **详细信息** 选项卡上的 **新版本** 字段将显示新的版本号（对于此示例为 *V-02*）。
 
-    ![工程更改订单的产品详细信息。](media/eng-change-order-product-details.png "工程更改订单的产品详细信息")
+    ![工程更改订单的产品详细信息](media/eng-change-order-product-details.png "工程更改订单的产品详细信息")
 
 1. 在操作窗格上，选择 **保存**。
 1. 在 **产品详细信息** 快速选项卡的 **物料清单** 选项卡上，选择 **行** 以打开产品 *Z0001* 的版本 *V-01* 的 BOM。
 
-    ![工程产品物料清单行。](media/eng-product-bom-lines.png "工程产品 BOM 行")
+    ![工程产品 BOM 行](media/eng-product-bom-lines.png "工程产品 BOM 行")
 
 1. 选择物料编号 *D0003* 的行，然后在操作窗格上选择 **删除**。 此行的 **更改类型** 字段的值将更改为 *已删除*。
 1. 在操作窗格上，选择 **保存**。
 
-    ![已修改工程产品物料清单行。](media/eng-product-bom-lines-modified.png "已修改工程产品 BOM 行")
+    ![已修改工程产品 BOM 行](media/eng-product-bom-lines-modified.png "已修改工程产品 BOM 行")
 
 1. 关闭 **BOM 行** 页面以返回到 **工程更改订单** 页面。
 1. 请注意，在 **产品详细信息** 快速选项卡的 **物料清单** 选项卡上，BOM *Z0001* 的 **更改类型** 字段的值现在为 *已更改*。
 
-    ![包含已更改物料清单的工程更改订单。](media/eng-change-order-changed-bom.png "包含已更改 BOM 的工程更改订单")
+    ![包含已更改 BOM 的工程更改订单](media/eng-change-order-changed-bom.png "包含已更改 BOM 的工程更改订单")
 
     现在，必须先审核订单，才能处理更改。 处理更改后，将使用工程更改订单中包含的更改更新产品。 对于此示例，已将创建工程更改订单的人指定为审批者。
 
 1. 在操作窗格的 **更改订单** 选项卡上，在 **更改状态** 组中，选择 **审核**。
 1. 选择 **处理** 以更新产品的信息。
+1. 选择 **完成** 以将更改订单标记为已完成。
 
 ## <a name="release-the-changed-product"></a>发布更改的产品
 
@@ -407,9 +411,3 @@ ms.locfileid: "7573985"
 1. 选择要向其发布产品的每个公司。
 1. 选择 **确定** 以关闭 **发布** 对话框并返回到更改订单。
 1. 在操作窗格的 **更改订单** 选项卡上，在 **产品发布** 组中，选择 **处理** 以将受影响的产品发布给所选公司。 或者，选择 **发布产品结构** 以启动发布流程。
-
-## <a name="complete-the-change-order"></a>完成更改订单
-
-要将更改订单标记为已完成，指示没有其他操作，在操作窗格中选择 **完成**。
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: 货位产品维度混合
 description: 此主题提供有关货位产品维度混合的信息。 在使用具有维度的产品变型或产品（如在时尚行业中）时，货位模板功能有助于改善货位管理。 其让您决定是混合特定货位模板的配置、颜色、样式和尺寸，还是只能将这些维度中的一个或其组合放入同一个货位。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423321"
 ---
 # <a name="location-product-dimension-mixing"></a>货位产品维度混合
 
@@ -204,9 +207,9 @@ ms.locfileid: "7578552"
 
 1. 选择 **保存**。
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>在仓库管理移动应用中接收采购订单行
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>在仓库应用中接收采购订单行
 
-1. 以已经为仓库 *24* 启用的用户身份登录到仓库管理移动应用。
+1. 以已经为仓库 *24* 启用的用户的身份登录仓库应用。
 1. 选择 **入库** 菜单。
 1. 选择 **PO 行收货**。
 1. 选择 **PONUM** 字段，然后输入采购订单编号。
@@ -236,5 +239,3 @@ ms.locfileid: "7578552"
 
 > [!TIP]
 > 可以重复此场景，但是这次在 *BULK* 这个 **货位模板** 中 **允许产品维度混合** 下设置 **尺寸** - *否*，以便不能混合任何产品维度。 在这种情况下，当您收到采购订单时，将把每个产品变型放置到一个新货位。
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

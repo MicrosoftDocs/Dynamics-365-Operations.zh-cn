@@ -1,24 +1,27 @@
 ---
 title: 采购 cXML 增强功能
 description: 采购 cXML 增强功能建立在现有的外部目录功能 PunchOut 的基础上，该功能用于采购申请。
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-08-03
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: d7184f14ab67d646451c8c2b1313336d47e59316
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423429"
 ---
 # <a name="purchasing-cxml-enhancements"></a>采购 cXML 增强功能
 
@@ -28,7 +31,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>打开“采购 cXML 增强功能”
 
-要打开此功能，请打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 页，然后搜索名为 *采购 cXML 增强功能* 的功能。 选择此功能，然后然后选择 **立即启用** 将其打开。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+要打开此功能，请打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 页，然后搜索名为 *采购 cXML 增强功能* 的功能。 选择此功能，然后然后选择 **立即启用** 将其打开。
 
 启用功能后，应在以下三个区域配置设置：
 
@@ -38,7 +41,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 
 下图总结了此配置。
 
-![用于设置 cXML 功能的区域。](media/cxml-settings-areas.png "用于设置 cXML 功能的区域")
+![用于设置 cXML 功能的区域](media/cxml-settings-areas.png "用于设置 cXML 功能的区域")
 
 此外，您必须设置[采购订单请求批处理作业](#po-batch)。 此批处理作业用于发送已确认的采购订单。
 
@@ -46,7 +49,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 
 使用 **cXML 参数** 页进行一些将应用于发送采购订单的功能的全局设置。
 
-![cXML 参数页面。](media/cxml-parameters.png "cXML 参数页")
+![cXML 参数页](media/cxml-parameters.png "cXML 参数页")
 
 转到 **采购 \> 设置 \> cXML 管理 \> cXML 参数**，设置以下参数：
 
@@ -67,7 +70,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 - 要设置供应商以自动将 cXML 用于从申请创建的所有新采购订单，请转到 **采购 \> 供应商 \> 所有供应商**，然后选择或创建供应商打开其详细信息页面。 然后，在 **采购订单默认值** 快速选项卡上，将 **通过 cXML 发送采购订单** 选项设置为 _是_。 如果 cXML 还应自动用于 **不** 是从申请创建的新采购订单，您还必须将相关外部目录的 **ENABLEMANUALPO** 订单属性设置为 _True_，如本主题后面的[设置订单属性](#set-order-properties)一节所述。
 - 对于单个采购订单，请转到 **采购 \> 采购订单 \> 所有采购订单**，选择或创建一个采购订单并打开其详细信息页面。 切换到 **标题** 视图，然后在 **设置** 快速选项卡上，根据需要设置 **通过 cXML 发送采购订单** 选项。
 
-![供应商采购订单的默认设置。](media/cxml-order-defaults.png "供应商采购订单的默认设置")
+![供应商采购订单的默认设置](media/cxml-order-defaults.png "供应商采购订单的默认设置")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>设置外部目录以使用 cXML
 
@@ -76,7 +79,7 @@ _采购 cXML 增强功能_ 建立在[现有的外部目录功能](set-up-externa
 > [!NOTE]
 > 当您确认可以通过 cXML 发送的采购订单时，系统会查找与该采购订单关联的供应商，然后找到与该供应商关联的第一个活动的外部目录。 然后，系统使用该外部目录中的设置发送采购订单。 如果设置了多个外部目录，系统会根据采购订单上的供应商仅使用找到的第一个外部目录。 因此，我们建议您只为每个供应商创建一个外部目录。
 
-![外部目录设置。](media/cxml-supplier-catalog.png "外部目录设置")
+![外部目录设置](media/cxml-supplier-catalog.png "外部目录设置")
 
 ### <a name="set-the-punchout-protocol-type"></a>设置 PunchOut 协议类型
 
@@ -143,11 +146,11 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 若要设置系统要查找的注释类型，请转到 **采购 \> 设置 \> 窗体 \> 窗体设置**。 然后，在 **采购订单** 选项卡上，将 **包括单据的类型** 字段设置为您希望包含的注释类型。 将仅包含文本注释，不包含文档附件。
 
-![窗体设置页面。](media/cxml-form-setup.png "窗体设置页面")
+![窗体设置页面](media/cxml-form-setup.png "窗体设置页面")
 
 仅当附件的 **类型** 字段设置为您在 **包括单据的类型** 字段中选择的值，并且附件的 **限制** 字段设置为 _外部_ 时，附件才会包含在采购订单中。 要创建、查看或编辑采购订单的附件，请转到 **采购 \> 所有采购订单**，选择或创建采购订单，然后选择右上角的 **附件** 按钮（回形针符号）。
 
-![设置为发送给供应商的附加注释。](media/cxml-note-to-vendor.png "设置为发送给供应商的附加注释")
+![设置为发送给供应商的附加注释](media/cxml-note-to-vendor.png "设置为发送给供应商的附加注释")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>查看外部目录 PunchOut 的 cXML 购物车消息日志
 
@@ -155,7 +158,7 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 要打开外部目录的日志，请选择相关目录，然后在操作窗格上选择 **cXML 购物车消息日志**。 **cXML 购物车消息日志** 页将显示已返回购物车的列表、与这些购物车相关的 XML，以及在相关采购申请上创建的行。
 
-![cXML 购物车消息日志页面。](media/cxml-cart-message-log.png "cXML 购物车消息日志页面")
+![cXML 购物车消息日志页面](media/cxml-cart-message-log.png "cXML 购物车消息日志页面")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>设置外部目录 PunchOut 的外在元素
 
@@ -178,21 +181,21 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
         - **姓氏** – 使用与正在访问外部目录的用户关联的联系人的姓氏。
         - **电话号码** – 使用与正在访问外部目录的用户关联的联系人的主电话号码。
 
-![外在元素设置。](media/cxml-extrinsics.png "外在元素设置")
+![外在元素设置](media/cxml-extrinsics.png "外在元素设置")
 
 用户或管理员看不到外在元素，因为在用户执行 PunchOut 之前不会添加它们。 它们会自动插入到 cXML 设置请求消息中的 **BuyerCookie** 和 **BrowserFromPost** 元素之间。 因此，在设置外部目录时，无需在 XML 中手动设置它们。
 
-![添加到 XML 的外在元素。](media/cxml-extrinsics-xml.png "添加到 XML 的外在元素")
+![添加到 XML 的外在元素](media/cxml-extrinsics-xml.png "添加到 XML 的外在元素")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>创建和处理采购订单
 
 为供应商创建采购订单时，将继承该供应商的 **通过 cXML 发送采购订单** 选项的设置。 但是，此设置在采购订单的 **标题** 视图中的 **设置** 快速选项卡上仍然可用，因此您以后可以根据需要进行更改。
 
-![设置为使用 cXML 的采购订单。](media/cxml-purchase-order.png "设置为使用 cXML 的采购订单")
+![设置为使用 cXML 的采购订单](media/cxml-purchase-order.png "设置为使用 cXML 的采购订单")
 
 当您从来自 PunchOut 流的采购申请创建采购订单时，将填充所有必需的行详细信息。 然后，您可以手动添加采购订单行或从其他采购订单复制。 请确保设置所有必填字段。 这些必填字段包括外部参考编号，即将在 cXML 消息中使用的供应商编号。
 
-![外部参考编号的示例。](media/cxml-line-details.png "外部参考编号的示例")
+![外部参考编号的示例](media/cxml-line-details.png "外部参考编号的示例")
 
 填写采购订单的所有详细信息后，请确保进行确认。 除非采购订单已确认，否则不会发送任何消息。 要确认采购订单，在操作窗格上，在 **采购** 选项卡上的 **操作** 组中，选择 **确认**。 
 
@@ -200,17 +203,17 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 每个采购订单可以有很多确认。 每个确认标有递增编号。 在下图中，采购订单为 *00000275*，确认为 *00000275-1*。 此编号反映了标准 Supply Chain Management 功能，其中基于确认确定采购订单的更改，以及因此应发送给供应商的 cXML 消息的类型。 如图所示，**采购订单确认** 页还包括 **订单发送状态** 和 **订单请求供应商状态** 字段。 有关您可能在此页面上看到的各种状态值的详细信息，请参阅本主题后面的[监视采购订单请求](#monitor-po-requests)一节。
 
-![采购订单确认页面。](media/cxml-po-confirmations.png "采购订单确认页面")
+![采购订单确认页面](media/cxml-po-confirmations.png "采购订单确认页面")
 
 要查看有关文档的详细信息，请选择网格上方的 **采购订单请求**。
 
 **采购订单请求** 页面包含两个网格。 在页面上部的网格中，每个采购订单有一个标记为发送的记录。 页面下部 **采购订单请求历史记录** 选项卡上的网格可能有所选采购订单的多个记录，指示每个确认的状态。 下图显示了上部网格中的采购订单 00000275 和 **采购订单请求历史记录** 选项卡上的网格中的单据 00000275-1。
 
-![采购订单请求页面。](media/cxml-po-request.png "采购订单请求页面")
+![采购订单请求页面](media/cxml-po-request.png "采购订单请求页面")
 
 如果批处理作业已设置并正在运行，将发送单据。 发送单据后，您可以查看状态更改。 在下图中，**订单发送状态** 字段设置为 _已发送_。 **订单请求供应商状态** 字段设置为 _已确认_，指示供应商已收到单据，并且能够读取该单据并将其存储在系统中。 **采购订单请求历史记录** 选项卡上的网格显示发送单据的时间。 有关您可能在此页面上看到的各种状态值的详细信息，请参阅[监视采购订单请求](#monitor-po-requests)一节。
 
-![采购订单请求页面上的状态消息。](media/cxml-po-request-2.png "采购订单请求页面上的状态消息")
+![采购订单请求页面上的状态消息](media/cxml-po-request-2.png "采购订单请求页面上的状态消息")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>计划采购订单请求批处理作业
 
@@ -226,7 +229,7 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 确认可以通过 cXML 发送的订单后，它们将进入 _等待_ 状态。 如 [创建和处理采购订单](#create-po)一节所述，您可以在 **采购订单请求** 页查看采购订单状态。 每个采购订单请求可以具有几种状态之一，具体取决于其参数和数据。 本节介绍各种状态类型及其可以具有的值。 此信息可以帮助您管理问题并了解采购订单的状态。
 
-![采购订单请求页面上的采购订单状态。](media/cxml-monitor-po-request.png "采购订单请求页面上的采购订单状态")
+![采购订单请求页面上的采购订单状态](media/cxml-monitor-po-request.png "采购订单请求页面上的采购订单状态")
 
 **采购订单请求** 页上部的网格可能会显示以下状态值：
 
@@ -262,18 +265,15 @@ _采购 cXML 增强功能_ 为外部目录添加了新的 **订单属性** 快�
 
 要查看采购订单请求消息的 XML，请选择 **采购订单请求** 页底部的 **请求 XML 文本** 选项卡。 此选项卡上的信息在测试或错误验证期间可能会有所帮助。 为了使信息更易于阅读，您可以将其作为格式化的消息来查看。 将选项卡的内容复制到文本文件，然后在 XML 编辑器中进行查看。
 
-![请求 XML 文本选项卡。](media/cxml-request-xml-text.png "请求 XML 文本选项卡")
+![请求 XML 文本选项卡](media/cxml-request-xml-text.png "请求 XML 文本选项卡")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>查看供应商响应的详细信息
 
 要查看供应商确认或错误响应的内容，请选择 **采购订单请求** 页底部的 **响应 XML** 选项卡。
 
-![响应 XML 选项卡。](media/cxml-response-xml.png "响应 XML 选项卡")
+![响应 XML 选项卡](media/cxml-response-xml.png "响应 XML 选项卡")
 
 ## <a name="additional-resources"></a>其他资源
 
 - [为电子采购发包设置外部目录](set-up-external-catalog-for-punchout.md)
 - [针对电子采购发包使用外部目录](use-external-catalogs-for-punchout.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

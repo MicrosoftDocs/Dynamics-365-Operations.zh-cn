@@ -1,10 +1,12 @@
 ---
 title: 维护请求生命周期状态
 description: 本主题介绍如何在资产管理中设置维护请求生命周期状态。
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743666"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022072"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>维护请求生命周期状态
 
@@ -48,7 +50,7 @@ ms.locfileid: "6743666"
 
 下图显示 **维护请求生命周期状态** 页的示例。
 
-![维护请求生命周期状态页面。](media/02-setup-for-requests.png)
+![维护请求生命周期状态页面](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > 维护请求生命周期状态、生命周期状态组和类型与工作订单生命周期状态、生命周期状态组和类型关联，并按照相同方法使用。 
@@ -66,9 +68,9 @@ ms.locfileid: "6743666"
 
 5. 在 **生命周期状态** 快速选项卡上，选择生命周期模型中应包含的生命周期状态。
 
-    - 若要在生命周期模型中包括生命周期状态，请在 **其余生命周期状态** 部分中选择它，然后选择向右箭头按钮 ![向右箭头。](media/03-setup-for-requests.png) 以将其移到 **所选生命周期状态** 部分。
-    - 若要在生命周期模型中包含所有可用生命周期状态，请选择 **选择所有可用状态** 按钮 ![选择所有可用状态。](media/04-setup-for-requests.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
-    - 若要从生命周期模型中删除生命周期状态，请在 **所选生命周期状态** 部分中选择它，然后选择向左箭头按钮 ![向左箭头。](media/05-setup-for-requests.png) 以将其移到 **其余生命周期状态** 部分。
+    - 若要在生命周期模型中包含生命周期状态，请在 **其余生命周期状态** 部分中选择该生命周期状态，然后选择向右箭头按钮 ![向右箭头](media/03-setup-for-requests.png) 将其移到 **所选生命周期状态** 部分。
+    - 若要在生命周期模型中包含所有可用生命周期状态，请选择 **选择所有可用状态** 按钮 ![选择所有可用状态](media/04-setup-for-requests.png)。 将把所有生命周期状态移到 **所选生命周期状态** 部分。
+    - 若要从生命周期模型中删除生命周期状态，请在 **所选生命周期状态** 部分中选择该生命周期状态，然后选择向左箭头按钮 ![向左箭头](media/05-setup-for-requests.png) 将其移到 **其余生命周期状态** 部分。
 
 6. 如果使用仓库维修，则 **常规** 快速选项卡上 **更新** 部分中的字段相关。
 
@@ -77,7 +79,4 @@ ms.locfileid: "6743666"
 
 下图显示 **维护请求生命周期模型** 页的示例。
 
-![维护请求生命周期模型页面。](media/06-setup-for-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![维护请求生命周期模型页面](media/06-setup-for-requests.png)

@@ -1,26 +1,29 @@
 ---
 title: 运输管理引擎
 description: 运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bce886b8029b3a00c6572642d339efa9dcad4267
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423367"
 ---
 # <a name="transportation-management-engines"></a>运输管理引擎
 
@@ -43,7 +46,8 @@ ms.locfileid: "7580112"
 | **货运帐单类型**            | 标准化货票和货运单线用于自动化货运单匹配。                                                                                                                                                                                                                |
 
 
-## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>必须配置什么引擎来评价一次装运？
+<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>必须配置什么引擎来评价一次装运？
+---------------------------------------------------
 
 若要评价某个特定承运人的装运，您必须配置多个运输管理引擎。 需要 **费率引擎**，不过，可能需要其他运输管理引擎以支持 **费率引擎**。 例如，**费率引擎** 可用于从 **里程引擎** 中检索数据以基于源地点和目的地点之间的里程计算费率。
 
@@ -61,7 +65,8 @@ ms.locfileid: "7580112"
 |  <em>MileageEngineCode</em>  |                       里程引擎代码标识数据库中的里程引擎记录。                        |
 | <em>ApportionmentEngine</em> |                        通用引擎代码标识数据库中的分摊引擎。                        |
 
-## <a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
+<a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
+----------------------------------------------------------
 
 依赖于在 Supply Chain Management 中定义的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
 
@@ -84,7 +89,7 @@ ms.locfileid: "7580112"
 | **区域引擎**                                | 需要在主区域上直接设置元数据。                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **运输时间引擎** 和 **里程引擎** | 直接从里程引擎的配置设置窗体检索元数据。                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **费率引擎的元数据示例** 运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
+  **费率引擎的元数据示例** 运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
 -   在 **基本费率类型** 页的 **运输管理** &gt; **设置** 中定义此信息。
 
 | 序列 | 姓名                          | 字段类型 | 数据类型 | 查找类型    | 必需 |
@@ -93,13 +98,4 @@ ms.locfileid: "7580112"
 | 2        | 目的州             | 分配 | 字符串    | 省/市/自治区          |           |
 | 3        | 目的地起始邮政编码 | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 4        | 目的地终点邮政编码   | 分配 | 字符串    | 邮政编码    | 已选择  |
-| 5        | 目标国家/地区           | 赋值 | 字符串    | 国家/地区 |           |
-
-### <a name="whitepaper"></a>白皮书
-
-有关详细信息，请下载以下白皮书（为支持 AX2012 编写，同样适用于 Dynamics 365 Supply Chain Management）
-
-- [运输管理引擎](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+| 5        | 目标国家/地区           | 分配 | 字符串    | 国家/地区 |           |

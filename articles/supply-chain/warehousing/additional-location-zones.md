@@ -2,25 +2,28 @@
 title: 其他货位区域
 description: 本主题概述已向 Microsoft Dynamics 365 Supply Chain Management 添加的新货位区域。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4801077ac498699972244f3f86216790b517b47247fc7fb288614ec143c3c5cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423364"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 
@@ -55,6 +58,3 @@ Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。
 7. 选择 **创建**。
 8. 将收到消息，说明已添加了新货位。 选择 **显示消息** 按钮查看消息。
 9. 转到 **仓库管理 \> 设置 \> 仓库 \> 货位**。 将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

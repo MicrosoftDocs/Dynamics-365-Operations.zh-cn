@@ -2,23 +2,26 @@
 title: 配置装运合并策略
 description: 此主题说明如何设置默认装运合并策略和自定义装运合并策略。
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578672"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423342"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -179,7 +182,7 @@ ms.locfileid: "7578672"
 1. 让 **与未结装运合并** 选项继续设置为 *否*。
 1. 在操作窗格上，选择 **保存**。
 1. 在 **合并字段** 快速选项卡上 **其余字段** 列表中，选择其中的 **字段名称** 字段设置为 *交货方式* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在操作窗格上，选择 **编辑查询**。
 1. 在查询编辑器对话框中 **范围** 选项卡上网格内，找到其中的 **字段** 字段设置为 *客户帐户* 的行，然后将该行的 **条件** 字段设置为 *US-001*。
 1. 选择 **添加** 向网格添加具有以下设置的行：
@@ -214,7 +217,7 @@ ms.locfileid: "7578672"
 1. 将 **与未结装运合并** 选项设置为 *是*。
 1. 在操作窗格上，选择 **保存**。
 1. 在 **合并字段** 快速选项卡上 **其余字段** 列表中，选择其中的 **字段名称** 字段设置为 *交货方式* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在操作窗格上，选择 **编辑查询**。
 1. 在查询编辑器对话框中 **联接** 选项卡上，展开并选择树中的 **表 \> 负荷详细信息**。
 1. 选择 **添加表联接**。
@@ -251,9 +254,9 @@ ms.locfileid: "7578672"
 1. 将 **与未结装运合并** 选项设置为 *是*。
 1. 在操作窗格上，选择 **保存**。
 1. 在 **合并字段** 快速选项卡上 **其余字段** 列表中，选择其中的 **字段名称** 字段设置为 *客户申请* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在 **其余字段** 列表中，选择其中的 **字段名称** 字段设置为 *交货方式* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在操作窗格上，选择 **编辑查询**。
 1. 在查询编辑器对话框中 **范围** 选项卡上，找到其中的 **字段** 字段设置为 *客户帐户* 的行，然后将该行的 **条件** 字段设置为 *US-001*。
 1. 选择 **确定** 关闭对话框。
@@ -283,7 +286,7 @@ ms.locfileid: "7578672"
 1. 让 **与未结装运合并** 选项继续设置为 *否*。
 1. 在操作窗格上，选择 **保存**。
 1. 在 **合并字段** 快速选项卡上 **其余字段** 列表中，选择其中的 **字段名称** 字段设置为 *交货方式* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在操作窗格上，选择 **编辑查询**。
 1. 在查询编辑器对话框中 **范围** 选项卡上，选择 **添加** 向网格添加具有以下设置的行：
 
@@ -317,7 +320,7 @@ ms.locfileid: "7578672"
 1. 让 **与未结装运合并** 选项继续设置为 *否*。
 1. 在操作窗格上，选择 **保存**。
 1. 在 **合并字段** 快速选项卡上 **其余字段** 字段中，选择其中的 **字段名称** 字段设置为 *交货方式* 的行。
-1. 选择 **添加** 按钮 ![向右箭头。](media/forward-button.png) 以将字段移动到 **所选字段** 列表。
+1. 选择 **添加** 按钮 ![向右箭头](media/forward-button.png) 将字段移到 **所选字段** 列表中。
 1. 在操作窗格上，选择 **编辑查询**。
 1. 在查询编辑器对话框中 **范围** 选项卡上，找到其中的 **字段** 字段设置为 *仓库* 的行，然后将该行的 **条件** 字段设置为 *61, 63*。
 1. 选择 **确定** 关闭对话框。
@@ -351,6 +354,3 @@ ms.locfileid: "7578672"
 ## <a name="additional-resources"></a>其他资源
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

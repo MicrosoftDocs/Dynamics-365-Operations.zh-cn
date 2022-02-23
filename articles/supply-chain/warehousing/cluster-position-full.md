@@ -2,23 +2,26 @@
 title: 群集位置已满
 description: 本主题提供有关群集位置已满功能的信息。 在使用群集领料时，也可以使用此功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574249"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423358"
 ---
 # <a name="cluster-position-full"></a>群集位置已满
 
@@ -211,7 +214,7 @@ ms.locfileid: "7574249"
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>移动设备流执行 – 产品的工作确认设置
 
-1. 以仓库 *61* 用户身份登录到仓库管理移动应用。
+1. 以仓库 *61* 用户身份登录仓库应用。
 1. 转到 **出站 \> 群集领料创建**。
 
     将显示 **任务: 为群集分配工作** 页面。
@@ -273,6 +276,3 @@ ms.locfileid: "7574249"
     您将收到“群集已完成”消息。
 
 现在可以使用 **销售领料** 菜单项领取剩余数量。 然后可以使用 **销售装载** 菜单项将物料从暂存位置移到装货场。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

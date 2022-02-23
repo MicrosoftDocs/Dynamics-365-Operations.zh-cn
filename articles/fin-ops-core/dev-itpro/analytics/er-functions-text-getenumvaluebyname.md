@@ -2,8 +2,11 @@
 title: GETENUMVALUEBYNAME ER 函数
 description: 本主题提供有关 GETENUMVALUEBYNAME 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
+manager: kfend
 ms.date: 09/23/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03759852e5ceb13b79b0df4592bdcef76eb0a82865725c00df40b9cc5f786240
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774429"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685923"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER 函数
 
@@ -61,7 +64,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 在下图中，数据模型中引入了 **ReportDirection** 枚举。 请注意，为枚举值定义标签。
 
-![数据模型枚举的可用值。](./media/ER-data-model-enumeration-values.PNG)
+![数据模型枚举的可用值](./media/ER-data-model-enumeration-values.PNG)
 
 下图显示以下详细信息：
 
@@ -69,7 +72,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - `$IsArrivals` 表达式设计为将基于模型枚举的 **$Direction** 数据源用作此函数的参数。
 - 此比较表达式的值为 **TRUE**。
 
-![数据模型枚举的示例。](./media/ER-data-model-enumeration-usage.PNG)
+![数据模型枚举的示例](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>示例 2
 
@@ -77,14 +80,14 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 在下图中，模型映射中引入了 **TransType** 数据源。 此数据源引用 **LedgerTransType** 应用程序枚举。
 
-![引用应用程序枚举的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![引用应用程序枚举的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 下图显示了在模型映射中配置的 **TransTypeList** 数据源。 此数据源是根据 **TransType** 应用程序枚举配置的。 `LISTOFFIELDS` 函数用于将所有枚举值作为包含字段的记录列表返回。 这样，每个枚举值的详细信息都将公开。
 
 > [!NOTE]
 > 将使用 `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` 表达式为 **TransTypeList** 数据源配置 **EnumValue** 字段。 此字段为此列表中的每个记录返回枚举值。
 
-![作为记录列表返回选定枚举的所有枚举值的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![作为记录列表返回选定枚举的所有枚举值的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 下图显示了在模型映射中配置的 **VendTrans** 数据源。 此数据源从 **VendTrans** 应用程序表返回供应商交易记录。 每个交易记录的分类帐类型由 **TransType** 字段的值定义。
 
@@ -93,11 +96,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 >
 > **TransTypeTitle** 字段将绑定到数据模型的 **LedgerType** 字段，让此信息可以在使用该数据模型作为数据源的每个 ER 格式中使用。
 
-![返回供应商交易的模型映射的数据源。](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![返回供应商交易记录的模型映射的数据源](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 下图显示了如何使用[数据源调试器](er-debug-data-sources.md)测试配置的模型映射。
 
-![使用数据源调试器测试配置的模型映射。](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![使用数据源调试器测试配置的模型映射](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 数据模型的 **LedgerType** 字段预期将公开交易记录类型的标签。
 
@@ -114,6 +117,3 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 [FIRSTORNULL ER 函数](er-functions-list-firstornull.md)
 
 [WHERE ER 函数](er-functions-list-where.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

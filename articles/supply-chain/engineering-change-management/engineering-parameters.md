@@ -2,22 +2,25 @@
 title: 工程更改管理参数
 description: 本主题介绍如何为 Microsoft Dynamics 365 Supply Chain Management 配置工程更改管理功能。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581000"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423451"
 ---
 # <a name="engineering-change-management-parameters"></a>工程更改管理参数
 
@@ -54,6 +57,3 @@ ms.locfileid: "7581000"
 | 严重性规则 | 选择应如何建立工程更改订单的严重性。 如果用户期望在 **严重性** 字段中输入值，选择 *手动*。 选择 *计算*，以在操作窗格上选择工程更改订单的 **计算严重性** 时让系统计算 **严重性** 字段的值。 在这种情况下，系统将使用在 **严重性规则集** 页面上定义的严重性规则。 选择 *自动计算* 以根据严重性规则集自动计算和填充 **严重性** 字段的值。 |
 | 重新发布受影响的产品 | 通过工程更改订单重新发布产品时，此字段适用。 您可以选择应该在 **发布** 对话框中提出所有产品还是仅受影响的产品。 |
 | 要发布的物料清单级别 | 要发布的 BOM 级别的深度。 如果 BOM 具有比在此处指定的值更高的级别（即，如果更深），仅发布高于指定值的级别。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

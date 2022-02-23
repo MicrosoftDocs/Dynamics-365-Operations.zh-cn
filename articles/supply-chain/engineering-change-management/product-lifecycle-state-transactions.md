@@ -2,23 +2,26 @@
 title: 产品生命周期状态和交易
 description: 此主题说明在工程产品的生命周期中如何控制每个生命周期状态允许的交易。
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574633"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4423450"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 
@@ -73,25 +76,3 @@ ms.locfileid: "7574633"
 | 策略 | 选择以下值之一来控制是否以及如何允许处于此生命周期状态的产品使用当前流程：<ul><li>**已启用** – 允许业务流程。</li><li>**已阻止** – 不允许流程。 如果用户尝试对处于此生命周期状态的产品使用该流程，系统将阻止尝试并显示错误。 例如，您可以阻止购买生命周期结束的产品。</li><li>**已启用，但有警告** – 允许流程，但会显示警告。 例如，您可能希望将原型产品放入研发部门创建的生产订单中。 但是，其他部门应该意识到他们还不应该生产该产品。</li></ul> |
 
 如果您要作为自定义添加更多生命周期状态规则，可以通过在上部窗格中选择 **刷新流程** 来在用户界面 (UI) 中查看这些规则。 **刷新流程** 按钮仅对管理员可用。
-
-## <a name="lifecycle-states-for-released-products-and-product-variants"></a>已发布产品和产品变型的生命周期状态
-
-对于具有变型的产品（基础产品和变型），产品（基础产品）将具有生命周期状态，每个变型也可能具有不同的生命周期状态。
-
-对于特定流程，如果变型或产品被阻止，该流程也将被阻止。 具体来说，为了确定某个流程是否被阻止，系统将进行以下检查：
-
-- 对于工程控制产品：
-  - 如果当前的工程版本被阻止，将阻止流程。
-  - 如果当前变型被阻止，将阻止流程。
-  - 如果已发布产品被阻止，将阻止流程。
-- 对于标准产品：
-  - 如果当前变型被阻止，将阻止流程。
-  - 如果已发布产品被阻止，将阻止流程。
-
-例如，假设您只想销售给定产品（T 恤）的一个变型（红色），目前阻止所有其他变型的销售。 您可以使用以下设置来实现此目的：
-
-- 为产品分配允许该流程的生命周期状态。 例如，为 T 恤产品分配生命周期状态 *适售*，这将允许 *销售订单* 业务流程。
-- 为适售变型分配允许该流程的生命周期状态。 例如，同时还为红色变型分配生命周期状态 *适售*。
-- 所有其他变型都被分配了另一个生命周期状态，在该状态下流程被阻止。 例如，为白色变型（和所有其他变型）分配生命周期状态 *不适售*，这将阻止 *销售订单* 业务流程。
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

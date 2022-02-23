@@ -1,10 +1,12 @@
 ---
 title: 导入供应商目录
 description: 此主题介绍供应商目录数据导入流程。
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb7e9735ac29fae50a4a3874b713a9a75799605c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570385"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020746"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 
@@ -67,6 +69,3 @@ ms.locfileid: "7570385"
 3. 在 **另存为** 对话框中，选择要存储目录文件模板和保存该文件的位置。
 
 有关更多信息和示例，请参阅以下博客文章：[Dynamics AX 中的供应商目录](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

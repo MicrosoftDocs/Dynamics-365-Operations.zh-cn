@@ -1,38 +1,38 @@
 ---
 title: 固定资产主页
-description: 本主题介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。
-author: moaamer
+description: 固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21481"
-- intro-internal
+ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: moaamer
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674843"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969061"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。 固定资产是指由个人或组织拥有的有价项目。 这些项目包括建筑物、车辆、土地和设备。 
+固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。 
 
 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值来确定折旧，对固定资产进行管理。 可以计算固定资产调整值以及处置固定资产。 在您将总帐与固定资产一起使用时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
 
-[![业务流程。](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![业务流程](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
@@ -40,7 +40,7 @@ ms.locfileid: "7674843"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 
@@ -60,6 +60,3 @@ ms.locfileid: "7674843"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

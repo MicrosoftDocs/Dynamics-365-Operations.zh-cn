@@ -1,27 +1,30 @@
 ---
 title: 维度和产品变型的默认订单设置
 description: 默认订单设置定义作为物料采购来源或存储物料的站点和仓库，在贸易或库存管理中将要使用的最低量、最高量、倍数和标准量，提前期，停止标志，以及订单承诺方法。
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778099"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4423291"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -115,7 +118,7 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 
 考虑以下示例产品。
 
-| 物料                                                | 值                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **产品名称**                                    | 光电传感器                    |
 | **物料编号**                                     | XW56                                    |
@@ -188,7 +191,7 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 
 ### <a name="enable-the-strict-validation-option"></a>启用严格验证选项
 
-从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
+必须先在系统上启用严格验证选项，然后才能够使用它。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 此功能在此处列出为：
 
 - **模块** - *产品信息管理*
 - **功能名称** - *严格验证默认订单数量*
@@ -201,6 +204,3 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 1. 在 **常规** 选项卡上，将 **验证默认订单数量** 设置为以下值之一：
     - **严格** - 选择此选项可以确保所有 **标准订单数量** 值是每个快速选项卡（**采购订单**、**库存** 和 **销售订单**）的 **倍数** 值的倍数。
     - **标准** - 选择此选项可以使用标准验证（与未启用此功能时相同）。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

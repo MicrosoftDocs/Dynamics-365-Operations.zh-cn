@@ -1,32 +1,34 @@
 ---
 title: 全球化资源
 description: 本主题包含可帮助您详细了解国家/地区特定功能和产品/服务的一系列资源。
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747507"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685045"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：
 
-[由世纪互联在中国运营的 Finance and Operations 应用](../deployment/china-local-deployment.md)
+[Finance and Operations 应用在中国由 21Vianet 运营](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
@@ -53,6 +55,7 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 
 #### <a name="regulatory-updates"></a>监管更新
 -   [监管更新](../../../finance/localizations/regulatory-updates.md)
+-   [本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）
 -   [Lifecycle Services (LCS) 中的问题搜索](../lifecycle-services/issue-search-lcs.md)（每日更新）
 
 #### <a name="communication-and-alerts"></a>通信和预警
@@ -60,7 +63,7 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 -   [提交有关特定于国家/地区的监管功能的预警](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 版本计划
-[Dynamics 365 版本计划](/business-applications-release-notes/)提供针对 Dynamics 365 业务应用程序和应用程序平台计划推出的新增功能和增强功能的描述。 
+[Dynamics 365 版本计划](https://docs.microsoft.com/business-applications-release-notes/)提供针对 Dynamics 365 业务应用程序和应用程序平台计划推出的新增功能和增强功能的描述。 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations 应用新增功能
 [Finance and Operations 主页新增功能或更改](../../fin-ops/get-started/whats-new-changed.md)列出了 Finance and Operations 应用特定版本中的功能。
@@ -130,6 +133,3 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

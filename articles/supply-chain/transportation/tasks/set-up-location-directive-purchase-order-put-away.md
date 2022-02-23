@@ -1,25 +1,28 @@
 ---
 title: 设置采购订单储存的位置指令
 description: 本主题说明如何设置简单库位指令。
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a363b452cbee539aeee62146f545b1f7c2eb842
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423369"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>设置采购订单储存的位置指令
 
@@ -83,6 +86,3 @@ ms.locfileid: "7576200"
 4. 在 **条件** 字段中，输入一个值。
 5. 选择 **确定**。 您可以继续添加指令行和指令操作，直到您已覆盖您的仓库的所有可能场景。  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

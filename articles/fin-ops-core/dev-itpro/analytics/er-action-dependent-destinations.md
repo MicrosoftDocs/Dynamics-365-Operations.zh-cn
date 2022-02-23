@@ -2,9 +2,11 @@
 title: 配置依赖操作的 ER 目标
 description: 本主题介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置依赖操作的目标。
 author: NickSelin
+manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: ea7543fddef085cfd1e92edf0b1dabf6d0aac38a
+ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941236"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5153631"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -60,7 +62,7 @@ ms.locfileid: "7941236"
     - 在运行时提供 **发送** 操作时，将应用 **电子邮件** ER 目标。
     - 在运行时提供 **打印** 操作时，将应用 **打印机** ER 目标。
 
-例如，您可以使用 **普通发票(Excel)** ER 格式在发布[普通发票](../../../finance/accounts-receivable/create-free-text-invoice-new.md)时打印该发票。 要路由生成的文档，您必须为此 ER 格式配置 ER 目标。 例如，您可能需要配置这些 ER 目标，才能对生成的文档执行以下操作：
+例如，您可以使用 **普通发票(Excel)** ER 格式在发布[普通发票](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)时打印该发票。 要路由生成的文档，您必须为此 ER 格式配置 ER 目标。 例如，您可能需要配置这些 ER 目标，才能对生成的文档执行以下操作：
 
 - 如果运行 ER 格式但未提供操作代码（例如，以电子方式发送文档时），将文档存档。
 - 当用户执行 **查看** 操作时，在 Web 浏览器中预览文档。
@@ -69,11 +71,11 @@ ms.locfileid: "7941236"
 
 下图显示了在为单个用户操作配置了每个记录时，如何通过将 ER 目标配置为单个目标记录集来实现此目的：
 
-![为单个用户操作配置每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面。](./media/er-destination-action-dependent-01.png)
+![为单个用户操作配置了每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面](./media/er-destination-action-dependent-01.png)
 
 下图显示了在为单个目标配置了每个记录时，如何另外通过将 ER 目标配置为单个目标记录集来实现相同目的：
 
-![为单个目标配置每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面。](./media/er-destination-action-dependent-01a.png)
+![为单个目标配置了每个目标记录时，具有针对 ER 格式的依赖操作的目标设置的电子报告目标页面](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > 如果为正在运行的 ER 格式提供了操作代码，但尚未为该操作代码配置目标，将应用[默认](electronic-reporting-destinations.md#default-behavior)目标行为。
@@ -82,9 +84,9 @@ ms.locfileid: "7941236"
 
 ER 格式运行时，如果用户操作已由具有适当[权限](electronic-reporting-destinations.md#security-considerations)可以在运行时更改配置的目标设置的用户设置，将出现一个对话框，提供更改已配置目标设置的选项。 此对话框是可选的，其外观取决于 ER 框架发起的运行 ER 格式的调用如何实现。 如果出现此对话框，其中的 ER 目标将根据提供的用户操作启用。
 
-下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](../../../finance/accounts-receivable/create-free-text-invoice-new.md)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
+下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
 
-![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框。](./media/er-destination-action-dependent-02.gif)
+![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > 如果您为正在运行的 ER 格式的多个组件配置了 ER 目标，将为每个已配置的 ER 格式组件单独提供一个选项。
@@ -103,7 +105,7 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 6. 在 **配置调试日志** 页上，筛选 ER 运行日志来查找您的 ER 格式运行的日志。
 7. 如果为 ER 格式运行提供了任何操作，请查看必须包含呈现所提供的用户操作代码的记录的日志条目。
 
-    ![电子报告运行日志页面，其中包含有关为筛选出的 ER 格式运行提供的用户操作代码的信息。](./media/er-destination-action-dependent-03.png)
+    ![电子报告运行日志页，其中包含有关为筛选出的 ER 格式运行提供的用户操作代码的信息](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">业务文档列表（第 1 波）</a>
 
@@ -115,6 +117,7 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 - 采购订单采购查询
 - 销售订单确认
 - 催款单
+- 客户帐户对帐单
 - 利息单
 - 供应商付款通知
 - 询价
@@ -126,6 +129,3 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 
 [针对 Application update 10.0.17 的电子报告框架 API 更改](er-apis-app10-0-17.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

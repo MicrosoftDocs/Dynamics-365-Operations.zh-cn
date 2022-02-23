@@ -1,27 +1,30 @@
 ---
 title: 产品数据实体
 description: 本主题提供有关可用于导入和导出产品数据的不同实体的信息。
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
+ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567143"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4423469"
 ---
 # <a name="product-data-entities"></a>产品数据实体
 
@@ -47,6 +50,3 @@ ms.locfileid: "7567143"
 
 > [!NOTE]
 > 仅当已创建共享产品时，您才能使用 **已发布产品 V2** 数据实体将产品导入系统。 否则，要将产品导入系统，必须使用 **产品创建** 数据实体。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

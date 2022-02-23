@@ -2,25 +2,28 @@
 title: 仓库货位状态
 description: 本主题概述仓库货位状态功能。
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 1b5e1eb651d882e7fbf38f2f2cf8804c28f2154fcb299dbc5caabbecdfab560b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4423379"
 ---
 # <a name="warehouse-location-status"></a>仓库货位状态
 
@@ -51,7 +54,7 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>准备示例场景所需的示例数据
 
-开始完成此场景之前，必须按照本部分中的说明激活示例数据和设置功能。 若要完成示例场景，必须使用仓库管理移动应用或基于浏览器的模拟器。 此处提供的步骤使用仓库管理移动应用。 基于浏览器的模拟器的步骤类似。
+开始完成此场景之前，必须按照本部分中的说明激活示例数据和设置功能。 若要完成示例场景，必须使用仓库应用或基于浏览器的模拟器。 此处提供的步骤使用仓库应用。 基于浏览器的模拟器的步骤类似。
 
 #### <a name="use-the-usmf-legal-entity"></a>使用 USMF 法人
 
@@ -166,6 +169,3 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 
 > [!NOTE]
 > 只有仓库事务才会更新货位字段。 如果使用日记帐或其他非 WHS 流程移动库存，将不更新这些字段。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
