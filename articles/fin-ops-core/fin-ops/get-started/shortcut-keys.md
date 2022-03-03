@@ -1,12 +1,10 @@
 ---
 title: 键盘快捷方式
-description: 本主题概述使用 Finance and Operations 应用时可使用的快捷键组合。
+description: 本主题概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798217"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119544"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
 
-以下键盘快捷方式可帮助您快速、高效地在 Finance and Operations 应用中输入数据。
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+键盘快捷方式可帮助您快速、高效地在财务和运营应用中输入数据。 
 
 > [!NOTE]
 > 此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
@@ -36,11 +37,11 @@ ms.locfileid: "4798217"
 
 ## <a name="finding-a-shortcut"></a>查找快捷方式
 
-从平台更新 11 开始，用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择 **查看快捷方式**。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。
+用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择 **查看快捷方式**。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。 或者，您可以按 Alt+Shift+K 打开此对话框（然后再次按 Alt+Shift+K 查看页面当前可用的所有快捷方式）。    
 
 ## <a name="action-shortcuts"></a>操作快捷方式
 
-| 要执行的操作                                      | 按                            |
+| 要执行的操作                                      | 按                             |
 |-------------------------------------------------|----------------------------------|
 | 打开操作搜索                              | Ctrl+' 或 Alt+Q                  |
 | 移动到标准操作窗格                | Alt+M、A 或 Ctrl+F6               |
@@ -129,8 +130,10 @@ ms.locfileid: "4798217"
 
 ## <a name="grid-shortcuts"></a>网格快捷方式
 
-| 要执行的操作                                                                                                             | 按                           |
+| 要执行的操作                                                                                                             | 按                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| 垂直滚动                                                                                                     | 鼠标滚轮                     |
+| 水平滚动                                                                                                   | Shift + 鼠标滚轮             |
 | 移到下一个/上一个列                                                                                       | Tab / Shift+Tab                 |
 | 移到下一个/上一个行                                                                                          | 向下箭头/向上箭头           |
 | 移到下一行/上一行但不选中<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote> | Ctrl+向上箭头/Ctrl+向下箭头 |
@@ -142,22 +145,24 @@ ms.locfileid: "4798217"
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
 | 移至最后一条记录                                                                                                | Ctrl+End                        |
 | 选中或清除所有行                                                                                               | Ctrl+Shift+M                    |
-| 移至第一个标记行                                                                                           | Alt+Shift+M，F                    |
-| 移至下一个标记行                                                                                            | Alt+Shift+M，L                    |
-| 移至上一个标记行                                                                                        | Alt+Shift+M，P                    |
-| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                    |
+| 移至第一个标记行                                                                                           | Alt+Shift+M，F                  |
+| 移至下一个标记行                                                                                            | Alt+Shift+M，L                  |
+| 移至上一个标记行                                                                                        | Alt+Shift+M，P                  |
+| 移至最后一个标记行                                                                                           | Alt+Shift+M，N                  |
 | 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
+| 将当前列移到下一个/上一个位置（焦点位于标题行）                                   | Ctrl+Shift+右箭头/Ctrl+Shift+左箭头 |
 | 打开当前列的网格筛选（焦点放在标题行中）                                              | Enter                           |
+| 调整当前列的大小以适应内容（焦点位于标题行）                                           | A（或双击列大小调整句柄） |
 
 ## <a name="input-control-shortcuts"></a>输入控制快捷方式
 
-| 要执行的操作                                                                   | 按                         |
+| 要执行的操作                                                                   | 按                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | 打开超链接                                                           | Ctrl+Enter                    |
-| 在日期字段中输入会话日期                                       | 日                         |
-| 在日期字段中输入当前日期                                       | 二                         |
+| 在日期字段中输入会话日期                                       | 日                             |
+| 在日期字段中输入当前日期                                       | 二                             |
 | 打开查找、组合框、日期选择器、拖放对话框                         | Alt+向下箭头                |
 | 关闭查找、组合框、日期选择器、拖放对话框                        | Esc                           |
 | 将焦点移到查找内（在查找已打开时）                   | Alt+向下箭头                |
@@ -204,8 +209,8 @@ ms.locfileid: "4798217"
 | 使用移动工具（在个性化模式中）                                                                       | M                                   |
 | 选择当前控件作为要移动的控件（使用移动工具且没有选择要移动的控件时）  | Space 或 Enter                      |
 | 清除要移动的控件（使用移动工具时）                                                                   | Esc                                 |
-| 移到下一个位置获取选定控件（使用移动工具时）                                          | 选项卡或右箭头或向下箭头    |
-| 移到上一个位置获取选定控件（使用移动工具时）                                      | Shift+Tab 或左箭头或向上箭头 |
+| 将选中的控件移动到下一个位置（使用移动工具时）                                              | 选项卡或右箭头或向下箭头    |
+| 将选中的控件移动到上一个位置（使用移动工具时）                                          | Shift+Tab 或左箭头或向上箭头 |
 | 使用隐藏工具（在个性化模式中）                                                                       | H                                   |
 | 切换当前控件是否可见或隐藏（使用隐藏工具时）                                     | Space 或 Enter                      |
 | 使用跳过工具（在个性化模式中）                                                                       | K                                   |
@@ -251,7 +256,14 @@ ms.locfileid: "4798217"
 | 展开/折叠动画弹出提示（在播放任务指南时）              | Alt+R,C                    |
 | 在动画弹出提示中显示更多/更少信息（在播放任务指南时） | Alt+R,M                    |
 
+## <a name="focus-management"></a>焦点管理 
+焦点管理介绍用户焦点在应用程序中如何处理。 财务和运营应用具有专门的焦点行为，目的是优化用户工作效率，尤其是对于数据输入场景。 焦点行为包括：  
+
+-  页面加载后，页面上的第一个可编辑 input 控件将获得焦点，可以立即接受用户输入。 如果页面上没有可编辑 input 控件，初始焦点的后备选项是页面上的第一个 input 控件，然后是页面上的第一个可聚焦控件。   
+-  通常，当选择一个按钮时，操作会被处理，焦点可能会返回页面。 发生这种情况时，焦点往往会返回到选择的 button 控件。 这在财务和运营应用中也是如此，但按钮位于操作窗格或工具栏上时 **除外**。 在这些情况下，当操作完成时，焦点将返回到操作窗格（或工具栏）*之外* 在选择按钮之前具有焦点的最后一个控件。
+
 ## <a name="additional-resources"></a>其他资源
 
 [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

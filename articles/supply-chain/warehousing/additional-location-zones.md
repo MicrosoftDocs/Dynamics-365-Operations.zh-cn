@@ -2,28 +2,25 @@
 title: 其他货位区域
 description: 本主题概述已向 Microsoft Dynamics 365 Supply Chain Management 添加的新货位区域。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423364"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103830"
 ---
 # <a name="additional-location-zones"></a>其他货位区域
 
@@ -33,12 +30,9 @@ Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。
 
 无需进行更多设置即可使用区域字段。
 
-## <a name="turn-on-the-additional-location-zone-feature"></a>开启“其他货位区域”功能
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>打开或关闭“其他货位区域”功能
 
-*其他货位区域* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*其他货位区域*
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *其他位置区域* 功能来打开或关闭此功能。
 
 ## <a name="use-location-zones"></a>使用货位区域
 
@@ -58,3 +52,6 @@ Microsoft Dynamics 365 Supply Chain Management 中新增了三个区域字段。
 7. 选择 **创建**。
 8. 将收到消息，说明已添加了新货位。 选择 **显示消息** 按钮查看消息。
 9. 转到 **仓库管理 \> 设置 \> 仓库 \> 货位**。 将在列表中显示新货位，并且可使用所有区域字段（即，现有区域字段和新的其他区域字段）。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

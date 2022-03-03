@@ -1,26 +1,23 @@
 ---
 title: 信用管理设置
 description: 本主题描述了信用管理所需的设置。
-author: mikefalkner
-manager: AnnBe
-ms.date: 09/04/2019
+author: JodiChristiansen
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440625"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182420"
 ---
 # <a name="credit-management-setup"></a>信用管理设置 
 
@@ -42,7 +39,7 @@ ms.locfileid: "4440625"
 
 如果付款期限排名有效，且在订单上的付款期限排名高于客户的默认付款期限排名，销售订单将暂停。
 
-要设置付款期限排名，请转到 **信用和收款 \> 设置 \> 信用管理设置 \> 付款期限排名**  
+要设置付款期限排名，请转到 **信用和收款 \> 设置 \> 信用管理设置 \> 付款期限排名**。  
 
 ### <a name="ranking-settlement-discounts"></a>对结算折扣进行排名
 
@@ -89,7 +86,7 @@ ms.locfileid: "4440625"
 
 ## <a name="scoring-groups"></a>计分组
 
-您可以设置计分组以定义风险因素以及用于衡量风险因素的标准。 将有关客户的信息应用于计分组后，会为每个风险因素计算一个分数，并用此分数将客户置于风险组中。 风险组可用于识别信用价值并计算自动信用额度。
+您可以设置 **计分组** 以定义风险因素以及用于衡量风险因素的标准。 将有关客户的信息应用于计分组后，会为每个风险因素计算一个分数，并用此分数将客户置于风险组中。 风险组可用于识别信用价值并计算自动信用额度。
 
 您可以在 **计分组** 页（**信用和收款 \> 设置 \> 信用管理设置 \> 风险 \> 计分组**）上创建计分组。
 
@@ -153,3 +150,6 @@ ms.locfileid: "4440625"
 2. 选择比较运算符以定义应如何评估计分组信息。
 3. 输入应该与为计分组指定的值进行比较的值。
 4. 如果客户信息与为计分组指定的值匹配，请输入应分配的信用额度。 例如，您为 **低** 计分组创建自动信用额度。 如果营业年数是计分组之一，则可以定义一个行，以在客户已营业五年的情况下分配一个值为 100,000 的信用额度；可以定义另一个行，以在客户已营业 10 年的情况下分配一个值为 200,000 的信用额度。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: 痕迹导航模块
 description: 本主题介绍痕迹导航模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517152"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109723"
 ---
 # <a name="breadcrumb-module"></a>痕迹导航模块
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍痕迹导航模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 痕迹导航模块用于在站点页面上提供辅助导航。 它们通常显示在页面顶部的标题下方。 痕迹导航模块可以添加到任何页面，但它们最常用于产品详细信息页 (PDP)，来显示产品类别层次结构并提供在站点上快速四处移动的方法。 当用户从搜索或列表页打开 PDP 时，痕迹导航模块还可以用于显示“返回到结果”链接。 这样，用户可以快速返回到筛选后的列表页以继续购物。
 
@@ -42,7 +37,7 @@ ms.locfileid: "4517152"
 
 下图显示了痕迹导航模块的示例，该模块显示 PDP 上的类别层次结构。
 
-![痕迹导航模块的示例](./media/ecommerce-breadcrumb.PNG)
+![痕迹导航模块的示例。](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>痕迹导航模块设置
 
@@ -86,7 +81,7 @@ ms.locfileid: "4517152"
 
 [导航菜单模块](nav-menu-module.md)
 
-[站点选择器模块](site-selector.md)
+[站点选取器模块](site-selector.md)
 
 [默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
 
@@ -95,3 +90,6 @@ ms.locfileid: "4517152"
 [购买框模块](add-buy-box.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

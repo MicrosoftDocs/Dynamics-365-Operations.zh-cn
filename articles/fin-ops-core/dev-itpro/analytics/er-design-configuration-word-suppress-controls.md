@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737967"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323917"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>禁止在生成的报告中使用 Word 内容控件
 
 [!include [banner](../includes/banner.md)]
 
-要生成 Microsoft Word 文档形式的报告，必须将报告的模板设计为 Word 文档。 此模板必须包含 Word 内容控件作为将在运行时填充的数据的占位符。 要将创建的 Word 文档用作报表的模板，可以[配置](er-design-configuration-word.md)一个新的[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)。 此解决方案必须包含一个包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。 必须配置这种 ER 格式才能使用设计的模板来生成报告。
+要生成 Microsoft Word 文档形式的报告，必须将报告的模板设计为 Word 文档。 此模板必须包含 Word 内容控件作为将在运行时填充的数据的占位符。 要将创建的 Word 文档用作报表的模板，可以[配置](er-design-configuration-word.md)一个新的[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)。 此解决方案必须包含一个包含 ER 格式组件的 ER [配置](general-electronic-reporting.md#Configuration)。 必须配置这种 ER 格式才能使用设计的模板来生成报告。
 
 在 10.0.6 版及更高版本的 Dynamics 365 Finance 中，您可以以 ER 格式配置公式，以在生成的文档中禁止使用某些 Word 内容控件。
 

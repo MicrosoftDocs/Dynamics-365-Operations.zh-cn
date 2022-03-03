@@ -2,26 +2,23 @@
 title: 质量检查
 description: 本主题提供有关质量检查功能的信息。 此功能使仓库工作人员在将物料接收到进货台区域时可以快速进行质量抽查。
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423396"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103280"
 ---
 # <a name="quality-check"></a>质量检查
 
@@ -42,12 +39,9 @@ ms.locfileid: "4423396"
 
 也可以对此流程进行设置，将所有扫描的牌照立即转移到质量检查位置。
 
-## <a name="turn-on-the-quality-check-feature"></a>开启“质量检查”功能
+## <a name="turn-the-quality-check-feature-on-or-off"></a>打开或关闭“质量检查”功能
 
-*质量检查* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*质量检查*
+要使用本主题中描述的功能，必须为您的系统打开 *质量检查* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *质量检查* 功能来打开或关闭此功能。
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>为示例方案设置此功能
 
@@ -302,7 +296,7 @@ ms.locfileid: "4423396"
 
 #### <a name="receive-pallet-1"></a>接收托盘 1
 
-1. 以仓库 *51* 用户身份登录仓库应用。 （用户 ID 输入 *51*，密码输入 *1*。）
+1. 以仓库 *51* 用户身份登录到仓库管理移动应用。 （用户 ID 输入 *51*，密码输入 *1*。）
 1. 转到 **入站 \> 采购订单行收货**。
 1. 在 **PONUM** 字段中，输入采购订单编号。
 1. 确认采购订单编号。
@@ -313,7 +307,7 @@ ms.locfileid: "4423396"
 
     出现的 **质量检查** 页面没有输入字段。 它只在底部有一个确认（复选标记）按钮，在顶部有一个菜单按钮 (**≡**)。 （菜单按钮有时称为汉堡包或汉堡包按钮。）为了加快质量检查流程，当托盘通过质量检查时，用户只需确认 **质量检查** 页。
 
-    ![质量检查页面](media/quality-check.png "质量检查页面")
+    ![质量检查页面。](media/quality-check.png "质量检查页面")
 
 1. 选择确认按钮通过行 1 的托盘 1 的质量检查。
 
@@ -397,3 +391,6 @@ ms.locfileid: "4423396"
 1. 选择页面顶部的菜单按钮 (**≡**)，然后在菜单上选择 **取消** 返回菜单。
 
 您现在可以关闭移动应用了。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

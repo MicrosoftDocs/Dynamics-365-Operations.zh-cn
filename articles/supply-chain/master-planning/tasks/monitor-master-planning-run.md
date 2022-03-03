@@ -1,27 +1,24 @@
 ---
 title: 监控主计划运行
 description: 本主题说明生产规划员如何查看主计划运行是否正在进行。
-author: josaw1
-manager: tfehr
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422774"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103155"
 ---
 # <a name="monitor-a-master-planning-run"></a>监控主计划运行
 
@@ -31,12 +28,11 @@ ms.locfileid: "4422774"
 
 在 **查看主计划进度** 页面上，您可以甘特图形式查看历史主计划运行的详细信息。 此功能可以帮助您了解在主计划的各个阶段花费的时间。 对于当前的活动计划作业，可以使用 **查看主计划进度** 页面来跟踪进度并查看估计的剩余时间。
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>打开和使用主计划进度可视化功能
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>打开或关闭主计划进度可视化功能
 
-要使用此功能，请按照下列步骤操作。
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *主计划进度可视化* 功能来打开或关闭此功能。
 
-1. 在 **功能管理** 工作区中的 **新** 选项卡上，在列表中选择 **主计划进度可视化**。 如果该功能未出现在 **新** 选项卡上，请查看 **未启用** 和 **所有** 选项卡。
-1. 选择 **立即启用**。 或者，选择 **时间表**，然后选择要启用该功能的时间。
+### <a name="use-the-master-plan-progress-visualization-feature"></a>使用主计划进度可视化功能
 
 **查看主计划进度** 页面可以显示历史计划作业和活动计划作业。 
 
@@ -127,3 +123,6 @@ ms.locfileid: "4422774"
 1. 在网格中，选择将 **现场** 字段设置为 **物料编号** 的行。
 1. 在 **条件** 字段中，输入一个值。
 1. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

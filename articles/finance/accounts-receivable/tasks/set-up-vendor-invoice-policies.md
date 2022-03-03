@@ -2,36 +2,33 @@
 title: 设置供应商发票策略
 description: 本主题说明如何设置供应商发票策略。
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440772"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109748"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>设置供应商发票策略
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何设置供应商发票策略。 在您通过使用供应商发票页面过帐供应商发票，以及打开供应商发票政策违规页面时，将运行供应商发票政策。 您还可以配置供应商发票工作流每次运行供应商发票策略发票您提交到工作流。 
+本主题说明如何设置供应商发票策略。 在您通过使用 **供应商发票** 页面过帐供应商发票，以及打开供应商发票 **政策违规** 页面时，将运行供应商发票政策。 您还可以配置供应商发票工作流每次运行供应商发票策略发票您提交到工作流。 
 
 - 供应商发票此策略不适用于在发票登记簿或发票日志中创建的发票。  
-- 发票匹配验证并不使用供应商发票政策，但是，需在应付帐款参数页面进行设置。  
-- 此记录使用 USMF 公司演示。 应付帐款经理或会计经理将执行以下步骤。 在您开始前，请确保选择发票匹配 Configuration Key。
+- 发票匹配验证并不使用供应商发票政策，但是，需在 **应付帐款参数** 页面进行设置。  
+- 此记录使用 USMF 公司演示。 应付帐款经理或会计经理将执行以下步骤。 在您开始前，请确保选择 **发票匹配** 配置键。
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>准备为供应商发票策略
@@ -73,3 +70,6 @@ ms.locfileid: "4440772"
 16. 选择 **确定**。
 17. 关闭页面将返回到主页。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738763"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323372"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>设置 B2B 电子商务站点的产品数量限制
 
@@ -77,7 +77,7 @@ ms.locfileid: "6738763"
 
 [建立 B2B 电子商务站点](set-up-b2b-site.md)
 
-[为 B2B 组织创建组织建模层次结构](org-model.md)
+[使用客户层次结构管理 B2B 业务合作伙伴](partners-customer-hierarchies.md)
 
 [在 B2B 电子商务站点上管理业务合作伙伴用户](manage-b2b-users.md)
 

@@ -2,26 +2,23 @@
 title: 群集位置已满
 description: 本主题提供有关群集位置已满功能的信息。 在使用群集领料时，也可以使用此功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423358"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102819"
 ---
 # <a name="cluster-position-full"></a>群集位置已满
 
@@ -31,12 +28,9 @@ ms.locfileid: "4423358"
 
 此功能可用于对集群中的一个工作单位运行 **已满** 按钮。 在较早的版本中，此选项仅适用于常规订单领料，不适用于群集领料。 但是，此功能与标准的 **已满** 按钮不同，后者会取消剩余工作。 其建议用户不要向同一个群集再添加箱，并且不会自动创建新工作。
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>开启群集位置已满功能
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>打开或关闭群集位置已满功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*群集位置已满*
+要使用本主题中描述的功能，必须为您的系统打开 *群集位置已满* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集位置已满* 功能来打开或关闭此功能。
 
 ## <a name="setup"></a>设置
 
@@ -214,7 +208,7 @@ ms.locfileid: "4423358"
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>移动设备流执行 – 产品的工作确认设置
 
-1. 以仓库 *61* 用户身份登录仓库应用。
+1. 以仓库 *61* 用户身份登录到仓库管理移动应用。
 1. 转到 **出站 \> 群集领料创建**。
 
     将显示 **任务: 为群集分配工作** 页面。
@@ -276,3 +270,6 @@ ms.locfileid: "4423358"
     您将收到“群集已完成”消息。
 
 现在可以使用 **销售领料** 菜单项领取剩余数量。 然后可以使用 **销售装载** 菜单项将物料从暂存位置移到装货场。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

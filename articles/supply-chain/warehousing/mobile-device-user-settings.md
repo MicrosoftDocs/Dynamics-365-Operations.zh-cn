@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901864"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103705"
 ---
 # <a name="mobile-device-user-settings"></a>移动设备用户设置
 
@@ -39,12 +39,9 @@ ms.locfileid: "7901864"
 > [!IMPORTANT]
 > *移动设备用户设置* 功能仅适用于新仓库管理移动应用。 它在旧仓库应用中不起作用。
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>打开移动设备用户设置功能
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>打开或关闭移动设备用户设置功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*新仓库应用的用户设置、图标和步骤标题*
+要使用本主题介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
 ## <a name="create-and-manage-user-settings"></a>创建和管理用户设置
 

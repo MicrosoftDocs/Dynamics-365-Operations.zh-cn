@@ -2,25 +2,22 @@
 title: 确认来自批处理作业的出站装运
 description: 本主题介绍如何设置自动确认准备装运负荷的出站转移单装运的批处理作业。
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422763"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103907"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>确认来自批处理作业的出站装运
 
@@ -28,12 +25,9 @@ ms.locfileid: "4422763"
 
 本主题介绍如何设置自动确认准备装运负荷的出站转移单装运的批处理作业。 这里介绍的批处理作业仅适用于转移单装运，不适用于销售订单。
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>启用“从批处理作业确认出站装运”功能
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>打开或关闭“从批处理作业确认出站装运”功能
 
-此功能只有在系统中启用了之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 此功能的清单如下：
-
-- **模块** - *仓库管理*
-- **功能名称** - *从批处理作业确认出站装运*
+要使用本主题中描述的功能，必须为您的系统打开 *从批处理作业确认出站装运* 功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *从批处理作业确认出站装运* 功能来打开或关闭此功能。
 
 ## <a name="process-outbound-shipments"></a>处理出站装运
 
@@ -54,3 +48,6 @@ ms.locfileid: "4422763"
 1. 在 **确认装运** 对话框中选择 **确定**，将批处理作业添加到批处理队列中。
 
 有关详细信息，请参阅[批处理概览](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

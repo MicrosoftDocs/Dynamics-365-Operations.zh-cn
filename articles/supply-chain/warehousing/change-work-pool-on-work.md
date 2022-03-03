@@ -2,26 +2,23 @@
 title: 更改工作的工作池
 description: 本主题说明如何使用工作项的“更改工作池”按钮来更改现有工作的工作池。
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423036"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102855"
 ---
 # <a name="change-work-pool-on-work"></a>更改工作的工作池
 
@@ -31,12 +28,9 @@ ms.locfileid: "4423036"
 
 *更改工作的工作池* 功能在工作项的“操作窗格”中添加了 **更改工作池** 按钮。 因此，仓库经理可以轻松地更改现有工作的工作池。 此功能使经理可以对仓库车间的变化做出快速反应，并有助于提高他们适应变化情况的能力，改进将工作转移到另一个工作池的需求。
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>启用“更改工作的工作池”功能
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>打开或关闭“更改工作的工作池”功能
 
-在开始设置或使用此功能之前，必须确保它在系统中可用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*更改工作的工作池*
+从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *更改工作的工作池* 功能来打开或关闭此功能。
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>设置“更改工作的工作池”功能
 
@@ -149,3 +143,6 @@ ms.locfileid: "4423036"
 > 当出现 **更改工作池** 对话框时，默认情况下，**工作池 ID** 字段可能为空白。 如果选择 **确定** 应用更改时此字段为空白，则将工作池从工作中完全删除。
 >
 > 除了切换工作池外，您还可以使用此过程将工作池添加到没有工作池的任何工作项中，或从有工作池的任何工作项中删除工作池。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730599"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323632"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的原始数据类型
 
@@ -101,7 +101,7 @@ ms.locfileid: "6730599"
 
 ## <a name="enumeration"></a><a name="enumeration"></a>枚举
 
-*枚举* 原始数据类型是文本的列表。 您可以使用在应用程序[源代码](../dev-ref/xpp-data-primitive.md#enum)中定义的枚举。 您还可以在 ER [数据模型](general-electronic-reporting.md#data-model-and-model-mapping-components)和 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件中引入自己的枚举。
+*枚举* 原始数据类型是文本的列表。 您可以使用在应用程序[源代码](../dev-ref/xpp-data-primitive.md#enum)中定义的枚举。 您还可以在 ER 数据模型和 ER 格式组件中引入自己的枚举。
 
 应用程序 *枚举* 可用于任何 ER 模型映射和 ER 格式的表达式中。
 

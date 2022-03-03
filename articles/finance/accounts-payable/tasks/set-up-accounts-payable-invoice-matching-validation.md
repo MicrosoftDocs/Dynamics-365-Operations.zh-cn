@@ -2,26 +2,23 @@
 title: 设置应付帐款发票匹配验证
 description: 本主题介绍如何设置应付帐款发票匹配验证。
 author: abruer
-manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440695"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182547"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付帐款发票匹配验证
 
@@ -57,7 +54,7 @@ ms.locfileid: "4440695"
 12. 在 **采购价格合计容差** 字段中，输入采用记帐币种的金额。 当 **匹配价格合计** 设置为 **金额** 或 **百分比和金额** 时，此字段可用。
 13. 在 **显示价格合计匹配图标** 字段中，选择如果发票匹配的差异超出了容差时何时显示图标。 在正差异超出了容差时，可以显示图标，或者正或负差异超出了容差时。
 例如，容差是 5，并且采购订单上的行价格总计是 10.00。 因此，如果发票上的行价格总计超过 10.50，将显示价格匹配图标。 如果您选择 **如果大于或小于容差**，则在发票上的行价格合计少于 9.50 的情况下也会显示图标。
-13. 设置费用匹配。
+13. 设置 **费用匹配**。
 14. 要根据采购订单上的信息匹配实际费用与预计费用，选中 **匹配费用** 复选框。
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>设置单价容差百分比
@@ -78,7 +75,7 @@ ms.locfileid: "4440695"
 
 ## <a name="set-up-matching-policy-override"></a>设置匹配政策覆盖
 
-转到 **应付帐款 > 设置 > 发票匹配设置 > 匹配政策**，以便为“采购订单”窗体中的行定义“匹配政策”字段的默认条目。 这是可选设置。 此窗体用于为物料、供应商或物料和供应商组合设置双向匹配或三向匹配。 可通过这些条目定义比 **应付帐款参数** 页上定义的法人匹配政策更详细的匹配政策。 默认法人行匹配政策适用于所有物料和供应商，但在此页上为其指定了其他行匹配政策的物料和供应商除外。
+转到 **应付帐款 > 设置 > 发票匹配设置 > 匹配政策**，为 **采购订单** 页面的行定义 **匹配政策** 字段的默认条目。 这是可选设置。 此页面用于为物料、供应商或物料和供应商组合设置双向匹配或三向匹配。 可通过这些条目定义比 **应付帐款参数** 页上定义的法人匹配政策更详细的匹配政策。 默认法人行匹配政策适用于所有物料和供应商，但在此页上为其指定了其他行匹配政策的物料和供应商除外。
 
 在此页上，选择 **匹配政策级别**。 选择要设置的匹配政策在匹配政策层次结构中的级别。
 
@@ -98,3 +95,6 @@ ms.locfileid: "4440695"
 
 1. 若要为单个供应商指定用于覆盖默认容差的容差，请选择 **供应商帐户**。
 2. 输入您为此供应商接收的差异百分比。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

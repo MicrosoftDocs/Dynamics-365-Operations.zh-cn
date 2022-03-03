@@ -2,11 +2,9 @@
 title: 使用条码数据源生成条码图像
 description: 本主题说明如何使用条码数据源生成条码图像。
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681416"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323944"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>使用条码数据源生成条码图像
 
 [!include[banner](../includes/banner.md)]
 
-您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架来设计可以运行来生成所需的电子版和可打印传出文档的 [ER 格式组件](general-electronic-reporting.md#FormatComponentOutbound)。 若要生成 Microsoft Office 格式的传出文档，必须使用 Microsoft Excel 文档或 Microsoft Word 文档作为报告模板来指定报告的布局。 [ER 操作设计器](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base)使您可以将 Excel 或 Word 文档附加为 ER 格式的模板。 附加模板中的以下命名元素与配置的格式组件的元素相关联：
+您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架来设计可以运行来生成所需的电子版和可打印传出文档的 ER 格式组件。 若要生成 Microsoft Office 格式的传出文档，必须使用 Microsoft Excel 文档或 Microsoft Word 文档作为报告模板来指定报告的布局。 [ER 操作设计器](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base)使您可以将 Excel 或 Word 文档附加为 ER 格式的模板。 附加模板中的以下命名元素与配置的格式组件的元素相关联：
 
 - Word 中的内容控件
 - Excel 中的命名工作表、范围、单元格、形状和图像
@@ -39,7 +37,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 报告模板中可以使用以下占位符来输入条码图像：
 
-- Word 的[图片](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)内容控件
+- Word 的[图片](/office/client-developer/word/content-controls-in-word)内容控件
 - Excel 中的[图片](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)对象
 
 通过使用 **条码** 类型的数据源，您可以生成以下格式的条码：
@@ -118,21 +116,21 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 | 内容描述         | 文件名                   |
 |-----------------------------|-----------------------------|
-| ER 数据模型配置 | Model for cheques.xml       |
-| ER 格式配置     | Cheques printing format.xml |
+| ER 数据模型配置 | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| ER 格式配置     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 此外，下载以下 Excel 文件，其中包含所提供的 ER 解决方案的修改后的模板。
 
 | 内容描述 | 文件名                 |
 |---------------------|---------------------------|
-| 报告模板     | Check template Excel.xlsx |
+| 报告模板     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>激活配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 **Litware, Inc.** 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
 
-![在“本地化配置”页面上将示例公司设置为活动状态](./media/er-barcode-data-source-active-provider.png)
+![在“本地化配置”页面上将示例公司设置为活动状态。](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>导入提供的 ER 解决方案
 
@@ -162,14 +160,14 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 7. 在操作窗格上，选择 **打印测试**。
 8. 在对话框中，将 **可转让支票格式** 选项设置为 **是**，然后选择 **确定**。
 
-    ![支票版式 - 打印测试对话框](./media/er-barcode-data-source-check-layout.png)
+    ![支票版式 - 打印测试对话框。](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>查看生成的付款支票
 
 - 在 Excel 中打开生成的支票。
 2. 检查生成的支票。
 
-    ![在 Excel 中生成的付款支票](./media/er-barcode-data-source-cheque1.png)
+    ![在 Excel 中生成的付款支票。](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>修改提供的 ER 解决方案的格式
 
@@ -177,7 +175,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 您可以使用 Excel 桌面应用程序打开您先前导入的 **Cheque template Excel.xlsx** 文件。 请注意，此模板与您在提供的 ER 解决方案中用于生成付款支票的模板不同。 此外，它还包括条码图像的 **AmountBarcode** 元素。
 
-![Excel 模板中的 AmountBarcode 元素](./media/er-barcode-data-source-cheque2.png)
+![Excel 模板中的 AmountBarcode 元素。](./media/er-barcode-data-source-cheque2.png)
 
 您现在必须修改 ER 解决方案，然后[重新应用](modify-electronic-reporting-format-reapply-excel-template.md)修改后的模板。
 
@@ -188,7 +186,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 5. 在 ER 操作设计器中，选择页面右侧的 **映射** 选项卡，然后在左侧的格式树窗格中，选择 **展开/折叠**。
 6. 请注意，所有单元格格式元素都绑定到适当的数据源。
 
-    ![在 ER 操作设计器中将单元格格式元素绑定到数据源](./media/er-barcode-data-source-cells-bound.png)
+    ![在 ER 操作设计器中将单元格格式元素绑定到数据源。](./media/er-barcode-data-source-cells-bound.png)
 
 7. 选择页面右侧的 **格式** 选项卡。
 8. 在操作窗格上，选择省略号 (**...**)，然后选择 **导入**。
@@ -197,7 +195,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 11. 选择页面右侧的 **映射** 选项卡，然后在左侧的格式树窗格中，选择 **展开/折叠**。
 12. 请注意，**AmountBarcode** 单元格元素已添加到格式。 此元素与 **AmountBarcode** 元素相关联，后者已作为条码图像的占位符添加到修改后的 Excel 模板中。
 
-    ![在 ER 操作设计器中添加到格式中的 AmountBarcode 单元格元素](./media/er-barcode-data-source-cell-added.png)
+    ![在 ER 操作设计器中添加到格式中的 AmountBarcode 单元格元素。](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>添加新条码数据源
 
@@ -206,14 +204,14 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 1. 在 ER 操作设计器中，在页面右侧的 **映射** 选项卡上，选择 **打印** 数据源。
 2. 选择 **添加**，然后在 **函数** 组中，选择 **条码** 数据源类型。
 
-    ![选择条码数据源类型](./media/er-barcode-data-source-add.png)
+    ![选择条码数据源类型。](./media/er-barcode-data-source-add.png)
 
 3. 在对话框的 **名称** 字段中，输入 **条码**。
 4. 在 **条码格式** 中，选择 **Code 128**。
 5. 在 **宽度** 字段中，输入 **500**。
 6. 选择 **确定**。
 
-    ![数据源属性对话框](./media/er-barcode-data-source-add2.png)
+    ![数据源属性对话框。](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>绑定新格式元素
 
@@ -224,7 +222,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 3. 在操作窗格上，选择 **显示详细信息**。
 4. 请注意，由于 **条码** 数据源在绑定中表示为包含单个参数的函数，绑定格式元素的名称已自动提取为该参数的参数。
 
-    ![ER 操作设计器中条码数据源的详细信息](./media/er-barcode-data-source-bind1.png)
+    ![ER 操作设计器中条码数据源的详细信息。](./media/er-barcode-data-source-bind1.png)
 
 5. 选择 **编辑公式** 调整绑定。
 
@@ -234,7 +232,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 7. 选择 **保存**，然后关闭 [ER 公式设计器](general-electronic-reporting-formula-designer.md)。
 8. 请注意，绑定已调整。
 
-    ![在 ER 操作设计器中调整的绑定](./media/er-barcode-data-source-bind2.png)
+    ![在 ER 操作设计器中调整的绑定。](./media/er-barcode-data-source-bind2.png)
 
 9. 选择 **保存**，然后关闭 ER 操作设计器。
 
@@ -279,7 +277,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 6. 选择 **确定**。
 7. 检查生成的支票。 请注意，已生成条码以对支票的应付金额进行编码。
 
-    ![在 Excel 中使用条码生成的付款支票](./media/er-barcode-data-source-cheque3.png)
+    ![在 Excel 中使用条码生成的付款支票。](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > 如果 **条码** 数据源的参数不符合特定于条码格式的适当要求，将引发异常。 例如，当调用 **条码** 数据源以为提供的文本生成 [EAN-8](https://wikipedia.org/wiki/EAN-8) 条码时，如果文本长度超过七个字符将引发异常。
@@ -290,7 +288,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 但是，当您使用 **条码** 数据源来生成条码时，这些条码的呈现将不依赖于任何字体。 因此，您可以轻松地将包含条码的文档转换为 PDF 格式。 下图显示了生成的付款支票的预览，该支票已基于配置的 ER [目标](electronic-reporting-destinations.md)的设置[转换](electronic-reporting-destinations.md#OutputConversionToPDF)为 PDF。
 
-![付款支票的 PDF 的预览](./media/er-barcode-data-source-cheque4.png)
+![付款支票的 PDF 的预览。](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>限制
 
@@ -303,3 +301,6 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 - [电子报告目标](electronic-reporting-destinations.md)
 - [电子申报公式语言](er-formula-language.md)
 - [NUMBERFORMAT 函数](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

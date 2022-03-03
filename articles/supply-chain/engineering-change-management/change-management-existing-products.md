@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571969"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103605"
 ---
 # <a name="enable-change-management-on-existing-products"></a>对现有产品启用更改管理
 
@@ -27,12 +27,9 @@ ms.locfileid: "7571969"
 
 为现有产品启用更改管理时，您可以创建该产品的版本并跟踪在产品整个生命周期内对产品所做的更改。 因此，您可以使用更改订单来跟踪那些更改。 要启用更改管理，您必须将相关产品转换为 *工程物料*（也称为工程产品）。 工程产品是通过更改管理版本化和管理的产品。 提供了一个向导来指导您完成整个转换流程。
 
-## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
+## <a name="turn-this-feature-on-or-off"></a>打开或关闭此功能
 
-要使用此功能，必须完成以下任务：
-
-1. 启用工程更改管理功能及其配置密钥，如[工程更改管理概述](product-engineering-overview.md)中所述。
-1. 在功能管理中打开 *对现有产品启用更改管理* 功能。 有关更多信息，请参见[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
+本主题中描述的功能需要您的系统同时启用 *工程更改管理* 和 *对现有产品启用更改管理* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="restrictions-and-limitations"></a>约束与限制
 

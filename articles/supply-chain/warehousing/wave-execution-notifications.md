@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 26810f6e21f9c8ba6e92621a8e1ddee17837b6048107b961afb0e428059051af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752576"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103231"
 ---
 # <a name="wave-execution-notifications"></a>波次执行通知
 
@@ -28,14 +28,11 @@ ms.locfileid: "6752576"
 
 导航栏右侧的 **显示消息** 按钮（铃铛符号）指示操作中心消息何时对当前用户可用。 用户可以选择 **显示消息** 按钮以打开操作中心并查看消息。
 
-运行业务流程时，将发生业务事件。 业务流程由任务组成。 在业务流程中，参与其中的用户将执行业务操作以完成这些任务。 业务事件提供一种机制，使外部系统可以从 Finance and Operations 应用程序中接收通知。 这样，系统可以执行业务操作以响应业务事件。 有关详细信息，请参阅[业务事件概述](../../fin-ops-core/dev-itpro/business-events/home-page.md)。
+运行业务流程时，将发生业务事件。 业务流程由任务组成。 在业务流程中，参与其中的用户将执行业务操作以完成这些任务。 业务事件提供一种机制，使外部系统可以从财务和运营应用程序中接收通知。 这样，系统可以执行业务操作以响应业务事件。 有关详细信息，请参阅[业务事件概述](../../fin-ops-core/dev-itpro/business-events/home-page.md)。
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>打开波次执行通知功能
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>打开或关闭波次执行通知功能
 
-*波次执行通知* 功能只有在系统中打开之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*波次执行通知*
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *波次执行通知* 功能来打开或关闭此功能。
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>场景：将波次批处理执行通知发送到操作中心
 

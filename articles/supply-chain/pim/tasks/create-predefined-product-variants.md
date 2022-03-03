@@ -1,73 +1,103 @@
 ---
 title: 创建预定义的产品变型
 description: 此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。
-author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+author: t-benebo
+ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966922"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103081"
 ---
-# <a name="create-predefined-product-variants"></a>创建预定义的产品变型
+# <a name="predefined-product-variants"></a>预定义的产品变型
 
 [!include [banner](../../includes/banner.md)]
 
-此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。 创建此过程使用的演示数据公司为 USMF。
+## <a name="example-scenario-create-predefined-product-variants"></a>示例场景：创建预定义的产品变型
 
+此示例场景演示如何使用产品维度的组合创建基础产品的产品变型。
 
-## <a name="create-a-product-master"></a>创建基础产品
-1. 转到“产品信息管理”>“产品”>“基础产品”。
-2. 单击“新建”。
-3. 在“产品编号”字段中，键入一个值。
-    * 如果尚未针对产品编号字段设置任何编号规则，则不需要手动输入产品编号。 换言之，如果已为该字段设置了编号规则，则跳过此步骤。  
-4. 在“产品名称”字段中，键入一个值。
-5. 在“产品维度组”字段中，输入或选择一个值。
-    * 选择产品维度组 SizeCol（尺寸和颜色）。  
-6. 单击“确定”。
+### <a name="make-demo-data-available"></a>提供演示数据
 
-## <a name="add-product-dimensions"></a>添加产品维度
-1. 单击“产品维度”。
-    * 此示例显示如何手动输入产品维度。 您还可以选择选择包括您要使用的产品维度值的尺寸、颜色或样式组。  
-2. 单击“新建”。
-3. 在列表中，标记所选的行。
-4. 在“尺寸”字段中，输入或选择一个值。
-5. 在“名称”字段中，键入一个值。
-6. 单击“新建”。
-7. 在列表中，标记所选的行。
-8. 在“尺寸”字段中，输入或选择一个值。
-9. 在“名称”字段中，键入一个值。
-10. 单击“颜色”选项卡。
-11. 单击“新建”。
-12. 在列表中，标记所选的行。
-13. 在“颜色”字段中，输入或选择一个值。
-14. 在“名称”字段中，键入一个值。
-15. 单击“新建”。
-16. 在列表中，标记所选的行。
-17. 在“颜色”字段中，输入或选择一个值。
-18. 在“名称”字段中，键入一个值。
-19. 单击“保存”。
-20. 关闭该页面。
+要使用此处建议的值来练习此场景，必须安装演示数据，并且必须选择 *USMF* 法人。
 
-## <a name="generate-product-variants"></a>生成产品变型
-1. 单击“产品变型”。
-2. 单击“变型建议”。
-3. 单击“选择全部”。
-    * 在此示例中，选择所有可能的变型。 如果仅可能的产品维度组合的子集将用于创建变型，则您可以选择单个条目。  
-4. 单击“创建”。
-    * 您可以基于产品维度值的组合生成所有变型的描述。 描述是可选的。  
-5. 单击“保存”。
+### <a name="step-1-create-a-product-master"></a>步骤 1：创建基础产品
 
+创建基础产品：
+
+1. 转到 **产品信息管理 > 产品 > 基础产品**。
+1. 选择 **新建**。
+1. 如果 **产品编号** 字段尚未显示数字，则输入一个值。 仅当未为此字段设置编号规则时才需要此操作。
+1. 在 **产品名称** 字段中输入一个名称。
+1. 在 **产品维度组** 字段中，选择产品维度组 *SizeCol*（尺寸和颜色）。
+1. 选择 **确定** 创建并打开新基础产品。
+
+### <a name="step-2-add-product-dimensions"></a>步骤 2：添加产品维度
+
+此示例显示如何手动输入产品维度。 您还可以选择选择包括您要使用的产品维度值的尺寸、颜色或样式组。
+
+添加产品维度：
+
+1. 在您的新基础产品仍然打开的情况下，在操作窗格上选择 **产品维度**。
+1. 打开 **尺寸** 选项卡，在工具栏上选择 **新建** 在网格中添加一行。 对新行进行以下设置：
+    - **尺寸：** 选择一个尺寸值。
+    - **名称：** 为尺寸输入一个名称。
+1. 在工具栏上选择 **新建**，使用新的 **尺寸** 和 **名称** 向网格添加第二个尺寸。
+1. 打开 **颜色** 选项卡，在工具栏上选择 **新建** 在网格中添加一行。 对新行进行以下设置：
+    - **颜色：** 选择一个颜色值。
+    - **名称：** 为颜色输入一个名称。
+1. 在工具栏上选择 **新建**，使用新的 **颜色** 和 **名称** 向网格添加第二个颜色。
+1. 选择 **保存**。
+1. 关闭页面返回到新基础产品。
+
+### <a name="step-3-generate-product-variants"></a>步骤 3：生成产品变型
+
+> [!NOTE]
+> 此节介绍未启用 *变型建议页改进* 功能时如何生成产品变型。 有关如何在该功能可用时生成产品变型的详细信息，请参阅下一节。
+
+生成产品变型：
+
+1. 在您的新基础产品仍然打开的情况下，在操作窗格上选择 **产品变型**。
+1. 在操作窗格上选择 **变型建议**。
+1. 系统将生成一个列表，其中包含您为产品定义的尺寸和颜色的所有可能组合。 在工具栏上选择 **全选**。
+    - 在此示例中，选择所有可能的变型。 如果您只想使用可能的产品维度组合的子集，则根据需要只选中所需的复选框。  
+1. 选择 **创建**。
+1. 选择 **保存**。
+
+## <a name="improved-variant-suggestions"></a>改进的变型建议
+
+*变型建议页改进* 功能将改进 **变型建议** 页，为具有大量产品维度组合的公司解决性能和可用性问题。 选择要生成变型建议的产品维度值的增强流程可以更快、更轻松地识别和发布相关的产品变型集。
+
+此功能添加了以下改进：
+
+- **延迟生成变型建议**：**变型建议** 页在您第一次打开时不再显示建议。 您必须明确选择所需的值，然后选择 **建议** 按钮生成组合。 这使流程更具可见性和交互性。
+- **选择维度值：** 当您有多个维度值时，您通常会希望生成仅包含其中几个维度值的变型建议（如在引入一组新的颜色或样式时）。 通过改进的设计，您可以选择要生成产品变型建议的维度值。 这将显著提高所建议变型的相关性，并提高系统性能和用户生产率。
+
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>打开或关闭“变型建议页改进”功能
+
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *变型建议页改进* 功能来打开或关闭此功能。
+
+### <a name="work-with-the-improved-variant-suggestions"></a>使用改进的变型建议
+
+在启用 *变型建议页改进* 功能时生成产品变型建议：
+
+1. 如上一节所述，打开或创建基础产品并向其添加所需的产品维度。
+1. 在基础产品打开的情况下，在操作窗格上选择 **产品变型**。
+1. 在操作窗格上选择 **变型建议**。
+1. 选择要用于每个维度的值。
+1. 在顶部工具栏上，选择 **建议**。
+1. 系统将生成一个列表，其中包含您选择的尺寸和颜色的所有可能组合。 在 **建议的变型** 快速选项卡上，选中要使用的每个产品维度组合的复选框，或在工具栏上选择 **全选** 全部选择。  
+1. 选择 **创建** 将变型添加到当前的基础产品中。
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: 采购协议
 description: 文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017179"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103730"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -43,10 +41,7 @@ ms.locfileid: "5017179"
 您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。
 
 > [!IMPORTANT]
-> 负责方功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-> 
-> - **模块**：*采购任务*
-> - **功能名称**：*采购协议负责方*
+> 要使用负责方功能，必须在您的系统中打开它。 从 Supply Chain Management 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *采购协议负责方* 功能来打开或关闭此功能。
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：
@@ -104,12 +99,13 @@ ms.locfileid: "5017179"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>采购协议财务维度
 您可以将财务维度复制到采购协议的文档抬头或单独的行。 如果您在协议标题中或在协议行上更改维度，则更改不影响任何已下达的订单，但会在所有新订单中得到反映。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
-[创建采购协议](tasks/create-purchase-agreement.md)
-
-[基于采购协议创建采购下达订单](tasks/create-purchase-release-order-purchase-agreement.md)
+- [创建采购协议](tasks/create-purchase-agreement.md)
+- [创建采购订单时应用采购协议](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

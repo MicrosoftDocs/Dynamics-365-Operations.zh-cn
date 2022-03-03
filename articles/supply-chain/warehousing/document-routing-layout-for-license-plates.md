@@ -2,30 +2,28 @@
 title: 牌照标签的文档路线选择布局
 description: 此主题介绍如何使用格式设置方法打印标签上的值。
 author: perlynne
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423335"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103882"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
 [!include [banner](../includes/banner.md)]
+
 
 文档路线选择布局定义牌照标签的布局，以及其上印刷的数据。 请在设置移动设备菜单项和工作模板时配置打印触发点。
 
@@ -53,6 +51,10 @@ ms.locfileid: "4423335"
 
 几种广泛使用的标签生成工具可帮助您设置标签布局的文本的格式。 这些工具中许多都支持 `$FieldName$` 格式。 此外，Microsoft Dynamics 365 Supply Chain Management 在文档路线选择布局的字段映射中使用特殊格式设置逻辑。
 
+## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
+
+如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *增强的牌照标签布局* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。）
+
 ## <a name="custom-number-formats"></a>自定义数字格式
 
 可自定义使用采用以下格式的代码打印的数值字段值的格式设置。
@@ -71,7 +73,7 @@ $FieldName:FormatString$
 - 若要始终显示四位数（将零用作占位符），请使用 `$Qty:0000$`。 例如，如果数量为 10，则标签将显示“0010”。
 - 若要始终显示两位数，请使用 `$Qty:0.00$`。 例如，如果数量为 10，则标签将显示“10.00”。
 
-有关可用数字格式字符串的完整列表，请参阅[自定义数值格式字符串](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings)。
+有关可用数字格式字符串的完整列表，请参阅[自定义数值格式字符串](/dotnet/standard/base-types/custom-numeric-format-strings)。
 
 ## <a name="custom-string-formats"></a>自定义字符串格式
 
@@ -93,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 在此示例中，日期 2020 年 4 月 30 日将被打印为“30-04-2020”。
 
-有关可用日期/时间格式的完整列表，请参阅[自定义日期和时间格式字符串](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)。
+有关可用日期/时间格式的完整列表，请参阅[自定义日期和时间格式字符串](/dotnet/standard/base-types/custom-date-and-time-format-strings)。
 
 ## <a name="print-individual-lines-from-multiline-data"></a>打印多行数据的单独行
 
@@ -136,3 +138,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>有关如何打印标签的详细信息
 
 有关如何设置和打印标签的详细信息，请参阅[启用牌照标签打印](tasks/license-plate-label-printing.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

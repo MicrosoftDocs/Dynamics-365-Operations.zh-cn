@@ -1,33 +1,30 @@
 ---
-title: 通过仓库应用进行的牌照收货
-description: 此主题介绍如何设置仓库应用以支持使用牌照收货流程接收实际库存。
+title: 通过仓库管理移动应用的牌照接收
+description: 本主题说明如何设置仓库管理移动应用以支持使用牌照接收流程接收实际库存。
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423381"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103044"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>通过仓库应用进行的牌照收货
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过仓库管理移动应用的牌照接收
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何设置仓库应用，以便支持使用牌照收货流程接收实际库存。
+本主题说明如何设置仓库管理移动应用，以便支持使用牌照接收流程接收实际库存。
 
 可使用此功能快速记录与发货通知 (ASN) 有关的入站库存的收货。 当使用仓库管理流程为转移单发货时，系统将自动创建 ASN。 对于采购订单流程，ASN 可以手动创建，也可以使用入站 ASN 数据实体流程自动导入。
 
@@ -73,22 +70,20 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>显示或跳过收货摘要页
 
-可使用 *控制是否在移动设备上显示收货摘要页* 功能在牌照收货流程中利用更详细的 Warehouse 应用流程。
+可使用 *控制是否在移动设备上显示收货摘要页* 功能在牌照接收流程中利用其他详细的仓库管理移动应用流。
 
 开启此功能之后，牌照收货或牌照收货加入库处理的移动设备菜单项将提供 **显示收货摘要页** 设置。 此设置具有以下选项：
 
 - **显示详细摘要** – 牌照收货期间，工作人员将看到一个额外页面，其中显示完整的 ASN 信息。
 - **跳过摘要** – 工作人员将看不到完整的 ASN 信息。 仓库工作人员也将无法在接收过程中设置处置代码或添加例外。
 
-要使此功能在您的系统上可用，您必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *控制是否在移动设备上显示接收摘要页* 功能。
+要使用此功能，必须为您的系统打开 *控制是否在移动设备上显示接收摘要页* 功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *控制是否在移动设备上显示接收摘要页* 功能来打开或关闭此功能。
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>阻止转移单已装运牌照用于目标仓库以外的其他仓库
 
 如果 ASN 中包含已存在的牌照 ID，并且具有的实际现有数据所在仓货位置不是牌照的登记仓货位置，则不能使用牌照接收流程。
 
-对于中转仓库不跟踪牌照（因此也不跟踪每个牌照的实际现有库存）的转移单方案，可使用 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 功能阻止中转中的牌照的实际现有更新。
-
-要使此功能在您的系统上可用，您必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *阻止转移单已装运牌照用于目标仓库以外的其他仓库*。
+对于中转仓库不跟踪牌照（因此也不跟踪每个牌照的实际现有库存）的转移单方案，可使用 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 功能阻止中转中的牌照的实际现有更新。 要使此功能可用，您必须为您的系统打开 *阻止转移单已装运牌照用于目标仓库以外的其他仓库* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索此功能来打开或关闭功能。
 
 若要在此功能可用时管理功能，请执行以下步骤。
 
@@ -105,3 +100,6 @@ ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（
 有关 *完工入库* 生产方案的详细信息，请参阅[仓库工作策略概述](warehouse-work-policies.md)。
 
 有关入站负荷管理的详细信息，请参阅[仓库对采购订单入站负荷的处理](inbound-load-handling.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

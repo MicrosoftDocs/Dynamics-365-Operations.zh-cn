@@ -2,7 +2,7 @@
 title: 使用扩展在税务集成中添加数据字段
 description: 本主题说明如何使用 X++ 扩展在税务集成中添加数据字段。
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721650"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323515"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>使用扩展在税务集成中添加数据字段
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-在此代码中，`_destination` 是用于生成过帐请求的包装器对象，`_source` 是 `TaxIntegrationLineObject` 对象。 
+在此代码中，`_destination` 是用于生成过帐请求的包装器对象，`_source` 是 `TaxIntegrationLineObject` 对象。
 
 > [!NOTE]
-> * 定义在请求窗体中用作 `private const str` 的密钥。
-> * 使用 `SetField` 方法在 `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` 方法中设置字段。 第二个参数的数据类型应为 `string`。 如果数据类型不是 `string`，将其转换为 `string`。
+> 定义在请求窗体中用作 **private const str** 的密钥。 此字符串应与主题[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)中添加的度量名称完全相同。
+> 使用 **SetField** 方法设置 **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** 方法中的字段。 第二个参数的数据类型应为 **字符串**。 如果数据类型不是 **字符串**，请进行转换。
+> 如果扩展了 X++ **枚举类型**，请注意它的值、标签和名称之间的区别。
+> 
+>   - 枚举的值是整数。
+>   - 枚举的标签可能因首选语言而异。 不要使用 **enum2Str** 将枚举类型转换为字符串。
+>   - 推荐使用枚举的名称，因为它是固定的。 **enum2Symbol** 可用于将枚举转换为它的名称。 税务配置中添加的枚举值应与枚举名称完全相同。
+
+## <a name="model-dependency"></a>模型依赖项
+
+要成功构建项目，请将以下引用模型添加到模型依赖项中：
+
+- ApplicationPlatform
+- ApplicationSuite
+- 税引擎
+- 维度（如果使用财务维度）
+- 代码中引用的其他必要模型
+
+## <a name="validation"></a>验证
+
+完成前面的步骤后，您可以验证您的更改。
+
+1. 在 Finance 中，转到 **应付帐款**，将 **&debug=vs%2CconfirmExit&** 添加到 URL。 例如，https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&。 最后的 **&** 是必不可少的。
+2. 打开 **采购订单** 页面，选择 **新建** 创建采购订单。
+3. 设置自定义字段的值，然后选择 **销售税**。 将自动下载带有前缀 **TaxServiceTroubleshootingLog** 的故障排除文件。 此文件包含过帐到税款计算服务的交易信息。 
+4. 检查添加的自定义字段是否存在于 **税务服务计算输入 JSON** 部分，以及值是否正确。 如果值不正确，请仔细检查此文档中的步骤。
+
+文件示例：
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>附录
 
-本附录显示了用于在行级别集成财务维度（**成本中心** 和 **项目**）的完整示例代码。
+本附录显示了用于在行级别集成财务维度 **成本中心** 和 **项目** 的完整示例代码。
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

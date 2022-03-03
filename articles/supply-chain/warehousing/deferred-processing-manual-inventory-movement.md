@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777658"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102731"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>延期处理手动库存变动
 
@@ -32,10 +32,10 @@ ms.locfileid: "7777658"
 
 若要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能。 您必须按以下顺序打开它们：
 
-1. 组织范围内的工作锁定（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
-1. 处理仓库应用事件
-1. 延迟 PUT 操作
-1. 延迟处理手动库存变动操作
+1. *组织范围内的工作阻止*<br>（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
+1. *处理仓库应用事件*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。）
+1. *延迟 PUT 操作*
+1. *延迟处理手动库存变动操作*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
 
 ## <a name="configure-the-work-processing-policies"></a>配置工作处理策略
 

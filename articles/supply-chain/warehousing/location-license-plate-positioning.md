@@ -2,26 +2,23 @@
 title: 货位牌照定位
 description: 货位牌照定位功能用于查看牌照在多托盘货位（如使用双深托盘货架的货位）中的位置。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423320"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102780"
 ---
 # <a name="location-license-plate-positioning"></a>货位牌照定位
 
@@ -33,12 +30,9 @@ ms.locfileid: "4423320"
 
 本主题提供的场景显示如何设置和使用此功能。
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>开启“货位指令牌照定位”功能
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>打开或关闭“位置牌照定位”功能
 
-牌照货位定位功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*货位牌照定位*
+要使用本主题中描述的功能，必须为您的系统打开 *位置牌照定位* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *位置牌照定位* 功能来打开或关闭此功能。
 
 ## <a name="example-scenario"></a>示例场景
 
@@ -91,7 +85,7 @@ ms.locfileid: "4423320"
 1. 在 **牌照** 仍处于选中状态的情况下，选择 **添加表联接**。
 1. 在显示的表列表的 **关系** 列中，选择 **货位牌照定位（牌照）**。 然后选择 **选择** 将 **货位牌照定位** 添加到 **库存维度** 表联接。
 
-    ![表联接](media/LpTableJoin.png "表联接")
+    ![表联接。](media/LpTableJoin.png "表联接")
 
 1. 选择 **确定** 确认更新后的联接表，然后关闭查询编辑器。
 1. 在 **位置指令操作** 快速选项卡上，再次选择 **编辑查询** 重新打开查询编辑器。
@@ -103,7 +97,7 @@ ms.locfileid: "4423320"
     - **字段**：*牌照定位*
     - **条件**：*1*
 
-    ![新范围](media/LpPositionCriteria.png "新范围")
+    ![新范围。](media/LpPositionCriteria.png "新范围")
 
 1. 选择 **确定** 确认范围，然后关闭查询编辑器。
 
@@ -278,6 +272,9 @@ ms.locfileid: "4423320"
 1. 在 **扫描工作 ID/牌照 ID** 页面中，选择 **ID** 字段，然后输入销售行中的工作 ID。
 1. 请注意，领料工作将指示您从货位 *01A01R1S2B* 领物料 *A0002*。 您收到此指示是因为，物料 *A0002* 所在牌照位于该货位的位置 *1* 中。
 
-    ![位置 1 货位](media/LocationLicensePlatePositioning.png "位置 1 货位")
+    ![位置 1 库位。](media/LocationLicensePlatePositioning.png "位置 1 货位")
 
 1. 输入您为该货位创建的牌照 ID，然后按照提示为销售订单领料。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

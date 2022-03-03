@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471828"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103630"
 ---
 # <a name="generate-variants-for-engineering-products"></a>生成工程产品的变型
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471828"
 
 本主题介绍如何生成工程产品的变型。
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>开启为工程产品生成变型
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>打开或关闭为工程产品生成变型
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*工程更改管理*
-- **功能名称**：*为工程产品生成变型*
-
-> [!IMPORTANT]
-> 只有启用了 *工程更改管理* 配置密钥，才会在系统中显示 *为工程产品生成变型* 功能。 有关说明，请参阅[工程更改管理概述](product-engineering-overview.md)。
+本主题中描述的功能需要您的系统同时启用 *工程更改管理* 和 *为工程产品生成变型* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>生成工程产品的一个或多个新变型
 

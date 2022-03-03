@@ -2,26 +2,23 @@
 title: 生成和过帐重复执行普通发票
 description: 使用重复发票定期给客户开相同金额的发票。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440743"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182471"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>生成和过帐重复执行普通发票
 
@@ -33,16 +30,19 @@ ms.locfileid: "4440743"
 ## <a name="generate-recurring-invoices"></a>生成经常性发票
 
 ## <a name="post-recurring-invoices"></a>过帐重复性发票
-1. 转到“应收帐款”>“发票”>“循环发票”>“过帐循环发票”。
+1. 转到 **应收帐款 > 发票 > 重复发票 > 过帐重复发票**。
     * 使用此页可以查看和打印已生成的循环发票。  
 2. 在列表中，单击所选行中的链接。
     * 选择循环发票组。  
-3. 单击“总计”。
+3. 单击 **总计**。
     * 验证循环发票组的总计。  
-4. 单击“关闭”。
-    * 下面的每一行均为循环普通发票。 您可以选择行，然后单击“详细信息”来查看普通发票详细信息。  
-5. 单击“验证”。
+4. 单击 **关闭**。
+    * 下面的每一行均为循环普通发票。 您可以选择行，然后单击 **详细信息** 按钮来查看普通发票详细信息。  
+5. 单击 **验证**。
     * 验证所选发票没有错误，但不过帐发票。  
-6. 单击“过帐”。
+6. 单击 **过帐**。
     * 过帐所选发票。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

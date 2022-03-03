@@ -1,12 +1,10 @@
 ---
 title: 对基准预测进行手动调整
 description: 本主题介绍如何手动调整基准预测和查看预测的详细信息。
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967022"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103755"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 
@@ -69,14 +67,13 @@ ms.locfileid: "4967022"
 
 **注意：**
 
--   如果从“功能管理”启用 **根据需求预测详细信息选择预测模型**，您将能够选择要包含在 **需求预测详细信息** 页上的历史预测的预测模型。
--   显示在该页的 **预测** 部分中的置信区间表示置信区间上限和置信区间下限之间的差异。 要查看上限和下限的值，将鼠标悬停在 **以图形方式表示的历史需求和预测** 部分的图表上。
--   如果您使用需求预测 Microsoft Azure 机器学习，您可以指定生成的预测应具有的可信度百分比。 置信区间包含一系列用作良好的需求预测估计的值。 可信度百分比 95% 表示需求预测有 5% 的几率超出置信区间范围。
+- *需求预测详细信息中的预测模型选择* 功能在 **需求预测详细信息** 页面上添加设置，让您可以选择要包含的预测模型。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *需求预测详细信息中的预测模型选择* 功能来打开或关闭此功能。
+- 显示在该页的 **预测** 部分中的置信区间表示置信区间上限和置信区间下限之间的差异。 要查看上限和下限的值，将鼠标悬停在 **以图形方式表示的历史需求和预测** 部分的图表上。
+- 如果您使用需求预测 Microsoft Azure 机器学习，您可以指定生成的预测应具有的可信度百分比。 置信区间包含一系列用作良好的需求预测估计的值。 可信度百分比 95% 表示需求预测有 5% 的几率超出置信区间范围。
 
 您还可以手动调整 **需求预测详细信息** 页上的预测，方法是通过修改 **预测** 部分的 **预测** 行中的值。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [监控预测准确性](monitor-forecast-accuracy.md)
 
@@ -84,3 +81,6 @@ ms.locfileid: "4967022"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,25 @@
 title: 供应商发票日期
 description: 本主题介绍供应商发票上显示的日期。 另外还介绍了如何设置系统以自动调整过帐日期。
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647876"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105455"
 ---
 # <a name="vendor-invoice-dates"></a>供应商发票日期
 
@@ -50,6 +50,9 @@ ms.locfileid: "7647876"
     - **始终将过帐日期更改为系统日期** – 系统在过帐期间自动将过帐日期更改为系统日期。
     - **当过帐日期期间已关闭或暂停时，将过帐日期更改为系统日期** – 系统在过帐期间将过帐日期更改为系统日期，前提是过帐日期的相应期间处于 **已关闭** 或 **暂停** 状态。
     - **当过帐日期期间已关闭或暂停时，将过帐日期更改为新期间的第一天** – 系统将过帐日期更改为新期间的第一天，前提是过帐日期的相应期间处于 **已关闭** 或 **暂停** 状态。
+
+> [!NOTE]
+> 如果自动调整的新过帐日期在新会计年度，发票的过帐日期不会更新。 用户将收到错误“会计年度已更改”。 请检查并重新输入过帐日期。” 发票过帐日期必须更新为新的会计年度日期才能过帐。
 
 ## <a name="impact-of-posting-date-changes"></a>过帐日期更改的影响
 

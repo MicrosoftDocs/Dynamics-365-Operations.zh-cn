@@ -2,26 +2,23 @@
 title: 确认并转移
 description: 本主题介绍如何使用“确认并转移”功能，用户可在完成与负荷关联的所有工作之前，使用此功能将这些负荷运出仓库。
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422765"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103580"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 
@@ -48,20 +45,17 @@ ms.locfileid: "4422765"
 
 - 一个或多个负荷行具有已领料数量。
 - 负荷状态为低于已装载数量。
-- 无负荷行数据。 （此数据通过在暂存阶段合并牌照创建，而 *确认并转移* 功能不支持合并牌照。）
-- 包装货位现在没有任何库存在等待包装。 （*确认并转移* 功能不支持已领到打包站但尚未打包的库存。）
+- 无负荷行数据。 （此数据通过在暂存阶段合并牌照创建，而确认并转移功能不支持合并牌照。）
+- 包装货位现在没有任何库存在等待包装。 （*确认并转移* 功能不支持已领料到装箱工作站但尚未包装的库存，除非已包装的集装箱放在已创建装载工作的暂存库位。）
 
 > [!NOTE]
 > 此功能与运输负荷功能不同，后者在领料前不可计划和创建负荷，但是领料完成后使用可用运输空间装运的仓库中使用。
 >
 > 以下情况下使用 *确认并转移* 功能：通常提前规划和创建负荷，但是有时可用运输工具（如卡车）装不完负荷时除外。
 
-## <a name="turn-on-confirm-and-transfer"></a>开启确认并转移功能
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>打开或关闭确认并转移功能
 
-*确认并转移* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*确认并转移*
+要使用本主题中描述的功能，必须为您的系统打开 *确认并转移* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *确认并转移* 功能来打开或关闭此功能。
 
 ## <a name="set-up-confirm-and-transfer"></a>设置确认并转移功能
 
@@ -230,3 +224,6 @@ ms.locfileid: "4422765"
 - 当部分剩余工作标题的状态为 *进行中* 时，也可以使用 **将数量拆分到新负荷** 选项。 因此，即使工作人员仍在使用领料单，也可以使用此功能。
 - 如果在有剩余工作的状态为 *未结* 或 *进行中* 的情况下选择 **取消未履行数量**，将收到以下错误消息：“无法取消负荷的剩余数量。 负荷有工作。”
 - 如果在不存在剩余工作，但是负荷中有未下达负荷行的情况下选择 **取消未履行数量**，将收到以下错误消息：“无法确认负荷的装运，因为物料的数量超过了定义的待交付百分比。” 若要避免此错误，可以将未下达负荷行中的 **待交付** 百分比设置为 100%。 不会将未下达行移到新负荷，但是将使用待交付确认当前负荷。 在这种情况下，不能重新下达原始订单。 因此，必须以其他方式处理。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

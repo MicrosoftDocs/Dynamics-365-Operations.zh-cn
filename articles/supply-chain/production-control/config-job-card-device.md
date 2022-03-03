@@ -2,26 +2,23 @@
 title: 配置设备的作业卡
 description: 本主题介绍配置作业卡设备的各个选项。
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423067"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103430"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
@@ -37,21 +34,19 @@ ms.locfileid: "4423067"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能（按顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
-1. 在作业卡设备中报告为完工入库时，启用牌照编号的自动生成
+1. *用于报告为完工入库的牌照已添加作业卡设备*<br>（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的。）
+1. *在作业卡设备中报告为完工入库时，启用牌照编号的自动生成*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的。）
 
 ### <a name="print-label"></a>打印标签
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能（按顺序）：
 
-1. 用于报告为完工入库的牌照已添加作业卡设备
-1. 从作业卡设备打印标签
+1. *用于报告为完工入库的牌照已添加作业卡设备*<br>（从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的。）
+1. *通过作业卡设备打印标签*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的。）
 
 ### <a name="allow-locking-of-touch-screen"></a>允许锁定触摸屏
 
-要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下功能：
-
-- （预览）用于锁定作业卡设备和作业卡终端以便对其进行净化的功能
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *用于锁定作业卡设备和作业卡终端以便对其进行净化的功能* 功能来打开或关闭此功能。
 
 ## <a name="manage-your-device-configurations"></a>管理设备配置
 
@@ -95,3 +90,6 @@ ms.locfileid: "4423067"
 ## <a name="additional-resources"></a>其他资源
 
 [从作业卡设备报告完工入库](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

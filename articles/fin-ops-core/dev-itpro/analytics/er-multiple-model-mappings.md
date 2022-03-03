@@ -2,11 +2,9 @@
 title: 管理单个模型根的多个派生映射
 description: 本主题说明如何管理为单个模型根配置的多个派生映射。
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826101"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324104"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>管理单个模型根的多个派生映射
 
 [!include [banner](../includes/banner.md)]
 
-[电子报告 (ER)](general-electronic-reporting.md) 数据[模型](general-electronic-reporting.md#data-model-and-model-mapping-components)组件在每个配置的 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件中用作生成传出文档的数据源。 要描述单个业务域，请配置具有多个根定义的数据模型组件。 
+[电子报告 (ER)](general-electronic-reporting.md) 数据模型组件在每个配置的 ER 格式组件中用作生成传出文档的数据源。 要描述单个业务域，请配置具有多个根定义的数据模型组件。 
 
-每个根定义让您可以最适合特定报告目的的方式表示该域的数据。 对于每个根定义，您可以将一个 ER [模型映射](general-electronic-reporting.md#data-model-and-model-mapping-components)组件配置为数据模型的 Microsoft Dynamics 365 Finance 特定实现。 通过这种方式，您将描述在运行时数据模型如何填充。
+每个根定义让您可以最适合特定报告目的的方式表示该域的数据。 对于每个根定义，您可以将一个 ER 模型映射组件配置为数据模型的 Microsoft Dynamics 365 Finance 特定实现。 通过这种方式，您将描述在运行时数据模型如何填充。
 
 ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-reporting.md#Configuration)和 ER 模型映射配置中。 单个 ER 配置可以包含多个映射组件，每个映射组件针对单个根定义进行配置。 或者，单个 ER 配置可以仅包含为单个根定义配置的一个映射组件。
 
@@ -57,7 +55,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 2. 在 **本地化配置** 页面的 **配置** 部分中，选择 **报告配置** 磁贴。
 3. 在 **配置** 页的左侧窗格的配置树中，展开 **发票模型**。
 
-    ![查看“配置”页上导入的配置](./media/er-multiple-model-mappings-image1.png)
+    ![在“配置”页面上查看导入的配置。](./media/er-multiple-model-mappings-image1.png)
 
 4. 查看 **普通发票 (Excel)** 格式：
 
@@ -68,7 +66,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
     
        当前 ER 格式配置为使用 **发票模型** 的 **InvoiceCustomer** 根定义。 当运行此格式并调用 **模型** 数据源时，为 **InvoiceCustomer** 根定义配置的模型映射用于访问应用程序数据和填充数据模型。
 
-        ![查看“格式设计器”页上的模型数据源](./media/er-multiple-model-mappings-image2.png)
+        ![在“格式设计器”页面上查看模型数据源。](./media/er-multiple-model-mappings-image2.png)
 
     6. 关闭 **格式设计器** 页。
 
@@ -81,7 +79,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
         + **客户发票** 模型映射是为 **发票模型** 的 **InvoiceCustomer** 根定义配置的。 因此，当 **普通发票 (Excel)** ER 格式运行时，可以选择此 ER 配置的 **客户发票** 模型映射来访问应用程序数据和填充数据模型。
         + **项目发票** 模型映射是为 **发票模型** 的 **InvoiceProject** 根定义配置的。 因此，当 **项目发票 (Excel)** ER 格式运行时，可以选择此 ER 配置的 **项目发票** 模型映射来访问应用程序数据和填充数据模型。
 
-        ![“模型到数据源映射”页上的发票模型映射](./media/er-multiple-model-mappings-image3.png)
+        ![“模型到数据源映射”页面上的发票模型映射。](./media/er-multiple-model-mappings-image3.png)
 
     4. 关闭 **模型到数据源映射** 页。
     5. 在 **版本** 快速选项卡上，选择 **删除** 删除此 ER 配置所有晚于 240.175 版本的版本。
@@ -92,7 +90,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
     2. 在操作窗格上，选择 **设计器**。
     3. 在 **模型到数据源映射** 页上，注意当前的 ER 模型映射配置包含 **InvoiceProject** 模型映射，并且此模型映射是为 **发票模型** 的 **InvoiceProject** 根定义配置的。 当 **项目发票 (Excel)** ER 格式运行时，选择此 ER 配置的 **InvoiceProject** 模型映射来访问应用程序数据和填充数据模型。
 
-        ![“模型到数据源映射”页上的项目发票模型映射](./media/er-multiple-model-mappings-image4.png)
+        ![“模型到数据源映射”页面上的项目发票模型映射。](./media/er-multiple-model-mappings-image4.png)
 
     4. 关闭 **模型到数据源映射** 页。
     5. 在 **版本** 快速选项卡上，选择 **删除** 删除此 ER 配置所有晚于 226.35 版本的版本。
@@ -117,7 +115,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 
 7. 在操作窗格上，选择 **设计器** 查看此配置的模型映射。
 
-    ![查看“模型到数据源映射”页上的发票模型映射](./media/er-multiple-model-mappings-image5.png)
+    ![在“模型到数据源映射”页面上查看发票模型映射。](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > 现在，您可以在设计器中打开此 ER 配置的任何 ER 模型映射组件，来配置您的自定义逻辑。 有关详细信息，请参阅[自定义模型映射配置](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration)。
@@ -128,7 +126,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
  
 > 配置 \<configuration names separated by commas\> 中的“\<model name\> (\<root descriptor\>)”数据模型存在多个模型映射。 将其中一个配置设置为默认配置。
 
-![在“配置”页上打开格式进行编辑](./media/er-multiple-model-mappings-image6.gif)
+![在“配置”页面上打开格式进行编辑。](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>自定义项目发票模型映射 (RDP) 配置
 
@@ -140,7 +138,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 6. 对于配置树中当前选择的 **项目发票模型映射 Litware** 配置，将 **运行草稿** 选项设置为 **是**。
 7. 在操作窗格上，选择 **设计器** 查看此配置的模型映射。
 
-    ![查看“模型到数据源映射”页上自定义的项目发票模型映射](./media/er-multiple-model-mappings-image7.png)
+    ![在“模型到数据源映射”页面上查看自定义的项目发票模型映射。](./media/er-multiple-model-mappings-image7.png)
 
 8. 关闭 **模型到数据源映射** 页。
 
@@ -151,7 +149,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 1. 在 **配置** 页面上，在左侧窗格的配置树中，选择 **发票模型映射 Litware**。
 2. 将 **模型映射的默认值** 选项设置为 **是**。
 
-    ![在“配置”页上将模型映射设置为默认模型映射](./media/er-multiple-model-mappings-image8.png)
+    ![在“配置”页面上将模型映射设置为默认模型映射。](./media/er-multiple-model-mappings-image8.png)
 
     由于此设置，当您运行 **普通发票 (Excel)** 或对其进行编辑或验证时，将使用 **客户发票副本** 模型映射。 **发票模型映射** 配置中的 **客户发票** 模型映射将被忽略。
 
@@ -169,7 +167,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 5. 在 **模型到数据源映射** 页上，根据需要选择 **编辑** 让页面可编辑。
 6. 选择 **项目发票副本** 模型映射，然后选择它对应的 **已删除** 复选框。
 
-    ![在“模型到数据源映射”页上将模型映射设置为虚拟删除](./media/er-multiple-model-mappings-image9.png)
+    ![在“模型到数据源映射”页面上将模型映射设置为虚拟删除。](./media/er-multiple-model-mappings-image9.png)
 
     由于此设置，**发票模型映射 Litware** 配置被视为没有 **InvoiceProject** 根定义的模型映射。 将默认发布 **InvoiceProject 副本** 模型映射。 包含此模型映射的配置 **项目发票模型映射 Litware** 被标记为默认配置。 由于被标记为默认配置，它的优先级高于 **项目发票模型映射 (RDP)** 配置中的 **InvoiceProject** 模型映射。
 
@@ -182,3 +180,6 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 - [管理单独电子报告配置中的电子报告模型映射](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [配置与国家/地区上下文相关的电子报告模型映射](er-country-dependent-model-mapping.md)
 - [电子报告框架 API 更改](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

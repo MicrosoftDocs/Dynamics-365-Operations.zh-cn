@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ea265166902f85c2c09cae08ee6de5cd7094e1b4
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2d5f7cf548eb6c18d9700c73ef084f197b78542e
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778394"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102955"
 ---
 # <a name="multiple-sku-option-doesnt-evaluate-multiple-location-directive-actions"></a>多 SKU 选项无法评估多个库位指令操作
 
@@ -25,4 +25,4 @@ ms.locfileid: "7778394"
 
 ## <a name="resolution"></a>解决方法
 
-一项新功能 *评估多 SKU 位置指令的所有操作* 已在版本 10.0.15 中添加（请参阅 [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)）。 此功能可评估多 SKU 位置指令的所有操作。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。
+一项新功能 *评估多 SKU 位置指令的所有操作* 已在版本 10.0.15 中添加（请参阅 [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)）。 此功能可评估多 SKU 位置指令的所有操作。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。  从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。

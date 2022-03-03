@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860475"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103555"
 ---
 # <a name="global-inventory-accounting-home-page"></a>全球库存核算主页
 
@@ -47,7 +47,6 @@ ms.locfileid: "7860475"
 - 英国
 - 澳大利亚
 - 加拿大
-- 南美洲
 
 如果您尝试从其他地理区域安装加载项，则 Microsoft Dynamics Lifecycle Services (LCS) 将显示一条消息，指明不支持您的地理区域。 全球库存核算不支持 Supply Chain Management 的本地部署。
 

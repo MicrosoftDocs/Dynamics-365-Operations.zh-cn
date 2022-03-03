@@ -1,27 +1,24 @@
 ---
 title: 结算余额
 description: 您可以通过将余额应用到会计科目来结算结算活动的剩余金额。
-author: mikefalkner
-manager: aolson
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440744"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182396"
 ---
 # <a name="settle-remainder"></a>结算余额
 
@@ -30,10 +27,10 @@ ms.locfileid: "4440744"
 您可以通过将余额应用到会计科目或其他客户来结算结算活动的剩余金额。 您可以在结算输入到日记帐的金额时，或者在只结算未结交易记录时结算余额。
 
 ## <a name="setting-up-defaults"></a>设置默认值 
-您必须先启用“结算余额”功能并设置默认设置，然后才能使用“结算余额”。
+您必须先启用 **结算余额** 功能并设置默认设置，然后才能使用 **结算余额**。
 
 1)  单击 **应收帐款 > 参数 > 结算** 或 **应付帐款 > 参数 > 结算**
-2)  选择 **结算** 选项卡并单击 **启用结算余额**
+2)  选择 **结算** 选项卡并单击 **启用结算余额**。
 3)  在 **默认原因代码** 中，选择默认原因代码。 必须已在 **应收帐款 > 设置 > 客户勾销原因代码** 或 **应付帐款 > 设置 > 客户勾销原因代码** 中设置原因代码。 **默认结算余额帐户** 将默认为分配给勾销原因代码的帐户。
 3)  根据需要更新 **默认结算余额帐户**。
 4)  在 **默认日记帐名称** 中，如果您希望在仅结算未结交易记录时创建付款日记帐，请选择要使用的付款日记帐。 如果您启用结算余额功能，您必须添加默认的日记帐名称。
@@ -61,8 +58,8 @@ ms.locfileid: "4440744"
 
 要结算余额，请执行以下步骤：
 
-1)  在 **结算** 页，标记要结算的发票或交易记录
-2)  单击 **结算余额**
+1)  在 **结算** 页，标记要结算的发票或交易记录。
+2)  单击 **结算余额**。
 3)  将显示一个对话框，显示将针对会计科目结算的金额、将用于结算余额的日期、来自参数的默认原因代码，以及来自参数的默认帐户。 
 4)  如果您希望更改默认原因，请选择一个新结算原因。 结算帐户将更改为与原因代码关联的帐户。
 5)  如果您希望更改 **结算帐户**，请对其进行编辑。
@@ -70,3 +67,6 @@ ms.locfileid: "4440744"
 7)  您也可以选择创建包含结算余额的付款日记帐，或只是过帐结算余额，而不通过日记帐。 为 **在日记帐中编辑** 选择 **是** 来创建付款日记帐。 您可以编辑您创建的付款日记帐。
 8)  单击 **结算余额**。 如果您选择创建日记帐，按钮将更改为 **创建日记帐**。 单击 **创建日记帐**。
 9)  如果您创建了付款日记帐，日记帐页面将在单击 **结算余额** 后打开。 日记帐行将被添加到将结算余额作为此金额、将结算余额帐户作为抵销帐户的日记帐。 如果您添加了某一客户或供应商，以便您可以将结算金额移动到另一客户或供应商，则其他行将被添加到日记帐以将结算金额移至该客户或供应商。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

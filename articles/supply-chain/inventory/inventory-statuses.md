@@ -1,29 +1,26 @@
 ---
 title: 库存状态
 description: 本文介绍如何使用库存状态来分类和跟踪库存。
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca9d3e4e15d11d2a9a1b531028de230ffc43913
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: db15ad94355823c699e83c9e3f47660f813e1c9a
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594594"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103455"
 ---
 # <a name="inventory-statuses"></a>库存状态
 
@@ -46,7 +43,14 @@ ms.locfileid: "4594594"
 
 您可以为进货工作使用具有可用或不可用库存状态的仓库物料。 例如，您创建名为 *就绪* 的可用状态，名为 *已损坏* 的不可用状态，和名为 *已锁定* 的锁定状态。 在您创建已接收或退回物料的采购订单时，如果任何物料已损坏或已中断，您可以在采购订单行上更改这些物料的库存状态为 *已损坏*。 在这些物料接收后，状态自动设置为 *已锁定*。 如果您通过使用移动设备扫描已损坏的物料，Supply Chain Management 可以使用位置指令和工作模板来显示有关您可以将这些物料入库的适当位置或位置范围的信息。 对于退回的物料，在 **库存交易记录** 页中创建 *预留* 的发货类型。
 
-对于出货工作，使用具有个可用库存状态的物料。 如果您有处于 *已中断* 状态的物料，并且主计划运行这些物料，则将物料视为缺失，库存会自动补货。
+您可以使用 **库存状态** 页面上的 **库存锁定** 复选框指定哪些库存状态是锁定状态。 您不能使用库存状态作为销售订单、转移单或项目集成的锁定状态。
+
+对于出库工作，您可以使用不同的非锁定库存状态来控制要预留的库存。 如果您有处于 *锁定* 状态的物料，并且主计划运行这些物料，则将物料视为缺失，库存会自动补货。 此外，对于与出库工作关联的质检订单，无法更新 **库存状态** 作为质检订单验证的一部分。
+
+> [!NOTE]
+> 您无法在存在未结工作的位置更改库存状态。 例如，如果您对某个物料进行了采购接收，但未执行储存步骤，接收位置将存在未结工作，如果您尝试更改该位置的库存状态，将会收到错误。 完成或取消相关工作将允许您更改此状态。
+>
+> 通常，与开放仓库工作相关的现有库存状态仅由工作人员使用仓库管理移动应用进行更改，例如在执行移动流程时。
 
 在设置库存状态后，您可以为站点、物料和仓库设置默认库存状态。 您还可以设置销售、转移和采购订单的默认状态。 销售订单和出货转移单的默认状态不能将 **库存锁定** 选项设置为 *是*。 从站点、仓库、物料、采购订单、转移单或销售订单的默认设置继承的库存状态可通过使用移动设备，或者在采购订单、销售订单或转移单行上更改。
 
@@ -60,8 +64,11 @@ ms.locfileid: "4594594"
 - 若要更改库存状态作为临时流程，请转到 **按库位显示的现有量** 页面，选择相关记录，然后选择 **库存状态更改** 按钮。
 
 > [!NOTE]
-> *更改由跟踪维度控制的物料的库存状态* 功能允许您更改由跟踪维度控制的物料的库存状态，包括仅更新选定记录的功能。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)以根据需要启用该功能。 启用该功能后，您将能够执行以下操作：
+> *更改由跟踪维度控制的物料的库存状态* 功能允许您更改由跟踪维度控制的物料的库存状态，包括仅更新选定记录的功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *更改由跟踪维度控制的物料的库存状态* 功能来打开或关闭此功能。 如果启用该功能，您将能够执行以下操作：
 >
 > - 在 **按库位显示的现有量** 页面上，您可以使用 **显示维度** 按钮基于显示的维度对行进行分组并更改所选行的状态。
 > - 在 **按库位显示的现有量** 页面上，您可以选择多个记录，然后使用 **库存状态更改** 按钮一次更改所有状态。
 > - 在 **库存状态更改** 定期任务上，您将能够按跟踪维度进行筛选。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

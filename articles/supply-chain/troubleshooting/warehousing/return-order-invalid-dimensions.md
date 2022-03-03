@@ -5,17 +5,17 @@ author: perlynne
 ms.date: 06/24/2021
 ms.topic: troubleshooting
 audience: Application User
-ms.reviewer: kamaybac58
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3cb728f6a989cdac63c91d49baaea094bace59e4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: b02408b61b07b272a7e7d52004dc2492d60ef28c
+ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475704"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119204"
 ---
 # <a name="cant-create-load-line-for-return-sales-order-due-to-invalid-inventory-dimensions"></a>库存维度无效导致无法为退货销售订单创建负荷行
 

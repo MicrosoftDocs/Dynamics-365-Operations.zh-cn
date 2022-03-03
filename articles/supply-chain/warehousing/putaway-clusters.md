@@ -2,25 +2,22 @@
 title: 储存群集
 description: 储存群集提供了一种可以同时为多个牌照领料，然后将它们带到不同位置进行储存的方法。 它们对于零售业务非常有用，因为零售业务的牌照通常不是全部的库存托盘。
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512322"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103655"
 ---
 # <a name="putaway-clusters"></a>储存群集
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512322"
 
 储存群集提供了一种可以同时为多个牌照领料，然后将它们带到不同位置进行储存的方法。 此流程通常称为 *循环取货*。 储存群集对于零售业务非常有用，因为零售业务的牌照通常不是全部的库存托盘。 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>开启群集储存功能
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>打开或关闭群集储存功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*群集储存功能*
+要使用本主题中描述的功能，必须为您的系统打开 *群集储存功能* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集储存功能* 功能来打开或关闭此功能。
 
 ## <a name="setup-for-the-example-scenario"></a>针对示例场景设置
 
@@ -231,7 +225,7 @@ ms.locfileid: "4512322"
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>接收库存并分类到群集
 
-1. 以已经为仓库 *61* 设置的用户的身份登录仓库应用。
+1. 以已经为仓库 *61* 设置的用户身份登录到仓库管理移动应用。
 1. 在主菜单上，选择 **入站**。
 1. 在 **入站** 菜单上，选择 **群集接收和分类**。
 1. 在 **采购订单编号** 字段中，输入采购订单编号。
@@ -273,7 +267,7 @@ ms.locfileid: "4512322"
 
 #### <a name="put-the-cluster-away"></a>储存群集
 
-1. 以已经为仓库 *61* 设置的用户的身份登录仓库应用。
+1. 以已经为仓库 *61* 设置的用户身份登录到仓库管理移动应用。
 1. 在主菜单上，选择 **入站**。
 1. 在 **入站** 菜单上，选择 **群集储存**。
 1. 选择 **群集 ID**，输入您之前为已关闭群集输入的群集 ID。
@@ -287,7 +281,7 @@ ms.locfileid: "4512322"
 
     您可以使用标准选项来替代或跳过此步骤。
 
-    ![“群集储存: 放置”页](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
+    ![“群集储存：放置”页面。](media/Cluster_putaway-Put.png "“群集储存: 放置”页")
 
 1. 选择 **确定** 确认群集的储存。
 
@@ -296,3 +290,6 @@ ms.locfileid: "4512322"
 ## <a name="notes-and-tips"></a>说明和提示
 
 对于群集 ID 成为嵌套托盘的父牌照的情况，扫描群集 ID 时会自动给出放置位置。 即使将牌照生成设置为手动，也无需再扫描牌照。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

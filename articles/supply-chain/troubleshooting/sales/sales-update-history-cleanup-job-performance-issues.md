@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c02273adf90afc67b7c0ae1b82c19d489bfbd3b1
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 371a8c7178cd7c5091d6dd9a91d0ee03b943a269
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920066"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103180"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>销售更新历史记录清理作业失败或存在性能问题
 
@@ -30,5 +30,5 @@ ms.locfileid: "7920066"
 
 ## <a name="resolution"></a>解决方法
 
-新版本的 **销售更新历史记录清理** 批处理作业适用于 Supply Chain Management 版本 10.0.19 及更高版本。 默认情况下未启用此功能。 有关其工作方式以及如何在功能管理中启用它的详细信息，请参阅[销售历史记录清理性能改进](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。
+新版本的 **销售更新历史记录清理** 批处理作业适用于 Supply Chain Management 版本 10.0.19 及更高版本。 此功能默认情况下不打开。 有关其工作方式以及如何在功能管理中启用它的详细信息，请参阅[销售历史记录清理性能改进](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。
 

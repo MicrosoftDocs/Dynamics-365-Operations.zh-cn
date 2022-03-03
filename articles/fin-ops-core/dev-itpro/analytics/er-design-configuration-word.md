@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867286"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323867"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>设计新 ER 配置以生成 Word 格式的报表
 
@@ -28,7 +28,7 @@ ms.locfileid: "7867286"
 
 ![Word 桌面应用程序中控制报表的示例模板。](./media/er-design-configuration-word-image1.png)
 
-要将 Word 文档用作 Word 格式的报表的模板，可以配置一个新的[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)。 此解决方案必须包含一个包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。
+要将 Word 文档用作 Word 格式的报表的模板，可以配置一个新的[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)。 此解决方案必须包含一个包含 ER 格式组件的 ER [配置](general-electronic-reporting.md#Configuration)。
 
 > [!NOTE]
 > 当您创建新 ER 格式配置以 Word 格式生成报表时，必须在 **创建配置** 下拉对话框中选择 **Word** 作为格式类型，或保留 **格式类型** 字段为空。

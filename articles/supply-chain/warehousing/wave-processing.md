@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579920"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103505"
 ---
 # <a name="wave-creation-and-processing"></a>波次创建和处理
 
@@ -190,9 +190,9 @@ ms.locfileid: "7579920"
 
 使用 **波次批处理作业详细信息** 页面以检查与任何波次关联的批处理作业和相关任务。 这对于解决已失败的波次特别有用。 如果没有此功能，通常只有管理员才能访问批处理作业详细信息。 **波次批处理作业详细信息** 页面可以供非管理员用户使用，并提供批处理作业和相关任务的只读视图。
 
-### <a name="enable-the-wave-batch-job-details-page"></a>启用波次批处理作业详细信息页面
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>打开或关闭波次批处理作业详细信息页面
 
-如果您的系统尚未包括 **波次批处理作业详细信息** 页面，转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)并打开 *波次批处理作业详细信息* 功能。
+从 Supply Chain Management 版本 10.0.25 开始，**波次批处理作业详细信息** 页面默认打开。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *波次批处理作业详细信息* 功能来打开或关闭此功能。
 
 ### <a name="use-the-wave-batch-job-details-page"></a>使用波次批处理作业详细信息页面
 

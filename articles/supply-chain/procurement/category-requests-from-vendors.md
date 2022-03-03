@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571705"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103087"
 ---
 # <a name="category-requests-from-vendors"></a>供应商的类别请求
 
@@ -26,11 +26,11 @@ ms.locfileid: "7571705"
 
 类别请求由供应商在 **供应商信息** 工作区发起。 然后它们被提交给您的机构进行审查和审核。 批准的类别将被添加到供应商帐户的采购类别列表中。
 
-## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>打开或关闭供应商的类别请求功能
 
-如果您的系统尚未包含本主题所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *允许供应商通过供应商协作申请采购类别* 功能。
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *允许供应商通过供应商协作申请采购类别* 功能来打开或关闭此功能。
 
-打开此功能后，您仍然可以将采购类别手动添加到供应商帐户。 有关信息，请参阅[审核特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
+如果打开此功能，您仍然可以将采购类别手动添加到供应商帐户。 有关信息，请参阅[审核特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
 
 ## <a name="vendor-collaboration-requirements"></a>供应商协作要求
 

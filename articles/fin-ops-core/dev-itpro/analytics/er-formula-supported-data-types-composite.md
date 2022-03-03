@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758256"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323657"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的复合数据类型
 
@@ -27,7 +27,7 @@ ms.locfileid: "6758256"
 
 *类* 数据类型是指公共应用程序类。 在 ER 中，它表示为 [*记录*](#record)，其中包含引用类的每个公共方法的单独字段。 当参数化方法的调用时，还必须在配置为调用该方法的 ER 表达式中指定适当类型的所需参数。
 
-在 ER [映射](general-electronic-reporting.md#data-model-and-model-mapping-components)和 [格式](general-electronic-reporting.md#FormatComponentOutbound)组件中，您可以添加表示为数据源并返回 *类* 类型的值的 **类** 数据源。 此数据源公开可在运行时调用的类的公共方法。
+在 ER 映射和格式组件中，您可以添加表示为数据源并返回 *类* 类型的值的 **类** 数据源。 此数据源公开可在运行时调用的类的公共方法。
 
 > [!NOTE]
 > 只能从 ER 表达式调用返回值的方法。

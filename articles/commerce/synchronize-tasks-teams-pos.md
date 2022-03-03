@@ -2,7 +2,7 @@
 title: 在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 description: 本主题介绍如何在 Microsoft Teams 和 Dynamics 365 Commerce 销售点 (POS) 之间同步任务管理。
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730867"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323489"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 
@@ -54,6 +54,9 @@ Teams 集成的主要目的之一是在 POS 应用程序和 Teams 之间同步�
 ## <a name="link-pos-and-teams-for-task-management"></a>链接 POS 和 Teams 以进行任务管理
 
 若要在 Commerce Headquarters 中链接 POS 和 Microsoft Teams 应用程序以进行任务管理，请按照下列步骤操作。
+
+> [!NOTE]
+> 在尝试将任务管理与 Microsoft Teams 集成之前，请确保您已启用 [Dynamics 365 Commerce 和 Microsoft Teams 集成](enable-teams-integration.md)。 
 
 1. 转到 **Retail 和 Commerce \> 任务管理 \> 与 Microsoft Teams 的任务集成**。
 1. 在操作窗格上，选择 **编辑**。

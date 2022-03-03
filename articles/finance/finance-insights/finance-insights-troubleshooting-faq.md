@@ -2,7 +2,7 @@
 title: 解决 Finance Insights 设置问题
 description: 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064858"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109852"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
@@ -111,6 +111,14 @@ Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐�
 
 ### <a name="resolution"></a>解决方法
 
-**现金流预测** 模型训练需要跨度超过一年且包含 100 个以上交易记录的数据。 这些交易记录必须影响包含在现金流预测设置中的流动性帐户。
+**现金流预测** 模型训练需要包含 100 个或以上跨度超过一年的交易记录的数据。 我们建议您有至少两年的超过 1,000 个交易记录的数据。
 
-**客户付款预测** 需要在过去 6 到 9 个月内至少有 100 个客户发票和付款交易记录来创建预测。  
+**客户付款预测** 功能需要在过去 6 到 9 个月内 100 个以上的交易记录。 交易记录可以包括普通发票、销售订单和客户付款。 此数据必须跨在 **配置** 页面上定义的 **按时**、**逾期** 和 **严重逾期** 设置分布。    
+
+**预算提案** 功能需要至少三年的预算或实际数据。 此解决方案在预测中使用三到十年的数据。 超过三年会提供更好的结果。 当值有变化时，数据本身效果最好。 如果数据包含的全部是常量数据，如租赁费用，训练可能会失败，因为缺乏变化时不需要 AI 来预测金额。
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>症状：错误消息指出“名称为‘msdyn_paypredpredictionresultentities’的表不存在。 远程服务器返回错误：(404) 未找到…”
+
+### <a name="resolution"></a>解决方法
+
+环境已达到 Data Lake 服务的最大表限制。 有关限制的详细信息，请参阅主题 [导出到 Azure Data Lake 概览](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md)的 **启用准实时数据更改** 一节。

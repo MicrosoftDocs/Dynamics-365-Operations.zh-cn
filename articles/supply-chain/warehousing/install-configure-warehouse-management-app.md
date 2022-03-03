@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069371"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103405"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
@@ -39,12 +39,9 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 - Windows 10（通用 Windows 平台 \[UWP\]）2018 年 10 月更新 1809（内部版本 10.0.17763）或更高版本
 - Android 4.4 或更高版本
 
-## <a name="turn-on-the-feature"></a>开启功能
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>在 Supply Chain Management 中打开或关闭 Warehouse Management 移动应用功能
 
-您必须先在系统中打开相关功能，然后才能使用此应用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*新仓库应用的用户设置、图标和步骤标题*
+要使用 Warehouse Management 移动应用，必须在您的系统中打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>获取仓库管理移动应用
 

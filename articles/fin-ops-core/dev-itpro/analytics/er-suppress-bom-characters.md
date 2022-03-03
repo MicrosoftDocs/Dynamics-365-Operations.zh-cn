@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5f9379877e77f2824cd2dec9a1e68390b4eee8ba502e4011f0a8838b1974e3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769940"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323732"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>设计 ER 配置以在生成的文件中禁止 BOM 字符
 
 [!include [banner](../includes/banner.md)]
 
-可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER [格式](general-electronic-reporting.md#FormatComponentOutbound)组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的 [草稿](general-electronic-reporting.md#component-versioning)版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
+可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER 格式组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的 [草稿](general-electronic-reporting.md#component-versioning)版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
 
 > [!NOTE]
 > 如果格式包含错误的编码名称，将更改保存到格式设置时会引发错误。

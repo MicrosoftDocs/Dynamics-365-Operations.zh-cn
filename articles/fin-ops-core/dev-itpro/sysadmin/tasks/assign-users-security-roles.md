@@ -1,12 +1,10 @@
 ---
 title: 向安全角色分配用户
-description: 若要访问 Finance and Operations 应用，用户必须分配给安全角色。
+description: 若要访问 Finance and Operations 应用，必须为用户分配安全角色。
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679856"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105530"
 ---
-# <a name="assign-users-to-security-roles"></a>向安全角色分配用户
+# <a name="manage-users-and-security-roles"></a>管理用户和安全角色
 
 [!include [banner](../../includes/banner.md)]
 
-要使用 Finance and Operations 应用中的常用功能以外的其他功能，必须将用户分配给安全角色。 您可以根据规则和业务数据自动将用户分配给角色，不为用户自动分配角色，也可以手动将用户添加到角色。
+要使用财务和运营应用中的常用功能以外的其他功能，必须将用户分配给安全角色。 您可以根据规则和业务数据自动将用户分配给角色，不为用户自动分配角色，也可以手动将用户添加到角色。
 
 ## <a name="automatically-assign-users-to-roles"></a>将用户自动分配到角色
 此过程说明系统管理员如何基于业务数据将用户自动分配到角色。 
@@ -42,6 +40,8 @@ ms.locfileid: "4679856"
 10. 查看分配给各个用户的角色，以确认角色分配查询是否正确。 根据需要调整并重新运行。
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>将用户从自动角色分配中排除
+此过程说明如何从自动角色分配中排除用户。
+
 1. 关闭该页面。
 2. 转到 **导航窗格 > 模块 > 系统管理 > 安全 > 将用户分配到角色**。
 3. 在树结构中，选择“会计主管”。 选择一个角色。 在此示例中，选择会计主管。  
@@ -57,3 +57,19 @@ ms.locfileid: "4679856"
 2. 在树中，选择一个角色，然后在 **分配给角色的用户** 菜单中，选择 **手动分配/排除用户**。
 4. 在 **将用户分配给角色或从角色中排除用户** 中，列出了未分配有角色的用户，并且其 **分配模式** 设置为 **无**。 选择一个或多个应该为其分配角色的用户。
 5. 在 **操作窗格** 上，选择 **分配给角色**。 **分配模式** 会更新为 **手动**，并且现在为用户分配了新角色。
+
+## <a name="manually-remove-users-from-roles"></a>从角色中手动删除用户
+手动分配给安全角色的用户也必须由管理员手动删除。 不会通过自动角色分配规则从角色中删除这些用户。
+
+1. 转到 **导航窗格 > 模块 > 系统管理 > 安全 > 将用户分配到角色**。
+2. 要删除一个用户，请按照以下步骤操作：
+   1. 在树形图中，选择一个角色。 
+   2. 在 **分配到角色的用户** 区域中，选择应删除的用户。
+   3. 选择 **删除**，用户将被从角色中删除。
+3. 要删除多个用户，请按照以下步骤操作：
+   1. 在树形图中，选择一个角色。 
+   2. 在 **分配到角色的用户** 区域中，选择 **手动分配/排除用户**。
+   3. 在 **将用户分配给角色或从角色中排除用户** 页面，尚未分配到角色的用户在 **分配模式** 列中为 **无**。 选择应从角色中排除的用户。
+   4. 在 **操作窗格** 中，选择 **从角色中排除**。 **分配模式** 列现已更新为 **手动**，用户现在已从角色中排除。
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: 货位产品维度混合
 description: 此主题提供有关货位产品维度混合的信息。 在使用具有维度的产品变型或产品（如在时尚行业中）时，货位模板功能有助于改善货位管理。 其让您决定是混合特定货位模板的配置、颜色、样式和尺寸，还是只能将这些维度中的一个或其组合放入同一个货位。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423321"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103480"
 ---
 # <a name="location-product-dimension-mixing"></a>货位产品维度混合
 
@@ -29,12 +26,9 @@ ms.locfileid: "4423321"
 
 货位产品管理混合功能是一项货位模板功能，在使用具有维度的产品变型或产品（如在时尚行业中）时，该功能有助于改善货位管理。 其让您决定是混合特定货位模板的配置、颜色、样式和尺寸，还是只能将这些维度中的一个或其组合放入同一个货位。
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>开启“货位产品维度混合”功能
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>打开或关闭“货位产品维度混合”功能
 
-货位产品维度功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*货位产品维度混合*
+要使用本主题中描述的功能，必须为您的系统打开 *货位产品维度混合* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *货位产品维度混合* 功能来打开或关闭此功能。
 
 ## <a name="setup"></a>设置
 
@@ -207,9 +201,9 @@ ms.locfileid: "4423321"
 
 1. 选择 **保存**。
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>在仓库应用中接收采购订单行
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>在仓库管理移动应用中接收采购订单行
 
-1. 以已经为仓库 *24* 启用的用户的身份登录仓库应用。
+1. 以已经为仓库 *24* 启用的用户身份登录到仓库管理移动应用。
 1. 选择 **入库** 菜单。
 1. 选择 **PO 行收货**。
 1. 选择 **PONUM** 字段，然后输入采购订单编号。
@@ -239,3 +233,5 @@ ms.locfileid: "4423321"
 
 > [!TIP]
 > 可以重复此场景，但是这次在 *BULK* 这个 **货位模板** 中 **允许产品维度混合** 下设置 **尺寸** - *否*，以便不能混合任何产品维度。 在这种情况下，当您收到采购订单时，将把每个产品变型放置到一个新货位。
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
