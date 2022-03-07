@@ -1,12 +1,10 @@
 ---
 title: 供应商与外部供应商的协作
 description: 本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016745"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576968"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -35,7 +33,7 @@ ms.locfileid: "5016745"
 > [!NOTE]
 > 此主题中有关供应商协作的信息仅适用于当前版本的 Supply Chain Management。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 **供应商门户** 模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
 
-有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
+有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>定义向响应采购订单的供应商显示的信息
 
@@ -242,7 +240,7 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为 **已批准
 - 已发布的询价行
 - 已发布的询价标题附件
 
-通过这些实体，不是 Supply Chain Management 中设置的用户但拥有外部站点匿名访问权限的人员也可以查看可用工作和关闭的工作。 此外，**发送和发布** 中的扩展功能允许设置询价流程参数的用户定义电子邮件模板。 随后，当采购专业人员创建询价案例时，该专业人员必须选择电子邮件模板，以便将所需信息发送至询价案例上的供应商。 
+通过这些实体，不是 Supply Chain Management 中设置的用户但拥有外部站点匿名访问权限的人员也可以查看可用工作和关闭的工作。 此外，**发送和发布** 中的扩展功能允许设置询价流程参数的用户定义电子邮件模板。 随后，当采购专业人员创建询价案例时，他们必须选择电子邮件模板，以便将所需信息发送至询价案例上的供应商。 
 
 设置询价流程参数的用户可以创建多个电子邮件模板。 这些电子邮件模板可以包含静态文本和以下替换标记。 创建电子邮件时，这些标记将被替换为上下文值。
 
@@ -258,3 +256,6 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为 **已批准
 - %createddate%
 
 如果需要改正，并且在发送询价后发送，将重新向所有受邀请的供应商发送询价。 **打开发布的询价** 页面上的已发布文档也会更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

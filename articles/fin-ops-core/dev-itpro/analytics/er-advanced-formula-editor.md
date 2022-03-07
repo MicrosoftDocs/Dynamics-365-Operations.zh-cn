@@ -2,11 +2,9 @@
 title: 电子报告高级公式编辑器
 description: 本主题描述如何使用高级公式编辑器来配置电子报告 (ER) 模型映射和格式组件中的表达式。
 author: NickSelin
-manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 06/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ddee15c28455dc1736e37ff6132e1360e2d135ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685374"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351932"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>电子报告高级公式编辑器
 
@@ -47,16 +45,29 @@ ms.locfileid: "4685374"
 2.  在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
 3.  在 **用户参数** 对话框内的 **执行跟踪** 部分中，将 **启用高级公式编辑器** 参数设置为 **是**。
 
-[![ER 配置页](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![用户参数对话框，突出显示了启用高级公式编辑器参数。](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > 请注意，此参数特定于用户和公司。
+
+从 Microsoft Dynamics 365 Finance 版本 10.0.19 开始，您可以控制默认提供的 ER 公式编辑器。 完成以下步骤，为当前 Finance 实例的所有用户和公司启用高级公式编辑器。
+
+1.  打开 **功能管理** 工作区。
+2.  在列表中查找并选择功能 **将 ER 高级公式编辑器设置为所有用户的默认编辑器**，然后选择 **立即启用**。
+3.  转到 **组织管理** > **电子申报** > **配置**。
+4.  在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
+5.  在 **用户参数** 对话框中，查找 **禁用高级公式编辑器** 参数，并验证它是否设置为 **否**。
+
+[![用户参数对话框，突出显示了禁用高级公式编辑器参数。](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+
+> [!NOTE]
+> 参数 **启用高级公式编辑器** 和 **禁用高级公式编辑器** 的值针对每个用户单独保存，并且在 **用户参数** 对话框上提供，具体取决于 **将 ER 高级公式编辑器设置为所有用户的默认编辑器** 功能的状态。
 
 ## <a name=""></a><a name="Autoformatting">代码自动格式化</a>
 
 当您编写包含多行代码的复杂表达式时，新输入行的缩进将基于前一行的缩进自动进行。 您可以按 **Tab** 或 **Shift+Tab** 来选择行并更改其缩进量。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![ER 公式编辑器 gif，显示选择行和更改缩进。](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 自动格式化可让整个表达式的格式保持正确，以使进一步的维护更加容易，并简化对已配置逻辑的理解。
 
@@ -64,7 +75,7 @@ ms.locfileid: "4685374"
 
 该编辑器提供了单词补全功能，可帮助您更快地编写表达式并避免输入错误。 当您开始添加新文本时，编辑器会自动提供 ER 函数支持的函数列表，其中包含您输入的字符。 您还可以通过按 **Ctrl + 空格键** 在已配置表达式的任何位置触发 IntelliSense。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![ER 公式编辑器 gif，显示触发 IntelliSense。](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">代码完成</a>
 
@@ -74,7 +85,7 @@ ms.locfileid: "4685374"
 - 输入第一个引号时，插入第二个引号，使光标保持在引号内。
 - 输入第一个双引号时，插入第二个双引号，使光标保持在引号内。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![ER 公式编辑器 gif，显示编辑器自动提供代码完成。](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 当您指向键入的括号时，该括号对的第二个括号将自动突出显示以显示其支持的结构。
 
@@ -90,7 +101,7 @@ ms.locfileid: "4685374"
 
 - 按 **F1**，键入 **G**，选择 **转到行**，输入值 **8**，然后按 **Enter**。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![ER 公式编辑器 gif，显示如何使用命令面板定位表达式的各个部分。](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">代码构造</a>
 
@@ -112,7 +123,7 @@ ms.locfileid: "4685374"
   
 - 按 **F1**，键入 **UN**，选择 **全部展开**，然后按 **Enter**
 
-[![ER 公式编辑器](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![ER 公式编辑器 gif，显示要展开的代码。](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">查找和替换</a>
 
@@ -140,13 +151,13 @@ ms.locfileid: "4685374"
   
 - 按 **F1**，键入 **C**，然后选择所需的选项以更改选定的文本。 输入替换文本。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![ER 公式编辑器 gif，显示查找和替换。](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">数据源和函数粘贴</a>
 
 您可以选择 **添加数据源**，这会将当前在 **数据源** 左面板中选择的数据源粘贴到当前表达式中。 同样，您可以选择 **添加函数**，这会将当前在 **函数** 右面板中选择的函数粘贴到当前表达式中。 如果使用 ER 公式编辑器，则所选函数或所选数据源将始终粘贴到已配置表达式的末尾。 如果使用高级 ER 公式编辑器，则可以将所选函数或所选数据源粘贴到已配置表达式的任何部分中。 您将需要使用光标来指定要粘贴数据的位置。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![ER 公式编辑器 gif，显示添加数据源和粘贴函数。](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">语法着色</a>
 
@@ -154,7 +165,7 @@ ms.locfileid: "4685374"
 
 - 双括号中可以表示文本常量的标签 ID 的文本。
 
-[![ER 公式编辑器](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![ER 公式编辑器。](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>限制
 
@@ -171,3 +182,6 @@ ms.locfileid: "4685374"
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告中的配方设计器](general-electronic-reporting-formula-designer.md)
 - [Monaco 编辑](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: 添加新的站点页面
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410432"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090711"
 ---
 # <a name="add-a-new-site-page"></a>添加新的站点页面
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
-
-## <a name="overview"></a>概览
 
 为站点创建模板和片段之后，下一步是开始创建使用这些模板和片段的页面。 首先，必须选择模板或布局，页面名称和页面 URL。
 
@@ -39,11 +33,11 @@ ms.locfileid: "4410432"
 
 可为新页面使用模板或布局。 有关详细信息，请参阅[模板和布局概述](templates-layouts-overview.md)。
 
-## <a name="page-name"></a>页面名称
+## <a name="specify-the-page-name"></a>指定页面名称
 
-页面名称对于页面必须唯一。 应该具有描述性，以便您轻松找到，其他人可以知道页面的用途。 请仔细选择页面名称，因为以后不能更改。
+页面名称对于您的站点必须是唯一的，并且应该具有描述性，以便您可以轻松找到，其他人可以知道页面的用途。 您可以稍后通过编辑页面，然后在属性窗格中选择页面名称旁边的笔符号来重命名页面。
 
-## <a name="page-url"></a>页面 URL
+## <a name="specify-the-page-url"></a>指定页面 URL
 
 提供了用于为新页面输入 URL 的选项。 创建页面时，可输入将用于构成完整 URL 的字符串。 此字符串称为相对 URL 或 URL 数据域。 然后基于 URL 数据域生成完整 URL，并将新页面分配给它。 可在以后发布页面前更改 URL 数据域。 有关详细信息，请参阅[创建页面 URL](create-page-URL.md)。
 
@@ -90,4 +84,9 @@ ms.locfileid: "4410432"
 
 [丰富类别登陆页面](enrich-category-page.md)
 
-[验证页面内容可访问性](verify-accessibility.md)
+[验证页面内容的可访问性](verify-accessibility.md)
+
+[基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: 配置员工自助服务
 description: 在 Microsoft Dynamics 365 Human Resources 中，您可以为员工自助服务中的顶层导航配置磁贴。
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f0d39b30b7c8d0a5729ebe3b1ed9e0d569a6660
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417508"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052977"
 ---
 # <a name="configure-employee-self-service"></a>配置员工自助服务
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 在 Microsoft Dynamics 365 Human Resources 中，您可以为员工自助服务中的顶层导航配置磁贴。 福利计划磁贴可将用户引导至他们有资格登记参加的福利计划。
 
@@ -72,3 +71,6 @@ ms.locfileid: "4417508"
    | **结束日期** | 磁贴应该可用的结束日期和时间。 |
 
 4. 选择 **保存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

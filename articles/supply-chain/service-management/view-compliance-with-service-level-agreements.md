@@ -1,12 +1,10 @@
 ---
 title: 查看对服务级别协议的遵从性
 description: 查看对服务级别协议的遵从性。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0359e7d314610901c331419ab49a3d1cb446dc5e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2386363da8040dfc674ef360a2e8310800320139
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965722"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574947"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>查看对服务级别协议的遵从性    
 
@@ -48,3 +46,6 @@ ms.locfileid: "4965722"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

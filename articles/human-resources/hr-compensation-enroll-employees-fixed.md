@@ -2,28 +2,27 @@
 title: 在固定薪酬计划中登记员工
 description: 薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3029e52a7cc1fb6dfda390f5d892c89f1eda8509
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5f0862c86234495c89b2a6ad947cc78e687de37
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417440"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054228"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。 此程序假设已经创建了一个有效的固定薪酬计划，且该计划的资格规定也已经设置完成。 创建此程序的演示数据公司是 USMF。 启动该程序，请转到“人力资源”>“工作人员”>“雇员”>“薪酬”>“固定计划”
 
@@ -39,3 +38,6 @@ ms.locfileid: "4417440"
     * 如果该雇员的“固定薪酬计划”是一步计划，则选择包含相应工资标准的薪酬阶梯。 如果该雇员的固定薪酬计划是根据等级或期间设置，输入其工资标准。 该工资标准将验证该薪酬计划设置的可行性程度，以及该工作薪酬水平的最小和最大参考值。  
 8. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

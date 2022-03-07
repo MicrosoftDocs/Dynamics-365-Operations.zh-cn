@@ -2,16 +2,13 @@
 title: 比较物料价格存储报表
 description: 了解如何生成比较物料价格存储报表，然后浏览和/或导出结果。
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9e05dd582ed1bd2c242d3eeb77ca61203706e11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423198"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813211"
 ---
 # <a name="compare-item-prices-storage-report"></a>比较物料价格存储报表
 
@@ -121,3 +118,6 @@ ms.locfileid: "4423198"
 1. 将打开 **执行摘要** 页，可在其中查看导出作业的状态和导出的实体的列表。 选择 **实体处理状态** 区域中列出的 **比较物料价格** 实体，然后选择 **下载文件** 下载从该实体导出的数据。
 
 有关如何使用数据管理导出数据的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

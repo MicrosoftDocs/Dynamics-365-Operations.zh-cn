@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87cca8b3472f572cd1c4ba3d894269f7ba0f248a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440692"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241066"
 ---
 # <a name="factor-depreciation"></a>因素/系数折旧
 
@@ -79,3 +78,6 @@ ms.locfileid: "4440692"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

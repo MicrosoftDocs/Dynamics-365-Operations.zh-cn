@@ -2,27 +2,24 @@
 title: 计划生产订单
 description: 该过程说明安排一个生产订单。
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum, ProdRouteJobSched, ProductionOrderScheduleDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b3fe8f6890c7d8ac8835503091642faa773f7f6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a52e2ee3bf0c5dadeda375882d16de60b31d658
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422958"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831882"
 ---
 # <a name="schedule-a-production-order"></a>计划生产订单
 
@@ -55,3 +52,6 @@ ms.locfileid: "4422958"
 6. 关闭该页面。
 7. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

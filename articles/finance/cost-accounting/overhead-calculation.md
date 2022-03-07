@@ -2,16 +2,13 @@
 title: 开销计算
 description: 此主题描述计算和分配间接成本的典型流程。
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766281"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
@@ -32,8 +29,7 @@ ms.locfileid: "4440864"
 
 此主题描述计算和分配间接成本的典型流程。
 
-<a name="term-definition"></a>术语定义
----------------
+## <a name="term-definition"></a>术语定义
 
 间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。 间接成本为营利活动的生成提供重要支持。 以下是一些开销成本示例：
 
@@ -52,7 +48,7 @@ ms.locfileid: "4440864"
 
 开销计算独立于版本运行。 因此，可以在实际版本前计算预算版本。 开销计算包括四个步骤，如下图所示。 在每个步骤中，创建包含日记帐条目的日记帐标头。 此日记帐标头为每个计算步骤保留输入数据。 政策和规则应用于每个日记帐行，成本条目生成为输出。 因此，您始终具有完全的可跟踪性。 
 
-[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![开销计算。](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>计算和分摊电间接成本
 在财务会计中，有些成本（如电）登记为总计。 因此，不为成本核算提供详细的管理洞察。 在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。 此流必须基于消耗量的准确记录或公平评估。 在总帐中，可以过帐电成本，如下表所示。
@@ -622,7 +618,7 @@ ms.locfileid: "4440864"
 
 分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Finance 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 
 
-[![互惠方法](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![互惠方法。](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>定义成本分摊
 
@@ -1415,3 +1411,6 @@ ms.locfileid: "4440864"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0e6331746d2634a3686b0a7368d060d94567c4ff
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797594"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567948"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
@@ -141,3 +140,6 @@ Sam 可以重新提交该支出报表。 他可以首先进行更改，或者可
 例如，Sam 提交了一份 12,000 美元的支出报表，而且该文档分配给 Sue。 如果 Sue 请求更改，该支出报表将发还 Sam。
 
 Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改，或者可以重新提交支出报表的原始版本。 如果 Sam 重新提交了该支出报表，该报表将发送给 Frank 审核，因为 Frank 是审核流程中的第一位审核人。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: 供统计维度成员和度量提供方使用的提供方模板
+title: 统计维度成员和统计度量提供方模板
 description: 此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。
 author: AndersGirke
 manager: AnnBe
@@ -11,6 +11,7 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969445"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440863"
 ---
-# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>供统计维度成员和度量提供方使用的提供方模板
+# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
 
 [!include [banner](../includes/banner.md)]
 

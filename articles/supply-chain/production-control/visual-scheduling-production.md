@@ -2,16 +2,13 @@
 title: 用于作业级排产的甘特图
 description: 生产规划人员可以使用甘特图控制和优化生产计划。
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce2c20874b0dc901ff8684da2881c7f16ce622c9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423098"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836534"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>用于作业级排产的甘特图
 
@@ -158,5 +155,8 @@ ms.locfileid: "4423098"
 ## <a name="additional-resources"></a>其他资源  
 [使用用于生产和批次订单的甘特图进行可视排产（视频）](https://youtu.be/BtbuShkGj4I)
 
-[可视生产排产（演示脚本）](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
+[可视生产排产（演示脚本）](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

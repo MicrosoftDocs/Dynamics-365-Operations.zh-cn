@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d766515d82e021f41e0cc0a9a877f25551817ad5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017459"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250822"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
 
@@ -149,3 +149,6 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 Retail SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
 
 - [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

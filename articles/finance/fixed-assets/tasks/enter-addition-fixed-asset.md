@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35e447ff9652861de4f7f310f68e8180a69589b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440767"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209985"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>输入对固定资产的添加件
 
@@ -46,3 +45,6 @@ ms.locfileid: "4440767"
     * 如果增加物提供了资产的服务年限，怎讲 **增加服务年限** 设置为 **是**。  
     * 该字段仅用于提供信息。 要提高使用年限，请修改资产价值模型和折旧帐簿中的使用年限。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

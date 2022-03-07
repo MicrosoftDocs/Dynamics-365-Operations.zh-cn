@@ -2,16 +2,13 @@
 title: 雇用个性化产品建议
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让个性化产品建议可以为客户所用。
 author: bebeale
-manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410457"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804421"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让个性化产品建议可以为客户所用。
-
-## <a name="overview"></a>概览
 
 在 Dynamics 365 Commerce 中，零售商可以提供个性化的产品建议（也称为个性化）。 通过这种方式，可以将个性化的建议引入到在线和销售点 (POS) 的客户体验中。 当个性化功能打开时，系统可以将用户的购买和产品信息相关联，以生成个性化的产品建议。
 
@@ -131,3 +126,6 @@ ms.locfileid: "4410457"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

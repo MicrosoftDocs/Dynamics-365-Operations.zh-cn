@@ -2,7 +2,7 @@
 title: 创建新福利
 description: 该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f9618e62e33655bfc1a0653cb767abe0094d1e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 857fb7d6860d050fb0be50f2559e3998dacad458
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417415"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468003"
 ---
 # <a name="create-a-new-benefit"></a>创建新福利
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。 创建此任务的演示数据公司是 USMF。 此任务专门面向薪资和福利经理。
 
@@ -53,3 +55,6 @@ ms.locfileid: "4417415"
 6. 在"有效日期"字段中，输入日期和时间。
 7. 单击“创建福利”。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

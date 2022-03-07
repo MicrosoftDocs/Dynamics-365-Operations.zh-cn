@@ -1,27 +1,24 @@
 ---
 title: 将计算添加到产品配置模型
 description: 该过程显示如何添加新计算到产品配置模型。
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d201061ff47203f09f96dc08ff6fc8ac437a6f9e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423013"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570649"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>将计算添加到产品配置模型
 
@@ -34,8 +31,11 @@ ms.locfileid: "4423013"
 
 ## <a name="create-calculation-expression"></a>创建计算表达式
 1. 单击“编辑表达式”。
-2. 在“ConstraintBody”字段中，输入“If[CabinetFinish=="White", 10, 15]”。
+2. 在“约束体”字段中，输入“如果[完工机柜==“白色”，10, 15]”。
 3. 单击“验证”。
 4. 单击“关闭”。
 5. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

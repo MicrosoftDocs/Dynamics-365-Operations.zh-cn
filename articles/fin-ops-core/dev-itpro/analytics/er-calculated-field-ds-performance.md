@@ -2,11 +2,9 @@
 title: 通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 description: 此主题介绍如何通过添加参数化的计算字段数据源提高电子申报 (ER) 解决方案的性能。
 author: NickSelin
-manager: AnnBe
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681272"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749505"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 
@@ -300,3 +298,6 @@ ms.locfileid: "4681272"
 - [电子申报概览](general-electronic-reporting.md)
 - [跟踪电子申报格式的执行以解决性能问题](trace-execution-er-troubleshoot-perf.md)
 - [支持对计算字段类型的 ER 数据源执行参数化调用](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

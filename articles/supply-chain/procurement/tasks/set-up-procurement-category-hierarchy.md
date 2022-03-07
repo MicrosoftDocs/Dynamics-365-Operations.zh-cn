@@ -1,25 +1,23 @@
 ---
 title: 设置采购类别层次结构
 description: 该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 44350272aa1cd9f80bf3a408c36cd627318fde0c3e1e8c148a6b6467ebb8d525
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751881"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 
@@ -44,3 +42,6 @@ ms.locfileid: "5017308"
 4. 选择您想要添加到采购类别的产品。
 5. 选择箭头以将产品添加到 **所选** 表中。
 6. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

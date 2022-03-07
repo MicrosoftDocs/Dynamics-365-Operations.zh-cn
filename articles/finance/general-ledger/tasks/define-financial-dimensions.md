@@ -1,33 +1,30 @@
 ---
 title: 定义财务维度
-description: 此任务指南演示如何添加实体支持的财务维度和自定义的财务维度。
+description: 该过程显示如何添加实体支持的财务维度和自定义的财务维度。
 author: aprilolson
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440584"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394454"
 ---
 # <a name="define-financial-dimensions"></a>定义财务维度
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南演示如何添加实体支持的财务维度和自定义的财务维度。  此指南使用演示公司 USMF。
+该过程显示如何添加实体支持的财务维度和自定义的财务维度。  此指南使用演示公司 USMF。
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>创建实体支持的财务维度
@@ -55,3 +52,6 @@ ms.locfileid: "4440584"
 9. 在 **维度值** 字段中，输入描述财务维度值的名称。
 10. 在 **描述** 字段中，输入描述您的财务维度值的描述。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

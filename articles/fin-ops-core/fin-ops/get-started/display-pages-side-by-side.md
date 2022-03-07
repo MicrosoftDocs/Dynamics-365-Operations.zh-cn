@@ -2,11 +2,9 @@
 title: 使用“在新窗口中打开”功能并排显示页面
 description: 本文说明如何并排显示页面。
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f082fe4af9c095d841dbcabf85d365a3fbee71b79a7765e39fbe691db7da458e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771942"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>使用“在新窗口中打开”功能并排显示页面
 
@@ -48,3 +46,6 @@ ms.locfileid: "4798395"
 **在新窗口中打开** 功能仅在窗口中已打开多个页面时适用。 此外，弹出窗口将在未打开多个页面时（即您关闭该窗口中的最后一个页面时）自动关闭。 系统还在您导航到该应用程序中的其他区域时关闭打开的页面。 因此，如果您打开弹出窗口并导航到该应用程序中的其他区域，则弹出窗口将自动关闭，因为系统已将这些窗口中的页面关闭。
 
 弹出窗口中的顶部栏显示有关页面已在其中打开且只读的公司的信息。 弹出窗口还依赖主浏览器窗口。 如果关闭或刷新主窗口，则所有打开的弹出窗口将变为只读。 如果出现这种情况，您仍可查看这些窗口中的信息，但将无法与其进行交互。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: 管理评分和评价
 description: 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731585"
 ---
 # <a name="manage-ratings-and-reviews"></a>管理评分和评价
 
@@ -48,7 +45,7 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 
 可使用更多筛选器按期间、评分、渠道或关注状态（已撤下、已响应或已报告）限制评价。
 
-![审查主页](media/rnr-moderation-home.png) 
+![审查主页。](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>响应评价 
 
@@ -62,7 +59,7 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 1. 输入响应文本和应该对响应者显示的名称。 默认响应者名称为 **审查者**。
 1. 当您完成时，选择 **发布响应**。
 
-![响应评价](media/rnr-moderation-response.png) 
+![响应评价。](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>撤下评价 
 
@@ -85,7 +82,7 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 1. 如果客户进行了任何评价活动（例如，提交评价，对另一位客户的评价是否有帮助投票，或评论了另一位客户的评价），将显示结果。 每项有一个 **删除** 按钮。
 1. 为必须删除的每项选择 **删除**。 提示确认时，选择 **是**。 
     
-![删除客户数据](media/rnr-moderation-delete-reviews.png) 
+![删除客户数据。](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - 最多可能需要七天，才会从系统中完全删除数据。 审查者应该通知客户存在此延迟。
@@ -109,19 +106,19 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 1. 转到 **主页 \> 评价 \> 报告**。
 1. 选择 **PowerBI 模板** 下载模板。
 
-    ![下载 Power BI 模板](media/rnr-moderation-reports.png) 
+    ![下载 Power BI 模板。](media/rnr-moderation-reports.png) 
 
 1. 使用 Power BI 应用打开下载的模板。 关闭显示的 **访问 Web 内容** 对话框，然后关闭显示的“刷新”错误消息。
 1. 转到 **主页**，选择 **编辑查询**，然后选择 **数据源设置**。
 1. 在 **数据源设置** 对话框中，选择 **更改源**。
 1. 在 **URL** 字段中，输入上一过程中下载的评价数据的路径（例如，**c:\\reviews\\ReviewsData.csv**）。
 
-    ![“逗号分隔值”对话框中的 URL 字段](media/rnr-powerbi-datasource-settings.png) 
+    ![“逗号分隔值”对话框中的 URL 字段。](media/rnr-powerbi-datasource-settings.png) 
 
 1. 选择 **确定**，然后选择 **应用更改**。 需要一到两分钟才能应用对数据源的更改。
 1. 选择 **趋势表** 显示评分和评价趋势。
 
-    ![评分和评价趋势](media/rnr-powerbi-dashboard-template.png) 
+    ![评分和评价趋势。](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>其他资源
 
@@ -132,3 +129,6 @@ Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥�
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Retail 中同步产品评分](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

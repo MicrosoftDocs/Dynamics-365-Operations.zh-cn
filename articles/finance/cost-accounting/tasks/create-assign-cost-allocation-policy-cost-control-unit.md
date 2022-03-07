@@ -2,11 +2,9 @@
 title: 创建成本分摊策略并将其分配到成本控制单元
 description: 此过程用于创建和分配成本分配政策，以及为成本控制单元分配相应规则。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerPolicyAssignment
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006310d07dfa5b75941ca248736800bbb9e8e7b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1cff10132e8007be885e9c69d97cf96c30d69f50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969320"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822847"
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>创建成本分摊策略并将其分配到成本控制单元
 
@@ -66,3 +64,6 @@ ms.locfileid: "4969320"
 5. 在“成本控制单元”字段中，输入或选择一个值。
 6. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

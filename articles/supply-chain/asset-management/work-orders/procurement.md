@@ -1,12 +1,10 @@
 ---
 title: 采购
 description: 本主题介绍资产管理中的采购。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743642"
 ---
 # <a name="procurement"></a>采购
 
@@ -38,7 +36,7 @@ ms.locfileid: "5020196"
 
 下图显示 **工作订单采购申请** 列表页的示例。
 
-![图 1](media/08-work-orders.png)
+![图 1.](media/08-work-orders.png)
 
 
 **工作订单采购** 列表页（**资产管理** > **常用** > **采购** > **工作订单采购申请**）显示与工作订单关联的采购订单的列表。 在此页面上选择工作订单作业时，可以使用操作窗格的 **工作订单采购** 选项卡上 **显示** 组中的按钮来执行各个操作：
@@ -49,7 +47,7 @@ ms.locfileid: "5020196"
 
 下图显示 **工作订单采购** 列表页的示例。
 
-![图 2](media/09-work-orders.png)
+![图 2.](media/09-work-orders.png)
 
 
 在 **工作订单采购** 列表页和 **工作订单采购申请** 列表页上，与交货日期控制相关的符号出现在每行的右侧。 如果符号是红色圆圈包起来的感叹号，关联采购订单或采购申请的交货可能延迟。
@@ -95,7 +93,10 @@ ms.locfileid: "5020196"
 
 下图显示 **采购订单** 页面的示例，焦点位于 **活动编号**。
 
-![图 3](media/10-work-orders.png)
+![图 3.](media/10-work-orders.png)
 
 同样，要查看或输入与工作订单采购申请行相关的活动编号，请在 **工作订单采购申请** 列表页上，选择采购申请记录，然后在 **采购申请** 列中选择采购申请的链接。 您可以在 **行明细** 快速选项卡的 **项目** 选项卡上找到 **活动编号** 字段。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

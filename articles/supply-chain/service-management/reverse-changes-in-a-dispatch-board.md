@@ -1,29 +1,26 @@
 ---
 title: 冲销发货牌中的更改
 description: 此主题描述如何撤消您在发货牌中做出的未保存修改。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6593d0eb1949140b23bc1ea6bcb87b12193aa7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 93db36066ba9b355fb0deb63019b3cecca61768c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423218"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567887"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>冲销发货牌中的更改 
 
@@ -51,3 +48,6 @@ ms.locfileid: "4423218"
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

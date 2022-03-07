@@ -1,28 +1,25 @@
 ---
 title: 创建替换看板规则
 description: 此过程介绍在特定日期将现有看板规则替换为新看板规则。
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2db44c1b43a6dc5e0ab37a7756c4eecaab468e15
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422712"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570049"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>创建替换看板规则
 
@@ -56,3 +53,6 @@ ms.locfileid: "4422712"
 1. 设置最大数量为 '100'。
     * 展开“数量”快速选项卡查看“最大数量”字段。 更改最大数量为 100 可以最多处理 100 个看板。    这是该任务的最后一步。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

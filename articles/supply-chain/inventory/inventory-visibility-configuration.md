@@ -2,7 +2,7 @@
 title: 配置库存可见性
 description: 本主题介绍如何配置库存可见性。
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060993"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474668"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 本主题介绍如何在 Power Apps 中使用库存可见性应用配置库存可见性。
 
@@ -58,10 +58,10 @@ ms.locfileid: "8060993"
 
 ## <a name="data-source-configuration"></a>数据源配置
 
-各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 Finance 和 Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
+各数据源表示您的数据的来源系统。 示例数据源包括 `fno`（代表“Dynamics 365 Finance and Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
 > [!NOTE]
-> `fno` 数据源是为 Supply Chain Management 预留的。 如果您的库存可见性加载项与 Supply Chain Management 环境集成，我们建议您不要删除数据源中与 `fno` 相关的配置。
+> `fno` 数据源是为 Dynamics 365 Supply Chain Management 保留的。
 
 若要添加数据源，请按以下步骤操作。
 
@@ -273,17 +273,17 @@ ms.locfileid: "8060993"
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>分区配置
 
-当前，分区配置由两个基本维度（`SiteId` 和 `LocationId`）组成，这两个维度指示数据的分配方式。 同一分区下的操作可以以更低的成本提供更高的性能。 下表显示了库存可见性加载项提供的默认分区配置。
+分区配置由基础维度组合构成。 其定义数据分发模式。 同一分区中的数据操作支持高性能，并且成本不高。 因此，良好的分区模式拥有显著的优点。
+
+库存可见性提供以下默认分区配置。
 
 | 基础维度 | 层次结构 |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-默认情况下，该解决方案包括此分区配置。 因此，*您不必亲自定义它*。
-
-> [!IMPORTANT]
-> 不自定义默认分区配置。 如果删除或更改它，则可能会导致意外错误。
+> [!NOTE]
+> 默认分区配置仅供参考。 不必在库存可见性中定义。 现在不支持分区配置升级。
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>产品索引层次结构配置
 
@@ -366,12 +366,16 @@ ms.locfileid: "8060993"
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>预留配置（可选）
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 如果要使用软预留功能，则需要预留配置。 该配置由两个基本部分构成：
 
 - 软预留映射
 - 软预留层次结构
 
 ### <a name="soft-reservation-mapping"></a>软预留映射
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 进行预留时，可能希望了解现有库存当前是否可用于预留。 验证将链接到计算度量，计算度量表示实际度量组合的计算公式。
 
@@ -442,6 +446,8 @@ ms.locfileid: "8060993"
 > 调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值为 `True` 表示需要验证，而值为 `False` 则表示不需要验证。 默认值为 `True`。
 
 ### <a name="soft-reservation-hierarchy"></a>软预留层次结构
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 预留层次结构描述在进行预留时必须指定的维度的序列。 其工作方式与产品索引层次结构处理现有库存查询的工作方式相同。
 
@@ -741,6 +747,8 @@ ms.locfileid: "8060993"
 此部分介绍默认预留配置。
 
 #### <a name="reservation-mapping"></a>预留映射
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 下表显示默认预留映射。
 

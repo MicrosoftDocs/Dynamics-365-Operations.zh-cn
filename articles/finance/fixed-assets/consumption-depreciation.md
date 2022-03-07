@@ -1,29 +1,26 @@
 ---
 title: 工作量法折旧
 description: 本文提供消耗量折旧方法的概览。
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13751
 ms.assetid: d25a681f-49a5-4bfc-aa76-1c6373e35dd8
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c9d95a7a45ed99c63516749285126c786685c87
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9b97caefcb650f289e7f29f14473e0a22aa5d88
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440632"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674296"
 ---
 # <a name="consumption-depreciation"></a>工作量法折旧
 
@@ -68,3 +65,6 @@ ms.locfileid: "4440632"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

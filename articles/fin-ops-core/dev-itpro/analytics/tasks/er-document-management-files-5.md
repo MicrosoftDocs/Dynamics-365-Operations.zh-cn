@@ -1,12 +1,10 @@
 ---
 title: ER 在格式输出中使用票据管理文件（第 5 部分 - 修改和运行格式）
-description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。
+description: 本主题介绍如何配置电子报告 (ER) 格式以在 ER 输出中使用文档管理文件（附件）。 （第 5 部分）
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b949c2629df0e9db8c11322c9d0d090b200edc2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 48175de4e58f9def15bf2bf8b10a1348036c88a1af284eb2a3e5f9fbefd649c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748392"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分 - 修改和运行格式）
 
@@ -96,3 +94,6 @@ ms.locfileid: "4681749"
 7. 单击“确定”。
     * 检查生成的输出。 请注意，除了 XML 格式的发票，还为每个附件创建了一个文件。 附件文件使用二进制格式的压缩输出填充。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

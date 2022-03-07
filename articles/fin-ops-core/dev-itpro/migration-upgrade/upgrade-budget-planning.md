@@ -1,27 +1,25 @@
 ---
 title: 升级预算计划
-description: Microsoft Dynamics AX 2012 和 Dynamics 365 Finance 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。
-author: ryansandness
-manager: AnnBe
+description: 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。
+author: panolte
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 27332703ac4943ef41a2cb2a70d86e2d9dfdf1ee
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680990"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745227"
 ---
 # <a name="upgrade-budget-planning"></a>升级预算计划
 
@@ -162,3 +160,6 @@ Finance and Operations 的预算进行了许多重大更改。 这些更改用�
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

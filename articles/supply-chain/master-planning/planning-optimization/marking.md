@@ -2,16 +2,13 @@
 title: 通过计划优化进行库存标记
 description: 本主题提供有关可用于在使用计划优化时在确认订单中标记库存的选项的信息。
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: dc94ca8b15d626d8ff64f50718d7d2e3e0326144465f3d27787805220842849f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711897"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>通过计划优化进行库存标记
 
@@ -49,3 +46,6 @@ ms.locfileid: "4672173"
 - **无** – 不应用库存标记。
 - **标准** – 根据限定标准更新库存标记。 针对履行订单（供应）标记需求订单（需求）。 如果履行订单上还有一些数量，不会对其进行标记，并且参考信息将保留为空白。 例如，如果针对 150 ea 的采购订单限定 100 ea 的销售订单，参考信息将仅分配给销售订单。
 - **扩展** – 同时标记需求订单（需求）和履行订单（供应），不管履行订单上仍然存在的任何数量。 例如，如果针对 150 ea 的采购订单限定 100 ea 的销售订单，参考信息将分配给销售订单和采购订单。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

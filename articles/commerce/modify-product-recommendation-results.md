@@ -2,16 +2,13 @@
 title: 调整基于 AI-ML 的产品建议结果
 description: 此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748514"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
@@ -54,7 +51,7 @@ ms.locfileid: "4410571"
 
 “最畅销”产品列表有一个可更改的参数：
 
-![示例最畅销列表默认参数](./media/examplebestsellingparameters.PNG)
+![最畅销列表默认参数示例。](./media/examplebestsellingparameters.PNG)
 
 1. **包括过去 X 天的销售量** - 可使用当天前指定天数内进行的销售交易记录订购产品。 上面的默认值表明过去 30 天某个产品的所有购买用于决定此产品在最畅销产品列表中的位置。 
 
@@ -68,13 +65,13 @@ ms.locfileid: "4410571"
 1.  若要向表添加产品，请选择 **添加行**。 
 1.  在“产品”列下，按 **名称** 或 **产品编号** 搜索产品。
 
-    ![在“新品”产品列表中搜索产品的示例](./media/examplenewlistconfiguration1.png)
+    ![在“新产品”列表中搜索产品的示例。](./media/examplenewlistconfiguration1.png)
 
 1.  在“行类型”列下，选择两个选项之一：
     -   **包含** – 强制产品位于列表前部
     -   **排除** – 在列表中隐藏某个产品。
     
-    ![在“新品”产品列表中包含或排除某个产品的示例](./media/examplenewlistconfiguration2.png)
+    ![在“新产品”列表中包含或排除产品的示例。](./media/examplenewlistconfiguration2.png)
 
 1.  更改 **显示顺序** 将更改标记为 **包含** 的产品在列表中的显示顺序。
     - 如果两个产品的 **显示顺序** 值相同，则这两个结果的最终顺序可能与后端不同。
@@ -90,11 +87,11 @@ ms.locfileid: "4410571"
 执行以下步骤手动添加或删除种子产品的结果：
 1.  选择 **种子产品**。 
 1.  在 **产品** 列下，按 **名称** 或 **产品编号** 搜索产品。
-![搜索“人气组合”列表中的产品的示例](./media/exampleFBTlistconfiguration1.png)
+![搜索“人气组合”列表中的产品的示例。](./media/exampleFBTlistconfiguration1.png)
 1. 在 **行类型** 列下，选择两个选项之一：
     - **包含** – 强制产品位于列表前部
     - **排除** – 在列表中隐藏某个产品。     
-![在“人气组合”列表中包含或排除产品的示例](./media/exampleFBTlistconfiguration2.png)
+![在“人气组合”列表中包含或排除产品的示例。](./media/exampleFBTlistconfiguration2.png)
 1.  若要从表中删除产品：选择要删除的行，然后选择删除。
 
 
@@ -121,3 +118,6 @@ ms.locfileid: "4410571"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

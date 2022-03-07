@@ -2,7 +2,7 @@
 title: 分发和计划调查表
 description: 本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a8c79e7b39e092bb85677fed19a53d5b9bf24962
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417519"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464974"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
 
@@ -131,3 +133,6 @@ ms.locfileid: "4417519"
 调查表可用于网络中的所有人士，或者可用于特定的用户组或所有用户。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

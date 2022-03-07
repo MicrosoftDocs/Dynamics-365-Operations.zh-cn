@@ -1,10 +1,24 @@
 - name: Dynamics 365 Human Resources
-  href: hr-welcome.md
+  href: ./index.md
   items:
     - name: 新增功能
       items:
         - name: Human Resources 中的新增功能或更改
           href: hr-admin-whats-new.md
+        - name: 2020 年 4 月 19 日
+          href: hr-whats-new-2021-04-19.md
+        - name: 2021 年 4 月 5 日
+          href: hr-whats-new-2021-04-05.md
+        - name: 2021 年 3 月 22 日
+          href: hr-whats-new-2021-03-22.md
+        - name: 2021 年 3 月 8 日
+          href: hr-whats-new-2021-03-08.md
+        - name: 2021 年 2 月 22 日
+          href: hr-whats-new-2021-02-22.md
+        - name: 2021 年 1 月 28 日
+          href: hr-whats-new-2021-01-28.md
+        - name: 2021 年 1 月 21 日
+          href: hr-whats-new-2021-01-21.md
         - name: 2020 年 12 月 2 日
           href: hr-whats-new-2020-12-02.md
         - name: 2020 年 10 月 22 日
@@ -79,12 +93,16 @@
           items:
             - name: 选择数据集成技术
               href: hr-admin-integration-choose-technology.md
-            - name: 配置 Common Data Service 集成
+            - name: 限制常见问题
+              href: hr-admin-integration-throttling-faq.md
+            - name: 配置 Dataverse 集成
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service 实体
+            - name: Dataverse 表
               href: hr-developer-entities.md
-            - name: 配置 Common Data Service 虚拟实体
+            - name: 配置 Dataverse 虚拟表
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Human Resources 虚拟表常见问题
+              href: hr-admin-virtual-entity-faq.md
             - name: 配置与 Finance 的集成
               href: hr-admin-integration-finance.md
             - name: 配置与 Dayforce 的集成
@@ -96,91 +114,91 @@
             - name: 与 Office 集成
               items:
                 - name: Office 集成教程
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 更新 Excel 中的实体数据
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 创建“在 Excel 中打开”体验
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 解决 Office 集成问题
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
         - name: 配置数据管理
           items:
             - name: 数据管理框架概览
-              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据实体
               items:
                 - name: 数据实体概览
-                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 配置数据项目
-                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 在公司或法人之间复制配置数据
                   items:
                     - name: 复制配置数据概览
-                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                     - name: 配置数据包
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                     - name: 配置数据包（仅 2017 年 7 月版本）
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 配置数据模板
-                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 跟踪实体更改
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 查找有关标准数据实体的信息
-                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 带有多个工作表的数据模板
-                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 启用对实体的更改跟踪
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Configuration Key 和数据实体
-                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 配置数据包
-                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据导入和导出作业
               items:
                 - name: 数据导入和导出作业概览
-                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 使用普通日记帐实体导入凭证的最佳实践
-                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据实体开发
               items:
                 - name: 数据实体的设计原则和最佳实践
-                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 创建新数据实体
-                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 数据实体属性
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 创建计算列和虚拟字段
-                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 跨公司行为
-                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 处理国家/地区代码
-                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 继承模式
-                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 数据实体向导规则
-                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 元数据属性
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 验证、默认值和未映射的字段
-                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 安全和数据实体
-                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 使用第三方服务测试实用程序
-                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 创建用于公开财务维度的只读实体
-                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 提供您自己的数据库
-              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 优化 BYOD 批处理作业
               href: hr-admin-integration-byod-batch-jobs.md
             - name: 自动化实体商店刷新
-              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据任务自动化
-              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据验证核对清单工作区
-              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: 数据管理错误描述
-              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
         - name: 管理功能
           href: hr-admin-manage-features.md
         - name: 配置和管理数据库日志记录
@@ -245,7 +263,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
             - name: 通过任务录制器创建文档或培训
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Human Resources 故障排除
+        - name: Human Resources 疑难解答
           items:
             - name: 获取支持
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
@@ -253,6 +271,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: 使用自动清理任务优化性能
               href: hr-admin-troubleshooting-batch-history.md
+            - name: 重置卡住的批处理作业
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: 未更新分析报表
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: 无法在 Power Apps 管理中心内创建环境
@@ -279,7 +299,7 @@
           href: hr-developer-overview.md
         - name: 通过 Power Apps 和 Power Automate 扩展
           href: hr-developer-power-apps.md
-        - name: Common Data Service 实体
+        - name: Dataverse 表
           href: hr-developer-entities.md
         - name: 自定义字段
           href: hr-developer-custom-fields.md
@@ -287,8 +307,10 @@
           items:
             - name: 选择数据集成技术
               href: hr-admin-integration-choose-technology.md
-            - name: 配置 Common Data Service 集成
+            - name: 配置 Dataverse 集成
               href: hr-admin-integration-common-data-service.md
+            - name: 配置 Dataverse 虚拟表
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: 配置与 Finance 的集成
               href: hr-admin-integration-finance.md
             - name: 配置与 Dayforce 的集成
@@ -298,13 +320,19 @@
             - name: 与 Office 集成
               items:
                 - name: Office 集成教程
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: 更新 Excel 中的实体数据
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: 创建“在 Excel 中打开”体验
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: 解决 Office 集成问题
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+        - name: 使用 Dataverse 虚拟表解决开发问题
+          items:
+            - name: 优化 Dataverse 虚拟表查询
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Human Resources 虚拟表常见问题
+              href: hr-admin-virtual-entity-faq.md
         - name: 实体 API 引用
           items:
             - name: 身份验证
@@ -317,6 +345,108 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: 将请假申请提交至工作流
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS 集成 API
+          items:
+            - name: 简介
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: 招聘请求和相关实体
+              items:
+                - name: 招聘请求
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: 招聘请求教育
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: 招聘请求位置
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: 招聘请求职位
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: 招聘请求技能
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: 招聘请求的查询示例
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: 招聘请求选项集
+              items:
+                - name: 工作免除情况
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: 招聘请求职位状态
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: 招聘请求状态
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: 监管工作类别
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: 可雇用的应聘者和相关实体
+              items:
+                - name: 可雇用的应聘者
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: 证书类型
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: 当事方联系人
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: 人员
+                  href: hr-admin-integration-ats-api-person.md
+                - name: 人员地址
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: 人员证书
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: 人员教育
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: 人员标识号
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: 人员专业经验
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: 人员筛选
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: 人员技能
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: 评级级别
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: 筛选类型
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: 可雇用的应聘者的查询示例
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: 应聘者选项集
+              items:
+                - name: 申请人集成结果
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: 空白/是/否
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: 完成状态
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: 联系人类型
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: 教育信用基础
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: 性别
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: 婚姻状况
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: 一年中的月份
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: 否/是
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: 期间单位
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: 筛选频率
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: 筛选频率生成来源
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: 技能级别类型
+                  href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: 工资单集成 API
+          items:
+            - name: 简介
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: 生成并查看工资单实体
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: 工资单员工
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: 工资单工作人员地址
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: 工资单固定薪酬计划
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: 工资单职位工作
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: 工资单职位
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: 用户指南
       items:
         - name: 概览
@@ -439,12 +569,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: 通过电子邮件发送的客户端预警通知
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: 电子签名
-              items:
-                - name: 电子签名概览
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: 设置电子签名
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: 案例管理
               items:
                 - name: 案例管理概览
@@ -491,6 +615,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: 输入工作人员信息
               href: hr-personnel-enter-worker-information.md
+            - name: 未雇用的工作人员
+              href: hr-personnel-workers-without-employment.md
             - name: 向工作人员借出物品
               href: hr-personnel-loan-item-worker.md
             - name: 创建借出物品
@@ -535,6 +661,8 @@
               items:
                 - name: 福利管理概览
                   href: hr-benefits-management-overview.md
+                - name: 福利管理工作区
+                  href: hr-benefits-management-workspace.md
                 - name: 配置福利管理
                   items:
                     - name: 配置每个公司的福利管理参数
@@ -591,6 +719,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: 处理费率更改
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA 报告
+                  href: hr-benefits-management-aca-reports.md
             - name: 定义和管理福利计划
               href: hr-benefits-manage-program.md
             - name: 福利资格政策
@@ -693,3 +823,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: 编辑个人信息
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: 限制对个人信息的编辑
+              href: hr-employee-self-service-restrict-editing.md

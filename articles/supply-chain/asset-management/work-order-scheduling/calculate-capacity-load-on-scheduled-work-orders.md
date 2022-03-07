@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7b7e4a20ed56b1eac29d16d527693d6e455cdc37
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5a6063db7a63975f439da9f20adec07de9103014
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264890"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>对计划的工作订单计算产能负荷
 
@@ -57,3 +57,6 @@ ms.locfileid: "5021646"
 
 有关如何对维护安排行，而不是计划的工作订单计算产能负荷的信息，请参阅[计算产能负荷](../capacity-planning/calculate-capacity-load.md)。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: 创建分类帐应计交易记录
 description: 此任务指南介绍生成基于应计架构的分类帐应计交易记录的步骤。
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2112336045086d0eb3b2fb0018f33631528a05ec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6500da88424ea71aa8f8836dfdb7d42ef444637b50efe4401a6f76a876e3e0cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750380"
 ---
 # <a name="create-ledger-accrual-transactions"></a>创建分类帐应计交易记录
 
@@ -49,3 +46,6 @@ ms.locfileid: "4440658"
 17. 单击“确定”。
 18. 单击“过帐”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

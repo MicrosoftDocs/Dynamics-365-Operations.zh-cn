@@ -2,16 +2,13 @@
 title: 站点覆盖范围的主计划，仓库为必需
 description: 此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b1890f14351734c26952511f6245efe4cce5f3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 008061d286505a2e678e15fbff7706da9c410dfe
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423233"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187546"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>站点覆盖范围的主计划，仓库为必需
 
@@ -48,8 +45,7 @@ ms.locfileid: "4423233"
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [主计划和多站点功能概览](master-plan-multisite-functionality.md)
 
@@ -63,3 +59,6 @@ ms.locfileid: "4423233"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

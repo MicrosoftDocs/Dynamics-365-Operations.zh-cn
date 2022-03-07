@@ -2,9 +2,11 @@
 title: 购买交易记录中的预缴税金
 description: 对于有预缴税金的供应商，您可以在 **所有供应商** 页上分配默认的 **预缴税金组**。
 author: roschlom
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06c18e6b0779539a6da7ae7afbe000c4cfc78d9e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731420"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256659"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>购买交易记录中的预缴税金
 
@@ -64,15 +66,15 @@ ms.locfileid: "6731420"
 
 临时预缴税金金额可在 **采购订单** 页上 **总计** 选项卡的 **调整后预缴税金** 字段中找到。
 
-![采购订单中包含预缴税金。](media/withholding-tax-adjusted.png)
+![采购订单中包含预缴税金](media/withholding-tax-adjusted.png)
 
 预缴税金根据 **供应商付款日记帐** 计算。 您可以在 **结算交易** 页上的 **预缴税金** 选项卡中手动调整适用的预缴税金代码以及实际的预缴税金金额。
 
-![可以在“结算交易”页面上手动调整预缴。](media/withholding-tax-vendor-payment-tab.png)
+![可以在“结算交易”页上手动调整预缴](media/withholding-tax-vendor-payment-tab.png)
 
 所得的预缴税金金额将从供应商付款中扣除，并过帐到相关凭证中的 **预缴税金科目**。
 
-![显示相关凭证的预缴税金科目。](media/withholding-tax-adjusted.png)
+![显示相关凭证的预缴税金科目](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

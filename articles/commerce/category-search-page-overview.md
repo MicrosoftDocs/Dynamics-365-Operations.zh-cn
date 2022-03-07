@@ -2,27 +2,24 @@
 title: 默认类别登陆页面和搜索结果页面概览
 description: 此主题概述 Dynamics 365 Commerce 中的默认类别登陆页和搜索结果页。
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410452"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351265"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>默认类别登陆页面和搜索结果页面概览
 
@@ -34,7 +31,7 @@ ms.locfileid: "4410452"
 
 默认类别登陆页是网站用户选择导航层次结构中的类别时将把他们带到的页面。 类别页用于浏览，也可以对已分类产品进行排序和优化。
 
-![默认类别登陆页面](./media/SimpleCategoryLandingDressCategory.png)
+![默认类别登陆页面。](./media/SimpleCategoryLandingDressCategory.png)
 
 页面顶部是显示所有产品类别的页眉和促销经理已分类的其他页面。 配置渠道导航层次结构时进行配置。 页面底部是页脚，其中包含购物者可能感兴趣的各主题的快速链接。
 
@@ -58,7 +55,7 @@ ms.locfileid: "4410452"
 
 如果希望类别登陆页中包含特定类别定制程度更深的体验，可以“扩充”该类别的类别登陆页。 例如，可添加市场营销视频和某些类别故事分享吸引购物者的注意。 有关详细信息，请参阅[扩充类别登陆页](enrich-category-page.md)。
 
-![扩充的类别登陆页面](./media/CategoryLandingPages.png)
+![扩充的类别登陆页面。](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>自动建议和搜索结果页
 
@@ -72,11 +69,11 @@ ms.locfileid: "4410452"
 - **产品** 提供产品详细信息页的直接链接。
 - **作用域类别搜索建议** 列举各类别，可供用户在特定类别中搜索关键字。
 
-![沉浸式自动建议](./media/ImmersiveAutoSuggestUX.png)
+![沉浸式自动建议。](./media/ImmersiveAutoSuggestUX.png)
 
 当用户选择一个关键字或作用域类别搜索建议时，或当没有所输入搜索词的建议时，将把用户重定向到搜索结果页。 然后，用户可浏览、排序和优化搜索结果列以查找所需项。
 
-![搜索登录](./media/SearchLanding.png)
+![搜索登陆。](./media/SearchLanding.png)
 
 以下组件对搜索结果页至关重要：
 
@@ -97,7 +94,7 @@ ms.locfileid: "4410452"
 
 >[!NOTE]
 >从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数** 下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
-![云助力搜索的配置参数](./media/CloudPoweredSearchConfigurationParameters.png)
+![云助力搜索的配置参数。](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -111,3 +108,6 @@ ms.locfileid: "4410452"
 
 [帐户管理页面概览](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440931"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104221"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>创建 Azure 存储帐户和密钥保管库
 
 [!include [banner](../includes/banner.md)]
-
-
-
-电子开票附加产品服务负责将所有业务数据存储在您的公司拥有的 Microsoft Azure 资源中。 为确保服务正常运行，并且仅电子开票附加产品能够访问此附加产品所需的和生成的所有业务数据，您必须创建两个主要的 Azure 资源：
-
-- 用于存储电子发票的 Azure 存储帐户（Blob 存储）
-- 用于存储证书和存储帐户的统一资源标识符 (URI) 的 Azure 密钥保管库
-
-> [!NOTE]
-> 必须专门分配专用的密钥保管库资源和客户 Blob 存储，以与电子开票附加产品一起使用。
 
 ## <a name="prerequisites"></a>先决条件
 

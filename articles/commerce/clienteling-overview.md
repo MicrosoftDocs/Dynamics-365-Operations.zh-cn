@@ -2,16 +2,13 @@
 title: 客户服务解决方案概述
 description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
-manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410481"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937004"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -33,11 +30,11 @@ ms.locfileid: "4410481"
 
 许多零售商，尤其是高端专业零售商，都希望其销售助理与重要客户建立长期关系。 助理需要了解这些客户的好恶、购买历史、产品偏好以及重要日期，例如周年纪念日和生日。 助理需要一个可以捕获这些信息并在需要时轻松找到它们的地方。 如果可以在单个视图中获得这些信息，助理则可以轻松地定位满足特定条件的客户。 例如，他们可以找到所有喜欢购买手提包的客户，或者近期有重要事件（例如生日或周年纪念日）的客户。
 
-## <a name="client-book"></a>客户手册
+## <a name="client-book"></a>客户端帐簿
 
 在 Microsoft Dynamics 365 Commerce 中，零售商可以使用客户手册功能来帮助售货员与重要客户建立长期关系。
 
-客户手册包括显示每个客户联系方式的客户卡，以及零售商定义的并在“总部”中配置的三个其他属性。 零售商可以决定销售助理应了解的关于客户的三个最重要事项。 例如，珠宝零售商可能希望包括重要的日期，例如周年纪念日或生日，因为这些日期是人们可能会购买更多珠宝的场合。 同样，时装零售商可能希望包括顾客的首选购物兴趣和品牌。
+客户手册包括显示每个客户联系方式的客户卡，以及另外三个零售商在 Headquarters 中定义和配置的属性。 零售商可以决定销售助理应了解的关于客户的三个最重要事项。 例如，珠宝零售商可能希望包括重要的日期，例如周年纪念日或生日，因为这些日期是人们可能会购买更多珠宝的场合。 同样，时装零售商可能希望包括顾客的首选购物兴趣和品牌。
 
 客户手册还允许销售助理筛选列表，以便它仅显示满足特定条件的客户。 例如，新的鞋子系列已经到达商店，助理想通知想要购买鞋子的客户。 在这种情况下，助理可以筛选客户手册以找到相关客户，然后采取进一步的措施。
 
@@ -63,7 +60,7 @@ ms.locfileid: "4410481"
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>与 Dynamics 365 Customer Insights 的集成
 
-通过使用 Dynamics 365 Customer Insights 应用程序，零售商可以聚合来自客户用来与零售商品牌进行交互的各个系统的数据。 然后，可以使用此数据生成客户的单一视图并获得见解。 Customer Insights 与 Commerce 的集成使零售商可以选择一种或多种应在客户手册的客户卡上显示的度量。 例如，零售商可以使用 Customer Insights 中的数据来计算客户的“流失概率”，并定义“下一个最佳行为”。 如果将这些值定义为度量，它们可以显示在客户卡上，并可以向销售助理提供重要信息。 有关 Customer Insights 的详细信息，请参阅 [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) 文档。 有关度量的详细信息，请参阅[度量](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)。
+通过使用 Dynamics 365 Customer Insights 应用程序，零售商可以聚合来自客户用来与零售商品牌进行交互的各个系统的数据。 然后，可以使用此数据生成客户的单一视图并获得见解。 Customer Insights 与 Commerce 的集成使零售商可以选择一种或多种应在客户手册的客户卡上显示的度量。 例如，零售商可以使用 Customer Insights 中的数据来计算客户的“流失概率”，并定义“下一个最佳行为”。 如果将这些值定义为度量，它们可以显示在客户卡上，并可以向销售助理提供重要信息。 有关 Customer Insights 的详细信息，请参阅 [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) 文档。 有关度量的详细信息，请参阅[度量](/dynamics365/ai/customer-insights/pm-measures)。
 
 ## <a name="set-up-clienteling"></a>设置客户服务解决方案
 
@@ -76,7 +73,7 @@ ms.locfileid: "4410481"
 2. 通过选择 **立即启用**，开启 **客户服务解决方案** 功能。
 3. 在 **商业参数** 页面上的 **编号规则** 选项卡上，选择 **客户手册标识符** 行。 然后，在 **编号规则代码** 字段中，选择一个编号规则。 系统将使用此编号规则为客户手册分配 ID。
 4. 选择 **保存**。
-5. 创建一个新的属性组，其中包含要为客户手册中管理的客户捕获的属性。 相关说明请参阅[属性和属性组](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle)。
+5. 创建一个新的属性组，其中包含要为客户手册中管理的客户捕获的属性。 相关说明请参阅[属性和属性组](./attribute-attributegroups-lifecycle.md)。
 
     - 将所需的属性定义为 **可细化**。 然后，销售助理可以使用这些属性来筛选其客户手册。
     - 设置这些属性的显示顺序。 此显示顺序确定应在客户手册的客户卡上显示哪些属性。 显示顺序 1 被视为比显示顺序 2 更高。 因此，显示顺序为 1 的属性将显示在显示顺序为 2 的属性之前。
@@ -106,21 +103,33 @@ ms.locfileid: "4410481"
 
 请按照以下步骤设置集成。
 
-1. 在 Azure 门户中，注册一个应用程序。 此应用程序将用于 Customer Insights 的身份验证。 有关说明，请参阅[快速入门：向 Microsoft 身份平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。
-2. 为应用程序生成密钥。 记下此密钥，并将其保存在安全的地方，因为稍后您将需要它。 还要选择密钥的有效期限。
+1. 在 Azure 门户中，注册一个新应用程序并记下应用程序名称、应用程序 ID 和密码。 此信息将用于 Commerce 和 Customer Insights 之间的服务对服务身份验证。 请以安全方式记下密码，在密钥保管库中进行保存时需要用到。 对于以下示例，请分别将 CI_Access_name、CI_Access_AppID、CI_Access_Secret 用作应用程序名称、应用程序 ID 和密码。 有关详细信息，请参阅[快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)。
 
     > [!IMPORTANT]
     > 采取措施，以便您记住在密钥到期之前对其进行更改。 否则，集成将意外停止。
 
-3. 创建一个 Azure 密钥保管库，并保存应用程序密钥。 有关说明，请参阅[快速入门：使用 Azure 门户设置密钥以及从 Azure 密钥保管库检索密钥](https://docs.microsoft.com/azure/key-vault/quick-create-portal)。
-4. 启用从 Commerce 访问 Azure 密钥保管库。 要完成此步骤，您必须具有应用程序 ID 和密钥。 此应用程序可以是您在步骤 1 中创建的同一个应用程序，也可以是新应用程序。 （换句话说，您可以将在步骤 1 中创建的应用程序同时用于密钥保管库访问和 Customer Insights 服务访问，也可以为每种类型的访问创建唯一的应用程序。）有关说明，请参阅[将服务主体凭据存储在 Azure Stack 密钥保管库中](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal)。
-5. 在“总部”中，转到 **系统管理 \> 设置 \> 密钥保管库参数**，然后输入密钥保管库所需的信息。 然后，在 **密钥保管库客户端** 字段中，输入您在步骤 4 中使用的应用程序 ID，以便 Commerce 可以访问密钥保管库中的密钥。
-6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为安全列表）中，请转到 Customer Insights，并提供对应用程序的 **查看** 访问权限。 有关说明，请参阅[权限](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions)。
-7. 在 Commerce 中，在 **商业参数** 页面上，在 **客户服务解决方案** 选项卡上的 **Dynamics 365 Customer Insights** 快速选项卡中，请执行以下步骤：
+2. 转到您的 Customer Insights 实例并搜索上面创建的应用程序的名称（在本示例中为“CI_Access_name”）。
+3. 创建一个 Azure 密钥保管库，并记下名称和 URL（在此示例中为“KeyVaultName”、“KeyVaultURL”）。 有关说明，请参阅[快速入门：使用 Azure 门户设置密钥以及从 Azure 密钥保管库检索密钥](/azure/key-vault/quick-create-portal)。
+4. 将密码（在本示例中为“CI_Access_Secret”）保存在保管库中。 当此密码存储在保管库中时，密码将获得一个名称。 记下密码的名称（在此示例中为“SecretName”）。
+5. 若要从 Azure 密钥保管库访问密码，您需要使用应用程序 ID 和密码（在本示例中为“KeyVault_Access_AppID”和“KeyVault_Access_Secret”）创建另一个应用程序。 以安全方式记下密码，它不会再显示。
+6. 接下来，您需要授予应用程序使用 API 从 Commerce 访问密钥保管库的权限。 在 Azure 门户中转到应用程序页面。 在 **管理** 部分下，选择 **API 权限**。 添加权限以访问 **Azure 密钥保管库**。 为此权限，选择 **访问政策**。 模板选择 **密码管理**，然后选择 **获取**、**列出**、**解密** 和 **加密** 选项。 
+5. 在 Commerce headquarters 中，转到 **系统管理 \> 设置 \> 密钥保管库参数**，然后输入密钥保管库所需的信息。 然后，在 **密钥保管库客户端** 字段中，输入您在步骤 4 中使用的应用程序 ID，以便 Commerce 可以访问密钥保管库中的密钥。
+6. 要将您在步骤 1 中创建的应用程序添加到安全应用程序列表（有时称为安全列表）中，请转到 Customer Insights，并选择对应用程序的 **查看** 访问权限。 有关说明，请参阅[权限](/dynamics365/ai/customer-insights/pm-permissions)。
+7. 在 Commerce HQ 中的 **系统管理 > 设置 > 密钥保管库参数** 页，如下所述更新字段： 
 
-    1. 在 **应用程序 ID** 字段中，输入您在步骤 1 中使用的应用程序 ID。
-    2. 在 **密钥名称** 字段中，输入您在步骤 5 中创建的密钥保管库密钥的名称。
-    3. 将 **启用 Customer Insights** 选项设置为 **是**。 如果由于任何原因设置失败，您将收到一条错误消息，此选项将设置为 **否**。
-    4. 您可以在 Customer Insights 中拥有多个环境，例如测试和生产环境。 在 **环境实例 ID** 字段中，输入适当的环境。
-    5. 在 **备用客户 ID** 字段中，在 Customer Insights 中输入映射到客户帐号的属性。 （在 Commerce 中，客户帐号是客户 ID。）
-    6. 其余三个属性是将在客户手册中的客户卡上显示的度量。 您最多可以选择三个度量在客户卡上显示。 （不过，您不必选择任何度量。）如前所述，系统首先显示这些值，然后显示客户手册属性组的值。
+- **密钥保管库 URL**：“KeyVaultURL”（来自上面的步骤 3）。
+- **密钥保管库客户端**：“KeyVault_Access_AppID”（来自上面的步骤 5）。
+- **密钥保管库密钥**：“KeyVault_Access_Secret”（来自上面的步骤 5）。
+- 在 **密码** 部分下：
+    - **名称**：任何名称，例如，“CISecret”。
+    - **描述**：任何值。
+    - **密码**：**vault**://<Name of key vault>/<name of secret>> 在此示例中将为“vault://KeyVaultName/SecretName”。
+
+更新字段后，选择 **验证** 确保密码可以被 Commerce 应用程序访问。
+
+8. 在 Commerce 中，在 **Commerce 参数** 页上的 **客户服务解决方案** 选项卡上，在 **Dynamics 365 Customer Insights** 快速选项卡上，将 **应用程序 ID** 设置为“CI_Access_AppID”（来自上面的步骤 1）。 对于 **密码名称**，选择在上面的步骤 7 中输入的密码的名称（“CISecret”）。 将 **启用 Customer Insights** 选项设置为 **是**。 如果由于任何原因设置失败，将显示一条错误消息，此选项将设置为 **否**。 
+
+您可以在 Customer Insights 中拥有多个环境，例如测试和生产环境。 在 **环境实例 ID** 字段中，输入适当的环境。 在 **备用客户 ID** 字段中，在 Customer Insights 中输入映射到客户帐号的属性。 （在 Commerce 中，客户帐号是客户 ID。）其余三个属性是将显示在客户手册中客户卡上的度量。 您最多可以选择三个度量在客户卡上显示。 不过，您无需选择任何度量。 如前所述，系统将首先显示这些值，然后显示客户手册属性组的值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

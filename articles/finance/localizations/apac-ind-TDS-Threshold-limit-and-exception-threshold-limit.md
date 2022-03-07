@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 510a8904cc36821dbb22d2affab5aa32c269e6d8c57144cc1f4ef3e1ac448334
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bf0d3a01ede559d288581d3b58b3777d0e608dc
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774247"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023052"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>阈值限制和异常阈值限制
 

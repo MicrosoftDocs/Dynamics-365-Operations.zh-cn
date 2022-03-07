@@ -1,33 +1,35 @@
 ---
 title: 创建固定薪酬计划
-description: 固定薪酬指员工的标准总薪水或工资。 本文介绍在创建固定薪酬和登记员工前必须设置的组件。
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 46dbc167a76782cfa8a72da8ce8bed2ce29e4dc6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417474"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070317"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>创建固定薪酬计划
 
-固定薪酬指员工的标准总薪水或工资。 本文介绍在创建固定薪酬和登记员工前必须设置的组件。
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+固定薪酬指员工的标准总薪水或工资。 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
 
 固定薪酬金额可以基于绩效、区域和预算增加等系数为您的员工计算。 Dynamics 365 Human Resources 支持步幅、等级和分段薪酬类型。
 
@@ -61,9 +63,9 @@ ms.locfileid: "4417474"
 
 在您定义固定薪酬计划的基础后，您可以设置计划的薪酬结构。 单击 **设置薪酬**。 打开的对话滑块为您提供三个选项：
 
--   通过选择参考点设置并为网格提供名称来创建新的薪酬网格。
--   通过复制您可以用作起点的现有网格创建新的薪酬网格。
--   使用已定义的现有薪酬网格。 如果网格更改，使用相同网格的所有薪酬计划将接收更新。
+-   通过选择参考点设置并为网格提供名称来 **创建新的薪酬矩阵**。
+-   通过复制您可以用作起点的现有网格 **创建新的薪酬矩阵**。
+-   使用已定义的 **现有薪酬矩阵**。 如果网格更改，使用相同网格的所有薪酬计划将接收更新。
 
 在您选择一个选项后，**薪酬结构** 页将打开，并且，您可以对新的薪酬网格或现有薪酬网格进行更改。
 
@@ -74,7 +76,7 @@ ms.locfileid: "4417474"
 
 **注意：** 资格规则用于确定固定和可变薪酬计划的资格。 
 
-资格规则考虑工作、职位和员工记录中的特定字段的值来确定某员工是否有资格享受薪酬计划。
+资格规则考虑 **工作**、**职位** 和 **员工** 记录中的特定字段的值来确定某员工是否有资格享受薪酬计划。
 
 -   在 **工作** 页上，资格规则考虑以下字段：
     -   **工作** 字段
@@ -94,7 +96,10 @@ ms.locfileid: "4417474"
 
 您现在可以将员工分配到固定薪酬计划。 打开 **员工** 页，然后选择要在薪酬计划中登记的员工。 在“操作”窗格上，单击 **薪酬** &gt; **固定计划**。 您现在可以为该员工创建新的固定薪酬操作。 
 
-**注意：** 薪酬计划字段仅显示为每个计划设置的资格规则下员工有资格的计划。 如果资格规则没有为计划设置，员工不适用于该计划。 
+**注意**：**薪酬计划** 字段仅显示为每个计划设置的资格规则下员工有资格的计划。 如果资格规则没有为计划设置，员工不适用于该计划。 
 
 系统会验证为等级或分段类型的薪酬计划指定的薪酬金额，是否在员工工作的指定薪酬级别的最小和最大参考点内。 如果薪酬金额超出允许的范围，警告或错误消息将显示，具体取决于在固定薪酬计划中设置的容差级别。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

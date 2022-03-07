@@ -2,11 +2,9 @@
 title: 配置工作流属性
 description: 本主题说明如何配置工作流的各个属性。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693274"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069240"
 ---
 # <a name="configure-workflow-properties"></a>配置工作流属性
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题说明如何配置工作流的各个属性。
 
@@ -73,6 +74,9 @@ ms.locfileid: "4693274"
     4. 在 **已翻译的文本** 字段中，输入文本。
     5. 要对文本进行个性化设置，可以插入占位符。 有关如何输入占位符的说明，请参阅步骤 3。
     6. 单击 **关闭**。
+
+> [!NOTE]
+> 占位符不能使用复制和粘贴来添加，因为目标信息未正确粘贴。 请使用界面添加占位符。
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>通过激活条件指定何时使用此工作流
 
@@ -179,3 +183,6 @@ ms.locfileid: "4693274"
 2. 在 **输入有关工作流的注释** 字段中，输入注释。
 3. 请查看您的注释。 在添加注释后，您不能修改注释。
 4. 单击 **添加** 将注释添加到 **注释历史记录** 区域。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

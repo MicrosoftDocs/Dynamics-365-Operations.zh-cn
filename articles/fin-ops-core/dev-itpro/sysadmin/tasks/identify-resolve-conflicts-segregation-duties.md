@@ -2,11 +2,9 @@
 title: 确定和解决职责划分冲突
 description: 本主题介绍如何确定和解决职责划分冲突。
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748304"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>确定和解决职责划分冲突
 
@@ -59,3 +57,6 @@ ms.locfileid: "4826360"
 
 > [!NOTE]
 > 如果为同一用户列出了多个冲突，在 **用户** 页上选择用户记录并评估分配的角色。 为避免这一冲突，请在添加或修改每个规则后对其进行验证。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

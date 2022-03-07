@@ -1,24 +1,23 @@
 ---
-title: 分布式混合拓扑中的缩放单元
+title: 制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit
 description: 本主题提供有关制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit 的信息。
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119179"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261738"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>用于制造和仓库管理工作负载的云和边缘缩放单元
 
 [!include [banner](../includes/banner.md)]
 
@@ -27,14 +26,14 @@ ms.locfileid: "8119179"
 >
 > 当启用 Cloud Scale Unit 和 Edge Scale Unit 时，系统将要求您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本主题后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
 
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>分布式混合拓扑的核心价值主张
+## <a name="core-value-proposition-for-scale-units"></a>缩放单元的核心价值主张
 
-从事制造和分销业务的公司必须能够不中断且大规模地全天候运行关键业务流程。 通过分布式混合拓扑，公司能够不中断地运行重要的任务关键型制造和仓库流程，即使偶尔遇到网络连接或延迟问题也是如此。
+从事制造和分销业务的公司必须能够不中断且大规模地全天候运行关键业务流程。 通过 Cloud Scale Unit 和 Edge Scale Unit，公司能够不中断地运行重要的任务关键型制造和仓库流程，即使偶尔遇到网络连接或延迟问题也是如此。
 
-分布式混合拓扑引入了 *缩放单元* 之一概念，从而可将店面和仓库执行工作负载分布到不同环境。 此功能可以帮助提高性能，防止服务中断并最大化运行时间。 通过 Supply Chain Management 订阅的以下加载项提供缩放单元：
+通过 Cloud Scale Unit 和 Edge Scale Unit，可在不同的环境中分配车间和仓库执行工作负荷。 此功能可以帮助提高性能，防止服务中断并最大化运行时间。 通过 Supply Chain Management 订阅的以下加载项提供缩放单元：
 
-- Dynamics 365 Supply Chain Management 的 Cloud Scale Unit 加载项
-- Dynamics 365 Supply Chain Management 的 Edge Scale Unit 加载项
+- Dynamics 365 Supply Chain Management 的 Cloud Scale Unit 加载项（*2021 年 4 月推出*）
+- Dynamics 365 Supply Chain Management 的 Edge Scale Unit 加载项（*即将推出*）
 
 将通过增量增强不断发布工作负荷功能。
 
@@ -42,7 +41,7 @@ ms.locfileid: "8119179"
 
 缩放单元通过添加专用的处理容量来扩展您的集中 Supply Chain Management 中心环境。 缩放单元可在 Cloud 中运行。 或者，它们可在您的本地机构的 Edge 上本地运行。
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="具有缩放单元的 Dynamics 365。":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="具有缩放单元的 Dynamics 365":::
 
 缩放单元为已分配的工作负荷提供弹性、可靠性和规模。 Edge Scale Unit 可以临时从云中心环境中断开连接，工作人员可以继续在 Edge 上的已分配工作负荷中工作。
 
@@ -52,11 +51,21 @@ ms.locfileid: "8119179"
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用仓库管理工作负荷功能
 
-仓库管理工作负荷使您的仓库工序能够使用独立的维护时段在可复原的环境中扩展和运行。 仓库管理工作负荷支持大多数企业中心仓库管理流程。 有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](cloud-edge-workload-warehousing.md)。
+仓库管理工作负荷是缩放单元的第一个分发的工作负荷，并且已正式发布。
+
+对于仓库管理，缩放单元提供以下功能：
+
+- 系统可以处理销售订单和需求补货的选定波次方法。
+- 仓库工作人员可以使用仓库管理移动应用运行销售和需求补货仓库工作。
+- 仓库工作人员可以使用仓库管理移动应用查询现有库存。
+- 仓库工作人员可以使用仓库管理移动应用创建和运行库存移动。
+- 仓库工作人员可以使用仓库管理移动应用登记采购订单并进行储存。
+
+有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](cloud-edge-workload-warehousing.md)。
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用制造执行工作负荷功能
 
-制造工作负荷提供以下功能：
+制造工作负荷的第一个版本当前处于预览状态，将提供以下功能：
 
 - 机器操作员和车间主管可以访问操作生产计划。
 - 机器操作员可以通过运行离散和流程制造作业来使计划保持最新状态。
@@ -93,7 +102,7 @@ ms.locfileid: "8119179"
 > [!IMPORTANT]
 > 作为服务架构 (IaaS) 运行的环境类型不受支持。 这些环境通常标记有 LCS 中的 **Microsoft 托管** 类型。 如果您拥有此类型的环境，请与您的 Microsoft 联系人合作以了解迁移到 **自助服务** 类型的时间线。
 
-Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转换到在 Service Fabric 中托管的拓扑。 此迁移可以提供更好的可扩展性，并且有助于简化服务管理。 因此，可以更快实现部署和维护操作。 同样，服务组件将迁移到微服务的概念，服务托管模型将从虚拟机 (VM) 模型[转换](/virtualization/windowscontainers/about/containers-vs-vm)到轻型容器化体系结构。
+Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转换到在 Service Fabric 中托管的拓扑。 此迁移可以提供更好的可扩展性，并且有助于简化服务管理。 因此，可以更快实现部署和维护操作。 同样，服务组件将迁移到微服务的概念，服务托管模型将从虚拟机 (VM) 模型[转换](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm)到轻型容器化体系结构。
 
 最终，相同的基于 Service Fabric 的容器化服务基础架构将同时为服务的 Cloud 和 Edge 实例提供支持，而不管实例是 Cloud 中的中心，还是 Cloud 中或 Edge 上的缩放单元。
 
@@ -148,7 +157,7 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 
 入门级 SKU 称为 *基本*，性能更高的 SKU 称为 *标准*。 每个 SKU 都预先加载有特定数量的每月交易。 但是，您可以通过为每个 SKU 添加超额加载项来增加每月交易预算。
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Cloud Scale Unit 的加载项。":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Cloud Scale Unit 的加载项":::
 
 > [!TIP]
 > 若要确定最能满足您的需求的规模，请与您的合作伙伴和 Microsoft 合作，以了解所需的每月交易规模。
@@ -172,68 +181,30 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 
 对于每个租户，列表都会显示加入状态。
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 租户选项卡上的租户列表。":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 租户选项卡上的租户列表":::
 
 选择 **单击此处开始** 以请求加入 LCS 租户。 您必须接受这些条款。 您还必须提供公司电子邮件地址，Microsoft 可以通过该地址发送与加入流程相关的通信。
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="租户的注册提交。":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="租户的注册提交":::
 
 Microsoft 将审查您的请求，并通过向您在注册窗体中提供的地址发送电子邮件来通知有关后续步骤的信息。 Microsoft 将与您紧密合作，为您的业务场景在混合拓扑中启用缩放单元。
 
 完成加入后，您可以使用端口配置缩放单元和工作负荷。
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>使用缩放单元管理器门户管理缩放单元和工作负荷
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>使用缩放单元管理器门户管理 Cloud Scale Unit 和工作负荷
 
 转到[缩放单元管理器门户](https://aka.ms/SCMSUM)，然后使用您的租户帐户登录。 在 **配置缩放单元** 页面上，如果尚未列出中心环境，则可以添加一个。 然后，可以选择要使用缩放单元和工作负荷配置的中心。
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元管理器门户的配置缩放单元页面。":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="缩放单元和工作负荷管理体验":::
 
 若要添加一个或多个在订阅中可用的缩放单元，请选择 **添加缩放单元**。
 
 在 **已定义工作负荷** 选项卡上，使用 **创建工作负荷** 按钮将仓库管理工作负荷添加到您的缩放单元之一。 对于每个工作负荷，您必须指定工作负荷将负责的流程的上下文。 对于仓库管理工作负荷，上下文是特定站点和法人中的特定仓库。
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="定义工作负荷对话。":::
-
-#### <a name="manage-workloads"></a><a name="manage-workloads"></a>管理工作负荷
-
-启用一个或多个工作负荷后，使用 **管理工作负荷** 选项启动和管理流程，如下表中列出的流程。
-
-| 加工 | Description |
-|---|---|
-| 暂停缩放单元通信 | 暂停中心和缩放单元之间的管道消息。 此流程将停止通信并清理中心和缩放单元之间的数据管道。 您必须在中心或缩放单元上运行 Supply Chain Management 服务操作之前运行此流程，也可以在其他情况下使用它。 |
-| 继续缩放单元通信 | 继续中心和缩放单元之间的管道消息。 例如，在中心或缩放单元上运行 Supply Chain Management 服务操作后，您可能必须使用此流程。 |
-| 升级工作负荷 | 在中心和缩放单元工作负荷之间同步新功能。 例如，当服务导致数据交换查询发生变化和/或在工作负荷中添加了新表或字段时，您可能必须使用此流程。 |
-| 将工作负荷转移到缩放单元 | 计划目前在中心运行的工作负荷，将其移到缩放单元。 运行此流程时，数据的同步将流动，中心和缩放单元都将设置为更改工作负荷的所有权。 |
-| 将缩放单元转移到中心 | 计划目前在缩放单元上运行的工作负荷，将其移到中心。 运行此流程时，数据的同步将流动，中心和缩放单元都将设置为更改工作负荷的所有权。
-| 紧急转移到中心 | <p>将现有工作负荷立即转移到中心。 *此流程仅更改中心当前可用数据的所有权。*</p><p><strong>警告：</strong>此流程可能会因数据未同步导致数据丢失以及导致业务处理失败。 因此，它应该只在紧急情况下使用：由于缩放单元出现无法在合理时间内缓解的中断，必须在中心处理业务流程。</p> |
-| 停用分布式拓扑 | 删除缩放单元部署，仅在中心运行，无需处理工作负荷。 |
-
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="缩放单元和工作负荷管理体验。":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="工作负荷创建":::
 
 > [!TIP]
 > 随着时间的推移，将向缩放单元管理器体验添加增量增强，以帮助简化生命周期管理操作。 当前版本的特定功能记录在加入手册中，该手册适用于正在加入到 Supply Chain Management 的分布式混合拓扑。 <!-- KFM: Add a link to the handbook when it is published -->
-
-## <a name="feature-management-considerations-for-workloads"></a>工作负荷的功能管理注意事项
-
-本节介绍在分布式混合拓扑部署中安装工作负荷、添加功能或删除功能时应考虑的一些重要方面。 有几种情况会影响您在进行更改后是否必须运行[工作负荷升级](#manage-workloads)。 不过，当您更新或添加新的数据交换查询和/或将新表或字段添加到先前安装的工作负荷时，通常必须运行。
-
-### <a name="mandatory-features-for-installing-a-workload"></a>安装工作负荷的必需功能
-
-安装工作负荷时，安装过程会创建一个工作负荷定义，其中包含有关在两个部署之间同步数据时使用的数据表的信息。 工作负荷定义的创建根据[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中当前启用的功能自动处理。 下表列出了必须启用才能生成运行仓库或制造工作负荷所需的工作负荷定义的功能。
-
-| 必需功能 | 工作负载 |
-|---|---|
-| 创建 WHS 用户时自动分配 GUID | 仓库 |
-| 组织范围内的工作阻止 | 仓库 |
-| 装运波次标签详细信息 | 仓库 |
-| 对仓库应用工作列表的缩放单元支持 | 仓库 |
-| 生产车间执行 | 制造 |
-
-当您使用[单盒开发环境的缩放单元部署工具](https://github.com/microsoft/SCMScaleUnitDevTools)或[缩放单元管理器门户](https://sum.dynamics.com)部署工作负荷时，将自动启用所有必需的功能。 但是，如果您执行缺少一个或多个必需功能的手动测试部署，工作负荷安装将失败，您将收到一条列出缺少的功能的消息。 然后，您必须手动启用这些功能并重新触发工作负荷安装。
-
-### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>启用或禁用具有数据同步依赖项的功能
-
-影响在中心及其缩放单元之间同步的数据选择的功能也会影响工作负荷定义的创建方式。 因此，在安装工作负荷之前启用这些功能非常重要。 如果您在运行工作负荷时启用此类功能，则必须在启用该功能后通过运行[工作负荷升级](#manage-workloads)来重新生成工作负荷定义。 同样，如果您在运行工作负荷时禁用具有数据同步依赖项的功能，则必须运行[工作负荷升级](#manage-workloads)以从工作负荷定义中删除相关的数据同步信息。
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

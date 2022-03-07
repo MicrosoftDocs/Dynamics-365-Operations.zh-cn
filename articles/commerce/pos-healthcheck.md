@@ -1,29 +1,26 @@
 ---
 title: POS 外围设备和服务的运行状况检查
 description: 此主题概述销售点 (POS) 中的运行状况检查操作。
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4410610"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779864"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS 外围设备和服务的运行状况检查
 
@@ -83,3 +80,6 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 ## <a name="related-articles"></a>相关文章
 
 [Modern POS (MPOS) 触发器和打印](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

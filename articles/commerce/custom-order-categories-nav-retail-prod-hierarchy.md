@@ -2,28 +2,25 @@
 title: 更改促销实体的排序顺序
 description: 此主题介绍与在 Dynamics 365 Commerce 中控制各种促销相关实体的显示顺序有关的概念。
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54929f924bd9c2b59dec453cf580e0b2bc149d38
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410493"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799461"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
@@ -88,3 +85,6 @@ ms.locfileid: "4410493"
 
 > [!NOTE]
 > 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Dynamics 365 Commerce 中的试验
 description: 通过试验，可以在站点构建器中创建、编辑和管理页面布局和内容处理。 为电子商务页面和页面中的实体启用了端到端试验支持。
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 7641267321e1c97b3f0fa30a97c0519c76fe1b0c0223bdd196b6791d5de7cd8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4410625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747433"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的试验
 使用 Dynamics 365 Commerce 中的试验以验证有关您的电子商务页面有效性的假设，并以数据驱动的信心做出决策。 Commerce 支持在页面、模块和片段上进行 A/B 测试，并使您能够度量建议的更改对网站的影响。
@@ -42,7 +39,7 @@ ms.locfileid: "4410625"
 ## <a name="experimentation-lifecycle"></a>试验生命周期
 设置试验，创建变体和运行试验是一个迭代过程。 下图说明了 Commerce 和第三方服务中的试验生命周期。 
 
-[ ![试验生命周期](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![试验生命周期。](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 若要了解有关试验过程中每个步骤的详细信息，请参考以下主题。
 - [标识假设并确定试验指标](experimentation-identify.md)
@@ -57,3 +54,6 @@ ms.locfileid: "4410625"
 
 ## <a name="next-step"></a>后续步骤
 [标识假设并确定试验的成功指标](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

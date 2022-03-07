@@ -2,11 +2,9 @@
 title: Power BI ER 目标类型
 description: 此主题提供有关如何为出站文档配置 Power BI ER 目标类型的信息。
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 3355c3bced950f65964b124fee553d8c5b53c6b0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 964ed05eaba2a4dbba904b4ce0e0be33d0925fb5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753448"
 ---
 # <a name="power-bi-destination"></a>Power BI 目标
 
@@ -38,3 +36,6 @@ ms.locfileid: "4679574"
 
 - [电子报告 (ER) 概览](general-electronic-reporting.md)
 - [电子报告 (ER) 目标](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

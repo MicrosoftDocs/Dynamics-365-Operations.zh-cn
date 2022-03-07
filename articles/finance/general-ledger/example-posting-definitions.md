@@ -2,28 +2,25 @@
 title: 过帐定义示例
 description: 本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f8875fd0f1894d7848b3afc76a55d052233b4c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440640"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817069"
 ---
 # <a name="posting-definition-examples"></a>过帐定义示例
 
@@ -128,3 +125,6 @@ ms.locfileid: "4440640"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

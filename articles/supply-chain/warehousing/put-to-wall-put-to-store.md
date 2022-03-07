@@ -2,26 +2,23 @@
 title: 放置 - 存放
 description: 本主题提供有关“放置 - 存放”功能的信息。 通过此功能，您可以根据可配置的条件处理必须将产品合并到预装箱暂存区的情况。 它有助于减少领料时间，因为它允许领料到单个目标牌照，并且可以比群集领料使用更多放置位置。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423333"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574129"
 ---
 # <a name="put-to-wall---put-to-store"></a>放置 - 存放
 
@@ -525,7 +522,7 @@ ms.locfileid: "4423333"
 
 如果应该手动关闭分类位置，必须将出站分类模板的 **自动关闭分类位置** 选项设置为 *否*，并且必须先进行关闭，然后才能将库存移至货架门区域。 可以通过多种方式关闭位置：
 
-- 通过仓库应用：
+- 通过仓库管理移动应用：
 
     - 用户可以扫描已经在位置上的物料之一，然后选择 **关闭** 来关闭位置。
     - 如果用户扫描已经分类的集装箱，将显示错误消息。 不过，用户仍然可以继续关闭位置。
@@ -541,3 +538,6 @@ ms.locfileid: "4423333"
 
 > [!IMPORTANT]
 > 从分类位置创建移动工作后，不能取消工作。 否则，该位置及其中的集装箱将从系统中删除，无法进一步处理。 库存也将被删除。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

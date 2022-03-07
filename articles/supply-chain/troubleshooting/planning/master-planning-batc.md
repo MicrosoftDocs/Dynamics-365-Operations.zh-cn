@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ilebedev
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9750a73f0962179512c5e21a614a276c313ff975b7494f31589ca936886ecf6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa0b614b6710c65811add8725a0e255ce2c34b88
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781385"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049455"
 ---
 # <a name="you-cant-filter-master-planning-items-by-their-related-coverage-group-values"></a>您无法按主计划物料的相关覆盖范围组值对主计划物料进行筛选
 

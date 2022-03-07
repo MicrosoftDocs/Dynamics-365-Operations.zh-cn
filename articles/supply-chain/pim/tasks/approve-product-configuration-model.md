@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductModelVersion, PCApproveProductModelVersion, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 440ffbdf1db22ac25971922d80a5569a340ba81c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 191aff59b16fb8c7caf6b5c7f822f1a0a077fc9f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212070"
 ---
 # <a name="approve-a-product-configuration-model"></a>审核产品配置模型
 
@@ -49,3 +48,6 @@ ms.locfileid: "4423010"
     * 启用产品模型版本。 一次只可能启用一个产品的一个产品模型。  
 13. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 具有实际成本和标记的先进先出
 description: 后进先出 (LIFO) 是一种库存模型，其中，最后（最新）的收货将最先发货。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967600"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344536"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 
@@ -55,7 +53,7 @@ ms.locfileid: "4967600"
 
 新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 下图说明了在未使用 **包括实际成本** 选项时，先进先出库存模型对此系列的交易记录的影响。 
 
-![不具有“包括实际成本”的后进先出](./media/lifowithoutincludephysicalvalue.gif) 
+![不具有“包括实际值”的后进先出。](./media/lifowithoutincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -91,7 +89,7 @@ ms.locfileid: "4967600"
 
 下图说明了在使用 **包括实际成本** 选项时，先进先出库存模型对此系列的交易记录的影响。 
 
-![具有“包括实际成本”的后进先出](./media/lifowithincludephysicalvalue.gif) 
+![具有“包括实际值”的后进先出。](./media/lifowithincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -135,7 +133,7 @@ ms.locfileid: "4967600"
 
 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 
 
-![具有标记的后进先出](./media/lifowithmarking.gif) 
+![具有标记的后进先出。](./media/lifowithmarking.gif) 
 
 **图形要点**
 
@@ -150,3 +148,6 @@ ms.locfileid: "4967600"
 - 库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。
 - 由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

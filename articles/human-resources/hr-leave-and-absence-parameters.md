@@ -1,33 +1,35 @@
 ---
 title: 配置休假和缺勤参数
-description: 在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: 本主题介绍如何在 Dynamics 365 Human Resources 中定义休假和缺勤的人力资源参数。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4417547"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067344"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>配置休假和缺勤参数
 
-在您在 Dynamics 365 Human Resources 中设置休假和缺勤计划之前，最好先验证所有相关的人力资源参数的设置，包括：
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+在您在 Dynamics 365 Human Resources 中设置休假和缺勤计划之前，最好先验证所有相关的 **人力资源参数** 的设置，包括：
 
 - 休假请求的编号规则
 - 家庭医疗休假法 (FMLA) 设置
@@ -75,7 +77,7 @@ ms.locfileid: "4417547"
 
     - 选择 **余额计算** 以显示截至今日的余额或应计期间的余额。 如果选择 **截至今日的余额**，则余额显示截止今日的所有应计、调整和请求的总计。 如果选择 **截至应计期间的余额**，则余额显示截止休假计划中的频率定义的应计期间所有应计、调整和请求的总计。 
 
-    - 设置结转到期批处理作业的开始时间。  
+    - 设置 **结转到期** 批处理作业的 **开始时间**。  
     
     - 为 **允许员工购买休假** 和 **允许员工出售休假** 选择 **是**。 如果为这些选项选择 **是**，可以创建购买和出售休假策略，让员工能够提交购买和出售休假请求。
 
@@ -92,3 +94,6 @@ ms.locfileid: "4417547"
 ## <a name="see-also"></a>请参阅
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

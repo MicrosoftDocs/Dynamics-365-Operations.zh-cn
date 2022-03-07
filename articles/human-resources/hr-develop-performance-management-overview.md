@@ -1,40 +1,41 @@
 ---
 title: 绩效管理
-description: 绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/28/2020
-ms.topic: article
+description: 绩效管理流程供员工记录自己的绩效并与经理讨论。
+author: twheeloc
+ms.date: 08/26/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
-ms.custom: 221024
+ms.search.scope: Human Resources
+ms.custom:
+- "221024"
+- intro-internal
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417468"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984738"
 ---
 # <a name="performance-management"></a>绩效管理
 
-绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。  
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-如下图所示，有三页可帮助您管理此流程：
+绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理可以向员工提供反馈和指导。  
+
+如下图所示，有三页用于管理此流程：
 
 -   绩效日记帐
 -   目标
 -   绩效复查
 
-下图显示绩效管理的主要组件彼此之间的关系。 [![性能流程概述](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+下图显示绩效管理的主要组件彼此之间的关系。 [![性能流程概述。](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>绩效日记帐
 
@@ -42,7 +43,7 @@ ms.locfileid: "4417468"
 
 绩效日记帐有两个版本：员工版，可通过 **员工自助服务** 工作区（**ESS**）访问，以及经理版，可通过 **经理自助服务** 工作区（**MSS**）访问。 员工可以为自己创建日记帐，并选择与其经理共享。 经理可以为自己的团队创建日记帐，并选择与其员工共享。 
 
-如果从 **ESS** 工作区访问，**绩效日记帐** 页面可用于捕获以下信息：
+如果从 **ESS** 工作区访问 **绩效日记帐**，可以输入以下信息：
 
 -   活动的标题
 -   活动的描述，包括有关活动的详细
@@ -56,7 +57,7 @@ ms.locfileid: "4417468"
 
 ### <a name="send-feedback"></a>发送反馈
 
-绩效日记帐中还包含一个功能，名称为“反馈”。 单击 **发送反馈** 时，可选择员工并通过电子邮件向该员工提供反馈。 邮件将发给接收反馈的员工、该员工的经理、发送反馈的员工和该员工的经理。 将为接收反馈消息的每个人创建一个绩效日记帐条目。
+绩效日记帐中还包含一个 **发送反馈** 功能。 单击 **发送反馈** 时，可选择员工并通过电子邮件向该员工提供反馈。 邮件将发给接收反馈的员工、该员工的经理、发送反馈的员工和该员工的经理。 将为接收反馈消息的每个人创建一个绩效日记帐条目。
 
 ## <a name="goals"></a>目标
 
@@ -85,7 +86,7 @@ ms.locfileid: "4417468"
 
 绩效审核更正规的名称是讨论。 它们现在非常灵活，可以支持连续反馈、开发计划和更正式的审核。 您可以创建两个人的小型会议（如一对一会议），也可以创建与公司的审核流程相符的更复杂审核。 
 
-一对一之类会议是简单审核，需要会议短名称、会议内容较长说明，以及会议日期。 简单审核中包含相同信息，以及正在讨论的审核期间。 经理还可以看到创建审核所针对人员的姓名。 
+一对一之类会议是简单审核，需要会议短名称、会议内容较长说明、会议日期，以及正在讨论的审核期。 经理还可以看到创建审核所针对人员的姓名。 
 
 若需提高审核的详细程度，可以调出有效目标和已完成目标，并输入有关这些目标的注释。 将在该审核中显示与目标有关的所有绩效日记帐活动和量化指标。 确定审核之后，将存储一个量化指标快照，以保留这些项在审核时的历史记录。 
 
@@ -93,7 +94,7 @@ ms.locfileid: "4417468"
 
 您可以基于所创键模板新建审核。 例如，您可以有一个模板适用于一对一会议、开发计划或定期审核。 可以在新建审核时选择模板。
 
-要打印审核，请选择 **打印审核** 按钮。 如果您没有在 **审核** 页上看到此按钮，请确保您已在 **功能管理** 工作区启用此功能。 有关功能管理的更多信息，请参阅[功能管理概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+要打印审核，请选择 **打印审核** 按钮。 如果您没有在 **审核** 页上看到此按钮，请确保您已在 **功能管理** 工作区启用此功能。 有关功能管理的更多信息，请参阅[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
 > [!NOTE]
 > 仅 Human Resources 中提供打印绩效审核的功能。 Dynamics 365 Finance 中不提供。
@@ -120,7 +121,7 @@ ms.locfileid: "4417468"
 
 ### <a name="sign-offs"></a>签核
 
-将基于您设置的审核参数在审核中列出员工和/或经理。 审核可以是必需的，也可以是可选的。 执行了所有必需签核之后，将为审核标记“完成”状态。
+将基于您设置的审核参数在审核中列出员工和/或经理。 审核可以是必需的，也可以是可选的。 执行了所有必需签核之后，将为审核标记 **完成** 状态。
 
 ### <a name="attachments"></a>附件
 
@@ -150,16 +151,18 @@ ms.locfileid: "4417468"
 
 ## <a name="setup"></a>设置
 
-有三页可以帮助您设置完成绩效流程所需信息：**量化指标** 页、**绩效日记帐源类型** 页和 **审核类型** 页。
+有三页可以帮助设置完成绩效流程所需信息：**量化指标** 页、**绩效日记帐源类型** 和 **审核类型**。
 
 ### <a name="measurements"></a>量化指标
 
-“量化指标”页可用于创建将在 **绩效目标** 和 **审核** 页中使用的标准量化指标。 创建的量化指标可以是日期、量、数量、百分百或基于评级模型的量化指标。
+**量化指标** 页可用于创建将在 **绩效目标** 和 **审核** 页中使用的标准量化指标。 创建的量化指标可以是日期、量、数量、百分百或基于评级模型的量化指标。
 
 ### <a name="performance-journal-source-types"></a>绩效日记帐源类型
 
-绩效日记帐源类型介绍绩效日记帐的来源。 您可以查看某个日记帐项将默认只有经理才能查看，只有员工才能查看，还是经理和员工都可以查看。 您此时不能禁用源类型。
+**绩效日记帐源类型** 介绍绩效日记帐的来源。 您可以查看某个日记帐项将默认只有经理才能查看，只有员工才能查看，还是经理和员工都可以查看。 您此时不能禁用源类型。
 
-### <a name="review-types"></a>审核类型
+### <a name="review-types"></a>考核类型
 
-绩效审核类型可帮助您控制审核的行为。 您可以启用或禁用审核的工作流。 如果审核不使用工作流，您可以定义将在创建审核时使用的默认状态。 您还可以确定是否需要员工和/或经理才能签核审核。
+**审核类型** 控制审核的行为。 您可以启用或禁用审核的工作流。 如果审核不使用工作流，您可以定义将在创建审核时使用的默认状态。 您还可以确定是否需要员工和/或经理才能签核审核。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

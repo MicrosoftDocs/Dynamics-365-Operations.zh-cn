@@ -2,27 +2,24 @@
 title: 设置 IoT 智能的 Azure 资源
 description: 此主题介绍如何创建和配置 IoT 智能所需 Microsoft Azure 资源。
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
-ms.search.scope: Core, Operations
+ms.reviewer: rhaertle
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 33c28f8e7982c6ec9b892e975525de69fc637892
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423312"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881364"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>设置 IoT 智能的 Azure 资源
 
@@ -162,3 +159,6 @@ ms.locfileid: "4423312"
 > 只要更新其中一个连接字符串，必须也更新密码值。
 
 现在已预配完了所需 Azure 资源。 下一步是[在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项](iot-lcs-setup.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

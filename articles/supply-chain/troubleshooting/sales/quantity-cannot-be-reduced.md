@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: hja
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f3453c83b5e8ead4269a6054167d73a0cd12381ba374b98bc407c01edaa68a1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1a2cc9c9fd3d085508fc652bc9ee0a352d869dee
+ms.sourcegitcommit: a02d3d64c899f8554b74342d5a1856d824bf1abe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752626"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6230828"
 ---
 # <a name="the-quantity-cant-be-reduced-when-a-sales-order-is-canceled"></a>取消销售订单时不能减少数量
 

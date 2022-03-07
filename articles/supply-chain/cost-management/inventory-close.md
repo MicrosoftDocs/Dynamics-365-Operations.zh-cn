@@ -2,29 +2,26 @@
 title: 库存结转
 description: 作为结算具有收货交易记录的发货交易记录的流程的一部分，您还可以选择更新总帐以反映已进行的调整。
 author: AndersGirke
-manager: tfehr
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 078969e12275c3abd2e4ea2f8c6c9579dce73e5f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422974"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574009"
 ---
 # <a name="inventory-close"></a>库存结转
 
@@ -60,7 +57,7 @@ ms.locfileid: "4422974"
 因为这些任务更新的会计科目链接到原始库存交易记录的会计科目。 例如，如果某一销售订单结算到某一采购订单，则调整已用于原始销售订单的总帐科目。 即便分配给此物料的物料组的会计科目自过账销售订单后已更改也将发生此行为。 在库存结转创建了一个结算金额后，该结算金额仍然会过帐到原始会计科目，而不是过帐到分配给物料的新会计科目。 如果您冲销库存结转，总帐也将更新。 
 
 > [!NOTE] 
-> - 对于所有库存模型，库存结转是月末结转过程中的必需步骤。 这包括标准和移动平均成本。 您将无法关闭财务期间，直到在期间结束日期执行库存结转为止。
+> - 对于除移动平均以外的所有库存模型，库存结转是月末结转过程中的必需步骤。  如果您尝试关闭财务期间而未在期间结束日期之前先执行库存结转操作，系统会警告您。
 > - 在运行结转过程前，您可以查看在更新期间无法结算的一组物料。
 > - 我们建议您在低谷时间执行库存结转，从而更平均地分配计算机资源。
 
@@ -87,3 +84,6 @@ ms.locfileid: "4422974"
 > [!NOTE] 
 > 只有最后关闭的库存期间可以重新打开。 若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

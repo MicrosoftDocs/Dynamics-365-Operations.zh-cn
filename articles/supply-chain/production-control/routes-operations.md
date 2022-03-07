@@ -1,30 +1,27 @@
 ---
 title: 工艺路线和工序
 description: 本主题提供了有关工艺路线和工序的信息。
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422809"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891945"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
@@ -32,8 +29,7 @@ ms.locfileid: "4422809"
 
 本主题提供了有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 工艺路线描述生产产品或产品变型所需工序顺序。 对于每道工序，工艺路线还定义所需工序资源、设置和执行工序所需时间，以及应如何计算成本。 您可以使用相同工艺路线生产多个产品，也可以为每个产品或产品变型定义不同工艺路线。 同一个产品甚至可以有多个工艺路线。 在这种情况下，使用的工艺路线根据必须生产的数量之类因素决定。 Supply Chain Management 中的工艺路线的定义包含四种不同元素，这些元素共同描述生产流程：
 
@@ -49,7 +45,7 @@ ms.locfileid: "4422809"
 
 简单工艺路线具有连续性，并且只有一个起点。  
 
-[![简单工艺路线](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![简单工艺路线。](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 如果您在“生产控制参数”中仅启用简单工艺路线，在您定义工艺路线时，Supply Chain Management 将自动生成工序编号（10、20、30，依此类推）。
 
@@ -57,7 +53,7 @@ ms.locfileid: "4422809"
 
 如果您在“生产控制参数”中启用更复杂的工艺路线网络，则可以定义多个起点和工序，并且这些工序可以并行运行。  
 
-[![工艺路线网络](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![工艺路线网络。](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - 每道工序只能有一个后续工序，而整个工艺路线只能在一道工序中结束。
@@ -68,7 +64,7 @@ ms.locfileid: "4422809"
 
 有时需要组合多个具有不同特征的工序资源，才能执行某道工序。 例如，装配工序可能要求为每两台机器配备一台机器、一个工具和一位工作人员，以便监督该工序。 可通过使用并行工序来建模，其中一道工序被指定为主工序，其他工序被指定为辅助工序。  
 
-[![具有主工序和辅助工序的工艺路线](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![具有主工序和辅助工序的工艺路线。](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 主工序通常表示瓶颈资源，并指示辅助工序的运行时间。 但是，涉及有限产能的安排期间，同时为主工序和辅助工序安排的资源必须同时可用且拥有可用产品。  
 
@@ -82,7 +78,7 @@ ms.locfileid: "4422809"
 
 每个工艺路线可以单独地获得批准或取消批准。 但是请注意，如果工艺路线未获得批准，所有相关工艺路线版本也将未获得批准。 在“生产控制参数”中，可以指定工艺路线是否可以未获得批准，以及是否可更改已批准的工艺路线。  
 
-如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](../../fin-and-ops/organization-administration/electronic-signature-overview.md)确认其身份。
+如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)确认其身份。
 
 ## <a name="operations"></a>Operations
 工序是生产流程中的步骤。 每道工序有一个 ID 和一个简单描述。 下面的表显示机械车间中的典型工序示例。
@@ -188,7 +184,7 @@ ms.locfileid: "4422809"
 
 ### <a name="electronic-signatures"></a>电子签名
 
-如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](../../fin-and-ops/organization-administration/electronic-signature-overview.md)确认自己的身份。
+如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)确认自己的身份。
 
 ### <a name="product-change-that-uses-case-management"></a>使用案例管理的产品变更
 
@@ -227,7 +223,7 @@ ms.locfileid: "4422809"
 如果不为工序的资源要求指定工序资源或资源组，则适用的资源可能以不同速度操作。 因此，处理工序所需时间可能会有所不同。 为了解决此问题，您可以使用工序关系中的 **公式** 字段指定处理时间的计算方法。 选项如下：
 
 - **标准** -（默认选项）计算仅使用工序关系中的字段，并将指定的运行时间乘以订单数量。
-- **产能** – 计算包括工序资源中的 **产能** 字段。 因此，时间与资源相关。 在工序资源中指定的值是每小时的产能。 **处理时间** 计算为 **订单数量** 除以 **产能**。
+- **产能** – 计算包括工序资源中的 **产能** 字段。 因此，时间与资源相关。 在工序资源中指定的值是每小时的产能。 **处理时间** 计算为 **订单数量** 除以 **产能**。 容量值不特定于特定的度量单位，因此不会根据 **容量单位** 字段进行转换，此字段只是一个不用于计算的描述性字段。
 - **批次** – 批次产能通过使用工序关系中的信息来计算。 所以可以根据订单数量计算批次的数量和处理时间。
 - **资源批次** – 此选项基本与 **批次** 选项相同。 但是，计算中包含工序资源中的 **批次产能**。 因此，时间与资源相关。
 
@@ -256,7 +252,10 @@ ms.locfileid: "4422809"
 
 - [资源功能](resource-capabilities.md)
 
-- [电子签名概览](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [电子签名概览](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

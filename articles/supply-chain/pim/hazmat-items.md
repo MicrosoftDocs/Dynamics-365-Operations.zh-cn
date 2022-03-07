@@ -1,31 +1,27 @@
 ---
 title: 产品、订单、装运和负荷中的危险物料
 description: 本主题说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423195"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570697"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>产品、订单、装运和负荷中的危险物料
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
 
@@ -221,3 +217,6 @@ ms.locfileid: "4423195"
 1. 在操作窗格上，在 **负荷** 选项卡上的 **操作** 组中，选择 **兼容性检查**。
 
 您会收到一条通知您检查结果的消息。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

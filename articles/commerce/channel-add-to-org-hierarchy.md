@@ -2,27 +2,24 @@
 title: 将渠道添加到组织层次结构
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中将渠道添加到组织层次结构。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720975"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>将渠道添加到组织层次结构
 
@@ -47,7 +44,7 @@ ms.locfileid: "4410449"
 
 下图显示了所选层次结构的组织层次结构详细信息。
 
-![所选层次结构的组织层次结构详细信息](media/channel-add-to-org-hierarchy-1.png)
+![所选层次结构的组织层次结构详细信息。](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>将渠道添加到层次结构节点
 
@@ -61,11 +58,11 @@ ms.locfileid: "4410449"
 
 下图显示了如何选择要添加到层次结构节点的渠道。
 
-![选择要添加到层次结构节点的渠道](media/channel-add-to-org-hierarchy-2.png)
+![选择要添加到层次结构节点的渠道。](media/channel-add-to-org-hierarchy-2.png)
 
 下图显示了添加了各种渠道的层次结构。
 
-![添加了各种渠道的层次结构](media/channel-add-to-org-hierarchy-3.png)
+![添加了各种渠道的层次结构。](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -82,3 +79,6 @@ ms.locfileid: "4410449"
 [设置零售渠道](channel-setup-retail.md)
     
 [设置在线渠道](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

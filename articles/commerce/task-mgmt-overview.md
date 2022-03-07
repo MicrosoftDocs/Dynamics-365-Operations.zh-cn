@@ -2,35 +2,30 @@
 title: 任务管理概述
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中适用于经理和工作人员的任务管理。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410550"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985385"
 ---
-# <a name="task-management-overview"></a>任务管理概述
+# <a name="task-management-overview"></a>任务管理概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中适用于经理和工作人员的任务管理。
-
-## <a name="overview"></a>概览
 
 在零售环境中，始终很难确保正确的人在正确的时间执行任务。 零售商必须可以通知工作人员很快应该执行的任务，并提供相关业务上下文，以便正确、及时完成任务。
 
@@ -42,14 +37,17 @@ ms.locfileid: "4410550"
 
 下图显示 Commerce 中的任务管理的概念体系结构。
 
-![任务管理概念体系结构](media/Tasks-management-conceptual-architecture.png)
+![任务管理概念体系结构。](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 [配置任务管理](task-mgmt-configure.md)
 
-[创建任务列表和添加任务](task-mgmt-create-lists.md)
+[创建任务列表并添加任务](task-mgmt-create-lists.md)
 
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

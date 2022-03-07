@@ -2,11 +2,9 @@
 title: 设置条码掩码
 description: 此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5432741e7cdc21054d02bd24591deb307d096229
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 77daf93e3f516bfddd383e5828159824b97ead8f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969793"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804201"
 ---
 # <a name="set-up-bar-code-masks"></a>设置条码掩码
 
@@ -82,3 +80,6 @@ ms.locfileid: "4969793"
 5. 单击 **保存**。
 
 现在可将条码掩码用于为产品创建条码。 上面的步骤是如何为产品创建条码掩码的示例，但是还说明了如何为其他任何支持的条码类型创建条码掩码。 应调整条码掩码、类型和长度，以便在您的具体环境中使用。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

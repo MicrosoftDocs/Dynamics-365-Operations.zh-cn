@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72004
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62ee31b7931c6e7d8f54c1efb556a2ba01eb7746
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b285b973f0fee3b253f63f49e3f5b4893d9dd86
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423240"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207031"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -34,41 +33,48 @@ ms.locfileid: "4423240"
 
 若要生成基准预测，历史交易记录汇总被传递到在 Azure 上承载的 Microsoft Azure 机器学习。 由于此服务不在用户之间共享，其可以轻松地自定义以满足特定于行业的要求。 您可以使用 Supply Chain Management 可视化预测、调整预测和查看有关预测准确性的关键绩效指标 (KPI)。
 
+> [!NOTE]
+> 使用机器学习进行预测生成需要 Microsoft Azure 机器学习工作室（经典）。 自 2021 年 1 月起，它在日本东部、美国中南部、东南亚、美国中西部和西欧推出。 有关当前可用性的更新信息，请参阅[按地区划分的 Azure 产品](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+
 ## <a name="key-features-of-demand-forecasting"></a>需求预测的主要功能
+
 以下是需求预测的一些主要功能：
 
--   生成基于历史数据的统计基准预测。
--   使用一组动态的预测维度。
--   可视化需求趋势、置信区间和预测调整。
--   授权在计划流程中使用的已调整预测。
--   删除离群值。
--   创建预测准确性的度量。
+- 生成基于历史数据的统计基准预测。
+- 使用一组动态的预测维度。
+- 可视化需求趋势、置信区间和预测调整。
+- 授权在计划流程中使用的已调整预测。
+- 删除离群值。
+- 创建预测准确性的度量。
 
 ## <a name="major-themes-in-demand-forecasting"></a>需求预测的主要主题
+
 三个主要主题在需求预测中实施：
 
--   **模块性** – 需求预测是模块化的和易于配置。 您可以通过在 **贸易** &gt; **库存预测** &gt; **需求预测** 更改 Configuration Key 来打开和关闭功能。
--   **Microsoft Stack 的重用** – 机器学习是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
-    -   您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
-    -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/)的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
-    -   您可以在 Microsoft Azure 机器学习工作室（经典）中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
-    -   如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
--   **在任何解耦点的预测缩减** – 生成中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
+- **模块性** – 需求预测是模块化的和易于配置。 您可以通过在 **贸易** &gt; **库存预测** &gt; **需求预测** 更改 Configuration Key 来打开和关闭功能。
+- **Microsoft Stack 的重用** – 机器学习是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
+  - 您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
+  - 您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/)的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
+  - 您可以在 Microsoft Azure 机器学习工作室（经典）中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
+  - 如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
+- **在任何解耦点的预测缩减** – 生成中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
 
 ## <a name="basic-flow-in-demand-forecasting"></a>需求预测的基本流程
-下图显示需求预测的基本流程。 
+
+下图显示需求预测的基本流程。
 
 [![需求预测介绍图](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
 需求预测在 Supply Chain Management 中开始生成。 收集 Supply Chain Management 交易记录数据库的历史交易记录数据并填写暂存表。 此暂存表随后提供给机器学习服务。 通过执行最小的自定义设置，可以将各个数据源插入到暂存表。 数据源可以包括 Microsoft Excel 文件、逗号分隔值 (CSV) 文件和 Microsoft Dynamics AX 2009 和 Microsoft Dynamics AX 2012 的数据。 因此，可以生成考虑在多个系统中分散的历史数据的需求预测。 但是，主数据，例如物料名称和度量单位，在各个数据源中必须是相同的。
 
-如果您使用需求预测机器学习实验，它们在五个时间系列预测法中寻找最适合的方法来计算基准预测。 这些预测方法的参数在 Supply Chain Management 中管理。 
+如果您使用需求预测机器学习实验，它们在五个时间系列预测法中寻找最适合的方法来计算基准预测。 这些预测方法的参数在 Supply Chain Management 中管理。
 
-预测、历史数据和对之前迭代的需求预测进行的任何更改然后在 Supply Chain Management 中可用。 
+预测、历史数据和对之前迭代的需求预测进行的任何更改然后在 Supply Chain Management 中可用。
 
 您可以使用 Supply Chain Management 来可视化和修改基准预测。 手动调整必须授权，然后预测才能用于计划。
 
 ## <a name="limitations"></a>限制
+
 需求预测是帮助制造行业客户创建预测流程的工具。 它提供了需求预测解决方案的核心功能，并设计为可以轻松扩展。 需求预测可能对商业、批发、仓库、运输或其他专业服务等行业的客户不是最合适。
 
 ### <a name="demand-forecast-variant-conversion-limitation"></a>需求预测变型转换限制
@@ -81,8 +87,7 @@ ms.locfileid: "4423240"
 
 请注意，需求预测 UOM 不必具有任何特定含义。 它可以定义为“需求预测单位”。 对于每个产品，您可以使用库存 UOM 将转换定义为 1:1。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [需求预测设置](demand-forecasting-setup.md)
 
@@ -99,4 +104,4 @@ ms.locfileid: "4423240"
 [扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 
 
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

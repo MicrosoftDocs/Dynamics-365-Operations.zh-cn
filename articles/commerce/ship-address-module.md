@@ -3,34 +3,31 @@ title: 装运地址模块
 description: 此主题介绍装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: e590c966ca6bd8111df5f91cbac0485afaa45c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410647"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234405"
 ---
-# <a name="shipping-address-module"></a>装运地址模块
+# <a name="shipping-address-module"></a>收货地址模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
-
-## <a name="overview"></a>概览
+此主题描述装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 
 装运地址模块使客户可以在结帐流中添加或选择订单的装运地址。 如果客户已登录，则显示以前为该客户保存的所有地址，然后客户可以在其中进行选择。 客户也可以添加新地址。 装运地址模块用于订单中需要装运的所有项。
 
@@ -50,6 +47,8 @@ ms.locfileid: "4410647"
 |---------------|--------|-------------|
 | 标题 | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 装运地址模块的可选标题。 |
 | 显示地址类型 | **True** 或 **False** | 如果将此可选属性设置为 **True**，地址类型（如 **住宅** 或 **企业**）将显示。 如果未指定地址类型，地址将自动保存为 **类型**=**其他**。 |
+| 启用自动建议| **True** 或 **False** | 如果将此可选属性设置为 **真**，系统会提供自动地址建议。 这些建议由必应地图提供支持。 有关如何为您的站点设置必应地图集成的信息，请参阅[商店选择器模块](store-selector.md)。 从 Commerce 版本 10.0.15 起提供此功能。|
+|自动建议选项| 数字| 如果启用了自动地址建议，则可以指定其他选项，例如应提供的最大建议数量。|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>向结帐页添加装运地址模块和设置必需的属性
 
@@ -72,3 +71,8 @@ ms.locfileid: "4410647"
 [订单详细信息模块](order-confirmation-module.md)
 
 [礼品卡模块](add-giftcard.md)
+
+[商店选择器模块](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

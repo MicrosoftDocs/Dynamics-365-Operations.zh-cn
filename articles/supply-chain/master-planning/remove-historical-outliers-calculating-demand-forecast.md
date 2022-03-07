@@ -1,30 +1,27 @@
 ---
 title: 在计算需求预测时，需从历史交易记录数据中删除离群值
 description: 本文描述如何从用于计算需求预测的历史数据中排除外离群值。 通过排除离群值，您可以提高预测准确性。
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup, ReqDemPlanOutlierQueryPreview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72621
 ms.assetid: 88a964af-14eb-4c5c-945b-388e5908362c
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dec963ed5abd6f77e82029a3ea5ba1a69d44e36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc0826d3a0dd8ded19590867e9a8138bb772c89a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422869"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568631"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>在计算需求预测时，需从历史交易记录数据中删除离群值
 
@@ -42,8 +39,7 @@ ms.locfileid: "4422869"
 
 **注释：** 您还可以创建基于现有查询的查询。 选择要复制的查询，然后单击 **复制**。 **查询日期** 字段标识版本。 您可以按原样使用查询，也可以单击 **编辑查询** 修改条件。 （可选）您可以修改新查询的名称和描述。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [需求预测概览](introduction-demand-forecasting.md)
 
@@ -51,3 +47,6 @@ ms.locfileid: "4422869"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

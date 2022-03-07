@@ -2,11 +2,9 @@
 title: 使用阶段原因代码
 description: 使用原因代码指示服务级别协议 (SLA) 已取消的原因，或者服务订单超出您在 SLA 中定义的时限的原因。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4acba8f723ceb3d629671833db59c97a900c9f01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 307e6b3e67de702135662e047aef00fd181d4749
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965697"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824238"
 ---
 # <a name="use-stage-reason-codes"></a>使用阶段原因代码 
 
@@ -72,3 +70,6 @@ ms.locfileid: "4965697"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

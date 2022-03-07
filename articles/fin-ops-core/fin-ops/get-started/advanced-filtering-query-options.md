@@ -1,12 +1,10 @@
 ---
 title: 高级筛选和查询语法
-description: 此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或匹配运算符时的可用过滤和查询选项。
+description: 本主题介绍在“筛选器”窗格或网格列标题筛选器中高级筛选/排序对话框和匹配运算符的筛选和查询选项。
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798662"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070001"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或 **匹配** 运算符时的可用过滤和查询选项。
 
@@ -121,9 +122,9 @@ ms.locfileid: "4798662"
 <td>两个连续的双引号 (<strong>""</strong>) 查找当前列没有值的行。</td>
 </tr>
 <tr>
-<td>（<span class="code">Finance and Operations 查询</span>）（连字符之间的 Finance and Operations 查询）</td>
+<td>（<span class="code">财务和运营查询</span>）（括号之间的财务和运营查询）</td>
 <td>匹配定义的查询</td>
-<td>使用 Finance and Operations 查询语言在连字符之间键入 SQL 语句格式的查询。</td>
+<td>使用财务和运营查询语言在括号之间键入 SQL 语句格式的查询。</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        这是根数据源中的一个字段和另一个数据源（对于 AII 客户页面）的字段的筛选条件语法示例</td>
 </tr>
@@ -242,3 +243,6 @@ ms.locfileid: "4798662"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

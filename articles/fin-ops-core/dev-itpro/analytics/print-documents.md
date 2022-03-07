@@ -1,27 +1,27 @@
 ---
 title: 文档打印概览
 description: 可使用本地打印机或联网设备打印文档。 本文概览如何打印文档。
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680088"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984900"
 ---
 # <a name="document-printing-overview"></a>文档打印概览
 
@@ -71,6 +71,9 @@ ms.locfileid: "4680088"
 
 下图显示有助于为网络打印操作提供支持的基本组件。
 
-[![网络打印的服务组件\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![网络打印的服务组件\_2016。](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 请注意，可将一台打印机与多个文档路线选择代理关联。 为了解析打印机首选项，托管服务使用用于唯一标识每台网络打印机的网络路径。 因此，即使一台打印机被多个客户端注册，也会在应用程序中的打印机列表内显示为单项选择。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

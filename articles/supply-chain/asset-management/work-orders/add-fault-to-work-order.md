@@ -1,12 +1,10 @@
 ---
 title: 将故障添加到工作订单
 description: 此主题介绍如何在资产管理中向工作订单添加故障登记。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761060"
 ---
 # <a name="add-fault-to-work-order"></a>将故障添加到工作订单
 
@@ -52,7 +50,7 @@ ms.locfileid: "5019296"
 
 下图显示了故障登记的示例。
 
-![图 1](media/19-work-orders.png)
+![图 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>查看资产故障
@@ -79,3 +77,6 @@ ms.locfileid: "5019296"
 >[!NOTE]
 >要打印多个资产或资产类型的故障报告，请选择 **资产管理** > **报告** > **资产** > **资产故障**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

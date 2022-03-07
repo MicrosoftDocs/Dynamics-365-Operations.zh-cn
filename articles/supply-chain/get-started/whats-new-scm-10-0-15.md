@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.15 中的新增功能或更改的功能。
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014525"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 新增功能或更改（2021 年 1 月）
 
@@ -35,23 +33,23 @@ ms.locfileid: "5014525"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 某些列出的功能仍处于预览状态，而其他功能可能已正式发布。 单击[发布计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
+此版本中包含以下功能。 单击[发布计划](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features)链接以查看每个功能的正式发布日期。
 
-- 具有制造和仓库执行工作负载的 Cloud 和 Edge Scale Unit 管理<br> - 有关详细信息，请参阅[用于制造和仓库管理工作负荷的云和边缘缩放单元](../cloud-edge/cloud-edge-landing-page.md)。
+- 具有制造和仓库执行工作负载的 Cloud 和 Edge Scale Unit 管理<br> - 有关详细信息，请参阅[分布式混合拓扑中的缩放单元](../cloud-edge/cloud-edge-landing-page.md)。
 
-- [通过仓库应用创建和处理转移单](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库应用创建转移单](../warehousing/create-transfer-order-from-warehouse-app.md)。
+- [通过仓库应用创建和处理转移单](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库应用创建转移单](../warehousing/create-transfer-order-from-warehouse-app.md)。
 
-- [供应商出价的默认询价回复字段](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - 有关详细信息，请参阅[询价 (RFQ) 概述](../procurement/request-quotations.md)。
+- [供应商出价的默认询价回复字段](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - 有关详细信息，请参阅[询价 (RFQ) 概述](../procurement/request-quotations.md)。
 
-- [Dynamics 365 Supply Chain Management 的工程更改管理加载项](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - 有关详细信息，请参阅[工程更改管理概述](../engineering-change-management/product-engineering-overview.md)。
+- [Dynamics 365 Supply Chain Management 的工程更改管理加载项](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - 有关详细信息，请参阅[工程更改管理概述](../engineering-change-management/product-engineering-overview.md)。
 
-- [用于制造的混合现实 Guides](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - 有关详细信息，请参阅[为生产中的工作人员提供混合现实 Guides](../production-control/instruction-guides-in-production-overview.md)。
+- [用于制造的混合现实 Guides](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - 有关详细信息，请参阅[为生产中的工作人员提供混合现实 Guides](../production-control/instruction-guides-in-production-overview.md)。
 
-- [生产车间执行的新用户体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - 有关详细信息，请参阅[工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md)。
+- [生产车间执行的新用户体验](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - 有关详细信息，请参阅[工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md)。
 
-- [处理仓库应用事件](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - 有关详细信息，请参阅[仓库应用事件处理](../warehousing/warehouse-app-events.md)。
+- [处理仓库应用事件](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - 有关详细信息，请参阅[仓库应用事件处理](../warehousing/warehouse-app-events.md)。
 
-- [已发布产品页的已保存视图](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - 有关详细信息，请参阅[已保存视图](../../fin-ops-core/fin-ops/get-started/saved-views.md)。
+- [已发布产品页的已保存视图](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - 有关详细信息，请参阅[已保存视图](../../fin-ops-core/fin-ops/get-started/saved-views.md)。
 
 - USMCA 原产地证明文档<br> - 有关详细信息，请参阅 [USMCA 原产地认证](../transportation/usmca-certification-of-origin.md)。
 
@@ -71,7 +69,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 中包含平台更新。 
 
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2020 发布波次 2 计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2020 发布波次 2 计划](/dynamics365-release-plan/2020wave2/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
@@ -83,3 +81,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 中包含平台更新。 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

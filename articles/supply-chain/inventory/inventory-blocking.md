@@ -1,7 +1,7 @@
 ---
 title: 库存锁定
 description: 本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
-author: yufeihuang
+author: perlynne
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 58dd5c5b3d7b2f077305fa4d420fc55702acbe7ebba049ae9ac78a1362ff2523
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770280"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
@@ -96,11 +96,13 @@ ms.locfileid: "8103530"
 
 注意两种情况之间交易状态和维度的差异。 出于此原因，我们建议启用 **预留已订购物料** 选项。
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>禁用从锁定库存取样的质检订单的预期收货功能
+<!-- KFM: (Enable this section when the feature leaves private preview)
 
-为在由于库存状态导致对库存取样的质检订单被锁定时简化库存交易记录，系统提供了一项可禁用此类质检订单的预期收货的功能。 由于预期收货因库存状态为锁定状态而被锁定，因此不会因为此更改而减少现有库存量。
+### Disable expected receipts from quality orders that sample blocked inventory feature
 
-此功能默认关闭。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *禁用从锁定库存取样的质检订单的预期收货* 功能来打开或关闭此功能。
+To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
+
+-->
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -1,33 +1,30 @@
 ---
 title: 设置固定资产过帐模板
-description: 此任务指南将设置固定资产过帐模板。
-author: saraschi2
-manager: AnnBe
+description: 此过程演示如何设置固定资产过帐模板。
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440817"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883760"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>设置固定资产过帐模板
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南将设置固定资产过帐模板。  它为 USMF 法人实体使用会计角色和演示数据。  在任务指南中给出的示例是一个基础过帐模板，但是必须针对您的特定会计科目表和财务报表要求创建过帐模板。
+此过程演示如何设置固定资产过帐模板。 本主题中给出的示例是一个基础过帐模板，但是必须针对您的特定会计科目表和财务报表要求创建过帐模板。
 
 1. 在导航窗格中，转到 **模块 > 固定资产 > 设置 > 固定资产过帐模板**。
 2. 单击 **新建**。
@@ -123,3 +120,6 @@ ms.locfileid: "4440817"
 88. 在 **主科目** 字段中，指定所需值。
 89. 在 **抵销帐户** 字段中，指定所需值。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2643c85e64373e30aab16be686c50cd224490fe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7c474f4bc7940a429ed62870e00302c93581eb9a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684467"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569573"
 ---
 # <a name="generate-documents-that-have-application-data"></a>生成包含应用程序数据的单据
 
@@ -78,3 +77,6 @@ ms.locfileid: "4684467"
 6. 关闭该页面。
 7. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

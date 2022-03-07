@@ -15,12 +15,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245074"
 ---
 # <a name="work-split"></a>工作拆分
 
@@ -154,3 +154,6 @@ ms.locfileid: "4965519"
 ## <a name="other-blocked-operations"></a>其他锁定操作
 
 任何修改工作行、工作库存交易或与正在拆分的工作相关的补货链接的操作都会失败，并显示以下错误消息：“ID 为 \#\#\#\# 的工作目前正在拆分。”
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

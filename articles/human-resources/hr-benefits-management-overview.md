@@ -2,15 +2,12 @@
 title: 福利管理概览
 description: Dynamics 365 Human Resources 中的福利管理功能概述。 通过易于使用的在线体验，为您的员工提供更多的福利选项。
 author: andreabichsel
-manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417422"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059056"
 ---
 # <a name="benefits-management-overview"></a>福利管理概述
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 为了保持竞争力，您必须提供丰富的福利，以吸引和留住最好的员工。 除了医疗和牙科保险等标准福利外，您可能还希望提供更多服务，例如收养帮助、娱乐计划和服装津贴。 Microsoft Dynamics 365 Human Resources 中的福利管理为您提供了一个灵活的解决方案，它支持多种福利选项。 Human Resources 还提供易于使用的员工体验，以展示您的服务。
 
@@ -40,6 +39,10 @@ ms.locfileid: "4417422"
 - 合格的生命事件处理支持未来的生命事件。
 
 如果您想访问演示数据，您需要重新部署沙盒环境。
+
+>[!NOTE]
+>现在，您可以自定义“福利管理”窗体。 您现在可以将与覆盖范围比率相关的自定义字段添加到福利计划的 **覆盖范围选项** 窗体。 有关使用自定义字段的详细信息，请参阅[自定义字段](hr-developer-custom-fields.md)。
+>![福利管理自定义字段](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>雇用福利管理
 
@@ -97,3 +100,6 @@ ms.locfileid: "4417422"
 - [处理生命事件资格](hr-benefits-process-life-event-eligibility.md)
 - [处理比率更改](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

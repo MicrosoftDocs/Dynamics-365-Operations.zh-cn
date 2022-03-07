@@ -2,28 +2,25 @@
 title: 添加位置与当事方关系类型
 description: 本主题介绍如何添加新的位置与当事方关系类型。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440783"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817237"
 ---
 # <a name="add-location-and-party-relationship-types"></a>添加位置与当事方关系类型 
 
@@ -74,3 +71,6 @@ ms.locfileid: "4440783"
     3.  若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。 应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在 **关系类型** 页中。
 
         ![可运行的类](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

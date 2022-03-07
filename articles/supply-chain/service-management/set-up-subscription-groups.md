@@ -2,37 +2,34 @@
 title: 设置预订组
 description: 设置预订组。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64f9b8f6a7620015bae3471e60be340652af9435
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422671"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824382"
 ---
 # <a name="set-up-subscription-groups"></a>设置预订组 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击 **服务管理** \> **设置** \> **服务预订** \> **预订组**。
+1.  转到 **服务管理** \> **设置** \> **服务预订** \> **预订组**。
 
-2.  按 Ctrl+N 或单击 **新建** 创建一个新预订组。
+2.  选择 **新建** 创建新预订组。
 
 3.  在 **预订组** 字段中，输入新预订组的名称。
 
@@ -49,3 +46,6 @@ ms.locfileid: "4422671"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,30 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 20 日）
 description: 此主题介绍了 2020 年 8 月 20 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: Darinkramer
-manager: AnnBe
-ms.date: 8/20/2020
+author: andreabichsel
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f0e8e450a4c4fd515419c735f9307be80c8df098
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527471"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054468"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 20 日）
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -65,15 +64,15 @@ DMF 实体现在可用于暂停应计。
 
 您可以使用 Human Resources 个性化功能将字段设置为必填字段。 此功能需要 **保存的视图**。 有关已保存视图的详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 2 波计划中的[已保存视图 - 正式发布](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
-- [生成可充分利用已保存视图的窗体](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- Dynamics 365 2020 年发行版本第 2 波计划中的[已保存视图 - 正式发布](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
+- [生成可充分利用已保存视图的窗体](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Teams 中的 Human Resources 应用程序
 
 员工可以在 Microsoft Teams 中查看和请求离岗时间。 他们可以与机器人交互来创建休假请求。 有关详细信息，请参阅：
 
-- Dynamics 365 2020 年发行版本第 1 波计划中的 [Microsoft Teams 中的员工休假和缺勤体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
-- [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)
+- Dynamics 365 2020 年发行版本第 1 波计划中的 [Microsoft Teams 中的员工休假和缺勤体验](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
+- [Teams 中的 Human Resources 应用](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>即将到期
 
@@ -83,9 +82,9 @@ DMF 实体现在可用于暂停应计。
  
 - **经理休假日历**：经理可以在日历视图中查看其直接下属的已批准和待处理的休假。 通过此视图，可以轻松了解其团队成员的离岗时间。
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
+### <a name="checklist-entities-included-in-dataverse"></a>Dataverse 中包含的核对清单实体
 
-Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+Dataverse 内很快将为入职、离职、转移和业务流程提供核对清单实体。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -117,6 +116,9 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

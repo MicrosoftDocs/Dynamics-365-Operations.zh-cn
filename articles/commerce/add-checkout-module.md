@@ -2,27 +2,24 @@
 title: 结帐模块
 description: 此主题介绍如何向页面添加结帐模块和设置必需的属性。
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715498"
 ---
 # <a name="checkout-module"></a>结帐模块
 
@@ -30,15 +27,13 @@ ms.locfileid: "4410644"
 
 此主题介绍如何向页面添加结帐模块和设置必需的属性。
 
-## <a name="overview"></a>概览
-
 结帐模块是承载创建订单所需全部模块的特殊容器。 它提供分步流程，供客户输入与采购有关的所有信息。 它捕获送货地址、送货方式和帐单信息。 它还提供订单摘要以及与客户订单相关的其他信息。
 
 结帐模块基于购物车 ID 显示数据。 此购物车 ID 保存为浏览器 cookie。 需要购物车 ID 才能在结帐模块中显示信息，如订单中的项、总量和折扣。 
 
 下图显示了结帐页上的 Fabrikam 结帐模块的示例。
 
-![结帐模块的示例](./media/Checkout.PNG)
+![结帐模块的示例。](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>结帐模块属性
 
@@ -57,13 +52,13 @@ ms.locfileid: "4410644"
 
     下图显示了结帐页上的装运地址模块的示例。
 
-    ![装运地址模块示例](./media/ecommerce-shippingaddress.PNG)
+    ![装运地址模块的示例。](./media/ecommerce-shippingaddress.PNG)
 
 - **交货选项** – 客户可使用此模块为订单选择交货方式。 有关此模块的详细信息，请参阅[交货选项模块](delivery-options-module.md)。
 
     下图显示了结帐页上的交货选项模块的示例。
  
-    ![交付选项模块示例](./media/ecommerce-deliveryoptions.PNG)
+    ![交付选项模块的示例。](./media/ecommerce-deliveryoptions.PNG)
 
 - **结帐分区容器** – 此模块是可在其中放置多个模块以在结帐流程中创建分区的容器。 例如，可以将所有与付款有关的模块放在此容器内，以便使其显示为一个分区。 此模块仅影响流程的布局。
 
@@ -75,7 +70,7 @@ ms.locfileid: "4410644"
 
     下图显示了结帐页面上的礼品卡、会员积分和付款模块的示例。
 
-    ![结帐页面上的礼品卡、会员积分和付款模块的示例](./media/ecommerce-payments.PNG)
+    ![结帐页面上的礼品卡、会员积分和付款模块的示例。](./media/ecommerce-payments.PNG)
 
 - **联系信息** – 此模块可供客户为订单添加或更改联系信息（电子邮件地址）。
 
@@ -85,7 +80,7 @@ ms.locfileid: "4410644"
 
     下图显示了结帐页上的条款和条件的示例。
 
-    ![结帐页上条款和条件的示例](./media/ecommerce-checkout-terms.PNG)
+    ![结帐页面上的条款和条件的示例。](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 
@@ -127,3 +122,6 @@ ms.locfileid: "4410644"
 [订单详细信息模块](order-confirmation-module.md)
 
 [礼品卡模块](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,35 +1,32 @@
 ---
 title: 处理分配
-description: 本文提供有关分配、在 Microsoft Dynamics 365 Finance 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
-author: ShylaThompson
-manager: AnnBe
+description: 本主题提供有关分配、在 Microsoft Dynamics 365 Finance 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440761"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726984"
 ---
 # <a name="process-allocations"></a>处理分配
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关分配、处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
+本主题提供有关分配、处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
 
 以下功能支持此流程：
 
@@ -44,3 +41,6 @@ ms.locfileid: "4440761"
 > [!NOTE]
 > 您不能为预算计划使用内部公司的分类帐分配规则。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b221e9168fc60b5927bb92de80bd6b9614ad591c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9b93c2ab284d5746f4ecd48cd8b8ffe59aea9f90
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019796"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217237"
 ---
 # <a name="maintenance-attribute-types"></a>维护属性类型
 
@@ -63,3 +63,6 @@ ms.locfileid: "5019796"
 9. 保存该记录。
 
     **功能位置类型** 字段显示使用属性类型的功能位置的数量。 **资产类型** 字段显示正在使用功能位置的资产类型的数量。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

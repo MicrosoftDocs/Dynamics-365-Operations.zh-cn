@@ -1,12 +1,10 @@
 ---
 title: 从 Lifecycle Services 导入配置
-description: 此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
+description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712584"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 
 [!include [banner](../../includes/banner.md)]
 
 此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)导入新[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)版本。
+
+> [!IMPORTANT]
+> 使用 LCS 作为 ER 配置的存储库将[弃用](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
 
 在此示例中，您将为名称为 Litware, Inc. 的示例公司选择所需的 ER 配置版本并将其导入。这些步骤可以在任何公司完成，因为这些公司共享 ER 配置。 为了完成这些步骤，您必须首先完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤。 还需要 LCS 的访问权限。
 
@@ -103,3 +104,6 @@ ms.locfileid: "4684443"
     对于此示例，请选择状态为 **已共享** 的配置版本。
 
     请注意，所选数据模型配置的共享版本 1 现在也可用。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

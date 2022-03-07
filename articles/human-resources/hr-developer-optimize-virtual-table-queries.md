@@ -15,21 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067446"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346266"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>优化 Dataverse 虚拟表查询
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>签发
 
@@ -50,12 +47,12 @@ ms.locfileid: "8067446"
 在以下示例中您可能会看到此影响：针对工作人员 (**mshr_hcmworkerentity**) 或基本工作人员 (**mshr_hcmworkerbaseentity**) 实体的查询。 您可能会看到性能问题以几种不同的方式呈现：
 
 - **查询执行缓慢**：针对虚拟表的查询可能会返回预期的结果，但完成查询执行的时间比预期要长。
-- **查询超时**：查询可能会超时并返回以下错误：“已获取令牌以调用财务和运营，但财务和运营返回了类型 InternalServerError 的错误。”
+- **查询超时**：查询可能会超时并返回以下错误：“已获取令牌以调用 Finance and Operations，但 Finance and Operations 返回了类型 InternalServerError 的错误。”
 - **意外错误**：查询可能返回错误类型 400，并具有以下消息：“发生意外错误。”
 
   ![HcmWorkerBaseEntity 上的错误类型 400。](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **限制**：查询可能会过度使用服务器资源，并可能受到限制。 在这种情况下，查询返回以下错误：“已获取令牌以调用财务和运营，但财务和运营返回了类型 429 的错误。” 有关 Human Resources 中的限制的详细信息，请参阅[限制常见问题解答](./hr-admin-integration-throttling-faq.md)。
+- **限制**：查询可能会过度使用服务器资源，并可能受到限制。 在这种情况下，查询返回以下错误：“已获取令牌以调用 Finance and Operations，但 Finance and Operations 返回了类型 429 的错误。” 有关 Human Resources 中的限制的详细信息，请参阅[限制常见问题解答](./hr-admin-integration-throttling-faq.md)。
 
   ![HcmWorkerBaseEntity 上的错误类型 429。](./media/HcmWorkerBaseEntityErrorType429.png)
 

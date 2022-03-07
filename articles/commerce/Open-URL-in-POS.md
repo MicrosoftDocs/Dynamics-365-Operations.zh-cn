@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91d10ac383ed860a69d2d62f4a246c5ca8690b3c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965444"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206791"
 ---
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 
@@ -82,3 +82,6 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 5. 选择 **打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

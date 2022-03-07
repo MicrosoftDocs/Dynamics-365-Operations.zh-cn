@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d61203d36722194b98a247609fa126b71b846c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26abf7afbbe3c6d0b4e13639d9f57f6e82fc9ad3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422770"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233791"
 ---
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 
@@ -153,3 +152,6 @@ ms.locfileid: "4422770"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

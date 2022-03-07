@@ -1,37 +1,37 @@
 ---
 title: 安装和连接仓库应用
 description: 此主题说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423214"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902263"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 此主题介绍如何为云部署配置仓库。 如果您需要了解有关如何为本地部署配置仓库的信息，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
+> 本主题介绍了如何配置旧仓库应用（现在已弃用）。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
+
+> [!NOTE]
+> 本主题介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
 
 可从 Google Play Store 和 Microsoft Store 获取仓库应用。 其以独立组件的形式提供。 因此，必须将其下载到每个设备，然后进行配置以连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
 
@@ -54,7 +54,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 - **Windows (UWP)**：[Microsoft Store 中的 Dynamics 365 for Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android**：[Google Play Store 中的 Warehousing - Dynamics 365](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-对于较小部署，可能需要在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。 但是，在仓库应用的版本 1.7.0.0 及更高版本中，也可以自动执行应用部署和/或配置。 如果管理大量设备，并且在使用移动设备管理和移动应用程序管理解决方案（如 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)），可能会发现这种方法非常方便。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](https://docs.microsoft.com/mem/intune/apps/apps-add)。
+对于较小部署，可能需要在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。 但是，在仓库应用的版本 1.7.0.0 及更高版本中，也可以自动执行应用部署和/或配置。 如果管理大量设备，并且在使用移动设备管理和移动应用程序管理解决方案（如 [Microsoft Intune](/mem/intune/fundamentals/what-is-intune)），可能会发现这种方法非常方便。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](/mem/intune/apps/apps-add)。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 
@@ -64,36 +64,36 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 1. 输入有权访问 Azure 订阅的用户的名称和密码。
 1. 在 Azure 门户的左侧导航窗格中，选择 **Azure Active Directory**。
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory。](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. 确保使用 Supply Chain Management 所用 Azure AD 实例。
 1. 在 **管理** 列表中，选择 **应用注册**。
 
-    ![应用注册](media/app-connect-azure-register.png "应用注册")
+    ![应用注册。](media/app-connect-azure-register.png "应用注册")
 
 1. 在工具栏中，选择 **新注册** 打开 **注册应用程序** 向导。
 1. 输入应用程序的名称，选择 **仅此组织目录中的帐户** 选项，然后选择 **注册**。
 
-    ![注册应用程序向导](media/app-connect-azure-register-wizard.png "注册应用程序向导")
+    ![注册应用程序向导。](media/app-connect-azure-register-wizard.png "注册应用程序向导")
 
 1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本主题后文将此 ID 称为 *客户端 ID*。
 
-    ![应用程序（客户端）ID](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
+    ![应用程序（客户端）ID。](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
 
 1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本主题后文的[使用证书或客户端密码](#authenticate)部分。）
 
     - **上传证书** – 上传证书充当密码。 建议使用此方法，因为更安全，也可以更完整地自动执行。 如果要在 Windows 设备上运行仓库应用，请记下上传证书后显示的 **指纹** 值。 在 Windows 设备上配置证书时需要此值。
     - **新客户端密码** – 通过在 **密码** 部分中输入密钥说明和持续时间创建密钥，然后选择 **添加**。 创建密钥备份，然后安全存储。
 
-    ![证书和密码](media/app-connect-azure-authentication.png "证书和密码")
+    ![证书和密码。](media/app-connect-azure-authentication.png "证书和密码")
 
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
-- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
+- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
 - 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下主题：
 
-    - [快速入门：向 Microsoft 身份平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)
+    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>在 Supply Chain Management 中创建和配置用户帐户
 
@@ -105,7 +105,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
     1. 创建一个用户。
     1. 分配仓库移动设备用户。
 
-    ![分配仓库移动设备用户](media/app-connect-app-users.png "分配仓库移动设备用户")
+    ![分配仓库移动设备用户。](media/app-connect-app-users.png "分配仓库移动设备用户")
 
 1. 将您的 Azure AD 应用程序与该仓库应用用户关联：
 
@@ -113,7 +113,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
     1. 创建一行。
     1. 输入在上一部分中记下的客户端 ID，为其命名，然后选择刚才创建的用户。 建议标记所有设备。 然后，如果已丢失，可以轻松从此页解除其对 Supply Chain Management 的访问权限。
 
-    ![Azure Active Directory 应用程序](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
+    ![Azure Active Directory 应用程序。](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>使用证书或客户端密码进行身份验证
 
@@ -121,7 +121,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 
-必须在运行仓库应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](https://docs.microsoft.com/mem/intune/protect/certificates-configure)。
+必须在运行仓库应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](/mem/intune/protect/certificates-configure)。
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>通过导入连接设置配置应用程序
 
@@ -136,7 +136,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 | ConnectionName | 指定连接设置的名称。 最大长度为 20 个字符。 因为此值是连接设置的唯一标识符，因此请确保其在列表中唯一。 如果设备中已有同名连接，所导入文件中的设置将覆盖该连接。 |
 | ActiveDirectoryClientAppId | 指定[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)部分中设置 Azure AD 时记下的客户端 ID。 |
 | ActiveDirectoryResource | 指定 Supply Chain Management 的根 URL。 |
-| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 |
+| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。 |
 | 公司 | 在 Supply Chain Management 中指定希望应用程序连接到的法人。 |
 | ConnectionType | （可选）指定连接设置应使用证书还是客户端密码连接到环境。 有效值为 *certificate* 和 *clientsecret*。 默认值为 *certificate*。<p>**注意：** 不能导入客户端密码。</p> |
 | IsEditable | （可选）指定应用用户是否应该可以编辑连接设置。 有效值为 *true* 和 *false*。 默认值为 *true*。 |
@@ -201,26 +201,26 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 1. 转至 **连接设置**。
 1. 将 **使用演示模式** 选项设置为 _否_。
 
-    ![使用演示模式选项](media/app-connect-app-demo-mode.png "使用演示模式选项")
+    ![使用演示模式选项。](media/app-connect-app-demo-mode.png "使用演示模式选项")
 
 1. 选择 **选择文件** 或 **扫描 QR 代码**，具体取决于要如何导入设置：
 
     - 如果要从文件导入连接设置，并且保存该文件时使用的是默认名称和默认位置，应用可能已经找到了该文件。 否则，选择 **选择文件**，在本地设备上浏览找到该文件，然后选择该文件。 如果选择自定义位置，应用将存储该文件，并在下次自动使用。
     - 如果要通过扫描 QR 代码导入连接设置，请选择 **扫描 QR 代码**。 应用将提示您提供使用设备摄像头所需权限。 提供权限后，将启动摄像头，以便您将其用于扫描。 您可能发现很难获得正确扫描，具体取决于设备摄像头的质量和 QR 代码的复杂程度。 在这种情况下，请尝试通过为每个 QR 码仅生成一个连接来降低 QR 代码的复杂程度。 （现在，只能使用设备摄像头扫描 QR 代码。）
 
-    ![导入连接设置](media/app-connect-app-select-file.png "导入连接设置")
+    ![导入连接设置。](media/app-connect-app-select-file.png "导入连接设置")
 
 1. 成功加载连接设置后，选择页面右上角的 **后退**（向左箭头）按钮。
 
-    ![已加载连接设置](media/app-connect-app-settings-loaded.png "已加载连接设置")
+    ![已加载连接设置。](media/app-connect-app-settings-loaded.png "已加载连接设置")
 
 1. 如果在使用 Android 设备，并使用证书进行身份验证，设备将提示您选择证书。
 
-    ![Android 设备上的选择证书提示](media/app-connect-app-choose-cert.png "Android 设备上的选择证书提示")
+    ![Android 设备上的选择证书提示。](media/app-connect-app-choose-cert.png "Android 设备上的选择证书提示")
 
 1. 此应用将连接到您的 Supply Chain Management 服务器，并显示登录页。
 
-    ![登录页](media/app-connect-sign-in.png "登录页")
+    ![登录页面。](media/app-connect-sign-in.png "登录页")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>手动配置应用程序
 
@@ -230,11 +230,11 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 1. 转至 **连接设置**。
 1. 将 **使用演示模式** 选项设置为 _否_。
 
-    ![演示模式已关闭](media/app-connect-app-select-file.png "演示模式已关闭")
+    ![演示模式已关闭。](media/app-connect-app-select-file.png "演示模式已关闭")
 
 1. 在 **选择连接** 字段中点击展开手动输入连接详细信息所需设置。
 
-    ![手动连接字段](media/app-connect-manual-connect.png "手动连接字段")
+    ![手动连接字段。](media/app-connect-manual-connect.png "手动连接字段")
 
 1. 输入以下信息：
 
@@ -248,7 +248,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
         > [!NOTE]
         > 请勿为此值使用反斜杠 (/)。
 
-    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。
+    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。
 
         > [!NOTE]
         > 请勿为此值使用反斜杠 (/)。
@@ -274,3 +274,6 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 1. 确保应用程序的客户端 ID 与您在步骤 2 中记下的客户端 ID 匹配。
 1. 在工具栏上，选择 **删除**。
 1. 在出现的确认消息中选择 **是**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

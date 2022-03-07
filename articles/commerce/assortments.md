@@ -2,25 +2,22 @@
 title: 分类管理
 description: 此主题介绍 Dynamics 365 Commerce 中分类管理的基本概念，并提供有关项目的实施注意事项。
 author: jblucher
-manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717763"
 ---
 # <a name="assortment-management"></a>分类管理
 
@@ -38,27 +35,27 @@ Dynamics 365 Commerce 提供 *分类*，供您管理渠道中的产品可用性�
 
 在以下示例中，为每个商店配置了一个唯一的分类。 在此情况下，商店 1 中只有产品 1 可用，商店 2 中只有产品 2 可用。
 
-![每个产品可在一个商店提供](./media/Managing-assortments-figure1.png)
+![每个产品可在一个商店提供。](./media/Managing-assortments-figure1.png)
 
 若要让产品 2 在商店 1 可用，可将该产品添加到分类 1。
 
-![添加到分类 1 的产品 2](./media/Managing-assortments-figure2.png)
+![添加到分类 1 的产品 2。](./media/Managing-assortments-figure2.png)
 
 也可以将商店 1 添加到分类 2。
 
-![添加到分类 2 的商店 1](./media/Managing-assortments-figure3.png)
+![添加到分类 2 的商店 1。](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>组织层次结构
 
 如果多个渠道共用同一个产品分类，则可使用 Commerce 分类组织层次结构配置分类。 添加此层次结构中的节点时，将包括该节点及其子节点中的所有渠道。
 
-![组织层次结构](./media/Managing-assortments-figure4.png)
+![组织层次结构。](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>产品类别
 
 同样，在产品方面，可使用产品类别层次结构包括产品组。 可通过包括一个或多个类别层次结构节点配置分类。 在此情况下，分类将包括该类别节点及其子节点中的所有产品。
 
-![产品类别](./media/Managing-assortments-figure5.png)
+![产品类别。](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>排除的产品或类别
 
@@ -67,7 +64,7 @@ Dynamics 365 Commerce 提供 *分类*，供您管理渠道中的产品可用性�
 > [!NOTE]
 > 如果按照定义某个产品同时在一个或多个分类中既包括又排除，将始终把该产品视为排除。
 
-![排除的产品](./media/Managing-assortments-figure6.png)
+![排除的产品。](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>全局产品和已发放产品
 
@@ -107,3 +104,6 @@ Commerce 中定义的分类必须先经过处理，才能生效。 执行此项�
 - **分类外销售和退货** – 此功能帮助零售商有效管理分类，方法是将可用产品的数量限制为属于商店核心产品组合的产品。 此功能还可以帮助零售商处理下面的情况：分类中错误地遗漏了某个产品，或者产品因超出分类的有效期而退货。
 
 如果产品数据在渠道数据库中不存在，POS 将实时调用总部数据以检索所需信息，以便出售、退回产品或将产品放入客户订单中。 通过这种方式检索的产品信息只能在交易记录范围内可用。 将不会把产品添加到分类定义。 因此，必须执行后续实时调用。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

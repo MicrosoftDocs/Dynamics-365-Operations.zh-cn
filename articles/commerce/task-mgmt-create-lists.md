@@ -2,35 +2,30 @@
 title: 创建任务列表和添加任务
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建任务列表和向其添加任务。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410549"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027616"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>创建任务列表和添加任务
+# <a name="create-task-lists-and-add-tasks"></a>创建任务列表并添加任务
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建任务列表和向其添加任务。
-
-## <a name="overview"></a>概览
 
 *任务* 定义某人必须在指定日期或之前完成的一份工作或一个操作。 在 Dynamics 365 Commerce 中，任务中可以包含详细说明和有关联系人的信息。 还可以包含后勤运营、销售点 (POS) 操作或站点页的链接，以便帮助提高生产力和提供任务负责人高效完成任务所需上下文。
 
@@ -54,7 +49,7 @@ ms.locfileid: "4410549"
 1. 在 **创建新任务** 对话框的 **名称** 字段中，输入任务的名称。
 1. 在 **从目标日期算起的到期日期偏置** 字段中，输入正整数或负整数值。 例如，如果任务应该在任务列表到期日期之前两天完成，则输入 **-2**。
 1. 在 **注释** 字段中，输入详细说明。
-1. 在 **联系人** 字段中，装入任务负责人在需要帮助时可以联系的主题专家的姓名。
+1. 在 **联系人** 字段中，输入任务负责人在需要帮助时可以联系的主题专家的姓名。
 1. 在 **任务链接** 字段中，根据任务的性质输入链接。
 
 > [!TIP]
@@ -93,3 +88,6 @@ Commerce 让您可以将任务链接到特定 POS 操作，如运行销售报表
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

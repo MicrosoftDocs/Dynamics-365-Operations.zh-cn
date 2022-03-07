@@ -1,12 +1,10 @@
 ---
 title: 设计配置以生成包含应用程序数据的单据
-description: 若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 1 部分 - 导入配置）”这一过程。
+description: 本主题介绍如何设计电子报告 (ER) 配置以生成电子文档。 （第 1 部分 - 导入配置）。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726253"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>设计配置以生成包含应用程序数据的单据
 
@@ -58,3 +56,6 @@ ms.locfileid: "4684587"
 10. 关闭该页面。
 11. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

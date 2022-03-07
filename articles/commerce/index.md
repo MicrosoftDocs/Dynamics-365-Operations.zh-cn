@@ -2,16 +2,13 @@
 title: Commerce 主页
 description: Dynamics 365 Commerce 的主页。
 author: bebeale
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 9eeaac1c9198502b3888c4bf0a2f43edfc75f185
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410634"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797036"
 ---
 # <a name="commerce-home-page"></a>Commerce 主页
 
@@ -56,3 +53,6 @@ Dynamics 365 Commerce - 基于经实践检验的 Dynamics 365 Retail 功能构�
 - [管理电子商务站点](online-store-overview.md)
 - [欺诈保护](dev-itpro/DFP.md)
 - [商务开发和可扩展性](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

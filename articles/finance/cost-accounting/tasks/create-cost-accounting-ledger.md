@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: efa0c2db81f0a10208c8acc09b356eb15936d5c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440684"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236834"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>创建成本核算分类帐
 
@@ -38,3 +37,6 @@ ms.locfileid: "4440684"
 8. 在“统计维度”字段中，输入或选择一个值。
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

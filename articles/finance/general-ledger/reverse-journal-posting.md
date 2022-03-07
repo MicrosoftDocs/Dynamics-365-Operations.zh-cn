@@ -1,29 +1,26 @@
 ---
 title: 冲销日记帐过帐
 description: 此主题介绍用于冲销凭证交易记录列表中或财务日记帐中的凭证的功能。
-author: MikeFalkner
-manager: AnnBe
+author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3244d857a9135249130672501f8b766ff9a0680
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440763"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753770"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 
@@ -31,13 +28,17 @@ ms.locfileid: "4440763"
 
 此主题介绍用于冲销整个日记帐或冲销凭证交易记录列表中的一个或多个凭证（而不考虑其来源）的 Microsoft Dynamics 365 Finance 功能。 
 
+在使用本主题介绍的功能之一之前，必须在系统中将其打开。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+ - 模块：总帐
+ - 功能名称：**批量冲销多张单据**
+
 ## <a name="reversing-journals"></a>冲销日记帐
 
 可分别冲销日记帐行。 通过冲销日记帐过帐，也可以冲销整个财务日记帐。 若要冲销日记帐： 
 
-- 打开财务日记帐并筛选过帐的日记帐。
+- 筛选已过帐日记帐，然后打开日记帐的 **行** 视图。
 - 选择页面顶部的 **冲销** 菜单。
-- 将看到凭证总数和凭证行，以及正在冲销的行的总量
+- 将看到凭证总数和凭证行，以及正在冲销的行的总量。
 - 如果选择 **是**，则使用现有交易记录日期，如果选择 **否**，则输入新交易记录日期。 在某些情况下，原始交易记录的期间可能已关闭，您必须为冲销输入新的交易记录日期。
 - 如果选择 **否**，请为冲销输入交易记录日期。 
 - 输入要添加到冲销交易记录的注释。
@@ -55,8 +56,8 @@ ms.locfileid: "4440763"
 
 若要冲销一个或多个凭证： 
 
-- 选择页面顶部的 **冲销** 菜单
-- 将看到凭证总数和凭证行，以及正在冲销的行的总量。
+- 选择页面顶部的 **冲销整个日记帐下拉列表** 菜单。
+- 将显示凭证总数和凭证行，以及正在冲销的行的总量。
 - 如果选择 **是**，则使用现有交易记录日期，如果选择 **否**，则输入新交易记录日期。 在某些情况下，原始交易记录的期间可能已关闭，您必须输入新的交易记录日期来冲销它。
 - 如果选择 **否**，请为冲销输入交易记录日期。 
 - 输入描述冲销交易的注释。
@@ -68,5 +69,8 @@ ms.locfileid: "4440763"
 
 如果凭证行数量为 100 行或更少，将立即运行冲销流程。 将在对话框中显示结果，其中显示不能冲销的所有凭证，以及原因。 选择 **确定** 关闭对话框。
 
-仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment)中列出的步骤来冲销供应商付款。
+仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](../accounts-payable/reverse-vendor-payment.md)中列出的步骤来冲销供应商付款。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: 创建团队日历
 description: 在 Dynamics 365 Human Resources 中查看和创建团队日历。
 author: andreabichsel
-manager: tfehr
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962257"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052089"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以在 Dynamics 365 Human Resources 中查看团队和公司日历。 团队日历仅显示在行层次结构中定义的直接下属。
 
@@ -72,3 +71,6 @@ ms.locfileid: "4962257"
 
 有关日历设置的信息，请参阅[配置日历参数](hr-leave-and-absence-parameters.md?configure-calendar-parameters)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

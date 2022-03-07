@@ -1,31 +1,33 @@
 ---
 title: 创建休假和缺勤计划
-description: 在 Dynamics 365 Human Resources 中为不同类型的休假创建休假计划。
-author: andreabichsel
-manager: AnnBe
-ms.date: 09/11/2020
+description: 本主题介绍如何在 Dynamics 365 Human Resources 中为不同类型的休假创建休假计划。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417509"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070242"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>创建休假和缺勤计划
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 在 Dynamics 365 Human Resources 中为您提供的每种休假类型定义休假和缺勤计划。 休假和缺勤计划可按不同频率累积，例如每年、每月或每半月。 您还可以将计划定义为赠予，这样就在特定日期累积一次。 例如，您可以创建一个每年赠予浮动假日的计划。
 
@@ -383,3 +385,6 @@ Human Resources 使用以下公式：
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
 - [累积休假和缺勤计划](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,27 @@
 title: 工作人员如何使用生产车间执行界面
 description: 本主题从工作人员的角度介绍了如何使用生产车间执行界面。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4423308"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907709"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 生产车间执行界面针对触摸交互进行了优化。 它的设计提供了视觉对比，可以满足车间环境的可访问性要求。 它提供与作业卡设备相同的所有功能。 但是，它还允许从作业列表中并行启动多个作业。 （此功能也称为 *作业捆绑*。）此外，从作业列表中，工作人员可以打开在 Microsoft Dynamics 365 指南中创建的指南。 通过此方法，他们可以在 HoloLens 上获取视觉说明。
 
@@ -41,11 +38,11 @@ ms.locfileid: "4423308"
 
 ## <a name="all-jobs-tab"></a>所有作业选项卡
 
-**所有作业** 选项卡提供了一个作业列表，显示状态为 *未开始*、*已停止* 或 *已开始* 的所有生产作业。
+**所有作业** 选项卡提供了一个作业列表，显示状态为 *未开始*、*已停止* 或 *已开始* 的所有生产作业。 （此选项卡名称可以自定义，在您的系统中可能不同。）
 
 ![所有作业选项卡](media/pfei-all-jobs-tab.png "所有作业选项卡")
 
-作业列表具有以下列。 （数字对应上一图中的数字。）
+作业列表具有以下列。 数字对应上一图中的数字。
 
 1. **选择列** – 最左边的列使用复选标记指示工作人员已选择的作业。 工作人员可以同时在列表中选择多个作业。 若要在列表中选择所有作业，请选择列标题中的复选标记。 选择单个作业后，有关该作业的详细信息将显示在页面的下部。
 1. **作业状态列** – 此列使用符号指示每个作业的状态。 此列中没有符号的作业的状态为 *未开始*。 绿色三角形指示状态为 *已开始*。 两个黄色竖线指示状态为 *已停止* 的作业。
@@ -60,9 +57,11 @@ ms.locfileid: "4423308"
 
 ## <a name="active-jobs-tab"></a>活动作业选项卡
 
+**活动作业** 选项卡显示登录工作人员已经开始的所有作业的列表。 （此选项卡名称可以自定义，在您的系统中可能不同。）
+
 ![活动作业选项卡](media/pfei-active-jobs-tab.png "活动作业选项卡")
 
-**活动作业** 选项卡上的作业列表具有以下列：
+活动作业列表具有以下列：
 
 - **选择列** – 最左边的列使用复选标记指示工作人员已选择的作业。 工作人员可以同时在列表中选择多个作业。 若要在列表中选择所有作业，请选择列标题中的复选标记。 选择单个作业后，有关该作业的详细信息将显示在页面的下部。
 - **订单** – 此列显示作业的生产订单编号。
@@ -72,6 +71,28 @@ ms.locfileid: "4423308"
 - **已完成** – 此列显示作业已完成的数量。
 - **已报废** – 此列显示作业已报废的数量。
 - **剩余** – 此列显示作业剩余完成的数量。
+
+## <a name="my-machine-tab"></a>“我的机器”选项卡
+
+**我的机器** 选项卡让工作人员可以在 **所有作业** 选项卡上设置的筛选器中选择连接到机器资源的资产。然后，工作人员可以通过读取最多四个所选计数器的值以及最近的维护请求和登记的停机时间列表来查看所选资产的状态和运行状况。 工作人员还可以请求对所选资产进行维护，并登记和编辑机器停机时间。 （此选项卡名称可以自定义，在您的系统中可能不同。）
+ 
+![“我的机器”选项卡](media/pfei-my-machine-tab.png "“我的机器”选项卡")
+
+**我的机器** 选项卡包含以下列。 数字对应上一图中的数字。
+
+1. **机器资产** – 选择要跟踪的机器资产。开始键入名称来从匹配资产的列表中选择，或选择放大镜图标从与作业列表的筛选器内与资源关联的所有资产的列表中选择。
+
+    > [!NOTE]
+    > Supply Chain Management 用户可以使用 **所有资产** 页（在 **固定资产** 选项卡上，使用 **资源** 下拉列表）为每个资产分配资源。 有关详细信息，请参阅[创建资产](../asset-management/objects/create-an-object.md)。
+
+1. **设置** – 选择齿轮图标打开一个对话框，您可以在其中选择要查看所选机器资产的计数器。 这些计数器的值显示在 **资产管理** 选项卡的顶部。**设置** 菜单（如以下屏幕截图所示）让您最多可以启用四个计数器。 对于要启用的每个计数器，请使用磁贴顶部的查找字段来选择计数器。 查找字段在 **资产管理** 页顶部列出与所选资产相关的所有计数器。 设置每个计数器来监视计数器的 **聚合** 值或最新的 **实际** 值。 例如，如果您设置一个计数器来跟踪机器运行了几个小时，则应将其设置为 **聚合**。 如果设置计数器来测量最新更新的温度或压力，则应将其设置为 **实际**。 选择 **确定** 保存设置并关闭对话框。
+
+    ![“我的机器”选项卡设置](media/pfei-my-machine-tab-settings.png "“我的机器”选项卡设置")
+
+1. **请求维护** – 选择此按钮将打开一个对话框，您可以在其中创建维护请求。 您可以提供描述和注释。 请求将引起 Supply Chain Management 用户的注意，然后用户可以将维护请求转换为维护工作订单。
+1. **登记停机时间** – 选择此按钮将打开一个对话框，您可以在其中登记机器停机时间。 您可以选择原因码并输入停机时间的日期/时间跨度。 机器停机时间登记用于计算机器资产的效率。
+1. **查看或编辑** – 选择此按钮将打开一个对话框，您可以在其中编辑或查看现有停机时间记录。
+
 
 ## <a name="starting-and-completing-production-jobs"></a>开始和完成生产作业
 
@@ -115,7 +136,7 @@ ms.locfileid: "4423308"
 
 ## <a name="working-on-indirect-activities"></a>处理间接活动
 
-间接活动是与生产订单不直接相关的活动。 间接活动可以灵活定义，如[设置考勤管理的间接活动](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance)中所述。
+间接活动是与生产订单不直接相关的活动。 间接活动可以灵活定义，如[设置考勤管理的间接活动](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance)中所述。
 
 例如，Contoso 的车间工作人员 Shannon 想要参加公司会议，而会议被认为是间接活动。 以下两种场景之一适用：
 
@@ -124,7 +145,7 @@ ms.locfileid: "4423308"
 
 在这两种场景下，在 Shannon 确认选择后，她都会进入登录页面或等待她确认已从间接活动中返回的页面。 显示的页面取决于生产车间执行界面的配置。 （有关详细信息，请参阅[配置生产车间执行界面](production-floor-execution-configure.md)。）
 
-## <a name="working-on-breaks"></a>处理工间休息
+## <a name="registering-breaks"></a>登记工间休息
 
 工作人员可以登记工间休息。 工间休息可以灵活定义，如[基于登记付薪](pay-based-on-registrations.md)中所述。
 
@@ -146,3 +167,6 @@ ms.locfileid: "4423308"
 1. 工作人员通过指南工作以了解任务。
 
 有关如何创建、分配和使用 HoloLens 指南的详细信息，请参阅[为生产中的工作人员提供混合现实指南](instruction-guides-in-production-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

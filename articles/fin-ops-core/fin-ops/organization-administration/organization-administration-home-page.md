@@ -2,26 +2,26 @@
 title: 组织管理主页
 description: 此主题指向可在组织中帮助您的资源。
 author: sericks007
-manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 20421
+ms.custom:
+- "20421"
+- intro-internal
 ms.assetid: 7aa24a03-d172-47e9-81f8-ebd39e80bc60
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91963b9ccb5fb339b3c0fc41e8483628135c4c8
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759888"
 ---
 # <a name="organization-administration-home-page"></a>组织管理主页
 
@@ -101,3 +101,6 @@ ms.locfileid: "4797014"
 - [配置文档管理](configure-document-management.md)
 - [配置和发送电子邮件](configure-email.md)
 - [日期/时间数据和时区](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: 产品集合模块
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品集合模块。
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410357"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790998"
 ---
 # <a name="product-collection-modules"></a>产品集合模块
-
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的产品集合模块。
-
-## <a name="overview"></a>概览
 
 产品发现是零售商在电子商务网站中主要用于联系客户的工具。 产品集合模块通过提供可用于快速创作产品集合的直观视觉界面，帮助零售商生成出色的购物体验。
 
@@ -67,6 +61,10 @@ ms.locfileid: "4410357"
 | 经常搭配购买的产品 | 人工智能/机器学习 | 此模块使用机器学习分析客户购买模式，并推荐经常与给定产品搭配购买的相关商品的列表 此列表可以为登录用户显示个性化结果（如果站点作者选择该选项）。 |
 | 人们还喜欢           | 人工智能/机器学习 | 此模块使用机器学习分析客户购买模式，并推荐与给定产品有关的商品。 此列表可以为登录用户显示个性化结果（如果站点作者选择该选项）。 |
 | 为您推荐              | 人工智能/机器学习 | 此模块使用机器学习分析登录用户的购买模式，并基于这些购买模式提供个性化推荐。 对于来宾用户，此列表将被折叠。 |
+
+## <a name="supported-modules"></a>支持的模块 
+
+产品集合模块支持[快速查看模块](quick-view-module.md)，让用户可以查看产品信息并将产品从产品集合页面添加到购物车。
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>向类别页添加产品集合模块
 
@@ -109,3 +107,8 @@ ms.locfileid: "4410357"
 [购买框模块](add-buy-box.md)
 
 [产品建议概览](product-recommendations.md)
+
+[快速查看模块](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

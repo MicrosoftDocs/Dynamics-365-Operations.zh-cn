@@ -1,30 +1,26 @@
 ---
 title: 产品生命周期状态概览
 description: 产品生命周期状态记载已发布产品或产品变型的生命周期状态。
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423457"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983786"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 
@@ -109,3 +105,6 @@ ms.locfileid: "4423457"
 - [为已发布的产品分配产品生命周期状态](tasks/product-lifecycle-state-released-product.md)
 - [查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)
 - [创建产品生命周期状态以从主计划中排除产品](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

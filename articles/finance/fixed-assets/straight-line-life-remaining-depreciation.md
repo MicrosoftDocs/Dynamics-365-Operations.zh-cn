@@ -2,11 +2,9 @@
 title: 剩余年限法折旧
 description: 本文提供了直线法（剩余年限）折旧方法的概览。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b4c150b779ab3ea98ff3390b0dca5a7e7d892ba40a60d350f3a721e0d4e6ca3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732997"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>剩余年限法折旧
 
@@ -57,7 +55,7 @@ ms.locfileid: "4968996"
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>对未更改的固定资产进行直线法折旧的示例
 固定资产具有以下特征。
 
-|                     |        |
+| 字段               | 值  |
 |---------------------|--------|
 | 购置成本    | 11,000 |
 | Salvage value / 残值       | 1,000  |
@@ -79,3 +77,6 @@ ms.locfileid: "4968996"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

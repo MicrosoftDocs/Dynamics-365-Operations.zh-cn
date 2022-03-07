@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c71d31d7045c73097b81671793181a29dcac3b5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360560"
 ---
 # <a name="payroll-integration-api-introduction"></a>工资单集成 API 简介
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -33,8 +30,8 @@ ms.locfileid: "8064909"
 
 为了支持集成，Human Resources 包括以下组件：
 
-- [将员工标记为准备付款的功能。](hr-compensation-payroll.md)
-- 为集成应用程序开启新功能的集成 API。
+- 将员工标记为准备付款的功能
+- 为集成应用程序开启新功能的集成 API
 
 ## <a name="microsoft-dataverse"></a>Microsoft Dataverse
 

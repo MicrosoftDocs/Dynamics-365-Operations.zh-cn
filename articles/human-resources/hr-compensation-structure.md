@@ -2,28 +2,27 @@
 title: 制订薪酬结构
 description: 本文介绍如何创建固定薪酬计划，以及如何通过资格规则在该计划中等记员工。
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732361"
 ---
 # <a name="develop-a-compensation-structure"></a>制订薪酬结构
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文介绍如何创建固定薪酬计划，以及如何通过资格规则在该计划中等记员工。 本文使用 USMF 演示数据，适用于薪酬和福利经理。
 
@@ -113,3 +112,6 @@ ms.locfileid: "4417486"
 
 8. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

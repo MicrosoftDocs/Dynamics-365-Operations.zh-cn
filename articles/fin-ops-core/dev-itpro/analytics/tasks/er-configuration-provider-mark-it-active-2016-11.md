@@ -1,12 +1,10 @@
 ---
 title: 创建配置提供程序并将其标记为有效
-description: 本主题介绍获分配“系统管理员”或者“电子报表开发人员”角色的用户如何为“电子申报 (ER)”创建配置提供程序。
+description: 本主题介绍获分配“系统管理员”或者“电子报告开发人员”角色的用户如何创建配置提供程序。
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e5b429badcbcc0e9829d82785a6e1f1a2504f5ec9b9ac74d249032f272dea103
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747239"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并将其标记为有效
 
@@ -43,4 +41,7 @@ ms.locfileid: "4681989"
 1. 选择 Litware 提供商。
 2. 选择 **设置有效**。
 
-![电子申报工作区概览](../media/GER-Task-ActiveProvider-1.png)
+![电子报告工作区页面。](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

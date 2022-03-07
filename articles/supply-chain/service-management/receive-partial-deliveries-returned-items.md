@@ -1,29 +1,26 @@
 ---
 title: 接收退回物料的部分交货
 description: 部分交货根据退货单行（而非退货单装运）定义。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf35169d8afd6e88b8ebe921514ed6d55607a4dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db02356afe06244f062f4e7c67a5db0a36900469
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422745"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566159"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>接收退回物料的部分交货    
 
@@ -51,3 +48,6 @@ ms.locfileid: "4422745"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

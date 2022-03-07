@@ -2,11 +2,9 @@
 title: 从 Configuration service 的全局知识库下载 ER 配置
 description: 本主题说明如何从 Configuration service 的全局知识库下载电子申报 (ER) 配置。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679550"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605323"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>从 Configuration service 的全局知识库下载 ER 配置
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何从 Configuration service 的全局知识库下载[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services、Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
+本主题说明如何从 Configuration service 的全局知识库下载[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
 
 ## <a name="open-configurations-repository"></a>打开配置库
 
@@ -42,7 +40,7 @@ ms.locfileid: "4679550"
 3. 在 **配置提供程序** 部分中，选择 **Microsoft** 磁贴。
 3. 在 **Microsoft** 磁贴上，选择 **存储库**。
 
-    ![电子申报工作区](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![电子报告工作区。](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. 在 **配置存储库** 页面，在网格中，选择 **全局** 类型的现有存储库。 如果此存储库没有显示在网格中，请执行以下步骤：
 
@@ -54,7 +52,7 @@ ms.locfileid: "4679550"
 
 5. 选择 **打开** 查看选择的存储库的 ER 配置列表。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![配置存储库页面。](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>导入单个配置
 
@@ -65,7 +63,7 @@ ms.locfileid: "4679550"
     > [!NOTE]
     > **导入** 按钮对当前 Finance 实例中已呈现的 ER 配置版本不可用。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-repository-content.png)
+    ![配置存储库页面，“配置”快速选项卡。](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>导入筛选的配置
 
@@ -79,7 +77,7 @@ ms.locfileid: "4679550"
 4. 在 **配置** 快速选项卡上，选择 **导入** 将筛选出的配置从全局知识库下载到当前实例。
 5. 在 **配置** 快速选项卡上，选择 **重置筛选器** 清理指定的选择条件。
 
-    ![配置存储库页面](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![“配置存储库”页面、“版本”快速选项卡、“导入”按钮。](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 必须先解决这些问题，然后才可以使用导入的配置版本。 有关详细信息，请参阅本主题的相关资源列表。
@@ -90,3 +88,6 @@ ms.locfileid: "4679550"
 ## <a name="additional-resources"></a>其他资源
 
 [电子报告 (ER) 概览](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

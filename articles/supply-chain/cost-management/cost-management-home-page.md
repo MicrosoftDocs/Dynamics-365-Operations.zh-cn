@@ -2,28 +2,26 @@
 title: 成本管理主页
 description: 可通过成本管理处理原材料、半成品、成品和在制品资产的计价和核算。
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739099"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 
@@ -45,7 +43,7 @@ ms.locfileid: "4967675"
 
 可通过制造核算处理生产订单和批次订单中的[作业单成本计算](production-order-cost-analysis.md)，以及 Lean manufacturing 中的[倒冲成本计算法](backflush-costing.md)。
 
-[成本管理 Power BI 内容](../../dev-itpro/analytics/cost-management-content-pack.md)提供对库存和在制品 (WIP) 库存的管理洞察，并按类别介绍一段时间内成本在这些库存中的流向。 也可以将此信息用作财务报表的详细补充。
+[成本管理 Power BI 内容](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md)提供对库存和在制品 (WIP) 库存的管理洞察，并按类别介绍一段时间内成本在这些库存中的流向。 也可以将此信息用作财务报表的详细补充。
 
 ### <a name="additional-resources"></a>其他资源
 
@@ -59,8 +57,10 @@ ms.locfileid: "4967675"
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
+您可以在 [Dynamics AX 制造研发团队博客](/archive/blogs/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 #### <a name="task-guides"></a>任务指南
 
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

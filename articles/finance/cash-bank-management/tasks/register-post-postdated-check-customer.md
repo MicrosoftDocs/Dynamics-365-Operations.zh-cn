@@ -2,25 +2,22 @@
 title: 为客户登记和过帐远期支票
 description: 您可以登记从客户处接收的远期支票的详细信息。
 author: kweekley
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dcf1bc1620c5daa981c390e8cf7490d582d8d09c394663548e73ed0f98814b09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764279"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>为客户登记和过帐远期支票
 
@@ -50,3 +47,6 @@ ms.locfileid: "4440790"
 15. 单击“过帐”。
 16. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

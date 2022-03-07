@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f1606f1cdb2cf1a10b112ce46be1b657bb3693f1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222279"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>设置会计科目别名
 
@@ -40,3 +40,6 @@ ms.locfileid: "4968395"
 9. 在“初始焦点”字段中，选择使用别名时将会出现焦点的维度。
     * 在输入快捷方式，以及填充科目和维度后，“初始焦点”字段是光标或焦点的移动目标。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

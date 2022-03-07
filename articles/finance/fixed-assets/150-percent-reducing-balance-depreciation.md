@@ -2,28 +2,25 @@
 title: 150% 余额递减法
 description: 本文提供了 150% 余额递减法折旧方法的概览。
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5c9d1db1099b2c118f67a74a49fc104b8b1761288f66543ab55d5001fc43ec31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747147"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>150% 余额递减法
 
@@ -67,7 +64,7 @@ ms.locfileid: "4440730"
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>150% 余额递减法的示例
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |
 | Salvage value / 残值                  | 1,000  |
@@ -88,3 +85,6 @@ ms.locfileid: "4440730"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

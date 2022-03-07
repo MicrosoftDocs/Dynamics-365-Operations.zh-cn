@@ -1,35 +1,32 @@
 ---
 title: 计算化整折旧金额
-description: 本文讨论在“帐簿设置”页找到的“化整折旧”字段。
-author: ShylaThompson
-manager: AnnBe
+description: 本主题讨论在“帐簿设置”页找到的“化整折旧”字段。
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d3df48fc7bb092b0257c4652a8c67d1d740dbcfe
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440810"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674325"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>计算化整折旧金额
 
 [!include [banner](../includes/banner.md)]
 
-本文讨论在“帐簿设置”页找到的“化整折旧”字段。
+本主题讨论在 **帐簿设置** 页找到的 **化整折旧** 字段。
 
 将为每个帐簿设置化差折扣金额。 化整折旧金额用于固定资产折旧图（显示固定资产的未来折旧和价值），也用于折旧方案。 输入此帐簿允许的最低折旧金额。 
 
@@ -50,3 +47,6 @@ ms.locfileid: "4440810"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

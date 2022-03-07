@@ -1,27 +1,24 @@
 ---
 title: 使用工序级和作业级计划来计划生产订单
 description: 此主题的重点是使用工序级排产和作业级排产计划生产订单。
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a69339bc678de8343dbf2646a4d6fe0ace9964c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc91fe5aa398cd94e38beea017d6d60ecb44f17e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422957"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574369"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级计划来计划生产订单
 
@@ -56,3 +53,6 @@ ms.locfileid: "4422957"
 6. 在操作窗格中，选择 **生产订单**。
 7. 选择 **所有作业**。 请注意，根据有效的工艺路线，通过作业级排产创建 5 个作业。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

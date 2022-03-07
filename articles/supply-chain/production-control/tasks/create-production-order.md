@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute, ProdJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ce08532b8281d730cd5fae4ebd634a08c5baeedd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dec447302da3a3bbca7d9c3e783af54bc77dfe70
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259810"
 ---
 # <a name="create-a-production-order"></a>创建生产订单
 
@@ -71,3 +70,6 @@ ms.locfileid: "4422713"
 6. 单击“保存”。
 7. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

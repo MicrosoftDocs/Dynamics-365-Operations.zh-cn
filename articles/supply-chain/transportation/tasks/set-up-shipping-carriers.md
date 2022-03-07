@@ -1,28 +1,25 @@
 ---
 title: 设置装运承运人
 description: 此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423368"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567648"
 ---
 # <a name="set-up-shipping-carriers"></a>设置装运承运人
 
@@ -73,3 +70,6 @@ ms.locfileid: "4423368"
 9. 在 **运输时间引擎** 字段中，从下拉菜单中选择一个选项。
 10. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

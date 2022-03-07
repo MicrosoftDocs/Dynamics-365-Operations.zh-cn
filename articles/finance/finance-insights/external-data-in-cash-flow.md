@@ -1,8 +1,8 @@
 ---
-title: 在现金流预测中的外部数据
+title: 在现金流量预测中使用外部数据
 description: 本主题介绍了要将外部数据输入或导入到现金流预测中必须完成的设置步骤。
 author: rcarlson
-ms.date: 02/16/2022
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23342114c25cd1b59d47aa7ce63f09de029fa690
-ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8314691"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752994"
 ---
-# <a name="external-data-in-cash-flow-forecasts"></a>在现金流预测中的外部数据
+# <a name="use-external-data-in-cash-flow-forecasts"></a>在现金流量预测中使用外部数据
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 可以将外部数据输入或导入现金流预测中。 本主题描述了特定于外部数据的使用和将外部数据添加到现金流预测中的设置步骤。
 
@@ -38,7 +39,7 @@ ms.locfileid: "8314691"
 
 ## <a name="enter-external-data"></a>输入外部数据
 
-要为现金流预测输入和修改外部数据，可以使用 **在 Excel 中打开** 体验。 在 **现金流预测设置** 工作区页面上选择 **外部数据** 按钮，然后选择 **添加外部数据** 或 **编辑现有外部数据**。 Microsoft Excel 文件打开后，可以在以下字段中输入信息：
+要为现金流预测输入和修改外部数据，可以使用 **在 Excel 中打开** 体验。 在 **现金流预测设置** 页面上选择 **外部数据** 按钮，然后选择 **添加外部数据** 或 **编辑现有外部数据**。 Microsoft Excel 文件打开后，可以在以下字段中输入信息：
 
 - **分录 ID**（唯一）
 - **描述**（可选）

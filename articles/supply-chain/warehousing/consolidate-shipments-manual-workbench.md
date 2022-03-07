@@ -2,11 +2,9 @@
 title: 使用装运合并工作台合并装运
 description: 此主题提供以下方案：使用装运合并工作台将多个订单发放到仓库，以后再合并到装运中。
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9d0a2671e18603f701d343a4150128a04c626952
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5c4234cbe591079daf45aef6309cc84da16246ba6461a513b93589b2e1e6bf28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728427"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>使用装运合并工作台合并装运
 
@@ -266,3 +264,6 @@ ms.locfileid: "4963377"
 
 - [装运合并政策](about-shipment-consolidation-policies.md)
 - [配置装运合并策略](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

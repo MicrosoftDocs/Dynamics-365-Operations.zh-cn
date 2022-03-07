@@ -2,16 +2,13 @@
 title: 冲销生产订单状态
 description: 此主题描述如何反转生产订单状态。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParmStatusDecrease, ProdSetupStatusDecrease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 70131
 ms.assetid: b1e0df43-b388-4326-8fb7-501f30c89776
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7529e6c2bd7cb6b8386565c9f19075e56a65d3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760410"
 ---
 # <a name="reverse-the-production-order-status"></a>冲销生产订单状态
 
@@ -53,3 +50,6 @@ ms.locfileid: "4422983"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

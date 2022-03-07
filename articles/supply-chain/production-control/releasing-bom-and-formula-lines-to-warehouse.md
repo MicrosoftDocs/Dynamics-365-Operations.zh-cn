@@ -2,27 +2,24 @@
 title: 将物料清单和配方行发放到仓库
 description: 此主题介绍将物料清单行和配方行的原材料发放到仓库的流程。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731214"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
@@ -64,7 +61,7 @@ ms.locfileid: "4423343"
 
 下图显示包含两个作业（10 和 20）的生产订单，这两个作业涵盖生产订单的装配和包装。 设置每个作业以使用一定数量的物料。 在此图中，时间行下方的绿色箭头指示的发放时限等于在 **(LessThanDate())** 条件中指定的天数。 例如，**(LessThanDate(2))** 表示作业应仅查找两天时限内的未发放数量。
 
-![含有两个批处理作业的生产订单示例](media/bach-job-setup.PNG)
+![含有两个批处理作业的生产订单的示例。](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>按照工序编号或按照成品数量的比例发放物料
 
@@ -81,7 +78,7 @@ ms.locfileid: "4423343"
 
 下图显示含有两个工序（10 和 20）的生产订单。 在此示例中，您可以限制发放到工序 10，仅发放物料 M9203。
 
-![按工序编号发放物料的示例](media/two-operations.PNG)
+![按工序编号发放物料的示例。](media/two-operations.PNG)
 
 有关如何按照成品数量按比例发放物料的快速演示，请观看下面的 YouTube 短片：[关于生产订单下达流程的增强](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)。
 
@@ -98,3 +95,6 @@ ms.locfileid: "4423343"
     可用单位在成品的“单位序列组 ID”中定义。
 
     例如，成品在单位磅 (lbs.) 和托盘 (PL) 中进行以下转换：1 PL = 100 lbs。 要为 10,000 lbs 成品创建一个生产订单， 可以为计划要生产的托盘数量发放原材料。 选择 **PL** 为单位，然后在 **数量** 字段选择一个相应的数字。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

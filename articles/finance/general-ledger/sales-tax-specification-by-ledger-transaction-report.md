@@ -2,28 +2,25 @@
 title: 按分录的销售税明细报表
 description: 此主题说明如何使用按分录的销售税明细报表查看和打印有关为其计算销售税的分录的信息。
 author: ericwang
-manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f835f06c190f1d174fbde6b68f189b0484a7b39610bc2edc0676a3e2fa320268
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721747"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>按分录的销售税明细报表
 [!include [banner](../includes/banner.md)]
@@ -57,4 +54,7 @@ ms.locfileid: "4440605"
 
 若要在报表中仅显示非纳税科目，请设置筛选条件，如星号 (\*)，如下图中所示。
 
-![报表显示非纳税科目](media/taxspecperledgertrans.png)
+![显示非纳税科目的报表。](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: 复利间隔功能
 description: 本主题提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c37da09f50448c27b20dfacccf2e7134b828f13b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9d0f01748d370dfa5351ceb007a630564ca5d3a76c142830f32ce11951db9088
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716685"
 ---
 # <a name="compounding-interval-functionality"></a>复利间隔功能
 
@@ -160,3 +157,6 @@ ms.locfileid: "4440961"
 
 > [!NOTE]
 > 如果年金类型更改为 **期初年金**，付款将在 1 月而不是 12 月进行。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

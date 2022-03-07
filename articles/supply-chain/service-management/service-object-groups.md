@@ -2,28 +2,25 @@
 title: 服务对象组
 description: 对象组有用于排序和筛选有关报告和统计对象的数据。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4438487fa234cf093b557bca9455717b2cd3ca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a559bdc8f7851e38274d9d23070f969502942ad8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422686"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835862"
 ---
 # <a name="service-object-groups"></a>服务对象组 
 
@@ -66,3 +63,6 @@ ms.locfileid: "4422686"
 [创建服务对象](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

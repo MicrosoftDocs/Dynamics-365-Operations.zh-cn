@@ -2,9 +2,11 @@
 title: 资产租赁惯例
 description: 文主题介绍租赁资产的惯例。
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 1/14/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetLease
 audience: Application User
@@ -15,17 +17,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: afc432d448f3b013dd8732120d7e8a50a9169343c705a75465e669156fd5e052
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740018"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131271"
 ---
 # <a name="asset-leasing-conventions"></a>资产租赁惯例
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 文主题介绍租赁资产的惯例。 租赁惯例用于确定租赁帐簿的开始日期。 如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。 如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。
 
@@ -49,6 +50,3 @@ ms.locfileid: "6740018"
 3. 选择 **保存**。
 
 租赁创建后，将根据为租赁输入的开始日期和为帐簿指定的租赁惯例自动输入每个帐簿的开始日期。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

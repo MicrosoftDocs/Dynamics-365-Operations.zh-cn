@@ -10,28 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410450"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478204"
 ---
 # <a name="create-legal-entities"></a>创建法人
-
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建法人，必须在创建渠道之前创建和配置法人。
-
-## <a name="overview"></a>概览
 
 法人是具有已登记的或法律允许的法律结构的组织。 法人可以输入到法律合同，并需要准备报告它们的业绩的报表。
 
@@ -86,3 +82,6 @@ ms.locfileid: "4410450"
 [渠道概览](channels-overview.md)
 
 [渠道设置先决条件](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: 添加对内容交付网络 (CDN) 的支持
 description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722046"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容交付网络 (CDN) 的支持
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向 Microsoft Dynamics 365 Commerce 环境添加内容交付网络 (CDN)。
-
-## <a name="overview"></a>概览
 
 在 Dynamics 365 Commerce 中设置电子商务环境时，可将其配置为使用 CDN 服务。 
 
@@ -45,11 +39,7 @@ ms.locfileid: "4517200"
 
 ## <a name="set-up-ssl"></a>设置 SSL
 
-若要帮助确保设置 SSL，并且缓存统计信息，必须配置 CDN，使其与 Commerce 为您的环境生成的主机名关联。 还必须仅为统计信息缓存以下模式： 
-
-/\_msdyn365/\_scnr/\*
-
-为 Commerce 环境预配了提供自定义域或使用服务请求为环境提供了自定义域之后，请将自定义域指向 Commerce 生成的主机名或终结点。
+在为 Commerce 环境预配提供自定义域或使用服务请求为环境提供自定义域之后，您需要与 Commerce 入职团队协作以计划 DNS 更改。
 
 前面介绍过，生成的主机名或终结点仅支持对 \*.commerce.dynamics.com 使用 SSL 证书。 不支持自定义域支持采用 SSL。
 
@@ -57,7 +47,7 @@ ms.locfileid: "4517200"
 
 所有 CDN 服务都可以用于 Commerce 环境。 下面是两个示例：
 
-- **Microsoft Azure Front Door Service** – Azure CDN 解决方案。 有关 Azure Front Door Service 的详细信息，请参阅[Azure Front Door Service 文档](https://docs.microsoft.com/azure/frontdoor/)。
+- **Microsoft Azure Front Door Service** – Azure CDN 解决方案。 有关 Azure Front Door Service 的详细信息，请参阅[Azure Front Door Service 文档](/azure/frontdoor/)。
 - **Akamai Dynamic Site Accelerator** – 有关详细信息，请参阅 [Dynamic Site Accelerator](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp)。
 
 ## <a name="cdn-setup"></a>CDN 设置
@@ -66,28 +56,33 @@ CDN 的设置过程通常包含下面的步骤：
 
 1. 添加前端主机。
 1. 配置后端池。
-1. 设置传递和缓存规则。
+1. 设置传递规则。
 
 ### <a name="add-a-front-end-host"></a>添加前端主机
 
 可使用任何 CDN 服务，但是本主题中的示例则使用 Azure Front Door Service。 
 
-有关如何设置 Azure Front Door Service 的信息，请参阅[快速入门：为高可用全局 Web 应用程序创建 Front Door](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door)。
+有关如何设置 Azure Front Door Service 的信息，请参阅[快速入门：为高可用全局 Web 应用程序创建 Front Door](/azure/frontdoor/quickstart-create-front-door)。
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>在 Azure Front Door 服务中配置后端池
 
 若要在 Azure Front Door 服务中配置后端池，请执行以下步骤。
 
-1. 向后端池添加 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 充当具有空后端主机标头的自定义主机。
+1. 将 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 添加到后端池作为自定义主机，其后端主机标头与 **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** 相同。
 1. 在 **负载平衡** 下，保留默认值。
+1. 禁用后端池的运行状况检查。
 
 下图显示 Azure Front Door 服务中输入了后端主机名的 **添加后端** 对话框。
 
-![“添加后端池”对话框](./media/CDN_BackendPool.png)
+![“添加后端池”对话框。](./media/CDN_BackendPool.png)
 
 下图显示 Azure Front Door 服务中具有默认负载均衡值的 **添加后端池** 对话框。
 
-![“添加后端池”对话框（续）](./media/CDN_BackendPool_2.png)
+![“添加后端池”对话框（续）。](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> 当为 Commerce 设置自己的 Azure Front Door 服务时，请确保禁用 **运行状况探测**。
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>在 Azure Front Door Service 中设置规则
 
@@ -97,31 +92,13 @@ CDN 的设置过程通常包含下面的步骤：
 1. 在 **名称** 字段中，输入 **默认**。
 1. 在 **接受的协议** 字段中，选择 **HTTP 和 HTTPS**。
 1. 在 **前端主机** 字段中，输入 **dynamics-ecom-tenant-name.azurefd.net**。
-1. 在 **匹配模式** 下的上方字段中，输入 **/\** _。
-1. 在_*工艺路线详细信息**下，将 **工艺路线类型** 选项设置为 **正推**。
+1. 在 **匹配模式** 下的上方字段中，输入 **/\***。
+1. 在 **传递详细信息** 下，将 **传递类型** 设置为 **转发**。
 1. 在 **后端池** 字段中，选择 **ecom-backend**。
 1. 在 **转发协议** 字段组中，选择 **匹配请求** 选项。 
 1. 将 **URL 重写** 选项设置为 **禁用**。
 1. 将 **缓存** 选项设置为 **禁用**。
 
-若要在 Azure Front Door Service 中设置缓存规则，请执行以下步骤。
-
-1. 添加一个缓存规则。
-1. 在 **名称** 字段中，输入 **统计信息**。
-1. 在 **接受的协议** 字段中，选择 **HTTP 和 HTTPS**。
-1. 在 **前端主机** 字段中，输入 **dynamics-ecom-tenant-name.azurefd.net**。
-1. 在 **匹配模式** 下的上方字段中，输入 **/\_msdyn365/\_scnr/\** _。
-1. 在_*工艺路线详细信息**下，将 **工艺路线类型** 选项设置为 **正推**。
-1. 在 **后端池** 字段中，选择 **ecom-backend**。
-1. 在 **转发协议** 字段组中，选择 **匹配请求** 选项。
-1. 将 **URL 重写** 选项设置为 **禁用**。
-1. 将 **缓存** 选项设置为 **禁用**。
-1. 在 **查询字符串缓存行为** 字段中，选择 **缓存每个唯一 URL**。
-1. 在 **动态压缩** 字段组中，选择 **启用** 选项。
-
-下图显示 Azure Front Door Service 中的 **添加规则** 对话框。
-
-![“添加规则”对话框](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > 如果要使用的域已激活且处于活动状态，请从 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) 中的 **支持** 磁贴创建支持票证来获取后续步骤的帮助。 有关详细信息，请参阅[获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
@@ -130,36 +107,21 @@ CDN 的设置过程通常包含下面的步骤：
 
 下图显示 Azure Front Door Service 中的 **CNAME 配置** 对话框。
 
-![“CNAME 配置”对话框](./media/CNAME_Configuration.png)
+![“CNAME 配置”对话框。](./media/CNAME_Configuration.png)
 
 可使用 Azure Front Door Service 管理证书，也可以对自定义域使用您自己的证书。
 
 下图显示 Azure Front Door Service 中的 **自定义域 HTTPS** 对话框。
 
-![“自定义域 HTTPS”对话框](./media/Custom_Domain_HTTPS.png)
+![“自定义域 HTTPS”对话框。](./media/Custom_Domain_HTTPS.png)
 
-有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)。
+有关将自定义域添加到 Azure Front Door 的详细说明，请参阅[将自定义域添加到 Front Door](/azure/frontdoor/front-door-custom-domain)。
 
 现在应该已经正确配置了您的 CDN，可将其用于您的 Commerce 站点。
 
 ## <a name="additional-resources"></a>其他资源
 
-[配置域名](configure-your-domain-name.md)
+[内容交付网络实施选项](cdn-options.md)
 
-[部署新的电子商务租户](deploy-ecommerce-site.md)
 
-[创建电子商务站点](create-ecommerce-site.md)
-
-[将 Dynamics 365 Commerce 站点与在线渠道相关联](associate-site-online-store.md)
-
-[管理 robots.txt 文件](manage-robots-txt-files.md)
-
-[批量上传 URL 重定向](upload-bulk-redirects.md)
-
-[在 Commerce 中设置 B2C 租户](set-up-B2C-tenant.md)
-
-[设置用户登录自定义页面](custom-pages-user-logins.md)
-
-[在 Commerce 环境中配置多个 B2C 租户](configure-multi-B2C-tenants.md)
-
-[启用基于位置的商店检测](enable-store-detection.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

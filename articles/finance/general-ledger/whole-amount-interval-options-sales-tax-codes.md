@@ -2,28 +2,25 @@
 title: 全部金额和销售税代码的间隔计算选项
 description: 本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440757"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842360"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
@@ -47,9 +44,8 @@ ms.locfileid: "4440757"
 ## <a name="example-whole-amount-method-of-calculation"></a>示例：计算的全部金额方法
 在“销售税代码值”页中，以下面间隔设置增值税率：
 
-|                   |                   |              |
+| 下限     | 上限     | 税率     |
 |-------------------|-------------------|--------------|
-| **下限** | **上限** | **税率** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |
@@ -66,9 +62,8 @@ ms.locfileid: "4440757"
 ## <a name="example-interval-method-of-calculation"></a>示例：计算的间隔方法
 在“值”页中，以下面间隔设置增值税率：
 
-|                   |                   |              |
+| 下限     | 上限     | 税率     |
 |-------------------|-------------------|--------------|
-| **下限** | **上限** | **税率** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |
@@ -90,3 +85,6 @@ ms.locfileid: "4440757"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

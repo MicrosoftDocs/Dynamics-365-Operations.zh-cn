@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 102f48d1273ac91d5cb42eca11d2dec337c30528
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021396"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214954"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>设置首选维护工人
 
@@ -67,3 +67,6 @@ ms.locfileid: "5021396"
 
 安排工作订单期间，可以计算分数来确定哪些工人应完成与工作订单关联的作业（这些分数在 **资产管理参数** > **工作订单计划编制** 链接中设置）。 如果在安排工作订单期间两位或更多首选维护工人或负责的维护工人得到的分数相同，则随机选择一位工人。 否则，始终选择为其分配的分数最高的工人来完成工作订单。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

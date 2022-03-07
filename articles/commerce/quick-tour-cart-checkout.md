@@ -2,35 +2,30 @@
 title: 购物车和结账页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410592"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982960"
 ---
-# <a name="cart-and-checkout-pages-overview"></a>购物车和结账页面概览
+# <a name="cart-and-checkout-pages-overview"></a>购物车和结帐页面概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
-
-## <a name="overview"></a>概览
 
 电子商务网站的购物车页显示客户已添加到购物车的所有商品。 购物车页是使用购物车模块生成的。 购物车模块是承载展示购物车中的商品所需全部模块的容器。 购物车模块也可以使用其他模块显示订单汇总和已经为客户订单应用的任何促销代码。
 
@@ -42,7 +37,7 @@ ms.locfileid: "4410592"
 
 下图显示使用模块库和“Fabrikam”主题生成的购物车页的示例。
 
-![购物车页示例](./media/cart2.PNG)
+![购物车页面的示例。](./media/cart2.PNG)
 
 购物车页的主体显示客户已添加到购物车的所有商品。 将显示所有适用的折扣。 这些折扣包括复合折扣。 例如，“买 3 件打九折”或“买一瓶和一个背包打九折”。 订单汇总模块显示应用折扣、运费、税等后的应付金额。 还有一个促销代码模块，供客户应用或删除促销代码。
 
@@ -58,7 +53,7 @@ ms.locfileid: "4410592"
 
 下图显示使用模块库生成的结帐页的示例。
 
-![结帐页示例](./media/Checkout.PNG)
+![结帐页面的示例。](./media/Checkout.PNG)
 
 结帐页的主题是收集所有订单信息的位置。 此信息包括装运地址、交货选项和付款信息。 结帐采用分步流程，因为必须按照特定顺序输入要处理的信息。 例如，必须先输入装运地址，才能计算装运成本和为付款授权。
 
@@ -107,3 +102,6 @@ ms.locfileid: "4410592"
 [产品详细信息页面概览](quick-tour-pdp.md)
 
 [帐户管理页面概览](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

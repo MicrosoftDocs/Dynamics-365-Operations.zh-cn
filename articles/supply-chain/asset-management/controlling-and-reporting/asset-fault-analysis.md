@@ -1,12 +1,10 @@
 ---
 title: 资产故障分析
 description: 本主题介绍资产管理中的资产故障分析。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022364"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837865"
 ---
 # <a name="asset-fault-analysis"></a>资产故障分析
 
@@ -108,3 +106,6 @@ ms.locfileid: "5022364"
 >[!NOTE]
 >有关为工人和维护请求创建的所有故障登记的概览，请单击 **资产管理** > **查询** > **资产故障** > **资产故障**。 在 **资产故障** 页中，选择一个资产故障登记，然后展开 **相关信息** 窗格以查看与关联的工作订单或维护请求有关的信息。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

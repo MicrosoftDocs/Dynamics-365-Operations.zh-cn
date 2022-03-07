@@ -1,33 +1,30 @@
 ---
 title: 从应付帐款创建和购置资产
-description: '本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。 '
+description: '此过程逐步演示如何遵照采购流程来创建和购置固定资产。 '
 author: saraschi2
-manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440785"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394650"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付帐款创建和购置资产
 
 [!include [banner](../../includes/banner.md)]
 
-本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。   本任务需要用到普通及应付帐目会计和演示公司USMF的数据。
+此过程逐步演示如何遵照采购流程来创建和购置固定资产。   本任务需要用到普通及应付帐目会计和演示公司USMF的数据。
 
 
 ## <a name="set-fixed-assets-parameters"></a>设置固定资产参数
@@ -56,3 +53,6 @@ ms.locfileid: "4440785"
 17. 在列表中，单击所选行中的链接。
 18. 单击 **过帐**。 在过帐发票时，将会创建和购置固定资产。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

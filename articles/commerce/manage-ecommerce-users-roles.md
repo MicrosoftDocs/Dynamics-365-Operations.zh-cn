@@ -2,16 +2,13 @@
 title: 管理电子商务用户和角色
 description: 此主题介绍如何为用户授予 Microsoft Dynamics 365 Commerce 站点创作环境的访问权限。
 author: bicyclingfool
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715398"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>管理电子商务用户和角色
 
@@ -71,3 +68,6 @@ Dynamics 365 for Commerce 创作环境支持以下角色。
 [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

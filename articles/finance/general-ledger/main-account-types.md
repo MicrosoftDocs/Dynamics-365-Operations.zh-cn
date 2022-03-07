@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3381
 ms.assetid: e55b9c0e-597b-46d4-b453-81c780939b6d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acbe3d6c10891ba8b290f3efdd8e5aab3ca2c1c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f3ee9d1186dad04e993a3b36c45b5a541605817
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248895"
 ---
 # <a name="main-account-types"></a>主科目类型
 
@@ -41,3 +40,6 @@ ms.locfileid: "4440664"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

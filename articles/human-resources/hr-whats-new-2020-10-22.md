@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 2020 年 10 月 22 日中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
+description: 本主题介绍了 2020 年 10 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
 author: jcart1106
 manager: tfehr
 ms.date: 10/22/2020
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 41b4e92720c6a9f830d940900c3c6e5b0a173de0
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529974"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130823"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Dynamics 365 Human Resources 2020 年 10 月 22 日中的新增功能或更改
 
@@ -76,7 +75,7 @@ ms.locfileid: "4529974"
 | --- | --- | --- |
 | Microsoft Teams 中的 Human Resources 应用 | [Microsoft Teams 中的员工休假和缺勤体验](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams 中的 Human Resources 应用](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[管理 Teams 中的休假申请](hr-teams-leave-app.md) |
 | 增强的工作流请求和审批 | [组织和人员管理工作流体验增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [用于定位“分配给我的工作项”列表的配置选项](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| 适用于 Human Resources 的 Common Data Service 中的虚拟实体 | [在 Common Data Service 中展开 Dynamics 365 Human Resources 核心数据](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [配置 Common Data Service 虚拟实体](hr-admin-integration-common-data-service-virtual-entities.md) |
+| 适用于 Human Resources 的 Dataverse 中的虚拟实体 | [在 Dataverse 中展开 Dynamics 365 Human Resources 核心数据](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [配置 Dataverse 虚拟实体](hr-admin-integration-common-data-service-virtual-entities.md) |
 | 与 LinkedIn Talent Hub 集成 | [与 LinkedIn Talent Hub 集成](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [与 LinkedIn Talent Hub 集成](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
 | 经理自助服务中的自定义链接 | [经理自助服务中的自定义链接](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [经理自助服务中的自定义链接](https://aka.ms/MSSCustomLinks) |
 

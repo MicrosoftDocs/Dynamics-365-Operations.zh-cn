@@ -2,28 +2,25 @@
 title: 使用外币记录租赁
 description: 本主题说明如何使用非记帐币种或申报币种记录租赁。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 91bf3f91614f0dd4835c253456128c9ced046749c0e13383590e01dfd436c921
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766329"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>使用外币记录租赁
 
@@ -53,3 +50,6 @@ ms.locfileid: "4440948"
 最终折旧费用金额可以通过使用稍微不同的汇率来计算，因此使用权资产可以以记帐货币和申报币种完全折旧。
 
 如果租赁已重新分类为 **延期租金**，系统会自动清除记帐币种和申报币种的汇率（如果已定义）。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

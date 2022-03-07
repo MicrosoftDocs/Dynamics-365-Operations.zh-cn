@@ -2,26 +2,23 @@
 title: 工作行详细信息
 description: 本主题介绍“工作行详细信息”页，该页显示系统中单个工作行丰富的可排序、可筛选列表。
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423376"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778273"
 ---
 # <a name="work-line-details"></a>工作行详细信息
 
@@ -31,7 +28,7 @@ ms.locfileid: "4423376"
 
 ## <a name="turn-on-the-work-line-details-feature"></a>开启工作行详细信息功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块**：*仓库管理*
 - **功能名称**：*工作行详细信息*
@@ -128,3 +125,6 @@ ms.locfileid: "4423376"
 
 > [!IMPORTANT]
 > 如果仅取消工作行的部分数量，还必须从负荷行中删除过时数量。 不然，除非正确设置欠交，否则不会确认负荷行的装运。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

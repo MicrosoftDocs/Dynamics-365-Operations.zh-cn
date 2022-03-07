@@ -2,36 +2,30 @@
 title: 创建默认客户
 description: 本主题描述如何创建在 Microsoft Dynamics 365 Commerce 中创建渠道时要使用的默认客户。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410400"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799171"
 ---
 # <a name="create-a-default-customer"></a>创建默认客户
-
 
 [!include [banner](includes/banner.md)]
 
 本主题描述如何创建在 Microsoft Dynamics 365 Commerce 中创建渠道时要使用的默认客户。
-
-## <a name="overview"></a>概览
 
 创建渠道时，您将需要提供一个默认客户。 在首先创建客户组和客户地址簿后，可以轻松创建默认客户。
 
@@ -113,3 +107,6 @@ ms.locfileid: "4410400"
 [渠道概览](channels-overview.md)
 
 [渠道设置先决条件](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,29 +2,27 @@
 title: 设置设备以运行生产车间执行界面
 description: 为生产车间中的每个设备设置生产车间执行界面。 公司通常以不同方式设置每个设备，具体取决于设备的用途。 例如，一家公司可能在接待区有一个设备，以供工作人员上班打卡和下班打卡，而在车间有另一个设备，以供工作人员管理作业。
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966263"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814698"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>设置设备以运行生产车间执行界面
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 为生产车间中的每个设备设置生产车间执行界面。 公司通常以不同方式设置每个设备，具体取决于设备的用途。 例如，一家公司可能在接待区有一个设备，以供工作人员上班打卡和下班打卡，而在车间有另一个设备，以供工作人员管理作业。
 
@@ -79,3 +77,6 @@ ms.locfileid: "4966263"
 默认情况下，如果 12 个小时内没有人使用，生产车间执行界面会自动注销。 然后，Supply Chain Management 用户必须再次登录。 但是，您可以将超时限制最多延长 90 天。
 
 若要延长超时限制，请登录 Supply Chain Management，然后转到 **系统管理 \> 用户 \> 会话扩展**。 指定用于登录设备的 Supply Chain Management 用户帐户，以及会话应保持活动状态的小时数。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

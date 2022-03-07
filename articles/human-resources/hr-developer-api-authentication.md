@@ -2,7 +2,7 @@
 title: 身份验证
 description: 本文提供有关如何通过 Microsoft Dynamics 365 Human Resources 数据应用程序编程接口 (API) 进行身份验证的概述信息。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60774d162d733404166e710932291a736eb0d8b4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417390"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465526"
 ---
 # <a name="authentication"></a>身份验证
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 本文提供有关如何通过 Microsoft Dynamics 365 Human Resources 数据应用程序编程接口 (API) 进行身份验证的概述信息。
 
@@ -185,3 +187,6 @@ namespace TalentODataPoC
 ```
 
 检索访问令牌后，您将在发送到数据 API 的每个请求中将令牌作为不记名令牌传递到授权标头中，如上所述。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

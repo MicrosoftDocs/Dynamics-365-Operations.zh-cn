@@ -1,12 +1,10 @@
 ---
 title: 固定资产前滚报表
 description: 本主题说明如何使用固定资产前滚报表。
-author: saraschi2
-manager: ''
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969145"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883585"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 
@@ -30,7 +28,7 @@ ms.locfileid: "4969145"
 
 **固定资产前滚** 报表以通俗易懂的 Microsoft Excel 格式提供期间结帐、财务报表和报税所需的详细固定资产数据。 该报表中包含固定资产的期初余额和期末余额，期间的评估变动，以及该期间发生的任何新资产购置和处置。 将为单个固定资产报告数据，还将为固定资产组和法人汇总价值。
 
-**固定资产前滚** 报表使用电子申报 (ER) 框架。 必须先从 Microsoft Dynamics Lifecycle Services (LCS) 导入固定资产模型和固定资产前滚配置，才能运行该报表。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
+**固定资产前滚** 报表使用电子申报 (ER) 框架。 必须先从 Microsoft Dynamics Lifecycle Services (LCS) 导入固定资产模型和固定资产前滚配置，才能运行该报表。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
 
 此报表在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序提供。 必须为安装了 2017 年 7 月版本的环境应用三个修补程序：
 
@@ -66,3 +64,6 @@ ms.locfileid: "4969145"
 |           处置：损耗值            |                                                                                               具有处置 - 损耗交易记录的固定资产帐簿的损耗值。                                                                                               |
 |           处置：损益            |                                                                                 作为固定资产帐簿的处置交易记录一部分计算的损益值。                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

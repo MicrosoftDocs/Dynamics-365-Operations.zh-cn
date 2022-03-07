@@ -2,28 +2,25 @@
 title: 服务模板
 description: 您可以将某一服务协议定义为模板，并且以后将该模板上的行复制到其他服务协议或服务订单中。
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8a92d67afe5fd427d1bc272c59e459cb1547d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5e2e1eb04811f063547622395e6ec9289e04b68c2ac8efadc70e61cbc87f77d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777807"
 ---
 # <a name="service-templates"></a>服务模板
 
@@ -58,3 +55,6 @@ ms.locfileid: "4422679"
 ## <a name="related-topics"></a>相关主题
 
 [复制服务模板行](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

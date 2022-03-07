@@ -2,27 +2,27 @@
 title: 仓库配置概览
 description: 本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。
 author: perlynne
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11554
+ms.custom:
+- "11554"
+- intro-internal
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b0ebb5d7f77e2104d0280bcee7c018d9cf97bd5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970148"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982990"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 
@@ -111,10 +111,12 @@ Supply Chain Management 中的仓库管理系统允许您以灵活方式定义�
 
 为了更方便、更快地定义与每个位置指示行关联的操作，请使用一个预定义策略。 例如，您可以使用 **没有传入工作的空库位** 策略搜索仓库中的可用位置，或者为传出销售领料使用 **先过期先出批次预留** 策略。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [配置启用了 WMS 的仓库中的位置](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

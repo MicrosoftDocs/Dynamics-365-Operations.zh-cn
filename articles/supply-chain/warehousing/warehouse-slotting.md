@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 0851af976dd73b7f13372880587187f546091bec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248587"
 ---
 # <a name="warehouse-slotting"></a>仓库时隙
 
@@ -384,3 +383,6 @@ ms.locfileid: "4627741"
 1. 如果需要，设置要自动运行的发生次数。
 
 对于此场景中的练习，请 **勿** 设置自动时隙。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

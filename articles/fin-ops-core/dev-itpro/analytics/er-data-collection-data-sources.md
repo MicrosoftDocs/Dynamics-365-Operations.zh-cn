@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323893"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413582"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>使用电子报告格式的数据收集数据源
 
 [!include [banner](../includes/banner.md)]
 
-您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架的工序设计器，以配置用于生成其他格式出站文档的 ER 解决方案的格式组件。 配置的格式组件的层次结构由各种类型的格式元素组成。 这些格式元素用于在运行时用所需的信息填充生成的文档。 默认情况下，当您运行 ER 格式时，格式元素的运行顺序与它们在格式层次结构中的显示顺序相同：从上到下一个接一个。
+您可以使用[电子报表 (ER)](general-electronic-reporting.md) 框架的工序设计器，以配置用于生成其他格式出站文档的 ER 解决方案的[格式](general-electronic-reporting.md#FormatComponentOutbound)组件。 配置的格式组件的层次结构由各种类型的格式元素组成。 这些格式元素用于在运行时用所需的信息填充生成的文档。 默认情况下，当您运行 ER 格式时，格式元素的运行顺序与它们在格式层次结构中的显示顺序相同：从上到下一个接一个。
 
-当 ER 运行包含绑定的格式元素时，会运行该绑定的公式，并且格式元素会将值添加到生成的文档中。 例如，绑定可以将数据模型字段的值传递到格式元素。 您可以配置数据集合数据源以在运行时收集数据模型字段的值，进行值求和，并使用收集的值填充生成的文档。 要使用此方法，请更改初始绑定，以便使用配置的数据集合数据源将数据模型字段的值传递给格式元素。 通过数据集合数据源传递值，您可以收集所需的详细信息以供进一步使用。
+当 ER 运行包含绑定的格式元素时，会运行该绑定的公式，并且格式元素会将值添加到生成的文档中。 例如，绑定可以将[数据模型字段](general-electronic-reporting.md#data-model-and-model-mapping-components)的值传递到格式元素。 您可以配置数据集合数据源以在运行时收集数据模型字段的值，进行值求和，并使用收集的值填充生成的文档。 要使用此方法，请更改初始绑定，以便使用配置的数据集合数据源将数据模型字段的值传递给格式元素。 通过数据集合数据源传递值，您可以收集所需的详细信息以供进一步使用。
 
 配置数据集合数据源时，请指定将在数据源中管理的值类型。 当前为收集值支持以下[数据类型](er-formula-supported-data-types-primitive.md)：
 

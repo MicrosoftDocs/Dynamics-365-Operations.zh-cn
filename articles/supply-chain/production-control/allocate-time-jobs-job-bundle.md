@@ -2,11 +2,9 @@
 title: 分配时间到作业捆绑中的作业
 description: 在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766599"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间到作业捆绑中的作业
 
@@ -82,7 +80,7 @@ ms.locfileid: "4966572"
 ## <a name="net-time-allocation-key"></a>净时间分配参数
 下表阐释用于计算分配的时间的公式。 这是公式：每个报告的计算时间 = 捆绑时间 ÷ 作业数
 
-|                              | 09:00–10:00（1 小时） | 10:00–11:00（1 小时） | 11:00–13:00（2 小时） | 13:00–15:00（2 小时） | 分配的时间 |
+| 示例                       | 09:00–10:00（1 小时） | 10:00–11:00（1 小时） | 11:00–13:00（2 小时） | 13:00–15:00（2 小时） | 分配的时间 |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | 捆绑中的作业的编号。 | 1                    | 3                    | 2                     | 1                     | 不适用 |
 | 作业 1                        | 1 ÷ 1 = 1 小时       | 1 ÷ 3 = 0.33 小时    | 不适用        | 不适用        | 1.33 小时     |
@@ -110,3 +108,6 @@ ms.locfileid: "4966572"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

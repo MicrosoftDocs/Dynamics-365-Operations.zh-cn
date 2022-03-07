@@ -2,11 +2,9 @@
 title: 正在接收混合牌照
 description: 此主题描述如何在移动设备上使用混合牌照接收为多个物料登记和创建工作。
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c4dcafa5d997bce21d37d02f87fbf604568c24e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84b01e9c6ad041fe95b46c97d89b90e85422d170399754062a6422319fc23a63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769459"
 ---
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 
@@ -48,3 +46,6 @@ ms.locfileid: "4965622"
 - 混合牌照接收和储存
 
 用于标识原始凭证行的选项为采购订单物料、采购订单行、退货订单、转移单物料和转移单行。 这些选项可以更改对单个牌照的接收单。 最后一个选项是按加载物料。 您可以将多个物料添加到牌照，但不能在多个负荷之间切换。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

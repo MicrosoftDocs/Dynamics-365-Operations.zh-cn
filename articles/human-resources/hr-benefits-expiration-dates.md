@@ -1,31 +1,33 @@
 ---
 title: 管理福利到期日期
-description: 此过程显示如何终止或延长福利，以及管理在福利日期内招聘的工作人员的招聘日期。
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: 此过程显示如何终止或延长福利，以及如何管理工作人员的招聘日期。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 7332a95e1cd558336dc19bcb269ef89ce3721aa9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417382"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065960"
 ---
 # <a name="manage-benefit-expiration-dates"></a>管理福利到期日期
 
-此过程显示如何终止或延长福利，以及管理在福利日期内招聘的工作人员的招聘日期。 创建此程序的演示数据公司是 USMF。
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+此过程显示如何终止或延长福利，以及如何管理工作人员的招聘日期。 创建此程序的演示数据公司是 USMF。
 
 ## <a name="benefit-expiration-dates"></a>福利到期日期
 
@@ -46,3 +48,6 @@ ms.locfileid: "4417382"
 15. 单击“福利”。
 16. 在列表中，找到福利并选择记录。 请注意新的覆盖范围结束日期。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

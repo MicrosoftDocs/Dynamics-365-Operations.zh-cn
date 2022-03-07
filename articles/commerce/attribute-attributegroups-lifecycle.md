@@ -2,16 +2,13 @@
 title: 管理属性和属性组
 description: 此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727646"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>管理属性和属性组
 
@@ -46,7 +43,7 @@ ms.locfileid: "4410467"
 |            | 复合输入         | 0–10                        | 2             |
 |            | 组件输入         | 0–10                        | 1             |
 | LCD        | 3D 已就绪                 | 是或否                   | 是           |
-|            | 3D 已启用               | 是或否                   | 无            |
+|            | 3D 已启用               | 是或否                   | 否            |
 | 等离子     | 最低工作温度      | 32–110 度              | 32            |
 |            | 最高工作温度        | 32–110 度              | 100           |
 | 投影 | 投影管保修 | 6、12 或 18 个月         | 12            |
@@ -73,7 +70,7 @@ ms.locfileid: "4410467"
     - 将一个属性类型命名为 **镜片形状**，然后添加以下值：**椭圆形**、**方形** 和 **三角形**。
     - 将另一个属性类型命名为 **太阳镜品牌**，然后添加以下值：**Ray ban**、**Aviator** 和 **Oakley**。
 
-![属性类型](media/AttributeType.png)
+![属性类型。](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>设置属性
 
@@ -82,7 +79,7 @@ ms.locfileid: "4410467"
 3. 创建名为 **镜片** 的属性。
 4. 将 **属性类型** 字段设置为 **镜片形状**。
 
-![属性](media/Attribute.png)
+![属性。](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>属性元数据
 
@@ -104,7 +101,7 @@ ms.locfileid: "4410467"
 
 这些选项最初用于改进联机店面的搜索功能。 尽管 Commerce 中不包含现成的联机店面，却的确包含电子商务发布软件开发包 (SDK)。 客户可使用此 SDK 将产品放入所选搜索索引中。 尽管导入了产品数据，客户仍然应该可以区分可搜索数据、可查询的数据等。 这样他们就可以构建最佳索引以确保仅为 *他们认为* 应该建立索引的属性建立索引。
 
-有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](https://technet.microsoft.com/library/jj219669.aspx)。
+有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](/SharePoint/search/search-schema-overview)。
 
 ## <a name="filter-settings-for-attributes"></a>属性的筛选设置
 
@@ -137,7 +134,7 @@ ms.locfileid: "4410467"
     - 200 - 500
     - 500 次或更多
 
-![属性筛选器设置](media/AttributeFilterSettings.PNG)
+![属性筛选器设置。](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>属性组
 
@@ -145,7 +142,7 @@ ms.locfileid: "4410467"
 
 您还可以为属性组中包含的属性设置默认值。 例如，向属性组添加颜色属性，然后选择 **蓝色** 作为默认属性值。 在此情况下，向产品添加包含颜色为其属性之一的属性组时，**蓝色** 将显示为该产品的默认颜色。
 
-![属性组](media/AttributeGroup.png)
+![属性组。](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>创建属性组
 
@@ -158,7 +155,7 @@ ms.locfileid: "4410467"
 
 可将一个或多个属性组与以下类型的类别层次结构中的类别节点关联：Commerce 产品层次结构、渠道导航类别层次结构和补充产品类别层次结构。 然后，为产品分类时，这些产品将继承属性组中包含的属性。
 
-![产品层次结构 - 产品属性组](media/AGRetailProdHierarchy.PNG)
+![产品层次结构 - 产品属性组。](media/AGRetailProdHierarchy.PNG)
 
 按照以下步骤将属性组分配给 Commerce 产品层次结构中的类别。
 
@@ -203,7 +200,7 @@ ms.locfileid: "4410467"
     3. 选择 **时尚配件** 类别节点，选择 **时尚太阳镜** 类别，然后在 **渠道产品属性** 快速选项卡上，为每个属性选择 **包括属性**。
     4. 选择 **安装** 类别节点，选择 **裤子** 类别，然后在 **渠道产品属性** 快速选项卡上，为每个属性选择 **包括属性**。
 
-![渠道类别和产品属性 - 属性组](media/CCPAttrGrp.png)
+![渠道类别和产品属性 - 属性组。](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>覆盖属性值
 
@@ -217,7 +214,7 @@ ms.locfileid: "4410467"
 4. 在网格中选择所需产品。 然后，在操作窗格中 **产品** 选项卡上的 **设置** 组中，选择 **产品属性**。
 5. 在左窗格中选择一个属性，然后在右窗格中更新其值。
 
-![产品详细信息页面 - 产品属性组](media/ProdDetailsProdAttrValues.png)
+![产品详细信息页面 - 产品属性组。](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>覆盖目录中的产品的属性值
 
@@ -236,7 +233,7 @@ ms.locfileid: "4410467"
     > [!NOTE]
     > 如果创建共享产品介质和共享产品属性，它们将应用于所有产品。
 
-![目录产品属性组](media/CatalogProdAttrValues.png)
+![目录产品属性组。](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>覆盖渠道中的产品的属性值
 
@@ -257,3 +254,6 @@ ms.locfileid: "4410467"
 
     > [!NOTE]
     > 如果创建共享产品介质和共享产品属性，它们将应用于所有产品。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

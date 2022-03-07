@@ -2,26 +2,23 @@
 title: 打印销售税支付（按代码）报表
 description: 此主题介绍按记帐币种或销售税代码币种打印销售税支付（按代码）报表所需设置和操作。
 author: anasyash
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 7033999f7258e9ddd1d01620f9ad416e94ef3111
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c863308d2efc442ad16973407fe1cb72fb68cf89204c20f4468a3c98f4740c5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774321"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>打印销售税支付（按代码）报表 
 
@@ -43,8 +40,11 @@ ms.locfileid: "4440764"
     - **记帐币种** – 使用记帐币种打印报表金额。
     - **销售税代码币种** – 使用销售税代码的币种打印报表金额。
 
-    ![“增值税支付（按代码）”对话框](media/Sales-tax-payment-by-code.png)
+    ![“销售税支付（按代码）”对话框。](media/Sales-tax-payment-by-code.png)
 
 下图显示生成的报表的示例。 如果报告代码分配给的销售税代码的 **销售税币种** 字段设置为 **EUR**，则此报表显示报告代码 **101** 的币种为 **EUR**。
 
-![销售税支付（按代码）报表的示例](media/Sales-tax-payment-by-code-2.png)
+![销售税支付（按代码）报表的示例。](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

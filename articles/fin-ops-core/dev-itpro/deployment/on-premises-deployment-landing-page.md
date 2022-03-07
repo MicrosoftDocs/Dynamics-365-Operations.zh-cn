@@ -2,11 +2,9 @@
 title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679336"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749297"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -39,14 +37,16 @@ ms.locfileid: "4679336"
 
 ## <a name="onboard"></a>入职
 - [在 Lifecycle Services (LCS) 中设置本地项目](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [设置和部署本地环境（Platform update 12 及更高版本）](setup-deploy-on-premises-pu12.md)
+- [设置和部署本地环境（Platform update 41 及更高版本）](setup-deploy-on-premises-pu41.md)
+- [设置并部署本地环境（平台更新 12 直至 40）](setup-deploy-on-premises-pu12.md)
 - [在本地环境中安装网络打印机设备](../analytics/install-network-printer-onprem.md)
 - [为本地部署配置 SQL Server Reporting Services](../analytics/configure-ssrs-on-premises.md)
 - [开发自定义模型并将其部署到本地环境](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>在你的本地部署中工作
+- [为 SQL Server Reporting Services (SSRS) 节点配置高可用性](onprem-SSRSHA.md)
 - [配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)
-- [导入电子申报 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
+- [导入电子报告 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印](../analytics/printing-capabilities-on-premises.md)
 - [为本地环境配置代理](onprem-reverseproxy.md)
 - [设置对 Finance and Operations 的技术支持](../lifecycle-services/support-experience.md)
@@ -72,3 +72,6 @@ ms.locfileid: "4679336"
 - [Finance and Operations 的已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360368"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -35,21 +35,23 @@ ms.locfileid: "8102705"
 
 大多数计划订单功能在使用计划优化的 Microsoft Dynamics 365 Supply Chain Management 的所有标准安装中都有提供。 但是，本主题中所述的一些功能必须先在“功能管理”中打开，然后才能够使用。
 
-### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>打开或关闭并行确认计划订单
+### <a name="enable-parallelized-firming-of-planned-orders"></a>启用并行确认计划订单
 
-并行确认通过将确认流程在多个线程之间并行化来帮助加快此流程。 当确认很多计划订单时，此方法会很有用。 要使用此功能，必须为您的系统打开 *并行确认计划订单* 功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，您可以转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，搜索 *并行确认计划订单* 功能来打开或关闭此功能。
+并行确认通过将确认流程在多个线程之间并行化来帮助加快此流程。 当确认很多计划订单时，此方法会很有用。
+
+要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *并行确认计划订单* 功能。
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>启用通过筛选确认计划订单
 
 通过筛选确认计划订单可以让您定义选择要确认的计划订单的逻辑条件。 您还可以预览选择了哪些计划订单，在后台运行流程和/或将其计划为批处理作业。
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *通过筛选确认计划订单* 功能来打开或关闭此功能。
+要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *通过筛选确认计划订单* 功能。
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>启用计划优化自动确认
 
 自动确认可以让您在确认时限内作为主计划流程的一部分确认计划订单。 Supply Chain Management 中内置的计划引擎始终支持自动确认。 但是，如果还要将它与计划优化一起使用，则必须打开此功能。
 
-要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化自动确认* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化自动确认* 功能。
 
 ## <a name="manually-firm-planned-orders"></a>手动确认计划订单
 
@@ -78,9 +80,6 @@ ms.locfileid: "8102705"
     - **按采购协议分组** – 将此选项设置为 *是* 可以将与现有采购协议具有相同供应商的计划采购订单分组到一起，并为每个采购协议创建一个采购订单。 当启用 **按供应商进行分组** 时，此选项会自动启用。 要使用 **按采购协议分组**，**主计划参数** 页上的 **查找采购协议** 必须设置为 *是*。
     - **按期间进行分组**（在 **采购订单** 部分）– 选择用于分组计划采购订单的期间。 若要使用此选项，还必须选择 **按供应商进行分组** 选项。
     - **按期间进行分组**（在 **转移** 部分）– 选择用于分组计划转移单的期间。 订单将基于 **源仓库** 和 **目标仓库** 值进行分组。
-
-    > [!NOTE]
-    > 每个“分组依据”选项都会导致系统将每个计划订单转换为单个采购订单中的行，该采购订单是分组的结果。
 
     ![“确认”对话框中的“参数”快速选项卡。](./media/manual-firming.png "“确认”对话框中的“参数”快速选项卡")
 

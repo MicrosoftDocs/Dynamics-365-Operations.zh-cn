@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 550ecca31af48e624e292b342d909abd6eb3e87af122f736eb388524b42f1e05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa8137de7b782ba80a0d80c987a96c37b3a7d86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730627"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361372"
 ---
 # <a name="embed-images-and-shapes-in-documents-that-you-generate-by-using-er"></a>使用 ER 在您生成的文档中嵌入图像和形状
 

@@ -1,37 +1,33 @@
 ---
 title: 危险物料概述
 description: 本主题概括介绍与在产品信息管理和仓库管理期间处理和记录危险物料有关的功能。
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422751"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986268"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 为了始终遵守装运和运输法规，装运被分类为危险货物的物料的组织必须在装运中提供其他文件。 危险物料功能使客户可以存储与已发布物料有关的信息。 然后，可以使用此信息来帮助准备装运文档。 装运危险货物的组织必须有自己的流程和程序来管理装运流程。 Microsoft Dynamics 365 Supply Chain Management 只是可以帮助生成所需文档的工具。
 
 下图说明了设置和使用危险物料功能所需的步骤。
 
-![设置和使用危险物料功能](media/hazmat-overview.png "设置和使用危险物料功能")
+![设置和使用危险物料功能。](media/hazmat-overview.png "设置和使用危险物料功能")
 
 危险物料功能在“产品信息管理”中设置，提供可通过“仓库管理”打印的文档。 因此，从广义上讲，以下区域是您将检查、设置和使用此功能的功能的两个主要区域：
 
@@ -62,3 +58,6 @@ ms.locfileid: "4422751"
 ## <a name="warehouse-management"></a>仓库管理
 
 在“仓库管理”中准备装运时，您能够打印使用您在“产品信息管理”中设置的信息的多个新报表。 有关可用报表以及如何使用它们的详细信息，请参阅[危险物料查询和报表](hazmat-reports.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

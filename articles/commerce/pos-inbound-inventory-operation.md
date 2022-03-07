@@ -2,16 +2,13 @@
 title: POS 中的入站库存操作
 description: 此主题介绍销售点 (POS) 入站库存操作的功能。
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +16,14 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741774"
 ---
-# <a name="inbound-inventory-operation-in-pos"></a>POS 中的入站库存操作
+# <a name="inbound-inventory-operation-in-pos"></a>POS 中的传入库存操作
 
 [!include [banner](includes/banner.md)]
 
@@ -73,7 +70,7 @@ ms.locfileid: "4410513"
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>先决条件：向 POS 屏幕布局添加入站操作
 
-组织必须在一个或多个 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **入站操作** POS 操作，才能使用入站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
+组织必须在一个或多个 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **入站操作** POS 操作，才能使用入站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
 
 ## <a name="overview"></a>概览
 
@@ -162,9 +159,9 @@ POS 用户可通过入站操作执行以下任务：
 
 此功能仅适用于采购订单接收。 如果先前未从出站仓库订购和装运物料，则无法根据转移单接收物料。
 
-如果采购订单[更改管理工作流](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation)在 Commerce headquarters (HQ) 中启用，用户将无法在 POS 接收期间将新产品添加到采购订单中。 要启用更改管理，必须先批准对采购订单的所有更改，然后才允许接收。 因为此流程允许接收者向采购订单添加新行，所以如果启用了更改管理工作流，接收将失败。 如果为所有采购订单或在 POS 中主动接收的与采购订单链接的供应商启用了更改管理，用户将无法在 POS 接收期间将新产品添加到采购订单中。
+如果采购订单[更改管理工作流](../supply-chain/procurement/purchase-order-approval-confirmation.md)在 Commerce headquarters (HQ) 中启用，用户将无法在 POS 接收期间将新产品添加到采购订单中。 要启用更改管理，必须先批准对采购订单的所有更改，然后才允许接收。 因为此流程允许接收者向采购订单添加新行，所以如果启用了更改管理工作流，接收将失败。 如果为所有采购订单或在 POS 中主动接收的与采购订单链接的供应商启用了更改管理，用户将无法在 POS 接收期间将新产品添加到采购订单中。
 
-启用添加行的功能不能用作接收采购订单上已有的额外产品数量的解决方法。 超收通过采购订单上产品行的标准[超收](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations)设置来管理。
+启用添加行的功能不能用作接收采购订单上已有的额外产品数量的解决方法。 超收通过采购订单上产品行的标准[超收](#over-receiving-validations)设置来管理。
 
 如果启用了 **在销售点接收期间向采购订单添加行**，当用户在使用 POS 中的 **入站操作** 接收时，如果用户扫描或键入的产品条码或产品编号未被识别为当前采购订单上的物料，但被识别为有效物料，用户会收到一条有关将该物料添加到采购订单中的消息。 如果用户将物料添加到采购订单中，在 **正在接收** 中输入的数量将被视为采购订单行的订购数量。
 
@@ -221,3 +218,6 @@ POS 用户可通过入站操作执行以下任务：
 ## <a name="related-topics"></a>相关主题
 
 [POS 中的出站库存操作](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

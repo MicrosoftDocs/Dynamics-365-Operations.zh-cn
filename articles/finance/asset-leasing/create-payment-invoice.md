@@ -2,13 +2,11 @@
 title: 创建付款发票
 description: 本主题说明如何创建月度租赁发票。 您可以为单个租赁创建发票，也可以使用批处理为多个租赁创建发票。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePaymentSchedule
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 303fb0e70530fdc29cb129736b01c0e0e8d02075
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8d0b10993c61c64dadc00046907485f3886e2e01
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969570"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881172"
 ---
 # <a name="create-payment-invoices"></a>创建付款发票
 
@@ -48,3 +46,6 @@ ms.locfileid: "4969570"
 6. 过帐交易后，您可以通过选择租赁帐簿中的 **负债交易** 来查看租赁负债的交易信息和帐面价值。
 
     在付款计划中，将选中 **已过帐的日记帐** 复选框，行将显示发票日记帐编号。 创建付款日记帐和该日记帐的条目后，必须冲销该条目，然后才能重新创建。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: 订单承诺
 description: 本主题提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666762"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572593"
 ---
 # <a name="order-promising"></a>订单承诺
 
@@ -81,3 +78,6 @@ ATP = 前一期间的 ATP + 当前期间的收货 - 当前期间的发货 - 截�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

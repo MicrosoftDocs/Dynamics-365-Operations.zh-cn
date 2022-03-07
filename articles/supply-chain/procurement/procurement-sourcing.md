@@ -1,28 +1,27 @@
 ---
 title: 采购主页
 description: 此主题提供了可用于采购的帮助主题和其他资源列表。
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 50651
+ms.custom:
+- "50651"
+- intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423280"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565487"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
@@ -79,19 +78,18 @@ ms.locfileid: "4423280"
 -   [为零星供应商创建采购订单](tasks/create-purchase-order-one-time-supplier.md)
 -   [创建含交货计划的采购订单](tasks/create-purchase-order-delivery-schedule.md)
 -   [创建采购退货单](tasks/create-purchase-return-order.md)
--   [基于采购协议创建采购下达订单](tasks/create-purchase-release-order-purchase-agreement.md)
--   [创建采购订单时创建采购下达单](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [创建采购订单时应用采购协议](tasks/create-purchase-release-order-purchase-agreement.md)
 -   [创建托运补货订单](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>价格和折扣
 -   [采购协议](purchase-agreements.md)
 -   [创建采购协议](tasks/create-purchase-agreement.md)
--   [供应商返利](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates)（白皮书）
+-   [供应商返利](/dynamics/s-e/)（白皮书）
 
 ## <a name="product-receipt-and-invoicing"></a>产品收货和开票
 -   [采购订单的产品收据](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [供应商过帐模板](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [供应商发票的概览](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [供应商过帐模板](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>采购工作流
 -   [采购概览](procurement-sourcing-overview.md)
@@ -104,3 +102,6 @@ ms.locfileid: "4423280"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: 在 LCS 中安装 IoT 智能加载项
 description: 此主题介绍如何在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项。
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963477"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781580"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>在 LCS 中安装 IoT 智能加载项
 
@@ -55,3 +53,6 @@ ms.locfileid: "4963477"
 2. 在 LCS 中，转到您的 Supply Chain Management 环境详细信息。
 3. 滚动到 **环境加载项** 部分。
 4. 为 IoT 智能加载项选择 **卸载**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

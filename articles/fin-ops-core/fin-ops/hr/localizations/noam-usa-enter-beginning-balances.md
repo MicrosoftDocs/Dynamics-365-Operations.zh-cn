@@ -1,12 +1,10 @@
 ---
 title: 输入工资期初余额
-description: 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于要从其他系统迁移或转移用于新的工资单实现方式的数据的合作伙伴十分重要。
+description: 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721868"
 ---
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
@@ -166,3 +164,6 @@ ms.locfileid: "4797776"
 2. 显示以下消息时单击 **是**：“在您冲销此工资单时，将创建冲销中工资单用于抵消此工资单。 任何一个工资单均无法编辑。 是否希望冲销此工资单？” 。 
 
 在你冲销工资单后，可以从你以前创建的收益表为工作人员生成新的工资单。 在生成新的工资单前，确保更正收益表上的任何不正确的行，然后使用正确的金额生成新的工资单。 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: 配置和使用呼叫中心订单保留
 description: 本主题介绍如何使用 Dynamics 365 Commerce 处理保留订单。
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762588"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>配置和使用呼叫中心订单保留
 
@@ -56,7 +53,7 @@ ms.locfileid: "4410502"
 
 如果呼叫中心渠道中的 **启用订单完成** 标志已开启，则不必为已保留的订单应用付款。 相反，对于未保留的销售订单，应用付款之前，用户不能离开销售订单录入页。 当然，解除订单保留之前，需要付款。
 
-此外，呼叫中心用户还可以出于某种原因手动保留可疑订单。 也可以手动保留匹配有效欺诈条件和规则的订单。 有关这种订单保留的详细信息，请参阅[设置欺诈警示](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts)。
+此外，呼叫中心用户还可以出于某种原因手动保留可疑订单。 也可以手动保留匹配有效欺诈条件和规则的订单。 有关这种订单保留的详细信息，请参阅[设置欺诈警示](/dynamics365/unified-operations/retail/set-up-fraud-alerts)。
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>查看和管理保留的订单
 
@@ -103,3 +100,6 @@ ms.locfileid: "4410502"
 ## <a name="reporting-options"></a>报告选项
 
 转至 **Retail 和 Commerce** \> **查询和报告** \> **呼叫中心报告** \> **订单保留报告**,以按日期范围、保留代码或其他相关条件运行有关订单保留的报告。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

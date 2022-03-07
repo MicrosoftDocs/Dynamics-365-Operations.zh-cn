@@ -2,11 +2,9 @@
 title: 设置销售税分类帐过帐组
 description: 将计算销售税，并过帐到分类帐过帐组中指定的主科目。
 author: twheeloc
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 509fb03708670d056edb97dcc1c656b9fcca9cac
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968446"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818360"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 
@@ -41,3 +39,6 @@ ms.locfileid: "4968446"
 11. 在 **客户折扣** 字段中，选择主科目，以过帐与此 **分类帐过帐组** 相关的 **销售税代码** 的现金折扣。 此为可选项，如果未输入科目，将使用 **现金折扣代码** 的主科目。 如果使用 **销售税组** 中的“冲销现金折扣的销售税”选项，每个 **分类帐过帐组** 使用不同的帐户会很有帮助。  
 12. 单击 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

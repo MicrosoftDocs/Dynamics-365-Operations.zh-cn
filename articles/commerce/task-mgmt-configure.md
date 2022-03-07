@@ -2,34 +2,29 @@
 title: 配置任务管理
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730795"
 ---
 # <a name="configure-task-management"></a>配置任务管理
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
-
-## <a name="overview"></a>概览
 
 必须先配置任务管理，Dynamics 365 Commerce 经理和员工才能使用 Commerce 中的任务管理功能。 配置步骤包括为经理和员工授予权限，将权限分发给销售点 (POS) 客户端，设置 POS 通知，以及配置 POS 应用程序主页中的 **任务** 磁贴。
 
@@ -49,7 +44,7 @@ ms.locfileid: "4410551"
 
 下图显示如何为商店经理配置任务管理权限。
 
-![为商店经理配置任务管理权限](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![为商店经理配置任务管理权限。](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>为员工配置权限
 
@@ -83,7 +78,7 @@ ms.locfileid: "4410551"
 
 下图显示 **POS 操作** 页中的 **任务管理** 操作。
 
-![POS 操作页中的任务管理操作](media/HQ-POS-Tasks-Notifications.png)
+![POS 操作页面中的任务管理操作。](media/HQ-POS-Tasks-Notifications.png)
 
 有关如何配置 POS 通知的详细信息，请参阅[在销售点 (POS) 中显示订单通知](notifications-pos.md)。
 
@@ -100,14 +95,17 @@ ms.locfileid: "4410551"
 
 下图显示 POS 主页中的 **任务** 磁贴的示例。
 
-![POS 主页上的“任务”磁贴](media/POS-home-screen-tasks-button-image.png)
+![POS 主页上的“任务”磁贴。](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>其他资源
 
-[任务管理概述](task-mgmt-overview.md)
+[任务管理概览](task-mgmt-overview.md)
 
-[创建任务列表和添加任务](task-mgmt-create-lists.md)
+[创建任务列表并添加任务](task-mgmt-create-lists.md)
 
 [将任务列表分配给商店或员工](task-mgmt-assign-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

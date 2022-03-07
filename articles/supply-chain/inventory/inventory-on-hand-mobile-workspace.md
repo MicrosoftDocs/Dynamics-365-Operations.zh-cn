@@ -2,15 +2,12 @@
 title: 现有库存量移动工作区
 description: 此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。
 author: Mirzaab
-manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a534d078b827455f099f4cb2d7d1206ce434781e4f0fc408d0ee2d2c7f153509
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720340"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -59,7 +56,7 @@ ms.locfileid: "4422755"
 先决条件根据为您的组织部署的 Supply Chain Management 版本不同。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **现有库存** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **现有库存** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>使用平台更新 3 或更高版本时的先决条件 
 如果已经为您的组织部署平台更新 3 或更高版本，系统管理员必须完成以下先决条件。 
@@ -79,17 +76,17 @@ ms.locfileid: "4422755"
 
 <td>KB 4013633 是包含<strong>现有库存量</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4013633，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>发布<strong>现有库存量</strong>移动工作区。</td>
 <td>系统管理员</td>
-<td>请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</td>
+<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -108,13 +105,13 @@ ms.locfileid: "4422755"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>使用现有库存量移动工作区查看产品的现有库存量
 
 1.  在移动设备上，选择 **现有库存量** 工作区。
 
-2.  选择 **检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
+2.  选择 **检查物料的现有库存量**。 将看到加载到您的应用程序中供脱机使用的产品的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)。
 3.  如果您的物料不在该列表中，请选择 **搜索更多**。 按产品编号搜索，或切换到按产品名搜索。
 
 4.  选择项目。 如果物料有图像，将显示该图像。
@@ -130,3 +127,6 @@ ms.locfileid: "4422755"
     -   按物理库存（此视图显示总金额。）
     -   按物理预留（此视图显示预留金额。）
     -   按物理可用量（此视图显示无预留的可用金额。）
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

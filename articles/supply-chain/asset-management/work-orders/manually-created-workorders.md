@@ -1,12 +1,10 @@
 ---
 title: 手动创建的工作订单
 description: 本主题介绍如何在资产管理中手动创建工作订单。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017860"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750092"
 ---
 # <a name="manually-created-work-orders"></a>手动创建的工作订单
 
@@ -113,7 +111,7 @@ ms.locfileid: "5017860"
 
 下图显示 **创建相关工作订单** 对话框的示例。
 
-![图 1](media/03-work-orders.png)
+![图 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >如果已经在 **资产管理参数** > **工作订单** 选项卡 > **相关工作订单掩码** 字段中设置了相关工作订单掩码，将根据掩码设置创建工作订单 ID。 如果未设置相关工作订单掩码，将把下一个可用工作订单 ID 用于相关工作订单。
@@ -139,7 +137,7 @@ ms.locfileid: "5017860"
 
 下图显示了 **复制工作订单** 对话框的示例。
 
-![图 2](media/04-work-orders.png)
+![图 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>基于维护请求创建工作订单
@@ -159,9 +157,12 @@ ms.locfileid: "5017860"
 
 下图显示了 **创建工作订单** 对话框的示例。
 
-![图 3](media/05-work-orders.png)
+![图 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >如果您希望自动创建工作订单，可以计划维护计划作业或为资产设置“自动创建”[维护计划](../preventive-and-reactive-maintenance/maintenance-plans.md)或[维护阶段](../preventive-and-reactive-maintenance/maintenance-rounds.md)。 从 **所有维护安排** 列表页的维护请求创建的工作订单具有在维护请求中选择的维护作业类型。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

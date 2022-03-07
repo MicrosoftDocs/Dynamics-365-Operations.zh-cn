@@ -1,25 +1,24 @@
 ---
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
-author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
+author: peakerbl
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684052"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612356"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -108,7 +107,7 @@ ms.locfileid: "4684052"
 
 通过选择 **生成源映射** 可以在页面上生成映射。 生成的映射表现地类似于自动映射。 因此，您必须手动映射所有未映射的字段。
 
-![数据映射](./media/dixf-map.png)
+![数据映射。](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>验证您的导入或导出作业的安全性
 **数据管理** 工作区的访问权限可能受到限制，因此非管理员用户可能仅可访问特定的数据作业。 对数据作业的访问权限暗示着对该作业的执行历史记录的完全访问权限和对暂存表的访问权限。 因此，您必须确保在创建数据作业时采取适当的访问权限控制。
@@ -134,7 +133,7 @@ ms.locfileid: "4684052"
 ## <a name="validate-that-the-job-ran-as-expected"></a>验证该作业按预期运行
 作业历史记录可用于导入和导出作业的故障排除和调查。 历史作业运行按时间范围进行组织。
 
-![作业历史记录范围](./media/dixf-job-history.md.png)
+![作业历史记录范围。](./media/dixf-job-history.md.png)
 
 每次作业运行提供以下详细信息：
 
@@ -163,19 +162,7 @@ ms.locfileid: "4684052"
     - 在 **导入阈值记录数** 字段中，输入要导入的阈值记录数。 这确定线程要处理的记录数。 如果一个文件有 1 万条记录，记录数为 2500，任务数为 4，意味着每个线程将处理 2500 条记录。
     - 在 **导入任务数** 字段中，输入导入任务的数量。 不能超过在 **系统管理 \> 服务器配置** 中为批处理分配的最大批处理线程数。
 
-## <a name="clean-up-the-staging-tables"></a>清除暂存表
-从平台更新 29 开始，已弃用此功能。 已被下面介绍的新作业历史记录清理功能版本取代。
-
-您可以使用 **数据管理** 工作区中的 **暂存清除** 功能清除暂存表。 您可以使用以下选项选择从哪个暂存表删除哪些记录：
-
-- **实体** - 如果仅提供一个实体，则删除来自该实体暂存表的所有记录。 选择此选项以清除跨所有数据项目和所有作业的实体的所有数据。
-- **作业 ID** - 如果仅提供一个作业 ID，则从相应的暂存表中删除选定作业中的所有实体的所有记录。
-- **数据项目** - 如果仅选择一个数据项目，则删除选定数据项目的所有实体和跨所有作业的所有记录。
-
-您还可以合并这些选项以进一步限制被删除的记录集。
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>作业历史记录清理（平台更新 29 及更高版本中提供）
-
+## <a name="job-history-clean-up"></a>作业历史记录清理 
 若要安排定期清理执行历史记录，必须使用数据管理中的作业历史记录清理功能。 此功能取代了之前的暂存表清理功能，后者已被弃用。 清理过程将清理下面的表。
 
 -   所有暂存表
@@ -211,18 +198,12 @@ ms.locfileid: "4684052"
 > [!NOTE]
 > 如果无法完全清理暂存表中的记录，请确保将清理作业安排为重复运行。 正如前面的说明，在执行任何清理时，作业能够清理的执行 ID 记录数量不超过提供的最大小时数内能够清理的数量。 若要继续清理任何剩余暂存记录，必须将作业安排为定期运行。
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>作业历史记录的清理和存档（平台更新 39 或版本 10.0.15 中可预览）
+## <a name="job-history-clean-up-and-archival"></a>作业历史记录清理和存档 
 作业历史记录清理和存档功能取代了以前版本的清理功能。 本节将解释这些新功能。
 
-清除功能的主要变化之一是使用系统批处理作业来清除历史记录。 使用系统批处理作业允许 Finance and Operations 应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜 12 点开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。
+清理功能的主要变化之一是使用系统批处理作业来清理历史记录。 使用系统批处理作业允许 Finance and Operations 应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。 从版本 10.0.20 开始，此功能始终开启。
 
-> [!NOTE]
-> 因为此功能处于预览版阶段，所以系统批处理作业将不会删除任何执行历史记录，除非通过外部测试版 DMFEnableExecutionHistoryCleanupSystemJob 启用。 如果该功能在将来的版本中公开发布，则不需要此外部测试版，并且系统准备就绪后，系统批处理作业将根据上面定义的计划开始清除和存档。 
-
-> [!NOTE]
-> 在将来的版本中，将从 Finance and Operations 应用中删除以前版本的清理功能。
-
-清除过程的第二个变化是所清除执行历史的存档。 清理作业会将已删除的记录归档到 DIXF 用于常规集成的 Blob 存储中。 归档的文件将采用 DIXF 软件包格式，并且在 blob 中保留 7 天，在此期间可供下载。 可在参数中将归档文件的 7 天这一默认寿命更改为最大 90 天。
+清理过程的第二个变化是所清除执行历史的存档。 清理作业会将已删除的记录归档到 DIXF 用于常规集成的 Blob 存储中。 归档的文件将采用 DIXF 软件包格式，并且在 blob 中保留 7 天，在此期间可供下载。 可在参数中将归档文件的 7 天这一默认寿命更改为最大 90 天。
 
 ### <a name="changing-the-default-settings"></a>更改默认设置
 该功能当前处于预览版阶段，必须通过启用外部测试版 DMFEnableExecutionHistoryCleanupSystemJob 明确将其打开。 还必须在功能管理中开启暂存清理功能。
@@ -243,3 +224,6 @@ ms.locfileid: "4684052"
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

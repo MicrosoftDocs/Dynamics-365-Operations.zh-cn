@@ -2,16 +2,13 @@
 title: 预测缩减参数
 description: 本主题提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: roxanadiaconu
-manager: tfehr
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422870"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474764"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
@@ -89,7 +86,18 @@ ms.locfileid: "4422870"
 
 ### <a name="transactions--reduction-key"></a>交易记录 - 缩减参数
 
-如果选择 **交易记录 - 缩减参数**，则通过在缩减参数定义的期间内发生的交易记录来缩减预测需求。
+如果将 **用于减少预测需求的方法** 字段设置为 *交易记录 - 缩减参数*，将由缩减参数定义的期间发生的符合资格的需求交易记录减少预测需求。
+
+符合资格的需求由 **覆盖范围组** 页中的 **预测减少依据** 字段定义。 如果将 **预测减少依据** 字段设置为 *订单*，则仅将销售订单交易记录视为符合资格的需求。 如果将其设置为 *所有交易记录*，则将所有非内部公司发货库存交易记录都视为符合资格的需求。 如果也应将内部公司销售订单视为符合资格的需求，请将 **包括内部公司订单** 选项设置为 *是*。
+
+预测缩减以缩减参数期间中的第一个（最早）需求预测记录开始。 如果符合资格的库存交易记录数量比同一缩减参数期间的需求预测行数量多，则将使用库存交易记录数量的余额减少上一个期间中的需求预测数量（如果存在未使用的预测）。
+
+如果上一缩减参数期间中未保留未使用的预测，将使用库存交易记录数量的余额减少下月的预测数量（如果有未使用的预测）。
+
+如果 **用于减少预测需求的方法** 字段设置为 *交易记录 - 缩减参数*，则不使用缩减参数行中的 **百分比** 字段的值。 将仅使用这些日期来定义缩减参数期间。
+
+> [!NOTE]
+> 当天或之前发布的所有预测都将忽略，不会用于创建计划订单。 例如，如果当月的需求预测是在 1 月 1 日生成的，而您在 1 月 2 日运行其中包括需求预测的主计划，则计算将忽略日期为 1 月 1 日的需求预测。
 
 #### <a name="example-transactions--reduction-key"></a>示例：交易记录 - 缩减参数
 
@@ -199,7 +207,7 @@ ms.locfileid: "4422870"
 用于缩减预测需求的 **交易记录 - 缩减参数** 和 **百分比- 缩减参数** 方法中使用预测缩减参数。 若要创建和设置缩减参数，请执行以下步骤。
 
 1. 转到 **主计划 \> 设置 \> 覆盖范围 \> 缩减参数**。
-2. 选择 **新建** 或按 **Ctrl+N** 创建一个缩减参数。
+2. 选择 **新建** 创建缩减参数。
 3. 在 **缩减参数** 字段中，输入预测缩减参数的唯一标识符。 然后在 **名称** 字段中输入名称。 
 4. 定义期间和每个期间中的缩减参数百分比：
 
@@ -227,3 +235,6 @@ ms.locfileid: "4422870"
 ## <a name="additional-resources"></a>其他资源
 
 [主计划概览](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

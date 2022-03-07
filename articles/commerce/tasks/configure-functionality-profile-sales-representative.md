@@ -2,11 +2,9 @@
 title: 配置销售代表的功能模板
 description: 此过程演示如何配置应用于销售代表的商店功能配置文件设置。
 author: jblucher
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c45a905ac29d5948e0ec7377418ff61248be2d2e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49a4e0eb78806eded68f1dd1742000c869fe118d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964937"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796842"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板
 
@@ -36,3 +34,6 @@ ms.locfileid: "4964937"
 4. 在“销售代表的提示”字段中，选择一个选项。
 5. 在“需要销售代表”字段中选择“是”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

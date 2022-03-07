@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 05438b11f446da57016ff66f4deafd0c07fd62f32eba6f10c4b08b3f1de88e6b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739921"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358330"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>运行定期 TDS 结算流程
 

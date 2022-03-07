@@ -2,11 +2,9 @@
 title: 创建工作时间日历
 description: 在 Dynamics 365 Human Resources 中定义工作时间日历、假日和非工作时间。
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67b951cccae7708f8d831ff1d83738dc49360a48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417438"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794509"
 ---
 # <a name="create-a-working-time-calendar"></a>创建工作时间日历
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织中工作的天数和时数。 当员工提交休息时间请求时，他们不必担心假日和歇业的影响。
 
@@ -75,3 +75,6 @@ Dynamics 365 Human Resources 中的工作时间日历显示员工在您的组织
 
 - [休假和缺勤概览](hr-leave-and-absence-overview.md)
 - [配置休假和缺勤类型](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

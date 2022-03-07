@@ -2,30 +2,33 @@
 title: 工作流系统概览
 description: 此主题介绍工作流系统。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796988"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067925"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 此主题介绍工作流系统。
 
@@ -41,7 +44,7 @@ ms.locfileid: "4796988"
 
 “工作流”代表业务流程。 它通过显示谁必须完成任务、制定决策或批准文档定义单据如何在系统中流动或移动。 例如，下图显示支出报表的工作流。
 
-![具有分配给用户的元素的工作流](./media/workflow_user.gif)
+![具有分配给用户的元素的工作流。](./media/workflow_user.gif)
 
 为了更好地理解这一工作流，假定 Sam 提交 7,000 美元的支出报表。 在此场景中，Ivan 必须审核 Sam 传送给他的收据。 然后，晓辉和素心必须对该支出报表进行审核。 现在，假定 Sam 提交了一份 11,000 美元的支出报表。 在这种情况下，Ivan 必须复核相关收据，并且 Frank、Sue 和 Ann 必须审核该支出报表。
 
@@ -71,3 +74,6 @@ ms.locfileid: "4796988"
 + [配置工作流中的并行分支](configure-parallel-branch-workflow.md)
 + [配置行项工作流](configure-line-item-workflow.md)
 + [工作流常见问题](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

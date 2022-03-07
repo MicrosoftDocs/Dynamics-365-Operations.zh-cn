@@ -2,16 +2,13 @@
 title: 成本对象控制器的访问权限
 description: 此主题提供关于成本对象控制员访问权限的信息。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733021"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>成本对象控制器的访问权限
 
@@ -65,9 +62,8 @@ ms.locfileid: "4440787"
 
 您可以使用层次结构设计器中的 **用户** 快速选项卡在各节点上插入一个或多个用户 ID。
 
-|                                   | 用户            | 维度成员范围   |                         |
+|             节点                 | 用户            | 起始维度成员     |   截止维度成员   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **节点**                         | **用户 ID**      | **起始维度成员** | **截止维度成员** |
 | 组织                      | 本杰明，克莱尔 |                           |                         |
 | &nbsp;&nbsp;管理                 | 四月            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;财务   | 艾丽西亚           | CC002                     | CC003                   |
@@ -98,11 +94,14 @@ ms.locfileid: "4440787"
     - 在 Dynamics 365 Finance 客户端中嵌入的数据 Power BI 可视化项
 
 > [!IMPORTANT]
-> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
+> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 此主题说明使用 **成本控制** 工作区前必须具备的先决条件。
 
 其他资源
 
 - [成本控制工作区](cost-control-workspace.md)
 - [维度层次结构](dimension-hierarchy.md)
-- [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

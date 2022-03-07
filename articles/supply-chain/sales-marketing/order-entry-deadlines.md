@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 81546f4e260d8632fd85dbc3765091628588988d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205242"
 ---
 # <a name="order-entry-deadlines"></a>订单输入截止时间
 
@@ -109,3 +108,6 @@ ms.locfileid: "4422829"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

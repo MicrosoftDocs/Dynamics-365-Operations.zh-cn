@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 566a174c631391577441e0f890bd9553dac0891c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961607"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204512"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>从计划中删除看板作业
 
@@ -45,3 +45,6 @@ ms.locfileid: "4961607"
 4. 单击“确定”。
     * 这可以将当前作业状态从“计划”转变为“无计划”，并将其从进程栏上移除。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

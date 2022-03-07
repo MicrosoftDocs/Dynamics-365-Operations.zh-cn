@@ -1,31 +1,30 @@
 ---
 title: 管理购买和出售休假策略
 description: 您可以在 Dynamics 365 Human Resources 中让员工可以购买和出售休假。
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06682a81b09f90de0ef5eb1b656338e634f229db
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417511"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728873"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>管理购买和出售休假策略
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以通过创建购买和出售休假策略使员工能够购买和出售休假。 您可以配置这些策略来使用审批工作流、设置最大金额和费率以及设置购买和出售费率。 
 
@@ -80,3 +79,6 @@ ms.locfileid: "4417511"
 [应计休假和缺勤计划](hr-leave-and-absence-accrue.md)</br>
 [购买和出售休假](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

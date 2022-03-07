@@ -2,29 +2,28 @@
 title: 成本计算版本概览
 description: 本文提供有关成本计算版本、如何维护它们以及可在其中包括的数据类型的信息。 成本计算版本主要用于包含与物料、成本类别和间接成本计算公式有关的成本记录。
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 54532
+ms.custom:
+- "54532"
+- intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27ad1f1d8ae60eef5607bafb9aaf9604784099e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423287"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983089"
 ---
 # <a name="costing-versions-overview"></a>成本计算版本概览
 
@@ -68,3 +67,6 @@ ms.locfileid: "4423287"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

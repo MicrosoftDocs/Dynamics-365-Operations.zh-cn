@@ -2,28 +2,25 @@
 title: 设置和生成付款确认文件
 description: 本主题说明如何设置付款确认和生成付款确认文件。
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737177"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>设置和生成付款确认文件
 
@@ -142,6 +139,9 @@ ms.locfileid: "4440702"
 </xsl:stylesheet>
 ```
 
+> [!NOTE]
+> XSLT 中的 XML 名称必须与 XML 中节点的大小写匹配。 XSLT 和 XML 文件均区分大小写。 
+
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>将付款确认格式分配到银行帐户
 对于您想要生成付款确认信息的每个银行帐户，您必须分配在前一部分中指定的付款确认格式。 在 **银行帐户** 页上，选择与银行帐户对应的付款确认格式。 在 **付款确认开始日期** 字段中，输入第一个日期以生成付款确认文件。 您务必在此字段中输入日期。 否则，您生成的第一个付款确认文件将包括已为此银行帐户创建的所有支票。
 
@@ -165,3 +165,6 @@ ms.locfileid: "4440702"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

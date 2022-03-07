@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d039b79684f87e7791fb9dae7cbdc6ced220bc092d9a0ab624616c1c345986da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4b64af2e30109b8560d40c4c532504611528bbe
+ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756767"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6294022"
 ---
 # <a name="parameters-for-the-master-plan-dont-exist"></a>主计划的参数不存在
 

@@ -2,16 +2,13 @@
 title: 通过提领看板补货
 description: 此主题介绍如何使用提领看板进行物料补货用于制造活动。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742576"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
@@ -33,13 +30,12 @@ ms.locfileid: "4423314"
 此主题介绍如何使用提领看板进行物料补货用于制造活动。
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>使用提领看板进行物料补货的工作流
--------------------------------------------------------------------
 
 提领看板可用于将单个物料的看板在仓库和使用物料的生产库位之间移动。 提领看板支持基于提取的物料补货解决方案，其中要求通过提取信号触发特定需求的供应。 
 
 以下方案显示提取信号触发看板的创建以对生产流程进行物料补货的基于提取的补货系统。 
 
-[![提取信号触发看板的创建以对生产流程进行物料补货](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![提取信号触发看板的创建以对生产流程进行物料补货。](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  提领看板
 2.  看板“源”库位和用于仓库工作的入库库位
@@ -76,7 +72,7 @@ ms.locfileid: "4423314"
 
 在以下方案中，提领看板的转移活动配置为在同一仓库的两个库位之间转移。 提领看板的转移活动设置为自动完成。 
 
-[![处理看板领料工作时自动完成转移活动](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![处理看板领料工作时自动完成转移活动。](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  原材料和生产的共享仓库
 2.  原材料的仓库库位
@@ -87,3 +83,6 @@ ms.locfileid: "4423314"
 
 在生产输入库位使用看板后，看板报告为空，并在流中添加一个新看板。 创建看板后，在看板波次中添加一个波次行。 处理看板波次后，创建看板领料的仓库工作。 仓库工作人员处理看板领料工作，并按照工作的指示在仓库库位中领取看板物料。 在此仓库工作人员确认领料后，看板自动完成，并指导仓库工作人员将物料入库到生产输入库位。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

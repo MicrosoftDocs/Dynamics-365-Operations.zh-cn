@@ -2,36 +2,30 @@
 title: 设置仓库
 description: 本主题描述如何在 Microsoft Dynamics 365 Commerce 中设置要与新渠道一起使用的仓库。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734011"
 ---
 # <a name="warehouse-set-up"></a>仓库设置
-
 
 [!include [banner](includes/banner.md)]
 
 本主题描述如何在 Microsoft Dynamics 365 Commerce 中设置要与新渠道一起使用的仓库。
-
-## <a name="overview"></a>概览
 
 每个商业渠道都需要一个与之关联已配置仓库。 以下过程提供了为商业渠道设置仓库所需的最低配置。 有关仓库设置的更多信息，请参见[仓库管理概览](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)。
 
@@ -51,7 +45,7 @@ ms.locfileid: "4410478"
 
 下图显示了一个仓库站点示例。
 
-![仓库站点示例](media/warehouse-site.png)
+![仓库站点示例。](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>设置仓库
 
@@ -104,7 +98,7 @@ ms.locfileid: "4410478"
     
 下图显示了旧金山仓库库存库位设置过程。
 
-![库存库位设置示例](media/warehouse-inventory-locations.png)
+![库存库位设置示例。](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>完成仓库设置
 
@@ -127,7 +121,7 @@ ms.locfileid: "4410478"
 
 下图显示了已配置仓库的详细信息。
 
-![已配置仓库示例](media/warehouse-sample.png)
+![已配置仓库示例。](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -147,3 +141,6 @@ ms.locfileid: "4410478"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

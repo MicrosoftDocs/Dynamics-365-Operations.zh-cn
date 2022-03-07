@@ -2,11 +2,9 @@
 title: 压缩在电子报告中生成的大型文档
 description: 本主题说明如何压缩使用电子报告 (ER) 格式生成的大型文档。
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680846"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894164"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>压缩在电子报告中生成的大型文档 
 
 [!include [banner](../includes/banner.md)]
 
-您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。 这生成的文档可能很大。 生成此类文档时，将使用[应用程序对象服务器 (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。 在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。 当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。 此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291)下载文件的大小为 1 GB。 因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。
+您可以使用[电子报告 (ER) 框架](general-electronic-reporting.md)配置一个获取交易记录数据以生成传出文档的解决方案。 这生成的文档可能很大。 生成此类文档时，将使用[应用程序对象服务器 (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) 内存保留它。 在某些时候，之后必须从 Microsoft Dynamics 365 Finance 应用程序下载该文档。 当前，在 ER 中生成的单个文档的最大大小限制为 2 GB。 此外，Finance 目前[限制](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3)下载文件的大小为 1 GB。 因此，您必须配置一个 ER 解决方案，以减少超过这些限制的可能性，使用此解决方案时，您将收到 **流太长** 或 **数学运算中溢出或下溢** 异常。
 
 配置解决方案时，可以通过添加 **文件夹** 类型的根元素来压缩由其嵌套元素生成的内容，以在 Operations 设计器中调整 ER 格式。 压缩是“及时”进行的，因此可以减少高峰内存使用量和将要下载的文件大小。
 
@@ -94,3 +92,6 @@ ms.locfileid: "4680846"
 [电子报告 (ER) 目标](electronic-reporting-destinations.md)
 
 [推迟执行电子报告格式的 XML 元素](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

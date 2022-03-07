@@ -2,11 +2,9 @@
 title: 计划工作量产能
 description: 本主题介绍如何为一个仓库或全体仓库中的工作人员设置和计划工作量产能。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2458009dabd71e6c8423e8e607a0cedb4765b88
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965569"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817333"
 ---
 # <a name="schedule-workload-capacity"></a>计划工作量产能
 
@@ -79,3 +77,6 @@ ms.locfileid: "4965569"
 3. 在 **订单类型** 字段中，选择 **已计划并确认**、**已计划** 或 **已确认**，以便指示要对报表预测的订单类型。
 4. 在 **负载类型** 字段中，选择一种负载类型以指定应预测体积还是重量的工作量产能。
 5. 在 **工作量产能** 字段中，选择一种工作量产能设置。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

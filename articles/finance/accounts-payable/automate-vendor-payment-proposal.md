@@ -2,27 +2,24 @@
 title: 自动运行供应商付款方案
 description: 本主题说明按重复执行的计划向供应商付款的组织如何自动运行生成供应商付款方案的流程。
 author: kweekley
-manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440975"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966707"
 ---
 # <a name="automate-vendor-payment-proposals"></a>自动运行供应商付款方案
 
@@ -35,6 +32,9 @@ ms.locfileid: "4440975"
 - 在哪个供应商付款日记帐中保存生成的付款
 
 付款方案自动化不会自动过帐付款。 因此，您可以继续使用当前用于审核所创建付款的任何验证和工作流程。
+
+> [!NOTE]
+> 必须在功能管理中启用 **供应商付款方案自动化** 功能才能利用此功能。 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>定义供应商付款方案的执行
 
@@ -100,11 +100,11 @@ ms.locfileid: "4440975"
 
 创建供应商付款方案自动化系列后，每项付款的执行将显示在流程自动化周视图中。 对于供应商付款，流程自动化周视图已经添加到 **供应商付款** 工作区和 **流程自动化** 页面。
 
-[![供应商付款工作区中的流程自动化周视图](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![供应商付款工作区中的流程自动化周视图。](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 **供应商付款** 工作区中的流程自动化周视图仅显示供应商付款方案自动化。 它显示登录用户具有安全权限的所有法人当前一周的所有付款执行。 例如，如果 AP 付款职员负责 USMF 和 USSI 公司的付款，其将看到这两家公司的供应商付款方案自动化的执行，但看不到其他公司的。
 
-[![USMF 和 USSI 公司的流程自动化周视图](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF 和 USSI 公司的流程自动化周视图。](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 每个执行将显示已创建或将创建付款日记帐的公司。 如果付款是使用集中付款创建的，显示的公司是将创建付款的公司。 执行并不一定显示将支付哪些公司的账单。
 
@@ -144,3 +144,6 @@ ms.locfileid: "4440975"
 | 计划执行查询 | 应付帐款付款职员、应付帐款集中付款职员 | 此职责通过以下特权授予查看付款方案自动化执行的权限：<ul><li>查看计划执行</li><li>查看执行周视图</li></ul> |
 | 计划系列查询      | None                                                                       | 此职责通过以下特权授予查看系列和执行的设置的权限：<ul><li>查看计划执行</li><li>查看执行列表页</li><li>查看执行周视图</li></ul>|
 | 维护计划执行     | None                                                                       | 此职责通过以下特权授予创建和维护执行的权限：<ul><li>维护计划执行</li><li>查看执行周视图</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: 促销横幅模块
 description: 此主题介绍促销横幅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718772"
 ---
 # <a name="promo-banner-module"></a>促销横幅模块
 
@@ -31,15 +28,13 @@ ms.locfileid: "4410401"
 
 此主题介绍促销横幅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
-## <a name="overview"></a>概览
-
 促销横幅模块用于在页面中显示内联参考消息。 可用于显示电子商务站点所有页面中显示的站点范围促销。 
 
 促销横幅模块支持文本消息和链接。 如果将多个消息添加到促销横幅模块，它将变成旋转的轮播横幅，使客户可以循环浏览所有消息。 
 
 促销横幅模块由内容管理系统 (CMS) 的数据驱动，可放到任何页面中。
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>电子商务中促销横幅的用法示例
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>电子商务中促销横幅的使用情况示例
 
 可以在网站标题中使用促销横幅，以显示网站范围内的促销或消息，如以下示例所示。
 
@@ -51,7 +46,7 @@ ms.locfileid: "4410401"
 
 下图显示了一个促销横幅示例。
 
-![促销横幅模块示例](./media/ecommerce-Promobanner.PNG)
+![促销横幅模块的示例。](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>促销横幅模块属性
 
@@ -64,6 +59,10 @@ ms.locfileid: "4410401"
 | 显示轮播翻转器     | **True** 或 **False**              | 一个值，该值指示是否应显示轮播翻转器，以便客户可以手动循环浏览多个横幅项目。 |
 | 文本对齐            | **向右对齐**、**向左对齐** 或 **居中对齐** | 促销横幅模块中的文本对齐。 |
 | 链接                      | URL                              | 可选链接的 URL。 |
+|文本对齐方式             | **向右对齐**、**向左对齐** 或 **居中对齐** | 此属性作为 Adventure Works 主题中的主题扩展提供。 它允许用户在促销横幅中设置文本对齐方式。 |
+
+> [!IMPORTANT]
+> Adventure Works 主题从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>向页面添加促销横幅模块 
 
@@ -84,7 +83,6 @@ ms.locfileid: "4410401"
 > [!NOTE]
 > 通常在页面标题槽或子标题槽中使用促销横幅。
 
-
 ## <a name="additional-resources"></a>其他资源
 
 [模块库概述](starter-kit-overview.md)
@@ -96,3 +94,6 @@ ms.locfileid: "4410401"
 [内容块模块](add-hero-module.md)
 
 [视频播放器模块](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 启用来宾结帐订单查找功能
 description: 本主题介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
 author: stuharg
-ms.date: 12/03/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891490"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674968"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>启用来宾结帐订单查找功能
 
@@ -63,16 +63,6 @@ Commerce Headquarters 中 **客户订单** 页上的 **订单搜索** 快速选�
 ## <a name="configure-the-order-lookup-module"></a>配置订单查找模块
 
 Commerce 模块库中的订单查找模块用于呈现来宾用户用于查找订单的窗体。 任何不要求客户登录的页面的主体插槽中都可以包含订单查找模块。 有关如何配置此模块的信息，请参阅[订单查找模块](order-lookup-module.md)。
-
-## <a name="configure-the-order-details-page"></a>配置订单详细信息页
-
-您的电子商务站点上的订单详细信息页面必须配置为不需要登录，来宾用户才可以查看他们的订单详细信息。 要关闭订单详细信息页面的登录要求，在 Commerce 站点构建器中打开该页面，在树视图中选择 **默认页面(必需)** 槽，然后清除右侧属性窗格底部的 **需要登录?** 复选框。
-
-## <a name="add-a-link-to-order-details-in-transactional-emails"></a>在交易电子邮件中添加指向订单详细信息的链接
-
-在与订单相关的电子邮件中，您可以提供一个链接或按钮，将客户带到他们订单的订单详细信息页面。 要添加此链接或按钮，创建一个指向您的电子商务站点上订单详细信息页面的 HTML 超链接，并将订单确认 ID 和客户的电子邮件地址作为 URL 参数传递，如下例所示。
-
-`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>其他资源
 

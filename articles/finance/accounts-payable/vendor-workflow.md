@@ -1,27 +1,24 @@
 ---
 title: 供应商工作流
 description: 修改供应商信息和使用工作流进行审核。
-author: mikefalkner
-manager: annbe
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 48d81c727de29a285e5e33672e8f6d2eccef6249
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440980"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753914"
 ---
 # <a name="vendor-workflow"></a>供应商工作流
 
@@ -61,3 +58,6 @@ ms.locfileid: "4440980"
     页面上的状态将更改为 **更改待审核**。
 
 工作流执行标准工作流程。 将把审核者定向到 **供应商** 页面，可在此处查看 **建议的更改** 页中的更改，然后选择 **工作流 \> 审核** 以审核工作流。 在完成所有审核后，字段将更新为您建议的值。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: 维度层次结构
 description: 此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766962"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 
@@ -42,7 +39,7 @@ ms.locfileid: "4440671"
 
 以下是维度层次结构的示例。
 
-![维度层次结构的示例](./media/dimension-hierarchy.png)
+![维度层次结构的示例。](./media/dimension-hierarchy.png)
 
 可以为以下维度类型创建维度层次结构：
 
@@ -83,7 +80,7 @@ ms.locfileid: "4440671"
 
 一个小公司具有以下组织结构，其中财务和人力资源属于管理部门，装配和包装属于生产部门。
 
-![组织结构的示例](./media/dimension-hierarchy-org.png)
+![组织结构的示例。](./media/dimension-hierarchy-org.png)
 
 成本对象维度表示组织中的所有成本中心。
 
@@ -121,16 +118,17 @@ ms.locfileid: "4440671"
 
 | 维度层次结构名称 | 维度    | 维度层次结构类型名称      | 访问列表层次结构 |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| 组织             | 成本中心 | 维度分类层次结构 | 无                    |
+| 组织             | 成本中心 | 维度分类层次结构 | 否                    |
 
 用于报告的维度层次结构可以按此处所示进行设置。
 
-|                   | 维度成员范围   |                         |
+**维度成员范围**
+
+|   节点           |   起始维度成员   |   截止维度成员   |
 |-------------------|---------------------------|-------------------------|
-| **节点**         | **起始维度成员** | **截止维度成员** |
 | 组织      |                           |                         |
 | &nbsp;&nbsp;管理         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;财务   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;财务   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;生产    |                           |                         |
@@ -147,12 +145,13 @@ ms.locfileid: "4440671"
 
 用于策略的维度层次结构可以按此处所示进行设置。
 
-|                   | 维度成员范围   |                         |
+**维度成员范围**
+
+|   节点           |   起始维度成员   |   截止维度成员   |
 |-------------------|---------------------------|-------------------------|
-| **节点**         | **起始维度成员** | **截止维度成员** |
 | 成本行为     |                           |                         |
 | &nbsp;&nbsp;固定成本    | 10001                     | 10011                   |
-|&nbsp;&nbsp;可变成本 | 40001                     | 40010                   |
+| &nbsp;&nbsp;可变成本 | 40001                     | 40010                   |
 
 > [!NOTE]
 > 在 **维度成员范围** 下，一个节点可以包含 1:_n_ 个维度成员范围。 您可以插入尚未作为维度成员存在的维度成员 ID。 此方法使层次结构可以弹性地适应未来的需求。  
@@ -298,9 +297,10 @@ ms.locfileid: "4440671"
 
 新 **用户** 快速选项卡在层次结构设计器中可用。 在此处，您可以在层次结构的每个节点中插入一个或多个用户 ID。
 
-|                 | 用户            | 维度成员范围   |                         |
+**用户和维度成员范围**
+
+|   节点         |   用户 ID        |   起始维度成员   |   截止维度成员   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **节点**       | **用户 ID**      | **起始维度成员** | **截止维度成员** |
 | 组织    | 本杰明，克莱尔 |                           |                         |
 | &nbsp;&nbsp;管理         | 四月            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;财务   | 艾丽西亚           | CC002                     | CC003                   |
@@ -331,5 +331,8 @@ ms.locfileid: "4440671"
     - 在 Dynamics 365 Finance 客户端中嵌入的数据 Power BI 可视化项
 
 > [!NOTE] 
-> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
+> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 访问列表层次结构对将数据安全导出到 Excel 没有帮助。 因此，该报告工具应仅由必须具有查看数据的完全访问权限的成本会计师和经理使用。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

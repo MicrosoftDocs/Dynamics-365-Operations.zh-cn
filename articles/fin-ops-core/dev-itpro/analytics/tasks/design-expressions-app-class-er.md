@@ -1,12 +1,10 @@
 ---
 title: 设计 ER 表达式以调用应用类方法
-description: 本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。
+description: 本主题介绍如何通过调用必需的应用程序类方法来在电子报告配置中重用现有的应用程序逻辑。
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78e7596760c4707578e2458a93631b571a7bfec86b9c51d877502ba04ed843a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726277"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 
@@ -157,3 +155,6 @@ ms.locfileid: "4682013"
 2. 单击“确定”。
     * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。 请注意，导入的 TXT 文件只有 3 行被处理。 无效的第 4 行中的 IBAN 代码已跳过，并在信息日志中提供错误消息。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

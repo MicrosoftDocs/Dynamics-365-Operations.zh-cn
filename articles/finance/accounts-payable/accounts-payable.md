@@ -1,28 +1,28 @@
 ---
 title: 应付帐款主页
 description: 此主题概要介绍了应付帐款。
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21901"
-- intro-internal
+ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: a0195c6776b5065d98b6b1d4d9795248c6bf4c74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972147"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
@@ -30,11 +30,11 @@ ms.locfileid: "7595278"
 
 此主题概要介绍了应付帐款。 
 
-您可以手动输入供应商发票或通过数据实体以电子方式接收这些发票。 在输入或接收发票后，可以通过使用发票审核日记帐或 **供应商发票** 页查看和审核发票。 您可以使用发票匹配、供应商发票策略和工作流来实现审核流程自动化，以便自动审核满足特定条件的发票，并标记其余的发票由授权用户进行审核。
+您可以手动输入供应商发票或通过数据实体以电子方式接收这些发票。 在输入或接收发票后，可以通过使用发票审核日记帐或 **供应商发票** 页查看和审核发票。 您可以使用发票匹配、供应商发票策略和工作流来实现审核流程自动化，以便自动审核满足特定条件的发票，并标记其余的发票由得到授权的用户进行审核。
 
 **业务流程**
 
-[![业务流程图。](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![业务流程图](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>设置应付帐款
 
@@ -122,7 +122,7 @@ ms.locfileid: "7595278"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 
@@ -144,6 +144,3 @@ ms.locfileid: "7595278"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

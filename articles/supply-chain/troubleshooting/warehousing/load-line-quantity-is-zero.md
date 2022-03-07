@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 15aa7f5e72ff8f2c027b5b020a23328978aa02b0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 5dc5f8962ba37d21d7ef505fea940dc8767a9d9295588cb0e12e9eebe379a35c
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344226"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012143"
 ---
 # <a name="you-cant-confirm-a-shipment-because-load-lines-have-zero-quantity"></a>由于负荷行数量为零，无法确认装运
 

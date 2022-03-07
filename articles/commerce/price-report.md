@@ -2,16 +2,13 @@
 title: 零售价报表
 description: 此主题提供可以用于查看分类产品的近期价格变更的价格报表功能的概览。
 author: shajain
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fa2710d64d632c6e4ef376528aff8316b02a380ce7e2a976d53a3dd39375fa7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767258"
 ---
 # <a name="retail-price-reports"></a>零售价报表
 
@@ -44,3 +41,6 @@ ms.locfileid: "4410361"
 | 显示具有价格更改的产品 | 将此项设置为 **是** 将仅显示价格已更改的那些日期的价格。 **开始日期** 的 *前一天* 的价格将始终显示，以便店长可以轻松识别在整个所选持续时间内未更改价格的产品，并可以查看当前价格。 |
 
 生成报表后，Excel 文件可以根据任何其他筛选需要下载。 价格报表还可以用于检查过去日期的产品的历史价格。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

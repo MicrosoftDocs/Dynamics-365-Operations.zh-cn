@@ -2,11 +2,9 @@
 title: 创建采购订单的产品包装
 description: 此程序会逐步演示如何创建产品包装，以及在采购订单上使用它。
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 296b3fb03b20dee5b6024c182df7feb3ce280913
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb10164be8d7a0828169cf3865f884afaa2e8408472edebe4cb0c7d4db059d8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723229"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
 
@@ -72,3 +70,6 @@ ms.locfileid: "4964662"
 17. 单击“创建”。
 18. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

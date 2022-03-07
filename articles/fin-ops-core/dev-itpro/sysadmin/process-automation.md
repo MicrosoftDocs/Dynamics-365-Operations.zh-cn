@@ -2,11 +2,9 @@
 title: 流程自动化
 description: 本主题详细介绍如何通过流程自动化简单计划批处理服务器将运行的流程。
 author: RyanCCarlson2
-manager: tonyafehr
-ms.date: 08/12/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746529"
 ---
 # <a name="process-automation"></a>流程自动化
 
@@ -32,13 +30,13 @@ ms.locfileid: "4682501"
 
 系统管理模块中 **设置** 菜单下提供所有流程自动化的集中管理页面。 此页将列出系统中设置的所有自动化流程（系列）。 还将允许您直接从此页面添加新的流程自动化。 设置系列后，可以从此列表管理每个系列。 可以选择编辑整个系列，将其删除，查看列表视图中的所有发生次数，或在要暂停计划的工作一段时间时禁用系列。 
 
-禁用此功能后，将不会显示在功能管理中禁用的任何流程。 此外，流程自动化计划引擎不会为禁用的功能计划任何事件或后台流程。 重新启用此功能将导致过去计划的任何事件或后台流程立即运行。
+禁用此功能后，将不会显示在功能管理中禁用的任何流程。 此外，流程自动化计划引擎不会为禁用的功能计划任何事件或后台流程。 重新启用此功能将导致过去计划的任何事件或后台流程立即运行。 流程自动化计划引擎依赖于系统批处理作业 **流程自动化轮询系统作业** 运行。 任何时候都不应该更改或篡改此作业。 
 
 ## <a name="calendar-view"></a>日历视图
 
 流程自动化的一个主要优势是，可以在简单的日历视图中查看计划的工作。  可通过此视图一次查看一周的工作。 您将在 **流程自动化** 页面右侧看到此视图。 将使用为所选系列计划的工作填充此视图。 
 
-[![流程自动化日历](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![流程自动化日历。](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>发生次数更改
 
@@ -47,3 +45,6 @@ ms.locfileid: "4682501"
 ## <a name="developer-documentation"></a>开发人员文档
 
 流程自动化框架允许开发人员扩展流程自动化框架。 [流程自动化框架](../process-automation/process-automation-framework.md)文档介绍如何创建通过流程自动化向导计划的批处理服务器需要运行的自定义流程，以及如何在日历视图中自动显示。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

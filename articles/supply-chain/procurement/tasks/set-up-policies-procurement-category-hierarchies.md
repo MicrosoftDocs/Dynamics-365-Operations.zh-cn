@@ -1,26 +1,24 @@
 ---
 title: 设置采购类别层次结构的策略
 description: 使用此过程设置类别中订购产品的规则。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017080"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577088"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>设置采购类别层次结构的策略
 
@@ -51,3 +49,6 @@ ms.locfileid: "5017080"
 6. 在 **供应商选择** 字段中，选择一个选项。 选择一个规则来控制创建申请时可以为类别选择哪种供应商。  
 7. 单击 **关闭**。 您已定义的政策规则针对类型为“消耗量”的申请。 如果要为类型为“补货”的申请定义政策，请为该政策规则类型创建名称为“补货类别访问政策规则”的规则。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

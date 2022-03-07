@@ -2,16 +2,13 @@
 title: 管理产品类别和产品
 description: 此主题介绍促销活动经理如何使用产品类别管理商业产品层次结构与发布的产品详细信息之间的关系。
 author: ashishmsft
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743976"
 ---
 # <a name="manage-product-categories-and-products"></a>管理产品类别和产品
 
@@ -38,17 +35,17 @@ ms.locfileid: "4410453"
 
 在改进的产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构的结构。
 
-![基于属性适用范围分组的字段](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![基于属性适用范围分组的字段。](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 您可以在跨所有法人管理法人特定属性与针对特定法人进行管理之间进行切换。
 
 若要管理所有法人的属性，请选择 **查看所有法人**（或 **编辑所有法人**）。
 
-![查看/编辑所有法人](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![查看/编辑所有法人。](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 若要管理特定法人的属性，请选择 **查看特定法人**（或 **编辑特定法人**）。
 
-![查看/编辑特定法人](media/ToggleToEditForAllLegalEntities.PNG)
+![查看/编辑特定法人。](media/ToggleToEditForAllLegalEntities.PNG)
 
 此外，在增强的产品类别结构中，促销活动经理现在可以在单个类别级别再为一组产品属性定义默认值。 然后，创建产品时，产品将根据其产品属性与产品层次结构中的单个类别的关联，继承这些属性的默认值。 还可以针对每个产品修改这些继承的产品属性，以满足单独的业务要求。
 
@@ -56,4 +53,7 @@ ms.locfileid: "4410453"
 
 可使用这个新改进的产品属性结构选择必须将哪些更新的产品属性推送到关联的产品。 在 **商业产品层次结构** 页上的操作窗格中，选择 **类别**，然后选择 **更新产品** 以打开 **更新产品** 对话框。
 
-![“更新产品”对话框](media/NewUpdateProductsEnhancedView.PNG)
+![“更新产品”对话框。](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

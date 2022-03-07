@@ -2,28 +2,25 @@
 title: 直线法折旧
 description: 本文提供了直线法折旧法的概览。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 610e8c58975a02cf6a4b3c4f79639d94ae8c3d9b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440786"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193822"
 ---
 # <a name="straight-line-service-life-depreciation"></a>直线法折旧
 
@@ -68,7 +65,7 @@ ms.locfileid: "4440786"
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>示例：对未更改的固定资产进行直线法折旧
 假定固定资产具有以下特征。
 
-|                     |        |
+| 特性      | 值  |
 |---------------------|--------|
 | 购置成本    | 11,000 |
 | Salvage value / 残值       | 1,000  |
@@ -108,3 +105,6 @@ ms.locfileid: "4440786"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

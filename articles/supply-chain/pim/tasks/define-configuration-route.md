@@ -2,11 +2,9 @@
 title: 定义配置流程
 description: 该过程专注于定义配置流程，以确定配置组将会显示的序列。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a0234fcce4f108fc6b03f0c4221613bb8526e86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0ca3444fa52ed2bb8354bcc4a2d9a64df6103da7772cefc9e79afa7e77fb70c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775643"
 ---
 # <a name="define-configuration-route"></a>定义配置流程
 
@@ -45,3 +43,6 @@ ms.locfileid: "4966872"
 15. 在列表中，单击所选行中的链接。
 16. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

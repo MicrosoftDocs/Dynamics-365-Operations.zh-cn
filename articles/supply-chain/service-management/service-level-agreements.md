@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01cdfe519e55ca2a9aa17f4ac181ee675b2793cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9b626d490b5abb948943df25c956c48084953da7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423085"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214314"
 ---
 # <a name="service-level-agreements-overview"></a>服务级别协议概览       
 
@@ -81,3 +80,6 @@ SLA 设置了为客户提供的服务的标准级别，并使服务公司明确�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

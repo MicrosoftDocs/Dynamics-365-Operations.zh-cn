@@ -1,30 +1,29 @@
 ---
 title: 产品配置概览
 description: “将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 75083
+ms.custom:
+- "75083"
+- intro-internal
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422659"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983359"
 ---
 # <a name="product-configuration-overview"></a>产品配置概览
 
@@ -39,6 +38,7 @@ ms.locfileid: "4422659"
 有几个产品配置建模原则，例如基于规则、基于维度和基于约束的建模。 研究表明，与其他建模原则相比，基于约束的方法可在模型中减少大约 50% 的代码行数。 因此，此方法可降低总拥有成本 (TCO)。 通过从以 X++ 代码为基础的基于规则的模型转为基于约束的模型，您在维护产品模型时不再需要开发人员许可证。
 
 ## <a name="product-configuration"></a>产品配置
+
 在工业化时代，人们在生产品质优良、功能丰富且价格实惠的产品方面取得了巨大成就。 规模经济使工业化世界内的大多数人都能购买我们视为日常生活中必不可少的一部分的汽车、电视、家用电器和其他商品。  
 
 随着很多产品变为日用品，人们需要将它们区分开来。 制造商对这一挑战的即时响应使得每个产品的变型也随之产生，以便让客户有更多替代选择。 此策略导致预测难题增加，并导致库存成本和过时的未售出产品增多。  
@@ -47,9 +47,10 @@ ms.locfileid: "4422659"
 
 对此，成功的关键在于仔细分析产品组合和寻找产品功能和流程中的模式。 目的是确定可由同一台设备制造并在所有变型中使用的通用组件。  
 
-新产品配置功能集包括提供产品配置模型结构的视觉概览的用户界面 (UI)，并包括不必编译的描述性约束语法。 因此，希望支持配置实践的公司可以更轻松地上路。 如以下章节所述，产品设计人员不再需要开发人员的支持即可构建产品配置模型、测试该模型，然后将该模型发布到销售组织。
+产品配置功能集包括提供产品配置模型结构的视觉概览的用户界面 (UI)，并包括不必编译的描述性约束语法。 因此，希望支持配置实践的公司可以更轻松地上路。 如以下章节所述，产品设计人员不再需要开发人员的支持即可构建产品配置模型、测试该模型，然后将该模型发布到销售组织。
 
 ## <a name="building-a-product-configuration-model"></a>构建产品配置模型
+
 用户可通过几种方法构建产品配置模型。 一种方法是执行一个顺序流 - 先创建所有引用数据（如基础产品、独特产品和运营资源），然后将这些数据作为组件、物料清单 (BOM) 行、工艺路线工序和产品配置模型的其他因素包含。 或者，您也可以通过先创建模型然后在需要时添加引用数据来选择更具迭代性的方法。
 
 ### <a name="components"></a>组件
@@ -61,7 +62,7 @@ ms.locfileid: "4422659"
 每个组件都有标识其属性的一个或多个属性。 属性是用户将在配置过程中选择的内容。 属性通过约束或计算中的包含来控制组件间或组件内关系。 通过应用于物料清单行的条件，属性可用于确定已配置产品所包含的实体部件。 此外，属性还可通过映射机制控制物料清单行的属性。 与包含和属性设置有关的工艺路线工序存在类似的功能。
 
 >[!NOTE]
-> 创建属性类型时，请避免为属性类型域创建大量的值。 这样做可能会导致产品配置器的速度降低。 
+> 创建属性类型时，请避免为属性类型域创建大量的值。 这样做可能会导致产品配置器的速度降低。
 
 ### <a name="expression-constraints"></a>表达式约束 
 
@@ -98,6 +99,7 @@ ms.locfileid: "4422659"
 包含工艺路线工序是为了标识制造工艺路线。 工艺路线工序必须引用已定义的操作，所有操作属性可设置为固定值。 除资源需求之外的所有属性均可映射到某个属性（而不是值）。
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>验证和测试产品配置模型
+
 产品配置模型的验证可在模型内的几个级别进行，因此可覆盖不同的范围。 最低级别针对单个表达式约束。 在这种情况下，验证通常由产品设计人员执行，旨在确认表达式的语法的正确性。  
 
 同样，物料清单行的条件或者工艺路线工序可以孤立地验证。  
@@ -115,6 +117,7 @@ ms.locfileid: "4422659"
 要在组件之间导航，请单击 **下一个** 或单击产品配置模型树中的组件以将焦点设置在其上。
 
 ## <a name="finalizing-a-model-for-configuration"></a>为配置完成模型
+
 当产品配置模型已准备好在配置到订购方案中使用时，必须创建一个版本。 但是，有几个可改善建模经验的选项。
 
 ### <a name="user-interface"></a>用户界面
@@ -134,32 +137,31 @@ ms.locfileid: "4422659"
 最终流程中的最后一个，也是最重要的一个步骤是为产品配置模型创建一个版本。 该版本表示基础产品之间的关系，您可为订单或报价单行上的配置选择该版本，也可为产品配置模型选择该版本。 版本必须经过审核和启用才能在配置会话中使用。
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>通过 API 扩展产品配置模型
-已实施专门的应用程序编程接口 (API)，以便让合作伙伴和具有开发人员许可证的其他人员扩展产品配置模型的功能。 这样做的主要目的是建立一个机制，让使用现有产品生成器的合作伙伴和客户将在产品生成器模型中嵌入的代码迁移到 API。 这样，他们就可以将其模型从产品生成器迁移到产品配置。 但是，新合作伙伴和客户还可能受益于使用 API 扩展新产品配置模型。
 
-### <a name="pcadaptor-class"></a>PCAdaptor 类
+已实施专门的应用程序编程接口 (API)，以便让合作伙伴和具有开发人员许可证的其他人员扩展产品配置模型的功能。 这样做的主要目的是建立一个机制，让使用现有产品生成器的合作伙伴和客户将在产品生成器模型中嵌入的代码迁移到 API。 这样，他们就可以将其模型从产品生成器迁移到产品配置。 但是，新合作伙伴和客户还可能受益于使用 API 扩展新产品配置模型。
 
 API 是使用一组 **PCAdaptor** 类实施的，这些类可公开产品配置模型的数据结构。 必须为将扩展的每个模型创建 **PCAdaptor** 类的实例。 在配置会话完成后，系统将检查是否有此类的实例并在发现该实例后运行它。  
 
-以下流程图概览了该流程。  
+以下 API 流程图概括了该流程。  
 
-[![流程图](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![流程图。](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-产品配置 API 流程图
+## <a name="configure-products"></a>配置产品
 
-## <a name="product-configuration"></a>产品配置
-产品配置可从以下位置执行：
+### <a name="configure-one-or-more-products"></a>配置一个或多个产品
 
--   销售订单行
--   销售报价单行
--   采购订单行
--   生产订单行
--   物料需求行（项目）
+您可以从以下位置配置产品：
+
+- 销售订单行
+- 销售报价行
+- 采购订单行
+- 生产订单行
+- 物料需求行（项目）
 
 配置的目的是打造满足用户要求的产品的不同变型。 将为每个新配置创建一个唯一配置 ID。 此 ID 通过库存启用跟踪。
 
-### <a name="multiple-sites-and-intercompany"></a>多个站点和内部公司
+### <a name="multiple-sites-and-intercompany-considerations"></a>多个站点和内部公司注意事项
 
 如果将对站点或者甚至是公司（不同于进行生产的站点或公司）执行配置，则会为供应公司内的供应商站点创建物料清单和工艺路线。 产品变型将在参与供应链的所有公司中发布。
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

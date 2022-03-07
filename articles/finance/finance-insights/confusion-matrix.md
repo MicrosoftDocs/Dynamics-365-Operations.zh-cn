@@ -2,28 +2,25 @@
 title: 机器学习模型的结果（预览）
 description: 本主题讨论机器学习 (ML) 模型中的混淆矩阵、分类问题和准确度。 目的是加深您对 ML 预测结果准确度的理解。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6a1620c33ee1e23a79ef5413afebdee332aa82b6
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645009"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028195"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>机器学习模型的结果（预览）
 
@@ -37,7 +34,7 @@ ms.locfileid: "4645009"
 
 例如，您的目标是根据一些身体和行为属性来预测宠物是狗还是猫。 如果您的测试数据集中包含 30 只狗和 20 只猫，那么混淆矩阵可能类似于下图。
 
-[![物种预测示例](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+![物种预测示例](media/species-prediction-matrix.png)
 
 绿色单元格中的数字表示正确的预测。 如您所见，该模型正确预测了实际猫的百分比更高。 该模型的整体准确度很好计算。 在此示例中，为 42 ÷ 50，即 0.84。
 
@@ -47,7 +44,7 @@ ms.locfileid: "4645009"
 
 接下来，我们将考虑具有三个状态的财务方案的分类问题。 该模型预测是按时，逾期还是严重逾期支付客户发票。 例如，在 100 张测试发票中，有 50 张按时付款，有 35 张是逾期付款，有 15 张是很晚付款。 在这种情况下，模型可能会产生类似于下图的混淆矩阵。
 
-[![模型 1](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)模型 1
+![模型 1](media/payment-prediction-matrix.png)]
 
 混淆矩阵提供的信息远远超过简单的准确度指标。 但是，它仍然相对容易理解。 混淆矩阵告诉您是否具有平衡的数据集，其中输出类的计数相似。 对于多类方案，它告诉您当输出类为序数时预测可能有多深，如前面有关客户付款的示例所示。
 
@@ -58,7 +55,7 @@ ms.locfileid: "4645009"
 
 但是，为了更全面地理解，应注意与准确度相关的几个挑战。 指标的有用性取决于问题的背景。 与模型性能有关的一个经常出现的问题是：“模型有多好？” 但是，这个问题的答案不一定很简单。 考虑以下混淆矩阵（模型 2）。
 
-[![样本较大的付款预测示例](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![样本较大的付款预测示例](media/payment-prediction-matrix-2.png)
 
 快速计算表明该模型的准确度为 (70 + 10 + 3) ÷ 100，即 0.83。 从表面上看，此结果似乎比以前的多类模型（模型 1）的结果好，后者的准确度为 0.73。 但是更好吗？
 
@@ -66,8 +63,8 @@ ms.locfileid: "4645009"
 
 还需要注意一个方面。 考虑使用医学测试来检测患者疾病的情况。 该问题是二进制分类问题，其中阳性结果表明患者患有该疾病。 在这种情况下，您必须考虑以下错误的影响：
 
-- 误报，即测试表明患者患有疾病，但实际上并非如此
-- 漏报，即测试表明患者未患疾病，但实际上患有
+- 误报，即测试表明患者患有疾病，但该患者实际上并非如此。
+- 漏报，即测试表明患者未患疾病，但实际上该患者患有。
 
 显然，两种类型的错误都是不希望的，但是哪个更糟？ 同样，这取决于具体情况。 对于需要迅速治疗的威胁生命的疾病，应尽量减少漏报（希望随后进行其他检查）。 在其他不太重要的情况下，模型创建者可能会尽量减少误报。 无论如何，合理的结论是，要有效地确定模型的质量，您必须拥有比准确度指标所提供的信息更多的信息。
 
@@ -103,7 +100,7 @@ F1 度量结合了精度和召回率。 结果是两个值的谐量平均值。 
 
 让我们看一个具体的例子。 在本主题的较早部分，有一个模型示例可以预测动物是狗还是猫。 下面重复此图。
 
-[![物种预测示例](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![物种预测示例（重复）](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 如果将“狗”用作肯定答案，则结果如下。
 
@@ -115,11 +112,11 @@ F1 度量结合了精度和召回率。 结果是两个值的谐量平均值。 
 
 尽管 F1 的准确性不是那么容易理解，但是它会增加基本准确性数字的细微差别。 如下面的讨论所示，它还可以帮助解决不平衡的数据集。
 
-本主题的[模型准确性](#classify-machine-learning-accuracy)一节比较了以下两个混淆矩阵。 即使第一个模型的准确性较低，它也被认为是更有用的模型，因为它比默认的按时付款显示出更多的改进。
+本主题的[模型准确性](#model-accuracy)一节比较了以下两个混淆矩阵。 即使第一个模型的准确性较低，它也被认为是更有用的模型，因为它比默认的按时付款显示出更多的改进。
 
-[![付款预测与实际示例](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)
+![付款预测与实际示例](media/payment-prediction-matrix.png)
 
-[![样本较大的付款预测示例](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![样本较大的付款预测示例（重复）](media/payment-prediction-matrix-2.png)
 
 让我们看看使用 F1 分数时这两个模型的比较。 F1 分数会影响每种状态的精度和召回率，而 F1 宏计算会将每种状态的 F1 分数取平均值，以确定总体 F1 分数。 还有其他 F1 变体，但是考虑到所有三种状态的平等考虑，考虑宏版本会引起更大的兴趣。
 
@@ -142,3 +139,6 @@ F1 度量结合了精度和召回率。 结果是两个值的谐量平均值。 
 
 #### <a name="privacy-notice"></a>隐私声明
 预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

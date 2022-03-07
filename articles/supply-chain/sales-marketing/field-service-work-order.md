@@ -1,30 +1,27 @@
 ---
 title: 将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 description: 本主题讨论用于将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单的模板和基础任务。
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528915"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568367"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 
@@ -34,7 +31,7 @@ ms.locfileid: "4528915"
 
 本主题讨论用于将 Dynamics 365 Field Service 中的工作订单同步到 Dynamics 365 Supply Chain Management 中的销售订单的模板和基础任务。
 
-[![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>模板和任务
@@ -62,13 +59,13 @@ ms.locfileid: "4528915"
 
 | **Field Service** | **供应链管理** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS 销售订单标题 |
-| msdyn_workorderservices | CDS 销售订单行   |
-| msdyn_workorderproducts | CDS 销售订单行   |
+| msdyn_workorders        | Dataverse 销售订单标头 |
+| msdyn_workorderservices | Dataverse 销售订单行   |
+| msdyn_workorderproducts | Dataverse 销售订单行   |
 
 ## <a name="entity-flow"></a>实体流
 
-工作订单在 Field Service 中创建。 如果工作订单中仅包含外部维护的产品，并且 **工作订单状态** 值与 **打开 - 未计划** 和 **已关闭 – 已取消** 不同，则可通过 Common Data Service 数据集成项目将工作订单同步到 Supply Chain Management。 对工作订单的更新将在 Supply Chain Management 中作为销售订单同步。 这些更新中包含有关原始类型和状态的信息。
+工作订单在 Field Service 中创建。 如果工作订单中仅包含外部维护的产品，并且 **工作订单状态** 值与 **打开 - 未计划** 和 **已关闭 – 已取消** 不同，则可通过 Microsoft Dataverse 数据集成项目将工作订单同步到 Supply Chain Management。 对工作订单的更新将在 Supply Chain Management 中作为销售订单同步。 这些更新中包含有关原始类型和状态的信息。
 
 ## <a name="estimated-versus-used"></a>估计与已使用
 
@@ -91,21 +88,21 @@ ms.locfileid: "4528915"
 | 系统状态 <br>(Field Service) | 行状态 <br>(Field Service) | 已分配 <br>(Field Service) |同步的值 <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | 打开 - 已计划   | 估计   | 是       | 估计                       |
-| 打开 - 已计划   | 估计   | 无        | 已使用                            |
+| 打开 - 已计划   | 估计   | 否        | 已使用                            |
 | 打开 - 已计划   | 已使用        | 是       | 已使用                            |
-| 打开 - 已计划   | 已使用        | 无        | 已使用                            |
+| 打开 - 已计划   | 已使用        | 否        | 已使用                            |
 | 打开 - 正在进行 | 估计   | 是       | 估计                       |
-| 打开 - 正在进行 | 估计   | 无        | 已使用                            |
+| 打开 - 正在进行 | 估计   | 否        | 已使用                            |
 | 打开 - 正在进行 | 已使用        | 是       | 已使用                            |
-| 打开 - 正在进行 | 已使用        | 无        | 已使用                            |
+| 打开 - 正在进行 | 已使用        | 否        | 已使用                            |
 | 打开 - 已完成   | 估计   | 是       | 估计                       |
-| 打开 - 已完成   | 估计   | 无        | 已使用                            |
+| 打开 - 已完成   | 估计   | 否        | 已使用                            |
 | 打开 - 已完成   | 已使用        | 是       | 已使用                            |
-| 打开 - 已完成   | 已使用        | 无        | 已使用                            |
+| 打开 - 已完成   | 已使用        | 否        | 已使用                            |
 | 已关闭 - 已过帐    | 估计   | 是       | 已使用                            |
-| 已关闭 - 已过帐    | 估计   | 无        | 已使用                            |
+| 已关闭 - 已过帐    | 估计   | 否        | 已使用                            |
 | 已关闭 - 已过帐    | 已使用        | 是       | 已使用                            |
-| 已关闭 - 已过帐    | 已使用        | 无        | 已使用                            |
+| 已关闭 - 已过帐    | 已使用        | 否        | 已使用                            |
 
 下表概述各种服务行组合。
 
@@ -248,28 +245,31 @@ ms.locfileid: "4528915"
 
 筛选器：(msdyn_systemstatus ne 690970005) 和 (msdyn_systemstatus ne 690970000) 与 (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![数据集成中的模板映射](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![数据集成中工作订单到销售订单的模板映射（Field Service 到 Supply Chain Management）：WorkOrderHeader。](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderServiceLineEstimate
 
 筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与 (msdyn_linestatus eq 690970000) 和 (msdynce_headersystemstatus ne 690970004)
 
-[![数据集成中的模板映射](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![数据集成中工作订单到销售订单的模板映射（Field Service 到 Supply Chain Management）：WorkOrderServiceLineEstimate。](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderServiceLineUsed
 
 筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与((msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004))
 
-[![数据集成中的模板映射](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![数据集成中工作订单到销售订单的模板映射（Field Service 到 Supply Chain Management）：WorkOrderServiceLineUsed。](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderProductLineEstimate
 
 筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与 (msdyn_linestatus eq 690970000) 和 (msdynce_headersystemstatus ne 690970004) 及 (msdyn_allocated eq true)
 
-[![数据集成中的模板映射](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![数据集成中工作订单到销售订单的模板映射（Field Service 到 Supply Chain Management）：WorkOrderProductLineEstimate。](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>工作订单到销售订单（Field Service 到 Supply Chain Management）：WorkOrderProductLineUsed
 
 筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 和((msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004) 或 (msdyn_allocated ne true))
 
-[![数据集成中的模板映射](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![数据集成中工作订单到销售订单的模板映射（Field Service 到 Supply Chain Management）：WorkOrderProductLineUsed。](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

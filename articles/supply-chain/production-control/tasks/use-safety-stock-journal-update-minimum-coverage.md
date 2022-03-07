@@ -1,28 +1,25 @@
 ---
 title: 使用安全存货日记帐更新最小覆盖范围
 description: 此过程演示如何根据历史交易记录计算最低覆盖范围方案，然后使用这些方案更新物料覆盖范围。
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d69daf3d307ba72ff6017d91849e3d22bd0bd85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ae2209fc2412a4a67b46d6eb82ecb70aafc0159
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423228"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573601"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>使用安全存货日记帐更新最小覆盖范围
 
@@ -66,3 +63,6 @@ ms.locfileid: "4423228"
 5. 在 **操作窗格** 中，单击“计划”。
 6. 单击 **物料覆盖范围**。 请注意，已使用安全存货日记帐中的新最低数量更新了 **最小数量**。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

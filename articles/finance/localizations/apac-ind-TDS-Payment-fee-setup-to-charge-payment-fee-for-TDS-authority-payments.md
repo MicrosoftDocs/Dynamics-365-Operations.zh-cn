@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1c17a00a9c62627e37533b43c38d94d57b00d1eb6c6b55de197dcd6d00d02db6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358426"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>为 TDS 主管机构付款设置付款费用
 

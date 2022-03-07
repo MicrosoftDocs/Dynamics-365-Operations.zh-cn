@@ -2,26 +2,23 @@
 title: 贸易折让管理
 description: 此主题介绍 Dynamics 365 Supply Chain Management 的贸易折让管理。
 author: t-benebo
-manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771267"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 
@@ -62,7 +59,7 @@ ms.locfileid: "4422954"
 
 **资金** 页中记录了分配给贸易折让协议的资金。 若要打开 **资金** 页，请选择 **销售和市场营销** \> **贸易折让** \> **资金** \> **资金**。
 
-![“资金”页面](./media/trade-allowance-management-funds-page.png "“资金”页面")
+![“资金”页面。](./media/trade-allowance-management-funds-page.png "“资金”页面")
 
 在 **资金** 页上，可查看促销资金的详细信息。
 
@@ -78,9 +75,9 @@ ms.locfileid: "4422954"
 
 **贸易折让协议** 页中记录了贸易折让协议。 若要打开 **贸易折让协议** 页，请选择 **销售和市场营销** \> **贸易折让** \> **贸易折让协议**。
 
-![“贸易折让协议”页面](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页面")
+![“贸易折让协议”页面。](./media/trade-allowance-management-agreements-page.png "“贸易折让协议”页面")
 
-#### <a name="header"></a>​页眉
+#### <a name="header"></a>单头
 
 选择 **标题** 切换到标题视图。
 
@@ -106,7 +103,7 @@ ms.locfileid: "4422954"
 
 如果选择促销活动，然后选择 **金额** 选项卡，将显示活动的详细信息。
 
-![贸易折让协议行](./media/trade-allowance-management-agreements-lines.png "贸易折让协议行")
+![贸易折让协议行。](./media/trade-allowance-management-agreements-lines.png "贸易折让协议行")
 
 在 **贸易折让行** 部分中，为定义指定要获得奖励，客户必须达到的数量或金额范围。
 
@@ -200,3 +197,6 @@ ms.locfileid: "4422954"
 
 若要获取促销的各种性能度量的更多分析概览，可使用分析视图。 若要转至分析视图，请单击 **销售和市场营销** \> **贸易折让** \> **贸易折让管理**。 在操作窗格上，单击 **分析**。 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

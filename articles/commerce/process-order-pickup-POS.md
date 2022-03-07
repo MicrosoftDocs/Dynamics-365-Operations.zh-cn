@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 598b155e1aa71cc7a23d1003331900604fb3de515381fd9c9987ed39bd9cbd2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741054"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802759"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>在 POS 中处理客户订单提货
 
@@ -32,7 +32,7 @@ ms.locfileid: "6741054"
 
 如果未将所选订单或订单行配置为在该特定商店提货，或者订单已完全提货，**提货** 操作将不可用。
 
-![提货操作。](media/pickupoperation.png)
+![提货操作](media/pickupoperation.png)
 
 在 Microsoft Dynamics 365 Commerce 版本 10.0.17 及更高版本中，可以通过 Commerce Headquarters 中的“功能管理”打开 **销售点中改进的提货订单处理用户体验** 功能。 如果此功能关闭，用户则无法选择提货数量。 默认情况下，为行订购的全部数量是要提货的数量。 此体验可能会存在问题，因为用户在通过订单履行执行提货时可能会忘记选择其中一些要提货的产品。
 
@@ -40,13 +40,13 @@ ms.locfileid: "6741054"
 
 当 **销售点中改进的提货订单处理用户体验** 功能打开时，选择 **提货** 操作，**提货** 对话框将出现。 在那里，您可以选择要提货的产品和数量。 默认情况下，任何具有处于已提货或已包装状态的库存的订购数量都会被视为符合提货条件。 默认情况下，该数量设置为提货数量。 您可以更改输入的数量，前提是该数量不是 0（零）且不超过所选行的未结总数量（即未开票）。
 
-![提货对话框。](media/pickupselect.png)
+![提货对话框](media/pickupselect.png)
 
 选择要提货的数量后，选择 **提货**，将出现交易页面。 如果[全渠道付款](omni-channel-payments.md)功能已打开，并且有预授权的信用卡付款记录在案，您必须进行付款。
 
 在交易页面上，系统通过计算所选提货产品的应付总额，然后减去任何先前应用的存款或授权的信用卡付款来计算应付金额。 您必须处理付款才能完成提货交易。 如果交易页面的 [屏幕布局](pos-screen-layouts.md)配置被配置为包括 **完成交易** 操作，并且没有应付金额，您无需选择付款方式即可完成交易。 如果 **完成交易** 操作不可用，您可以选择 **总计** 窗格中的 **$0.00 应付金额** 链接来完成交易，而无需选择付款方式。
 
-![客户订单提货交易的交易页面。](media/pickupcart.png)
+![客户订单提货交易的交易页面](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>更改提货行或数量
 
@@ -54,7 +54,7 @@ ms.locfileid: "6741054"
 
 如果 **销售点中改进的提货订单处理用户体验** 功能打开，组织可以在交易页面的屏幕布局中为 **更改提货行** 操作添加按钮。 在 POS 中创建提货交易购物车并选择产品后，如果您必须更改提货产品但又不想要取消整个交易，您可以选择 **更改提货行**。 在出现的 **更改提货行** 对话框中，您可以更改提货产品和数量。 交易购物车然后会更新以反映您的更改。
 
-![更改提货物料对话框。](media/pickupchange.png)
+![更改提货产品对话框](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

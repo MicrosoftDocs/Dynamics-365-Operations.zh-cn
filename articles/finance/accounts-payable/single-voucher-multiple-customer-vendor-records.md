@@ -2,27 +2,24 @@
 title: 具有多个客户或供应商记录的一个凭证
 description: 此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 Finance 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440917"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737033"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
@@ -211,8 +208,6 @@ ms.locfileid: "4440917"
 | ARP-00001   | 403300-002-023- | 客户 - 现金折扣 | 2.00      |            |
 | ARP-00001   | 130100-002-     | 客户 - 余额       |           | 2.00       |
 
-### 
-
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>对多个客户和供应商进行净额结算的一个凭证
 当组织与同一家公司进行采购和销售时，净额结算可能有用。 无需支付供应商发票并等待收到客户发票的付款，可以对供应商和客户发票进行净额结算。 对未付余额结算净额结算交易。 
 
@@ -233,3 +228,6 @@ ms.locfileid: "4440917"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: 采购目录概览
 description: 本文介绍在高级别，采购专业人员能够如何设置和维护采购目录。 采购目录定义公司员工可以订购供内部使用的物料和服务。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019771"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984287"
 ---
 # <a name="procurement-catalogs-overview"></a>采购目录概览
 
@@ -68,10 +68,12 @@ ms.locfileid: "5019771"
 -   **两者** – 如果目录包括具有 **静态** 默认更新类型的产品类别，则在这些类别更新时，必须手动更新该目录。 如果目录包括具有 **动态** 默认更新类型的产品类别，则在目录发生更改时，将会自动更新。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [设置采购类别层次结构](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

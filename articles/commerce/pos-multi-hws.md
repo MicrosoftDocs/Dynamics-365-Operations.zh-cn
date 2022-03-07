@@ -1,29 +1,26 @@
 ---
 title: 打印机和银箱的专用的付款终端和提示
 description: 本主题提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410512"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779762"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>打印机和银箱的专用的付款终端和提示
 
@@ -53,13 +50,13 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 
 此功能支持网络支持的付款终端和收据打印机。 您可以通过 d/k 端口将银箱连接到网络支持的收据打印机，以此来提供银箱支持。
 
-此功能的现成支持由[适用于 Adyen 的 Dynamics 365 Payment Connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3) 提供。 但是，可以通过 Commerce 付款软件开发套件 (SDK) 支持其他付款连接器。 支持的收据打印机包括 Star Micronics 和 Epson 的网络支持的收据打印机。
+此功能的现成支持由[适用于 Adyen 的 Dynamics 365 Payment Connector](./dev-itpro/adyen-connector.md?tabs=8-1-3) 提供。 但是，可以通过 Commerce 付款软件开发套件 (SDK) 支持其他付款连接器。 支持的收据打印机包括 Star Micronics 和 Epson 的网络支持的收据打印机。
 
 要设置 Star Micronics 收据打印机，请使用 Star Micronics 打印机实用程序配置设备，以可以通过网络上使用它。 此实用程序还会提供设备的 IP 地址。
 
 要设置 Epson 收据打印机，请使用 Epson ePOS-Print 实用程序将设备设置为使用网络协议。
 
-有关如何设置网络外围设备的详细信息，请参阅[网络外围设备支持概述](https://go.microsoft.com/fwlink/?linkid=2129965)。
+有关如何设置网络外围设备的详细信息，请参阅[网络外围设备支持概述](./dev-itpro/network-peripherals.md)。
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>为打印机和银箱设置专用付款终端和提示
 
@@ -78,9 +75,9 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 
     | 设备 | 类型 | 设备名称 | 其他详细信息 |
     |---|---|---|---|
-    | 打印机 | 回退 | *任何* | 设备名称区分大小写。 **收据模板 ID** 应该与映射到网络打印机的 **收据模板 ID** 相同，网络打印机在渠道级别分配给硬件工作站的硬件配置文件中设置。 |
-    | 银箱 | 回退 | *任何* | 设备名称区分大小写。 将 **使用共享班次** 选项设置为 **是**。 |
-    | EFT 服务 | Adyen | 不适用 | 有关如何设置现成的 Adyen 连接器的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)。 可以通过 [Commerce 付款软件开发套件 (SDK)](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension) 支持其他付款连接器。 |
+    | 打印机 | 网络 | *任何* | 设备名称区分大小写。 **收据模板 ID** 应该与映射到网络打印机的 **收据模板 ID** 相同，网络打印机在渠道级别分配给硬件工作站的硬件配置文件中设置。 |
+    | 银箱 | 网络 | *任何* | 设备名称区分大小写。 将 **使用共享班次** 选项设置为 **是**。 |
+    | EFT 服务 | Adyen | 不适用 | 有关如何设置现成的 Adyen 连接器的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](./dev-itpro/adyen-connector.md?tabs=8-1-3)。 可以通过 [Commerce 付款软件开发套件 (SDK)](./dev-itpro/end-to-end-payment-extension.md) 支持其他付款连接器。 |
     | PIN 小键盘 | 网络 | **MicrosoftAdyenDeviceV001** | 无。 |
 
 5. 在 Dynamics 365 Commerce 中，搜索 **收银机**。
@@ -88,7 +85,7 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 7. 将刚才创建的硬件配置文件分配给应该使用专用付款终端的收银机。 映射到此收银机的设备必须使用适用于 Windows 的 Modern POS 应用程序或适用于 Android 的 Modern POS 应用程序。
 8. 选择 **保存**。
 9. 在“操作”窗格上的 **收银机** 选项卡中，选择 **配置 IP 地址**。
-10. 在 **PIN 小键盘** 快速选项卡上，输入付款终端的 IP 地址。 有关如何使用 Adyen 连接器获取付款终端 IP 地址的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)。
+10. 在 **PIN 小键盘** 快速选项卡上，输入付款终端的 IP 地址。 有关如何使用 Adyen 连接器获取付款终端 IP 地址的信息，请参阅[适用于 Adyen 的 Dynamics 365 Payment Connector](./dev-itpro/adyen-connector.md?tabs=8-1-3)。
 11. 选择 **保存**。
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>设置收据打印机和银箱的硬件配置文件
@@ -103,7 +100,7 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
     | 设备 | 类型 | 说明 | 其他详细信息 |
     |---|---|---|---|
     | 打印机 | 网络 | **Epson** 或 **Star** | 设备名称区分大小写。 **收据模板 ID** 应该与映射到打印机的 **收据模板 ID** 相同，打印机在分配给收银机的硬件配置文件中设置。 |
-    | 银箱 | 网络 | **Epson** 或 **Star** | 设备名称区分大小写。 将 **使用共享班次** 选项设置为 **是**。 |
+    | 银箱 | 回退 | **Epson** 或 **Star** | 设备名称区分大小写。 将 **使用共享班次** 选项设置为 **是**。 |
 
 5. 选择 **保存**。
 
@@ -151,6 +148,9 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 
 ## <a name="related-articles"></a>相关文章
 
-- [在 Android 和 iOS 中安装 POS Hybrid 应用](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [适用于 Adyen 的 Dynamics 365 付款连接器](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [网络外围设备支持概述](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [在 Android 和 iOS 中安装 POS Hybrid 应用](./dev-itpro/hybridapp.md)
+- [适用于 Adyen 的 Dynamics 365 付款连接器](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [网络外围设备支持概述](./dev-itpro/network-peripherals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

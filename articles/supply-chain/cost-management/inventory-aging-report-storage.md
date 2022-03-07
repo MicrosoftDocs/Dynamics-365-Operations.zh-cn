@@ -2,16 +2,13 @@
 title: 库龄报表存储
 description: 本主题介绍使您可以运行库龄报表并使输出以表单和图表形式提供的功能。
 author: AndersGirke
-manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781102"
 ---
 # <a name="inventory-aging-report-storage"></a>库龄报表存储
 
@@ -57,3 +54,6 @@ ms.locfileid: "4422975"
     > 表单将不包括报表布局中定义的小计。
 
 **库龄报表** 数据实体使您可以通过将 **流程标识符 – 名称** 字段的筛选器应用到数据管理支持的任何格式来导出 **库龄报表存储** 报表的输出。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

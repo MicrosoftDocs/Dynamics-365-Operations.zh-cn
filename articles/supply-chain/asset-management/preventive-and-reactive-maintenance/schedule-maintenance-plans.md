@@ -1,12 +1,10 @@
 ---
 title: 安排维护计划
 description: 本主题介绍资产管理中的安排维护作业。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731311"
 ---
 # <a name="schedule-maintenance-plans"></a>安排维护计划
 
@@ -54,14 +52,14 @@ ms.locfileid: "5016898"
 
 5. 单击 **确定** 开始为资产生成维护安排条目。 将在 **所有维护安排** 列表页中显示生成的条目。 下图显示 **安排维护计划** 对话框的示例。
 
-![图 1](media/09-preventive-maintenance.png)
+![图 1.](media/09-preventive-maintenance.png)
 
 - 可在 **安排维护计划** 对话框的 **在后台运行** 快速选项卡上设置批处理作业，以便定期生成日历条目。  
 - 计划预防性维护时，将不创建预计开始日期和时间在系统日期和时间之前的维护安排行。  
 
 下图提供一个基于时间的维护计划计算的图形表示。  
 
-![图 2](media/10-preventive-maintenance.jpg)
+![图 2.](media/10-preventive-maintenance.jpg)
 
 有关基于计数器的维护计划：下图中显示了两个不同的计数器登记周期。 它们基于为资产“V0001”设置的维护计划，该资产（一辆汽车）应该每月行驶大约 2,000 公里。
 
@@ -71,7 +69,10 @@ ms.locfileid: "5016898"
 
 此处介绍的示例显示，为一个资产创建的所有计数器登记显示了用于描述该资产磨损情况的趋势。 该趋势在安排维护计划时用作计算基础。
 
-![图 3](media/11-preventive-maintenance.png)
+![图 3.](media/11-preventive-maintenance.png)
 
-![图 4](media/12-preventive-maintenance.png)
+![图 4.](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

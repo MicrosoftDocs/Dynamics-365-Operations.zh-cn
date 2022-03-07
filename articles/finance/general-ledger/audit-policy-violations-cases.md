@@ -2,11 +2,9 @@
 title: 审计策略违规记录和案例
 description: 本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758093"
 ---
 # <a name="audit-policy-violations-and-cases"></a>审计策略违规记录和案例
 
@@ -30,8 +28,7 @@ ms.locfileid: "5022097"
 
 本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。
 
-<a name="how-audit-cases-are-generated"></a>审核案例如何生成
------------------------------
+## <a name="how-audit-cases-are-generated"></a>审核案例如何生成
 
 审核策略用于标识不符合定义和配置为审核策略规则的业务规则的支出报表、采购订单和供应商发票。 
 
@@ -60,3 +57,6 @@ ms.locfileid: "5022097"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

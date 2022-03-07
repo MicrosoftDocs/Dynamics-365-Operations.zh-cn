@@ -2,7 +2,7 @@
 title: 维护员工伤害和疾病信息
 description: 建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a2f53acaa65589c30546e31739abc38941eb795
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417423"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465430"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>维护员工伤害和疾病信息
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -93,3 +95,6 @@ ms.locfileid: "4417423"
 36. 单击“保存”。
     * 恢复状态随时更新。  如果该受伤或疾病发生在工作流程中，则设置该案件为工作中。  关闭事故后，只能添加或删除费用以及事故相关的治疗与申报情况。  若要修改其他信息，重新打开该案件。  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

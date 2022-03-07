@@ -2,16 +2,13 @@
 title: 向交易记录屏幕添加建议
 description: 此主题介绍如何使用 Microsoft Dynamics 365 Commerce 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730999"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>向交易记录屏幕添加建议
 
@@ -46,7 +43,7 @@ ms.locfileid: "4410370"
 6. 在登录时，将显示如下页面。 布局将由为您的商店执行的自定义决定。
 
 
-    [![布局设计器](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![布局设计器。](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>选择显示选项
 
@@ -61,11 +58,11 @@ ms.locfileid: "4410370"
 1. 缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。
 
 
-    [![减少的交易记录行详细信息区域高度](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![减少的交易行详细信息区域的高度。](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. 将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。 调整控件大小，使其适合该空间。
 
-    [![添加到布局中的建议控件](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![添加到布局中的建议控件。](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. 单击 **X** 保存并退出布局设计器。
@@ -80,13 +77,13 @@ ms.locfileid: "4410370"
 
 2. 单击 **自定义**。
 
-    [![自定义 - 选项卡控件对话框](./media/pic-5.png)](./media/pic-5.png)
+    [![自定义 - 选项卡控件对话框。](./media/pic-5.png)](./media/pic-5.png)
 
 3. 单击 **新建选项卡**。
 4. 找到刚添加的新选项卡。 您可能需要向下滚动。
 5. 在 **目录** 下拉菜单中，选择 **建议的产品**。
 
-    [![在“目录”字段中选择“建议的产品”](./media/pic-6.png)](./media/pic-6.png)
+    [![在“目录”字段中选择“建议的产品”。](./media/pic-6.png)](./media/pic-6.png)
 
 6. 在 **标签** 字段，键入建议选项卡的名称。例如，键入“建议的产品”。
 7. 在 **图像** 字段中，选择要在该选项卡上显示的图像。
@@ -119,3 +116,6 @@ ms.locfileid: "4410370"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

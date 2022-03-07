@@ -2,28 +2,25 @@
 title: 成本元素维度
 description: 作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e67ce047d08af6d34090ee4e1dc379dd16ecce07
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 667fb81a2c1c8f564c09fe8fb7921c7aff75920bfa4326e82078583df61576e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728761"
 ---
 # <a name="cost-element-dimensions"></a>成本元素维度
 
@@ -66,7 +63,7 @@ ms.locfileid: "4440847"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>成本元素维度和成本元素维度成员
 成本元素被称为“*成本元素维度*”。 各个维度值被称为“*成本元素维度成员*”。 例如，你将美国会计科目表结构 (COA) 作为法定申报的基础。 此 COA 用作成本元素维度。 科目为主要成本元素，在成本核算中表示为成本元素维度成员。 以下屏幕截图举例说明了作为成本元素维度的主科目及其作为成本元素维度成员的实际主科目。 
 
-[![作为成本元素维度的主科目的屏幕截图](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![作为成本元素维度的主科目的屏幕截图。](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>通过数据连接器导入成本元素维度成员
 为了便于设置成本核算中的成本元素维度成员，您可以使用预构建或您自定义构建的数据连接器检索一个或多个源系统中的主要成本元素。
@@ -76,3 +73,6 @@ ms.locfileid: "4440847"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: 大批雇用项目
 description: 大型雇用项目允许人力资源专员创建多个职位，并且高效地为这些职位雇用工作人员。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f33fb96e9a2331499a594689a758694c2291368
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d7810a3b679f4b2db33fbe2c4dc7bd46db91b4c1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417476"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465406"
 ---
 # <a name="mass-hire-projects"></a>大批雇用项目
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -82,3 +84,6 @@ ms.locfileid: "4417476"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

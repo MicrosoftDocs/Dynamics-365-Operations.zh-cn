@@ -2,15 +2,12 @@
 title: 与 LinkedIn Talent Hub 集成
 description: 本主题介绍了如何设置 Microsoft Dynamics 365 Human Resources 与 LinkedIn Talent Hub 之间的集成。
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,18 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527877"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441257"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> 2021 年 12 月 31 日将停用本主题中介绍的 Dynamics 365 Human Resources 与 LinkedIn Talent Hub 之间的集成。 该日期之后不再提供此集成服务。 尚未在使用此集成服务的组织在停用前不能实施此服务。
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) 是申请人跟踪系统 (ATS) 平台。 通过此一体式平台，您可以找到、管理和雇用员工。 通过将 Microsoft Dynamics 365 Human Resources 与 LinkedIn Talent Hub 集成，您可以轻松地在 Human Resources 中为已被聘请担任某职位的申请人创建员工记录。
 
@@ -49,7 +47,7 @@ ms.locfileid: "4527877"
 
 5. 在 **Dynamics 365 Human Resources** 页面上，选择 LinkedIn Talent Hub 要链接到的环境，然后选择 **链接**。
 
-    ![LinkedIn Talent Hub 入职](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub 入职。](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > 您只能链接到用户帐户对 Human Resources 环境以及关联的 Power Apps 环境具有管理员访问权限的环境。 如果 Human Resources 链接页面上未列出任何环境，请确保已在租户上获得了 Human Resources 环境的许可，并且您以该身份登录到链接页面的用户对 Human Resources 环境和 Power Apps 环境具有管理员权限。
@@ -92,7 +90,7 @@ ms.locfileid: "4527877"
 
 6. 使用列表上方的下拉菜单将视图从默认的 **已启用用户** 视图更改为 **申请用户**。
 
-    ![申请用户视图](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![申请用户视图。](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. 在工具栏上，选择 **新建**。
 
@@ -127,14 +125,14 @@ ms.locfileid: "4527877"
     - **名称**：输入您之前创建的 Power Apps 安全角色的名称，例如 **LinkedIn Talent Hub HRIS 集成**。
     - **用户 ID**：选择具有在“人员管理”中写入数据的权限的用户。
 
-### <a name="create-the-entity-in-common-data-service"></a>在 Common Data Service 中创建实体
+### <a name="create-the-table-in-dataverse"></a>在 Dataverse 中创建表
 
 > [!IMPORTANT]
-> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Common Data Service 中的虚拟实体。 作为设置中此步骤的先决条件，必须配置虚拟实体。 有关如何配置虚拟实体的信息，请参阅[配置 Common Data Service 虚拟实体](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)。
+> 与 LinkedIn Talent Hub 的集成取决于适用于 Human Resources 的 Dataverse 中的虚拟表。 作为设置中此步骤的先决条件，必须配置虚拟表。 有关如何配置虚拟表的信息，请参阅[配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)。
 
-1. 在 Human Resources 中，打开 **Common Data Service (CDS) 集成** 页面。
+1. 在 Human Resources 中，打开 **Dataverse 集成** 页面。
 
-2. 选择 **虚拟实体** 选项卡。
+2. 选择 **虚拟表** 选项卡。
 
 3. 按实体标签筛选实体列表以查找 **LinkedIn 导出的应聘者**。
 
@@ -142,7 +140,7 @@ ms.locfileid: "4527877"
 
 ## <a name="exporting-candidate-records"></a>导出应聘者记录
 
-完成设置后，招聘人员和 Human resources (HR) 专业人员可以使用 LinkedIn Talent Hub 中的 **导出到 HRIS** 功能，将雇用的应聘者记录从 LinkedIn Talent Hub 导出到 Human Resources。
+完成设置后，招聘人员和人力资源 (HR) 专业人员可以使用 LinkedIn Talent Hub 中的 **导出到 HRIS** 功能，将雇用的应聘者记录从 LinkedIn Talent Hub 导出到 Human Resources。
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>从 LinkedIn Talent Hub 导出记录
 
@@ -164,7 +162,7 @@ ms.locfileid: "4527877"
     - 在 **位置** 字段中，输入员工的所在地。
     - 输入或验证员工的电子邮件地址。
 
-![LinkedIn Talent Hub 中的“导出到 HRIS”窗格](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![LinkedIn Talent Hub 中的“导出到 HRIS”窗格。](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>在 Human Resources 中完成入职
 
@@ -188,5 +186,8 @@ ms.locfileid: "4527877"
 
 ## <a name="see-also"></a>请参阅
 
-[配置 Common Data Service 虚拟实体](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[什么是 Common Data Service？](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[配置 Dataverse 虚拟表](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[什么是 Microsoft Dataverse？](/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

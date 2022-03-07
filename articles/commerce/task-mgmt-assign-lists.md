@@ -2,34 +2,29 @@
 title: 将任务列表分配给商店或员工
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中将任务列表分配给商店或员工。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730819"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>将任务列表分配给商店或员工
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中将任务列表分配给商店或员工。
-
-## <a name="overview"></a>概览
 
 可通过 Dynamics 365 Commerce 中的任务管理将任务列表分配给多个商店或员工，或分配给商店和员工的组合。 例如，一位 20 家商店的地区经理可能希望将 **假日准备** 任务列表分配给所有 20 商店。
 
@@ -50,7 +45,7 @@ ms.locfileid: "4410552"
 
 下图显示如何在 **启动流程** 对话框中查找和选择商店的示例。
 
-![在“启动流程”对话框中查找和选择商店](media/HQ-Assign-Tasks-Lists.png)
+![在“启动流程”对话框中查找和选择商店。](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>在重复执行基础上分配任务列表
 
@@ -67,7 +62,7 @@ ms.locfileid: "4410552"
 
 下图显示如何在 **定义重复执行** 对话框中输入频率条件的示例。
 
-![在“定义重复执行”对话框中输入频率条件](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![在“定义重复执行”对话框中输入频率条件。](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>跟踪任务列表状态
 
@@ -92,3 +87,6 @@ ms.locfileid: "4410552"
 [创建任务列表和添加任务](task-mgmt-create-lists.md)
 
 [POS 中的任务管理](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

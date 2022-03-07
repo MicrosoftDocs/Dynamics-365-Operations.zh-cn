@@ -2,16 +2,13 @@
 title: 设置主计划
 description: 此主题介绍用于设置主计划的各种重要策略和参数。
 author: t-benebo
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422812"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833393"
 ---
 # <a name="set-up-master-planning"></a>设置主计划
 
@@ -227,3 +224,6 @@ ms.locfileid: "4422812"
 系统仅使用此时段内的计划供应订单，并且创建超出其范围的新计划订单。 动态负天数的优点是其中包含单个产品提前期，以便重复使用现有订单和避免创建将在之后某天因为提前期导致的延迟而结束的新计划订单。 
 
 有关详细信息，请参阅[负天数和动态负天数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

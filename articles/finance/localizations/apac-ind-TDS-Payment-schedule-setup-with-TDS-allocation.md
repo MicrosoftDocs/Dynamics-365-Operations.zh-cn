@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 55bfdfb97c418ec9fd856a151da46c1bcf94aa2cb4df85185b47f722d8526ef2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769714"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023066"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>设置包含 TDS 分配的付款计划
 
@@ -31,7 +31,7 @@ ms.locfileid: "6769714"
 
 1. 转到 **应付帐款 \> 付款设置 \> 付款计划**。
 
-    [![付款计划页面。](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![付款计划页面](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. 在操作窗格上，选择 **新建** 以创建付款计划，然后输入所需的详细信息。
 3. 在 **分配** 字段中，选择要用于为付款计划分配付款的方法。

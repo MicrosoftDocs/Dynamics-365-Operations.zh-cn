@@ -1,29 +1,26 @@
 ---
 title: 装运自动更新
 description: 本主题概述了为装运提供自动更新的功能。
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3402a4c90299cf52e489e85ed55aff9762796545
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422796"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580088"
 ---
 # <a name="shipment-auto-updates"></a>装运自动更新
 
@@ -140,3 +137,6 @@ ms.locfileid: "4422796"
 如果装运的状态为 **已分波次** 或更高，则不会在与该装运关联的负荷行上反映或根据其验证销售订单行上的数量更新。 必须直接在负荷行上更改负荷行上的数量。
 
 验证将在为负荷行创建工作并进行预留之后进行。 然后，根据工作行预留验证销售订单行上数量的减少。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

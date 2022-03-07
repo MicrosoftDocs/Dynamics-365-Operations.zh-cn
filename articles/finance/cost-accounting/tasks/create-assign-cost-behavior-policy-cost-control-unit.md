@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 110ab87586c926d719537d2c30225d1630ce7710
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 58f888a373af33832c24518fbb5483c3de2d1a58
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969295"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208695"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>创建成本行为策略并将其分配到成本控制单元
 
@@ -85,3 +85,6 @@ ms.locfileid: "4969295"
 15. 在“成本控制单元”字段中，输入或选择一个值。
 16. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

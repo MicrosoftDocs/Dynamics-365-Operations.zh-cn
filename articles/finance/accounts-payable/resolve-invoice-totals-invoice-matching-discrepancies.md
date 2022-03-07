@@ -2,28 +2,27 @@
 title: 解决发票合计匹配期间出现的差异概览
 description: 您可以使用发票合计匹配来帮助确保发票总金额与预期金额之间的差异不会超出可接受的差异。
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 63413
+ms.custom:
+- "63413"
+- intro-internal
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf5a48a0f6beafad3c9a657c44079b290a7ebd5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f15edb0423bba2a6fe01f4b3ef1ba1be4e463d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440705"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985305"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>解决发票合计匹配期间出现的差异概览
 
@@ -44,3 +43,6 @@ ms.locfileid: "4440705"
 有关详细信息，请参阅[研究/解析异常](tasks/research-resolve-exceptions.md)。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

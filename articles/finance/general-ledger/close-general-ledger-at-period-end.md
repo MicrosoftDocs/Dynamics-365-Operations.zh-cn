@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cabdce5e23704fbf12e631a138235174ebc5772
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 944f88e65c5dbbd2acf21ebfd96c28ce477798ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975983"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>在期间结束时关闭总帐
 

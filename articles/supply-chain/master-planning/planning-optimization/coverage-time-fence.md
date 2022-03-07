@@ -2,11 +2,13 @@
 title: 覆盖时限
 description: 本主题介绍使用计划优化时如何设置覆盖时限。 覆盖时限指示计划范围和限制。
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/18/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqGroup, ReqItemTable, ReqPlanSched
+ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,16 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f970d7aa9f758d3bc35b7a1b9d1e43be928fd250
+ms.sourcegitcommit: 995c678b4715be267f1f97148902a6b3dde3bcab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567311"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5033196"
 ---
 # <a name="coverage-time-fences"></a>覆盖时限
-
-[!include [banner](../../includes/banner.md)]
 
 本主题介绍使用计划优化时如何设置 *覆盖时限*。 计划者可以定义计划范围（以天为单位的覆盖时限），并可以排除超出该范围的供应和需求。 因此，覆盖时限可以帮助在几个月内阻止您无需作出反应的供应建议引起的“噪音”。 例如，下一年的预测和距离正常提前期还有很长时间的客户订单。
 
@@ -85,6 +85,3 @@ ms.locfileid: "7567311"
 - 如果计算出的要求装运日期不在覆盖时限内，内部公司需求将被忽略。 请注意，对于内置主计划，内部公司需求不受覆盖时限的限制。
 - 如果预算日期不在覆盖时限内，需求预测将被忽略。 请注意，对于内置主计划，需求预测不受覆盖时限的限制。
 - 计划优化可以识别时区。 它会考虑供应和需求站点的时区以及计划运行的时间。 例如，主计划在 10 月 15 日上午 11 点从丹麦（GMT+1 时区）的某个站点触发，使用十天覆盖时限。 在这种情况下，西雅图的某个站点（GMT-8 时区）的供应和需求将被包括在内，直到 10 月 25 日凌晨 2 点（=主计划触发后十个 24 小时日减去九小时的时差）。 请注意，内置主计划引擎仅考虑时限的日期。 因此，结果可能不同。
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

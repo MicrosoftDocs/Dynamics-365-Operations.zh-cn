@@ -1,58 +1,45 @@
 ---
-title: 提交和审查项目预算
+title: 创建和提交项目预算工作流
 description: 此过程显示如何创建和提交项目的预算。
-author: RichardLuan
-manager: tfehr
-ms.date: 08/13/2019
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
+author: Henrikan
+ms.date: 11/22/2021
+ms.topic: article
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018720"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860401"
 ---
-# <a name="submit-and-approve-project-budget"></a>提交和审查项目预算
+# <a name="create-and-submit-a-project-budget-workflow"></a>创建和提交项目预算工作流
 
 [!include [banner](../../includes/banner.md)]
 
-此过程显示如何创建和提交项目的预算。 
+创建项目预算时，您可以输入项目的已评估收入和成本，然后使用值来控制实际项目交易。 项目预算要求所有原始预算和修订完成项目工作流以供审批。 该工作流加强您对预算的控制并创建变更历史记录。 [创建项目](/dynamicsax-2012/appuser-itpro/create-a-project)后，使用此过程创建并提交预算。
 
-创建项目预算时，您可以输入成本的已评估收入和成本，然后将其用于控制实际项目交易记录。 在项目预算中，必须将所有原始预算和修订发送到项目工作流以供审核。 工作流提供给您对流程的增强了的控制，并创建了一个更改历史记录。
-
-此任务是使用 USSI 数据集创建的。
-
-1. 在 **导航窗格** 中，转到 **模块 > 项目管理与核算 > 项目 > 所有项目**。
-2. 在列表中，找到并选择所需记录。
-3. 在列表中，单击所选行中的链接。
-4. 在 **操作窗格** 中，单击 **计划**。
-5. 单击 **项目预算**。
-6. 在 **描述** 字段中，键入一个值。
-7. 展开 **成本** 快速选项卡。
-8. 单击 **新建**。
-9. 在 **交易类型** 字段中，选择一个选项。
-10. 在 **类别** 字段中，输入或选择一个值。
-11. 在 **原始预算** 字段中，输入一个数字。
-12. 展开 **收入** 快速选项卡。
-13. 单击 **新建**。
-14. 在列表中，标记所选的行。
-15. 在 **交易类型** 字段中，选择一个选项。
-16. 在 **类别** 字段中，输入或选择一个值。
-17. 在 **原始预算** 字段中，输入一个数字。
-18. 单击 **保存**。
-19. 单击 **工作流**。
-20. 单击 **提交**。
-21. 在 **注释** 字段中，键入一个值。
-22. 单击 **提交**。
-
+1. 转到 **模块** > **项目管理与核算** > **项目** > **全部项目**。
+1. 从项目列表中，选择项目。
+1. 在项目的详细信息页中，选择 **计划** 选项卡。
+1. 在 **预算** 组下，选择 **项目预算**。
+1. 在 **常规** 快速选项卡上，输入以下信息：
+   - 在 **描述** 框中，键入一个值。
+   - 选择 **原始预算** 选项。
+   - 选择 **剩余预算** 选项。
+1. 展开 **成本** 快速选项卡并选择 **新建**。 然后，设定以下设置：
+   - 选择 **交易类型** 选项。
+   - 选择适当的 **类别**。
+   - 在 **原始预算** 中输入值。
+1. 展开 **收入** 快速选项卡并选择 **新建**。 然后，设定以下设置：
+   - 选择 **交易类型** 选项。
+   - 选择 **类别**。
+   - 为 **原始预算** 输入值。
+1. 选择 **保存**。
+1. 选择 **工作流 \> 提交**。
+1. 在 **查看原始预算工作流 - 提交** 页面上，输入 **注释**，然后选择 **提交**。

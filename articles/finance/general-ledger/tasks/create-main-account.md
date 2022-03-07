@@ -1,33 +1,30 @@
 ---
 title: 创建主科目
-description: 此任务指南介绍添加主科目到现有会计科目表的步骤。
+description: 此程序逐步演示如何添加主科目到现有会计科目表。
 author: aprilolson
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440657"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394627"
 ---
 # <a name="create-a-main-account"></a>创建主科目
 
 [!include [banner](../../includes/banner.md)]
 
-此任务指南介绍添加主科目到现有会计科目表的步骤。 此记录使用 USMF 公司演示。  
+此程序逐步演示如何添加主科目到现有会计科目表。 此记录使用 USMF 公司演示。  
 
 1. 转到 **导航窗格 > 模块 > 总帐 > 会计科目表 > 科目 > 主科目**。
 2. 单击 **新建**。
@@ -52,3 +49,6 @@ ms.locfileid: "4440657"
 21. 在 **币种转换类型** 字段中，选择科目汇率的计算方法。
 22. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

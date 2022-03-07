@@ -1,34 +1,31 @@
 ---
 title: 重新计算重置成本和固定资产组的保险额
-description: 本文说明更新重置成本和固定资产的保险额的流程。
-author: ShylaThompson
-manager: AnnBe
+description: 本主题说明更新重置成本和固定资产的保险额的流程。
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440812"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674868"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>重新计算重置成本和固定资产组的保险额
 
 [!include [banner](../includes/banner.md)]
 
-本文说明更新重置成本和固定资产的保险额的流程。
+本主题说明更新重置成本和固定资产的保险额的流程。
 
 系统可能会定期通知您，已更改固定资产的特定于重置或保险的成本。 例如，您的经理可能会通知您去年的通货膨胀率是 3%，因此，您需要将所有固定资产的重置成本增加 3%。 
 
@@ -78,3 +75,6 @@ ms.locfileid: "4440812"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

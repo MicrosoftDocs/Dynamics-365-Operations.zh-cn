@@ -1,30 +1,27 @@
 ---
 title: 将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales
 description: 本主题讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422873"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571633"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将销售账单标题和行从 Finance and Operations 直接同步到 Sales
 
@@ -36,7 +33,7 @@ ms.locfileid: "4422873"
 
 “从目标客户到现金”使用“数据集成”功能来同步 Supply Chain Management 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用有关 Supply Chain Management 与 Sales 之间的客户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Supply Chain Management 与 Sales 之间的数据如何同步。
 
-[![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![“从目标客户到现金”中的数据流。](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
@@ -119,17 +116,17 @@ ms.locfileid: "4422873"
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![数据集成中的模板映射](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![SalesInvoiceHeader 的数据集成中的模板映射。](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![数据集成中的模板映射](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![SalesInvoiceLine 的数据集成中的模板映射。](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
 ## <a name="related-topics"></a>相关主题
 
-[现金的目标客户](prospect-to-cash.md)
+[目标客户到现金](prospect-to-cash.md)
 
 [将 Sales 的客户直接同步到 Supply Chain Management 中的客户](accounts-template-mapping-direct.md)
 
@@ -138,3 +135,6 @@ ms.locfileid: "4422873"
 [将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户](contacts-template-mapping-direct.md)
 
 [直接在 Sales 和 Supply Chain Management 之间同步销售订单](sales-order-template-mapping-direct-two-ways.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

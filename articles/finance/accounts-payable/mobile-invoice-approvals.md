@@ -2,27 +2,24 @@
 title: 移动发票审核
 description: 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737347"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
@@ -30,12 +27,11 @@ ms.locfileid: "4440707"
 
 商业用户可通过移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本主题应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
 
-<a name="prerequisites"></a>必备项
--------------
+## <a name="prerequisites"></a>必备项
 
 | 必备项                                                                                            | 说明                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 移动手册预习                                                                                |[移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| 移动手册预习                                                                                |[移动平台](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | 已安装了版本 1611 和平台更新 3（2016 年 11 月）的环境                   |
 | 安装修补程序 KB 3204341。                                                                              | 任务录制器可能错误地为平台更新 3（2016 年 11 月更新）中的下拉对话框录制两个关闭命令。 |
 | 安装修补程序 KB 3207800。                                                                              | 此修补程序允许在平台更新 3（2016 年 11 月更新）中的移动客户端上查看附件。           |
@@ -63,7 +59,7 @@ ms.locfileid: "4440707"
 
 在使用移动设计器时，通常需要确保“发布”更改，以防丢失更新。
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审核方案
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审批方案
 <table>
 <colgroup>
 <col width="50%" />
@@ -140,7 +136,7 @@ ms.locfileid: "4440707"
 
 1.  在该 URL 中，将菜单项的名称替换为 **VendMobileInvoiceAssignedToMeListPage**，以便在 **应付帐款** 模块中打开 **分配给我的待定供应商发票** 列表页面的移动版本。 此页面根据系统中为您分配的发票数量显示这些发票。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 只需要为您分配某张发票，这将允许您设计移动页面。 已专门为供应商发票的移动方案设计可用新页面。 因此，您必须使用这些页面。 此 URL 应类似以下 URL，并且输入该 URL 之后，必须显示下图中显示的页面：https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![分配给我的待定供应商发票页面](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![分配给我的待定供应商发票页面。](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  单击页面右上角的 **设置**（齿轮）按钮，然后单击 **移动应用程序**
 3.  选择您的工作区，然后单击 **编辑**
@@ -149,7 +145,7 @@ ms.locfileid: "4440707"
 6.  单击 **完成**。
 7.  在移动设计器中的 **字段** 选项卡上，单击 **选择字段**。 列表页面上的列必须类似下图。 
 
-    [![“分配给我的待定供应商发票”页面上的列](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![“分配给我的待定供应商发票”页面上的列。](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  从列表页面添加必须在移动页面中向用户显示的所需列。 添加顺序为字段向最终用户显示的顺序。 只能通过重新选择所有字段才能更改字段的顺序。 根据此方案的要求，需要下面的八个字段： 但是，某些用户可能会认为八个字段在移动设备上提供的信息太多。 因此，我们将在移动列表视图中仅显示最重要的字段。 其余字段将在我们以后将设计的详细信息视图中显示。 现在我们将仅添加以下字段。 单击这些列中的加号 (**+**) 添加到移动页面。
     - 供应商名称
@@ -160,7 +156,7 @@ ms.locfileid: "4440707"
 
     添加字段之后，移动页面必须类似下图。 
     
-    [![添加字段后的页面](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![添加字段后的页面。](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  还必须立即添加以下列，以便在以后启用工作流操作。
     - 显示已完成任务
@@ -179,7 +175,7 @@ ms.locfileid: "4440707"
 
 若要为移动设计发票明细页面，请使用 **VendMobileInvoiceHeaderDetails** 页面。 请注意，此页面根据您在系统中的发票数量，显示时间最久的发票（即最先创建的发票）。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 我们仅需要一些发票数据，以便设计移动页面。 
 
-[![工作流页面](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![工作流页面。](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. 在该 URL 中，将菜单项的名称替换为 **VendMobileInvoiceHeaderDetails** 以打开窗体
 
@@ -216,7 +212,7 @@ ms.locfileid: "4440707"
 
 11. 添加了前面两步骤中的所有字段之后，单击 **完成**。 此页面必须类似下图。
     
-    [![添加字段后的页面](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![显示添加的其他字段的图示。](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. 单击 **完成** 退出编辑模式。
 
@@ -326,7 +322,7 @@ ms.locfileid: "4440707"
 
 4. 将 **文档管理** 选项设置为 **是**，如下所示。 **注释：** 如果需要在移动设备上显示附件，可以让此选项保留为 **否**（这是默认设置）。
    
-   ![文档管理](./media/docmanagement-216x300.png)
+   ![文档管理。](./media/docmanagement-216x300.png)
 
 5. 单击 **完成** 退出编辑模式。
 
@@ -343,7 +339,7 @@ ms.locfileid: "4440707"
 
 1.  在 URL 中，替换 URL 中的菜单项名称，如前面执行的操作。 显示的页面应类似下图。
 
-    [![“全部分配”页面](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![“全部分配”页面。](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  通过 **设置**（齿轮）按钮打开移动设计器。
 
@@ -535,3 +531,6 @@ ms.locfileid: "4440707"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

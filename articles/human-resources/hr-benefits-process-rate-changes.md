@@ -2,7 +2,7 @@
 title: 处理比率更改
 description: 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c87d98a16431805ad652e28e5ca100a4152ad0c6
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417432"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466222"
 ---
 # <a name="process-rate-changes"></a>处理比率更改
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 处理当新的或现有的福利计划的资格规则设置发生更改时，Microsoft Dynamics 365 Human Resources 中的福利比率更改。 如果创建了新的资格规则并将其分配给计划，这将提示系统重新运行工作人员资格，以根据新的资格选项检查工作人员现在是否有资格享受计划。 
 
@@ -48,3 +50,6 @@ ms.locfileid: "4417432"
    4. 选择 **确定**。 流程将使用您设置的参数运行。
 
 4. 选择 **确定**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: 使用冲销的折旧影响
 description: 本文讨论冲销固定资产交易记录的潜在影响。
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440639"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674542"
 ---
 # <a name="depreciation-effects-with-reversals"></a>使用冲销的折旧影响
 
@@ -33,14 +30,14 @@ ms.locfileid: "4440639"
 
 您可以冲销固定资产交易记录，以及与某一固定资产相关联的应付帐款和应收帐款交易记录。 您还可以撤消某一已冲销的交易记录。 
 
-您可以冲销或取消不是最近交易记录过帐到资产的帐簿交易记录。 您应该首先确定任何折旧交易记录是否在您冲销的交易记录后过帐。 原因在于，并不重新计算折旧，在您冲销交易记录时。 因此，如以下示例中所示，折旧在冲销后常常被高估或低估，。 
+您可以冲销或取消不是最近交易记录过帐到资产的帐簿交易记录。 首先确定任何折旧交易记录是否在您冲销的交易记录后过帐。 必须执行此步骤的原因在于，在您冲销交易记录时并不重新计算折旧。 因此，如以下示例中所示，折旧在冲销后常常被高估或低估，。 
 
 为了在您冲销某一交易记录时确保折旧正确，如果您在该过程中收到一条消息，说明将不重新计算折旧，则不要继续进行冲销。 而是首先冲销在您尝试冲销的交易记录后已过帐的折旧交易记录，然后继续进行冲销。 您将不会收到有关折旧重新计算的警告，并且您可以继续冲销。 
 
 以下示例显示在您选择不理睬警告消息而继续冲销（而不是首先冲销折旧交易记录）的情况下发生的计算。
 
 ## <a name="example-1-depreciation-is-overstated"></a>示例 1：折旧被高估
-使用 5 年的使用寿命和直线法折旧（60 个折旧期间）设置某一资产。 在此示例中，折旧被高估。
+使用五年的使用寿命和直线法折旧（60 个折旧期间）设置某一资产。 在此示例中，折旧被高估。
 #### <a name="asset-transaction-history"></a>资产交易历史记录
 
 | 日期       | 交易记录类型                                                          | 金额                                    |
@@ -64,7 +61,7 @@ ms.locfileid: "4440639"
 折旧被高估 16.95 (1000 - 983.05)。
 
 ## <a name="example-2-depreciation-is-understated"></a>示例 2：折旧被低估
-使用 5 年的使用寿命和直线法折旧（60 个折旧期间）设置某一资产。 在此示例中，折旧被低估。
+使用五年的使用寿命和直线法折旧（60 个折旧期间）设置某一资产。 在此示例中，折旧被低估。
 #### <a name="asset-transaction-history"></a>资产交易历史记录
 
 | 日期       | 交易记录类型                                                          | 金额                                      |
@@ -89,10 +86,12 @@ ms.locfileid: "4440639"
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [固定资产折旧](fixed-asset-depreciation.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

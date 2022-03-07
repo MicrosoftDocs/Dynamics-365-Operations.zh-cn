@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef43e6bafcd6a049111701032efbe5474dfaa9f6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236930"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>部分金额的客户付款
 
@@ -60,3 +59,6 @@ ms.locfileid: "4440617"
 
 
 有关详细信息，请参阅[存入客户付款](tasks/deposit-customer-payments.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: 查找适用的价格和折扣
 description: 该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422799"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578912"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
@@ -60,3 +57,6 @@ ms.locfileid: "4422799"
     * 产品 T0012 有 2 个单行折扣协议，规定订单行数量为 1-10 的折扣百分比是 5，订单行数量为 10 以上的折扣百分比是 7。 请注意，该折扣适用于产品组，在本示例中，组代码为 01，产品 T0012 包括在其中。  
 4. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

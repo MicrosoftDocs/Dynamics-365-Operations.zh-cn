@@ -1,29 +1,26 @@
 ---
 title: 预订组
 description: 此主题概括介绍在预订组中定义的内容。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165c1c89af52aac0b540cb6aee577d717d12b0f6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 642d53048e8a19132f760f3248d2efa1974b9edc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422669"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580232"
 ---
 # <a name="subscription-groups"></a>预订组    
 
@@ -55,3 +52,6 @@ ms.locfileid: "4422669"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

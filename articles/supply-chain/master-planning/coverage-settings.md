@@ -2,16 +2,13 @@
 title: 覆盖范围设置
 description: 本主题提供有关主计划编制用于计算物料要求的覆盖范围设置的信息。
 author: roxanadiaconu
-manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqItemTableWizard, ReqItemTableSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd83e26b7c2792a94d334759790b4f3fbf8c9ff650a188c770359ae6b7f02ff4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758584"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 
@@ -66,3 +63,6 @@ ms.locfileid: "4423244"
 ## <a name="additional-resources"></a>其他资源
 
 [主计划概览](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

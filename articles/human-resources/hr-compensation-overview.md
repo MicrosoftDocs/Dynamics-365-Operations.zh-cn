@@ -1,33 +1,34 @@
 ---
 title: 薪酬计划
-description: 薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
+description: 本主题介绍如何使用薪酬管理来管理和处理薪酬计划。
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 7521
+ms.search.scope: Human Resources
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417416"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066892"
 ---
 # <a name="compensation-plans"></a>薪酬计划
 
-薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+薪酬和福利经理可以使用 **薪酬管理** 来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
 
 ### <a name="introduction"></a>简介
 
@@ -43,7 +44,7 @@ ms.locfileid: "4417416"
 <table>
 <thead>
 <tr class="header">
-<th>组件</th>
+<th>组分</th>
 <th>更多信息…</th>
 </tr>
 </thead>
@@ -90,7 +91,7 @@ ms.locfileid: "4417416"
 </tr>
 <tr class="even">
 <td>控制点</td>
-<td>该控制点定义您认为处于某一薪酬水平的所有员工的理想付薪比率是什么。 对于等级计划结构，控制点通常是范围的中点。 分段结构很少用于控制点。 您可以在“固定薪酬计划”窗体中指定固定薪酬计划的控制点。</td>
+<td>该控制点定义您认为处于某一薪酬水平的所有员工的理想付薪比率是什么。 对于等级计划结构，控制点通常是范围的中点。 分段结构很少用于控制点。 您可以在 **固定薪酬计划** 页面指定固定薪酬计划的控制点。</td>
 </tr>
 <tr class="odd">
 <td>工作职能</td>
@@ -122,8 +123,7 @@ ms.locfileid: "4417416"
 ## <a name="process-events"></a>流程事件
 流程事件是用于计算特定期间在一个或多个固定或可变薪酬计划中登记的所有员工的薪酬信息。 可以重复运行流程事件以便测试或更新薪酬结果。
 
-<a name="compensation-events"></a>薪酬事件
--------------------
+## <a name="compensation-events"></a>薪酬事件
 
 每次运行流程事件时，都会创建一个薪酬事件。  薪酬事件包含该流程事件中包括的每个员工的薪酬流程的结果。  当计算正确时，您可以加载薪酬事件以更新受流程事件影响的员工的薪酬记录。
 
@@ -132,3 +132,6 @@ ms.locfileid: "4417416"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

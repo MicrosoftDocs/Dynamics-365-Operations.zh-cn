@@ -1,12 +1,10 @@
 ---
 title: 解决初始设置过程中的问题
-description: 本主题提供故障排除信息，可以帮助您解决在 Finance and Operations 应用和 Dataverse 之间的双写入集成的初始设置期间可能发生的问题。
+description: 本主题提供可以帮助您解决在双写入集成的初始设置期间所发生问题的信息。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685578"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753982"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -71,13 +69,13 @@ ms.locfileid: "4685578"
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>验证链接期间是否正确设置了公司数据和双写入团队
 
-为确保双写入正常工作，将在 Dataverse 环境中创建您在配置过程中选择的公司。 默认情况下，这些公司是只读的，**IsDualWriteEnable** 属性设置为 **True**。 此外，还将创建默认的负责业务单位负责人和团队，并包括公司名称。 在启用映射之前，请验证是否已指定默认团队负责人。 要查找 **公司(CDM\_公司)** 实体，请按照以下步骤操作。
+为确保双写入正常工作，将在 Dataverse 环境中创建您在配置过程中选择的公司。 默认情况下，这些公司是只读的，**IsDualWriteEnable** 属性设置为 **True**。 此外，还将创建默认的负责业务单位负责人和团队，并包括公司名称。 在启用映射之前，请验证是否已指定默认团队负责人。 要查找 **公司(CDM\_公司)** 表，请按照以下步骤操作。
 
 1. 在 Dynamics 365 中的模型驱动应用中，选择右上角的筛选器。
 2. 在下拉列表中，选择 **公司**。
 3. 选择 **运行** 查看结果。
 4. 选择配置双写入时链接的公司。
-5. 验证 **默认负责团队** 字段是否具有值。 在下图中，**默认负责团队** 字段设置为 **USMF 双写入**。
+5. 验证 **默认负责团队** 列是否具有值。 在下图中，**默认负责团队** 列设置为 **USMF 双写入**。
 
     ![验证默认负责团队](media/default_owning_team.png)
 
@@ -88,3 +86,6 @@ ms.locfileid: "4685578"
 *双写入失败 - 插件注册失败：\[（无法获取项目的分区映射 DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea。错误超出了映射 DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea 允许的最大分区）\]，发生一个或多个错误。*
 
 链接环境时的当前限制约为 40 个法人。 如果您尝试启用映射，并且在环境之间链接了超过 40 个法人，将发生此错误。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,29 +1,28 @@
 ---
 title: 全渠道付款概述
 description: 本主题提供有关 Dynamics 365 Commerce 中的全渠道付款的概述。
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
-ms.custom: 141393
+ms.custom:
+- "141393"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410607"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984158"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 
@@ -46,11 +45,11 @@ ms.locfileid: "4410607"
 
 一般来说，术语 *全渠道付款* 描述在一个渠道中创建订单，然后在另一个渠道中履行的能力。 全渠道付款支持的关键是维护付款详细信息和订单的其余详细信息，然后在另一个渠道中重新调用或处理订单时使用这些付款详细信息。 “在线购买，店内提货”方案就是一个经典示例。 在此方案中，付款详细信息是当在线创建订单时添加的。 然后提货时在 POS 重新调用，以便向客户的付款卡扣款。 
 
-本主题中介绍的所有方案都可以通过使用 Commerce 随附的标准付款软件开发套件 (SDK) 实施。 [适用于 Adyen 的 Dynamics 365 Payment Connector](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) 提供此处介绍的每种方案的现成实施。 
+本主题中介绍的所有方案都可以通过使用 Commerce 随附的标准付款软件开发套件 (SDK) 实施。 [适用于 Adyen 的 Dynamics 365 Payment Connector](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) 提供此处介绍的每种方案的现成实施。 
 
 ### <a name="prerequisites"></a>先决条件
 
-本主题中介绍的每种方案都需要支持全渠道付款的付款连接器。 也可以使用现成的 Adyen 连接器，因为它支持通过付款 SDK 提供的方案。 有关如何实施付款连接器的详细信息，以及有关 Retail SDK 的常规信息，请访问[面向 IT 专业人员和开发人员的 Retail 主页](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors)。
+本主题中介绍的每种方案都需要支持全渠道付款的付款连接器。 也可以使用现成的 Adyen 连接器，因为它支持通过付款 SDK 提供的方案。 有关如何实施付款连接器的详细信息，以及有关 Retail SDK 的常规信息，请访问[面向 IT 专业人员和开发人员的 Retail 主页](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors)。
 
 #### <a name="supported-versions"></a>支持的版本
 
@@ -60,14 +59,14 @@ ms.locfileid: "4410607"
 
 付款 SDK 依赖两组应用程序编程接口 (API) 进行付款。 第一组 API 称为 **iPaymentProcessor**。 用于实施可在呼叫中心中使用的“无卡”付款连接器和带有 Microsoft Dynamics 电子商务平台的“无卡”付款连接器。 有关 **iPaymentProcessor** 接口的详细信息，请参阅[实施付款连接器和付款设备](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf)白皮书，其中介绍了付款。 
 
-第二组 API 称为 **iNamedRequestHandler**。 它支持实施使用付款终端的“有卡”付款集成。 有关 **iNamedRequestHandler** 接口的详细信息，请参阅[为付款终端创建付款集成](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension)。 
+第二组 API 称为 **iNamedRequestHandler**。 它支持实施使用付款终端的“有卡”付款集成。 有关 **iNamedRequestHandler** 接口的详细信息，请参阅[为付款终端创建付款集成](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension)。 
 
 ### <a name="setup-and-configuration"></a>设置和配置
 
 需要以下组件和设置步骤：
 
-- **电子商务集成：** 需要与 Commerce 集成以支持订单源于在线店面的方案。 有关 Retail 电子商务 SDK 的详细信息，请参阅[电子商务平台软件开发套件 (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk)。 在演示环境中，引用店面支持全渠道付款方案。 
-- **在线付款配置：** 设置在线渠道必须包括已经更新为支持全渠道付款的付款连接器。 也可以使用现成的付款连接器。 有关如何针对在线商店配置 Adyen 付款连接器的信息，请参阅 [Adyen 付款连接器](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce)。 除了该主题中介绍的电子商务设置步骤，还必须在 Adyen 连接器的设置中将 **允许在电子商务中保存付款信息** 参数设置为 **True**。 
+- **电子商务集成：** 需要与 Commerce 集成以支持订单源于在线店面的方案。 有关 Retail 电子商务 SDK 的详细信息，请参阅[电子商务平台软件开发套件 (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk)。 在演示环境中，引用店面支持全渠道付款方案。 
+- **在线付款配置：** 设置在线渠道必须包括已经更新为支持全渠道付款的付款连接器。 也可以使用现成的付款连接器。 有关如何针对在线商店配置 Adyen 付款连接器的信息，请参阅 [Adyen 付款连接器](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce)。 除了该主题中介绍的电子商务设置步骤，还必须在 Adyen 连接器的设置中将 **允许在电子商务中保存付款信息** 参数设置为 **True**。 
 - **全渠道付款配置：** 在后端，转到 **Retail 和 Commerce \> 总部设置 \> 参数 \> Commerce 共享参数**。 然后在 **全渠道付款** 选项卡中，将 **使用全渠道付款** 选项设置为 **是**。 在 Commerce 版本 10.0.12 及更高版本中，此设置位于 **功能管理** 工作区。 选择 **全渠道付款** 功能，单击 **立即启用**。 
 - **付款服务：** 呼叫中心使用 **付款服务** 页中的默认付款连接器处理付款。 若要支持“呼叫中心购买，店内提货”之类方案，这个默认付款连接器必须为 Adyen 付款连接器或满足全渠道付款实施要求的付款连接器。
 - **EFT 服务：** 必须在硬件配置文件的 **EFT 服务** 快速选项卡中设置通过付款终端的付款。 Adyen 连接器支持现成的全渠道付款方案。 如果其他支持 **iNamedRequestHandler** 接口的付款连接器支持全渠道付款，也可以使用这些连接器。
@@ -234,7 +233,10 @@ ms.locfileid: "4410607"
 
 ## <a name="related-topics"></a>相关主题
 
-- [付款常见问题](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [适用于 Adyen 的 Dynamics 365 付款连接器](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [付款常见问题](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [适用于 Adyen 的 Dynamics 365 付款连接器](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [在 Dynamics 365 Commerce 评估环境中配置 BOPIS](./cpe-bopis.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

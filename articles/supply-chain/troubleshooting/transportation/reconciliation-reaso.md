@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c4ba48c5b6e3476c203eed2fddf053ce8af873dd6a7665df54560c8894f8c2d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 708081370b27fd51ef9a2329d8392f4515353dcb
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750874"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026289"
 ---
 # <a name="you-can-add-only-the-main-account-as-the-credit-account-for-reconciliation-reasons"></a>出于对帐原因，您只能将主科目添加为货方科目
 

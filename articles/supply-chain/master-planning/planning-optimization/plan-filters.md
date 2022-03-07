@@ -2,11 +2,9 @@
 title: 将筛选器应用于计划
 description: 本主题说明使用计划优化功能时如何对计划使用筛选器。
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b605f9826d2116f6f52a4b880f4fb5bd24cfdd0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970373"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813043"
 ---
 # <a name="apply-filters-to-a-plan"></a>将筛选器应用于计划
 
@@ -58,3 +56,6 @@ ms.locfileid: "4970373"
 [查看计划历史记录和计划日志](plan-history-logs.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

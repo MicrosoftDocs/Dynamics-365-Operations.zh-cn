@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea6ca24d27bb5b00bbe31060ce2f7e40bf2fb335
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e61ed731c4040e7351e20421f6cf217ae9a4641d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222351"
 ---
 # <a name="create-advanced-rules-for-journals"></a>创建日记帐高级规则
 
@@ -58,3 +57,6 @@ ms.locfileid: "4440830"
 4. 在树形图中，单击“您允许该日记帐过帐的组”。
 5. 单击 **确定**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

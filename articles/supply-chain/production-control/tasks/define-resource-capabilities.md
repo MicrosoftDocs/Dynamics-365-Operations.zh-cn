@@ -1,28 +1,25 @@
 ---
 title: 定义资源功能
 description: 资源功能描述了运营资源可执行的内容。
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 42451da0bd465ce3a18ecf18570f3331847474c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422698"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579104"
 ---
 # <a name="define-resource-capabilities"></a>定义资源功能
 
@@ -49,3 +46,6 @@ ms.locfileid: "4422698"
 5. 在“水平”字段，输入一个数值。
     * 当您指定某项工作或操作需要某种特定功能，您还可以指定所需功能的最低水平。 使用功能级别区分资源可以根据不同的速度、力量、大小等执行同类工作。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

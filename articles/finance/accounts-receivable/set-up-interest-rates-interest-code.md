@@ -2,28 +2,25 @@
 title: 为利息代码设置多种利率
 description: 利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59402
 ms.assetid: 3b945333-1eaf-4658-ab5a-1a7791a7eb40
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716709"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 
@@ -47,10 +44,19 @@ ms.locfileid: "4440653"
 
 - 利息金额应用于所有币种。
 - 可输入可选利息金额限制。
-- <strong>设置利息代码</strong>页上的<strong>利息计算依据</strong>字段中已选择<strong>百分比</strong>。
+- **设置利息代码** 页上的 **利息计算依据** 字段中已选择 **百分比**。
 
 例如，设置项目 5 的利息每两个月的利息代码发票付款超过交易到期日期，则在 **计算利息间隔** 字段中输入“2”，然后选择 **月**。
 
+> [!NOTE] 
+> 使用功能管理添加了用于利息单计算的新算法。 要使用此算法，请启用 **(GBL) 允许按照年度百分比除以 365 来计算每天利息** 功能。 有关如何启用此功能的信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
+> 
+> 利息单金额的计算公式为： 
+>  
+> 利息单金额 = 欠款额 * 年利率%/365 * 逾期天数
+>  
+> 版本 10.0.18 或更高版本中提供此功能。    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>基于金额的利率
 您可以设置计算针对指定币种的利率金额。
 - 为利息代码中的每个币种指定利息金额。
@@ -84,7 +90,6 @@ ms.locfileid: "4440653"
 
 
 ## <a name="example-2-interest-by-range--days"></a>示例 2：按大小的利息 = 天
---------------------------------------------------
 
 您设置发票付款超过交易到期日期每 15 天估计一次利息的利息代码。 要基于计算利息百分比值，根据步骤的金额间隔。 在过去 60 天以来，利息值将为 10.00 每 15 天，在每 15.00 天 61 到 90 和 20.00 个期间的 15 天，从第 91 天的 15 天前和之后。 您为利息代码设置了字段的值。
 
@@ -105,7 +110,6 @@ ms.locfileid: "4440653"
 
 
 ## <a name="example-3-interest-by-range--months"></a>示例 3：按大小的利息 = 月
-----------------------------------------------------
 
 您设置估计利息一次每三个月的利息代码发票付款超过交易到期日期。 要基于计算利息百分比值，根据步骤的金额间隔。 对于前三个月逾期，利息值将为每月 1.5%，对于第二个三个月逾期，为每月 2.0%，对于超出前六个月之外的每个月，为每月 2.5%。 您为利息代码设置了字段的值。
 
@@ -131,3 +135,6 @@ ms.locfileid: "4440653"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

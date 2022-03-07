@@ -2,28 +2,25 @@
 title: 总帐的外币重估
 description: 本主题概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771648"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>总帐的外币重估
 
@@ -84,7 +81,7 @@ ms.locfileid: "4440920"
 
 | 用交易币种表示的当前余额 | 用记帐币种表示的当前余额 | 重估时的汇率 | 新记帐币种金额 | 或有损益    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 欧元                                     | 1000 美元                                   | 166.6667                         | 833.33 欧元 (500 x 1.666667)        | 166.67 损失 (833.33 – 1000) |
+| 500 欧元                                     | 1000 美元                                   | 166.6667                         | 833.33 美元 (500 x 1.666667)        | 166.67 损失 (833.33 – 1000) |
 
 将创建以下会计条目。
 
@@ -113,3 +110,6 @@ ms.locfileid: "4440920"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

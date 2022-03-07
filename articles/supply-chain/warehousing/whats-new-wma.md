@@ -1,92 +1,27 @@
 ---
 title: Warehouse Management 移动应用中的新增功能或更改的功能
 description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
-author: Mirzaab
-ms.date: 01/18/2022
+author: ivanv-microsoft
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067243"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386091"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
-
-## <a name="version-20150"></a>版本 2.0.15.0
-
-此版本引入了以下新增功能、修复和改进：
-
-- 通过修复内存漏水问题改进性能。
-- 修复了在详细信息页上选择时某些字段值未正确更新的问题。
-
-## <a name="version-20140"></a>版本 2.0.14.0
-
-此版本引入了以下新增功能、修复和改进：
-
-- 修复了一个禁用默认“提交”按钮的问题。
-
-## <a name="version-20130"></a>版本 2.0.13.0
-
-此版本引入了以下新增功能、修复和改进：
- 
-- 改进了页面之间的滚动，并且动画更顺畅。
-- 修复了对滑动动作和偶尔屏幕冻结的反直觉响应。
-- 改进了深色模式文本和背景色组合以提高可读性。
-- 修复了在调整应用窗口大小时某些文本可能变得很小的问题。
-- 修复了扫描条码时有时会导致应用崩溃的问题。
-- 添加了将滑块替换为按钮的可能性。
-- 修复了一个可能导致应用显示以下错误消息的问题：“AADSTS7000215：提供了无效的客户端密码”。
-- 修复了提示动画，此动画显示如何使用向下轻扫手势关闭页面。
-- 添加了使用向下轻拂手势关闭页面的可能性。
-- 修复了一个未在 **用户设置** 页面上显示下拉列表标题的问题。
-- 修复了应用不会将逗号 (,) 识别为小数分隔符的本地化问题。
-- 改进了可访问性。
-- 修复了 **新连接** 页上的导航问题以提供改进的辅助功能。
-- 修复了选择输入字段时不显示软（屏幕）键盘的问题。
-- 修复了用户快速调整应用窗口大小时可能会使应用崩溃的问题。
-- 修复了快速按键有时被解释为长按的问题。
-- 修复了应用布局可能因 Supply Chain Management 中进行的字段自定义而损坏的问题。
-- 修复了物料库位未正确显示的问题。
-- 修复了一个与产品变型工作流领料短缺相关的问题。
-- 删除了对包含预设默认值的字段的不必要验证。
-- 性能提升。
-- 添加了一个新设置，此设置允许用户选择如何在卡页面上对字段进行筛选和排序。
-
-## <a name="version-20110"></a>版本 2.0.11.0
-
-此版本引入了以下新增功能、修复和改进：
-
-- 增加了提升的字段支持。
-- 增加了硬件键盘导航支持。
-- 改进了可访问性。
-- 增强了详细信息卡。
-- 增强了菜单项步骤的绕过。
-- 用户界面进行了小改进。
-- 修复了可能导致应用在扫描条码时崩溃的问题。
-- 修复了可能导致系统停止响应的各种问题。
-
-## <a name="version-20100"></a>版本 2.0.10.0
-
-此版本引入了以下新增功能、修复和改进：
-
-- 添加了滑动列表和页面时的动画。
-- 文本现在在连接错误页面上正确换行。
-- 没有默认值的组合框现在可以正确显示。
-- 子标题区域中的信息现在仅在完整详细信息页面上显示。
-- 详细信息卡上不再显示空输入字段。
-- 详细信息卡上不再重复确认值。
-- 修复了导致系统停止响应的各种问题。
 
 ## <a name="version-2090"></a>版本 2.0.9.0
 

@@ -2,11 +2,9 @@
 title: 转移产品模型的数据
 description: 产品配置模型的导出数据要求至少有一个可用的产品模型。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1f992ff912f32e2ff75b99c200934d4a28e2ef6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966797"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825486"
 ---
 # <a name="transfer-data-for-product-models"></a>转移产品模型的数据
 
@@ -36,3 +34,6 @@ ms.locfileid: "4966797"
 5. 单击“导出产品模型”。
     * 根据安全设置，不同浏览器之间的下载行为各不相同。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

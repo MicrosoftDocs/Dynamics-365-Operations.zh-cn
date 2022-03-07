@@ -2,16 +2,13 @@
 title: 产品维度
 description: 产品有五个维度 - 颜色、配置、尺寸、样式和版本。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc7c92287ff88fe46b5aa46e15f7af3344d11e3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422771"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820266"
 ---
 # <a name="product-dimensions"></a>产品维度
 
@@ -122,7 +119,7 @@ ms.locfileid: "4422771"
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>版本维度不受支持的区域
 
-以下区域不支持版本维度，因为引入此维度会导致中断性变更：
+以下区域不支持版本维度（您仍然可以使用这些区域，但无法向其中添加版本化产品(使用版本维度的产品)）。 例如，您不能将版本化物料添加到供应商目录。 这是因为将使用版本维度的产品添加到这些区域会导致中断性变更。
 
 - 成本对象月报表
 - 成本对象报表缓存
@@ -146,3 +143,6 @@ ms.locfileid: "4422771"
 
 > [!IMPORTANT]
 > 如果您打开并使用版本维度，某些引用库存维度的解决方案可能会如预期的停止工作。 要确认并解决这些问题，请与独立软件供应商 (ISV) 联系，告知受影响的解决方案。 有关详细信息，请参阅[启用版本维度](#enable-version-dim)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

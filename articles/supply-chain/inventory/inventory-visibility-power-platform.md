@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a60fc00642a77d3dc595a6222727637f0d7cd588
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060964"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475052"
 ---
 # <a name="use-the-inventory-visibility-app"></a>使用库存可见性应用
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 本主题介绍如何使用库存可见性应用。
 
@@ -63,6 +63,8 @@ ms.locfileid: "8060964"
 ![现有库存查询设置](media/inventory-visibility-query-settings.png "现有库存查询设置")
 
 ### <a name="reservation-posting"></a>预留发布
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 可使用 **预留发布** 选项卡发布预留请求。 必须先开启 *OnHandReservation* 功能，才能发布预留请求。 有关此功能的详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。
 

@@ -2,11 +2,9 @@
 title: 创建新用户
 description: 用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
-ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4878649"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595378"
 ---
 # <a name="create-new-users"></a>创建新用户
 
@@ -31,10 +29,10 @@ ms.locfileid: "4878649"
 有关如何购买 Finance and Operations 应用和获得许可的信息，请参阅 [Microsoft Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409)。
 
 ## <a name="assign-a-license-to-a-user"></a>向用户分配许可证
-系统管理员可以在 [Microsoft 365 管理中心](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)[向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。
+系统管理员可以在 [Microsoft 365 管理中心](/office365/admin/admin-overview/about-the-admin-center)[向用户分配许可证](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>在 Azure AD 中添加外部用户并分配许可证 
-外部用户必须在您的租户目录 (Azure Active Directory (Azure AD)) 中出现，才可以为他们分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 Finance and Operations 应用的要求是，来宾用户的公司必须使用 Azure AD。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)。
+外部用户必须在您的租户目录 (Azure Active Directory (Azure AD)) 中出现，才可以为他们分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 Finance and Operations 应用的要求是，来宾用户的公司必须使用 Azure AD。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](/azure/active-directory/b2b/add-users-administrator)。
 
 ## <a name="import-new-users-from-azure-ad"></a>从 Azure AD 导入新用户 
 1. 转到 **系统管理** \> **用户** \> **用户**。
@@ -59,7 +57,7 @@ ms.locfileid: "4878649"
 7. 在 **公司** 字段中，为用户选择默认启动公司。 
 8. 选择 **保存**。
 
-保存用户记录时，将基于 [Microsoft graph](https://docs.microsoft.com/graph/overview) 调用更新标识提供者和遥测 ID 的值。 遥测 ID 基于 Azure AD 中用户的对象 ID/安全标识符 (SID)。
+保存用户记录时，将基于 [Microsoft graph](/graph/overview) 调用更新标识提供者和遥测 ID 的值。 遥测 ID 基于 Azure AD 中用户的对象 ID/安全标识符 (SID)。
 
 > [!NOTE]
 > 添加用户后，必须根据需要分配角色和组织。 有关更多信息，请参阅[向安全角色分配用户](assign-users-security-roles.md)。 有条件地，可能还需要将用户与 **人员** 关联，并更新 **用户选项**（如语言）。
@@ -81,3 +79,6 @@ ms.locfileid: "4878649"
 有关实现 B2B 用户的更多选项，请参阅[将 B2B 用户导出到 Azure AD](../implement-b2b.md)。
 
 有关预配置系统帐户的信息，请参阅[预配置系统帐户](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: 通过电子邮件发送的客户端预警通知
 description: 此主题提供有关如何设置在预定义事件发生时发送电子邮件通知的规则的信息。
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734606"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 
@@ -38,7 +36,7 @@ ms.locfileid: "4798615"
 
 以下图像显示 **创建预警规则** 对话框，其现在包括 **发送电子邮件** 选项。
 
-[![创建将“发送电子邮件”选项设置为“是”的预警规则对话框](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![创建将“发送电子邮件”选项设置为“是”的预警规则对话框。](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > 在 **发送电子邮件** 选项设置为 **是** 时，预警通知将继续从操作中心提供。
@@ -49,4 +47,7 @@ ms.locfileid: "4798615"
 
 以下图像显示通过电子邮件收到预警通知时预警通知的结构。
 
-[![用户记录创建、字段更改和模板删除的基于模板的预警通知](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![记录创建、字段更改和模板删除的基于模板的预警通知。](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

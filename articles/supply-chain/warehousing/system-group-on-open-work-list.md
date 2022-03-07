@@ -2,27 +2,24 @@
 title: 对未结工作列表的系统分组
 description: 此主题描述如何在移动设备上筛选未结工作列表。
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733292"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>对未结工作列表的系统分组
 
@@ -42,3 +39,6 @@ ms.locfileid: "4422862"
 | 系统分组字段 | 仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 选择决定如何为工作人员对领料工作进行分组的字段。 例如，如果您选择<strong>ShipmentId</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 使用<strong>系统分组标签</strong>字段通知工作人员要扫描的内容。 |
 | 系统分组标签 |                       仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 输入信息通知工作人员对领料工作分组时要扫描的内容。 例如，如果您使用 <strong>ShipmentId</strong> 字段按照装运分组领料工作，您可以在字段中输入装运 ID。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组</strong>字段中选择要按其分组的字段。                       |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

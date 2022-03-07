@@ -2,35 +2,30 @@
 title: 使用样式预设
 description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 站点构建器中使用站点样式预设。
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410554"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791743"
 ---
 # <a name="work-with-style-presets"></a>使用样式预设
 
 [!include [banner](includes/banner.md)]
 
 此主题描述如何在 Microsoft Dynamics 365 Commerce 站点构建器中使用站点样式预设。
-
-## <a name="overview"></a>概览
 
 样式预设是站点主题中所有可创作样式值的存储集。 它可用于从站点构建器立即更改站点的外观。 样式预设使 Commerce 站点构建器作者可以快速更改、预览和激活整个站点中的一组样式值，而不必使用级联样式表 (CSS) 或部署主题。 字体样式、按钮样式和站点颜色是可以通过样式预设管理的样式变量的典型示例。
 
@@ -128,3 +123,6 @@ ms.locfileid: "4410554"
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

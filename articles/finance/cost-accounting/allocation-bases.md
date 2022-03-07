@@ -2,16 +2,13 @@
 title: 分配基础
 description: 此主题提供了有关分配基础的信息。 分配基础是成本核算中的关键组件，最常用于分配开销成本。
 author: AndersGirke
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743041"
 ---
 # <a name="allocation-bases"></a>分配基础 
 
@@ -215,7 +212,7 @@ ms.locfileid: "4440644"
 
 **统计条目**
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |    说明          | 度量值 |
+| 成本对象 | 姓名   | 会计日期 | 统计维度成员 |    说明          | 度量值 |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | HR | 31-01-2017      | 电                  | 用电量 | 2,450.00  |
 | CC002       | FI | 31-01-2017      | 电                  | 用电量 | 4,100.00  |
@@ -407,7 +404,7 @@ ms.locfileid: "4440644"
 
 **分配基础详细信息**
 
-| 成本对象 |    | 配方                                                                                                                             | 度量值 |
+| 成本对象 |  姓名  | 配方                                                                                                                             | 度量值 |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | CC001       | HR | ((2,450.00 \> 10.000.00) × ((10,000.00 × 0.75) + (2,450.00 – 10,000.00) × 1.15)) + ((2,450.00 \<= 10,000.00) × 2,450.00 × 0.75)     | 1,837.50  |
 | CC002       | FI | ((4,100.00 \> 10.000.00) × ((10,000.00 × 0.75) + (4,100.00 – 10,000.00) × 1.15)) + ((4,100.00 \<= 10,000.00) × 4,100.00 × 0.75)     | 3,075.00  |
@@ -430,3 +427,6 @@ ms.locfileid: "4440644"
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × 金额  |
 |    CC003    |     IT      | 13,250.00 | (13,250.00 ÷ 18,162.50) × 金额 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

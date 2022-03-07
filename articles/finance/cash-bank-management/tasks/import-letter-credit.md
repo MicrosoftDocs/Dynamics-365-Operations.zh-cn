@@ -2,26 +2,23 @@
 title: 导入信用证
 description: 该过程介绍了导入信用证的流程。
 author: kweekley
-manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f9c73ec1347e72f8cd4ae8eec580bb8fe3df8ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440822"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193921"
 ---
 # <a name="import-letter-of-credit"></a>导入信用证
 
@@ -131,7 +128,8 @@ ms.locfileid: "4440822"
 12. 关闭该页面。
 13. 关闭该页面。
 
-## <a name="verify-import-letter-of-credit-status"></a>核实“导入信用证”状态
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>核实“导入信用证”状态和打印
+
 1. 转到现金和银行管理>信用证>导出信用证和导入催款
 2. 在列表中，找到并选择所需记录。
 3. 在列表中，单击所选行中的链接。
@@ -185,3 +183,6 @@ ms.locfileid: "4440822"
     * 核实该报告列出的交易记录，包括“银行单据编号”、“融资限制”、已使用金额和融资余额。  
 8. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

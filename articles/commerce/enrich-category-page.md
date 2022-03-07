@@ -2,42 +2,36 @@
 title: 丰富类别登陆页面
 description: 此主题介绍如何在 Dynamics 365 Commerce 中扩充类别页。
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770999"
 ---
 # <a name="enrich-a-category-landing-page"></a>丰富类别登陆页面
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Dynamics 365 Commerce 中扩充类别页。
 
-## <a name="overview"></a>概览
-
 Commerce 提供显示类别数据时使用的默认类别登陆页。 默认类别页中包含必需的元素，如优化器、已分类的产品放置、排序选项、选项汇总和分页控件。 
 
 但是，不应使用默认类别页，而是使用包含更多内容和更多特定元素的“扩充的”类别登陆页。 典型的扩充包括向类别页添加类别特定的市场营销内容。 此内容可能包括交叉销售用途的交叉类别产品放置、编辑列表、图像、视频和其他文本。 可以修改默认类别页或为特定类别定义其他类别页。
 
-![扩充的类别登陆页面](./media/CategoryLandingPages.png)
+![扩充的类别登陆页面。](./media/CategoryLandingPages.png)
 
 在 Commerce 站点构建器中，**产品** 页包含渠道中分配给站点的类别的列表。 如果为类别页选择 **扩充** 状态，则说明该类别页已扩充。 否则，对类别使用默认类别页和内容。 可通过选择类别名称预览类别的扩充类别页和未扩充类别页。
 
@@ -64,4 +58,9 @@ Commerce 提供显示类别数据时使用的默认类别登陆页。 默认类�
 
 [丰富产品页面](enrich-product-page.md)
 
-[验证页面内容可访问性](verify-accessibility.md)
+[验证页面内容的可访问性](verify-accessibility.md)
+
+[基于 URL 参数创建动态电子商务页面](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: 资产简介
 description: 本主题概述资产管理中的资产。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767500"
 ---
 # <a name="introduction-to-assets"></a>资产简介
 
@@ -77,3 +77,6 @@ ms.locfileid: "5018562"
 | 备件          | 查看可对资产使用的已核准备件和备用备件的列表。                                                                               |
 | 资产消耗    | 打印一个报告，其中显示为资产登记的消耗。                                                                                                |
 | 资产故障          | 打印一个报告，其中显示资产的故障登记。                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

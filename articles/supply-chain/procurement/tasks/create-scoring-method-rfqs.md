@@ -1,26 +1,24 @@
 ---
 title: 创建询价的计分方法
 description: 此过程演示如何创建计分方法。
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 738768a6756db83a6855756ef48fffb4a5874b4a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ee3ab9d3d7b3ccab537bbb1baaeafccf90282a9bcf9fa328935363c0c809f181
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713606"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>创建询价的计分方法
 
@@ -46,3 +44,6 @@ ms.locfileid: "5021371"
 14. 在“范围起始值”字段中，输入一个数字。
 15. 在“范围结束值”字段中，输入一个数字。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

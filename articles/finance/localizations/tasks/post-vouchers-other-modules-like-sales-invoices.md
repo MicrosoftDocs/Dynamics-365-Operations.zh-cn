@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustTrans
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d0a561abb775b6f2903ec1da5ec2e898dbb2250
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a309e2a008a9cbc85264148b0e31852527295731
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251090"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 
@@ -108,3 +107,6 @@ ms.locfileid: "4409745"
 36. 单击“凭证”。
     * 例如，可以看到为“中国式凭证类型”分配了“交易”。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

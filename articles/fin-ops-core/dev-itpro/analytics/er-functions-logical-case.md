@@ -3,6 +3,7 @@ title: CASE ER 函数
 description: 本主题提供有关 CASE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97f5e821a635d5d31092a7b27f7ae3c2e603462186449bab5856955371a7f613
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44815160957922f508fccd72174be2c4145a8d89
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756397"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745441"
 ---
 # <a name="case-er-function"></a>CASE ER 函数
 

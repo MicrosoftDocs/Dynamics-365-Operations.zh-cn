@@ -2,27 +2,27 @@
 title: 电子签名概览
 description: 本文提供电子签名的概览并说明如何使用它们。
 author: maertenm
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 13611
+ms.custom:
+- "13611"
+- intro-internal
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 051bb023d3456dae0be30de3897b282c2d50c5af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e9f80ecef043a697d288fed99e3118e268d4f993
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797620"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983634"
 ---
 # <a name="electronic-signatures-overview"></a>电子签名概览
 
@@ -109,3 +109,6 @@ ms.locfileid: "4797620"
 1. 在 **选项** 页，在 **帐户** 选项卡上，单击 **指定审核人**。
 2. 在 **审核人用户 ID** 字段中，选择必须为其他用户的更改签名的用户的 ID。
 3. 在 **为其签名的用户 ID** 字段中，选择必须为其更改签名的用户的 ID。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

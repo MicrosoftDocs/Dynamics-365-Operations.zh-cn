@@ -1,38 +1,35 @@
 ---
 title: 设置服务订单阶段
 description: 设置服务订单阶段。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86d60a67b60b1bd3a13666b35f729f88ecfee3d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bf05b86fe0fd08c72351ea753a97d36604a55ac9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422672"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580280"
 ---
 # <a name="set-up-service-order-stages"></a>设置服务订单阶段 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  单击 **服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
+1.  转到 **服务管理** \> **设置** \> **服务订单** \> **服务阶段**。
 
-2.  按 Ctrl+N 创建一条新记录。
+2.  选择 **新建** 创建新记录。
 
 3.  在 **服务阶段** 和 **说明** 字段中，指定服务阶段 ID 和描述。
 
@@ -49,3 +46,6 @@ ms.locfileid: "4422672"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

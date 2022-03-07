@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76cbc6698d8332306053f6ca97aefb04ba466267fdadcd72dfb51b8c35391871
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b0f5ceec89327e11ce895b4de159c8e4317ec2b
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715570"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026290"
 ---
 # <a name="purchase-orders-dont-show-translated-product-text"></a>采购订单不显示翻译后的产品文本
 

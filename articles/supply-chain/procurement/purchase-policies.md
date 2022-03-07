@@ -1,28 +1,28 @@
 ---
 title: 采购策略概览
 description: 文本提供有关采购策略的信息。 采购策略是控制申请流程的规则的集合。 采购策略通过创建符合组织的战略采购需求的策略结构帮助采购管理员实现其采购战略。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11614
+ms.custom:
+- "11614"
+- intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022198"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982269"
 ---
 # <a name="purchasing-policies-overview"></a>采购策略概览
 
@@ -134,7 +134,7 @@ Sam 在 Contoso 的英国办事处的英国销售 - 销售部门中工作。 “
 -   在 **价格容差** 选项卡上，当采购目录物料的价格上涨时，您可以定义通过查看流程传送已获批的采购申请的规则。 设置采购申请的行项上的净额的最大金额可以延长已审核的采购申请和已创建的采购订单之间的时间。 净额的计算公式如下：(\[数量 × (单位价格 – 折扣) ÷计价单位\] + 采购杂项费用) × (100 – 折扣百分比) ÷ 100。超过您设置的价格容差的采购申请行将被暂停以供手动处理。 您在 **错误处理** 选项卡上配置的规则将确定采购申请行的处理方式。
 -   在 **错误处理** 选项卡上，您可以配置应用于采购申请（如果它在采购订单创建过程中由于供应商错误或价格容差而验证失败）的处理规则。 选择以下选项之一：
     -   **无操作** - 采购申请行在保留在 **发布已审核的采购申请** 页上。 采购申请行的状态将仍为 **已批准**。 但是，在采购订单可以生成采购申请行之前，必须解决错误。
-    -   **取消采购申请行** - 将取消采购申请行。 如果他或她仍想请求行项，申请者可以创建取消行的新的采购申请。
+    -   **取消采购申请行** - 将取消采购申请行。 如果仍想请求行项，申请者可以创建取消行的新的采购申请。
     -   **创建新采购申请行** - 将创建采购申请行。 随后将生成只包含验证失败的采购申请行的新采购申请。 生成的新采购申请具有 **草稿** 状态。 在验证错误解决后，这些采购申请可以重新提交。 采购申请行的准备人员被通知这些行已取消，并且已为失败的采购申请行创建新的采购申请。
 -   在 **手动采购订单创建** 选项卡上，您可以定义是否必须手动处理采购申请或者它是否能自动转换为采购订单。 参数可以应用于内部列出物料、外部目录物料或非目录物料。 选择以下选项之一：
     -   **手动创建采购订单** - 为所有采购申请手动创建采购订单。
@@ -150,3 +150,6 @@ Sam 在 Contoso 的英国办事处的英国销售 - 销售部门中工作。 “
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

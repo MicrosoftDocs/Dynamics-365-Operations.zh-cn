@@ -2,11 +2,9 @@
 title: 创建记录模板以加快数据输入
 description: 此主题演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。
 author: margoc
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68d3c7dd2f042617a7e2fcc8bee05fae6a82bde9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767717"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
@@ -43,3 +41,6 @@ ms.locfileid: "4685208"
 13. 选择 **确定**。
 14. 选择 **关闭**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: 自动创建服务订单
 description: 您可以为某个服务协议或若干服务协议创建服务订单。
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914df1626b02110264b895e82dc9301f3aa0afce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc06536827320a35a691330d852ba64532604935
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423186"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817597"
 ---
 # <a name="create-service-orders-automatically"></a>自动创建服务订单    
 
@@ -71,3 +68,6 @@ ms.locfileid: "4423186"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: 查看日记帐分录和交易记录
 description: 本文说明您可以查看日记帐条目和交易记录的各种方式。
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 673d61868d863568ae7613552d95e3fbadd66d2b4072d71315ab43660a8d1866
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731444"
 ---
 # <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
 
@@ -61,3 +58,6 @@ ms.locfileid: "4440756"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

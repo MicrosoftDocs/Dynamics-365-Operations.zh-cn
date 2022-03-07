@@ -1,32 +1,29 @@
 ---
 title: 扩展现有库存量数据实体
 description: 本主题提供了一个示例，演示如何向 INVENTORSITEONHANDENTITY 和 INVENTWAREHOUSEONHANDENTITY 视图添加扩展字段，以使现有库存量数据实体的功能可以使用扩展。
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423069"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577688"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>扩展现有库存量数据实体
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management 提供[可扩展性](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)功能，让您可以[通过扩展将字段添加到表中](../../fin-ops-core/dev-itpro/extensibility/add-field-extension)。 本主题提供了一个示例，演示如何向 `INVENTORSITEONHANDENTITY` 和 `INVENTWAREHOUSEONHANDENTITY` 视图添加扩展字段，以使现有库存量数据实体的功能可以使用扩展。 有关数据实体的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。
+Microsoft Dynamics 365 Supply Chain Management 提供[可扩展性](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)功能，让您可以[通过扩展将字段添加到表中](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md)。 本主题提供了一个示例，演示如何向 `INVENTORSITEONHANDENTITY` 和 `INVENTWAREHOUSEONHANDENTITY` 视图添加扩展字段，以使现有库存量数据实体的功能可以使用扩展。 有关数据实体的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。
 
 > [!NOTE]
 > 以下是包含一部分现有库存量数据实体的列表：
@@ -69,3 +66,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 完成这些步骤后，您可以通过添加新字段来扩展按站点分类的现有库存量和按仓库数据实体分类的现有库存量。 这样，您可以确保在使用这些数据实体的数据迁移期间扩展字段会被识别出并包含。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,29 +2,28 @@
 title: 评级模板
 description: 此主题介绍如何设置评级资料的数据。
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54e7457813774027debd301d9a0bf8ce1b6d47
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646363"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574801"
 ---
 # <a name="rating-profiles"></a>评级模板
+
+[!include [banner](../../includes/banner.md)]
 
 评级资料类似于物流合同（不是法律合同）。 它用于确定负荷的运输关税。 
 
@@ -61,3 +60,6 @@ ms.locfileid: "4646363"
 
 > [!NOTE]
 > 在 **装运承运人** 页上创建的资料也会显示在 **评级资料** 页上。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

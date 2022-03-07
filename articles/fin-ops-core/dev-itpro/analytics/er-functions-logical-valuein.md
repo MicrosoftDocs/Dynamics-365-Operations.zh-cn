@@ -2,7 +2,7 @@
 title: VALUEIN ER 函数
 description: 本主题提供有关 VALUEIN 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/14/2021
+ms.date: 08/18/2020
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efa811df360b2ca38eb59bac849e70041405fa81
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: f230b05cd88554d30106337ae3e3f684c958c76eaf8ad8eae0dceda53f0b6862
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729063"
 ---
 # <a name="valuein-er-function"></a>VALUEIN ER 函数
 
@@ -62,9 +62,6 @@ VALUEIN (input, list, list item expression)
 ```
 
 在某些情况下，可以使用 `EXISTS JOIN` 运算符将其转换为数据库 SQL 语句。
-
-> [!NOTE]
-> `VALUEIN` 函数返回的值的[使用方式不同](er-functions-list-filter.md#usage-notes)，具体取决于此函数是用于指定 [`FILTER`](er-functions-list-filter.md) 函数还是 [`WHERE`](er-functions-list-where.md) 函数的选择条件。
 
 ## <a name="example-1"></a>示例 1
 

@@ -1,6 +1,6 @@
 ---
 title: 2021 年 11 月 19 日 Dynamics 365 Human Resources 中的新增功能或更改
-description: 本主题介绍 2021 年 11 月 19 日独立 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
+description: 本主题介绍 2021 年 11 月 19 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 618d90f95637002f444b334e16d3fef466dda65e
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 3a86c1c24fbc758f4e3d0fd8b052e02078bee41e
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087466"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902596"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>2021 年 11 月 19 日 Dynamics 365 Human Resources 中的新增功能或更改
 

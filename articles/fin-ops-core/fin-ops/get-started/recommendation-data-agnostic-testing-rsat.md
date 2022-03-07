@@ -2,11 +2,9 @@
 title: 使用 Regression Suite Automation Tool 的数据不可知测试
 description: 此主题讨论有关使用 Regression Suite Automation Tool 的数据不可知测试的建议。
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763402"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>使用 Regression Suite Automation Tool 的数据不可知测试
 
@@ -32,7 +30,7 @@ ms.locfileid: "4798193"
 - ATL 框架
 - Regression Suite Automation Tool (RSAT)
 
-[![测试分类金字塔](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![测试分类金字塔。](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>概览
 -   **SysTest 框架** – SysTest 框架可以可靠地用于编写单元测试。 因为单元测试通常测试方法或功能，所以始终应该数据不可知，并且仅依赖在测试中提供的输入数据。
@@ -44,8 +42,11 @@ ms.locfileid: "4798193"
     - o 通过编号规则或通过使用 Microsoft Excel 函数（如 =TEXT(NOW(),"yyyymmddhhmm")）输入唯一标识符，如发票编号。 此函数每分钟提供一个唯一编号，这样您就可以跟踪执行的操作。 可将其用于变量，如产品收据编号和供应商发票编号。 这些测试将重复使用同一个数据库，无需进行任何还原。
     - 请始终将环境的 **编辑模式** 设置为 **读取** 或 **编辑** 来充当第一个测试案例，因为默认选项为 **自动**。**自动** 选项始终使用前一个设置，可能导致不可靠的测试。 
  
-    [![“选项”页“性能”选项卡](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![“选项”页面，“性能”选项卡。](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - 仅在筛选了特定交易记录后才验证，而不是进行常规验证。 例如，对于记录数量，筛选交易记录编号或交易记录日期，以便验证中排除其他所有交易记录。 
     - 如果检查客户余额或预算检查，请首先保存值，然后添加交易记录值以验证预期结果，而不是验证固定预期值。 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

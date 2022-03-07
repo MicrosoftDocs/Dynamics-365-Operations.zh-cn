@@ -2,27 +2,27 @@
 title: 预算计划概览
 description: 此主题介绍了预算计划。 其中包含可帮助您配置预算计划和设置预算计划流程的信息。
 author: panolte
-manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019220"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982057"
 ---
 # <a name="budget-planning-overview"></a>预算计划概览
 
@@ -42,7 +42,7 @@ ms.locfileid: "5019220"
 - **预算计划阶段** – 预算计划阶段定义预算计划从其起始到最终审核中跟随的步骤。 预算计划阶段在预算计划工作流中安排。
 - **预算计划工作流** – 预算计划工作流由预算计划阶段组成并定义它们。 预算计划工作流与预算工作流关联。 预算工作流是通过预算计划阶段移动预算计划的自动和手动执行的流程。
 
-[![预算计划术语](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![预算计划术语。](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>典型任务
 
@@ -67,17 +67,17 @@ ms.locfileid: "5019220"
 
 下图显示了一个通用示例，为组织的不同级别创建单独的预算计划工作流。 阶段在各个工作流中定义，并且特定方案分配给每个阶段以保留预算数据。 完成任务以从一个阶段将数据移到下一个阶段。 例如，金额可以分配或聚合到不同科目、审核或其他审查。 在此图中，斜体文本指示在此阶段不可编辑的方案、历史数据或在更早阶段已经过审核而无需更改的数据。
 
-[![预算计划通用架构](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![预算计划通用架构。](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 下图显示了一个示例，在该示例中，公司总部估计初始预算基准金额并将其分配给销售部门。 此后销售部门评估并将它们的预测提交回总部，然后由预算经理整合和调整预测。 最后，预算经理将调整的预算金额发送给首席财务官 (CFO) 进行审核、最后调整和审批。
 
-[![预算计划架构示例](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![预算计划架构示例。](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>预算计划的组织层次结构
 
 在 **组织层次结构** 页上，您可以指定组织层次结构作为每个预算计划流程的预算计划层次结构。 预算计划层次结构不必与用于其他目的标准组织层次结构匹配。 由于此层次结构用于整合和分配数据，您可能希望它具有不同的结构。 在示例架构中，销售部门在包括预算和财务部门的总部的下一级。 此结构可能与用于管理销售部门运营的结构不同。 只能将一个组织层次结构分配给每个预算计划流程。
 
-有关详细信息，请参阅[组织和组织层次结构](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md)。
+有关详细信息，请参阅[组织和组织层次结构](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md)。
 
 ### <a name="user-security"></a>用户安全
 
@@ -95,7 +95,7 @@ ms.locfileid: "5019220"
 
 您在 **预算工作流** 页上创建预算计划的预算工作流。 流程类似于创建其他工作流的流程。 下图显示了总部工作流的示例。
 
-[![预算计划的预算工作流](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![预算计划的预算工作流。](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 工作流包含以下元素：
 
@@ -143,11 +143,11 @@ ms.locfileid: "5019220"
 
 在此主题前文中显示的示例架构中，执行分配以将总部“基准”阶段的预算计划和方案的金额转移到销售部门“估计”阶段中的另一预算计划和方案。 下图显示了示例架构的相关部分。
 
-[![阶段分配](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![阶段分配。](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 此外，在示例架构中，聚合从销售部门“已提交”阶段的预算计划和方案执行到总部“累积”阶段的父计划。 下图显示了示例架构的相关部分。
 
-[![聚合](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![聚合。](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>优先级
 
@@ -165,7 +165,7 @@ ms.locfileid: "5019220"
 
 对于示例架构，您可能希望为“PY 销售”、“合同”和“预测”方案创建列。 （下图显示了架构的相关部分。）然后可以将这些方案中的一个或全部划分到该会计年度每个季度的单独列，以便销售部门经理可以精确地输入每个期间的预测金额。
 
-[![列](./media/columns.png)](./media/columns.png)
+[![用于添加列的架构部分的图示。](./media/columns.png)](./media/columns.png)
 
 您也可以指定每个布局元素（列）是否可编辑，以及其是否可用于为该布局创建的任何工作表模板。 对于示例架构，在用于“估计”阶段的布局中，“预测”列可编辑，但“PY 销售”和“合同”列都是只读的。
 
@@ -203,4 +203,7 @@ ms.locfileid: "5019220"
 
 **操作** 菜单的另一个有用命令是 **查看预算流程状态**。 此命令以图形形式显示流程中的预算计划以及相关数据，例如计划的工作流状态，按金额和按单位汇总，以及指向预算计划本身的单击导航。
 
-[![预算计划流程状态](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![预算计划流程状态。](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

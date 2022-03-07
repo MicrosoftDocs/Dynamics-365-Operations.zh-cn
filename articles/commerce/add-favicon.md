@@ -2,35 +2,30 @@
 title: 添加收藏夹图标
 description: 此主题介绍如何向站点添加收藏夹图标。
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410420"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964724"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何向站点添加收藏夹图标。
-
-## <a name="overview"></a>概览
 
 收藏夹图标是在 Web 浏览器标签页上、地址栏中、浏览历史记录中和书签或收藏夹中及其他位置内显示的小图形文件。 建议向站点添加收藏夹图标，因为这样可以展示和强化您的品牌形象，帮助您的站点从客户访问的其他站点中脱颖而出。
 
@@ -66,7 +61,7 @@ ms.locfileid: "4410420"
 1. 在 **新建片段** 对话框中，选择 **元标记** 作为片段所基于的模块。
 1. 输入片段名称，然后选择 **确定**。
 1. 在片段层次结构树中，选择 **默认元标记** 子项。
-1. 在右窗格中的 **元标记** 下，选择 **添加**，然后输入您先前为该收藏夹图标创建的 HTML 字符串。 
+1. 在右窗格中的 **元标记** 下，选择 **添加**，然后输入您先前为该收藏夹图标创建的 HTML 字符串。 
 1. 选择 **完成编辑**，然后选择 **发布** 以发布片段。
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>将元标记片段添加到页面的 HTML 标头部分
@@ -91,11 +86,12 @@ ms.locfileid: "4410420"
 
 [处理 CSS 覆盖文件](css-override-files.md)
 
-[添加欢迎消息](add-welcome-message.md)
-
 [添加版权声明](add-copyright-notice.md)
 
 [向站点添加语言](add-languages-to-site.md)
 
 [将脚本代码添加到站点页面以支持遥测](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

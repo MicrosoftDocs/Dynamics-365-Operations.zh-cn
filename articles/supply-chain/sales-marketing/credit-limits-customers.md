@@ -1,27 +1,24 @@
 ---
 title: 客户的信用额度
 description: 本文提供信用额度如何在 Dynamics 365 Supply Chain Management 中运作的概述。
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423094"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574297"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
@@ -93,7 +90,7 @@ ms.locfileid: "4423094"
 
 **哪里有关于客户所用的剩余信用的信息？**
 
-有关客户的余额和剩余信用金额的信息在创建帐龄快照时计算和存储，并显示在 **收款** 窗体中。 显示在 **收款** 窗体中的金额可能不包括所有交易记录活动，直到创建了新的帐龄快照。 有关详细信息，请参阅[在应收账款中的收款和信用](https://technet.microsoft.com/library/hh209221.aspx)。
+有关客户的余额和剩余信用金额的信息在创建帐龄快照时计算和存储，并显示在 **收款** 窗体中。 显示在 **收款** 窗体中的金额可能不包括所有交易记录活动，直到创建了新的帐龄快照。 有关详细信息，请参阅[在应收账款中的收款和信用](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable)。
 
 根据所选单据，将在更新销售订单、装箱单和客户发票时计算有关客户的余额和剩余信用金额的信息。 如果您处理的单据的金额将超过信用额度，则会显示一条消息。
 
@@ -138,3 +135,6 @@ ms.locfileid: "4423094"
 1.  单击 **销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。 双击销售订单。
 
 2.  在 **销售订单** 窗体的操作窗格中，在 **管理** 选项卡上单击 **检查信用额度**。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

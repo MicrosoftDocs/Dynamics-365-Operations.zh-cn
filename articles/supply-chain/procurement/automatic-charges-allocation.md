@@ -2,25 +2,22 @@
 title: 自动分配费用
 description: Microsoft Dynamics 365 Supply Chain Management 中的费用功能帮助您自动将费用分配给采购订单或销售订单。
 author: dasani-madipalli
-manager: tfehr
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753931"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 
@@ -147,7 +144,7 @@ ms.locfileid: "4423298"
     - **站点** 和 **仓库** – 如果仅针对特定的站点和仓库应用费用，指定站点和仓库。
     - **保留** – 选中此复选框以在完成开票后保留这些费用交易记录，以便每次为所选客户帐户创建新发票时应用该费用。
 
-1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
+1. **仅适用于销售订单：** 如果您想要计算分层费用，请参阅[销售订单上的分层费用](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders)以获取相关信息。
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>将费用从标头分配到行
 
@@ -177,3 +174,6 @@ ms.locfileid: "4423298"
         > 当使用 **选择要从分配中排除的行** 网格时，请确保在选择 **分配** 之前将网格保持打开状态。 如果在选择 **分配** 之前关闭网格，您在网格中的设置将丢失。 因此，将根据您先前定义的条件分配费用。
 
 1. 选择 **分配** 以应用设置并关闭对话框。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

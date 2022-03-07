@@ -2,26 +2,23 @@
 title: Dynamics 365 Retail 中的新增功能或更改
 description: 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 Retail 最新版本的新功能的资源。
 author: sericks007
-manager: AnnBe
 ms.date: 10/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0bbbe8ba0fa2616fa3d93a30a3f53d74c1b746d9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797086"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Dynamics 365 Retail 中的新增功能和更改
 
@@ -45,3 +42,6 @@ ms.locfileid: "4410574"
 | Dynamics 365 for Retail - 7.3.2.5 | 7.3.21971.64091 | 2018 年 6 月 | [KB 4342134 Microsoft Dynamics 365 for Retail - 版本 7.3.2.5 - 缺陷修复包 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* 此链接指向一篇知识库 (KB) 文章。 必须登录 Lifecycle Services (LCS)，才能查看这篇 KB 文章。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

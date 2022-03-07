@@ -2,37 +2,30 @@
 title: 评分和评价概览
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的评分和评价。
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410588"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982244"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 Commerce 中的评分和评价。
-
-## <a name="overview"></a>概览
 
 对于希望了解其他客户对产品的看法的电子商务客户来说，评分和评价至关重要。 它们还可以帮助消费者进行购买决定。 在 Dynamics 365 Commerce 中，零售商可通过评分和评价解决方案捕获客户对产品的评分和评价。 然后，零售商可以显示自己电子商务网站中的平均评分和评价信息。
 
@@ -42,7 +35,7 @@ Dynamics 365 Commerce 中的评分和评价功能是全渠道解决方案，在�
 
 下图显示评分和评价解决方案在 Dynamics 365 Commerce 中如何工作。
 
-![Dynamics 365 for Commerce 中的评分和评价](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Dynamics 365 for Commerce 中的评分和评价。](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Services 自动审查 40 种语言的猥亵词。 因为无需人员审核，所以降低了审查成本。 系统还提供审查者工具，可用于响应客户的疑虑、反馈和撤下请求，以及解决用户的数据申请。
 
@@ -59,3 +52,14 @@ Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Se
 [配置评分和评价](configure-ratings-reviews.md)
 
 [在 Dynamics 365 Commerce 中同步产品评分](sync-product-ratings.md)
+
+[启用审查者手动发布评分和评价](manual-publish-rating-reviews.md)
+
+[导入和导出评分和评价](import-export-reviews.md)
+
+[配置服务对服务身份验证](service-to-service-auth.md)
+
+[评分和评价常见问题解答](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

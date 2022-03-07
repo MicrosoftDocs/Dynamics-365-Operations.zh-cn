@@ -2,27 +2,24 @@
 title: 使用集中采购配送将产品从配送中心配送到商店
 description: 此程序会逐步演示如何创建和处理集中采购配送，以将产品从一个位置配送到一个或许多商店。
 author: rubencdelgado
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04b557c71859d598d502d16c9755cae4b38b91304bb4ddd03034b1c5b67c9b19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763636"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>使用集中采购配送将产品从配送中心配送到商店
 
@@ -53,3 +50,6 @@ ms.locfileid: "4410520"
 19. 单击“创建订单”。
 20. 单击“是”。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
