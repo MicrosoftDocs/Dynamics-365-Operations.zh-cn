@@ -2,16 +2,13 @@
 title: 呼叫中心销售功能
 description: 本主题提供 Dynamics 365 Commerce 中呼叫中心销售功能的概览。
 author: josaw1
-manager: AnnBe
 ms.date: 04/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7091e8ba7940e358d77c69c63e26c8f3d9337713
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: e7b26ab8c6d752b994c280d2bb9cef75060905fde0becec6202d7d1ecb98f47c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714727"
 ---
 # <a name="call-center-sales-functionality"></a>呼叫中心销售功能
 
@@ -69,3 +66,6 @@ ms.locfileid: "4410632"
 ## <a name="configure-continuity-programs"></a>配置连续性计划
 
 [设置呼叫中心的连续性计划](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

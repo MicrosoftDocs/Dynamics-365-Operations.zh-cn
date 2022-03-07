@@ -1,7 +1,7 @@
 ---
 title: 物料质量组
 description: 本主题介绍如何使用和创建物料质量组来对产品进行逻辑分组，以便可以将其分配给质量关联来自动生成质检订单。
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0f26aa50e814a7abb8e7ed3e6a943136578208854a9efb3b8e8d38016917681d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781481"
 ---
 # <a name="item-quality-groups"></a>物料质量组
 

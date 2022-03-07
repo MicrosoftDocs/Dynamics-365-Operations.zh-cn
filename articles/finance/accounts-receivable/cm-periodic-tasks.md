@@ -1,26 +1,23 @@
 ---
 title: 定期信用管理任务
 description: 本主题描述了管理客户信用额度过程中必须进行的定期任务。
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440717"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753499"
 ---
 # <a name="periodic-credit-management-tasks"></a>定期信用管理任务
 
@@ -44,3 +41,6 @@ ms.locfileid: "4440717"
 您可以运行 **更新客户余额统计信息** 流程，以更新显示在 **余额统计查询** 页上的余额统计信息计算结果。 此信息用于计算风险评分和 **客户** 页上信用统计速见表中显示的值。
 
 运行该流程时，它将更新单个客户的客户余额统计信息。 要设置批处理作业以为多个客户运行该流程，您可以使用 **计算余额统计** 页面（**信用管理 \> 定期任务 \> 计算余额统计**）。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: 设置用于完成采购订单类型工作的移动设备菜单项
 description: 此主题演示如何设置“移动设备”菜单项。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ccc39cb243354db337a5747701e9731c5ad775
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 21994acabd254d0f10c7f22bbc83e4dbd69fad04
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423210"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814432"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>设置用于完成采购订单类型工作的移动设备菜单项
 
@@ -69,3 +66,6 @@ ms.locfileid: "4423210"
 5. 选择向右箭头。
 6. 选择 **保存**。
 7. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

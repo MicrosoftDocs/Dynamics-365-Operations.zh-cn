@@ -1,12 +1,11 @@
 ---
 title: 修改模型和映射以生成包含应用程序数据的单据
-description: 若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 2 部分 - 生成单据）”这一过程。
+description: 本主题介绍如何设计报告配置以生成电子文档与更新应用程序数据。 （第 2 部分 - 生成文档）。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64bcf885fe2f5fca6b91589171b5e539eff2c3e5
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684563"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567084"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>修改模型和映射以生成包含应用程序数据的单据
 
@@ -168,3 +167,6 @@ ms.locfileid: "4684563"
 66. 关闭该页面。
 67. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

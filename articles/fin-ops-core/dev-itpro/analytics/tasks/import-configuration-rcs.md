@@ -2,11 +2,9 @@
 title: (ER) 从 RCS 导入配置
 description: 本主题介绍用户如何从 RCS 导入 ER 配置的新版本。
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720776"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) 从 RCS 导入配置
 
@@ -55,3 +53,6 @@ ms.locfileid: "4684179"
 5. 选择 **关闭**。 
 6. 选择所需 ER 配置版本，然后选择 **导入** 将其导入到当前实例中。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

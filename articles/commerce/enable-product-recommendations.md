@@ -2,16 +2,13 @@
 title: 启用产品建议
 description: 此主题介绍如何做出基于 Microsoft Dynamics 365 Commerce 客户可用的人工智能-机器学习 (AI-ML) 的产品建议。
 author: bebeale
-manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bfecc53a17eb44c5726103b4df738d6c6b0311aec07ad8eab55fa9c94787957a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752475"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -42,7 +39,7 @@ ms.locfileid: "4410369"
 2. 确保实体存储刷新已自动化。 有关更多信息，请参阅[确保实体存储刷新已自动化](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)。
 3. 确认 Azure AD 标识配置中包含建议的实体。 下面是有关如何执行此操作的详细信息。
 
-此外，请确保已启用 RetailSale 度量。 若要详细了解此设置流程，请参阅[使用度量](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)。
+此外，请确保已启用 RetailSale 度量。 若要详细了解此设置流程，请参阅[使用度量](/dynamics365/ai/customer-insights/pm-measures)。
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD 标识配置
 
@@ -71,7 +68,7 @@ ms.locfileid: "4410369"
 1. 选择 **产品建议** 功能。
 1. 在 **产品建议** 属性窗格中，选择 **立即启用**。
 
-![开启建议](./media/FeatureManagement_Recommendations.PNG)
+![打开建议。](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > 此过程开始生成产品建议列表。 可能需要几小时，列表才可用，并且可以在销售点 (POS) 或 Dynamics 365 Commerce 中查看。
@@ -114,3 +111,6 @@ ms.locfileid: "4410369"
 
 [产品建议常见问题](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,27 @@
 title: 客户付款见解(预览)
 description: 此主题介绍有助于加深对各客户的典型付款实践的付款见解功能。 此功能可帮助您确定证明开始执行本应提前进行的收款流程的情况。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644625"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983994"
 ---
 # <a name="customer-payment-insights-preview"></a>客户付款见解(预览)
 
@@ -50,11 +49,11 @@ ms.locfileid: "4644625"
 
 客户付款见解（预览）也提供预期付款的聚合视图，可帮助组织了解他们可以期望客户会在三个时段（按时、逾期和长时间逾期）的哪一个收到付款总金额。
 
-[![付款预测的聚合视图](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![付款预测的聚合视图。](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 而且，每个发票都指定了按时付款的概率。 如果按时付款的概率小于 50%，发票上会标有红色圆圈，以表示这些发票可能需要注意收款问题。 
 
-[![付款概率列表](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![付款概率的列表。](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 客户付款见解（预览）还提供上下文信息以解释预测，例如影响预测的主要因素，客户的业务现状以及有关客户历史付款行为的详细信息。 在许多企业中，收款流程是一种被动活动；在发票到期之前，收款流程不会开始。 
 
@@ -73,3 +72,6 @@ ms.locfileid: "4644625"
 预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

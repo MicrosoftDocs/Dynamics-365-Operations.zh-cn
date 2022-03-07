@@ -2,15 +2,12 @@
 title: 地图模块
 description: 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747385"
 ---
 # <a name="map-module"></a>地图模块
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665412"
 
 此主题介绍地图模块以及如何在 Microsoft Dynamics 365 Commerce 中配置该模块。
 
-## <a name="overview"></a>概览
-
-地图模块在使用[必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)呈现的交互式地图上显示商店位置。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地图模块提供不同的视图，如道路、空中和街边，用户可以选择这些视图来查看地图位置。 它们还允许进行交互，如缩放和使用用户的位置。
+地图模块在使用[必应地图 V8 Web 控件](/bingmaps/v8-web-control/)呈现的交互式地图上显示商店位置。 必须提供必应地图 API 密钥，并且必须将其添加到 Commerce headquarters 内的共享参数页面中。 地图模块提供不同的视图，如道路、空中和街边，用户可以选择这些视图来查看地图位置。 它们还允许进行交互，如缩放和使用用户的位置。
 
 将地图模块与商店选择器模块结合使用可以确定必须在地图上呈现的商店的地理位置。 当用户在站点页面上的其中一个模块中选择商店时，商店选择器和地图模块进行交互。 除了与商店选择器模块进行交互外，地图模块还可以针对其他场景扩展。 但是，需要对模块进行自定义。
 
@@ -43,7 +38,7 @@ ms.locfileid: "4665412"
 
 下图显示了商店位置页面上使用的地图块模块的示例。
 
-![商店选择器模块的示例](./media/ecommerce-Storelocator.PNG)
+![商店选择器模块的示例。](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>模块属性
 
@@ -81,4 +76,7 @@ ms.locfileid: "4665412"
 
 [为您的组织管理必应地图](./dev-itpro/manage-bing-maps.md)
 
-[必应地图 V8 Web 控件](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[必应地图 V8 Web 控件](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

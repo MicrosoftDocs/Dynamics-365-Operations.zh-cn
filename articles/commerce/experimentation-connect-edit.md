@@ -2,15 +2,12 @@
 title: 连接试验和编辑变体
 description: 本主题介绍了如何将第三方服务中的试验连接到 Dynamics 365 Commerce，以及如何编辑试验的变体。
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4410626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773025"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>连接试验和编辑变体
 
@@ -31,7 +28,7 @@ ms.locfileid: "4410626"
 
 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
 
-[![试验用户旅程 - 连接和编辑](./media/experimentation_connect_edit.svg)](./media/experimentation_connect_edit.svg#lightbox)
+[![试验用户旅程 - 连接和编辑。](./media/experimentation_connect_edit.svg)](./media/experimentation_connect_edit.svg#lightbox)
 
 在第三方服务中[设置试验](experimentation-setup.md)后，您将在 Dynamics 365 Commerce 中连接试验和编辑试验变体。
 
@@ -95,3 +92,6 @@ ms.locfileid: "4410626"
 
 ## <a name="next-step"></a>后续步骤
 [预览和发布试验](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

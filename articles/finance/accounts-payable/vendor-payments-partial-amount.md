@@ -2,28 +2,25 @@
 title: 部分金额的供应商付款
 description: 有时您可以向低于发票金额的供应商付款。 本文介绍处理此情况不同的选项。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777232"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>部分金额的供应商付款
 
@@ -31,8 +28,7 @@ ms.locfileid: "4440588"
 
 有时您可以向低于发票金额的供应商付款。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。 
 
-<a name="cash-discount-amounts"></a>现金折扣金额
----------------------
+## <a name="cash-discount-amounts"></a>现金折扣金额
 
 供应商可以在到期日期前提供您支付的发票一个现金折扣。 例如，如果发票在 10 天内支付，您输入金额为 100.00 的发票，指定 2% 现金折扣。 到期期限为 30 天。 如果付款方案使用现金折扣作为选择发票的条件，并且，如果该方案在现金折扣日期或之前运行，为付款选择发票，付款创建为 98.00。 现金折扣还可以为手动创建的一次性付款获取。
 
@@ -54,3 +50,6 @@ ms.locfileid: "4440588"
 
 
 有关详细信息，请参阅[供应商付款概览](../cash-bank-management/tasks/vendor-payment-overview.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

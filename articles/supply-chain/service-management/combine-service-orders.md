@@ -1,29 +1,26 @@
 ---
 title: 合并服务订单
 description: 可以合并服务订单。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422786"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580448"
 ---
 # <a name="combine-service-orders"></a>合并服务订单   
 
@@ -44,14 +41,14 @@ ms.locfileid: "4422786"
 
 您创建了开始日期为 2007 年 3 月 31 日的服务协议。 在 **合并服务订单** 字段中，指定 **按服务对象**。 然后您创建了以下服务协议行：
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -113,3 +110,6 @@ ms.locfileid: "4422786"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

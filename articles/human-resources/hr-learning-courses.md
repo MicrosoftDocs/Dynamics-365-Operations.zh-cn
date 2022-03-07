@@ -2,30 +2,29 @@
 title: 设置培训课程
 description: 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417524"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054011"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 
@@ -137,3 +136,6 @@ ms.locfileid: "4417524"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

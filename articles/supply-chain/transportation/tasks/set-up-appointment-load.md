@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSAppointment
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf3acda7e56df1af41e91809387644778d2cf3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14f3a0ebd82805761db997631b95f1423dc3fea0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422783"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233719"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>为负荷设置约会
 
@@ -47,3 +46,6 @@ ms.locfileid: "4422783"
 6. 单击“保存”。
 7. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

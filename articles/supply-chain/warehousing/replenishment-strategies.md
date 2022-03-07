@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a66d48c6636f9f2012c92945868728d8430c1cbe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256031"
 ---
 # <a name="replenishment-strategies"></a>补货策略
 
@@ -115,3 +114,6 @@ ms.locfileid: "4646125"
 [![示例 2](media/ReplenTemp_example_2.png "示例 2")](media/ReplenTemp_example_2_large.png)
 
 因此，要为补货位置获得最大数量，应在补货领料的位置指令上将 **允许拆分** 选项设置为 *是*。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

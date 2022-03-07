@@ -2,13 +2,11 @@
 title: 冲销已过帐租赁交易
 description: 本主题说明如何冲销已过帐的租赁交易。 通过资产租赁创建的任何交易都可以冲销。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770657"
 ---
 # <a name="reverse-posted-lease-transactions"></a>冲销已过帐租赁交易
 
@@ -55,3 +53,6 @@ ms.locfileid: "4969520"
 当您选择 **冲销追踪** 时，会出现一个对话框，其中显示原始交易和冲销的交易，以及一个链接号。
 
 您还可以使用相应 **计划** 页来跟踪冲销。 将清除 **冲销** 字段，但选中 **已过帐的日记帐** 字段。 此外，将使用撤回交易的日记帐编号更新 **最近的日记帐编号** 字段，并使用冲销日记帐编号更新 **日记帐编号** 字段。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

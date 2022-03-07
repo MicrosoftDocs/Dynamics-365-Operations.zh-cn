@@ -2,27 +2,24 @@
 title: 设置自动装运对帐
 description: 此过程显示如何为自动货运对帐设置数据。
 author: ShylaThompson
-manager: tfehr
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f11edc15821faad84485d5b81e4a9ded0b7e974
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e4bc3998dea2e953191151f8e54345ec648ff33e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422784"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837601"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 
@@ -72,3 +69,6 @@ ms.locfileid: "4422784"
 11. 在“未足额支付原因代码”字段中，输入或选择一个值。
 12. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

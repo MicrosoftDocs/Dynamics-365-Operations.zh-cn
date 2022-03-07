@@ -1,12 +1,10 @@
 ---
 title: 使用查询来查找信息
-description: 许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
+description: 在本主题中，您将了解查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798134"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069290"
 ---
 # <a name="find-information-by-using-lookups"></a>使用查询来查找信息
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 
@@ -46,15 +47,15 @@ ms.locfileid: "4798134"
 
 焦点到 **城市** 字段中后，可以通过键入一些字母（如“col”）查找所需城市。 停止键入后，查询将自动打开，并筛选出以“col”开头的城市。
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample。](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 此时，光标仍在查询字段中。 如果继续键入，让该值为“colum”，查询内容将自动调整以体现控件中的最新值。
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample。](./media/updatefilterlookupexample.png)
 
 即时焦点仍在查询控件中，您也可以使用 **向上键** 或 **向下键** 突出显示所选行。 如果按 **Enter**，将从查询中选中突出显示的行，并更新控件的值。
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup。](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>键入多个 ID
 
@@ -64,22 +65,25 @@ ms.locfileid: "4798134"
 
 如果用户开始在查询控件中输入 **帐户 ID**，将按照上一部分中所述自动打开下拉菜单，而用户将看到如下所示的查询。
 
-[![输入了客户帐户 ID 时的上下文查询](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![输入客户帐户 ID 时的上下文查询。](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 但是，用户现在也可以输入 **帐户名称** 的开头。 如果检测到此行为，用户将看到以下查询。 请注意 **名称** 列如何移动并成为查询中的第一列，以及如何根据 **名称** 列为查询排序和筛选。
 
-[![输入了客户名称时的上下文查询](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![输入客户名称时的上下文查询。](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>使用网格列标题以执行更高级的筛选和排序
 
 前两部分中讨论的查询增强大大提高了用户根据查询中的 **ID** 或 **名称** 字段的“开始”搜索浏览查询中的行的能力。 但是，有些情况需要更高级的筛选（或排序）才能找到正确的行。 在这些情况下，用户需要使用查询中网格列标题内的筛选和排序选项。 例如，假设需要找到产品为正确的“电缆”的员工输入销售订单行。 在 **物料编号** 控件中键入“电缆”没有用，因为没有产品名称以“电缆”开始。
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup。](./media/emptyitemlookup.png)
 
 相反，用户需要清除查询控件的值，打开查询下拉菜单，然后使用网格列标题筛选下拉菜单，如下所示。 鼠标（或触控）用户只需单击（或点按）任何列标题即可访问该列的筛选和排序选项。 对于键盘用户，用户只需再次按 **Alt**+**向下键** 将焦点移到下拉菜单中，之后，用户可以切换到正确的列，然后按 **Ctrl**+**G** 打开网格列标题下拉菜单。
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup。](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 应用筛选器之后（见下图），用户可以照常找到并选择行。
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup。](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

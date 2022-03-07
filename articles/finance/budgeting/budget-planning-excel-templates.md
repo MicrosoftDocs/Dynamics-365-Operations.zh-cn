@@ -2,11 +2,9 @@
 title: Excel 的预算计划模板
 description: 此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019271"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822171"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel 的预算计划模板
 
@@ -129,3 +127,6 @@ ms.locfileid: "5019271"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

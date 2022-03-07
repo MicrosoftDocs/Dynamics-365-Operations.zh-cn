@@ -1,12 +1,10 @@
 ---
 title: 成本和日期控制
 description: 本主题介绍资产管理中的成本和日期控制。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -14,23 +12,21 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731905"
 ---
 # <a name="cost-and-date-control"></a>成本和日期控制
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-在资产管理中，可计算成本，以便获取资产、功能位置和工作订单的实际成本与预算成本的比较概览。 实际成本基于过帐的交易记录。 
+在资产管理中，可计算成本，以便获取资产、功能位置和工作订单的实际成本与预算成本的比较概览。 实际成本基于过帐的交易记录。
 
 如果要将工作订单的计划开始日期和结束日期与实际开始日期和结束日期进行比较，也可以创建日期计算。
 
@@ -48,8 +44,8 @@ ms.locfileid: "5019067"
 
 5. 可使用 **级别** 字段指示要与功能位置有关的成本控制行的详细程度。 
 
-    例如，如果在字段中插入数字“1”，并且采用了多级别功能位置层次结构，则将在最上级别显示某个功能位置的所有成本控制行，因此，可以从较低级别的功能位置叠加行中的工时。 
-    
+    例如，如果在字段中插入数字“1”，并且采用了多级别功能位置层次结构，则将在最上级别显示某个功能位置的所有成本控制行，因此，可以从较低级别的功能位置叠加行中的工时。
+
     如果在 **级别** 字段中插入数字“0”，将看到详细结果，其中显示其关联的所有功能位置级别的所有成本控制行。
 
 6. 如果要在计算中包括该列，请在 **显示未结承诺成本** 切换按钮上选择“是”。
@@ -62,11 +58,11 @@ ms.locfileid: "5019067"
 
     下图显示 **资产成本控制** 对话框的示例。
 
-    ![“资产成本控制”对话框](media/01-controlling-and-reporting.png)
+    ![“资产成本控制”对话框。](media/01-controlling-and-reporting.png)
 
 10. 在 **资产成本控制** 页面上，单击 **分组依据** 按钮显示所需的计算详细程度。 将突出显示所选 **分组依据** 按钮。 单击按钮将其激活或停用。
 
-## <a name="example"></a>示例
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>资产成本控制中的计算结果示例
 
 下面的屏幕截图显示 **资产成本控制** 中的计算结果的示例。
 
@@ -75,10 +71,9 @@ ms.locfileid: "5019067"
 - **未结承诺成本** 字段显示对要为您已订购或收到，但尚未付款的物料、工时和服务的付款承诺。 
 - **实际成本** 字段显示过帐所有消耗登记之后的相关成本。
 
-![“资产成本控制”中的计算结果示例](media/02-controlling-and-reporting.png)
+![“资产成本控制”中的计算结果的示例。](media/02-controlling-and-reporting.png)
 
 另外一种创建成本计算的方法是在 **所有资产** 或 **有效资产** 中选择多个资产。 然后，单击 **常规** 选项卡上的 **成本控制** 按钮。在 **资产成本控制** 对话框中，将把所选资产自动插入到 **要包括的记录** 快速选项卡上的 **资产** 字段中。 单击 **确定**，然后将显示所选资产的成本计算。 可以在 **所有功能位置** 或 **有效功能位置** 中对功能位置执行同样的过程，也可以在 **所有工作订单** 或 **有效工作订单** 中对工作订单执行同样的过程。
-
 
 ## <a name="work-order-date-control"></a>工作订单日期控制
 
@@ -96,7 +91,7 @@ ms.locfileid: "5019067"
 
 6. 单击 **分组依据** 按钮显示所需的计算详细程度。 将突出显示所选 **分组依据** 按钮。 单击按钮将其激活或停用。
 
-## <a name="example"></a>示例
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>工作订单日期控制中的计算结果示例
 
 下面的屏幕截图显示 **工作订单日期控制** 中的计算结果的示例。
 
@@ -104,6 +99,9 @@ ms.locfileid: "5019067"
 - **平均结束延迟** 字段显示工作订单的计划结束日期与实际结束日期之间的天数。 例如，如果实际结束日期在计划结束日期的三天后，则此字段中将显示“3”。  
 - **发生次数** 字段显示工作订单的计划开始日期与实际开始日期之间和计划结束日期与实际结束日期之间发生偏差的次数。
 
-![“工作订单日期控制”中的计算结果示例](media/03-controlling-and-reporting.png)
+![“工作订单日期控制”中的计算结果的示例。](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

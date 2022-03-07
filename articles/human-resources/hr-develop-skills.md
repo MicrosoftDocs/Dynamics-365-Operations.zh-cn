@@ -2,7 +2,7 @@
 title: 让劳动力技能符合业务需要
 description: 您可以跟踪工作人员、申请人或联系人具有或应该具有的技能，以有效地履行其角色。 您还可以指定特定工作所需的技能。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3d64fa519cf4156adce43056c1c22362f0d7591
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417466"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465550"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>让劳动力技能符合业务需要
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 您可以跟踪工作人员、申请人或联系人具有或应该具有的技能，以有效地履行其角色。 您还可以指定特定工作所需的技能。
 
@@ -62,3 +64,6 @@ ms.locfileid: "4417466"
 您可以创建技能模板分析查看截至特定日期工作人员、申请人或联系人的能力列表。 可以创建一个技能差距分析将人员的技能与某一特定工作所要求的技能加以比较  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

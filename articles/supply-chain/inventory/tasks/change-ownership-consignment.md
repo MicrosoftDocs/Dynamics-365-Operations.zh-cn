@@ -2,27 +2,24 @@
 title: 根据生产需求更改托运库存的所有权
 description: 此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。
 author: perlynne
-manager: tfehr
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c50affa05b8df53d31660854f4d1ead6aeff820
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f31397c980f1f46f22979cf0b754eeaf4baf3e6eb7cafc53a6a9acdc482743e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780594"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>根据生产需求更改托运库存的所有权
 
@@ -55,3 +52,6 @@ ms.locfileid: "4423268"
 2. 单击“确定”。
 3. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

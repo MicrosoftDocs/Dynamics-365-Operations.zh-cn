@@ -2,35 +2,30 @@
 title: 启用和使用跨渠道共享
 description: 本主题介绍了如何启用和使用 Microsoft Dynamics 365 Commerce 站点构建器的跨渠道共享功能。
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742408"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>启用和使用跨渠道共享
 
 [!include [banner](includes/banner.md)]
 
 本主题介绍了如何启用和使用 Microsoft Dynamics 365 Commerce 站点构建器的跨渠道共享功能。
-
-## <a name="overview"></a>概览
 
 通过跨渠道共享，零售商可以在站点的多个渠道中重复使用和共享内容。 当站点渠道具有兼容的基本语言时，或者当它们具有多个共同的内容项时，此功能很有用。
 
@@ -53,15 +48,15 @@ ms.locfileid: "4410615"
 1. 转到 **站点设置 \> 功能**。
 1. 将 **跨渠道** 功能的选项设置为 **开**。
 
-    ![在 Commerce 站点构建器中，将“跨渠道”选项设置为“开”](./media/enabling-cross-channel-sharing.png)
+    ![在 Commerce 站点构建器中，将“跨渠道”选项设置为“开”。](./media/enabling-cross-channel-sharing.png)
 
 启用跨渠道共享后，跨渠道信息将显示在 **站点设置 \> 功能** 的 **渠道** 部分中，如下图示例所示。
 
-![渠道信息在启用跨渠道共享后可见](./media/channels-cross-channel.png)
+![渠道信息在启用跨渠道共享后可见。](./media/channels-cross-channel.png)
 
 此外，启用跨渠道共享后，Commerce 站点构建器右上角的 **渠道** 字段将包含一个 **跨渠道在线商店** 选项，可用于管理跨渠道内容，如下图所示。
 
-![启用跨渠道共享后，“渠道”字段中的“跨渠道在线商店”选项](./media/cross-channel-dropdown.png)
+![启用跨渠道共享后，“渠道”字段中的“跨渠道在线商店”选项。](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>创建和使用跨渠道内容
 
@@ -137,3 +132,6 @@ ms.locfileid: "4410615"
 [文档状态和生命周期](document-states-overview.md)
 
 [使用发布组](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

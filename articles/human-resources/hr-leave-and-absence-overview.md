@@ -1,31 +1,32 @@
 ---
 title: 休假和缺勤概览
-description: 在 Dynamics 365 Human Resources 中，休假和缺勤工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
-ms.topic: article
+description: 在 Dynamics 365 Human Resources 中，休假和缺勤工作区为创建新的休假计划提供灵活的框架。
+author: twheeloc
+ms.date: 10/28/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417514"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069013"
 ---
 # <a name="leave-and-absence-overview"></a>休假和缺勤概览
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利。 **休假和缺勤** 工作区为创建新的休假计划提供灵活的框架。 另外还提供用于管理请求的工作流，并为员工提供用于请求休假的直观的自助服务页面。 分析可以帮助您的组织衡量和监控休假计划的休假余额和使用情况。
 
@@ -36,6 +37,7 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 - [配置休假和缺勤参数](hr-leave-and-absence-parameters.md)
 - [创建工作时间日历](hr-leave-and-absence-working-time-calendar.md)
 - [创建休假申请工作流](hr-leave-and-absence-workflow.md)
+- [配置缺勤管理人员角色](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>创建和管理休假计划
 
@@ -51,6 +53,10 @@ Dynamics 365 Human Resources 帮助您向工作人员提供出色的休假福利
 
 您的员工可以提交休息时间请求，您可以在 **员工自助服务** 工作区进行管理。
 
-[请求休假](hr-employee-self-service-request-time-off.md)
-[管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
+- [请求休假](hr-employee-self-service-request-time-off.md)
+- [管理休假和缺勤申请](hr-employee-self-service-manage-requests.md)
+- [配置缺勤管理人员角色](hr-configure-absence-manager.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

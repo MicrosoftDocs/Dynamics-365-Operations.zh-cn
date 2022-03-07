@@ -1,12 +1,10 @@
 ---
 title: 先前版本中已删除或弃用的功能
-description: 此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或曾经计划删除的功能。
+description: 此主题介绍从 Dynamics 365 for Finance and Operations 和早期版本中已经删除或曾经计划删除的功能。
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745168"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -39,7 +37,7 @@ ms.locfileid: "4679948"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
 
 ## <a name="finance-1007-with-platform-update-31"></a>带平台更新 31 的 Finance 10.0.7
 
@@ -94,7 +92,7 @@ ms.locfileid: "4679948"
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | 意大利本地化 |
 | **部署选项**              | 所有 |
-| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **方块列表报告 (IT) – 功能引用 IT-00001**。 |
+| **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持此报表。 |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>国内税报表 – 功能引用 IT-00003
 
@@ -106,6 +104,39 @@ ms.locfileid: "4679948"
 | **部署选项**              | 所有 |
 | **状态**                         | 弃用：到 2020 年 10 月 1 日，我们计划不再支持 **国内税报表 (IT) – 功能引用 IT-00003**。 |
 
+## <a name="october-2019-deprecation-announcement"></a>2019 年 10 月弃用公告
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>业务流程建模器中的流程图
+
+<table>
+<tbody>
+<tr>
+<td><strong>弃用/移除的原因</strong></td>
+<td>我们正在弃用业务流程建模器 (BPM) 中的流程图图表组件，因为旧版设计导致使用率较低。</td>
+</tr>
+<tr>
+<td><strong>被另一个功能取代？</strong></td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>影响的区域</strong></td>
+<td>业务流程建模器</td>
+</tr>
+<tr>
+<td><strong>状态</strong></td>
+<td>已弃用：BPM 中的流程图图表组件预计将于 2020 年移除。 以下功能将不可用：
+<ul>
+<li>所有流程图均为只读，不可编辑。 与流程图活动关联的形状属性也将不可用。 这些流程图既包括自动生成的默认流程图，也包括基于这些默认流程图修改的自定义流程图。</li>
+<li>流程步骤为只读，不可编辑。</li>     
+<li>旧版适应/差距分析功能将不再可用。 因此，不会再自动创建差距列表或提供导出。
+<p><strong>注意：</strong>此功能先前已被弃用，已由 Microsoft Azure DevOps 集成取代。</p>
+</li>
+<li>将不再提供流程图的版本历史记录。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>带平台更新 29 的 Finance and Operations 10.0.5
 
@@ -149,7 +180,7 @@ ms.locfileid: "4679948"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 标题与其他 Dynamics and Office 产品对齐 有关更多详细信息，请参阅[更新后的导航栏与 Office 标题对齐](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)。
+| **弃用/移除的原因** | 标题与其他 Dynamics and Office 产品对齐 有关更多详细信息，请参阅[更新后的导航栏与 Office 标题对齐](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)。
 | **被另一个功能取代？**   | 从平台更新 24 开始，引入了具有搜索功能且样式已改变的导航栏。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
@@ -163,7 +194,7 @@ ms.locfileid: "4679948"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 通过个性化为网格列重新排序之后，网格中的默认操作的旧版行为生成具有默认操作链接的意外列。 新的粘滞默认操作功能对此进行了更正。 有关更多详细信息，请参阅[网格中的粘滞默认操作](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)。 |
+| **弃用/移除的原因** | 通过个性化为网格列重新排序之后，网格中的默认操作的旧版行为生成具有默认操作链接的意外列。 新的粘滞默认操作功能对此进行了更正。 有关更多详细信息，请参阅[网格中的粘滞默认操作](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)。 |
 | **被另一个功能取代？**   | 从平台更新 21 开始，为“粘滞默认操作”引入了一项功能。 可在 **客户端性能选项** 页面中启用此功能。 |
 | **影响的产品区域**         | Web 客户端中的网格 |
 | **部署选项**              | 所有 |
@@ -174,7 +205,7 @@ ms.locfileid: "4679948"
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 在平台更新 22 中，“之一”筛选体验已经过重新设计，并计划此体验最终成为唯一的“之一”筛选体验。 |
-| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
+| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项** 页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：从 2020 年 4 月开始，经过改进的“之一”体验将成为默认行为，但没有恢复为旧版行为的机制。 |
@@ -334,6 +365,16 @@ ms.locfileid: "4679948"
 | **部署选项**              | 所有 |
 | **状态**                         | 已从带平台更新 20 的 Finance and Operations 8.1 开始移除。 |
 
+### <a name="payroll-and-human-resources-for-russia"></a>俄罗斯工资单和人力资源
+特定于俄罗斯国家的模块，用于管理员工管理信息、员工的时间表详细信息、工资核算以及创建工资单。 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 工资单不包括在 Dynamics 365 组合的全球战略重点中。 合作伙伴和 ISV 最适合提供符合当地法规和税务更新的工资单功能。|
+| **被另一个功能取代？**   | 无|
+| **影响的产品区域**         | 俄罗斯工资单和人力资源管理 |
+| **部署选项**              | 所有 |
+| **状态**                         | 弃用：删除功能的目标时间范围是 10.0 版本的未来更新之一。 |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>带平台更新 15 的 Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。
@@ -379,7 +420,7 @@ ms.locfileid: "4679948"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | Microsoft Power BI 中进行产品更新。 |
+| **弃用/移除的原因** | Microsoft Power BI 中进行了产品更新。 |
 | **被另一个功能取代？**   | [AppSource](https://appsource.microsoft.com) 站点上提供的 **成本管理**、**财务绩效** 和 **零售渠道绩效** 内容包将被分析应用程序替代，以便在数据库级别集成解决方案。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
 | **影响的产品区域**         | 成本管理、财务和零售                                                                                               |
 | **部署选项**              | 仅适用于云（在本地部署中不再支持与 PowerBI.com 集成）。                                                                                                            |
@@ -919,7 +960,7 @@ ICMS 税联邦报税单
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已被另一个功能取代。   |
-| **被另一个功能取代？**   | Microsoft Power BI 的监控财务业绩目录包将包括已经在 Business Analyzer 中可用的关键财务度量。 |
+| **被另一个功能取代？**   | Microsoft Power BI 的监控财务业绩内容包将包括已经在 Business Analyzer 中可用的关键财务度量。 |
 | **影响的产品区域**         | 总帐      |
 | **状态**                         | 已弃用：业务分析器的使用已被弃用。    |
 
@@ -970,7 +1011,7 @@ ICMS 税联邦报税单
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已被另一个功能取代。 |
-| **被另一个功能取代？**   | Common Data Service                                      |
+| **被另一个功能取代？**   | Dataverse                                      |
 | **影响的产品区域**         | Dynamics 的连接器                         |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。                           |
 
@@ -1335,7 +1376,7 @@ Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥特定功能
 
 ### <a name="virtual-company-accounts"></a>虚拟公司帐户
 
-Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
+Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户设置可以由一组公司共享的表。 有关该功能的描述，请参阅[公司帐户和虚拟公司帐户](../../fin-ops/get-started/ax4-content-retired.md)。 该功能的工作原理是将表分组到集合，然后集合分配给虚拟公司，即现有的“实际”公司的组。 创建查询，以便虚拟公司中的所有公司可以访问关联表集合的表中的数据。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1373,3 +1414,6 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 |     <strong>影响的产品区域</strong>     |                                              总帐                                              |
 |             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

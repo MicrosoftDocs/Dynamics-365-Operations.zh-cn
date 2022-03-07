@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a35079f43b92b5ff6d68aa7068f3e1f68ce8c2c32d23cdd22798f95c9a0ff4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732217"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076580"
 ---
 # <a name="enter-skills"></a>输入技能
 
@@ -45,17 +45,17 @@ ms.locfileid: "6732217"
 
 4. 在 **创建工作流** 窗格中，选择 **工作人员技能**。
 
-   [![选择工作人员技能工作流。](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![选择工作人员技能工作流](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. 在 **打开此文件?** 对话中，选择 **打开**。 出现提示时，输入您的凭据。
 
 6. 在工作流编辑器中，选择 **审核技能** 工作流元素并将其拖到画布上。
 
-   [![选择审核技能工作流元素。](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![选择审核技能工作流元素](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. 将 **开始** 元素连接到 **审核技能 1** 元素，然后将 **审核技能 1** 元素连接到 **结束** 元素。 您可能需要向下滚动来查看 **结束** 元素。 您可以将其拖到更靠近其他元素的位置。
 
-   [![连接工作流元素。](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![连接工作流元素](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. 双击 **审核技能 1** 工作流元素，然后右键单击 **步骤 1** 元素。 右键单击 **步骤 1** 元素，然后选择 **属性**。
 
@@ -65,7 +65,7 @@ ms.locfileid: "6732217"
 
 11. 选择 **添加条件**。 在 **位置** 之后，选择 **员工自助服务技能**，然后选择 **员工自助服务技能.人员**。 在 **是** 之后，选择 **现场**，然后选择 **用户与人员的关系.人员**。
 
-    [![指定条件。](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![指定条件](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. 在左侧导航栏上选择 **分配**。
 
@@ -73,11 +73,11 @@ ms.locfileid: "6732217"
 
 14. 在 **层次结构选择** 选项卡上，在 **层次结构类型:** 字段中，选择 **管理层次结构**。
 
-    [![指定管理层次结构。](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![指定管理层次结构](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. 选择 **关闭**，在画布痕迹导航中选择 **工作流**，然后选择 **保存并关闭**。
 
-有关创建工作流的详细信息，请参阅[工作流系统概述](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)。
+有关创建工作流的详细信息，请参阅[工作流系统概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json)。
 
 ## <a name="enter-skills-for-a-worker"></a>输入工作人员的技能
 

@@ -2,11 +2,9 @@
 title: 客户端常见问题
 description: 本文提供对有关 Finance and Operations 客户端的常见问题的解答。
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 8f4311e93505f1d59f6beeae01a2a2e796ad47cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798491"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749213"
 ---
 # <a name="client-faq"></a>客户端常见问题解答
 
@@ -54,3 +52,6 @@ ms.locfileid: "4798491"
 
 - 如果某个控件拥有 **查看详细信息** 功能，并且该控件具有值，该值将显示为超链接。 您可以单击超链接以打开包含其他详细信息的页面。
 - **查看详细信息** 还是快捷菜单上的选项。 有关在右击单击后何时显示快捷菜单的详细信息，请参阅上一节。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: 我的团队移动工作区
-description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。 用户还可以向其报告链中的人员发送表扬。
+description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767104"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
@@ -80,7 +78,7 @@ ms.locfileid: "4680962"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区查看团队成员
 1.  在移动应用中，选择 **我的团队** 工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
@@ -97,3 +95,6 @@ ms.locfileid: "4680962"
 1.  选择 **发送表扬**。 
 1. 输入您要发送的表扬的文本。 
 1. 选择 **完成**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

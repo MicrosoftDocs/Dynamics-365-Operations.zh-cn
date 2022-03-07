@@ -1,12 +1,10 @@
 ---
 title: 故障管理
 description: 本主题介绍资产管理中的故障管理。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020956"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711945"
 ---
 # <a name="fault-management"></a>故障管理
 
@@ -108,7 +106,7 @@ ms.locfileid: "5020956"
 
 7. 选择 **保存** 以保存您的更改。
 
-![故障设计器页面](media/21-setup-for-work-orders.png)
+![故障设计器页面。](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>创建故障成因
 
@@ -132,3 +130,6 @@ ms.locfileid: "5020956"
 
 > [!NOTE]
 > 可根据需要更改故障特征、区域、类型、成因和补救措施的名称。 将在关联的故障登记中自动体现名称的变化。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

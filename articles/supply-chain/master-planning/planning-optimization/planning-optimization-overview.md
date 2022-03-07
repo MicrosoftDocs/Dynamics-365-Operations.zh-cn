@@ -2,29 +2,25 @@
 title: 计划优化概述
 description: 本主题提供计划优化功能的概述。
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422779"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983434"
 ---
 # <a name="planning-optimization-overview"></a>计划优化概述
 
@@ -36,7 +32,7 @@ Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使主计
 
 下图显示了在工作时间内运行计划优化的好处。
 
-![在工作时间内运行计划优化的好处](media/PlanningOptimization1.png)
+![在工作时间内运行计划优化的好处。](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>性能提升
 
@@ -65,7 +61,7 @@ Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使主计
 
 下图显示数据流。
 
-![用于重新生成运行的数据流](media/PlanningOptimization2.png)
+![用于重新生成运行的数据流。](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>相关资源
 
@@ -78,3 +74,6 @@ Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使主计
 [将筛选器应用于计划](plan-filters.md)
 
 [取消计划作业](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: iframe 模块
 description: 此主题介绍 iframe 模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665388"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754006"
 ---
-# <a name="iframe-module"></a>iframe 模块
+# <a name="iframe-module"></a>Iframe 模块
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍 iframe 模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
 
 iframe 模块提供在站点上托管外部内容的 iframe（内联框架）。 例如，它可以用于在任何站点页面上托管 YouTube 视频或 PDF 文件查看器。 
 
@@ -42,7 +37,7 @@ iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 H
 
 下图显示了 iframe 模块的示例，这些模块在站点页面上展示外部视频。
 
-![展示外部视频的 iframe 模块示例](./media/ecommerce-iframe.PNG)
+![展示外部视频的 iframe 模块的示例。](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>iframe 模块属性
 
@@ -71,9 +66,15 @@ iframe 模块需要目标 URL。 然后，它将目标页面的内容托管在 H
 1. 根据您的要求设置其他属性，如 **标题** 和 **高度**。
 1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 1. 转到您的站点上的市场营销页面。 您应该会看到视频已在 iframe 模块中呈现。
- 
+
+> [!NOTE]
+> 由于 iframe 模块托管外部内容，站点作者必须确保 iframe 模块内托管的内容不会违反相应市场的内容限制政策。 如果使用 iframe 模块的页面存在内容违规，站点作者可以通过在站点构建器中打开页面，在 iframe 模块插槽中选择 **删除模块**，然后保存并重新发布页面。
+
 ## <a name="additional-resources"></a>其他资源
 
-[模块库概述](starter-kit-overview.md)
+[模块库概览](starter-kit-overview.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

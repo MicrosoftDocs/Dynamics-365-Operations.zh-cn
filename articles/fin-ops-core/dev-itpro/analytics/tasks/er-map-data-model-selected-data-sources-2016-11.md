@@ -1,12 +1,10 @@
 ---
 title: ER 将数据模型映射到所选数据源
-description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Microsoft Dynamics 365 Finance 数据源中。
+description: 本主题介绍如何将电子报告 (ER) 数据模型映射到选定的 Microsoft Dynamics 365 Finance 数据源。
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 60c20f6616d406bdd1ccdf42ac62eb4c1c5d27040f32469fa6dd370c41830450
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775968"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER 将数据模型映射到所选数据源
 
@@ -146,3 +144,6 @@ ms.locfileid: "4684299"
 5. 选择当前配置的已完成版本。
     * 请注意已创建配置保存为已完成版本 1。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

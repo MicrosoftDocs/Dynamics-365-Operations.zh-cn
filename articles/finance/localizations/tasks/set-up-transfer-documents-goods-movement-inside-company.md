@@ -1,27 +1,24 @@
 ---
 title: 为公司内货物转移设置转移文档
-description: 此过程显示如何为公司内货物转移创建转移单据。
+description: 此过程显示如何为公司内货物转移设置转移单据。
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 80805bf30b4be753d7543ed4c6de30401d36e981
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440796"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601442"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>为公司内货物转移设置转移文档
 
@@ -74,3 +71,6 @@ ms.locfileid: "4440796"
 10. 单击“装箱单”。
 11. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

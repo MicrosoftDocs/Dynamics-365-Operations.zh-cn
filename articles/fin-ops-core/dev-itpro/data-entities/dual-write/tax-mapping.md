@@ -1,35 +1,24 @@
 ---
 title: 集成税务
 description: 本主题介绍 Finance and Operations 与 Dataverse 之间的税务数据集成。
-author: robinarh
-manager: AnnBe
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679288"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063179"
 ---
 # <a name="integrated-tax"></a>集成税务
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -39,30 +28,14 @@ ms.locfileid: "4679288"
 
 税务数据包括表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
--------------------------|---------------------------------|----|
-销售税(物料)组 | msdyn_taxitemgroups |
-销售税主管机构 | msdyn_taxauthorities |
-免税(销售税)代码实体 CDS | msdyn_taxexemptcodes |
-销售税组 | msdyn_taxgroups |
-销售税分类帐过帐组 V2 | msdyn_taxpostinggroups |
-预缴税金代码 | msdyn_withholdingtaxcodes |
-预缴税金组 | msdyn_withholdingtaxgroups | 
+| Finance and Operations 应用 | 客户互动应用 | Description |
+|-----------------------------|-----------------------------------|-------------|
+[物料销售税组](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[销售税主管机构](mapping-reference.md#193) | msdyn_taxauthorities | |
+[免税(销售税)代码实体 CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[销售税组](mapping-reference.md#195) | msdyn_taxgroups | |
+[销售税分类帐过帐组 V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[预缴税金代码](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[预缴税金组](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

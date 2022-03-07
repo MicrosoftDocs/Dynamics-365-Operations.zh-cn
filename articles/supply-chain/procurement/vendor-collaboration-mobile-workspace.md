@@ -1,27 +1,25 @@
 ---
 title: 供应商协作移动工作区
 description: 此主题提供有关供应商协作移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020828"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577016"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
@@ -59,7 +57,7 @@ ms.locfileid: "5020828"
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本而异。
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>使用 Supply Chain Management 时的先决条件
-如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **供应商协作** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Supply Chain Management，系统管理员必须发布 **供应商协作** 移动工作区。 有关说明，请查阅 [发布移动工作区](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -79,7 +77,7 @@ ms.locfileid: "5020828"
 <td>KB 3216943 是您使用平台更新 3 时必需的二进制更新。 要实施此 KB，系统管理员必须遵循这些步骤。
 <ol>
 <li>从 Microsoft Dynamics Lifecycle Services (LCS) 下载 KB 3216943。</li>
-<li>安装交货为可部署包的二进制更新。 有关如何应用可部署包的信息，请参阅 <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</li>
+<li>安装交货为可部署包的二进制更新。 有关如何应用可部署包的信息，请参阅 <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ ms.locfileid: "5020828"
 <td>系统管理员</td>
 <td>KB 4013633 是包含<strong>现有库存量</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4013633，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">从 LCS 下载元数据修补程序</a>。</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">安装元数据修补程序</a>。</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">应用可部署包</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 LCS 下载元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>必须发布<strong>供应商协作</strong>移动工作区。</td><td>系统管理员</td>
-<td>请查阅<a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">发布移动工作区</a>。</td>
+<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 <tr class="even">
 <td>供应商用户必须有权访问 Web 客户端中的供应商协作 Web 界面和设置供应商协作用户。</td><td>专业采购人员和系统管理员</td>
@@ -122,12 +120,12 @@ ms.locfileid: "5020828"
 4.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 5.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>使用供应商协作移动工作区
 当您选择 **供应商协作** 工作区时，您将看到以下选项。
 
-![供应商协作移动工作区](./media/vendor-collaboration-mobile-app.png)
+![供应商协作移动工作区。](./media/vendor-collaboration-mobile-app.png)
 
 **供应商协作** 工作区包括以下页面。
 
@@ -169,3 +167,6 @@ ms.locfileid: "5020828"
 
 ### <a name="open-confirmed-orders"></a>打开已确认的订单
 客户确认了采购订单之后（即采购订单的状态已更改为 **已确认**），将显示在未结已确认订单中。 它将一直留在列表中，直到客户将其登记为已收货。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

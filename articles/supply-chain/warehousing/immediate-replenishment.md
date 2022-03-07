@@ -2,28 +2,25 @@
 title: 即时补货
 description: 本主题介绍如何在位置指令无法分配库存时使用即时补货为库存补货。
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 006160a3f7eada95ebdcdbf6694ee54be439f349
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423390"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835646"
 ---
 # <a name="immediate-replenishment"></a>即时补货
 
@@ -57,3 +54,6 @@ ms.locfileid: "4423390"
 
 - 确保应用的需求补货模板设置为使用 **补货** 类型的正确位置模板和工作模板。
 - 确保需求补货模板在其中为补货搜索现货库存的位置中现货库存充足。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

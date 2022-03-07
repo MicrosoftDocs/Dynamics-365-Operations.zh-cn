@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b596557e80035e8d62d01f156a6678c75e4ae573
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5de57ba626e177677eab5b8d2a815f191e5f6a87
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247982"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>自动结算和优先级
 
@@ -83,3 +82,6 @@ ms.locfileid: "4440726"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

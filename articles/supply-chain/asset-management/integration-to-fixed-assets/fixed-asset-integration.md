@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cdda44d361011706fe0ba170309908533aa0c2f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: adc14019c243b1992cdaa22ef7aa32cb44bfffd9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253582"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>将资产管理与固定资产进行集成
 
@@ -115,3 +114,6 @@ ms.locfileid: "4422889"
 1. 查找并打开固定资产。
 1. 在 **固定资产** 快速选项卡上，清除 **功能位置** 字段中的值。
 1. 在操作窗格上，选择 **保存**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

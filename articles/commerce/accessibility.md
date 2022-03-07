@@ -2,36 +2,30 @@
 title: 辅助功能和功能
 description: 本主题提供有关 Microsoft Dynamics 365 Commerce 中的辅助功能和功能的信息。
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716268"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
-
 
 [!include [banner](includes/banner.md)]
 
 本主题提供有关 Microsoft Dynamics 365 Commerce 中的辅助功能和功能的信息。
-
-## <a name="overview"></a>概览
 
 辅助功能和功能为所有用户提供访问和执行操作的功能性方法，以便他们可以实现自己的目标。 如此众多的用户可能需要辅助工具来改善听力、视力、移动性或神经多样性。
 
@@ -101,11 +95,11 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 
 ## <a name="additional-resources"></a>其他资源
 
-[窗体、产品和控件中的辅助功能](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[窗体、产品和控件中的辅助功能](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft 辅助功能中心](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 辅助功能中心](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 辅助功能中心](/dynamics365/get-started/accessibility/index)
 
 [合规性概览](compliance-overview.md)
 
@@ -114,3 +108,6 @@ CC 和音频记录文件可以直接在创作工具中进行编辑。 可以在�
 [添加隐私政策页面](add-privacy-page.md)
 
 [替换与所跟踪内容更改相关联的用户 ID](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

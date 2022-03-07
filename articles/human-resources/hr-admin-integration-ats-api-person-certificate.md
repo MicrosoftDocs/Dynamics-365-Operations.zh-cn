@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 300bf294bb4b2fadd4c5d3e68e74674a69dd48f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f74691d4f6593dc02931a037ecacb6314e28ea6d9ea5ab494581453bf8dfb31c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733556"
 ---
 # <a name="person-certificate"></a>人员证书
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

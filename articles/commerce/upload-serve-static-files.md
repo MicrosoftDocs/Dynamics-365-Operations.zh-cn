@@ -10,24 +10,22 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 1d709d99737ad05af1fb19d9f3ef7b87a8db80d3
+ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594946"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031812"
 ---
 # <a name="upload-and-serve-static-files"></a>上载和提供静态文件
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题介绍如何将静态文件上载到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 

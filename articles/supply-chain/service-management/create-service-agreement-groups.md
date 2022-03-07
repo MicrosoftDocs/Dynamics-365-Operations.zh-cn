@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbafd65073e6aba8f02aaed6877b8c1658a6dedc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78554bbde60a708b11538b11925720698b1952ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965922"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234937"
 ---
 # <a name="create-service-agreement-groups"></a>创建服务协议组 
 
@@ -42,3 +42,6 @@ ms.locfileid: "4965922"
 ## <a name="related-topics"></a>相关主题
 
 [服务协议概览](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211289"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 
@@ -122,3 +121,6 @@ Dynamics 365 Commerce 支持创建和管理多个网站，每个网站可以有�
 [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
 
 [管理内容安全策略 (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

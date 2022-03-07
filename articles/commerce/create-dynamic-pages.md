@@ -1,10 +1,12 @@
 ---
-title: 根据 URL 参数创建动态电子商务页面
+title: 基于 URL 参数创建动态电子商务页面
 description: 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 author: StuHarg
+manager: AnnBe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -15,16 +17,17 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3de589e908b20a90ba32fc49f1b987066283aafacfb4b879124b4f0677b34301
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747665"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098613"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>根据 URL 参数创建动态电子商务页面
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>基于 URL 参数创建动态电子商务页面
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 
@@ -93,6 +96,3 @@ ms.locfileid: "6747665"
 [验证页面内容的可访问性](verify-accessibility.md)
 
 [在线渠道可扩展性](e-commerce-extensibility/overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: 创建站点计划
 description: 生产规划人员计算特定物料生产的物料和产能需求。
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqTransPOUrgentFormPart, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52721d948554d4853f9e1d4dec45e45e619a4829
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bf3016e289248acafc3bc6b79d853fd9de8c5417
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423016"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841639"
 ---
 # <a name="create-a-plan-for-a-site"></a>创建站点计划
 
@@ -55,3 +52,6 @@ ms.locfileid: "4423016"
 2. 单击“确认”。
 3. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

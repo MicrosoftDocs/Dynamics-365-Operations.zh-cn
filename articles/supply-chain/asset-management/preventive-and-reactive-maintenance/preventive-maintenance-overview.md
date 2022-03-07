@@ -1,28 +1,26 @@
 ---
 title: 预防性维护概述
 description: 本主题介绍资产管理中的预防性维护。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36a70a3e60566fd8048ad404e0c391d898053a0a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 50fcff4bb675674bc0b32f0bbd5d06796f2dbce9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354825"
 ---
 # <a name="preventive-maintenance-overview"></a>预防性维护概述
 
@@ -36,5 +34,8 @@ ms.locfileid: "5016720"
 
 下图提供从创建维护安排和维护阶段到基于这些维护安排和维护阶段为资产创建工作订单的工作流的概览。
 
-![图 1](media/01-preventive-maintenance.png)
+![图 1.](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

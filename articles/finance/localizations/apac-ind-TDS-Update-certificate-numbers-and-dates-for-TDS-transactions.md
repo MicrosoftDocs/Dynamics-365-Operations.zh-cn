@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757991"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023054"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>更新 TDS 交易的证书编号和日期
 
@@ -33,7 +33,7 @@ ms.locfileid: "6757991"
 
 1. 转到 **税务 \> 申报 \> 预缴税金 \> 更新证书**。
 
-    [![更新证书页面。](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![更新证书页面](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. 在 **更新证书** 页面的 **选择** 部分中，在 **税务类型** 字段中，选择 **TDS**。
 3. 在 **证书编号** 字段中，选择客户或供应商的 TDS 证书编号。
@@ -60,4 +60,4 @@ ms.locfileid: "6757991"
 8. 选择 **更新** 以更新下部网格中 TDS 交易的 **证书编号** 和 **证书日期** 字段。
 10. 转到 **税务 \> 间接税 \> 预缴税金 \> 可退税证书** 并选择 **查询**，以查看在 **证书交易** 页面上具有新证书编号的已更新交易行。
 
-    [![证书交易页面。](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![证书交易页面](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

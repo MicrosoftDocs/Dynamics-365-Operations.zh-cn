@@ -2,26 +2,23 @@
 title: 查看日记帐中的相关内部公司凭证
 description: 在过帐内部公司交易的普通日记帐时，相关的凭证窗口显示该凭证来自其他公司。
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772771"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>查看日记帐中的相关内部公司凭证
 
@@ -54,3 +51,6 @@ ms.locfileid: "4440854"
 3. 在列表中，标记所选的行。
 4. 单击“凭证”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

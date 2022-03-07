@@ -2,26 +2,23 @@
 title: 估计生产订单
 description: 您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765410"
 ---
 # <a name="estimate-a-production-order"></a>估计生产订单
 
@@ -42,3 +39,6 @@ ms.locfileid: "4422696"
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看计算明细”。
     * 此页显示了成本分解情况。 例如，您可以查看第一成品行的单位总成本价。 根据物料清单、生产工艺路线和间接成本，后续行还包括很多成本。  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

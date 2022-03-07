@@ -2,7 +2,7 @@
 title: 租赁终止方案
 description: 本主题说明如何建议要终止的租赁。
 author: moaamer
-ms.date: 07/16/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717489"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881100"
 ---
 # <a name="propose-a-lease-for-termination"></a>建议要终止的租赁
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 如果租赁提前终止，“资产租赁”可以记录终止日记帐条目，以勾销租赁负债、使用权 (ROU) 资产和累计折旧，并计入损益。 提前终止流程将终止租赁及其关联的租赁帐簿。 不会终止单个租赁帐簿。 本主题介绍让您可以建议要终止的租赁并处理租赁终止日记帐条目的功能。
 

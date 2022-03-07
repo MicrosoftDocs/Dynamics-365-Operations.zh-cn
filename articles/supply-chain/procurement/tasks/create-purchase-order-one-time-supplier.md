@@ -1,26 +1,24 @@
 ---
 title: 创建零星供应商的采购订单
 description: 此过程演示如何为零星供应商创建采购订单。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c4885547cdf2f8496446761e27ce39e67e670f15
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e89a9d1b382efa3b90b8d70e84777321e9595f4a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016394"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579536"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>创建零星供应商的采购订单
 
@@ -38,3 +36,6 @@ ms.locfileid: "5016394"
 5. 单击“确定”。
     * 采购订单现在可以和其他任何订单一样完成和处理。 方法没有任何特别特征。 发票将记录供应商帐户中随订单创建的到期交易，然后处理付款。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

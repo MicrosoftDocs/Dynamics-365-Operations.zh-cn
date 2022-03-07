@@ -2,11 +2,9 @@
 title: 任务录制的安全诊断
 description: 本主题提供有关如何根据任务录制来分析和管理安全许可要求的信息。
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745112"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>任务录制的安全诊断
 
@@ -41,7 +39,7 @@ ms.locfileid: "4679782"
 
 4. 在 **用户 ID** 字段中，选择一个用户。 如果用户没有某些菜单项的权限，则 **缺少权限** 字段将更新为 **是**。
   
-  ![安全菜单项详细信息页面](../media/Security-Menu-Item-Details.png)
+  ![安全菜单项详细信息页面。](../media/Security-Menu-Item-Details.png)
 
 5. 选择 **添加引用** 以查看安全对象的列表，包括授予缺少的权限的角色、职责和特权。
 6. 从列表中选择安全对象：
@@ -49,3 +47,6 @@ ms.locfileid: "4679782"
     - 如果选择了 **角色**，请选择 **为用户添加角色**。 这会打开 **将用户分派给角色** 页。 有关详细信息，请参阅[将用户分派给安全角色](assign-users-security-roles.md)。
     - 如果选择了 **职责**，请选择 **将职责添加到角色**，选择应将职责添加到的角色，然后选择 **确定**。
     - 如果选择了 **特权**，请选择 **将特权添加到职责**，选择应将职责添加到的角色，然后选择 **确定**。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

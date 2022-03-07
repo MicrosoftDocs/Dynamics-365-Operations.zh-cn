@@ -2,16 +2,13 @@
 title: 将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票
 description: 本主题讨论用于将 Dynamics 365 Field Service 中的协议发票同步到 Dynamics 365 Supply Chain Management 中的普通发票的模板和基础任务。
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 69399a0e086225bc95c42b01863296a3259162a8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528237"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345444"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票
 
@@ -55,23 +52,23 @@ ms.locfileid: "4528237"
 
 | Field Service  | 供应链管理                 |
 |----------------|----------------------------------------|
-| 发票       | CDS 客户普通发票抬头 |
-| invoicedetails | CDS 客户普通发票行   |
+| 发票       | Dataverse 客户普通发票抬头 |
+| invoicedetails | Dataverse 客户普通发票行   |
 
 ## <a name="entity-flow"></a>实体流
 
-可通过 Common Data Service 数据集成项目将 Field Service 中从协议创建的发票同步到 Supply Chain Management。 对这些发票的更新将同步到 Supply Chain Management 中的普通发票，前提是这些普通发票的会计状态为 **进行中**。 在 Supply Chain Management 中过帐了普通发票并且会计状态更新为 **已完成** 之后，将不再可以从 Field Service 同步更新。
+可通过 Microsoft Dataverse 数据集成项目将 Field Service 中从协议创建的发票同步到 Supply Chain Management。 对这些发票的更新将同步到 Supply Chain Management 中的普通发票，前提是这些普通发票的会计状态为 **进行中**。 在 Supply Chain Management 中过帐了普通发票并且会计状态更新为 **已完成** 之后，将不再可以从 Field Service 同步更新。
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM 解决方案
 
-已向 **发票** 实体添加了 **具有带协议来源的行** 字段。 此字段帮助确保仅同步从协议创建的发票。 如果发票中至少包含一个源自协议的发票行，则该值为 **true**。
+已向 **发票** 表添加了 **具有带协议来源的行** 列。 此列帮助确保仅同步从协议创建的发票。 如果发票中至少包含一个源自协议的发票行，则该值为 **true**。
 
-已向 **发票行** 实体添加了 **具有协议来源** 字段。 此字段帮助确保仅同步从协议创建的发票行。 如果发票行源自协议，则该值为 **true**。
+已向 **发票行** 表添加了 **具有协议来源** 列。 此列帮助确保仅同步从协议创建的发票行。 如果发票行源自协议，则该值为 **true**。
 
-**发票日期** 是 Supply Chain Management 中的必填字段。 因此，执行同步之前，Field Service 中的该字段必须有值。 为了满足此要求，添加了以下逻辑：
+**发票日期** 是 Supply Chain Management 中的必填字段。 因此，执行同步之前，Field Service 中的这一列必须有值。 为了满足此要求，添加了以下逻辑：
 
-- 如果 **发票** 实体的 **发票日期** 字段为空（即无值），将把该字段设置为添加源自协议的发票时的当前日期。
-- 用户可更改 **发票日期** 字段。 但是，用户尝试保存源自协议的发票时，如果发票的 **发票日期** 字段为空，将出现业务流程错误。
+- 如果 **发票** 表的 **发票日期** 列为空（即无值），将把该字段设置为添加源自协议的发票时的当前日期。
+- 用户可更改 **发票日期** 列。 但是，用户尝试保存源自协议的发票时，如果发票的 **发票日期** 列为空，将出现业务流程错误。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
@@ -103,8 +100,11 @@ ms.locfileid: "4528237"
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>协议发票（Field Service 到 Supply Chain Management）：发票头
 
-[![数据集成中的模板映射](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![发票标头的数据集成中的模板映射。](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>协议发票（Field Service 到 Supply Chain Management）：发票行
 
-[![数据集成中的模板映射](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![发票行的数据集成中的模板映射。](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

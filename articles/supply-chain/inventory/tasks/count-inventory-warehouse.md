@@ -2,27 +2,24 @@
 title: 盘点仓库中的库存
 description: 本主题介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34013783bab79d80f1dac9a7806042608635e617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24b8bc2daff2d7df6279c76f4d9a0e83244c7988
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423265"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834041"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
@@ -56,3 +53,6 @@ ms.locfileid: "4423265"
 1. 选择 **库存**。
 2. 选择 **交易记录**。 在这里，您可以查看过帐库存盘点日记帐时创建的所有相关交易记录。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: abd48482d567a427389c1feeb1142eba85ee8ab1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260327"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 
@@ -82,3 +81,6 @@ ms.locfileid: "4423125"
     - 已贷记返利应计帐款，以表示客户的将来负债。
     - 已借记返利支出帐款，以识别销售产生的成本。   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

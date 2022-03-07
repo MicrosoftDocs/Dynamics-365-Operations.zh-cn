@@ -1,12 +1,10 @@
 ---
 title: 登记消耗
 description: 本主题介绍如何在资产管理中登记消耗。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765565"
 ---
 # <a name="register-consumption"></a>登记消耗
 
@@ -56,7 +54,7 @@ ms.locfileid: "5020772"
 
 下面的屏幕截图显示 **工作订单日记帐** 中工作订单的工时和物料登记的示例。
 
-![图 1](media/01-consumption.png)
+![图 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>拆分具有多个工作订单作业的工作订单
@@ -75,13 +73,13 @@ ms.locfileid: "5020772"
 
 6. 在 **工时** 字段中插入要拆分的工时数量。
 
-    ![图 2](media/02-consumption.png)
+    ![图 2.](media/02-consumption.png)
 
 7. 单击 **确定**。
 
 *示例：* 在下面的屏幕截图中，显示了其中包含三个工作订单作业的工作订单的日记帐行。 已拆分第一个行（其中包含三个工时），并为每个工作订单作业登记了一个工时。 创建这三个工时登记行之后，您可以决定如何处理原始工时登记行（此示例中为第一个行）。 可以将其保留原样或删除。 
 
-![图 3](media/03-consumption.png)
+![图 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>消耗登记的财务维度
 
@@ -94,3 +92,6 @@ ms.locfileid: "5020772"
 >[!NOTE]
 >对于所有三种登记类型，都将验证财务维度组合，并且无效组合将为空。 这是其他 Finance and Operations 应用的标准设置。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

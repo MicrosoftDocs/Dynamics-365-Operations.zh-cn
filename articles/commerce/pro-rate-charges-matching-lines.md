@@ -2,16 +2,13 @@
 title: 将抬头费用按比例分配给匹配的销售行
 description: 本主题介绍通过使用高级自动费用功能为商业渠道订单计算和应用自动费用的附加功能。
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774501"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
 
@@ -33,7 +30,7 @@ ms.locfileid: "4410360"
 
 本主题介绍组合抬头级别自动费用并将其按比例分配给商业销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
 
-仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
+仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
 
 这项新功能可以提高组织在计算抬头级别费用并应用于销售交易记录时的灵活性。
 
@@ -41,7 +38,7 @@ ms.locfileid: "4410360"
 
 例如，为交货方式 **99** 和 **11** 定义了抬头级别自动费用。 创建了一个销售订单，并在订单抬头定义了交货方式 **99**。 但是，设置了一些销售行，以便使用交货方式 **11** 为其发货。 在此情况下，将仅考虑链接到交货方式 **99** 的抬头级别费用，并将这些费用应用于该销售订单。
 
-在 Commerce 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
+在 Commerce 中，抬头级别费用还有一项功能，用于定义基于订单值的[分层费用配置](/dynamics365/unified-operations/retail/configure-call-center-delivery)。 例如，如果订单值介于 $50.00 与 $200.00 之间，组织可能希望收取 $5.00 的运费。 但是，如果订单值介于 $200.01 与 $500.00 之间，运费可能为 $4.00。
 
 某些组织可能希望享受抬头级别费用的分层费用计算优势。 但是，如果涉及混合交货方式，他们也希望确保基于每个销售行中定义的交货方式的匹配项计算费用。
 
@@ -59,9 +56,9 @@ ms.locfileid: "4410360"
 
 在此方案中，组织为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 没有为交货方式 **21** 配置自动费用。
 
-![关闭了匹配行按比例分配时交货方式 99 的自动费用](media/99_disabled.png)
+![关闭了匹配行按比例分配时交货方式 99 的自动费用。](media/99_disabled.png)
 
-![关闭了匹配行按比例分配时交货方式 11 的自动费用](media/11_disabled.png)
+![关闭了匹配行按比例分配时交货方式 11 的自动费用。](media/11_disabled.png)
 
 在呼叫中心创建一个销售订单，并将交货方式设置为 **99**。 此订单中包含五个项。 已将两个订单号配置为使用交货方式 **99**，将两个行配置为使用交货方式 **11**，将一个行配置为使用交货方式 **21**，如下表中所示。
 
@@ -75,15 +72,15 @@ ms.locfileid: "4410360"
 
 在此方案中，将使用交货方式 **99** 针对自动费用表计算整个订单。 将使用所有订单行的全部总计确定自动费用配置中的匹配层，并在订单抬头级别应用此费用。 在此示例中，订单总计为 $165.00，并为订单抬头应用 $15.00 的运费。 始终不会引用或应用为交货方式 **11** 配置的自动费用。
 
-在此方案中，如果一个客户退还了订单中的部分项，并且[已经为了退款配置了费用代码](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2)，将把抬头级别费用总计系统性地应用于退款，即使只有部分项退货也不例外。
+在此方案中，如果一个客户退还了订单中的部分项，并且[已经为了退款配置了费用代码](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2)，将把抬头级别费用总计系统性地应用于退款，即使只有部分项退货也不例外。
 
 ### <a name="scenario-2"></a>方案 2
 
 在此方案中，为交货方式关系 **99** 和 **11** 定义了抬头级别费用。 但是，为这些自动费用表把 **按比例分配给匹配的销售行** 选项设置为 **是**。
 
-![开启了匹配行按比例分配时交货方式 99 的自动费用](media/99_enabled.png)
+![打开了匹配行按比例分配时交货方式 99 的自动费用。](media/99_enabled.png)
 
-![开启了匹配行按比例分配时交货方式 11 的自动费用](media/11_enabled.png)
+![打开了匹配行按比例分配时交货方式 11 的自动费用。](media/11_enabled.png)
 
 此方案使用同一个包含五个行的销售订单。 订单抬头中的交货方式设置为 **99**，但是销售订单中各项的交货方式配置如下表。
 
@@ -133,9 +130,9 @@ ms.locfileid: "4410360"
     - 产品值总和 = $15
     - **费用值 = $0**（尚未为客户和交货方式的此组合配置任何自动费用。）
 
-    ![交货方式 11 费用在突出显示的层中](media/step2mode11.png)
+    ![交货方式 11 费用在突出显示的层中。](media/step2mode11.png)
 
-    ![交货方式 99 费用在突出显示的层中](media/step2mode99.png)
+    ![交货方式 99 费用在突出显示的层中。](media/step2mode99.png)
 
 3. 系统基于按比例分配逻辑（这种逻辑将考虑与组的产品值总和有关的行的按比例分配值）计算将为每个行应用的费用值。
 
@@ -166,7 +163,7 @@ ms.locfileid: "4410360"
 
 因此，对于此示例，将为项 81334 分配 $5.62 的运费。 可在销售行的 **维护费用** 页面中查看这些费用。 下图显示项 81334 的此页面的显示效果。
 
-![项 81334 的销售行的按比例分配费用](media/proratedlinecharge.png)
+![物料 81334 的销售行的按比例分配费用。](media/proratedlinecharge.png)
 
 如果在部分退货方案中使用这种计算方法，并且费用代码为可退款，则该项退货时仅为分配给该行的那部分费用退款。
 
@@ -175,3 +172,6 @@ ms.locfileid: "4410360"
 [全渠道高级自动费用](omni-auto-charges.md)
 
 [按渠道启用和配置自动费用](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

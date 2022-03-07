@@ -1,12 +1,10 @@
 ---
 title: 维护请求类型
 description: 本主题说明如何在资产管理中设置维护请求类型。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56a83457097b64d195eec53000b29b2f16251772
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 125a4efda6fe8e9e65e2a0c166355235727e6cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356432"
 ---
 # <a name="maintenance-request-types"></a>维护请求类型
 
@@ -43,4 +41,7 @@ ms.locfileid: "5019321"
 
 下图显示 **维护请求类型** 页的示例。
 
-![维护请求类型页面](media/07-setup-for-requests.png)
+![维护请求类型页面。](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

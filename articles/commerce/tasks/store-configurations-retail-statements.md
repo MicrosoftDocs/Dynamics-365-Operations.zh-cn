@@ -2,27 +2,24 @@
 title: 零售报表的商店配置
 description: 此程序会逐步演示商店的配置（这会影响到如何创建和过帐商业报表）。
 author: jashanno
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: da862af25df241ad42b7e1ade3fdca19f6280278
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410639"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804105"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
@@ -49,3 +46,6 @@ ms.locfileid: "4410639"
 17. 在 **按报表拆分方法** 中选择“是”，以为定义的每种报表方法创建报表。 如果需要为交易数量高的商店提高过帐性能，此操作可能很有用，因为它将创建许多可并行处理的较小的报表。  
 18. 在 **常规** 快速选项卡的 **默认客户** 字段中，您可以选择客户帐户，以用于上门客户的销售。  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

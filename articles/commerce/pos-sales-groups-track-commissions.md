@@ -2,15 +2,12 @@
 title: 使用销售组跟踪销售点 (POS) 中的佣金
 description: 零售业中经常由与客户打交道的销售员跟踪销售 — 提供协助、追加销售、交叉销售和处理交易记录。
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770901"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>使用销售组跟踪销售点 (POS) 中的佣金
 
@@ -72,7 +69,7 @@ ms.locfileid: "4410371"
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>在 POS 交易记录屏幕中显示销售代表信息
 
-可使用屏幕布局设计器和为商店、收银机或工作人员指定的屏幕布局配置 POS 交易记录屏幕布局和内容。可将 **销售代表** 字段添加到“收据”窗格的“行”选项卡。这将为交易记录屏幕中的各行显示指定销售组的 ID。
+可使用屏幕布局设计器和为商店、收银机或工作人员指定的屏幕布局配置 POS 交易记录屏幕布局和内容。 可将 **销售代表** 字段添加到“收据”窗格的“行”选项卡。  这将为交易记录屏幕中的各行显示指定销售组的 ID。
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>向 POS 按钮网格添加销售代表操作
 
@@ -80,11 +77,14 @@ POS 允许用户配置按钮网格，按钮网格包含在屏幕布局中，用�
 
 | 工序                                 | 说明 |
 |-------------------------------------------|-------------|
-| 设置行上的销售代表          | 此 POS 操作显示符合商店条件的销售组（ID：名称）的列表。从此列表中选择一个销售组将在当前交易记录行中设置值。 |
+| 设置行上的销售代表          | 此 POS 操作显示符合商店条件的销售组（ID：名称）的列表。 从此列表中选择一个销售组将在当前交易记录行中设置值。 |
 | 清除行上的销售代表        | 此 POS 操作从当前交易记录行删除当前销售组值。 |
-| 设置交易记录上的销售代表   | 此 POS 操作显示符合商店条件的销售组（ID：名称）的列表。从此列表中选择一个销售组将在当前交易记录中设置默认值。 将设置未为其分配销售组的任何现有行，以及以后添加的任何行。 |
+| 设置交易记录上的销售代表   | 此 POS 操作显示符合商店条件的销售组（ID：名称）的列表。 从此列表中选择一个销售组将在当前交易记录中设置默认值。 将设置未为其分配销售组的任何现有行，以及以后添加的任何行。 |
 | 清除交易记录上的销售代表 | 此 POS 操作从当前交易记录删除当前默认销售组值。 不影响交易记录中已有的任何行。 |
 
 ## <a name="calculating-commissions"></a>计算佣金
 
-对账单过帐或销售订单过帐时，将为指定销售组中的工作人员计算佣金。将根据交易记录中客户和/或产品的销售组和关联佣金计算设置中定义的工作人员佣金份额，确定佣金金额。
+对账单过帐或销售订单过帐时，将为指定销售组中的工作人员计算佣金。 将根据交易记录中客户和/或产品的销售组和关联佣金计算设置中定义的工作人员佣金份额，确定佣金金额。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

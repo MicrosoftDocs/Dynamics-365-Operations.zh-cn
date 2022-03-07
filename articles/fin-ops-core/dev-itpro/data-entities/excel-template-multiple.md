@@ -1,7 +1,8 @@
 ---
 title: 带有多个工作表的数据模板
 description: 此主题介绍如何使用 Excel 数据实体模板将数据导入 Finance and Operations。
-author: peakerbl
+author: Sunil-Garg
+manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
@@ -11,22 +12,19 @@ ms.reviewer: sericks
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 64515ff74c0ca2b01bb9dac06331ba0424811411
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070053"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565563"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>带有多个工作表的数据模板
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 应用程序中的数据管理支持基于 Microsoft Excel 的数据实体模板。 这些模板可能包含一个或多个工作表。 使用包含多个工作表的模板通常是为了方便在一个文件中管理数据并将其导入到多个数据实体中。 例如站点和仓库。
 
@@ -35,13 +33,13 @@ ms.locfileid: "8070053"
 
 如果您在不离开 **添加文件** 窗体的情况下添加第二个实体 **仓库**，您可以通过工作表查找功能选择 **仓库** 工作表，无需再一次上传文件。 若要上传新文件，唯一的原因是 **仓库** 数据位于不同的文件中。
 
-![多个工作表。](./media/AddFileMultipleWorkSheets.png)
+![多个工作表](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>将工作表固定到实体映射
 
 可以从网格固定在导入作业中将工作表映射到数据实体。 网格中的 **工作表** 列显示进行映射的文件的工作表。 您可以从下拉菜单中选择不同的工作表。 如果选中的工作表已经映射到数据项目中的实体，系统将要求您确认更改。 我们建议您固定网格中的所有映射。
 
-![更新工作表映射。](./media/UpdateMappings.png)
+![更新工作表映射](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>重新映射到新文件
 

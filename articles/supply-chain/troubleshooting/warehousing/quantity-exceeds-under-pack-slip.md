@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760290"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>在装箱单生成期间数量超过欠交百分比
 
@@ -49,8 +49,8 @@ ms.locfileid: "7920690"
 
 1. 转到 **应收帐款 \> 订单 \> 所有订单**。
 1. 选择无法为其过帐负荷的装箱单的销售订单。
-1. 在 **销售订单行** 选项卡上，为超过欠交百分比的物料选择销售订单行。
-1. 在 **行详细信息** 选项卡上，选择 **交货**。
+1. 在 **销售订单行** 选项卡上，为超过欠交百分比的物料选择销售订单行。
+1. 在  **行详细信息** 选项卡上，选择 **交货**。
 1. 将 **欠交** 字段设置为可接受根据负荷数量领料的数量的更大百分比，以便可以继续生成装箱单。
 
 ### <a name="reverse-and-make-adjustments"></a>冲销并进行调整
@@ -60,14 +60,14 @@ ms.locfileid: "7920690"
 使用以下过程取消装箱单。
 
 1. 转到 **仓库管理 \> 负荷 \> 所有负荷**。
-1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **取消装箱单**。
+1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **取消装箱单**。
 
 使用以下过程冲销装运确认。
 
 1. 转到 **仓库管理 \> 负荷 \> 所有负荷**。
-1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
+1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
 
 使用以下过程来冲销工作。
 
 1. 转到 **仓库管理 \> 负荷 \> 所有负荷**。
-1. 在操作窗格上的 **负荷** 选项卡上，在 **工作** 组中，选择 **冲销工作**。
+1. 在操作窗格上的 **负荷** 选项卡上，在 **工作** 组中，选择 **冲销工作**。

@@ -2,11 +2,9 @@
 title: 过帐普通日记帐的凭证
 description: 此过程逐步演示如何使用普通日记帐过帐中国式凭证。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransDimension, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ee24307e65b16b41f03dc2431e06788fd52058c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 104d3a33c4710a911b679e7821c5fe8f0fcfe52839f77d277376e76932e1eaf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770494"
 ---
 # <a name="post-vouchers-from-the-general-journal"></a>过帐普通日记帐的凭证
 
@@ -58,3 +56,6 @@ ms.locfileid: "4968280"
 23. 选中“打印科目维度”复选框。
 24. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

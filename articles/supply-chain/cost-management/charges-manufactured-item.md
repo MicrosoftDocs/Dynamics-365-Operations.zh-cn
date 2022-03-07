@@ -2,16 +2,13 @@
 title: 显示制造物料的费用
 description: 制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。
 author: AndersGirke
-manager: tfehr
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 274483
 ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: c5e0175e5743c800d8f04723d03ae503cff3a67a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d65e3c4220c05d143d57413749ef805fd58dcf08
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423201"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813259"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>显示制造物料的费用
 
@@ -40,3 +37,6 @@ ms.locfileid: "4423201"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

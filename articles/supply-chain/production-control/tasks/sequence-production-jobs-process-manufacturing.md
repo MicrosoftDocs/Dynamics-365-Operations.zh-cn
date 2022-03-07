@@ -1,27 +1,24 @@
 ---
 title: 对流程制造的生产作业排序
 description: 此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db2c881f60b6e5251e2bcdf198da9e1c9f39a0e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e54cfa60fa9efd511aef8c074484b9b1a738e8cb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422956"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572737"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 
@@ -71,3 +68,6 @@ ms.locfileid: "4422956"
 8. 使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。
     * 请注意，订单现在根据颜色和尺寸的优先级排序，计划订单从最早订单日期和交货日期开始。 验证“计划详细信息”速见表中的订单日期列或开始日期。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

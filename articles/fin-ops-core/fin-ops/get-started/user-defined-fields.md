@@ -2,11 +2,9 @@
 title: 创建并使用自定义字段
 description: 本主题介绍如何通过用户界面创建自定义字段以根据业务调整应用程序。
 author: jasongre
-manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -15,20 +13,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798109"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071177"
 ---
 # <a name="create-and-work-with-custom-fields"></a>创建并使用自定义字段
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 尽管有大量的现成字段来管理各种业务流程，公司有时也需要跟踪系统中的更多信息。 虽然可以让程序员使用开发者工具将这些字段添加为扩展，自定义字段功能允许直接从用户界面添加字段，从而让您可以使用 Web 浏览器针对自己的业务调整应用程序。
 
-添加自定义字段功能将在平台更新 13 及以后提供。 只有具有特殊权限的用户才能访问此功能。
+*只有具有特殊权限的用户才能访问此功能。*
 
 本视频体现了向页面添加自定义字段有多简单：[添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)。
 
@@ -48,8 +49,9 @@ ms.locfileid: "4798109"
     如果未看到 **创建新字段** 按钮，说明您无权使用此功能。
 
 7. 在 **创建新字段** 对话框中，输入以下信息。
-
+   
     1. 选择应在其中添加此字段的数据库表。 请注意，此下拉列表中仅显示支持自定义字段的表。 有关支持的表的技术细节，请参阅下面的章节。
+
     2. 选择新字段的数据类型。 可用数据类型为复选框、日期、日期时间、小数、数字、选择列表和文本。
 
         - 如果选择文本数据类型，还可以指定此字段中可输入的最大文本长度。
@@ -62,11 +64,15 @@ ms.locfileid: "4798109"
 10. 单击 **插入** 将标记的字段插入窗体中的所选区域。
 11. **可选：** 从个性化工具栏启用 **移动** 模式，以便将新字段移动到所选区域中的所需位置。 有关如何使用各种个性化功能针对个人使用优化窗体的详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。
 
+> [!WARNING]
+> 在添加到页面的自定义字段中输入值的功能依赖于与该自定义字段关联的表是可编辑的还是只读的。 当关联的表是只读时，链接到该表的所有字段（包括任何自定义字段）也将是只读的。
+
+
 ## <a name="sharing-custom-fields-with-other-users"></a>与其他用户共享自定义字段
 
-创建自定义字段并在窗体中显示之后，可能需要将这个更新后的页面视图（包括新字段）共享给系统中的其他用户。 可使用本产品的个性化功能以两种不同的方法达到此目的：
+创建自定义字段并在页面上显示之后，可能需要将这个更新后的页面视图（包括新字段）共享给系统中的其他用户。 可使用本产品的个性化功能以两种不同的方法达到此目的：
 
-- 建议的方法是通过系统管理员，因为系统管理员可以将个性化设置推送给所有用户或一小部分用户。 有关更多详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。
+- 推荐的路线是 **发布一个[已保存视图](saved-views.md)**，并为适当的用户集将自定义字段添加到页面中。 如果未启用已保存视图功能，系统管理员可以从“个性化”窗体将个性化应用于所需的用户。 有关详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。
 - 也可以导出更改（称为 *个性化设置*），将其发送给一位或多位用户，然后请这些用户分别导入您的更改。 可使用个性化工具栏上的 **管理** 选项导出和导入个性化设置。
 
 ## <a name="managing-custom-fields"></a>管理自定义字段
@@ -137,6 +143,10 @@ ms.locfileid: "4798109"
 
 ## <a name="appendix"></a>附录
 
+### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>为什么我不能在自定义字段中输入值？ 
+
+如果在页面处于“编辑”模式时无法在自定义字段中键入值，可能是因为添加了该字段的表当前是只读的。 如果后备表当前在页面上被配置为只读，表中的所有字段都将变为只读。   
+
 ### <a name="who-can-create-custom-fields"></a>谁可以创建自定义字段？
 
 默认情况下，只有系统管理员这样的系统安全卫士才能创建自定义字段。 但是，系统管理员可使用 **运行时自定义高级用户** 安全角色为组织认为有必要拥有创建自定义字段的权限的高级用户提供该权限。 不具有此安全角色的用户不能创建自定义字段，但是仍然可以查看系统中其他用户添加的自定义字段和与之交互。
@@ -162,3 +172,6 @@ ms.locfileid: "4798109"
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>是否可以从开发者工具引用自定义字段？  
 
 自定义字段只能通过用户界面管理，不能通过代码引用。 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

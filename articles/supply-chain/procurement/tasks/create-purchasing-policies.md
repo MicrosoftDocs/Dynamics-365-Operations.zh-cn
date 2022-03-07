@@ -1,26 +1,24 @@
 ---
 title: 创建采购策略
 description: 本主题显示如何创建与您的采购业务流程一致的采购政策。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ffdff4cdb256fdae39de6228555da5fb88c707
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017026"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579488"
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 
@@ -56,3 +54,6 @@ ms.locfileid: "5017026"
 4. 选择 **关闭**。
 - 现在可为采购政策设置其他政策规则。 请注意，政策规则类型不能有在一个采购政策内同时有效的重叠规则。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: POS 中的出站库存操作
 description: 此主题介绍销售点 (POS) 出站库存操作的功能。
 author: hhaines
-manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +16,14 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410372"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581129"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>POS 中的出站库存操作
+# <a name="outbound-inventory-operation-in-pos"></a>POS 中的传出库存操作
 
 [!include [banner](includes/banner.md)]
 
@@ -74,7 +71,7 @@ ms.locfileid: "4410372"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>先决条件：向 POS 屏幕布局添加出站操作
 
-组织必须在一个或多个 [POS 屏幕布局](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **出站操作** POS 操作，才能使用出站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
+组织必须在一个或多个 [POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts)中配置 **出站操作** POS 操作，才能使用出站操作功能。 在生产环境中部署新操作之前，确保彻底测试该操作，并为用户培训使用方法。
 
 ## <a name="overview"></a>概览
 
@@ -119,7 +116,7 @@ POS 用户可通过出站操作执行以下任务：
 
 ### <a name="over-delivery-shipping-validations"></a>超交装运验证
 
-单据行的接收流程中执行验证。 其中包括超交验证。 如果用户尝试接收的库存比采购订单中订购的多，但是未配置超交，或接收的数量超过了为采购订单行配置的超交容差，用户将收到错误，并且不能接收超额数量。
+单据行的履行流程中执行验证。 其中包括超交验证。 如果用户尝试装运的库存比转移单中订购的多，但是未配置超交，或装运的数量超过了为转移单行配置的超交容差，用户将收到错误，并且不能装运超额数量。
 
 ### <a name="underdelivery-close-lines"></a>欠交结束行
 
@@ -193,3 +190,6 @@ POS 用户可通过出站操作执行以下任务：
 ## <a name="related-topics"></a>相关主题
 
 [POS 中的入站库存操作](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

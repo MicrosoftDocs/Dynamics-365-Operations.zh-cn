@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 8 日）
 description: 此主题介绍了 2020 年 7 月 8 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 9715f332088b7b5340f4252af5f789d226d90ff2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528465"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463590"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 7 月 8 日）
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -71,9 +73,9 @@ ms.locfileid: "4528465"
 
 此版本更正了当您使用 **雇用并添加详细信息** 选项雇用员工时，简化的员工输入中出现的错误（空引用）。
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service“工作人员”实体中所作的更改不反映在 Human Resources 中 (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse“工作人员”实体中所作的更改不反映在 Human Resources 中 (455652)
 
-现在，在 Common Data Service 中对 **工作人员** 实体中的以下字段进行的更改将显示在 Human Resources 中：
+现在，在 Dataverse 中对 **工作人员** 实体中的以下字段进行的更改将显示在 Human Resources 中：
 
 - **在家办公**
 - **受聘日期**
@@ -131,9 +133,9 @@ DMF 实体现在可用于暂停应计。
 
 ## <a name="coming-soon"></a>即将到期
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service 中包含的核对清单实体
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse 中包含的核对清单实体
 
-Common Data Service 内很快将为入职、离职、转移和业务流程提供核对清单实体。
+Dataverse 内很快将为入职、离职、转移和业务流程提供核对清单实体。
 
 ## <a name="see-also"></a>请参阅
 
@@ -141,3 +143,6 @@ Common Data Service 内很快将为入职、离职、转移和业务流程提供
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

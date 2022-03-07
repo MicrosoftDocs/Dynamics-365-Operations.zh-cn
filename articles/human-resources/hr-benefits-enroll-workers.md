@@ -2,7 +2,7 @@
 title: 登记和删除工作人员的福利
 description: 该过程演示了如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等级多个工作人员。
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cb56d11cb3acd1e8e39765284269234fc632f17f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417376"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465094"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>登记和删除工作人员的福利
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -58,3 +60,6 @@ ms.locfileid: "4417376"
 14. 在列表中，单击所选行中的链接。
 15. 您可以在此页查看哪些员工已登记此福利，哪些员工未登记。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

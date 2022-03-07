@@ -2,16 +2,13 @@
 title: 库存管理概览
 description: 本主题提供库存管理的概览。
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809558"
 ---
 # <a name="inventory-management-overview"></a>库存管理概览
 
@@ -58,3 +55,6 @@ ms.locfileid: "4422758"
 
 ### <a name="task-guides"></a>任务指南
 其他帮助作为任务指南提供。 若要访问任务指南，请单击任何页面上的 **帮助** 按钮
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

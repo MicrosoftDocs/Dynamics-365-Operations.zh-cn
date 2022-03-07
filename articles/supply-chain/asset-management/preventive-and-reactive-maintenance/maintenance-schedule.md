@@ -1,12 +1,10 @@
 ---
 title: 维护安排
 description: 本主题介绍资产管理中的维护安排。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCalendarCreateWO, EntAssetObjectCalendarListPagePoolsOpen, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePreviewPart, EntAssetObjectCalendarEdit, EntAssetObjectCalendarAdjust, EntAssetObjectCalendarDiscard, EntAssetObjectCalendarInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d235a3797b1acee9c92c3d81e8b4a20e1f7c5c75
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 40df8e6cba824f90e13b46cc258c76bef993a3e2dd9c35566d8c6a622ce4eb09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738311"
 ---
 # <a name="maintenance-schedule"></a>维护安排
 
@@ -65,5 +63,8 @@ ms.locfileid: "5017939"
 
 下图显示 **所有维护安排** 列表页。
 
-![图 1](media/16-preventive-maintenance.png)
+![图 1.](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,24 @@
 ---
 title: 集成的分类帐
 description: 本主题介绍使用 Dataverse 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
-author: robinarh
-manager: AnnBe
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.author: tfehr
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681634"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063639"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -39,52 +28,20 @@ ms.locfileid: "4681634"
 
 分类帐数据包括核心财务表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-Finance and Operations 应用      | Dynamics 365 中的模型驱动应用 | 说明
+Finance and Operations 应用 | 客户互动应用     | 说明
 ---------------------------------|----------------------------------|------------
-币种                       | transactioncurrencies            |
-FiscalCalendar                   | msdyn\_fiscalcalendars        |
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
-ExchRateType                     | msdyn\_exchangeratetypes        |
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
-MainAccountCategory              | msdyn\_mainaccountcategory        |
-主科目                      | msdyn\_mainaccounts        |
-分类帐                           | msdyn\_ledgers        |
-ExchangeRates                    | msdyn\_currencyexchangerates        |
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
-DimensionAttributeEntity         | msdyn\_dimensionattributes        |
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
-LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
+[CDS 汇率](mapping-reference.md#123) | msdyn_currencyexchangerates |
+[会计帐户表](mapping-reference.md#121) | msdyn_chartofaccountses |
+[币种](mapping-reference.md#218) | transactioncurrencies |
+[汇率币种对](mapping-reference.md#122) | msdyn_currencyexchangeratepairs |
+[汇率类型](mapping-reference.md#129) | msdyn_exchangeratetypes |
+[财务维度格式](mapping-reference.md#130) | msdyn_financialdimensionformats |
+[财务维度](mapping-reference.md#128) | msdyn_dimensionattributes |
+[会计日历集成实体](mapping-reference.md#132) | msdyn_fiscalcalendars |
+[会计日历期间](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
+[会计日历年度集成实体](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
+[总帐](mapping-reference.md#148) | msdyn_ledgers |
+[主帐户](mapping-reference.md#152) | msdyn_mainaccounts |
+[主帐户类别](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/Currencies-transactioncurrencies.md)]
-
-[!include [Fiscal calendar](includes/FiscalCalendar-msdyn-fiscalcalendars.md)]
-
-[!include [Fiscal calendar year](includes/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
-
-[!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
-
-[!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
-
-[!include [Main account](includes/MainAccount-msdyn-mainaccounts.md)]
-
-[!include [Ledger](includes/Ledger-msdyn-ledgers.md)]
-
-[!include [Exchange rates](includes/ExchangeRates-msdyn-currencyexchangerates.md)]
-
-[!include [Financial Calendar Period](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
-
-[!include [Dimension attribute](includes/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
-
-[!include [Dimension integration format](includes/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
-
-[!include [Chart Of Account](includes/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
-
-
-
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778149"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678827"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22（2021 年 11 月）中的新增功能或更改
 
@@ -39,8 +39,9 @@ ms.locfileid: "7778149"
 
 下表列出了此版本中包含的功能增强。 这些增强每一项都提供了对现有功能的渐进性改进。 由于它们仅是功能增强，因此未列在[发布计划](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)中。 但是，为确保这些功能增强不会与您现有的自定义或首选项冲突，默认情况下，每项增强均处于关闭状态（除非另有说明）。 如果要使用这些功能中的任何一个，您必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中明确启用。
 
-| 模块 | 功能管理中的功能名称 | 更多信息… |
+| 模块 | 功能管理中的功能名称 | 更多信息 |
 |---|---|---|
+| 成本管理 | 为标准成本舍入评估创建相关凭证 | <p>在创建库存财务过帐（如销售订单发票或库存交易记录）时，此功能会导致系统为任何相关标准成本舍入重估创建单独的凭证，然后将其作为相关凭证附加到该财务过帐凭证。</p><p>如果没有此功能，系统将记录将标准成本舍入重估记录到同一个凭证过帐中。 该行为有时可能导致日期信息冲突，因为重估使用会话日期或系统日期，而财务过帐则使用过帐日期。</p> |
 | 分布式混合拓扑 | *（无需功能管理。）* | <p>此版本扩展云和边缘缩放单元的仓库管理工作负荷出站负荷计划功能。</p><p>有关详细信息，请参阅 [Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷](../cloud-edge/cloud-edge-workload-warehousing.md)。</p> |
 | 工程更改管理 | 生成工程产品的变型 | <p>利用此功能，您可以根据工程产品的颜色、尺寸、样式或配置维度为工程产品生成多个变型。</p><p>有关详细信息，请参阅[生成工程产品的变型](../engineering-change-management/engineering-variants.md)。</p> |
 | 库存和仓库管理 | 库存可见性与预留抵销的集成 | <p>仅在启用 *库存可见性集成* 功能后才能 启用此功能。 其还可用于抵销对库存可见性进行的预留。</p><p>有关详细信息，请参阅[库存可见性预留](../inventory/inventory-visibility-reservations.md)。</p> |

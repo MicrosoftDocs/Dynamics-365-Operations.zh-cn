@@ -3,6 +3,7 @@ title: WHERE ER 函数
 description: 本主题提供有关 WHERE 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd021381e04e8794a5668041dbd71e5c981577a19141581fdde078a9d5801f49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bdf5c658fda83399c7bcffeaaf07005164c53f8a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756445"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745489"
 ---
 # <a name="where-er-function"></a>WHERE ER 函数
 

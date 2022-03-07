@@ -2,28 +2,25 @@
 title: “源”字段中的销售税计算方法
 description: 本文说明销售税代码页上“来源”字段中的选项，以及如何基于销售税代码的所选选项计算销售税。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769738"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>“源”字段中的销售税计算方法
 
@@ -55,8 +52,7 @@ ms.locfileid: "4440762"
 | 仅原始金额 = 总额百分比的一个税务代码可以用于交易记录。 如果多个此类税码为交易记录确定，错误将显示销售税不能计算。 |
 
 
-<a name="percentage-of-sales-tax"></a>销售税百分比
------------------------
+## <a name="percentage-of-sales-tax"></a>销售税百分比
 
 当您在“原始金额”字段中选择了“销售税百分比”时，将按照“税上税”字段中选择的增值税的百分比计算增值税。 首先计算在“税上税”字段中选择的增值税。 然后基于第一个增值税金额计算第二个增值税。
 ### <a name="example"></a>示例
@@ -122,8 +118,7 @@ SALESTAX：原始金额 = 净额百分比 为 DUTY 计算选择“在征收销�
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [基于“边际基数”和“计算方法”的销售税比率](marginal-base-field.md)
 
@@ -131,3 +126,6 @@ SALESTAX：原始金额 = 净额百分比 为 DUTY 计算选择“在征收销�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

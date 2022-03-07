@@ -1,21 +1,21 @@
 ---
 title: 为 Warehouse Management 移动应用分配步骤图标和标题
 description: 本主题介绍如何为 Warehouse Management 移动应用的新任务流或自定义任务流分配步骤图标和标题。
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d1d595e7f8ae3cf344c891844845738a4592328eecc326f11e9a2aa0e303785a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733340"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用分配步骤图标和标题
 
@@ -27,9 +27,12 @@ ms.locfileid: "8103305"
 
 ![Warehouse Management 移动应用中步骤图标和步骤标题的示例。](media/step-icon-example.png "Warehouse Management 移动应用中步骤图标和步骤标题的示例")
 
-## <a name="turn-this-feature-on-or-off"></a>打开或关闭此功能
+## <a name="turn-on-this-feature-in-your-system"></a>在系统中开启此功能
 
-要使用本主题介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
+此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置以检查功能状态和打开功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+
+- **模块**：*仓库管理*
+- **功能名称**：*新仓库应用的用户设置、图标和步骤标题*
 
 ## <a name="standard-step-ids-classes-and-icons"></a>标准步骤 ID、类和图标
 

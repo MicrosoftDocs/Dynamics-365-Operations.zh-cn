@@ -2,27 +2,24 @@
 title: 设置中心附属费用和附属主数据
 description: 此过程显示如何为中心创建附属主数据，并使用主数据来创建中心附加费。
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: e67992c9e744b6337cf4921e06cc7886dead8021102d263022f67940c3e7669b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720124"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>设置中心附属费用和附属主数据
 
@@ -54,3 +51,6 @@ ms.locfileid: "4423459"
 9. 单击“保存”。
 10. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

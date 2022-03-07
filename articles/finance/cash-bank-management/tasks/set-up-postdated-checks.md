@@ -2,26 +2,23 @@
 title: 设置远期支票
 description: 本主题说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fc1798836d9b905d991adb4c87d55ddce41d260bdbfdad6bf0c4b4feb846ee57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743065"
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
@@ -54,6 +51,14 @@ ms.locfileid: "4440819"
     * 付款方法的抵消帐户将是银行。  
 17. 在“付款帐户”字段中，指定所需值。
     * 选择用于扣减发票金额的银行帐户。  
-18. 单击“保存”。
+18. 单击保存。
 19. 关闭该页面。
+> [!NOTE]
+> 要能够在会话日期晚于或等于到期日期时将远期支票过帐到银行帐户，您必须启用功能 **将带有远期支票的付款日记帐过帐到银行帐户的到期日期验证**。 当会话日期晚于或等于到期日期时，此功能让您可以过帐带有远期支票的供应商或客户的付款日记帐。
+> 
+> 设置 **付款方式**（**应付帐款 > 付款设置 >付款方式**）时，请勿填写 **过渡帐户**。 在这种情况下，抵销帐户将填充为 **付款方式** 中设置的银行帐户。
+>  
+> 启用此功能且会话日期早于到期日期时，过帐付款日记帐时将显示以下错误消息：“如果抵销帐户类型为‘银行’，到期日期必须早于或等于会话日期”。 如果未启用此功能，您可以在会话日期早于到期日期时过帐带有远期支票的付款日记帐。
+> 版本 10.0.21 或更高版本中提供此功能。    
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

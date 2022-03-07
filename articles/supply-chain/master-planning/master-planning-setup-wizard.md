@@ -1,17 +1,14 @@
 ---
-title: 主计划设置向导
-description: 此主题介绍用于设置主计划的各种重要策略和参数。
-author: t-benebo
-manager: tfehr
+title: 主计划设置向导（包含视频）
+description: 本主题介绍如何运行主计划设置向导以设置主计划。
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423128"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937625"
 ---
 # <a name="master-planning-setup-wizard"></a>主计划设置向导
 
@@ -48,13 +45,13 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 
 如果计算出的线程数超过可用线程数的 75%，则其超过每位客户的可用线程数的 75%。 （将为每个客户确定可用线程数。）
 
-有关详细信息，请参阅[线程数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)。
+有关详细信息，请参阅[线程数](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)。
 
 ### <a name="bundle-size"></a>捆绑大小
 
 捆绑大小将设置为 **1**。 此值通常为最佳值，因为有助于提高主计划的性能。
 
-有关详细信息，请参阅[帮助程序任务捆绑中的任务数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)。
+有关详细信息，请参阅[帮助程序任务捆绑中的任务数](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)。
 
 ### <a name="firming-bundle-size"></a>确认捆绑大小
 
@@ -67,7 +64,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 
 缓存大小将设置为 **最大值**。 此值通常为最佳值，因为有助于提高主计划的性能。
 
-有关详细信息，请参阅[为作业捆绑中的作业分配时间](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)。
+有关详细信息，请参阅[为作业捆绑中的作业分配时间](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)。
 
 ### <a name="manufacturing-setup"></a>制造设置
 
@@ -91,7 +88,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 - **是，按照此主计划中的定义** – **预测计划(时限)** 选项将设置为 **是**。 将使用您输入的天数，并且该天数将覆盖在覆盖范围组中设置的值。
 - **是，按照覆盖范围组中的定义** – **预测计划(时限)** 选项将设置为 **否**。
 
-有关详细信息，请参阅[作业级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
+有关详细信息，请参阅[作业级排产](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
 
 ## <a name="scheduling-options"></a>计划编制选项
 
@@ -102,7 +99,7 @@ YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/pla
 - **是** – 将使用作业级排产。
 - **否** – 将使用工序级排产。
 
-有关详细信息，请参阅[工序级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)和[作业级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
+有关详细信息，请参阅[工序级排产](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)和[作业级排产](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
 
 ## <a name="updates-of-demand-and-supply"></a>需求和供应的更新
 
@@ -209,3 +206,6 @@ Contoso Retailer 是时尚行业的一家分销公司。 该公司使用主计�
     - **回答**：“是，按照此主计划中的定义”。 输入了 **1 天**。
 
     Contoso 使用其商店的已审核申请创建计划采购订单来为这些商店补货。 因为每天运行主计划，所以计划中将包含前一天的申请。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: 运输管理编号规则
 description: 此主题介绍如何设置运输管理的编号规则。
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2c3f087ac76412cd2dce93dcb31b796ce2cb3bc4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: f3da757cbf47e0e1af781b720d17a673e19aeb3b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423462"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807672"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 
@@ -49,3 +46,6 @@ ms.locfileid: "4423462"
 1. 选择 **编辑**。
 1. 在 **概览** 快速选项卡上，在 **专业编号规则** 字段中选择一个选项。
 1. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e2e5340150623057e233ed0acf487c42c61deba2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222111"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -51,3 +50,6 @@ ms.locfileid: "4440759"
 16. 选择 **新建期间间隔**。 一旦输入第一个期间间隔，可自动创建新期间。 您可以返回和根据需要添加新期间间隔。  
 17. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

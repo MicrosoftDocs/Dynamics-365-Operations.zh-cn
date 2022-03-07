@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 72e36519a365c321ee8bf5972310240e18d29180
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4417533"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467573"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>准备 Human Resources 实行
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,28 +55,36 @@ ms.locfileid: "4417533"
 
 ## <a name="completing-the-lcs-methodology"></a>完成 LCS 方法
 
-每个实施项目中的重要里程碑都是到生产环境的直接转换。 
-
-为了帮助确保生产环境用于实时操作，在完成 LCS 方法中的所需活动后，Microsoft 仅在实施接近 **运行** 阶段时才预配生产实例。 有关您订阅中的环境的详细信息，请参阅  [Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544)。 
-
-客户必须完成 LCS 方法中的 **分析**、**设计和开发** 和 **测试** 阶段，用于请求生产环境的 **配置** 按钮才可用。 若要完成 LCS 中的某个阶段，您必须首先完成该阶段中的每个必需步骤。 完成阶段中的所有步骤后，您可以完成整个阶段。 如果必须进行更改，您可以在以后始终重新打开阶段。 有关详细信息，请参阅 [适用于 Finance and Operations 应用客户的 Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs)。 
-
-完成步骤的流程分为两个部分： 
+每个实施项目中的重要里程碑都是到生产环境的直接转换。 完成步骤的流程分为两个部分： 
 
 - 执行实际工作，例如填补差距分析或用户验收测试 (UAT)。 
 - 将 LCS 方法中的相应步骤标记为已完成。 
 
-合理的做法是在实施流程中完成方法中的步骤。 尽早完成工作。 不要仅仅单击所有步骤，以便获得生产环境。 进行可靠的实施符合客户的最大利益。 
+合理的做法是在实施流程中完成方法中的步骤。 尽早完成工作。 进行可靠的实施符合客户的最大利益。 
 
 ## <a name="uat-for-your-solution"></a>适用于您的解决方案的 UAT
 
 在 UAT 阶段，您必须在实施项目的沙盒环境中测试已实施的所有业务流程以及所做的任何自定义。 为了帮助确保成功实行，在完成 UAT 阶段时应考虑以下事项： 
 
+- 我们建议您的 UAT 流程从一个洁净的全新环境开始，您的 GOLD 配置中的数据将在 UAT 流程开始之前复制到该环境中。 我们建议您在实施前将此生产环境用作您的 GOLD 环境，实施时该环境将成为生产环境。
 - 测试用例涵盖整个需求范围。 
 - 使用迁移的数据进行测试。 此数据应包括主数据，例如工作人员、工作和职位。 还包括期初余额，例如休假和缺勤应计。 最后，包括未结交易，例如当前的福利登记。 即使未完成数据集，也可以使用所有类型的数据完成测试。 
 - 使用分配给用户的正确安全角色（默认角色和自定义角色）进行测试。 
 - 确保解决方案符合任何公司和行业特定的法规要求。 
 - 记录所有功能，并获得客户的审批和签核。 
+
+## <a name="mock-go-live"></a>模拟实施
+
+在实施之前，您必须执行模拟实施，来测试从旧系统直接转换到新系统所需的步骤。 您应该在沙盒环境中执行模拟实施，并将所有步骤包括在直接转换计划中。
+
+- 我们建议您在实施之前将生产环境用作 GOLD 配置环境。
+- 请确保您有一个强大的治理流程来保护生产环境，使其在实施之前免受意外交易或更新的影响。
+- 当您准备好执行 UAT 或模拟实施时，请从生产环境刷新沙盒环境。 有关详细信息，请参阅[复制实例](hr-admin-setup-copy-instance.md)。
+- 在沙盒环境中测试直接转换计划的每个步骤，然后通过执行抽查或从环境中的 UAT 脚本执行测试来验证沙盒环境。
+  - 测试应包括所有数据迁移，包括实施所需的转换。
+  - 此流程应包括所有旧系统的实践截止日期。
+  - 确保在模拟直接转换中包括任何集成直接转换步骤或外部系统步骤。
+- 如果您在模拟转换期间发现任何问题，可能需要进行第二次模拟转换。 因此，我们建议您在项目计划中计划两个模拟转换。
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack 实行评估
 
@@ -91,3 +101,6 @@ ms.locfileid: "4417533"
 ## <a name="see-also"></a>请参阅
 
 [实施常见问题](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

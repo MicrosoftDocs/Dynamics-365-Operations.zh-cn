@@ -2,6 +2,7 @@
 title: 财务报表中的列定义
 description: 本文提供了有关列定义的信息。 列定义是一个报表组件，在报表上定义列的内容。
 author: ShylaThompson
+manager: AnnBe
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 199dceb91195a3488dd269786a8cd59811d8d828db686c3636e3d6320c77bbeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fb41234d255ff9b5ad3756156eeadca2c94546b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729087"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559837"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 

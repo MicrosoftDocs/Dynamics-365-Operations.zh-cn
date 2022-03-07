@@ -2,11 +2,9 @@
 title: 模板和布局概览
 description: 此主题介绍 Microsoft Dynamics 365 Commerce 中的模板和布局。
 author: phinneyridge
-manager: annbe
 ms.date: 12/12/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962952"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986086"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 
@@ -34,7 +32,7 @@ ms.locfileid: "4962952"
 
 下图显示呈现的网页背后的页面模型层次结构。
 
-![页面模型图](../commerce/media/page-model-diagram.png)
+![页面模型图。](../commerce/media/page-model-diagram.png)
 
 | 实体        | 基本功能 |
 |---------------|----------------|
@@ -100,7 +98,7 @@ ms.locfileid: "4962952"
 
 下图显示预设布局和自定义布局的方案。
 
-![预设布局方案和自定义布局方案](../commerce/media/template-figure1.png)
+![预设布局方案和自定义布局方案。](../commerce/media/template-figure1.png)
 
 若要开始使用预设布局，请参阅[使用预设布局](work-with-layouts.md)。
 
@@ -111,3 +109,6 @@ ms.locfileid: "4962952"
 [使用预设布局](work-with-layouts.md)
 
 [使用发布组](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

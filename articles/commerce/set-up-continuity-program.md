@@ -2,11 +2,9 @@
 title: 设置呼叫中心的连续性计划
 description: 本文介绍如何为呼叫中心设置连续性计划。
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39c3e6d740bff2af27a2fba2ac4c406c01b43a87218fdc1dcfe094c147cd3de3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716142"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>设置呼叫中心的连续性计划
 
@@ -49,3 +47,6 @@ ms.locfileid: "4969743"
 - **扩展连续性行**（如果要求）– 扩展连续性事件可重复的次数。 重复装运可能超过在呼叫中心参数的 **连续性重复阈值** 字段中设置的限制。
 - **执行连续性更新**（如果要求）– 同步连续性计划和连续性父销售订单之间的更改。
 - **关闭连续性父行和父订单** – 关闭连续性订单。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

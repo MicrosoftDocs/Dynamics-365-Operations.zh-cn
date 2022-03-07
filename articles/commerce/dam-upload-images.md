@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213786"
 ---
 # <a name="upload-images"></a>上传图像
 
@@ -96,3 +96,6 @@ Commerce 站点构建器的媒体库允许您上传单个图像或使用文件�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

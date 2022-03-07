@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 684983d1ea54264cc378ded8e9dca3cf9ec2c901
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: b79924e2c8d94b5e5e160a123e9b0cde0971fd96
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799023"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560475"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>使用向导设置编号规则
 
@@ -38,3 +37,6 @@ ms.locfileid: "4799023"
 4. 选择 **下一步**。
 5. 选择 **完成**。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

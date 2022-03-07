@@ -1,5 +1,5 @@
 ---
-title: 在使用最后付款的折扣日期之前的折扣日期之后结算部分供应商付款
+title: 在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 description: 本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227320"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>在使用最后付款的折扣日期之前的折扣日期之后结算部分供应商付款
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 
 [!include [banner](../includes/banner.md)]
 
@@ -122,3 +121,6 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

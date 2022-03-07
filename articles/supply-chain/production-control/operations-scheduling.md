@@ -1,12 +1,10 @@
 ---
 title: 工序级排产
 description: 本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966397"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574561"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
@@ -76,10 +74,12 @@ ms.locfileid: "4966397"
 ## <a name="finite-materials"></a>有限物料
 如果您使用有限物料，该排产还取决于生产所需物料的可用性。 如果可用组件无法满足生产，生成可能延误。 您可以根据指定必须可用于生产的物料的使用编制计划。 在您对资源产能和物料的可用性同时进行优化生产时，根据这些限制计算生产。 在产能和物料按所需数量同时可用前，生产订单不能计划开始。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [工序级排产选项](operation-scheduling-options.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

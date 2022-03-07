@@ -2,16 +2,13 @@
 title: 通过将成本计算版本用于计划成本，模拟成本变化
 description: 本文说明您如何使用针对计划成本的某一单独成本计算版本模拟成本变化对制造物料的计算成本的影响。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 78183
 ms.assetid: 1e41953f-cdb9-4598-b776-46e49383a773
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6e1d52f48a6b7675fb16ccc5ecd9ba7cd25ac8b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e288a5f00e43901ba1bf6ec50f460be4b62ea2db73adbaf0f9204c988e812f58
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781553"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>通过将成本计算版本用于计划成本，模拟成本变化
 
@@ -59,3 +56,6 @@ ms.locfileid: "4423080"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

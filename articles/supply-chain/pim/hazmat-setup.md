@@ -1,37 +1,33 @@
 ---
 title: 设置危险物料
 description: 本主题说明如何设置将物料分类为危险物料所需的数据。 创建包含分类为危险物料的物料的销售订单时，系统会在装运时为该销售订单生成危险物料文档。
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423183"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778001"
 ---
 # <a name="set-up-hazardous-materials"></a>设置危险物料
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 要使用危险物料功能，必须首先设置将物料分类为危险物料所需的数据。 然后，在创建包含分类为危险物料的物料的销售订单时，系统会在装运时为该销售订单生成危险物料文档。
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>打开系统的危险物料功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
 
 - **模块**：*产品信息管理*
 - **功能名称**：*危险物料产品信息和装运文档*
@@ -284,3 +280,6 @@ Microsoft Dynamics 365 Supply Chain Management 提供了几种类型的危险物
 *危险物料隧道* 规范通过标识必须使用的隧道类型来限制可以运输危险物料的隧道类型。 隧道类别由适用的危险物料运输法规建立。 此规范通常仅适用于陆运。
 
 要为此规范设置值，请转到 **产品信息管理 \> 设置 \> 危险物料装运文档 \> 危险物料隧道**。 在 **危险物料隧道** 页面上，您可以创建任意数量的隧道标识符，并为每个标识符配置标识代码和简短描述。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,27 @@
 title: 开始使用电子开票服务管理
 description: 本主题说明如何开始使用电子开票。
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d039dd7f7384cd4af8705d767afe2cddfb166e93
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765636"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>开始使用电子开票服务管理
 
@@ -31,7 +33,7 @@ ms.locfileid: "7984820"
 在完成本主题中的过程之前，必须具备以下先决条件：
 
 - 您必须有权访问您的 Microsoft Dynamics Lifecycle Services (LCS) 帐户。
-- 您必须有包含版本 10.0.17 或更高版本的 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 的 LCS 项目。 此外，必须将这些应用部署在以下 Azure 地理区域之一：
+- 您必须有包含版本 10.0.17 或更高版本的 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 LCS 项目。 此外，必须将这些应用部署在以下 Azure 地理区域之一：
 
     - 美国
     - 欧洲
@@ -45,20 +47,20 @@ ms.locfileid: "7984820"
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>在 Lifecycle Services 中安装微服务的加载项
 
 1. 登录您的 LCS 帐户，在 LCS 项目仪表板上选择一个 LCS 项目。
-2. 在该项目中，在 **环境** 仪表板上，选择您的已部署环境。 所选环境必须正在运行。
+2. 在该项目中，在环境仪表板上，选择您的 LCS 部署项目。 您选择的项目必须在运行。
 3. 在 **Power Platform 集成** 选项卡上，在 **环境加载项** 字段组中，选择 **安装新加载项**。
 4. 选择 **电子开票**。
 5. 在 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 这是一个固定值。
-6. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。 您指定的 Azure Active Directory (Azure AD) 租户应该是用于 RCS 的同一个租户。
+6. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。
 7. 查看条款和条件，然后选中相应的复选框。
-8. 选择 **安装**。 安装最多可能需要几分钟时间。
+8. 选择 **安装**。
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>为与电子开票的 RCS 集成设置参数
 
 1. 登录您的 RCS 帐户。
-2. 在 **全球化功能** 工作区的 **相关设置** 部分中，选择 **电子报告参数**。
-3. 在 **电子开票** 选项卡上，在 **服务终结点 URI** 字段中，为您的 Azure 地理位置输入适当的服务终结点，如下表所示。
+2. 在 **电子申报** 工作区的 **相关链接** 部分中，选择 **电子申报参数**。
+3. 在 **电子开票服务** 选项卡上，在 **服务终结点 URI** 字段中，为您的 Azure 地理位置输入适当的服务终结点，如下表所示。
 
     | 数据中心 Azure 地理位置 | 服务终结点 URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -111,14 +113,12 @@ ms.locfileid: "7984820"
 8. 在 **用户 ID** 字段中，输入用户的别名。 在 **电子邮件** 字段中，输入用户的电子邮件地址。
 9. 选择 **保存**。
 10. 如果您的国家/地区特定发票需要证书链应用数字签名，请在操作窗格上，选择 **密钥保管库参数**，然后选择 **证书链**，并按照以下步骤操作：
-
     1. 选择 **新建** 创建证书链。
     2. 在 **名称** 字段中，输入证书链的名称。 在 **描述** 字段中，输入描述。
     3. 在 **证书** 部分，选择 **添加** 将证书添加到链中。
     4. 使用 **向上** 或 **向下** 按钮更改证书在链中的位置。
     5. 选择 **保存**，然后关闭页面。
     6. 关闭该页面。
-
 11. 在 **服务环境** 页上的操作窗格上，选择 **发布** 将环境发布到云中。 **状态** 字段的值将更改为 **已发布**。
 
 ## <a name="create-a-connected-application"></a>创建连接的应用程序
@@ -149,7 +149,7 @@ ms.locfileid: "7984820"
 ### <a name="set-up-the-service-endpoint-url"></a>设置服务终结点 URL
 
 1. 转到 **组织管理 \> 设置 \> 电子单据参数**。
-2. 在 **电子开票** 选项卡上，在 **终结点 URL** 字段中，为您的 Azure 地理位置输入适当的服务终结点，如下表所示。
+2. 在 **提交服务** 选项卡上，在 **服务终结点 URL** 字段中，为您的 Azure 地理位置输入适当的服务终结点，如下表所示。
 
     | 数据中心 Azure 地理位置 | 服务终结点 URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,8 +161,9 @@ ms.locfileid: "7984820"
 3. 在 **环境** 字段中，输入在电子开票中发布的服务环境的名称。
 4. 选择 **保存**，然后关闭页面。
 
-### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>为 Finance 或 Supply Chain Management 版本 10.0.17 启用发布外部测试版密钥
+### <a name="enable-flighting-keys"></a>启用发布外部测试版密钥
 
+为 Microsoft Dynamics 365 Finance 或 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.17 或更早版本启用发布外部测试版密钥。 
 1. 执行以下 SQL 命令：
 
     插入 SYSFLIGHTING（FLIGHTNAME，已启用）值（“BusinessDocumentSubmissionServiceEnabled”，1）

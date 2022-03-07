@@ -2,11 +2,9 @@
 title: 创建批处理作业
 description: 批处理作业是提交到某一应用程序对象服务器 (AOS) 实例以供自动处理的一组任务。
 author: maertenm
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ac91c907f4c2cfa03b9750cb3995851e319a3827f42442402f7c02824209b3b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733701"
 ---
 # <a name="create-a-batch-job"></a>创建批处理作业
 
@@ -54,3 +52,6 @@ ms.locfileid: "4679880"
     - **预扣**：将批处理作业设置为 **预扣**，使其从批处理作业调度程序中扣除。 等同 *停止*。
     - **等待**：将批处理作业设置为 **等待**，使其等待批处理作业调度程序选取。 等同 *执行*。
 5. 单击 **确定**。
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

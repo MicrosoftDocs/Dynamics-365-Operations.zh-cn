@@ -2,16 +2,13 @@
 title: 重置收据编号
 description: 本主题介绍如何重置在所需日期（例如，会计年度或日历年）用于各种操作的收据编号。
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733861"
 ---
 # <a name="reset-receipt-numbers"></a>重置收据编号 
 
@@ -58,7 +55,7 @@ ms.locfileid: "4410418"
 1. 在 **重置收据类型** 字段中，选择 **仅一次** 或 **每年**。
 1. 选择 **确定**。
 
-![选择收据重置日期](media/Enable_receipt_reset.png "选择收据重置日期")
+![选择收据重置日期。](media/Enable_receipt_reset.png "选择收据重置日期")
 
 选择日期后，它会出现在 **下一次收据编号重置日期** 列中。 重置日期适用于所有收据交易类型。 因此，将为所有收据类型重置收据编号顺序。
 
@@ -68,3 +65,6 @@ ms.locfileid: "4410418"
 
 > [!NOTE]
 > 根据您选择的重置日期和收据格式，您可能会有重复的收据编号。 尽管销售点 (POS) 系统可以处理这些情况，但它们会增加处理退货所需的时间，因为销售助理必须在重复的收据中进行选择。 如果重复的收据不是计划的结果，则可能会发生与数据清理相关的其他复杂情况。 因此，我们建议您使用动态日期字符（例如 **ddd**、**MM**、**DD** 和 **YY**），以帮助防止重置后出现重复的收据编号。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

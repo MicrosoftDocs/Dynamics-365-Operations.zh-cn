@@ -2,9 +2,11 @@
 title: 解决适用于 Adyen 的 Dynamics 365 付款连接器问题
 description: 本主题提供了疑难解答指南，当您遇到适用于 Adyen 的 Microsoft Dynamics 365 付款连接器问题，此指南可以帮助您获得支持。
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f40e29a17fe860440bd8192a89b0f5150f0db9ab213b2190f9deaf33a4f2aaba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f01db3fa670355696c094be544775a3abc557a70
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743927"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585206"
 ---
 # <a name="troubleshoot-dynamics-365-payment-connector-for-adyen-issues"></a>解决适用于 Adyen 的 Dynamics 365 付款连接器问题
 

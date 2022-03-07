@@ -2,11 +2,9 @@
 title: 移动平均成本价
 description: 库存结转过程基于在物料的物料模型组中选择的库存评估方法将发货交易记录结算到收货交易记录。 但在运行库存结转前，此系统将计算通常在过帐发货交易记录时使用的移动平均成本价。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 776f886fc0dfccf1b2675c9d54d44c16c6df4f09
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ab90c8e57d831fbbfe0b4a6f6814ca0ab5182a7ccc0436ca5a11526b72f9da30
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781577"
 ---
 # <a name="running-average-cost-price"></a>移动平均成本价
 
@@ -40,9 +38,9 @@ ms.locfileid: "4963755"
 
 | 条件                                               | 此系统使用估计的移动平均成本价 | 此系统使用物料主记录上定义的成本价 |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| 分子\* 和分母\*\* 均为正。  | 是                                                      | 无                                                                |
-| 分子\*、分母\*\* 或二者均为负。 | 无                                                       | 是                                                               |
-| 分母\*\* 为 0（零）。                        | 无                                                       | 是                                                               |
+| 分子\* 和分母\*\* 均为正。  | 是                                                      | 否                                                                |
+| 分子\*、分母\*\* 或二者均为负。 | 否                                                       | 是                                                               |
+| 分母\*\* 为 0（零）。                        | 否                                                       | 是                                                               |
 
 \* 分子 = (实际金额 + 财务金额) \*\* 分母 = (实际数量 + 财务数量) 
 
@@ -75,3 +73,6 @@ ms.locfileid: "4963755"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

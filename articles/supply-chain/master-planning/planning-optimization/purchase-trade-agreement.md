@@ -2,16 +2,13 @@
 title: 使用采购贸易协议进行主计划
 description: 本主题介绍计划优化如何基于在采购贸易协议中找到的最佳价格或提前期来查找计划订单的供应商和/或提前期。
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757750"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 
@@ -70,23 +67,26 @@ ms.locfileid: "4422776"
 1. 为每个相关产品重复此过程。
 
 > [!NOTE]
-> 采购贸易协议行上的货币必须与所选供应商的货币匹配。 主计划将仅包含货币与供应商的货币匹配的采购贸易协议行中的信息。
+> 计划优化支持多币种采购贸易协议。 当使用 **最低单价** 选项搜索贸易协议时，如果已在贸易协议行货币和法人的会计货币之间定义了汇率，系统将考虑具有不同货币的采购贸易协议行。 否则，贸易协议行将被忽略，您将在主计划过程中看到错误。 因此，主计划将包括来自所有相关采购贸易协议行的信息，在这些行中可以将价格转换为会计货币。 务必注意，在贸易协议行价格转换期间不会考虑舍入规则。
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>“计划优化”如何查找供应商和提前期的示例
 
-下表提供了一些示例，这些示例显示已发布产品的各种设置，及其关联的采购贸易协议如何影响为生成的计划采购订单找到的值。 最右边两列中的 **粗体** 值是“计划优化”选择的值。 其他列中的 ***粗体和斜体*** 值是为每一行生成这些结果值的设置。
+下表提供了一些示例，这些示例显示已发布产品的各种设置，及其关联的采购贸易协议如何影响为生成的计划采购订单找到的值。 最右边两列中的 **粗体** 值是“计划优化”选择的值。 其他列中的 **_粗体和斜体_** 值是为每一行生成这些结果值的设置。
 
 | 已发布产品：供应商 | 默认订单设置：提前期 | 物料覆盖范围：覆盖供应商 | 物料覆盖范围：覆盖提前期 | 贸易协议：供应商 | 贸易协议：提前期 | 贸易协议：忽略提前期 | 生成的供应商 | 生成的提前期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | 无 | 无 | US003 | 3 | 无 | **US001** | **1** |
-| US001 | 1 | ***是：US002*** | ***是：2*** | US003 | 3 | 无 | **US002** | **2** |
-| *（空白）* | 1 | 无 | 无 | ***US003*** | ***3*** | 无 | **US003** | **3** |
-| *（空白）* | ***1*** | 无 | 无 | ***US003*** | 3 | 是 | **US003** | **1** |
-| *（空白）* | ***1*** | ***是：US002*** | 无 | US003 | 3 | 无 | **US002** | **1** |
-| *（空白）* | ***1*** | ***是：US002*** | 无 | US003 | 3 | 无 | **US002** | **1** |
-| *（空白）* | 1 | 无 | 是：2 | ***US003*** | ***3*** | 无 | **US003** | **3** |
-| *（空白）* | 1 | 无 | ***是：2*** | ***US003*** | 3 | 是 | **US003** | **2** |
+| ***US001** _ | _*_1_*_ | 否 | 否 | US003 | 3 | 否 | _ *US001** | **1** |
+| US001 | 1 | ***是：US002** _ | _*_是：2_*_ | US003 | 3 | 否 | _ *US002** | **2** |
+| *（空白）* | 1 | 否 | 否 | ***US003** _ | _*_3_*_ | 否 | _ *US003** | **3** |
+| *（空白）* | ***1** _ | 否 | 否 | _*_US003_*_ | 3 | 是 | _ *US003** | **1** |
+| *（空白）* | ***1** _ | _*_是：US002_*_ | 否 | US003 | 3 | 否 | _ *US002** | **1** |
+| *（空白）* | ***1** _ | _*_是：US002_*_ | 否 | US003 | 3 | 否 | _ *US002** | **1** |
+| *（空白）* | 1 | 否 | 是：2 | ***US003** _ | _*_3_*_ | 否 | _ *US003** | **3** |
+| *（空白）* | 1 | 否 | ***是：2** _ | _*_US003_*_ | 3 | 是 | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>其他资源
 
 [采购协议](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

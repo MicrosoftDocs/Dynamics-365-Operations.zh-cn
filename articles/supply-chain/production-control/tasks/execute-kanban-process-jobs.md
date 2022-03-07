@@ -2,27 +2,24 @@
 title: 执行看板处理作业
 description: 此过程介绍看板流程作业的执行。
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1c32b577007c400f3528a110436eb97aaabefe2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6b74ea84ec403790c257ecfe8147a116cd97e9ff5a21b2cd7f649202771d07d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711751"
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 
@@ -57,3 +54,6 @@ ms.locfileid: "4423045"
 6. 在“完好数量”字段中，输入一个数字。
 7. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

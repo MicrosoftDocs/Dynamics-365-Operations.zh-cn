@@ -1,36 +1,31 @@
 ---
 title: 购物车模块
-description: 此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716876"
 ---
 # <a name="cart-module"></a>购物车模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
-
-## <a name="overview"></a>概览
+本主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 购物车模块显示客户继续结帐之前已添加到购物车中的物品。 此模块还显示订单摘要，并让客户可以应用或删除促销代码。
 
@@ -40,11 +35,11 @@ ms.locfileid: "4410643"
 
 下图显示了 Fabrikam 站点上购物车页面的示例。
 
-![Fabrikam 站点上的购物车模块示例](./media/cart2.PNG)
+![Fabrikam 站点上的购物车模块的示例。](./media/cart2.PNG)
 
 下图显示了 Fabrikam 站点上购物车页面的示例。 在此示例中，行项有手续费。
 
-![行项包含手续费的购物车模块的示例](./media/ecommerce-handling-fee.png)
+![行项包含手续费的购物车模块的示例。](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>购物车模块属性和插槽
 
@@ -53,6 +48,7 @@ ms.locfileid: "4410643"
 | 标题 | 标题文本和标题标记（**H1**、**H2**、**H3**、**H4**、**H5** 或 **H6**） | 购物车的标题，如“购物袋”或“购物车内的商品”。 |
 | 显示库存不足错误 | **True** 或 **False** | 如果此属性设置为 **True**，购物车页面将显示与库存相关的错误。 如果在站点上应用了库存检查，我们建议您将此属性设置为 **True**。 |
 | 显示行项的装运费用 | **True** 或 **False** | 如果将此属性设置为 **True**，购物车行项将显示装运费用（如果有此信息）。 Fabrikam 主题不支持此功能，因为用户仅在结帐流中选择装运。 不过，如果适用，可以在其他工作流中打开此功能。 |
+| 显示可用促销| **True** 或 **False** | 如果将此属性设置为 **True**，购物车会根据购物车中的商品显示可用促销。 Dynamics 365 Commerce 10.0.16 版本中提供此功能。 |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>购物车模块中可使用的模块
 
@@ -117,3 +113,6 @@ ms.locfileid: "4410643"
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
 
 [创建在线功能配置文件](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

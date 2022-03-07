@@ -2,11 +2,9 @@
 title: 合并的批次订单
 description: 本文介绍合并的批次订单的概念。
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2098cb458821146f6d1bf029591493ac745626f1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e8d7656889b69cfd1dcffb45b52eb649bce59629
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966447"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809222"
 ---
 # <a name="consolidated-batch-orders"></a>合并的批次订单
 
@@ -45,3 +43,6 @@ ms.locfileid: "4966447"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

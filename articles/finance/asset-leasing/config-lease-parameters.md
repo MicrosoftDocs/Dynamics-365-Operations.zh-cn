@@ -2,28 +2,25 @@
 title: 配置租赁参数（预览）
 description: 本主题描述资产租赁的配置设置，例如安全信息和记帐设置。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440955"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779030"
 ---
 # <a name="configure-lease-parameters"></a>配置租赁参数
 
@@ -46,3 +43,6 @@ ms.locfileid: "4440955"
 
     > [!NOTE]
     > 我们建议您将此选项保持设置为 **否**。 此选项的设置用作验证和控制，以防止已结帐簿版本意外折旧。 通过将选项设置为 **否**，您可以帮助保持帐面净值和未来折旧计算的准确性。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

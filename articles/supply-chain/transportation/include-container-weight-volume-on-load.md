@@ -1,28 +1,25 @@
 ---
 title: 包括容器重量和负荷的体积
 description: 此主题描述如何设置和应用要包括容器重量和负荷的体积的功能。
-author: pjacobse
-manager: tfehr
+author: Henrikan
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: henrikan
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52b42bd0b97564a493a50331d1424ca8084b389b29518f012f443d9cf722efe7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763907"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>包括容器重量和负荷的体积
 
@@ -45,3 +42,6 @@ ms.locfileid: "4422841"
 -   若要设置容器的重量和体积，请单击 **仓库管理** \> **设置** \> **容器** \> **容器类型**。
 
 -   若要设置容器利用率百分比，请单击 **仓库管理** \> **设置** \> **容器** \> **容器组**，然后在 **容器利用率百分比** 字段中输入一个值。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

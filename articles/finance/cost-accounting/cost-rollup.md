@@ -2,16 +2,13 @@
 title: 成本累积政策和开销计算
 description: 本主题提供有关如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779948"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
@@ -47,7 +44,7 @@ ms.locfileid: "4440918"
 
 想象一个组织拥有具有 4 个成本中心的以下结构。
 
-![组织结构的示例](./media/dimension-hierarchy-org.png)
+![组织结构的示例。](./media/dimension-hierarchy-org.png)
 
 **成本对象维度**
 
@@ -72,7 +69,7 @@ ms.locfileid: "4440918"
 
 | 维度层次结构名称 | 维度    | 维度层次结构类型名称      | 访问列表层次结构 |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| 组织             | 成本中心 | 维度分类层次结构 | 无                    |
+| 组织             | 成本中心 | 维度分类层次结构 | 否                    |
 
 **维度层次结构**
 
@@ -152,8 +149,7 @@ HR 服务由以下度量值分配使用。
 | CC001                                | 合计         | **HR 服务**        |
 | CC002                                | 合计         | **财务服务** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>成本在成本中心之间如何流动 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>成本在成本中心之间如何流动 
 
 如果要了解成本在组织中的成本中心之间如何流动，可以为每个成本中心创建 **辅助** 类型的成本元素。 这些成本元素将用于在开销计期间在成本中心之间转移余额。
 
@@ -301,3 +297,6 @@ HR 服务由以下度量值分配使用。
 -  [成本元素维度](cost-elements.md)
 -  [维度层次结构](dimension-hierarchy.md)
 -  [开销计算](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5955b796cbc7917eb5500b96c879d1b0819d2edc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204850"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐到默认描述
 
@@ -87,3 +86,6 @@ ms.locfileid: "4440585"
 2. 在 **引用表** 字段中，选择要从其中将参数数据添加到描述的数据库表。
 3. 在 **引用字段** 字段中，选择要从其中将参数数据添加到描述的字段。
 4. 重复执行第 1 步到第 3 步，以添加更多参数。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

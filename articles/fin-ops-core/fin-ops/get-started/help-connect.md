@@ -1,12 +1,10 @@
 ---
 title: 配置 Finance and Operations 应用的帮助体验
-description: 此主题介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。 还介绍如何连接这些应用和提供有关自定义帮助创建流程的摘要。
+description: 此主题介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。
 author: margoc
-manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798272"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594849"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>配置 Finance and Operations 应用的帮助体验
 
@@ -32,16 +30,16 @@ ms.locfileid: "4798272"
 
 ## <a name="help-architecture"></a>帮助体系结构
 
-Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/dynamics365](/dynamics365/) 站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
+Finance and Operations 应用中包含已发布到 [Microsoft Dynamics 365 文档](/dynamics365/)站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
 
-[![帮助体系结构](./media/help-architecture.png)](./media/help-architecture.png)
+[![帮助体系结构。](./media/help-architecture.png)](./media/help-architecture.png)
 
 产品内帮助系统从 docs.microsoft.com 和其他相连网站提取文章。 还提取 Microsoft Dynamics Lifecycle Services (LCS) 中的业务流程建模器 (BPM) 内存储的任务指南。
 
 ## <a name="adding-task-guides"></a>添加任务指南
 
 > [!NOTE]
-> Human Resources 或 Commerce 中现在无 **任务指南** 选项卡。 <!--We are currently working to enable this functionality in a future release.--> 但是，Human Resources 中的入门中的任务指南体验可用，以涵盖基本功能。 [https://docs.microsoft.com/dynamics365](/dynamics365/) 站点中提供 Human Resources 和 Commerce 的过程帮助。
+> Human Resources 或 Commerce 中现在无 **任务指南** 选项卡。 <!--We are currently working to enable this functionality in a future release.--> 但是，Human Resources 中的入门中的任务指南体验可用，以涵盖基本功能。 [Microsoft Dynamics 365 文档](/dynamics365/)站点中提供 Human Resources 和 Commerce 的过程帮助。
 
 系统管理员可在 **系统参数** 页中配置对实施的相关任务指南库的访问。
 
@@ -49,14 +47,14 @@ Finance and Operations 应用中包含已发布到 [https://docs.microsoft.com/d
 > - 若要配置帮助，必须通过使用与部署应用的租户相同的租户中的帐户登录。
 > - 不能从本地虚拟硬盘 (VHD) 上正在运行的应用实例访问 LCS 库。
 
-[![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![具有帮助设置的系统参数窗体。](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 若要配置解决方案的任务指南，请在 **系统参数** 页中执行以下步骤。
 
 > [!IMPORTANT]
 > 首次打开 **帮助** 选项卡时，必须连接到 Lifecycle Services。 请确保选择窗体中间的链接，等待连接，关闭对话框，单后选择 **确定** 以转至 **系统参数** 页面。
 >
-> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS")](./media/connect-to-lcs-crop.png)
+> [![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS。")](./media/connect-to-lcs-crop.png)
 
 1. 选择要连接到的 Lifecycle Services 项目。
 2. 选择要从中检索任务录制的 BPM 库（在所选项目内）。
@@ -99,3 +97,6 @@ Microsoft 提供了工具提示，以帮助您开发自定义帮助和将其连�
 [任务录制器资源](../../dev-itpro/user-interface/task-recorder.md)  
 [通过任务录制器创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [自定义帮助 GitHub 知识库](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

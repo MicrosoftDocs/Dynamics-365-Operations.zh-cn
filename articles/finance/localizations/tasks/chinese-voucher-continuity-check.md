@@ -2,11 +2,9 @@
 title: 中国式凭证连续性检查
 description: 每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerCheckList_CN,  SysQueryForm, SysDateLookUp, LedgerTransVoucher, SrsReportViewerForm, LedgerVoucherRenumberLog_CN
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f30049b23bfee225d756b63af8e44aa903bb84b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a02d59f4b9c35a2a27d30d359b95bdb44ea0a8f5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964584"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820507"
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 
@@ -56,3 +54,6 @@ ms.locfileid: "4964584"
 4. 单击“确定”。
 5. 转到“总帐”>“查询和报表”>“凭证连续性检查日志”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ec8ee7f8ba7493e5334c1a4106351c3661aa00a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1be05b7378c778f030d25e4905753607b3ec3743
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248007"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>配置应收帐款以及信用和收款
 
@@ -110,3 +109,6 @@ ms.locfileid: "4440727"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

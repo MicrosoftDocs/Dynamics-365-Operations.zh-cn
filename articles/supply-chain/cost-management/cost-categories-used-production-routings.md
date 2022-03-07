@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f6204cfbdb56978f0b7611a38db8c23953ed83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 58e327e4eddff5d9a6a3f87441149f1f3cdf6cff
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228651"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>在生产工艺路线中使用的成本类别
 
@@ -55,3 +55,6 @@ ms.locfileid: "4967700"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

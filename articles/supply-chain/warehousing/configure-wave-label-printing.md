@@ -1,29 +1,26 @@
 ---
-title: 设置和使用波次标签打印
+title: 波次标签打印
 description: 本主题介绍了波次标签打印并解释了如何进行设置。
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 6360f36b6a3526cdc5680a4059ae1202896986a5
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4423439"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301763"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>设置和使用波次标签打印
+# <a name="wave-label-printing"></a>波次标签打印
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,3 +929,10 @@ ms.locfileid: "4423439"
 - 波次标签历史记录
 
 对于这些页面中的大多数页面，可以通过在“操作窗格”的 **装运** 选项卡上的 **相关信息** 组中选择 **波次标签** 来查找相关功能。
+
+## <a name="additional-resources"></a>其他资源
+
+- [重新打印波次标签并使之无效](reprint-and-void-wave-labels.md)
+- [在波次期间计划波次标签打印](configure-task-based-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

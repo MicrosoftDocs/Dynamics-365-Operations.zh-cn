@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 226e60d5e374f16d27185ebda512769d36650d24e90ae279d22761d54e238a64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744957"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832938"
 ---
 # <a name="create-a-withholding-tax-payment"></a>创建预缴税金支付
 
@@ -37,7 +37,7 @@ ms.locfileid: "6744957"
 6. 选择 **更新** 将预缴税金支付凭证过帐到预缴税金结算帐户。
 7. 单击 **确定**。
 
-![预缴税金付款的参数。](media/withholding-tax-payment.png)
+![预缴税金支付的参数](media/withholding-tax-payment.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

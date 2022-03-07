@@ -1,12 +1,10 @@
 ---
 title: ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
-description: 以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。
+description: 本主题介绍如何配置电子报告格式以基于已经生成的文本输出的数据执行盘点和合计。 （第 1 部分）
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1742582057cc912d8e6f90eb14e9e4cdcd193608
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b0d1a90c0949e98b4c1e9ccb356d39de9c23b670c518ad14a99974ae2aed7301
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728181"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
 
@@ -56,3 +54,6 @@ ms.locfileid: "4684707"
 8. 在树中，展开“内部统计模型”。
 9. 在树中，选择“内部统计模型\内部统计 (DE)”。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

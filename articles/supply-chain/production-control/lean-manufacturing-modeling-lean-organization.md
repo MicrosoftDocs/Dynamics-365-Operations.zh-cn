@@ -1,30 +1,27 @@
 ---
 title: 建模精益组织
 description: 文本提供有关建模精益组织的重要概念的信息。
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423223"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570193"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
@@ -54,7 +51,7 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 价值流本身将建模为运营单位。 因此，价值流可以用作财务维度。
 
-有关运营单位的详细信息，请参阅[创建运营单位](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md)。
+有关运营单位的详细信息，请参阅[创建运营单位](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md)。
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>基于生产流的精益制造的成本计算
 生产流的成本的定期合并可纠正相关 WIP 帐户和为生产流提供的产品确定的差异。
@@ -67,3 +64,6 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

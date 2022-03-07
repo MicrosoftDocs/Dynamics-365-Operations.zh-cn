@@ -2,6 +2,7 @@
 title: 员工发展 Power BI 内容
 description: 此主题描述员工发展 Power BI 内容。
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -12,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 280053703a8afac15f0ae377e0d439a9bc9e918fb4c8413022cabad08431f3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1091357f1d86bac17c860a41daaa2577035163ca
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776599"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569655"
 ---
 # <a name="employee-development-power-bi-content"></a>员工发展 Power BI 内容
 

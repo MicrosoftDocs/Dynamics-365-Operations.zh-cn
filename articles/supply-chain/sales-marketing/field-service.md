@@ -1,45 +1,41 @@
 ---
-title: 与 Microsoft Dynamics 365 Field Service 的集成概述
-description: 本主题提供与 Microsoft Dynamics 365 Field Service 集成的概述。
-author: ChristianRytt
-manager: tfehr
+title: Microsoft Dynamics 365 Field Service 集成概览
+description: 本主题提供与 Microsoft Dynamics 365 Field Service 集成的概览。
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528891"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062667"
 ---
-# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>与 Microsoft Dynamics 365 Field Service 的集成概述
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service 集成概览
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Supply Chain Management 实现 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 之间的业务流程同步。 集成方案的配置方法是使用可扩展的数据集成器模板和 Common Data Service 实现业务流程同步。
-可使用标准模板创建定制集成项目，还可以使用模板映射更多标准字段和定制字段以及实体以调整集成并满足具体业务需求。 
+
+Supply Chain Management 实现 Dynamics 365 Supply Chain Management 与 Dynamics 365 Field Service 之间的业务流程同步。 集成方案的配置方法是使用可扩展的数据集成器模板和 Microsoft Dataverse 实现业务流程同步。
+可使用标准模板创建定制集成项目，还可以使用模板映射更多标准列和自定义列以及表以调整集成并满足具体业务需求。 
 
 Field Service 集成紧接着现有客户到现金功能建立。
 
-![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/field-service-integration.png)
+![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/field-service-integration.png)
 
-Field Service 与 Supply Chain Management 集成的第一阶段的重点是让 Field Service 中的工作订单和协议在 Supply Chain Management 中开票。 支持的流程在 Field Service 中启动，在这里将工作订单的信息作为销售订单同步到 Supply Chain Management。 在 Supply Chain Management 中，将为销售订单开票以生成发票单据。 此外，还会将 Field Service 协议发票的信息同步到 Supply Chain Management。 Microsoft Dynamics 365 数据集成器使用可定制项目同步数据。 可使用标准模板创建定制集成项目，还可以使用模板映射更多标准字段和定制字段以及实体以调整集成并满足具体要求。
+Field Service 与 Supply Chain Management 集成的第一阶段的重点是让 Field Service 中的工作订单和协议在 Supply Chain Management 中开票。 支持的流程在 Field Service 中启动，在这里将工作订单的信息作为销售订单同步到 Supply Chain Management。 在 Supply Chain Management 中，将为销售订单开票以生成发票单据。 此外，还会将 Field Service 协议发票的信息同步到 Supply Chain Management。 Microsoft Dynamics 365 数据集成器使用可定制项目同步数据。 可使用标准模板创建定制集成项目，还可以使用模板映射更多标准列和自定义列以及表以调整集成并满足具体要求。
 
 Field Service 与 Supply Chain Management 集成的第二阶段是实现以下项的同步：
 
@@ -61,7 +57,7 @@ Field Service 与 Supply Chain Management 集成的第二阶段是实现以下�
 - 与 Dynamics 365 Field Service 工作订单连接的 Supply Chain Management 项目
 - 包含 Supply Chain Management 项目链接的 Dynamics 365 Field Service 工作订单将此项目编号应用于销售订单以允许从项目开票。 
 
-![Supply Chain Management 与 Field Service 之间的业务流程同步](./media/FSv2overview.png)
+![在 Supply Chain Management 和 Field Service 之间同步业务流程，包括库存和项目信息。](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Field Service 与 Supply Chain Management 集成的第二阶段支持与以下模板的同步：
 - 仓库（Supply Chain Management 到 Field Service）- 仓库从 Supply Chain Management 到 Field Service [高级查询] 
@@ -69,7 +65,7 @@ Field Service 与 Supply Chain Management 集成的第二阶段是实现以下�
 - 库存调整（Field Service 到 Supply Chain Management）- 库存调整从 Field Service 到 Supply Chain Management [高级查询] 
 - 库存转移（Field Service 到 Supply Chain Management）- 库存转移从 Field Service 到 Supply Chain Management [高级查询] 
 - 项目（Supply Chain Management 到 Field Service）- 项目列表从 Supply Chain Management 到 Field Service 
-- 项目的工作订单（Field Service 到 Supply Chain Management）- Field Service 中工作订单到 Supply Chain Management 中的销售订单，提供项目支持[高级查询] 
+- 项目的工作订单（Field Service 到 Supply Chain Management）- Field Service 中的工作订单到 Supply Chain Management 中的销售订单，支持项目[高级查询] 
 - 包含库存单位的 Field Service 产品（Supply Chain Management 到 Sales）- Supply Chain Management“适售的已发布产品”到 Field Service 的“销售产品”，包括库存单位 
 
 ## <a name="system-requirements"></a>系统要求
@@ -85,3 +81,6 @@ Field Service 集成支持以下版本：
 - Dynamics 365 9.1.x 上的 Field Service（版本 8.2.0.286）或更高版本 - 2018 年 11 月发布
 - Dynamics 365 版本 1.15.0.1 或更高版本的从目标客户到现金 (P2C) 解决方案。 可从 [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3) 下载此解决方案。
 - 适用于 Dynamics 365 版本 2.0.0.0 或更高版本的“Field Service 集成、项目和库存”解决方案。 可从 [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2) 下载此解决方案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

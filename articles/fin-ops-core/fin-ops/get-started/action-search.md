@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fb268c2643b45f6797793dbc5b7cc2e33d5218d9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798639"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564206"
 ---
 # <a name="action-search"></a>操作搜索
 
@@ -75,3 +74,6 @@ ms.locfileid: "4798639"
 ## <a name="action-search-vs-navigation-search"></a>操作搜索与导航搜索
 
 操作搜索用于在页面上查找和运行操作，而查找和导航到页面存在单独的搜索机制。 有关该功能的详细信息，请参阅[导航搜索](navigation-search.md)一文。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

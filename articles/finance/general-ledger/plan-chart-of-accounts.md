@@ -2,28 +2,25 @@
 title: 计划您的会计科目表
 description: 本主题提供将帮助您为您的组织计划会计科目表的信息。
 author: aprilolson
-manager: AnnBe
 ms.date: 04/02/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 007b634c18ce897160aea38e05c9a73a64dd3917
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0c4a5c0d758ecacce6433b13a2b2044d2417d018
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440834"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403857"
 ---
 # <a name="plan-your-chart-of-accounts"></a>计划您的会计科目表
 
@@ -60,3 +57,6 @@ ms.locfileid: "4440834"
 
 - [财务维度](financial-dimensions.md)
 - [创建和分配高级规则结构](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

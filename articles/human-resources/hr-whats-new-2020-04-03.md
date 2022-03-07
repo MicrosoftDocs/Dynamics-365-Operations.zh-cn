@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 4 月 3 日）新增功能或更改
 description: 本文介绍 2020 年 4 月 3 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 715de76e9920bcb6cca7cabf053f649d27094149
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526778"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465358"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Dynamics 365 Human Resources（2020 年 4 月 3 日）新增功能或更改
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -64,7 +66,7 @@ LCS 中每个项目的环境数量限制已更改。 先前的限制是两个环
  - 休假和缺勤计划层 V2
  - 休假和缺勤计划 V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service 现已可用，并具有以下更改：
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse 现已可用，并具有以下更改：
 
 | 说明 | 找零 |
 | --- | --- |
@@ -76,18 +78,18 @@ LCS 中每个项目的环境数量限制已更改。 先前的限制是两个环
 | 新的可变薪酬设置实体 | <ul><li>**可变薪酬计划类型**</li><li>**薪酬可变计划**</li><li>**股份行权规则**</li><li>**可变薪酬计划级别**</li></ul> |
 | 新 **工作人员日历雇用** 实体 | <ul><li>添加了 **工作日历实体**</li></ul> |
 | 新 **工资单职位详细信息** 实体 | <ul><li>添加了 **工资单职位详细信息**</li></ul> |
-| 新 **职务** 实体 | <ul><li>添加了 **职务**</li></ul>新的 **职务** 实体位于 Common Data Service 中，但是此时不是从 **工作职位** 或 **工作** 实体引用的。 |
+| 新 **职务** 实体 | <ul><li>添加了 **职务**</li></ul>新的 **职务** 实体位于 Dataverse 中，但是此时不是从 **工作职位** 或 **工作** 实体引用的。 |
 
 > [!NOTE]
-> 职位和雇用的财务维度为从 Human Resources 到 Common Data Service 的更新提供单向集成。 财务维度更新现在不从 Common Data Service 同步到 Human Resources。
+> 职位和雇用的财务维度为从 Human Resources 到 Dataverse 的更新提供单向集成。 财务维度更新现在不从 Dataverse 同步到 Human Resources。
 
-在接下来的数周内，所有环境中将支持这些实体更改。 若要手动插入适用于 Human Resources 的最新 Common Data Service 解决方案：
+在接下来的数周内，所有环境中将支持这些实体更改。 若要手动插入适用于 Human Resources 的最新 Dataverse 解决方案：
 
 1.  转到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
 2.  选择 **环境**。
 
-3.  找到要升级的环境。 此环境应该对应于 Human Resources 中 **关于** 窗体内 **Common Data Service 信息** 部分中的 **环境名称**。
+3.  找到要升级的环境。 此环境应该对应于 Human Resources 中 **关于** 窗体内 **Dataverse 信息** 部分中的 **环境名称**。
 
 4.  选择环境以查看环境详细信息。
 
@@ -137,3 +139,5 @@ LCS 中每个项目的环境数量限制已更改。 先前的限制是两个环
 [Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

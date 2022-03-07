@@ -2,28 +2,25 @@
 title: 预算计划与其他模块的集成
 description: 预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7456d0c6a9114fae71aff7b4070d86090e2c7c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: edac31cb8a4f28f06819c791b308286f474c9b55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188654"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 
@@ -33,8 +30,7 @@ ms.locfileid: "4440878"
 
 
 
-<a name="periodic-processes-for-generating-budget-plans"></a>生成预算计划的周期性流程
-----------------------------------------------
+## <a name="periodic-processes-for-generating-budget-plans"></a>生成预算计划的周期性流程
 
 预算计划可以从以下资源生成：
 
@@ -147,3 +143,6 @@ ms.locfileid: "4440878"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

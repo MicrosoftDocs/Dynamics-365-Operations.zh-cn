@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5ebf23c5c831e9dad5d13c72f82eb3eeb30da853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2364378ce8992666e374ec6f665c180d2fa1981
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422807"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258015"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>将项目内的工作订单从 Field Service 同步到 Supply Chain Management
 
@@ -77,3 +76,6 @@ ms.locfileid: "4422807"
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>项目内的工作订单（Field Service 到 Supply Chain Management）：WorkOrderService
 
 [![数据集成中的模板映射](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

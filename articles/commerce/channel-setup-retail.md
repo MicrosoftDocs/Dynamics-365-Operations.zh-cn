@@ -2,36 +2,30 @@
 title: 设置零售渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410448"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937526"
 ---
 # <a name="set-up-a-retail-channel"></a>设置零售渠道
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
-
-## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 每个零售商店渠道都可以有自己的付款方式、价格组、销售点 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先设置所有这些元素，然后才能创建零售商店渠道。 
 
@@ -74,7 +68,7 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 ## <a name="additional-channel-set-up"></a>其他渠道设置
 
-可以在 **操作窗格** 上 **设置** 部分下面中找到需要为渠道设置的其他项。
+可以在操作窗格上 **设置** 部分下找到需要为渠道设置的其他项。
 
 在线渠道设置所需的其他任务包括设置付款方式、现金申报、交货方式、收入/费用帐户、部门、履行组分配和金库。
 
@@ -108,12 +102,12 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 ### <a name="set-up-modes-of-delivery"></a>设置交货方式
 
-您可以从 **操作窗格** 上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
+您可以从操作窗格上的 **设置** 选项卡中选择 **交货方式** 来查看已配置的交货方式。  
 
 要更改或添加交货方式，请按照下列步骤操作。
 
 1. 在导航窗格中，转到 **模块 \> 库存管理 \> 交货方式**。
-1. 在操作窗格上，选择 **新增** 以创建新的交货方式，或选择现有方式。
+1. 在操作窗格上，选择 **新建** 创建新的交货方式，或选择现有方式。
 1. 在 **零售渠道** 部分，选择 **添加行** 以添加渠道。 使用组织节点添加渠道而不是单独添加每个渠道可以简化渠道添加操作。
 
 下图显示了交货方式的示例。
@@ -172,6 +166,37 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 1. 输入金库的名称
 1. 在操作窗格上，选择 **保存**。
 
+### <a name="ensure-unique-transaction-ids"></a>确保交易 ID 是唯一的
+
+从 Commerce 版本 10.0.18 开始，为销售点 (POS) 生成的交易 ID 采用序列形式，包括以下部分：
+
+- 固定部分，商店 ID 和终端 ID 的串联。 
+- 序列部分，一个数字序列。 
+
+具体来说，格式为 *{store}-{terminal}-{numbersequence}*。 
+
+由于可以在脱机和联机模式下生成交易 ID，因此已经存在生成重复交易 ID 的情况。 消除重复的交易 ID 需要进行大量的手动数据修复。 
+
+在 Commerce 版本 10.0.19 中，交易 ID 格式已更新，删除了序列部分，改为使用通过计算自 1970 年以来的时间（以毫秒为单位）生成的 13 位数字。 进行此更改后，新的交易 ID 格式为 *{store}-{terminal}-{millisecondsSince1970}*。 此更新使交易 ID 不再序列化，确保交易 ID 始终是唯一的。 
+
+> [!NOTE]
+> 交易 ID 仅用于内部系统，因此不需要序列化。 但是，很多国家/地区要求收据 ID 采用序列形式。
+
+可以从 **功能管理** 工作区启用新交易 ID 格式功能。 
+
+若要启用新的交易 ID，请按照下列步骤操作：
+
+1. 在 Commerce Headquarters 中，转到 **系统管理 \> 工作区 \> 功能管理**。
+1. 筛选“retail 和 commerce”模块。
+1. 搜索 **启用新交易 ID 以避免交易 ID 重复** 功能名称。
+1. 选择该功能，然后在右窗格中选择 **立即启用**。  
+1. 转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 分配计划**。
+1. 运行 **1070 渠道配置** 和 **1170 POS 任务录制器** 作业，将已启用的功能同步到商店。
+1. 将更改发送到商店后，必须关闭 POS 终端，然后重新打开才能使用新交易 ID 格式。 
+
+> [!NOTE]
+> 启用新交易 ID 格式功能后，您将无法禁用此功能。 如果必须禁用，请联系 Commerce 支持。
+
 ## <a name="additional-resources"></a>其他资源
 
 [渠道概览](channels-overview.md)
@@ -182,3 +207,6 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 
 [设置呼叫中心渠道](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

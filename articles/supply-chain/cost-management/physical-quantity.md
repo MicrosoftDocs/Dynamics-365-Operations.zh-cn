@@ -2,11 +2,9 @@
 title: 库存对象值
 description: 本文提供有关库存对象的值如何计算的信息。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967425"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568943"
 ---
 # <a name="inventory-object-values"></a>库存对象值
 
@@ -46,7 +44,7 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 下表显示成本对象的计算结果。 您可以在 **成本对象** 页面上查看结果。
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -82,7 +80,7 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 下表显示库存对象的计算结果。 您可以通过在 **成本对象** 页面上单击 **实际数量** 来查看结果。
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -135,14 +133,16 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [成本对象](cost-object.md)
 
 [成本条目](cost-entries.md)
 
-[新增功能和更改的功能](../../fin-and-ops/get-started/whats-new-changed.md)
+[新增功能和更改的功能](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

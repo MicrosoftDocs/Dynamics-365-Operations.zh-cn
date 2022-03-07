@@ -2,11 +2,9 @@
 title: 配置与 Dayforce 的集成
 description: Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417381"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805074"
 ---
 # <a name="configure-integration-with-dayforce"></a>配置与 Dayforce 的集成
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
 
@@ -676,3 +676,6 @@ Dayforce 中使用以下信息：
 
 员工可以声明 **护照** 身份证明类型的多个身份证明编号。 但是，仅将当前有效的护照条目集成到 Dayforce 中。 如果所有护照条目均已过期，将把最近签发的护照集成到 Dayforce 中。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

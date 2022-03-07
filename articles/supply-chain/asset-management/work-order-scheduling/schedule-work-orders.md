@@ -1,12 +1,10 @@
 ---
 title: 计划工作订单
 description: 本主题介绍如何在资产管理中计划工作订单。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718051"
 ---
 # <a name="schedule-work-orders"></a>计划工作订单
 
@@ -58,7 +56,7 @@ ms.locfileid: "5020221"
 
 *示例：* 在下图中，**预计的开始日期** 字段中插入的公式将为所有工作订单生成预计开始日期为一周后的工作订单计划。 如果您应持续运行工作订单计划，但是希望确保不重新计划为接下来 5-6 天计划的工作订单，此公式可能非常有用。
 
-![图 1](media/03-work-order-scheduling.png)
+![图 1.](media/03-work-order-scheduling.png)
 
 与工作订单关联的工作订单类型可以为一位维护工人设置计划（**资产管理** > **设置** > **工作订单** > **工作订单类型** > **一位维护工人** 切换按钮设置为“是”）。 这意味着，如果在工作订单中使用工作订单类型，**所有工作订单** 详细信息页 > **标题** 视图 > **计划** 快速选项卡上的 **一位维护工人** 切换按钮将自动设置为“是”。 工作订单计划期间，将把为该工作订单创建的所有工作订单作业相继安排给同一个维护工人。 如果需要，可编辑 **所有工作订单** 中 **一位维护工人** 切换按钮上的进行的选择，以便允许为工作订单作业安排多位工人或一位工人。
 
@@ -137,3 +135,6 @@ ms.locfileid: "5020221"
     - 要重新计划显示的工作订单，请选择它，然后将它拖到适当的新日期和时间。
 
 1. 如果进行了任何更改，请在操作窗格上选择 **保存** 进行保存。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

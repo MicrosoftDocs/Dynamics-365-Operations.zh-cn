@@ -2,28 +2,25 @@
 title: 重估与指数利率链接的租赁付款
 description: 本主题描述了由于指数利率的变化而导致可变租赁付款发生变化时，对租赁使用权 (ROU) 负债进行的调整。
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440945"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968044"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>重估与指数利率链接的租赁付款
 
@@ -46,7 +43,7 @@ ms.locfileid: "4440945"
 4. 选择用于选择后台处理中应包括的租赁的筛选器，然后选择 **确定**。
 
     将显示 **指数利率重估预览** 对话框，其中显示将重估的租赁。 还显示资产和负债调整或可变付款调整。
-    
+
 5. 要防止重估租赁，请选择 **应该** 重估的租赁。 如果不选择任何租赁，将重估所有租赁。 完成后，选择 **确定** 重估租赁付款。
 6. 要查看为特定指数重估流程创建的交易，请选择流程 ID，然后选择 **交易**。
 
@@ -68,3 +65,8 @@ ms.locfileid: "4440945"
 您可以查看从重估日期开始新生成的付款计划，并显示更新后的付款总额。 还创建了新的租赁负债摊销计划和资产折旧计划，以反映调整后的付款计划。
 
 日记帐条目已将调整日记帐条目自动过帐到与指数重估相关的租赁付款变更的科目。
+
+> [!NOTE]
+> 如果在 **租赁详细信息** 页面的 **常规** 快速选项上启用了 **明细付款金额** 选项，并且关联帐簿为 IFRS 16，则指数重估过程将在 **付款金额细分** 对话框中自动添加记录。 该金额将反映由于指数重估而对付款所做的更改。 此记录将被标记为 **用于 IRFS 16 指数重估**。
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

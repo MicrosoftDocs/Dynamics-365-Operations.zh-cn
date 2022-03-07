@@ -1,33 +1,32 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 3 月 10 日）中的新增功能或更改
 description: 本文介绍 2020 年 3 月 10 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: c6e4d93f89721bd722de523fbba7adfd2ee3f786
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526898"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061143"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Dynamics 365 Human Resources（2020 年 3 月 10 日）中的新增功能或更改
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.2985。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
@@ -45,7 +44,7 @@ Dynamics 365 Human Resources 中不支持此报表。 已删除了用于打印 S
 
 示例：Benjamin Martin 是福利管理员。 员工入职期间，将创建任务以供 Benjamin 检查新员工选择的福利。 Benjamin 有自己已完成的过去任务和需要其完成的未来任务。 Benjamin 决定离开公司，因此需要重新分配或删除他的任务。 可通过（**工作人员** 窗体的操作窗格中的）任务维护窗体将 Benjamin 的所有任务重新分配给其他工作人员或将其删除。  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service 现已可用，并具有以下更改：
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse 现已可用，并具有以下更改：
 
 | 说明 | 找零 |
 | --- | --- |
@@ -57,18 +56,18 @@ Dynamics 365 Human Resources 中不支持此报表。 已删除了用于打印 S
 | 新的可变薪酬设置实体 | <ul><li>**可变薪酬计划类型**</li><li>**薪酬可变计划**</li><li>**股份行权规则**</li><li>**可变薪酬计划级别**</li></ul> |
 | 新 **工作人员日历雇用** 实体 | <ul><li>添加了 **工作日历实体**</li></ul> |
 | 新 **工资单职位详细信息** 实体 | <ul><li>添加了 **工资单职位详细信息**</li></ul> |
-| 新 **职务** 实体 | <ul><li>添加了 **职务**</li></ul> 新的 **职务** 实体位于 Common Data Service 中，但是此时不是从 **工作职位** 或 **工作** 实体引用的。 |
+| 新 **职务** 实体 | <ul><li>添加了 **职务**</li></ul> 新的 **职务** 实体位于 Dataverse 中，但是此时不是从 **工作职位** 或 **工作** 实体引用的。 |
 
 > [!NOTE]
-> 职位和雇用的财务维度为从 Human Resources 到 Common Data Service 的更新提供单向集成。 财务维度更新现在不从 Common Data Service 同步到 Human Resources。
+> 职位和雇用的财务维度为从 Human Resources 到 Dataverse 的更新提供单向集成。 财务维度更新现在不从 Dataverse 同步到 Human Resources。
 
-在接下来的数周内，所有环境中将支持这些实体更改。 若要手动插入适用于 Human Resources 的最新 Common Data Service 解决方案：
+在接下来的数周内，所有环境中将支持这些实体更改。 若要手动插入适用于 Human Resources 的最新 Dataverse 解决方案：
 
 1.  转到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。
 
 2.  选择 **环境**。
 
-3.  找到要升级的环境。 此环境应该对应于 Human Resources 中 **关于** 窗体内 **Common Data Service 信息** 部分中的 **环境名称**。
+3.  找到要升级的环境。 此环境应该对应于 Human Resources 中 **关于** 窗体内 **Dataverse 信息** 部分中的 **环境名称**。
 
 4.  选择环境以查看环境详细信息。
 
@@ -103,6 +102,8 @@ Dynamics 365 Human Resources 中不支持此报表。 已删除了用于打印 S
 ## <a name="see-also"></a>请参阅
 
 [Human Resources 中新增或更改的功能](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 发布第 2 波概述](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 发布第 2 波概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [更新流程](hr-admin-setup-update-process.md)</br>
 [管理功能](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

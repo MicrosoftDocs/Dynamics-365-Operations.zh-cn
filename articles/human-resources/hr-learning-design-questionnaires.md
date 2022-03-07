@@ -1,33 +1,35 @@
 ---
-title: 设计调查表
-description: 本文描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: 创建调查表
+description: 本主题描述创建调查表的过程。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417521"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065193"
 ---
-# <a name="design-questionnaires"></a>设计调查表
+# <a name="create-questionnaires"></a>创建调查表
 
-本文描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
 
 仔细设计调查表可以有助于提高您收集的数据的质量。 通过仔细设计，您可以在调查表的相应的时间处更好低寻找相应的选项。 以下各点可以帮助您规划有效的调查表：
 
@@ -64,7 +66,7 @@ ms.locfileid: "4417521"
 
 ### <a name="questionnaire-types"></a>调查表类型
 
-创建调查表时，需要调查表类型，并且必须分配调查表类型。 调查表类型可帮助您更轻松地对调查表进行管理和分类。 使用调查表类型可对调查表进行分类，并将其区分开来。 例如，如果要选择多个调查表，则可以按类型进行筛选，这样有助于更轻松地找到特定调查表。 以下是几个调查表类型示例：
+创建调查表时，需要调查表类型，并且必须分配 **调查表类型**。 **调查表类型** 可帮助您更轻松地对调查表进行管理和分类。 使用调查表类型可对调查表进行分类，并将其区分开来。 例如，如果要选择多个调查表，则可以按类型进行筛选，这样有助于更轻松地找到特定调查表。 以下是几个调查表类型示例：
 
 -   人力资源开发
 -   客户调查
@@ -72,9 +74,9 @@ ms.locfileid: "4417521"
 
 ### <a name="question-types"></a>问题类型
 
-创建问题时，需要问题类型，并且必须分配问题类型。 
+创建问题时，需要 **问题类型**，并且必须分配问题类型。 
 
-使用问题类型对用于报告的问题进行分类。 问题类型还便于您查找问题，因为您可以使用类型作为 **问题** 页上的筛选器。 以下是几个问题类型示例：
+使用 **问题类型** 对用于报告的问题进行分类。 **问题类型** 还便于您查找问题，因为您可以使用类型作为 **问题** 页上的筛选器。 以下是几个问题类型示例：
 
 -   人力资源
 -   业务管理
@@ -93,7 +95,7 @@ ms.locfileid: "4417521"
 ## <a name="questionnaire-components"></a>调查表组成部分
 调查表包含三个主要元素：包含多选问题回答的回答组、问题和调查表本身。 您可以（可选）将调查表上的问题分成结果组。 结果组能让您对问题进行分类，并提供对调查表的进一步分析。 
 
-[![调查表组成部分](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![调查表组成部分。](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>回答组和回答
 
@@ -106,7 +108,7 @@ ms.locfileid: "4417521"
 
 回答组和回答是组成从其中创建问题的信息正文的组成部分。 创建回答组之后，可以将回答组与 **问题** 页上的 **回答组** 字段中的问题相关联。 
 
-回答组可用于同一调查表上的多个问题，并且可用于多个调查表。 
+**回答组** 可用于同一调查表上的多个问题，并且可用于多个调查表。 
 
 > [!NOTE]
 > 如果在已完成调查表上已经使用的回答组中修改回答文本，则数据会变得难以评估，调查表结果可能不再有效。 如果您必须更改回答组，请考虑创建新的回答组，而不是更改现有回答组。 您不能删除附加到问题或回答的回答组，也不能删除已回答的回答组。
@@ -172,7 +174,7 @@ ms.locfileid: "4417521"
 
 ### <a name="result-groups"></a>结果组
 
-在您将问题附加到调查表时，结果组是可选的。 
+在您将问题附加到调查表时，**结果组** 是可选的。 
 
 结果组用于计算分数和分类调查表的结果。 如果您使用结果组，可以执行以下任务：
 
@@ -236,3 +238,5 @@ ms.locfileid: "4417521"
 法人向其客户提供物料和服务。 和通常在这种情况下发生的事情一样，某些客户通常只购买物料或只购买服务，而其他一些客户则同时购买这两者。 因此，在该法人想要分发客户满意度调查时，它将某一条件结构应用于该调查表，因此仅购买服务的客户不必回答与物料有关的问题。 
 
 另外，您可以设置一个调查表，以便如果调查对象为问题 1 选择了答案 A，则接下来显示问题 2。 但是，如果调查对象为问题 1 选择了答案 B，则接下来显示问题 5。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

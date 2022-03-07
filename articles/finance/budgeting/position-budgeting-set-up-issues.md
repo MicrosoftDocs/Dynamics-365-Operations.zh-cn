@@ -2,11 +2,9 @@
 title: 职位预算编制疑难解答
 description: 本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726054"
 ---
 # <a name="position-budgeting-troubleshooting"></a>职位预算编制疑难解答
 
@@ -30,8 +28,7 @@ ms.locfileid: "5017609"
 
 本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>为什么找不到人力资源中的预测职位页？
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>为什么找不到人力资源中的预测职位页？
 
 预测职位已移动到“预算”。
 
@@ -63,3 +60,6 @@ ms.locfileid: "5017609"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

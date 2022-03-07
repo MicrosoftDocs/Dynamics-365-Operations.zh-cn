@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6d09127b13eee64a24837d5462612961ef0e347
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240235"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Dynamics 365 Commerce 学习目录 
 
@@ -141,3 +140,6 @@ ms.locfileid: "4410577"
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

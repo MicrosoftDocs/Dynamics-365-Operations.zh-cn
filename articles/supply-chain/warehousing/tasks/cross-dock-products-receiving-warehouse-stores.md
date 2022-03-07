@@ -1,28 +1,25 @@
 ---
 title: 将产品从接收仓库越库配送到商店
 description: 此程序会逐步演示如何创建和处理越库配送，以将产品从采购订单的收货位置配送到一个或许多商店。
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 033d4f72b626130c144faff30fe0d35349b26c6d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6e65535a1879eab229f185e0e97d81a304fd292d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423384"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572953"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>将产品从接收仓库越库配送到商店
 
@@ -49,3 +46,6 @@ ms.locfileid: "4423384"
 15. 在列表中，查找和选择一个已收到产品的仓库。
 16. 单击“订单”以查看为选定仓库创建的订单
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

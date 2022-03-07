@@ -1,17 +1,14 @@
 ---
-title: 审核计划订单
-description: 此主题介绍计划优化中支持的计划订单的审核。
+title: 查看、管理和审核计划订单
+description: 此主题介绍如何在计划优化中查看、管理和审核计划订单。
 author: ChristianRytt
-manager: tfehr
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,27 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d7daac5a33c77e1b49f689061a8dbcf17c3a1d3501461cf3abc0e9cac5121ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713654"
 ---
-# <a name="approve-planned-orders"></a>审核计划订单
+# <a name="view-manage-and-approve-planned-orders"></a>查看、管理和审核计划订单
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何在计划优化中更新计划订单的状态。
+此主题介绍如何在计划优化中查看、管理和审核计划订单。
 
-请注意，审核计划订单为最终从计划订单创建确定订单过程中的可选步骤。 建议批准修改后的计划订单，否则将忽略编辑，并替换为下一个运行计划。
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>查看和管理计划订单
 
-![计划订单流](media/approved-planned-orders-1.png)
+您可以在任何计划订单列表页上查看和管理计划订单。 根据要处理的计划订单的类型，转到以下位置之一：
 
-**状态** 字段可帮助您使用以下值来确定进度：
+- 主计划 \> 工作区 \> 主计划
+- 主计划 \> 主计划 \> 计划订单
+- 生产控制 \> 生产订单 \> 计划生产订单
+- 采购 \> 采购订单 \> 计划采购订单
+- 库存管理 \> 入站订单 \> 计划转移
+- 库存管理 \> 出站订单 \> 计划转移
 
-- **未处理：** 当主计划生成计划订单时，该计划订单状态为 *未处理*。 此状态的计划订单将在下一次计划运行期间删除。
-- **已完成：** 如果您决定不确认计划订单，可以将状态更改为 *已完成* 以表示您已完成对该计划订单的评估。 请注意，系统同等对待 *未处理* 和 *已完成* 状态。
-- **已批准：** 如果要保留编辑或计划确定计划订单，请将状态更改为 *已批准*。 主计划将状态为 *已批准* 的计划订单视为已确定和预期供应，所以不会在随后的主计划运行期间修改或删除这些订单。 为此，计划逻辑会在主计划期间将 *已审核* 的计划订单从旧计划版本复制到新计划版本。 请注意，*已批准* 的计划订单在特定主计划内仅视为供应。
+## <a name="view-and-edit-the-status-of-planned-orders"></a>查看和编辑计划订单的状态
 
-您可以从 **主计划** 工作区、**计划订单** 列表或 **计划生产订单**、**计划采购订单** 和 **计划转移** 列表中管理计划订单。
+您可以使用每个计划订单的 **状态** 字段来帮助跟踪进度或更改计划订单的处理方式。 提供以下 **状态** 值：
+
+- **未处理** – 当主计划生成计划订单时，它们将获得此状态。 具有此状态的计划订单将在下一次计划运行期间删除。
+- **已完成** – 此状态指示计划订单已完成。 如果您决定不确认某一计划订单，可以将其状态手动更改为 *已完成*。 请注意，系统以相同的方式对待 *未处理* 和 *已完成* 状态。
+- **已审核** – 此状态指示计划订单已审核，可以确认。 如果要确认计划订单，可将其状态更改为 *已审核*。 如果要保留对计划订单所做的编辑，或者打算确认计划订单，请将其状态更改为 *已审核*。 状态为 *已审核* 的计划订单将被主计划视为固定供应和预期供应。 因此，在之后的主计划运行中不会对其进行修改或删除。 为实现此行为，计划逻辑会在主计划期间将状态为 *已审核* 的计划订单从旧计划版本复制到新计划版本。 请注意，状态为 *已审核* 的计划订单仅在特定主计划内视为供应。
+
+要更改单个计划订单的状态，[打开任何计划订单列表页](#view-planned-orders)，打开订单，然后执行以下步骤之一：
+
+- 在 **常规** 快速选项卡上，更改 **状态** 字段的值。
+- 在操作窗格的 **计划订单** 选项卡上，在 **流程** 组中，选择 **更改状态**。
+- 在操作窗格上，选择 **审核** 将订单标记为已审核。
+
+要同时更改多个计划订单的状态，[打开任何计划订单列表页](#view-planned-orders)，选中要更改的每个订单的复选框，然后执行以下步骤之一：
+
+- 在操作窗格的 **计划订单** 选项卡上，在 **流程** 组中，选择 **更改状态**。
+- 在操作窗格上，选择 **审核** 将订单标记为已审核。
+
+## <a name="approve-planned-orders"></a>审核计划订单
+
+审核计划订单是从计划订单创建确认订单过程中的可选步骤。
+
+下图显示了如何使用分配给每个计划订单的 **状态** 值来实施审核工作流。 要实施审核流程，请按照上一节中所述为每个计划订单手动调整 **状态** 值。
+
+![计划订单流。](media/approved-planned-orders-1.png)
+
+> [!TIP]
+> 我们建议您审核所有修改的计划订单。 否则，所做编辑将被下一次计划运行忽略和覆盖。
+
+## <a name="additional-resources"></a>其他资源
+
+- [确定计划订单](planned-order-firming.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

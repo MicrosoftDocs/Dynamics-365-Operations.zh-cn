@@ -2,30 +2,29 @@
 title: 使用部门、工作和职位组织您的劳动力
 description: 部门、作业和职位在人力资源中维护的组织元素。 本文介绍有关这些元素的概念信息。
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417441"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058816"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 部门、作业和职位在人力资源中维护的组织元素。 本文介绍有关这些元素的概念信息。 
 
@@ -120,7 +119,7 @@ ms.locfileid: "4417441"
 
 职位是更低级别的组织层次结构中的重要元素。 在“职位”窗体中，您可以指定某个职位向其进行报告的职位。 将工作人员分配到向另一个职位报告的职位时，创建分配给两个职位的工作人员之间的报告关系。 例如，职位“会计师-A”向职位“会计主管”报告。 Kim Akers 分配到职位“会计主管”，而 Sanjay Patel 分配到职位“会计师-A”。 这意味着 Sanjay Patel 向 Kim Akers 报告。 
 
-如果您的组织使用矩阵层次结构或其他自定义层次结构，则可以设置职位层次结构类型，然后将报告关系添加到您设置的每个层次结构类型的职位。 例如，Lori Penor 是 Adventure Works 的总经理，并分配到职位“总经理”。 Lori 管理用于清洗小机械的产品的开发。 Lori 要求会计帮助其为开发产品融资。 因此，她招聘 Sanjay Patel 为其会计。 Sanjay 直接向 Kim Akers 报告，并与 Lori Penor 一起从事其与为开发小机械清洗剂融资相关的工作。 
+如果您的组织使用矩阵层次结构或其他自定义层次结构，则可以设置职位层次结构类型，然后将报告关系添加到您设置的每个层次结构类型的职位。 例如，Lori Penor 是 Adventure Works 的总经理，并分配到职位“总经理”。 Lori 管理用于清洗小机械的产品的开发。 Lori 要求会计帮助为开发产品融资。 因此，她招聘 Sanjay Patel 为会计。 Sanjay 直接向 Kim Akers 报告，并与 Lori Penor 一起从事其与为开发小机械清洗剂融资相关的工作。 
 
 对于前面的示例，您可以完成以下任务来设置 Sanjay Patel 和 Lori Penor 之间的工作关系：
 1.  创建一个名为“小机械”的自定义职位层次结构类型，以创建包括负责从事小机械清洗剂产品工作的职位的层次结构。
@@ -159,9 +158,12 @@ ms.locfileid: "4417441"
 </tbody>
 </table>
 
-您可修改针对职位和作业的前一表中提及的信息，并指定对职位或作业进行的修改的生效日期。 例如，职位只能分配给一名工作人员，但分配到会计师-A 的 Sanjay Patel 将在两周内离职。 Joe Healy 将在 Sanjay Patel 离职时代替其职位。 即使 Sanjay 仍分配到他的位置，您仍可以将 Joe Healy 分配到同一个位置，以便分配仅在 Sanjay 的最后一天后生效。
+您可修改针对职位和作业的前一表中提及的信息，并指定对职位或作业进行的修改的生效日期。 例如，职位只能分配给一名工作人员，但分配到会计师-A 的 Sanjay Patel 将在两周内离职。 Joe Healy 将在 Sanjay Patel 离职时接任他的职位。 即使 Sanjay 仍分配到他的位置，您仍可以将 Joe Healy 分配到同一个位置，以便分配仅在 Sanjay 的最后一天后生效。
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 库存可见性加载项
 description: 本主题介绍如何为 Dynamics 365 Supply Chain Management 安装和配置库存可见性加载项。
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625057"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574214"
 ---
 # <a name="inventory-visibility-add-in"></a>库存可见性加载项
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 库存可见性加载项是一项独立且高度可扩展的微服务，可实现实时现有库存跟踪，并提供库存可见性的全局视图。
 
 通过低级别 SQL 集成，准实时地将与现有库存相关的所有信息导出到服务中。 外部系统通过 RESTful API 访问服务，以查询有关给定维度集的现有信息，从而检索可用现有位置的列表。
 
-库存可见性是基于 Common Data Service 生成的微服务，这意味着您可以通过生成 Power Apps 和应用 Power BI 来扩展它，从而提供自定义功能以满足您的业务需求。 也可以升级索引以进行库存查询。
+库存可见性是基于 Microsoft Dataverse 生成的微服务，这意味着您可以通过生成 Power Apps 和应用 Power BI 来扩展它，从而提供自定义功能以满足您的业务需求。 也可以升级索引以进行库存查询。
 
 库存可见性提供配置选项，使其可以与多个第三方系统集成。 它支持标准化的库存维度、自定义的可扩展性以及标准化的可配置的计算数量。
 
@@ -48,11 +48,64 @@ ms.locfileid: "4625057"
 在安装库存可见性加载项之前，您必须执行以下操作：
 
 - 获取至少部署了一个环境的 LCS 实施项目。
-- 在 LCS 中为您的产品/服务生成测试密钥。
-- 在 LCS 中为您的用户启用产品/服务的测试密钥。
-- 请与 Microsoft 库存可见性产品团队联系，并提供要在其中部署库存可见性加载项的环境 ID。
+- 确保[加载项概述](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)中提供的设置加载项的先决条件已经满足。 库存可见性不需要双写入链接。
+- 请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性团队联系，获取以下三个必需文件：
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip`（如果您运行的 Supply Chain Management 的版本早于版本 10.0.18）
+
+> [!NOTE]
+> 目前支持的国家和地区包括加拿大、美国和欧盟 (EU)。
 
 如果您对这些先决条件有任何疑问，请与库存可视性产品团队联系。
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>设置 Dataverse
+
+请按照下列步骤设置 Dataverse。
+
+1. 向您的租户添加服务原则：
+
+    1. 如[安装 Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 中所述安装 Azure AD PowerShell 模块 v2。
+    1. 运行以下 PowerShell 命令。
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. 在 Dataverse 中为库存可见性创建应用程序用户：
+
+    1. 打开您的 Dataverse 环境的 URL。
+    1. 转到 **高级设置 \> 系统 \> 安全 \> 用户**，创建应用程序用户。 使用视图菜单将页面视图更改为 **应用程序用户**。
+    1. 选择 **新建**。 将应用程序 ID 设置为 *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*。 （保存更改后，对象 ID 将自动加载。）您可以自定义名称。 例如，您可以将其更改为 *库存可见性*。 当您完成时，选择 **保存**。
+    1. 选择 **分配角色**，然后选择 **系统管理员**。 如果有一个名为 **Common Data Service 用户** 的角色，也选择它。
+
+    有关详细信息，请参阅[创建应用程序用户](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
+
+1. 导入 `Inventory Visibility Dataverse Solution.zip` 文件，其中包括与 Dataverse 配置相关的实体和 Power Apps：
+
+    1. 转到 **解决方案** 页。
+    1. 选择 **导入**。
+
+1. 导入配置升级触发流：
+
+    1. 转到 Microsoft Flow 页。
+    1. 确保存在名为 *Dataverse (旧版)* 的连接。 （如果不存在，请创建。）
+    1. 导入 `Inventory Visibility Configuration Trigger.zip` 文件。 导入后，触发器将出现在 **我的流** 下。
+    1. 根据环境信息初始化以下四个变量：
+
+        - Azure 租户 ID
+        - Azure 应用程序客户端 ID
+        - Azure 应用程序客户端密码
+        - 库存可见性终结点
+
+            有关此变量的详细信息，请参阅本主题后面的[设置库存可见性集成](#setup-inventory-visibility-integration)一节。
+
+        ![配置触发器](media/configuration-trigger.png "配置触发器")
+
+    1. 选择 **打开**。
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>安装加载项
 
@@ -61,14 +114,16 @@ ms.locfileid: "4625057"
 1. 登录到 [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) 门户。
 1. 在主页上，选择在其中部署环境的项目。
 1. 在项目页面上，选择要在其中安装加载项的环境。
-1. 在环境页面上，向下滚动，直到看到 **环境加载项** 部分。 如果看不到该部分，请确保已完全处理必备的测试密钥。
+1. 在环境页上，向下滚动，直到看到 **Power Platform 集成** 部分中的 **环境加载项** 部分，您可以在其中找到 Dataverse 环境名称。
 1. 在 **环境加载项** 部分中，选择 **安装新加载项**。
+
     ![LCS 中的环境页面](media/inventory-visibility-environment.png "LCS 中的环境页面")
+
 1. 选择 **安装新加载项** 链接。 将打开可用加载项的列表。
-1. 从列表中选择 **库存服务**。 （请注意，这现在可能作为 **Dynamics 365 Supply Chain Management 的库存可见性加载项** 列出。）
+1. 在列表中选择 **库存可见性**。
 1. 为您的环境输入以下字段的值：
 
-    - **AAD 应用程序 ID**
+    - **AAD 应用程序（客户端）ID**
     - **AAD 租户 ID**
 
     ![加载项设置页面](media/inventory-visibility-setup.png "加载项设置页面")
@@ -76,32 +131,122 @@ ms.locfileid: "4625057"
 1. 通过选中 **条款和条件** 复选框同意条款和条件。
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 完成后，刷新页面以查看状态更改为 **已安装**。
 
-### <a name="get-a-security-service-token"></a>获取安全服务令牌
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>卸载加载项
 
-若要获取安全服务令牌，请执行以下操作：
+若要卸载加载项，请选择 **卸载**。 刷新 LCS 时，库存可见性加载项将被删除。 卸载流程将删除加载项注册，还将启动作业以清理存储在服务中的所有业务数据。
 
-1. 获取 `aadToken` 并调用终结点：https://securityservice.operations365.dynamics.com/token。
-1. 使用 `aadToken` 替换正文中的 `client_assertion`。
-1. 使用要在其中部署加载项的环境替换正文中的上下文。
-1. 使用以下项替换正文中的范围：
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>使用 Supply Chain Management 中的现有库存量数据
 
-    - MCK 的范围 -“https://inventoryservice.operations365.dynamics.cn/.default”  
-    （您可以在 `appsettings.mck.json` 中找到 MCK 的 Azure Active Directory 应用程序 ID 和租户 ID。）
-    - PROD 的范围 -“https://inventoryservice.operations365.dynamics.com/.default”  
-    （您可以在 `appsettings.prod.json` 中找到 PROD 的 Azure Active Directory 应用程序 ID 和租户 ID。）
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>部署库存可见性集成包
 
-    结果应类似于以下示例。
+如果您运行的是 Supply Chain Management 版本 10.0.17 或更早版本，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性当班支持团队联系获取包文件。 然后在 LCS 中部署包。
+
+> [!NOTE]
+> 如果在部署过程中发生版本不匹配错误，则必须手动将 X++ 项目导入到您的开发环境。 然后在您的开发环境中创建可部署包，并在您的生产环境中部署。
+> 
+> 此代码包含在 Supply Chain Management 版本 10.0.18 中。 如果您运行的是该版本或更高版本，则不需要进行部署。
+
+确保在您的 Supply Chain Management 环境中启用了以下功能。 （默认情况下，它们是打开的。）
+
+| 功能描述 | 代码版本 | 切换类 |
+|---|---|---|
+| 在 InventSum 表上启用或禁用使用库存维度 | 10.0.11 | InventUseDimOfInventSumToggle |
+| 在 InventSumDelta 表上启用或禁用使用库存维度 | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>设置库存可见性集成
+
+1. 在 Supply Chain Management 中，打开 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区，然后打开 **库存可见性集成** 功能。
+1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**，输入要运行“库存可见性”的环境的 URL。
+
+    找到您的 LCS 环境的 Azure 区域，然后输入 URL。 URL 具有以下形式：
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    例如，如果您在欧洲，您的环境将具有以下 URL 之一：
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    以下区域当前可用。
+
+    | Azure 区域 | 区域短名称 |
+    |---|---|
+    | 澳大利亚东部 | eau |
+    | 澳大利亚东南部 | seau |
+    | 加拿大中部 | cca |
+    | 加拿大东部 | eca |
+    | 欧洲北部 | neu |
+    | 西欧 | weu |
+    | 美国东部 | eus |
+    | 美国西部 | wus |
+
+1. 转到 **库存管理 \> 定期 \> 库存可见性集成**，启用作业。 现在，来自 Supply Chain Management 的所有库存更改事件都将发布到库存可见性。
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>库存可见性加载项公共 API
+
+库存可见性加载项的公共 REST API 为集成提供几个特定终结点。 它支持三种主要交互类型：
+
+- 从外部系统发布对加载项的现有库存量更改
+- 从外部系统查询当前的现有数量
+- 自动与 Supply Chain Management 现有库存量同步
+
+自动同步不是公共 API 的一部分。 而会在启用了库存可见性加载项的环境的后台处理。
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>身份验证
+
+平台安全令牌用于调用库存可见性加载项。 因此，您必须使用Azure AD 应用程序生成 *Azure Active Directory (Azure AD) 令牌*。 然后，必须使用 Azure AD 令牌从安全服务获取 *访问令牌*。
+
+通过执行以下操作获取安全服务令牌：
+
+1. 登录到 Azure 门户，使用它为您的 Supply Chain Management 应用程序查找 `clientId` 和 `clientSecret`。
+1. 通过提交包含以下属性的 HTTP 请求来获取 Azure Active Directory 令牌 (`aadToken`)：
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **方法** - `GET`
+    - **正文内容（窗体数据）**：
+
+        | 键 | 值 |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. 您应该会在响应中收到一个 `aadToken`，类似于以下示例。
+
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. 创建一个类似于以下请求的 JSON 请求：
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    其中：
+    - `client_assertion` 值必须是您在上一步中收到的 `aadToken`。
+    - `context` 值必须是要在其中部署加载项的环境 ID。
+    - 如示例中所示设置所有其他值。
+
+1. 提交包含以下属性的 HTTP 请求：
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **方法** - `POST`
+    - **HTTP 标题** - 包含 API 版本（键为 `Api-Version`，值为 `1.0`）
+    - **正文内容** - 包括您在上一步中创建的 JSON 请求。
 
 1. 您将获得 `access_token` 作为回应。 您需要使用它作为持有者令牌来调用库存可见性 API。 下面是一个示例。
 
@@ -113,27 +258,7 @@ ms.locfileid: "4625057"
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>卸载加载项
-
-若要卸载加载项，请选择 **卸载**。 刷新 LCS，库存可见性加载项将会删除。 卸载流程将删除加载项注册，还将启动作业以清理存储在服务中的所有业务数据。
-
-## <a name="inventory-visibility-add-in-public-api"></a>库存可见性加载项公共 API
-
-库存可见性加载项的公共 REST API 提供集成的几个特定终结点。 它支持三种主要交互类型：
-
-- 从外部系统发布对加载项的现有更改。
-- 从外部系统查询当前的现有数量。
-- 自动与现有 Supply Chain Management 同步。
-
-自动同步不是公共 API 的一部分，而是在启用了库存可见性加载项的环境中在后台处理。
-
-### <a name="authentication"></a>身份验证
-
-平台安全令牌用于调用库存可见性加载项，因此您必须使用 Azure Active Directory 应用程序生成 Azure Active Directory 令牌。
-
-有关如何获取安全令牌的详细信息，请参阅[安装库存可见性加载项](#install-add-in)。
-
-### <a name="configure-the-inventory-visibility-api"></a>配置库存可见性 API
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>配置库存可见性 API
 
 使用该服务之前，必须完成以下子部分中所述的配置。 配置因您的环境的详细信息而异。 它主要包括四个部分：
 
@@ -230,7 +355,7 @@ ms.locfileid: "4625057"
 
 #### <a name="custom-measurement"></a>自定义度量
 
-默认度量数量将链接到 Supply Chain Management，但是您可能希望拥有由默认度量组合组成的数量。 为此，您可以配置自定义数量，它们将添加到现有查询的输出中。
+默认度量数量将链接到 Supply Chain Management。 但是，您可能需要有由默认度量的组合组成的数量。 为此，您可以配置自定义数量，它们将添加到现有查询的输出中。
 
 该功能仅允许您定义一组要添加的度量，和/或一组要减去的度量，以便形成自定义度量。
 
@@ -500,3 +625,6 @@ ms.locfileid: "4625057"
 ```
 
 请注意，数量字段将构造为度量及其相关值的字典。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: 发票审核移动工作区
-description: 此主题提供有关发票审核移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。
+description: 此主题提供有关发票审核移动工作区的信息。
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759972"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 
@@ -74,7 +72,7 @@ ms.locfileid: "4683400"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>使用发票审核移动工作区审核发票
 1.  在移动设备上，选择 **发票审核** 工作区。
@@ -86,3 +84,6 @@ ms.locfileid: "4683400"
 7.  选择 **附件** 以查看附加到发票的所有附注或文件。
 8.  在 **发票详细信息** 页，选择相应的工作流操作完成您的审核流程。
 9.  选择 **完成**。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

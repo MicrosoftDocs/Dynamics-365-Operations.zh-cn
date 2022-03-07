@@ -2,27 +2,24 @@
 title: Dynamics 365 Supply Chain Management 10.0.11（2020 年 6 月）新增功能或更改
 description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.11 中的新增功能或更改的功能。
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 76a28b9285bb8edfaaee7f9bc3cb4f03deb7a731abb55624394278d72398c748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4423305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723519"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11 的新增功能或更改（2020 年 7 月）
 
@@ -36,19 +33,19 @@ ms.locfileid: "4423305"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 功能标题链接至[发布计划](https://docs.microsoft.com/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+此版本中包含以下功能。 功能标题链接至[发布计划](/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
-- [现有库存报表存储](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [现有库存报表存储](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [仓库应用的牌照接收增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库应用进行的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
+- [仓库应用的牌照接收增强](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - 有关详细信息，请参阅[通过仓库管理移动应用的牌照接收](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)。
 
-- [批号预留窗体的行预留增强](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - 有关详细信息，请参阅[为销售订单预留相同批次](../sales-marketing/reserve-same-batch-sales-order.md)。
+- [批号预留窗体的行预留增强](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - 有关详细信息，请参阅[为销售订单预留相同批次](../sales-marketing/reserve-same-batch-sales-order.md)。
 
-- [制造区域的新数据实体](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [制造区域的新数据实体](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [负荷数量超收](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。
+- [负荷数量超收](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。
 
-- [从作业卡设备对批号进行完工入库](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - 有关详细信息，请参阅[从作业卡设备报告为已完工入库](../production-control/report-finished-job-device.md)。
+- [从作业卡设备对批号进行完工入库](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - 有关详细信息，请参阅[从作业卡设备报告为已完工入库](../production-control/report-finished-job-device.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -64,7 +61,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.11 中包含平台更新。 
 
 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？
 
-查看 [Dynamics 365：2020 发布波次 1 计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
+查看 [Dynamics 365：2020 发布波次 1 计划](/dynamics365-release-plan/2020wave1/index)。 一个文档汇总了所有端到端、上至下的详细信息，可用其进行规划。
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
@@ -76,3 +73,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.11 中包含平台更新。 
 从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

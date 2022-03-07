@@ -2,25 +2,22 @@
 title: 运输管理状态
 description: 此主题说明如何创建运输状态并将该状态映射到承运人状态。
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423461"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569881"
 ---
 # <a name="transportation-management-statuses"></a>运输管理状态
 
@@ -49,3 +46,6 @@ ms.locfileid: "4423461"
 1. 选择要映射到所选装运承运人代码的运输状态代码。
 1. 输入装运承运人使用的外部代码。
 1. 关闭该页面。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

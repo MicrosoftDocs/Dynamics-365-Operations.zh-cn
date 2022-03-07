@@ -2,26 +2,23 @@
 title: 设置中国的基本税务集成模板
 description: 此过程显示如何设置税务集成模板，更新有关颁发增值税发票的客户设置，以及为中国设置增值税发票说明。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxProfileTable_CN, HcmWorkerLookUp, UnitOfMeasureLookup, CustTable, LogisticsPostalAddress, TaxGroupLookup, VATInvoiceDescTable_CN
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 732eefdce7b9f6fc3d132eeb0f132f8d9a2d160e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc02ff26a9489e454cd84025be9487aeecbefefafb9a25cef611da0b6a238820
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757031"
 ---
 # <a name="set-up-basic-tax-integration-profile-for-china"></a>设置中国的基本税务集成模板
 
@@ -70,3 +67,6 @@ ms.locfileid: "4409749"
 35. 在“单位”字段中，输入或选择一个值。
 36. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: 数字资产管理概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 站点构建器中的数字资产管理。
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 73c41d97727c461a959d05e76c27efa49e9b5775
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594348"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983178"
 ---
 # <a name="digital-asset-management-overview"></a>数字资产管理概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 站点构建器中的数字资产管理。
-
-## <a name="overview"></a>概览
 
 Dynamics 365 Commerce 站点构建器的媒体库中拥有丰富的数字资产管理功能，包括对以下对象的支持：
 - 图像资产
@@ -60,3 +54,6 @@ Dynamics 365 Commerce 站点构建器的媒体库中拥有丰富的数字资产�
 [自定义图像焦点](dam-custom-focal-point.md)
 
 [上传和提供静态文件](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,46 +1,50 @@
 ---
 title: 修改职位的报告关系
 description: 该过程展示如何更改员工的报告关系。
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417473"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066617"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>修改职位的报告关系
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 该过程展示如何更改员工的报告关系。 该报告关系可以通过工作流用于路线选择文件。 该过程同时也说明了如何分配给该员工附加的层次结构。 例如，一个员工作为某项目组的成员，与项目主管是非正式报告关系。 通过职位定义附加的报告关系可以用于调节各种项目或者矩阵方案。 创建此程序的演示数据公司是 USMF。
 
-1. 转到“人力资源”>“职位”>“职位”。
-2. 使用“快速筛选器”以查找记录。 例如，在“职位”字段中用值“000091”进行筛选。
-3. 在列表中，单击所选行中的链接。
-4. 展开“职位报告”部分。
-5. 单击“新建”，以打开对话框。
-6. 在“报告”字段中，输入或选择一个值。
-7. 单击“创建”。
-8. 展开“关系”部分。
-9. 单击“添加”。
+1. 转到 **人力资源** \> **职位** \> **职位**。
+2. 使用“快速筛选器”以查找记录。 例如，对 **职位** 字段使用值 **000091** 进行筛选。
+3. 在列表中，选择所选择行中的链接。
+4. 展开 **直接上级职位** 部分。
+5. 选择 **新建** 打开下拉对话框。
+6. 在 **直接上级** 字段中，输入或选择一个值。
+7. 选择 **创建**。
+8. 展开 **关系** 部分。
+9. 选择 **添加**。
 10. 选择表格左侧的复选框。
-11. 在“层次结构名称”字段中，输入或选择一个值。
-    * 示例：项目  
-12. 在“直接上级职位”字段中，输入或选择一个值。  示例：000437
-13. 单击“保存”。
+11. 在 **层次结构名称** 字段中，输入或选择一个值（例如，**项目**）。
+12. 在 **直接上级职位** 字段中，输入或选择一个值（例如，**000437**）。
+13. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

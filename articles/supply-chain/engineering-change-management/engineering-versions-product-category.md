@@ -2,26 +2,23 @@
 title: 工程版本和工程产品类别
 description: 本主题提供有关工程版本概念的信息。 工程版本确保产品及其数据的不同状态保持最新，并可以在系统中进行可视化。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423445"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572881"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>工程版本和工程产品类别
 
@@ -51,7 +48,8 @@ ms.locfileid: "4423445"
 - 已创建并拥有产品的工程公司（有关详细信息，请参阅[工程公司和数据所有权规则](engineering-org-data-ownership-rules.md)。）
 - 相关工程文档，例如装配手册、用户说明、图片和链接
 - 工程属性（有关详细信息，请参阅[工程属性和工程属性搜索](engineering-attributes-and-search.md)。）
-- 工程 BOM
+- 工程产品的物料清单 (BOM)
+- 处理制造产品的配方
 - 工程工艺路线
 
 您可以使用 *工程更改订单* 在现有版本上更新此数据，活创建新版本。 （有关详细信息，请参阅[管理工程产品的更改](engineering-change-management.md)。）如果您创建产品的新版本，系统会将所有工程相关数据复制到该新版本。 然后，您可以修改该新版本的数据。 这样，您可以跟踪每个连续版本的特定数据。 若要比较连续工程版本之间的差异，请检查工程更改订单，其中包括指示所有更改的更改类型。
@@ -113,9 +111,11 @@ ms.locfileid: "4423445"
 | 字段 | 说明 |
 |---|---|
 | 产品类型 | 选择类别是否适用于产品或服务。 |
-| 跟踪交易中的版本 | 选择是否应在所有交易（物流影响）上标记产品的版本。 例如，如果您跟踪交易中的版本，每个销售订单都将显示在该销售订单中出售了产品的哪个特定版本。 如果您不跟踪交易中的版本，销售订单将不会显示出售了哪个特定版本。 相反，它们始终显示最新版本。<ul><li>如果此选项设置为 *是*，将为产品创建基础产品，并且该产品的每个版本都是使用 *版本* 产品维度的变型。 **产品子类型** 字段自动设置为 *基础产品*，并且您必须选择 *版本* 维度处于活动状态的产品维度组。 将仅显示 *版本* 是活动维度的产品维度组。 您可以通过选择 **编辑** 按钮（铅笔符号）创建新的产品维度组。</li><li>如果此选项设置为 *否*，将不使用 *版本* 产品维度。 然后，您可以选择是否创建使用其他维度的产品或基础产品。</li></ul><p>此选项通常用于版本之间具有成本差异的产品，或针对客户适用不同条件的产品。 因此，指示在每个交易中使用了哪个版本很重要。</p> |
+| 生产类型 | 此字段仅在您在系统中启用了[配方更改管理](manage-formula-changes.md)时出现。 选择此工程产品类别适用的生产类型：<ul><li>**计划物料** – 使用此工程类别对计划物料进行配方更改管理。 计划物料使用配方。 它们类似于配方物料，但仅用于生产联产品和副产品，不用于生产成品。 配方在处理制造过程中使用。</li><li>**物料清单** – 使用此工程类别管理不使用配方、通常（但不一定）包括物料清单的工程产品。</li><li>**配方** – 使用此工程类别对成品进行配方更改管理。 这些物料将有配方，但没有物料清单。 配方在处理制造过程中使用。</li></ul> |
+| 实际称重 | 此选项仅在您在系统中启用了[配方更改管理](manage-formula-changes.md)时出现。 仅在 **生产类型** 字段设置为 *计划物料* 或 *配方* 时可用。 如果您将使用此工程类别管理需要实际称重支持的物料，将此选项设置为 *是*。 |
+| 跟踪交易中的版本 | 选择是否应在所有交易（物流影响）上标记产品的版本。 例如，如果您跟踪交易中的版本，每个销售订单都将显示在该销售订单中出售了产品的哪个特定版本。 如果您不跟踪交易中的版本，销售订单将不会显示出售了哪个特定版本。 相反，它们始终显示最新版本。<ul><li>如果此选项设置为 *是*，将为产品创建基础产品，并且该产品的每个版本都是使用 *版本* 产品维度的变型。 **产品子类型** 字段将自动设置为 *基础产品*，并且，在 **产品维度组** 字段中，您必须选择 *版本* 维度处于活动状态的产品维度组。 将仅显示 *版本* 是活动维度的产品维度组。 您可以通过选择 **编辑** 按钮（铅笔符号）创建新的产品维度组。</li><li>如果此选项设置为 *否*，将不使用 *版本* 产品维度。 然后，您可以选择是否创建使用其他维度的产品或基础产品。</li></ul><p>此选项通常用于版本之间具有成本差异的产品，或针对客户适用不同条件的产品。 因此，指示在每个交易中使用了哪个版本很重要。</p> |
 | 产品子类型 | 选择类别是否将包含产品或基础产品。 对于基于产品，将使用产品维度。
-| 产品维度组 | **跟踪交易中的版本** 设置可帮助您选择产品子类型。 如果您指定要跟踪交易中的版本，将显示使用 *版本* 维度的产品维度组。 否则，将仅显示不使用 *版本* 维度的产品维度组。 |
+| 产品维度组 | **跟踪交易中的版本** 设置可帮助您选择产品维度组。 如果您指定了要跟踪交易中的版本，将显示使用 *版本* 维度的产品维度组。 否则，将仅显示不使用 *版本* 维度的产品维度组。 |
 | 创建时的产品生命周期状态 | 设置工程产品在首次创建时应具有的默认产品生命周期状态。 有关详细信息，请参阅[产品生命周期状态和交易](product-lifecycle-state-transactions.md)。 |
 | 版本号规则 | 选择适用于该类别的版本号规则：<ul><li>**手动** – 您为每个新版本选择版本号。</li><li>**自动** – 系统根据您定义的格式设置版本号。 设置格式时，请使用数字符号 (\#) 表示一个数字，任何其他字符表示一个常数值。 例如，如果您将格式定义为 *V-\#\#*，第一个版本将为“V-01”，第二个版本将为“V-02”，依此类推。</li><li>**列表** – 系统从您定义的自定义值的预定义列表中获取下一个编号。</li></ul> |
 | 强制实施有效性 | 选择工程版本的生效日期必须是连续的，还是可能存在空白和重叠。 此设置会影响您使用该类别适用的每个工程版本的 **生效开始日期** 和 **生效截止日期** 字段的方式。<ul><li>如果此选项设置为 *是*，必须为每个版本指定 **生效开始日期** 值，并且版本之间不允许存在重叠或空白。 每个工程版本的日期范围都直接连接到上一个和下一个工程版本（如果存在）。 在这种情况下，始终使用最新版本，而不再使用旧版本。</li><li>如果此选项设置为 **否**，对于工程版本的生效日期字段没有任何限制，并且允许存在重叠和空白。 在这种情况下，多个版本可以同时处于活动状态，并且您可以使用任何活动版本。</li></ul><p>此选项还会影响连接到产品版本的 BOM 和工艺路线。 有关详细信息，请参阅本主题后面的[将 BOM 和工艺路线连接到工程版本](#boms-routes)部分。</p> |
@@ -142,7 +142,10 @@ ms.locfileid: "4423445"
 
 ### <a name="readiness-policy-fasttab"></a>准备策略快速选项卡
 
-使用 **产品准备策略** 字段，选择适用于属于此类别的产品的准备策略。 有关详细信息，请参阅[产品准备](product-readiness.md)。
+使用 **产品准备策略** 字段选择应该应用于基于此工程类别创建的产品的准备策略。 有关详细信息，请参阅[产品准备](product-readiness.md)。
+
+> [!NOTE]
+> 如果您在系统中打开了 *产品就绪情况检查* 功能，**产品准备策略** 字段的工作方式略有不同。 （该功能可让您将准备策略应用于标准\[非工程\]产品）。 有关详细信息，请参阅[为标准和工程产品分配准备策略](product-readiness.md#assign-policy)。
 
 ### <a name="release-policy-fasttab"></a>发布策略快速选项卡
 
@@ -162,3 +165,6 @@ ms.locfileid: "4423445"
 对于您正在使用 *版本* 产品维度的产品（具有对交易的物流影响），该版本也会添加到 BOM 和工艺路线中。 此行为有助于区分连续版本的 BOM 和工艺路线，无论 **强制实施有效性** 设置如何。
 
 对于您不使用 *版本* 产品维度的产品（没有对交易的物流影响），该版本不会添加到 BOM 或工艺路线中。 因此，连续版本的 BOM 和工艺路线之间不存在差异。 在这种情况下，我们强烈建议您将 **强制实施有效性** 选项设置为 *是*。 这样，可以帮助防止工程版本重叠，并且还可以激活新版本的 BOM 和工艺路线，而无需先停用以前版本的 BOM 和工艺路线。 如果您将 **强制实施有效性** 选项设置为 *是*，必须先手动停用旧版本的 BOM 和工艺路线，然后才能激活最新版本。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

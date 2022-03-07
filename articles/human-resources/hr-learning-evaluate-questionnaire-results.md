@@ -1,33 +1,35 @@
 ---
 title: 查看和评估调查表的结果
-description: 本文介绍如何查看和评估回应者完成的调查表的结果。
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: 本主题介绍如何查看和评估回应者完成的调查表的结果。
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417517"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070694"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>查看和评估调查表的结果
 
-本文介绍如何查看和评估回应者完成的调查表的结果。 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+本主题介绍如何查看和评估回应者完成的调查表的结果。 
 
 调查对象完成调查表后，您可以以下列方式查看和评估调查表结果：
 
@@ -72,3 +74,5 @@ ms.locfileid: "4417517"
 -   选择或验证标准以按回应者或调查表特征分析结果。 例如，通过选择 **邮政编码**，您可以分析回应者的位置和正确回答之间的相关性。
 
 您定义的设置将被保存下来并且可用于定期重新计算结果。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

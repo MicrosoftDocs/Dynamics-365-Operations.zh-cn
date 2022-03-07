@@ -2,28 +2,25 @@
 title: 减少拆分后的余额折旧
 description: 本主题描述固定资产中使用减少余额方法拆分资产后用于计算折旧的方法。
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650649"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826243"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>减少拆分后的余额折旧
 
@@ -45,3 +42,6 @@ ms.locfileid: "4650649"
 原始资产的折旧额为 1,822.25 美元。 该金额等于拆分交易过帐之前的 NBV（9,111.25 美元）加上拆分交易过帐期间产生的购置调整（-8,000 美元），再加上拆分交易期间产生的折旧调整（711 美元）。 因此，第二年的折旧为 (1,822.25×18％) ÷12 = 27.33 美元。
 
 第一年新固定资产的折旧额为 (8,000×18％) ÷12 = 120 美元。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

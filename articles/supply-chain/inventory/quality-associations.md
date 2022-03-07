@@ -1,7 +1,7 @@
 ---
 title: 质量关联
 description: 本主题介绍如何使用 Microsoft Dynamics 365 Supply Chain Management 中的质量关联来自动生成与您的销售、采购和生产流程相关的质检订单。
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28984730e5660414eec1ba087eb5de1eba4cbbb8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b0705af8f8c40db82e412f294f45f704b7a628c1ced679cef25ce77d49642feb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724836"
 ---
 # <a name="quality-associations"></a>质量关联
 
@@ -203,7 +203,7 @@ ms.locfileid: "7571921"
 <td rowspan="3">工艺路线工序</td>
 <td rowspan="3">报告为完工入库</td>
 <td rowspan="2">之前</td>
-<td>无</td>
+<td>否</td>
 <td rowspan="3">特定 ID、组或全部，以及特定资源、组或全部</td>
 </tr>
 <tr>
@@ -211,13 +211,13 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>之后</td>
-<td>无</td>
+<td>否</td>
 </tr>
 <tr>
 <td rowspan="3">联产品生产</td>
 <td>注册</td>
 <td>不适用</td>
-<td rowspan="3">无</td>
+<td rowspan="3">否</td>
 <td rowspan="3">所有</td>
 </tr>
 <tr>
@@ -344,7 +344,7 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>固定数量：1</td>
-<td>否</td>
+<td>无</td>
 <td>
 <p>批处理号：否</p>
 <p>序列号：否</p>
@@ -399,7 +399,7 @@ ms.locfileid: "7571921"
 </tr>
 <tr>
 <td>固定数量：2</td>
-<td>否</td>
+<td>无</td>
 <td>
 <p>批处理号：是</p>
 <p>序列号：是</p>

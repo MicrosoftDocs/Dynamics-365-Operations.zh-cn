@@ -2,7 +2,7 @@
 title: 设置意大利 FatturaPA 与 SDI 的直接集成
 description: 本主题提供的信息将帮助您开始使用适用于意大利的电子开票功能，并设置意大利 FatturaPA 与 Exchange 系统 (SDI) 的直接集成。
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 12/14/2021
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,16 +10,18 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984795"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922444"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>设置意大利 FatturaPA 与 SDI 的直接集成
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > 适用于意大利的电子开票当前可能不支持 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中可用于电子发票的所有功能。

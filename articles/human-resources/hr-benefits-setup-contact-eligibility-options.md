@@ -1,33 +1,35 @@
 ---
 title: 配置个人联系人资格选项
-description: 在 Microsoft Dynamics 365 Human Resources 中为个人联系人配置资格选项。 个人联系人可以是受益人或依赖方。
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: 本主题说明如何在 Microsoft Dynamics 365 Human Resources 中为个人联系人配置资格选项。
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417479"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070342"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>配置个人联系人资格选项
 
-本文向您展示如何在 Microsoft Dynamics 365 Human Resources 中配置要在福利中使用的个人联系人的类型。 个人联系人可以是受益人或依赖方。 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+本主题将介绍如何在 Microsoft Dynamics 365 Human Resources 中配置可以在福利中使用的个人联系人的类型。 个人联系人是您的计划覆盖的个人（依赖方）或将从您的计划中受益的个人（受益人）。 依赖方通常是配偶或子女。 受益人可以是配偶、子女、信托人或父母。
 
 1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **个人联系人资格选项**。
 
@@ -45,3 +47,6 @@ ms.locfileid: "4417479"
    | **帐龄** | 福利计划的合格个人联系人的最大年龄。 仅在选择关系时此字段才有效。 此年龄将与计算出的个人联系人的年龄进行比较。 计算的年龄为：（覆盖范围日期 – 个人联系人的出生日期/365）。 此数字始终是整数。 |
 
 4. 选择 **保存**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
