@@ -1,7 +1,7 @@
 ---
 title: 设置产品配置模型
 description: 本文介绍设置和创建产品模型配置的步骤。
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 190deb01685f7ae100c491befb1c958e86e6950d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2dc9f46d91dc298a5c8babee2b370fea09f61741
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812755"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578216"
 ---
 # <a name="set-up-a-product-configuration-model"></a>设置产品配置模型
 

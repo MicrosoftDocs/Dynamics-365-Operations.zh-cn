@@ -1,8 +1,8 @@
 ---
 title: 创建团队日历
 description: 在 Dynamics 365 Human Resources 中查看和创建团队日历。
-author: andreabichsel
-ms.date: 11/02/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052089"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065244"
 ---
 # <a name="view-team-and-company-calendars"></a>查看团队和公司日历
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,7 +33,7 @@ ms.locfileid: "6052089"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>以员工身份查看团队日历
 
-1. 在 **员工自助服务** 工作区，选择 **摘要** 下的 **团队缺勤日历**。
+- 在 **员工自助服务** 工作区，选择 **摘要** 下的 **团队缺勤日历**。
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>以经理身份查看团队日历
 
@@ -39,6 +42,21 @@ ms.locfileid: "6052089"
 2. 选择 **休假和缺勤**，然后选择 **查看经理缺勤日历**。
 
 经理也可以从 **我的团队的待处理休息请求**、**批准的休息时间** 和 **休息时间请求** 访问团队日历。 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>以缺勤管理人员身份查看缺勤管理人员日历
+
+> [!NOTE]
+> 要查看缺勤管理人员日历，您必须先在功能管理中打开 **(预览)管理休假的缺勤管理人员** 功能。 有关如何打开预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。
+
+缺勤管理人员角色的用户可以在日历中查看休假请求。 按照以下步骤访问休假日历。
+
+1. 在 **员工自助服务** 工作区中，选择 **休假管理**，然后选择 **缺勤管理人员日历**。
+
+2. 在 **日期** 字段中，输入所需日期。
+
+3. 根据需要更新视图选项。
+
+缺勤管理人员日历显示在休假层次结构中向缺勤管理人员报告工作的员工的所有记录。
 
 ## <a name="view-a-company-calendar"></a>查看公司日历
 
@@ -60,17 +78,15 @@ ms.locfileid: "6052089"
 - 休假请求 
 - 休假申请
 
-“休假和缺勤”参数中的日历配置决定可用视图选项。
+**休假和缺勤参数** 页面中的日历配置决定可用视图选项。
 
 还可以按经理或部门筛选日历。 主要职位分配确定设置了这些筛选器时显示的员工。 
 
->[!IMPORTANT]
->跨公司查看休假和缺勤当前处于预览状态。 您需要在 **沙盒** 环境中启用它。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br><br>
->然后，您必须在 **Human Resources 共享参数** 中启用该功能以在日历中显示法人筛选器。 有关详细信息，请参阅[配置休假和缺勤参数](hr-leave-and-absence-parameters.md)。<br><br>
->您可以按法人筛选日历。 如果要查看所有员工，不论其法人如何，请清除筛选器框并选择 Enter 键。 
+> [!IMPORTANT]
+> 您可以在功能管理中打开 **跨公司休假视图** 功能。 然后，您必须在 **人力资源共享参数** 页启用该功能以在日历中显示法人筛选器。 有关详细信息，请参阅[配置休假和缺勤参数](hr-leave-and-absence-parameters.md)。
+> 
+> 您可以按法人筛选日历。 要查看所有员工，无论是哪个法人，先清除筛选器字段，然后选择 **Enter**。 
 
 有关日历设置的信息，请参阅[配置日历参数](hr-leave-and-absence-parameters.md?configure-calendar-parameters)。
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

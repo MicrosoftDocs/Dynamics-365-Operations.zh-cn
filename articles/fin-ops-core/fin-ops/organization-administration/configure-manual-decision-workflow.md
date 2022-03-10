@@ -2,11 +2,9 @@
 title: 配置工作流中的手动决策
 description: 本主题说明如何配置手动决策的属性。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798844"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065647"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>配置工作流中的手动决策
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 本主题说明如何配置手动决策的属性。
 
@@ -350,3 +351,6 @@ ms.locfileid: "4798844"
     - **年** – 选择决策必须在哪一天、哪一周和哪一月前制定。 例如，您可能希望决策在十二月第三周的周五之前制定。
 
 4. 如果超出时间限制，系统将制定决策。 在 **操作** 列表中选择系统应选择的选项。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

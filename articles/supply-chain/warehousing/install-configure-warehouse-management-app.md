@@ -1,12 +1,10 @@
 ---
 title: 安装和连接仓库管理移动应用
 description: 本主题说明如何在每个移动设备上安装仓库管理移动应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -15,23 +13,22 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487017"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103405"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> 本主题介绍如何配置新的仓库管理移动应用。 如果要查找有关如何配置旧仓库应用的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
+> 本主题介绍如何配置新的仓库管理移动应用。 如果要查找有关如何配置旧仓库应用（现在已弃用）的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
 
 本主题说明如何在每个移动设备上下载和安装仓库管理移动应用，以及如何配置应用来将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 
@@ -42,18 +39,15 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 - Windows 10（通用 Windows 平台 \[UWP\]）2018 年 10 月更新 1809（内部版本 10.0.17763）或更高版本
 - Android 4.4 或更高版本
 
-## <a name="turn-on-the-feature"></a>开启功能
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>在 Supply Chain Management 中打开或关闭 Warehouse Management 移动应用功能
 
-您必须先在系统中打开相关功能，然后才能使用此应用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*新仓库应用的用户设置、图标和步骤标题*
+要使用 Warehouse Management 移动应用，必须在您的系统中打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>获取仓库管理移动应用
 
 对于较小部署，通常可能在每个设备上从相关商店安装此应用，然后手动配置与您在使用的环境之间的连接。
 
-对于较大部署，您可以自动化应用部署和/或配置，如果您管理很多设备，这样会更加方便。 例如，您可能使用移动设备管理和移动应用程序管理解决方案，如 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](https://docs.microsoft.com/mem/intune/apps/apps-add)。
+对于较大部署，您可以自动化应用部署和/或配置，如果您管理很多设备，这样会更加方便。 例如，您可能使用移动设备管理和移动应用程序管理解决方案，如 [Microsoft Intune](/mem/intune/fundamentals/what-is-intune)。 有关如何使用 Intune 添加应用程序的信息，请参阅[向 Microsoft Intune 添加应用](/mem/intune/apps/apps-add)。
 
 ### <a name="install-the-app-from-an-app-store"></a>从应用商店安装应用
 
@@ -68,10 +62,10 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 作为从应用商店安装的替代方法，您可以从 Microsoft App Center 下载应用。 App Center 提供可以旁加载的可安装包。 除了当前版本外，App Center 还允许您下载以前的版本，而且可以提供包含您可以试用的即将发布功能的预览版本。要从 Microsoft App Center 下载仓库管理移动应用的当前、先前或预览版本，请使用以下链接之一：
 
 - **Windows (UWP)**：[仓库管理 (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    有关如何在 Windows 设备上安装下载的包然后设置所需证书的说明，请参阅[从 App Center 安装版本](https://docs.microsoft.com/appcenter/distribution/installation)。
+    有关如何在 Windows 设备上安装下载的包然后设置所需证书的说明，请参阅[从 App Center 安装版本](/appcenter/distribution/installation)。
 
 - **Android**：[仓库管理 (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    如果您下载预览版，需要执行一些额外的步骤进行安装。 有关详细信息，请参阅[测试 Android 应用](https://docs.microsoft.com/appcenter/distribution/testers/testing-android)。
+    如果您下载预览版，需要执行一些额外的步骤进行安装。 有关详细信息，请参阅[测试 Android 应用](/appcenter/distribution/testers/testing-android)。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 
@@ -81,38 +75,38 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 输入有权访问 Azure 订阅的用户的名称和密码。
 1. 在 Azure 门户的左侧导航窗格中，选择 **Azure Active Directory**。
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory。](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. 确保使用 Supply Chain Management 所用 Azure AD 实例。
 1. 在 **管理** 列表中，选择 **应用注册**。
 
-    ![应用注册](media/app-connect-azure-register.png "应用注册")
+    ![应用注册。](media/app-connect-azure-register.png "应用注册")
 
 1. 在工具栏中，选择 **新注册** 打开 **注册应用程序** 向导。
 1. 输入应用程序的名称，选择 **仅此组织目录中的帐户** 选项，然后选择 **注册**。
 
-    ![注册应用程序向导](media/app-connect-azure-register-wizard.png "注册应用程序向导")
+    ![注册应用程序向导。](media/app-connect-azure-register-wizard.png "注册应用程序向导")
 
 1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本主题后文将此 ID 称为 *客户端 ID*。
 
-    ![应用程序（客户端）ID](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
+    ![应用程序（客户端）ID。](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
 
 1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本主题后文的[使用证书或客户端密码](#authenticate)部分。）
 
     - **上传证书** – 上传证书充当密码。 建议使用此方法，因为更安全，也可以更完整地自动执行。 如果要在 Windows 设备上运行仓库管理移动应用，请记下上传证书后显示的 **指纹** 值。 在 Windows 设备上配置证书时需要此值。
     - **新客户端密码** – 通过在 **密码** 部分中输入密钥说明和持续时间创建密钥，然后选择 **添加**。 创建密钥备份，然后安全存储。
 
-    ![证书和密码](media/app-connect-azure-authentication.png "证书和密码")
+    ![证书和密码。](media/app-connect-azure-authentication.png "证书和密码")
 
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
-- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
+- 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
 - 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下主题：
 
-    - [快速入门：向 Microsoft 身份平台注册应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)
+    - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>在 Supply Chain Management 中创建和配置用户帐户
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>在 Supply Chain Management 中创建和配置用户帐户
 
 若要让 Supply Chain Management 使用您的 Azure AD 应用程序，请执行以下步骤。
 
@@ -120,17 +114,24 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
     1. 在 Supply Chain Management 中，转到 **系统管理 \> 用户 \> 用户**。
     1. 创建一个用户。
-    1. 分配仓库移动设备用户。
+    1. 将 *仓库移动设备用户* 角色分配给此用户。
 
-    ![分配仓库移动设备用户](media/app-connect-app-users.png "分配仓库移动设备用户")
+    ![分配仓库移动设备用户。](media/app-connect-app-users.png "分配仓库移动设备用户")
 
 1. 将您的 Azure AD 应用程序与仓库管理移动应用用户关联：
 
     1. 转到 **系统管理 \> 设置 \> Azure Active Directory 应用程序**。
-    1. 创建一行。
-    1. 输入在上一部分中记下的客户端 ID，为其命名，然后选择刚才创建的用户。 建议标记所有设备。 然后，如果设备丢失，可以轻松从此页解除其对 Supply Chain Management 的访问权限。
+    1. 在“操作窗格”中选择 **新建** 创建一行。
+    1. 在 **客户端 ID** 字段中，输入您在上一部分中记下的客户端 ID。
+    1. 在 **名称** 字段中输入名称。
+    1. 在 **用户 ID** 字段中，选择您刚才创建的用户 ID。
 
-    ![Azure Active Directory 应用程序](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
+    ![Azure Active Directory 应用程序。](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
+
+> [!TIP]
+> 使用这些设置的一种方法是在 Azure 中为每个物理设备创建一个客户端 ID，然后将每个客户端 ID 添加到 **Azure Active Directory 应用程序** 页面。 然后，如果设备丢失，您可以通过从该页面删除其客户 ID 来轻松删除其对 Supply Chain Management 的访问权限。 （这种方法之所以有效，是因为保存在每个设备上的连接凭据还指定了一个客户端 ID，如本主题后面所述。）
+>
+> 此外，每个客户端 ID 的默认语言、数字格式和时区设置由为此处映射的 **用户 ID** 值设置的首选项建立。 因此，您可以使用这些首选项根据客户端 ID 为每个设备或设备集合建立默认设置。 但是，如果这些默认设置也为工作人员用于登录设备的 *仓库应用用户帐户* 定义，这些设置将被覆盖。 （有关详细信息，请参阅[移动设备用户帐户](mobile-device-work-users.md)。）
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>使用证书或客户端密码进行身份验证
 
@@ -138,7 +139,11 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库管理移动应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 
-必须在运行仓库管理移动应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](https://docs.microsoft.com/mem/intune/protect/certificates-configure)。
+必须在运行仓库管理移动应用的每个设备本地提供证书。 有关如何在使用 Intune 时管理 Intune 控制的设备的证书的信息，请参阅[在 Microsoft Intune 中将证书用于身份验证](/mem/intune/protect/certificates-configure)。
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>配置云和边缘缩放单元的 Warehouse Management 移动应用
+
+如果您计划对云或边缘缩放单元运行 Warehouse Management 移动应用，需要执行一些额外的步骤。 有关说明，请参阅[为云和边缘缩放单元配置 Warehouse Management 移动应用](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)。
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>通过导入连接设置配置应用程序
 
@@ -153,7 +158,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 | ConnectionName | 指定连接设置的名称。 最大长度为 20 个字符。 因为此值是连接设置的唯一标识符，因此请确保其在列表中唯一。 如果设备中已有同名连接，所导入文件中的设置将覆盖该连接。 |
 | ActiveDirectoryClientAppId | 指定[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)部分中设置 Azure AD 时记下的客户端 ID。 |
 | ActiveDirectoryResource | 指定 Supply Chain Management 的根 URL。 |
-| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 |
+| ActiveDirectoryTenant | 指定要用于 Supply Chain Management 服务器的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。 |
 | 公司 | 在 Supply Chain Management 中指定希望应用程序连接到的法人。 |
 | ConnectionType | （可选）指定连接设置应使用证书还是客户端密码连接到环境。 有效值为 *certificate* 和 *clientsecret*。 默认值为 *certificate*。<p>**注意：** 不能导入客户端密码。</p> |
 | IsEditable | （可选）指定应用用户是否应该可以编辑连接设置。 有效值为 *true* 和 *false*。 默认值为 *true*。 |
@@ -216,30 +221,30 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 1. 在您的移动设备上启动仓库管理移动应用。 首次启动该应用时，会显示一条欢迎消息。 选择 **选择连接**。
 
-    ![欢迎消息](media/app-configure-welcome-screen.png "欢迎消息")
+    ![欢迎消息。](media/app-configure-welcome-screen.png "欢迎消息")
 
 1. 如果要从文件导入连接设置，并且保存该文件时使用的是默认名称和默认位置，应用可能已经找到了该文件。 在这种情况下，直接跳到步骤 4。 否则，选择 **设置连接**，然后继续执行步骤 3。
 
-    ![设置连接](media/app-configure-set-up-connection.png "设置连接")
+    ![设置连接。](media/app-configure-set-up-connection.png "设置连接")
 
 1. 在 **连接设置** 对话框中，选择 **从文件添加** 或 **从 QR 码添加**，具体取决于您要导入设置的方式：
 
     - 如果要从文件导入连接设置，则选择 **从文件添加**，浏览到本地设备上的文件，然后选择它。 如果选择自定义位置，应用将存储该文件，并在下次自动使用。
     - 如果要通过扫描 QR 码导入连接设置，则选择 **从 QR 码添加**。 应用将提示您提供使用设备摄像头所需权限。 提供权限后，将启动摄像头，以便您将其用于扫描。 您可能发现很难获得正确扫描，具体取决于设备摄像头的质量和 QR 代码的复杂程度。 在这种情况下，请尝试通过为每个 QR 码仅生成一个连接来降低 QR 代码的复杂程度。 （现在，只能使用设备摄像头扫描 QR 代码。）
 
-    ![连接设置菜单](media/app-configure-connection-setup-flyout.png "连接设置菜单")
+    ![连接设置菜单。](media/app-configure-connection-setup-flyout.png "连接设置菜单")
 
 1. 成功加载连接设置后，将显示所选的连接。
 
-    ![已加载连接设置](media/app-configure-select-connection.png "已加载连接设置")
+    ![已加载连接设置。](media/app-configure-select-connection.png "已加载连接设置")
 
 1. 如果在使用 Android 设备，并使用证书进行身份验证，设备将提示您选择证书。
 
-    ![Android 设备上的选择证书提示](media/app-configure-select-certificate.png "Android 设备上的选择证书提示")
+    ![Android 设备上的选择证书提示。](media/app-configure-select-certificate.png "Android 设备上的选择证书提示")
 
 1. 此应用将连接到您的 Supply Chain Management 服务器，并显示登录页。
 
-    ![登录页](media/app-configure-sign-in-page.png "登录页")
+    ![登录页面。](media/app-configure-sign-in-page.png "登录页")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>手动配置应用程序
 
@@ -249,15 +254,15 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 如果应用以 **演示模式** 启动，选择 **连接设置**。 如果应用启动时出现 **登录** 页，选择 **更改连接**。
 1. 选择 **设置连接**。
 
-    ![设置连接](media/app-configure-set-up-connection.png "设置连接")
+    ![设置连接。](media/app-configure-set-up-connection.png "设置连接")
 
 1. 选择 **手动输入**。
 
-    ![连接设置菜单](media/app-configure-connection-setup-flyout.png "连接设置菜单")
+    ![连接设置菜单。](media/app-configure-connection-setup-flyout.png "连接设置菜单")
 
     **新建连接** 页将出现，显示手动输入连接详细信息所需的设置。
 
-    ![手动连接字段](media/app-configure-input-manually.png "手动连接字段")
+    ![手动连接字段。](media/app-configure-input-manually.png "手动连接字段")
 
 1. 输入以下信息：
 
@@ -271,7 +276,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
         > [!IMPORTANT]
         > 请勿为此值使用反斜杠 (/)。
 
-    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 租户。 此值的格式为 `https://login.windows.net/<your-Azure-AD-tenant-ID>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。
+    - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。
 
         > [!IMPORTANT]
         > 请勿为此值使用反斜杠 (/)。
@@ -298,5 +303,10 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 1. 在工具栏上，选择 **删除**。
 1. 在出现的确认消息中选择 **是**。
 
+## <a name="additional-resources"></a>其他资源
+
+- [移动设备用户设置](mobile-device-user-settings.md)
+- [为 Warehouse Management 移动应用分配步骤图标和标题](step-icons-titles.md)
+- [配置云和边缘缩放单元的 Warehouse Management 移动应用](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

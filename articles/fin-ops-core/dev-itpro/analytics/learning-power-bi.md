@@ -2,11 +2,9 @@
 title: 学习 Power BI 内容
 description: 此主题描述学习 Power BI 内容。
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742330"
 ---
 # <a name="learning-power-bi-content"></a>学习 Power BI 内容
 
@@ -62,3 +60,6 @@ ms.locfileid: "4685241"
 | 位置         | 职位、职务和全职等效 (FTE)                  | 课程安排、课程参与者 |
 | 员工姓名    | 名字、姓氏和全名                             | 课程参与者 |
 | 员工职务   | 职务和资历日期                                         | 课程参与者 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) 存储弃用
 description: 本主题提供有关计划作为 Regulatory Configuration Service (RCS) 全局存储库推出的一部分的 Microsoft Dynamics Lifecycle Services (LCS) 存储弃用的信息。
 author: JaneA07
-ms.date: 05/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: abaeb34db1d209fa8e5cc83a98c333f42e91f2d2
-ms.sourcegitcommit: 7cda434becd198c1cd405e001289777ae7a24fe1
+ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6127911"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715222"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用
 
@@ -38,8 +38,9 @@ ms.locfileid: "6127911"
 
 ## <a name="key-features"></a>主要功能
 
-- 您可以使用 RCS 创建和编辑配置。 然后，可以将这些配置直接从设计器推送到连接的应用程序。 因此，您可以快速更改和测试您的配置。
-- 全局存储库是所有 ER 配置的集中存储。
+- 使用 RCS 创建和编辑 ER 配置和全球化功能。
+- 将配置直接从 RCS 设计器推送到连接的应用程序（如 Dynamics 365 Finance 环境），以便您可以快速对配置进行更改并测试这些更改。
+- 通过全局存储库的集中存储，集中存储、共享和管理 ER 配置和全球化功能的生命周期。
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>一次性和持续操作的指南
 
@@ -53,11 +54,20 @@ ms.locfileid: "6127911"
 2. 在预配的 RCS 实例中，对于资产库中包含派生的 ER 配置的每个 LCS 项目，注册相应的 LCS 存储库。
 3. 将 ER 配置从 LCS 存储库导入到 RCS。 有关详细信息，请参阅[从 LCS 导入配置](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md)。
 4. 如果未自动提供全局存储库，请在 RCS 中注册它。
-5. 将所有派生的配置从当前的 RCS 实例上传到全局存储库。 使用 **允许用户通过一次操作将所有配置上传到 GR 的配置包** 功能来帮助上传。 有关详细信息，请参阅 [RCS 全局存储库上传](rcs-global-repo-upload.md)。
+5. 将所有派生的配置从当前的 RCS 实例上传到全局存储库。 使用 **配置包** 功能帮助上载。 有关详细信息，请参阅 [RCS 全局存储库上传](rcs-global-repo-upload.md)。
 
 ### <a name="going-forward"></a>持续操作
 
-使用 RCS 中的视觉设计器创建所有新配置。 然后，将配置上传到全局存储库以进行存储。 有关详细信息，请参阅[在 RCS 中创建 ER 配置并上传到全局存储库](rcs-global-repo-upload.md)。
+将 RCS 中的视觉设计器用于以下目的：
+
+- 扩展 Microsoft 提供的模板。
+- 创建您的组织需要的新配置。
+- 为电子开票和税款计算服务自定义全球化功能。
+
+将全球化存储库用于以下目的：
+
+- 访问 Microsoft 生成的配置和全球化功能。
+- 将您创建或扩展的配置上传到全局存储库进行存储，并在您组织的 Dynamics 365 应用程序环境中或与外部组织共享它们。 有关详细信息，请参阅[在 RCS 中创建 ER 配置并上传到全局存储库](rcs-global-repo-upload.md)。
 
 ## <a name="frequently-asked-questions"></a>常见问题
 
@@ -76,3 +86,22 @@ RCS 使用 *连接的应用程序* 概念。 连接的应用程序在 RCS 和 Fi
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>是否有显示设置和管理的任何示例？
 
 没有示例，但您可以完成本主题前面的步骤，以将您的配置迁移到 RCS 全局存储库。
+
+### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>RCS 是否是配置电子报告的先决条件？
+
+是。 RCS 包括支持设置全球化服务使用的全球化功能的功能，如电子开票和税款计算服务。 但是，此服务具有相同的视觉设计器功能，可让您扩展或创建新的 ER 配置。 RCS 还为 ER 配置和全球化功能提供生命周期管理。
+
+### <a name="which-regions-can-rcs-be-deployed-in"></a>RCS 可以部署在哪些区域？
+
+RCS 在以下 Azure 区域可用：
+
+- 美国
+- 印度
+- 法国
+- 欧洲
+
+有关产品支持的详细信息，请参阅 [Dynamics 全球化服务概览](globalization-services-overview.md)。 有关地理支持的信息，请参阅 [Dynamics 365 和 Power Platform：可用性、数据位置、语言和本地化](https://aka.ms/rcs/D365Productavailabilityguide)。
+
+### <a name="whats-the-cost-of-using-rcs"></a>使用 RCS 的成本是多少？
+
+RCS 和全球化存储库作为现有 Finance and Operations 应用许可证的一部分免费提供。 使用 RCS 设计服务或在全局存储库中存储配置不会产生单独的成本。 目前对配置或连接的应用程序的数量没有限制。

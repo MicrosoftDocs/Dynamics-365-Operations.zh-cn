@@ -2,11 +2,9 @@
 title: 创建成本累积政策
 description: 此过程显示如何创建成本累积政策并为其创建规则。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6505d658103a4c34dfe7c7eb86ad4ea41515ccfb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd7a390ced7b7b4997d9c86b9218f1fa83ee14729e450e1ae1cb53dbbd605edb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755658"
 ---
 # <a name="create-a-cost-rollup-policy"></a>创建成本累积政策
 

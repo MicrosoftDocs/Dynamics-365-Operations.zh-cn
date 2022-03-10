@@ -1,22 +1,22 @@
 ---
 title: 在波次期间计划波次标签打印
 description: 本主题介绍了如何设置和使用基于任务的波次标签打印功能。
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777857"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920141"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>在波次期间计划波次标签打印
 
@@ -40,7 +40,7 @@ ms.locfileid: "7777857"
 
 必须首先创建新的波次步骤方法并启用它来进行并行异步任务处理。
 
-1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次流程方法**。
+1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次处理方法**。
 1. 在操作窗格上，选择 **重新生成方法**。 请注意，*waveLabelPrinting* 将添加到可在装运波次模板中使用的波次流程方法列表中。
 1. 选择 **方法名称** 字段设置为 *waveLabelPrinting* 的记录，然后在操作窗格上，选择 **任务配置**。
 1. 在操作窗格上，选择 **新建** 向网格添加一行。 然后，针对新行设置以下字段：
@@ -51,7 +51,7 @@ ms.locfileid: "7777857"
 
 您现在可以更新现有的波次模板，以便它使用 *波次标签打印* 波次处理方法。 或者，您可以创建一个使用它的新波次模板。
 
-1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次模板**。
+1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次模板**。
 1. 在操作窗格上，选择 **编辑**。
 1. 在列表窗格中，选择要更新的波次模板。 （如果您使用演示数据进行测试，可以选择仓库 *24 装运默认*。）
 1. 在 **方法** 快速选项卡上的 **其余方法** 列中，选择 **名称** 字段设置为 *waveLabelPrinting* 的行。

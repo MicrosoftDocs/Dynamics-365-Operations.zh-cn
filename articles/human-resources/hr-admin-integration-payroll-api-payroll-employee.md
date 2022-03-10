@@ -2,84 +2,109 @@
 title: 工资单员工
 description: 本主题提供 Dynamics 365 Human Resources 中工资单员工实体的详细信息和示例查询。
 author: jcart
-manager: tfehr
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d3977b758f65875a36749a49459c2a81459a7b69
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881938"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068476"
 ---
 # <a name="payroll-employee"></a>工资单员工
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题提供 Dynamics 365 Human Resources 中工资单员工实体的详细信息和示例查询。
+本主题介绍 Dynamics 365 Human Resources 的工资单员工实体。
+
+物理名称：mshr_payrollemployeeentity。
+
+### <a name="description"></a>说明
+
+该实体提供有关员工的信息。 在使用此实体之前，您必须设置[工资单集成参数](hr-admin-integration-payroll-api-parameters.md)。
+
+>[!IMPORTANT] 
+>**FirstName**、**MiddleName**、**LastName**、**NameValidFrom** 和 **NameValidTo** 字段在此实体上不再可用。 这将确保只有一个日期有效的数据源支持此实体。
+>这些字段将在平台更新 43 中发布的 **DirPersonNameHistoricalEntity** 上可用。 存在从 **PayrollEmployeeEntity** 到 **DirPersonNameHistoricalEntity** 的 OData 关系。 
 
 ## <a name="properties"></a>属性
 
-| 属性<br>**物理名称**<br>**_类型_** | 使用 | 说明 |
+| 属性</br>**物理名称**</br>**_类型_** | 使用 | 说明 |
 | --- | --- | --- |
-| **人员编号**<br>mshr_personnelnumber<br>*字符串* | 只读<br>必填 | 员工的唯一人员编号。 |
-| **主要字段**<br>mshr_primaryfield<br>*字符串* | 必填<br>系统生成的 |  |
-| **姓**<br>mshr_lastname<br>*字符串* | 只读<br>必填 | 员工姓氏。 |
-| **法人 ID**<br>mshr_legalentityID<br>*字符串* | 只读<br>必填 | 指定法人（公司）。 |
-| **生效日期**<br>mshr_namevalidfrom<br>*日期/时间偏移* | 只读 <br>必填 | 员工信息有效的开始日期。  |
-| **性**<br>mshr_gender<br>*Int32* | 只读<br>必填 | 员工的性别。 |
-| **工资单员工实体 ID**<br>mshr_payrollemployeeentityid<br>*GUID* | 必填<br>系统生成的 | 系统生成的用于唯一标识员工的 GUID 值。 |
-| **雇用开始日期**<br>mshr_employmentstartdate<br>*日期/时间偏移* | 只读<br>必填 | 员工受雇用的开始日期。 |
-| **标识类型 ID**<br>mshr_identificationtypeid<br>*字符串* |只读<br>必填 | 针对员工定义的标识类型。 |
-| **雇佣结束日期**<br>mshr_employmentenddate<br>*日期/时间偏移* | 只读<br>必填 |员工受雇用的结束日期。  |
-| **数据区域 ID**<br>mshr_dataareaid_id<br>*GUID* | 必填 <br>系统生成的 | 系统生成的标识法人（公司）的 GUID 值。 |
-| **失效日期**<br>mshr_namevalidto<br>*日期/时间偏移* |  只读<br>必填 | 员工信息有效的结束日期。 |
-| **出生日期**<br>mshr_birthdate<br>*日期/时间偏移* | 只读 <br>必填 | 员工的出生日期 |
-| **标识号**<br>mshr_identificationnumber<br>*字符串* | 只读 <br>必填 |针对员工定义的标识号。  |
-| **名**<br>mshr_firstname<br>*字符串* | 只读<br>必填 | 员工名字。 |
-| **中间名**<br>mshr_middlename<br>*字符串* | 只读<br>必填 |员工中间名。  |
+| **法人 ID**</br>mshr_legalentityid</br>*字符串* | 只读 | 指定法人（公司）。 |
+| **人员编号**</br>mshr_personnelnumber</br>*字符串* | 只读 | 员工的唯一人员编号。 |
+| **雇用开始日期**</br>mshr_employmentstartdate</br>*日期/时间偏移* | 只读 | 员工受雇用的开始日期。 |
+| **雇佣结束日期**</br>mshr_employmentenddate</br>*日期/时间偏移* | 只读 |员工受雇用的结束日期。  |
+| **出生日期**</br>mshr_birthdate</br>*日期/时间偏移* | 只读 | 员工的出生日期。 |
+| **性**</br>mshr_gender</br>[mshr_hcmpersongender 选项集](hr-admin-integration-payroll-api-gender.md) | 只读 | 员工的性别。 |
+| **雇佣类型**</br>mshr_employmenttype</br>[mshr_hcmemploymenttype 选项集](hr-admin-integration-payroll-api-hcmemploymenttype.md) | 只读 | 雇用类型。 |
+| **标识类型 ID**</br>mshr_identificationtypeid</br>*字符串* |只读 | 针对员工定义的标识类型。 |
+| **标识号**</br>mshr_identificationnumber</br>*字符串* | 只读 |针对员工定义的标识号。 |
+| **准备付款**</br>mshr_readytopay</br>[mshr_noyes 选项集](hr-admin-integration-payroll-api-no-yes.md) | 只读 | 指示员工是否已标记为已准备付款。 |
+| **工资单员工实体 ID**</br>mshr_payrollemployeeentityid</br>*GUID* | 系统生成的 | 系统生成的用于唯一标识员工的全局唯一标识符 (GUID) 值。 |
+
+## <a name="relations"></a>关系
+
+|属性值 | 相关实体 | 导航属性 | 集合类型 |
+| --- | --- | --- | --- |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | mshr_FK_HcmEmploymentDetailEntity_PayrollEmployee |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
+| _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | mshr_FK_HcmWorkerBaseEntity_PayrollEmployee |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | mshr_FK_HcmWorkerBankAccountEntity_PayrollEmployee |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
+| _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
 ## <a name="example-query-for-payroll-employee"></a>工资单员工的示例查询
 
-**申请**
+**请求**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_identificationtypeid eq @idtype and mshr_namevalidfrom le @asofdate and mshr_namevalidto ge @asofdate&@personnelnumber='000041'&@idtype='SSN'&@asofdate=2021-04-01
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq '000041'
 ```
 
 **响应**
 
 ```json
 {
-         "mshr_legalentityid": "USMF",
-            "mshr_personnelnumber": "000041",
-            "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
-            "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-            "mshr_firstname": "Cassie",
-            "mshr_middlename": "Lassie",
-            "mshr_lastname": "Hicks",
-            "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-            "mshr_namevalidto": "2154-12-31T23:59:59Z",
-            "mshr_birthdate": "1987-09-12T00:00:00Z",
-            "mshr_gender": 200000002,
-            "mshr_identificationtypeid": "SSN",
-            "mshr_identificationnumber": "888-99-9342",
-            "mshr_dataareaid": "USMF",
-            "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-            "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-            "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-            "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-            "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_dataareaid_id_value": null
+    "mshr_legalentityid": "USMF",
+    "mshr_personnelnumber": "000041",
+    "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
+    "mshr_employmentenddate": "2154-12-31T23:59:59Z",
+    "mshr_birthdate": "1987-09-12T00:00:00Z",
+    "mshr_gender": 200000002,
+    "mshr_employmenttype": 200000000,
+    "mshr_identificationtypeid": "SSN",
+    "mshr_identificationnumber": "888-99-9342",
+    "mshr_readytopay": 200000000,
+    "mshr_dataareaid": "USMF",
+    "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
+    "_mshr_fk_employment_id_value": "00000d4e-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "00000598-0000-0000-4cd0-fda002000000",
+    "_mshr_fk_name_id_value": "00000832-0000-0000-d700-014105000000",
+    "_mshr_fk_worker_id_value": "000000af-0000-0000-d5ff-004105000000",
+    "_mshr_fk_workerbankaccount_id_value": "000006f2-0000-0000-b7ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000666-0000-0000-d5ff-004105000000",
+    "_mshr_fk_address_id_value": null,
+    "_mshr_fk_variablecompaward_id_value": null,
+    "_mshr_dataareaid_id_value": null
 }
 ```
+
+## <a name="see-also"></a>请参阅
+
+[工资单集成 API 简介](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

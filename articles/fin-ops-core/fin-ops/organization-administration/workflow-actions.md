@@ -2,7 +2,6 @@
 title: 工作流审核流程中的操作
 description: 本文说明每个工作流审核流程的参与者可以采取的操作。
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
@@ -15,22 +14,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6331746d2634a3686b0a7368d060d94567c4ff
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567948"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070925"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 本文说明每个工作流审核流程的参与者可以采取的操作。
 
 工作流可能涉及若干组人员：发起方、任务受托人、决策者和审核人。 例如，在以下支出报表工作流中，Sam 是发起方，队列的成员是任务受托人，John 是决策者，Frank、Sue 和 Ann 是审核人。
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision。](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 以下部分说明各个组可以执行的工作流操作。
 

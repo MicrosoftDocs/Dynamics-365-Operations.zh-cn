@@ -3,23 +3,22 @@ title: 默认类别登陆页面和搜索结果页面概览
 description: 此主题概述 Dynamics 365 Commerce 中的默认类别登陆页和搜索结果页。
 author: ashishmsft
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351265"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982426"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>默认类别登陆页面和搜索结果页面概览
 

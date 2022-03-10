@@ -2,11 +2,9 @@
 title: 建立 B2B 电子商务站点
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置企业到企业 (B2B) 电子商务站点。
 author: josaw1
-manager: AnnBe
-ms.date: 01/20/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6e39310ac2658ceed3f269249fe8b9d0d05dde21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212571"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983309"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 
@@ -39,7 +37,7 @@ ms.locfileid: "5212571"
 
 您可以通过 **站点设置 \> 扩展** 访问站点构建器中的站点级别设置。 以下两个站点级别设置适用于 B2B 场景：
 
-- **启用客户帐户付款** – 此属性让用户可以使用客户帐户支付订单。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。 如果您的 B2B 站点支持客户帐户，则应选择 **为 B2C 客户启用**。
+- **启用客户帐户付款** – 此属性让用户可以使用客户帐户支付订单。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。 如果您的 B2B 站点支持客户帐户，则应选择 **为 B2B 客户启用**。
 - **启用订单数量限制** – 此属性让您可以限制每个产品或类别可以订购的件数。 可用值有 **为 B2B 客户启用**、**为 B2C 客户启用**、**为所有客户启用** 和 **对所有客户禁用**。
 
 > [!NOTE]
@@ -285,9 +283,59 @@ ms.locfileid: "5212571"
 1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 1. 发布页面的 URL。
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>将快速添加模块添加到购物车页面
+
+快速添加模块提供了一种使用物料 ID（也称为库存单位 \[SKU\] ID）将多个物料快速添加到购物车的方法。 快速添加模块已添加到站点的购物车页面。
+
+要将快速添加模块添加到 Commerce 站点构建器中的购物车页面，请按照下列步骤操作。
+
+1. 转到 **模板**，选择您的站点的购物车页面模板。
+1. 选择 **编辑**。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **快速添加** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
+1. 转到 **页面**，选择您的站点的购物车页面。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 模块的属性窗格中，在 **宽度** 下，选择 **填充容器**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **快速添加** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
+
+> [!NOTE] 
+> 快速添加模块自 Commerce 版本 10.0.17 开始提供。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>将批量购买模块添加到产品详细信息页面
+
+产品详细信息页面 (PDP) 上的批量购买模块提供基于矩阵的体验，让采购员可以快速将产品的多个变型添加到购物车。 当站点用户必须订购同一产品的多个变型时，此体验无需选择产品维度组合、定义数量、将变型添加到购物车，然后对其他产品维度组合重复这一过程。
+
+要将批量购买模块添加到 Commerce 站点构建器中的 PDP，请按照以下步骤操作。
+
+1. 转到 **模板**，选择您的站点的 PDP 模板。
+1. 选择 **编辑**。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **批量购买** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
+1. 转到 **页面**，选择您的站点的 PDP。
+1. 在 **默认页** 模块的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **容器** 模块，然后选择 **确定**。
+1. 在 **容器** 模块的属性窗格中，在 **宽度** 下，选择 **填充容器**。
+1. 在 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
+1. 在 **添加模块** 对话框中，选择 **批量购买** 模块，然后选择 **确定**。
+1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
+
+> [!NOTE] 
+> 批量购买模块自 Commerce 版本 10.0.24 开始提供。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
+
 ## <a name="additional-resources"></a>其他资源
 
 [模块库概览](../starter-kit-overview.md)
+
+[SDK 和模块库更新](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [创作页面概览](../authoring-home-overview.md)
 
@@ -301,7 +349,7 @@ ms.locfileid: "5212571"
 
 [内容块模块](../add-hero-module.md)
 
-[产品集合](../product-collection-module-overview.md)
+[产品集合模块](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3dd13f6a3e5ce3c894e96f420358d337f2e43dba
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: dc0071bc508fc1b2fcfa5071f0756434641b7e6f872308ed4febb0cb34d37840
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730122"
 ---
 # <a name="there-is-no-from-date-value-on-the-active-prices-tab-of-the-item-price-page"></a>“物料价格”页的“有效价格”选项卡上没有“开始日期”值
 

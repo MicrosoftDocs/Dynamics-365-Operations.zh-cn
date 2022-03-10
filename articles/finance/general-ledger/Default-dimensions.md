@@ -2,11 +2,9 @@
 title: 财务维度和过帐
 description: 在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a6179841259186c8438c72bb4a4f9cd2bf5dbaa8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778958"
 ---
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
@@ -73,29 +71,29 @@ ms.locfileid: "4985079"
 
 下图显示主科目 401100 中设置的默认固定维度。
 
-[![默认财务维度](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![默认财务维度。](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 在这个非常基础的示例中，将输入一个普通日记帐，其中的部门维度设置为使用默认值 **023**（操作）。 将输入一个会计科目并过帐。 下图显示总帐标题中的默认财务维度。
 
-[![普通日记帐](./media/general-journal.png)](./media/general-journal.png)
+[![普通日记帐。](./media/general-journal.png)](./media/general-journal.png)
 
 该日记帐标题中的默认维度将导致在销售科目行中默认应用部门 023。 下图显示普通日记帐行，其中应用了来自标题的默认维度值 **023**。
 
-[![日志凭证](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![日记帐凭证。](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 但是，过帐该行时，将应用固定维度，并将该行过帐到部门 022。 下图显示过帐的凭证，其中为销售科目应用了固定维度。
 
-[![凭证交易记录](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![应用了固定维度的凭证交易。](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>示例 2
 
 此示例使用与第一个示例相同的设置。 但是，将再添加一个组件，并将部门维度用作平衡维度。 在下图中，**部门** 设置为 USMF 分类帐的平衡财务维度。
 
-[![分类帐](./media/ledger.png)](./media/ledger.png)
+[![显示作为平衡财务维度的部门的图示。](./media/ledger.png)](./media/ledger.png)
 
 使用相同的日记帐标题设置并过帐同一个交易时，将首先应用固定维度。 然后应用平衡逻辑以帮助确保每个部门都有一个平衡的条目。 下图显示应用固定维度后包含平衡条目的凭证交易。
 
-[![凭证交易记录](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![应用平衡条目后的凭证交易。](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>示例 3
 
@@ -103,11 +101,11 @@ ms.locfileid: "4985079"
 
 因为顺序，此示例非常重要。 科目结构在输入主科目后确定。 如果希望设置科目结构，系统可以确定主科目、业务单位、部门和成本中心相关。 此时尚未触发高级规则，因为过帐期间为日记帐凭证应用默认维度之前，不应用固定维度。 在下图中，无“客户”细分市场，因为尚未满足高级规则的条件。
 
-[![会计科目](./media/drop-down.png)](./media/drop-down.png)
+[![分类帐帐户。](./media/drop-down.png)](./media/drop-down.png)
 
 过帐将失败，因为流程结束时应用了固定维度。 维度验证确定如果主科目为 401100 且部门为 022，则需要“科目”细分市场。 验证错误导致不能执行过帐。 下图显示维度验证确定“客户”为必需的细分市场后显示的消息。
 
-[![消息详细信息](./media/message.png)](./media/message.png)
+[![消息详细信息。](./media/message.png)](./media/message.png)
 
 在此示例中，必须覆盖默认值，这样才会触发高级规则，并且可以输入“客户”细分市场。 但是，此解决方案并非始终可行，一些用户甚至不会注意到过帐规则。 因此，设置会计科目表时务必了解默认维度的应用顺序。
 
@@ -121,8 +119,11 @@ ms.locfileid: "4985079"
 
 [计划您的会计科目表](plan-chart-of-accounts.md) 
 
-[“在 AX 2012 中计划会计科目表”博客](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) - 此链接是由七个部分组成的系列中的第一部分。
+[“在 AX 2012 中计划会计科目表”博客](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) - 此链接是由七个部分组成的系列中的第一部分。
 
-[会计分配中的维度默认设置](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[会计分配中的维度默认设置](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[维度框架中的维度默认设置](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[维度框架中的维度默认设置](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

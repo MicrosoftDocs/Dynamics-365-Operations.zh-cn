@@ -2,26 +2,23 @@
 title: 创作页面概览
 description: 本主题提供 Microsoft Dynamics 365 Commerce 中的创作页面的概述。
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211289"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984613"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 
@@ -29,8 +26,6 @@ ms.locfileid: "5211289"
  [!include [banner](includes/banner.md)]
 
 本主题提供 Microsoft Dynamics 365 Commerce 中的创作页面的概述。
-
-## <a name="overview"></a>概览
 
 可创建网站以支持各种业务需要。 它们可表示整体业务，提供单一业务渠道，或将特定对象或对象细分设置为目标。 例如，一家服装厂可能有一个网站用于展示其拥有的所有品牌。 然后，同一个服装厂的这些品牌每个有一个单独的网站，还有一系列网站专门介绍奢侈品、户外服装和童装。
 
@@ -44,7 +39,7 @@ Dynamics 365 Commerce 支持创建和管理多个网站，每个网站可以有�
 
 下图显示创作页面。
 
-![Dynamics 365 Commerce 创作页面](../commerce/media/authoring_tools_01.png)
+![Dynamics 365 Commerce 创作页面。](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>使用“主页”按钮选择工具
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1af06d0f6b92362ccc44df3ab587442d29ad5225902ad8f73ed8f6af4abe6a0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bea115ed111d1309e19631c1cc08fdbab0dca3f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773676"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062026"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Dynamics 365 Human Resources（2020 年 3 月 19 日）中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.3014。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 

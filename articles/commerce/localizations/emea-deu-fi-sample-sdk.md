@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 51107731090b77e75a0e5a8c91b052d494b452e4
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944907"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077057"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>德国会计登记服务整合示例的部署准则（旧版）
 
@@ -156,13 +156,13 @@ Hardware Station 示例中包含 Hardware Station 扩展组件。 若要完成�
 
 ## <a name="design-of-extensions"></a>扩展设计
 
-德国的会计登记服务集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)。 有关会计整合解决方案设计的详细信息，请参阅 [会计整合示例设计概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
+德国的会计登记服务集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)。 有关会计整合解决方案设计的详细信息，请参阅 [会计整合示例设计概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)。
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime 扩展设计
 
 作为会计单据提供程序的扩展的目的是生成特定于服务的单据并处理会计登记服务的响应。
 
-CRT 扩展为 **Runtime.Extensions.DocumentProvider.EFRSample**。 有关会计整合解决方案设计的详细信息，请参阅 [Commerce 渠道的会计整合概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
+CRT 扩展为 **Runtime.Extensions.DocumentProvider.EFRSample**。 有关会计整合解决方案设计的详细信息，请参阅 [Commerce 渠道的会计整合概览](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)。
 
 #### <a name="request-handler"></a>请求处理程序
 

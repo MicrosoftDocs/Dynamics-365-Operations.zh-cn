@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab18a2a1dec4b70c55a55637b087c6b11023aa40
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 30c485be79be5ebbec8b51272b8bbe6e0c7df9d81bbaaaef316dbfede03abf68
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756743"
 ---
 # <a name="you-cant-invoice-a-customer-facing-sales-order"></a>您无法为面向客户的销售订单开票
 

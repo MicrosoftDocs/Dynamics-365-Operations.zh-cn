@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.24 预览（2022 年 2 月）
+title: Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
 description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 1b5742ddf7e5e2c5c32c446a0bde08f4964d6b95
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891871"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087542"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 预览（2022 年 2 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版 10.0.24 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1084，并以下面的形式提供：
+此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.24 中的新增或更改的功能。 此版本的构建版本号为 10.0.1084，并以下面的形式提供：
 
 - **版本预览：** 2021 年 12 月
 - **版本的正式发布时间（自行更新）：** 2022 年 1 月
@@ -35,6 +34,7 @@ ms.locfileid: "7891871"
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 分布式混合拓扑 | [缩放单元上的增强的仓库执行工作负荷](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [云和边缘缩放单元的仓库管理工作负载](../cloud-edge/cloud-edge-workload-warehousing.md) | 默认启用。 |
+| 分布式混合拓扑 | [云和边缘缩放单元的仓库管理工作负荷上的开始生产订单](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [云和边缘缩放单元的制造执行工作负载](../cloud-edge/cloud-edge-workload-manufacturing.md) | 功能管理（*云和边缘缩放单元的仓库管理工作负荷上的开始生产订单*）  |
 | 计划 | [再订购宽限期和发货宽限期的计划优化支持](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [安全宽限期](../master-planning/planning-optimization/safety-margins.md) | 默认启用。 |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强
@@ -48,7 +48,6 @@ ms.locfileid: "7891871"
 | 生产控制 | 针对生产订单的按需物料可用性检查 | 此功能可以更快地打开 **生产车间管理** 工作区中的 **要下达的生产订单** 页面。 如果没有此功能，系统会在您打开页面后立即自动检查所有列出的生产订单是否有可用材料，如果您有大量订单，这可能会花费大量时间。 启用此功能后，系统会提供一个工具栏按钮，您可以只在需要时使用该按钮启动仅针对选定订单的材料检查。 |
 | 生产控制 | (预览版)在生产车间执行界面(非 WMS)上登记物料消耗量 | 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 此功能仅支持未启用使用高级仓库流程 (WMS) 的物料。 计划在未来的版本中支持启用 WMS 的物料。<p>一些制造商，尤其是加工行业的制造商，需要明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还需要登记生产每个产品时消耗材料的批号。 |
 | 生产控制 | 云和边缘缩放单元的仓库管理工作负荷上的完工入库 | 当应用针对云或边缘缩放单元上的仓库管理工作负荷运行时，此功能允许工作人员使用 Warehouse Management 移动应用将生产或批次订单报告为完工入库。 有关详细信息，请参阅[在缩放单元上报告为完工入库并储存](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF)。 |
-| 生产控制 | 云和边缘缩放单元的仓库管理工作负荷上的开始生产订单 | 当应用针对云或边缘缩放单元上的仓库管理工作负荷运行时，此功能让工作人员可以使用 Warehouse Management 移动应用开始生产或批次订单。 |
 | 仓库管理 | 新装载计划工作台页面 | 启用两个新装载计划工作台页面：**入站装载计划工作台** 和 **出站装载计划工作台**。 |
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
@@ -71,7 +70,7 @@ ms.locfileid: "7891871"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 中包含平台更新。 要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.24 的平台更新（2021 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.24 的平台更新（2022 年 2 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

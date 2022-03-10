@@ -2,24 +2,24 @@
 title: 供应商发票自动化工作区
 description: 本主题介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722711"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182571"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>供应商发票自动化工作区
 
@@ -60,14 +60,14 @@ ms.locfileid: "6722711"
 
 **我的工作** 视图的 **待定发票汇总** 部分中的磁贴概述了供应商发票的状态。 您可以看到尚未过帐的日记帐和处于暂停状态的发票。 此外，还有与供应商发票自动化功能关联的四个磁贴：
 
-- 需要手动收货匹配
-- 匹配验证未成功
-- 未提交到工作流的账单
-- 未导入的账单
+- **需要手动收货匹配**
+- **匹配验证未成功**
+- **未提交到工作流的账单**
+- **未导入的账单**
 
-（这四个磁贴要求在功能管理中打开供应商发票自动化功能。）
+（这四个磁贴要求在 **功能管理** 中打开供应商发票自动化功能。）
 
-若要使用 **恢复供应商发票** 磁贴，必须在应付帐款参数中打开该功能。 转到 **应付帐款 \> 应付帐款参数**，然后在 **发票** 选项卡上，将 **允许恢复供应商发票** 选项设置为 **是**。
+若要使用 **恢复供应商发票** 磁贴，必须在 **应付帐款参数** 中打开该功能。 转到 **应付帐款 \> 应付帐款参数**，然后在 **发票** 选项卡上，将 **允许恢复供应商发票** 选项设置为 **是**。
 
 打开该功能后，您还将在称为 **日记帐** 的部分中在工作区上将三个磁贴组合在一起。 这些磁贴名为 **日记帐**、**日记帐 - 分配给我** 和 **发票池**。 
 

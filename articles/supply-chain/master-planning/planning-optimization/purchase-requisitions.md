@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808032"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570856"
 ---
 # <a name="purchase-requisitions"></a>采购申请
+
+[!include [banner](../../includes/banner.md)]
 
 主计划可以补充已审核的采购申请。 因此，要覆盖采购申请，用户不必使用工作流来创建采购订单。 而可以通过主计划覆盖采购申请。 由于此功能，采购申请可以生成采购订单、转移单或生产订单，具体取决于为相关产品设置的 **计划订单类型** 值。
 

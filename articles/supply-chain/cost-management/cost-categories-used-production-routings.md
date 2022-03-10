@@ -2,11 +2,9 @@
 title: 在生产工艺路线中使用的成本类别
 description: 本文提供有关应用于使用工艺路线的制造环境的成本类别的信息。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58e327e4eddff5d9a6a3f87441149f1f3cdf6cff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ca4c0c9cecb79366cdd41069cb6c96f01b44a2094f4caf57077c391beb6ac106
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779654"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>在生产工艺路线中使用的成本类别
 

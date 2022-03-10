@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e6b1189e4fedfdb029f4b4503f0635133df9d87e
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: 67cb054a648eac2b9a0e89b5e6a645af3c6142ad25237adb7afbd28f96c7e2eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777711"
 ---
 # <a name="vendor-code-isnt-authorized-for-a-specific-product-and-date"></a>供应商代码未针对特定产品和日期授权
 

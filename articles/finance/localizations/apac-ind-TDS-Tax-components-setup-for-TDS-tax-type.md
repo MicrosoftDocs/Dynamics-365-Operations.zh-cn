@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 11b1336289f1fad0366882a18867ff527900d8bfb14051c909a0b0ff72779073
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726002"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>为 TDS 税务类型设置税种组分
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023053"
 
 1. 转到 **税务 \> 设置 \> 预缴税金 \> 预缴税金组分**。
 
-    [![预缴税金组分页面](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![预缴税金组分页面。](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. 在 **税务类型** 字段中，选择 **TDS** 以为 TDS 税务类型设置预缴税金组分。
 3. 在“操作窗格”中，选择 **新建** 创建一行。
@@ -50,7 +50,7 @@ ms.locfileid: "6023053"
 
     例如，如果异常阈值金额为 5,000，则如果发票行金额超过 5,000（换言之，如果金额为 5,001 或更高），将根据特定发票行计算 TDS。
 
-    [![阈值页面](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![阈值页面。](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > 异常阈值金额必须小于或等于阈值金额。
@@ -66,6 +66,6 @@ ms.locfileid: "6023053"
 
 14. 选择 **确定** 以在 **预缴税金组分** 页面上为其他 TDS 组分组复制和创建 TDS 组分。
 
-    [![复制预缴税金组分对话框](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![复制预缴税金组分对话框。](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. 关闭该页面。

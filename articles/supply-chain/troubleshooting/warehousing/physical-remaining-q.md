@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: bfd381160bcfd1e6e5489e16cc22178b8a5142ee
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248768"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920216"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>单位中的实际剩余数量不得为零
 
@@ -63,10 +63,10 @@ ms.locfileid: "6248768"
 
 1. 转到 **仓库管理 \> 负荷 \> 所有负荷**。
 1. 选择无法为其生成装箱单的负荷。
-1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
-1. 在 **负荷行** 选项卡上，为超过超交的物料选择负荷行。
+1. 在操作窗格上的 **装运和收货** 选项卡上，在 **冲销** 组中，选择 **冲销装运确认**。
+1. 在 **负荷行** 选项卡上，为超过超交的物料选择负荷行。
 1. 选择 **减少领料数量** 以调整领料数量。
-1. 在  **行详细信息** 选项卡上，选择 **订单**。
+1. 在 **行详细信息** 选项卡上，选择 **订单**。
 1. 将 **数量** 字段设置为领料数量（即，**工作创建数量** 字段的值），以便可以继续生成装箱单。
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>查看您的负荷行，并进行调整以确保单位和数量与单位的小数精度一致

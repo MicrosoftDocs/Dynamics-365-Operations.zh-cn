@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2da3c0415e996cadb5261d90c6353aa28bff3abb
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 513775afe325008ebd6cd18d2d9485a972984090da3803d255a1584b16b1e014
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767843"
 ---
 # <a name="tile-list-module"></a>磁贴列表模块
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 此主题介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 

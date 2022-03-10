@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358661"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323971"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
 [!include [banner](../includes/banner.md)]
 
-您可以为用于生成出站文档的[电子报告 (ER)](general-electronic-reporting.md) [格式](general-electronic-reporting.md#FormatComponentOutbound)[配置](general-electronic-reporting.md#Configuration)的每个输出组件（文件夹或文件）配置[目标](electronic-reporting-destinations.md)。 运行这种类型的 ER 格式、具有适当访问权限的用户，也可以在运行时更改配置的目标设置。
+您可以为用于生成出站文档的[电子报告 (ER)](general-electronic-reporting.md) 格式[配置](general-electronic-reporting.md#Configuration)的每个输出组件（文件夹或文件）配置[目标](electronic-reporting-destinations.md)。 运行这种类型的 ER 格式、具有适当访问权限的用户，也可以在运行时更改配置的目标设置。
 
 在 Microsoft Dynamics 365 Finance **版本 10.0.17 及更高版本** 中，ER 格式可以通过[设置](er-apis-app10-0-17.md)用户执行（通过运行该 ER 格式）的操作代码来运行。 例如，在 **应收账款** 模块中，在打印管理设置中，您可以选择一个 ER 格式来生成特定的业务文档，如普通发票。 然后，您可以选择 **查看** 预览发票，或选择 **打印** 将其发送到打印机。 如果在运行时为正在运行的 ER 格式传递了用户操作，您可以为不同的用户操作配置不同的 ER 目标。 本主题说明如何为此类型的 ER 格式配置 ER 目标。
 
@@ -115,7 +115,6 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 - 采购订单采购查询
 - 销售订单确认
 - 催款单
-- 客户帐户对帐单
 - 利息单
 - 供应商付款通知
 - 询价

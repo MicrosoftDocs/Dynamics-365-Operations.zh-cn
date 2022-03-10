@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
-ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7648370"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060604"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>安装、设置和更新客户门户
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="licensing-requirements"></a>许可要求
 

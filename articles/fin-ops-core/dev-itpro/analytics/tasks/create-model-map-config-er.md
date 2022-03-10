@@ -2,11 +2,9 @@
 title: 创建电子申报 (ER) 模型映射配置
 description: 此过程用于设计新电子申报 (ER) 模型映射配置和使用内置 ER 执行有效聚合计算的信息。
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23bc3a525be9f65b7e5100114d02f6b79a286fb5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2da00af487e3d85edf2401e71678d7a9fc621a672e2ba477f3195f8a06d5419b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735542"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>创建电子申报 (ER) 模型映射配置
 
@@ -65,3 +63,6 @@ ms.locfileid: "4682061"
     * 内部统计示例映射  
 5. 单击“创建配置”。
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343852"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324000"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -75,7 +75,7 @@ ms.locfileid: "7343852"
 >
 > 提供电子邮件目标以在 [运行时](electronic-reporting-destinations.md#security-considerations)修改时，**发件人** 字段仅对具有 `ERFormatDestinationSenderEmailMaintain` 安全特权的用户可见，请 **为 ER 格式目标维护发件人电子邮件地址**。
 >
-> 当 **发件人** 字段配置为使用当前用户电子邮件地址之外的其他电子邮件地址时，**发送人** 或 **发送人代表** 权限必须提前正确[设置](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide)。 否则，运行时会引发以下异常：“无法从 \<current user account\> 帐户以 \<from email account\> 身份发送电子邮件，请检查 \<from email account\> 上的“发送人”权限。
+> 当 **发件人** 字段配置为使用当前用户电子邮件地址之外的其他电子邮件地址时，**发送人** 或 **发送人代表** 权限必须提前正确[设置](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group)。 否则，运行时会引发以下异常：“无法从 \<current user account\> 帐户以 \<from email account\> 身份发送电子邮件，请检查 \<from email account\> 上的“发送人”权限。
 
 您可以配置 **发件人** 字段以返回多个电子邮件地址。 在这种情况下，列表中的第一个地址用作电子邮件发件人地址。
 
@@ -140,7 +140,7 @@ ms.locfileid: "7343852"
 
 ### <a name="configuration-email"></a>配置电子邮件
 
-如果所用配置在数据源中有一个返回一个电子邮件地址或多个电子邮件地址（以分号 (;) 分隔）的节点，请选择 **配置电子邮件** 作为电子邮件地址类型。 可以在公式设计器中使用[数据源](general-electronic-reporting.md#FormatComponentOutbound)和[函数](er-formula-language.md#Functions)获取格式正确的一个电子邮件地址或多个电子邮件地址（以分号分隔）。 例如，如果使用 **ISO 20022 贷方转帐** 配置，则应该将表示供应商联系人详细信息中的供应商主要电子邮件地址（包括字母）设置为 `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`。
+如果所用配置在数据源中有一个返回一个电子邮件地址或多个电子邮件地址（以分号 (;) 分隔）的节点，请选择 **配置电子邮件** 作为电子邮件地址类型。 可以在公式设计器中使用数据源和[函数](er-formula-language.md#Functions)获取格式正确的一个电子邮件地址或多个电子邮件地址（以分号分隔）。 例如，如果使用 **ISO 20022 贷方转帐** 配置，则应该将表示供应商联系人详细信息中的供应商主要电子邮件地址（包括字母）设置为 `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`。
 
 [![配置电子邮件地址源。](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

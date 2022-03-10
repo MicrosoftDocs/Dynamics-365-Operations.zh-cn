@@ -3,24 +3,23 @@ title: Dynamics 365 Commerce 中的试验
 description: 通过试验，可以在站点构建器中创建、编辑和管理页面布局和内容处理。 为电子商务页面和页面中的实体启用了端到端试验支持。
 author: sushma-rao
 ms.date: 10/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7641267321e1c97b3f0fa30a97c0519c76fe1b0c0223bdd196b6791d5de7cd8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747433"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986533"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的试验
 使用 Dynamics 365 Commerce 中的试验以验证有关您的电子商务页面有效性的假设，并以数据驱动的信心做出决策。 Commerce 支持在页面、模块和片段上进行 A/B 测试，并使您能够度量建议的更改对网站的影响。

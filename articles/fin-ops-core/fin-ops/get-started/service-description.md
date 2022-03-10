@@ -2,19 +2,19 @@
 title: Finance and Operations 应用的服务描述
 description: 本主题提供 Finance and Operations 应用的服务描述。
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472497"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952358"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
 
@@ -28,7 +28,7 @@ Finance and Operations 应用是基于并为了 [Microsoft Azure](https://azure.
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-这些应用与[商业智能](/power-bi/fundamentals/power-bi-service-overview)、[基础结构](https://azure.microsoft.com/global-infrastructure/)、[计算](/azure/service-fabric/service-fabric-overview)和[数据服务](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview)共同让组织可以运行业务特定的运营业务流程。 客户在其实现合作伙伴的支持下，可以确定最适合自己的唯一业务流程的业务应用程序配置。 可以通过下面的一种或多种解决方案增强或扩展功能和业务流程：
+这些应用与[商业智能](/power-bi/fundamentals/power-bi-service-overview)、[基础结构](https://azure.microsoft.com/global-infrastructure/)、[计算](/azure/service-fabric/service-fabric-overview)和[数据服务](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/)共同让组织可以运行业务特定的运营业务流程。 客户在其实现合作伙伴的支持下，可以确定最适合自己的唯一业务流程的业务应用程序配置。 可以通过下面的一种或多种解决方案增强或扩展功能和业务流程：
 
 - [个性化体验](personalize-user-experience.md)中内置
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) 工具
@@ -50,10 +50,10 @@ Finance and Operations 应用的运行模型定义客户、实现合作伙伴和
 
 ### <a name="customer-activities"></a>客户活动
 
-客户与其合作伙伴和 [Microsoft FastTrack](/dynamics365/fasttrack/) 合作，遵循 [Success by Design](/dynamics365/fasttrack/success-by-design-overview) 框架并使用 [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) 中提供的工具和最佳实践来实现自己的解决方案。 常见活动包括：
+客户与其合作伙伴和 [Microsoft FastTrack](/dynamics365/fasttrack/) 合作，遵循 [Dynamics 365 实施指南](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)和 [Success by Design](/dynamics365/fasttrack/success-by-design-overview) 框架，并使用 [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) 中提供的工具和最佳实践来实现自己的解决方案。 常见活动包括：
 
 - 用户标识和安全管理
-- 定义，开发和操作业务流程
+- 定义、开发和操作业务流程
 - 定义，开发，测试和操作扩展
 - 监控和管理非生产部署
 - 管理应用程序更新和验证扩展
@@ -117,7 +117,7 @@ Finance and Operations 应用从全球多个 Azure 区域提供。 Finance and O
 ### <a name="countryregion-specific-considerations"></a>特定于国家/地区的注意事项
 
 - 与需要在本地驻留数据的法国实体开展业务的受监管行业或商业组织的客户应该查看[法国的 Finance and Operations](../../dev-itpro/deployment/france-local-deployment.md)。
-- 在中国经营的客户应该查看[由世纪互联在中国运营的 Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md)。
+- 在中国经营的客户应该查看 [Azure 中国 Playbook](/azure/china/) 和[由世纪互联在中国运营的 Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md)。
 - 在俄罗斯运营的客户应该查看[俄罗斯个人数据本地化法](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia)。
 
 ### <a name="general-data-protection-regulation-gdpr"></a>一般数据保护条例 (GDPR)
@@ -197,17 +197,17 @@ SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备
 | 预配所有生产实例和非生产实例。 | X | |
 | 验证部署的生产实例和非生产实例。 | | X |
 | **服务更新** | |
-| Microsoft 将服务更新应用于指定的非生产实例和生产实例。 | X | X |
-| 从 LCS 下载更新，定义，开发和测试更新，以及将代码更新包还给 LCS。 | | X |
-| 请求将扩展更新应用于生产实例。 | | X |
+| 将服务更新应用于指定的非生产实例和生产实例。 | X | |
+| 手动将服务更新从 LCS 应用于沙盒实例。 定义、开发、测试更新，并将代码更新包重新提供给 LCS。 | | X |
+| 请求将计划扩展更新应用于生产实例。 | | X |
 | 在应用任何更新之前，为生产实例创建代码和数据备份。 | X | |
 | 如果失败，请将生产实例回滚到代码和数据备份。 | X | |
 | **数据管理（备份、还原和更新）** | | |
 | 备备数据库。 | X | |
 | 确定高可用性和灾难恢复计划。 | X | |
-| 监控生产实例数据库的性能。 | X | X |
-| 针对性能调整生产实例数据库。 | X | X |
-| 开始将生产实例数据库复制到非生产实例。 | | X |
+| 监控生产实例数据库的性能。 | X | |
+| 针对性能调整生产实例数据库。 | X | |
+| 对非生产实例执行生产实例数据库时间点刷新。 | | X |
 | **更新基础结构** | | |
 | 计划基础结构常规更新。 | X | |
 | **向上扩展和向下扩展（用户、存储和实例）** | | |
@@ -215,7 +215,7 @@ SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备
 | 在 LCS 订阅估算器工具中更新使用情况更改。 | | X |
 | 报告影响使用服务的任何重大性能问题。 | | X |
 | 主动管理适用服务所需的资源。 | X | |
-| 调查和排除事件。 | X | X |
+| 调查和排除事件。 | X | |
 | **安全性（用户访问权限）** | | |
 | 为用户提供服务的访问权限。 | | X |
 | 提供 LCS 项目访问权限以管理和操作通过 LCS 部署的实例。 | | X |
@@ -311,12 +311,12 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
 
 | Microsoft 的职责 | 客户的职责 |
 |---|---|
-| 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 否 |
-| 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 否 |
-| Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 否 |
-| <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 数据丢失最多 5 秒。 有关详细信息，请参阅 [Azure SQL 数据库异地恢复](https://azure.microsoft.com/blog/azure-sql-database-geo-restore)。</p><p>如果数据丢失，Microsoft 将请求客户签字以进行故障转移。</p> | 如果数据丢失，客户可能必须提供书面签字才能触发故障转换。 |
+| 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 无 |
+| 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 无 |
+| Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 无 |
+| <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 客户可能会遇到长达 15 分钟的数据丢失，具体取决于中断的性质和时间。 | 如果数据丢失，客户可能必须提供书面签字才能触发故障转移。 |
 | 发生故障转移时，适用的服务将以受限模式工作。 故障转移模式下不能触发更新维护。 | 故障模式下客户不能请求包部署和其他常规维护请求。 |
-| 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时时注销。 |
+| 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时签字。 |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations 支持产品
 
@@ -333,9 +333,9 @@ Microsoft 为 Finance and Operations 客户提供三款支持计划：顶级、�
 | 无限中断/修复事件提交 | 是 | 是 | 是 |
 | 全天候通过 LCS 访问 | 是 | 是 | 是 |
 | 事件响应时间 | 少于 1 小时 | 少于 1 小时 | 下一个工作日 |
-| 咨询小时 | 按协议购置池。 | 无 | 无 |
-| 专门的支持客户经理 | 是 | 无 | 无 |
-| 专门的支持工程师 | 根据单独的协议联系 | 无 | 无 |
+| 咨询小时 | 按协议购置池。 | 否 | 否 |
+| 专门的支持客户经理 | 是 | 否 | 否 |
+| 专门的支持工程师 | 根据单独的协议联系 | 否 | 否 |
 
 有关详细信息，请参阅[支持概述](/power-platform/admin/support-overview)。
 
@@ -356,6 +356,7 @@ Microsoft 承诺每个服务月的可用率为 99.9%。 如果 Microsoft 未能�
 - **[许可指南](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – 本指南用于详细了解如何许可 Dynamics 365。
 - **[客户支持](https://dynamics.microsoft.com/support/)** – 获取针对 Dynamics 365 应用的行业领先支持。
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – 管理您的应用程序生命周期，以及向可预测、可重复的高质量实现努力。
+- **[Dynamics 365 实施指南](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 实施指南记录了久经考验的 Success by Design 原则，为架构、构建、测试和部署 Dynamics 365 解决方案提供说明性指导。
 
 ## <a name="definitions"></a>定义
 
@@ -428,6 +429,10 @@ Finance and Operations 应用中包含的任何核心服务。
 ### <a name="service-update"></a>服务更新
 
 Microsoft 通过服务更新始终如一地服务 Finance and Operations 环境。 客户根据业务需求制订自己的服务更新日历。 有关预览版的详细信息，请参阅 [One Version 服务更新](../../dev-itpro/lifecycle-services/oneversion-overview.md)。
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+此框架通过关键阶段的一系列评估系统地指导实施，以确保 Dynamics 365 解决方案的最佳体系结构、安全性、性能和用户体验。
 
 ### <a name="user"></a>用户
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: datra
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 71977a04adb066a8b51c9bf7b8c5a4e752ca902e
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 6d71720b1d3a34a31639db0f829dee300d6f96d53fd61c0a8740be9f2306d6dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738811"
 ---
 # <a name="batch-number-is-cleared-when-a-new-lot-id-is-selected"></a>选择新批次 ID 时，批处理号被清除
 

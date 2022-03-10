@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 94d6356df8414d1058c64bfc4692af4011b69e87
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: dc68cfd1afab808b1aa79fe4d0387cb6bb6c198f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021144"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568727"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>为登陆成本添加了供应商设置
 

@@ -1,12 +1,10 @@
 ---
 title: 质量管理测试仪器
 description: 本主题介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行测试的测试仪器。
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestInstrument
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc09021f89a9064a3140a726fca74e3eceab13da
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956565"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565895"
 ---
 # <a name="quality-management-test-instruments"></a>质量管理测试仪器
 

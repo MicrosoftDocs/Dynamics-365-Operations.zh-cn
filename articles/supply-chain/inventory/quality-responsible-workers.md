@@ -1,12 +1,10 @@
 ---
 title: 负责审核不符合项的工作人员
 description: 本主题介绍如何配置负责审核不符合项的工作人员。
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5979cb33146a00c3ea49ada9577140b24c07928f
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956567"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575888"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>负责审核不符合项的工作人员
 

@@ -1,7 +1,7 @@
 ---
 title: 存档库存交易记录
 description: 本主题介绍如何存档库存交易记录数据以帮助提高系统性能。
-author: sherry-zheng
+author: yufeihuang
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021258"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567455"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 
@@ -64,7 +64,7 @@ ms.locfileid: "6021258"
 
     **库存交易记录存档** 页将出现，显示已存档流程记录的列表。
 
-    ![库存交易记录存档页](media/archive-inventory-empty.png "库存交易记录存档页")
+    ![库存交易存档页面。](media/archive-inventory-empty.png "库存交易记录存档页")
 
 1. 在操作窗格上，选择 **库存交易记录存档** 创建库存交易记录存档。
 1. 在 **库存交易记录存档** 对话框中，在 **参数** 快速选项卡上，设置以下字段：
@@ -72,7 +72,7 @@ ms.locfileid: "6021258"
     - **已关闭分类帐期间中的开始日期** – 选择要包括在存档中的最早的交易记录日期。
     - **已关闭分类帐期间中的结束日期** – 选择要包括在存档中的最晚的交易记录日期。
 
-    ![库存交易记录存档对话框](media/archive-inventory-dates.png "库存交易记录存档对话框")
+    ![库存交易存档对话框。](media/archive-inventory-dates.png "库存交易记录存档对话框")
 
     > [!NOTE]
     > 只有满足[先决条件](#prerequisites)的期间才可以选择。
@@ -87,7 +87,7 @@ ms.locfileid: "6021258"
 
 **库存交易记录存档** 页将显示完整存档历史记录。 网格中的每一行显示存档创建日期、创建存档的用户以及存档的状态等信息。
 
-![库存交易记录存档页上的存档历史记录](media/archive-inventory-full.png "库存交易记录存档页上的存档历史记录")
+![库存交易存档页面上的存档历史记录。](media/archive-inventory-full.png "库存交易记录存档页上的存档历史记录")
 
 在页面顶部的下拉列表中，选择以下值之一以筛选显示在网格中的存档：
 
@@ -109,7 +109,7 @@ ms.locfileid: "6021258"
 
 - **已存档的交易记录** – 查看所选存档的全部详细信息。 出现的 **已存档的交易记录** 页将显示存档中的所有交易记录。
 
-    ![已存档的交易记录页](media/archive-inventory-transactions.png "已存档的交易记录页")
+    ![已存档的交易页面。](media/archive-inventory-transactions.png "已存档的交易记录页")
 
     要在 **已存档的交易记录** 页上查看有关特定交易记录的详细信息，请在网格中选择它，然后在操作窗格上，选择 **已存档的交易记录详细信息**。 出现的 **已存档的交易记录详细信息** 页将显示分类帐过帐、相关子分类帐参考和财务维度等信息。
 

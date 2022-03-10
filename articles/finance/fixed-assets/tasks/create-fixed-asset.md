@@ -2,26 +2,23 @@
 title: 创建固定资产
 description: 本主题介绍了如何从“固定资产”列表页面创建新的固定资产记录。
 author: moaamer
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
-ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
+ms.openlocfilehash: 7bf6e74253d2cf4150914fcb8bcc51aa2f32c0435c563b677def40115e0163fa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4440982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758117"
 ---
 # <a name="create-a-fixed-asset"></a>创建固定资产
 
@@ -55,3 +52,6 @@ ms.locfileid: "4440982"
 
 > [!WARNING]
 > 如果将交易记录过帐到关联的帐簿，或者在日记帐行中输入了新创建的固定资产但未过帐，则不会删除固定资产记录。 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

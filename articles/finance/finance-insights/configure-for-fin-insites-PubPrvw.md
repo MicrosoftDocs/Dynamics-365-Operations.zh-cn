@@ -1,12 +1,13 @@
 ---
-title: 公开预览版（预览）的 Finance insights 的配置 - 版本 10.0.20 及更高版本
-description: 本主题介绍如何配置系统以使用版本 10.0.20 及更高版本中公开预览版的 Finance Insights 中的可用功能。
+title: Finance Insights 的配置 - 10.0.20 和更高版本
+description: 本主题介绍如何配置系统以使用版本 10.0.20 及更高版本内 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,33 +16,31 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222604"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061746"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>公开预览版（预览）的 Finance insights 的配置 - 版本 10.0.20 及更高版本
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance Insights 的配置 - 10.0.20 和更高版本
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/preview-banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍如何配置 Dynamics 365 Finance 版本 10.0.20，以便系统可以使用 Finance insights 公开预览版中的可用功能。
+Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍如何配置 Dynamics 365 Finance 版本 10.0.20，以便系统可以使用 Finance insights 中的可用功能。
 
 > [!NOTE]
-> 本主题中描述的配置步骤仅适用于 Finance 版本 10.0.20 及更高版本。 “若要在版本 10.0.19 及更早版本上设置 Finance Insights，请参阅 [Finance Insights 的配置 - 10.0.18 之前的版本](configure-for-fin-insites.md)。
+> 本主题中描述的配置步骤仅适用于 Finance 版本 10.0.20 及更高版本。 “若要在版本 10.0.19 及更早版本上设置 Finance Insights，请参阅 [Finance Insights 的配置 - 10.0.19 之前的版本](configure-for-fin-insites.md)。
 
 ## <a name="deploy-finance"></a>部署 Finance
 
 按照以下步骤部署环境。
 
-1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Finance 环境。 此环境需要 Finance and Operations 应用的应用版本 10.0.20 或更高版本。
+1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Finance 环境。 环境需要适用于 Finance and Operations 应用的应用版本 10.0.20 或更高版本。
 2. 该环境必须是沙盒中的高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
-3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分定型预测模型。 
+3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分训练预测模型。 
 
 ## <a name="configure-dataverse"></a>配置 Dataverse
 
@@ -95,7 +94,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP Microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | AI Builder Authorization Service         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
+    | AI Builder 授权服务         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
 
 如果找不到上述任何应用程序，请尝试以下步骤。
 
@@ -215,7 +214,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能和 Dataverse
         | 您创建的新应用程序的显示名称 | 缴纳人                 |
         | 您创建的新应用程序的显示名称 | 存储帐户参与者 |
         | 您创建的新应用程序的显示名称 | 存储 Blob 数据负责人     |
-        | **AI Builder Authorization Service**                     | 存储 Blob 数据读者    |
+        | **AI Builder 授权服务**                     | 存储 Blob 数据读者    |
 
 # <a name="azure-cli"></a>[Azure CLI](#tab/azure-azure-cli)
 
@@ -749,8 +748,10 @@ finally {
 3. 选择 **Finance Insights** 加载项。
 4. 同意条款，然后选择 **安装**。
 
+安装加载项可能需要几分钟时间。
+
 ## <a name="feedback-and-support"></a>反馈和支持
 
-如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights（预览）](mailto:fiap@microsoft.com)发送电子邮件。
+如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights](mailto:fiap@microsoft.com)发送电子邮件。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

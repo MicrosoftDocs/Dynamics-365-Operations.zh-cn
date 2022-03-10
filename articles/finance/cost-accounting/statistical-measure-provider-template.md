@@ -1,17 +1,14 @@
 ---
-title: 统计维度成员和统计度量提供方模板
+title: 供统计维度成员和度量提供方使用的提供方模板
 description: 此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767639"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>供统计维度成员和度量提供方使用的提供方模板
 
 [!include [banner](../includes/banner.md)]
 
@@ -163,7 +160,7 @@ HcmEmployment 表包含实例中的所有员工的列表。 下表是一个全�
 
 **统计条目**
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |  说明        | 度量值 |
+| 成本对象 |  说明  | 会计日期 | 统计维度成员 |  说明        | 度量值 |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | HR | 31-01-2017      | FTE                         | 全职员工 | 1.00      |
 | CC002       | FI | 31-01-2017      | FTE                         | 全职员工 | 2.00      |
@@ -329,7 +326,7 @@ ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易�
 
 **统计条目**
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |      说明                   | 度量值  |
+| 成本对象 | 说明 | 会计日期 | 统计维度成员 |      说明                   | 度量值  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | HR | 31-01-2017      | 电                  | 用电量 | 2,450.00   |
 | CC002       | FI | 31-01-2017      | 电                  | 用电量 | 4,100.00   |
@@ -337,12 +334,15 @@ ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易�
 
 如果电量预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。
 
-| 成本对象 |    | 度量值 | 分配系数          |
-|-------------|----|-----------|----------------------------|
-| CC001       | HR | 2,450.00  | (2,450 ÷ 21,550) × 金额  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × 金额  |
-| CC003       | IT | 15,000.00 | (15,000 ÷ 21,550) × 金额 |
+| 成本对象 | 说明   | 度量值 | 分配系数          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | HR            | 2,450.00  | (2,450 ÷ 21,550) × 金额  |
+| CC002       | FI            | 4,100.00  | (4,100 ÷ 21,550) × 金额  |
+| CC003       | IT            | 15,000.00 | (15,000 ÷ 21,550) × 金额 |
 
 ## <a name="additional-resources"></a>其他资源
 
 [分配基数](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

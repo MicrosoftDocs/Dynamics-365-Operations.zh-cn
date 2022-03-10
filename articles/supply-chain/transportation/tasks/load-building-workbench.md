@@ -14,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7b8633adbab43c95366d42cf409f5e508771c906
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809030"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574849"
 ---
 # <a name="load-building-workbench"></a>装载计划工作台
+
+[!include [banner](../../includes/banner.md)]
 
 负荷构建工作台可让您在创建负荷时应用负荷构建策略。
 

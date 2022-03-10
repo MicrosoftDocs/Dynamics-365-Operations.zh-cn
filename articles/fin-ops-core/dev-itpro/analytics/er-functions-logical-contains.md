@@ -2,11 +2,8 @@
 title: CONTAINS ER 函数
 description: 本主题提供有关 CONTAINS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
-manager: kfend
 ms.date: 02/11/2021
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: AX 10.0.18
-ms.openlocfilehash: 81964681688cebf870bc9b6c59aff0b7fdd82449
-ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
+ms.openlocfilehash: ae6c96b5754946ee971a8f47d4c618751d25f7e86fb9fb115861e97c5e6f536e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5557500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765138"
 ---
 # <a name="contains-er-function"></a>CONTAINS ER 函数
 
@@ -54,7 +51,7 @@ CONTAINS (input, search text)
 
 ## <a name="usage-notes"></a>使用说明
 
-仅在 [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) 中配置了相关映射以访问 [Microsoft Dataverse](../data-entities/data-integration-cds.md) 时，此函数才可用于指定 [FILTER](er-functions-list-filter.md) 函数的条件表达式。 否则，在设计时会引发异常。 您收到的消息建议您使用 [WHERE](er-functions-list-where.md) 函数而不是 `FILTER` 函数。
+仅在 [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) 中配置了相关映射以访问 [Microsoft Dataverse](/power-platform/admin/data-integrator) 时，此函数才可用于指定 [FILTER](er-functions-list-filter.md) 函数的条件表达式。 否则，在设计时会引发异常。 您收到的消息建议您使用 [WHERE](er-functions-list-where.md) 函数而不是 `FILTER` 函数。
 
 ## <a name="example-1"></a>示例 1
 

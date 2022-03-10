@@ -1,22 +1,22 @@
 ---
 title: 询价的密封投标
 description: 本主题介绍如何设置密封投标，以在采购人员解封密封投标之前对供应商投标回复保密。
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500626"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578072"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>询价的密封投标
 
@@ -53,7 +53,11 @@ ms.locfileid: "7500626"
 Supply Chain Management 使用加密密钥保护所有密封投标并将其保密，直至适当时间。 它利用密钥保管库的功能生成和管理必需的密钥。 因此，您必须设置从 Supply Chain Management 到密钥保管库的连接才能启用系统。
 
 > [!IMPORTANT]
-> 必须在由您的组织负责的 Azure 订阅（而不是您正在运行 Supply Chain Management 所用的订阅）中创建密钥保管库。
+> 您用于已密封投标的密钥保管库必须满足以下要求：
+>
+> - 如果您使用沙箱进行开发和测试，那么您必须有一个用于沙箱的专用密钥保管库和一个用于生产的单独密钥保管库。
+> - 必须在由您的组织负责的 Azure 订阅（而不是您正在运行 Supply Chain Management 所用的订阅）中创建每个密钥保管库。
+> - 每个密钥保管库必须仅用于密封投标。 您不得将密封投标密钥保管库用于任何其他目的。
 
 每个投标都会检索其自己的密钥。 每次用户查看、更新或解封投标时都会使用此密钥。
 

@@ -2,11 +2,9 @@
 title: 创建在线功能配置文件
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建在线功能配置文件。
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716186"
 ---
 # <a name="create-an-online-functionality-profile"></a>创建在线功能配置文件
 
@@ -44,9 +42,9 @@ ms.locfileid: "5477724"
 
 下图显示了一个在线功能配置文件示例。
   
-![在线功能配置文件示例](media/online-functionality-profile.png)
+![在线功能配置文件示例。](media/online-functionality-profile.png)
 
-## <a name="functions"></a>函数
+## <a name="functions"></a>功能
 
 - **聚合产品**：启用后，此功能允许购物车在多次添加同一商品时更新数量。
 - **允许不付款结帐**：启用后，此功能可以处理添加到购物车中的商品价格为 0.00 美元的情况。

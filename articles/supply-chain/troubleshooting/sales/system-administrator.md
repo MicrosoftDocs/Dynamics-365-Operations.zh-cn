@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: acabd6409d9b2860535335bc648bcc34304e0cb0
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 0d0fbcc111d77ae1a362984033216f5973e2bc74f2ee95947b662ef60a13d83e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750898"
 ---
 # <a name="system-administrators-cant-clear-order-holds-because-they-arent-authorized"></a>系统管理员由于未被授权无法清除订单保留
 

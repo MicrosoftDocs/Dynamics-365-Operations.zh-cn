@@ -2,11 +2,9 @@
 title: 用于群集领料的产品确认
 description: 此主题描述如何设置物料验证和群集领料。
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e30022377cb02e7516cb98f48dc12e4f9e2ce172
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d14d015811a72bc0ba05b65473331b047dbcc49c104f633c50ee497d92ff3e7d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755922"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>用于群集领料的产品确认
 

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bbb234d2f51391ea65e3d6153d6cee250f3c6dc
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741445"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069799"
 ---
 # <a name="payroll-position"></a>工资单职位
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,22 +35,29 @@ ms.locfileid: "6741445"
 
 该实体为给定员工提供与职位相关的信息。
 
-物理名称： 
+物理名称：mshr_payrollpositionentity。
 
 ## <a name="properties"></a>属性
 
-| 属性<br>**物理名称**<br>**_类型_** | 使用 | 说明 |
+| 属性</br>**物理名称**</br>**_类型_** | 使用 | 说明 |
 | --- | --- | --- |
-| **年度常规时间(小时)**<br>annualregularhours<br>*十进制* | 只读<br>必填 | 在职位上定义的年度常规小时。  |
-| **工资单职位详细信息实体 ID**<br>payrollpositiondetailsentityid<br>*GUID* | 必填<br>系统生成。 | 系统生成的用于唯一标识职位的 GUID 值。  |
-| **主要字段**<br>mshr_primaryfield<br>*字符串* | 必填<br>系统生成的 |  |
-| **职位工作 ID 值**<br>_mshr_fk_positionjob_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_payrollpositionjobentity 的 mshr_PayrollPositionJobEntity |与职位关联的工作的 ID。|
-| **固定薪酬计划 ID 值**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_payrollfixedcompensationplanentity 的 mshr_FixedCompPlan_id  | 与职位关联的固定薪酬计划的 ID。 |
-| **付薪周期 ID**<br>mshr_primaryfield<br>*字符串* | 只读<br>必填 | 在职位上定义的付薪周期。 |
-| **由法人支付**<br>paidbylegalentity<br>*字符串* | 只读<br>必填 | 在负责签发付款的职位上定义的法人。 |
-| **职位 ID**<br>mshr_positionid<br>*字符串* | 只读<br>必填 | 职位的 ID。 |
-| **失效日期**<br>validto<br>*日期/时间偏移* | 只读<br>必填 |位置详细信息有效的开始日期。  |
-| **生效日期**<br>validfrom<br>*日期/时间偏移* | 只读<br>必填 |位置详细信息有效的结束日期。  |
+| **职位 ID**</br>mshr_positionid</br>*字符串* | 只读 | 职位的 ID。 |
+| **付薪周期 ID**</br>mshr_paycycleid</br>*字符串* | 只读 | 针对职位定义的付薪周期。 |
+| **年度常规时间(小时)**</br>annualregularhours</br>*小数* | 只读 | 针对职位上定义的年度常规小时。 |
+| **由法人支付**</br>paidbylegalentity</br>*字符串* | 只读 | 针对负责签发付款的职位定义的法人。 |
+| **失效日期**</br>validto</br>*日期/时间偏移* | 只读 | 位置详细信息有效的结束日期。 |
+| **生效日期**</br>validfrom</br>*日期/时间偏移* | 只读 | 职位详细信息生效的开始日期。 |
+| **主要字段**</br>mshr_primaryfield</br>*字符串* | 系统生成的 | 主要字段。 |
+| **工资单职位详细信息实体 ID**</br>payrollpositiondetailsentityid</br>*GUID* | 必需</br>系统生成。 | 系统生成的用于唯一标识职位的全局唯一标识符 (GUID) 值。 |
+
+## <a name="relations"></a>关系
+
+| 属性值 | 相关实体 | 导航属性 | 集合类型 |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | 不适用 |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | 不适用 |
 
 ## <a name="example-query"></a>示例查询
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3d60265df7ff1f447e20866b8b8a447d88db8cc4b3dccedebc0f18ce8f0f70dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746312"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>税款过帐到凭证中错误的会计科目
 
@@ -30,26 +30,26 @@ ms.locfileid: "6020083"
 
 1. 在 **凭证交易** 页上，选择要处理的交易，然后选择 **已过帐销售税**。
 
-    [![“凭证交易”页上的已过帐销售税按钮](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![“凭证交易”页面上的已过帐销售税按钮。](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. 查看 **销售税代码** 字段中的值。 在此示例中，是 **增值税 19**。
 
-    [![“已过帐销售税”页上的“销售税代码”字段](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![“已过帐销售税”页面上的“销售税代码”字段。](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>检查税代码的分类帐过帐组
 
 1. 转到 **税** \> **间接税** \> **销售税** \> **销售税代码**。
 2. 找到并选择税代码，然后查看 **分类帐过帐组** 字段中的值。 在此示例中，是 **增值税**。
 
-    [![“销售税代码”页上的“分类帐过帐组”字段](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![“销售税代码”页面上的“分类帐过帐组”字段。](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. **分类帐过帐组** 字段中的值是一个链接。 要查看组配置的详细信息，选择该链接。 或者，在字段中选择并按住（或右键单击），然后选择 **查看详细信息**。
 
-    [![“查看详细信息”命令](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![“查看详细信息”命令。](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. 在 **应付销售税** 字段中，根据交易类型验证科目编号是否正确。 如果不正确，请选择要过帐到的正确科目。 在此示例中，应将销售订单的销售税过帐到应付销售税科目 222200。
 
-    [![“分类帐过帐组”页上的“应付销售税”字段](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![“分类帐过帐组”页面上的“应付销售税”字段。](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     下表提供了有关 **分类帐过帐组** 页上每个字段的信息。
 
@@ -71,11 +71,11 @@ ms.locfileid: "6020083"
 
 1. 对于销售订单，在 **Tax::saveAndPost()** 和 **Tax::post()** 方法处添加中断点。 注意 **\_ledgerDimension** 的值。
 
-    [![具有中断点的销售订单代码示例](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![具有中断点的销售订单代码示例。](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     对于采购订单，在 **TaxPost::saveAndPost()** 和 **TaxPost::postToTaxTrans()** 方法处添加中断点。 注意 **\_ledgerDimension** 的值。
 
-    [![具有中断点的采购订单代码示例](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![具有中断点的采购订单代码示例。](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. 运行以下 SQL 查询，根据分类帐维度保存的记录 ID 在数据库中查找科目的显示值。
 
@@ -83,7 +83,7 @@ ms.locfileid: "6020083"
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![记录 ID 的显示值](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![记录 ID 的显示值。](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. 检查调用堆栈，查找分配 **_ledgerDimension** 值的位置。 通常，此值来自 **TmpTaxWorkTrans**。 在这种情况下，您应该在 **TmpTaxWorkTrans::insert()** 和 **TmpTaxWorkTrans::update()** 处添加中断点来查找分配值的位置。
 

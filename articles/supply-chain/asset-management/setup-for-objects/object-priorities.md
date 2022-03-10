@@ -1,29 +1,26 @@
 ---
 title: 资产服务级别
 description: 本主题介绍资产管理中的资产服务级别。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35e7a55b1ba230be6bb72b20fcd805ea061b648e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723591"
 ---
 # <a name="asset-service-levels"></a>资产服务级别
 
@@ -53,3 +50,6 @@ ms.locfileid: "4422906"
 
 > [!NOTE]
 > 如果在 **资产服务级别** 页中更改已用于工作订单的资产服务级别记录，则不会相应更改维护请求和工作订单的服务级别。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

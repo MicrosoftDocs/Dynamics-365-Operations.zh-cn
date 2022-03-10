@@ -1,29 +1,26 @@
 ---
 title: 预留库存数量
 description: 此主题介绍预留库存时可用的不同选项。
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423270"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571129"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 
@@ -49,7 +46,7 @@ ms.locfileid: "4423270"
 
 **库存策略** 部分包含以下预留策略。
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **预留策略**  | **描述**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | 受先进先出日期控制    | 如果您选择了 **受先进先出日期控制** 选项，则将按照先进先出原则的排序日期控制库存预留。 根据先进先出 (FIFO) 原则，基于收货物料的最早日期预留批次。                                                                                                                                                                                                                                                                       |
@@ -83,3 +80,6 @@ ms.locfileid: "4423270"
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>“生产参数”页上的库存预留策略
 
 **生产参数** 页上的 **常规** 选项卡上的 **预留** 字段的值确定在生产流程中应预留库存的默认点。 例如，可以在编制工作计划时或者在工作开始时预留库存。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

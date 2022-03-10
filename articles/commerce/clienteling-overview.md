@@ -3,25 +3,27 @@ title: 客户服务解决方案概述
 description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
 ms.date: 02/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937004"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984588"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -68,7 +70,7 @@ ms.locfileid: "5937004"
 
 1. 在 **功能管理** 工作区，按 **零售和商业** 模块筛选功能。
 
-    ![Commerce 模块的功能列表中的客户服务解决方案](./media/Enable_clienteling.png "“零售和商业”模块的功能列表中的客户服务解决方案")
+    ![Commerce 模块的功能列表中的客户服务解决方案。](./media/Enable_clienteling.png "“零售和商业”模块的功能列表中的客户服务解决方案")
 
 2. 通过选择 **立即启用**，开启 **客户服务解决方案** 功能。
 3. 在 **商业参数** 页面上的 **编号规则** 选项卡上，选择 **客户手册标识符** 行。 然后，在 **编号规则代码** 字段中，选择一个编号规则。 系统将使用此编号规则为客户手册分配 ID。
@@ -83,7 +85,7 @@ ms.locfileid: "5937004"
 
 6. 在 **商业参数** 页面上，在 **客户服务解决方案** 选项卡上的 **客户手册属性组** 字段中，选择刚才创建的属性组。
 
-    ![已选择客户手册属性组](./media/Client%20book%20attributes.png "已选择客户手册属性组")
+    ![已选择客户手册属性组。](./media/Client%20book%20attributes.png "已选择客户手册属性组")
 
 7. 要捕获 POS 上发生的活动，请在 **活动类型** 页面定义活动类型（**Retail 和 Commerce \> 客户 \> 活动类型**）。
 
@@ -95,7 +97,7 @@ ms.locfileid: "5937004"
 
 完成此过程后，销售助理可以在 POS 上打开客户详细信息页面，然后将客户添加到他们的客户手册中，查看和捕获客户的活动和注释，并通过使用客户和客户手册属性筛选客户手册来定位客户。 下图显示了一个客户手册的示例。
 
-![客户手册的示例](./media/client_book.png "客户手册的示例")
+![客户手册的示例。](./media/client_book.png "客户手册的示例")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>打开 Customer Insights 与 Commerce 的集成
 
@@ -123,7 +125,7 @@ ms.locfileid: "5937004"
 - 在 **密码** 部分下：
     - **名称**：任何名称，例如，“CISecret”。
     - **描述**：任何值。
-    - **密码**：**vault**://<Name of key vault>/<name of secret>> 在此示例中将为“vault://KeyVaultName/SecretName”。
+    - **机密**：**保管库**：`//<Name of key vault>/<name of secret>>`在此示例中，它将是 `vault://KeyVaultName/SecretName`。
 
 更新字段后，选择 **验证** 确保密码可以被 Commerce 应用程序访问。
 

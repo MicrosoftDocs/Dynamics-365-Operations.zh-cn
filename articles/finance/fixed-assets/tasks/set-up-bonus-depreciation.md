@@ -1,7 +1,7 @@
 ---
 title: 设置额外折旧
 description: 此过程显示如何创建特殊折旧补偿并将其与固定资产帐簿关联。
-author: saraschi2
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonu
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad1b7f584d2b2a63dba5f8519ada9d89d6265e7b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6bfa433c07a2acb37c8e73dfa5db7d1e1715cd1d
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815612"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883662"
 ---
 # <a name="set-up-bonus-depreciation"></a>设置额外折旧
 

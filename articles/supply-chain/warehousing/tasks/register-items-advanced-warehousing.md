@@ -1,7 +1,7 @@
 ---
 title: 使用物料到达日记帐登记启用了高级仓库的物料
 description: 本主题提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
-author: ShylaThompson
+author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357994"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565247"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了高级仓库的物料
 

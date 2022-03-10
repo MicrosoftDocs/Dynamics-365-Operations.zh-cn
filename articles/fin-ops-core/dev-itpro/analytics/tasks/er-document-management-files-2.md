@@ -2,7 +2,6 @@
 title: ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）
 description: 本主题介绍如何配置电子报告 (ER) 格式以在 ER 输出中使用文档管理文件（附件）。 （第 2 部分）
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b47c35790ce04a494b6c58f6e04fa9b829d2ab93
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d20738fbdfd85390870c935576d954d3050029f557fe8b5b690329f9e4a0aab4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733741"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2---extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）
 

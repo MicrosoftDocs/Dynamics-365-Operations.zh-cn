@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a360cb3cbd26e1bc1ebb1baf1a6a4d8282c28c5c
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: a89f5f98895be5b934dbdc1194fa58b9af34f9cbc7f5e2092f6f47791dd52400
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777735"
 ---
 # <a name="planned-production-order-must-be-scheduled-before-it-can-be-firmed"></a>计划生产订单必须在确认之前进行计划
 

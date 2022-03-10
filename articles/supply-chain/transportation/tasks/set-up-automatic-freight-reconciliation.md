@@ -1,7 +1,7 @@
 ---
 title: 设置自动装运对帐
 description: 此过程显示如何为自动货运对帐设置数据。
-author: ShylaThompson
+author: Henrikan
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4bc3998dea2e953191151f8e54345ec648ff33e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1dbe3c683d869f86bc7231c68839f431cc61d6b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837601"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574825"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: shawan
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a8af535257ce217629d5ba92e624623c3ea39345
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 4625570cb706199dca78f23b1864ca1d81cc66e896cf10d6d5f16cf1a9d1dc16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713486"
 ---
 # <a name="quantity-on-a-started-quarantine-order-isnt-updated-when-the-order-is-split"></a>拆分订单后，已开始的隔离订单上的数量不更新
 

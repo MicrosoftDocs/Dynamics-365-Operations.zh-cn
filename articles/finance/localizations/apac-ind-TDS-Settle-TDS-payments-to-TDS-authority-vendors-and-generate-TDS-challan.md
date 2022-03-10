@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5b77985a75d2930267cf94d6f218d53b47e6e705
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 19f41020c6e1db8b08c7f69a58d33852c730931447803e2e1e970b1c293b6acd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779390"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>向 TDS 主管机构供应商结算 TDS 付款并生成 TDS challan
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023065"
 
 1. 转到 **应付帐款 \> 付款 \> 供应商付款日记帐**。
 
-    [![供应商付款日记帐页](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
+    [![供应商付款日记帐页面。](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 
 2. 在 **供应商付款日记帐** 页面上，选择 **新建** 以创建日记帐行。
 3. 在 **帐户** 字段中，选择要向其结算 TDS 付款的 TDS 主管机构供应商。

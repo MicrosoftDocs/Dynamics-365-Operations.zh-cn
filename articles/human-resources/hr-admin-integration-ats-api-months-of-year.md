@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d1125c7d7d8ce0faf2bba8a8786ea5b4bf7ee7cde2fef0864b6744a3a5d7dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3b2b6dba2b2a191c0fdfc670281d0778ff13255
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765554"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066310"
 ---
 # <a name="months-of-year"></a>一年中的月份
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

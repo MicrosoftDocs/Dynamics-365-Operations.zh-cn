@@ -1,8 +1,8 @@
 ---
 title: 未雇用的工作人员
-description: 您的组织中没有未来、当前或历史雇用的工作人员会出现在“未雇用工作人员”窗体中。
-author: andreabichsel
-ms.date: 04/06/2021
+description: 您的组织中没有未来、当前或历史雇用的工作人员会出现在“未雇用工作人员”页面上。
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,26 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0b8fe7dd0818fa1c3cc4224e73035849f9dadfe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724956"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070543"
 ---
 # <a name="workers-without-employment"></a>未雇用的工作人员
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-您的组织中没有未来、当前或历史雇用的工作人员会出现在 **未雇用工作人员** 窗体中。 当您导入没有雇用记录的工作人员时，或者通过 **工作人员 > 雇用历史记录** 删除工作人员的雇用时，会出现具有此状态的工作人员。
+您的组织中没有未来、当前或历史雇用的工作人员会出现在 **未雇用工作人员** 页面上。 当您导入没有雇用记录的工作人员时，或者通过 **工作人员 \> 雇用历史记录** 删除工作人员的雇用时，会出现此类型的工作人员。
 
-默认情况下，**未雇用工作人员** 窗体对以下角色可用：
+默认情况下，**未雇用工作人员** 页面对以下角色可用：
 
 - 人力资源助理
 - 人力资源经理

@@ -2,7 +2,7 @@
 title: WEEKNUM ER 函数
 description: 本主题提供有关 WEEKNUM 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 01/15/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: fe36d4142b6e4922e2cbca09bb0ca9f68f6680a0
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891336"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982169"
 ---
 # <a name="weeknum-er-function"></a>WEEKNUM ER 函数
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 `WEEKNUM` 函数返回一个 *[整数](er-formula-supported-data-types-primitive.md#integer)* 值，此值表示包含指定 *[日期](er-formula-supported-data-types-primitive.md#date)* 值的一年中的第几周。 计算基于定义日历周和一周的第一天的区域性相关规则。
 

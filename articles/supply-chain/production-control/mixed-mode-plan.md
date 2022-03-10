@@ -1,12 +1,10 @@
 ---
 title: 混合模式计划 - 合并不同的流程和精益采购
 description: 文主题提供有关混合模式计划的信息。
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a074c35f64ce68fe24e501d7cb0e5e64f349c2a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011064"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566759"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
@@ -68,3 +66,6 @@ Supply Chain Management 确保物料流遵循该模型。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
