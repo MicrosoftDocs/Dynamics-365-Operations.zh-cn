@@ -1,24 +1,24 @@
 ---
 title: 使用共享的编号规则复制供应商
 description: 本主题说明如何使用共享的编号规则将供应商复制到另一个法人但却保持相同的供应商 ID。
-author: mikefalkner
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b4aeb189fa0e609834d46961be0ff953c2779a05ff1857636199e5448f15396
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722807"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358457"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>使用共享的编号规则复制供应商
 
@@ -36,9 +36,9 @@ ms.locfileid: "6722807"
 
 ## <a name="copy-a-vendor"></a>复制供应商
 
-要复制供应商，请选择 **所有供应商** 列表页面上的 **新建**，打开 **所有供应商 - 新记录** 页面。 请注意，系统不会立即分配新的供应商 ID。 此行为与先前版本中的行为不同。 由于您尚未选择供应商组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新供应商还是复制供应商。 因此，在页面底部选择 **保存** 之前，不会分配供应商 ID。
+要复制供应商，请选择 **所有供应商** 列表页面上的 **新建**，打开 **所有供应商 - 新记录** 页面。 系统不会立即分配新的供应商 ID。 此行为与先前版本中的行为不同。 由于您尚未选择供应商组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新供应商还是复制供应商。 因此，在页面底部选择 **保存** 之前，不会分配供应商 ID。
 
-如果您要创建新供应商，则可以像往常一样继续填写所有字段。 在完成并选择 **保存** 时，您将会发现系统自动分配了供应商 ID。 或者，您将发现对手动编号规则使用了手动供应商 ID。
+如果您要创建新供应商，则可以像往常一样继续填写所有字段。 在完成并选择 **保存** 时，系统会自动分配供应商 ID。 或者，您将发现对手动编号规则使用了手动供应商 ID。
 
 要复制供应商，请在 **名称** 字段中输入一个或多个字符以表示要查找的供应商。 搜索对话框会显示可能表示您正在寻找的供应商的当事方列表。 当您选择其中一个当事方时，对话框右侧会显示附加信息：
 
@@ -58,7 +58,7 @@ ms.locfileid: "6722807"
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>使用免税编号搜索功能复制供应商
 
-您还可以使用 **所有供应商** 页面操作窗格上 **供应商** 选项卡内 **登记** 组中的免税编号搜索功能来复制供应商。  出现的 **免税编号搜索** 对话框会显示免税编号、供应商 ID、供应商名称以及使用免税 ID 的法人。 只有当供应商在非当前法人中时，您才能复制供应商。 在选择满足此标准的供应商后，请执行以下步骤。
+您还可以使用 **所有供应商** 页面操作窗格上 **供应商** 选项卡内 **登记** 组中的 **免税编号** 搜索功能来复制供应商。 出现的 **免税编号搜索** 对话框会显示免税编号、供应商 ID、供应商名称以及使用免税 ID 的法人。 只有当供应商在非当前法人中时，您才能复制供应商。 在选择满足此标准的供应商后，请执行以下步骤。
 
 1. **复制供应商** 选项将会出现。 默认情况下，此选项设置为 **否**。 要将供应商复制到当前法人，请将此选项设置为 **是**。
 2. 选择 **选择**。 此时会创建新供应商。

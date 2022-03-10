@@ -4,6 +4,34 @@
       items:
         - name: Dynamics 365 Commerce 主页
           href: index.md
+        - name: 新增功能或更改
+          items:
+            - name: 财务和运营应用新增功能或更改
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
+            - name: Commerce 新增功能或更改
+              items:
+                - name: “Commerce 新增功能或更改”主页
+                  href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.26（2022 年 5 月）
+                  href: get-started/whats-new-commerce-10-0-26.md
+                - name: Commerce 10.0.25（2022 年 4 月）
+                  href: get-started/whats-new-commerce-10-0-25.md
+                - name: Commerce 10.0.24（2022 年 2 月）
+                  href: get-started/whats-new-commerce-10-0-24.md
+                - name: Commerce 10.0.23（2022 年 1 月）
+                  href: get-started/whats-new-commerce-10-0-23.md
+            - name: 已删除或弃用的功能
+              items:
+                - name: “已删除或弃用的功能”主页
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance and Operations 中已删除或弃用的功能
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                - name: Dynamics 365 Commerce 中已删除或弃用的功能
+                  href: get-started/removed-deprecated-features-commerce.md
+            - name: 延迟发布的 AX 2012 功能
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
+            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
         - name: 开始使用
           items:
             - name: 服务描述
@@ -70,14 +98,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: 本地环境中 Retail 渠道组件的安装步骤
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: 购买 Finance + Operations（本地版）
+                - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange 实施指南
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: 由世纪互联在中国运营的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: 法国的 Finance and Operations 应用
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: 获取支持
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: 升级和 N-1 支持
@@ -88,32 +112,6 @@
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: 将零售渠道扩展升级到最新的 Retail SDK
                   href: dev-itpro/RetailSDK-update.md
-            - name: 新增功能或更改
-              items:
-                - name: Finance and Operations 应用新增功能或更改
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce 新增功能或更改
-                  items:
-                    - name: “Commerce 新增功能或更改”主页
-                      href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
-                      href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22（2021 年 11 月）
-                      href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21（2021 年 10 月）
-                      href: get-started/whats-new-commerce-10-0-21.md
-                - name: 已删除或弃用的功能
-                  items:
-                    - name: “已删除或弃用的功能”主页
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Finance and Operations 中已删除或弃用的功能
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dynamics 365 Commerce 中已删除或弃用的功能
-                      href: get-started/removed-deprecated-features-commerce.md
-                - name: 延迟发布的 AX 2012 功能
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -130,8 +128,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: 视频
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: 词汇表
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: 学习目录
               items:
                 - name: 学习目录主页
@@ -242,8 +238,6 @@
                   href: commerce-architecture.md
                 - name: Dynamics 365 Commerce 身份验证流程
                   href: arch-auth-flow.md
-                - name: Dynamics 365 Commerce 组件版本控制要求
-                  href: arch-component-versioning.md
                 - name: 无头商业体系结构
                   href: dev-itpro/retail-server-architecture.md
                 - name: 选择店内拓扑
@@ -260,6 +254,8 @@
                       href: CDX-package-sort.md
                 - name: Modern POS 体系结构
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: 实现 Commerce 商店技术堆栈的现代化（白皮书）
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Commerce 脱机实施和故障排除
                   href: dev-itpro/implementation-considerations-offline.md
                 - name: 发布在线商店目录
@@ -298,6 +294,28 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: 初始化新 Commerce 环境中的种子数据
                   href: enable-configure-retail-functionality.md
+        - name: 实现
+          items:
+            - name: 应用程序生命周期管理
+              items:
+                - name: Dynamics 365 Commerce 组件版本控制要求
+                  href: arch-component-versioning.md
+            - name: 实施和更新建议
+              items:
+                - name: 实施和更新建议概览
+                  href: go-live/go-live-overview.md
+                - name: 性能
+                  items:
+                    - name: 优化图像
+                      href: go-live/performance-optimize-images.md
+                    - name: 通过排除未使用的模块来减少 JavaScript 使用
+                      href: go-live/performance-reduce-javascript.md
+            - name: AX 2012 分阶段推出
+              items:
+                - name: Commerce 的升级和 N-1 支持
+                  href: dev-itpro/overview-upgrade-n-minus1.md
+                - name: 分阶段推出 (N-1) 安装、配置和直接转换指南
+                  href: dev-itpro/n-1-installation-configuration.md
         - name: 设置您的渠道
           items:
             - name: 渠道概览
@@ -370,8 +388,12 @@
                   href: channel-setup-retail.md
                 - name: 配置零售工作人员
                   href: tasks/worker.md
-                - name: Modern Point of Sale (MPOS) 和 Cloud POS
+                - name: Modern Point of Sale (MPOS)、Cloud POS 和 Store Commerce
                   items:
+                    - name: Microsoft Dynamics 365 Commerce 中的 Store Commerce 应用（预览版）
+                      href: dev-itpro/store-commerce.md
+                    - name: 设备管理实现指南
+                      href: implementation-considerations-devices.md
                     - name: 在 MPOS 和 Cloud POS 之间选择
                       href: MPOS-or-CPOS.md
                     - name: 在线和离线 POS 操作
@@ -428,6 +450,18 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: POS 中的客户端图像
                           href: pos-image.md
+                        - name: 在 POS 中打开 URL
+                          href: open-url-in-pos.md
+                    - name: 付款
+                      items:
+                        - name: 礼品卡
+                          items:
+                            - name: 对外部礼品卡的支持
+                              href: dev-itpro/gift-card.md
+                    - name: RSAT
+                      items:
+                        - name: Cloud POS 的测试录制器和 Regression Suite Automation Tool
+                          href: dev-itpro/pos-rsat.md
                     - name: 销售关联
                       items:
                         - name: 使用销售组跟踪 POS 中的佣金
@@ -462,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: 创建零售渠道的财务维度并配置商店的值
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: 在电子商务渠道中启用一致的交货方式处理
+                  href: consistent-delivery-mode-handling.md
             - name: 设置在线渠道
               items:
                 - name: 设置在线渠道
@@ -548,6 +584,8 @@
                       href: duplicate-payment-protection.md
                     - name: 全渠道付款概览
                       href: omni-channel-payments.md
+                    - name: 店内提货的多种可用付款方式
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: 全渠道 Commerce 订单付款
                       href: dev-itpro/commerce-payments.md
                     - name: 存档信用卡交易记录数据
@@ -714,6 +752,10 @@
                   href: sync-product-ratings.md
                 - name: 启用由审核员手动发布评分和评价
                   href: manual-publish-rating-reviews.md
+                - name: 导入和导出评分和评价
+                  href: import-export-reviews.md
+                - name: 配置服务到服务身份验证
+                  href: service-to-service-auth.md
                 - name: 评分和评价常见问题解答
                   href: ratings-reviews-faq.md
             - name: 管理您的库存
@@ -818,6 +860,10 @@
           items:
             - name: 商店中的客户管理
               href: customer-mgmt-stores.md
+            - name: 异步客户创建模式
+              href: async-customer-mode.md
+            - name: 将异步客户转换为同步客户
+              href: convert-async-to-sync.md
             - name: 客户服务解决方案
               items:
                 - name: 客户服务解决方案概览
@@ -838,11 +884,11 @@
           items:
             - name: 对帐单概览
               href: retail-statements.md
-            - name: 交易记录一致性检查器
+            - name: 验证用于进行对帐单计算的商店交易记录
               href: valid-checker.md
             - name: 禁用零售交易记录一致性检查器中的规则
               href: disable-consistency-check-rule.md
-            - name: 编辑和审计零售商店交易记录
+            - name: 编辑并审计零售商店交易记录
               items:
                 - name: 编辑并审计现金和结转及现金管理交易记录
                   href: edit-cash-trans.md
@@ -914,6 +960,8 @@
                   href: deploy-ecommerce-site.md
                 - name: 创建电子商务站点
                   href: create-ecommerce-site.md
+                - name: 复制电子商务站点
+                  href: copy-ecommerce-site.md
                 - name: 将 Dynamics 365 Commerce 站点与在线渠道关联
                   href: associate-site-online-store.md
                 - name: 管理 robots.txt 文件
@@ -996,8 +1044,6 @@
                       href: style-presets.md
                     - name: 添加收藏夹图标
                       href: add-favicon.md
-                    - name: 添加欢迎消息
-                      href: add-welcome-message.md
                     - name: 添加版权声明
                       href: add-copyright-notice.md
                     - name: 添加语言
@@ -1250,10 +1296,16 @@
           items:
             - name: 建立 B2B 电子商务站点
               href: b2b/set-up-b2b-site.md
-            - name: 为 B2B 组织创建组织建模层次结构
-              href: b2b/org-model.md
+            - name: 使用客户层次结构管理 B2B 业务合作伙伴
+              href: b2b/partners-customer-hierarchies.md
             - name: 在 B2B 电子商务站点上管理业务合作伙伴用户
               href: b2b/manage-b2b-users.md
+            - name: 使用 Dynamics 365 Sales 在 B2B 电子商务站点上管理业务合作伙伴用户
+              href: b2b/prospect-management-sales.md
+            - name: 在 B2B 网站上快速下订单
+              href: b2b/quick-bulk-orders.md
+            - name: B2B 电子商务网站的发票管理
+              href: b2b/invoice-management.md
             - name: 配置 B2B 电子商务站点的客户帐户付款方式
               href: b2b/payment-method.md
             - name: 设置 B2B 电子商务站点的产品数量限制
@@ -1274,15 +1326,19 @@
               href: set-up-rfm-analysis.md
             - name: 在 Dynamics 365 Commerce 中设置 Microsoft Clarity
               href: set-up-clarity.md
+            - name: Commerce 分析（预览版）
+              href: commerce-analytics.md
         - name: 全球化
           items:
-            - name: Commerce 渠道的会计整合概览
+            - name: Commerce 渠道的会计集成概览
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: 设置 Commerce 渠道的会计整合
+            - name: 设置 Commerce 渠道的会计集成
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: 设置会计集成示例的生成管道
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: 用于零售商店的用户定义的证书配置文件
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory configuration service (RCS)
+            - name: Regulatory Configuration Service (RCS)
               items:
                 - name: Regulatory configuration service (RCS) 概览
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
@@ -1314,8 +1370,10 @@
                           href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: 奥地利
               items:
-                - name: 奥地利的会计登记服务集成示例
+                - name: 奥地利会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
+                - name: 奥地利会计集成示例部署指南（旧版）
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: 巴西
               items:
                 - name: 适用于巴西的 Commerce 本地化
@@ -1332,6 +1390,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: 通过 Commerce Headquarters 中的零售对帐单过帐巴西会计单据
                   href: localizations/latam-bra-retail-statements.md
+                - name: 适用于巴西的 Commerce POS 中的通过 SAT 实现的 CF-e 会计单据功能和集成功能
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: 适用于巴西的 Commerce POS 中面向 Adyen 的 Dynamics 365 Payment Connector
                   href: localizations/latam-bra-adyen.md
             - name: 东欧
@@ -1350,12 +1410,16 @@
                   items:
                     - name: 捷克共和国的会计登记服务集成示例
                       href: localizations/emea-cze-fi-sample.md
+                    - name: 捷克共和国会计集成示例部署指南（旧版）
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: 波兰
                   items:
                     - name: 波兰税控打印机集成示例
                       href: localizations/emea-pol-fpi-sample.md
                     - name: 波兰的客户信息管理
                       href: localizations/emea-pol-customer-information.md
+                    - name: 波兰会计集成示例部署指南（旧版）
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: 法国
               items:
                 - name: 收银机功能
@@ -1370,8 +1434,10 @@
                   href: localizations/emea-fra-deployment.md
             - name: 德国
               items:
-                - name: 德国的会计登记服务集成示例
+                - name: 德国会计登记服务集成示例
                   href: localizations/emea-deu-fi-sample.md
+                - name: 德国会计集成示例部署指南（旧版）
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: 印度
               items:
                 - name: 收银机的商品劳务税 (GST) 集成
@@ -1380,14 +1446,18 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: 适用于印度的升级和 N-1 支持
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: 生成 QR 码并将其打印在收据上
+                - name: 生成 QR 码并将其打印在适用于印度的收据上
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: 电子商务站点的商品劳务税 (GST) 集成
+                  href: localizations/apac-ind-e-commerce.md
             - name: 意大利
               items:
                 - name: 意大利税控打印机集成示例
                   href: localizations/emea-ita-fpi-sample.md
                 - name: 意大利的客户信息管理
                   href: localizations/emea-ita-customer-information.md
+                - name: 意大利会计集成示例部署指南（旧版）
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: 墨西哥
               items:
                 - name: 墨西哥全球 CFDI 电子发票
@@ -1397,6 +1467,8 @@
                 - name: 收银机功能
                   href: localizations/emea-nor-cash-registers.md
                 - name: 收银机部署指南
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: 收银机部署指南（旧版）
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: 俄罗斯
               items:
@@ -1412,13 +1484,19 @@
                   href: localizations/rus-fpi-sample.md
                 - name: 俄罗斯的客户信息管理
                   href: localizations/rus-customer-information.md
+            - name: 沙特阿拉伯
+              items:
+                - name: 为沙特阿拉伯生成 QR 码并将其打印在收据上
+                  href: localizations/emea-sau-qr-code.md
             - name: 瑞典
               items:
                 - name: 收银机功能
                   href: localizations/emea-swe-cash-registers.md
                 - name: 瑞典的控制单元集成示例
                   href: localizations/emea-swe-fi-sample.md
-                - name: Retail POS 与控制单元（旧版）集成的示例
+                - name: 瑞典控制单元集成示例部署指南（旧版）
+                  href: localizations/emea-swe-fi-sample-sdk.md
+                - name: Retail POS 与控制单元集成的示例（旧版）
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: 报告和 Power BI 集成
           items:
@@ -1614,7 +1692,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: 列表
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: 列表函数
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1856,6 +1936,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
                     - name: 设计电子报告格式以对 Excel 中生成的文档进行分页
                       href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: 设计电子报告格式以将同一 Excel 页面上的行对齐
+                      href: ../fin-ops-core/dev-itpro/analytics/er-keep-excel-rows-together.md?toc=/dynamics365/commerce/toc.json
                 - name: 设计配置以生成 Word 格式的报表
                   items:
                     - name: 设计新的电子报告配置以生成 Word 格式的报表
@@ -1878,7 +1960,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: 生成包含嵌入图像的 Office 格式报表
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: 设计 ER 格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
+                    - name: 设计电子报告格式，以生成在页眉或页脚中嵌入图像的 Excel 报表
                       href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: 基于文件大小和内容数量拆分生成的 XML 文件
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
@@ -1906,7 +1988,9 @@
                   items:
                     - name: 创建配置以从外部 XML 文件导入数据
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
+                    - name: 在批处理模式下导入来自手动选择文件的数据
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
+                - name: 在批处理模式下配置来自 SharePoint 定位文件的数据导入
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: 导入 XML 格式的文件
                   items:
@@ -2136,6 +2220,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: 应用程序更新 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: 应用程序更新 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: 为生成的文档指定自定义存储位置
                   items:
                     - name: 订阅事件以请求订阅处理程序的响应
@@ -2348,187 +2434,355 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: 日期/时间数据和时区
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: 可扩展性
+        - name: 开发
           items:
-            - name: Commerce 开发和可扩展性
+            - name: 交叉解决方案
               items:
-                - name: 面向 IT 专业人员和开发人员的 Commerce
-                  href: dev-itpro/dev-retail-home-page.md
-                - name: 设置本地开发环境
-                  href: dev-itpro/setup-local-dev-env.md
-            - name: 在线渠道可扩展性
-              items:
-                - name: 在线渠道可扩展性概览
-                  href: e-commerce-extensibility/overview.md
-                - name: 开始使用
+                - name: Commerce SDK 概览
                   items:
+                    - name: 示例和引用包
+                      href: dev-itpro/retail-sdk/sdk-github.md
+                    - name: 旧版 Retail SDK 迁移
+                      href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 实现 Commerce 商店技术堆栈的现代化（白皮书）
+                      href: 'https://www.microsoft.com/download/details.aspx?id=103896'
+                - name: 环境设置
+                  items:
+                    - name: 本地开发环境
+                      href: dev-itpro/setup-local-dev-env.md
+                    - name: Commerce SDK 生成管道（独立包装）
+                      href: dev-itpro/build-pipeline.md
+                - name: 付款
+                  items:
+                    - name: 部署付款连接器
+                      href: dev-itpro/deploy-payment-connector.md
+                    - name: 付款数据使用
+                      href: payment-connector-data-fields.md
+                    - name: 付款 SDK 中支持支付小费
+                      href: dev-itpro/tipping.md
+                    - name: 用于订单开票的增量捕获
+                      href: dev-itpro/incremental-capture.md
+                - name: 本地化
+                  items:
+                    - name: 自定义 Commerce 扩展资源和标签文件
+                      href: dev-itpro/extension-resource-localization.md
+            - name: 无头商务
+              items:
+                - name: API 和引用
+                  items:
+                    - name: Commerce Scale Unit 客户和消费者 API
+                      href: dev-itpro/retail-server-customer-consumer-api.md
+                    - name: 在外部应用程序中使用 Retail Server API
+                      href: dev-itpro/consume-retail-server-api.md
+                    - name: Retail POS 的 Typescript 和 C# 代理
+                      href: dev-itpro/typescript-proxy-retail-pos.md
+                    - name: Commerce Runtime (CRT) 体系结构和配置
+                      href: dev-itpro/commerce-runtime-overview.md
+                    - name: Commerce Runtime (CRT) 服务
+                      href: dev-itpro/crt-services.md
+                - name: 创建新功能
+                  items:
+                    - name: 创建 Commerce Scale Unit API
+                      href: dev-itpro/retail-server-icontroller-extension.md
+                    - name: Commerce Runtime (CRT) 可扩展性
+                      href: dev-itpro/commerce-runtime-extensibility.md
+                    - name: 将扩展事件记录到 Application Insights
+                      href: dev-itpro/commerce-application-insights.md
+                    - name: 创建异步 Commerce (CRT) API
+                      href: dev-itpro/async-commerce-extension.md
+                    - name: 渠道数据库扩展
+                      href: dev-itpro/channel-db-extensions.md
+                    - name: 扩展 Commerce Data Exchange - 实时服务
+                      href: dev-itpro/extend-commerce-data-exchange.md
+                - name: 扩展现有功能
+                  items:
+                    - name: Commerce Runtime (CRT) 可扩展性和触发器
+                      href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                    - name: 渠道数据库中的预扩展列
+                      href: dev-itpro/extended-columns.md
+                    - name: 通过扩展启用自定义 Commerce Data Exchange 同步
+                      href: dev-itpro/cdx-extensibility.md
+                    - name: 扩展 Commerce Store 收据
+                      href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                    - name: 客户属性
+                      href: dev-itpro/customer-attributes.md
+                    - name: 订单属性
+                      href: dev-itpro/order-attributes.md
+                    - name: 管理零售渠道机密
+                      href: dev-itpro/manage-secrets.md
+                - name: 示例
+                  items:
+                    - name: 使用触发器锁定交易记录
+                      href: dev-itpro/trigger-example-blocking-transaction.md
+                    - name: 检测已弃用的购物车并向客户发送通知
+                      href: dev-itpro/abandoned-cart-sample-app.md
+                    - name: 会员扩展示例
+                      href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                    - name: 订单履行期间装箱单的扩展点
+                      href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: 打包和部署
+                  items:
+                    - name: 删除 Cloud Scale Unit 扩展
+                      href: dev-itpro/retail-sdk/remove-csu-package.md
+            - name: Store Commerce
+              items:
+                - name: 概览
+                  items:
+                    - name: POS 扩展概述
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: POS 扩展概念和术语
+                      href: dev-itpro/pos-extension/pos-extension-basics.md
+                    - name: 将 POS 扩展迁移到 Commerce SDK
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                - name: 环境设置
+                  items:
+                    - name: 本地开发环境
+                      href: dev-itpro/setup-local-dev-env.md
+                    - name: 创建 POS 扩展包项目
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: 为 Modern POS 扩展包创建 .appx 文件
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: 调试 POS 扩展
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
+                - name: API 和引用
+                  items:
+                    - name: 查看 POS 扩展包信息
+                      href: dev-itpro/view-pos-extension-package-details.md
+                    - name: POS API
+                      href: dev-itpro/pos-apis.md
+                    - name: 在扩展中使用 POS 控件
+                      href: dev-itpro/pos-extension/controls-pos-extension.md
+                    - name: 扩展 POS 双显示视图
+                      href: dev-itpro/pos-dual-display-extension.md
+                    - name: 在 POS 中使用自定义的无头商务 API 和实体
+                      href: dev-itpro/pos-extension/consume-apis-pos.md
+                    - name: 在 POS 扩展中使用外部或第三方库
+                      href: dev-itpro/pos-extension/knockout-pos-extension.md
+                - name: 创建新功能
+                  items:
+                    - name: 创建 POS 操作
+                      href: dev-itpro/add-pos-operations.md
+                    - name: 在 POS 中创建自定义视图
+                      href: dev-itpro/pos-extension/custom-pos-view.md
+                    - name: 创建新的硬件设备并与 POS 集成
+                      href: dev-itpro/hardware-device-extension.md
+                    - name: 为付款终端创建端到端付款集成
+                      href: dev-itpro/end-to-end-payment-extension.md
+                    - name: 为付款终端扩展创建自定义本地化错误消息
+                      href: dev-itpro/payment-custom-error-messages.md
+                    - name: 对付款连接器启用重复付款预防
+                      href: dev-itpro/duplicate-payments-protection.md
+                - name: 扩展现有功能
+                  items:
+                    - name: 扩展 POS 视图，以添加自定义列和应用程序栏按钮
+                      href: dev-itpro/pos-view-extension.md
+                    - name: 扩展 POS 视图以添加自定义控件
+                      href: dev-itpro/pos-control-non-screen.md
+                    - name: 扩展 POS 标题栏
+                      href: dev-itpro/pos-header-bar.md
+                    - name: 扩展 POS 通知
+                      href: dev-itpro/extend-pos-notification.md
+                    - name: 覆盖 POS 请求处理程序
+                      href: dev-itpro/pos-handler.md
+                    - name: POS 触发器
+                      href: dev-itpro/pos-trigger-printing.md
+                    - name: POS 购物车视图
+                      items:
+                        - name: POS 购物车查看事件和处理程序
+                          href: dev-itpro/cart-view-handlers.md
+                        - name: 将自定义字段添加到 POS 总计窗格
+                          href: dev-itpro/custom-field-pos-totals.md
+                        - name: 将自定义列添加到 POS 交易网格
+                          href: dev-itpro/pos-custom-transaction-column.md
+                        - name: 将自定义控件添加到 POS 购物车视图
+                          href: dev-itpro/pos-custom-transaction.md
+                    - name: 将自定义控件添加到 POS 视图
+                      href: dev-itpro/pos-custom-control.md
+                    - name: POS 付款扩展
+                      href: dev-itpro/pos-payment-extension.md
+                - name: 打包和部署
+                  items:
+                    - name: 创建 MPOS 扩展包
+                      href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                    - name: 对 MPOS (MSIX) 扩展包进行代码签名
+                      href: dev-itpro/pos-extension/mpos-extension-signing.md
+                    - name: 创建 Cloud POS 扩展包
+                      href: dev-itpro/pos-extension/cpos-extension-package.md
+            - name: 电子商务
+              items:
+                - name: 概览
+                  items:
+                    - name: 在线渠道可扩展性概览
+                      href: e-commerce-extensibility/overview.md
+                    - name: 电子商务体系结构概览
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: 电子商务组件
+                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: 电子商务在线可扩展性开发入门
                       href: e-commerce-extensibility/sdk-getting-started.md
                     - name: 系统要求
                       href: e-commerce-extensibility/system-requirements.md
-                    - name: 设置开发环境
+                - name: 环境设置
+                  items:
+                    - name: 开发环境
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: 配置开发环境 (.env) 文件
                       href: e-commerce-extensibility/configure-env-file.md
                     - name: 针对 Commerce 云环境配置电子商务开发环境
                       href: e-commerce-extensibility/debug-tier-1.md
-                    - name: 设置 Azure DevOps 代码共享并创建构建管道
-                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
-                - name: 平台概览
+                - name: API 和引用
                   items:
-                    - name: 电子商务体系结构概览
-                      href: e-commerce-extensibility/architectural-overview.md
-                    - name: 电子商务组件
-                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: CLI 命令参考
                       href: e-commerce-extensibility/cli-command-reference.md
-                - name: 模块的解析
+                    - name: 模块的解析
+                      items:
+                        - name: 模块概览
+                          href: e-commerce-extensibility/modules-overview.md
+                        - name: 模块定义文件
+                          href: e-commerce-extensibility/module-definition-file.md
+                        - name: 模块 React 组件文件
+                          href: e-commerce-extensibility/module-react-file.md
+                        - name: 模块视图文件
+                          href: e-commerce-extensibility/module-view-file.md
+                        - name: 模块数据文件
+                          href: e-commerce-extensibility/module-data-file.md
+                        - name: 模块模拟文件
+                          href: e-commerce-extensibility/module-mock-file.md
+                        - name: 模块测试文件
+                          href: e-commerce-extensibility/module-test-file.md
+                        - name: 模块 props.autogenerated.ts 文件
+                          href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                        - name: 模块配置预设
+                          href: e-commerce-extensibility/module-config-presets.md
+                - name: 创建新功能
                   items:
-                    - name: 模块概览
-                      href: e-commerce-extensibility/modules-overview.md
-                    - name: 模块定义文件
-                      href: e-commerce-extensibility/module-definition-file.md
-                    - name: 模块 React 组件文件
-                      href: e-commerce-extensibility/module-react-file.md
-                    - name: 模块视图文件
-                      href: e-commerce-extensibility/module-view-file.md
-                    - name: 模块数据文件
-                      href: e-commerce-extensibility/module-data-file.md
-                    - name: 模块模拟文件
-                      href: e-commerce-extensibility/module-mock-file.md
-                    - name: 模块测试文件
-                      href: e-commerce-extensibility/module-test-file.md
-                    - name: 模块 props.autogenerated.ts 文件
-                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                    - name: 模块配置预设
-                      href: e-commerce-extensibility/module-config-presets.md
-                - name: 开发模块
+                    - name: 模块
+                      items:
+                        - name: 新建模块
+                          href: e-commerce-extensibility/create-new-module.md
+                        - name: 添加模块配置字段
+                          href: e-commerce-extensibility/add-module-config-fields.md
+                        - name: 预览和调试模块
+                          href: e-commerce-extensibility/test-module.md
+                        - name: 使用模块模拟测试模块
+                          href: e-commerce-extensibility/test-module-mock.md
+                        - name: 使用页面模拟测试模块
+                          href: e-commerce-extensibility/test-page-mock.md
+                        - name: 容器模块
+                          href: e-commerce-extensibility/container-modules.md
+                        - name: 创建布局容器模块
+                          href: e-commerce-extensibility/create-layout-container.md
+                        - name: 创建页面容器模块
+                          href: e-commerce-extensibility/create-page-containers.md
+                        - name: 本地化模块
+                          href: e-commerce-extensibility/localize-module.md
+                        - name: 高级
+                          items:
+                            - name: 请求属性对象
+                              href: e-commerce-extensibility/request-properties-object.md
+                            - name: 应用设置
+                              href: e-commerce-extensibility/app-settings.md
+                            - name: 根据启用的功能配置站点构建器全局配置设置
+                              href: e-commerce-extensibility/config-settings-for-features.md
+                            - name: 平台设置文件
+                              href: e-commerce-extensibility/platform-settings.md
+                            - name: Cookie API 概览
+                              href: e-commerce-extensibility/cookie-api-overview.md
+                            - name: 交互式组件概览
+                              href: e-commerce-extensibility/interactive-components.md
+                            - name: 在本地开发过程中模拟登录状态
+                              href: e-commerce-extensibility/mock-sign-in.md
+                            - name: 配置要基于上下文显示的模块属性
+                              href: e-commerce-extensibility/configure-properties-context.md
+                            - name: 使用 CultureInfoFormatter 类对模块进行全局化
+                              href: e-commerce-extensibility/globalize-modules.md
+                            - name: 设置 Azure 密钥保管库以进行安全的密钥管理
+                              href: e-commerce-extensibility/set-up-key-vault.md
+                            - name: 图像组件
+                              href: e-commerce-extensibility/image-component.md
+                    - name: 数据操作
+                      items:
+                        - name: 数据操作概览
+                          href: e-commerce-extensibility/data-actions.md
+                        - name: 数据操作缓存选项
+                          href: e-commerce-extensibility/data-action-cache.md
+                        - name: 通过模拟测试数据操作
+                          href: e-commerce-extensibility/test-data-action-mocks.md
+                        - name: 页面加载数据操作
+                          href: e-commerce-extensibility/page-load-data-action.md
+                        - name: 基于事件的数据操作
+                          href: e-commerce-extensibility/event-based-data-actions.md
+                        - name: 核心数据操作
+                          href: e-commerce-extensibility/core-data-actions.md
+                        - name: 调用 Commerce Scale Unit API
+                          href: e-commerce-extensibility/call-retail-server-apis.md
+                        - name: 调用 Retail Server 扩展 API
+                          href: e-commerce-extensibility/call-retail-extension-api.md
+                        - name: 高级
+                          items:
+                            - name: 链数据操作
+                              href: e-commerce-extensibility/chain-data-actions.md
+                            - name: 批处理数据操作
+                              href: e-commerce-extensibility/batch-data-actions.md
+                            - name: 可观测的数据操作
+                              href: e-commerce-extensibility/create-observable-data-action.md
+                            - name: 跨模块共享状态
+                              href: e-commerce-extensibility/share-state-across-modules.md
+                            - name: 数据操作缓存设置
+                              href: e-commerce-extensibility/data-action-cache-settings.md
+                            - name: 使用 AJAX 调用服务器端数据操作
+                              href: e-commerce-extensibility/data-actions-with-ajax.md
+                    - name: 主题
+                      items:
+                        - name: 主题概览
+                          href: e-commerce-extensibility/theming.md
+                        - name: 创建主题
+                          href: e-commerce-extensibility/create-theme.md
+                        - name: 配置主题设置
+                          href: e-commerce-extensibility/configure-theme-settings.md
+                        - name: 配置主题样式预设
+                          href: e-commerce-extensibility/theme-style-presets.md
+                        - name: 将自定义资源添加到自定义代码
+                          href: e-commerce-extensibility/add-custom-resources.md
+                    - name: 注入脚本
+                      items:
+                        - name: 脚本注入程序
+                          href: e-commerce-extensibility/script-injector.md
+                    - name: 连接器
+                      items:
+                        - name: 配置并启用连接器
+                          href: e-commerce-extensibility/connectors.md
+                - name: 扩展现有功能
                   items:
-                    - name: 新建模块
-                      href: e-commerce-extensibility/create-new-module.md
-                    - name: 克隆模块库模块
-                      href: e-commerce-extensibility/clone-starter-module.md
-                    - name: 添加模块配置字段
-                      href: e-commerce-extensibility/add-module-config-fields.md
-                    - name: 预览和调试模块
-                      href: e-commerce-extensibility/test-module.md
-                    - name: 使用模块模拟测试模块
-                      href: e-commerce-extensibility/test-module-mock.md
-                    - name: 使用页面模拟测试模块
-                      href: e-commerce-extensibility/test-page-mock.md
-                    - name: 容器模块
-                      href: e-commerce-extensibility/container-modules.md
-                    - name: 创建布局容器模块
-                      href: e-commerce-extensibility/create-layout-container.md
-                    - name: 创建页面容器模块
-                      href: e-commerce-extensibility/create-page-containers.md
-                    - name: 本地化模块
-                      href: e-commerce-extensibility/localize-module.md
-                - name: 高级模块主题
-                  items:
-                    - name: 请求属性对象
-                      href: e-commerce-extensibility/request-properties-object.md
-                    - name: 应用设置
-                      href: e-commerce-extensibility/app-settings.md
-                    - name: 根据启用的功能配置站点构建器全局配置设置
-                      href: e-commerce-extensibility/config-settings-for-features.md
-                    - name: 平台设置文件
-                      href: e-commerce-extensibility/platform-settings.md
-                    - name: 扩展模块定义
-                      href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Cookie API 概览
-                      href: e-commerce-extensibility/cookie-api-overview.md
-                    - name: 交互式组件概览
-                      href: e-commerce-extensibility/interactive-components.md
-                    - name: 在本地开发过程中模拟登录状态
-                      href: e-commerce-extensibility/mock-sign-in.md
-                    - name: 配置要基于上下文显示的模块属性
-                      href: e-commerce-extensibility/configure-properties-context.md
-                    - name: 使用 CultureInfoFormatter 类对模块进行全局化
-                      href: e-commerce-extensibility/globalize-modules.md
-                    - name: 设置 Azure 密钥保管库以进行安全的密钥管理
-                      href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: 创建请求管道插件挂钩
-                      href: e-commerce-extensibility/request-pipeline-hook.md
-                - name: 开发数据操作
-                  items:
-                    - name: 数据操作概览
-                      href: e-commerce-extensibility/data-actions.md
-                    - name: 数据操作缓存选项
-                      href: e-commerce-extensibility/data-action-cache.md
-                    - name: 通过模拟测试数据操作
-                      href: e-commerce-extensibility/test-data-action-mocks.md
-                    - name: 页面加载数据操作
-                      href: e-commerce-extensibility/page-load-data-action.md
-                    - name: 基于事件的数据操作
-                      href: e-commerce-extensibility/event-based-data-actions.md
-                    - name: 核心数据操作
-                      href: e-commerce-extensibility/core-data-actions.md
-                    - name: 调用 Commerce Scale Unit API
-                      href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: 调用 Retail Server 扩展 API
-                      href: e-commerce-extensibility/call-retail-extension-api.md
-                - name: 高级数据操作主题
-                  items:
-                    - name: 链数据操作
-                      href: e-commerce-extensibility/chain-data-actions.md
-                    - name: 批处理数据操作
-                      href: e-commerce-extensibility/batch-data-actions.md
-                    - name: 可观测的数据操作
-                      href: e-commerce-extensibility/create-observable-data-action.md
-                    - name: 跨模块共享状态
-                      href: e-commerce-extensibility/share-state-across-modules.md
-                    - name: 数据操作缓存设置
-                      href: e-commerce-extensibility/data-action-cache-settings.md
-                    - name: 数据操作覆盖
-                      href: e-commerce-extensibility/data-action-overrides.md
-                    - name: 数据操作挂接
-                      href: e-commerce-extensibility/data-action-hooks.md
-                    - name: 使用 AJAX 调用服务器端数据操作
-                      href: e-commerce-extensibility/data-actions-with-ajax.md
-                - name: 开发主题
-                  items:
-                    - name: 主题概览
-                      href: e-commerce-extensibility/theming.md
-                    - name: 创建主题
-                      href: e-commerce-extensibility/create-theme.md
-                    - name: 配置主题设置
-                      href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: 配置主题样式预设
-                      href: e-commerce-extensibility/theme-style-presets.md
-                    - name: 扩展主题以添加模块扩展
-                      href: e-commerce-extensibility/theme-module-extensions.md
-                    - name: 覆盖主题中的模块库组件
-                      href: e-commerce-extensibility/override-theme-component.md
-                    - name: 从基础主题扩展主题
-                      href: e-commerce-extensibility/extend-theme.md
-                    - name: 将自定义资源添加到自定义代码
-                      href: e-commerce-extensibility/add-custom-resources.md
-                - name: 注入脚本
-                  items:
-                    - name: 脚本注入程序
-                      href: e-commerce-extensibility/script-injector.md
-                - name: 连接器
-                  items:
-                    - name: 配置并启用连接器
-                      href: e-commerce-extensibility/connectors.md
-                - name: 性能
-                  items:
-                    - name: 配置页面缓存
-                      href: e-commerce-extensibility/page-caching.md
-                    - name: 数据操作实例缓存
-                      href: e-commerce-extensibility/instance-cache.md
-                - name: 遥测和分析
-                  items:
-                    - name: 遥测记录器
-                      href: e-commerce-extensibility/telemetry-logger.md
-                - name: 部署和维护
+                    - name: 模块
+                      items:
+                        - name: 克隆模块库模块
+                          href: e-commerce-extensibility/clone-starter-module.md
+                        - name: 扩展模块定义
+                          href: e-commerce-extensibility/extend-module-definition.md
+                    - name: 数据操作
+                      items:
+                        - name: 数据操作覆盖
+                          href: e-commerce-extensibility/data-action-overrides.md
+                        - name: 数据操作挂接
+                          href: e-commerce-extensibility/data-action-hooks.md
+                    - name: 主题
+                      items:
+                        - name: 扩展主题以添加模块扩展
+                          href: e-commerce-extensibility/theme-module-extensions.md
+                        - name: 覆盖主题中的模块库组件
+                          href: e-commerce-extensibility/override-theme-component.md
+                        - name: 从基础主题扩展主题
+                          href: e-commerce-extensibility/extend-theme.md
+                - name: 打包和部署
                   items:
                     - name: 打包配置并将其部署到联机环境
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK 和模块库更新
                       href: e-commerce-extensibility/sdk-updates.md
-                - name: 最佳实践和常见问题解答
+                    - name: 设置 Azure DevOps 代码共享并创建构建管道
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: 最佳实践、性能和常见问题解答
                   items:
                     - name: Dynamics 365 Commerce 开发最佳实践
                       href: e-commerce-extensibility/best-practices-dev.md
@@ -2536,206 +2790,62 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Dynamics 365 Commerce 开发的调试最佳实践
                       href: e-commerce-extensibility/debugging-best-practices.md
-            - name: Retail SDK
+                    - name: 测试电子商务站点页面是否存在内存泄漏
+                      href: e-commerce-extensibility/memory-leak-detection.md
+                    - name: 性能
+                      items:
+                        - name: 配置页面缓存
+                          href: e-commerce-extensibility/page-caching.md
+                        - name: 数据操作实例缓存
+                          href: e-commerce-extensibility/instance-cache.md
+                    - name: 遥测和分析
+                      items:
+                        - name: 遥测记录器
+                          href: e-commerce-extensibility/telemetry-logger.md
+            - name: Commerce HQ
               items:
-                - name: 迁移到 Commerce SDK
-                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
-                - name: Retail SDK 体系结构
-                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: 设置独立包装 SDK 的生成管道
-                  href: dev-itpro/build-pipeline.md
-                - name: 将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017
-                  href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Retail SDK 可扩展性示例
-                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-                - name: 创建可部署包
-                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: 在没有管理员访问权限的情况下在云托管环境中开发
-                  href: dev-itpro/cloud-dev-box.md
-                - name: 设置 Commerce SDK 构建管道
-                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
-                - name: 从 GitHub 和 NuGet 下载示例和软件包
-                  href: dev-itpro/retail-sdk/sdk-github.md
-                - name: Retail SDK 常见问题解答
-                  href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: 销售点 (POS) 可扩展性
-              items:
-                - name: POS 屏幕布局
-                  href: pos-screen-layouts.md
-                - name: Microsoft Dynamics 365 Commerce 中的 Store Commerce 应用
-                  href: dev-itpro/store-commerce.md
-                - name: 在 POS 中打开 URL
-                  href: Open-URL-in-POS.md
-                - name: 安装 POS 布局设计器
-                  href: install-pos-layout-designer.md
-                - name: 扩展 POS Dual 显示视图
-                  href: dev-itpro/pos-dual-display-extension.md
-                - name: 将自定义控件添加到 POS 视图
-                  href: dev-itpro/pos-custom-control.md
-                - name: 使用按钮网格设计器将 POS 操作添加到 POS 布局
-                  href: dev-itpro/add-POS-operations.md
-                - name: POS API
-                  href: dev-itpro/POS-APIs.md
-                - name: POS 付款扩展
-                  href: dev-itpro/pos-payment-extension.md
-                - name: POS 付款 SDK 中支持支付小费
-                  href: dev-itpro/tipping.md
-                - name: 对外部礼品卡的支持
-                  href: dev-itpro/gift-card.md
-                - name: 创建品牌并将其应用于 Retail Experience 应用
-                  href: dev-itpro/create-retail-experience-app.md
-                - name: 在 Android 和 iOS 中安装 POS Hybrid 应用
-                  href: dev-itpro/hybridApp.md
-                - name: 覆盖 POS 请求处理程序
-                  href: dev-itpro/pos-handler.md
-                - name: 查看 POS 扩展包信息
-                  href: dev-itpro/view-pos-extension-package-details.md
-                - name: Cloud POS 的测试录制器和 Regression Suite Automation Tool
-                  href: dev-itpro/pos-rsat.md
-                - name: 将自定义字段添加到 POS 总计面板
-                  href: dev-itpro/custom-field-pos-totals.md
-                - name: 在 POS 中显示自定义通知
-                  href: dev-itpro/extend-pos-notification.md
-                - name: 使用代码签名证书对 MPOS 签名
-                  href: dev-itpro/pos-app-signing-certificate.md
-                - name: 扩展 POS 视图，以添加自定义列和应用程序栏按钮
-                  href: dev-itpro/pos-view-extension.md
-                - name: 将自定义控件添加到 Modern POS 交易记录页
-                  href: dev-itpro/pos-custom-transaction.md
-                - name: 将自定义列添加到 POS 交易网格
-                  href: dev-itpro/pos-custom-transaction-column.md
-                - name: 从 POS 扩展调用 POS API 或操作
-                  href: dev-itpro/pos-api-extension.md
-                - name: POS 触发器
-                  href: dev-itpro/pos-trigger-printing.md
-                - name: 将自定义控件添加到基于设计器的无屏幕 POS 视图
-                  href: dev-itpro/pos-control-non-screen.md
-                - name: 运行 POS 示例
-                  href: dev-itpro/pos-run-samples.md
-                - name: 设备管理实现指南
-                  href: implementation-considerations-devices.md
-                - name: POS 购物车查看事件和处理程序
-                  href: dev-itpro/cart-view-handlers.md
-                - name: 将自定义按钮添加到 POS 标题栏
-                  href: dev-itpro/pos-header-bar.md
-                - name: POS 独立包装 SDK
+                - name: 打包和部署
                   items:
-                    - name: POS 扩展概述
-                      href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: 开始使用 POS 扩展
-                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
-                    - name: 创建 POS 扩展包项目
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: 为 Modern POS 扩展包创建 .appx 文件
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: 调试 POS 扩展
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                    - name: 扩展打包和部署
-                      items:
-                        - name: 创建 Modern POS 扩展包
-                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                        - name: 对 Modern POS (MSIX) 扩展包进行代码签名
-                          href: dev-itpro/pos-extension/mpos-extension-signing.md
-                        - name: 创建 Cloud POS 扩展包
-                          href: dev-itpro/pos-extension/cpos-extension-package.md
-                    - name: 将 POS 扩展迁移到独立打包模型
-                      href: dev-itpro/pos-extension/migrate-pos-extension.md
-                    - name: POS 扩展开发指南
-                      items:
-                        - name: POS 扩展基础
-                          href: dev-itpro/pos-extension/pos-extension-basics.md
-                        - name: 在 POS 中创建自定义视图
-                          href: dev-itpro/pos-extension/custom-pos-view.md
-                        - name: 在扩展中使用 POS 控件
-                          href: dev-itpro/pos-extension/controls-pos-extension.md
-                        - name: 任务
-                          items:
-                            - name: 在 POS 扩展中使用 Knockout.js
-                              href: dev-itpro/pos-extension/knockout-pos-extension.md
-                            - name: 使用自定义的无头 Commerce API
-                              href: dev-itpro/pos-extension/consume-apis-pos.md
-            - name: Hardware Station 可扩展性
+                    - name: 为财务和运营部署创建 Commerce 付款包
+                      href: dev-itpro/payment-connector-package.md
+            - name: Retail SDK（旧版）
               items:
-                - name: 将 POS 与新的硬件设备集成
-                  href: dev-itpro/hardware-device-extension.md
-            - name: Retail Server 可扩展性
-              items:
-                - name: Commerce Scale Unit 客户和消费者 API
-                  href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: 创建 Retail Server 扩展 API（Retail SDK 版本 10.0.11 及更高版本）
-                  href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Retail Typescript 和 C# 代理
-                  href: dev-itpro/typescript-proxy-retail-pos.md
-                - name: 在外部应用程序中使用 Retail Server API
-                  href: dev-itpro/consume-retail-server-api.md
-            - name: Commerce Runtime (CRT) 可扩展性
-              items:
-                - name: CRT 体系结构和配置
-                  href: dev-itpro/commerce-runtime-overview.md
-                - name: CRT 服务
-                  href: dev-itpro/crt-services.md
-                - name: CRT 扩展模式
-                  href: dev-itpro/commerce-runtime-extensibility.md
-                - name: 管理 Retail 渠道机密
-                  href: dev-itpro/manage-secrets.md
-                - name: CRT 可扩展性和触发器
-                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
-                - name: 使用触发器锁定交易记录
-                  href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: 会员扩展
-                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-                - name: 装箱单的扩展点
-                  href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: 渠道数据库扩展
-                  href: dev-itpro/channel-db-extensions.md
-                - name: 删除 Cloud Scale Unit 扩展
-                  href: dev-itpro/retail-sdk/remove-csu-package.md
-                - name: 通过扩展启用自定义 CDX 同步
-                  href: dev-itpro/cdx-extensibility.md
-                - name: 定义和设置订单属性
-                  href: dev-itpro/order-attributes.md
-                - name: 客户属性
-                  href: dev-itpro/customer-attributes.md
-                - name: 收据扩展
-                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                - name: 将扩展事件记录到 Application Insights
-                  href: dev-itpro/commerce-application-insights.md
-                - name: 在业务逻辑中创建异步 Commerce (CRT) API
-                  href: dev-itpro/async-commerce-extension.md
-                - name: 渠道数据库中的预扩展列
-                  href: dev-itpro/extended-columns.md
-                - name: 扩展 Commerce Data Exchange - 实时服务
-                  href: dev-itpro/extend-commerce-data-exchange.md
-            - name: 付款连接器可扩展性
-              items:
-                - name: 为付款终端创建付款集成
-                  href: dev-itpro/end-to-end-payment-extension.md
-                - name: 实施付款连接器和付款设备（白皮书）
-                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
-                - name: 部署付款连接器
-                  href: dev-itpro/deploy-payment-connector.md
-                - name: 用于后台开票的增量捕获
-                  href: dev-itpro/incremental-capture.md
-                - name: 为付款终端扩展创建自定义本地化错误消息
-                  href: dev-itpro/payment-custom-error-messages.md
-                - name: 为付款连接器创建 Windows 安装程序
-                  href: dev-itpro/create-windows-installer-payment-connector.md
-                - name: 付款数据使用
-                  href: payment-connector-data-fields.md
-                - name: 对付款连接器启用重复付款预防
-                  href: dev-itpro/duplicate-payments-protection.md
-                - name: 为 Finance and Operations 部署创建 Commerce 付款包
-                  href: dev-itpro/payment-connector-package.md
-            - name: 第三方电子商务可扩展性
-              items:
-                - name: 配置在线商店
-                  href: dev-itpro/configure-online-store.md
-                - name: 配置身份验证提供程序
-                  href: dev-itpro/configure-authentication-providers.md
-                - name: 电子商务平台 SDK
-                  href: dev-itpro/ecommerce-platform-sdk.md
-            - name: 本地化 Commerce 扩展资源和标签文件
-              href: dev-itpro/extension-resource-localization.md
+                - name: 概览
+                  items:
+                    - name: Retail 软件开发套件 (SDK)
+                      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                    - name: Retail 软件开发套件 (SDK) 可扩展性示例
+                      href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                    - name: Retail SDK 常见问题解答
+                      href: dev-itpro/retail-sdk/sdk-faq.md
+                    - name: 将 Retail SDK 从 Visual Studio 2015 迁移至 Visual Studio 2017
+                      href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: 环境设置
+                  items:
+                    - name: 在没有管理员访问权限的情况下在云托管环境中开发
+                      href: dev-itpro/cloud-dev-box.md
+                    - name: Retail SDK 生成管道
+                      href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: 运行 POS 示例
+                      href: dev-itpro/pos-run-samples.md
+                - name: 引用
+                  items:
+                    - name: 电子商务平台软件开发工具包 (SDK)
+                      href: dev-itpro/ecommerce-platform-sdk.md
+                    - name: 配置在线商店
+                      href: dev-itpro/configure-online-store.md
+                    - name: 配置身份验证提供程序
+                      href: dev-itpro/configure-authentication-providers.md
+                - name: 打包和部署
+                  items:
+                    - name: 创建可部署包
+                      href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                    - name: 使用代码签名证书对 MPOS appx 签名
+                      href: dev-itpro/pos-app-signing-certificate.md
+                    - name: 在 Android 和 iOS 中安装 POS Hybrid 应用
+                      href: dev-itpro/hybridapp.md
+                    - name: 创建品牌并将其应用于 Retail Experience 应用
+                      href: dev-itpro/create-retail-experience-app.md
         - name: 疑难解答
           items:
             - name: 订单处理
@@ -2782,7 +2892,11 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 未启用评分和评价解决方案时，评分优化器将显示在搜索结果和类别页面上
                   href: troubleshoot/hide-ratings-refiner.md
-            - name: SDK 故障排除
+            - name: 客户管理
+              items:
+                - name: 创建新客户时未发送欢迎电子邮件
+                  href: troubleshoot/email-not-sent-when-new-customer-created.md
+            - name: SDK 疑难解答
               items:
                 - name: 设置电子商务开发环境，针对第 1 层 Retail Server VM 进行调试
                   href: troubleshoot/set-up-dev-environment-debugging.md

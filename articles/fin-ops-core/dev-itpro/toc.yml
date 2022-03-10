@@ -1,28 +1,30 @@
-- name: Finance and Operations 应用的开发和管理
+- name: Finance and Operations 应用开发和管理
   items:
-    - name: Finance and Operations 应用的开发和管理
+    - name: Finance and Operations 应用开发和管理
       items:
         - name: Finance and Operations 应用程序文档
           href: ../fin-ops/index.md
-        - name: Finance and Operations 应用的开发和管理
+        - name: Finance and Operations 应用开发和管理
           href: index.md
         - name: 新增功能或更改
           items:
-            - name: Finance and Operations 应用新增功能或更改
+            - name: 财务和运营应用新增功能或更改
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 平台更新的新增功能或更改
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: 针对 10.0.19 的平台更新（2021 年 7 月）
-                  href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: 针对 10.0.18 的平台更新（2021 年 5 月）
-                  href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: 针对 10.0.17 的平台更新（2021 年 4 月）
-                  href: get-started/whats-new-platform-updates-10-0-17.md
+                - name: 针对版本 10.0.26 的平台更新（2022 年 5 月）
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: 针对版本 10.0.25 的平台更新（2022 年 4 月）
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: 针对版本 10.0.24 的平台更新（2022 年 2 月）
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: 针对版本 10.0.23 的平台更新（2022 年 1 月）
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: 已删除或弃用的功能
               items:
-                - name: 主页中已删除或弃用的功能
+                - name: “已删除或弃用的功能”主页
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 已删除或弃用的平台功能
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -30,49 +32,13 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 延迟发布的 AX 2012 功能
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+            - name: Microsoft Dynamics AX 2009 和 2012 主要支持结束
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: 业务事件
+        - name: 持续交付
           items:
-            - name: 业务事件概览
-              href: business-events/home-page.md
-            - name: 应用程序业务事件
-              href: business-events/app-business-events.md
-            - name: 工作流业务事件
-              href: business-events/business-events-workflow.md
-            - name: 批处理业务事件
-              href: business-events/system-business-events.md
-            - name: 业务事件预警
-              href: business-events/alerts-business-events.md
-            - name: Microsoft Flow 中的业务事件
-              href: business-events/business-events-flow.md
-            - name: 业务事件开发人员文档
-              href: business-events/business-events-dev-doc.md
-            - name: 业务事件疑难解答
-              href: business-events/troubleshooting.md
-            - name: 业务事件用例
-              href: business-events/potential-use-cases.md
-            - name: 教程
-              items:
-                - name: 业务事件和 Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: 业务事件和 Azure 事件网格
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: 业务事件和 Azure 服务总线
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: 业务事件和工作流审核
-                  href: business-events/how-to/how-to-workflow.md
-                - name: 业务事件和 Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: 业务事件和 Azure 事件中心
-                  href: business-events/how-to/event-hub.md
-                - name: 财务期间结帐中的业务事件
-                  href: business-events/how-to/period-close.md
-        - name: 连续交货
-          items:
-            - name: 连续交货主页
+            - name: 持续交付主页
               href: dev-tools/continuous-delivery-home-page.md
-            - name: 开发和连续交货常见问题
+            - name: 开发和持续交付常见问题解答
               href: dev-tools/continuous-delivery-faq.md
             - name: 从生成输出中排除测试包
               href: dev-tools/exclude-test-packages.md
@@ -84,11 +50,11 @@
               href: dev-tools/version-models-build.md
         - name: 数据集成
           items:
-            - name: 选择数据集成（导入/导出）策略
+            - name: Finance and Operations 应用与第三方服务之间的集成
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
-            - name: 基于优先级的限制常见问题
+            - name: 基于优先级的限制常见问题解答
               href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
@@ -126,196 +92,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: 使用记录模板创建记录
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: 使用 Dataverse 的数据集成
+                - name: 数据集成器
                   items:
-                    - name: 使用 Dataverse 的数据集成概览
-                      href: data-entities/data-integration-cds.md
-                    - name: 双写入集成
+                    - name: 配置“目标客户到现金”场景
                       items:
-                        - name: 双写入主页
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: 双写入中新增或更改的功能
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: 双写入概览
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: 双写入设置
-                          items:
-                            - name: 双写入的系统要求
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: 双写入设置指南
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: 初始同步注意事项
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Lifecycle Services 的双写入设置
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: 为现有 Finance and Operations 应用启用双写入
-                              items:
-                                - name: 为现有 Finance and Operations 应用启用双写入
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: 系统要求和先决条件
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: 如何使用双写入向导链接您的环境
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: 启用双写入实体映射
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: 双写入货币数据类型迁移
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: 设置销售订单状态字段的映射
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: 筛选内部公司订单以避免同步订单和订单行
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: 管理双写入
-                          items:
-                            - name: 自定义实体和字段映射
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: 处理多个实体映射
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: 设置双写入后编辑法人
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: 错误管理和预警通知
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: 应用程序生命周期管理
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: 应用之间的概念映射
-                          items:
-                            - name: 集成的客户主数据
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: 供应商集成
-                              items:
-                                - name: 集成的供应商主数据
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: 在供应商设计之间切换
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: 客户会员卡和奖励积分
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: 产品集成
-                              items:
-                                - name: 统一的产品体验
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: 集成的站点和仓库
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: 公司集成
-                              items:
-                                - name: Dataverse 中的公司概念
-                                  href: data-entities/dual-write/company-data.md
-                                - name: 初始化公司数据
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Dataverse 中的组织层次结构
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: 财税数据
-                              items:
-                                - name: 访问财税引用数据
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: 集成的分类帐
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: 集成的税收主数据
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: 集成 Supply Chain Management 与 Field Service 中的采购
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: 按需与 Supply Chain Management 定价引擎同步
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: 目标客户到现金（采用双重写入）
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: 用于服务的内部资产
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: 库存可用性
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 集成工作人员、作业和岗位
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: 当事方和全球通讯簿
-                              href: data-entities/dual-write/party-gab.md
-                            - name: 将 Power Portal 与当事方数据模型配合使用
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: 升级到当事方和全球通讯簿模型
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: 注释集成
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: 映射引用
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: 支持双重写入
-                          items:
-                            - name: 支持 Field Service 和 Project Service Automation 解决方案
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: 将目标客户到现金数据从数据集成器迁移到双重写入
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: 疑难解答
-                              items:
-                                - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: 解决初始设置过程中的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: 解决初始同步过程中的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: 解决 Finance and Operations 应用中的双重写入问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: 解决实时同步问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: 解决与解决方案意识相关的问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 解决 Finance and Operations 应用升级问题
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: 常规疑难解答
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: 双重写入常见问题
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: 与 Power Platform 集成
+                        - name: 目标客户到现金
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: 将 Sales 的客户直接同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: 将 Finance and Operations 的产品直接同步到 Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: 将 Finance and Operations 的销售账单标题和行直接同步到 Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: 配置与 Field Service 的集成
                       items:
-                        - name: 配置“目标客户到现金”场景
-                          items:
-                            - name: 目标客户到现金
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: 将客户从 Sales 直接同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: 将产品从 Finance and Operations 直接同步到 Sales 的产品
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: 将联系人从 Sales 直接同步到 Finance and Operations 的联系人或客户
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: 将销售报价单标题和行从 Sales 直接同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: 将销售账单标题和行从 Finance and Operations 直接同步到 Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: 配置与 Field Service 的集成
-                          items:
-                            - name: 配置与 Field Service 的集成概览
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: 将 Field Service 中的工作订单同步到 Finance and Operations 中的销售订单
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: 将 Field Service 中的协议账单同步到 Finance and Operations 中的普通账单
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: 将项目列表从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: 将仓库从 Finance and Operations 同步到 Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: 将带项目的工作订单从 Field Service 同步到 Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: 配置 Project Service Automation 集成
-                          items:
-                            - name: Project Service Automation 概览
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automation 集成参数
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: 同步项目合同和项目
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: 同步项目任务
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: 同步项目支出类别
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: 将项目评估同步到项目预测
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: 将项目实际值同步到项目集成日记帐
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: 配置与 Field Service 的集成概览
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: 将 Field Service 的协议账单同步到 Finance and Operations 的普通账单
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: 将项目列表从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: 将仓库从 Finance and Operations 同步到 Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: 配置 Project Service Automation 集成
+                      items:
+                        - name: Project Service Automation 概览
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation 集成参数
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: 同步项目合同和项目
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: 同步项目任务
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: 同步项目支出类别
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: 将项目评估同步到项目预测
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: 将项目实际值同步到项目集成日记帐
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: 使用外部 Web 服务
               href: data-entities/consume-external-web-service.md
             - name: 电子消息
@@ -360,7 +192,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: 使用普通日记帐实体导入凭证
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: 优化 Finance and Operations 应用的数据集成
+                - name: 优化 Finance and Operations 应用的数据迁移
                   href: sysadmin/optimize-data-migration.md
             - name: 数据实体开发
               items:
@@ -402,14 +234,16 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake 概览
-              href: data-entities/azure-data-lake-overview.md
-            - name: 配置导出到 Azure Data Lake
+            - name: 导出到 Azure Data Lake 概览
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: 安装“导出到 Azure Data Lake”加载项
               href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake 中的 Finance and Operations 应用
               href: data-entities/finance-data-azure-data-lake.md
             - name: 将实体商店用作 Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: 更改 Azure Data Lake 中的数据
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: 数据库移动操作
           items:
             - name: 概览
@@ -464,8 +298,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: 获取操作活动状态
                       href: database/api/v1/reference-get-status.md
-                    - name: 开始和停止环境
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: 演示数据
           items:
             - name: 演示数据概览
@@ -486,7 +318,7 @@
                       href: deployment/infrastructure-stack.md
                     - name: 部署新环境
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: 部署常见问题
+                    - name: 部署常见问题解答
                       href: deployment/deploymentFAQ.md
                     - name: 自助服务部署的已知问题
                       href: deployment/known-issues-new-deployment-experience.md
@@ -494,10 +326,16 @@
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: 更新环境
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: 对通过自助服务部署所部署的环境进行疑难解答
+                    - name: 对通过自助服务部署所部署的环境进行故障排除
                       href: deployment/troubleshoot-newinfrastructure.md
-                - name: 完成 Azure 资源管理器使用培训
+                    - name: 自助服务环境中的计划内维护常见问题解答
+                      href: deployment/plannedmaintenance-selfservice.md
+                    - name: 业务连续性和灾难恢复
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: 完成 Azure 资源管理器入门培训流程
                   href: deployment/arm-onboarding.md
+                - name: 完成美国政府 LCS 项目的 Azure 资源管理器入门培训流程
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute 和 Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operations 体系结构
@@ -506,6 +344,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: 将更新和扩展应用于 Commerce Scale Unit（云）
                   href: deployment/Update-retail-channel.md
+                - name: Commerce Scale Unit（云）的自动更新
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: 初始化 Commerce Scale Unit（云）
                   href: deployment/Initialize-Retail-Channels.md
                 - name: 将渠道迁移到其他 Commerce Scale Unit
@@ -522,9 +362,11 @@
                       href: deployment/on-premises-overview.md
                     - name: 计划和准备本地部署
                       href: deployment/plan-onprem-deployment.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) 支持的软件
+                      href: deployment/onprem-compatibility.md
                     - name: 硬件规模调整要求
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Dynamics 365 Finance + Operations (on-premises) 中的身份验证
+                    - name: Dynamics 365 Finance + Operations (on-premises) 身份验证
                       href: deployment/authentication-onprem.md
                 - name: 设置并部署本地环境
                   items:
@@ -566,17 +408,21 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: 在多个环境中重复使用相同的 AD FS 实例
                       href: deployment/onprem-reuseadfs.md
+                    - name: 升级 Microsoft Dynamics 365 Finance + Operations (on-premises) 环境的 SQL Server 实例
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: 本地代理
                   items:
                     - name: AD FS Microsoft 365 兼容性
                       href: deployment/onprem-adfscompatibility.md
                     - name: 本地代理部署前和部署后脚本
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: 本地代理的部署配置
+                      href: deployment/onprem-localagent-options.md
                     - name: 更新本地代理
                       href: lifecycle-services/update-local-agent.md
                 - name: 疑难解答
                   items:
-                    - name: 对本地部署进行疑难解答
+                    - name: 本地部署疑难解答
                       href: deployment/troubleshoot-on-prem.md
                     - name: 在本地环境中解决问题的脚本
                       href: deployment/onprem-tsg-implementations.md
@@ -584,10 +430,12 @@
               items:
                 - name: 创建模型的可部署包
                   href: deployment/create-apply-deployable-package.md
-                - name: 安装来自命令行的可部署包
+                - name: 通过命令行安装可部署包
                   href: deployment/install-deployable-package.md
                 - name: 卸载包
                   href: deployment/uninstall-deployable-package.md
+                - name: 运行具有零故障时间的自定义 X++ 脚本
+                  href: deployment/run-custom-scripts.md
                 - name: 解决包应用程序问题
                   href: deployment/deployable-package-troubleshooting.md
             - name: 部署自定义帮助
@@ -616,6 +464,16 @@
                   href: help/language-locale.md
                 - name: 针对帮助进行扩展、自定义和协作
                   href: help/contributor-guide.md
+            - name: 部署注意事项
+              items:
+                - name: 针对 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 Sovereign 和本地云部署选项
+                  href: deployment/deployment-options-geo.md
+                - name: 美国政府社区云 (GCC) 中的 Finance 和 Supply Chain Management
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance 和 Supply Chain Management 由世纪互联在中国运营
+                  href: deployment/china-local-deployment.md
+                - name: 法国 Finance and Operations 应用
+                  href: deployment/france-local-deployment.md
         - name: 开发和自定义
           items:
             - name: 开发和自定义主页
@@ -632,9 +490,7 @@
                   href: dev-tools/access-instances.md
                 - name: 配置一体框开发环境
                   href: dev-tools/configure-developer-vm.md
-                - name: 在开发计算机上创建新用户
-                  href: dev-tools/enable-development-machine.md
-                - name: 开发和构建不允许管理员访问的 VM 的常见问题
+                - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 重命名本地环境以访问 Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -660,7 +516,9 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: 在 Azure Pipelines 中创建 Lifecycle Services (LCS) 连接
                   href: dev-tools/pipeline-lcs-connection.md
-                - name: 更新托管 Azure Pipeline，获取新的 NuGet 包
+                - name: 在 Azure Pipelines 中将 LCS 连接身份验证任务更新到 MSAL
+                  href: dev-tools/pipeline-lcs-connection-update.md
+                - name: 更新托管的 Azure Pipelines 以获取新的 NuGet 包
                   href: dev-tools/pipeline-nuget-split.md
                 - name: 更新 Azure Pipelines 中的旧管道
                   href: dev-tools/pipeline-msbuild-update.md
@@ -708,30 +566,30 @@
                   href: dev-tools/models.md
                 - name: Finance and Operations 项目类型
                   href: dev-tools/projects.md
-                - name: Visual Studio 工具加载项
+                - name: Visual Studio Tools 加载项
                   href: dev-tools/developer-tools-add-ins.md
                 - name: 更新 Visual Studio 开发工具
                   href: dev-tools/update-development-tools.md
             - name: X++ 编程语言
               items:
-                - name: X++ 和调试器功能
-                  href: dev-tools/new-x-debugger-features.md
-                - name: X++ 的 Visual Studio 2017 要求
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: 调试 X++ 代码
-                  href: dev-tools/debug-xpp.md
-                - name: 请求或响应方案中的 EventHandlerResult 类
-                  href: dev-tools/event-handler-result-class.md
-                - name: 使用 C# 和 X++ 源代码编写业务逻辑
-                  href: dev-tools/write-business-logic.md
-                - name: X++ 和 X++ 编译器中的更改
-                  href: dev-tools/programming-language-support.md
-                - name: C# 的 LINQ 提供程序
-                  href: dev-tools/linq-provider-c.md
-                - name: 编写最佳实践规则
-                  href: dev-tools/author-best-practice-rules.md
-                - name: 应用程序资源管理器属性
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ 语言支持
+                  items:
+                    - name: X++ 的 Visual Studio 要求
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: 调试 X++ 代码
+                      href: dev-tools/debug-xpp.md
+                    - name: 请求或响应方案中的 EventHandlerResult 类
+                      href: dev-tools/event-handler-result-class.md
+                    - name: 使用 C# 和 X++ 源代码编写业务逻辑
+                      href: dev-tools/write-business-logic.md
+                    - name: C# 的 LINQ 提供程序
+                      href: dev-tools/linq-provider-c.md
+                    - name: 编写最佳实践规则
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: 应用程序资源管理器属性
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute 属性
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++ 语言参考
                   items:
                     - name: X++ 语言参考概览
@@ -776,7 +634,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: 库
                           href: dev-ref/xpp-library-objects.md
-                        - name: 事件
+                        - name: 事件和委托
                           href: dev-ref/xpp-events.md
                     - name: X++ 数据选择和操作
                       items:
@@ -850,7 +708,7 @@
                       href: extensibility/extensibility-roadmap.md
                     - name: 可扩展性请求
                       href: extensibility/extensibility-requests.md
-                    - name: 可扩展性常见问题
+                    - name: 可扩展性常见问题解答
                       href: extensibility/app-sealing-faq.md
                     - name: 从覆盖迁移到扩展
                       href: extensibility/migrate-overlayer-extension.md
@@ -976,16 +834,14 @@
                       href: extensibility/breaking-changes.md
                     - name: 兼容性检查器工具
                       href: extensibility/compatibility-checker-tool.md
-            - name: 绩效
+            - name: 性能
               items:
                 - name: 使用 Trace parser 进行跟踪
                   href: perf-test/trace-trace-tutorial.md
-                - name: 通过任务录制器和 Performance SDK 进行单用户测试
+                - name: 使用 Performance SDK 和任务录制器进行单用户测试
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: 通过本地测试控制器进行多用户 Performance SDK 测试
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: 使用 Performance SDK 进行多用户测试
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: 使用 Performance SDK 进行测试疑难解答指南
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: 在本地环境中进行 Performance SDK 和多用户测试
@@ -1004,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: 使用类和方法属性的 SysTest 筛选
                   href: perf-test/systest-filtering.md
+                - name: 用于测试多个值的 SysTestRow 属性
+                  href: perf-test/systest-row.md
                 - name: 接受度测试库
                   items:
                     - name: 接受度测试库资源
@@ -1026,12 +884,14 @@
                       href: perf-test/code-generation-wizard.md
                     - name: 接受度测试库的最佳实践
                       href: perf-test/atl-best-practices.md
-                    - name: 常见问题
+                    - name: 常见问题解答
                       href: perf-test/atl-faq.md
             - name: 日期有效性
               href: dev-tools/date-effectivity.md
             - name: 独立软件供应商开发
               items:
+                - name: ISV 开发主页
+                  href: dev-tools/isv-dev-home-page.md
                 - name: 使用 ISV Studio 将 X++ 模块链接到软件包
                   href: dev-tools/isv-studio-solutions.md
                 - name: ISV 许可
@@ -1070,13 +930,21 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: 适用于合作伙伴的 LCS
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: 开始和停止环境
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: 提取环境元数据
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: 提取环境历史记录
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: 提取环境 RSAT 证书 ZIP 包
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Lifecycle Services 中的新增功能或更改
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Lifecycle Services (LCS) 中已删除或弃用的功能
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services 用户指南
               href: lifecycle-services/lcs-user-guide.md
-            - name: 项目启动
+            - name: 项目入门
               href: lifecycle-services/project-onboarding.md
             - name: 订阅估算器
               href: lifecycle-services/subscription-estimator.md
@@ -1120,11 +988,15 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: 将服务请求提交给 Dynamics 服务工程团队
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: 计划的维护时段常见问题
+                - name: 计划的维护时段常见问题解答
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: 监控和诊断
-              href: lifecycle-services/monitoring-diagnostics.md
-            - name: 重新启动服务环境
+              items:
+                - name: 监控和诊断工具
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: 使用 Azure 数据资源管理器查询原始信息日志
+                  href: lifecycle-services/azure-data-explorer.md
+            - name: 重新启动环境服务
               href: lifecycle-services/restart-environment-services.md
             - name: 报告生产中断
               href: lifecycle-services/report-production-outage.md
@@ -1132,10 +1004,12 @@
               href: lifecycle-services/user-logins.md
             - name: 资产库
               href: lifecycle-services/asset-library.md
-            - name: 使用 LCS 中的工具进行性能疑难解答
+            - name: 使用 LCS 中的工具进行性能故障排除
               href: lifecycle-services/performancetroubleshooting.md
             - name: 查询指南
               href: lifecycle-services/querycookbook.md
+            - name: 已过期的订阅和数据删除
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Dynamics 365 Translation Service 概览
@@ -1146,33 +1020,237 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: 翻译记忆库文件
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps 扩展（公开预览版）
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platform 集成
           items:
-            - name: Microsoft Power Platform 与 Finance and Operations 的集成
+            - name: 概览
               href: power-platform/overview.md
+            - name: 启用 Power Platform 集成
+              href: power-platform/enable-power-platform-integration.md
+            - name: 身份验证和授权
+              href: power-platform/authentication-and-authorization.md
+            - name: 双重写入
+              items:
+                - name: 双重写入主页
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: 双重写入中的新增功能或更改
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: 双重写入概览
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: 双重写入设置
+                  items:
+                    - name: 双重写入的系统要求
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: 双重写入设置指南
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: 初始同步注意事项
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: 实时同步的限制
+                      href: data-entities/dual-write/sync-limits.md
+                    - name: Lifecycle Services 的双重写入设置
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: 为现有 Finance and Operations 应用启用双重写入
+                      items:
+                        - name: 为现有 Finance and Operations 应用启用双重写入
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: 系统要求和先决条件
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: 如何使用双重写入向导链接您的环境
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: 启用双重写入实体映射
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: 分隔的双重写入应用程序业务流程包
+                      href: data-entities/dual-write/separated-solutions.md
+                    - name: 双重写入货币数据类型迁移
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: 设置销售订单状态字段的映射
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: 筛选内部公司订单以避免同步订单和订单行
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: 管理双重写入
+                  items:
+                    - name: 自定义实体和字段映射
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: 双重写入自定义指南
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: 处理多个实体映射
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: 设置双重写入后编辑法人
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: 暂停双重写入以进行维护
+                      href: data-entities/dual-write/pause-for-maintenance.md
+                    - name: 错误管理和预警通知
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: 应用程序生命周期管理
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: 用户指定的团队负责人
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: 取消链接和重新链接双重写入环境
+                      href: data-entities/dual-write/relink-environments.md
+                - name: 应用之间的概念映射
+                  items:
+                    - name: 集成的客户主数据
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: 供应商集成
+                      items:
+                        - name: 集成的供应商主数据
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: 在供应商设计之间切换
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: 客户会员卡和奖励积分
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: 产品集成
+                      items:
+                        - name: 统一的产品体验
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: 集成的站点和仓库
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: 公司集成
+                      items:
+                        - name: Dataverse 中的公司概念
+                          href: data-entities/dual-write/company-data.md
+                        - name: 初始化公司数据
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Dataverse 中的组织层次结构
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: 财税数据
+                      items:
+                        - name: 访问财税引用数据
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: 集成的分类帐
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: 集成的税收主数据
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: 集成 Supply Chain Management 与 Field Service 中的采购
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: 按需与 Supply Chain Management 定价引擎同步
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: 目标客户到现金（采用双重写入）
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: 将 Dynamics 365 Commerce 定价引擎与 Dynamics 365 Sales 结合使用
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: 用于服务的内部资产
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: 库存可用性
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 集成工作人员、作业和岗位
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: 当事方和全球通讯簿
+                      href: data-entities/dual-write/party-gab.md
+                    - name: 将 Microsoft Power Apps 门户与当事方数据模型配合使用
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: 升级到当事方和全球通讯簿模型
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: 查看当事方数据
+                      href: data-entities/dual-write/view-party.md
+                    - name: 注释集成
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: 映射引用
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: 支持双重写入
+                  items:
+                    - name: 支持 Field Service 和 Project Service Automation 解决方案
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: 将目标客户到现金数据从数据集成器迁移到双重写入
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: 疑难解答
+                      items:
+                        - name: 常规疑难解答
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: 解决初始设置过程中的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: 解决初始同步过程中的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: 解决实时同步问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 解决 Finance and Operations 应用中的双重写入问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: 解决当事方和全球通讯簿的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
+                        - name: 解决与解决方案意识相关的问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: 解决 Finance and Operations 应用升级问题
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: 表映射运行状况检查的错误代码
+                          href: data-entities/dual-write/table-map-health-check.md
+                - name: 双重写入常见问题解答
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: 虚拟实体
               items:
+                - name: 虚拟实体概览
+                  href: power-platform/virtual-entities-overview.md
                 - name: 实体建模
                   href: power-platform/entity-modeling.md
                 - name: 应用程序生命周期管理
                   href: power-platform/application-lifecycle-management.md
-                - name: Finance and Operations 和 Dataverse 管理员参考
+                - name: 配置 Dataverse 虚拟实体
                   href: power-platform/admin-reference.md
+                - name: 启用 Dataverse 虚拟实体
+                  href: power-platform/enable-virtual-entities.md
                 - name: Finance and Operations 的 Power Apps 门户
                   href: power-platform/power-portal-reference.md
-                - name: Finance and Operations 虚拟实体常见问题
+                - name: Finance and Operations 虚拟实体常见问题解答
                   href: power-platform/faq.md
+            - name: 业务事件
+              items:
+                - name: 业务事件概览
+                  href: business-events/home-page.md
+                - name: 管理业务事件终结点
+                  href: business-events/managing-business-event-endpoints.md
+                - name: 应用程序业务事件
+                  href: business-events/app-business-events.md
+                - name: 工作流业务事件
+                  href: business-events/business-events-workflow.md
+                - name: 批处理业务事件
+                  href: business-events/system-business-events.md
+                - name: 业务事件预警
+                  href: business-events/alerts-business-events.md
+                - name: 数据事件
+                  href: business-events/data-events.md
+                - name: Power Automate 中的业务事件
+                  href: business-events/business-events-flow.md
+                - name: 业务事件开发人员文档
+                  href: business-events/business-events-dev-doc.md
+                - name: 业务事件疑难解答
+                  href: business-events/troubleshooting.md
+                - name: 业务事件用例
+                  href: business-events/potential-use-cases.md
+                - name: 教程
+                  items:
+                    - name: 业务事件和 Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: 业务事件和 Azure 事件网格
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: 业务事件和 Azure 服务总线
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: 业务事件和 Azure 服务总线队列
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: 业务事件和工作流审核
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: 业务事件和 Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: 业务事件和 Azure 事件中心
+                      href: business-events/how-to/event-hub.md
+                    - name: 订阅 Dataverse 中的事件
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: 财务期间结帐中的业务事件
+                      href: business-events/how-to/period-close.md
             - name: 加载项
               items:
                 - name: 加载项概览
                   href: power-platform/add-ins-overview.md
+            - name: 策略与通信
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: 移动平台
           items:
             - name: 移动平台资源
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: 入门
+            - name: 开始使用
               items:
-                - name: 移动平台入门
+                - name: 开始使用移动平台
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: 体系结构和设计注意事项
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1416,6 +1494,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: 使用 Regression Suite Automation Tool 的数据无关测试
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: 利用并行执行运行 Regression Suite Automation Tool (RSAT)
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: 疑难解答
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
@@ -1458,11 +1538,11 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 获取对由世纪互联在中国运营的 Finance and Operations 的支持
+            - name: 获取由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对 Finance and Operations 应用的技术支持
               href: lifecycle-services/support-experience.md
-            - name: 管理 Finance and Operations 应用支持体验
+            - name: 管理 Finance and Operations 应用的支持体验
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: 生产支持和监控
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1532,8 +1612,12 @@
                   href: sysadmin/batch-server-overview.md
                 - name: 创建批处理作业
                   href: sysadmin/tasks/create-batch-job.md
+                - name: 启用批处理重试
+                  href: sysadmin/retryable-batch.md
                 - name: 复制批处理作业
                   href: sysadmin/copy-batch-job.md
+                - name: 基于优先级的批处理计划
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: 活动批处理期间
                   href: sysadmin/activeperiod.md
                 - name: 活动批处理期间的夏令时支持
@@ -1548,6 +1632,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: 取消正在执行的批处理作业
                   href: sysadmin/batch-abort.md
+                - name: 批处理 OData API
+                  href: sysadmin/batch-odata-api.md
             - name: 优化顾问
               items:
                 - name: 优化顾问概览
@@ -1582,12 +1668,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 升级 - 数据升级的升级前核对清单
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 升级 - 沙盒环境中使用 DACPAC 流程的数据升级
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: 从 AX 2012 升级 - SQL 事务复制
-                  href: database/replication-setup.md
-                - name: AX 2012 升级 - 沙盒环境中的数据升级
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: 从 AX 2012 升级 - 自助服务环境中的数据升级
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 升级 - 本地环境
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 升级 - 直接转换测试
@@ -1600,12 +1682,12 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 升级 - 实施
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: 从 AX 2012 升级 - 数据升级常见问题解答
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 影响从 AX 2012 升级的更改
                   items:
-                    - name: 使会计科目表分隔符的成为唯一的
+                    - name: 设置唯一的会计科目表分隔符
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: 升级单一凭证日记帐和货币重估
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: 项目资源计划数据模型
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: 工作流子系统更改
@@ -1618,7 +1700,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: 从 AX 2009 迁移数据
               items:
-                - name: 将数据从 AX 2009 迁移到 Finance and Operations
+                - name: 将数据从 AX 2009 迁移至 Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 迁移 - 安装数据迁移工具
                   href: migration-upgrade/install-dmt.md
@@ -1774,7 +1856,7 @@
                   href: user-interface/slider-messagebox.md
                 - name: 消息中心、消息栏和消息详细信息 API
                   href: user-interface/messaging-api-center-bar-details.md
-                - name: 消息中心、消息栏和消息详细信息常见问题
+                - name: 消息中心、消息栏和消息详细信息常见问题解答
                   href: user-interface/messaging-user.md
             - name: 窗体模式准则
               items:
