@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359403"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324054"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
 
 [!include [banner](../../includes/banner.md)]
 
-要以 Microsoft Word 文档形式生成报表，您可以[配置](../er-design-configuration-word.md)一个新的[电子报告 (ER)](../general-electronic-reporting.md) [格式](../general-electronic-reporting.md#FormatComponentOutbound)。 或者，您可以重用最初设计为以 Excel 工作簿形式生成报表的 ER 格式。 在这种情况下，您必须用 Word 模板替换 Excel 模板。
+要以 Microsoft Word 文档形式生成报表，您可以[配置](../er-design-configuration-word.md)一个新的[电子报告 (ER)](../general-electronic-reporting.md) 格式。 或者，您可以重用最初设计为以 Excel 工作簿形式生成报表的 ER 格式。 在这种情况下，您必须用 Word 模板替换 Excel 模板。
 
 以下过程说明具有系统管理员角色或电子报告开发人员角色的用户，如何通过重用设计为以 Excel 文件形式生成报表的 ER 格式，来将 ER 格式配置为以 Word 文件形式生成报表。
 
@@ -90,7 +90,7 @@ ms.locfileid: "6359403"
 
 您现在可以将 **报表** 自定义 XML 部件的元素映射到 Word 文档的内容控件。
 
-如果您熟悉此流程：将 Word 文档设计为包含映射到[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)的元素的[内容控件](/office/client-developer/word/content-controls-in-word)的表单，请完成下一个过程中的所有步骤来创建文档。 有关详细信息，请参阅[在 Word 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b)。 否则，请跳过下一个过程。
+如果您熟悉此流程：将 Word 文档设计为包含映射到[自定义 XML 部件](/visualstudio/vsto/custom-xml-parts-overview)的元素的[内容控件](/office/client-developer/word/content-controls-in-word)的表单，请完成下一个过程中的所有步骤来创建文档。 有关详细信息，请参阅[在 Word 中创建用户填写或打印的表单](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b)。 否则，请跳过下一个过程。
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>获取具有自定义 XML 部件的 Word 文档并进行数据映射
 

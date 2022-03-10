@@ -1,7 +1,7 @@
 ---
 title: 预算计划与其他模块的集成
 description: 预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。
-author: ShylaThompson
+author: panolte
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edac31cb8a4f28f06819c791b308286f474c9b55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: ceae7296ef6d8a0f181c306bd533694c0219e467
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188654"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594734"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 

@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943604"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952644"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -379,7 +379,7 @@ ms.locfileid: "7943604"
     2. 使用 ER 从 Finance 生成具有所需详细信息的第二个 Excel 工作簿（工作簿 B）。 
     3. 生成工作簿 B 后立即在工作簿 A 中参考工作簿 B。
 
-- 使用 EPPlus 以外的选项来关闭该功能。 
+- 关闭此功能，**支持在电子报告框架中使用 EPPlus 库** 以使用 EPPlus 之外的选项。 
 
 ## <a name="additional-resources"></a>其他资源
 

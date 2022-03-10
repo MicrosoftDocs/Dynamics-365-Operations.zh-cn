@@ -1,12 +1,10 @@
 ---
-title: 世纪互联在中国运营的 Dynamics 365 Finance 和世纪互联在中国运营的 Dynamics 365 Supply Chain Management
-description: 该主题提供有关由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的信息。
+title: 由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
+description: 本主题提供有关 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management（由世纪互联在中国运营）的信息。
 author: kfend
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,20 +12,20 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f97a326189e9d6f79b8a04b6716a4411180aa41
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 920230dd0fe05b84020f3a7ed27ee48418072ea1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744408"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061265"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management---operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
+# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-operated-by-21vianet-in-china"></a>由世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Microsoft Dynamics 365 Online 服务由世纪互联运营，符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称 **世纪互联**）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
+
+Microsoft Dynamics 365 联机服务由世纪互联运营，可符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称 **世纪互联**）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
 
 Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Finance and Operations 应用之间的功能一致性。 但是，受依赖服务或合作伙伴解决方案可用性、市场优先级或法规合规性的影响，二者在功能一致性方面将存在明显的例外。
 
@@ -39,17 +37,17 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 - 由 Microsoft 运营的服务 – 此选项适用于希望使用 Microsoft 管理和提供的服务的 Finance 和 Supply Chain Management 客户。 无论是新客户还是现有客户，只要客户通过企业协议购买了 Microsoft Azure、Dynamics 365 和 Office，Microsoft 365 和/或 Dynamics 365 就可以在租户中共存。
 
-有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](https://docs.microsoft.com/power-platform/admin/create-environment)。
+有关预配环境的信息，请参阅 [Power Platform 管理中心的“创建和管理环境”部分](/power-platform/admin/create-environment)。
 
 ## <a name="features-not-available"></a>不可用的功能
 
-由于某些技术依赖性，由世纪互联运营的 Dynamics 365 服务中通常不提供下列功能： 有关功能未来可用性的信息，请参阅[业务应用程序和平台发布计划](https://go.microsoft.com/fwlink/?linkid=2010158)。
+由于某些技术依赖性，由世纪互联运营的 Dynamics 365 服务中通常不提供下列功能： 有关功能未来可用性的信息，请参阅[业务应用程序和平台发布计划](/dynamics365/release-plans/)。
 
--   **开发、构建和测试自定义** 功能在 **中国大陆境内的 Azure DevOps** 中将不可用。 但是，从 2019 年 4 月起，中国将支持在本地使用 Azure DevOps。 此外，可以在其他区域使用 Azure DevOps。 有关详细信息，请参阅[面向中国区 Azure 世纪互联的开发人员指南](https://docs.microsoft.com/azure/china/china-get-started-developer-guide)。
+-   **开发、构建和测试自定义** 功能在 **中国大陆境内的 Azure DevOps** 中将不可用。 但是，从 2019 年 4 月起，中国将支持在本地使用 Azure DevOps。 此外，可以在其他区域使用 Azure DevOps。 有关详细信息，请参阅[面向中国区 Azure 世纪互联的开发人员指南](/azure/china/china-get-started-developer-guide)。
 
 -   由于 Azure Active Directory 限制，[设置和维护供应商协作](../../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)将不可用。
 
--   由于 Google Play 商店在中国不可用，某些 **移动应用**（如[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](../../../finance/project-management/project-time-entry-mobile-workspace.md)）将不可用；但正在考虑推出替代方案。
+-   由于 Google Play 商店在中国不可用，某些 **移动应用**（如[安装和配置仓库应用概述](../../../supply-chain/warehousing/install-configure-warehousing-app.md)和[项目时间条目移动工作区](/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace)）将不可用；但正在考虑推出替代方案。
 
 -   由于某些应用商店的依赖项在中国不可用，**[移动平台](../mobile-apps/platform/mobile-platform-home-page.md)** 将不可用。
 
@@ -61,7 +59,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   从 Dynamics AX 2012 升级时，不能使用 **代码升级**。
 
-    -   **服务和支持请求** 可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[对世纪互联在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
+    -   **服务和支持请求** 可以通过 LCS 访问，但世纪互联是服务运营商。 有关详细信息，请参阅[对 21Vianet 在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)。
     
     -   [可扩展性请求](../extensibility/extensibility-requests.md)将不可用。
     
@@ -71,28 +69,31 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   [嵌入式 Power Apps](../../fin-ops/get-started/embed-power-apps.md) 和与 Microsoft Power Apps 和 Microsoft Power Automate 的连接将不可用。
 
-    -   [使用 Dataverse 的数据集成概述](../data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json)将不可用。
+    -   [将数据集成到 Microsoft Dataverse](/power-platform/admin/data-integrator) 将不可用。
     
   > [!NOTE]
   > 由世纪互联在中国运营的实施的 Lifecycle Services URL 为 lcs.dynamics.cn。
 
 -   由于中国目前存在某些 **Azure Active Directory 限制**，以下功能将不可用：
 
-    -   由于中国的 Azure Active Directory 中不能使用企业到企业 (B2B)，**系统管理 \> 设置 \> B2B 邀请配置** 页面将不可用。 有关详细信息，请参阅[在 Azure Active Directory B2B 中，来宾用户访问是什么？](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)。
+    -   由于中国的 Azure Active Directory 中不能使用企业到企业 (B2B)，**系统管理 \> 设置 \> B2B 邀请配置** 页面将不可用。 有关详细信息，请参阅[在 Azure Active Directory B2B 中，来宾用户访问是什么？](/azure/active-directory/b2b/what-is-b2b)。
 
--   [条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)是为 Azure Active Directory Premium 2 SKU 提供的 Azure Active Directory 功能。 此功能在中国不可用。 
+-   [条件访问](/azure/active-directory/conditional-access/technical-reference)是为 Azure Active Directory Premium 2 SKU 提供的 Azure Active Directory 功能。 此功能在中国不可用。 
 -   适用于 PayPal 的 Microsoft Dynamics 365 Payment Connector 在中国不可用。
 
 ## <a name="additional-resources"></a>其他资源
 
-- [由21Vianet运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [对中国世纪互联运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
-- [Dynamics 365 中的模型驱动应用 - 由21Vianet在中国运营](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
+- [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
+- [对 21Vianet 在中国运营的 Dynamics 365 Finance and Operations 应用的支持](../lifecycle-services/21vianet-support.md)
+- [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 法律信息（Dynamics 365 法律信息）](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
 - [Dynamics 365 Lifecycle Services 的服务条款](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
-- [中国区 Azure 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
-- [业务应用程序在中国的可用性 – 由世纪互联在中国运营](https://docs.microsoft.com/power-platform/admin/business-applications-availability-china)
+- [中国区 Azure 世纪互联](/azure/china/china-welcome)
+- [业务应用程序在中国的可用性 – 由世纪互联在中国运营](/power-platform/admin/business-applications-availability-china)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

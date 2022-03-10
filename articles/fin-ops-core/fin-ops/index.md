@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations 应用程序文档
-description: 针对 Finance and Operations 应用的文档。
+description: Finance and Operations 应用的文档。
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782124"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075389"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
 
@@ -81,11 +81,13 @@ ms.locfileid: "7782124"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">地区监管功能</a></p>
 
 <h3><a href="hr/hr-landing-page.md">人力资源</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">员工自助服务</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">人事管理</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">休假和缺勤</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">福利</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">员工发展和培训</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">调查表</a></p>
-<p><a href="hr/manage-recruiting-process.md">招聘</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">员工发展</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">学习</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
 
 </td>
 <td>
@@ -131,11 +133,6 @@ ms.locfileid: "7782124"
 <p><a href="../../commerce/define-maintain-retail-channels.md">渠道设置和管理</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce 开发人员和管理</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">管理员指南</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">开发人员指南</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">用户指南</a></p>
 
 
 </td>

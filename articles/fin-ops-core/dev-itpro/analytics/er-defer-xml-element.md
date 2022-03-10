@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718373"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323707"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718373"
 
 ## <a name="overview"></a>概览
 
-您可以使用[电子报表 (ER)](general-electronic-reporting.md) 框架的工序设计器，以[配置](./tasks/er-format-configuration-2016-11.md)用于生成 XML 格式出站文档的 ER 解决方案的[格式组件](general-electronic-reporting.md#FormatComponentOutbound)。 配置的格式组件的层次结构由各种类型的格式元素组成。 这些格式元素用于在运行时用所需的信息填充生成的文档。 默认情况下，当您运行 ER 格式时，格式元素的运行顺序与它们在格式层次结构中的显示顺序相同：从上到下一个接一个。 但是，在设计时，您可以更改已配置格式组件的任何 XML 元素的执行顺序。
+您可以使用[电子报告 (ER)](general-electronic-reporting.md) 框架的工序设计器，以[配置](./tasks/er-format-configuration-2016-11.md)用于生成 XML 格式出站文档的 ER 解决方案的格式组件。 配置的格式组件的层次结构由各种类型的格式元素组成。 这些格式元素用于在运行时用所需的信息填充生成的文档。 默认情况下，当您运行 ER 格式时，格式元素的运行顺序与它们在格式层次结构中的显示顺序相同：从上到下一个接一个。 但是，在设计时，您可以更改已配置格式组件的任何 XML 元素的执行顺序。
 
 通过对已配置格式的 XML 元素打开 <a name="DeferredXmlElementExecution"></a>**推迟执行** 选项，可以推迟（延迟）执行该元素。 在这种情况下，该元素只有在其父元素的所有其他元素都已运行后才能运行。
 

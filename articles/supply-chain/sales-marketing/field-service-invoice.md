@@ -1,7 +1,7 @@
 ---
 title: 将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票
 description: 本主题讨论用于将 Dynamics 365 Field Service 中的协议发票同步到 Dynamics 365 Supply Chain Management 中的普通发票的模板和基础任务。
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69399a0e086225bc95c42b01863296a3259162a8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345444"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060756"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>将 Field Service 中的协议发票同步为 Supply Chain Management 中的普通发票
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题讨论用于将 Dynamics 365 Field Service 中的协议发票同步到 Dynamics 365 Supply Chain Management 中的普通发票的模板和基础任务。
 

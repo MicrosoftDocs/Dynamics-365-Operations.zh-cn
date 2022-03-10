@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135c8bf66f4bbd7bdbc06b50ab2a8630c934c50bc0a51c7cdb2575d3c8f5d5ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dd25fdd1549fb2fddff57dc2d9cf8762cfd6823
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766647"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416519"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 
@@ -83,8 +83,8 @@ ms.locfileid: "6766647"
 ### <a name="tech-conference-recordings"></a>技术会议录制
 
 - [扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-- [主计划 - 有关性能疑难解答的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
-- [求助! MRP 太慢！](https://youtu.be/RLXybx20B5o)
+- [主计划 - 关于排查性能问题的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
+- [MRP 绩效优化](https://youtu.be/RLXybx20B5o)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

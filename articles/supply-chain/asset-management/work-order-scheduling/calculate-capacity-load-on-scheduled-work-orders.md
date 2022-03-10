@@ -1,12 +1,10 @@
 ---
 title: 对计划的工作订单计算产能负荷
 description: 本主题介绍如何在资产管理中对计划的工作订单计算产能负荷。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a6063db7a63975f439da9f20adec07de9103014
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ff244e51151a1cc0485cae25873566fa97253171516d48449fed75f070146431
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766210"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>对计划的工作订单计算产能负荷
 
@@ -50,7 +48,7 @@ ms.locfileid: "5264890"
 
 下图显示的计算结果涵盖三天的负荷类型 **预留**。
 
-![图 1](media/08-work-order-scheduling.png)
+![图 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 如果为计算选择 **产能** 或 **余额**，并且在所选期间没有为资源进行预留，将显示相同的结果。

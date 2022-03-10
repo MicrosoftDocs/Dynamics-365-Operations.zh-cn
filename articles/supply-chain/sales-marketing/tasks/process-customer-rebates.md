@@ -1,26 +1,24 @@
 ---
 title: 生成和处理客户返利
 description: 该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abd48482d567a427389c1feeb1142eba85ee8ab1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260327"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969079"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 
@@ -71,7 +69,7 @@ ms.locfileid: "5260327"
 2. 单击 **累计**。
 3. 在 **客户** 字段中，输入或选择一个值。
 4. 在 **开始日期** 字段中，选择今天的日期。
-5. 单击 **确定**。 作为运行 **累计** 功能的结果，估计的返利要求金额现已经过调整，以说明相关周期内客户的总销售量高于第一个返利生成时的总销售量。 更具体而言，由于购买的总数量已达到 100 个单位，客户现在有资格获得每个单位 40 美元的返利（根据返利协议的第二个数量分段），或 400 美元的总返利金额。 该差异被记录为额外 800 美元的新要求“调整”。 包括在“累计”更新中的返利要求的状态现在被设置为“已计算”。 
+5. 单击 **确定**。 作为运行 **累计** 功能的结果，估计的返利要求金额现已经过调整，以说明相关周期内客户的总销售量高于第一个返利生成时的总销售量。 更具体而言，由于购买的总数量已达到 100 个单位，客户现在有资格获得每个单位 40 美元的返利（根据返利协议的第二个数量分段），或 4,000 美元的总返利金额。 该差异被记录为额外 800 美元的新要求“调整”。 包括在“累计”更新中的返利要求的状态现在被设置为“已计算”。 
 6. 在列表中，标记所有行。
 7. 单击 **审核**。
 8. 单击 **处理**。

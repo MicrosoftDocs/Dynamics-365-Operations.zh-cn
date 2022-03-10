@@ -1,12 +1,10 @@
 ---
 title: ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
-description: 此主题介绍系统管理员或电子报表开发人员角色的用户如何创建新电子报表 (ER) 配置，使其包含用于生成 OPENXML 格式的电子文档的模板。
+description: 本主题介绍如何创建一个新的电子报告配置，其中包含用于生成 OPENXML 格式的电子文档的模板。
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753020"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
@@ -30,7 +28,7 @@ ms.locfileid: "4681893"
 
 在此示例中，您将创建示例公司 Litware 公司的配置。这些步骤可以在 GBSI 公司执行。
 
-为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 可从[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)访问此文件。
+为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 可从[付款报表模板](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx)访问此文件。
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>上载付款数据模型配置
@@ -150,3 +148,6 @@ ms.locfileid: "4681893"
 17. 在 **银行帐户** 字段中，键入 `GBSI OPER`。
 18. 选择 **确定**，然后再次选择 **确定**。 审查已创建的工作表，包括付款行详细信息以及用于此付款消息的每个币种代码的总计。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

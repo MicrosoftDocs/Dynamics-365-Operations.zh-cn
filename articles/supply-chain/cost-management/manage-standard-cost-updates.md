@@ -2,13 +2,11 @@
 title: 管理标准成本更新
 description: 可以使用两种不同的方法管理对标准成本数据的更新 - 单版本方法或双版本方法。
 author: AndersGirke
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -17,13 +15,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024662"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678657"
 ---
 # <a name="manage-standard-cost-updates"></a>管理标准成本更新
 
@@ -51,3 +49,6 @@ ms.locfileid: "5024662"
 - **无** – 未在重估交易中发布财务维度。 如果您的科目结构包括所需财务维度，重估流程仍然运行，但会创建没有财务维度的会计条目。 在这种情况下，用户将首先收到警告消息，因此他们可以在必要时取消重估。
 - **表** – 将在重估交易中发布物料的财务维度。 这是默认设置，与原始系统行为一致，不打开功能 *用于库存标准成本重估的默认财务维度的选项*。
 - **发布** – 在重估交易记录中发布正在重估的交易记录的财务维度。 默认情况下，原始交易的库存科目的财务维度将同时用于库存科目和重估科目。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

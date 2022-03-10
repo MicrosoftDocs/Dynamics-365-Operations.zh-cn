@@ -1,8 +1,8 @@
 ---
 title: 设置培训课程
 description: 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
-author: andreabichsel
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,24 +12,26 @@ ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054011"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066742"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 
- <a name="set-up-prerequisites"></a> 设置先决条件
----------------------
+##  <a name="set-up-prerequisites"></a> 设置先决条件
 
 以下信息是必需的，而且必须在创建课程之前设置。
 -   **课程类型**
@@ -81,7 +83,7 @@ ms.locfileid: "6054011"
 - 定义参与者的最小和最大数目
 - 分配课程所在的地点和教室
 - 为课程参与者推荐旅馆
-- 创建课程描述，然后您可以在员工自助服务上进行建议
+- 创建课程描述，然后您可以在 **员工自助服务** 上进行建议
 
   >**注意** 只有当没有人登记课程时，您才可以删除它。 
 
@@ -127,8 +129,7 @@ ms.locfileid: "6054011"
 ## <a name="course-participants"></a>课程参与者
 课程参与者是参加培训课程或活动的工作人员。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在 **课程** 页上的 **常规** 快速选项卡中进行了定义。
 
-<a name="workflow"></a>工作流
---------
+## <a name="workflow"></a>工作流
 
 通过 **工自助服务** 页登记课程的员工可以让其注册工作流传送以供审核。 可以在 **课程** 页上的 **常规** 快速选项卡中为课程分配工作流。
 

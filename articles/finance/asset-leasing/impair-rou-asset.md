@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890822"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947332"
 ---
 # <a name="impair-right-of-use-assets"></a>减损使用权资产
 
@@ -44,6 +44,8 @@ ms.locfileid: "7890822"
 
     > [!NOTE]
     > 过帐减损交易后，将创建新的帐簿版本。
+
+    > 如果将租赁归类为经营性租赁，将使用直线折旧计算减损后的每月折旧。
 
 9. 要查看减损的资产折旧计划，请打开租赁帐簿的资产折旧计划。 现在，将按直线法为资产折旧您在 **剩余期间** 字段中输入的月数。
 10. 要查看减损费用日记帐条目，请选择减损的租赁帐簿的操作窗格上的 **资产租赁日记帐**。 系统将创建一个日记帐条目，用于借记减损费用过帐科目和贷记租赁资产过帐科目。 
@@ -100,6 +102,7 @@ ms.locfileid: "7890822"
     | 关闭帐簿             | 否       |
 
 6. 已创建并过帐了减损费用日记帐条目。 要查看，请转到租赁帐簿中的资产租赁日记帐。 请注意，减损金额已记入减损费用过帐科目，而使用权资产过帐科目已贷记。
+
 7. 要查看减损的实际影响，请转到负债和资产交易表。 请注意，减损费用导致了使用权资产减少，但租赁负债的帐面价值未发生变化。
 
 减损还有一项您应考虑的影响。 由于使用权资产金额现在远小于租赁负债，因此折旧金额必须与以前不同。 具体来说，现在从交易日期开始，在整个剩余的 84 个月的租赁中以直线法折旧资产。

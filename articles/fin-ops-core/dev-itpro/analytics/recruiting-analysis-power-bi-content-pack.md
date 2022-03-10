@@ -2,11 +2,9 @@
 title: 招聘 Power BI 内容
 description: 此主题描述招聘 Power BI 内容。
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765114"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 
@@ -64,3 +62,6 @@ ms.locfileid: "5092733"
 | 绩效          | 评级，描述和评级模型                            | 申请人、已雇用的申请人、已离职的申请人 |
 | 招聘项目  | 项目描述、项目状态和空缺                | 申请人、已雇用的申请人、已离职的申请人 |
 | 已离职的申请人 | 已离职的申请人、原因、表现和离职日期 | 公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

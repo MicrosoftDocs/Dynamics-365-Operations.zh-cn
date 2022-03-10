@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a608e9a2356f9dd49bbec1bcbe5489af5931d44
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830874"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565079"
 ---
 # <a name="enable-license-plate-label-printing"></a>启用牌照标签打印
 

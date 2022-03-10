@@ -2,7 +2,7 @@
 title: 产品生命周期状态和交易
 description: 此主题说明在工程产品的生命周期中如何控制每个生命周期状态允许的交易。
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 099e8af88d7f6dfaf6268d0ca73a120487920c4c694dc3f540d7ef6a21ddd730
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744146"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322736"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 
@@ -93,5 +93,13 @@ ms.locfileid: "6744146"
 - 为产品分配允许该流程的生命周期状态。 例如，为 T 恤产品分配生命周期状态 *适售*，这将允许 *销售订单* 业务流程。
 - 为适售变型分配允许该流程的生命周期状态。 例如，同时还为红色变型分配生命周期状态 *适售*。
 - 所有其他变型都被分配了另一个生命周期状态，在该状态下流程被阻止。 例如，为白色变型（和所有其他变型）分配生命周期状态 *不适售*，这将阻止 *销售订单* 业务流程。
+
+## <a name="default-product-lifecycle-states"></a>默认产品生命周期状态
+
+工程版本的默认生命周期状态由其工程类别指定。 当您创建新的工程版本（包括新产品的第一个版本）时，该状态将默认设定。
+
+当您创建新产品或工程产品时，您还可以通过在分配给产品的发布策略的模板发布产品上指定来设置默认生命周期状态。
+
+在这种情况下，产品的生命周期状态可能与您创建新工程产品时的版本不同。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

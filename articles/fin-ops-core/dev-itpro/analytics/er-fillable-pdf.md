@@ -2,11 +2,9 @@
 title: 设计 ER 配置以填写 PDF 模板
 description: 本主题介绍如何设计电子申报 (ER) 格式以填写 PDF 模板。
 author: NickSelin
-manager: AnnBe
-ms.date: 04/19/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758280"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
@@ -47,15 +45,15 @@ ms.locfileid: "4688117"
 
 还必须完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程。
 
-最后，必须从 [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111) 下载下列文件。
+最后，下载以下文件。
 
 | 内容描述                       | 文件名                                     |
 |-------------------------------------------|-----------------------------------------------|
-| 报表第一页的模板 | [IntrastatReportTemplate1.pdf](https://mbs.microsoft.com/Files/public/CS)                  |
-| 报表其他页的模板    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
-| 示例 ER 格式 - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
-| 示例 ER 格式 - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
-| 示例数据集                            | [Intrastat sample data.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
+| 报表第一页的模板 | [IntrastatReportTemplate1.pdf](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
+| 报表其他页的模板    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
+| 示例 ER 格式 - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
+| 示例 ER 格式 - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
+| 示例数据集                            | [Intrastat sample data.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>设计 ER 格式配置
 
@@ -117,11 +115,11 @@ ms.locfileid: "4688117"
 
 下图显示报表第一页的 PDF 模板。
 
-![模板 1](media/rcs-ger-filloutpdf-template1.png)
+![模板 1.](media/rcs-ger-filloutpdf-template1.png)
 
 下图显示报表其他页的 PDF 模板。
 
-![模板 2](media/rcs-ger-filloutpdf-template2.png)
+![模板 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. 在 **配置** 页上，选择 **设计器**。
 2. 选择 **添加根**。
@@ -148,7 +146,7 @@ ms.locfileid: "4688117"
 
 12. 选择 **确定**。
 
-    ![“从 PDF 导入”对话框](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![“从 PDF 导入”对话框。](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. 在树中，展开 **输出**。
 
@@ -178,7 +176,7 @@ ms.locfileid: "4688117"
 
     请注意，导入的 PDF 文档已附加到编辑后的 ER 格式。
 
-    ![PDF 附件预览](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF 附件预览。](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. 继续设计此格式，方法是导入第二个 PDF 模板，向数据源添加必要的绑定等。
 20. 选择 **保存**。
@@ -217,7 +215,7 @@ ms.locfileid: "4688117"
 1. 在 **格式设计器** 页中，选择 **映射** 选项卡。
 2. 在树中，展开 **分页 \> 页面**。
 
-    ![其中展开了模型树的配方设计器页](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![展开了模型树的公式设计器页面。](media/rcs-ger-filloutpdf-reviewformat.png)
 
     注意以下详细信息：
 
@@ -240,7 +238,7 @@ ms.locfileid: "4688117"
 
     请注意，此格式元素的 **名称** 属性定义为 **Correction 1**。 另请注意，格式元素的 **Name** 表达式定义为 **Paging.FldName("Correction",\@.Number)**。
 
-![其中选择了映射的格式设计器](media/rcs-ger-filloutpdf-reviewformat2.png)
+![选择了映射的格式设计器。](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 请注意，**字段** 格式元素用于填写定义为 **PDF 文件** 格式父元素的模板的可填写 PDF 文档的单个字段。 **PDF 文件** 格式元素或其嵌套元素（如果有任何嵌套元素）的绑定指定在相应 PDF 字段中输入的值。 **字段** 格式元素的不同属性可用于指定单个格式元素填充哪个 PDF 字段：
 
@@ -277,7 +275,7 @@ ms.locfileid: "4688117"
 
     如果 **模型映射的默认值** 选项设置为 **是**，则将导入的 **内部统计（从 Excel 导入）** ER 格式指定为 **内部统计报表 (PDF)** 格式配置的默认数据源。 然后，在运行 **内部统计报表 (PDF)** 格式配置时，**内部统计（从 Excel 导入）** ER 格式解析的 Excel 工作簿的内容将模拟必须报告的外贸交易记录。 下图显示了一个 Excel 工作簿的示例。
 
-    ![包含示例数据的 Excel 工作簿](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![包含示例数据的 Excel 工作簿。](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>运行格式配置
 
@@ -291,13 +289,16 @@ ms.locfileid: "4688117"
 
 下图显示生成的报表的第一页的示例。
 
-![生成的报表的第一页](media/rcs-ger-filloutpdf-generatedreport.png)
+![生成报表的第一页。](media/rcs-ger-filloutpdf-generatedreport.png)
 
 下图显示生成的报表的另一页的示例。
 
-![生成的报表的另一页](media/rcs-ger-filloutpdf-generatedreport2.png)
+![生成报表的另一页。](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>其他资源
 
 - [ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）](tasks/er-design-reports-openxml-2016-11.md)
 - [设计 ER 配置以生成 Word 格式的报表](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

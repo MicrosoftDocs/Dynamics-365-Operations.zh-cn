@@ -1,27 +1,24 @@
 ---
 title: 输入和比较询价出价并授予合同
 description: 本主题介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423427"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579464"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
@@ -35,7 +32,7 @@ ms.locfileid: "4423427"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>以供应商身份输入回复
 
-1. 在仪表板上，选择 **供应商出价**。
+1. 转到 **供应商协作 \> 工作区 \> 供应商出价**。
 2. 在 **新出价邀请** 列表中，找到刚才发送的询价。 选择该询价以检查请求的内容。
 3. 选择 **询价附件** 以检查已添加的任何附件。
 4. 选择 **出价** 以使字段可编辑。 请注意，**出价进度** 字段设置为 **供应商正在更新**。
@@ -107,3 +104,6 @@ ms.locfileid: "4423427"
 ## <a name="view-the-purchase-order-that-is-generated"></a>查看生成的采购订单
 
 在操作窗格上的 **常规** 选项卡中，选择 **采购订单**。 显示的页面将显示您接受出价时生成的采购订单。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

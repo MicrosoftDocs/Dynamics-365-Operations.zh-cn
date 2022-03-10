@@ -2,11 +2,9 @@
 title: 结算在贷方通知单上已折扣的部分供应商付款
 description: 本文向您介绍根据发票结算贷项通知单的情况。
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 701376cd080a5dda4c985aced1b08c7cb2147c27
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 553150a59d132bb1d8b563e03456995cbc8d2be5f36bab0c1fe6b8bbbf77dce1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737105"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>结算在贷方通知单上已折扣的部分供应商付款
 
@@ -42,7 +40,7 @@ Fabrikam 的供应商指定在贷方通知单的现金折扣。 如果 14 天内
 
 贷方通知单的折扣信息显示在 **结算未结交易记录** 页的底部。
 
-|                              |           |
+| 字段                        | 值     |
 |------------------------------|-----------|
 | 现金折扣日期           | 2015 年 7 月 13 日 |
 | 现金折扣金额         | 2.00      |
@@ -70,3 +68,6 @@ April 可以通过选择 **所有供应商** 页上的供应商来查看 **供�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

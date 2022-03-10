@@ -2,24 +2,26 @@
 title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
+ms.custom:
+- "55651"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712560"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -31,6 +33,7 @@ ms.locfileid: "5749297"
 - [本地部署概览](on-premises-overview.md)
 - [计划和准备本地部署](plan-onprem-deployment.md)
 - [本地部署的系统要求](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Microsoft Dynamics 365 Finance + Operations (on-premises) 支持的软件](onprem-compatibility.md)
 - [针对本地环境的硬件规模调整要求](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [购买 Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [云和本地功能的比较](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -56,10 +59,10 @@ ms.locfileid: "5749297"
 - [对多个环境重复使用同一个 AD FS 实例](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>商业
-- [本地部署中提供的 Commerce 功能](../../../retail/retail-onprem.md)
+- [本地部署中提供的 Commerce 功能](../../../commerce/retail-onprem.md)
 - [本地环境中零售渠道组件的安装步骤](deploy-retail-onprem.md)
-- [配置、安装和激活 Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [配置和安装 Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [配置、安装和激活 Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
+- [配置和安装 Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>升级
 - [本地环境的就地升级流程](../migration-upgrade/on-prem-upgrade.md)

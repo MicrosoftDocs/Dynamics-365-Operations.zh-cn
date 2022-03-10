@@ -2,11 +2,9 @@
 title: 以 Office 格式生成包含嵌入图像的报表
 description: 本主题介绍如何设计电子报告 (ER) 配置以生成包含嵌入图像的 Excel 和 Word 格式的电子文档。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735518"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 
@@ -119,3 +117,6 @@ ms.locfileid: "5093815"
 23. 单击“确定”。
     * 检查创建的输出。 已将输出生成为带有嵌入图像（用于显示公司徽标、授权人员的签名和所选水印文本）的 Word 文档。  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

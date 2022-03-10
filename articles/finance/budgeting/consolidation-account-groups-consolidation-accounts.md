@@ -1,12 +1,10 @@
 ---
 title: 合并科目组和其他合并科目
-description: 此主题提供有关合并科目组和其他合并科目的信息，并说明其在 Microsoft Dynamics 365 Finance 中的使用方法。
-author: aprilolson
-manager: AnnBe
+description: 此主题提供有关合并科目组和其他合并科目的信息，并说明其使用方法。
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
@@ -14,26 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0f89ffda27ff29e03bb517dfb6e7bfebee716027
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210233"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883379"
 ---
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>合并科目组和其他合并科目
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>合并帐户组和其他合并帐户
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关合并科目组和其他合并科目的信息，并说明其在 Microsoft Dynamics 365 Finance 中的使用方法。
+此主题提供有关合并科目组和其他合并科目的信息，并说明其使用方法。
 
-<a name="consolidation-account-groups"></a>合并帐户组
-----------------------------
+## <a name="consolidation-account-groups"></a>合并帐户组
 
-可通过合并科目组创建要用于合并数据的科目组。 通常，合并科目组表示政府规定的会计科目表，或将科目映射到公司总部定义的组。 可以在 **合并** 模块的 **设置** 区域中找到合并科目组。 添加新组时，请为科目组输入唯一标识和名称。
+可通过合并科目组创建要用于合并数据的科目组。 通常，合并科目组代表政府规定的会计科目表。 合并科目组还可以将科目映射到公司总部定义的组。 可以在 **合并** 模块的 **设置** 区域中找到合并科目组。 添加新组时，请为科目组输入唯一标识以及名称。
 
 ## <a name="additional-consolidation-accounts"></a>其他合并帐户
 可通过其他合并科目将现有会计科目表中的科目分配给合并科目组。 然后可以指定合并科目值和名称。 

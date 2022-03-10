@@ -1,35 +1,34 @@
 ---
 title: 双写入概览
-description: 本主题概括介绍双写入，其提供客户互动应用与 Finance and Operations 应用之间的近实时交互。
+description: 本主题概括介绍双写入，其提供 Customer Engagement 应用与 Finance and Operations 应用之间的近实时交互。
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 audience: Application User, IT Pro
 ms.reviewer: tfehr
-ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f39322a0c2ef50ef2bbeb256c80096e0687c4642
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781456"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061326"
 ---
-# <a name="dual-write-overview"></a>双写入概览
+# <a name="dual-write-overview"></a>双重写入概览
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
 ## <a name="what-is-dual-write"></a>什么是双写入？
 
-双写入是一种自带基础结构，其提供 Customer Engagement 应用与 Finance and Operations 应用之间的近实时交互。 当有关客户、产品、人员和操作的数据越过应用程序边界时，将为组织中的所有部门授权。
+双写入是一种现成基础结构，其提供 Customer Engagement 应用与 Finance and Operations 应用之间的近实时交互。 当有关客户、产品、人员和操作的数据越过应用程序边界时，将为组织中的所有部门授权。
 
-双写入提供 Finance and Operations 应用与 Dataverse 之间紧密耦合的双向集成。 Finance and Operations 应用中的所有数据变化都会写入 Dataverse，而 Dataverse 中的所有数据变化也会导致写入 Finance and Operations 应用。 这个自动化的数据流提供了应用之间的集成用户体验。
+双写入提供 Finance and Operations 应用与 Dataverse 之间紧密耦合的双向集成。 Finance and Operations 应用中的所有数据变化都会导致写入 Dataverse，而 Dataverse 中的所有数据变化也会导致写入 Finance and Operations 应用。 这个自动化的数据流提供了应用之间的集成用户体验。
 
 ![应用之间的数据关系。](media/dual-write-overview.jpg)
 
@@ -68,11 +67,7 @@ ms.locfileid: "7781456"
 + 查找现有库存量和详细信息
 + 项目到现金体验
 + 通过当事方概念处理多个地址和角色
-+ 针对用户的单个源管理
-+ 集成的零售和市场营销渠道
-+ 查看促销和折扣
-+ 请求服务功能
-+ 简化的服务操作
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>使用双写入的主要原因
 
@@ -85,7 +80,7 @@ ms.locfileid: "7781456"
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>双写入对 Customer Engagement 应用的开发人员和架构师有何意义？
 
-双写入实现了 Finance and Operations 应用与 Customer Engagement 应用之间数据流自动化。 双写入由 Dataverse 中安装的两个 AppSource 解决方案构成。 这些解决方案扩展 Dataverse 中的表架构、插件和工作流，以使其可适应 ERP 规模。 若要成功实施，Customer Engagement 应用的开发人员和架构师必须了解这些更改和与其对应方协作使用 Finance and Operations 应用。
+双写入实现了 Finance and Operations 应用与 Customer Engagement 应用之间数据流自动化。 双写入由 Dataverse 中安装的两个 AppSource 解决方案构成。 这些解决方案扩展 Dataverse 中的表架构、插件和工作流，以使其可适应 ERP 规模。 若要成功实施，Customer Engagement 应用的开发人员和架构师必须了解这些更改，并与其对应方协作使用 Finance and Operations 应用。
 
 为了创建与 Finance and Operations 应用程序之间的对等性，双写入在 Dataverse 架构中进行一些关键更改。 如果了解此计划，可以在将来避免一些重复性的设计和开发工作。
 

@@ -1,9 +1,9 @@
 ---
-title: 预警概览
+title: 警报概览（包含视频）
 description: 本主题提供了有关预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 5a92d84a5e8eaa2477d90df5065c0941d90dad5a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749844"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984960"
 ---
 # <a name="alerts-overview"></a>预警概览
 

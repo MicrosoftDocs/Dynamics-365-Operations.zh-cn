@@ -3,23 +3,22 @@ title: 产品集合模块
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品集合模块。
 author: v-chgri
 ms.date: 01/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790998"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984536"
 ---
 # <a name="product-collection-modules"></a>产品集合模块
 
@@ -40,7 +39,7 @@ ms.locfileid: "5790998"
 
 下图显示电子商务站点中正在使用的不同产品集合类型。
 
-![电子商务站点中不同产品集合类型的示例](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![电子商务站点中不同产品集合类型的示例。](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > 始终使用产品集合模块显示相似类型的一组产品。

@@ -1,25 +1,23 @@
 ---
 title: 将资产管理与固定资产进行集成
 description: 本主题说明如何集成资产管理和固定资产模块，以便可以将固定资产与维护资产关联起来。
-author: kamaybac
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-17
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: adc14019c243b1992cdaa22ef7aa32cb44bfffd9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253582"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567575"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>将资产管理与固定资产进行集成
 

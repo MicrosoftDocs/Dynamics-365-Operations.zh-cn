@@ -2,11 +2,9 @@
 title: 查看已过帐的销售税交易记录
 description: 此主题介绍一些查看已过帐的销售税交易记录的方法。
 author: twheeloc
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 686ddd27f9dbeb2febef9134a0f3755c9f438c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90789800b431c5052c34263289c51c9d4947f34ffc10177fbf1b14d8012d3bed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761222"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>查看已过帐的销售税交易记录
 
@@ -48,3 +46,6 @@ ms.locfileid: "4994332"
 2. 在操作窗格上，选择 **销售税代码**。
 3. 选择 **已过帐的销售税**。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

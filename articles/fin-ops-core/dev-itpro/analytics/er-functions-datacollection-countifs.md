@@ -3,7 +3,6 @@ title: COUNTIFS ER 函数
 description: 本主题提供有关 COUNTIFS 电子申报 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 667002aa01537f846c616d38bba436da18f6e05f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 23da226fe1ef95ad037c33a5b423968531557896e300c6223b36bc44b0a8a015
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734832"
 ---
 # <a name="countifs-er-function"></a>COUNTIFS ER 函数
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7b605f9826d2116f6f52a4b880f4fb5bd24cfdd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813043"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729019"
 ---
 # <a name="apply-filters-to-a-plan"></a>将筛选器应用于计划
 
@@ -43,7 +43,7 @@ ms.locfileid: "5813043"
 - **包含所有物料的运行时筛选器（空筛选器）：** 计划运行中包含物料 A、B 和 C，物料 A 和 B 的先前计划输出将被覆盖。
 
 > [!NOTE]
-> 您应该避免在 **主计划参数** 页面上被选为 **当前动态主计划** 的计划上设置计划筛选器。 否则，动态主计划功能将仅限于筛选后的物料。 例如，如果针对不是计划筛选器一部分的物料更新了净需求，则不会生成结果。
+> 如果您在 **主计划参数** 页面上选择为 **当前动态主计划** 的计划上设置计划筛选器，动态主计划功能将仅限于筛选出的物料。 例如，如果针对不是计划筛选器一部分的物料更新了净需求，则不会生成结果。
 
 ## <a name="related-resources"></a>相关资源
 

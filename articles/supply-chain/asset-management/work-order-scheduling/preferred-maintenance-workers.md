@@ -1,12 +1,10 @@
 ---
 title: 设置首选维护工人
 description: 本主题说明如何在资产管理中设置首选维护工人。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 102f48d1273ac91d5cb42eca11d2dec337c30528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734419"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>设置首选维护工人
 
@@ -61,7 +59,7 @@ ms.locfileid: "5214954"
 
     [!NOTE] 通常当在安排工作订单期间选择了首选维护工人时，资产将在所有 **首选维护工人** 记录中查找可能的匹配项，始终首先查找最具体的组合。 如果未找到匹配项，将使用在 **首选维护工人组** 字段或 **首选维护工人** 字段中进行了选择的“默认”记录。
 
-![图 1](media/02-work-order-scheduling.png)
+![图 1.](media/02-work-order-scheduling.png)
 
 也可以设置在创建维护请求或工作订单时可选择的 *负责* 维护工人。 如果需要，可在 **所有工作订单** 和 **所有维护请求** 中编辑所选内容。 有关详细信息，请参阅[负责维护工人](../setup-for-maintenance-requests/responsible-workers.md)。
 

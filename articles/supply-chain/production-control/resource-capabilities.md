@@ -1,12 +1,10 @@
 ---
 title: 资源功能
 description: 此期限提供有关资源功能的信息。 功能指执行特定活动的运营资源的能力。 本文章说明功能和相关概念（例如熟练程度和优先级）如何用于选择活动的相应资源。
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable, WrkCtrCapRes, WrkCtrApplicableResources
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 29961
 ms.assetid: 30e38233-2a64-4070-911f-8ffd78dd8281
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abb5b26f9fa061906d49ca10f03bb01fd7dfc71
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 260537767d083445aa908c850526a5472c529763
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262061"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572761"
 ---
 # <a name="resource-capabilities"></a>资源功能
 

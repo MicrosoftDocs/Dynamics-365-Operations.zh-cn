@@ -1,23 +1,23 @@
 ---
 title: 自动分配费用
 description: Microsoft Dynamics 365 Supply Chain Management 中的费用功能帮助您自动将费用分配给采购订单或销售订单。
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753931"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592532"
 ---
 # <a name="automatic-allocation-of-charges"></a>自动分配费用
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753931"
 基于您与之合作的客户或所销售的物料，您可能需要应用特定的附加费用。 Microsoft Dynamics 365 Supply Chain Management 中的 *费用* 功能帮助您自动将费用分配给采购订单或销售订单。
 
 在创建销售订单或采购订单时将自动应用自动费用。 您可以定义特定供应商、客户、供应商组或物料的自动费用。 还可以定义适用于所有供应商、客户或物料的自动费用。
+
+## <a name="set-up-parameters"></a>设置参数
+
+**采购参数** 页上有一些设置，这些设置在您想要自动分配费用时尤为重要。 若要完成此设置，请按照以下步骤操作。
+
+1. 转至 **采购 \> 设置 \> 采购参数**。
+1. 打开 **价格** 选项卡。
+1. 在 **价格** 快速选项卡上，进行以下设置：
+    - **查找标头的自动费用** - 指定是否应针对采购订单头自动分配费用。 将此项设置为 *是* 以使用费用自动分配功能。
+    - **查找行的自动费用** - 指定是否应针对采购订单行自动分配费用。 将此项设置为 *是* 以使用费用自动分配功能。
 
 ## <a name="set-up-charges-codes"></a>设置费用代码
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720004"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109723"
 ---
 # <a name="breadcrumb-module"></a>痕迹导航模块
 
@@ -81,7 +81,7 @@ ms.locfileid: "6720004"
 
 [导航菜单模块](nav-menu-module.md)
 
-[站点选择器模块](site-selector.md)
+[站点选取器模块](site-selector.md)
 
 [默认类别登陆页面和搜索结果页面概览](category-search-page-overview.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770949"
 ---
 # <a name="enable-personalized-recommendations"></a>启用个性化建议
 
@@ -50,7 +50,7 @@ ms.locfileid: "5804421"
 1. 选择 **个性化产品建议** 功能。
 1. 在 **个性化产品建议** 属性窗格中，选择 **立即启用**。
 
-![打开个性化](./media/FeatureManagement_Personalized.PNG)
+![打开个性化。](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > 打开个性化时，将启动生成个性化产品建议列表的过程。 这些列表最多可能需要一天时间完成在线以及在 POS 上提供和显示。
@@ -73,7 +73,7 @@ ms.locfileid: "5804421"
 
 下图显示了在线商店页面上的“为您推荐”列表的示例。
 
-![在线“为您推荐”列表](./media/picksforyou.png)
+![在线“为您推荐”列表。](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>POS 上的“为客户推荐”列表
 
@@ -81,7 +81,7 @@ ms.locfileid: "5804421"
 
 下图显示了 POS 终端上的“为客户推荐”列表的示例。
 
-![POS 上的“为客户推荐”列表](./media/picksonpos.png)
+![POS 上的“为客户推荐”列表。](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>将个性化应用于现有建议列表
 
@@ -89,7 +89,7 @@ ms.locfileid: "5804421"
 
 例如，在下图中，某登录用户已经购买了出现在“热门 - 默认”列表中的黑色手表和棕色工作靴。 因此，用户将看到新产品，而不是这些产品，如“热门 - 个性化”列表中所示。
 
-![应用个性化](./media/applypersonalization.png)
+![应用个性化。](./media/applypersonalization.png)
 
 要在 Commerce 站点构建器中将个性化应用到现有建议列表，请按照下列步骤操作。
 
@@ -99,7 +99,7 @@ ms.locfileid: "5804421"
 1. 在 **选择产品列表配置** 对话框，在 **类型** 下，选择列表类型。
 1. 选择 **应用个性化** 复选框，然后选择 **确定**。
 
-    ![将个性化应用于热门列表](./media/ApplyPersonalizationToTrending.PNG)
+    ![将个性化应用于热门列表。](./media/ApplyPersonalizationToTrending.PNG)
 
 1. 保存页面，完成编辑，然后发布。 页面发布后，登录用户将看到个性化的热门列表。
 

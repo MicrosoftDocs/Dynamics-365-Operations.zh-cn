@@ -2,11 +2,9 @@
 title: 配置呼叫中心交货方式和费用
 description: 本主题介绍如何在 Dynamics 365 Commerce 中为呼叫中心订单设置交货方式和费用。
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: af9ff5e613679593f59dab605ed35e0bc43dd09a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748563"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
@@ -67,11 +65,11 @@ Commerce 有一些功能可供用户限制渠道可使用的交货方式、可�
 
 公司通常会配置分层费用。 在这种情况下，客户为交货支付的金额基于订单值。 若要配置分层费用，除了在 **费用值** 字段中定义费用本身，还需要在 **起始金额** 和 **终止金额** 字段中输入值。 例如，对于值低于 50 美元的订单，零售商将收取 5.95 美元的陆运费用。 对于值等于或高于 50 美元，但低于 100 美元的订单，零售商将收取 7.95 美元。 最后，对于值等于或高于 100 美元的订单，零售商则免收运费。 下图显示这些费用的配置。
 
-![固定分层费用示例](media/fixedtieredcharges.png)
+![固定分层费用示例。](media/fixedtieredcharges.png)
 
 可对费用使用类别组合，具体取决于业务需求。 例如，对于值低于 100 美元的所有订单，运费固定为 9.95 美元。 然后，对于值等于或高于 100 美元的订单，运费为订单值的百分之五。 下图显示这些费用的配置。
 
-![组合分层费用示例](media/mixedtieredcharges.png)
+![组合分层费用示例。](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>呼叫中心订单录入期间应用交货方式
 

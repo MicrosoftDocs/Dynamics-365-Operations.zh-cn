@@ -2,28 +2,28 @@
 title: 补货概览
 description: 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d554a6d415ca3e720c71387e218e50215c288991
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996065"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985776"
 ---
 # <a name="replenishment-overview"></a>补货概览
 
@@ -78,3 +78,6 @@ ms.locfileid: "4996065"
 |   位置指令   |                                                       将工作指导到需要补货的库位以及库存来源库位需要库位指令。                                                        |
 |     工作模板      |                                                   创建补货工作以将库存移至所需库位需要<strong>补货</strong>类型的工作模板。                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 物料清单和配方
 description: 本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811766"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578000"
 ---
 # <a name="bills-of-materials-and-formulas"></a>物料清单和配方
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811766"
 
 本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。 物料清单和配方指定特定产品必需的成分或材料。 配方还指定特定生产环境中接收的联产品和副产品。 
 
-<a name="bills-of-materials"></a>物料清单
-------------------
+## <a name="bills-of-materials"></a>物料清单
 
 物料清单 (BOM) 用于定义生产产品所需的组件。 这些组件可以是原材料、半成品或成分。 在某些情况下，服务可以在物料清单中引用。 但是，物料清单通常描述的是所需的 *材料资源*。  
 

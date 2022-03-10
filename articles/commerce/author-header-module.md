@@ -1,12 +1,10 @@
 ---
 title: 页眉模块
-description: 此主题介绍标题模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面标题。
+description: 此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712782"
 ---
 # <a name="header-module"></a>标题模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍标题模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面标题。
-
-## <a name="overview"></a>概览
+此主题介绍页眉模块和如何在 Microsoft Dynamics 365 Commerce 中创建页面页眉。
 
 在 Dynamics 365 Commerce 中，页面标题配置为页面片段，其中包含页眉、促销横幅和 cookie 同意模块。 
 
@@ -37,7 +33,7 @@ ms.locfileid: "4991507"
 
 下图显示了主页上的标题模块的示例。
 
-![标题模块示例](./media/ecommerce-header.png)
+![标题模块的示例。](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>标题模块的属性
 
@@ -62,9 +58,16 @@ ms.locfileid: "4991507"
 - **商店选择器** - 商店选择器模块可以包含在标题模块的商店选择器插槽中。 它允许用户浏览和查找附近的商店。 用户还可以指定首选商店。 该商店随后将显示在标题中。 当商店选择器模块包含在标题模块中时，其 **模式** 属性必须设置为 **查找商店**。 有关详细信息，请参阅[商店选择器模块](store-selector.md)。
 
 > [!NOTE]
-> - Dynamics 365 Commerce 10.0.11 版本中提供在标题模块中使用购物车图标模块的支持。
-> - Dynamics 365 Commerce 10.0.14 版本中提供在标题模块中使用站点选择器模块的支持。
-> - Dynamics 365 Commerce 10.0.15 版本中提供在标题模块中使用商店选择器模块的支持。
+> - 在标题模块中使用购物车图标模块的支持从 Dynamics 365 Commerce 版本 10.0.11 发行版本开始提供。
+> - 在标题模块中使用站点选择器模块的支持从 Dynamics 365 Commerce 版本 10.0.14 发行版本开始提供。
+> - 在标题模块中使用商店选择器模块的支持从 Dynamics 365 Commerce 版本 10.0.15 发行版本开始提供。
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Adventure Works 主题中的标题模块
+
+在 Adventure Works 主题中，标题模块支持 **移动徽标** 属性。 此属性允许为移动视区指定徽标。 **移动徽标** 属性作为模块定义扩展可用。
+
+> [!IMPORTANT]
+> Adventure Works 主题从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
 ## <a name="create-a-header-fragment-for-a-page"></a>创建页面的标题片段
 
@@ -118,3 +121,6 @@ ms.locfileid: "4991507"
 [站点选择器模块](site-selector.md)
 
 [商店选择器模块](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

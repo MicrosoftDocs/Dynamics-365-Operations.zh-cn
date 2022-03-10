@@ -1,33 +1,33 @@
 ---
 title: 定义福利资格规则和策略
-description: 本文将向您展示创建福利资格规则和政策并将规则分配给福利的方法。
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: 本主题介绍如何创建福利资格规则和政策并将规则分配给福利。
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 39a9a1c96ae2a12a32b3c5fbc67571bcf983c898
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467979"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067646"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>定义福利资格规则和策略
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题将向您展示创建福利资格规则和政策并将规则分配给福利的方法。  
+本主题介绍如何创建福利资格规则和政策并将规则分配给福利。  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>创建福利资格政策规则类型
 

@@ -2,11 +2,9 @@
 title: 创建页面 URL
 description: 此主题介绍有关在站点中创建页面 URL 的基本概念和过程。
 author: bicyclingfool
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 062a49df93e442dbe402ac9a78244c966958aaa2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717715"
 ---
 # <a name="create-a-page-url"></a>创建页面 URL
-
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍有关在站点中创建页面 URL 的基本概念和过程。
-
-## <a name="overview"></a>概览
 
 指向站点中的页面的完全或绝对 URL 包含以下独有部分。 例如，URL `https://www.contoso.com/en-us/contactus` 具有以下部分：
 
@@ -106,3 +101,6 @@ ms.locfileid: "4965245"
 [配置域名](configure-your-domain-name.md)
 
 [向站点添加语言](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

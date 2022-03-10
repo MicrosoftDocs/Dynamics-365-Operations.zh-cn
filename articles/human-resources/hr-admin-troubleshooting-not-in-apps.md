@@ -1,32 +1,34 @@
 ---
 title: Human Resources 未出现在 Microsoft Dynamics 365 应用中
-description: 本文说明如果客户在 Microsoft Dynamics 365 应用之间看不到 Microsoft Dynamics 365 Human Resources 应用该做什么。
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: 本主题介绍如果 Microsoft Dynamics 365 Human Resources 未与 Microsoft Dynamics 365 应用一起列出，应该执行哪种操作。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069672"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 未出现在 Microsoft Dynamics 365 应用中
+# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 应用未显示在 Microsoft Dynamics 365 应用中
 
-**发货**
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+**问题**
 
 客户在 Microsoft Dynamics 365 应用之间看不到 Dynamics 365 Human Resources。
 
@@ -40,11 +42,11 @@ ms.locfileid: "4417436"
 
 3. 在 **安全** 选项卡上，在 **环境角色** 选项卡上，选择 **环境制造者**。
 
-    ![环境角色选项卡](media/environment-roles.png)
+    ![环境角色选项卡。](media/environment-roles.png)
 
 4. 在 **用户** 选项卡上，添加用户或您的组织。
 
-    ![用户选项卡](media/environment-maker.png)
+    ![用户选项卡。](media/environment-maker.png)
 
 5. 选择 **保存**。
 
@@ -52,6 +54,9 @@ ms.locfileid: "4417436"
 
 7. 选择 **同步** 更新用户应用。
 
-    ![同步按钮](media/get-more.png)
+    ![同步按钮。](media/get-more.png)
 
     在完成同步后，Human Resources 将显示在主页上。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

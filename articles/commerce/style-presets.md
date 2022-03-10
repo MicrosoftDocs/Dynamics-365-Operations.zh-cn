@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791743"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964845"
 ---
 # <a name="work-with-style-presets"></a>使用样式预设
 
@@ -115,8 +115,6 @@ ms.locfileid: "5791743"
 [处理 CSS 覆盖文件](css-override-files.md)
 
 [添加收藏夹图标](add-favicon.md)
-
-[添加欢迎消息](add-welcome-message.md)
 
 [添加版权声明](add-copyright-notice.md)
 

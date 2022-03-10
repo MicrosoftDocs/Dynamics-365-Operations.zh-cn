@@ -1,26 +1,24 @@
 ---
 title: 审核产品配置模型
 description: 该过程的运行要求至少有一个产品配置模型可用。
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductModelVersion, PCApproveProductModelVersion, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 191aff59b16fb8c7caf6b5c7f822f1a0a077fc9f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2aefc1a26158fd23af7330bfff7a6ac0e8f3e347
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212070"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578168"
 ---
 # <a name="approve-a-product-configuration-model"></a>审核产品配置模型
 
@@ -28,25 +26,24 @@ ms.locfileid: "5212070"
 
 该过程的运行要求至少有一个产品配置模型可用。 该过程使用演示数据公司 USMF 的高端扬声器模型。 请注意，此模型已通过审核，但该过程将向您介绍完整流程。
 
-1. 单击“产品变型模型定义”。
-2. 单击“产品配置模型”。
-3. 在列表中，找到并选择所需记录。
+1. 转到 **产品信息管理 \> 产品 \> 产品配置模型**。
+1. 在列表中，找到并选择所需记录。
     * 选择该过程的“高端扬声器模型”。  
-4. 单击“版本”。
-5. 单击“新建”。
-6. 在“产品编号”字段中，输入或选择一个值。
+1. 选择 **版本**。
+1. 选择 **新建**。
+1. 在 **产品编号** 字段中，输入或选择一个值。
     * 该参考产品代表一个产品配置模型版本。 仅拥有基于约束的配置技术的基础产品会出现在此列表中。  
-7. 在“开始日期”字段中输入日期。
+1. 在 **开始日期** 字段中输入日期。
     * 选择产品模型版本何时可用。  
-8. 在“结束日期”字段中输入日期。
+1. 在 **结束日期** 字段中输入日期。
     * 选择此产品模型版本将过期的结束日期，或选择“从不”。  
-9. 单击“审核”以打开下拉对话框。
-10. 在“已审核”字段中，输入或选择一个值。
+1. 选择 **审核** 打开下拉对话框。
+1. 在 **审核人** 字段中，输入或选择一个值。
     * 选择负责审批产品模型用于工序的人员。  
-11. 单击“确定”。
-12. 在“定价方法”字段中，选择一个选项。
+1. 选择 **确定**。
+1. 在 **定价方法** 字段中，选择一个选项。
     * 启用产品模型版本。 一次只可能启用一个产品的一个产品模型。  
-13. 关闭该页面。
+1. 关闭该页面。
 
 
 

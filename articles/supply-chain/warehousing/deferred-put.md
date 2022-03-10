@@ -1,7 +1,7 @@
 ---
 title: 推迟处理仓库工作
 description: 本主题介绍 Dynamics 365 Supply Chain Management 中提供的用于将推迟处理仓库工作转化为放置操作的功能。
-author: josaw1
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908003"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577856"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>推迟处理仓库工作
 
@@ -108,5 +108,8 @@ ms.locfileid: "5908003"
 
 可删除已完成的推迟放置处理任务，方法是在页面中选择这些任务，然后删除。
 
+## <a name="additional-resources"></a>其他资源
+
+- [延迟处理手动库存变动操作](deferred-processing-manual-inventory-movement.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,33 @@
 ---
 title: 更改员工自助服务工作区名称
 description: 本主题介绍如何在 Dynamics 365 Human Resources 中更改员工自助服务工作区的显示名称。
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/09/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31e8c3e572e0f95f4331fbd858150897c9ed0105
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417529"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070719"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>更改员工自助服务工作区名称
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 如果您有志愿者或其他非员工人员，则可能需要更改 **员工自助服务** 工作区。 您可以将此工作区更改为 **自助服务**。
 
@@ -38,10 +40,13 @@ ms.locfileid: "4417529"
 
 3. 在 **显示名称** 下，选择 **自助服务**。
 
-   ![将员工自助服务工作区名称更改为“自助服务”](./media/hr-employee-self-service-workspace-name.png)
+   ![将员工自助服务工作区名称更改为“自助服务”。](./media/hr-employee-self-service-workspace-name.png)
 
 4. 选择 **保存**。
 
 ## <a name="additional-resources"></a>其他资源
 
-- [员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)
+- [员工和经理自助服务概览](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

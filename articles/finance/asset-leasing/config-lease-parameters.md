@@ -2,25 +2,25 @@
 title: 配置租赁参数（预览）
 description: 本主题描述资产租赁的配置设置，例如安全信息和记帐设置。
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779030"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968058"
 ---
 # <a name="configure-lease-parameters"></a>配置租赁参数
 
@@ -44,5 +44,6 @@ ms.locfileid: "6779030"
     > [!NOTE]
     > 我们建议您将此选项保持设置为 **否**。 此选项的设置用作验证和控制，以防止已结帐簿版本意外折旧。 通过将选项设置为 **否**，您可以帮助保持帐面净值和未来折旧计算的准确性。
 
+5. 将 **允许使用付款金额明细** 选项设置为 **是**，以允许在 **租赁** 页面的 **付款计划行** 快速选项卡上分解付款金额。 **付款金额类型** 页面上的 **设置** 下定义了付款明细类型。 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

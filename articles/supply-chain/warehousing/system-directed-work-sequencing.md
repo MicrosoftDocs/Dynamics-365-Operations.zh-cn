@@ -2,11 +2,9 @@
 title: 系统导向工作先后顺序
 description: 本主题提供有关系统导向工作先后顺序的信息。 此功能用于对系统提供给用户执行的工作订单排序和筛选。 其在以下场景中很有帮助：需要更多条件才能推动仓库领料流程。
 author: Mirzaab
-manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970198"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577808"
 ---
 # <a name="system-directed-work-sequencing"></a>系统导向工作先后顺序
 
@@ -304,3 +302,6 @@ ms.locfileid: "4970198"
 因此，在此场景的示例中，查询还捕获了工作 ID *4*。 创建它时，添加了两行：一行为 25 个，另一行为 10 个。 仍然将此工作提供给了用户，因为至少有一个工作行的数量少于 20 个。
 
 可以使用工作分解阻止此行为，具体取决于场景。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

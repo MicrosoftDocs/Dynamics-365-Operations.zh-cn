@@ -1,12 +1,10 @@
 ---
 title: 设置零售销售优惠券
-description: 此主题提供优惠券概览并阐述如何进行设置。
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: 此主题提供优惠券概览并阐述如何在 Dynamics 365 Commerce 中设置优惠券。
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979667"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603115"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
@@ -40,6 +38,10 @@ ms.locfileid: "4979667"
 
 > [!NOTE]
 > 优惠券关联到折扣后，Commerce 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
+> 
+> 在呼叫中心渠道中使用优惠券时，您需要选择 **重新计算** 按钮 **（“销售”选项卡 > 计算 > 重新计算）**，以便应用关联到优惠券的折扣。 此附加步骤将在以后的版本中删除。
+
+若要将优惠券应用于销售点 (POS) 中的销售交易，您可以使用 **优惠券代码** 或 **优惠券条码**。 要使用 **优惠券代码**，必须在 POS **交易**[屏幕布局](pos-screen-layouts.md)中配置 **添加优惠券代码** 操作。 选择 **添加优惠券代码** 并输入优惠券代码。 或者，要使用 **优惠券条码**，请扫描条码或使用 **交易** 屏幕上的数字键盘输入条码。
 
 ### <a name="limited-use-coupons"></a>有限使用的优惠券
 
@@ -81,3 +83,6 @@ ms.locfileid: "4979667"
 - **HQ 被部分更新，但 Commerce Scale Unit 和 POS 不更新。** 在 HQ 更新中，优惠券和折扣页更新，商业价格引擎也更新。 如果两个组件中仅有一个更新，则 Commerce 中的部分页面与价格计算数据不匹配。 因此，在折扣计算期间可能发生意外折扣计算或错误。
 - **HQ 被更新，但 Commerce Scale Unit 和 POS 不更新 (N-1)。** 由于并非所有的商店都可以同时更新，因此我们建议您在更新商店前更新 HQ。 在 N-1 方案中，与优惠券相关的新功能在尚未更新的商店中不可用。 例如，优惠券功能引入“排除”行。 如果您对折扣使用排除行，则其不会在运行较早版本的商店中应用这些行。
 - **HQ 未被更新，但 Commerce Scale Unit 和 POS 被更新 (N+1)。** 由于在 Commerce Scale Unit 中更新的价格引擎在价格计算期间可以处理旧折扣代码，因此更新应该对此方案没有功能影响。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

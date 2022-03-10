@@ -2,16 +2,13 @@
 title: 生产订单成本分析
 description: 本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79634
 ms.assetid: ded5da04-f787-49f7-b5e5-75c2a2b92930
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4423084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734251"
 ---
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
 
@@ -44,7 +41,7 @@ ms.locfileid: "4423084"
 
 在该生产订单结束时，下图为物料的成本记录内生成订单的实际成本和计算的成本之间的差异显示帐户的四个差异。 
 
-![计入已完成生产订单差异的差异](./media/control.jpg) 
+![计入已完成生产订单差异的差异。](./media/control.jpg) 
 
 可以通过使用 **差异** 页或 **生产差异** 报表分析生产差异。 使用显示选项卡按物料和运营资源，或按成本组查看详细差异。 库存参数中的成本细分策略确定是否按成本组跟踪差异。 您还可以使用 **单个**、**多个** 和 **总计** 显示选项查看汇总的差异。 有关详细差异的信息可以帮助您理解每个差异的来源。 为了在结束生产订单前预测差异，应分析在 **成本预估和成本计算** 报表中提供的详细信息。
 
@@ -58,10 +55,12 @@ ms.locfileid: "4423084"
 -   **在制的成品** − 该报表列出截至指定的交易记录日期的当前生产订单和完工入库交易记录。
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [生产差异的常见来源](common-sources-of-production-variances.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

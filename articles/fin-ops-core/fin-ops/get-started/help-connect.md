@@ -1,5 +1,5 @@
 ---
-title: 配置 Finance and Operations 应用的帮助体验
+title: 为财务和运营应用配置帮助体验
 description: 此主题介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594849"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071000"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>配置 Finance and Operations 应用的帮助体验
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>为财务和运营应用配置帮助体验
 
 [!include [banner](../includes/banner.md)]
 
-在此主题中，将概述 Finance and Operations 应用（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）的帮助系统组件。 此主题还介绍如何连接这些组件和提供有关自定义帮助创建流程的摘要。
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+在此主题中，将概述财务和运营应用（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）的帮助系统组件。 此主题还介绍如何连接这些组件和提供有关自定义帮助创建流程的摘要。
 
 ## <a name="help-architecture"></a>帮助体系结构
 
-Finance and Operations 应用中包含已发布到 [Microsoft Dynamics 365 文档](/dynamics365/)站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
+财务和运营应用中包含已发布到 [Microsoft Dynamics 365 文档](/dynamics365/)站点的概念性概述和其他主题。 然后，可从产品内的 **帮助** 窗格访问此内容。 下图显示此帮助系统的各个部分。
 
 [![帮助体系结构。](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Finance and Operations 应用中包含已发布到 [Microsoft Dynamics 365 文�
 2. 选择要从中检索任务录制的 BPM 库（在所选项目内）。
 3. 选择 BPM 库的显示顺序。 此显示顺序定义库中的任务录制在 **帮助** 窗格中的显示顺序。
 
-完成这些步骤后，您可以打开 **帮助** 窗格并选择 **任务指南** 选项卡。您现在将看到适用于您当前在 Finance and Operations 应用中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。
+完成这些步骤后，您可以打开 **帮助** 窗格并选择 **任务指南** 选项卡。您现在将看到适用于您当前在财务和运营应用中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。
 
 ### <a name="showing-translated-task-guides"></a>显示翻译的任务指南
 
@@ -84,7 +87,7 @@ Finance and Operations 应用中包含已发布到 [Microsoft Dynamics 365 文�
 
 ### <a name="connect-a-custom-help-site"></a>连接自定义帮助站点
 
-Finance and Operations 应用很少以现成格式使用。 相反，将自定义并扩展此解决方案以满足组织的需要。 还可以自定义和扩展帮助体验。 例如，可以向产品内 **帮助** 窗格添加自定义帮助。
+财务和运营应用很少在现成窗体中使用。 相反，将自定义并扩展此解决方案以满足组织的需要。 还可以自定义和扩展帮助体验。 例如，可以向产品内 **帮助** 窗格添加自定义帮助。
 
 Microsoft 提供了工具提示，以帮助您开发自定义帮助和将其连接到 **帮助** 窗格。 有关如何设置连接到 **帮助** 窗格的自定义帮助解决方案的信息，请参阅[自定义帮助概述](../../dev-itpro/help/custom-help-overview.md)。
 

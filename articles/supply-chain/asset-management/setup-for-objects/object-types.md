@@ -1,29 +1,26 @@
 ---
 title: 资产类型
 description: 本主题介绍如何在资产管理中创建资产类型。 还介绍与资产类型有关的元素。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a5db915c94cf9a454dc39e9174b3282a3f6bb75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730362"
 ---
 # <a name="asset-types"></a>资产类型
 
@@ -48,9 +45,9 @@ ms.locfileid: "4422905"
 7. 选择 **保存**。
 8. 在 **维护作业类型** 快速选项卡上，选择应该与资产类型关联的维护作业资产类型：
 
-    - 若要选择维护作业类型，请在 **其余维护作业类型** 字段中选择，然后选择向右箭头按钮 ![向右箭头按钮](media/29-setup-for-objects.png) 将其移到 **所选维护作业类型** 部分。
-    - 若要选择所有可用维护作业类型，请选择 ![全部转发箭头](media/30-setup-for-objects.png) 按钮。 将把所有维护作业类型从 **其余维护作业类型** 字段传输到 **所选维护作业类型** 字段。
-    - 若要取消选择某个维护作业类型，请在 **所选维护作业类型** 字段中选择，然后选择向左箭头按钮 ![向左箭头按钮](media/31-setup-for-objects.png) 将其移到 **其余维护作业类型** 部分。
+    - 若要选择维护作业类型，请在 **其余维护作业类型** 字段中选择它，然后选择向右箭头按钮 ![向右箭头按钮。](media/29-setup-for-objects.png) 以将其移到 **所选维护作业类型** 部分。
+    - 若要选择所有可用维护作业类型，请选择 ![全部转发箭头。](media/30-setup-for-objects.png) 按钮。 将把所有维护作业类型从 **其余维护作业类型** 字段传输到 **所选维护作业类型** 字段。
+    - 若要取消选择维护作业类型，请在 **所选维护作业类型** 字段中选择它，然后选择向左箭头按钮 ![向左箭头按钮。](media/31-setup-for-objects.png) 以将其移到 **其余维护作业类型** 字段。
 
 9. 也可以选择应该与资产类型关联的计数器。 在 **计数器** 快速选项卡上，通过使用步骤 8 中为维护作业类型描述的方法进行选择。 有关计数器设置的详细信息，请参阅[计数器](counters.md)。
 10. 也可以选择应该与资产类型关联的属性类型。 在 **属性类型** 快速选项卡上，通过使用步骤 8 中为维护作业类型描述的方法进行选择。 然后，若要创建首选属性类型序列，请在 **所选属性类型** 字段中选择属性类型，然后使用向上箭头按钮和向下箭头按钮移动该属性类型。 将在使用属性类型的资产上显示属性类型序列。 有关资产属性的详细信息，请参阅[维护属性类型](../setup-for-functional-locations/specification-types.md)。
@@ -97,3 +94,6 @@ ms.locfileid: "4422905"
 
 若要在资产管理中查看是否在其他任何地方使用了所选行中的备件（例如，在与资产和工作订单的关联中），请选择 **物料使用位置** 打开 **物料使用位置** 页。 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

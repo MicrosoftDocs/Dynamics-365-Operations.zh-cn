@@ -1,26 +1,24 @@
 ---
 title: 创建新的贸易协议
 description: 该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e49793fc7f6b3f37bafae05770d4b23d24171329
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974877"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573409"
 ---
 # <a name="create-a-new-trade-agreement"></a>创建新的贸易协议
 
@@ -28,8 +26,8 @@ ms.locfileid: "4974877"
 
 该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 如果您正在使用您自己的数据，在您开始本指南之前，您需要确保贸易协议日记帐名称存在，且其中的默认关系被设置为“价格（售价）”。
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>创建和发表新的贸易协议日记帐
+
 1. 转到 **导航窗格 > 模块 > 销售和营销 > 价格和折扣 > 贸易协议日记帐**。
 2. 单击 **新建**。
 3. 在 **名称** 字段中，单击下拉按钮以打开查找。
@@ -60,20 +58,27 @@ ms.locfileid: "4974877"
 20. 单击 **确定**。
 
 ## <a name="view-trade-agreements-for-a-product"></a>查看某一产品的贸易协议
+
 1. 转到 **导航窗格 > 模块 > 产品信息管理 > 产品 > 已发放产品**。
 2. 在列表中，查找并选择您刚更新价格的产品。
 3. 在 **操作窗格** 上，单击 **销售**。
 4. 单击 **查看贸易协议**。
     
-    审查您刚创建的价格贸易协议的详情。    
+    审查您刚创建的价格贸易协议的详情。
 
 5. 关闭该页面。
 
 ## <a name="additional-resources"></a>其他资源
 
 ### <a name="whitepaper"></a>白皮书
+
 有关详细信息，请下载以下白皮书（为支持 AX2012 编写，同样适用于 Dynamics 365 Supply Chain Management）
-- [贸易协议](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [贸易协议](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>社区博客
+
 - [Dynamics 365 for Finance and Operations 中的销售价](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: 创建采购订单
 description: 本文介绍手动创建采购订单的流程和选项。
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022273"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575504"
 ---
 # <a name="create-purchase-orders"></a>创建采购订单
 
@@ -67,7 +65,7 @@ ms.locfileid: "5022273"
 如果为供应商或供应商费用组已设置自动费用，可以为物料或物料费用组向采购订单行自动添加费用。 不过，更常见的情况是，费用在订单行级别手动添加。 若要添加费用，通过使用 **行** 视图中 **财务** 菜单中的 **维护费用** 操作打开 **维护费用** 页面。 直接在订单行级别添加费用的优点是，可以作为库存成本分配费用。 若要设置客户产品成本的费用代码，使用 **物料** 借记选项。 这些费用类型必须在确认订单之前从采购订单头分配到行。 例如，您可能希望基于每个行上的数量分配费用。 费用类别还会影响如何核算费用。 例如，固定费用指定一个固定钦定，而百分比费用计算为订单行的净额的一个百分比。 采购订单可以分配给负荷，负荷可能包括运输成本的预期费用的估计。 您可以将此费用从负荷分配回采购订单行。
 
 ## <a name="purchase-order-actions"></a>采购订单操作
-将标头和行添加到采购订单后，您通常必须在订单准备好确认前完成其他步骤。 因为有如此多的选项，您可能会发现使用[操作搜索](../../fin-and-ops/get-started/action-search.md)来查找相关的菜单项非常有用。  
+将标头和行添加到采购订单后，您通常必须在订单准备好确认前完成其他步骤。 因为有如此多的选项，您可能会发现使用[操作搜索](../../fin-ops-core/fin-ops/get-started/action-search.md)来查找相关的菜单项非常有用。  
 
 您可以配置订单中的产品，以使它们具有附属物料。 附属物料是必须或可以与其他产品一起购买的产品。 附属产品可以作为附带产品免费添加，您也可以决定是否将其添加到订单。 您可以在添加每个订单行后审查附属物料。 但是，您可能会发现使用 **附属物料** 页面审查和添加所有订单行的附属物料更加方便，您可以从“操作”窗格打开此页面。  
 
@@ -82,8 +80,7 @@ ms.locfileid: "5022273"
 
 您可能必须延迟采购订单的完成。 例如，您可能需要其他有关产品或服务的信息，或您可能必须获得开支授权。 有几种方法来阻止订单。 例如，您可以等待确认订单。 或者，如果正在使用更改管理工作流，请不要提交待订单进行审核。 如果您必须阻止特定供应商的所有订单，您还可以将该供应商标记为 **暂停** 以处理供应商主数据。 也有可能存在阻止该订单被处理的情况。 例如，如果已超出信用额度，或所需的预算资金不可用，处理可能被阻止。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [采购订单概览](purchase-order-overview.md)
 
@@ -95,3 +92,6 @@ ms.locfileid: "5022273"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

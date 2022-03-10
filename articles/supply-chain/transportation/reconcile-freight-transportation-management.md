@@ -1,12 +1,10 @@
 ---
 title: 在运输管理中对运费进行对帐
 description: 本主题介绍了运费对帐流程。
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014500"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574897"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 
@@ -37,13 +35,13 @@ ms.locfileid: "5014500"
 
 运费费率由与相关装运承运人相关的费率引擎来计算。 确认负荷后，将生成运费帐单，运费费率被转移到该帐单。 运费费率作为其他费用分摊到相关的原始凭证（采购订单、销售订单和/或转移单），根据用于常规计费流程的设置。 从装运承运人收到运费发票后，就立即可以开始运费对帐流程（这也称为匹配流程）。 可以以电子方式或使用纸张接收发票。 如果使用纸张接收发票，可以通过将运费帐单作为模板使用来生成电子发票。
 
-[![运费对帐流程](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![运费对帐流程。](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>手动对帐
 
 如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在 **运费帐单和发票匹配** 页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何生成运费发票和执行运费对帐。
 
-[![运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![运费对帐任务。](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>自动对帐
 
@@ -105,3 +103,6 @@ ms.locfileid: "5014500"
 1. 依次将 Inv1 和 Inv 2 与 FB 匹配。 FB 完全匹配。
 
 如此示例所示，仅带有负金额的运费发票应手动匹配。 这样可以确保始终可以将带有负金额的运费发票与未完全匹配的运费帐单进行匹配，因为这让您可以控制匹配顺序。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

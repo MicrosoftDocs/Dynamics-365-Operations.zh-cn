@@ -1,27 +1,24 @@
 ---
 title: 设置项目发票的付款单格式
-description: 企业通常将打印的付款单附加到发票上以帮助客户，并提供用于过帐和结算的付款参考。
+description: 本主题说明如何将打印的付款单附加到项目发票，并提供用于过帐和结算的付款参考。
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 88bdce7697e47fc49b6ffb2fe6a8a468860f41f3
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440797"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601492"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>设置项目发票的付款单格式
 
@@ -66,3 +63,6 @@ ms.locfileid: "4440797"
 16. 单击“保存”。
 17. 关闭该页面。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

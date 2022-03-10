@@ -1,28 +1,28 @@
 ---
 title: 运输管理概览
 description: 本主题提供 Supply Chain Management 中运输管理功能的概览。
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fca83ef2c80ed6df9cfbdedd2805e453df3f737a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006483"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985437"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
@@ -69,20 +69,23 @@ ms.locfileid: "5006483"
 ## <a name="planning-transportation-in-supply-chain-management"></a>在 Supply Chain Management 中计划运输
 在运输管理中， 运输计划可以基于订单或基于根据这些订单创建的装运。 装运在某个时间点上始终存在，但对运输计划不是必需的。 转移单是出站方案的一部分，并且可以与销售订单一起计划。 
 
-![装载图](./media/Load-drawing1-1024x477.jpg)
+![负荷图。](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>入站运输
 当您从供应商订购物料，且物料必须交付至您的仓库，您可能想要亲自安排物料的运输。 您可以使用 Supply Chain Management 来计划运输和入站负荷的收货。 下图显示了计划入站负荷的运输的业务流程。 
 
-![入站装载运输的业务流程](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![入站负荷运输的业务流程流。](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>出站运输
 您可以计划和处理一个出站负荷来将指定物料从公司仓库装运至客户。 您可以使用 Supply Chain Management 来计划运输和出站负荷的装运。 下图显示了计划和处理装运的出站负荷的业务流程。 
 
-![计划和处理出站装载](./media/Planningandprocessingoutboundloads.jpg)
+![计划和处理出站负荷。](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>装载计划
 Supply Chain Management 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在 **装载计划工作台** 页中 **设置** 快速选项卡上的 **装载计划策略** 字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

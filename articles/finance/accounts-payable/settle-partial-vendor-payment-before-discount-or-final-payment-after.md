@@ -2,11 +2,9 @@
 title: 在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 description: 本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737129"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 
@@ -48,7 +46,7 @@ Fabrikam 从供应商 3057 中采购货物。 如果发票在 14 天内支付，
 
 折扣信息显示在 **结算未结交易记录** 页的底部。
 
-|                              |           |
+| 字段                        | 值     |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | -10.00    |
@@ -73,7 +71,7 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 折扣信息显示在 **结算交易记录** 页的底部。 April 可以看到自己已获得 3.00 折扣。
 
-|                              |           |
+| 字段                        | 值     |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 0.00      |
@@ -99,7 +97,7 @@ April 在 7 月 15 日（现金折扣期间后）支付此发票的剩余金额�
 
 折扣信息显示在 **结算交易记录** 页的底部。
 
-|                              |           |
+| 字段                        | 值     |
 |------------------------------|-----------|
 | 现金折扣日期           | 7/09/2015 |
 | 现金折扣金额         | 7.00      |

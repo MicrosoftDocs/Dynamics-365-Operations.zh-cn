@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821529"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567551"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>具有实际成本和标记的后进先出日期
 
@@ -55,7 +55,9 @@ ms.locfileid: "5821529"
 
 新的移动平均成本价按 USD 15.00 反映财务更新的交易记录的平均值。 
 
-下图说明了在不使用 **包括实际成本** 选项时，后进先出日期库存模型的影响。 ![具有“包括实际成本”的后进先出日期](./media/lifodatewithoutincludephysicalvalue.gif) 
+下图说明了在不使用 **包括实际成本** 选项时，后进先出日期库存模型的影响。 
+
+![没有“包括实际成本”选项的后进先出日期。](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -90,7 +92,9 @@ ms.locfileid: "5821529"
 
 新的移动平均成本价按 USD 20.00 反映财务更新的交易记录的平均值。 
 
-下图说明了在使用 **包括实际成本** 选项时，后进先出库存模型的影响。 ![具有“包括实际成本”的后进先出日期](./media/lifodatewithincludephysicalvalue.gif) 
+下图说明了在使用 **包括实际成本** 选项时，后进先出库存模型的影响。 
+
+![具有“包括实际成本”选项的后进先出日期。](./media/lifodatewithincludephysicalvalue.gif) 
 
 **图形要点**
 
@@ -136,7 +140,7 @@ ms.locfileid: "5821529"
 
 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 
 
-下图显示在使用了在发货和收货之间标记时，后进先出库存模型的影响。 ![具有标记的后进先出日期](./media/lifodatewithmarking.gif) 
+下图显示在使用了在发货和收货之间标记时，后进先出库存模型的影响。 ![具有标记的后进先出日期。](./media/lifodatewithmarking.gif) 
 
 **图形要点**
 

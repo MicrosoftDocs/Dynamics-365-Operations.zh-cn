@@ -2,11 +2,9 @@
 title: 设置销售税结算期间
 description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税结算期。
 author: twheeloc
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e5340150623057e233ed0acf487c42c61deba2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732949"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -39,9 +37,7 @@ ms.locfileid: "5222111"
 7. 在 **付款期限** 字段中，在下拉菜单中选择所需记录。 相关销售税主管机构可以设置为供应商，销售税结算将创建开放式供应商发票。 付款期限定义开放式供应商发票的到期日期。  
 8. 为结算期间间隔选择类型。
 9. 输入每一期间的期间间隔单位数。 例如，1 个季度有 3 个月。
-10. 选择或清除 **使用批处理进行销售税结算** 复选框。 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。  
-    > [!NOTE]
-    > 西班牙、日本和荷兰现在不支持。
+10. 选择或清除 **使用批处理进行销售税结算** 复选框。 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。
 11. 选择或清除 **防止生成抵消税交易记录** 复选框。 默认情况下，系统在结算过程中生成抵消税交易记录，如果在某期间间隔内存在大量税交易记录，这可能造成性能问题。 选择此复选框以防止生成抵消税交易记录。
 12. 展开 **期间间隔** 选项卡。
 13. 选择 **添加**。

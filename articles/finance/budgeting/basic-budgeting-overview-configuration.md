@@ -1,28 +1,28 @@
 ---
 title: 预算概览
 description: 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
-author: ShylaThompson
-manager: AnnBe
-ms.date: 01/11/2018
-ms.topic: article
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 60113
+ms.custom:
+- "60113"
+- intro-internal
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0c3f44924e9c49ac93eda728fa7e6197f4a45d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249477"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986502"
 ---
 # <a name="budgeting-overview"></a>预算编制概览
 
@@ -30,8 +30,7 @@ ms.locfileid: "5249477"
 
 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 法人的已审核预算保留在一个名为 *“预算登记分录”* 的文档中。 预算登记分录文档中的行称作 *预算科目* 分录，它们包含财务维度信息、日期和已审核预算的金额。 预算登记分录文档与基本财务报表和查询页（其中，将比较分类帐实际金额与预算金额）集成。 
 
@@ -39,7 +38,7 @@ ms.locfileid: "5249477"
 
 -   在 **预算登记分录** 页上手动输入文档信息。
 -   使用可通过单击 **预算登记分录** 页上的 **在 Excel 中打开** 按钮打开的 Microsoft Excel 模板。
--   使用数据管理中的 **预算科目分录** 数据实体导入预算登记分录。 当您必须将多个预算科目分录导入系统中时，应考虑使用此方法并启用 **基于集的** **处理** 参数。
+-   使用数据管理中的 **预算科目分录** 数据实体导入预算登记分录。 当您必须将多个预算科目分录导入系统中时，应考虑使用此方法并启用 **基于集的处理** 参数。
 -   如果公司使用预算计划功能来准备预算数据，您可以使用 **生成预算登记分录** 定期流程。
 
 在更新预算余额后，预算登记分录将视为已完成。 在 **预算登记分录** 页上，单击所选预算登记分录或多个分录的 **更新预算余额**。 在更新预算余额后，预算登记分录的状态将变为 **已完成**。 无法重新打开已完成的预算登记分录以进行编辑。 因此，如果必须调整预算数据，您必须创建新的预算登记分录，而不是更正已完成的预算登记分录中的数据。
@@ -73,7 +72,7 @@ Microsoft Dynamics 365 Finance 版本 10.0.7（2020 年 1 月）中引入的功�
 
 **仅数量预算登记分录** 功能允许您过帐仅包含数量的预算登记分录。 例如，您可以过帐数量为 32、价格为零的预算项，其金额为零。 然后，您可以在财务报表的上下文中使用此数量来确定每个数量的价格。 请注意，此功能没有查询或报表被更新；此功能仅使您可以过帐零金额。
 
-**金额类型的预算登记分录默认设置** 功能允许预算登记分录中的默认金额类型为费用以外的其他金额类型。 现在，当主科目类型为费用时，预算登记分录行将默认为费用；当主科目类型为费用时，将默认为收入；所有其他科目类型将默认为费用。
+**金额类型的预算登记分录默认设置** 功能允许预算登记分录中的默认金额类型为费用以外的其他金额类型。 现在，当主科目类型为费用时，预算登记分录行将默认为费用；当主科目类型为收入时，将默认为收入；对于所有其他科目类型，将默认为费用。
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>使用工作区和查询页来跟踪预算和实际值
 预算经理可以在 **分类帐预算和预测** 工作区中检查预算的当前状态。 **高于预算的费用** 和 **低于预算的收入** 选项卡可让您快速了解财务维度组合，其中预算目标未达到或正在接近限额。 您可以通过单击 **配置我的工作区** 来个性化这些选项卡上使用的预算限额百分比和财务维度集。 您可以单击 **部门经理** 查看负责已在这些选项卡上选定的特定财务维度组合的工作人员。 例如，如果您发现运营部门的费用预算将超出预算限额，您可轻松找到并联系运营部门经理以讨论此问题。 

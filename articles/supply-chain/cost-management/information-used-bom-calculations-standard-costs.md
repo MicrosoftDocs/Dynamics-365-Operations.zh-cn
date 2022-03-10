@@ -2,11 +2,9 @@
 title: 在使用标准成本进行的物料清单计算中使用的信息
 description: 物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。 这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c6b84737c0e03870a0a40045451a816efdd94cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56b1aa33c11f7cfbbde2a278bef25189ac697d19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005469"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575115"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>在使用标准成本进行的物料清单计算中使用的信息
 
@@ -83,3 +81,6 @@ ms.locfileid: "5005469"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,37 +2,36 @@
 title: 供应商协作开票工作区
 description: 本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。
 author: abruer
-ms.date: 08/22/2017
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73f16b00f2af884387e0b135f3b220179eecad86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822435"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182621"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。
+本主题介绍如何通过 **供应商协作开票** 工作区查看供应商发票和提交发票。
 
 **供应商协作开票** 工作区可用于查看供应商发票信息和使用工作流功能提交发票至此系统。
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
 
 ### <a name="summary-tiles"></a>汇总磁贴
 
@@ -46,11 +45,11 @@ ms.locfileid: "5822435"
 
 ### <a name="tabular-lists"></a>表格式列表
 
-在 **表格式列表** 部分，发票的状态按照与汇总磁贴类似的方式分解：草稿和已提交，未审核的列表。 在“草稿”状态，发票可以提交到工作流或删除。 最后一个表格式列表是用来查找发票的选项。 您可以在搜索时进行筛选，以便更快地进行搜索。
+在 **表格式列表** 部分，发票的状态按照与汇总磁贴类似的方式分解：**草稿** 和 **已提交**、**未审核** 列表。 在 **草稿** 状态，发票可以提交到工作流或删除。 最后一个表格式列表是用来查找发票的选项。 您可以在搜索时进行筛选，以便更快地进行搜索。
 
 ### <a name="all-vendor-invoices-list-page"></a>所有供应商发票列表页
 
-您可以在 **供应商协作发票** 列表页上查看所有已过帐和未过帐的供应商发票。 您可以使用此列表页查看发票的付款状态。 付款状态包括未过帐，未付款，部分支付和完全支付。
+您可以在 **供应商协作发票** 列表页上查看所有已过帐和未过帐的供应商发票。 您可以使用此列表页查看发票的付款状态。 付款状态包括 **未过帐**、**未付款**、**部分支付** 和 **完全支付**。
 从采购订单创建新发票
 
 您可以通过选择 **供应商协作开票** 工作区上的 **新建** 操作创建新的供应商发票。 采购订单编号以及发票编号必须由供应商提供。 默认情况下，新发票上将显示供应商采购订单的所有行。 将供应商发票提交到工作流之前，可以编辑数量和成本信息。 提交发票前，您可以在发票上附加文件、附注、图片和 URL。

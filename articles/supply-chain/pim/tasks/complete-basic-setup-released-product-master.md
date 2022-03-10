@@ -1,26 +1,24 @@
 ---
 title: 完成已发布基础产品的基本设置
 description: 本主题显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 668b60efa55fa553cf308d5bfc5da7e23f460366
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987021"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568487"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>完成已发布基础产品的基本设置
 
@@ -52,3 +50,6 @@ ms.locfileid: "4987021"
 20. 关闭该页面。
 21. 关闭 **已发布产品详情** 窗体。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

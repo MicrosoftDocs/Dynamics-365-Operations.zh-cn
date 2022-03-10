@@ -2,27 +2,29 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
-ms.date: 10/07/2021
-ms.topic: article
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612356"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071077"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 要创建和管理数据导入和导出作业，请使用 **数据管理** 工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
 
@@ -68,6 +70,9 @@ ms.locfileid: "7612356"
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML 元素 XML 属性 |
 | 分隔，固定宽度 | 逗号、分号、制表符、竖线、冒号 | \-NA-                     |
+
+> [!NOTE]
+> 如果 **文件格式** 选项设置为 **分隔**，则必须为 **行分隔符**、**列分隔符** 和 **文本限定符** 选择正确的值。 请确保您的数据不包含用作分隔符或限定符的字符，因为这可能会在导入和导出过程中导致错误。
 
 ### <a name="sequence-the-entities"></a>给实体排序
 实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。

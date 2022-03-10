@@ -2,11 +2,9 @@
 title: 购买框模块
 description: 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae3da8ee77636a2d2257e01f5876f5542469f7da
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717787"
 ---
 # <a name="buy-box-module"></a>购买框模块
 
@@ -29,9 +27,7 @@ ms.locfileid: "4986046"
 
 此主题介绍购买框模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
-## <a name="overview"></a>概览
-
-术语 *购买框* 通常指的是产品详细信息页中的“第一屏”区域，用于承载进行产品购买所需全部最重要信息。 （“第一屏”区域在首次加载页面时显示，所以用户不必向下滚动即可看到。）
+术语 *购买框* 通常指的是产品详细信息页面 (PDP) 中的“第一屏”区域，用于托管进行产品购买所需的全部最重要信息。 （“第一屏”区域在首次加载页面时显示，所以用户不必向下滚动即可看到。）
 
 购买框模块是特殊容器，用于承载产品详细信息页购买框区域中显示的所有模块。
 
@@ -39,7 +35,7 @@ ms.locfileid: "4986046"
 
 下图显示了产品详细信息页上的购买框模块的示例。
 
-![购买框模块的示例](./media/ecommerce-pdp-buybox.PNG)
+![购买框模块的示例。](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>购买框模块属性和插槽 
 
@@ -71,14 +67,16 @@ ms.locfileid: "4986046"
 
 - **购物车行数量限制** – 此属于用于指定可以添加到购物车的每种项的最大数量。 例如，一位零售商可能决定一笔交易中只能出售每种产品 10 件。
 - **库存** – 有关如何应用库存设置的信息，请参阅[应用库存设置](inventory-settings.md)。
-- **将产品添加到购物车** - 此属性用于指定将物料添加到购物车后的行为。 可能的值为 **导航到购物车页面**、**不导航到购物车页面** 和 **显示通知**。 当此值设置为 **导航到购物车页面** 时，用户将在添加物料后转到购物车页面。 当此值设置为 **不导航到购物车页面** 时，用户在添加物料后不会转到购物车页面。 当此值设置为 **显示通知** 时，会向用户显示一条确认通知，用户可以继续在产品详细信息页面上浏览。 
+- **将产品添加到购物车** – 有关如何应用 **将产品添加到购物车** 设置的信息，请参阅[将产品添加到购物车设置](add-cart-settings.md)。
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Adventure Works 主题中的购买框模块定义扩展
+
+Adventure Works 主题提供的购买框模块有一个模块定义扩展，支持在 PDP 购买框的手风琴模块内实现产品规格模块。 若要在 PDP 购买框中展示产品规格属性，请将产品规格模块添加到购买框插槽中的手风琴模块插槽。
+
 
 > [!IMPORTANT]
-> **将产品添加到购物车** 站点设置在 Dynamics 365 Commerce 10.0.11 版本中可用。 如果要从旧版本的 Dynamics 365 Commerce 更新，必须手动更新 appsettings.json 文件。 有关更新 appsettings.json 文件的说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。 
+> Adventure Works 主题从 Dynamics 365 Commerce 版本 10.0.20 发行版本开始提供。
 
-下图显示了 Fabrikam 站点上“已添加到购物车”确认通知的示例。
-
-![通知模块示例](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit 交互
 
@@ -132,6 +130,11 @@ ms.locfileid: "4986046"
 
 [社交共享模块](social-share-module.md)
 
+[将产品添加到购物车设置](add-cart-settings.md)
+
 [计算零售渠道的库存现有量](calculated-inventory-retail-channels.md)
 
 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

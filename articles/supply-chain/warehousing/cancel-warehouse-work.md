@@ -1,27 +1,24 @@
 ---
 title: 取消仓库工作以进行异常处理
 description: 本主题介绍“取消工作”功能，该功能使仓库主管可以处理被阻止的工作。
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423360"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572401"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>取消仓库工作以进行异常处理
 
@@ -45,3 +42,6 @@ Microsoft Dynamics 365 Supply Chain Management 中的“取消工作”功能使
 要取消阻止工作，系统会取消所有其余工作行并修复与用户指定的工作 ID 关联的仓库数据。 然后可以恢复涉及受影响物料数量的任何常规仓库处理操作。
 
 要在取消工作后将受影响的物料放置在特定位置，用户必须在移动设备上使用库存变动或数量调整操作。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

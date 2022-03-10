@@ -1,29 +1,28 @@
 ---
 title: 现金和银行管理主页
 description: 您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。
-author: panolte
-manager: AnnBe
+author: roschlom
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458555"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883686"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -35,12 +34,12 @@ ms.locfileid: "4458555"
 
 **业务流程**
 
-[![业务流程](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![业务流程。](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [现金折扣](cash-discounts.md)
 -   [结算概览](settlement-overview.md)
 -   [配置结算](configure-settlement.md)
--   [应付帐款和应收账款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [应付帐款和应收帐款的外币重估](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [信用证](letters-of-credit.md)
 -   [信用证和进口托收](letters-of-credit-import-collections.md)
 -   [保函](letters-of-guarantee.md)
@@ -68,8 +67,8 @@ ms.locfileid: "4458555"
 -   [执行高于供应商付款的计算折扣的折扣](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
 -   [在现金折扣期间之外执行现金折扣](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>应收账款付款和结算
--   [应收账款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>应收帐款付款和结算
+-   [应收帐款的集中付款](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [部分金额的客户付款](../accounts-receivable/customer-payments-partial-amount.md)
 -   [补偿客户](../accounts-receivable/reimburse-customers.md)
 -   [自动结算和优先级](../accounts-receivable/automatic-settlement-prioritization.md)
@@ -86,7 +85,7 @@ ms.locfileid: "4458555"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 版本计划](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
+转到 [Microsoft Dynamics 365 版本计划](/dynamics365/release-plans/)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 
@@ -100,3 +99,6 @@ ms.locfileid: "4458555"
 #### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

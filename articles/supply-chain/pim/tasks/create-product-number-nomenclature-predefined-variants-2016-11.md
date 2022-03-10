@@ -1,26 +1,24 @@
 ---
 title: 为预定义的产品变型创建产品编号命名法
 description: 本主题介绍如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a4ad70a87cd8c6cab2e9853f4f6c52f574d318a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257404"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569569"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>为预定义的产品变型创建产品编号命名法
 
@@ -30,33 +28,33 @@ ms.locfileid: "5257404"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>创建产品编号命名法
-1. 选择 **产品变型定义**。
-2. 选择 **产品命名法**。
-3. 选择 **新建**。
-4. 在 **名称** 字段中，输入可帮助识别目标产品维度组的命名法名称，如 `ColorSize`。
-5. 在 **描述** 字段中，键入一个值。
-6. 选择 **添加**。
-7. 选择 **基础产品** 编号。
-8. 选择 **添加**。
-9. 选择 **文本常量**。
-10. 在 **文本** 字段中，键入一个值。
-11. 选择 **添加**。
-12. 选择 **颜色**。
-13. 选择 **添加**。
-14. 选择 **文本常量**。
-15. 在 **文本** 字段中，键入一个值。
-16. 选择 **添加**。
-17. 选择 **大小**。
-18. 关闭该页面。
+
+1. 转到 **产品信息管理 \> 设置 \> 产品命名法**。
+1. 选择 **新建**。
+1. 在 **名称** 字段中，输入可帮助识别目标产品维度组的命名法名称，如 `ColorSize`。
+1. 在 **描述** 字段中，键入一个值。
+1. 选择 **添加**。
+1. 选择 **基础产品** 编号。
+1. 选择 **添加**。
+1. 选择 **文本常量**。
+1. 在 **文本** 字段中，键入一个值。
+1. 选择 **添加**。
+1. 选择 **颜色**。
+1. 选择 **添加**。
+1. 选择 **文本常量**。
+1. 在 **文本** 字段中，键入一个值。
+1. 选择 **添加**。
+1. 选择 **大小**。
+1. 关闭该页面。
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>为基础产品分配命名法
+
 1. 选择 **产品维度组**。
 2. 选择 **SizeCol 产品维度组**。
 3. 选择 **编辑**。
 4. 在 **使用命名法** 字段中选择 **是**。
 5. 在 **产品变型编号命名法** 字段中，输入或选择一个值。
 6. 关闭该页面。
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

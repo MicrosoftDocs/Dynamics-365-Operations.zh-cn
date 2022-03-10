@@ -2,35 +2,30 @@
 title: 帐户管理页面概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410594"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984511"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 
 [!include [banner](includes/banner.md)]
 
 此主题概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
-
-## <a name="overview"></a>概览
 
 客户可使用帐户管理页查看与其帐户和订单有关的信息。 帐户管理页包括帐户管理登陆页，以及用户的个人资料页、地址页、订单历史记录页、订单详细信息页、积分页和愿望列表页。
 
@@ -40,15 +35,15 @@ ms.locfileid: "4410594"
 
 下图显示帐户管理登陆页的示例。
 
-![帐户管理登陆页示例](./media/Account-Management.PNG)
+![帐户管理登陆页面的示例。](./media/Account-Management.PNG)
 
-### <a name="my-profile-page"></a>我的个人资料页
+### <a name="my-profile-page"></a>我的模板页
 
-**我的个人资料** 页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新自己的个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
+**我的个人资料** 页显示客户的帐户信息，如姓名和电话号码。 客户可在此页中更新个人资料信息。 可以自定义此页，以使其包含更多客户帐户首选项，如用于选择参加市场营销电子邮件的选项。
 
 下图显示使用模块库生成的 **我的个人资料** 页的示例。
 
-![“我的个人资料”页示例](./media/Account-Management-MyProfile.PNG)
+![“我的个人资料”页面的示例。](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>“地址”页
 
@@ -56,7 +51,7 @@ ms.locfileid: "4410594"
 
 下图显示 **地址** 页的示例。
 
-![“地址”页示例](./media/Account-Management-Address.png)
+![“地址”页面的示例。](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>“订单历史记录”和“订单详细信息”页
 
@@ -64,11 +59,11 @@ ms.locfileid: "4410594"
 
 下图显示 **订单历史记录** 页的示例。
 
-![“订单历史记录”页示例](./media/Account-Management-OrderHistory.PNG)
+![“订单历史记录”页面的示例。](./media/Account-Management-OrderHistory.PNG)
 
 下图显示 **订单详细信息** 页的示例。
 
-![“订单详细信息”页示例](./media/Account-Management-OrderDetails.PNG)
+![“订单详细信息”页面的示例。](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>“会员计划”页
 
@@ -76,7 +71,7 @@ ms.locfileid: "4410594"
 
 下图显示了 **会员计划** 页的示例。
 
-![“会员计划”页示例](./media/Account-Management-Loyalty.PNG)
+![“会员计划”页面的示例。](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>愿望列表页面
 
@@ -84,7 +79,7 @@ ms.locfileid: "4410594"
 
 下图显示了 **愿望列表** 页的示例。
 
-![“愿望列表”页示例](./media/Account-Management-Wishlist.PNG)
+![“愿望列表”页面的示例。](./media/Account-Management-Wishlist.PNG)
 
 有关帐户管理模块及其制作方法的详细信息，请参阅[帐户管理](account-management.md)。
 
@@ -96,3 +91,6 @@ ms.locfileid: "4410594"
 
 [购物车和结账页面概览](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 与产品相关的翻译常见问题
 description: 此主题描述了如何管理产品、产品维度值和产品属性的转换。
-author: cvocph
+author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188878"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570473"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 

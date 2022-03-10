@@ -1,27 +1,25 @@
 ---
 title: 设置商店订单履行
 description: 此主题概要介绍如何设置商店订单履行。
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477796"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779588"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>设置商店订单履行
 
@@ -35,9 +33,9 @@ ms.locfileid: "5477796"
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>设置订单履行操作
 
-订单履行[操作 ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations) 可用于访问销售点中的商店订单履行工作区。
+订单履行[操作 ID 928](pos-operations.md) 可用于访问销售点中的商店订单履行工作区。
 
-按照[向按钮网格添加操作](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts)中的步骤指定在销售点调用订单履行时要使用的参数。 默认情况下，在指定订单履行操作后，会选中 **所有订单**。 配置此参数后，该操作将列出在当前商店履行的所有订单行。 另外还提供 **要装运的订单**，可以分配到按钮，并当用户只想查看将从该商店装运的订单时使用。 最后是 **要提货的订单**。 在销售点进行调用时，它仅列出要在该商店提货的订单。 可以向不同的按钮分配不同的参数，以便为用户提供查看订单履行的不同方式。
+按照[向按钮网格添加操作](pos-screen-layouts.md)中的步骤指定在销售点调用订单履行时要使用的参数。 默认情况下，在指定订单履行操作后，会选中 **所有订单**。 配置此参数后，该操作将列出在当前商店履行的所有订单行。 另外还提供 **要装运的订单**，可以分配到按钮，并当用户只想查看将从该商店装运的订单时使用。 最后是 **要提货的订单**。 在销售点进行调用时，它仅列出要在该商店提货的订单。 可以向不同的按钮分配不同的参数，以便为用户提供查看订单履行的不同方式。
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>使用户能够在销售点访问订单履行
 
@@ -106,9 +104,9 @@ ms.locfileid: "5477796"
 
 - **编辑** – 如果订单状态为挂起，可以在销售点进行编辑。 已经部分领料、包装或开票的订单不能从订单履行视图中进行编辑。
 - **接受** – 如果在渠道级别配置了 **手动接受**，行必须在接受之后才能在订单履行流程中移动。
-- **领料** – 领料选项支持若干操作。 首先，**领料** 会更新订单行的状态，使商店中的其他人无法企图对相同行领料。 其次，**打印领料单** 将打印选定的一行或多行的领料单，并将其状态更新为 **领料**。 领料单格式作为收据格式的一部分进行控制。 有关如何设置收据格式的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。 最后，**标记为已领料** 指示行已经领料。 **标记为已领料** 在后端办公系统中发起相应的库存交易记录。 可以同时对多个订单和所有交货模式的多个订单行进行领料操作。
+- **领料** – 领料选项支持若干操作。 首先，**领料** 会更新订单行的状态，使商店中的其他人无法企图对相同行领料。 其次，**打印领料单** 将打印选定的一行或多行的领料单，并将其状态更新为 **领料**。 领料单格式作为收据格式的一部分进行控制。 有关如何设置收据格式的详细信息，请参阅[收据模板和打印](receipt-templates-printing.md)。 最后，**标记为已领料** 指示行已经领料。 **标记为已领料** 在后端办公系统中发起相应的库存交易记录。 可以同时对多个订单和所有交货模式的多个订单行进行领料操作。
 - **拒绝** – 可以拒绝行或部分行。 可以从后端办公系统将它们重新分配到另外一个商店或仓库。 只有尚未领料或包装的行才可以被拒绝。 要拒绝已领料或包装的行，必须从后端办公系统对该行取消领料或取消包装。
-- **包装** – 包装选项支持两个操作：**打印装箱单** 将打印选定行的装箱单，**标记为已包装** 将行标记为已包装，并在后端办公系统中将行标记为已交货。 只能同时包装属于相同订单且具有相同交货方式的订单行。 装箱单格式作为收据格式的一部分进行控制。 有关如何设置收据格式的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)。
+- **包装** – 包装选项支持两个操作：**打印装箱单** 将打印选定行的装箱单，**标记为已包装** 将行标记为已包装，并在后端办公系统中将行标记为已交货。 只能同时包装属于相同订单且具有相同交货方式的订单行。 装箱单格式作为收据格式的一部分进行控制。 有关如何设置收据格式的详细信息，请参阅[收据模板和打印](receipt-templates-printing.md)。
 - **装运** – 装运操作在后端办公系统中将选定行标记为 **已交货**。 某一行全部装运后，将不再显示在订单履行视图中。
 - **提货** – 提货操作将行添加到用于提货的交易记录视图中。 如果一个订单中有其他目前未提货的行，这些行将被添加到交易记录视图中，且数量为零。 某一行全部提货后，将不再显示在订单履行视图中。
 

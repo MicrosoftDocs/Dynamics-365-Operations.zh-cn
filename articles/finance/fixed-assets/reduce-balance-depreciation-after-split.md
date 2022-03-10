@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737693"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>减少拆分后的余额折旧
 
@@ -37,7 +37,7 @@ ms.locfileid: "5826243"
 - 第一个会计年度的折旧等于 18,000 美元，每月的折旧等于 150 美元，然后资产折旧到 2019 年 11 月，金额为 738.75 美元。
 - 在 2019 年 11 月，此资产的 80％ 被拆分为另一项固定资产。
 
-[![减少拆分后的余额折旧](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![减少拆分后的余额折旧。](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 原始资产的折旧额为 1,822.25 美元。 该金额等于拆分交易过帐之前的 NBV（9,111.25 美元）加上拆分交易过帐期间产生的购置调整（-8,000 美元），再加上拆分交易期间产生的折旧调整（711 美元）。 因此，第二年的折旧为 (1,822.25×18％) ÷12 = 27.33 美元。
 

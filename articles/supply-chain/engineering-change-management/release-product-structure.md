@@ -2,26 +2,23 @@
 title: 发布产品结构
 description: 此主题说明除了发布产品及其工程版本外，还可以发布完整的产品结构。 这样，您可以确保与工程相关的产品数据可以轻松地在不同法人中重复使用。
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4423453"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567479"
 ---
 # <a name="release-product-structures"></a>发布产品结构
 
@@ -78,8 +75,6 @@ ms.locfileid: "4423453"
 
 并非所有运营公司都需要相同的产品数据。 通常，制造工程产品的运营公司需要物料清单，而只是销售工程产品的运营公司不需要物料清单。 您可以使用发布策略来建立用于产品发布的参数。
 
-对于工程产品，发布策略在工程产品类别中分配，并且该字段是必需的。 对于标准产品，策略将分配给共享产品，该字段是可选的。
-
 有关工程产品类别的详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
 
 在发布流程中，您可以影响设置。
@@ -108,6 +103,7 @@ ms.locfileid: "4423453"
 | 字段 | 说明 |
 |---|---|
 | 产品类型 | 选择策略是否应用于 *物料* 或 *服务* 类型的产品。 保存记录后，您将无法更改此设置。 |
+| 生产类型 | 此字段仅在您在系统中启用了[配方更改管理](manage-formula-changes.md)时出现。 选择此发布策略适用的生产类型：<ul><li>**联产品** – 使用此发布策略管理联产品。 联产品是在处理制造期间生产的，未版本化，也不是工程产品。 联产品的发布策略可以帮助确保重要设置（如 **存储维度组** 和 **跟踪维度组**）在发布到公司之前使用已发布产品模板进行设置。</li><li>**副产品** – 使用此发布策略管理副产品。 副产品是在处理制造期间生产的，未版本化，也不是工程产品。 副产品的发布策略可以帮助确保重要设置（如 **存储维度组** 和 **跟踪维度组**）在发布到公司之前使用已发布产品模板进行设置。</li><li>**无** – 使用此策略管理未版本化的标准产品或工程产品，或者副产品或联产品。</li><li>**计划物料** – 使用此发布策略管理使用处理制造生产的计划物料。 计划物料使用配方。 它们类似于配方物料，但仅用于生产联产品和副产品，不用于生产成品。</li><li>**物料清单** – 使用此发布策略管理不使用配方、通常（但不一定）包括物料清单的工程产品。</li><li>**配方** – 使用此发布策略管理使用处理制造生产的物料成品。 这些物料将有配方，但没有物料清单。</li></ul> |
 | 应用模板 | 选择以下选项之一，指定使用策略时是否以及如何应用产品发布模板：<ul><li>**始终** – 必须始终将已发布产品模板用于发布。 如果选择此选项，请使用 **所有产品** 快速选项卡指定用于向其发布的每个公司的模板。 如果没有为 **所有产品** 快速选项卡上列出的每个公司指定模板，在尝试保存策略时您会收到错误。</li><li>**可选** – 如果为 **所有产品** 快速选项卡上列出的公司指定了已发布产品模板，当您发布到该公司时将使用该模板。 否则，不会使用模板。 如果选择此选项，可以在不将模板分配给所有公司的情况下保存策略。 （不会显示警告。）</li><li>**从不** – 不会将已发布产品模板用于向其发布的任何公司，即使为 **所有产品** 快速选项卡上列出的公司指定了模板。 模板列将不可用。</li></ul> |
 | 可用 | 使用此选项可以帮助您维护发布策略。 为您使用的所有发布策略设置为 *是*。 设置为 *否* 将在不使用发布策略时将其标记为不可用。 请注意，您不能停用分配给工程产品类别的发布策略，只能删除不可用的发布策略。 |
 
@@ -160,3 +156,6 @@ ms.locfileid: "4423453"
 例如，产品 X 被分配到 *设计柜* 产品所有者组。 产品 X 也是产品 Y 的物料清单的一部分，后者被分配到 *设计扬声器* 产品所有者组。 如果来自 *设计扬声器* 产品所有者组的用户发布产品 Y 及其物料清单，产品 X 将与产品 Y 一起发布。
 
 有关详细信息，请参阅[产品所有者](product-owner.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

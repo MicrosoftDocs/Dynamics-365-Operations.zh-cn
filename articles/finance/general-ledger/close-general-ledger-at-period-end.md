@@ -2,11 +2,9 @@
 title: 在期间结束时关闭总帐
 description: 本主题介绍为总帐执行定期结算时通常完成的任务。
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944f88e65c5dbbd2acf21ebfd96c28ce477798ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739994"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>在期间结束时关闭总帐
 
@@ -54,3 +52,6 @@ ms.locfileid: "4975983"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

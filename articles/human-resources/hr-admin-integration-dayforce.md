@@ -1,33 +1,35 @@
 ---
 title: 配置与 Dayforce 的集成
-description: Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
-author: andreabichsel
-ms.date: 02/03/2020
+description: 本主题介绍了 Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成所需的配置步骤。
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805074"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067068"
 ---
 # <a name="configure-integration-with-dayforce"></a>配置与 Dayforce 的集成
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
+Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
 
 使用 Dayforce 之类的服务完成付薪时，必须在 Human Resources 中启用集成。 此集成需要来自 Human Resources 的特定数据。 因此，必须验证已按照支持集成的方式在 Human Resources 中配置了映射到 Dayforce 的数据。 此集成使用下面的各种数据类别：
 
@@ -36,7 +38,7 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 - 工资单数据，如付薪周期、付薪期间和收入代码
 - 工作人员数据
 
-本文介绍要启用集成必须执行的步骤。 还介绍了集成所需的数据类型和配置详细信息。
+本主题介绍了启用集成必须遵循的步骤，并说明了集成所需的数据类型和配置详细信息。
 
 ## <a name="enable-the-integration"></a>启用集成
 
@@ -51,10 +53,10 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 
 开启集成后，将创建数据导出包和文件，并设置频率。 可根据需要更改此频率。
 
-有关 Azure ML 存储帐户和 Azure 存储连接字符串的详细信息，请参阅以下 Azure ML 文章：
+有关 Azure ML 存储帐户和 Azure 存储连接字符串的详细信息，请参阅以下 Azure ML 主题：
 
-- [关于 Azure 存储帐户](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [配置 Azure 存储连接字符串](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [关于 Azure 存储帐户](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [配置 Azure 存储连接字符串](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>启用工资单集成后的技术详细信息
 
@@ -122,12 +124,12 @@ Dayforce 根据福利计划中定义的工资单影响创建以下扣缴。
 | 仅缴纳          | 创建雇主扣缴。             |
 | 扣除和缴纳 | 创建员工扣缴和雇主扣缴。 |
 
-有关如何定义和管理福利计划的详细信息，请参阅以下文章：
+有关如何定义和管理福利计划的详细信息，请参阅以下主题：
 
-- [交付员工福利计划](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [创建新福利](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [定义福利资格规则和策略](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [登记和删除工作人员的福利](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [交付员工福利计划](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [创建新福利](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [定义福利资格规则和策略](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [登记和删除工作人员的福利](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>薪酬 
 
@@ -135,22 +137,22 @@ Dayforce 根据福利计划中定义的工资单影响创建以下扣缴。
 
 Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬计划和付薪比率转换。 必须将员工与固定薪酬计划关联。
 
-有关薪酬计划的详细信息，请参阅以下文章：
+有关薪酬计划的详细信息，请参阅以下主题：
 
-- [创建固定薪酬计划](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [创建可变薪酬计划](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [制订薪水/薪酬结构和计划](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [薪酬流程](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [定义薪酬流程并计算结果](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [在固定薪酬计划中登记员工](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [在可变薪酬计划中登记员工](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [创建固定薪酬计划](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [创建可变薪酬计划](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [制订薪水/薪酬结构和计划](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [薪酬流程](/dynamics365/unified-operations/talent/process-compensation)
+- [定义薪酬流程并计算结果](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [在固定薪酬计划中登记员工](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [在可变薪酬计划中登记员工](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>工作 
 
-作业是执行作业的人员需要承担的任务和责任的集合。 有关详细信息，请参阅以下文章：
+作业是执行作业的人员需要承担的任务和责任的集合。 有关详细信息，请参阅以下主题：
 
-- [设置作业组件](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [定义新工作](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [设置作业组件](/dynamics365/unified-operations/talent/create-job)
+- [定义新工作](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>职位
 
@@ -172,19 +174,19 @@ Dayforce 使用薪酬信息计算员工的时薪或年薪。 需要固定薪酬�
 
 如果同一个部门中多个职位与同一个工作关联，应在 Dayforce 中将这些职位合并为一个位置。
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅以下主题：
 
-- [使用部门、工作和职位组织您的劳动力](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [设置职位](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [使用部门、工作和职位组织您的劳动力](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [设置职位](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>部门
 
 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅以下主题：
 
-- [创建一个部门并将其与部门层次结构关联](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [定义新部门](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [创建一个部门并将其与部门层次结构关联](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [定义新部门](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>付薪周期和付薪期间
 

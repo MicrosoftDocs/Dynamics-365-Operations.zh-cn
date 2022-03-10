@@ -2,16 +2,13 @@
 title: 内部公司计划
 description: 本主题介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777903"
 ---
 # <a name="intercompany-planning"></a>内部公司计划
 
@@ -48,8 +45,8 @@ ms.locfileid: "4672172"
 
 若要使用内部公司计划，必须按照以下方式准备系统：
 
-1. 必须在所有相关公司中发布相关产品。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
-1. 下游需求必须通过与上游公司具有内部公司关系以及具有客户的相关默认库存维度（站点和仓库）的供应商购买来满足。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
+1. 必须在所有相关公司中发布相关产品。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
+1. 下游需求必须通过与上游公司具有内部公司关系以及具有客户的相关默认库存维度（站点和仓库）的供应商购买来满足。 有关详细信息，请参阅 Microsoft Learn 上的[在 Dynamics 365 Supply Chain Management 中配置和使用内部公司交易](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)。
 1. 上游公司的主计划必须包括计划的下游需求，并且相关公司和主计划必须在下游计划中指定。
 
 ## <a name="include-planned-downstream-demand"></a>包括计划的下游需求
@@ -79,7 +76,7 @@ ms.locfileid: "4672172"
 
 下图显示此示例如何显示在计划生产订单的 **多级限定标准** 页面上。
 
-![涉及两家公司的内部公司示例](media/IntercompanyPlanning1.png)
+![涉及两家公司的内部公司示例。](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>涉及三家公司的内部公司示例
 
@@ -87,4 +84,7 @@ ms.locfileid: "4672172"
 
 下图显示此示例如何显示在计划生产订单的 **多级限定标准** 页面上。
 
-![涉及三家公司的内部公司示例](media/IntercompanyPlanning2.png)
+![涉及三家公司的内部公司示例。](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

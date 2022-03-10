@@ -1,28 +1,26 @@
 ---
 title: 工作订单简介
 description: 本主题概述资产管理中的工作订单。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754696"
 ---
 # <a name="introduction-to-work-orders"></a>工作订单简介
 
@@ -53,7 +51,7 @@ ms.locfileid: "5021872"
 
 下图显示了 **所有工作订单** 列表页的示例。
 
-![图 1](media/01-work-orders.png)
+![图 1.](media/01-work-orders.png)
 
 要查看只有有效工作订单的列表，请选择 **资产管理** > **常用** > **工作订单** > **有效工作订单**。 
 
@@ -71,7 +69,7 @@ ms.locfileid: "5021872"
 
 下图显示了 **所有工作订单** 详细信息视图的示例。
 
-![图 2](media/02-work-orders.png)
+![图 2.](media/02-work-orders.png)
 
 
 操作窗格上的按钮排列在选项卡上。 下表简述与资产管理有关的按钮：
@@ -118,3 +116,6 @@ ms.locfileid: "5021872"
 >[!NOTE]
 >要包括在运行主计划编制时在工作订单上创建的预测，请使用在 **资产管理参数** 页面上选择的预测模型。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

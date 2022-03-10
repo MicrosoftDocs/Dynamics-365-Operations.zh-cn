@@ -2,26 +2,23 @@
 title: 合规概述
 description: 本主题概述了随 Microsoft Dynamics 365 Commerce 提供的帮助您确保公司站点合规性的合规指南。
 author: BrianShook
-manager: annbe
 ms.date: 01/08/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220622"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983284"
 ---
 # <a name="compliance-overview"></a>合规性概览
 

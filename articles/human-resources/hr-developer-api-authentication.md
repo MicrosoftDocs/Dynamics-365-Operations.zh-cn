@@ -2,15 +2,12 @@
 title: 身份验证
 description: 本文提供有关如何通过 Microsoft Dynamics 365 Human Resources 数据应用程序编程接口 (API) 进行身份验证的概述信息。
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 60774d162d733404166e710932291a736eb0d8b4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465526"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070860"
 ---
 # <a name="authentication"></a>身份验证
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -84,13 +84,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - 对于 Web 应用，提供应用的基本 URL。 例如，`http://localhost:31544` 可能是在本地计算机上运行的 Web 应用的 URL。 然后，用户使用此 URL 登录到 Web 客户端应用。
         - 对于公共客户端应用，提供 Azure AD 用于返回令牌响应的 URI。 输入特定于您的应用的值，例如 `myapp://auth`。
 
-        要查看 Web 应用或本地应用的特定示例，请参阅 [Microsoft 身份平台（以前的面向开发人员的 Azure Active Directory）](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts)中的快速入门。
+        要查看 Web 应用或本地应用的特定示例，请参阅 [Microsoft 身份平台（以前的面向开发人员的 Azure Active Directory）](/azure/active-directory/develop/#quickstarts)中的快速入门。
 
 5. 在 **API 权限** 下，选择 **添加权限**。 然后，在 **我的组织使用的 API** 选项卡上，搜索 **Dynamics 365 Human Resources**，并将 **user\_impersonation** 权限添加到您的应用。 Human Resources 的应用程序 ID 是 f9be0c49-aa22-4ec6-911a-c5da515226ff。 使用此 ID 来确保您选择了正确的应用程序。
 
 6. 选择 **注册**。
 
-   [![在 Azure 门户中注册新应用](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![在 Azure 门户中注册新应用。](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD 为您的应用分配唯一的应用程序 ID（客户端 ID），并将您转到您的应用的 **概览** 页面。 要为您的应用添加更多功能，您可以选择其他配置选项，例如品牌选项以及证书和密钥选项。
 

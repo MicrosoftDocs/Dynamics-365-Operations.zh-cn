@@ -2,7 +2,7 @@
 title: 开始使用电子开票
 description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的电子开票。
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 65944c3b73d5cecc8c86087729bcf8d2354c8f20
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340145"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779686"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>开始使用电子开票
 
@@ -43,7 +43,7 @@ ms.locfileid: "6340145"
 2. 在 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 3. 选择 **导入**，然后选择 **同步**。
 4. 使用一词 **Microsoft** 筛选 **配置提供者** 列。
-5. 从本主题开头的表中选择电子开票功能的名称，然后选择 **导入**。
+5. 从表中选择电子开票功能的名称，然后选择 **导入**。
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>在您的组织提供者下创建电子开票功能
 
@@ -57,7 +57,12 @@ ms.locfileid: "6340145"
 
 根据国家或地区，电子开票功能可能需要特定配置。 
 
-有关具体步骤，请参阅为您所在国家或地区提供的“入门”文档。
+> [!NOTE]
+> 当您为芬兰启用电子开票功能时，不支持查找中的应用程序特定参数。 要解决此问题，在 **电子报告** 模块中查看销售发票和项目发票格式的配置。 手动设置 **$PaymentMethodSubstitution** 映射的计算字段，然后将该字段绑定到销售发票和项目发票格式中的 **EpiPaymentMeansCode** 字段。
+>
+> 当您为意大利启用电子开票功能时，不支持查找中的应用程序特定参数。 要解决此问题，在 **电子报告** 模块中手动设置 **$NaturaReverseCharge** 映射的计算字段。
+>
+> 对于与其他位置相关的特定步骤，请参阅为您所在国家或地区提供的“入门”文档。
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>从电子报告中导入模型映射配置
 
@@ -84,6 +89,7 @@ ms.locfileid: "6340145"
 | 挪威电子发票 (NO)    | <p>客户发票上下文模型</p><p>发票模型</p> |
 | 西班牙电子发票 (ES)      | <p>客户发票上下文模型</p><p>发票模型</p> |
 | PEPPOL 电子发票            | <p>客户发票上下文模型</p><p>发票模型</p> |
+| 沙特阿拉伯电子发票 (SA)| <p>客户发票上下文模型</p><p>发票模型</p> |
 
 
 ## <a name="configure-the-application-setup"></a>配置应用程序设置
@@ -111,9 +117,10 @@ ms.locfileid: "6340145"
     | 荷兰电子发票 (NL)        | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
-    | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户账单日记帐</p><p>项目账单</p> |
+    | PEPPOL 电子发票            | <p>销售账单</p><p>项目发票</p> | <p>客户发票日记帐</p><p>项目发票</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>客户发票日记帐</p><p>项目发票</p> |
 
-7. 对于您创建的每个表名称，根据下表选择并输入上下文值。
+6. 对于您创建的每个表名称，根据下表选择并输入上下文值。
 
     | 功能名称                         | 业务文档 | 上下文 |
     |--------------------------------------|-------------------|---------|
@@ -133,8 +140,9 @@ ms.locfileid: "6340145"
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>客户发票上下文模型 – 客户发票上下文</p><p>客户发票上下文模型 – 项目发票上下文</p> |
 
-8. 对于每个表名称和上下文，根据下表选择并输入业务单据映射值。
+7. 对于每个表名称和上下文，根据下表选择并输入业务单据映射值。
 
     | 功能名称                         | 业务文档 | 业务文档映射 |
     |--------------------------------------|-------------------|---------------------------|
@@ -154,6 +162,7 @@ ms.locfileid: "6340145"
     | 挪威电子发票 (NO)    | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
     | 西班牙电子发票 (ES)      | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
     | PEPPOL 电子发票            | <p>销售账单</p><p>项目账单</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
+    | 沙特阿拉伯电子发票 (SA)| <p>销售发票</p><p>项目发票</p> | <p>发票模型映射 – 客户发票</p><p>发票模型映射 – 项目发票</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>应用程序设置的国家/地区特定配置
@@ -177,11 +186,11 @@ ms.locfileid: "6340145"
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>将电子开票功能部署到连接的应用程序
 
 1. 在 **版本** 选项卡上，选择要部署的电子开票功能的版本。
-4. 选择 **部署**。
-5. 将 **部署到连接的应用程序** 选项设置为 **是**。
-6. 在 **连接应用程序** 字段上，选择与您的 Finance 或 Supply Chain Management 实例关联的连接。
-7. 将 **部署到服务环境** 选项设置为 **否**。
-10. 选择 **确定**。
+2. 选择 **部署**。
+3. 将 **部署到连接的应用程序** 选项设置为 **是**。
+4. 在 **连接应用程序** 字段上，选择与您的 Finance 或 Supply Chain Management 实例关联的连接。
+5. 将 **部署到服务环境** 选项设置为 **否**。
+6. 选择 **确定**。
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>在 Finance 或 Supply Chain Management 中打开电子开票功能
 
@@ -207,6 +216,8 @@ ms.locfileid: "6340145"
     | 挪威电子发票 (NO)                     | 挪威          |
     | PEPPOL 电子发票                             | 全局          |
     | 西班牙电子发票 (ES)                       | 西班牙           |
+    | 沙特阿拉伯电子发票 (SA)                 | 沙特阿拉伯    |
+    
 
 4. 选择 **保存**。
 
@@ -235,6 +246,14 @@ ms.locfileid: "6340145"
 
 3. 在网格中选择一个发票，然后选择 **查询**\>**提交详细信息**。
 
+## <a name="download-an-electronic-document-file"></a>下载电子单据文件
+
+1. 转到 **组织管理** \> **定期** \> **电子单据** \> **电子单据提交日志**。
+2. 在 **文档类型** 字段中，选择包含发票的表。
+3. 在网格中选择文档，然后选择 **电子单据**\>**下载文件**。 将建议下载包含电子单据文件的存档。
+
+> [!NOTE]
+> 在下载文件之前，必须为 RCS 中电子开票功能设置中的相关操作打开 **导出结果** 选项。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -244,6 +263,7 @@ ms.locfileid: "6340145"
 - [开始使用适用于墨西哥的电子开票](e-invoicing-mex-get-started.md)
 - [开始使用适用于意大利的电子开票](e-invoicing-ita-get-started.md)
 - [埃及的客户电子发票](emea-egy-e-invoices.md)
+- [沙特阿拉伯的客户电子发票](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

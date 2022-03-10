@@ -1,7 +1,7 @@
 ---
 title: 设置预订组
 description: 设置预订组。
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64f9b8f6a7620015bae3471e60be340652af9435
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 05ee9d8f5ae517aae2e6dcfef3ec5488904f666a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824382"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580256"
 ---
 # <a name="set-up-subscription-groups"></a>设置预订组 
 

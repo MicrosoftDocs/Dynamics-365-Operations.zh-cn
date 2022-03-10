@@ -2,11 +2,9 @@
 title: 生产反馈
 description: 本文提供有关向工作人员提供生产作业反馈的生产反馈的信息。 本文包括有关可以更新生产反馈的各个方法的信息。
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf55c4484e6940ce193f7253f3db4d79ca1e8a07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d3a44d3b2f26dd8a27e081d6a5f89a197907cd5cd2ca947ff4e72aabcf8d90f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744694"
 ---
 # <a name="production-feedback"></a>生产反馈
 

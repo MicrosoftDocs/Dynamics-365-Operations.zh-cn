@@ -1,12 +1,10 @@
 ---
-title: 对跟踪所生成 ER 报表结果并与基准值比较的改进
+title: 改进跟踪生成的电子报告报表的结果以与基准值进行比较
 description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中对 ER 基准功能的改进。
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682839"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760742"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>对跟踪所生成 ER 报表结果并与基准值比较的改进
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>改进跟踪生成的电子报告报表的结果以与基准值进行比较
 
 [!include[banner](../includes/banner.md)]
 
@@ -59,7 +57,7 @@ ms.locfileid: "4682839"
 
 已为所选 **用于了解 ER 基准的格式** 格式添加了基准，但是尚未为此基准添加基准规则。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline2.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页面，还没有规则。](media/GER-BaselineSample-AddBaseline2.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="make-a-new-baseline-rule"></a>新建基准规则
 
@@ -72,7 +70,7 @@ ms.locfileid: "4682839"
 7. 选择 **确定**。
 8. 选择 **基准**。
 
-    ![“电子申报格式基准”页](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
+    ![“电子报告格式基准”页面，选择了基准。](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "“电子申报格式基准”页的屏幕截图")
 
     已将生成的出站文件自动附加到执行的 ER 格式的基准。 基准规则已自动添加到此基准，其中还包含对附加的文件的引用。
 
@@ -112,14 +110,14 @@ ms.locfileid: "4682839"
 13. 选择 **保存**，然后选择 **测试**。
 14. 再次选择 **测试** 重新测试配置的表达式。
 
-    ![公式设计器页](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "“公式设计器”页的屏幕截图")
+    ![“公式设计器”页面。](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "“公式设计器”页的屏幕截图")
 
     > [!NOTE]
     > **测试结果** 选项卡显示配置的表达式只要被调用，都会返回不同的日期和时间值。
 
 15. 关闭 **公式设计器** 页，然后选择 **保存**。
 
-    ![“格式设计器”页面](media/GER-BaselineSample-FormatMappingDesign2.PNG "“格式设计器”页的屏幕截图")
+    ![“格式设计器”页面。](media/GER-BaselineSample-FormatMappingDesign2.PNG "“格式设计器”页的屏幕截图")
 
 16. 关闭 **格式设计器** 页。
 
@@ -130,7 +128,7 @@ ms.locfileid: "4682839"
 3. 在基准列表中，选择为 **用于了解 ER 基准的格式** 格式配置的基准。
 4. 在 **基准** 快速选项卡上，选择 **删除** 以删除前面配置的基准规则。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline3.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页面，已删除。](media/GER-BaselineSample-AddBaseline3.PNG "“电子申报格式基准”页的屏幕截图")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>为设计的 ER 格式的绑定定义替换项
 
@@ -138,7 +136,7 @@ ms.locfileid: "4682839"
 2. 在格式组件树中，展开 **输出**，展开 **输出\\文档**，然后选中 **输出\\文档\\ProcessingDateTime** 的复选框。
 3. 选择 **确定**。
 
-![“电子申报格式基准”页](media/GER-BaselineSample-AddBaseline4.PNG "“电子申报格式基准”页的屏幕截图")
+![“电子报告格式基准”页面，组件。](media/GER-BaselineSample-AddBaseline4.PNG "“电子申报格式基准”页的屏幕截图")
 
 已将选择的 ER 格式组件添加到了 **替换** 快速选项卡上的组件列表中。 以调试模式运行基本 ER 格式时，将把该格式每个组件的绑定替换为 **绑定** 列中的绑定。 若要更改 **替换** 快速选项卡上列出的组件的默认绑定，请选择 **编辑**。
 
@@ -146,7 +144,7 @@ ms.locfileid: "4682839"
 
 执行本主题前文“示例：自动执行基准规则的设置”部分中的步骤。 将有一个通知警告您已使用基准设置生成了出站文件，并且已强制替换了格式绑定。
 
-![“配置”页上的通知](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "“配置”页上的通知的屏幕截图")
+![“配置”页面上的通知。](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "“配置”页上的通知的屏幕截图")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>禁止显示有关替换格式绑定的警告
 
@@ -194,11 +192,11 @@ ms.locfileid: "4682839"
 
 若要从本地存储的 XML 文件导入基准设置，请在 **电子申报格式基准** 页上选择 **导入**，然后选择 **浏览** 以选择该 XML 文件。
 
-![导入基线设置对话框](media/GER-BaselineSample-ImportBaseline1.PNG "“导入基准设置”对话框的屏幕截图")
+![“导入基准设置”对话框。](media/GER-BaselineSample-ImportBaseline1.PNG "“导入基准设置”对话框的屏幕截图")
 
 若要基于当前文档管理设置和所选文档类型从 Microsoft SharePoint Server 中存储的 XML 文件导入基准设置，请在 **电子申报格式基准** 页上选择 **从来源导入**。 然后选择文档类型和 XML 文件。 必须提前配置访问 SharePoint 文件夹所需文档类型。
 
-![“从来源导入”对话框](media/GER-BaselineSample-ImportBaseline2.PNG "“从来源导入”对话框的屏幕截图")
+![“从来源导入”对话框。](media/GER-BaselineSample-ImportBaseline2.PNG "“从来源导入”对话框的屏幕截图")
 
 > [!NOTE]
 > 可使用任务录制器录制在 **从来源导入** 对话框中选择所需文档类型和文件名的步骤。 这样就可以将所需基准设置保存在 SharePoint Server 上，然后在使用 Regression Suite Automation Tool 运行自动化任务时通过播放任务录制自动导入。
@@ -207,3 +205,6 @@ ms.locfileid: "4682839"
 
 - [跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)
 - [任务录制器资源](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,23 +3,22 @@ title: 云助力的搜索概览
 description: 此主题概述 Microsoft Dynamics 365 Commerce 中的云助力搜索。
 author: ashishmsft
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352656"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983661"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 

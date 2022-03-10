@@ -1,8 +1,8 @@
 ---
 title: 通过添加参数化的计算字段数据源提高 ER 解决方案的性能
-description: 此主题介绍如何通过添加参数化的计算字段数据源提高电子申报 (ER) 解决方案的性能。
+description: 此主题介绍如何通过添加参数化的计算字段数据源提高电子报告 (ER) 解决方案的性能。
 author: NickSelin
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753662"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 
@@ -56,7 +56,7 @@ ms.locfileid: "5749505"
     2. 选择 **浏览** 并为 ER 配置选择 XML 格式的相应文件。
     3. 选择 **确定**。
 
-![“配置”页面上导入的配置](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![“配置”页面上导入的配置。](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>检查示例 ER 解决方案
 
@@ -76,7 +76,7 @@ ms.locfileid: "5749505"
 
     此配置中的模型映射实施为此模型创建并在 Finance 中运行的任何 ER 格式的基本数据模型。 因此，**Trans** 数据源的内容将对抽象 **model** 数据源之类 ER 格式公开。
 
-    ![“模型映射设计器”页面中的 Trans 数据源](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![“模型映射设计器”页面上的 Trans 数据源。](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. 关闭 **模型映射设计器** 页。
 5. 关闭 **模型到数据源映射** 页。
@@ -90,7 +90,7 @@ ms.locfileid: "5749505"
 
     此 ER 格式用于生成 XML 格式的供应商交易记录报表。
 
-    ![“格式设计器”页面中的 Format 数据源和配置的格式元素绑定](media/er-calculated-field-ds-performance-format.png)
+    ![“格式设计器”页面上的 Format 数据源和配置的格式元素绑定。](media/er-calculated-field-ds-performance-format.png)
 
 5. 关闭 **格式设计器** 页。
 
@@ -103,7 +103,7 @@ ms.locfileid: "5749505"
 1. 选择 **DEMF** 公司。
 2. 执行[开启 ER 性能跟踪](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace)中的步骤，以便在运行 ER 格式时生成性能跟踪。
 
-    ![“用户参数”选项卡](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![“用户参数”对话框。](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>运行 ER 格式
 
@@ -124,7 +124,7 @@ ms.locfileid: "5749505"
 - 使用数据源获取数据实际所用时间
 - 表示为占运行整个模型映射所用时间总量的百分比的相同时间
 
-![“模型映射设计器”页面上的执行时间详细信息](./media/er-calculated-field-ds-performance-mapping-2.png)
+![“模型映射设计器”页面上的执行时间详细信息。](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 **性能统计信息** 网格显示 **Trans** 数据源调用一次 VendTrans 表。 **Trans** 数据源的值 **\[265\]\[Q:265\]** 说明已从应用程序表提取了 265 笔供应商交易记录并返回到了数据模型。
 
@@ -137,7 +137,7 @@ ms.locfileid: "5749505"
 
 - 将为每个迭代供应商记录调用供应商表，即使已经仅为五个供应商过帐了提取的交易记录也不例外。 这 530 个调用中的 525 是重复的。 下图显示收到的有关重复调用（数据库请求）的消息。
 
-![“模型映射设计器”页上有关重复数据库请求的消息](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![“模型映射设计器”页面上有关重复数据库请求的消息。](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 请注意，已使用了模型映射总执行时间（大约八秒）中超过 80%（大约六秒）从 VendTable 应用程序表检索值。 与 VendTrans 应用程序表中的信息量相比，此百分比对于五个供应商的两个属性而言太大。
 
@@ -172,7 +172,7 @@ ms.locfileid: "5749505"
     3. 在对话框的 **名称** 字段中，输入 **Box**。
     3. 选择 **确定**。
 
-    ![“模型映射设计器”页面中的 Box 数据源](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![“模型映射设计器”页面上的 Box 数据源。](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. 执行以下步骤添加 **计算字段** 类型的参数化数据源：
 
@@ -208,7 +208,7 @@ ms.locfileid: "5749505"
 
 9. 选择 **保存**。
 
-    ![“模型映射设计器”页面中的 Vend 数据源](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![“模型映射设计器”页面上的 Vend 数据源。](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. 关闭 **模型映射设计器** 页。
 11. 关闭 **模型映射** 页。
@@ -232,11 +232,11 @@ ms.locfileid: "5749505"
 
 请注意，您对模型映射进行的调整消除了对数据库的重复查询。 还减少了对此模型映射的数据库表和数据源的调用数量。
 
-![跟踪“模型映射设计器”页面 1 中的信息](./media/er-calculated-field-ds-performance-mapping-5.png)
+![跟踪“模型映射设计器”页面 1 上的信息。](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 总执行时间已缩短了大约 20 倍（从大约 8 秒到大约 400 毫秒）。 因此提高了整个 ER 解决方案的性能。
 
-![跟踪“模型映射设计器”页面 2 中的信息](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![跟踪“模型映射设计器”页面 2 上的信息。](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>附录 1：下载示例 Microsoft ER 解决方案的组件
 
@@ -244,9 +244,9 @@ ms.locfileid: "5749505"
 
 | 文件                                        | 内容 |
 |---------------------------------------------|---------|
-| Performance improvement model.version.1     | [示例 ER 数据模型配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance improvement mapping.version.1.1 | [示例 ER 模型映射配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance improvement format.version.1.1  | [示例 ER 格式配置](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Performance improvement model.version.1     | [示例 ER 数据模型配置](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Performance improvement mapping.version.1.1 | [示例 ER 模型映射配置](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Performance improvement format.version.1.1  | [示例 ER 格式配置](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>附录 2：配置 ER 框架
 

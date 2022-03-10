@@ -1,27 +1,25 @@
 ---
 title: 设置手动包装（2016 年 2 月和 2016 年 5 月）
 description: 包装流程允许您验证并将产品包装到集装箱中。
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84a405b2a0afa3541fa0d691d751ecea0ad6606a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbcd9653f2f3752f067828918ee61d96f9307c6d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976980"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576056"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>设置手动包装（2016 年 2 月和 2016 年 5 月）
 
@@ -94,3 +92,6 @@ ms.locfileid: "4976980"
 8. 在“重量单位”字段中，输入或选择一个值。
 9. 单击“保存”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

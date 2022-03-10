@@ -1,7 +1,7 @@
 ---
 title: 设置用于完成采购订单类型工作的移动设备菜单项
 description: 此主题演示如何设置“移动设备”菜单项。
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21994acabd254d0f10c7f22bbc83e4dbd69fad04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814432"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565144"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>设置用于完成采购订单类型工作的移动设备菜单项
 

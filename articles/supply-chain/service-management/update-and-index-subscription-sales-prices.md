@@ -1,12 +1,10 @@
 ---
 title: 对预订销售价进行更新并编制索引
 description: 对预订销售价进行更新并编制索引
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01acbfd57fdfcbc951fab738bfb062ab7b344be
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f3340160b634a100397aac402a09f7f22082807
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965747"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569929"
 ---
 # <a name="update-and-index-subscription-sales-prices"></a>对预订销售价进行更新并编制索引 
 
@@ -54,3 +52,6 @@ ms.locfileid: "4965747"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

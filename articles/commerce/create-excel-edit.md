@@ -2,11 +2,9 @@
 title: 创建 Excel 工作簿以编辑零售交易记录
 description: 本主题介绍如何创建 Excel 工作簿，以便您可以在 Microsoft Dynamics 365 Commerce 中编辑零售交易记录。
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a4bc0a91ee2215dcde2f18575d58ab1ef2f5581
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753100"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>创建 Excel 工作簿以编辑零售交易记录
 
@@ -60,7 +58,7 @@ ms.locfileid: "5207935"
     | 金库投箱 | 交易记录（可审计）、金库支付交易记录（可审计） |
     | 钱币清点 | 交易记录（可审计）、钱币清点交易记录（可审计） |
     | 收入、支出 | 交易记录（可审计）、收入/支出交易记录（可审计）、付款交易记录（可审计） |
-    | 清点起始金额、支付方式删除、浮动条目、找零支付方式、账单付款、客户存款 | 交易记录（可审计）、付款交易记录（可审计） |
+    | 清点起始金额、支付方式删除、浮动条目、找零支付方式、发票付款、客户存款 | 交易记录（可审计）、付款交易记录（可审计） |
 
     > [!NOTE]
     > 务必注意，只能向每个 Excel 工作簿添加一个数据实体。 此外，必须将钥匙符号标记的所有字段都添加到相关工作簿中。

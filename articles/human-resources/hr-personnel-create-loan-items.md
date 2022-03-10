@@ -1,8 +1,8 @@
 ---
 title: 创建借出物品
 description: 借出物品是帮助您跟踪您的公司借出给工作人员的实际物品（如手机或电脑）的记录。
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,17 +10,20 @@ ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, Hcm
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11c81e37952c59325c4f7dd46fd19599fbf8390f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056820"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068126"
 ---
 # <a name="create-loan-items"></a>创建借出物品
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,32 +33,32 @@ ms.locfileid: "6056820"
 
 
 ## <a name="create-loan-types"></a>创建“借出类型”
-1. 转到“人力资源”>“工作人员”>“借出物品”>“借出类型”。
-2. 单击“新建”。
-3. 在“借出类型”字段中，键入一个值。
-4. 在“描述”字段中，键入一个值。
+1. 转到 **人力资源** > **工作人员** > **借出物品** > **借出类型**。
+2. 单击 **新建**。
+3. 在 **借出类型** 字段中，键入一个值。
+4. 在 **描述** 字段中，键入一个值。
 5. 输入指派给此借出类型的物品可逾期返还的天数。 
-6. 单击“保存”。
+6. 单击 **保存**。
 7. 关闭该页面。
 8. 刷新该页面。
 
 ## <a name="create-loan-items"></a>创建“借出物品”
-1. 转到“人力资源”>“工作人员”>“借出物品”>“借出物品”。
-2. 单击“创建借出物品”。
-3. 在“数量” 字段中，输入一个数字。
-4. 在“描述”字段中，键入一个值。
-5. 在“借出类型”字段中，单击下拉按钮以打开查找。
+1. 转到 **人力资源** > **工作人员** > **借出物品** > **借出物品**。
+2. 单击 **创建借出物品**。
+3. 在 **数量** 字段中，输入一个数字。
+4. 在 **描述** 字段中，键入一个值。
+5. 在 **借出类型** 字段中，单击下拉按钮以打开查找。
 6. 在列表中，找到并选择所需记录。
 7. 在列表中，单击所选行中的链接。
 8. 输入允许物品借出的天数。
     * 借出设备的“预定归还日期”字段的默认值计算为当前日期加上此数字。  
-9. 在“负责人”字段中，单击下拉按钮以打开查找。
-10. 单击“选择”。
-11. 在“起始值”字段中，输入一个数字。
-12. 在“间隔”字段中，输入一个数字。
-13. 在“格式”字段中，键入一个值。
-    * 例如，借出物品的起始编号为 10，则在“格式”字段中输入两个数字符号。  
-14. 单击“确定”。
+9. 在 **负责人** 字段中，单击下拉按钮以打开查找。
+10. 单击 **选择**。
+11. 在 **起始值** 字段中，输入一个数字。
+12. 在 **间隔** 字段中，输入一个数字。
+13. 在 **格式** 字段中，键入一个值。
+    * 例如，借出物品的起始编号为 10，则在 **格式** 字段中输入两个数字符号。  
+14. 单击 **确定**。
 15. 刷新该页面。
 
 

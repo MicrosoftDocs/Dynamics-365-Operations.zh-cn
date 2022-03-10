@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 84ee7c82fa6aaa819798f4bc052b12b06a51c025
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714751"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>在 Modern POS (MPOS) 和 Cloud POS 之间选择
 
@@ -57,7 +57,7 @@ Commerce 支持以下 POS 选项：
 Windows、iOS 或 Android 设备上的 MPOS 是在该设备上打包、安装和服务的应用程序。
 
 - **Windows** – Windows 应用程序的 MPOS 包含所有应用程序代码和嵌入的 Commerce Runtime (CRT)。 
-- **iOS/Android** – 在这些平台上，此应用程序充当 CPOS 应用程序代码的主机。 换言之，应用程序代码来自 Microsoft Azure 或 Commerce Scale Unit 上的 CPOS 服务器。 有关详细信息，请参阅 [Commerce Scale Unit 概述](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin)。
+- **iOS/Android** – 在这些平台上，此应用程序充当 CPOS 应用程序代码的主机。 换言之，应用程序代码来自 Microsoft Azure 或 Commerce Scale Unit 上的 CPOS 服务器。 有关详细信息，请参阅 [Commerce Scale Unit 概述](dev-itpro/retail-store-system-begin.md)。
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +79,11 @@ Commerce Scale Unit 是承载 CRT 的组件。 CRT 包含 POS 使用的所有业
 
 #### <a name="offline-mode"></a>脱机模式
 
-适用于 Windows 的 MPOS 支持脱机模式。 在脱机模式下，POS 可以继续处理销售，即使它从 Commerce Scale Unit 断开。 在恢复连接时，它可以与渠道数据库同步。 MPOS 使用其自己的嵌入 CRT 实例，并暂时使用其自己的本地数据源（脱机 SQL Server 数据库）。 有关脱机功能的详细信息，请参阅 [POS 脱机功能](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality)。
+适用于 Windows 的 MPOS 支持脱机模式。 在脱机模式下，POS 可以继续处理销售，即使它从 Commerce Scale Unit 断开。 在恢复连接时，它可以与渠道数据库同步。 MPOS 使用其自己的嵌入 CRT 实例，并暂时使用其自己的本地数据源（脱机 SQL Server 数据库）。 有关脱机功能的详细信息，请参阅 [POS 脱机功能](pos-offline-functionality.md)。
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS 外设/硬件注意事项
 
-零售商还必须考虑 POS 如何访问打印机、银箱和付款终端等设备和外设。 仅适用于 Windows 的 MPOS 支持与这些设备的直接通信。 适用于 Windows Phone、iOS 或 Android 的 MPOS 和 Cloud POS 需要硬件工作站来访问这些设备。 硬件工作站可专用于 POS 收银机或在商店中的收银机之间共用。 有关硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation)。
+零售商还必须考虑 POS 如何访问打印机、银箱和付款终端等设备和外设。 仅适用于 Windows 的 MPOS 支持与这些设备的直接通信。 适用于 Windows Phone、iOS 或 Android 的 MPOS 和 Cloud POS 需要硬件工作站来访问这些设备。 硬件工作站可专用于 POS 收银机或在商店中的收银机之间共用。 有关硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 
 ## <a name="implementation-considerations"></a>实施注意事项
 
@@ -100,7 +100,7 @@ Commerce Scale Unit 是承载 CRT 的组件。 CRT 包含 POS 使用的所有业
     这两个选项不彼此排斥。 对于最可靠的拓扑，零售商可以部署本地 RSSU 以减少对互联网连接与 Azure 可用性的依赖，如果本地服务器或网络有问题，他们还可以部署启用脱机模式的 POS 收银机。
 
 - **硬件设备/外设** – Retail POS 系统的一个重要方面是它能够使用 POS 外设，如打印机、银箱和付款终端。 虽然所有可用 POS 选项均可以使用外设，但只有适用于 Windows 的 MPOS 直接支持它们。 对于所有其他应用程序，均需要一个或多个硬件工作站。 虽然此方法增加了灵活性，但必须部署、配置和服务其他组件。
-- **系统要求** – POS 应用程序的系统要求会发生变化。 在您进行选择前，请确保检查最新信息。 例如，因为 CPOS 在浏览器中运行，它支持各种操作系统。 有关系统要求的详细信息，请参阅[云部署的系统要求](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements)。
+- **系统要求** – POS 应用程序的系统要求会发生变化。 在您进行选择前，请确保检查最新信息。 例如，因为 CPOS 在浏览器中运行，它支持各种操作系统。 有关系统要求的详细信息，请参阅[云部署的系统要求](../fin-ops-core/fin-ops/get-started/system-requirements.md)。
 - **部署和服务** – 部署和服务要求的复杂程度可能因应用程序和部署选择的更改而改变。 例如，对于云托管的 CPOS 部署，您不必在每台设备上安装和更新。 因此，此方法将极大地减少复杂性和成本。 但是，如果您在每个收银机上部署 MPOS 并启用脱机模式，而且您还部署了共享的硬件工作站，这会大大增加必须管理的终结点数量。
 
 

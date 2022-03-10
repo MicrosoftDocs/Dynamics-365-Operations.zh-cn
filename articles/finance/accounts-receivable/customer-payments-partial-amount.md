@@ -2,11 +2,9 @@
 title: 部分金额的客户付款
 description: 有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef43e6bafcd6a049111701032efbe5474dfaa9f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769027"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>部分金额的客户付款
 
@@ -30,8 +28,7 @@ ms.locfileid: "5236930"
 
 有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。
 
-<a name="partial-payment-with-no-discount"></a>无折扣的部分付款
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>无折扣的部分付款
 
 客户可以进行部分付款，因为他们手头上没有足够的现金来完全支付发票，或者因为发票上的某个物料存在争议。 在这种情况下，可以利用付款来部分结算发票。 发票将保持未结状态并显示剩余未结金额。
 

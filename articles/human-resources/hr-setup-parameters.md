@@ -1,27 +1,26 @@
 ---
 title: 配置 Human Resources 参数
 description: 本主题说明如何在 Dynamics 365 Human Resources 中设置特定于公司的参数。
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802399"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771427"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 
@@ -31,7 +30,7 @@ ms.locfileid: "5802399"
 
 提供了两个页面来设置人力资源参数。 对于跨公司共享的参数，您可使用 **人力资源共享参数** 页。 对于特定于公司的参数（换句话说，这些设置将应用于单个公司），您可使用 **人力资源参数** 页。
 
-![转到“人力资源参数”](./media/hr-employee-self-service-human-resources-parameters.png)
+![转到 Human Resources 参数。](./media/hr-employee-self-service-human-resources-parameters.png)
 
 在 **人力资源参数** 页上，设置在 6 个选项卡之间分配：
 
@@ -52,20 +51,21 @@ ms.locfileid: "5802399"
 
 **常规** 选项卡上的设置定义有关缺勤、伤害和疾病以及新的雇用的信息的外观。 此选项卡上的设置还定义在您工作时显示的某些默认条目。 具体来说，此选项卡可让您：
 
-- 选择要应用于未结的缺勤事务的颜色
-- 指定用于报表的样式表
-- 启用培训课程和缺勤登记之间的集成
+- 选择要应用于未结的缺勤事务的颜色。
+- 指定用于报表的样式表。
+- 启用培训课程和缺勤登记之间的集成。
 - 选择用于控制此集成的缺勤代码。
 - 指出保留伤害和疾病案例事件的时间。
 - 指定雇用新工作人员时显示的默认标识号。
+- 指定用于计算服务年数的日期。 
 
-![常规选项卡](./media/hr-setup-parameters-general.png)
+![常规选项卡。](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>招聘
 
 **招聘** 选项卡上的设置定义用于自动发送给申请人的通信的文档类型。 您还可以指出用于主动提供的申请的招聘项目。
 
-为招聘项目帐龄定义的期间确定包含在 **招聘管理** 工作区中的 **帐龄项目** 磁贴上的招聘项目。 为申请截止日期警告定义的期间用于显示接近其在 **招聘** 工作区中的 **接近申请截止日期** 磁贴上的申请截止日期的招聘项目。
+在 **招聘项目帐龄** 中定义的期间确定哪些招聘项目包含在 **招聘管理** 工作区中的 **帐龄项目** 磁贴上。 为申请截止日期警告定义的期间用于显示接近其在 **招聘** 工作区中的 **接近申请截止日期** 磁贴上的申请截止日期的招聘项目。
 
 有关招聘的详细信息，请参阅[招聘工作应聘者](hr-personnel-recruit.md)。
 
@@ -77,7 +77,7 @@ ms.locfileid: "5802399"
 
 有关薪酬的详细信息，请参阅[薪酬计划概述](hr-compensation-overview.md)。
 
-![“薪酬”选项卡](./media/hr-setup-parameters-compensation.png)
+![“薪酬”选项卡。](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>编号规则
 
@@ -92,35 +92,35 @@ ms.locfileid: "5802399"
 
 要维护编号规则引用和代码，可使用 **编号规则** 列表页（选择 **组织管理 > 编号规则 > 编号规则**）。
 
-有关详细信息，请参阅[编号规则概述](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json)。
+有关详细信息，请参阅[编号规则概述](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
 
 > [!NOTE]
 > 工作的小时数不能超过 1,250，雇用时长不能超过 12 个月。 这些最大值符合美国的联邦法律。
 
-![“编号规则”选项卡](./media/hr-setup-parameters-number-sequences.png)
+![“编号规则”选项卡。](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 在 FMLA 选项卡上，设置 FMLA 资格要求和 FMLA 权利时数。 有关详细信息，请参阅[配置休假和缺勤参数](hr-leave-and-absence-parameters.md)。
 
-![FMLA 选项卡](./media/hr-setup-parameters-fmla.png)
+![FMLA 选项卡。](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>员工自助服务
 
-**员工自助服务** 选项卡上的设置会影响员工自助服务对员工的显示方式。 在此选项卡上，您可以：
+**员工自助服务** 选项卡上的设置会影响 **员工自助服务** 对员工的显示方式。 在此选项卡上，您可以完成以下任务：
 
-- 为员工自助服务工作区输入名称
+- 为 **员工自助服务** 工作区输入名称
 - 选择经理可以为员工输入的信息
 - 为员工添加有用的链接
 - 限制员工添加或编辑业务联系人详细信息。 有关详细信息，请参阅[限制对个人信息的编辑](hr-employee-self-service-restrict-editing.md)。
 
-有关设置员工自助服务的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
+有关如何设置 **员工自助服务** 的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
 
-![员工自助服务选项卡](./media/hr-setup-parameters-employee-self-service.png)
+![员工自助服务选项卡。](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>经理自助服务
 
-**经理自助服务** 选项卡上的设置会影响经理在经理自助服务中看到的内容。 在此选项卡上，您可以配置以下选项：
+**经理自助服务** 选项卡上的设置会影响经理在 **经理自助服务** 中看到的内容。 在此选项卡上，您可以配置以下选项：
 
 - 即将过期的记录的范围
 - 经理可以在即将过期的记录中查看的信息
@@ -128,15 +128,15 @@ ms.locfileid: "5802399"
 - 正离职的工作人员视图
 - 对经理有用的链接
 
-有关设置经理自助服务的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
+有关如何设置 **经理自助服务** 的详细信息，请参阅[员工和经理自助服务概述](hr-employee-manager-self-service-overview.md)。
 
-![经理自助服务选项卡](./media/hr-setup-parameters-manager-self-service.png)
+![经理自助服务选项卡。](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>福利管理
 
-在“福利管理”选项卡上，您可以为“福利管理”配置电子邮件选项。 有关设置和使用福利管理的信息，请参阅[福利管理概述](hr-benefits-management-overview.md)。
+在 **福利管理** 选项卡上，您可以为“福利管理”配置电子邮件选项。 有关如何设置和使用福利管理的信息，请参阅[福利管理概述](hr-benefits-management-overview.md)。
 
-![福利管理选项卡](./media/hr-setup-parameters-benefits-management.png)
+![福利管理选项卡。](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>休假和缺勤
 
@@ -146,7 +146,7 @@ ms.locfileid: "5802399"
 
 在 **付款方式** 选项卡上，您可以选择组织支持的付款方式。 有关配置薪酬的详细信息，请参阅[薪酬计划概述](hr-compensation-overview.md)。
 
-![付款方式选项卡](./media/hr-setup-parameters-payment-methods.png)
+![付款方式选项卡。](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

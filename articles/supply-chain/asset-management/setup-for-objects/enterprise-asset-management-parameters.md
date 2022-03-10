@@ -1,12 +1,10 @@
 ---
 title: 资产管理参数
 description: 在资产管理中，必须设置与资产、工作订单和工作订单计划编制有关的常用参数。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99ef5169d2c6a31efd3e7a7c92beade994f6e5f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252001"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105481"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 
@@ -51,7 +49,7 @@ ms.locfileid: "5252001"
 - **默认工作订单类型** 定义创建工作订单时的标准设置。  
 - **预防性工作订单类型** 定义在通过维护计划创建工作订单时使用的工作订单类型。 如果此字段保留为空，则使用 **默认工作订单类型** 字段中的工作订单类型。  
 - 在 **相关工作订单掩码** 字段中，定义可与工作订单关联的最大工作订单数。 l例如，## 表示允许最多关联 99 个工作订单。 如果按照此处的说明定义掩码，则相关工作订单的编码为 [工作订单关联的工作订单的工作订单 ID]-01、-02、-03，以此类推。 如果不在此字段中定义掩码，则相关工作订单采用下一个顺序工作订单 ID。  
-- 如果要将工作订单中登记的故障自动复制到相关维护请求，请对 **复制故障** 选择 **是**。 
+- 如果要将维护请求中登记的故障自动复制到相关工作订单，请对 **复制故障** 选择 **是**。 
 - 在 **级别** 字段中，定义当所有相关工作订单作业都引用同一个功能位置时，在工作订单中自动插入的功能位置。 如果并非所有工作订单作业都在定义的级别与同一个功能位置关联，则工作订单中的 **功能位置** 字段保留为空。 例如，如果在此字段中插入数字“1”，则这是功能位置结构中的最高级别。 如果在此字段中插入数字“0”，则仅当必须将工作订单中的所有工作订单作业与要添加到工作订单的该功能位置的同一个工作位置关联，则尚未定义具体功能位置级别。  
 - 可以在 **常规** 快速选项卡上的 **工时**、**物料** 和 **费用** 字段中选择过帐工作订单中的消耗时使用的日记帐。  
 - 在 **项目语言来源** 字段中，选择要为资产管理报表中的产品名使用的语言。 可选择公司帐户中设置的语言，或为当前登录的用户设置的语言。  
@@ -101,7 +99,7 @@ ms.locfileid: "5252001"
 
 ## <a name="the-document-types-tab"></a>“文档类型”选项卡
 
-选择应该可用于打印与工作订单报表关联的附件的单据类型。 方法是选择 **可用** 部分中的单据类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
+选择应该可用于打印与工作订单报表关联的附件的单据类型。 通过选择 **可用** 部分中的文档类型，以及选择 ![前进箭头](media/15-setup-for-objects.png) 按钮来完成此操作。 如果要删除所选单据类型，请在 **已选择** 部分中选择单据类型，然后选择 ![后退箭头](media/16-setup-for-objects.png)。
 
 ## <a name="the-number-sequences-tab"></a>“编号规则”选项卡
 

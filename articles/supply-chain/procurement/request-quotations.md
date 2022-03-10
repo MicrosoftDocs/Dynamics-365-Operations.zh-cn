@@ -1,26 +1,28 @@
 ---
 title: 询价 (RFQ) 概览
 description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910031"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983384"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
@@ -37,7 +39,7 @@ ms.locfileid: "5910031"
 
 下图显示询价流程的概览。
 
-[![RFQ 进程](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![询价流程。](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 您可以从计划订单、采购申请或者通过手动输入创建询价案例。 询价案例是用来向每个供应商发出询价的基础单据。
 
@@ -83,7 +85,7 @@ ms.locfileid: "5910031"
 - %到期日期时间%
 - %Date%
 
-%出价返回的原因%和%改正的原因%标志由采购专业人员在他或她完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
+%出价返回的原因%和%改正的原因%标志由采购专业人员在他们完成向导 **改正** 中的改正时可以输入的文本替换。 %Amendment prepared by% 和 %Company% 标志的值从询价自动获取。 %Date% 标志由当前日期替换。
 
 如果要在询价已发送之后将其取消，可通过询价案例执行。 若要取消，需要使用电子邮件模板向供应商的联系人发送取消通知。 必须在 **采购参数** 页上选择该模板。 在创建模板时，可以包含以下替换标志：
 

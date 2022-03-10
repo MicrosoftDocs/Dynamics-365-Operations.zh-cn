@@ -2,11 +2,9 @@
 title: 视频
 description: 此页列出 Microsoft 制作的与 Finance and Operations应用有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693561"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487983"
 ---
 # <a name="videos"></a>视频 
 
@@ -36,7 +34,6 @@ ms.locfileid: "4693561"
 
 ### <a name="data-integration"></a>数据集成
 
-- [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg)
 - [在 Dynamics 365 for Field Service 和 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>数据管理
@@ -86,12 +83,12 @@ ms.locfileid: "4693561"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance 的视频
 
+### <a name="business-document-management"></a>业务文档管理
+- [使用业务文档管理创建新业务文档](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>自定义应用程序
 - [添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [嵌入 Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>支出
-- [费用体验](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>财务报告
 - [查找报表设计器版本](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -117,6 +114,9 @@ ms.locfileid: "4693561"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 的视频
+
+### <a name="business-document-management"></a>业务文档管理
+- [使用业务文档管理创建新业务文档](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>成本
 - [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +167,6 @@ ms.locfileid: "4693561"
 [FastTrack 技术交流](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations)重点提供技术深度透析和最佳实践，为客户和合作伙伴提供专题范围特定的详细知识。 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

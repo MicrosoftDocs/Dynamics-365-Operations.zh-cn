@@ -1,7 +1,7 @@
 ---
 title: 设置主计划
 description: 此主题介绍用于设置主计划的各种重要策略和参数。
-author: t-benebo
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833393"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580712"
 ---
 # <a name="set-up-master-planning"></a>设置主计划
 
@@ -106,11 +106,11 @@ ms.locfileid: "5833393"
 
 ### <a name="operations-scheduling"></a>工序级排产
 
-您可以使用工序级排产以提供生产流程的持续时间的粗略估计。 工序级排产则不将该生产工艺路线中的工序分解为作业。 有关工序级排产的详细信息，请参阅[工序级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)。
+您可以使用工序级排产以提供生产流程的持续时间的粗略估计。 工序级排产则不将该生产工艺路线中的工序分解为作业。 有关工序级排产的详细信息，请参阅[工序级排产](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling)。
 
 ### <a name="job-scheduling"></a>作业级排产
 
-作业级排产是更详细的排产方法，在此类排产中，每道工序拆分为单独的任务或作业。 作业级排产中包含有关产能的信息。 通常用于即刻发生或在短期内发生的车间单个作业。 有关作业级排产的详细信息，请参阅[作业级排产](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
+作业级排产是更详细的排产方法，在此类排产中，每道工序拆分为单独的任务或作业。 作业级排产中包含有关产能的信息。 通常用于即刻发生或在短期内发生的车间单个作业。 有关作业级排产的详细信息，请参阅[作业级排产](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)。
 
 ## <a name="time-fences-in-days"></a>按天计算的时限
 
@@ -158,7 +158,7 @@ ms.locfileid: "5833393"
 
 可通过将 **行动消息** 选项设置为 **是**，覆盖主排产期间为物料定义的行动消息时限。 在此案例中，则输入主计划编制应该为需求生成行动消息的天数。 行动消息时限是基于当前日期向前推算的。
 
-有关行动消息的详细信息，请参阅[行动消息](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages)。
+有关行动消息的详细信息，请参阅[行动消息](/dynamics365/unified-operations/supply-chain/master-planning/action-messages)。
 
 > [!NOTE]
 > 计算行动消息会导致主计划的运行时间更长。 如果不定期（每天、每周等）分析和采用行动消息，请考虑在主计划运行期间关闭计算。 若要关闭计算，请为运行的主计划将 **主计划** 页上的 **行动消息** 时限设置为 **0**（零）。 并确保为所有覆盖范围组关闭 **行动消息** 设置。
@@ -223,7 +223,7 @@ ms.locfileid: "5833393"
 
 系统仅使用此时段内的计划供应订单，并且创建超出其范围的新计划订单。 动态负天数的优点是其中包含单个产品提前期，以便重复使用现有订单和避免创建将在之后某天因为提前期导致的延迟而结束的新计划订单。 
 
-有关详细信息，请参阅[负天数和动态负天数](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days)。
+有关详细信息，请参阅[负天数和动态负天数](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

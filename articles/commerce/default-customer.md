@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720951"
 ---
 # <a name="create-a-default-customer"></a>创建默认客户
 
@@ -47,7 +47,7 @@ ms.locfileid: "5799171"
 
 下图显示了几个已配置的客户组。
 
-![客户组](media/customer-groups.png)
+![客户组。](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>新建客户通讯簿
 
@@ -63,7 +63,7 @@ ms.locfileid: "5799171"
 
 下图显示了一个通讯簿示例。
 
-![通讯簿](media/address-book.png)
+![通讯簿。](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>创建默认客户
 
@@ -86,11 +86,11 @@ ms.locfileid: "5799171"
 
 下图显示客户创建的示例。
 
-![默认客户创建](media/default-customer-creation.png)
+![默认客户创建。](media/default-customer-creation.png)
 
 下图显示了默认的客户配置。
 
-![客户配置示例](media/default-customer-configuration1.png)
+![客户配置示例。](media/default-customer-configuration1.png)
 
 客户详细信息屏幕上的大多数默认值都可以保留，但是应该更改两个值。
 
@@ -100,7 +100,7 @@ ms.locfileid: "5799171"
 
 下图显示客户配置示例。
 
-![客户配置示例](media/default-customer-configuration2.png)
+![客户配置示例。](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>其他资源
 

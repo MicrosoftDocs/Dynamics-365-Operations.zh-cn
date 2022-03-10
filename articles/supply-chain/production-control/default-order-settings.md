@@ -1,7 +1,7 @@
 ---
 title: 维度和产品变型的默认订单设置
 description: 默认订单设置定义作为物料采购来源或存储物料的站点和仓库，在贸易或库存管理中将要使用的最低量、最高量、倍数和标准量，提前期，停止标志，以及订单承诺方法。
-author: t-benebo
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4e389a6af02b8ee30bc491606f72a2e8e250ef00
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193298"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102755"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -186,12 +186,9 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
 
 严格验证适用于在 **默认订单设置** 页的 **采购订单**、**库存** 和 **销售订单** 快速选项卡上指定的 **标准订单数量** 值。 每个快速选项卡都有自己的 **倍数** 设置，用于验证为该快速选项卡指定的 **标准订单数量** 值。
 
-### <a name="enable-the-strict-validation-option"></a>启用严格验证选项
+### <a name="turn-the-strict-validation-option-on-or-off"></a>打开或关闭严格验证选项
 
-必须先在系统上启用严格验证选项，然后才能够使用它。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 此功能在此处列出为：
-
-- **模块** - *产品信息管理*
-- **功能名称** - *严格验证默认订单数量*
+要使用严格验证，必须为您的系统开启 *对默认订单数量的严格验证*。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，您可以转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，搜索 *对默认订单数量的严格验证* 功能来打开或关闭此功能。
 
 ### <a name="set-the-validation-option"></a>设置验证选项
 

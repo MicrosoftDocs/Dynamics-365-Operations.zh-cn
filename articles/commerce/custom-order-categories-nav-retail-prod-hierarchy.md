@@ -12,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 54929f924bd9c2b59dec453cf580e0b2bc149d38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799461"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779534"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 零售商将产品发现视为所有渠道中的主要客户互动工具。 可通过大量功能帮助客户轻松发现产品。 例如，可以浏览类别，进行搜索或使用筛选。
 
@@ -51,9 +51,9 @@ ms.locfileid: "5799461"
 
 将在商业产品层次结构和按类别的已发布产品的 HQ 中体现渠道导航层次结构的显示顺序。
 
-![使用负值排序的产品层次结构自定义](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![使用负值排序的产品层次结构自定义。](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![基于产品层次结构按类别自定义排序的已发布产品](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![基于产品层次结构按类别自定义排序的已发布产品。](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>配置渠道导航层次结构中的类别的显示顺序
 
@@ -77,14 +77,14 @@ ms.locfileid: "5799461"
 
 将在 HQ、目录和渠道中体现渠道导航层次结构的显示顺序。
 
-![已为渠道导航层次结构自定义排序](./media/ChannelNavCustomSorted.png)
+![已排序渠道导航层次结构自定义。](./media/ChannelNavCustomSorted.png)
 
-![已基于渠道导航层次结构为目录导航层次结构自定义排序](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![基于渠道导航层次结构排序的目录导航层次结构自定义。](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![具有自定义排序的类别的 POS](./media/POSChannelCategoriesCustomSorted.png)
+![具有自定义排序的类别的 POS。](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
+> 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

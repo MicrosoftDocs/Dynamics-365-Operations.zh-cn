@@ -1,7 +1,7 @@
 ---
 title: 分类帐分配规则
 description: 本文提供有关分类帐分配规则的信息。 介绍这些分配规则的各个组件和可为其使用的分配方法。
-author: ShylaThompson
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61b332470a42d23ec039c7a32529f84e8e5c9d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826562"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726863"
 ---
 # <a name="ledger-allocation-rules"></a>分类帐分配规则
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关分类帐分配规则的信息。 介绍这些分配规则的各个组件和可为其使用的分配方法。
+本主题提供有关分类帐分配规则的信息。 介绍这些分配规则的各个组件和可为其使用的分配方法。
 
 分类帐分配规则用于自动计算并生成分配日记帐和科目分录，以便分配分类帐余额或固定金额。 分配方法可以是可变的，也可以是固定的。 以下分配方法可用于分类帐分配规则：
 

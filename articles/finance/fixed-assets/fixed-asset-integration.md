@@ -1,12 +1,10 @@
 ---
 title: 固定资产集成
 description: 固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 145fb91ad167c3201a5516e7115a9a401bb204c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994932"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674767"
 ---
 # <a name="fixed-assets-integration"></a>固定资产集成
 
@@ -30,8 +28,7 @@ ms.locfileid: "4994932"
 
 固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
 
-<a name="general-ledger"></a>总帐
---------------
+## <a name="general-ledger"></a>总帐
 
 在总帐中，所有固定资产的值通常都汇总到进行财务报告时所需的多个主科目。 但是，在 **固定资产** 页中，您可以创建许多固定资产记录。 这些记录可以包含诸如购置价格、折旧和评估等信息。 只要过帐固定资产的交易记录，就会更新相应的主科目。 固定资产的主科目始终显示固定资产的更新值。
 
@@ -94,3 +91,6 @@ ms.locfileid: "4994932"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

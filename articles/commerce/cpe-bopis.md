@@ -1,7 +1,7 @@
 ---
 title: 在 Dynamics 365 Commerce 评估环境中配置 BOPIS
 description: 本主题说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在此环境中配置“线上购买，店内提货”(BOPIS)。
-author: rubendel
+author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936902"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779786"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>在 Dynamics 365 Commerce 评估环境中配置 BOPIS
 
@@ -54,7 +54,7 @@ ms.locfileid: "5936902"
 4. 选择 **下载**，然后选择 **Retail Modern POS**。 
 5. 当下载 **ModernPOSSetup.exe** 文件完成后，选择 **打开文件**。
 
-    ![打开文件](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![打开文件。](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. 选择 **下一步** 逐步完成安装流程。 安装完成后，选择 **关闭**。
 

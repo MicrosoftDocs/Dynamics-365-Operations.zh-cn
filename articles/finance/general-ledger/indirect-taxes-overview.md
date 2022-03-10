@@ -1,28 +1,28 @@
 ---
 title: 销售税概览
 description: 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ab8a92af77151b7d0ce7fd9ff625064736ccd2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249039"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983920"
 ---
 # <a name="sales-tax-overview"></a>销售税概览
 
@@ -30,14 +30,13 @@ ms.locfileid: "5249039"
 
 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 
-<a name="overview"></a>概览
---------
+## <a name="overview"></a>概览
 
 销售税框架支持许多类型的间接税收，例如销售税、增值税 (VAT)，商品劳务税 (GST)，基于单位的费用和预缴税金。 这些税在采购和销售交易记录期间计算和记录。 它们必须定期申报和支付给税务主管机构。 
 
 下图显示税务设置的实体，以及它们如何关联。
 
-[![显示税务设置实体概览的图](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![显示税务设置实体概览的图。](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 对于公司必须考虑的每个销售税，必须定义销售税代码。 销售税代码存储销售税的税率和计算规则。 
 

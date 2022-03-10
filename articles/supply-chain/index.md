@@ -2,25 +2,25 @@
 title: Supply Chain Management 主页
 description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909783"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487855"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 
@@ -62,7 +62,6 @@ ms.locfileid: "5909783"
 
 这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。
 
-- [目标客户到现金集成](https://youtu.be/AVV9x5x-XCg) 
 - [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [使用仓库模板复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -80,8 +79,8 @@ ms.locfileid: "5909783"
   - [成本管理概览](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **主计划：**
   - [扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [主计划 - 关于排查性能问题的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
-  - [求助！MRP 太慢！](https://youtu.be/RLXybx20B5o)
+  - [主计划 - 关于排查绩效问题的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
+  - [MRP 绩效优化](https://youtu.be/RLXybx20B5o)
 - **产品信息管理：**
   - [Microsoft Dynamics AX 中的产品配置器](https://youtu.be/zotrj3SbCl4)
 - **仓库管理：**

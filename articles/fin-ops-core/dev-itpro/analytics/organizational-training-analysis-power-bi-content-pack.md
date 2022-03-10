@@ -2,7 +2,6 @@
 title: 组织培训 Power BI 内容
 description: 此主题介绍 Finance and Operations - 组织培训 Power BI 内容。
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de81c0268b0eb726ff3119bfef53a64d372df6d8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763540"
 ---
 # <a name="organizational-training-power-bi-content"></a>组织培训 Power BI 内容
 

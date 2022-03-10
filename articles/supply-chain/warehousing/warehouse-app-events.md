@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729978"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103255"
 ---
 # <a name="warehouse-app-event-processing"></a>仓库应用事件处理
 
@@ -26,12 +26,9 @@ ms.locfileid: "6729978"
 
 在 Supply Chain Management 中运行的批处理作业可以使用队列中的数据来处理仓库管理移动应用发出的事件，以根据需要对发出信号的事件做出反应。 此功能将相关事件添加到队列中，以响应工作人员使用该应用执行的某些类型的操作。 例如，当使用 *通过仓库应用创建和处理转移单* 功能时，如果系统在运行 **处理仓库应用事件** 批处理作业，将在后端创建和更新转移单标题和行。
 
-## <a name="enable-the-process-warehouse-app-events-feature"></a>启用处理仓库应用事件功能
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>打开或关闭处理仓库应用事件功能
 
-此功能只有在系统中启用了之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。 处理仓库应用事件功能列出为：
-
-- **模块** - 仓库管理
-- **功能名称** - 处理仓库应用事件
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *处理仓库应用事件* 功能来打开或关闭此功能。
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>设置批处理作业以处理仓库应用事件
 

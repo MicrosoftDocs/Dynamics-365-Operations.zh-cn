@@ -2,34 +2,31 @@
 title: 工作策略
 description: 本主题说明如何设置工作策略。
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4423409"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571153"
 ---
 # <a name="work-policies"></a>工作策略
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置系统和仓库应用，让它们支持工作策略。 您可以使用此功能在收到采购订单或转移单或完成制造流程时快速登记库存，而无需创建储存工作。 本主题提供一般性信息。 有关牌照接收的详细信息，请参阅[通过仓库应用进行的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
+本主题说明如何设置系统和仓库管理移动应用，让它们支持工作策略。 您可以使用此功能在收到采购订单或转移单或完成制造流程时快速登记库存，而无需创建储存工作。 本主题提供一般性信息。 有关牌照接收的详细信息，请参阅[通过仓库管理移动应用的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
 
-工作策略控制在将制造的物料报告为完工入库时，或在使用仓库应用接收商品时是否创建仓库工作。 您可以通过定义工作策略所应用的条件来设置每个工作策略：工作订单类型和流程、库存位置和（可选）产品。 例如，必须在仓库 *24* 的位置 *RECV* 接收产品 *A0001* 的采购订单。 以后，该产品将在位置 *RECV* 的另一个流程中使用。 在这种情况下，您可以设置工作策略来阻止当工作人员报告在位置 *RECV* 接收的产品 *A0001* 时创建储存工作。
+工作策略控制在将制造的物料报告为完工入库时，或在使用仓库管理移动应用接收商品时是否创建仓库工作。 您可以通过定义工作策略所应用的条件来设置每个工作策略：工作订单类型和流程、库存位置和（可选）产品。 例如，必须在仓库 *24* 的位置 *RECV* 接收产品 *A0001* 的采购订单。 以后，该产品将在位置 *RECV* 的另一个流程中使用。 在这种情况下，您可以设置工作策略来阻止当工作人员报告在位置 *RECV* 接收的产品 *A0001* 时创建储存工作。
 
 > [!NOTE]
 > - 为了使工作策略生效，您必须在 **工作策略** 页面的 **库存位置** 快速选项卡上为其至少定义一个位置。 
@@ -203,7 +200,7 @@ ms.locfileid: "4423409"
 
 在以下示例中，有两个生产订单，*PRD-001* 和 *PRD-002*。 生产订单 *PRD-001* 具有名为 *装配* 的工序，其中的产品 *SC1* 正报告为完工入库到位置 *001*。 生产订单 *PRD-002* 具有名为 *喷涂* 的工序，使用来自位置 *001* 的产品 *SC1*。 生产订单 *PRD-002* 还使用来自位置 *001* 的原材料 *RM1*。 原材料 *RM1* 存储在仓库位置 *BULK-001*，将通过原材料领料的仓库工作领取到位置 *001*。 生产 *PRD-002* 发放时生成领料工作。
 
-[![仓库工作策略](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![仓库工作策略。](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 当您计划为此方案配置仓库工作策略时，您应该考虑以下几点：
 
@@ -298,6 +295,9 @@ ms.locfileid: "4423409"
 
 有关移动设备菜单项的详细信息，请参阅[为仓库工作设置移动设备](configure-mobile-devices-warehouse.md)。
 
-有关牌照接收和工作策略的详细信息，请参阅[通过仓库应用进行的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
+有关牌照接收和工作策略的详细信息，请参阅[通过仓库管理移动应用的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
 
 有关入站负荷管理的详细信息，请参阅[仓库对采购订单入站负荷的处理](inbound-load-handling.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

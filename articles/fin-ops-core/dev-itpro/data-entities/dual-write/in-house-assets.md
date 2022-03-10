@@ -1,80 +1,45 @@
 ---
-title: 需服务的内部资产
-description: 此主题介绍如何使用 Microsoft Dtnamics 365 Field Service 服务客户资产和内部资产。
+title: 用于服务的内部资产
+description: 本主题介绍如何使用 Microsoft Dynamics 365 Field Service 为客户资产和内部资产服务。
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: d4d681b2362c90b69007ea44c01c886f96cc1db1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568070"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781408"
 ---
 # <a name="in-house-assets-for-servicing"></a>用于服务的内部资产
 
 [!include [banner](../../includes/banner.md)]
 
-
-
 Microsoft Dynamics 365 Field Service 用于服务客户资产。 Dynamics 365 Supply Chain Management 的资产管理用于维护内部资产。 这两个应用程序的集成让您可以使用 Field Service 服务客户资产和内部资产。 也可以根据功能位置层次结构为资产分类，以及以详细级别跟踪服务。
 
-有关详细信息，请参阅[集成 Dynamics 365 Field Service 和 Supply Chain Management](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration)。
+有关详细信息，请参阅[集成 Dynamics 365 Field Service 和 Supply Chain Management](/dynamics365/field-service/supply-chain-field-service-integration)。
 
 ## <a name="templates"></a>模板
 
 内部资产包括核心表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | Dynamics 365 中的模型驱动应用 | 说明 |
+| Finance and Operations 应用 | 客户互动应用 | 说明 |
 |-----------------------------|-----------------------------------|-------------|
-| 资产管理资产生命周期模型 | msdyn\_assetlifecyclemodels | |
-| 资产管理资产生命周期状态 | msdyn\_assetlifecyclestates | |
-| 资产管理资产 | msdyn\_customerassets | |
-| 资产管理资产类型 | msdyn\_customerassetcategories | |
-| 资产管理功能位置生命周期模型 | msdyn\_functionallocationlifecyclemodels | |
-| 资产管理功能位置生命周期状态 | msdyn\_functionallocationlifecyclestates | |
-| 资产管理功能位置 | msdyn\_functionallocations | |
-| 资产管理功能位置类型 | msdyn\_functionallocationtypes | |
-| 资产管理制造商 | msdyn\_manufacturers | |
-| 资产管理模型 | msdyn\_models | |
-| 资产管理保修 | msdyn\_warranties | |
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [lifecycle models](includes/AssetManagementAssetLifecycleModels-msdyn-assetlifecyclemodels.md)]
-
-[!include [lifecycle states](includes/AssetManagementAssetLifecycleStates-msdyn-assetlifecyclestates.md)]
-
-[!include [assets](includes/AssetManagementAssets-msdyn-customerassets.md)]
-
-[!include [asset types](includes/AssetManagementAssetTypes-msdyn-customerassetcategories.md)]
-
-[!include [functional location lifecycle models](includes/AssetManagementFunctionalLocationLifecycleModels-msdyn-functionallocationlifecyclemodels.md)]
-
-[!include [functional location lifecycle states](includes/AssetManagementFunctionalLocationLifecycleStates-msdyn-functionallocationlifecyclestates.md)]
-
-[!include [functional locations](includes/AssetManagementFunctionalLocations-msdyn-functionallocations.md)]
-
-[!include [functional location types](includes/AssetManagementFunctionalLocationTypes-msdyn-functionallocationtypes.md)]
-
-[!include [manufacturers](includes/AssetManagementManufacturers-msdyn-manufacturers.md)]
-
-[!include [models](includes/AssetManagementModels-msdyn-models.md)]
-
-[!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
-
+[资产管理资产生命周期模型](mapping-reference.md#119) | msdyn_assetlifecyclemodels | |
+[资产管理资产生命周期状态](mapping-reference.md#120) | msdyn_assetlifecyclestates | |
+[资产管理资产类型](mapping-reference.md#124) | msdyn_customerassetcategories | |
+[资产管理资产](mapping-reference.md#125) | msdyn_customerassets | |
+[资产管理功能位置生命周期模型](mapping-reference.md#134) | msdyn_functionallocationlifecyclemodels | |
+[资产管理功能位置生命周期状态](mapping-reference.md#135) | msdyn_functionallocationlifecyclestates | |
+[资产管理功能位置类型](mapping-reference.md#137) | msdyn_functionallocationtypes | |
+[资产管理功能位置](mapping-reference.md#136) | msdyn_functionallocations | |
+[资产管理制造商](mapping-reference.md#153) | msdyn_manufacturers | |
+[资产管理模型](mapping-reference.md#154) | msdyn_models | |
+[资产管理保修](mapping-reference.md#209) | msdyn_warranties | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

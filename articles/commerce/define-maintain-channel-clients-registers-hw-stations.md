@@ -1,7 +1,7 @@
 ---
 title: 将外设连接到销售点 (POS)
 description: 此主题介绍如何将外设连接到 Retail POS。
-author: rubencdelgado
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802037"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779510"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
@@ -78,7 +78,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>具有连接的外设的 MPOS
 
-[![传统的固定销售点](./media/traditional-300x279.png)](./media/traditional.png)
+[![传统的固定销售点。](./media/traditional-300x279.png)](./media/traditional.png)
 
 若要在传统的固定 POS 情景中将 MPOS 连接到 POS 外设，首先导航到收银机本身，并为其分配一个硬件配置文件。 您可以在 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机** 中找到 POS 收银机。 
 
@@ -97,7 +97,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>具有独立硬件工作站的 MPOS 或 Cloud POS
 
-[![共享外设](./media/shared-300x254.png)](./media/shared.png)
+[![共享外设。](./media/shared-300x254.png)](./media/shared.png)
 
 在这种情况下，独立硬件工作站在 MPOS 和 Cloud POS 客户端之间共享。 这种情况要求您创建硬件工作站配置文件以指定下载包、端口和硬件工作站使用的硬件配置文件。 您可以在 **Retail 和 Commerce** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件工作站配置文件** 中找到硬件工作站配置文件。 
 

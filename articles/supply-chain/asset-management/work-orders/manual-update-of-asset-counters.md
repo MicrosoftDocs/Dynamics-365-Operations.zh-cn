@@ -1,12 +1,10 @@
 ---
 title: 手动更新资产计数器
 description: 本主题介绍如何在资产管理中手动更新资产计数器。
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6dfea7ca166948f507a1cdea20f3e4cce16080ce
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776426"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 
@@ -56,7 +54,7 @@ ms.locfileid: "5219477"
 
 下图显示了 **资产计数器** 页面的示例。
 
-![图 1](media/11-work-orders.png)
+![图 1.](media/11-work-orders.png)
 
 在 **资产计数器** 页面上（**资产管理** > **查询** > **资产** > **资产计数器**），您可以根据需要同时对多个资产进行计数器登记。
 

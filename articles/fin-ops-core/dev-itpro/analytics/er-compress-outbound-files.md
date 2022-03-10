@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718591"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>压缩在电子报告中生成的大型文档 
 
@@ -55,7 +55,7 @@ ms.locfileid: "5894164"
 1. [运行导入的格式](er-defer-xml-element.md#run-the-imported-format)。
 2. 请注意，以 XML 格式生成的文档的大小为 3 KB。
 
-    ![预览未压缩的传出文档](./media/er-compress-outbound-files1.png)
+    ![未压缩的传出文档预览。](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>修改格式以压缩生成的输出
 
@@ -80,7 +80,7 @@ ms.locfileid: "5894164"
     > [!NOTE] 
     > 此 zip 文件保留的 XML 文件的压缩率为 87%。 压缩率取决于要压缩的数据。
 
-    ![预览压缩的传出文档](./media/er-compress-outbound-files2.png)
+    ![压缩的传出文档预览。](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > 如果为生成输出的格式元素（此示例中的 **报表** 元素）配置了 ER [目标](electronic-reporting-destinations.md)，将跳过输出压缩。

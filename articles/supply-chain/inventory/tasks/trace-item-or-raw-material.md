@@ -1,7 +1,7 @@
 ---
 title: 跟踪物料或原材料
 description: 该过程演示如何使用物料跟踪确定使用或正在使用物料或原材料的位置。
-author: pjacobse
+author: yufeihuang
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c01cabf32542798f70720ab0db7d055fc54cf345
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829804"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575816"
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 

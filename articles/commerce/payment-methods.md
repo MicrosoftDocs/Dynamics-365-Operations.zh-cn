@@ -1,8 +1,8 @@
 ---
 title: 付款方式
 description: 设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 414b49d1099575f1626c29e8f3b07f522e3ab370
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804495"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779562"
 ---
 # <a name="payment-methods"></a>付款方式
 
@@ -47,5 +47,10 @@ ms.locfileid: "5804495"
 3. 设置商店付款方式。 将付款方式与每个商店，然后输入每个特定于商店设置的付款方式。
 4. 为存储设置卡付款方式。 对于商店接收的所有卡支付方式，请完成卡设置。
 
+## <a name="handle-change-tendering-for-payment-methods"></a>处理付款方式的找零支付方式
+
+如果在销售点交易期间应将资金返还给客户，某些付款方式不支持直接找零支付方式。 只有 **现金** 和 **货币** 付款方式可用于找零支付方式。 
+
+处理交易过程中需要找零支付方式，但付款方式不支持的情况，可以定义 **找零支付方式** 付款方式。 为商店设置商店付款方式时，选择要使用的付款方式。 然后，在 **找零** 部分，在 **找零支付方式** 字段中，输入找零支付方式付款选项。 例如，您可以输入 **1** 表示现金可以用作找零支付方式付款选项。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

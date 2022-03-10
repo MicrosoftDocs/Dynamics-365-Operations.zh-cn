@@ -2,11 +2,9 @@
 title: 通过添加原始 XML 格式的内容创建报表
 description: 可以设计电子申报 (ER) 格式以生成 XML 格式的传出单据。
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 824d6bdf53cacbd81004a009e4019b5ab7e5cff0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 160f27f4f44ab6982addb7294db889e2a8dbfcfbc03f7849548c44364b070aa9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749672"
 ---
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>通过将内容添加为原始 XML 生成报告
 
@@ -37,3 +35,6 @@ ms.locfileid: "4686707"
 > 请注意，此框架不控制通过使用 **原始 XML** 格式元素放入生成的单据中的 XML 内容是否正确。
 
 若要了解有关此功能的详细信息，请播放 **ER 使用原始 XML 数据生成 XML 报表（第 1 部分：设计数据模型）** 和 **ER 使用原始 XML 数据生成 XML 报表（第 2 部分：设计和运行报表）** 任务指南，这些任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案 (10677)** 业务流程，可以从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载。 这些任务指南引导您完成配置 ER 格式以将原始 XML 数据插入生成的文件中这一过程。
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

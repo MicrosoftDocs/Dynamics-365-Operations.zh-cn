@@ -2,7 +2,7 @@
 title: 配置从 SharePoint 的数据导入
 description: 本主题介绍如何从 Microsoft SharePoint 导入数据。
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675337"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074758"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
@@ -192,11 +192,11 @@ ms.locfileid: "7675337"
 
 ## <a name=""></a><a name="limitations">限制</a>
 
-ER 框架不提供启动新批处理作业的功能，该作业将以无人参与模式执行模型映射以进行数据导入。 为此，您必须开发新的逻辑，以便可以从应用程序用户界面 (UI) 调用配置的 ER 模型映射，以从传入文件中导入数据。 因此，需要一些工程工作。 
+在版本 10.0.25 之前的 Dynamics 365 Finance 版本中，ER 框架的用户界面 (UI) 不提供启动新批处理作业的功能，该作业将以无人参与模式运行模型映射以进行数据导入。 您必须开发新的逻辑，以便可以从应用程序 UI 调用配置的 ER 模型映射，以从传入文件中导入数据。 要开发此逻辑，需要完成一些工程工作。 
 
-要了解有关 ER API 的详细信息，请参阅[针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)中的[用于运行格式映射以导入数据的代码](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import)部分。
+有关 ER API 的详细信息，请参阅[针对应用程序更新 7.3 的 ER 框架 API 更改](er-apis-app73.md)中的[用于运行格式映射以导入数据的代码](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import)一节。 查看 `Application Suite` 模型的 `BankImport_RU` 类中的代码，以了解如何实现自定义逻辑。 `BankImport_RU` 类扩展了 `RunBaseBatch` 类。 特别是，查看 `runER()` 方法，在此方法中，创建的 `ERIModelMappingDestinationRun` 对象充当 ER 模型映射的运行器。
 
-查看 `Application Suite` 模型的 `BankImport_RU` 类中的代码，以了解如何实现自定义逻辑。 此类扩展了 `RunBaseBatch` 类。 特别是，查看 `runER()` 方法，在此方法中，创建的 `ERIModelMappingDestinationRun` 对象充当 ER 模型映射的运行器。
+在 Finance 版本 10.0.25 及更高版本中，ER 框架 UI 会提供启动新批处理作业的功能，该作业将以无人参与模式运行模型映射以进行数据导入。 有关此流程的详细信息，请参阅[在批处理模式下从手动选择的文件导入数据](er-configure-data-import-batch.md)。
 
 ## <a name="additional-resources"></a>其他资源
 
@@ -205,6 +205,8 @@ ER 框架不提供启动新批处理作业的功能，该作业将以无人参�
 [针对 Application update 7.3 的 ER API 更改](er-apis-app73.md)
 
 [针对 Application update 10.0.23 的 ER API 更改](er-apis-app10-0-23.md)
+
+[针对 Application update 10.0.25 的 ER API 更改](er-apis-app10-0-25.md)
 
 
 

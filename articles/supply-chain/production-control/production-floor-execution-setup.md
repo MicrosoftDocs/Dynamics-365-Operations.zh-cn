@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814698"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752824"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>设置设备以运行生产车间执行界面
 
@@ -28,9 +28,9 @@ ms.locfileid: "5814698"
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>为特定设备设置配置和筛选器
 
-若要为设备设置配置和作业筛选器，请使用具有包括 *维护时间主管* 责任的安全角色的帐户登录到 **生产车间执行** 页面。 （在开箱即用的安全角色中，仅 *车间主管* 具有此责任。）然后，按照以下步骤操作。
+若要为设备设置配置和作业筛选器，请使用具有包括 *维护时间监管* 责任的安全角色的帐户登录到 **生产车间执行** 页面。 （在开箱即用的安全角色中，仅 *车间主管* 具有此责任。）然后，按照以下步骤操作。
 
-1. 转到要设置的设备，然后以车间主管的身份登录到 Microsoft Dynamics 365 Supply Chain Management。 （使用包括 *维护时间主管* 责任的帐户。）
+1. 转到要设置的设备，然后以车间主管的身份登录到 Microsoft Dynamics 365 Supply Chain Management。 （使用包括 *维护时间监管* 责任的帐户。）
 1. 确保为您要设置的设备提供配置。 如果尚无配置，则提供默认配置。 有关如何设置配置的详细信息，请参阅[配置生产车间执行界面](production-floor-execution-configure.md)。
 1. 转到 **生产控制 \> 制造执行 \> 生产车间执行**。
 
@@ -70,7 +70,7 @@ ms.locfileid: "5814698"
 
 下图的上部显示了默认情况下界面的外观。 下部显示了隐藏导航窗格时全屏模式下界面的外观。
 
-![标准与全屏界面](media/pfei-full-screen.png "标准与全屏界面")
+![标准与全屏界面。](media/pfei-full-screen.png "标准与全屏界面")
 
 ## <a name="extend-the-session-past-12-hours"></a>将会话延长超过 12 小时
 

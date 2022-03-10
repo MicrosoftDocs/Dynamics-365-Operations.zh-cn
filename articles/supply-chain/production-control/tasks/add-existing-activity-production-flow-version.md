@@ -1,28 +1,25 @@
 ---
 title: 将现有活动添加到生产流版本
 description: 创建生产流的新版本时，可以选择将为较低版本创建的活动添加到新版本。
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityAddExisting, PlanActivityAddExistingLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f95958e57b1b1a93e43eb2cf02d2651ccb9587b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f73274c6e102df3007793e027587793d87c4f83
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422732"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579296"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>将现有活动添加到生产流版本
 
@@ -56,3 +53,6 @@ ms.locfileid: "4422732"
 3. 在“活动”字段中，输入或选择一个值。
 4. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: 越库配送的自动下达装运
 description: 本主题介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库，以便将数量直接从生产输出位置移动到出库货位。
-author: omulvad
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831426"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577928"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>越库配送的自动下达装运
 

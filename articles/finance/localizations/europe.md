@@ -1,24 +1,23 @@
 ---
 title: 欧洲概览
 description: 此主题提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750271"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982086"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -94,6 +93,8 @@ ms.locfileid: "6750271"
   - [创建和提交增值税报表](tasks/create-submit-vat-report.md)
   - [查看东欧结算的交易记录](emea-transactions-settlement-form.md)
   - [起税日期（增值税登记簿日期）](emea-tax-point-date.md)
+  - [供应商增值税登记簿的日期](emea-date-vendor-VAT-register.md)
+- [财务原因功能扩展](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>其他资源
 

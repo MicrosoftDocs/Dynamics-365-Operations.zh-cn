@@ -1,12 +1,10 @@
 ---
 title: 创建催款单序列
-description: 使用此任务指南创建收款单序列。
-author: mikefalkner
-manager: AnnBe
-ms.date: 07/22/2019
+description: 使用此过程创建催款单序列。
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
@@ -15,28 +13,28 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2500bdaa7107c24f7cb95249208b7ac2a2958fed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971545"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921191"
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
 
 [!include [banner](../../includes/banner.md)]
 
-使用此任务指南创建收款单序列。 此任务使用 USMF 公司演示。
+使用此过程创建催款单序列。 此任务使用 USMF 公司演示。
 
 1. 在导航窗格中，转到 **模块 > 信用和收款 > 设置 > 设置催款单序列**。
 2. 单击 **新建**。
 3. 在 **收款单序列** 字段中，输入要代表序列的序列 ID。 将使用该 ID 设置过帐模板。
 4. 在 **描述** 字段中，键入一个值。  付款期限是可选的。 如果您在此处输入一个值，则收款单费用发票将使用这些付款期限，而非客户所保留的付款期限。  
 5. 在 **收款单代码** 字段中，选择您想要发送的第一个收款单代码。 根据发票上的截止日期、您在“天数”字段中输入的宽限期值以及您在此行中输入的其它信息创建第一个收款单。  
-6. 在 **描述** 字段中，键入一个值。 该费用的币种默认为客户币种。 此币种代码可以不同于发票币种。  
-7. 单击 **添加**，添加下一个被发送至序列的收款单。 在大多数情况下，第一个收款单仅是警告。 您可以根据需要添加费用。  
-8. 在“收款单代码”字段中，选择下一个被发送至序列的收款单。
-9. 在 **描述** 字段中，键入一个值。
+6. 在 **描述** 字段中，键入一个值。 
+7. 该费用的默认货币为法人货币。 此币种代码可以不同于发票币种。   
+8. 单击 **添加**，添加下一个被发送至序列的收款单。 在大多数情况下，第一个收款单仅是警告。 您可以根据需要添加费用。  
+9. 在 **收款单代码** 字段中，选择下一个被发送至序列的收款单。
 10. 在 **主帐单** 字段中，选择用于费用的收入帐户。
 11. 在将收款单过帐时输入要收取的费用。
 12. 在 **物料销售税组** 字段中，单击下拉按钮以打开查找。 如果销售税额必须计算在费用中，请选择物料销售税组。  
@@ -58,3 +56,6 @@ ms.locfileid: "4971545"
 26. 展开 **注释** 快速选项卡。
 27. 输入显示在所选收款单代码的收款单文本。 您可以应用注释框上方的“翻译菜单”将此文本翻译为多种语言。  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

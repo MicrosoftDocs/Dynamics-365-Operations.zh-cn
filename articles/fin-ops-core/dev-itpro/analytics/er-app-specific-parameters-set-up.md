@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733455"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927446"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>为每个法人设置 ER 格式的参数
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -226,6 +224,16 @@ ER 格式的特定于应用程序的参数依赖于法人。 要重用为另一�
 如果您为 ER 格式的一个版本配置特定于应用程序的参数，然后将相同格式的更高版本导入当前 Finance 实例，现有的特定于应用程序的参数将不会应用于导入的版本，除非您使用 **使用先前版本的 ER 格式中的应用程序特定参数** 功能。 有关详细信息，请参阅本主题后面的[重用现有参数](#reuse-existing-parameters)一节。
 
 当选择要导入的文件时，该文件中特定于应用程序的参数的结构将与为导入选择的 ER 格式中的 **查找** 类型的相应数据源的结构进行比较。 默认情况下，仅当每个特定于应用程序的参数的结构与为导入选择的 ER 格式的相应数据源的结构匹配时，才完成导入。 如果结构不匹配，一条警告消息会通知您无法完成导入。 如果您强制导入，将清除所选 ER 格式的现有的特定于应用程序的参数，您必须从头开始进行设置。
+
+
+从 Dynamics 365 Finance 版本 10.0.24 开始，您可以通过启用 **功能管理** 工作区的 **导入时对齐电子报告应用程序特定的参数** 功能来更改默认行为，避免收到警告消息。 启用此功能后，如果您导入的应用程序特定参数的结构与为导入选择的目标 ER 格式的相应数据源的结构不同，导入将在以下情况下成功：
+
+- 通过向 **查找** 类型的任何现有数据源添加新条件列，目标 ER 格式的结构已更改。 导入完成后，应用程序特定参数已更新。 在所有导入的应用程序特定参数记录中，每个添加的条件列中的值都使用该列的[数据类型](er-formula-supported-data-types-primitive.md)的默认值进行了初始化。
+- 通过从 **查找** 类型的任何现有数据源中删除某些条件列，目标 ER 格式的结构已更改。 导入完成后，应用程序特定参数已更新。 在应用程序特定参数的所有导入的记录中，每个已删除的条件列中的值都被删除。
+- 通过添加 **查找** 类型的新数据，目标 ER 格式的结构已更改。 导入完成后，添加的查找将追加到特定于应用程序的参数。
+- 通过删除某些 **查找** 类型的现有数据源，目标 ER 格式的结构已更改。 导入完成后，与从目标 ER 格式中删除的 **查找** 类型的数据源相关的所有项目都被从导入的应用程序特定参数中删除。
+
+导入完成后，除了刚刚描述的更改之外，导入的应用程序特定参数的状态更改为 **进行中**。 警告消息通知您，必须手动编辑自动调整后的应用程序特定参数。
 
 ### <a name="reuse-existing-parameters"></a>重用现有参数
 

@@ -1,7 +1,7 @@
 ---
 title: 计划负载利用率
 description: 本主题介绍如何设置和计划仓库的负载。
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4d259fd6c27ac96475c49c431e347ca0c03a9e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 728cf6e0b1bce660328f970176c218f66646ec8a
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817309"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902063"
 ---
 # <a name="schedule-load-utilization"></a>计划负载利用率
 

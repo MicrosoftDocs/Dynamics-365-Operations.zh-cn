@@ -1,8 +1,8 @@
 ---
-title: 改进预测模型（预览）
+title: 改进预测模型
 description: 本主题介绍可用于改善预测模型性能的功能。
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809998"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595029"
 ---
-# <a name="improve-the-prediction-model-preview"></a>改进预测模型（预览）
+# <a name="improve-the-prediction-model"></a>改进预测模型
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 本主题介绍可用于改善预测模型性能的功能。 您开始在 Microsoft Dynamics 365 Finance 中的 **客户付款预测** 工作区中开始改进模型。 然后在 AI Builder 中完成改进步骤。
 
@@ -33,7 +32,7 @@ ms.locfileid: "5809998"
 
 您首先选择三种可能的发票结果中的一个或多个：**按时**、**逾期** 和 **严重逾期**。 应选择所有三个结果。 如果您清除任何结果的选择，发票将被从训练过程中筛选掉，并且预测的准确性将降低。
 
-[![确认结果](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![确认结果。](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 如果您的组织仅需要两个结果，则将 **逾期** 和 **严重逾期** 阈值设置为 0（零）天。 这样，您可以有效地将预测折叠为二进制状态 **按时** 或 **逾期**。
 
@@ -51,7 +50,7 @@ ms.locfileid: "5809998"
 
 下图显示可用于发票表的字段。
 
-[![发票表的可用字段](./media/available-fields.png)](./media/available-fields.png)
+[![发票表的可用字段。](./media/available-fields.png)](./media/available-fields.png)
 
 不应选择以下字段进行训练：
 
@@ -66,7 +65,7 @@ ms.locfileid: "5809998"
 
 下图显示可用于客户表的字段。
 
-[![客户表的可用字段](./media/related-entities.png)](./media/related-entities.png)
+[![客户表的可用字段。](./media/related-entities.png)](./media/related-entities.png)
 
 不应选择以下字段进行训练：
 
@@ -74,12 +73,8 @@ ms.locfileid: "5809998"
 
 ## <a name="filters"></a>筛选器
 
-筛选器当前不支持“客户付款预测器”方案。 因此，请选择 **跳过此步骤**，然后转到摘要页面。
+您可以通过为发票上或客户表中的字段设置筛选条件来筛选用于培训的发票。 例如，您可以设置一个阈值以仅包括总金额等于或超过特定金额的发票。 或者，您可以排除与特定客户组中的客户关联的发票。
 
-[![带筛选器的焦点模型](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-
+有关筛选数据的详细信息，请参阅[创建预测模型](/ai-builder/prediction-create-model#filter-your-data)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

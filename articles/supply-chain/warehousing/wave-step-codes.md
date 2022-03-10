@@ -1,12 +1,10 @@
 ---
 title: 波次步骤代码
 description: 此主题提供波次步骤代码及其用法的概述。
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08b40c076e288592f6a4cd628b9acd8a2eaedb7e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c32e795fcb12be02d9c9324051101fa378935303
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998395"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572233"
 ---
 # <a name="wave-step-codes"></a>波次步骤代码
 
@@ -92,3 +90,6 @@ ms.locfileid: "4998395"
 6. 在 **波次步骤代码** 字段中，选择在补货模板中选择的波次步骤代码。
 
 请对每个法人执行这些步骤。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

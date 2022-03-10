@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2c5ae1078e3490fef3383fc6d637df70128683e7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051009"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063739"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources（2020 年 5 月 14 日）中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3244。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 
 ## <a name="platform-changes"></a>平台变更
 
-本周的发布中包含平台变更。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.10（2020 年 5 月）的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md)。 此发布中包含所保存视图的缺陷修复和更改。
+本周的发布中包含平台变更。 有关详细信息，请参阅[财务和运营应用版本 10.0.10 的平台更新（2020 年 5 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md)。 此发布中包含所保存视图的缺陷修复和更改。
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>确保 Dataverse 选择列表与休假枚举一致 (436343)
 

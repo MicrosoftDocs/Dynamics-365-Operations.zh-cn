@@ -1,5 +1,5 @@
 ---
-title: 欢迎使用 Dynamics 365 Talent
+title: Dynamics 365 Talent 主页
 description: Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。
 author: andreabichsel
 ms.date: 10/03/2019
@@ -7,20 +7,22 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: 20931
+ms.custom:
+- "20931"
+- intro-internal
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 323fe71c4da0f0b70fa21526cadeed4cbde8165f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c9ebfec7a723e5f6cf2e4ad7f74a9531be7dfd89
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051585"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051387"
 ---
-# <a name="welcome-to-dynamics-365-talent"></a>欢迎使用 Dynamics 365 Talent
+# <a name="dynamics-365-talent-home-page"></a>Dynamics 365 Talent 主页
 
 [!include [banner](includes/banner.md)]
 

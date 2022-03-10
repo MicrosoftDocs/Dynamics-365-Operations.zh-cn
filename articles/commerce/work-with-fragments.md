@@ -2,7 +2,7 @@
 title: 使用片段
 description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793937"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090736"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
@@ -45,7 +45,7 @@ ms.locfileid: "5793937"
 
 下图显示如何使用片段在电子商务站点中集中创作共享模块配置。
 
-![显示如何使用片段在电子商务站点中集中创作共享模块配置的插图](./media/fragment-figure1.png)
+![显示如何使用片段在电子商务站点中集中创作共享模块配置的图示。](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>创建片段
 
@@ -62,7 +62,7 @@ ms.locfileid: "5793937"
 1. 在 **另存为片段** 对话框中，输入片段的名称。
 1. 选择 **确定** 将模块配置保存为可添加到其他页面的片段。
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>创建新片段
 
@@ -73,7 +73,7 @@ ms.locfileid: "5793937"
 1. 选择片段的模块类型。
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > 如果需要在以后更新和配置片段，则选择通用容器模块类型的灵活性最大。
 
@@ -88,14 +88,14 @@ ms.locfileid: "5793937"
 1. 在左侧的大纲窗格中或直接在可视页面构建器中，选择可向其添加子模块的容器或插槽。
 1. 选择容器或插槽名称旁边的省略号 (**...**)。  或者，如果使用可视页面构建器，请选择加号 (**+**)。  
 1. 选择 **添加片段**。
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > 如果容器或插槽不支持新的子模块，则 **添加片段** 选项不可用。
     
 1. 在 **选择片段** 对话框中，搜索并选择要添加的片段。 如果未列出可用片段，可能必须先基于所选容器或插槽支持的模块类型创建片段。
 1. 选择所需的片段以将其添加到页面上的容器或插槽中。
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > 容器或插槽中允许的模块由页面的模板或模块自己的定义定义。
@@ -121,6 +121,20 @@ ms.locfileid: "5793937"
 1. 根据需要编辑片段的模块属性和结构。 此流程类似在页面编辑器视图中编辑模块的流程。
 
 也可以通过在页面、模板或父片段中打开片段，然后在右侧属性窗格中选择 **编辑片段** 来编辑片段。
+
+### <a name="rename-a-fragment"></a>重命名片段
+
+要在站点构建器中重命名现有片段，请执行以下步骤。
+
+1. 在左侧导航窗格中，选择 **片段**。
+1. 选择您想要重命名的片段的片段名称。
+1. 选择 **编辑** 开始编辑片段。 请注意，如果其他人已在编辑片段，您将无法编辑该片段。
+1. 在片段属性窗格中，选择片段名称旁边的笔符号。
+1. 根据需要编辑片段名称。
+1. 选择复选标记确认名称更改。
+1. 选择 **完成编辑**。
+
+您可以在创建片段后重命名片段，方法是对其进行编辑，然后在属性窗格中选择片段名称旁边的笔符号。
 
 ## <a name="additional-resources"></a>其他资源
 

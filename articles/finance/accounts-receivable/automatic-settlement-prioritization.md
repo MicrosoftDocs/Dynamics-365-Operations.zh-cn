@@ -2,11 +2,9 @@
 title: 自动结算和优先级
 description: 本主题介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de57ba626e177677eab5b8d2a815f191e5f6a87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8ba8a2f3b6a731e3371ca5245d5a9177b4cd0c226768c39c0cf7f6cb27526058
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724175"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>自动结算和优先级
 

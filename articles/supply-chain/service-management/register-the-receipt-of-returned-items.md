@@ -1,12 +1,10 @@
 ---
 title: 登记退回物料的接收
 description: 可使用“到达概览”窗体或“登记”窗体登记退回物料的接收。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, InventTransRegister
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b46801ee150d1cf25d8f4c6ea9aaa8011e1cbd38
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a1dc18e50dd10568c719c4f87d805be526d6746
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006608"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576392"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>登记退回物料的接收 
 
@@ -112,3 +110,6 @@ ms.locfileid: "5006608"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

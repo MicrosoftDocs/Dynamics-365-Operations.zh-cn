@@ -2,25 +2,22 @@
 title: 创建和提交增值税报表
 description: 此过程引导您创建 VAT 报表并提交给德国主管机构。
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26418be526ff13d8b77e0418b3b252881ff05140e6eb7678f526444a0850a84b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719667"
 ---
 # <a name="create-and-submit-vat-report"></a>创建和提交增值税报表
 
@@ -35,3 +32,6 @@ ms.locfileid: "4440851"
 5. 在“创建电子税单”字段中选择“是”。
 6. 单击“确定”。
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

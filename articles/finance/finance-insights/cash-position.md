@@ -1,8 +1,8 @@
 ---
-title: 现金头寸（预览）
+title: 现金头寸
 description: 本主题描述现金流预测功能如何预测组织在特定时间的现金头寸。 还描述了可用于显示不同期间的预测的选项。
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811379"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968979"
 ---
-# <a name="cash-position-preview"></a>现金头寸（预览）
+# <a name="cash-position"></a>现金头寸
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 现金头寸是对现金流的短期预测。 它基于对支付未付发票和订单的客户的现金收入的预测，还基于对购买发票和订单支付给供应商的现金支出的预测。
 
 当系统预测客户付款时，它将使用来自客户付款预测功能的付款预测。 如果没有付款预测，则使用将每个客户的客户发票转换为付款所需的平均时间来计算付款日期。 对于未结客户订单，系统通过使用要开票的每个客户的订单行的平均天数来计算发票日期。 然后，它将发票日期用作付款预测功能的输入。 客户付款预测功能可计算每个订单行的付款日期。 
 
-<*需要来自 Jarek 或 Dave 的有关如何将付款预测转换为日期的文本*> 未付发票的付款日期通过付款预测推测 [*估计*]，方法是选取对应于从预测的时段概率获得的累积分布函数的百分之五十的日期。
+未付发票的付款日期通过付款预测估计，方法是选取对应于从预测的时段概率获得的累积分布函数的百分之五十的日期。
 
 使用类似的方法来预测对供应商的付款。 对于每个供应商，系统都会计算将供应商发票转换为付款所需的平均时间。 然后使用天数计算付款日期。 对于未结供应商订单，系统通过考虑将每个供应商的订单行转换为发票所需的平均天数来计算发票日期。 然后，系统使用将供应商发票转换为每位供应商的付款的平均时间计算付款日期。
 
@@ -46,8 +45,16 @@ ms.locfileid: "5811379"
 
 要保存和编辑现金头寸，请创建快照。 有关如何处理快照的详细信息，请参阅[快照概述](payment-snapshots.md)。
 
-#### <a name="privacy-notice"></a>隐私声明
-预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议 (SLA) 中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
+## <a name="details-of-the-cash-position-capability"></a>现金头寸功能的详细信息 
 
+现金头寸功能包括以下功能。 
+
+- 现金头寸功能根据系统中的现有文档以及从外部系统导入的现金流入行和流出行显示现金流。
+- 轻松将来自外部系统的现金流数据集成到 Dynamics 365 Finance 中。 现金头寸也可以使用数据导入-导出框架。 该框架使与 Excel OData 的集成变得容易。 您还可以合并来自多个来源的数据以创建全面的现金头寸解决方案。
+- 介绍智能现金头寸。 根据客户的付款行为创建现金头寸，以预测公司何时可以期望现金进入其帐户。
+- 对于客户订单和发票，客户付款预测 AI 功能用于将来支付订单或发票时确定历史客户付款行为。
+- 对于供应商订单和发票，我们使用装运并开票与支付每个供应商的发票之间的平均时间来确定何时将支付供应商订单或发票，从而使现金流出更加准确。
+
+这将根据出纳员的历史付款行为创建更准确的现金流视图。 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

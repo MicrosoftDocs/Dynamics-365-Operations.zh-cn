@@ -1,12 +1,10 @@
 ---
 title: 库存日记帐
 description: 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235009"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573961"
 ---
 # <a name="inventory-journals"></a>库存日记帐
 
@@ -97,7 +95,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 -    同步服务 (OData)
 -  异步集成
 
-有关详细信息，请参阅[数据实体](../../dev-itpro/data-entities/data-entities.md)。
+有关详细信息，请参阅[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)。
 
 > [!NOTE]
 > 并非所有库存日记帐均支持 OData，因此不能使用 Excel 数据连接器发布，更新和导回数据到 Supply Chain Management。 
@@ -115,7 +113,7 @@ Supply Chain Management 中的库存日记帐用于过帐多种类型的实际�
 
 ## <a name="additional-resources"></a>其他资源
 
-[数据实体](../../dev-itpro/data-entities/data-entities.md)
+[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

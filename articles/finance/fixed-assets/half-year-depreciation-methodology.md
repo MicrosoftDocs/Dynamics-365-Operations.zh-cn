@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746432"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 
@@ -36,7 +36,7 @@ ms.locfileid: "5818575"
 > 年折旧 50,000/5 = 10,000，月折旧 10,000/12 = 833.33 <br>
 > 第一年折旧 10,000/2 = 5,000，后续月折旧 5,000/9 = 555.56
 
-   [![半年折旧惯例的折旧计划](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![半年折旧惯例的折旧计划。](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 半年惯例增加的延长后折旧期的折旧分配更精确。 六个月惯例提供的折旧费用更平均，这对损益表中的报告非常有用。
 

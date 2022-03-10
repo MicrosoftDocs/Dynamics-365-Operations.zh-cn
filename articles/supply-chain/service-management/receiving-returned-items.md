@@ -1,12 +1,10 @@
 ---
 title: 接收退回物料
 description: 在退货装运到达时，您与该已创建的退货单将其匹配。
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8f3de96aeb18bbbc8c11ccd937244e724e848e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 748552e0f7c9e73a95e0d9fadb62bffea8d10314
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010539"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571393"
 ---
 # <a name="receive-returned-items"></a>接收退回物料 
 
@@ -44,3 +42,6 @@ ms.locfileid: "5010539"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

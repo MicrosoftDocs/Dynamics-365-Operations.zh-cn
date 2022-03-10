@@ -2,11 +2,9 @@
 title: 提高计划编制引擎性能
 description: 本主题提供了有关计划编制引擎以及如何提高性能的信息。
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c39a72d22c01faec3856e7f47cb6b3811447cab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2495339f25469af705cff841f090c5df95b4d996
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983433"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578432"
 ---
 # <a name="improve-scheduling-engine-performance"></a>提高计划编制引擎性能
 
@@ -68,11 +66,11 @@ ms.locfileid: "4983433"
 | 10 | 辅助&nbsp;1 | | | | 1 | 20 |
 | 20 | 第一位 | | 3.00 | 1.00 | 3 | 0 |
 
-![示例工艺路线图](media/scheduling-engine-route.png "示例工艺路线图")
+![示例工艺路线图。](media/scheduling-engine-route.png "示例工艺路线图")
 
 将其发送到引擎后，它将拆分为八个作业，如下图所示（选择图像以放大它）。
 
-[![计划编制引擎作业](media/scheduling-engine-jobs.png "计划编制引擎作业")](media/scheduling-engine-jobs-large.png)
+[![计划编制引擎作业](media/scheduling-engine-jobs.png "计划编制引擎作业。")](media/scheduling-engine-jobs-large.png)
 
 两个作业之间的标准链接是 `FinishStart`，这意味着一个作业的结束时间必须早于另一个作业的开始时间。 因为设置必须由稍后执行该流程的同一资源执行，所以它们之间存在 `OnSameResource` 约束。 在编号为 10 的主工序和辅助工序的作业之间，有 `StartStart` 和 `FinishFinish` 链接，这意味着这些作业必须同时开始和结束，并且有 `NotOnSameResource` 约束，这将防止主工序和辅助工序的资源相同。
 
@@ -328,3 +326,6 @@ ms.locfileid: "4983433"
 
 > [!NOTE]
 > 作为 MRP 的一部分，设置的超时值将同时应用于下达的生产订单和计划的订单的计划编制。 因此，在为具有许多计划的生产订单的计划运行时，设置非常高的值可能会大大增加 MRP 的运行时间。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
