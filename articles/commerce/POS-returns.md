@@ -2,7 +2,7 @@
 title: 在 POS 中创建退货
 description: 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中为现金和结转交易或客户订单启动退货。
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715522"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349683"
 ---
 # <a name="create-returns-in-pos"></a>在 POS 中创建退货
 
@@ -96,6 +96,13 @@ ms.locfileid: "6715522"
 
 > [!NOTE]
 > 当打开 **POS 中的统一退货处理体验** 功能时，支持验证序列化产品退货的新可选功能变得可用。 有关详细信息，请参阅[在销售点 (POS) 中退回序列号控制的产品](POS-serial-returns.md)。
+
+## <a name="version-details"></a>版本详细信息
+
+以下列表提供了各个组件的最低版本要求。
+- Commerce headquarters：版本 10.0.20
+- Commerce Scale Unit (CSU)：版本 9.30
+- 销售点 (POS)：版本 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>对具有部分数量的退货启用正确的税金计算
 

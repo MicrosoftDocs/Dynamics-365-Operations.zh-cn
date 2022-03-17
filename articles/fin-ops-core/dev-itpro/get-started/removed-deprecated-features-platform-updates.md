@@ -1,8 +1,8 @@
 ---
 title: 已删除或已弃用的平台功能
-description: 本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
+description: 本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927471"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384712"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>已删除或已弃用的平台功能
+# <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍已经或计划从 Finance and Operations 应用的平台更新中移除的功能。
+本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-[技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+[技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
 ## <a name="feature-removal-effective-october-2021"></a>功能删除从 2021 年 10 月开始生效
 
@@ -65,9 +65,9 @@ ms.locfileid: "7927471"
 | **被另一个功能取代？**   | 否。 与此功能相关的任何进一步计划都将通过我们的标准发布波次披露流程传达。 |
 | **影响的产品区域**         | Web 客户端 - 文档附件体验 |
 | **部署选项**              | 全部 |
-| **状态**                         | 已弃用  |
+| **Status**                         | 已弃用  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.23 的平台更新
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.23 的平台更新
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize 事件
 
@@ -90,7 +90,7 @@ ms.locfileid: "7927471"
 | **部署选项**              | 全部 |
 | **状态**                         | 已弃用。 计划删除日期为 2023 年 4 月。 |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.21 的平台更新
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.21 的平台更新
 
 ### <a name="skype-for-business-online-support"></a>Skype for Business Online 支持
 
@@ -150,7 +150,7 @@ ms.locfileid: "7927471"
 | **状态**                         | 此功能已删除。 |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.17 的平台更新
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.17 的平台更新
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -177,24 +177,25 @@ ms.locfileid: "7927471"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 与 Dynamics AX 2012 Enterprise Portal (EP) 关联的元数据项目已弃用，因为 Finance and Operations 应用从未支持过 EP。 |
+| **弃用/移除的原因** | 与 Dynamics AX 2012 Enterprise Portal (EP) 关联的元数据项目已弃用，因为财务和运营应用从未支持过 EP。 |
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：计划在 2021 年 10 月的发行版本中删除所有 EP 代码。 |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.15 的平台更新
+## <a name="deprecation-effective-december-2020"></a>从 2020 年 12 月起弃用
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 的 Internet Explorer 11 支持已弃用
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响所用 Dynamics 365 产品设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品将不支持 Internet Explorer 11。 |
+| **弃用/移除的原因** | 从 2020 年 12 月开始，所有 Dynamics 365 产品和 Dynamics Lifecycle Services (LCS) 的 Microsoft Internet Explorer 11 支持已弃用，2021 年 8 月之后，将不再支持 Internet Explorer 11。<br><br>这将影响使用 Dynamics 365 产品和 LCS 设计为通过 Internet Explorer 11 界面使用的客户。 2021 年 8 月之后，此类 Dynamics 365 产品和 LCS 将不支持 Internet Explorer 11。 |
 | **被另一个功能取代？**   | 我们建议客户转换到 Microsoft Edge。|
-| **影响的产品区域**         | 所有 Dynamics 365 产品 |
+| **影响的产品区域**         | 所有 Dynamics 365 产品和 LCS |
 | **部署选项**              | 所有|
-| **状态**                         | 已弃用：2021 年 8 月之后将不再支持 Internet Explorer 11。|
+| **Status**                         | 已弃用：2021 年 8 月之后将不再支持 Internet Explorer 11。|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.15 的平台更新
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio 加载项以应用元数据修补程序
 
@@ -207,7 +208,7 @@ ms.locfileid: "7927471"
 | **状态**                         | 在版本 10.0.15 中，该加载项不再包含在 Visual Studio 工具中。 |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.14 的平台更新
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.14 的平台更新
 
 ### <a name="online-users-page"></a>联机用户页面 
 
@@ -220,7 +221,7 @@ ms.locfileid: "7927471"
 | **状态**                         | 此窗体将在 2021 年 10 月前删除。   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.13 的平台更新
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.13 的平台更新
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS 报表属性中定义的自定义代码 
@@ -264,19 +265,19 @@ ms.locfileid: "7927471"
 | **状态**                         | 在版本 10.0.13/平台更新 37 中，已保存视图功能已正式推出，客户可以选择打开此功能。 已保存视图功能将在 2021 年 10 月版本中强制使用。 |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.12 的平台更新
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.12 的平台更新
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>包含无效字段引用的网格或组控件窗体扩展
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 Finance and Operations 应用版本 10.0.12 的平台更新现在将此问题归类为编译器 *警告*。 要解决此问题，请打开窗体扩展，然后保存它。
+| **弃用/移除的原因** | 网格或组控件上的数据组属性用于自动显示字段组的所有字段。 通过扩展添加的网格或组控件可能包含不再在字段组中定义的字段，或者可能缺少在字段组中定义的字段。 这可能会导致运行时行为不一致。 财务和运营应用版本 10.0.12 的平台更新现在将此问题归类为编译器 *警告*。 要解决此问题，请打开窗体扩展，然后保存它。
 | **被另一个功能取代？**   | 在以后的更新中，此编译器警告将替换为编译器错误。 |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 在 Finance and Operations 应用版本 10.0.12 的平台更新中引入了编译器警告。 |
+| **状态**                         | 在财务和运营应用版本 10.0.12 的平台更新中引入了编译器警告。 |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations 应用版本 10.0.11 的平台更新
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.11 的平台更新
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>自助服务环境的显式安全列表
 
@@ -302,11 +303,11 @@ ms.locfileid: "7927471"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器 *警告*，从而解决了这个元数据问题。 Finance and Operations 应用版本 10.0.11 的平台更新将此问题归类为编译器 *错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
+| **弃用/移除的原因** | 表元数据定义中的字段组中可能包含无效的字段引用。 如果部署这些字段组，可能导致 Financial Reporting 和 Microsoft SQL Server Reporting Services (SSRS) 中发生运行时失败。 平台更新 23 引入了编译器 *警告*，从而解决了这个元数据问题。 财务和运营应用版本 10.0.11 的平台更新将此问题归类为编译器 *错误*。<p>若要解决此问题，请按照以下步骤操作。</p><ol><li>删除表字段组定义中的无效字段引用。</li><li>重新编译。</li><li>确保解决了所有错误。</li></ol> |
 | **被另一个功能取代？**   | 此编译器错误将永久替代编译器警告。  |
 | **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：在 Finance and Operations 应用版本 10.0.11 的平台更新中，此编译器警告已成为编译器错误。 |
+| **状态**                         | 已弃用：在财务和运营应用版本 10.0.11 的平台更新中，编译器警告是一个编译器错误。 |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>使用 SHA1 哈希算法创建的 ISV 许可证
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311971"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349709"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -159,7 +159,7 @@ ms.locfileid: "8311971"
 | 305 | 兑换会员积分 | 此操作不受支持。 | 不适用 | 不适用 | 不适用 | 不适用 | 是 |
 | 635 | 退回装运费用 | 退还已取消订单的装运费用。 | 否 | 否 | 否 | 否 | 否 |
 | 644 | 删除优惠券代码 | 提示用户通过在当前与交易关联的优惠券列表中选中优惠券来将其删除。 | 是 | 是 | 否 | 是 | 否 |
-| 1057 | 重印 Z | 重新打印上一个班次或所选班次的 Z 报表。 | 是 | 是 | 是 | 否 | 否 |
+| 1057 | 重印 Z | 重新打印上一个班次的 Z 报表。 | 是 | 是 | 是 | 否 | 否 |
 | 1216 | 请输入一个新密码 | 此操作允许具有重置密码权限的用户通过使用临时密码重置其他员工的密码。 | 是 | 是 | 是 | 否 | 否 |
 | 1219 | 在 POS 中打开 URL | 在 POS 中打开管理员配置的 URL。 | 是 | 是 | 是 | 是 | 否 |
 | 109 | 退回产品 | 执行单独的产品退货。 将下一个扫描的产品作为带负数数量和价格的退回产品显示。 | 是 | 是 | 否 | 是 | 否 |

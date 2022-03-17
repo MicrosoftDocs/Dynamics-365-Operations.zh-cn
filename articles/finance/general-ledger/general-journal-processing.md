@@ -2,7 +2,7 @@
 title: 普通日记帐处理
 description: 本主题介绍 Microsoft Dynamics 365 Finance 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726766"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367871"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 
@@ -101,7 +101,7 @@ ms.locfileid: "7726766"
 可使用日记帐和 **工作流历史记录** 页中的 **工作流** 按钮启用用于撤回工作流中状态为“无法恢复”的日记帐的功能。 此功能可通过 **功能管理** 页中名称为 **重置日记帐的工作流状态** 的功能启用。
 
 ## <a name="delete-journal-lines"></a>删除日记帐行
-可通过 **功能** > **删除日记帐行** 中的日记帐启用用于快速删除所有日记帐行的功能。 若要启用此功能，请在 **功能管理** 中选择 **删除日记帐性能优化**。
+可通过 **功能** > **删除日记帐行** 中的日记帐启用用于快速删除所有日记帐行的功能。 若要启用此功能，请在 **功能管理** 中选择 **删除日记帐性能优化**。 此功能会影响 **LedgerJournalTrans** 表及其 **删除** 方法的扩展，因为在不调用每行的 **删除** 方法的情况下删除了一组行。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

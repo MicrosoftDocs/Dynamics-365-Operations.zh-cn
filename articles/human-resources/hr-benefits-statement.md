@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 65bf91faba049b3fed4d80e020d77b82e48cceb6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 602e4f9459aac8fdbea5f2752e51cc2c1b71360c
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068987"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358235"
 ---
 # <a name="benefit-statement"></a>福利报表
 

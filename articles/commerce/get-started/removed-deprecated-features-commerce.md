@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
-ms.date: 09/27/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559551"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384599"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "7559551"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 版本中已经删除或弃用的功能
 
@@ -59,7 +59,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **被另一个功能取代？**   |  [从 GitHub 和 NuGet 下载 Retail SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md) |
 | **影响的产品区域**         | Retail SDK |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从 10.0.21 版本开始，2022 年 10 月将删除通过 LCS VM 附带的 SDK。 |
+| **状态**                         | 已弃用：从 10.0.21 版本开始，2023 年 4 月将删除通过 LCS VM 附带的 SDK。 |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retail 可部署包和组合 POS、硬件工作站和 Cloud Scale Unit 安装程序
 
@@ -82,9 +82,9 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
     + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [POS、CSU 和硬件工作站](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>Retail SDK 中的 ModernPos.Sln 和 CloudPOs.sln
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>Retail SDK 中的 ModernPos.Sln 和 CloudPos.sln
 
-10.0.21 版中已弃用了使用 ModernPos.sln、CloudPOs.sln、POS.Extension.csproj 和 POS 文件夹开发 POS 扩展的功能。 今后，请使用 POS 独立打包 SDK 进行 POS 扩展。
+10.0.21 版中已弃用了使用 ModernPos.sln、CloudPos.sln、POS.Extension.csproj 和 POS 文件夹开发 POS 扩展的功能。 今后，请使用 POS 独立打包 SDK 进行 POS 扩展。
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +92,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **被另一个功能取代？**   | [POS 独立打包 SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **影响的产品区域**         | Dynamics 365 Commerce POS 扩展和部署 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从 10.0.21 版开始，将在 2022 年 10 月移除 Retail SDK 中对使用 ModernPos.Sln、CloudPOs.sln 和 POS.Extensons.csproj 的组合 POS 包和扩展模型的支持。 |
+| **状态**                         | 已弃用：从 10.0.21 版开始，将在 2023 年 4 月删除 Retail SDK 中对使用 ModernPos.Sln、CloudPOs.sln 和 POS.Extensons.csproj 的组合 POS 包和扩展模型的支持。 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 版本中已经删除或弃用的功能
 

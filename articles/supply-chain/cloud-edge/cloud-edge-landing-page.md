@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119179"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376174"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 
@@ -40,7 +40,7 @@ ms.locfileid: "8119179"
 
 ## <a name="scale-units-and-dedicated-workloads"></a>缩放单元和专用工作负荷
 
-缩放单元通过添加专用的处理容量来扩展您的集中 Supply Chain Management 中心环境。 缩放单元可在 Cloud 中运行。 或者，它们可在您的本地机构的 Edge 上本地运行。
+缩放单元通过添加专用的处理容量来扩展您的集中 Supply Chain Management 中心环境。 缩放单元可在 Cloud 中运行。 或者，它们可在您的本地机构的[边缘](cloud-edge-edge-scale-units-lbd.md)本地运行。
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="具有缩放单元的 Dynamics 365。":::
 
@@ -125,33 +125,27 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 - 工作负荷配置，包括法人和设施的名称和实际地址，以便您的拓扑可以显示在地理地图上
 - 收集的指标（例如延迟和吞吐量），将显示在地图分析页面上，以帮助您选择最有用的缩放单元
 
-根据 Microsoft 数据保留策略，将删除传输到美国数据中心并存储在其中的数据。 Microsoft 非常注重您的隐私。 若要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
+根据 Microsoft 数据保留策略，将删除传输到美国数据中心并存储在其中的数据。 Microsoft 非常注重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
 
-## <a name="onboarding-in-two-stages"></a>加入分为两个阶段
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>加入到 Supply Chain Management 的分布式混合拓扑
 
-加入到分布式混合拓扑的流程具有两个阶段。 在第一个阶段中，您必须验证自定义以确保它们可在具有缩放单元的分布式拓扑中工作。 沙盒和生产环境仅在第二阶段中移动。
+### <a name="try-out-the-distributed-hybrid-topology"></a>试用分布式混合拓扑
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>阶段 1：在单盒开发环境中评估自定义
+加入到分布式混合拓扑的流程具有两个阶段。 在第一阶段，您应该[试用](cloud-edge-try-out.md)此解决方案并验证您的自定义，以确保它们在包含缩放单元的分布式拓扑中工作。 （您可以使用现有的开发环境进行验证。）然后您可以继续进行第二阶段，在这一阶段获取生产环境。
 
-在开始加入沙盒或生产环境之前，建议您在开发设置中探索缩放单元，例如单盒环境（也称为第 1 层环境），以便您可以验证流程、自定义和解决方案。 在此阶段中，数据和自定义将应用到单盒环境。 一个环境用作中心，另一个环境用作缩放单元。 此设置提供识别和修复问题的最佳方法。 最新的提前访问 (PEAP) 版本也可以用于完成此阶段。
-
-对于阶段 1，应使用[单盒开发环境的缩放单元部署工具](https://github.com/microsoft/SCMScaleUnitDevTools)。 这些工具使您可以在一个或两个单独的单盒环境中配置中心和缩放单元。 这些工具作为二进制版本提供，并在 GitHub 上以源代码的形式提供。 研究项目 wiki，其中包括描述如何使用工具的[分步使用指南](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide)。
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>阶段 2：获取加载项，并在沙盒和生产环境中进行部署
-
-若要将沙盒或生产环境之一加入到新拓扑，您必须获取一个或多个 Cloud Scale Unit（以及将来的 Edge Scale Unit）的加载项。 加载项将在 [LCS](https://lcs.dynamics.com/) 中授予相应的项目和环境插槽，以便可以部署缩放单元环境。
-
-> [!NOTE]
-> 缩放单元加载项不与有限数量的用户耦合，但可以根据管理员分配的角色供现有订阅中的任何用户使用。
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>选择您的 LCS 项目租户和详细的加入流程
 
 在多个库存单位 (SKU) 和定价选项中提供缩放单元。 因此，您可以选择最能满足您计划的每月交易量和性能要求的选项。
+
+> [!TIP]
+> 若要确定最能满足您的需求的规模，请与您的实现合作伙伴和 Microsoft 合作，以了解所需的每月交易规模。
 
 入门级 SKU 称为 *基本*，性能更高的 SKU 称为 *标准*。 每个 SKU 都预先加载有特定数量的每月交易。 但是，您可以通过为每个 SKU 添加超额加载项来增加每月交易预算。
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Cloud Scale Unit 的加载项。":::
 
-> [!TIP]
-> 若要确定最能满足您的需求的规模，请与您的合作伙伴和 Microsoft 合作，以了解所需的每月交易规模。
+> [!NOTE]
+> 缩放单元加载项不与有限数量的用户耦合。 它们可供您现有订阅中的任何用户使用（前提是您的管理员已为他们分配了所需的用户角色）。
 
 购买每个缩放单元加载项后，您不仅可以获取每月交易量，还有权使用 LCS 中特定数量的环境插槽。 对于每个 Cloud Scale Unit 加载项，您都有权使用一个新生产槽和一个新沙盒槽。 在加入流程期间，将添加具有这些插槽的新 LCS 项目。 插槽的使用权受到限制，因此必须将插槽用作具有云中心的缩放单元。
 
@@ -159,9 +153,6 @@ Microsoft 正在将 Supply Chain Management 的所有云环境从 IaaS 模型转
 
 如果要获取更多沙盒环境，您可以购买额外的常规沙盒槽。 然后，Microsoft 可以帮助您启用这些插槽作为混合拓扑的沙盒缩放单元。
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>加入到 Supply Chain Management 的分布式混合拓扑
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>选择您的 LCS 项目租户和详细的加入流程
 
 完成计划如何加入到 Supply Chain Management 的分布式混合拓扑后，您将使用[缩放单元管理器门户](https://aka.ms/SCMSUM)开始加入流程。 在门户中，选择 **Dynamics 365 租户** 选项卡。此选项卡显示您的帐户所属的租户列表，以及您在哪个租户中是 LCS 项目的所有者或环境管理员。
 

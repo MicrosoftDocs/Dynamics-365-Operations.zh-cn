@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324027"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367816"
 ---
 # <a name="electronic-reporting-components"></a>电子报告组件
 
@@ -91,9 +91,23 @@ ms.locfileid: "8324027"
 
 下图显示这些格式的数据流情况。
 
-[![传入格式组件的数据流。](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![传出格式组件的数据流](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
-要运行单个 ER 格式配置以从传入电子文档导入数据，请确定格式配置的预期映射，以及模型映射的集成点。 您可以使用不同的格式为不同类型的传入文档同时使用相同的模型映射和目标。
+要运行单个 ER 格式配置和生成传出电子文档，您必须确定格式配置的映射。
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>传入电子文档的格式组件
+格式组件是在运行时导入的传入文档的方案。 方案由下列元素组成︰
+
+- 定义包含在运行时导入的数据的传入电子文档的结构和内容的格式。 格式组件用于分析不同格式（例如文本和 XML）的传入文档。
+- 将各个格式元素绑定到特定于域的数据模型元素的格式映射。 在运行时，数据模型中的元素指定数据流和从传入文档导入数据的规则，然后将数据存储到数据模型中。
+- 一个格式验证，形式为在运行时根据运行上下文控制数据导入的一组可配置规则。 例如，可能存在规则在特定供应商的属性缺失（例如供应商标识代码）时阻止导入具有供应商付款的银行对账单的数据并引发异常。
+
+下图显示这些格式的数据流情况。
+
+[![传入格式组件的数据流](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+要运行单个 ER 格式配置以从传入电子文档导入数据，您必须确定格式配置的预期映射，以及模型映射的集成点。 您可以使用不同的格式为不同类型的传入文档同时使用相同的模型映射和目标。
+
 
 ## <a name="component-versioning"></a>组件版本控制
 

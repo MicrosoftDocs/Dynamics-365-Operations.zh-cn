@@ -2,27 +2,22 @@
 title: 外围设备
 description: 此主题介绍与商业外设有关的概念。
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092476"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370968"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -45,7 +40,7 @@ ms.locfileid: "8092476"
 
 ### <a name="modern-pos"></a>Modern POS
 
-Modern POS 是适用于 Microsoft Windows 的 POS 程序。 它可以部署到 Windows 10 操作系统 (OS) 上。
+Modern POS 是适用于 Microsoft Windows 的 POS 程序。 它可以部署到 Windows 10 和 Windows 11 操作系统上。
 
 ### <a name="cloud-pos"></a>云 POS
 
@@ -108,7 +103,7 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 
 ### <a name="secondary-display"></a>辅助显示器
 
-如果配置了辅助显示器，将使用第二台 Windows 显示器显示基本信息。 辅助显示器用于为独立软件供应商 (ISV) 扩展提供支持，因为原始辅助显示器不可配置，显示的内容有限。
+如果配置了辅助显示器，将使用第二台 Windows 显示器显示基本信息。 默认情况下，辅助显示器不可配置，只显示有限的内容。 辅助显示器的作用是支持独立软件供应商 (ISV) 扩展。 
 
 ### <a name="payment-device"></a>付款设备
 
@@ -132,7 +127,7 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Windows 打印快得多。 因此，最好使用 OPOS 进行打印，特别是在需要打印 40 列收据，并且交易时间必须非常快的环境中。 对于大多数设备，您将使用 OPOS 控件。 但是，某些 OPOS 收据打印机也支持 Windows 驱动程序。 通过使用 Windows 驱动程序，您可以通过一台打印机访问多台收银机的最新字体和网络。 但是使用 Windows 驱动程序有一些缺点。 以下是这些缺点的一些示例：
 
 -   使用 Windows 驱动程序时，图像在打印前渲染。 因此，打印速度往往比使用 OPOS 控件的打印机慢。
--   使用 Windows 驱动程序时，通过打印机连接（菊链方式）的设备可能无法正常工作。 例如，银箱可能无法打开，或者票据打印机可能无法正常工作。
+-   使用 Windows 驱动程序时，通过打印机连接（菊链方式）的设备可能无法正常工作。 例如，银箱可能无法打开，或者收据打印机可能无法正常工作。
 -   OPOS 还支持特定于收据打印机的更多变体集合，如裁纸或票据打印。
 -   不通过 IIS 硬件工作站来支持 Windows 打印机。 
 
@@ -176,15 +171,15 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 1. 在非银箱模式下打开 Modern POS，使用 **管理硬件工作站** 操作打开硬件工作站功能。 默认情况下，专用硬件工作站将处于活动状态。 
 1. 注销 Modern POS。 然后重新登录，打开一个班次。 在硬件配置文件中配置的外围设备现在将可用。 
 
-### <a name="shared"></a>已共享 
+### <a name="shared"></a>已共享
 
 “IIS”有时也称为“IIS”硬件工作站，表示 POS 应用程序通过 Microsoft Internet 信息服务连接到硬件工作站。 POS 应用程序通过连接设备的计算机上运行的 Web 服务连接到 IIS 硬件工作站。 使用共享的硬件工作站时，与 IIS 硬件工作站在同一个网络中的任何 POS 收银机都可以使用与该硬件工作站相连的外设。 由于只有 Modern POS for Windows 和 Android 中才包含对外设的内置支持，所以其他所有 Modern POS 应用程序都必须使用 IIS 硬件工作站才能与硬件配置文件中配置的 POS 外设通信。 因此，IIS 硬件工作站的每个实例都需要运行与设备通信的 Web 服务和应用程序的计算机。 
 
-共享的硬件工作站可用于允许多个销售点客户端共享外围设备，或者可用于管理为单个销售点调配的设备组或外围设备。 
+共享的硬件工作站可用于允许多个销售点客户端共享外围设备，或者可用于管理为单个销售点调配的外围设备组。 
 
 当硬件工作站用于支持多个 POS 客户端之间的外围设备共享时，应仅使用银箱、收据打印机和付款终端。 不能直接连接单机条码扫描仪、行显示器，MSR、秤或其他设备。 否则，多个 POS 设备同时尝试声明这些外设时，将发生冲突。 下面是如何管理受支持设备的冲突：
 
--   **银箱** – 银箱通过发送到设备的事件打开。 仅当银箱已打开时，才会在调用银箱时发生问题。 对于共享硬件工作站，应在硬件配置文件中将银箱设置为 **共享**。 发送打开命令时，此设置阻止 POS 检查银箱是否已打开。
+-   **银箱** – 银箱通过发送到设备的事件打开。 如果在银箱已打开时调用银箱，可能会出现问题。 用于共享硬件工作站配置的银箱应在硬件配置文件中设置为 **共享**。 发送打开命令时，此设置阻止 POS 检查银箱是否已打开。
 -   **收据打印机** – 如果同时向硬件工作站发送两条收据打印命令，可能丢失其中一条命令，具体取决于设备。 某些设备有内存或池，可以防止此问题。 如果打印命令不成功，收银员将收到错误消息，可以从 POS 重试该打印命令。
 -   **付款终端** – 如果收银员尝试在已在使用的付款终端上处理交易的支付，将显示消息，通知收银员正在使用该终端，请收银员稍后重试。 通常，收银员可以看到终端已在使用并等待其他交易完成，再尝试处理付款。
 
@@ -205,7 +200,7 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 ## <a name="setup-and-configuration"></a>设置和配置
 ### <a name="hardware-station-installation"></a>硬件工作站安装
 
-有关信息，请参阅[配置和安装硬件工作站](retail-hardware-station-configuration-installation.md)。
+有关如何安装 IIS 硬件工作站的指南，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS for Windows 设置和配置
 
@@ -431,7 +426,7 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>所有 Modern POS 客户端都共享 IIS 硬件工作站
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>共享 IIS 硬件工作站的所有现代 POS 客户端
 
 > [!NOTE]
 > 当 IIS 硬件工作站为“共享”时，多台设备可同时使用该硬件工作站。 对于此方案，应仅使用下表中列出的设备。 如果尝试共享此处未列出的设备（如条码扫描仪和 MSR），多台设备尝试声明同一外设时，将出错。 将来将明确阻止此类配置。
@@ -487,7 +482,7 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>支持的方案的配置
-有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 
+有关如何创建硬件配置文件的更多信息，请参阅[将外设连接到销售点 (POS)](define-maintain-channel-clients-registers-hw-stations.md)。 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Windows
 
@@ -620,12 +615,11 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 注释                |
+| 制造商 | 模型    | 接口 | 注释                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
-| Epson        | TM-T88   | 自定义    | 通过网络连接   |
-| HP           | F7M67AA  | OPOS      | 带电 USB             |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | 带电 USB             |
 | Star         | TSP650II | 自定义    | 通过网络连接   |
 | Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
 | Toshiba      | HSP100   | OPOS      |                         |
@@ -636,31 +630,22 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 #### <a name="bar-code-scanner"></a>条码扫描仪
 
-| 制造商  | 型号         | 接口 | 注释 |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| 符号        | LS2208        | OPOS      |          |
-| HP Integrated | E1L07AA       | OPOS      |          |
+| 制造商  | 模型         | 接口 | 注释 |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
+| HP Integrated | E1L07AA       | OPOS      |          |
+| 符号        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>PIN 小键盘
+#### <a name="payment-terminals-and-pin-pads"></a>付款终端和 PIN 小键盘
 
-| 制造商 | 型号  | 接口 | 评论                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | 需要自定义付款连接器 |
+Dynamics 365 Commerce 为与 Adyen 集成以提供付款服务提供了一个现成的解决方案。 [适用于 Adyen 的 Dynamics 365 付款连接器](dev-itpro/adyen-connector.md)使用与设备无关的 [Adyen 付款终端应用程序编程接口 (API)](https://www.adyen.com/blog/introducing-the-terminal-api)，并且可以与此 API 支持的所有付款终端交互。 有关支持的付款终端的完整列表，请参阅 [Adyen POS 终端](https://www.adyen.com/pos-payments/terminals)。
 
-#### <a name="payment-terminal"></a>付款终端
-
-| 制造商 | 型号 | 接口 | 评论                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | 自定义    | 需要自定义付款连接器                                |
-| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
-| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+您还可以通过创建自定义连接器将其他付款提供商用于 Dynamics 365 Commerce。 付款提供商支持的任何支付终端都可以用于 Dynamics 365 Commerce。 同样，Dynamics 365 Commerce 允许使用付款提供商支持的任何付款设备集成模型，如本地 IP、云 API 或与 POS 的直接连接（例如，通过 USB）。 有关详细信息，请参阅[为付款终端创建端到端付款集成](dev-itpro/end-to-end-payment-extension.md)。
 
 #### <a name="cash-drawer"></a>银箱
 
-| 制造商 | 型号     | 接口 | 评论                |
+| 制造商 | 模型     | 接口 | 注释                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | 通过 Bluetooth 连接 |
 | APG          | Atwood    | 自定义    | 通过网络连接   |
@@ -670,14 +655,14 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 #### <a name="line-display"></a>行显示
 
-| 制造商  | 型号   | 接口 | 注释 |
-|---------------|---------|-----------|----------|
-| HP Integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| 制造商 | 模型    | 接口 | 注释 |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPOS      |          |
+| HP           | T 系列 | OPOS      |          |
 
 #### <a name="signature-capture"></a>签名捕获
 
-| 制造商 | 型号  | 接口 | 评论 |
+| 制造商 | 模型  | 接口 | 注释 |
 |--------------|--------|-----------|----------|
 | Scriptel     | ST1550 | OPOS      |          |
 
@@ -701,43 +686,33 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 注释              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | 自定义    | 通过网络连接 |
-| HP           | F7M67AA  | OPOS      | 带电 USB           |
-| Star         | TSP650II | 自定义    | 通过网络连接 |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| 制造商 | 模型    | 接口 | 注释                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | 带电 USB             |
+| Star         | TSP650II | 自定义    | 通过网络连接   |
+| Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="bar-code-scanner"></a>条码扫描仪
 
-| 制造商  | 型号   | 接口 | 注释 |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| 符号        | LS2208  | OPOS      |          |
-| HP Integrated | E1L07AA | OPOS      |          |
+| 制造商  | 模型         | 接口 | 注释 |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPOS      |          |
+| HP Integrated | E1L07AA       | OPOS      |          |
+| 符号        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>PIN 小键盘
+#### <a name="payment-terminals-and-pin-pads"></a>付款终端和 PIN 小键盘
 
-| 制造商 | 型号  | 接口 | 评论                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | 需要自定义付款连接器 |
+Dynamics 365 Commerce 为与 Adyen 集成以提供付款服务提供了一个现成的解决方案。 [适用于 Adyen 的 Dynamics 365 付款连接器](dev-itpro/adyen-connector.md)使用与设备无关的 [Adyen 付款终端 API](https://www.adyen.com/blog/introducing-the-terminal-api)，并且可以与此 API 支持的所有付款终端交互。 有关支持的付款终端的完整列表，请参阅 [Adyen POS 终端](https://www.adyen.com/pos-payments/terminals)。
 
-#### <a name="payment-terminal"></a>付款终端
-
-| 制造商 | 型号 | 接口 | 评论                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | 自定义    | 需要自定义付款连接器                                |
-| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
-| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+您还可以通过创建自定义连接器将其他付款提供商用于 Dynamics 365 Commerce。 付款提供商支持的任何支付终端都可以用于 Dynamics 365 Commerce。 同样，Dynamics 365 Commerce 允许使用付款提供商支持的任何付款设备集成模型，如本地 IP、云 API 或与 POS 的直接连接（例如，通过 USB）。 有关详细信息，请参阅[为付款终端创建端到端付款集成](dev-itpro/end-to-end-payment-extension.md)。
 
 #### <a name="cash-drawer"></a>银箱
 
-| 制造商 | 型号     | 接口 | 评论              |
+| 制造商 | 模型     | 接口 | 注释              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | 自定义    | 通过网络连接 |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -780,26 +755,24 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 注释              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | 自定义    | 通过网络连接 |
-| HP           | F7M67AA  | OPOS      | 带电 USB           |
-| Star         | TSP650II | 自定义    | 通过网络连接 |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| 制造商 | 模型    | 接口 | 注释                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | 带电 USB             |
+| Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="payment-terminal"></a>付款终端
 
-| 制造商 | 型号 | 接口 | 注释                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
-| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+Dynamics 365 Commerce 为与 Adyen 集成以提供付款服务提供了一个现成的解决方案。 [适用于 Adyen 的 Dynamics 365 付款连接器](dev-itpro/adyen-connector.md)使用与设备无关的 [Adyen 付款终端 API](https://www.adyen.com/blog/introducing-the-terminal-api)，并且可以与此 API 支持的所有付款终端交互。 有关支持的付款终端的完整列表，请参阅 [Adyen POS 终端](https://www.adyen.com/pos-payments/terminals)。
+
+您还可以通过创建自定义连接器将其他付款提供商用于 Dynamics 365 Commerce。 付款提供商支持的任何支付终端都可以用于 Dynamics 365 Commerce。 同样，Dynamics 365 Commerce 允许使用付款提供商支持的任何付款设备集成模型，如本地 IP、云 API 或与 POS 的直接连接（例如，通过 USB）。 有关详细信息，请参阅[为付款终端创建端到端付款集成](dev-itpro/end-to-end-payment-extension.md)。
 
 #### <a name="cash-drawer"></a>银箱
 
-| 制造商 | 型号     | 接口 | 评论              |
+| 制造商 | 模型     | 接口 | 注释              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | 自定义    | 通过网络连接 |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -822,7 +795,7 @@ Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从�
 
 **解决方案：** 以下因素之一可能导致此问题：
 
--   硬件工作站尚未在总部正确设置。 使用本主题前面的步骤验证是否正确输入了硬件工作站配置文件和硬件工作站。
+-   硬件工作站尚未在 Headquarters 正确设置。 有关详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md#troubleshooting)。 
 -   尚未运行作业以更新渠道配置。 在这种情况下，请运行作业 1070 以配置渠道。
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS 不体现新的银箱设置

@@ -2,7 +2,7 @@
 title: 设计 ER 配置以填写 PDF 模板
 description: 本主题介绍如何设计电子申报 (ER) 格式以填写 PDF 模板。
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758280"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367809"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
@@ -294,6 +294,20 @@ ms.locfileid: "6758280"
 下图显示生成的报表的另一页的示例。
 
 ![生成报表的另一页。](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>限制
+
+在您计划用作报表模板的 PDF 表单中，可填写字段的名称应该是唯一的。 对于每个此类字段，在导入 PDF 表单时，会以可编辑的 ER 格式创建具有相应名称的单个格式元素。 如果 PDF 表单包含多个同名字段，将会为不允许在运行时单独填写的字段创建单个格式元素。
+
+## <a name="frequently-asked-questions"></a>常见问题解答
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>当我运行 ER 格式以生成 PDF 格式的报表时，为什么会收到以下错误：**无法处理 iref 流。当前的 PDFSharp 实现无法处理 Acrobat 6 引入的这项 PDF 功能。** 和 **PDF 名称必须以斜杠 (/) 开头。**
+
+ER 框架使用 PDFSharp 库的版本 1.5 生成这些 PDF 报表。 PDF 1.5 (Adobe Reader 6.0) 的某些功能尚未在此库中实现。 因此，PDFSharp 还无法打开一些标记为 **适用于 PDF 1.5 或更高版本** 的文件，并可能导致出现错误。 使用以下解决方案之一来解决此问题：
+
+-   当您使用自己的 PDF 模板时：将模板降级到较早的 Adobe 版本并开始使用您的 ER 格式的新模板。
+-   当您使用另一个配置提供程序与您共享的 ER 格式模板作为 ER 解决方案的一部分时：联系此 ER 解决方案的负责人并提供问题描述。
+-   当您使用包含早期版本的 PDFSharp 库的 ISV 解决方案时：联系解决方案的负责人并建议升级到较新的 PDFSharp 版本。
 
 ## <a name="additional-resources"></a>其他资源
 

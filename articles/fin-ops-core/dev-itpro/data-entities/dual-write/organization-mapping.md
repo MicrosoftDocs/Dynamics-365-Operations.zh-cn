@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062078"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358356"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 
@@ -36,11 +36,11 @@ ms.locfileid: "8062078"
 
 ## <a name="templates"></a>模板
 
-产品信息包含与产品及其定义有关的所有信息，例如产品维度或跟踪维度和存储维度。 如下表所示，将创建表映射的集合以同步产品和相关信息。
+组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。 您可以定义以下类型的内部组织：法人、运营单位和团队。 如下表所示，创建了一组表映射以同步法人、运营单位和相关的组织层次结构信息。
 
-Finance and Operations 应用 | 客户互动应用     | 说明
+Finance and Operations 应用 | 客户互动应用     | Description
 -----------------------|--------------------------------|---
-[法人](mapping-reference.md#102) | cdm_companies | 提供法人实体（公司）信息的双向同步。
+[法人](mapping-reference.md#102) | cdm_companies | 
 [法人](mapping-reference.md#142) | msdyn_internalorganizations |
 [运营单位](mapping-reference.md#143) | msdyn_internalorganizations |
 [组织层次结构 - 已发布](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | 此模板提供组织层次结构已发布表的单向同步。

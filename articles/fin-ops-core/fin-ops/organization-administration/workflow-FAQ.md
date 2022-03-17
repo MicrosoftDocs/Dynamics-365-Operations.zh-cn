@@ -2,7 +2,7 @@
 title: 工作流常见问题
 description: 本主题解答有关工作流系统的常见问题。
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065572"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370872"
 ---
 # <a name="workflow-faq"></a>工作流常见问题
 
@@ -34,7 +34,7 @@ ms.locfileid: "8065572"
 每个通知都针对一个不同的工作项，但是因为相似，所以可能造成混乱。 我们在想办法在将来的版本中改进这个问题。
 
 ## <a name="why-are-my-workflow-exports-failing"></a>我在导出工作流时为什么失败了？
-这是现有工作流导出功能的一项限制，它会阻止超过 48 个字符的工作流名称。 使用超过 48 个字符的名称可能会导致“服务器未能对请求进行身份验证”错误，以及/或者阻止导出无文件类型的文件。 以下博客文章提供了有关[工作流导出疑难解答](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting)的更多详细信息。
+这是现有工作流导出功能的一项限制，它会阻止超过 48 个字符的工作流名称。 使用超过 48 个字符的名称可能会导致“服务器未能对请求进行身份验证”错误，以及/或者阻止导出无文件类型的文件。 以下博客文章提供了有关[工作流导出疑难解答](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting)的更多详细信息。
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>工作流的提交者是否也可以审核工作流？
 可以。如果按照这种方式配置，工作流的提交者也可以审核工作流。 若要避免此行为，请将 **系统管理 > 工作流 > 工作流参数 > 常规 > 审核人 > 不允许提交者进行审核** 设置为 **是**。

@@ -2,7 +2,7 @@
 title: 文本类别的 ER 函数列表
 description: 本主题提供有关电子申报 (ER) 支持的文本函数的信息。
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075492"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367759"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>文本类别的 ER 函数列表
 
@@ -51,7 +51,7 @@ ms.locfileid: "8075492"
 | [右对齐](er-functions-text-right.md) | 此函数返回 *字符串* 值，该值在指定字符串的末尾显示指定的字符数量。 |
 | [文本](er-functions-text-text.md) | 在将指定的数字转换为根据当前应用程序实例的服务器区域设置设定格式的文本字符串后，此函数将该数字作为 *字符串* 值返回。 |
 | [翻译](er-functions-text-translate.md) | 此函数返回一个 *字符串* 值，该值中包含使用指定文本字符替换提供的另一组字符的结果。 |
-| [Trim](er-functions-text-trim.md) | 在删除前导和尾随空格以及删除单词之间的多个空格之后，此函数作为 *字符串* 值返回指定的文本字符串。 |
+| [Trim](er-functions-text-trim.md) | 此函数在制表符、回车符、换行符和换页符被单个空格字符替换后，在前导和尾随空格被截断后，以及字词之间的多个空格被删除后，将指定的文本字符串作为 *字符串* 值返回。 |
 | [Upper](er-functions-text-upper.md) | 在将指定的文本字符串转换为大写字母后，此函数作为 *字符串* 值返回该字符串。 |
 
 ## <a name="additional-resources"></a>其他资源

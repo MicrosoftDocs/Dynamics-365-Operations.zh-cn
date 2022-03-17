@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860500"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384789"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
@@ -121,7 +121,7 @@ ms.locfileid: "7860500"
 1. 登录 Supply Chain Management。
 1. 转到 **系统管理 \> 功能管理**。
 1. 选择 **检查更新**。
-1. 在 **全部** 选项卡上，搜索名为 *全球库存核算* 的功能。
+1. 在 **全部** 选项卡上，搜索名为 *（预览）全球库存核算* 的功能。
 1. 选择 **立即启用**。
 1. 转到 **全球库存核算 \> 设置 \> 全球库存核算参数 \> 集成参数**。
 1. 在 **数据服务终结点** 和 **全球库存核算终结点** 字段中，输入全球库存核算团队在您注册预览版时发送的电子邮件中的 URL。

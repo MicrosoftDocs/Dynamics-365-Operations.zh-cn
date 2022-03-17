@@ -2,7 +2,7 @@
 title: 税款计算概览
 description: 本主题说明税务计算功能的总体范围和功能。
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105427"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388487"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -58,6 +58,7 @@ ms.locfileid: "8105427"
 - 加拿大
 - 欧洲
 - 日本
+- 瑞士
 - 英国
 - 美国
 
@@ -77,6 +78,7 @@ ms.locfileid: "8105427"
 | 10.0.23         | 税款计算配置 40.50.221 |
 | 10.0.24         | 税款计算配置 40.50.225 |
 | 10.0.25         | 税款计算配置 40.50.225 |
+| 10.0.26         | 税款计算配置 40.54.234 |
 
 
 ## <a name="data-flow"></a>数据流
@@ -136,6 +138,11 @@ ms.locfileid: "8105427"
 
 - 普通发票
 
+以下交易在版本 10.0.26 中受支持： 
+
+- 普通日记帐
+- 供应商发票日记帐
+
 ## <a name="supported-countriesregions"></a>支持的国家/地区
 
 法人可以启用税款计算。 
@@ -187,6 +194,12 @@ ms.locfileid: "8105427"
 版本 10.0.24 支持法人主要地址的以下国家/地区：
 
 - 墨西哥
+
+版本 10.0.26 支持法人主要地址的以下国家/地区：
+
+- 中国
+- 捷克共和国
+- 西班牙
 
 ## <a name="related-resources"></a>相关资源
 

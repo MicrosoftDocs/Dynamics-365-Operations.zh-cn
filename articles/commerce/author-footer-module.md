@@ -2,7 +2,7 @@
 title: 页脚模块
 description: 此主题介绍页脚模块和如何在 Dynamics 365 Commerce 中制作页脚模块。
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719978"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374823"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -39,7 +39,7 @@ ms.locfileid: "6719978"
 
 ## <a name="modules-available-in-a-footer-module"></a>页脚模块中的可用模块
 
-**页脚项** – 页脚项模块中可包含标题、图像和链接。 标题可以单独使用，也可以与图像和链接组合使用。 可配置页脚中的每个链接，使其仅包含文本（如“联系我们”和“隐私”链接），或使其同时包含文本和图像（例如，社交媒体链接）。
+**页脚项** – 页脚项模块中可包含标题或链接。 标题通常用作页脚部分标题。  可配置页脚中的每个链接，使其仅包含文本（如“联系我们”和“隐私”链接），或使其同时包含文本和图像（例如，社交媒体链接）。 如果同时提供了标题和链接，标题属性优先于链接。 
 
 **返回顶部** – 返回顶部模块提供用于快速导航到页面顶部的链接。 需要目标。 默认目标值为 \#，用于将用户带到页面顶部。
 

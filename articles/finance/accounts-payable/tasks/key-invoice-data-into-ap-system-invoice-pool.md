@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777256"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358281"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>使用发票池将发票数据键入 AP 系统
 
@@ -58,7 +58,7 @@ ms.locfileid: "6777256"
 6. 选择 **更改视图**。
 7. 选择 **网格视图**。
 8. 选择 **过帐**。
-9. 关闭窗体。
+9. 关闭该页面。
 10. 在导航窗格中，转到 **模块 > 应付帐款 > 供应商 > 供应商**。
 11. 选择采购订单上的供应商。 例如，选择供应商 **1001**。
 12. 在操作窗格上，选择 **供应商**。

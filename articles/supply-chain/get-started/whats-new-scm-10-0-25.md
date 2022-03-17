@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102988"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384530"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 预览（2022 年 4 月）
 
@@ -34,10 +34,10 @@ ms.locfileid: "8102988"
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
-| 库存和物流&nbsp;&nbsp; | 危险物料增强 | 这些增强功能基于现有危险物料功能构建，以更好地帮助公司在跨不同区域运输危险物料时遵守当地法规。 <!-- KFM: Update to 2022w1 link when published -->| 功能管理：<br>*危险物料增强* |
-| 库存和物流&nbsp;&nbsp; | 装箱工作站的装箱工作 | 此功能可显著提高装箱和装运操作的灵活性和敏捷性。 在装箱过程中，仓库工作人员现在可以包装和装运与同一装运和负荷相关的单个包裹。 如果某些物料可以立即准备好进行装运，属于同一装运的订单行不一定需要一起装运。 单个订单可以在不同的装运时间在多个包裹中装箱和装运，从而减少等待时间，增加敏捷性。<!-- KFM: Update to 2022w1 link when published --> | 功能管理：<br>*装箱工作站的装箱工作* |
-| 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) | 功能管理：<br>*扫描 GS1 条码* |
-| 制造 | [生产车间执行界面的物料消耗和预留](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量* |
+| 库存和物流&nbsp;&nbsp; | [危险物料增强](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | 即将推出 | 功能管理：<br>*危险物料增强* |
+| 库存和物流&nbsp;&nbsp; | [装箱工作站的装箱工作](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | 即将推出 | 功能管理：<br>*装箱工作站的装箱工作* |
+| 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) | 功能管理：<br>*扫描 GS1 条码* |
+| 制造 | [生产车间执行界面的物料消耗和预留](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*(预览版)在生产车间执行界面(非 WMS)上登记物料消耗量*<br><br>与/或：<br><br>功能管理：<br>*(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量* |
 | 制造 | [在缩放单元上登记物料消耗量](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [云和边缘缩放单元的制造执行工作负载](../cloud-edge/cloud-edge-workload-manufacturing.md) | 功能管理：<br>*使用移动应用登记缩放单元中的物料消耗量* |
 | 计划 | [优化现有供应的计划优化建议](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [行动消息](../master-planning/action-messages.md) | 默认启用 |
 | 计划 | 已简化的计划订单 | [已简化的计划订单](../master-planning/planning-optimization/planned-orders-simplified.md ) | 功能管理：<br>*已简化的计划订单* |

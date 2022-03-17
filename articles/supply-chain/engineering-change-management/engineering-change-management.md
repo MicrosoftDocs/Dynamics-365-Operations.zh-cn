@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102902"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384660"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 
@@ -217,5 +217,15 @@ ms.locfileid: "8102902"
 
 您可以使用 **维护/复制更改信息** 按钮在受影响的产品之间复制更改信息。
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>使用电子签名审核与激活物料清单和工艺路线
+
+要使用电子签名审核和/或激活物料清单 (BOM) 和/或工艺路线更改，请转到 **组织管理 \> 设置 \> 电子签名 \> 电子签名要求**。 然后确保以下各项的 **需要签名** 均设置为 *是*：
+
+- 激活工程更改订单产品物料清单
+- 激活工程更改订单产品工艺路线
+- 审核工程更改订单产品物料清单
+- 审核工程更改订单产品工艺路线
+- 审核工程版本物料清单和物料清单版本
+- 审核工程版本和工艺路线版本
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

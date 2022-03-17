@@ -2,7 +2,7 @@
 title: 交货选项模块
 description: 此主题介绍交货选项模块，说明如何在 Microsoft Dynamics 365 Commerce 中配置这些模块。
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760892"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349786"
 ---
 # <a name="delivery-options-module"></a>交付选项模块
 
@@ -56,11 +56,14 @@ Fabrikam 主题支持混合交货方式，有些商品被选出进行装运，�
 
 交货选项模块只能添加到结帐模块。 有关如何配置交货选项模块并将其添加到结帐页的详细信息，请参阅[结帐模块](add-checkout-module.md)。
 
+> [!NOTE]
+> 您可能会遇到不一致的交货处理，或者您可能在电子商务渠道中看不到不按比例分配的标头级费用。 有关如何解决这些问题的指南，请参阅[在电子商务渠道中启用一致的交货方式处理](consistent-delivery-mode-handling.md)。
+
 ## <a name="additional-resources"></a>其他资源
 
 [购物车模块](add-cart-module.md)
 
-[结帐模块](add-checkout-module.md)
+[结账模块](add-checkout-module.md)
 
 [付款模块](payment-module.md)
 

@@ -2,7 +2,7 @@
 title: 创建电子商务站点
 description: 本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 author: bicyclingfool
-ms.date: 02/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090761"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388203"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 
@@ -30,6 +30,19 @@ ms.locfileid: "8090761"
 本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 
 在许可 Dynamics 365 Commerce 功能时，将为站点构建器预配可用作您自己站点的基础的入门站点。 但是，如果要从头开始或要建立第二个站点，则需要在站点创作环境中建立一个新站点。 
+
+## <a name="site-creation-prerequisites"></a>站点创建先决条件
+
+站点构建器用户必须具有 Microsoft Azure Active Directory (Azure AD) 用户帐户，该帐户包含在为电子商务系统管理员分配的 Azure AD 安全组中。 有关详细信息，请参阅[部署新的电子商务租户](deploy-ecommerce-site.md)。
+
+> [!NOTE]
+> Azure AD 来宾用户在您的 Azure AD 租户中可能具有不同的访问权限。 即使包含在为电子商务系统管理员分配的 Azure AD 安全组中，来宾用户也可能需要调整 Azure AD **外部用户** 权限设置才能在 Commerce 中创建电子商务站点。 
+
+要调整 Azure AD **外部用户** 设置，请按照这些步骤操作。
+
+1. 在 Azure 门户中，导航到您的 Azure AD 租户。
+1. 转到 **用户设置 \> 外部用户**，选择 **管理外部协作设置** 链接。 这将打开 **外部协作设置** 页面，可以在其中设置来宾用户访问、来宾邀请设置和协作限制。 
+1. 根据您的公司的安全策略调整外部协作设置。 
 
 ## <a name="set-up-your-site"></a>设置站点
 

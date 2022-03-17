@@ -1,22 +1,22 @@
 ---
-title: 商业渠道的会计整合概览
+title: Commerce 渠道的会计集成概览
 description: 此主题提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077184"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388305"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>商业渠道的会计整合概览
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce 渠道的会计集成概览
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - **会计连接器配置** – 此配置定义与特定会计设备或服务的实际通信。
 
 特定 POS 登记的会计登记流程由 POS 功能配置文件中的相应设置定义。 有关如何配置会计登记流程、上载会计单据提供程序和会计连接器配置以及更改配置参数的更多详细信息，请参阅[设置会计登记流程](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)。
+
+> [!NOTE]
+> 如果您需要用于非会计操作（如产品目录搜索、客户查找或交易记录草稿创建）的设备，您可以选择这些设备作为具有会计流程限制的收银机。 有关详细信息，请参阅[设置具有会计登记限制的收银机](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions)。
 
 以下典型的会计登记流程从 POS 中的一个事件开始（例如，完成销售交易），实施一系列涉及其他 Commerce 组件（如 CRT 和硬件工作站）的预定义步骤。
 

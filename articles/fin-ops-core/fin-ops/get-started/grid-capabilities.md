@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 02/01/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83d0b6243efd802ffc959f8de14f6232736fc88c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087566"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384408"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -67,7 +67,10 @@ ms.locfileid: "8087566"
 ### <a name="calculating-totals"></a>正在计算合计
 当您进入页脚可见且已为总计配置了列的页面时，总计可能会显示在页脚中，也可能不会显示。 此行为取决于页面上数据集的大小。 如果数据集足够小，则会自动显示总计以及数据集中的行数。 如果您在为总计配置的列下的页脚中有破折号，则说明数据集太大，系统无法立即显示总计，因此需要执行明确操作来计算总计。 若要执行此操作，单击页脚中的 **计算** 按钮，或右键单击要计算总计的列，然后选择 **计算此列总计**。
 
-如果计算时间过长，可以选择 **取消** 按钮取消运算。 但是，有时数据集太大而无法计算总数（组织施加的限制），而是会通知您进一步筛选数据。
+如果计算需要很长时间完成，可以选择 **取消** 按钮取消运算。 有时数据集太大而无法计算总数（组织施加的限制），而是会通知您进一步筛选数据。 
+
+> [!NOTE]
+> 系统管理员可以通过调整 **客户端性能选项** 页面上的 **每个网格的最大本地记录数** 参数来修改可用于计算总计的记录数的限制。 默认值为 25,000 个记录。 管理员在调整此值时应该小心，因为值太大会耗尽用户计算机上的可用内存。 建议不超过 50,000 个记录。   
 
 总计将在您更新、删除或创建数据集中的行时自动更新。
 

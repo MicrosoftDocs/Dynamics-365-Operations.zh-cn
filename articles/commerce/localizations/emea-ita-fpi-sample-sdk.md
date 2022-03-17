@@ -2,23 +2,24 @@
 title: 意大利会计打印机整合示例的部署准则（旧版）
 description: 本主题提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署意大利会计打印机整合示例的指南。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076878"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388436"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>意大利会计打印机整合示例的部署准则（旧版）
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 本主题提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署意大利会计打印机整合示例的指南。 有关此会计整合示例的详细信息，请参阅[意大利会计打印机整合示例](emea-ita-fpi-sample.md)。 
 
@@ -89,13 +90,13 @@ Retail SDK 中包含 Hardware Station 扩展组件。 若要完成以下过程�
 1. 完成本主题前面的[开发环境](#development-environment)部分中描述的步骤。
 2. 在 **RetailSdk\\Assets** 文件夹下的包配置文件中进行以下更改：
 
-    - 在 **commerceruntime.ext.config** 和 **CommerceRuntime.MPOSOffline.Ext.config** 配置文件中，将以下行添加到 **构成** 部分中。
+    1. 在 **commerceruntime.ext.config** 和 **CommerceRuntime.MPOSOffline.Ext.config** 配置文件中，将以下行添加到 **构成** 部分中。
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - 在 **HardwareStation.Extension.config** 配置文件中，将以下行添加到 **构成** 部分。
+    1. 在 **HardwareStation.Extension.config** 配置文件中，将以下行添加到 **构成** 部分。
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ Retail SDK 中包含 Hardware Station 扩展组件。 若要完成以下过程�
 
 3. 在 **BuildTools** 文件夹下的 **Customization.settings** 包自定义配置文件中进行以下更改：
 
-    - 添加以下行以在可部署包中包括 CRT 扩展。
+    1. 添加以下行以在可部署包中包括 CRT 扩展。
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - 添加以下行以在可部署包中包括 Hardware Station 扩展。
+    1. 添加以下行以在可部署包中包括 Hardware Station 扩展。
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. 启动 Visual Studio 实用程序的 MSBuild 命令提示符，然后在 Retail SDK 文件夹下运行 **msbuild** 以创建可部署包。
-5. 通过 LCS 或手动应用包。 有关详细信息，请参阅[创建可部署包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。
+4. 在 **Packages\_SharedPackagingProjectComponents** 文件夹下的 **Sdk.ModernPos.Shared.csproj** 文件中进行以下更改，以将意大利的资源文件包含在可部署包中：
+
+    1. 添加一个 **ItemGroup** 部分，其中包含指向所需翻译的资源文件的节点。 确保指定正确的命名空间和示例名称。 以下示例为 **it** 和 **it-CH** 区域设置添加资源节点。
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. 在 **Target Name="CopyPackageFiles"** 部分，为每个区域设置添加一行，如下例所示。
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. 在 **Packages\_SharedPackagingProjectComponents** 文件夹下的 **Sdk.RetailServerSetup.proj** 文件中进行以下更改，以将意大利的资源文件包含在可部署包中：
+
+    1. 添加一个 **ItemGroup** 部分，其中包含指向所需翻译的资源文件的节点。 确保指定正确的命名空间和示例名称。 以下示例为 **it** 和 **it-CH** 区域设置添加资源节点。
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. 在 **Target Name="CopyPackageFiles"** 部分，为每个区域设置添加一行，如下例所示。
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. 启动 Visual Studio 实用程序的 MSBuild 命令提示符，然后在 Retail SDK 文件夹下运行 **msbuild** 以创建可部署包。
+7. 通过 LCS 或手动应用包。 有关详细信息，请参阅[创建可部署包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。
 
 ## <a name="design-of-extensions"></a>扩展设计
 

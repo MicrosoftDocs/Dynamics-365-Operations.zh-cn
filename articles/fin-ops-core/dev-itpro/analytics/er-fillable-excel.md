@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952644"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388255"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -83,31 +83,48 @@ ms.locfileid: "7952644"
 
 ## <a name="range-component"></a>范围组件
 
-**范围** 组件指示此 ER 组件必须控制的 Excel 范围。 范围的名称在此组件的 **Excel 范围** 属性中定义。
-
-### <a name="replication"></a>复制
-
-**复制方向** 属性指定是否在生成的文档中重复范围和如何重复范围。
-
-- 如果 **复制方向** 属性设置为 **不复制**，生成的文档中将不重复相应 Excel 范围。
-- 如果 **复制方向** 属性设置为 **垂直**，生成的文档中将重复相应 Excel 范围。 将把复制的每个范围放到 Excel 模板中原始范围下。 复制数量由与此 ER 组件绑定的 **记录列表** 类型的数据源中的记录数量定义。
-- 如果 **复制方向** 属性设置为 **水平**，生成的文档中将重复相应 Excel 范围。 将把复制的每个范围放到 Excel 模板中原始范围右侧。 复制数量由与此 ER 组件绑定的 **记录列表** 类型的数据源中的记录数量定义。
-
-若要详细了解水平复制，请执行[使用可水平扩展的范围在 Excel 报表中动态添加列](tasks/er-horizontal-1.md)中的步骤。
-
 ### <a name="nested-components"></a>嵌套组件
 
-**范围** 组件可以有其他嵌套 ER 组件，用于在相应 Excel 命名范围中输入值。
+#### <a name="data-typing"></a>数据键入
+
+**范围** 组件可以有其他嵌套 ER 组件，用于在相应范围中输入值。
 
 - 如果使用 **文本** 组的任何组件输入值，将把该值在 Excel 范围中作为文本值输入。
 
     > [!NOTE]
     > 使用此模式根据应用程序中定义的语言环境为输入的值设置格式。
 
-- 如果使用  **Excel** 组的 **单元格** 组件输入值，该值将在 Excel 范围中作为该 **单元格** 组件的绑定定义的数据类型（如 **字符串**、**实数** 或 **整数**）的值。
+- 如果使用 **Excel** 组的 **单元格** 组件输入值，该值将在 Excel 范围中作为该 **单元格** 组件的绑定定义的数据类型的值。 例如，数据类型可能是 **字符串**、**实数** 或 **整数**。
 
     > [!NOTE]
     > 使用此模式让 Excel 应用程序根据打开传出文档的本地计算机的区域设置来为输入的值设置格式。
+
+#### <a name="row-handling"></a>行处理
+
+**范围** 组件可以配置为垂直复制，以在 Excel 工作表中生成多行。 这些行可以由父 **范围** 组件或其嵌套的 **范围** 组件生成。
+
+在 10.0.26 及更高版本中，您可以强制生成的工作表将生成的行保持在同一页面。 在 ER 格式设计器中，将可编辑 ER 格式的父 **范围** 组件的 **行保持在一起** 选项设置为 **是**。 然后，ER 将尝试将该范围生成的所有内容保留在同一页面上。 如果内容的高度超过当前页面的剩余空间，将会添加分页符，内容将从下一个新页面的顶部开始。
+
+> [!NOTE]
+> 我们建议您仅为跨越生成文档的整个宽度的范围配置 **行保持在一起** 选项。
+>
+> **行保持在一起** 选项仅适用于配置为使用 Excel 工作簿模板的 **Excel \> 文件** 组件。
+>
+> **行保持在一起** 选项只能在 **支持在电子报告框架中使用 EPPlus 库** 功能启用时使用。
+>
+> 此功能可用于位于 **页面** 组件下的 **范围** 组件。 但是，不能保证使用[数据收集](er-data-collection-data-sources.md)数据源可以正确计算[页脚总计](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals)。
+
+要了解如何使用此选项，请按照[设计 ER 格式以将行保持在同一 Excel 页面上](er-keep-excel-rows-together.md)中的示例步骤进行操作。
+
+### <a name="replication"></a>复制
+
+**Replication direction** 属性指定是否在生成的文档中重复范围和如何重复范围。
+
+- **不复制** – 生成的文档中不会重复相应的 Excel 范围。
+- **垂直** – 相应的 Excel 范围将在生成的文档中垂直重复。 将把复制的每个范围放到 Excel 模板中原始范围下。 复制数量由与此 ER 组件绑定的 **记录列表** 类型的数据源中的记录数量定义。
+- **水平** – 相应的 Excel 范围将在生成的文档中水平重复。 将把复制的每个范围放到 Excel 模板中原始范围右侧。 复制数量由与此 ER 组件绑定的 **记录列表** 类型的数据源中的记录数量定义。
+
+    若要详细了解水平复制，请执行[使用可水平扩展的范围在 Excel 报表中动态添加列](tasks/er-horizontal-1.md)中的步骤。
 
 ### <a name="enabling"></a>正在启用
 
@@ -280,12 +297,12 @@ ms.locfileid: "7952644"
 
 - 如果选择 **自动**，则每次为生成的文档附加新的范围、单元格等时，都将重新计算所有依赖 公式。
 
-    >[!NOTE]
+    > [!NOTE]
     > 这可能会导致包含多个相关公式的 Excel 模板出现性能问题。
 
 - 如果选择 **手动**，则可避免在生成文档时重新计算公式。
 
-    >[!NOTE]
+    > [!NOTE]
     > 使用 Excel 打开生成的文档进行预览时，将手动强制重新计算公式。
     > 如果配置的 ER 目标位置需要使用生成的文档，但 Excel 中无预览（PDF 转换、电子邮件等），请不要使用此选项，因为生成的文档中包含的公式中可能不包含值。
 

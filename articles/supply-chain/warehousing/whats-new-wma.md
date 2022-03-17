@@ -2,7 +2,7 @@
 title: Warehouse Management 移动应用中的新增功能或更改的功能
 description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067243"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384356"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20170"></a>版本 2.0.17.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 修复了条码扫描不正确的问题。
+- 修复了相机扫描仪的 GS1 扫描问题。
+- 修复了 Zebra 设备上条码扫描仪的 GS1 扫描问题。
+- 改进了绕过查询流，在绕过中选择卡片现在将返回到主流。
+- 增加了对通用数据查询流的支持。
+- 增加了一条消息，告诉用户网络连接状态的变化。
+- 将存储权限与 Android 10 中的存储隐私政策保持一致。
+- 对于需要它的流，数量旋转图标现在包含一个位置，允许用户提交空数值。
+- 修复了数量旋转图标方向的问题。
+- 修复了数量旋转图标会跳转到错误值的问题。
+- 修复了从详细信息页面填充主页面输入时会丢失输入的问题。
+- 修复了占位符文本会被视为选择列表中最初选择的值的问题。
+- 如果有预选值，现在会在确认步骤上自动启用“提交”按钮。
+- 修复了详细信息卡以尽可能多地显示具有多行的文本字段的行。
+- 修复了“提交”和“更多操作”按钮的高度，现在它们在屏幕上占用的空间更少。
+- 添加了缺少的选择列表标题。
+- 修复了返回按钮不起作用的问题。
+- 添加了几个键盘导航修复和改进，包括以下页面：
+  - 用户登录
+  - 选择连接
+  - 编辑连接
+- 修复了使用键盘导航时的滚动。
+- 增强了辅助功能，包括以下改进：
+  - 修复了颜色可见性和对比度。
+  - 阻止了弹出页面关闭时键盘焦点丢失。
+  - 在讲述中添加了错误消息。
+  - 增加了步骤横幅中占位符值的大小。
+- 修复了演示模式下自定义旧页面的示例。
 
 ## <a name="version-20150"></a>版本 2.0.15.0
 
@@ -39,7 +72,7 @@ ms.locfileid: "8067243"
 ## <a name="version-20130"></a>版本 2.0.13.0
 
 此版本引入了以下新增功能、修复和改进：
- 
+
 - 改进了页面之间的滚动，并且动画更顺畅。
 - 修复了对滑动动作和偶尔屏幕冻结的反直觉响应。
 - 改进了深色模式文本和背景色组合以提高可读性。

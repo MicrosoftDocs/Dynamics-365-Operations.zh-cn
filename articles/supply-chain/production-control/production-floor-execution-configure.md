@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 30f36ccf967c47d6a034c00544d45cdfdc3d1907
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103380"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384739"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -78,6 +78,38 @@ ms.locfileid: "8103380"
 利用此功能，工作人员可以使用生产车间执行界面报告批次订单的进度。 此报告包括联产品和副产品报告。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - *报告来自生产车间执行界面的联产品和副产品*
+
+### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>启用显示完整序列号、批号和牌照编号
+
+此功能为查看生产车间执行界面中的序列号、批处理和牌照号列表提供了改进的体验。 显示内容从显示有限数量字符的卡视图更改为提供足够空间来显示完整值的列表视图。 该列表还提供搜索特定数字的功能。
+
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *在生产车间执行界面中显示完整序列、批处理和牌照编号* 功能来打开或关闭此功能。
+
+### <a name="enable-registering-of-material-consumption"></a>启用登记物料消耗量
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 一些制造商，尤其是加工行业的制造商，必须明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还必须登记生产每个产品时消耗材料的批号。
+
+此功能有两个版本。 一个版本支持 *未* 启用使用高级仓库流程 (WMS) 的物料。 另一个版本支持 *启用* 以使用 WMS 的物料。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下一项或全部两项功能（按此顺序），具体取决于您是否有启用了 WMS 的物料：
+
+- *(预览版)在生产车间执行界面(非 WMS)上登记物料消耗量*
+- *(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量*
+
+> [!IMPORTANT]
+> 您可以单独使用非 WMS 功能。 但是，如果使用 WMS，则必须启用全部两项功能。
+
+### <a name="enable-reporting-on-catch-weight-items"></a>启用实际称重物料报告
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+工作人员可以使用生产车间执行界面报告实际称重物料的批次订单的进度。 批次订单是从配方创建的，配方可以定义为将实际称重物料作为配方物料、联产品和副产品。 另外还可以定义一个配方，使其具有针对实际称重定义的成分的配方行。 实际称重物料使用两种度量单位来跟踪库存：实际称重数量和库存数量。 例如，在食品行业，可以将盒装肉定义为一个实际称重物料，其中实际称重数量用于跟踪盒数，库存数量用于跟踪盒重量。
+
+要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
+- *(预览版)报告生产车间执行界面中的实际称重物料*
 
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 

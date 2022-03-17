@@ -2,19 +2,19 @@
 title: 设置商业渠道的会计整合
 description: 此主题提供为商业渠道设置会计整合功能的指南。
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076955"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388382"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 
@@ -46,6 +46,7 @@ ms.locfileid: "8076955"
 - 配置定义会计登记步骤的会计登记流程和用于每个步骤的会计连接器和会计单据提供程序。
 - 将会计登记流程分配到销售点 (POS) 功能配置文件。
 - 将连接器技术配置文件分配到硬件配置文件。
+- 将连接器技术配置文件分配到 POS 硬件或功能配置文件。
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>上载会计单据提供程序的配置
 
@@ -161,10 +162,12 @@ ms.locfileid: "8076955"
 1. 在 Commerce headquarters 中，转到 **POS 功能配置文件** 页面（**Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS 配置文件 \> 功能配置文件**）。 
 1. 将会计登记流程分配到 POS 功能配置文件。
 1. 选择 **编辑**，然后，在 **会计登记流程** 选项卡上，在 **流程编号** 字段中，选择流程。
+1. 在 **会计服务** 选项卡上，选择连接器位置 **收银机** 的连接器技术配置文件。
 1. 转到 **POS 硬件配置文件** 页面（**Retail 和 Commerce \> 渠道设置 \> POS 设置 \> POS 配置文件 \> 硬件配置文件**）。
 1. 将连接器技术配置文件分配到硬件配置文件。 
 1. 选择 **编辑**，然后在 **会计外围设备** 选项卡上添加行。 
 1. 在 **配置文件编号** 字段中，选择连接器技术配置文件。
+1. 在 **会计外围设备** 选项卡上，选择连接器位置 **硬件工作站** 的连接器技术配置文件。
 
 > [!NOTE]
 > 您可以将多个技术配置文件添加到同一个硬件配置文件。 但是，硬件配置文件或 POS 功能配置文件仅应具有与任何会计连接器组的一个交集。
@@ -175,6 +178,17 @@ ms.locfileid: "8076955"
 - 会计单据提供程序还负责识别用于会计登记的会计连接器。 它将为会计登记流程的当前步骤指定的会计连接器组中包含的连接器功能配置文件，与分配到 POS 与之配对的硬件工作站的硬件配置文件的连接器技术配置文件相匹配。
 - 会计单据提供程序使用来自会计单据配置的数据映射设置在生成会计单据时转换交易/事件数据，如纳税和付款。
 - 在会计单据提供程序生成会计单据时，会计连接器可以将其原样发送到会计设备，或者根据如何处理通信，分析并将其转换为设备应用程序编程接口 (API) 的一系列命令。
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>设置具有会计登记限制的收银机
+
+您可以选择禁止进行会计登记的收银机，例如，在您只需要在这些设备上提供产品目录搜索、客户查找或交易草稿创建等非会计操作的情况下。
+
+要设置具有会计登记限制的收银机，请按照以下步骤操作。
+
+1. 在Commerce headquarters 中，转到 **Retail 和 Commerce \> 渠道设置 \> 会计整合 \> 会计登记流程**。
+1. 选择所需的流程。
+1. 选择 **具有会计流程限制的 POS 收银机** 选项卡。
+1. 根据需要添加具有会计流程限制的收银机。
 
 ### <a name="validate-the-fiscal-registration-process"></a>验证会计登记流程
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
+ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952669"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "8330693"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -183,6 +183,7 @@ ms.locfileid: "7952669"
 | `PositionNumber` | 可选 | 字符串 |
 | `IsConsumptionEnded` | 可选 | 布尔值 |
 | `ErrorCause` | 可选 | 枚举 (None \| Material \| Machine \| OperatingStaff)，可扩展 |
+| `InventoryLotId` | 可选 | 字符串 |
 
 ### <a name="time-used-for-operation-route-card-message"></a>用于操作的时间（工艺卡）消息
 

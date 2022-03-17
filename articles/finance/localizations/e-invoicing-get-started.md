@@ -18,11 +18,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779686"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7983851"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>开始使用电子开票
 

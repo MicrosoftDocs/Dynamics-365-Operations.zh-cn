@@ -2,23 +2,24 @@
 title: 奥地利会计登记服务整合示例的部署准则（旧版）
 description: 本主题提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署奥地利会计整合示例的指南。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077107"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388407"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>奥地利会计登记服务整合示例的部署准则（旧版）
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 本主题提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署奥地利会计登记服务整合示例的指南。 有关此会计整合示例的详细信息，请参阅[奥地利会计登记服务整合示例](emea-aut-fi-sample.md)。 
 
@@ -87,11 +88,15 @@ CRT 示例中包含 CRT 扩展组件。 若要完成以下过程，请在 **Reta
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>启用 Hardware Station 扩展
+### <a name="enable-fiscal-connector-extensions"></a>启用会计连接器扩展
+
+您可以在[硬件工作站](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station)或 [POS 收银机](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network)上启用会计连接器扩展。
+
+#### <a name="enable-hardware-station-extensions"></a>启用 Hardware Station 扩展
 
 Hardware Station 示例中包含 Hardware Station 扩展组件。 若要完成以下过程，请在 **RetailSdk\\SampleExtensions\\HardwareStation** 下面打开 **HardwareStationSamples.sln** 解决方案。
 
-#### <a name="efrsample-component"></a>EFRSample 组件
+##### <a name="efrsample-component"></a>EFRSample 组件
 
 1. 查找 **HardwareStation.Extension.EFRSample** 项目并生成它。
 2. 在 **Extension.EFRSample\\bin\\Debug** 文件夹中，查找以下程序集文件：
@@ -114,6 +119,30 @@ Hardware Station 示例中包含 Hardware Station 扩展组件。 若要完成�
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>启用 POS 扩展
+
+POS 扩展示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\PosFiscalConnectorSample** 文件夹中。
+
+要在旧版 SDK 中使用 POS 扩展示例，请执行以下步骤。
+
+1. 将 **Pos.Extension** 文件夹复制到旧版 SDK 的 POS **Extensions** 文件夹（例如，`C:\RetailSDK\src\POS\Extensions`）。
+1. 重命名 **Pos.Extension** 文件夹 **PosFiscalConnector** 的副本。
+1. 从 **PosFiscalConnector** 文件夹中删除以下文件夹和文件：
+
+    - bin
+    - DataService
+    - devDependencies
+    - 库
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. 打开 **CloudPos.sln** 或 **ModernPos.sln** 解决方案。
+1. 在 **Pos.Extensions** 项目中，包括 **PosFiscalConnector** 文件夹。
+1. 打开 **extensions.json** 文件，添加 **PosFiscalConnector** 扩展。
+1. 构建 SDK。
 
 ### <a name="enable-modern-pos-extension-components"></a>启用 Modern POS 扩展组件
 
@@ -243,9 +272,7 @@ CRT 扩展为 **Runtime.Extensions.DocumentProvider.EFRSample**。
 
 ### <a name="hardware-station-extension-design"></a>Hardware Station 扩展设计
 
-作为会计连接器的扩展的目的是与会计登记服务通信。
-
-Hardware Station 扩展是 **HardwareStation.Extension.EFRSample**。 它使用 HTTP 协议将 CRT 扩展生成的单据提交到会计登记服务。 它还处理从会计登记服务收到的响应。
+会计连接器扩展的目的是与会计登记服务通信。 硬件工作站扩展名为 **HardwareStation.Extension.EFRSample**。 它使用 HTTP 或 HTTPS 协议将 CRT 扩展生成的单据提交到会计登记服务。 它还处理从会计登记服务收到的响应。
 
 #### <a name="request-handler"></a>请求处理程序
 
@@ -265,3 +292,26 @@ Hardware Station 扩展是 **HardwareStation.Extension.EFRSample**。 它使用 
 
 - **终结点地址** - 会计登记服务的 URL。
 - **超时** - 驱动程序等待会计登记服务响应的以毫秒为单位的时长。
+
+### <a name="pos-fiscal-connector-extension-design"></a>POS 会计连接器扩展的设计
+
+POS 会计连接器扩展的目的是与 POS 的会计登记服务通信。 它使用 HTTPS 协议进行通信。
+
+#### <a name="fiscal-connector-factory"></a>会计连接器工厂
+
+会计连接器工厂将连接器名称映射到会计连接器实现，它位于 **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** 文件中。 连接器名称应与 Commerce Headquarters 中指定的会计连接器名称匹配。
+
+#### <a name="efr-fiscal-connector"></a>EFR 会计连接器
+
+EFR 会计连接器位于 **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** 文件中。 它实现支持以下请求的 **IFiscalConnector** 接口：
+
+- **FiscalRegisterSubmitDocumentClientRequest** – 此请求将单据发送到会计登记服务并返回此服务的响应。
+- **FiscalRegisterIsReadyClientRequest** – 此请求用于检查会计登记服务的运行状况。
+- **FiscalRegisterInitializeClientRequest** – 此请求用于初始化会计登记服务。
+
+#### <a name="configuration"></a>配置
+
+配置文件位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** 文件夹中。 此文件的目的是启用要从 Commerce Headquarters 配置的会计连接器的设置。 文件格式符合会计集成配置的要求。 添加了以下设置：
+
+- **终结点地址** - 会计登记服务的 URL。
+- **超时** – 连接器等待会计登记服务响应的以毫秒为单位的时长。

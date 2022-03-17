@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本主题概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119544"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384555"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ ms.locfileid: "8119544"
 | 移到主页内容（焦点在其他窗格内）                    | Alt+M、M                    |
 | 移到速见表窗格（可能包括将其打开）                       | Alt+M、B 或 Ctrl+F2         |
 
+> [!NOTE]
+> 10.0.26 版中引入的 **在整页窗体中简化 Tab 键使用行为** 功能允许用户使用 Tab 键在页面的所有区域之间切换，而无需鼠标或专用键盘快捷方式在区域之间移动。 您仍然可以使用现有的键盘快捷方式（如 Alt+M 键和弦快捷方式）在页面上的区域之间快速移动。
+
 ## <a name="personalization-shortcuts"></a>[个性化](personalize-user-experience.md)快捷方式 
 
-| 要执行的操作                                                                                                             | 按                               |
+| 要执行的操作                                                                                                             | 按                                |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | 将页面转换到个性化模式                                                                          | Ctrl+Shift+P                        |
 | 使用选择工具（在个性化模式中）                                                                     | S                                   |

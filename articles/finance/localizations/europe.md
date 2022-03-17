@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982086"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367840"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
@@ -36,13 +36,13 @@ ms.locfileid: "7982086"
 - [编辑东区销售订单上的发票 ID](emea-edit-invoice-id-sales-orders.md)
 - [欧盟入境证](emea-entry-certificates.md)
 - [欧盟销售清单报表](emea-eu-sales-list.md)
+  - [通用 EU 销售清单的示例](emea-eu-sales-list-example.md)
 - [汇率调整](emea-exchange-rate-adjustments.md)
 - [付款方式的文件格式](emea-select-file-formats-for-the-method-of-payments.md)
 - [关于英国脱欧影响的金融（全球化）指南](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [会计服务 (ESR) 集成](emea-fiscal-service-integration.md)
 - [爱沙尼亚和立陶宛的固定资产处置](emea-credit-note-reverse-fixed-asset-sale.md)
 - [为内部库存转移生成转移文档](tasks/transfer-document-internal-inventory-transfer.md)
-- [生成欧盟销售清单报告](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 文件
   - [导入 ISO20022 文件](emea-ISO20022-file-formats.md)
   - [导入 ISO20022 直接借记配置](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ ms.locfileid: "7982086"
 - [SEPA 贷方转帐概览](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA 直接借记概览](../accounts-receivable/sepa-direct-debit-overview.md)
 - [设置客户和供应商薪酬](emea-compensation-customer-vendor-transactions.md)
-- [设置欧盟销售清单报表](tasks/eur-00011-eu-sales-list-reporting.md)
 - [设置项目发票的付款单格式](tasks/set-up-payment-slip-format-project-invoices.md)
 - [设置打印表格的签名人](emea-set-up-signers-for-printing-forms.md)
 - [Storno 核算](emea-storno.md)
