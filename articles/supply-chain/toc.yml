@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: 比较物料价格存储报告
                   href: cost-management/compare-item-price.md
+            - name: 成本计算方法
+              items:
+                - name: 移动平均成本价
+                  href: cost-management/running-average-cost-price.md
+                - name: 按库存维度跟踪移动平均成本
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: 具有实际成本和标记的先进先出
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: 具有实际成本和标记的后进先出日期
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: 具有实际成本和标记的后进先出
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: 具有实际成本和标记的加权平均
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: 具有实际成本和标记的加权平均日期
+                  href: cost-management/weighted-average-date.md
+                - name: 移动平均
+                  href: cost-management/moving-average.md
+                - name: 移动平均回退成本序列
+                  href: cost-management/moving-average-fallback.md
             - name: 库存会计
               items:
+                - name: 实际和财务更新
+                  href: cost-management/physical-financial-updates.md
+                - name: 包括实际成本
+                  href: cost-management/include-physical-value.md
                 - name: 成本对象
                   href: cost-management/cost-object.md
                 - name: 查看成本对象余额
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: 成本组
                   href: cost-management/cost-groups.md
-                - name: 具有实际成本和标记的 FIFO
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: 包括实际成本
-                  href: cost-management/include-physical-value.md
                 - name: 库存对象价值
                   href: cost-management/physical-quantity.md
-                - name: 具有实际成本和标记的后进先出日期
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: 具有实际成本和标记的后进先出
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: 移动平均
-                  href: cost-management/moving-average.md
-                - name: 移动平均回退成本序列
-                  href: cost-management/moving-average-fallback.md
-                - name: 实际和财务更新
-                  href: cost-management/physical-financial-updates.md
-                - name: 移动平均成本价
-                  href: cost-management/running-average-cost-price.md
-                - name: 按库存维度跟踪移动平均成本
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: 加权平均日期
-                  href: cost-management/weighted-average-date.md
-                - name: 具有实际成本和标记的加权平均
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: 库存结转
                   href: cost-management/inventory-close.md
                 - name: 调整现有库存量成本价值
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 配置数据模型
+                  items:
+                    - name: 支持电子报告数据模型的参数化调用
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: 测试期间请求和会话数据之间的意外差异
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: 设置应用连接时未找到认证路径的信任定位点
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: 更新并迁移到 WMS 时未找到认证路径的信任定位点

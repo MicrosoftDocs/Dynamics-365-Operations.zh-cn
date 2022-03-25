@@ -4,106 +4,58 @@
       items:
         - name: Dynamics 365 Human Resources 主页
           href: index.md
-        - name: 基础结构版本 10.0.25
-          href: hr-infrastructure.md
-        - name: Dynamics 365 Human Resources 合并基础结构的新增功能或更改
-          href: ./get-started/hr-whats-new-changed-10-0-25.md
+        - name: 新增功能或更改
+          items:
+            - name: 财务和运营应用新增功能或更改
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Human Resources 中的新增功能或更改
+              items:
+                - name: Human Resources 10.0.26（合并基础结构）
+                  href: ./get-started/hr-whats-new-changed-10-0-26.md
+                - name: Human Resources 10.0.25（合并基础结构）
+                  href: ./get-started/hr-whats-new-changed-10-0-25.md
+                - name: Dynamics 365 Human Resources（独立版）新增功能
+                  items:
+                    - name: 2021 年 Dynamics 365 Human Resources（独立版）新增功能存档
+                      href: hr-admin-whats-new.md
+                    - name: 2021 年 11 月 29 日
+                      href: hr-whats-new-2021-11-29.md
+                    - name: 2021 年 10 月 5 日
+                      href: hr-whats-new-2021-10-04.md
+                    - name: 2021 年 9 月 20 日
+                      href: hr-whats-new-2021-09-20.md
+                    - name: 2021 年 9 月 6 日
+                      href: hr-whats-new-2021-09-06.md
+                    - name: 2021 年 8 月 23 日
+                      href: hr-whats-new-2021-08-23.md
+                    - name: 2021 年 8 月 9 日
+                      href: hr-whats-new-2021-08-09.md
+                    - name: 2021 年 7 月 26 日
+                      href: hr-whats-new-2021-07-26.md
+                    - name: 2021 年 7 月 12 日
+                      href: hr-whats-new-2021-07-12.md
+                    - name: 2021 年 6 月 22 日
+                      href: hr-whats-new-2021-06-22.md
+                    - name: 2021 年 5 月 20 日
+                      href: hr-whats-new-2021-05-20.md
+                    - name: 2021 年 5 月 3 日
+                      href: hr-whats-new-2021-05-03.md
+                    - name: 2021 年 4 月 19 日
+                      href: hr-whats-new-2021-04-19.md
+                    - name: 2021 年 4 月 5 日
+                      href: hr-whats-new-2021-04-05.md
+                    - name: 2021 年 3 月 22 日
+                      href: hr-whats-new-2021-03-22.md
+                    - name: 2021 年 3 月 8 日
+                      href: hr-whats-new-2021-03-08.md
+                    - name: 2021 年 2 月 22 日
+                      href: hr-whats-new-2021-02-22.md
+                    - name: 2021 年 1 月 28 日
+                      href: hr-whats-new-2021-01-28.md
+                    - name: 2021 年 1 月 21 日
+                      href: hr-whats-new-2021-01-21.md
         - name: 开始使用
           items:
-            - name: 新增功能
-              href: hr-admin-whats-new.md
-            - name: 2021 年新增功能或更改存档
-              items:
-                - name: 2021 年 11 月 29 日
-                  href: hr-whats-new-2021-11-29.md
-                - name: 2021 年 10 月 5 日
-                  href: hr-whats-new-2021-10-04.md
-                - name: 2021 年 9 月 20 日
-                  href: hr-whats-new-2021-09-20.md
-                - name: 2021 年 9 月 6 日
-                  href: hr-whats-new-2021-09-06.md
-                - name: 2021 年 8 月 23 日
-                  href: hr-whats-new-2021-08-23.md
-                - name: 2021 年 8 月 9 日
-                  href: hr-whats-new-2021-08-09.md
-                - name: 2021 年 7 月 26 日
-                  href: hr-whats-new-2021-07-26.md
-                - name: 2021 年 7 月 12 日
-                  href: hr-whats-new-2021-07-12.md
-                - name: 2021 年 6 月 22 日
-                  href: hr-whats-new-2021-06-22.md
-                - name: 2021 年 5 月 20 日
-                  href: hr-whats-new-2021-05-20.md
-                - name: 2021 年 5 月 3 日
-                  href: hr-whats-new-2021-05-03.md
-                - name: 2021 年 4 月 19 日
-                  href: hr-whats-new-2021-04-19.md
-                - name: 2021 年 4 月 5 日
-                  href: hr-whats-new-2021-04-05.md
-                - name: 2021 年 3 月 22 日
-                  href: hr-whats-new-2021-03-22.md
-                - name: 2021 年 3 月 8 日
-                  href: hr-whats-new-2021-03-08.md
-                - name: 2021 年 2 月 22 日
-                  href: hr-whats-new-2021-02-22.md
-                - name: 2021 年 1 月 28 日
-                  href: hr-whats-new-2021-01-28.md
-                - name: 2021 年 1 月 21 日
-                  href: hr-whats-new-2021-01-21.md
-            - name: 2020 年新增功能存档
-              items:
-                - name: 2020 年 12 月 2 日
-                  href: hr-whats-new-2020-12-02.md
-                - name: 2020 年 10 月 22 日
-                  href: hr-whats-new-2020-10-22.md
-                - name: 2020 年 10 月 6 日
-                  href: hr-whats-new-2020-10-06.md
-                - name: 2020 年 9 月 26 日
-                  href: hr-whats-new-2020-09-26.md
-                - name: 2020 年 9 月 16 日
-                  href: hr-whats-new-2020-09-16.md
-                - name: 2020 年 9 月 3 日
-                  href: hr-whats-new-2020-09-03.md
-                - name: 2020 年 8 月 20 日
-                  href: hr-whats-new-2020-08-20.md
-                - name: 2020 年 8 月 6 日
-                  href: hr-whats-new-2020-08-06.md
-                - name: 2020 年 7 月 23 日
-                  href: hr-whats-new-2020-07-23.md
-                - name: 2020 年 7 月 8 日
-                  href: hr-whats-new-2020-07-08.md
-                - name: 2020 年 6 月 25 日
-                  href: hr-whats-new-2020-06-23.md
-                - name: 2020 年 6 月 11 日
-                  href: hr-whats-new-2020-06-11.md
-                - name: 2020 年 5 月 28 日
-                  href: hr-whats-new-2020-05-28.md
-                - name: 2020 年 5 月 14 日
-                  href: hr-whats-new-2020-05-14.md
-                - name: 2020 年 5 月 1 日
-                  href: hr-whats-new-2020-05-01.md
-                - name: 2020 年 4 月 13 日
-                  href: hr-whats-new-2020-04-13.md
-                - name: 2020 年 4 月 3 日
-                  href: hr-whats-new-2020-04-03.md
-                - name: 2020 年 3 月 24 日
-                  href: hr-whats-new-2020-03-24.md
-                - name: 2020 年 3 月 19 日
-                  href: hr-whats-new-2020-03-19.md
-                - name: 2020 年 3 月 10 日
-                  href: hr-whats-new-2020-03-10.md
-                - name: 2020 年 3 月 3 日
-                  href: hr-whats-new-2020-03-03.md
-                - name: 2020 年 2 月 25 日
-                  href: hr-whats-new-2020-02-25.md
-                - name: 2020 年 2 月 18 日
-                  href: hr-whats-new-2020-02-18.md
-                - name: 2020 年 2 月 12 日
-                  href: hr-whats-new-2020-02-12.md
-                - name: 2020 年 2 月 7 日
-                  href: hr-whats-new-2020-02-07.md
-                - name: 2020 年 2 月 3 日
-                  href: hr-whats-new-2020-02-03.md
             - name: 概览
               href: hr-admin-overview.md
             - name: 系统要求

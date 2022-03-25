@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: 应用产品维度的显示设置
                   href: dimension-settings.md
+                - name: 启用电子商务维护模式
+                  href: enable-maintenance-mode.md
             - name: 管理您的站点内容
               items:
                 - name: 添加内容的方法
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: 配置数据模型
+                  items:
+                    - name: 支持电子报告数据模型的参数化调用
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: 扩展模块定义
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: 更改模块库静态字符串
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: 数据操作
                       items:
                         - name: 数据操作覆盖
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: 从基础主题扩展主题
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: 更改主题模块字符串
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: 打包和部署
                   items:
                     - name: 打包配置并将其部署到联机环境
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: 数据操作实例缓存
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: 模块 CSS 优化
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: 遥测和分析
                       items:
                         - name: 遥测记录器

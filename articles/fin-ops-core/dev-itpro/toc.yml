@@ -238,10 +238,12 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: 安装“导出到 Azure Data Lake”加载项
               href: data-entities/configure-export-data-lake.md
-            - name: Azure Data Lake 中的 Finance and Operations 应用
+            - name: Azure Data Lake 中的财务和运营应用
               href: data-entities/finance-data-azure-data-lake.md
             - name: 将实体商店用作 Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: 通过导出到 Azure Data Lake 服务（预览版）生成的业务事件
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: 更改 Azure Data Lake 中的数据
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: 数据库移动操作
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: 筛选内部公司订单以避免同步订单和订单行
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: 卸载双重写入应用程序业务流程解决方案
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: 管理双重写入
                   items:
                     - name: 自定义实体和字段映射

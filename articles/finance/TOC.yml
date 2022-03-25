@@ -1522,12 +1522,16 @@
                       items:
                         - name: 多个增值税登记编号
                           href: localizations/emea-multiple-vat-registration-numbers.md
-                        - name: 多个增值税登记报告
+                        - name: 多个 VAT 登记报告
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: 奥地利报告
                           items:
                             - name: VAT 申报
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: 丹麦报告
+                          items:
+                            - name: VAT 申报
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: 法国报告
                           items:
                             - name: VAT 申报
@@ -2344,6 +2348,8 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: 欧盟销售清单
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: VAT 申报
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: 匈牙利
               items:
                 - name: 匈牙利概览
@@ -3562,11 +3568,11 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: 未实现的增值税
                   href: localizations/apac-tha-unrealized-vat.md
-                - name: 采购交易的平均增值税
+                - name: 采购交易的平均 VAT
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: 分支机构维度
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: 销项增值税报告
+                - name: VAT 报表
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: 预缴税金
                   href: localizations/apac-tha-withholding-tax.md
@@ -4285,6 +4291,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: 配置数据模型
+                  items:
+                    - name: 支持电子报告数据模型的参数化调用
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: 配置模型映射
                   items:
                     - name: 配置与国家/地区上下文相关的电子报告模型映射
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 配置与操作有关的目标
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: 配置打印管理记录特定的电子报告目标
+                    - name: 配置打印管理记录特定的目标
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: 设计新的电子报告解决方案打印 ZPL 标签
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: 设置对电子报告格式的引用
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: 自动验证生成的报表
