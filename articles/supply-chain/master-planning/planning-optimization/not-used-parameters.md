@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087491"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408222"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
@@ -194,12 +194,6 @@ ms.locfileid: "8087491"
   - **交货日期控制** – 计划优化不支持 *CTP* 选项，待定 *CTP* 支持。
   - **库存提前期** – 在低于 2021 年 8 月 6 日颁布的计划优化服务版本中，计划优化使用此参数计算正确的订单日期和交货日期，但是本身不会将计算出的提前期保存到计划订单。 在更高版本中，该服务还按照相关计划订单的需要使用计算出的提前期设置 **提前期** 字段和 **工作日** 选项。
   - **工作日** – 在低于 2021 年 8 月 6 日颁布的计划优化服务版本中，计划优化使用此参数计算正确的订单日期和交货日期，但是本身不会将计算出的提前期保存到计划订单。 在更高版本中，该服务还按照相关计划订单的需要使用计算出的提前期设置 **提前期** 字段和 **工作日** 选项。
-
-## <a name="working-time-calendars-page"></a>工作时间日历页面
-
-计划优化不使用 **工作时间日历** 页面上的以下参数：
-
-- **基本日历** – 待定 *基本日历* 支持。
 
 ## <a name="batch-disposition-master-page"></a>批处置主页面
 

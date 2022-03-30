@@ -2,7 +2,7 @@
 title: 创建电子商务站点
 description: 本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388203"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402767"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 
@@ -70,6 +70,14 @@ ms.locfileid: "8388203"
 1. 要打开站点列表视图，在右上角选择 **站点切换器**，然后选择 **管理站点**。 
 1. 选中要重命名的站点旁边的复选框，然后在命令栏上选择 **重命名**。
 1. 在 **新建站点名称** 对话框中，输入新站点名称，然后选择 **确定**。 站点列表将更新，显示站点的新名称。
+
+## <a name="delete-a-site"></a>删除站点
+
+要在站点生成器中删除站点，请执行以下步骤。
+
+1. 要打开站点列表视图，在右上角选择 **站点切换器**，然后选择 **管理站点**。
+1. 选择要删除的站点，然后在命令栏上选择 **删除**。
+1. 在 **删除 \<site name\>** 对话框中，输入站点名称，然后选择 **删除**。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384712"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396541"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -31,6 +31,18 @@ ms.locfileid: "8384712"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="feature-removal-effective-march-14-2022"></a>功能删除从 2022 年 3 月 14 日开始生效
+
+### <a name="xslt-scripting-in-data-management"></a>数据管理中的 XSLT 脚本
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 数据管理中的 XSLT 脚本支持已被弃用，以改进财务和运营应用中的安全性和数据保护。  |
+| **被另一个功能取代？**   | 否。 客户和 ISV 应考虑基于 X++ 语言重新实施其解决方案，以取代 XSLT 脚本。 |
+| **影响的产品区域**         | 财务和运营应用。 |
+| **部署选项**              | 全部。 |
+| **Status**                         | 已弃用 - 计划删除日期为 2022 年 3 月 14 日。<br><br>异常：当前正在使用 XLST 脚本的客户。 在更新到版本 10.0.30 或更高版本之前可以继续使用它。 出现此异常的客户已在 Microsoft 365 管理中心内可用的消息中心收到了通知。 |
 
 ## <a name="feature-removal-effective-october-2021"></a>功能删除从 2021 年 10 月开始生效
 

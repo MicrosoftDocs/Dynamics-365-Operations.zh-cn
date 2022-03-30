@@ -2,7 +2,7 @@
 title: Cookie 合规
 description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747689"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403139"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
@@ -58,6 +58,7 @@ ms.locfileid: "6747689"
 | \_msdyn365___aud_0                          | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
 | \_msdyn365___aud_1                           | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
 | \_msdyn365___aud_2                           | 存储目标所使用的客户细分值，并且仅当目标在站点用户请求的页面或片段上配置时才会被使用。 仅当客户细分值来自第三方细分提供程序时才放置 Cookie。      | 7 天 |
+| d365gi                                       | 使用第三方地理位置服务时，此 Cookie 会存储地理位置数据。      | 1 天 |
 
 如果站点用户选择站点内的任何社交媒体链接，还将在其浏览器中跟踪下表中的 cookie。
 
@@ -65,17 +66,17 @@ ms.locfileid: "6747689"
 | 域                      | Cookie               | 说明                                                  | 源                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | LinkedIn Ads ID 同步                                      | LinkedIn Feed 和 Insight 标记                                |
-| .linkedin.com               | li_sugr                  | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight 标记 |
+| .linkedin.com               | li_sugr                  | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight Tag 标记 |
 | .linkedin.com               | BizographicsOptOut       | 确定第三方跟踪的选择退出状态。              | LinkedIn 来宾控制和行业选择退出页面           |
 | .linkedin.com               | \_guid                    | Google Ads 的浏览器标识符。                            | LinkedIn Feed                                                |
 | .linkedin.com               | li_oatml                 | 用于转换跟踪、重新定位和分析的成员间接标识符。 | LinkedIn Ads 和 Insight 标记                                |
 | 各种第一方域 | li_fat_id                | 用于转换跟踪、重新定位和分析的成员间接标识符。 | LinkedIn Ads 和 Insight 标记                                |
-| .adsymptotic.com            | U                        | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight 标记 |
+| .adsymptotic.com            | U                        | 浏览器标识符                                           | 如果 IP 地址不在指定的国家/地区，则为 LinkedIn Insight Tag 标记 |
 | .linkedin.com                | bcookie                  | 浏览器 ID cookie                                            | 对 LinkedIn 的请求                                         |
 | .linkedin.com                | bscookie                 | 安全浏览器 cookie                                        | 对 LinkedIn 的请求                                         |
 | .linkedin.com               | lang                     | 设置默认区域设置和语言。                                 | 对 LinkedIn 的请求                                         |
 | .linkedin.com                | lidc                     | 用于路线选择。                                             | 对 LinkedIn 的请求                                         |
-| .linkedin.com               | aam_uuid                 | Adobe 受众经理 cookie                                                     | 针对 ID 同步设置                                              |
+| .linkedin.com               | aam_uuid                 | Adobe Audience Manager cookie                                                     | 针对 ID 同步设置                                              |
 | .linkedin.com               | \_ga                      | Google Analytics cookie                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | Google Analytics cookie                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | Google Analytics cookie                                             | Google Analytics                                             |
@@ -108,7 +109,7 @@ ms.locfileid: "6747689"
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>电子商务站点中的站点用户 cookie 同意 
 
-如果模块中的电子商务站点功能使用非基本 cookie，则必须先获取站点用户的同意，然后才能跟踪 cookie。 若要允许站点用户在电子商务站点中提供 cookie 同意，站点作者必须在页面的页眉中添加和配置 cookie 同意模块，以确保提示提供和接收同意。 必须先提供站点用户同意，然后才能在站点页面中显示使用非基本 cookie 的功能或模块。
+如果模块中的电子商务站点功能使用非基本 cookie，则必须先获取站点用户的同意，然后才能跟踪 cookie。 若要允许站点用户在电子商务站点中提供 cookie 同意，站点作者必须在页面的页眉模块中添加和配置 cookie 同意模块，以确保提示提供和接收同意。 必须先提供站点用户同意，然后才能在站点页面中显示使用非基本 cookie 的功能或模块。
 
 ## <a name="additional-resources"></a>其他资源
 

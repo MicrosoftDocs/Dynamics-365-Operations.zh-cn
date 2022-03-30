@@ -1,23 +1,23 @@
 ---
 title: 创建普通账单
 description: 本主题说明如何创建普通发票。
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763278"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392877"
 ---
 # <a name="create-a-free-text-invoice"></a>创建普通账单
 
@@ -68,6 +68,7 @@ ms.locfileid: "6763278"
 
     * 可以更改发票打印的计时。 选择 **当前** 以在更新各发票时打印。 选择 **之后** 则在更新所有发票后打印。
     * 若要更改过帐前如何验证客户的信用额度，请更改 **信用额度类型** 字段中的值。
+    * 当 **应收帐款参数** 页的 **更新** 选项卡上出错时，可以选择停止普通发票过帐（**应收帐款 > 设置 > 应收帐款参数**）。 针对 **出现第一个错误时停止过帐普通发票** 参数选择 **是**，以在发生错误时停止过帐普通发票。 如果成批过帐，则错误将停止过帐流程，批处理状态将设置为 **错误**。 如果未选择此选项，则过帐流程将跳过具有过帐错误的发票，并将继续过帐其他发票。 如果批量过帐，则过帐错误将不会阻止过帐其他发票。 批处理状态将为 **已结束**。 可在批处理作业历史记录中审核详细过帐流程报表。
     * 若要打印发票，请将选项设置为 **是**。
     * 若要过帐发票，请将选项设置为 **是**。 您可以打印未过帐的发票。
 
@@ -82,6 +83,12 @@ ms.locfileid: "6763278"
 您可以通过模板创建普通发票。 如果从 **发票** 选项卡选择 **从模板新建**，则可为新普通发票选择模板名称和客户帐户。 可以根据客户自动填充默认值（如付款期限和付款方式），也可以使用随模板保存的值。
 
 将创建新的普通发票，而您可以根据需要编辑值。
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>将普通发票的工作流状态从“无法恢复”重置为“草稿”
+因为不可恢复错误而停止的工作流实例的工作流状态为 **不可恢复**。 如果客户普通发票工作流的状态为 **不可恢复**，则可通过从工作流操作中选择 **撤消** 将其重置为 **草稿**。 然后，您可以编辑客户普通发票。 如果开启了 **功能管理** 页上的 **将普通发票的工作流状态从无法恢复重置为草稿** 参数，则此功能可用。
+
+可使用 **工作流历史记录** 页将工作流状态重置为 **草稿**。 可从 **普通发票** 或 **常用 > 查询 > 工作流** 中打开此页面。 若要将工作流状态重置为 **草稿**，请选择 **撤消**。 也可以通过选择 **普通发票** 页或 **所有普通发票** 页上的 **撤消** 操作，将工作流状态重置为 **草稿**。 工作流状态重置为 **草稿** 之后，就可以在 **普通发票** 页中编辑。
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

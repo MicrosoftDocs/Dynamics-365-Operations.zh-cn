@@ -2,7 +2,7 @@
 title: 收入确认概览（包含视频）
 description: 本主题提供有关收入确认功能的信息。 此功能提供了灵活框架，供您定义特定于公司的多元素订单收入价格和收入计划确认规则。
 author: kweekley
-ms.date: 11/11/2019
+ms.date: 03/15/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
+ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982579"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "8446170"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -26,10 +26,7 @@ ms.locfileid: "7982579"
 
 如果公司销售多种元素，例如产品、服务、订阅等，则必须能够分解多元素订单，以便根据一组特定于公司和行业的准则来确认收入。
 
-> [!NOTE]
-> 收入确认功能不能通过功能管理来启用。 目前，您必须使用 Configuration Key 启用该功能。
-
-> 不支持在 Commerce 渠道（电子商务、POS、呼叫中心）中使用收入确认，包括捆绑功能。 配置了收入确认的项目不应添加到在 Commerce 渠道中创建的订单或交易记录中。
+不支持在 Commerce 渠道（电子商务、POS、呼叫中心）中使用收入确认，包括捆绑功能。 配置了收入确认的项目不应添加到在 Commerce 渠道中创建的订单或交易记录中。
 
 一般来说，收入确认流程可用于执行以下任务：
 

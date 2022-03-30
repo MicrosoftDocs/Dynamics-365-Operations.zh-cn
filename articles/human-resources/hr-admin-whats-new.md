@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: d8f0d91667d22ddd1dd7131ca3d03bb2fa70659c
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087516"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457442"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources 中的新增功能或更改
 
@@ -29,7 +29,6 @@ ms.locfileid: "8087516"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-每隔两周，我们都会为 Microsoft Dynamics 365 Human Resources 提供新版本。 此处列举的主题详细介绍了每个版本进行的更改。
 
 有关 Human Resources 即将发布的功能或更新过程的详细信息，请参阅以下文章： 
 

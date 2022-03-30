@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: a5e627fcd8d25558d766cdf4d3b7c8d9c8544fb5476a978859e9e3ac83f6475c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85a62f528c4c195ee3fd7edb4c4fa8212833b9c4
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718212"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407680"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金组分组
 

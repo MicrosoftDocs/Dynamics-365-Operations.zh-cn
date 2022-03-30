@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7699997"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396491"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>内置主计划与计划优化之间的差异
 
@@ -36,6 +36,7 @@ ms.locfileid: "7699997"
 | 安全存货履行 | 计划优化始终为 **物料覆盖范围** 页面的 **最小完成量** 字段使用 *今日日期 + 采购时间* 选项。 这将帮助防止不需要的计划订单和其他问题，因为如果安全存货未包括采购时间，为低现有库存量创建的计划订单始终会由于提前期而延迟。 |
 | 安全存货限定标准和净要求 | *安全存货* 要求类型将不包括，不会显示在 **净要求** 页面上。 安全存货不代表需求，也没有与之关联的要求日期。 它会对必须始终存在的库存量设置约束。 但是，在主计划期间计算计划订单时仍会考虑 **最小** 字段值。 我们建议您检查 **净要求** 页面的 **累计数量** 列，查看是否考虑了此值。 |
 | 运输日历 | 将忽略 **交货方式** 页面中的 **运输日历** 列。 |
+| 无值的最小/最大覆盖范围代码| 当您使用未设置最小值或最大值的最小/最大覆盖代码时，计划引擎会使用内置计划引擎将覆盖代码视为一项要求并为每个要求创建一个订单。 系统将使用计划优化每天创建一个订单来支付当天的全部金额。  |
 
 ## <a name="additional-resources"></a>其他资源
 

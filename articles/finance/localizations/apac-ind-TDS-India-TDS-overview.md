@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d33faaff8be4821005b8772875eb91f0afe26cb0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 27263ad2b158aa609167ad593fe9e0542f1227a5
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983895"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408138"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概述
 

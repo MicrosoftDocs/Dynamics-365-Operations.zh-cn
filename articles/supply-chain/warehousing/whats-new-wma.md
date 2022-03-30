@@ -2,7 +2,7 @@
 title: Warehouse Management 移动应用中的新增功能或更改的功能
 description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384356"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418632"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20190"></a>版本 2.0.19.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 改进了通用数据查询流。
+- 改进了 **工作列表** 和 **物料查询** 页面上的抖动问题。
+- 降低了电池消耗量。
+- 删除了工作卡字段数限制。
+- 调整了工作卡的高度，以便它们的大小都相同，无论每个工作卡中的字段数如何。
+- 修复了条码中空间字符将缩减的问题。
+- 添加了 **按钮样式** 设置，可让您在所有类型的设备上切换滑块视图和按钮视图。
+- 修复了可能导致应用崩溃的各种问题。
+- 将焦点自动设置在自定义页面上的第一个文本框上。
+- 进行了与亮度、对比度、讲述和缺少占位符文本相关的辅助功能改进。
 
 ## <a name="version-20170"></a>版本 2.0.17.0
 

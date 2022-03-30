@@ -2,7 +2,7 @@
 title: 创建客户发票
 description: 销售订单的客户发票是与销售相关的、组织提供给客户的单据。
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087415"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392903"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -82,6 +82,9 @@ ms.locfileid: "8087415"
 当一个或多个销售订单已做好开票准备，并且您希望将其合并到一张发票时，使用此流程。 
 
 您可以在 **销售订单** 列表页上选择多个发票，然后使用 **生成发票** 来合并它们。 在 **过帐发票** 页上，可以更改 **汇总订单** 设置以便按订单编号汇总（其中单个销售订单有多个装箱单）或按发票帐户汇总（其中单个发票帐户有多个销售订单）。 使用 **排列** 按钮可基于 **汇总订单** 设置将销售订单合并到单个发票。
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>为没有价格的销售订单行过帐到收入帐户
+对于没有价格的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 若要设置或查看此信息，请转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 对于没有价格的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。如果未选择此选项，则没有价格信息的行将不会过帐到 **收入** 帐户。
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>更改过帐行为的附加设置
 以下字段更改过帐流程的行为。

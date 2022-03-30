@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720412"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396516"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "6720412"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。
 
 > [!NOTE]
-> [技术参考报告](/dynamics/s-e/)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 版本中已经删除或弃用的功能
@@ -78,7 +78,7 @@ ms.locfileid: "6720412"
 | **被另一个功能取代？**   | 是的，Planning Optimization 将取代现有的内置 Supply Chain Management 主计划引擎。 |
 | **影响的产品区域**         | Supply Chain Management - 主计划 |
 | **部署选项**              | 仅限云。 本地部署不支持 Planning Optimization。 |
-| **状态**                         | 已弃用。 到 2022 年 4 月 1 日，内置的 Dynamics 365 Supply Chain Management 主计划引擎将不再支持制造方案。 对于制造方案，客户必须将计划优化用于主计划计算。 有关详细信息，请参阅 [Planning Optimization 文档](../master-planning/planning-optimization/planning-optimization-overview.md)。 在 2022 年 4 月之后，在本地部署 Dynamics 365 Supply Chain Management 的客户可以继续将 Supply Chain Management 主计划引擎用于制造方案。 但是，将不再提供其他功能增强。 |
+| **状态**                         | 已弃用。 到 2022 年 4 月 1 日，内置的 Supply Chain Management 主计划引擎将不再支持制造方案。 从该日期起，Microsoft 将停止对内置计划引擎的制造方案的所有当前开发，不会发布任何新功能，并且将仅发布关键 Bug 修复。 在此日期之后，需要对制造方案提供支持的所有公司都必须使用计划优化以进行主计划计算。 计划优化应该在 2022 年 10 月之前全面支持制造方案。 有关详细信息，请参阅[计划优化文档](../master-planning/planning-optimization/planning-optimization-overview.md)。<br><br>在 2022 年 4 月之后，在本地部署 Supply Chain Management 的公司可以继续将内置主计划引擎用于制造方案。 但是，将不再提供其他功能增强。 |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Management 10.0.11 版本中已经删除或弃用的功能
 

@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.25 预览（2022 年 4 月）
 description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.25 中的新增功能或更改的功能。
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384530"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414112"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 预览（2022 年 4 月）
 
@@ -39,6 +39,7 @@ ms.locfileid: "8384530"
 | 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) | 功能管理：<br>*扫描 GS1 条码* |
 | 制造 | [生产车间执行界面的物料消耗和预留](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*(预览版)在生产车间执行界面(非 WMS)上登记物料消耗量*<br><br>与/或：<br><br>功能管理：<br>*(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量* |
 | 制造 | [在缩放单元上登记物料消耗量](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [云和边缘缩放单元的制造执行工作负载](../cloud-edge/cloud-edge-workload-manufacturing.md) | 功能管理：<br>*使用移动应用登记缩放单元中的物料消耗量* |
+| 计划 | [计划优化集中日历维护](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [日历和主计划](../master-planning/supply-chain-calendars-master-planning.md) | 默认启用 |
 | 计划 | [优化现有供应的计划优化建议](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [行动消息](../master-planning/action-messages.md) | 默认启用 |
 | 计划 | 已简化的计划订单 | [已简化的计划订单](../master-planning/planning-optimization/planned-orders-simplified.md ) | 功能管理：<br>*已简化的计划订单* |
 

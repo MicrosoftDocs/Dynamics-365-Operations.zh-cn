@@ -2,19 +2,19 @@
 title: 增值税申报（德国）
 description: 本主题介绍如何设置和生成正式 XML 格式的德国预付款增值税 (VAT) 申报。
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860875"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402795"
 ---
 # <a name="vat-declaration-germany"></a>增值税申报（德国）
 
@@ -163,6 +163,9 @@ ms.locfileid: "7860875"
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>设置增值税申报字段的应用程序特定参数
 
 若要自动生成增值税申报，请关联应用程序中的销售税代码和 ER 配置中的查找结果。
+
+> [!NOTE]
+> 我们建议您在 **功能管理** 工作区中启用 **使用先前版本的 ER 格式中的应用程序特定参数** 功能。 启用此功能后，为早期版本的 ER 格式配置的参数将自动适用于相同格式的后续版本。 如果未启用此功能，则您必须为每个格式版本显式配置特定于应用程序的参数。 从 Finance 版本 10.0.23 开始，**功能管理** 工作区中将提供 **使用先前版本的 ER 格式中的应用程序特定参数** 功能。 有关如何为每个法人设置 ER 格式参数的详细信息，请参阅[设置每个法人的 ER 格式的参数](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md)。
 
 按照这些步骤定义哪些销售税代码在增值税申报中生成哪些框。
 

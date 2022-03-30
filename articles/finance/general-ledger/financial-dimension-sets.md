@@ -2,7 +2,7 @@
 title: 财务维度集
 description: 本主题介绍了财务维度集并提供一些优化其用法的提示。
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739970"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392928"
 ---
 # <a name="financial-dimension-sets"></a>财务维度集
 
@@ -61,6 +61,11 @@ ms.locfileid: "6739970"
 ## <a name="clear-balances"></a>结算余额
 
 使用 **清除平衡表** 按钮删除平衡表并停止任何进一步更新。 维度集将不再对总帐过帐活动产生影响。
+
+## <a name="delete-a-dimension-set"></a>删除维度集
+
+无论采用任何解决方法来解决特定维度集的余额数据的潜在问题，请勿 **删除并重新创建** 维度集。 重新创建维度集成本高昂。 有关问题的进一步帮助，请与客户支持联系。 
+
 
 有关详细信息，请参阅[财务维度](financial-dimensions.md)。
 
