@@ -1709,6 +1709,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: 库存可见性预留
                   href: inventory/inventory-visibility-reservations.md
+                - name: 库存可见性现有量更改计划和可承诺量
+                  href: inventory/inventory-visibility-available-to-promise.md
                 - name: 库存可见性公共 API
                   href: inventory/inventory-visibility-api.md
                 - name: 库存可见性提示
@@ -3867,6 +3869,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: 更新并迁移到 WMS 时未找到认证路径的信任定位点
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: 无法过帐已停止销售订单行的装箱单
+                  href: troubleshooting/warehousing/unable-to-post-packi.md
                 - name: 安装缩放单元仓库工作负载后出现处理问题
                   href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: 即使存在可用库存，也会显示批处理号自动预留提示

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: 针对版本 10.0.24 的平台更新（2022 年 2 月）
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: 针对版本 10.0.23 的平台更新（2022 年 1 月）
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake 中的财务和运营应用
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Azure Data Lake 中存储的数据和元数据
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: 将实体商店用作 Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: 通过导出到 Azure Data Lake 服务（预览版）生成的业务事件
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: 在多个环境中重复使用相同的 AD FS 实例
                       href: deployment/onprem-reuseadfs.md
+                    - name: 在 Microsoft Dynamics 365 Finance + Operations (on-premises) 环境上升级 Windows Server
+                      href: deployment/onprem-upgrade-os.md
                     - name: 升级 Microsoft Dynamics 365 Finance + Operations (on-premises) 环境的 SQL Server 实例
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: 本地代理
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: 适用于合作伙伴的 LCS
                   href: lifecycle-services/getting-started-lcs.md
+                - name: 支持的 Web 浏览器
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API
                   items:
                     - name: 开始和停止环境
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: 升级参数文件
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: 不使用 Azure DevOps 的试用模式
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Regression Suite Automation Tool 教程
               href: perf-test/rsat/rsat-tutorial.md
             - name: 配置非管理员用户

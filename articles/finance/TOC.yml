@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24（2 月）
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23（1 月）
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -414,8 +412,20 @@
               items:
                 - name: 订阅计费概览
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: 设置计费计划
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: 定期合同计费
+                  items:
+                    - name: 创建计费计划
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: 复制计费计划
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: 里程碑开票
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: 终止计费计划
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: 收入和支出延期
+                  items: null
+                - name: 多元素收入分配
+                  items: null
             - name: 付款和结算
               items:
                 - name: 客户付款概览
@@ -1443,11 +1453,11 @@
                             - name: 配置 SharePoint 渠道
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: 通过 Finance 和 Supply Chain Management 设置和使用电子发票
-                          items: null
-                        - name: 利用电子开票激活和设置集成
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: 设置电子开票参数
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: 利用电子开票激活和设置集成
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: 设置电子开票参数
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: 使用电子开票
                           items:
                             - name: 将电子单据提交至电子开票
@@ -1522,52 +1532,56 @@
                       items:
                         - name: 多个增值税登记编号
                           href: localizations/emea-multiple-vat-registration-numbers.md
-                        - name: 多个 VAT 登记报告
+                        - name: 多个增值税登记报告
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: 奥地利报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-aut-vat-declaration-austria.md
                         - name: 丹麦报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: 芬兰报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: 法国报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: 德国报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-deu-vat-declaration-germany.md
                         - name: 荷兰报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: 欧盟销售清单
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: 挪威报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: 西班牙报告
                           items:
                             - name: '立即提供增值税信息 (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-esp-vat-declaration-spain.md
                         - name: 瑞典报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: 瑞士报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: 英国报告
                           items:
-                            - name: VAT 申报
+                            - name: 增值税申报
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: 挪威报告
-                          items:
-                            - name: VAT 申报
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: 启用转移单的税务计算
                       items:
                         - name: 转移单的税务功能支持
@@ -1694,15 +1708,13 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: 包装材料费用
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: 增值税报表
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: 过境服务报告
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: 奥地利内部统计
                   href: localizations/emea-aut-intrastat.md
                 - name: 进项税
                   href: localizations/emea-aut-purchase-duties.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-aut-vat-declaration-austria.md
                 - name: 欧盟销售清单
                   href: localizations/emea-aut-eu-sales-list.md
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 更新金额在报表和单据上显示的方式
                   href: localizations/emea-amount-printing-forms.md
-                - name: 增值税报表
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: 增值税申报（捷克共和国）
+                - name: 增值税申报
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: 捷克内部统计
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: 丹麦内部统计
                   href: localizations/emea-dnk-intrastat.md
+                - name: 增值税申报
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: 埃及
               items:
                 - name: 埃及概览
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: 芬兰内部统计
                   href: localizations/emea-fin-intrastat.md
+                - name: 增值税申报
+                  href: localizations/emea-fin-vat-declaration.md
             - name: 法国
               items:
                 - name: 法国概览
@@ -2306,7 +2320,7 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: 更新客户付款方式
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2 报表
                   href: localizations/emea-fra-das2-report.md
@@ -2330,14 +2344,10 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: 第二年中其他购置的折旧调整
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: 增值税申报的电子传输 (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: 德国内部统计
                   href: localizations/emea-deu-intrastat.md
-                - name: 增值税报表
-                  href: localizations/emea-de-vat-declaration.md
                 - name: 客户电子发票报告
                   href: localizations/emea-deu-e-invoices.md
                 - name: 日记帐清单报告
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: 欧盟销售清单
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: VAT 申报
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: 匈牙利
               items:
                 - name: 匈牙利概览
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: 进口具有 GST 的服务
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: 进口订单的分录清单页上的费用分配
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: 出口具有零点税率税的商品
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: 出口具有零点税率税的服务
@@ -3110,23 +3120,19 @@
                   href: localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
                 - name: 为银行帐户指定 RFC 登记 ID（墨西哥）
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: 供应商注册 ID
+                - name: 供应商登记 ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
             - name: 荷兰
               items:
                 - name: 荷兰概览
                   href: localizations/netherlands.md
-                - name: VAT 申报
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: 电子纳税申报 (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: 审计文件 (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: 增值税申报（荷兰）
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: 荷兰内部统计
+                - name: 内部统计
                   href: localizations/emea-nl-intrastat.md
                 - name: 欧盟销售清单
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3284,7 +3290,7 @@
                       href: localizations/rus-revise-invoice-facture.md
                     - name: 税务代理的增值税 (VAT)
                       href: localizations/rus-tax-agent.md
-                    - name: VAT 申报
+                    - name: 增值税申报
                       href: localizations/rus-VAT-declaration.md
                     - name: 销售帐簿、采购帐簿和发票日记帐
                       href: localizations/rus-sales-books-purchase-books.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: 瑞典的销售税付款报表
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: 瑞典 VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: 瑞典内部统计
                   href: localizations/emea-swe-intrastat.md
@@ -3554,7 +3560,7 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: 瑞士 QR-汇票
                   href: localizations/emea-che-swiss-qr-bills.md
-                - name: VAT 申报
+                - name: 增值税申报
                   href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: 泰国
               items:
@@ -3568,11 +3574,11 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: 未实现的增值税
                   href: localizations/apac-tha-unrealized-vat.md
-                - name: 采购交易的平均 VAT
+                - name: 采购交易的平均增值税
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: 分支机构维度
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: VAT 报表
+                - name: 增值税报表
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: 预缴税金
                   href: localizations/apac-tha-withholding-tax.md

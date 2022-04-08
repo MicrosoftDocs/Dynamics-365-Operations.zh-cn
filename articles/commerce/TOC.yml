@@ -390,9 +390,9 @@
                   href: tasks/worker.md
                 - name: Modern Point of Sale (MPOS)、Cloud POS 和 Store Commerce
                   items:
-                    - name: Microsoft Dynamics 365 Commerce 中的 Store Commerce 应用（预览版）
+                    - name: Store Commerce 应用
                       href: dev-itpro/store-commerce.md
-                    - name: 设备管理实现指南
+                    - name: 设备管理实施指南
                       href: implementation-considerations-devices.md
                     - name: 在 MPOS 和 Cloud POS 之间选择
                       href: MPOS-or-CPOS.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: 退货订单退款被拒
                   href: troubleshoot/refund-declined.md
+                - name: 可退款费用未根据退货数量正确计算
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: 面向 Adyen 的 Dynamics 365 Payment Connector
                   items:
                     - name: 解决面向 Adyen 的 Dynamics 365 Payment Connector 产生的问题
