@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416297"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464900"
 ---
 # <a name="financial-analysis"></a>财务分析
 
@@ -38,7 +38,7 @@ ms.locfileid: "7416297"
 
 **财务分析** 工作区专注于让您查看和筛选现有报表上的数据。 您可以向 **财务分析** 工作区添加新的视觉对象。 **财务分析** 工作区可供当前公司和所有公司显示所有法人的数据，与角色有权访问的法人无关。
 
-- [在仪表板上添加或编辑 Power BI 可视化效果](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [在仪表板上添加或编辑 Power BI 可视化效果](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance 设置
 **总帐**

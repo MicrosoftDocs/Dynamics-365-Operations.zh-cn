@@ -1,7 +1,7 @@
 ---
 title: 将请假申请提交至工作流
 description: 在 Microsoft Dynamics 365 Human Resources 中，您可以使用 MyLeaveRequests submit() 应用程序编程接口 (API) 向工作流提交休假请求。
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: caea924a2bab9439374ea933d4a0886059e5fe53
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067496"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534127"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>将请假申请提交至工作流
 

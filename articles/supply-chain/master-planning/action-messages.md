@@ -1,7 +1,7 @@
 ---
 title: 行动消息
 description: 行动消息是系统生成的关于更改现有计划订单或确定订单的建议。
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 19411
 ms.assetid: 52b46d93-7d02-46b5-aad1-9fd08206bf9d
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb208d390d3b5d2091f5b0f112532794a4d78d8adcf947291a4183c3b3fd3f9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2acba2ba12f933c085de15eadbf4d433944c2cf3
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769555"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469441"
 ---
 # <a name="action-messages"></a>行动消息
 

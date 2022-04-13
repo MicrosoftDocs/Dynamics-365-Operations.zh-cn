@@ -2,7 +2,7 @@
 title: 区分分类帐结算与年终结算
 description: 本主题提供有关影响分类帐结算和总帐年终结算的增强功能的信息。
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: acfbcf1467363262769884063efbc1a6d6e21eb1
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075560"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462343"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>区分分类帐结算与年终结算
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 在 Microsoft Dynamics 365 Finance 版本 10.0.25 中，**区分分类帐结算与年终结算** 功能在 **功能管理** 工作区提供。 此功能添加了两个影响分类帐结算和总帐年终结算的主要增强功能。
 

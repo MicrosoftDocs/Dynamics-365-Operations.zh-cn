@@ -1,7 +1,7 @@
 ---
 title: 主计划主页
 description: 主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。
-author: ChristianRytt
+author: t-benebo
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dd25fdd1549fb2fddff57dc2d9cf8762cfd6823
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 0f36459e21d96325151aa7fe90f3824b07c2536c
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416519"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469972"
 ---
 # <a name="master-planning-home-page"></a>主计划主页
 

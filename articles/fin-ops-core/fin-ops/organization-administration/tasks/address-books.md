@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 666ecc5b4e0df9ed518e8e9dabc1babd442508bc
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759105"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487604"
 ---
 # <a name="configure-address-books"></a>配置通讯簿
 
@@ -26,7 +26,7 @@ ms.locfileid: "6759105"
 
 使用该过程以及您在规划中作出的决定、全球通讯簿的配置和其他通讯簿主题，为您的组织设置其他通讯簿。
 
-创建此任务的演示数据公司是 USMF。 此记录专门面向“规划和配置团队成员”。
+创建此任务的演示数据公司是 USMF。
 
 
 ## <a name="configure-address-books"></a>配置通讯簿

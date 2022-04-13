@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353355"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489022"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>检测被放弃的购物车并向客户发送通知
 
@@ -127,7 +127,7 @@ Microsoft 通过 Retail 软件开发套件 (SDK) 提供的连接器模型支持�
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-被放弃购物车的检索作业状态、购物车 ID 和修改时间戳存储在 Azure Cosmos DB 中。 默认情况下，配置文件中的设置指向 Azure Cosmos DB 的本地模拟器实例。 将连接器部署到生产环境时，必须更新这些设置，让它们指向 Azure 订阅中的 Azure Cosmos DB 实例。 要进行本地测试或沙盒测试，您可以使用 [Azure Cosmos Emulator](/azure/cosmos-db/local-emulator)。
+被放弃购物车的检索作业状态、购物车 ID 和修改时间戳存储在 Azure Cosmos DB 中。 默认情况下，配置文件中的设置指向 Azure Cosmos DB 的本地模拟器实例。 将连接器部署到生产环境时，必须更新这些设置，让它们指向 Azure 订阅中的 Azure Cosmos DB 实例。 要进行本地测试或沙盒测试，您可以使用 [Azure Cosmos DB Emulator](/azure/cosmos-db/local-emulator)。
 
 | 属性    | Description |
 | ----------- | ----------- |

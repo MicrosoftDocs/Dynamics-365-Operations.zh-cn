@@ -2,7 +2,7 @@
 title: 全渠道高级自动费用
 description: 此主题描述使用高级自动费用功能管理 Commerce 渠道订单的其他订单费用的功能。
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743423"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489610"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
@@ -187,6 +187,9 @@ ms.locfileid: "6743423"
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>退还 POS 退货交易记录中的费用
 
 如果 **使用高级自动费用** 参数设置为 **是**，**退回装运费用** 的现有 Commerce 参数不再适用。 若要指示哪些费用应在使用高级自动费用时系统地退还给客户，请确保相关费用代码已在 **费用代码** 设置页面配置为 **可退还**。 请确保设置已通过配送计划处理同步到您的 Commerce 渠道数据库。
+
+> [!TIP]
+> 有关可帮助您确保根据退货数量计算行级别可退款费用的指南，请参阅[可退款费用未按退货数量计算](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md)。
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>退还退货单交易记录中的费用
 

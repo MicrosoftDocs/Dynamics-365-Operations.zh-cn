@@ -1,7 +1,7 @@
 ---
 title: 查看、管理和审核计划订单
 description: 此主题介绍如何在计划优化中查看、管理和审核计划订单。
-author: ChristianRytt
+author: t-benebo
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2d7daac5a33c77e1b49f689061a8dbcf17c3a1d3501461cf3abc0e9cac5121ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b8c17ab3934ec7bfaed710c33515243290bb8e2a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713654"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468751"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>查看、管理和审核计划订单
 

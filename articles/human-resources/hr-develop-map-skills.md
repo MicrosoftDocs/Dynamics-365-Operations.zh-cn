@@ -1,7 +1,7 @@
 ---
 title: 映射技能
 description: 您可以创建技能映射搜索来在 Dynamics 365 Human Resources 中查找合格人员。
-author: andreabichsel
+author: twheeloc
 manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d16607ca76816e0751ed8a3f9ad1757e7e193309dc426625b0830b8c6c71b20c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c97e62e1206bf55e5ec84be1da68064936a06a0
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732193"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533533"
 ---
 # <a name="map-skills"></a>映射技能
 

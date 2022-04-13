@@ -1,7 +1,7 @@
 ---
 title: 生成统计基准预测
 description: 此主题提供有关用于需求预测计算的参数和筛选器的信息。
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577520"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468695"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 

@@ -1,23 +1,23 @@
 ---
 title: 管理国际银行帐号 (IBAN) 帐户验证
 description: 此主题介绍如何管理国际银行帐号 (IBAN) 帐户验证。
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860811"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462755"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>管理国际银行帐号 (IBAN) 帐户验证
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860811"
 
 验证国际银行帐号 (IBAN) 可以增加在向银行帐户添加 IBAN 时完成的验证量。
 
-有关 IBAN 结构的信息存储在 Microsoft Dynamics 365 Finance 中。 当您在银行帐户中首次使用 IBAN 时，该信息将自动加载。 它包含 IBAN 的长度，银行帐号和银行代号的开始位置，以及银行帐号和银行代号的长度。
+有关 IBAN 结构的信息存储在 Microsoft Dynamics 365 Finance 中，将在您首次在银行帐户上使用 IBAN 时自动加载。 它包含 IBAN 的长度，银行帐号和银行代号的开始位置，以及银行帐号和银行代号的长度。
 
 ## <a name="set-up-iban-structures"></a>设置 IBAN 结构
 
 1. 转到 **现金和银行管理 \> 设置 \> IBAN 结构**。
 2. 请注意，已自动设置了每个国家或地区的 IBAN 结构。
-3. 如果想要自定义特定国家或地区的结构，可以进行编辑。
+3. 如果需要针对特定国家或地区更新结构，选择 **编辑** 按钮。
 4. 每个新发行版中都有结构定义。 每次更新之后，可使用 **重置结构** 菜单加载最新定义。
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>验证银行帐户中的 IBAN 结构

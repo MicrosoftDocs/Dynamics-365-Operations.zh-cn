@@ -2,7 +2,7 @@
 title: 数据市场重置常见问题解答
 description: 本主题提供有关数据市场重置的一些常见问题的解答。
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119504"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466402"
 ---
 # <a name="data-mart-resets-faq"></a>数据市场重置常见问题解答
 
@@ -47,10 +47,14 @@ ms.locfileid: "8119504"
 下面是一些不建议重置数据市场的情况：
 
 - 您遇到数据集成性能问题。
+- 您的 Financial Reporter 集成未启用。 
+
+    - 这意味着总帐数据不会再同步到您的 Financial Reporting 数据市场。 您的 Financial Reporter 可能未获取您的财务报表的最新编号。 如果您很长时间没有使用 Financial Reporter，通常会发生这种情况。
+    - 系统将提示您通过重置数据市场来启用集成。 您可以选择 **是** 继续。 您也可以选择稍后重置数据市场。 启用集成后，您的总帐数据将再次在 Financial Reporter 中同步。 
 - 您由于以下任一原因而使用定期重置模式：
 
     - **报表中缺少数据或出现意外数据** – 如果您发现缺少数据，请向 Microsoft 开具支持票证，以查看您的报表格式和可能的数据同步问题。
-    - **卡住的集成状态**
+    - **卡住的集成状态** - 如果您注意到集成状态卡在运行中，这可能是由于系统中有大量交易。 此状态会自行解决。 但是，如果您发现集成状态停滞了四个小时以上，请打开 Microsoft 支持票证。 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>如果重置数据市场，是否会丢失已经设计好的报表？
 

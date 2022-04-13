@@ -1,7 +1,7 @@
 ---
 title: 采购申请
 description: 本主题介绍计划优化中如何支持采购申请。
-author: ChristianRytt
+author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0328342fbe322225a5ecb095d3b0165caa6d18d3
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570856"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469636"
 ---
 # <a name="purchase-requisitions"></a>采购申请
 

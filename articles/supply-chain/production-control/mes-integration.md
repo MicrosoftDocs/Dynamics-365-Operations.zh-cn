@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330693"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487572"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -65,6 +65,8 @@ ms.locfileid: "8330693"
 ## <a name="monitor-incoming-messages"></a>监视传入消息
 
 要监视传入系统的消息，打开 **制造执行系统集成** 页面。 在那里，您可以查看、处理和排查问题。
+
+特定生产订单的所有消息都按照接收顺序进行处理。 但是，不同生产订单的消息可能不按接收顺序处理，因为批处理作业是并行处理的。 如果失败，批处理作业将尝试处理每条消息 3 次，然后将其设置为 *失败* 状态。
 
 ## <a name="call-the-api"></a>调用 API
 
@@ -119,13 +121,13 @@ ms.locfileid: "8330693"
 | `ReportedGoodQuantity` | 可选 | 实数|
 | `ReportedErrorCatchWeightQuantity` | 可选 | 实数 |
 | `ReportedGoodCatchWeightQuantity` | 可选 | 实数 |
-| `AcceptError` | 可选 |布尔值 |
+| `AcceptError` | 可选 | 枚举（是 \| 否） |
 | `ErrorCause` | 可选 | 枚举 (None \| Material \| Machine \| OperatingStaff)，可扩展 |
 | `ExecutedDateTime` | 可选 | 日期时间 |
 | `ReportAsFinishedDate` | 可选 | 日期 |
 | `AutomaticBOMConsumptionRule` | 可选 | 枚举 (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | 可选 |枚举 (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | 可选 | 布尔值 |
+| `RespectFlushingPrincipleDuringOverproduction` | 可选 | 枚举（是 \| 否） |
 | `ProductionJournalNameId` | 可选 | 字符串 |
 | `PickingListProductionJournalNameId` | 可选 | 字符串|
 | `RouteCardProductionJournalNameId` | 可选 | 字符串 |
@@ -133,11 +135,11 @@ ms.locfileid: "8330693"
 | `ToOperationNumber` | 可选 | 整数|
 | `InventoryLotId` | 可选 | 字符串 |
 | `BaseValue` | 可选 | 字符串 |
-| `EndJob` | 可选 | 布尔值 |
-| `EndPickingList` | 可选 | 布尔值 |
-| `EndRouteCard` | 可选 | 布尔值 |
-| `PostNow` | 可选 | 布尔值 |
-| `AutoUpdate` | 可选 | 布尔值 |
+| `EndJob` | 可选 | 枚举（是 \| 否） |
+| `EndPickingList` | 可选 | 枚举（是 \| 否） |
+| `EndRouteCard` | 可选 | 枚举（是 \| 否） |
+| `PostNow` | 可选 | 枚举（是 \| 否） |
+| `AutoUpdate` | 可选 | 枚举（是 \| 否） |
 | `ProductColorId` | 可选 | 字符串|
 | `ProductConfigurationId` | 可选 | 字符串 |
 | `ProductSizeId` | 可选 | 字符串 |
@@ -181,7 +183,7 @@ ms.locfileid: "8330693"
 | `OperationNumber` | 可选 | 整数 |
 | `LineNumber` | 可选 | 实数 |
 | `PositionNumber` | 可选 | 字符串 |
-| `IsConsumptionEnded` | 可选 | 布尔值 |
+| `IsConsumptionEnded` | 可选 | 枚举（是 \| 否） |
 | `ErrorCause` | 可选 | 枚举 (None \| Material \| Machine \| OperatingStaff)，可扩展 |
 | `InventoryLotId` | 可选 | 字符串 |
 
@@ -217,9 +219,9 @@ ms.locfileid: "8330693"
 | `ConsumptionDate` | 可选 | 日期 |
 | `TaskType` | 可选 | 枚举 (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | 可选 | 枚举 (None \| Material \| Machine \| OperatingStaff)，可扩展 |
-| `OperationCompleted` | 可选 | 布尔值 |
-| `BOMConsumption` | 可选 | 布尔值 |
-| `ReportAsFinished` | 可选 | 布尔值 |
+| `OperationCompleted` | 可选 | 枚举（是 \| 否） |
+| `BOMConsumption` | 可选 | 枚举（是 \| 否） |
+| `ReportAsFinished` | 可选 | 枚举（是 \| 否） |
 
 ### <a name="end-production-order-message"></a>结束生产订单消息
 
@@ -230,9 +232,13 @@ ms.locfileid: "8330693"
 | `ProductionOrderNumber` | 强制 | 字符串 |
 | `ExecutedDateTime` | 可选 | 日期时间 |
 | `EndedDate` | 可选 | 日期 |
-| `UseTimeAndAttendanceCost` | 可选 | 布尔值 |
-| `AutoReportAsFinished` | 可选 | 布尔值 |
-| `AutoUpdate` | 可选 | 布尔值 |
+| `UseTimeAndAttendanceCost` | 可选 | 枚举（是 \| 否） |
+| `AutoReportAsFinished` | 可选 | 枚举（是 \| 否） |
+| `AutoUpdate` | 可选 | 枚举（是 \| 否） |
+
+## <a name="other-production-information"></a>其他生产信息
+
+这些消息支持在车间发生的操作或事件。 它们使用本主题中描述的 MES 集成框架进行处理。 此设计假设将从系统中检索要与 MES 共享的其他参考信息（如产品相关信息，或特定生产订单中使用的物料清单或工艺路线(及其特定设置和配置时间)）将通过文件传输或 OData 使用[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities)从系统中检索。
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>接收有关消息状态的反馈
 

@@ -1,22 +1,22 @@
 ---
 title: 生产计划
 description: 本主题介绍生产计划，并说明如何使用计划优化来修改计划的生产订单。
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570889"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469049"
 ---
 # <a name="production-planning"></a>生产计划
 

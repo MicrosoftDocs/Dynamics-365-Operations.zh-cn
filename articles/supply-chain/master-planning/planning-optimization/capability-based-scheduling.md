@@ -1,22 +1,22 @@
 ---
 title: 基于能力安排资源选择
 description: 本主题介绍在将能力指定为工序的资源要求时无限产能计划期间的资源选择。
-author: ChristianRytt
+author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 382814eb3d4322ed52bd39fcb22740201335614e
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678997"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469776"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>基于能力安排资源选择
 

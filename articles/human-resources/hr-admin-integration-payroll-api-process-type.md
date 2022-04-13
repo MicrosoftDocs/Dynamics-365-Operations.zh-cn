@@ -1,7 +1,7 @@
 ---
 title: 流程类型
 description: 本主题介绍 Dynamics 365 Human Resources 的流程类型选项集。
-author: marcelbf
+author: twheeloc
 ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: marcelbf
+ms.author: twheeloc
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7af08e2d21bc1d806a62065e6c527b2f2de28c18
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9f30b50e6ec24b44f7832905a43c9fd979986065
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069724"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533673"
 ---
 # <a name="process-type"></a>流程类型
 

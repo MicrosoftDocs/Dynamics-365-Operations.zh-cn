@@ -1,5 +1,5 @@
 ---
-title: 计费计划概述
+title: 创建计费计划
 description: 本主题说明如何创建、删除和编辑计费计划。
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182674"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462578"
 ---
-# <a name="billing-schedule-overview"></a>计费计划概述
+# <a name="create-billing-schedules"></a>创建计费计划
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 在 **计费计划** 页面上，您可以创建、删除或编辑计费计划。 您还可以查看计费计划列表。 创建计费计划时，其默认值由与其关联的计费组确定。 其他信息在 **定期合同计费参数** 页面设置。
 

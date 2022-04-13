@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 67cb054a648eac2b9a0e89b5e6a645af3c6142ad25237adb7afbd28f96c7e2eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 917526dfcefb36ce6e59af6f1f5bebc23ee6e53f
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777711"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489047"
 ---
 # <a name="vendor-code-isnt-authorized-for-a-specific-product-and-date"></a>供应商代码未针对特定产品和日期授权
 
@@ -53,4 +53,4 @@ ms.locfileid: "6777711"
     - **生效日期** – 选择供应商获得批准的第一个日期。
     - **到期日期** – 选择供应商获得批准的最后一个日期。
 
-有关详细信息，请参阅[审核特定产品的供应商](/dynamics365/supply-chain/procurement/tasks/approve-vendors-specific-products.md)。
+有关详细信息，请参阅[审核特定产品的供应商](../../procurement/tasks/approve-vendors-specific-products.md)。

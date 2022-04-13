@@ -1,22 +1,22 @@
 ---
 title: 库存预测
 description: 本主题介绍了可用于在 Microsoft Dynamics 365 Supply Chain Management 中创建库存预测的供应和需求预测功能。
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577544"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469361"
 ---
 # <a name="inventory-forecasts"></a>库存预测
 

@@ -1,7 +1,7 @@
 ---
 title: 计划优化拟合分析
 description: 本主题说明如何根据计划优化功能的能力来验证当前的设置和数据。
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408007"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487633"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -84,7 +84,7 @@ ms.locfileid: "8408007"
 | 生产 | 具有资源消耗量的物料清单/配方行：_\#_ | 此功能待定。 当前，启用计划优化后，将忽略具有资源消耗量的物料清单和配方行。 支持此功能后，物料要求将设置为生产开始日期。 在支持此功能之前，不会为标有资源消耗标志的物料生成要求。 | 2022 年 10 月 |
 | 生产 | 具有步骤消耗量的物料清单/配方行：_\#_ | 此功能待定。 当前，启用计划优化后，将忽略物料清单和配方行上的步骤消耗量。 | 2022 年 10 月 |
 | 生产 | 定义了固定损耗或可变损耗的物料清单：_\#_ | 此功能待定。 当前，启用计划优化后，将忽略物料清单上定义的固定损耗和可变损耗。 | 2022 年 10 月 |
-| 生产 | 具有转包的物料清单：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后都会忽略物料清单上的转包设置。 | 2022 年 4 月 |
+| 生产 | 具有转包的物料清单：_\#_ | 此功能现在受支持。 | 受支持 |
 | 生产 | 不带站点的物料清单：_\#_ | 此功能现在受支持。 有关更多信息，请参阅[生产计划](production-planning.md) | 受支持 |
 | 生产 | 定义了特定物料清单或工艺路线要求的需求：_\#_ | 此功能待定。 当前，启用计划优化后，将忽略需求中定义的特定物料清单或工艺路线要求（如销售订单上的下级物料清单或下级工艺路线）。 无论此设置如何，都将使用标准物料清单或工艺路线。 | 2022 年 10 月 |
 | 生产 | 具有联产品/副产品的配方版本：_\#_ | 此功能待定。 当前，启用计划优化后，与配方版本关联的联产品和副产品将被忽略。 | 2022 年 10 月 |

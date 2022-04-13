@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418632"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487827"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20200"></a>版本 2.0.20.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 修复了几个崩溃问题。
+- 修复了 **工作列表** 页的卡片上显示不正确值的问题。
+- 改进了滚动体验，消除了 Android 中 **工作列表** 和 **物料查询** 页面的滚动抖动。
+- 在登录页面添加了一个退出按钮，用于退出应用程序。
 
 ## <a name="version-20190"></a>版本 2.0.19.0
 

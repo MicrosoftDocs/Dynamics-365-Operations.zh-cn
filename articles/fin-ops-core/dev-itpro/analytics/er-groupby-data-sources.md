@@ -2,7 +2,7 @@
 title: 使用 GROUPBY 数据源对记录进行分组和聚合计算
 description: 本主题介绍如何在电子报告 (ER) 中使用 GROUPBY 类型数据源。
 author: NickSelin
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a6cdc486c5f799bdedafa38e90be989fd328c96
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075606"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462288"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>使用 GROUPBY 数据源对记录进行分组和聚合计算
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 在配置 [电子报告 (ER)](general-electronic-reporting.md) 模型映射或格式时，您可以 [添加](#AddMmDataSource2) **GroupBy** 类型的必需数据源。
 

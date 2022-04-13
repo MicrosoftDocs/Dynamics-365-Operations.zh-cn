@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060993"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524512"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
@@ -39,22 +39,25 @@ ms.locfileid: "8060993"
 
 首先，按照[安装和设置库存可见性](inventory-visibility-setup.md)中的说明安装并设置库存可见性加载项。
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>在 Power Apps 功能管理中启用库存可见性功能
-
-库存可见性加载项将为您的 Power Apps 安装增加多项新功能。 默认情况下，这些功能处于关闭状态。 若要使用它们，请在 Power Apps 中打开 **配置** 页，然后在 **功能管理** 选项卡上开启以下功能。
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
-
-如果不知道正确的库存可见性服务终结点，请在 Power Apps 中打开 **配置** 页，然后在右上角选择 **显示服务终结点**。 页面将显示正确的服务终结点。
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>库存可见性应用的“配置”页面
 
 在 Power Apps 中，[库存可见性应用](inventory-visibility-power-platform.md)的 **配置** 页面可帮助您设置现有库存配置和软预留配置。 安装此加载项后，默认配置中将包含来自 Microsoft Dynamics 365 Supply Chain Management（`fno` 数据源）的值。 可以查看默认设置。 此外，可根据您的业务要求和外部系统的库存过帐要求修改配置，以便标准化跨多个系统过帐，组织和查询库存更改的方法。 本主题的其余部分介绍如何使用 **配置** 页面的各部分。
 
 配置完成后，请务必在应用中选择 **更新配置**。
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>在 Power Apps 功能管理中启用库存可见性功能
+
+库存可见性加载项将为您的 Power Apps 安装增加多项新功能。 默认情况下，这些功能处于关闭状态。 要使用它们，打开 **配置** 页，然后根据需要在 **功能管理** 选项卡上开启以下功能。
+
+| 功能管理名称 | Description |
+|---|---|
+| OnHandReservation | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
+| OnHandMostSpecificBackgroundService | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
+| OnhandChangeSchedule | 此功能支持现有库存更改计划和可承诺 (ATP) 功能（可选）。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
+
+如果不知道正确的库存可见性服务终结点，请在 Power Apps 中打开 **配置** 页，然后在右上角选择 **显示服务终结点**。 页面将显示正确的服务终结点。
 
 ## <a name="data-source-configuration"></a>数据源配置
 
@@ -178,15 +181,21 @@ ms.locfileid: "8060993"
 
 1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
-1. 在 **计算度量** 选项卡上，选择 **新建计算度量** 以添加计算度量。 然后，如下表所述设置字段。
+1. 在 **计算度量** 选项卡上，选择 **新建计算度量** 以添加计算度量。
+1. 为新的计算度量值设置以下字段：
 
-    | 字段 | 值 |
-    |---|---|
-    | 新建计算度量名称 | 输入计算度量的名称。 |
-    | 数据源 | 查询系统是数据源。 |
-    | 修饰符数据源 | 输入修饰符的数据源。 |
-    | 修饰符 | 输入修饰符名称。 |
-    | 修饰符类型 | 选择修饰符类型（*加* 或 *减*）。 |
+    - **新建计算度量值名称** – 输入计算度量值的名称。
+    - **数据源** – 选择与新修饰符关联的数据源。 查询系统是数据源。
+
+1. 选择 **添加** 将修饰符添加到新计算度量值。
+1. 为新修饰符设置以下字段：
+
+    - **修饰符** – 选择修饰符类型（*加* 或 *减*）。
+    - **数据源** – 选择应在其中找到提供修饰符值的度量值的数据源。
+    - **度量值** – 选择为修饰符提供值的度量值（从所选数据源）的名称。
+
+1. 重复步骤 5 到 6，直到您添加了所有必需的修饰符。
+1. 选择 **保存**。
 
 例如，您可能具有以下查询结果。
 
@@ -465,6 +474,10 @@ ms.locfileid: "8060993"
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 有效维度序列应逐个维度严格遵循预留层次结构。 例如，层次结构序列 `(SiteId, LocationId, SizeId)` 无效，因为缺少 `ColorId`。
+
+## <a name="available-to-promise-configuration-optional"></a>可承诺配置（可选）
+
+您可以设置库存可见性，以可以计划将来的现有库存更改并计算可承诺 (ATP) 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用此计算可以大大提高您的订单履行能力。 要使用此功能，您必须在 **功能管理** 选项卡上启用它，然后在 **ATP 设置** 选项卡上进行设置。有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
 
 ## <a name="complete-and-update-the-configuration"></a>完成和更新配置
 

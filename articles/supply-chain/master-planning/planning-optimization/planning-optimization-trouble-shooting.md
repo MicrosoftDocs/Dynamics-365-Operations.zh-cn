@@ -1,7 +1,7 @@
 ---
 title: 计划优化故障排除
 description: 本主题介绍如何解决在使用计划优化时可能遇到的问题。
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 667a4ea1fc720feca95fc34c0e2437b4ad9862f2
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768087"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469664"
 ---
 # <a name="troubleshoot-planning-optimization"></a>计划优化故障排除 
 

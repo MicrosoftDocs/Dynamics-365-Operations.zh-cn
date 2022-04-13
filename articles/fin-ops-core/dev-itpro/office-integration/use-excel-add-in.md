@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068784"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464928"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -48,7 +48,7 @@ ms.locfileid: "8068784"
 2. 选择 **在 Excel 中打开** 选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
 3. 在 Excel 中，选择 **启用编辑** 以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4. 如果首次运行此 Excel 加载项，则选择 **信任此加载项**。
-5. 如果系统提示您登录，选择 **登录**，然后使用用于登录财务和运营应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
+5. 如果系统提示您登录，选择 **登录**，然后使用用于登录财务和运营应用的相同凭据登录。 此 Excel 加载项将使用浏览器中之前的登录上下文，并自动让您登录（如果可以）。 （有关基于操作系统使用的浏览器的信息，请参阅 [Office 加载项使用的浏览器](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)。为确保登录成功，请在 Excel 加载项的右上角验证用户名。 
 
 此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 

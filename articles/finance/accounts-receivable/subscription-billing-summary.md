@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182673"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462460"
 ---
 # <a name="subscription-billing-overview"></a>订阅计费概述
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 订阅计费使组织能够通过计费计划管理订阅收入商机和定期计费。 复杂的定价和计费模型以及收入分配将变得很容易管理，将在行级别进行计费和确认。 多元素收入分配使收入分配符合国际会计准则（国际财务报告准则 15 \[IFRS 15\]）和美国公认会计准则 (US GAAP) 的标准（会计准则编纂专题 606 \[ASC 606\]）。
 

@@ -1,7 +1,7 @@
 ---
 title: 人员姓名历史记录
 description: 本主题提供 Dynamics 365 Human Resources 中“人员姓名历史记录”实体的详细信息和示例查询。
-author: marcelbf
+author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: marcelbf
+ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d87803b6ae0ada3ed2de6e4e7da5ffa57bf22eec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064833"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533589"
 ---
 # <a name="person-name-history"></a>人员姓名历史记录
 

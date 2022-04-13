@@ -1,7 +1,7 @@
 ---
 title: 生成并查看工资单实体
 description: 本主题介绍了如何生成并查看工资单实体。
-author: andreabichsel
+author: twheeloc
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1249b29031c3c7b7eb8bcbeee91895d1085b9bd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8b69216a2b864645447f27f54319014cb166791c
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066110"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533843"
 ---
 # <a name="generate-payroll-entities"></a>生成工资单实体
 

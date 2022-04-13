@@ -1,7 +1,7 @@
 ---
 title: 重置卡住的批处理作业
 description: 本主题说明如何解决卡住的批处理作业的问题。
-author: andreabichsel
+author: twheeloc
 ms.date: 03/19/2021
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 859f039a928cdc57c9f227885d0f00ef79980f28
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f1aa9f53e0d314edd920a664d18408019325d435
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070392"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534012"
 ---
 # <a name="reset-stuck-batch-jobs"></a>重置卡住的批处理作业
 

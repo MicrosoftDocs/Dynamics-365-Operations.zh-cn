@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902089"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462661"
 ---
 # <a name="mobile-device-user-accounts"></a>移动设备用户帐户
 
@@ -90,8 +90,8 @@ ms.locfileid: "7902089"
 1. 在操作窗格上，选择 **用户选项**。
 1. 在 **首选项** 选项卡上，设置以下字段：
 
-    - **语言** – 选择工作人员首选的语言。 此字段还控制仓库应用中显示的日期格式。
-    - **日期、时间和数字格式** – 选择将确定在仓库应用中显示的数字格式的语言。 请注意，仓库应用中显示的日期和时间格式实际上由 **语言** 字段而非此字段确定。
+    - **语言** – 选择工作人员首选的语言。 此字段还控制仓库应用中显示的数字格式。
+    - **日期、时间和数字格式** – 选择工作人员首选的日期和时间格式。 仓库应用使用与为 **语言** 字段选择的语言相关联的数字格式，而不是此设置。
     - **时区** – 选择工作人员工作的时区。 此字段会影响工作人员使用应用进行的所有登记的时间戳。
 
 > [!NOTE]

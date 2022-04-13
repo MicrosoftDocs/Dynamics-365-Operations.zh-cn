@@ -1,7 +1,7 @@
 ---
 title: 创建雇用类别
 description: 可以在 Dynamics 365 Human Resources 中设置雇用类别以便匹配工作人员。
-author: andreabichsel
+author: twheeloc
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a0551798ad0e25e9fd9ca7044849732c88254ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f56acad008cbcbf5a29c0875cbabdeb92f940b8a
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069038"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533484"
 ---
 # <a name="create-employment-categories"></a>创建雇用类别
 

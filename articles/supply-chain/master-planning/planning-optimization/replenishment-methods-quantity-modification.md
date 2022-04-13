@@ -1,22 +1,22 @@
 ---
 title: 补货方法和数量修改
 description: 本主题提供有关计划优化中的补货方法的信息。 它还说明了产品的多个订单数量如何影响结果。
-author: ChristianRytt
+author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
 ms.search.form: ReqGroup, ReqItemTable, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 017dabb46265769bf727056a9bf1a8c0cfdc99f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fc7eb00f62b334ba032af6fef87c243a7ba0835a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567287"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468516"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>补货方法和数量修改
 

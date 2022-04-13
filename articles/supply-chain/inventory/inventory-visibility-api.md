@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062103"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524456"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -41,15 +41,17 @@ ms.locfileid: "8062103"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | 过帐 | [设置/覆盖现有库存数量](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | 过帐 | [创建一个预留事件](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | 过帐 | [创建多个预留事件](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | 过帐 | [创建一个计划现有库存更改](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | 过帐 | [创建多个计划现有库存更改](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用过帐方法查询](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | 获取 | [使用获取方法查询](#query-with-get-method) |
-
-Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>。
 
 > [!NOTE]
 > 此路径的 {environmentId} 部分是 Microsoft Dynamics Lifecycle Services (LCS) 中的环境 ID。
 > 
 > 批量 API 最多可为每个请求返回 512 条记录。
+
+Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>。
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>根据 Lifecycle Services 环境查找终结点
 
@@ -517,6 +519,9 @@ Body:
 
 `returnNegative` 参数控制结果中是否包含负条目。
 
+> [!NOTE]
+> 如果您启用了现有库存更改计划和可承诺 (ATP) 功能，您的查询还可以包含 `QueryATP` 布尔参数，该参数控制查询结果是否包含 ATP 信息。 有关详细信息和示例，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
+
 以下示例显示示例正文内容。
 
 ```json
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>可承诺
+
+您可以设置库存可见性，以可以计划将来的现有库存更改并计算 ATP 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用 ATP 计算可以大大提高您的订单履行能力。 有关如何启用此功能以及如何在启用此功能后通过 API 与库存可见性交互的信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

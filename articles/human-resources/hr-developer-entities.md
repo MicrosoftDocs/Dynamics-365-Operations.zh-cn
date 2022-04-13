@@ -1,7 +1,7 @@
 ---
 title: Dataverse 表
 description: Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集成方案。
-author: andreabichsel
+author: twheeloc
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c8378418bdd0f4cb3f22b38a44e35179aad3ca33
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066817"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534224"
 ---
 # <a name="dataverse-tables"></a>Dataverse 表
 

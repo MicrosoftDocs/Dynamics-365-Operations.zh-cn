@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890945"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466825"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -31,7 +31,21 @@ ms.locfileid: "7890945"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!NOTE]
-> [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关 Finance and Operations应用中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 应用各版本中已更改或已删除的对象。
+> [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 版本中已经删除或弃用的功能
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>芬兰销售税报表（基于申报代码设计）
+
+[芬兰的销售税报表](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 替换为新的增值税申报设计[芬兰增值税申报](../localizations/emea-fin-vat-declaration.md)。 |
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 应用程序 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：到 2023 年 3 月 1 日，我们计划不再支持芬兰销售税报表（芬兰报表布局）。 而是在 **税申报** 模型下引入新的 **增值税申报 TXT (FI**) 和 **增值税申报 Excel (FI)** 电子报告 (ER) 格式。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance 10.0.24 版本中已经删除或弃用的功能
 

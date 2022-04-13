@@ -1,7 +1,7 @@
 ---
 title: 生成受约束计划
 description: 此主题介绍如何创建涉及物料和产能限制的计划。
-author: ChristianRytt
+author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqP
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fea315d41d01cb578d7d60c9eb7006e4b6c3362
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578336"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468935"
 ---
 # <a name="generate-a-constrained-plan"></a>生成受约束计划
 

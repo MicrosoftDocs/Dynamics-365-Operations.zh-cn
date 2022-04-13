@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb494cab08453a548a0ac862cbe89dfd9f17fbcd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 67e228c27d4470c116a193fe11ba306df840744a
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574753"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509463"
 ---
 # <a name="not-enough-capacity-could-be-found"></a>找不到足够产能
 
@@ -30,4 +30,5 @@ ms.locfileid: "7574753"
 
 ## <a name="resolution"></a>解决方法
 
-计划编制引擎失败并发出此错误消息的原因有几个。 有关将帮助您找到错误的根本原因，然后减轻错误的说明，请参阅[修复“找不到足够的产能”计划编制引擎错误](/dynamics365/supply-chain/master-planning/not-enough-capacity-error-resolution.md)。
+计划编制引擎失败并发出此错误消息的原因有几个。 有关将帮助您找到错误的根本原因，然后减轻错误的说明，请参阅[修复“找不到足够的产能”计划编制引擎错误](/dynamics365/supply-chain/master-planning/not-enough-capacity-error-resolution)。
+

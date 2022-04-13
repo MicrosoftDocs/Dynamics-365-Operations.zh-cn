@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 27f01858bbd40a92daa9c6183fd41fe13410dc6c
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cf3f27cb4bc1ba288f3229c0784edb6694ff94e6
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475651"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8488986"
 ---
 # <a name="inventory-aging-report-discrepancies"></a>库龄报表差异
 
@@ -26,4 +26,4 @@ ms.locfileid: "7475651"
 
 ## <a name="resolution"></a>解决方法
 
-有关报告逻辑的详细信息，请参阅[库龄报表示例和逻辑](/dynamics365/supply-chain/cost-management/inventory-aging-report.md)。
+有关报告逻辑的详细信息，请参阅[库龄报表示例和逻辑](../../cost-management/inventory-aging-report.md)。

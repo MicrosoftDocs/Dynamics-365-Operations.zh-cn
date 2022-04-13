@@ -1,7 +1,7 @@
 ---
 title: 优化 Dataverse 虚拟表查询
 description: 优化和解决 Dataverse 虚拟表查询的性能
-author: andreabichsel
+author: twheeloc
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067446"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534208"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>优化 Dataverse 虚拟表查询
 

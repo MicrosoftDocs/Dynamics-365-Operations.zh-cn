@@ -2,25 +2,27 @@
 title: 财务报告概览
 description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务申报，以及如何使用财务申报功能。
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983969"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527304"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用财务报告 
 
@@ -174,7 +176,7 @@ Finance and Operations 应用每月都会更新。 但是，Financial reporting 
 * 在 Internet Explorer 中，选择 **设置**，然后选择 **Internet 选项**。 选择 **安全** 选项卡。选择“受信任站点”，然后选择 **站点**。 在 **将此网站添加到区域** 中，输入“\*\.dynamics.com”（不带引号），然后选择 **添加**。 
 * 在 Internet Explorer 中，选择 **设置**，然后选择 **Internet 选项**。 选择 **安全** 选项卡。选择“受信任站点”。 在标有此区域的安全级别区域中，将此选项更改为 **中-低**。
 * 在浏览器中禁用弹出窗口阻止程序。
-* 工作站需要安装 Microsoft .NET Framework 4.6.2 或更高版本。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。
+* 工作站需要安装 Microsoft .NET Framework 4.7.2 或更高版本。 可从 [Microsoft 下载中心](https://dotnet.microsoft.com/download/dotnet-framework/net472)下载和安装此版本的 Microsoft .NET Framework。
 * 如果使用的是 Chrome 浏览器，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行 Chrome，请确保为匿名模式启用了 ClickOnce 扩展。 有关 Chrome ClickOnce 扩展的详细信息，请参阅[云部署的系统要求](../../fin-ops-core/fin-ops/get-started/system-requirements.md)。
 * 如果您正在通过 Chrome 浏览器使用 Microsoft Edge，则无需为 Edge Chromium 安装 ClickOnce 扩展。 但是，必须启用 ClickOnce 选项以下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。
 

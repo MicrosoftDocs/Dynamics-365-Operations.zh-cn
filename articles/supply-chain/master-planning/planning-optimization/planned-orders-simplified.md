@@ -1,28 +1,26 @@
 ---
 title: 已简化的计划订单
 description: 本主题介绍如何使用“计划订单简化”页面查看、管理和确认计划订单。
-author: ChristianRytt
+author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: bb51293f0fcb421b9d55f8d5cfe1922569fce5d6
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408032"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470112"
 ---
 # <a name="planned-orders-simplified"></a>已简化的计划订单
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: preview until 10.0.25 GA -->
 
 本主题介绍如何使用 **计划订单简化** 页面查看、管理和确认计划订单。
 

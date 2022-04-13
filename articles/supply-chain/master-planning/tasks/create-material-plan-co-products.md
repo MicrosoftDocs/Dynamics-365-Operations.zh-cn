@@ -1,7 +1,7 @@
 ---
 title: 创建联产品的物料计划
 description: 生产规划员为属于配方联产品的物料规划物料要求。
-author: ChristianRytt
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrde
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: deae0d7e0295aa02f5ad512f67e9e3d2148c2e33
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 27bba54db915b7ccc31fda43a00a8c9435493e07
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578288"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469524"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>创建联产品的物料计划
 

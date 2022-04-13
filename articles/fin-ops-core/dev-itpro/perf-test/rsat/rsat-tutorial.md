@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781955"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492911"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 教程
 
@@ -43,7 +43,7 @@ RSAT 允许您在测试用例中包含验证步骤，以验证期望值。 有�
     5. 在列表中，标记所选的行。
     6. 验证 **可用合计** 字段的值是否为 **411.0000000000000000**。
 
-2. 将任务录制另存为 **开发人员录制**，并在 Azure Devops 中将其附加到测试用例中。
+2. 将任务录制另存为 **开发人员录制**，并在 Azure DevOps 中将其附加到测试用例中。
 3. 将测试用例添加到测试计划，然后将测试用例加载到 RSAT 中。
 4. 打开 Excel 参数文件，转到 **TestCaseSteps** 选项卡。
 5. 要验证现有库存量是否总是大于 **0**，转到 **验证可用总计** 步骤，将值从 **411** 更改为 **0**。 将 **运算符** 字段的值从等号 (**=**) 更改为大于号 (**\>**)。
@@ -172,6 +172,7 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 #### <a name=""></a>?
 
-显示有关所有可用命令及其参数的帮助。
+列出所有命令或显示特定命令的帮助以及可用参数。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?：可选参数
 
-`command`：其中，``[command]`` 是下面指定的命令之一。
+`command`：其中 ``[command]`` 是前面列表中的命令之一。
 
 #### <a name="about"></a>关于
 
-显示当前版本。
+显示已安装 RSAT 的版本。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -214,23 +217,59 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
 
-#### <a name="download"></a>download
+#### <a name="download"></a>下载
 
-将指定测试用例的附件下载到输出目录中。
-可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+将指定测试用例的附件（录制、执行和参数文件）从 Azure DevOps 下载到输出目录。 您可以使用 ``list`` 命令获取所有可用的测试用例，然后使用第一列中的任何值作为 **test_case_id** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>download：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，下载过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
 
 ##### <a name="download-required-parameters"></a>download：必需参数
 
 + `test_case_id`：表示测试用例 ID。
-+ `output_dir`：表示输出目录。 该目录必须存在。
+
+##### <a name="download-optional-parameters"></a>download：可选参数
+
++ `output_dir`：表示输出工作目录。 该目录必须存在。 如果未指定此参数，将使用设置中的工作目录。
 
 ##### <a name="download-examples"></a>download：示例
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+将指定测试套件中所有测试用例的附件（录制、执行和参数文件）从 Azure DevOps 下载到输出目录。 您可以使用 ``listtestsuitenames`` 命令获取所有可用的测试套件，然后使用任何值作为 **test_suite_name** 参数。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，下载过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/byid`：此切换指示所需的测试套件由其 Azure DevOps ID 标识，而不是测试套件名称。
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite：必需参数
+
++ `test_suite_name`：表示测试套件名称。 如果 **未** 指定 /byid 切换，此参数是必需的。 此名称是 Azure DevOps 测试套件名称。
++ `test_suite_id`：表示测试套件 ID。 如果 **指定了** /byid 切换，此参数是必需的。 此 ID 是测试套件 Azure DevOps ID。
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite：可选参数
+
++ `output_dir`：表示输出工作目录。 该目录必须存在。 如果未指定此参数，将使用设置中的工作目录。
+
+##### <a name="downloadsuite-examples"></a>downloadsuite：示例
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>编辑
 
@@ -244,7 +283,7 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 ##### <a name="edit-examples"></a>edit：示例
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 在输出目录中为指定的测试用例生成测试执行和参数文件。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generate：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，生成过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/dllonly`：仅生成测试执行文件。 不会重新生成 Excel 参数文件。
++ `/keepcustomexcel`：升级现有参数文件。 还重新生成执行文件。
 
 ##### <a name="generate-required-parameters"></a>generate：必需参数
 
 + `test_case_id`：表示测试用例 ID。
-+ `output_dir`：表示输出目录。 该目录必须存在。
+
+##### <a name="generate-optional-parameters"></a>generate：可选参数
+
++ `output_dir`：表示输出工作目录。 该目录必须存在。 如果未指定此参数，将使用设置中的工作目录。
 
 ##### <a name="generate-examples"></a>generate：示例
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-生成派生自所提供测试用例的新测试用例。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+生成所提供测试用例的新派生测试用例（子测试用例）。 新测试用例还会被添加到指定的测试套件中。 您可以使用 ``list`` 命令获取所有可用的测试用例，然后使用第一列中的任何值作为 **test_case_id** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，生成过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
 
 ##### <a name="generatederived-required-parameters"></a>generatederived：必需参数
 
@@ -281,39 +337,63 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-在输出目录中为指定的测试用例仅生成测试执行文件。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+仅为指定的测试用例生成测试执行文件。 不会生成 Excel 参数文件。 文件在指定的输出目录中生成。 您可以使用 ``list`` 命令获取所有可用的测试用例，然后使用第一列中的任何值作为 **test_case_id** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，生成过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly：必需参数
 
 + `test_case_id`：表示测试用例 ID。
-+ `output_dir`：表示输出目录。 该目录必须存在。
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly：可选参数
+
++ `output_dir`：表示输出工作目录。 该目录必须存在。 如果未指定此参数，将使用设置中的工作目录。
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly：示例
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-在输出目录中为指定的套件生成所有测试用例。 可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将列中的任何值用作 **test_suite_name** 参数。
+为指定测试套件中的所有测试用例生成测试自动化文件。 您可以使用 ``listtestsuitenames`` 命令获取所有可用的测试套件，然后使用任何值作为 **test_suite_name** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，生成过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/dllonly`：仅生成测试执行文件。 不会重新生成 Excel 参数文件。
++ `/keepcustomexcel`：升级现有参数文件。 还重新生成执行文件。
++ `/byid`：此切换指示所需的测试套件由其 Azure DevOps ID 标识，而不是测试套件名称。
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite：必需参数
 
-+ `test_suite_name`：表示测试套件名称。
-+ `output_dir`：表示输出目录。 该目录必须存在。
++ `test_suite_name`：表示测试套件名称。 如果 **未** 指定 /byid 切换，此参数是必需的。 此名称是 Azure DevOps 测试套件名称。
++ `test_suite_id`：表示测试套件 ID。 如果 **指定了** /byid 切换，此参数是必需的。 此 ID 是测试套件 Azure DevOps ID。
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite：可选参数
+
++ `output_dir`：表示输出工作目录。 该目录必须存在。 如果未指定此参数，将使用设置中的工作目录。
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite：示例
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>help
 
@@ -321,7 +401,7 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 #### <a name="list"></a>列表
 
-列出所有可用的测试用例。
+列出当前测试计划中所有的可用测试用例。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-列出指定测试套件的测试用例。 可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将第一列中的任何值用作 **suite_name** 参数。
+列出指定测试套件的测试用例。 您可以使用 ``listtestsuitenames`` 命令获取所有可用的测试套件，然后使用列表中的任何值作为 **suite_name** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite：必需参数
 
-+ `suite_name`：所需套件的名称。
++ `test_suite_name`：所需套件的名称。
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite：示例
 
@@ -347,33 +427,61 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+列出指定测试套件的测试用例。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid：必需参数
+
++ `test_suite_id`：所需套件的 ID。
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid：示例
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-列出所有可用的测试套件。
+列出当前测试计划中所有的可用测试套件。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>playback
 
-使用 Excel 文件播放测试用例。
+播放与指定 Excel 参数文件关联的测试用例。 此命令使用现有的本地自动化文件，不从 Azure DevOps 下载文件。 POS 商务测试用例不支持此命令。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>playback：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，播放过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/comments[="comment"]`：提供自定义信息字符串，该字符串将包含在 Azure DevOps 测试用例运行的摘要和测试结果页面上的 **注释** 字段中。
 
 ##### <a name="playback-required-parameters"></a>playback：必需参数
 
-+ `excel_file`：Excel 文件的完整路径。 文件必须存在。
++ `excel_parameter_file`：Excel 参数文件的完整路径。 此文件必须存在。
 
 ##### <a name="playback-examples"></a>playback：示例
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-一次播放多个测试用例。 可使用 ``list`` 命令获取所有可用的测试用例。 将第一列的任何值用作 **test_case_id** 参数。
+同时播放多个测试用例。 测试用例由它们的 ID 标识。 此命令将从 Azure DevOps 下载文件。 您可以使用 ``list`` 命令获取所有可用的测试用例，然后使用第一列中的任何值作为 **test_case_id** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，播放过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/comments[="comment"]`：提供自定义信息字符串，该字符串将包含在 Azure DevOps 测试用例运行的摘要和测试结果页面上的 **注释** 字段中。
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid：必需参数
 
@@ -387,75 +495,132 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-使用 Excel 文件一次播放大量测试用例。
+同时播放多个测试用例。 测试用例由 Excel 参数文件标识。 此命令使用现有的本地自动化文件，不从 Azure DevOps 下载文件。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，播放过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/comments[="comment"]`：提供自定义信息字符串，该字符串将包含在 Azure DevOps 测试用例运行的摘要和测试结果页面上的 **注释** 字段中。
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany：必需参数
 
-+ `excel_file1`：Excel 文件的完整路径。 文件必须存在。
-+ `excel_file2`：Excel 文件的完整路径。 文件必须存在。
-+ `excel_fileN`：Excel 文件的完整路径。 文件必须存在。
++ `excel_parameter_file1`：Excel 参数文件的完整路径。 此文件必须存在。
++ `excel_parameter_file2`：Excel 参数文件的完整路径。 此文件必须存在。
++ `excel_parameter_fileN`：Excel 参数文件的完整路径。 此文件必须存在。
 
 ##### <a name="playbackmany-examples"></a>playbackmany：示例
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-播放指定测试套件中的所有测试用例。
-可使用 ``listtestsuitenames`` 命令获取所有可用的测试套件。 将第一列中的任何值用作 **suite_name** 参数。
+播放一个或多个指定测试套件中的所有测试用例。 如果指定了 /local 切换，将使用本地附件进行播放。 否则，将从 Azure DevOps 下载附件。 您可以使用 ``listtestsuitenames`` 命令获取所有可用的测试套件，然后使用第一列中的任何值作为 **suite_name** 参数。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite：可选切换
+
++ `/updatedriver`：如果指定了此切换，在运行播放流程之前，将根据需要更新 Internet 浏览器的 webdriver。
++ `/local`：此切换指示应使用本地附件进行播放，而不是从 Azure DevOps 下载文件。
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，播放过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/comments[="comment"]`：提供自定义信息字符串，该字符串将包含在 Azure DevOps 测试用例运行的摘要和测试结果页面上的 **注释** 字段中。
++ `/byid`：此切换指示所需的测试套件由其 Azure DevOps ID 标识，而不是测试套件名称。
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite：必需参数
 
-+ `suite_name`：所需套件的名称。
++ `test_suite_name1`：表示测试套件名称。 如果 **未** 指定 /byid 切换，此参数是必需的。 此名称是 Azure DevOps 测试套件名称。
++ `test_suite_nameN`：表示测试套件名称。 如果 **未** 指定 /byid 切换，此参数是必需的。 此名称是 Azure DevOps 测试套件名称。
++ `test_suite_id1`：表示测试套件 ID。 如果 **指定了** /byid 切换，此参数是必需的。 此 ID 是测试套件 Azure DevOps ID。
++ `test_suite_idN`：表示测试套件 ID。 如果 **指定了** /byid 切换，此参数是必需的。 此 ID 是测试套件 Azure DevOps ID。
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite：示例
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+运行指定的 Azure DevOps 测试套件中的所有测试用例。
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid：可选切换
+
++ `/retry[=seconds]`：如果指定了此切换，并且测试用例被其他 RSAT 实例阻止，播放过程将等待指定的秒数，然后再尝试一次。 \[seconds\] 的默认值为 120 秒。 如果没有此切换，当测试用例被阻止时，此过程将立即取消。
++ `/comments[="comment"]`：提供自定义信息字符串，该字符串将包含在 Azure DevOps 测试用例运行的摘要和测试结果页面上的 **注释** 字段中。
++ `/byid`：此切换指示所需的测试套件由其 Azure DevOps ID 标识，而不是测试套件名称。
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid：必需参数
+
++ `test_suite_id`：表示存在于 Azure DevOps 中时的测试套件 ID。
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid：示例
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>quit
 
-关闭应用程序。
+关闭应用程序。 此命令仅在应用程序以交互模式运行时有用。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>quit：示例
+
+`quit`
+
 #### <a name="upload"></a>upload
 
-上载属于指定测试套件或测试用例的所有文件。
+将属于指定测试套件或测试用例的附件文件（录制、执行和参数文件）上载到 Azure DevOps。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>upload：必需参数
+##### <a name="upload-required-parameters"></a>upload：必需参数
 
-+ `suite_name`：将上载属于指定测试套件的所有文件。
-+ `testcase_id`：将上载属于指定测试用例的所有文件。
++ `test_suite_name`：将上载属于指定测试套件的所有文件。
++ `test_case_id1`：表示应上载的第一个测试用例 ID。 应仅在未提供测试套件名称时再使用此参数。。
++ `test_case_idN`：表示应上载的最后一个测试用例 ID。 应仅在未提供测试套件名称时再使用此参数。。
 
 ##### <a name="upload-examples"></a>upload：示例
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-仅上载属于指定测试用例的录制文件。
+仅将属于一个或多个指定测试用例的录制文件上载到 Azure DevOps。
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording：必需参数
 
-+ `testcase_id`：将仅上载属于指定测试用例的录制文件。
++ `test_case_id1`：表示应上载到 Azure DevOps 的录制的第一个测试用例 ID。
++ `test_case_idN`：表示应上载到 Azure DevOps 的录制的最后一个测试用例 ID。
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording：示例
 
@@ -465,9 +630,21 @@ RSAT 让您可以对多个测试用例使用同一个任务录制，从而可以
 
 #### <a name="usage"></a>usage
 
-显示两种调用此应用程序的方法：一种使用默认设置文件，另一种提供设置文件。
+显示此应用程序的三种使用模式。
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+以交互方式运行应用程序：
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+通过指定命令来运行应用程序：
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+通过提供设置文件来运行应用程序：
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell 示例
 

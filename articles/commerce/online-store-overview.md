@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984561"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487760"
 ---
 # <a name="e-commerce-site-overview"></a>电子商务站点概览
 
@@ -86,7 +86,7 @@ Dynamics 365 Commerce 使用 Azure Active Directory (Azure AD) 企业对消费�
 有关如何管理站点设置的信息，请参阅以下主题：
 
 - [管理电子商务用户和角色](manage-ecommerce-users-roles.md)
-- [站点的搜索引擎优化 (SEO) 注意事项](/search-engine-optimization-considerations.md)
+- [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
 - [管理内容安全策略 (CSP)](manage-csp.md)
 - [选择站点主题](select-site-theme.md)
 

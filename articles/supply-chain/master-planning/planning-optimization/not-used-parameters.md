@@ -1,22 +1,22 @@
 ---
 title: 计划优化不使用的参数
 description: 本主题列出了计划优化当前在其操作过程中不考虑的参数。
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408222"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469105"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
@@ -65,18 +65,6 @@ ms.locfileid: "8408222"
   - **使用指定的物料清单或公式版本** – 待定 *具有联产品/副产品的公式版本* 支持。
   - **使用指定的工艺路线版本** – 待定 *定义了特定物料清单或工艺路线要求的需求* 支持。
 
-- **操作** 快速选项卡：
-
-  - **操作消息** – 待定 *操作* 支持。
-  - **操作时限** – 待定 *操作* 支持。
-  - **延长宽限期** – 待定 *操作* 支持。
-  - **提前宽限期** – 待定 *操作* 支持。
-  - **基础日期** – 待定 *操作* 支持。
-  - **提前** – 待定 *操作* 支持。
-  - **延长** – 待定 *操作* 支持。
-  - **减小** – 待定 *操作* 支持。
-  - **增加** – 待定 *操作* 支持。
-  - **派生的操作** – 待定 *操作* 支持。
 
 - **其他** 快速选项卡：
 
@@ -149,7 +137,6 @@ ms.locfileid: "8408222"
   - **预测计划** – 待定其他 *预测* 支持。
   - **产能** – 待定 *计划* 支持。
   - **连续性计划** – 待定 *连续性计划* 支持。
-  - **操作消息** – 待定 *操作* 支持。
   - **计算延迟** – 待定其他 *计算延迟* 支持。
   - **先后顺序** – 待定 *生产* 支持。
 

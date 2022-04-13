@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fe7ce7eafdec175e3395a6ac37b33cb2bb8dbda
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dc89009ae9371f80de33f70816ae7b81531c8310
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066667"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509139"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a>管理购买和出售休假策略
+# <a name="manage-buy-and-sell-leave-policies"></a>管理购买和出售休假政策
 
+>[!Important]
+>本主题中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.26 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

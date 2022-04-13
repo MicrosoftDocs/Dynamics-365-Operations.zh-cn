@@ -1,7 +1,7 @@
 ---
 title: 计划优化可扩展性
 description: 此主题介绍计划优化中支持的可扩展性方案。
-author: ChristianRytt
+author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e18801a02ae9e904eb5bc597f9f61ed42c537ab9
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651935"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468879"
 ---
 # <a name="planning-optimization-extensibility"></a>计划优化可扩展性
 

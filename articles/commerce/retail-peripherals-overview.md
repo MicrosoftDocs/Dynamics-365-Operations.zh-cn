@@ -12,17 +12,16 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370968"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462233"
 ---
 # <a name="peripherals"></a>外围设备
 
 [!include[banner](includes/banner.md)]
-[!include[banner](includes/preview-banner.md)]
 
 此主题介绍与商店外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 

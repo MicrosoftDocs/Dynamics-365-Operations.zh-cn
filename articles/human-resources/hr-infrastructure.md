@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024559"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487785"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources 基础结构合并 - 版本 10.0.25 更新
 
@@ -34,7 +34,7 @@ ms.locfileid: "8024559"
     - 存在单个代码库，其中将在常规一个版本更新过程中发布 Human Resources 的新功能。
     - 将升级、更新和修补程序应用于环境的方式是一致的。
 
-- [可扩展性选项经过了改进。](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [可扩展性选项经过了改进。](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - 您可以继续使用 Microsoft Power Platform Tools 根据需要进行扩展。
     - 您可以通过窗体、表、方法和应用编程接口 (API) 扩展功能。
@@ -42,7 +42,7 @@ ms.locfileid: "8024559"
 
     有关可用扩展选项的详细信息，请参阅 [Dynamics 365 中的可扩展性概览](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)。
 
-- [在 Dynamics 365 中创建一组人力资源功能。](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [在 Dynamics 365 中创建一组人力资源功能。](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     在 10.0.25 版本中，已在 Finance and Operations 基础结构中提供以前仅存在于 Human Resources 中的功能性功能。 要使客户在 Finance and Operations 环境中利用这些功能，必须在功能管理中启用以下 Human Resources 功能。
 

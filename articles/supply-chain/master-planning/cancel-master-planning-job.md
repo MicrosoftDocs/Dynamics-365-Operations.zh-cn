@@ -1,7 +1,7 @@
 ---
 title: 取消主计划作业
 description: 本主题说明如何取消使用内置计划功能的活动计划作业。
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 27a48473a934e0db9986d6e588fc769ba9d2f605d72b2465976cb20a1ad93d16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d96f946c0c87db44ac5fe1adda68e47838dcc0d7
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718003"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469217"
 ---
 # <a name="cancel-a-master-planning-job"></a>取消主计划作业
 

@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384408"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462783"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -151,7 +151,7 @@ ms.locfileid: "8384408"
 
 在任何环境中，**新建网格控件** 功能均可直接在“功能管理”中使用。 在功能管理中启用此功能后，所有后续用户会话都将使用新的网格控件。 
 
-此功能从版本 10.0.21 开始默认启用，计划在版本 10.0.25 中强制使用。 
+此功能从版本 10.0.21 开始默认启用，计划于 2022 年 10 月强制使用。  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[开发人员] 让单个页面退出使用新网格 
 如果您的组织发现使用新网格时存在一些问题的页面，可以使用 API 允许单个窗体使用旧版网格控件，同时仍然允许系统的其余部分使用新网格控件。 要让单个页面退出新网格，请在窗体的 `run()` 方法中添加以下 post `super()` 调用。

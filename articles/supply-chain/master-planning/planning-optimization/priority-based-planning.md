@@ -1,27 +1,26 @@
 ---
 title: 基于优先级的计划
 description: 本主题介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 41c4f3e9bd41735b213743bd8b4cdd8d9657a073
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777881"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468291"
 ---
 # <a name="priority-based-planning"></a>基于优先级的计划
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 本主题介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。 此功能增加了对需求驱动计划的支持，这是需求驱动的物料要求计划 (DDMRP) 的一个步骤。 基于优先级的计划使计划优化能够生成由计划优先级而非要求日期驱动的计划订单。
 
