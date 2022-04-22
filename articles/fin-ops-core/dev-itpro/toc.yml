@@ -1,10 +1,10 @@
-- name: Finance and Operations 应用开发和管理
+- name: 财务和运营应用开发和管理
   items:
-    - name: Finance and Operations 应用开发和管理
+    - name: 财务和运营应用开发和管理
       items:
-        - name: Finance and Operations 应用程序文档
+        - name: 财务和运营应用程序文档
           href: ../fin-ops/index.md
-        - name: Finance and Operations 应用开发和管理
+        - name: 财务和运营应用开发和管理
           href: index.md
         - name: 新增功能或更改
           items:
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: 针对版本 10.0.25 的平台更新（2022 年 4 月）
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: 针对版本 10.0.24 的平台更新（2022 年 2 月）
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -48,7 +46,7 @@
               href: dev-tools/version-models-build.md
         - name: 数据集成
           items:
-            - name: Finance and Operations 应用与第三方服务之间的集成
+            - name: 财务和运营应用与第三方服务之间的集成
               href: data-entities/integration-overview.md
             - name: 基于优先级的限制
               hreF: data-entities/priority-based-throttling.md
@@ -190,7 +188,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: 使用普通日记帐实体导入凭证
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: 优化 Finance and Operations 应用的数据迁移
+                - name: 优化财务和运营应用的数据迁移
                   href: sysadmin/optimize-data-migration.md
             - name: 数据实体开发
               items:
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: 为本地环境配置代理
                       href: deployment/onprem-reverseproxy.md
+                    - name: 在本地环境中安装网络打印机设备
+                      href: analytics/install-network-printer-onprem.md
                     - name: 本地诊断
                       href: deployment/on-premises-diagnostics.md
                     - name: 本地灾难恢复配置
@@ -470,13 +470,13 @@
                   href: help/contributor-guide.md
             - name: 部署注意事项
               items:
-                - name: 针对 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的 Sovereign 和本地云部署选项
+                - name: 针对 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的主权云和本地云部署选项
                   href: deployment/deployment-options-geo.md
                 - name: 美国政府社区云 (GCC) 中的 Finance 和 Supply Chain Management
                   href: deployment/us-gcc-deployment.md
                 - name: Finance 和 Supply Chain Management 由世纪互联在中国运营
                   href: deployment/china-local-deployment.md
-                - name: 法国 Finance and Operations 应用
+                - name: 法国财务和运营应用
                   href: deployment/france-local-deployment.md
         - name: 开发和自定义
           items:
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
                   href: sysadmin/VMs-no-admin-access.md
+                - name: 设置可下载的 VHD 以供首次使用
+                  href: dev-tools/vhd-setup.md
                 - name: 重命名本地环境以访问 Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: 开发系统要求
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Azure DevOps 扩展（公开预览版）
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Azure DevOps 扩展教程（公开预览版）
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Microsoft Power Platform 集成
           items:
             - name: 概览
@@ -1056,9 +1060,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Lifecycle Services 的双重写入设置
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: 为现有 Finance and Operations 应用启用双重写入
+                    - name: 为现有财务和运营应用启用双重写入
                       items:
-                        - name: 为现有 Finance and Operations 应用启用双重写入
+                        - name: 为现有财务和运营应用启用双重写入
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: 系统要求和先决条件
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1172,15 +1176,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: 解决实时同步问题
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: 解决 Finance and Operations 应用中的双重写入问题
+                        - name: 解决财务和运营应用中的双重写入问题
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: 解决当事方和全球通讯簿的问题
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: 解决与解决方案意识相关的问题
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: 解决 Finance and Operations 应用升级问题
+                        - name: 解决财务和运营应用升级问题
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
+                        - name: 验证财务和运营应用和 Dataverse 中的双重写入配置
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: 表映射运行状况检查的错误代码
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: 利用并行执行运行 Regression Suite Automation Tool (RSAT)
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: 将 RSAT 与 Azure DevOps 管道集成
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: 疑难解答
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 使用 Lifecycle Services 发布解决方案
@@ -1550,9 +1556,9 @@
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: 获取由世纪互联在中国运营的 Finance and Operations 的支持
               href: lifecycle-services/21vianet-support.md
-            - name: 设置对 Finance and Operations 应用的技术支持
+            - name: 设置对财务和运营应用的技术支持
               href: lifecycle-services/support-experience.md
-            - name: 管理 Finance and Operations 应用的支持体验
+            - name: 管理财务和运营应用的支持体验
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: 生产支持和监控
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1580,7 +1586,7 @@
                   href: sysadmin/role-based-security.md
                 - name: 安全体系结构
                   href: sysadmin/security-architecture.md
-                - name: Finance and Operations 应用中的加密
+                - name: 财务和运营应用中的加密
                   href: sysadmin/encryption.md
                 - name: 设置会话不活动超时
                   href: sysadmin/session-idle-timeout.md

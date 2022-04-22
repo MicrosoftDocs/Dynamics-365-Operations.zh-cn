@@ -196,10 +196,10 @@
               items:
                 - name: 实施生命周期管理主页
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations 应用的体系结构
+                - name: 财务和运营应用的体系结构
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: 加入实施项目
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: 环境计划
@@ -934,7 +934,7 @@
               href: task-mgmt-pos.md
             - name: Dynamics 365 Commerce 和 Microsoft Teams 集成
               items:
-                - name: Commerce 和 Teams 集成概述
+                - name: Commerce 和 Teams 集成概览
                   href: commerce-teams-integration.md
                 - name: 启用 Commerce 和 Teams 集成
                   href: enable-teams-integration.md
@@ -2257,7 +2257,7 @@
                 - name: 成本控制
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: 费用管理
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: 现有库存
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: 发票审核
@@ -2265,11 +2265,11 @@
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Project 移动应用程序概览
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: 项目时间条目
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fcommerce%2ftoc.json
                 - name: 采购订单审核
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: 销售订单
@@ -2534,7 +2534,7 @@
               items:
                 - name: 概览
                   items:
-                    - name: POS 扩展概述
+                    - name: POS 扩展概览
                       href: dev-itpro/pos-extension/pos-extension-overview.md
                     - name: POS 扩展概念和术语
                       href: dev-itpro/pos-extension/pos-extension-basics.md
@@ -2914,7 +2914,7 @@
               items:
                 - name: 设置电子商务开发环境，针对第 1 层 Retail Server VM 进行调试
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Finance and Operations 应用开发和管理
+    - name: 财务和运营应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

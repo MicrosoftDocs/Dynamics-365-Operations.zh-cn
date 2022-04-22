@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25（4 月）
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24（2 月）
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -172,7 +170,7 @@
               items:
                 - name: 实施生命周期管理主页
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations 应用的体系结构
+                - name: 财务和运营应用的体系结构
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -232,7 +230,7 @@
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: 供应商发票自动化
               items:
-                - name: 供应商自动开票流程概述
+                - name: 供应商自动开票流程概览
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: 供应商发票自动化的设置选项
                   href: accounts-payable/vnd-invoice-set-up-options.md
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: 复制计费计划
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: 计费计划功能
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: 里程碑开票
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: 支持和续订流程
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: 消费者价格指数计划
+                      href: accounts-receivable/cpischedules.md
                     - name: 终止计费计划
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: 收入和支出延期
-                  items: null
+                  items:
+                    - name: 设置收入和支出延期
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: 延期计划
+                      items:
+                        - name: 创建延期计划
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: 延期默认交易记录
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: 多元素收入分配
-                  items: null
+                  items:
+                    - name: 设置多元素收入分配
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: 付款和结算
               items:
                 - name: 客户付款概览
@@ -922,6 +936,8 @@
               items:
                 - name: 计划您的会计科目表
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: 计划您的本地会计科目表
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: 主科目
                   items:
                     - name: 主科目类型
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI 版本 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI 版本 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: 客户登记 ID 和其他信息
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: DIOT 申报单
@@ -4757,7 +4775,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: '使用 CustTrans::settleTransaction 结算交易记录'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finance and Operations 应用开发和管理
+    - name: 财务和运营应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
