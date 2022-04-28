@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
+ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462783"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8602953"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 新的网格控件提供了多个有用而强大的功能，您可以用来提高用户生产率、构造更有趣的数据视图并获得有意义的数据见解。 本文将介绍以下功能： 
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575768"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570427"
 ---
 # <a name="manage-folios"></a>管理帐页
 
 [!include [banner](../../includes/banner.md)]
 
-帐页通常由海关法规确定。 它可以包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
+帐页通常由海关法规确定。 它可以包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物在一个容器中管理。
 
 要打开 **所有帐页** 页，转到 **登陆成本 \> 帐页 \> 所有帐页**。 此页面显示所有当前帐页的列表。 您可以使用操作窗格上的按钮创建、删除和使用帐页。 在列表中选择任意帐页可以在 **帐页** 页上查看它的详细信息。
 

@@ -2,7 +2,7 @@
 title: 开始使用税款计算
 description: 本主题说明如何设置税务计算。
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952513"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558304"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
@@ -36,7 +36,7 @@ ms.locfileid: "7952513"
 
 ## <a name="high-level-design"></a>高级设计
 
-### <a name="runtime-design"></a>运行时设计
+### <a name="runtime-design"></a><a name="runtime"></a> 运行时设计
 
 下图显示了税款计算的高级运行时设计。 税款计算可以与多个 Dynamics 365 应用集成，此图使用与 Finance 的集成作为示例。
 
@@ -95,6 +95,14 @@ ms.locfileid: "7952513"
 - 必须在已部署的 RCS 环境的 **功能管理** 工作区中启用以下功能。
 
     - 全球化功能
+
+- 应根据需要为 RCS 环境中的用户分配以下角色：
+
+    - 电子报告开发人员
+    - 全球化功能开发人员
+    - 税引擎开发人员
+    - 税引擎功能顾问
+    - 税务服务开发人员
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>在 LCS 中设置税务计算
 
@@ -203,6 +211,9 @@ ms.locfileid: "7952513"
     | 销售额            | DEU       | FRA     | DEU_EU       |
     | 销售额            | BEL       | BEL     | BEL_Domestic |
     | 销售额            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > 如果应纳税单据行上的默认销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本主题的[运行时设计](#runtime)一节。
 
 22. 在 **物料税组适用性** 选项卡上，选择确定正确税码所需的列，然后选择 **添加**。 输入或选择每列的值。 **物料税组** 字段将是此矩阵的输出。 如果未配置此选项卡，则将使用交易行上的物料销售税组。
 
@@ -210,8 +221,11 @@ ms.locfileid: "7952513"
 
     | 物料代码 | 物料税组 |
     | --------- | -------------- |
-    | D0001     | 已满           |
+    | D0001     | 完整           |
     | D0003     | 已降低        |
+
+    > [!NOTE]
+    > 如果应纳税单据行上的默认物料销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本主题的[运行时设计](#runtime)一节。
 
     有关如何在税款计算中确定税码的详细信息，请参阅[销售税组和物料销售税组确定逻辑](global-sales-tax-group-determination.md)。
 

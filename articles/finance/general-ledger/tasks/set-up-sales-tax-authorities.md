@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbfc2e1afc7109e70851cbb8b4cb17ce44b2fc4d1946f95f382185b6ae1bb3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16d1dd704794203f7e47daacca504231f423b04
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752143"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565752"
 ---
 # <a name="set-up-sales-tax-authorities"></a>设置增值税主管机构
 

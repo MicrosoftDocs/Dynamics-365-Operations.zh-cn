@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
+ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384635"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8602980"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 

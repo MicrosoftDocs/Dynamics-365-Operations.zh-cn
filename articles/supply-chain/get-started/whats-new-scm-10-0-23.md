@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920192"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
 
@@ -57,7 +57,7 @@ ms.locfileid: "7920192"
 | 采购 | 清除采购订单更新历史记录 | 利用此功能，您可以清理与采购订单更新相关的临时历史记录。 它向 **所有采购订单** 页上的操作窗格添加了一个名为 **清理采购订单更新历史记录** 的新按钮。 默认情况下启用了此功能。 |
 | 生产控制 | (预览版)自动领取支持仓库的物料以便自动过帐领料单 | 通过此功能可以自动领取和解析库存维度，以便自动过帐、派生和倒冲领料单日记帐。 |
 | 生产控制 | 根据计划消耗日期验证原材料的到期日期 | 此功能更改了在预留要在生产过程中使用的原材料批次时验证批次到期日期的方式。 启用此功能后，批次到期日期将根据在生产物料清单行或批次订单配方行上设定的计划消耗日期（原材料日期）进行验证。 禁用此功能后，批次到期日期将根据生产或批次订单的计划交货日期（与之前一样）进行验证。 |
-| 销售和市场营销 | 根据使用时间清除销售更新历史记录 | 此功能可让您设置在运行 **销售更新历史记录清理** 定期任务时要保留记录的最长年限。 较早的记录将被删除。 这在您将任务设置为定期运行时很有用，因为年限始终是相对于任务运行的日期计算的。 如果没有此功能，您只能为要保留的最早记录设置特定日期。 |
+| 销售和市场营销 | 根据使用时间清除销售更新历史记录 | 此功能可让您设置在运行 **销售更新历史记录清理** 定期任务时要保留记录的最长年限。 较早的记录将被删除。 这在您将任务设置为定期运行时很有用，因为年限始终是相对于任务运行的日期计算的。 如果没有此功能，您只能为要保留的最早记录设置特定日期。 有关详细信息，请参阅[计划销售历史记录数据清理](../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。 |
 | 销售和市场营销 | 改善“前 100 位”客户的报表性能 | 此功能通过始终运行所有客户的报表（作为其目标用途），而不是通过允许自定义查询，来改善 **前 100 位** 客户的报表性能。 启用此功能后，**前 100 位** 报表对话中将禁用所有 **要包括的记录** 设置。 |
 | 仓库管理 | 对于发布到出站订单仓库的缩放单元支持 | 启用此功能后，出站订单可从中心直接发布到履行订单的缩放单元。 |
 
@@ -81,7 +81,7 @@ ms.locfileid: "7920192"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 中包含平台更新。 要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.23 的平台更新（2021 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.23 的平台更新（2021 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

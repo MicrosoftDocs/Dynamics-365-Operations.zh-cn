@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752800"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548071"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 
@@ -816,7 +816,7 @@ ms.locfileid: "7752800"
 | 作为供应商，获取关于转移至客户的托运库存量的信息。 | 若要向客户开票，供应商要求获得关于从托运库存购买的原材料和购买日期的信息。 供应商还可以使用供应商协作界面在客户站点监控现有库存。 |
 | 使用转移日记帐移动供应商拥有的库存。 | 要跟踪供应商拥有的库存的物理位置，必须能够在系统中记录位置。 使用转移日记帐可以记录库存的物理移动，例如从仓库中的一个位置移动到该仓库中的另一个位置。 |
 | 使用盘点日记帐调整供应商拥有的库存。 | 重要的一点是要保持系统现有库存与实际物理库存同步。 使用盘点流程（例如数量调整）和盘点日记帐流程可以调整供应商拥有的库存的进出。 |
-| 进一步了解 Dynamics 365 for Operations 中的托运支持 | 有关托运流程支持的更多信息，请参阅[托运](../../../supply-chain/inventory/consignment.md)，[设置托运](../../../supply-chain/inventory/set-up-consignment.md)，[创建托运补货订单（任务指南）](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md)，以及[基于生产需求更改托运库存的所有权（任务指南）](../../../supply-chain/inventory/tasks/change-ownership-consignment.md)。 |
+| 进一步了解 Dynamics 365 for Operations 中的托运支持 | 有关托运流程支持的更多信息，请参阅[托运](../../../supply-chain/inventory/consignment.md)，[设置托运](/d365F-O/fin-ops-core/fin-ops/get-started/consignment)，[创建托运补货订单（任务指南）](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md)，以及[基于生产需求更改托运库存的所有权（任务指南）](../../../supply-chain/inventory/tasks/change-ownership-consignment.md)。 |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>供应商协作（以前称作供应商门户）
 
@@ -942,7 +942,7 @@ ms.locfileid: "7752800"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
+[Finance and Operations 新增功能或更改主页](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

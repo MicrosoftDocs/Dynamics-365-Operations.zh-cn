@@ -2,25 +2,25 @@
 title: 资产租赁报表
 description: 本主题列出并简要描述了资产租赁中的可用报表。
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739399"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550030"
 ---
 # <a name="asset-leasing-reports"></a>资产租赁报表
 
@@ -37,7 +37,7 @@ ms.locfileid: "6739399"
 |     报表字段                  |     说明                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     开始日期              |     租赁最早版本的开始日期。                     |   
-|     租赁期                     |     租赁最早版本的租赁期。                            |
+|     租赁期                     |     租赁期的当前版本。                            |
 |     短期租赁               |     如果将租赁分类为短期租赁，则将显示为 **是**。         |
 |     低价值租赁                |     如果将租赁分类为低价值租赁，则将显示为 **是**。          |
 |     初始使用权资产     |     初始确认日记帐条目中的使用权资产的原始值。      |

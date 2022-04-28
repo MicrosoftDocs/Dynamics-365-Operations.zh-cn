@@ -7,17 +7,17 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4422e4938445d74c869c24af36755afd75547702d4c80a1f5686aa090d49b3ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f288489856715c7e422c68815165e81476035445
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736913"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565653"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>创建成本核算分类帐
 

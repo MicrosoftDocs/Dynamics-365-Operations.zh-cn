@@ -2,7 +2,7 @@
 title: 付款模块
 description: 此主题介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952461"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565721"
 ---
 # <a name="payment-module"></a>付款模块
 
@@ -74,6 +74,8 @@ PayPal Payment Connector 不需要账单地址模块，因为所有与账单相�
 | 付款方式覆盖 | 级联样式表 (CSS) 代码 | 由于付款模块托管在 iframe 中，因此样式功能有限。 您可以使用此属性来实现某些样式。 要覆盖站点样式，必须粘贴 CSS 代码作为此属性的值。 站点构建器 CSS 覆盖和样式不适用于此模块。 |
 |支持的支付方式| 字符串| 如果配置了多个付款连接器，应提供在 Commerce 总部付款连接器配置中定义的受支持的支付方式字符串（请参见下图）。 如果为空白，则默认为 Adyen Payment Connector。 Commerce 版本 10.0.14 中已添加。|
 |为主付款|  **True** 或 **False** | 如果为 **True**，将在结帐页面上从主付款连接器中生成任何错误消息。 如果同时配置了 Adyen Payment Connector 和 PayPal Payment Connector，请将 Adyen 设置为 **True**，已在 Commerce 版本 10.0.14 中添加它。|
+|使用连接器 ID| **True** 或 **False** | 如果为站点配置了多个付款连接器，则使用此属性。 如果为 **True**，连接器将需要使用连接器 ID 进行付款关联。|
+|使用浏览器为 iFrame 设置语言代码|  **True** 或 **False** | （仅限 Adyen）如果为 **True**，Adyen iFrame 将根据站点用户的浏览器上下文呈现语言，而不是使用为站点配置的 Commerce 渠道的语言代码。 Commerce 版本 10.0.27 中已添加。|
 
 下图显示在 Commerce 总部的付款连接器配置中 **支持的支付方式** 值设置为“PayPal”的示例。
 ![Commerce Headquarters 中支持的支付方式的示例。](./media/ecommerce-paymenttendertypes.png)

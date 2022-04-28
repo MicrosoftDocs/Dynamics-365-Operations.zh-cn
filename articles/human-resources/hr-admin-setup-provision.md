@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060403"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565619"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -40,6 +40,10 @@ ms.locfileid: "8060403"
 
 ## <a name="provision-a-human-resources-trial-environment"></a>预配 Human Resources 试用环境
 
+>[!NOTE]
+> 从 2022 年 4 月开始，Human Resources 试用环境将无法在独立应用程序中使用。 有兴趣评估财务和运营应用中的 Human Resources 功能的潜在客户可以使用免费的 30 天试用以及演示数据进行评估。 Dynamics 365 Finance 将包括通过合并独立应用程序为 Finance 基础结构引入的 Human Resources 功能。 有关详细信息，请参阅[合并 HR 产品/服务为客户汇聚能力](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers)。有关 Dynamics 365 Finance 试用的详细信息，请参阅分步[指南](/fin-ops/get-started/before-you-buy)。 
+
+
 在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 
 
 试用环境为尚未访问 Human Resources 环境的个人提供评估人力资源功能的能力。 如果您在预配试用环境并且经过身份验证的用户已经有权访问一个或多个现有 Human Resources 环境，该用户将被重定向到现有环境或环境列表。
@@ -58,7 +62,7 @@ ms.locfileid: "8060403"
 其他环境的注意事项：
 
 - **数据迁移**：您可能需要考虑额外增加一个环境来用于数据迁移活动，以允许将沙盒环境用于整个项目的测试。 多增加一个环境，当测试和配置活动在不同环境中同时进行时，可以让数据迁移活动继续进行。
-- **集成**：您可能需要考虑额外增加一个环境来用于配置和测试集成。 这可能包括本地集成，如 Ceridian Dayforce LinkedIn Talent Hub 集成，或自定义集成，如工资单、申请人跟踪系统或福利系统和提供商。
+- **集成**：您可能需要考虑额外增加一个环境来用于配置和测试集成。 这可能包括本地集成，如 Ceridian Dayforce 或 LinkedIn Talent Hub 集成，或自定义集成，如工资单、申请人跟踪系统或福利系统和提供商。
 - **培训**：您可能需要一个单独的环境，并在环境中配置一组培训数据来对员工进行新系统使用方面的培训。 
 - **多阶段项目**：您可能需要一个额外的环境来支持项目初始投入使用后计划的项目阶段内的配置、数据迁移、测试或其他活动。
 

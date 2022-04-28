@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349735"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8549999"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce 分析（预览版）
 
@@ -352,15 +352,20 @@ Commerce 分析模板应用包括以下主报表页面：
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>启用和配置 Commerce 分析（预览版）
 
-若要安装 Commerce 分析（预览版），您必须具有在 Azure 订阅中创建资源的权限。 您还必须具有在 LCS 中安装加载项的权限。 
+若要安装 Commerce 分析（预览版），您必须具有在 Azure 订阅中创建资源的权限。 您还必须具有在 LCS 中安装加载项的权限。
 
 要启用和配置 Commerce 分析（预览），请按照以下步骤操作。
 
-1. [启用和配置“导出到 Data Lake”加载项](#enableExportToDataLake)。
-1. [安装和配置 Azure Synapse workspace](#configureAzureSynapse)。
-1. [将机密添加到密钥保管库](#addSecrets)。
-1. [启用和配置 Commerce 分析（预览版）加载项](#enableCommerceAnalyticsAddin)。
-1. [安装 Power BI 模板应用](#powerbi)。
+1. [提交 Commerce 分析（预览）的预览引入窗体](#joinPreview)
+2. [启用和配置“导出到 Data Lake”加载项](#enableExportToDataLake)。
+3. [安装和配置 Azure Synapse workspace](#configureAzureSynapse)。
+4. [将机密添加到密钥保管库](#addSecrets)。
+5. [启用和配置 Commerce 分析（预览版）加载项](#enableCommerceAnalyticsAddin)。
+6. [安装 Power BI 模板应用](#powerbi)。
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>提交 Commerce 分析（预览版）的预览引入窗体
+
+提交 [Commerce 分析（预览版）的预览引入窗体](https://forms.office.com/r/vW5VLJGXZ2)。 处理您的请求后，确认电子邮件将发送到您在窗体中提供的电子邮件地址。
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>启用和配置“导出到 Data Lake”加载项
 

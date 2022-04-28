@@ -2,19 +2,19 @@
 title: 常规故障排除
 description: 本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062330"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554590"
 ---
 # <a name="general-troubleshooting"></a>常规疑难解答
 
@@ -29,20 +29,31 @@ ms.locfileid: "8062330"
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>在 Dataverse 中启用和查看插件跟踪日志以查看错误详细信息
 
+在对财务和运营和 Dataverse 之间的双写入实时同步问题进行故障排除时，跟踪日志会非常有用。 这些日志可以向为 Dynamics 365 提供技术和工程支持的团队提供具体的详细信息。 本文介绍如何启用跟踪日志以及如何查看这些日志。 跟踪日志在 Dynamics 365 设置页面进行管理，需要管理员级别的特权才能更改和查看。 
+
 **打开跟踪日志和查看错误所需的角色：** 系统管理员
 
+### <a name="turn-on-the-trace-log"></a>打开跟踪日志
 若要打开跟踪日志，请执行以下步骤。
 
-1. 登录到 Customer Engagement 应用，打开 **设置** 页面，然后在 **系统** 下，选择 **管理**。
-2. 在 **管理** 页面中，选择 **系统设置**。
-3. 在 **自定义** 选项卡上，在 **插件和自定义工作流活动跟踪** 列中，选择 **所有** 启用插件跟踪日志。 如果只想在发生异常时记录跟踪日志，则可以改为选择 **异常**。
+1.  登录到 Dynamics 365，然后在顶部导航栏中选择 **设置**。 在系统页面上，单击 **管理**。
+2.  在管理页面，单击 **系统设置**。
+3.  选择 **自定义** 选项卡和插件，然后在自定义工作流活动跟踪部分，将下拉列表更改为 **所有**。 这将跟踪所有活动，并为必须审查潜在问题的团队提供一组全面的数据。
 
+> [!NOTE]
+> 将下拉列表设置为 **异常** 只会在发生异常（错误）时提供跟踪信息。
 
+启用后，将继续收集插件跟踪日志，除非返回此位置，选择 **关** 手动将其关闭。
+
+### <a name="view-the-trace-log"></a>查看跟踪日志
 若要查看跟踪日志，请执行以下步骤。
 
-1. 登录到 Customer Engagement 应用，打开 **设置** 页面，然后在 **自定义** 下，选择 **插件跟踪日志**。
-2. 找到 **类型名称** 列设置为 **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** 的跟踪日志。
-3. 双击一个项目查看完整日志，然后在 **执行** 快速选项卡上，查看 **消息块** 文本。
+1. 在 Dynamics 365 设置页面上，在顶部导航栏中选择 **设置**。 
+2. 在页面的 **自定义** 部分选择 **插件跟踪日志**。
+3. 您可以根据类型名称和/或消息名称在跟踪日志列表中查找条目。
+4. 打开所需条目可以查看完整日志。 “执行”部分的消息块将为插件提供可用信息。 如果有，还将提供异常详细信息。 
+
+您可以复制跟踪日志的内容并将其粘贴到其他应用程序（如记事本或其他工具）中，来查看日志或文本文件，以便更轻松地查看所有内容。 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>启用调试模式来解决财务和运营应用中的实时同步问题
 
@@ -69,6 +80,34 @@ ms.locfileid: "8062330"
 5. 打开事件查看器。
 6. 选择 **应用程序和服务日志 \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**。
 7. 查看最近错误的列表。
+
+## <a name="dual-write-ui-landing-page-showing-blank"></a>双写入 UI 登陆页面显示空白
+在 Microsoft Edge 或 Google Chrome 浏览器中打开双写入页面时，主页无法加载，您会看到空白页面或“出现问题”等错误。
+在 Devtools 中，您在控制台日志中看到错误：
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException：无法从“Window”读取“sessionStorage”属性：访问此文档被拒绝。 at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+
+UI 会使用浏览器“会话存储”来存储一些用于加载主页的属性值。 为此，需要在站点的浏览器中允许第三方 cookie。 此错误指示 UI 无法访问会话存储。 遇到此问题可能有两种情况：
+
+1.  您在 Edge/Chrome 的匿名模式下打开 UI，第三方 Cookie 在匿名模式下被阻止。
+2.  您在 Edge/Chrome 中完全阻止了第三方 Cookie。
+
+### <a name="mitigation"></a>减轻
+需要在浏览器设置中允许第三方 Cookie。
+
+### <a name="google-chrome-browser"></a>Google Chrome 浏览器
+第 1 个选项：
+1.  在地址栏中输入 chrome://settings/ 转到设置，然后导航到“隐私和安全 -> Cookie 和其他站点数据”。
+2.  选择“允许所有 Cookie”。 如果您不希望使用此方法，请转到第二个选项。
+
+第 2 个选项：
+1.  在地址栏中输入 chrome://settings/ 转到设置，然后导航到“隐私和安全 -> Cookie 和其他站点数据”。
+2.  如果选择了“在匿名模式下阻止第三方 Cookie”或“阻止第三方 Cookie”，请转到“始终可以使用 Cookie 的站点”，单击 **添加**。 
+3.  添加您的财务和运营应用站点名称 - https://<your_FinOp_instance>.cloudax.dynamics.com。 确保选中“所有 Cookie，仅在此站点”复选框。 
+
+### <a name="microsoft-edge-browser"></a>Microsoft Edge 浏览器
+1.  导航到“设置 -> 站点权限 -> Cookie 和站点数据”。
+2.  关闭“阻止第三方 Cookie”。  
 
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>从财务和运营应用取消链接和链接其他 Dataverse 环境
 
@@ -97,14 +136,14 @@ ms.locfileid: "8062330"
 
 支持团队可能需要查看网络跟踪以解决某些问题。 要创建网络跟踪，请按照下列步骤操作：
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Google Chrome 浏览器
 
 1. 在打开的选项卡中，按 **F12** 或选择 **开发人员工具** 以打开开发人员工具。
 2. 打开 **网络** 选项卡并筛选器文本框中键入 **integ**。
 3. 运行您的方案并遵守所记录的要求。
 4. 右键单击条目，然后选择 **全部另存为包含内容的 HAR**。
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Microsoft Edge 浏览器
 
 1. 在打开的选项卡中，按 **F12** 或选择 **开发人员工具** 以打开开发人员工具。
 2. 打开 **网络** 选项卡。

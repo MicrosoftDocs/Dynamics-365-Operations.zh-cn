@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlUnit
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ac1f8c6dc5fcacb603aae53190418a10efb0651a3f52608cc58eb3866a8fcb5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 370833a2180fc86703bcb25480a9eab11b76e256
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743811"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566157"
 ---
 # <a name="define-cost-control-units"></a>定义成本控制单元
 

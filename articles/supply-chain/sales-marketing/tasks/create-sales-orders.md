@@ -2,7 +2,7 @@
 title: 创建销售订单
 description: 此过程说明如何创建销售订单。
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566281"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551715"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 
@@ -66,5 +66,7 @@ ms.locfileid: "7566281"
     
 3. 选择 **确定**。
 
+## <a name="sales-order-creation-performance-enhancement"></a>销售订单创建性能增强
+应用程序 10.0.26 版本引入的新功能减少了表 **SourceDocumentHeader** 和 **SourceDocumentLine** 的额外记录的创建。 由于不需要创建这些记录，性能得到改进，存储大小也因此减少。 这些基础源文档框架表目前不用于产品中的销售订单，也没有相关的使用计划。 启用此功能被认为是可提高性能的安全更改。 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

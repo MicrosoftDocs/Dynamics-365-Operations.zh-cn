@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986350"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565990"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>开始使用适用于墨西哥的电子开票
 
@@ -141,7 +141,7 @@ ms.locfileid: "7986350"
 1. 在 **功能版本设置** 页上的 **变量** 选项卡上，选择变量名称 **DigitalSignatureXSLT**。
 2. 在 **值** 字段中输入：{"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    其中：<RelativePath> = folder\\folder\\filename，使用双反斜杠，ContainerName 必须表示用于服务的容器。
+    其中：\<RelativePath\> = folder\\folder\\filename，使用双反斜杠，ContainerName 必须表示用于服务的容器。
    
     变量示例将是这样：
     

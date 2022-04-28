@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524428"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547864"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26 预览（2022 年 5 月）
 
@@ -34,7 +34,7 @@ ms.locfileid: "8524428"
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
-| 库存和物流 | [支持高级仓库管理物料的库存可见性现有查询](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | 即将推出 | 功能管理：<br>*在库存可见性中启用仓库物料* |
+| 库存和物流 | [支持高级仓库管理物料的库存可见性现有查询](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [WHS 物料的库存可见性支持](../inventory/inventory-visibility-whs-support.md) | 功能管理：<br>*在库存可见性中启用仓库物料* |
 | 库存和物流 | [库存可见性加载项的可承诺](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [库存可见性现有库存更改计划与可承诺](../inventory/inventory-visibility-available-to-promise.md) | 通过服务配置启用 |
 | 制造 | [生产车间执行界面的实际称重物料](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*(预览版)报告生产车间执行界面中的实际称重物料* |
 | 制造 | 生产车间执行界面上的“我的工作”选项卡 <!-- KFM: Add link to release plan when available --> | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*生产车间执行界面上的“我的工作”选项卡* |
@@ -51,7 +51,7 @@ ms.locfileid: "8524428"
 | 采购 | 同步内部公司销售和采购订单行上的跟踪维度 | 此功能使您可以控制是否跨内部公司销售和采购订单行同步序列号和批号跟踪维度。 它为客户和供应商的 **内部公司** 设置页面的 **采购订单策略** 和 **销售订单策略** 选项卡添加了新设置。 为了清楚起见，还更新了一些相关的附近设置的名称。<br><br>如果您使用的是高级仓库管理 (WMS)，请注意，只有当这些维度高于目标目的地预留层次结构中的位置时，此功能才会同步批号和序列号。 |
 | 产品信息管理 | 清除产品属性值 | 此功能将添加一个名为 **清除产品属性值** 的定期任务，这将清除不再通过产品类别与任何产品关联的产品属性值记录。 |
 | 库存和仓库管理 | (俄罗斯)在针对包括启用了 WMS 的物料的采购订单签发 GTD 时防止差异 | 此功能只能用于俄语本地化。 它可以防止在为包含启用高级仓库 (WMS) 的物料的进口采购订单发放俄罗斯海关申报编号 (GTD) 时出现差异。 GTD 发放流程更改了自定义日记帐中包含的发票的相关库存交易记录上的一些库存维度值，这导致采购订单的工作记录与采购的库存交易记录之间存在差异。 启用此功能后，GTD 发放流程会生成消除此类差异的调整工作。 |
-| 仓库管理 | 用于 GS1 条码的增强型分析器 | 此功能添加了增强的 GS1 符号数据分析程序。 新分析程序实现了 GS1 一般规范算法来解析 GS1 符号并提供更强大的数据验证。 |
+| 仓库管理 | 用于 GS1 条码的增强型分析器 | 此功能添加了增强的 GS1 符号数据分析程序。 新分析程序实现了 GS1 一般规范算法来解析 GS1 符号并提供更强大的数据验证。 有关详细信息，请参阅 [GS1 条码扫描](../warehousing/gs1-barcodes.md)。 |
 | 仓库管理 | 新装载计划工作台页面 | 添加了两个新装载计划工作台页面：**入站装载计划工作台** 和 **出站装载计划工作台**。 |
 | 仓库管理 | 仓库管理应用程序 - 空白 GTD | 此功能只能用于俄语本地化。 它允许使用 Warehouse Management 移动应用的工作人员在需要时将俄罗斯海关申报编号 (GTD) 留空。 如果 GTD 跟踪维度设置为允许空白值，系统将接受库存操作的 GTD 值为空白，前提是现有库存量可用。 |
 
@@ -68,7 +68,7 @@ ms.locfileid: "8524428"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.26 的平台更新（2022 年 5 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)。<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.26 的平台更新（2022 年 5 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

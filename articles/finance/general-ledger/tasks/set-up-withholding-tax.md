@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2fbe2343a56210bfbed01c7d39ebb8c98829e32952fa1037a3ae0845776be064
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768259"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565575"
 ---
 # <a name="set-up-withholding-tax"></a>设置预缴税金
 

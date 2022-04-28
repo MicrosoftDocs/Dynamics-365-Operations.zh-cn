@@ -10,15 +10,15 @@ ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: China (PRC)
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c65c84a652e4cdff1c72dc43c0d78afe0360865d04d2ec645f07a05e47043f31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f1af7a85d8b7bda02a2885e42f7820d27f15c57
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751232"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565508"
 ---
 # <a name="golden-tax-integration-export-setup"></a>金税集成导出设置
 

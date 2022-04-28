@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524512"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547779"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
@@ -51,9 +51,10 @@ ms.locfileid: "8524512"
 
 | 功能管理名称 | Description |
 |---|---|
-| OnHandReservation | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
-| OnHandMostSpecificBackgroundService | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
-| OnhandChangeSchedule | 此功能支持现有库存更改计划和可承诺 (ATP) 功能（可选）。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
+| *OnHandReservation* | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
+| *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
+| *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
+| *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了高级仓库流程的物料（WHS 物料）。 有关详细信息，请参阅 [WHS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
 
@@ -61,7 +62,7 @@ ms.locfileid: "8524512"
 
 ## <a name="data-source-configuration"></a>数据源配置
 
-各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 Finance 和 Operations”应用）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
+各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 财务和运营应用”）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
 > [!NOTE]
 > `fno` 数据源是为 Supply Chain Management 预留的。 如果您的库存可见性加载项与 Supply Chain Management 环境集成，我们建议您不要删除数据源中与 `fno` 相关的配置。

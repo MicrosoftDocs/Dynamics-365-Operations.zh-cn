@@ -10,15 +10,15 @@ ms.search.form: AssetAllocationRuleSetup_CN,  AssetPosting
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: China (PRC), Japan
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0f511688def8c5ed937ac29f032bc38c43a092bf31dc6de2241714d13d90477
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5052e758ccee4d2ef24983b98a435e79edec2ef6
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773702"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565563"
 ---
 # <a name="setup-fixed-asset-depreciation-allocation"></a>设置固定资产折旧费用分配
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371524"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603016"
 ---
 # <a name="create-a-globalization-feature"></a>创建全球化功能
 
@@ -47,7 +47,7 @@ ms.locfileid: "8371524"
 8. 在 **配置** 网格中，浏览并选择处理管道所需的格式配置（例如，生成电子发票文件或处理来自外部 Web 服务的响应）。
 9. 选择 **确定**。 您现在可以在处理管道的操作中使用配置了。 有关详细信息，请参阅[使用配置](e-invoicing-work-configurations.md)。
 10. 要添加电子开票功能设置，在 **新建功能** 页面的 **设置** 选项卡上进行创建。 有关详细信息，请参阅[使用功能设置](e-invoicing-feature-setup.md)。
-11. 完成设置，并将电子开票功能部署到服务环境。 有关详细信息，请参阅[完成、发布和部署全球化功能](e-invoicing-complete-publish-deploy-globalization-feature)。
+11. 完成设置，并将电子开票功能部署到服务环境。 有关详细信息，请参阅[完成、发布和部署全球化功能](e-invoicing-complete-publish-deploy-globalization-feature.md)。
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>创建源自现有发票模型的文件格式配置
 
@@ -91,4 +91,4 @@ ms.locfileid: "8371524"
     - 如果必须自定义 ER 格式及其与功能版本的格式映射的绑定，请查看配置。
     - 如果必须针对功能版本自定义 **操作** 选项卡、**适用性规则** 选项卡或 **变量** 选项卡，请查看设置。
 
-9. 完成设置，并将电子开票功能部署到服务环境。 有关详细信息，请参阅[完成、发布和部署全球化功能](e-invoicing-complete-publish-deploy-globalization-feature)。
+9. 完成设置，并将电子开票功能部署到服务环境。 有关详细信息，请参阅[完成、发布和部署全球化功能](e-invoicing-complete-publish-deploy-globalization-feature.md)。

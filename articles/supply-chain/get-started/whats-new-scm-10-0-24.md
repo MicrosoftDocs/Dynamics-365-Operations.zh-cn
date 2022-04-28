@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087542"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570273"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
 
@@ -63,7 +63,7 @@ ms.locfileid: "8087542"
 | 主计划 | [使用安全存货日记帐更新最小物料覆盖范围](../master-planning/safety-stock-journal.md) |
 | 生产控制 | [自定义生产车间执行界面](../production-control/production-floor-execution-customize.md) |
 | 生产控制 | [设计生产车间执行界面的样式](../production-control/production-floor-execution-styles.md) |
-| 销售和市场营销 | [销售历史记录清除性能改进](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| 销售和市场营销 | [计划销售历史记录数据清理](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | 仓库管理 | [移动设备用户帐户](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>其他资源

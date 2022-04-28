@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392955"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612340"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>设计新的 ER 解决方案打印 ZPL 标签
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 本主题说明系统管理员、电子报告开发人员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) 框架的参数，设计新的 ER 解决方案所需的 ER [配置](general-electronic-reporting.md#Configuration)来访问仓库管理系统的数据，并以 Zebra 编程语言 (ZPL) II 格式生成自定义仓库位置标签。 这些步骤可以在 **USRT** 公司完成。
 

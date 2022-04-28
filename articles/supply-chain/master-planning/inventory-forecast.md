@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469361"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548158"
 ---
 # <a name="inventory-forecasts"></a>库存预测
 
@@ -39,7 +39,7 @@ ms.locfileid: "8469361"
 - [生成统计基准预测](generate-statistical-baseline-forecast.md)。
 - [导入历史数据以进行需求预测](import-historical-data.md)。
 - [使用 Microsoft Azure 机器学习 Web 服务生成预测](demand-forecasting-setup.md)。
-- [使用数据管理框架（ForecastDemandForecastEntryStaging 和 ForecastSupplyForecastEntryStaging 数据实体）导入需求或供应预测行](../../dev-itpro/data-entities/data-entities-data-packages.md)。
+- [使用数据管理框架（ForecastDemandForecastEntryStaging 和 ForecastSupplyForecastEntryStaging 数据实体）导入需求或供应预测行](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)。
 
 如步骤 1 中的表所示，可通过不同方式访问使用的页面。
 

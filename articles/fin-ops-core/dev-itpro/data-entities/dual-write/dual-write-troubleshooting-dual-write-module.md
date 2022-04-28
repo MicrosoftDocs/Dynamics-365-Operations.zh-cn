@@ -2,19 +2,19 @@
 title: 解决 Finance and Operations 应用中的双重写入问题
 description: 本主题提供故障排除信息，可以帮助您解决财务和运营应用中的双写入模块问题。
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061800"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565957"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决 Finance and Operations 应用中的双重写入问题
 
@@ -70,6 +70,21 @@ Root activity ID: \<your root activity\> id
 当链接的 Dataverse 环境不可用时，将发生此错误。
 
 要解决此问题，请为数据集成团队创建票证。 附加网络跟踪，以便数据集成团队可以在后端将映射标记为 **未运行**。
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>在财务和运营应用中启用并行处理以提高性能
+
+启用并行处理可以减少将数据从财务和运营应用导入客户互动应用和 Microsoft Dataverse 所需的时间。 
+
+要在财务和运营应用中启用并行处理，请完成以下步骤。
+
+1. 登录到您的财务和运营环境。
+2. 转到 **数据管理 > 框架参数**。
+3. 选择 **实体设置**，选择 **配置实体执行参数**。
+4. 添加并行处理的参数：
+    - **导入阈值记录数** – 启用并行处理之前必须满足的记录数。
+    - **导入任务数** – 并行运行的线程（任务）数。
+5. 选择 **保存**。
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>尝试开始表映射时出错
 

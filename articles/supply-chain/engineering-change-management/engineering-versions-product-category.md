@@ -2,7 +2,7 @@
 title: 工程版本和工程产品类别
 description: 本主题提供有关工程版本概念的信息。 工程版本确保产品及其数据的不同状态保持最新，并可以在系统中进行可视化。
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572881"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553353"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>工程版本和工程产品类别
 
@@ -137,7 +137,7 @@ ms.locfileid: "7572881"
 |---|---|
 | 姓名 | 选择要添加的属性。 |
 | 值 | 选择属性的默认值。 |
-| 强制 | 对于 *布尔* 类型的属性，如果此选项设置为 *是*，用户必须将属性设置为 *是*。 如果此选项设置为 *否*，用户可以将属性设置为 *是* 或 *否*。 对于其他数据类型，此选项的设置仅供参考。 |
+| 强制 | 选择该属性是否为必需项，这意味着用户必须为该属性指定一个有效值，然后才能保存产品。 此设置的效果会根据所选属性的数据类型而略有不同，如下表定义。<ul><li>**布尔** – 将此项设置为 *是* 将要求属性具有 *是* 值（系统将拒绝保存属性设置为 *否* 的产品）。 将此项设置为 *否* 可接受 *是* 或 *否* 值。 （*布尔* 类型的属性不能有空值。）</li><li>**整数或小数** – 将此项设置为 *是* 将要求用户为此属性输入非零值。 将此项设置为 *否* 将允许用户以零值保存。  （这些类型的属性不能有空值。）</li><li>**列表** – 列表的数据类型为 *文本*，但也包括预定义的可能值列表。 因此，无法为此类型的属性输入空白值，所以此设置没有任何作用，只用于提供信息。</li><li>**所有其他数据类型** – 将此项设置为 *是* 将使属性成为必需项。 将此项设置为 *否* 将允许用户在不为此属性提供值的情况下保存产品。</li></ul> |
 | 批次属性 | 选择是否应通过批处理功能传播属性。 |
 
 ### <a name="readiness-policy-fasttab"></a>准备策略快速选项卡

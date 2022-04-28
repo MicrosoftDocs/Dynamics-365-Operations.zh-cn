@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920565"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570316"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management 版本 10.0.19（2021 年 6 月）中的新增功能或更改的功能
 
@@ -50,7 +50,7 @@ ms.locfileid: "7920565"
 
 | 模块 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
-| 销售和市场营销 | 销售历史记录清理性能改进 | 如果销售历史记录清理不是经常在具有大量销售更新的环境中运行，可能会花费很长时间。 为了减少持续时间并提高可靠性，此功能将清理分为可在有限持续时间内运行的批处理。 在可能的情况下，将利用数据库功能来最大程度地减少锁定，和避免在清理过程中加入交易表。 有关详细信息，请参阅[销售历史记录清理性能改进](../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。 |
+| 销售和市场营销 | 销售历史记录清理性能改进 | 如果销售历史记录清理不是经常在具有大量销售更新的环境中运行，可能会花费很长时间。 为了减少持续时间并提高可靠性，此功能将清理分为可在有限持续时间内运行的批处理。 在可能的情况下，将利用数据库功能来最大程度地减少锁定，和避免在清理过程中加入交易表。 有关详细信息，请参阅[计划销售历史记录数据清理](../sales-marketing/sales-update-history-cleanup-performance-improvements.md)。 |
 | 销售和市场营销 | 使用内部公司订单的确认日期更新请求接收日期 | 使用此功能，您可以控制在使用内部公司直接交货时销售和购买日期字段值发生什么行为。 您可以选择系统是更新请求的日期还是跳过更新日期。 如果您跳过更新，请求的日期将代表客户的请求。 如果启用更新，请求的日期（使用交货日期控制时）仅在最初代表客户的请求。 当与 *无* 不同时，交货日期控制将覆盖最初的请求。 您可以使用内部公司供应商或客户设置上的新 **使用确认日期更新请求接收日期** 设置来设置此选项。<br><br>如果禁用此功能，系统将根据交货日期控制规则覆盖原始销售订单上的请求收货日期，但请求的装运日期将保持不变。 |
 | 仓库管理 | 在发放到仓库时将数量向下舍入到最近的销售单位 | 此功能添加了一个选项，该选项可以限制下达到仓库的订单数量。 启用后，订单数量将向下舍入到最接近的整数销售单位，包含少于一个销售单位的数量的订单将被拒绝下达。 |
 | 仓库管理 | 组织范围的“计划工作创建”波次方法 | 启用此功能后，*计划工作创建* 波次方法将被配置为跨所有法人并行运行。 其他一些设置也将受到影响。 完整详细信息请参阅[在波次期间计划工作创建](../warehousing/configure-wave-schedule-work-creation.md)。 |
@@ -72,7 +72,7 @@ ms.locfileid: "7920565"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.19（2021 年 6 月）的平台更新](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.19 的平台更新（2021 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983409"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570372"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 
@@ -39,7 +39,7 @@ ms.locfileid: "7983409"
 
 ### <a name="voyages"></a>航行
 
-在登陆成本中，航行是指从出站位置开始，在指定时间段内经过一组特定目的地，最终到达指定入站仓库位置的不同移动。 可以将采购订单和订单行添加到航行的一个集装箱或多个集装箱，成本将正确分配回物料行。 订单和订单行也可以在一个航行中跨法人添加。
+在登陆成本中，航行是指从出站位置开始，在指定时间段内经过一组特定目的地，最终到达指定入站仓库位置的不同移动。 可以将采购订单和订单行添加到航行的一个集装箱或多个集装箱，成本将正确分配回物料行。 
 
 ### <a name="item-ownership"></a>物料所有权
 

@@ -4,7 +4,8 @@ description: 本主题提供有关本地部署的信息和内容链接。
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712560"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566030"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -52,7 +53,7 @@ ms.locfileid: "6712560"
 - [导入电子报告 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印](../analytics/printing-capabilities-on-premises.md)
 - [为本地环境配置代理](onprem-reverseproxy.md)
-- [设置对 Finance and Operations 的技术支持](../lifecycle-services/support-experience.md)
+- [设置对 Finance and Operations 应用的技术支持](../lifecycle-services/support-experience.md)
 - [客户端 Internet 连接](../user-interface/client-disconnected.md)
 - [将更新应用于本地部署](apply-updates-on-premises.md)
 - [重新部署本地环境](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ ms.locfileid: "6712560"
 - [在本地环境中解决问题的脚本](onprem-tsg-implementations.md)
 - [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
-- [Finance and Operations 的已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
+- [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
 
