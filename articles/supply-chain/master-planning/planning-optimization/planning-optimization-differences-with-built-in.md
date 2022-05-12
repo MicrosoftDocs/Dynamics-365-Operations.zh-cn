@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468319"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618251"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>内置主计划与计划优化之间的差异
 
@@ -37,6 +37,7 @@ ms.locfileid: "8468319"
 | 安全存货限定标准和净要求 | *安全存货* 要求类型将不包括，不会显示在 **净要求** 页面上。 安全存货不代表需求，也没有与之关联的要求日期。 它会对必须始终存在的库存量设置约束。 但是，在主计划期间计算计划订单时仍会考虑 **最小** 字段值。 我们建议您检查 **净要求** 页面的 **累计数量** 列，查看是否考虑了此值。 |
 | 运输日历 | 将忽略 **交货方式** 页面中的 **运输日历** 列。 |
 | 无值的最小/最大覆盖范围代码| 当您使用未设置最小值或最大值的最小/最大覆盖代码时，计划引擎会使用内置计划引擎将覆盖代码视为一项要求并为每个要求创建一个订单。 系统将使用计划优化每天创建一个订单来支付当天的全部金额。  |
+| 净需求和手动创建的计划订单 | 使用内置计划引擎，手动创建的物料供应订单将自动显示在该物料的净需求中。 例如，从销售订单创建采购订单时，采购订单将显示在 **净需求** 页面上，而无需执行任何先前操作。 这是因为内置计划引擎会在 `inventLogTTS` 表中记录库存交易，并在动态计划的 **净需求** 页面上显示更改。 但是，使用计划优化，手动创建的订单不会出现在物料净需求中，直到运行计划优化（使用包含该物料的计划），或者直到您在 **净需求** 页面操作窗格上选择 **更新 \> 主计划**，这将为物料运行主计划。 有关如何使用 **净需求** 页面的详细信息，请参阅[计划优化的净需求和限定标准信息](net-requirements.md)。 |
 
 ## <a name="additional-resources"></a>其他资源
 

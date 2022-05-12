@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487633"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649148"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -57,7 +57,7 @@ ms.locfileid: "8487633"
 
 | 功能 | 列出问题 | 摘要 | 预期可用性 |
 | --- | --- | --- | --- |
-| 行动 | 启用了行动计算的覆盖范围组：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后都不会在主计划期间生成行动。 行动的主要目的是建议对现有订单进行的更改。 评估是否在您的业务流程中主动执行了行动，或者与订单相关的延迟信息是否足够。 | 2022 年 4 月 |
+| 行动 | 启用了行动计算的覆盖范围组：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后都不会在主计划期间生成行动。 行动的主要目的是建议对现有订单进行的更改。 评估是否在您的业务流程中主动执行了行动，或者与订单相关的延迟信息是否足够。 | 受支持 |
 | 基本日历 | 使用基本日历的日历：_\#_ | 此功能现在受支持。 | 2022 年 3 月 | 
 | 批处置代码 | 非计划用量批处置主数据：_\#_ | 此功能待定。 当前，启用计划优化后将忽略批处置代码。 | 2022 年 10 月或更高 |
 | 可承诺量 (CTP) | 交货日期控制设置为 CTP 的默认订单设置：_\#_ | 此功能待定。 当前，无论此设置如何，启用计划优化后都会忽略 CTP。 | 2022 年 10 月 |

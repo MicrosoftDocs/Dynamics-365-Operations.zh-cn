@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8fc12db7b04ca20dc5308d7a11d5dee7210835e2
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: eef12a4906b199aace62584c29ed31e58a5a0e61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566055"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645093"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-operated-by-21vianet-in-china"></a>世纪互联在中国运营的 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management
 
@@ -80,7 +80,7 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
     -   由于中国的 Azure Active Directory 中不能使用企业到企业 (B2B)，**系统管理 \> 设置 \> B2B 邀请配置** 页面将不可用。 有关详细信息，请参阅[在 Azure Active Directory B2B 中，来宾用户访问是什么？](/azure/active-directory/b2b/what-is-b2b)。
 
--   [条件访问](/azure/active-directory/conditional-access/technical-reference)是为 Azure Active Directory Premium 2 SKU 提供的 Azure Active Directory 功能。 此功能在中国不可用。 
+-   [条件访问](/azure/active-directory/conditional-access/technical-reference)是为 Azure Active Directory Premium 1 SKU 提供的 Azure Active Directory 功能。 
 -   适用于 PayPal 的 Microsoft Dynamics 365 Payment Connector 在中国不可用。
 
 ## <a name="additional-resources"></a>其他资源

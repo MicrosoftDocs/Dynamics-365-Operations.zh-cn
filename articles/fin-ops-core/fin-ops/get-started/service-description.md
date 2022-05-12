@@ -1,26 +1,26 @@
 ---
-title: Finance and Operations 应用的服务描述
-description: 本主题提供 Finance and Operations 应用的服务描述。
+title: 财务和运营应用的服务描述
+description: 本主题提供财务和运营应用的服务描述。
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952358"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656794"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations 应用的服务描述
+# <a name="service-description-for-finance-and-operations-apps"></a>财务和运营应用的服务描述
 
 [!include[banner](../includes/banner.md)]
 
-Finance and Operations 应用是基于并为了 [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/) 构建的企业资源计划 (ERP) 软件即服务 (SaaS) 产品。 Finance and Operations 服务为组织提供 ERP 功能，以便为其唯一需求提供支持，并帮助其针对不断变化的业务环境进行调整，同时无需管理基础结构。 Finance and Operations 应用中可以包含下面的一个或多个解决方案领域：
+财务和运营应用是基于并为了 [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/) 构建的企业资源计划 (ERP) 软件即服务 (SaaS) 产品。 财务和运营服务为组织提供 ERP 功能，以便为其唯一需求提供支持，并帮助其针对不断变化的业务环境进行调整，同时无需管理基础结构。 财务和运营应用中可以包含下面的一个或多个解决方案领域：
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,21 +32,21 @@ Finance and Operations 应用是基于并为了 [Microsoft Azure](https://azure.
 
 - [个性化体验](personalize-user-experience.md)中内置
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) 工具
-- 基于 [Visual Studio](https://visualstudio.microsoft.com) 的 [Finance and Operations 软件开发工具包 (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) 和 [Azure DevOps 构建自动化](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- 基于 [Visual Studio](https://visualstudio.microsoft.com) 的[财务和运营软件开发工具包 (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) 和 [Azure DevOps 构建自动化](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - [AppSource](https://appsource.microsoft.com/partners) 中的独立软件供应商 (ISV) 解决方案
 
 客户可以根据需求选择自己的解决方案方法。 客户可以与自己的实现合作伙伴合作，以便通过使用 [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md) 中提供的工具和最佳实践，定义、开发和测试自己的解决方案。 有四种常见方案：
 
-- 标准 Finance and Operations 应用的“现成”配置（无扩展）
-- 包含一个或多个 ISV 解决方案的 Finance and Operations 应用配置
-- 包含一个或多个特定于客户的扩展的 Finance and Operations 应用配置
-- 包含特定于客户的扩展和一个或多个 ISV 解决方案的组合的 Finance and Operations 应用配置
+- 标准财务和运营应用“现成”配置（无扩展名）
+- 包含一个或多个 ISV 解决方案的财务和运营应用配置
+- 包含一个或多个特定于客户的扩展的财务和运营应用配置
+- 包含特定于客户的扩展和一个或多个 ISV 解决方案的组合的财务和运营应用配置
 
 组织可以通过简单、透明的订阅模型轻松添加用户和业务流程来跟上其业务增长。 有关详细信息，请参阅 [Dynamics 365 许可指南](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)。
 
 ## <a name="operating-model"></a>运行模型
 
-Finance and Operations 应用的运行模型定义客户、实现合作伙伴和 Microsoft 在整个服务生命周期中的具体角色和职责。 有关详细信息，请参阅[云操作和服务](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md)。
+财务和运营应用的运行模型定义客户、实现合作伙伴和 Microsoft 在整个服务生命周期中的具体角色和职责。 有关详细信息，请参阅[云操作和服务](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md)。
 
 ### <a name="customer-activities"></a>客户活动
 
@@ -61,7 +61,7 @@ Finance and Operations 应用的运行模型定义客户、实现合作伙伴和
 
 ### <a name="microsoft-responsibilities"></a>Microsoft 的职责
 
-Microsoft 通过在 Microsoft SaaS 订阅中部署，主动监控和服务客户的沙盒环境和生产环境来管理 Finance and Operations 服务。 此管理包括分配所需系统基础结构以运行该服务，以及主动与客户沟通服务的运行状况。 职责包括：
+Microsoft 通过在 Microsoft SaaS 订阅中部署，主动监控和服务客户的沙盒环境和生产环境来管理 财务和运营服务。 此管理包括分配所需系统基础结构以运行该服务，以及主动与客户沟通服务的运行状况。 职责包括：
 
 **基础结构管理**
 - 安全和隔离
@@ -79,7 +79,7 @@ Microsoft 通过在 Microsoft SaaS 订阅中部署，主动监控和服务客户
 
 ## <a name="system-configuration"></a>系统配置
 
-Finance and Operations 应用根据事务量和用户负载进行缩放。 每个客户实现都会生成由以下元素构成的唯一解决方案：
+财务和运营应用根据事务量和用户负载进行缩放。 每个客户实现都会生成由以下元素构成的唯一解决方案：
 
 - **数据构成** – 一组唯一参数，用于控制交易记录的行为、组织布局、主数据（如财务和库存维度）结构，以及跟踪粒度。
 - **扩展和配置** – 扩展机制，其使用代码扩展、ISV 解决方案和其中包含工作流、集成和报告配置的唯一配置。
@@ -89,11 +89,11 @@ Microsoft 将配置其规模足以应对交易记录量和用户并发的客户�
 
 - 根据 [LCS 订阅估算器](../../dev-itpro/lifecycle-services/subscription-estimator.md)中的客户分析信息正确分配生产环境的资源
 - 持续监视和诊断生产环境的服务可用性
-- 分析和解决 Finance and Operations 应用的系统性能问题
+- 分析和解决财务和运营应用的系统性能问题
 
 若要确保为高性能配置实现，客户必须完成以下任务：
 
-- 在 [LCS 订阅估算器](../../dev-itpro/lifecycle-services/subscription-estimator.md)中提供有关 Finance and Operations 实现的精确使用信息。
+- 在 [LCS 订阅估算器](../../dev-itpro/lifecycle-services/subscription-estimator.md)中提供有关财务和运营实现的精确使用信息。
 - 生成扩展并测试其性能和缩放。
 - 适当测试数据配置的性能。
 - 通过在实施之前执行[性能测试](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018)确保可伸缩性。
@@ -112,17 +112,17 @@ Microsoft 将配置其规模足以应对交易记录量和用户并发的客户�
 
 ## <a name="globalization"></a>全球化
 
-Finance and Operations 应用从全球多个 Azure 区域提供。 Finance and Operations 应用提供功能来支持不同国家/地区和本地语言。 有关详细信息，请参阅[本地化和监管功能](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features)。
+财务和运营应用从全球多个 Azure 区域提供。 财务和运营应用提供功能来支持不同国家/地区和本地语言。 有关详细信息，请参阅[本地化和监管功能](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features)。
 
 ### <a name="countryregion-specific-considerations"></a>特定于国家/地区的注意事项
 
-- 与需要在本地驻留数据的法国实体开展业务的受监管行业或商业组织的客户应该查看[法国的 Finance and Operations](../../dev-itpro/deployment/france-local-deployment.md)。
-- 在中国经营的客户应该查看 [Azure 中国 Playbook](/azure/china/) 和[由世纪互联在中国运营的 Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md)。
+- 与需要在本地驻留数据的法国实体开展业务的受监管行业或商业组织的客户应该查看[法国的财务和运营](../../dev-itpro/deployment/france-local-deployment.md)。
+- 在中国经营的客户应该查看 [Azure 中国 Playbook](/azure/china/) 和[由世纪互联在中国运营的财务和运营](../../dev-itpro/deployment/china-local-deployment.md)。
 - 在俄罗斯运营的客户应该查看[俄罗斯个人数据本地化法](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia)。
 
 ### <a name="general-data-protection-regulation-gdpr"></a>一般数据保护条例 (GDPR)
 
-对于 Finance and Operations 应用，Microsoft 充当处理器。 作为数据处理器，Finance and Operations 提供进程和功能，以作为数据控制者来帮助客户履行 GDPR 义务。 有关详细信息，请参阅 [GDPR 概述](../../dev-itpro/gdpr/gdpr-guide.md)。
+对于财务和运营应用，Microsoft 充当处理器。 作为数据处理器，财务和运营提供进程和功能，以作为数据控制者来帮助客户履行 GDPR 义务。 有关详细信息，请参阅 [GDPR 概述](../../dev-itpro/gdpr/gdpr-guide.md)。
 
 ## <a name="environment-and-data-management"></a>环境和数据管理
 
@@ -182,7 +182,7 @@ LCS 提供[自助服务预配](../../dev-itpro/deployment/infrastructure-stack.m
 
 ## <a name="data-backup-and-retention"></a>数据备份和保留
 
-SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备份的保护。 对于生产环境，除非 Microsoft 执行回滚操作，否则自动备份将保留 28 天。 对于沙盒（2 层以上）环境，将保留 7 天。 如果计划的任何维护更新期间失败，可以回滚生产环境。
+SaaS 订阅中适用于财务和运营环境的数据库受到自动备份的保护。 对于生产环境，除非 Microsoft 执行回滚操作，否则自动备份将保留 28 天。 对于沙盒（2 层以上）环境，将保留 7 天。 如果计划的任何维护更新期间失败，可以回滚生产环境。
 
 有关自动备份的详细信息，请参阅[自动备份 - Azure SQL 数据库和 SQL 托管实例](/azure/azure-sql/database/automated-backups-overview?tabs=single-database)。
 
@@ -228,13 +228,13 @@ SaaS 订阅中适用于 Finance and Operations 环境的数据库受到自动备
 
 ## <a name="service-update-strategy"></a>服务更新策略
 
-根据[软件生命周期策略](../../dev-itpro/migration-upgrade/versions-update-policy.md)，Finance and Operations 应用遵守 Microsoft [现代生命周期策略](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy)，该策略涵盖持续服务和支持的产品。 
+根据[软件生命周期策略](../../dev-itpro/migration-upgrade/versions-update-policy.md)，财务和运营应用遵守 Microsoft [现代生命周期策略](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy)，该策略涵盖持续服务和支持的产品。 
 
-Microsoft 在每年的以下月份发布八个针对 Finance and Operations 应用的服务更新：
+Microsoft 在每年的以下月份发布八个针对财务和运营应用的服务更新：
 
-- 一月
-- 二月
-- 四月
+- 1 月
+- 2 月
+- 4 月
 - 五月
 - 七月
 - 八月
@@ -255,7 +255,7 @@ Microsoft 在每年的以下月份发布八个针对 Finance and Operations 应�
 
 ## <a name="security-and-administrative-access"></a>安全性和管理访问权限
 
-Finance and Operations 生产环境的管理访问权限受到严格控制并严格记录。 客户数据按照 [Microsoft 在线服务条款](https://www.microsoft.com/licensing/terms/productoffering)处理。 
+财务和运营生产环境的管理访问权限受到严格控制并严格记录。 客户数据按照 [Microsoft 在线服务条款](https://www.microsoft.com/licensing/terms/productoffering)处理。 
 
 ### <a name="customer-administrative-access"></a>客户管理访问权限
 
@@ -264,7 +264,7 @@ Finance and Operations 生产环境的管理访问权限受到严格控制并严
 | 环境类型 | 目的 | 客户访问权限级别 |
 |---|---|---|
 | **非生产**<br>第 1 层沙盒 | 客户为开发、演示或培训目的部署的非生产环境。 | 第 1 层沙盒（也称为云托管环境）是从 LCS 部署到客户的 Azure 订阅的客户托管 VM。 由于它是客户 Azure 订阅中的 VM，因此客户拥有通过远程桌面的环境完全管理访问权限。 |
-| **非生产**<br>第 2 层（或更高）沙盒 | 客户为用户接受度测试、集成测试、培训、暂存或任何其他生产前方案部署的非生产环境。 | 第 2 层及以上沙盒将部署到 Finance and Operations SaaS 订阅。 将通过[即时访问](../../dev-itpro/database/database-just-in-time-jit-access.md)授予与非生产环境关联的 Azure SQL 数据库的访问权限。 不可访问远程桌面。 |
+| **非生产**<br>第 2 层（或更高）沙盒 | 客户为用户接受度测试、集成测试、培训、暂存或任何其他生产前方案部署的非生产环境。 | 第 2 层及以上沙盒将部署到 财务和运营 SaaS 订阅。 将通过[即时访问](../../dev-itpro/database/database-just-in-time-jit-access.md)授予与非生产环境关联的 Azure SQL 数据库的访问权限。 不可访问远程桌面。 |
 | **生产** | 当项目[准备好初始实现](/imp-lifecycle/environment-planning.md#production-system-readiness)时，将部署生产环境。. | 将把生产环境部署到 SaaS 订阅。 所有访问都通过浏览器、服务终结点或 LCS 进行。 |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft 管理访问权限
@@ -296,7 +296,7 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>通过高可用性和灾难恢复来保持业务连续性 
 
-在发生 Azure 区域范围的中断时，Microsoft 为 Finance and Operations 应用的生产实例提供业务连续性和灾难恢复。 有关详细信息，请参阅[业务连续性和灾难恢复](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md)。
+在发生 Azure 区域范围的中断时，Microsoft 为财务和运营应用的生产实例提供业务连续性和灾难恢复。 有关详细信息，包括服务恢复时间目标 (RTO) 和恢复点目标 (RPO)，请参阅[业务连续性和灾难恢复](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md)。
 
 - **高可用性** – HA 功能可用于阻止 Azure 数据中心中单一节点故障导致停机时间。 每个服务的云架构都对计算层使用 Azure 可用性集来避免单一故障点事件。 数据库的 HA 通过 [Azure SQL HA 功能](/azure/azure-sql/database/high-availability-sla)提供。
 - **灾难恢复** – [Azure 灾难恢复功能](/azure/best-practices-availability-paired-regions)为各服务会抵御广泛影响整个 Azure 数据中心的中断。 下面是这些功能中的一部分：
@@ -305,28 +305,19 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
     - 其他 Azure 区域中的 Azure Blob 存储（其中包含文档附件）的异地冗余副本。
     - 用于复制 Azure SQL 和 Azure Blob 存储的次要区域。
 
-支持复制主要数据存储。 因此，每个服务的组件（如 Management Reporter 和实体存储）都使用从主数据库转换而来的数据。 必须在已设置恢复站点且已启动服务之后才生成此数据。 客户代码项目和恢复的数据存储用于重新部署此站点。 通过重新部署，可以让计算节点的状态副本和网络及其他组件一起使用恢复的数据存储来设置次要站点。 如果使用灾难恢复恢复客户的生产实例，Microsoft 和客户需要履行自己的[事件管理](service-description.md#incident-management)职责。
+如果使用灾难恢复恢复客户的生产实例，Microsoft 和客户需要履行自己的[事件管理](service-description.md#incident-management)职责。
 
-将通过系统和组织控制 (SOC) 审核定期检查 Microsoft 的灾难恢复计划和过程。 这些合规性审审核证实 Microsoft DR（包括 Dynamics 365 Finance and Operations 应用）的技术和程序性流程。 [Microsoft 信任中心合规产品](/compliance/regulatory/offering-home)中提供 [SOC 合规性](/compliance/regulatory/offering-soc-2)审核报告和其他所有报告。
+将通过系统和组织控制 (SOC) 审核定期检查 Microsoft 的灾难恢复计划和过程。 这些合规性审审核证实 Microsoft DR（包括 Dynamics 365 财务和运营应用）的技术和程序性流程。 [Microsoft 信任中心合规产品](/compliance/regulatory/offering-home)中提供 [SOC 合规性](/compliance/regulatory/offering-soc-2)审核报告和其他所有报告。
 
-| Microsoft 的职责 | 客户的职责 |
-|---|---|
-| 部署主生产实例时，Microsoft 将在 Azure 成对数据中心中预配次要环境。 有关详细信息，请参阅[业务连续性和灾难恢复 (BCDR): Azure 成对区域](/azure/best-practices-availability-paired-regions)。 | 无 |
-| 部署主生产实例时，Microsoft 将为 Azure SQL 和 Azure Blob 存储启用异地冗余。 | 无 |
-| Microsoft 支持对 Azure SQL 数据库进行自动备份。 | 无 |
-| <p>发生中断时，Microsoft 将确定是否必须为客户执行故障转移，以及是否丢失了数据。 客户可能会遇到长达 15 分钟的数据丢失，具体取决于中断的性质和时间。 | 如果数据丢失，客户可能必须提供书面签字才能触发故障转移。 |
-| 发生故障转移时，适用的服务将以受限模式工作。 故障转移模式下不能触发更新维护。 | 故障模式下客户不能请求包部署和其他常规维护请求。 |
-| 数据中心恢复运行后，Microsoft 将故障回复到主 Azure 区域中的生产实例。 将恢复正常运行。 | 客户可能必须在回滚到主 Azure 区域中的生产实例时签字。 |
+## <a name="finance-and-operations-support-offerings"></a>财务和运营支持产品/服务
 
-## <a name="finance-and-operations-support-offerings"></a>Finance and Operations 支持产品
-
-提供 Finance and Operations 服务的市场提供技术支持。 LCS 或 Finance and Operations 应用中提供[支持体验](../../dev-itpro/lifecycle-services/lcs-support.md)。 下面举了一些示例加以说明：
+提供财务和运营服务的市场提供技术支持。 LCS 或财务和运营应用中提供了[支持体验](../../dev-itpro/lifecycle-services/lcs-support.md)。 下面举了一些示例加以说明：
 
 - LCS 中的[问题随时](../../dev-itpro/lifecycle-services/issue-search-lcs.md)
-- Finance and Operations 应用中的[集成技术支持](../../dev-itpro/lifecycle-services/support-experience.md)
+- 财务和运营应用中的[集成技术支持](../../dev-itpro/lifecycle-services/support-experience.md)
 - LCS 中的[云动力支持](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md)
 
-Microsoft 为 Finance and Operations 客户提供三款支持计划：顶级、专业直接和订阅中包含的支持。 每个计划的支持级别不同。 下表显示这三款计划的比较。
+Microsoft 为财务和运营客户提供三款支持计划：顶级、专业直接和订阅中包含的支持。 每个计划的支持级别不同。 下表显示这三款计划的比较。
 
 | 支持功能 | 顶级 | 专业人员直接支持 | 预订 |
 |---|---|---|---|
@@ -341,7 +332,7 @@ Microsoft 为 Finance and Operations 客户提供三款支持计划：顶级、�
 
 ### <a name="process-to-engage-support"></a>参与到联系上支持
 
-如果发生了涉及 Finance and Operations 应用的事件，客户将通过 LCS 向 Microsoft 提交支持票证。 CSS 将根据客户的支持计划和 CSS 指定的事件严重性处理事件。
+如果发生了涉及财务和运营应用的事件，客户将通过 LCS 向 Microsoft 提交支持票证。 CSS 将根据客户的支持计划和 CSS 指定的事件严重性处理事件。
 
 ### <a name="service-level-agreement"></a>服务级别协议
 
@@ -349,7 +340,7 @@ Microsoft 承诺每个服务月的可用率为 99.9%。 如果 Microsoft 未能�
 
 ## <a name="important-resources"></a>重要资源
 
-- **[信任中心](https://www.microsoft.com/trust-center)** – 获取有关 Finance and Operations 数据的存储位置的信息，以及有关隐私、合规性和安全过程的更多信息。
+- **[信任中心](https://www.microsoft.com/trust-center)** – 获取有关财务和运营数据的存储位置的信息，以及有关隐私、合规性和安全过程的更多信息。
 - **[许可条款和文档](https://www.microsoftvolumelicensing.com/)** – 快速访问与使用通过 Microsoft 批量许可计划许可的产品和服务有关的许可条款、条件和补充信息。
 - **[许可条款](https://www.microsoft.com/licensing/product-licensing/)** – 本页中的资源定义您通过 Microsoft 商业许可计划购买的软件和在线服务的条款和条件。
 - **[Microsoft 生命周期策略](/lifecycle/)** – 此页面提供产品整个生命周期中支持可用性的一致且可预测的指南。
@@ -366,7 +357,7 @@ Microsoft 承诺每个服务月的可用率为 99.9%。 如果 Microsoft 未能�
 
 ### <a name="business-process-modeler-bpm"></a>[业务流程建模器 (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-LCS 中的一款工具通过使用 Finance and Operations 应用内支持的美国生产力与质量中心 (APQC) 业务流程定义完成对给定实施的填补差距分析。
+LCS 中的一款工具通过使用财务和运营应用内支持的美国生产力与质量中心 (APQC) 业务流程定义完成对给定实施的填补差距分析。
 
 ### <a name="cloud-solution-provider"></a>云解决方案提供商
 
@@ -374,7 +365,7 @@ Microsoft 云解决方案提供商 (CSP) 计划中的一个合作伙伴，该合
 
 ### <a name="customer"></a>客户
 
-使用 Finance and Operations 应用并由 Office 365 中的租户表示的业务实体。
+使用财务和运营应用并由 Office 365 中的租户表示的业务实体。
 
 ### <a name="development-environment"></a>开发环境
 
@@ -386,19 +377,19 @@ Microsoft 云解决方案提供商 (CSP) 计划中的一个合作伙伴，该合
 
 ### <a name="implementation-partner"></a>实现合作伙伴
 
-客户为了自定义，配置，实现和管理其 Finance and Operations 解决方案选择的合作伙伴。
+客户为了自定义、配置、实现和管理其财务和运营解决方案选择的合作伙伴。
 
 ### <a name="incident"></a>事件
 
-客户在使用 Finance and Operations 时遇到并通过 LCS 为其提交票证的问题。
+客户在使用财务和运营服务时遇到并通过 LCS 为其提交票证的问题。
 
 ### <a name="microsoft-customer-support-services-css"></a>Microsoft 客户支持服务 (CSS)
 
-致力于提供针对 Finance and Operations 应用的优质服务的 Microsoft 全球支持团队。
+致力于提供针对财务和运营应用的优质服务的 Microsoft 全球支持团队。
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-管理门户，用于对 Finance and Operations 应用进行从试用到实现，再到生产后产品管理和支持的生命周期管理。 有关详细信息，请参阅 [Lifecycle Services 资源](../../dev-itpro/lifecycle-services/lcs.md)。
+管理门户，用于对财务和运营应用进行从试用到实现，再到生产后产品管理和支持的生命周期管理。 有关详细信息，请参阅 [Lifecycle Services 资源](../../dev-itpro/lifecycle-services/lcs.md)。
 
 ### <a name="non-production-instance"></a>非生产实例
 
@@ -412,7 +403,7 @@ Microsoft 云解决方案提供商 (CSP) 计划中的一个合作伙伴，该合
 
 ### <a name="production-instance"></a>生产实例
 
-客户用于管理其“实际”日常交易记录和业务流程的 Finance and Operations 环境。
+客户用于管理其“实际”日常交易记录和业务流程的财务和运营环境。
 
 ### <a name="sandbox-environment"></a>沙盒环境
 
@@ -420,7 +411,7 @@ Microsoft 云解决方案提供商 (CSP) 计划中的一个合作伙伴，该合
 
 ### <a name="service"></a>服务
 
-Finance and Operations 应用中包含的任何核心服务。
+财务和运营应用中包含的任何核心服务。
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Microsoft 在线服务的服务级别协议 (SLA)
 
@@ -428,7 +419,7 @@ Finance and Operations 应用中包含的任何核心服务。
 
 ### <a name="service-update"></a>服务更新
 
-Microsoft 通过服务更新始终如一地服务 Finance and Operations 环境。 客户根据业务需求制订自己的服务更新日历。 有关预览版的详细信息，请参阅 [One Version 服务更新](../../dev-itpro/lifecycle-services/oneversion-overview.md)。
+Microsoft 通过服务更新始终如一地服务财务和运营环境。 客户根据业务需求制订自己的服务更新日历。 有关预览版的详细信息，请参阅 [One Version 服务更新](../../dev-itpro/lifecycle-services/oneversion-overview.md)。
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
@@ -436,4 +427,4 @@ Microsoft 通过服务更新始终如一地服务 Finance and Operations 环境�
 
 ### <a name="user"></a>用户
 
-使用 Finance and Operations 环境的个人和与客户的租户关联的个人。
+使用财务和运营环境的个人和与客户的租户关联的个人。

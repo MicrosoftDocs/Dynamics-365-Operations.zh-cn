@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: d2fcc883cc87f785cad2e5f7efbf67888ca38d10
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388487"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644661"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -27,7 +27,7 @@ ms.locfileid: "8388487"
 
 税务计算是一种超级可扩展的多租户服务，使 Global Tax Engine 可以自动化并简化税务确定和计算流程。 税务引擎完全可配置。 可配置的元素包括但不限于应纳税数据模型、税码、税务适用性矩阵和税务计算公式。 税务引擎在 Microsoft Azure 核心服务平台上运行，并提供现代技术和指数可扩展性。
 
-税务计算与 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 集成。 最终，它还将与 Dynamics 365 Project Operations、Dynamics 365 Commerce 以及其他第一方和第三方应用程序集成。
+税务计算将 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 集成。 最终，它还将与 Dynamics 365 Project Operations、Dynamics 365 Commerce 以及其他第一方和第三方应用程序集成。
 
 > [!IMPORTANT]
 > 当您启用税款计算时，可能在数据中心（维护您的服务数据的数据中心除外）中执行对相关数据的某些操作。 在启用税款计算之前，查看[条款和条件](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。 我们非常尊重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
@@ -79,6 +79,7 @@ ms.locfileid: "8388487"
 | 10.0.24         | 税款计算配置 40.50.225 |
 | 10.0.25         | 税款计算配置 40.50.225 |
 | 10.0.26         | 税款计算配置 40.54.234 |
+| 10.0.27         | 税款计算配置 40.54.234 |
 
 
 ## <a name="data-flow"></a>数据流

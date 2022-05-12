@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396541"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644595"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -32,7 +32,19 @@ ms.locfileid: "8396541"
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
-## <a name="feature-removal-effective-march-14-2022"></a>功能删除从 2022 年 3 月 14 日开始生效
+## <a name="feature-deprecation-effective-april-2022"></a>功能弃用从 2022 年 4 月开始生效
+
+### <a name="xml-url-resolution-in-data-management"></a>数据管理中的 XML URL 解决方案 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们正在删除对 XML URL 解决方案的支持，因为此问题已被标识为潜在的安全漏洞。 这意味着将不再解析与 XML 文件关联的外部资源。  |
+| **被另一个功能取代？**   | 否。 |
+| **影响的产品区域**         | Finance and Operations 应用 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用。 |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>功能弃用从 2022 年 3 月 14 日开始生效
 
 ### <a name="xslt-scripting-in-data-management"></a>数据管理中的 XSLT 脚本
 
@@ -40,9 +52,9 @@ ms.locfileid: "8396541"
 |------------|--------------------|
 | **弃用/移除的原因** | 数据管理中的 XSLT 脚本支持已被弃用，以改进财务和运营应用中的安全性和数据保护。  |
 | **被另一个功能取代？**   | 否。 客户和 ISV 应考虑基于 X++ 语言重新实施其解决方案，以取代 XSLT 脚本。 |
-| **影响的产品区域**         | 财务和运营应用。 |
-| **部署选项**              | 全部。 |
-| **Status**                         | 已弃用 - 计划删除日期为 2022 年 3 月 14 日。<br><br>异常：当前正在使用 XLST 脚本的客户。 在更新到版本 10.0.30 或更高版本之前可以继续使用它。 出现此异常的客户已在 Microsoft 365 管理中心内可用的消息中心收到了通知。 |
+| **影响的产品区域**         | Finance and Operations 应用 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用 <br><br>**异常：** 当前正在使用 XLST 脚本的客户。 在更新到版本 10.0.30 或更高版本之前可以继续使用它。 对于早期版本，异常将于 2023 年 1 月 31 日到期。 出现此异常的客户已在 Microsoft 365 管理中心内可用的消息中心收到了通知。 |
 
 ## <a name="feature-removal-effective-october-2021"></a>功能删除从 2021 年 10 月开始生效
 

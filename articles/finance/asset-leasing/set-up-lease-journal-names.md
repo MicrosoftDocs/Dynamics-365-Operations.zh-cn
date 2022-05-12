@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: a92461e742f1675e4cfda89e6c80c5b087ff5bfb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890742"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644888"
 ---
 # <a name="set-up-lease-journal-names"></a>设置租赁日记帐名称
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 
 租赁日记帐名称指定资产租赁交易过帐到的日记帐。 **资产租赁参数** 页面中的 **初始确认** 和 **月日记帐名称** 字段中显示分配给 **资产租赁** 日记帐类型的日记帐名称。 只能将 **供应商发票记录** 日记帐类型分配给 **发票日记帐名称** 字段。

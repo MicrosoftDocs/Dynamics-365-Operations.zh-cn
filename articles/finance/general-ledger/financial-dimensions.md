@@ -2,7 +2,7 @@
 title: 财务维度
 description: 本主题介绍财务维度的不同类型以及如何设置。
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754186"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644330"
 ---
 # <a name="financial-dimensions"></a>财务维度
 
@@ -79,8 +79,12 @@ ms.locfileid: "6754186"
 - 财务维度是否在任何活动的科目结构、高级规则结构或财务维度集中使用？
 - 财务维度是否是默认维度集成格式的一部分？
 - 财务维度是否已设置为默认维度？
+- 是否已从 Financial Reporting 设置中取消选择了财务维度？ 
 
 如果满足任何条件，则不能删除财务维度。
+
+> [!NOTE]
+> 从 Finance 版本 10.0.27 开始，在创建财务维度时，将不再自动选择财务维度以进行财务报告设置。 
 
 ## <a name="default-dimension-values"></a>默认维度值
 

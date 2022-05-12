@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388355"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614143"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>奥地利的会计登记服务集成示例
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 此主题提供 Microsoft Dynamics 365 Commerce 中奥地利的会计整合示例。
 

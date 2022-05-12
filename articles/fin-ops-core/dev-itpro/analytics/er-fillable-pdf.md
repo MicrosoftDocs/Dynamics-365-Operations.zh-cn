@@ -2,7 +2,7 @@
 title: 设计 ER 配置以填写 PDF 模板
 description: 本主题介绍如何设计电子申报 (ER) 格式以填写 PDF 模板。
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367809"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645098"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
@@ -252,10 +252,14 @@ ms.locfileid: "8367809"
 - 如果定义了 **Name** 属性，并且配置了 **Name** 表达式，则将填写与格式元素的 **Name** 表达式返回的值同名的 PDF 字段。
 
 > [!NOTE]
-> 可按照下面的方法选择的内容填写 PDF 复选框：
+> 当 PDF 模板中的复选框不属于一组复选框时，它将以可编辑的电子报告格式显示为嵌套在 **PDF 文件** 元素下面的 **字段** 元素。 这种类型的 PDF 复选框可以通过以下方式设置为选中：
 >
-> - 如果相应的 **字段** 格式元素绑定到值为 **True** 的 **布尔值** 数据类型的数据源字段
-> - 如果相应的 **字段** 格式元素中包含绑定到文本值为 **1**、**True** 或 **Yes** 的数据源字段的嵌套 **字符串** 格式元素
+> - 将对应的 **字段** 格式元素绑定到值为 **True** 的 *[布尔](er-formula-supported-data-types-primitive.md#boolean)* 数据类型的数据源字段。
+> - 相应的 **字段** 格式元素中包含绑定到文本值为 **1**、**True** 或 **Yes** 的数据源字段的嵌套 **字符串** 格式元素。
+>
+> 您的模板可以包含一组复选框，但一次只能选中一个复选框。 这些复选框在 PDF 模板中显示为 *复选框* 类型的多个窗体字段。 每个字段都具有相同的名称，但具有不同的导出值。 当您将模板导入成可编辑的电子报告格式时，每个复选框都将以分层结构格式显示为嵌套在同一 **复选框组** 元素中的 **复选框组项** 元素。 **复选框组** 元素的名称将等于 PDF 模板中复选框字段的名称。 每个 **复选框组项** 元素的名称将等于 PDF 模板中相应复选框字段的导出值。
+>
+> 您只能将 **复选框组项** 元素绑定到 *布尔* 数据类型的数据源字段。
 
 ## <a name="run-the-format-configuration"></a>运行格式配置
 

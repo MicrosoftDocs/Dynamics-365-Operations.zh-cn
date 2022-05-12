@@ -2,7 +2,7 @@
 title: 保存的视图
 description: 此主题介绍如何使用保存的视图功能。
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065698"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644778"
 ---
 # <a name="saved-views"></a>保存的视图
 
@@ -45,7 +45,7 @@ ms.locfileid: "8065698"
 
 视图选择器有两种尺寸变体： 
 
-- **大视图选择器** – 因为一些原因，明显拥有列表的页面的视图选择器较大。 最重要的是，较大视图选择器表示视图中可能包含用户定义的筛选器。 由于视图中包含筛选器，所以也有必要采用较大选择器，因为视图名称通常最适合描述屏幕中显示的数据，除了用户经常在这些页面类型中切换视图的情况。
+- **大视图选择器** – 因为一些原因，明显拥有列表的页面的视图选择器较大。 最重要的是，较大视图选择器表示视图中可能包含用户定义的筛选器和排序。 由于视图中包含筛选器和排序，所以也有必要采用较大选择器，因为视图名称通常最适合描述屏幕中显示的数据，除了用户经常在这些页面类型中切换视图的情况。 网格中的组也可以保存到带有大视图选择器的页面上的视图中。 
 - **小视图选择器** – 其他所有全屏页面（工作区和仪表板除外）都采用在页面标题旁边显示的较小视图选择器。 这些页面中的视图内仅包含个性化设置，不包含用户定义的筛选器。 在这些页面中，标题或记录标题是页面顶部最重要的信息。 视图选择器的较小大小还反映出预计这些页面上切换视图的频率较低。 
  
 如果选择视图名称，视图选择器将打开，并显示页面的可用视图列表。

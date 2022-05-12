@@ -2,7 +2,7 @@
 title: 预算控制概览
 description: 本主题介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986048"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644835"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
@@ -80,7 +80,9 @@ ms.locfileid: "7986048"
 > [!NOTE]
 > 如果在预算周期内修改此计算，则更改不会影响之前通过预算控制检查并且已过帐或已完成的单据。 名为 **仅跟踪预算资金可用计算中的金额** 的功能可让您更改在 BudgetSourceTracking 表中跟踪的数据。 启用此功能后，仅当在可用预算资金计算中选择使用金额时，才会存储金额。 有关详细信息，请参阅[可用预算资金](budget-funds-available.md)。
 
-接下来，在 **单据和日记帐** 选项卡上，您可以选择哪些原始单据和日记帐将要进行预算控制检查以及检查是将发生在行条目还是发生在整个单据级别。 
+### <a name="documents-and-journals"></a>单据和日记帐
+
+在 **单据和日记帐** 选项卡上，您可以选择哪些原始单据和日记帐将要进行预算控制检查以及检查是将发生在行条目还是发生在整个单据级别。 此外，从 Microsoft Dynamics 365 Finance 版本 10.0.27 开始提供的新 **预算控制单据筛选增强** 功能会为预算控制中包含的每个单据提供基于查询的筛选选项。 因此，您可以指定对哪些预算控制单据进行预算检查。 通过这种方式，该功能仅允许对一部分单据类型进行预算检查。 例如，您只能检查 **池** 字段设置为 **01** 的采购订单。 添加到 **单据和日记帐** 选项卡的新列指示是否为所选单据类型定义了查询。 此外，添加到单据网格上方工具栏的两个新按钮可让您添加、编辑或删除筛选。 
 
 您应将所选的原始单据与包含在可用预算资金计算中的余额的复选框匹配。 例如，如果选择了 **保留款的预算预留**，您应选择 **采购订单** 选项。 当针对采购行上的金额和科目执行预算检查时，分配到预留上的预算控制类别为 **保留款**。 当针对采购申请上的金额和科目执行预算检查时，分配到预留上的预算控制类别为 **预留款**。 
 

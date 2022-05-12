@@ -2,19 +2,19 @@
 title: 常规故障排除
 description: 本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554590"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614086"
 ---
 # <a name="general-troubleshooting"></a>常规疑难解答
 
@@ -131,6 +131,29 @@ UI 会使用浏览器“会话存储”来存储一些用于加载主页的属�
 2. 在窗体节点下找到 **信息** 窗体。
 3. 选择 **信息** 窗体并单击 **启用安全角色**。
 4. 将安全设置更改为 **向所有人显示**。
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>如何确保数据集成使用的是最新财务和运营架构
+
+如果没有使用最新的架构，您可能会在数据集成中遇到数据问题。 以下步骤将帮助您刷新财务和运营应用中的实体列表以及数据集成器中的实体。
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>在财务和运营环境中刷新实体列表
+1.  登录到您的财务和运营环境。
+2.  选择 **数据管理**。
+3.  在“数据管理”内，选择 **框架参数**。
+4.  在 **数据导入/导出框架参数** 页面上，选择 **实体设置** 选项卡，然后选择 **刷新实体列表**。 这可能需要 30 多分钟才能刷新，具体取决于涉及的实体数。
+5.  导航到 **数据管理** 并选择 **数据实体** 以验证是否列出了预期实体。 如果未列出预期实体，请验证实体是否出现在您的财务和运营环境中，并根据需要恢复缺失的实体。
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>如果刷新无法解决问题，请删除并重新添加实体
+
+> [!NOTE]
+> 您可能需要在删除之前停止任何当前正在使用实体的处理组。
+
+1.  在财务和运营环境中选择 **数据管理** 并选择 **数据实体**。
+2.  搜索有问题的实体，并记下目标实体、暂存表、实体名称和其他设置。 从列表中删除一个或多个实体。
+3.  选择 **新建** 并使用第 2 步中的数据重新添加一个或多个实体。 
+
+#### <a name="refresh-entities-in-data-integrator"></a>刷新数据集成器中的实体
+登录到 Power Platform 管理中心并选择 **数据集成**。 打开出现问题的项目，然后选择 **刷新实体**。
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>如何启用和保存网络跟踪，以便跟踪可以附加到支持票证
 

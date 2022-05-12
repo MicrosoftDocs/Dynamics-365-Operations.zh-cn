@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384599"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649067"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -32,6 +32,20 @@ ms.locfileid: "8384599"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 版本中已经删除或弃用的功能
+
+### <a name="modern-point-of-sale-mpos"></a>现代销售点 (MPOS)
+
+现代销售点 (MPOS) 应用程序将在 Commerce 版本 10.0.25 中被弃用，取而代之的是 Store Commerce 应用。
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 店内应用是 Dynamics 365 Commerce 全渠道产品/服务的基石。 我们不断创新以提供现代和智能的商店体验，并且为了进一步实现解决方案现代化，我们将推出一系列新的变化，这些变化将显著改善 Windows 上现有店内应用程序的 IT 运营和用户体验。 新的 Store Commerce 应用程序是现有 MPOS 的技术升级。 它在 Windows 平台上提供了改进的性能、可靠性和长期支持，并且无需在每次更新时都重新打包应用。 |
+| **被另一个功能取代？**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **影响的产品区域**         | 现代销售点 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：从 Commerce 版本 10.0.25 开始，通过 LCS 虚拟机 (VM) 提供的 MPOS 安装程序将于 2023 年 10 月被删除。 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 版本中已经删除或弃用的功能
 
@@ -59,7 +73,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **被另一个功能取代？**   |  [从 GitHub 和 NuGet 下载 Retail SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md) |
 | **影响的产品区域**         | Retail SDK |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从 10.0.21 版本开始，2023 年 4 月将删除通过 LCS VM 附带的 SDK。 |
+| **状态**                         | 已弃用：从 10.0.21 版本开始，通过 LCS VM 提供的 SDK 将于 2023 年 10 月被删除。 |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retail 可部署包和组合 POS、硬件工作站和 Cloud Scale Unit 安装程序
 
@@ -92,7 +106,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **被另一个功能取代？**   | [POS 独立打包 SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **影响的产品区域**         | Dynamics 365 Commerce POS 扩展和部署 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用：从 10.0.21 版开始，将在 2023 年 4 月删除 Retail SDK 中对使用 ModernPos.Sln、CloudPOs.sln 和 POS.Extensons.csproj 的组合 POS 包和扩展模型的支持。 |
+| **状态**                         | 已弃用：从 10.0.21 版开始，将在 2023 年 10 月移除 Retail SDK 中对使用 ModernPos.Sln、CloudPOs.sln 和 POS.Extensons.csproj 的组合 POS 包和扩展模型的支持。 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 版本中已经删除或弃用的功能
 

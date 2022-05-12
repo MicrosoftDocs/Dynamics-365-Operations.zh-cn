@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565619"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625353"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -41,7 +41,7 @@ ms.locfileid: "8565619"
 ## <a name="provision-a-human-resources-trial-environment"></a>预配 Human Resources 试用环境
 
 >[!NOTE]
-> 从 2022 年 4 月开始，Human Resources 试用环境将无法在独立应用程序中使用。 有兴趣评估财务和运营应用中的 Human Resources 功能的潜在客户可以使用免费的 30 天试用以及演示数据进行评估。 Dynamics 365 Finance 将包括通过合并独立应用程序为 Finance 基础结构引入的 Human Resources 功能。 有关详细信息，请参阅[合并 HR 产品/服务为客户汇聚能力](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers)。有关 Dynamics 365 Finance 试用的详细信息，请参阅分步[指南](/fin-ops/get-started/before-you-buy)。 
+> 从 2022 年 4 月开始，Human Resources 试用环境将无法在独立应用程序中使用。 有兴趣评估财务和运营应用中的 Human Resources 功能的潜在客户可以使用免费的 30 天试用以及演示数据进行评估。 Dynamics 365 Finance 将包括通过合并独立应用程序为 Finance 基础结构引入的 Human Resources 功能。 有关详细信息，请参阅[合并 HR 产品/服务为客户汇聚能力](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers)。有关 Dynamics 365 Finance 试用的详细信息，请参阅分步[指南](../fin-ops-core/fin-ops/get-started/before-you-buy.md)。 
 
 
 在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 

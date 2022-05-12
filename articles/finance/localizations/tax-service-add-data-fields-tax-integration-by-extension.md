@@ -2,7 +2,7 @@
 title: 使用扩展在税务集成中添加数据字段
 description: 本主题说明如何使用 X++ 扩展在税务集成中添加数据字段。
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323515"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649092"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>使用扩展在税务集成中添加数据字段
 
@@ -334,9 +334,10 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-在此代码中，`_destination` 是用于生成过帐请求的包装器对象，`_source` 是 `TaxIntegrationLineObject` 对象。
+在此代码中，`_destination` 是用于生成请求的包装器对象，`_source` 是 `TaxIntegrationLineObject` 对象。
 
 > [!NOTE]
-> 定义在请求窗体中用作 **private const str** 的密钥。 此字符串应与主题[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)中添加的度量名称完全相同。
-> 使用 **SetField** 方法设置 **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** 方法中的字段。 第二个参数的数据类型应为 **字符串**。 如果数据类型不是 **字符串**，请进行转换。
-> 如果扩展了 X++ **枚举类型**，请注意它的值、标签和名称之间的区别。
+> 定义在请求中用作 **private const str** 的字段名称。 此字符串应与主题[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)中添加的节点名称（而不是标签）完全相同。
 > 
+> 使用 **SetField** 方法设置 **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** 方法中的字段。 第二个参数的数据类型应为 **字符串**。 如果数据类型不是 **字符串**，请将其转换为字符串。
+> 如果数据类型为 X++ **枚举类型**，我们建议您使用 **enum2Symbol** 方法将枚举值转换为字符串。 税务配置中添加的枚举值应与枚举名称完全相同。 以下是枚举值、标签和名称之间的差异列表。
+> 
+>   - 枚举的名称是代码中的一个符号名称。 **enum2Symbol()** 可将枚举值转换为它的名称。
 >   - 枚举的值是整数。
->   - 枚举的标签可能因首选语言而异。 不要使用 **enum2Str** 将枚举类型转换为字符串。
->   - 推荐使用枚举的名称，因为它是固定的。 **enum2Symbol** 可用于将枚举转换为它的名称。 税务配置中添加的枚举值应与枚举名称完全相同。
+>   - 枚举的标签可能因首选语言而异。 **enum2Str()** 可将枚举值转换为它的标签。
 
 ## <a name="model-dependency"></a>模型依赖项
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

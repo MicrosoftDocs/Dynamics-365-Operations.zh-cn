@@ -2,7 +2,7 @@
 title: 配置 B2B 电子商务站点的客户帐户付款方式
 description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置客户帐户付款方式。 另外还介绍了信用额度如何影响企业到企业 (B2B) 电子商务站点的分期付款捕获。
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323347"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616824"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>配置 B2B 电子商务站点的客户帐户付款方式
 
@@ -82,20 +82,20 @@ B2B 网站上显示的信用额度计算和余额取决于 Commerce headquarters
 
 影响分期付款订单的另一个属性是 **Mandatory credit limit** 属性，它位于客户记录的 **信用和收款** 快速选项卡上。 通过将特定客户的此属性设置为 **Yes**，您可以强制系统检查他们的信用额度，即使 **Credit limit type** 属性已设置为 **None**，指定不应检查任何客户的信用额度。
 
-目前，启用 **Mandatory credit limit** 属性的 B2B 站点具有其他功能。 如果在客户记录上启用了此属性，当客户下订单时，B2B 站点会阻止他们使用分期付款付款方式支付超过剩余信用余额的费用。 例如，如果客户的剩余信用余额为 $1,000，但订单价值为 $1,200，客户使用分期付款方式只能支付 $1,000。 他们必须使用其他一些付款方式来支付其余金额。 如果客户记录中的 **Mandatory credit limit** 属性被禁用，客户可以使用分期付款付款方式支付任意金额。 但是，即使客户可以下订单，如果这些订单超过信用额度，系统也不会允许履行这些订单。 如果您必须检查所有符合分期付款条件的客户的信用额度，我们建议您将 **Credit limit type** 属性设置为 **Balance + packaging slip or product slip**，将 **Mandatory credit limit** 属性为 **No**。
+目前，使用分期付款方式的客户支付的金额不能超过订单的剩余信用余额。 例如，如果客户的剩余信用余额为 $1,000，但订单价值为 $1,200，客户使用分期付款方式只能支付 $1,000。 因此，客户必须使用其他一些付款方式来支付其余金额。 在未来的版本中，Commerce 配置将允许用户在下订单时花费超出其信用额度。
 
 **信用和收款** 模块具有新的信用管理功能。 要启用这些功能，请在 **功能管理** 工作区中启用 **信用管理** 功能。 其中一项新功能允许根据锁定规则暂停销售订单。 在进一步分析之后，信用经理角色可以释放或拒绝订单。 但是，暂停销售订单的功能不适用于 Commerce 订单，因为销售订单通常有预付款，而 **信用管理** 功能并不完全支持预付款场景。 
 
 无论是否启用 **信用管理** 功能，如果在订单履行过程中客户余额超过信用额度，销售订单都不会被暂停。 Commerce 会生成警告消息或错误消息，具体取决于 **信用额度** 快速选项卡上 **在超出信用额度时显示的消息** 字段的值。
 
-**Exclude from credit management** 属性阻止 Commerce 销售订单被暂停，位于销售订单标头中（**Retail 和 Commerce \> 客户 \> 所有销售订单**）。 如果 Commerce 销售订单的此属性设置为 **Yes**（默认值），订单将被从信用管理的暂停工作流中排除。 请注意，虽然此属性被命名为 **Exclude from credit management**，但在订单履行期间仍将使用定义的信用额度。 订单只是不会被暂停。
+**Exclude from credit management** 属性阻止 Commerce 销售订单被暂停，位于销售订单标头中（**Retail 和 Commerce \> 客户 \> 所有销售订单**）。 如果 Commerce 销售订单的此属性设置为 **Yes**（默认值），订单将被从信用管理的暂停工作流中排除。 虽然此属性被命名为 **Exclude from credit management**，但在订单履行期间仍将使用定义的信用额度。 订单只是不会被暂停。
 
 未来的 Commerce 版本计划提供基于锁定规则暂停 Commerce 销售订单的功能。 在支持该功能之前，如果您必须强制 Commerce 销售订单通过新的信用管理流，您可以在 Visual Studio 解决方案中自定义以下 XML 文件。 在文件中，修改逻辑，将 **CredManExcludeSalesOrder** 标志设置为 **否**。 这样，默认情况下，Commerce 销售订单的 **Exclude from credit management** 属性将设置为 **No**。
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-请注意，如果 **CredManExcludeSalesOrder** 标志设置为 **否**，当 B2B 客户可以使用销售点 (POS) 应用程序从商店购买商品时，过帐现金和结转交易记录可能会失败。 例如，现金付款类型有一个锁定规则，B2B 客户在商店中使用现金购买了一些商品。 在这种情况下，生成的销售订单将无法成功开票，因为它将被暂停。 因此，过帐将失败。 出于此原因，我们建议您在实现此自定义后进行端到端测试。
+如果 **CredManExcludeSalesOrder** 标志设置为 **否**，当 B2B 客户可以使用销售点 (POS) 应用程序从商店购买商品时，过帐现金和结转交易记录可能会失败。 例如，现金付款类型有一个锁定规则，B2B 客户在商店中使用现金购买了一些商品。 在这种情况下，生成的销售订单将无法成功开票，因为它将被暂停。 因此，过帐将失败。 出于此原因，我们建议您在实现此自定义后进行端到端测试。
 
 ## <a name="additional-resources"></a>其他资源
 

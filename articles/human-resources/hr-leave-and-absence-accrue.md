@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533703"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644293"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>应计休假和缺勤计划
 
@@ -105,8 +105,10 @@ ms.locfileid: "8533703"
 每次运行或删除一个或多个员工的累积时，都将显示 **休假累积审核**。 还将显示执行操作的日期和人员。
 
 1. 在 **休假和缺勤** 页面，选择 **链接** 选项卡。
-
 2. 在 **管理休假** 下，选择 **删除休假累积审核**。
+
+## <a name="leave-accrual-rounding"></a>休假假期额度记录舍入
+当员工已注册或未注册时，将按比例分配休假应计舍入。 以前，仅当休假计划设置为按比例分配且员工在中期已注册/取消注册时才允许舍入。 无论在中期还是期初注册/取消注册，休假应计现在都将舍入。
 
 ## <a name="leave-accrual-transaction-auditing"></a>休假应计交易记录审计
 

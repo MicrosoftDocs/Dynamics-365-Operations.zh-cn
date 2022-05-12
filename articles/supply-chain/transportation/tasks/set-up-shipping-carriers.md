@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567648"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660370"
 ---
 # <a name="set-up-shipping-carriers"></a>设置装运承运人
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567648"
 
 此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。 运输协调员可将装运承运人分配给某个入站或出站装载。
 
-
 ## <a name="create-a-new-shipping-carrier"></a>创建新装运承运人
+
 1. 转到 **导航窗格 > 模块 > 运输管理 > 设置 > 承运人 > 装运承运人**。
 2. 在操作窗格上选择 **新建**。
 3. 在 **装运承运人** 字段中，键入一个值。
@@ -36,6 +36,7 @@ ms.locfileid: "7567648"
 5. 在 **模式** 字段中，从下拉菜单中选择一个选项。
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>填写装运承运人的一般信息
+
 1. 切换 **概览** 部分的展开项。
 2. 勾选或不勾选 **启用承运装运人** 复选框。
 3. 在 **供应商帐户** 字段中，从下拉菜单中选择一个选项。 选择向其分配装运承运人的供应商帐户。  
@@ -43,13 +44,16 @@ ms.locfileid: "7567648"
 5. 勾选或不勾选 **启用承运评级** 复选框。
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>创建装运承运人的必需服务
+
 1. 切换 **服务** 部分的展开项。
 2. 选择 **新建**。
 3. 在 **承运人服务** 字段中，键入一个值。
 4. 在 **名称** 字段中，键入一个值。
-5. 在 **运输方法** 字段中，从下拉菜单中选择一个选项。
+5. 在 **负荷模板 ID** 字段中，选择要与服务关联的负荷模板。 负荷模板定义整个装载量的重量和体积的最大度量值。 例如，装载量模板可能表示卡车或集装箱的大小。 负荷模板 ID 也在负荷构建模板中以及在使用[负荷构建工作台](load-building-workbench.md)时指定，这可以帮助您应用负荷构建策略来创建负荷。 因此，系统将能够通过比较指定的负荷模板 ID，将每个新负荷与合适的装运承运人服务匹配。
+6. 在 **运输方法** 字段中，从下拉菜单中选择一个选项。
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>设置承运人的地址（可选）
+
 1. 切换 **地址** 部分的扩展项。
 2. 选择 **新建**。
 3. 在 **名称或描述** 字段中，键入一个值。
@@ -59,6 +63,7 @@ ms.locfileid: "7567648"
 7. 选择 **确定**。
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>设置装运承运人的评级资料。
+
 1. 切换 **评级资料** 部分的展开项。
 2. 选择 **新建**。
 3. 在 **评级资料** 字段中，键入一个值。

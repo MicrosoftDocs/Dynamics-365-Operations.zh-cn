@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781580"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645068"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>在 LCS 中安装 IoT 智能加载项
 
 [!include [banner](../../includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项。 请注意，加载项不能安装在演示/试用环境中。 必须先[创建 Azure 资源](iot-azure-setup.md)，然后才能安装此加载项。
+
+您可以在不编写任何代码的情况下设置和配置 IoT 智能。 以下是基本步骤。
+
+1. [设置 Azure 资源](iot-azure-setup.md) – 创建 IoT 中心、Redis 缓存以及可从 Supply Chain Management 访问的密钥保管库。
+2. [IoT 中心的消息架构格式](iot-schema-format.md) – 配置您的设备以将消息发送到 IoT 中心，并定义 JavaScript 对象表示法 (JSON) 消息格式。
+3. 在“功能管理”中，启用 IoT 智能功能标志。
+4. 在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项 – 在 LCS 中安装加载项并配置 Azure 密码（如本主题中所述）。
+5. [设置指标](iot-metrics-setup.md) – 在 Supply Chain Management 中设置指标。
+6. [方案设置](iot-scenario-setup.md) – 在 Supply Chain Management 中设置方案。
 
 ## <a name="set-up-the-lcs-environment"></a>设置 LCS 环境
 

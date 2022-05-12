@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062717"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661449"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources 基础结构合并常见问题
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062717"
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>什么是 Dynamics 365 Human Resources 基础结构合并？
 
-Dynamics 365 Human Resources 是一个独立的应用程序，使用与其他财务和运营应用不同的基础架构，如 Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Project Operations。 基础结构合并将 Dynamics 365 Human Resources 引入与其他财务和运营应用相同的基础结构。
+Dynamics 365 Human Resources 是一个独立的应用程序，使用与其他财务和运营应用（如 Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Project Operations）不同的基础架构。 基础结构合并将 Dynamics 365 Human Resources 引入与其他财务和运营应用相同的基础结构。
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>基础结构合并的价值和好处
 
@@ -231,6 +231,3 @@ Dynamics 365 应用的现有用户和独立 Dynamics 365 Finance、Supply Chain 
 
 不需要其他环境来支持基础结构更改。
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>如果我对产品许可有其他问题，我应该去哪里询问？
-
-如果您有许可问题，您可以在 [Biz 应用中心 – D365 定价和许可](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering)中找到更多信息。 如果该信息对您的问题没有帮助，请使用 LicenseQ 提交请求。

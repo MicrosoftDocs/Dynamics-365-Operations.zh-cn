@@ -2,7 +2,7 @@
 title: 内置主计划的净需求和限定标准信息
 description: 本主题提供内置主计划中有关计算出的净需求的信息和限定标准信息。
 author: t-benebo
-ms.date: 7/28/2021
+ms.date: 04/20/2022
 ms.topic: article
 ms.search.form: ReqTransOverview
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 19c64d62386a94494b729aa05b0612609812a418
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470420"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618279"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>内置主计划的净需求和限定标准信息
 
@@ -26,6 +26,8 @@ ms.locfileid: "8470420"
 
 **净需求** 页显示主计划期间为产品计算的净需求。 它还显示在主计划运行期间应用的覆盖范围设置、按交易记录类型列出的需求明细以及限定标准信息。
 
-无论您使用的是计划优化还是内置主计划引擎，**净需求** 页面的工作方式都相同。 有关如何使用此页面的详细信息，请参阅[计划优化的净需求和限定标准信息](planning-optimization/net-requirements.md)。
+根据您使用的是计划优化还是内置主计划引擎，**净需求** 页面的行为方式略有不同。 有关此差异的详细信息，请参阅[内置主计划与计划优化之间的差异](planning-optimization/planning-optimization-differences-with-built-in.md)
+
+有关如何使用此页面的详细信息，请参阅[计划优化的净需求和限定标准信息](planning-optimization/net-requirements.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

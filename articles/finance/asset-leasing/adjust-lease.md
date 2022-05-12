@@ -2,7 +2,7 @@
 title: 调整租赁
 description: 此主题说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729646"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644546"
 ---
 # <a name="adjust-leases"></a>调整租赁
 
@@ -134,5 +134,19 @@ ms.locfileid: "6729646"
 2. 要查看历史计划，请从 **租赁摘要** 页上选择所需帐簿，然后在“操作窗格”上选择 **帐簿版本历史记录**。
 3. 在 **帐簿版本** 页上，选择要查看的版本和计划。
 
+## <a name="adjust-a-lease-book"></a>调整租赁帐簿
+
+请按照以下步骤仅调整租赁帐簿。
+
+1. 转到 **资产租赁** \> **租赁** \> **租赁摘要**。
+2. 选择并打开租赁。
+3. 在 **租赁详细信息** 页面上，选择 **帐簿**。
+4. 在 **帐簿详细信息** 页面上的操作窗格上，在 **维护** 组中，选择 **调整帐簿**。 
+5. 删除付款计划行。
+6. 在 **租赁修改日期** 字段中，输入修改日期。 然后考虑删除所有额外的资产/负债考虑因素（初始直接成本、租赁奖励、租赁预付款、清退成本和残值保证）（如果有的话）。 
+7. 为帮助防止租赁调整的计算不准确，请为与修改日期匹配的新付款日期添加新的付款计划行。 
+
+> [!NOTE] 
+> 我们建议您使用 **租赁调整** 向导调整租赁。 该向导减少了手动步骤的数量，在调整后提供余额预览，并允许您在过帐前更改金额。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

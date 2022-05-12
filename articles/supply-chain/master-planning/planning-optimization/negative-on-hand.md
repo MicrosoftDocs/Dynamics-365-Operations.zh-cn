@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469133"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625375"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>使用负现有数量进行计划
 
@@ -75,7 +75,7 @@ ms.locfileid: "8469133"
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>计划何时按负现有库存量进行预留
 
-如果您在存在实际预留时调整库存，则可能会出现针对负库存对订单进行实际预留的情况。 在这种情况下，由于存在实际预留，因此计划优化假设它受现有库存量支持，即使系统中尚未登记现有库存量的收据也不例外。 因此，它认为不需要补货，并且不会创建计划订单来对订单数量进行补货。
+如果您在存在实际预留时调整库存，则可能会出现针对负库存对订单进行实际预留的情况。 在这种情况下，由于存在实际预留，您需要有供应才能满足预留数量。 因此，需要补货，因此系统将创建计划订单来补充现有库存无法满足的数量，或者使用该物料的现有订单来满足此数量。
 
 以下示例对此情况进行了说明。
 
@@ -88,7 +88,7 @@ ms.locfileid: "8469133"
 - 存在数量为 *10* 件的 产品 *FG* 的销售订单。
 - 按现有库存量实际预留了销售订单数量。
 
-然后，您调整产品 *FG* 的数量，以便现有库存量变为 0（零）。 由于现有产品库存为零，因此现在按负库存预留了销售订单数量。 但是，如果现在运行主计划，将不会创建计划订单来供应销售订单，因为计划优化将认为存在所需的现有库存量，可以供应实际预留。
+然后，您调整产品 *FG* 的数量，以便现有库存量变为 5。 由于现有产品库存为 5，因此现在针对不可用的现有数量预留了销售订单数量（如果现有量为 0，则情况类似，在这种情况下，将针对负库存预留销售订单 ）。 如果现在运行主计划，将创建 *FG* 数量为 5 的计划订单来供应销售订单，因为计划优化将始终使用现有供应或创建新计划订单来供应实际预留。
 
 ## <a name="related-resources"></a>相关资源
 

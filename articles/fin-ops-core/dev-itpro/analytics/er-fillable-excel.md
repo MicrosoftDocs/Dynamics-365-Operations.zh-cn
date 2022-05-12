@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388255"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645126"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -141,7 +141,12 @@ ms.locfileid: "8388255"
 > [!NOTE]
 > 由于已知的 [Excel 限制](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)，即使您将单元格配置为自动换行，并且将包含这些单元格的行配置为自动调整高度以适应换行后的文本，您也可能无法对合并的单元格和包含这些单元格的行使用 **自动调整** 和 **自动换行** Excel 功能。 
 
-从 Dynamics 365 Finance 版本 10.0.23 开始，对于被配置为调整高度以适合嵌套单元格的内容的行，每当该行包含至少一个被配置为将文本自动转换的合并单元格，您可以强制 ER 在生成的文档中计算每一行的高度。 然后计算出的高度将用来调整行的大小，以确保行中的所有单元格在生成的文档中可见。 要在运行任何配置为使用 Excel 模板生成传出文档的 ER 格式时开始使用此功能，请执行以下步骤。
+从 Dynamics 365 Finance 版本 10.0.23 开始，当您处理生成的文档时，对于每个被配置为自动调整高度以适合嵌套单元格的内容的行，每当该行包含至少一个被配置为在内部进行文本换行的合并单元格，您都可以强制 ER 计算每一行的高度。 然后计算出的高度将用来调整行的大小，以确保行中的所有单元格在生成的文档中可见。
+
+> [!NOTE]
+> 请注意，当使用自定义字体格式化合并单元格时，此功能可能无法按预期方式工作。 由于 Excel 未嵌入自定义字体，因此它不提供有关自定义字体大小的信息。 因此，可能会错误地估计合并单元格的大小。
+
+要在运行任何配置为使用 Excel 模板生成传出文档的 ER 格式时开始使用此功能，请执行以下步骤。
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页面的 **相关链接** 部分中，选择 **电子申报参数**。

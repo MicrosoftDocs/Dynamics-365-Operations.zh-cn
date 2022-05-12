@@ -2,7 +2,7 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071077"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644450"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -74,8 +74,11 @@ ms.locfileid: "8071077"
 > [!NOTE]
 > 如果 **文件格式** 选项设置为 **分隔**，则必须为 **行分隔符**、**列分隔符** 和 **文本限定符** 选择正确的值。 请确保您的数据不包含用作分隔符或限定符的字符，因为这可能会在导入和导出过程中导致错误。
 
+> [!NOTE]
+> 对于基于 XML 的文件格式，请确保仅使用合法字符。 有关有效字符的更多详细信息，请参阅 [XML 1.0 中的有效字符](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/)。 XML 1.0 不允许使用除制表符、回车和换行之外的任何控制字符。 非法字符的示例包括方括号、大括号和反斜杠。 
+
 ### <a name="sequence-the-entities"></a>给实体排序
-实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。
+实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。 
 
 #### <a name="execution-units-levels-and-sequences"></a>执行单元、级别和序列
 执行单元、执行单元中的级别以及实体序列有助于控制导出或导入数据的顺序。

@@ -2,7 +2,7 @@
 title: Warehouse Management 移动应用中的新增功能或更改的功能
 description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487827"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644723"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20210"></a>版本 2.0.21.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 修复了几个崩溃问题。
+- 修复了在默认页面上扫描或键入时无法识别某些字符的问题。
+- 修复了在默认页面上键入退格键会一次删除两个字符的问题。
+- 修复了 **工作列表** 页面上的 **排序依据** 字段会显示与卡片实际排序顺序不对应的错误值的问题。
+- 修复了在 Microsoft Windows 上运行期间调整应用窗口大小之后将显示错误布局的问题。
+- 修复了在弹出列表中滚动可能会导致某些列表项保持隐藏或变形的问题。
+- 重新设计了登录页面，以便在更大的显示器上运行时在同一页面上显示用户名和密码字段。
+- 改进了控件对快速点击的反应方式。
+- 添加了应用内错误日志视图。
+- 添加了多项辅助功能改进（改进了旁白，修复了 Android 上缺少的占位符，为滑块控件启用了键盘输入等）。
 
 ## <a name="version-20200"></a>版本 2.0.20.0
 

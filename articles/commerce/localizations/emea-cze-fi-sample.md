@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388228"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613901"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>捷克共和国的会计登记服务集成示例
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 此主题提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
 

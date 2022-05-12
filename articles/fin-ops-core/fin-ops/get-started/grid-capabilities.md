@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本主题介绍网格控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602953"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644339"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -106,7 +106,7 @@ ms.locfileid: "8602953"
 - 该组中的数据行数
 - 配置为显示总计的所有列的小计
 
-启用[保存的视图](saved-views.md)后，可以通过个性化将分组保存为视图的一部分，以便下次访问页面时快速访问。
+启用[已保存的视图](saved-views.md)后，您可以在允许将查询保存到视图的页面上将组保存为视图的一部分。 例如，具有大视图选择器的那些项。 有关更多详细信息，请参阅[在视图之间进行切换](saved-views.md#switching-between-views)部分。 
 
 ### <a name="multiple-levels-of-grouping"></a>多层分组
 按单列为数据分组之后，可以通过在所需列中选择 **按此列分组** 来按其他列为数据分组。 可以重复此过程，直到您具有 5 级嵌套分组（这是最大支持深度）为止。 此时，您将不再能够按其他列分组。

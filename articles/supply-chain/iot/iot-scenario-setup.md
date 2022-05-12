@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782419"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644691"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中配置 IoT 智能的方案。 必须先[设置 Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md)，才能设置这些方案。
+此主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中配置 IoT 智能的方案。 <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 在此主题中，将配置 **设备停机时间** 方案，以便在机器停机时在 Supply Chain Management 中生成通知。 此主题还介绍如何配置 **产品质量** 方案，以便在物料的属性超出指定范围时生成通知，以及如何配置 **生产延迟** 方案，以便在生产吞吐量低于阈值时生成通知。
 

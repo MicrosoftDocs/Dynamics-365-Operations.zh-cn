@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324079"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661649"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>自定义电子报告配置以生成电子单据
 
@@ -61,7 +61,7 @@ ms.locfileid: "8324079"
 ### <a name="configure-er-parameters"></a>配置 ER 参数
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **相关链接** 部分中，选择 **电子申报参数**。
+2. 在 **本地化蓝图** 页面的 **相关链接** 部分中，选择 **电子申报参数**。
 3. 在 **电子申报参数** 页上，在 **常规** 选项卡上，将 **启用设计模式** 选项设置为 **是**。
 4. 在 **附件** 选项卡上，在 **配置** 字段中，选择 **文件**。
 5. 在 **作业存档**、**临时**、**基准** 和 **其他** 字段中，选择 **文件** 类型。
@@ -78,13 +78,13 @@ ms.locfileid: "8324079"
 #### <a name="review-the-list-of-er-configuration-providers"></a>查看 ER 配置提供程序列表
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **相关链接** 部分中，选择 **配置提供程序**。
+2. 在 **本地化蓝图** 页面的 **相关链接** 部分中，选择 **配置提供程序**。
 3. 在 **配置提供程序表** 页面中，每条提供程序记录都有唯一名称和 URL。 查看此页面的内容。 如果已有 **Litware, Inc.** (`https://www.litware.com`) 的记录，请跳过下一过程，即[添加新 ER 配置提供程序](#AddProvider)。
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>添加新 ER 配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **相关链接** 部分中，选择 **配置提供程序**。
+2. 在 **本地化蓝图** 页面的 **相关链接** 部分中，选择 **配置提供程序**。
 3. 在 **配置提供程序** 页面上，选择 **新建**。
 4. 在 **名称** 字段中，输入 **Litware, Inc.**
 5. 在 **Internet 地址** 字段中，输入 `https://www.litware.com`。
@@ -93,7 +93,7 @@ ms.locfileid: "8324079"
 #### <a name="activate-an-er-configuration-provider"></a>激活 ER 配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **配置提供程序** 部分中，选择 **Litware, Inc.** 磁贴，然后选择 **设置有效**。
+2. 在 **本地化蓝图** 页面的 **配置提供程序** 部分中，选择 **Litware, Inc.** 磁贴，然后选择 **设置有效**。
 
 有关 ER 配置提供程序的详细信息，请参阅[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)。
 
@@ -102,7 +102,7 @@ ms.locfileid: "8324079"
 若要向当前 Finance 实例添加标准 ER 配置，必须从为该实例配置的 ER [存储库](general-electronic-reporting.md#Repository)中导入这些配置。
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **配置提供程序** 部分中，选择 **Microsoft** 磁贴，然后选择 **存储库** 查看 Microsoft 提供程序的存储库列表。
+2. 在 **本地化蓝图** 页面的 **配置提供程序** 部分中，选择 **Microsoft** 磁贴，然后选择 **存储库** 查看 Microsoft 提供程序的存储库列表。
 3. 在 **配置存储库** 页，选择 **全球** 类型的存储库，然后选择 **打开**。 如果提示您进行授权以连接到 Regulatory Configuration Service，请按照授权说明进行操作。
 4. 在 **配置存储库** 页面上，在左侧窗格的配置树中，选择 **Peppol 销售发票** 格式配置。
 5. 在 **版本** 快速选项卡中，选择版本 **11.2.2**。
@@ -116,7 +116,7 @@ ms.locfileid: "8324079"
 ### <a name="review-the-imported-er-configurations"></a>查看导入的 ER 配置
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页面的 **配置** 部分中，选择 **报告配置** 磁贴。
+2. 在 **本地化蓝图** 页面的 **配置** 部分中，选择 **报告配置** 磁贴。
 3. 在 **配置** 页面上，展开 **配置组件** 快速选项卡。
 4. 在左侧窗格的配置树中，展开 **发票模型**，然后展开 **UBL 销售发票**。
 

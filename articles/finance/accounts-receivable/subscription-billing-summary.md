@@ -2,7 +2,7 @@
 title: 订阅计费概述
 description: 本主题介绍 Microsoft Dynamics 365 Finance 中的订阅计费。
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462460"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644518"
 ---
 # <a name="subscription-billing-overview"></a>订阅计费概述
 
@@ -33,6 +33,8 @@ ms.locfileid: "8462460"
 - **定期合同计费** – 此模块支持定期计费和价格管理，以提供对定价和计费参数、合同续签和合并发票的控制。
 - **收入和支出延期** – 此模块通过管理收入和支持实时了解每月定期收入，消除了手动流程和对外部系统的依赖。
 - **多元素收入分配** – 此模块通过处理多个物料的定价和收入分配来帮助实现收入合规。
+
+有关订阅计费的详细信息，请参阅[订阅计费 Power BI 内容](sub-bill-power-bi.md)。
 
 订阅计费通过 **功能管理** 启用。 但是，它不能与 **收入确认** 功能一起使用。 因此，您必须先禁用该功能，然后才能启用订阅计费。
 

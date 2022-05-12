@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371348"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661713"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>埃及电子开票
 
@@ -42,7 +42,7 @@ ms.locfileid: "8371348"
     - [在 Lifecycle Services 中安装微服务的加载项](e-invoicing-install-add-in-microservices-lcs.md)
     
 - 激活 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 应用程序与电子开票服务之间的集成，如[激活和设置与电子开票的集成](e-invoicing-activate-setup-integration.md)中所述。
-- 在 Azure Key Vault 中创建一个数字证书机密，并按照[客户证书和机密](e-invoicing-customer-certificates-secrets.md)中的说明进行设置。 出于测试目的，埃及税务机关提供了特定的测试数字证书，这些证书只能在测试和解决方案验证阶段才可以使用。 有关详细信息，请使用[埃及电子开票 SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/) 中提供的链接转到埃及税务局网站。
+- 在 Azure Key Vault 中创建一个数字证书机密，并按照[客户证书和机密](e-invoicing-customer-certificates-secrets.md)中的说明进行设置。 出于测试目的，埃及税务机关提供了特定的测试数字证书，这些证书只能在测试和解决方案验证阶段才可以使用。 有关详细信息，请使用[埃及电子开票 SDK](https://sdk.invoicing.eta.gov.eg/faq/) 中提供的链接转到埃及税务局网站。
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>埃及电子发票 (EG) 功能的国家/地区特定配置
 
@@ -56,7 +56,7 @@ ms.locfileid: "8371348"
 6. 在 **处理管道** 选项卡的 **处理管道** 部分，选择 **对埃及税务主管机构的 json 文档签名**。
 7. 在 **参数** 部分，选择 **证书名称**，然后选择您创建的数字证书的名称。
 8. 在 **处理管道** 部分，选择 **与埃及 ETA 服务集成**。 对于两次发生的此操作，请重复此步骤。
-9. 在 **参数** 部分，选择 **Web 服务 URL** 和 **登录服务 URL**。 然后查看 URL 参数。 要获取测试和生产 URL，请使用[埃及电子开票 SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/) 中提供的链接转到埃及税务局网站。
+9. 在 **参数** 部分，选择 **Web 服务 URL** 和 **登录服务 URL**。 然后查看 URL 参数。 要获取测试和生产 URL，请使用[埃及电子开票 SDK](https://sdk.invoicing.eta.gov.eg/faq/) 中提供的链接转到埃及税务局网站。
 10. 选择 **保存**，然后关闭页面。
 11. 对 **派生的项目发票** 功能设置重复步骤 4 到 10。
 

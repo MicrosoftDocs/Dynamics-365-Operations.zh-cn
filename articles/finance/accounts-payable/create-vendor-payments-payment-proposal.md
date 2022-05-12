@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749044"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629406"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 
@@ -48,7 +48,7 @@ ms.locfileid: "6749044"
 - **包含来自其他法人的供应商发票** – 如果您的组织有付款的集中流程，并且付款方案应包括在此搜索条件中包括的其他法人的发票，则设置此选项为 **是**。
 - **建议按法人单独向供应商付款** – 如果此选项设置为 **是**，则为每个供应商的每个法人创建单独付款。 付款的供应商来自各法人的发票。 如果此选项设置为 **否**，且同一供应商在多个法人中有发票，则为所选发票总金额创建一个付款。 付款的供应商是当前法人中的供应商。 如果当前法人中不存在供应商帐户，则使用必须付款的第一张发票的供应商帐户。
 - **付款币种** – 此字段指定所有付款创建所使用的币种。 如果未定义币种，每个发票使用发票的币种支付。
-- **付款日** – 输入应进行付款的一周的第几天。 此字段只有当特定日付款的付款方法设置为总计发票时才使用。
+- **付款工作日** - 输入应进行付款的一周中的某一天，仅当付款方式设置为 **周** 时才使用此字段。 付款发票金额在一周中的指定付款日进行合计。
 - **对方科目类型** 和 **对方科目**  – 设置这些字段以定义特定科目类型（例如 **分类帐** 或 **银行**）和对方科目（如特定银行科目）。 发票的付款方法定义默认对方科目类型和对方科目，不过，您可以使用这些字段覆盖默认值。
 - **汇总付款日期** - 仅当付款方式上的 **期间** 字段设置为 **总计** 时才可用。 如果日期已定义，则所有付款在此日期创建。 忽略 **最小付款日期** 字段。
 - **其他筛选器** – 在 **要包括的记录** 快速选项卡上，您可以定义其他条件范围。 例如，如果要仅向一定范围的供应商付款，可以为供应商范围定义筛选器。 此功能常用于为特定付款方式选择发票。 如果定义筛选器 **付款方式** = **支票**，将仅为付款选择这种付款方式的发票（前提是这些发票也满足查询中指定的其他条件）。

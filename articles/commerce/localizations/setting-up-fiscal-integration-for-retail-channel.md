@@ -2,27 +2,42 @@
 title: 设置商业渠道的会计整合
 description: 此主题提供为商业渠道设置会计整合功能的指南。
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462149"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661741"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 此主题提供为商业渠道设置会计整合功能的指南。 有关会计整合的详细信息，请参阅[商业渠道的会计整合概览](fiscal-integration-for-retail-channel.md)。
 
+## <a name="enable-features-in-commerce-headquarters"></a>在 Commerce Headquarters 中启用功能
+
+若要启用与 Commerce 渠道的会计集成功能相关的功能，请执行以下步骤。
+
+1. 在 Commerce Headquarters 中，转到 **系统管理 \> 工作区 \> 功能管理**。
+1. 查找并启用以下功能：
+
+    - **来自 POS 收银机的直接会计集成** – 此功能通过添加创建将在销售点 (POS) 中运行的会计连接器的功能来扩展会计整合框架。 此类连接器与提供 HTTP 应用编程接口 (API) 的会计设备或服务进行通信，并且不需要商店中的专用物理机器。 例如，此功能支持移动设备的会计集成，而无需共享硬件站。
+    - **会计集成技术配置文件覆盖** - 此功能可以扩展会计整合的配置，并在 POS 收银机的设置页面上添加检查连接参数的功能。 启用此功能后，您可以覆盖技术配置文件的参数。
+    - **POS 收银机的会计登记状态** – 启用此功能后，您可以禁用特定 POS 收银机的会计登记流程。 如果对 POS 收银机禁用会计登记，则无法在该收银机上完成销售交易。
+    - **会计整合本地存储备份**- 此功能扩展会计集成框架的错误处理功能。 它还可以在数据丢失的情况下自动备份会计登记数据，以便在设备激活时恢复本地存储中的数据。
+
 ## <a name="set-up-commerce-parameters"></a>设置 Commerce 参数
+
+要设置 Commerce 参数，请执行以下步骤。
 
 1. 在 **商业共享参数** 页上，在 **常规** 选项卡上，将 **启用会计整合** 选项设置为 **是**。
 1. 在 **编号规则** 选项卡上，定义以下参考的编号规则：
@@ -33,8 +48,8 @@ ms.locfileid: "8462149"
 
 1. 在 **商业参数** 页上，为会计功能配置文件编号定义编号规则。
 
-    > [!NOTE]
-    > 编号规则是可选的。 所有会计整合实体的编号均可以从编号规则生成或手动生成。
+> [!NOTE]
+> 编号规则是可选的。 所有会计整合实体的编号均可以从编号规则生成或手动生成。
 
 ## <a name="set-up-a-fiscal-registration-process"></a>设置会计登记流程
 
@@ -43,7 +58,7 @@ ms.locfileid: "8462149"
 - 配置代表用于会计登记目的的会计设备或服务（如税控打印机）的会计连接器。
 - 配置生成会计连接器将在会计设备或服务中登记的会计单据的单据提供程序。
 - 配置定义会计登记步骤的会计登记流程和用于每个步骤的会计连接器和会计单据提供程序。
-- 将会计登记流程分配到销售点 (POS) 功能配置文件。
+- 将会计登记流程分配到 POS 功能配置文件。
 - 将连接器技术配置文件分配到硬件配置文件。
 - 将连接器技术配置文件分配到 POS 硬件或功能配置文件。
 
@@ -176,7 +191,7 @@ ms.locfileid: "8462149"
 - 对会计登记的事件和交易的订阅在会计单据提供程序中预定义。
 - 会计单据提供程序还负责识别用于会计登记的会计连接器。 它将为会计登记流程的当前步骤指定的会计连接器组中包含的连接器功能配置文件，与分配到 POS 与之配对的硬件工作站的硬件配置文件的连接器技术配置文件相匹配。
 - 会计单据提供程序使用来自会计单据配置的数据映射设置在生成会计单据时转换交易/事件数据，如纳税和付款。
-- 在会计单据提供程序生成会计单据时，会计连接器可以将其原样发送到会计设备，或者根据如何处理通信，分析并将其转换为设备应用程序编程接口 (API) 的一系列命令。
+- 在会计单据提供程序生成会计单据时，会计连接器可以将其原样发送到会计设备，或者根据如何处理通信，分析并将其转换为设备 API 的一系列命令。
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>设置具有会计登记限制的收银机
 
@@ -283,4 +298,21 @@ ms.locfileid: "8462149"
     1. 在 **配送计划** 页，运行 **1090** 作业将更改传输到渠道数据库。
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>查看 POS 中的连接参数和其他信息
+
+要查看 POS 中的连接参数和其他信息，请执行以下步骤。
+
+1. 打开 Modern POS (MPOS) 或 Cloud POS (CPOS)。
+1. 选择 **设置**。 如果启用会计整合，则右侧的 **会计整合** 部分将显示以下信息：
+
+    - 会计登记的状态
+    - 上次会计交易的状态
+    - 待定审计事件的数量
+
+1. 选择 **详细信息** 以查看以下消息：
+
+    - 登记流程步骤
+    - 连接参数
+    - 审计事件详细信息
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
