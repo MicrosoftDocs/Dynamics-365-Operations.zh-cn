@@ -2,7 +2,7 @@
 title: 收入确认设置
 description: 本主题将介绍收入确认的设置选项及其影响。
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867212"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656712"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ ms.locfileid: "7867212"
     - **发生次数** - 金额在发生次数之间平均分配，但如果选择 **实际开始日期** 作为确认惯例，则可以包括额外期间。
     - **每会计期间按天** - 金额基于每会计期间的实际天数分配。 
 
-    当会计期间在日历月之后时，**每月按天** 和 **每会计期间按天** 的结果将相同。 唯一的例外是当确认惯例设置为 **月末/期末** 并且 **合同开始日期** 和 **结束日期** 字段在销售订单行上为空时。
+         - 当会计期间在日历月之后时，**每月按天** 和 **每会计期间按天** 的结果将相同。 唯一的例外是当确认惯例设置为 **月末/期末** 并且 **合同开始日期** 和 **结束日期** 字段在销售订单行上为空时。
 
 - **确认惯例** - 确认惯例确定在发票的收入计划中设置的日期。
 
@@ -108,7 +108,7 @@ ms.locfileid: "7867212"
     - **每月/期间的第一天** - 第一个计划行中的日期是合同开始日期（或发票日期）。 但是，将在每月或每会计期间的第一天创建所有后续计划行。
     - **月中拆分** - 第一个计划行中的日期取决于发票日期。 如果在每月的第一天至第十五天过帐发票，则将使用每月的第一天创建收入计划。 如果在每月的第十六天或之后过帐发票，则将使用下一个月的第一天创建收入计划。
 
-        如果确认基础设置为 **每会计期间按天**，**月中拆分** 将无法选中。
+        - 如果确认基础设置为 **每会计期间按天**，**月中拆分** 将无法选中。
 
     - **下个月/下个期间的第一天** - 计划开始的日期是下个月或下个会计期间的第一天。
     - **月末/期末** - 第一个计划行中的日期是合同开始日期（或发票日期）。 但是，将在每月或每会计期间的最后一天创建所有后续计划行。 

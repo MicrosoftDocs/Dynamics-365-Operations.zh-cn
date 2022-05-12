@@ -12,14 +12,12 @@
               items:
                 - name: “Supply Chain Management 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27（2022 年 7 月）
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26（2022 年 5 月）
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25（2022 年 4 月）
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24（2022 年 2 月）
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23（2022 年 1 月）
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: IoT 中心的消息架构格式
               href: iot/iot-schema-format.md
-            - name: 在 LCS 中安装加载项
-              href: iot/iot-lcs-setup.md
             - name: 设置指标
               href: iot/iot-metrics-setup.md
             - name: 方案设置
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: 工作人员如何使用生产车间执行界面
                   href: production-control/production-floor-execution-use.md
+                - name: 显示生产车间执行界面中的休假余额
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: 为生产车间执行界面设计样式
                   href: production-control/production-floor-execution-styles.md
                 - name: 自定义生产车间执行界面

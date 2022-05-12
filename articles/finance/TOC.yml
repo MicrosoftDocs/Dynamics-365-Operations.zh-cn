@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27（7 月）
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26（5 月）
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25（4 月）
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: 定期合同计费
                   items:
+                    - name: 设置定期合同计费
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: 创建计费计划
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: 复制计费计划
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: 里程碑开票
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: 收入分配
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: 支持和续订流程
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: 未计费收入
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: 消费者价格指数计划
                       href: accounts-receivable/cpischedules.md
                     - name: 终止计费计划
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: 对齐日期方案
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: 收入和支出延期
                   items:
                     - name: 设置收入和支出延期
                       href: accounts-receivable/sb-deferrals.md
-                    - name: 延期计划
-                      items:
-                        - name: 创建延期计划
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: 延期默认交易记录
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: 创建延期计划
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: 延期默认交易记录
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: 多元素收入分配
                   items:
                     - name: 设置多元素收入分配
@@ -1429,7 +1437,7 @@
                             - name: 设置电子开票的 Azure 资源
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: 在 Azure 门户中创建 Azure 密钥保管库
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: 在 Azure 门户中创建 Azure 存储帐户
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: 配置 SharePoint 连接
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: 与其他组织共享
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: 使用情况管理仪表板
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: 处理传入的电子单据
                           items:
                             - name: 处理传入的电子单据
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: 配置 SharePoint 渠道
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: 通过 Finance 和 Supply Chain Management 设置和使用电子发票
-                          items:
-                            - name: 利用电子开票激活和设置集成
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: 设置电子开票参数
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: 通过 Finance 和 Supply Chain Management 设置和使用电子发票
+                      items:
+                        - name: 利用电子开票激活和设置集成
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: 设置电子开票参数
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: 使用电子开票
                           items:
                             - name: 将电子单据提交至电子开票
@@ -1486,12 +1496,6 @@
                       items:
                         - name: 电子开票功能的可用性
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: 开始使用电子开票服务管理
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: 开始使用电子开票
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: 创建新的电子开票功能
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: 开始使用适用于巴西的电子开票
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: 开始使用适用于埃及的电子开票
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: 使用电子开票服务导入供应商发票
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: 设置电子开票
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platform 插件管理员参考
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: 电子开票常见问题解答
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: 税款计算
@@ -1542,7 +1542,7 @@
                       items:
                         - name: 启用“含税价”时根据价格计算税金
                           href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                        - name: 税务计算舍入规则
+                        - name: 税款计算舍入规则
                           href: localizations/tax-calculation-rounding-rules.md
                     - name: 多个增值税登记
                       items:
@@ -1598,7 +1598,7 @@
                           items:
                             - name: 增值税申报
                               href: localizations/emea-gbr-vat-declaration.md
-                    - name: 启用转移单的税务计算
+                    - name: 启用转移单的税款计算
                       items:
                         - name: 转移单的税务功能支持
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1616,8 +1616,14 @@
                       items:
                         - name: 无法访问税务服务
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
-                        - name: 税务计算参数中的空白税务功能列表
+                        - name: 税款计算参数中的空白税务功能列表
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: 无法确定税码
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: 找不到匹配的结果
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: 在“税款计算”服务中启用调试模式
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: 税款计算常见问题解答
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: 税额
@@ -3723,8 +3729,10 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: 招聘
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: 销售和收益率绩效
+                - name: 销售和收益率性能
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: 订阅计费 Power BI 内容
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: 供应商付款
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: 劳动力指标

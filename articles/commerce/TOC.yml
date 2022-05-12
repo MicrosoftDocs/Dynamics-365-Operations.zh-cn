@@ -12,14 +12,12 @@
               items:
                 - name: “Commerce 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27（2022 年 7 月）
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26（2022 年 5 月）
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25（2022 年 4 月）
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24（2022 年 2 月）
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23（2022 年 1 月）
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -352,10 +350,12 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: 全部金额和销售税代码的间隔计算选项
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
-                        - name: 免税的计算
+                        - name: 免税金额计算
                           href: tax-exempt-price-inclusive.md
                         - name: 配置在线订单的销售税
                           href: sales-tax-config.md
+                        - name: 隐藏订单摘要中的税务细分信息
+                          href: hide-taxes-breakup.md
                     - name: 设置电子邮件通知配置文件
                       href: email-notification-profiles.md
                     - name: 编号规则
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: 设备管理实施指南
                       href: implementation-considerations-devices.md
-                    - name: 在 MPOS 和 Cloud POS 之间选择
+                    - name: 选择 Store Commerce 或 Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: 在线和离线 POS 操作
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: 创建零售渠道的财务维度并配置商店的值
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: 设置零售对账单的编号规则
+                  href: retail-statements-number-sequences.md
                 - name: 在电子商务渠道中启用一致的交货方式处理
                   href: consistent-delivery-mode-handling.md
             - name: 设置在线渠道
@@ -884,6 +886,8 @@
           items:
             - name: 对帐单概览
               href: retail-statements.md
+            - name: Commerce 过账参数
+              href: commerce-posting-parameters.md
             - name: 验证用于进行对帐单计算的商店交易记录
               href: valid-checker.md
             - name: 禁用零售交易记录一致性检查器中的规则
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: 安装 Adventure Works 主题
                       href: install-adventure-works.md
+                - name: Commerce 本地化指南
+                  href: e-commerce-localization-guide.md
             - name: 管理数字资产
               items:
                 - name: 数字资产管理概览
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: 设置 B2B 电子商务站点的产品数量限制
               href: b2b/quantity-limits.md
+            - name: B2B 站点的 Commerce 目录
+              items:
+                - name: 创建 B2B 站点的 Commerce 目录
+                  href: catalogs-b2b-sites.md
+                - name: B2B Commerce 目录自定义项的可扩展性影响
+                  href: catalogs-b2b-sites-dev.md
+                - name: B2B Commerce 目录常见问题解答
+                  href: catalogs-b2b-sites-FAQ.md
         - name: 监控和分析
           items:
             - name: 监控销售和利润率
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: 无头商务
               items:
+                - name: 概览
+                  items:
+                    - name: Commerce Sale Unit (CSU) 内核简介
+                      href: dev-itpro/CSU-core.md
                 - name: API 和引用
                   items:
                     - name: Commerce Scale Unit 客户和消费者 API
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: 在外部应用程序中使用 Retail Server API
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Retail POS 的 Typescript 和 C# 代理
+                    - name: Retail POS 的 TypeScript 和 C# 代理
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Commerce Runtime (CRT) 体系结构和配置
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,6 +2546,8 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: 打包和部署
                   items:
+                    - name: 创建 Cloud Scale Unit 扩展包
+                      href: dev-itpro/CSU-packaging.md
                     - name: 删除 Cloud Scale Unit 扩展
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: 将 POS 扩展迁移到 Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: 使用 VS Code 调试 Store Commerce 扩展
+                      href: dev-itpro/sc-debug.md
                 - name: 环境设置
                   items:
                     - name: 本地开发环境
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: 创建 Cloud POS 扩展包
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: 创建 Store Commerce 扩展安装程序包
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: 电子商务
               items:
                 - name: 概览
@@ -2814,8 +2838,12 @@
                       items:
                         - name: 遥测记录器
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce headquarters
               items:
+                - name: CDX 包扩展
+                  items:
+                    - name: 扩展客户 CDX 包以添加自定义数据
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: 打包和部署
                   items:
                     - name: 为财务和运营部署创建 Commerce 付款包

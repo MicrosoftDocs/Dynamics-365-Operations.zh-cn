@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.27 的平台更新（2022 年 7 月）
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: 针对版本 10.0.26 的平台更新（2022 年 5 月）
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: 针对版本 10.0.25 的平台更新（2022 年 4 月）
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: 自定义服务开发
                   href: data-entities/custom-services.md
+                - name: 服务请求跟踪
+                  href: data-entities/service-request-tracing.md
                 - name: 定期集成
                   href: data-entities/recurring-integrations.md
                 - name: 使用第三方实用程序测试服务
@@ -1714,6 +1718,22 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: 升级预算计划
                       href: migration-upgrade/upgrade-budget-planning.md
+                - name: 排除升级故障
+                  items:
+                    - name: 排除升级期间开发环境故障
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: 排除升级至自助服务环境故障
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: 排除 PreSync 和 PostSync 升级脚本故障
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: 环境运营
+                  items:
+                    - name: 迁移文档附件
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: 清理升级的源数据
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: 压缩 Dynamics AX 2012 环境中的表
+                      href: migration-upgrade/compress-tables-ax-2012.md
             - name: 从 AX 2009 迁移数据
               items:
                 - name: 将数据从 AX 2009 迁移至 Finance and Operations
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md
