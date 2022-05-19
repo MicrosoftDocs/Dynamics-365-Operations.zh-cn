@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1807e00f5f93bf9359da710af7c9a1f6de652e7ae78cf9604351af969b057b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752217"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725475"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>销售订单上的收入确认
 

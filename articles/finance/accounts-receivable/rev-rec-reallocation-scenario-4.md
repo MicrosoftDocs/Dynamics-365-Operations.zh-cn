@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b9aada2c110ea3b7e70157e6edce9647bbfd28fe307654e10f6d38585090563
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758937"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725726"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>收入确认重新分配 - 方案 4
 

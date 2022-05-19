@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: 配置用于本地部署的仓库
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: 供应商过帐模板
               href: accounts-payable/vendor-posting-profiles.md
+            - name: 创建费用代码
+              href: accounts-receivable/create-charges-codes.md
             - name: 供应商发票日期
               href: accounts-payable/vendor-invoice-dates.md
             - name: 应付帐款和应收帐款的外币重估
@@ -292,6 +292,8 @@
               items:
                 - name: 应付帐款的集中付款
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: 设置和处理过渡付款
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: 配置结算
                   href: cash-bank-management/configure-settlement.md
                 - name: 结算余额
@@ -352,10 +354,14 @@
               href: accounts-receivable/customer-workflow.md
             - name: 设置和处理重复发票
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: 会计分配和普通发票的子分类日记帐条目
+            - name: 会计分配和普通发票的子分类日记帐分录
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: 应收帐款过帐
+              href: general-ledger/accts-recvble-posting.md
             - name: 客户过帐模板
               href: accounts-receivable/customer-posting-profiles.md
+            - name: 创建费用代码
+              href: accounts-receivable/create-charges-codes.md
             - name: SEPA 直接借记概览
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: 设置 SEPA 直接借记授权单
@@ -364,7 +370,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: 创建普通发票
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: 会计分配和普通发票的子分类日记帐条目
+            - name: 会计分配和普通发票的子分类日记帐分录
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 创建普通发票模板
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: 对齐日期方案
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: 收入分成
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: 收入和支出延期
                   items:
                     - name: 设置收入和支出延期
@@ -452,6 +460,8 @@
               items:
                 - name: 客户付款概览
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: 设置和处理过渡付款
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: 应收帐款的集中付款
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: 存入客户付款
@@ -922,7 +932,7 @@
                   href: asset-leasing/compound-interval-functionality.md
                 - name: 批量确认付款计划
                   href: asset-leasing/confirm-payment-schedules-in-batch.md
-                - name: 批量创建月度日记帐条目
+                - name: 批量创建月度日记帐分录
                   href: asset-leasing/create-monthly-journals-batch.md
                 - name: 租赁过帐类型
                   href: asset-leasing/lease-posting-types.md
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: 双货币
                       href: general-ledger/dual-currency.md
+                - name: 过帐模板
+                  items:
+                    - name: 过帐模板概览
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: 过帐模板的建议做法
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: 自动交易记录帐户
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: 分配规则
                   items:
                     - name: 分类帐分配规则
@@ -1048,11 +1066,11 @@
                       href: general-ledger/reverse-journal-posting.md
                     - name: 为什么无法冲销此交易记录？
                       href: general-ledger/cant-reverse-transctns.md
-                    - name: 使用模板创建日记帐条目
+                    - name: 使用模板创建日记帐分录
                       href: general-ledger/tasks/create-journal-entry-template.md
                     - name: 处理分类帐分配日记帐
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: 查看日记帐条目或交易记录
+                    - name: 查看日记帐分录或交易记录
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
                     - name: 查看日记帐的相关内部公司凭证
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
@@ -1074,7 +1092,7 @@
                       href: accounts-payable/accounting-source-explorer.md
             - name: 报表和查询
               items:
-                - name: 查看日记帐条目和交易记录
+                - name: 查看日记帐分录和交易记录
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: 具有交易明细报告的试算平衡表
                   href: public-sector/general-ledger-public-sector-trial-balance.md
@@ -1104,7 +1122,7 @@
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: 分类帐分配规则
                   href: general-ledger/ledger-allocation-rules.md
-                - name: 将过帐日记帐条目记入日记帐
+                - name: 将过帐日记帐分录记入日记帐
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
             - name: 合并和清除
               items:

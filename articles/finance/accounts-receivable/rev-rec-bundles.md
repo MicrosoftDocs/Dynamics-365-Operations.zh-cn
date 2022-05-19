@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 272261f9ba189bec55e856aa617bf5716e3f4fa261ef7bfd7269184a09a51a2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770729"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725810"
 ---
 # <a name="revenue-recognition-bundles"></a>收入确认捆绑
 

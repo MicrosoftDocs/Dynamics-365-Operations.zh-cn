@@ -1,6 +1,6 @@
 ---
 title: 创建具有空白状态的支票
-description: 本主题介绍了如何在“支票”页面中为银行帐户创建空白支票。
+description: 本主题介绍了如何为银行帐户创建空白支票。
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3c431ed975aecf116fbf626018038b112a0a8cca063e1462e31e206480643e11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720542"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717207"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 

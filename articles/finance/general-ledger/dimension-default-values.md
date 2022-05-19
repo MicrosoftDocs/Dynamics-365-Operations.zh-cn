@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransDaily, LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 327bc27f068e1f9eefacc6b5defa27044cb1a77e
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472524"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713097"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>财务日记帐上的默认财务维度
 
@@ -81,7 +81,7 @@ ms.locfileid: "7472524"
 
 [![日记帐名称页面](./media/financial-dimension-defaulting-jrnl-names-01.png)](./media/financial-dimension-defaulting-jrnl-names-01.png)
 
-转到 **总帐 \> 日记帐条目 \> 普通日记帐**，并创建一个使用 **GenJrn** 日记帐名称的新普通日记帐。 默认情况下，会将日记帐名称（LedgerJournalName 表）中的维度输入到日记帐标题（LedgerJournalTable 表），如 **财务维度** 选项卡上所示。
+转到 **总帐 \> 日记帐分录 \> 普通日记帐**，并创建一个使用 **GenJrn** 日记帐名称的新普通日记帐。 默认情况下，会将日记帐名称（LedgerJournalName 表）中的维度输入到日记帐标题（LedgerJournalTable 表），如 **财务维度** 选项卡上所示。
 
 [![“普通日记帐”页面上的“财务维度”选项卡](./media/financial-dimension-defaulting-genrl-jrnl-02.png)](./media/financial-dimension-defaulting-genrl-jrnl-02.png)
 

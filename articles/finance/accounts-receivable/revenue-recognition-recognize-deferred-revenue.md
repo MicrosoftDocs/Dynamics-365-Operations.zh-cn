@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f6b221104d7012d82a0021b6d8f9cc10fe44cb7b8f3473ab8e7ae7a89be0a5e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726102"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725923"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 
@@ -58,7 +58,7 @@ ms.locfileid: "6726102"
 
 [![收入确认计划页面。](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
-在 **收入确认日记帐** 页面上（**收入确认 \> 日记帐条目 \> 收入确认日记帐**），请打开 **行** 以查看要确认的内容的详细信息。 对于要确认的计划的每一行，始终将会创建一条单独的交易记录，即使所有行都将在同一个日期使用相同的会计科目进行过帐也是如此。
+在 **收入确认日记帐** 页面上（**收入确认 \> 日记帐分录 \> 收入确认日记帐**），请打开 **行** 以查看要确认的内容的详细信息。 对于要确认的计划的每一行，始终将会创建一条单独的交易记录，即使所有行都将在同一个日期使用相同的会计科目进行过帐也是如此。
 
 [![日记帐凭证页面。](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 

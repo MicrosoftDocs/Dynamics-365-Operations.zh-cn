@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 购买 Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 配置用于本地部署的仓库
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: 文档资源
               items:
                 - name: 帮助系统
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 使用物料到达日记帐登记启用了基本仓库的物料
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: 通过 V2 数据实体导入传入 ASN
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: 通过 V3 数据实体导入传入 ASN
+                  href: warehousing/import-asn-data-entity.md
                 - name: 将产品从接收仓库越库配送到商店
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: 设置采购订单储存的位置指令

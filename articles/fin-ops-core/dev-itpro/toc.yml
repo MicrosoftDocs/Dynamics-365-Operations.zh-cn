@@ -50,10 +50,6 @@
           items:
             - name: 财务和运营应用与第三方服务之间的集成
               href: data-entities/integration-overview.md
-            - name: 基于优先级的限制
-              hreF: data-entities/priority-based-throttling.md
-            - name: 基于优先级的限制常见问题解答
-              href: data-entities/throttling-faq.md
             - name: 数据集成 API
               items:
                 - name: 数据管理包 REST API
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: 使用第三方实用程序测试服务
                   href: data-entities/third-party-service-test.md
+            - name: 服务保护限制
+              items:
+                - name: 服务保护 API 限制
+                  href: data-entities/service-protection-api-limits.md
+                - name: 限制优先级
+                  href: data-entities/priority-based-throttling.md
+                - name: 重试操作
+                  href: data-entities/service-protection-retry-operations.md
+                - name: 监视 API 限制
+                  href: data-entities/service-protection-monitoring.md
+                - name: 最大 API 执行次数
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Finance and Operations 连接器
               href: data-entities/fin-ops-connector.md
             - name: 集成开发
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: 为本地环境配置代理
                       href: deployment/onprem-reverseproxy.md
+                    - name: 配置用于本地部署的仓库应用
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: 在本地环境中安装网络打印机设备
                       href: analytics/install-network-printer-onprem.md
                     - name: 本地诊断
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 针对帮助进行扩展、自定义和协作
                   href: help/contributor-guide.md
-            - name: 部署注意事项
+            - name: 财务和运营应用区域服务
               items:
-                - name: 针对 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 的主权云和本地云部署选项
+                - name: 当地地区
                   href: deployment/deployment-options-geo.md
-                - name: 美国政府社区云 (GCC) 中的 Finance 和 Supply Chain Management
+                - name: 美国政府社区云 (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance 和 Supply Chain Management 由世纪互联在中国运营
+                - name: 由世纪互联在中国运营
                   href: deployment/china-local-deployment.md
-                - name: 法国财务和运营应用
-                  href: deployment/france-local-deployment.md
         - name: 开发和自定义
           items:
             - name: 开发和自定义主页
@@ -559,7 +567,7 @@
                     - name: 创建模型和数据模型元素概览
                       href: dev-tools/create-data-model-elements.md
                     - name: 扩展的命名准则
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: 关闭模型自定义和弃用功能
                       href: dev-tools/lock-models.md
                 - name: 定制分析报表

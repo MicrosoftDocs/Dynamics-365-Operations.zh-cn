@@ -600,6 +600,8 @@
                       href: wallets.md
                     - name: 店面结帐中的增强支付功能
                       href: dev-itpro/enhanced-sca.md
+                    - name: 配置 PayPal 快速付款
+                      href: dev-itpro/express-payments-paypal.md
                     - name: 付款常见问题解答
                       href: dev-itpro/payments-retail.md
                 - name: 电子邮件和通知
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: 创建电子商务站点
               items:
+                - name: 将渠道映射到电子商务站点
+                  href: map-channels-sites.md
                 - name: 配置域名
                   href: configure-your-domain-name.md
                 - name: 部署新的电子商务租户
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: 将 POS 扩展迁移到 Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: 创建 POS 扩展包项目
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: 使用 VS Code 调试 Store Commerce 扩展
                       href: dev-itpro/sc-debug.md
+                    - name: 已密封的 MPOS 和 CPOS 扩展
+                      items:
+                        - name: 为 Modern POS 扩展包创建 .appx 文件
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: 调试 MPOS（已密封）和 CPOS 扩展
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: 环境设置
                   items:
                     - name: 本地开发环境
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: 创建 POS 扩展包项目
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: 为 Modern POS 扩展包创建 .appx 文件
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: 调试 POS 扩展
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API 和引用
                   items:
                     - name: 查看 POS 扩展包信息
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: 模块 CSS 优化
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: 优化产品详细信息页面上的图像
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: 优化搜索和类别页面上的图像
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: 遥测和分析
                       items:
                         - name: 遥测记录器

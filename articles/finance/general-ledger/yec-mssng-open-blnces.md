@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4478f2b46f984c97ff01588098d64953dedf476e7f3f76aeecb29a0ff0074b9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735454"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727163"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>年终结算缺少期初余额
 

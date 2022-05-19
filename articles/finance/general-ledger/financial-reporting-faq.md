@@ -1,25 +1,23 @@
 ---
 title: 财务报告常见问题解答
 description: 本主题提供有关财务报告的一些常见问题的解答。
-author: jiwo
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605271"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722287"
 ---
 # <a name="financial-reporting-faq"></a>财务报告常见问题解答
 
@@ -54,12 +52,12 @@ USMF 演示公司有一个 **资产负债表** 报表，并非所有财务报告
 6. 创建一个新的列定义。
 7. 创建一个新的报表定义。
 8. 选择 **设置** 并取消标记此选项。
-9. 生成报表。 
-10. 将报表导出到 Microsoft Excel。
+9. 生成报告。 
+10. 将报告导出到 Microsoft Excel。
 
 ### <a name="in-dynamics-365-finance"></a>在 Dynamics 365 Finance 中
 
-1. 转到 **总帐 \> 查询和报表 \> 试算平衡表**。
+1. 转到 **总帐 \> 查询和报告 \> 试算平衡表**。
 2. 设置以下字段：
 
     - **开始日期** - 输入会计年度的开始日期。
