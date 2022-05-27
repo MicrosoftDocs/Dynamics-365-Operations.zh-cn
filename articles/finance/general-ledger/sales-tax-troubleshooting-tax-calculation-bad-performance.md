@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: da19a83945450c2d35f95be2241b84e407860fe7808ff83934686ca2e00859bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1902017a7a00d4cc068f17e23aa21cd1d2b547a7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748946"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695209"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>税款计算性能影响交易
 

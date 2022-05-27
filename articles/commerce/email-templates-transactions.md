@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919493"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722511"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
@@ -64,8 +64,8 @@ Dynamics 365 Commerce 支持以下通知类型。
 | ------------------- | ------- |
 | `pickupstorename`     | 订单可以前往提货的商店的名称。 |
 | `pickupstoreaddress`  | 订单可以前往提货的商店的地址。 |
-| `pickupstorehourfrom` | 提货商店的营业时间。 |
-| `pickupstorehourto`   | 提货商店的关门时间。 |
+| `pickupstoreopenfrom` | 提货商店的营业时间。 |
+| `pickupstoreopento` | 提货商店的关门时间。 |
 | `pickupchannelid`     | 提货商店的商店渠道 ID。 |
 | `packingslipid`      | 将提货订单的装箱单的 ID。 |
 | `confirmationid`      | 将提货订单的订单确认 ID。 （此 ID 有时称为渠道引用 ID。） |
@@ -102,7 +102,7 @@ Dynamics 365 Commerce 支持以下通知类型。
 | 占位符名称      | 目的 |
 | --------------------- | ------- |
 | `giftcardnumber`        | 礼品卡类型产品的礼品卡编号。 |
-| `giftcardbalance`       | 礼品卡类型产品的礼品卡余额。 |
+| `availablebalance` | 礼品卡上的余额。 |
 | `giftcardmessage`       | 礼品卡类型产品的礼品卡消息。 |
 | `giftcardpin`         | 礼品卡类型产品的礼品卡个人标识号 (PIN)。 （此占位符特定于外部礼品卡。） |
 | `giftcardexpiration`    | 礼品卡类型产品的礼品卡到期日期。 （此占位符特定于外部礼品卡。） |

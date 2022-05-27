@@ -1,6 +1,6 @@
 ---
-title: 查看日记帐分录和交易记录
-description: 本文说明您可以查看日记帐条目和交易记录的各种方式。
+title: 查看日记帐条目和交易记录
+description: 本主题说明您可以查看日记帐条目和交易记录的各种方式。
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 673d61868d863568ae7613552d95e3fbadd66d2b4072d71315ab43660a8d1866
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731444"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717549"
 ---
-# <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
+# <a name="view-journal-entries-and-transactions"></a>查看日记帐条目和交易记录
 
 [!include [banner](../includes/banner.md)]
 
-本文说明您可以查看日记帐条目和交易记录的各种方式。 
+本主题说明您可以查看日记帐条目和交易记录的各种方式。 
 
 要查看日记帐和交易记录的用户可通过多种方式来访问数据。 他们可以利用提供深化功能的查询页，或者可以在总帐中使用各个报表选项。
 

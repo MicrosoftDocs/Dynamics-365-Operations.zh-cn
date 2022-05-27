@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "260624"
 - intro-internal
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075038"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692770"
 ---
 # <a name="human-resources-home-page"></a>人力资源主页
 
@@ -47,7 +46,7 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-有关 Dynamics 365 Finance 的信息，请参见 [Finance 主页](../finance/index.md)。
+有关 Dynamics 365 Finance 的信息，请参阅 [Finance 主页](../finance/index.md)。
 
 ## <a name="additional-resources"></a>其他资源
 

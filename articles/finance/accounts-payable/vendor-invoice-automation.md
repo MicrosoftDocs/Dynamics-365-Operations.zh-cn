@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722759"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716385"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>已扫描文档的账单自动化
 
@@ -86,7 +86,7 @@ ms.locfileid: "6722759"
 
 ## <a name="exception-processing"></a>异常处理
 
-在供应商发票通过集成进入到 Finance and Operations 的场景中，应付帐款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。 此供应商发票异常处理现在是 Finance and Operations 的一部分。
+在供应商发票通过集成进入到 Finance and Operations 的场景中，应付账款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。 此供应商发票异常处理现在是 Finance and Operations 的一部分。
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>无法导入列表页面的供应商发票
 

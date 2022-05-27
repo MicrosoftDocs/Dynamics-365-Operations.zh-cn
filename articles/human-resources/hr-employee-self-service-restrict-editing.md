@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e10db35996d31dc6c40a4253a324139c346be8c9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070744"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695863"
 ---
 # <a name="restrict-editing-of-personal-information"></a>限制对个人信息的编辑
 

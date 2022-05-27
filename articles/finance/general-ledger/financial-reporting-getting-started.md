@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "10444"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
-ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
+ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8573641"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721890"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用财务报告 
 

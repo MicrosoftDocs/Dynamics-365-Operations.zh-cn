@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441257"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717102"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>与 LinkedIn Talent Hub 集成
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> 2021 年 12 月 31 日将停用本主题中介绍的 Dynamics 365 Human Resources 与 LinkedIn Talent Hub 之间的集成。 该日期之后不再提供此集成服务。 尚未在使用此集成服务的组织在停用前不能实施此服务。
+> 2021 年 12 月 31 日停用了本主题中介绍的 Dynamics 365 Human Resources 与 LinkedIn Talent Hub 之间的集成。 该日期之后不再提供此集成服务。 尚未在使用此集成服务的组织在停用前不能实施此服务。
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) 是申请人跟踪系统 (ATS) 平台。 通过此一体式平台，您可以找到、管理和雇用员工。 通过将 Microsoft Dynamics 365 Human Resources 与 LinkedIn Talent Hub 集成，您可以轻松地在 Human Resources 中为已被聘请担任某职位的申请人创建员工记录。
 

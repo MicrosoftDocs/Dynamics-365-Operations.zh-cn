@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757211"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711311"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
@@ -969,7 +969,7 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 </tr>
 <tr>
 <td>监控系统的运行状况，并且诊断错误和问题。</td>
-<td>此功能需要适用于 <a href="https://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
+<td>此功能需要适用于 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
 <td>现在可以通过 LCS 中的<strong>运营见解</strong>仪表板来监控和诊断 Retail 组件。</td>
 <td><strong>运营见解</strong>仪表板是一个基于云的监控门户，有了它便不再需要安装 System Center Operations Manager (SCOM) 基础结构。</td>
 </tr>
@@ -1028,7 +1028,7 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 
 ## <a name="additional-resources"></a>其他资源
 
-[Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
+[Finance and Operations 新增功能或更改主页](whats-new-changed.md)
 
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 

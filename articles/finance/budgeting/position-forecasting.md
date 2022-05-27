@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 9cd30292c38d1cad6aeacebc1e335d28fd6c26dc
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595478"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723214"
 ---
 # <a name="position-forecasting"></a>职位预测
 

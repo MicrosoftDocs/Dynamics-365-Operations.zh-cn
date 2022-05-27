@@ -2,19 +2,19 @@
 title: 当事方和全球通讯簿
 description: 本主题介绍双重写入的当事方和全球通讯簿功能。
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407757"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717437"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -139,7 +139,7 @@ ms.locfileid: "8407757"
 
 您可以使用网格上方的 **新建电子地址** 按钮创建任意数量的地址。
 
-电子地址仅在此网格中可用。 在将来的版本中，所有邮寄地址和电子地址字段将从其他选项卡中删除，例如，**摘要** 和 **详细信息** 选项卡。 **详细信息** 选项卡上显示的联系人详细信息是主要电子地址（如主要手机、主要电子邮件、主要电话、主要传真和主要 Twitter ID）的只读副本。 在潜在顾客资格授予期间，您可以同时提供业务电话号码和移动电话号码。 如果 **IsMobile=No**，则将业务电话号码视为主要电话，如果 **IsMobile=Yes**，这将移动电话号码视为主要电话。
+在潜在顾客资格授予期间，您可以同时提供业务电话号码和移动电话号码。 如果 **IsMobile=No**，则将业务电话号码视为主要电话号码，如果 **IsMobile=Yes**，这将移动电话号码视为主要电话号码。
 
 > [!TIP]
 > 请使用 **帐户** 和 **联系人** 窗体上的 **地址** 和 **电子地址** 选项卡管理邮寄地址和电子地址。 这样可以确保将地址数据同步到财务和运营应用。
@@ -148,7 +148,7 @@ ms.locfileid: "8407757"
 
 1. 打开您的 Customer Engagement 应用环境。
 
-2. 安装[双重写入应用程序业务流程解决方案](https://aka.ms/dual-write-app)的最新版本（2.2.2.60 或更高版本）。
+2. 安装所有必备解决方案，如[分隔的双重写入应用程序业务流程包](separated-solutions.md)中所述。
 
 3. 安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
 
@@ -165,8 +165,8 @@ ms.locfileid: "8407757"
 
     映射 | 更新到此版本 | 更改
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | 这是作为此版本的一部分添加的新映射。
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | 这是作为此版本的一部分添加的新映射。
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | 这是作为此版本的一部分添加的新映射。
     `Customers V3 (accounts)` | 1.0.0.5 |删除了 `PartyNumber` 和与其他当事方相关字段，如姓名、个人详细信息、邮寄地址字段和电子联系人地址。
     `Customer V3 (contacts)` | 1.0.0.5 | 删除了 `PartyNumber` 和与其他当事方相关字段，如姓名、个人详细信息、邮寄地址字段和电子联系人地址。
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | 删除了 `PartyNumber` 和与其他当事方相关字段，如姓名、个人详细信息、邮寄地址字段和电子联系人地址。
@@ -174,16 +174,17 @@ ms.locfileid: "8407757"
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | 已将联系人替换为 `ContactforParty` 引用。
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | 已将联系人替换为 `ContactforParty` 引用。
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | 这是作为此版本的一部分添加的新映射。
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | 这是作为此版本的一部分添加的新映射。
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | 这是作为此版本的一部分添加的新映射。
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Salutations (msdyn_salutations)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | 这是作为此版本的一部分添加的新映射。
 
 8. 在运行上述映射之前，您必须按照以下步骤中的说明手动更新集成键。 然后选择 **保存**。
 
@@ -251,6 +252,7 @@ ms.locfileid: "8407757"
     [CDS 销售报价标题](mapping-reference.md#215) | 询价
     [CDS 销售订单标题](mapping-reference.md#217) | salesorders
     [销售账单抬头 V2](mapping-reference.md#118) | 发票
+    [CDS 地址角色](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > `CDS Contacts V2 (contacts)` 映射是您在步骤 1 中停止的映射。 当您尝试运行其他映射时，这 2 个映射可能会显示在依赖项列表中。 不要运行这些映射。
@@ -258,7 +260,7 @@ ms.locfileid: "8407757"
 > 如果安装了当事方和全球通讯簿解决方案，则必须禁用名为 `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` 的插件。 如果卸载当事方和全球通讯簿解决方案，则必须重新启用该插件。
 >
 > **客户**、**联系人** 和 **供应商** 表中包含的 `msdyn_*partynumber` 字段（单行文本字段）不应该继续使用。 为了清楚起见，标签名称带有 **(Deprecated)** 前缀。 而应改为使用 **msdyn_partyid** 字段。 此字段是对 **msdyn_party** 表的查找。
-
+>
 > 表名 | 旧字段 | 新字段
 > --------|-------|--------
 > 科目 | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ ms.locfileid: "8407757"
 | [销售账单抬头 V2](mapping-reference.md#118) | 发票 |
 | [称呼](mapping-reference.md#228) | msdyn\_salutations |
 | [供应商 V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS 地址角色](mapping-reference.md#301) |msdyn\_addressroles|
 
 有关更多信息，请参见[双重写入映射参考](mapping-reference.md)。
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>作为多选下拉列表的地址角色
+邮寄地址或电子地址可以用于多种用途。 例如，邮政地址既可以用作帐单邮寄地址，也可以用作送货地址。 在这些情况下，用户可以在下拉列表中同时选择 **发票** 和 **交货**，如以下说明中所示。 
+
+![用途/角色下拉列表。](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 + 在财务和运营应用中，当您创建客户以及地址并进行保存时，地址可能不会同步到 **地址** 表。 这是由于双重写入平台排序问题。 解决方法是，先创建客户并进行保存。 然后添加地址。
 + 在财务和运营应用中，如果客户记录具有主要地址，当您为该客户创建新联系人时，联系人记录将从关联的客户记录继承主要地址。 供应商联系人也是如此。 Dataverse 目前不支持此行为。 如果启用了双重写入，从财务和运营应用通过主要地址继承的客户联系人将随其地址一起同步到 Dataverse。
-+ 在 **客户**、**联系人** 和 **供应商** 窗体的电子地址选项卡上设置的电子地址来自 `msdyn_partyelectronicaddress` 表。 此信息不会流向其关联交易，如销售订单、报价单和采购订单。 我们计划在增量版本中解决此问题。 客户和联系人记录上电子地址字段中的现有数据将继续用于销售订单、报价单和采购订单之类的交易。
 + 在财务和运营应用中，您可以从 **添加联系人** 窗体创建联系人记录。 当您尝试从 **查看联系人** 窗体创建新联系人时，操作将失败。 这是一个已知问题。
 
     ![添加联系人的已知问题。](media/party-gab-contact-issue.png)
 
-+ **初始同步** 不支持 **ContactForParty** 上的 **Available From** 和 **Available To** 时间字段，因为 DIXF 会将值转换为字符串而不是整数。 转换将触发错误 `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`。
-+ 当出于多种原因使用邮寄地址时，例如，业务通信地址和帐单地址，它应显示为 `Business;Invoice`，如下图所示。 如果在两个值之间添加空格，会出现错误。
-
-    ![地址的已知问题。](media/party-gab-address-issue.png)
-
++ **初始同步** 不支持 **ContactForParty** 上的 **Available From** 和 **Available To** 时间字段，因为 DIXF 会将值转换为字符串而不是整数。 转换将触发错误 `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`。
 + 您不能使用具有双重写入功能的财务和运营应用输入将来的邮寄地址，因为 Dataverse 不支持日期有效期。 如果您使用财务和运营应用输入将来的邮寄地址，它将完全同步到 Dataverse，您会在用户界面立即看到该地址。 此记录的任何更新都将导致错误，因为它在财务和运营应用中是将来的日期，而不是当前日期。

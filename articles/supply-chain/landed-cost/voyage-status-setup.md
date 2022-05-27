@@ -1,7 +1,7 @@
 ---
 title: 航行状态设置
 description: 本主题介绍如何建立用户可以分配给航行的状态值。
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMStatusTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 01bfc5198b62cfe56df9ec6763d5d0ff95f13ed5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5a6741085f0244166fc46aa14a031d3550d11d9d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570985"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691150"
 ---
 # <a name="voyage-status-setup"></a>航行状态设置
 

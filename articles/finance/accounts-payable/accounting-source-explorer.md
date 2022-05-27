@@ -1,26 +1,26 @@
 ---
 title: 会计源资源管理器
 description: 本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: rcarlson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1200092306c1848a2e705b868c2185362b5a3c89
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749190"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710460"
 ---
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 

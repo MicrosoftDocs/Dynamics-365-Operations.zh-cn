@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
-ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903242"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8719920"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>不平衡导致日记帐过帐失败
 

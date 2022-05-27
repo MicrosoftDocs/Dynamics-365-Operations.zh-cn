@@ -2,7 +2,7 @@
 title: 试用分布式混合拓扑中的缩放单元
 description: 本主题提供有关如何针对制造和仓库管理工作负荷试用云和边缘缩放单元的信息。
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376238"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711877"
 ---
 # <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>试用分布式混合拓扑中的缩放单元
 
@@ -26,7 +26,7 @@ ms.locfileid: "8376238"
 
 ## <a name="option-1-evaluate-customizations-in-development-environments"></a>选项 1：在开发环境中评估自定义
 
-在开始加入沙盒环境之前，建议您在开发设置中探索缩放单元，例如单盒环境（也称为第 1 层环境），以便您可以验证流程、自定义和解决方案。 在此阶段中，数据和自定义将应用到单盒环境。 您可以在单一环境中运行，该环境可以同时充当企业中心和缩放单元的角色。 或者，您可以使用两个开发环境，一个充当中心角色，另一个充当缩放单元角色。 此设置提供识别和修复问题的最佳方法。 最新的[提前访问 (PEAP) 版本](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u)也可以用于完成此阶段。
+在开始加入沙盒环境之前，建议您在开发设置中探索缩放单元，例如单盒环境（也称为第 1 层环境），以便您可以验证流程、自定义和解决方案。 在此阶段中，数据和自定义将应用到单盒环境。 您可以在单一环境中运行，该环境可以同时充当企业中心和缩放单元的角色。 或者，您可以使用两个开发环境，一个充当中心角色，另一个充当缩放单元角色。 此设置提供识别和修复问题的最佳方法。 最新的[预览版本](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates)也可以用于完成此阶段。
 
 您应该使用[单盒开发环境的缩放单元部署工具](https://github.com/microsoft/SCMScaleUnitDevTools)安装和维护环境。 这些工具使您可以在一个或两个单盒环境中配置中心和缩放单元。 这些工具均作为二进制版本提供，并在 GitHub 上以源代码的形式提供。 研究项目 wiki，其中包括描述如何使用工具的[分步使用指南](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide)。 如果您[使用本地业务数据 (LBD) 在自定义硬件上部署边缘缩放单元](cloud-edge-edge-scale-units-lbd.md)，则必须执行不同的流程。
 

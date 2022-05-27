@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 93cbfc46fb41e47fba8b6cecf7811c0cf838e7d3
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675016"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8719811"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>固定资产购置过帐科目
 

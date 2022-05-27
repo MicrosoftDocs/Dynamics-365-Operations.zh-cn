@@ -8,18 +8,18 @@ ems.prod: ''
 ms.technology: ''
 ms.search.form: DimensionFocus, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25871
 ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392928"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722567"
 ---
 # <a name="financial-dimension-sets"></a>财务维度集
 

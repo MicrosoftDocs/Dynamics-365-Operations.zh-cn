@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: TAMRebateDeal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 803b4d8b287f2b0dc523654e3e1852209f4ea039
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573529"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690265"
 ---
 # <a name="process-review-and-post-rebates"></a>处理、审核和过帐返点
 

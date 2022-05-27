@@ -1,7 +1,7 @@
 ---
 title: 交货信息设置
 description: 本主题介绍如何为登陆成本模块设置交货信息。
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMPortTable, ITMLeadTimeTable, ITMLegTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 57f17d481f9660d67b96ac2c8e68558407b1bcf9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0b510e4f58ca1cfec940093d118618693c68d38
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577592"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694674"
 ---
 # <a name="delivery-information-setup"></a>交货信息设置
 

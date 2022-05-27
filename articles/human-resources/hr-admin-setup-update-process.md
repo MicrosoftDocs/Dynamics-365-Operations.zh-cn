@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533561"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722232"
 ---
 # <a name="update-process"></a>更新流程
 
@@ -38,7 +37,7 @@ Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)�
 
 Human Resources 更新将自动应用于所有环境。 Human Resources 提供两种类型的发布：
 
-- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 要了解何时发布平台更新，请参阅[表 3：平台发布](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases)。 每两周更新跨区域在全球分期推出。 有关每两周更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
+- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 有关平台版本的详细信息，请参阅[平台更新的新增功能或更改](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md)。 每两周更新跨区域在全球分期推出。 有关每两周更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
 
     除非另有说明，否则所有受支持的数据中心都会每两周更新一次。 每两周更新中包括美国、澳大利亚、欧洲、英国、亚洲和加拿大地区。 
 

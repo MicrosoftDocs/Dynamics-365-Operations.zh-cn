@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "221624"
 - intro-internal
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985075"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713633"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 

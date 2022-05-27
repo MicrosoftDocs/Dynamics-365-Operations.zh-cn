@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: cd282ab04312a3ed1821160146b86db902906f3b
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344845"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714052"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>批量创建月日记帐条目
 

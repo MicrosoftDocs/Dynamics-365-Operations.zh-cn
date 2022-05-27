@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionDetails
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: 188c15c4cb0c295a9fcbb08273ddb391fbc29e24
-ms.sourcegitcommit: b4c78655f2ab4b0e7ead96dfb9cf087a18014253
+ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "7468932"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720102"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>如何设置平衡财务维度？
 

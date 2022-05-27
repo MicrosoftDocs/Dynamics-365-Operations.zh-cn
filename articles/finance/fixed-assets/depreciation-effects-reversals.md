@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 6f0eeaafe7538b6aeeadfc804096ecee11e714da
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674542"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714192"
 ---
 # <a name="depreciation-effects-with-reversals"></a>使用冲销的折旧影响
 

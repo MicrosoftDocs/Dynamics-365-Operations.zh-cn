@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09e62560bda6c8167e9aab6cd8690246f94f5b3f028d67c9e41a1fbba17dc499
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef41b7b3b3c170620e6ff698cf02b9484e6a8762
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757089"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723125"
 ---
 # <a name="letters-of-guarantee"></a>保函
 

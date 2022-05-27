@@ -1,14 +1,14 @@
 ---
 title: 可用预算资金
 description: 本主题介绍可用预算资金功能，提供可以帮助您配置预算控制以优化组织财务资源的管理的信息。
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60493"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: a8279ae9b08c7537548c1c8b71e6e978fee2b8a1
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891302"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710240"
 ---
 # <a name="budget-funds-available"></a>可用预算资金
 

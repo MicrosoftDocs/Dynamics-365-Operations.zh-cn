@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727009"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722260"
 ---
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 
@@ -30,7 +30,7 @@ ms.locfileid: "7727009"
 
 | 日记帐类型                      | 目的                       | 在此页面上输入交易记录                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
-| 分摊                        | 在分配日志中创建分配交易记录。 您必须先在 **分类帐分配规则** 页上创建分配规则，然后才能创建分配日记帐。      | 处理分配请求             |
+| 分配                        | 在分配日志中创建分配交易记录。 您必须先在 **分类帐分配规则** 页上创建分配规则，然后才能创建分配日记帐。      | 处理分配请求             |
 | 审核                          | 将已审核的供应商发票过帐到适当会计科目。  | 发票审核日记帐                                       |
 | 银行支票冲销               | 冲销已过帐支票。 要使用此日记帐类型，请选择 **现金和银行管理参数** 页上的 **对付款冲销使用审核过程** 选项。   | 支票冲销、付款冲销                   |
 | 银行存款单取消    | 取消存款单。 要使用此日记帐类型，请选择 **现金和银行管理参数** 页上的 **对存款单付款取消使用审核过程** 选项。   | 存款单付款取消            |

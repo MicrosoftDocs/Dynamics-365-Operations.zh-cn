@@ -2,7 +2,7 @@
 title: 创建数据集成项目
 description: 此主题介绍如何创建数据集成项目。
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107279"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722874"
 ---
 # <a name="create-a-data-integration-project"></a>创建数据集成项目
 
@@ -28,7 +28,7 @@ ms.locfileid: "8107279"
 
 此主题介绍如何创建数据集成项目。
 
-1. 登录到 Microsoft Dynamics 365 Finance。
+1. 登录 Microsoft Dynamics 365 Finance。
 2. 转到 **工作区 \> 数据管理**，然后选择 **数据实体**。 等至所有数据实体都已刷新，然后再继续下一步。
 3. 打开 [Power Apps 门户](https://make.powerapps.com/)，然后按照以下步骤操作：
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107279"
 
 5. 打开 [Power Apps 环境](https://admin.powerapps.com/environments)，然后按照以下步骤操作：  
 
-    1. 通过使用刚创建的连接集，为以下模板创建数据集成项目：
+    1. 通过使用刚创建的连接集，为以下每个模板创建单一数据集成项目：
 
         - 客户付款见解结果（CDS 到 Fin and Ops 10.0.17+）
         - 现金流时序结果（CDS 到 Fin 和 Ops）
         - 预算时序结果（CDS 到 Fin 和 Ops）
+
+      > [!NOTE]
+      > 为每个模板创建多个数据集成项目可能会导致阻止更新的错误。
 
     2. 为每个项目设置相应计划。
 

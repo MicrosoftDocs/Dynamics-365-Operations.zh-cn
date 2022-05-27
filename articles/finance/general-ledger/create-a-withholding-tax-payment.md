@@ -1,26 +1,26 @@
 ---
 title: 创建预缴税金支付
 description: 预缴税金支付作业过程结算预缴税金帐户中应付帐款中的预缴税金余额，并冲销特定期间内的预缴税金结算帐户。 本主题列出了设置预缴税金支付的步骤。
-author: roschlom
+author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 226e60d5e374f16d27185ebda512769d36650d24e90ae279d22761d54e238a64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744957"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713323"
 ---
 # <a name="create-a-withholding-tax-payment"></a>创建预缴税金支付
 

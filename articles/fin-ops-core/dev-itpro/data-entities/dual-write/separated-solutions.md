@@ -2,20 +2,20 @@
 title: 分隔的双重写入应用程序业务流程包
 description: 双重写入应用程序业务流程包不再是单个包，而是分成了更小的包。 本主题介绍了每个包所包含的解决方案和映射及其与其他包的依赖关系。
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063254"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716543"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>分隔的双重写入应用程序业务流程包
 
@@ -26,14 +26,14 @@ ms.locfileid: "8063254"
 以前，双重写入应用程序流程包是包含以下解决方案的单个包：
 
 - Dynamics 365 说明
-- Dynamics 365 Finance and Operations 公共定位点
+- Dynamics 365 Finance and Operations 公用定位点
 - Dynamics 365 Finance and Operations 双写入实体映射
 - Dynamics 365 资产管理应用
 - Dynamics 365 资产管理
 - HCM 常用
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations（公共）
+- Dynamics 365 Finance and Operations 公用
 - Dynamics 365 公司
 - 币种汇率
 - Field Service Common
@@ -51,7 +51,7 @@ ms.locfileid: "8063254"
 | 唯一名称                           | 显示的名称                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 公司                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations（公共） |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations 公用 |
 | CurrencyExchangeRates                 | 币种汇率                    |
 | msdyn_DualWriteAppCoreMaps            | 双重写入应用程序核心实体映射   |
 | msdyn_DualWriteAppCoreAnchor          | 双重写入应用程序核心定位点        |
@@ -300,3 +300,47 @@ Project Operations 依赖于以下包。 因此，您应先安装这些包，然
 - 双重写入供应链包
 - 双重写入资产管理包
 - 双重写入 Human Resources 包
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>双重写入当事方和全球通讯簿解决方案
+
+双重写入当事方和全球通讯簿包包含同步当事方和全球通讯簿数据所需的以下解决方案和映射。 
+
+| 唯一名称                       | 显示的名称                            |
+|-----------------------------------|-----------------------------------------|
+| 当事方                             | 当事方                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Dynamics 365 GAB 双重写入实体映射 |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB 和当事方              |
+
+此包中提供以下映射。
+
+| Finance and Operations 应用 | 客户互动应用 | 
+|-----------------------------|--------------------------|
+| CDS 当事方 | msdyn_parties | 
+| CDS 邮政地址位置 | msdyn_postaladdresscollections | 
+| CDS 邮寄地址历史记录 V2 | msdyn_postaladdresses | 
+| CDS 当事方邮政地址位置 | msdyn_partypostaladdresses | 
+| 当事方联系人 V3 | msdyn_partyelectronicaddresses | 
+| 客户 V3 | 帐户 | 
+| 客户 V3 | 联系人 | 
+| 供应商 V2 | msdyn_vendors | 
+| 联系人职务 | msdyn_salescontactpersontitles | 
+| 结束语 | msdyn_complimentaryclosings | 
+| 称呼 | msdyn_salutations | 
+| 决策角色 | msdyn_decisionmakingroles | 
+| 雇用工作职能 | msdyn_employmentjobfunctions | 
+| 忠诚度级别 | msdyn_loyaltylevels | 
+| 人员特点类型 | msdyn_personalcharactertypes | 
+| 联系人 V2 | msdyn_contactforparties | 
+| CDS 销售报价标题 | 询价 | 
+| CDS 销售订单标题 | salesorders | 
+| 销售发票抬头 V2 | 发票 | 
+| CDS 地址角色 | msdyn_addressroles |
+
+**依赖项信息**
+
+双重写入当事方和全局通讯簿解决方案依赖于以下三个包。 因此，您应先安装这些包，然后再安装双重写入当事方和全球通讯簿解决方案包。
+
+- 双重写入应用程序核心包
+- 双重写入 Finance 包
+- 双重写入供应链包

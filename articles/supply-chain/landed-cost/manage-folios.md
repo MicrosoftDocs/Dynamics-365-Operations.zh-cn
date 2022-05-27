@@ -1,7 +1,7 @@
 ---
 title: 管理帐页
 description: 本主题介绍如何使用帐页。 帐页通常包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMFolioTable, ITMFolioTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: f908ae3c150a09af61bb0ee97469619744cd1079
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570427"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695293"
 ---
 # <a name="manage-folios"></a>管理帐页
 

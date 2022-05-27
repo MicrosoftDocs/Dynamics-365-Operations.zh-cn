@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570469"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691461"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
 
@@ -75,7 +75,9 @@ ms.locfileid: "8570469"
 | 仓库管理 | [全局移动设备参数](../warehousing/mobile-device-parameters.md) |
 | 仓库管理 | [定位](../warehousing/anchoring.md) |
 | 销售和市场营销 | 现在详细介绍了内部公司交易，从[设置内部公司交易](../sales-marketing/intercompany-trade-set-up.md)及其相关主题开始。 |
+| 销售和市场营销 | [销售历史记录清除性能改进](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | 库存管理 | 库存可见性文档已扩展和更新，从[库存可见性加载项概述](../inventory/inventory-visibility.md)及其相关主题开始。 |
+| 仓库管理 | [移动设备用户帐户](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>其他资源
 

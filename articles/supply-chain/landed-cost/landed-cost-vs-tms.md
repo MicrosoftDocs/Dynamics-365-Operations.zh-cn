@@ -1,24 +1,23 @@
 ---
 title: 登陆成本与运输管理
 description: Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：运输管理 (TMS) 和登陆成本。 本主题总结了两个模块的共同功能，并着重说明了它们之间的区别。
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ba745048d1d9f28300f03ed0bc98142d80aa5a26
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569809"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690363"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>登陆成本与运输管理
 

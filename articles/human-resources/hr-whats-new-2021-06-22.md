@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735343"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694415"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Dynamics 365 Human Resources（2021 年 6 月 22 日）中的新增功能或更改
 
@@ -83,7 +82,7 @@ ms.locfileid: "6735343"
 
 | 功能 | 明细 |
 | --- | --- |
-| 平台更新 10.0.19 (43) | 平台更新 10.0.19 计划于 2021 年 6 月 28 日在服务版本中开始推出。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.19（2021 年 6 月）的平台更新](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19)。 |
+| 平台更新 10.0.19 (43) | 平台更新 10.0.19 计划于 2021 年 6 月 28 日在服务版本中开始推出。 有关详细信息，请参阅[财务和运营应用版本 10.0.19 的平台更新（2021 年 6 月）](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19)。 |
 |  服务年限显示切换 | 此功能提供使用不同日期计算在 **简化的员工输入** 窗体和 **人员** 窗体中显示的服务年限的选项。  这将在 Human Resources 参数中提供。 |
 |  让缺勤管理人员能够管理休假 | [让缺勤管理人员能够管理休假](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  对特定休假类型的附件授权 | 利用此功能，管理员能够在提交特定休假类型的休假请求时对要添加的附件授权。 |

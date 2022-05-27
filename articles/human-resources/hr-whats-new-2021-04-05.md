@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741349"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693463"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 4 月 5 日）
 
@@ -72,7 +71,7 @@ ms.locfileid: "6741349"
 | 功能 | 明细 |
 | --- | --- |
 | 经理为员工输入的技能可以通过工作流自动审核 | 即将推出。 |
-| 平台更新 10.0.17 (41) | 平台更新 10.0.17 计划于 2021 年 4 月 19 日在下一个版本中开始推出。 有关详细信息，请参阅 [Finance and Operations 应用的版本 10.0.17（2021 年 4 月）的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md)。 |
+| 平台更新 10.0.17 (41) | 平台更新 10.0.17 计划于 2021 年 4 月 19 日在下一个版本中开始推出。 有关详细信息，请参阅[财务和运营应用版本 10.0.17 的平台更新（2021 年 4 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md)。 |
 
 有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。
 
