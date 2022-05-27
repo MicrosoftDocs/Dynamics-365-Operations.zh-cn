@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47cd132c188c39c8700cae6035ae75d0ce71d841
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066085"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687210"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>使用自动清理任务优化性能
 

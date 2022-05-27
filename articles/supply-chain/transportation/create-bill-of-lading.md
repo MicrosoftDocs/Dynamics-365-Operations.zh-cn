@@ -1,7 +1,7 @@
 ---
 title: 创建提单
 description: 此主题介绍在使用仓库管理流程时如何创建提单。
-author: Henrikan
+author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b79408e21e9acda12617cf35464007e58ae1b5fe
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2051583ae1606c9e4c099c2029807ca04d9d076
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573121"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669899"
 ---
 # <a name="create-a-bill-of-lading"></a>创建提单
 

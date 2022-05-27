@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
-ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8616849"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686316"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 

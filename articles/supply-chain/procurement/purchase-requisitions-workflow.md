@@ -1,7 +1,7 @@
 ---
 title: 采购申请工作流
 description: 工作流在审核过程中移动采购申请，从“草稿”的初始状态到“已审核”最终状态。 在采购申请被提交审核时，该工作流流程开始。 在审核采购申请后，采购订单可为采购申请行生成并提交到供应商进行订单执行。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569449"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675926"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 

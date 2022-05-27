@@ -1,7 +1,7 @@
 ---
 title: 库位容量范围内的补货
 description: 本主题提供有关“按位置容量补货”功能的信息。 此功能使创建当天所需的所有补货工作成为可能，并管理该补货工作的可用性，以确保领料位置既不会用完库存，也不会超出容量。
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778199"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677917"
 ---
 # <a name="replenishment-over-location-capacity"></a>库位容量范围内的补货
 

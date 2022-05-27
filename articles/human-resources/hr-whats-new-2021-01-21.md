@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772608"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686846"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Dynamics 365 Human Resources 的新增功能或更改，2021 年 1 月 21 日
 
@@ -43,7 +42,7 @@ ms.locfileid: "6772608"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 平台更新 10.0.16(40) | -- | [针对 Finance and Operations 应用（2021 年 2 月）的版本 10.0.16 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| 平台更新 10.0.16(40) | -- | [财务和运营应用版本 10.0.16 的平台更新（2021 年 2 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | 增强的工作流请求和审批 | [组织和人员管理工作流体验增强](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [用于定位“分配给我的工作项”列表的配置选项](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | 表单 1095-C、表单 1095-B 以及旧“福利”中电子报告的平价医疗法案 (ACA) 合规性更新 | -- | -- | 
 | “福利管理”现在支持美国法人的 ACA 合规报告 | -- | [在“福利管理”中生成 ACA 报告](hr-benefits-management-aca-reports.md) |

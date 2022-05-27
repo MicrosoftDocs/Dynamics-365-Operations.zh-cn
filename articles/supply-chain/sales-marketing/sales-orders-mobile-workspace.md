@@ -1,7 +1,7 @@
 ---
 title: 销售订单移动工作区
 description: 此主题提供有关销售订单移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。
-author: Mirzaab
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 712b45cf1fd35de9f823af1bf89db9c4a572d61ebf7aa3e1fded16902c09557a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a746ae5d7f0c6ca2fd8e69a23114cfcaa24b16b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767356"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675000"
 ---
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767356"
 
 此主题提供有关 **销售订单** 移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 
-此工作区应该与 Finance and Operations 移动应用结合使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览
 **销售订单** 移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单** 移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
@@ -117,7 +117,7 @@ ms.locfileid: "6767356"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

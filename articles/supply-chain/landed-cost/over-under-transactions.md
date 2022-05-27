@@ -1,7 +1,7 @@
 ---
 title: 超过/低于交易记录
 description: 本主题提供的信息将帮助您设置超过/低于交易的策略详细信息，让系统可以确定在收货时如何管理货物的超过处理和低于处理。
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMOverUnderTrans, ITMOverUnderToleranceTable, ITMOverUnderReasonTable, ITMOverUnderToleranceGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 60f4f31e9da762a89b034961a703e1d7b1bbd903
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63ba27d3fe10441f5e0ad54e684aa6799b521c7a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580736"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687831"
 ---
 # <a name="overunder-transactions"></a>超过/低于交易记录
 

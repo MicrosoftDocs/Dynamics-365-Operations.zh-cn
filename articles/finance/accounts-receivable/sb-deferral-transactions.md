@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f66c538afc732caf3faed3cfea6c695ff7f16273
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8558083"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686007"
 ---
 # <a name="deferral-default-transactions"></a>延期默认交易记录
 

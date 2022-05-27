@@ -1,7 +1,7 @@
 ---
 title: 设置退货原因代码
 description: 设置退货原因代码组。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc857f7c2e8bbcf396e6bd7eaa7478f12b26ac12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1c5a44a868e916d545e9a8f6830c3c176c64687e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573169"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670739"
 ---
 # <a name="set-up-return-reason-codes"></a>设置退货原因代码   
 

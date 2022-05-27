@@ -1,7 +1,7 @@
 ---
 title: 具有实际成本和标记的先进先出
 description: 先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。 基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 54682
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5280498a23df26873dda1f380f686796f5e1055f
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 663dce9f871e96fec7017616732428c49b1224a0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092132"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676234"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 

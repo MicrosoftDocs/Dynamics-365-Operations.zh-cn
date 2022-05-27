@@ -1,7 +1,7 @@
 ---
 title: 服务管理概览
 description: 使用“服务管理”建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。
-author: kamaybac
+author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 108f5b0ed51c1c52a78aa7ca64c983b7e3c24e64
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982994"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677721"
 ---
 # <a name="service-management-overview"></a>服务管理概览
 

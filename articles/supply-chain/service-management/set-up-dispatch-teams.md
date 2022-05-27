@@ -1,7 +1,7 @@
 ---
 title: 设置派遣团队
 description: 此主题描述如何创建派遣团队。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48d35e4a49393a73f6c22c3ba78c65e72701d335
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 742cb79076662e9595b98bb7acf91ffed5e0ac82
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571345"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675590"
 ---
 # <a name="set-up-dispatch-teams"></a>设置派遣团队 
 

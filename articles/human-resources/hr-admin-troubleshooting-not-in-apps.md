@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a973b10a15846f7a27bff955deb2a961f45d9701
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069672"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687720"
 ---
 # <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources 应用未显示在 Microsoft Dynamics 365 应用中
 

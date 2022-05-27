@@ -1,7 +1,7 @@
 ---
 title: 采购目录概览
 description: 本文介绍在高级别，采购专业人员能够如何设置和维护采购目录。 采购目录定义公司员工可以订购供内部使用的物料和服务。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bd267cbbe7767faab538cacad26636ff1f37a551
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984287"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672001"
 ---
 # <a name="procurement-catalogs-overview"></a>采购目录概览
 

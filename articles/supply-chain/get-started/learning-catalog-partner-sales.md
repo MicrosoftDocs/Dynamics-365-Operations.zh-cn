@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Supply Chain Management 的 Microsoft 合作伙伴销售和市场营销角色学习目录
 description: 查找担任使用 Dynamics 365 Supply Chain Management 的 Microsoft 合作伙伴销售和市场营销角色的人员的所有培训选项。
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e806be95947988f6a612ddbc1efb0b72cf971806
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7c25acef2a46abc0481e2e38f40d5c990901090f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402315"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671299"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 的 Microsoft 合作伙伴销售和市场营销角色学习目录
 
@@ -31,7 +31,7 @@ ms.locfileid: "7402315"
 |---------|-------------|--------|--------|
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
-| [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 
 ## <a name="exam"></a>考试<a name="exam"></a>

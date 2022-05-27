@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: 3ba1ecc97183c147b46ea2396df78fcdce07c27e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924739"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687971"
 ---
 # <a name="manage-leave-requests-in-teams"></a>管理 Teams 中的休假申请
 
@@ -186,7 +185,7 @@ Teams 中的 Dynamics 365 Human Resources 应用支持以下语言：
 
 ![Human Resources 用户选项。](./media/hr-teams-leave-app-user-options.png)
 
-如果您仍然遇到翻译问题，请告诉我们。 有关信息，请参阅[获取对 Finance and Operations 应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
+如果您仍然遇到翻译问题，请告诉我们。 有关信息，请参阅[获取针对财务与运营应用程序或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>在 Teams 中的 Human Resources 应用中审批请假请求时出错
 

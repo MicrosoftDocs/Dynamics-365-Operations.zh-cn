@@ -1,7 +1,7 @@
 ---
 title: 具有实际成本和标记的先进先出
 description: 后进先出 (LIFO) 是一种库存模型，其中，最后（最新）的收货将最先发货。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092156"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670431"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 

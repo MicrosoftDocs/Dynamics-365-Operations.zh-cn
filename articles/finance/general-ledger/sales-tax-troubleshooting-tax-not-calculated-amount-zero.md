@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 45aa5931b5d958dd32bd165b414957fa7b366d077cef67621221ce19b56b67d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7237980f8d330a7b3f5c966d5bd3fff0eda8b21a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772795"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685847"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>未计算税款或税额为零
 

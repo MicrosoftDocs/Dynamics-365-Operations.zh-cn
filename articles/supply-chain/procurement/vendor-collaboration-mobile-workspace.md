@@ -1,7 +1,7 @@
 ---
 title: 供应商协作移动工作区
 description: 此主题提供有关供应商协作移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: henrikan
+ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577016"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670095"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
@@ -27,7 +27,7 @@ ms.locfileid: "7577016"
 
 此主题提供有关 **供应商协作** 移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
 
-此工作区应该与 Finance and Operations 移动应用结合使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览 
 **供应商协作** 移动工作区通知供应商有关新采购订单的信息，以便供应商可以在 Web 客户端中查看和响应采购订单。 
@@ -109,7 +109,7 @@ ms.locfileid: "7577016"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Finance and Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2b2b233e22378c8710a63dce83d168bfd89eba7f
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 3857ce3720430c6f512d5abc4c9c4d390a0c3377
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920490"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686674"
 ---
 # <a name="the-filter-pane-on-the-on-hand-list-page-doesnt-work-as-expected"></a>现有量列表页上的筛选器窗格不正常工作
 
@@ -28,6 +28,6 @@ ms.locfileid: "7920490"
 
 **现有量列表** 页面是从包含所有可用维度的详细现有库存量表组合而成的。 但是，此页面上的列表是一个摘要。 因此，它可能根据显示的维度通过聚合值来合并源表中的行。
 
-在筛选器窗格中设置的筛选器将应用于源表，不应用于聚合列表。 此行为有时会产生意外结果，如[这些示例](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#examples)所示。
+在筛选器窗格中设置的筛选器将应用于源表，不应用于聚合列表。 此行为有时会产生意外结果，如[这些示例](/dynamics365/supply-chain/inventory/inventory-on-hand-list#examples)所示。
 
-但是，[网格中提供的筛选器](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#grid-filters)*应用于* 聚合列表。 这些筛选器既包括位于网格顶部的快速筛选器，也包括每个列标题的筛选器。
+但是，[网格中提供的筛选器](/dynamics365/supply-chain/inventory/inventory-on-hand-list#grid-filters)*应用于* 聚合列表。 这些筛选器既包括位于网格顶部的快速筛选器，也包括每个列标题的筛选器。

@@ -1,7 +1,7 @@
 ---
 title: 查看生产订单当前的 WIP 状态
 description: 该过程显示如何查看生产订单的“WIP 报表”。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22f4a423a0ca9e7fc5ddc9d46a618a20c7a5ca9f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 60ca1ca2fd3ae8a713e1bfa97efbfedda68fda9c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568175"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679098"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>查看生产订单当前的 WIP 状态
 

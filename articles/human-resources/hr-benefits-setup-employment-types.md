@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85035cbfac804d6235a6232b26033156aefc626b
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: a2f6b9b226be67ee871186b859113f310c66ab29
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534068"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686210"
 ---
 # <a name="set-up-employment-types"></a>设置雇用类型
 

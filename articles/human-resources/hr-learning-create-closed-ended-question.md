@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 18b755675b97e608afccea2e48ea3cfca74c984f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071426"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686154"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
 

@@ -1,22 +1,22 @@
 ---
 title: 同步处置代码
 description: 本主题介绍了内部公司商务的处置代码同步
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 04a25324e79a1f9cb30a7da19d648bda995ba7b2
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 27b587e576900f2b7f7fed7ee2a27a282306f0fe
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548118"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671749"
 ---
 # <a name="synchronize-intercompany-disposition-codes"></a>同步内部公司处置代码
 

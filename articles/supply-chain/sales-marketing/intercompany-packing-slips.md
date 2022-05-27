@@ -1,22 +1,22 @@
 ---
 title: 内部公司装箱单
 description: 本主题介绍如何生成和打印内部公司交易记录的装箱单
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72d052d2daba90d49ba372fb3fb480bdd0877398
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: ca569ca7eb2a3ced36904442212bde565f499f94
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548132"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678622"
 ---
 # <a name="intercompany-packing-slips"></a>内部公司装箱单
 

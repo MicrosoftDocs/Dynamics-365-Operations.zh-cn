@@ -9,23 +9,22 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576656"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687403"
 ---
 # <a name="rebate-management-deal-workflows"></a>返点管理交易工作流
 
 [!include [banner](../includes/banner.md)]
 
-若要审核返点交易，返点管理使用与其他 Finance and Operations 应用相同的工作流平台。 每个工作流关联了两个作业流程：
+若要审核返点交易，返点管理使用与其他财务和运营应用相同的工作流平台。 每个工作流关联了两个作业流程：
 
 - 工作流的另一个元素用于审核交易。
 - 工作流的一个元素用于激活交易，以便用户或工作流程可以审核交易记录。

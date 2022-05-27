@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2a69e58095844286878e27a100fa49a44a4a71f4
-ms.sourcegitcommit: 4d7bc52e6cdf6afce3793893ba2aa07176302314
+ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "8560468"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686510"
 ---
 # <a name="consumer-price-index-schedule"></a>消费者价格指数计划
 

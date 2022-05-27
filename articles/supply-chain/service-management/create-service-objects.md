@@ -1,7 +1,7 @@
 ---
 title: 创建服务对象
 description: 本主题提供了展示如何创建服务对象的过程。
-author: kamaybac
+author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b8fe68a502501e0377d443e685b254736438574
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 585a268f4ebbe7bc8626f028c038d1533812c5e4
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575259"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674972"
 ---
 # <a name="create-service-objects"></a>创建服务对象  
 

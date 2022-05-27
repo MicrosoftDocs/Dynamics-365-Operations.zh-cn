@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407786"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688365"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -281,7 +281,7 @@ ms.locfileid: "8407786"
 
     ![运行当事方邮政地址和当事方电子地址模板。](media/ADF-7.png)
 
-10. 要使用此数据更新 Finance and Operations 应用，您必须将 .csv 文件转换为 Excel 工作簿，并[将其导入到 Finance and Operations 应用中](/data-entities/data-import-export-job)。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。
+10. 要使用此数据更新 Finance and Operations 应用，您必须将 .csv 文件转换为 Excel 工作簿，并[将其导入到 Finance and Operations 应用中](../data-import-export-job.md)。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。
 
     ![导入成功。](media/ADF-8.png)
 

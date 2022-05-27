@@ -1,7 +1,7 @@
 ---
 title: 服务订单阶段
 description: 通过定义服务订单的阶段并将其分配给工作人员，您可以通过服务组织中的不同人员所执行的任务来控制服务订单的流程。
-author: kamaybac
+author: sorenva
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a43cbe0cf5993a305ff500f34f0da5d3763084c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3e748afbd159d7a8fca1372676872cc02dd7ea57
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576320"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671721"
 ---
 # <a name="service-order-stages"></a>服务订单阶段   
 

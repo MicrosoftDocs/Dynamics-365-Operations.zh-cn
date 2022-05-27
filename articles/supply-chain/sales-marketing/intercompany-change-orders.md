@@ -1,22 +1,22 @@
 ---
 title: 更改内部公司订单
 description: 本主题说明如何更改内部公司订单功能
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1129794bf0ac6513770f8b2a0eeb7fb6154d7942
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 10efc397c64833785f286983987fd05854a69c0f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548135"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672897"
 ---
 # <a name="change-intercompany-orders"></a>更改内部公司订单
 

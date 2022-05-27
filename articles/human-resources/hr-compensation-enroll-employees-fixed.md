@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d611f2631a59fbe1e131e82ca9937a5adaaf2ebd
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071436"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688732"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
 

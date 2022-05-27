@@ -1,7 +1,7 @@
 ---
 title: 在运输管理中对运费进行对帐
 description: 本主题介绍了运费对帐流程。
-author: Henrikan
+author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 520a0fc78a136b416c943cfb72db1b2be7d2ed0c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574897"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674776"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 

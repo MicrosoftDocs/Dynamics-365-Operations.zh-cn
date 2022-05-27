@@ -1,21 +1,21 @@
 ---
 title: 为全球库存核算启用 Power BI
 description: 本主题介绍了如何为全球库存核算启用 Microsoft Power BI。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 8be486409d60cc4927599816e30e1e4ab21a312a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8013826"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669760"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>为全球库存核算启用 Power BI
 

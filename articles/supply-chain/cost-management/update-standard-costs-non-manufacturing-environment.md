@@ -1,7 +1,7 @@
 ---
 title: 更新非制造环境中的标准成本
 description: 本文提供在非制造环境中更新标准成本的指导。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79723
 ms.assetid: 7ba0c408-2450-4042-9542-6fdf83c12e6c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 139c72fc60330427336de872d7c9730fd12e291f8cad3f7327380b2003535d78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 548955f544842ea5f60fd2d800c8c11cb459ee4c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757846"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679070"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>更新非制造环境中的标准成本
 

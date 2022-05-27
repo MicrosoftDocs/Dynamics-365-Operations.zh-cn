@@ -1,22 +1,22 @@
 ---
 title: 开始使用全球库存核算
 description: 本主题介绍了如何开始使用全球库存核算。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384789"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679434"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 

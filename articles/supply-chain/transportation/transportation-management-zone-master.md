@@ -1,7 +1,7 @@
 ---
 title: 运输管理主区域
 description: 本主题说明通过运输管理如何将地理位置划分为多个区域。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f3e50a61f7fc842a2656a443805ef5c9538fef4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b505d8770102bc02cdc37836f057360775a485c9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567623"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677609"
 ---
 # <a name="transportation-management-zone-master"></a>运输管理主区域
 

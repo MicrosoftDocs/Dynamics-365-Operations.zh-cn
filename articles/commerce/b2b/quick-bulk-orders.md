@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4909056435425f251efb45f5a4355f103a420ba8
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312571"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686538"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>快速完成 B2B 网站下单
 

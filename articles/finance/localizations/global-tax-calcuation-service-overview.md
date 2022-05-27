@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d2fcc883cc87f785cad2e5f7efbf67888ca38d10
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 13768988fcb2b1485753b29b3562c20ee6ba35c7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644661"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687748"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 

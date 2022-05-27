@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065935"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687182"
 ---
 # <a name="benefits-management-overview"></a>福利管理概览
 

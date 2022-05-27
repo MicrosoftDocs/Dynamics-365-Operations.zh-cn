@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Supply Chain Management 用户学习目录
 description: 查找面向 Dynamics 365 Supply Chain Management 用户的所有培训选项。
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402658"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673177"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 用户学习目录
 
@@ -31,7 +31,7 @@ ms.locfileid: "7402658"
 |---------|-------------|--------|--------|
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 8 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
-| [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/modules/get-started-asset-management/index) | 资产管理是 Dynamics 365 Supply Chain Management 中的一个模块，用于管理资产和维护作业。 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。 | 自由、自定进度的在线学习模块 | 1 小时 |
 | [适用于 Dynamics 365 Supply Chain Management 的工程更改管理加载项入门](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management 通过预测性分析为员工和组织提供库存、仓库、制造、服务和后勤的统一视图，而预测性分析可以将数据转化为见解来更好地为战略决策提供支持。 | 自由、自定进度的在线学习模块 | 2 小时 |
 | [开始使用 Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | 通过 Dynamics 365 Intelligent Order Management，客户可以管理订单编排到履行。 这些功能使组织能够编排跨不同平台和应用的订单流。 | 自由、自定进度的在线学习模块 | 4 小时 |
@@ -39,10 +39,10 @@ ms.locfileid: "7402658"
 
 ## <a name="core-platform-knowledge"></a>核心平台知识<a name="core-platform-knowledge"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [在 Finance and Operations 应用中配置组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
-| [在 Finance and Operations 应用中配置和使用分析与报告](/learn/paths/configure-analytics-reporting-finance-operations/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 业务用户还可以配置和使用电子报告工具来采用新的法规要求，并以所需格式生成业务文档与政府机构、银行和其他方进行电子信息交换，无需编写一行代码。 | 自由、自定进度的在线学习路径 | 4 小时 |
+| [在财务和运营应用中配置您的组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用财务和运营应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时 |
+| [配置和使用财务和运营应用中的分析和报告功能](/learn/paths/configure-analytics-reporting-finance-operations/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 业务用户还可以配置和使用电子报告工具来采用新的法规要求，并以所需格式生成业务文档与政府机构、银行和其他方进行电子信息交换，无需编写一行代码。 | 自由、自定进度的在线学习路径 | 4 小时 |
 
 ## <a name="supply-chain-management"></a>供应链管理<a name="supply-chain-management"></a>
 

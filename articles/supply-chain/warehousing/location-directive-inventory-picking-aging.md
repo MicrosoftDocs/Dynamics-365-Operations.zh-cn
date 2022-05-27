@@ -1,7 +1,7 @@
 ---
 title: 库位指令库存领料帐龄
 description: 本主题说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。
-author: mirzaab
+author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578576"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676262"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 

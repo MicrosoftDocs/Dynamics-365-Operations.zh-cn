@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adcb7387b9ac21a88c1ee047d1b9573708a14abb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83669ce2a864ff8646dfafdfb242489e4d5a44cf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068861"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688564"
 ---
 # <a name="develop-a-succession-plan"></a>制订继任计划
 

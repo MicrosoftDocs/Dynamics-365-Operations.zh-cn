@@ -1,7 +1,7 @@
 ---
 title: 创建采购协议
 description: 此主题从头至尾指导您创建一份采购协议。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, 
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2cf437446f2e4c2cdd3cc0cd3be863bbafa132
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565439"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670123"
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 

@@ -1,7 +1,7 @@
 ---
 title: 设置首选技术人员
 description: 您可以选择任何工作人员作为某一服务协议或服务订单的首选技术人员。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dac9af5b0b83875d362f1a9db60c99436d1bb699
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574995"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671665"
 ---
 # <a name="set-up-a-preferred-technician"></a>设置首选技术人员 
 

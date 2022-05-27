@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 1b5e1eb651d882e7fbf38f2f2cf8804c28f2154fcb299dbc5caabbecdfab560b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5ca45ce47e6b558ac5ba24e63e9461c1d643372
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733268"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677497"
 ---
 # <a name="warehouse-location-status"></a>仓库货位状态
 

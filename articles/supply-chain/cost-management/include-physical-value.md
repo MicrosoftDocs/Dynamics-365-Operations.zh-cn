@@ -1,7 +1,7 @@
 ---
 title: 包括实际成本
 description: 您使用“物料模型组”页的“库存模型”选项卡上的“包括实际成本”复选框来指定在为物料计算移动平均成本价时是否考虑了实际更新的交易记录。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711c30376c4f1ecc5c1a747c675e6438a867c51ed066b6c15cdace6a071f7cfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6fb7a2a401bd7900555646c3ff0e1be9bf4a50d3
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751114"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672393"
 ---
 # <a name="include-physical-value"></a>包括实际成本
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
+ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644723"
+ms.lasthandoff: 05/02/2022
+ms.locfileid: "8661816"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
 
@@ -23,7 +23,7 @@ ms.locfileid: "8644723"
 
 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
 
-## <a name="version-20210"></a>版本 2.0.21.0
+## <a name="version-20220"></a>版本 2.0.22.0
 
 此版本引入了以下新增功能、修复和改进：
 

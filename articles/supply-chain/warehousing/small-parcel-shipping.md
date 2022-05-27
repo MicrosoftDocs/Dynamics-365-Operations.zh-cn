@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: cb5a4195d94750fcbee00e7301bd250f653cb347
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576080"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687607"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 

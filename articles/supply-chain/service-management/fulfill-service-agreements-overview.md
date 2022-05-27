@@ -1,7 +1,7 @@
 ---
 title: 履行服务协议概览
 description: 本主题提供履行服务协议的任务的概览。
-author: kamaybac
+author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985878"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677189"
 ---
 # <a name="fulfill-service-agreements-overview"></a>履行服务协议概览
 

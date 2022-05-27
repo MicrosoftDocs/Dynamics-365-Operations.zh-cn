@@ -1,7 +1,7 @@
 ---
 title: 服务订单物料需求
 description: 此主题描述服务订单物料需求。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6a6cd7e89e28b8fc00a8c09f51703995cd79ade5
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573193"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674216"
 ---
 # <a name="service-order-item-requirements"></a>服务订单物料需求
 

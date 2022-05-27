@@ -1,7 +1,7 @@
 ---
 title: 移动平均回退成本序列
 description: 此主题介绍 Microsoft Dynamics 365 Supply Chain Management 中的移动平均回退成本计算顺序。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1056ab771c292aebc54e229d1f14f3901f9a5d9c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568199"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674468"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>移动平均回退成本序列
 

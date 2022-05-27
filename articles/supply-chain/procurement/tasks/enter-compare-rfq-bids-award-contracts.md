@@ -1,7 +1,7 @@
 ---
 title: 输入和比较询价出价并授予合同
 description: 本主题介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579464"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677357"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f515b614aedce3d58994bf21104ada25702a71e
-ms.sourcegitcommit: fc19ee0aba2a6174fef305d151f1eb23ca6c0346
+ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7385692"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689261"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Dynamics 365 Human Resources 2021 年 8 月 9 日版本的新增功能或更改
 
@@ -67,7 +66,7 @@ ms.locfileid: "7385692"
 
 | 功能 | 明细 |
 | --- | --- |
-| 平台更新 10.0.21 (45) | 计划于 2021 年 10 月 4 日在服务版本中开始推出 平台更新 10.0.21。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.21（2021 年 10 月）的平台更新](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21)。 |
+| 平台更新 10.0.21 (45) | 计划于 2021 年 10 月 4 日在服务版本中开始推出 平台更新 10.0.21。 有关详细信息，请参阅[财务和运营应用版本 10.0.21 的平台更新（2021 年 10 月）](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21)。 |
 
 ## <a name="see-also"></a>请参阅
 

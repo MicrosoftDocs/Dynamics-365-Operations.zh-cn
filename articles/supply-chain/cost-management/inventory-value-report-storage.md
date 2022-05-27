@@ -1,22 +1,22 @@
 ---
 title: 库存值报表
 description: 本主题说明如何设置、生成和使用库存值报表。 这些报表提供有关您的库存实际和财务数量和金额的详细信息。
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384687"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676150"
 ---
 # <a name="inventory-value-reports"></a>库存值报表
 

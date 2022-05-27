@@ -1,7 +1,7 @@
 ---
 title: 维修管理
 description: 可以系统化地将多个问题进行分组，以便帮助建议在过去成功的解决方案。
-author: kamaybac
+author: sorenva
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1456c65f28d2a1d06497ddde81c9e68cc078c061
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f969224f48cdb1f12b48b9f5d839d7c88168e87d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567911"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674244"
 ---
 # <a name="repair-management"></a>维修管理       
 

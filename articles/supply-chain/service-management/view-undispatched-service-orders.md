@@ -1,7 +1,7 @@
 ---
 title: 查看未分派的服务订单
 description: 此主题描述如何查看服务订单中未从派遣团队分配工作人员的活动。
-author: kamaybac
+author: sorenva
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d96649d924c748e1f97ca443b8c9412d2dcb02c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e8d33e04f85a298bb303f58f763357247e1fdaf3
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571273"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674188"
 ---
 # <a name="view-undispatched-service-orders"></a>查看未分派的服务订单 
 

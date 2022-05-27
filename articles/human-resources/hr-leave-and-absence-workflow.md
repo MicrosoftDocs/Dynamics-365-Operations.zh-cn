@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b23dbf6a1923030abfadc6d82d57d5ea226b1e42
-ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
+ms.openlocfilehash: a97cbec20d57c47e021582a0b9a1a4d7110c936a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8509224"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687999"
 ---
 # <a name="create-a-leave-request-workflow"></a>创建休假请求工作流
 

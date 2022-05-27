@@ -1,7 +1,7 @@
 ---
 title: 运输管理编号规则
 description: 此主题介绍如何设置运输管理的编号规则。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 080f72da1b5b00d189f0c7916354cbf2d7093370
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64b029cc6164bf1ee597441bcda5addff32e5023
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576128"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673345"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 

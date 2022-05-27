@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 29e45419f712e25092b473e34144ac1146e4ed9b
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913618"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687325"
 ---
 # <a name="customer-management-in-stores"></a>商店中的客户管理
 

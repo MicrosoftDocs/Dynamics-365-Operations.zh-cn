@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba08feacf48b9ae4ec312b5382892719f70c3dda
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 0ef769ccf91d9b734d75c385a60444a4e27c0b2e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533871"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687070"
 ---
 # <a name="configure-waiting-days"></a>配置等待天数
 

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867344"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686702"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>启用税款计算配置的主数据查找 
 

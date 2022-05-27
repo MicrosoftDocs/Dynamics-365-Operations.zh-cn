@@ -1,22 +1,22 @@
 ---
 title: 检查内部公司订单价格差异
 description: 本主题介绍了如何检查内部公司订单价格差异
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f9a0ba4980f8acf56d84dc865094b405b7402ad5
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 3167077e653f2316f5ce54c2a07ef9c2978ecebb
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548116"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678309"
 ---
 # <a name="check-intercompany-order-price-discrepancies"></a>检查内部公司订单价格差异
 

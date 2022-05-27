@@ -1,22 +1,22 @@
 ---
 title: 全局移动设备参数
 description: 本主题说明如何在仓库管理参数页面上设置移动设备设置。
-author: HuberIvan
+author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
 ms.search.form: WHS
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-huberivan
+ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 03c10232d55c99c73e625170797f89f6c77e812b
-ms.sourcegitcommit: 99bde425ade701ef244c6bca6d411aef94a59b3c
+ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7505549"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679156"
 ---
 # <a name="global-mobile-device-parameters"></a>全局移动设备参数
 

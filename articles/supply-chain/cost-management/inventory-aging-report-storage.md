@@ -1,7 +1,7 @@
 ---
 title: 库龄报表存储
 description: 本主题介绍使您可以运行库龄报表并使输出以表单和图表形式提供的功能。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe9e91c33c782c319245b9e8c667f5db6a0e929c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781102"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672365"
 ---
 # <a name="inventory-aging-report-storage"></a>库龄报表存储
 

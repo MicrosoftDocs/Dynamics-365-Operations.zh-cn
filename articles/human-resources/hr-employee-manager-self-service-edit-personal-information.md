@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d7e78873d0995334ac80ac22e8058b7fe0bc31ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071392"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686100"
 ---
 # <a name="edit-personal-information"></a>编辑个人信息
 

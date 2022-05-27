@@ -1,7 +1,7 @@
 ---
 title: 比较生产订单上的有效、估计和实际成本
 description: 此程序显示如何查看生产订单出现高产量差异的原因。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb35d92d4bda8a4616902d31a85e4999515a70f0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4828fdb3419309b43115ce1cae8770eadf361f63
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572065"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671385"
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>比较生产订单上的有效、估计和实际成本
 

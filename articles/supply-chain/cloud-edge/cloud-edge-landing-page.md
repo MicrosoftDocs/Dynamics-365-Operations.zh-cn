@@ -1,22 +1,22 @@
 ---
 title: 分布式混合拓扑中的缩放单元
 description: 本主题提供有关制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit 的信息。
-author: cabeln
+author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: cabeln
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376174"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676319"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 

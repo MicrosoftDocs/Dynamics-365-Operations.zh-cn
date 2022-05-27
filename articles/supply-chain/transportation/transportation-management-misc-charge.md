@@ -1,7 +1,7 @@
 ---
 title: 运输管理杂项费用
 description: 此主题说明运输产生的费用为何必须与费用代码关联。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 776c73b1a29666e393bed7c40059a578fe86cb0d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e54c94baeba487ccd8fe26e58d3e891e5e3a1088
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576176"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672589"
 ---
 # <a name="transportation-management-miscellaneous-charges"></a>运输管理杂项费用
 

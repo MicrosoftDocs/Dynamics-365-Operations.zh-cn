@@ -1,7 +1,7 @@
 ---
 title: 创建按预算管理的采购订单
 description: 使用此过程可以创建为可用预算检查的采购订单。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e2bfec4d7d38ef95d1f0ce3bd89938337ecf731
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e8458fc1f47f929ac612acfb3a2d75a79c8fb7d6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572041"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671357"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>创建按预算管理的采购订单
 

@@ -1,7 +1,7 @@
 ---
 title: 为制造物料摊销固定成本
 description: 制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: d9c539d525639ace6a139716e0644214364a060a2957ac97586cfad617e56ec0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d466395859e19874183691e697c8aca3a774d359
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726937"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675394"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>为制造物料摊销固定成本
 

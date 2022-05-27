@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323657"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689233"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的复合数据类型
 
@@ -81,7 +81,7 @@ ms.locfileid: "8323657"
 
 默认情况下，*记录列表* 的记录按顺序访问。 若要访问特定记录，您可以使用 [INDEX](er-functions-list-index.md) 函数并指定 *整数* 索引。
 
-*记录列表* 的默认值为 **空**。 您可以使用 [ISEMPTY](/er-functions-list-isempty.md) 函数评估 *记录列表* 是否为空。
+*记录列表* 的默认值为 **空**。 您可以使用 [ISEMPTY](er-functions-list-isempty.md) 函数评估 *记录列表* 是否为空。
 
 > [!NOTE]
 > 如果 *记录列表* 为空，在每次尝试在该列表中获取 *记录* 的字段值时都将在运行时引发异常。 若要了解如何帮助防止此类型的运行时异常，请参阅[空列表用例的注意事项](er-components-inspections.md#i9)。

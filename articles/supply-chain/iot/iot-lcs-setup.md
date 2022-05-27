@@ -1,25 +1,25 @@
 ---
 title: 在 LCS 中安装 IoT 智能加载项
 description: 此主题介绍如何在 Microsoft Dynamics Lifecycle Services (LCS) 中安装 IoT 智能加载项。
-author: tonyafehr
+author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645068"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679014"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>在 LCS 中安装 IoT 智能加载项
 

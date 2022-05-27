@@ -1,7 +1,7 @@
 ---
 title: 服务任务概览
 description: 使用服务任务可以描述要在服务订单期间完成的任务。 技术人员和客户都可以看到此信息。
-author: kamaybac
+author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 76eba18fb9228c3b9c2accf17cb938e7f2a12dbe
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982476"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671693"
 ---
 # <a name="service-tasks-overview"></a>服务任务概览
 

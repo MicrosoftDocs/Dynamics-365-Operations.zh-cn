@@ -1,7 +1,7 @@
 ---
 title: 成本管理主页
 description: 可通过成本管理处理原材料、半成品、成品和在制品资产的计价和核算。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739099"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672477"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 

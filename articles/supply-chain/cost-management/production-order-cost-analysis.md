@@ -1,7 +1,7 @@
 ---
 title: 生产订单成本分析
 description: 本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79634
 ms.assetid: ded5da04-f787-49f7-b5e5-75c2a2b92930
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd303efb5aee53eec36fac7ec6329d28aacf96a1
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734251"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672281"
 ---
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
 

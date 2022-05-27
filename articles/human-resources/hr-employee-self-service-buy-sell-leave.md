@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b7125df93d9bdfb866b37abebbdc412d7e5b95
-ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
+ms.openlocfilehash: 695840516849dcfeb69895f6808d828d5878c59b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8509379"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688167"
 ---
 # <a name="buy-and-sell-leave"></a>购买和出售休假
 

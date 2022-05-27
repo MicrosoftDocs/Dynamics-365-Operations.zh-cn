@@ -1,7 +1,7 @@
 ---
 title: 为新的制造物料更新标准成本
 description: 本文提供更新新制造物料的标准成本的指导。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231f0ed5acc86dbe5368b3c7306dd89c8ba0b74901a7e1ccf8410c6585638efa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ebc2760777b8f17dc87b06899327d502ac7a0ba7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733484"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669775"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>为新的制造物料更新标准成本
 

@@ -1,7 +1,7 @@
 ---
 title: 查看成本对象的成本条目
 description: 该过程说明如何查看成本对象的成本条目。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e99d350abd810045b6b5b4c840f67d21c9d5e39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0cfa54c63a60006e22d21d7c8f214d8353254e6a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569857"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669619"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>查看成本对象的成本条目
 

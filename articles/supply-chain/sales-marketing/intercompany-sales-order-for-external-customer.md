@@ -1,22 +1,22 @@
 ---
 title: 为外部客户创建内部公司销售订单，并为这些订单开票
 description: 本主题说明如何为外部客户创建内部公司销售订单，并为这些订单开票
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c8a22ded1a6242e4062e1ce9e0ce624d4579fba9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074986"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669367"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>为外部客户创建内部公司销售订单，并为这些订单开票
 

@@ -1,7 +1,7 @@
 ---
 title: 通过使用多级结构计算 BOM（2016 年 2 月）
 description: 此过程显示如何通过使用“成本计算单”中的多级分解计算成品的成本。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78a8bb51925489015098fc0ce5552107255bc3e4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b6f5bfacbcf4238102c5f9f26fdf1a30f5da27fc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572113"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672141"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>通过使用多级结构计算 BOM（2016 年 2 月）
 

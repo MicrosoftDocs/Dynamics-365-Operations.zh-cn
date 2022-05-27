@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 18347527517d6d051213fbe13caca54ed9214111
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066842"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688648"
 ---
 # <a name="create-variable-compensation-plans"></a>创建可变薪酬计划
 
