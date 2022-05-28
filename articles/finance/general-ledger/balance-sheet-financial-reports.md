@@ -1,6 +1,6 @@
 ---
 title: 资产负债表财务报表
-description: 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
+description: 本主题介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,32 +8,32 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 276e877db42361282ad2bf4a01dd971ec02e2af7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734506"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734296"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
+本主题介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
 ## <a name="default-balance-sheet-reports"></a>默认资产负债表
 
 有两个默认的资产负债表。 在一个报表中，这些部分堆积起来。 在另一个报表中，这些部分是并行的。
 
 | 默认报表                       | 作用                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|----------------------------------------------------------------------------------------------|
 | 资产负债表 – 默认              | 提供组织的年度财务状况视图。                                                                 |
 | 并排资产负债表 – 默认 | 提供组织的年度财务状况视图。 资产和负债，以及股东权益是并排的。 |
 

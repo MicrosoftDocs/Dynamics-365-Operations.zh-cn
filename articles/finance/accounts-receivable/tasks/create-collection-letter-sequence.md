@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921191"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734149"
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921191"
 
 使用此过程创建催款单序列。 此任务使用 USMF 公司演示。
 
-1. 在导航窗格中，转到 **模块 > 信用和收款 > 设置 > 设置催款单序列**。
+1. 转到 **信用征收 > 设置 > 设置收款单序列**。
 2. 单击 **新建**。
 3. 在 **收款单序列** 字段中，输入要代表序列的序列 ID。 将使用该 ID 设置过帐模板。
-4. 在 **描述** 字段中，键入一个值。  付款期限是可选的。 如果您在此处输入一个值，则收款单费用发票将使用这些付款期限，而非客户所保留的付款期限。  
+4. 在 **描述** 字段中，键入一个值。 付款期限是可选的。 如果您在此处输入一个值，则收款单费用发票将使用这些付款期限，而非客户所保留的付款期限。  
 5. 在 **收款单代码** 字段中，选择您想要发送的第一个收款单代码。 根据发票上的截止日期、您在“天数”字段中输入的宽限期值以及您在此行中输入的其它信息创建第一个收款单。  
 6. 在 **描述** 字段中，键入一个值。 
 7. 该费用的默认货币为法人货币。 此币种代码可以不同于发票币种。   
@@ -52,9 +52,9 @@ ms.locfileid: "7921191"
 22. 在列表中，单击所选行中的链接。
 23. 在 **最小的逾期余额** 字段中，输入一个数字。
 24. 在 **天数** 字段中，输入一个数字。
-25. 选中 **阻止** 复选框，以阻止客户进一步交货和开票。 若要解锁帐户，则在客户页的“开票和交货暂停”字段中选择 **不**。  
+25. 选中 **阻止** 复选框，以阻止客户进一步交货和开票。 若要解锁帐户，则在 **客户** 页的 **开票和交货暂停** 字段中选择 **不**。  
 26. 展开 **注释** 快速选项卡。
-27. 输入显示在所选收款单代码的收款单文本。 您可以应用注释框上方的“翻译菜单”将此文本翻译为多种语言。  
+27. 输入显示在所选收款单代码的收款单文本。 您可以应用注释框上方的 **翻译** 菜单将此文本翻译为多种语言。  
 
 
 

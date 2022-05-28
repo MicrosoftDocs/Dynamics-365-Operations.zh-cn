@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064914"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743532"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS 集成 API 的服务器到服务器身份验证
 
@@ -89,7 +89,7 @@ ms.locfileid: "8064914"
 
 第二步是通过将它链接到 Human Resources 应用程序中的用户来确保向应用程序授予对 Human Resources 中数据的适当权限。 对于应用程序用户，在调用操作的 Dataverse 中的用户（应用）标识的上下文中完成通过 Dataverse 虚拟表的服务器到服务器调用。 然后，虚拟表适配器服务在 Human Resources 中查找关联的用户并在该用户的上下文中运行查询。 这意味着必须在 Human Resources 中创建用户并分配正确的角色，才能提供对集成应用程序所需数据的访问权限。
 
-还需要向 Human Resources 用户分配对 Human Resources 中数据的正确权限。 **招聘应用程序** (HcmRecruitingIntegrator) 角色提供有对与招聘数据集成所需的主要实体的特权。 可以将此角色分配给 **用户** 页面中的应用程序用户以授予对数据的适当访问权限。 有关 Human Resources 安全角色的详细信息，请参阅[基于角色的安全性](/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+还需要向 Human Resources 用户分配对 Human Resources 中数据的正确权限。 **招聘应用程序** (HcmRecruitingIntegrator) 角色提供有对与招聘数据集成所需的主要实体的特权。 可以将此角色分配给 **用户** 页面中的应用程序用户以授予对数据的适当访问权限。 有关 Human Resources 安全角色的详细信息，请参阅[基于角色的安全性](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>设置具有适当权限的新用户
 

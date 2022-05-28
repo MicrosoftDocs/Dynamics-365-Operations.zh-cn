@@ -1,7 +1,7 @@
 ---
 title: 手动创建服务订单
 description: 您可以通过使用服务协议或通过使用 **服务订单** 窗体，手动创建服务订单。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578840"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678253"
 ---
 # <a name="create-service-orders-manually"></a>手动创建服务订单    
 

@@ -1,6 +1,6 @@
 ---
 title: 应计概览
-description: 本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。
+description: 本主题介绍应计项目，并且提供有关如何设置和创建交易记录的信息。
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14131"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985279"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735223"
 ---
 # <a name="accruals-overview"></a>应计概览
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。
+本主题介绍应计项目，并且提供有关如何设置和创建交易记录的信息。
 
 应计用于在权责发生制中跟踪在取得收入的期间中识别的收入，而不是接收付款时，和跟踪支出（成本）发生时识别的支出（成本），而不是在进行付款时。
 

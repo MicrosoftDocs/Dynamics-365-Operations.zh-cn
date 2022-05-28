@@ -6,16 +6,15 @@ ms.date: 12/10/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 43418b61778d187364d4d52a05178078a37623eb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984262"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689094"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>异步客户创建模式
 

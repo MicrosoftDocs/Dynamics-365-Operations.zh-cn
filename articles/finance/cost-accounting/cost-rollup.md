@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779948"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734420"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779948"
 成本核算让您能够了解成本流与在组织中交付的产品和服务之间的关联。 若要查看成本的透明度，基于适当的分配基础实现成本对象间的成本分配十分重要。 默认情况下，为主要成本元素实现成本分配，这在有些情况下有利，但它有一些应该考虑的影响。
 
 -   在开销计算后，辅助成本对象将以主要成本元素零余额结束。
-
 -   开销计算生成的成本条目数量可能非常高。
-
 -   无法跟踪成本对象间的成本流。
 
 要避免这些影响，成本核算让您能够配置成本分配以适应您的组织的管理报告要求。 本主题讨论您可以如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。

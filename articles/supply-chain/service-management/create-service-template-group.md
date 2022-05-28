@@ -1,7 +1,7 @@
 ---
 title: 创建服务模板组
 description: 您可以使用服务模板组对服务模板进行排序和筛选。
-author: kamaybac
+author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4898ed3091a5255fb106f2aec64e4ff42219ebe1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9f9ca289466c4207fa95c7ab16d6b63748446242
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566207"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674916"
 ---
 # <a name="create-a-service-template-group"></a>创建服务模板组  
 

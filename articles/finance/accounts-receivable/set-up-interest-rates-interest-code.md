@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 59402
 ms.assetid: 3b945333-1eaf-4658-ab5a-1a7791a7eb40
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c1d85e50a8e6f57ed0678fa6169d94152320861
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716709"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726063"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 

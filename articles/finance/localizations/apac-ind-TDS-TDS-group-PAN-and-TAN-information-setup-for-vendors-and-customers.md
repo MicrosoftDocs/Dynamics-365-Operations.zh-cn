@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 808fa7b72651ab274415e48f5e0a356784ca6525
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407528"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726940"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>为供应商和客户设置的 TDS 组、PAN 和 TAN 信息
 

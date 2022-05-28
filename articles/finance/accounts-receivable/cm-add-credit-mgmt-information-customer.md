@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753962"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734448"
 ---
 # <a name="add-credit-management-information-for-customers"></a>为客户添加信用管理信息
 
@@ -32,7 +32,7 @@ ms.locfileid: "7753962"
 1. 如果客户不应受任何信用额度测试的限制，请将 **无限信用额度** 选项设置为 **是**。
 2. 将 **从信用管理中排除** 选项设置为 **是**，以将客户排除在信用管理流程中通常发生的任何操作之外。
 3. 为客户选择信用管理组。
-4. 要计算以客户货币为单位的信用额度，请在 **客户货币信用额度** 字段中输入客户的信用额度。 将使用由在“信用管理参数”中选择的信用额度汇率类型所定义的汇率转换公司货币信用额度。
+4. 要计算以客户货币为单位的信用额度，请在 **客户货币信用额度** 字段中输入客户的信用额度。 将使用由在 **信用管理参数** 中选择的信用额度汇率类型所定义的汇率转换公司货币信用额度。
 5. 在 **上次审核日期** 字段中，输入信用经理上次审查客户信用额度的日期。
 6. 在 **已计划的下一次审查日期** 字段中，输入计划对客户进行信用审核和更新的日期。
 7. 在 **合格信用额度** 字段中，根据您对该客户的信用记录的审核，输入可以分配给该客户的最高信用额度。 合格信用额度可能与 **信用和收款** 快速选项卡上显示的信用额度不同。
@@ -46,7 +46,8 @@ ms.locfileid: "7753962"
 15. 在 **自从以下时间以来的客户** 字段中，输入为客户处理第一笔交易的日期。 此信息在创建风险评分时使用。
 16. 输入信贷团队可以用来进一步评估客户信贷价值的注释。
 
-请注意，**客户** 页面中显示的某些信息是由另一个流程创建的：
+> [!Note] 
+> **客户** 页面中显示的某些信息是由另一个流程创建的：
 
 - **信用额度到期日期** 字段显示了信用额度将到期的日期。 如果您未设置此字段，则客户的信用额度不会过期。
 - **信用额度日期** 字段显示了信用额度的创建日期。 每当调整信用额度时，此字段就会更新。

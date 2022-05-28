@@ -1,7 +1,7 @@
 ---
 title: 自动创建服务订单
 description: 您可以为某个服务协议或若干服务协议创建服务订单。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fc63a720dd06c85be17ca61de1fe7c25f1cf3f7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bd2d0e8463e12004022caeb464d70881aa895ce
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571537"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670068"
 ---
 # <a name="create-service-orders-automatically"></a>自动创建服务订单    
 

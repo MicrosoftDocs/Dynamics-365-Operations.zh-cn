@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8fd2301808f7eaec2ea9c01a66f030f527f461a36b3cb8aabddcfbf414f06d2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a65971fa1da60b00bb525d450c0eb59aee57116e
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779900"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733754"
 ---
 # <a name="work-with-the-electronic-messages-functionality"></a>使用电子消息功能
 

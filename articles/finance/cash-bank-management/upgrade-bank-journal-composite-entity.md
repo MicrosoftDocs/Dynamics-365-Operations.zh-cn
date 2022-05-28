@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 730e6bd10b0cdd1587c915bb9ec8d6a4792435d9
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595426"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727249"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>更新银行日记帐组合实体
 

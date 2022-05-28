@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82b00387e39b88e1ab2bc27d9dbc4e36aac3a7a605c04669171997ba236ae39a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 969d086c77b40b59495ae0d9e631579abf5e0ec6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751294"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686398"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>未生成 TaxTrans 记录
 

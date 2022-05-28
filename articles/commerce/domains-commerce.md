@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中的域
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733983"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737338"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733983"
 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 
 域是用于在 Web 浏览器中导航到 Dynamics 365 Commerce 站点的 Web 地址。 请使用所选域名服务器 (DNS) 提供商管理域。 发布站点时，整个 Dynamics 365 Commerce 站点构建器中都引用域协调站点的访问方法。 此主题介绍在 Commerce 站点的整个开发和启动生命周期中如何处理和引用域。
+
+> [!NOTE]
+> 自 2022 年 5 月 6 日起，在 Dynamics 365 Commerce 中创建的所有环境都将使用 `.dynamics365commerce.ms` 域进行预配，取代早期的 `.commerce.dynamics.com` 模式。 使用 `.commerce.dynamics.com` 域预配的现有环境将继续工作。
 
 ## <a name="provisioning-and-supported-host-names"></a>预配和支持的主机名
 
@@ -44,7 +47,7 @@ ms.locfileid: "6733983"
 
 ## <a name="commerce-generated-urls"></a>Commerce 生成的 URL
 
-在预配 Dynamics 365 Commerce 电子商务环境时，Commerce 将生成充当环境的工作地址的 URL。 预配环境后，将在 LCS 中显示的电子商务站点链接中引用该 URL。 Commerce 生成的 URL 的格式为 `https://<e-commerce tenant name>.commerce.dynamics.com`，其中，电子商务租户名称为在 LCS 中为 Commerce 环境输入的名称。
+在预配 Dynamics 365 Commerce 电子商务环境时，Commerce 将生成充当环境的工作地址的 URL。 预配环境后，将在 LCS 中显示的电子商务站点链接中引用该 URL。 Commerce 生成的 URL 的格式为 `https://<e-commerce tenant name>.dynamics365commerce.ms`，其中，电子商务租户名称为在 LCS 中为 Commerce 环境输入的名称。
 
 也可以在沙盒环境中使用生产站点主机名。 在将站点从沙盒环境复制到生产时，此选项为理想选项。
 
@@ -67,11 +70,11 @@ ms.locfileid: "6733983"
 
 例如，如果站点构建器中有一个站点在电子商务租户“xyz”中称为“fabrikam”，并且为该站点设置空路径，则可以通过在 Web 浏览器中直接转到 Commerce 生成的基 URL 来访问发布的站点内容：
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 或者，如果在设置同一个站点期间添加了路径“fabrikam”，则可以通过在 Web 浏览器中使用以下 URL 访问发布的站点内容：
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>页面和 URL
 
@@ -92,16 +95,16 @@ ms.locfileid: "6733983"
 在站点构建器中处理站点时，如果为两个站点设置两个不同域，可以将 **?domain=** 属性追加到工作 URL 以在浏览器中访问发布的站点内容。
 
 例如，已预配了环境“xyz”，并且已经创建了两个站点且已在站点构建器中关联：一个的域为 `www.fabrikam.com`，另一个的域为 `www.constoso.com`。 每个站点都是使用空路径设置的。 然后可以使用 **?domain=** 属性如下所示在 Web 浏览器中访问这两个站点：
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-如果在提供了多个域的环境中不指定域查询字符串，Commerce 将使用您提供的第一个域。 例如，如果路径“fabrikam”是在站点设置期间提供的第一个路径，则可以使用 URL `https://xyz.commerce.dynamics.com` 访问为 `www.fabrikam.com` 发布的站点内容站点。
+如果在提供了多个域的环境中不指定域查询字符串，Commerce 将使用您提供的第一个域。 例如，如果路径“fabrikam”是在站点设置期间提供的第一个路径，则可以使用 URL `https://xyz.dynamics365commerce.ms` 访问为 `www.fabrikam.com` 发布的站点内容站点。
 
 ## <a name="traffic-forwarding-in-production"></a>生产中的流量转发
 
-可以在 commerce.dynamics.com 终结点本身使用域查询字符串参数模拟多个域。 但是如果需要投入生产，则必须将自定义域的流量转发到 `<e-commerce tenant name>.commerce.dynamics.com` 终结点。
+可以在 commerce.dynamics.com 终结点本身使用域查询字符串参数模拟多个域。 但是如果需要投入生产，则必须将自定义域的流量转发到 `<e-commerce tenant name>.dynamics365commerce.ms` 终结点。
 
-`<e-commerce tenant name>.commerce.dynamics.com` 终结点不支持自定义域安全套接字层 (SSL)，因此必须使用前门服务或内容交付网络 (CDN) 设置自定义域。 
+`<e-commerce tenant name>.dynamics365commerce.ms` 终结点不支持自定义域安全套接字层 (SSL)，因此必须使用前门服务或内容交付网络 (CDN) 设置自定义域。 
 
 若要使用前门服务或 CDN 设置自定义域，有两个选择：
 

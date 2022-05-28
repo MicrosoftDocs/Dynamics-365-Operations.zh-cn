@@ -1,7 +1,7 @@
 ---
 title: 预订组
 description: 此主题概括介绍在预订组中定义的内容。
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 642d53048e8a19132f760f3248d2efa1974b9edc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0520b21c8112ab894c0f6b56dbf1e7788d5a9fa9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580232"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670683"
 ---
 # <a name="subscription-groups"></a>预订组    
 

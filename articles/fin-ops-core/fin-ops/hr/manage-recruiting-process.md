@@ -1,31 +1,31 @@
 ---
 title: 管理招聘流程
 description: 本主题介绍招聘人员可以用于跟踪招聘流程的步骤的概念。
-author: andreabichsel
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075467"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735365"
 ---
 # <a name="manage-recruiting-processes"></a>管理招聘流程
 
 > [!IMPORTANT]
-> 本主题中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
+> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。 
 
 
 本主题介绍招聘人员可以用于跟踪招聘流程的步骤的概念，包括宣传空缺职位和招聘申请人的工作，跟踪申请人和申请信息，面试申请人，以及选择一个或多个候选人以填充您的组织的空缺职位。

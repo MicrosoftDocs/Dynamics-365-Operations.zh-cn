@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5ff8d2f4663c53bf6dece1ef9af6609d5f0c5b50
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544467"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690939"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>订阅计费中的收入和费用延期
 

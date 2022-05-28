@@ -1,6 +1,6 @@
 ---
 title: 设置销售税结算期间
-description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税结算期。
+description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税结算期间。
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732949"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735805"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -26,9 +26,9 @@ ms.locfileid: "6732949"
 
 本主题说明如何设置销售税结算期。 销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。 结算流程可在结算期间或特定日期间隔内运行。 所有与结算期间相关的税务代码将进行结算。 根据相关销售税主管机构的设置，应交税金过帐到供应商或总帐科目。
 
-此任务使用 USMF 公司演示。
+本任务使用 USMF 公司进行演示。
 
-1. 在导航窗格中，转到 **模块 > 纳税 > 间接税 > 销售税 > 销售税结算期**。
+1. 转到 **纳税 > 间接税 > 销售税 > 销售税结算期间**。
 2. 选择 **新建**。
 3. 在 **结算期间** 字段中，输入一个值。
 4. 在 **描述** 字段中，键入一个值。

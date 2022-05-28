@@ -1,7 +1,7 @@
 ---
 title: 服务模板
 description: 您可以将某一服务协议定义为模板，并且以后将该模板上的行复制到其他服务协议或服务订单中。
-author: kamaybac
+author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82a19dbee91f13eb3ef56dfd67a775930170b8e7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576296"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669984"
 ---
 # <a name="service-templates"></a>服务模板
 

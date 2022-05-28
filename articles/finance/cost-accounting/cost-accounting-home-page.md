@@ -1,28 +1,28 @@
 ---
 title: 成本核算主页
 description: 本主题提供可用于成本核算的帮助主题和其他资源列表。
-author: ShylaThompson
+author: aprilolson
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "256254"
 - intro-internal
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb59e2bf836f66f7f524461d4aad53bdb258b4f
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 7ab46736ed40b78afa6596e418999e24ea6e46cd
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548099"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712444"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 

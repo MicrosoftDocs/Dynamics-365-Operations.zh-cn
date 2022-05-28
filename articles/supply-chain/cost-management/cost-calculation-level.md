@@ -1,7 +1,7 @@
 ---
 title: 成本计算级别
 description: 本主题介绍名为“成本计算级别”的物料清单 (BOM) 级别。 此物料清单级别从计算中排除了生产订单和批次订单。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 563d866c93e9205914f633f3435ef4b46f85b814
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581024"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679546"
 ---
 # <a name="cost-calculation-level"></a>成本计算级别
 

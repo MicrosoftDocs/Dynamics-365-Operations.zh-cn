@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 401195
 ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ced09fb4be49dbfd10dac9f9ece86372d38e854460c7ca6cd72922c64ac7cce4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724127"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692664"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>按时间顺序对文件和凭证编号
 

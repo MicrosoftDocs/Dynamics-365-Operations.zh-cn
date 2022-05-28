@@ -1,7 +1,7 @@
 ---
 title: 负荷模板
 description: 本主题介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569905"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674636"
 ---
 # <a name="load-templates"></a>负荷模板
 

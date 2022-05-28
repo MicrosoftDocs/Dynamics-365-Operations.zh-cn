@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109852"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725896"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
@@ -34,7 +34,7 @@ ms.locfileid: "8109852"
 
 ### <a name="resolution"></a>解决方法
 
-您可能正在使用早期版本的模板。 在 10.0.17 版本发布之前，预览版客户使用 **付款预测结果（预览版）** 实体配置了 **客户付款见解结果（CDS 到 Fin and Ops）** 数据集成 (DI) 模板。 升级到 10.0.17 及更高版本后，您应该使用 **客户付款见解结果（CDS 到 Fin and Ops 10.0.17 及更高版本）** DI 模板来完成映射。 在刷新数据管理实体列表并且其中出现 **付款预测结果** 实体之前，您可能无法映射 DI 模板目标列。 若要刷新实体列表并显示付款预测结果，您将在 Microsoft Dynamics 365 Finance和 Dataverse（以前称为 Common Data Service\[CDS \] 管理员门户）中完成相关步骤。
+您可能正在使用早期版本的模板。 在 10.0.17 版本发布之前，预览版客户使用 **付款预测结果（预览版）** 实体配置了 **客户付款见解结果（CDS 到 Fin and Ops）** 数据集成 (DI) 模板。 升级到 10.0.17 及更高版本后，您应该使用 **客户付款见解结果（CDS 到 Fin and Ops 10.0.17 及更高版本）** DI 模板来完成映射。 在刷新数据管理实体列表并且其中出现 **付款预测结果** 实体之前，您可能无法映射 DI 模板目标列。 若要刷新实体列表并显示付款预测结果，您将在 Microsoft Dynamics 365 Finance 和 Dataverse（以前称为 Common Data Service\[CDS \] 管理员门户）中完成相关步骤。
 
 ### <a name="in-finance"></a>在 Finance 中
 

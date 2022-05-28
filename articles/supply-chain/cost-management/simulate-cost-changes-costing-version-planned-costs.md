@@ -1,7 +1,7 @@
 ---
 title: 通过将成本计算版本用于计划成本，模拟成本变化
 description: 本文说明您如何使用针对计划成本的某一单独成本计算版本模拟成本变化对制造物料的计算成本的影响。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 78183
 ms.assetid: 1e41953f-cdb9-4598-b776-46e49383a773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e288a5f00e43901ba1bf6ec50f460be4b62ea2db73adbaf0f9204c988e812f58
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ad3d6bd41e090b13f48ecc7bb19faae5dbc8502
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781553"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676169"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>通过将成本计算版本用于计划成本，模拟成本变化
 

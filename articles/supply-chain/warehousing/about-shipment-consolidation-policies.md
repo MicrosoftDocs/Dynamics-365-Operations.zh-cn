@@ -1,7 +1,7 @@
 ---
 title: 装运合并政策
 description: 此主题概述灵活配置装运合并策略的功能。
-author: GarmMSFT
+author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51235a21955ed4528233babd4c767112998f9d6b
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577952"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747682"
 ---
 # <a name="shipment-consolidation-policies"></a>装运合并政策
 
@@ -123,8 +123,8 @@ ms.locfileid: "7577952"
 | 不适用 | 为合并选择的销售装运或转移装运必须与正在创建的装运的合并策略相同，或者必须将其分配给未结装运（当开启了 **与现有装运合并** 选项时）。 |
 | *发放到仓库* 过程不在现有装运中搜索以查找要合并的装运。 将仅把 *发放到仓库* 过程的当前实例创建的装运用于查找要合并的装运。 | 如果为当前正在使用的合并策略开启了 **与现有装运合并** 选项，*发放到仓库* 过程将在基于同一个合并策略创建的现有装运中搜索以查找要合并的装运。 因此，如果您有两个策略，切勿将正在基于策略 2 创建的装运与基于策略 1 创建的装运合并。 |
 | 不适用 | 如果合并策略字段列表为空，或者找不到策略，将为每个销售订单或转移单行创建新装运。 |
-| 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li></ul> | 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode)</li><li>承运人组 (CarrierGroupCode)</li><li>交货期 (DlvTermId)</li></ul>创建新装运时，只有这些字段可用和初始化这些字段。 |
-| 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li><li>交货期 (DlvTermId)</li></ul> | 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>帐号 (AccountNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode)</li><li>承运人组 (CarrierGroupCode)</li><li>代理人 ID (BrokerCode)</li><li>方向 (LoadDirection)</li><li>交货期 (DlvTermId)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li></ul>创建新装运时，只有这些字段可用和初始化这些字段。 |
+| 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li></ul> | 以下合并字段定义用于合并 *转移行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode) \*</li><li>承运人组 (CarrierGroupCode)</li><li>交货期 (DlvTermId)</li></ul><p>创建新装运时，只有这些字段可用和初始化这些字段。</p><p>\* 注意：*ModeCode* 是分配给为转移行选择的 **装运承运人** 的 **模式**（不是为转移行选择的 **交货模式**）。 如果您选择在您的合并标准中包含 *交货模式 (ModeCode)*，则系统将仅合并具有相同 **模式** 值的转移行，前提是为此行定义了所有 **装运承运人**、**承运人服务** 和 **交货模式**（无论它们的值如何）。 此外，系统还将合并 **模式** 为空的所有转移行。</p> |
+| 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li><li>交货期 (DlvTermId)</li></ul> | 以下合并字段定义用于合并 *销售行* 的装运的值的唯一组合。 （将忽略所有其他字段。）<ul><li>订单号 (OrderNum)</li><li>帐号 (AccountNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>ISO 国家/地区代码 (CountryRegionISOCode)</li><li>地址 (Address)</li><li>站点 (InventSiteId)</li><li>仓库 (InventLocationId)</li><li>装运承运人 (CarrierCode)</li><li>承运人服务 (CarrierServiceCode)</li><li>交货方式 (ModeCode) \*</li><li>承运人组 (CarrierGroupCode)</li><li>代理人 ID (BrokerCode)</li><li>方向 (LoadDirection)</li><li>交货期 (DlvTermId)</li><li>客户参考 (CustomerRef)</li><li>客户申请 (CustomerReq)</li></ul><p>创建新装运时，只有这些字段可用和初始化这些字段。</p><p>\* 注意：*ModeCode* 是分配给为销售行选择的 **装运承运人** 的 **模式**（不是为销售行选择的 **交货模式**）。 如果您选择在您的合并标准中包含 *交货模式 (ModeCode)*，则系统将仅合并具有相同 **模式** 值的销售行，前提是为此行定义了所有 **装运承运人**、**承运人服务** 和 **交货模式**（无论它们的值如何）。 此外，系统还将合并 **模式** 为空的所有销售行。</p> |
 | 不适用 | 以下合并字段是 *销售行* 的必需字段，不能删除：<ul><li>帐号 (AccountNum)</li><li>收货人 (DeliveryName)</li><li>邮寄地址 (DeliveryPostalAddress)</li><li>仓库 (InventLocationId)</li></ul>默认情况下，在创建新策略时分配这些字段。 不能删除它们。 |
 | **装载计划工作台** 页面中的 *将装载发放到仓库* 过程使用自己的单独代码创建装运和波次。 | 将应用装运合并策略以确定应该为合并评估哪些字段。 仅在一个装载中合并装运。 |
 | 请在 **所有装运** 页中手动选择 **合并装运**，然后选择目标“基础”装运。 筛选器将推荐具有多个关键字段的匹配值的任何现有装运。 | 请在 **所有装运** 页中手动选择 **合并装运**，然后选择目标“基础”装运。 系统将通过匹配为相关装运合并策略配置的多个关键字段的值，建议其他现有装运。 |

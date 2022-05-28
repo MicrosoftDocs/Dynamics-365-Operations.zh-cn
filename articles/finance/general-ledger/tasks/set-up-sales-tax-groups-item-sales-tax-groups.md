@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739327"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734858"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>设置销售税组和物料销售税组
 
 [!include [banner](../../includes/banner.md)]
 
-此任务记录向您介绍销售税和物料销售税组的设置。 增值税组是附加到客户和供应商的增值税代码组。 它们也附加到了交易记录的会计科目，这些会计科目没有过帐到某个特定的供应商或客户。  物料销售税组是附到产品等资源中的销售税代码组。  应用到特定交易记录的增值税由该交易记录的增值税组及增值税（物料）组中包括的增值税代码决定。  仅当为必须及时或记录增值税的每个交易记录选择了增值税组合物料增值税组，才能计算增值税。  
+此任务记录向您介绍销售税和物料销售税组的设置。 增值税组是附加到客户和供应商的增值税代码组。 它们也附加到了交易记录的会计科目，这些会计科目没有过帐到某个特定的供应商或客户。 物料销售税组是附到产品等资源中的销售税代码组。 应用到特定交易记录的增值税由该交易记录的增值税组及增值税（物料）组中包括的增值税代码决定。 仅当为必须及时或记录增值税的每个交易记录选择了增值税组合物料增值税组，才能计算增值税。  
 
 1. 转到 **导航窗格 > 模块 > 纳税 > 间接税 > 销售税 > 销售税组**。
 2. 单击 **新建**。

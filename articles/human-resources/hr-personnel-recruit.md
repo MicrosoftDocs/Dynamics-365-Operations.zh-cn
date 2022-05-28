@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066592"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733971"
 ---
 # <a name="recruit-job-candidates"></a>招聘工作应聘者
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066592"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无缝地将工作应聘者转换为员工。 如果您的组织使用单独的招聘应用程序，您的招聘流程可能包括以下步骤：
+Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无缝地将工作应聘者转换为员工。 如果您的组织使用单独的招聘应用程序，您的招聘流程可能包括以下步骤：<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - 在 Human Resources 中输入您的招聘请求。
 - 从招聘应用程序接收 Human Resources 中的应聘者引荐。
@@ -38,17 +37,22 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 如果您不使用单独的招聘应用程序，还可以在 Human Resources 中手动管理应聘者。
 
 > [!NOTE]
-> 如果您是管理员或开发人员，并且想要将 Human Resources 与第三方招聘应用程序集成，请参阅[配置 Dataverse 集成](hr-admin-integration-common-data-service.md)和[配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)
+> 如果您是管理员或开发人员，并且想要将 Human Resources 与第三方招聘应用程序集成，请转到[配置 Dataverse 集成](hr-admin-integration-common-data-service.md)和[配置 Dataverse 虚拟表](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > 您还可以在 [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics) 上找到招聘集成应用。
 >
-## <a name="enable-recruiting-requests"></a>启用招聘请求
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>在合并的基础结构上启用招聘请求
 
-如果要在 Human Resources 中提交招聘请求，您必须先在 **人力资源共享参数** 中启用该功能。
+如果您要在 HR 招聘中提交招聘请求，则必须首先启用 **HR 用户体验** 和 **招聘流程管理** 功能。
 
-1. 在 **人事管理** 工作区中，选择 **链接**。
-2. 在 **设置** 下，选择 **Human Resources 共享参数**。
-3. 在 **招聘** 选项卡上，在 **招聘** 下，将 **启用招聘请求** 设置为 **是**。
+启用这些功能后，通过以下步骤选择相关功能： 
+1. 转到 **人力资源** > **设置** > **人力资源参数**。
+2. 在  **招聘** 选项卡上，将 **已禁用招聘** 字段设置为 **否**。
+3. 在 **招聘体验** 下拉列表中，选择 **人力资源招聘**。   
+
+> [!Note] 
+> 选择 **人力资源招聘** 后，**招聘项目**（旧版）将为只读。 
+
 
 ## <a name="add-a-recruiting-request-location"></a>添加招聘请求位置
 
@@ -60,8 +64,8 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 
     ![添加招聘请求位置。](./media/hr-recruit-0a-add-location.png)
 
-4. 在 **描述** 中，输入位置的描述。
-5. 在 **位置** 下面，选择 **添加**。 如果显示 **新地址** 对话框，输入位置的地址。
+4. 对于 **描述**，请输入位置的描述。
+5. 在 **位置** 下面，选择 **添加**。 如果显示 **新地址** 对话框，输入位置的地址。<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![输入地址。](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
     ![完成招聘请求。](./media/hr-recruit-2-request-to-recruit.png)
 
 5. 选择 **继续**。 将显示您的职位的招聘请求。
-6. 在 **常规** 下，从 **招聘人员** 下拉菜单中选择招聘人员，然后从 **招聘请求位置** 中选择位置。
+6. 在 **常规** 下，从 **招聘人员** 下拉列表中选择招聘人员，然后从 **招聘请求位置** 下拉列表中选择位置。
 7. 在 **工作** 下，根据需要更改任何信息，然后选择 **通过工作创建详细信息**。
 
     ![通过工作创建详细信息。](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,7 +95,7 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
     将使用您输入的工作的默认信息填充招聘请求的其余部分。
 
 8. 在 **外部描述** 下，输入一个外部工作描述。
-9. 在 **职位** 下，选择 **添加**，然后为此招聘请求选择一个职位。
+9. 在 **职位** 下，选择 **添加**，然后为此招聘请求选择一个职位。<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![添加职位。](./media/hr-recruit-4-select-position.png)
 
@@ -101,7 +105,7 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
     ![添加教育要求。](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. 在 **注释** 下，根据需要添加注释。
-13. 在 **薪酬** 下，从 **级别** 下拉菜单中选择一个级别，然后根据需要调整 **低阈值**、**控制点** 和 **高阈值**。
+13. 在 **薪酬** 下，从 **级别** 下拉列表中选择一个级别，然后根据需要调整 **低阈值**、**控制点** 和 **高阈值**。
 14. 在完成招聘请求并且您准备好开始招聘流程时，在菜单栏中选择 **激活**。
 
     ![激活招聘请求。](./media/hr-recruit-6-activate-recruit-request.png)

@@ -1,7 +1,7 @@
 ---
 title: 在购买之前
 description: 在考虑购买 Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 时要使用的分步指导。
-author: ShellyBakke
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,17 +10,17 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874576"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713267"
 ---
-# <a name="before-you-buy"></a>购买之前
+# <a name="before-you-buy"></a>在购买之前
 
 [!include [banner](../includes/banner.md)]
 
@@ -28,11 +28,11 @@ Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Com
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用 Finance and Operations 30 天
 
-你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 Finance and Operations 应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在[注册预览订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)获取详细信息。
+你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 财务与运营应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在[注册预览订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)获取详细信息。
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 
-您现在可以在云或本地部署 Finance and Operations 应用程序。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
+您现在可以在云或本地部署财务和运营应用程序。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
 
 选择内部部署作为部署选项时，必须注意以下事项：
 
@@ -68,7 +68,7 @@ Microsoft 云解决方案提供商可以与你密切合作以了解你的公司�
 
 如果你的组织有 250 个或以上 Dynamics 365 用户，你可能对[批量许可协议](https://www.microsoft.com/Licensing/product-licensing/dynamics365)有兴趣。
 
-在批量许可中，Finance and Operations 应用程序可以通过以下方式获得：
+在批量许可中，财务和运营应用程序通过以下方式可用：
 
 - 企业协议
 - 企业协议订阅

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 24b3a5552a83bfea52f6a274b836955e41acdb4281f7b7807acf040e9cd4af30
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777468"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692692"
 ---
 # <a name="quick-view-module"></a>快速查看模块
 

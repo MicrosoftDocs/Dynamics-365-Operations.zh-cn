@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883760"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725252"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>设置固定资产过帐模板
 

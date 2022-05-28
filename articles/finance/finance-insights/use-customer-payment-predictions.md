@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968904"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740615"
 ---
 # <a name="use-customer-payment-predictions"></a>使用客户付款预测
 
@@ -86,10 +86,6 @@ ms.locfileid: "7968904"
 
 可以转到 **信用和收款 \> 设置 \> Finance insights \> Finance insights 参数** 查看付款预测的准确性。 **客户付款见解** 选项卡上的 **预测模型** 部分以百分比形式显示预测模型的准确性。
 
-[![付款预测的准确性。](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
 如果您对准确性不满意，请选择 **提高模型准确性** 链接以打开 AI Builder 扩展体验。 在 AI Builder 扩展体验中，您可以选择或取消选择字段，直到选择了您认为对准确预测付款概率最重要的字段。 完成后，您可以轻松地重新训练预测模型并发布更改。 将在 Dynamics 365 Finance 中自动选取新训练的预测模型以进行预测。
-
-[![AI Builder 扩展体验。](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

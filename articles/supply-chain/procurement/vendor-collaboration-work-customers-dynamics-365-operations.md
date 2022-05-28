@@ -1,7 +1,7 @@
 ---
 title: 供应商与客户的协作
 description: 本主题介绍您如何使用供应商协作处理采购订单和监控托运库存。
-author: TaylorVH
+author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: v-savanh
+ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022966"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673765"
 ---
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 

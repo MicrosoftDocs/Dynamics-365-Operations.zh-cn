@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 00424d98d5ff99123edf42ee19919d149e7a6abc
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6d4e7fd1bae56c5a7cb9a1a558a5344b3e555e83
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488279"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687579"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>TaxTrans 中的不正确字段值
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714627"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727781"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
@@ -101,7 +101,7 @@ ms.locfileid: "6714627"
     > 如果指定子单位和父单位的维度，可能导致报表中的数据重复。
 
 - 在报告结构树包含维度的报告单位对应于在行和列定义中使用的维度。 维度的组合确定为该单位返回的金额。 例如，在本文稍后的示例 2 中，行 6 和 7 仅分别返回部门 00 和 01 的值。
-- 在报告结构树中不包含维度的父报告单位的金额由子单位报表确定，并且将金额累积到指定的父单位。 例如，如果父单位（请参阅数据累积示例的示例 2 中的 Contoso 美国）具有两个子单位（022 和 023）且不包含维度，则为每个子单位和父单位生成一个报表。 父总计是两个子金额的和。
+- 在报告结构树中不包含维度的父报告单位的金额由子单位报表确定，并且将金额累积到指定的父单位。 例如，如果父单位（请参阅累积数据示例 2 中的“Contoso 美国”）具有两个子单位（022 和 023）且不包含维度，则为每个子单位和父单位生成一个报表。 父总计是两个子金额的和。
 
 ### <a name="manage-reporting-units"></a>管理报告单位
 
@@ -166,7 +166,7 @@ ms.locfileid: "6714627"
 此处是以下报告结构树中的报告单位：
 
 - Contoso 日本报告单位是 Contoso 日本销售和 Contoso 日本咨询子单位的父单位。
-- Contoso 日本销售分部单位既是 Contoso 日本单位的子单位，又是 Home Sales 和 Auto Sales 单位的父单位。
+- Contoso 日本分部单位既是Contoso 日本单位的子单位，又是 Home Sales 和 Auto Sales 单位的父单位。
 - 最低级别的详细信息报告单位（Home Sales、Auto Sales、Client Services 和 Operations）代表财务数据中的部门。 这些报告单位在图中的阴影区域中。
 - 更高级别的汇总单位汇总了详细信息单位中的信息。
 

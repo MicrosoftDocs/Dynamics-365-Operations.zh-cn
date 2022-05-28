@@ -1,22 +1,22 @@
 ---
 title: 内部公司订单和退货单
 description: 本主题说明内部公司订单和退货单
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 103225595e82bdedec6d97e5ebe5b61498377065
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 1c22c021adce5f892ccb6c2ff8735f9e647e8b81
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548133"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671833"
 ---
 # <a name="intercompany-orders-and-return-orders"></a>内部公司订单和退货单
 

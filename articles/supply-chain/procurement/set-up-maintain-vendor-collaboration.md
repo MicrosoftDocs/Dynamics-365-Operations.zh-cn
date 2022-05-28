@@ -1,7 +1,7 @@
 ---
 title: 设置和维护供应商协作
 description: 本主题说明如何在 Dynamics 365 Supply Chain Management 中设置供应商协作。 另外还介绍了如何预配新的供应商协作用户和管理这些用户的安全角色。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651942"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677553"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>设置和维护供应商协作
 
@@ -31,7 +31,7 @@ ms.locfileid: "7651942"
 本主题说明如何在 Dynamics 365 Supply Chain Management 中设置供应商协作。 另外还介绍了如何设置工作流来预配新的供应商协作用户，以及如何管理这些用户的安全角色。
 
 > [!NOTE]
-> 有关为供应商协作设置安全角色的信息仅适用于 Finance and Operations 的当前版本。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 Microsoft Dynamics AX 中供应商门户的用户权限的信息，请参阅[供应商门户用户安全性](configure-security-vendor-portal-users.md)。
+> 有关为供应商协作设置安全角色的信息仅适用于财务与运营的当前版本。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 Microsoft Dynamics AX 中供应商门户的用户权限的信息，请参阅[供应商门户用户安全性](configure-security-vendor-portal-users.md)。
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>设置供应商协作安全角色
 

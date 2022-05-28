@@ -8,15 +8,15 @@ ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a17574cccbdf6f26f0453bda67eabaa16d559cd3
-ms.sourcegitcommit: 99bde425ade701ef244c6bca6d411aef94a59b3c
+ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7505550"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676486"
 ---
 # <a name="anchoring"></a>定位
 

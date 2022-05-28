@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656794"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740643"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>财务和运营应用的服务描述
 
@@ -265,7 +265,7 @@ Microsoft 在每年的以下月份发布八个针对财务和运营应用的服�
 |---|---|---|
 | **非生产**<br>第 1 层沙盒 | 客户为开发、演示或培训目的部署的非生产环境。 | 第 1 层沙盒（也称为云托管环境）是从 LCS 部署到客户的 Azure 订阅的客户托管 VM。 由于它是客户 Azure 订阅中的 VM，因此客户拥有通过远程桌面的环境完全管理访问权限。 |
 | **非生产**<br>第 2 层（或更高）沙盒 | 客户为用户接受度测试、集成测试、培训、暂存或任何其他生产前方案部署的非生产环境。 | 第 2 层及以上沙盒将部署到 财务和运营 SaaS 订阅。 将通过[即时访问](../../dev-itpro/database/database-just-in-time-jit-access.md)授予与非生产环境关联的 Azure SQL 数据库的访问权限。 不可访问远程桌面。 |
-| **生产** | 当项目[准备好初始实现](/imp-lifecycle/environment-planning.md#production-system-readiness)时，将部署生产环境。. | 将把生产环境部署到 SaaS 订阅。 所有访问都通过浏览器、服务终结点或 LCS 进行。 |
+| **生产** | 当项目[准备好初始实现](../imp-lifecycle/environment-planning.md#production-system-readiness)时，将部署生产环境。. | 将把生产环境部署到 SaaS 订阅。 所有访问都通过浏览器、服务终结点或 LCS 进行。 |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft 管理访问权限
 
@@ -286,7 +286,7 @@ Microsoft 已投资大量工具集来监视和诊断客户的生产实例。 Mic
 |---|---|
 | <ul><li>监视服务的可用性。</li><li>通过针对关键组件（如应用程序对象服务器 (AOS)、Batch、数据导入/导出框架 (DIXF)、Commerce 和 Management Reporter）的运行状况指标和监视程序，持续监视和预警。</li><li>监视基础结构服务（如 Azure Active Directory \[Azure AD\] 和 Azure SQL）导致的性能降级。</li><li>如果 Microsoft 确定单个流程或批处理作业导致反常，则会在与客户沟通之后终止该流程或作业。</li></ul> | <ul><li>监视对应用程序配置和扩展进行且可能导致功能问题和性能问题的更改。</li><li>必须使用监视工具诊断应用程序错误。 将使用这些工具诊断用户报告的性能偏差。</li><li>如果系统的预期负载超过预测的峰值使用量，请通知 Microsoft。</li><li>如果适用的服务在生产实例中不可用，客户可以使用 LCS 报告[生产中断](../../dev-itpro/lifecycle-services/report-production-outage.md)。</li></ul> |
 
-客户可以通过 LCS 在线提交支持请求，让 Microsoft 以最有效、最高效的方式提供快速且深入的技术体验。 虽然支持手机选项，但是仅应在在线选项不可用时才使用这种选项。 有关详细信息，请参阅[手机支持选项](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support)。
+客户可以通过 LCS 在线提交支持请求，让 Microsoft 以最有效、最高效的方式提供快速且深入的技术体验。 虽然支持手机选项，但是仅应在在线选项不可用时才使用这种选项。 有关详细信息，请参阅[手机支持选项](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support)。
 
 ## <a name="incident-management"></a>事件管理
 

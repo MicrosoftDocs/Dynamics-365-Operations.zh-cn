@@ -5,17 +5,17 @@ author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736104"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735686"
 ---
 # <a name="maintain-vendor-certification"></a>维护供应商认证
 

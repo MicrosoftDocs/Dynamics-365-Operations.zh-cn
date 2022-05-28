@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728737"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734830"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>设置销售税申报代码
 
 [!include [banner](../../includes/banner.md)]
 
-销售税报表代码指销售税报表上列出的字段编号。 它们用于国家/地区特定的报表布局。 也用于按代码报告打印增值税支付。 该报表显示为每个申报代码汇总的结算期的销售税金额。 在创建销售税申报代码后，您可以在销售税代码页面的“报告设置”快速选项卡（可以从 **销售税代码** 访问该快速选项卡）中引用这些代码。 
+**销售税报表代码** 指销售税报表上列出的字段编号。 它们用于国家/地区特定的报表布局。 也用于按代码报告打印增值税支付。 该报表显示为每个申报代码汇总的结算期的销售税金额。 在创建 **销售税申报代码** 后，您可以在 **销售税代码** 页面的 **报告设置** 快速选项卡（可以从销售税代码访问该快速选项卡）中引用这些代码。 
 
 此记录使用 DEMF 公司演示。
 

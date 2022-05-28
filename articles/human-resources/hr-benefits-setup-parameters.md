@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 822e5b37be7b2d5712d61bf7fb00f40d1692f406
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 77da3c05839d82860d715ca4e031ada69b99e3e3
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066917"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693883"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>为所有公司设置福利管理和员工自助服务参数
 

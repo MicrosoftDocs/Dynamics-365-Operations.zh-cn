@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712211"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711539"
 ---
 # <a name="configure-ledgers"></a>配置分类帐
 
@@ -28,7 +28,7 @@ ms.locfileid: "6712211"
 
 ## <a name="selecting-the-chart-of-accounts"></a>选择会计科目表
 
-毕旭伟 Microsoft Dynamics 365 Finance 中的每个法人配置有关分类帐的详细信息。 **分类帐** 页可用于选择将用于所选法人的会计科目表和科目结构。 您可以配置会计科目表和科目结构，方法是在每个法人中配置 **分类帐** 页面以使用相同会计科目表和科目结构。 您还可以在每个法人中共享部分配置，也可以在每个法人中进行特定的配置。
+必须为 Microsoft Dynamics 365 Finance 中的每个法人配置有关分类帐的详细信息。 **分类帐** 页可用于选择将用于所选法人的会计科目表和科目结构。 您可以配置会计科目表和科目结构，方法是在每个法人中配置 **分类帐** 页面以使用相同会计科目表和科目结构。 您还可以在每个法人中共享部分配置，也可以在每个法人中进行特定的配置。
 
 如果您的法人必须具有不同的会计科目表或不同的科目结构，则法人替代功能可能会很有用。 通过为多个法人使用相同的会计科目表和科目结构，然后通过法人替代来管理任何例外，可以随着时间的推移简化维护。
 

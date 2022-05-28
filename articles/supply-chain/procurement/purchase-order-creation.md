@@ -1,7 +1,7 @@
 ---
 title: 创建采购订单
 description: 本文介绍手动创建采购订单的流程和选项。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 70050efb31040f2c7ebfc55681a7145e313d804d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575504"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674356"
 ---
 # <a name="create-purchase-orders"></a>创建采购订单
 

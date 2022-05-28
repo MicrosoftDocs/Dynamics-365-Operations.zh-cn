@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
-ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
+ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7392466"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712137"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>将固定资产与租赁关联
 

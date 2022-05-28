@@ -1,7 +1,7 @@
 ---
 title: 服务对象关系
 description: 您可以在服务对象和服务协议或服务订单之间创建服务对象关系。
-author: kamaybac
+author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb5b185ca2ef5903eb1739edfdd7b60749babd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 831db29589826904666049edbc8be0c38e1d02a5
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576344"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676626"
 ---
 # <a name="service-object-relations"></a>服务对象关系 
 

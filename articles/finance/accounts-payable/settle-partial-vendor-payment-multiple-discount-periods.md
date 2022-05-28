@@ -1,6 +1,6 @@
 ---
 title: 结算具有多个折扣期的部分供应商付款
-description: 本文向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。
+description: 本主题向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737081"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716270"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>结算具有多个折扣期的部分供应商付款
 
 [!include [banner](../includes/banner.md)]
 
-本文向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。 
+本主题向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。 
 
 如果某发票在五天内付清，则供应商 3054 向 Fabrikam 提供 2% 的现金折扣发票；而如果某发票在 14 天内付清，则现金折扣为 1%。
 

@@ -2,7 +2,7 @@
 title: 存档库存交易记录
 description: 本主题介绍如何存档库存交易记录数据以帮助提高系统性能。
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567455"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736052"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 
@@ -116,3 +116,110 @@ ms.locfileid: "7567455"
 - **暂停存档** – 暂停当前正在处理的选定存档。 暂停仅在生成存档任务后生效。 因此，暂停生效之前可能会有短暂的延迟。 如果存档已暂停，**停止当前更新** 字段中会出现一个复选标记。
 - **恢复存档** – 恢复当前暂停的选定存档的处理。
 - **撤消** – 撤消所选择的存档。 仅当存档的 **状态** 字段设置为 *已完成* 时，才可以撤消存档。 如果存档已撤消，**撤消** 字段中会出现一个复选标记。
+
+## <a name="extend-your-code-to-support-custom-fields"></a>扩展代码以支持自定义字段
+
+如果表 `InventTrans` 包含一个或多个自定义字段，则可能需要扩展代码以支持它们，具体取决于它们的命名方式。
+
+- 如果 `InventTrans` 表中的自定义字段与 `InventtransArchive` 表中自动具有相同的字段名称，则表示 1:1 映射了它们。 因此，您可以只将自定义字段放入 `inventTrans` 表的 `InventoryArchiveFields`字段组中。
+- 如果 `InventTrans` 表中的自定义字段名称与 `InventtransArchive` 表中的字段名称不匹配，则需要添加代码以映射它们。 例如，如果您有一个名为 `InventTrans.CreatedDateTime` 的系统字段，则必须在 `InventTransArchive` 表中创建一个具有不同名称的字段（例如 `InventtransArchive.InventTransCreatedDateTime`），并将扩展添加到 `InventTransArchiveProcessTask` 和  `InventTransArchiveSqlStatementHelper` 类，如以下示例代码所示。
+
+以下示例代码显示了一个关于如何将所需扩展添加到 `InventTransArchiveProcessTask` 类的示例。
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+以下示例代码显示了一个关于如何将所需扩展添加到 `InventTransArchiveSqlStatementHelper` 类的示例。
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

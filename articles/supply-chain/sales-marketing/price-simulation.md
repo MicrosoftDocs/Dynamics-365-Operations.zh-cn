@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580496"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689669"
 ---
 # <a name="price-simulation"></a>价格模拟
 
@@ -32,7 +32,8 @@ ms.locfileid: "7580496"
 
 价格模拟并不更改报价单中的价格。 如果价格模拟应用于整个报价单，则视作在报价单标题的特别折旧。 如果价格模拟应用于特定的物料，则视作在报价单行的特别折旧。 在应用价格模拟时，创建的报价单行的单位销售价并不更改。 而是应用与报价单行的价格降低相对应的折扣百分比。 在应用价格模拟时，单位销售价和折扣百分比都转移到报价单行或报价单标题中。  
 
->[注释!] 在运行价格模拟时，只使用当前销售币种创建模拟。 但是，在您查看报价单总计时，将会看到公司币种和销售币种的组合。  
+>[!NOTE]
+>在运行价格模拟时，只使用当前销售币种创建模拟。 但是，在您查看报价单总计时，将会看到公司币种和销售币种的组合。  
 
 向报价单行添加的附属物料可能触发单行折扣或多行折扣。 它们还可能触发更改报价单行的边际收益和贡献率和整个折扣的总折扣。  
 

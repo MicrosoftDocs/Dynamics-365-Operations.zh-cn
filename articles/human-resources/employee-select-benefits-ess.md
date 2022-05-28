@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066410"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743477"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>员工使用员工自助服务选择计划（可选）
 
@@ -35,11 +34,11 @@ ms.locfileid: "8066410"
 在 **福利自助服务** 页面上，福利计划按计划类型分组。 要查看计划类型中的福利计划，员工在 **员工福利** 页面上选择一个磁贴。 员工将只看到他们有资格享受的福利。
 
 > [!IMPORTANT]
-> 必须先进行配置，计划类型才会在 **员工自助服务** 中显示。 有关详细信息，请参阅[配置员工自助服务](/hr-benefits-setup-employee-self-service.md)。
+> 必须先进行配置，计划类型才会在 **员工自助服务** 中显示。 有关详细信息，请参阅[配置员工自助服务](/dynamics365/human-resources/hr-benefits-setup-employee-self-service)。
 
 根据计划类型，可以选择一项或多项福利进行登记。 例如，医疗计划类型可能被配置为将员工限制为一个医疗计划。 人寿保险计划类型可能允许员工选择多个人寿保险计划。
 
-在员工决定登记哪个计划后，他们可能需要选择依赖方。 如果员工选择了 **员工 +1**、**员工 + 子女** 或 **家庭** 覆盖范围选项，则必须选择依赖方。 有关覆盖范围选项的详细信息，请参阅[创建覆盖范围选项](/hr-benefits-setup-coverage-options.md)。
+在员工决定登记哪个计划后，他们可能需要选择依赖方。 如果员工选择了 **员工 +1**、**员工 + 子女** 或 **家庭** 覆盖范围选项，则必须选择依赖方。 有关覆盖范围选项的详细信息，请参阅[创建覆盖范围选项](/dynamics365/human-resources/hr-benefits-setup-coverage-options)。
 
 要选择福利计划，员工需要选择省略号按钮 (**...**) 或 **添加到购物车**。 员工将所有福利选择添加到购物车后，选择 **查看购物车**。 然后，员工会进入 **计划** 页面，在那里他们可以查看他们选择和放弃的福利计划。
 

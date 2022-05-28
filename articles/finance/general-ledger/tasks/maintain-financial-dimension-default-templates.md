@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f8e5709639ac256a733546e54a49b11c4cae24e18577792a0c6cae45c8d517d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748154"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722115"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfe172c6f635abc95a260403c6b30bfd2bdcdcf0b125efd947109ec6289e6c1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54590c15fab0dd522701c29369941855ed20b5f5
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756289"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722902"
 ---
 # <a name="letters-of-credit"></a>信用证
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 3381
 ms.assetid: e55b9c0e-597b-46d4-b453-81c780939b6d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93aee50a1004ba6e8bd65fa9c19d1c21f14f7174908a2b42084ef447fdc32dc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772819"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716850"
 ---
 # <a name="main-account-types"></a>主科目类型
 

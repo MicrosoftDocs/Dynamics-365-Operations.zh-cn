@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763182"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734595"
 ---
 # <a name="cost-control-workspace"></a>成本控制工作区 
 
@@ -54,7 +54,7 @@ ms.locfileid: "6763182"
 | 成本核算分类帐                                            | 作为报表基础的 **成本核算分类帐**。 值衍生自 **成本控制单元** 字段。 |
 | 成本控制单元                                                 | 您选择的值确定将作为此报表基础的成本核算分类帐和成本对象。 |
 | 统计维度层次结构，成本元素维度层次结构 | **成本控制** 工作区配置记录可以报告非货币或货币值，但不能在同一版式中。 在 **成本元素维度层次结构** 字段中选择一个值以报告货币值。 在 **统计元素维度层次结构** 字段中选择一个值以报告非货币值。 您选择的维度层次结构记录确定报表和合并级别的结构。<blockquote>[!NOTE]<br>要并行查看非货币和货币值，您可以为 Microsoft Power BI 内容包将数据导出到 Microsoft Excel。</blockquote> |
-| 成本对象维度层次结构                                   | 选择适合您正在定义的报表的目的的成本对象维度的维度层次结构。 |
+| 成本对象维度层次结构      | 选择适合您正在定义的报表的目的的成本对象维度的维度层次结构。 |
 | 预算原始版本                                           | 选择作为此报表上下文中的原始预算的预算版本 ID。 |
 | 预算已修订版本                                            | 选择作为此报表上下文中的修订预算的预算版本 ID。 |
 

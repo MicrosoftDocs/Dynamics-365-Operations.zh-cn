@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733627"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724604"
 ---
 # <a name="set-up-lease-approval-workflows"></a>设置租赁审批工作流
 

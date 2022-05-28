@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570745"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736024"
 ---
 # <a name="dual-use-goods"></a>两用商品
 
@@ -34,7 +34,7 @@ ms.locfileid: "7570745"
 2. 产品 X-100 的 **已发放产品详细信息** 页面指示它是两用商品。 代码、类别、组和体系共同表明了产品所属的出口管制分类。
 3. **两用证书** 页面包括产品 X-100 运往法国时的证书。 此证书的有效日期为 2020 年 1 月 1 日。
 4. 2020 年 6 月 17 日，您为位于法国的客户公司创建销售订单，该订单包含产品 X-100。
-5. 保存销售订单时，系统确定以下信息：
+5. 确认销售订单时，系统确定以下信息：
 
     1. 订单中是否包括任何属于两用商品的产品？
     2. 如果订单中包括两用商品，目标国家/地区是否要求提供两用证书？

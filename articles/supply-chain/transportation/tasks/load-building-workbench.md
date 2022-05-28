@@ -1,7 +1,7 @@
 ---
 title: 装载计划工作台
 description: 本主题介绍如何使用负荷构建工作台。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c6723656baaca42c6b055d759c84fd4392fe04b0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574849"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674664"
 ---
 # <a name="load-building-workbench"></a>装载计划工作台
 

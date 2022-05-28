@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: ff69afae675b9f8824ac0b29b5611420136b6a57
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726792"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726541"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>销售税支付和舍入规则
 

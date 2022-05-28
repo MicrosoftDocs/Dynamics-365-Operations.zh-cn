@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 59461
 ms.assetid: 25ec29f3-e3ea-4abb-bf6b-f6240873b315
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb022179a1eb919eaf3d2ea74927ab4d61bd6fffb81348e352af7cf78d4b178c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee37f7183758798de9d4dbe42fbff1662f742026
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754282"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724972"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>停征、复征或冲销利息费
 
