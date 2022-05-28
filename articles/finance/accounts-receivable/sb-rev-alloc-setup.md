@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e422b16d1c4505b2837bb282918ecada902b806e
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: bb5b220dd941cbb9f1fda5d0eb821a86a9135309
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566353"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685790"
 ---
 # <a name="set-up-multiple-element-revenue-allocation"></a>设置多元素收入分配
 

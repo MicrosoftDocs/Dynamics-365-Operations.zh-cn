@@ -1,7 +1,7 @@
 ---
 title: 仓库时隙
 description: 文主题提供有关仓库时隙的信息。 仓库时隙用于按物料和度量单位合并状态为“订购”、“预留”或“下达”的订单中的需求。 其可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料货位。
-author: mirzaab
+author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575139"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676290"
 ---
 # <a name="warehouse-slotting"></a>仓库时隙
 

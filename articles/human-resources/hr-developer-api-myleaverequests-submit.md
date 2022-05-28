@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: caea924a2bab9439374ea933d4a0886059e5fe53
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ba2867646ac03953a43404984a5d04d4edb1f5ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534127"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686986"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>将请假申请提交至工作流
 

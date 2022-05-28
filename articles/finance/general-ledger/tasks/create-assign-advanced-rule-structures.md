@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 769f3cb44830a4bc9ef48e5bcfda5a47b87954c20f65d1d3eef5d02af9ed5bd1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750404"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723042"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>创建和分配高级规则结构
 

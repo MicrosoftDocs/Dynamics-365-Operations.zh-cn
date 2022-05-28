@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f84afddb26136797a7d35faf52325702b8e41a45
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983509"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725336"
 ---
 # <a name="snapshots-overview"></a>快照概览
 

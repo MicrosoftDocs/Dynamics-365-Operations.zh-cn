@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85e9af5dc73a572f6f5662dd369eca4e40b5e1fb
-ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
+ms.openlocfilehash: 72d388fa28db230a0af91e69a5a402b635c61cc5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8509180"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690713"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>查看休假和缺勤分析
 

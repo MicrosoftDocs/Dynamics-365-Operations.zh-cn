@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b0069393518d0dd5655f72d4bd09aa7444fa3cd8
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d50f886f22311fdf9926e0a2321b53f7d075a23c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984337"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688620"
 ---
 # <a name="overview"></a>概览
 

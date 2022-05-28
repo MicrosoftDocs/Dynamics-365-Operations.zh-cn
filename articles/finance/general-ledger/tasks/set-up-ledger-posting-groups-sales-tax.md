@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c353a4fbed3af0cd7477c9a1543baaf523da6f11
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754162"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735746"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 

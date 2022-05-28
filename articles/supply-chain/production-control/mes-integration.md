@@ -1,22 +1,22 @@
 ---
 title: 与第三方制造执行系统集成
 description: 本主题说明如何将 Microsoft Dynamics 365 Supply Chain Management 与第三方制造执行系统 (MES) 集成。
-author: t-benebo
+author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487572"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678678"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 

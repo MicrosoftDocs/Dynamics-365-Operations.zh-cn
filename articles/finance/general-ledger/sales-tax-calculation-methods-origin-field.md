@@ -1,26 +1,26 @@
 ---
 title: “源”字段中的销售税计算方法
 description: 本文说明销售税代码页上“来源”字段中的选项，以及如何基于销售税代码的所选选项计算销售税。
-author: ShylaThompson
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04d600d00425f03d0ecc7897055849541d50883c
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769738"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724690"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>“源”字段中的销售税计算方法
 

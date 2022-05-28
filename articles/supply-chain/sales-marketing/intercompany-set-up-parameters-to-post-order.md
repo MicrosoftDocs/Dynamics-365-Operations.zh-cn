@@ -1,22 +1,22 @@
 ---
 title: 设置用于过帐内部公司订单的参数
 description: 本主题说明如何设置用于过帐内部公司订单的参数
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c728f2f491948ae1c8550396ba4d72f76f46fe85
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 24389d8ed3768089d59dc87e5948e9ea7fa1ecfc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548123"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679238"
 ---
 # <a name="set-up-parameters-to-post-an-intercompany-order"></a>设置用于过帐内部公司订单的参数
 

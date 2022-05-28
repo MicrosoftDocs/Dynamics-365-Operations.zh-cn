@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700347"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688337"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1cc3a64e6c345df7727f5ca7336821388c9dbcf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 693c3d770f671edd3f52b22fa9240c641405dbed
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063535"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687887"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 3 日）中的新增功能或更改
 

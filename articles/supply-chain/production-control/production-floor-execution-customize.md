@@ -2,7 +2,7 @@
 title: 自定义生产车间执行界面
 description: 本主题说明如何为生产车间执行界面扩展当前窗体或创建新窗体和按钮。
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066538"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712934"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>自定义生产车间执行界面
 
@@ -60,7 +60,7 @@ ms.locfileid: "8066538"
 1. 创建一个名为 `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension` 的扩展，其中通过将新菜单项添加到列表来扩展 `getMainMenuItemsList` 方法。 以下代码显示了一个示例。
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>向窗体或对话框添加日期和时间控件
+
+此部分介绍如何将日期和时间控件添加到窗体或对话框。 触摸友好的日期和时间控件使工作人员能够指定日期和时间。 以下屏幕截图显示了控件通常在页面上的显示方式。 时间控件提供 12 小时和 24 小时两种版本；显示的版本将遵循为运行界面所使用的用户帐户设置的首选项。
+
+![日期控件示例。](media/pfe-customize-date-control.png "日期控件示例")
+
+![12 小时时钟的时间控件示例。](media/pfe-customize-time-control-12h.png "12 小时时钟的时间控件示例")
+
+![24 小时时钟的时间控件示例。](media/pfe-customize-time-control-24h.png "24 小时时钟的时间控件示例")
+
+以下过程显示了一个如何将日期和时间控件添加到窗体的示例。
+
+1. 为窗体应包含的每个日期和时间控件将控制器添加到窗体。 （控制器的数量必须等于窗体中的日期和时间控件数。）
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. 声明所需的变量（`utcdatetime` 类型）。
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. 创建日期/时间将由日期/时间控件进行更新的方法。 以下示例显示了一种这样的方法。
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. 设置每个日期时间控制器的行为，并将每个控制器连接到一个窗体部件。 以下示例显示了如何为开始日期和开始时间控件设置数据。 您可以为结束日期和结束时间控件添加类似的代码（未显示）。
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    如果您只需要一个日期控件，则可以跳过时间控件设置，而只需设置日期控件，如下例所示：
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>其他资源
 

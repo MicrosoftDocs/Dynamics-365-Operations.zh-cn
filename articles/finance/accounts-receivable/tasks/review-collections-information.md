@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778378"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725028"
 ---
 # <a name="review-collections-information"></a>审核收款信息
 

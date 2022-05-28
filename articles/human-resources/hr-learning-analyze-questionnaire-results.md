@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1ad98638810206dad04c34a8abbc8f757058cc0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1da18dd32363308438b7f9da5b2e04e119e840cb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067421"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692910"
 ---
 # <a name="analyzing-questionnaire-results"></a>分析调查表结果
 

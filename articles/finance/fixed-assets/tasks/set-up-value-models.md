@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be3b5578bd6509859c36f6a50ea9730e9ef1780e
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 71d256b600956a4e525cde626c958713f6258f5a
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890704"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727052"
 ---
 # <a name="set-up-value-models"></a>设置价值模型
 

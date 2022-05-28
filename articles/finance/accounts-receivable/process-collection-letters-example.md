@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fdde6ebaebf37a883aef0dcc3ea12909c3d43532d604ff78d708d737b26bc57e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bb1889e9450685f7b6a5000e2ef81d1a65f1b51
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721843"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721806"
 ---
 # <a name="process-collection-letters-example"></a>处理催款单示例
 

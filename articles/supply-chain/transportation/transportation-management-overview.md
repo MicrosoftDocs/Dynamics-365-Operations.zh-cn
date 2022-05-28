@@ -1,7 +1,7 @@
 ---
 title: 运输管理概览
 description: 本主题提供 Supply Chain Management 中运输管理功能的概览。
-author: Henrikan
+author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985437"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671637"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 

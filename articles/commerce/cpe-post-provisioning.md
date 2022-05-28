@@ -2,7 +2,7 @@
 title: 配置 Dynamics 365 Commerce 评估环境
 description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913719"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747629"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
@@ -39,7 +39,9 @@ ms.locfileid: "7913719"
 1. 在列表中选择您的环境。
 1. 在右侧的环境信息中，选择 **登录到环境**。 您将被送到 Commerce headquarters。
 1. 确保选择了右上角的 **USRT** 法人。
-2. 转到 **Commerce 参数 > 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目设置为 **true**。 如果缺少此条目，您可以添加此条目并为与您的电子商务网站关联的 Commerce Scale unit 运行 **渠道数据库 > 完全同步**。
+1. 转到 **Commerce 参数 \> 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目，并且值设置为 **true**。 如果缺少此条目，您可以添加此条目，将值设置为 **true**，然后为与您的电子商务网站关联的 Commerce Scale Unit 选择 **渠道数据库 \> 完全数据同步**。
+1. 转到 **Retail 和 Commerce \> Headquarters 设置 \>  商业调度 \> 初始化 Commerce 调度程序**。 在 **初始化 Commerce 调度程序** 弹出菜单中，将 **删除现有配置** 选项设置为 **是**，然后选择 **确定**。
+1. 要将渠道添加到 Commerce Scale Unit，请转到 **Retail 和 Commerce \> Headquarters 设置 \> Commerce 调度程序 \> 渠道数据库**，然后在左侧窗格中选择 Commerce Scale Unit。 在 **零售渠道** 快速选项卡上，添加 **AW 在线商店**、**AW Business 在线商店** 和 **Fabrikam 扩展在线商店** 渠道。 （可选）如果您将使用 POS（例如 **西雅图**、**旧金山** 和 **圣荷西**），也可以添加零售商店。
 
 在 Commerce headquarters 进行预配后活动期间，请确保 **USRT** 法人始终处于选中状态。
 
@@ -85,6 +87,7 @@ ms.locfileid: "7913719"
 1. 选择 **en-us** 作为默认语言。
 1. 保留 **路径** 的值不变。
 1. 选择 **确定**。 将出现站点上的页面的列表。
+1. 对于 **AdventureWorks** 站点（映射到 **AW 在线商店** 渠道）和 **AdventureWorks Business** 站点（映射到 **AW Business 在线商店** 渠道），请重复步骤 2-7。 如果 Fabrikam 站点的 **路径** 字段为空，则必须为两个 AdventureWorks 站点（例如“aw”和“awbusiness”）添加路径。
 
 ## <a name="enable-jobs"></a>启用作业
 
@@ -149,6 +152,28 @@ ms.locfileid: "7913719"
 
 > [!NOTE]
 > Commerce 评估环境随预先加载的 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户一起提供，以用于演示目的。 评估环境不需要配置自己的 Azure AD B2C 租户。 但是，如果您要配置评估环境以使用自己的 Azure AD B2C 租户，请确保通过 Azure 门户在 Azure AD B2C 应用程序中将 ``https://login.commerce.dynamics.com/_msdyn365/authresp`` 添加为回复 URL。
+
+## <a name="troubleshooting"></a>疑难解答
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>在配置站点时站点生成器渠道列表为空
+
+如果站点生成器未显示任何在线商店渠道，则在 Headquarters 中确保已将渠道添加到 Commerce Scale Unit，如上面的[开始之前](#before-you-start)部分中所述。 此外，运行 **初始化 Commerce 调度程序**，将 **删除现有配置** 值设置为 **是**。  完成这些步骤后，在 **渠道数据库** 页面（**Retail 和 Commerce \> Headquarters 设置 \> Commerce 调度程序 \> 渠道数据库**）上，对 Commerce Scale Unit 运行 **9999** 作业。
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>颜色样本不在类别页面上呈现，而是在产品详细信息页面 (PDP) 页面上呈现
+
+请按照以下步骤确保将颜色和尺寸样本设置为可优化。
+
+1. 在 Headquarters 中，转到 **Retail 和 Commerce \> 渠道设置 \> 渠道类别和产品属性**。
+1. 在左侧窗格中，选择在线商店渠道，然后选择 **设置属性元数据**。
+1. 将 **在渠道上显示属性** 选项设置为 **是**，将 **可细化** 选项设置为 **是**，然后选择 **保存**。 
+1. 返回到在线商店渠道页面，然后选择 **发布渠道更新**。
+1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> Commerce 调度程序 \> 渠道数据库**，并对 Commerce Scale Unit 运行 **9999** 作业。
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>似乎未对 AdventureWorks 商业站点启用商业功能
+
+在总部中，确保配置在线商店渠道，并将 **客户类型** 设置为 **B2B**。 如果 **客户类型** 设置为 **B2C**，则必须创建新渠道，因为无法编辑现有渠道。 
+
+Commerce 版本 10.0.26 及更早版本中提供的演示数据存在 bug，其中 **AW Business 在线商店** 渠道配置错误。 解决方法是创建具有相同设置和配置的新渠道，但 **客户类型** 除外，客户类型应设置为 **B2B**。
 
 ## <a name="additional-resources"></a>其他资源
 

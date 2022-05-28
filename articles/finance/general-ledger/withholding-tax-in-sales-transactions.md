@@ -1,26 +1,26 @@
 ---
 title: 销售交易记录中的预缴税金
 description: 本主题列出了避免为选定客户计算预缴税金的步骤。 对于在向您的付款中指定预缴税金的客户，您可以分配默认的预缴税金组。
-author: roschlom
+author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: b221fc04ef82f148846fc0c282f6c8601f0eb4759d99a8dee02256cc0d42417f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72d659004a1f61b63d6a782ba6b45bb99030bae9
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747075"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727417"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>销售交易记录中的预缴税金
 

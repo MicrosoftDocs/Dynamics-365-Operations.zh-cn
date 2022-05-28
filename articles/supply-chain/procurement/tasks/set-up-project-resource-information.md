@@ -1,7 +1,7 @@
 ---
 title: 设置项目资源信息
 description: 此过程显示如何设置项目资源。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ba8264bb3ccc6db3b766b76a435e0eccf2d7a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 96f8974501f1fdc464214e3ed4667ba80f6177a6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577040"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676906"
 ---
 # <a name="set-up-project-resource-information"></a>设置项目资源信息
 

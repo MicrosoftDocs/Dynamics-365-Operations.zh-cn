@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "15721"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 27263ad2b158aa609167ad593fe9e0542f1227a5
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408138"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720187"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概述
 

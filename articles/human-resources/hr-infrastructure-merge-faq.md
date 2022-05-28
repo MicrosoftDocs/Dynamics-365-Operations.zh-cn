@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661449"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688111"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources 基础结构合并常见问题
 

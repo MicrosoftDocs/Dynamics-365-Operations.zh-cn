@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 46dbc167a76782cfa8a72da8ce8bed2ce29e4dc6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 05f4748f66f4027972aabf53e7a1c237b8dbb543
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070317"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693050"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>创建固定薪酬计划
 

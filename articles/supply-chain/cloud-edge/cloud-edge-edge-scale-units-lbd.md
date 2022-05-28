@@ -1,7 +1,7 @@
 ---
 title: 使用 LBD 在自定义硬件上部署边缘缩放单元
 description: 本主题介绍如何使用基于本地业务数据 (LBD) 的自定义硬件和部署预配本地边缘缩放单元。
-author: cabeln
+author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
 ms.prod: dynamics-365
@@ -9,15 +9,15 @@ ms.service: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: cabeln
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 37bc8678d4e04afebbebaaa893a484866a8643ce
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565538"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674077"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>使用 LBD 在自定义硬件上部署边缘缩放单元
 

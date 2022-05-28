@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: edb8799f8baf7b6ed775c73a1624abe794e692a3
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883711"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711511"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>审核应付帐款中的账单和关键数据
 

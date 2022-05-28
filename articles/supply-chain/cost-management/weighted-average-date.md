@@ -1,7 +1,7 @@
 ---
 title: 具有“包括实际成本和标记”的加权平均日期
 description: 加权平均日期是基于加权平均原则的库存模型，其中，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 03/04/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
-ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
+ms.openlocfilehash: 1497cb08f4cc5a455c832b9bf125c309cd90aa3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8391993"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672113"
 ---
 # <a name="weighted-average-date-with-include-physical-value-and-marking"></a>具有“包括实际成本和标记”的加权平均日期
 

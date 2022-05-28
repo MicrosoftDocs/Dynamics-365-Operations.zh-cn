@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649092"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695379"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>使用扩展在税务集成中添加数据字段
 
@@ -383,7 +382,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 
 完成前面的步骤后，您可以验证您的更改。
 
-1. 在 Finance 中，转到 **应付帐款**，将 **&debug=vs%2CconfirmExit&** 添加到 URL。 例如，https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&。 最后的 **&** 是必不可少的。
+1. 在 Finance 中，转到 **应付帐款**，将 **&debug=vs%2CconfirmExit&** 添加到 URL。 例如，`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`。 最后的 **&** 是必不可少的。
 2. 打开 **采购订单** 页面，选择 **新建** 创建采购订单。
 3. 设置自定义字段的值，然后选择 **销售税**。 将自动下载带有前缀 **TaxServiceTroubleshootingLog** 的故障排除文件。 此文件包含过帐到税款计算服务的交易信息。 
 4. 检查添加的自定义字段是否存在于 **税务服务计算输入 JSON** 部分，以及值是否正确。 如果值不正确，请仔细检查此文档中的步骤。

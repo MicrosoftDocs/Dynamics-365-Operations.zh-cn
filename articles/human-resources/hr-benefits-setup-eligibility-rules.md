@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 88893f6ecee6d2bf0bb42bfa9043eb16a5ed4e90
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069622"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691264"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项 
 

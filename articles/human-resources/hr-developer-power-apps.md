@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070292"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689485"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 

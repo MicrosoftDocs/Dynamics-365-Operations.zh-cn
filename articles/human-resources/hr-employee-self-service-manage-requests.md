@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36cc5de3cace707347efba392e459368bcfbce35
-ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
+ms.openlocfilehash: da2da63182c72f099470ede24126df787fdcb0fe
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8509435"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686183"
 ---
 # <a name="manage-leave-and-absence-requests"></a>管理休假和缺勤申请
 

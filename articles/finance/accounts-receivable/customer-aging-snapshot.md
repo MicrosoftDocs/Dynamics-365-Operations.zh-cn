@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschloma
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a768b2508988c77d669bac2ac443d69a995a5617971693caed8e0563a146f853
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769099"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722986"
 ---
 # <a name="customer-aging-snapshots"></a>客户帐龄快照
 

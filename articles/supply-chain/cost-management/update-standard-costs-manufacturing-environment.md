@@ -1,7 +1,7 @@
 ---
 title: 更新制造环境中的标准成本
 description: 本文提供有关如何在非制造环境中更新标准成本的指导。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79663
 ms.assetid: 3a7c3d13-8dbc-442d-a281-ac0ebe99ec83
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0c8cae65ef95e299f9b774c4fa18dbdc615dd169138835f1852ee21a54cba69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8acbcb79fa45ea2f225775068e0d061a44cba1f7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735247"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675226"
 ---
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>更新制造环境中的标准成本
 

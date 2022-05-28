@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 607d9688aebb6288735cc04f6b4d8e7b8f7362b9
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 89e2e4842db71c4e3ee1df6a2357f95b37495537
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595005"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711678"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>创建信用证的银行信贷协议
 

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 99e2e04064d717040cf43469683fd143dc124c4f
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394481"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714357"
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 

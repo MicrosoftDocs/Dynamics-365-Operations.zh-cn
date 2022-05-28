@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70347009ede494760cd7f51b46db04b434b9fbcc
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: dd54642e5ec6c56fbc3a5ebb07fc8fdaf5545926
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883812"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725671"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>建议固定资产购置
 

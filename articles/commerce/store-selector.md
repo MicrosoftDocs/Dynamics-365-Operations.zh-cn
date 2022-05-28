@@ -3,7 +3,7 @@ title: 商店选择器模块
 description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772148"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710772"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
@@ -59,6 +59,16 @@ ms.locfileid: "6772148"
     ![总部中商店的纬度和经度设置的示例。](./media/Store-latitude-longitude.png)
 
 1. 在操作窗格上，选择 **保存**。 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>从商店选择器模块中隐藏商店
+
+履行组中的某些商店可能不是有效的提货位置。 要确保商店选择器模块中仅显示有效的提货位置作为选项，请在 Commerce Headquarters 中执行以下步骤。
+
+1. 转到 **Retail 和 Commerce \> Commerce 设置 \> 履行组 \> 所有商店**。
+1. 在操作窗格上，选择 **编辑**。
+1. 在 **设置** 下，对于不是有效提货位置的每个商店，请清除 **为提货位置** 复选框。
+1. 在操作窗格上，选择 **保存**。
+1. 运行 1070 **渠道配置** 配送计划作业。
 
 ## <a name="bing-maps-integration"></a>必应地图集成
 

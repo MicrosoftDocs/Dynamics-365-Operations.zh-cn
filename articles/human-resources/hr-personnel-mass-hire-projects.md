@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcfc973dc9acea624336f059d68562fa5eb41353
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4ecc181f21c1502b8174765af5a2f2ef738e8477
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070193"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716990"
 ---
 # <a name="mass-hire-projects"></a>大批雇用项目
 

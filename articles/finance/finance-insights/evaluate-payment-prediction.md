@@ -2,25 +2,25 @@
 title: 评估初始客户付款预测模型
 description: 本主题描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969104"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677945"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>评估初始客户付款预测模型
 
@@ -93,6 +93,6 @@ ms.locfileid: "7969104"
 
 ## <a name="for-more-information"></a>有关详细信息
 
-要了解有关如何评估预测模型的详细信息，请参阅[机器学习模型的结果](/confusion-matrix.md)
+要了解有关如何评估预测模型的详细信息，请参阅[机器学习模型的结果](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
 title: 内部公司主计划编制
 description: 本主题介绍了内部公司主计划编制
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: e28051097905503e291e0c15a50e9363b39b2daa
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 02d1a3675cfe30f2e72237f69509398122d17f05
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548125"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671861"
 ---
 # <a name="intercompany-master-scheduling"></a>内部公司主计划编制
 

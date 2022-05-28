@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 206050a2c60eaeff4776b534e3f366c6998f1756bf2734461fc10b9b83f4539a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e025f0d0a89eb6c6ab024236400a7c65b108e6d5
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743089"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722737"
 ---
 # <a name="letter-of-guarantee-transaction"></a>保函交易记录
 

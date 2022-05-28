@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6114ffb4d3b9e942887cbfa10c6039b0d73af7e1
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562218"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689176"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>引用贷方通知单中的原始发票（供应商发票）
 

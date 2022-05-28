@@ -2,7 +2,7 @@
 title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649120"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711905"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -29,11 +29,11 @@ ms.locfileid: "8649120"
 
 Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于法律公布日期、当地主管机构的监管详细信息公布情况、验证工具的推出情况，以及更改的幅度和复杂性。
 
-我们计划通过一个版本服务更新及时交付监管更新，以便客户进行更新和为（事务性监管更新的）实施日期做好准备，或为（与报告有关的监管更新）的第一个强制报告截止日期做好准备。 客户和合作伙伴可以在预览版提前采用计划 (PEAP) 中预览新的监管更新。
+我们计划通过一个版本服务更新及时交付监管更新，以便客户进行更新和为（事务性监管更新的）实施日期做好准备，或为（与报告有关的监管更新）的第一个强制报告截止日期做好准备。 客户和合作伙伴可以在为每个服务更新提供的预览包中预览新的监管更新。
 
 如果公布日期晚、需求详细信息或验证工具推出时间晚，或更改极其大且复杂，可能无法在月更新正式发布日期推出监管更新。 在这些情况下，监管更新将以相关可用月更新的修补程序的形式发布。
 
-只有发行版才会指示月更新中发布的监管更新。 可以分别通过缩写 HF 和 PEAP 识别作为修补程序交付或在版本预览中交付的监管更新。 
+只有发行版才会指示月更新中发布的监管更新。 可以分别通过缩写 HF 和预览版识别作为修补程序交付或在版本预览中交付的监管更新。 
 
 有关最新监管更新计划，请参见下表。   
 

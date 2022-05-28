@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-1-17
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 16f78b85567e6d08c588e621119513ff070bf618
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: 63e3cbaaf77456b55f08ea91831ba9d49cb57185
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016160"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689147"
 ---
 # <a name="basis-change-in-icms-dif-tax-calculations-for-products-from-suppliers-in-other-states"></a>其他州供应商的产品 ICMS-DIF 税计算的基数更改
 

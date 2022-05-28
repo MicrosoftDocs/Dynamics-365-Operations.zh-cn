@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446170"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725754"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -35,7 +35,7 @@ ms.locfileid: "8446170"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的[财务与运营播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 收入确认功能提供了灵活框架，供您定义特定于公司的收入价格和收入计划确认规则。
 

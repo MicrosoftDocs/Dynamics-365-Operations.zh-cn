@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92089e366d1772b0a74add95d10f8440586c62bd
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 045aea8f4bc15039a0e26c75128c7e97717fab5b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883456"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725599"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>设置和创建折旧模板
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d6e594cbb824a8b823912118e99b819585adc45e
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313825"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686563"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>使用客户层次结构管理 B2B 业务合作伙伴
 

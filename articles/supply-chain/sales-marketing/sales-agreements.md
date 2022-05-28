@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982501"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694359"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 
@@ -36,7 +36,8 @@ ms.locfileid: "7982501"
 
 您可以使用 **下达订单** 操作直接从销售协议创建一个销售订单。 或者，您可以在提取订单时选择有效销售协议（请参阅本文的“将销售协议应用于订购过程”部分）。  
 
-> [注释!] 在早期版本中，引用销售协议称为总销售订单。
+> [!NOTE] 
+> 在早期版本中，引用销售协议称为总销售订单。
 
 ## <a name="commitment-types"></a>承诺类型
 销售协议的每一行表示销售的承诺。 一般来说，具有两个承诺类别：

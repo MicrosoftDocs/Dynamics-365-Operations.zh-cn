@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1f0cc6820063a9a87e79fd6df25c7cffc01e228
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312566"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686292"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>B2B 电子商务网站的发票管理
 

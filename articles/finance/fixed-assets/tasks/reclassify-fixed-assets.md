@@ -7,17 +7,17 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 43ea9e342bf51126aa8857190b91549a364092c7
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883638"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726632"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 

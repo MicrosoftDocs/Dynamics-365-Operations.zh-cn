@@ -1,6 +1,6 @@
 ---
-title: 银行对账单文件导入故障排除
-description: 银行的银行对帐单文件与 Microsoft Dynamics 365 Finance 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
+title: 银行对帐单文件导入疑难解答
+description: 本文说明如何解决这些由银行对账单文件中的小差异引起的问题。
 author: panolte
 ms.date: 03/29/2021
 ms.topic: article
@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757113"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711164"
 ---
-# <a name="bank-statement-file-import-troubleshooting"></a>银行对账单文件导入故障排除
+# <a name="bank-statement-file-import-troubleshooting"></a>银行对帐单文件导入疑难解答
 
 [!include [banner](../includes/banner.md)]
 

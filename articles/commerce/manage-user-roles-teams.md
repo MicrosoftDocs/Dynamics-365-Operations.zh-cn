@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b76e831641d6fcef02ce14a99d63654f657fddf6087f80bbaf044f485026d635
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747409"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693327"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户角色
 

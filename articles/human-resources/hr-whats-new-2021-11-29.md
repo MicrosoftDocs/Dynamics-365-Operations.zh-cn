@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 618d90f95637002f444b334e16d3fef466dda65e
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: f28057c370b27dbdad4bfe1104e9289f7df65621
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087466"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691937"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>2021 年 11 月 19 日 Dynamics 365 Human Resources 中的新增功能或更改
 

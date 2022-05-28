@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 756048d1627731af2e1eb7a23a9dcc2756583526
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883510"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711567"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125% 余额递减法
 

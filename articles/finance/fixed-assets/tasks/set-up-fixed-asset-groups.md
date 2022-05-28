@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 17f149f3815867e2b174e017dd6b4998e2d7c16f
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883785"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725280"
 ---
 # <a name="set-up-fixed-asset-groups"></a>设置固定资产组
 

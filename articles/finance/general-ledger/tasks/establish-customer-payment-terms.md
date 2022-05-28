@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766946"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716962"
 ---
 # <a name="establish-customer-payment-terms"></a>设定客户付款期限
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766946"
 
 此程序定义了一个现金折扣和到期日期设置。 此任务指南使用 USMF 公司演示。
 
-1. 转到 **导航窗格 > 模块 > 应收帐款 > 付款设置 > 付款日**。 **付款期限** 的设置为 **应收帐款** 和 **应付帐款** 共享。 如果您在模块中进行定义，其它模板也可以使用这些定义。 对于此任务向导，我在 **应收帐款** 下设置了所有付款期限。
+1. 转到 **导航窗格 > 模块 > 应收帐款 > 付款设置 > 付款日**。 **付款期限** 的设置为 **应收帐款** 和 **应付帐款** 共享。 如果您在模块中进行定义，其它模板也可以使用这些定义。 对于此任务向导，在 **应收帐款** 下设置了所有付款期限。
 2. 单击 **新建**。 如果您的付款期限要求一周中特定的一天（星期一，星期二等）或一个月中特定的一天（5 日，10 日等），请创建付款日。 
 3. 在 **付款日** 字段中，输入 ID。
 4. 在 **描述** 字段中，输入付款日的描述。

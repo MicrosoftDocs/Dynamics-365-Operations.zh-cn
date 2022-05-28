@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompGridView, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9119c15cf80b9ebb9bed83ac438f24249aa4aa2f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071393"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691664"
 ---
 # <a name="set-up-compensation-grids"></a>设置薪酬网格
 

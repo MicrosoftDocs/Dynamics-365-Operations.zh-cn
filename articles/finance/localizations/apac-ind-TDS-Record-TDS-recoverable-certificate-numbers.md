@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 8fa4d1200818b4657b044a376ebb292426250ae1
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407732"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726481"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>记录 TDS 可退税证书编号
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseGroupTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5ff4892408aa87214231762452c195274192447512525ae9c1f08dad8e318076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49a905e9f27f01898628e88c7af781aed1f25ec7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728095"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714108"
 ---
 # <a name="create-a-lease-group"></a>创建租赁组
 

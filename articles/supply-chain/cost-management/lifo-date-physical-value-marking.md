@@ -1,7 +1,7 @@
 ---
 title: 具有实际成本和标记的后进先出日期
 description: 后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。 同一日期上的若干发货将按照最后发货、最后收货的顺序结算。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330268"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671441"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>具有实际成本和标记的后进先出日期
 

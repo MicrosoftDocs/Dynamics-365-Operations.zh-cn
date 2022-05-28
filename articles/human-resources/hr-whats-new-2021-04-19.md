@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722503"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685733"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Dynamics 365 Human Resources 新增功能或更改（2021 年 4 月 19 日）
 
@@ -42,7 +41,7 @@ ms.locfileid: "6722503"
 
 | 功能 | 发布计划 | 文档 |
 | --- | --- | --- |
-| 平台更新 10.0.17 (41) | -- | [针对 Finance and Operations 应用（2021 年 4 月）的版本 10.0.17 的平台更新](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| 平台更新 10.0.17 (41) | -- | [财务和运营应用版本 10.0.17 的平台更新（2021 年 4 月）](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | 福利管理窗体中的自定义字段支持 | [福利管理中的自定义字段支持](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [福利管理概览](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>缺陷修复
@@ -78,7 +77,7 @@ ms.locfileid: "6722503"
 | 功能 | 明细 |
 | --- | --- |
 | 经理为员工输入的技能可以通过工作流自动审核 | 即将推出。 |
-| 平台更新 10.0.18 (42) | 平台更新 10.0.18 计划于 2021 年 5 月 17 日在服务版本中开始推出。 有关详细信息，请参阅 [Finance and Operations 应用版本 10.0.18（2021 年 5 月）的平台更新](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18)。 |
+| 平台更新 10.0.18 (42) | 平台更新 10.0.18 计划于 2021 年 5 月 17 日在服务版本中开始推出。 有关详细信息，请参阅[财务和运营应用版本 10.0.18 的平台更新（2021 年 5 月）](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18)。 |
 | 福利管理资格规则中的自定义字段支持  | [资格处理的自定义字段支持](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 有关计划功能及其计划发布的完整列表，请参阅 [Dynamics 365 Human Resources 2021 年发布波次 1 概述](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)。

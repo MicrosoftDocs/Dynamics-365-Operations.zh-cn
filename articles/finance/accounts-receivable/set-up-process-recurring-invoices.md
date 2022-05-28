@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14011
 ms.assetid: 9cc37003-adf1-413d-b2b2-2badcf512e3b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53b667b8a5aef0a788abd6a9d5d4a3b4d8d890e2a18bb5f74e58bb198fab5fa8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce734567f0c5bf02e30c36484449c3869b82dc84
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743859"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724746"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>设置和处理重复发票
 

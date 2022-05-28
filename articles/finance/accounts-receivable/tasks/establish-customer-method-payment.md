@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0dd9fb37c733730360c78b702c62adadfdc6bd476ba4c436da08c86a9ad7ff55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762131"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713887"
 ---
 # <a name="establish-customer-method-of-payment"></a>设定客户付款方式
 

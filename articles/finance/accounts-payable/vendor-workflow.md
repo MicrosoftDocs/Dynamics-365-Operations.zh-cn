@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 48d81c727de29a285e5e33672e8f6d2eccef6249
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753914"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735658"
 ---
 # <a name="vendor-workflow"></a>供应商工作流
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cecbeb769235e525390cc7a66800a9b0d55d78a9
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 275c74d673d1ba2468e23c5fa443c9272d13a184
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8014029"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735251"
 ---
 # <a name="accounts-for-automatic-transactions"></a>自动交易记录帐户
 

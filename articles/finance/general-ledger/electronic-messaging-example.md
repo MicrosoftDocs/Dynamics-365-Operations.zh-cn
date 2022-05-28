@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.custom: ''
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a5fd466c98e0855f7a33929eeee42b9147d26ba19780b4ae7c8eb895ac27ea5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2735df09ecf029503ae96a88a523ea40197da8f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737669"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734990"
 ---
 # <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>设置并运行处理以调用简单的导出 ER 格式来生成 Excel 报表
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737693"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726744"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>减少拆分后的余额折旧
 

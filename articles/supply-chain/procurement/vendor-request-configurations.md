@@ -1,7 +1,7 @@
 ---
 title: 供应商请求配置
 description: 此主题介绍在新供应商请求中必须填充的字段。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1d34a9974da41b7abb40bb2cf046a15432c249eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 48f0fc8204afd560db656ee4da624d29cb9c8572
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570289"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672981"
 ---
 # <a name="vendor-request-configurations"></a>供应商请求配置
 [!include [banner](../includes/banner.md)]

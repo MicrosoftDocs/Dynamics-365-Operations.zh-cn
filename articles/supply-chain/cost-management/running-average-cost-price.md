@@ -1,7 +1,7 @@
 ---
 title: 移动平均成本价
 description: 库存结转过程基于在物料的物料模型组中选择的库存评估方法将发货交易记录结算到收货交易记录。 但在运行库存结转前，此系统将计算通常在过帐发货交易记录时使用的移动平均成本价。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 79003
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 871b3ffce45848f95d132eff3fd327295bc5084c
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 3d324324312ce9e47b07de8e3de952b8d7c53647
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092181"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672169"
 ---
 # <a name="running-average-cost-price"></a>移动平均成本价
 

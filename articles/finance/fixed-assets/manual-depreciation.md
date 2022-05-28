@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 3545b863f14ac9553563caa9b6e57443ea378536
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674819"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723186"
 ---
 # <a name="manual-depreciation"></a>手动折旧
 

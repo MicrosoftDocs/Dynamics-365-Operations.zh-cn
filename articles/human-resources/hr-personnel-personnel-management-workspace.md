@@ -10,18 +10,17 @@ ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: twheeloc
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066567"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689457"
 ---
 # <a name="personnel-management-workspace"></a>人事管理工作区
 

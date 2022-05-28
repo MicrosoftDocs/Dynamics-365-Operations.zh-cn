@@ -8,18 +8,18 @@ ems.prod: ''
 ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644330"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722315"
 ---
 # <a name="financial-dimensions"></a>财务维度
 

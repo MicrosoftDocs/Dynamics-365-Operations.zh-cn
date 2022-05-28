@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b83d1230c94462ca722ad7ceb7b2185afd636aae
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109596"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713351"
 ---
 # <a name="enable-customer-payment-predictions"></a>启用客户付款预测
 

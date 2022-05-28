@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720566"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712484"
 ---
 # <a name="configure-settlement"></a>配置结算
 

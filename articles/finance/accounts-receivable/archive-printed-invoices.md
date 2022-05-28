@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500519"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695265"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户发票
 

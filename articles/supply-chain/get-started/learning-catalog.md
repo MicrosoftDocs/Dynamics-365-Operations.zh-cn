@@ -1,23 +1,23 @@
 ---
 title: 适用于 Dynamics 365 Supply Chain Management 的学习目录
 description: 查找适用于 Dynamics 365 Supply Chain Management 的所有培训选项。
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/23/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 46302589ac5139ee6297aba26572225c0e392287
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: ef849c89410e7cf99cd0f1be6304e1850deac48d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402512"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671271"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>适用于 Dynamics 365 Supply Chain Management 的学习目录
 

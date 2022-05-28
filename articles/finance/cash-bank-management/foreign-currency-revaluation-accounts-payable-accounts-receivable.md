@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c84a373363fc066f46eb7891b421be098c0033526f2604d0ee52ff9c3fd9db3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774345"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713915"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的货币重估
 

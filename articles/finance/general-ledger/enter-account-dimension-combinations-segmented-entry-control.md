@@ -1,6 +1,6 @@
 ---
 title: 输入科目和维度组合（Segmented Entry 控件）
-description: 本文介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
+description: 本主题介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14071
 ms.assetid: e6fce826-c403-4d91-a78b-e9a58c44ac03
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778910"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717493"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>输入科目和维度组合（Segmented Entry 控件）
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
+本主题介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
 
 用户在不同的页面上输入科目和维度组合，如普通日记帐、预算和过帐定义的页面。 有效科目和维度组合取决于分配给分类帐的科目结构和分配给科目结构的高级规则。 在用户输入组合时，他们可以手动键入值或利用丰富的查找经验。 在您进入此字段后，可以开始键入，这样将搜索值和描述。 例如，如果键入 180，将搜索以该数字组合开头的任何值。 如果输入“现金”，将搜索描述以“现金”开头的任何值。 如果值或描述包含搜索条件，您还可以使用通配符，如“\*现金”或“\*180”进行搜索。 
 

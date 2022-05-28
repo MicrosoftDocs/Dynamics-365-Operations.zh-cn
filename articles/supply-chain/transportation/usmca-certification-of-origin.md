@@ -1,7 +1,7 @@
 ---
 title: USMCA 原产地认证
 description: 使用此功能，您可以打印 United States-Mexico-Canada Agreement (USMCA) 要求的原产地认证文档。
-author: Henrikan
+author: Weijiesa
 ms.date: 10/23/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4d34c1778802baaa0de0506d3dd4bc7efeb13f27
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9fed5f93441bbc29b039bd1562821b999a58e5e1
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573049"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677581"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA 原产地认证
 

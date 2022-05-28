@@ -1,25 +1,25 @@
 ---
 title: 设置 IoT 智能的 Azure 资源
 description: 此主题介绍如何创建和配置 IoT 智能所需 Microsoft Azure 资源。
-author: tonyafehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d50458be9196206978a8d146ecd5b8c2a0a1fa8c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7099604caa33b2a74252b48ac4eec6bc4c28ef51
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782839"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673121"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>设置 IoT 智能的 Azure 资源
 

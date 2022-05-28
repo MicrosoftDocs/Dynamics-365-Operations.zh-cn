@@ -1,7 +1,7 @@
 ---
 title: 库存对象值
 description: 本文提供有关库存对象的值如何计算的信息。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4a5dd487b9213f8f1289412a6a7b8112e6b57df6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568943"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670375"
 ---
 # <a name="inventory-object-values"></a>库存对象值
 

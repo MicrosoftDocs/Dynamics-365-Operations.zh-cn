@@ -1,24 +1,24 @@
 ---
 title: 管理成本核算分类帐的数据源
 description: 此过程用于管理成本核算分类帐的总帐数据源。
-author: ShylaThompson
+author: kfend
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da218df53fdca98ead748ce364c03502bd1f333959ebacab25339b665bcb9c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb35761fb7a5f6d044832c57a7560b0c3ab2f6fa
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771696"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721834"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 

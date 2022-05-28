@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c06f68aebe7ed1ccc944793591202a9a221c42b
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718239"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720130"
 ---
 # <a name="lease-posting-types"></a>租赁过帐类型
 

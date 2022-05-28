@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60493"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644835"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711255"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 

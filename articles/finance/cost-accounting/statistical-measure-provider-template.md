@@ -1,6 +1,6 @@
 ---
 title: 供统计维度成员和度量提供方使用的提供方模板
-description: 此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。
+description: 此主题提供关于统计维度成员和统计度量提供方模板的信息。
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767639"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733897"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>供统计维度成员和度量提供方使用的提供方模板
 
@@ -132,7 +132,7 @@ HcmEmployment 表包含实例中的所有员工的列表。 下表是一个全�
 
 **数据源**
 
-| 姓名        | 数据连接器                                                                     | 统计维度成员 |
+| Name        | 数据连接器                                                                     | 统计维度成员 |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
 | FTEs D365FO | Dynamics 365 Finance – 统计度量 | FTE                         |
 

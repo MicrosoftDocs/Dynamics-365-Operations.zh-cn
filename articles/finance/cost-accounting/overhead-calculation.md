@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551796"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733925"
 ---
 # <a name="overhead-calculation"></a>开销计算
 

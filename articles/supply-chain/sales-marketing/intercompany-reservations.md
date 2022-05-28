@@ -1,22 +1,22 @@
 ---
 title: 内部公司预留
 description: 本主题解释了标记
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 7e1a47082b6d1bdde0d6f4d77616397ae52e7134
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 599e86aa29dc8275d003aa65b105213281d7f4b1
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548127"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672790"
 ---
 # <a name="intercompany-reservations"></a>内部公司预留
 

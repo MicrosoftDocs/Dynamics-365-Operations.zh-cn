@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860550"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734210"
 ---
 # <a name="set-up-electronic-messages"></a>设置电子消息
 

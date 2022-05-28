@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ee1bcdc0f5e186bcfb39827779e7bc00b64ea439
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065960"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688676"
 ---
 # <a name="manage-benefit-expiration-dates"></a>管理福利到期日期
 

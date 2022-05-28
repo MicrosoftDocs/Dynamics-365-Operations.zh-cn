@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPosting, SysQueryForm, CustInterestNote, SrsReportViewerForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b97515e29d04866172216fc29af9a8d992568276c5e01acd67ad9d0028ea0c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcffce8f7d2b2c8a8ab2bf6fecaa855df2800382
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764351"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725000"
 ---
 # <a name="process-interest"></a>处理利息
 

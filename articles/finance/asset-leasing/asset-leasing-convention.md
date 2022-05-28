@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLease
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: afc432d448f3b013dd8732120d7e8a50a9169343c705a75465e669156fd5e052
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740018"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711021"
 ---
 # <a name="asset-leasing-conventions"></a>资产租赁惯例
 

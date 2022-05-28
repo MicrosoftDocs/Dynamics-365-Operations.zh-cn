@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c4a5c0d758ecacce6433b13a2b2044d2417d018
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403857"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722455"
 ---
 # <a name="plan-your-chart-of-accounts"></a>计划您的会计科目表
 

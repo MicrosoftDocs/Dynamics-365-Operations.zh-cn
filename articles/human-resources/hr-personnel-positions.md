@@ -10,17 +10,16 @@ ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: twheeloc
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0b11458ac5d41d08a245a1f5aa48fb4633ae075
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: bb7582165f49c40d294acd3cf804fe89782936c4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534292"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689429"
 ---
 # <a name="positions"></a>职位
 

@@ -1,7 +1,7 @@
 ---
 title: 设置供应商帐户
 description: 此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565463"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676965"
 ---
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 

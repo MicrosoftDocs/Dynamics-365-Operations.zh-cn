@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680f4cc529b6818d763730f253811a6edbe0dd76
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 03f68ca3b5d863844818c9f3489d30483f897296
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070569"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692826"
 ---
 # <a name="set-up-injury-and-illness-information"></a>设置伤害和疾病信息
 

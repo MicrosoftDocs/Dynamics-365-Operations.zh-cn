@@ -8,15 +8,15 @@ ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: Mirzaab
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102731"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670459"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>延期处理手动库存变动
 

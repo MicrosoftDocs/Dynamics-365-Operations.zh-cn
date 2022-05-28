@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: Mirzaab
+ms.author: mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b29720f3c5dbe0ec9e0370afc6b00529aca6769
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 97c6e9bf536568968e148cb92f78c226e1f45444
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343445"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671497"
 ---
 # <a name="mobile-bar-code-support"></a>移动条码支持
 

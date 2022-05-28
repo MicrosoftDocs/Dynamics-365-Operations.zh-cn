@@ -8,15 +8,15 @@ ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThres
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ff67198980765f288b5394d91927ae1826266841
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103330"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674692"
 ---
 # <a name="cycle-counting-example-scenarios"></a>周期盘点示例场景
 

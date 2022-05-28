@@ -1,7 +1,7 @@
 ---
 title: 用于项目控制和项目管理核算的成本类别
 description: 某些生产工作类型可以应用于项目时间评估和报告。 本文提供有关您必须为这些用于生产和项目目的生产工作类型定义的成本类别的信息。
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 78253
 ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374ff726673a2360ba05f931a80c4906eaec38b0df44e12c69898d77b819a4a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742744"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675337"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>用于项目控制和项目管理核算的成本类别
 

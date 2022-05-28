@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c6ac5409de5101c91b9348de800e3eaea9895c23
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312572"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692555"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>使用 Dynamics 365 Sales 在 B2B 电子商务网站上管理业务合作伙伴用户
 
