@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740643"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758760"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>财务和运营应用的服务描述
 
@@ -132,9 +132,9 @@ Microsoft 将配置其规模足以应对交易记录量和用户并发的客户�
 
 LCS 提供[自助服务工具](../../dev-itpro/deployment/infrastructure-stack.md)和[数据库移动操作](../../dev-itpro/database/dbmovement-operations.md)，用于执行环境和数据管理任务。 下面举了一些示例加以说明：
 
-**事件：**[请求生产实例](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**事件：**[请求生产实例](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- 完成[实行清单](../imp-lifecycle/prepare-go-live.md)，然后将其提交给 [Microsoft FastTrack](/dynamics365/fasttrack/) 团队。
+- 完成[实行准备情况查看](../imp-lifecycle/prepare-go-live.md)，然后将其提交给 [Microsoft FastTrack](/dynamics365/fasttrack/) 团队。
 - 请求生产实例之前，请填写 [LCS 订阅估算器](../../dev-itpro/lifecycle-services/subscription-estimator.md)。
 - 完成 [LCS 方法](../../dev-itpro/lifecycle-services/create-methodology.md)中指定的所有实现任务。
 

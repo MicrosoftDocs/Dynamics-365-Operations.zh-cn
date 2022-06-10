@@ -12,6 +12,8 @@
               items:
                 - name: “Commerce 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28（2022 年 7 月）
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27（2022 年 7 月）
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26（2022 年 5 月）
@@ -1300,6 +1302,10 @@
               items:
                 - name: 为 4xx/5xx 状态代码错误生成自定义响应页面
                   href: build-pages-400-500-errors.md
+            - name: 服务集成
+              items:
+                - name: 将 Customer Voice 集成到电子商务站点页面中
+                  href: customer-voice-integration.md
         - name: 欺诈保护
           items:
             - name: Dynamics 365 Fraud Protection 与 Dynamics 365 Commerce 的集成
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: 使用电子报告格式的数据收集数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 使用 USER INPUT PARAMETER 数据源指定要生成的报表的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置数据模型
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: 在本地开发过程中模拟登录状态
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: 使用 Azure Active Directory B2C 设置 Web API 身份验证转移
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: 配置要基于上下文显示的模块属性
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: 使用 CultureInfoFormatter 类对模块进行全局化
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 未启用评分和评价解决方案时，评分优化器将显示在搜索结果和类别页面上
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: 使用自定义订单摘要模块时，订单摘要小计不包括费用中的税费
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: 客户管理
               items:
                 - name: 创建新客户时未发送欢迎电子邮件

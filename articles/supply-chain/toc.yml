@@ -12,6 +12,8 @@
               items:
                 - name: “Supply Chain Management 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28（2022 年 8 月）
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27（2022 年 7 月）
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26（2022 年 5 月）
@@ -711,6 +713,8 @@
           items:
             - name: “成本管理”主页
               href: cost-management/cost-management-home-page.md
+            - name: 库存成本计算常见问题
+              href: cost-management/inventory-costing-faq.md
             - name: 针对标准成本的先决条件
               items:
                 - name: 针对标准成本的先决条件概览
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 使用电子报告格式的数据收集数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 使用 USER INPUT PARAMETER 数据源指定要生成的报表的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置数据模型
@@ -1707,6 +1713,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Inventory Visibility 预留
                   href: inventory/inventory-visibility-reservations.md
+                - name: Inventory Visibility 库存分配
+                  href: inventory/inventory-visibility-allocation.md
                 - name: Inventory Visibility 现有量更改计划和可承诺量
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: Inventory Visibility 公共 API
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: 到岸成本报告
               href: landed-cost/landed-cost-reports.md
+            - name: 到岸成本数据实体
+              items:
+                - name: 到岸成本实体概览
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: 航行创建实体
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: 成本交易记录实体
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: 集装箱活动实体
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: 供应商发票实体
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: 仓库管理
           items:
             - name: 仓库管理概览

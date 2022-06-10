@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.28（8 月）
+                  href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27（7 月）
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26（5 月）
@@ -258,6 +260,8 @@
               href: accounts-payable/positive-pay-overview.md
             - name: 设置和生成付款确认文件
               href: accounts-payable/set-up-generate-positive-pay-files.md
+            - name: 使用电子报告设置和生成付款确认文件
+              href: accounts-payable/set-up-positive-pay-ER.md
             - name: 供应商发票日记帐和发票审核日记帐的默认对方科目
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: 供应商工作流
@@ -268,6 +272,8 @@
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: 研究或解析异常
                   href: accounts-payable/tasks/research-resolve-exceptions.md
+            - name: 应付帐款过帐
+              href: general-ledger/accts-payble-posting.md
             - name: 供应商过帐模板
               href: accounts-payable/vendor-posting-profiles.md
             - name: 创建费用代码
@@ -346,9 +352,13 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: 客户付款见解（预览版）
               href: accounts-receivable/payment-insights-overview.md
+            - name: 应收帐款过帐
+              href: general-ledger/accts-recvble-posting.md
             - name: 客户过帐模板
               href: accounts-receivable/customer-posting-profiles.md
-            - name: 使用共享的编号规则复制客户
+            - name: 创建费用代码
+              href: accounts-receivable/create-charges-codes.md
+            - name: 使用共享的编号序列复制客户
               href: accounts-receivable/copy-customer.md
             - name: 客户工作流
               href: accounts-receivable/customer-workflow.md
@@ -444,6 +454,8 @@
                       href: accounts-receivable/sb-alignment-date-examples.md
                     - name: 收入分成
                       href: accounts-receivable/sb-revenue-split.md
+                    - name: 定期任务
+                      href: accounts-receivable/sb-periodic-tasks.md
                 - name: 收入和支出延期
                   items:
                     - name: 设置收入和支出延期
@@ -466,6 +478,8 @@
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: 存入客户付款
                   href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: 设置和处理过渡付款
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: SEPA 直接借记概览
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: SEPA 直接借记授权单
@@ -662,6 +676,8 @@
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: 设置高级银行对帐导入流程
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
+                - name: 使用电子报告设置高级银行对帐导入流程
+                  href: accounts-payable/import-bai2-er.md
                 - name: 设置银行对帐匹配规则
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: 使用高级银行对帐对银行对帐单进行对帐
@@ -1044,6 +1060,14 @@
                       href: general-ledger/recommended-practices-pstg-prfles.md
                     - name: 自动交易记录帐户
                       href: general-ledger/accounts-for-auto-transactions.md
+                    - name: 应付帐款过帐
+                      href: general-ledger/accts-payble-posting.md
+                    - name: 应收帐款过帐
+                      href: general-ledger/accts-recvble-posting.md
+                    - name: 资产租赁过帐
+                      href: asset-leasing/set-up-lease-posting-accts.md
+                    - name: 固定资产过帐
+                      href: fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: 分配规则
                   items:
                     - name: 分类帐分配规则
@@ -1292,6 +1316,8 @@
                   href: public-sector/accounts-payable-public-sector.md
                 - name: 公共部门中的采购订单代码
                   href: public-sector/purchase-order-codes-public-sector.md
+                - name: 采购订单和结转预算
+                  href: public-sector/determine-carry-forward-budget.md
                 - name: 在公共部门中创建和分配贸易伙伴代码
                   href: public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: 公共部门中的过帐定义
@@ -1778,6 +1804,8 @@
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
                 - name: 导出分类帐交易记录
                   href: localizations/emea-bel-export-ledger-transactions.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-bel-eu-sales-list.md
                 - name: INTERVAT 纳税申报
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: 对帐报表
@@ -1792,6 +1820,8 @@
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
                 - name: 比利时内部统计
                   href: localizations/emea-bel-intrastat.md
+                - name: 增值税申报
+                  href: localizations/emea-bel-vat-declaration-belgium.md
             - name: 巴西
               items:
                 - name: 巴西概览
@@ -2094,6 +2124,8 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: 为公共部门客户创建和过帐项目发票
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-dnk-eu-sales-list.md
                 - name: 导入 OIOUBL 电子开票配置
                   href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
                 - name: 使用付款单过帐普通发票
@@ -2296,6 +2328,8 @@
                   href: localizations/emea-fin-intrastat.md
                 - name: 增值税申报
                   href: localizations/emea-fin-vat-declaration.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-fin-eu-sales-list.md
             - name: 法国
               items:
                 - name: 法国概览
@@ -3088,6 +3122,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: 增值税报表明细
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: 立陶宛内部统计
+                  href: localizations/emea-ltu-intrastat.md
                 - name: 立陶宛的 i.SAF 报告
                   href: localizations/emea-ltu-isaf.md
                 - name: 立陶宛税务标准审计文件 (SAF-T)
@@ -3230,6 +3266,8 @@
                   href: localizations/emea-pol-correction-notes.md
                 - name: 重复销售发票编号
                   href: localizations/emea-pol-sales-invoice-duplicates-numbering.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-pol-eu-sales-list.md
                 - name: 固定资产折旧
                   href: localizations/emea-pol-fixed-assets-depreciation.md
                 - name: 固定资产处置功能扩展
@@ -3550,11 +3588,13 @@
                   href: localizations/emea-esp-invoice-due-dates.md
                 - name: 特殊销售税
                   href: localizations/emea-esp-conditional-sales-tax.md
-                - name: 贷记开单
+                - name: 贷记开票
                   href: localizations/tasks/emea-esp-credit-invoicing.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-esp-sales-list.md
                 - name: 发票帐户的财务数据
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: 固定资产重估组
+                - name: 固定资产组重估
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: 集团内部增值税
                   href: localizations/emea-esp-intra-community-vat.md
@@ -3668,8 +3708,10 @@
                       href: localizations/emea-gbr-mtd-vat-integration-declaration.md
                     - name: 生成纸张格式的增值税申报（增值税 100 报表）
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                - name: 付款实践报表统计
+                - name: 有关付款实践的统计信息报表
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-uk-eu-sales-list.md
             - name: 美国
               items:
                 - name: 美国概览
@@ -4339,6 +4381,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 使用电子报告格式的数据收集数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 使用 USER INPUT PARAMETER 数据源指定要生成的报表的参数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 调试数据源
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: 配置数据模型

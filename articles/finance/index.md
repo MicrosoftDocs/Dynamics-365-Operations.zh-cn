@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1018cb8c3279a27a55a415c23405571e23ab40e1
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713689"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762586"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
@@ -76,7 +76,7 @@ ms.locfileid: "8713689"
    - 开票
    - 针对您组织所购买的商品或服务付款 
     
-有关管理采购、库存和制造的功能的信息，请访问 [Supply Chain Management 主页](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)。
+有关管理采购、库存和制造的功能的信息，请访问 [Supply Chain Management 主页](../supply-chain/index.md)。
 
 ## <a name="elearning-courses"></a>网络培训课程
 

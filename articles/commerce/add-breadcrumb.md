@@ -2,7 +2,7 @@
 title: 痕迹导航模块
 description: 本主题介绍痕迹导航模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109723"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780326"
 ---
 # <a name="breadcrumb-module"></a>痕迹导航模块
 
@@ -64,11 +64,11 @@ ms.locfileid: "8109723"
 1. 转到 **站点设置 \> 扩展**，然后针对 **PDP 上的痕迹导航显示类型** 设置，选择 **显示类别层次结构**。
 1. 转到 **模板**，选择 PDP 模板。
 1. 在包含购买框模块的 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **痕迹导航** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **痕迹导航** 模块，然后选择 **确定**。
 1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
 1. 转到 **页面**，打开使用 PDP 模板的 PDP。 如果 PDP 尚不存在，请创建一个。
 1. 在包含购买框模块的 **容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **痕迹导航** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **痕迹导航** 模块，然后选择 **确定**。
 1. 在 **痕迹导航** 插槽的属性窗格中，在 **根** 下，选择 **链接文本**。
 1. 在 **链接文本** 对话框中，输入 **主页**，然后在 **链接目标** 下，选择 **添加链接**。
 1. 在 **添加链接** 对话框中，选择痕迹导航根的链接，然后选择 **确定**。

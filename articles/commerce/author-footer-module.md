@@ -2,7 +2,7 @@
 title: 页脚模块
 description: 此主题介绍页脚模块和如何在 Dynamics 365 Commerce 中制作页脚模块。
 author: anupamar-ms
-ms.date: 03/02/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
-ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8374823"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780251"
 ---
 # <a name="footer-module"></a>页脚模块  
 
@@ -46,15 +46,15 @@ ms.locfileid: "8374823"
 ## <a name="create-a-footer-module"></a>创建页脚模块
 
 1. 转到 **片段**，选择 **新建** 创建新片段。
-1. 在 **新建片段** 对话框中，选择 **容器** 模块，输入片段的名称，然后选择 **确定**。
+1. 在 **选择片段** 对话框中，选择 **容器** 模块，输入片段的名称，然后选择 **确定**。
 1. 在 **默认容器** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **页脚类别** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **页脚类别** 模块，然后选择 **确定**。
 1. 在 **页脚类别** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **页脚项** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **页脚项** 模块，然后选择 **确定**。
 1. 选择 **页脚项** 插槽，然后，在右侧属性窗格中，根据需要配置标题、链接和链接文本，以及图像。
 1. 若要添加更多页脚项，请为每个页脚项重复执行步骤 5 到 7。
 1. 若要向页脚添加“返回顶部”链接，请选择 **页脚类别** 插槽中的省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **返回顶部** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **返回顶部** 模块，然后选择 **确定**。
 1. 选择 **返回顶部** 插槽，然后，在右侧属性窗格中，根据需要配置文本及其他模块属性。
 1. 选择 **完成编辑** 签入片段，然后选择 **发布** 进行发布。
 
