@@ -2,19 +2,19 @@
 title: 对帐单过帐功能改进
 description: 此主题介绍对对报单过帐功能的改进。
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649011"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770132"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
 
@@ -151,6 +151,9 @@ Commerce 中包含与以下配置键有关的验证：
 - 用户可以查看交易记录如何聚集。
 - 用户拥有从交易记录到销售订单，再到销售发票的完整审计线索。 此审计线索在传统对帐单过帐功能中不可用。
 - 通过聚合 XML 文件可以更轻松地识别销售订单创建和开票期间出现的问题。
+
+> [!NOTE]
+> 聚合交易后，分配给交易的工作人员不再适用于 **排名靠前的员工销售额报表**，这意味着 **排名靠前的员工销售额报表** 将不会显示所有交易。 我们建议您不要将 **排名靠前的员工销售额报表** 用于聚合交易。
 
 ### <a name="journal-vouchers"></a>日记帐凭证
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469888"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809086"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>主计划的迁移到计划优化
 
@@ -47,7 +47,7 @@ Microsoft 正在废弃内置的计划引擎，以支持计划优化。 此更改
 
 ### <a name="new-deployments"></a>新部署
 
-对于云中的所有新部署，应将计划优化视为默认的主计划引擎。 通常，应该将计划优化用于在主计划期间不生成计划生产订单的所有新部署。 如果新部署依赖于计划优化当前不支持的功能，您可以请求例外，以便继续使用内置的主计划引擎。
+对于云中的所有新部署，必须将计划优化视为默认的主计划引擎。 通常，应该将计划优化用于在主计划期间不生成计划生产订单的所有新部署。 如果新部署依赖于计划优化当前不支持的功能，您可以请求例外，以便继续使用内置的主计划引擎。
 
 ### <a name="existing-deployments"></a>现有部署
 
@@ -63,7 +63,7 @@ Microsoft 正在废弃内置的计划引擎，以支持计划优化。 此更改
 
 在所需的功能变为可用后，Microsoft 将提供一个宽限期，直到例外到期。 当所需的功能变为可用并且宽限期已开始时，将通知环境管理员。
 
-以下流程图总结了本主题中提供的信息，以便您可以快速确定是否应请求例外。 如果需要请求例外，请填写并提交[计划优化迁移和例外调查表](https://go.microsoft.com/fwlink/?linkid=2144962)。
+以下流程图总结了本主题中提供的信息，以便您可以快速确定是否应请求例外。 如果需要请求例外，请填写并提交[计划优化迁移和例外调查表](https://go.microsoft.com/fwlink/?linkid=2144962)。 产品组负责评估和审核每个异常请求，因此请使用提供的链接直接将您的请求提交给产品组，并且不为此创建支持票证。 如果您的请求被拒绝，请不要创建支持票证，因为 Microsoft 支持人员无法重新评估或准许异常。
 
 ![例外流程图。](media/exception-diagram.png "例外流程图")
 

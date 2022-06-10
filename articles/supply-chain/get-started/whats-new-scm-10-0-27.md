@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: e8ec20c361f76a6012a7c8e1f03296007f5a05aa
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645334"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812935"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 预览（2022 年 7 月）
 
@@ -34,7 +34,7 @@ ms.locfileid: "8645334"
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
-| 库存和物流 | [库存可见性加载项的库存分配](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | 即将推出 | 默认启用 |
+| 库存和物流 | [库存可见性加载项的库存分配](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [库存可见性库存分配](../inventory/inventory-visibility-allocation.md) | 默认启用 |
 | 制造 | 生产车间执行界面的“我的一天”视图 | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md)并在[生产车间执行界面中显示休假余额](../production-control/production-floor-execution-payroll-stats.md) | 功能管理：<br>*生产车间执行界面的“我的一天”视图* |
 | 计划 | [转包计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [管理生产中的转包工作](../production-control/manage-subcontract-work-production.md) | 默认启用 |
 
@@ -69,7 +69,7 @@ ms.locfileid: "8645334"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.27 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)。<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.27 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

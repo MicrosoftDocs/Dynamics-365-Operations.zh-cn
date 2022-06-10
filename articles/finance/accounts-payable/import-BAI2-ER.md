@@ -1,6 +1,6 @@
 ---
 title: 使用电子报告设置高级银行对帐导入
-description: 本主题说明如何使用电子报告为 BAI2 对帐单设置高级银行对帐导入流程。
+description: 本主题说明如何使用电子报告设置高级银行对帐导入流程。
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544464"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770185"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>使用电子报告设置高级银行对帐导入
 
 [!include [banner](../includes/banner.md)]
 
-高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题介绍如何设置 BAI2 银行对帐单的导入功能。
+高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题介绍如何设置银行对帐单的导入功能。 银行对账单导入设置因您电子银行对账单的格式的不同而不同。 Microsoft Dynamics 365 Finance 支持三种银行对帐单格式︰ISO20022、MT940 和 BAI2。 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>设置电子报告配置
 
@@ -62,3 +62,14 @@ ms.locfileid: "8544464"
 5. 选择 **浏览**，选择 **BAI** 文件。
 6. 选择 **上载**。
 7. 选择 **确定** 导入所选文件。
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对账单格式和技术布局的示例
+下面是高级银行对帐导入文件技术布局定义的示例和三个相关银行对帐单示例文件：[导入文件示例](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| 技术布局定义                             | 银行对账单示例文件          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

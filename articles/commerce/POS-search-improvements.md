@@ -2,7 +2,7 @@
 title: 销售点 (POS) 中的产品搜索和客户搜索
 description: 此主题概述 Dynamics 365 Commerce 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700081"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806419"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -106,6 +106,8 @@ ms.locfileid: "7700081"
 > 如果添加的快捷方式过多，POS 中搜索栏上的下拉菜单将变得杂乱不堪，从而可能影响员工的搜索体验。 建议仅根据需要添加快捷方式。
 
 **显示顺序** 字段确定快捷方式在 POS 中的显示顺序。 显示的条件是客户搜索算法用于搜索客户的自带属性。 但是，合作伙伴可以添加自定义属性作为搜索快捷方式。 若要将自定义属性添加为搜索快捷方式，系统管理员必须扩展用于客户搜索条件的可扩展枚举，然后将合作伙伴的自定义属性标记为快捷方式。 合作伙伴负责编写代码以在其自定义快捷方式用于搜索时查找结果。
+
+如果您希望在 POS 上呈现快捷方式，则需要翻译快捷方式。 如果您的渠道语言不同于系统默认语言，则必须使用预期语言定义每个快捷方式的翻译。 您可以通过为每个快捷方式选择 **翻译** 来定义翻译。 
 
 > [!NOTE]
 > 添加到枚举的自定义属性不影响标准客户搜索算法。 换言之，客户搜索算法不在自定义属性中进行搜索。 仅当自定义属性添加为快捷方式时或替代了默认搜索算法时，用户才能将该自定义属性用于搜索。

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688111"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809604"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources 基础结构合并常见问题
 
@@ -131,6 +131,9 @@ HR 数据将是新基础结构上环境中的财务和运营应用的本地数�
 如果将加入新基础结构上的环境中的 Dynamics 365 Human Resources 和财务和运营环境连接到同一个 Dataverse 环境，迁移后这两个应用将继续连接到同一个 Dataverse 环境。 任何 Dataverse 扩展都不需要迁移。
 
 但是，如果 Dynamics 365 Human Resources 和财务和运营环境当前连接到单独的 Dataverse 环境，两个 Dataverse 环境必须合并，以让它们连接到新基础结构上的单个环境。 对于此 Dataverse 迁移，Human Resources 决方案标准 Dataverse 表可以连接到新 Dataverse 环境并与新环境重新同步。 Dataverse 环境的任何扩展都不会自动迁移，而必须在新环境中重新部署。 我们建议您使用托管解决方案来管理您的 Dataverse 扩展。 有关详细信息，请参阅[解决方案简介](/powerapps/developer/data-platform/introduction-solutions)。
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>我们在 Dynamics 365 Human Resources 中使用了自定义字段功能，这些自定义字段会自动迁移吗？
+是的，已添加的自定义字段将迁移到新的基础结构。
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>我们已将 Microsoft Power Automate 流和/或 Microsoft Power Apps 配置为与 Dynamics 365 Human Resources 配合使用。 在完成基础结构更改后，这些 Microsoft Power Platform 组件是否会迁移并自动工作？
 

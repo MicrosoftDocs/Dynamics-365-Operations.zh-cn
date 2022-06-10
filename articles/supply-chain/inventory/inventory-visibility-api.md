@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524456"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786856"
 ---
 # <a name="inventory-visibility-public-apis"></a>库存可见性公共 API
 
@@ -41,17 +41,22 @@ ms.locfileid: "8524456"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | 过帐 | [设置/覆盖现有库存数量](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | 过帐 | [创建一个预留事件](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | 过帐 | [创建多个预留事件](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | 过帐 | [创建一个计划现有库存更改](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | 过帐 | [创建多个计划现有库存更改](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | 过帐 | [创建一个计划现有库存更改](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | 过帐 | [创建多个计划现有库存更改](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用过帐方法查询](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | 获取 | [使用获取方法查询](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | 过帐 | [创建一个分配事件](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | 过帐 | [创建一个取消分配事件](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | 过帐 | [创建一个重新分配事件](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | 过帐 | [创建一个使用事件](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | 过帐 | [查询分配结果](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > 此路径的 {environmentId} 部分是 Microsoft Dynamics Lifecycle Services (LCS) 中的环境 ID。
 > 
 > 批量 API 最多可为每个请求返回 512 条记录。
 
-Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>。
+Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/ad8a1322f953f88d9a55>。
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>根据 Lifecycle Services 环境查找终结点
 
@@ -84,7 +89,7 @@ Microsoft 已在 Power Apps 中内置了用户接口 (UI)，供您获取微服�
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>身份验证
 
-平台安全令牌用于调用库存可见性公共 API。 因此，您必须使用Azure AD 应用程序生成 _Azure Active Directory (Azure AD) 令牌_。 然后，必须使用 Azure AD 令牌从安全服务获取 _访问令牌_。
+平台安全令牌用于调用库存可见性公共 API。 因此，您必须使用 Azure AD 应用程序生成 _Azure Active Directory (Azure AD) 令牌_。 然后，必须使用 Azure AD 令牌从安全服务获取 _访问令牌_。
 
 Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/496645018f96b3f0455e>。
 
@@ -580,6 +585,10 @@ Query(Url Parameters):
 
 ## <a name="available-to-promise"></a>可承诺
 
-您可以设置库存可见性，以可以计划将来的现有库存更改并计算 ATP 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用 ATP 计算可以大大提高您的订单履行能力。 有关如何启用此功能以及如何在启用此功能后通过 API 与库存可见性交互的信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
+您可以设置库存可见性，以可以计划将来的现有库存更改并计算 ATP 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用 ATP 计算可以大大提高您的订单履行能力。 有关如何启用此功能以及如何在启用此功能后通过 API 与库存可见性交互的信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md#api-urls)。
+
+## <a name="allocation"></a>分配
+
+与分配相关的 API 位于[库存可见性分配](inventory-visibility-allocation.md#using-allocation-api)中。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

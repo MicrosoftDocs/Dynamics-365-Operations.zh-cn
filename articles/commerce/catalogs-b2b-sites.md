@@ -2,19 +2,19 @@
 title: 为 B2B 站点创建 Commerce 目录
 description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 目录。
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656833"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782829"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>为 B2B 站点创建 Commerce 目录
 
@@ -24,7 +24,7 @@ ms.locfileid: "8656833"
 本主题介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 产品目录。 有关 B2B 站点的 Commerce 目录的常见问题的解答，请参阅 [B2B 的 Commerce 目录常见问题解答](catalogs-b2b-sites-FAQ.md)。
 
 > [!NOTE]
-> 此主题适用于 Dynamics 365 Commerce 版本 10.0.26 及更高版本。
+> 此主题适用于 Dynamics 365 Commerce 版本 10.0.27 及更高版本。
 
 可以使用 Commerce 目录来标识您想要在您的 B2B 在线商店提供的产品。 创建类别时，确定提供产品的在线商店，添加要包括的产品，并通过添加商品促销详细信息提高产品供应。 可以为每个 B2B 在线商店创建多个目录。
 
@@ -42,7 +42,7 @@ Commerce 产品目录允许您定义以下信息：
 - **价格组** - 您可以配置特定于给定目录的价格和促销。 此功能是为 B2B 渠道定义目录的核心原因。 目录的价格组使组织能够向其预期的 B2B 组织提供产品并应用其首选定价和折扣。 从配置目录订购的 B2B 客户在登录 Commerce B2B 站点后可以从特价和促销中受益。 若要配置目录特定的价格，请在 **目录** 选项卡上选择 **价格组**，以便将一个或多个价格组链接到该目录。 客户通过该目录订购时，将应用已链接到同一个价格组的所有贸易协议、价格调整日记帐和提前折扣。 （高级折扣包括阈值、数量和组合购买折扣。）有关价格组的详细信息，请参阅[价格组](price-management.md#price-groups)。
 
 > [!NOTE]
-> 从 Dynamics 365 Commerce 版本 10.0.26 起提供此功能。 要配置特定于目录的配置，例如导航层次结构和客户层次结构，请在 Commerce Headquarters 中打开 **功能管理** 工作区（**系统管理 \> 工作区 \> 功能管理**），启用 **允许对零售渠道使用多个目录** 功能，然后运行 **1110 CDX** 作业。
+> 从 Dynamics 365 Commerce 版本 10.0.27 起提供此功能。 要配置特定于目录的配置，例如导航层次结构和客户层次结构，请在 Commerce Headquarters 中打开 **功能管理** 工作区（**系统管理 \> 工作区 \> 功能管理**），启用 **允许对零售渠道使用多个目录** 功能，然后运行 **1110 CDX** 作业。
 
 ## <a name="catalog-process-flow"></a>目录流程流
 

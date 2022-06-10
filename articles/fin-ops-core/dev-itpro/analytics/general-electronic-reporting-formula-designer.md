@@ -2,7 +2,7 @@
 title: 电子申报中 (ER) 的配方设计器
 description: 本主题提供有关如何在电子申报 (ER) 中使用公式设计器的信息。
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777396"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782195"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -41,7 +41,8 @@ ER 支持公式设计器。 因此，在设计时，您可以配置在运行时�
 - 数据源物料绑定到数据模型组件。
 - 数据源物料绑定到格式组件。
 - 完成作为数据源的一部分的计算字段的维护。
-- 定义用户输入参数的可见性条件。
+- 定义用户输入参数的可见性和可编辑性条件。
+- 定义用户输入参数的默认值。
 - 设计格式转换。
 - 定义启用格式组件的条件。
 - 定义格式的 FILE 组件的文件名。

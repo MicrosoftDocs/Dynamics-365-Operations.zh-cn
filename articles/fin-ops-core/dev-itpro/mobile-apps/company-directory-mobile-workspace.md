@@ -2,7 +2,7 @@
 title: 公司目录移动电话工作区
 description: 此主题提供有关公司目录移动工作区的信息，此工作区让用户能够查看和联系其组织中的其他员工。
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,20 +12,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720640"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811530"
 ---
 # <a name="company-directory-mobile-workspace"></a>公司目录移动电话工作区
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 此主题提供有关 **公司目录** 移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
 
-此移动工作区可与 Finance and Operations 移动应用结合使用。
+此工作区可与 Finance and Operations mobile 应用结合使用。
 
 ## <a name="overview"></a>概览
 **公司目录** 移动工作区让用户能够执行以下任务：
@@ -49,12 +50,12 @@ ms.locfileid: "6720640"
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Finance and Operations 应用</li>
+<ul><li>Finance and Operations 应用程序</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中还没有部署 Finance and Operations 应用，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
+<td>如果您的组织中没有部署 Finance and Operations 应用程序，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
 </td>
 </tr>
 <tr class="even">
@@ -66,7 +67,7 @@ ms.locfileid: "6720640"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -2,7 +2,7 @@
 title: 社交共享模块
 description: 此主题介绍社交共享模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d145602a217b32b97142251c65d51945569be9ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730939"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780885"
 ---
 # <a name="social-share-module"></a>社交共享模块
 
@@ -57,12 +57,12 @@ ms.locfileid: "6730939"
 
 1. 在 Fabrikam 站点中，选择 **页面**，然后选择 **DefaultPDP** 页面打开产品详细信息页。 
 1. 在 **购买框(必填)** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **社交共享** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **社交共享** 模块，然后选择 **确定**。
 1. 在 **社交共享** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **SocialShare** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **SocialShare** 模块，然后选择 **确定**。
 1. 在 **SocialShare** 模块属性窗格中 **方向** 下，选择 **水平**。 根据需要添加标题。
 1. 在 **SocialShare** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **SocialShareItem** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **SocialShareItem** 模块，然后选择 **确定**。
 1. 在 **SocialShareItem** 模块属性窗格中的 **社交媒体** 下，选择 **Facebook**。
 1. 在 **SocialShareItem** 模块属性窗格中的 **图标** 下，选择 **+ 添加图像**。
 1. 在 **媒体选择器** 对话框中，选择 Facebook 徽标图像，然后选择 **确定**。 如果无 Facebook 徽标图像，请选择 **上载新媒体项** 上载一个。

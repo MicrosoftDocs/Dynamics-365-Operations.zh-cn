@@ -2,7 +2,7 @@
 title: 设置零售渠道
 description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
 author: samjarawan
-ms.date: 04/23/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745398"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770213"
 ---
 # <a name="set-up-a-retail-channel"></a>设置零售渠道
 
@@ -90,6 +90,13 @@ Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线
 下图显示了现金支付方式的示例。
 
 ![付款方式示例。](media/channel-setup-retail-5.png)
+
+下图显示了现金付款方式和 **金额** 选项卡配置的示例。
+
+![金额的付款方式设置示例。](media/payment-methods-recount.png)
+
+> [!NOTE]
+> **金额** 选项卡的值缓存在 Retail Server 中，并且在您运行分发计划作业后不会立即生效。 您可能需要重启 Cloud Scale Unit 以立即应用这些值进行测试。
 
 ### <a name="set-up-cash-declaration"></a>设置现金清点
 

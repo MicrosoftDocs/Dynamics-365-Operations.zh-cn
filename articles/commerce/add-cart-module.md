@@ -2,7 +2,7 @@
 title: 购物车模块
 description: 本主题介绍购物车模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 962710f7b65c8d26b301b5034a89fc25476b6e0f
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716876"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780531"
 ---
 # <a name="cart-module"></a>购物车模块
 
@@ -75,12 +75,12 @@ ms.locfileid: "6716876"
 若要向新页面添加购物车模块和设置必需的属性，请执行以下步骤。
 
 1. 转到 **片段**，选择 **新建** 创建新片段。
-1. 在 **新建片段** 对话框中，选择 **购物车** 模块。
+1. 在 **选择片段** 对话框中，选择 **购物车** 模块。
 1. 在 **片段名称** 下，输入名称 **购物车片段**，然后选择 **确定**。
 1. 选择 **购物车** 插槽。
 1. 在右侧的属性窗格中，选择铅笔符号，在字段中输入标题文本，然后选择复选标记符号。
 1. 在 **购物车** 插槽中，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **商店选择器** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **商店选择器** 模块，然后选择 **确定**。
 1. 选择 **保存**，选择 **完成编辑** 签入片段，然后选择 **发布** 进行发布。
 1. 转到 **模板**，选择 **新建** 创建新模板。
 1. 在 **新建模板** 对话框的 **模板名称** 下，为模板输入名称。

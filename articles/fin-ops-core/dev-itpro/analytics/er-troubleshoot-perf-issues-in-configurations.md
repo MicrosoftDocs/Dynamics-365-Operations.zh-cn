@@ -2,7 +2,7 @@
 title: 解决 ER 配置中的性能问题
 description: 本主题说明如何查找和修复电子申报 (ER) 配置中的性能问题。
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744378"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811671"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>解决 ER 配置中的性能问题
 
@@ -82,7 +82,7 @@ ms.locfileid: "6744378"
 
 - 查询数和提取的记录数是否与数据总量相对应？ 例如，如果单据具有 10 行，统计数据显示报表提取 10 行还是 1,000 行？ 如果您有大量提取的记录，请考虑以下修复之一：
 
-    - [使用 **FILTER** 函数而不是 **WHERE** 函数](#filter)在 SQL Server 端处理数据。
+    - [使用 **FILTER** 函数而不是 **WHERE** 函数](#filter)在 Microsoft SQL Server 端处理数据。
     - 使用缓存避免提取相同的数据。
     - [使用收集的数据函数](#collected-data)避免提取相同的数据进行汇总。
 
@@ -191,6 +191,10 @@ c:\programs\PerfView collect "e:\traces\$(date -format "ddMMyyyy_hhmm").etl" `
 
 虽然缓存减少了再次提取数据所需的时间量，但它会消耗内存。 在提取的数据量不是很大的情况下使用缓存。 有关显示如何使用缓存的详细信息和示例，请参阅[根据来自执行跟踪的信息改善模型映射](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace)。
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>减少提取的数据量
+
+您可以通过限制运行时获取的应用程序表记录中的字段数来减少要缓存的内存消耗。 在这种情况下，您将只获取您在 ER 模型映射中需要的应用程序表的那些字段值。 将不会提取该表中的其他字段。 因此，缓存提取的记录所需的内存量将减少。 有关详细信息，请参阅[通过减少运行时获取的表字段的数量来提高 ER 解决方案的性能](er-reduce-fetched-fields-number.md)。
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>使用缓存的参数化计算字段
 
 有时，必须反复查找值。 示例包括帐户名称和帐号。 为了帮助节省时间，您可以创建一个在顶层具有参数的计算字段，然后将该字段添加到缓存中。
@@ -218,4 +222,4 @@ ER 可以使用来自以下来源的数据：
 - 类（**对象** 和 **类** 数据源）
 - 表（**表** 和 **表记录** 数据源）
 
-[ER API](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) 还提供一种从调用代码发送预计算的数据的方法。 应用程序套件包含此方法的许多示例。
+[ER 应用程序编程接口 (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) 还提供一种从调用代码发送预计算的数据的方法。 应用程序套件包含此方法的许多示例。

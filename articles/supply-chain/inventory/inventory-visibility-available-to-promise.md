@@ -2,7 +2,7 @@
 title: 库存可见性现有库存更改计划与可承诺
 description: 本主题介绍如何计划未来的现有库存更改以及如何计算可承诺 (ATP) 数量。
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525876"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763244"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>库存可见性现有库存更改计划与可承诺
 
@@ -32,9 +32,12 @@ ms.locfileid: "8525876"
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>为 ATP 数量设置计算度量值
 
-*ATP 计算度量值* 是一个预定义的计算度量值，通常用于查找当前可用的现有库存数量。 添加修饰符数量的总和为供应数量，减法修饰符数量的总和为需求数量。
+*ATP 计算度量值* 是一个预定义的计算度量值，通常用于查找当前可用的现有库存数量。 *供应数量* 是修饰符类型为 *添加* 的那些实际度量的数量总和，而 *需求数量* 是修饰符类型为 *减法* 的那些实际度量的数量总和。
 
-您可以添加多个计算度量值来计算 ATP 数量。 但是，所有 ATP 计算度量值的修饰符总数应小于 9。
+您可以添加多个计算度量值来计算多个 ATP 数量。 但是，所有 ATP 计算度量值的不同实际度量总数应小于 9。
+
+> [!IMPORTANT]
+> 计算的度量是实际度量的构成部分。 其公式只能包含不重复的实际度量，而不能包含计算的度量。
 
 例如，您设置以下计算度量值：
 
@@ -43,6 +46,12 @@ ms.locfileid: "8525876"
 总和 (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) 代表供应，总和 (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) 代表需求。 因此，计算度量值可以这样理解：
 
 **On-hand-available** = *供应* – *需求*
+
+您可以添加另一个计算度量以计算 **现有实际** ATP 数量。
+
+**On-hand-physical** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+在这两个 ATP 计算度量中存在八种不同的物理度量：*PhysicalInvent*、*OnHand*、*Unrestricted*、*QualityInspection*、*Inbound*、*ReservPhysical*、*SoftReservePhysical* 和 *Outbound*。
 
 有关计算度量值的详细信息，请参阅[计算度量值](inventory-visibility-configuration.md#calculated-measures)。
 
@@ -80,7 +89,7 @@ ms.locfileid: "8525876"
 
 当您在库存可见性中查询现有库存数量和 ATP 数量时，将返回计划期间中每天的以下信息：
 
-- **日期** – 将应用结果的日期。
+- **日期** – 将应用结果的日期。 时区为协调世界时 (UTC)。
 - **现有库存数量** – 指定日期的实际现有库存数量。 此计算根据为库存可见性配置的 ATP 计算度量值进行。
 - **计划供应** – 截至指定日期尚未实际可供立即消耗或装运的所有计划入站数量的总和。
 - **计划需求** – 截至指定日期尚未消耗或装运的所有计划出站数量的总和。
@@ -108,79 +117,79 @@ ms.locfileid: "8525876"
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | | | 17 | 17 |
-    | 2022/02/04 | 20 | | | 17 | 17 |
-    | 2022/02/05 | 20 | | | 17 | 17 |
-    | 2022/02/06 | 20 | | | 17 | 17 |
-    | 2022/02/07 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. 在当前日期（2022 年 2 月 1 日），您为 2022 年 2 月 3 日提交计划供应数量 10。 下表显示了结果。
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | 10 | | 27 | 27 |
-    | 2022/02/04 | 20 | | | 27 | 27 |
-    | 2022/02/05 | 20 | | | 27 | 27 |
-    | 2022/02/06 | 20 | | | 27 | 27 |
-    | 2022/02/07 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. 在当前日期（2022 年 2 月 1 日），您提交以下计划数量更改：
 
     - 2022 年 2 月 4 日的需求数量为 15
     - 2022 年 2 月 5 日的供应数量为 1
-    - 2022 年 2 月 6 日的需求数量为 3
+    - 2022 年 2 月 6 日的供应数量为 3
 
     下表显示了结果。
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 12 |
-    | 2022/02/02 | 20 | | | 17 | 12 |
-    | 2022/02/03 | 20 | 10 | | 27 | 12 |
-    | 2022/02/04 | 20 | | 15 | 12 | 12 |
-    | 2022/02/05 | 20 | 1 | | 13 | 13 |
-    | 2022/02/06 | 20 | 3 | | 16 | 16 |
-    | 2022/02/07 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. 在当前日期（2022 年 2 月 1 日），您装运计划需求数量 3。 因此，您必须提交此更改，让它反映在实际现有库存数量中。 要提交更改，您提交一个出站数量为 3 的现有库存更改事件。 然后，您通过提交出站数量为 -3 的现有库存更改计划来还原计划更改。 下表显示了结果。
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 17 | | 0 | 17 | 12 |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. 第二天（2022 年 2 月 2 日），计划期间前移一天。 下表显示了结果。
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
-    | 2022/02/08 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. 但是，两天后（2022 年 2 月 4 日），为 2 月 3 日计划的供应数量 10 仍未到达。 下表显示了结果。
 
     | 日期 | 现有量 | 计划供应 | 计划需求 | 预计现有库存 | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/04 | 17 | | 15 | 2 | 2 |
-    | 2022/02/05 | 17 | 1 | | 3 | 3 |
-    | 2022/02/06 | 17 | 3 | | 6 | 6 |
-    | 2022/02/07 | 17 | | | 6 | 6 |
-    | 2022/02/08 | 17 | | | 6 | 6 |
-    | 2022/02/09 | 17 | | | 6 | 6 |
-    | 2022/02/10 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     如您所见，计划（但不承诺）现有库存更改不会影响实际现有库存数量。
 
@@ -190,8 +199,8 @@ ms.locfileid: "8525876"
 
 | 路径 | 方法 | Description |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | 创建一个计划现有库存更改。 |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | 创建多个计划现有库存更改。 |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | 创建一个计划现有库存更改。 |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | 创建多个计划现有库存更改。 |
 | `/api/environment/{environmentId}/onhand` | `POST` | 创建一个现有库存更改事件。 |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | 创建多个更改事件。 |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | 使用 `POST` 方法查询。 |
@@ -199,31 +208,46 @@ ms.locfileid: "8525876"
 
 有关详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md)。
 
-### <a name="submit-on-hand-change-schedules"></a>提交现有库存更改计划
+### <a name="create-one-on-hand-change-schedule"></a>创建一个现有库存更改计划
 
-通过向相关库存可见性服务 URL 提交 `POST` 请求来制定现有库存更改计划（请参阅[通过 API 提交更改计划、更改事件和 ATP 查询](#api-urls)）。 您还可以提交批量请求。
+通过向相关库存可见性服务 URL 提交 `POST` 请求来创建现有库存更改计划（请参阅[通过 API 提交更改计划、更改事件和 ATP 查询](#api-urls)）。 您还可以提交批量请求。
 
-要提交现有库存更改计划，请求正文必须包含组织 ID、产品 ID、计划日期和按日期列出的数量。 计划日期必须在当前日期和当前计划期间结束之间。
+仅当计划日期在当前日期和当前计划期间结束日期之间时，才可以创建现有库存更改计划。 日期/时间格式应为 *年-月-日*（例如 **2022-02-01**）。 时间格式必须只精确到天。
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>包含单个更新的请求正文示例
+此 API 用于创建一个现有库存更改计划。
 
-以下示例显示包含单个更新的请求正文。
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+以下示例显示不带 `dimensionDataSource` 的示例正文内容。
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>包含多个（批量）更新的请求正文示例
+### <a name="create-multiple-on-hand-change-schedules"></a>创建多个现有库存更改计划
 
-以下示例显示包含多个（批量）更新的请求正文。
+此 API 可以同时创建多个记录。 此 API 和单事件 API 的唯二差异是 `Path` 和 `Body` 值。 对于此 API，`Body` 提供一组记录。 最大记录数为 512。 因此，现有库存更改计划批量 API 一次最多可以支持 512 项计划更改。
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+以下示例显示示例正文内容。
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>提交现有库存更改事件
+### <a name="create-on-hand-change-events"></a>创建现有库存更改事件
 
 通过向相关库存可见性服务 URL 提交 `POST` 请求来建立现有库存更改事件（请参阅[通过 API 提交更改计划、更改事件和 ATP 查询](#api-urls)）。 您还可以提交批量请求。
 
 > [!NOTE]
-> 现有更改事件不是 ATP 功能独有的，而是标准库存可见性 API 的一部分。 之所以包含此示例，是因为在您使用 ATP 时事件是相关的。 现有库存更改事件类似于现有库存更改预留，但事件消息必须发送到不同的 API URL，并且事件在消息正文中使用 `quantities` 而不是 `quantityByDate`。 有关库存可见性 API 的现有库存更改事件和其他功能的详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md)。
-
-要提交现有库存更改事件，请求正文必须包含组织 ID、产品 ID、计划日期和按日期列出的数量。 计划日期必须在当前日期和当前计划期间结束之间。
+> 现有更改事件不是 ATP 功能独有的，而是标准库存可见性 API 的一部分。 之所以包含此示例，是因为在您使用 ATP 时事件是相关的。 现有库存更改事件类似于现有库存更改预留，但事件消息必须发送到不同的 API URL，并且事件在消息正文中使用 `quantities` 而不是 `quantityByDate`。 有关库存可见性 API 的现有库存更改事件和其他功能的详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md#create-one-onhand-change-event)。
 
 以下示例显示包含单个现有库存更改事件的请求正文。
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Authorization: "Bearer {access_token}"
 - 如果您使用 `POST` 方法提交请求，请在请求正文中设置此参数。
 
 > [!NOTE]
-> 无论请求正文中的 `returnNegative` 参数是设置为 *true* 还是 *false*，当您查询计划现有库存更改和 ATP 时，结果都将包含负值。 将包括这些负值，因为如果仅计划需求订单，或者如果供应数量小于需求数量，计划现有库存更改数量将为负数。 如果不包括负值，结果会令人困惑。 有关此选项以及它如何适用于其他类型的查询的详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md)。
+> 无论请求正文中的 `returnNegative` 参数是设置为 *true* 还是 *false*，当您查询计划现有库存更改和 ATP 时，结果都将包含负值。 将包括这些负值，因为如果仅计划需求订单，或者如果供应数量小于需求数量，计划现有库存更改数量将为负数。 如果不包括负值，结果会令人困惑。 有关此选项以及它如何适用于其他类型的查询的详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md#query-with-post-method)。
 
-### <a name="post-method-example"></a>POST 方法示例
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 以下示例显示如何使用 `POST` 方法创建可以提交到库存可见性的请求正文。
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>GET 方法示例
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 以下示例显示如何作为 `GET` 请求创建请求 URL。
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 此 `GET` 请求的结果与上一示例中 `POST` 请求的结果完全相同。

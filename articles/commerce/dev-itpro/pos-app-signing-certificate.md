@@ -1,8 +1,8 @@
 ---
-title: 使用代码签名证书对 MPOS 签名
+title: 使用代码签名证书对 MPOS .appx 文件签名
 description: 本主题介绍如何使用代码签名证书对 MPOS 进行签名。
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741535"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811077"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>使用代码签名证书对 MPOS appx 签名
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>使用代码签名证书对 MPOS .appx 文件签名
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 要安装 Modern POS (MPOS)，您必须使用来自受信任提供商的代码签名证书对 MPOS 应用进行签名，并在当前用户的受信任根文件夹下安装了 MPOS 的所有计算机上安装相同的证书。
 
@@ -42,7 +43,7 @@ ms.locfileid: "8741535"
 ![MPOS 应用签名流。](media/POSSigningFlow.png)
 
 > [!NOTE]
-> 目前 OOB 打包仅支持对 appx 文件进行签名，MPOIS、RSSU 和 HWS 等其他自助服务安装程序不通过此过程进行签名。 您需要使用 SignTool 或其他签名工具手动签名。 在安装了 Modern POS 的计算机中必须安装用于对 appx 文件进行签名的证书。
+> 目前 OOB 打包仅支持对 .appx 文件进行签名，MPOIS、RSSU 和 HWS 等其他自助服务安装程序不通过此过程进行签名。 您需要使用 SignTool 或其他签名工具手动签名。 在安装了 Modern POS 的计算机中必须安装用于对 .appx 文件进行签名的证书。
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>用于配置用来登录 Azure Pipelines 的证书的步骤
 
@@ -51,21 +52,22 @@ ms.locfileid: "8741535"
 下载 [DownloadFile 任务](/visualstudio/msbuild/downloadfile-task)，并将其添加为生成流程中的第一步。 使用保护文件任务的好处是，无论生成管道是成功、失败还是被取消，生成过程中文件都会被加密并放在磁盘中。 在完成生成流程后，将从下载位置删除该文件。
 
 1. 下载保护文件任务并将其添加为 Azure 生成管道中的第一步。 您可以从 [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile) 下载保护文件任务。
-2. 将证书上传到保护文件任务，并将“输出变量”下面设置引用名称，如下图所示。
+1. 将证书上传到保护文件任务，并将“输出变量”下面设置引用名称，如下图所示。
     > [!div class="mx-imgBorder"]
     > ![保护文件任务。](media/SecureFile.png)
-3. 通过在 **变量** 选项卡下选择 **新变量**，在 Azure Pipelines 中创建新变量。
-4. 为值字段中的变量提供名称，例如 **MySigningCert**。
-5. 保存此变量。
-6. 从 **RetailSDK\\BuildTools** 中打开 **Customization.settings** 文件，并使用在管道中创建的变量名称更新 **ModernPOSPackageCertificateKeyFile**（步骤 3）。 例如:
+1. 通过在 **变量** 选项卡下选择 **新变量**，在 Azure Pipelines 中创建新变量。
+1. 为值字段中的变量提供名称，例如 **MySigningCert**。
+1. 保存此变量。
+1. 从 **RetailSDK\\BuildTools** 中打开 **Customization.settings** 文件，并使用在管道中创建的变量名称更新 **ModernPOSPackageCertificateKeyFile**（步骤 3）。 例如:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     如果证书不受密码保护，则需要执行此步骤。 如果证书受密码保护，请继续执行以下步骤。
- 
-7. 在管道的 **变量** 选项卡上，添加新的安全文本变量。 将名称设置为 **MySigningCert.secret** 并设置证书的密码值。 选择锁图标以保护变量。
-8. 将 **Powershell 脚本** 任务添加到管道（在下载安全文件之后且在生成步骤之前）。 提供 **显示** 名称并将类型设置为 **内联**。 将以下内容复制并粘贴到脚本部分。
+    
+1. 如果在使用证书对 MPOS .appx 文件签名时要为其添加时间戳，请打开 **Retail SDK\\Build tool\\Customization.settings** 文件，并使用时间戳提供程序（例如 `http://timestamp.digicert.com`）更新 **ModernPOSPackageCertificateTimestamp** 变量。
+1. 在管道的 **变量** 选项卡上，添加新的安全文本变量。 将名称设置为 **MySigningCert.secret** 并设置证书的密码值。 选择锁图标以保护变量。
+1. 将 **Powershell 脚本** 任务添加到管道（在下载安全文件之后且在生成步骤之前）。 提供 **显示** 名称并将类型设置为 **内联**。 将以下内容复制并粘贴到脚本部分。
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ ms.locfileid: "8741535"
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. 从 **RetailSDK\\BuildTools** 中打开 **Customization.settings** 文件，并使用证书指纹值更新 **ModernPOSPackageCertificateThumbprint**。
+1. 从 **RetailSDK\\BuildTools** 中打开 **Customization.settings** 文件，并使用证书指纹值更新 **ModernPOSPackageCertificateThumbprint**。
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ ms.locfileid: "8741535"
  
 有关如何获取证书指纹的详细信息，请参阅[检索证书的指纹](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint)。 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>下载或生成证书以使用 SDK 中的 msbuild 手动对 MPOS 应用进行签名
 
 如果下载或生成的证书用于对 MPOS 应用进行签名，则更新 **BuildTools\\Customization.settings** 文件中的 **ModernPOSPackageCertificateKeyFile** 节点，以指向 pfx 文件位置 (**$(SdkReferencesPath)\\appxsignkey.pfx**)。 例如:

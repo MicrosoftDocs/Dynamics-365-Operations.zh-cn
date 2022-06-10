@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 13768988fcb2b1485753b29b3562c20ee6ba35c7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1c6d0952b98334dc0c0a2e780a7c6f54a7811185
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687748"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811733"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -142,6 +142,11 @@ ms.locfileid: "8687748"
 
 - 普通日记帐
 - 供应商发票日记帐
+
+以下交易在版本 10.0.28 中受支持： 
+
+- 供应商付款日记帐
+- 客户付款日记帐
 
 ## <a name="supported-countriesregions"></a>支持的国家/地区
 

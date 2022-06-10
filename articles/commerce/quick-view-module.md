@@ -2,7 +2,7 @@
 title: 快速查看模块
 description: 此主题介绍快速查看模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692692"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780810"
 ---
 # <a name="quick-view-module"></a>快速查看模块
 
@@ -61,7 +61,7 @@ ms.locfileid: "8692692"
 
 1. 转到 **页面**，然后选择 Fabrikam 站点的主页。
 1. 转到主页上的任何 **产品集合** 模块，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **快速查看** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **快速查看** 模块，然后选择 **确定**。
 1. 在 **快速查看** 模块的属性窗格中，选择 **标题**。 在 **标题** 对话框中，将 **标题级别** 字段设置为 **H2**，然后选择 **确定**。
 1. 选择 **保存**，选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 

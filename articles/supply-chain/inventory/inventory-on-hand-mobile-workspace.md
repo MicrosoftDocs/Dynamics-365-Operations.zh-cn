@@ -2,7 +2,7 @@
 title: 现有库存量移动工作区
 description: 此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。
 author: yufeihuang
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573889"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811457"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 此主题提供有关 **现有库存量** 移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 
-此工作区应该与 Finance and Operations 移动应用结合使用。
+此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过 **现有库存量** 移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
 
 此移动工作区提供跨多个设施的现有量状态的即时视图。 它让您查看跨多个设施的现有量视图、当前物料预留情况，以及未预留的现有库存量。 也可以输入物料编号以查询现有库存量，并可对现有产品或变型执行筛选搜索。 
@@ -93,7 +94,7 @@ ms.locfileid: "7573889"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Finance and Operations 移动应用：
+下载并安装财务与运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

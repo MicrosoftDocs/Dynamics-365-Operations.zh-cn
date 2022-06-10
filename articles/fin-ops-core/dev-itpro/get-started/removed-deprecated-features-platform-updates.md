@@ -2,7 +2,7 @@
 title: 已删除或已弃用的平台功能
 description: 本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644595"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811237"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -31,6 +31,33 @@ ms.locfileid: "8644595"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>功能弃用从 2022 年 6 月开始生效
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>财务与运营 (Dynamics 365) 移动应用和移动平台 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们正在弃用财务与运营 (Dynamics 365) 移动应用和平台以合并到单个移动平台，即 Power Apps。 |
+| **被另一个功能取代？**   | 是，可以通过 Power Platform 集成生成财务与运营应用数据的移动体验。 有关更多详细信息，请参阅[生成移动体验](../power-platform/build-mobile-experiences.md)。 |
+| **影响的产品区域**         | Finance and Operations 应用 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用。 支持结束日期定为 2024 年 10 月。 |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>财务和运营应用版本 10.0.29 的平台更新
+
+### <a name="panorama-tab-style"></a>全景选项卡样式
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 水平滚动页面与具有已知可用性和辅助功能问题的过期布局模式保持一致。  |
+| **被另一个功能取代？**   | 否，但其他选项卡样式仍然可用。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用。 |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>功能弃用从 2022 年 4 月开始生效
 

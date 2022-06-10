@@ -2,7 +2,7 @@
 title: 设计配置以生成 Excel 格式的文档
 description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645126"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811411"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -288,6 +288,16 @@ ms.locfileid: "8645126"
 
 ![在“从 Excel 更新”对话框中创建 Excel 工作表格式元素。](./media/er-excel-format-update-template.png)
 
+在版本 10.0.28 及更高版本中，您可以使用 **更新 Excel 页眉和 Excel 页脚格式元素** 选项。
+
+- 当您将此选项设置为 **否** 时，Excel 页眉和 Excel 页脚格式元素保持不变，即使已在 Excel 工作簿格式的导入模板的工作表中更新了相应的页眉或页脚也不例外。
+- 当您将此选项设置为 **是**，并且在 Excel 工作簿格式的导入模板的工作表中更新了相应的页眉或页脚时，Excel 页眉和 Excel 页脚格式元素将会更改。
+
+    - 如果工作表页眉或页脚的结构未更改，或者仅被附加，则将更新相应的 Excel 页眉或 Excel 页脚格式元素的结构。 将保留嵌套在此 Excel 页眉或 Excel 页脚格式元素下的格式元素的绑定。
+    - 如果工作表页眉或页脚的结构已更改，则将重新创建相应的 Excel 页眉或 Excel 页脚格式元素。 将删除嵌套在此 Excel 页眉或 Excel 页脚格式元素下的格式元素的绑定。
+
+![“Excel 的更新”对话框中的“更新 Excel 页眉和 Excel 页脚格式元素”选项。](./media/er-excel-format-update-template2.png)
+
 若要详细了解此功能，请执行[通过重新应用 Excel 模板修改电子报告格式](modify-electronic-reporting-format-reapply-excel-template.md)中的步骤。
 
 ## <a name="validate-an-er-format"></a>验证 ER 格式
@@ -355,7 +365,7 @@ ms.locfileid: "8645126"
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>示例 2：修复合并的单元格的 EPPlus 问题
 
-您可以运行 ER 格式来生成 Excel 工作簿格式的传出文档。 当 **功能管理** 工作区中的 **支持在电子报告框架中使用 EPPlus 库** 功能启用时，[EPPlus 库](https://www.nuget.org/packages/epplus/4.5.2.1)将用于创建 Excel 输出。 但是，由于已知的 [Excel 行为](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9)和 EPPlus 库的限制，您可能会遇到以下异常：“无法删除/覆盖合并的单元格。 某个范围与另一个合并的范围部分合并。” 要了解哪种 Excel 模板可能会导致此异常以及如何解决此问题，请完成以下示例。
+您可以运行 ER 格式来生成 Excel 工作簿格式的传出文档。 当 **功能管理** 工作区中的 **支持在电子报告框架中使用 EPPlus 库** 功能启用时，[EPPlus 库](https://www.nuget.org/packages/epplus/4.5.2.1)将用于创建 Excel 输出。 但是，由于已知的 [Excel 行为](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9)和 EPPlus 库的限制，您可能会遇到以下异常：“无法删除/覆盖合并的单元格。 某个范围与另一个合并的范围部分合并。” 要了解哪种 Excel 模板可能会导致此异常以及如何解决此问题，请完成以下示例。
 
 1. 在 Excel 桌面应用程序中，创建一个新的 Excel 工作簿。
 2. 在工作表 **Sheet1** 上，为单元格 **A2** 添加 **ReportTitle** 名称。

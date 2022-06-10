@@ -2,7 +2,7 @@
 title: 成本控制移动工作区
 description: 此主题提供有关成本控制移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734039"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811315"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 此主题提供有关 **成本控制** 移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 
-此工作区应该与 Finance and Operations mobile 应用程序结合使用。
+此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 **成本控制** 移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。
 
 例如，员工收到国际会议的邀请，但组织必须支付所有差旅费。 员工询问经理是否可参加此会议。 经理使用自己的移动设备打开 **成本控制** 移动工作区，查看她是否有员工参加此会议的预算。
@@ -113,7 +114,7 @@ ms.locfileid: "8734039"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装财务与运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

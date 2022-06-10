@@ -2,7 +2,7 @@
 title: 发票审核移动工作区
 description: 此主题提供有关发票审核移动工作区的信息。
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,24 +12,25 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759972"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811349"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 此主题提供有关 **发票审核** 移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。 
 
-此工作区应该与 Finance and Operations 移动应用结合使用。
+此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 
 ## <a name="overview"></a>概览
 
-**发票审核** 移动工作区让应付帐款职员和经理能够查看已作为供应商发票抬头工作流程的一部分分配给他们的发票。 您可以查看发票信息，甚至还可以查看行和分配详细信息，以帮助您做出合理的审核决定。 从工作区可以执行操作以通过工作流程移动发票。 
+**发票审核** 移动工作区让应付账款职员和经理能够查看已作为供应商发票抬头工作流程的一部分分配给他们的发票。 您可以查看发票信息，甚至还可以查看行和分配详细信息，以帮助您做出合理的审核决定。 从工作区可以执行操作以通过工作流程移动发票。 
 
 ## <a name="prerequisites"></a>必备项
 
@@ -38,9 +39,9 @@ ms.locfileid: "6759972"
 <table>
 <thead>
 <tr class="header">
-<th>必备项</th>
+<th>先决条件</th>
 <th>角色</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -60,7 +61,7 @@ ms.locfileid: "6759972"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Finance and Operations 移动应用：
+下载并安装 Finance and Operations 移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

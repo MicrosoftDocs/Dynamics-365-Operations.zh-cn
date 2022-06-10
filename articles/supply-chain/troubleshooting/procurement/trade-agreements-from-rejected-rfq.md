@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: de3011c6660b1cdccf94def32864316525adcde6
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 92731f0f56e6eba05043403c121939accbe26c05
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475721"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789231"
 ---
 # <a name="trade-agreements-can-be-created-from-rejected-rfqs"></a>贸易协议可以从拒绝的询价创建
 
@@ -26,4 +26,4 @@ ms.locfileid: "7475721"
 
 ## <a name="resolution"></a>解决方法
 
-这是正常行为。 您可以为询价 (RFQ) 的任何回复创建贸易协议，无论它们是被接受还是被拒绝。 有关详细信息，请参阅[询价 (RFQ) 概述](/dynamics365/supply-chain/procurement/request-quotations.md)。
+这是正常行为。 您可以为询价 (RFQ) 的任何回复创建贸易协议，无论它们是被接受还是被拒绝。 有关详细信息，请参阅[询价 (RFQ) 概述](/dynamics365/supply-chain/procurement/request-quotations)。

@@ -2,7 +2,7 @@
 title: 使用资产管理移动工作区
 description: 此主题提供有关资产管理移动工作区的信息。
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771531"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811495"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>使用资产管理移动工作区
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 此主题提供有关 **资产管理** 移动工作区的信息。 用户可使用此工作区查看和创建维护请求和工作订单。 用户也可以使用日历视图或列表视图查看分配的工作订单作业。 还可以查看和搜索资产和功能位置。
 
@@ -45,7 +46,7 @@ ms.locfileid: "6771531"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Dynamics 365 for Unified Operations 移动应用：
+下载并安装财务与运营 (Dynamics 365) 移动应用：
 
 - [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 - [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

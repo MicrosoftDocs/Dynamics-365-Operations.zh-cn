@@ -2,7 +2,7 @@
 title: 使用 Excel 查看和更新实体数据
 description: 此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464928"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762616"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -110,7 +110,7 @@ ms.locfileid: "8464928"
 5. 如果添加了字段（列），选择 **刷新** 提取更新后的数据集。
 
 ## <a name="change-the-publish-batch-size"></a>更改发布批处理大小
-当用户使用 Excel 加载项将更改发布到数据记录时，更新将成批提交。 默认的发布批处理大小为 100 行。 在版本 10.0.17 及更高版本中，**允许在 Excel 加载项中配置发布批处理大小** 功能让您可以灵活地控制发布批处理大小。
+当用户使用 Excel 加载项将更改发布到数据记录时，更新将成批提交。 默认（和最大）发布批处理大小为 100 行；但是，**允许在 Excel 加载项中配置发布批处理大小** 功能允许您灵活地降低发布批处理大小，尤其是在您尝试从 Excel 发布更新时发现超时的情况下。
 
 系统管理员可以通过设置 **Office 应用参数** 页 **应用参数** 部分的 **发布批处理限制** 字段，来为“在 Excel 中打开”工作簿的发布批处理大小指定系统范围的限制。
 

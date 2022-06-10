@@ -2,7 +2,7 @@
 title: 在电子报告中设计多语言报告
 description: 本主题说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313683"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811598"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
@@ -217,6 +217,11 @@ ER 组件的配置是在可编辑 ER 组件所在的 ER 配置的草稿版本中
 可以编辑的 ER 组件的标签以及该组件的其他内容都保存在相应版本的 ER 配置中。
 
 基本 ER 组件的标签可以在您创建以引入修改的 ER 组件的派生版本中引用。
+
+> [!TIP]
+> 当您设计 ER 解决方案时，您可以从所提供的解决方案派生您自己的 ER [数据模型](er-overview-components.md#data-model-component)组件。 在此派生的数据模型中，您可以引入自己的 ER 标签，并以所有将数据模型用作数据源的 ER 格式使用它们。 然后，您可以通过选择派生的 ER 数据模型而不是提供的模型，从提供的组件中派生您自己的 ER [格式](er-overview-components.md#format-component)组件。 在版本 10.0.28 及更高版本中，您可以启用 **增强对升序电子报告数据模型的标签的访问** 功能，以访问派生 ER 格式组件中的升序 ER 数据模型标签，即使当您为派生的 ER 组件选择的 ER 数据模型不同于基础 ER 组件中所使用的 ER 数据模型时也是如此。
+>
+> 当您的派生组件及其升序组件中使用相同的标签名称时，您对该标签的翻译将用作最相关的标签。
 
 ER 版本控制将控制向 ER 组件中的任何属性的标签分配。 对标签分配的更改将记录在已创建为所提供 ER 组件的派生版本的可编辑 ER 组件的更改列表（增量）中。 将派生版本重定为新的基本版本时，将验证这些更改。
 

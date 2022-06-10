@@ -1,8 +1,8 @@
 ---
 title: 移动应用主页
-description: 此主题描述 Finance and Operations (Dynamics 365) 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
+description: 此主题描述财务和运营 (Dynamics 365) 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729700"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811164"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-此主题描述 **Finance and Operations (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
+此主题描述 **财务和运营 (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 
 ## <a name="overview"></a>概览
 
@@ -76,7 +77,7 @@ ms.locfileid: "6729700"
 <tr class="odd">
 <td>1</td>
 <td>系统管理员</td>
-<td>在您的组织中实施 Finance and Operations 应用。</td>
+<td>在您的组织中实施财务和运营应用。</td>
 <td><ul><li>如果尚未部署 Microsoft Dynamics 365 的一个版本，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。</li><li>若要查看可以使用的移动工作区的列表，请参阅<a href="mobile-workspaces-released.md">最近发布的移动工作区</a>。</li></ul></td>
 </tr>
 <tr class="even">
@@ -131,8 +132,8 @@ ms.locfileid: "6729700"
 <td>用户</td>
 <td>下载并安装移动应用。</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">适用于 Android 的 Finance and Operations 应用</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">适用于 iOS 的 Finance and Operations 应用</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">适用于 Android 的 Finance and Operations 应用程序</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">适用于 iOS 的 Finance and Operations 应用程序</a><BR/>
 （支持 Windows Phone）
 </td>
 </tr>

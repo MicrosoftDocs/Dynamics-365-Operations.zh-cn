@@ -2,7 +2,7 @@
 title: 磁贴列表模块
 description: 此主题介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 513775afe325008ebd6cd18d2d9485a972984090da3803d255a1584b16b1e014
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767843"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780785"
 ---
 # <a name="tile-list-module"></a>磁贴列表模块
 
@@ -67,14 +67,14 @@ ms.locfileid: "6767843"
 
 1. 转到 **模板**，打开站点主页的市场营销模板（或创建新的市场营销模板）。
 1. 在默认页的 **主** 插槽，选择省略号 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **磁贴列表** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **磁贴列表** 模块，然后选择 **确定**。
 1. 选择 **保存**，选择 **完成编辑** 签入模板，然后选择 **发布** 进行发布。
 1. 转到 **页面**，然后打开站点的主页（或使用市场营销模板创建新主页）。
 1. 在默认页的 **主** 插槽，选择省略号按钮 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **磁贴列表** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **磁贴列表** 模块，然后选择 **确定**。
 1. 在磁贴列表模块的属性窗格中，添加标题。
 1. 在 **磁贴列表** 插槽中，选择省略号按钮 (**...**)，然后选择 **添加模块**。
-1. 在 **添加模块** 对话框中，选择 **磁贴模块** 模块，然后选择 **确定**。
+1. 在 **选择模块** 对话框中，选择 **磁贴模块** 模块，然后选择 **确定**。
 1. 在磁贴模块的属性窗格中，添加图像、标题和图标符号图像。
 1. 根据需要添加和配置其他磁贴模块。
 1. 选择 **保存**，然后选择 **预览** 以预览页面。

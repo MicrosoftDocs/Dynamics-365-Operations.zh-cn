@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547779"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786829"
 ---
 # <a name="configure-inventory-visibility"></a>配置库存可见性
 
@@ -60,7 +60,7 @@ ms.locfileid: "8547779"
 
 如果不知道正确的库存可见性服务终结点，请在 Power Apps 中打开 **配置** 页，然后在右上角选择 **显示服务终结点**。 页面将显示正确的服务终结点。
 
-## <a name="data-source-configuration"></a>数据源配置
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>数据源配置
 
 各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 财务和运营应用”）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
@@ -141,7 +141,7 @@ ms.locfileid: "8547779"
 
 例如，如果您的数据源中包含产品颜色维度，则可以将其映射到 `ColorId` 基础维度，以便在 `exterchannel` 数据源中添加一个 `ProductColor` 自定义维度。 然后将其映射到 `ColorId` 基础维度。
 
-### <a name="physical-measures"></a>实际度量
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>实际度量
 
 当数据源将库存更改发布到库存可见性时，它将使用 *实际度量* 发布该更改。 实际度量用于修改数量和反映库存状态。 可以根据要求定义自己的实际度量。 查询可以基于实际度量。
 
@@ -175,6 +175,9 @@ ms.locfileid: "8547779"
 ### <a name="calculated-measures"></a>计算度量
 
 可以使用库存可见性对库存实际度量和 *自定义计算度量* 进行查询。 计算度量提供由实际度量组合构成的自定义计算公式。 该功能允许您定义一组将添加的实际度量，和/或一组将减去的实际度量，以便形成自定义度量。
+
+> [!IMPORTANT]
+> 计算的度量是实际度量的构成部分。 其公式只能包含不重复的实际度量，而不能包含计算的度量。
 
 通过此配置，可以定义一组添加或减去的修饰符，以获取聚合输出数量总值。
 

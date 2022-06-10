@@ -2,19 +2,19 @@
 title: Lifecycle Services 的双写入设置
 description: 本主题说明如何从 Microsoft Dynamics Lifecycle Services (LCS) 设置双写入连接。
 author: laneswenka
-ms.date: 08/03/2021
+ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
+ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063664"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8783192"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双写入设置
 
@@ -26,12 +26,12 @@ ms.locfileid: "8063664"
 
 ## <a name="prerequisites"></a>先决条件
 
-您必须按照以下主题中所述完成 Power Platform 集成：
+客户必须按照以下主题中所述完成 Power Platform 集成：
 
-+ [Power Platform 集成 - 在环境部署期间启用](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform 集成 - 在环境部署后启用](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- 如果您尚未使用 Microsoft Power Platform，并且要通过添加平台功能来扩展财务和运营环境，请参阅 [Power Platform 集成 - 在环境部署期间启用](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)。
+- 如果您已拥有 Dataverse 和 Power Platform 环境，并且要将它们连接到财务和运营环境，请参阅 [Power Platform 集成 - 在环境部署后启用](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)。
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>为新 Dataverse 环境设置双写入
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>为新的和现有的 Dataverse 环境设置双重写入
 
 按照以下步骤从 LCS **环境详细信息** 页设置双写入：
 
@@ -55,28 +55,19 @@ ms.locfileid: "8063664"
 
 8. 链接完成后，将显示一个超链接。 使用此链接登录到财务和运营环境中的双写入管理区域。 从那里，您可以设置实体映射。
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>为现有 Dataverse 环境设置双写入
-
-要为现有 Dataverse 环境设置双写入，必须创建 Microsoft [支持票证](../../lifecycle-services/lcs-support.md)。 票证必须包括：
-
-+ 您的财务和运营环境 ID。
-+ Lifecycle Services 中的环境名称。
-+ 来自 Power Platform 管理中心的 Dataverse 组织 ID 或 Power Platform 环境 ID。 在您的票证中，要求 ID 是用于 Power Platform 集成的实例。
-
-> [!NOTE]
-> 不能使用 LCS 取消链接环境。 若要取消链接环境，请在财务和运营环境中打开 **数据集成** 工作区，然后选择 **取消链接**。
-
 ## <a name="linking-mismatch"></a>链接不匹配
 
-您的 LCS 环境可能会链接到一个 Dataverse 实例，而您的双重写入环境则链接到另一个 Dataverse 实例。 此链接不匹配可能导致意外行为，最终可能会将数据发送到错误的环境。 建议用于双重写入的环境是作为 Power Platform 集成的一部分而创建的环境，长期而言，这将是在环境之间建立链接的唯一方法。
+在没有为 Power Platform 集成设置 LCS 时，您的双重写入环境可以链接到 Dataverse 实例。 此链接不匹配可能会导致意外行为。 建议 LCS 环境详细信息与您在双重写入中连接到的内容匹配，以便业务事件、虚拟表和加载项可以使用相同的连接。
 
-如果您的环境存在链接不匹配，则 LCS 会在环境详细信息页上显示类似于“Microsoft 检测到您的环境通过双重写入功能链接到非 Power Platform 集成中指定的目标（不建议）”的警告：
+如果您的环境存在链接不匹配，则 LCS 会在环境详细信息页上显示如下警告：“Microsoft 检测到您的环境通过双重写入功能链接到非 Power Platform 集成中指定的目标（不建议）”。
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform集成链接不匹配。":::
 
-如果您遇到此错误，则会根据您的需要提供两个选项：
+如果您收到此警告，请尝试以下解决方案之一：
 
-+ [取消链接并重新链接 LCS 环境详细信息页上指定的双重写入环境（重置或更改链接）](relink-environments.md#scenario-reset-or-change-linking)。 这是理想的选择，因为您可以在没有 Microsoft 支持的情况下运行它。  
-+ 如果想要在双重写入中保持链接，您可以向 Microsoft 支持部门寻求帮助，以更改 Power Platform 集成，以使用您现有的 Dataverse 环境，如上一节所述。  
+- 如果从未为 Power Platform 集成设置您的 LCS 环境，则您可以按照本文中的说明连接到在双重写入中配置的 Dataverse 实例。
+- 如果已为 Power Platform 集成设置了您的 LCS 环境，则您应取消链接双重写入，并使用[方案：重置或更改链接](relink-environments.md#scenario-reset-or-change-linking)将其重新连接到 LCS 指定的环境。
+
+在过去，手动支持票证选项可用，但那是在上述选项 1 存在之前的情况。  Microsoft 不再支持通过支持票证手动重新链接请求。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

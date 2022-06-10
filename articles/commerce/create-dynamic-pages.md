@@ -2,35 +2,32 @@
 title: 根据 URL 参数创建动态电子商务页面
 description: 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694332"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811023"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>根据 URL 参数创建动态电子商务页面
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 
-可以基于 URL 路径中的段将电子商务页面配置为提供不同的内容。 因此，该页面称为动态页面。 段用作检索页面内容的参数。 例如，创建了一个名为 **blog\_viewer** 的页面，并将其与 URL `https://fabrikam.com/blog` 关联。 然后可以基于 URL 路径中的最后一个段使用此页面来显示不同的内容。 例如，URL `https://fabrikam.com/blog/article-1` 中的最后一个段是 **article-1**。
+可以基于 URL 路径中的段将电子商务页面配置为提供不同的内容。 因此，该页面称为动态页面。 段用作检索页面内容的参数。 例如，在站点生成器中创建并命名为 **博客\_查看者** 的页面被映射到 URL `https://fabrikam.com/blog`。 然后可以基于 URL 路径中的最后一个段使用此页面来显示不同的内容。 例如，URL `https://fabrikam.com/blog/article-1` 中的最后一个段是 **article-1**。
 
-替代动态页面的单独的自定义页面也可以与 URL 路径中的段相关联。 例如，创建了一个名为 **blog\_summary** 的页面，并将其与 URL `https://fabrikam.com/blog/about-this-blog` 关联。 当请求此 URL 时，将返回与 **/about-this-blog** 参数关联的 **blog\_summary** 页面，而不是 **blog\_viewer** 页面。
+您还可以使用站点生成器页面替代参数化的 URL 段。 例如，在站点生成器中创建并命名为 **博客\_摘要** 的页面可映射到 URL `https://fabrikam.com/blog/about-this-blog`。 当请求末尾带有 `/about-this-blog` 段的 `https://fabrikam.com/blog` URL 时，将返回 **博客\_摘要** 页面内容，而不是返回被解释为 `https://fabrikam.com/blog` 页面使用的参数的 `/about-this-blog` 段。 
+
+在为要传递给动态页面的参数选择名称时，动态页面在 URL 中显示的名称（上例中的 `/blog`）不能用作参数名称或参数名称子字符串。 
 
 > [!NOTE]
 > 托管、检索和显示动态页面内容的功能通过使用自定义模块实现。 有关详细信息，请参阅[在线渠道可扩展性](e-commerce-extensibility/overview.md)。
@@ -60,7 +57,7 @@ ms.locfileid: "8694332"
 1. 在 **参数化 URL 路径** 下，选择 **添加**，然后输入您在创建 URL 时输入的 URL 路径（在本示例中为 **/blog**）。
 1. 选择 **保存并发布**。
 
-配置路由后，对参数化 URL 路径的所有请求都将返回与该 URL 关联的页面。 如果任何请求包含附加段，将返回关联的页面，并将该段用作参数来检索页面内容。 例如，`https://fabrikam.com/blog/article-1` 将返回 **blog\_summary** 页面，页面内容将使用 **/article-1** 参数进行检索。
+配置路由后，对参数化 URL 路径的所有请求都将返回与该 URL 关联的页面。 如果任何请求包含附加段，将返回关联的页面，并将该段用作参数来检索页面内容。 例如，`https://fabrikam.com/blog/article-1` 将返回 `https://fabrikam.com/blog` 页面，此页面显示它使用 **/article-1** 参数检索到的内容。
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>使用自定义页面替代参数化 URL
 
