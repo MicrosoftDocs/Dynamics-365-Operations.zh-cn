@@ -1,6 +1,6 @@
 ---
 title: 固定资产主页
-description: 本主题介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。
+description: 本文将介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880807"
 ---
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。 固定资产是指由个人或组织拥有的有价项目。 这些项目包括建筑物、车辆、土地和设备。 
+本文将介绍如何获取资源，以帮助您使用 Microsoft Dynamics 365 Finance 固定资产。 固定资产是指由个人或组织拥有的有价项目。 这些项目包括建筑物、车辆、土地和设备。 
 
 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值来确定折旧，对固定资产进行管理。 可以计算固定资产调整值以及处置固定资产。 在您将总帐与固定资产一起使用时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
 

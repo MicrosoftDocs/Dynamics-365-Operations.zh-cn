@@ -1,6 +1,6 @@
 ---
 title: 利用 Power BI 主页进行报告和分析
-description: 本主题为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能和报告工具。
+description: 本文为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能和报告工具。
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: index-page
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906624"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>利用 Power BI 主页进行报告和分析
 
 [!include [banner](../includes/banner.md)]
 
-本主题为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能 (BI) 和报告工具。
+本文为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能 (BI) 和报告工具。
 
 ## <a name="get-started"></a>入门
 - [信息访问和报告](information-access-reporting.md)
 - [技术交流：报告选项](https://www.youtube.com/watch?v=NzZONjKs5xA)（视频）
-- [Finance and Operations：Power BI 分析和报告服务博客](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)（博客）
+- [财务和运营应用：Power BI Analytics 和 Reporting Services 博客](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)（博客）
 
 ## <a name="analytical-workspaces"></a>分析工作区
 工作区可以使用 Microsoft Power BI 支持的丰富信息图和视觉对象。 这些信息图和视觉对象包括许多由第三方提供的控件。 因此，工作区可以为用户提供高度可视化的交互式体验。

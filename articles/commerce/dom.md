@@ -1,6 +1,6 @@
 ---
 title: 分配的订单管理 (DOM)
-description: 本主题将介绍 Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
+description: 本文将介绍 Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878503"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
 [!include [banner](includes/banner.md)]
 
-本主题将介绍 Microsoft Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
+本文将介绍 Microsoft Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
 
 DOM 是一个全渠道订单履行优化解决方案，有助于在供应链网络中最大限度地提高订单履行质量。 DOM 可帮助您确保在正确的时间从正确的来源以正确的数量将产品交付给客户。 DOM 还可以帮助您最大限度提高利润、缩减成本并满足服务级别要求。
 

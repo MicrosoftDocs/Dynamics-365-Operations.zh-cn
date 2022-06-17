@@ -24,7 +24,7 @@
               items:
                 - name: “已删除或弃用的功能”主页
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations 中已删除或弃用的功能
+                - name: 财务和运营应用中已删除或弃用的功能
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                 - name: Dynamics 365 Commerce 中已删除或弃用的功能
                   href: get-started/removed-deprecated-features-commerce.md
@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 配置服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: 前期服务和后期服务
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: 暂停服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: 获取有关服务更新的通知
@@ -222,7 +224,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: 实施 Finance and Operations Commerce 项目
+                - name: 实施财务和运营应用 Commerce 项目
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 为项目设置新的环境、Azure DevOps 和分支
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -394,6 +396,8 @@
                   items:
                     - name: Store Commerce 应用
                       href: dev-itpro/store-commerce.md
+                    - name: 将 Modern POS 迁移到 Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: 设备管理实施指南
                       href: implementation-considerations-devices.md
                     - name: 选择 Store Commerce 或 Cloud POS
@@ -498,7 +502,7 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: 创建零售渠道的财务维度并配置商店的值
                   href: tasks/create-financial-dimensions-retail-channels.md
-                - name: 设置零售对账单的编号规则
+                - name: 设置零售对帐单的编号规则
                   href: retail-statements-number-sequences.md
                 - name: 在电子商务渠道中启用一致的交货方式处理
                   href: consistent-delivery-mode-handling.md
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: 解决电子报告配置中的性能问题
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 减少在运行时提取的表字段数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
@@ -2268,7 +2274,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: 实施传入文档的自定义电子报告源
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: Finance and Operations (Dynamics 365) 移动应用
+        - name: 财务和运营应用 (Dynamics 365) 移动应用
           items:
             - name: 移动应用主页
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: 旧版 Retail SDK 迁移
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 已过时和已删除的 API、类和方法
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: 实现 Commerce 商店技术堆栈的现代化（白皮书）
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: 环境设置
@@ -2560,6 +2568,8 @@
                   items:
                     - name: 创建 Cloud Scale Unit 扩展包
                       href: dev-itpro/CSU-packaging.md
+                    - name: 合并要部署的 Cloud Scale Unit 扩展包
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: 删除 Cloud Scale Unit 扩展
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,9 +2918,17 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: 疑难解答
           items:
+            - name: Store Commerce
+              items:
+                - name: 设置和安装问题
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: 性能问题
+                  href: troubleshoot/store-commerce-performance.md
+                - name: 扩展问题
+                  href: troubleshoot/store-commerce-extensions.md
             - name: 订单处理
               items:
-                - name: 错误，付款类型必须是信用卡
+                - name: “付款类型必须是信用卡”错误
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: 在线订单的税金计算错误
                   href: troubleshoot/tax-miscalculated-online-order.md

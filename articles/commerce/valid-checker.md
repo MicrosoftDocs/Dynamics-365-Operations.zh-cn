@@ -1,6 +1,6 @@
 ---
 title: 验证用于进行对帐单计算的商店交易记录
-description: 本主题将介绍 Microsoft Dynamics 365 Commerce 中用于验证商店交易记录的功能。
+description: 本文将介绍 Microsoft Dynamics 365 Commerce 中用于验证商店交易记录的功能。
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890504"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>验证用于进行对帐单计算的商店交易记录
 
 [!include [banner](includes/banner.md)]
 
-本主题将介绍 Microsoft Dynamics 365 Commerce 中用于验证商店交易记录的功能。 在选取交易记录进行对帐单过帐之前，验证流程可识别和标记会导致过帐错误的交易记录。
+本文将介绍 Microsoft Dynamics 365 Commerce 中用于验证商店交易记录的功能。 在选取交易记录进行对帐单过帐之前，验证流程可识别和标记会导致过帐错误的交易记录。
 
 当您尝试过帐对帐单时，由于商业交易记录表中存在不一致的数据，验证过程可能会失败。 以下是可能导致数据不一致的部分因素示例：
 

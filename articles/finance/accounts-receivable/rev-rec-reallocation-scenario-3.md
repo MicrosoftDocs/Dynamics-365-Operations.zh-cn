@@ -1,6 +1,6 @@
 ---
 title: 收入确认重新分配 - 方案 3
-description: 本主题介绍了一种重新分配方案，在此方案中将一个新行添加到现有的、已开票的销售订单中。 将一个新项目添加到合同中时，既可以将其添加到一个新销售订单，也可以添加到现有销售订单。
+description: 本文将介绍一种重新分配方案，在此方案中将一个新行添加到现有的、已开票的销售订单中。 将一个新项目添加到合同中时，既可以将其添加到一个新销售订单，也可以添加到现有销售订单。
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904807"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>收入确认重新分配 - 方案 3
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了一种重新分配方案，在此方案中将一个新行添加到现有的、已开票的销售订单中。 将一个新项目添加到合同中时，既可以将其添加到一个新销售订单，也可以添加到现有销售订单。 此方案还显示了由于重新分配而更新应收帐款时发生的情况。
+本文将介绍一种重新分配方案，在此方案中将一个新行添加到现有的、已开票的销售订单中。 将一个新项目添加到合同中时，既可以将其添加到一个新销售订单，也可以添加到现有销售订单。 此方案还显示了由于重新分配而更新应收帐款时发生的情况。
 
 对于此方案，**总帐参数** 页面的 **收入确认** 选项卡上的 **将发票更正过帐到应收帐款** 选项设置为 **是**（**收入确认 \> 设置 \> 总帐参数**）。
 

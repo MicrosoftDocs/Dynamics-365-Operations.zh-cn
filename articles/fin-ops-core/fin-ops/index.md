@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations 应用程序文档
-description: Finance and Operations 应用的文档。
+title: 财务和运营应用程序文档
+description: 财务和运营应用的文档。
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865823"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Finance and Operations 应用程序文档
+# <a name="finance-and-operations-application-documentation"></a>财务和运营应用程序文档
 
 [!include [banner](includes/banner.md)]
 
-使用本主题中的资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Finance and Operations 应用程序为您的企业服务。 
+使用本文中的资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让财务和运营应用程序为您的企业服务。 
 
 其中大部分内容也适用于相关产品：Dynamics 365 Commerce 和 Dynamics 365 Human Resources。 
 
@@ -49,7 +49,7 @@ ms.locfileid: "8075389"
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
 
 <h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version 服务更新</a></h3>
-<p><a href="get-started/one-version.md">One Version 服务更新常见问题</a></p>
+<p><a href="get-started/one-version.md">One Version 服务更新常见问题解答</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">软件生命周期策略：云</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">软件生命周期策略：本地</a></p>
 <p><a href="get-started/public-preview-releases.md">标准版及首发版服务更新</a></p>

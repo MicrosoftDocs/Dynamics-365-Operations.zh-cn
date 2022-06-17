@@ -1,6 +1,6 @@
 ---
 title: 应付帐款主页
-description: 此主题概要介绍了应付帐款。
+description: 本文将概要介绍应付帐款。
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595278"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946089"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
 [!include [banner](../includes/banner.md)]
 
-此主题概要介绍了应付帐款。 
+本文将概要介绍应付帐款。 
 
 您可以手动输入供应商发票或通过数据实体以电子方式接收这些发票。 在输入或接收发票后，可以通过使用发票审核日记帐或 **供应商发票** 页查看和审核发票。 您可以使用发票匹配、供应商发票策略和工作流来实现审核流程自动化，以便自动审核满足特定条件的发票，并标记其余的发票由授权用户进行审核。
 
@@ -126,13 +126,13 @@ ms.locfileid: "7595278"
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找有关应付帐款的意见、新闻和其他信息以及其他解决方案。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找有关应付帐款和其他解决方案的意见、资讯及其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
 #### <a name="community-blogs"></a>社区博客
 
-[如何管理 Dynamics 365 Finance 中的应付款项](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[如何在 Dynamics 365 Finance 中管理应付帐款](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>任务指南
 其他帮助在应用程序中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。

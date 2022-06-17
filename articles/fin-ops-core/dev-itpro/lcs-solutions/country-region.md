@@ -1,6 +1,6 @@
 ---
 title: 全球化资源
-description: 本主题包含可帮助您详细了解国家/地区特定功能和产品/服务的一系列资源。
+description: 本文包含可帮助您详细了解国家/地区特定功能和产品/服务的一系列资源。
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866528"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
 ## <a name="local-and-regional-deployments"></a>本地和区域部署
 如果您的政府法规要求以不同于其他国家/地区要求的方式存储或处理数据，则您在部署时可能需要考虑相应国家/地区的要求。 请考虑可能与您相关的以下资源：
 
-[由世纪互联在中国运营的 Finance and Operations 应用](../deployment/china-local-deployment.md)
+[财务和运营应用由世纪互联在中国运营](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations 应用包含适用于[产品本地化和翻译可用性指南](https://aka.ms/dynamics_365_international_availability_deck)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
+财务和运营应用包含适用于[产品本地化和翻译可用性指南](https://aka.ms/dynamics_365_international_availability_deck)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
 
-本主题包含的一系列资源可帮助您达到以下目的： 
+本文包含的一系列资源可帮助您达到以下目的： 
 - 详细了解发展中国家/地区的特定解决方案。
 - 获取各国家/地区的特定更新。
 - 提交和查看监管预警。
@@ -62,8 +62,8 @@ Finance and Operations 应用包含适用于[产品本地化和翻译可用性�
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 版本计划
 [Dynamics 365 版本计划](/business-applications-release-notes/)提供针对 Dynamics 365 业务应用程序和应用程序平台计划推出的新增功能和增强功能的描述。 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations 应用新增功能
-[Finance and Operations 主页新增功能或更改](../../fin-ops/get-started/whats-new-changed.md)列出了 Finance and Operations 应用特定版本中的功能。
+#### <a name="finance-and-operations-apps-whats-new"></a>财务和运营应用新增功能
+[财务和运营应用主页的新增功能或更改](../../fin-ops/get-started/whats-new-changed.md)列出了财务和运营应用特定版本中的功能。
 
 ### <a name="electronic-reporting"></a>电子报告
 电子报告 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：

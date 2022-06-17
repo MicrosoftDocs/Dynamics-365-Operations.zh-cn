@@ -1,6 +1,6 @@
 ---
 title: 收入确认重新分配 - 方案 4
-description: 本主题介绍了一种重新分配方案，在此方案中从现有的、已部分开票的销售订单中删除一行。 无论从销售订单中删除该行还是将该行设置为已取消状态，此方案都将产生相同的结果。
+description: 本文将介绍一种重新分配方案，在此方案中从现有的、已部分开票的销售订单中删除一行。 无论从销售订单中删除该行还是将该行设置为已取消状态，此方案都将产生相同的结果。
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891657"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>收入确认重新分配 - 方案 4
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了一种重新分配方案，在此方案中从现有的、已部分开票的销售订单中删除一行。 无论从销售订单中删除该行还是将该行设置为已取消状态，此方案都将产生相同的结果。
+本文将介绍一种重新分配方案，在此方案中从现有的、已部分开票的销售订单中删除一行。 无论从销售订单中删除该行还是将该行设置为已取消状态，此方案都将产生相同的结果。
 
 对于此方案，**总帐参数** 页面的 **收入确认** 选项卡上的 **将发票更正过帐到应收帐款** 选项设置为 **否**（**收入确认 \> 设置 \> 总帐参数**）。
 

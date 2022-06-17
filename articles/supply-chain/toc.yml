@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 配置服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 前期服务和后期服务
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 暂停服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 获取有关服务更新的通知
@@ -693,7 +695,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: 使用 Microsoft Power BI 报告的内容包
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
+            - name: 使用针对财务和运营移动应用程序的成本控制工作区
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: 全球库存核算
           items:
@@ -1529,6 +1531,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 解决电子报告配置中的性能问题
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 减少在运行时提取的表字段数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
@@ -3629,7 +3633,7 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: 升级和迁移
                   items:
-                    - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
+                    - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到财务和运营应用
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Management 开发
           items:

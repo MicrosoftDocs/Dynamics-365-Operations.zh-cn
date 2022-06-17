@@ -1,6 +1,6 @@
 ---
 title: 收入确认捆绑
-description: 本主题介绍应收帐款的收入确认功能中包含的捆绑功能。 一个捆绑包含一个父级项目和多个组件项目。
+description: 本文将介绍应收帐款的收入确认功能中包含的捆绑功能。 一个捆绑包含一个父级项目和多个组件项目。
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876287"
 ---
 # <a name="revenue-recognition-bundles"></a>收入确认捆绑
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍应收帐款的收入确认功能中包含的捆绑功能。 一个捆绑包含一个父级项目和多个组件项目。 父级项目在销售订单上输入，因此订单输入效率更高。 但是，它随后将分解为组件项目。 内部文档（例如装箱单）将列出组件项目。 但是，外部文档将仅显示父级项目。
+本文将介绍应收帐款的收入确认功能中包含的捆绑功能。 一个捆绑包含一个父级项目和多个组件项目。 父级项目在销售订单上输入，因此订单输入效率更高。 但是，它随后将分解为组件项目。 内部文档（例如装箱单）将列出组件项目。 但是，外部文档将仅显示父级项目。
 
 > [!NOTE]
 > Microsoft Dynamics 365 Commerce 渠道（例如在线、销售点 (POS) 和呼叫中心）不支持收入确认（包括捆绑功能）。 此外，这还包括从目标客户到现金的解决方案，适用于 Dynamics 365 Supply Chain Management 和 Dynamics 365 Sales。 在 Commerce 渠道或从目标客户到现金解决方案中创建的订单或交易记录中，不应添加配置为使用收入确认的项目。

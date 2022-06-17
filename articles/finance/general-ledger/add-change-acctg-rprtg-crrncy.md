@@ -1,6 +1,6 @@
 ---
 title: 更改记帐或申报币种
-description: 本主题介绍了如何更改记帐或申报币种，或者如何将申报币种添加到分类帐设置中。
+description: 本文将介绍如何更改记帐或申报币种，或者如何将申报币种添加到分类帐设置中。
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904605"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>更改记帐或申报币种
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了如何更改记帐或申报币种，或者如何将申报币种添加到分类帐设置中。
+本文将介绍如何更改记帐或申报币种，或者如何将申报币种添加到分类帐设置中。
 
 ## <a name="symptom"></a>问题
 
@@ -73,7 +73,7 @@ ms.locfileid: "8710881"
 10. 在 **选定的法人** 区域中，选择 **添加模板**。
 11. 选择要使用的模板。 建议用于新法人的模板包括 **025 - 总帐** 和 **财务**。 我们建议您查看所有其他可用的模板，以确定它们中是否有任何模板适合于您的要求。
 12. 选择 **复制到法人** 以启动批处理流程，此流程将创建选定的实体，并将其复制到目标法人。
-13. 在该流程完成之后，但在过帐任何交易记录之前，请转到分类帐，并按照本主题前面所述更新记帐和申报币种。
+13. 在该流程完成之后，但在过帐任何交易记录之前，请转到分类帐，并按照本文前面所述更新记帐和申报币种。
 
 如果您创建了一个新法人，以便可以更改记帐或申报币种，请核实是否已将期初余额从旧法人的币种转换为新币种。
 

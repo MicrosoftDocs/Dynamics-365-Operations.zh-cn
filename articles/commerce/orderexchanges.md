@@ -1,6 +1,6 @@
 ---
 title: 配置和处理有关退货单的交换
-description: 本主题将介绍如何在 Dynamics 365 Commerce 中配置退货交换。
+description: 本文将介绍如何在 Dynamics 365 Commerce 中配置退货交换。
 author: josaw1
 ms.date: 07/28/2021
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f33c674e4110b4e45ac58e499a65da2509b00046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845783"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 

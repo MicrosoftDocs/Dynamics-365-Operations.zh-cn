@@ -1,6 +1,6 @@
 ---
 title: 跨多个客户订单和发票的退回物料
-description: 本主题介绍了 Dynamics 365 Commerce 中支持跨多个客户订单和发票进行退货的功能。
+description: 本文将介绍 Dynamics 365 Commerce 中支持跨多个客户订单和发票进行退货的功能。
 author: josaw1
 ms.date: 08/27/2020
 ms.topic: index-page
@@ -15,21 +15,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 410a78dca29f1d723a5b5ef43836d07ec5502a567ec81098241fafeb6354373b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65ef700db5a81c49a962fd388af54e7811c088d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890312"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>跨多个客户订单和账单的退回物料
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>跨多个客户订单和发票的退回物料
 
 [!include [banner](includes/banner.md)]
 
 
-可以跨多个订单和账单处理退货。 
+可以跨多个订单和发票处理退货。 
 
-## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>配置 Commerce 以支持跨多个客户订单和账单进行退货
+## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>配置 Commerce 以支持跨多个客户订单和发票进行退货
 
 1. 转到 **Commerce 参数 \> 客户订单**。
 1. 启用 **支持针对多个订单的退货** 参数。 

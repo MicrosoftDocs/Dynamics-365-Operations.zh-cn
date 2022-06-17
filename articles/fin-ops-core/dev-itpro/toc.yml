@@ -84,7 +84,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: 最大 API 执行次数
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: Finance and Operations 连接器
+            - name: 财务和运营应用连接器
               href: data-entities/fin-ops-connector.md
             - name: 集成开发
               items:
@@ -108,39 +108,39 @@
                       items:
                         - name: 目标客户到现金
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: 将 Sales 的客户直接同步到 Finance and Operations
+                        - name: 将 Sales 的客户直接同步到财务和运营应用
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: 将 Finance and Operations 的产品直接同步到 Sales
+                        - name: 将财务和运营应用的产品直接同步到 Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
+                        - name: 将 Sales 的联系人直接同步到财务和运营应用的联系人或客户
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+                        - name: 将 Sales 的销售报价单标题和行直接同步到财务和运营应用
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
+                        - name: 直接在 Sales 和财务和运营应用之间同步销售订单
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: 将 Finance and Operations 的销售账单标题和行直接同步到 Sales
+                        - name: 将财务和运营应用的销售发票标题和行直接同步到 Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: 配置与 Field Service 的集成
                       items:
                         - name: 配置与 Field Service 的集成概览
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
+                        - name: 将财务和运营应用的产品与 Field Service 的产品同步
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
+                        - name: 将 Field Service 的工作订单同步到财务和运营应用的销售订单
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: 将 Field Service 的协议账单同步到 Finance and Operations 的普通账单
+                        - name: 将 Field Service 的协议发票同步到财务和运营应用的普通发票
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
+                        - name: 将库存转移和调整从 Field Service 同步到财务和运营应用
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
+                        - name: 将库存级别信息从财务和运营应用同步到 Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
+                        - name: 将具有库存单位的产品从财务和运营应用同步到 Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: 将项目列表从 Finance and Operations 同步到 Field Service
+                        - name: 将项目列表从财务和运营应用同步到 Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: 将仓库从 Finance and Operations 同步到 Field Service
+                        - name: 将仓库从财务和运营应用同步到 Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
+                        - name: 将项目内的工作订单从 Field Service 同步到财务和运营应用
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: 配置 Project Service Automation 集成
                       items:
@@ -350,9 +350,9 @@
                   href: deployment/arm-onboarding.md
                 - name: 完成美国政府 LCS 项目的 Azure 资源管理器入门培训流程
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute 和 Finance and Operations
+                - name: Azure ExpressRoute 和财务和运营应用
                   href: deployment/expressroute.md
-                - name: Finance and Operations 体系结构
+                - name: 财务和运营应用体系结构
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: 将更新应用于云环境
                   href: deployment/apply-deployable-package-system.md
@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: 配置用于本地部署的仓库应用
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: 在 Finance + Operations (on-premises) 环境中启用 RSAT
+                      href: deployment/onprem-rsat-configuration.md
                     - name: 在本地环境中安装网络打印机设备
                       href: analytics/install-network-printer-onprem.md
                     - name: 本地诊断
@@ -490,7 +492,7 @@
                   href: deployment/deployment-options-geo.md
                 - name: 美国政府社区云 (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: 由世纪互联在中国运营
+                - name: 中国 - 由世纪互联运营
                   href: deployment/china-local-deployment.md
         - name: 开发和自定义
           items:
@@ -584,7 +586,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: 模型和包装
                   href: dev-tools/models.md
-                - name: Finance and Operations 项目类型
+                - name: 财务和运营应用项目类型
                   href: dev-tools/projects.md
                 - name: Visual Studio Tools 加载项
                   href: dev-tools/developer-tools-add-ins.md
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps 扩展教程（公开预览版）
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Dynamics 365 Translation Service Visual Studio Code 扩展（公开预览版）
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platform 集成
           items:
             - name: 概览
@@ -1218,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: 启用 Dataverse 虚拟实体
                   href: power-platform/enable-virtual-entities.md
-                - name: Finance and Operations 的 Power Apps 门户
+                - name: 财务和运营应用的 Power Apps 门户
                   href: power-platform/power-portal-reference.md
-                - name: Finance and Operations 虚拟实体常见问题解答
+                - name: 财务和运营应用虚拟实体常见问题解答
                   href: power-platform/faq.md
             - name: 业务事件
               items:
@@ -1568,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: 支持
           items:
-            - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
+            - name: 获取对财务和运营应用和 Lifecycle Services 的支持
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 支持概览
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 获取由世纪互联在中国运营的 Finance and Operations 的支持
+            - name: 获取由世纪互联在中国运营的财务和运营应用的支持
               href: lifecycle-services/21vianet-support.md
             - name: 设置对财务和运营应用的技术支持
               href: lifecycle-services/support-experience.md
@@ -1690,7 +1694,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: 从 AX 2012 升级
               items:
-                - name: 从 AX 2012 升级到 Finance and Operations
+                - name: 从 AX 2012 升级到财务和运营应用
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 升级 - 使用升级分析器工具进行计划
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1750,7 +1754,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: 从 AX 2009 迁移数据
               items:
-                - name: 将数据从 AX 2009 迁移至 Finance and Operations
+                - name: 将数据从 AX 2009 迁移至财务和运营应用
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 迁移 - 安装数据迁移工具
                   href: migration-upgrade/install-dmt.md

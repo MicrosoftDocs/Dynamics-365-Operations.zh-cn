@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: 配置服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: 前期服务和后期服务
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: 暂停服务更新
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: 获取有关服务更新的通知
@@ -358,7 +360,7 @@
               href: accounts-receivable/customer-posting-profiles.md
             - name: 创建费用代码
               href: accounts-receivable/create-charges-codes.md
-            - name: 使用共享的编号序列复制客户
+            - name: 使用共享的编号规则复制客户
               href: accounts-receivable/copy-customer.md
             - name: 客户工作流
               href: accounts-receivable/customer-workflow.md
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: 全部金额和销售税代码的间隔计算选项
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: 销售税计算和舍入
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: 普通日记帐行的销售税计算
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: 计算和调整供应商发票上的销售税
@@ -2034,7 +2038,7 @@
               items:
                 - name: 中国概览
                   href: localizations/china.md
-                - name: Finance and Operations 由世纪互联在中国运营
+                - name: 财务和运营应用由世纪互联在中国运营
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: 中国式凭证类型的帐户组选择
                   href: localizations/apac-chn-account-groups-selection.md
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: 爱沙尼亚内部统计
                   href: localizations/emea-est-intrastat.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-est-eu-sales-list.md
             - name: 欧洲
               items:
                 - name: 欧洲概览
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: 匈牙利的销售税报表
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: 匈牙利内部统计
+                  href: localizations/emea-hun-intrastat.md
                 - name: 延期销售税计算
                   href: localizations/emea-hun-deferred-vat.md
             - name: 冰岛
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: 拉脱维亚内部统计
                   href: localizations/emea-lva-intrastat.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: 立陶宛
               items:
                 - name: 立陶宛概览
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: 为公司内货物转移设置转移文档
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: 马来西亚
               items:
                 - name: 马来西亚概览
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: 解决电子报告配置中的性能问题
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: 减少在运行时提取的表字段数
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: 业务文档管理 (BDM)
                   items:
                     - name: BDM 概览
@@ -4769,7 +4783,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-track-time-for-fmla.md
             - name: 工资单处理任务
               items:
-                - name: 收入和收入产生生成问题
+                - name: 收入和收入产生常见问题解答
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-earnings-generation-process.md
                 - name: 生成工作人员的收入
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-earnings.md
@@ -4841,7 +4855,7 @@
               items:
                 - name: 创建汇率提供方
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: 在 Finance and Operations 版本 8.0 中创建汇率提供方
+                - name: 在财务和运营应用版本 8.0 中创建汇率提供方
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: '使用 CustTrans::settleTransaction 结算交易记录'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md

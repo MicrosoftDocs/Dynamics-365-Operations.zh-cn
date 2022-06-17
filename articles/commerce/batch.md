@@ -1,6 +1,6 @@
 ---
 title: 改进了批量跟踪物料的处理
-description: 本主题介绍了 Microsoft Dynamics 365 Commerce 中对于对帐单过帐流程中批量跟踪物料处理的改进。
+description: 本文将介绍 Microsoft Dynamics 365 Commerce 中对于对帐单过帐流程中批量跟踪物料处理的改进。
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881869"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>改进了批量跟踪物料的处理
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了 Microsoft Dynamics 365 Commerce 中对于对帐单过帐流程中批量跟踪物料处理的改进。
+本文将介绍 Microsoft Dynamics 365 Commerce 中对于对帐单过帐流程中批量跟踪物料处理的改进。
 
 在 Dynamics 365 Commerce 销售点 (POS) 中，无法在销售时捕获批量跟踪物料的批处理号。 但是，对于特定配置，在 Commerce Headquarters 中通过客户订单或对帐单过帐来过帐销售额时，Commerce 要求批量跟踪物料具备有效的批处理号，这些编号在开票流程中使用。
 

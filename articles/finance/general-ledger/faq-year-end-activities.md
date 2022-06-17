@@ -1,6 +1,6 @@
 ---
 title: 年终活动常见问题解答
-description: 本主题列出了在年终结算时可能出现的问题，以及有助于开展年终结算活动的问题解答。
+description: 本文列出了在年终结算时可能出现的问题，以及有助于开展年终结算活动的问题解答。
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865731"
 ---
 # <a name="year-end-activities-faq"></a>年终活动常见问题解答 
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了在年终结算时可能出现的问题，以及有助于开展年终结算活动的问题解答。 本主题中的信息主要集中于与总帐和应付帐款的年终结算活动有关的问题。
+本文列出了在年终结算时可能出现的问题，以及有助于开展年终结算活动的问题解答。 本文中的信息主要集中于与总帐和应付帐款的年终结算活动有关的问题。
 
 ## <a name="general-ledger-year-end-enhancements"></a>总帐年终增强 
 版本 10.0.20 推出了年终结算增强，此功能从版本 10.0.25 开始默认启用。 如果您的组织使用低于 10.0.25 的版本，我们建议先启用此功能，然后再开始年终结算流程。 必须在系统中开启此功能，然后才能使用。 管理员可以使用功能管理工作区检查功能状态和开启功能（如果需要）。 在此工作区，此功能按以下方式列出：
@@ -75,7 +75,7 @@ ms.locfileid: "8725587"
 [![财务维度集。](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>年终结算模板配置
-组织可以使用年终结算模板，来选择当将损益余额转移到留存收益时要维护的财务维度级别。 当将余额移至留存收益或选择将金额汇总为单个维度值（**结算单个**）时，组织可以使用这些设置维护详细的财务维度（**结算全部**）。 可以针对每个财务维度进行此定义。 有关这些设置的详细信息，请参阅[年终结算](year-end-close.md)主题。
+组织可以使用年终结算模板，来选择当将损益余额转移到留存收益时要维护的财务维度级别。 当将余额移至留存收益或选择将金额汇总为单个维度值（**结算单个**）时，组织可以使用这些设置维护详细的财务维度（**结算全部**）。 可以针对每个财务维度进行此定义。 有关这些设置的详细信息，请参阅[年终结算](year-end-close.md)文章。
 
 我们建议您评估组织的要求，如果可能，请使用 **结算单个** 年终选项结算尽可能多的维度，以提高性能。 通过结算到单个维度值（也可以是空白值），系统在确定留存收益科目分录的余额时，将减少计算的明细。
 

@@ -1,6 +1,6 @@
 ---
 title: 创建具有空白状态的支票
-description: 本主题介绍了如何为银行帐户创建空白支票。
+description: 本文将介绍如何为银行帐户创建空白支票。
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861435"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了如何创建空白支票。 例如，您可以创建一个空白支票以记录已损坏并且不能用于付款的支票。
+本文将介绍如何创建空白支票。 例如，您可以创建一个空白支票以记录已损坏并且不能用于付款的支票。
 
 在 **支票** 页面上，可对支票执行维护任务。 例如，您可以创建新支票编号以及删除支票。 您也可以创建具有 **空白** 状态的支票。 在创建空白支票之后，将无法在系统中删除或重用这些支票。
 

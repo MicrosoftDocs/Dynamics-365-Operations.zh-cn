@@ -1,6 +1,6 @@
 ---
 title: 为零售商店交易记录创建基于缓慢馈送的订单
-description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 中的商店交易记录创建基于缓慢馈送的订单。
+description: 本文将介绍如何为 Microsoft Dynamics 365 Commerce 中的商店交易记录创建基于缓慢馈送的订单。
 author: analpert
 ms.date: 01/11/2021
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0f0ee361df8c565761e79f5b0ecf519c149f2ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873241"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>为零售商店交易记录创建基于缓慢馈送的订单
 

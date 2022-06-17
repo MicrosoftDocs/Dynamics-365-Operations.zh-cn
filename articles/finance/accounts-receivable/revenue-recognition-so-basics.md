@@ -1,6 +1,6 @@
 ---
 title: 销售订单上的收入确认
-description: 本主题介绍在销售订单和发票上确认收入的基本功能。 收入确认在销售订单和从销售订单创建的对应发票上可用。
+description: 本文将介绍在销售订单和发票上确认收入的基本功能。 收入确认在销售订单和从销售订单创建的对应发票上可用。
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899948"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>销售订单上的收入确认
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725475"
 > [!NOTE]
 > 收入确认功能不能通过功能管理来启用。 目前，您必须使用 Configuration Key 启用该功能。
 
-本主题介绍在销售订单和发票上确认收入的基本功能。 收入确认在销售订单和从销售订单创建的对应发票上可用。 销售订单也可通过时间和材料项目创建。
+本文将介绍在销售订单和发票上确认收入的基本功能。 收入确认在销售订单和从销售订单创建的对应发票上可用。 销售订单也可通过时间和材料项目创建。
 
 > [!NOTE]
-> 在本主题的示意图中，列已隐藏或添加到网格，以便更好地说明概念。 因此，示意图中的页面和数据可能不同于您在产品中所看到的。
+> 在本文的示意图中，列已隐藏或添加到网格，以便更好地说明概念。 因此，示意图中的页面和数据可能不同于您在产品中所看到的。
 
 ## <a name="enter-a-sales-order"></a>输入销售订单
 

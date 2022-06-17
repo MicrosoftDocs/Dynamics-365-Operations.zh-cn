@@ -1,6 +1,6 @@
 ---
 title: 确认延期收入
-description: 本主题提供有关如何使用收入确认功能确认收入的信息。
+description: 本文将提供有关如何使用收入确认功能确认收入的信息。
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902535"
 ---
 # <a name="recognize-deferred-revenue"></a>确认延期收入
 
@@ -27,7 +27,7 @@ ms.locfileid: "8725923"
 > [!NOTE]
 > 收入确认功能不能通过功能管理来启用。 目前，您必须使用 Configuration Key 启用该功能。
 
-本主题介绍在收入确认计划中确认收入的流程。 在过帐销售订单的发票后，将会为具有收入计划的每个销售订单行创建一个收入确认计划。 行上的收入计划用于确定是否应延期该行的收入。
+本文将介绍在收入确认计划中确认收入的流程。 在过帐销售订单的发票后，将会为具有收入计划的每个销售订单行创建一个收入确认计划。 行上的收入计划用于确定是否应延期该行的收入。
 
 ## <a name="view-revenue-recognition-schedule-details"></a>查看收入确认计划详细信息
 

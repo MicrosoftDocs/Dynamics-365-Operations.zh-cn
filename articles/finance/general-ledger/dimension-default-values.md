@@ -1,6 +1,6 @@
 ---
 title: 财务日记帐上的默认财务维度
-description: 本主题介绍了相应的规则，这些规则定义如何在通过财务日记帐输入的交易记录中设置财务维度值。 此外，还介绍了有关使用固定维度的方案的详细信息。
+description: 本文将介绍相应的规则，这些规则定义如何在通过财务日记帐输入的交易记录中设置财务维度值。 此外，还将介绍有关使用固定维度的方案的详细信息。
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907913"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>财务日记帐上的默认财务维度
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了相应的规则，这些规则定义如何在通过财务日记帐（而不是通过库存日记帐或项目日记帐）输入的交易记录中设置财务维度值。 此外，还介绍了有关使用固定维度的方案的详细信息。
+本文将介绍相应的规则，这些规则定义如何在通过财务日记帐（而不是通过库存日记帐或项目日记帐）输入的交易记录中设置财务维度值。 此外，还将介绍有关使用固定维度的方案的详细信息。
 
 ## <a name="symptom"></a>问题
 

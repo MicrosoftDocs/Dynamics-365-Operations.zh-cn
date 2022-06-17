@@ -1,6 +1,6 @@
 ---
 title: 日记帐和行中的冲销设置
-description: 本主题说明了为什么在普通日记帐中输入的冲销条目可能不会包括在已过帐交易记录中的原因。
+description: 本文将说明为什么在普通日记帐中输入的冲销条目可能不会包括在已过帐交易记录中的原因。
 author: kweekley
 ms.date: 04/29/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff8c0bda8e750e95261039b373cfb96a76034f6f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e36a3ea1736e4d7f60a5a6ce588ad3e66c950c14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899833"
 ---
 # <a name="reverse-settings-on-journals-and-lines"></a>日记帐和行中的冲销设置
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明了为什么在普通日记帐中输入的冲销条目可能不会包括在已过帐交易记录中的原因。  
+本文将说明为什么在普通日记帐中输入的冲销条目可能不会包括在已过帐交易记录中的原因。  
 
 ## <a name="symptom"></a>问题
 

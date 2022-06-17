@@ -1,6 +1,6 @@
 ---
 title: 使用共享的编号规则复制供应商
-description: 本主题说明如何使用共享的编号规则将供应商复制到另一个法人但却保持相同的供应商 ID。
+description: 本文将介绍如何使用共享的编号规则将供应商复制到另一个法人但却保持相同的供应商 ID。
 author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 7b7285cdf454955656c4fb20c3abf68f3f9c39dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904892"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>使用共享的编号规则复制供应商
 

@@ -1,6 +1,6 @@
 ---
 title: 年终结算缺少期初余额
-description: 本主题介绍了进行年终结算时为什么可能会缺少期初余额，以及缺少期初余额时如何重新生成这些余额。
+description: 本文将介绍进行年终结算时为什么可能会缺少期初余额，以及缺少期初余额时如何重新生成这些余额。
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894839"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>年终结算缺少期初余额
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了进行年终结算时为什么可能会缺少期初余额，以及缺少期初余额时如何重新生成这些余额。
+本文将介绍进行年终结算时为什么可能会缺少期初余额，以及缺少期初余额时如何重新生成这些余额。
 
 ### <a name="symptom"></a>问题
 
@@ -36,7 +36,7 @@ ms.locfileid: "8727163"
 
 如果 **撤消上一次结算** 字段设置为 **是**，将冲销同一会计年度的上一次年终结算。 运行冲销年终结算的流程时，将删除有关期末余额和期初余额的所有条目，好像从未进行年终结算一样。 此外，还将删除凭证。 将不会自动重新运行年终结算流程。 您必须重新启动该流程，此时会将 **撤消上一次结算** 选项更新为 **否**。
 
-年终结算常见问题解答主题中介绍了此情况。 有关详细信息，请参阅[年终活动常见问题解答](faq-year-end-activities.md)。
+年终结算常见问题解答文章中介绍了此情况。 有关详细信息，请参阅[年终活动常见问题解答](faq-year-end-activities.md)。
 
 ### <a name="symptom"></a>问题
 

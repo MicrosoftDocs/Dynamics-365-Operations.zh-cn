@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management 主页
-description: 本页提供了针对 Supply Chain Management 功能的一系列帮助主题和其他资源。
+description: 本页提供了针对 Supply Chain Management 功能的一系列帮助文章和其他资源。
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879067"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 
 [!include [banner](includes/banner.md)]
 
-本主题提供了 Dynamics 365 Supply Chain Management 中的一系列帮助主题和其他资源。
+本文提供了 Dynamics 365 Supply Chain Management 中的一系列帮助文章和其他资源。
 
 ## <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
@@ -58,7 +58,7 @@ ms.locfileid: "8789203"
 
 这段短视频概述了 Microsoft Dynamics 365 for Finance and Operations 8.0 版（2018 年 4 月）新增的供应链管理功能。
 
-- [在 Field Service 和 Finance and Operations 之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
+- [在 Field Service 和财务和运营应用之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
 
 这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。
 
@@ -73,7 +73,7 @@ ms.locfileid: "8789203"
 - [在移动设备上审批采购订单](https://youtu.be/gZ-gOlJe7H8)
 - [用甘特图可视地安排生产订单和批次订单](https://youtu.be/BtbuShkGj4I)
 
-以下技术会议录像讨论了 Finance and Operations 先前版本中的供应链管理功能。 此功能现在是 Dynamics 365 Supply Chain Management 的一部分；相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
+以下技术会议录像讨论了财务和运营应用先前版本中的供应链管理功能。 此功能现在是 Dynamics 365 Supply Chain Management 的一部分；相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
 
 - **成本管理：**
   - [成本管理概览](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -93,7 +93,7 @@ ms.locfileid: "8789203"
 
 ## <a name="blogs"></a>博客
 
-[Dynamics AX 制造研发团队博客](/archive/blogs/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm/)上有很多关于制造和供应链管理的主题。 其中大多数文章是针对旧版本编写的，但相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
+[Dynamics AX 制造研发团队博客](/archive/blogs/axmfg/)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm/)上有很多关于制造和供应链管理的文章。 其中大多数文章是针对旧版本编写的，但相同的概念在当前版本中仍适用，并且各种过程在当前版本中也类似。
 
 ## <a name="white-papers"></a>白皮书
 

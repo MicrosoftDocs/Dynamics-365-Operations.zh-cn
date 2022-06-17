@@ -1,6 +1,6 @@
 ---
 title: Finance 主页
-description: 本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。
+description: 本文提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。
 author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887881"
 ---
 # <a name="finance-home-page"></a>Finance 主页
 
 [!include [banner](includes/banner.md)]
 
-本主题提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。 
+本文提供了针对 Microsoft Dynamics 365 Finance 中的财务管理功能的一系列帮助主题和其他资源。 
 
 选择一个功能区域进行详细了解。
 

@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources 中的新增功能或更改
               items:
+                - name: Human Resources 10.0.28（合并基础结构）
+                  href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27（合并基础结构）
                   href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26（合并基础结构）

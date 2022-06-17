@@ -1,6 +1,6 @@
 ---
 title: 收入确认重新分配 - 方案 1
-description: 本主题介绍了一种重新分配方案，在此方案中输入了两个销售订单，但仅对它们进行了确认。 如果两个以上的销售订单处于确认状态，则相同的方案将产生相似的结果。
+description: 本文将介绍一种重新分配方案，在此方案中输入了两个销售订单，但仅对它们进行了确认。 如果两个以上的销售订单处于确认状态，则相同的方案将产生相似的结果。
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd094840e16a0ab19e234148e4ef40c454315d96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876259"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>收入确认重新分配 - 方案 1
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了一种重新分配方案，在此方案中输入了两个销售订单，但仅对它们进行了确认。 如果两个以上的销售订单处于确认状态，则相同的方案将产生相似的结果。
+本文将介绍一种重新分配方案，在此方案中输入了两个销售订单，但仅对它们进行了确认。 如果两个以上的销售订单处于确认状态，则相同的方案将产生相似的结果。
 
 对于此方案，**总帐参数** 页面的 **收入确认** 选项卡上的 **将发票更正过帐到应收帐款** 选项设置为 **否**（**收入确认 \> 设置 \> 总帐参数**）。
 

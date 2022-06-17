@@ -1,6 +1,6 @@
 ---
 title: 收入确认设置
-description: 本主题将介绍收入确认的设置选项及其影响。
+description: 本文将介绍收入确认的设置选项及其影响。
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900004"
 ---
 # <a name="revenue-recognition-setup"></a>收入确认设置
 [!include [banner](../includes/banner.md)]
 
-添加了一个新的 **收入确认** 模块，该模块包括所有必需设置的菜单项。 本主题介绍设置选项及其影响。
+添加了一个新的 **收入确认** 模块，该模块包括所有必需设置的菜单项。 本文将介绍设置选项及其影响。
 
 > [!NOTE]
 > 收入确认功能现在已通过功能管理默认启用。 如果您的组织未使用此功能，则可以在 **功能管理** 工作区中将其关闭。
