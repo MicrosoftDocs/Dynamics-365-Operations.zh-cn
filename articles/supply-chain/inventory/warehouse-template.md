@@ -1,6 +1,6 @@
 ---
 title: 使用仓库配置模板设置仓库
-description: 此主题介绍如何使用仓库配置模板设置仓库。
+description: 本文介绍如何使用仓库配置模板设置仓库。
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856097"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何使用仓库配置模板设置仓库。 有多个预定义的配置模板可供使用。 有关如何使用这些模板的信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
+本文介绍如何使用仓库配置模板设置仓库。 有多个预定义的配置模板可供使用。 有关如何使用这些模板的信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>配置模板可能有用的方案
 
@@ -38,7 +38,7 @@ ms.locfileid: "7571081"
 - 您想要尽快为演示仓库功能做好准备。
 - 您想要现有的物料和仓库使用仓库管理中的功能，而不是使用库存管理中的功能。
 
-此主题主要介绍这些方案中的第一个方案。 它演示了您可以如何使用配置模板将测试环境中的配置设置复制到生产环境。
+本文主要介绍这些方案中的第一个方案。 它演示了您可以如何使用配置模板将测试环境中的配置设置复制到生产环境。
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>将测试环境中的配置设置复制到生产环境
 
@@ -90,9 +90,9 @@ ms.locfileid: "7571081"
 
 **查看执行** 日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
 
-若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上的这个 3 分钟的视频：[如何使用仓库模板复制 Finance and Operations 的配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)。
+若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上关于[如何使用仓库模板复制 Finance and Operations 的配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)的 3 分钟视频。
 
-## <a name="related-topic"></a>相关主题
+## <a name="related-article"></a>相关文章
 
 [配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

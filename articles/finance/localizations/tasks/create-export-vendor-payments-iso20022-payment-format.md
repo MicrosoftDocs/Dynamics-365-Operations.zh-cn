@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac84055586eff678ea489b35198b1c2dfab13658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856458"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>使用 ISO20022 付款格式创建和导出供应商付款
 
 [!include [banner](../../includes/banner.md)]
 
-此主题说明如何在供应商付款日记帐中创建付款行，并使用 ISO2022 贷方转帐示例生成供应商付款文件。
+本文说明如何在供应商付款日记帐中创建付款行，并使用 ISO2022 贷方转帐示例生成供应商付款文件。
 
 这是五个用于演示使用电子申报配置的供应商付款流程的流程中的第五个。 使用 DEMF 演示数据来完成此示例。
 

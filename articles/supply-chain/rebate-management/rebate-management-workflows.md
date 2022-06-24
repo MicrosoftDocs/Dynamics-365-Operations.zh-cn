@@ -1,6 +1,6 @@
 ---
 title: 返点管理交易工作流
-description: 本主题说明如何设置返点管理交易工作流以审核和激活交易。
+description: 本文说明如何设置返点管理交易工作流以审核和激活交易。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869508"
 ---
 # <a name="rebate-management-deal-workflows"></a>返点管理交易工作流
 
@@ -35,7 +35,7 @@ ms.locfileid: "8687403"
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>创建和管理返点管理交易工作流
 
-若要使用返点管理交易工作流，请转到 **返点管理 \> 设置 \> 返点管理工作流**。 在此处，您可以根据需要查看、创建和更新工作流。 一次只能激活此类型的一个工作流。 有关工作流的详细信息、如何使用 **返点管理工作流** 页面以及如何创建工作流，请参阅[工作流系统概述](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md)及其相关主题。
+若要使用返点管理交易工作流，请转到 **返点管理 \> 设置 \> 返点管理工作流**。 在此处，您可以根据需要查看、创建和更新工作流。 一次只能激活此类型的一个工作流。 有关工作流的详细信息、如何使用 **返点管理工作流** 页面以及如何创建工作流，请参阅[工作流系统概述](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md)及其相关文章。
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>使用工作流激活交易
 

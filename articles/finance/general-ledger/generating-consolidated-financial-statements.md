@@ -1,6 +1,6 @@
 ---
 title: 生成合并的财务报表
-description: 此主题描述介绍可以生成合并的财务报表的各种情况。
+description: 本文描述介绍可以生成合并的财务报表的各种情况。
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846790"
 ---
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述介绍可以生成合并的财务报表的各种情况。
+本文描述介绍可以生成合并的财务报表的各种情况。
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>法人之间采用单级和多级合并
 使用财务报告进行合并最简单的方法是使用报表树聚合具有相同会计科目表和会计期间的公司的数据。 下面是使用报表树进行合并的高级步骤。
@@ -153,7 +153,7 @@ ms.locfileid: "8716514"
 ![报表定义的期间编号选项。](./media/options-report-definition-period-number.png "报表定义的期间编号选项")
 
 ## <a name="business-unit-consolidations"></a>业务单位合并
-此主题重点介绍如何在财务报告中将报告树定义和组织层次结构用于合并用途。 还可以使用报告树创建业务单位合并报表，如有关全球销售或运营的报表。 这些报表是普遍需求。 若要创建，请为要合并的每个单位选择公司和维度。 例如，在下图中，汇总业务单位的方法是在 **公司** 列（列 A）中重复输入每个公司，然后在 **维度** 列（列 D）中为每个公司指定一组部门维度值。
+本文重点介绍如何在 Financial reporting 中将报告树定义和组织层次结构用于合并用途。 还可以使用报告树创建业务单位合并报表，如有关全球销售或运营的报表。 这些报表是普遍需求。 若要创建，请为要合并的每个单位选择公司和维度。 例如，在下图中，汇总业务单位的方法是在 **公司** 列（列 A）中重复输入每个公司，然后在 **维度** 列（列 D）中为每个公司指定一组部门维度值。
 
 ![业务单位合并报表。](./media/business-unit-consolidation-reports.png "业务单位合并报表")
 
@@ -218,7 +218,7 @@ ms.locfileid: "8716514"
 
 ## <a name="additional-resources"></a>其他资源
 
-有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
+有关合并和货币折算的详细信息，请参阅本文的上级文章，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关如何输入在线合并的详细信息的更多信息，请参阅[在线财务合并](./consolidate-online.md)。
 

@@ -1,6 +1,6 @@
 ---
 title: 返点管理组
-description: 本主题介绍如何设置返点管理组。 返点管理组可在返点计算期间使用，并可附加到主记录中。
+description: 本文介绍如何设置返点管理组。 返点管理组可在返点计算期间使用，并可附加到主记录中。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e4e0fff3e60647795bda2f192a0421e9098315a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b948e994783d6ec6f00b77d12bd2594a29f6512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851527"
 ---
 # <a name="rebate-management-groups"></a>返点管理组
 

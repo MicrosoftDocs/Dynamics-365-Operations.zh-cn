@@ -1,6 +1,6 @@
 ---
 title: 清除规则
-description: 本主题提供有关清除规则和有关清除的不同报告选项的信息。
+description: 本文提供有关清除规则和有关清除的不同报告选项的信息。
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722624"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864301"
 ---
 # <a name="elimination-rules"></a>清除规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关清除规则和有关清除的不同报告选项的信息。
+本文提供有关清除规则和有关清除的不同报告选项的信息。
 
 在母法人与一家或多家法人开展业务并使用合并的财务申报时，需要清除交易记录。 合并的财务报表必须仅包含在合并的组织与该组织外的其他实体之间发生的交易记录。 因此，必须从总帐中删除或清除属于同一组织的法人之间的交易记录，以便其不显示在财务报表中。 可通过多种方式来报告清除：
 
@@ -34,7 +34,7 @@ ms.locfileid: "8722624"
 -   财务报告可用于显示某个特定行或列上的清除帐户和维度。
 -   单独的法人可用于过帐手动交易记录输入以跟踪清除。
 
-本主题重点说明在合并或清除公司中处理的清除规则。 您可以设置清除规则，以便在指定为清除的目标法人的法人中创建清除交易记录。 此目标法人称作清除法人。 清除日志可以在合并过程中生成，也可以使用清除日志方案生成。 您应该首先熟悉以下术语，然后才可以设置清除规则：
+本文重点说明在合并或清除公司中处理的清除规则。 您可以设置清除规则，以便在指定为清除的目标法人的法人中创建清除交易记录。 此目标法人称作清除法人。 清除日志可以在合并过程中生成，也可以使用清除日志方案生成。 您应该首先熟悉以下术语，然后才可以设置清除规则：
 
 -   **源法人** - 已过帐要清除金额的法人。
 -   **目标法人** - 过帐清除规则的法人。

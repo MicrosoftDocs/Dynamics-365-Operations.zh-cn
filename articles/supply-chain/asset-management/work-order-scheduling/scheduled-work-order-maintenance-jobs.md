@@ -1,6 +1,6 @@
 ---
 title: 计划的工作订单维护作业
-description: 此主题介绍资产管理中的计划的工作订单维护作业。
+description: 本文介绍资产管理中的计划的工作订单维护作业。
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 077ea3c122086ec0f06722f8f166f057ffa36ec60ec55da334c9b563210b362b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849610"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>计划的工作订单维护作业
 

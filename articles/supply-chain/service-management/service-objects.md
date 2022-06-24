@@ -1,6 +1,6 @@
 ---
 title: 服务对象概览
-description: 本主题概述了如何处理服务对象。
+description: 本文概述了如何处理服务对象。
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862402"
 ---
 # <a name="service-objects-overview"></a>服务对象概览
 
@@ -39,7 +39,7 @@ ms.locfileid: "8677665"
 
 公司 A 维护多个小公司的财务记录。 公司 A 的客户之一是当地的足球队，公司 A 每周对其进行记帐并且每年审计该俱乐部的帐户。 该俱乐部的帐户在“服务对象”窗体中设置，并且指定为服务协议中的对象。 对于该对象有两个服务协议行。 第 1 行是具有分配到行的每周间隔的每周记帐；第 2 行是具有分配到行的每年间隔的每年审计。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [创建服务对象](create-service-objects.md)
 

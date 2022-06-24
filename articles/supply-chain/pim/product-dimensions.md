@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867918"
 ---
 # <a name="product-dimensions"></a>产品维度
 
@@ -47,7 +47,7 @@ ms.locfileid: "7920515"
 
 通常使用产品配置器或基于维度的配置器创建配置维度的产品维度值。 
 
-产品版本通常是在产品在其生命周期内演进时针对特定版本创建的。 本主题后面将详细介绍产品版本。
+产品版本通常是在产品在其生命周期内演进时针对特定版本创建的。 本文后面将详细介绍产品版本。
 
 产品维度还可以在 **产品维度** 页中创建和维护，可从以下位置访问该页：
 

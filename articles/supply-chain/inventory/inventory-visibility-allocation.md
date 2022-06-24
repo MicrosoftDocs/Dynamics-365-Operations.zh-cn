@@ -1,8 +1,8 @@
 ---
-title: 库存可见性库存分配
-description: 本主题介绍如何设置和使用库存分配功能，通过此功能，您可以预留专用库存，以确保您可以获得最有利可图的渠道或客户。
+title: Inventory Visibility 库存分配
+description: 本文介绍如何设置和使用库存分配功能，通过此功能，您可以预留专用库存，以确保您可以获得最有利可图的渠道或客户。
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852496"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>库存可见性库存分配
 
@@ -98,7 +98,7 @@ ms.locfileid: "8786941"
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>将其他实际度量添加到可用于分配的计算度量
 
-要使用分配，您必须设置可用于分配的计算度量 (`@iv`.`@available_to_allocate`)。 例如，您具有 `fno` 数据源和 `onordered` 度量、`pos` 数据源和 `inbound` 度量，并且您希望对 `fno.onordered` 和 `pos.inbound` 的总现有量进行分配。 在此情况下，`@iv.@available_to_allocate` 应在公式中包含 `pos.inbound` 和 `fno.onordered`。 下面是一个示例：
+要使用分配，您必须设置可用于分配的计算度量 (`@iv.@available_to_allocate`)。 例如，您具有 `fno` 数据源和 `onordered` 度量、`pos` 数据源和 `inbound` 度量，并且您希望对 `fno.onordered` 和 `pos.inbound` 的总现有量进行分配。 在此情况下，`@iv.@available_to_allocate` 应在公式中包含 `pos.inbound` 和 `fno.onordered`。 下面是一个示例：
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ ms.locfileid: "8786941"
 
 例如，如果您使用四个组名称并将其设置为 \[`channel`、`customerGroup`、`region`、`orderType`\]，则当您调用配置更新 API 时，这些名称将对与分配相关的请求有效。
 
-### <a name="allcoation-using-tips"></a>使用提示进行分配
+### <a name="allocation-using-tips"></a>使用提示进行分配
 
-- 对于每个产品，应根据您在[产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)中设置的产品索引层次结构在同一维度级别中使用分配函数。 例如，索引层次结构为站点、位置、颜色、大小。 如果您在站点、位置、颜色级别为一个产品分配了一些数量。 下次用于分配时，还应在站点、位置、颜色级别，如果您使用站点、位置、颜色、大小级别或站点、位置级别，则数据将不一致。
+- 对于每个产品，应根据您在 [产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)中设置的产品索引层次结构在同一 *维度级别* 中使用分配函数。 例如，假设您的索引层次结构是 \[`Site`、`Location`、`Color`、`Size`\]。 如果您在维度级别 \[`Site`、`Location`、`Color`\] 为一个产品分配了一些数量，那么下次您要分配此产品时，您也应该在同一级别 \[`Site`、`Location`、`Color`\] 分配。 如果使用级别 \[`Site`、`Location`、`Color`、`Size`\] 或 \[`Site`、`Location`\]，数据将不一致。
 - 分配组名称更改不会影响服务中保存的数据。
 - 在产品具有正现有量后，应进行分配。
+- 要将产品从高 *分配级别* 组分配到子组，使用 `Reallocate` API。 例如，您有一个分配组层次结构 \[`channel`、`customerGroup`、`region`、`orderType`\]，您想要从分配组\[在线、VIP\] 分配一些产品到子分配组\[在线、VIP、EU\]，应使用 `Reallocate` API 移动数量。 如果使用 `Allocate` API，它将从虚拟公共池分配数量。
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>使用分配 API
 
@@ -295,7 +296,7 @@ ms.locfileid: "8786941"
 
 进行此调用后，产品的分配数量将减少 3。 此外，库存可见性将生成一个 `pos.inbound` = *-3* 的现有更改事件。 或者，您可以将 `pos.inbound` 值保持原样，并且仅使用分配的数量。 但是，在这种情况下，您必须创建另一个实际度量，以保留消耗的数量或使用预定义的度量 `@iv.@consumed`。
 
-在此请求中，请注意您在 comsume 请求正文中使用的实际度量应使用与计算量度中使用的修饰符类型相反的修饰符类型（加法或减法）。 因此，在此 consume 正文中，`iv.inbound` 具有的值是 `Subtraction`，而不是 `Addition`。
+在此请求中，请注意您在 consume 请求正文中使用的实际度量应使用与计算量度中使用的修饰符类型相反的修饰符类型（加法或减法）。 因此，在此 consume 正文中，`iv.inbound` 具有的值是 `Subtraction`，而不是 `Addition`。
 
 `fno` 数据源不能在 consume 正文中使用，因为我们一直声称库存可见性不能更改 `fno` 数据源的任何数据。 数据流是单向的，这意味着 `fno` 数据源的所有数量变化都必须来自您的 Supply Chain Management 环境。
 

@@ -1,6 +1,6 @@
 ---
 title: 为 Warehouse Management 移动应用中的步骤配置提升的字段
-description: 本主题介绍如何为 Warehouse Management 移动应用的任务流中的步骤提升和突出显示特定信息。
+description: 本文介绍如何为 Warehouse Management 移动应用的任务流中的步骤提升和突出显示特定信息。
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857045"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用中的步骤配置提升的字段
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> 本主题中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
+> 本文中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
 
-本主题介绍如何为 Warehouse Management 移动应用的任务流中的步骤提升和突出显示特定信息。 此功能可以帮助员工在处理流时将注意力集中在最重要的字段上。 对于每个流程中的每个步骤，管理员可以选择要提升的字段以及要突出显示的字段。
+本文介绍如何为 Warehouse Management 移动应用的任务流中的步骤提升和突出显示特定信息。 此功能可以帮助员工在处理流时将注意力集中在最重要的字段上。 对于每个流程中的每个步骤，管理员可以选择要提升的字段以及要突出显示的字段。
 
 ## <a name="enable-promoted-fields-in-your-system"></a>在系统中启用提升的字段
 
@@ -44,7 +44,7 @@ ms.locfileid: "7920315"
     - **模块**：*仓库管理*
     - **功能名称**：*仓库应用提升的字段*
 
-    此功能是此主题中介绍的功能。
+    此功能是本文中介绍的功能。
 
 1. 通过转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
 1. 对您使用 Warehouse Management 移动应用的每个法人（公司）重复上一步。
@@ -56,7 +56,7 @@ ms.locfileid: "7920315"
 1. 为相关的菜单和步骤创建特定于菜单的替代，如[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)中所述。
 1. 查找要编辑的 **步骤 ID** 与 **菜单项名称** 值组合，然后选择 **步骤 ID** 列中的值。
 1. 在显示的页面上，在 **选择提升的字段** 快速选项卡上，选择工具栏上的 **选择字段**。
-1. 在 **提升的字段** 对话框中，选择要提升的字段。 您还可以突出显示最多两个选定的字段。 突出显示的字段在 Warehouse Management 移动应用中将以粗体显示。 当您选择字段时，应考虑到有些屏幕可能足够大，会仅显示前一到两个提升的字段。 有关显示如何使用这些设置的示例，请参阅本主题后面的场景。
+1. 在 **提升的字段** 对话框中，选择要提升的字段。 您还可以突出显示最多两个选定的字段。 突出显示的字段在 Warehouse Management 移动应用中将以粗体显示。 当您选择字段时，应考虑到有些屏幕可能足够大，会仅显示前一到两个提升的字段。 有关显示如何使用这些设置的示例，请参阅本文后面的场景。
 
     > [!NOTE]
     > **可用字段** 列表仅限于可以为菜单项显示的字段。 但是，其他因素（如物料构成）将确定字段是否实际显示在 Warehouse Management 移动应用中。 如果您已配置提升的字段，则仅选定的字段会显示在 Warehouse Management 移动应用的主页上。 不过，工作人员仍可以通过点击详细信息页查看其余字段。

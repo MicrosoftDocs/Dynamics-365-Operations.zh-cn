@@ -1,6 +1,6 @@
 ---
-title: 库存可见性提示
-description: 本主题提供了您在设置和使用库存可见性加载项时应考虑的一些提示。
+title: Inventory Visibility 提示
+description: 本文提供了您在设置和使用库存可见性加载项时应考虑的一些提示。
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885948"
 ---
 # <a name="inventory-visibility-tips"></a>库存可见性提示
 
@@ -34,5 +34,6 @@ ms.locfileid: "7952407"
 - 如果您在 Supply Chain Management 环境中添加一个或多个新度量，还应在“库存可见性”中添加它们。 但是，新度量的所有数量变化必须来自您的 Supply Chain Management 环境。
 - 当前，[分区配置](inventory-visibility-configuration.md#partition-configuration)由两个基本维度（`SiteId` 和 `LocationId`）组成，这两个维度指示数据的分配方式。 同一分区下的操作可以以更低的成本提供更高的性能。 默认情况下，该解决方案包括此分区配置。 因此，*您不必亲自定义它*。 不自定义默认分区配置。 如果删除或更改它，则可能会导致意外错误。
 - 不应在[产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)中定义在分区配置中定义的基础维度。
+- 您的[产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)必须至少包括一个索引层次结构（例如，包含基础维度 `Empty`），否则查询将失败，显示错误“尚未设置索引层次结构”。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

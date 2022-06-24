@@ -1,6 +1,6 @@
 ---
-title: 项目开单
-description: 本主题提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
+title: 项目开票
+description: 本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
 author: TaylorVH
 ms.date: 07/10/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bdb5c9162ab85632c8780a737df0998e4cd34f0c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861667"
 ---
-# <a name="project-invoicing"></a>项目开单
+# <a name="project-invoicing"></a>项目开票
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
+本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
 
 项目类型确定应该应用哪一开票过程。 只能对两个外部项目类型（时间和材料以及固定价格）进行开票。 时间和材料项目以及固定价格项目始终附加到项目合同。
 

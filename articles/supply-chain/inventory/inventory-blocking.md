@@ -1,6 +1,6 @@
 ---
 title: 库存锁定
-description: 本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+description: 本文提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: yufeihuang
 ms.date: 03/02/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857799"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本文提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 

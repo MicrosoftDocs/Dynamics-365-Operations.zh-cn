@@ -1,6 +1,6 @@
 ---
 title: 仓库对采购订单入站负荷的处理
-description: 此主题介绍仓库对采购订单入站负荷的处理流程。
+description: 本文介绍仓库对采购订单入站负荷的处理流程。
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855923"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍仓库对采购订单入站负荷的处理流程。
+本文介绍仓库对采购订单入站负荷的处理流程。
 
 对于每项入站负荷，系统中应该已经有了一个相关采购订单，并且还可能有相关负荷规范和/或运输计划。 有关如何创建和管理入站负荷的详细信息，请参阅[业务流程：计划入站负荷的运输](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads)。
 
@@ -209,7 +209,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 | 是 | 无更新 | _已接收_ 如果登记的负荷数量总数等于或大于负荷数量 | |
 | 是 | 无更新 | _已装运_ 或 _进行中_，如果登记的负荷数量总数小于负荷数量 | |
 
-**负荷状态** 字段设置为 _已接收_ 之后，不能再对该负荷进行物料收货过帐。 但是，在以下情况下，工作人员可以对收到的负荷登记剩余订单数量。 （有关详细信息，请参阅本主题前文的[负荷超收](#load-over-receiving)部分。）
+**负荷状态** 字段设置为 _已接收_ 之后，不能再对该负荷进行物料收货过帐。 但是，在以下情况下，工作人员可以对收到的负荷登记剩余订单数量。 （有关详细信息，请参阅本文前面的[负荷超收](#load-over-receiving)一节。）
 
 - Supply Chain Management 版本低于版本 10.0.11。
 - 已开启 _负荷数量超收_ 功能，并且负荷物料收货操作的移动设备菜单项中的 **订单行数量超收** 字段设置为 _允许_。

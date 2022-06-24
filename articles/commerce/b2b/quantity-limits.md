@@ -1,6 +1,6 @@
 ---
 title: 设置 B2B 电子商务站点的产品数量限制
-description: 本主题介绍如何为企业到企业 (B2B) 电子商务站点设置产品数量限制。
+description: 本文介绍如何为企业到企业 (B2B) 电子商务站点设置产品数量限制。
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876997"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>设置 B2B 电子商务站点的产品数量限制
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为企业到企业 (B2B) 电子商务站点设置产品数量限制。
+本文介绍如何为企业到企业 (B2B) 电子商务站点设置产品数量限制。
 
 大多数产品都有一个定义其分组的度量单位。 分组将影响产品的销售方式。 有些产品可能还有额外的数量分组。 此分组确定产品是单个还是多个出售，以及是否有必须遵循的最小或最大订购数量限制。
 

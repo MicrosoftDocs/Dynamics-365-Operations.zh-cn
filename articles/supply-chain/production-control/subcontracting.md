@@ -1,6 +1,6 @@
 ---
 title: 转包
-description: 此主题帮助您在 Dynamics 365 Supply Chain Management 中的制造内构建转包演练。
+description: 本文帮助您在 Dynamics 365 Supply Chain Management 中的制造内构建转包演练。
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854168"
 ---
 # <a name="subcontracting"></a>转包
 
 [!include [banner](../includes/banner.md)]
 
-此主题帮助您在 Microsoft Dynamics 365 Supply Chain Management 中的制造内构建转包演练。 本主题的第一部分介绍如何设置数据。 第二部分引导您完成演练中的步骤。
+本文帮助您在 Microsoft Dynamics 365 Supply Chain Management 中的制造内构建转包演练。 本文的第一部分介绍如何设置数据。 第二部分引导您完成演练中的步骤。
 
 ## <a name="target-audience"></a>目标对象
 
-在本主题中，将学习如何在制造中设置转包。 将使用 HQUS 法人中的现有数据对转包活动流进行基本设置。 HQUS 法人中的演示数据包括预设的设置参数，用于为演练中的步骤提供支持。 接管演练针对各种角色面临的关键痛点和挑战，仍然可以由系统管理员完成。
+在本文中，将学习如何在制造中设置转包。 将使用 HQUS 法人中的现有数据对转包活动流进行基本设置。 HQUS 法人中的演示数据包括预设的设置参数，用于为演练中的步骤提供支持。 接管演练针对各种角色面临的关键痛点和挑战，仍然可以由系统管理员完成。
 
 ## <a name="demo-scenario"></a>演示方案
 

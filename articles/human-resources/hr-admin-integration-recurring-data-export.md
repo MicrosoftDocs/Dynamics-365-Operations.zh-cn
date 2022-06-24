@@ -1,6 +1,6 @@
 ---
 title: 创建定期数据导出应用
-description: 本主题介绍如何创建按重复执行的计划从 Microsoft Dynamics 365 Human Resources 导出数据的 Microsoft Azure 逻辑应用。
+description: 本文介绍如何创建按重复执行的计划从 Microsoft Dynamics 365 Human Resources 导出数据的 Microsoft Azure 逻辑应用。
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875820"
 ---
 # <a name="create-a-recurring-data-export-app"></a>创建定期数据导出应用
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688762"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍如何创建按重复执行的计划从 Microsoft Dynamics 365 Human Resources 导出数据的 Microsoft Azure 逻辑应用。 本教程利用 Human Resources 的 DMF 包 REST 应用程序编程接口 (API) 来导出数据。 导出数据后，逻辑应用将导出的数据包保存到 Microsoft OneDrive for Business 文件夹。
+本文介绍如何创建按重复执行的计划从 Microsoft Dynamics 365 Human Resources 导出数据的 Microsoft Azure 逻辑应用。 本教程利用 Human Resources 的 DMF 包 REST 应用程序编程接口 (API) 来导出数据。 导出数据后，逻辑应用将导出的数据包保存到 Microsoft OneDrive for Business 文件夹。
 
 ## <a name="business-scenario"></a>业务方案
 

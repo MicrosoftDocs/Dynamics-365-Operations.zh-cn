@@ -1,6 +1,6 @@
 ---
-title: Cookie 合规
-description: 本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
+title: Cookie 合规性
+description: 本文介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 author: BrianShook
 ms.date: 03/10/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
-ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.openlocfilehash: 6a96ba21f1872b41156768fb7277933e68a16d90
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "8403139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863531"
 ---
 # <a name="cookie-compliance"></a>Cookie 合规性
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
+本文介绍 Cookie 合规注意事项以及 Microsoft Dynamics 365 Commerce 中包含的默认政策。
 
 当跟踪影响电子商务客户的技术时，隐私是一个重要因素。 由于诸如欧盟 (EU) 的一般数据保护条例 (GDPR) 等隐私合规标准，今天处于活动状态的任何站点都必须考虑电子隐私准则。 由于默认情况下许多电子商务站点在全球范围内都可以访问，因此审查电子商务站点的合规标准很重要。
 

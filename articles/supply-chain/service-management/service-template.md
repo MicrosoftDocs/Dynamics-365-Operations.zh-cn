@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f7c99e56751230a7b8881dc55c1d460674cc6f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850472"
 ---
 # <a name="service-templates"></a>服务模板
 
@@ -52,7 +52,7 @@ ms.locfileid: "8669984"
 
 如果您已基于反映模板用途的名称对模板进行分组，则可以更容易地确定要复制哪些服务模板行。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [复制服务模板行](copy-service-template-lines.md)
 

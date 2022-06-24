@@ -1,6 +1,6 @@
 ---
 title: 使用客户层次结构管理 B2B 业务合作伙伴
-description: 本主题介绍如何使用客户层次结构来管理 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的业务合作伙伴。
+description: 本文介绍如何使用客户层次结构来管理 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的业务合作伙伴。
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864973"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>使用客户层次结构管理 B2B 业务合作伙伴
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何使用客户层次结构来管理 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的业务合作伙伴。
+本文介绍如何使用客户层次结构来管理 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的业务合作伙伴。
 
 在 Commerce Headquarters 中，*客户层次结构* 实体用于代表将使用您的 B2B 电子商务站点的业务合作伙伴组织。 在开始使用客户层次结构管理业务合作伙伴之前，您必须在 Commerce headquarters 中启用 B2B 电子商务功能，然后为客户层次结构定义编号规则。
 

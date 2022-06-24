@@ -1,6 +1,6 @@
 ---
-title: 为生成的单据指定自定义存储位置
-description: 本主题介绍如何扩展电子申报 (ER) 格式生成的单据的存储位置列表。
+title: 为生成的文档指定自定义存储位置
+description: 本文介绍如何扩展电子报告 (ER) 格式生成的单据的存储位置列表。
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864737"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 
 [!include[banner](../includes/banner.md)]
 
-电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。 本主题中包含有关必须完成才能添加自定义存储位置的主要任务的概述。
+电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。 本文中包含有关必须完成才能添加自定义存储位置的主要任务的概述。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -118,7 +118,7 @@ public DocuRef insertFile(
 ## <a name="configure-an-er-destination"></a>配置 ER 目标
 
 1. 为创建或导入的 ER 格式的之前介绍的一个元素（文件、文件夹、合并器或附件）配置存档目标。 有关指南，请参阅 [ER 配置目标](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11)。
-2. 请使用前面为配置的目标添加的单据类型。 （例如，在本主题中，单据类型为 **FileX**。）
+2. 请使用前面为配置的目标添加的单据类型。 （例如，在本文中，单据类型为 **FileX**。）
 
 ![“目标设置”对话框。](media/er-extend-file-storages-destination.png)
 

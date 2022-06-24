@@ -1,6 +1,6 @@
 ---
 title: 耗用原则
-description: 本主题描述为原材料消耗量使用的四个耗用原则。
+description: 本文描述为原材料消耗量使用的四个耗用原则。
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f644f26098bf7ac7d13292d6fbabb09a488d61e29fcd5fbd3cf0d261f0529bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849291"
 ---
 # <a name="flushing-principles"></a>耗用原则
 

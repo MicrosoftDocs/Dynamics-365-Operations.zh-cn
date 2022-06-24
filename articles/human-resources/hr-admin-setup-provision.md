@@ -1,6 +1,6 @@
 ---
 title: 预配 Human Resources
-description: 此主题介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。
+description: 本文介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858234"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710854"
 
 
 
-此主题介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。 
+本文介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。 
 
 ## <a name="prerequisites"></a>先决条件
 
 必须先满足以下先决条件，才能预配新的生产环境：
 
-- 您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
+- 您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 如果您有已包括 Human Resources 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本文中的步骤，请联系支持人员。
 
 - 全局管理员已登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Human Resources 项目。 
 

@@ -1,6 +1,6 @@
 ---
-title: 将筛选器应用于计划
-description: 本主题说明使用计划优化功能时如何对计划使用筛选器。
+title: 为计划应用筛选器
+description: 本文说明使用计划优化功能时如何对计划使用筛选器。
 author: t-benebo
 ms.date: 01/08/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8679844ea40dd5af74102c37ab1e7d10b0681a0f
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c2df379be0876225bc7b0301d21f4e6660b04eb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875295"
 ---
 # <a name="apply-filters-to-a-plan"></a>将筛选器应用于计划
 

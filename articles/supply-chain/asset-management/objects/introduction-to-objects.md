@@ -1,6 +1,6 @@
 ---
 title: 资产简介
-description: 本主题概述资产管理中的资产。
+description: 本文概述资产管理中的资产。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874179"
 ---
 # <a name="introduction-to-assets"></a>资产简介
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767500"
 
  
 
-本主题概述资产管理中的资产。 *资产* 是需要维护，服务或维修的任何类型的设备，如机器或机器部件。
+本文概述资产管理中的资产。 *资产* 是需要维护，服务或维修的任何类型的设备，如机器或机器部件。
 
-将使用相关信息自动更新资产。 例如，这些相关信息可能与新的或更新后的工作订单有关。 可使用 **所有资产** 菜单项或 **暂挂资产** 菜单项创建资产。 本主题介绍如何使用 **所有资产** 菜单项创建资产。 有关如何使用 **暂挂资产** 菜单项创建资产的信息，请参阅[基于采购订单创建资产](../objects/create-objects-based-on-purchase-orders.md)。
+将使用相关信息自动更新资产。 例如，这些相关信息可能与新的或更新后的工作订单有关。 可使用 **所有资产** 菜单项或 **暂挂资产** 菜单项创建资产。 本文介绍如何使用 **所有资产** 菜单项创建资产。 有关如何使用 **暂挂资产** 菜单项创建资产的信息，请参阅[基于采购订单创建资产](../objects/create-objects-based-on-purchase-orders.md)。
 
 ## <a name="all-assets"></a>所有资产
 

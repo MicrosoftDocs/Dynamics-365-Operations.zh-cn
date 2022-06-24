@@ -1,6 +1,6 @@
 ---
-title: 自动化供应商开票流程概述
-description: 本主题描述了自动化供应商发票处理的功能以及使用自动化流程的好处。
+title: 供应商自动开票流程概览
+description: 本文描述了自动化供应商发票处理的功能以及使用自动化流程的好处。
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883436"
 ---
-# <a name="automated-vendor-invoicing-processes-overview"></a>自动化供应商开票流程概述
+# <a name="automated-vendor-invoicing-processes-overview"></a>供应商自动开票流程概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述了自动化供应商发票处理的功能以及使用自动化流程的好处。 此功能包含在功能管理中启用的功能。 这些功能仅适用于供应商发票，不适用于使用 **发票日记帐** 或 **发票登记薄日记帐** 页面处理的发票。
+本文描述了自动化供应商发票处理的功能以及使用自动化流程的好处。 此功能包含在功能管理中启用的功能。 这些功能仅适用于供应商发票，不适用于使用 **发票日记帐** 或 **发票登记薄日记帐** 页面处理的发票。
 
 组织通常与第三方合作，使用光学字符识别 (OCR) 服务提供商处理纸质发票。 服务提供商返回机器可读的发票元数据。 为了帮助实现自动化，应付帐款自动化功能使您可以从应付帐款中使用这些项目。
 

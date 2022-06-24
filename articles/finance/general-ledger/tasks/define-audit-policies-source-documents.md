@@ -1,6 +1,6 @@
 ---
-title: 定义原始凭证的审计策略
-description: 此主题介绍如何设置和运行审计政策规则。
+title: 定义原始单据的审计策略
+description: 本文介绍如何设置和运行审计政策规则。
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872519"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>定义原始凭证的审计策略
+# <a name="define-audit-policies-for-source-documents"></a>定义原始单据的审计策略
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何设置和运行审计政策规则。 本例使用含酒店费用类型的费用报表。 该程序适用于 USMF 演示公司。 审计角色包含执行这些任务的正确权限。
+本文介绍如何设置和运行审计政策规则。 本例使用含酒店费用类型的费用报表。 该程序适用于 USMF 演示公司。 审计角色包含执行这些任务的正确权限。
 
 1. 在导航窗格中，转到 **模块 > 审计工作台 > 设置 > 策略规则类型**。
 2. 选择 **新建**。

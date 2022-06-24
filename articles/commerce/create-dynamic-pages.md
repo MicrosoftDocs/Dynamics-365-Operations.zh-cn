@@ -1,6 +1,6 @@
 ---
 title: 根据 URL 参数创建动态电子商务页面
-description: 本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
+description: 本文介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884655"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>根据 URL 参数创建动态电子商务页面
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
+本文介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 
 可以基于 URL 路径中的段将电子商务页面配置为提供不同的内容。 因此，该页面称为动态页面。 段用作检索页面内容的参数。 例如，在站点生成器中创建并命名为 **博客\_查看者** 的页面被映射到 URL `https://fabrikam.com/blog`。 然后可以基于 URL 路径中的最后一个段使用此页面来显示不同的内容。 例如，URL `https://fabrikam.com/blog/article-1` 中的最后一个段是 **article-1**。
 

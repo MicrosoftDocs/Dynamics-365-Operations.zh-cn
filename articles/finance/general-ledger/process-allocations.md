@@ -1,6 +1,6 @@
 ---
 title: 处理分配
-description: 本主题提供有关分配、在 Microsoft Dynamics 365 Finance 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
+description: 本文提供有关分配、在 Microsoft Dynamics 365 Finance 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877974"
 ---
 # <a name="process-allocations"></a>处理分配
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关分配、处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
+本文提供有关分配、处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
 
 以下功能支持此流程：
 

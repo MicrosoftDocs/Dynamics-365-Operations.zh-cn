@@ -1,6 +1,6 @@
 ---
 title: 信用和收款概览
-description: 此主题概要介绍信用和收款的功能。
+description: 本文概要介绍信用和收款的功能。
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cf6f6d1f76280698571eac3f023667d29723585
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 72a5ae9330be1b5b8284c12dd7974e1b7e479ebb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845336"
 ---
 # <a name="credit-and-collections-overview"></a>信用和收款概览
 

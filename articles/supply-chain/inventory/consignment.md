@@ -1,6 +1,6 @@
 ---
 title: 设置托运
-description: 本主题介绍如何使用入站托运库存流程。
+description: 本文介绍如何使用入站托运库存流程。
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872027"
 ---
 # <a name="set-up-consignment"></a>设置托运
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何使用入站托运库存流程。
+本文介绍如何使用入站托运库存流程。
 
-托运库存是由供应商所拥有，但存储在您的站点的库存。 在您准备好消耗或使用库存时，您接过库存的所有权。 本主题包括关于如何在不创建总帐交易记录的情况下实际接收供应商拥有的现有库存，如何开始可以实际预留供应商拥有的库存的生产流程。 以及如何更改原材料所有权以便能够在生产订单处理中处理消耗量的信息。 还提供了关于供应商如何使用供应商协作界面监控库存消耗量的一些信息。
+托运库存是由供应商所拥有，但存储在您的站点的库存。 在您准备好消耗或使用库存时，您接过库存的所有权。 本文包括关于如何在不创建总帐交易记录的情况下实际接收供应商拥有的现有库存，如何开始可以实际预留供应商拥有的库存的生产流程。 以及如何更改原材料所有权以便能够在生产订单处理中处理消耗量的信息。 还提供了关于供应商如何使用供应商协作界面监控库存消耗量的一些信息。
 
 ## <a name="overview-of-the-consignment-process"></a>托运流程概述
 

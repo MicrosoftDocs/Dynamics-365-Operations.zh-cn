@@ -1,6 +1,6 @@
 ---
 title: 计划您的会计科目表
-description: 本主题提供将帮助您为您的组织计划会计科目表的信息。
+description: 本文提供将帮助您为您的组织计划会计科目表的信息。
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853339"
 ---
 # <a name="plan-your-chart-of-accounts"></a>计划您的会计科目表
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供将帮助您为您的组织计划会计科目表的信息。
+本文提供将帮助您为您的组织计划会计科目表的信息。
 
 若要跟踪和维护组织的财务信息，您可以设置会计科目表。 会计科目表是定义一个财务框架的帐户的集合。 若要进一步跟踪这些科目中的交易记录，可添加细分市场。 这些细分市场称为财务维度。 例如，支出帐户可能包括名为“部门”、“成本中心”和“用途”的财务维度。 用户定义的规则确定财务维度如何附加到主科目和其他财务维度以及如何输入交易记录。 这些用户定义的规则称为科目结构和高级规则。
 

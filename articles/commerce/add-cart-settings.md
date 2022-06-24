@@ -1,6 +1,6 @@
 ---
 title: 应用“将产品添加到购物车”设置
-description: 本主题介绍“将产品添加到购物车”设置和如何在 Microsoft Dynamics 365 Commerce 中应用它们。
+description: 本文介绍“将产品添加到购物车”设置和如何在 Microsoft Dynamics 365 Commerce 中应用它们。
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866022"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>应用“将产品添加到购物车”设置
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 **将产品添加到购物车** 设置和如何在 Microsoft Dynamics 365 Commerce 中应用它们。
+本文介绍 **将产品添加到购物车** 设置以及如何在 Microsoft Dynamics 365 Commerce 中应用它们。
 
 当在 Dynamics 365 Commerce 电子商务站点上将产品添加到购物车时，将支持不同的工作流。 例如，站点用户可能会转到购物车页面。 或者，用户可能留在当前页面上，但会收到确认产品已添加到购物车的通知。
 

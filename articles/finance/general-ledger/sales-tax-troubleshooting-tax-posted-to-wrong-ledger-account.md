@@ -1,6 +1,6 @@
 ---
-title: 税款过帐到凭证中错误的会计科目
-description: 本主题提供可以在税款过帐到凭证中错误的会计科目时提供帮助的故障排除信息。
+title: 税款过帐到了凭证中的错误会计科目
+description: 本文提供可以在税款过帐到凭证中错误的会计科目时提供帮助的故障排除信息。
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846732"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>税款过帐到凭证中错误的会计科目
 
 [!include [banner](../includes/banner.md)]
 
-过帐期间，税款可能被过帐到凭证中错误的会计科目。 要解决此问题，请根据需要按照以下各节中的步骤操作。 本主题中的示例使用销售订单作为业务文档。
+过帐期间，税款可能被过帐到凭证中错误的会计科目。 要解决此问题，请根据需要按照以下各节中的步骤操作。 本文中的示例使用销售订单作为业务文档。
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>查找错误过帐的税收交易的税代码
 

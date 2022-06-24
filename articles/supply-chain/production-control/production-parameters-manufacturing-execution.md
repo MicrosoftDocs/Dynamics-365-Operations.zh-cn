@@ -1,6 +1,6 @@
 ---
 title: 制造执行中的生产参数
-description: 此主题提供与设置制造执行中的生产参数有关的信息。
+description: 本文提供与设置制造执行中的生产参数有关的信息。
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873657"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>制造执行中的生产参数
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供与设置制造执行中的生产参数有关的信息。
+本文提供与设置制造执行中的生产参数有关的信息。
 
 **制造执行** 模块主要用于制造公司。 它可用于登记生产作业或项目上的时间和物料消耗。 在您开始使用作业登记的制造执行前，您必须设置定义在生产过程中过账登记的方式和时间的各种生产参数。 生产参数的设置影响库存管理、生产管理和成本计算。
 

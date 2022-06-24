@@ -1,6 +1,6 @@
 ---
 title: 盘点仓库中的库存
-description: 本主题介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。
+description: 本文介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。
 author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c8712b88867dc4be48bbdb4b905993e3ccbc73f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870628"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。 该过程适用于“基础仓储”功能，在库存管理模块可用，在仓库管理模块的仓储功能不可用。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 如果您使用自己的数据，确保您有产品和库位设置，并且您为盘点日记帐创建了库存日记帐名称。 库存盘点通常由仓管人员执行。
+本文介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。 该过程适用于“基础仓储”功能，在库存管理模块可用，在仓库管理模块的仓储功能不可用。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 如果您使用自己的数据，确保您有产品和库位设置，并且您为盘点日记帐创建了库存日记帐名称。 库存盘点通常由仓管人员执行。
 
 
 ## <a name="create-an-inventory-counting-journal"></a>创建库存盘点日记帐

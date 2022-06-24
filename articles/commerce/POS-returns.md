@@ -1,6 +1,6 @@
 ---
 title: 在 POS 中创建退货
-description: 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中为现金和结转交易或客户订单启动退货。
+description: 本文介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序中为现金和结转交易或客户订单启动退货。
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856990"
 ---
 # <a name="create-returns-in-pos"></a>在 POS 中创建退货
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用中为现金和结转交易或客户订单启动退货。
+本文介绍了如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用中为现金和结转交易或客户订单启动退货。
 
 > [!NOTE]
 > 在 Commerce 版本 10.0.20 及更高版本中，提供了名为 **POS 中的统一退货处理体验** 的新功能。 此功能在 POS 中提供更加一致和统一的退货流程，无论交易类型（现金和结转交易或客户订单）或创建订单的原始渠道如何。 我们建议所有组织都打开此新功能，以帮助提高通过 POS 进行退货处理的整体可靠性。

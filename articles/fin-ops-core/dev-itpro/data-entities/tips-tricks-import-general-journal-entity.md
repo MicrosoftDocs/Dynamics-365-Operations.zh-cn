@@ -1,6 +1,6 @@
 ---
 title: 使用普通日记帐实体导入凭证
-description: 本主题提供使用普通日记帐实体将数据导入到普通日记帐的建议。
+description: 本文提供使用普通日记帐实体将数据导入到普通日记帐的建议。
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867602"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>使用普通日记帐实体导入凭证
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065062"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题提供使用普通日记帐实体将数据导入到普通日记帐的建议。
+本文提供使用普通日记帐实体将数据导入到普通日记帐的建议。
 
 您可以使用一般日记帐实体导入类型为 **分类帐**、**客户**、**供应商** 或 **银行** 的科目或对方科目。 凭证可以同时使用 **科目** 字段和 **对方科目** 字段输入为一行，也可以输入为多行凭证，这种情况下仅使用 **科目** 字段（每行中将 **对方科目** 保留为空。） 普通日记帐实体并非支持每个科目类型。 相反，其他实体在需要帐户类型的不同组合的情况下存在。 例如，要导入项目交易记录，请使用项目费用日记帐实体。 每个实体用于支持特定方案。 这意味着实体中可能为这些方案提供其他字段。 但是，实体中可能不提供用于不同方案的其他字段。
 

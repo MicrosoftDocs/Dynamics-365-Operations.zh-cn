@@ -1,6 +1,6 @@
 ---
 title: 直接在 Sales 和 Supply Chain Management 之间同步销售订单
-description: 本主题讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
+description: 本文讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854143"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>直接在 Sales 和 Supply Chain Management 之间同步销售订单
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061510"
 
 
 
-本主题讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
+本文讨论用于在 Dynamics 365 Sales 与 Dynamics 365 Supply Chain Management 之间直接运行销售订单同步的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -203,7 +203,7 @@ Sales 中的折扣计算模型不同于 Supply Chain Management。 在 Supply Ch
 
 [![数据集成中的模板映射，销售订单（Sales 到 Supply Chain Management）- 直接：OrderLine。](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [目标客户到现金](prospect-to-cash.md)
 

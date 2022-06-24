@@ -1,6 +1,6 @@
 ---
 title: 创建费用代码
-description: 本主题介绍如何为应付帐款和应收帐款配置费用代码。
+description: 本文介绍如何为应付帐款和应收帐款配置费用代码。
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866074"
 ---
 # <a name="create-charges-codes"></a>创建费用代码
 
-本主题介绍如何为应付帐款和应收帐款配置费用代码。 如果您的组织要求跟踪销售金额或采购金额，以及销售订单或采购订单上的行物料，则可以为此目的使用费用代码。 例如，您支付采购订单上的运费和保险费；并且，这些金额在采购订单上单独详细列出。 在此情况下，您可以指定这些金额是已过帐到支出帐户，还是已添加到物料成本。
+本文介绍如何为应付帐款和应收帐款配置费用代码。 如果您的组织要求跟踪销售金额或采购金额，以及销售订单或采购订单上的行物料，则可以为此目的使用费用代码。 例如，您支付采购订单上的运费和保险费；并且，这些金额在采购订单上单独详细列出。 在此情况下，您可以指定这些金额是已过帐到支出帐户，还是已添加到物料成本。
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>设置应收帐款的费用代码
 

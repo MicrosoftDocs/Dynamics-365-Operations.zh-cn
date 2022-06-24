@@ -1,6 +1,6 @@
 ---
 title: 添加内容的方法
-description: 本主题提供概述和部分链接，以说明在何处以及如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集开始管理内容。
+description: 本文提供概述和部分链接，以说明在何处以及如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集开始管理内容。
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871746"
 ---
 # <a name="ways-to-add-content"></a>添加内容的方法
 
 [!include [banner](includes/banner.md)]
 
-本主题提供概述，以及关于如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集管理内容的文档链接。
+本文提供概述，以及关于如何使用 Microsoft Dynamics 365 Commerce 站点构建器 Web 创作工具集管理内容的文档链接。
 
 可通过多种方法更改站点的外观和内容。 根据所需的自定义级别，这些更改中的许多更改可以由非开发人员在站点构建器（随 Dynamics 365 Commerce 附带的 Web 编写工具集）中实施。 使用站点构建器，无需编写任何代码即可构建模板、选择主题以及选择和配置模块。 相反，需要开发技能才能新建主题或模块，因为必须使用电子商务软件开发套件 (SDK) 和 Microsoft Dynamics Lifecycle Services (LCS) 部署工作流。
 
-以下主题是很好的起点，可以帮助您开始了解如何添加和管理站点内容。 所列出的大多数主题重点介绍了无需开发人员的站点区域。 一些解决了基本内容编辑问题，而另一些则侧重于站点管理员任务。 这些主题中的每一个都表示可能需要进行 SDK 工作的特定任务。 每个主题都假定您已经预配了一个站点，并被授予访问该站点的站点构建器工具集的权限。
+以下文章是很好的起点，可以帮助您开始了解如何添加和管理站点内容。 所列出的大多数文章重点介绍了无需开发人员的站点区域。 一些解决了基本内容编辑问题，而另一些则侧重于站点管理员任务。 这些文章中的每一篇文章都表示可能需要进行 SDK 工作的特定任务。 每篇文章都假定您已经预配了一个站点，并被授予访问该站点的站点构建器工具集的权限。
 
-选择以下主题之一以开始操作。
+选择以下文章之一开始。
 
 - 要熟悉站点构建器和本文档中使用的内容管理术语，请参阅[页面模型词汇表](page-elements-overview.md)。
 - 要了解如何在内容管理工作流程中使用模块，请参阅[使用模块](work-with-modules.md)。

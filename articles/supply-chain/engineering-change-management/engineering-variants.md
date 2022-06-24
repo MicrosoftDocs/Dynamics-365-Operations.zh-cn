@@ -1,6 +1,6 @@
 ---
 title: 生成工程产品的变型
-description: 本主题介绍如何生成工程产品的变型
+description: 本文介绍如何生成工程产品的变型
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -10,22 +10,22 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 08feb66dedfa79f5a21a7723a22f3bef883431e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870744"
 ---
 # <a name="generate-variants-for-engineering-products"></a>生成工程产品的变型
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何生成工程产品的变型。
+本文介绍如何生成工程产品的变型。
 
 ## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>打开或关闭为工程产品生成变型
 
-本主题中描述的功能需要您的系统同时启用 *工程更改管理* 和 *为工程产品生成变型* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
+本文中描述的功能需要您的系统同时启用 *工程更改管理* 和 *为工程产品生成变型* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>生成工程产品的一个或多个新变型
 

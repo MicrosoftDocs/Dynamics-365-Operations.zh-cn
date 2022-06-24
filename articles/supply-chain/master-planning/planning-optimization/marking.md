@@ -1,6 +1,6 @@
 ---
 title: 通过计划优化进行库存标记
-description: 本主题提供有关可用于在使用计划优化时在确认订单中标记库存的选项的信息。
+description: 本文提供有关可用于在使用计划优化时在确认订单中标记库存的选项的信息。
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8d06527d125837b056729574517ca5ed6738fcff
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844458"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>通过计划优化进行库存标记
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供有关可用于在使用计划优化时在确认订单中标记库存的选项的信息。
+本文提供有关可用于在使用计划优化时在确认订单中标记库存的选项的信息。
 
 *标记* 用于链接供应和需求。 它类似于 *限定标准*，指示主计划预计如何满足需求。 从计划的角度看，主要区别在于标记比限定标准更具永久性。
 

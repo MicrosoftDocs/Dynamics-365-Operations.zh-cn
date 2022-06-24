@@ -1,6 +1,6 @@
 ---
-title: 直线法剩余年限折旧
-description: 本主题提供直线法（剩余年限）折旧方法的概述。
+title: 剩余年限法折旧
+description: 本文提供了直线法（剩余年限）折旧方法的概览。
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853429"
 ---
-# <a name="straight-line-life-remaining-depreciation"></a>直线法剩余年限折旧
+# <a name="straight-line-life-remaining-depreciation"></a>剩余年限法折旧
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供直线法（剩余年限）折旧方法的概述。
+本文提供了直线法（剩余年限）折旧方法的概览。
 
 在设置固定资产折旧模板并在 **折旧模板** 页的 **方法** 字段中选择 **直线法（剩余年限）** 时，分配给该折旧模板的固定资产折旧将基于资产的剩余使用年限。 通常，每个折旧期间的折旧金额相同。 若要设置直线法（剩余年限）折旧，您还必须在 **折旧模板** 页面上的 **折旧年份** 字段和 **期间频率** 字段中选择选项。 **期间频率** 字段中提供的选项因 **折旧年份** 字段中所选的值而异。
 
@@ -35,7 +35,7 @@ ms.locfileid: "8726688"
 
 ### <a name="calendar"></a>日历
 
-如果在 **_折旧年份_*_字段中选择 **日历**，即使对会计日历作了不同定义，仍然假设一年的起止时间为 1 月 1 日到 12 月 31 日。_* 日历** 选项在每年的 1 月 1 日更新折旧基数。 通常，折旧基数是帐面净值减去残值。 在此主题后面的示例中，折旧基数是计算列中第一个表达式的分子。 如果选择 **日历** 作为折旧年份，则 **期间频率** 字段中提供以下选项：
+如果在 **_折旧年份_*_字段中选择 **日历**，即使对会计日历作了不同定义，仍然假设一年的起止时间为 1 月 1 日到 12 月 31 日。_* 日历** 选项在每年的 1 月 1 日更新折旧基数。 通常，折旧基数是帐面净值减去残值。 在本文后面的示例中，折旧基数是计算列中第一个表达式的分子。 如果选择 **日历** 作为折旧年份，则 **期间频率** 字段中提供以下选项：
 
 - **每年** 在 12 月 31 日过帐金额。
 - **每月** 在每个日历月末过帐每月金额。

@@ -1,6 +1,6 @@
 ---
 title: 设备、市场和地理位置目标定位
-description: 本主题介绍如何使用设备、市场和地理位置信息在 Microsoft Dynamics 365 Commerce 站点生成器中创建、编辑和管理受众和目标。
+description: 本文介绍如何使用设备、市场和地理位置信息在 Microsoft Dynamics 365 Commerce 站点生成器中创建、编辑和管理受众和目标。
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881649"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>设备、市场和地理位置目标定位
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何使用设备、市场和地理位置信息在 Microsoft Dynamics 365 Commerce 站点生成器中创建、编辑和管理受众和目标。
+本文介绍如何使用设备、市场和地理位置信息在 Microsoft Dynamics 365 Commerce 站点生成器中创建、编辑和管理受众和目标。
 
 Dynamics 365 Commerce 允许您针对特定客户组（称为 *受众*）个性化页面内容（称为 *目标*）的变体，以帮助提高用户参与度和满意度。 您可以先创建受众或目标。 但是，成功的目标体验需要这两个组件。
 

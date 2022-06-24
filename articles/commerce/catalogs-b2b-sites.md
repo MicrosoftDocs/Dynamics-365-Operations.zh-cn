@@ -1,6 +1,6 @@
 ---
-title: 为 B2B 站点创建 Commerce 目录
-description: 本主题介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 目录。
+title: 创建 B2B 站点的 Commerce 目录
+description: 本文介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 目录。
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848981"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>为 B2B 站点创建 Commerce 目录
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>创建 B2B 站点的 Commerce 目录
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 产品目录。 有关 B2B 站点的 Commerce 目录的常见问题的解答，请参阅 [B2B 的 Commerce 目录常见问题解答](catalogs-b2b-sites-FAQ.md)。
+本文介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 产品目录。 有关 B2B 站点的 Commerce 目录的常见问题的解答，请参阅 [B2B 的 Commerce 目录常见问题解答](catalogs-b2b-sites-FAQ.md)。
 
 > [!NOTE]
-> 此主题适用于 Dynamics 365 Commerce 版本 10.0.27 及更高版本。
+> 本文适用于 Dynamics 365 Commerce 版本 10.0.27 及更高版本。
 
 可以使用 Commerce 目录来标识您想要在您的 B2B 在线商店提供的产品。 创建类别时，确定提供产品的在线商店，添加要包括的产品，并通过添加商品促销详细信息提高产品供应。 可以为每个 B2B 在线商店创建多个目录。
 

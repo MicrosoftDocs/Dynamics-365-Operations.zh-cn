@@ -1,6 +1,6 @@
 ---
 title: 对标准成本的成本计算版本的限制
-description: 本主题介绍适用于标准成本的成本计算版本的限制。
+description: 本文介绍适用于标准成本的成本计算版本的限制。
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867976"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>对标准成本的成本计算版本的限制
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍适用于标准成本的成本计算版本的限制。 
+本文介绍适用于标准成本的成本计算版本的限制。 
 
 以下限制有助于确保符合标准成本计算准则：
 
@@ -37,9 +37,9 @@ ms.locfileid: "8672197"
 
 -  BOM 计算必须在单级分解模式下执行。
 
-标准成本的物料成本数据可以复制到包含标准成本或计划成本的其他成本计算版本中。 但是，计划成本的物料成本数据不能复制到包含标准成本的成本版本中，因为本主题中的前述限制将不应用于计划成本。
+标准成本的物料成本数据可以复制到包含标准成本或计划成本的其他成本计算版本中。 但是，计划成本的物料成本数据不能复制到包含标准成本的成本版本中，因为本文前面列出的限制不应用于计划成本。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [成本计算版本概览](costing-versions.md)
 

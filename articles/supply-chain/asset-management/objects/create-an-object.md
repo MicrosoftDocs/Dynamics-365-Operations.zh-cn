@@ -1,6 +1,6 @@
 ---
 title: 创建资产
-description: 本主题介绍如何在资产管理中创建资产。
+description: 本文介绍如何在资产管理中创建资产。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9c2b81e97a7b08dfdb596fbf6822ac94c7358dccd0b92c0677467dbc0c2e26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860919"
 ---
 # <a name="create-an-asset"></a>创建资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6721503"
 
  
 
-本主题介绍如何在资产管理中创建资产。
+本文介绍如何在资产管理中创建资产。
 
 1. 单击 **资产管理** > **常用** > **资产** > **所有资产** 或 **有效资产**。
 2. 单击 **新建** 按钮。

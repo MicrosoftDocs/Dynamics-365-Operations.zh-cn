@@ -1,8 +1,8 @@
 ---
 title: 查看计划历史记录和计划日志
-description: 本主题说明如何查看由计划优化功能触发的计划作业的历史记录。
+description: 本文说明如何查看由计划优化功能触发的计划作业的历史记录。
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863931"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>查看计划历史记录和计划日志
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何在 Microsoft Dynamics 365 Supply Chain Management 中查看由计划优化功能触发的计划作业的历史记录。
+本文说明如何在 Microsoft Dynamics 365 Supply Chain Management 中查看由计划优化功能触发的计划作业的历史记录。
 
 要查看计划的历史记录，请依次转到 **主计划** \> **设置** \> **计划** \> **主计划** 并选择 **历史记录** 打开计划。 历史记录列出了所选计划的所有作业。 该列表包括已完成和活动的作业。
 
-计划优化主计划运行的作业历史记录最多只能为每个主计划保留 60 条记录。 每当您运行新的主计划计算时，该计划的最早历史记录都会删除。
+系统最多为每个主计划保留 60 条历史记录，并删除超过 30 天的记录。 每次运行新的主计划计算时，系统都会添加新的历史记录，然后根据需要清理最早的记录。
 
 除了查看作业的开始时间和状态之外，您还可以查看特定作业的日志。 日志包含其他信息和警告。 并非所有作业都有日志。 要查看作业的日志，请选择 **日志**。 日志条目仅在作业完成之日起存储 30 天，之后它们将自动删除。
 

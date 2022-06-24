@@ -1,6 +1,6 @@
 ---
 title: 客户端断开连接
-description: 本主题说明如果客户与环境断开时该如何做。
+description: 本文说明如果客户与环境断开时该如何做。
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3093f11b0833812f6420f67a4b8bf405e550e974
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40605fd14384dbeed933057621d0160b698c938a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869856"
 ---
 # <a name="client-disconnects"></a>客户端断开连接
 

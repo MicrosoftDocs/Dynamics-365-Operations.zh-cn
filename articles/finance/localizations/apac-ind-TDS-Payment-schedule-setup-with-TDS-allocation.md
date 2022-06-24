@@ -1,6 +1,6 @@
 ---
 title: 设置包含 TDS 分配的付款计划
-description: 本主题说明如何设置包含从源扣缴税款 (TDS) 分配的付款计划。
+description: 本文说明如何设置包含从源扣缴税款 (TDS) 分配的付款计划。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 63628e84da4e430df236f3afa89110b652110fcb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 48891c32f39b743ce26e265c5682dab28ecb4b27
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868303"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>设置包含 TDS 分配的付款计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置包含从源扣缴税款 (TDS) 分配的付款计划。
+本文说明如何设置包含从源扣缴税款 (TDS) 分配的付款计划。
 
 1. 转到 **应付帐款 \> 付款设置 \> 付款计划**。
 

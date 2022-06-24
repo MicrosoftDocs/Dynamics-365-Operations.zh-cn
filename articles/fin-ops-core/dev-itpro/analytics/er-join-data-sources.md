@@ -1,6 +1,6 @@
 ---
 title: 在 ER 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
-description: 本主题介绍如何在电子申报 (ER) 中使用 JOIN 类型数据源。
+description: 本文介绍如何在电子报告 (ER) 中使用 JOIN 类型数据源。
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845504"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>在电子申报 (ER) 模型映射中使用 JOIN 数据源从多个应用程序表中获取数据
 
@@ -40,7 +40,7 @@ ms.locfileid: "6723205"
 > [!NOTE]
 > 目前尚不支持在 ER 表达式中使用 **VALUEIN** 函数来指定联接类型为 Join 的数据源中的记录的条件。 有关此函数的更多详细信息，请访问[电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)页面。
 
-若要了解有关此功能的详细信息，请完成本主题中的示例。
+若要了解有关此功能的详细信息，请完成本文中的示例。
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>示例：在 ER 模型映射中使用 JOIN 数据源
 
@@ -48,7 +48,7 @@ ms.locfileid: "6723205"
 
 ### <a name="prerequisites"></a>先决条件
 
-要完成本主题中的示例，您必须有权使用以下服务之一（具体取决于哪个服务用于完成这些步骤）：
+要完成本文中的示例，您必须有权使用以下服务之一（具体取决于哪个服务用于完成这些步骤）：
 
 **访问 Finance 的以下其中一个角色：**
 
@@ -257,7 +257,7 @@ ms.locfileid: "6723205"
 
 ## <a name="limitations"></a>限制
 
-从本主题的示例中可以看到，可以利用多个数据源构建 **JOIN** 数据源，前者描述了最终必须连接的记录的各个数据集。 您可以使用内置的 ER [FILTER](er-functions-list-filter.md) 函数来配置这些数据源。 当您配置数据源以使其在 **JOIN** 数据源之外被调用时，您可以将公司范围用作数据选择条件的一部分。 **JOIN** 数据源的初始实现不支持这种类型的数据源。 例如，在 **JOIN** 数据源的执行范围内调用基于 [FILTER](er-functions-list-filter.md) 的数据源时，如果被调用的数据源包含公司范围，并将其作为数据选择条件的一部分，则会发生异常。
+从本文的示例中可以看到，可以利用多个数据源构建 **JOIN** 数据源，前者描述了最终必须连接的记录的各个数据集。 您可以使用内置的 ER [FILTER](er-functions-list-filter.md) 函数来配置这些数据源。 当您配置数据源以使其在 **JOIN** 数据源之外被调用时，您可以将公司范围用作数据选择条件的一部分。 **JOIN** 数据源的初始实现不支持这种类型的数据源。 例如，在 **JOIN** 数据源的执行范围内调用基于 [FILTER](er-functions-list-filter.md) 的数据源时，如果被调用的数据源包含公司范围，并将其作为数据选择条件的一部分，则会发生异常。
 
 在 Microsoft Dynamics 365 Finance 版本 10.0.12（2020 年 8 月）中，可以将公司范围用作在基于 [FILTER](er-functions-list-filter.md) 的数据源中进行数据选择的部分条件，这些数据源在 **JOIN** 数据源的执行范围内被调用。 由于应用程序 [查询](../dev-ref/xpp-library-objects.md#query-object-model)生成器限制的缘故，仅对 **JOIN** 数据源的第一个数据源支持公司范围。
 

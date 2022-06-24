@@ -1,6 +1,6 @@
 ---
 title: 在期间结束时关闭总帐
-description: 本主题介绍为总帐执行定期结算时通常完成的任务。
+description: 本文介绍为总帐执行定期结算时通常完成的任务。
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878032"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>在期间结束时关闭总帐
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍为总帐执行定期结算时通常完成的任务。 
+本文介绍为总帐执行定期结算时通常完成的任务。 
 
 在“总帐”中，您可以为期间或年度完成结转过程。 结转流程为新期间准备系统。 若要为新的一年做好准备，您必须运行年终结算流程。 每个组织有为期间结束时执行的不同的流程和步骤。 以下是期间结束的某些可选步骤：
 

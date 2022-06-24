@@ -1,6 +1,6 @@
 ---
 title: 定义库存盘点流程
-description: 此主题介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。
+description: 本文介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。
 author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bb86c99e74dc8251ed48c0b749c0b0ef1ce75e34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879010"
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。 它也将向您展示如何在仓库和物料级别启用盘点策略。 这些任务通常由仓库主管执行。 它是某些现有发布产品和仓库的先决条件。 如果您使用演示数据公司，您可以在 USMF 公司中对任何库存物料执行此过程。
+本文介绍如何通过创建一个盘点组和盘点日记帐来配置基本存货盘点过程。 它也将向您展示如何在仓库和物料级别启用盘点策略。 这些任务通常由仓库主管执行。 它是某些现有发布产品和仓库的先决条件。 如果您使用演示数据公司，您可以在 USMF 公司中对任何库存物料执行此过程。
 
 
 ## <a name="create-a-counting-group"></a>创建一个盘点组

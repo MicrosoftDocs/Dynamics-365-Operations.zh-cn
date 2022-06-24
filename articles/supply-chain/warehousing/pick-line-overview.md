@@ -1,6 +1,6 @@
 ---
 title: 设置移动设备菜单项以提供领料行概览
-description: 本主题说明如何定义何时向在移动设备上处理仓库工作的仓库工作人员显示所有工作行的列表。 对于经常需要在工作订单中查看领料行概览以便可以优化领料顺序的仓库工作人员，此功能会很有用。
+description: 本文说明如何定义何时向在移动设备上处理仓库工作的仓库工作人员显示所有工作行的列表。 对于经常需要在工作订单中查看领料行概览以便可以优化领料顺序的仓库工作人员，此功能会很有用。
 author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885658"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>设置移动设备菜单项以提供领料行概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为用于处理领料工作的移动设备菜单项配置与领料行概览相关的选项。 领料行概览让仓库工作人员可以查看与其当前任务相关的所有工作行的列表并从中进行选择。 此功能可以帮助工作人员优化领料顺序。 此功能提供的选项可代替标准 **跳过** 按钮，该按钮让工作人员可以固定的顺序每次循环浏览一行。 （不过，使用该按钮的选项仍然可用。）
+本文说明如何为用于处理领料工作的移动设备菜单项配置与领料行概览相关的选项。 领料行概览让仓库工作人员可以查看与其当前任务相关的所有工作行的列表并从中进行选择。 此功能可以帮助工作人员优化领料顺序。 此功能提供的选项可代替标准 **跳过** 按钮，该按钮让工作人员可以固定的顺序每次循环浏览一行。 （不过，使用该按钮的选项仍然可用。）
 
 管理员可以单独配置每个菜单项，以控制仓库管理移动应用显示领料行概览的方式、时间和位置。
 

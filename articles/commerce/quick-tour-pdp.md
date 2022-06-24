@@ -1,6 +1,6 @@
 ---
 title: 产品详细信息页面概览
-description: 此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
+description: 本文概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884277"
 ---
 # <a name="product-details-pages-overview"></a>产品详细信息页面概览
 
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
+本文概述 Microsoft Dynamics 365 Commerce 中的产品详细信息页 (PDP)。
 
 PDP 提供有关产品的详细信息，可供客户用于选择产品选项，如尺寸、风格和颜色。 PDP 应展示客户要做出采购决定所需全部产品信息。
 
@@ -35,7 +35,7 @@ PDP 提供有关产品的详细信息，可供客户用于选择产品选项，�
 
 ## <a name="header-and-footer-modules"></a>标题和页脚模块
 
-PDP 顶部是显示所有产品类别的页眉和零售商希望客户浏览的其他页面。 页面底部是页脚，其中包含可能吸引客户的各主题的快速链接。
+PDP 顶部是显示所有产品类别的页眉和零售商希望客户浏览的其他页面。 页面底部是页脚，其中包含可能吸引客户的各个文章的快速链接。
 
 ## <a name="buy-box-module"></a>购买框模块
 

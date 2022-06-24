@@ -1,6 +1,6 @@
 ---
 title: 主页概览
-description: 本主题提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844664"
 ---
 # <a name="home-page-overview"></a>主页概览
 
 [!include [banner](includes/banner.md)]
 
-本主题提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
+本文提供 Microsoft Dynamics 365 Commerce 中的主页的概述。
 
 主页是购买者在访问电子商务站点时转到的默认页。 此页通常通过使用市场营销模块组合展示产品和促销。 主页应该非常丰富，包含用于吸引购买者的图像和文本。
 
@@ -33,7 +33,7 @@ ms.locfileid: "7984486"
 
 ![主页的示例。](./media/Homepage2.PNG)
 
-主页顶部是显示所有产品类别的页眉和零售商希望客户浏览的其他页面。 主页底部是页脚，其中包含可能吸引客户的各主题的快速链接。
+主页顶部是显示所有产品类别的页眉和零售商希望客户浏览的其他页面。 主页底部是页脚，其中包含可能吸引客户的各个文章的快速链接。
 
 主页的主要部分可通过使用各种 Dynamics 365 Commerce 模块突出显示产品、类别或促销。
 
@@ -49,8 +49,8 @@ ms.locfileid: "7984486"
 
     ![功能模块的示例。](./media/Feature.PNG)
 
-- **磁贴** – 内容块模块的磁贴布局在多列布局中用于使用图像和文本的组合展示多个产品或产品类别。 在此主题前文显示的主页图中，对 **购买女装**、**购买男装** 和 **购买配饰** 项的三列呈现方式使用了磁贴布局。
-- **视频播放器** – 视频播放器模块可用于在主页中展示视频内容。 此主题前文显示的主页图中有一个视频播放器模块。
+- **磁贴** – 内容块模块的磁贴布局在多列布局中用于使用图像和文本的组合展示多个产品或产品类别。 在本文前面显示的主页图中，对 **购买女装**、**购买男装** 和 **购买配饰** 项的三列呈现方式使用了磁贴布局。
+- **视频播放器** – 视频播放器模块可用于在主页中展示视频内容。 本文前面显示的主页图中有一个视频播放器模块。
 - **文本块** – 内容丰富块模块可用于通过单列或多列布局在主页中显示文本内容。
 - **产品建议** – 产品建议模块用于在主页中显示 **新品**、**热门** 和 **最畅销** 等列表。 这些列表基于购物趋势展示产品，可以按算法生成或手动挑选。 可帮助客户快速发现排名靠前的产品，然后继续购买。
 

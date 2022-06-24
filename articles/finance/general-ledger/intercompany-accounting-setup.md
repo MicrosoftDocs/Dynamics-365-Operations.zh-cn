@@ -1,6 +1,6 @@
 ---
 title: 内部公司会计设置
-description: 本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
+description: 本文说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871208"
 ---
 # <a name="intercompany-accounting-setup"></a>内部公司会计设置
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
+本文说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
 
 内部公司日记帐可以在不同方案创建，如为日常记帐、供应商发票日记帐、分类帐分配和集中付款。 若要启用这些方案，必须设置内部公司会计。
 

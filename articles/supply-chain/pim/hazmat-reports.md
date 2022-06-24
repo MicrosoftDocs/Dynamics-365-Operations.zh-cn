@@ -1,6 +1,6 @@
 ---
 title: 危险物料查询和报表
-description: 本主题说明如何处理与危险物料有关的各个报表。 这些报表中有很多是必需的，用来帮助您在装运和存储过程中始终遵守各项危险物料法规。
+description: 本文说明如何处理与危险物料有关的各个报表。 这些报表中有很多是必需的，用来帮助您在装运和存储过程中始终遵守各项危险物料法规。
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846031"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>危险物料查询和报表
 
@@ -63,7 +63,7 @@ Microsoft Dynamics 365 Supply Chain Management 提供与危险物料有关的各
 
 有关如何设置已发布产品的存货限制的详细信息，请参阅[设置危险产品的存货限制](hazmat-items.md#stock-limits)。
 
-用于存货限制的法规在 **仓库管理参数** 页面定义。 转到 **仓库管理 \> 设置 \> 仓库管理参数**，然后在 **报表** 选项卡上，在 **危险物料存货限制** 中，指定法规代码。 有关详细信息，请参阅本主题前面的[设置危险物料报告](#set-up)一节。
+用于存货限制的法规在 **仓库管理参数** 页面定义。 转到 **仓库管理 \> 设置 \> 仓库管理参数**，然后在 **报表** 选项卡上，在 **危险物料存货限制** 中，指定法规代码。 有关详细信息，请参阅本文前面的[设置危险物料报告](#set-up)一节。
 
 ## <a name="verified-gross-mass-report"></a>已验证总重报表
 

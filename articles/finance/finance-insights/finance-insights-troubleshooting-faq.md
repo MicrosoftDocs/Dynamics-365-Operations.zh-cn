@@ -1,6 +1,6 @@
 ---
 title: 解决 Finance Insights 设置问题
-description: 本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
+description: 本文列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 author: panolte
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846906"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
+本文列出了您使用 Finance Insights 功能时可能会出现的问题。 它还介绍了如何解决这些问题。
 
 ## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>症状：为什么我无法映射客户付款见解数据集成模板目标列？
 
@@ -121,4 +121,4 @@ Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐�
 
 ### <a name="resolution"></a>解决方法
 
-环境已达到 Data Lake 服务的最大表限制。 有关限制的详细信息，请参阅主题 [导出到 Azure Data Lake 概览](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md)的 **启用准实时数据更改** 一节。
+环境已达到 Data Lake 服务的最大表限制。 有关限制的详细信息，请参阅文章 [导出到 Azure Data Lake 概览](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md)的 **启用准实时数据更改** 一节。

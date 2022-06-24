@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844900"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>主计划和多站点功能概览
 
@@ -37,7 +37,7 @@ ms.locfileid: "8470141"
 
 仓库未设置为必填时，不能从初始需求知道仓库。 计划引擎必须根据为该物料定义的设置、各个仓库以及订单行的详细信息确定要使用哪个仓库。
 
-以下主题说明在定义不同设置时计划引擎如何确定要使用的仓库。
+以下文章说明在定义不同设置时计划引擎如何确定要使用的仓库。
 
 [站点和仓库覆盖范围的主计划（仓库必需）](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

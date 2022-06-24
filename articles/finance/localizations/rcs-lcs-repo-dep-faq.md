@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) 存储弃用
-description: 本主题提供有关计划作为 Regulatory Configuration Service (RCS) 全局存储库推出的一部分的 Microsoft Dynamics Lifecycle Services (LCS) 存储弃用的信息。
+description: 本文提供有关计划作为 Regulatory Configuration Service (RCS) 全局存储库推出的一部分的 Microsoft Dynamics Lifecycle Services (LCS) 存储弃用的信息。
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849722"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用
 
@@ -85,7 +85,7 @@ RCS 使用 *连接的应用程序* 概念。 连接的应用程序在 RCS 和财
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>是否有显示设置和管理的任何示例？
 
-没有示例，但您可以完成本主题前面的步骤，以将您的配置迁移到 RCS 全局存储库。
+没有示例，但您可以完成本文前面的步骤，以将您的配置迁移到 RCS 全局存储库。
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>RCS 是否是配置电子报告的先决条件？
 

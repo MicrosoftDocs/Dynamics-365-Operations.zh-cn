@@ -1,6 +1,6 @@
 ---
 title: 管理评分和评价
-description: 本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
+description: 本文介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881315"
 ---
 # <a name="manage-ratings-and-reviews"></a>管理评分和评价
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
+本文介绍了如何在 Microsoft Dynamics 365 Commerce 站点构建器中选择管理评分和评价。
 
 Dynamics 365 Commerce 使用 Microsoft Azure Cognitive Service 通过修正猥亵词自动审查评价文本。 此外，审查者可以使用 Dynamics 365 Commerce 站点构建器实现以下手动任务：
 

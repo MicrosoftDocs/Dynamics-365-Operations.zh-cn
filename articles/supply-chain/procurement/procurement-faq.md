@@ -1,6 +1,6 @@
 ---
 title: 采购常见问题解答
-description: 本主题提供有关 Supply Chain Management 的采购功能的常见问题 (FAQ) 的解答
+description: 本文提供有关 Supply Chain Management 的采购功能的常见问题 (FAQ) 的解答
 author: GalynaFedorova
 ms.date: 05/31/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 718108447dcb5cec488b7fa626feb551808e8dd8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6e710b254638b255ce4aa3e0adde0dd23bf60f64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869566"
 ---
 # <a name="procurement-faq"></a>采购常见问题解答
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关 Supply Chain Management 的采购功能的常见问题 (FAQ) 的解答。
+本文提供有关 Supply Chain Management 的采购功能的常见问题 (FAQ) 的解答。
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>我可以只显示我创建的采购订单吗？
 

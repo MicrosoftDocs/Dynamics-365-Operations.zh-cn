@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844286"
 ---
 # <a name="work-with-customer-service-overview"></a>处理客户服务概览
 
@@ -41,7 +41,7 @@ ms.locfileid: "8677049"
 
   - 支持有差异的客户群的服务级别协议。
 
-本节中的主题提供客户服务业务流程和每个业务流程组件的概览。 他们还列出与每个业务流程组件相关联的窗体，并且他们会讨论与每个业务流程组件相关联的任务。
+本节中的文章提供客户服务业务流程和每个业务流程组件的概览。 他们还列出与每个业务流程组件相关联的窗体，并且他们会讨论与每个业务流程组件相关联的任务。
 
 
 

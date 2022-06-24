@@ -1,6 +1,6 @@
 ---
 title: 供应商发票自动化工作区
-description: 本主题介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。
+description: 本文介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865792"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>供应商发票自动化工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。 此工作区中的供应商发票信息针对特定用户进行筛选，并以图形格式显示。
+本文介绍了如何设置与供应商发票相关并且显示通过 Microsoft Power BI 提供的信息的工作区。 此工作区中的供应商发票信息针对特定用户进行筛选，并以图形格式显示。
 
 ## <a name="overview"></a>概览
 

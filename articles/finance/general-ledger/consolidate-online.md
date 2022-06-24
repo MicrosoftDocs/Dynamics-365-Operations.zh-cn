@@ -1,6 +1,6 @@
 ---
 title: 在线财务合并
-description: 此主题介绍总帐中的在线财务合并。
+description: 本文介绍总帐中的在线财务合并。
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848540"
 ---
 # <a name="online-financial-consolidations"></a>在线财务合并
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍总帐中的在线财务合并。 阅读此主题之前，务必阅读[财务合并和货币折算概述](financial-consolidations-currency-translation.md)主题。
+本文介绍总帐中的在线财务合并。 阅读本文之前，务必阅读[财务合并和货币折算概述](financial-consolidations-currency-translation.md)一文。
 
 完成设置后，在 **[在线] 合并** 页中输入合并的详细信息。 完成后，可单击 **确定** 或 **批处理** 处理合并。
 
@@ -90,7 +90,7 @@ ms.locfileid: "8716710"
 
 ## <a name="additional-resources"></a>其他资源
 
-有关合并和货币折算的详细信息，请参阅此主题的父主题，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
+有关合并和货币折算的详细信息，请参阅本文的上级文章，即[财务合并和货币折算概述](./financial-consolidations-currency-translation.md)。
 
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
 

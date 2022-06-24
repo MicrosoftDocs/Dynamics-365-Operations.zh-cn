@@ -1,6 +1,6 @@
 ---
 title: 冲销日记帐过帐
-description: 此主题介绍用于冲销凭证交易记录列表中或财务日记帐中的凭证的功能。
+description: 本文介绍用于冲销凭证交易记录列表中或财务日记帐中的凭证的功能。
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868393"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍用于冲销整个日记帐或冲销凭证交易记录列表中的一个或多个凭证（而不考虑其来源）的 Microsoft Dynamics 365 Finance 功能。 
+本文介绍用于冲销整个日记帐或冲销凭证交易记录列表中的一个或多个凭证（而不考虑其来源）的 Microsoft Dynamics 365 Finance 功能。 
 
-在使用本主题介绍的功能之一之前，必须在系统中将其打开。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+在使用本文介绍的功能之一之前，必须在系统中将其打开。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
  - 模块：总帐
  - 功能名称：**批量冲销多张单据**
 
@@ -69,7 +69,7 @@ ms.locfileid: "7753770"
 
 如果凭证行数量为 100 行或更少，将立即运行冲销流程。 将在对话框中显示结果，其中显示不能冲销的所有凭证，以及原因。 选择 **确定** 关闭对话框。
 
-仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本主题中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](../accounts-payable/reverse-vendor-payment.md)中列出的步骤来冲销供应商付款。
+仅当交易记录符合进行冲销的业务规则时，才可以冲销交易记录。 使用本文中介绍的功能无法撤销供应商付款。 必须按照[冲销供应商付款](../accounts-payable/reverse-vendor-payment.md)中列出的步骤来冲销供应商付款。
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: 印度尼西亚的预缴税金报表
-description: 本主题说明如何配置和生成印度尼西亚的预缴税金报表。
+description: 本文说明如何配置和生成印度尼西亚的预缴税金报表。
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883172"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>印度尼西亚的预缴税金报表 (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置和生成 PPH 预缴税金文件，印度尼西亚的法人使用该文件在 e-Bupot 应用程序中报告预缴交易。
+本文说明如何设置和生成 PPH 预缴税金文件，印度尼西亚的法人使用该文件在 e-Bupot 应用程序中报告预缴交易。
 
 印度尼西亚税务主管机构 (DGT) 确定，在 KPP Pratama 注册为所得税 (PPh)“第 23 条”和/或“第 26 条”报表的扣税义务人/收税者的应纳税创业者 (PKP) 必须使用 e-Bupot 应用程序以电子方式报告所得税退税第 23 条和第 26 条报表。 
 

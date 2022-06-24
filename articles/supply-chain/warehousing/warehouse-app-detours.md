@@ -1,6 +1,6 @@
 ---
 title: 为移动设备菜单项中的步骤配置绕过
-description: 本主题介绍如何配置菜单项的绕过，以便工作人员可以停止当前任务，执行另一个任务，之后返回原始任务时不会丢失任何信息。
+description: 本文介绍如何配置菜单项的绕过，以便工作人员可以停止当前任务，执行另一个任务，之后返回原始任务时不会丢失任何信息。
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863583"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>为移动设备菜单项中的步骤配置绕过
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> 本主题中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
+> 本文中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
 
-本主题介绍如何配置菜单项的绕过，以便工作人员可以“停止”当前任务，执行另一个任务，之后返回原始任务时不会丢失任何信息。
+本文介绍如何配置菜单项的绕过，以便工作人员可以“停止”当前任务，执行另一个任务，之后返回原始任务时不会丢失任何信息。
 
 绕过是一个可以从主任务中的步骤打开的单独菜单项。 在绕过结束时，工作人员将返回到他们离开主任务的位置。 在配置期间，您要指定应充当绕过的菜单项。 您还要选择主任务中的哪些字段值应自动转发（复制）到绕过并在那里输入。 因此，您必须了解您希望工作人员可以在任务流中的哪个位置使用绕过。 您还必须确保必须复制到绕过的信息可用于任务流的这一步骤。
 
@@ -46,7 +46,7 @@ ms.locfileid: "7920340"
     - **模块**：*仓库管理*
     - **功能名称**：*Warehouse Management 应用绕过*
 
-    此功能是此主题中介绍的功能。
+    此功能是本文中介绍的功能。
 
 1. 通过转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
 1. 对您使用 Warehouse Management 移动应用的每个法人（公司）重复上一步。
@@ -57,7 +57,7 @@ ms.locfileid: "7920340"
 
 1. 为相关的菜单和步骤创建特定于菜单的替代，如[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)中所述。
 1. 查找要编辑的 **步骤 ID** 与 **菜单项名称** 值组合，然后选择 **步骤 ID** 列中的值。
-1. 在出现的页面上，在 **可用绕过(菜单项)** 快速选项卡上，您可以指定应作为绕过的菜单项。 您还可以选择主任务中的哪些字段值应自动复制到绕过中或从绕过中复制。 有关显示如何使用这些设置的示例，请参阅本主题后面的场景。
+1. 在出现的页面上，在 **可用绕过(菜单项)** 快速选项卡上，您可以指定应作为绕过的菜单项。 您还可以选择主任务中的哪些字段值应自动复制到绕过中或从绕过中复制。 有关显示如何使用这些设置的示例，请参阅本文后面的场景。
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>示例场景 1：位置查询充当绕过的销售领料
 

@@ -1,6 +1,6 @@
 ---
 title: 找不到匹配的结果
-description: 本主题介绍如何排查税款计算服务中的“找不到匹配结果”错误。
+description: 本文介绍如何排查税款计算服务中的“找不到匹配结果”错误。
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845135"
 ---
 # <a name="no-matching-result-could-be-found"></a>找不到匹配的结果
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了在税款计算服务中收到“找不到匹配结果”错误时可以采取的故障排除步骤。
+本文介绍了在税款计算服务中收到“找不到匹配结果”错误时可以采取的故障排除步骤。
 
 ## <a name="symptom"></a>问题
 

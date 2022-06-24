@@ -1,6 +1,6 @@
 ---
 title: 在应付帐款和应收帐款中设置 TDS 参数
-description: 本主题说明如何在应付帐款和应收帐款中设置参数以支持从源扣缴税款 (TDS) 扣除。
+description: 本文说明如何在应付帐款和应收帐款中设置参数以支持从源扣缴税款 (TDS) 扣除。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d2cb434346dbbe5487522fe9f7110716c3a8c761
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e547b92f9f7e0ccc5b92df4cd991ce402369b568
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883141"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>在应付帐款和应收帐款中设置 TDS 参数
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在应付帐款和应收帐款中设置参数以支持从源扣缴税款 (TDS) 扣除。
+本文说明如何在应付帐款和应收帐款中设置参数以支持从源扣缴税款 (TDS) 扣除。
 
 1. 转到 **税务 \> 设置 \> 参数 \> 应收帐款参数**。
 2. 在 **更新** 选项卡上，选择 **更新订单行** 以打开 **更新订单行** 对话框。

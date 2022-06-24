@@ -1,6 +1,6 @@
 ---
 title: 物料质量组
-description: 本主题介绍如何使用和创建物料质量组来对产品进行逻辑分组，以便可以将其分配给质量关联来自动生成质检订单。
+description: 本文介绍如何使用和创建物料质量组来对产品进行逻辑分组，以便可以将其分配给质量关联来自动生成质检订单。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875356"
 ---
 # <a name="item-quality-groups"></a>物料质量组
 
 [!include [banner](../includes/banner.md)]
 
-质量组表示物料的公共测试要求。 本主题介绍如何使用和创建物料质量组来对产品进行逻辑分组，以便可以将其分配给质量关联来自动生成质检订单。
+质量组表示物料的公共测试要求。 本文介绍如何使用和创建物料质量组来对产品进行逻辑分组，以便可以将其分配给质量关联来自动生成质检订单。
 
 要设置、编辑和查看分配给质量组的物料或分配给物料的质量组，转到 **库存管理 \> 设置 \> 质量组**。 在 **测试组** 页上定义测试要求后，您可以定义用于自动生成质检订单的规则。 为了简化该流程，您不为各个物料定义规则。 而是可以在 **质量关联** 页为质量组定义规则。
 

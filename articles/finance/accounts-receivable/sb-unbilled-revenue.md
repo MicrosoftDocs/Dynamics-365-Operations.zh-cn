@@ -1,6 +1,6 @@
 ---
 title: 未计费收入
-description: 本主题说明如何设置物料和帐户以使用订阅计费中的未计费收入功能。
+description: 本文说明如何设置物料和帐户以使用订阅计费中的未计费收入功能。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879673"
 ---
 # <a name="unbilled-revenue"></a>未计费收入
 
-本主题介绍未计费收入功能，利用此功能，您可以在资产负债表中包含整个开票计划的金额。 这些金额包含在未计费收入帐户和未计费收入抵消帐户中，并且合同分期付款计费。
+本文介绍未计费收入功能，利用此功能，您可以在资产负债表中包含整个开票计划的金额。 这些金额包含在未计费收入帐户和未计费收入抵消帐户中，并且合同分期付款计费。
 
 ## <a name="set-up-unbilled-revenue"></a>设置未计费收入
 

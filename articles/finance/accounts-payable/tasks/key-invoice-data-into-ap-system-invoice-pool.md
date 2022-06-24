@@ -1,6 +1,6 @@
 ---
 title: 使用发票池将发票数据键入 AP 系统
-description: 此主题介绍如何使用发票登记簿创建发票。
+description: 本文介绍如何使用发票登记簿创建发票。
 author: abruer
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf781089469f87dc0a98279003c94fd1e8bf9dbe
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: fc3f1107a9564120aae77a75e6232879bf3c51af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858370"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>使用发票池将发票数据键入 AP 系统
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何使用发票登记簿创建发票。 然后使用发票池对发票与采购订单进行匹配，并在“供应商发票”页对费用进行关帐。
+本文介绍如何使用发票登记簿创建发票。 然后使用发票池对发票与采购订单进行匹配，并在“供应商发票”页对费用进行关帐。
 
 
 ## <a name="create-a-purchase-order"></a>创建采购订单

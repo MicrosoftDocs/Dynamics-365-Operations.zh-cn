@@ -1,6 +1,6 @@
 ---
 title: 新的或更新任务指南（2017 年 12 月）
-description: 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+description: 本文列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b111b686bc7fd06508878261e959a8dad92aacc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855540"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>新的或更新任务指南（2017 年 12 月）
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。
+本文列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。
 
 ## <a name="new-task-guides"></a>新的任务指南
 

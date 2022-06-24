@@ -1,6 +1,6 @@
 ---
 title: 设置物料到达概览配置文件
-description: 此主题侧重于到货概览配置文件的设置。
+description: 本文重点介绍到货概览配置文件的设置。
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871998"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>设置物料到达概览配置文件
 
 [!include [banner](../../includes/banner.md)]
 
-此主题侧重于到货概览配置文件的设置。 到货概览配置文件是用户打开到货概览页面时将应用的规则的集合。 您可以在演示数据公司 USMF 中使用此过程。 此过程通常由验收员完成。
+本文重点介绍到货概览配置文件的设置。 到货概览配置文件是用户打开到货概览页面时将应用的规则的集合。 您可以在演示数据公司 USMF 中使用此过程。 此过程通常由验收员完成。
 
 1. 在导航窗格中，转到 **模块 > 库存管理 > 设置 > 配送 > 到货概览配置文件**。
 2. 选择 **新建**。 由于您几乎总是操作相同仓库的整车卸货，您应创建到货概览资料，以简化收到物料的登记流程。  

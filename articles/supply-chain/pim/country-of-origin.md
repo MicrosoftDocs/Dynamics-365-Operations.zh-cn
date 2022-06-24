@@ -1,6 +1,6 @@
 ---
 title: 原产国家/地区
-description: 许多组织向其供应商颁发证书，以确保产品符合特定的认证标准。 这些证书通常依赖于原产国家/地区。 本主题提供有关原产国家/地区功能的信息，让您可以将产品链接到其原产国家/地区并跟踪产品认证。
+description: 许多组织向其供应商颁发证书，以确保产品符合特定的认证标准。 这些证书通常依赖于原产国家/地区。 本文提供有关原产国家/地区功能的信息，让您可以将产品链接到其原产国家/地区并跟踪产品认证。
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 60d5a2067b8e3d311af89fb09cfa3b5c007db219
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882509"
 ---
 # <a name="country-of-origin"></a>原产国家/地区
 

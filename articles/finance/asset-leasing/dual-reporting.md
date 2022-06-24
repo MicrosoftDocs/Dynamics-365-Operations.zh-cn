@@ -1,6 +1,6 @@
 ---
 title: 双重申报
-description: 本主题通过一个示例指导您如何在资产租赁中同时满足国际财务申报标准 (IFRS) 申报和法定申报的要求。
+description: 本文通过一个示例指导您如何在资产租赁中同时满足国际财务申报标准 (IFRS) 申报和法定申报的要求。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886362"
 ---
 # <a name="dual-reporting"></a>双重申报
 
 [!include [banner](../includes/banner.md)]
 
-本主题通过一个示例指导您如何在资产租赁中同时满足国际财务申报标准 (IFRS) 申报和法定申报的要求。 需要熟悉 Microsoft Dynamics 365 Finance 中的过帐层，这一可以让示例更容易理解。
+本文通过一个示例指导您如何在资产租赁中同时满足国际财务申报标准 (IFRS) 申报和法定申报的要求。 需要熟悉 Microsoft Dynamics 365 Finance 中的过帐层，这一可以让示例更容易理解。
 
 ## <a name="example"></a>示例
 

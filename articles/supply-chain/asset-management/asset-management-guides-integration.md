@@ -1,6 +1,6 @@
 ---
 title: 将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
-description: 本主题说明如何将 Microsoft Dynamics 365 Supply Chain Management 中的资产管理模块与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。
+description: 本文说明如何将 Microsoft Dynamics 365 Supply Chain Management 中的资产管理模块与 Dynamics 365 Guides 集成，以便在日常服务和维护工作流中利用混合现实指南。
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875675"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>将 Dynamics 365 Supply Chain Management（资产管理）与 Dynamics 365 Guides 集成
 
@@ -47,7 +47,7 @@ ms.locfileid: "7568247"
 
 要将指南与维护清单模板关联，请执行以下步骤。
 
-1. 使用 Dynamics 365 Guides PC 和 HoloLens 应用创建指南。 有关如何创建指南的信息，请参阅以下主题：
+1. 使用 Dynamics 365 Guides PC 和 HoloLens 应用创建指南。 有关如何创建指南的信息，请参阅以下文章：
 
     - [使用 PC 应用创建指南](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [使用 HoloLens 应用放置全息影像](/dynamics365/mixed-reality/guides/hololens-app-overview)

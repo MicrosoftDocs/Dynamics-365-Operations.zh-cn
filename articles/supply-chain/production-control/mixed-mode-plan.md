@@ -1,6 +1,6 @@
 ---
 title: 混合模式计划 - 合并不同的流程和精益采购
-description: 文主题提供有关混合模式计划的信息。
+description: 文本提供有关混合模式计划的信息。
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857422"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
 [!include [banner](../includes/banner.md)]
 
-文主题提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Dynamics 365 Supply Chain Management 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
+文本提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Dynamics 365 Supply Chain Management 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
 
 无论产品结构如何，您都可以选择产品供应的总体策略。  
 

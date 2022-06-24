@@ -1,6 +1,6 @@
 ---
 title: 库存日记帐审核工作流
-description: 本主题介绍如何为各种类型的实际库存交易设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
+description: 本文介绍如何为各种类型的实际库存交易设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873976"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为各种类型的实际库存交易（如发货和收货、库存变动、物料清单 (BOM) 和实际库存对帐）设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
+本文介绍如何为各种类型的实际库存交易（如发货和收货、库存变动、物料清单 (BOM) 和实际库存对帐）设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
 
 > [!NOTE]
 > 库存日记帐审核工作流仅适用于使用库存管理模块记录的交易。 不适用于仓库管理模块触发的库存日记帐。

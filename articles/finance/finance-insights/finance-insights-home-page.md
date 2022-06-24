@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881953"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights 主页
 
@@ -43,7 +43,7 @@ Finance insights 提供可配置和可扩展的解决方案，以帮助您智能
 
 ### <a name="version-requirements"></a>版本要求
 
-此主题适用于 Microsoft Dynamics 365 Finance 版本 10.0.21 及更高版本。
+本文适用于 Microsoft Dynamics 365 Finance 版本 10.0.21 及更高版本。
 
 ### <a name="license-requirements"></a>许可要求证
 

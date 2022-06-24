@@ -1,6 +1,6 @@
 ---
 title: 设置税代码
-description: 本主题说明如何在税款计算服务中设置税代码。
+description: 本文说明如何在税款计算服务中设置税代码。
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862919"
 ---
 # <a name="set-up-tax-codes"></a>设置税代码
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在税款计算服务中设置税代码。 包括让税代码生效的一个简单场景的设置，以及有关复杂场景下一些高级税代码功能的信息。
+本文说明如何在税款计算服务中设置税代码。 包括让税代码生效的一个简单场景的设置，以及有关复杂场景下一些高级税代码功能的信息。
 
 > [!IMPORTANT]
 > 税款计算服务中的税代码设置是不知道法人的。 您只能在 Regulatory Configuration Service (RCS) 中完成此设置一次。 当您在 Finance 中为选定的法人启用税款计算服务时，税代码会自动同步到 Microsoft Dynamics 365 Finance。

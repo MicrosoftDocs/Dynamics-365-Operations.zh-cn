@@ -1,6 +1,6 @@
 ---
 title: 瑞典的控制单元集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中瑞典的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中瑞典的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885394"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>瑞典的控制单元集成示例
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中瑞典的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中瑞典的会计整合示例。
 
 > [!NOTE]
 > 此示例会计整合功能将取代早期的 [POS 与瑞典的控制单元集成的示例](retail-sdk-control-unit-sample.md)。 早期示例没有利用[会计整合框架](./fiscal-integration-for-retail-channel.md)，并且将在以后的更新中过时。 有关如何从早期示例迁移到与 Dynamics 365 Commerce 版本 **10.0.22 和早期版本** 相对应的示例的信息，请参阅[从早期集成示例迁移](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample)。
@@ -83,7 +83,7 @@ Microsoft 不会从零售创新 HTT AB 发布任何硬件、软件或文档。 �
 
 对于每个必需的收据格式，请将 **打印行为** 字段的值更改为 **始终打印**。
 
-在收据格式设计器中，将以下自定义字段添加到 **页脚** 部分。 请注意，字段名称与您在本主题上一节中定义的语言文本相对应。
+在收据格式设计器中，将以下自定义字段添加到 **页脚** 部分。 请注意，字段名称与您在本文上一节中定义的语言文本相对应。
 
 - **登记控制代码** - 此字段打印控制代码。
 - **登记设备** - 此字段打印控制单元的制造编号。

@@ -1,6 +1,6 @@
 ---
-title: 对贷方通知单中的原始账单的引用
-description: 本主题说明如何在相关的贷方通知单中设置和打印原始发票编号。
+title: 对贷方通知单中的原始发票的引用
+description: 本文说明如何在相关的贷方通知单中设置和打印原始发票编号。
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861522"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>对贷方通知单中的原始账单的引用
 
 [!include [banner](../includes/banner.md)]
 
 
-在某些国家和地区，法律要求打印的贷方通知单必须包含对原始发票的引用。 本主题说明如何在相关的贷方通知单中设置和打印原始发票编号。
+在某些国家和地区，法律要求打印的贷方通知单必须包含对原始发票的引用。 本文说明如何在相关的贷方通知单中设置和打印原始发票编号。
 
 ## <a name="prerequisites"></a>先决条件
 
 - 在 **功能管理** 工作区，打开 **销售和项目发票报表的贷记开票版式** 功能。 有关更多信息，请参见[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 - 必须在“打印管理”中配置所需文档的可打印格式。
 
-本主题中所述的功能适用于以下文档：
+本文中所述的功能适用于以下文档：
 
 **应收账款**
 

@@ -1,6 +1,6 @@
 ---
 title: 福利资格策略
-description: 本主题提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
+description: 本文提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877765"
 ---
 # <a name="benefit-eligibility-policies"></a>福利资格策略
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689541"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
+本文提供有关福利资格策略的信息，用于定义哪些人有资格享受特定福利。
 
 在您创建福利时，您决定哪些福利可用于哪些员工。 下表显示您可以使其用于特定员工的福利示例。
 

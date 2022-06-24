@@ -1,6 +1,6 @@
 ---
 title: 库龄报表示例和逻辑
-description: 本主题提供了一些示例来展示如何解释库龄报表的结果。
+description: 本文提供了一些示例来展示如何解释库龄报表的结果。
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848011"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>库龄报表示例和逻辑
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了一些示例来展示如何解释 **库龄** 报表的结果。 此报表将所选物料或物料组的现有数量和现有库存量值分类为几个期间段。 本主题还展示了报表的内部逻辑。
+本文提供了一些示例来展示如何解释 **库龄** 报表的结果。 此报表将所选物料或物料组的现有数量和现有库存量值分类为几个期间段。 本文还展示了报表的内部逻辑。
 
-本主题中的示例展示了标准 **库龄** 报表中呈现的结果。 但是，通常，建议您使用此报表的[库龄报表存储](inventory-aging-report-storage.md)版本，尤其是当您有许多必须处理的物料和仓库时。 库龄报表存储保存您生成的每个报表，将结果显示为交互式页面和图表，并允许您导出任何已保存的报表。
+本文中的示例展示了标准 **库龄** 报表中呈现的结果。 但是，通常，建议您使用此报表的[库龄报表存储](inventory-aging-report-storage.md)版本，尤其是当您有许多必须处理的物料和仓库时。 库龄报表存储保存您生成的每个报表，将结果显示为交互式页面和图表，并允许您导出任何已保存的报表。
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>这些示例中使用的示例数据
 
-本主题中的示例基于本节中介绍的示例库存交易数据。
+本文中的示例基于本节中介绍的示例库存交易数据。
 
 ### <a name="storage-dimension-setup"></a>存储维度设置
 

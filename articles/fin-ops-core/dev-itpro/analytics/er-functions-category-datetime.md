@@ -1,6 +1,6 @@
 ---
 title: 日期和时间类别的 ER 函数列表
-description: 本主题提供有关电子申报 (ER) 支持的日期和时间函数的信息。
+description: 本文提供有关电子报告 (ER) 支持的日期和时间函数的信息。
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880222"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>日期和时间类别的 ER 函数列表
 
 [!include [banner](../includes/banner.md)]
 
-电子申报 (ER) 日期和时间函数可用于从日期和时间值中提取信息，并可以对这些值执行操作。 本主题提供这些函数的概要。
+电子申报 (ER) 日期和时间函数可用于从日期和时间值中提取信息，并可以对这些值执行操作。 本文提供这些函数的概要。
 
 ## <a name="list-of-supported-functions"></a>支持的函数列表
 

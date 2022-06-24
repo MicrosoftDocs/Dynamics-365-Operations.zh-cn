@@ -1,6 +1,6 @@
 ---
 title: 维护工人和工人组
-description: 本主题介绍资产管理中的维护工人和工人组。
+description: 本文介绍资产管理中的维护工人和工人组。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860890"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>维护工人和工人组
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750116"
 
  
 
-本主题介绍资产管理中的维护工人和工人组。 在资产管理中，可将维护工人连接到功能位置。 （有关功能位置的详细信息，请参阅[创建功能位置](../functional-locations/create-functional-locations.md)。）此功能在如下场景中可能非常有用：您对功能位置 01 中的机器安排了维护作业，而您希望分配同一个位置的维护工人执行该作业。
+本文介绍资产管理中的维护工人和工人组。 在资产管理中，可将维护工人连接到功能位置。 （有关功能位置的详细信息，请参阅[创建功能位置](../functional-locations/create-functional-locations.md)。）此功能在如下场景中可能非常有用：您对功能位置 01 中的机器安排了维护作业，而您希望分配同一个位置的维护工人执行该作业。
 
 也可以创建维护工人组并为其关联维护工人。 如果要执行简单工作订单安排，并且希望为工作订单安排一组维护工人，此功能非常有用。 可使用维护工人和维护工人组设置首选维护工人和负责的维护工人。 
 

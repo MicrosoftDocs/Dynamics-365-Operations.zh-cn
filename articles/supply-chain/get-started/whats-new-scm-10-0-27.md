@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.27 预览（2022 年 7 月）
-description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.27 中的新增功能或更改的功能。
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.27 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 04/22/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844487"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 预览（2022 年 7 月）
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.27 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1227，并按以下时间表提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.27 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1227，并按以下时间表提供：
 
 - **版本预览：** 2022 年 4 月
 - **版本正式发布（自行更新）：** 2022 年 6 月
@@ -30,7 +30,7 @@ ms.locfileid: "8812935"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-下表列出了此版本中包含的功能。 我们可能会更新本主题，以包含在最初发布本主题之后添加到内部版本的功能。
+下表列出了此版本中包含的功能。 我们可能会更新本文，以包含在最初发布本文之后添加到内部版本的功能。
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
@@ -56,9 +56,9 @@ ms.locfileid: "8812935"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 按照前几节的列举，这些主题未必与此发行版中增加的新功能有关。 但是，它们可以帮助您更加受益于现有功能。
+我们最近添加或大幅更新了以下帮助文章。 按照前几节的列举，这些文章未必与此发行版中增加的新功能有关。 但是，它们可以帮助您更加受益于现有功能。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 成本管理 | [具有“包括实际成本和标记”的加权平均日期](../cost-management/weighted-average-date.md) |
 | 分布式混合拓扑 | [试用分布式混合拓扑中的缩放单元](../cloud-edge/cloud-edge-try-out.md) |
@@ -83,12 +83,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.27 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

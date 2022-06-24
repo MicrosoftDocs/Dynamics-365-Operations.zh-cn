@@ -1,6 +1,6 @@
 ---
 title: 销售点 (POS) 中的客户订单
-description: 本主题提供有关销售点 (POS) 中客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
+description: 本文提供有关销售点 (POS) 中客户订单的信息。 客户订单也称为特殊订单。 本文包含对相关参数和交易记录流的讨论。
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850374"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>销售点 (POS) 中的客户订单
 
 [!include [banner](includes/banner.md)]
 
-本主题提供有关如何在销售点 (POS) 应用中创建和管理客户订单的信息。 客户订单可用于捕获购物者希望以后提货，从其他位置提货或将商品发给客户的销售。 
+本文提供有关如何在销售点 (POS) 应用中创建和管理客户订单的信息。 客户订单可用于捕获购物者希望以后提货，从其他位置提货或将商品发给客户的销售。 
 
 在全渠道商业环境中，许多零售商提供客户订单（即特殊订单）选项，以满足各种产品和履行要求。 下面是一些典型方案：
 

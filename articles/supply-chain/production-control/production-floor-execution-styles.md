@@ -1,6 +1,6 @@
 ---
 title: 为生产车间执行界面设计样式
-description: 本主题介绍如何配置窗体控件，以将默认生产车间执行样式应用于它们。
+description: 本文介绍如何配置 form 控件，以将默认生产车间执行样式应用于它们。
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859131"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>为生产车间执行界面设计样式
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何配置窗体控件，以将默认生产车间执行样式应用于它们。
+本文介绍如何配置 form 控件，以将默认生产车间执行样式应用于它们。
 
 ## <a name="forms-and-dialogs"></a>窗体和对话
 
@@ -31,7 +31,7 @@ ms.locfileid: "7790882"
 - 如果窗体应类似于现有报告进度窗体，窗体或对话的名称必须以 `JmgProductionFloorExecutionCustomInputDialog` 开头。
 - 窗体或对话可以包含详细信息窗体部件。 要对其应用样式，详细信息窗体部件的名称必须以 `JmgProductionFloorExecutionCustomDetailsDialog` 开头。
 - 如果窗体或对话应具有简单视图，简单视图的名称必须以 `JmgProductionFloorExecutionCustomDialog` 开头。 具有简单视图的窗体示例包括开始窗体和间接活动窗体。
-- 对话中的所有控件都必须按照本主题中的描述配置。
+- 对话中的所有控件都必须按照本文中的描述配置。
 
 > [!IMPORTANT]
 > 此列表前两个要点中提到的功能需要 Supply Chain Management 版本 10.0.19 或更高版本。

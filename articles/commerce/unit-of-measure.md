@@ -1,6 +1,6 @@
 ---
 title: 应用度量单位设置
-description: 本主题介绍度量单位设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+description: 本文介绍度量单位设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884807"
 ---
 # <a name="apply-unit-of-measure-settings"></a>应用度量单位设置
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍度量单位设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+本文介绍度量单位设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 
 产品可以按不同的单位出售，如“每个”、“对”和“一打”。 在 Commerce headquarters 中，可以为产品定义销售度量单位，并在电子商务站点上显示。 例如，如果零售商既单个销售又成打销售产品，则可以将可用的度量单位与其他产品信息一起显示。
 

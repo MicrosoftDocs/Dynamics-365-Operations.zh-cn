@@ -1,6 +1,6 @@
 ---
 title: 覆盖范围设置
-description: 本主题提供有关主计划编制用于计算物料要求的覆盖范围设置的信息。
+description: 本文提供有关主计划编制用于计算物料要求的覆盖范围设置的信息。
 author: t-benebo
 ms.date: 09/13/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98f1ab83e27e36400cd312ef2af8554d22ea505
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1218c447a18f79f9a44bfa413a0414d6926d7499
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871940"
 ---
 # <a name="coverage-settings"></a>覆盖范围设置
 

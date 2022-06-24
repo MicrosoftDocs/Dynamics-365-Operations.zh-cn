@@ -1,6 +1,6 @@
 ---
-title: 设置 Recency、频率和货币 (RFM) 分析
-description: 本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
+title: 设置时效、频率和货币 (RFM) 分析
+description: 本文解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850163"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>设置 Recency、频率和货币 (RFM) 分析
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>设置时效、频率和货币 (RFM) 分析
 
 [!include [banner](includes/banner.md)]
 
-本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
+本文解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
 
 Recency、频率和货币 (RFM) 分析是一个您的组织用来评估由客户购买生成的数据的市场营销工具。 在设置了 RFM 分析后，客户在购买时会被分配计算过的 RFM 得分。 RFM 得分可以是一个三位等级，也可以是一个总数，具体取决于您的组织如何配置了 RFM 分析。 如果您的组织使用三位数等级进行评分，等级的作用方式如下：
 

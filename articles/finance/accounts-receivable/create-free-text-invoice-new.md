@@ -1,6 +1,6 @@
 ---
-title: 创建普通账单
-description: 本主题说明如何创建普通发票。
+title: 创建普通发票
+description: 本文说明如何创建普通发票。
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878151"
 ---
-# <a name="create-a-free-text-invoice"></a>创建普通账单
+# <a name="create-a-free-text-invoice"></a>创建普通发票
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何创建普通发票。 对于本流程，使用了 **USMF** 演示公司数据。
+本文说明如何创建普通发票。 对于本流程，使用了 **USMF** 演示公司数据。
 
 ## <a name="create-a-free-text-invoice"></a>创建普通账单
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392877"
     * 如果您使用单一欧元支付区 (SEPA) 授权，当您选择客户帐户时，将自动输入直接借记授权。
 
 4. 在 **描述** 字段中，输入一个值。
-5. 在 **主科目** 字段中，指定没有维度的帐号。 本主题的后文将输入维度。
+5. 在 **主科目** 字段中，指定没有维度的帐号。 本文的后面将输入维度。
 
     还可以为主科目输入一个或多个字符，并使用查找功能查找科目。
 

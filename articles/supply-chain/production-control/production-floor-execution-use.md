@@ -1,6 +1,6 @@
 ---
 title: 工作人员如何使用生产车间执行界面
-description: 本主题从工作人员的角度介绍了如何使用生产车间执行界面。
+description: 本文从工作人员的角度介绍了如何使用生产车间执行界面。
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860658"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -34,7 +34,7 @@ ms.locfileid: "8644981"
 
 ![生产车间执行界面登录页面。](media/pfei-sign-in-page.png "生产车间执行界面登录页面")
 
-本主题的其余部分介绍了工作人员如何与界面进行交互。
+本文的其余各节介绍了工作人员如何与界面进行交互。
 
 ## <a name="all-jobs-tab"></a>所有作业选项卡
 

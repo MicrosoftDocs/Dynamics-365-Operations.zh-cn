@@ -1,6 +1,6 @@
 ---
-title: 从 Excel 发布日记帐行和单据
-description: 本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
+title: 从 Excel 发布日记帐行和凭证
+description: 本文说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af478f9dba8dc17791e15017be2720c2aa21a2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ccb3e7a420f7f048ba93b6fadf5491e312e7ce33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872461"
 ---
-# <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
+# <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和凭证
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
+本文说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
 
 用户可从 Microsoft Excel 输入和发布财务日记帐的行。 用户创建日记帐之后，**在 Excel 中打开文件** 按钮将显示可用模板。 模板设计为支持特定方案，但是日记帐中并非支持科目类型的所有组合。 下表显示可用模板及其支持的科目类型。
 

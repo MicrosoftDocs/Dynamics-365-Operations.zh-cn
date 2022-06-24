@@ -1,6 +1,6 @@
 ---
 title: 在公共部门创建原始预算，然后预留初步预算条目
-description: 本主题提供有关如何使用具有初步预算金额的预算模型和维值来创建和冲销原始预算条目的信息。
+description: 本文提供有关如何使用具有初步预算金额的预算模型和维值来创建和冲销原始预算条目的信息。
 author: twheeloc
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 1efb6363be881b0a35f356c2cb2334e5a37e43ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848395"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>在公共部门创建原始预算，然后预留初步预算条目
 

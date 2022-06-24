@@ -1,6 +1,6 @@
 ---
 title: 两用商品
-description: 本主题说明如何跟踪被识别为两用商品的产品，存储每个相关产品的证书编号和目标国家/地区，以及在相关发票、装箱单和/或销售订单上打印有效的证书编号。
+description: 本文说明如何跟踪被识别为两用商品的产品，存储每个相关产品的证书编号和目标国家/地区，以及在相关发票、装箱单和/或销售订单上打印有效的证书编号。
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878894"
 ---
 # <a name="dual-use-goods"></a>两用商品
 
@@ -42,7 +42,7 @@ ms.locfileid: "8736024"
 
 6. 此订单包括产品 X-100，该产品正在运往法国，并且该产品具有法国证书。 但是，证书已过期。 因此，您收到以下警告消息：“此销售订单中有一个或多个两用物料的两用证书无效。 是否要继续确认？”
 
-本主题说明如何配置设置两用商品和支持此情形所需的所有设置。
+本文说明如何配置设置两用商品和支持此情形所需的所有设置。
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>定义每个相关国家/地区的两用要求
 

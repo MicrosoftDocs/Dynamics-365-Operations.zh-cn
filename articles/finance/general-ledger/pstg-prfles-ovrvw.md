@@ -1,6 +1,6 @@
 ---
 title: 过帐模板概览
-description: 本主题介绍如何在整个 Microsoft Dynamics 365 应用中使用过帐模板。
+description: 本文介绍如何在整个 Microsoft Dynamics 365 应用中使用过帐模板。
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876115"
 ---
 # <a name="posting-profiles-overview"></a>过帐模板概览
 

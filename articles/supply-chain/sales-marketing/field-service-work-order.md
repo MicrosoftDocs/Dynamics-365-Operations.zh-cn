@@ -1,6 +1,6 @@
 ---
 title: 将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
-description: 本主题讨论用于将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单的模板和基础任务。
+description: 本文讨论用于将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单的模板和基础任务。
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860513"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>将 Field Service 中的工作订单同步到 Supply Chain Management 中的销售订单
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061301"
 
 
 
-本主题讨论用于将 Dynamics 365 Field Service 中的工作订单同步到 Dynamics 365 Supply Chain Management 中的销售订单的模板和基础任务。
+本文讨论用于将 Dynamics 365 Field Service 中的工作订单同步到 Dynamics 365 Supply Chain Management 中的销售订单的模板和基础任务。
 
 [![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ ms.locfileid: "8061301"
 
 默认情况下，映射为通过工作订单创建的所有销售订单选择 **工作订单集成** 销售订单来源类型的销售订单来源。 在 Supply Chain Management 中处理销售订单时，此行为可能非常有用。 必须确保不将源自工作订单的销售订单作为工作订单同步回 Field Service。
 
-有关如何在 Supply Chain Management 中创建正确的销售订单来源设置的详细信息，请参阅本主题中的“先决条件和映射设置”部分。
+有关如何在 Supply Chain Management 中创建正确的销售订单来源设置的详细信息，请参阅本文的“先决条件和映射设置”一节。
 
-### <a name="status"></a>状态
+### <a name="status"></a>Status
 
 如果销售订单源自工作订单，则销售订单头的 **设置** 选项卡上将显示 **外部工作订单状态**。 此字段显示 Field Service 中的工作订单的系统状态，帮助跟踪 Supply Chain Management 中销售订单的同步后工作订单状态。 此字段还帮助用户确定应何时为销售订单发货或开票。
 

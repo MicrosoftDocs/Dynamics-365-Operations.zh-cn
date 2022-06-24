@@ -1,6 +1,6 @@
 ---
 title: 设计电子报告格式以将行保持在同一 Excel 页面上
-description: 本主题说明如何设计一种电子报告 (ER) 格式，将行保持在同一 Microsoft Excel 页面上。
+description: 本文说明如何设计一种电子报告 (ER) 格式，将行保持在同一 Microsoft Excel 页面上。
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854660"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>设计电子报告格式以将行保持在同一 Excel 页面上
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题说明系统管理员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) [格式](er-overview-components.md#format-component)，以在 Microsoft Excel 中生成传出文档并管理文档分页，以让创建的行保持在同一页面上。
+本文说明系统管理员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) [格式](er-overview-components.md#format-component)，以在 Microsoft Excel 中生成传出文档并管理文档分页，以让创建的行保持在同一页面上。
 
 在此示例中，您将修改 Microsoft 提供的用于在 Excel 中打印普通发票的 ER 格式。 您的修改将使您能够管理生成的普通发票报表的分页，以尽可能将单个发票行的所有行保持在同一页面上。
 
-本主题中的过程可以在 **USMF** 公司完成。 无需进行编码。
+本文中的过程可以在 **USMF** 公司完成。 无需进行编码。
 
 在此示例中，将为示例公司 **Litware, Inc.** 创建所需 ER [配置](general-electronic-reporting.md#Configuration)。 确保为 ER 框架列出了 **Litware, Inc.** (`http://www.litware.com`) 示例公司的配置提供程序，并且它被标记为 **活动**。 如果未列出此配置提供程序，或者未将其标记为 **活动** 状态，请按照[创建一个配置提供程序，并标记其为活动状态](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
 
@@ -73,7 +73,7 @@ ms.locfileid: "8612334"
 
     ![在 Excel 桌面应用程序中查看生成的普通发票的分页。](./media/er-keep-excel-rows-together-invoice1.gif)
 
-本主题中的其余过程展示了如何调整标准 ER 格式，以通过将单个发票行的所有内容保留在同一页面上来改进发票报表的外观和可读性。
+本文中的其余过程展示了如何调整标准 ER 格式，以通过将单个发票行的所有内容保留在同一页面上来改进发票报表的外观和可读性。
 
 ## <a name="create-a-custom-format"></a>创建自定义格式
 

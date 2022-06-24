@@ -1,6 +1,6 @@
 ---
 title: 电子开票设置
-description: 本主题概述了设置和配置电子开票的流程。
+description: 本文概述了设置和配置电子开票的流程。
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883110"
 ---
 # <a name="electronic-invoicing-setup"></a>电子开票设置
 
 [!include [banner](../includes/banner.md)]
 
-本主题概述了设置和配置电子开票的流程。 您必须按照此处指定的顺序完成设置步骤。 如果某个步骤是必需的，但您跳过了它，此功能将无法正常工作，并且在后续步骤或您使用此功能时会多次出现失败。 
+本文概述了设置和配置电子开票的流程。 您必须按照此处指定的顺序完成设置步骤。 如果某个步骤是必需的，但您跳过了它，此功能将无法正常工作，并且在后续步骤或您使用此功能时会多次出现失败。 
 
 在开始之前，请确保所有主要组件均已正确设置，您已注册监管 Regulatory Configuration Service (RCS) 并且已有 RCS 实例，且已为您的 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 环境安装了电子开票加载项。 有关详细信息，请参阅[注册并安装电子开票](e-invoicing-install-add-in-microservices-lcs.md)。
 

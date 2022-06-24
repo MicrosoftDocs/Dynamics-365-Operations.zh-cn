@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851237"
 ---
 # <a name="wave-template-grouping"></a>波次模板分组
 
@@ -41,7 +41,7 @@ ms.locfileid: "7579896"
 若要启用波次模板分组功能，请执行以下步骤设置[波次模板](tasks/configure-wave-processing.md)。
 
 1. 转到 **仓库管理 \> 设置 \> 波次 \> 波次模板**。
-1. 在左侧窗格中，选择要设置的波次模板。 如果准备使用演示数据完成本主题后文的场景，请选择 **62 装运默认** 模板。
+1. 在左侧窗格中，选择要设置的波次模板。 如果准备使用演示数据完成本文后面的场景，请选择 **62 装运默认** 模板。
 1. 选择 **编辑** 将页面设置为编辑模式。
 1. 在 **常规** 快速选项卡上，设置以下值：
 
@@ -84,7 +84,7 @@ ms.locfileid: "7579896"
 
 此场景显示如何使用波次模板分组功能根据波次模板中定义的分组条件自动创建多个波次。 在此场景中，系统中将波次模板设置成为每个承运人服务创建一个波次。
 
-首先，按照本主题前面的[设置波次模板以使用波次模板分组功能](#set-up-template)部分中的介绍准备波次模板。 如果要为此场景使用演示数据，请务必使用该过程中推荐的演示数据值。 此设置将根据为每个销售订单设置的承运人服务为波次分组。
+首先，按照本文前面的[设置波次模板以使用波次模板分组功能](#set-up-template)一节中的介绍准备波次模板。 如果要为此场景使用演示数据，请务必使用该过程中推荐的演示数据值。 此设置将根据为每个销售订单设置的承运人服务为波次分组。
 
 #### <a name="create-sales-order-1"></a>创建销售订单 1
 

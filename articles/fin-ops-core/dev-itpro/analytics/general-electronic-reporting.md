@@ -1,6 +1,6 @@
 ---
-title: 电子申报 (ER) 概览
-description: 此主题概要介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
+title: 电子报告 (ER) 概览
+description: 本文概括介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869248"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
+本文概括介绍了电子报告 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
 
 ER 是一种可配置的工具，可帮助您创建和维护监管电子报告和付款。 它基于以下三个概念：
 

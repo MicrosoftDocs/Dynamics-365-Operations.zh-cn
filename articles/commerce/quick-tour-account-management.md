@@ -1,6 +1,6 @@
 ---
 title: 帐户管理页面概览
-description: 此主题概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
+description: 本文概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868875"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
+本文概述 Microsoft Dynamics 365 Commerce 中的帐户管理页。
 
 客户可使用帐户管理页查看与其帐户和订单有关的信息。 帐户管理页包括帐户管理登陆页，以及用户的个人资料页、地址页、订单历史记录页、订单详细信息页、积分页和愿望列表页。
 

@@ -1,6 +1,6 @@
 ---
 title: 集装箱活动实体
-description: 本主题提供有关集装箱活动的信息，这些活动用于跟踪装运集装箱的进度。
+description: 本文提供有关集装箱活动的信息，这些活动用于跟踪装运集装箱的进度。
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7bb2b97e8885e3b1265f0c93585873c8a64f1dfb
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b69d26ee8abaa403f6a0ef3b03d9015fe507dd5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873947"
 ---
 # <a name="container-activities-entity"></a>集装箱活动实体
 

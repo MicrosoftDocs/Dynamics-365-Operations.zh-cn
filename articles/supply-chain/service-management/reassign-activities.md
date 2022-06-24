@@ -1,6 +1,6 @@
 ---
 title: 重新分配活动
-description: 本主题描述如何将服务活动从一个工作人员重新分配给另一个工作人员。
+description: 本文描述如何将服务活动从一个工作人员重新分配给另一个工作人员。
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55ebcda19aba074191a2820d2ac7faf27313db8e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f6cd7523a9185de0bb2dfd81ffb3fe5e7dba5e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860455"
 ---
 # <a name="reassign-activities"></a>重新分配活动 
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题描述如何将服务活动从一个工作人员重新分配给另一个工作人员。 您可以轻松地将一个工作人员的服务活动重新分配给其他工作人员，即使这些工作人员被分配到不同的派遣团队。
+本文描述如何将服务活动从一个工作人员重新分配给另一个工作人员。 您可以轻松地将一个工作人员的服务活动重新分配给其他工作人员，即使这些工作人员被分配到不同的派遣团队。
 
 使用以下步骤将活动重新分配给另一个工作人员：
 

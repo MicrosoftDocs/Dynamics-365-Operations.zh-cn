@@ -1,6 +1,6 @@
 ---
 title: 成本计算参数值设置
-description: 当您设置登陆成本模块时，可以定义几组通用值，来当您在应用的其他部分选择特定类型的成本计算参数值时使用。 本主题说明如何设置这些值集。
+description: 当您设置登陆成本模块时，可以定义几组通用值，来当您在应用的其他部分选择特定类型的成本计算参数值时使用。 本文说明如何设置这些值集。
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852322"
 ---
 # <a name="costing-parameter-values-setup"></a>成本计算参数值设置
 
 [!include [banner](../../includes/banner.md)]
 
-当您设置 **登陆成本** 时，您可以定义几组通用值以及每个值的相关设置。 这些值将在您在应用的其他部分选择特定类型的成本计算参数值时可用。 本主题说明如何设置这些值集。
+当您设置 **登陆成本** 时，您可以定义几组通用值以及每个值的相关设置。 这些值将在您在应用的其他部分选择特定类型的成本计算参数值时可用。 本文说明如何设置这些值集。
 
 ## <a name="set-up-cost-type-codes"></a>设置成本类型代码
 

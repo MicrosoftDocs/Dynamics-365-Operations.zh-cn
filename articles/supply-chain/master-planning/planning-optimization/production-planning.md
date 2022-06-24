@@ -1,6 +1,6 @@
 ---
 title: 生产计划
-description: 本主题介绍生产计划，并说明如何使用计划优化来修改计划的生产订单。
+description: 本文介绍生产计划，并说明如何使用计划优化来修改计划的生产订单。
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873773"
 ---
 # <a name="production-planning"></a>生产计划
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469049"
 
 计划优化支持多个生产场景。 如果要从现有的内置主计划引擎迁移，请注意某些变更的行为，这一点很重要。
 
-以下视频简要介绍了本主题中讨论的一些概念：[Dynamics 365 Supply Chain Management：计划优化增强](https://youtu.be/u1pcmZuZBTw)。
+以下视频简要介绍了本文中讨论的一些概念：[Dynamics 365 Supply Chain Management：计划优化增强](https://youtu.be/u1pcmZuZBTw)。
 
 ## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化的计划生产订单* 功能。
+如果您的系统尚未包含本文中所述的功能，请转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化的计划生产订单* 功能。
 
 ## <a name="planned-production-orders"></a>计划生产订单
 
@@ -65,7 +65,7 @@ ms.locfileid: "8469049"
 2. 审核计划订单。
 3. 运行主计划。
 
-运行主计划时，如果包含计划生产订单，则不应使用筛选器。 有关详细信息，请参阅本主题后面的[筛选器](#filters)一节。
+运行主计划时，如果包含计划生产订单，则不应使用筛选器。 有关详细信息，请参阅本文后面的[筛选器](#filters)一节。
 
 > [!NOTE]
 > 如果计划订单的交货日期更改为以后的日期，可能会根据新计划订单对需求加以限定。 当新供应日期导致限定需求出现延迟，但是根据提前期设置，可以避免这一延迟，这时会发生此行为。

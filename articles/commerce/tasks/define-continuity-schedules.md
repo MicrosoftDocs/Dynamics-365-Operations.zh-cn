@@ -1,6 +1,6 @@
 ---
 title: 定义连续性计划
-description: 本主题逐步演示如何设置连续性计划（也称为重复订单）。
+description: 本文逐步演示如何设置连续性计划（也称为重复订单）。
 author: josaw1
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7b05bc82acfad89c9b50777bd0c5fd85f7bda90efd73f278f122c9aa0d073df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faa55c844c8ee8742fbb0868b55a520cec6686aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885076"
 ---
 # <a name="define-continuity-schedules"></a>定义连续性计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题逐步演示如何设置连续性计划（也称为重复订单）。 本主题使用演示数据中的公司 USRT。
+本文逐步演示如何设置连续性计划（也称为重复订单）。 本文在演示数据中使用 USRT 公司。
 
 
 ## <a name="create-continuity-program"></a>创建连续性计划

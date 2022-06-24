@@ -1,6 +1,6 @@
 ---
 title: 销售订单的信用保留
-description: 本主题描述了用于将销售订单置于信用保留状态的规则的设置。
+description: 本文描述了用于将销售订单置于信用保留状态的规则的设置。
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856819"
 ---
 # <a name="credit-holds-for-sales-orders"></a>销售订单的信用保留
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题描述了用于将销售订单置于信用保留状态的规则的设置。 信用管理锁定规则可以应用于单个客户或一组客户。 锁定规则定义了针对以下情况的响应：
+本文描述了用于将销售订单置于信用保留状态的规则的设置。 信用管理锁定规则可以应用于单个客户或一组客户。 锁定规则定义了针对以下情况的响应：
 
 1. 逾期天数
 2. 帐户状态

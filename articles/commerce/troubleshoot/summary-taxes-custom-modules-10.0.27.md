@@ -1,6 +1,6 @@
 ---
-title: 使用自定义订单汇总模块时，订单汇总小计不包括费用税
-description: 本主题提供了疑难解答指导，在您使用自定义的订单汇总模块，并且订单汇总小计在“价格包括销售税”方案中不包括费用税时，此指导可提供帮助。
+title: 使用自定义订单摘要模块时，订单摘要小计不包括费用中的税费
+description: 本文提供了故障排除指南，在您使用自定义的订单汇总模块，并且订单汇总小计在“价格包括销售税”方案中不包括费用税时，此指导可提供帮助。
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848829"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>使用自定义订单汇总模块时，订单汇总小计不包括费用税
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>使用自定义订单摘要模块时，订单摘要小计不包括费用中的税费
 
-本主题提供了疑难解答指导，在您使用自定义的订单汇总模块，并且订单汇总小计在“价格包括销售税”方案中不包括费用税时，此指导可提供帮助。
+本文提供了故障排除指南，在您使用自定义的订单汇总模块，并且订单汇总小计在“价格包括销售税”方案中不包括费用税时，此指导可提供帮助。
 
 ## <a name="description"></a>Description
 

@@ -1,6 +1,6 @@
 ---
 title: 工程更改管理参数
-description: 本主题介绍如何为 Microsoft Dynamics 365 Supply Chain Management 配置工程更改管理功能。
+description: 本文介绍如何为 Microsoft Dynamics 365 Supply Chain Management 配置工程更改管理功能。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875501"
 ---
 # <a name="engineering-change-management-parameters"></a>工程更改管理参数
 
@@ -27,7 +27,7 @@ ms.locfileid: "7581000"
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>打开工程更改管理参数页面
 
-若要打开 **工程更改管理参数** 页面，请转到 **工程更改管理 \> 设置 \> 工程更改管理参数**。 然后，您可以按照本主题其余部分中的说明设置字段。
+若要打开 **工程更改管理参数** 页面，请转到 **工程更改管理 \> 设置 \> 工程更改管理参数**。 然后，您可以按照本文其余各节中的说明设置字段。
 
 ## <a name="release-control-tab"></a>发布控制选项卡
 

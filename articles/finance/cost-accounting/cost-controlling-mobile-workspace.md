@@ -1,6 +1,6 @@
 ---
 title: 成本控制移动工作区
-description: 此主题提供有关成本控制移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
+description: 本文提供有关成本控制移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 author: AndersGirke
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874658"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-此主题提供有关 **成本控制** 移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
+本文提供有关 **成本控制** 移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 
 此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
 

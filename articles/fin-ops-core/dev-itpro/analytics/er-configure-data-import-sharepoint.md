@@ -1,6 +1,6 @@
 ---
 title: 配置从 SharePoint 的数据导入
-description: 本主题介绍如何从 Microsoft SharePoint 导入数据。
+description: 本文介绍如何从 Microsoft SharePoint 导入数据。
 author: NickSelin
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0163ece2f61735073567b32a45d3dc6df8be1864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864769"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
 [!include[banner](../includes/banner.md)]
 
-若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为 **截止目标** 的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本主题介绍如何完成从 SharePoint 的导入。 示例将供应商交易记录用作业务数据。
+若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为 **截止目标** 的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本文介绍如何完成从 SharePoint 的导入。 示例将供应商交易记录用作业务数据。
 
 ## <a name="prerequisites"></a>先决条件
-要完成本主题中的示例，您必须具有以下访问权限：
+要完成本文中的示例，您必须具有以下访问权限：
 
 - 访问以下其中一个角色：
 

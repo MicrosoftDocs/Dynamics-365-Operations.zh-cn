@@ -1,6 +1,6 @@
 ---
 title: 波兰税控打印机集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876941"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>波兰税控打印机集成示例
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
 
 波兰的 Dynamics 365 Commerce 功能包括销售点 (POS) 与会计打印机的示例集成。 该示例扩展[会计整合功能](fiscal-integration-for-retail-channel.md)，并支持 [Posnet Polska S.A](https://www.posnet.com.pl) 中会计打印机的 POSNET 2.02 协议。该示例允许使用本机软件驱动程序与通过 COM 端口连接的会计打印机进行通信。 它是通过使用 Posnet 为 Posnet Thermal HD FV EJ 会计打印机提供的软件模拟器来实现和测试的。 该示例以源代码的形式提供，是 Retail 软件开发工具包 (SDK) 的一部分。
 

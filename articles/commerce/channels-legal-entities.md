@@ -1,6 +1,6 @@
 ---
 title: 创建法人
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建法人，必须在创建渠道之前创建和配置法人。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建法人，必须在创建渠道之前创建和配置法人。
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 160dd82298705eab9edecb9d30d051382b6b4471
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847698"
 ---
 # <a name="create-legal-entities"></a>创建法人
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建法人，必须在创建渠道之前创建和配置法人。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建法人，必须在创建渠道之前创建和配置法人。
 
 法人是具有已登记的或法律允许的法律结构的组织。 法人可以输入到法律合同，并需要准备报告它们的业绩的报表。
 

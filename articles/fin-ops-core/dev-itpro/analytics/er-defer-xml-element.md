@@ -1,6 +1,6 @@
 ---
-title: 推迟执行 ER 格式的 XML 元素
-description: 本主题说明如何推迟执行电子报告 (ER) 格式的 XML 元素。
+title: 推迟执行电子报告格式的 XML 元素
+description: 本文说明如何推迟执行电子报告 (ER) 格式的 XML 元素。
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 074b14cbb018a8e34b99124b8aaec3a5bdb30be2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861836"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>推迟执行 ER 格式的 XML 元素
 
@@ -32,7 +32,7 @@ ms.locfileid: "8323707"
 
 通过对已配置格式的 XML 元素打开 <a name="DeferredXmlElementExecution"></a>**推迟执行** 选项，可以推迟（延迟）执行该元素。 在这种情况下，该元素只有在其父元素的所有其他元素都已运行后才能运行。
 
-若要了解有关此功能的详细信息，请完成本主题中的示例。
+若要了解有关此功能的详细信息，请完成本文中的示例。
 
 ## <a name="limitations"></a>限制
 
@@ -55,7 +55,7 @@ ms.locfileid: "8323707"
 - 电子申报功能顾问
 - 系统管理员
 
-如果您尚未完成[推迟执行 ER 格式的序列元素](er-defer-sequence-element.md#Example)主题中的示例，请下载示例 ER 解决方案的以下[配置](general-electronic-reporting.md#Configuration)。
+如果您尚未完成[推迟执行 ER 格式的序列元素](er-defer-sequence-element.md#Example)一文中的示例，请下载示例 ER 解决方案的以下[配置](general-electronic-reporting.md#Configuration)。
 
 | 内容描述            | 文件名 |
 |--------------------------------|-----------|
@@ -95,7 +95,7 @@ ms.locfileid: "8323707"
 ### <a name="activate-a-configuration-provider"></a>激活配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 Litware, Inc. (`http://www.litware.com`) 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出此配置提供程序，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](./tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
+2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 Litware, Inc. (`http://www.litware.com`) 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出此配置提供程序，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](./tasks/er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤操作。
 
     ![“本地化配置”页面上的 Litware, Inc. 示例公司。](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 

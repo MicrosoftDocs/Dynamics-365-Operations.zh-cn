@@ -1,6 +1,6 @@
 ---
 title: 装运集装箱
-description: 本主题介绍如何为登陆成本模块设置装运集装箱。
+description: 本文介绍如何为登陆成本模块设置装运集装箱。
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860833"
 ---
 # <a name="shipping-container-setup"></a>装运集装箱设置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为 **登陆成本** 模块设置装运集装箱。
+本文介绍如何为 **登陆成本** 模块设置装运集装箱。
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>设置装运集装箱类型
 
@@ -53,7 +53,7 @@ ms.locfileid: "8690545"
 | 字段 | 说明 |
 |---|---|
 | 装运集装箱 | 为装运集装箱输入唯一标识名称/编号。 |
-| 装运集装箱类型 | 选择装运集装箱的类型。 有关详细信息，请参阅本主题前面的[设置装运集装箱类型](#shipping-container-types)一节。 |
+| 装运集装箱类型 | 选择装运集装箱的类型。 有关详细信息，请参阅本文前面的[设置装运集装箱类型](#shipping-container-types)一节。 |
 
 > [!NOTE]
 > - 装运集装箱设置是可选的。 通常，仅当您的公司有自己的装运集装箱或经常重复使用相同的装运集装箱时，您才会使用它。

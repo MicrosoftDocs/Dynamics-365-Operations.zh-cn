@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846204"
 ---
 # <a name="compare-item-prices-storage-report"></a>比较物料价格存储报表
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何运行 **比较物料价格存储** 报表并以数字方式提供输出，可以是 Dynamics 365 Supply Chain Management 中的交互式页面，也可以是多种格式中任何一种的导出文档。
+本文说明如何运行 **比较物料价格存储** 报表并以数字方式提供输出，可以是 Dynamics 365 Supply Chain Management 中的交互式页面，也可以是多种格式中任何一种的导出文档。
 
 在浏览器中查看此报表时，将根据配置的布局动态调整列和聚合余额。 可以对结果排序，进行过滤，以及向下钻取到数据中，等等。
 

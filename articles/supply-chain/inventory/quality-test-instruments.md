@@ -1,6 +1,6 @@
 ---
-title: 质量管理测试仪器
-description: 本主题介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行测试的测试仪器。
+title: 质量管理测试工具
+description: 本文介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行测试的测试仪器。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 36b712e6a99a0625af28ef121d0c9c39c1e32603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857654"
 ---
-# <a name="quality-management-test-instruments"></a>质量管理测试仪器
+# <a name="quality-management-test-instruments"></a>质量管理测试工具
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行测试的测试仪器。
+本文介绍如何创建可用于在 Microsoft Dynamics 365 Supply Chain Management 中对质检订单进行测试的测试仪器。
 
 您将使用 **测试仪器** 页定义和查看有关用于对质检订单执行测试的设备的详细信息。 测试仪器是可选的。 但是，它们可以帮助质量工作人员了解应该使用哪个设备或工具来执行特定测试。
 

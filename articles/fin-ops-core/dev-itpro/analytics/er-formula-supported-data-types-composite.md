@@ -1,6 +1,6 @@
 ---
 title: 电子申报公式支持的复合数据类型
-description: 本主题提供有关电子申报 (ER) 公式支持的复合数据类型的信息。
+description: 本文提供有关电子报告 (ER) 公式支持的复合数据类型的信息。
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869306"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的复合数据类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关[电子申报 (ER)](general-electronic-reporting.md) 表达式支持的复合数据类型的信息。 复合数据类型包括[类](#class)、[容器](#container)、[记录](#record)、[记录列表](#record-list)和[对象](#object)。
+本文提供有关[电子报告 (ER)](general-electronic-reporting.md) 表达式支持的复合数据类型的信息。 复合数据类型包括[类](#class)、[容器](#container)、[记录](#record)、[记录列表](#record-list)和[对象](#object)。
 
 ## <a name="class"></a><a name="class"></a>分类
 

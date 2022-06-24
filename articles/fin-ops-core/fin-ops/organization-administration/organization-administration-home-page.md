@@ -1,6 +1,6 @@
 ---
 title: 组织管理主页
-description: 此主题指向可在组织中帮助您的资源。
+description: 本文指向可在组织中帮助您的资源。
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882040"
 ---
 # <a name="organization-administration-home-page"></a>组织管理主页
 
 [!include [banner](../includes/banner.md)]
 
-此主题针对将帮助超级用户和管理员配置系统，使其顺畅有效地为您的组织和业务工作的内容。
+本文针对将帮助超级用户和管理员配置系统，使其顺畅有效地为您的组织和业务工作的内容。
 
 此处列出的许多内容适用于在 **组织管理** 模块中的功能。 但是，有一些任务，如创建和使用记录模板，可以在任何模块中执行以帮助您的组织更加有效地运行。
 

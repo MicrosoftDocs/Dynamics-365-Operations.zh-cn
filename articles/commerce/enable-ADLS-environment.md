@@ -1,6 +1,6 @@
 ---
 title: 在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
-description: 本主题提供有关如何将 Azure Data Lake Storage Gen 2 解决方案连接到 Dynamics 365 Commerce 环境的实体存储的说明。 启用产品建议之前必须执行此步骤。
+description: 本文提供有关如何将 Azure Data Lake Storage Gen 2 解决方案连接到 Dynamics 365 Commerce 环境的实体存储的说明。 启用产品建议之前必须执行此步骤。
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885163"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage
 
 [!include [banner](includes/banner.md)]
 
-本主题提供有关如何将 Azure Data Lake Storage Gen2 解决方案连接到 Dynamics 365 Commerce 环境的实体存储的说明。 启用产品建议之前必须执行此步骤。
+本文提供有关如何将 Azure Data Lake Storage Gen2 解决方案连接到 Dynamics 365 Commerce 环境的实体存储的说明。 启用产品建议之前必须执行此步骤。
 
 在 Dynamics 365 Commerce 解决方案中，环境的实体存储中聚合了计算建议、产品和交易记录所需数据。 为了使此数据可供其他 Dynamics 365 服务（例如数据分析、商业智能和个性化建议）访问，必须将环境连接到客户拥有的 Azure Data Lake Storage Gen2 解决方案。
 

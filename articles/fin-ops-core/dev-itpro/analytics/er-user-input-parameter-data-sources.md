@@ -1,6 +1,6 @@
 ---
 title: 使用用户输入参数数据源指定报表的参数
-description: 本主题说明如何使用用户输入参数数据源为您生成的报表指定参数。
+description: 本文说明如何使用用户输入参数数据源为您生成的报表指定参数。
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872963"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>使用用户输入参数数据源指定报表的参数
 
 [!include[banner](../includes/banner.md)]
 
-当您设计 [电子报告](general-electronic-reporting.md) (ER) [模型映射](er-overview-components.md#model-mapping-component)和 ER [格式](er-overview-components.md#format-component)组件时，您可以使用 *用户输入参数* 类型的数据源，以获取可在运行时在对话框数据输入字段中指定的必需值，然后开始执行 ER 格式。 本主题介绍了当前支持的 *用户输入参数* 数据源。
+当您设计 [电子报告](general-electronic-reporting.md) (ER) [模型映射](er-overview-components.md#model-mapping-component)和 ER [格式](er-overview-components.md#format-component)组件时，您可以使用 *用户输入参数* 类型的数据源，以获取可在运行时在对话框数据输入字段中指定的必需值，然后开始执行 ER 格式。 本文介绍了当前支持的 *用户输入参数* 数据源。
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>必需属性
 

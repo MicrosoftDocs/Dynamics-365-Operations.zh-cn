@@ -1,6 +1,6 @@
 ---
 title: 嵌入第三方应用
-description: 本主题说明如何嵌入第三方应用以扩展产品的功能。
+description: 本文说明如何嵌入第三方应用以扩展产品的功能。
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868599"
 ---
 # <a name="embed-third-party-apps"></a>嵌入第三方应用
 
 [!include [banner](../includes/banner.md)]
 
-很多客户使用各种应用程序来开展业务。 这些应用程序中有一些是与 Finance and Operations 应用结合使用的第三方 Web 应用。 要提供更无缝的用户体验，您可以使用 **整页应用** 功能将那些第三方应用直接嵌入到您的 Finance and Operations 应用中（前提是第三方应用允许被嵌入）。 这样，用户可以访问所需的网站和应用，而无需切换选项卡或窗口。
+很多客户使用各种应用程序来开展业务。 这些应用程序中有一些是与财务和运营应用结合使用的第三方 Web 应用。 要提供更无缝的用户体验，您可以使用 **整页应用** 功能将那些第三方应用直接嵌入到您的财务和运营应用中（前提是第三方应用允许被嵌入）。 这样，用户可以访问所需的网站和应用，而无需切换选项卡或窗口。
 
-您必须先在“功能管理”中打开 **整页应用** 功能，然后才能够将第三方应用嵌入产品。 然后，您可以使用以下方法之一嵌入第三方应用或网站。 这些方法类似于将 Microsoft Power Apps 中的画布应用嵌入到 Finance and Operations 应用的方法。
+您必须先在“功能管理”中打开 **整页应用** 功能，然后才能够将第三方应用嵌入产品。 然后，您可以使用以下方法之一嵌入第三方应用或网站。 这些方法类似于将 Microsoft Power Apps 中的画布应用嵌入到财务和运营应用的方法。
 
 - 将应用或网站作为新的选项卡（数据透视选项卡、快速选项卡、边栏选项卡或工作区部分）嵌入到现有页面。
 - 从仪表板为应用或网站创建新的整页体验。
@@ -53,14 +53,14 @@ ms.locfileid: "7488226"
     > - 必须将应用或网站配置为允许被嵌入。
 
 6. 选择 **保存** 将应用嵌入页面。 应用将被添加为组中的最后一个选项卡或部分。
-7. 确认应用按预期显示。 如果应用未呈现，请参阅本主题后面的[故障排除](#troubleshooting)一节。
+7. 确认应用按预期显示。 如果应用未呈现，请参阅本文后面的[故障排除](#troubleshooting)一节。
 8. 打开视图选择器，选择 **保存**（如果应用应与当前视图关联）或 **另存为**（将应用保存到其他视图）。
 
     如果页面没有视图选择器（例如，如果页面是对话框或工作区），可以跳过此步骤。
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>从仪表板将网站嵌入为整页体验
 
-如果您要嵌入的应用与现有页面不相关，或者您只想在 Finance and Operations 应用中获得该应用的整页体验，请使用此过程。
+如果您要嵌入的应用与现有页面不相关，或者您只想在财务和运营应用中获得该应用的整页体验，请使用此过程。
 
 1. 打开仪表板。
 2. 选择并按住（或右键单击）此仪表反，选择 **个性化**，然后选择 **添加页面**。
@@ -75,7 +75,7 @@ ms.locfileid: "7488226"
     > - 必须将应用或网站配置为允许被嵌入。
 
 5. 选择 **保存** 将应用作为新磁贴添加到仪表板。
-6. 选择仪表板上的新磁贴，确认应用按预期显示。 如果应用未呈现，请参阅本主题后面的[故障排除](#troubleshooting)一节。
+6. 选择仪表板上的新磁贴，确认应用按预期显示。 如果应用未呈现，请参阅本文后面的[故障排除](#troubleshooting)一节。
 
 ## <a name="sharing-embedded-apps"></a>共享嵌入的应用
 
@@ -89,7 +89,7 @@ ms.locfileid: "7488226"
 
 ## <a name="viewing-embedded-apps"></a>查看嵌入的应用
 
-要在 Finance and Operations 应用中的页面上查看嵌入的应用，打开包含嵌入的应用的页面。 请记住，在有些页面上，可以使用标准操作窗格上的 **Power Apps** 按钮访问嵌入的应用。 或者，它们可以作为新选项卡、快速选项卡或边栏选项卡，或者工作区中的新部分直接显示在页面上。
+要在财务和运营应用中的页面上查看嵌入的应用，打开包含嵌入的应用的页面。 请记住，在有些页面上，可以使用标准操作窗格上的 **Power Apps** 按钮访问嵌入的应用。 或者，它们可以作为新选项卡、快速选项卡或边栏选项卡，或者工作区中的新部分直接显示在页面上。
 
 ## <a name="editing-or-removing-embedded-apps"></a>编辑或删除嵌入的应用
 
@@ -126,6 +126,6 @@ ms.locfileid: "7488226"
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[开发人员] 在窗体上为网站建模
 
-本主题的重点是通过个性化嵌入第三方应用或网站，但开发人员也可以使用 Visual Studio 开发体验将它们嵌入到窗体中。 只需将 **WebsiteHostControl** 控件添加到窗体中。 控件可用的元数据属性提供与个性化体验相同的功能。
+本文的重点是通过个性化嵌入第三方应用或网站，但开发人员也可以使用 Visual Studio 开发体验将它们嵌入到窗体中。 只需将 **WebsiteHostControl** 控件添加到窗体中。 控件可用的元数据属性提供与个性化体验相同的功能。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

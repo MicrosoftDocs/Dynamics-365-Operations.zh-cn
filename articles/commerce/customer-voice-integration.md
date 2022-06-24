@@ -1,6 +1,6 @@
 ---
 title: 将 Customer Voice 集成到电子商务站点页面中
-description: 本主题介绍如何将 Microsoft Dynamics 365 Customer Voice 集成到 Dynamics 365 Commerce 电子商务站点页面。
+description: 本文介绍如何将 Microsoft Dynamics 365 Customer Voice 集成到 Dynamics 365 Commerce 电子商务站点页面。
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850322"
 ---
 # <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>将 Customer Voice 集成到电子商务站点页面中
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何将 Microsoft Dynamics 365 Customer Voice 集成到 Dynamics 365 Commerce 电子商务站点页面。
+本文介绍如何将 Microsoft Dynamics 365 Customer Voice 集成到 Dynamics 365 Commerce 电子商务站点页面。
 
 您可以将 [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) 集成到电子商务站点中，以收集、分析和跟踪实时客户反馈。 要开始集成，您必须创建一个帐户并为您要收集的反馈类型选择一个 Customer Voice 项目模板。
 
@@ -37,7 +37,7 @@ ms.locfileid: "8767940"
 1. 选择您要收集的反馈类型的项目模板，然后选择 **下一步**。
 1. 在 **发送** 选项卡上的 **选择嵌入格式** 下面，选择嵌入格式。 **嵌入式代码** 字段显示必须在 Commerce 站点生成器中嵌入的代码。
 
-本主题中的示例使用 **定期客户调查** 项目模板和 **按钮** 嵌入格式。
+本文中的示例使用 **定期客户调查** 项目模板和 **按钮** 嵌入格式。
 
 以下示例图显示了 **定期客户调查** 项目模板页面，其中选择了 **按钮** 嵌入格式的选项，并且该选项的嵌入代码显示在 **嵌入代码** 字段中。 如以下部分所述，将提供的代码嵌入您的站点页面需要执行三项单独的操作。
 

@@ -1,6 +1,6 @@
 ---
-title: 税务计算数据模型
-description: 本主题介绍税务数据模型，以及税务计算交易记录上下文如何确定各数据模型的字段值。
+title: 税款计算数据模型
+description: 本文介绍税务数据模型，以及税款计算交易记录上下文如何确定各数据模型的字段值。
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859686"
 ---
-# <a name="tax-calculation-data-model"></a>税务计算数据模型
+# <a name="tax-calculation-data-model"></a>税款计算数据模型
 
-本主题介绍如何在税务计算交易记录中确定税务数据模型中的字段值。
+本文介绍如何在税款计算交易记录中确定税务数据模型中的字段值。
 
 *税务数据模型* 由税务计算所需字段构成。 Microsoft 提供 *税务计算数据模型*，该模型在 Finance and Operations 应用中添加交易单据的标题字段和子项字段。 税务计算数据模型中定义的字段是税务计算功能配置的配置中的适用性规则表可用列。
 
@@ -99,7 +99,7 @@ ms.locfileid: "8694247"
 | 收货省/自治区/直辖市          | <ul><li>**销售订单：**<ol><li>标题 &gt; 交货地址 &gt; 省/自治区/直辖市</li></ol></li><li>**采购订单：**<ol><li>标题 &gt; 交货地址 &gt; 省/自治区/直辖市</li></ol></li><li>**转移单 – 发货：**<ol><li>标题 &gt; 收货仓库 &gt; 主地址 &gt; 省/自治区/直辖市</li><li>标题 &gt; 收货站点 &gt; 主地址 &gt; 省/自治区/直辖市</li></ol></li><li>**转移单 – 收货：**<ol><li>标题 &gt; 收货仓库 &gt; 主地址 &gt; 省/自治区/直辖市</li><li>标题 &gt; 收货站点 &gt; 主地址 &gt; 省/自治区/直辖市</li></ol></li><li>**询价：**<ol><li>标题 &gt; 交货地址 &gt; 省/自治区/直辖市</li></ol></li><li>**销售报价单：**<ol><li>标题 &gt; 交货地址 &gt; 省/自治区/直辖市</li></ol></li><li>**普通发票：**<ol><li>标题 &gt; 客户帐户 &gt; 默认交货地址 &gt; 省/自治区/直辖市</li><li>标题 &gt; 客户帐户 &gt; 主地址 &gt; 省/自治区/直辖市</li></ol></li><li>**日记帐（客户）：**<ol><li>客户帐户 &gt; 默认交货地址 &gt; 省/自治区/直辖市</li><li>客户帐户 &gt; 主地址 &gt; 省/自治区/直辖市</li></ol></li><li>**日记帐（供应商）：**<ol><li>法人 &gt; 默认交货地址 &gt; 省/自治区/直辖市</li><li>法人 &gt; 主地址 &gt; 省/自治区/直辖市</li></ol></li></ul> |
 | 收货方邮政编码                 | <ul><li>**销售订单：**<ol><li>标题 &gt; 交货地址 &gt; 邮政编码</li></ol></li><li>**采购订单：**<ol><li>标题 &gt; 交货地址 &gt; 邮政编码</li></ol></li><li>**转移单 – 发货：**<ol><li>标题 &gt; 收货仓库 &gt; 主地址 &gt; 邮政编码</li><li>标题 &gt; 收货站点 &gt; 主地址 &gt; 邮政编码</li></ol></li><li>**转移单 – 收货：**<ol><li>标题 &gt; 收货仓库 &gt; 主地址 &gt; 邮政编码</li><li>标题 &gt; 收货站点 &gt; 主地址 &gt; 邮政编码</li></ol></li><li>**询价：**<ol><li>标题 &gt; 交货地址 &gt; 邮政编码</li></ol></li><li>**销售报价单：**<ol><li>标题 &gt; 交货地址 &gt; 邮政编码</li></ol></li><li>**普通发票：**<ol><li>标题 &gt; 客户帐户 &gt; 默认交货地址 &gt; 邮政编码</li><li>标题 &gt; 客户帐户 &gt; 主地址 &gt; 邮政编码</li></ol></li><li>**日记帐（客户）：**<ol><li>客户帐户 &gt; 默认交货地址 &gt; 邮政编码</li><li>客户帐户 &gt; 主地址 &gt; 邮政编码</li></ol></li><li>**日记帐（供应商）：**<ol><li>法人 &gt; 默认交货地址 &gt; 邮政编码</li><li>法人 &gt; 主地址 &gt; 邮政编码</li></ol></li></ul> |
 | 站点                             | <ul><li>**销售订单：** 站点</li><li>**采购订单：** 站点</li><li>**转移单 - 发货：** 发货仓库的站点</li><li>**转移单 - 收货：** 收货仓库的站点</li><li>**询价：** 站点</li><li>**销售报价单：** 站点</li></ul> |
-| 税流向                    | <ul><li>**销售订单：** 输出</li><li>**采购订单：** 输入</li><li>**转移单 - 发货：** 输出</li><li>**转移单 – 收货：** 输入</li><li>**采购申请：** 输入</li><li>**询价：** 输入</li><li>**销售报价单：** 输出</li><li>**普通发票：** 输出</li></ul> |
+| 税流向                    | <ul><li>**销售订单：** 输出</li><li>**采购订单：** 输入</li><li>**转移单 - 发货：** 输出</li><li>**转移单 – 收货：** 输入</li><li>**采购申请：** 输入</li><li>**询价：** 输入</li><li>**销售报价单：** 输出</li><li>**普通发票：** 输出</li><li>**日记帐：** 输出</li></ul> |
 | 供应商帐户                   | <ul><li>**采购订单：** 供应商帐户</li><li>**日记帐（供应商）：** 供应商帐户</li></ul> |
 | 供应商发票帐户           | <ul><li>**采购订单：** 发票帐户</li><li>**日记帐（供应商）：**<ol><li>供应商主数据 &gt; 发票帐户</li><li>供应商帐户</li></ol></li></ul> |
 | 仓库                        | <ul><li>**销售订单：** 仓库</li><li>**采购订单：** 仓库</li><li>**转移单 - 发货：** 发货仓库</li><li>**转移单 - 收货：** 收货仓库</li><li>**询价：** 仓库</li><li>**销售报价单：** 仓库</li></ul> |

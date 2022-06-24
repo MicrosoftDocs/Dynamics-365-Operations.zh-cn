@@ -1,6 +1,6 @@
 ---
 title: 覆盖时限
-description: 本主题介绍使用计划优化时如何设置覆盖时限。 覆盖时限指示计划范围和限制。
+description: 本文介绍使用计划优化时如何设置覆盖时限。 覆盖时限指示计划范围和限制。
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847924"
 ---
 # <a name="coverage-time-fences"></a>覆盖时限
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍使用计划优化时如何设置 *覆盖时限*。 计划者可以定义计划范围（以天为单位的覆盖时限），并可以排除超出该范围的供应和需求。 因此，覆盖时限可以帮助在几个月内阻止您无需作出反应的供应建议引起的“噪音”。 例如，下一年的预测和距离正常提前期还有很长时间的客户订单。
+本文介绍使用计划优化时如何设置 *覆盖时限*。 计划者可以定义计划范围（以天为单位的覆盖时限），并可以排除超出该范围的供应和需求。 因此，覆盖时限可以帮助在几个月内阻止您无需作出反应的供应建议引起的“噪音”。 例如，下一年的预测和距离正常提前期还有很长时间的客户订单。
 
 覆盖时限是今天日期（或更准确地说，是您进行计划运行的日期）之后的天数，不包括供应和需求。 为了避免延迟，您必须确保覆盖时限比总提前期长。 系统默认值为 100 天。
 

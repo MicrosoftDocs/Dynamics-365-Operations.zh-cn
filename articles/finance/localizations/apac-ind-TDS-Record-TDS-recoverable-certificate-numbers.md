@@ -1,6 +1,6 @@
 ---
 title: 记录 TDS 可退税证书编号
-description: 本主题说明如何使用可退税证书页面，记录特定供应商、客户或分类帐收到的从源扣缴税款 (TDS) 证书的证书编号和日期。
+description: 本文说明如何使用可退税证书页面，记录特定供应商、客户或分类帐收到的从源扣缴税款 (TDS) 证书的证书编号和日期。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853247"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>记录 TDS 可退税证书编号
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用 **可退税证书** 页面，记录特定供应商、客户或分类帐收到的从源扣缴税款 (TDS) 证书的证书编号和日期。 若要更新在此页面上为 TDS 交易记录的 TDS 证书编号和日期，请使用 **更新证书** 页面（**总帐 \> 定期 \> 预缴税款 \> 更新证书**）。 更新完 TDS 证书编号后，请关闭它们。
+本文说明如何使用 **可退税证书** 页面，记录特定供应商、客户或分类帐收到的从源扣缴税款 (TDS) 证书的证书编号和日期。 若要更新在此页面上为 TDS 交易记录的 TDS 证书编号和日期，请使用 **更新证书** 页面（**总帐 \> 定期 \> 预缴税款 \> 更新证书**）。 更新完 TDS 证书编号后，请关闭它们。
 
 按照以下步骤记录 TDS 证书编号和日期。
 

@@ -1,6 +1,6 @@
 ---
 title: 设置意大利 FatturaPA 与 SDI 的直接集成
-description: 本主题提供的信息将帮助您开始使用适用于意大利的电子开票功能，并设置意大利 FatturaPA 与 Exchange 系统 (SDI) 的直接集成。
+description: 本文提供的信息将帮助您开始使用适用于意大利的电子开票功能，并设置意大利 FatturaPA 与 Exchange 系统 (SDI) 的直接集成。
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853183"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>设置意大利 FatturaPA 与 SDI 的直接集成
 
@@ -24,21 +24,21 @@ ms.locfileid: "7984795"
 > [!IMPORTANT]
 > 适用于意大利的电子开票当前可能不支持 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中可用于电子发票的所有功能。
 
-本主题提供的信息将帮助您开始使用 Finance 和 Supply Chain Management 中适用于意大利的电子开票功能。 指导您完成 Regulatory Configuration Services (RCS) 中与国家/地区相关的配置步骤。 这些步骤补充了[开始使用电子开票](e-invoicing-get-started.md)中描述的步骤。
+本文提供的信息将帮助您开始使用 Finance 和 Supply Chain Management 中适用于意大利的电子开票功能。 指导您完成 Regulatory Configuration Services (RCS) 中与国家/地区相关的配置步骤。 这些步骤补充了[开始使用电子开票](e-invoicing-get-started.md)中描述的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的步骤之前，必须满足以下先决条件：
+在完成本文中的步骤之前，必须满足以下先决条件：
 
 - 完成[开始使用电子开票](e-invoicing-get-started.md)中的步骤。
-- 将 **意大利 FatturaPA (IT)** 电子开票功能从全局存储库导入到 RCS 中。 有关详细信息，请参阅之前提及的“开始使用电子开票”主题的[从 Microsoft 配置提供者导入电子开票功能](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider)部分。
-- 将所需证书中的链接添加到服务环境中。 必需的证书包括数字签名证书、证书主管机构 (CA) 证书和客户端证书。 有关详细信息，请参阅“开始使用电子开票服务管理”主题的[创建数字证书机密](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret)部分。
+- 将 **意大利 FatturaPA (IT)** 电子开票功能从全局存储库导入到 RCS 中。 有关详细信息，请参阅之前提及的“开始使用电子开票”一文的[从 Microsoft 配置提供者导入电子开票功能](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider)一节。
+- 将所需证书中的链接添加到服务环境中。 必需的证书包括数字签名证书、证书主管机构 (CA) 证书和客户端证书。 有关详细信息，请参阅“开始使用电子开票服务管理”一文的[创建数字证书机密](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret)一节。
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>意大利 FatturaPA (IT) 电子开票功能的国家/地区特定配置
 
 在将应用程序设置部署到连接的 Finance 或 Supply Chain Management 应用之前，请完成以下步骤。
 
-此部分补充“开始使用电子开票”主题中的[应用程序设置的国家/地区特定配置](e-invoicing-get-started.md#country-specific-configuration-of-application-setup)部分。
+此部分补充“开始使用电子开票”一文中的[应用程序设置的国家/地区特定配置](e-invoicing-get-started.md#country-specific-configuration-of-application-setup)一节。
 
 ### <a name="create-a-new-feature"></a>创建新功能
 
@@ -87,8 +87,8 @@ ms.locfileid: "7984795"
 
 ### <a name="deploy-the-feature"></a>部署此功能
 
-1. 对服务环境完成、发布和部署功能。 有关详细信息，请参阅“开始使用电子开票”主题的[将电子开票功能部署到服务环境](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment)部分。
-2. 将该功能部署到连接的应用程序。 有关详细信息，请参阅“开始使用电子开票”主题的[将电子开票功能部署到连接的应用程序](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application)部分。
+1. 对服务环境完成、发布和部署功能。 有关详细信息，请参阅“开始使用电子开票”一文的[将电子开票功能部署到服务环境](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment)一节。
+2. 将该功能部署到连接的应用程序。 有关详细信息，请参阅“开始使用电子开票”一文的[将电子开票功能部署到连接的应用程序](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application)一节。
 
 ### <a name="set-up-finance"></a>设置 Finance
 

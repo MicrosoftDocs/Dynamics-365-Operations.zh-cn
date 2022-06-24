@@ -1,6 +1,6 @@
 ---
 title: 使用部门、工作和职位组织您的员工
-description: 本主题介绍有关部门、工作和职位的概念信息，这些是在人力资源中维护的组织元素。
+description: 本文介绍有关部门、工作和职位的概念信息，这些是在人力资源中维护的组织元素。
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874266"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694814"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。 
+部门、作业和职位在人力资源中维护的组织元素。 本文介绍有关这些元素的概念信息。 
 
 以下示例用于说明本文中描述的概念。
 

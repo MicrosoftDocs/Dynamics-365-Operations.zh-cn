@@ -1,6 +1,6 @@
 ---
 title: 配置中国的税务集成
-description: 本主题描述配置中国的税务集成的流程。
+description: 本文描述配置中国的税务集成的流程。
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 00b039fc8f80329cdc3babca1a1fc105513811a082e640341a0ef1a278df4b43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6508cd94afad4271300edded411f301df906e6c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846634"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述配置中国的税务集成的流程。
+本文描述配置中国的税务集成的流程。
 
-## <a name="prerequisites-for-dynamics-365-finance-version-100-and-later"></a>Dynamics 365 Finance 版本 10.0 和更高版本的先决条件
+## <a name="prerequisites-for-dynamics-365-finance-version-100-and-later"></a>Dynamics 365 Finance 版本 10.0 及更高版本的先决条件
 
 要让系统生成此代码以充当导出的文件中的输出，必须按照以下任务的列出顺序完成这些任务。
 

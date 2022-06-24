@@ -1,6 +1,6 @@
 ---
 title: 生成可打印的 FTI 表单
-description: 本主题说明如何使用电子申报 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。
+description: 本文说明如何使用电子报告 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868820"
 ---
 # <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 
 [!include[banner](../includes/banner.md)]
 
-可使用电子申报 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。 此主题提供有关如何构建自己的配置的信息和有关可用配置模板的详细信息。
+可使用电子申报 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。 本文提供有关如何构建自己的配置的信息和有关可用配置模板的详细信息。
 
 ## <a name="overview"></a>概览
 
 除了通过使用 Microsoft SQL Server Reporting Services (SSRS) 生成可打印 FTI 表单这一项现有功能，现在还可以使用 ER 框架。 可在 Microsoft Office Excel 和 Word 中管理可打印 FTI 表单。 还可以修改布局、数据流和格式设置以满足特定要求，同时无需更改代码。
 
 > [!NOTE]
-> 如果要从现有 ER 配置的概述开始了解这个可打印 FTI 表单解决方案示例，可直接转至本主题后文的 **下载示例 ER 配置以生成可打印 FTI 表单** 部分。
+> 如果要从现有 ER 配置的概述开始了解这个可打印 FTI 表单解决方案示例，可直接转至本文后面的 **下载示例 ER 配置以生成可打印 FTI 表单** 一节。
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>为 FTI 可打印表单创建自定义配置
 在可打印 FTI 表单的自定义解决方案中，必须创建一组 ER 配置。

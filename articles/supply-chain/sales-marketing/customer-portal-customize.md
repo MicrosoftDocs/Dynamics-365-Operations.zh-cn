@@ -1,6 +1,6 @@
 ---
 title: 自定义和使用客户门户
-description: 本主题说明将客户门户添加到系统后如何对其进行自定义。
+description: 本文说明将客户门户添加到系统后如何对其进行自定义。
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878865"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>自定义和使用客户门户
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题介绍客户门户中现成可用的不同页面。 说明了页面的功能以及如何自定义页面。
+本文介绍客户门户中现成可用的不同页面。 说明了页面的功能以及如何自定义页面。
 
 客户门户提供了一些现成的网页和操作。 以下站点地图提供了这些网页和操作以及可以执行这些操作的角色的概览。
 
@@ -32,16 +32,16 @@ ms.locfileid: "8063485"
 
 ## <a name="typical-customizations"></a>典型自定义
 
-以下主题将帮助您学习有关 Power Apps 门户以及如何定制这些门户的基础知识：
+以下文章将帮助您学习有关 Power Apps 门户以及如何定制这些门户的基础知识：
 
-- [使用模板](/powerapps/maker/portals/work-with-templates) – 本主题概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。
-- [管理门户内容](/dynamics365/portals/manage-portal-content) – 本主题说明如何管理和自定义您在门户中显示的内容。
-- [编辑 CSS](/powerapps/maker/portals/edit-css) – 本主题帮助您对门户的用户界面 (UI) 进行更复杂的自定义。
-- [为您的门户创建主题](/dynamics365/portals/create-theme) – 本主题帮助您为门户创建 UI 主题。
-- [轻松创建和公开门户内容](/dynamics365/portals/create-expose-portal-content) – 本主题帮助您管理用于门户的基础数据和表。
-- [配置要在门户上使用的联系人](/powerapps/maker/portals/configure/configure-contacts) – 本主题说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。
-- [在门户上配置表窗体和 Web 窗体的注释](/powerapps/maker/portals/configure-notes) – 本主题说明如何向门户添加文档和其他存储。
-- [门户网站的错误处理](/powerapps/maker/portals/admin/view-portal-error-log) – 本主题说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。
+- [使用模板](/powerapps/maker/portals/work-with-templates) – 此文章概括介绍 Power Apps 门户的工作原理以及如何对门户进行简单的自定义。
+- [管理门户内容](/dynamics365/portals/manage-portal-content) – 此文章说明如何管理和自定义您在门户中显示的内容。
+- [编辑 CSS](/powerapps/maker/portals/edit-css) – 此文章帮助您对门户的用户界面 (UI) 进行更复杂的自定义。
+- [为您的门户创建主题](/dynamics365/portals/create-theme) – 此文章帮助您为门户创建 UI 主题。
+- [轻松创建和公开门户内容](/dynamics365/portals/create-expose-portal-content) – 此文章帮助您管理用于门户的基础数据和表。
+- [配置要在门户上使用的联系人](/powerapps/maker/portals/configure/configure-contacts) – 此文章说明如何创建和自定义用户角色，以及 Power Apps 门户中的安全性和身份验证如何运行。
+- [在门户上配置表窗体和 Web 窗体的注释](/powerapps/maker/portals/configure-notes) – 此文章说明如何向门户添加文档和其他存储。
+- [门户网站的错误处理](/powerapps/maker/portals/admin/view-portal-error-log) – 此文章说明如何查看门户错误日志并将其存储在您的 Microsoft Azure Blob 存储帐户中。
 
 ## <a name="customize-the-order-creation-process"></a>自定义订单创建流程
 

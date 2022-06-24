@@ -1,6 +1,6 @@
 ---
 title: 使用 Excel 查看和更新实体数据
-description: 此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
+description: 本文介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862146"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762616"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-此主题介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 要打开实体数据，可从 Excel 或财务和运营应用开始。
+本文介绍如何通过使用 Microsoft Dynamics Excel 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 要打开实体数据，可从 Excel 或财务和运营应用开始。
 
 通过在 Excel 中打开实体数据，可以使用 Excel 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016 或更高版本。
 

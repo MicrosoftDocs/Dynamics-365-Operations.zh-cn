@@ -1,6 +1,6 @@
 ---
 title: 按时间顺序对文件和凭证编号
-description: 本主题说明如何为适用的单据和相关凭证设置和使用时间顺序编号。
+description: 本文说明如何为适用的单据和相关凭证设置和使用时间顺序编号。
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876374"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>按时间顺序对文件和凭证编号
 
 [!include [banner](../includes/banner.md)]
 
 
-在某些国家/地区，法律要求按时间顺序对文件和相关凭证编号。 时间顺序必须受期间支持。 属于较早期间的所有编号必须小于属于较晚期间的编号。 为了满足此要求，实现了按时间顺序编号的功能。 本主题说明如何为适用的单据和相关凭证配置和使用时间顺序编号。
+在某些国家/地区，法律要求按时间顺序对文件和相关凭证编号。 时间顺序必须受期间支持。 属于较早期间的所有编号必须小于属于较晚期间的编号。 为了满足此要求，实现了按时间顺序编号的功能。 本文说明如何为适用的单据和相关凭证配置和使用时间顺序编号。
 
 ## <a name="prerequisites"></a>先决条件
 

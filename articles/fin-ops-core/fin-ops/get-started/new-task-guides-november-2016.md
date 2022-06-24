@@ -1,6 +1,6 @@
 ---
 title: 新的或更新任务指南（2016 年 11 月）
-description: 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+description: 本文列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886576"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 – 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+本文列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 – 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 
-（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 主页中的新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
+（2016 年 11 月 – 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 新增功能或更改主页](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 > [!NOTE]
 > 业务流程建模器 (BPM) 行的标题旁边的星号 (\*) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。

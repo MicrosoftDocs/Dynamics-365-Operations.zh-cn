@@ -1,6 +1,6 @@
 ---
 title: 上载配置到 Lifecycle Services
-description: 本主题说明如何创建新的电子报告 (ER) 配置并将其上载到 Microsoft Dynamics Lifecycle Services (LCS)。
+description: 本文说明如何创建新的电子报告 (ER) 配置并将其上载到 Microsoft Dynamics Lifecycle Services (LCS)。
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885505"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>上载配置到 Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍系统管理员或电子报表开发人员角色的用户如何新建[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)并上载到 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)中。
+本文介绍系统管理员或电子报告开发人员角色的用户如何新建[电子报告 (ER) 配置](../general-electronic-reporting.md#Configuration)并上载到 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)中。
 
 > [!IMPORTANT]
 > 使用 LCS 作为 ER 配置的存储库将[弃用](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。

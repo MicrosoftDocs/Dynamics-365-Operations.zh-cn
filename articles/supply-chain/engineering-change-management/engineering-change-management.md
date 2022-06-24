@@ -1,6 +1,6 @@
 ---
 title: 管理工程产品的更改
-description: 本主题提供有关工程更改管理的信息。 工程更改管理提供用于管理工程产品的更改的结构化流程，从提出、请求和作出更改到审查和批准更改、评估其对现有交易的影响和跟进它们。
+description: 本文提供有关工程更改管理的信息。 工程更改管理提供用于管理工程产品的更改的结构化流程，从提出、请求和作出更改到审查和批准更改、评估其对现有交易的影响和跟进它们。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849581"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 

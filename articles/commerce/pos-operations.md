@@ -1,6 +1,6 @@
 ---
 title: 销售点 (POS) 联机和脱机操作
-description: 此主题提供有关 Dynamics 365 Commerce 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
+description: 本文提供有关 Dynamics 365 Commerce 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
 author: jblucher
 ms.date: 05/27/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852711"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 

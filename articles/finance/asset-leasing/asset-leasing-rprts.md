@@ -1,6 +1,6 @@
 ---
 title: 资产租赁报表
-description: 本主题列出并简要描述了资产租赁中的可用报表。
+description: 本文列出并简要描述了资产租赁中的可用报表。
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856703"
 ---
 # <a name="asset-leasing-reports"></a>资产租赁报表
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出并简要描述了资产租赁中的可用报表。 如上所述，大多数报表通过完成这些步骤或非常相似的步骤来显示）。 
+本文列出并简要描述了资产租赁中的可用报表。 如上所述，大多数报表通过完成这些步骤或非常相似的步骤来显示）。 
 
 - 要查看大多数资产租赁报表，请转到 **资产租赁 > 查询和报表 > 租赁报表**，然后选择要查看的报表。 对于需要选择其他路径的报表，报表的描述中包含用于打开报表的步骤。 
 - 选择要打印的报表时，将打开一个参数页面，供您筛选报表中包含的信息。 输入筛选条件，然后选择 **确定** 生成报表。 生成的报表将显示属于您指定的筛选范围的信息。

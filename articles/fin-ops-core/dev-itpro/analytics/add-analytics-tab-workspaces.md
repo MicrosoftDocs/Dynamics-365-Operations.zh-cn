@@ -1,6 +1,6 @@
 ---
 title: 使用 Power BI Embedded 将分析添加到工作区
-description: 本主题说明如何在工作区的“分析”选项卡上嵌入 Power BI 报表。
+description: 本文说明如何在工作区的“分析”选项卡上嵌入 Power BI 报表。
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884540"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 此功能在 Finance and Operations（版本 7.2 及更高版本）中受支持。
+> 此功能在 Finance and Operations（版本 7.2 及更高版本）上受支持。
 
 ## <a name="introduction"></a>简介
-本主题说明如何在工作区的 **分析** 选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的 **预订管理** 工作区扩展到在 **分析** 选项卡上嵌入分析工作区。
+本文说明如何在工作区的 **分析** 选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的 **预订管理** 工作区扩展到在 **分析** 选项卡上嵌入分析工作区。
 
 ## <a name="prerequisites"></a>必备项
 + 对运行平台更新 8 或更高版本的开发人员环境的访问权限。

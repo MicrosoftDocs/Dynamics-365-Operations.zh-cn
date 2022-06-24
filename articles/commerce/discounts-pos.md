@@ -1,6 +1,6 @@
 ---
 title: 在 POS 中显示折扣
-description: 此主题说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
+description: 本文说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
 author: ShalabhjainMSFT
 ms.date: 07/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3ec16c5051088ed2777309899b26094e8d67743
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878532"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 
 [!include [banner](includes/banner.md)]
 
-促销在促使客户做出购买决定时起着重要作用。 例如，节假日可能为零售商带来最高的销售额，因为整个零售市场到处都是诱人的促销和折扣。 如果商店助理了解并理解可用促销，可以轻松利用这些促销交叉销售和向上销售商品。 此主题说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
+促销在促使客户做出购买决定时起着重要作用。 例如，节假日可能为零售商带来最高的销售额，因为整个零售市场到处都是诱人的促销和折扣。 如果商店助理了解并理解可用促销，可以轻松利用这些促销交叉销售和向上销售商品。 本文说明 Microsoft Dynamics 365 Commerce 如何帮助销售助理了解促销和如何将其用于交叉销售和向上销售动态。
 
 ## <a name="learn-about-store-discounts"></a>了解商店折扣
 

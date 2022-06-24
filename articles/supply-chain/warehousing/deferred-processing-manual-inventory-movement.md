@@ -1,6 +1,6 @@
 ---
 title: 延期处理手动库存变动
-description: 本主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用延期处理手动库存变动。
+description: 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用延期处理手动库存变动。
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863728"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>延期处理手动库存变动
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用延期处理手动库存变动。
+本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用延期处理手动库存变动。
 
 延期处理让仓库工作人员可以在后台处理放置操作期间继续执行其他工作。 当服务器的处理时间临时或意外增加，并且增加的处理时间可能影响工作人员的生产率时，延期处理非常有用。 *库存变动* 工作类型现已添加到此功能支持的工作类型集中。
 

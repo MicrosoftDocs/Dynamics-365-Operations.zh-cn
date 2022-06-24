@@ -1,6 +1,6 @@
 ---
 title: 工程更改管理常见问题解答
-description: 本主题提供对有关工程更改管理功能的常见问题的解答。
+description: 本文提供对有关工程更改管理功能的常见问题的解答。
 author: t-benebo
 ms.date: 03/25/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: 16d29fa6485bae866a5209a855dfb928e8bc4783
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870773"
 ---
 # <a name="engineering-change-management-faq"></a>工程更改管理常见问题解答
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供对有关工程更改管理功能的常见问题的解答。
+本文提供对有关工程更改管理功能的常见问题的解答。
 
 ## <a name="should-i-track-the-version-in-transactions"></a>我应该在交易中跟踪版本吗？
 

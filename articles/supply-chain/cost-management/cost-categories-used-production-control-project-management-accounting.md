@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854491"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>用于项目控制和项目管理核算的成本类别
 
@@ -31,7 +31,7 @@ ms.locfileid: "8675337"
 
 某些生产工作类型可以应用于项目时间评估和报告。 在这种情况下，成本类别需要用于生产和项目目的。 在将某一成本类别用于生产和项目时，必须定义附加的与项目相关的信息。 例如，与项目相关联的每小时成本可以不同于与生产相关联的每小时成本。 您可以使用 **成本类别** 页来定义用于生产控制和项目管理核算的成本类别。 
 
-**注意：** 成本核算具有 **项目类别** 页，但此页没有与在此主题中描述的功能的关系。 在项目中使用成本类别时，**成本类别** 页具有显示附加的项目相关信息的其他选项卡。 此信息包括类别组、行属性和已分配给成本类别的会计科目。
+**注意：** 成本核算具有 **项目类别** 页，但此页没有与本文中描述的功能的关系。 在项目中使用成本类别时，**成本类别** 页具有显示附加的项目相关信息的其他选项卡。 此信息包括类别组、行属性和已分配给成本类别的会计科目。
 
 -   该成本类别必须分配给支持 **工时** 交易记录类型的某一类别组。
 -   行属性将指示如何对项目向报告的时间收费的默认信息。

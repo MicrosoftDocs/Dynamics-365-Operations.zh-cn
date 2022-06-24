@@ -1,6 +1,6 @@
 ---
 title: 设置远期支票
-description: 本主题说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。
+description: 本文说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 645b474b8b4bd13cd47bef404cda002e6b29a1ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870298"
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。 您还可以指定已签发支票、已收到支票和预缴税金的清算帐户。 签发用于在将来时间进行付款和收款的远期支票。 您可以指定支票是否必须在其到期日期之前反映在会计帐簿中。
+本文说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。 您还可以指定已签发支票、已收到支票和预缴税金的清算帐户。 签发用于在将来时间进行付款和收款的远期支票。 您可以指定支票是否必须在其到期日期之前反映在会计帐簿中。
 
 
 

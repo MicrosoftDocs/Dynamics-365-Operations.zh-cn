@@ -1,6 +1,6 @@
 ---
 title: 内部公司主计划编制
-description: 本主题介绍了内部公司主计划编制
+description: 本文介绍了内部公司主计划编制
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 02d1a3675cfe30f2e72237f69509398122d17f05
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4993f981b268127af7c9259aa0e73a8e4a75015a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851440"
 ---
 # <a name="intercompany-master-scheduling"></a>内部公司主计划编制
 

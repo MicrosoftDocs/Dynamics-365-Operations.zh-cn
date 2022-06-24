@@ -1,6 +1,6 @@
 ---
 title: 群集位置已满
-description: 本主题提供有关群集位置已满功能的信息。 在使用群集领料时，也可以使用此功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。
+description: 本文提供有关群集位置已满功能的信息。 在使用群集领料时，也可以使用此功能更严格地实施工作分解规则，因为其允许容器或负荷的体积约束中的容错程度更高。
 author: Mirzaab
 ms.date: 08/25/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857132"
 ---
 # <a name="cluster-position-full"></a>群集位置已满
 
@@ -30,7 +30,7 @@ ms.locfileid: "8102819"
 
 ## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>打开或关闭群集位置已满功能
 
-要使用本主题中描述的功能，必须为您的系统打开 *群集位置已满* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集位置已满* 功能来打开或关闭此功能。
+要使用本文中描述的功能，必须为您的系统打开 *群集位置已满* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集位置已满* 功能来打开或关闭此功能。
 
 ## <a name="setup"></a>设置
 

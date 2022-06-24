@@ -1,6 +1,6 @@
 ---
 title: 创建重复采购订单
-description: 此主题演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。
+description: 本文演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865083"
 ---
 # <a name="create-a-repeat-purchase-order"></a>创建重复采购订单
 
 [!include [banner](../../includes/banner.md)]
 
-此主题演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。 可以通过两种方法创建重复订单。 可以使用操作窗格中单据级的可用操作，也可以使用行详细信息操作。 单据级操作主要用于通过从其他订单添加行和头信息来新建采购订单，而行详细信息操作则主要用于向现有订单添加行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此任务通常由采购代理完成。
+本文演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。 可以通过两种方法创建重复订单。 可以使用操作窗格中单据级的可用操作，也可以使用行详细信息操作。 单据级操作主要用于通过从其他订单添加行和头信息来新建采购订单，而行详细信息操作则主要用于向现有订单添加行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此任务通常由采购代理完成。
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>新建重复采购订单

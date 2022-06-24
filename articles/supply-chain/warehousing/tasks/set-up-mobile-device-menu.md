@@ -1,6 +1,6 @@
 ---
 title: 设置用于完成采购订单类型工作的移动设备菜单项
-description: 此主题演示如何设置“移动设备”菜单项。
+description: 本文演示如何设置“移动设备”菜单项。
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882277"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>设置用于完成采购订单类型工作的移动设备菜单项
 
 [!include [banner](../../includes/banner.md)]
 
-此主题演示如何设置“移动设备”菜单项。 在此示例中，此菜单项用于执行采购订单类型的工作。 与此菜单项关联的工作类决定哪项工作有效。 您可以使用演示数据公司 USMF 运行此指南。 此过程通常由仓库经理执行。
+本文演示如何设置“移动设备”菜单项。 在此示例中，此菜单项用于执行采购订单类型的工作。 与此菜单项关联的工作类决定哪项工作有效。 您可以使用演示数据公司 USMF 运行此指南。 此过程通常由仓库经理执行。
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>创建移动设备菜单项

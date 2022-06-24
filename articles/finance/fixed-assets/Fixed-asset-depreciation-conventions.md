@@ -1,6 +1,6 @@
 ---
 title: 固定资产折旧惯例
-description: 文主题介绍了固定资产的折旧惯例。
+description: 本文介绍了固定资产的折旧惯例。
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858382"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>固定资产折旧惯例
 
 [!include [banner](../includes/banner.md)]
 
-文主题介绍了固定资产的折旧惯例。 折旧惯例用于确定何时和如何为固定资产的购买年份和处置年份计算折旧。
+本文介绍了固定资产的折旧惯例。 折旧惯例用于确定何时和如何为固定资产的购买年份和处置年份计算折旧。
 
 可为固定资产组帐簿的设置指定折旧惯例。 若要查看或分配折旧惯例，请在固定资产的设置区域中选择 **固定资产** 组。 选择 **帐簿** 按钮。 在此情况下，创建固定资产帐簿时，指定的折旧惯例用作默认值。 也可以对单个固定资产帐簿设置折旧惯例。 方法是，在固定资产的设置区域中选择 **帐簿**，然后选择 **固定资产组** 按钮。
 

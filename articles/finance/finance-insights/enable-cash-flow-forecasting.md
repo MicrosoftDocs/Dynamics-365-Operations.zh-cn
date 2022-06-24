@@ -1,6 +1,6 @@
 ---
 title: 启用现金流预测
-description: 本主题说明如何在 Finance Insights 中开启现金流预测功能。
+description: 本文说明如何在 Finance Insights 中开启现金流预测功能。
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859848"
 ---
 # <a name="enable-cash-flow-forecasting"></a>启用现金流预测
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在 Finance Insights 中开启现金流预测功能。
+本文说明如何在 Finance Insights 中开启现金流预测功能。
 
 > [!NOTE]
 > 若要在现金流中使用付款预测，您必须按照[启用客户付款预测](enable-cust-paymnt-prediction.md)中的说明设置客户付款预测功能。

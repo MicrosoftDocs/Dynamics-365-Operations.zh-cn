@@ -1,6 +1,6 @@
 ---
 title: 资产管理概述
-description: 本主题介绍 Dynamics 365 Supply Chain Management 中的“资产管理”功能。
+description: 本文介绍 Dynamics 365 Supply Chain Management 中的“资产管理”功能。
 author: johanhoffmann
 ms.date: 07/24/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bebca54e884a960ab164fae014c63e3f722081b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 04ee25bdf3c8b0d324c6b43769c5ee41fe14315f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882799"
 ---
 # <a name="asset-management-overview"></a>资产管理概述
 

@@ -1,6 +1,6 @@
 ---
 title: 解决 ER 配置中的性能问题
-description: 本主题说明如何查找和修复电子申报 (ER) 配置中的性能问题。
+description: 本文说明如何查找和修复电子报告 (ER) 配置中的性能问题。
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 28ff68309bad7a6c1b6009ba03ef4b20aceb5194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847331"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>解决 ER 配置中的性能问题
 
-本主题说明如何查找和解决[电子申报](general-electronic-reporting.md) (ER) [配置](general-electronic-reporting.md#Configuration)中的性能问题。
+本文说明如何查找和解决[电子报告](general-electronic-reporting.md) (ER) [配置](general-electronic-reporting.md#Configuration)中的性能问题。
 
 通常，性能调查包括几个步骤。
 

@@ -1,6 +1,6 @@
 ---
 title: 使用移动设备登记物料消耗量
-description: 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
+description: 本文介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1e1dbc399eb06d1049950bbdd755b479ef275563
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849233"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
+本文介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 
 ## <a name="introduction"></a>简介
 

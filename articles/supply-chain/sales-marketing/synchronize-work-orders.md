@@ -1,6 +1,6 @@
 ---
 title: 将项目内的工作订单从 Field Service 同步到 Supply Chain Management
-description: 此主题介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
+description: 本文介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860484"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>将项目内的工作订单从 Field Service 同步到 Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
+本文介绍用于同步 Dynamics 365 Field Service 与 Dynamics 365 Supply Chain Management 的具有项目编号的工作订单的模板和基础任务。
 
 [![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 使用的 **包含项目的工作订单（Field Service 到 Supply Chain Management）** 模板基于 **工作订单（Field Service 到 Supply Chain Management）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Supply Chain Management 的销售订单](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
-本主题仅介绍这两个模板之间的区别：
+本文仅介绍这两个模板之间的区别：
 - **项目内的工作订单（Field Service 到 Supply Chain Management）**
 - **工作订单（Field Service 到 Supply Chain Management）**
 

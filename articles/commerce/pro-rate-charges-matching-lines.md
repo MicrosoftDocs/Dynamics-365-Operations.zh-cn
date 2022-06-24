@@ -1,6 +1,6 @@
 ---
-title: 将抬头费用按比例分配给匹配的销售行
-description: 本主题介绍通过使用高级自动费用功能为商业渠道订单计算和应用自动费用的附加功能。
+title: 将标头费用按比例分配给匹配的销售行
+description: 本文介绍通过使用高级自动费用功能为商业渠道订单计算和应用自动费用的附加功能。
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886924"
 ---
-# <a name="prorate-header-charges-to-matching-sales-lines"></a>将抬头费用按比例分配给匹配的销售行
+# <a name="prorate-header-charges-to-matching-sales-lines"></a>将标头费用按比例分配给匹配的销售行
 
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍组合抬头级别自动费用并将其按比例分配给商业销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
+本文介绍组合抬头级别自动费用并将其按比例分配给商业销售行的功能。 此功能适用于在 Retail 版本 10.0.1 中销售终端 (POS) 内创建的交易记录和在 Retail 版本 10.0.2 中在呼叫中心创建的销售。
 
 仅当使用 **商业参数** 页面中的选项开启了[高级自动费用](/dynamics365/unified-operations/retail/omni-auto-charges)功能时，此功能才可用。 此外，自动费用增强计算方法仅适用于通过商业渠道（POS、呼叫中心和 Dynamics 电子商务平台）创建的销售订单。
 

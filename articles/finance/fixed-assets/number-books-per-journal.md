@@ -1,6 +1,6 @@
 ---
 title: 每个日记帐的帐簿数
-description: 本主题描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以定义各项购置和折旧所包括的最大帐簿数。
+description: 本文描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以定义各项购置和折旧所包括的最大帐簿数。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883320"
 ---
 # <a name="number-of-books-per-journal"></a>每个日记帐的帐簿数
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以使用 **固定资产参数** 页面（**固定资产 \> 设置 \> 固定资产参数**）中 **常规** 选项卡上的 **每个日记帐的帐簿数** 部分中的字段定义各项购置和折旧要包含的帐簿的数量。 这些字段使您可以分配每本购置日记帐和折旧日记帐的资产帐簿的数量。
+本文描述通过批处理作业创建固定资产购置或折旧建议时，日记帐与资产帐簿之间的关系。 您可以使用 **固定资产参数** 页面（**固定资产 \> 设置 \> 固定资产参数**）中 **常规** 选项卡上的 **每个日记帐的帐簿数** 部分中的字段定义各项购置和折旧要包含的帐簿的数量。 这些字段使您可以分配每本购置日记帐和折旧日记帐的资产帐簿的数量。
 
 对于购置方案，默认值为至少 10,000 本帐簿。 对于折旧方案，默认值为至少 2,000 本帐簿。
 

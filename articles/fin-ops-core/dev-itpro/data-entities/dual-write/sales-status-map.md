@@ -1,6 +1,6 @@
 ---
 title: 设置销售订单状态列的映射
-description: 本主题说明如何为双写入设置销售订单状态列。
+description: 本文说明如何为双写入设置销售订单状态列。
 author: dasani-madipalli
 ms.date: 06/25/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 94d8aeb390d892c082546fd2b9459b0a6b70c0b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884954"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>设置销售订单状态列的映射
 

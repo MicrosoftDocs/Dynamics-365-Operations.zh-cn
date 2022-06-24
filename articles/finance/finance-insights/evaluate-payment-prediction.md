@@ -1,6 +1,6 @@
 ---
 title: 评估初始客户付款预测模型
-description: 本主题描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
+description: 本文描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
 author: ShivamPandey-msft
 ms.date: 05/02/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fcdf276505cf58267a38e9d6174a155ad307653b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846993"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>评估初始客户付款预测模型
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍在启用 Finance Insights 并生成和训练第一个模型之后如何评估预测模型。 本主题介绍预测客户付款的模型。 其描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
+本文介绍在启用 Finance Insights 并生成和训练第一个模型之后如何评估预测模型。 本文介绍预测客户付款的模型。 其描述您可以用来理解客户付款预测模型并评估其有效性的步骤。
 
 ## <a name="getting-details-about-the-model"></a>获取有关模型的详细信息
 

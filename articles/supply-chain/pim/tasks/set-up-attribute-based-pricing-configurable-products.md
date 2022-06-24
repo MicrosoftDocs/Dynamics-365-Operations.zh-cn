@@ -1,6 +1,6 @@
 ---
 title: 为可配置产品设置基于属性的定价
-description: 本主题介绍如何设置基于属性的定价。
+description: 本文介绍如何设置基于属性的定价。
 author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec16a0a8078cddd433c99592aa4a7474cf923aec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849378"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>为可配置产品设置基于属性的定价
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何设置基于属性的定价。 首先必须有一个拥有一个或多个组件和属性的产品配置模型。 此示例使用 USMF 演示数据公司中的高端扬声器产品模型。 通常，产品经理使用此过程。
+本文介绍如何设置基于属性的定价。 首先必须有一个拥有一个或多个组件和属性的产品配置模型。 此示例使用 USMF 演示数据公司中的高端扬声器产品模型。 通常，产品经理使用此过程。
 
 
 ## <a name="create-a-new-price-model"></a>创建新的价格模型

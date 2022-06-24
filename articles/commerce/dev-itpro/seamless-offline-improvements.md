@@ -1,6 +1,6 @@
 ---
 title: 礼品卡和贷项通知单操作无缝脱机切换
-description: 此主题概述特定付款类型无缝脱机切换方面的改进。
+description: 本文概述特定付款类型无缝脱机切换方面的改进。
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869153"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>礼品卡和贷项通知单操作无缝脱机切换
 
@@ -50,7 +50,7 @@ ms.locfileid: "7779484"
 
 通常将缓存 Commerce 参数。 因此，更新此参数的设置，并且启动了分发计划以将更改同步到渠道之后，更改可能最多需要 24 小时才会生效。 若要使更改立即生效，请重置 IIS。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [脱机销售点 (POS) 功能](../pos-offline-functionality.md)
 - [销售点 (POS) 联机和脱机操作](../pos-operations.md)

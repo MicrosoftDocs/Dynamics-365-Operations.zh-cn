@@ -1,6 +1,6 @@
 ---
 title: 创建电子商务站点
-description: 本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
+description: 本文介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 author: bicyclingfool
 ms.date: 03/10/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855761"
 ---
 # <a name="create-an-e-commerce-site"></a>创建电子商务站点
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
+本文介绍在 Dynamics 365 Commerce 站点构建器中创建新电子商务站点所需的步骤和信息。
 
 在许可 Dynamics 365 Commerce 功能时，将为站点构建器预配可用作您自己站点的基础的入门站点。 但是，如果要从头开始或要建立第二个站点，则需要在站点创作环境中建立一个新站点。 
 

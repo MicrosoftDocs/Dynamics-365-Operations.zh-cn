@@ -1,6 +1,6 @@
 ---
 title: 重新打印和取消波次标签
-description: 本主题说明如何取消和重新打印现有波次标签。
+description: 本文说明如何取消和重新打印现有波次标签。
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871824"
 ---
 # <a name="reprint-and-void-wave-labels"></a>重新打印和取消波次标签
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何管理通过波次处理生成的标签。 （有关详细说明和配置说明，请参阅[配置波次标签打印](../warehousing/configure-wave-label-printing.md)。）
+本文说明如何管理通过波次处理生成的标签。 （有关详细说明和配置说明，请参阅[配置波次标签打印](../warehousing/configure-wave-label-printing.md)。）
 
 您可以随时重新打印波次标签。 例如，如果现有标签丢失或损坏，您可能必须打印一个标签。 或者，如果整个波次标签系列的数量和/或组成发生变化（例如，由于库存短缺或其他原因），仓库工作人员或主管可能必须重新打印整卷标签。 很多时候，即使仅货箱数量改变，也必须重新打印整卷标签，以保持每个标签的“货箱 X/Y”部分的总数量准确。
 
@@ -32,10 +32,10 @@ ms.locfileid: "7572329"
 - 取消标签，同时重新打印标签。 （例如，在领料短缺情景中嵌入了取消标签功能。）
 - 清除波次标签历史记录。
 
-本主题提供了一组方案，通过示例演示如何使用重新打印波次标签功能。
+本文提供了一组方案，通过示例演示如何使用重新打印波次标签功能。
 
 > [!IMPORTANT]
-> 要演练本主题提供的方案，您必须首先打开并配置相关的波次打印功能，如[配置波次标签打印](../warehousing/configure-wave-label-printing.md)中所述。 本主题中的几种方案还需要您首先完成该主题中的方案以生成必备的示例数据。
+> 要演练本文提供的方案，您必须首先打开并配置相关的波次打印功能，如[配置波次标签打印](../warehousing/configure-wave-label-printing.md)中所述。 本文中的几种方案还需要您首先完成该文章中的方案以生成必备的示例数据。
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>方案 1：从 Web 客户端重新打印标签
 

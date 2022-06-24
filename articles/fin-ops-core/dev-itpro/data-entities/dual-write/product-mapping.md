@@ -1,6 +1,6 @@
 ---
 title: 统一的产品体验
-description: 本主题介绍 Finance and Operations 应用与 Dataverse 之间的产品数据集成。
+description: 本文介绍财务和运营应用与 Dataverse 之间的产品数据集成。
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884989"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 
@@ -126,7 +126,7 @@ Finance and Operations 应用 | 客户互动应用 |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>默认订单设置和产品特定的默认订单设置
 
-默认订单设置定义作为物料采购来源或存储物料的站点和仓库，在贸易或库存管理中将要使用的最低量、最高量、倍数和标准量，提前期，停止标志，以及订单承诺方法。 这些信息在 Dataverse 中使用默认订单设置和产品特定的默认订单设置实体提供。 您可以在[默认订单设置主题](../../../../supply-chain/production-control/default-order-settings.md)中阅读有关此功能的详细信息。
+默认订单设置定义作为物料采购来源或存储物料的站点和仓库，在贸易或库存管理中将要使用的最低量、最高量、倍数和标准量，提前期，停止标志，以及订单承诺方法。 这些信息在 Dataverse 中使用默认订单设置和产品特定的默认订单设置实体提供。 您可以在[“默认订单设置”一文](../../../../supply-chain/production-control/default-order-settings.md)中阅读有关此功能的详细信息。
 
 Finance and Operations 应用 | 客户互动应用 |
 ---|---

@@ -1,6 +1,6 @@
 ---
 title: 导入需求预测的历史数据
-description: 若要获取准确的需求预测，您需要每个物料或物料分配参数的历史需求数据。 本主题说明如何使用数据实体从任何一个系统导入历史需求数据，以便您具有需求预测数据的更长历史记录。
+description: 若要获取准确的需求预测，您需要每个物料或物料分配参数的历史需求数据。 本文说明如何使用数据实体从任何一个系统导入历史需求数据，以便您具有需求预测数据的更长历史记录。
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877586"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 
@@ -37,7 +37,7 @@ ms.locfileid: "8470392"
 
 若要使用数据实体，您必须有包含历史需求数据的 Microsoft Excel 文件或逗号分隔值 (CSV) 文件。 以下示例显示如何从 CSV 文件导入数据。
 
-有关如何导入数据（包括如何在导入后清理数据）的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)及其相关主题。
+有关如何导入数据（包括如何在导入后清理数据）的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)及其相关文章。
 
 另请参阅[生成统计基准预测](generate-statistical-baseline-forecast.md)。
 

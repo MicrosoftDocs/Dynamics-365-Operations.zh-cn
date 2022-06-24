@@ -1,6 +1,6 @@
 ---
 title: 全部金额和销售税代码的间隔计算选项
-description: 本主题说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
+description: 本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874452"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明销售税代码上的 **计算方法** 字段选项，以及如何为间隔和全部金额计算销售税。
+本文说明销售税代码上的 **计算方法** 字段选项，以及如何为间隔和全部金额计算销售税。
 
 您可以设置基于整个金额或间隔金额将计算出的增值税代码。 在 **销售税代码** 页上，使用字段 **计算方法**（在 **计算** 快速选项卡上）选择销售税代码的计算方法。
 - 全部金额 – 税率适用于整个应纳税金额。

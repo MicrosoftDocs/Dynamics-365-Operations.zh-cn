@@ -1,6 +1,6 @@
 ---
 title: 根据发票的 TDS 计算
-description: 本主题提供有关在发票级别计算从源扣缴税款的交易的参考。
+description: 本文提供有关在发票级别计算从源扣缴税款的交易的参考。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d349ebb9a61bfddb5e859b28e5d264b374609c70
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: efc12e0839fe87e9db435f481ce1fd733c286d6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855354"
 ---
 # <a name="tds-calculation-on-invoices"></a>根据发票的 TDS 计算
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关在发票级别计算从源扣缴税款的交易的参考。
+本文提供有关在发票级别计算从源扣缴税款的交易的参考。
 
 | 序列号 | 交易记录类型                                 | 交易记录金额 | 页面名称和选择路径                                 | 帐户类型和抵销帐户类型                         |
 | ------------- | ------------------------------------------------ | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

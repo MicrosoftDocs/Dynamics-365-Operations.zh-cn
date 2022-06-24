@@ -1,6 +1,6 @@
 ---
 title: 配置依赖操作的 ER 目标
-description: 本主题介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置依赖操作的目标。
+description: 本文介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置依赖操作的目标。
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876825"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323971"
 
 您可以为用于生成出站文档的[电子报告 (ER)](general-electronic-reporting.md) 格式[配置](general-electronic-reporting.md#Configuration)的每个输出组件（文件夹或文件）配置[目标](electronic-reporting-destinations.md)。 运行这种类型的 ER 格式、具有适当访问权限的用户，也可以在运行时更改配置的目标设置。
 
-在 Microsoft Dynamics 365 Finance **版本 10.0.17 及更高版本** 中，ER 格式可以通过[设置](er-apis-app10-0-17.md)用户执行（通过运行该 ER 格式）的操作代码来运行。 例如，在 **应收账款** 模块中，在打印管理设置中，您可以选择一个 ER 格式来生成特定的业务文档，如普通发票。 然后，您可以选择 **查看** 预览发票，或选择 **打印** 将其发送到打印机。 如果在运行时为正在运行的 ER 格式传递了用户操作，您可以为不同的用户操作配置不同的 ER 目标。 本主题说明如何为此类型的 ER 格式配置 ER 目标。
+在 Microsoft Dynamics 365 Finance **版本 10.0.17 及更高版本** 中，ER 格式可以通过[设置](er-apis-app10-0-17.md)用户执行（通过运行该 ER 格式）的操作代码来运行。 例如，在 **应收账款** 模块中，在打印管理设置中，您可以选择一个 ER 格式来生成特定的业务文档，如普通发票。 然后，您可以选择 **查看** 预览发票，或选择 **打印** 将其发送到打印机。 如果在运行时为正在运行的 ER 格式传递了用户操作，您可以为不同的用户操作配置不同的 ER 目标。 本文说明如何为此类型的 ER 格式配置 ER 目标。
 
 ## <a name="make-action-dependent-er-destinations-available"></a>让依赖操作的 ER 目标可用
 
@@ -82,7 +82,7 @@ ms.locfileid: "8323971"
 
 ER 格式运行时，如果用户操作已由具有适当[权限](electronic-reporting-destinations.md#security-considerations)可以在运行时更改配置的目标设置的用户设置，将出现一个对话框，提供更改已配置目标设置的选项。 此对话框是可选的，其外观取决于 ER 框架发起的运行 ER 格式的调用如何实现。 如果出现此对话框，其中的 ER 目标将根据提供的用户操作启用。
 
-下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本主题前面所示），在 [发布](../../../finance/accounts-receivable/create-free-text-invoice-new.md)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
+下图显示了如果已设置 **打印机** 操作并为此格式配置了 ER 目标（如本文前面所示），在 [发布](../../../finance/accounts-receivable/create-free-text-invoice-new.md)普通发票和运行 **普通发票(Excel)** ER 格式生成此文档时，出现的 **电子报告格式目标** 对话框的示例。
 
 ![提供更改为正在运行的 ER 格式初始配置的 ER 目标的选项的对话框。](./media/er-destination-action-dependent-02.gif)
 

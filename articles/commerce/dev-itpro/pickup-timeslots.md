@@ -1,6 +1,6 @@
 ---
 title: 创建和更新客户提货时隙
-description: 此主题介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
+description: 本文介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882225"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>创建和更新客户提货时隙
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
+本文介绍如何在 Commerce Headquarters 中创建、配置和更新客户提货时隙。
 
 时隙功能让零售商可以为打开客户提货交货方式的物料定义时隙。 时隙让零售商可以定义可以从商店提货的日期和时间。 零售商还可以定义可以在给定期间内提货的订单数量。 通过这种方式，零售商可以限制可以在给定日期和给定时间提货的订单数量。 结果是为其客户提供更高质量的体验。
 

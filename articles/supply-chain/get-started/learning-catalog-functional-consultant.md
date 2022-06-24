@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851875"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management 功能顾问学习目录
 
@@ -68,7 +68,7 @@ ms.locfileid: "8672085"
 | [课程 MB-300T01-A：Dynamics 365 for Finance and Operations 的核心常用功能](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心常用功能。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [课程 MB-300T02-A：Dynamics 365 for Finance and Operations 中的核心配置](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心配置任务。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [课程 MB-300T03-A：数据迁移和准备实行 Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的数据迁移和实行准备。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些主题介绍与 Microsoft Dynamics 365 for Finance and Operations 项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
+| [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些文章介绍与 Microsoft Dynamics 365 for Finance and Operations 项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
 
 ## <a name="migration-and-upgrade"></a>迁移和升级<a name="migration"></a>
 
@@ -105,7 +105,7 @@ ms.locfileid: "8672085"
 | [移动仓库应用程序 (VIR816PAL)](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | 此技术交流讨论 Dynamics 365 for Operations 中的高级仓库系统，以及高级仓库移动界面的未来会怎样。 我们将查看已发布的新移动应用程序，并将其与旧 WMDP 进行比较。 我们将了解要安装、配置和运行此移动应用程序需要满足的先决条件，以及如何将其用于识别您的实施。 | 自由录制 Web 会议 | 54 分钟 |
 | [供应商协作 (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | 此技术交流提供供应商协作功能的演练，包括 7 月（春季）发行版中包含的“供应商响应使用”功能。 | 自由录制 Web 会议 | 58 分钟 |
 | [使用高级仓库管理的物料和仓库迁移流程 (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | 在此技术交流中，将介绍如何通过未结交易记录将现有仓库设置和物料迁移到高级仓库管理，方法是使用新功能更改物料的维度组和让仓库使用高级仓库管理流程。 | 自由录制 Web 会议 | 54 分钟 |
-| [供应链管理主页](/dynamics365/unified-operations/supply-chain/) | 本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 | 文档 | |
+| [供应链管理主页](/dynamics365/unified-operations/supply-chain/) | 本文提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助文章和其他资源。 | 文档 | |
 | [原材料领料的需求补货 (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | 此技术交流介绍原材料领料及其需求补货。 | 自由录制 Web 会议 | 38 分钟 |
 | [课程 MB-330T01-A：在 Dynamics 365 for Finance and Operations 中配置和使用 Supply Chain Management](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | 此课程讨论如何在 Dynamics 365 for Finance and Operations 中配置和使用 Supply Chain Management。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 2 天 |
 | [课程 MB-330T02-A：在 Dynamics 365 for Finance and Operations 中使用质量管理、内部公司交易和主计划](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | 此课程介绍如何在 Dynamics 365 for Finance and Operations 中使用质量管理、内部公司交易和主计划。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |

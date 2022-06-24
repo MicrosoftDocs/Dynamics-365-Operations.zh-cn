@@ -1,6 +1,6 @@
 ---
-title: 客户服务解决方案概述
-description: 此主题提供商店应用程序中可用的新客户服务解决方案功能的概览。
+title: 客户服务解决方案概览
+description: 本文提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885603"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -81,7 +81,7 @@ ms.locfileid: "7984588"
     - 设置这些属性的显示顺序。 此显示顺序确定应在客户手册的客户卡上显示哪些属性。 显示顺序 1 被视为比显示顺序 2 更高。 因此，显示顺序为 1 的属性将显示在显示顺序为 2 的属性之前。
 
     > [!NOTE]
-    > 您可以在同一页面上提供 Customer Insights。 但是，出于身份验证目的，必须创建一个 Azure 应用程序 ID 和密钥。 （有关要求的信息，请参阅本主题后面[打开 Customer Insights 与 Commerce 的集成](#turn-on-the-integration-of-customer-insights-with-commerce)的部分。）如果 Customer Insights 已打开，并且您选择了应在客户卡上显示的一个或多个度量，则这些度量将首先显示。 接下来，将基于显示顺序显示客户手册属性组。 例如，如果您从 Customer Insights 选择两个度量，这两个度量和一个客户手册属性将显示在客户卡上。 （显示的客户手册属性将是显示顺序最高的属性。）
+    > 您可以在同一页面上提供 Customer Insights。 但是，出于身份验证目的，必须创建一个 Azure 应用程序 ID 和密钥。 （有关要求的信息，请参阅本文后面的[打开 Customer Insights 与 Commerce 的集成](#turn-on-the-integration-of-customer-insights-with-commerce)一节。）如果 Customer Insights 已打开，并且您选择了应在客户卡上显示的一个或多个度量，则这些度量将首先显示。 接下来，将基于显示顺序显示客户手册属性组。 例如，如果您从 Customer Insights 选择两个度量，这两个度量和一个客户手册属性将显示在客户卡上。 （显示的客户手册属性将是显示顺序最高的属性。）
 
 6. 在 **商业参数** 页面上，在 **客户服务解决方案** 选项卡上的 **客户手册属性组** 字段中，选择刚才创建的属性组。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861696"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
@@ -320,7 +320,7 @@ ms.locfileid: "8711311"
 <td>通过单击<strong>帮助</strong>，访问引导式程序帮助（任务指南）和概念主题。</td>
 <td>AX 2012 帮助系统指向本地 Web 服务器上存储的 HTML 主题。 客户和合作伙伴可以创建自己的帮助。</td>
 <td>Dynamics AX 的当前版本中的帮助系统显示在 Microsoft Dynamics Lifecycle Services (LCS) BPM 中存储的任务指南。 该帮助系统还显示 Microsoft 文档站点中的主题。 有关详细信息，请参阅<a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">帮助系统</a>和<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">新任务指南（2016 年 2 月）</a>。</td>
-<td>任务指南提供引导、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以下载和自定义 Microsoft 提供的任务指南。 本主题提供了更快、更灵活的方式来创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。</td>
+<td>任务指南提供引导、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以下载和自定义 Microsoft 提供的任务指南。 本文提供了更快、更灵活的方式来创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。</td>
 </tr>
 </tbody>
 </table>

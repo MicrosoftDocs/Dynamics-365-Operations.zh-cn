@@ -1,6 +1,6 @@
 ---
 title: 创建和维护库存锁定
-description: 本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。
+description: 本文介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ba95b689bedfc76598dfa81548a074f4fb7c833a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859334"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>创建和维护库存锁定
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。 在开始本主题中的过程之前，您必须有可以达到实际现有库存量的物料。
+本文介绍如何使用库存锁定防止实际现有库存量被其他出站源单据预留。 在开始本文中的过程之前，您必须有可以达到实际现有库存量的物料。
 
 ## <a name="block-inventory"></a>锁定库存
 

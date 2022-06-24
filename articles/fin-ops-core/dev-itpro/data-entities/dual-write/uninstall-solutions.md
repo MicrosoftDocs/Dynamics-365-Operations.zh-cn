@@ -1,6 +1,6 @@
 ---
 title: 卸载双重写入应用程序业务流程解决方案
-description: 本主题介绍如何卸载双重写入应用程序业务流程解决方案。
+description: 本文介绍如何卸载双重写入应用程序业务流程解决方案。
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870365"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>卸载双重写入应用程序业务流程解决方案
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何卸载双重写入应用程序业务流程解决方案。
+本文介绍如何卸载双重写入应用程序业务流程解决方案。
 
 一些客户无意中安装了双重写入应用程序业务流程程序包，该程序包在其 Microsoft Dataverse 环境中安装了多个解决方案。 安装程序包中的无关解决方案可能会导致意外和不良问题。
 

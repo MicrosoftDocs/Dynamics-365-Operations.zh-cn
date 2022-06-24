@@ -1,6 +1,6 @@
 ---
 title: 在 Commerce 中设置 B2C 租户
-description: 此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
+description: 本文介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853733"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>在 Commerce 中设置 B2C 租户
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
+本文介绍如何在 Dynamics 365 Commerce 中设置 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以执行用户站点身份验证。
 
 Dynamics 365 Commerce 使用 Azure AD B2C 为用户凭据和身份验证流提供支持。 用户可以通过这些流注册、登录和重置密码。 Azure AD B2C 中存储敏感的用户身份验证信息，如用户名和密码。 B2C 租户中的用户记录中将存储 B2C 本地帐户记录或 B2C 社交标识提供程序记录。 这些 B2C 记录将链接回 Commerce 环境中的客户记录。
 

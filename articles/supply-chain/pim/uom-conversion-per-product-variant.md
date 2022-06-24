@@ -1,6 +1,6 @@
 ---
 title: 按照产品变型的度量单位转换
-description: 本主题说明如何为产品变型设置度量单位转换。 其中包括设置示例。
+description: 本文说明如何为产品变型设置度量单位转换。 其中包括设置示例。
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869624"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为各种产品变型设置度量单位转换。
+本文说明如何为各种产品变型设置度量单位转换。
 
 您可以使用产品变型创建单个产品的差异，而不是创建多个必须维护的单品。 例如，指定尺寸和颜色的 T 恤就是一个产品变型。
 

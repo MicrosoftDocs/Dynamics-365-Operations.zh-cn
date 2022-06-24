@@ -1,6 +1,6 @@
 ---
 title: 移动设备用户设置
-description: 本主题说明如何管理面向仓库工作人员的移动设备用户设置。
+description: 本文说明如何管理面向仓库工作人员的移动设备用户设置。
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882335"
 ---
 # <a name="mobile-device-user-settings"></a>移动设备用户设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "8103705"
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>打开或关闭移动设备用户设置功能
 
-要使用本主题介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
+要使用本文介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
 ## <a name="create-and-manage-user-settings"></a>创建和管理用户设置
 

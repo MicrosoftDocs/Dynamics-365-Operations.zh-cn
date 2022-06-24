@@ -1,6 +1,6 @@
 ---
 title: 资产视图
-description: 本主题介绍资产管理中的资产视图。
+description: 本文介绍资产管理中的资产视图。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882712"
 ---
 # <a name="asset-view"></a>资产视图
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765530"
 
  
 
-本主题介绍资产管理中的资产视图。 **资产视图** 页以树视图显示有效资产和功能位置。 因此，您可以轻松获取资产与功能位置之间的关系的概览。 此外，还可以查看有关功能位置、资产和相关物料清单 (BOM) 的详细信息。 还可以快速获取与资产有关的有效维护请求和工作订单的概览。
+本文介绍资产管理中的资产视图。 **资产视图** 页以树视图显示有效资产和功能位置。 因此，您可以轻松获取资产与功能位置之间的关系的概览。 此外，还可以查看有关功能位置、资产和相关物料清单 (BOM) 的详细信息。 还可以快速获取与资产有关的有效维护请求和工作订单的概览。
 
 1. 选择 **资产管理** \> **常用** \> **资产** \> **资产视图**。
 2. 若要更改页面上显示的视图，请在 **视图** 字段中选择一个新值。

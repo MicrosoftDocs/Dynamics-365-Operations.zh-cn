@@ -1,6 +1,6 @@
 ---
 title: 阈值限制和异常阈值限制
-description: 本主题介绍了从源扣缴税款 (TDS) 的阈值和异常限制。
+description: 本文介绍了从源扣缴税款 (TDS) 的阈值和异常限制。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877927"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>阈值限制和异常阈值限制
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了从源扣缴税款 (TDS) 的阈值和异常限制。 在针对发票和付款计算 TDS 时，始终考虑在 **预缴税金组分** 页面上为 TDS 税种组分定义的阈值限制和异常阈值限制。 TDS 税种组分附加到包括在 TDS 税组中的 TDS 税码。 TDS 税组附加到供应商和客户，以在发票级别或付款级别计算 TDS。
+本文介绍了从源扣缴税款 (TDS) 的阈值和异常限制。 在针对发票和付款计算 TDS 时，始终考虑在 **预缴税金组分** 页面上为 TDS 税种组分定义的阈值限制和异常阈值限制。 TDS 税种组分附加到包括在 TDS 税组中的 TDS 税码。 TDS 税组附加到供应商和客户，以在发票级别或付款级别计算 TDS。
 
 如果通过供应商的特定 TDS 组过帐的交易或累计交易的金额超过在 **预缴税金组分** 页面上指定的阈值限制，将计算 TDS。 在累计交易金额超过指定的阈值限制之前，不会计算 TDS。
 

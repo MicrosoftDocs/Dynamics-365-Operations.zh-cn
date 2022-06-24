@@ -1,6 +1,6 @@
 ---
 title: 工艺路线和工序
-description: 本主题提供了有关工艺路线和工序的信息。
+description: 本文提供有关工艺路线和工序的信息。
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856010"
 ---
 # <a name="routes-and-operations"></a>工艺路线和工序
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。
+本文提供有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。
 
 ## <a name="overview"></a>概览
 

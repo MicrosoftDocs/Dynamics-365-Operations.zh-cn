@@ -1,6 +1,6 @@
 ---
 title: 在运输管理中对运费进行对帐
-description: 本主题介绍了运费对帐流程。
+description: 本文介绍了运费对帐流程。
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520a0fc78a136b416c943cfb72db1b2be7d2ed0c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ff29de62de12e8ca8bea0f374921a51b5819222e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844214"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了运费对帐流程。
+本文介绍了运费对帐流程。
 
 可以手动完成运费对帐或可以设置为自动发生。 若要使用自动运费对帐，您必须设置审计主数据，在其中可以定义确定自动匹配哪些运费帐单的条件。
 

@@ -1,6 +1,6 @@
 ---
 title: 监管工作类别
-description: 本主题介绍 Dynamics 365 Human Resources 的监管工作类别选项集。
+description: 本文介绍 Dynamics 365 Human Resources 的监管工作类别选项集。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b182e109220238a33d3af73cb859bee89e59dda6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4ca1376b35701b4e08da1969d3785706dbeb3e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870978"
 ---
 # <a name="regulatory-job-category"></a>监管工作类别
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066210"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的监管工作类别选项集。
+本文介绍 Dynamics 365 Human Resources 的监管工作类别选项集。
 
 物理名称：mshr_hcmregulatoryjobcategory
 

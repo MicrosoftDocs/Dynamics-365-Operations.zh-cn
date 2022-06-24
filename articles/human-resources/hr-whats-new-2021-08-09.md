@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 2021 年 8 月 9 日版本的新增功能或更改
-description: 此主题介绍了 2021 年 8 月 9 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 8 月 9 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882857"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Dynamics 365 Human Resources 2021 年 8 月 9 日版本的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Microsoft Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Microsoft Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -40,9 +40,9 @@ ms.locfileid: "8689261"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 问题 | 说明 |
+| 问题编号 | 问题 | Description |
 | --- | --- | --- |
 | 558385 | 如果为默认指定人员开启了 **自动选择指定人员** 选项，则不会选中默认指定人员。 | 此问题现已修复。 如果开启了 **Human Resources 共享参数** 页面中的 **自动选择指定人员** 选项，将自动选中多个默认指定人员。 |
 | 589617 | 如果限制为只有特定公司才能访问，则 **休假** 页面中的 **可购买** 和 **可出售** 余额为空白。 | 此问题现已修复。 如果将用户限制给特定公司，则 **休假** 页面将显示 **可购买** 和 **可出售** 余额。 |

@@ -1,6 +1,6 @@
 ---
 title: 产品建议概览
-description: 本主题提供有关产品建议的一般信息。 客户可通过产品建议轻松、快速地找到所需产品，甚至找到最初不打算购买的产品。
+description: 本文提供有关产品建议的一般信息。 客户可通过产品建议轻松、快速地找到所需产品，甚至找到最初不打算购买的产品。
 author: Moonma
 ms.date: 05/26/2020
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2cb62638e89dd9cd7c01739244d808f664b3f3b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867724"
 ---
 # <a name="product-recommendations-overview"></a>产品建议概览
 

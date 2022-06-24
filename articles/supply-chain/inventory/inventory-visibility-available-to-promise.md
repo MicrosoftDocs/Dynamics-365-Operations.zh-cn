@@ -1,6 +1,6 @@
 ---
 title: 库存可见性现有库存更改计划与可承诺
-description: 本主题介绍如何计划未来的现有库存更改以及如何计算可承诺 (ATP) 数量。
+description: 本文介绍如何计划未来的现有库存更改以及如何计算可承诺 (ATP) 数量。
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856184"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>库存可见性现有库存更改计划与可承诺
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置 *现有库存更改计划* 功能来计划未来的现有库存更改并计算可承诺 (ATP) 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用此计算可以大大提高您的订单履行能力。
+本文介绍如何设置 *现有库存更改计划* 功能来计划未来的现有库存更改并计算可承诺 (ATP) 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用此计算可以大大提高您的订单履行能力。
 
 对于很多制造商、零售商或经销商来说，仅仅知道目前的现有库存是不够的。 他们必须对未来的可用性具有完全的可见性。 未来可用性应考虑未来的供给、未来的需求和 ATP。
 

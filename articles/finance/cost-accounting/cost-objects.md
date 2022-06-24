@@ -1,6 +1,6 @@
 ---
 title: 成本对象维度
-description: 在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本主题提供了有关成本对象维度的信息。
+description: 在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本文提供了有关成本对象维度的信息。
 author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf9ebda3ab362112c9354595b7d554355b30f118
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3ee481b9dafe202e0a850a31b6ab036d52a20547
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874629"
 ---
 # <a name="cost-object-dimensions"></a>成本对象维度
 
 [!include [banner](../includes/banner.md)]
 
-在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本主题提供了有关成本对象维度的信息。
+在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本文提供了有关成本对象维度的信息。
 
 成本对象可以是您要估计、分配成本或直接衡量的任何对象类型。 典型的成本对象包括产品、项目、资源、部门、成本中心和地理区域。 管理层使用成本对象量化成本，也推动盈利分析。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 60b96f4d116d7f8f14226bd792c36c487cc0035763afdff6bbe22fe6e0104e77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2af539e9201456c46d1dd5fef5f31f9c4f225cdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844580"
 ---
 # <a name="report-designer-interface"></a>报表设计器界面
 
@@ -157,9 +157,9 @@ ms.locfileid: "6777372"
 
 **帮助** 菜单适用于所有用户并包含以下命令。
 
-| 命令 | 说明                                                              |
+| 命令 | Description                                                              |
 |---------|--------------------------------------------------------------------------|
-| 帮助    | 打开财务报告的帮助主题页。 |
+| 帮助    | 打开 Financial Reporting 的帮助文章页。 |
 |         |                                                                          |
 
 ## <a name="report-designer-toolbar-buttons"></a>报表设计器工具栏按钮

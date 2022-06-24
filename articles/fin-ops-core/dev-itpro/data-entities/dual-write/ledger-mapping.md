@@ -1,6 +1,6 @@
 ---
 title: 集成的分类帐
-description: 本主题介绍使用 Dataverse 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
+description: 本文介绍使用 Dataverse 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847180"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063639"
 
 
 
-在业务应用程序中，分类帐数据定义公司如何开展业务的核心设置。 例如，分类帐数据描述公司遵循的会计年度、交易所用的货币以及所使用的帐户。 本主题介绍此核心财务数据的集成。
+在业务应用程序中，分类帐数据定义公司如何开展业务的核心设置。 例如，分类帐数据描述公司遵循的会计年度、交易所用的货币以及所使用的帐户。 本文介绍此核心财务数据的集成。
 
 ## <a name="templates"></a>模板
 

@@ -1,6 +1,6 @@
 ---
 title: “可雇用的应聘者”的查询示例
-description: 本主题提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。
+description: 本文提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848333"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>“可雇用的应聘者”的查询示例
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069213"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。
+本文提供 Dynamics 365 Human Resources 中“可雇用的应聘者”实体的示例查询。
 
-本主题提供了一个示例，演示如何在单个 API 操作中使用 *深插入* 创建新应聘者记录的所有详细信息。 有关深插入的详细信息，请参阅[在一个操作中创建相关实体记录](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)。
+本文提供了一个示例，演示如何在单个 API 操作中使用 *深插入* 创建新应聘者记录的所有详细信息。 有关深插入的详细信息，请参阅[在一个操作中创建相关实体记录](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)。
 
 由于与 **mshr_dirpersonentity** 实体之间的关系，**mshr_hcmcandidatetohireentity** 实体是唯一的。 **mshr_hcmcandidatetohireentity** 上的很多属性（例如，**mshr_firstname**、**mshr_lastname** 和 **mshr_birthdate**）都派生自 **mshr_dirpersonentity** 记录。 如果在不使用深插入的情况下将新应聘者记录发布到 **mshr_hcmcandidatetohireentity**，您可以直接在 **mshr_hcmcandidatetohireentity** 记录中为这些属性定义值。 关联的 **mshr_dirpersonentity** 记录将使用属性的定义值隐式创建。 然后，您可以作为单独的 API 调用创建任何其他相关实体记录（如技能或教育）。
 

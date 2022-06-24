@@ -1,6 +1,6 @@
 ---
-title: 验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
-description: 本主题说明如何确定在财务和运营应用和 Dataverse 中是否配置了双写入。
+title: 验证财务和运营应用和 Dataverse 中的双重写入配置
+description: 本文说明如何确定在财务和运营应用和 Dataverse 中是否配置了双写入。
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884450"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证 Finance and Operations 应用和 Dataverse 中的双重写入配置
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证财务和运营应用和 Dataverse 中的双重写入配置
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062792"
 
 
 
-本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，说明如何确定在财务和运营应用和 Dataverse 中是否配置了双写入。
+本文提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，说明如何确定在财务和运营应用和 Dataverse 中是否配置了双写入。
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>验证是否在财务和运营应用中配置了双写入
 

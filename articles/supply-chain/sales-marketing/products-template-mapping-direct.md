@@ -1,6 +1,6 @@
 ---
 title: 将 Supply Chain Management 的产品直接同步到 Sales
-description: 此主题介绍用于将产品从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Sales 的模板和基础任务。
+description: 本文介绍用于将产品从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Sales 的模板和基础任务。
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855952"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>将 Supply Chain Management 的产品直接同步到 Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062455"
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator)。
 
-此主题介绍用于将产品直接从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Sales 的模板和基础任务。
+本文介绍用于将产品直接从 Dynamics 365 Supply Chain Management 同步到 Dynamics 365 Sales 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -107,7 +107,7 @@ ms.locfileid: "8062455"
 ![数据集成器中的模板映射。](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [目标客户到现金](prospect-to-cash.md)
 

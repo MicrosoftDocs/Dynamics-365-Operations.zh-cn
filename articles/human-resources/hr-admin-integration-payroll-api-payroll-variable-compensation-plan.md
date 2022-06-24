@@ -1,6 +1,6 @@
 ---
 title: 工资单可变薪酬计划
-description: 本主题提供 Dynamics 365 Human Resources 中工资单可变薪酬计划实体的详细信息和示例查询。
+description: 本文提供 Dynamics 365 Human Resources 中工资单可变薪酬计划实体的详细信息和示例查询。
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868121"
 ---
 # <a name="payroll-variable-compensation-plan"></a>工资单可变薪酬计划
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533638"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的工资单可变薪酬计划实体。
+本文介绍 Dynamics 365 Human Resources 的工资单可变薪酬计划实体。
 
 ### <a name="description"></a>说明
 

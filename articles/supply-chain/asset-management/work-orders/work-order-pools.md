@@ -1,6 +1,6 @@
 ---
 title: 工作订单池
-description: 本主题介绍在资产管理中如何使用工作订单池。
+description: 本文介绍在资产管理中如何使用工作订单池。
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dd474451569e123fab811cc3625862d599a07963f3714c72d5a724ffd052983e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849552"
 ---
 # <a name="work-order-pools"></a>工作订单池
 

@@ -1,6 +1,6 @@
 ---
 title: 查看已过帐的销售税交易记录
-description: 此主题介绍一些查看已过帐的销售税交易记录的方法。
+description: 本文介绍一些查看已过帐的销售税交易记录的方法。
 author: twheeloc
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c140f0565005120f57ba1c22bbdac50b3d0d3d4
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 028ebe44a639b32e45e0dd0af57887abc9b2af6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883233"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>查看已过帐的销售税交易记录
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍一些查看已过帐的销售税交易记录的方法。 您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 此任务使用 USMF 公司演示。
+本文介绍一些查看已过帐的销售税交易记录的方法。 您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 此任务使用 USMF 公司演示。
 
 ## <a name="posted-sales-tax-page"></a>已过帐的销售税页面
 

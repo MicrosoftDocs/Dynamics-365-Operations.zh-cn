@@ -1,6 +1,6 @@
 ---
 title: 使用物料到达日记帐登记启用了高级仓库的物料
-description: 本主题提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
+description: 本文提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863612"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了高级仓库的物料
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。
+本文提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。
 
 ## <a name="enable-sample-data"></a>启用示例数据
 
-若要使用在本主题中指定的示例记录和值完成此场景，您必须使用安装了标准演示数据的系统，并且必须在开始之前选择 *USMF* 法人。
+若要使用在本文中指定的示例记录和值完成此场景，您必须使用安装了标准演示数据的系统，并且必须在开始之前选择 *USMF* 法人。
 
 相反，如果您拥有以下可用数据，则可以通过从自己的数据中替换值来完成此场景：
 

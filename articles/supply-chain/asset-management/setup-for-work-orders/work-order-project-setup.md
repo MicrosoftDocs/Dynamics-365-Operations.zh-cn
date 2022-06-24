@@ -1,6 +1,6 @@
 ---
 title: 工作订单项目设置
-description: 本主题介绍资产管理中的工作订单项目设置。
+description: 本文介绍资产管理中的工作订单项目设置。
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874121"
 ---
 # <a name="work-order-project-setup"></a>工作订单项目设置
 
@@ -80,7 +80,7 @@ ms.locfileid: "6754075"
 ![工作订单项目设置页面，添加工作订单。](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> 只要创建工作订单行，资产管理都会搜索应该与工作订单作业项目关联的项目组。 此项搜索基于本主题中介绍的设置。 每个项目组都有一个关联的项目类型。 项目类型为 **时间和材料** 或 **固定价格** 的项目组仅对与客户帐户关联的资产有效。
+> 只要创建工作订单行，资产管理都会搜索应该与工作订单作业项目关联的项目组。 此项搜索基于本文中介绍的设置。 每个项目组都有一个关联的项目类型。 项目类型为 **时间和材料** 或 **固定价格** 的项目组仅对与客户帐户关联的资产有效。
 >
 > 对于父项目和项目组，当系统选择可用工作订单项目或项目组时，所选内容基于您使用上一个过程创建的记录。 资产管理将在与工作订单项目有关的记录中查找可能的匹配项。 始终先检查最具体的组合。 换句话说，对于工作订单父项目，资产管理首先会检查 **资产** 字段的可能匹配项。 如果未找到匹配项，将检查 **资产类型** 字段的匹配项。 如果未找到匹配项，将检查 **功能位置** 字段的匹配项，以此类推。 如 **工作订单项目设置** 页面布局中显示，此行为表示为了找到最具体的组合，资产管理从右到左检查每个记录以查找匹配项。 如果找不到匹配项，将使用仅在其中选择了项目 ID 的默认记录。 关联项目组的查找流程类似。 资产管理首先检查 **资产** 字段的可能匹配项，然后检查 **资产类型** 字段的，再检查 **工作订单类型** 字段的。 如果找不到匹配项，将使用仅在其中选择了项目组的默认记录。
 

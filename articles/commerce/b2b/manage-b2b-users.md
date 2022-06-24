@@ -1,6 +1,6 @@
 ---
 title: 在 B2B 电子商务网站上管理业务合作伙伴用户
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站和 Commerce headquarters 中添加、删除和编辑业务伙伴用户。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站和 Commerce headquarters 中添加、删除和编辑业务伙伴用户。
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860287"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站和 Commerce headquarters 中添加、删除和编辑业务伙伴用户。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站和 Commerce headquarters 中添加、删除和编辑业务伙伴用户。
 
 > [!NOTE]
-> - 完成[使用客户层次结构管理 B2B 业务合作伙伴](partners-customer-hierarchies.md)主题是阅读本文档的前提条件。
+> - 完成[使用客户层次结构管理 B2B 业务合作伙伴](partners-customer-hierarchies.md)一文是阅读本文档的前提条件。
 > - 通过在 **组织管理 \> 文档管理 \> 文档类型** 中打开 **文档类型** 窗体，确保您在 Commerce Headquarters 中初始化文档类型实体。
 
 B2B 电子商务网站需要组织进行注册才能成为业务合作伙伴。 组织将注册详细信息提交到 B2B 电子商务网站后，注册请求将通过资格认证流程。 如果组织成功取得资格，将作为业务合作伙伴加入。
@@ -121,7 +121,7 @@ B2B 电子商务网站需要组织进行注册才能成为业务合作伙伴。 
 
 ## <a name="additional-information"></a>其他信息
 
-- 可以将本主题中提到的所有作业配置为以批格式按计划运行。 业务合作伙伴应该会根据需要配置批处理作业。
+- 可以将本文中提到的所有作业配置为以批格式按计划运行。 业务合作伙伴应该会根据需要配置批处理作业。
 - 当前，只能将一个用户/客户记录指定为管理员用户，并且只能在 Commerce headquarters 中更改该角色。 没有让业务合作伙伴从 B2B 电子商务网站指定多个管理员或更改管理员的自助服务功能支持。
 - 虽然可以为用户定义支出限制，但是尚未实现在订单输入过程中强制执行支出限制。
 - B2B 电子商务网站上用户体验的所有业务逻辑和验证均基于映射到 Commerce headquarters 中用户的客户记录的配置。

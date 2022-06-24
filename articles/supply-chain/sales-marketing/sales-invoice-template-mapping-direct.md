@@ -1,6 +1,6 @@
 ---
 title: 将 Sales 的销售发票头和行直接从 Supply Chain Management 同步到 Sales
-description: 本主题讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
+description: 本文讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: de4bdd07127b65321540543040192eb7811850da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862531"
 ---
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将销售账单标题和行从 Finance and Operations 直接同步到 Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将 Finance and Operations 的销售账单标题和行直接同步到 Sales
 
 [!include [banner](../includes/banner.md)]
 
-本主题讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
+本文讨论用于将销售发票头和行直接从 Dynamics 365 Sales 同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -124,7 +124,7 @@ ms.locfileid: "7571633"
 
 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [目标客户到现金](prospect-to-cash.md)
 

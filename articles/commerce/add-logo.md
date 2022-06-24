@@ -1,6 +1,6 @@
 ---
 title: 添加徽标
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871772"
 ---
 # <a name="add-a-logo"></a>添加徽标
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中向您的站点添加徽标。
 
 建立站点时，您可能要做的第一件事就是将公司或品牌徽标添加到站点页眉中。 Dynamics 365 Commerce 在线模块库提供了让此任务轻松实现的模块。
 
-您可以将徽标直接添加到模板、布局或页面中。 这样，您可以轻松地更改出现在特定页面或页面组上的徽标。 但本主题介绍最常见的场景：您将徽标添加到可以在站点的所有页面上重复使用的页眉片段中。
+您可以将徽标直接添加到模板、布局或页面中。 这样，您可以轻松地更改出现在特定页面或页面组上的徽标。 但本文介绍最常见的场景：您将徽标添加到可以在站点的所有页面上重复使用的页眉片段中。
 
 ## <a name="prerequisites"></a>先决条件
 

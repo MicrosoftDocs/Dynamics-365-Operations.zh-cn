@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848185"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -79,9 +79,9 @@ ms.locfileid: "8735714"
 
 如果要向目标附加文档（如完成证书），可以在 **绩效目标** 页的 **附件** 部分中附加。 将提供文档查看器，供您快速查看任何附加文档的内容。 
 
-您可以从目标创建模板，然后将其用于新建基于该模板的目标。 从目标创建模板时，将保存说明、主题和目标量化指标。 但是将删除所有实际量化指标、完成日期和主题注释。
+您可以从目标创建模板，然后将其用于新建基于该模板的目标。 从目标创建模板时，将保存说明、主题和目标量化指标。 但是将删除所有实际量化指标、完成日期和文章注释。
 
-## <a name="performance-reviews"></a>绩效审核
+## <a name="performance-reviews"></a>绩效考核
 
 绩效审核更正规的名称是讨论。 它们现在非常灵活，可以支持连续反馈、开发计划和更正式的审核。 您可以为两个人快速创建小型会议<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> 或者，您可以生成与公司审核流程匹配的更复杂的考核。 
 

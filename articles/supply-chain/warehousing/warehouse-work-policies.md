@@ -1,6 +1,6 @@
 ---
 title: 工作策略
-description: 本主题说明如何设置工作策略。
+description: 本文说明如何设置工作策略。
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855839"
 ---
 # <a name="work-policies"></a>工作策略
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置系统和仓库管理移动应用，让它们支持工作策略。 您可以使用此功能在收到采购订单或转移单或完成制造流程时快速登记库存，而无需创建储存工作。 本主题提供一般性信息。 有关牌照接收的详细信息，请参阅[通过仓库管理移动应用的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
+本文说明如何设置系统和 Warehouse Management 移动应用，让它们支持工作策略。 您可以使用此功能在收到采购订单或转移单或完成制造流程时快速登记库存，而无需创建储存工作。 本文提供一般信息。 有关牌照接收的详细信息，请参阅[通过仓库管理移动应用的牌照接收](warehousing-mobile-device-app-license-plate-receiving.md)。
 
 工作策略控制在将制造的物料报告为完工入库时，或在使用仓库管理移动应用接收商品时是否创建仓库工作。 您可以通过定义工作策略所应用的条件来设置每个工作策略：工作订单类型和流程、库存位置和（可选）产品。 例如，必须在仓库 *24* 的位置 *RECV* 接收产品 *A0001* 的采购订单。 以后，该产品将在位置 *RECV* 的另一个流程中使用。 在这种情况下，您可以设置工作策略来阻止当工作人员报告在位置 *RECV* 接收的产品 *A0001* 时创建储存工作。
 
@@ -35,7 +35,7 @@ ms.locfileid: "7571153"
 
 ## <a name="activate-the-features-in-your-system"></a>激活系统中的功能
 
-要使本主题中介绍的所有功能在您的系统中可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下两项功能：
+要使本文中介绍的所有功能在您的系统中可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用以下两项功能：
 
 - 牌照接收增强功能
 - 入站工作的工作策略增强

@@ -1,6 +1,6 @@
 ---
 title: 与第三方制造执行系统集成
-description: 本主题说明如何将 Microsoft Dynamics 365 Supply Chain Management 与第三方制造执行系统 (MES) 集成。
+description: 本文说明如何将 Microsoft Dynamics 365 Supply Chain Management 与第三方制造执行系统 (MES) 集成。
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860629"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -238,7 +238,7 @@ ms.locfileid: "8678678"
 
 ## <a name="other-production-information"></a>其他生产信息
 
-这些消息支持在车间发生的操作或事件。 它们使用本主题中描述的 MES 集成框架进行处理。 此设计假设将从系统中检索要与 MES 共享的其他参考信息（如产品相关信息，或特定生产订单中使用的物料清单或工艺路线(及其特定设置和配置时间)）将通过文件传输或 OData 使用[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities)从系统中检索。
+这些消息支持在车间发生的操作或事件。 它们使用本文中描述的 MES 集成框架进行处理。 此设计假设将从系统中检索要与 MES 共享的其他参考信息（如产品相关信息，或特定生产订单中使用的物料清单或工艺路线(及其特定设置和配置时间)）将通过文件传输或 OData 使用[数据实体](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities)从系统中检索。
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>接收有关消息状态的反馈
 
@@ -251,7 +251,7 @@ ms.locfileid: "8678678"
 
 在这些情况下，您可以利用 Supply Chain Management 中的标准预警功能。 有关标准预警如何工作的信息，请参阅以下资源：
 
-- 帮助主题：[预警概述](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- 帮助文章：[预警概述](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - 视频：[Dynamics 365 for Finance and Operations 中的预警规则选项](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 例如，您可以设置以下预警来提供有关消息状态的反馈：

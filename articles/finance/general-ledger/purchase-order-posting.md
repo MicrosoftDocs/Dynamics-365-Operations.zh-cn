@@ -1,6 +1,6 @@
 ---
 title: 采购订单过帐
-description: 本主题描述“库存过帐模板”页面的“采购订单”选项卡。
+description: 本文描述“库存过帐模板”页面的“采购订单”选项卡。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849922"
 ---
 # <a name="purchase-order-posting"></a>采购订单过帐
 
@@ -125,7 +125,7 @@ ms.locfileid: "8802985"
 
 ## <a name="procurement-category-posting"></a>采购类别过帐
 
-作为为所有物料、一组物料或单个物料设置库存过帐的替代方法，您可以设置类别并按采购类别控制分类帐过帐。 有关设置类别并将其分配给产品的详细信息，请转到本主题前面的[示例过帐模板配置](#sample-posting-profile-configuration)。
+作为为所有物料、一组物料或单个物料设置库存过帐的替代方法，您可以设置类别并按采购类别控制分类帐过帐。 有关设置类别并将其分配给产品的详细信息，请转到本文前面的[示例过帐模板配置](#sample-posting-profile-configuration)。
 
 将类别与采购订单或供应商发票配合使用时，需要将类别层次结构分配给 **类别层次结构角色分配** 页上的 **采购类别层次结构** 类型。
 

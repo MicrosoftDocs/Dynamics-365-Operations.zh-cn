@@ -1,6 +1,6 @@
 ---
 title: 商店库存管理
-description: 本主题描述可用于管理库存的文档类型。
+description: 本文描述可用于管理库存的文档类型。
 author: BrianShook
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a4a8f517ebb6fd4ce291b5d28ae22db62a832251
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 68670426251f539a187e03250d21bf00d1e18acb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881597"
 ---
 # <a name="commerce-inventory-management"></a>Commerce 库存管理
 

@@ -1,6 +1,6 @@
 ---
 title: 返点管理过帐设置
-description: 本主题介绍如何设置过帐配置文件。 过帐配置文件用于确定返点管理计算行的过帐条目。
+description: 本文介绍如何设置过帐配置文件。 过帐配置文件用于确定返点管理计算行的过帐条目。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873570"
 ---
 # <a name="rebate-management-posting-setup"></a>返点管理过帐设置
 
@@ -30,7 +30,7 @@ ms.locfileid: "8690237"
 
 若要为客户和供应商设置返点管理过帐配置文件，请转到 **返点管理 \> 返点管理过帐设置 \> 返点管理过帐配置文件**。 **返点管理过帐配置文件** 页面包括显示所有现有配置文件的列表窗格。 您可以使用操作窗格上的按钮将配置文件添加到列表或删除它们。
 
-本主题的其余部分介绍在创建或编辑配置文件时如何使用可用字段。
+本文的其余几节介绍在创建或编辑配置文件时如何使用可用字段。
 
 ## <a name="posting-profile-header"></a>过帐配置文件标题
 

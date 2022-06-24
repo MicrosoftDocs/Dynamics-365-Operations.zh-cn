@@ -1,6 +1,6 @@
 ---
-title: 实施常见问题
-description: 本主题列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。
+title: 实施常见问题解答
+description: 本文列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。
 author: rachel-profitt
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5b0f58c7ebf03466805d20806316f6f1c32e4a4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dfb2434b0d0573f2edab228fcca77ee653d751a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853094"
 ---
-# <a name="go-live-faq"></a>实施常见问题 
+# <a name="go-live-faq"></a>实施常见问题解答 
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "8695351"
 
 
 
-本主题列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。 
+本文列出了有关如何实行 Dynamics 365 Human Resources 实施项目的常见问题。 
 
 ## <a name="when-can-i-configure-and-request-my-production-environment"></a>何时可以配置和请求生产环境？ 
 

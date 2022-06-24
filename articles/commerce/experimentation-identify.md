@@ -1,6 +1,6 @@
 ---
 title: 标识假设并确定试验指标
-description: 本主题描述了如何在 Dynamics 365 Commerce 中标识您在电子商务网站上运行的试验的假设和成功指标。
+description: 本文描述了如何在 Dynamics 365 Commerce 中标识您在电子商务网站上运行的试验的假设和成功指标。
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b6bdf160522fc93e841ec2f8a4542ff80d8f67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852778"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>标识假设并确定试验的成功指标
-试验生命周期的第一阶段包括标识试验假设并确定要跟踪以评估成功与否的指标。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上[设置和运行试验](experimentation-overview.md)所涉及的所有步骤。 其他步骤在单独的主题中介绍。 
+试验生命周期的第一阶段包括标识试验假设并确定要跟踪以评估成功与否的指标。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上[设置和运行试验](experimentation-overview.md)所涉及的所有步骤。 其他步骤在单独的文章中介绍。 
 
 [![试验用户旅程 - 标识。](./media/experimentation_identify.svg)](./media/experimentation_identify.svg#lightbox)
 

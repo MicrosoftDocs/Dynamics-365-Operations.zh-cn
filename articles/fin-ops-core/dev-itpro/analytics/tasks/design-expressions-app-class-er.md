@@ -1,6 +1,6 @@
 ---
 title: 设计 ER 表达式以调用应用类方法
-description: 本主题介绍如何通过调用必需的应用程序类方法来在电子报告配置中重用现有的应用程序逻辑。
+description: 本文介绍如何通过调用必需的应用程序类方法来在电子报告配置中重用现有的应用程序逻辑。
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883616"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何通过在 ER 表达式中调用必需的应用类方法来在[电子报告 (ER)](../general-electronic-reporting.md) 配置中重用现有应用程序逻辑。 调用类的参数值可以在运行时动态定义。 例如，值可以基于解析文档中的信息，以确保其正确性。
+本文介绍如何通过在 ER 表达式中调用必需的应用类方法来在[电子报告 (ER)](../general-electronic-reporting.md) 配置中重用现有应用程序逻辑。 调用类的参数值可以在运行时动态定义。 例如，值可以基于解析文档中的信息，以确保其正确性。
 
-对于本主题中的示例，您将设计一个流程来分析传入的银行对帐单以更新应用程序数据。 您将收到包含国际银行帐号 (IBAN) 代码的文本 (.txt) 文件形式的传入银行对帐单。 作为导入银行对帐单过程的一部分，您必须使用已经提供的逻辑验证 IBAN 代码的正确性。
+对于本文中的示例，您将设计一个流程来分析传入的银行对帐单以更新应用程序数据。 您将收到包含国际银行帐号 (IBAN) 代码的文本 (.txt) 文件形式的传入银行对帐单。 作为导入银行对帐单过程的一部分，您必须使用已经提供的逻辑验证 IBAN 代码的正确性。
 
 ## <a name="prerequisites"></a>先决条件
 
-本主题中的过程适用于已被分配了 **系统管理员** 或 **电子报告开发人员** 角色的用户。
+本文中的过程适用于已被分配了 **系统管理员** 或 **电子报告开发人员** 角色的用户。
 
 可使用任何数据集完成这些过程。
 
 要完成这些过程，您必须下载并保存以下文件：[SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt)。
 
-在本主题中，将为示例公司 Litware 公司创建所需 ER 配置。 因此，在完成本主题中的过程之前，您必须执行以下步骤。
+在本文中，将为示例公司 Litware 公司创建所需 ER 配置。 因此，在完成本文中的过程之前，您必须执行以下步骤。
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页面，验证 **Litware, Inc.** 示例公司的配置提供程序是否可用并标记为有效。 如果没有看到此配置提供程序，您必须首先完成[创建配置提供程序并标记为有效](er-configuration-provider-mark-it-active-2016-11.md)中的步骤。

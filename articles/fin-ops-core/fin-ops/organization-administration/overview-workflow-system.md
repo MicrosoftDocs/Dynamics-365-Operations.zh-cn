@@ -1,6 +1,6 @@
 ---
 title: 工作流系统概览
-description: 此主题介绍工作流系统。
+description: 本文介绍工作流系统。
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 13dd4335a8b939a44ea7176a90f660999c32a83a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863179"
 ---
 # <a name="workflow-system-overview"></a>工作流系统概览
 
@@ -30,7 +30,7 @@ ms.locfileid: "8067925"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-此主题介绍工作流系统。
+本文介绍工作流系统。
 
 ## <a name="what-is-workflow"></a>什么是工作流？
 

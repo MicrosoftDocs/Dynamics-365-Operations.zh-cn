@@ -1,6 +1,6 @@
 ---
 title: 设置电子邮件通知配置文件
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878478"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建电子邮件通知配置文件。
 
 创建渠道时，可以设置电子邮件通知配置文件。 电子邮件通知配置文件定义销售交易记录事件（如订单已创建、订单已包装和订单已开票事件），您将为这些事件向客户发送通知。 
 

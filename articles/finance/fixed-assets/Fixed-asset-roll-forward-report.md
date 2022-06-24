@@ -1,6 +1,6 @@
 ---
 title: 固定资产前滚报表
-description: 本主题说明如何使用固定资产前滚报表。
+description: 本文说明如何使用固定资产前滚报表。
 author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cbdb63c8b52baf030be10f27c27d27d58e3103a5
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870124"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 

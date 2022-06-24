@@ -1,6 +1,6 @@
 ---
 title: 生产订单过帐
-description: 本主题提供有关不同类型的生产订单过帐的信息。
+description: 本文提供有关不同类型的生产订单过帐的信息。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup, ProdGroup, WrkCtrTable, WrkCtrRe
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: cd1b6c49e59f9480fd831ad5ff143033ca09792c
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: d41725325a82b24c1e5aa6bd2c1a5322f3078ace
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879615"
 ---
 # <a name="production-postings"></a>生产过帐
 
-本主题提供有关生产订单流程中不同过帐类型的信息。
+本文提供有关生产订单流程中不同过帐类型的信息。
 
 
 ## <a name="material-consumption"></a>物料消耗量

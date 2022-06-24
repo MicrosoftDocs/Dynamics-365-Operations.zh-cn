@@ -1,6 +1,6 @@
 ---
 title: 灵活的仓库级维度预留策略
-description: 本主题介绍一种库存预留策略，其允许销售批量跟踪产品并且以启用 WMS 的操作运行物流的企业为客户销售订单预留特定批次，即使与产品相关联的预留层次结构不允许预留特定批次。
+description: 本文介绍一种库存预留策略，其允许销售批量跟踪产品并且以启用 WMS 的操作运行物流的企业为客户销售订单预留特定批次，即使与产品相关联的预留层次结构不允许预留特定批次。
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885803"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -28,7 +28,7 @@ ms.locfileid: "7474932"
 
 以类似的方式，当销售订单上的产品与默认预留层次结构关联时，不能为这些产品预留特定牌照。
 
-本主题介绍一种库存预留策略，能够让这些企业预留特定批次或牌照，即使产品与 *Batch-below\[location\]* 预留层次结构关联。
+本文介绍一种库存预留策略，能够让这些企业预留特定批次或牌照，即使产品与 *Batch-below\[location\]* 预留层次结构关联。
 
 ## <a name="inventory-reservation-hierarchy"></a>库存预留层次结构
 

@@ -1,6 +1,6 @@
 ---
 title: 使用条码数据源生成条码图像
-description: 本主题说明如何使用条码数据源生成条码图像。
+description: 本文说明如何使用条码数据源生成条码图像。
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880303"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>使用条码数据源生成条码图像
 
@@ -77,7 +77,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 >
 > 当您将 **条码** 数据源以某种格式绑定到单元格元素，并且该单元格元素表示 Word 内容控件或 Excel 图片时，数据源在该绑定中显示为具有单个 **字符串** 类型参数的函数。 您必须使用此参数来指定应转换为条码图像并在扫描生成的条码时读取的文本。
 
-有关此功能的详细信息，请完成本主题中的示例。
+有关此功能的详细信息，请完成本文中的示例。
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>示例：生成包含对应付金额进行编码的条码的付款支票
 
@@ -112,7 +112,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 - 电子申报功能顾问
 - 系统管理员
 
-如果您尚未完成[使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)主题中的示例，请下载示例 ER 解决方案的以下配置。
+如果您尚未完成[使用 ER 在您生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)一文中的示例，请下载示例 ER 解决方案的以下配置。
 
 | 内容描述         | 文件名                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>激活配置提供程序
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
-2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 **Litware, Inc.** 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](tasks/er-configuration-provider-mark-it-active-2016-11.md)中的步骤操作。
+2. 在 **本地化配置** 页上的 **配置提供程序** 部分中，确保列出了示例公司 **Litware, Inc.** 的[配置提供程序](general-electronic-reporting.md#Provider)，并将其标记为活动状态。 如果未列出，或者未将其标记为活动状态，请按照[创建一个配置提供程序，并标记其为活动状态](tasks/er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤操作。
 
 ![在“本地化配置”页面上将示例公司设置为活动状态。](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ ER 现在支持 **条码** 数据源类型。 因此，您现在可以生成一�
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>将生成的支票转换为 PDF
 
-如[生成可打印的 FTI 表单](er-generate-printable-fti-forms.md#finland)主题中所述，您可以使用特殊字体在生成的文档中生成条码。 在这种情况下，生成文档的其他转换可能取决于转换环境中该字体的可用性。 例如，如果您尝试将文档转换为 PDF 格式或在缺少字体的环境中预览文档，条码将无法正确呈现。
+如[生成可打印的 FTI 表单](er-generate-printable-fti-forms.md#finland)一文中所述，您可以使用特殊字体在生成的文档中生成条码。 在这种情况下，生成文档的其他转换可能取决于转换环境中该字体的可用性。 例如，如果您尝试将文档转换为 PDF 格式或在缺少字体的环境中预览文档，条码将无法正确呈现。
 
 但是，当您使用 **条码** 数据源来生成条码时，这些条码的呈现将不依赖于任何字体。 因此，您可以轻松地将包含条码的文档转换为 PDF 格式。 下图显示了生成的付款支票的预览，该支票已基于配置的 ER [目标](electronic-reporting-destinations.md)的设置[转换](electronic-reporting-destinations.md#OutputConversionToPDF)为 PDF。
 

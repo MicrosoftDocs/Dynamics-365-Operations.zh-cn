@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880836"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>固定资产价值模型和折旧帐簿合并
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。
+本文介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。
 
-帐簿功能让您可以对组织的所有固定资产流程使用一组页面、查询和报表。 本主题中的表格列出了早期版本的折旧帐簿和价值模型功能以及当前的帐簿功能。
+帐簿功能让您可以对组织的所有固定资产流程使用一组页面、查询和报表。 本文中的表列出了早期版本的折旧帐簿和价值模型功能以及当前的帐簿功能。
 
 ## <a name="setup"></a>设置
 默认情况下，帐簿过帐到总帐 (GL) 和固定资产子分类帐。 帐簿具有新的 **过帐到总帐** 选项，您可以禁用过帐到总帐，仅过帐到固定资产子分类帐。 此功能类似于早期版本的折旧帐簿过帐行为。 日记帐名称设置具有新的过帐层，名为“无”。 此过帐层特别针对固定资产交易记录而添加。 要过帐不过帐到总帐的帐簿的交易记录，您必须使用过帐层设置为 **无** 的日记帐名称。

@@ -1,6 +1,6 @@
 ---
-title: 到达概览
-description: 本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
+title: 到货概览
+description: 本文提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,20 +18,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874063"
 ---
-# <a name="arrival-overview"></a>到达概览
+# <a name="arrival-overview"></a>到货概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
+本文提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
 
-**到达概览** 页提供所有预期到货物料的概览。 它还显示可根据概览初始化的到达。 本主题重点介绍接收过程。
+**到达概览** 页提供所有预期到货物料的概览。 它还显示可根据概览初始化的到达。 本文重点介绍接收过程。
 
 ## <a name="business-scenario"></a>业务方案
 在入站流程中考虑以下方案。

@@ -1,6 +1,6 @@
 ---
 title: 不符合项的问题类型
-description: 本主题介绍如何创建和使用不符合项的问题类型。
+description: 本文介绍如何创建和使用不符合项的问题类型。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857741"
 ---
 # <a name="problem-types-for-nonconformances"></a>不符合项的问题类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建和使用不符合项的问题类型。
+本文介绍如何创建和使用不符合项的问题类型。
 
 您将使用 **问题类型** 页定义各个不符合项类型可能遇到的质量问题的分类。 对于创建的每个问题类型，您必须指定可以使用该问题类型的不符合项类型。 您可以设置以下不符合项类型：
 

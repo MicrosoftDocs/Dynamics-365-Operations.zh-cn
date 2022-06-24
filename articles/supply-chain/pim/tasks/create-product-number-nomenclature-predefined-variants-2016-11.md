@@ -1,6 +1,6 @@
 ---
 title: 为预定义的产品变型创建产品编号命名法
-description: 本主题介绍如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。
+description: 本文介绍如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。
 author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e77c8eabe1657f7fbfef71747627207dccff3b60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887303"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>为预定义的产品变型创建产品编号命名法
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。 创建此程序的演示数据公司是 USMF。 将为“颜色和大小”产品维度组分配新产品编号命名法。 此任务通常由产品设计师完成。
+本文介绍如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。 创建此程序的演示数据公司是 USMF。 将为“颜色和大小”产品维度组分配新产品编号命名法。 此任务通常由产品设计师完成。
 
 
 ## <a name="create-a-product-number-nomenclature"></a>创建产品编号命名法

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858515"
 ---
 # <a name="collections-management-key-concepts"></a>收款管理关键概念
 
@@ -34,7 +34,7 @@ ms.locfileid: "8723014"
 - 可以在一个步骤中创建勾销交易记录。
 - 可以在一个步骤中处理资金不足 (NSF) 付款。
 
-本主题描述了每个概念。
+本文描述了每个概念。
 
 ## <a name="customer-aging-snapshots"></a>客户帐龄快照
 
@@ -86,7 +86,7 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 
 您可以停征、复征或冲销全部利息单，或者利息单中包含的费用和交易记录利息。 在 **所有客户** 列表页的操作窗格的 **收款** 选项卡上，选择 **利息单**、**交易记录利息** 或 **费用**。
 
-这些调整仅影响包括的利息单、利息和费用。 有关如何勾销所有客户欠款的信息，请参阅本主题的[创建勾销交易记录](#creating-write-off-transactions)部分。
+这些调整仅影响包括的利息单、利息和费用。 有关如何勾销所有客户欠款的信息，请参阅本文的[创建勾销交易记录](#creating-write-off-transactions)一节。
 
 有关详细信息，请参阅创建具有范围的利息代码和处理利息。
 

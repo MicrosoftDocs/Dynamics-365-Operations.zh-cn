@@ -1,6 +1,6 @@
 ---
 title: 导入和导出评分和评价
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中导入和导出产品评分和评价。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中导入和导出产品评分和评价。
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863393"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>导入和导出评分和评价
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中导入和导出产品评分和评价。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中导入和导出产品评分和评价。
 
 Dynamics 365 Commerce 提供[评分和评价](ratings-reviews-overview.md)作为全渠道解决方案。 当您切换到 Dynamics 365 Commerce 评分和评价解决方案时，您可能需要将现有的评分和评价数据移至 Commerce 平台。 您可能还希望根据业务要求从 Commerce 导出评分和评价数据。 通过 Power Automate 连接器，您可以将评分和评价导入 Commerce 并从 Commerce 中导出。
 

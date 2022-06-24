@@ -1,6 +1,6 @@
 ---
 title: 部署新的电子商务租户
-description: 本主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
+description: 本文介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883996"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>部署新的电子商务租户
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
+本文介绍如何使用 Microsoft Dynamics Lifecycle Services (LCS) 部署新的 Dynamics 365 Commerce 电子商务站点。
 
 Microsoft Dynamics Lifecycle Services (LCS) 是基于云的协作工作空间，合作伙伴和客户可将其用于管理自己的项目和环境，查看有关 Microsoft Dynamics 产品和功能的最新信息，以及创建，跟踪和浏览支持事件。 电子商务管理功能将集成到 LCS 中。
 

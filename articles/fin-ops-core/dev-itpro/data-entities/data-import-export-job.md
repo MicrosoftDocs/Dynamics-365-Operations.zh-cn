@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860155"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644450"
 要创建和管理数据导入和导出作业，请使用 **数据管理** 工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
 
 > [!NOTE]
-> 此主题假定您熟悉[数据实体](data-entities.md)。
+> 本文假定您熟悉[数据实体](data-entities.md)。
 
 ## <a name="data-importexport-process"></a>数据导入/导出流程
 以下是导入或导出数据的步骤。
@@ -48,7 +48,7 @@ ms.locfileid: "8644450"
 5. 查看作业历史纪录，验证作业是否按预期运行。
 6. 清除暂存表。
 
-本主题的其余部分提供有关流程的每个步骤的详细信息。
+本文的其余章节提供有关流程的每个步骤的详细信息。
 
 > [!NOTE]
 > 要刷新“数据导入/导出”窗体以查看最新进度，请使用窗体刷新图标。 不建议执行浏览器级刷新，因为这将中断所有未批量运行的导入/导出作业。

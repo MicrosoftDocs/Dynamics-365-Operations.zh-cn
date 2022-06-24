@@ -1,6 +1,6 @@
 ---
 title: 电子商务数字礼品卡
-description: 本主题介绍数字礼品卡如何在 Microsoft Dynamics 365 Commerce 的电子商务实现中工作。 另外还概述了重要的配置步骤。
+description: 本文介绍数字礼品卡如何在 Microsoft Dynamics 365 Commerce 的电子商务实现中工作。 另外还概述了重要的配置步骤。
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884896"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>电子商务数字礼品卡
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍数字礼品卡如何在 Microsoft Dynamics 365 Commerce 的电子商务实现中工作。 另外还概述了重要的配置步骤。
+本文介绍数字礼品卡如何在 Microsoft Dynamics 365 Commerce 的电子商务实现中工作。 另外还概述了重要的配置步骤。
 
 在 Dynamics 365 Commerce 中，数字礼品卡的购买流与系统中其他产品的购买流相同。 无需配置其他模块。 如果将多个礼品卡添加到购物车中，礼品卡商品不会在单个销售行上聚合。 需要此行为，是因为每个销售行使用单独的礼品卡号开票。
 

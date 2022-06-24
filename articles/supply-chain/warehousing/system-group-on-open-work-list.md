@@ -1,6 +1,6 @@
 ---
 title: 对未结工作列表的系统分组
-description: 此主题描述如何在移动设备上筛选未结工作列表。
+description: 本文描述如何在移动设备上筛选未结工作列表。
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42e5862392cff57886c36bcbe138e13a8ce7ef23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849088"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>对未结工作列表的系统分组
 

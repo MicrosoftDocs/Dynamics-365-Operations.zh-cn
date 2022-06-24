@@ -1,6 +1,6 @@
 ---
 title: POS 外围设备和服务的运行状况检查
-description: 此主题概述销售点 (POS) 中的运行状况检查操作。
+description: 本文概述销售点 (POS) 中的运行状况检查操作。
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863313"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS 外围设备和服务的运行状况检查
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍销售点 (POS) 中的运行状况检查操作。
+本文介绍销售点 (POS) 中的运行状况检查操作。
 
 ## <a name="overview"></a>概览
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Commerce 版本 10.0.10 及更高版本中有一项运行
 | 术语 | 说明 |
 |---|---|
 | 外围设备 | POS 应用程序用于促成交易和商店中的其他操作的任何设备。 例如，收银箱、条形码扫描仪和付款终端。 |
-| 服务 | 在此主题中，服务是 POS 应用程序用于执行交易和日常经营的辅助应用程序。 例如，帮助计算税或装运费用的应用。 |
+| 服务 | 在本文中，服务是 POS 应用程序用于执行交易和日常经营的辅助应用程序。 例如，帮助计算税或装运费用的应用。 |
 
 ## <a name="health-check-operation"></a>运行状况检查操作
 

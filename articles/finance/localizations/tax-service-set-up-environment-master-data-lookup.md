@@ -1,6 +1,6 @@
 ---
 title: 启用税款计算配置的主数据查找
-description: 本主题说明如何设置和启用税款计算主数据查找功能。
+description: 本文说明如何设置和启用税款计算主数据查找功能。
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879400"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>启用税款计算配置的主数据查找 
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置和启用税款计算主数据查找功能。 可以使用下拉列表为 **法人**、**供应商帐户**、**物料代码** 和 **交货期限** 等字段选择税款计算配置中的值。 这些值来自使用 Microsoft Dataverse 数据源的连接的 Microsoft Dynamics 365 Finance 环境。
+本文说明如何设置和启用税款计算主数据查找功能。 可以使用下拉列表为 **法人**、**供应商帐户**、**物料代码** 和 **交货期限** 等字段选择税款计算配置中的值。 这些值来自使用 Microsoft Dataverse 数据源的连接的 Microsoft Dynamics 365 Finance 环境。
 
 > [!NOTE] 
 > 税款计算主数据查找功能是可选功能。 如果您在 Regulatory Configuration Service (RCS) 中禁用了 **税务服务 Dataverse 数据源支持** 功能，您可以跳过以下步骤。 但是，在这种情况下，税款计算配置中将没有下拉列表。

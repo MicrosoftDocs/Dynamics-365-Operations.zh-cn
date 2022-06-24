@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
-description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改的功能。
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 12/03/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849436"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.24 中的新增或更改的功能。 此版本的构建版本号为 10.0.1084，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.24 中的新增或更改的功能。 此版本的构建版本号为 10.0.1084，并以下面的形式提供：
 
 - **版本预览：** 2021 年 12 月
 - **版本的正式发布时间（自行更新）：** 2022 年 1 月
@@ -29,7 +29,7 @@ ms.locfileid: "8570273"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-下表列出了此版本中包含的功能。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的功能。
+下表列出了此版本中包含的功能。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的功能。
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
@@ -52,9 +52,9 @@ ms.locfileid: "8570273"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 按照上一部分的列举，这些主题未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
+我们最近添加或大幅更新了以下帮助文章。 按照上一部分的列举，这些文章未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 成本管理 | [库存值报表](../cost-management/inventory-value-report-storage.md) |
 | 成本管理 | [库存值报表示例和逻辑](../cost-management/inventory-value-report-examples.md) |
@@ -84,12 +84,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.24 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

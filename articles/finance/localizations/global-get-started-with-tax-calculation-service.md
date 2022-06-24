@@ -1,6 +1,6 @@
 ---
 title: 开始使用税款计算
-description: 本主题说明如何设置税务计算。
+description: 本文说明如何设置税务计算。
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855271"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关如何开始使用税务计算的信息。 本主题中的各节内容指导您完成 Microsoft Dynamics Lifecycle Services (LCS)、Regulatory Configuration Service (RCS)、Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的高级设计和配置步骤。 
+本文提供有关如何开始使用税务计算的信息。 本文中的各节内容指导您完成 Microsoft Dynamics Lifecycle Services (LCS)、Regulatory Configuration Service (RCS)、Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的高级设计和配置步骤。 
 
 设置由三个主要步骤组成。
 
@@ -77,11 +77,11 @@ ms.locfileid: "8685902"
 - 销售税组
 - 物料销售税组
 
-本主题的其余各节提供更详细的配置步骤。
+本文的其余各节提供更详细的配置步骤。
 
 ## <a name="prerequisites"></a>先决条件
 
-在完成本主题中的其余过程之前，必须满足以下先决条件：<!--TO HERE-->
+在完成本文中的其余过程之前，必须满足以下先决条件：<!--TO HERE-->
 
 - 您必须有权访问 LCS 帐户，并且必须已部署具有运行 Dynamics 365 版本 10.0.21 或更高版本的第 2 层（或以上）环境的 LCS 项目。
 - 您必须为组织创建 RCS 环境，并且您必须有权访问您的帐户。 有关如何创建 RCS 环境的详细信息，请参阅 [Regulatory Configuration Service 概览](rcs-overview.md)。
@@ -212,7 +212,7 @@ ms.locfileid: "8685902"
     | 销售额            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > 如果应纳税单据行上的默认销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本主题的[运行时设计](#runtime)一节。
+    > 如果应纳税单据行上的默认销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本文的[运行时设计](#runtime)一节。
 
 22. 在 **物料税组适用性** 选项卡上，选择确定正确税码所需的列，然后选择 **添加**。 输入或选择每列的值。 **物料税组** 字段将是此矩阵的输出。 如果未配置此选项卡，则将使用交易行上的物料销售税组。
 
@@ -224,7 +224,7 @@ ms.locfileid: "8685902"
     | D0003     | 已降低        |
 
     > [!NOTE]
-    > 如果应纳税单据行上的默认物料销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本主题的[运行时设计](#runtime)一节。
+    > 如果应纳税单据行上的默认物料销售税组正确，请将此矩阵留空。 有关详细信息，请参阅本文的[运行时设计](#runtime)一节。
 
     有关如何在税款计算中确定税码的详细信息，请参阅[销售税组和物料销售税组确定逻辑](global-sales-tax-group-determination.md)。
 
@@ -243,7 +243,7 @@ ms.locfileid: "8685902"
 2. 在 **常规** 选项卡上，设置以下字段：
 
     - **启用税款计算服务** – 选中此复选框以为法人启用税务计算。 如果未为当前法人启用它，法人将继续使用现有税务引擎来确定和计算税务。
-    - **功能设置** – 选择法人的已发布税务功能设置和版本。 有关如何设置和完成已发布税务功能的详细信息，请参阅本主题的上一部分。
+    - **功能设置** – 选择法人的已发布税务功能设置和版本。 有关如何设置和完成已发布税务功能的详细信息，请参阅本文的上一节。
     - **业务流程** – 选择要启用的业务流程。
 
 3. 在 **计算** 选项卡上，定义法人的预期舍入规则。 有关舍入逻辑的详细信息，请参阅[税金计算舍入规则](https://go.microsoft.com/fwlink/?linkid=2166988)。

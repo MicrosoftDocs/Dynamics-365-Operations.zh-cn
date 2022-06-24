@@ -1,6 +1,6 @@
 ---
 title: 设置和处理呼叫中心欺诈预警
-description: 此主题说明在订单处理过程中，如何设置预警规则来通知客户服务代表潜在的欺诈信息。 您可以定义特别的代码用以自动或手动保留可疑订单。
+description: 本文说明在订单处理过程中，如何设置预警规则来通知客户服务代表潜在的欺诈信息。 您可以定义特别的代码用以自动或手动保留可疑订单。
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885340"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>设置和处理呼叫中心欺诈预警
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何设置条件和规则以将具有欺诈可能性的销售订单置于保留状态以进一步审核。 欺诈检查功能用于确定销售订单中信息的有效性。 如果根据组织的欺诈条件和规则，销售订单中的信息似乎可疑，则可以保留订单以执行进一步检查。 在此情况下，清除保留之前，不能将订单下达给仓库进行进一步的处理。
+本文说明如何设置条件和规则以将具有欺诈可能性的销售订单置于保留状态以进一步审核。 欺诈检查功能用于确定销售订单中信息的有效性。 如果根据组织的欺诈条件和规则，销售订单中的信息似乎可疑，则可以保留订单以执行进一步检查。 在此情况下，清除保留之前，不能将订单下达给仓库进行进一步的处理。
 
 > [!NOTE]
 > 此功能只能与 Commerce 呼叫中心渠道的销售订单处理配合使用。

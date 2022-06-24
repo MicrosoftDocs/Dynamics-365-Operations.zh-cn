@@ -1,6 +1,6 @@
 ---
-title: 在 POS 中更改交货方式
-description: 此主题介绍如何在 POS 中配置和使用更改交货方式操作。
+title: 在 POS 上更改交货模式
+description: 本文介绍如何在 POS 中配置和使用更改交货方式操作。
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855813"
 ---
-# <a name="change-mode-of-delivery-in-pos"></a>在 POS 中更改交货方式
+# <a name="change-mode-of-delivery-in-pos"></a>在 POS 上更改交货模式
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在销售点 (POS) 环境中设置和使用“更改交货方式”功能。 
+本文介绍如何在销售点 (POS) 环境中设置和使用“更改交货方式”功能。 
 
 在 Dynamics 365 Commerce 版本 10.0.10 及更高版本中，可将 **更改交货方式** 操作 (647) 添加到您的 POS 屏幕布局。
 

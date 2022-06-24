@@ -1,6 +1,6 @@
 ---
 title: 结帐模块
-description: 此主题介绍如何向页面添加结帐模块和设置必需的属性。
+description: 本文介绍如何向页面添加结帐模块和设置必需的属性。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869020"
 ---
 # <a name="checkout-module"></a>结帐模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何向页面添加结帐模块和设置必需的属性。
+本文介绍如何向页面添加结帐模块和设置必需的属性。
 
 结帐模块是承载创建订单所需全部模块的特殊容器。 它提供分步流程，供客户输入与采购有关的所有信息。 它捕获送货地址、送货方式和帐单信息。 它还提供订单摘要以及与客户订单相关的其他信息。
 

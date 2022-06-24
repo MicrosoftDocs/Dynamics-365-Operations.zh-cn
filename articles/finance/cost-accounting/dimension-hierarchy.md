@@ -1,6 +1,6 @@
 ---
 title: 维度层次结构
-description: 此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。
+description: 本文提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 60585690a2cf5962d4ad562c3a01b675a0588263
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848626"
 ---
 # <a name="dimension-hierarchy"></a>维度层次结构
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。  
+本文提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。  
 
 ## <a name="overview"></a>概览
 

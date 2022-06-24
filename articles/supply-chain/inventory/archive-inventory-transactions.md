@@ -1,6 +1,6 @@
 ---
 title: 存档库存交易记录
-description: 本主题介绍如何存档库存交易记录数据以帮助提高系统性能。
+description: 本文介绍如何存档库存交易记录数据以帮助提高系统性能。
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874092"
 ---
 # <a name="archive-inventory-transactions"></a>存档库存交易记录
 
 [!include [banner](../../includes/banner.md)]
 
-随着时间的推移，库存交易记录表 (`InventTrans`) 会继续增长，消耗更多数据库空间。 因此，针对表进行的查询将逐渐变慢。 本主题介绍如何使用 *库存交易记录存档* 功能来存档有关库存交易记录的数据，以帮助提高系统性能。
+随着时间的推移，库存交易记录表 (`InventTrans`) 会继续增长，消耗更多数据库空间。 因此，针对表进行的查询将逐渐变慢。 本文介绍如何使用 *库存交易记录存档* 功能来存档有关库存交易记录的数据，以帮助提高系统性能。
 
 > [!NOTE]
 > 只有财务更新的库存交易记录可以在选定的已关闭分类帐期间内存档。 要进行存档，财务更新的出站库存交易记录的发货状态必须为 *已售出*，而入站库存交易记录的收货状态必须为 *已购买*。
@@ -35,7 +35,7 @@ ms.locfileid: "8736052"
 
 ## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *库存交易记录存档* 功能。 请注意，此功能在启用后，无法禁用。
+如果您的系统尚未包含本文中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *库存交易记录存档* 功能。 请注意，此功能在启用后，无法禁用。
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>存档库存交易记录之前要考虑的事项
 

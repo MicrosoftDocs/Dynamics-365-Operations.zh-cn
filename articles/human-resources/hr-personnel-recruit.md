@@ -1,6 +1,6 @@
 ---
 title: 招聘工作应聘者
-description: 本主题介绍如何在 Dynamics 365 Human Resources 中招聘应聘者。
+description: 本文介绍如何在 Dynamics 365 Human Resources 中招聘应聘者。
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879241"
 ---
 # <a name="recruit-job-candidates"></a>招聘工作应聘者
 
@@ -47,11 +47,12 @@ Dynamics 365 Human Resources 帮助您管理招聘请求。 它还帮助您无�
 
 启用这些功能后，通过以下步骤选择相关功能： 
 1. 转到 **人力资源** > **设置** > **人力资源参数**。
-2. 在  **招聘** 选项卡上，将 **已禁用招聘** 字段设置为 **否**。
-3. 在 **招聘体验** 下拉列表中，选择 **人力资源招聘**。   
+2. 在  **招聘** 选项卡上，将 **已启用招聘** 字段设置为 **是**。
+3. 在 **招聘体验** 下拉列表中，选择 **人力资源招聘**。  
+4. 单击 **保存**。 
 
 > [!Note] 
-> 选择 **人力资源招聘** 后，**招聘项目**（旧版）将为只读。 
+> 选择 **人力资源招聘** 后，**招聘项目**（旧版）将不可用。 
 
 
 ## <a name="add-a-recruiting-request-location"></a>添加招聘请求位置

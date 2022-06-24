@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 中的新增功能或更改（2021 年 3 月 8 日）
-description: 此主题介绍 2021 年 3 月 8 日 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 3 月 8 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868045"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 3 月 8 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -48,9 +48,9 @@ ms.locfileid: "8687859"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 486611 | 当 **在所有日历上禁用休假** 启用时，休假显示在休假日历上 | 如果启用了 **在所有日历上禁用休假**，在启用“休假和缺勤日历”增强功能时，休假信息将不再显示。|
 | 508972 | 假期和缺勤银行交易实体缺少登记验证 | 使用休假和缺勤银行交易实体时，无法再导入未在计划中登记的员工。 |

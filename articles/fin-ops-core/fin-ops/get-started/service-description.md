@@ -1,6 +1,6 @@
 ---
 title: 财务和运营应用的服务描述
-description: 本主题提供财务和运营应用的服务描述。
+description: 本文提供财务和运营应用的服务描述。
 author: tomhig
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
-ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8758760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847151"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>财务和运营应用的服务描述
 

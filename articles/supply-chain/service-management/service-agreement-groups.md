@@ -1,6 +1,6 @@
 ---
 title: 服务协议概览
-description: 本主题概述了服务协议的工作原理。
+description: 本文概述了服务协议的工作原理。
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862444"
 ---
 # <a name="service-agreements-overview"></a>服务协议概览
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670823"
 - 您在公司中设置了三个协议组，即金牌、银牌和铜牌。
 - 新的服务帐户经理在您的公司中已雇用。 服务经理负责与金牌协议组中的所有客户交易。 您可以筛选金牌协议组上的协议记录，以便找到您必须将新的服务经理指定为其负责人的所有协议。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [创建服务协议组](create-service-agreement-groups.md)
 

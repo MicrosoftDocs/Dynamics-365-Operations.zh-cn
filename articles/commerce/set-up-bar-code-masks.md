@@ -1,6 +1,6 @@
 ---
-title: 设置条码掩码
-description: 此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
+title: 设置条形码掩码
+description: 本文介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
 author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 97b490384cff27c60191a87dc623eb6a2ef868f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853704"
 ---
-# <a name="set-up-bar-code-masks"></a>设置条码掩码
+# <a name="set-up-bar-code-masks"></a>设置条形码掩码
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
+本文介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
 
 ## <a name="set-up-bar-code-mask-characters"></a>设置条码掩码字符
 

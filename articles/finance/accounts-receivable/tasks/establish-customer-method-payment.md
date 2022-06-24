@@ -1,6 +1,6 @@
 ---
 title: 设定客户付款方式
-description: 本主题说明如何为客户付款创建付款方式。
+description: 本文说明如何为客户付款创建付款方式。
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861493"
 ---
 # <a name="establish-customer-method-of-payment"></a>设定客户付款方式
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何为客户付款创建付款方式。 此任务使用 USMF 公司演示。
+本文说明如何为客户付款创建付款方式。 此任务使用 USMF 公司演示。
 
 1. 在导航窗格中，转到 **模块 > 应收帐款 > 付款设置 > 付款方式**。
 2. 选择 **新建**。

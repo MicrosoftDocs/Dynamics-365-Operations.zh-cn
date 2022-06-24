@@ -1,6 +1,6 @@
 ---
 title: 自定义电子报告配置以生成电子单据
-description: 本主题介绍了如何自定义 Microsoft 提供的电子报告 (ER) 配置，它们用于生成自定义电子单据。
+description: 本文介绍了如何自定义 Microsoft 提供的电子报告 (ER) 配置，它们用于生成自定义电子单据。
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854689"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>自定义电子报告配置以生成电子单据
 
@@ -30,11 +30,11 @@ ms.locfileid: "8661649"
 
 通过[电子报告 (ER) 框架](general-electronic-reporting.md)，您可以将 Microsoft 提供的 ER [配置](general-electronic-reporting.md#Configuration)上传到 Microsoft Dynamics 365 Finance 实例。 通过此方式，Microsoft 提供的配置可以用作 ER 解决方案，用于生成电子客户发票（电子发票）。 您可以使用此 ER 解决方案配置您的自定义 ER 解决方案，以访问您的自定义数据库字段并生成符合您的特定要求的电子发票，而无需编辑源代码。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 
-对于本主题中的示例，您必须指定联邦纳税标识代码作为您开具电子发票的每个客户的新自定义属性。 因此，必须通过在生成的每个电子发票中添加一个必须用税码填充的新物料来自定义当前使用的发票的结构。
+对于本文中的示例，您必须指定联邦纳税标识代码作为您开具电子发票的每个客户的新自定义属性。 因此，必须通过在生成的每个电子发票中添加一个必须用税码填充的新物料来自定义当前使用的发票的结构。
 
-本主题中的过程介绍了系统管理员、电子报告开发人员或电子报告功能顾问角色的用户如何在 Finance 实例中执行以下任务：
+本文中的过程介绍了系统管理员、电子报告开发人员或电子报告功能顾问角色的用户如何在 Finance 实例中执行以下任务：
 
 - [配置开始使用 ER 框架所需的最低限度的 ER 参数](#ConfigureER)。
 - [导入提供用于生成电子发票的标准 ER 配置的初始版本](#ImportERConfigurations1)。

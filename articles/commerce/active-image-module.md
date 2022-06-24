@@ -1,6 +1,6 @@
 ---
 title: 活动图像模块
-description: 此主题介绍活动图像模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍活动图像模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 06b9162029de3f5f3fede9583fa8a4a96fefb2f3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853842"
 ---
 # <a name="active-image-module"></a>活动图像模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍活动图像模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍活动图像模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 活动图像模块可用于在图像中嵌入产品标记。 然后，电子商务站点用户可以将鼠标悬停在标记上以预览图像中显示的产品。 预览显示在弹出窗口中。 通过选择预览弹出窗口，用户可以直接转到相应产品的产品详细信息页面 (PDP)。
 

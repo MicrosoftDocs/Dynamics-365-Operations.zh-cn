@@ -1,6 +1,6 @@
 ---
 title: 供应商发票日期
-description: 本主题介绍供应商发票上显示的日期。 另外还介绍了如何设置系统以自动调整过帐日期。
+description: 本文介绍供应商发票上显示的日期。 另外还介绍了如何设置系统以自动调整过帐日期。
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876403"
 ---
 # <a name="vendor-invoice-dates"></a>供应商发票日期
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍供应商发票上显示的日期。 另外还介绍了如何设置系统以自动调整过帐日期。
+本文介绍供应商发票上显示的日期。 另外还介绍了如何设置系统以自动调整过帐日期。
 
 在 **待定供应商发票(详细)** 页面上，发票标头显示四个日期：发票接收日期、发票日期、过帐日期和截止日期。 创建供应商发票时，默认输入以下日期：
 
@@ -37,7 +37,7 @@ ms.locfileid: "8105455"
 
 有时，供应商发票可能在期间关闭后长时间处于待定状态。 当过帐准备就绪时，仍会使用以往过帐期间的旧过帐日期。 但是，该期间现在已关闭。 因此，应付帐款 (AP) 职员必须手动将之前创建的所有待定发票的所有过帐日期更改为新的过帐期间。
 
-通过此主题中介绍的功能，您可以设置系统来根据业务要求自动调整过帐日期。
+通过本文中介绍的功能，您可以设置系统来根据业务要求自动调整过帐日期。
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>用于自动调整供应商发票过帐日期的参数
 

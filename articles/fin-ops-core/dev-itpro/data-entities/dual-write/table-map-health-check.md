@@ -1,20 +1,20 @@
 ---
 title: 表映射运行状况检查的错误代码
-description: 本主题介绍表映射运行状况检查的错误代码。
-author: nhelgren
-ms.date: 10/04/2021
+description: 本文介绍表映射运行状况检查的错误代码。
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884074"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>表映射运行状况检查的错误代码
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061270"
 
 
 
-本主题介绍表映射运行状况检查的错误代码。
+本文介绍表映射运行状况检查的错误代码。
 
 ## <a name="error-100"></a>错误 100
 
@@ -32,7 +32,7 @@ ms.locfileid: "8061270"
 
 ## <a name="error-400"></a>错误 400
 
-错误消息是“未找到实体\{财务和运营 UniqueEntityName\} 的业务事件注册数据，这意味着映射未运行或所有字段映射都是单向的。”
+错误消息是“未找到实体 \{财务和运营 UniqueEntityName\} 的业务事件注册数据，这意味着映射未运行或所有字段映射都是单向的。”
 
 ## <a name="error-500"></a>错误 500
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 错误消息是“实体 \{datasourceTable.Key.entityName\} 的表 \{datasourceTable.Key.subscribedTableName\} 是为实体 \{origTableToEntityMaps.EntityName\} 跟踪。 为多个实体跟踪的相同表可能会影响实时同步事务的系统性能。”
 
 如果同一个表被多个实体跟踪，对表的任何更改都会触发链接实体的双写入评估。 虽然筛选器子句仅发送有效记录，但如果存在长时间运行的查询或未优化的查询计划，评估可能会导致性能问题。 从业务角度来看，此问题可能不可避免。 但是，如果跨多个实体存在很多相交表，您应考虑简化实体或检查实体查询的优化。
+
+## <a name="error-1800"></a>错误 1800
+错误消息是“实体 CustCustomerV3Entity 的数据源 {} 具有范围值。 从 Dataverse 到财务和运营的入站记录更新可能会受到实体上的范围值的影响。 请使用与筛选条件不匹配的记录测试从 Dataverse 到财务和运营的记录更新，来验证您的设置。”
+
+如果在财务和运营应用中的实体上指定了范围，则应测试从 Dataverse 到财务和运营应用的入站同步，以了解与此范围条件不匹配的记录的更新行为。 任何与范围不匹配的记录都会被实体视为插入操作。 如果基础表中有现有记录，插入将失败。 我们建议您在部署到生产环境之前针对所有场景测试此用例。
+
+## <a name="error-1900"></a>错误 1900
+错误消息是“实体：具有未跟踪出站双写入的 {} 数据源。 这可能会影响实时同步查询的性能。 请在财务和运营中重构实体以删除未使用的数据源和表，或实现 getEntityRecordIdsImpactedByTableChange 来优化运行时查询。”
+
+如果在财务和运营应用的实际实时同步中没有用于跟踪的多个数据源，则实体性能可能会影响实时同步。要优化跟踪表，请使用方法 getEntityRecordIdsImpactedByTableChange。
+
+## <a name="error-5000"></a>错误 5000
+错误消息是“已为实体帐户的数据管理事件注册了同步插件。 这些插件可能会影响到 Dataverse 的初始同步和实时同步导入性能。 为获得最佳性能，请将插件更改为异步处理。 已注册插件 {} 的列表。”
+
+Dataverse 实体上的同步插件会影响实时同步和初始同步性能，因为它会增加事务负载。 如果您在特定实体的初始同步或实时同步中遇到加载时间缓慢的情况，推荐的方法是关闭插件或让这些插件变为异步处理。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

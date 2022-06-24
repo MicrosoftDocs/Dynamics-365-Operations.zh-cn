@@ -1,6 +1,6 @@
 ---
 title: 计划优化使用的日期和时间参数
-description: 本主题提供有关计划优化在运行期间使用的日期和时间参数的信息。
+description: 本文提供有关计划优化在运行期间使用的日期和时间参数的信息。
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885890"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>计划优化使用的日期和时间参数
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供有关计划优化在运行期间使用的日期和时间参数的信息。
+本文提供有关计划优化在运行期间使用的日期和时间参数的信息。
 
 内置主计划引擎在所有计算中使用交易日期，但计划优化使用转换为日期的日期和时间值。 此行为差异可能导致以下情况：未包括在运行主计划当天午夜创建的预测交易，因为计划优化认为是在当前日期之前创建的，此为举例。
 

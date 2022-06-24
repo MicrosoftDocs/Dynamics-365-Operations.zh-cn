@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2021 年 7 月 26 日）
-description: 此主题介绍了 2021 年 7 月 26 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 7 月 26 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870920"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Dynamics 365 Human Resources 的新增功能或更改（2021 年 7 月 26 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -48,9 +48,9 @@ ms.locfileid: "8694702"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 问题 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 600422 | 工资单地址验证失败，无法准备付款。 | 验证已更新为仅需要一个“工资单居住地址”类型的地址和一个“工资单工作地点”类型的地址。 |
 | 601226 | 数据集成问题：工资单集成导出项目没有用于完全推送的选项 | 与 Ceridian DayForce 的工资单集成正在执行增量推送，而不是完全推送。 Ceridian 要求始终完全刷新。 此问题现已修复，数据导出项目中的实体将不再翻转到增量推送。 |

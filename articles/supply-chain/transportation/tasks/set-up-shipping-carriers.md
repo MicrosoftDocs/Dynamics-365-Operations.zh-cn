@@ -1,6 +1,6 @@
 ---
 title: 设置装运承运人
-description: 此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。
+description: 本文演示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。
 author: Weijiesa
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 876a3ffd94f554ef042da995311df0f8009eee12
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 48586a0ddaa7cd95a81380dadffef8f276076dd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858963"
 ---
 # <a name="set-up-shipping-carriers"></a>设置装运承运人
 
 [!include [banner](../../includes/banner.md)]
 
-此主题显示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。 运输协调员可将装运承运人分配给某个入站或出站装载。
+本文演示如何设置装运承运人和定义详细信息，诸如服务、装运方式、运输招标、运输约束和装运费用。 运输协调员可将装运承运人分配给某个入站或出站装载。
 
 ## <a name="create-a-new-shipping-carrier"></a>创建新装运承运人
 

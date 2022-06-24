@@ -1,6 +1,6 @@
 ---
 title: 开销计算
-description: 此主题描述计算和分配间接成本的典型流程。
+description: 本文描述计算和分配间接成本的典型流程。
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881982"
 ---
 # <a name="overhead-calculation"></a>开销计算
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述计算和分配间接成本的典型流程。
+本文描述计算和分配间接成本的典型流程。
 
 ## <a name="term-definition"></a>术语定义
 
@@ -1336,7 +1336,7 @@ ms.locfileid: "8733925"
 可变成本 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 有关详细信息，请参阅[成本累积政策和开销计算](cost-rollup.md)。
+> 本文显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 有关详细信息，请参阅[成本累积政策和开销计算](cost-rollup.md)。
 
 
 

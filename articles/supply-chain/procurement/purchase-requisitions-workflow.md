@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849349"
 ---
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 
@@ -89,7 +89,7 @@ ms.locfileid: "8675926"
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>配置采购申请的工作流
 若要传送采购申请至审核人，则必须配置采购申请工作流流程。 您定义工作流中请求了物料（申请人）的用户、复核人和审核人之间的交互控制的工作流流程。 采购申请的传送取决于在该工作流配置中指定的条件。 例如，这些条件确定应何时传送采购申请、它应传送到的用户或角色，以及用户可以采取的行动。  
 
-本主题中的示例显示采购申请可如何作为单个文档或作为单独的采购申请行通过工作流传送。 您还可以配置采购申请的工作流以反映为您组织定义的采购申请的内部控制审核。  
+本文中的示例显示采购申请可如何作为单个文档或作为单独的采购申请行通过工作流传送。 您还可以配置采购申请的工作流以反映为您组织定义的采购申请的内部控制审核。  
 
 任务分配给工作流中的参与者或审核人可以是特定用户组的成员、具有特定安全角色的用户、与管理层次结构中的提交者关联的用户，或者指定用户或具有特定支出责任的用户。
 

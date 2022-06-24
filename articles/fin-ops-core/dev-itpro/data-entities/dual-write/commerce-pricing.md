@@ -1,6 +1,6 @@
 ---
 title: 对 Dynamics 365 Sales 使用 Dynamics 365 Commerce 定价引擎
-description: 本主题介绍如何在 Dynamics 365 Sales 中使用 Microsoft Dynamics 365 Commerce 定价引擎创建销售报价单。
+description: 本文介绍如何在 Dynamics 365 Sales 中使用 Microsoft Dynamics 365 Commerce 定价引擎创建销售报价单。
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881385"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>对 Dynamics 365 Sales 使用 Dynamics 365 Commerce 定价引擎
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在 Dynamics 365 Sales 中使用 Microsoft Dynamics 365 Commerce 定价引擎创建销售报价单。
+本文介绍如何在 Dynamics 365 Sales 中使用 Microsoft Dynamics 365 Commerce 定价引擎创建销售报价单。
 
 Dynamics 365 Commerce 定价引擎支持大多数企业对消费者 (B2C) 定价方案，如商店级定价、基于隶属关系和基于会员制的定价、组合折扣、数量折扣和阈值折扣。 定价引擎使用复杂的规则来确定给定报价单或订单的最佳价格。
 

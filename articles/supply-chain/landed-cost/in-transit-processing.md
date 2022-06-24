@@ -1,6 +1,6 @@
 ---
 title: 在途货物处理
-description: 本主题介绍如何处理在途货物订单。 将订单或航行设置为使用在途货物处理时，可以在在仓库中接收货物以供使用之前对货物开票。
+description: 本文介绍如何处理在途货物订单。 将订单或航行设置为使用在途货物处理时，可以在在仓库中接收货物以供使用之前对货物开票。
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854375"
 ---
 # <a name="goods-in-transit-processing"></a>在途货物处理
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何处理在途货物订单。 此订单类型仅由 **登陆成本** 模块使用。 将订单或航行设置为使用在途货物处理时，您不必等到仓库中接收货物即可为货物开票。 而是在货物离开供应商的仓库或始发港口时开票，财务成本在航行开始时确认。 此功能让您可以正确地获取库存的所有权，因为货物在离开装运港口时通常会成为组织的财产。
+本文介绍如何处理在途货物订单。 此订单类型仅由 **登陆成本** 模块使用。 将订单或航行设置为使用在途货物处理时，您不必等到仓库中接收货物即可为货物开票。 而是在货物离开供应商的仓库或始发港口时开票，财务成本在航行开始时确认。 此功能让您可以正确地获取库存的所有权，因为货物在离开装运港口时通常会成为组织的财产。
 
 使用在途货物订单时，财务上更新的物料将在称为在途货物仓库的临时仓库中接收。 然后，货物留在此仓库中，直到可以在最终目标仓库（即在采购订单行中定义的仓库）接收货物。 不能手动删除它们。
 

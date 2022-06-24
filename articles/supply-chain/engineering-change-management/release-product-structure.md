@@ -1,6 +1,6 @@
 ---
 title: 发布产品结构
-description: 此主题说明除了发布产品及其工程版本外，还可以发布完整的产品结构。 这样，您可以确保与工程相关的产品数据可以轻松地在不同法人中重复使用。
+description: 本文说明除了发布产品及其工程版本外，还可以发布完整的产品结构。 这样，您可以确保与工程相关的产品数据可以轻松地在不同法人中重复使用。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c8359f86e5123ee40e9673971de626e1b327ac95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875472"
 ---
 # <a name="release-product-structures"></a>发布产品结构
 

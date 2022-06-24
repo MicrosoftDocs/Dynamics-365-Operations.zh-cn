@@ -1,6 +1,6 @@
 ---
 title: 返点缩减原则
-description: 本主题介绍如何设置缩减原则。 缩减原则控制将多个返点应用到同一物料或交易记录时的行为。
+description: 本文介绍如何设置缩减原则。 缩减原则控制将多个返点应用到同一物料或交易记录时的行为。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fec7f94aba46f8b1853e0520169dd628fd940a56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ccf8dc555862d87e8dc6f5b46e3045c72e88945
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844813"
 ---
 # <a name="rebate-reduction-principles"></a>返点缩减原则
 

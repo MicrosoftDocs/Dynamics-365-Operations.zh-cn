@@ -1,6 +1,6 @@
 ---
-title: 调整 ER 格式以生成自定义电子单据
-description: 本主题说明如何调整 Microsoft 提供的电子申报 (ER) 格式，以便生成自定义电子单据。
+title: 调整电子报告格式以生成自定义电子单据
+description: 本文说明如何调整 Microsoft 提供的电子报告 (ER) 格式，以便生成自定义电子单据。
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886782"
 ---
-# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整 ER 格式以生成自定义电子单据
+# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整电子报告格式以生成自定义电子单据
 
 [!include[banner](../includes/banner.md)]
 
-本主题中的过程介绍系统管理员或电子申报功能顾问角色的用户如何执行以下任务：
+本文中的过程介绍系统管理员或电子报告功能顾问角色的用户如何执行以下任务：
 
 - 配置[电子申报 (ER) 框架](general-electronic-reporting.md)的参数。
 - 导入由 Microsoft 提供并在处理[供应商付款](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md)期间用于生成付款文件的 ER 配置。
@@ -135,7 +135,7 @@ ms.locfileid: "8323809"
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>导入标准 ER 配置
 
-若要向当前 Microsoft Dynamics 365 Finance 实例添加标准 ER 配置，必须从为该实例配置的 ER [存储库](general-electronic-reporting.md#Repository)导入这些配置。
+若要向当前 Microsoft Dynamics 365 Finance 实例添加标准 ER 配置，必须从为该实例配置的 ER [存储库](general-electronic-reporting.md#Repository)中导入这些配置。
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 在 **本地化配置** 页面的 **配置提供程序** 部分中，选择 **Microsoft** 磁贴，然后选择 **存储库** 查看 Microsoft 提供程序的存储库列表。

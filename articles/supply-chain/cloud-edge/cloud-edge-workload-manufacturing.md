@@ -1,6 +1,6 @@
 ---
-title: Cloud Scale Unit 和 Edge Scale Unit 的制造执行工作负荷
-description: 本主题介绍制造执行工作负荷如何使用 Cloud Scale Unit 和 Edge Scale Unit。
+title: 云和边缘缩放单元的制造执行工作负载
+description: 本文介绍制造执行工作负荷如何使用 Cloud Scale Unit 和 Edge Scale Unit。
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865315"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的制造执行工作负载
 
@@ -41,7 +41,7 @@ ms.locfileid: "8674045"
 - 车间主管可以调整操作计划。
 - 工作人员可以访问在 Edge 中上下班打卡的考勤管理，以确保正确计算工作人员工资。
 
-本主题介绍制造执行工作负荷如何使用 Cloud Scale Unit 和 Edge Scale Unit。
+本文介绍制造执行工作负荷如何使用 Cloud Scale Unit 和 Edge Scale Unit。
 
 ## <a name="the-manufacturing-lifecycle"></a>制造生命周期
 

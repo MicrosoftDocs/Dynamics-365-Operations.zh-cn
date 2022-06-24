@@ -1,6 +1,6 @@
 ---
 title: 按中国站点过帐主库存科目
-description: 此主题提供有关按中国的站点过帐库存主科目过帐的信息。
+description: 本文提供有关按中国的站点过帐库存主科目过帐的信息。
 author: ShylaThompson
 ms.date: 03/21/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e71a1ab8859babcc8b7a301287823d87e4c688853df3f9284a59cc1b076cf53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 774e7e91fd5e232334a8fbb433f921f6e93c60a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876025"
 ---
 # <a name="post-inventory-main-accounts-by-site-for-china"></a>按中国站点过帐主库存科目
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关按中国的站点过帐库存主科目过帐的信息。
+本文提供有关按中国的站点过帐库存主科目过帐的信息。
 
 您可以设置或修改物料的过帐到会计科目，基于库存交易记录的物料组和仓库站点。 通过按站点设置库存的会计科目值，可以过帐各站点的库存交易记录。 这些交易记录包括库存日记帐、销售订单、采购订单、生产日记帐和项目物料日记帐。 仅当 **库存和仓库管理参数** 页上的 **按站点分隔库存成本的会计科目** 选项设置为 **是**，**交易组合** 和 **过帐** 页上才有与站点有关的字段。 在特定报告期间，必须确定库存物料的值以确定现有库存量、库存上的应纳税金额和库存收货和发货的期初和期末余额。 可以为库存创建主科目。 也可以选择显示可用于库存过帐的库存物料的库存值的主科目。 您可以从相应的主科目中计算物料组的库存成本。 例如，您可以创建“原材料”物料组的主科目来跟踪其库存成本。
 

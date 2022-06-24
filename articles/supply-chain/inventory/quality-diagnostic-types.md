@@ -1,6 +1,6 @@
 ---
 title: 不符合项的诊断类型
-description: 本主题介绍如何使用和创建可用于不符合项的诊断类型。
+description: 本文介绍如何使用和创建可用于不符合项的诊断类型。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edaa3a8b5c6446f039f33589166d832dcd9d0b9a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87b7a051f807c9faab3169d2672d47f663892225
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852438"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>不符合项的诊断类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何使用和创建可用于不符合项的诊断类型。
+本文介绍如何使用和创建可用于不符合项的诊断类型。
 
 您将使用 **诊断类型** 页定义诊断操作的分类。 然后，当您为不符合项创建更正时，将选择诊断。 更正指定应对已审核的未达标采取的诊断操作类型以及应该执行操作的用户。 它还指定请求的完成日期和计划的完成日期。
 

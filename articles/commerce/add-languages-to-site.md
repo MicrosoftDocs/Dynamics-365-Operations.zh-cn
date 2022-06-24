@@ -1,6 +1,6 @@
 ---
 title: 向站点添加语言
-description: 此主题介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
+description: 本文介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 69ee1d744ce26d5040d80e470b18d87bbddbda26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871798"
 ---
 # <a name="add-languages-to-your-site"></a>向站点添加语言
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
+本文介绍如何向 Microsoft Dynamics 365 Commerce 站点添加对更多语言的支持。
 
-可以将网站本地化为 Commerce 支持的任何语言。 （此主题后文显示了支持的语言的列表。）若要在网站中添加语言，必须首先将其添加到您的站点绑定的在线商店。
+可以将网站本地化为 Commerce 支持的任何语言。 （本文后面显示了支持的语言的列表。）若要在网站中添加语言，必须首先将其添加到您的站点绑定的在线商店。
 
 ## <a name="add-a-language-to-an-online-store"></a>向在线商店添加语言
 

@@ -1,6 +1,6 @@
 ---
-title: Commerce 过帐参数
-description: 本主题介绍特定于 Microsoft Dynamics 365 Commerce 中的财务交易和实际交易过帐的参数。
+title: Commerce 过账参数
+description: 本文介绍特定于 Microsoft Dynamics 365 Commerce 中的财务交易和实际交易过帐的参数。
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887106"
 ---
-# <a name="commerce-posting-parameters"></a>Commerce 过帐参数
+# <a name="commerce-posting-parameters"></a>Commerce 过账参数
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题介绍特定于 Microsoft Dynamics 365 Commerce 中的财务交易和实际交易过帐的参数。 Commerce 过帐参数位于 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数 \> 过帐** 中。
+本文介绍特定于 Microsoft Dynamics 365 Commerce 中的财务交易和实际交易过帐的参数。 Commerce 过帐参数位于 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数 \> 过帐** 中。
 
 ## <a name="periodic-discount-parameters"></a>定期折扣参数
 

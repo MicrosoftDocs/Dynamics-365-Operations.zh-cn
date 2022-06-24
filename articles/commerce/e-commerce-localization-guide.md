@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce 电子商务本地化指南
-description: 本主题介绍如何将 Microsoft Dynamics 365 Commerce 电子商务站点本地化为其他语言并将该站点配置为支持多个渠道。
+description: 本文介绍如何将 Microsoft Dynamics 365 Commerce 电子商务站点本地化为其他语言并将该站点配置为支持多个渠道。
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873376"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce 电子商务本地化指南
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何将 Microsoft Dynamics 365 Commerce 电子商务站点本地化为其他语言并将该站点配置为支持多个渠道，还介绍了与流程相关的概念和术语。
+本文介绍如何将 Microsoft Dynamics 365 Commerce 电子商务站点本地化为其他语言并将该站点配置为支持多个渠道，还介绍了与流程相关的概念和术语。
 
 Dynamics 365 Commerce 中的电子商务功能旨在实现可针对特定国家/地区和语言定制的在线体验，但同时允许最大限度地重复使用模板、页面、内容和媒体。 您还可以创建一个基本站点，然后通过添加对其他国家/地区和语言的支持来扩展到新市场。
 
@@ -79,7 +79,7 @@ Dynamics 365 Commerce 电子商务站点通过渠道和区域设置标识符为�
 ![现成的 Dynamics 365 Commerce 电子商务站点](media/loc-guide-1.png)
 
 > [!NOTE]
-> 您可以为 Fabrikam 演示站点配置其他语言，以便可以使用该语言完成内容开发。 有关如何向站点和渠道添加新语言的信息，请参阅本主题后面的[为您的站点配置其他语言](#configure-an-additional-language-for-your-site)部分。
+> 您可以为 Fabrikam 演示站点配置其他语言，以便可以使用该语言完成内容开发。 有关如何向站点和渠道添加新语言的信息，请参阅本文后面的[为您的站点配置其他语言](#configure-an-additional-language-for-your-site)一节。
 
 但是，Dynamics 365 Commerce 电子商务站点的内容管理系统 (CMS) 和页面模型旨在实现向新市场和区域扩展。 因此，通过单个电子商务站点，您可以管理跨多个市场和语言的在线商店的资产。
 
@@ -117,7 +117,7 @@ Dynamics 365 Commerce 电子商务站点通过渠道和区域设置标识符为�
 
 当您返回 Commerce 站点生成器中的 **页面** 视图时，新语言将在右上角的渠道和区域设置选择器中可用。 您现在可以使用您的基本语言创建页面的本地化版本。
 
-本主题后面的[本地化电子商务站点内容](#localize-e-commerce-site-content)部分介绍了本地化页面和片段内容的流程。
+本文后面的[本地化电子商务站点内容](#localize-e-commerce-site-content)一节介绍了本地化页面和片段内容的流程。
 
 ### <a name="configure-a-new-channel-for-your-site"></a>为您的站点配置新渠道
 
@@ -156,7 +156,7 @@ Microsoft Dynamics 客户通常与第三方本地化供应商（如 [Translated.
 
 所有新页面、片段和媒体资产都是在当前在渠道和区域设置选择器中选择的渠道和语言上下文中创建的。 该语言通常是您的“基础语言”，前提是您没有配置其他语言或渠道。 在配置了多个渠道和语言的站点上，“基本语言”由您在站点设置中的 **渠道** 页面上设置为默认值的频道和区域设置进行定义。
 
-页面、片段和媒体资产内容的本地化步骤相似。 以下部分中将指出例外和差异。 但是，本地化模块内容的步骤不同。 有关详细信息，请参阅本主题后面的[本地化模块](#localize-modules)一节。
+页面、片段和媒体资产内容的本地化步骤相似。 以下部分中将指出例外和差异。 但是，本地化模块内容的步骤不同。 有关详细信息，请参阅本文后面的[本地化模块](#localize-modules)一节。
 
 #### <a name="step-1-export-an-xliff-file"></a>步骤 1：导出 XLIFF 文件
 

@@ -1,6 +1,6 @@
 ---
 title: 为供应商和客户设置 TDS 组、PAN 和 TAN 信息
-description: 本主题说明如何为供应商和客户设置有关从源扣缴税款 (TDS) 组、永久帐号 (PAN) 和税务帐号 (TAN) 的信息。
+description: 本文说明如何为供应商和客户设置有关从源扣缴税款 (TDS) 组、永久帐号 (PAN) 和税务帐号 (TAN) 的信息。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859757"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>为供应商和客户设置的 TDS 组、PAN 和 TAN 信息
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为供应商和客户设置有关从源扣缴税款 (TDS) 组、永久帐号 (PAN) 和税务帐号 (TAN) 的信息。
+本文说明如何为供应商和客户设置有关从源扣缴税款 (TDS) 组、永久帐号 (PAN) 和税务帐号 (TAN) 的信息。
 
 1. 转到 **应付帐款 \> 供应商 \> 所有供应商** 或 **应收帐款 \> 客户 \> 所有客户**。
 

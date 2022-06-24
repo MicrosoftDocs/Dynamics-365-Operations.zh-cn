@@ -1,6 +1,6 @@
 ---
 title: 创建含交货计划的采购订单
-description: 本主题显示如何为采购订单创建交货计划。
+description: 本文演示如何为采购订单创建交货计划。
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875237"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>创建含交货计划的采购订单
 
 [!include [banner](../../includes/banner.md)]
 
-本主题显示如何为采购订单创建交货计划。 在请求在多个装运中交付订单或日记帐上的数量时，使用交货计划。 可以在 USMF 演示数据公司中使用本指南中的示例。 此过程通常由采购代理完成。
+本文演示如何为采购订单创建交货计划。 在请求在多个装运中交付订单或日记帐上的数量时，使用交货计划。 可以在 USMF 演示数据公司中使用本指南中的示例。 此过程通常由采购代理完成。
 
 ## <a name="create-a-delivery-schedule"></a>创建交货计划
 1. 在导航窗格中，转到 **模块 > 采购 > 采购订单 > 所有采购订单**。

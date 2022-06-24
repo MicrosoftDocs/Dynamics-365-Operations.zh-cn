@@ -1,6 +1,6 @@
 ---
-title: 选择不收集 Web 活动事件
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中让网站的访问者选择不收集 Web 活动事件。
+title: 选择退出 Web 活动事件收集
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中让网站的访问者选择不收集 Web 活动事件。
 author: aamiral
 ms.date: 05/15/2020
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78d3f795820eb36d1a81fb28875456e7471f8971
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878391"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>选择退出 Web 活动事件收集
 [!include [banner](includes/banner.md)]
 
-本主题说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不收集 Web 活动事件。
+本文说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不收集 Web 活动事件。
 
 站点管理员可通过 Dynamics 365 Commerce 分析其电子商务站点用户的 Web 活动。 这样，就可以更好地了解其站点的使用方式，并且可以优化站点以提供更出色的用户体验和满足业务目标。
 

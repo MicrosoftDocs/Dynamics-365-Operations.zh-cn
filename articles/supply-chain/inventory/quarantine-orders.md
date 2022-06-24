@@ -1,6 +1,6 @@
 ---
 title: 检验单
-description: 本主题介绍如何使用隔离订单锁定库存。
+description: 本文介绍如何使用隔离订单锁定库存。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869653"
 ---
 # <a name="quarantine-orders"></a>检验单
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何使用隔离订单锁定库存。
+本文介绍如何使用隔离订单锁定库存。
 
 隔离订单可让您锁定库存。 例如，您可能要检验质量控制原因的物料。 将把已检验的库存转移到检验仓库。
 

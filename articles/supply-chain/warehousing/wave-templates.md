@@ -1,6 +1,6 @@
 ---
 title: 波次模板
-description: 本主题介绍如何设置决定是手动还是自动处理波次的条件以及在处理波次时为仓库生成工作的条件。
+description: 本文介绍如何设置决定是手动还是自动处理波次的条件以及在处理波次时为仓库生成工作的条件。
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 61fbcad572bbb69ab8a4eb2cd309cdf8a6328391
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e4a74b61ea32df432da118ac8af550a4ca4b0089
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851189"
 ---
 # <a name="wave-templates"></a>波次模板
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置决定是手动还是自动处理波次的条件以及在处理波次时为仓库生成工作的条件。 在销售订单、生产订单和看板中，通过设置波次模板和将波次与发放行匹配的查询来指定条件。
+本文介绍如何设置决定是手动还是自动处理波次的条件以及在处理波次时为仓库生成工作的条件。 在销售订单、生产订单和看板中，通过设置波次模板和将波次与发放行匹配的查询来指定条件。
 
 ## <a name="settings-for-wave-templates"></a>波次模板的设置
 

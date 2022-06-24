@@ -1,6 +1,6 @@
 ---
 title: 添加收藏夹图标
-description: 此主题介绍如何向站点添加收藏夹图标。
+description: 本文介绍如何向站点添加收藏夹图标。
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855787"
 ---
 # <a name="add-a-favicon"></a>添加收藏夹图标
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何向站点添加收藏夹图标。
+本文介绍如何向站点添加收藏夹图标。
 
 收藏夹图标是在 Web 浏览器标签页上、地址栏中、浏览历史记录中和书签或收藏夹中及其他位置内显示的小图形文件。 建议向站点添加收藏夹图标，因为这样可以展示和强化您的品牌形象，帮助您的站点从客户访问的其他站点中脱颖而出。
 
-虽然可以向站点添加各种大小和文件类型的多个收藏夹图标，此主题介绍如何添加一个收藏夹图标。 但是，可使用相同流程和位置添加更多收藏夹图标。
+虽然可以向站点添加各种大小和文件类型的多个收藏夹图标，本文介绍如何添加一个收藏夹图标。 但是，可使用相同流程和位置添加更多收藏夹图标。
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>将收藏夹图标上传到站点的资产集中
 

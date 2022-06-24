@@ -1,6 +1,6 @@
 ---
 title: 呼叫中心退款处理
-description: 本主题说明创建退货时或取消订单或订单行时如何通过呼叫中心生成付款退款。
+description: 本文说明创建退货时或取消订单或订单行时如何通过呼叫中心生成付款退款。
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880106"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>呼叫中心退款处理
 
-本主题说明创建退货时或取消订单或订单行时如何通过呼叫中心生成付款退款。
+本文说明创建退货时或取消订单或订单行时如何通过呼叫中心生成付款退款。
 
 在 Microsoft Dynamics 365 Commerce 总部作为呼叫中心用户为客户创建退货单的用户使用 **退货单** 页创建初始物料退回授权 (RMA)。 RMA 定义客户要退回或更换的产品，创建订单类型为 **退回订单** 的链接的退货销售订单。 此链接的退回订单用于跟踪退货库存的过帐以及过帐的所有贷方通知单或付款退款。
 
@@ -92,7 +92,7 @@ ms.locfileid: "7944705"
 
 ## <a name="payment-overrides-for-call-center-returns"></a>呼叫中心退货的付款替代
 
-虽然呼叫中心逻辑会按照本主题前面所述的方式系统地确定退款付款方式，但用户有时可能希望替代这些付款。 例如，用户可以编辑或删除现有的退款付款行，然后应用新付款行。 系统计算的退款付款只能由具有正确替代权限的用户更改。 这些权限可以在 Retail 和 Commerce 中的 **替代权限** 页配置。 要进行退款付款替代，用户必须被链接到在 **替代权限** 页上将 **允许替代付款** 选项设置为 **是** 的安全角色。
+虽然呼叫中心逻辑会按照本文前面所述的方式系统地确定退款付款方式，但用户有时可能希望替代这些付款。 例如，用户可以编辑或删除现有的退款付款行，然后应用新付款行。 系统计算的退款付款只能由具有正确替代权限的用户更改。 这些权限可以在 Retail 和 Commerce 中的 **替代权限** 页配置。 要进行退款付款替代，用户必须被链接到在 **替代权限** 页上将 **允许替代付款** 选项设置为 **是** 的安全角色。
 
 ![“替代权限”页面上的“允许替代付款”选项。](media/overridepermissions.png)
 

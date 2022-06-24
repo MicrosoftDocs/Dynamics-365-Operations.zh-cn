@@ -1,6 +1,6 @@
 ---
 title: 使用高级银行对帐对银行对账单进行对帐
-description: 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题说明对帐流程。
+description: 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本文说明对帐流程。
 author: moaamer
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27956cbc4d51c1b907138b49947b57a570d98da1
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e5b229821fc1ca1caa55b733af293aaef65a171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859855"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>使用高级银行对帐对银行对帐单进行对帐
 
 [!include [banner](../includes/banner.md)]
 
-高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题说明对帐流程。  
+高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Dynamics 365 Finance 中的银行交易记录自动对帐。 本文说明对帐流程。  
 
 ## <a name="import-an-electronic-bank-statement"></a>导入电子银行对账单
 

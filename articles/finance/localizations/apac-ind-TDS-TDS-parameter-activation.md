@@ -1,6 +1,6 @@
 ---
 title: 设置 TDS 参数
-description: 本主题说明如何设置参数以在指定交易中激活从源扣缴税款功能。 这是使用从源扣缴税款 (TDS) 功能的必要步骤。
+description: 本文说明如何设置参数以在指定交易中激活从源扣缴税款功能。 这是使用从源扣缴税款 (TDS) 功能的必要步骤。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f7c8802d10a065c60894e80c8ff3cb19163d5ffe
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3390cad6979858fbff73769d0d25132ba18a2157
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865604"
 ---
 # <a name="set-the-tds-parameters"></a>设置 TDS 参数
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置参数以在指定交易中激活从源扣缴税款功能。 这是使用从源扣缴税款 (TDS) 功能的必要步骤。
+本文说明如何设置参数以在指定交易中激活从源扣缴税款功能。 这是使用从源扣缴税款 (TDS) 功能的必要步骤。
 
 1. 转到 **总帐 \> 分类帐设置 \> 总帐参数**。
 2. 在 **直接税** 选项卡的 **从源扣缴税款** 部分中，将 **激活 TDS** 选项设置为 **是** 以激活 TDS 功能以及用于该功能的页面和字段。

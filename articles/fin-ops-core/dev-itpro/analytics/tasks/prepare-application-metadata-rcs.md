@@ -1,6 +1,6 @@
 ---
 title: 准备要在 RCS 中使用的应用程序元数据
-description: 本主题介绍如何创建包含应用程序元数据的新报告配置。
+description: 本文介绍如何创建包含应用程序元数据的新报告配置。
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868788"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>准备要在 RCS 中使用的应用程序元数据
 [!include [banner](../../includes/banner.md)]
 
-以下步骤演示系统管理员或电子申报开发人员角色的用户如何创建其中包含应用程序元数据的新电子申报 (ER) 配置文件，以便在 Regulatory Configuration Service (RCS) 中设计 ER 模型映射配置。 此配置将用于设计示例 ER 模型映射配置，以便访问外贸交易。 在此示例中，您将创建示例公司 Litware 公司的配置。这些步骤可以在任何公司执行。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。
+以下步骤演示系统管理员或电子申报开发人员角色的用户如何创建其中包含应用程序元数据的新电子申报 (ER) 配置文件，以便在 Regulatory Configuration Service (RCS) 中设计 ER 模型映射配置。 此配置将用于设计示例 ER 模型映射配置，以便访问外贸交易。 在此示例中，您将创建示例公司 Litware 公司的配置。这些步骤可以在任何公司执行。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1.    转到 **组织管理** > **工作区** > **电子申报**。 

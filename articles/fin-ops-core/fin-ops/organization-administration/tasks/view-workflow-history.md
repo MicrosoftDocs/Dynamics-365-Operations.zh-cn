@@ -1,6 +1,6 @@
 ---
 title: 查看工作流历史记录
-description: 本主题介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。
+description: 本文介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868570"
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069951"
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-本主题介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。 创建此程序的演示数据公司是 USMF。
+本文介绍用于查看提交给工作流系统进行处理和审核的单据的状态的步骤。 创建此程序的演示数据公司是 USMF。
 
 1. 转到 **导航窗格 > 模块 > 常用 > 查询 > 工作流 > 工作流历史记录**。
     - 使用此窗体可以查看提交给工作流系统进行处理和审核的单据的状态。  

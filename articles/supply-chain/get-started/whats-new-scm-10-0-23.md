@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
-description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.23 中的新增功能或更改的功能。
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.23 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849465"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 新增功能或更改（2022 年 1 月）
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.23 中的新增或更改的功能。 此版本的构建版本号为 10.0.1037，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.23 中的新增或更改的功能。 此版本的构建版本号为 10.0.1037，并以下面的形式提供：
 
 - **预览版：** 2021 年 10 月
 - **版本的正式发布时间（自行更新）：** 2021 年 12 月
@@ -29,9 +29,9 @@ ms.locfileid: "8691461"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-下表列出了此版本中包含的功能。 *功能* 列提供了指向[发布计划](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)的链接，您可以在那里查看每项功能的官方发布日期。 *更多信息* 列提供了更多详细信息和/或相关文档的链接。 若要确定如何开启功能，请参阅 *启用方式* 列。 有关如何使用功能管理的详细信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的功能。
+下表列出了此版本中包含的功能。 *功能* 列提供了指向[发布计划](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)的链接，您可以在那里查看每项功能的官方发布日期。 *更多信息* 列提供了更多详细信息和/或相关文档的链接。 若要确定如何开启功能，请参阅 *启用方式* 列。 有关如何使用功能管理的详细信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的功能。
 
-| 特征区域 | 功能 | 更多信息 | 启用者: ，时间:  |
+| 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 全球通讯簿 | 在地址设置中为每个国家/地区定义默认省/自治区/直辖市 | 现在，您可以在全球通讯簿的地址设置中为每个国家/地区定义默认省/自治区/直辖市。 设置默认省/自治区/直辖市时，当您为国家/地区创建新的县或市/市记录时，它将是省/自治区/直辖市字段中输入的默认值。 另请参阅[地址设置](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | 默认启用。 |
 | 库存和物流&nbsp;&nbsp; | [在 Warehouse Management 移动应用中暂停任务](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [为移动设备菜单项中的步骤配置绕过](../warehousing/warehouse-app-detours.md) | 功能管理（*Warehouse Management 应用绕过*） |
@@ -63,9 +63,9 @@ ms.locfileid: "8691461"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 按照上一部分的列举，这些主题未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
+我们最近添加或大幅更新了以下帮助文章。 按照上一部分的列举，这些文章未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 工程更改管理 | [工程属性和工程属性搜索](../engineering-change-management/engineering-attributes-and-search.md)现在介绍工程属性继承的工作原理。 |
 | 主计划 | [具有需求预测的总体规划](../master-planning/planning-optimization/demand-forecast.md)和[预测缩减参数](../master-planning/reduction-keys.md)现在提供有关如何使用缩减参数的详细信息。 |
@@ -74,9 +74,9 @@ ms.locfileid: "8691461"
 | 主计划 | [供应计划](../master-planning/supply-schedule.md) |
 | 仓库管理 | [全局移动设备参数](../warehousing/mobile-device-parameters.md) |
 | 仓库管理 | [定位](../warehousing/anchoring.md) |
-| 销售和市场营销 | 现在详细介绍了内部公司交易，从[设置内部公司交易](../sales-marketing/intercompany-trade-set-up.md)及其相关主题开始。 |
+| 销售和市场营销 | 现在详细介绍了内部公司交易，从[设置内部公司交易](../sales-marketing/intercompany-trade-set-up.md)及其相关文章开始。 |
 | 销售和市场营销 | [销售历史记录清除性能改进](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| 库存管理 | 库存可见性文档已扩展和更新，从[库存可见性加载项概述](../inventory/inventory-visibility.md)及其相关主题开始。 |
+| 库存管理 | 库存可见性文档已扩展和更新，从[库存可见性加载项概述](../inventory/inventory-visibility.md)及其相关文章开始。 |
 | 仓库管理 | [移动设备用户帐户](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>其他资源
@@ -97,12 +97,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.23 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

@@ -1,6 +1,6 @@
 ---
 title: 供应商付款工作区
-description: 此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
+description: 本文提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
 author: abruer
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6463e25fdcbc77dacc286460f3acd30ccc3d6e86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847022"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 

@@ -1,6 +1,6 @@
 ---
 title: 质量检查
-description: 本主题提供有关质量检查功能的信息。 此功能使仓库工作人员在将物料接收到进货台区域时可以快速进行质量抽查。
+description: 本文提供有关质量检查功能的信息。 此功能使仓库工作人员在将物料接收到进货台区域时可以快速进行质量抽查。
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855048"
 ---
 # <a name="quality-check"></a>质量检查
 
@@ -41,11 +41,11 @@ ms.locfileid: "8677973"
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>打开或关闭“质量检查”功能
 
-要使用本主题中描述的功能，必须为您的系统打开 *质量检查* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *质量检查* 功能来打开或关闭此功能。
+要使用本文中描述的功能，必须为您的系统打开 *质量检查* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *质量检查* 功能来打开或关闭此功能。
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>为示例方案设置此功能
 
-本节提供指南和示例，演示如何设置 *质量检查* 功能，以及如何为本主题后面提供的示例方案准备示例数据。
+本节提供指南和示例，演示如何设置 *质量检查* 功能，以及如何为本文后面提供的示例方案准备示例数据。
 
 ### <a name="make-sample-data-available"></a>提供示例数据
 
@@ -270,7 +270,7 @@ ms.locfileid: "8677973"
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>示例场景
 
-在使所有前面描述的示例数据可用并进行设置之后，您可以演练此方案来试用 *质量检查* 功能了。 此方案中显示的值假设您使用的是标准演示数据，选择了 **USMF** 法人，并且您准备了本主题前面介绍的示例记录。 此方案还可以用作说明如何在生产设置中使用此功能的示例。
+在使所有前面描述的示例数据可用并进行设置之后，您可以演练此方案来试用 *质量检查* 功能了。 此方案中显示的值假设您使用的是标准演示数据，选择了 **USMF** 法人，并且您准备了本文前面介绍的示例记录。 此方案还可以用作说明如何在生产设置中使用此功能的示例。
 
 ### <a name="create-a-purchase-order"></a>创建采购订单
 
@@ -357,7 +357,7 @@ ms.locfileid: "8677973"
 
 现在，您已经完成了质量检查并为被拒绝的托盘创建了质检订单。 要查看创建的订单，请转到 **库存管理 \> 定期任务 \> 质量管理 \> 质检订单**。
 
-现在可以处理质检订单测试了。 本主题不包含质检测试。
+现在可以处理质检订单测试了。 本文不包含质检测试。
 
 有关质量管理的详细信息，请参阅[质量管理概述](../inventory/enable-quality-management.md)
 

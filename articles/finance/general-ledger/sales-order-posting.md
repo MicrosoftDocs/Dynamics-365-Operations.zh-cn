@@ -1,6 +1,6 @@
 ---
 title: 销售订单过帐
-description: 此主题提供有关库存过帐模板页面的“销售订单”选项卡的信息。
+description: 本文提供有关库存过帐模板页面的“销售订单”选项卡的信息。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 5d84723b51d6977867fa162c4a47befa61bd9ef6
-ms.sourcegitcommit: dc3053625dfe24aef64399dd1d002214e7f7619f
+ms.openlocfilehash: 5ea1c3c90b32d18243615e3ff283e1e818ac23b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886304"
 ---
 # <a name="sales-order-posting"></a>销售订单过帐
 

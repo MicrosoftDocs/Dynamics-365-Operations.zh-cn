@@ -1,6 +1,6 @@
 ---
-title: 负责的维护工人
-description: 本主题说明如何在资产管理中设置负责的维护工人。
+title: 责任维护工作人员
+description: 本文说明如何在资产管理中设置负责的维护工人。
 author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d68c9e6de6e9d62d1dea95c747b17900d343e7324857dcfc083d48e5c1006b0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9535be3161253e88083b5add7ac55c12364aa383
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875583"
 ---
 # <a name="responsible-maintenance-workers"></a>负责的维护工人
 

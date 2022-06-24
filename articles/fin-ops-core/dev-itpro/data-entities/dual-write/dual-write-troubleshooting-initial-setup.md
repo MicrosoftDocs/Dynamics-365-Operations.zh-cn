@@ -1,6 +1,6 @@
 ---
 title: 解决初始设置过程中的问题
-description: 本主题提供可以帮助您解决在双写入集成的初始设置期间所发生问题的信息。
+description: 本文提供可以帮助您解决在双写入集成的初始设置期间所发生问题的信息。
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882075"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -22,10 +22,10 @@ ms.locfileid: "8061459"
 
 
 
-本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
+本文提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
 
 > [!IMPORTANT]
-> 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
+> 本文解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>您无法将财务和运营应用链接到 Dataverse
 

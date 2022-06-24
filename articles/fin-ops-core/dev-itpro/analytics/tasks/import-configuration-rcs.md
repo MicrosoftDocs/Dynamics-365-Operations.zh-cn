@@ -1,6 +1,6 @@
 ---
 title: (ER) 从 RCS 导入配置
-description: 本主题介绍用户如何从 RCS 导入 ER 配置的新版本。
+description: 本文介绍用户如何从 RCS 导入 ER 配置的新版本。
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5317b1f7c8c0af6cd5c839e065c590c4474c84de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850134"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) 从 RCS 导入配置
 
 [!include [banner](../../includes/banner.md)]
 
-以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Regulatory Configuration Services (RCS) 导入新电子申报 (ER) 配置版本。 在此示例中，将选择 RCS 中已配置的 ER 配置版本，并将其导入示例公司 Litware, Inc. 的当前实例。可以在任何公司执行这些步骤，因为公司共享 ER 配置。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 若要完成这些步骤，还必须可以访问其中包含至少一个状态为 **已完成** 或 **共享** 的 ER 配置的 RCS 实例。
+以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Regulatory Configuration Services (RCS) 导入新电子申报 (ER) 配置版本。 在此示例中，将选择 RCS 中已配置的 ER 配置版本，并将其导入示例公司 Litware, Inc. 的当前实例。可以在任何公司执行这些步骤，因为公司共享 ER 配置。 为了完成这些步骤，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。 若要完成这些步骤，还必须可以访问其中包含至少一个状态为 **已完成** 或 **共享** 的 ER 配置的 RCS 实例。
 
 1. 转到 **组织管理** > **工作区** > **电子申报**。 
-2. 确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。 如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)这一主题中的步骤。 
+2. 确保示例公司 Litware 公司的配置提供程序可用且标记为 **有效**。 如果没有看到此配置提供程序，请首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。 
 3. 如果没有为公司设置 RCS 环境，请选择 **Regulatory services – 配置** 外部链接，然后按照说明设置 RCS 环境。 
 4. 选择 **电子申报参数**。 
 5. 选择 **RCS** 选项卡。 

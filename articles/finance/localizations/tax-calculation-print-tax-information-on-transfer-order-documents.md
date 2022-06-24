@@ -1,6 +1,6 @@
 ---
 title: 在转移单单据上打印税务信息
-description: 本主题介绍如何在转移单单据上打印由税款计算服务确定的税务信息。
+description: 本文介绍如何在转移单单据上打印由税款计算服务确定的税务信息。
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855193"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>在转移单单据上打印税务信息
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在转移单单据上打印税务信息。 对于根据欧盟 (EU) 增值税 (VAT) 法规被视为集团内部供应和集团内部采购的存货转移，您可以打印转移单的估价单单据。 
+本文介绍如何在转移单单据上打印税务信息。 对于根据欧盟 (EU) 增值税 (VAT) 法规被视为集团内部供应和集团内部采购的存货转移，您可以打印转移单的估价单单据。 
 
 以下与税务相关的数据将添加到转移单单据上：
 

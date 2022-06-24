@@ -1,6 +1,6 @@
 ---
-title: 销售税支付和舍入规则
-description: 本主题说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
+title: 销售税付款和化整规则
+description: 文本说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
 author: kailiang
 ms.date: 10/29/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff69afae675b9f8824ac0b29b5611420136b6a57
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5c24a9850543e9d08ee1726186f433c7cfd26608
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865674"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a>销售税支付和舍入规则
+# <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和化整规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
+文本说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间化整销售税余额。
 
 销售税需要定期申报和缴纳给税务主管机构。 此操作可以通过在 **销售税** 页面运行结算和过帐销售税流程来完成。 期间销售税将对照销售税帐户结算，销售税余额将过帐到销售税结算帐户。 销售税余额将过帐到销售税结算帐户，可以通过在 **销售税** 页设置化整规则来按照税务主管机构的要求化整。 
 

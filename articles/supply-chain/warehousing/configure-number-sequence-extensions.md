@@ -1,6 +1,6 @@
 ---
 title: 为仓库流配置编号规则
-description: 本主题概括介绍为牌照 ID、波次标签 ID、集装箱 ID 和提单 ID 提供编号规则扩展的功能。
+description: 本文概括介绍为牌照 ID、波次标签 ID、集装箱 ID 和提单 ID 提供编号规则扩展的功能。
 author: Mirzaab
 ms.date: 06/10/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 20438ed3e34775a6312508595bcd32b16a37a81d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62530c8ffc8be8d3bae562708872ba8eb00fa9cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847779"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>为仓库流配置编号规则
 

@@ -1,6 +1,6 @@
 ---
 title: 计划优化发布流程和发布历史记录
-description: 本主题提供有关计划优化的发布流程和发布历史记录的信息。
+description: 本文提供有关计划优化的发布流程和发布历史记录的信息。
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873715"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>计划优化发布流程和发布历史记录
 

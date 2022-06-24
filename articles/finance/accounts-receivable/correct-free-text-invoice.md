@@ -1,6 +1,6 @@
 ---
 title: 更正普通发票
-description: 本主题说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
+description: 本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878180"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
+本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
 
 若要更正已过帐的普通发票，请打开已过帐的普通发票。 在 **发票** 页上，选择 **取消**，然后选择 **更正发票**。 选择一个原因代码，添加注释，并且为新的已更正发票选择日期。 您可以修改已更正发票并将其过帐。 
 
@@ -44,7 +44,7 @@ ms.locfileid: "8716204"
 -   普通发票的标题显示状态 **正在取消发票‘\[发票编号\]** 或 **已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]
-> 只有当选择 **普通发票更正** 配置键后，此功能才可用。 有关如何启用 Configuration keys 的详细信息，请参阅[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)主题中的“启用（或禁用）configuration key”部分。 
+> 只有当选择 **普通发票更正** 配置键后，此功能才可用。 有关如何启用 Configuration key 的详细信息，请参阅[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)一文中的“启用（或禁用）configuration key”一节。 
 
 
 

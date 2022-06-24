@@ -1,6 +1,6 @@
 ---
 title: 人员姓名历史记录
-description: 本主题提供 Dynamics 365 Human Resources 中“人员姓名历史记录”实体的详细信息和示例查询。
+description: 本文提供 Dynamics 365 Human Resources 中“人员姓名历史记录”实体的详细信息和示例查询。
 author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e34b0d7bebd1c4037347161087ff3a4485a58878
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875762"
 ---
 # <a name="person-name-history"></a>人员姓名历史记录
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533589"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的“人员姓名历史记录”实体。
+本文介绍 Dynamics 365 Human Resources 的“人员姓名历史记录”实体。
 
 物理名称：mshr_dirpersonnamehistoricalentity。
 

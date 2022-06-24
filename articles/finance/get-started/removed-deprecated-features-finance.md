@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Finance 中已删除或弃用的功能
-description: 本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
+description: 本文介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846645"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
+本文介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
@@ -129,7 +129,7 @@ ms.locfileid: "8466825"
 |------------|--------------------|
 | **弃用/移除的原因** | 替换为新的监管配置服务 (RCS) 全局存储库 |
 | **被另一个功能取代？**   | 是 |
-| **影响的产品区域**         | Dynamics 365 Finance、Supply Chain Management 和 Project Operations|
+| **影响的产品区域**         | Dynamics 365 Finance、Supply Chain Management 和 Project Operations 产品|
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：到 2022 年 4 月 1 日，我们计划不再支持 Microsoft Dynamics Lifecycle Services (LCS) 存储库作为电子报告 (ER) 配置的存储选项。 将发布新的 Microsoft ER 配置，以专门从全局存储库下载。 可以从 Dynamics 365 产品和 RCS 访问全局存储库。 有关详细信息，请参阅[从 RCS 导入 ER 配置](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)和 [Regulatory Configuration Service - Lifecycle Services 存储弃用](../localizations/rcs-lcs-repo-dep-faq.md)。 |
 

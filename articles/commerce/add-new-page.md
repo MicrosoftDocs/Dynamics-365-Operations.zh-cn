@@ -1,6 +1,6 @@
 ---
 title: 添加新的站点页面
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871720"
 ---
 # <a name="add-a-new-site-page"></a>添加新的站点页面
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中添加新的站点页面。
 
 为站点创建模板和片段之后，下一步是开始创建使用这些模板和片段的页面。 首先，必须选择模板或布局，页面名称和页面 URL。
 

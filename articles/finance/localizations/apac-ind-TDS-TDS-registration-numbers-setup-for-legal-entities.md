@@ -1,6 +1,6 @@
 ---
 title: 设置法人的 TDS 登记编号
-description: 本主题说明如何设置法人的从源扣缴税款 (TDS) 登记编号。
+description: 本文说明如何设置法人的从源扣缴税款 (TDS) 登记编号。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: bfbd086ab99cb548ac30b0bd9ee5861e5e849884
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 26b62ce936f3cefcb21aaadfade612088ce380e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859728"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>设置法人的 TDS 登记编号
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置法人的从源扣缴税款 (TDS) 登记编号。
+本文说明如何设置法人的从源扣缴税款 (TDS) 登记编号。
 
 1. 转至 **组织管理 \> 组织 \> 法人实体**。
 

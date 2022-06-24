@@ -1,6 +1,6 @@
 ---
-title: 跟踪生成的报表结果并将其与基准值进行比较。
-description: 本主题介绍如何将生成的电子申报 (ER) 报表的结果与基准报表值进行比较。
+title: 跟踪生成的报表结果并将其与基准值进行比较
+description: 本文介绍如何将生成的电子报告 (ER) 报表的结果与基准报表值进行比较。
 author: NickSelin
 ms.date: 06/17/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 168060f6dee7420a496e06cc3a85f5b10239c2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847363"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>跟踪生成的报表结果并将其与基准值进行比较。
 

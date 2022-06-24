@@ -1,6 +1,6 @@
 ---
-title: 供应商与客户的协作
-description: 本主题介绍您如何使用供应商协作处理采购订单和监控托运库存。
+title: 供应商与客户协作
+description: 本文介绍您如何使用供应商协作处理采购订单和监控托运库存。
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859160"
 ---
-# <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
+# <a name="vendor-collaboration-with-customers"></a>供应商与客户协作
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍您在 Microsoft Dynamics 365 Supply Chain Management 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
+本文介绍您在 Microsoft Dynamics 365 Supply Chain Management 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
 
 - **采购订单确认** - 监视和响应采购订单 (PO)。
 - **供应商出价** - 查看询价 (RFQ) 并输入出价以响应询价。
 - **供应商信息** - 查看和更新供应商主数据。
-- **开票** - 处理发票。 此主题不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。
+- **开票** - 处理发票。 本文不包括 **开票** 工作区。 有关此工作区的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。
 
 供应商还可以监视与托运库存有关的信息。
 
@@ -47,9 +47,9 @@ ms.locfileid: "8673765"
 
 您可以使用以下页面处理 PO：
 
-- **要审核的采购订单** - 此页包含的信息与工作区中的 **要审核的采购订单** 包含的信息相同。 请参阅本主题前文描述。
+- **要审核的采购订单** - 此页包含的信息与工作区中的 **要审核的采购订单** 包含的信息相同。 请参阅本文前文描述。
 - **采购订单供应商确认历史记录** - 此页包含已发送给供应商的所有 PO 和 PO 的所有版本。 它还包含来自供应商返回的所有响应。
-- **打开已确认的采购订单** 此页包含的信息与工作区中的 **打开已确认的采购订单** 包含的信息相同。 请参阅本主题前文描述。
+- **打开已确认的采购订单** 此页包含的信息与工作区中的 **打开已确认的采购订单** 包含的信息相同。 请参阅本文前文描述。
 - **所有已确认的采购订单** - 此页包含所有已确认的 PO。 此页上显示的采购订单包括已经收到产品或服务的采购订单。 您可以使用此列表监控您可以发送发票的 PO。
 
 ### <a name="responding-to-pos"></a>响应 PO

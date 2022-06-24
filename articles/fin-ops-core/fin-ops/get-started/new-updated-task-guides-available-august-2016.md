@@ -1,6 +1,6 @@
 ---
 title: 新的或更新任务指南（2016 年 8 月）
-description: 本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+description: 本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16777901e66aeac93c8e0bbd2ee024a033fe5b52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886541"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>新的或更新任务指南（2016 年 8 月）
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 8 月 - 所有语言）
 
-（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 主页中的新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
+（2016 年 8 月 - 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅 [Finance and Operations 新增功能或更改主页](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助系统](help-overview.md)。
 
 ### <a name="data-access"></a>数据访问
 

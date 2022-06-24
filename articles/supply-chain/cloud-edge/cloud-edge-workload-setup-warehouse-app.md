@@ -1,6 +1,6 @@
 ---
 title: 配置云和边缘缩放单元的 Warehouse Management 移动应用
-description: 本主题介绍如何为由云或边缘缩放单元提供服务的仓库设置 Warehouse Management 移动应用。
+description: 本文介绍如何为由云或边缘缩放单元提供服务的仓库设置 Warehouse Management 移动应用。
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071624"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865229"
 ---
 # <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>配置云和边缘缩放单元的 Warehouse Management 移动应用
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置您的 Warehouse Management 移动应用，让它们可以在由云或边缘缩放单元提供服务的仓库中使用。
+本文介绍如何设置您的 Warehouse Management 移动应用，让它们可以在由云或边缘缩放单元提供服务的仓库中使用。
 
 ## <a name="prerequisites"></a>先决条件
 

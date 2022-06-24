@@ -1,6 +1,6 @@
 ---
 title: 质量管理测试
-description: 本主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建可用于质检订单的测试。
+description: 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建可用于质检订单的测试。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac67ee97a4890c646daefa6b09feae25c4f15d0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857596"
 ---
 # <a name="quality-management-tests"></a>质量管理测试
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建可用于质检订单的测试。
+本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建可用于质检订单的测试。
 
 您将使用 **测试** 页定义和查看用于确定产品是否符合质量规范的各个测试。 您可以将一个或多个单独测试分配给测试组。 在这种情况下，您还可以指定测试特定信息，例如可接受的度量值。 度量值用于定量测试。 对于定性测试，将使用测试变量。
 

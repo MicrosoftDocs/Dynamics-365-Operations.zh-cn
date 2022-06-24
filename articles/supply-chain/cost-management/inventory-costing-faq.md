@@ -1,6 +1,6 @@
 ---
 title: 库存成本计算常见问题解答
-description: 本主题解答有关 Microsoft Dynamics 365 Supply Chain Management 中的库存成本计算的某些常见问题。
+description: 本文解答有关 Microsoft Dynamics 365 Supply Chain Management 中的库存成本计算的某些常见问题。
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850835"
 ---
 # <a name="inventory-costing-faq"></a>库存成本计算常见问题解答
 
 [!include [banner](../includes/banner.md)]
 
-本主题解答有关 Microsoft Dynamics 365 Supply Chain Management 中的库存成本计算的某些常见问题。
+本文解答有关 Microsoft Dynamics 365 Supply Chain Management 中的库存成本计算的某些常见问题。
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>库存结转、调整和重新计算
 
@@ -359,7 +359,7 @@ ms.locfileid: "8809280"
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>如果我的库存已变为负值并且我使用的是移动平均值，我是否必须创建新物料？
 
-否。 如果您的组织允许库存实际变为负值，并且您正在将移动平均值用作库存模型，则系统将使用在 **库存和仓库管理参数** 页面上分配的回退成本序列，来确定如何将成本分配给您的发货。 一般来说，我们建议您不要允许您的库存实际变为负数。 有关详细信息，请参阅本主题的[负库存](#negative-inventory)一节中的其他问题。
+否。 如果您的组织允许库存实际变为负值，并且您正在将移动平均值用作库存模型，则系统将使用在 **库存和仓库管理参数** 页面上分配的回退成本序列，来确定如何将成本分配给您的发货。 一般来说，我们建议您不要允许您的库存实际变为负数。 有关详细信息，请参阅本文的[负库存](#negative-inventory)一节中的其他问题。
 
 ## <a name="not-stocked-products"></a>非贮存的产品
 
@@ -433,7 +433,7 @@ ms.locfileid: "8809280"
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>当我使用移动平均值时，如果收货前出现问题，会发生什么情况？
 
-通常，收货前可能会有发货，因为您允许物料模型组的实际负库存，或者因为已追溯该发货。 有关详细信息，请参阅本主题的[负库存](#negative-inventory)一节。
+通常，收货前可能会有发货，因为您允许物料模型组的实际负库存，或者因为已追溯该发货。 有关详细信息，请参阅本文的[负库存](#negative-inventory)一节。
 
 如果您正在追溯交易，那么我们建议您仔细考虑您的业务流程和运营，以确定是否有避免此情形的方法。 如果为使用移动平均值的物料追溯交易，则系统会将当前移动平均值分配给此交易。 未调整以后的发货。 有关移动平均值与追溯交易的详细信息，请参阅[移动平均值](moving-average.md)。
 

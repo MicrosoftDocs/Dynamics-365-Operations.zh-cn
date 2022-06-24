@@ -1,6 +1,6 @@
 ---
 title: 自动成本设置
-description: 本主题介绍如何为各个入站航行级别设置成本规则。 根据这些规则，系统计算成本并自动添加。 因此，用户不必手动添加成本。
+description: 本文介绍如何为各个入站航行级别设置成本规则。 根据这些规则，系统计算成本并自动添加。 因此，用户不必手动添加成本。
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852380"
 ---
 # <a name="auto-costs-setup"></a>自动成本设置
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695323"
 
 您可以使用 **自动成本** 页设置各个成本区域（如航行、装运集装箱、帐页、采购订单、物料或转移单行）的成本规则。 根据规则以及用户在创建成本区域之一的记录时选择的字段，系统计算成本并自动添加。 因此，用户不必手动添加成本。
 
-要使用自动成本，请转到 **登陆成本 \> 成本计算设置 \> 自动成本**。 然后按照本主题其余部分的说明设置自动成本规则。
+要使用自动成本，请转到 **登陆成本 \> 成本计算设置 \> 自动成本**。 然后按照本文其余部分的说明设置自动成本规则。
 
 ## <a name="work-with-cost-areas"></a>使用成本区域
 

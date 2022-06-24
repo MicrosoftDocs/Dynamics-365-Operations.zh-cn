@@ -1,6 +1,6 @@
 ---
 title: 配置评分和评价
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862247"
 ---
 # <a name="configure-ratings-and-reviews"></a>配置评分和评价
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置电子商务站点以显示客户评分和评价。
 
 电子商务网站中的评分和评价可帮助客户在做出采购决定之前了解产品，方法是对其显示其他客户对这些产品的看法。 对于电子商务网站，评分和评价也是用于收集有关产品的客户反馈的机制。 
 

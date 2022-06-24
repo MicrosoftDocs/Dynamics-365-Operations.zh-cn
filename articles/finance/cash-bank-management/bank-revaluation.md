@@ -1,6 +1,6 @@
 ---
 title: 银行外币重估
-description: 本主题概述银行外币重估流程。 其中包括有关该流程的设置、运行、计算，以及重估交易记录的冲销的信息。
+description: 本文概述银行外币重估流程。 其中包括有关该流程的设置、运行、计算，以及重估交易记录的冲销的信息。
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863092"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题概述银行外币重估流程。 其中介绍如何设置和运行该流程，并提供有关该流程的计算的信息。 还介绍如何冲销重估交易记录（如果需要冲销）。
+本文概述银行外币重估流程。 其中介绍如何设置和运行该流程，并提供有关该流程的计算的信息。 还介绍如何冲销重估交易记录（如果需要冲销）。
 
 作为期末的一部分，会计转换要求使用不同的汇率类型（当前、历史、平均等）重新评估用外币表示的银行帐户余额。 银行外币重估功能可用于重新评估一个或多个银行帐户。 此功能也是一项全局功能。 因此，从一个页面就可以重新评估您有权访问的所有法人的银行。
 

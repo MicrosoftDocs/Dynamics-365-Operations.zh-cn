@@ -1,6 +1,6 @@
 ---
 title: 在税务配置中添加数据字段
-description: 本主题说明如何通过添加数据字段自定义税务配置。
+description: 本文说明如何通过添加数据字段自定义税务配置。
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872317"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>在税务配置中添加数据字段
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何通过使用[在税务集成中添加的数据字段](tax-service-add-data-fields-tax-integration-by-extension.md)自定义税务配置。
+本文说明如何通过使用[在税务集成中添加的数据字段](tax-service-add-data-fields-tax-integration-by-extension.md)自定义税务配置。
 
 ## <a name="customize-the-tax-data-model"></a>自定义税务数据模型
 

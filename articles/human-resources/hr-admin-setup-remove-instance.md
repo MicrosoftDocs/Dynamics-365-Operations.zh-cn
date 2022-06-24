@@ -1,6 +1,6 @@
 ---
 title: 删除实例
-description: 此主题将指导您如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
+description: 此文将指导您如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 522989298544fa5a2c0812bc57e9ae4ae21fe250
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859624"
 ---
 # <a name="remove-an-instance"></a>删除实例
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-此主题介绍如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
+本文介绍如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
 
 ## <a name="remove-a-test-drive-environment"></a>删除测试驱动器环境
 
@@ -40,7 +40,7 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 
 ## <a name="remove-a-production-environment"></a>删除生产环境
 
-本主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 
+本文假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 
 
 因为单个 Human Resources 环境包含在单个 Power Apps 环境中，有两个选项可以考虑。 第一个选项是要删除整个 Power Apps 环境；第二个选项是仅删除 Human Resources。 当您创建 Power Apps 环境的目的明确是为了预配 Human Resources，且您刚刚开始实施或您没有任何既定的集成，这时首选第一个选项。 当您已建立了 Power Apps 环境并使用 Power Apps 和 Power Automate 中利用的富数据填充时，适用第二个选项。
 

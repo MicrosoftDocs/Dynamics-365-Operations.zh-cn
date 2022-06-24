@@ -1,6 +1,6 @@
 ---
 title: 站点覆盖范围的主计划，仓库为必需
-description: 此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
+description: 本文介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bce0e43e43b4d8eee1c63912ce25e18ff23597a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b6e9cb9362fcafab5738e0a1887366e5fd1efbab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863960"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>站点覆盖范围的主计划，仓库为必需
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
+本文介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
 
 此主计划方案涉及以下情况：
 

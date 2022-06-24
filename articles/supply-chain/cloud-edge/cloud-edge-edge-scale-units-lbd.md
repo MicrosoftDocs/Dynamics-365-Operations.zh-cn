@@ -1,6 +1,6 @@
 ---
 title: 使用 LBD 在自定义硬件上部署边缘缩放单元
-description: 本主题介绍如何使用基于本地业务数据 (LBD) 的自定义硬件和部署预配本地边缘缩放单元。
+description: 本文介绍如何使用基于本地业务数据 (LBD) 的自定义硬件和部署预配本地边缘缩放单元。
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882741"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>使用 LBD 在自定义硬件上部署边缘缩放单元
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674077"
 
 可以通过创建本地业务数据 (LBD) [本地环境](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md)来部署边缘缩放单元，然后将其配置为在分布式混合拓扑中充当 Supply Chain Management 的缩放单元。 这通过将本地 LBD 环境与云中的 Supply Chain Management 环境关联来实现，该环境已配置作为中心。  
 
-本主题介绍如何将本地 LBD 环境设置为边缘缩放单元，然后将其与中心关联。
+本文介绍如何将本地 LBD 环境设置为边缘缩放单元，然后将其与中心关联。
 
 ## <a name="infrastructure-considerations"></a>基础结构注意事项
 
@@ -44,21 +44,21 @@ ms.locfileid: "8674077"
 
 1. **使用 *空* 数据库设置和部署 LBD 环境。**
 
-    使用 LCS 使用最新的拓扑和空数据库部署 LBD 环境。 有关详细信息，请参阅此主题后面的[使用空数据库设置和部署 LBD 环境](#set-up-deploy)一节。 您必须在中心和缩放单元环境中使用 Supply Chain Management 版本 10.0.21 或更高版本。
+    使用 LCS 使用最新的拓扑和空数据库部署 LBD 环境。 有关详细信息，请参阅本文后面的[使用空数据库设置和部署 LBD 环境](#set-up-deploy)一节。 您必须在中心和缩放单元环境中使用 Supply Chain Management 版本 10.0.21 或更高版本。
 
 1. **将目标包上载到 LCS 中的 LBD 项目资产中。**
 
-    准备跨中心和边缘缩放单元使用的应用程序、平台和自定义包。 有关详细信息，请参阅此主题后面的[将目标包上载到 LCS 中的 LBD 项目资产中](#upload-packages)一节。
+    准备跨中心和边缘缩放单元使用的应用程序、平台和自定义包。 有关详细信息，请参阅本文后面的[将目标包上载到 LCS 中的 LBD 项目资产中](#upload-packages)一节。
 
 1. **使用目标包为 LBD 环境提供服务。**
 
-    此步骤可确保在中心和轮辐上部署相同的版本和自定义。 有关详细信息，请参阅此主题后面的[使用目标包为 LBD 环境提供服务](#service-target-packages)一节。
+    此步骤可确保在中心和轮辐上部署相同的版本和自定义。 有关详细信息，请参阅本文后面的[使用目标包为 LBD 环境提供服务](#service-target-packages)一节。
 
 1. **完成缩放单元配置和工作负荷分配。**
 
-    有关详细信息，请参阅此主题后面的[将 LBD 边缘缩放单元分配给中心](#assign-edge-to-hub)一节。
+    有关详细信息，请参阅本文后面的[将 LBD 边缘缩放单元分配给中心](#assign-edge-to-hub)一节。
 
-本主题的其余各节提供有关如何完成这些步骤的更多详细信息。
+本文的其余各节提供有关如何完成这些步骤的更多详细信息。
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>使用空数据库设置和部署 LBD 环境
 
@@ -67,7 +67,7 @@ ms.locfileid: "8674077"
 1. 请按照[设置并部署本地环境（平台更新 41 及更高版本）](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)中的说明进行操作。 您必须在中心和缩放单元环境中使用 Supply Chain Management 版本 10.0.21 或更高版本。 此外，您必须使用 2.12.0 或更高版本的基础结构脚本。 
 
     > [!IMPORTANT]
-    > 请先阅读此节的其余部分，**然后** 再完成该主题中的步骤。
+    > 请先阅读此节的其余部分，**然后** 再完成该文章中的步骤。
 
 1. 在 infrastructure\\ConfigTemplate.xml 文件中描述您的配置之前，请运行以下脚本：
 

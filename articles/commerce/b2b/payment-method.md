@@ -1,6 +1,6 @@
 ---
 title: 配置 B2B 电子商务站点的客户帐户付款方式
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置客户帐户付款方式。 另外还介绍了信用额度如何影响企业到企业 (B2B) 电子商务站点的分期付款捕获。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置客户帐户付款方式。 另外还介绍了信用额度如何影响企业到企业 (B2B) 电子商务站点的分期付款捕获。
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878639"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>配置 B2B 电子商务站点的客户帐户付款方式
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置客户帐户付款方式。 另外还介绍了信用额度如何影响企业到企业 (B2B) 电子商务站点的分期付款捕获。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置客户帐户付款方式。 另外还介绍了信用额度如何影响企业到企业 (B2B) 电子商务站点的分期付款捕获。
 
 零售商可以接受各种类型的付款来交换其在电子商务渠道中销售的产品和服务。 设置系统时，必须在 Dynamics 365 Commerce 中配置零售商接受的每种付款类型。 B2B 电子商务站点必须支持客户帐户（或“分期付款”）付款方式。 
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2021 年 7 月 12 日）
-description: 此主题介绍了 2021 年 7 月 12 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 7 月 12 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c01d00e7ede44c20e64fc4a8cd8646201caa3992
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 259004773c4e5a7d8865d563da9bcfea3a116632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870949"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Dynamics 365 Human Resources 的新增功能或更改（2021 年 7 月 12 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -49,9 +49,9 @@ ms.locfileid: "8686790"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 问题 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 595871 | Human Resources 中的“关于”窗格包含不正确的 Dataverse 术语 | 通过将 Common Data Service 更名为 Dataverse，Microsoft Dynamics 365 Human Resources 信息窗格中的术语已更新（**帮助和支持 > 关于**）。 |
 | 598676 | 简化的员工输入窗体覆盖任务在使用“已保存视图”时可能会产生错误| 在 **工作人员** 页面，如果启用了“简化的员工输入”功能，在已保存视图上设置 **始终打开以进行编辑** 时，应用程序可能会失败。 |

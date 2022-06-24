@@ -1,6 +1,6 @@
 ---
 title: 媒体库模块
-description: 此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本文介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881727"
 ---
 # <a name="media-gallery-module"></a>媒体库模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+本文介绍媒体库模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 媒体库模块在库视图中显示一个或多个图像。 媒体库模块支持缩略图，其可以水平排列（作为图像下的一行），或垂直排列（作为图像旁边的一列）。 媒体库模块还提供了使图像能够缩放（放大）或以全屏模式查看的功能。 要在媒体库模块中呈现，图像必须在 Commerce 站点构建器“媒体库”中可用。 当前，媒体库模块仅支持图像。
 

@@ -1,6 +1,6 @@
 ---
 title: 内容分发网络实施选项
-description: 本主题回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
+description: 本文回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884409"
 ---
 # <a name="content-delivery-network-implementation-options"></a>内容分发网络实施选项
 
 [!include [banner](includes/banner.md)]
 
-本主题回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
+本文回顾了可用于 Microsoft Dynamics 365 Commerce 环境的内容分发网络 (CDN) 实施的不同选项。 这些选项包括由 Commerce 提供的 Azure Front Door 本机实例，以及客户拥有的 Azure Front Door 实例。
 
 当 Commerce 客户考虑在其 Commerce 环境中使用哪种 CDN 服务时，有若干种选择。 Commerce 随基本 Azure Front Door 支持一起发布，该支持可满足基本托管和自定义域要求。 对于需要加强控制和 Web 应用程序防火墙 (WAF) 等更具体的安全功能的公司，最佳选择可能是使用客户拥有的 Azure Front Door 实例或外部 CDN 服务。
 

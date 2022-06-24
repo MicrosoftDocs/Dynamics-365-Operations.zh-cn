@@ -1,6 +1,6 @@
 ---
 title: 集装箱包装策略
-description: 本主题介绍了集装箱包装策略之间的差异并提供了示例。
+description: 本文介绍了集装箱包装策略之间的差异并提供了示例。
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862357"
 ---
 # <a name="container-packing-strategies"></a>集装箱包装策略
 
 [!include [banner](../includes/banner.md)]
 
-*集装箱包装策略* 是一种可用于定义跨集装箱的物料分配的策略。 本主题说明了 *包装到所有开放集装箱* 和 *仅包装到当前集装箱* 策略之间的差异。
+*集装箱包装策略* 是一种可用于定义跨集装箱的物料分配的策略。 本文说明了 *包装到所有开放集装箱* 和 *仅包装到当前集装箱* 策略之间的差异。
 
 - **包装到所有开放集装箱** – 系统必须检查已在集装化周期期间创建的所有开放集装箱，以确保该物料适合其中一个集装箱。 在包装期间，系统检查每个物料以确定它是否适合之前创建的任何集装箱。 如果物料不适合现有集装箱，系统将创建一个新集装箱并继续，直到完成整个订单的包装。
 

@@ -1,6 +1,6 @@
 ---
 title: 订阅计费 Power BI 内容
-description: 此主题介绍订阅计费 Microsoft Power BI 内容中包含的内容。
+description: 本文介绍订阅计费 Microsoft Power BI 内容中包含的内容。
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849951"
 ---
 # <a name="subscription-billing-power-bi-content"></a>订阅计费 Power BI 内容
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍订阅计费 Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。 
+本文介绍订阅计费 Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。 
 
 ## <a name="overview"></a>概述
 

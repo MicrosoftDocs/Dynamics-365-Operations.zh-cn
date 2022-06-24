@@ -1,6 +1,6 @@
 ---
 title: 报告选项
-description: 本主题介绍如何自定义 Microsoft Dynamics 365 Human Resources 报告或创建新报告。
+description: 本文介绍如何自定义 Microsoft Dynamics 365 Human Resources 报告或创建新报告。
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4649005d6944c05310fc40f0dfd10519b2739ff0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 421883d314fb27b4592e9be0455946ab3730fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856329"
 ---
 # <a name="reporting-options"></a>报告选项
 

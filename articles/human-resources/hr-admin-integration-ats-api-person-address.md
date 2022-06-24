@@ -1,6 +1,6 @@
 ---
 title: 人员地址
-description: 本主题介绍 Dynamics 365 Human Resources 的“人员地址”实体。
+description: 本文介绍 Dynamics 365 Human Resources 的“人员地址”实体。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d428c2b1ce69c55fda2e574715021d4763544a6b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: be5cf649771eaddcb4f2198821530e61b76b2cd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871007"
 ---
 # <a name="person-address"></a>人员地址
 
@@ -27,7 +27,7 @@ ms.locfileid: "8065469"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的“人员地址”实体。
+本文介绍 Dynamics 365 Human Resources 的“人员地址”实体。
 
 物理名称：mshr_hcmpersonaddressentities
 

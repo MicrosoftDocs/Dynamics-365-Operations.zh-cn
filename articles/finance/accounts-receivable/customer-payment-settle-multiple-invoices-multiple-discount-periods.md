@@ -1,6 +1,6 @@
 ---
 title: 使用一次付款结算跨多个折扣期间的发票
-description: 本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
+description: 本文显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5187835da33d729e50aad9c813d8753d240fb81
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872635"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>使用一次付款结算跨多个折扣期间的发票
 
 [!include [banner](../includes/banner.md)]
 
-本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
+本文显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 
 Fabrikam 向客户 4032 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于 **应付帐款参数** 页上。
 

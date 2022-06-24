@@ -1,6 +1,6 @@
 ---
 title: 税款计算舍入规则
-description: 本主题提供有关税款计算服务税款计算参数中的舍入规则的信息。
+description: 本文提供有关税款计算服务税款计算参数中的舍入规则的信息。
 author: kailiang
 ms.date: 07/29/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0f6182ab18a5a408a6e526feec7014ccdfce8af0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858292"
 ---
 # <a name="tax-calculation-rounding-rules"></a>税款计算舍入规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关税款计算服务税款计算参数中的舍入规则工作方式的信息。
+本文提供有关税款计算服务税款计算参数中的舍入规则工作方式的信息。
 
 > [!NOTE] 
 > 启用税款计算服务后，**销售税代码** 和 **销售税组** 页面上的舍入规则无效。

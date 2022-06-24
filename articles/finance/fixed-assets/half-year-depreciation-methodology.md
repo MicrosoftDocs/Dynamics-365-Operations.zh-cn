@@ -1,6 +1,6 @@
 ---
 title: 半年折旧惯例方法
-description: 本主题介绍固定资产用于计算使用半年惯例的折旧的方法，即计算资产第一年到最后一年服务期间的六个月折旧。
+description: 本文介绍固定资产用于计算使用半年惯例的折旧的方法，即计算资产第一年到最后一年服务期间的六个月折旧。
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879586"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>半年折旧惯例方法
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-此主题介绍固定资产中用于计算使用半年惯例的折旧的方法。 半年惯例计算资产第一年到最后一年服务期间的六个月折旧。 有关折旧惯例的详细信息，请参阅[折旧法和惯例](Fixed-asset-depreciation-conventions.md)。 
+本文介绍固定资产中用于计算使用半年惯例的折旧的方法。 半年惯例计算资产第一年到最后一年服务期间的六个月折旧。 有关折旧惯例的详细信息，请参阅[折旧法和惯例](Fixed-asset-depreciation-conventions.md)。 
 
 当您使用六个月折旧惯例时，系统使用购置年份或资产开始服务的年份，然后计算从该年开始的五年折旧，然后增加六个月。 为了阐释此过程，假设一个资产的购置价格为 50,000，服务时间为 2020 年 4 月。 再假设资产的服务寿命为五年。
 

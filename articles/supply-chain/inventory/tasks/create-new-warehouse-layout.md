@@ -1,6 +1,6 @@
 ---
 title: 创建新仓库布局
-description: 此主题描述如何在仓库中设置有关库位的信息。
+description: 本文描述如何在仓库中设置有关库位的信息。
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859305"
 ---
 # <a name="create-a-new-warehouse-layout"></a>创建新仓库布局
 
 [!include [banner](../../includes/banner.md)]
 
-此主题描述如何在仓库中设置有关库位的信息。 此程序仅适用于仓库中“库存管理模块”的“基本仓储”，不适用于“仓库管理模块”。 您可以使用演示数据公司 USMF 或您自己的数据使用该程序。
+本文描述如何在仓库中设置有关库位的信息。 此程序仅适用于仓库中“库存管理模块”的“基本仓储”，不适用于“仓库管理模块”。 您可以使用演示数据公司 USMF 或您自己的数据使用该程序。
 
 
 ## <a name="set-the-default-location-capacity"></a>设置默认库位容量

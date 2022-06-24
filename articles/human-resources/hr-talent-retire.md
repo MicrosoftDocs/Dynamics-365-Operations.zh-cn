@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Talent - Attract 和 Onboard 应用停用
-description: 本主题介绍 Dynamics 365 Talent - Attract 和 Onboard 应用的停用。
+description: 本文介绍 Dynamics 365 Talent - Attract 和 Onboard 应用的停用。
 author: twheeloc
 ms.date: 01/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e17b92621f05ad8483a7c578bfaece58a530df2d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3039b0a837335a777cdd6ff22b8b6e7c014ef956
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845075"
 ---
 # <a name="dynamics-365-talent-attract-and-onboard-apps-retirement"></a>Dynamics 365 Talent: Attract 和 Onboard 应用停用
 

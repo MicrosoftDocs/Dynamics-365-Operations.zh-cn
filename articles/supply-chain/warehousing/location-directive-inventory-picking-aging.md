@@ -1,6 +1,6 @@
 ---
 title: 库位指令库存领料帐龄
-description: 本主题说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。
+description: 本文说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885687"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。 这些策略与为位置记录的帐龄日期结合用来跟踪库存初次进入仓库的时间。 *位置指令库存领料帐龄* 功能使用位置上的日期来确定帐龄。 *仓库位置状态* 功能根据牌照上的日期更新位置上的日期。
+本文说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。 这些策略与为位置记录的帐龄日期结合用来跟踪库存初次进入仓库的时间。 *位置指令库存领料帐龄* 功能使用位置上的日期来确定帐龄。 *仓库位置状态* 功能根据牌照上的日期更新位置上的日期。
 
 您可以使用 FIFO 和 LIFO 策略根据库存进入仓库的日期来装运批量跟踪物料和非批量跟踪物料。 此功能对于无法使用到期日期进行分类的非批量跟踪库存特别有用。
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877676"
 ---
 # <a name="restrict-editing-of-personal-information"></a>限制对个人信息的编辑
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695863"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-本主题介绍如何限制员工在 Dynamics 365 Human Resources 中编辑联系人详细信息。 您可能希望阻止员工编辑某些联系人详细信息，如他们的营业地点或电子邮件地址。
+本文介绍如何限制员工在 Dynamics 365 Human Resources 中编辑联系人详细信息。 您可能希望阻止员工编辑某些联系人详细信息，如他们的营业地点或电子邮件地址。
 
 > [!NOTE]
 > 要使用此功能，必须首先在“功能管理”中启用 **(预览)限制员工出于选择目的添加或编辑地址和联系信息**。 有关启用预览功能的详细信息，请参阅[管理功能](hr-admin-manage-features.md)。<br><br>![启用预览功能。](./media/hr-employee-self-service-restrict-enable.png)

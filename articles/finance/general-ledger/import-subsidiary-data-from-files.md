@@ -1,6 +1,6 @@
 ---
 title: 从文件导入子公司数据
-description: 本主题说明如何从外部系统准备数据，以可以将其导入 Microsoft Dynamics 365 Finance。
+description: 本文说明如何从外部系统准备数据，以可以将其导入 Microsoft Dynamics 365 Finance。
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846761"
 ---
 # <a name="import-subsidiary-data-from-files"></a>从文件导入子公司数据
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何从外部系统准备数据，以可以将其导入 Microsoft Dynamics 365 Finance。 您使用 **与导入合并** 页（**合并 \> 与导入合并**）从外部系统准备子公司数据的转移。
+本文说明如何从外部系统准备数据，以可以将其导入 Microsoft Dynamics 365 Finance。 您使用 **与导入合并** 页（**合并 \> 与导入合并**）从外部系统准备子公司数据的转移。
 
 1. 为合并创建子公司法人。 有关如何创建法人的信息，请参阅[创建法人](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md)。 有关详细信息，请参阅[准备一个法人以供在合并流程中使用](prepare-company-for-consolidation.md)和[设置要合并的子公司法人](set-up-subsidiary-company-for-consolidation.md)。
 

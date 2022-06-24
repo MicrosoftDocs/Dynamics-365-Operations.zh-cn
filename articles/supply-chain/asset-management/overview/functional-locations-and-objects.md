@@ -1,6 +1,6 @@
 ---
 title: 功能位置和资产
-description: 本主题介绍资产管理中的功能位置和资产。 资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。
+description: 本文介绍资产管理中的功能位置和资产。 资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875646"
 ---
 # <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750140"
 
  
 
-本主题介绍资产管理中的功能位置和资产。 资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。
+本文介绍资产管理中的功能位置和资产。 资产管理是 Dynamics 365 Supply Chain Management 中的一个高级模块，用于管理资产和维护作业。
 
 ## <a name="overview"></a>概览
 

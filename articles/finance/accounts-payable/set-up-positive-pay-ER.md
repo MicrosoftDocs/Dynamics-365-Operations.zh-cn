@@ -1,6 +1,6 @@
 ---
 title: 使用电子报告设置和生成付款确认文件
-description: 本主题说明如何使用电子报告设置付款确认。
+description: 本文说明如何使用电子报告设置付款确认。
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878209"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>使用电子报告设置付款确认文件
 
-本主题说明如何使用电子报告设置付款确认和生成付款确认文件。
+本文说明如何使用电子报告设置付款确认和生成付款确认文件。
 
 > [!NOTE] 
 > 在使用 **生成银行付款确认文件** 功能之前，您将需要先刷新实体列表。

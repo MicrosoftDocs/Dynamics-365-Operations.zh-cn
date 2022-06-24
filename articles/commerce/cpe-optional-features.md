@@ -1,6 +1,6 @@
 ---
 title: 为 Dynamics 365 Commerce 评估环境配置可选功能
-description: 本主题说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
+description: 本文说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861906"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>为 Dynamics 365 Commerce 评估环境配置可选功能
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
+本文说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -108,7 +108,7 @@ ms.locfileid: "6728283"
     - 打包订单模板
     - 选择订单模板
 
-1. 使用文本编辑器或 HTML 编辑器自定义模板。 请参阅本主题后面的[支持的标志](#supported-tokens-in-the-email-template)列表。
+1. 使用文本编辑器或 HTML 编辑器自定义模板。 请参阅本文后面的[支持的标志](#supported-tokens-in-the-email-template)列表。
 1. 登录 Commerce。
 1. 使用左侧菜单转到 **模块 \> 组织管理 \> 设置 \> 组织电子邮件模板**。
 1. 展开左侧列表查看所有模板。

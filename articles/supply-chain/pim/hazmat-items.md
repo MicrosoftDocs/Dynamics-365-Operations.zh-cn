@@ -1,6 +1,6 @@
 ---
 title: 产品、订单、装运和负荷中的危险物料
-description: 本主题说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
+description: 本文说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860687"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>产品、订单、装运和负荷中的危险物料
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
+本文说明如何为已发布产品设置危险物料属性，如何为危险物料设置库存限制，以及如何在销售订单、装运或负荷中包括危险物料。
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>为产品设置危险物料规范
 
@@ -109,11 +109,11 @@ ms.locfileid: "7570697"
 - *&lt;UnitConversion&gt;* 是在用于负荷行数量的单位与在 **物料管理** 快速选项卡的 **单位** 字段中为产品指定的单位之间进行转换的换算系数。
 - *&lt;乘数&gt;* 是在 **物料管理** 快速选项卡的 **乘数** 字段中为产品指定的乘数。
 
-对于包含指定了这些值的产品的每个负荷行，都将报告此分数。 有关详细信息，请参阅本主题后面的[包含危险物料的装运](#hazmat-shipments)和[包含危险物料的负荷](#hazmat-loads)两节。
+对于包含指定了这些值的产品的每个负荷行，都将报告此分数。 有关详细信息，请参阅本文后面的[包含危险物料的装运](#hazmat-shipments)和[包含危险物料的负荷](#hazmat-loads)两节。
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>危险物料重量如何计算
 
-包含 **物料管理** 快速选项卡上的 **限制数量** 选项设置为 **是** 的产品的负荷和负荷行，将显示危险物料的总重量，如本主题后面的[包含危险物料的装运](#hazmat-shipments)和[包含危险物料的负荷](#hazmat-loads)两节中所述。 危险物料重量使用以下公式计算：
+包含 **物料管理** 快速选项卡上的 **限制数量** 选项设置为 **是** 的产品的负荷和负荷行，将显示危险物料的总重量，如本文后面的[包含危险物料的装运](#hazmat-shipments)和[包含危险物料的负荷](#hazmat-loads)两节中所述。 危险物料重量使用以下公式计算：
 
 危险物料重量 = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

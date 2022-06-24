@@ -1,6 +1,6 @@
 ---
 title: 配置波次处理示例
-description: 本主题提供如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次的示例。
+description: 本文提供如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次的示例。
 author: Mirzaab
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39c3fecf9250ee89c22003d5dff4ea662c3042e3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860339"
 ---
 # <a name="configure-wave-processing-example"></a>配置波次处理示例
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次的示例。 在销售订单、生产订单或看板订单中，通过设置波模板和将波与已发布行匹配的查询来指定条件
+本文提供如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次的示例。 在销售订单、生产订单或看板订单中，通过设置波模板和将波与已发布行匹配的查询来指定条件
 
 ## <a name="enable-sample-data"></a>启用示例数据
 

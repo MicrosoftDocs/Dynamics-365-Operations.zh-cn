@@ -1,6 +1,6 @@
 ---
-title: 在订单摘要中隐藏税务分解信息
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中的购物车、结帐、订单确认和订单详细信息页面的订单摘要中隐藏税务分解信息。
+title: 隐藏订单摘要中的税务细分信息
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中的购物车、结帐、订单确认和订单详细信息页面的订单摘要中隐藏税务分解信息。
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881782"
 ---
-# <a name="hide-tax-breakup-information-in-order-summaries"></a>在订单摘要中隐藏税务分解信息
+# <a name="hide-tax-breakup-information-in-order-summaries"></a>隐藏订单摘要中的税务细分信息
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中的购物车、结帐、订单确认和订单详细信息页面的订单摘要中隐藏税务分解信息。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中的购物车、结帐、订单确认和订单详细信息页面的订单摘要中隐藏税务分解信息。
 
 默认情况下，Dynamics 365 Commerce 会在购物车、结帐、订单确认和订单详细信息页面的订单摘要中显示税务分解信息。 从 Commerce 版本 10.0.27 开始，Commerce 站点生成器包含一个选项，可让您在订单摘要中隐藏税务分解信息。
 

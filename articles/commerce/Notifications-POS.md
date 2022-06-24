@@ -1,6 +1,6 @@
 ---
 title: 在销售点 (POS) 中显示订单通知
-description: 此主题介绍如何在销售点和通知框架中启用订单通知。
+description: 本文介绍如何在销售点和通知框架中启用订单通知。
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853947"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>在销售点 (POS) 中显示订单通知
 
@@ -65,10 +65,10 @@ ms.locfileid: "6714130"
 
 ## <a name="enable-live-content-on-pos-buttons"></a>在 POS 按钮上启用实时内容
 
-POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务需要他们立即注意。 若要在 POS 按钮上显示此编号，必须完成此主题前文介绍的通知设置（即，必须启用有关操作的通知，设置通知时间间隔和更新工作人员的 POS 权限组）。 此外，还必须打开按钮网格设计器，查看按钮的属性，以及选中 **启用实时内容** 复选框。 在 **内容对齐** 字段中，可选择计数在按钮右上角（**靠上右对齐**）还是中央（**居中**）显示。
+POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务需要他们立即注意。 若要在 POS 按钮上显示此编号，必须完成本文前面介绍的通知设置（即，必须启用有关操作的通知，设置通知时间间隔和更新工作人员的 POS 权限组）。 此外，还必须打开按钮网格设计器，查看按钮的属性，以及选中 **启用实时内容** 复选框。 在 **内容对齐** 字段中，可选择计数在按钮右上角（**靠上右对齐**）还是中央（**居中**）显示。
 
 > [!NOTE]
-> 仅当按照此主题中前文的说明在 **POS 操作** 页上为操作选中了 **启用通知** 复选框，才能为操作启用实时内容。
+> 仅当按照本文前面的说明在 **POS 操作** 页上为操作选中了 **启用通知** 复选框，才能为操作启用实时内容。
 
 下图显示按钮网格设计器中的实时内容设置。
 

@@ -1,6 +1,6 @@
 ---
 title: 调试已执行 ER 格式的数据源以分析数据流和转换
-description: 本主题说明如何调试已执行 ER 格式的数据源以更好地了解已配置的数据流和转换。
+description: 本文说明如何调试已执行 ER 格式的数据源以更好地了解已配置的数据流和转换。
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884219"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>调试已执行 ER 格式的数据源以分析数据流和转换
 
@@ -34,7 +34,7 @@ ms.locfileid: "8323753"
 
 要打开数据源调试功能，请在 ER 用户参数中将 **在格式运行时启用数据调试** 选项设置为 **是**。 然后，您可以在运行 ER 格式以生成出站文档时启动数据源调试。 您还可以使用 **开始调试** 选项来启动 [ER 操作设计器](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document)中配置的 ER 格式数据源调试。
 
-本主题提供了针对已执行 ER 格式启动数据源调试的准则。 它解释了这些信息如何帮助您理解数据流和数据转换。 本主题中的示例使用业务流程进行供应商付款处理。
+本文提供了针对已执行 ER 格式启动数据源调试的准则。 它解释了这些信息如何帮助您理解数据流和数据转换。 本文中的示例使用业务流程进行供应商付款处理。
 
 ## <a name="limitations"></a>限制
 
@@ -49,20 +49,20 @@ ms.locfileid: "8323753"
 
 ## <a name="prerequisites"></a>先决条件
 
-- 要完成本主题中的示例，您必须具有以下其中一个[角色](../sysadmin/tasks/assign-users-security-roles.md)的访问权限：
+- 要完成本文中的示例，您必须具有以下其中一个[角色](../sysadmin/tasks/assign-users-security-roles.md)的访问权限：
 
-    - 电子申报开发人员
+    - 电子报告开发人员
     - 电子申报功能顾问
     - 系统管理员
 
 - 公司必须设置为 **DEMF**。
 
-- 执行本主题的[附录 1](#appendix1) 中的步骤，以下载处理供应商付款所需的 Microsoft ER 解决方案的组件。
-- 执行本主题的[附录 2](#appendix2) 中的步骤以准备应付帐款，从而使用您将下载的 ER 解决方案处理供应商付款。
+- 执行本文的[附录 1](#appendix1) 中的步骤，以下载处理供应商付款所需的 Microsoft ER 解决方案的组件。
+- 执行本文的[附录 2](#appendix2) 中的步骤以准备应付帐款，从而使用您将下载的 ER 解决方案处理供应商付款。
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>处理供应商付款以获取付款文件
 
-1. 执行本主题的[附录 3](#appendix3) 中的步骤以处理供应商付款。
+1. 执行本文的[附录 3](#appendix3) 中的步骤以处理供应商付款。
 
     ![供应商付款处理正在进行中。](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ ms.locfileid: "8323753"
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>处理供应商付款以进行调试
 
-1. 执行本主题的[附录 3](#appendix3) 中的步骤以处理供应商付款。
+1. 执行本文的[附录 3](#appendix3) 中的步骤以处理供应商付款。
 2. 在消息框中，选择 **是** 以确认您要中断供应商付款处理，并改为在 **调试数据源** 页面上启动数据源调试。
 
     ![确认消息框。](./media/er-data-debugger-start-debugging.png)

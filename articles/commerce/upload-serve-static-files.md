@@ -1,6 +1,6 @@
 ---
 title: 上传并处理静态文件
-description: 此主题介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
+description: 本文介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885314"
 ---
 # <a name="upload-and-serve-static-files"></a>上传并处理静态文件
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
+本文介绍如何将静态文件上传到 Microsoft Dynamics 365 Commerce 站点构建器，以及如何创建可用于请求该文件的自定义 URL 和文件名。
 
-有些第三方连接器需要文件从电子商务站点托管和提供。 这些连接器预期文件将由对特定回叫 URL 路径和文件名的请求返回。 因此，此主题说明如何在 Dynamics 365 Commerce 电子商务站点上载和提供具有用户可定义 URL 和文件名的静态文件。
+有些第三方连接器需要文件从电子商务站点托管和提供。 这些连接器预期文件将由对特定回叫 URL 路径和文件名的请求返回。 因此，本文说明如何在 Dynamics 365 Commerce 电子商务站点上载和提供具有用户可定义 URL 和文件名的静态文件。
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>创建返回静态文件的站点 URL
 
@@ -86,7 +86,7 @@ URL 发布后，您可以对它进行更新，让它指向另一个文件。 或
 
 若要更改 URL 路径，请执行以下步骤。
 
-1. 要创建新的 URL 并将其映射到现有文件或另一个资源，请按照此主题前面的[创建返回静态文件的站点 URL](#create-a-site-url-that-returns-a-static-file) 一节中的说明操作。
+1. 要创建新的 URL 并将其映射到现有文件或另一个资源，请按照本文前面的[创建返回静态文件的站点 URL](#create-a-site-url-that-returns-a-static-file) 一节中的说明操作。
 1. 选择新 URL，然后在命令栏上选择 **发布**。 新 URL 将发布。
 1. 要取消发布旧 URL，选择它，然后在命令栏上选择 **取消发布**。 现在，您可以根据需要删除旧 URL 了。
 

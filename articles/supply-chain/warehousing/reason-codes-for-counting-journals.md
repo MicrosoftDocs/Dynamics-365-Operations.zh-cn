@@ -1,6 +1,6 @@
 ---
 title: 库存盘点的原因代码
-description: 此主题描述如何为盘点任务设置和应用原因代码。
+description: 本文描述如何为盘点任务设置和应用原因代码。
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857103"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 
@@ -42,7 +42,7 @@ ms.locfileid: "7500582"
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>在系统中启用原因代码功能
 
-如果您在系统中未看到本主题中描述的所有功能，您可能必须启用 *使用连接到抵销帐户可配置原因代码过帐现有库存量调整* 功能。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+如果您在系统中未看到本文中描述的所有功能，您可能必须启用 *使用连接到抵销帐户可配置原因代码过帐现有库存量调整* 功能。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*仓库管理*
 - **功能名称**：*使用连接到抵销帐户的可配置原因代码过帐现有库存量调整*
@@ -111,7 +111,7 @@ ms.locfileid: "7500582"
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>设置盘点原因代码组
 
-*盘点原因代码组* 可用作 Warehouse Management 移动应用中 *调入* 和 *调出* 菜单项的一部分，以限制盘点原因代码的列表。 （有关盘点原因代码组的详细信息，请参阅本主题中后面的[设置移动设备的调入和调出菜单项](#setup-adjustment-in-out)。）
+*盘点原因代码组* 可用作 Warehouse Management 移动应用中 *调入* 和 *调出* 菜单项的一部分，以限制盘点原因代码的列表。 （有关盘点原因代码组的详细信息，请参阅本文后面的[设置移动设备的调入和调出菜单项](#setup-adjustment-in-out)。）
 
 1. 转到 **库存管理** \> **设置** \> **库存** \> **盘点原因代码组**。
 1. 在操作窗格中，选择 **新建** 添加组。
@@ -174,7 +174,7 @@ ms.locfileid: "7500582"
         - *隐藏* - 不显示原因代码。
 
     - **编辑盘点原因代码** - 将此选项设置为 *是*，以允许工作人员编辑盘点期间移动设备上显示的原因代码。 将其设置为 *否* 可以阻止工作人员编辑此代码。
-    - **盘点原因代码组** - 如果您要限制向工作人员显示的选项列表，请选择原因代码组。 有关如何设置原因代码组的信息，请参阅本主题中前面的[设置盘点原因代码组](#reason-groups)部分。 
+    - **盘点原因代码组** - 如果您要限制向工作人员显示的选项列表，请选择原因代码组。 有关如何设置原因代码组的信息，请参阅本文前面的[设置盘点原因代码组](#reason-groups)一节。 
 
 > [!NOTE]
 > 当您将盘点原因代码组分配给 *调入* 和 *调出* 菜单项时，其中 **使用流程指南** 选项设置为 *是*，您可以在 Warehouse Management 移动应用处理过程中获取有限的盘点原因代码列表。

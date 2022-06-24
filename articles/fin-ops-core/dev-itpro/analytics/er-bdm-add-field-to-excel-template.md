@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Excel 中将新字段添加到业务文档模板
-description: 本主题提供有关如何通过使用业务文档管理功能在 Microsoft Excel 中将新字段添加到业务文档模板的信息。
+description: 本文提供有关如何通过使用业务文档管理功能在 Microsoft Excel 中将新字段添加到业务文档模板的信息。
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767234"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869393"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>在 Microsoft Excel 中将新字段添加到业务文档模板
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767234"
 
 您可以向用于生成 Microsoft Excel 格式的业务文档的模板添加新字段。 这些字段可以添加为占位符，用于使用来自应用程序的必需信息填充生成的文档。 对于添加的每个字段，还可以指定与数据源的绑定，以指定在使用模板生成业务文档时将在字段中输入哪些应用程序数据。
 
-若要了解有关此功能的详细信息，请完成本主题中的示例。 此示例说明如何更新模板以填充生成的普通发票表单中的字段。
+若要了解有关此功能的详细信息，请完成本文中的示例。 此示例说明如何更新模板以填充生成的普通发票表单中的字段。
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>配置“业务文档管理”以编辑模板
 
 由于业务文档管理 (BDM) 建立在[电子报告 (ER) 概览](general-electronic-reporting.md)框架的基础上，因此必须先配置必需的 ER 和 BDM 参数，然后才能开始使用 BDM。
 
 1.  以系统管理员身份登录到 Microsoft Dynamics 365 Finance 实例。
-2.  完成[业务文档管理概述](er-business-document-management.md)主题中示例的以下步骤：
+2.  完成[业务文档管理概述](er-business-document-management.md)一文中示例的以下步骤：
 
     1.  配置 ER 参数。
     2.  打开 BDM。
@@ -148,9 +148,9 @@ ms.locfileid: "6767234"
 2.  选择发票 **FTI-00000002**，然后选择 **打印管理**。
 3.  在左窗格中，展开 **模块 - 应收帐款 \> 文档 \> 普通发票**。
 4.  在 **普通发票** 下，选择 **原始凭证** 级别以指定要处理的发票范围。
-5.  在右侧窗格的 **报表格式** 字段中，为指定的文档级别选择 **普通发票 (Excel) Contoso** 模板。
+5.  在右窗格的 **报表格式** 字段中，为指定的文档级别选择 **普通发票(Excel) Contoso** 模板。
 
-    ![已选择“普通发票 (Excel) Contoso”模板。](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![已选择“普通发票(Excel) Contoso”模板。](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  按 **Esc** 关闭当前页。
 7.  选择 **打印 \> 选定**。

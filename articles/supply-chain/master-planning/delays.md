@@ -1,6 +1,6 @@
 ---
 title: 延迟
-description: 本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
+description: 本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 author: t-benebo
 ms.date: 03/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6896e2d73fa634f6d528ff4b1da8eb73b6708837
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6bda8d9fcf42727a1ef530dee5f58dbaf18d5022
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882538"
 ---
 # <a name="delays"></a>延迟
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
+本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 
 主计划可以基于提前期、物料可用性、产能可用性以及各种计划参数计算交易记录的最早履行日期。 
 

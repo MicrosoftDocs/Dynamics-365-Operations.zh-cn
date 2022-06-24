@@ -1,6 +1,6 @@
 ---
 title: 工程更改管理概述（包含视频）
-description: 此主题概述了工程更改管理，可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。
+description: 本文概述了工程更改管理，可帮助您计划和管理产品版本控制以及管理产品生命周期和工程更改。
 author: t-benebo
 ms.date: 01/11/2022
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 54d91d009d70194dfc91c8c855e0088f9de01718
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862647"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 

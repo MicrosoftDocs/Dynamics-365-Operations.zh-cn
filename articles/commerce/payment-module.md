@@ -1,6 +1,6 @@
 ---
 title: 付款模块
-description: 此主题介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+description: 本文介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850267"
 ---
 # <a name="payment-module"></a>付款模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+本文介绍付款模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 
 付款模块使客户可以使用信用卡或借记卡支付订单。 此模块的付款集成由适用于 Adyen 的 Dynamics 365 付款连接器提供。 有关如何设置和配置付款连接器的详细信息，请参阅[适用于 Adyen 的 Dynamics 365 付款连接器](dev-itpro/adyen-connector.md)。  
 

@@ -1,6 +1,6 @@
 ---
 title: 创建记录模板以加快数据输入
-description: 此主题演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。
+description: 本文演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。
 author: margoc
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880187"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
 [!include [banner](../../includes/banner.md)]
 
-此主题演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。 在此过程中，您将为应添加到固定资产的新笔记本电脑创建一条新记录。 本流程使用了 USMF 示例公司。
+本文演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。 在此过程中，您将为应添加到固定资产的新笔记本电脑创建一条新记录。 本流程使用了 USMF 示例公司。
 
 1. 在导航窗格中，转到 **模块 > 固定资产 > 固定资产 > 固定资产**。
 2. 选择 **新建**。

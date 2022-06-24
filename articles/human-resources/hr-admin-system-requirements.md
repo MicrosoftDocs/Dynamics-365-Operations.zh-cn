@@ -1,6 +1,6 @@
 ---
 title: 系统要求
-description: 此主题列出了 Microsoft Dynamics 365 Human Resources 的系统要求。
+description: 本文列出了 Microsoft Dynamics 365 Human Resources 的系统要求。
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e88006ebf174f1a416fa6d8572d439a0395f0e44
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b07d14dfe0e6b53c9489c284520a24b97d9887fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879328"
 ---
 # <a name="system-requirements"></a>系统要求
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-此主题列出了 Microsoft Dynamics 365 Human Resources 的系统要求。 还概述支持 Human Resources 的国家和地区，以及有关 Human Resources 数据的语言和本地化的信息。
+本文列出了 Microsoft Dynamics 365 Human Resources 的系统要求。 还概述支持 Human Resources 的国家和地区，以及有关 Human Resources 数据的语言和本地化的信息。
 
 ## <a name="supported-web-browsers"></a>支持的 Web 浏览器
 

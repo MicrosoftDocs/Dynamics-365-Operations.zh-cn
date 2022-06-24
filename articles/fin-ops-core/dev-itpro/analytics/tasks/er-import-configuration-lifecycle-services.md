@@ -1,6 +1,6 @@
 ---
 title: 从 Lifecycle Services 导入配置
-description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
+description: 本文介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886663"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍系统管理员或电子报表开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)导入新[电子申报 (ER) 配置](../general-electronic-reporting.md#Configuration)版本。
+本文介绍系统管理员或电子报告开发人员角色的用户如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[项目级资产库](../../lifecycle-services/asset-library.md)导入新[电子报告 (ER) 配置](../general-electronic-reporting.md#Configuration)版本。
 
 > [!IMPORTANT]
 > 使用 LCS 作为 ER 配置的存储库将[弃用](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
@@ -49,7 +49,7 @@ ms.locfileid: "6712584"
 
 1. 在 **配置** 页上的配置树中，选择 **示例模型配置**。
 
-    在完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤时，创建了示例数据模型配置的第一个版本并发布到了 LCS。 在此过程中，您将删除 ER 配置的这一版本。 然后将在本主题后文从 LCS 导入该版本。
+    在完成[将配置上载到 Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) 中的步骤时，创建了示例数据模型配置的第一个版本并发布到了 LCS。 在此过程中，您将删除 ER 配置的这一版本。 然后将在本文后面从 LCS 导入该版本。
 
 2. 在列表中，找到并选择所需记录。
 

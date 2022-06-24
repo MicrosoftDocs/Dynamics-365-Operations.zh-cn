@@ -1,6 +1,6 @@
 ---
 title: 175% 余额递减法折旧
-description: 本主题提供了 175% 余额递减法折旧方法的概览。
+description: 本文提供了 175% 余额递减法折旧方法的概览。
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870182"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法折旧
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了 175% 余额递减法折旧方法的概览。
+本文提供了 175% 余额递减法折旧方法的概览。
 
 如果您设置固定资产折旧模板并在 **折旧模板** 页面上的 **方法** 字段中选择 **175% 余额递减法**，已分配此折旧模板的固定资产将在每个折旧期间按相同的百分比进行折旧。 
 
@@ -41,7 +41,7 @@ ms.locfileid: "8710910"
 
 可以保留 **折旧年份** 字段中的默认值，即 **日历**。 
 
-**日历** 选项在每年的 1 月 1 日更新折旧基数。 通常，折旧基数为帐面净值减去残值所得的结果。 在此主题后面的示例中，折旧基数是计算列中第一个表达式的分子。 
+**日历** 选项在每年的 1 月 1 日更新折旧基数。 通常，折旧基数为帐面净值减去残值所得的结果。 在本文后面的示例中，折旧基数是计算列中第一个表达式的分子。 
 
 如果选择 **日历** 作为折旧年份，则 **期间频率** 字段中提供以下选项：
 

@@ -1,6 +1,6 @@
 ---
 title: 添加位置与当事方关系类型
-description: 本主题介绍如何添加新的位置与当事方关系类型。
+description: 本文介绍如何添加新的位置与当事方关系类型。
 author: ShivamPandey-msft
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 36c2c45c8f078abdc7e0bc40481a544491384245
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2aaf16fac658d26dc2d2a389fd5c1dbb9cbb7649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874745"
 ---
 # <a name="add-location-and-party-relationship-types"></a>添加位置与当事方关系类型 
 

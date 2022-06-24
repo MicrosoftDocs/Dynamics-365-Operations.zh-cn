@@ -1,6 +1,6 @@
 ---
 title: 奥地利的会计登记服务集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中奥地利的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中奥地利的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873350"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>奥地利的会计登记服务集成示例
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中奥地利的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中奥地利的会计整合示例。
 
 为了满足奥地利收银机的当地会计要求，适用于奥地利的 Dynamics 365 Retail 功能将包括销售点 (POS) 与外部会计登记服务集成的示例。 该示例扩展了[会计整合功能](fiscal-integration-for-retail-channel.md)。 它基于 [EFSTA](https://www.efsta.eu/at/) 中的 [EFR（电子会计登记簿）](https://www.efsta.eu/at/fiskalloesungen/oesterreich)解决方案，并允许通过 HTTPS 协议与 EFR 服务通信。 EFR 服务应托管在 Retail Hardware Station 或可从 Hardware Station 连接到的单独计算机上。 该示例以源代码的形式提供，是 Retail 软件开发工具包 (SDK) 的一部分。
 

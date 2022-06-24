@@ -1,6 +1,6 @@
 ---
 title: 质检订单
-description: 本主题介绍如何手动或自动创建质检订单，以及如何使用它们在 Microsoft Dynamics 365 Supply Chain Management 中执行检查、记录测试结果。
+description: 本文介绍如何手动或自动创建质检订单，以及如何使用它们在 Microsoft Dynamics 365 Supply Chain Management 中执行检查、记录测试结果。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857770"
 ---
 # <a name="quality-orders"></a>质检订单
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何手动或自动创建质检订单，以及如何使用它们在 Microsoft Dynamics 365 Supply Chain Management 中执行检查、记录测试结果。
+本文介绍如何手动或自动创建质检订单，以及如何使用它们在 Microsoft Dynamics 365 Supply Chain Management 中执行检查、记录测试结果。
 
 ## <a name="automatically-created-quality-orders"></a>自动创建的质检订单
 
@@ -39,7 +39,7 @@ ms.locfileid: "7571849"
 
 1. 转到 **库存管理 \> 定期任务 \> 质量管理 \> 质检订单**。
 1. 选择 **新建**。
-1. 在 **质检订单** 对话框中的 **引用类型** 字段中，选择将与质检订单相关的库存引用。 有关可供选择的引用类型的说明，请参阅本主题后面的[质检订单引用类型](#ref-types)一节。
+1. 在 **质检订单** 对话框中的 **引用类型** 字段中，选择将与质检订单相关的库存引用。 有关可供选择的引用类型的说明，请参阅本文后面的[质检订单引用类型](#ref-types)一节。
 
     > [!NOTE]
     > 与所选引用相关的库存必须可用。 如果您选择的引用类型、数量和库存维度组合没有可用的库存，您会收到错误消息。
@@ -88,7 +88,7 @@ ms.locfileid: "7571849"
 
 ### <a name="from-the-quality-orders-page"></a>从质检订单页面
 
-要手动创建质检订单以及查看所有现有质检订单，转到 **库存管理 \> 定期任务 \> 质量管理 \> 质检订单**。 本主题的其余几节提供有关如何使用 **质检订单** 页面的详细信息。
+要手动创建质检订单以及查看所有现有质检订单，转到 **库存管理 \> 定期任务 \> 质量管理 \> 质检订单**。 本文的其余几节提供有关如何使用 **质检订单** 页面的详细信息。
 
 ### <a name="from-sales-orders"></a>从销售订单
 

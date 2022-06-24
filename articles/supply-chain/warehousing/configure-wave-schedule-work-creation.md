@@ -1,6 +1,6 @@
 ---
 title: 在波次期间计划工作创建
-description: 本主题介绍如何设置和使用计划工作创建波次处理方法。
+description: 本文介绍如何设置和使用计划工作创建波次处理方法。
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852061"
 ---
 # <a name="schedule-work-creation-during-wave"></a>在波次期间计划工作创建
 
@@ -30,7 +30,7 @@ ms.locfileid: "8691122"
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>在功能管理中打开计划的工作创建功能
 
-若要使用本主题中描述的功能，必须为您的系统打开这些功能。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区以按以下顺序打开以下功能：
+若要使用本文中描述的功能，必须为您的系统打开这些功能。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区以按以下顺序打开以下功能：
 
 1. **组织范围内的工作锁定** - 手动和自动配置计划的工作创建时所必需。 （从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
 1. **计划工作创建** - 手动和自动配置计划的工作创建时所必需。

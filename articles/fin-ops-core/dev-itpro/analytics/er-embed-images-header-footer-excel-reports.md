@@ -1,6 +1,6 @@
 ---
 title: 设计 ER 格式以使用页面页眉或页脚中的嵌入图像生成采用 Excel 格式的报表
-description: 本主题说明如何使用电子报告 (ER) 生成具有在页面页眉或页脚中嵌入的图像和形状的业务文档。
+description: 本文说明如何使用电子报告 (ER) 生成具有在页面页眉或页脚中嵌入的图像和形状的业务文档。
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854834"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>设计 ER 格式以使用页面页眉或页脚中的嵌入图像生成采用 Excel 格式的报表
 
 [!include[banner](../includes/banner.md)]
 
-本主题说明系统管理员或电子报告功能顾问角色的用户如何执行以下任务：
+本文说明系统管理员或电子报告功能顾问角色的用户如何执行以下任务：
 
 - 配置[电子报告 (ER)](general-electronic-reporting.md) 框架的参数。
 - 基于 Microsoft Excel 格式中的[模板](er-fillable-excel.md#excel-file-component)，导入 Microsoft [提供](general-electronic-reporting.md#Provider)的并用于生成[普通发票](../../../finance/accounts-receivable/create-free-text-invoice-new.md)的 ER [配置](general-electronic-reporting.md#Configuration)。
 - 创建 Microsoft 提供的标准 ER 格式配置的[自定义（派生）](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization)版本。
 - 修改自定义 ER 格式配置，以便它生成在页脚中具有公司徽标图像的普通发票报表。
 
-本主题中的过程可以在 **USMF** 公司完成。 无需进行编码。 在开始之前，请下载并保存以下文件。
+本文中的过程可以在 **USMF** 公司完成。 无需进行编码。 在开始之前，请下载并保存以下文件。
 
 | 说明        | 文件名 |
 |--------------------|-----------|

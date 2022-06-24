@@ -1,6 +1,6 @@
 ---
 title: ER 将财务维度用作数据源（第 4 部分 - 运行报表）
-description: 本主题介绍如何配置电子报告 (ER) 模型以将财务维度用作 ER 报表的数据源。 （第 4 部分）
+description: 本文介绍如何配置电子报告 (ER) 模型以将财务维度用作 ER 报表的数据源。 （第 4 部分）
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 5ef1944655893f191502b4d1e8e1372f6d2e755f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881121"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER 将财务维度用作数据源（第 4 部分 - 运行报表）
 

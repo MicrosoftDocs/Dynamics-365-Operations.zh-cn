@@ -1,6 +1,6 @@
 ---
 title: 礼品卡模块
-description: 此主题介绍礼品卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本文介绍礼品卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc3d51b9891469b8bb0fa38ae2bcd0b27eee56f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869482"
 ---
 # <a name="gift-card-module"></a>礼品卡模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍礼品卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+本文介绍礼品卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 结帐模块中可以使用礼品卡模块接受礼品卡，这是电子商务交易中的一种常用付款方式。 礼品卡模块支持 Dynamics 365、SVS 和 Givex 礼品卡。 SVS 和 Givex 礼品卡通过 Adyen 支付方兑换。 有关支持外部礼品卡（如 SVS 和 Givex）的详细信息，请参阅[对外部礼品卡的支持](./dev-itpro/gift-card.md)。
 

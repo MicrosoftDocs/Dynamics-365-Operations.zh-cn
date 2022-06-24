@@ -1,6 +1,6 @@
 ---
 title: 设置资产管理移动工作区
-description: 本主题介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行资产管理移动工作区，工作人员可以使用该工作区来执行资产管理任务。
+description: 本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行资产管理移动工作区，工作人员可以使用该工作区来执行资产管理任务。
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870833"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>设置资产管理移动工作区
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行 **资产管理** 移动工作区，工作人员可以使用该工作区来执行资产管理任务。
+本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行 **资产管理** 移动工作区，工作人员可以使用该工作区来执行资产管理任务。
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>在 Supply Chain Management 中设置维护工人用户
 

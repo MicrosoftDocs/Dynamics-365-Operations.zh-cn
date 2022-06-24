@@ -1,6 +1,6 @@
 ---
 title: 为本地部署配置 SQL Server Reporting Services
-description: 本主题提供有关为本地部署配置 SQL Server Reporting Services (SSRS) 的信息。
+description: 本文提供有关为本地部署配置 SQL Server Reporting Services (SSRS) 的信息。
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 16a35a8dae50cc1bc949f33de87b2beab8b528b3
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: ae1e78a268d6c61cc4ab6afd9e3f6d6b1bd1561a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876912"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>为本地部署配置 SQL Server Reporting Services
 
 [!include [banner](../includes/banner.md)]
 
-使用本主题中的步骤为您的 Microsoft Dynamics 365 Finance + Operations (on-premises) 部署配置 SQL Server Reporting Services (SSRS)。
+使用本文中的步骤为您的 Microsoft Dynamics 365 Finance + Operations (on-premises) 部署配置 SQL Server Reporting Services (SSRS)。
 
 1. 打开 Reporting Services 配置管理器应用程序。
 2. 保留默认的 **服务器名称**（这应是当前计算机的名称）和 **报表服务器实例**，**MSSQLSERVER**。

@@ -1,6 +1,6 @@
 ---
 title: 创建采购目录
-description: 本主题介绍如何创建采购目录。
+description: 本文介绍如何创建采购目录。
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869537"
 ---
 # <a name="create-a-procurement-catalog"></a>创建采购目录
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何创建采购目录。 此任务通常由采购专业人员完成。 您还将了解员工在创建申请时如何使用目录。 系统中必须已有采购类别层次结构，才能创建目录。 新目录继承层次结构，以及其中的所有产品。 可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。
+本文介绍如何创建采购目录。 此任务通常由采购专业人员完成。 您还将了解员工在创建申请时如何使用目录。 系统中必须已有采购类别层次结构，才能创建目录。 新目录继承层次结构，以及其中的所有产品。 可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>确保存在采购类别层次结构。

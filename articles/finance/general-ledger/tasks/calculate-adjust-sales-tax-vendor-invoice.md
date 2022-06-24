@@ -1,6 +1,6 @@
 ---
 title: 计算和调整供应商发票上的销售税
-description: 本主题介绍如何在 Dynamics 365 Finance 中调整供应商发票上的销售税。
+description: 本文介绍如何在 Dynamics 365 Finance 中调整供应商发票上的销售税。
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9a1093631688351d065d6b55bc65055b6f92d256
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868349"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>计算和调整供应商发票上的销售税
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何调整供应商发票上的销售税。 如果原始单据显示计算的不同税额，您可在过帐前调整这些税额。 本任务使用 DEMF 公司进行演示。
+本文介绍如何调整供应商发票上的销售税。 如果原始单据显示计算的不同税额，您可在过帐前调整这些税额。 本任务使用 DEMF 公司进行演示。
 
 1. 转到 **应付帐款 > 发票 > 发票日记帐**。
 2. 选择 **新建**。

@@ -1,6 +1,6 @@
 ---
 title: 其他州供应商的产品 ICMS-DIF 税计算的基数更改
-description: 本主题介绍在巴西南里奥格兰德州 (RS) 或圣保罗 (SP) 州收到会计单据时的 ICMS-DIF 税务类型计算配置。
+description: 本文介绍在巴西南里奥格兰德州 (RS) 或圣保罗 (SP) 州收到会计单据时的 ICMS-DIF 税务类型计算配置。
 author: Kai-Cloud
 ms.date: 1/20/2022
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-1-17
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 63e3cbaaf77456b55f08ea91831ba9d49cb57185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1fde18c79f375db4db6bc52cdb5c40a61625ae63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868253"
 ---
 # <a name="basis-change-in-icms-dif-tax-calculations-for-products-from-suppliers-in-other-states"></a>其他州供应商的产品 ICMS-DIF 税计算的基数更改
 
-本主题介绍在巴西南里奥格兰德州 (RS) 或圣保罗 (SP) 州收到会计单据时的 **ICMS-DIF** 税务类型计算配置。
+本文介绍在巴西南里奥格兰德州 (RS) 或圣保罗 (SP) 州收到会计单据时的 **ICMS-DIF** 税务类型计算配置。
 
 根据州法律中的规定，收集的 Imposto sobre Circulação de Mercadorias e Serviços (ICMS) 必须遵循以下规则：
 

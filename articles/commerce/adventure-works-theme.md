@@ -1,6 +1,6 @@
 ---
 title: Adventure Works 主题概述
-description: 本主题概述了 Adventure Works 主题并介绍了如何在 Microsoft Dynamics 365 Commerce 中将其应用于站点页面。
+description: 本文概述了 Adventure Works 主题并介绍了如何在 Microsoft Dynamics 365 Commerce 中将其应用于站点页面。
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874979"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works 主题概述
 
 [!include [banner](includes/banner.md)]
 
-本主题概述了 Adventure Works 主题并介绍了如何在 Microsoft Dynamics 365 Commerce 中将其应用于站点页面。
+本文概述了 Adventure Works 主题并介绍了如何在 Microsoft Dynamics 365 Commerce 中将其应用于站点页面。
 
 Dynamics 365 Commerce 有一个名为 Adventure Works 的电子商务主题。 Adventure Works 主题展示了体育和休闲产品，并针对丰富和增强的故事分享体验进行了优化。 它提供现代外观、新布局和动画效果，为电子商务客户创造身临其境、引人入胜的在线购物体验。
 

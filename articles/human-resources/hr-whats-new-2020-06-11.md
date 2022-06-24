@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
-description: 此主题介绍了 2020 年 6 月 11 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2020 年 6 月 11 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: andreabichsel
 ms.date: 06/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d75c4a27ff98f52fff6ec498aded4dfcc031931
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 78d0adbfea19ce9d77b74cd44dbf19366ae37ff7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852920"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Dynamics 365 Human Resources（2020 年 6 月 11 日）新增功能或更改
 

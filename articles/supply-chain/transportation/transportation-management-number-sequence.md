@@ -1,6 +1,6 @@
 ---
 title: 运输管理编号规则
-description: 此主题介绍如何设置运输管理的编号规则。
+description: 本文介绍如何设置运输管理的编号规则。
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 64b029cc6164bf1ee597441bcda5addff32e5023
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a1d3e1a36164215b70d88b10beb35748be2e23b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847808"
 ---
 # <a name="transportation-management-number-sequence"></a>运输管理编号规则
 

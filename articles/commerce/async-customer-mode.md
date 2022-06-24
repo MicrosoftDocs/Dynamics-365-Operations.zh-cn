@@ -1,6 +1,6 @@
 ---
 title: 异步客户创建模式
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
+description: 本文介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880132"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>异步客户创建模式
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
+本文介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
 
 在 Commerce 中，有两种客户创建模式：同步和异步。 默认情况下，系统会同步创建客户。 换句话说，客户是在 Commerce Headquarters 中实时创建的。 同步客户创建模式很有用，因为可以跨渠道立即搜索新客户。 但是，它也有一个缺点。 因为它会向 Commerce Headquarters 发出 [Commerce Data Exchange：实时服务](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)请求，如果同时发出许多客户创建请求，则性能可能会受到影响。
 

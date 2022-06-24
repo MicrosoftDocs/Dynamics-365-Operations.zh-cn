@@ -1,6 +1,6 @@
 ---
 title: 设计配置以生成 Excel 格式的文档
-description: 本主题介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
+description: 本文介绍如何设计电子报告 (ER) 格式以填写 Excel 模板，然后生成 Excel 格式的传出文档。
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854805"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811411"
 
 可以设计一种[电子报告 (ER)](general-electronic-reporting.md) 格式配置，该配置中有一个 ER 格式组件可配置来生成 Microsoft Excel 工作簿格式的传出文档。 必须为此用途使用特定 ER 格式组件。
 
-若要了解此功能，请执行[设计用于生成 OPENXML 格式的报表的配置](tasks/er-design-reports-openxml-2016-11.md)主题中的步骤。
+若要了解此功能的更多信息，请执行[设计用于生成 OPENXML 格式的报表的配置](tasks/er-design-reports-openxml-2016-11.md)一文中的步骤。
 
 ## <a name="add-a-new-er-format"></a>添加新的 ER 格式
 
@@ -263,7 +263,7 @@ ms.locfileid: "8811411"
 
 在添加的 **页脚** 组件下面，添加 **文本\\字符串**、**文本\\日期时间** 或其他类型的所需嵌套组件。 配置这些组件的绑定，以指定页面页脚的填充方式。
 
-您也可以使用特殊[格式代码](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers)正确格式化生成的页脚的内容。 要了解如何使用此方法，请执行本主题后面的[示例 1](#example-1) 中的步骤。
+您也可以使用特殊[格式代码](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers)正确格式化生成的页脚的内容。 要了解如何使用此方法，请执行本文后面的[示例 1](#example-1) 中的步骤。
 
 > [!NOTE]
 > 配置 ER 格式时，请务必考虑 Excel [限制](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)，以及单个页眉或页脚的最大字符数。

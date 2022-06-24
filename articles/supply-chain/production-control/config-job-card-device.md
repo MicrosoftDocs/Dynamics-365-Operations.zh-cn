@@ -1,6 +1,6 @@
 ---
 title: 配置设备的作业卡
-description: 本主题介绍配置作业卡设备的各个选项。
+description: 本文介绍配置作业卡设备的各个选项。
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860716"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
 [!include [banner](../includes/banner.md)]
 
-车间工作人员使用作业卡设备来登记他们的日常工作，如何时开始作业、报告关于作业的反馈、登记间接活动和报告缺勤。 这些登记是跟踪生产订单的进度和成本以及计算工作人员付薪的基础数据的基础。 本主题介绍配置作业卡设备的各个选项。
+车间工作人员使用作业卡设备来登记他们的日常工作，如何时开始作业、报告关于作业的反馈、登记间接活动和报告缺勤。 这些登记是跟踪生产订单的进度和成本以及计算工作人员付薪的基础数据的基础。 本文介绍配置作业卡设备的各个选项。
 
 ## <a name="enable-new-features-in-feature-management"></a>在功能管理中启用新功能
 
-主题中介绍的一些设置必须先在系统上启用，然后才能使用。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面根据需要启用以下任何或所有功能。
+本文中介绍的一些设置必须先在系统上启用，然后才能使用。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面根据需要启用以下任何或所有功能。
 
 ### <a name="generate-license-plate"></a>生成牌照
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876316"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -33,11 +33,8 @@ ms.locfileid: "8756954"
 有关详细信息，请参阅：
 
 [创建普通发票](../accounts-receivable/create-free-text-invoice-new.md)
-
 [创建普通发票模板](../accounts-receivable/create-free-text-invoice-template-new.md)
-
 [将普通发票模板分配给客户](tasks/assign-free-text-invoice-template-customer.md)
-
 [生成和过帐重复执行普通发票](tasks/post-recurring-free-text-invoices.md)
 
 
@@ -91,8 +88,8 @@ ms.locfileid: "8756954"
  - 选择 **根据发票站点进行拆分** 选项可以在过帐时为每个站点创建一份发票。 
  - 选中 **根据发票交付信息进行拆分** 选项可以在过帐时为每个销售订单行交货地址创建一份发票。 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>为没有价格的销售订单行过帐到收入帐户
-对于没有价格的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 若要设置或查看此信息，请转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 对于没有价格的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。如果未选择此选项，则没有价格信息的行将不会过帐到 **收入** 帐户。
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>为没有价格和成本的销售订单行过帐到收入帐户
+对于没有价格和成本的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 若要设置或查看此信息，请转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格和零成本销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 对于没有价格和成本的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 如果选择此选项，凭证将包含 **客户余额** 和 **收入** 过帐类型的 0.00 条目。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。如果未选择此选项，则没有价格或成本信息的行将不会过帐到 **收入** 帐户。 凭证将包含 **客户余额** 过帐类型的 0.00 条目。
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>更改过帐行为的附加设置
 以下字段更改过帐流程的行为。

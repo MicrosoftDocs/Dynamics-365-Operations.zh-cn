@@ -1,6 +1,6 @@
 ---
 title: Finance Insights 的配置
-description: 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
+description: 本文介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861407"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights 的配置
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本主题介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。 要成功完成本主题中的过程，您必须在 [Power Portal 管理中心](https://admin.powerplatform.microsoft.com/)具有系统管理员和系统定制员访问权限，在 Dynamics 365 Finance 中具有系统管理员访问权限，并在 Microsoft Dynamics Lifecycle Services (LCS) 中具有创建环境的访问权限。
+Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Dataverse、Azure 和 AI Builder，以便为贵组织提供强大的预测功能。 本文介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。 要成功完成本文中的过程，您必须在 [Power Portal 管理中心](https://admin.powerplatform.microsoft.com/)具有系统管理员和系统定制员访问权限，在 Dynamics 365 Finance 中具有系统管理员访问权限，并在 Microsoft Dynamics Lifecycle Services (LCS) 中具有创建环境的访问权限。
 
 > [!NOTE]
 > 以下设置 Finance Insights 的过程适用于 Dynamics 365 Finance 版本 10.0.21 及更高版本。

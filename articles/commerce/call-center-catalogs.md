@@ -1,6 +1,6 @@
 ---
 title: 呼叫中心目录
-description: 本主题介绍 Dynamics 365 Commerce 中目录的呼叫中心特定功能。
+description: 本文介绍 Dynamics 365 Commerce 中目录的呼叫中心特定功能。
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884048"
 ---
 # <a name="call-center-catalogs"></a>呼叫中心目录
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Dynamics 365 Commerce 中链接到目录功能的呼叫中心特定功能。
+本文介绍 Dynamics 365 Commerce 中链接到目录功能的呼叫中心特定功能。
 
 Commerce 中的目录功能具有多种用途。 最初创建目录功能是为了支持第三方电子商务集成。 通过设置目录，公司可以创建一组产品和属性，然后将其向外发布，以供第三方电子商务解决方案使用。
 

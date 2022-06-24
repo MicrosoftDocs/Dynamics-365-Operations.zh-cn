@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871911"
 ---
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 
@@ -75,7 +75,7 @@ ms.locfileid: "7984638"
 <td>约束</td>
 <td>约束描述产品配置模型的限制。 约束用于确保配置产品时仅选择了有效值。 约束可以是表达式约束，也可以是表约束：
 <ul>
-<li>表达式约束仅用于与它们相关联的组件。 组件的表达式约束可以引用组件的子组件的属性。 产品配置求解器用于求解约束，并且编写约束时您必须使用求解器语法。 有关详细信息，请参阅有关表达式约束和表约束的主题链接。</li>
+<li>表达式约束仅用于与它们相关联的组件。 组件的表达式约束可以引用组件的子组件的属性。 产品配置求解器用于求解约束，并且编写约束时您必须使用求解器语法。 有关详细信息，请参阅有关表达式约束和表约束的文章链接。</li>
 <li>必须定义表约束，然后才能将其应用到产品配置模型中的组件。 表约束可以是用户定义的，也可以是系统定义的。 用户定义的表约束是一种可用于描述属性类型所定义的一组属性值组合的矩阵。 例如，如果生产扬声器，则用户定义的表约束的矩阵可能包含针对扬声器表面处理和格栅的列。</li>
 </ul>
 <strong>示例</strong>扬声器有四种表面处理：黑色、橡木、红木和白色。 扬声器可以具有三个前格栅之一：黑色、金属或白色。 黑色表面处理对所有格栅可用，但是其他表面处理仅限于特定格栅。 下表显示在<strong>编辑表约束</strong>页上的<strong>允许的组合</strong>选项卡中显示的信息的示例。

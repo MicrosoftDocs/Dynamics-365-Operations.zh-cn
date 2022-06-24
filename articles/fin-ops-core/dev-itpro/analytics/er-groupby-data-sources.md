@@ -1,6 +1,6 @@
 ---
 title: 使用 GROUPBY 数据源对记录进行分组和聚合计算
-description: 本主题介绍如何在电子报告 (ER) 中使用 GROUPBY 类型数据源。
+description: 本文介绍如何在电子报告 (ER) 中使用 GROUPBY 类型数据源。
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861778"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>使用 GROUPBY 数据源对记录进行分组和聚合计算
 
@@ -69,7 +69,7 @@ ms.locfileid: "8462288"
 
 此示例显示系统管理员或电子报告功能顾问角色的用户如何配置具有 **GROUPBY** 数据源的 ER 模型映射，该数据源用于计算聚合函数和分组记录。 生成内部统计申报时，此模型映射用于打印控制报表。 该报表可让您查看报告的内部统计交易记录。
 
-在 Microsoft Dynamics 365 Finance 中，此示例中的过程可以在 **DEMF** 公司完成。 
+在 Microsoft Dynamics 365 Finance 中，本示例中的过程可以在 **DEMF** 公司完成。 
 
 ### <a name="prepare-sample-data"></a>准备示例数据
 

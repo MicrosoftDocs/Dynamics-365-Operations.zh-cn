@@ -1,6 +1,6 @@
 ---
 title: 电子报告高级公式编辑器
-description: 本主题描述如何使用高级公式编辑器来配置电子报告 (ER) 模型映射和格式组件中的表达式。
+description: 本文描述如何使用高级公式编辑器来配置电子报告 (ER) 模型映射和格式组件中的表达式。
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869090"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>电子报告高级公式编辑器
 
 [!include [banner](../includes/banner.md)]
 
-除了[电子报告](general-electronic-reporting.md)[公式编辑器](general-electronic-reporting-formula-designer.md)之外，您还可以使用高级电子报告公式编辑器来改善配置电子报告 (ER) 表达式的体验。 高级编辑器基于浏览器，由 [Monaco 编辑器](https://microsoft.github.io/monaco-editor)提供支持。 本主题介绍了最常用的高级编辑器功能：
+除了[电子报告](general-electronic-reporting.md)[公式编辑器](general-electronic-reporting-formula-designer.md)之外，您还可以使用高级电子报告公式编辑器来改善配置电子报告 (ER) 表达式的体验。 高级编辑器基于浏览器，由 [Monaco 编辑器](https://microsoft.github.io/monaco-editor)提供支持。 本文介绍了最常用的高级编辑器功能：
 
 - [代码自动格式化](#Autoformatting)
 - [IntelliSense](#IntelliSense)

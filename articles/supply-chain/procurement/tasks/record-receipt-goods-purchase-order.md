@@ -1,6 +1,6 @@
 ---
 title: 记录采购订单上的收货
-description: 本主题介绍如何直接在采购订单中记录收货。
+description: 本文介绍如何直接在采购订单中记录收货。
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 856a588f219879c8ac995faa8a2b17e38d78a933
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 22baf6d0f6db04b3c6ce3c09ee8cb286e9a1e590
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882451"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>记录采购订单上的收货
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付账款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从 **记录收货** 子任务着手。
+本文介绍如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付账款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从 **记录收货** 子任务着手。
 
 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>为收货准备新采购订单

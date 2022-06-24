@@ -1,6 +1,6 @@
 ---
 title: 意大利内部统计
-description: 本主题包含有关意大利内部统计报告的信息。
+description: 本文包含有关意大利内部统计报告的信息。
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874354"
 ---
 # <a name="italian-intrastat"></a>意大利内部统计
 
@@ -650,7 +650,7 @@ ms.locfileid: "7488251"
 6. 在 **统计值** 快速选项卡上，如有必要，将 **打印和导出统计数据** 选项设置为 **是**。 此设置将激活统计部分的转移。 统计部分包含有关重量、其他单位、统计值、交货条款、交货计划、运输方式和原产地的数据。
 
     > [!NOTE]
-    > 对于季度申报，内部统计报表不包括统计部分，或有关交货条款和运输方式的信息。 有关详细信息，请参阅本主题[概述](#overview)一节中的表。
+    > 对于季度申报，内部统计报表不包括统计部分，或有关交货条款和运输方式的信息。 有关详细信息，请参阅本文[概述](#overview)一节中的表。
 
 7. 在 **国家/地区属性** 选项卡上，列出与您的组织有业务往来的所有国家或地区。 对于每个国家或地区，设置以下字段：
 

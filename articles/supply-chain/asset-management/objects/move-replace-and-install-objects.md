@@ -1,6 +1,6 @@
 ---
 title: 移动，替换和安装资产
-description: 本主题介绍如何在资产管理中移动，替换和安装资产。
+description: 本文介绍如何在资产管理中移动，替换和安装资产。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872114"
 ---
 # <a name="move-replace-and-install-assets"></a>移动，替换和安装资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769627"
 
  
 
-本主题介绍如何在资产管理中移动，替换和安装资产。 可创建与不与其他资产关联的单个资产，也可以创建包含父资产（顶级资产）和相关子资产的资产结构。 在资产管理中，可通过三种方法移动和更改资产的位置。
+本文介绍如何在资产管理中移动，替换和安装资产。 可创建与不与其他资产关联的单个资产，也可以创建包含父资产（顶级资产）和相关子资产的资产结构。 在资产管理中，可通过三种方法移动和更改资产的位置。
 
 - **移动** – 将资产移动到其他资产结构或同一个资产结构中的其他位置。
 - **替换** – 暂时从资产结构删除某个资产，以便修复或补充该资产，以便以后将补充的资产添加回资产结构。 也可以将已用资产永久替换为新资产。
@@ -42,7 +42,7 @@ ms.locfileid: "6769627"
 可使用 **移动资产** 功能资产移动到其他资产结构或同一个资产结构中的其他位置。 也可以将资产移出资产结构，使其成为无结构关联的独立资产。
 
 > [!NOTE]
-> 如果正在修复或暂时替换资产，请勿使用此功能。 请改用本主题后文介绍的 **替换资产** 功能。
+> 如果正在修复或暂时替换资产，请勿使用此功能。 请改用本文后面介绍的 **替换资产** 功能。
 
 1. 选择 **资产管理** \> **常用** \> **资产** \> **所有资产** 或 **有效资产**。
 2. 在列表中选择要移动的资产。 如果该资产有子资产，也会移动这些资产。

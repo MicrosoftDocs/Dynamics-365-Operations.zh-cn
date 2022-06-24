@@ -1,6 +1,6 @@
 ---
 title: 美国政府社区云 (GCC) 中的 Dynamics 365 Finance、Supply Chain Management 和 Commerce
-description: 本主题提供有关可供合格政府和私人实体使用的 Microsoft Dynamics 365 US Government 产品的信息。
+description: 本文提供有关可供合格政府和私人实体使用的 Microsoft Dynamics 365 US Government 产品的信息。
 author: hasaid
 ms.date: 11/12/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867264"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>美国政府社区云 (GCC) 中的 Dynamics 365 Finance、Supply Chain Management 和 Commerce
 

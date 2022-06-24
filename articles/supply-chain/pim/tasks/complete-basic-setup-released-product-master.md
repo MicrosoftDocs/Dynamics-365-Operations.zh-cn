@@ -1,6 +1,6 @@
 ---
 title: 完成已发布基础产品的基本设置
-description: 本主题显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。
+description: 本文显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844843"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>完成已发布基础产品的基本设置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。
+本文显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。
 
 这是八个过程中第三个说明如何构建基于维度的配置组合的过程。 创建此程序的演示数据公司是 USMF。
 

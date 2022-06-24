@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e85756a2b7cdd3627c7a3fffa8dc97e0db13641a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884782"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>创建 POS 收银机的财务维度并配置收银机上的维度值
 
 [!include [banner](../includes/banner.md)]
 
-此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。 此程序不包括其他相关步骤，例如创建维度集和科目结构。 这些任务可在其他主题中找到。 此记录使用 USRT 演示公司。
+此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。 此程序不包括其他相关步骤，例如创建维度集和科目结构。 这些任务可在其他文章中找到。 此记录使用 USRT 演示公司。
 
 1. 转到“总帐”>“会计科目表”>“维度”>“财务维度”。
 2. 单击“新建”。

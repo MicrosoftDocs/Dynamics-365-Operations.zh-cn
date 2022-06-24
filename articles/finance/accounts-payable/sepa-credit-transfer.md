@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871440"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。
+此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本文还讨论如何设置和传输贷方转帐付款文件。
 
 ## <a name="what-is-a-credit-transfer-message"></a>贷方转帐消息是什么？
 贷方转帐消息是发起方（您公司）为了将资金从自己的帐户转移到贷方而发出的请求。 贷方转帐消息有大量国家/地区特定和银行特定的实施。 其中一些在一个国家/地区内使用，一些则成为了标准。 一个享有盛誉的全球标准为 ISO 20022 及其初始消息，如“贷方转帐”。 下图显示选定贷方转帐消息的关系和范围。 
@@ -53,7 +53,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 欧洲国家/地区的贷方转帐付款格式是使用 Microsoft Dynamics 365 Finance 中的电子申报 (ER) 和付款方式功能来实施的。 其他地区使用的一些贷方转帐格式仍在使用传统的付款框架。 在其他许多格式中，有十二种 ISO 20022 贷方转帐文件格式可用。 这些导出格式符合 SEPA ISO 20022 XML 标准。 它们用于按照 EPC 发布的 SEPA Credit Transfer Scheme Rulebook 8.2 版中的规定，为其使用国/地区和欧元付款生成非欧元付款转帐。 在您可以实施贷方转帐前，必须与您的银行联系，以获取加载电子银行文件所需的软件。 您将使用该软件将包含付款订单的 XML 文件转移到您的银行。
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>目前支持哪些贷方转帐格式？
-应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置** 的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
+应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置** 的可用文件的最新列表。 下一节“必须执行哪些设置？”提供一篇文章的链接，该文章说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
 -   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。

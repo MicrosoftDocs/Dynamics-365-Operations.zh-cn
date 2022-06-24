@@ -1,6 +1,6 @@
 ---
 title: 任务录制的安全诊断
-description: 本主题提供有关如何根据任务录制来分析和管理安全许可要求的信息。
+description: 本文提供有关如何根据任务录制来分析和管理安全许可要求的信息。
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880158"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>任务录制的安全诊断
 
@@ -26,7 +26,7 @@ ms.locfileid: "6745112"
 
 ## <a name="before-you-begin"></a>开始之前
 
-本主题提供有关如何根据任务录制来分析和管理安全许可要求的信息。 在完成本主题中的步骤之前，您必须具有要分析的业务流程的任务录制。 要录制业务流程，请参阅[任务录制器资源](../../user-interface/task-recorder.md)。 
+本文提供有关如何根据任务录制来分析和管理安全许可要求的信息。 在完成本文中的步骤之前，您必须具有要分析的业务流程的任务录制。 要录制业务流程，请参阅[任务录制器资源](../../user-interface/task-recorder.md)。 
 
 ## <a name="manage-security-for-a-task-recording"></a>管理任务录制的安全性
 

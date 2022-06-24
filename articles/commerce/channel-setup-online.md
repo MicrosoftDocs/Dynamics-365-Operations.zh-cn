@@ -1,6 +1,6 @@
 ---
 title: 设置在线渠道
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
 author: samjarawan
 ms.date: 02/04/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: fe137fe0c69a5b9613086c66366b064194b9b6c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864921"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的在线渠道。
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 除了在其零售商店中购买外，在线商店还使客户可以选择从零售商的在线商店中购买产品。
 

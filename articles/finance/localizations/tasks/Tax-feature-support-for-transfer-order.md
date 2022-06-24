@@ -1,6 +1,6 @@
 ---
 title: 转移单的税务功能支持
-description: 本主题说明使用税务计算服务提供转移单的新税务功能支持。
+description: 本文说明使用税款计算服务提供转移单的新税务功能支持。
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869972"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>转移单的税务功能支持
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供有关转移单中税务计算和过帐集成的信息。 此功能使您可以针对库存转移在转移单中设置税务计算和过帐。 根据欧盟 (EU) 增值税 (VAT) 法规，库存转移将考虑集团内部供应和集团内部购置。
+本文提供有关转移单中税款计算和过帐集成的信息。 此功能使您可以针对库存转移在转移单中设置税务计算和过帐。 根据欧盟 (EU) 增值税 (VAT) 法规，库存转移将考虑集团内部供应和集团内部购置。
 
 若要配置和使用此功能，您必须完成三个主要步骤：
 

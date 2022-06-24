@@ -1,6 +1,6 @@
 ---
 title: 载入供应商
-description: 此主题介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。
+description: 本文介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862589"
 ---
 # <a name="onboard-vendors"></a>载入供应商
 

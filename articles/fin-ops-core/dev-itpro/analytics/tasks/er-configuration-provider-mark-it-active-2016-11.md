@@ -1,6 +1,6 @@
 ---
 title: 创建配置提供程序并将其标记为有效
-description: 本主题介绍获分配“系统管理员”或者“电子报告开发人员”角色的用户如何创建配置提供程序。
+description: 本文介绍获分配“系统管理员”或者“电子报告开发人员”角色的用户如何创建配置提供程序。
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5b429badcbcc0e9829d82785a6e1f1a2504f5ec9b9ac74d249032f272dea103
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 93c2e114c97290347b71e94d87ea5339688791cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883587"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并将其标记为有效
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍获分配“系统管理员”或者“电子报表开发人员”角色的用户如何为“电子申报 (ER)”创建配置提供程序。 每个 ER 配置都将把该提供程序归类为其作者。 以样本公司 Litware，Inc. 为例，新建一个配置提供程序。这些步骤适用于所有公司，因为所有公司都共享 ER 配置提供程序。
+本文介绍获分配“系统管理员”或者“电子报告开发人员”角色的用户如何为“电子报告 (ER)”创建配置提供程序。 每个 ER 配置都将把该提供程序归类为其作者。 以样本公司 Litware，Inc. 为例，新建一个配置提供程序。这些步骤适用于所有公司，因为所有公司都共享 ER 配置提供程序。
 
 ## <a name="create-a-provider"></a>新建一个提供程序
 1. 转到 **导航窗格** 的左上角，然后选择 **组织管理**。

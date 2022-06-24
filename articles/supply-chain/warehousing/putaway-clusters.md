@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863641"
 ---
 # <a name="putaway-clusters"></a>储存群集
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103655"
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>打开或关闭群集储存功能
 
-要使用本主题中描述的功能，必须为您的系统打开 *群集储存功能* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集储存功能* 功能来打开或关闭此功能。
+要使用本文中描述的功能，必须为您的系统打开 *群集储存功能* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *群集储存功能* 功能来打开或关闭此功能。
 
 ## <a name="setup-for-the-example-scenario"></a>针对示例场景设置
 

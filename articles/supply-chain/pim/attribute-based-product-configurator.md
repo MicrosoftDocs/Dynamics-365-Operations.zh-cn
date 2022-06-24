@@ -1,6 +1,6 @@
 ---
 title: 基于约束的产品配置的基于属性的销售价
-description: 本主题描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。
+description: 本文描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857452"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>基于约束的产品配置的基于属性的销售价
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。 您可以为每个产品配置模型构建多个销售价模型。
+本文描述了如何使用基于组件和属性，而不是物理物料清单和工艺路线的销售价构建销售价模型。 您可以为每个产品配置模型构建多个销售价模型。
 
 ## <a name="set-relevant-product-information-management-parameters"></a>设置相关的产品信息管理参数
 

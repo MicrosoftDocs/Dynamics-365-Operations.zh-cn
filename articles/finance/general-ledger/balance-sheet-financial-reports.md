@@ -1,6 +1,6 @@
 ---
 title: 资产负债表财务报表
-description: 本主题介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
+description: 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 276e877db42361282ad2bf4a01dd971ec02e2af7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880721"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
+本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
 ## <a name="default-balance-sheet-reports"></a>默认资产负债表
 

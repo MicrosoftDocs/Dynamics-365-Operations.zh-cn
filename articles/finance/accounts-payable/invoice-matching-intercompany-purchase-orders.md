@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879731"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>发票匹配和内部公司采购订单
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109960"
 
 涉及内部公司交易的采购法人设置为使用应付帐款发票匹配。 如果 **应付帐款参数** 页面中的 **过帐具有差异的发票** 字段设置为 **要求审核**，将执行发票匹配验证。 在这种情况下，内部公司交易和应付帐款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。
 
-本主题中的示例为内部交易记录使用以下设置：
+本文中的示例为内部交易记录使用以下设置：
 -   Fabrikam Purchase 为采购法人。
 -   Fabrikam Sales 为销售的法人。
 -   客户 4020 存在于 Fabrikam Sales 中。

@@ -1,6 +1,6 @@
 ---
 title: 预测、工作订单和项目
-description: 此主题介绍预测和工作订单与资产管理中的项目管理与核算模块的集成。
+description: 本文介绍预测和工作订单与资产管理中的项目管理与核算模块的集成。
 author: johanhoffmann
 ms.date: 08/29/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880442"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 

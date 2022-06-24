@@ -1,6 +1,6 @@
 ---
 title: 创建固定资产
-description: 本主题介绍了如何从“固定资产”列表页面创建新的固定资产记录。
+description: 本文介绍了如何从“固定资产”列表页面创建新的固定资产记录。
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868480"
 ---
 # <a name="create-a-fixed-asset"></a>创建固定资产
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍了如何从 **固定资产** 列表页面创建新的固定资产记录。
+本文介绍了如何从 **固定资产** 列表页面创建新的固定资产记录。
 
 系统根据分配给固定资产组的编号序列分配资产编号。 如果您使用固定资产模板来通过 Microsoft Excel 加载项导入资产，或者如果您使用其他导入作业，系统将自动创建固定资产记录并递增资产编号。
 

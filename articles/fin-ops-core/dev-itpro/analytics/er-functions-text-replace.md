@@ -1,6 +1,6 @@
 ---
 title: REPLACE ER 函数
-description: 本主题提供有关 REPLACE 电子申报 (ER) 函数如何使用的信息。
+description: 本文提供有关 REPLACE 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 04/02/2020
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7bee3ed0531df64e813423f7280a62fd2afe77432ae05c1fb21264578c9e4ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c2b1ba82d61a3c163f1d657035b66ace9f15c77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878362"
 ---
 # <a name="replace-er-function"></a>REPLACE ER 函数
 

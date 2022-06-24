@@ -1,6 +1,6 @@
 ---
 title: 电子报告 (ER) 目标
-description: 本主题提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
+description: 本文提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
 author: nselin
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851068"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
 [!include [banner](../includes/banner.md)]
 
-您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 具有相应的访问权限的用户还可以在运行时修改目标设置。 本主题介绍 ER 目标管理、支持的目标类型以及安全注意事项。
+您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 具有相应的访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。
 
 ER 格式配置通常包含至少一个输出组件︰一个文件。 通常情况下，配置包含多个被分组到单个文件夹或者多个文件夹的不同类型（例如，XML、TXT、XLSX、DOCX 或 PDF）的文件输出组件。 ER 目标管理允许您预配置每个组件运行时所发生的情况。 默认情况下，当运行配置时，将显示一个对话框，供您保存或打开文件。 当您导入 ER 配置且未为其配置任何特定目标时也会发生相同的行为。 为主输出组件创建目标后，该目标将覆盖默认行为，并根据目标的设置发送文件夹或文件。
 

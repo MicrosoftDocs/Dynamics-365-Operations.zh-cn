@@ -1,6 +1,6 @@
 ---
 title: 检查配置的 ER 组件以防止运行时问题
-description: 本主题说明如何检查配置的电子申报 (ER) 组件，以防止可能发生的运行时问题。
+description: 本文说明如何检查配置的电子报告 (ER) 组件，以防止可能发生的运行时问题。
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864827"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -30,7 +30,7 @@ ms.locfileid: "8074783"
 
 默认情况下，在以下情况下，将自动对包含先前提到的 ER 组件的 ER 配置应用验证：
 
-- [导入](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER 配置的一个新[版本](general-electronic-reporting.md#component-versioning)到您的 Microsoft Dynamics 365 Finance 实例中。.
+- [导入](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER 配置的一个新[版本](general-electronic-reporting.md#component-versioning)到您的 Microsoft Dynamics 365 Finance 实例中。
 - 将可编辑 ER 配置的 [状态](general-electronic-reporting.md#component-versioning)从 **草稿** 更改为 **已完成**。
 - 通过应用新的基础版本[重定](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase)可编辑 ER 配置。
 
@@ -80,7 +80,7 @@ ER 使用以下类别为一致性检查检验分组：
 
 ## <a name="list-of-inspections"></a>检查列表
 
-下表提供 ER 提供的检查的概览。 有关这些检查的详细信息，请使用第一列中的链接转到本主题的相关部分。 这些部分介绍了 ER 提供的组件针对的组件类型，以及如何重新配置 ER 组件以帮助防止问题。
+下表提供 ER 提供的检查的概览。 有关这些检查的详细信息，请使用第一列中的链接转到本文的相关章节。 这些部分介绍了 ER 提供的组件针对的组件类型，以及如何重新配置 ER 组件以帮助防止问题。
 
 <table>
 <thead>

@@ -1,6 +1,6 @@
 ---
 title: 采购主页
-description: 此主题提供了可用于采购的帮助主题和其他资源列表。
+description: 本文提供了可用于采购的帮助文章和其他资源列表。
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885861"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供了可用于采购的帮助主题和其他资源列表。
+本文提供了可用于采购的帮助文章和其他资源列表。
 
 采购包括从确定产品和服务需求到采购产品、收货、发票和处理供应商付款的所有步骤。 采购流程可以通过定义采购策略和工作流来针对特定业务需求进行配置。 有关一般信息，请参阅“[采购概览](procurement-sourcing-overview.md)”。 下方列出了其他资源。
 

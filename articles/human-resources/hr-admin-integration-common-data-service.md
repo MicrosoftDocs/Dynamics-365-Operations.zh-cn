@@ -1,6 +1,6 @@
 ---
 title: 配置 Dataverse 集成
-description: 本主题介绍 Microsoft Dataverse 与 Dynamics 365 Human Resources 之间的集成。
+description: 本文介绍 Microsoft Dataverse 与 Dynamics 365 Human Resources 之间的集成。
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3fc3536880ac4334154638e44f2feca8cd5860d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fdc8d15138904336ce7e7b85fe286c815f0743f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869914"
 ---
 # <a name="configure-dataverse-integration"></a>配置 Dataverse 集成
 

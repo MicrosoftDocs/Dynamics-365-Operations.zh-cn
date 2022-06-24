@@ -1,6 +1,6 @@
 ---
 title: 资产和工作订单
-description: 本主题介绍资产管理中的资产和工作订单。
+description: 本文介绍资产管理中的资产和工作订单。
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869682"
 ---
 # <a name="assets-and-work-orders"></a>资产和工作订单
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718099"
 
  
 
-本主题介绍资产管理中的资产和工作订单。 资产和工作订单是资产管理的最重要部分。 *资产* 是需要持续维护和服务的机器或机器部件。 可以按分层结构创建资产，还可以将其与功能位置关联。 可以在资产结构的所有级别计划维护作业。
+本文介绍资产管理中的资产和工作订单。 资产和工作订单是资产管理的最重要部分。 *资产* 是需要持续维护和服务的机器或机器部件。 可以按分层结构创建资产，还可以将其与功能位置关联。 可以在资产结构的所有级别计划维护作业。
 
 可以为每个资产设置各种数据，如产品信息和资产规格，以及必需的维护计划。 下图显示资产数据和资产与作业类型之间的隶属关系的概览。 红色文本用于的示例显示继承关系和依赖关系。
 

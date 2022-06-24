@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860030"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070819"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-此主题提供 **数据验证核对清单工作区** 和相关配置的概览。
+本文提供 **数据验证核对清单工作区** 和相关配置的概览。
 
 **数据验证核对清单** 工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。 根据 **数据验证核对清单** 工作区的视图，您将看到数据验证项目的所有任务和状态，或仅分配给您的任务。
 

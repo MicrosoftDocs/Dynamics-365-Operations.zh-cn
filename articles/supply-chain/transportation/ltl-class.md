@@ -1,6 +1,6 @@
 ---
 title: 小于货车荷载 (LTL) 类
-description: 本主题说明什么是小于货车荷载 (LTL) 类，并介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中进行设置。
+description: 本文说明什么是小于货车荷载 (LTL) 类，并介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中进行设置。
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857190"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>小于货车荷载 (LTL) 类
 
@@ -33,7 +33,7 @@ ms.locfileid: "8678057"
 - 通过检查国际 LTL 标准，确定每个 LTL 类的包装要求。 这样，您可以确保您的产品得到良好的保护，可以安全装运。
 - 根据每种产品的 LTL 货运类，获取准确的装运估计信息。
 
-此主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建 LTL 类。
+本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中创建 LTL 类。
 
 ## <a name="create-an-ltl-class"></a>创建 LTL 类
 

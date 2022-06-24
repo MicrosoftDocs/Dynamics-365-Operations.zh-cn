@@ -1,6 +1,6 @@
 ---
 title: 无法确定税码
-description: 本主题说明如何排查税款计算服务中的“无法确定税码”错误。
+description: 本文说明如何排查税款计算服务中的“无法确定税码”错误。
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877850"
 ---
 # <a name="tax-code-cannot-be-determined"></a>无法确定税码
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了在税款计算服务中收到“无法确定税码”错误时可以采取的故障排除步骤。
+本文介绍了在税款计算服务中收到“无法确定税码”错误时可以采取的故障排除步骤。
 
 ## <a name="symptom"></a>问题
 
@@ -121,7 +121,7 @@ ms.locfileid: "8645378"
 
 ## <a name="mitigation"></a>减轻
 
-1. 浏览此主题的[疑难解答](#troubleshoot)部分中的每个步骤，并根据需要修复设置。 如果未正确确定税组和物料税组，请参阅[未找到匹配结果](tcs-troubleshooting-no-matching-result.md)。
+1. 浏览本文的[疑难解答](#troubleshoot)一节的每个步骤，并根据需要修复设置。 如果未正确确定税组和物料税组，请参阅[未找到匹配结果](tcs-troubleshooting-no-matching-result.md)。
 2. 如果税组和物料税组没有交集，请在 RCS 中创建新功能版本，并修复设置。
 
     - 转到 **税务功能** \> **税码和组** > **物料税组**。

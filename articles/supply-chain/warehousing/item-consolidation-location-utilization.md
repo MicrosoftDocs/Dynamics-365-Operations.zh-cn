@@ -1,6 +1,6 @@
 ---
 title: 物料合并 - 位置利用率
-description: 本主题提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从“物料合并”页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
+description: 本文提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从“物料合并”页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849175"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从 **物料合并** 页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
+本文提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从 **物料合并** 页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
 
 ## <a name="turn-on-the-features"></a>开启功能
 
-在使用本主题介绍的功能之前，必须在系统中将其打开。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查这些功能的状态，并在需要这些功能时将其开启。 按照列出的顺序打开以下两个功能。 （这两个功能都是针对 **仓库管理** 模块。）
+在使用本文介绍的功能之前，必须在系统中将其打开。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查这些功能的状态，并在需要这些功能时将其开启。 按照列出的顺序打开以下两个功能。 （这两个功能都是针对 **仓库管理** 模块。）
 
 1. 仓库库位状态
 2. 物料合并库位利用率
@@ -51,7 +51,7 @@ ms.locfileid: "7578600"
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>设置物料合并和位置利用
 
-本节介绍如何准备系统以使用物料合并和位置利用。 这些过程使用标准演示数据中的示例值。 如果您打算解演练主题后面提供的示例方案，请选择 **USMF** 法人（其包含标准演示数据），并创建本节中介绍的每个记录。 如果您不打算演练示例方案，可以将此处提供的值视为要使用这些功能必须完成的设置类型的示例。
+本节介绍如何准备系统以使用物料合并和位置利用。 这些过程使用标准演示数据中的示例值。 如果您打算演练本文后面提供的示例方案，请选择 **USMF** 法人（其包含标准演示数据），并创建本节中介绍的每个记录。 如果您不打算演练示例方案，可以将此处提供的值视为要使用这些功能必须完成的设置类型的示例。
 
 ### <a name="released-product"></a>已发布产品
 

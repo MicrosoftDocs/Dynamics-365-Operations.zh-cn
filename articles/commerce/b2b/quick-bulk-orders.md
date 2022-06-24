@@ -1,6 +1,6 @@
 ---
 title: 快速完成 B2B 网站下单
-description: 本主题介绍使企业到企业 (B2B) 站点用户可以快速完成批量和重复下单的 Microsoft Dynamics 365 Commerce 功能。
+description: 本文介绍使企业到企业 (B2B) 站点用户可以快速完成批量和重复下单的 Microsoft Dynamics 365 Commerce 功能。
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881353"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>快速完成 B2B 网站下单
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍使企业到企业 (B2B) 站点用户可以快速完成批量和重复下单的 Microsoft Dynamics 365 Commerce 功能。
+本文介绍使企业到企业 (B2B) 站点用户可以快速完成批量和重复下单的 Microsoft Dynamics 365 Commerce 功能。
 
 Dynamics 365 Commerce B2B 电子商务网站允许用户执行标准操作，如通过搜索和浏览发现新产品、查看产品详细信息、将商品添加到购物车以及结帐。但是，企业对消费者 (B2C) 站点的客户通常只订购少量的商品且仅订购一次，而 B2B 客户通常订购大量商品并会多次再次订购。 因为这些客户通常确切地知道他们想要购买什么商品，所以他们通常会跳过产品发现阶段，直接进行订购。 为了满足这些客户的需求，Commerce B2B 电子商务网站提供了各种功能，帮助他们快速下订单。
 
@@ -65,4 +65,4 @@ Commerce B2B 电子商务网站让站点用户可以从他们的订单历史记�
 
 ![从订单历史记录再次订购。](../media/Reorder.png)
 
-本主题仅介绍了 Commerce B2B 站点帮助用户快速查找、订购和再次订购所需产品的一些方式。 更多功能正在开发中，可以进一步简化捕获批量订单的流程。
+本文仅介绍了 Commerce B2B 站点帮助用户快速查找、订购和再次订购所需产品的一些方式。 更多功能正在开发中，可以进一步简化捕获批量订单的流程。

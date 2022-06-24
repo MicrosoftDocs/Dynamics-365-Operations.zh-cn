@@ -1,6 +1,6 @@
 ---
 title: 将 TDS 税码附加到 TDS 税组并定义用于计算 TDS 的公式
-description: 本主题说明如何设置从源扣缴税款 (TDS) 税组以及将 TDS 税码附加到 TDS 税组。 若要计算 TDS 税组的 TDS，必须定义附加到它的 TDS 税码的公式。
+description: 本文说明如何设置从源扣缴税款 (TDS) 税组以及将 TDS 税码附加到 TDS 税组。 若要计算 TDS 税组的 TDS，必须定义附加到它的 TDS 税码的公式。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853305"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>将 TDS 税码附加到 TDS 税组并定义用于计算 TDS 的公式
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置从源扣缴税款 (TDS) 税组以及将 TDS 税码附加到 TDS 税组。 若要计算 TDS 税组的 TDS，必须定义附加到它的 TDS 税码的公式。
+本文说明如何设置从源扣缴税款 (TDS) 税组以及将 TDS 税码附加到 TDS 税组。 若要计算 TDS 税组的 TDS，必须定义附加到它的 TDS 税码的公式。
 
 按照以下步骤设置 TDS 税组，将 TDS 税码附加到它，并定义用于计算 TDS 的公式。
 

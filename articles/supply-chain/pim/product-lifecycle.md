@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850632"
 ---
 # <a name="product-lifecycle-state-overview"></a>产品生命周期状态概览
 
@@ -74,7 +74,7 @@ ms.locfileid: "7983786"
 
 ## <a name="find-obsolete-products-and-products-variants"></a>查找过时的产品和产品变型
 
-您可以运行模拟分析以查找过时的已发布产品或产品变型，然后更新它们的产品生命周期状态。 要查找过时的产品，请参阅[查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)。 此主题介绍如何查找过时的已发布产品或产品变型以及如何将产品生命周期状态关联到过时的产品。 它还显示如何查看模拟结果以及评估在不通过模拟运行更新时有多少产品和产品变型将与新产品生命周期状态关联。  
+您可以运行模拟分析以查找过时的已发布产品或产品变型，然后更新它们的产品生命周期状态。 要查找过时的产品，请参阅[查找过时的产品变型并分配产品生命周期状态](tasks/obsolete-product-variants.md)。 本文介绍如何查找过时的已发布产品或产品变型以及如何将产品生命周期状态关联到过时的产品。 它还显示如何查看模拟结果以及评估在不通过模拟运行更新时有多少产品和产品变型将与新产品生命周期状态关联。  
 
 通过在模拟模式中运行分析，标识为过时的产品和产品变型显示在特定窗体中，可以轻松地查看。 分析过程将搜索交易记录和特定主数据，以识别在特定可变期间内没有需求且没有可以产生需求的主数据的产品。 在可变期间内新发布的产品可以从分析中排除。 当分析模拟返回预期结果时，用户可以运行分析并对在分析过程中识别为过时的所有产品设置新的产品生命周期状态。  
 
@@ -97,7 +97,7 @@ ms.locfileid: "7983786"
 - 没有针对该产品或产品变型的活跃或未来销售或购买协议行。
 - 产品或产品变型在与对于计划有效的产品或变型的未过期的已核准的物料清单版本关联的物料清单中不使用。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [创建新产品生命周期状态](tasks/new-product-lifecycle-state.md)
 - [创建默认产品生命周期状态](tasks/default-product-lifecycle-state.md)

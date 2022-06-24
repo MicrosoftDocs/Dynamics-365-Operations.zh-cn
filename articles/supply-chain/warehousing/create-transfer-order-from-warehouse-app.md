@@ -1,6 +1,6 @@
 ---
 title: 通过仓库应用创建转移单
-description: 本主题介绍了如何通过仓库管理移动应用创建和处理转移单
+description: 本文介绍了如何通过仓库管理移动应用创建和处理转移单
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877441"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 

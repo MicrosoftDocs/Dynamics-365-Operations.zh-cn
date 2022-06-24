@@ -1,6 +1,6 @@
 ---
 title: 延迟准确价格和折扣计算以提高性能
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 销售点 (POS) 和呼叫中心提供的延迟价格计算功能。
+description: 本文介绍 Microsoft Dynamics 365 Commerce 销售点 (POS) 和呼叫中心提供的延迟价格计算功能。
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845889"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>延迟准确价格和折扣计算以提高性能
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Commerce 销售点 (POS) 和呼叫中心提供的延迟价格计算功能。
+本文介绍 Microsoft Dynamics 365 Commerce 销售点 (POS) 和呼叫中心提供的延迟价格计算功能。
 
 Dynamics 365 Commerce 支持创建多行折扣，在合并销售订单或销售报价单的多个销售行时应用这些折扣。 这些折扣包括组合购买、阈值和数量折扣。
 

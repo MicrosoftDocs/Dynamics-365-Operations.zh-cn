@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 15b1796367338bf40b434cfab9368ed3386aed99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876493"
 ---
 # <a name="develop-and-open-job-requisition"></a>制订和开放工作申请
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
+> 本文中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
 
 
 “招聘项目”帮助您管理招聘流程。 对于每个招聘项目，您可以设置信息，例如招聘的职位、招聘人员的姓名、项目进展状态以及职位所属的部门。 在您创建招聘项目后，可以为该项目输入职位广告，或在 **员工自助服务** 页上发布广告，将就业申请表与该项目进行关联，并跟踪该项目的活动。 创建此过程时使用的是 **USMF** 演示数据格式。

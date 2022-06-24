@@ -1,6 +1,6 @@
 ---
 title: 容器模块
-description: 本主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本文介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4406b6ee998f3094e5a8a36d4f721839ffb427e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867832"
 ---
 # <a name="container-module"></a>容器模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+本文介绍容器模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 容器是在其内部承载其他模块的模块。 容器模块的主要用途是通过为其设置的属性定义它所包含的模块的布局。 例如，这些模块可以按两列、三列、四列或六列布局并排显示。 其还可限制为容器宽度，也可以充满屏幕。 还可以向每个容器模块添加标题。
 

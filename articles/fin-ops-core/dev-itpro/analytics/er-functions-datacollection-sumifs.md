@@ -1,6 +1,6 @@
 ---
 title: SUMIFS ER 函数
-description: 本主题提供有关 SUMIFS 电子申报 (ER) 函数如何使用的信息。
+description: 本文提供有关 SUMIFS 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d650509bc534eb3944e1d91d536060c8852bdc9d95ea27f75025e80d6c5f23c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 097c62f5b0f0b929e13354cd46417a194c9f2e0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858790"
 ---
 # <a name="sumifs-er-function"></a>SUMIFS ER 函数
 

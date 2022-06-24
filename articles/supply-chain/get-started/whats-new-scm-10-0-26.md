@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.26（2022 年 5 月）中的新增功能或更改
-description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.26 中的新增功能或更改的功能。
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.26 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26（2022 年 5 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.26 中的新增或更改的功能。 此版本的构建版本号为 10.0.1192，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.26 中的新增或更改的功能。 此版本的构建版本号为 10.0.1192，并以下面的形式提供：
 
 - **版本预览：** 2022 年 3 月
 - **版本正式发布（自行更新）：** 2022 年 4 月
@@ -29,7 +29,7 @@ ms.locfileid: "8625242"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-下表列出了此版本中包含的功能。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的功能。
+下表列出了此版本中包含的功能。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的功能。
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
@@ -56,11 +56,11 @@ ms.locfileid: "8625242"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 按照前几节的列举，这些主题未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
+我们最近添加或大幅更新了以下帮助文章。 按照前几节的列举，这些文章未必与此发行版中增加的新功能有关。 但是，可能可以帮助您更加受益于现有功能。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
-| 成本管理 | 以下每个主题都添加了更新的示例和图表：<ul><li>[具有实际成本和标记的先进先出](../cost-management/fifo-physical-value-marking.md)</li><li>[具有实际成本和标记的先进先出](../cost-management/lifo-physical-value-marking.md)</li><li>[具有实际成本和标记的后进先出日期](../cost-management/lifo-date-physical-value-marking.md)</li><li>[移动平均成本价](../cost-management/running-average-cost-price.md)</li><li>[具有实际成本和标记的加权平均](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| 成本管理 | 以下每篇文章都添加了更新的示例和图表：<ul><li>[具有实际成本和标记的先进先出](../cost-management/fifo-physical-value-marking.md)</li><li>[具有实际成本和标记的先进先出](../cost-management/lifo-physical-value-marking.md)</li><li>[具有实际成本和标记的后进先出日期](../cost-management/lifo-date-physical-value-marking.md)</li><li>[移动平均成本价](../cost-management/running-average-cost-price.md)</li><li>[具有实际成本和标记的加权平均](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | 采购 | [采购订单行数据差异](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>其他资源
@@ -81,12 +81,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.26 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

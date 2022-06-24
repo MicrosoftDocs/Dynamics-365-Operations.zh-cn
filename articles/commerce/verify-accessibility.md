@@ -1,6 +1,6 @@
 ---
 title: 验证页面内容的可访问性
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中验证页面内容的可访问性。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中验证页面内容的可访问性。
 author: josaw1
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caccb6085947193e4a5f8a8555722dd073f0c275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884752"
 ---
 # <a name="verify-page-content-accessibility"></a>验证页面内容的可访问性
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中验证页面内容的可访问性。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中验证页面内容的可访问性。
 
 完成页面更改后，应确保内容可供 Web 上的所有人访问。 在 Commerce 创作工具中，您可以使用集成的 [Microsoft Accessibility Insights](https://accessibilityinsights.io/) 服务轻松地验证页面内容的可访问性。 此服务可根据最新的[万维网联合会 (W3C) 可访问性](https://www.w3.org/standards/webdesign/accessibility)准则验证您的页面内容。
 

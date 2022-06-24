@@ -1,6 +1,6 @@
 ---
 title: 供应商交易记录列表页
-description: 此主题提供有关 Microsoft Dynamics 365 Finance 的“供应商交易记录列表”页的信息。
+description: 本文提供有关 Microsoft Dynamics 365 Finance 的“供应商交易记录列表”页的信息。
 author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 71f5826c21ef2d9724f9619d474f5e7f09e60e44
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 34d9fd29f6a28bdd8c62e9460093544699dfeb2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859934"
 ---
 # <a name="vendor-transactions-list-page"></a>供应商交易记录列表页
 

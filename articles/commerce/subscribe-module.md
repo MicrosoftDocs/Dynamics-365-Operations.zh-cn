@@ -1,6 +1,6 @@
 ---
 title: 订阅模块
-description: 本主题介绍订阅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍订阅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: efc9150ea5ddeb7051f82fb07c4d566ac8a48dfa
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 23b74f5853ffb7f191ea7ee3da0d3238db339d34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852685"
 ---
 # <a name="subscribe-module"></a>订阅模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍订阅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍订阅模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 订阅模块可用于站点页面以捕获有关新闻稿或促销的客户信息。
 

@@ -1,6 +1,6 @@
 ---
 title: 购买和出售休假
-description: 本主题介绍如何在 Dynamics 365 Human Resources 中提交购买和出售休假请求。
+description: 本文介绍如何在 Dynamics 365 Human Resources 中提交购买和出售休假请求。
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 695840516849dcfeb69895f6808d828d5878c59b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a6d38a69a73ce14f099beb6b6b560bf6c5686b0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875704"
 ---
 # <a name="buy-and-sell-leave"></a>购买和出售休假
 
 
 >[!Important]
->本主题中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.26 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。
+>本文中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.26 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

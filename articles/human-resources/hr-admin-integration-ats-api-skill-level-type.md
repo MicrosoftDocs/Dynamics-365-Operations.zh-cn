@@ -1,6 +1,6 @@
 ---
 title: 技能级别类型
-description: 本主题介绍 Dynamics 365 Human Resources 的技能级别类型选项集。
+description: 本文介绍 Dynamics 365 Human Resources 的技能级别类型选项集。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 772656285d99b0eff8135cfc5d24eea5d5aef02c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a97f1d4d13bd803523e5601ac6d86e148073add1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861151"
 ---
 # <a name="skill-level-type"></a>技能级别类型
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066185"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的技能级别类型选项集。
+本文介绍 Dynamics 365 Human Resources 的技能级别类型选项集。
 
 物理名称：mshr_hrmskillleveltype
 

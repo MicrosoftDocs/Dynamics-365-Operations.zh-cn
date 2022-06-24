@@ -1,6 +1,6 @@
 ---
 title: 计划越库配送
-description: 此主题介绍高级计划越库配送，在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
+description: 本文介绍高级计划越库配送，在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863670"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍高级计划越库配送。 越库配送是在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区的仓库流程。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
+本文介绍高级计划越库配送。 越库配送是在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区的仓库流程。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
 
 越库配送让工作人员可以跳过已经为出库订单标记的库存的入库储存和出库领料。 因此，如果可以，将把接触库存的次数降到最低。 此外，因为与系统的交互减少，所以可以节约仓库中所用时间和空间。
 
@@ -37,7 +37,7 @@ ms.locfileid: "7573025"
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>开启计划越库配送功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
+如果您的系统尚未包含本文中所述的功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
 
 1. *计划越库配送*
 1. *带有库位指令的越库配送模板*

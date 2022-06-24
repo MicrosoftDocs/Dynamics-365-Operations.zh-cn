@@ -1,6 +1,6 @@
 ---
 title: 设置组织层次结构
-description: 此主题描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
+description: 本文描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847672"
 ---
 # <a name="set-up-organization-hierarchies"></a>设置组织层次结构
 
 [!include [banner](includes/banner.md)]
 
-此主题描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
+本文描述如何在 Microsoft Dynamics 365 Commerce 中设置组织层次结构。
 
 在创建渠道之前，您需要确保已设置组织层次结构。
 
@@ -34,7 +34,7 @@ ms.locfileid: "6746008"
 在创建某一组织层次结构之前，必须先创建组织。 有关详细信息，请参阅[创建法人](channels-legal-entities.md)或[创建运营单位](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json)。
 
 
-有关详细信息，请参见以下主题。
+有关详细信息，请参阅以下文章。
 - [组织和组织层次结构概览](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [规划组织层次结构](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [创建组织层次结构](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

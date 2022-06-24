@@ -1,6 +1,6 @@
 ---
 title: 用于精益生产的可视排产
-description: 本主题提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
+description: 本文提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875179"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>用于精益生产的可视排产
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
+本文提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
 
-本主题提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
+本文提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。
 
 看板计划板使生产规划人员可以控制和优化看板作业的生产计划。 它使看板作业流透明，且为生产规划人员提供优化和调整 lean manufacturing 工作单元生产计划的工具。
 

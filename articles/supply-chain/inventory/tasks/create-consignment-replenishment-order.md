@@ -1,6 +1,6 @@
 ---
 title: 创建托运补货订单
-description: 此主题介绍如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。
+description: 本文介绍如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。
 author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 31a1d0a7d322b17d3d80dd9fade2b037dd148d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859364"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>创建托运补货订单
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。 还显示如何记录物料收据，以便将托运库存登记为供应商拥有的现有库存。 此过程通常由采购专员完成。 您可以使用演示数据公司 USMF 运行此指南。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
+本文介绍如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。 还显示如何记录物料收据，以便将托运库存登记为供应商拥有的现有库存。 此过程通常由采购专员完成。 您可以使用演示数据公司 USMF 运行此指南。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 
 ## <a name="create-a-consignment-replenishment-order"></a>创建托运补货订单
 1. 在导航窗格中，转到 **模块 > 采购 > 托运 > 托运补货订单**。

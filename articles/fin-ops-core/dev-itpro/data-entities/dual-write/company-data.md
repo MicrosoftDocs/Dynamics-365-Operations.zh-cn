@@ -1,6 +1,6 @@
 ---
 title: Dataverse 中的公司概念
-description: 本主题介绍 Finance and Operations 与 Dataverse 之间的公司数据集成。
+description: 本文介绍 Finance and Operations 与 Dataverse 之间的公司数据集成。
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873169"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 
@@ -49,7 +49,7 @@ Dataverse 没有同等概念。 最接近的概念是 *业务单位*，这主要
 
 上图显示，业务单位、公司和团队之间的这种 1:1 映射还只是开始。 在此示例中，在 Dataverse 中手动新建了“欧洲”业务单位，同时充当 DEMF 和 ESMF 的父级。 这个新的根业务单位未与双写入关联。 但是，可用于为“EUR 销售”团队的成员提供 DEMF 和 ESMF 中的客户数据的访问权限，方法是在关联的安全角色中将数据可用性设置为 **父级/子级 BU**。
 
-最后要介绍的是双写入如何确定应该将行分配给哪个负责团队。 此行为由 cdm\_Company 行中的 **默认负责团队** 列控制。 如果为 cdm\_Company 行启用双写入，一个插件将自动创建关联的业务单位和负责团队（如果还没有），并设置 **默认负责团队** 列。 管理员可以将此列更改为其他值。 但是，只要为该列启用了双写入，管理员就不能清除该表。
+最后一篇文章要介绍的是双写入如何确定应该将行分配给哪个负责团队。 此行为由 cdm\_Company 行中的 **默认负责团队** 列控制。 如果为 cdm\_Company 行启用双写入，一个插件将自动创建关联的业务单位和负责团队（如果还没有），并设置 **默认负责团队** 列。 管理员可以将此列更改为其他值。 但是，只要为该列启用了双写入，管理员就不能清除该表。
 
 > [!div class="mx-imgBorder"]
 ![默认负责团队列。](media/dual-write-default-owning-team.jpg)
