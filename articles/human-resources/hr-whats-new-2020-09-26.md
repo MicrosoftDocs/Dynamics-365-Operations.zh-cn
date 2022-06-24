@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 2020 年 9 月 26 日中的新增功能或更改
-description: 本主题介绍了 2020 年 9 月 26 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
+description: 本文介绍 2020 年 9 月 26 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874237"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources 2020 年 9 月 26 日中的新增功能或更改
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061376"
 
 
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
 有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)。
 
@@ -46,9 +46,9 @@ ms.locfileid: "8061376"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快向您提供此信息。 本主题可能会进行更新，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快向您提供此信息。 本文可能会进行更新，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 | 说明 |
+| 问题编号 | 问题 | Description |
 | --- | --- | --- |
 | 469495 | 更新默认财务维度网格和对话框 | 通过 Human Resources 更新财务维度网格和对话框。 |
 | 474887 | 休假请求工作项在手动决策中打开错误的链接 | 当工作流配置包含手动决策时，从 **分配给我的工作项** 导航到休假请求将打开错误的链接，显示当前用户创建的空白表单或休假请求，而不是分配给他们进行手动决策的空白表单或休假请求。 |

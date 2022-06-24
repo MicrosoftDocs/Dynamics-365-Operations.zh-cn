@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 71ce23d3ce666f129557fd42f36d17da300ec600
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 066ce619d5ff0103925a818e2a6b3cb63bbc6420
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851788"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>使用 Dynamics 365 Supply Chain Management 的实施项目经理学习目录
 
@@ -61,11 +61,11 @@ ms.locfileid: "8670347"
 | [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 Finance and Operations 应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 技术交流（录制的网络研讨会） | 58 分钟 |
 | [Finance and Operations：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 2 部分中的第 1 部分。 | 技术交流（录制的网络研讨会） | 61 分钟 |
 | [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-| [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018) | 请与我们一起加入这场有关两个相关主题的环境计划技术交流。 首先，我们将讨论适用于 Dynamics 365 for Finance and Operations Enterprise Edition 的分析和报告解决方案模式和工具。 其次，我们将讨论打印方案和文档路线选择代理。| 技术交流（录制的网络研讨会）  | 45 分钟|
+| [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018) | 请与我们一起加入这场有关两篇相关文章的环境计划技术交流。 首先，我们将讨论适用于 Dynamics 365 for Finance and Operations Enterprise Edition 的分析和报告解决方案模式和工具。 其次，我们将讨论打印方案和文档路线选择代理。| 技术交流（录制的网络研讨会）  | 45 分钟|
 | [课程 MB-300T01-A：Dynamics 365 for Finance and Operations 的核心常用功能](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心常用功能。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [课程 MB-300T02-A：Dynamics 365 for Finance and Operations 中的核心配置](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的核心配置任务。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [课程 MB-300T03-A：数据迁移和准备实行 Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | 此课程讨论 Microsoft Dynamics 365 for Finance and Operations 的数据迁移和实行准备。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些主题介绍与 Microsoft Dynamics 365 for Finance and Operations 项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
+| [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些文章介绍与 Microsoft Dynamics 365 for Finance and Operations 项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
 
 ## <a name="supply-chain-management"></a>供应链管理<a name="supply-chain-management"></a>
 
@@ -78,7 +78,7 @@ ms.locfileid: "8670347"
 | [移动仓库应用程序 (VIR816PAL)](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | 此技术交流讨论 Dynamics 365 for Operations 中的高级仓库系统，以及高级仓库移动界面的未来会怎样。 我们将查看已发布的新移动应用程序，并将其与旧 WMDP 进行比较。 我们将了解要安装、配置和运行此移动应用程序需要满足的先决条件，以及如何将其用于识别您的实施。 | 自由录制 Web 会议 | 54 分钟 |
 | [供应商协作 (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | 此技术交流提供供应商协作功能的演练，包括 7 月（春季）发行版中包含的“供应商响应使用”功能。 | 自由录制 Web 会议 | 58 分钟 |
 | [使用高级仓库管理的物料和仓库迁移流程 (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | 在此技术交流中，将介绍如何通过未结交易记录将现有仓库设置和物料迁移到高级仓库管理，方法是使用新功能更改物料的维度组和让仓库使用高级仓库管理流程。 | 自由录制 Web 会议 | 54 分钟 |
-| [供应链管理主页](/dynamics365/unified-operations/supply-chain/) | 本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 | 文档 | |
+| [供应链管理主页](/dynamics365/unified-operations/supply-chain/) | 本文提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助文章和其他资源。 | 文档 | |
 | [原材料领料的需求补货 (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | 此技术交流介绍原材料领料及其需求补货。 | 自由录制 Web 会议 | 38 分钟 |
 | [课程 MB-330T01-A：在 Dynamics 365 for Finance and Operations 中配置和使用 Supply Chain Management](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | 此课程讨论如何在 Dynamics 365 for Finance and Operations 中配置和使用 Supply Chain Management。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 2 天 |
 | [课程 MB-330T02-A：在 Dynamics 365 for Finance and Operations 中使用质量管理、内部公司交易和主计划](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | 此课程介绍如何在 Dynamics 365 for Finance and Operations 中使用质量管理、内部公司交易和主计划。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |

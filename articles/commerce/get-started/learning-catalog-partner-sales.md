@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7ea395b1514cb632b823ca62eb92c098d4e0c0ce
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fdf8cd9d27b0ea6a629339e9c09c2cfc0924957
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864882"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Dynamics 365 Commerce 的 Commerce Microsoft 合作伙伴销售和市场营销角色学习目录
 

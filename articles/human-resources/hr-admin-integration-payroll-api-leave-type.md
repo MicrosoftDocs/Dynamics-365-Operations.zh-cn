@@ -1,6 +1,6 @@
 ---
 title: 休假类型
-description: 本主题提供 Dynamics 365 Human Resources 中休假类型实体的详细信息和示例查询。
+description: 本文提供 Dynamics 365 Human Resources 中休假类型实体的详细信息和示例查询。
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dced58e6e9f6c20578e4582e4cf39162622713e7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6e7905989df92e943b86f86194c87dcb2a7b1446
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893777"
 ---
 # <a name="leave-type"></a>休假类型
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069899"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的休假类型实体。
+本文介绍 Dynamics 365 Human Resources 的休假类型实体。
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 该实体提供给定休假类型的信息。
 

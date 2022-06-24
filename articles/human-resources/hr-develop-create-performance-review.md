@@ -1,6 +1,6 @@
 ---
 title: 创建绩效审核
-description: 此主题介绍如何创建绩效审核和介绍审核各部分的目的。
+description: 本文介绍如何创建绩效审核和介绍审核各部分的目的。
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67a001926c0d5021d952f9b678ec128c68511a8f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ae2de087f4e345ba826ddbe8a65f917476bd6894
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872172"
 ---
 # <a name="create-performance-reviews"></a>创建绩效审核
 
@@ -27,7 +27,7 @@ ms.locfileid: "8696031"
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-此主题介绍如何创建绩效审核和介绍审核各部分的目的。 创建该过程的演示数据公司是 USMF。
+本文介绍如何创建绩效审核和介绍审核各部分的目的。 创建该过程的演示数据公司是 USMF。
 
 1. 在主页中，选择 **员工自助服务** 工作区。
 2. 选择 **新审核** 创建新审核。

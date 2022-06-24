@@ -1,6 +1,6 @@
 ---
 title: 子分类帐转移到总帐
-description: 本主题介绍与总帐内的子分类帐转移过程有关的功能。
+description: 本文介绍与总帐内的子分类帐转移过程有关的功能。
 author: RyanCCarlson2
 ms.date: 12/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 70a34fa1f4ee540d89ec05816e4065fb3e1df9ef
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871237"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍与用于转移子分类日记帐分录批次的规则有关的功能。
+本文介绍与用于转移子分类日记帐分录批次的规则有关的功能。
 
 在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[财务与运营的移除或弃用功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)。
 

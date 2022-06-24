@@ -1,8 +1,8 @@
 ---
 title: 在电子报告中设计多语言报告
-description: 本主题说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
+description: 本文说明如何使用电子报告 (ER) 标签来设计和生成多语言报告。
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845735"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>在电子报告中设计多语言报告
 
@@ -142,6 +142,9 @@ ER 标签可以在 ER 组件的几个可翻译属性中引用。
 
 如果引用的标签没有对格式执行上下文的语言的翻译，将改用 EN-US 语言的标签文本。
 
+> [!TIP]
+> 您可以使用可编辑 ER 格式的 **文件夹** 和不同类型的 **文件** 组件指定出站文件的生成方式。 要命名生成的文件，请为组件的 **File name** 参数配置 ER [表达式](er-formula-language.md)。 您可以在配置的表达式中使用标签。 由于默认情况下 **File name** 参数与语言无关，所以您在此表达式中引用的所有标签的文本在运行时都会以默认的 EN-US 语言公开。 但是，在 10.0.28 及更高版本中，您可以启用 **将“语言首选项”参数应用于“文件名”表达式** 功能。 然后，**文件名** 表达式在计算时将考虑 **Language preferences** 参数。
+
 ## <a name="language"></a>语言
 
 ER 支持多种为生成的报告指定语言的方式。 在 **格式** 选项卡上的 **语言首选项** 字段中，您可以选择以下值：
@@ -198,7 +201,7 @@ ER 组件的配置是在可编辑 ER 组件所在的 ER 配置的草稿版本中
 
 ![提供对“草稿”状态下的配置版本的访问的 ER 配置页面。](./media/er-multilingual-labels-configurations.png)
 
-如本主题前面所述，您可以将所需的 ER 标签添加到可编辑 ER 组件中。 这样，您可以用 EN-US 语言指定 ER 标签的文本。 然后，您可以使用内置的 ER 函数导出 ER 组件的标签。 选择包含可编辑的 ER 组件的 ER 配置的草稿版本，然后选择 **交换 \> 导出标签**。
+如本文前面所述，您可以将所需的 ER 标签添加到可编辑 ER 组件中。 这样，您可以用 EN-US 语言指定 ER 标签的文本。 然后，您可以使用内置的 ER 函数导出 ER 组件的标签。 选择包含可编辑的 ER 组件的 ER 配置的草稿版本，然后选择 **交换 \> 导出标签**。
 
 ![允许从选定的配置版本导出 ER 标签的 ER 配置页面。](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ ER 版本控制将控制向 ER 组件中的任何属性的标签分配。 对标
 
 内置的 [LISTOFFIELDS](er-functions-list-listoffields.md) ER 函数可以访问为某些 ER 组件项目配置的 ER 标签。
 
-如本主题前面所述，每个 [模型](#LinkModelEnum)或 [格式](#LinkFormatEnum) ER 枚举的值的 **标签** 和 **描述** 属性，可以链接到可在适当的 ER 组件中访问的 ER 标签。 您可以使用 ER 枚举作为参数来配置调用 **LISTOFFIELDS** 函数的 ER 表达式。 此表达式将返回一个列表，其中包含已定义为此函数的参数的 ER 枚举的每个值的记录。 每个记录均包含链接到 ER 枚举值的 ER 标签的值：
+如本文前面所述，每个 [模型](#LinkModelEnum)或 [格式](#LinkFormatEnum) ER 枚举的值的 **标签** 和 **描述** 属性，可以链接到可在适当的 ER 组件中访问的 ER 标签。 您可以使用 ER 枚举作为参数来配置调用 **LISTOFFIELDS** 函数的 ER 表达式。 此表达式将返回一个列表，其中包含已定义为此函数的参数的 ER 枚举的每个值的记录。 每个记录均包含链接到 ER 枚举值的 ER 标签的值：
 
 - 链接到 **标签** 属性的 ER 标签的值存储在返回记录的 **标签** 字段中。
 - 链接到 **描述** 属性的 ER 标签的值存储在返回记录的 **描述** 字段中。

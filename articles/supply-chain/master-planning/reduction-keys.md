@@ -1,6 +1,6 @@
 ---
 title: 预测缩减参数
-description: 本主题提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
+description: 文本提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854259"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关用于缩减预测需求的不同方法的信息。 其中包括每种方法的结果的示例。 还介绍如何创建、设置和使用预测缩减参数。 一些方法使用预测缩减参数缩减预测需求。
+本文提供有关用于减少预测需求的不同方法的信息。 其中包括每种方法的结果的示例。 还介绍如何创建、设置和使用预测缩减参数。 一些方法使用预测缩减参数缩减预测需求。
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>用于缩减预测需求的方法
 

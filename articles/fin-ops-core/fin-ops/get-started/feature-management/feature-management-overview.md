@@ -1,6 +1,6 @@
 ---
 title: 功能管理概览
-description: 本主题介绍功能管理及其用法。
+description: 本文介绍功能管理及其用法。
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850042"
 ---
 # <a name="feature-management-overview"></a>功能管理概览
 
@@ -41,7 +41,7 @@ ms.locfileid: "8068001"
 - **状态** – 一个符号指示功能已开启（选中符号），未开启（空白），为必备（锁），开启前需要注意（警告符合），或不能启用 (X)。 显示的设置用于所有法人。 请注意，功能即使已开启，仍然受安全性控制。 因此，功能仅对根据安全角色具有其访问权的用户可用。 还仅在用户可访问的法人中可用。
 - **启用日期** – 功能的开启或计划开启日期。
 - **功能添加日期** – 功能添加到您的环境时的日期。 此日期是您在月度版本周期内更新环境时自动输入的。
-- **功能状态** - 功能的当前生命周期状态：**预览**、**已发布**（显示为空白）、**默认打开** 和 **必备**。 本主题的后面将详细介绍这些状态。 
+- **功能状态** - 功能的当前生命周期状态：**预览**、**已发布**（显示为空白）、**默认打开** 和 **必备**。 本文后面将详细介绍这些状态。 
 - **模块** – 新功能影响的模块。
 
 > [!NOTE]
@@ -72,7 +72,7 @@ ms.locfileid: "8068001"
 
 ### <a name="on-by-default-features-optional"></a>默认打开的功能（可选）
 
-默认情况下打开了已更新为 **默认打开** 的功能，但可以禁用这些功能。 在可禁用的功能处于 **已发布** 状态至少六个月之后，它们将在下一个主要版本中移动到此状态。 版本的 [新增功能](../whats-new-changed.md)主题中应该会告知转换为 **默认打开** 的功能。 更新由负责的产品团队发起。
+默认情况下打开了已更新为 **默认打开** 的功能，但可以禁用这些功能。 在可禁用的功能处于 **已发布** 状态至少六个月之后，它们将在下一个主要版本中移动到此状态。 版本的 [新增功能](../whats-new-changed.md)一文中应该会告知转换为 **默认打开** 的功能。 更新由负责的产品团队发起。
 
 > [!NOTE]
 > 由于将自动启用这些功能，因此您必须确定您的组织是否已准备好接受这些功能，或者是否需要更多时间。 如果需要更多时间，则可能需要暂时禁用这些功能。 请注意，通常会先在主要版本中将功能转换为 **默认打开**，然后才会定位该功能以变为 **必备** 状态。 此时，您没有用于禁用该功能的选项。 

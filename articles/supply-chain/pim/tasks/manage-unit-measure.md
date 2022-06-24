@@ -1,6 +1,6 @@
 ---
 title: 管理度量单位
-description: 本主题介绍如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。
+description: 本文介绍如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863902"
 ---
 # <a name="manage-units-of-measure"></a>管理度量单位
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。
+本文介绍如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。
 
 ## <a name="open-the-units-page"></a>打开单位页面
 
 要创建并使用系统中提供的度量单位，请转到 **组织管理 \> 设置 \> 单位 \> 单位**。
 
-本主题的其余几节介绍您可以在 **单位** 页执行的操作。
+本文的其余几节介绍您可以在 **单位** 页执行的操作。
 
 ## <a name="create-standard-units-and-conversions"></a>创建标准单位和转换
 

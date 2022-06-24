@@ -1,6 +1,6 @@
 ---
 title: 财务报告概览
-description: 本主题介绍从哪里访问 Microsoft Dynamics 365 Finance 中的财务报告，以及如何使用财务申报功能。
+description: 本文介绍从哪里访问 Microsoft Dynamics 365 Finance 中的 Financial Reporting，以及如何使用财务报告功能。
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853400"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用财务报告 
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍从哪里访问 Financial reporting，以及如何使用财务报告功能。 其中还包括提供的默认财务报表的描述。
+本文介绍从哪里访问 Financial reporting，以及如何使用财务报告功能。 其中还包括提供的默认财务报表的描述。
 
 ## <a name="accessing-financial-reporting"></a>访问财务申报
 

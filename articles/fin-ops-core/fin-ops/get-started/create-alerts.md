@@ -1,6 +1,6 @@
 ---
 title: 创建预警规则
-description: 本主题提供有关预警的信息，并说明如何创建预警规则。
+description: 本文提供有关预警的信息，并说明如何创建预警规则。
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853608"
 ---
 # <a name="create-alert-rules"></a>创建预警规则
 
@@ -75,7 +75,7 @@ ms.locfileid: "6736190"
 
 ## <a name="alerts-as-business-events"></a>业务事件预警
 
-您可以使用业务事件框架在外部发送预警。 创建预警时，将 **组织范围** 设置为 **否**，将 **外部发送** 设置为 **是**。 设置了用于触发业务事件的预警之后，可以使用 Finance and Operations 连接器中的 **当业务事件发生时** 触发器触发 Power Automate 中内置的流，或通过 **业务事件对话框** 将事件显式发送给业务事件终结点。
+您可以使用业务事件框架在外部发送预警。 创建预警时，将 **组织范围** 设置为 **否**，将 **外部发送** 设置为 **是**。 设置了用于触发业务事件的预警之后，可以使用 Finance and Operations 连接器中的 **当业务事件发生时** 触发器触发 Power Automate 中内置的流，或通过 **业务事件目录** 将事件显式发送给业务事件终结点。
 
 ## <a name="create-an-alert-rule"></a>创建预警规则
 

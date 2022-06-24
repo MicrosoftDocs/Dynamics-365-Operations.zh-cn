@@ -1,6 +1,6 @@
 ---
-title: 成本交易实体
-description: 本主题提供有关成本交易实体的信息，通过选择分摊方法，可以在成本区域的内容中拆分成本的值。
+title: 成本交易记录实体
+description: 本文提供有关成本交易实体的信息，通过选择分摊方法，可以在成本区域的内容中拆分成本的值。
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 41a9525cb766907b7de97f1e856a3b640d7718ac
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860803"
 ---
 # <a name="cost-transaction-entities"></a>成本交易实体
 

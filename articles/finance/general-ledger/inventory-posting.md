@@ -1,6 +1,6 @@
 ---
 title: 库存过帐
-description: 本主题介绍“库存过帐模板”页上的“库存过帐”选项卡。
+description: 本文介绍“库存过帐模板”页上的“库存过帐”选项卡。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 464ffccd658003271b517038f430914fd5d8d50e
-ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
+ms.openlocfilehash: 7fd507dd171b0d49673bdd0d0900b3f02dbcb65b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8783362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891542"
 ---
 # <a name="inventory-posting"></a>库存过帐
 

@@ -1,6 +1,6 @@
 ---
 title: 批量确认资产租赁付款计划
-description: 本主题说明如何批量确认多个付款计划。
+description: 本文说明如何批量确认多个付款计划。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c19ac162c5e4c62c2440a0f16111c8cd69748e92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd75e22f6407d6bc25a78c1dfeacf70022238e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895042"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>批量确认资产租赁付款计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何批量确认多个付款计划。 付款计划可以逐个租赁进行确认，也可以通过确认批处理流程进行确认。 只能针对其付款计划已确认的租赁过帐日记帐条目。 确认付款计划是对租赁财务信息的最终批准。 对租赁财务信息的所有未来更改（例如付款和租赁期）均构成租赁调整，应以这种方式进行处理。
+本文说明如何批量确认多个付款计划。 付款计划可以逐个租赁进行确认，也可以通过确认批处理流程进行确认。 只能针对其付款计划已确认的租赁过帐日记帐条目。 确认付款计划是对租赁财务信息的最终批准。 对租赁财务信息的所有未来更改（例如付款和租赁期）均构成租赁调整，应以这种方式进行处理。
 
 要确认多个付款计划，请按照下列步骤操作。
 

@@ -1,6 +1,6 @@
 ---
 title: 准备为制造物料维护标准成本
-description: 本主题介绍准备维护制造物料成本的步骤。
+description: 本文介绍准备维护制造物料成本的步骤。
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886006"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>准备为制造物料维护标准成本
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍准备维护制造物料成本的步骤。 制造物料的步骤与采购物料的步骤稍有不同。
+本文介绍准备维护制造物料成本的步骤。 制造物料的步骤与采购物料的步骤稍有不同。
 
 分配给制造物料的策略可能会影响父级制造物料的成本计算。 若要准备维护制造物料的成本，请执行以下步骤。
 
@@ -63,7 +63,7 @@ ms.locfileid: "8679126"
 
 如果要将工艺路线信息用于成本核算目的，需要执行更多的准备步骤。 例如，分配给工艺路线工序的成本类别必须正确且完整。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [为制造物料摊销固定成本](amortize-constant-costs-manufactured-item.md)
 

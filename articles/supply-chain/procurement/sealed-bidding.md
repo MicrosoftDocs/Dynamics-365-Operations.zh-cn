@@ -1,6 +1,6 @@
 ---
 title: 询价的密封投标
-description: 本主题介绍如何设置密封投标，以在采购人员解封密封投标之前对供应商投标回复保密。
+description: 本文介绍如何设置密封投标，以在采购人员解封密封投标之前对供应商投标回复保密。
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890877"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>询价的密封投标
 
@@ -148,7 +148,7 @@ Supply Chain Management 使用加密密钥保护所有密封投标并将其保�
 密封投标的询价案例的 **投标类型** 值必须为 *密封*。 将此值分配给询价案例的方法有三种：
 
 - 创建后直接在询价案例上设置该值。
-- 将密封投标定义为采购参数中所有询价案例的默认投标类型。 （请参阅本主题中前面的[设置默认投标类型](#set-default-bid-type)部分。）
+- 将密封投标定义为采购参数中所有询价案例的默认投标类型。 （请参阅本文前面的[设置默认投标类型](#set-default-bid-type)一节。）
 - 创建新询价案例时，请选择为密封投标设置的申请类型。 （请参阅[设置默认出价类型](#set-default-bid-type)部分。）
 
 对于密封投标，询价案例的 **到期日期和时间** 值将确定可以解封已提交投标的时间。 每行上的 **到期日期和时间** 值将与标题上的值匹配。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaa6c2d02077d8ee73c1fabbcd52681fc94e24d8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d0fe1c48d4f19f344262fdd2fa9f07afd8affa68
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882422"
 ---
 # <a name="copy-service-templates-lines"></a>复制服务模板行 
 
@@ -52,7 +52,7 @@ ms.locfileid: "8674944"
 
 这些服务模板行将与附加的服务对象和服务任务关系一起复制到新的服务订单。 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [服务模板](service-template.md)
 

@@ -1,6 +1,6 @@
 ---
 title: 管理单个模型根的多个派生映射
-description: 本主题说明如何管理为单个模型根配置的多个派生映射。
+description: 本文说明如何管理为单个模型根配置的多个派生映射。
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892470"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>管理单个模型根的多个派生映射
 
@@ -32,9 +32,9 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 
 多个配置提供程序可能会为同一个 ER 数据模型提供 ER 模型映射配置。 这些模型映射配置可能包含不同根定义的映射组件。 您可以对一个[提供程序](general-electronic-reporting.md#Provider)提供的一个根定义使用一个模型映射，对另一个提供程序提供的另一个根定义使用一个模型映射。
 
-本主题中的过程说明当 ER 模型映射配置包含为同一个根定义配置的不同模型映射组件时，如何管理 ER 数据模型的多个 ER 模型映射配置。 
+本文中的过程说明当 ER 模型映射配置包含为同一个根定义配置的不同模型映射组件时，如何管理 ER 数据模型的多个 ER 模型映射配置。 
 
-要完成本主题中的过程，您必须被分配系统管理员或电子报告开发人员角色。
+要完成本文中的过程，您必须被分配系统管理员或电子报告开发人员角色。
 
 以下所有过程均可在 USMF 公司中完成。 无需进行编码。
 

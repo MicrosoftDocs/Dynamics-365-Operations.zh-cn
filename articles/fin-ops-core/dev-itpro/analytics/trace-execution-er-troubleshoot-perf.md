@@ -1,6 +1,6 @@
 ---
 title: 跟踪电子申报格式的执行以解决性能问题
-description: 此主题介绍如何使用电子申报 (ER) 中的性能跟踪功能以解决性能问题。
+description: 本文介绍如何使用电子报告 (ER) 中的性能跟踪功能以解决性能问题。
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851942"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -305,27 +305,27 @@ ms.locfileid: "6724385"
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>将修改后的 ER 模型映射配置从 RCS 导入应用程序中
 
-重复本主题前面的 [将 ER 配置从 RCS 导入 Finance and Operations](#import-configuration) 部分中的步骤导入 **性能跟踪映射** 配置版本 1.2。
+重复本文前面的 [将 ER 配置从 RCS 导入 Finance and Operations](#import-configuration) 一节中的步骤导入 **性能跟踪映射** 配置版本 1.2。
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>运行修改后的 ER 解决方案以跟踪执行情况
 
 ### <a name="run-the-er-format"></a>运行 ER 格式
 
-重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
+重复本文前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
 ## <a name="work-with-the-execution-trace"></a>使用执行跟踪
 
 ### <a name="export-the-generated-trace-from-the-application"></a>从应用程序导出生成的跟踪
 
-重复本主题前面的[从应用程序导出生成的跟踪](#export-trace)部分中的步骤在本地保存新的性能跟踪。
+重复本文前面的[从应用程序导出生成的跟踪](#export-trace)一节中的步骤在本地保存新的性能跟踪。
 
 ### <a name="import-the-generated-trace-into-rcs"></a>将生成的跟踪导入 RCS
 
-重复本主题前面的[将生成的跟踪导入 RCS](#import-trace) 部分中的步骤将新的性能跟踪导入 RCS。
+重复本文前面的[将生成的跟踪导入 RCS](#import-trace) 一节中的步骤将新的性能跟踪导入 RCS。
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>在 RCS 中使用性能跟踪进行分析 – 模型映射
 
-重复本主题前面的[在 RCS 中使用性能跟踪进行分析 – 模型映射](#use-trace)部分中的步骤分析最新性能跟踪。
+重复本文前面的[在 RCS 中使用性能跟踪进行分析 – 模型映射](#use-trace)一节中的步骤分析最新性能跟踪。
 
 请注意，您对模型映射进行的调整消除了对数据库的重复查询。 还减少了对此模型映射的数据库表和数据源的调用数量。 因此提高了整个 ER 解决方案的性能。
 
@@ -355,7 +355,7 @@ ms.locfileid: "6724385"
 
 ### <a name="run-the-er-format"></a>运行 ER 格式
 
-重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
+重复本文前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。
 
@@ -379,7 +379,7 @@ ms.locfileid: "6724385"
 
 ### <a name="run-the-er-format"></a>运行 ER 格式
 
-重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
+重复本文前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。 执行 ER 格式期间，此跟踪中现在包含 SQL 数据库访问权限的详细信息。
 

@@ -1,6 +1,6 @@
 ---
-title: 在仓库管理移动应用中使用相机扫描条码
-description: 本主题介绍如何设置仓库管理移动应用以在移动设备上使用相机扫描条码。
+title: 在 Warehouse Management 移动应用中使用摄像头扫描条形码
+description: 本文介绍如何设置仓库管理移动应用以在移动设备上使用相机扫描条码。
 author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8459ea6912328fa589b92f1731551f56df89c11b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862328"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>在仓库管理移动应用中使用相机扫描条码
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>在 Warehouse Management 移动应用中使用摄像头扫描条形码
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置仓库管理移动应用以在移动设备上使用相机扫描条码。
+本文介绍如何设置仓库管理移动应用以在移动设备上使用相机扫描条码。
 
 ## <a name="setup"></a>设置
 

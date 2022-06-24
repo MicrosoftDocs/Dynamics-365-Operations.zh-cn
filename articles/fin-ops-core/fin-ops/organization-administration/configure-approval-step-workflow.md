@@ -1,6 +1,6 @@
 ---
 title: 配置工作流中的审核步骤
-description: 本主题说明如何配置审核步骤的属性。
+description: 本文说明如何配置审核步骤的属性。
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5d7491c690cce7014f1aca0fb30ff6c3f21f45f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848684"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070769"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题说明如何配置审核步骤的属性。
+本文说明如何配置审核步骤的属性。
 
 要配置审核步骤，在“工作流”编辑器中，右键单击审核步骤，然后单击 **属性** 打开 **属性** 页面。 然后使用以下过程配置审核步骤的属性。
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f95dff3a77a552d5788d813b3d13dc30579be715
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7020c39dd599be047e07caa391d6d4c69c426328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889539"
 ---
 # <a name="default-descriptions-for-the-general-ledger"></a>总帐的默认描述
 

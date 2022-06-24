@@ -1,6 +1,6 @@
 ---
 title: 减损使用权资产
-description: 本主题描述用于记录减损和调整会计准则编纂专题 842 (ASC 842) 经营性租赁的资产折旧计划的功能。
+description: 本文描述用于记录减损和调整会计准则编纂专题 842 (ASC 842) 经营性租赁的资产折旧计划的功能。
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894104"
 ---
 # <a name="impair-right-of-use-assets"></a>减损使用权资产
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-如果使用权 (ROU) 资产的帐面金额无法收回，则可能必须测试该资产是否已减损。 如果您确定资产已减损，资产租赁可以记录减损并相应地调整折旧计划。 本主题描述用于记录减损和调整会计准则编纂专题 842 (ASC 842) 经营性租赁的折旧计划的功能。 同样的方法也适用于国际财务报告准则 16 (IFRS 16) 租赁。
+如果使用权 (ROU) 资产的帐面金额无法收回，则可能必须测试该资产是否已减损。 如果您确定资产已减损，资产租赁可以记录减损并相应地调整折旧计划。 本文描述用于记录减损和调整会计准则编纂专题 842 (ASC 842) 经营性租赁的折旧计划的功能。 同样的方法也适用于国际财务报告准则 16 (IFRS 16) 租赁。
 
 使用权资产的剩余余额将按直线法在剩余期间内摊销，无论该租赁是根据 IFRS 16 归类为金融租赁还是根据 ASC 842 归类为经营性租赁。
 
@@ -83,7 +83,7 @@ ms.locfileid: "8720158"
 
 ### <a name="steps"></a>步骤
 
-1. 按照本主题前面所述创建租赁后，转到租赁帐簿，并确认付款计划。 然后过帐初始确认日记帐条目。 初始使用权资产和租赁负债应为 70,235.81 美元。 对于此示例，根据 ASC 842，租赁被分类为经营性租赁。
+1. 按照本文前面所述创建租赁后，转到租赁帐簿，并确认付款计划。 然后过帐初始确认日记帐条目。 初始使用权资产和租赁负债应为 70,235.81 美元。 对于此示例，根据 ASC 842，租赁被分类为经营性租赁。
 2. 运行批处理日记帐流程三遍，模拟三年的租赁付款、利息费用和折旧费用过程。
 3. 运行完所有三个批处理作业后，回到租赁帐簿，然后打开负债和资产交易表以查看使用权资产和租赁负债的当前帐面价值。 三年后，负债的价值应该为大约 -53,893.00 美元，资产的价值应该大约为 53,893.00 美元。 
 

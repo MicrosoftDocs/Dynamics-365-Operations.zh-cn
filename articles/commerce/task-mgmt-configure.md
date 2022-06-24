@@ -1,6 +1,6 @@
 ---
 title: 配置任务管理
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf8584f4a0d71ef6fa867a7f07b568d94656e650
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868849"
 ---
 # <a name="configure-task-management"></a>配置任务管理
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
 
 必须先配置任务管理，Dynamics 365 Commerce 经理和员工才能使用 Commerce 中的任务管理功能。 配置步骤包括为经理和员工授予权限，将权限分发给销售点 (POS) 客户端，设置 POS 通知，以及配置 POS 应用程序主页中的 **任务** 磁贴。
 

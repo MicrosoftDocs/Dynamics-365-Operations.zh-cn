@@ -1,6 +1,6 @@
 ---
 title: 结算概览
-description: 本主题提供有关结算流程的一般信息。 它描述了可以结算的交易记录类型，以及结算交易记录的时间和流程。 它还描述了结算流程的结果。
+description: 本文提供有关结算流程的一般信息。 它描述了可以结算的交易记录类型，以及结算交易记录的时间和流程。 它还描述了结算流程的结果。
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887939"
 ---
 # <a name="settlement-overview"></a>结算概览
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724888"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-本主题提供有关结算流程的一般信息。 它描述了可以结算的交易记录类型，以及结算交易记录的时间和流程。 它还描述了结算流程的结果。
+本文提供有关结算流程的一般信息。 它描述了可以结算的交易记录类型，以及结算交易记录的时间和流程。 它还描述了结算流程的结果。
 
 在结算期间，该单据中的交易记录应用于其他单据的交易记录以增加或减少每个单据的余额。 例如，付款可以应用于发票。 不同的交易记录类型可以在不同时间、通过不同方法结算。 结算流程还可以生成新的交易记录。
 

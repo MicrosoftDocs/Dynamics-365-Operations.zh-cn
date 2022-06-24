@@ -1,6 +1,6 @@
 ---
 title: 通过使用 ER 配置访问应用程序元数据
-description: 本主题介绍 Regulatory Configuration Service 用户如何使用元数据设计新的电子申报模型映射。
+description: 本文介绍 Regulatory Configuration Service 用户如何使用元数据设计新的电子申报模型映射。
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883645"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>通过使用 ER 配置访问应用程序元数据
 
 [!include [banner](../../includes/banner.md)]
 
-以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。 可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。 为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。 然后完成[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)主题中的步骤。
+以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用应用程序元数据设计新的电子报表 (ER) 模型映射。 可访问应用程序元数据，方法是使用其中包含一组示例元数据的 ER 配置访问外贸交易。 为了完成这些步骤，您必须首先在 RCS 中完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。 然后完成[在 RCS 中准备要使用的应用程序元数据](prepare-application-metadata-rcs.md)一文中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1. 转到 **所有工作区** > **电子申报**。 

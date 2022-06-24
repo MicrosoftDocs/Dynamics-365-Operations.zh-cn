@@ -1,6 +1,6 @@
 ---
 title: Commerce 渠道的会计集成概览
-description: 此主题提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
+description: 本文提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884836"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce 渠道的会计集成概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 
+本文是 Dynamics 365 Commerce 中可用的会计整合功能的概览。 
 
 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
 

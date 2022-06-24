@@ -1,6 +1,6 @@
 ---
 title: 移动应用主页
-description: 此主题描述财务和运营 (Dynamics 365) 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
+description: 本文描述 Finance and Operations (Dynamics 365) 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868750"
 ---
 # <a name="mobile-app-home-page"></a>移动应用主页
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-此主题描述 **财务和运营 (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
+本文描述 **Finance and Operations (Dynamics 365)** 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 
 ## <a name="overview"></a>概览
 

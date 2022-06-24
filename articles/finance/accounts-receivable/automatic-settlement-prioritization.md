@@ -1,6 +1,6 @@
 ---
 title: 自动结算和优先级
-description: 本主题介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
+description: 本文介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855511"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>自动结算和优先级
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
+本文介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 
 结算发票和其他交易记录的付款时，有两个选项。 可以手动选择要结算的交易记录，或系统可通过使用自动结算功能自动选择交易记录。 您还可以通过使用 **设置结算的优先级** 选项自定义自动结算如何处理。 所有这些选项都是在 **应收帐款参数** 页上定义的结算参数的一部分。 自动结算交易记录的方式可有多不同，具体取决于用于自动结算的方法。 提供以下方法：
 

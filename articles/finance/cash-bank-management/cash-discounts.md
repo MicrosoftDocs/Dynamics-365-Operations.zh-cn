@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846946"
 ---
 # <a name="cash-discounts"></a>现金折扣
 
@@ -30,7 +30,7 @@ ms.locfileid: "8710661"
 
 ## <a name="cash-discounts"></a>现金折扣
 
-客户或供应商的现金折扣可以在“现金折扣”页中创建。 通过使用“下一折扣代码”字段，您还可以定义随以前的现金折扣到期而彼此交替的一系列现金折扣。 有关详细信息，请参见本节中后面部分的“示例：现金折扣系列”。 如果发票和/或货方交易记录（付款或货方通知单）是按法人的记帐币种以外的币种输入的，则现金折扣将使用付款或货方通知单的日期计算。 如果发票和信用卡文档登录到不同的法人中，而且如果法人的记帐币种不同、汇率将从该发票的法人处获取，就像从信用卡文档的日期的法人处获取一样。 有关详细信息，请参见本节中后面部分的“示例：现金折扣的汇率”。
+客户或供应商的现金折扣可以在“现金折扣”页中创建。 通过使用“下一折扣代码”字段，您还可以定义随以前的现金折扣到期而彼此交替的一系列现金折扣。 有关详细信息，请参见本文后面的“示例：现金折扣系列”。 如果发票和/或货方交易记录（付款或货方通知单）是按法人的记帐币种以外的币种输入的，则现金折扣将使用付款或货方通知单的日期计算。 如果发票和信用卡文档登录到不同的法人中，而且如果法人的记帐币种不同、汇率将从该发票的法人处获取，就像从信用卡文档的日期的法人处获取一样。 有关详细信息，请参见本文后面的“示例：现金折扣的汇率”。
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>现金折扣主科目的默认订单
 

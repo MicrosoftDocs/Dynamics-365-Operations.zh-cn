@@ -1,6 +1,6 @@
 ---
 title: 间接成本过帐
-description: 本主题介绍如何过帐间接成本、创建成本组以及将节点添加到间接成本的成本计算单中。
+description: 本文介绍如何过帐间接成本、创建成本组以及将节点添加到间接成本的成本计算单中。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: CostSheetDesigner, BOMCostGroup, ProjCategory, CostingVersion, C
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: d7f4753f69d83d172993e1c9b04be2220fdf253f
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: 04af10760ec50d60cbbc31c233109dffb786933c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868422"
 ---
 # <a name="indirect-cost-posting"></a>间接成本过帐
 

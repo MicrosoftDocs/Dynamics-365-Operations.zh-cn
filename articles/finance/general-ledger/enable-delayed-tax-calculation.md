@@ -1,6 +1,6 @@
 ---
 title: 为日记帐启用延迟税金计算
-description: 此主题介绍如何启用延迟税金计算功能以在有大量日记帐行时帮助提高税金计算的性能。
+description: 本文介绍如何启用延迟税金计算功能以在有大量日记帐行时帮助提高税金计算的性能。
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887910"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>为日记帐启用延迟税金计算
 [!include [banner](../includes/banner.md)]
 
 
-本主题说明如何延迟日记帐的销售税计算。 当日记帐行很多时，此功能有助于提高税金计算的性能。
+本文说明如何延迟日记帐的销售税计算。 当日记帐行很多时，此功能有助于提高税金计算的性能。
 
 默认情况下，每当更新与税相关的字段时，都会计算日记帐行上的销售税金额。 这些字段包括销售税组和物料销售税组的字段。 日记帐行的任何更新都会导致重新计算所有日记帐行的税额。 尽管此行为可以帮助用户实时查看税额，但是如果日记帐行的数量很大，也可能影响性能。
 

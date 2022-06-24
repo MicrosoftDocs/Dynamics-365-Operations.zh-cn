@@ -1,6 +1,6 @@
 ---
-title: 按交货方式自定义事务电子邮件
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
+title: 按交货模式自定义事务电子邮件
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850296"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>按交货模式自定义事务电子邮件
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
 
 现在可以自定义事务电子邮件，以将通知类型（例如，**订单已创建**、**订单已包装** 或 **订单已开票**）和交货方式（例如，隔夜、店内提货或路边提货）结合在一起。 通过自定义事务电子邮件，零售商可以为客户订单提供专为订单交货方式定制的履行体验。 例如，可以自定义“订单已包装”事件，以便为选择路边提货的客户提供路边提货说明。 或者，可以为选择装运订单的客户提供装运承运人和交货信息。
 

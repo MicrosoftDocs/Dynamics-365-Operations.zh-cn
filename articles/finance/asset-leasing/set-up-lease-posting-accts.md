@@ -1,6 +1,6 @@
 ---
 title: 设置租赁过帐科目
-description: 本主题列出了资产租赁交易所需的过帐科目，并说明了如何在“租赁过帐参数”页面上定义过帐科目。
+description: 本文列出了资产租赁交易所需的过帐科目，并说明了如何在“租赁过帐参数”页面上定义过帐科目。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859905"
 ---
 # <a name="set-up-lease-posting-accounts"></a>设置租赁过帐科目
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了资产租赁交易所需的过帐科目，并说明了如何在 **租赁过帐参数** 页面上定义过帐科目。
+本文列出了资产租赁交易所需的过帐科目，并说明了如何在 **租赁过帐参数** 页面上定义过帐科目。
 
 要遵循会计准则编纂专题 842 (ASC 842) 和国际财务报告准则 16 (IFRS 16)，可能必须在会计科目表中创建科目。 但是，您为了遵循 ASC 和 IFRS 准则创建的所有科目都不是固定资产科目。 根据 ASC 842，将同时为金融租赁和经营性租赁记录使用权 (ROU) 资产。 这些租赁与固定资产无关。 （您仍然可以使用固定资产维护使用权资产。）
 

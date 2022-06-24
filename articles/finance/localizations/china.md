@@ -1,6 +1,6 @@
 ---
 title: 中国概览
-description: 此主题概览中国的专有功能。
+description: 本文概述中国的专有功能。
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a9a3c79c134686ce65afa7e25bd4716752594f66
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bf050fb077f00d789b37d865a539c26d69bbc78d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871140"
 ---
 # <a name="china-overview"></a>中国概览
 
 [!include[banner](../includes/banner.md)]
 
-本主题中包含的信息和资源链接可帮助您设置主要地址在中国的法人。
+本文中包含的信息和资源链接可帮助您设置主要地址在中国的法人。
 
 -   [物料清单比较](apac-chn-bom-comparison.md)
 -   [会计科目表层次结构](tasks/china-hierarchy-chart-accounts.md) 

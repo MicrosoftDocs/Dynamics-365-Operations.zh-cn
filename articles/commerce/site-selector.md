@@ -1,6 +1,6 @@
 ---
 title: 站点选取器模块
-description: 本主题介绍了站点选取器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍了站点选取器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884595"
 ---
 # <a name="site-picker-module"></a>站点选取器模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了站点选取器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍了站点选取器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 当企业跨市场、地区和区域具有不同的站点时，站点用户需要通过一种简单的方法在站点之间进行切换并选择他们喜欢的购物站点。 为了适应这种情况，站点选取器模块使用户能够跨多个站点浏览。 当您的电子商务站点实施了[地理检测和重定向](geo-detection-redirection.md)时，也建议使用站点选取器，让客户可以使用[国家/地区选取器](country-region-picker-module.md)模块替代他们指定的站点首选项。 
 

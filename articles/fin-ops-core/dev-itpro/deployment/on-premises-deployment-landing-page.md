@@ -1,6 +1,6 @@
 ---
 title: 本地部署主页
-description: 本主题提供有关本地部署的信息和内容链接。
+description: 本文提供有关本地部署的信息和内容链接。
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867403"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
 [!include [banner](../includes/banner.md)]
 
-您可以部署 Dynamics 365 Finance + Operations (on-premises)。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
+您可以部署 Dynamics 365 Finance + Operations (on-premises)。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本文提供包含本地部署特定信息的内容链接。
 
 ## <a name="get-started"></a>入门
 - [本地部署概览](on-premises-overview.md)

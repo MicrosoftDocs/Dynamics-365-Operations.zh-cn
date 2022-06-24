@@ -1,6 +1,6 @@
 ---
 title: 生产流程概览
-description: 本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
+description: 本文提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852206"
 ---
 # <a name="production-process-overview"></a>生产流程概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
+本文提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
 
 产品的生产，也被称作生产生命周期的流程，遵照完成物料的制造所需的特定步骤。 生命周期从生产订单、批次订单或看板创建开始。 它以可交付给客户或其他生产阶段的制造完工物料结束。 该生命周期中的每个步骤都要求不同类型的信息，以便完成该过程。 在完成每个步骤后，生产订单、批次订单或看板将显示生产状态的变化。 不同产品类型要求不同的制造流程。
 

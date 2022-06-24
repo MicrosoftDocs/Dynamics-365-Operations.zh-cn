@@ -1,6 +1,6 @@
 ---
 title: 运行具有零故障时间的自定义 X++ 脚本
-description: 本主题介绍如何上载和运行包含自定义 X++ 脚本的可部署包，而不暂停您的系统。
+description: 本文介绍如何上载和运行包含自定义 X++ 脚本的可部署包，而不暂停您的系统。
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867320"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>运行具有零故障时间的自定义 X++ 脚本
 
@@ -122,7 +122,7 @@ class MyScriptClassForIssueXYZ
 
 1. 在财务和运营应用中，转到 **系统管理 \> 定期任务 \> 数据库 \> 自定义脚本**。
 1. 选择 **上载**。
-1. 选择您如本主题前面所述创建的可部署包。 系统将提示您指定脚本的用途。
+1. 选择您如本文前面所述创建的可部署包。 系统将提示您指定脚本的用途。
 1. 脚本现在必须由上载用户以外的用户审核。 审核者必须按照以下步骤操作：
 
     1. 转到 **系统管理 \> 定期 \> 数据库 \> 自定义脚本**。

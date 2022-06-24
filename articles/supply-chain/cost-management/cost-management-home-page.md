@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891138"
 ---
 # <a name="cost-management-home-page"></a>成本管理主页
 
@@ -53,7 +53,7 @@ ms.locfileid: "8672477"
 
 #### <a name="white-paper"></a>白皮书
 
-[使用成本计算单计算物料清单](https://www.microsoft.com/download/details.aspx?id=101937)介绍了如何设置包含物料和制造的成本计算单，以及该设置对物料清单计算结果的影响。 为了加强这些主题的说明效果，提供了具体方案和数据，用于演示各种设置和配置的效果。
+[使用成本计算单计算物料清单](https://www.microsoft.com/download/details.aspx?id=101937)介绍了如何设置包含物料和制造的成本计算单，以及该设置对物料清单计算结果的影响。 为了加强这些文章的说明效果，提供了具体方案和数据，用于演示各种设置和配置的效果。
 
 #### <a name="blogs"></a>博客
 

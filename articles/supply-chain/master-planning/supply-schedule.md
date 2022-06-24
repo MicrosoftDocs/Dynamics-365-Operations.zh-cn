@@ -1,6 +1,6 @@
 ---
 title: 供应计划
-description: 本主题提供有关供应计划页面及其功能的信息。
+description: 本文提供有关供应计划页面及其功能的信息。
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851730"
 ---
 # <a name="supply-schedule"></a>供应计划
 
@@ -28,7 +28,7 @@ ms.locfileid: "8468667"
 
 您可以通过以下任何方式打开 **供应计划** 页面：
 
-- 转到 **主计划 \> 主计划 \> 供应计划**。 在 **修改筛选器** 对话框中，通过在提供的字段中输入筛选器值指定您要查找的计划和产品。 （在本主题的其余部分，您输入的筛选器值集合称为“筛选器”或“当前筛选器”。）完成后，选择 **确定**。
+- 转到 **主计划 \> 主计划 \> 供应计划**。 在 **修改筛选器** 对话框中，通过在提供的字段中输入筛选器值指定您要查找的计划和产品。 （在本文的其余部分，您输入的筛选器值集合称为“筛选器”或“当前筛选器”。）完成后，选择 **确定**。
 - 转到 **产品信息管理 \> 产品 \> 已发布产品**。 选择或打开一个产品。 然后，在操作窗格中 **计划** 选项卡上的 **视图** 组中，选择 **供应计划**。
 - 转到 **主计划 \> 设置 \> 需求预测 \> 物料分配参数**。 选择用作产品系列的物料分配参数。 然后，在操作窗格上，选择 **供应计划**。
 - 转到 **主计划 \> 主计划 \> 计划订单**。 选择或打开计划订单。 然后，在操作窗格中 **视图** 选项卡上的 **视图** 组中，选择 **供应计划**。

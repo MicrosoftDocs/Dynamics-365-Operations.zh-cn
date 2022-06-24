@@ -1,6 +1,6 @@
 ---
 title: 合并和清除概览
-description: 本主题提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。
+description: 本文提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871382"
 ---
 # <a name="consolidation-and-elimination-overview"></a>合并和清除概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。
+本文提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。
 
 在您合并数据时，若干子公司的财务结果合并到一个合并公司。 子公司可以在不同的版本或系统中，它们可能不是完全所有，并且可能使用不同币种。 合并数据具有多个选项：
 

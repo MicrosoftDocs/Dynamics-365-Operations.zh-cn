@@ -1,6 +1,6 @@
 ---
 title: 默认类别登陆页面和搜索结果页面概览
-description: 此主题概述 Dynamics 365 Commerce 中的默认类别登陆页和搜索结果页。
+description: 本文概述 Dynamics 365 Commerce 中的默认类别登陆页和搜索结果页。
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881844"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>默认类别登陆页面和搜索结果页面概览
 
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 电子商务中的默认类别登陆页和搜索结果页。
+本文概述 Microsoft Dynamics 365 Commerce 电子商务中的默认类别登陆页和搜索结果页。
 
 ## <a name="default-category-landing-page"></a>默认类别登陆页面
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982426"
 
 ![默认类别登陆页面。](./media/SimpleCategoryLandingDressCategory.png)
 
-页面顶部是显示所有产品类别的页眉和促销经理已分类的其他页面。 配置渠道导航层次结构时进行配置。 页面底部是页脚，其中包含购物者可能感兴趣的各主题的快速链接。
+页面顶部是显示所有产品类别的页眉和促销经理已分类的其他页面。 配置渠道导航层次结构时进行配置。 页面底部是页脚，其中包含购物者可能感兴趣的各个文章的快速链接。
 
 以下组件对类别至关重要：
 

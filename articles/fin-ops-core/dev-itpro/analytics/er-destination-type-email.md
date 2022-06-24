@@ -1,6 +1,6 @@
 ---
 title: 电子邮件 ER 目标类型
-description: 本主题说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
+description: 本文说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置电子邮件目标。
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845648"
 ---
 # <a name="email-er-destination-type"></a>电子邮件 ER 目标类型
 
@@ -162,7 +162,7 @@ ms.locfileid: "8324000"
 
 [![生成传出文档的 ER 格式的结构。](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-下图显示了本主题中所述的以下流程：将各个组件分组并为新组启用 **电子邮件** 目标，以便将催款单和相应的客户发票一起作为电子邮件附件发送。
+下图显示了本文中所述的以下流程：将各个组件分组并为新组启用 **电子邮件** 目标，以便将催款单和相应的客户发票一起作为电子邮件附件发送。
 
 [![为单个组件分组并启用电子邮件目标。](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

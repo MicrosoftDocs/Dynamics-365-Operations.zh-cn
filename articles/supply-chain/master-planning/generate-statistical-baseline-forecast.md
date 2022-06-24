@@ -1,6 +1,6 @@
 ---
 title: 生成统计基准预测
-description: 此主题提供有关用于需求预测计算的参数和筛选器的信息。
+description: 本文提供有关用于需求预测计算的参数和筛选器的信息。
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844929"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关用于需求预测计算的参数和筛选器的信息。 
+本文提供有关用于需求预测计算的参数和筛选器的信息。 
 
 在您创建基准预测时，必须首先指定在计算中使用的参数和筛选器。 例如，您可以创建基于指定公司和所选物料组去年、下个月的交易数据来估计需求的基准预测。 
 

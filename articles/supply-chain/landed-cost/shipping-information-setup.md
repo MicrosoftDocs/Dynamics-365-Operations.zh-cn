@@ -1,6 +1,6 @@
 ---
 title: 装运信息设置
-description: 本主题介绍如何为登陆成本模块设置装运信息。
+description: 本文介绍如何为登陆成本模块设置装运信息。
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1ee099b923f3e2140f7f6962795fc6b6e87b913a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 62277f66a36817e83b4c0bf101aa7b6cc14ecccb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882625"
 ---
 # <a name="shipping-information-setup"></a>装运信息设置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为 **登陆成本** 模块设置装运信息。
+本文介绍如何为 **登陆成本** 模块设置装运信息。
 
 ## <a name="description-of-goods"></a><a name="description-of-goods"></a>货物描述
 

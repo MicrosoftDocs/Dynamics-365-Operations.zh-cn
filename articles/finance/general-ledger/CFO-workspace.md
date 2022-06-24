@@ -1,6 +1,6 @@
 ---
-title: 向 CFO 工作区添加财务维度
-description: 本主题说明如何向 CFO 工作区添加财务维度，以便可将其用于分类帐和预算报表。
+title: 向首席财务官工作区添加财务维度
+description: 本文说明如何向 CFO 工作区添加财务维度，以便可将其用于分类帐和预算报表。
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ea453eed826dec2e97371ec559e91b94933bdce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853371"
 ---
-# <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
+# <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向首席财务官工作区添加财务维度
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何向首席财务官 (CFO) 工作区添加财务维度，以便可将其用于分类帐和预算报表。 CFO 工作区具有 **概述** 选项卡和 **财务** 选项卡。这两个选项卡上的报表受以下两个度量支持：LedgerActivityMeasure 和 BudgetActivityMeasure。 这两个度量与 DimensionCombinationEntity 实体之间存在关系。 因此，您可以选择维度。
+本文说明如何向首席财务官 (CFO) 工作区添加财务维度，以便可将其用于分类帐和预算报表。 CFO 工作区具有 **概述** 选项卡和 **财务** 选项卡。这两个选项卡上的报表受以下两个度量支持：LedgerActivityMeasure 和 BudgetActivityMeasure。 这两个度量与 DimensionCombinationEntity 实体之间存在关系。 因此，您可以选择维度。
 
 1. 在 Finance 中的 **实体商店** 页中，更新 **LedgerActivityMeasure** 和 **BudgetActivityMeasure** 度量。
 2. 在 Microsoft Visual Studio 中，打开“应用程序资源管理器”，然后搜索 **LedgerCFO**。

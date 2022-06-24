@@ -1,6 +1,6 @@
 ---
 title: 针对标准成本的先决条件概览
-description: 本主题介绍使用标准成本的基本步骤。
+description: 本文介绍使用标准成本的基本步骤。
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895777"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>针对标准成本的先决条件概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍使用标准成本的基本步骤。 后续步骤取决于公司的运营。 例如，对于非制造环境、不使用工艺路线的制造环境和使用工艺路线的制造环境，这些步骤有所不同。 
+本文介绍使用标准成本的基本步骤。 后续步骤取决于公司的运营。 例如，对于非制造环境、不使用工艺路线的制造环境和使用工艺路线的制造环境，这些步骤有所不同。 
 
 若要设置标准成本，请执行以下步骤。
 
@@ -65,7 +65,7 @@ ms.locfileid: "8672309"
 想要将其现有物料更改为标准成本库存模型的客户必须使用 **标准成本转换** 页面。
 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [标准成本转换概览](standard-cost-conversion-overview.md)
 

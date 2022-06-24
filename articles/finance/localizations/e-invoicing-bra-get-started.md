@@ -1,6 +1,6 @@
 ---
 title: 开始使用适用于巴西的电子开票
-description: 本主题提供的信息将帮助您开始使用 Finance 和 Supply Chain Management 中适用于巴西的电子开票。
+description: 本文提供的信息将帮助您开始使用 Finance 和 Supply Chain Management 中适用于巴西的电子开票。
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846575"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>开始使用适用于巴西的电子开票 
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供的信息将帮助您开始使用适用于巴西的电子开票。 本主题将指导您完成 Regulatory Configuration Services (RCS) 中与国家/地区有关的配置步骤，并补充[开始使用电子开票](e-invoicing-get-started.md)主题中描述的步骤。
+本文提供的信息将帮助您开始使用适用于巴西的电子开票。 本文将指导您完成 Regulatory Configuration Services (RCS) 中与国家/地区有关的配置步骤，并补充[开始使用电子开票](e-invoicing-get-started.md)一文中描述的步骤。
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>巴西 NF-e (BR) 电子开票功能的国家/地区特定配置
 
 **巴西 NF-e (BR) 电子开票功能** 的一些参数使用默认值发布。 在将电子开票功能部署到服务环境之前，查看并（如有必要）更新这些值以更好地反映您的业务操作。
 
-此部分补充 [开始使用电子开票](e-invoicing-get-started.md)主题中的 **电子开票功能的国家/地区特定配置** 部分。
+本节补充 [开始使用电子开票](e-invoicing-get-started.md)一文中的 **电子开票功能的国家/地区特定配置** 一节。
 
 1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 2. 在 **电子开票功能** 页面上，验证是否选择了您创建的 **巴西 NF-e (BR)** 电子开票功能。
@@ -51,7 +53,7 @@ ms.locfileid: "7984845"
 
 在将应用程序设置部署到 Finance 或 Supply Chain Management 连接的应用程序之前，请完成这些步骤。
 
-此部分补充 [开始使用电子开票](e-invoicing-get-started.md)主题中的 **应用程序设置的国家/地区特定配置** 部分。
+本节补充 [开始使用电子开票](e-invoicing-get-started.md)一文中的 **应用程序设置的国家/地区特定配置** 一节。
 
 1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 2. 在 **电子开票功能** 页面上，验证是否选择了 **巴西 NF-e (BR)** 电子开票功能。
@@ -71,7 +73,7 @@ ms.locfileid: "7984845"
 
 **巴西 NFS-e ABRASF 库里蒂巴 (BR) 电子开票功能** 的一些参数使用默认值发布。 在将电子开票功能部署到服务环境之前，查看并（如有必要）更新这些值以更好地满足您的业务操作需求。
 
-此部分补充 [开始使用电子开票](e-invoicing-get-started.md)主题中的 **电子开票功能的国家/地区特定配置** 部分。
+本节补充 [开始使用电子开票](e-invoicing-get-started.md)一文中的 **电子开票功能的国家/地区特定配置** 一节。
 
 1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 2. 在 **电子开票功能** 页面上，验证是否选择了您创建的 **巴西 NFS-e ABRASF 库里蒂巴 (BR)** 电子开票功能。
@@ -96,7 +98,7 @@ ms.locfileid: "7984845"
 
 在将应用程序设置部署到 Finance 或 Supply Chain Management 连接的应用程序之前，请完成这些步骤。
 
-此部分补充 [开始使用电子开票](e-invoicing-get-started.md)主题中的 **应用程序设置的国家/地区特定配置** 部分。
+本节补充 [开始使用电子开票](e-invoicing-get-started.md)一文中的 **应用程序设置的国家/地区特定配置** 一节。
 
 1. 在 RCS 中的 **全球化功能** 工作区的 **功能** 部分中，选择 **电子开票** 磁贴。
 2. 在 **电子开票功能** 页面上，验证是否选择了 **巴西 NFS-e ABRASF 库里蒂巴 (BR)** 电子开票功能。

@@ -1,6 +1,6 @@
 ---
 title: 创建日历并生成工作时间
-description: 日历描述运营资源的产能和工作时间。 此主题介绍如何定义基于工作时间模板的工作日历。
+description: 日历描述运营资源的产能和工作时间。 本文介绍如何定义基于工作时间模板的工作日历。
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846320"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>创建日历并生成工作时间
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> 本主题中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
+> 本文中说明的功能当前对 Finance 基础结构上的 Human Resources 客户可用。  
 
 
-日历描述运营资源的产能和工作时间。 此主题介绍如何定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
+日历描述运营资源的产能和工作时间。 本文介绍如何定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 
 1. 在主页上，选择 **资源生命周期管理**。
 2. 选择 **日历**。

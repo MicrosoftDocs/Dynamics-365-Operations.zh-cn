@@ -1,6 +1,6 @@
 ---
-title: 在生产车间执行界面显示休假余额
-description: 本主题提供了一个示例场景，展示了如何设置 Microsoft Dynamics 365 Supply Chain Management，以便它使用工资统计数据为工作人员提供本年度休假余额的概览。
+title: 显示生产车间执行界面中的休假余额
+description: 本文提供了一个示例场景，展示了如何设置 Microsoft Dynamics 365 Supply Chain Management，以便它使用工资统计数据为工作人员提供本年度休假余额的概览。
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852264"
 ---
-# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>在生产车间执行界面显示休假余额
+# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>显示生产车间执行界面中的休假余额
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了一个示例场景，展示了如何设置 Microsoft Dynamics 365 Supply Chain Management，以便它使用工资统计数据为每个工作人员提供本年度休假余额的概览。 工作人员将能够在生产车间执行界面的 **我的一天** 对话框中查看他们的休假余额。
+本文提供了一个示例场景，展示了如何设置 Microsoft Dynamics 365 Supply Chain Management，以便它使用工资统计数据为每个工作人员提供本年度休假余额的概览。 工作人员将能够在生产车间执行界面的 **我的一天** 对话框中查看他们的休假余额。
 
 此方案使用丹麦假日法，休假年度从 9 月 1 日到 8 月 31 日。 在此方案中，您的公司雇用了一名新工作人员，并将为该员工提供 10 天的剩余假期作为当前休假年度的剩余时间。
 

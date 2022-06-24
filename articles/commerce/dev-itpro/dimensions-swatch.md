@@ -1,6 +1,6 @@
 ---
 title: 将产品维度值配置为作为样本显示
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 总部中将产品维度值配置为样本。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce headquarters 中将产品维度值配置为样本。
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892644"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>将产品维度值配置为作为样本显示
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 总部中将产品维度值配置为样本。 有关产品维度的信息，请参阅[产品维度](../../supply-chain/pim/product-dimensions.md)。
+本文介绍如何在 Microsoft Dynamics 365 Commerce headquarters 中将产品维度值配置为样本。 有关产品维度的信息，请参阅[产品维度](../../supply-chain/pim/product-dimensions.md)。
 
 Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度表示产品变型。 产品维度具有易记名称，此名称显示在产品详细信息页 (PDP) 上，让产品变型可以被选择。 这些易记名称的示例包括表示尺寸的“小”、“中”和“大”，以及表示颜色的“黑色”和“棕色”。 但是，如果产品支持很多变体，需要多次选择才能查看每个产品变型的图像。 因此，客户浏览和选择产品变型可能很慢而且繁琐。
 

@@ -1,6 +1,6 @@
 ---
 title: 通过提领看板补货
-description: 此主题介绍如何使用提领看板进行物料补货用于制造活动。
+description: 本文介绍如何使用提领看板进行物料补货用于制造活动。
 author: perlynne
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46fa6a833cf5f12a01a19b8bada0066d446e3f9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 517b2eeb3b218fe0820ffa4e1d19b20841837b92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863699"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何使用提领看板进行物料补货用于制造活动。
+本文介绍如何使用提领看板进行物料补货用于制造活动。
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>使用提领看板进行物料补货的工作流
 

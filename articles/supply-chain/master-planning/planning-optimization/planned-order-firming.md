@@ -1,6 +1,6 @@
 ---
-title: 确定计划订单
-description: 本主题说明如何确认计划订单。 确认计划订单后，它们将变为实际的采购订单、转移单或生产订单。
+title: 确认计划订单
+description: 本文说明如何确认计划订单。 确认计划订单后，它们将变为实际的采购订单、转移单或生产订单。
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857509"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -29,11 +29,11 @@ ms.locfileid: "8468459"
 - **自动确认** – 为覆盖范围组、单个物料以及物料与主计划的组合定义默认确认时限。 然后，在主计划运行期间，如果订单日期在指定的确认时限内，将自动确认计划订单。
 - **基于查询的确认** – 将查询定义为根据属性选择计划订单。 您可以设置批处理作业来定期运行查询和确认匹配的订单。
 
-本主题详细介绍每种方法。
+本文详细介绍每种方法。
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>启用本主题中所述的功能
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>启用本文中所述的功能
 
-大多数计划订单功能在使用计划优化的 Microsoft Dynamics 365 Supply Chain Management 的所有标准安装中都有提供。 但是，本主题中所述的一些功能必须先在“功能管理”中打开，然后才能够使用。
+大多数计划订单功能在使用计划优化的 Microsoft Dynamics 365 Supply Chain Management 的所有标准安装中都有提供。 但是，本文中所述的一些功能必须先在“功能管理”中打开，然后才能够使用。
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>打开或关闭并行确认计划订单
 
@@ -97,7 +97,7 @@ ms.locfileid: "8468459"
 > 如果启用了更改跟踪，已确认的派生订单（即分包采购订单）的状态将为 *正在审核*。
 
 > [!IMPORTANT]
-> 必须先在系统中打开 [*计划优化自动确认* 功能](#enable-features)，才能将本节中所述的功能与计划优化一起使用，如本主题开头所述。 自动确认始终可以与内置的主计划引擎一起使用。
+> 必须先在系统中打开 [*计划优化自动确认* 功能](#enable-features)，才能将本节中所述的功能与计划优化一起使用，如本文开头所述。 自动确认始终可以与内置的主计划引擎一起使用。
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>使用计划优化与内置计划引擎进行自动确认
 
@@ -130,7 +130,7 @@ ms.locfileid: "8468459"
 您可以将自动确认与基于查询的确认相结合。 例如，基于查询的确认作业的向前时限比匹配的自动确认覆盖范围配置的时限长。 因此，基于查询的确认作业将在自动确认触发之前处理计划订单。 您可以利用此行为，以与计划其他供应商的类似产品的订单所不同的方式，计划特定供应商的订单。
 
 > [!IMPORTANT]
-> 必须先在系统中打开 [*通过筛选确认计划订单* 功能](#enable-features)，才能使用本节中所述的功能，如本主题开头所述。
+> 必须先在系统中打开 [*通过筛选确认计划订单* 功能](#enable-features)，才能使用本节中所述的功能，如本文开头所述。
 
 要使用基于查询的确认流程确认计划订单，请按照下列步骤操作。
 

@@ -1,6 +1,6 @@
 ---
 title: 启用 Dynamics 365 Commerce 和 Microsoft Teams 集成
-description: 本主题介绍如何启用 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成。
+description: 本文介绍如何启用 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成。
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872820"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>启用 Dynamics 365 Commerce 和 Microsoft Teams 集成
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何启用 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成。
+本文介绍如何启用 Microsoft Dynamics 365 Commerce 和 Microsoft Teams 集成。
 
 若要为 Teams 预配 Dynamics 365 Commerce 中的信息并在 Teams 和销售点 (POS) 应用程序之间同步任务管理功能，您必须在 Commerce Headquarters 中启用集成功能。
 

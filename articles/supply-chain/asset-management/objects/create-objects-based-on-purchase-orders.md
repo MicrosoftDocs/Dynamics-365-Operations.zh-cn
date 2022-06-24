@@ -1,6 +1,6 @@
 ---
 title: 基于采购订单创建资产
-description: 本主题说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。
+description: 本文说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893691"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>基于采购订单创建资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754099"
 
  
 
-本主题说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。 可根据资产物料查看已经为这些物料创建的采购订单行的列表。 此功能的作用是在资产管理中基于采购订单轻松创建资产。
+本文说明如何在资产管理中创建资产物料的列表，这些资产物料可充当为维护作业创建资产的基础。 可根据资产物料查看已经为这些物料创建的采购订单行的列表。 此功能的作用是在资产管理中基于采购订单轻松创建资产。
 
 首先，在 **资产物料** 中设置要用于通过采购订单创建资产的物料。 创建采购订单行之后，在 **暂挂资产** 中创建资产。 可以决定应该在采购订单的哪个阶段创建资产。
 

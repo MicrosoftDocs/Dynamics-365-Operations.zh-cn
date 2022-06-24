@@ -1,6 +1,6 @@
 ---
 title: 发放到仓库规则
-description: 本主题介绍“发放到仓库规则”功能，该功能用于在发放到仓库期间提供灵活性。 其添加了一个配置选项，用于控制系统是否允许发放部分保留的订单行。
+description: 本文介绍“发放到仓库规则”功能，该功能用于在发放到仓库期间提供灵活性。 其添加了一个配置选项，用于控制系统是否允许发放部分保留的订单行。
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895458"
 ---
 # <a name="release-to-warehouse-rule"></a>发放到仓库规则
 
@@ -78,7 +78,7 @@ ms.locfileid: "8674608"
 此场景显示该功能对设置为 **需要完全预留** 的仓库的作用。
 
 1. 转到 **仓库管理 \> 设置 \> 仓库 \> 仓库**。
-1. 对于仓库 _62_，将 **库存预留要求** 字段设置为 **需要完全预留**，如本主题前面的[为每个仓库设置发放到仓库规则](#set-option-warehouse)部分中所述。
+1. 对于仓库 _62_，将 **库存预留要求** 字段设置为 **需要完全预留**，如本文前面的[为每个仓库设置发放到仓库规则](#set-option-warehouse)一节所述。
 1. 转到 **销售和营销 \> 销售订单 \> 所有销售订单**。
 1. 选择 **新建** 以创建新的销售订单。
 1. 在 **创建销售订单** 对话框中，设置以下值：
@@ -112,7 +112,7 @@ ms.locfileid: "8674608"
 此场景显示该功能对设置为 **允许部分发放** 的仓库的作用。
 
 1. 转到 **仓库管理 \> 设置 \> 仓库 \> 仓库**。
-1. 对于仓库 _62_，将 **库存预留要求** 字段设置为 **允许部分预留**，如本主题前面的[为每个仓库设置发放到仓库规则](#set-option-warehouse)部分中所述。
+1. 对于仓库 _62_，将 **库存预留要求** 字段设置为 **允许部分预留**，如本文前面的[为每个仓库设置发放到仓库规则](#set-option-warehouse)一节所述。
 1. 如您在 [前一个场景](#scenario1)中执行的操作，转到 **销售和市场营销 \> 销售订单 \> 所有销售订单**，然后为仓库 _62_ 中的客户帐户 _US-004_ 创建一个销售订单。 添加下面的两个订单行：
 
     - **行 1：** 将 **物料编号** 字段设置为 _A0001_，将 **数量** 字段设置为 _2_，将 **单位** 字段设置为 _件_。

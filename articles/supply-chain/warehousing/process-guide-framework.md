@@ -1,6 +1,6 @@
 ---
 title: 流程指南框架
-description: 本主题为正在 X++ 中扩展我们的仓库移动流程的开发人员提供有关流程指南框架的信息。
+description: 本文为正在 X++ 中扩展我们的仓库移动流程的开发人员提供有关流程指南框架的信息。
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860426"
 ---
 # <a name="process-guide-framework"></a>流程指南框架
 
 [!include [banner](../includes/banner.md)]
 
-本主题为正在 X++ 中扩展仓库移动流程的开发人员提供有关流程指南框架的信息。 由于流程被分解为小步骤，因此可扩展仓库移动流程。 每个步骤的业务逻辑和用户界面构建已被提取到各个类，这带来了可扩展性。
+本文为正在 X++ 中扩展仓库移动流程的开发人员提供有关流程指南框架的信息。 由于流程被分解为小步骤，因此可扩展仓库移动流程。 每个步骤的业务逻辑和用户界面构建已被提取到各个类，这带来了可扩展性。
 
 ## <a name="overview-of-the-existing-design"></a>现有设计概述
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> 您可以使用应用程序资源管理器在本主题中找到 X++ 方法的相同源代码。 筛选类名称，然后右键单击类名称，选择 **查看代码**。
+> 您可以使用应用程序资源管理器在本文中找到 X++ 方法的相同源代码。 筛选类名称，然后右键单击类名称，选择 **查看代码**。
 
 ### <a name="step-3-start-the-production-order"></a>步骤 3：开始生产订单
 
@@ -419,9 +419,9 @@ _page.addButton(step.createAction(#ActionOK), true);
 
 这样做时，它会要求步骤为传递的名称创建一个操作类，并将该操作与按钮联系。
 
-### <a name="summary"></a>汇总
+### <a name="summary"></a>摘要
 
-要总结本主题说明的所有内容，以下是整个流程所需代码的综合摘要：
+要总结本文说明的所有内容，以下是整个流程所需代码的综合摘要：
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ _page.addButton(step.createAction(#ActionOK), true);
         ```
 
         > [!NOTE]
-        > 用于生成物料信息标签的 **generateItemInfoForProdId()** 方法不在本主题中。 此方法查询几个表来获取物料 ID、描述和维度。 如果您想要更好地了解 **generateItemInfoForProdId()**，请了解一下源代码。
+        > 用于生成物料信息标签的 **generateItemInfoForProdId()** 方法不在本文中。 此方法查询几个表来获取物料 ID、描述和维度。 如果您想要更好地了解 **generateItemInfoForProdId()**，请了解一下源代码。
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ _page.addButton(step.createAction(#ActionOK), true);
 
 ### <a name="extending-a-business-process"></a>扩展业务流程
 
-到目前为止，本主题重点介绍了如何使用 **ProcessGuide** 框架构建新流程。 在最后一节中，您将找到一些有关如何扩展此业务流程的示例。
+到目前为止，本文重点介绍了如何使用 **ProcessGuide** 框架构建新流程。 在最后一节中，您将找到一些有关如何扩展此业务流程的示例。
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>在流中添加步骤（使用 ProcessGuideNavigationAgentDefault）
 

@@ -1,6 +1,6 @@
 ---
 title: 资产故障成本控制
-description: 本主题介绍资产管理中的资产故障成本控制。
+description: 本文介绍资产管理中的资产故障成本控制。
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c36fc791fac6cce0433935adb88eb8cdc23003368204a87efc12cf5a419ec9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 553b89a43b656669b7730b19898f3a5d81a3873a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889655"
 ---
 # <a name="asset-fault-cost-control"></a>资产故障成本控制
 
@@ -58,7 +58,7 @@ ms.locfileid: "6752025"
 
     ![图 1.](media/05-controlling-and-reporting.png)
 
-有关如何设置故障的信息，请参阅[故障管理](../setup-for-work-orders/fault-management.md)主题。
+有关如何设置故障的信息，请参阅[故障管理](../setup-for-work-orders/fault-management.md)一文。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

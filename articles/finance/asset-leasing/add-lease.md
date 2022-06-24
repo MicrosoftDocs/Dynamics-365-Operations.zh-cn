@@ -1,6 +1,6 @@
 ---
 title: 添加或复制租赁（预览）
-description: 本主题描述如何通过在资产租赁中输入新信息或从现有租赁中复制信息来创建新租赁。
+description: 本文描述如何通过在资产租赁中输入新信息或从现有租赁中复制信息来创建新租赁。
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880923"
 ---
 # <a name="add-or-copy-leases-preview"></a>添加或复制租赁（预览）
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在资产租赁中从头开始创建租赁，以及如何通过复制现有租赁来创建租赁。 从头开始创建租赁的过程涉及输入新租赁的信息，然后创建租赁计划。 至少设置了一个租赁之后，您可能会发现从现有租赁复制信息，然后根据需要编辑该信息创建一个新的租赁，这样更容易。
+本文说明如何在资产租赁中从头开始创建租赁，以及如何通过复制现有租赁来创建租赁。 从头开始创建租赁的过程涉及输入新租赁的信息，然后创建租赁计划。 至少设置了一个租赁之后，您可能会发现从现有租赁复制信息，然后根据需要编辑该信息创建一个新的租赁，这样更容易。
 
 ## <a name="create-a-lease"></a>创建租赁
 

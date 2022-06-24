@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870802"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 
 [!include [banner](../../includes/banner.md)]
 
-在资产管理中，必须设置与资产、工作订单和工作订单计划编制有关的常用参数。 本主题说明如何设置这些参数。 选择 **资产管理** > **设置** > **资产管理参数** 打开页面。
+在资产管理中，必须设置与资产、工作订单和工作订单计划编制有关的常用参数。 本文说明如何设置这些参数。 选择 **资产管理** > **设置** > **资产管理参数** 打开页面。
 
 > [!NOTE]
 > 如果要设置其中包含用于测试资产管理功能的演示数据的系统，请参阅[部署演示环境](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)以获取说明。

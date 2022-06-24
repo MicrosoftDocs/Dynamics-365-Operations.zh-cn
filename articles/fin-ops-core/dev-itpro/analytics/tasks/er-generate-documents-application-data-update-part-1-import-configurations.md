@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884132"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>导入配置以生成包含应用程序数据的单据
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727477"
 
 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 
-此过程中的步骤介绍如何设计电子申报 (ER) 配置以生成电子单据。 在此过程中，将导入已为示例公司 Litware 公司创建的所需 ER 配置，并用于生成电子单据。 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 可使用 DEMF 数据集完成这些步骤。 首先，下载并保存帮助主题“使用 ER 工具生成电子单据和更新应用程序数据”(generate-electronic-documents-update-application-data/) 中列出的文件。 这些文件是内部统计（模型）.xml、内部统计（映射）.xml 和内部统计（格式）.xml。
+此过程中的步骤介绍如何设计电子申报 (ER) 配置以生成电子单据。 在此过程中，将导入已为示例公司 Litware 公司创建的所需 ER 配置，并用于生成电子单据。 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 可使用 DEMF 数据集完成这些步骤。 首先，下载并保存帮助文章“使用 ER 工具生成电子单据和更新应用程序数据”(generate-electronic-documents-update-application-data/) 中列出的文件。 这些文件是内部统计（模型）.xml、内部统计（映射）.xml 和内部统计（格式）.xml。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
     * 确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。 如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。  

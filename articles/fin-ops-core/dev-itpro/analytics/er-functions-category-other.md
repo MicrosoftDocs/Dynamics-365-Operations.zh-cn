@@ -1,6 +1,6 @@
 ---
 title: 业务域特定类别的 ER 函数列表
-description: 本主题提供有关电子申报 (ER) 支持的业务域特定函数的信息。
+description: 本文提供有关电子报告 (ER) 支持的业务域特定函数的信息。
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9df826dcc0b672977d4d8af1feb985ab9a0ab7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879940"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>业务域特定类别的 ER 函数列表
 
 [!include [banner](../includes/banner.md)]
 
-电子申报 (ER) 域特定函数可用于执行特定于 Microsoft Dynamics 365 Finance 实现的计算和数据访问请求。 本主题提供这些函数的概要。
+电子报告 (ER) 域特定函数可用于执行特定于 Microsoft Dynamics 365 Finance 实现的计算和数据访问请求。 本文提供这些函数的概要。
 
 ## <a name="list-of-supported-functions"></a>支持的函数列表
 

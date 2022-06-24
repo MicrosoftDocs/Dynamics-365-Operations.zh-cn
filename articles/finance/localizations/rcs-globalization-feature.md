@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Services (RCS) - 全球化功能
-description: 此主题介绍如何使用 Microsoft Regulatory Configuration Services (RCS) 和全局知识库创建和使用全球化功能。
+description: 本文介绍如何使用 Microsoft Regulatory Configuration Services (RCS) 和全局知识库创建和使用全球化功能。
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888885"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - 全球化功能
 
@@ -40,7 +40,7 @@ ms.locfileid: "6760623"
 - 访问 RCS 实例。
 - 创建和激活配置提供程序。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)。
 
-在您的 Finance and Operations 应用实例中，按照以下步骤操作。
+在您的财务和运营应用实例中，执行以下步骤。
 
 1. 转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 如果没有为公司预配 RCS 环境，请选择 **Regulatory services – 配置**，然后按照说明预配一个。
@@ -64,7 +64,7 @@ ms.locfileid: "6760623"
 
 ## <a name="access-globalization-features"></a>访问全球化功能
 
-1. 如本主题前面所述，确保在“功能管理”中启用了 **全球化功能** 功能。
+1. 如本文前面所述，确保在“功能管理”中启用了 **全球化功能** 功能。
 2. 打开新的 **全球化功能** 工作区，然后在 **功能** 下，选择 **电子开票** 磁贴。
 
     ![全局功能工作区。](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ ms.locfileid: "6760623"
 - **查看** – 查看不需要任何更新的基础功能配置。
 - **编辑** – 创建所选配置的草稿版本，以便您可以在格式设计器中编辑格式或格式映射。
 - **删除** – 从功能中删除所选配置。
-- **重定基本版本** – 重新设定功能的基本版本。 有关详细信息，请参阅本主题后面的[重新设定派生的全球化功能的基本版本](#rebase)一节。
+- **重定基本版本** – 重新设定功能的基本版本。 有关详细信息，请参阅本文后面的[重新设定派生的全球化功能的基本版本](#rebase)一节。
 
 ### <a name="setups"></a>设置
 
@@ -182,7 +182,7 @@ ms.locfileid: "6760623"
 
 以下操作可用于环境：
 
-- **启用** – 为所选的功能版本，选择已发布的环境，并选择它应该可用的 **生效开始** 日期。 有关详细信息，请参阅本主题后面的[为启用配置环境](#configureenvironment)一节。
+- **启用** – 为所选的功能版本，选择已发布的环境，并选择它应该可用的 **生效开始** 日期。 有关详细信息，请参阅本文后面的[为启用配置环境](#configureenvironment)一节。
 - **取消** – 删除用于功能设置的环境。
 
 ### <a name="organizations"></a>组织

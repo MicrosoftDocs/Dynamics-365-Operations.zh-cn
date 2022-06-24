@@ -1,6 +1,6 @@
 ---
 title: 不符合项的操作
-description: 本主题介绍如何创建和使用不符合项的操作。
+description: 本文介绍如何创建和使用不符合项的操作。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847982"
 ---
 # <a name="operations-for-nonconformances"></a>不符合项的操作
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建和使用不符合项的操作。
+本文介绍如何创建和使用不符合项的操作。
 
 您可以使用 **操作** 页定义可以对已审核的未达标执行的工作的分类。 向不符合项分配相关操作时，可以提供详细信息，如执行操作所需的关联物料、工时和费用。 系统将使用此信息计算操作的估计成本。 这些详细信息和预估成本用于参考。 针对质量的相关工序不同于可以为生产工艺路线定义的工序。
 

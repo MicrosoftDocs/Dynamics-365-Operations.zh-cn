@@ -1,6 +1,6 @@
 ---
-title: 资产属性概述
-description: 本主题概述资产管理中的资产属性。
+title: 资产属性概览
+description: 本文概述资产管理中的资产属性。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d1585f200e4baba519085685a41979c70a64fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862734"
 ---
-# <a name="asset-attribute-overview"></a>资产属性概述
+# <a name="asset-attribute-overview"></a>资产属性概览
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-本主题概述资产管理中的资产属性。 资产属性是与资产类型或资产有关的属性。 如果已设置了[属性类型](../setup-for-functional-locations/specification-types.md)并用于资产，则可获取为资产设置的属性值的概览。 此概览在资产管理中的两个页面上显示：**资产属性概览** 和 **资产属性**。
+本文概述资产管理中的资产属性。 资产属性是与资产类型或资产有关的属性。 如果已设置了[属性类型](../setup-for-functional-locations/specification-types.md)并用于资产，则可获取为资产设置的属性值的概览。 此概览在资产管理中的两个页面上显示：**资产属性概览** 和 **资产属性**。
 
 **资产属性概览** 页为每个资产单独显示一行。 该行显示与该资产有关的所有属性类型。 执行以下步骤打开并使用 **资产属性概览** 页。
 

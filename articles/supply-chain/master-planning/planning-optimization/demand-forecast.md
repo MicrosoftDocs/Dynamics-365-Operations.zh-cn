@@ -1,6 +1,6 @@
 ---
 title: 具有需求预测的主计划
-description: 本主题介绍如何使用计划优化在主计划期间包括需求预测。
+description: 本文介绍如何使用计划优化在主计划期间包括需求预测。
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878981"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>具有需求预测的主计划
 
@@ -42,7 +42,7 @@ ms.locfileid: "8468431"
 
     - **预测模型** – 选择要应用的预测模型。 当为当前主计划生成供应建议时，将考虑该模型。
     - **包括需求预测** – 将此选项设置为 *是* 以在当前主计划中包括需求预测。 如果设置为 *否*，需求预测交易将不包含在主计划中。
-    - **用于减少预测需求的方法** – 选择应用于减少预测需求的方法。 有关详细信息，请参阅本主题后面的[预测缩减参数](#reduction-keys)部分。
+    - **用于减少预测需求的方法** – 选择应用于减少预测需求的方法。 有关详细信息，请参阅本文后面的[预测缩减参数](#reduction-keys)一节。
 
 1. 在 **时限（天）** 快速选项卡上，您可以设置以下字段来指定包括需求预测的期间：
 
@@ -61,7 +61,7 @@ ms.locfileid: "8468431"
 1. 在 **其他** 快速选项卡上，设置以下字段：
 
     - **预测计划时限** – 输入应该应用需求预测的天数（从今天开始）。 可以使用主计划上的 **预测计划** 选项替代此值，如上一部分所述。
-    - **缩减参数** – 选择要应用的缩减参数。 有关详细信息，请参阅本主题后面的[创建和设置预测缩减参数](#create-reduction-key)和[使用缩减参数](#use-reduction-key)部分。
+    - **缩减参数** – 选择要应用的缩减参数。 有关详细信息，请参阅本文后面的[创建和设置预测缩减参数](#create-reduction-key)和[使用缩减参数](#use-reduction-key)章节。
     - **预测减少依据** – 对于 **用于减少预测需求的方法** 字段设置为 *交易 - 缩减参数* 或 *交易 - 动态期间* 的主计划，指定哪些交易应减少预测。 选择以下值之一：
 
         - **所有交易** – 所有交易都应减少预测。

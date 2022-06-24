@@ -1,6 +1,6 @@
 ---
 title: 数据市场重置常见问题解答
-description: 本主题提供有关数据市场重置的一些常见问题的解答。
+description: 本文提供有关数据市场重置的一些常见问题的解答。
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892383"
 ---
 # <a name="data-mart-resets-faq"></a>数据市场重置常见问题解答
 
-本主题提供有关数据市场重置的一些常见问题的解答。 数据市场的重置可能是一个耗时的流程，并且可能不是所需的解决方案，视具体情况而定。 因此，本主题包括有关数据市场重置可能有帮助的情况以及不太可能有帮助的情况的信息。
+本文提供有关数据市场重置的一些常见问题的解答。 数据市场的重置可能是一个耗时的流程，并且可能不是所需的解决方案，视具体情况而定。 因此，本文包括有关数据市场重置可能有帮助的情况以及不太可能有帮助的情况的信息。
 
 ## <a name="what-is-a-data-mart-reset"></a>什么是数据市场重置？
 

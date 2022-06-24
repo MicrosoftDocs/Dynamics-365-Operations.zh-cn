@@ -1,6 +1,6 @@
 ---
 title: 在 Commerce 环境中配置多个 B2C 租户
-description: 本主题介绍何时和如何在专用的 Dynamics 365 Commerce 环境中设置多个按渠道 Microsoft Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以进行用户身份验证。
+description: 本文介绍何时和如何在专用的 Dynamics 365 Commerce 环境中设置多个按渠道 Microsoft Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以进行用户身份验证。
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890561"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>在 Commerce 环境中配置多个 B2C 租户
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍何时和如何在专用的 Dynamics 365 Commerce 环境中按渠道设置多个 Microsoft Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以进行用户身份验证。
+本文介绍何时和如何在专用的 Dynamics 365 Commerce 环境中按渠道设置多个 Microsoft Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户以进行用户身份验证。
 
 Dynamics 365 Commerce 使用 Azure AD B2C 云标识服务为用户凭据和身份验证流提供支持。 用户可以使用身份验证流注册，登录和重置密码。 Azure AD B2C 中存储用户的敏感身份验证信息，如用户名和密码。 用户记录对每个 B2C 租户都是唯一的，其使用用户名（电子邮件地址）凭据或社交标识提供程序凭据。
 

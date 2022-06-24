@@ -1,6 +1,6 @@
 ---
 title: 设置登记已接收物料的移动设备菜单项
-description: 此主题重点介绍设置移动设备菜单项。
+description: 本文重点介绍设置移动设备菜单项。
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882306"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>设置登记已接收物料的移动设备菜单项
 
 [!include [banner](../../includes/banner.md)]
 
-此主题重点介绍设置移动设备菜单项。 此菜单项用于通过采购订单采购的物料的登记和接收。 
+本文重点介绍设置移动设备菜单项。 此菜单项用于通过采购订单采购的物料的登记和接收。 
 
 您可以使用演示数据公司 USMF 运行此指南。 该过程专门面向仓库经理。
 

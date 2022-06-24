@@ -1,6 +1,6 @@
 ---
 title: 装运合并策略被覆盖时合并装运
-description: 此主题提供了以下方案：必须从“发放到仓库”页将一个或多个销售行手动发放到仓库，并且发布前必须已覆盖系统定义的装运合并策略。
+description: 本文提供了以下方案：必须从“发放到仓库”页将一个或多个销售行手动发放到仓库，并且发布前必须已覆盖系统定义的装运合并策略。
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878691"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>装运合并策略被覆盖时合并装运
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供了以下方案：必须从 **发放到仓库** 页将一个或多个销售行手动发放到仓库，并且发布前必须已覆盖系统定义的装运合并策略。 例如，以下情况下可能需要覆盖装运合并策略：必须将通常不与未结装运合并的订单与未结装运合并。
+本文提供了以下方案：必须从 **发放到仓库** 页将一个或多个销售行手动发放到仓库，并且发布前必须已覆盖系统定义的装运合并策略。 例如，以下情况下可能需要覆盖装运合并策略：必须将通常不与未结装运合并的订单与未结装运合并。
 
 在此方案中，将创建一组销售订单，然后在将这些订单发放到仓库之前覆盖默认装运合并策略。
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>设置装运合并策略和产品筛选器
 

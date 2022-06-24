@@ -1,6 +1,6 @@
 ---
 title: 将资产管理与固定资产进行集成
-description: 本主题说明如何集成资产管理和固定资产模块，以便可以将固定资产与维护资产关联起来。
+description: 本文说明如何集成资产管理和固定资产模块，以便可以将固定资产与维护资产关联起来。
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874208"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>将资产管理与固定资产进行集成
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567575"
 通过集成 **资产管理** 和 **固定资产** 模块，您可以将固定资产与维护资产关联起来。 然后，固定资产用户可以从新的或现有固定资产创建维护资产，资产管理用户可以将维护资产与现有的固定资产相关联。 此功能还使固定资产用户可以轻松查看从工作订单过帐的相关维护资产的成本。
 
 > [!NOTE]
-> 在本主题中，*维护资产* 指 **资产管理** 模块中的资产，*固定资产* 指 **固定资产** 模块中的资产。
+> 在本文中，*维护资产* 指 **资产管理** 模块中的资产，*固定资产* 指 **固定资产** 模块中的资产。
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>为从固定资产创建的新维护资产设置默认位置（可选）
 

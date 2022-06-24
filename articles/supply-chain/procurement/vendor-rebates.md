@@ -1,6 +1,6 @@
 ---
-title: 供应商返利
-description: 本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
+title: 供应商返点
+description: 本文对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890790"
 ---
 # <a name="vendor-rebates"></a>供应商返利
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672953"
 
 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
 
-本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 概述内容涵盖以下任务：
+本文对您在使用供应商返利时可能要执行的最常见任务进行了概述。 概述内容涵盖以下任务：
 
 - 查看返利协议的详细信息。
 - 标识获得返利资格的订单，并生成返利索赔。
@@ -34,7 +34,7 @@ ms.locfileid: "8672953"
 
 ## <a name="audience-and-purpose"></a>受众和目的
 
-此主题中的信息面向在企业公司承担采购经理、首席财务官 (CFO) 和会计经理等职务，并承担以下职责的业务决策者：
+本文中的信息面向在企业公司承担采购经理、首席财务官 (CFO) 和会计经理等职务，并承担以下职责的业务决策者：
 
 - 协商供应商价格、折扣和返利协议。
 - 管理负责处理返利索赔和收款的职员。

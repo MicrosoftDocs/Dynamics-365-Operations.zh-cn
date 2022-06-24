@@ -1,6 +1,6 @@
 ---
 title: 已计划执行
-description: 本主题介绍资产管理中的已计划执行。
+description: 本文介绍资产管理中的已计划执行。
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ace2da2c4bc3d5cc404301fc4ecef5ceeef240dae6569a4d28f621b02637930
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e9d6af5c224f683481378da57708fda3c1b7207
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848040"
 ---
 # <a name="scheduled-execution"></a>已计划执行
 

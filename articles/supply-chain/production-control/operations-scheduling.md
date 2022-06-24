@@ -1,6 +1,6 @@
 ---
 title: 工序级排产
-description: 本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
+description: 本文提供有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871882"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
+本文提供有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 
 您可以在工序级别和作业级别计划生产。 不同于作业级排产，工序级排产不将该生产工艺路线中的工序分解为作业。 如果您要在计划中包括详细信息，如有关当前产能的信息，则可以在工序级排产后运行作业级排产。 您还可以只运行作业级排产。 作业级排产通常用于即刻发生或在短期内发生的车间单个作业。
 

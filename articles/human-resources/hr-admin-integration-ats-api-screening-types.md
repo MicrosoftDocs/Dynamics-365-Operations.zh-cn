@@ -1,6 +1,6 @@
 ---
 title: 筛选类型
-description: 本主题介绍 Dynamics 365 Human Resources 的“筛选类型”实体。
+description: 本文介绍 Dynamics 365 Human Resources 的“筛选类型”实体。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf22aac78f1ff96edb7dd927721453f8d10fa5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 95f4a3dce6851c7080ac665f5922e3b5877fa9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880529"
 ---
 # <a name="screening-types"></a>筛选类型
 
@@ -27,7 +27,7 @@ ms.locfileid: "8067746"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的“筛选类型”实体。
+本文介绍 Dynamics 365 Human Resources 的“筛选类型”实体。
 
 物理名称：mshr_hcmscreeningtypeentity
 

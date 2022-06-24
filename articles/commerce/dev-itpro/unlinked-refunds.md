@@ -1,6 +1,6 @@
 ---
 title: 使用面向 Adyen 的 Dynamics 365 Commerce Payment Connector 处理非关联退款
-description: 本主题介绍了使用面向 Adyen 的 Microsoft Dynamics 365 Payment Connector 时非关联退款的操作方式。
+description: 本文介绍了使用面向 Adyen 的 Microsoft Dynamics 365 Payment Connector 时非关联退款的操作方式。
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885189"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>使用面向 Adyen 的 Dynamics 365 Commerce Payment Connector 处理非关联退款
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了使用[面向 Adyen 的 Microsoft Dynamics 365 Payment Connector](adyen-connector.md) 时非关联退款的操作方式。 它还审查了在销售点 (POS) 或呼叫中心针对新付款方式处理退款的能力。
+本文介绍了使用[面向 Adyen 的 Microsoft Dynamics 365 Payment Connector](adyen-connector.md) 时非关联退款的操作方式。 它还审查了在销售点 (POS) 或呼叫中心针对新付款方式处理退款的能力。
 
 面向 Adyen 的 Dynamics 365 Payment Connector 支持使用不同于用于原始交易的付款方式处理退款的功能。 虽然我们建议您使用[关联退款](linked-refunds.md)根据提供的原始付款方式处理退款，但在某些情况下需要向其他付款方式退款。 例如，用于原始付款的卡现在可能已过期或丢失，或者用户可能已取消该卡。
 

@@ -1,6 +1,6 @@
 ---
 title: 财务维度集
-description: 本主题介绍了财务维度集并提供一些优化其用法的提示。
+description: 本文介绍了财务维度集并提供一些优化其用法的提示。
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864272"
 ---
 # <a name="financial-dimension-sets"></a>财务维度集
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了财务维度集并提供一些优化其用法的提示。
+本文介绍了财务维度集并提供一些优化其用法的提示。
 
 维度集是财务维度的已排序列表，可用于以用户定义的方式汇总总帐数据。 维度集的主要用途是定义试算平衡表。
 

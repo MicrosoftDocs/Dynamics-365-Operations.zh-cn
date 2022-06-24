@@ -1,6 +1,6 @@
 ---
 title: 对现有产品启用更改管理
-description: 本主题说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
+description: 本文说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893459"
 ---
 # <a name="enable-change-management-on-existing-products"></a>对现有产品启用更改管理
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
+本文说明如何为现有产品启用更改管理。 另外还介绍了启用更改管理的能力受到限制的情况。
 
 为现有产品启用更改管理时，您可以创建该产品的版本并跟踪在产品整个生命周期内对产品所做的更改。 因此，您可以使用更改订单来跟踪那些更改。 要启用更改管理，您必须将相关产品转换为 *工程物料*（也称为工程产品）。 工程产品是通过更改管理版本化和管理的产品。 提供了一个向导来指导您完成整个转换流程。
 
 ## <a name="turn-this-feature-on-or-off"></a>打开或关闭此功能
 
-本主题中描述的功能需要您的系统同时启用 *工程更改管理* 和 *对现有产品启用更改管理* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
+本文中描述的功能需要您的系统同时启用 *工程更改管理* 和 *对现有产品启用更改管理* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="restrictions-and-limitations"></a>约束与限制
 
@@ -38,7 +38,7 @@ ms.locfileid: "8103605"
 - 当您将产品转换为工程产品时，它仍然是 *产品*。 它不会成为 *基础产品*。
 - 转换具有一组特定维度的基础产品时，这些维度在更改后将保留。 例如，如果您转换具有尺寸维度的基础产品，它将保留此尺寸维度。
 
-因此，如果您有独特产品，则只能将其更改为不在交易中跟踪产品维度（即不使用版本维度）的工程产品。 请参阅本主题的其余几节，了解有关这些问题的详细信息。
+因此，如果您有独特产品，则只能将其更改为不在交易中跟踪产品维度（即不使用版本维度）的工程产品。 请参阅本文的其余几节，了解有关这些问题的详细信息。
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>通过创建所有必需的工程产品类别为转换作准备
 
@@ -81,7 +81,7 @@ ms.locfileid: "8103605"
 
     - **产品编号** – 产品编号。
     - **产品名称** – 产品的名称。
-    - **工程类别** – 选择产品转换后应属于的工程产品类别。 如本主题上一节中所述，每个产品必须已经存在适当的类别。 您必须为每个产品分配一个类别。
+    - **工程类别** – 选择产品转换后应属于的工程产品类别。 如本文上一节中所述，每个产品必须已经存在适当的类别。 您必须为每个产品分配一个类别。
     - **版本** – 输入产品转换后分配给产品的产品版本。 例如，您可以选择一个与您的类别已使用的编号规则匹配的数字。 每个工程版本都存储特定于该版本的工程相关数据。 有关详细信息，请参阅[工程版本和工程产品类别](engineering-versions-product-category.md)。
     - **产品生命周期状态** – 选择产品在转换后应处于的产品生命周期状态。 产品生命周期状态让您可以控制给定工程版本允许哪些交易。 有关详细信息，请参阅[产品生命周期状态和交易](product-lifecycle-state-transactions.md)。
     - **有物料清单** – 已选中的复选框，指示产品有物料清单。 此复选框的设置可以帮助您决定如何设置 **当前物料清单将作为工程产品的一部分** 复选框。

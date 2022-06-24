@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859508"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>通过 Power Apps 和 Power Automate 扩展
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689485"
 本文介绍 Microsoft Dynamics 365 Human Resources 的一些使用 Microsoft Power Apps 和 Microsoft Power Automate 的可扩展性方案示例。 可以将与各示例关联的解决方案包导入到您的 Power Apps 环境中。 然后可以将这些包用作指南或起点来实施适用于贵组织的方案。
 
 > [!IMPORTANT]
-> 如果要“照原样”使用本主题中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
+> 如果要“照原样”使用本文中介绍的模板和应用，请务必测试这些模板和应用，以确保其涵盖特定于您的实施的所有方案。
 
 ## <a name="prerequisites"></a>先决条件
 

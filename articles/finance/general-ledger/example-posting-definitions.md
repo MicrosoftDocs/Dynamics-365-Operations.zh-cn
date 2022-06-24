@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865763"
 ---
 # <a name="posting-definition-examples"></a>过帐定义示例
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722540"
 
 本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。
 
-在阅读此主题前，您应该熟悉过帐定义和交易记录过帐定义。 有关信息，请参阅[过帐定义](posting-definitions.md)。 以下示例可以在 **过帐定义** 页设置。 每个示例都包含以下部分：
+在阅读本文前，您应该熟悉过帐定义和交易记录过帐定义。 有关信息，请参阅[过帐定义](posting-definitions.md)。 以下示例可以在 **过帐定义** 页设置。 每个示例都包含以下部分：
 
 -   过帐定义 – 匹配条件
 -   过帐定义 – 生成的条目

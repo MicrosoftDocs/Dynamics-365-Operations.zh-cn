@@ -1,6 +1,6 @@
 ---
 title: 计费计划功能
-description: 本主题介绍了计费计划的功能，如定价方法、提价和折扣、对齐日期、按比例分配、反向计费和拆分物料组。
+description: 本文介绍了计费计划的功能，如定价方法、提价和折扣、对齐日期、按比例分配、反向计费和拆分物料组。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0ce323565a94e8e70d90a65b7a3143e984a1c159
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b6cfebc2bbfe06e118bfc96f9ae0df6323805e39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8700715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853574"
 ---
 # <a name="billing-schedule-features"></a>计费计划功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍计费计划和计费计划行的功能。 其中介绍了用于定价的不同方法、如何使用提价和折扣以及如何冲销计费周期。 另外还包括按比例分配计算和拆分物料组的示例。
+本文介绍计费计划和计费计划行的功能。 其中介绍了用于定价的不同方法、如何使用提价和折扣以及如何冲销计费周期。 另外还包括按比例分配计算和拆分物料组的示例。
 
 ## <a name="pricing-methods"></a>定价方法
 

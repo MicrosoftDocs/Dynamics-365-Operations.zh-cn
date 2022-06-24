@@ -1,6 +1,6 @@
 ---
 title: 在 Dynamics 365 Commerce 评估环境中配置 BOPIS
-description: 本主题说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在此环境中配置“线上购买，店内提货”(BOPIS)。
+description: 本文说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在此环境中配置“线上购买，店内提货”(BOPIS)。
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861958"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>在 Dynamics 365 Commerce 评估环境中配置 BOPIS
 
 [!include [banner](includes/banner.md)]
 
-本主题说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在其中配置“线上购买，店内提货”(BOPIS)。
+本文说明在预配 Microsoft Dynamics 365 Commerce 评估环境后如何在其中配置“线上购买，店内提货”(BOPIS)。
 
-## <a name="prerequisite"></a>必备项
+## <a name="prerequisite"></a>先决条件
 
-请仅在预配和配置了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 评估环境](./cpe-post-provisioning.md)。
+请仅在预配和配置了 Commerce 评估环境之后，再完成本文中的过程。 有关如何预配和配置环境的信息，请参阅[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)和[配置 Dynamics 365 Commerce 评估环境](./cpe-post-provisioning.md)。
 
-端到端预配和配置 Commerce 环境之后，可以使用本主题启用 BOPIS 方案。
+端到端预配和配置 Commerce 环境之后，可以使用本文启用 BOPIS 方案。
 
 ## <a name="configure-the-pos"></a>配置 POS
 
 ### <a name="configure-modern-pos"></a>配置 Modern POS
 
-涉及信用卡付款的 BOPIS 方案需要硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 客户端的 Modern POS 内。 如果您使用适用于 iOS 的 Cloud POS 或 Modern POS，销售点 (POS) 客户端必须与共享硬件工作站配对。 本主题说明如何为 Windows 和 Android 客户端配置 BOPIS。 有关如何设置共享硬件工作站的信息，请参阅[配置和安装 Retail 硬件工作站](./retail-hardware-station-configuration-installation.md)。
+涉及信用卡付款的 BOPIS 方案需要硬件工作站。 硬件工作站内置在适用于 Windows 和 Android 客户端的 Modern POS 内。 如果您使用适用于 iOS 的 Cloud POS 或 Modern POS，销售点 (POS) 客户端必须与共享硬件工作站配对。 本文说明如何为 Windows 和 Android 客户端配置 BOPIS。 有关如何设置共享硬件工作站的信息，请参阅[配置和安装 Retail 硬件工作站](./retail-hardware-station-configuration-installation.md)。
 
 1. 转至 **Retail 和 Commerce \> 渠道设置 \> POS 设置 \> 收银机**。
 2. 选择收银机 **SANFRAN-5**，然后选择 **编辑**。
@@ -67,7 +67,7 @@ ms.locfileid: "7779786"
 5. 身份验证对话框将出现。 选择使用以前与工作人员 **000713 - Andrew Collette** 关联的电子邮件地址的帐户。
 
     > [!NOTE]
-    > 如果您尚未将工作人员与您的标识相关联，激活将不会成功。 在这种情况下，请按照[配置 Dynamics 365 Commerce 评估环境](cpe-post-provisioning.md#associate-a-worker-with-your-identity)主题中“将工作人员与您的标识关联”一节的步骤进行操作。
+    > 如果您尚未将工作人员与您的标识相关联，激活将不会成功。 在这种情况下，请按照[配置 Dynamics 365 Commerce 评估环境](cpe-post-provisioning.md#associate-a-worker-with-your-identity)一文中“将工作人员与您的标识关联”一节的步骤进行操作。
     
 6. 当提示您让您的组织管理设备时，请选择 **仅此应用**。
 7. 激活完成后，选择 **开始**。

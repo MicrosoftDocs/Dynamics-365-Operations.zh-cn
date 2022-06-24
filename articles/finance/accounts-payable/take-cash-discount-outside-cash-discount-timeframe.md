@@ -1,6 +1,6 @@
 ---
 title: 在现金折扣期间之外执行现金折扣
-description: 本主题提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。
+description: 本文提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879702"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>在现金折扣期间之外执行现金折扣
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。
+本文提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。
 
 6 月 28 日，April 为供应商 3052 创建 2,000.00 的发票。 如果在 14 天内支付该发票，则发票的现金折扣为 1%。
 

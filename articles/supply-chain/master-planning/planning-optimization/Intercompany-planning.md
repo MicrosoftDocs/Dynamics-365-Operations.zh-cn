@@ -1,6 +1,6 @@
 ---
 title: 内部公司计划
-description: 本主题介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
+description: 本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850661"
 ---
 # <a name="intercompany-planning"></a>内部公司计划
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468487"
 
 对于某些组织，物流工序取决于组织中的其他法人（公司）。 由于每个法人都有单独的会计科目表，因此使用内部公司销售和采购来处理这些工序。
 
-本主题介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
+本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
 
-本主题使用以下重要的内部公司术语：
+本文使用以下重要的内部公司术语：
 
 - **上游** – 公司或供应链中的相对参考。 它指示以原材料供应商的方向变动。
 - **下游** – 公司或供应链中的相对参考。 它指示以客户的方向变动。

@@ -1,6 +1,6 @@
 ---
 title: 将库存级别信息从 Supply Chain Management 同步到 Field Service
-description: 本主题讨论用于将 Dynamics 365 Supply Chain Management 中的库存水平信息同步到 Dynamics 365 Field Service 的模板和基础任务。
+description: 本文讨论用于将 Dynamics 365 Supply Chain Management 中的库存水平信息同步到 Dynamics 365 Field Service 的模板和基础任务。
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844784"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>将库存级别信息从 Supply Chain Management 同步到 Field Service 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060937"
 
 
 
-本主题讨论用于将 Dynamics 365 Supply Chain Management 中的库存水平信息同步到 Dynamics 365 Field Service 的模板和基础任务。
+本文讨论用于将 Dynamics 365 Supply Chain Management 中的库存水平信息同步到 Dynamics 365 Field Service 的模板和基础任务。
 
 [![Supply Chain Management 与 Field Service 之间的业务流程同步。](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 

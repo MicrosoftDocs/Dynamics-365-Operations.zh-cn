@@ -1,6 +1,6 @@
 ---
 title: 对齐日期方案
-description: 本主题提供的示例展示了订阅计费中的对齐日期如何工作。
+description: 本文提供的示例演示了订阅计费中的对齐日期如何工作。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872606"
 ---
 # <a name="alignment-date-scenarios"></a>对齐日期方案
 
-本主题提供的示例展示了订阅计费中的对齐日期如何工作。
+本文提供的示例演示了订阅计费中的对齐日期如何工作。
 
 对于这些示例，计费计划的计费详细信息的对齐日期为 2019 年 10 月 31 日。 行的第一个计费明细于 2019 年 10 月 31 日结束，并按比例相应分配。 使用 11 月 11 日的续订开始日期自动续订了该行。
 

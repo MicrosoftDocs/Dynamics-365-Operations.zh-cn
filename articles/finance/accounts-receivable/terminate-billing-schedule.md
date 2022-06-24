@@ -1,6 +1,6 @@
 ---
 title: 终止计费计划
-description: 本主题说明如何终止订阅计费中的计费计划和计费计划行。
+description: 本文说明如何终止订阅计费中的计费计划和计费计划行。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e823ce950d6a4687dc7cda14e06bffdbb4f37f7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872548"
 ---
 # <a name="terminate-billing-schedules"></a>终止计费计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何终止订阅计费中的计费计划和计费计划行。 当您终止计费计划时，其状态必须为 **有效**。 不能是 **暂停** 状态。 同样，当您终止计费计划行时，其状态也必须为 **有效**。 终止计费计划行时，计费计划的标头部分不受影响。
+本文说明如何终止订阅计费中的计费计划和计费计划行。 当您终止计费计划时，其状态必须为 **有效**。 不能是 **暂停** 状态。 同样，当您终止计费计划行时，其状态也必须为 **有效**。 终止计费计划行时，计费计划的标头部分不受影响。
 
 要终止计费计划或计费计划行，请转到以下位置之一：
 

@@ -1,6 +1,6 @@
 ---
-title: 装运地址模块
-description: 此主题介绍装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+title: 收货地址模块
+description: 本文介绍装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: anupamar-ms
 ms.date: 02/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882188"
 ---
 # <a name="shipping-address-module"></a>收货地址模块
 
 [!include [banner](includes/banner.md)]
 
-此主题描述装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+本文描述装运地址模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 
 装运地址模块使客户可以在结帐流中添加或选择订单的装运地址。 如果客户已登录，则显示以前为该客户保存的所有地址，然后客户可以在其中进行选择。 客户也可以添加新地址。 装运地址模块用于订单中需要装运的所有项。
 

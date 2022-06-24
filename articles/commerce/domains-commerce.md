@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce 中的域
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848946"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 
-域是用于在 Web 浏览器中导航到 Dynamics 365 Commerce 站点的 Web 地址。 请使用所选域名服务器 (DNS) 提供商管理域。 发布站点时，整个 Dynamics 365 Commerce 站点构建器中都引用域协调站点的访问方法。 此主题介绍在 Commerce 站点的整个开发和启动生命周期中如何处理和引用域。
+域是用于在 Web 浏览器中导航到 Dynamics 365 Commerce 站点的 Web 地址。 请使用所选域名服务器 (DNS) 提供商管理域。 发布站点时，整个 Dynamics 365 Commerce 站点构建器中都引用域协调站点的访问方法。 本文介绍在 Commerce 站点的整个开发和启动生命周期中如何处理和引用域。
 
 > [!NOTE]
 > 自 2022 年 5 月 6 日起，在 Dynamics 365 Commerce 中创建的所有环境都将使用 `.dynamics365commerce.ms` 域进行预配，取代早期的 `.commerce.dynamics.com` 模式。 使用 `.commerce.dynamics.com` 域预配的现有环境将继续工作。

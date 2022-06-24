@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893111"
 ---
 # <a name="zone-threshold-replenishment"></a>区域阈值补货
 
@@ -45,7 +45,7 @@ ms.locfileid: "7568983"
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>设置基于区域的补货
 
-若要设置基于区域的补货，必须配置系统的多个部分。 本部分介绍各种设置，并提供在您要完成本主题结尾的场景时可输入的示例数据值。
+若要设置基于区域的补货，必须配置系统的多个部分。 本节介绍各种设置，并提供在您要完成本文结尾的场景时可输入的示例数据值。
 
 ### <a name="set-up-directive-codes"></a>设置指令代码
 
@@ -57,7 +57,7 @@ ms.locfileid: "7568983"
 
 #### <a name="prepare-demo-data-directive-codes"></a>准备演示数据指令代码
 
-本示例说明如何准备指令代码。 如果计划完成本主题结尾的场景，请使用此处提供的演示数据值。 否则，请使用您自己的值。
+本示例说明如何准备指令代码。 如果计划完成本文结尾的场景，请使用此处提供的演示数据值。 否则，请使用您自己的值。
 
 1. 选择法人 **USMF** 使用这些演示数据。
 1. 转到 **库存管理 \> 设置 \> 指令代码**。
@@ -79,7 +79,7 @@ ms.locfileid: "7568983"
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>准备演示数据补货模板
 
-本示例说明如何准备补货模板。 如果计划完成本主题结尾的场景，请使用此处提供的演示数据值。 否则，请使用您自己的值。
+本示例说明如何准备补货模板。 如果计划完成本文结尾的场景，请使用此处提供的演示数据值。 否则，请使用您自己的值。
 
 1. 选择法人 **USMF** 使用这些演示数据。
 1. 转到 **仓库管理 \> 设置 \> 补货 \> 补货模板**。
@@ -144,7 +144,7 @@ ms.locfileid: "7568983"
 
 #### <a name="prepare-demo-data-location-directives"></a>准备演示数据货位指令
 
-若要准备演示数据以便在本主题结尾的场景中使用，必须创建两个货位指令：一个用于领料，一个用于放置。
+若要准备演示数据以便在本文结尾的场景中使用，必须创建两个货位指令：一个用于领料，一个用于放置。
 
 ##### <a name="create-a-replenishment-pick-directive"></a>创建补货领料指令
 
@@ -258,7 +258,7 @@ ms.locfileid: "7568983"
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>准备示例场景所需的示例数据
 
-开始完成此场景之前，必须按照本部分中和本主题前面部分中的说明激活示例数据和设置功能。
+开始完成此场景之前，必须按照本节中和本文前面几节中的说明激活示例数据和设置功能。
 
 #### <a name="use-the-usmf-legal-entity"></a>使用 USMF 法人
 
@@ -266,7 +266,7 @@ ms.locfileid: "7568983"
 
 #### <a name="prepare-additional-sample-data"></a>准备其他示例数据
 
-选择法人 **USMF** 之后，请按照本主题前面的[设置基于区域的补货](#setup)部分中的说明添加需要的更多示例数据。
+选择法人 **USMF** 之后，请按照本文前面[设置基于区域的补货](#setup)一节中的说明添加需要的更多示例数据。
 
 #### <a name="check-your-on-hand-inventory"></a>检查现有库存
 

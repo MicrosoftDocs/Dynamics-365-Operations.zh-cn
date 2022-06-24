@@ -1,6 +1,6 @@
 ---
 title: 启用“购买相似说明产品”建议
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似说明产品”产品建议。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似说明产品”产品建议。
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852000"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>启用“购买相似说明产品”建议
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似说明产品”产品建议。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中启用“购买相似说明产品”产品建议。
 
 Dynamics 365 Commerce 中的“购买相似说明产品”推荐功能利用人工智能和机器学习 (AI-ML) 提供说明与客户正在查找的产品相似的产品建议。 通过为 Commerce 中的所有零售渠道提供“购买相似说明产品”建议，零售商可以帮助客户轻松找到他们想要的商品。
 

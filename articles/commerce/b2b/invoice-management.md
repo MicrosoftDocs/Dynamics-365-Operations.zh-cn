@@ -1,6 +1,6 @@
 ---
 title: B2B 电子商务网站的发票管理
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的发票管理功能。
+description: 本文介绍 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的发票管理功能。
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854918"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>B2B 电子商务网站的发票管理
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的发票管理功能。
+本文介绍 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 电子商务网站的发票管理功能。
 
 对于处理 B2B 交易的公司来说，接受客户信用订单，然后在客户完成订单后向客户发送发票，这是常见做法。 付款条款针对客户定义，可能会有一些折扣来激励客户按时或提前付款。 为帮助提高按时收到付款的可能性，B2B 电子商务网站允许客户查看他们的所有发票。 客户可以轻松筛选发票来查看已付、未付和部分支付的发票以及截止日期。
 

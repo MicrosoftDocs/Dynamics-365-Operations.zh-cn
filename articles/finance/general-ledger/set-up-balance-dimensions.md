@@ -1,6 +1,6 @@
 ---
 title: 如何设置平衡财务维度？
-description: 本主题介绍用于设置和使用平衡财务维度的选项。
+description: 本文介绍用于设置和使用平衡财务维度的选项。
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878003"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>如何设置平衡财务维度？
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍用于设置和使用平衡财务维度的选项。
+本文介绍用于设置和使用平衡财务维度的选项。
 
 ## <a name="symptom"></a>问题
 
-可以选择两种方法设置平衡财务维度。 第一种选择是使用 **分类帐** 页面（**总帐 \> 分类帐设置 \> 分类帐**）中的 **平衡财务维度** 字段。 第二种选择是使用 **财务维度** 页面（**总帐 > 会计科目表 \> 维度 \> 财务维度**）中的 **要求维度平衡** 选项。 本主题介绍这两种选择之间的区别。
+可以选择两种方法设置平衡财务维度。 第一种选择是使用 **分类帐** 页面（**总帐 \> 分类帐设置 \> 分类帐**）中的 **平衡财务维度** 字段。 第二种选择是使用 **财务维度** 页面（**总帐 > 会计科目表 \> 维度 \> 财务维度**）中的 **要求维度平衡** 选项。 本文介绍这两种选择之间的区别。
 
 ## <a name="resolution"></a>解决方法
 

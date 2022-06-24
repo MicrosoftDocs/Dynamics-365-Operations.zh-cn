@@ -1,6 +1,6 @@
 ---
 title: 使用电子开票服务导入供应商发票
-description: 本主题提供有关如何使用电子开票服务导入供应商发票的信息。
+description: 本文提供有关如何使用电子开票服务导入供应商发票的信息。
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865575"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>使用电子开票服务导入供应商发票
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983815"
 
 [!include [banner](../includes/preview-banner.md)]
 
-本主题提供的信息将帮助您开始使用电子开票服务导入供应商发票。 它指导您完成 Regulatory Configuration Services (RCS)、Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的配置步骤，您必须遵循这些步骤才能从供应商接收电子供应商发票。
+本文提供的信息将帮助您开始使用电子开票服务导入供应商发票。 它指导您完成 Regulatory Configuration Services (RCS)、Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的配置步骤，您必须遵循这些步骤才能从供应商接收电子供应商发票。
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>在 RCS 中设置供应商发票导入
 若要在 RCS 中设置供应商发票导入，请按照以下步骤操作：

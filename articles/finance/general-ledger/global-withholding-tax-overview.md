@@ -1,6 +1,6 @@
 ---
 title: 全球预缴税金
-description: 本主题提供有关全球预缴税金功能及其设置方法的信息。 全球预缴税金功能针对供应商和客户交易进行了增强，让预缴税金在物料级别计算。
+description: 本文提供有关全球预缴税金功能及其设置方法的信息。 全球预缴税金功能针对供应商和客户交易进行了增强，让预缴税金在物料级别计算。
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846819"
 ---
 # <a name="global-withholding-tax"></a>全球预缴税金
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关全球预缴税金功能，并说明了设置方法。 版本 10.0.17 及更高版本中提供此新功能。
+本文提供有关全球预缴税金功能，并说明了设置方法。 版本 10.0.17 及更高版本中提供此新功能。
 
 全球预缴税金功能针对供应商和客户交易进行了增强，让预缴税金在物料级别计算。 购买交易中预缴税金帐户中的余额可以通过对预缴税金结算帐户运行预缴税金支付作业来结算。
 

@@ -1,6 +1,6 @@
 ---
-title: 从 Lifecycle Services 下载电子申报配置
-description: 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
+title: 从 Lifecycle Services 下载电子报告配置
+description: 本文介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
 author: NickSelin
 ms.date: 08/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ba720f997981e85ea08d532f23341a838533ac4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885285"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子报告配置
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[共享资产库](../lifecycle-services/asset-library.md)下载最新版本的[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。
+本文介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 中的[共享资产库](../lifecycle-services/asset-library.md)下载最新版本的[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。
 
 > [!IMPORTANT]
 > 使用 LCS 作为 ER 配置的存储库将[弃用](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release)。 有关详细信息，请参阅 [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) 存储弃用](../../../finance/localizations/rcs-lcs-repo-dep-faq.md)。
@@ -70,7 +70,7 @@ ms.locfileid: "6762264"
     [![配置存储库页面。](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本主题的相关主题列表。
+> 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本文的相关主题列表。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -1,6 +1,6 @@
 ---
 title: 订单查找模块
-description: 此主题介绍订单查找模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+description: 本文介绍订单查找模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869422"
 ---
 # <a name="order-lookup-module"></a>订单查找模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍订单查找模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
+本文介绍订单查找模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
 
 订单查找模块提供了一个窗体，客户可以使用该窗体查找自己在电子商务站点中下达的订单。 其作为[启用来宾结帐订单查找](order-lookup-guest.md)功能的一部分使用。 订单查找模块可用于查找通过电子商务站点、零售销售点 (POS) 或呼叫中心提交的订单。 该窗体可以检索来宾用户和注册用户提交的订单。
 

@@ -1,6 +1,6 @@
 ---
 title: 年终结算
-description: 此主题描述运行总帐年终结算流程所需设置和步骤。
+description: 本文描述运行总帐年终结算流程所需设置和步骤。
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883204"
 ---
 # <a name="year-end-close"></a>年终结算
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述运行总帐年终结算流程所需设置和步骤。
+本文描述运行总帐年终结算流程所需设置和步骤。
 
 在某一会计年度结束时，必须运行年终结算流程将未结余额转移到新年度。 大多数组织多次运行年终结算流程。 首次运行会将余额移至新的会计年度。 然后可以根据需要任意多次重新运行此流程，将余额从调整条目移到新会计年度。
 

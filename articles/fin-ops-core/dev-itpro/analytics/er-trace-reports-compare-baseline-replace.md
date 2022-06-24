@@ -1,6 +1,6 @@
 ---
 title: 改进跟踪生成的电子报告报表的结果以与基准值进行比较
-description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中对 ER 基准功能的改进。
+description: 本文介绍 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中对 ER 基准功能的改进。
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847392"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>改进跟踪生成的电子报告报表的结果以与基准值进行比较
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍已对电子申报 (ER) 框架基准功能所做的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）及更高版本中包含这些改进。
+本文介绍已对电子报告 (ER) 框架基准功能所做的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）及更高版本中包含这些改进。
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>自动执行基准规则的设置
 
-[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)主题介绍如何配置 ER 框架以收集有关 ER 格式执行情况的信息和评估这些执行的结果。 本主题中的示例显示必须完成的步骤。
+[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)一文介绍如何配置 ER 框架以收集有关 ER 格式执行情况的信息和评估这些执行的结果。 本文中的示例显示必须完成的步骤。
 
 下面是其中的部分步骤：
 
@@ -45,7 +45,7 @@ ms.locfileid: "6760742"
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>示例：自动执行基准规则的设置
 
-若要完成此示例中的步骤，必须先完成前面的“为设计的 ER 格式添加新基准”部分[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)主题中的示例的步骤。
+若要完成此示例中的步骤，必须先完成前面的“为设计的 ER 格式添加新基准”部分[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)一文中的示例的步骤。
 
 ### <a name="review-added-baseline"></a>查看添加的基准
 
@@ -80,7 +80,7 @@ ms.locfileid: "6760742"
 
 ### <a name="run-the-format"></a>运行格式
 
-现在已准备就绪，可以从“运行设计的 ER 格式和检查日志以分析结果”部分开始，完成[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)主题中的示例中的步骤。
+现在已准备就绪，可以从“运行设计的 ER 格式和检查日志以分析结果”部分开始，完成[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)一文中的示例中的步骤。
 
 > [!NOTE]
 > 在 **基准** 快速选项卡上删除自动添加的基准规则时，不会自动删除引用的附件。
@@ -91,7 +91,7 @@ ms.locfileid: "6760742"
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>示例：配置基准，使其忽略持续改变的 ER 输出部分
 
-若要完成此示例中的步骤，必须先完成[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)主题中的示例的步骤。
+若要完成此示例中的步骤，必须先完成[跟踪生成的报表结果并将其与基准值进行比较](er-trace-reports-compare-baseline.md)一文中的示例的步骤。
 
 ### <a name="modify-a-configured-er-format"></a>修改配置的 ER 格式
 
@@ -142,7 +142,7 @@ ms.locfileid: "6760742"
 
 ### <a name="make-a-new-baseline-rule"></a>新建基准规则
 
-执行本主题前文“示例：自动执行基准规则的设置”部分中的步骤。 将有一个通知警告您已使用基准设置生成了出站文件，并且已强制替换了格式绑定。
+执行本文前面“示例：自动执行基准规则的设置”一节中的步骤。 将有一个通知警告您已使用基准设置生成了出站文件，并且已强制替换了格式绑定。
 
 ![“配置”页面上的通知。](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "“配置”页上的通知的屏幕截图")
 

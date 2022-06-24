@@ -1,6 +1,6 @@
 ---
 title: 主计划的迁移到计划优化
-description: 本主题提供有关新的主计划引擎、计划优化的信息，以及有关从现有引擎迁移的信息。
+description: 本文提供有关新的主计划引擎、计划优化的信息，以及有关从现有引擎迁移的信息。
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846089"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>主计划的迁移到计划优化
 
 [!include [banner](../includes/banner.md)]
 
-内置的主计划引擎计划将被废弃（已弃用）。 它将替换为 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项。 本主题提供有关对新部署和现有部署的影响的信息。 它包含有关所需操作的信息。
+内置的主计划引擎计划将被废弃（已弃用）。 它将替换为 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项。 本文提供有关对新部署和现有部署的影响的信息。 它包含有关所需操作的信息。
 
 计划优化使主计划计算可以在 Supply Chain Management 及其 Azure SQL 数据库之外进行。 与计划优化相关的好处包括在主计划运行期间改进的性能以及对 SQL 数据库的影响最小。 因为即使在工作时间内也可以进行快速计划运行，因此计划人员可以立即对需求或参数更改作出反应。
 
@@ -63,7 +63,7 @@ Microsoft 正在废弃内置的计划引擎，以支持计划优化。 此更改
 
 在所需的功能变为可用后，Microsoft 将提供一个宽限期，直到例外到期。 当所需的功能变为可用并且宽限期已开始时，将通知环境管理员。
 
-以下流程图总结了本主题中提供的信息，以便您可以快速确定是否应请求例外。 如果需要请求例外，请填写并提交[计划优化迁移和例外调查表](https://go.microsoft.com/fwlink/?linkid=2144962)。 产品组负责评估和审核每个异常请求，因此请使用提供的链接直接将您的请求提交给产品组，并且不为此创建支持票证。 如果您的请求被拒绝，请不要创建支持票证，因为 Microsoft 支持人员无法重新评估或准许异常。
+以下流程图总结了本文中提供的信息，以便您可以快速确定是否应请求例外。 如果需要请求例外，请填写并提交[计划优化迁移和例外调查表](https://go.microsoft.com/fwlink/?linkid=2144962)。 产品组负责评估和审核每个异常请求，因此请使用提供的链接直接将您的请求提交给产品组，并且不为此创建支持票证。 如果您的请求被拒绝，请不要创建支持票证，因为 Microsoft 支持人员无法重新评估或准许异常。
 
 ![例外流程图。](media/exception-diagram.png "例外流程图")
 

@@ -1,6 +1,6 @@
 ---
 title: IoT 中心消息的架构格式
-description: 本主题介绍您应如何设计可在 IoT 智能中使用的消息架构。
+description: 本文介绍您应如何设计可在 IoT 智能中使用的消息架构。
 author: johanhoffmann
 ms.date: 04/25/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60d5bc4eacdd7e7d713490998bd1d20c9271ad02
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 705a2150042f9b65f1f4528d6f2699f7306996f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887448"
 ---
 # <a name="schema-formats-for-iot-hub-messages"></a>IoT 中心消息的架构格式
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍您应如何设计可在 IoT 智能中使用的消息架构。
+本文介绍您应如何设计可在 IoT 智能中使用的消息架构。
 
 ## <a name="message-requirements"></a>消息要求
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 中的新增功能或更改
-description: 此主题指向介绍各 Dynamics 365 Supply Chain Management 版本中的新增功能和更改的功能的主题。
+description: 本文指向介绍各 Dynamics 365 Supply Chain Management 版本中的新增功能和更改的功能的文章。
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893430"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812963"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 版本
 
-要查看每个版本的 Dynamics 365 Supply Chain Management 中的新增功能或更改的功能，请参阅以下主题。
+要查看每个版本的 Dynamics 365 Supply Chain Management 中的新增功能或更改的功能，请参阅以下文章。
 
 | 版本 | 内部版本号 | 自动更新可用性 | 了解详细信息 |
 |---|---|---|---|
@@ -57,9 +57,9 @@ ms.locfileid: "8812963"
 
 ## <a name="releases-before-november-2019"></a>2019 年 11 月之前的版本
 
-要查看 2019 年 11 月之前版本中的新增功能或更改的功能，请参阅以下主题。
+要查看 2019 年 11 月之前版本中的新增功能或更改的功能，请参阅以下文章。
 
-| 下达 | 版本 | 内部版本号 | 可用性 | 了解更多 |
+| 发放 | 版本 | 内部版本号 | 可用性 | 了解详细信息 |
 |---|---|---|---|---|
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 年 10 月     | [Dynamics 365 for Finance and Operations 版本 10.0.5（2019 年 10 月）中的新增功能或更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | 2019 年 7 月        | [Dynamics 365 for Finance and Operations 版本 10.0.4（2019 年 7 月）中的新增功能或更改内容](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |

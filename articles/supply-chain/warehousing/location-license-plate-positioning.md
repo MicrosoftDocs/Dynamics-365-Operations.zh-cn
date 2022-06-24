@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889419"
 ---
 # <a name="location-license-plate-positioning"></a>货位牌照定位
 
@@ -28,11 +28,11 @@ ms.locfileid: "8102780"
 
 此功能为放入存储货位的每个牌照添加一个序列号。 此序列号用于为存储货位中的牌照排序。 因此，此功能智能支持以下场景：客户使用重力货架系统，并且出于领料目的，一定知道哪个牌照正面朝外。
 
-本主题提供的场景显示如何设置和使用此功能。
+本文提供的场景显示如何设置和使用此功能。
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>打开或关闭“位置牌照定位”功能
 
-要使用本主题中描述的功能，必须为您的系统打开 *位置牌照定位* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *位置牌照定位* 功能来打开或关闭此功能。
+要使用本文中描述的功能，必须为您的系统打开 *位置牌照定位* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *位置牌照定位* 功能来打开或关闭此功能。
 
 ## <a name="example-scenario"></a>示例场景
 
@@ -42,9 +42,9 @@ ms.locfileid: "8102780"
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>为此场景设置功能
 
-完成以下过程为本主题中提供的场景设置 *货位牌照定位* 功能。
+完成以下过程为本文中提供的场景设置 *货位牌照定位* 功能。
 
-#### <a name="location-profiles"></a>货位模板
+#### <a name="location-profiles"></a>库位模板
 
 必须在要使用此功能的每个货位的货位模板中开启此功能。
 

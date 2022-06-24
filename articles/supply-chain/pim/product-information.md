@@ -1,6 +1,6 @@
 ---
 title: 产品信息概览
-description: 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。
+description: 本文提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867860"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 
@@ -28,7 +28,7 @@ ms.locfileid: "8063308"
 
 
 
-此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。 
+本文提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。 
 
 产品信息是跨所有行业的供应链和商业应用的基石。 它指的是以集中管理产品相关信息为主（例如，跨供应链）的流程和技术。 使用共用的产品定义、文档、属性和标识符十分重要。 在不同的业务解决方案模块中，需要产品的特定信息和配置以管理与特定产品、产品系列或产品类别有关的业务流程。
 

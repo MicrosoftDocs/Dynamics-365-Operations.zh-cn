@@ -1,6 +1,6 @@
 ---
 title: 收入分配
-description: 本主题说明如何在订阅计费中使用收入分配。
+description: 本文说明如何在订阅计费中使用收入分配。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 09d3e9295f1fb753156aa603b00372316173721e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864359"
 ---
 # <a name="revenue-allocation"></a>收入分配
 
-本主题说明如何针对计费计划设置收入分配参数。 您可以在创建计费计划时设置或编辑收入分配。 当您为有效或终止的计费计划打开 **收入分配** 页面时，这些字段是只读字段。
+本文说明如何针对计费计划设置收入分配参数。 您可以在创建计费计划时设置或编辑收入分配。 当您为有效或终止的计费计划打开 **收入分配** 页面时，这些字段是只读字段。
 
 ## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>指定计费计划的收入分配
 

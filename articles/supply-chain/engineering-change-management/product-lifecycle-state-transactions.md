@@ -1,6 +1,6 @@
 ---
 title: 产品生命周期状态和交易
-description: 此主题说明在工程产品的生命周期中如何控制每个生命周期状态允许的交易。
+description: 本文说明在工程产品的生命周期中如何控制每个生命周期状态允许的交易。
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867947"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>产品生命周期状态和交易
 
@@ -37,7 +37,7 @@ ms.locfileid: "8322736"
 - 若要删除现有生命周期状态，在列表窗格中选择它，然后在操作窗格上选择 **删除**。
 
 > [!NOTE]
-> 工程产品使用与标准（非工程）产品相同的产品生命周期状态。 您还可以通过转到 **产品信息管理 \> 设置 \> 产品生命周期状态**，来打开此主题中介绍的 **产品生命周期状态** 页。 有关工程产品和标准产品的产品生命周期状态的详细信息，请参阅[产品生命周期状态概述](../pim/product-lifecycle.md)。
+> 工程产品使用与标准（非工程）产品相同的产品生命周期状态。 您还可以通过转到 **产品信息管理 \> 设置 \> 产品生命周期状态**，来打开本文中介绍的 **产品生命周期状态** 页。 有关工程产品和标准产品的产品生命周期状态的详细信息，请参阅[产品生命周期状态概述](../pim/product-lifecycle.md)。
 
 ### <a name="header"></a>单头
 

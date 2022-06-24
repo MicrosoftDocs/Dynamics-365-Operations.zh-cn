@@ -1,6 +1,6 @@
 ---
 title: 删除服务物料清单
-description: 本主题提供了展示如何删除服务物料清单的过程。
+description: 本文提供了展示如何删除服务物料清单的过程。
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ad3e81c4a1b6b8a995f2764a0d0626f1e67e519
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b189835528e2e1b6d746c767fb53f365fa194b46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865025"
 ---
 # <a name="delete-a-service-bom"></a>删除服务物料清单
 

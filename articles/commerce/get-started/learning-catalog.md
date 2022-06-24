@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: db367c64f05019e4d85168406d433b323d3ec124
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 325adeb1e5ea64433d8b2fd6cc54819194771cfb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883930"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Dynamics 365 Commerce 学习目录 
 

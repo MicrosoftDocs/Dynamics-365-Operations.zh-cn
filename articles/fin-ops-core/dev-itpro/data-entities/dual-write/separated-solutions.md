@@ -1,6 +1,6 @@
 ---
 title: 分隔的双重写入应用程序业务流程包
-description: 双重写入应用程序业务流程包不再是单个包，而是分成了更小的包。 本主题介绍了每个包所包含的解决方案和映射及其与其他包的依赖关系。
+description: 双重写入应用程序业务流程包不再是单个包，而是分成了更小的包。 本文介绍了每个包所包含的解决方案和映射及其与其他包的依赖关系。
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874803"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>分隔的双重写入应用程序业务流程包
 
@@ -42,7 +42,7 @@ ms.locfileid: "8716543"
 
 ![已分隔包。](media/separated-package-1.png)
 
-本主题介绍了每个包所包含的解决方案和映射及其与其他包的依赖关系。
+本文介绍了每个包所包含的解决方案和映射及其与其他包的依赖关系。
 
 ## <a name="dual-write-application-core"></a>双重写入应用程序核心
 

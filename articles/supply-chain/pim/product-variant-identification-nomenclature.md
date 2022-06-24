@@ -1,6 +1,6 @@
 ---
 title: 产品变型编号和名称的命名法
-description: 此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。
+description: 本文介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b437279c275244e96692c1a629e891973d30d48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850603"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。 新的命名法具有目标格式，包括您选择的基础产品编号、有效产品维度和文本分隔符。 您还可以创建产品名称的命名法。 最后，您可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。
+本文介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。 新的命名法具有目标格式，包括您选择的基础产品编号、有效产品维度和文本分隔符。 您还可以创建产品名称的命名法。 最后，您可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。
 
 产品变型编号和产品变型名称的命名法让您可以在产品变型的标识符中包含细分信息。 这些细分信息可能包括基础产品编号和名称、产品维度 ID 和名称、编号规则、文本常量和属性。 在您创建销售订单或采购订单时，此功能可以快速查找特定产品变型。 通过使用 **产品命名法** 页，您创建产品变型编号和产品变型名称的命名法。 若要打开此页，单击 **产品信息管理** &gt; **设置**。
 

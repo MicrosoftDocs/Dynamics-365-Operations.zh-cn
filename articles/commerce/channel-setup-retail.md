@@ -1,6 +1,6 @@
 ---
 title: 设置零售渠道
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
 author: samjarawan
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: eccbbff33ddf967b000940a8ea9910c34232431f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847724"
 ---
 # <a name="set-up-a-retail-channel"></a>设置零售渠道
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建新的零售渠道。
 
 Dynamics 365 Commerce 支持多种零售渠道。 这些零售渠道包括在线商店、呼叫中心和零售商店（亦称实体商店）。 每个零售商店渠道都可以有自己的付款方式、价格组、销售点 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先设置所有这些元素，然后才能创建零售商店渠道。 
 

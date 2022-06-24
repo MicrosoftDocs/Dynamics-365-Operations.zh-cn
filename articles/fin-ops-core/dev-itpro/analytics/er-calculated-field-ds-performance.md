@@ -1,6 +1,6 @@
 ---
 title: 通过添加参数化的计算字段数据源提高 ER 解决方案的性能
-description: 此主题介绍如何通过添加参数化的计算字段数据源提高电子报告 (ER) 解决方案的性能。
+description: 本文介绍如何通过添加参数化的计算字段数据源提高电子报告 (ER) 解决方案的性能。
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850105"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何通过配置参数化的 **计算字段** 数据源，对使用的[电子申报 (ER)](general-electronic-reporting.md) 格式进行[性能跟踪](trace-execution-er-troubleshoot-perf.md)，然后使用这些跟踪的信息帮助提高性能。
+本文介绍如何通过配置参数化的 **计算字段** 数据源，对使用的[电子报告 (ER)](general-electronic-reporting.md) 格式进行[性能跟踪](trace-execution-er-troubleshoot-perf.md)，然后使用这些跟踪的信息帮助提高性能。
 
 在设计 ER 配置以生成业务文档的过程中，您将定义用于从应用程序检索数据并在生成的输出中输入的方法。 通过设计 **计算字段** 类型的参数化 ER 数据源，可以减少数据库调用数量，从而减少收集 ER 格式执行详细信息所需时间和成本。
 
 ## <a name="prerequisites"></a>先决条件
 
-- 要完成本主题中的示例，您必须具有以下其中一个[角色](../sysadmin/tasks/assign-users-security-roles.md)的访问权限：
+- 要完成本文中的示例，您必须具有以下其中一个[角色](../sysadmin/tasks/assign-users-security-roles.md)的访问权限：
 
-    - 电子申报开发人员
+    - 电子报告开发人员
     - 电子申报功能顾问
     - 系统管理员
 
 - 公司必须设置为 **DEMF**。
-- 执行本主题的[附录 1](#appendix1) 中的步骤，以下载完成本主题中的示例所需的示例 Microsoft ER 解决方案的组件。
-- 执行本主题的[附录 2](#appendix2) 中的步骤，以配置使用 ER 框架提高示例 Microsoft ER 解决方案性能所需的最少 ER 参数。
+- 执行本文的[附录 1](#appendix1) 中的步骤，以下载完成本文中的示例所需的示例 Microsoft ER 解决方案的组件。
+- 执行本文的[附录 2](#appendix2) 中的步骤，以配置使用 ER 框架提高示例 Microsoft ER 解决方案性能所需的最少 ER 参数。
 
 ## <a name="import-the-sample-er-solution"></a>导入示例 ER 解决方案
 
@@ -47,8 +47,8 @@ ms.locfileid: "6753662"
 
 第一步是导入示例 ER 解决方案以生成供应商交易记录报表。
 
-1. 登录为贵公司预配的 Microsoft Dynamics 365 Finance 实例。
-2. 在此主题中，将为示例公司 **Litware, Inc.** 创建并修改配置。 请确保已经将该配置提供程序添加到了您的 Finance 实例并标记为有效。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)。
+1. 登录为您的公司预配的 Microsoft Dynamics 365 Finance 实例。
+2. 在本文中，将为示例公司 **Litware, Inc.** 创建并修改配置。 请确保已经将该配置提供程序添加到了您的 Finance 实例并标记为有效。 有关详细信息，请参阅[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)。
 3. 在 **电子申报** 工作区中，选择 **报告配置** 磁贴。
 4. 在 **配置** 页中，按照下面的顺序将作为先决条件下载的 ER 配置导入 Finance 中：数据模型、模型映射、格式。 为每个配置执行下列步骤:
 
@@ -220,7 +220,7 @@ ms.locfileid: "6753662"
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>运行修改后的 ER 解决方案以跟踪执行情况
 
-重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
+重复本文前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>使用性能跟踪分析对映射性能的调整 
 

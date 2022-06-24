@@ -1,6 +1,6 @@
 ---
 title: 设置呼叫中心渠道
-description: 本主题提供有关如何使用 Dynamics 365 Commerce 来处理呼叫中心的订单的信息。
+description: 本文提供有关如何使用 Dynamics 365 Commerce 来处理呼叫中心的订单的信息。
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854863"
 ---
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 

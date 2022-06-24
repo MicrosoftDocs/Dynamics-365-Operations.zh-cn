@@ -1,6 +1,6 @@
 ---
 title: 优化 BYOD 计划批处理作业
-description: 本主题说明在 Microsoft Dynamics 365 Human Resources 中使用“提供您自己的数据库 (BYOD)”功能时如何优化性能。
+description: 本文说明在 Microsoft Dynamics 365 Human Resources 中使用“提供您自己的数据库 (BYOD)”功能时如何优化性能。
 author: twheeloc
 ms.date: 08/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: 2fcdc89ce65fd123b4cf845acf83070119cc3701
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4df60a82e016ec8f3ba6ba0d70c261824961d221
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848304"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>优化 BYOD 计划批处理作业
 
@@ -27,7 +27,7 @@ ms.locfileid: "8717159"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题说明在使用“提供您自己的数据库 (BYOD)”功能时如何优化性能。 有关 BYOD 的详细信息，请参阅[提供您自己的数据库 (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
+本文说明在使用“提供您自己的数据库 (BYOD)”功能时如何优化性能。 有关 BYOD 的详细信息，请参阅[提供您自己的数据库 (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)。
 
 ## <a name="performance-considerations-for-data-export"></a>数据导出的性能注意事项
 

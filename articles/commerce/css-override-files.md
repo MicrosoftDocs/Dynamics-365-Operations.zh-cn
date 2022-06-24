@@ -1,6 +1,6 @@
 ---
-title: 处理 CSS 覆盖文件
-description: 本主题介绍为什么、何时以及如何在 Microsoft Dynamics 365 Commerce 中使用级联样式表 (CSS) 覆盖文件。
+title: 使用 CSS 覆盖文件
+description: 本文介绍为什么、何时以及如何在 Microsoft Dynamics 365 Commerce 中使用级联样式表 (CSS) 覆盖文件。
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892852"
 ---
 # <a name="work-with-css-override-files"></a>使用 CSS 覆盖文件
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍为什么、何时以及如何在 Microsoft Dynamics 365 Commerce 中使用级联样式表 (CSS) 覆盖文件。
+本文介绍为什么、何时以及如何在 Microsoft Dynamics 365 Commerce 中使用级联样式表 (CSS) 覆盖文件。
 
 永久站点样式通常应该通过站点主题进行处理。 主题为站点的任何一个页面上的模块提供基本 CSS 和样式设置。 主题是使用 Dynamics 365 Commerce 联机软件开发套件 (SDK) 创建的，可以通过 Microsoft Dynamics Lifecycle Services (LCS) 部署到您的网站。 SDK 中的主题调试功能和模块接口配置可帮助站点开发人员创建可自定义且紧密结合的站点设计包。 将这些设计包部署到站点时，站点作者可以专注于创建、编辑和发布内容，而不是站点开发。
 

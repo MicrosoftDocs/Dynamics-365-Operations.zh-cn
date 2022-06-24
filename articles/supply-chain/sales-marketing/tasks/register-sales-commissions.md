@@ -1,6 +1,6 @@
 ---
 title: 登记销售佣金
-description: 此主题介绍如何计算和登记销售佣金。
+description: 本文介绍如何计算和登记销售佣金。
 author: Henrikan
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4aca37350938d54d4acf283093365bfcab64f70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b15ca78da14068fd2f3275e7aff04852625db7ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862502"
 ---
 # <a name="register-sales-commissions"></a>登记销售佣金
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何计算和登记销售佣金。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 在开始此指南前，运行名为“设置销售佣金规则”的指南，以确保您已设置好所有必要的佣金计算设置。
+本文介绍如何计算和登记销售佣金。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 在开始此指南前，运行名为“设置销售佣金规则”的指南，以确保您已设置好所有必要的佣金计算设置。
 
 记录您为佣金过程选择的客户和物料编号，并在创建本指南的销售订单时使用。
 

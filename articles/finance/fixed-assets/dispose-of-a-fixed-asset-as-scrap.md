@@ -1,6 +1,6 @@
 ---
 title: 将固定资产作为废料处置
-description: 本主题介绍清除作为废料处置的固定资产交易记录的过程。
+description: 本文介绍清除作为废料处置的固定资产交易记录的过程。
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855424"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>将固定资产作为废料处置
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍清除作为废料处置的固定资产交易记录的过程。 可以清除的交易记录类型包括资产的购置和累计折旧交易记录以及其他固定资产交易记录。 清除这些交易记录会影响资产负债表科目，例如购置调整、折旧调整、重估、调高和调低科目。
+本文介绍清除作为废料处置的固定资产交易记录的过程。 可以清除的交易记录类型包括资产的购置和累计折旧交易记录以及其他固定资产交易记录。 清除这些交易记录会影响资产负债表科目，例如购置调整、折旧调整、重估、调高和调低科目。
 
 | 交易                                         | 借记（借） | 贷记（贷） |
 |-----------------------------------------------------|-------------|--------------|

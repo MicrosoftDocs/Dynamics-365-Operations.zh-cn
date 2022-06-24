@@ -1,6 +1,6 @@
 ---
 title: 产品信息管理常见问题解答
-description: 本主题提供有关 Supply Chain Management 的产品信息管理功能的常见问题 (FAQ) 的解答。
+description: 本文提供有关 Supply Chain Management 的产品信息管理功能的常见问题 (FAQ) 的解答。
 author: t-benebo
 ms.date: 06/03/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a2be2d0a113081649c2f5e549dd46c0e6b95ae1d
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: b8767df25f0c42b6ee72692aac4e08032828a90d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885919"
 ---
 # <a name="product-information-management-faq"></a>产品信息管理常见问题解答
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关 Supply Chain Management 的产品信息管理功能的常见问题 (FAQ) 的解答。
+本文提供有关 Supply Chain Management 的产品信息管理功能的常见问题 (FAQ) 的解答。
 
 ## <a name="can-i-change-the-item-number-of-a-released-product"></a>我可以更改已发布产品的物料编号吗？
 

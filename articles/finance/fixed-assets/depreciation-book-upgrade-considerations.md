@@ -1,6 +1,6 @@
 ---
 title: 折旧帐簿升级概览
-description: 本主题介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。
+description: 本文介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855482"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。 价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 帐簿功能让您可以对组织的所有固定资产流程使用一组页面、查询和报表。 本主题提供了升级前应考虑的一些事项。 
+本文介绍固定资产中的当前帐簿功能。 此功能基于早期版本中可用的价值模型功能，但它还包括以前仅在折旧帐簿中提供的所有功能。 价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 帐簿功能让您可以对组织的所有固定资产流程使用一组页面、查询和报表。 本文提供了升级前应考虑的一些事项。 
 
 升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至过帐到总帐设置为否的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为无的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。
 

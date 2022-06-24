@@ -1,6 +1,6 @@
 ---
 title: 意大利会计打印机整合示例的部署准则（旧版）
-description: 本主题提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署意大利会计打印机整合示例的指南。
+description: 本文提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署意大利会计打印机整合示例的指南。
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848890"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>意大利会计打印机整合示例的部署准则（旧版）
 
 [!include[banner](../includes/banner.md)]
 
-本主题提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署意大利会计打印机整合示例的指南。 有关此会计整合示例的详细信息，请参阅[意大利会计打印机整合示例](emea-ita-fpi-sample.md)。 
+本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署意大利会计打印机整合示例的指南。 有关此会计整合示例的详细信息，请参阅[意大利会计打印机整合示例](emea-ita-fpi-sample.md)。 
 
-意大利会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT) 和 Hardware Station 的扩展组成。 若要运行此示例，您必须修改和生成 CRT 和 Hardware Station 项目。 我们建议您使用未修改的 Retail SDK 进行此主题中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
+意大利会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT) 和 Hardware Station 的扩展组成。 若要运行此示例，您必须修改和生成 CRT 和 Hardware Station 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
 
 ## <a name="development-environment"></a>开发环境
 
@@ -86,7 +86,7 @@ Retail SDK 中包含 Hardware Station 扩展组件。 若要完成以下过程�
 
 若要创建包含 Commerce 组件的可部署包，并在生产环境中应用这些包，请按照以下步骤操作。
 
-1. 完成本主题前面的[开发环境](#development-environment)部分中描述的步骤。
+1. 完成本文前面的[开发环境](#development-environment)一节中描述的步骤。
 2. 在 **RetailSdk\\Assets** 文件夹下的包配置文件中进行以下更改：
 
     1. 在 **commerceruntime.ext.config** 和 **CommerceRuntime.MPOSOffline.Ext.config** 配置文件中，将以下行添加到 **构成** 部分中。

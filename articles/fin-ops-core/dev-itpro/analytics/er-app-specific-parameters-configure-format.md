@@ -1,6 +1,6 @@
 ---
-title: 配置 ER 格式以使用每个法人指定的参数
-description: 本主题说明如何配置电子报告 (ER) 格式以使用每个法人指定的参数。
+title: 配置电子报告格式以使用每个法人指定的参数
+description: 本文说明如何配置电子报告 (ER) 格式以使用每个法人指定的参数。
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858819"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>配置 ER 格式以使用每个法人指定的参数
 
@@ -37,13 +37,13 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
 ## <a name="prerequisites"></a>先决条件
 
-要完成本主题中的示例，您必须有权访问为与以下角色之一的 Finance 相同的租户预配的 Regulatory Configuration Services (RCS) 实例：
+要完成本文中的示例，您必须有权访问为与以下角色之一的 Finance 相同的租户预配的 Regulatory Configuration Services (RCS) 实例：
 
 - 电子申报开发人员
 - 电子申报功能顾问
 - 系统管理员
 
-我们建议您完成[支持对计算字段类型的 ER 数据源的参数化调用](er-calculated-field-type.md)主题中的步骤。 如果您已经完成了这些步骤，则可以跳过后面的 **将 ER 配置导入 RCS** 部分中的步骤。
+我们建议您完成[支持对计算字段类型的 ER 数据源的参数化调用](er-calculated-field-type.md)一文中的步骤。 如果您已经完成了这些步骤，则可以跳过后面的 **将 ER 配置导入 RCS** 部分中的步骤。
 
 ## <a name="import-er-configurations-into-rcs"></a>将 ER 配置导入 RCS
 
@@ -58,7 +58,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 
 接下来，登录到您的 RCS 实例。
 
-在此示例中，您将为 Litware, Inc 示例公司创建一个配置。 在完成此过程之前，必须完成 RCS 中[创建一个配置提供程序，并标记其为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)主题中的步骤。
+在此示例中，您将为 Litware, Inc 示例公司创建一个配置。 在完成此过程之前，必须完成 RCS 中[创建一个配置提供程序，并标记其为当前运行的](tasks/er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。
 
 1.  在默认仪表板中，选择 **电子申报**。
 2.  选择 **申报配置**。
@@ -300,7 +300,7 @@ ER 应用程序特定的参数功能使高级用户可以以 ER 格式配置数�
 -   Mapping to learn parameterized calls.xml
 -   Model to learn parameterized calls.xml
 
-若要了解如何使用已配置的 **用于了解如何查找 LE 数据的格式** ER 格式来设置法人相关的税码集，以按不同征税级别筛选税收交易，请完成[为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)主题中的步骤。
+若要了解如何使用已配置的 **用于了解如何查找 LE 数据的格式** ER 格式来设置法人相关的税码集，以按不同征税级别筛选税收交易，请完成[为每个法人设置 ER 格式的参数](er-app-specific-parameters-set-up.md)一文中的步骤。
 
 ## <a name="additional-resources"></a>其他资源
 

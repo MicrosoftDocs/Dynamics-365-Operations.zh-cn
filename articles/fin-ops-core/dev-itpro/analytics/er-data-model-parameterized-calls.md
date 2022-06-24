@@ -1,6 +1,6 @@
 ---
 title: 支持 ER 数据模型的参数化调用
-description: 本主题介绍了如何实现电子申报 (ER) 数据模型的参数化调用。
+description: 本文介绍了如何实现电子报告 (ER) 数据模型的参数化调用。
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884248"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>支持 ER 数据模型的参数化调用
 
@@ -160,7 +160,7 @@ ms.locfileid: "8419464"
 > [!NOTE]
 > 不支持数据模型字段参数的默认值。 如果您将参数添加到数据模型中的字段，并且该数据模型的版本已经发布，则必须将所有相应的模型映射和格式[重定](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase)为该模型的新版本，因为该数据模型更改无法向后兼容。
 
-您可以配置参数化数据模型字段以使模型映射调用特定于格式。 此方法可以帮助您减少必须为单个数据模型的许多格式配置的模型映射数。 您还可以使用此方法来提高格式的执行性能并减少生成业务文档所需的时间。 若要了解有关此功能的详细信息，请完成本主题中的示例。
+您可以配置参数化数据模型字段以使模型映射调用特定于格式。 此方法可以帮助您减少必须为单个数据模型的许多格式配置的模型映射数。 您还可以使用此方法来提高格式的执行性能并减少生成业务文档所需的时间。 若要了解有关此功能的详细信息，请完成本文中的示例。
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>示例：使用 ER 数据模型的参数化调用
 

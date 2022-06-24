@@ -1,6 +1,6 @@
 ---
 title: 负天数和动态负天数
-description: 此主题介绍有关负天数和动态负天数的信息，以及将其如何用于帮助您开展业务。
+description: 本文介绍有关负天数和动态负天数的信息，以及将其如何用于帮助您开展业务。
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846118"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>负天数和动态负天数
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍有关负天数和动态负天数的信息，以及将其如何用于帮助您开展业务。 *负天数时段* 表示在您的库存为负时，您愿意等待多久才订购新补货。
+本文介绍有关负天数和动态负天数的信息，以及将其如何用于帮助您开展业务。 *负天数时段* 表示在您的库存为负时，您愿意等待多久才订购新补货。
 
-本主题中包含以下信息：
+本文中包含以下信息：
 
 - 如何创建计划订单
 - 负天数时段与物料提前期之间的关联
 - 如何计算动态负天数时段，以及计算时如何考虑物料提前期因素
 - 如何解释与负天数有关的[有关改进物料需求计划 (MRP) 的运行时间的建议（主计划）](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx)
 
-本主题通过三个假设场景帮助您理解此信息。 这些场景之间的差别是您获得需求的时间点：在物料提前期前、中还是后。
+本文通过三个假设场景帮助您理解此信息。 这些场景之间的差别是您获得需求的时间点：在物料提前期前、中还是后。
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>场景 1：需求是在物料提前期之前获得的
 
@@ -93,7 +93,7 @@ ms.locfileid: "8469860"
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>案例 E：同时使用大于物料提前期的负天数和动态负天数时段
 
-如果将负天数设置为大于物料提前期的数字，并且还使用动态负天数时段，则动态负天数时段为 6 + 6 + 0 = 12 天。 这种方法可能会导致 MRP 必须在很长的时段内搜索结果。 有关案例 E 与将负天数设置为长时段的情况之间的关系的信息，请参阅本主题的[结论](#conclusion)部分。
+如果将负天数设置为大于物料提前期的数字，并且还使用动态负天数时段，则动态负天数时段为 6 + 6 + 0 = 12 天。 这种方法可能会导致 MRP 必须在很长的时段内搜索结果。 有关案例 E 与将负天数设置为长时段的情况之间的关系的信息，请参阅本文的[结论](#conclusion)一节。
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>场景 2：需求是在物料提前期中获得的
 
@@ -142,7 +142,7 @@ ms.locfileid: "8469860"
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>案例 E：同时使用大于物料提前期的负天数和动态负天数时段
 
-如果将负天数设置为大于物料提前期的数字，并且还使用动态负天数时段，则动态负天数时段为 6 + 6 - 4 = 8 天。 这种方法可能会导致 MRP 必须在很长的时段内搜索结果。 有关案例 E 与将负天数设置为长时段的情况之间的关系的信息，请参阅本主题的[结论](#conclusion)部分。
+如果将负天数设置为大于物料提前期的数字，并且还使用动态负天数时段，则动态负天数时段为 6 + 6 - 4 = 8 天。 这种方法可能会导致 MRP 必须在很长的时段内搜索结果。 有关案例 E 与将负天数设置为长时段的情况之间的关系的信息，请参阅本文的[结论](#conclusion)一节。
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>场景 3：需求是在物料提前期后获得的
 
@@ -204,7 +204,7 @@ ms.locfileid: "8469860"
 
 ## <a name="conclusion"></a>结论
 
-如本主题中的三个场景所示，最好将负天数设置为大于覆盖范围组中的物料提前期的数字。 此外，最好仅使用动态负天数，并将负天数设置为在您的库存为负时，您愿意在订购新补货之前愿意等待的天数（换句话说，愿意进一步延迟需求的天数）。 此外，同一个覆盖范围组中的物料应具有类似提前期。
+如本文中的三个场景所示，最好将负天数设置为大于覆盖范围组中的物料提前期的数字。 此外，最好仅使用动态负天数，并将负天数设置为在您的库存为负时，您愿意在订购新补货之前愿意等待的天数（换句话说，愿意进一步延迟需求的天数）。 此外，同一个覆盖范围组中的物料应具有类似提前期。
 
 如果将负天数设置为 **0**（零），并且不使用动态负天数，则 MRP 设置创建新计划订单来履行需求。 在此情况下，务必使用行动消息，以确保库存不会积压。
 

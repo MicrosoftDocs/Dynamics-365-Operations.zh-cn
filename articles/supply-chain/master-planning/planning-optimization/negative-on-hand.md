@@ -1,6 +1,6 @@
 ---
 title: 使用负现有数量进行计划
-description: 此主题介绍在使用计划优化时如何处理负现有量。
+description: 本文介绍在使用计划优化时如何处理负现有量。
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856126"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>使用负现有数量进行计划
 

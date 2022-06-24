@@ -1,6 +1,6 @@
 ---
 title: 分配租赁用户角色
-description: 本主题描述资产租赁中使用的安全角色。 它还说明了如何将用户分配给这些角色。
+description: 本文描述资产租赁中使用的安全角色。 它还说明了如何将用户分配给这些角色。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1a9e7772448314e0c3fd101576c07a5b6508270f
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878122"
 ---
 # <a name="assign-lease-user-roles"></a>分配租赁用户角色
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述资产租赁中使用的安全角色。 它还说明了如何将用户分配给这些角色。
+本文描述资产租赁中使用的安全角色。 它还说明了如何将用户分配给这些角色。
 
 三个用户角色区分资产租赁中的访问权限。 一种角色适合于维护租赁，一种角色适合于查看租赁，而另一种角色适合于履行租赁业务员的职责。 每个角色有所有租赁页面的特定权限，并且每个角色都允许用户根据其工作职责查看，创建，编辑或删除租赁。
 

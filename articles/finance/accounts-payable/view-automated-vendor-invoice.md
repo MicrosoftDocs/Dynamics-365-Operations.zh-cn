@@ -1,6 +1,6 @@
 ---
 title: 查看供应商发票自动化结果（预览）
-description: 本主题说明了如何查看自动提交到工作流程中的供应商发票的状态。
+description: 本文说明了如何查看自动提交到工作流程中的供应商发票的状态。
 author: abruer
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1700f4c4748dc12bf000b25c0d51bc6ed069a97b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: dd9b74d2ed34399aff455563504c296a5a25a874
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895158"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>查看供应商发票自动化结果
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明了如何查看自动提交到工作流程中的供应商发票的状态。 将为每个导入的供应商发票维护自动化历史记录的详细信息。 根据您自动化的业务流程，**待定供应商发票** 页面显示 **自动化收货匹配状态** 和 **自动提交到工作流状态** 值。 您可以查看详细信息并制定计划以侧重于自动化步骤失败的发票。 然后，在更正问题后，您可以恢复导入的发票的自动化流程。
+本文说明了如何查看自动提交到工作流程中的供应商发票的状态。 将为每个导入的供应商发票维护自动化历史记录的详细信息。 根据您自动化的业务流程，**待定供应商发票** 页面显示 **自动化收货匹配状态** 和 **自动提交到工作流状态** 值。 您可以查看详细信息并制定计划以侧重于自动化步骤失败的发票。 然后，在更正问题后，您可以恢复导入的发票的自动化流程。
 
 在编辑已提交的发票之前，必须暂停自动化流程。 如果必须暂停自动提交到工作流程中的发票，请在 **供应商发票** 页面上将 **包括在自动化流程中** 设置为 **否**。 然后，直到 **包括在自动化流程中** 设置为 **是**，才能运行自动化。 如果发票尚未在工作流系统中并且未被自动化流程使用，则可以暂停发票进行进一步自动化。
 

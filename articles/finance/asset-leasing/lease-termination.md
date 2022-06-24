@@ -1,6 +1,6 @@
 ---
 title: 租赁终止方案
-description: 本主题说明如何建议要终止的租赁。
+description: 本文说明如何建议要终止的租赁。
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879644"
 ---
 # <a name="propose-a-lease-for-termination"></a>建议要终止的租赁
 
 [!include [banner](../includes/banner.md)]
 
-如果租赁提前终止，“资产租赁”可以记录终止日记帐条目，以勾销租赁负债、使用权 (ROU) 资产和累计折旧，并计入损益。 提前终止流程将终止租赁及其关联的租赁帐簿。 不会终止单个租赁帐簿。 本主题介绍让您可以建议要终止的租赁并处理租赁终止日记帐条目的功能。
+如果租赁提前终止，“资产租赁”可以记录终止日记帐条目，以勾销租赁负债、使用权 (ROU) 资产和累计折旧，并计入损益。 提前终止流程将终止租赁及其关联的租赁帐簿。 不会终止单个租赁帐簿。 本文介绍让您可以建议要终止的租赁并处理租赁终止日记帐条目的功能。
 
 如果租赁未分类为延期租金处理租赁且未与固定资产关联，资产租赁将生成以下终止日记帐条目。
 
@@ -121,7 +121,7 @@ ms.locfileid: "8720493"
 
 ### <a name="steps-for-terminating-the-lease"></a>终止租赁的步骤
 
-1. 按照本主题前面所述创建租赁后，转到租赁帐簿，并确认付款计划。 然后过帐初始确认日记帐条目。 初始使用权资产为 71,235.81 美元，租赁负债应为 70,235.81 美元。 对于此示例，根据会计准则编纂专题 842 (ASC 842)，租赁被分类为经营性租赁。
+1. 按照本文前面所述创建租赁后，转到租赁帐簿，并确认付款计划。 然后过帐初始确认日记帐条目。 初始使用权资产为 71,235.81 美元，租赁负债应为 70,235.81 美元。 对于此示例，根据会计准则编纂专题 842 (ASC 842)，租赁被分类为经营性租赁。
 2. 运行批处理日记帐流程三遍，模拟三年的租赁付款、利息费用和折旧费用过程。
 3. 运行完所有三个批处理作业后，回到租赁帐簿，然后打开负债和资产交易表以查看使用权资产和租赁负债的当前帐面价值。 三年后，负债的价值应该为大约 -53,893.00 美元，资产的价值应该大约为 54,593.00 美元。
 

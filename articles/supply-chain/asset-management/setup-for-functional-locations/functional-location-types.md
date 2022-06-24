@@ -1,6 +1,6 @@
 ---
 title: 功能位置类型
-description: 本主题介绍如何在资产管理中创建功能位置类型。
+description: 本文介绍如何在资产管理中创建功能位置类型。
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879212"
 ---
 # <a name="functional-location-types"></a>功能位置类型
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739147"
 
  
 
-本主题介绍如何在资产管理中创建功能位置类型。 功能位置类型用于管理功能位置的要求，包括在功能位置如何安装资产。 可设置要对使用特定功能位置类型的功能位置使用的资产类型、维护计划、功能位置属性和资产属性要求。 创建功能位置时，必须使用功能位置类型。
+本文介绍如何在资产管理中创建功能位置类型。 功能位置类型用于管理功能位置的要求，包括在功能位置如何安装资产。 可设置要对使用特定功能位置类型的功能位置使用的资产类型、维护计划、功能位置属性和资产属性要求。 创建功能位置时，必须使用功能位置类型。
 
 >[!NOTE] 
 >要使用功能位置，必须创建仅用于新建资产的默认功能位置。 对于该默认功能位置，应创建真正简单且允许在默认功能位置安装多个资产的默认功能位置类型。 有关如何设置功能位置的详细信息，请参阅[创建功能位置](../functional-locations/create-functional-locations.md)。

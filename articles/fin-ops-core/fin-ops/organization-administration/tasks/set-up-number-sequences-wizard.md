@@ -1,6 +1,6 @@
 ---
 title: 使用向导设置编号规则
-description: 此主题说明如何同时使用向导设置所有必需的数序。
+description: 本文说明如何同时使用向导设置所有必需的数序。
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847054"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>使用向导设置编号规则
 
 [!include [banner](../../includes/banner.md)]
 
-“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。 需要标识符的主数据或交易记录称为“参考”。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 此主题说明如何同时使用向导设置所有必需的数序。 创建此程序的演示数据公司是 USMF。
+“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。 需要标识符的主数据或交易记录称为“参考”。 在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 本文说明如何同时使用向导设置所有必需的数序。 创建此程序的演示数据公司是 USMF。
 
 1. 转到 **导航 > 模块 > 组织管理 > 标号规则 > 编号规则**。
 2. 选择 **生成**。

@@ -1,6 +1,6 @@
 ---
 title: 将 Dynamics 365 Commerce 站点与在线渠道关联
-description: 此主题介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。
+description: 本文介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878665"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>将 Dynamics 365 Commerce 站点与在线渠道关联
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。 
+本文介绍如何将 Microsoft Dynamics 365 Commerce 站点绑定到一个或多个在线商店。 
 
 在使用 Microsoft Dynamics Lifecycle Services (LCS) 门户预配 Dynamics 365 Commerce 电子商务环境之后，即可建立您的第一个电子商务网站。 创建初始站点时，将站点与之前创建的在线商店关联。 此步骤将站点绑定到在线渠道，让站点显示导航层次结构、产品、类别、价格、装运选项和您在在线商店中定义的其他所有项。
 

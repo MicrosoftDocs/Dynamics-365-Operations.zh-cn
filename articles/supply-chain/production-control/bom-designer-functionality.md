@@ -1,6 +1,6 @@
 ---
 title: 物料清单设计器功能
-description: 本主题介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。
+description: 本文介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fda2b1d835afdcf06a50528748861fecc6792f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844198"
 ---
 # <a name="bom-designer-functionality"></a>物料清单设计器功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。
+本文介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。
 
 从 **已发布产品** 页打开 **物料清单设计器** 页后，后者将显示对所选物料有效且针对所选物料进行了审核的物料清单 (BOM) 的层次结构、物料的默认订单站点和实际日期。  
 

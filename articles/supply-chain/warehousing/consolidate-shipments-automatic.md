@@ -1,6 +1,6 @@
 ---
 title: 使用自动下达销售订单合并下达到仓库的装运
-description: 此主题提供以下方案：在同一个自动化发放到仓库定期过程中将多个订单发放到仓库。
+description: 本文提供以下方案：在同一个自动化发放到仓库定期过程中将多个订单发放到仓库。
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 74d4d9d8429095c3fac80db58f14ac2ef0776798
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875063"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>使用自动下达销售订单合并下达到仓库的装运
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供以下方案：在同一个自动化发放到仓库定期过程中将多个订单发放到仓库。 将根据定义为装运合并策略的规则将订单自动合并到装运中。
+本文提供以下方案：在同一个自动化发放到仓库定期过程中将多个订单发放到仓库。 将根据定义为装运合并策略的规则将订单自动合并到装运中。
 
 在此方案中，将创建多组订单并将每组发放到仓库。 然后根据配置的策略查看装运合并期间创建或更新的装运。
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>设置装运合并策略和产品筛选器
 

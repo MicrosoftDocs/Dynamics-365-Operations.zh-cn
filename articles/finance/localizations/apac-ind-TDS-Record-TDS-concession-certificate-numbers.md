@@ -1,6 +1,6 @@
 ---
 title: 记录 TDS 减免证书编号
-description: 本主题说明如何记录发放给供应商的从源扣缴税款 (TDS) 减免证书编号。
+description: 本文说明如何记录发放给供应商的从源扣缴税款 (TDS) 减免证书编号。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846604"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>记录 TDS 减免证书编号
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何记录发放给供应商的从源扣缴税款 (TDS) 减免证书编号。
+本文说明如何记录发放给供应商的从源扣缴税款 (TDS) 减免证书编号。
 
 1. 转到 **税务 \> 间接税 \> 预缴税金 \> 预缴税金减免**。
 2. 在 **税务类型** 字段中，选择 **TDS** 以记录 TDS 税务类型的减免证书。

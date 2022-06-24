@@ -1,6 +1,6 @@
 ---
 title: 创建工作订单
-description: 本主题介绍如何在资产管理中创建工作订单。
+description: 本文介绍如何在资产管理中创建工作订单。
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891196"
 ---
 # <a name="creating-work-orders"></a>创建工作订单
 
@@ -60,7 +60,7 @@ ms.locfileid: "6743690"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>对在维护计划运行时自动创建的工作订单行进行分组
 
-使用此功能，您可以根据维护计划，为在系统设置为自动生成工作订单时对单个工作订单下的工作订单行进行分组定义规则。 以前，自动生成的工作订单只能包含一行。 但是，现在您可以按资产、资产类型或功能位置等对工作订单进行分组。 （手动生成的工作订单可能已经通过这种方式完成了分组，如本主题上一节中所述。）
+使用此功能，您可以根据维护计划，为在系统设置为自动生成工作订单时对单个工作订单下的工作订单行进行分组定义规则。 以前，自动生成的工作订单只能包含一行。 但是，现在您可以按资产、资产类型或功能位置等对工作订单进行分组。 （手动生成的工作订单可能已经通过这种方式完成了分组，如本文上一节中所述。）
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>为自动生成的工作订单启用分组
 

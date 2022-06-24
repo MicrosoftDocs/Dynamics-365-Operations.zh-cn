@@ -1,6 +1,6 @@
 ---
 title: 电子报告组件
-description: 本主题介绍电子报告 (ER) 组件。
+description: 本文介绍电子报告 (ER) 组件。
 author: nselin
 ms.date: 09/28/2021
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892441"
 ---
 # <a name="electronic-reporting-components"></a>电子报告组件
 

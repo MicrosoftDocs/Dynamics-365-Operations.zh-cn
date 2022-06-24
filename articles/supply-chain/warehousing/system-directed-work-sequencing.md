@@ -1,6 +1,6 @@
 ---
 title: 系统导向工作先后顺序
-description: 本主题提供有关系统导向工作先后顺序的信息。 此功能用于对系统提供给用户执行的工作订单排序和筛选。 其在以下场景中很有帮助：需要更多条件才能推动仓库领料流程。
+description: 本文提供有关系统导向工作先后顺序的信息。 此功能用于对系统提供给用户执行的工作订单排序和筛选。 其在以下场景中很有帮助：需要更多条件才能推动仓库领料流程。
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849117"
 ---
 # <a name="system-directed-work-sequencing"></a>系统导向工作先后顺序
 
@@ -44,7 +44,7 @@ ms.locfileid: "7577808"
 
 ### <a name="make-demo-data-available"></a>提供演示数据
 
-若要使用本主题中提供的值完成此场景，使用的系统中必须已安装标准演示数据。 此外，还必须选择 **USMF** 法人。 此场景使用演示数据中的仓库 *51*。
+若要使用本文中提供的值完成此场景，使用的系统中必须已安装标准演示数据。 此外，还必须选择 **USMF** 法人。 此场景使用演示数据中的仓库 *51*。
 
 > [!IMPORTANT]
 > 在将订单下达到仓库之前，请确保领料货位有满足所有订单上的所有物料的足够库存。

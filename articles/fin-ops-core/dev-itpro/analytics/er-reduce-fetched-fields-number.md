@@ -1,6 +1,6 @@
 ---
 title: 通过减少运行时获取的表字段的数量来提高 ER 解决方案的性能
-description: 本主题说明如何通过减少运行时获取的表字段的数量来帮助提高 ER 解决方案的性能。
+description: 本文说明如何通过减少运行时获取的表字段的数量来帮助提高 ER 解决方案的性能。
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847442"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>通过减少运行时获取的表字段的数量来提高 ER 解决方案的性能
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811949"
 
 可以设计[电子申报](general-electronic-reporting.md) (ER) [格式](er-overview-components.md#format-components-for-outgoing-electronic-documents)以生成各种格式的传出单据。 生成单据时，ER 格式调用在相应 ER [模型映射](er-overview-components.md#model-mapping-component)中配置的数据源。 若要配置对申请表、查询或实体的访问以检索记录，可使用 *表记录* 类型的 ER 数据源。 默认情况下，*表记录* 类型的数据源将检索所请求记录中所有字段的值。 但是，您可以配置这种类型的数据源，使其仅获取运行 ER 格式所需的字段值。 此配置有助于减少执行数据检索和进一步记录缓存的应用程序服务器的内存消耗。
 
-要详细了解如何限制 *表记录* 类型的数据源的提取字段列表，请完成此主题中的示例。
+要详细了解如何限制 *表记录* 类型的数据源的提取字段列表，请完成本文中的示例。
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>示例：减少运行时提取的表字段数
 
@@ -49,7 +49,7 @@ ms.locfileid: "8811949"
 
 ### <a name="import-the-sample-er-configurations"></a>导入示例 ER 配置
 
-如果您尚未完成[设计新的 ER 解决方案以打印自定义报告](er-quick-start1-new-solution.md)主题中的示例，请下载并在本地存储 XML 文件，以获取所提供的 ER 解决方案的以下配置。
+如果您尚未完成[设计新的 ER 解决方案以打印自定义报告](er-quick-start1-new-solution.md)一文中的示例，请下载并在本地存储 XML 文件，以获取所提供的 ER 解决方案的以下配置。
 
 | 内容描述            | 文件名 |
 |--------------------------------|-----------|

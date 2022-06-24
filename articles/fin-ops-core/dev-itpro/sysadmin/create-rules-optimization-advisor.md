@@ -1,6 +1,6 @@
 ---
 title: 为优化顾问创建规则
-description: 本主题讨论如何为优化顾问添加新规则。
+description: 本文讨论如何为优化顾问添加新规则。
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850896"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为 **优化顾问** 创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
+本文介绍如何为 **优化顾问** 创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
 
 *规则* 是对应用程序数据的检查。 如果满足规则评估的条件，将产生优化流程或改进数据的机会。 可抓住这些机会，也可以选择衡量措施的影响。 
 

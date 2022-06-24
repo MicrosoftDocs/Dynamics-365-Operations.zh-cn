@@ -1,6 +1,6 @@
 ---
 title: 发票审核移动工作区
-description: 此主题提供有关发票审核移动工作区的信息。
+description: 本文提供有关发票审核移动工作区的信息。
 author: abruer
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868660"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-此主题提供有关 **发票审核** 移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。 
+本文提供有关 **发票审核** 移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。 
 
 此工作区应该与 Finance and Operations mobile 应用程序结合使用。
 

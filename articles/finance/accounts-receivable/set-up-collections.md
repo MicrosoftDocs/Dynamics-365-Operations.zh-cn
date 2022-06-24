@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eee0fe373f246d0f289c80b07dc5da15794b803
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 49f47c48158f833f3d2cc0cad851860e995d3886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870327"
 ---
 # <a name="set-up-collections"></a>设置收款
 
@@ -38,7 +38,7 @@ ms.locfileid: "8725699"
 - 使用 **收款** 页的用户的 Outlook 设置
 - 电子邮件地址
 
-在本主题的其余部分中，将对这些要点进行更详细的讨论。 
+在本文的其余部分，将对这些要点进行更详细的讨论。 
 
 ## <a name="set-up-aging-period-definitions"></a>设置帐龄期间定义
 

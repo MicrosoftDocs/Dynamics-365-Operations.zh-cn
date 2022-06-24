@@ -1,6 +1,6 @@
 ---
 title: 更改促销实体的排序顺序
-description: 此主题介绍与在 Dynamics 365 Commerce 中控制各种促销相关实体的显示顺序有关的概念。
+description: 本文介绍与在 Dynamics 365 Commerce 中控制各种促销相关实体的显示顺序有关的概念。
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847646"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779534"
 
 零售商将产品发现视为所有渠道中的主要客户互动工具。 可通过大量功能帮助客户轻松发现产品。 例如，可以浏览类别，进行搜索或使用筛选。
 
-此主题介绍与控制各种促销相关实体的显示顺序有关的概念。 还介绍了如何更改排序顺序。
+本文介绍与控制各种促销相关实体的显示顺序有关的概念。 还介绍了如何更改排序顺序。
 
 ## <a name="overview"></a>概览
 

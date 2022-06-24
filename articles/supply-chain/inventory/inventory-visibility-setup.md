@@ -1,8 +1,8 @@
 ---
 title: 安装库存可见性加载项
-description: 本主题介绍如何安装适用于 Microsoft Dynamics 365 Supply Chain Management 的库存可见性加载项。
+description: 本文介绍如何安装适用于 Microsoft Dynamics 365 Supply Chain Management 的库存可见性加载项。
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895690"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>安装和设置库存可见性
+# <a name="install-and-set-up-inventory-visibility"></a>安装和设置 Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+本文介绍如何安装适用于 Microsoft Dynamics 365 Supply Chain Management 的库存可见性加载项。
 
-本主题介绍如何安装适用于 Microsoft Dynamics 365 Supply Chain Management 的库存可见性加载项。
+若要安装库存可见性加载项，必须使用 Microsoft Dynamics Lifecycle Services (LCS)。 LCS 是一个协作门户，可提供环境和一组定期更新的服务，以帮助您管理 Finance and Operations 应用的应用程序生命周期。 有关详细信息，请参阅 [Lifecycle Services 资源](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)。
 
-若要安装库存可见性加载项，必须使用 Microsoft Dynamics Lifecycle Services (LCS)。 LCS 是一个协作门户，可提供环境和一组定期更新的服务，以帮助您管理 Finance and Operations 应用的应用程序生命周期。
-
-有关详细信息，请参阅 [Lifecycle Services 资源](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)。
+> [!TIP]
+> 我们建议您加入库存可见性加载项用户组，您可以在其中找到有用的指南，获取我们的最新更新，并发布您可能遇到的有关使用库存可见性的任何问题。 要加入，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 向库存可见性产品团队发送电子邮件，并提供您的 Supply Chain Management 环境 ID。
 
 ## <a name="inventory-visibility-prerequisites"></a>库存可见性的先决条件
 
@@ -44,6 +44,9 @@ ms.locfileid: "8062642"
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>安装库存可见性加载项
 
 安装此加载项之前，请注册应用程序，然后在 Azure 订阅下向 Azure Active Directory (Azure AD) 添加一个客户端密钥。 有关说明，请参阅[注册应用程序](/azure/active-directory/develop/quickstart-register-app)和[添加客户端密钥](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)。 请务必记下 **应用程序（客户端）ID**、**客户端密钥** 和 **租户 ID** 值，因为后面需要这些值。
+
+> [!IMPORTANT]
+> 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 因此，只有最后一次安装有效。
 
 注册应用程序并向 Azure AD 添加客户端密钥后 ，按照以下步骤安装库存可见性加载项。
 
@@ -72,11 +75,18 @@ ms.locfileid: "8062642"
 1. 选择 **安装**。 加载项的状态将显示为 **正在安装**。 在安装完成时，刷新页面。 状态应更改为 **已安装**。
 1. 在 Dataverse 中，在左侧导航中选择 **应用** 部分，并验证是否已成功安装 **库存可见性** Power Apps。 如果 **应用** 部分不存在，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 与库存可见性产品团队联系。
 
-> [!TIP]
-> 我们建议您加入库存可见性加载项用户组，您可以在其中找到有用的指南，获取我们的最新更新，并发布您可能遇到的有关使用库存可见性的任何问题。 要加入，请通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 向库存可见性产品团队发送电子邮件，并提供您的 Supply Chain Management 环境 ID。
-
-> [!IMPORTANT]
-> 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 只有最后安装的才有效。
+> [!NOTE]
+> 如果从 LCS 页面安装需要的时间超过了一个小时，说明您的用户帐户可能无权在 Dataverse 环境中安装解决方案。 请按照以下步骤操作解决此问题：
+>
+> 1. 从 LCS 页面取消库存可见性加载项安装过程。
+> 1. 登录到 [Microsoft 365 管理中心](https://admin.microsoft.com)，确保要用于安装加载项的用户帐户具有分配给它的“Dynamics 365 Unified Operations 计划”许可证。 如果需要，分配许可证。
+> 1. 使用相关用户帐户登录到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)。 然后通过执行以下步骤安装库存可见性加载项：
+>     1. 选择要安装加载项的环境。
+>     1. 选择 **Dynamics 365 应用**。
+>     1. 选择 **安装应用**。
+>     1. 选择 **库存可见性**
+>
+> 1. 安装完成后，返回到 LCS 页面，再次尝试重新安装 **库存可见性** 加载项。
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>卸载库存可见性加载项
 

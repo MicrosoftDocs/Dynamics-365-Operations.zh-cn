@@ -1,6 +1,6 @@
 ---
 title: 配置支出审核人
-description: 本主题介绍如何使用支出审核人动态选择工作流任务、审批或手动决策分配给的用户。
+description: 本文介绍如何使用支出审核人动态选择工作流任务、审批或手动决策分配给的用户。
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863214"
 ---
 # <a name="configure-expenditure-reviewers"></a>配置支出审核人
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ ms.locfileid: "8070138"
 
 ## <a name="set-up-expenditure-reviewers"></a>设置支出审核人
 
-此示例显示如何配置采购申请支出审核人。 若要配置其他类型的支出审核人，请将步骤 1 中的导航路径替换为本主题前面的[支出审核人类型](configure-expenditure-reviewers.md#types-of-expenditure-reviewers)部分中的表中的相应路径。
+此示例显示如何配置采购申请支出审核人。 若要配置其他类型的支出审核人，请将步骤 1 中的导航路径替换为本文前面[支出审核人类型](configure-expenditure-reviewers.md#types-of-expenditure-reviewers)一节中的表中的相应路径。
 
 1. 转到 **采购 \> 设置 \> 策略 \> 采购申请支出审核人**。
 2. 在 **采购申请支出审核人** 页面上，选择 **新建**。

@@ -1,6 +1,6 @@
 ---
 title: 分配编号规则
-description: 本主题说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
+description: 本文说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 71a6f27b4067eadb3d17b6fc14de366fcc441230
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ee7547f9a46034238f2bd6c668c124852b3e0714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845307"
 ---
 # <a name="assign-number-sequences"></a>分配编号规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
+本文说明如何为租赁 ID 创建编号规则。 它还说明了如何创建在索引重估过程中使用的唯一 ID。
 
 1. 转到 **资产租赁 \> 设置 \> 资产租赁参数**。
 2. 选择 **编号规则** 侧选项卡。

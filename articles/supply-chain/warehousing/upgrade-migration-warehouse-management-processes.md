@@ -1,6 +1,6 @@
 ---
 title: 将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management
-description: 此主题提供产品和仓库管理迁移选项的概览。
+description: 本文提供产品和仓库管理迁移选项的概览。
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857074"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-此主题概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Supply Chain Management 的过程。
+本文概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Supply Chain Management 的过程。
 
 Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用 **仓库管理** 模块。 在 WMSII 模块中，可为财务库存选择“库位”和“托盘 ID”库存维度，但是在 Supply Chain Management 中，不能将“托盘 ID”库存维度用于财务库存。
 

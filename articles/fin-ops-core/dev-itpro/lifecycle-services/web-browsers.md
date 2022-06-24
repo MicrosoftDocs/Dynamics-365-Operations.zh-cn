@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services 支持的 Web 浏览器
-description: 本主题列出了 Lifecyle Services 支持的 Web 浏览器。
+description: 本文列出了 Lifecyle Services 支持的 Web 浏览器。
 author: laneswenka
 ms.date: 03/29/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: laswenka
 ms.search.validFrom: 03/22/2022
 ms.search.form: ''
-ms.openlocfilehash: 0ec519cbf0f9a16eaf6adbc13522919ba896ff34
-ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
+ms.openlocfilehash: b609cac2e8219e8d4a0587c37ceb712547457422
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8493433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866300"
 ---
 # <a name="supported-web-browsers-for-lifecycle-services"></a>Lifecycle Services 支持的 Web 浏览器 
 

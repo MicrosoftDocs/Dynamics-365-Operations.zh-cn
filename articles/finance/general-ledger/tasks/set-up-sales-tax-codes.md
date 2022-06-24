@@ -1,6 +1,6 @@
 ---
 title: 设置销售税代码
-description: 本主题说明如何在 Dynamics 365 Finance 中设置销售税代码。
+description: 本文说明如何在 Dynamics 365 Finance 中设置销售税代码。
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858459"
 ---
 # <a name="set-up-sales-tax-codes"></a>设置销售税代码
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何设置销售税代码。 为法人实体必须计算、征收和向销售税主管机构缴纳的所有间接税或关税创建销售税代码。
+本文说明如何设置销售税代码。 为法人实体必须计算、征收和向销售税主管机构缴纳的所有间接税或关税创建销售税代码。
 
 此任务使用 USMF 公司演示。
 

@@ -1,6 +1,6 @@
 ---
 title: 管理属性和属性组
-description: 此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。
+description: 本文介绍如何使用属性通过用户定义的字段介绍产品及其特征。
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876656"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>管理属性和属性组
 
@@ -85,7 +85,7 @@ ms.locfileid: "6727646"
 
 *属性元数据* 用于选择选项来指定各产品的属性的行为。 例如，您可指定是否要求属性，它们是否可用于搜索，和他们是否可用作筛选器。
 
-对于产品，可在渠道级别覆盖属性元数据设置。 此主题后文将介绍此功能。
+对于产品，可在渠道级别覆盖属性元数据设置。 本文后面将介绍此功能。
 
 您可能已经注意到，**属性** 页中包含与属性元数据有关的选项。 在 **POS 属性元数据** 下，一个名称为 **可细化** 的选项影响属性值在零售点 (POS) 中的行为或系统处理这些属性值的方式。 只有可将其 **可细化** 选项设置为 **是** 的属性才会显示以供细化或在 POS 中筛选产品。
 

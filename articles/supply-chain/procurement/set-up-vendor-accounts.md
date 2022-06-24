@@ -1,6 +1,6 @@
 ---
 title: 设置供应商帐户
-description: 此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
+description: 本文介绍在您创建新的供应商帐户时必须指定的信息的类型。
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875266"
 ---
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
+本文介绍在您创建新的供应商帐户时必须指定的信息的类型。
 
 当您创建供应商帐户时，输入有关供应商的信息。 此信息用于在文档中自动输入数据和跟踪涉及供应商的活动。 例如，您可以为供应商配置以下信息：
 
