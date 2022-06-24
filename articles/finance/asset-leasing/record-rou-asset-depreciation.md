@@ -1,6 +1,6 @@
 ---
 title: 记录使用权资产折旧（预览）
-description: 本主题说明如何为组织的资产负债表上确认的租赁所需摊销创建日记帐条目。
+description: 本文说明如何为组织的资产负债表上确认的租赁所需摊销创建日记帐条目。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903267"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>记录使用权资产折旧（预览）
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727697"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-对于在组织资产负债表上确认的租赁，使用权 (ROU) 资产按月摊销。 本主题说明如何为摊销创建日记帐条目。 摊销根据您的过帐配置文件和租赁类型的设置借记费用分类帐科目和贷记累计折旧分类帐科目。 可以为每个租赁创建这些条目，也可以使用批量日记帐功能为多个租赁创建它们。
+对于在组织资产负债表上确认的租赁，使用权 (ROU) 资产按月摊销。 本文说明如何为摊销创建日记帐条目。 摊销根据您的过帐配置文件和租赁类型的设置借记费用分类帐科目和贷记累计折旧分类帐科目。 可以为每个租赁创建这些条目，也可以使用批量日记帐功能为多个租赁创建它们。
 
 ## <a name="asset-depreciation-schedule"></a>资产折旧计划
 
 1. 在 **租赁摘要** 页上，选择一个租赁。 然后选择 **帐簿 \> 资产折旧计划** 打开 **资产折旧计划** 页。
 
-    使用权资产折旧费用日记帐条目基于 **折旧费用** 列中的金额。 有关会计准则合规性指南的示例，请参阅本主题后面的[计算融资租赁的使用权资产摊销费用](#calculation-of-rou-asset-amortization-expense-for-finance-leases)部分。
+    使用权资产折旧费用日记帐条目基于 **折旧费用** 列中的金额。 有关会计准则合规性指南的示例，请参阅本文后面的[计算融资租赁的使用权资产摊销费用](#calculation-of-rou-asset-amortization-expense-for-finance-leases)一节。
     
 2. 选择折旧期间，然后选择 **创建日记帐**。 您将收到一条消息，指出已创建了用于记录折旧的日记帐。
 3. 选择 **日记帐 \> 资产租赁日记帐** 打开 **资产租赁日记帐** 页面，您可以在其中查看创建的折旧费用日记帐条目。

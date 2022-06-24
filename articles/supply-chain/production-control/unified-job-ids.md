@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8ff8fae0bb20b11b15c7520fbb14727ff0372ca0255adc82599c6680a64671af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 301a4bb58f896a2dc0f0cddcd2e29344865ca898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897536"
 ---
 # <a name="unified-number-sequence-for-job-ids"></a>统一作业 ID 编号规则
 
@@ -25,7 +25,7 @@ ms.locfileid: "6748707"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *统一作业 ID 编号规则* 功能。
+如果您的系统尚未包含本文中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *统一作业 ID 编号规则* 功能。
 
 ## <a name="set-up-the-unified-number-sequence-for-job-ids"></a>设置统一作业 ID 编号规则
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 中的新增功能或更改（2021 年 5 月 3 日）
-description: 此主题介绍了 2021 年 5 月 3 日 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 5 月 3 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 05/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902851"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 5 月 3 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -48,9 +48,9 @@ ms.locfileid: "8689766"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 559312 |  为员工创建固定薪酬计划时未显示级别。 |  如果用户所在的时区与公司所在的时区之间存在时区不匹配，无法读取工作的薪酬级别。 此查询已更新为根据 UTC 时间进行提取。 |
 | 573676  | 无法在 **福利计划** 窗体中添加新期间。 | 更新了此窗体，可以在 **福利计划** 中的 **期间** 快速选项卡下启用 **新建** 按钮。 |

@@ -1,6 +1,6 @@
 ---
 title: 多级资产
-description: 本主题介绍如何创建和删除多级资产。
+description: 本文介绍如何创建和删除多级资产。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908763"
 ---
 # <a name="multi-level-assets"></a>多级资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769603"
 
  
 
-本主题介绍如何创建和删除多级资产。 可以按分层树结构创建资产和关联的子资产。 这样就可以显示资产之间的关系和依赖关系。 可以将维护作业与树结构的所有级别关联。 也可以为单个级别创建统计信息，或作为所有子资产级别的总和创建。
+本文介绍如何创建和删除多级资产。 可以按分层树结构创建资产和关联的子资产。 这样就可以显示资产之间的关系和依赖关系。 可以将维护作业与树结构的所有级别关联。 也可以为单个级别创建统计信息，或作为所有子资产级别的总和创建。
 
 在 **所有资产** 列表页（**资产管理** \> **常用** \> **资产** \> **所有资产**）上，**资产** 列按分层顺序列出资产。 **父级** 列显示关联的父级。 此外，如果已经创建了资产和子资产，则 **相关信息** 窗格中的 **资产树** 部分以树结构的形式显示资产。
 

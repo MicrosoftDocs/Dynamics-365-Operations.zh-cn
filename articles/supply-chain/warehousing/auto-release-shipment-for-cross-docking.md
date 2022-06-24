@@ -1,6 +1,6 @@
 ---
-title: 越库配送的自动下达装运
-description: 本主题介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库，以便将数量直接从生产输出位置移动到出库货位。
+title: 自动发放装运以实现越库配送
+description: 本文介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库，以便将数量直接从生产输出位置移动到出库货位。
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903773"
 ---
-# <a name="auto-release-shipment-for-cross-docking"></a>越库配送的自动下达装运
+# <a name="auto-release-shipment-for-cross-docking"></a>自动发放装运以实现越库配送
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库。 以此方式，履行需求订单所需的数量将直接从生产输出位置移动到出库货位。
+本文介绍越库配送策略，当提供需求数量的生产订单完工入库时，它让您可以自动将需求订单下达到仓库。 以此方式，履行需求订单所需的数量将直接从生产输出位置移动到出库货位。
 
 越库配送是一种仓库处理流程，其中履行出站订单所需的数量从接收入站订单的位置定向到订单的出库台或暂存区域。 （入站订单可以是采购订单、转移单或生产订单。）而高级越库配送功能支持所有供应和需求订单，它需要在确定越库配送机会之前下达出站需求，自动下达装运功能具有以下特征：
 

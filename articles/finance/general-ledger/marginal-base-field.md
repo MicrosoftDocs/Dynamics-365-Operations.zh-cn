@@ -1,6 +1,6 @@
 ---
 title: 基于“边际基数”和“计算方法”的销售税比率
-description: 本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
+description: 本文说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
 author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d334b0c5dcce1e5211fb0580872731d38fb87b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 00cdc470397cedfd951e4c3a05a32f048775a4b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903122"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>基于“边际基数”和“计算方法”的销售税比率
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
+本文说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
 
 “销售税代码”页上的“计算”快速选项卡上的“边际基数”确定哪个金额用于从“销售税代码值”页中的比率中选取相应的税率。 “边际基数”字段中的金额类型与“计算方法”字段中的方法组合可确定逻辑来查找交易记录的正确税率。 
 

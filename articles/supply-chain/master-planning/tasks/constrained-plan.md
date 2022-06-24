@@ -1,6 +1,6 @@
 ---
 title: 生成受约束计划
-description: 此主题介绍如何创建涉及物料和产能限制的计划。
+description: 本文介绍如何创建涉及物料和产能限制的计划。
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 65884d556724cd6132fe328e95a5bec78885c174
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904005"
 ---
 # <a name="generate-a-constrained-plan"></a>生成受约束计划
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何创建涉及物料和产能限制的计划。 计划确保，在制造物料可用且资源未超额认购之前，不进行生产。 
+本文介绍如何创建涉及物料和产能限制的计划。 计划确保，在制造物料可用且资源未超额认购之前，不进行生产。 
 
 创建此程序的演示数据公司是 USMF。 此程序是专为生产规划员设计的。
 

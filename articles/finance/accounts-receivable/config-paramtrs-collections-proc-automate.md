@@ -1,6 +1,6 @@
 ---
 title: 为收款流程自动化配置参数
-description: 本主题介绍影响自动收款流程的参数，并提供设置这些参数以使自动流程反映您的意图和期望的指导。
+description: 本文介绍影响自动收款流程的参数，并提供设置这些参数以使自动流程反映您的意图和期望的指导。
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900033"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>为收款流程自动化配置参数
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍影响自动收款流程的参数，并提供设置这些参数以使自动流程反映您的意图和期望的指导。 有关如何自动执行收款流程的信息，请参阅[收款流程自动化](collections-process-automate.md)。
+本文介绍影响自动收款流程的参数，并提供设置这些参数以使自动流程反映您的意图和期望的指导。 有关如何自动执行收款流程的信息，请参阅[收款流程自动化](collections-process-automate.md)。
 
 ## <a name="general"></a>常规
 在 **每个批处理任务的客户百分比** 中输入一个数字，确定每个自动化流程的批处理任务数。 将 **自动过帐催款单** 设置为 **是**，让催款单操作类型在自动化过程中过帐催款单。 将 **为自动化创建活动** 设置为 **是** 创建和关闭非活动操作类型的活动，来查看对帐户执行的所有自动化步骤。 在 **保留收款流程自动化历史记录的天数** 中定义收款历史记录存储的天数。 当发票到达收款流程的最后一步时，如果 **激活最后一个流程步骤后排除发票** 设置为 **是**，它将不会用于创建未来的流程自动化操作类型。 下一个最旧发票将确定下一个流程自动化步骤，以确保继续执行收款流程自动化操作。 

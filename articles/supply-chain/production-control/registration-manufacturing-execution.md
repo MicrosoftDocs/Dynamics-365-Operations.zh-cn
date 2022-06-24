@@ -1,6 +1,6 @@
 ---
 title: 制造执行的登记
-description: 此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。
+description: 本文描述您需要理解才能配置和使用制造执行的重要概念和术语。
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c843bc87c7b9c0676211c8f3363ec3e05ee97d20b3eedc940b9ffaee2d3211fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c43a9d847045f2c029f232d6317268d91ee0129a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907194"
 ---
 # <a name="registration-for-manufacturing-execution"></a>制造执行的登记
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。 
+本文描述您需要理解才能配置和使用制造执行的重要概念和术语。 
 
 制造执行主要由制造公司使用。 工作人员可以使用 **作业登记** 页登记生产作业上的时间和物料消耗。 审核所有登记，随后将它们转移到相关模块。 持续审核和庄毅登记允许经理轻松跟踪生产订单的实际成本。
 

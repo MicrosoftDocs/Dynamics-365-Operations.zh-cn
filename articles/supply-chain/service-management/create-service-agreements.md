@@ -1,6 +1,6 @@
 ---
 title: 创建服务协议
-description: 本主题描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
+description: 本文描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901754"
 ---
 # <a name="create-service-agreements"></a>创建服务协议
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
+本文描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。
 
 ## <a name="create-a-service-agreement-from-service-management"></a>从服务管理创建服务协议
 
@@ -51,10 +51,10 @@ ms.locfileid: "8677245"
 2. 选择 **所有项目**。
 3. 从列表中选择项目。
 4. 在 **操作窗格** 上，选择 **管理**。 在 **新建** 操作组中，选择 **服务** 并选择 **服务协议**。
-5. 按照本主题前文标题为 **创建服务协议** 的章节中的步骤输入项目参考。
+5. 按照本文前面标题为 **创建服务协议** 的章节中的步骤输入项目参考。
 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [形成和确定服务协议概览](service-agreements.md)
 

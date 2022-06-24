@@ -1,6 +1,6 @@
 ---
 title: 收款流程自动化
-description: 本主题介绍收款流程策略的设置流程，这些策略会自动确定要求向客户发送电子邮件提醒、收款活动或催款单的客户发票。
+description: 本文介绍收款流程策略的设置流程，这些策略会自动确定要求向客户发送电子邮件提醒、收款活动或催款单的客户发票。
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486861"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946138"
 ---
 # <a name="collections-process-automation"></a>收款流程自动化
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍自动确定需要发送给客户的电子邮件提醒、收款活动（如电话通话）或催款单的客户账单的收款流程策略的设置流程。 
+本文介绍自动确定需要发送给客户的电子邮件提醒、收款活动（如电话通话）或催款单的客户账单的收款流程策略的设置流程。 
 
 组织经常要花费大量时间来研究帐龄余额报表、客户帐户和未结发票以了解应该就未结发票或帐户余额联系哪些客户。 这项研究会占用收款代理用于与客户通信以催收逾期余额或解决账单争议的时间。 收款流程自动化使您可以为收款流程设置基于策略的方法。 这通过提供自定义的电子邮件提醒或编程的催款单发送流程，帮助您一致地实施收款活动。 
 

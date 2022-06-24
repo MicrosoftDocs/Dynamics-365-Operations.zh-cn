@@ -1,6 +1,6 @@
 ---
 title: 使用工作流管理员工信息
-description: 本主题说明如何使用工作流管理员工信息。
+description: 本文说明如何使用工作流管理员工信息。
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908792"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>使用工作流管理员工信息
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691517"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题说明如何使用人力资源的工作流功能管理员工信息。 例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。
+本文说明如何使用人力资源的工作流功能管理员工信息。 例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。
 
 人力资源的工作流功能提供各种工作流，用于管理人力资源活动。 此外，有许多可用选项，所以您可以修改工作流并将其与申报层次结构关联。 提供工作流是为了帮助管理对多种员工信息类型的更改。 您可以将工作流与职位相关联。 然后，如果员工更改其员工记录，将在保存新信息之前启动要求批准的工作流。 为以下类型的信息预定义了工作流，帮助您有效管理更改和维护员工数据的精确性：
 

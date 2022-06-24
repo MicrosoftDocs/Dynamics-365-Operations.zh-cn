@@ -1,6 +1,6 @@
 ---
 title: 处理分类帐分配日记帐
-description: 此主题介绍如何在 Dynamics 365 Finance 中处理分配请求。
+description: 本文介绍如何在 Dynamics 365 Finance 中处理分配请求。
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902420"
 ---
 # <a name="process-ledger-allocation-journal"></a>处理分类帐分配日记帐
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何处理分配请求。 使用“处理分配请求”页面以创建可在过帐至总帐前检查和审核，或直接过帐至总帐的分配日记帐。 必须至少有一个有效的分类帐分配规则才能创建分配日记帐。 此任务使用 USMF 公司演示。
+本文介绍如何处理分配请求。 使用“处理分配请求”页面以创建可在过帐至总帐前检查和审核，或直接过帐至总帐的分配日记帐。 必须至少有一个有效的分类帐分配规则才能创建分配日记帐。 此任务使用 USMF 公司演示。
 
 1. 在导航窗格中，转到 **总帐 > 分配 > 处理分配请求**。
 2. 在 **规则** 字段中，在下拉菜单中选择所需记录。

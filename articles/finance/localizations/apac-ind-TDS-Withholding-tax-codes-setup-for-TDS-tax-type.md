@@ -1,6 +1,6 @@
 ---
 title: 设置 TDS 税务类型的预缴税金代码
-description: 本主题说明如何设置从源扣缴税款 (TDS) 的税代码。
+description: 本文说明如何设置从源扣缴税款 (TDS) 的税代码。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ced5902b5a2e822f84a40da8149bc319c94973ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fabe14b74c445434c37cb6ee79597d37affb162d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904374"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金代码
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置从源扣缴税款 (TDS) 的税代码。
+本文说明如何设置从源扣缴税款 (TDS) 的税代码。
 
 1. 转到 **税 \> 间接税 \> 预缴税金 \> 预缴税金代码**。
 

@@ -1,6 +1,6 @@
 ---
 title: 资产关键性类型
-description: 本主题介绍资产管理中的资产关键性类型。
+description: 本文介绍资产管理中的资产关键性类型。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899489"
 ---
 # <a name="asset-criticality-types"></a>资产关键性类型
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776912"
 
  
 
-本主题介绍资产管理中的资产关键性类型。 资产关键性与资产关联，并转移到工作订单。 不能在工作订单中更改。 资产关键性用于在计划工作订单时计算工作订单关键性。 换句话说，用于计算资产的维护作业对公司中的生产计划和生产效率的影响程度。 有关与计算工作订单排产的等级评分关联的设置的详细信息，请参阅[资产管理参数](../setup-for-objects/enterprise-asset-management-parameters.md)。
+本文介绍资产管理中的资产关键性类型。 资产关键性与资产关联，并转移到工作订单。 不能在工作订单中更改。 资产关键性用于在计划工作订单时计算工作订单关键性。 换句话说，用于计算资产的维护作业对公司中的生产计划和生产效率的影响程度。 有关与计算工作订单排产的等级评分关联的设置的详细信息，请参阅[资产管理参数](../setup-for-objects/enterprise-asset-management-parameters.md)。
 
 若要设置关键性，首先创建资产设置中应该使用的关键性类型。 然后设置资产关键性。
 

@@ -1,6 +1,6 @@
 ---
 title: 定义供应商付款期限
-description: 本主题说明如何设置供应商发票的付款期限。
+description: 本文说明如何设置供应商发票的付款期限。
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906462"
 ---
 # <a name="define-vendor-payment-terms"></a>定义供应商付款期限
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何设置供应商发票的付款期限。 此任务使用 USMF 公司演示。
+本文说明如何设置供应商发票的付款期限。 此任务使用 USMF 公司演示。
 
 1. 转到 **导航窗格 > 模块 > 应付帐款 > 付款设置 > 付款期限**。
 2. 选择 **新建**。 **支付条款** 页用于定义如何计算到期日。 并非用于定义如何计算现金折扣日期。  

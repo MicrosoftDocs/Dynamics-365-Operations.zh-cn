@@ -1,6 +1,6 @@
 ---
 title: 将渠道映射到电子商务站点
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 中可针对大多数其他业务需求外推的一些更常见的渠道映射方案。
+description: 本文介绍 Microsoft Dynamics 365 Commerce 中可针对大多数其他业务需求外推的一些更常见的渠道映射方案。
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902755"
 ---
 # <a name="map-channels-to-e-commerce-sites"></a>将渠道映射到电子商务站点
 
-本主题介绍 Microsoft Dynamics 365 Commerce 中可针对大多数其他业务需求外推的一些更常见的渠道映射方案。
+本文介绍 Microsoft Dynamics 365 Commerce 中可针对大多数其他业务需求外推的一些更常见的渠道映射方案。
 
 Dynamics 365 Commerce 支持将具有一组已配置产品、价格和折扣的[在线渠道](#channels)映射到[电子商务站点](#e-commerce-sites)客户体验的许多业务方案。
 
-本主题介绍以下方案：
+本文介绍以下方案：
 
 - **具有单一电子商务站点体验的单语言渠道。** 例如，此方案可能涉及为美国英语市场配置的单一品牌站点。
 - **具有单一本地化站点体验的多语言渠道。** 例如，此方案可能涉及为加拿大配置的具有法语和英语语言支持的单一品牌站点。 在此方案中，选择不同语言的用户具有相同的站点体验，但语言被本地化为每个用户选择的语言。
@@ -63,7 +63,7 @@ Dynamics 365 Commerce 支持各种渠道映射方案。 接下来的渠道映射
 
 ![Commerce Headquarters 中突出显示了 Adventure Works 在线商店的法人、货币和语言值。](media/channel-mapping-3.png)
 
-单个在线渠道可以映射到站点生成器中的单个电子商务站点。 有关如何创建新站点并将其映射到渠道的信息，请参阅本主题的[在站点生成器中将渠道映射到站点](#map-a-channel-to-a-site-in-site-builder)部分。
+单个在线渠道可以映射到站点生成器中的单个电子商务站点。 有关如何创建新站点并将其映射到渠道的信息，请参阅本文的[在站点生成器中将渠道映射到站点](#map-a-channel-to-a-site-in-site-builder)一节。
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>具有单一本地化站点体验的多语言渠道
 
@@ -73,7 +73,7 @@ Dynamics 365 Commerce 支持各种渠道映射方案。 接下来的渠道映射
 
 可以为渠道中的每种语言配置其自己的域名。 例如，可以为加拿大英语版本配置 `www.adventure-works.ca` 域，可以为加拿大法语版本配置 `www.adventure-works-fr.ca` 域。 或者，可以在单个域中配置渠道中的不同语言，然后可以为每种语言使用其他路径。 例如，可以为加拿大英语版本配置 `www.adventure-works.ca` 域，然后可以为加拿大法语版本使用 `www.adventure-works.ca/fr` 路径。 还可以启用[地理检测](geo-detection-redirection.md)，以便根据用户的位置自动将用户重定向到正确的站点。
 
-有关如何使客户能够在语言之间手动切换的信息，请参阅本主题的[添加并配置站点选取器模块](#add-and-configure-the-site-picker-module)部分。 有关如何自定义本地化页面和片段的信息，请参阅[管理具有多种渠道和语言的站点内容](#manage-site-content-that-has-multiple-channels-and-languages)部分。
+有关如何使客户能够在语言之间手动切换的信息，请参阅本文的[添加并配置站点选取器模块](#add-and-configure-the-site-picker-module)一节。 有关如何自定义本地化页面和片段的信息，请参阅[管理具有多种渠道和语言的站点内容](#manage-site-content-that-has-multiple-channels-and-languages)部分。
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>具有每种语言的不同站点体验的多语言渠道
 
@@ -87,7 +87,7 @@ Dynamics 365 Commerce 支持各种渠道映射方案。 接下来的渠道映射
 
 在此方案中，可以为每个市场配置其自己的域名。 例如，可以为美国市场配置 `www.adventure-works.com` 域，可以为德国市场配置 `www.adventure-works.de` 域。 或者，可以将每个市场配置为使用其他路径。 例如，可以为美国市场配置 `www.adventure-works.com` 域，然后可以将 `www.adventure-works.com/de` 路径用于德国市场。 还可以启用[地理检测](geo-detection-redirection.md)，以便根据用户的区域自动将用户重定向到正确的站点。
 
-您可能还希望您的站点提供一个下拉列表，以让用户手动切换到特定市场。 有关详细信息，请参阅本主题的[添加并配置站点选取器模块](#add-and-configure-the-site-picker-module)部分。
+您可能还希望您的站点提供一个下拉列表，以让用户手动切换到特定市场。 有关详细信息，请参阅本文的[添加并配置站点选取器模块](#add-and-configure-the-site-picker-module)一节。
 
 有关如何在单个站点上配置多个渠道的信息，请参阅[在电子商务站点上配置多个渠道](#configure-multiple-channels-on-an-e-commerce-site)部分。
 
@@ -180,7 +180,7 @@ Dynamics 365 Commerce 支持各种渠道映射方案。 接下来的渠道映射
 
 具有多个渠道和/或语言的站点存储了每个页面的唯一变体以及每个渠道和语言组合的片段。 此行为使页面变型能够包含本地化数据，但也使您能够灵活地更改特定变型的页面外观。
 
-有关如何使用页面变型的信息，请参阅此主题的[为每种语言实施页面变型](#implement-page-variants-for-each-language)部分。
+有关如何使用页面变型的信息，请参阅本文的[为每种语言实施页面变型](#implement-page-variants-for-each-language)一节。
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>在电子商务站点上配置多个渠道
 

@@ -1,6 +1,6 @@
 ---
-title: 通过仓库管理移动应用的牌照接收
-description: 本主题说明如何设置仓库管理移动应用以支持使用牌照接收流程接收实际库存。
+title: 通过 Warehouse Management 移动应用接收牌照
+description: 本文说明如何设置 Warehouse Management 移动应用以支持使用牌照接收流程接收实际库存。
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906991"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过仓库管理移动应用的牌照接收
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过 Warehouse Management 移动应用接收牌照
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置仓库管理移动应用，以便支持使用牌照接收流程接收实际库存。
+本文说明如何设置 Warehouse Management 移动应用，以便支持使用牌照接收流程接收实际库存。
 
 可使用此功能快速记录与发货通知 (ASN) 有关的入站库存的收货。 当使用仓库管理流程为转移单发货时，系统将自动创建 ASN。 对于采购订单流程，ASN 可以手动创建，也可以使用入站 ASN 数据实体流程自动导入。
 

@@ -1,6 +1,6 @@
 ---
 title: 工资单集成参数
-description: 本主题介绍了 Dynamics 365 Human Resources 工资单集成参数。
+description: 本文介绍了 Dynamics 365 Human Resources 工资单集成参数。
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896088"
 ---
 # <a name="payroll-integration-parameters"></a>工资单集成参数
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069849"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-在使用 Dynamics 365 Human Resources 工资单集成之前，必须如本主题中所述设置参数。
+在使用 Dynamics 365 Human Resources 工资单集成之前，必须如本文中所述设置参数。
 
 ## <a name="enable-payroll-address"></a>启用工资单地址
 

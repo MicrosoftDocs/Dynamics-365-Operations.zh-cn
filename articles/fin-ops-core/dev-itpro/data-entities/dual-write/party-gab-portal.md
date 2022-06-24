@@ -1,6 +1,6 @@
 ---
 title: 将 Microsoft Power Apps 门户与当事方数据模型配合使用
-description: 本主题介绍由于双重写入中的当事方数据模型对 Microsoft Power Apps 门户的 Web 角色的更改。
+description: 本文介绍由于双重写入中的当事方数据模型对 Microsoft Power Apps 门户的 Web 角色的更改。
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898937"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>将 Microsoft Power Apps 门户与当事方数据模型配合使用
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060912"
 
 双重写入应用程序业务流程解决方案版本 2.0.999.0 及更高版本包括对帐户和联系人表的当事方和全球通讯簿的数据模型更改。 这些更改允许支持高级业务方案的多对多关系。 这些更改不受门户 Web 角色支持，包括客户门户，在安装双重写入之前，这些角色是现成的或存在于您的环境中。 为了使 Web 角色按预期工作，您需要使用新的数据模型创建新 Web 角色。 
 
-总而言之，表交互的方式已更改，但是客户门户中的表权限未更改。 本主题说明如何创建与新的高级数据模型一起使用的新 Web 角色。
+总而言之，表交互的方式已更改，但是客户门户中的表权限未更改。 本文说明如何创建与新的高级数据模型一起使用的新 Web 角色。
 
 该图显示了 **没有** 当事方和全球通讯簿数据模型的表关系：
 

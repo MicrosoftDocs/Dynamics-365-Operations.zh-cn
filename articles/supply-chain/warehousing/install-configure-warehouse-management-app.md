@@ -1,6 +1,6 @@
 ---
-title: 安装和连接仓库管理移动应用
-description: 本主题说明如何在每个移动设备上安装仓库管理移动应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
+title: 安装和连接 Warehouse Management 移动应用
+description: 本文说明如何在每个移动设备上安装仓库管理移动应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103405"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941757"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接仓库管理移动应用
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接 Warehouse Management 移动应用
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 本主题介绍如何配置新的仓库管理移动应用。 如果要查找有关如何配置旧仓库应用（现在已弃用）的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
+> 本文介绍如何配置新的 Warehouse Management 移动应用。 如果要查找有关如何配置旧仓库应用（现在已弃用）的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
 
-本主题说明如何在每个移动设备上下载和安装仓库管理移动应用，以及如何配置应用来将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
+本文说明如何在每个移动设备上下载和安装 Warehouse Management 移动应用，以及如何配置应用来将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 
 ## <a name="system-requirements"></a>系统要求
 
@@ -39,7 +39,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 - Windows 10（通用 Windows 平台 \[UWP\]）2018 年 10 月更新 1809（内部版本 10.0.17763）或更高版本
 - Android 4.4 或更高版本
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>在 Supply Chain Management 中打开或关闭 Warehouse Management 移动应用功能
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>在 Supply Chain Management 中打开或关闭 Warehouse Management 移动应用功能
 
 要使用 Warehouse Management 移动应用，必须在您的系统中打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
@@ -87,11 +87,11 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
     ![注册应用程序向导。](media/app-connect-azure-register-wizard.png "注册应用程序向导")
 
-1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本主题后文将此 ID 称为 *客户端 ID*。
+1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本文后面将此 ID 称为 *客户端 ID*。
 
     ![应用程序（客户端）ID。](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
 
-1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本主题后文的[使用证书或客户端密码](#authenticate)部分。）
+1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本文后面的[使用证书或客户端密码](#authenticate)一节。）
 
     - **上传证书** – 上传证书充当密码。 建议使用此方法，因为更安全，也可以更完整地自动执行。 如果要在 Windows 设备上运行仓库管理移动应用，请记下上传证书后显示的 **指纹** 值。 在 Windows 设备上配置证书时需要此值。
     - **新客户端密码** – 通过在 **密码** 部分中输入密钥说明和持续时间创建密钥，然后选择 **添加**。 创建密钥备份，然后安全存储。
@@ -101,7 +101,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
 - 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
-- 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下主题：
+- 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下文章：
 
     - [快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)
     - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
     ![Azure Active Directory 应用程序。](media/app-connect-aad-apps.png "Azure Active Directory 应用程序")
 
 > [!TIP]
-> 使用这些设置的一种方法是在 Azure 中为每个物理设备创建一个客户端 ID，然后将每个客户端 ID 添加到 **Azure Active Directory 应用程序** 页面。 然后，如果设备丢失，您可以通过从该页面删除其客户 ID 来轻松删除其对 Supply Chain Management 的访问权限。 （这种方法之所以有效，是因为保存在每个设备上的连接凭据还指定了一个客户端 ID，如本主题后面所述。）
+> 使用这些设置的一种方法是在 Azure 中为每个物理设备创建一个客户端 ID，然后将每个客户端 ID 添加到 **Azure Active Directory 应用程序** 页面。 然后，如果设备丢失，您可以通过从该页面删除其客户 ID 来轻松删除其对 Supply Chain Management 的访问权限。 （这种方法之所以有效，是因为保存在每个设备上的连接凭据还指定了一个客户端 ID，如本文后面所述。）
 >
 > 此外，每个客户端 ID 的默认语言、数字格式和时区设置由为此处映射的 **用户 ID** 值设置的首选项建立。 因此，您可以使用这些首选项根据客户端 ID 为每个设备或设备集合建立默认设置。 但是，如果这些默认设置也为工作人员用于登录设备的 *仓库应用用户帐户* 定义，这些设置将被覆盖。 （有关详细信息，请参阅[移动设备用户帐户](mobile-device-work-users.md)。）
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>使用证书或客户端密码进行身份验证
 
-使用 Azure AD 进行身份验证可以安全地将移动设备连接到 Supply Chain Management。 可以通过使用客户端密码或证书进行身份验证。 如果将导入连接设置，建议使用证书，不使用客户端密码。 因为客户端密码始终安全存储，所以不能从连接设置文件或 QR 代码导入，如本主题后文所述。
+使用 Azure AD 进行身份验证可以安全地将移动设备连接到 Supply Chain Management。 可以通过使用客户端密码或证书进行身份验证。 如果将导入连接设置，建议使用证书，不使用客户端密码。 因为客户端密码始终安全存储，所以不能从连接设置文件或 QR 代码导入，如本文后面所述。
 
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库管理移动应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 
@@ -266,7 +266,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 1. 输入以下信息：
 
-    - **使用客户端密码** – 将此选项设置为 _是_ 以使用客户端密码和 Supply Chain Management 进行身份验证。 若要使用证书进行身份验证，请将其设置为 _否_。 （有关详细信息，请参阅本主题前面的[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)一节。）
+    - **使用客户端密码** – 将此选项设置为 _是_ 以使用客户端密码和 Supply Chain Management 进行身份验证。 若要使用证书进行身份验证，请将其设置为 _否_。 （有关详细信息，请参阅本文前面的[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)一节。）
     - **连接名称** – 输入新连接的名称。 下次打开连接设置时，将在 **选择连接** 字段中显示此名称。 您输入的名称必须唯一。 （换句话说，如果在设备上存储了其他任何连接名称，该名称必须与这些名称不同。）
     - **Active Directory 客户端 ID** – 输入[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)部分中设置 Azure AD 时记下的客户端 ID。
     - **Active Directory 客户端密码** – 仅当 **使用客户端密码** 选项设置为 _是_，此字段才可用。 输入[在 Azure Active Directory 中创建 Web 服务应用程序](#create-service)部分中设置 Azure AD 时记下的客户端密码。

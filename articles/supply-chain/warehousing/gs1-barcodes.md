@@ -1,6 +1,6 @@
 ---
 title: GS1 条码
-description: 本主题介绍如何设置 GS1 条码和 QR 码，以便可以在仓库中扫描标签。
+description: 本文介绍如何设置 GS1 条码和 QR 码，以便可以在仓库中扫描标签。
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907136"
 ---
 # <a name="gs1-bar-codes"></a>GS1 条码
 
@@ -30,11 +30,11 @@ ms.locfileid: "8625269"
 
 物流经理必须设置所需的应用程序标识符列表，并将每个标识符与适当的移动设备菜单项相关联。 然后，应用程序标识符可跨仓库用作用于移动和装箱目的的全局设置。 因此，所有发货标签都将需要统一窗体。
 
-除非另有说明，否则本主题将使用术语 *条码* 来同时指代线性 (1D) 条码和 2D 条码。
+除非另有说明，否则本文将使用术语 *条码* 来同时指代线性 (1D) 条码和 2D 条码。
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 条码格式
 
-GS1 一般规范指定了哪些符号系统可用于 GS1 条码以及如何对条码中的数据进行编码。 本节简要介绍了此主题。 有关完整详细信息，请参阅 GS1 发布的 [GS1 一般规范](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf)。 GS1 规范文档会定期更新，其中提供的信息来自最新的 GS1 一般规范版本 22.0。
+GS1 一般规范指定了哪些符号系统可用于 GS1 条码以及如何对条码中的数据进行编码。 本节简要介绍了本文内容。 有关完整详细信息，请参阅 GS1 发布的 [GS1 一般规范](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf)。 GS1 规范文档会定期更新，其中提供的信息来自最新的 GS1 一般规范版本 22.0。
 
 GS1 条码使用以下符号系统：
 

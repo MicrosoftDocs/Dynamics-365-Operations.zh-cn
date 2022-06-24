@@ -1,6 +1,6 @@
 ---
-title: 为交易事件创建电子邮件模板
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
+title: 创建交易事件的电子邮件模板
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910542"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
 [!include [banner](includes/banner.md)]
 
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中为交易事件创建、上传和配置电子邮件模板。
 
-Dynamics 365 Commerce 提供现成的解决方案，用于发送提醒客户有交易事件的电子邮件。 例如，在下订单、准备好提货或已装运时可以发送电子邮件。 此主题介绍创建，上传和配置用于发送交易电子邮件的电子邮件模板的步骤。
+Dynamics 365 Commerce 提供现成的解决方案，用于发送提醒客户有交易事件的电子邮件。 例如，在下订单、准备好提货或已装运时可以发送电子邮件。 本文介绍创建，上传和配置用于发送交易电子邮件的电子邮件模板的步骤。
 
 ## <a name="notification-types"></a>通知类型
 

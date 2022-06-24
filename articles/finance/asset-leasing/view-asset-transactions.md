@@ -1,6 +1,6 @@
 ---
 title: 查看负债、资产和费用交易
-description: 本主题说明如何查看租赁资产的交易。 这些交易包括已过帐的租赁负债交易和执行费用交易。
+description: 本文说明如何查看租赁资产的交易。 这些交易包括已过帐的租赁负债交易和执行费用交易。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: be11250a85d160aa71ab76af9cfdb0258fd7bf11
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 552b5a6044950c4dd7547a5239c1b3f7d355dbce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906404"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>查看负债、资产和费用交易
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何查看租赁资产的交易。 这些交易包括已过帐的租赁负债交易和执行费用交易。 多种报表中都使用负债和使用权 (ROU) 资产的帐面价值。 还用于计算调整值。
+本文说明如何查看租赁资产的交易。 这些交易包括已过帐的租赁负债交易和执行费用交易。 多种报表中都使用负债和使用权 (ROU) 资产的帐面价值。 还用于计算调整值。
 
 ## <a name="liability-transactions"></a>负债交易记录
 

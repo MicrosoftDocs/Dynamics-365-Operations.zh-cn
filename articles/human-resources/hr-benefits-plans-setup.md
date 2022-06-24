@@ -1,6 +1,6 @@
 ---
 title: 创建福利计划
-description: 本主题介绍如何在 Dynamics 365 Human Resources 中设置福利计划。
+description: 本文展示如何在 Dynamics 365 Human Resources 中设置福利计划。
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90d4399cce227cfec09a12e02f2e56618a656473
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7815657c4bf3f79d1a04333027cc51b496fe1820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909808"
 ---
 # <a name="create-a-benefit-plan"></a>创建福利计划
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694555"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍如何在 Dynamics 365 Human Resources 中设置福利计划。
+本文展示如何在 Dynamics 365 Human Resources 中设置福利计划。
 
 1. 在 **福利管理** 工作区中，在 **计划** 下，选择 **福利计划**。
 

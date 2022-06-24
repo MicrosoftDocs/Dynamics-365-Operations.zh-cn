@@ -1,6 +1,6 @@
 ---
 title: 定位
-description: 本主题说明如何启用和使用定位。
+description: 本文说明如何启用和使用定位。
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903802"
 ---
 # <a name="anchoring"></a>定位
 
 [!include [banner](../includes/banner.md)]
 
-本主题详细介绍定位流程。 其中介绍了所需的配置，以及当仓库工作人员更改暂存位置或装载位置时运行的逻辑。
+本文详细介绍定位流程。 其中介绍了所需的配置，以及当仓库工作人员更改暂存位置或装载位置时运行的逻辑。
 
 通过定位功能，您可以替代暂存或装载位置。 然后，所有打开的放置将被定向到您指定的新暂存或装载位置。
 
@@ -36,11 +36,11 @@ ms.locfileid: "8676486"
 > [!IMPORTANT]
 > 后续打开放置的位置将仅在从同一工作模板行生成的工作行上更改。 换言之，系统将定位源自同一工作模板行的放置行。
 
-本主题提供了一个展示定位工作原理的场景。 在此场景中，您将创建一组订单并将它们发放到仓库。 然后，您将替代建议的暂存位置，并验证剩余的所有储存工作是否已定向到新位置。
+本文提供了一个展示定位工作原理的场景。 在此场景中，您将创建一组订单并将它们发放到仓库。 然后，您将替代建议的暂存位置，并验证剩余的所有储存工作是否已定向到新位置。
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>场景先决条件：提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 *USMF*。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 *USMF*。
 
 ## <a name="scenario-setup"></a>方案设置
 

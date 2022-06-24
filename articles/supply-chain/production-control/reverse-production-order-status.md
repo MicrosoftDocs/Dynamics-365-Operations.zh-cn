@@ -1,6 +1,6 @@
 ---
 title: 冲销生产订单状态
-description: 此主题描述如何反转生产订单状态。
+description: 本文描述如何反转生产订单状态。
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903947"
 ---
 # <a name="reverse-the-production-order-status"></a>冲销生产订单状态
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述如何反转生产订单状态。 
+本文描述如何反转生产订单状态。 
 
 如果您反转生产订单的状态，订单以及与工艺路线相关联的所有工序都反转到生产生命周期中的前一个步骤。 例如，生产订单状态为 **已计划**，您将状态更改回 **已创建**。 在这种情况下，系统必须首先将状态更改为 **已估计**，此状态将立即位于 **已计划** 之前。 然后可以将状态更改为所需的状态，**已创建**。 **注意：** 如果您的订单已达到状态 **完工入库**，您仍然可以将该订单反转回更早的状态。 但是，您必须重新运行估计和工序级排产、作业级排产或两类排产同时运行，继续更新有关该订单的信息。 需要此步骤的原因在于，也必须重置剩余物料消耗量和运营资源消耗量的任何预留。 本文其余部分将说明在反转生产订单的状态时，通过以下方式查看发生的情况：
 

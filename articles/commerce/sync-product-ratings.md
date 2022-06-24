@@ -1,6 +1,6 @@
 ---
 title: 在 Dynamics 365 Commerce 中同步产品评分
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909327"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中同步产品评分
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中同步产品评分。
 
 若要在全渠道（如销售点 (POS)）中和在呼叫中心中使用产品评分，必须将评分和评价服务中的产品评分导入到 Commerce 渠道数据库中。 当产品评分在全渠道中可用时，可以在客户与销售助理交互时，直接帮助客户。
 
-此主题介绍以下任务：
+本文介绍以下任务：
 
 1. 将 **产品评分同步作业** 配置为批处理作业来同步来自 **评分和评价服务** 的产品评分。
 1. 验证产品评分同步的批处理作业是否成功。

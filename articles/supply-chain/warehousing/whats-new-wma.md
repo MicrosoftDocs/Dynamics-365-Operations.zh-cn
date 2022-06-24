@@ -1,6 +1,6 @@
 ---
-title: Warehouse Management 移动应用中的新增功能或更改的功能
-description: 本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
+title: Warehouse Management 移动应用中的新增功能或更改
+description: 本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能和更改的功能。
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661816"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945714"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20240"></a>版本 2.0.24.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 改进了扫描仪页面，可以启用 **详细信息** 页面上的扫描选项。
+- 改进了手势，如触摸/点击屏幕。
+- 改进了 Android 的性能问题。
+- 修复了多个标题的放置，允许在 **查询** 页面上显示更多卡。
+- 改进了滚动，启用了更短的滚动分页距离。
+- 添加了长按在 **查询** 页面上显示其他文本的功能。
+- 修复了 Android 缺少设备 ID 信息问题。
+- 提高了稳定性。
+- 优化了登录布局。
+- 增加了向右滑动关闭数字键盘、**详细信息** 页面和输入页面上的对话弹出页面的手势。
 
 ## <a name="version-20220"></a>版本 2.0.22.0
 

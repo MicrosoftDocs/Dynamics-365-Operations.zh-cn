@@ -1,6 +1,6 @@
 ---
 title: 供应商与外部供应商的协作
-description: 本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
+description: 本文说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907281"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
 [!include [banner](../includes/banner.md)]
 
-**供应商协作** 模块针对的是没有与 Microsoft Dynamics 365 Supply Chain Management 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商处理采购订单 (PO)、发票、托运库存信息和询价 (RFQ)，也可用来访问一部分供应商主数据。 本主题介绍您可以如何与使用供应商协作界面的外部供应商协作处理 PO、询价和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。
+**供应商协作** 模块针对的是没有与 Microsoft Dynamics 365 Supply Chain Management 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商处理采购订单 (PO)、发票、托运库存信息和询价 (RFQ)，也可用来访问一部分供应商主数据。 本文介绍您可以如何与使用供应商协作界面的外部供应商协作处理 PO、询价和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。
 
 有关外部供应商在供应商协作界面上可执行操作的详细信息，请参阅[供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。
 
 > [!NOTE]
-> 此主题中有关供应商协作的信息仅适用于当前版本的 Supply Chain Management。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 **供应商门户** 模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
+> 本文中有关供应商协作的信息仅适用于当前版本的 Supply Chain Management。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 **供应商门户** 模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
 
 有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
@@ -112,7 +112,7 @@ PO 在 Supply Chain Management 中准备。 采购订单的状态为 **已批准
 <li>替换物料。 </li>
 </ul>
 供应商无法更改价格信息和费用。 但供应商可以使用注释建议这些更改。</td>
-<td>供应商响应将记录为<strong>更改后接受</strong>，但采购订单的状态仍为<strong>正在进行外部审核</strong>。 状态显示供应商已建议的更改类型。 有关自动使用更改的信息，请参阅本主题下面的“在供应商建议更改时更新采购订单”部分。 </td>
+<td>供应商响应将记录为<strong>更改后接受</strong>，但采购订单的状态仍为<strong>正在进行外部审核</strong>。 状态显示供应商已建议的更改类型。 有关自动使用更改的信息，请参阅本文下面的“在供应商建议更改时更新采购订单”一节。 </td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: 处理催款单
-description: 该主题说明如何创建、打印并过帐收款单。
+description: 本文说明如何创建、打印并过帐收款单。
 author: ShivamPandey-msft
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 005ed8fcb6c3c6f985f1cfa9c0a78675173fb208
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fbca4acf30e2c58d8bb615d659b883b574a12aa7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909118"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 
 [!include [banner](../../includes/banner.md)]
 
-该主题说明如何创建、打印并过帐收款单。 此任务使用 USMF 公司演示。
+本文说明如何创建、打印并过帐收款单。 此任务使用 USMF 公司演示。
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>在该过帐上设置收款单的排序
 1. 转到 **导航窗格 > 模块 > 信用和收款 > 设置 > 客户过帐模板**。

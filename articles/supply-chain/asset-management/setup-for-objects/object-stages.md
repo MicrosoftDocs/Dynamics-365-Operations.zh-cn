@@ -1,6 +1,6 @@
 ---
 title: 资产生命周期状态
-description: 本主题介绍资产管理中的资产生命周期状态和生命周期模型。
+description: 本文介绍资产管理中的资产生命周期状态和生命周期模型。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901051"
 ---
 # <a name="asset-lifecycle-states"></a>资产生命周期状态
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722455"
 
  
 
-本主题介绍资产管理中的资产生命周期状态和生命周期模型。 资产生命周期状态用于定义资产有效还是无效。 例如，可将资产生命周期状态设置为 **已创建**、**有效** 和 **已终止**。
+本文介绍资产管理中的资产生命周期状态和生命周期模型。 资产生命周期状态用于定义资产有效还是无效。 例如，可将资产生命周期状态设置为 **已创建**、**有效** 和 **已终止**。
 
 > [!NOTE]
 > - 请求生命周期状态与资产生命周期状态关联。 因此，如果将请求更改为新的请求生命周期状态，与该请求关联的资产将更改为新的资产生命周期状态。 例如，如果将一个请求的生命周期状态更改为 **入站**，则关联资产的生命周期状态将更改为 **资产生命周期状态模型** 页 **资产生命周期状态** 快速选项卡上 **入站生命周期状态** 字段中选择的生命周期状态。 

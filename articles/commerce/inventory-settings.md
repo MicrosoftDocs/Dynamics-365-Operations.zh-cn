@@ -1,6 +1,6 @@
 ---
 title: 应用库存设置
-description: 本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+description: 本文介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909549"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+本文介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 
 库存设置指定在将产品添加到购物车之前是否应该检查库存。 另外还定义与库存相关的促销消息，如“有存货”和“仅剩几个”。 这些设置可确保如果库存不足就不能购买产品。
 

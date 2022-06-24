@@ -1,6 +1,6 @@
 ---
 title: 设置供应商发票策略
-description: 本主题说明如何设置供应商发票策略。
+description: 本文说明如何设置供应商发票策略。
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904721"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>设置供应商发票策略
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何设置供应商发票策略。 在您通过使用 **供应商发票** 页面过帐供应商发票，以及打开供应商发票 **政策违规** 页面时，将运行供应商发票政策。 您还可以配置供应商发票工作流每次运行供应商发票策略发票您提交到工作流。 
+本文说明如何设置供应商发票策略。 在您通过使用 **供应商发票** 页面过帐供应商发票，以及打开供应商发票 **政策违规** 页面时，将运行供应商发票政策。 您还可以配置供应商发票工作流每次运行供应商发票策略发票您提交到工作流。 
 
 - 供应商发票此策略不适用于在发票登记簿或发票日志中创建的发票。  
 - 发票匹配验证并不使用供应商发票政策，但是，需在 **应付帐款参数** 页面进行设置。  

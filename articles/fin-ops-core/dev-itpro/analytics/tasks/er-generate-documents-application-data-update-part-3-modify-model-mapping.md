@@ -1,6 +1,6 @@
 ---
 title: 修改模型和映射以生成包含应用程序数据的单据
-description: 本主题介绍如何设计报告配置以生成电子文档与更新应用程序数据。 （第 2 部分 - 生成文档）。
+description: 本文介绍如何设计报告配置以生成电子文档与更新应用程序数据。 （第 2 部分 - 生成文档）。
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797057112e9476389655b870fd729acd33d57e43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908288"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>修改模型和映射以生成包含应用程序数据的单据
 

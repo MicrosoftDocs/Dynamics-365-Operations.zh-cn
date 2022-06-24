@@ -1,6 +1,6 @@
 ---
 title: 根据付款和本票的 TDS 计算
-description: 本主题提供有关计算从源扣缴税款 (TDS) 的不同付款交易的参考信息。
+description: 本文提供有关计算从源扣缴税款 (TDS) 的不同付款交易的参考信息。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906309"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>根据付款和本票的 TDS 计算
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关计算从源扣缴税款 (TDS) 的不同付款交易的参考信息。
+本文提供有关计算从源扣缴税款 (TDS) 的不同付款交易的参考信息。
 
 | 序列号 | 交易记录类型 | 交易记录金额 | 页面名称和路径 | 帐户类型和抵销帐户类型 |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

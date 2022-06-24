@@ -1,6 +1,6 @@
 ---
 title: 资产度量
-description: 本主题介绍如何在资产管理中创建资产度量类型。
+description: 本文介绍如何在资产管理中创建资产度量类型。
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909663"
 ---
 # <a name="counters"></a>计数器
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何在资产管理中创建计数器类型。 计数器类型用于创建资产的计数器登记，如有关资产的生产工时数或生产数量。 资产类型与计数器类型关联。 这表示如果为资产使用的资产类型设置了计数器，则该计数器只能用于这个资产。
+本文介绍如何在资产管理中创建计数器类型。 计数器类型用于创建资产的计数器登记，如有关资产的生产工时数或生产数量。 资产类型与计数器类型关联。 这表示如果为资产使用的资产类型设置了计数器，则该计数器只能用于这个资产。
 
 创建资产的计数器登记时，请首先在 **计数器** 中创建要使用的计数器类型。 然后，在 **计数器** 中创建资产的计数器登记。 
 

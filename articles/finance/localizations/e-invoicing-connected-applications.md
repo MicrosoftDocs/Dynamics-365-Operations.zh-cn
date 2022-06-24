@@ -1,6 +1,6 @@
 ---
 title: 已连接的应用程序
-description: 本主题说明如何在电子开票中设置连接的应用程序。
+description: 本文说明如何在电子开票中设置连接的应用程序。
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906278"
 ---
 # <a name="connected-applications"></a>已连接的应用程序
 
@@ -39,7 +39,7 @@ ms.locfileid: "8371503"
 3. 在 **环境设置** 页上的操作窗格上，选择 **相连应用程序**。
 4. 选择 **新建** 创建连接的应用程序。
 5. 在 **名称** 字段中，输入要连接的应用程序的名称。
-6. 在 **类型** 字段中，选择 **Dynamics 365 Finance**。
+6. 在 **类型** 字段中选择 **Dynamics 365 Finance**。
 7. 在 **应用程序** 字段中，输入要连接的环境的 URL。
 8. 在 **租户** 字段中，输入环境的租户。
 9. 选择 **保存**。

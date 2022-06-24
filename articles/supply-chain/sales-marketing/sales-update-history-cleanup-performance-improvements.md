@@ -1,6 +1,6 @@
 ---
 title: 计划销售历史记录数据清理
-description: 本主题介绍如何通过计划以定期销间隔运行的售更新历史记录清理定期任务来帮助提高系统性能。
+description: 本文介绍如何通过计划以定期销间隔运行的售更新历史记录清理定期任务来帮助提高系统性能。
 author: myvakalo
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900816"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>计划销售历史记录数据清理
 
@@ -28,7 +28,7 @@ ms.locfileid: "8570351"
 
 ## <a name="turn-on-the-sales-history-cleanup-features"></a>启用销售历史记录清理功能
 
-要设置和使用 *销售更新历史记录清理* 定期任务以及本主题中所述的所有功能，您必须在“功能管理”中启用 *销售历史记录清理性能改进* 和 *根据使用时间清理销售更新历史记录*，如以下各小节所述。
+要设置和使用 *销售更新历史记录清理* 定期任务以及本文中所述的所有功能，您必须在“功能管理”中启用 *销售历史记录清理性能改进* 和 *根据使用时间清理销售更新历史记录*，如以下各小节所述。
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>销售历史记录清除性能改进
 

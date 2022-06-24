@@ -1,6 +1,6 @@
 ---
 title: 会计日历、会计年度和期间
-description: 本主题讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
+description: 本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909089"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>会计日历、会计年度和期间
 
 [!include [banner](../includes/banner.md)]
 
-本主题讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
+本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
 
 会计年度为组织的财务活动提供一个框架。 每个会计年度包含一个或多个会计年度，并且每个会计年度包含多个期间。 会计年度可以基于一个 1 月 1 日到 12 月 31 日的日历年度，或者您选择的任意日期。 例如，选择在一年的 7 月 1 日开始并且在下一年的 6 月 30 日结束的会计日历。 
 

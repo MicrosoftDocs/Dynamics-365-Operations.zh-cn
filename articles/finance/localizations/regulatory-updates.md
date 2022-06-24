@@ -1,6 +1,6 @@
 ---
 title: 监管更新
-description: 此主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
+description: 本文提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904272"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出在 Dynamics 365 Finance 支持的本地化中计划和发布的监管更新。 交付时间线可能更改，并且计划功能可能不同或可能不发布。 有关详细信息，请参阅 [Microsoft 政策](https://go.microsoft.com/fwlink/p/?linkid=2007332)。 
+本文列出在 Dynamics 365 Finance 支持的本地化中计划和发布的监管更新。 交付时间线可能更改，并且计划功能可能不同或可能不发布。 有关详细信息，请参阅 [Microsoft 政策](https://go.microsoft.com/fwlink/p/?linkid=2007332)。 
 
 监管更新是为了支持新的或更改的、国家/地区特定的法规而实施的功能。 有关特定于国家/地区的已计划和已发布监管更新的更多信息，请参阅 [Dynamics 365 和 Power Platform 发布计划](/business-applications-release-notes/index)。
 

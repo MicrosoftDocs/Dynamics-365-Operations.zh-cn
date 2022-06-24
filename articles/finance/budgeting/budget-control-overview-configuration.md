@@ -1,6 +1,6 @@
 ---
 title: 预算控制概览
-description: 本主题介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
+description: 本文介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898289"
 ---
 # <a name="budget-control-overview"></a>预算控制概览
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
+本文介绍预算控制功能，并提供信息来帮助您配置预算控制以优化组织财务资源的管理。
 
 预算控制通过会计科目表、工作流、用户组、原始单据和日记帐、可配置的可用资金计算、预算周期和阈值支持组织的财务资源管理。 在提供控制时，组织可以在其整个会计年度中计划、衡量、管理和预测其财务资源。 
 

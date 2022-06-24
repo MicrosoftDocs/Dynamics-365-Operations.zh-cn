@@ -1,6 +1,6 @@
 ---
-title: 设置自动过帐到默认描述
-description: 本主题说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
+title: 设置自动过帐的默认描述
+description: 本文说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904490"
 ---
-# <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐到默认描述
+# <a name="set-up-default-descriptions-for-automatic-posting"></a>设置自动过帐的默认描述
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
+本文说明如何设置用于介绍自动过帐到总帐的会计条目的默认文本。 您可以使用自由格式的文本或通过选择固定变量设置默认描述文本。
 
 > [!NOTE]
-> 对于一些国家或地区的某些交易记录类型，您还可以包括与这些交易记录类型相关的字段的文本。 有关交易记录类型以及国家和地区的列表，请参阅本主题后面的[可选：向默认描述添加其他文本](#optional-add-other-text-to-default-descriptions)一节。
+> 对于一些国家或地区的某些交易记录类型，您还可以包括与这些交易记录类型相关的字段的文本。 有关交易记录类型以及国家和地区的列表，请参阅本文后面的[可选：向默认描述添加其他文本](#optional-add-other-text-to-default-descriptions)一节。
 
 ## <a name="set-up-default-descriptions"></a>设置默认描述
 
@@ -78,7 +78,7 @@ ms.locfileid: "8722427"
 
 ### <a name="add-text-to-default-descriptions"></a>向默认描述添加其他文本
 
-完成本主题前面的[设置默认描述](#set-up-default-descriptions)一节中的步骤后，执行以下步骤，以向默认描述添加其他文本。
+完成本文前面的[设置默认描述](#set-up-default-descriptions)一节中的步骤后，执行以下步骤，以向默认描述添加其他文本。
 
 1. 在 **参数** 快速选项卡上，选择 **添加**。
 2. 在 **引用表** 字段中，选择要从其中将参数数据添加到描述的数据库表。

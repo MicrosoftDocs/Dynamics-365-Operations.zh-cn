@@ -1,6 +1,6 @@
 ---
 title: 设置银行对帐匹配规则
-description: 本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
+description: 本文说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
 author: panolte
 ms.date: 08/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 218b07908fe88937d3f495ded356fe4a3606110b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: baea7ea7ec98c905e9ae896a8cf1e4ac54fb4a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899920"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>设置银行对帐匹配规则
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
+本文说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
 
 您可以设置对帐匹配规则和对帐匹配规则集以帮助银行对帐过程。 对帐匹配规则是用于在对帐过程中筛选银行对帐单行和 Dynamics 365 Finance 银行交易记录行的一组条件。 使用 **对帐匹配规则** 页可以设置对帐匹配规则。 您可以设置多个匹配规则，然后在 **对帐匹配规则集** 页上创建对帐匹配规则集。 
 

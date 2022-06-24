@@ -1,6 +1,6 @@
 ---
 title: Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
-description: 本主题提供了有关 Dynamics 365 Commerce 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
+description: 本文提供了有关 Dynamics 365 Commerce 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897217"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 
 [!include [banner](includes/banner.md)]
 
-本主题提供了有关 Dynamics 365 Commerce 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
+本文提供了有关 Dynamics 365 Commerce 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
 
 ## <a name="overview"></a>概览
 
-包括在 Commerce 演示数据中的示例屏幕布局提供为各个零售段、商店工作人员角色和设备优化的内容。 一个布局可以包含多个布局大小和按钮网格组合，以在商店工作人员在设备和工作站之间移动时帮助确保覆盖范围。 此主题突出介绍了这些布局之间的区别、它们提供的操作和整体体验。
+包括在 Commerce 演示数据中的示例屏幕布局提供为各个零售段、商店工作人员角色和设备优化的内容。 一个布局可以包含多个布局大小和按钮网格组合，以在商店工作人员在设备和工作站之间移动时帮助确保覆盖范围。 本文重点介绍了这些布局之间的区别、它们提供的操作和整体体验。
 
 ![跨设备演示数据布局。](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "6761654"
 | 字母 | 公司         |
 |--------|-----------------|
 | A      | Adventure Works |
-| 五      | Fabrikam        |
+| F      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>布局版本

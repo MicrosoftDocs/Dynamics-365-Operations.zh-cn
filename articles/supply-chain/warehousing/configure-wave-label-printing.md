@@ -1,6 +1,6 @@
 ---
 title: 波次标签打印
-description: 本主题介绍了波次标签打印并解释了如何进行设置。
+description: 本文介绍了波次标签打印并解释了如何进行设置。
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901812"
 ---
 # <a name="wave-label-printing"></a>波次标签打印
 
@@ -49,7 +49,7 @@ ms.locfileid: "7778075"
 这些增强功能让在安装货盘前为货箱附加标签更加高效。 它们特别有利于向那些通过分别扫描每个货箱自动确认订单收货的大型零售商发货的公司。
 
 > [!NOTE]
-> 您可以根据业务要求单独或组合实现本主题中介绍的配置方案。 您可以设计几个按顺序工作的波次标签模板（如方案 3 所示）。 例如，您可以使用方案 1 打印货箱标签，使用方案 2 打印托盘标签（如果存货的托盘在尺寸和构成方面不同）。
+> 您可以根据业务要求单独或组合实现本文中介绍的配置方案。 您可以设计几个按顺序工作的波次标签模板（如方案 3 所示）。 例如，您可以使用方案 1 打印货箱标签，使用方案 2 打印托盘标签（如果存货的托盘在尺寸和构成方面不同）。
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>开启波次标签打印功能
 
