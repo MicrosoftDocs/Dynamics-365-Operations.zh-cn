@@ -1,6 +1,6 @@
 ---
 title: 处理、审核和过帐返点
-description: 本主题介绍如何处理返点管理交易、计算其折扣、审核生成的交易记录、过帐交易记录和审核过帐。
+description: 本文介绍如何处理返点管理交易、计算其折扣、审核生成的交易记录、过帐交易记录和审核过帐。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901928"
 ---
 # <a name="process-review-and-post-rebates"></a>处理、审核和过帐返点
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何处理返点管理交易、计算其折扣、审核生成的交易记录、过帐交易记录和审核过帐。
+本文介绍如何处理返点管理交易、计算其折扣、审核生成的交易记录、过帐交易记录和审核过帐。
 
 ## <a name="change-the-status-of-a-deal"></a>更改交易的状态
 
@@ -45,7 +45,7 @@ ms.locfileid: "8690265"
 
 您可以创建在创建适用的返点管理交易之前或之后具有源交易记录的销售订单或采购订单。
 
-您可以设置每个交易行，以便通过过帐销售订单或采购订单的交货或发票来自动创建返点预配。 将交易行的 **交易记录类型** 字段设置为 *交货* 或 *发票*，并将 **过帐时处理** 选项设置为 *是*。 如果 **交易记录类型** 字段设置为 *订单*，则禁用了“过帐时处理”。 对于在激活交易后创建的源交易记录，您仍然可以按照此主题后面的[处理返点管理交易](#process-deals)部分中所述来处理该预配。
+您可以设置每个交易行，以便通过过帐销售订单或采购订单的交货或发票来自动创建返点预配。 将交易行的 **交易记录类型** 字段设置为 *交货* 或 *发票*，并将 **过帐时处理** 选项设置为 *是*。 如果 **交易记录类型** 字段设置为 *订单*，则禁用了“过帐时处理”。 对于在激活交易后创建的源交易记录，您仍然可以按照本文后面的[处理返点管理交易](#process-deals)一节中所述来处理该预配。
 
 ### <a name="enable-price-details"></a>允许价格详细信息
 

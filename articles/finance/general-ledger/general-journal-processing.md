@@ -1,6 +1,6 @@
 ---
 title: 普通日记帐处理
-description: 本主题介绍 Microsoft Dynamics 365 Finance 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。
+description: 本文介绍 Microsoft Dynamics 365 Finance 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896367"
 ---
 # <a name="general-journal-processing"></a>普通日记帐处理
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。  
+本文介绍可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。  
 
 ## <a name="journal-names"></a>日记帐名称
 

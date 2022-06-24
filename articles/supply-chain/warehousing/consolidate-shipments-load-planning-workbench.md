@@ -1,6 +1,6 @@
 ---
 title: 通过从装载计划工作台下达到仓库合并装运
-description: 此主题提供以下方案：通过同一个装载将多个订单发放到仓库，然后将其合并到装运中。
+description: 本文提供以下方案：通过同一个装载将多个订单发放到仓库，然后将其合并到装运中。
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3d74a4171bc8d601d034afb9b7f12634a8f9dbed
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36a68328ddd1b19e116598fb93ac17405a9c5ed4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888345"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>通过从装载计划工作台下达到仓库合并装运
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供以下方案：通过同一个装载将多个订单发放到仓库，然后将其合并到装运中。
+本文提供以下方案：通过同一个装载将多个订单发放到仓库，然后将其合并到装运中。
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>设置装运合并策略和产品筛选器
 

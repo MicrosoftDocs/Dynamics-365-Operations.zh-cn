@@ -1,6 +1,6 @@
 ---
 title: 成本对象控制器的访问权限
-description: 此主题提供关于成本对象控制员访问权限的信息。
+description: 本文提供关于成本对象控制员访问权限的信息。
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903180"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>成本对象控制器的访问权限
 
@@ -35,10 +35,10 @@ ms.locfileid: "8733869"
 |-------------------------|--------------|
 | 成本会计经理 | 活动     |
 | 成本核算师         | Operations   |
-| 成本核算师   | Operations   |
-| 成本对象控制器  | 团队成员 |
+| 成本核算专员   | 工序   |
+| 成本对象控制专员  | 团队成员 |
 
-此主题说明如何向经理分配 **成本对象控制员** 角色。
+本文说明如何向经理分配 **成本对象控制员** 角色。
 
 将 **成本对象控制员** 角色分配到经理后，经理可执行以下任务：
 
@@ -95,7 +95,7 @@ ms.locfileid: "8733869"
 
 > [!IMPORTANT]
 > - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
-> - 此主题说明使用 **成本控制** 工作区前必须具备的先决条件。
+> - 本文说明使用 **成本控制** 工作区前必须具备的先决条件。
 
 其他资源
 

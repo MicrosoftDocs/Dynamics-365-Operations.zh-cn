@@ -1,6 +1,6 @@
 ---
 title: TDS 计算的公式设计器
-description: 本主题提供了如何基于为附加到交易的 TDS 组中每个 TDS 税码定义的公式计算从源扣缴税款 (TDS) 的示例。
+description: 本文提供了如何基于为附加到交易的 TDS 组中每个 TDS 税码定义的公式计算从源扣缴税款 (TDS) 的示例。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889852"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>TDS 计算的公式设计器
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了如何基于为每个 TDS 税码定义的公式计算从源扣缴税款 (TDS) 的示例。 TDS 税码在附加到交易的 TDS 组中定义。 在设计 TDS 公式之前，请完成 TDS 所需的基本设置，如以下步骤所示。 
+本文提供了如何基于为每个 TDS 税码定义的公式计算从源扣缴税款 (TDS) 的示例。 TDS 税码在附加到交易的 TDS 组中定义。 在设计 TDS 公式之前，请完成 TDS 所需的基本设置，如以下步骤所示。 
 
 - 使用 **预缴税金组分组** 页面设置 TDS 组分组。 
 - 使用 **预缴税金组分** 页面设置 TDS 组分，并将 TDS 组分组附加到 TDS 组分。 

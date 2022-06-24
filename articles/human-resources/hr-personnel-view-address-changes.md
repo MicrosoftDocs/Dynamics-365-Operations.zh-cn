@@ -1,6 +1,6 @@
 ---
 title: 查看和管理地址更改
-description: 本主题说明如何在 Dynamics 365 Human Resources 中查看和管理地址更改。
+description: 本文说明如何在 Dynamics 365 Human Resources 中查看和管理地址更改。
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899576"
 ---
 # <a name="view-and-manage-address-changes"></a>查看和管理地址更改
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695835"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题说明如何在 Dynamics 365 Human Resources 中的 **编辑个人详细信息** 页面（从 **员工自助服务** 工作区打开）或 **工作人员** 详细信息页面查看和管理地址更改。
+本文说明如何在 Dynamics 365 Human Resources 中的 **编辑个人详细信息** 页面（从 **员工自助服务** 工作区打开）或 **工作人员** 详细信息页面查看和管理地址更改。
 
 很多组织希望员工通过自助服务体验来管理自己的个人详细信息。 您可以允许用户在 **员工自助服务** 工作区更新他们的地址。 然后，可以在 **人事管理** 工作区监视这些更改。 要使用此功能，您必须在 **人力资源参数** 页面中指定要查看更改的天数。
 

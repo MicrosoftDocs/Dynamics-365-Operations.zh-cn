@@ -1,6 +1,6 @@
 ---
 title: 云和边缘缩放单元的仓库订单
-description: 本主题提供有关仓库订单功能的信息，它是仓库缩放单元工作负荷的一部分。
+description: 本文提供有关仓库订单功能的信息，它是仓库缩放单元工作负荷的一部分。
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893517"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库订单
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> 当使用缩放单元工作负荷时，并非所有业务功能都在公开预览版中完全受支持。 如果您使用的是缩放单元，请确保仅使用本主题明确描述为受支持的那些流程。
+> 当使用缩放单元工作负荷时，并非所有业务功能都在公开预览版中完全受支持。 如果您使用的是缩放单元，请确保仅使用本文明确描述为受支持的那些流程。
 
 ## <a name="what-are-warehouse-orders"></a>什么是仓库订单？
 

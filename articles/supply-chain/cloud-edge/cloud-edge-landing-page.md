@@ -1,6 +1,6 @@
 ---
 title: 分布式混合拓扑中的缩放单元
-description: 本主题提供有关制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit 的信息。
+description: 本文提供有关制造和仓库管理工作负荷的 Cloud Scale Unit 和 Edge Scale Unit 的信息。
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893662"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>分布式混合拓扑中的缩放单元
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676319"
 > [!IMPORTANT]
 > 根据管理服务使用的条款向您提供 Microsoft Dynamics 365 Supply Chain Management 的缩放单元功能。 有关详细信息，请参阅 [Microsoft Dynamics 法律信息](https://go.microsoft.com/fwlink/?LinkID=290927)。
 >
-> 当启用 Cloud Scale Unit 和 Edge Scale Unit 时，系统将要求您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本主题后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
+> 当启用 Cloud Scale Unit 和 Edge Scale Unit 时，系统将要求您确认了解与 Cloud Scale Unit 和 Edge Scale Unit 的配置和处理相关的某些数据可能存储在位于美国的数据中心中。 若要了解有关 Cloud Scale Unit 和 Edge Scale Unit 的数据处理的详细信息，请参阅本文后面的[缩放单元管理期间的数据处理](#data-processing-management)部分。
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>分布式混合拓扑的核心价值主张
 
@@ -48,7 +48,7 @@ ms.locfileid: "8676319"
 
 *工作负荷* 是一组定义的业务功能，可以进行分解并委派给缩放单元。 尽管已发布仓库管理的工作负荷，但制造执行的工作负荷仍处于预览状态。
 
-您可以使用[缩放单元管理器门户](https://sum.dynamics.com)为选定工作负荷配置中心环境和 Cloud Scale Unit。 您还可以针对每个缩放单元分配多个工作负荷。 有关当前版本中 Cloud Scale Unit 的先决条件和限制的信息，请参阅本主题后面的 [Cloud Scale Unit 的先决条件和限制](#cloud-scale-unit-prerequisites)部分。
+您可以使用[缩放单元管理器门户](https://sum.dynamics.com)为选定工作负荷配置中心环境和 Cloud Scale Unit。 您还可以针对每个缩放单元分配多个工作负荷。 有关当前版本中 Cloud Scale Unit 的先决条件和限制的信息，请参阅本文后面的 [Cloud Scale Unit 的先决条件和限制](#cloud-scale-unit-prerequisites)部分。
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>缩放单元中的专用仓库管理工作负荷功能
 

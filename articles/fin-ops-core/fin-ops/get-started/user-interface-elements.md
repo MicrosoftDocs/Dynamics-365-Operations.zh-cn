@@ -1,6 +1,6 @@
 ---
 title: 用户界面元素
-description: 此主题介绍应用程序中的用户界面 (UI) 元素。
+description: 本文介绍应用中的用户界面 (UI) 元素。
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906491"
 ---
 # <a name="user-interface-elements"></a>用户界面元素
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-此主题介绍应用程序中使用的用户界面 (UI) 元素。 浏览界面之前，务必了解构成界面的元素的名称和功能。
+本文介绍应用中使用的用户界面 (UI) 元素。 浏览界面之前，务必了解构成界面的元素的名称和功能。
 
 ## <a name="overview"></a>概览
 

@@ -1,6 +1,6 @@
 ---
 title: 设计 ER 配置以填写 PDF 模板
-description: 本主题介绍如何设计电子申报 (ER) 格式以填写 PDF 模板。
+description: 本文介绍如何设计电子报告 (ER) 格式以填写 PDF 模板。
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,26 +14,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908581"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>设计 ER 配置以填写 PDF 模板
 
 [!include[banner](../includes/banner.md)]
 
-本主题中的过程为示例，用于演示 **系统管理员** 角色或 **电子申报开发人员** 角色的用户如何通过将可填写 PDF 文档用作报表模板来配置用于生成 PDF 文件格式报表的电子申报 (ER) 格式。 Dynamics 365 Finance 或 Regulatory Configuration Services (RCS) 的任何公司都可以执行这些步骤。
+本文中的过程为示例，用于演示 **系统管理员** 角色或 **电子报告开发人员** 角色的用户如何通过将可填写 PDF 文档用作报表模板来配置用于生成 PDF 文件格式报表的电子报告 (ER) 格式。 Dynamics 365 Finance 或 Regulatory Configuration Services (RCS) 的任何公司都可以执行这些步骤。
 
 ## <a name="prerequisites"></a>先决条件
 
-首先，您必须具有下列访问权限类型之一，具体取决于您用于完成本主题中的过程的服务。
+首先，您必须具有下列访问权限类型之一，具体取决于您用于完成本文中的过程的服务。
 
 - 访问 Finance 的以下其中一个角色：
 
-    - 电子申报开发人员
+    - 电子报告开发人员
     - 电子申报功能顾问
     - 系统管理员
 

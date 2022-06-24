@@ -1,6 +1,6 @@
 ---
 title: 产品配置模型的计算常见问题
-description: 本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。
+description: 本文描述产品配置模型的计算，并说明如何与约束一起使用计算。
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890935"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。
+本文描述产品配置模型的计算，并说明如何与约束一起使用计算。
 
 计算可以用于算术运算或逻辑运算。 它们补充产品配置模型的表达式约束。 您可以在 **基于约束的产品配置模型详细信息** 页上定义计算，然后在表达式编辑器中构建计算表达式。 有关详细信息，请参阅“创建计算”。
 

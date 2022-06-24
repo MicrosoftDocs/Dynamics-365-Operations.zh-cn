@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改，2021 年 1 月 28 日
-description: 此主题介绍了 2021 年 1 月 28 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 1 月 28 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 01/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d59e242421b1b86c32f9009ae6ae17e0f161a2e2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 46bbda21c3eb2b32030b93afc2a40785c22b124e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909750"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Dynamics 365 Human Resources 的新增功能或更改，2021 年 1 月 28 日
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -48,10 +48,10 @@ ms.locfileid: "8689289"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
 
-| 问题编号 | 签发 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 539456 | **只显示缺勤(不包含详细信息)** 参数启用时日历在悬浮文本中显示休假类型。 | 当 **只显示缺勤(不包含详细信息)** 选项启用后，请求的日期现在将悬浮显示。 |
 | 528907 | 在员工角色上授予对法人的访问权限导致经理无法在“员工自助服务”的 **我的团队** 区域查看员工的休假余额活动。 |设置此选项现在将允许经理继续查看休假余额活动。 |

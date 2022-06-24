@@ -1,6 +1,6 @@
 ---
 title: 计划优化不使用的参数
-description: 本主题列出了计划优化当前在其操作过程中不考虑的参数。
+description: 本文列出了计划优化当前在其操作过程中不考虑的参数。
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907339"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
 [!include [banner](../../includes/banner.md)]
 
-本主题列出了计划优化当前在其操作过程中不考虑的参数。 例如，计划服务可能由于相关功能尚不受支持而跳过某个参数。 或者，由于功能更改，该参数可能已过时。
+本文列出了计划优化当前在其操作过程中不考虑的参数。 例如，计划服务可能由于相关功能尚不受支持而跳过某个参数。 或者，由于功能更改，该参数可能已过时。
 
 以下部分列出了计划优化未在特定页面上使用的参数。 它们还说明了不使用每个参数的原因。
 

@@ -1,6 +1,6 @@
 ---
 title: 为 Warehouse Management 移动应用自定义步骤标题和说明
-description: 本主题介绍如何为您为 Warehouse Management 移动应用设置的每个任务流的每个步骤的自定义说明。
+description: 本文介绍如何为您为 Warehouse Management 移动应用设置的每个任务流的每个步骤的自定义说明。
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895487"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用自定义步骤标题和说明
 
 > [!IMPORTANT]
-> 本主题中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
+> 本文中描述的功能仅适用于新的 Warehouse Management 移动应用。 它们不影响旧仓库应用，该应用现在已弃用。
 
-本主题介绍如何为您为 Warehouse Management 移动应用设置的每个任务流的每个步骤的自定义说明。 当仓库工作人员收到精心编写的说明时，他们可以立即开始使用新流，无需提前参加培训。 此功能具有以下优点：
+本文介绍如何为您为 Warehouse Management 移动应用设置的每个任务流的每个步骤的自定义说明。 当仓库工作人员收到精心编写的说明时，他们可以立即开始使用新流，无需提前参加培训。 此功能具有以下优点：
 
 - **通过让工作人员遵守每个任务步骤的简单说明使其更快适应。** 流的每个步骤都提供说明，供前线工作人员了解任务。
 - **提供与您自己的流程匹配的说明。** 编写您自己的说明以匹配您的业务和仓库流程。 例如，您可以使术语契合物理空间和本地缩写。

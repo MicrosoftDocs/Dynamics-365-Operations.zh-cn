@@ -1,6 +1,6 @@
 ---
 title: 应用产品维度的显示设置
-description: 本主题介绍产品维度的显示设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+description: 本文介绍产品维度的显示设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899167"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>应用产品维度的显示设置
 
 [!include [banner](includes/banner.md)]
 
 
-本主题介绍产品维度的显示设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
+本文介绍产品维度的显示设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 
 Dynamics 365 Commerce 支持使用尺寸、样式和颜色维度来区分产品变型。 维度通常显示为文本值，如“小”、“中”和“大”是尺寸，“黑色”和“棕色”是颜色。 但是，如果产品支持很多变体，浏览产品变型可能很难，因为需要多次选择才能查看每个变型的图像。 为了使浏览产品变型更加容易，Commerce 的 10.0.20 版本可以使用图像和十六进制 (hex) 代码将维度显示为样本。
 

@@ -1,6 +1,6 @@
 ---
 title: 调整租赁
-description: 此主题说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。
+description: 本文说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898318"
 ---
 # <a name="adjust-leases"></a>调整租赁
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-此主题说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。 资产租赁应该遵守会计准则编纂专题 842 (ASC 842) 和国际财务报告准则 16 (IFRS 16) 提供的有关租赁修改的指导。 ASC 842-20-15-1 将租赁修改定义为对合同的条款和条件进行的任何会导致租赁的范围或注意事项改变的更改。 IFRS 16 第 39 段规定，承租人必须对租赁负债进行重估，以反映租赁付款的变化。
+本文说明如何调整租赁。 如果修改了租赁条款，延长了租赁期限或其他情况发生了变化，可能需要进行调整。 资产租赁应该遵守会计准则编纂专题 842 (ASC 842) 和国际财务报告准则 16 (IFRS 16) 提供的有关租赁修改的指导。 ASC 842-20-15-1 将租赁修改定义为对合同的条款和条件进行的任何会导致租赁的范围或注意事项改变的更改。 IFRS 16 第 39 段规定，承租人必须对租赁负债进行重估，以反映租赁付款的变化。
 
 对于遵守 ASC 842 或 IFRS 16 的组织，将重新度量租赁以反映未来最低租赁付款 (PVFMLP) 的现值变化。 如果 PVFMLP 增加，则创建的日记帐条目将是使用权 (ROU) 资产科目的借方，是新 PVFMLP 与先前 PVFMLP 之间的差额的租赁负债科目的贷方。 如果 PVFMLP 减少，则日记帐条目将是租赁负债科目的借方，是差额的使用权资产科目的贷方。
 

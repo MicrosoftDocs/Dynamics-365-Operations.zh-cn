@@ -1,6 +1,6 @@
 ---
 title: 配置 Dynamics 365 Commerce 评估环境
-description: 本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
+description: 本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 author: psimolin
 ms.date: 05/12/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
-ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
+ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8747629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892322"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
+本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
 
-请仅在预配了 Commerce 评估环境之后，再完成本主题中的过程。 有关如何预配 Commerce 评估环境的信息，请参阅[预配 Commerce 评估环境](provisioning-guide.md)。
+请仅在预配了 Commerce 评估环境之后，再完成本文中的过程。 有关如何预配 Commerce 评估环境的信息，请参阅[预配 Commerce 评估环境](provisioning-guide.md)。
 
 端到端预配 Commerce 评估环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
 

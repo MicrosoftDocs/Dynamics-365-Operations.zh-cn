@@ -1,6 +1,6 @@
 ---
 title: 输入和比较询价出价并授予合同
-description: 本主题介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。
+description: 本文介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893372"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。 您可以在 **USMF** 演示数据公司中使用此过程。
+本文介绍如何输入给询价 (RFQ) 的回复，以及如何对出价评分和比较出价，然后将合同授予某一供应商。 您可以在 **USMF** 演示数据公司中使用此过程。
 
 在您开始此过程前，您必须有具有至少发送给两个供应商的两个行的询价。 若要创建此询价，请完成[创建询价](create-request-quotation.md)过程。 必须先设置评分条件，才能完成此过程。
 

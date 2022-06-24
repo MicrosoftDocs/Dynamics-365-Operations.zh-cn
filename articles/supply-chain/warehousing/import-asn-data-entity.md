@@ -1,6 +1,6 @@
 ---
 title: 通过 V3 数据实体导入传入 ASN
-description: 本主题说明如何管理通过入站 ASN 数据实体导入入站发货通知单 (ASN)。
+description: 本文说明如何管理通过入站 ASN 数据实体导入入站发货通知单 (ASN)。
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907107"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>通过 V3 数据实体导入传入 ASN
 
@@ -26,7 +26,7 @@ ms.locfileid: "8740129"
 
 ASN 可以帮助仓库工作人员了解收货的时间和内容。 因此，他们可以做好准备。 此外，仓库工作人员可以使用 ASN 将装运的详细信息与之前创建的相关采购订单进行匹配。
 
-本主题显示了一系列场景，通过示例演示如何使用 ASN 文件。
+本文显示了一系列场景，通过示例演示如何使用 ASN 文件。
 
 > [!IMPORTANT]
 > *入站 ASN* 导入仅适用于为高级仓库管理 (WMS) 启用的物料。 在您收到 ASN 之前，必须在系统中针对发送该 ASN 的供应商注册采购订单。

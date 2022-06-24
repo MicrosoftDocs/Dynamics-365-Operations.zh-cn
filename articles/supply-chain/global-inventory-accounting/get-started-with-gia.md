@@ -1,6 +1,6 @@
 ---
 title: 开始使用全球库存核算
-description: 本主题介绍了如何开始使用全球库存核算。
+description: 本文介绍了如何开始使用全球库存核算。
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891080"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
@@ -38,12 +38,18 @@ ms.locfileid: "8679434"
 
 全球库存核算目前不支持 Supply Chain Management 中内置的所有成本管理功能。 因此，重要的是要评估当前可用的功能集是否满足您的要求。
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>如何获得全球库存核算公开预览版
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>如何获得全球库存核算加载项
 
 > [!IMPORTANT]
 > 若要使用全球库存核算，您必须具有启用了 LCS 的高可用性环境（而不是 OneBox 环境）。 此外，您必须运行 Supply Chain Management 版本 10.0.19 或更高版本。
 
-若要注册全球库存核算公开预览版，请将您的 LCS 环境 ID 通过电子邮件发送至[全球库存核算团队](mailto:GlobalInvAccount@microsoft.com)。 在您获得该计划的批准后，团队将向您发送一封跟进电子邮件，其中包含全球库存核算测试密钥和您的服务终结点。 收到测试密钥后，您可以[安装加载项](#install)。
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management 版本 10.0.19 到 10.0.26
+
+要安装 Supply Chain Management 版本 10.0.19 到 10.0.26 的全球库存核算，请首先[安装此加载项](#install)。 然后通过电子邮件将您的 LCS 环境 ID 和公司名称发送给[全局库存核算团队](mailto:GlobalInvAccount@microsoft.com)。 该团队将向您发送一封跟进电子邮件，其中包含您的全球库存核算服务终结点。
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management 版本 10.0.27 及更高版本
+
+要安装 Supply Chain Management 版本 10.0.27 及更高版本的全球库存核算，只需[安装此加载项](#install)。 对于这些版本的 Supply Chain Management，会自动设置全局库存核算服务终结点，您无需手动查找。 如果您在设置加载项时遇到任何问题，请与[全球库存核算团队](mailto:GlobalInvAccount@microsoft.com)联系。
 
 ## <a name="licensing"></a>许可授权
 
@@ -98,12 +104,7 @@ ms.locfileid: "8679434"
 
 按照以下步骤安装加载项，以便您可以使用全球库存核算。
 
-1. [注册](#sign-up)全球库存核算公开预览版。
 1. 登录 [LCS](https://lcs.dynamics.com/Logon/Index)。
-1. 转到 **预览功能管理**。
-1. 选择加号 (**+**)。
-1. 在 **代码** 字段中，输入您的全球库存核算的加载项测试密钥。 （您应该已在注册时通过电子邮件收到您的测试密钥。）
-1. 选择 **解锁**。
 1. 打开要在其中添加服务的 LCS 环境。
 1. 转到 **完整详细信息**。
 1. 转到 **Power Platform 集成**，然后选择 **设置**。
@@ -124,6 +125,8 @@ ms.locfileid: "8679434"
 1. 在 **全部** 选项卡上，搜索名为 *（预览）全球库存核算* 的功能。
 1. 选择 **立即启用**。
 1. 转到 **全球库存核算 \> 设置 \> 全球库存核算参数 \> 集成参数**。
-1. 在 **数据服务终结点** 和 **全球库存核算终结点** 字段中，输入全球库存核算团队在您注册预览版时发送的电子邮件中的 URL。
+1. 根据您运行的 Supply Chain Management 版本，执行以下步骤之一：
+    - **Supply Chain Management 版本 10.0.19 到 10.0.26**：在 **数据服务终结点** 和 **全球库存核算终结点** 字段中，输入全球库存核算团队通过电子邮件发送给您的 URL（另请参阅[如何获得全球库存核算加载项](#sign-up)）。
+    - **Supply Chain Management 版本 10.0.27 及更新版本**：您不需要输入终结点，因此可以跳过此步骤。
 
 全球库存核算现在可以使用了。

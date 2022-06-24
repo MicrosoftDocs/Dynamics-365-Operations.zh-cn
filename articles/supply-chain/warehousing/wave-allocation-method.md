@@ -1,6 +1,6 @@
 ---
 title: 波次分配
-description: 本主题介绍如何设置波次分配步骤，包括如何对其进行并行处理。
+description: 本文介绍如何设置波次分配步骤，包括如何对其进行并行处理。
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906942"
 ---
 # <a name="wave-allocation"></a>波次分配
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695526"
 
 波次处理可能很耗时，并且大部分处理时间都花费在分配步骤和工作创建步骤中。
 
-现在可以并行运行其中每个步骤，这可以提高波次处理的性能，并允许在同一仓库中实现更大的波次吞吐量。 本主题说明如何设置波次分配方法以并行运行。 有关如何设置工作创建以并行运行的详细信息，请参阅[在波次期间计划工作创建](configure-wave-schedule-work-creation.md)。
+现在可以并行运行其中每个步骤，这可以提高波次处理的性能，并允许在同一仓库中实现更大的波次吞吐量。 本文说明如何设置波次分配方法以并行运行。 有关如何设置工作创建以并行运行的详细信息，请参阅[在波次期间计划工作创建](configure-wave-schedule-work-creation.md)。
 
 以前，一次只能在一个仓库中分配一个波次。 此约束已删除并替换为新约束，即仅锁定在预留层次结构中库位上方的物料和维度。 库位上方的维度始终包括产品维度。 例如，如果使用 *颜色* 配置物料，则可以并行处理 *红*、*蓝* 和 *黄* 的变量。
 

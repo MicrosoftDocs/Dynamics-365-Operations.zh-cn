@@ -1,6 +1,6 @@
 ---
 title: 生产输出位置
-description: 本主题描述用于标识生产输出位置的层次结构。
+description: 本文描述用于标识生产输出位置的层次结构。
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893285"
 ---
 # <a name="production-output-location"></a>生产输出位置
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述用于标识生产输出位置的层次结构。
+本文描述用于标识生产输出位置的层次结构。
 
 生产输出位置是成品在生产后最先存储的位置。 通常，此位置靠近生产成品的生产流程。 生产输出位置作为物料在移动到装运区域、存储位置、用于下游生产流程的生产输入位置等之前的中间存储。 
 

@@ -1,6 +1,6 @@
 ---
 title: 设计配置以生成包含应用程序数据的单据
-description: 本主题介绍如何设计电子报告 (ER) 配置以生成电子文档。 （第 1 部分 - 导入配置）。
+description: 本文介绍如何设计电子报告 (ER) 配置以生成电子文档。 （第 1 部分 - 导入配置）。
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a52ce08458868ae717c650d4b96754c297cd07a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900184"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>设计配置以生成包含应用程序数据的单据
 

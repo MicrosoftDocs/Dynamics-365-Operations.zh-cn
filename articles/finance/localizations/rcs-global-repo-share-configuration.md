@@ -1,6 +1,6 @@
 ---
 title: 与外部组织共享 RCS/全局知识库中的 ER 配置
-description: 此主题介绍如何直接与外部组织共享 Microsoft Regulatory Configuration Services (RCS)/全局知识库中的电子申报 (ER) 配置。
+description: 本文介绍如何直接与外部组织共享 Microsoft Regulatory Configuration Services (RCS)/全局知识库中的电子报告 (ER) 配置。
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888914"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>直接与外部组织共享 Regulatory Configuration Services (RCS) 全局知识库中的电子申报 (ER) 配置
 
@@ -36,7 +36,7 @@ ms.locfileid: "6719165"
 
 还必须确保为公司预配 RCS 环境。
 
-1. 在 Finance and Operations 应用中，转到 **组织管理** \> **工作区** \> **电子申报**。
+1. 在 Finance and Operations 应用中，转到 **组织管理** \> **工作区** \> **电子报告**。
 2. 如果没有为公司预配 RCS 环境，请选择 **Regulatory services – 配置外部**，然后按照说明预配一个。
 
 如果已经为公司预配了 RCS 环境，请通过选择登录选项使用页面 URL 访问该环境。
@@ -67,7 +67,7 @@ ms.locfileid: "6719165"
 
     ![“与外部组织共享配置版本”对话框。](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-将与外部组织共享配置，并在全局知识库中提供给该组织。 可以在这里将其导入到组织的 RCS 实例中或其 Finance and Operations 应用实例中。
+将与外部组织共享配置，并在全局知识库中提供给该组织。 可以在这里将其导入到组织的 RCS 实例中或其财务和运营应用应用实例中。
 
 6. 若要取消更新之前已经与外部组织共享的配置，请选择该配置，然后单击 **取消更新**，再选择 **确定**
 

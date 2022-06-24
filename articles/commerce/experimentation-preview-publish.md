@@ -1,30 +1,24 @@
 ---
 title: 预览和发布试验
-description: 本主题介绍了如何从 Dynamics 365 Commerce 中预览和发布试验。
+description: 本文介绍了如何从 Dynamics 365 Commerce 中预览和发布试验。
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740375"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946124"
 ---
 # <a name="preview-and-publish-an-experiment"></a>预览和发布试验
 
-本主题介绍了如何在[连接试验和编辑变体](experimentation-connect-edit.md)之后在 Dynamics 365 Commerce 中预览和发布试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
+本文介绍了如何在[连接试验和编辑变体](experimentation-connect-edit.md)之后在 Dynamics 365 Commerce 中预览和发布试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的文章中介绍。
 
 [![试验用户旅程 - 预览和发布。](./media/experimentation_preview_publish.svg)](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -52,11 +46,15 @@ ms.locfileid: "6740375"
 - 当您发布或计划发布组时，发布组中的所有内容都将发布，而不管是否有与发布组关联的试验。
 - 由于发布组在发布到活动站点后仍会继续存在，因此发布组中的试验也将继续存在。 因此，您将无法将其他试验与同一页面或片段相关联。 为了避免此限制，请删除具有持续性试验的所有发布组。 同样，如果您要删除的试验不仅在活动站点中，也存在于发布组中，请先将其从发布组中删除。
 
+### <a name="force-variations-for-testing"></a>强制变体进行测试
+
+试验开始后，您可以将试验 ID 和变体 ID 追加到默认页面 URL，以强制变体进行测试或自动化。 例如，如果默认页面 URL 是 `https://fabrikam.com/modern/homepage`，您可以使用 URL（如 `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`）对变体进行强制。 您可以从上面说明的 **预览** 体验中的预览 URL 获取试验变体的试验 ID 和变体 ID。
+
 ## <a name="previous-step"></a>上一步
 [连接和编辑试验](experimentation-connect-edit.md)
 
 ## <a name="next-step"></a>后续步骤
-[运行和监视试验](experimentation-run-monitor.md)
+[运行和监控试验](experimentation-run-monitor.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

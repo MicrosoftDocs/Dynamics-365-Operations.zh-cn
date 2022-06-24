@@ -1,6 +1,6 @@
 ---
 title: 补货概览
-description: 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。
+description: 本文介绍可用于使用仓库管理提供功能的仓库的补货策略。
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893082"
 ---
 # <a name="replenishment-overview"></a>补货概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。 此主题中的信息不适用于可用于库存管理的仓库解决方案。
+本文介绍可用于使用仓库管理提供功能的仓库的补货策略。 本文中的信息不适用于可用于库存管理的仓库解决方案。
 
 提供了以下补货策略︰
 

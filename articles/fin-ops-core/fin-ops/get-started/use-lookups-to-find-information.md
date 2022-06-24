@@ -1,6 +1,6 @@
 ---
 title: 使用查询来查找信息
-description: 在本主题中，您将了解查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
+description: 在本文中，您将了解查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 author: jasongre
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ee309330c165dfb0b67f647afc3514d4c827dad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901514"
 ---
 # <a name="find-information-by-using-lookups"></a>使用查询来查找信息
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069290"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
+许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在本文中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 
 ## <a name="responsive-lookups"></a>查询响应速度快
 

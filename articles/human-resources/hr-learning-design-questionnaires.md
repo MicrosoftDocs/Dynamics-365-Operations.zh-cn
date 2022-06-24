@@ -1,6 +1,6 @@
 ---
 title: 创建调查表
-description: 本主题描述创建调查表的过程。
+description: 本文描述创建调查表的过程。
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899634"
 ---
 # <a name="create-questionnaires"></a>创建调查表
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694842"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
+本文描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
 
 仔细设计调查表可以有助于提高您收集的数据的质量。 通过仔细设计，您可以在调查表的相应的时间处更好低寻找相应的选项。 以下各点可以帮助您规划有效的调查表：
 

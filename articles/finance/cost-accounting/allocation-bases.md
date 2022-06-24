@@ -1,6 +1,6 @@
 ---
 title: 分配基础
-description: 此主题提供了有关分配基础的信息。 分配基础是成本核算中的关键组件，最常用于分配开销成本。
+description: 本文提供了有关分配基础的信息。 分配基础是成本核算中的关键组件，最常用于分配开销成本。
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894075"
 ---
 # <a name="allocation-bases"></a>分配基础 
 
@@ -174,11 +174,11 @@ ms.locfileid: "8733782"
 - 数据管理导入/导出工具
 - 统计度量
 
-要从系统提取统计度量，要求使用统计度量提供方模板。 有关详细信息，请参阅统计度量提供方模板。 （撰写此主题后将添加链接。）
+要从系统提取统计度量，要求使用统计度量提供方模板。 有关详细信息，请参阅统计度量提供方模板。 （撰写本文后将添加链接。）
 
 **统计度量提供方模板**
 
-| 姓名  | 职能 | 源表  | 总计字段      | 日期字段     |
+| Name  | 职能 | 源表  | 总计字段      | 日期字段     |
 |-------|----------|---------------|----------------|----------------|
 | FTE 的 | 盘点    | HcmEmployment | 不适用 | 不适用 |
 

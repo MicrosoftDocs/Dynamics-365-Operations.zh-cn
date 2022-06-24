@@ -1,6 +1,6 @@
 ---
 title: 使用审核日记帐将发票数据键入应付帐款
-description: 此主题介绍如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。
+description: 本文介绍如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909205"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>使用审核日记帐将发票数据键入应付帐款
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。
+本文介绍如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。
 
 ## <a name="create-and-post-and-invoice"></a>创建并过帐发票
 1. 在导航窗格中，转到 **模块 > 应付帐款 > 发票 > 发票登记簿**。

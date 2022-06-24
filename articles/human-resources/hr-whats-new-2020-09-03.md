@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 9 月 3 日）中的新增功能或更改
-description: 此主题介绍了 2020 年 9 月 3 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2020 年 9 月 3 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: andreabichsel
 ms.date: 09/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 693c3d770f671edd3f52b22fa9240c641405dbed
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d558f4b0ddb3e8fe3479567483e2c2349a40774
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891341"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Dynamics 365 Human Resources（2020 年 9 月 3 日）中的新增功能或更改
 
@@ -27,7 +27,7 @@ ms.locfileid: "8687887"
 
 
 
-此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3504。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
+本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.3504。 某些标题中括号内的数字是 Lifecycle Services (LCS) 支持编号，以供参考。
 
 有关 Human Resources 中即将推出的功能的详细信息，请参阅 [Dynamics 365 Human Resources 2019 发布波次 2 概述](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)。 有关 Human Resources 的更新流程的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 

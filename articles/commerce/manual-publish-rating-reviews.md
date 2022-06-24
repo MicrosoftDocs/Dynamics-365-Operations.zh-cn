@@ -1,6 +1,6 @@
 ---
 title: 启用审查者手动发布评分和评价
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用审查者手动发布评分和评价，以及如何手动发布评分和评价。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中启用审查者手动发布评分和评价，以及如何手动发布评分和评价。
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892615"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>启用审查者手动发布评分和评价
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 中启用审查者手动发布评分和评价，以及如何手动发布评分和评价。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 中启用审查者手动发布评分和评价，以及如何手动发布评分和评价。
 
 Dynamics 365 Commerce 的评分和评价解决方案使用 Azure Cognitive Services 自动修正评价的标题和内容中的侮辱性内容和发布评分和评价。 因此，无需手动干预即可审阅评分和评价和将其发布到您的电子商务站点。
 

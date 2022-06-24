@@ -1,6 +1,6 @@
 ---
 title: 限制没有收据的退货的付款方式
-description: 此主题描述如果在没有收据的情况下退货，如何为退款限制某些付款类型。
+description: 本文描述如果在没有收据的情况下退货，如何为退款限制某些付款类型。
 author: rapraj
 ms.date: 03/05/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 091d39ea9fe41d78b7f34f85ecd1894047e022d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896945"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>限制没有收据的退货的付款方式
 
 
 [!include [banner](includes/banner.md)]
 
-设置系统时，必须配置零售商接受的每种付款类型。 此主题描述如果在没有收据的情况下退货，如何为退款限制某些付款类型。
+设置系统时，必须配置零售商接受的每种付款类型。 本文描述如果在没有收据的情况下退货，如何为退款限制某些付款类型。
 
 ## <a name="set-up-payment-methods"></a>设置付款方式
 

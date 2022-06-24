@@ -1,6 +1,6 @@
 ---
 title: 设置 TDS 分类帐帐户
-description: 本主题说明如何为从源扣缴税款 (TDS) 设置分类帐帐户功能。
+description: 本文说明如何为从源扣缴税款 (TDS) 设置分类帐帐户功能。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 329c950f31cd12faa335a2ab1c220d24f66919f4
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 227ed304c23f96cdbf4dbb4a07d028cd1e2758a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904461"
 ---
 # <a name="set-up-tds-ledger-accounts"></a>设置 TDS 分类帐帐户
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为从源扣缴税款 (TDS) 设置分类帐帐户功能。 使用 **会计科目表** 页面以为 TDS 设置分类帐帐户。
+本文说明如何为从源扣缴税款 (TDS) 设置分类帐帐户功能。 使用 **会计科目表** 页面以为 TDS 设置分类帐帐户。
 
 1. 转到 **总帐 \> 会计科目表 \> 帐户 \> 主帐户**。
 2. 在 **概述** 选项卡上，选择 **Alt+N** 以创建 TDS 分类帐帐户，然后输入所需的详细信息。

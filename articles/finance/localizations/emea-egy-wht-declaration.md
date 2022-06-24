@@ -1,6 +1,6 @@
 ---
 title: 埃及预缴税金申报
-description: 本主题说明如何配置和生成埃及预缴税金申报。
+description: 本文说明如何配置和生成埃及预缴税金申报。
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907678"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>埃及预缴税金申报 (EG-00005)
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-## <a name="overview"></a>概览
-本主题说明如何为埃及中的法人创建和生成预缴税金申报以及预缴税金申报表 41 和 11 
+## <a name="overview"></a>概述
+本文说明如何为埃及中的法人创建和生成预缴税金申报以及预缴税金申报表 41 和 11 
 
 所有埃及实体都必须准备表格 41，该表格概括了从本地供应商和服务提供商处保留的所有税款。 除表格 41 外，还必须生成表格 11 来详细说明从外国供应商处征收的所有保留税。 
 
-Dynamics 365 Finance 中的 **预缴税金申报** 报表包括以下报告：
+Dynamics 365 Finance 中的 **预缴税金申报** 报表包括以下报表：
 
 - 申报单编号 41
 - 申报单编号 11
@@ -58,7 +58,7 @@ Dynamics 365 Finance 中的 **预缴税金申报** 报表包括以下报告：
 
 埃及 WHT 申报表的实施基于电子报告 (ER) 配置。 有关可配置报告的功能和概念的更多信息，请参见[电子报告](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)。
 
-对于生产和用户验收测试 (UAT) 环境，请按照[从 Lifecycle Services 下载电子报告配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)主题中的说明进行操作。
+对于生产和用户验收测试 (UAT) 环境，请按照[从 Lifecycle Services 下载电子报告配置](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)一文中的说明进行操作。
 
 要在埃及法人中生成预缴税申报，您需要上传以下配置：
 

@@ -1,6 +1,6 @@
 ---
 title: 任务管理
-description: 本主题介绍 Microsoft Dynamics 365 Human Resources 中可用的任务管理功能。
+description: 本文介绍 Microsoft Dynamics 365 Human Resources 中可用的任务管理功能。
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897855"
 ---
 # <a name="task-management"></a>任务管理
 

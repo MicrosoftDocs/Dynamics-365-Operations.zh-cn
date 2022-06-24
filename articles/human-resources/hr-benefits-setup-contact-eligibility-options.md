@@ -1,6 +1,6 @@
 ---
 title: 配置个人联系人资格选项
-description: 本主题说明如何在 Microsoft Dynamics 365 Human Resources 中为个人联系人配置资格选项。
+description: 本文说明如何在 Microsoft Dynamics 365 Human Resources 中为个人联系人配置资格选项。
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e145acf6a6ba3333acfcc6e66dadd1f7d5deac65
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 82bb7c037b4e0ab9950ce4c314c03a0f2d713bbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895922"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>配置个人联系人资格选项
 
@@ -28,7 +28,7 @@ ms.locfileid: "8692301"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题将介绍如何在 Microsoft Dynamics 365 Human Resources 中配置可以在福利中使用的个人联系人的类型。 个人联系人是您的计划覆盖的个人（依赖方）或将从您的计划中受益的个人（受益人）。 依赖方通常是配偶或子女。 受益人可以是配偶、子女、信托人或父母。
+本文介绍如何在 Microsoft Dynamics 365 Human Resources 中配置可以在福利中使用的个人联系人的类型。 个人联系人是您的计划覆盖的个人（依赖方）或将从您的计划中受益的个人（受益人）。 依赖方通常是配偶或子女。 受益人可以是配偶、子女、信托人或父母。
 
 1. 在 **福利管理** 工作区中，在 **设置** 下，选择 **个人联系人资格选项**。
 

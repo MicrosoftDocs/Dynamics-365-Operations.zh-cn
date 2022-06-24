@@ -1,6 +1,6 @@
 ---
 title: 工程更改管理功能演练
-description: 本主题提供一个端到端演练，显示如何使用工程更改管理。
+description: 本文提供一个端到端演练，显示如何使用工程更改管理。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889626"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>工程更改管理功能演练
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供一个端到端演练，显示如何使用工程更改管理。 它演示了每个最重要的场景：
+本文提供一个端到端演练，显示如何使用工程更改管理。 它演示了每个最重要的场景：
 
 - 基本功能配置
 - 工程公司如何创建新的工程产品
@@ -35,13 +35,13 @@ ms.locfileid: "7573985"
 - 如何通过创建工程更改订单来计划和实施请求的更改
 - 如何发布已更改的产品
 
-本主题中的所有练习都使用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准示例数据。 此外，每个练习都以先前的练习为基础。 因此，我们建议您从头到尾依次进行练习，如果您以前从未使用过工程更改管理功能，更应如此。 这样，您将完全了解该功能。
+本文中的所有练习都使用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准示例数据。 此外，每个练习都以先前的练习为基础。 因此，我们建议您从头到尾依次进行练习，如果您以前从未使用过工程更改管理功能，更应如此。 这样，您将完全了解该功能。
 
 ## <a name="set-up-for-the-sample-scenario"></a>设置示例场景
 
-若要执行本主题中提供的示例场景，您必须首先通过提供演示数据并添加一些自定义记录来准备功能。
+若要执行本文中提供的示例场景，您必须首先通过提供演示数据并添加一些自定义记录来准备功能。
 
-在尝试执行本主题其余部分中的任何练习之前，请遵循以下所有子部分中的说明。 这些子部分还介绍了几个重要的设置页面，当您为自己的组织设置工程更改管理时将使用这些页面。
+在尝试执行本文其余部分中的任何练习之前，请遵循以下所有小节中的说明。 这些子部分还介绍了几个重要的设置页面，当您为自己的组织设置工程更改管理时将使用这些页面。
 
 ### <a name="make-standard-demo-data-available"></a>提供标准演示数据
 

@@ -1,6 +1,6 @@
 ---
 title: 预算计划数据分配
-description: 本主题介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。
+description: 本文介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。
 author: panolte
 ms.date: 03/05/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07fe1363be841d42315084780a1f3146dca174a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5788f6dc8aa6cddad5c8eaba748827307a4d38a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901451"
 ---
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。  
+本文介绍 Microsoft Dynamics 365 Finance 中可用的分配方法以及如何使用它们。  
 
 您可以采用各种方式分配预算计划中的数据以准确地描述预计金额。
 

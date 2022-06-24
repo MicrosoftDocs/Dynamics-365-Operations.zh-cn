@@ -1,6 +1,6 @@
 ---
 title: 财务绩效 PowerBI.com 解决方案
-description: 此主题描述财务绩效 PowerBI.com 解决方案。
+description: 本文描述财务绩效 PowerBI.com 解决方案。
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910406"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767795"
 > [!NOTE]
 > 根据 [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)中的说明，已弃用此 PowerBI.com 解决方案。
 
-此主题描述 **财务绩效** PowerBI.com 解决方案。 它介绍其中包含的仪表板和报表，并提供有关用于构建解决方案的数据模型和实体的信息。
+本文描述 **财务绩效** PowerBI.com 解决方案。 它介绍其中包含的仪表板和报表，并提供有关用于构建解决方案的数据模型和实体的信息。
 
 ## <a name="main-account-setup"></a>主科目设置
 由于组织希望负债和收入金额在报表中显示为正金额，所以设置主科目很重要。 要让这些主科目显示为正金额，必须将主科目类型设置为 **负债** 或 **收入**。 在使用这些科目类型时，通过 Power BI 申报将逆转正负符号，将金额显示为正。

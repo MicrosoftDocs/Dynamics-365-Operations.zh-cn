@@ -1,6 +1,6 @@
 ---
 title: 人事管理工作区
-description: 本主题介绍人事管理工作区的概念元素。
+description: 本文介绍人事管理工作区的概念元素。
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fc424905bc9311662859b900636a68de2f7ee3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888750"
 ---
 # <a name="personnel-management-workspace"></a>人事管理工作区
 
@@ -29,7 +29,7 @@ ms.locfileid: "8689457"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**人事管理** 工作区包括大量内容。 它包含人事流动，跟踪员工变动、空缺职位、地址更改、过期记录和分析，并提供指向特定信息的链接。 本主题提供有关工作区每个部分的详细信息。
+**人事管理** 工作区包括大量内容。 它包含人事流动，跟踪员工变动、空缺职位、地址更改、过期记录和分析，并提供指向特定信息的链接。 本文提供有关工作区每个部分的详细信息。
 
 ## <a name="activity-tab"></a>活动选项卡
 

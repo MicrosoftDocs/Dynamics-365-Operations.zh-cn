@@ -1,6 +1,6 @@
 ---
 title: 纳税的双币种支持
-description: 此主题介绍如何扩展税域的双币种记帐功能和对税额计算与过帐的影响
+description: 本文介绍如何扩展税域的双币种记帐功能和对税额计算与过帐的影响
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909031"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>销售税的双币种支持
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何扩展销售税的双币种记帐功能和对销售税计算、过帐与结算的影响。
+本文介绍如何扩展销售税的双币种记帐功能和对销售税计算、过帐与结算的影响。
 
 版本 8.1（2018 年 10 月）中引入了适用于 Dynamics 365 Finance 的双币种功能。 该功能改变了计算采用申报币种的会计条目的方式。
 
@@ -89,7 +89,7 @@ ms.locfileid: "8713035"
 
 为了避免前面的这种情况，我们建议在不包含任何未结算税务交易记录的新（干净）税务结算期间更改此参数值。 若要在税务结算期间中途更改此值，请在更改此参数值之前，对当前税务结算期间运行“结算并过帐销售税”程序。
 
-此功能将添加会计条目来阐明货币兑换的收益和损失。 在销售税结算期间进行重估时，将在已实现的货币调整损益科目中创建条目。 有关详细信息，请参阅本主题后面的[税务结算自动平衡采用申报币种](#tax-settlement-auto-balance-in-reporting-currency)一节。
+此功能将添加会计条目来阐明货币兑换的收益和损失。 在销售税结算期间进行重估时，将在已实现的货币调整损益科目中创建条目。 有关详细信息，请参阅本文后面的[税务结算自动平衡采用申报币种](#tax-settlement-auto-balance-in-reporting-currency)一节。
 
 > [!NOTE]
 > 在结算期间，财务维度的信息从销售税科目（即资产负债表科目）获取，输入到币种调整损益科目（即损益表科目）中。 由于资产负债表科目和损益表科目之间对财务维度值的限制不同，因此在“结算和过帐销售税”流程中可能会发生错误。 为避免不得不修改科目结构，您可以启用“将财务维度填充到已实现币种调整损益科目中以进行销售税结算”功能。 此功能会强制将财务维度派生到币种调整损益科目。 

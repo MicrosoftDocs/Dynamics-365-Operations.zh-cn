@@ -1,6 +1,6 @@
 ---
 title: 管理装运集装箱
-description: 本主题介绍如何使用装运集装箱。 装运集装箱用于将实际分组在一起的货物分组在一起。 它们还用于成本只能在这些货物之间共享（通常是因为它们实际分组在一起）的情况。
+description: 本文介绍如何使用装运集装箱。 装运集装箱用于将实际分组在一起的货物分组在一起。 它们还用于成本只能在这些货物之间共享（通常是因为它们实际分组在一起）的情况。
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906144"
 ---
 # <a name="manage-shipping-containers"></a>管理装运集装箱
 
@@ -142,7 +142,7 @@ ms.locfileid: "8686760"
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>装运集装箱快速选项卡上的信息
 
-**行** 视图中的 **装运集装箱** 快速选项卡显示有关帐页的信息。 这些信息中的大多数还会显示在 **标头** 视图中，如本主题前面所述。
+**行** 视图中的 **装运集装箱** 快速选项卡显示有关帐页的信息。 这些信息中的大多数还会显示在 **标头** 视图中，如本文前面所述。
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>行快速选项卡上的信息和按钮
 

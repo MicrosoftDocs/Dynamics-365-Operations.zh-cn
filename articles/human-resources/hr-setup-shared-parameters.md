@@ -1,6 +1,6 @@
 ---
 title: 配置共享参数
-description: 本主题说明如何设置跨法人的人力资源参数。
+description: 本文说明如何设置跨法人的人力资源参数。
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906173"
 ---
 # <a name="configure-shared-parameters"></a>配置共享参数
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-您必须为在公司间共享的记录设置共享参数，如 **职位** 记录。 本主题说明如何设置跨法人的人力资源参数。
+您必须为在公司间共享的记录设置共享参数，如 **职位** 记录。 本文说明如何设置跨法人的人力资源参数。
 
 某些类型的记录（如 **职位** 记录）将在公司间共享。 对于这些记录，您必须设置共享的参数。 例如，**人力资源共享参数** 页用于设置法人之间的人力资源参数。 
 

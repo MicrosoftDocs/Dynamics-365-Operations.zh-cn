@@ -1,6 +1,6 @@
 ---
 title: 运行和监视试验
-description: 本主题介绍了如何在第三方服务中运行和监视试验。 它还介绍了如何在试验开始后更改变体。
+description: 本文介绍了如何在第三方服务中运行和监视试验。 它还介绍了如何在试验开始后更改变体。
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909575"
 ---
 # <a name="run-and-monitor-an-experiment"></a>运行和监视试验
 
-本主题介绍了如何在第三方应用中运行和监视试验，以及如何更改变体（如果需要）。 在完成本主题中的步骤之前，您首先需要在 Commerce 中[发布](experimentation-preview-publish.md)试验。 
+本文介绍了如何在第三方应用中运行和监视试验，以及如何更改变体（如果需要）。 在完成本文的步骤之前，您首先需要在 Commerce 中[发布](experimentation-preview-publish.md)试验。 
 
-下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
+下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的文章中介绍。
 
 [![试验用户旅程 - 运行和监视。](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
 

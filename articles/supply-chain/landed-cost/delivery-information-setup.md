@@ -1,6 +1,6 @@
 ---
 title: 交货信息设置
-description: 本主题介绍如何为登陆成本模块设置交货信息。
+description: 本文介绍如何为登陆成本模块设置交货信息。
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a0b510e4f58ca1cfec940093d118618693c68d38
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5bf9c700ecd327ab3b3948f38dc60e24efbda94c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895603"
 ---
 # <a name="delivery-information-setup"></a>交货信息设置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为 **登陆成本** 模块设置交货信息。
+本文介绍如何为 **登陆成本** 模块设置交货信息。
 
 ## <a name="shipping-ports"></a>装运港口
 

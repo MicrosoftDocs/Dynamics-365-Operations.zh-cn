@@ -1,6 +1,6 @@
 ---
 title: 创建销售订单账单
-description: 此主题介绍如何给销售订单开票，包括合并发票以及成批处理。
+description: 本文介绍如何给销售订单开票，包括合并发票以及成批处理。
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7976d310e9c80dfe683359f1157b85e46c758c48
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910249"
 ---
 # <a name="create-sales-order-invoices"></a>创建销售订单账单
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
+本文介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>为一个销售订单创建一张发票

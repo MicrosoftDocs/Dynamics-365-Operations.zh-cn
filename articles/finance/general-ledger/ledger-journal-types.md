@@ -1,6 +1,6 @@
 ---
 title: 分类帐日记帐类型
-description: 本主题描述了可以为财务日记帐设置的日记帐类型。
+description: 本文介绍可以为财务日记帐设置的日记帐类型。
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901304"
 ---
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述了可以为财务日记帐设置的日记帐类型。 使用 **日记帐名称** 页可以设置可在 Dynamics 365 Finance 中全程使用的日记帐。
+本文介绍可以为财务日记帐设置的日记帐类型。 使用 **日记帐名称** 页可以设置可在 Dynamics 365 Finance 中全程使用的日记帐。
 
 | 日记帐类型                      | 目的                       | 在此页面上输入交易记录                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

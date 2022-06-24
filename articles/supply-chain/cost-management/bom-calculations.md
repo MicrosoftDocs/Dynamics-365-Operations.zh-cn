@@ -1,6 +1,6 @@
 ---
 title: BOM 计算
-description: 成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。
+description: 成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 本文提供有关物料清单计算的信息。
 author: JennySong-SH
 ms.date: 05/01/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 0a71a17efbca3945c5a1010cf7d523a85420e8e2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c19c15f807a809a68043a75ca935fa92217fcd5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902793"
 ---
 # <a name="bom-calculations"></a>BOM 计算
 
 [!include [banner](../includes/banner.md)]
 
-成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。
+成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 本文提供有关物料清单计算的信息。
 
 成本累积和销售价计算称为物料清单 (BOM) 计算，您从 **计算** 页启动这些计算。 使用 **计算** 页执行以下任务：
 

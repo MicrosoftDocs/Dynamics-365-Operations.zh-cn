@@ -1,6 +1,6 @@
 ---
 title: 计划您的本地会计科目表
-description: 本主题提供的信息将在您对组织的法定/本地要求有要求时帮助您计划会计科目表。
+description: 本文提供的信息将在您对组织的法定/本地要求有要求时帮助您计划会计科目表。
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798288"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946236"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>计划您的本地会计科目表
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供的信息将在您的组织包括必须满足其开展业务的特定地区的要求的法人时，帮助您计划会计科目表。 本主题使用以下术语描述会计科目表：
+本文提供的信息将在您的组织包括必须满足其开展业务的特定地区的要求的法人时，帮助您计划会计科目表。 本文使用以下术语描述会计科目表：
 
 - **全球** – 组织在全球使用的会计科目表。 在大多数情况下，您将合并到此会计科目表。
 - **本地** – 法人在特定国家或地区使用的会计科目表。

@@ -1,6 +1,6 @@
 ---
 title: 以批处理模式从手动选择的文件中导入数据
-description: 本主题介绍如何在批处理模式下从手动选择的文件导入数据。
+description: 本文介绍如何在批处理模式下从手动选择的文件导入数据。
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890174"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>以批处理模式从手动选择的文件中导入数据
 
@@ -31,11 +31,11 @@ ms.locfileid: "8075600"
 
 支持以批处理模式导入数据的新 ER 功能支持将此过程配置为无人参与。 您可以通过从 ER 用户界面 (UI) 计划新的批处理作业来使用 ER 配置执行数据导入。
 
-本主题介绍如何以批处理方式从手动选择的文件完成数据导入。 示例将供应商交易记录用作业务数据。 这些示例的步骤可以在 **USMF** 公司完成。 无需进行编码。
+本文介绍如何以批处理方式从手动选择的文件完成数据导入。 示例将供应商交易记录用作业务数据。 这些示例的步骤可以在 **USMF** 公司完成。 无需进行编码。
 
 ## <a name="prerequisites"></a>先决条件
 
-要完成本主题中的示例，您必须具有以下访问权限：
+要完成本文中的示例，您必须具有以下访问权限：
 
 - 以下其中一个角色：
 

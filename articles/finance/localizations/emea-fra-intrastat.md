@@ -1,6 +1,6 @@
 ---
 title: 法国内部统计
-description: 本主题包含有关法国内部统计申报的信息。
+description: 本文包含有关法国内部统计申报的信息。
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887844"
 ---
 # <a name="french-intrastat"></a>法国内部统计
 
@@ -97,7 +97,7 @@ ms.locfileid: "7487892"
     3. 在 **商品代码层次结构** 快速选项卡上，在 **类别层次结构** 字段中，选择 **内部统计**。
     4. 在 **常规** 快速选项卡上的 **交易代码** 字段中，选择用于货物转移的代码。
     5. 在 **贷方通知单** 字段中，选择用于货物退货的代码。
-    6. 在 **出口合同级别** 字段中，输入出口报表的详细信息级别。 您选择的级别会影响报表上显示的行。 有关详细信息，请参阅本主题开头的表。
+    6. 在 **出口合同级别** 字段中，输入出口报表的详细信息级别。 您选择的级别会影响报表上显示的行。 有关详细信息，请参阅本文开头的表。
 
 3. 转到 **组织管理** > **组织** > **法人**，选择您的公司，然后执行以下步骤：
 

@@ -1,6 +1,6 @@
 ---
 title: 固定收货价
-description: 本主题介绍了如何在 Microsoft Dynamics 365 Supply Chain Management 中配置和使用固定收货价。
+description: 本文介绍了如何在 Microsoft Dynamics 365 Supply Chain Management 中配置和使用固定收货价。
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907571"
 ---
 # <a name="fixed-receipt-price"></a>固定收货价
 
 [!include [banner](../includes/banner.md)]
 
-**固定收货价** 是您在使用 *标准成本* 或 *移动加权平均* 以外的库存模型时可以对项模型组选择的选项。 在早期版本的 Microsoft Dynamics AX 中，此选项被命名为 **标准成本**。 在 Dynamics AX 2012 中引入新的标准成本库存模型时，它被重命名为 **固定收货价**。 本主题介绍了如何在 Dynamics 365 Supply Chain Management 中配置和使用固定收货价。
+**固定收货价** 是您在使用 *标准成本* 或 *移动加权平均* 以外的库存模型时可以对项模型组选择的选项。 在早期版本的 Microsoft Dynamics AX 中，此选项被命名为 **标准成本**。 在 Dynamics AX 2012 中引入新的标准成本库存模型时，它被重命名为 **固定收货价**。 本文介绍了如何在 Dynamics 365 Supply Chain Management 中配置和使用固定收货价。
 
 ## <a name="about-fixed-receipt-prices"></a>关于固定收货价
 

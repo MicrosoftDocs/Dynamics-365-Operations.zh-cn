@@ -1,6 +1,6 @@
 ---
 title: 集中付款的结算概览
-description: 此主题介绍 Microsoft Dynamics 365 Finance 的集中付款的结算。
+description: 本文介绍 Microsoft Dynamics 365 Finance 的集中付款的结算。
 author: abruer
 ms.date: 08/02/2018
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 979938b7ed69ef745bf220c4d9a864c3c26b4841
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 5d5610b2a2fd62331c41ea9e1f25888128404f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899862"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 

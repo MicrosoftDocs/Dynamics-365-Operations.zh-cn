@@ -1,6 +1,6 @@
 ---
 title: 即时补货
-description: 本主题介绍如何在位置指令无法分配库存时使用即时补货为库存补货。
+description: 本文介绍如何在位置指令无法分配库存时使用即时补货为库存补货。
 author: Mirzaab
 ms.date: 03/15/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf48f2f34f574503bbcae827f8013afe8532fc14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899257"
 ---
 # <a name="immediate-replenishment"></a>即时补货
 

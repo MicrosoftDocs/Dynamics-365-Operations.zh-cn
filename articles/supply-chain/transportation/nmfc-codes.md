@@ -1,6 +1,6 @@
 ---
 title: 全国汽车货运分类 (NMFC) 代码
-description: 本主题介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用全国汽车货运分类 (NMFC) 代码
+description: 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用全国汽车货运分类 (NMFC) 代码
 author: Weijiesa
 ms.date: 04/22/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5127e132a8c06815e9ecd11338c729cd8bb87f18
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893256"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>全国汽车货运分类 (NMFC) 代码
 
@@ -31,7 +31,7 @@ NMFC 代码与每个小于货车荷载 (LTL) 装运物料关联。 例如，可�
 - 此分类对于您的公司可能是必不可少的，因为它用于确定给定负荷的成本。
 - 您的公司可以确定 LTL 物流运输公司的利润率。
 
-此主题描述如何在 Microsoft Dynamics 365 Supply Chain Management 中使用 NMFC 代码。
+本文描述如何在 Microsoft Dynamics 365 Supply Chain Management 中使用 NMFC 代码。
 
 ## <a name="prerequisites"></a>先决条件
 

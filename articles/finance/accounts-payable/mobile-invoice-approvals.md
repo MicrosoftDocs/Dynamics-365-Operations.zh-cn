@@ -1,42 +1,42 @@
 ---
 title: 移动发票审核
-description: 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。
+description: 本文旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737347"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946265"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
 [!include [banner](../includes/banner.md)]
 
-商业用户可通过移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本主题应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
+商业用户可通过移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本文旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本文应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
 
 ## <a name="prerequisites"></a>必备项
 
-| 必备项                                                                                            | 说明                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 先决条件                                                                                            | Description                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | 移动手册预习                                                                                |[移动平台](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | 已安装了版本 1611 和平台更新 3（2016 年 11 月）的环境                   |
 | 安装修补程序 KB 3204341。                                                                              | 任务录制器可能错误地为平台更新 3（2016 年 11 月更新）中的下拉对话框录制两个关闭命令。 |
 | 安装修补程序 KB 3207800。                                                                              | 此修补程序允许在平台更新 3（2016 年 11 月更新）中的移动客户端上查看附件。           |
 | 安装修补程序 KB 3208224。                                                                              | 版本 7.0.1（2016 年 5 月）中的移动供应商发票审核应用程序的应用程序代码。                          |
-| 安装了此移动应用程序的 Android、iOS 或 Windows 设备。 | 在相应的应用程序商城中搜索该应用程序。                                                                                                                     |
+| 安装了此移动应用程序的 Android、iOS 或 Windows 设备。 | 在相应的应用程序商城中搜索该应用程序。                            |
 
 ## <a name="introduction"></a>简介
 供应商发票的移动审核需要“必备条件”部分中提到的三个修补程序。 这些修补程序不为发票审核提供工作区。 若要了解移动上下文中的工作区是什么，请阅读“必备条件”部分中提到的移动手册。 必须设计发票审核工作区。 
@@ -51,7 +51,7 @@ ms.locfileid: "6737347"
     -   发票的发票抬头中是否也有会计分配？ 如果有，这些会计分配在设备上是否可用？
 
     > [!NOTE]
-    > 此主题不介绍如何编辑会计分配，因为此功能现在不支持移动方案。
+    > 本文不介绍如何编辑会计分配，因为此功能现在不支持移动方案。
 
 -   用户是否要在设备上查看发票的附件？
 
@@ -59,7 +59,7 @@ ms.locfileid: "6737347"
 
 在使用移动设计器时，通常需要确保“发布”更改，以防丢失更新。
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审批方案
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>为 Contoso 设计简单发票审核方案
 <table>
 <colgroup>
 <col width="50%" />

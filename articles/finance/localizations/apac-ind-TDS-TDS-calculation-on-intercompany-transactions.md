@@ -1,6 +1,6 @@
 ---
 title: 根据内部公司交易的 TDS 计算
-description: 本主题介绍了用于根据内部公司交易分阶段计算从源扣缴税款 (TDS) 的流程。
+description: 本文介绍了用于根据内部公司交易分阶段计算从源扣缴税款 (TDS) 的流程。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888964"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>根据内部公司交易的 TDS 计算
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了用于根据内部公司交易分阶段计算从源扣缴税款 (TDS) 的流程。
+本文介绍了用于根据内部公司交易分阶段计算从源扣缴税款 (TDS) 的流程。
 
 创建内部公司采购订单或销售订单时，将使用为客户或供应商定义的默认 TDS 组计算 TDS 金额。 在过帐发票后，TDS 金额将过帐到可退税帐户或应付帐款。
 

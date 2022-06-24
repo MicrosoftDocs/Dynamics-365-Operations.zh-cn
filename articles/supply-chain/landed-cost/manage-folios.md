@@ -1,6 +1,6 @@
 ---
 title: 管理帐页
-description: 本主题介绍如何使用帐页。 帐页通常包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
+description: 本文介绍如何使用帐页。 帐页通常包含每个装运的一个实体或公司的一个供应商的货物。 帐页中的货物可以在一个集装箱中，也可以分布在多个集装箱中。
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f908ae3c150a09af61bb0ee97469619744cd1079
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905883"
 ---
 # <a name="manage-folios"></a>管理帐页
 
@@ -132,7 +132,7 @@ ms.locfileid: "8695293"
 
 ### <a name="information-on-the-folio-fasttab"></a>帐页快速选项卡上的信息
 
-**行** 视图中的 **帐页** 快速选项卡显示有关帐页的信息。 这些信息中的大多数还会显示在 **标头** 视图中，如本主题前面所述。
+**行** 视图中的 **帐页** 快速选项卡显示有关帐页的信息。 这些信息中的大多数还会显示在 **标头** 视图中，如本文前面所述。
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>行快速选项卡上的信息和按钮
 

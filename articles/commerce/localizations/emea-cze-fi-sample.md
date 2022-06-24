@@ -1,6 +1,6 @@
 ---
 title: 捷克共和国的会计登记服务集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: d255b03242a4cb7a72cef1e8e6fab901ecf953e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910490"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>捷克共和国的会计登记服务集成示例
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
 
 为了满足捷克共和国收银机的当地会计要求，适用于捷克共和国的 Dynamics 365 Commerce 功能将包括销售点 (POS) 与外部会计登记服务集成的示例。 该示例扩展了[会计整合功能](fiscal-integration-for-retail-channel.md)。 它基于 [EFSTA](https://efsta.org/) 中的 [EFR（电子会计登记簿）](https://efsta.org/sicherheitsloesungen/)解决方案，并允许通过 HTTPS 协议与 EFR 服务通信。 EFR 服务可确保实现电子销售登记 (EET - Elektronická evidence tržeb)，即将销售数据在线传输到税务机关的会计 Web 服务。
 

@@ -1,6 +1,6 @@
 ---
 title: 建议固定资产购置
-description: 本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。
+description: 本文介绍如何使用固定资产日记帐中的购置方案购置固定资产。
 author: moaamer
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd54642e5ec6c56fbc3a5ebb07fc8fdaf5545926
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 35d2171dc828cb0227f310e81be1d3e3359f41c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909060"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>建议固定资产购置
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何使用固定资产日记帐中的购置方案购置固定资产。 它为 USMF 法人实体使用会计角色和演示数据。 要通过固定资产建议日记帐获取固定资产，必须首先创建固定资产记录，然后在资产帐簿中定义购置价格。
+本文介绍如何使用固定资产日记帐中的购置方案购置固定资产。 它为 USMF 法人实体使用会计角色和演示数据。 要通过固定资产建议日记帐获取固定资产，必须首先创建固定资产记录，然后在资产帐簿中定义购置价格。
 
 ## <a name="create-an-asset-acquisition-proposal"></a>创建资产购置方案
 

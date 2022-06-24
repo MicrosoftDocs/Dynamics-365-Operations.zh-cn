@@ -1,6 +1,6 @@
 ---
 title: 人员筛选
-description: 本主题介绍 Dynamics 365 Human Resources 的“人员筛选”实体。
+description: 本文介绍 Dynamics 365 Human Resources 的“人员筛选”实体。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5129348f928fd709a5fabe73917522799a2d47e0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907631"
 ---
 # <a name="person-screening"></a>人员筛选
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066285"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的“人员筛选”实体。
+本文介绍 Dynamics 365 Human Resources 的“人员筛选”实体。
 
 物理名称：mshr_hcmpersonscreeningentity
 

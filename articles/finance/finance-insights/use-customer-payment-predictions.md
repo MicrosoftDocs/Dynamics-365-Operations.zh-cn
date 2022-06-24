@@ -1,6 +1,6 @@
 ---
 title: 使用客户付款预测
-description: 本主题介绍了使用 Finance insights 试用版的先决条件和各种步骤。
+description: 本文介绍了使用 Finance insights 试用版的先决条件和各种步骤。
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901393"
 ---
 # <a name="use-customer-payment-predictions"></a>使用客户付款预测
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用客户付款预测。 使用此功能之前，请确保已完成该功能的设置步骤。 有关详细信息，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。
+本文说明如何使用客户付款预测。 使用此功能之前，请确保已完成该功能的设置步骤。 有关详细信息，请参阅[启用客户付款预测](enable-cust-paymnt-prediction.md)。
 
 您可以在 **管理客户信用和收款** 工作区和 **交易付款预测** 与 **客户付款预测** 这两个新列表页上查看客户付款预测。
 

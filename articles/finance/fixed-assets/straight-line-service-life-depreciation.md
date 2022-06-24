@@ -1,6 +1,6 @@
 ---
-title: 直线法使用年限折旧
-description: 本主题提供直线法（使用年限）折旧方法的概述。
+title: 直线法折旧
+description: 本文提供了直线法折旧法的概览。
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896454"
 ---
-# <a name="straight-line-service-life-depreciation"></a>直线法使用年限折旧
+# <a name="straight-line-service-life-depreciation"></a>直线法折旧
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供直线法（使用年限）折旧方法的概述。
+本文提供了直线法折旧法的概览。
 
 在设置固定资产折旧模板并在“折旧模板”页的“方法”字段中选择“直线法”时，分配了该折旧模板的资产将基于资产的总使用年限而折旧。 通常，每个折旧期间的折旧金额相同。 
 
@@ -41,7 +41,7 @@ ms.locfileid: "8726660"
 
 如果您选择“日历”，则假定为一年 1 月 1 日到 12 月 31 日，即使您以不同方式定义会计日历。 
 
-使用“日历”选项，可以在每年 1 月 1 日更新折旧基数（通常为帐面净值减去残值）。 在此主题后面的示例中，折旧基数是计算列中第一个表达式的分子。 
+使用“日历”选项，可以在每年 1 月 1 日更新折旧基数（通常为帐面净值减去残值）。 在本文后面的示例中，折旧基数是计算列中第一个表达式的分子。 
 
 如果选择“日历”，则在“期间频率”字段中提供以下选项，这些选项定义了整个日历年度的折旧应计过帐日期和金额：
 - “每年”在 12 月 31 日过帐金额。

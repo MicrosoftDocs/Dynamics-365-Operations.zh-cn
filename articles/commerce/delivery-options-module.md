@@ -1,6 +1,6 @@
 ---
-title: 交货选项模块
-description: 此主题介绍交货选项模块，说明如何在 Microsoft Dynamics 365 Commerce 中配置这些模块。
+title: 交付选项模块
+description: 本文介绍交货选项模块，说明如何在 Microsoft Dynamics 365 Commerce 中配置这些模块。
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894550"
 ---
 # <a name="delivery-options-module"></a>交付选项模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍交货选项模块，说明如何在 Microsoft Dynamics 365 Commerce 中配置这些模块。
+本文介绍交货选项模块，说明如何在 Microsoft Dynamics 365 Commerce 中配置这些模块。
 
 交货选项模块使客户可以为在线订单选择交货方式，如装运或提货。 需要装运地址来确定交货方式。 如果更改装运地址，则必须重新检索交货选项。 如果订单中仅包含将在商店提货的项，则自动隐藏此模块。
 

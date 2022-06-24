@@ -1,6 +1,6 @@
 ---
 title: 财务维度和过帐
-description: 在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。
+description: 在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本文介绍各组件的定义及其协同工作方式。
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910104"
 ---
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
 [!include [banner](../includes/banner.md)]
 
-在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。
+在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本文介绍各组件的定义及其协同工作方式。
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>会计科目表和财务维度组件
 
@@ -46,7 +46,7 @@ ms.locfileid: "8722790"
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>主科目中的默认/固定财务维度
 
-默认维度来自各种位置，如主记录（如客户或供应商记录）、单据抬头和主科目。 本主题重点介绍主科目中按法人分类的默认维度。 可以为分类帐的所有科目结构中使用的各财务维度定义主科目具有 **非固定** 还是 **固定** 值。 如果财务维度 **非固定**，则使用默认值，但不能改写该值。 此行为适用于系统中的所有默认值，即使来自主记录的默认值也不例外。 如果财务维度设置为 **固定** 值，无论该值与默认值来自同一位置还是用户输入的。都将始终应用该值。
+默认维度来自各种位置，如主记录（如客户或供应商记录）、单据抬头和主科目。 本文重点介绍主科目中按法人分类的默认维度。 可以为分类帐的所有科目结构中使用的各财务维度定义主科目具有 **非固定** 还是 **固定** 值。 如果财务维度 **非固定**，则使用默认值，但不能改写该值。 此行为适用于系统中的所有默认值，即使来自主记录的默认值也不例外。 如果财务维度设置为 **固定** 值，无论该值与默认值来自同一位置还是用户输入的。都将始终应用该值。
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>过帐期间默认维度的应用顺序
 

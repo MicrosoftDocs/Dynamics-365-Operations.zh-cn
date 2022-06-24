@@ -1,6 +1,6 @@
 ---
 title: 产品所有者
-description: 此主题提供有关产品所有者的信息。 产品所有者是负责特定产品的一组用户。 只有该组成员可以发布这些产品。 产品所有者也可以在审核工作流中使用。
+description: 本文提供有关产品所有者的信息。 产品所有者是负责特定产品的一组用户。 只有该组成员可以发布这些产品。 产品所有者也可以在审核工作流中使用。
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e09fdbbe14aa5a5ffbc5f07ae90b5d307a9e155
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907513"
 ---
 # <a name="product-owners"></a>产品所有者
 

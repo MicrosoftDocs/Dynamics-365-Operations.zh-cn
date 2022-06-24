@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.28 的预览（2022 年 8 月）
-description: 此主题介绍了 Microsoft Dynamics 365 Supply Chain Management 10.0.28 中的新增功能或更改的功能。
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.28 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 306ff9be80c7a7a947b9132e3c9b4b9ec799b265
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902044"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 的预览（2022 年 8 月）
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.28 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1264，并按以下时间表提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.28 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1264，并按以下时间表提供：
 
 - **版本预览：** 2022 年 5 月
 - **版本正式发布（自行更新）：** 2022 年 7 月
@@ -30,15 +30,14 @@ ms.locfileid: "8813043"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-下表列出了此版本中包含的功能。 我们可能会更新本主题，以包含在最初发布本主题之后添加到内部版本的功能。
+下表列出了此版本中包含的功能。 我们可能会更新本文，以包含在最初发布本文之后添加到内部版本的功能。
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 库存和物流 | [第三方货运转运商的到岸成本集成实体](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [到岸成本实体概览](../landed-cost/landed-cost-entities-overview.md) | 默认启用 |
-| 计划 | [保质期计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | 即将推出 <!-- KFM: Vendor is preparing this. Expected May 20. --> | 默认启用 |
-
-<!-- KFM: Confirm status of this feature:
-| Planning | [Demand Driven Material Requirements Planning (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Coming soon | Feature management:<br>*(Preview) DDMRP for Planning Optimization* | -->
+| 计划 | [需求驱动材料要求计划 (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | 即将推出 | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |
+| 计划 | [可承诺量 (CTP) 的计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | 即将推出 | 功能管理：<br>*(预览版)用于计划优化的 CTP* |
+| 计划 | [保质期计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | 即将推出 | 默认启用 |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强
 
@@ -56,9 +55,9 @@ ms.locfileid: "8813043"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 按照前几节的列举，这些主题未必与此发行版中增加的新功能有关。 但是，它们可以帮助您更加受益于现有功能。
+我们最近添加或大幅更新了以下帮助文章。 按照前几节的列举，这些文章未必与此发行版中增加的新功能有关。 但是，它们可以帮助您更加受益于现有功能。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 成本管理 | [固定收货价](../cost-management/fixed-receipt-price.md) |
 | 成本管理 | [库存成本计算常见问题](../cost-management/inventory-costing-faq.md) |
@@ -69,7 +68,7 @@ ms.locfileid: "8813043"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.28 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)。<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.28 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -83,12 +82,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.28 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

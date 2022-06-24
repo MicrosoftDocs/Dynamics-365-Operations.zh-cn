@@ -1,6 +1,6 @@
 ---
 title: 应付帐款和应收帐款的货币重估
-description: 本主题提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。
+description: 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906375"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款的货币重估
 
 [!include [banner](../includes/banner.md)]
 
-汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本主题提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。 
+汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。 
 
 采用外币的未结供应商交易记录的理论价值或帐面价值会由于汇率波动在不同时间发生变化。 若要更新应收帐款和应付帐款的未结交易记录的值，请运行外币重估流程。 应付帐款和应收帐款均可运行外币重估。 该流程将在指定日期使用新的汇率重估未结金额。 原始过帐金额与重估金额之间的差额将导致每个未结交易记录的或有损益。 应付帐款和应收帐款子分类帐然后更新以反映或有损益，且会计条目过帐到总帐。
 

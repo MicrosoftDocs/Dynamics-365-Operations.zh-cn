@@ -1,6 +1,6 @@
 ---
 title: 预留库存数量
-description: 此主题介绍预留库存时可用的不同选项。
+description: 本文介绍预留库存时可用的不同选项。
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899431"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍预留库存时可用的不同选项。
+本文介绍预留库存时可用的不同选项。
 
 可以为特定的销售订单自动预留库存数量。 这意味着除非库存预留或部分库存预留已取消，否则不能从仓库中为其他订单提取预留库存。
 

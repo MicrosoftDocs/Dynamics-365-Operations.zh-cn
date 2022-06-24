@@ -1,6 +1,6 @@
 ---
 title: 资产租赁惯例
-description: 文主题介绍租赁资产的惯例。
+description: 本文介绍租赁资产的惯例。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898260"
 ---
 # <a name="asset-leasing-conventions"></a>资产租赁惯例
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-文主题介绍租赁资产的惯例。 租赁惯例用于确定租赁帐簿的开始日期。 如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。 如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。
+本文介绍租赁资产的惯例。 租赁惯例用于确定租赁帐簿的开始日期。 如果租赁惯例设置为 **否**，开始日期与租赁的开始日期相同（即 **租赁开始日期** 字段的值）。 如果租赁惯例设置为 **整月**，开始日期则是租赁开始日期所在月份的第一天。
 
 开始日期确定负债摊销和资产折旧计划的期间的开始日期。 利息支出和折旧支出在相应计划的期间结束日期过帐。 初始确认和调整日记帐条目在开始日期过帐。
 

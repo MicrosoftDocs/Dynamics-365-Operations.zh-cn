@@ -1,6 +1,6 @@
 ---
 title: 在“税款计算”服务中启用调试模式
-description: 本主题介绍了如何在“税款计算”服务中启用调试模式以调查问题。
+description: 本文介绍了如何在“税款计算”服务中启用调试模式以调查问题。
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887768"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>在“税款计算”服务中启用调试模式
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了如何在“税款计算”服务中启用调试模式以调查问题。
+本文介绍了如何在“税款计算”服务中启用调试模式以调查问题。
 
 1. 将 **&debug=vs%2CconfirmExit&** 添加到应用程序对象服务器 (AOS) 的 URL，然后刷新页面。
 2. 选择 **销售税** 以计算销售税时，将打开名为 **TaxServiceTroubleshotingLog.txt** 的文本文件。 **TaxServiceTroubleshotingLog.txt** 文件包含 **TaxableDocument** 和计算参数。 这些结果是从税务服务和异常信息中返回的，用于进行故障排除。

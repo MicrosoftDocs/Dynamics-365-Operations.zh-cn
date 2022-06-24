@@ -1,6 +1,6 @@
 ---
 title: 在“福利管理”中生成平价医疗法案报告
-description: 本主题介绍“福利管理”如何跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。
+description: 本文介绍“福利管理”如何跟踪平价医疗法案 (ACA) 雇主授权单的表单 1095-B 和表单 1095-C 上报告的信息。
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 118dace557c7c8a8d101e2f2ad1d94fb14547c1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889713"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>在“福利管理”中生成 ACA 报告
 

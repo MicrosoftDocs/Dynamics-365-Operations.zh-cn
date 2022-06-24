@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 10 月 6 日）中的新增功能或更改
-description: 本主题介绍了 2020 年 10 月 6 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
+description: 本文介绍 2020 年 10 月 6 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887709"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Dynamics 365 Human Resources（2020 年 10 月 6 日）中的新增功能或更改
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062971"
 
 
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
 有关新功能及其预计的正式发布日期的详细信息，请参阅 [Dynamics 365 Human Resources 2020 年发布波次 2 概述](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)。
 
@@ -48,9 +48,9 @@ ms.locfileid: "8062971"
 此发布中包含以下缺陷修复。
 
 >[!NOTE]
-> 我们的目标是尽快向您提供此信息。 本主题可能会进行更新，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快向您提供此信息。 本文可能会进行更新，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 | 说明 |
+| 问题编号 | 问题 | Description |
 | --- | --- | --- |
 | 448806 | 在 HCM 参数中，**默认标识类型** 导出为 **RecID** | 对 Human Resources 参数实体的此更改添加了一个其他列，该列显示 **默认标识类型**。 |
 | 492923 | 任务录制未保存在 Lifecycle Services (LCS) 中 | 任务录制现在可以保存在 LCS 中。 |

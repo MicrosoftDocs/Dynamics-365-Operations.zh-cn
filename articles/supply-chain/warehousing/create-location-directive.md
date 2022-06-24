@@ -1,6 +1,6 @@
 ---
 title: 使用库位指令
-description: 本主题介绍如何使用库位指令。 位置指令是帮助标识领料和使位置用于库存移动的用户定义的规则。
+description: 本文介绍如何使用库位指令。 位置指令是帮助标识领料和使位置用于库存移动的用户定义的规则。
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903686"
 ---
 # <a name="work-with-location-directives"></a>使用库位指令
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103130"
 库位指令是帮助标识领料和使位置用于库存移动的规则。 例如，在销售订单交易记录中，位置指令决定在何处领物料，及将已领的物料放置在何处。 库位指令包含标题和关联的行。 它们创建用于特定的 *工作订单类型*。
 
 > [!NOTE]
-> 此主题适用于 **仓库管理** 模块中的功能。 它不适用于[库存管理](../inventory/inventory-home-page.md)模块中的功能。
+> 本文适用于 **仓库管理** 模块中的功能。 它不适用于[库存管理](../inventory/inventory-home-page.md)模块中的功能。
 
 您可以使用位置指令来执行以下任务：
 
@@ -109,7 +109,7 @@ ms.locfileid: "8103130"
 
 若要打开 **库位指令** 页面，请转到 **仓库管理 \> 设置 \> 库位指令**。
 
-在这里，您可以使用操作窗格上的命令查看、创建和编辑库位指令。 有关如何使用页面上可用的所有字段的信息，请参阅本主题的剩余部分。
+在这里，您可以使用操作窗格上的命令查看、创建和编辑库位指令。 有关如何使用页面上可用的所有字段的信息，请参阅本文的其余几节。
 
 ## <a name="action-pane"></a>操作窗格
 
@@ -162,7 +162,7 @@ ms.locfileid: "8103130"
 - **适用处置代码** – 指定库位指令的处置代码是否必须与接收物料时应用的处置代码匹配，或者是否可以根据任何处置代码选择库位指令。 如果选择 *完全匹配*，并且 **处置代码** 字段为空，则仅为此库位指令考虑空白处置代码。
 
     > [!NOTE]
-    > 该字段仅适用于允许补货的选定工作订单类型。 有关完整列表，请参阅本主题前面的[特定于工作订单类型的字段](#fields-specific-types)部分。
+    > 该字段仅适用于允许补货的选定工作订单类型。 有关完整列表，请参阅本文前面的[特定于工作订单类型的字段](#fields-specific-types)部分。
 
 - **查找依据** – 指定储存数量在牌照上是否应该为全部数量，以及它是否应该采用逐个物料形式。 使用此字段帮助确保牌照上的所有内容都放置在一个库位中，并且系统不建议您将内容拆分为多个库位以用于 **ASN**（牌照接收）、**混合牌照** 接收和 **群集** 接收流程。 （**群集** 接收流程要求打开[群集储存功能](putaway-clusters.md)。）库位指令查询、行和库位指令操作的行为将有所不同，具体取决于您选择的值。 仅在 **查找依据** 设置为 *物料* 时才使用 **行** 快速选项卡。
 
@@ -254,7 +254,7 @@ ms.locfileid: "8103130"
 ## <a name="additional-resources"></a>其他资源
 
 - 视频：[仓库管理配置深入探索](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- 帮助主题：[使用工作模板和库位指令控制仓库的工作](control-warehouse-location-directives.md)
+- 帮助文章：[使用工作模板和库位指令控制仓库的工作](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: 为仓库工作设置移动设备
-description: 此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
+title: 设置移动设备以执行仓库工作
+description: 本文介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905564"
 ---
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>设置移动设备以执行仓库工作
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
+本文介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 
 > [!NOTE]
-> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 显示在仓库移动设备的菜单中的菜单项在 **移动设备菜单项** 页上配置。 由于菜单项可以放到不同的菜单上，配置菜单结构容易，以便只向特定用户显示特定类型的工作。 您可以配置菜单项执行以下任务：
+> 本文适用于 Warehouse management 中的功能。 它不适用于库存管理中的功能。 显示在仓库移动设备的菜单中的菜单项在 **移动设备菜单项** 页上配置。 由于菜单项可以放到不同的菜单上，配置菜单结构容易，以便只向特定用户显示特定类型的工作。 您可以配置菜单项执行以下任务：
 
 - 处理查询或执行活动，如打印标签、生成牌照号码、开始生产订单或快速查找位置中的物料信息。
 - 通过另一流程创建要执行的工作。 例如，接收采购订单物料可以创建另一名工人的入库工作。
@@ -38,7 +38,7 @@ ms.locfileid: "7902171"
 若要创建活动或查询的菜单项，将 **模式** 字段设置为 **间接**。 **活动代码** 选项的列表然后将可用，以便您可以选择菜单项针对的查询或活动的类型。 若要创建菜单项以生成仓库工作，将 **模式** 字段设置为 **工作**。 **工作创建流程** 选项的列表然后变得可用。 若要创建菜单项以处理现有的仓库工作，设置 **模式** 字段为 **工作**，然后设置 **使用现有工作** 选项为 **是**。 
 
 > [!NOTE]
-> 其他字段可能可用于菜单项，具体取决于为菜单项选择的模式，以及菜单项是否用于执行现有工作。 有关其他字段选择的信息，请参阅本主题后面的“其他菜单项选项”部分。
+> 其他字段可能可用于菜单项，具体取决于为菜单项选择的模式，以及菜单项是否用于执行现有工作。 有关其他字段选择的详细信息，请参阅本文后文中的“其他菜单项选项”章节。
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>配置活动和查询的菜单项
 

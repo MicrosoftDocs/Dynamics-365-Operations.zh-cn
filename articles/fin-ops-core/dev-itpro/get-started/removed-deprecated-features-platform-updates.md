@@ -1,6 +1,6 @@
 ---
-title: 已删除或已弃用的平台功能
-description: 本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
+title: 已删除或弃用的平台功能
+description: 本文介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811237"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945791"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍已经或计划从财务和运营应用的平台更新中删除的功能。
+本文介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
@@ -40,7 +40,7 @@ ms.locfileid: "8811237"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 我们正在弃用财务与运营 (Dynamics 365) 移动应用和平台以合并到单个移动平台，即 Power Apps。 |
-| **被另一个功能取代？**   | 是，可以通过 Power Platform 集成生成财务与运营应用数据的移动体验。 有关更多详细信息，请参阅[生成移动体验](../power-platform/build-mobile-experiences.md)。 |
+| **被另一个功能取代？**   | 是，可以通过 Power Platform 集成生成财务与运营应用数据的移动体验。 有关更多详细信息，请参阅[博客文章](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)和[生成移动体验](../power-platform/build-mobile-experiences.md)。 |
 | **影响的产品区域**         | Finance and Operations 应用 |
 | **部署选项**              | 所有 |
 | **Status**                         | 已弃用。 支持结束日期定为 2024 年 10 月。 |

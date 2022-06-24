@@ -1,6 +1,6 @@
 ---
 title: 密封 Commerce 自助服务组件批量部署
-description: 本主题介绍如何使用自助服务组件安装程序的框架静默安装和维护部署。
+description: 本文介绍如何使用自助服务组件安装程序的框架静默安装和维护部署。
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898571"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>密封 Commerce 自助服务组件批量部署
 
 [!include [banner](../includes/banner.md)]
 
-本主题适用于密封框架，即从 10.0.18 版本开始每月发布的组件安装程序，这些安装程序在 Microsoft Dynamics Lifecycle Services (LCS) 的共用资产库中可用。 请注意，这些新安装程序的前几个版本被指定为 **（预览版）**。 但是，此指定的唯一目的是区分新的安装程序，而 Microsoft 则确定使用这些功能是否存在其他功能要求。 这并不意味着安装程序对生产无效。 根据这些新安装程序的发布，Microsoft 计划在 2023 年 10 月或前后弃用旧的（旧版）安装程序。 
+本文适用于密封框架，即从 10.0.18 版本开始每月发布的组件安装程序，这些安装程序在 Microsoft Dynamics Lifecycle Services (LCS) 的共用资产库中可用。 请注意，这些新安装程序的前几个版本被指定为 **（预览版）**。 但是，此指定的唯一目的是区分新的安装程序，而 Microsoft 则确定使用这些功能是否存在其他功能要求。 这并不意味着安装程序对生产无效。 根据这些新安装程序的发布，Microsoft 计划在 2023 年 10 月或前后弃用旧的（旧版）安装程序。 
 
-本主题说明如何使用新安装程序通过命令行参数执行静默安装和服务更新。 这些参数允许您以几种不同的方式进行大规模部署。
+本文说明如何使用新安装程序通过命令行参数执行静默安装和服务更新。 这些参数允许您以几种不同的方式进行大规模部署。
 
 > [!NOTE]
 > Headquarters 中不会提供新的自助式密封安装程序，只能通过 LCS 下载这些程序。
@@ -108,7 +108,7 @@ ms.locfileid: "8741536"
 
 ### <a name="before-you-begin"></a>开始之前
 
-删除旧的自助服务 Modern POS 组件至关重要。 有关详细信息，请参阅本主题中前面的迁移步骤。
+删除旧的自助服务 Modern POS 组件至关重要。 有关详细信息，请参阅本文前面的迁移步骤。
 
 ### <a name="examples-of-silent-deployment"></a>静默部署示例
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Modern POS 不需要配置文件。 安装程序现在具有在设备激活期间使用的各种值的参数（如本主题前面所示）。
+> Modern POS 不需要配置文件。 安装程序现在具有在设备激活期间使用的各种值的参数（如本文前面所示）。
 
 以下命令指定安装 Modern POS 应用程序后在设备激活期间应使用的所有参数。 此示例使用 **Houston-3** 收银机，它是 Dynamics 365 Commerce 演示数据中常用的值。
 
@@ -145,7 +145,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 
 ### <a name="before-you-begin"></a>开始之前
 
-删除旧的自助服务 Hardware station 组件至关重要。 有关详细信息，请参阅本主题中前面的迁移步骤。 不再存在商家帐户信息工具。 而是在 POS 终端与 Hardware station 配对时安装商家帐户信息。 首次测试此安装程序时，强烈建议您运行以下命令：
+删除旧的自助服务 Hardware station 组件至关重要。 有关详细信息，请参阅本文前面的迁移步骤。 不再存在商家帐户信息工具。 而是在 POS 终端与 Hardware station 配对时安装商家帐户信息。 首次测试此安装程序时，强烈建议您运行以下命令：
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Hardware Station 不需要配置文件。 安装程序现在具有所需的各种值的参数（如本主题前面所示）。
+> Hardware Station 不需要配置文件。 安装程序现在具有所需的各种值的参数（如本文前面所示）。
 
 以下命令指定在标准安装期间跳过先决条件检查所需的所有参数。 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>开始之前
 
-删除旧的自助服务 CSU（自托管）组件至关重要。 有关详细信息，请参阅本主题中前面的迁移步骤。
+删除旧的自助服务 CSU（自托管）组件至关重要。 有关详细信息，请参阅本文前面的迁移步骤。
 
 ### <a name="examples-of-silent-deployment"></a>静默部署示例
 

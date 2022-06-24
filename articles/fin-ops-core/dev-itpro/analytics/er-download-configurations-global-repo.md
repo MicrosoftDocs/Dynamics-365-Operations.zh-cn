@@ -1,6 +1,6 @@
 ---
 title: 从 Configuration service 的全局知识库下载 ER 配置
-description: 本主题说明如何从 Configuration service 的全局知识库下载电子申报 (ER) 配置。
+description: 本文说明如何从配置服务的全局知识库下载电子报告 (ER) 配置。
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891895"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>从 Configuration service 的全局知识库下载 ER 配置
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何从 Configuration service 的全局知识库下载[电子申报 (ER) 配置](general-electronic-reporting.md#Configuration)。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
+本文说明如何从配置服务的全局知识库下载[电子报告 (ER) 配置](general-electronic-reporting.md#Configuration)。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
 
 ## <a name="open-configurations-repository"></a>打开配置库
 
 1. 使用以下角色之一登录到 Dynamics 365 Finance 应用程序：
 
-    - 电子申报开发人员
+    - 电子报告开发人员
     - 电子申报功能顾问
     - 系统管理员
 
@@ -80,7 +80,7 @@ ms.locfileid: "7605323"
     ![“配置存储库”页面、“版本”快速选项卡、“导入”按钮。](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 必须先解决这些问题，然后才可以使用导入的配置版本。 有关详细信息，请参阅本主题的相关资源列表。
+> 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 必须先解决这些问题，然后才可以使用导入的配置版本。 有关详细信息，请参阅本文的相关资源列表。
 
 > [!NOTE]
 > ER 配置可以配置为依赖于其他配置。 因此，连同所选配置一起，其他配置可能会自动导入。 有关配置依赖关系的详细信息，请参阅[定义 ER 配置与其他组件之间的依赖关系](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)。

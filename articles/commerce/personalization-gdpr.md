@@ -1,6 +1,6 @@
 ---
-title: 选择退出个性化产品建议
-description: 本主题说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不接收个性化建议。
+title: 选择退出个性化建议
+description: 本文说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不接收个性化建议。
 author: bebeale
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47de876a6f304ed5cb35bf075eadaafa4bf0fc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896919"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>选择退出个性化建议
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不接收个性化建议。
+本文说明如何在 Microsoft Dynamics 365 Commerce 中让客户选择不接收个性化建议。
 
 在创建帐户期间，会自动将新客户设置为接收个性化建议。 但是，Dynamics 365 Commerce 为零售商提供了各种方式，可以让用户可以选择不接收这些建议并限制其对个人数据的处理。 选择不接收个性化建议的经过身份验证的用户会立即无法查看个性化列表。 而且，将从个性化建议模型中删除为个性化收集的所有个人数据。
 

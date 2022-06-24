@@ -1,6 +1,6 @@
 ---
 title: 发放到仓库
-description: 本主题详细介绍发放到仓库流程。 其介绍在将订单发放到仓库时创建的条目，以及可用于启动此流程的选项。
+description: 本文详细介绍发放到仓库流程。 其介绍在将订单发放到仓库时创建的条目，以及可用于启动此流程的选项。
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893169"
 ---
 # <a name="release-to-warehouse"></a>发放到仓库
 
 [!include [banner](../../includes/banner.md)]
 
-本主题详细介绍发放到仓库流程。 其介绍在将订单发放到仓库时创建的条目，以及可用于启动此流程的选项。
+本文详细介绍发放到仓库流程。 其介绍在将订单发放到仓库时创建的条目，以及可用于启动此流程的选项。
 
 ## <a name="release-to-warehouse-overview"></a>发放到仓库概述
 
-发放到仓库是使库存准备好进行派遣处理的流程。 当您将订单发放到仓库时，系统将创建负荷行和装运。 如果设置了自动波次处理，也将创建负荷和必需的工作。 所涉及实体的配置取决于系统设置。 本主题的此部分将查看在发放到仓库流程中创建的实体和定义这些实体的系统设置。
+发放到仓库是使库存准备好进行派遣处理的流程。 当您将订单发放到仓库时，系统将创建负荷行和装运。 如果设置了自动波次处理，也将创建负荷和必需的工作。 所涉及实体的配置取决于系统设置。 本文的这一节将查看在发放到仓库流程中创建的实体和定义这些实体的系统设置。
 
 *装运* 是客户相同或交货地址相同的一组销售订单或转移单行。
 
@@ -67,7 +67,7 @@ ms.locfileid: "8678342"
 
 流中的某些步骤可能变为手动步骤，具体取决于波次模板、工作模板和库位指令设置。 但是，整体流保持不变。
 
-可选择多种方法将订单发放到仓库。 可以手动执行操作，也可以设置批处理作业。 本主题的剩余部分详细回顾发放到仓库操作的多种执行方法。
+可选择多种方法将订单发放到仓库。 可以手动执行操作，也可以设置批处理作业。 本文的其余几节将详细回顾发放到仓库操作的多种执行方法。
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>从“销售订单”和“转移单”页面手动发放到仓库
 

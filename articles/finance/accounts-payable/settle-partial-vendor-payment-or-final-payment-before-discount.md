@@ -1,6 +1,6 @@
 ---
 title: 在折扣日期之前完全结算部分供应商付款和最后付款
-description: 本主题向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。
+description: 本文向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 90aeff9872e72950f42b6227300933d562c0a3d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716234"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889981"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分供应商付款和最后付款
 
 [!include [banner](../includes/banner.md)]
 
-本主题向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。
+本文向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。
 
 Fabrikam 从供应商 3064 处购买货物。 如果发票在 14 天内支付，则供应商为 Fabrikam 提供 1% 的现金折扣。 发票必须在 30 天时支付。 供应商还允许 Fabrikam 在部分付款上采取现金折扣。 结算参数位于 **应付帐款参数** 页上。 6 月 25 日，April 为供应商 3064 输入 1,000.00 的发票。
 

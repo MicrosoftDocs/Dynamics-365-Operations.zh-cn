@@ -1,6 +1,6 @@
 ---
 title: 配置电子申报 (ER) 以便将数据导入 Power BI
-description: 本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的实例转移至 Power BI 服务。
+description: 本文说明您可以如何使用您的电子报告 (ER) 配置安排数据从您的实例转移至 Power BI 服务。
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896725"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>配置电子申报 (ER) 以便将数据导入 Power BI
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的实例转移至 Power BI 服务。 例如，本主题使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。
+本文说明您可以如何使用您的电子报告 (ER) 配置安排数据从您的实例转移至 Power BI 服务。 例如，本文使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。
 
 ## <a name="overview"></a>概览
 
-Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们共同将外部数据源转换为一致、直观和交互的见解。 电子申报 (ER) 允许用户轻松配置数据源和安排数据从应用程序转移到 Power BI。 数据作为 OpenXML 工作表（Microsoft Excel 工作簿文件）格式的文件传输。 转移的文件存储在为该目的而配置的 Microsoft SharePoint Server 上。 存储的文件在 Power BI 中用来制作包含可视化项（表格、图标、地图等）的报表。 Power BI 报表与 Power BI 用户共享，因为他们在 Power BI 仪表板和应用程序页面上访问。 本主题对以下任务进行解释：
+Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们共同将外部数据源转换为一致、直观和交互的见解。 电子申报 (ER) 允许用户轻松配置数据源和安排数据从应用程序转移到 Power BI。 数据作为 OpenXML 工作表（Microsoft Excel 工作簿文件）格式的文件传输。 转移的文件存储在为该目的而配置的 Microsoft SharePoint Server 上。 存储的文件在 Power BI 中用来制作包含可视化项（表格、图标、地图等）的报表。 Power BI 报表与 Power BI 用户共享，因为他们在 Power BI 仪表板和应用程序页面上访问。 本文对以下任务进行解释：
 
 - 配置 Microsoft Dynamics 365 Finance。
 - 准备您的 ER 格式配置，以从 Finance 应用程序获取数据。
@@ -38,7 +38,7 @@ Microsoft Power BI 是一组软件服务、应用和连接器的集合，它们�
 - 使 Power BI 报表在 Finance 中可访问。
 
 ## <a name="prerequisites"></a>先决条件
-要完成本主题中的示例，您必须具有以下访问权限：
+要完成本文中的示例，您必须具有以下访问权限：
 
 - 以下其中一个角色的访问权限：
 

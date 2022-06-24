@@ -1,6 +1,6 @@
 ---
 title: 设置费用类型
-description: 本主题介绍如何在资产租赁中设置费用类型。
+description: 本文介绍如何在资产租赁中设置费用类型。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 349ba0f5fa040b7c9a957defe1140c4016d6fded
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9978041059437d5d3556236c7ac02c00db93f933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908029"
 ---
 # <a name="set-up-expense-types"></a>设置费用类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在资产租赁中设置费用类型。 付款计划中未包含的费用称为 *费用成本*。 这些成本的示例包括财产税、公共区域维护成本和保险费用。
+本文介绍如何在资产租赁中设置费用类型。 付款计划中未包含的费用称为 *费用成本*。 这些成本的示例包括财产税、公共区域维护成本和保险费用。
 
 ## <a name="add-an-administrative-expense-type"></a>添加管理费用类型
 

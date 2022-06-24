@@ -1,6 +1,6 @@
 ---
 title: 显示中国会计科目的借方和贷方金额
-description: 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。
+description: 本文说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。
 author: ShylaThompson
 ms.date: 03/21/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 994630b96ed83d97b0ec59ae3ba792dbfadbc2d3e646fe77db85d1c04dd83881
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830af9a93a8141ed26ed0e51d6b7ab9a73d049bf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887876"
 ---
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。 
+本文说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。 
 
 您可以查看 **凭证交易记录** 查询页面中的两个单独列中的会计科目的贷方和借方金额。 还可以查看与冲销条目的负金额。 所有负金额在 **凭证交易记录** 查询页面中以红色字母显示。
 

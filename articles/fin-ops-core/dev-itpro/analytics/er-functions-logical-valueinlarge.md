@@ -1,6 +1,6 @@
 ---
 title: VALUEINLARGE ER 函数
-description: 本主题提供有关 VALUEINLARGE 电子报告 (ER) 函数如何使用的信息。
+description: 本文提供有关 VALUEINLARGE 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888136"
 ---
 # <a name="valueinlarge-er-function"></a>VALUEINLARGE ER 函数
 
 [!include [banner](../includes/banner.md)]
 
-`VALUEINLARGE` 函数确定指定的 *Int64* 或 *整数* 类型的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，此函数将返回 *布尔* 值 **TRUE**。 否则，返回 *布尔* 值 **FALSE**。 要了解与 `VALUEIN` 函数的区别，请参阅本主题后面的[使用说明](#usage_note)一节。
+`VALUEINLARGE` 函数确定指定的 *Int64* 或 *整数* 类型的输入是否匹配指定列表中任何指定项目的值。 如果指定的输入与为指定列表的至少一条记录运行指定表达式的结果匹配，此函数将返回 *布尔* 值 **TRUE**。 否则，返回 *布尔* 值 **FALSE**。 要了解与 `VALUEIN` 函数的区别，请参阅本文后面的[使用说明](#usage_note)一节。
 
 ## <a name="syntax"></a>语法
 

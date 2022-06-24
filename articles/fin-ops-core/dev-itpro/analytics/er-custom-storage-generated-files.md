@@ -1,6 +1,6 @@
 ---
 title: 为生成文档指定自定义存储位置
-description: 本主题介绍如何扩展电子申报 (ER) 格式生成的单据的存储位置列表。
+description: 本文介绍如何扩展电子报告 (ER) 格式生成的单据的存储位置列表。
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898847"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>为生成文档指定自定义存储位置
 
 [!include[banner](../includes/banner.md)]
 
-电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。 本主题说明如何通过将创建 ER 目标的任务委托给默认目标工厂，然后实现具有自己的目标逻辑的自定义类，来为生成的文档添加自定义存储位置。
+电子申报 (ER) 框架的应用程序编程接口 (API) 可用于扩展 ER 格式生成的单据的存储位置列表。 本文说明如何通过将创建 ER 目标的任务委托给默认目标工厂，然后实现具有自己的目标逻辑的自定义类，来为生成的文档添加自定义存储位置。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -35,7 +35,7 @@ ms.locfileid: "7594901"
 
 还必须可以访问此拓扑的开发环境。
 
-本主题中的所有任务都可以在 **USMF** 公司完成。
+本文中的所有任务都可以在 **USMF** 公司完成。
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>导入固定资产前滚 ER 格式
 

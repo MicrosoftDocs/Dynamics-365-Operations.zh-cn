@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Finance 开发人员学习目录
-description: 查找面向 Dynamics 365 Finance 开发人员的所有培训选项。
+title: Dynamics 365 Finance 开发人员的学习目录
+description: 查找 Dynamics 365 Finance 开发人员的所有培训选项。
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903090"
 ---
-# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance 开发人员学习目录
+# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance 开发人员的学习目录
 
 
 

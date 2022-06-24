@@ -1,6 +1,6 @@
 ---
 title: 电子申报公式支持的原始数据类型
-description: 本主题提供有关电子申报 (ER) 公式支持的原始数据类型的信息。
+description: 本文提供有关电子报告 (ER) 公式支持的原始数据类型的信息。
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 41cda188e774630e96c46fba1200fd2e640f9915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891866"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的原始数据类型
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关[电子申报 (ER)](general-electronic-reporting.md) 表达式支持的原始数据类型的信息。 下面是原始数据类型的列表：
+本文提供有关[电子报告 (ER)](general-electronic-reporting.md) 表达式支持的原始数据类型的信息。 下面是原始数据类型的列表：
 
 - [布尔](#boolean)
 - [日期](#date)

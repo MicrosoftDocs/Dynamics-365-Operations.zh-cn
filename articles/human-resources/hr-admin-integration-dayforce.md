@@ -1,6 +1,6 @@
 ---
 title: 配置与 Dayforce 的集成
-description: 本主题介绍了 Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成所需的配置步骤。
+description: 本文介绍了 Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成所需的配置步骤。
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896125"
 ---
 # <a name="configure-integration-with-dayforce"></a>配置与 Dayforce 的集成
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691323"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
+Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依赖于本文中介绍的几个配置步骤。 必须先在 Human Resources 和 Dayforce 中配置集成，才能处理付薪。
 
 使用 Dayforce 之类的服务完成付薪时，必须在 Human Resources 中启用集成。 此集成需要来自 Human Resources 的特定数据。 因此，必须验证已按照支持集成的方式在 Human Resources 中配置了映射到 Dayforce 的数据。 此集成使用下面的各种数据类别：
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 Human Resources 与 Ceridian Dayforce 之间的集成依�
 - 工资单数据，如付薪周期、付薪期间和收入代码
 - 工作人员数据
 
-本主题介绍了启用集成必须遵循的步骤，并说明了集成所需的数据类型和配置详细信息。
+本文介绍了启用集成必须遵循的步骤，并说明了集成所需的数据类型和配置详细信息。
 
 ## <a name="enable-the-integration"></a>启用集成
 

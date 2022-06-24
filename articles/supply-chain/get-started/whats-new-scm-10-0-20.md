@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
-description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.20 中的新增功能或更改的功能。
+description: 本文介绍 Dynamics 365 Supply Chain Management 10.0.20 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888634"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.20 中的新增或更改的功能。 此版本的构建版本号为 10.0.886，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.20 中的新增或更改的功能。 此版本的构建版本号为 10.0.886，并以下面的形式提供：
 
 - **版本预览：** 2021 年 5 月
 - **版本正式发布（自行更新）：** 2021 年 7 月
@@ -59,12 +59,12 @@ ms.locfileid: "7647306"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 它们不一定与上一节中列出的为此版本添加的新功能相关，但是它们可以帮助您从现有功能中获得更多益处。
+我们最近添加或大幅更新了以下帮助文章。 它们不一定与上一节中列出的为此版本添加的新功能相关，但是它们可以帮助您从现有功能中获得更多益处。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 工程更改管理 | [产品生命周期状态和交易](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| 库存管理 | [库存可见性加载项](../inventory/inventory-visibility.md)<br><br>[质量和不符合项管理概览](../inventory/quality-management-processes.md)（以及所有相关的质量管理主题） |
+| 库存管理 | [库存可见性加载项](../inventory/inventory-visibility.md)<br><br>[质量和不符合项管理概览](../inventory/quality-management-processes.md)（以及所有相关的质量管理文章） |
 | 采购 | [维护供应商认证](../../finance/public-sector/manage-vendor-certification.md) |
 | 生产控制 | [设计生产车间执行界面的样式](../production-control/production-floor-execution-styles.md) |
 | 仓库管理 | [为 Warehouse Management 移动应用分配步骤图标和标题](../warehousing/step-icons-titles.md)<br><br>[延期处理手动库存变动](../warehousing/deferred-processing-manual-inventory-movement.md) |
@@ -73,7 +73,7 @@ ms.locfileid: "7647306"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 若要了解详细信息，请参阅 [Finance and Operations 应用版本 10.0.20（2021 年 7 月）的平台更新](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.20 的平台更新（2021 年 7 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 
@@ -87,12 +87,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

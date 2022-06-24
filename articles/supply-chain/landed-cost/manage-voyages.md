@@ -1,6 +1,6 @@
 ---
 title: 管理航行
-description: 本主题介绍如何使用航行。 航行通常代表船只。 但是，根据您的实践和过程，它可以代表供应商、采购订单或其他对您的组织有意义的项目。
+description: 本文介绍如何使用航行。 航行通常代表船只。 但是，根据您的实践和过程，它可以代表供应商、采购订单或其他对您的组织有意义的项目。
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905854"
 ---
 # <a name="manage-voyages"></a>管理航行
 
@@ -96,7 +96,7 @@ ms.locfileid: "8696157"
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>航行标头快速选项卡上的信息
 
-航行的 **行** 视图中的 **航行标头** 快速选项卡包含描述航行的基本信息。 出现在此快速选项卡上的很多字段也会出现在 **标头** 视图中，如本主题后面所述。
+航行的 **行** 视图中的 **航行标头** 快速选项卡包含描述航行的基本信息。 出现在此快速选项卡上的很多字段也会出现在 **标头** 视图中，如本文后面所述。
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>航行行快速选项卡上的信息
 

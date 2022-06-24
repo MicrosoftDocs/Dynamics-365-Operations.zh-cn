@@ -1,6 +1,6 @@
 ---
-title: 产品建议常见问题
-description: 此主题介绍可用于诊断与产品建议或其结果有关的流程和工具。
+title: 产品建议常见问题解答
+description: 本文介绍可用于诊断与产品建议或其结果有关的流程和工具。
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900439"
 ---
-# <a name="product-recommendations-faq"></a>产品建议常见问题
+# <a name="product-recommendations-faq"></a>产品建议常见问题解答
 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍可用于诊断与[产品建议](product-recommendations.md)或其结果有关的流程和工具。
+本文介绍可用于诊断与[产品建议](product-recommendations.md)或其结果有关的流程和工具。
 
 ## <a name="best-practices"></a>最佳实践
 请务必利用基础产品和变型概念。 对父产品的变型合理分组可帮助列表算法和服务创建更好的模型。 此外，此服务只能处理一个产品实例，而不是将所有关系密切的变型放到一个列表中。 将所有关系密切的变型放到一个列表中后，可能会产生错误结果或重复结果。

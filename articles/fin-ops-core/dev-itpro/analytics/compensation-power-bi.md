@@ -1,6 +1,6 @@
 ---
 title: 薪酬 Power BI 内容
-description: 此主题描述薪酬 Power BI 内容。 说明如何访问报表，并提供有关所用数据模型的信息。
+description: 本文描述薪酬 Power BI 内容。 说明如何访问报表，并提供有关所用数据模型的信息。
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897179"
 ---
 # <a name="compensation-power-bi-content"></a>薪酬 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述 **薪酬** Microsoft Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
+本文描述 **薪酬** Microsoft Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 如果您使用以下其中一种产品，则 **薪酬** Power BI 内容显示在 **薪酬管理** 工作区中：

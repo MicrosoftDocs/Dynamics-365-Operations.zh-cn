@@ -1,6 +1,6 @@
 ---
 title: 自动将预付款应用于供应商发票
-description: 本主题介绍自动将预付款应用于供应商发票的功能。
+description: 本文介绍自动将预付款应用于供应商发票的功能。
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900062"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>自动应用于供应商发票
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍自动将预付款应用于供应商发票的功能。 可以作为采购协议的一部分为采购订单创建预付款。 收到供应商发票后，预付款可用于结算供应商发票中的应付帐款。 新功能使系统能够在导入供应商发票时自动使用供应商发票上的采购订单编号查找相应的预付款。
+本文介绍自动将预付款应用于供应商发票的功能。 可以作为采购协议的一部分为采购订单创建预付款。 收到供应商发票后，预付款可用于结算供应商发票中的应付帐款。 新功能使系统能够在导入供应商发票时自动使用供应商发票上的采购订单编号查找相应的预付款。
 
 如果找到预付款并且可以应用，行将被添加到现有发票行以应用预付款。 在发票匹配过程中，不会考虑预付款行。
 

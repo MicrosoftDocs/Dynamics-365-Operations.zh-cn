@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce 中已删除或弃用的功能
-description: 本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
+description: 本文介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910516"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
+本文介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。

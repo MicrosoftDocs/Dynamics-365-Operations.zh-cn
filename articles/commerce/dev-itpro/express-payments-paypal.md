@@ -1,6 +1,6 @@
 ---
 title: 配置 PayPal 快速付款
-description: 本主题介绍如何为 PayPal 配置快速付款，以在 Microsoft Dynamics 365 Commerce 中启用更快的结帐功能。
+description: 本文介绍如何为 PayPal 配置快速付款，以在 Microsoft Dynamics 365 Commerce 中启用更快的结帐功能。
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905274"
 ---
 # <a name="configure-express-payments-for-paypal"></a>配置 PayPal 快速付款
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为 PayPal 配置快速付款，以在 Microsoft Dynamics 365 Commerce 中启用更快的结帐功能。
+本文介绍如何为 PayPal 配置快速付款，以在 Microsoft Dynamics 365 Commerce 中启用更快的结帐功能。
 
 ## <a name="key-terms"></a>重要术语
 
@@ -28,7 +28,7 @@ ms.locfileid: "8743562"
 |---|---|
 | PayPal 钱包 | PayPal 连接器支持的客户体验和集成。 它也称为 PayPal 按钮。 |
 | 电子钱包 | 一种不包含传统付款特征的付款类型，例如用于区分信用卡和借记卡类型的银行标识号 (BIN) 范围和到期日期。 |
-| 快速付款 | 使用支持的付款方式时支持更快结帐行为的 Commerce 模块。 本主题介绍如何使用 PayPal 快速付款模块。 |
+| 快速付款 | 使用支持的付款方式时支持更快结帐行为的 Commerce 模块。 本文介绍如何使用 PayPal 快速付款模块。 |
 
 Dynamics 365 Commerce 为 PayPal 钱包提供了现成的集成。 配置了面向 PayPal 的 Dynamics 365 Payment Connector 后，PayPal 按钮在联机订单结帐期间会显示为一种可选的付款方式。 当用户选择 PayPal 时，会指示他们直接通过 PayPal 完成付款，然后返回到在线店面以完成其订单。 利用 PayPal 购物车结帐功能，客户可以使用其付款帐户信息预先填写结帐表格，以便他们可以更快地完成结帐流程。
 

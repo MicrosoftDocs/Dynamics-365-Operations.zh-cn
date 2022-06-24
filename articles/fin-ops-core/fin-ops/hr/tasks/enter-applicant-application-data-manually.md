@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909240"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>手动输入申请人和申请表数据
 
 > [!NOTE]
-> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
+> 本文中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
 
 
 此过程显示如何手动维护申请人及其申请表的信息。 您可以输入和维护个人信息、面试日期和时间、推荐人、能力和申请人的住宿请求。 您还可以更新申请人的工作申请状态，以及写信或发送电子邮件与申请人沟通。 在您创建申请人记录时，在全球通讯簿中创建该申请人的人员记录。 创建此过程时使用的是 **USMF** 演示数据格式。

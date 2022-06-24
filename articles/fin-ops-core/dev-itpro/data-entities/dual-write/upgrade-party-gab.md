@@ -1,6 +1,6 @@
 ---
 title: 升级到当事方和全球通讯簿模型
-description: 本主题介绍如何将双重写入数据升级到当事方和全球通讯簿模型。
+description: 本文介绍如何将双写入数据升级到当事方和全球通讯簿模型。
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895267"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -40,7 +40,7 @@ ms.locfileid: "8688365"
 | ImportFONewPostalAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **邮政地址** 记录。 |
 | ImportFONewElectronicAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **电子地址** 记录。 |
 
-本主题说明如何使用数据工厂模板和升级数据。 如果没有任何自定义项，可以按原样使用模板。 但是，如果您有 **客户**、**联系人** 和 **供应商** 数据的自定义项，则必须按照本主题中的描述修改模板。
+本文说明如何使用数据工厂模板和升级数据。 如果没有任何自定义项，可以按原样使用模板。 但是，如果您有 **客户**、**联系人** 和 **供应商** 数据的自定义项，则必须按照本文中的描述修改模板。
 
 > [!IMPORTANT]
 > 有关于运行当事方邮政地址和当事方电子地址模板的特殊说明。 您必须先运行当事方模板，然后运行当事方邮政地址模板，再运行当事方电子地址模板。 每个模板都旨在在单独的数据工厂中导入。

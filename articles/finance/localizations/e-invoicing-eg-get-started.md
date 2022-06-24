@@ -1,6 +1,6 @@
 ---
 title: 埃及电子开票
-description: 本主题提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的埃及电子开票。
+description: 本文提供的信息将帮助您开始使用 Microsoft Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 中的埃及电子开票。
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904403"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>埃及电子开票
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供的信息将帮助您开始使用适用于埃及的电子开票。 指导您完成 Regulatory Configuration Service (RCS) 中与国家/地区相关的配置步骤。 这些步骤补充了[设置电子开票](e-invoicing-set-up-overview.md)中描述的步骤。
+本文提供的信息将帮助您开始使用适用于埃及的电子开票。 指导您完成 Regulatory Configuration Service (RCS) 中与国家/地区相关的配置步骤。 这些步骤补充了[设置电子开票](e-invoicing-set-up-overview.md)中描述的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 
-在开始本主题中的过程之前，请完成以下先决条件：
+在开始本文中的过程之前，请完成以下先决条件：
 
 - 熟悉[电子开票概述](e-invoicing-service-overview.md)中所述的电子开票。
 - 注册 RCS，并设置电子开票。 有关详细信息，请参阅以下主题：

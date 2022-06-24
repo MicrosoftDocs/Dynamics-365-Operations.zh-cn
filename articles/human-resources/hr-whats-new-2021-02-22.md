@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 中的新增功能或更改（2021 年 2 月 22 日）
-description: 此主题介绍 2021 年 2 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 2 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0f854908f4c4bb76604665701c97724351b0120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d07e73ccd922e9d52a9de9260577087a50ef1da4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897826"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 2 月 22 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -48,9 +48,9 @@ ms.locfileid: "8686874"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 529994 | 在 **工作人员** 窗体上修改 **称作** 字段未触发 Dataverse 更新 | 修复了当 **工作人员** 窗体上的 **称作** 字段更新时，Dataverse 不更新的问题。 |
 | 532651 | 薪酬分析 PBI 报表在为所有公司计算指标时不使用货币转换 | 修复了薪酬分析 PBI 报表不能正确进行货币转换的问题。 |

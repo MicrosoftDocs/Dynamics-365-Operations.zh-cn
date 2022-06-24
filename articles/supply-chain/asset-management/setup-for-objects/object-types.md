@@ -1,6 +1,6 @@
 ---
 title: 资产类型
-description: 本主题介绍如何在资产管理中创建资产类型。 还介绍与资产类型有关的元素。
+description: 本文介绍如何在资产管理中创建资产类型。 还介绍与资产类型有关的元素。
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887622"
 ---
 # <a name="asset-types"></a>资产类型
 
@@ -28,7 +28,7 @@ ms.locfileid: "6730362"
 
 
 
-本主题介绍如何创建资产类型。 还介绍与资产类型有关的元素。 资产类型用作资产的常规类别。 示例包括 CNC 机器、测量设备和卡车引擎。 资产类型用于管理可为资产选择的维护作业类型（维护任务）、资产生命周期状态、计数器、资产属性、条件评估模板和资产模型。 创建资产时，必须指定资产类型。
+本文介绍如何创建资产类型。 还介绍与资产类型有关的元素。 资产类型用作资产的常规类别。 示例包括 CNC 机器、测量设备和卡车引擎。 资产类型用于管理可为资产选择的维护作业类型（维护任务）、资产生命周期状态、计数器、资产属性、条件评估模板和资产模型。 创建资产时，必须指定资产类型。
 
 可为每种资产类型创建资产类型设置的变体。 例如，如果您有一种资产类型的名称为 **卡车**，则可为不同资产制造商和资产模型创建这种资产类型的变体。 可为每种资产类型设置添加所需备件和维护计划。
 

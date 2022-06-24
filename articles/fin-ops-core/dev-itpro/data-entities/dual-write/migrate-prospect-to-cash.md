@@ -1,6 +1,6 @@
 ---
 title: 将“目标客户到现金”数据从数据集成器迁移到双写入
-description: 本主题介绍如何将“目标客户到现金”数据从数据集成器迁移到双写入。
+description: 本文介绍如何将“目标客户到现金”数据从数据集成器迁移到双写入。
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894257"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>将“目标客户到现金”数据从数据集成器迁移到双写入
 
 [!include [banner](../../includes/banner.md)]
 
-可用于数据集成器的“目标客户到现金”解决方案与双写入不兼容。 原因在于作为“目标客户到现金”解决方案的一部分的帐户表上的 msdynce_AccountNumber 索引。 如果存在此索引，您将无法在两个不同的法人中创建相同的客户帐号。 您可以选择通过将“目标客户到现金”数据从数据集成器迁移到双写入来重新开始双写入，或者可以安装“目标客户到现金”解决方案的最后一个“休眠”版本。 本主题介绍这两种方法。
+可用于数据集成器的“目标客户到现金”解决方案与双写入不兼容。 原因在于作为“目标客户到现金”解决方案的一部分的帐户表上的 msdynce_AccountNumber 索引。 如果存在此索引，您将无法在两个不同的法人中创建相同的客户帐号。 您可以选择通过将“目标客户到现金”数据从数据集成器迁移到双写入来重新开始双写入，或者可以安装“目标客户到现金”解决方案的最后一个“休眠”版本。 本文介绍这两种方法。
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>安装数据集成器“目标客户到现金”解决方案的最后一个“休眠”版本
 
@@ -50,7 +50,7 @@ ms.locfileid: "8087260"
 5. 为一个或多个法人在财务和运营应用和客户互动应用之间创建双写入连接。
 6. 启用双写入表映射，然后为所需的参考数据运行初始同步。 （有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。）所需数据的示例包括客户组、付款期限和付款计划。 不要为需要初始化的表启用双写入映射，如客户、报价单、报价单行、订单和订单行表。
 7. 在客户互动应用中，转到 **高级设置 \> 系统设置 \> 数据管理 \> 重复检测规则**，禁用所有规则。
-8. 初始化步骤 2 中列出的表。 有关说明，请参阅本主题的其余章节。
+8. 初始化步骤 2 中列出的表。 有关说明，请参阅本文的其余章节。
 9. 打开财务和运营应用，启用表映射，如客户、报价单、报价单行、订单和订单行表映射。 然后运行初始同步。 （有关详细信息，请参阅[初始同步注意事项](initial-sync-guidance.md)。）此流程将同步来自财务和运营应用的其他信息，如处理状态、装运地址和帐单地址、站点和仓库。
 
 ## <a name="account-table"></a>客户表
@@ -98,7 +98,7 @@ ms.locfileid: "8087260"
 
 ## <a name="quote-and-quote-product-tables"></a>报价单和报价单产品表
 
-对于 **报价单** 表，请按照本主题前面的[订单表](#order-table)一节的说明操作。 对于 **报价单产品** 表，请按照[订单产品表](#order-products-table)一节的说明操作。
+对于 **报价单** 表，请按照本文前面的[订单表](#order-table)一节的说明操作。 对于 **报价单产品** 表，请按照[订单产品表](#order-products-table)一节的说明操作。
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

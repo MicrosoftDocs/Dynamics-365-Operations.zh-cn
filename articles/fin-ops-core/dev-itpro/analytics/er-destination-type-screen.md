@@ -1,6 +1,6 @@
 ---
 title: 屏幕 ER 目标类型
-description: 本主题提供有关如何为电子报告 (ER) 格式的每个文件夹或文件组件配置屏幕目标的信息。
+description: 本文提供有关如何为电子报告 (ER) 格式的每个文件夹或文件组件配置屏幕目标的信息。
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19a0e5f9809511918a2fa1fd65e401c54c0568c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898789"
 ---
 # <a name="screen-destination"></a>屏幕目标
 

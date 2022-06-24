@@ -1,6 +1,6 @@
 ---
 title: 招聘概览
-description: 此主题描述 Dynamics 365 Human Resources 中的招聘。
+description: 本文介绍 Dynamics 365 Human Resources 中的招聘。
 author: twheeloc
 ms.date: 04/22/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 827e317ddc88e8e4b0301babedb4f7c9fd0edf2f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2f0bed18ced28b2110e1e0533a8496c7b5a29aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899547"
 ---
 # <a name="dynamics-365-human-resources-recruitment"></a>Dynamics 365 Human Resources 招聘
 

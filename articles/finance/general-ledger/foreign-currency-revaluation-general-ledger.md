@@ -1,6 +1,6 @@
 ---
 title: 总帐的外币重估
-description: 本主题概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。
+description: 本文概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904519"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>总帐的外币重估
 
 [!include [banner](../includes/banner.md)]
 
-本主题概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。 
+本文概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。 
 
 作为期末的一部分，会计转换要求使用不同的汇率类型（当前、历史、平均等）重新评估用外币表示的总帐科目余额。 例如，一个会计转换要求以当前汇率重估资产和负债，以历史汇率重估固定资产，以月度平均汇率重估损益科目。 总帐外币重估可用于重新评估资产负债表和损益科目。 
 

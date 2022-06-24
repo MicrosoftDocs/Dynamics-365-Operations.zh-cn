@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908218"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>财务和运营应用主页的新增功能或更改
 
@@ -33,7 +33,7 @@ ms.locfileid: "8457390"
 
 要查看每个版本的财务和运营应用中的新增功能或更改的功能，请参阅以下主题：
 
-- **Finance：** [Dynamics 365 Finance 中的新增功能或更改的功能](../../../finance/get-started/whats-new-home-page.md)
+- **Finance：**[Dynamics 365 Finance 的新增功能或更改功能](../../../finance/get-started/whats-new-home-page.md)
 - **Human Resources（合并基础结构）**：[Microsoft Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **Supply Chain Management：** [Dynamics 365 Supply Chain Management 中的新增功能或更改的功能](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce：** [Dynamics 365 Commerce 中的新增功能或更改的功能](../../../commerce/get-started/whats-new-home-page.md)
@@ -41,18 +41,18 @@ ms.locfileid: "8457390"
 
 ## <a name="stand-alone-applications"></a>独立应用程序
 
-要查看独立 Dynamics 365 Human Resources 中的新增功能或更改，请参阅以下主题：
+要查看独立 Dynamics 365 Human Resources 中的新增功能或更改功能，请参阅以下文章：
 
 - **Human Resources：**[Dynamics 365 Human Resources 中的新增功能或更改](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>平台更新 
 
-要查看财务和运营应用的平台更新中的新增功能或更改，请参阅以下主题：
+要查看财务和运营应用的平台更新中的新增功能或更改功能，请参阅以下文章：
 
 - [Platform update 新增功能或更改](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Lifecycle Services 版本
-要查看 Lifecycle Services 中的新增功能或更改的功能，请参阅以下主题：
+要查看 Lifecycle Services 中的新增功能或更改功能，请参阅以下文章：
 
 - [Lifecycle Services (LCS) 中的新增功能或更改](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

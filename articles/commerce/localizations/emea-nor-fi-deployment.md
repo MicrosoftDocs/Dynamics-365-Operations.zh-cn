@@ -1,6 +1,6 @@
 ---
 title: 适用于挪威的收银机的部署指南
-description: 本主题提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。
+description: 本文提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899059"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>适用于挪威的收银机的部署指南
 
 [!include[banner](../includes/banner.md)]
 
-本主题提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。 本地化由多个组件扩展组成。 这些扩展允许您执行一些操作，例如在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印报告。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。 有关如何为挪威配置 Commerce 的更多信息，请参阅[为挪威设置 Commerce](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)。
+本文提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。 本地化由多个组件扩展组成。 这些扩展允许您执行一些操作，例如在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印报告。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。 有关如何为挪威配置 Commerce 的更多信息，请参阅[为挪威设置 Commerce](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)。
 
 > [!WARNING]
 > 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此本地化功能。 您必须在 Microsoft Dynamics Lifecycle Services (LCS) 中开发人员虚拟机 (VM) 上以前版本的 Retail 软件开发配套件 (SDK) 中使用挪威的数字签名示例版本。 有关详细信息，请参阅[适用于挪威的收银机的部署指南（旧版）](./emea-nor-loc-deployment-guidelines.md)。

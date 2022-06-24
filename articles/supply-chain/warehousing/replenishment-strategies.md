@@ -1,6 +1,6 @@
 ---
 title: 补货策略
-description: 此主题提供有关补货策略的信息，并说明如何使用波次需求补货模板行上的“补货策略”字段选择补货方式。
+description: 本文提供有关补货策略的信息，并说明如何使用波次需求补货模板行上的“补货策略”字段选择补货方式。
 author: Mirzaab
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1aa48f231c5d98a22fa989fb6e6996b972be9089
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893140"
 ---
 # <a name="replenishment-strategies"></a>补货策略
 

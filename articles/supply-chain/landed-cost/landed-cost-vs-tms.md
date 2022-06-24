@@ -1,6 +1,6 @@
 ---
 title: 登陆成本与运输管理
-description: Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：运输管理 (TMS) 和登陆成本。 本主题总结了两个模块的共同功能，并着重说明了它们之间的区别。
+description: Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：运输管理 (TMS) 和登陆成本。 本文总结了两个模块的共同功能，并着重说明了它们之间的区别。
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905912"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>登陆成本与运输管理
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：**运输管理** (TMS) 和 **登陆成本**。 本主题总结了两个模块的共同功能，并着重说明了它们之间的区别。 您可以使用此信息来确定最适合您的业务实践的模块。 您可能会发现，有些业务实践与 TMS 一起使用效果更好，而其他实践与登陆成本一起使用效果最好。 然后，根据您的业务要求，您可以选择仅使用一个模块，也可以将两个模块组合使用。
+Microsoft Dynamics 365 Supply Chain Management 提供两个不同的模块来处理运输：**运输管理** (TMS) 和 **登陆成本**。 本文总结了两个模块的共同功能，并着重说明了它们之间的区别。 您可以使用此信息来确定最适合您的业务实践的模块。 您可能会发现，有些业务实践与 TMS 一起使用效果更好，而其他实践与登陆成本一起使用效果最好。 然后，根据您的业务要求，您可以选择仅使用一个模块，也可以将两个模块组合使用。
 
-本主题没有对任何一个模块的所有功能进行全面回顾。 而是着重介绍可用功能，因为它与将货物从供应商运输到企业的仓库有关，功能可以在此场景中使用。
+本文没有对任何一个模块的所有功能进行全面回顾。 而是着重介绍可用功能，因为它与将货物从供应商运输到企业的仓库有关，功能可以在此场景中使用。
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>术语、参考数据和报告差异
 

@@ -1,6 +1,6 @@
 ---
 title: 会计分配
-description: 本主题提供有关会计分配的信息并介绍可用的处理选项。
+description: 本文提供有关会计分配的信息并介绍可用的处理选项。
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894191"
 ---
 # <a name="accounting-distributions"></a>会计分配
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。 
+本文提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。 
 
 会计分配是由每个原始凭证使用和扩展的程序范围的功能，如采购订单、供应商发票、支出报表和普通发票。 默认情况下，默认会计分配为每个原始凭证行和货币金额生成，并有条件地为修改启用。 
 

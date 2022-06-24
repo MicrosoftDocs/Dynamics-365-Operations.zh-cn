@@ -1,6 +1,6 @@
 ---
 title: 管理招聘流程
-description: 本主题介绍招聘人员可以用于跟踪招聘流程的步骤的概念。
+description: 本文介绍招聘人员可以用于跟踪招聘流程的步骤的概念。
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910310"
 ---
 # <a name="manage-recruiting-processes"></a>管理招聘流程
 
 > [!IMPORTANT]
-> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。 
+> 本文中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。 
 
 
-本主题介绍招聘人员可以用于跟踪招聘流程的步骤的概念，包括宣传空缺职位和招聘申请人的工作，跟踪申请人和申请信息，面试申请人，以及选择一个或多个候选人以填充您的组织的空缺职位。
+本文介绍招聘人员可以用于跟踪招聘流程的步骤的概念，包括宣传空缺职位和招聘申请人的工作，跟踪申请人和申请信息，面试申请人，以及选择一个或多个候选人以填充您的组织的空缺职位。
 
 ## <a name="overview"></a>概览
 

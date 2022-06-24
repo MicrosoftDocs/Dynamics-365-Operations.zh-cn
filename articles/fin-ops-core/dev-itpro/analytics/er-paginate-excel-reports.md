@@ -1,6 +1,6 @@
 ---
 title: 设计电子报告格式以对 Excel 中生成的文档进行分页
-description: 本主题说明如何设计电子报告 (ER) 格式，以在 Microsoft Excel 中对生成的文档进行分页。
+description: 本文说明如何设计电子报告 (ER) 格式，以在 Microsoft Excel 中对生成的文档进行分页。
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909269"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>设计电子报告格式以对 Excel 中生成的文档进行分页
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明系统管理员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) 格式以在 Microsoft Excel 中生成出站文档并管理文档分页。
+本文说明系统管理员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) 格式以在 Microsoft Excel 中生成出站文档并管理文档分页。
 
 在此示例中，您将修改 Microsoft 提供的电子报告格式，该格式用于在[生成](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md)内部统计声明时打印控制报表。 此报表可让您观察报告的内部统计交易。 您的修改将让您能够管理生成的控制报表的分页。
 
-本主题中的过程可以在 **DEMF** 公司完成。 无需进行编码。 在开始之前，请下载并保存以下文件。
+本文中的过程可以在 **DEMF** 公司完成。 无需进行编码。 在开始之前，请下载并保存以下文件。
 
 | 说明       | 文件名 |
 |-------------------|-----------| 
@@ -165,7 +165,7 @@ ms.locfileid: "7488331"
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>重复替换当前的自定义电子报告格式的 Excel 模板
 
-1. 按照本主题的[替换当前的自定义电子报告格式的 Excel 模板](#replace-template)一节中的步骤操作。 但是，在步骤 7 中，选择 **ERIntrastatReportDemo2.xlsx** 文件。
+1. 按照本文的[替换当前的自定义电子报告格式的 Excel 模板](#replace-template)一节中的步骤操作。 但是，在步骤 7 中，选择 **ERIntrastatReportDemo2.xlsx** 文件。
 2. 在 **格式设计器** 页上，展开 **内部统计**。
 3. 命名已添加到可编辑电子报告格式的[范围](er-fillable-excel.md#range-component)格式组件，以将结构与应用的 Excel 模板的结构同步：
 
@@ -406,7 +406,7 @@ ms.locfileid: "7488331"
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>生成内部统计申报控制报表（已更新）
 
-1. 请确保您在 **内部统计** 页面上有 24 个交易。 重复本主题[生成内部统计申报控制报表](#generate-intrastat-control-report)一节中的步骤生成和查看控制报表。
+1. 请确保您在 **内部统计** 页面上有 24 个交易。 重复本文[生成内部统计申报控制报表](#generate-intrastat-control-report)一节中的步骤生成和查看控制报表。
 
     所有交易都显示在第一个页面上。 页面总计和计数器等于报表总计和计数器。 页面页眉范围将在第一个页面上隐藏，因为报表页眉已经包含列标题。 页面页眉和页脚将在第二个页面上隐藏，因为该页面不包含任何交易。
 

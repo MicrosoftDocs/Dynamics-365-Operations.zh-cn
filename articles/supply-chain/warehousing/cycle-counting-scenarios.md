@@ -1,6 +1,6 @@
 ---
 title: 周期盘点示例场景
-description: 本主题提供了一系列探索 Microsoft Dynamics 365 Supply Chain Management 的周期盘点功能的场景。
+description: 本文提供了一系列探索 Microsoft Dynamics 365 Supply Chain Management 的周期盘点功能的场景。
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899315"
 ---
 # <a name="cycle-counting-example-scenarios"></a>周期盘点示例场景
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了一系列探索 Microsoft Dynamics 365 Supply Chain Management 的周期盘点功能的场景。 首先，它介绍了现有 Supply Chain Management 环境的要求。 然后，它说明了如何配置周期盘点并介绍了所有周期盘点阶段。 完成后，您应该对周期盘点有很好的了解，包括指导周期盘点、盲目周期盘点、现场周期盘点、周期盘点阈值和周期盘点计划。
+本文提供了一系列探索 Microsoft Dynamics 365 Supply Chain Management 的周期盘点功能的场景。 首先，它介绍了现有 Supply Chain Management 环境的要求。 然后，它说明了如何配置周期盘点并介绍了所有周期盘点阶段。 完成后，您应该对周期盘点有很好的了解，包括指导周期盘点、盲目周期盘点、现场周期盘点、周期盘点阈值和周期盘点计划。
 
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="make-demo-data-available"></a>提供演示数据
 
-本主题中的每个场景引用为 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在完成场景时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人（公司）设置为 **USMF**。
+本文中的每个场景引用为 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在完成场景时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人（公司）设置为 **USMF**。
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>打开对 Warehouse Management 移动应用的支持
 
@@ -158,7 +158,7 @@ ms.locfileid: "8674692"
 
 创建周期盘点工作后，您通过盘点仓库库位中的物料，然后使用移动设备在 Supply Chain Management 中输入结果来执行工作。 按照以下步骤在 Warehouse Management 移动应用中执行周期盘点工作。
 
-1. 以您在本主题前面的[为场景准备演示数据](#prepare-demo-data)部分中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本主题中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
+1. 以您在本文前面的[为场景准备演示数据](#prepare-demo-data)一节中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本文中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
 1. 在主菜单上，选择 **库存**。
 1. 在 **库存** 菜单上，选择 **周期盘点指导**。
 1. 选择 **数量** 字段，使用数字键盘输入 *9*，然后选择 **确定**（复选标记按钮）。
@@ -227,7 +227,7 @@ ms.locfileid: "8674692"
 
 创建周期盘点工作后，按照以下步骤在 Warehouse Management 移动应用中执行工作。
 
-1. 以您在本主题前面的[为场景准备演示数据](#prepare-demo-data)部分中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本主题中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
+1. 以您在本文前面的[为场景准备演示数据](#prepare-demo-data)一节中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本文中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
 1. 在主菜单上，选择 **库存**。
 1. 在 **库存** 菜单上，选择 **周期盘点盲目**。
 1. 选择 **区域 ID** 字段，输入 *BULK06*，然后选择 **确定**（复选标记按钮）。
@@ -259,7 +259,7 @@ ms.locfileid: "8674692"
 
 按照以下步骤在 Warehouse Management 移动应用中执行周期盘点工作。
 
-1. 以您在本主题前面的[为场景准备演示数据](#prepare-demo-data)部分中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本主题中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
+1. 以您在本文前面的[为场景准备演示数据](#prepare-demo-data)一节中设置的工作用户身份登录到 Warehouse Management 移动应用。 对于本文中的示例，用户名为 *Julia Funderburk* 并针对仓库 *61* 进行设置。 （USMF 演示数据应该允许您通过输入 *61* 作为用户 ID 和 *1* 作为密码来以此工作用户身份登录。）
 1. 在主菜单上，选择 **库存**。
 1. 在 **库存** 菜单上，选择 **现场盘点**。
 1. 选择 **库位** 字段，输入 *01A02R2S1B*，然后选择 **确定**（复选标记按钮）。

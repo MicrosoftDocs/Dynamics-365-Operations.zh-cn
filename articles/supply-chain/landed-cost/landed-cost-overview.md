@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: aa6f3baf6e6d980ac3c15e2045d1fcdef08ec296
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2ac62678ca9bf7250271727fe83b8a8ba2fca59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907426"
 ---
 # <a name="landed-cost-module"></a>登陆成本模块
 

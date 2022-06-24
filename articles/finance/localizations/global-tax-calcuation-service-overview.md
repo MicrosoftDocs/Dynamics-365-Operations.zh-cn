@@ -1,6 +1,6 @@
 ---
 title: 税款计算概览
-description: 本主题说明税务计算功能的总体范围和功能。
+description: 本文说明税务计算功能的总体范围和功能。
 author: wangchen
 ms.date: 03/02/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c6d0952b98334dc0c0a2e780a7c6f54a7811185
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c9511643806a2201b3379dec9bbca01a8ccbcdc3
+ms.sourcegitcommit: 58af7348be9ce60a86a111ede42a7fc5b2b77708
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811733"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941721"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -163,6 +163,7 @@ ms.locfileid: "8811733"
 - 德国
 - 匈牙利
 - 冰岛
+- 爱尔兰
 - 意大利
 - 拉脱维亚
 - 立陶宛

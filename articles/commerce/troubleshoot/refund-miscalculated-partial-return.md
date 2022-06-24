@@ -1,6 +1,6 @@
 ---
 title: 可退款费用根据退货数量计算错误
-description: 本主题提供故障排除指导，可在收银员在销售点 (POS) 中发现退货物料数量的可退款费用不正确时提供帮助。
+description: 本文提供故障排除指导，可在收银员在销售点 (POS) 中发现退货物料数量的可退款费用不正确时提供帮助。
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8490208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890235"
 ---
 # <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>可退款费用根据退货数量计算错误
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供故障排除指导，可在收银员在销售点 (POS) 中发现退货物料数量的可退款费用不正确时提供帮助。
+本文提供故障排除指导，可在收银员在销售点 (POS) 中发现退货物料数量的可退款费用不正确时提供帮助。
 
 ## <a name="description"></a>Description
 

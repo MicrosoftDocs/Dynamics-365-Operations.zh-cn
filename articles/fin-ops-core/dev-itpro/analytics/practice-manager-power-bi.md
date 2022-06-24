@@ -1,6 +1,6 @@
 ---
 title: 实践经理 Power BI 内容
-description: 此主题介绍实践经理 Power BI 内容中的内容。
+description: 本文介绍实践经理 Power BI 内容中的内容。
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898978"
 ---
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍 **实践经理** Microsoft Power BI 内容中所包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+本文介绍 **实践经理** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 

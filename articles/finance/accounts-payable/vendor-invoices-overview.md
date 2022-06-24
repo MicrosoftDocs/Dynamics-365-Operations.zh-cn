@@ -1,6 +1,6 @@
 ---
 title: 供应商发票概览
-description: 本主题提供有关供应商发票的一般信息。
+description: 本文提供有关供应商发票的一般信息。
 author: abruer
 ms.date: 02/25/2022
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894162"
 ---
 # <a name="vendor-invoices-overview"></a>供应商账单概览
 
@@ -30,7 +30,7 @@ ms.locfileid: "8358409"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-本主题提供有关供应商发票的一般信息。 供应商发票是产品和服务的付款请求。 供应商发票可能表示正在进行中的服务的帐单，也可能基于特定物料和服务的采购订单。
+本文提供有关供应商发票的一般信息。 供应商发票是产品和服务的付款请求。 供应商发票可能表示正在进行中的服务的帐单，也可能基于特定物料和服务的采购订单。
 
 ## <a name="vendor-invoices"></a>供应商账单
 

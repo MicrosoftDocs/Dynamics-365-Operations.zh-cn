@@ -1,6 +1,6 @@
 ---
 title: 服务环境
-description: 本主题提供有关电子开票服务环境的信息并说明如何设置这些环境。
+description: 本文提供有关电子开票服务环境的信息并说明如何设置这些环境。
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901238"
 ---
 # <a name="service-environments"></a>服务环境
 

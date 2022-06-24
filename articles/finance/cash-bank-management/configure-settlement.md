@@ -1,6 +1,6 @@
 ---
 title: 配置结算
-description: 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本主题介绍用于应付帐款和应收帐款的结算的参数。
+description: 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付帐款和应收帐款的结算的参数。
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910191"
 ---
 # <a name="configure-settlement"></a>配置结算
 
 [!include [banner](../includes/banner.md)]
 
-交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本主题介绍用于应付帐款和应收帐款的结算的参数。 
+交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付帐款和应收帐款的结算的参数。 
 
 以下参数将影响如何在 Microsoft Dynamics 365 Finance 中处理结算。 结算是对照付款或贷方通知单结算发票的流程。 这些参数位于 **应收帐款参数** 和 **应付帐款参数** 页的 **结算** 区域。
 

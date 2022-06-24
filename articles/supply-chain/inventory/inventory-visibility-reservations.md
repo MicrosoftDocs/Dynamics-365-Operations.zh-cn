@@ -1,6 +1,6 @@
 ---
-title: 库存可见性预留
-description: 本主题介绍如何设置预留功能，以使用库存可见性创建预留，使用预留和/或取消预留指定的库存数量。
+title: Inventory Visibility 预留
+description: 本文介绍如何设置预留功能，以使用库存可见性创建预留，使用预留和/或取消预留指定的库存数量。
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895719"
 ---
-# <a name="inventory-visibility-reservations"></a>库存可见性预留
+# <a name="inventory-visibility-reservations"></a>Inventory Visibility 预留
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题介绍如何设置预留功能，以使用库存可见性创建预留，使用预留和/或取消预留指定的库存数量。
+本文介绍如何设置预留功能，以使用库存可见性创建预留，使用预留和/或取消预留指定的库存数量。
 
 预留将标记以后将使用的一定数量的库存。 在创建预留时，系统将阻止其他订单预留或使用预留的货物，直至使用或取消预留了该预留。 可通过对库存可见性服务执行 API 调用来创建，使用和取消预留。
 

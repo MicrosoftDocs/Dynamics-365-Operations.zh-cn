@@ -1,6 +1,6 @@
 ---
 title: 危险物料概述
-description: 本主题概括介绍与在产品信息管理和仓库管理期间处理和记录危险物料有关的功能。
+description: 本文概括介绍与在产品信息管理和仓库管理期间处理和记录危险物料有关的功能。
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905796"
 ---
 # <a name="hazardous-materials-overview"></a>危险物料概述
 
@@ -50,7 +50,7 @@ ms.locfileid: "7986268"
 
 每组法规均提供危险货物和参考代码的标准化列表。 因此，Supply Chain Management 为这些列表中的通用代码提供了参考表。 每个列表还包含一些可以定义的唯一代码。
 
-有关如何为危险物料设置法规和值以及如何将值分配给相关产品的详细信息，请参阅以下主题：
+有关如何为危险物料设置法规和值以及如何将值分配给相关产品的详细信息，请参阅以下文章：
 
 - [设置危险物料](hazmat-setup.md)
 - [产品、订单、装运和负荷中的危险物料](hazmat-items.md)

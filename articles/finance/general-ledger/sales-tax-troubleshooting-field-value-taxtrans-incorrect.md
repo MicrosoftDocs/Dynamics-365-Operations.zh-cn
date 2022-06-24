@@ -1,6 +1,6 @@
 ---
-title: TaxTrans 中的不正确字段值
-description: 本主题提供有关解决 TaxTrans 中的不正确字段值的信息。
+title: TaxTrans 中的字段值不正确
+description: 本文提供有关解决 TaxTrans 中的不正确字段值的信息。
 author: EricWangChen
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6d4e7fd1bae56c5a7cb9a1a558a5344b3e555e83
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6e7329ffdc04207116c92cb42e02750b176713fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899805"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>TaxTrans 中的不正确字段值
 
 [!include [banner](../includes/banner.md)]
 
-如果 **TaxTrans** 中的字段值不正确，请使用本主题中的信息来尝试解决此问题。
+如果 **TaxTrans** 中的字段值不正确，请使用本文中的信息来尝试解决此问题。
 
 ## <a name="overview-of-values"></a>值概览
 以下列表显示了 **TaxTrans**、**TaxUncommitted** 和 **TmpTaxWorkTrans** 是怎样的相似数据集，其工作方式不同。

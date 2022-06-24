@@ -1,6 +1,6 @@
 ---
 title: 业务文档管理中的 Microsoft Office 样式用户界面（包含视频）
-description: 本主题说明如何在电子报告 (ER) 框架的业务文档管理功能中使用新用户界面。
+description: 本文说明如何在电子报告 (ER) 框架的业务文档管理功能中使用新用户界面。
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892216"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>业务文档管理中的 Microsoft Office 样式用户界面
 
@@ -32,7 +32,7 @@ ms.locfileid: "8074733"
 
 您可以使用 **业务文档管理** 工作区中的 **新建文档** 按钮在[电子报告 (ER)](general-electronic-reporting.md) 格式[配置](general-electronic-reporting.md#Configuration)中创建和编辑由其他提供程序提供、位于当前 Finance 实例中的模板，或从 Excel 工作簿上载新模板。 此外，在版本 10.0.25 及更高版本中，您可以使用 **新建文档** 按钮以存储在[全局存储库](general-electronic-reporting.md#Repository)中的 ER 格式配置创建和编辑模板。
 
-在此主题中示例中，活动提供程序是 Contoso，您使用它创建基于 Microsoft 提供的模板的模板。 或者，您可以通过以 Excel 格式上传自己的模板来创建模板。
+在本文中的示例中，活动提供程序是 Contoso，您使用它创建基于 Microsoft 提供的模板的模板。 或者，您可以通过以 Excel 格式上传自己的模板来创建模板。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

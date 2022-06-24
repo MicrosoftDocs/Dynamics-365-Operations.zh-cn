@@ -1,6 +1,6 @@
 ---
 title: 配置生产车间执行界面
-description: 本主题介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
+description: 本文介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899402"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -31,15 +31,15 @@ ms.locfileid: "8644323"
 - 在公司大厅的设备上，员工在进入办公室时打卡上班，在当天离开办公室时打开下班。
 - 在车间的设备上，机器操作员在开始和完成作业时进行登记。 他们还登记工间休息和间接活动。
 
-本主题介绍为您现场使用的每个设备配置生产车间执行界面的各种选项。
+本文介绍为您现场使用的每个设备配置生产车间执行界面的各种选项。
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>开启生产车间执行界面及其相关的可选功能
 
-必须先在系统中打开生产车间执行界面本身以及本主题中所述的几个可选设置，然后才能使用它们。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页根据需要打开以下小节中所述的任一或所有功能。
+必须先在系统中打开生产车间执行界面本身以及本文中所述的几个可选设置，然后才能使用它们。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页根据需要打开以下小节中所述的任一或所有功能。
 
 ### <a name="the-production-floor-execution-interface"></a>生产车间执行界面
 
-这是本主题介绍的主要功能，是本节中提到的所有其他功能的先决条件。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *生产车间执行* 功能来打开或关闭此功能。
+这是本文介绍的主要功能，是本节中提到的所有其他功能的先决条件。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *生产车间执行* 功能来打开或关闭此功能。
 
 ### <a name="generate-license-plates"></a>生成牌照
 
@@ -146,7 +146,7 @@ ms.locfileid: "8644323"
 - 从 **报告进度** 对话框启用材料消耗调整。 （此功能还需要 *在生产车间执行界面(非 WMS)上登记物料消耗量* 功能。）
 - 按项目 ID 启用搜索。
 
-本主题后面将提供有关如何使用这些设置的信息。
+本文后面将提供有关如何使用这些设置的信息。
 
 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 

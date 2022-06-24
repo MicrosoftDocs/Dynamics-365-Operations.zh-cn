@@ -1,6 +1,6 @@
 ---
-title: 为每个法人设置 ER 格式的参数
-description: 本主题说明如何为每个法人设置电子报告 (ER) 格式的参数。
+title: 为每个法人设置电子报告格式的参数
+description: 本文说明如何为每个法人设置电子报告 (ER) 格式的参数。
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890203"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>为每个法人设置 ER 格式的参数
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644490"
 
 要完成这些步骤，您必须首先完成[配置 ER 格式以使用每个法人指定的参数](er-app-specific-parameters-configure-format.md)中的步骤。
 
-若要完成本主题中的示例，您必须具有以下角色之一的 Microsoft Dynamics 365 Finance 访问权限：
+若要完成本文中的示例，您必须具有以下角色之一的 Microsoft Dynamics 365 Finance 访问权限：
 
 - 电子报告开发人员
 - 电子报告功能顾问
@@ -221,7 +221,7 @@ ER 格式的特定于应用程序的参数依赖于法人。 要重用为另一�
 
 您还可以使用此导出-导入方法将最初在一个 Finance 实例中配置的与 ER 格式相关的特定于应用程序的参数转移到另一个 Finance 实例。
 
-如果您为 ER 格式的一个版本配置特定于应用程序的参数，然后将相同格式的更高版本导入当前 Finance 实例，现有的特定于应用程序的参数将不会应用于导入的版本，除非您使用 **使用先前版本的 ER 格式中的应用程序特定参数** 功能。 有关详细信息，请参阅本主题后面的[重用现有参数](#reuse-existing-parameters)一节。
+如果您为 ER 格式的一个版本配置特定于应用程序的参数，然后将相同格式的更高版本导入当前 Finance 实例，现有的特定于应用程序的参数将不会应用于导入的版本，除非您使用 **使用先前版本的 ER 格式中的应用程序特定参数** 功能。 有关详细信息，请参阅本文后面的[重用现有参数](#reuse-existing-parameters)一节。
 
 当选择要导入的文件时，该文件中特定于应用程序的参数的结构将与为导入选择的 ER 格式中的 **查找** 类型的相应数据源的结构进行比较。 默认情况下，仅当每个特定于应用程序的参数的结构与为导入选择的 ER 格式的相应数据源的结构匹配时，才完成导入。 如果结构不匹配，一条警告消息会通知您无法完成导入。 如果您强制导入，将清除所选 ER 格式的现有的特定于应用程序的参数，您必须从头开始进行设置。
 

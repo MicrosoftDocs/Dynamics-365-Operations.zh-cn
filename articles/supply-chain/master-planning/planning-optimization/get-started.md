@@ -1,6 +1,6 @@
 ---
 title: 开始使用计划优化
-description: 本主题说明如何开始使用计划优化功能。
+description: 本文说明如何开始使用计划优化功能。
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900961"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
@@ -99,7 +99,7 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 |---|---|---|
 | 已连接 | 已在计划优化服务和 Supply Chain Management 之间建立连接。 | 是 |
 | 正在启用连接 | 当前正在处理打开计划优化服务连接的请求。 | 否 |
-| 已断开连接 | 没有与计划优化服务的连接。 可以从 LCS 打开连接，如本主题前面所述。 | 否 |
+| 已断开连接 | 没有与计划优化服务的连接。 可以从 LCS 打开连接，如本文前面所述。 | 否 |
 | 正在禁用连接 | 当前正在处理关闭计划优化服务连接的请求。 | 否 |
 | 正在获取状态 | 系统正在等待来自计划优化服务的状态信息。 | 否 |
 

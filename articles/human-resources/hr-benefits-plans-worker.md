@@ -1,6 +1,6 @@
 ---
 title: 创建工作人员福利计划
-description: 本主题介绍如何在 Microsoft Dynamics 365 Human Resources 中创建、选择和确认工作人员福利计划。
+description: 本文介绍如何在 Microsoft Dynamics 365 Human Resources 中创建、选择和确认工作人员福利计划。
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc4e70954612bbba81f2dccd7607d081eb314f21
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 688382b68ead73b496fd80fb5967e243611d9507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895951"
 ---
 # <a name="create-worker-benefit-plans"></a>创建工作人员福利计划
 

@@ -1,6 +1,6 @@
 ---
 title: 解决初始同步过程中的问题
-description: 本主题提供故障排除信息，可以帮助您解决初始同步期间可能发生的问题。
+description: 本文提供故障排除信息，可以帮助您解决初始同步期间可能发生的问题。
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892348"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -22,10 +22,10 @@ ms.locfileid: "8063050"
 
 
 
-本主题提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决初始同步期间可能发生的问题的信息。
+本文提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决初始同步期间可能发生的问题的信息。
 
 > [!IMPORTANT]
-> 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
+> 本文解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>在财务和运营应用中检查初始同步错误
 

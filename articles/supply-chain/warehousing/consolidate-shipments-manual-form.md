@@ -1,6 +1,6 @@
 ---
 title: 使用合并装运页面手动合并装运
-description: 此主题提供以下方案：使用“合并装运”页将多个订单发放到仓库，以后再合并。
+description: 本文提供以下方案：使用“合并装运”页将多个订单发放到仓库，以后再合并。
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 5a2f4a9ed05460f9beedf8653ec80b01c84a7b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897333"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>使用合并装运页面手动合并装运
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供以下方案：使用 **合并装运** 页将多个订单发放到仓库，以后再合并。
+本文提供以下方案：使用 **合并装运** 页将多个订单发放到仓库，以后再合并。
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>设置装运合并策略和产品筛选器
 

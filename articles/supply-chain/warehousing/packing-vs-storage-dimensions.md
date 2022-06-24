@@ -1,6 +1,6 @@
 ---
 title: 设置不同的包装和存储维度
-description: 本主题说明如何指定每个指定维度用于哪个流程（包装、存储或嵌套包装）。
+description: 本文说明如何指定每个指定维度用于哪个流程（包装、存储或嵌套包装）。
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905477"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>设置不同的包装和存储维度
 
@@ -33,7 +33,7 @@ ms.locfileid: "8687636"
 即使未启用 *包装产品维度* 功能，也支持 *存储* 维度。 您使用 Supply Chain Management 中的 **物理维度** 页设置这些维度。 这些维度由所有未指定包装维度和嵌套包装维度的流程使用。
 
 *包装* 和 *嵌套包装* 维度使用 **物理产品维度** 页设置，在您启用 *包装产品维度* 功能时添加。
-本主题提供了一个场景来说明如何使用此功能。
+本文提供了一个场景来说明如何使用此功能。
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>打开包装产品维度功能
 

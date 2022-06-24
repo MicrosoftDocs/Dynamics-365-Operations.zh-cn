@@ -1,6 +1,6 @@
 ---
 title: 上传图像
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892826"
 ---
 # <a name="upload-images"></a>上传图像
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传图像。
 
 Commerce 站点构建器的媒体库允许您上传单个图像或使用文件夹批量上传图像。 应始终上传分辨率和质量最高的图像版本，因为图像大小调整组件将针对不同视区及其断点自动优化图像。
 

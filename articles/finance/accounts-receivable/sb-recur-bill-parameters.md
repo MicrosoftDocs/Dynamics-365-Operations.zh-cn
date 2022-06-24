@@ -1,6 +1,6 @@
 ---
 title: 定期合同计费参数
-description: 本主题说明如何为定期合同计费中创建的计费计划设置默认值。 它还解释了如何创建计费计划组。
+description: 本文说明如何为定期合同计费中创建的计费计划设置默认值。 它还解释了如何创建计费计划组。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903325"
 ---
 # <a name="recurring-contract-billing-parameters"></a>定期合同计费参数
 
@@ -27,7 +27,7 @@ ms.locfileid: "8685822"
 
 ## <a name="general-tab"></a>常规选项卡
 
-1. 在 **定期合同计费参数** 页上的 **常规** 选项卡上，在 **计费计划组** 字段中，选择计费计划组。 有关如何设置计费计划组的信息，请参阅本主题中后面的[计费计划组](#set-up-billing-schedule-groups)部分。
+1. 在 **定期合同计费参数** 页上的 **常规** 选项卡上，在 **计费计划组** 字段中，选择计费计划组。 有关如何设置计费计划组的信息，请参阅本文后面的[计费计划组](#set-up-billing-schedule-groups)一节。
 2. 在 **终止类型** 字段中，选择在终止计费计划时如何计算最终发票：
 
     - **调整计划** - 在终止日期中中断计费计划，将计划状态更改为 **上次计费**，并通过冲销不再必须确认的金额来调整关联的延期计划。 如果计费开始日期晚于终止日期，将删除剩余的计费周期。

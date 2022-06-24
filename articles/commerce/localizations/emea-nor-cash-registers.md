@@ -1,6 +1,6 @@
 ---
 title: 挪威收银机功能
-description: 本主题概述 Microsoft Dynamics 365 Commerce 中适用于挪威的收银机功能，并提供关于设置此功能的指南。
+description: 本文概述 Microsoft Dynamics 365 Commerce 中适用于挪威的收银机功能，并提供关于设置此功能的指南。
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906691"
 ---
 # <a name="cash-register-functionality-for-norway"></a>挪威收银机功能
 
 [!include[banner](../includes/banner.md)]
 
-本主题概述 Dynamics 365 Commerce 中适用于挪威的收银机功能。 它还提供关于设置此功能的指南。 该功能由以下部分组成：
+本文概述 Dynamics 365 Commerce 中适用于挪威的收银机功能。 它还提供关于设置此功能的指南。 该功能由以下部分组成：
 
 - 适用于所有国家或地区中的客户的通用销售点 (POS) 功能。 示例包括一个可防止多次打印收据副本的选项。
 - 特定于挪威的功能，例如销售交易的数字签名。

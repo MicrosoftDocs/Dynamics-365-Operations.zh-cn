@@ -1,6 +1,6 @@
 ---
 title: 查看 TDS 结算期间的已过帐 TDS 付款和交易
-description: 本主题说明如何查看在结算期间内过帐的从源扣缴税款 (TDS) 付款和交易。
+description: 本文说明如何查看在结算期间内过帐的从源扣缴税款 (TDS) 付款和交易。
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898050"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>查看 TDS 结算期间的已过帐 TDS 付款和交易
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何查看在结算期间内过帐的从源扣缴税款 (TDS) 付款和交易。
+本文说明如何查看在结算期间内过帐的从源扣缴税款 (TDS) 付款和交易。
 
 1. 转到 **税 \> 间接税 \> 预缴税金 \> 预缴税金结算期间**。
 

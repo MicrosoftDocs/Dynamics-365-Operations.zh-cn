@@ -1,6 +1,6 @@
 ---
 title: 启用来宾结帐订单查找功能
-description: 本主题介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
+description: 本文介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891979"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>启用来宾结帐订单查找功能
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
+本文介绍如何启用 Microsoft Dynamics 365 Commerce 中的来宾结帐订单查找功能。
 
 来宾结帐订单查找功能让以来宾用户身份进行购买的客户可以查找自己的订单。 当用户希望执行如下功能时，这项订单查找功能非常有用：检查订单中产品的履行状态，验证订单的收货地址，重新订购产品，或确认订单的提货商店。
 

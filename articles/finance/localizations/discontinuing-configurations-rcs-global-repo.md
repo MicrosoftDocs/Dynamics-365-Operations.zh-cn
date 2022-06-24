@@ -1,6 +1,6 @@
 ---
-title: 在 RCS 全局知识库中停用配置
-description: 本主题描述如何在 RCS 全局知识库中停用配置。
+title: 终止 RCS 全局存储库中的配置
+description: 本文描述如何在 RCS 全局知识库中停用配置。
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894802"
 ---
-# <a name="discontinue-configurations-in-the-rcs-global-repository"></a>在 RCS 全局知识库中停用配置
+# <a name="discontinue-configurations-in-the-rcs-global-repository"></a>终止 RCS 全局存储库中的配置
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述如何在 RCS 全局知识库中停用配置。 以前，只能删除不再需要的配置。 但是，您现在可以在 RCS 全局知识库中将已发布的配置标记为 **已停用**。 使用此功能，您还可以执行以下操作： 
+本文描述如何在 RCS 全局知识库中停用配置。 以前，只能删除不再需要的配置。 但是，您现在可以在 RCS 全局知识库中将已发布的配置标记为 **已停用**。 使用此功能，您还可以执行以下操作： 
  
  - 计划停用配置时提供预先通知。
  - 包括有关替换配置的适用详细信息。

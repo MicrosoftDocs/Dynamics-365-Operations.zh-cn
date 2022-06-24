@@ -1,6 +1,6 @@
 ---
 title: 薪酬和福利 Power BI 内容
-description: 此主题描述薪酬和福利 Power BI 内容。
+description: 本文描述薪酬和福利 Power BI 内容。
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13f084ba49baa01eea99822baa6960136725140a80c9d29a4104aabc5d7d5dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bed0e8ffbd23c6793c037bade218f637105734b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908610"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>薪酬和福利 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述薪酬和福利 Power BI 内容。 
+本文描述薪酬和福利 Power BI 内容。 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>此内容包中包含的报表
 在连接内容包到您的数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。

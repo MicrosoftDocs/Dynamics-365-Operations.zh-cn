@@ -1,6 +1,6 @@
 ---
-title: 管理配方及其成分的更改
-description: 本主题介绍如何执行配方管理以及如何管理对处理制造主数据的更改。
+title: 管理公式及其成分的更改
+description: 本文介绍如何执行配方管理以及如何管理对处理制造主数据的更改。
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904063"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>管理配方及其成分的更改
 
@@ -29,7 +29,7 @@ ms.locfileid: "8103031"
 
 ## <a name="turn-this-feature-on-or-off"></a>打开或关闭此功能
 
-本主题中描述的功能需要您的系统同时启用 *工程更改管理* 和 *管理对配方及其成分的更改* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
+本文中描述的功能需要您的系统同时启用 *工程更改管理* 和 *管理对配方及其成分的更改* 功能。 有关如何启用或关闭这些功能的详细信息，请参阅[工程更改管理概述](product-engineering-overview.md)。
 
 ## <a name="feature-naming-conventions"></a>功能命名约定
 
@@ -46,7 +46,7 @@ ms.locfileid: "8103031"
 - **准备控制** – 使用系统检查和用户指南（调查表和清单）确保在发布产品之前已完全输入所有必需的产品数据。 有关详细信息，请参阅[产品准备](product-readiness.md)。
 - **增强的产品发布功能** – 将组织（法人）中的产品及其配方的完整定义版本发布到其他法人。 您甚至可以决定在发布之前是否必须查看或编辑产品信息。 有关详细信息，请参阅[发布产品结构](release-product-structure.md)。
 
-请注意，上一个列表中链接的大多数主题提供的是基于物料清单 (BOM) 的示例。 不过，配方的工作方式相似。 以下是另外一些可以帮助了解您何时使用更改管理（或仅使用配方更改管理）来管理配方和物料清单的概念：
+请注意，上一个列表中链接的大多数文章提供的是基于物料清单 (BOM) 的示例。 不过，配方的工作方式相似。 以下是另外一些可以帮助了解您何时使用更改管理（或仅使用配方更改管理）来管理配方和物料清单的概念：
 
 - 对于每个[产品工程类别](engineering-versions-product-category.md)，您可以指定生产类型（物料清单、配方或计划物料）。 您还可以指定使用该类别的产品是否需要实际称重支持。
 - 联产品和副产品不是工程产品。 因此，它们未版本化。 如果必须更改它们，只需创建一个新产品。 这种方法让维护更加容易。

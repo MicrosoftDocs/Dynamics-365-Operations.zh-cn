@@ -1,6 +1,6 @@
 ---
 title: 导入供应商发票时生成发票行
-description: 本主题介绍在导入发票时自动生成供应商发票上的发票行的功能。
+description: 本文介绍在导入发票时自动生成供应商发票上的发票行的功能。
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903498"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>导入供应商发票时生成发票行
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题介绍在导入发票时自动生成供应商发票上的发票行的功能。
+本文介绍在导入发票时自动生成供应商发票上的发票行的功能。
 
 有时，供应商发票包含有限的信息，如接收人信息和小计。 但是，它们不包含行项的信息。 导入发票时，系统将根据对应采购订单上的信息自动生成发票行。
 
@@ -42,7 +42,7 @@ ms.locfileid: "8358306"
 
 ## <a name="data-entity-changes"></a>数据实体更改
 
-为了支持此主题中介绍的功能，**供应商发票标题** 数据实体已增强。 添加了三个字段：
+为了支持本文中介绍的功能，**供应商发票标题** 数据实体已增强。 添加了三个字段：
 
 - **HeaderOnlyImport** – 必须将此字段设置 **是**，才能为发票标题生成行。
 - **PurchIdRange** – 采购订单编号的列表。 发票编号可以是一个范围，如 **INV0001..INV0009**（其中两个点分隔范围的开始和结束），或离散值，如 **INV0001, INV0003, INV0006**。 所有采购订单必须属于发票标题上的同一供应商帐户。 否则，您将收到以下错误消息：“无法生成发票行。 采购订单具有不同的供应商帐户。”

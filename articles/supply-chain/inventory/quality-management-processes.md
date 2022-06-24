@@ -1,6 +1,6 @@
 ---
-title: 质量和不符合项管理概述
-description: 本主题介绍 Microsoft Dynamics 365 Supply Chain Management 中的质量和不符合项管理功能，并说明这些功能如何帮助改善供应链中的产品质量。
+title: 质量和不符合项管理概览
+description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 中的质量和不符合项管理功能，并说明这些功能如何帮助改善供应链中的产品质量。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907484"
 ---
-# <a name="quality-and-nonconformance-management-overview"></a>质量和不符合项管理概述
+# <a name="quality-and-nonconformance-management-overview"></a>质量和不符合项管理概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Supply Chain Management 中的质量和不符合项管理功能，并说明这些功能如何帮助改善供应链中的产品质量。
+本文介绍 Microsoft Dynamics 365 Supply Chain Management 中的质量和不符合项管理功能，并说明这些功能如何帮助改善供应链中的产品质量。
 
 质量保证涉及产品测试和管理未达标物料。 质量管理流程可帮助确保您的供应链中的高级产品质量。 这些流程还可以帮助优化供应链流程和增加客户满意度。 质量管理可帮助您在处理未达标的产品时管理周转时间，而不管这些产品的源点如何。 您可以将诊断结果链接到更正任务。 系统可以计划任务以更正问题并从而帮助将来防止重复这些问题。 质量管理还能让您按问题类型跟踪问题（包括内部问题），能让您确定解决方案作为短期或长期解决方案。 有关关键绩效指标 (KPI) 的统计能让您了解以前发生的不符合项问题以及用于更正它们的解决方案。 您可以使用历史数据检查以前执行的质量度量的效果并确定相应的度量以备将来使用。
 

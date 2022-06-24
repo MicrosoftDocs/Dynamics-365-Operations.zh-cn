@@ -1,6 +1,6 @@
 ---
 title: 更新 TDS 交易的证书编号和日期
-description: 本主题说明如何更新从源扣缴税款 (TDS) 的为供应商、客户和分类帐帐户记录的可退税证书编号和日期。
+description: 本文说明如何更新从源扣缴税款 (TDS) 的为供应商、客户和分类帐帐户记录的可退税证书编号和日期。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904432"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>更新 TDS 交易的证书编号和日期
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何更新从源扣缴税款 (TDS) 的为供应商、客户和分类帐帐户记录的可退税证书编号和日期。 您可以在 **可退税证书** 页面上查看 TDS 交易的证书。 可以使用 **更新证书** 页面更新证书。
+本文说明如何更新从源扣缴税款 (TDS) 的为供应商、客户和分类帐帐户记录的可退税证书编号和日期。 您可以在 **可退税证书** 页面上查看 TDS 交易的证书。 可以使用 **更新证书** 页面更新证书。
 
 按照以下步骤更新 TDS 交易的证书编号和日期。
 

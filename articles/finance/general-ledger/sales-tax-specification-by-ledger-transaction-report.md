@@ -1,6 +1,6 @@
 ---
-title: 按分录的销售税明细报表
-description: 此主题说明如何使用按分录的销售税明细报表查看和打印有关为其计算销售税的分录的信息。
+title: 销售税明细（按分类帐）报表
+description: 本文说明如何使用按分录的销售税明细报表查看和打印有关为其计算销售税的分录的信息。
 author: EricWang
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a51bfd604a1ecc790d5f26f4be95a72375a9ffe6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c96f457a0ea24aef1769f370c3c0657ada31eebf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898082"
 ---
-# <a name="sales-tax-specification-by-ledger-transaction-report"></a>按分录的销售税明细报表
+# <a name="sales-tax-specification-by-ledger-transaction-report"></a>销售税明细（按分类帐）报表
 [!include [banner](../includes/banner.md)]
 
-此主题说明如何使用 **按分录的销售税明细** 报表查看和打印有关为其计算销售税的分录的信息。
+本文说明如何使用 **按分录的销售税明细** 报表查看和打印有关为其计算销售税的分录的信息。
 
 ## <a name="tax-accounts-vs-non-tax-accounts"></a>纳税科目与非纳税科目
 

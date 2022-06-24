@@ -1,8 +1,8 @@
 ---
-title: 配置库存可见性
-description: 本主题介绍如何配置库存可见性。
+title: 配置 Inventory Visibility
+description: 本文介绍如何配置库存可见性。
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895806"
 ---
-# <a name="configure-inventory-visibility"></a>配置库存可见性
+# <a name="configure-inventory-visibility"></a>配置 Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题介绍如何在 Power Apps 中使用库存可见性应用配置库存可见性。
+本文介绍如何在 Power Apps 中使用库存可见性应用配置库存可见性。
 
 ## <a name="introduction"></a><a name="introduction"></a>简介
 
-首先必须按照本主题中的说明完成以下配置，才能开始使用库存可见性：
+首先必须按照本文中的说明完成以下配置，才能开始使用库存可见性：
 
 - [数据源配置](#data-source-configuration)
 - [分区配置](#partition-configuration)
@@ -41,7 +41,7 @@ ms.locfileid: "8786829"
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>库存可见性应用的“配置”页面
 
-在 Power Apps 中，[库存可见性应用](inventory-visibility-power-platform.md)的 **配置** 页面可帮助您设置现有库存配置和软预留配置。 安装此加载项后，默认配置中将包含来自 Microsoft Dynamics 365 Supply Chain Management（`fno` 数据源）的值。 可以查看默认设置。 此外，可根据您的业务要求和外部系统的库存过帐要求修改配置，以便标准化跨多个系统过帐，组织和查询库存更改的方法。 本主题的其余部分介绍如何使用 **配置** 页面的各部分。
+在 Power Apps 中，[库存可见性应用](inventory-visibility-power-platform.md)的 **配置** 页面可帮助您设置现有库存配置和软预留配置。 安装此加载项后，默认配置中将包含来自 Microsoft Dynamics 365 Supply Chain Management（`fno` 数据源）的值。 可以查看默认设置。 此外，可根据您的业务要求和外部系统的库存过帐要求修改配置，以便标准化跨多个系统过帐，组织和查询库存更改的方法。 本文的其余几节介绍如何使用 **配置** 页面的各部分。
 
 配置完成后，请务必在应用中选择 **更新配置**。
 
@@ -54,6 +54,7 @@ ms.locfileid: "8786829"
 | *OnHandReservation* | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
 | *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
 | *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
+| *分配* | 此可选功能使库存可见性能够进行库存保护（圈护）和超额销售控制。 有关详细信息，请参阅[库存可见性库存分配](inventory-visibility-allocation.md)。 |
 | *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了高级仓库流程的物料（WHS 物料）。 有关详细信息，请参阅 [WHS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
@@ -320,6 +321,13 @@ ms.locfileid: "8786829"
     - **集号** – 属于同一组（索引）的维度将组合在一起，并为其分配同一个集号。
     - **层次结构** – 层次结构用于定义可在维度组（索引）中查询的受支持维度组合。 例如，如果设置的维度值具有层次结构序列 *样式*、*颜色* 和 *大小*，则系统支持三查询组结果。 第一个组为仅样式。 第二个组为样式和颜色的组合。 而第三个组为样式、颜色和大小的组合。 不支持其他组合。
 
+> [!TIP]
+> 以下是在设置索引层次结构时要注意的一些提示：
+>
+> - 不应在索引配置中定义在分区配置中定义的基础维度。 如果在索引配置中再次定义基础维度，您将无法按此索引进行查询。
+> - 如果只需要查询由所有维度组合聚合的库存，则应设置包含基础维度 `Empty` 的单个索引。
+> - 您必须至少有一个索引层次结构（例如，包含基础维度 `Empty`），否则查询将失败，显示错误“尚未设置索引层次结构”。
+
 ### <a name="example"></a>示例
 
 此部分提供示例显示层次结构的工作方式。
@@ -372,11 +380,6 @@ ms.locfileid: "8786829"
     - T 恤杉，红色，小，正常，6
     - T 恤杉，红色，大，正常，7
 
-> [!NOTE]
-> 不应在索引配置中定义在分区配置中定义的基础维度。
-> 
-> 如果必须仅查询由所有维度组合聚合的库存，则可以设置包含基础维度 `Empty` 的单个索引。
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>预留配置（可选）
 
 如果要使用软预留功能，则需要预留配置。 该配置由两个基本部分构成：
@@ -390,7 +393,7 @@ ms.locfileid: "8786829"
 
 通过设置从实际度量到计算度量的映射，可以启用库存可见性服务，以根据实际度量自动验证预留可用性。
 
-在设置此映射之前，必须在 Power Apps 中的 **配置** 页 **数据源** 和 **计算度量** 选项卡上定义实际度量、计算度量和数据源（如本主题前文所述）。
+在设置此映射之前，必须在 Power Apps 中的 **配置** 页 **数据源** 和 **计算度量** 选项卡上定义实际度量、计算度量和数据源（如本文前面所述）。
 
 若要定义软预留映射，请按照以下步骤操作。
 
@@ -508,7 +511,7 @@ ms.locfileid: "8786829"
 
 此部分介绍如何配置 `iv` 数据源。
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>为 iv 数据源配置的实际度量
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>为“iv”数据源配置的实际度量
 
 将为 `iv` 数据源配置以下实际度量：
 
@@ -646,16 +649,16 @@ ms.locfileid: "8786829"
 | 增加额 | `iom` | `OnOrder` |
 | 增加额 | `iv` | `SoftReservPhysical` |
 | 增加额 | `iv` | `SoftReservOrdered` |
-| 增加额 | `fno` | `ReservPhysical` |
-| 增加额 | `fno` | `ReservOrdered` |
-| 增加额 | `iv` | `ReservPhysical` |
-| 增加额 | `iv` | `ReservOrdered` |
+| 附加内容 | `fno` | `ReservPhysical` |
+| 附加内容 | `fno` | `ReservOrdered` |
+| 附加内容 | `iv` | `ReservPhysical` |
+| 附加内容 | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>fno 数据源的配置
+#### <a name="configuration-of-the-fno-data-source"></a>“fno”数据源的配置
 
 此部分介绍如何配置 `fno` 数据源。
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>fno 数据源的维度映射
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>“fno”数据源的维度映射
 
 将为 `fno` 数据源配置下表中列出的维度映射。
 
@@ -687,7 +690,7 @@ ms.locfileid: "8786829"
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>为 fno 数据源配置的实际度量
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>为“fno”数据源配置的实际度量
 
 将为 `fno` 数据源配置以下实际度量：
 
@@ -699,11 +702,11 @@ ms.locfileid: "8786829"
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>pos 数据源的配置
+#### <a name="configuration-of-the-pos-data-source"></a>“pos”数据源的配置
 
 此部分介绍如何配置数据源 `pos`。
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>pos 数据源的实际度量
+##### <a name="physical-measures-for-the-pos-data-source"></a>“pos”数据源的实际度量
 
 将为 `pos` 数据源配置以下实际度量：
 
@@ -716,18 +719,18 @@ ms.locfileid: "8786829"
 
 | 计算类型 | 数据源 | 实际度量 |
 |---|---|---|
-| 增加额 | `fno` | `AvailPhysical` |
-| 增加额 | `pos` | `PosInbound` |
+| 附加内容 | `fno` | `AvailPhysical` |
+| 附加内容 | `pos` | `PosInbound` |
 | 减 | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>iom 数据源的配置
+#### <a name="configuration-of-the-iom-data-source"></a>“iom”数据源的配置
 
 将为 `iom` (Intelligent Order Management) 数据源配置以下实际度量：
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>erp 数据源的配置
+#### <a name="configuration-of-the-erp-data-source"></a>“erp”数据源的配置
 
 将为 `erp`（企业资源规划）数据源配置以下实际度量：
 

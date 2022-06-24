@@ -1,6 +1,6 @@
 ---
 title: 启用预算提案
-description: 本主题说明如何在 Finance Insights 中开启预算提案功能。
+description: 本文说明如何在 Finance Insights 中开启预算提案功能。
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c2002dbd480fb520451daf9209423ce64b3239d8
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f9bcf8042931e31de1cdd59df1820238d7826000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899891"
 ---
 # <a name="enable-budget-proposal"></a>启用预算提案
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在 Finance Insights 中开启预算提案功能。
+本文说明如何在 Finance Insights 中开启预算提案功能。
 
 1. 打开 **功能管理** 工作区，然后执行以下步骤：
 

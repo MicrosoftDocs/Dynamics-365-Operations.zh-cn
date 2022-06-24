@@ -1,6 +1,6 @@
 ---
 title: 内置主计划与计划优化之间的差异
-description: 本主题列出了计划优化尚不支持的功能，以及“计划优化适合分析”页面上未列出的功能。
+description: 本文列出了计划优化尚不支持的功能，以及“计划优化适合分析”页面上未列出的功能。
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897565"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>内置主计划与计划优化之间的差异
 
 [!include [banner](../../includes/banner.md)]
 
-计划优化结果可能不同于内置主计划引擎的结果。 这些差异可能是待定功能导致的。 本主题列出了计划优化尚不支持的功能，以及 **[计划优化适合分析](planning-optimization-fit-analysis.md)** 页面]上未列出的功能。
+计划优化结果可能不同于内置主计划引擎的结果。 这些差异可能是待定功能导致的。 本文列出了计划优化尚不支持的功能，以及 **[计划优化适合分析](planning-optimization-fit-analysis.md)** 页面]上未列出的功能。
 
 | 功能 | 计划优化中的当前行为 |
 |---|---|

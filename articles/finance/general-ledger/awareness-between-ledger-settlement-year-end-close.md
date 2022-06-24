@@ -1,6 +1,6 @@
 ---
 title: 区分分类帐结算与年终结算
-description: 本主题提供有关影响分类帐结算和总帐年终结算的增强功能的信息。
+description: 本文提供有关影响分类帐结算和总帐年终结算的增强功能的信息。
 author: kweekley
 ms.date: 04/06/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902507"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>区分分类帐结算与年终结算
 

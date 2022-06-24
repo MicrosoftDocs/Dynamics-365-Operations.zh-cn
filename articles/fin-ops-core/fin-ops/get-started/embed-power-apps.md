@@ -1,6 +1,6 @@
 ---
 title: 从 Power Apps 嵌入画布应用
-description: 此主题说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
+description: 本文说明如何将 Microsoft Power Apps 中的画布应用嵌入到客户端以细分该产品的功能。
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898389"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
@@ -33,7 +33,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>将 Power Apps 中的嵌入画布应用添加到页面中
 
-将画布应用从 Power Apps 嵌入到客户端之前，必须找到或构建具有所需视觉效果或功能的应用。 本主题不包括对构建应用的流程的详细描述。 如果您不熟悉 Power Apps，请参阅 [Power Apps 文档](/powerapps/)。
+将画布应用从 Power Apps 嵌入到客户端之前，必须找到或构建具有所需视觉效果或功能的应用。 本文不包括对构建应用的流程的详细描述。 如果您不熟悉 Power Apps，请参阅 [Power Apps 文档](/powerapps/)。
 
 有三种方法可以将画布应用嵌入到财务和运营应用中。 您可以使用最适合您的方案的方法。 
 
@@ -60,7 +60,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
     - 如果将使用 **Power Apps** 菜单按钮访问应用，您可以选择标准操作窗格中的 **Power Apps** 菜单按钮，然后选择 **添加应用**。
 
-3. 配置嵌入的应用。 有关详细信息，请参阅本主题后面的[配置画布应用](#configuring-a-canvas-app)一节。
+3. 配置嵌入的应用。 有关详细信息，请参阅本文后面的[配置画布应用](#configuring-a-canvas-app)一节。
 4. 确认配置正确后，选择 **插入**。
 
     - 如果已关闭 **已保存视图** 功能，则会提示您刷新浏览器以查看嵌入式应用。
@@ -76,7 +76,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 1. 打开仪表板。
 2. 选择并按住（或右键单击）页面，选择 **个性化**，然后选择 **添加页面**。
 3. 在 **添加页面** 窗格中，选择 **Power Apps**。
-4. 配置嵌入的应用。 有关详细信息，请参阅本主题后面的[配置画布应用](#configuring-a-canvas-app)一节。
+4. 配置嵌入的应用。 有关详细信息，请参阅本文后面的[配置画布应用](#configuring-a-canvas-app)一节。
 5. 选择 **保存** 将应用作为新磁贴添加到仪表板。
 6. 选择仪表板上的新磁贴，确认画布应用按预期显示。
 
@@ -86,7 +86,7 @@ Microsoft Power Apps 是一项服务，让开发人员和非技术用户无需�
 
 - **名称** – 输入应为包含嵌入式应用的按钮或选项卡显示的文本。 通常，您可能要在此字段中重复应用的名称。
 - **应用 ID** - 指定要嵌入的画布应用的全局唯一标识符 (GUID)。 若要检索此值，在 [make.powerapps.com](https://make.powerapps.com) 上找到应用，然后在 **详细信息** 下查找 **应用 ID** 字段。
-- **应用的输入上下文** - 您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 有关应用如何访问发送自财务和运营应用的数据的信息，请参阅本主题后面的[构建利用发送自财务和运营应用的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)一节。
+- **应用的输入上下文** - 您可以有选择性地选择包含您要作为输入传送到应用的数据的字段。 有关应用如何访问发送自财务和运营应用的数据的信息，请参阅本文后面的[构建利用发送自财务和运营应用的数据的应用](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps)一节。
 
     从版本 10.0.19 开始，当前法人还将作为上下文通过 **cmp** URL 参数传递到画布应用。 在目标画布应用使用该信息之前，此行为不会影响该应用。
 
@@ -145,7 +145,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 在应用嵌入到页面上后，如果需要，有一些方法可以删除它：
 
-- 使用此主题前面 [编辑嵌入的应用](#editing-an-embedded-app)部分中的说明转到 **编辑应用** 窗格。 确认窗格显示您要删除的嵌入应用的信息，然后单击 **删除** 按钮。
+- 使用本文前面 [编辑嵌入的应用](#editing-an-embedded-app)一节中的说明转到 **编辑应用** 窗格。 确认窗格显示您要删除的嵌入应用的信息，然后单击 **删除** 按钮。
 - 如果从仪表板中添加了嵌入式应用，请打开仪表板，选择并按住（或右键单击）与画布应用关联的磁贴，选择 **个性化**，然后选择 **删除页面**。 
 - 由于嵌入的应用保存为个性化数据，清除页面的个性化也将删除该页面上所有嵌入的应用。 请注意，清除页面的个性化是永久的，并且无法撤消。 若要删除您的页面上的个性化设置，依次选择 **选项**、**个性化设置此页面** 和 **清除**。 刷新您的浏览器后，将删除此页之前的所有个性化设置。 请参阅[打造个性化的用户体验](personalize-user-experience.md)了解有关如何使用个性化设置优化页面的更多信息。
 
@@ -153,7 +153,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[开发人员] 在窗体上为画布应用建模
 
-本主题着重介绍通过个性化嵌入画布应用，开发人员还可以选择使用 Visual Studio 开发体验将画布应用添加到窗体中。 要使用此方法，只需将 PowerAppsHostControl 添加到窗体中。 控件上可用的元数据属性提供与个性化体验相同的功能。
+本文着重介绍通过个性化嵌入画布应用，开发人员还可以选择使用 Visual Studio 开发体验将画布应用添加到窗体中。 要使用此方法，只需将 PowerAppsHostControl 添加到窗体中。 控件上可用的元数据属性提供与个性化体验相同的功能。
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[开发人员]指定应用可以嵌入的位置
 

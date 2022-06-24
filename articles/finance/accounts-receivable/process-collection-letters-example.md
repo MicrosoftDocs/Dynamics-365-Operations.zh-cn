@@ -1,6 +1,6 @@
 ---
 title: 处理催款单示例
-description: 本主题详细介绍了一个示例，以显示创建、打印和过帐催款单的过程。
+description: 本文详细介绍了一个示例，以显示创建、打印和过帐催款单的过程。
 author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1bb1889e9450685f7b6a5000e2ef81d1a65f1b51
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908145"
 ---
 # <a name="process-collection-letters-example"></a>处理催款单示例
 
 [!include [banner](../../includes/banner.md)]
 
-本主题详细介绍了一个示例，以显示创建、打印和过帐催款单的过程。 该示例基于信用和收款中的 **忽略计算催款单代码时的付款及贷项通知单** 选项。 它使用 USMF 演示公司和新客户 US-045 中的数据。
+本文详细介绍了一个示例，以显示创建、打印和过帐催款单的过程。 该示例基于信用和收款中的 **忽略计算催款单代码时的付款及贷项通知单** 选项。 它使用 USMF 演示公司和新客户 US-045 中的数据。
 
 首先，请转到 **应收账款 \> 客户 \> 所有客户**，选择 **新建**，然后输入所需的信息以创建客户 US-045。
 

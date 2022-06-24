@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management 的标准已保存视图
-description: 本主题介绍可用的标准已保存视图，并说明如何启用它们。
+description: 本文介绍可用的标准已保存视图，并说明如何启用它们。
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887549"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management 的标准已保存视图
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您可以根据需要启用和使用这些视图。 其中一些标准已保存视图针对特定角色或任务进行了优化和命名（例如，“质量控制”或“接收”）。 其他视图也进行了优化，让它们仅包含 Microsoft 使用情况统计信息表明客户最常使用的字段和设置。 这些已保存视图通常称为 *简化* 视图。 本主题介绍可用的标准已保存视图，并说明如何启用和自定义它们。
+Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您可以根据需要启用和使用这些视图。 其中一些标准已保存视图针对特定角色或任务进行了优化和命名（例如，“质量控制”或“接收”）。 其他视图也进行了优化，让它们仅包含 Microsoft 使用情况统计信息表明客户最常使用的字段和设置。 这些已保存视图通常称为 *简化* 视图。 本文介绍可用的标准已保存视图，并说明如何启用和自定义它们。
 
 有关在启用后如何使用已保存视图（包括标准已保存视图）的完整详细信息，请参阅[已保存视图](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json)。
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Supply Chain Management 包括几个已保存视图，您
 
 要使用已保存视图，无论您是否要使用标准已保存视图，都必须在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开 *已保存视图* 功能（此功能从版本 10.0.21 开始默认启用）。
 
-本主题的其余几节提供了描述每个相关模块当前可用的标准已保存视图的表。 每个表显示每个已保存视图的名称，可以找到它的页面以及对它的描述。 每个表还显示包含已保存视图的功能的名称。 要在系统中查看标准已保存视图，必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开指定功能。 从版本 10.0.25 开始，所有列出的视图都默认打开。
+本文的其余几节提供了描述每个相关模块当前可用的标准已保存视图的表。 每个表显示每个已保存视图的名称，可以找到它的页面以及对它的描述。 每个表还显示包含已保存视图的功能的名称。 要在系统中查看标准已保存视图，必须在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开指定功能。 从版本 10.0.25 开始，所有列出的视图都默认打开。
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>库存管理模块的已保存视图
 

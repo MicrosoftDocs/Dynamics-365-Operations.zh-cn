@@ -1,6 +1,6 @@
 ---
 title: 中国的固定资产折旧法
-description: 此主题描述为中国法人设置的折旧法。
+description: 本文描述为中国法人设置的折旧法。
 author: ShylaThompson
 ms.date: 03/21/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: China (PRC)
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83eb265716ebbe732a31d5e23cec65425df559d6854f728cae7d23c5b91b6b80
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83b10ca5ab92c474eb5dafe9d4ce74b939851e86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907819"
 ---
 # <a name="fixed-assets-depreciation-methods-for-china"></a>中国的固定资产折旧法
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述为中国法人设置的折旧法。
+本文描述为中国法人设置的折旧法。
 
 年数总和折旧法 (SYD) 是一种基于以下假设的加速折旧技术：资产越新，生产率越高，如果变旧，生产率随之下降。 SYD 法的折旧计算公式为：
 

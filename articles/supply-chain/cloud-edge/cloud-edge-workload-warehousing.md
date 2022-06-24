@@ -1,6 +1,6 @@
 ---
-title: Cloud Scale Unit 和 Edge Scale Unit 的仓库管理工作负荷
-description: 本主题提供有关使缩放单元能够从仓库管理工作负荷运行选定流程的功能的信息。
+title: 云和边缘缩放单元的仓库管理工作负载
+description: 本文提供有关使缩放单元能够从仓库管理工作负荷运行选定流程的功能的信息。
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893488"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>云和边缘缩放单元的仓库管理工作负载
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> 并非所有仓库管理业务功能对于在缩放单元上运行工作负荷的仓库都完全支持。 确保仅使用本主题明确描述为受支持的流程。
+> 并非所有仓库管理业务功能对于在缩放单元上运行工作负荷的仓库都完全支持。 确保仅使用本文明确描述为受支持的流程。
 
 ## <a name="warehouse-execution-on-scale-units"></a>缩放单元上的仓库执行
 
@@ -184,7 +184,7 @@ ms.locfileid: "8384476"
 >
 > 设置 Warehouse Management 移动应用以针对云或边缘缩放单元工作需要执行一些额外的步骤。 有关详细信息，请参阅[为云和边缘缩放单元配置 Warehouse Management 移动应用](cloud-edge-workload-setup-warehouse-app.md)。
 >
-> 当您在缩放单元上运行工作负荷时，无法运行中心上该特定仓库的不受支持的流程。 本主题后面提供的表记录了受支持的功能。
+> 当您在缩放单元上运行工作负荷时，无法运行中心上该特定仓库的不受支持的流程。 本文后面提供的表记录了受支持的功能。
 >
 > 选定的仓库工作类型可以在中心和缩放单元上创建，但只能由负责的中心或缩放单元（创建数据的部署）维护。
 >

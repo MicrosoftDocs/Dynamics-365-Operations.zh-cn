@@ -1,6 +1,6 @@
 ---
 title: 在功能位置安装资产
-description: 本主题介绍如何在资产管理中在功能位置安装资产。
+description: 本文介绍如何在资产管理中在功能位置安装资产。
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894492"
 ---
 # <a name="install-assets-on-functional-locations"></a>在功能位置安装资产
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775739"
 
  
 
-创建功能位置结构之后，下一步是在相关功能位置安装资产。 本主题介绍如何在资产管理中在这些功能位置安装资产。 有关如何创建资产的详细信息，请参阅[资产简介](../objects/introduction-to-objects.md)。
+创建功能位置结构之后，下一步是在相关功能位置安装资产。 本文介绍如何在资产管理中在这些功能位置安装资产。 有关如何创建资产的详细信息，请参阅[资产简介](../objects/introduction-to-objects.md)。
 
 如果已创建了资产结构，则必须将整个资产结构安装到功能位置。 因此，只能在功能位置选择父资产（即无父资产的顶级资产）。 还会将所有相关子资产安装到功能位置。 在功能位置安装资产时，可能会将功能位置的财务维度自动传输到这些资产，具体取决于为功能位置选择的功能位置类型的设置。 有关如何设置功能位置类型的详细信息，请参阅[功能位置类型](../setup-for-functional-locations/functional-location-types.md)。
 

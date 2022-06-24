@@ -1,6 +1,6 @@
 ---
 title: 替代生产中的默认材料预留原则
-description: 本主题介绍如何为每个物料模型组设置默认的预留原则，以可以将不同的预留原则自动应用于作为生产物料清单 (BOM) 或批次订单配方一部分的每个物料。
+description: 本文介绍如何为每个物料模型组设置默认的预留原则，以可以将不同的预留原则自动应用于作为生产物料清单 (BOM) 或批次订单配方一部分的每个物料。
 author: johanhoffmann
 ms.date: 12/10/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 11fd2c08c8730d50553b1fc6493908940a022c05
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907223"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>替代生产中的默认材料预留原则
 

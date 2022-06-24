@@ -1,6 +1,6 @@
 ---
 title: 创建和处理不符合项
-description: 此主题介绍如何执行不符合项管理，基于现有的质检订单。
+description: 本文介绍如何执行不符合项管理，基于现有的质检订单。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901957"
 ---
 # <a name="create-and-process-nonconformances"></a>创建和处理不符合项
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何执行不符合项管理，基于现有的质检订单。 通常，不符合项管理由质检员执行。 先决条件是，您必须有可用的质检订单。 （有关如何创建质检订单的信息，请参阅[检查货物质量](inspect-quality-goods.md)。）
+本文介绍如何执行不符合项管理，基于现有的质检订单。 通常，不符合项管理由质检员执行。 先决条件是，您必须有可用的质检订单。 （有关如何创建质检订单的信息，请参阅[检查货物质量](inspect-quality-goods.md)。）
 
 必须先在 **用户** 页的 **人员** 字段中为用户分配工作人员，然后用户才能够处理不符合项的审核。 而且，必须在用户的用户选项中将 **启用文档处理** 选项设置为 *是*，用户才能够使用文档注释。
 

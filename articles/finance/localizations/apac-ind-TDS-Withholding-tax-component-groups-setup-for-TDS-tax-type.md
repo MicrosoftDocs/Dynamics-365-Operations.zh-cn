@@ -1,6 +1,6 @@
 ---
 title: 设置 TDS 税务类型的预缴税金组分组
-description: 本主题说明如何为从源扣缴税款 (TDS) 税务类型设置预缴税金组分组，如租金和承包商。
+description: 本文说明如何为从源扣缴税款 (TDS) 税务类型设置预缴税金组分组，如租金和承包商。
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ad4ac16d2618a99ba8ea5c2da010eb8e96447775
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e7b856be18618573408388fe0acbd702aeb4bcc3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896245"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>设置 TDS 税务类型的预缴税金组分组
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为从源扣缴税款 (TDS) 税务类型设置预缴税金组分组，如 **租金** 和 **承包商**。
+本文说明如何为从源扣缴税款 (TDS) 税务类型设置预缴税金组分组，如 **租金** 和 **承包商**。
 
 1. 转到 **税 \> 设置 \> 预缴税金 \> 预缴税金组分组**。
 

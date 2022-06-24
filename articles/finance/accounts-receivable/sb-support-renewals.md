@@ -1,6 +1,6 @@
 ---
 title: 支持和续订
-description: 本主题说明如何设置和使用销售订单上的支持和续订流程来创建续订物料的计费计划。
+description: 本文说明如何设置和使用销售订单上的支持和续订流程来创建续订物料的计费计划。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896512"
 ---
 # <a name="support-and-renewals"></a>支持和续订 
 
-本主题说明在输入销售订单时如何输入支持物料或续订物料。 这些物料用于计算原始支持合同的费用金额和/或在订阅计费中创建计费计划时使用的续订金额。 例如，您的公司向客户销售服务器，并且您提供第一年的数据备份订阅以及每年续订该订阅的选项。 *支持物料* 是第一年的订阅，*续订物料* 是连续一年的续订。
+本文说明在输入销售订单时如何输入支持物料或续订物料。 这些物料用于计算原始支持合同的费用金额和/或在订阅计费中创建计费计划时使用的续订金额。 例如，您的公司向客户销售服务器，并且您提供第一年的数据备份订阅以及每年续订该订阅的选项。 *支持物料* 是第一年的订阅，*续订物料* 是连续一年的续订。
 
 您可以输入支持合同、续订合同或两者的信息。 当您输入支持合同信息时，只有支持物料会被添加到销售订单中。 当您输入续订合同信息时，续订物料用于创建计费计划。
 

@@ -1,6 +1,6 @@
 ---
 title: 检测被放弃的购物车并向客户发送通知
-description: 本主题介绍如何自定义 Microsoft Dynamics 365 Commerce 被放弃购物车连接器示例应用，以检测被放弃的购物车并向客户发送提醒电子邮件通知。
+description: 本文介绍如何自定义 Microsoft Dynamics 365 Commerce 被放弃购物车连接器示例应用，以检测被放弃的购物车并向客户发送提醒电子邮件通知。
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899202"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>检测被放弃的购物车并向客户发送通知
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何自定义 Microsoft Dynamics 365 Commerce 被放弃购物车连接器示例应用，以检测被放弃的购物车并向客户发送提醒电子邮件通知。
+本文介绍如何自定义 Microsoft Dynamics 365 Commerce 被放弃购物车连接器示例应用，以检测被放弃的购物车并向客户发送提醒电子邮件通知。
 
 通过被放弃购物车通知恢复收入和留住客户的能力是 Dynamics 365 Commerce 支持的一项重要功能。 通过自定义 Commerce 被放弃购物车连接器示例应用，零售商可以访问 Retail Server 上在零售商定义的时间窗口内未修改的购物车。 然后这些购物车可以被检索，利用产品和客户数据扩增，并被传递给可以生成电子邮件通知并将通知发送给客户的第三方电子邮件市场营销提供商。
 

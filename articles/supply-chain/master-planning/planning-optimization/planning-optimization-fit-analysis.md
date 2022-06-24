@@ -1,6 +1,6 @@
 ---
-title: 计划优化拟合分析
-description: 本主题说明如何根据计划优化功能的能力来验证当前的设置和数据。
+title: 计划优化适应分析
+description: 本文说明如何根据计划优化功能的能力来验证当前的设置和数据。
 author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 644593f263ed6675615c34855ec511a29f63b242
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889568"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 

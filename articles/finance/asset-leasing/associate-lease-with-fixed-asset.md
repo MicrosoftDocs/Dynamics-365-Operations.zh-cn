@@ -1,6 +1,6 @@
 ---
 title: 将固定资产与租赁关联
-description: 本主题说明如何将现有固定资产与新租赁相关联。
+description: 本文说明如何将现有固定资产与新租赁相关联。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895100"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>将固定资产与租赁关联
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题说明如何将现有固定资产与新租赁相关联。 将固定资产与租赁相关联时，初始确认时的使用权 (ROU) 资产价值将是固定资产的购置成本。
+本文说明如何将现有固定资产与新租赁相关联。 将固定资产与租赁相关联时，初始确认时的使用权 (ROU) 资产价值将是固定资产的购置成本。
 
 在将固定资产与租赁关联之前，必须在“固定资产”中为该固定资产创建一条记录。 然后，在 **租赁摘要** 页面上，您必须创建租赁并将资产链接到该租赁。
 

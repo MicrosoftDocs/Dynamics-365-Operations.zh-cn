@@ -1,6 +1,6 @@
 ---
 title: CONTAINS ER 函数
-description: 本主题提供有关 CONTAINS 电子申报 (ER) 函数如何使用的信息。
+description: 本文提供有关 CONTAINS 电子报告 (ER) 函数如何使用的信息。
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: AX 10.0.18
-ms.openlocfilehash: ae6c96b5754946ee971a8f47d4c618751d25f7e86fb9fb115861e97c5e6f536e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de009dc1bfd790689ef892c103eaffedb8aeb7d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900213"
 ---
 # <a name="contains-er-function"></a>CONTAINS ER 函数
 

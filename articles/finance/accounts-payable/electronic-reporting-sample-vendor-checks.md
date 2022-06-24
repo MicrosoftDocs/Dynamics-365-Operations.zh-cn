@@ -1,6 +1,6 @@
 ---
-title: 电子申报示例供应商支票
-description: 此主题提供有关如何使用电子申报示例支票格式的一般信息。
+title: 电子报告示例供应商支票
+description: 本文提供有关如何使用电子报告示例支票格式的一般信息。
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908174"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>电子申报示例供应商支票
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734535"
 
 ## <a name="what-check-formats-are-currently-supported"></a>目前支持哪些支票格式？
 
-应始终转至 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置** 的可用文件的当前列表。 下一部分“必须执行哪些设置？”包括一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
+应始终转至 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置** 的可用文件的当前列表。 下一部分“必须执行哪些设置？”包括一篇文章的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 Microsoft Dynamics 365 Finance 包括一个示例格式，其中支票位于顶部，后面是两个汇款部分。 它还包括一个示例格式，其中支票在中间，后面是两个汇款部分。 这些示例格式对应于 Deluxe 公司支票格式。
 

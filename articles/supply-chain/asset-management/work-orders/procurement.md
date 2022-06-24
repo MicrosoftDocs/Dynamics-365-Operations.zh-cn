@@ -1,6 +1,6 @@
 ---
 title: 采购
-description: 本主题介绍资产管理中的采购。
+description: 本文介绍资产管理中的采购。
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893633"
 ---
 # <a name="procurement"></a>采购
 

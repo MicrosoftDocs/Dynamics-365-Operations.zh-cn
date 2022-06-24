@@ -1,6 +1,6 @@
 ---
 title: 订阅计费中的收入和费用延期
-description: 本主题说明如何在订阅计费中设置收入和费用延期。
+description: 本文说明如何在订阅计费中设置收入和费用延期。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908087"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>订阅计费中的收入和费用延期
 
-本主题说明如何在订阅计费中设置和使用收入和费用延期。 延期计划始终基于并依赖于基础的原始文档或计费计划。 因为它们是基于默认值创建的，所以不能单独输入或创建。
+本文说明如何在订阅计费中设置和使用收入和费用延期。 延期计划始终基于并依赖于基础的原始文档或计费计划。 因为它们是基于默认值创建的，所以不能单独输入或创建。
 
 设置和使用收入和费用延期的流程会发生在多个页面上：
 

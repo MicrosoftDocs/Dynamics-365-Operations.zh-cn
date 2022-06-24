@@ -1,6 +1,6 @@
 ---
 title: 使用租赁审批工作流
-description: 本主题说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。
+description: 本文说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906433"
 ---
 # <a name="use-lease-approval-workflows"></a>使用租赁审批工作流
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。 工作流通过提供一组标准的审批步骤并分配审批流程的每个步骤的特定用户，帮助租赁审批的管理保持一致。 审批者可以批准租赁，拒绝租赁，申请更改租赁或将租赁分配给其他用户进行审批。 通过让您跟踪其状态和历史记录，工作流还可以提高审批过程的可见性。 此外，您还可以查看集中工作清单，该清单列出了分配给特定审核者的任务和审批。
+本文说明如何使用工作流审批资产租赁，以及如何跟踪工作流的状态和历史记录。 工作流通过提供一组标准的审批步骤并分配审批流程的每个步骤的特定用户，帮助租赁审批的管理保持一致。 审批者可以批准租赁，拒绝租赁，申请更改租赁或将租赁分配给其他用户进行审批。 通过让您跟踪其状态和历史记录，工作流还可以提高审批过程的可见性。 此外，您还可以查看集中工作清单，该清单列出了分配给特定审核者的任务和审批。
 
 在使用此过程之前，请确保至少已创建“租赁审批”工作流。 如果不存在工作流，请创建一个。 有关如何设置工作流的详细信息，请参阅[设置审批工作流](set-up-lease-wrkflw.md)。
 

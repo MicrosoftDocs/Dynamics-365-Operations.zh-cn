@@ -1,6 +1,6 @@
 ---
 title: 使用工序级和作业级计划来计划生产订单
-description: 此主题的重点是使用工序级排产和作业级排产计划生产订单。
+description: 本文重点介绍使用工序级排产和作业级排产计划生产订单。
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc91fe5aa398cd94e38beea017d6d60ecb44f17e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d82d5439e57c02ddc9db4222a946bd15f4ed67e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903918"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级计划来计划生产订单
 
 [!include [banner](../../includes/banner.md)]
 
-此主题的重点是使用工序级排产和作业级排产计划生产订单。 不使用工序级排产创建作业，而使用作业级排产创建。 创建此任务的演示数据公司是 USMF。 此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。
+本文重点介绍使用工序级排产和作业级排产计划生产订单。 不使用工序级排产创建作业，而使用作业级排产创建。 创建此任务的演示数据公司是 USMF。 此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。
 
 
 ## <a name="create-a-production-order"></a>创建生产订单

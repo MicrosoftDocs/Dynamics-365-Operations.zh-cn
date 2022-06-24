@@ -1,6 +1,6 @@
 ---
 title: 仓库管理现有条目清除作业
-description: 本主题介绍现有条目清除作业，该作业通过识别和删除相关但不需要的记录来帮助提高系统性能。
+description: 本文介绍现有条目清除作业，该作业通过识别和删除相关但不需要的记录来帮助提高系统性能。
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900497"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>仓库管理现有条目清除作业
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103855"
 
 用于计算现有库存量的查询的性能受所涉及表中的记录数的影响。 帮助提高性能的一种方法是减少数据库必须考虑的记录数。
 
-本主题介绍现有条目清除作业，该作业将删除 InventSum 和 WHSInventReserve 表中不需要的记录。 这些表存储已启用仓库管理处理的项目的现有信息。 （这些项目称为 WHS 项。）删除这些记录可以显著提高现有计算的性能。
+本文介绍现有条目清除作业，该作业将删除 InventSum 和 WHSInventReserve 表中不需要的记录。 这些表存储已启用仓库管理处理的项目的现有信息。 （这些项目称为 WHS 项。）删除这些记录可以显著提高现有计算的性能。
 
 ## <a name="what-the-cleanup-job-does"></a>清理作业做什么
 

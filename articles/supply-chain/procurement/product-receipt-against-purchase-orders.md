@@ -1,6 +1,6 @@
 ---
 title: 针对采购订单的物料收货
-description: 本主题介绍了用于将产品登记为已接收状态的各种选项。
+description: 本文介绍了用于将产品登记为已接收状态的各种选项。
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904034"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了用于将产品登记为已接收状态的各种选项。
+本文介绍了用于将产品登记为已接收状态的各种选项。
 
 产品收货是录制已收到所订购的产品的流程，以便可以处理采购订单 (PO) 以进行开票。 在某些情况下，产品经过预登记，其中在收到产品前记录来自供应商的其他信息。 当产品到达时，它们第一次被标记为 **已登记**。 在产品最后被标记为 **已接收** 前，它们可能经过其他流程，如质量管理。
 

@@ -1,6 +1,6 @@
 ---
 title: 意大利税控打印机集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中意大利的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中意大利的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909382"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>意大利税控打印机集成示例
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中意大利的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中意大利的会计整合示例。
 
 意大利的 Commerce 功能包括销售点 (POS) 与会计打印机的示例集成。 该示例将扩展[会计整合功能](fiscal-integration-for-retail-channel.md)，以便它使用 Epson 的 [Epson FP-90III 系列](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series)打印机，它可以使用会计 ePOS-Print API 通过 EpsonFPMate 网络服务在 Web 服务器模式下与财务打印机进行通信。 该示例仅支持 Registratore Telematico (RT) 模式。 该示例以源代码的形式提供，是 Retail 软件开发工具包 (SDK) 的一部分。
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903860"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
@@ -126,7 +126,7 @@ ms.locfileid: "7574297"
 4.  如果要求，请在 **政府标识** 字段中输入许可证编号或政府签发的其他身份证明。
 
 > [!NOTE]
-> 在 **应收账款参数** 窗体中，通常选择信用额度类型。 但是，如果信用额度类型设置为 **无**，则您还必须选择 **客户** 窗体中的 **强制信用额度** 复选框以便对照客户的余额检查客户的信用额度。 有关信用额度类型的详细信息，请参见本主题中的“可以为哪些单据和流程检查信用额度？” 。 
+> 在 **应收账款参数** 窗体中，通常选择信用额度类型。 但是，如果信用额度类型设置为 **无**，则您还必须选择 **客户** 窗体中的 **强制信用额度** 复选框以便对照客户的余额检查客户的信用额度。 有关信用额度类型的详细信息，请参见本文中的“可以为哪些单据和流程检查信用额度？” 。 
 
 **如何手动检查销售订单上的信用额度？**
 

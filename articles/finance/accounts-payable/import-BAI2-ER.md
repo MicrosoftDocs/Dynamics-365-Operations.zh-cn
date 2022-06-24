@@ -1,6 +1,6 @@
 ---
 title: 使用电子报告设置高级银行对帐导入
-description: 本主题说明如何使用电子报告设置高级银行对帐导入流程。
+description: 本文说明如何使用电子报告设置高级银行对帐导入流程。
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889111"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>使用电子报告设置高级银行对帐导入
 
 [!include [banner](../includes/banner.md)]
 
-高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本主题介绍如何设置银行对帐单的导入功能。 银行对账单导入设置因您电子银行对账单的格式的不同而不同。 Microsoft Dynamics 365 Finance 支持三种银行对帐单格式︰ISO20022、MT940 和 BAI2。 
+高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。 银行对账单导入设置因您电子银行对账单的格式的不同而不同。 Microsoft Dynamics 365 Finance 支持三种银行对帐单格式︰ISO20022、MT940 和 BAI2。 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>设置电子报告配置
 

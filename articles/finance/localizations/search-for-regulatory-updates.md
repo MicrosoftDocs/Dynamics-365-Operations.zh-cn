@@ -1,6 +1,6 @@
 ---
 title: 搜索特定于国家/地区的监管更新
-description: 本主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布国家/地区特定监管更新的链接。
+description: 本文提供 Microsoft Dynamics 365 Finance 的已计划和已发布国家/地区特定监管更新的链接。
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896173"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>搜索特定于国家/地区的监管更新
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供 Microsoft Dynamics 365 Finance 的已计划和已发布国家/地区特定监管更新的链接。 您必须登录 Microsoft Dynamics Lifecycle Services (LCS) 才能访问此信息。
+本文提供 Microsoft Dynamics 365 Finance 的已计划和已发布国家/地区特定监管更新的链接。 您必须登录 Microsoft Dynamics Lifecycle Services (LCS) 才能访问此信息。
 
 | 国家或地区    | LCS 问题搜索中的问题 |
 |----------------------|---------------------------|

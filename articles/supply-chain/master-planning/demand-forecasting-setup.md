@@ -1,6 +1,6 @@
 ---
 title: 需求预测设置
-description: 本主题介绍为准备需求预测您必须执行的设置任务。
+description: 本文介绍为准备需求预测您必须执行的设置任务。
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900993"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置需求预测。  
+本文介绍如何设置需求预测。  
 
 ## <a name="item-allocation-keys"></a>物料分配参数
 
@@ -245,7 +245,7 @@ Supply Chain Management 使用 Azure 机器学习服务计算需求预测，您�
 1. 按照屏幕说明完成向导。 操作时请记住以下几点：
 
     - 除非此列表中的其他要点推荐不同的设置，否则请使用默认设置。
-    - 务必选择与部署 Supply Chain Management 实例的区域相匹配的地理区域。 否则，您的某些数据可能会越过区域边界。 有关详细信息，请参阅本主题后面的[隐私声明](#privacy)。
+    - 务必选择与部署 Supply Chain Management 实例的区域相匹配的地理区域。 否则，您的某些数据可能会越过区域边界。 有关详细信息，请参阅本文后面的[隐私声明](#privacy)。
     - 使用专用资源，如资源组、存储帐户、容器注册表、Azure 密钥保管库和网络资源。
     - 在向导的 **设置 Azure 机器学习服务连接参数** 页面上，您必须提供存储帐户名称。 使用专门用于需求预测的帐户。 需求预测输入和输出数据将存储在此存储帐户中。
 

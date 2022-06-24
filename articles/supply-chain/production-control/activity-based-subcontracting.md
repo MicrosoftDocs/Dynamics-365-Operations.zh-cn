@@ -1,6 +1,6 @@
 ---
 title: 基于活动的转包
-description: 此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
+description: 本文介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890732"
 ---
 # <a name="activity-based-subcontracting"></a>基于活动的转包
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
+本文介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
 
 在 Microsoft Dynamics 365 Supply Chain Management 中，可通过两种方法转包生产订单和 lean manufacturing。 在 lean manufacturing 方法中，转包工作建模为与生产流活动有关的服务。 已引入了名称为 **直接外包** 的一种特殊类型的成本组类型，并且转包服务不再属于物料清单 (BOM)。 转包工作的成本核算已完全集成到 lean manufacturing 的成本计算解决方案。
 

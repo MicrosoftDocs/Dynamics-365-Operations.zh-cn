@@ -1,6 +1,6 @@
 ---
 title: 消费者价格指数计划
-description: 本主题说明如何创建从 Internet 获取的消费者价格指数 (CPI) 计划列表，以帮助确定订阅计费中的升级费用。
+description: 本文说明如何创建从 Internet 获取的消费者价格指数 (CPI) 计划列表，以帮助确定订阅计费中的升级费用。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904864"
 ---
 # <a name="consumer-price-index-schedule"></a>消费者价格指数计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何创建、删除、查看和处理消费者价格指数 (CPI) 计划。 CPI 计划可用于确定您添加为计费计划行的消费品和服务的价格。 然后，CPI 计划可以与计费计划中的升级和折扣定价一起使用，或者可以进行手动处理来更新计费计划中的计费金额。 您可以手动输入 CPI 计划，也可以使用 CPI 计划组合实体导入这些计划。
+本文说明如何创建、删除、查看和处理消费者价格指数 (CPI) 计划。 CPI 计划可用于确定您添加为计费计划行的消费品和服务的价格。 然后，CPI 计划可以与计费计划中的升级和折扣定价一起使用，或者可以进行手动处理来更新计费计划中的计费金额。 您可以手动输入 CPI 计划，也可以使用 CPI 计划组合实体导入这些计划。
 
 要添加 CPI 计划，请按以下步骤操作。
 

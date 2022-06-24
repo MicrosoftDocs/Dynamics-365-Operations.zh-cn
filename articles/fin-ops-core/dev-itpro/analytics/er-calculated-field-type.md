@@ -1,8 +1,8 @@
 ---
 title: 支持对计算字段类型的 ER 数据源执行参数化调用
-description: 此主题提供有关如何对 ER 数据源使用计算字段类型的信息。
+description: 本文提供有关如何对 ER 数据源使用计算字段类型的信息。
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934696"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何使用 **计算字段** 类型设计电子申报 (ER) 数据源。 此数据库中可以包含一个 ER 表达式，其在执行时由调用此数据源的绑定中配置的参数自变量的值控制。 通过配置此类数据源的参数化调用，可以在大量绑定中重复使用一个数据源，从而减少必须在 ER 模型映射或 ER 格式中配置的数据源的总数。 还可以简化配置的 ER 组件，从而降低维护成本和其他使用者的使用成本。
+本文介绍如何使用 **计算字段** 类型设计电子报告 (ER) 数据源。 此数据库中可以包含一个 ER 表达式，其在执行时由调用此数据源的绑定中配置的参数自变量的值控制。 通过配置此类数据源的参数化调用，可以在大量绑定中重复使用一个数据源，从而减少必须在 ER 模型映射或 ER 格式中配置的数据源的总数。 还可以简化配置的 ER 组件，从而降低维护成本和其他使用者的使用成本。
 
 ## <a name="prerequisites"></a>先决条件
-要完成本主题中的示例，您必须具有以下访问权限：
+要完成本文中的示例，您必须具有以下访问权限：
 
 - 访问以下角色之一：
 
@@ -46,10 +46,10 @@ ms.locfileid: "6349152"
 
 | **内容**                           | **文件名**                                        |
 |---------------------------------------|------------------------------------------------------|
-| 示例 ER 数据模型配置    | [用于了解参数化调用的模型.版本.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| 示例 ER 元数据配置      | [用于了解参数化调用的元数据.版本.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| 示例 ER 模型映射配置 | [用于了解参数化调用的映射.版本.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| 示例 ER 格式配置        | [用于了解参数化调用的格式.版本.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| 示例 ER 数据模型配置    | [用于了解参数化调用的模型.版本.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| 示例 ER 元数据配置      | [用于了解参数化调用的元数据.版本.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| 示例 ER 模型映射配置 | [用于了解参数化调用的映射.版本.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| 示例 ER 格式配置        | [用于了解参数化调用的格式.版本.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>登录您的 RCS 实例
 在此示例中，将为示例公司 Litware 公司创建一个配置。首先必须在 RCS 中完成[创建配置提供程序并将其标记为有效](tasks/er-configuration-provider-mark-it-active-2016-11.md)过程中的步骤：
@@ -306,7 +306,7 @@ ms.locfileid: "6349152"
 可运行初始 ER 格式和改进的 ER 格式以确保配置的参数化计算字段正确工作。
 
 ### <a name="import-er-configurations"></a>导入 ER 配置
-可通过使用 **RCS** 类型的 ER 存储库从 RCS 导入已审查的配置。 如果已经执行了[从 Regulatory Configuration Service (RCS) 导入电子申报 (ER) 配置](rcs-download-configurations.md)主题中的步骤，请使用配置的 ER 存储库将本主题前文讨论的配置导入到您的环境中。 否则，请执行以下步骤：
+可通过使用 **RCS** 类型的 ER 存储库从 RCS 导入已审查的配置。 如果已经执行了[从 Regulatory Configuration Services (RCS) 导入电子报告 (ER) 配置](rcs-download-configurations.md)一文中的步骤，请使用配置的 ER 存储库将本文前面讨论的配置导入到您的环境中。 否则，请执行以下步骤：
 
 1. 选择 **DEMF** 公司，然后在默认仪表板中选择 **电子申报**。
 2. 选择 **申报配置**。

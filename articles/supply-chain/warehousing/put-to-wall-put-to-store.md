@@ -1,6 +1,6 @@
 ---
 title: 放置 - 存放
-description: 本主题提供有关“放置 - 存放”功能的信息。 通过此功能，您可以根据可配置的条件处理必须将产品合并到预装箱暂存区的情况。 它有助于减少领料时间，因为它允许领料到单个目标牌照，并且可以比群集领料使用更多放置位置。
+description: 本文提供有关“放置 - 存放”功能的信息。 通过此功能，您可以根据可配置的条件处理必须将产品合并到预装箱暂存区的情况。 它有助于减少领料时间，因为它允许领料到单个目标牌照，并且可以比群集领料使用更多放置位置。
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909634"
 ---
 # <a name="put-to-wall---put-to-store"></a>放置 - 存放
 

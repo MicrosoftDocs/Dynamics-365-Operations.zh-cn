@@ -1,6 +1,6 @@
 ---
 title: 配置电子邮件渠道
-description: 本主题介绍如何配置电子邮件渠道以接收电子发票。
+description: 本文介绍如何配置电子邮件渠道以接收电子发票。
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6a5896a033212cf0f29f686eec0ab6fb3bc1d2a6
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 9227b032ffe896ad6a67962e5047fd797a883ae1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902376"
 ---
 # <a name="configure-an-email-channel"></a>配置电子邮件渠道
 

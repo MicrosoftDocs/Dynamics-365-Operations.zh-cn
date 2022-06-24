@@ -1,6 +1,6 @@
 ---
 title: 包装材料和费用
-description: 此主题介绍按特定间隔支付给回收公司的包装材料费用。
+description: 本文介绍按特定间隔支付给回收公司的包装材料费用。
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d07365a5022a67b8868232fbbb04f610701009
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 584bddeaedd461803bb9d62421cbb646178164a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901725"
 ---
 # <a name="packing-materials-and-fees"></a>包装材料和费用
 

@@ -1,6 +1,6 @@
 ---
 title: 通过任务录制创建文档或培训
-description: 本主题介绍任务录制器和任务指南是什么，如何创建录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
+description: 本文介绍任务录制器和任务指南是什么，如何创建录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891805"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>通过任务录制创建文档或培训
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070518"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
+本文介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 
 > [!IMPORTANT]
 > 您可以录制自己的 Dynamics 365 Human Resources 任务指南，但暂时不能将其保存到业务流程建模器 (BPM) 库或从“帮助”窗格中打开它。 您可以将其保存到本地或网络位置，然后使用任务录制器打开并播放。 

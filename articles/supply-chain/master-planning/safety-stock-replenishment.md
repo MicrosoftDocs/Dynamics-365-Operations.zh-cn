@@ -1,6 +1,6 @@
 ---
 title: 物料的安全存货履行
-description: 此主题讨论安全存货履行以及如何设置物料的安全存货数量。
+description: 本文讨论安全存货履行以及如何设置物料的安全存货数量。
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887390"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
@@ -88,7 +88,7 @@ ms.locfileid: "8672057"
 以下方案演示此键如何工作以及它的不同值之间的区别。
 
 > [!NOTE]
-> 在此主题中的所有图示中，x 轴表示库存，y 轴表示天数，条形表示库存水平，箭头表示交易记录，例如销售订单行、采购订单行或计划订单。
+> 在本文中的所有图示中，x 轴表示库存，y 轴表示天数，条形表示库存水平，箭头表示交易记录，例如销售订单行、采购订单行或计划订单。
 
 [![安全存货履行的常见方案。](media/Scenario1.png)](media/Scenario1.png)
 

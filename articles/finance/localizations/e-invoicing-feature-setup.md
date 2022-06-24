@@ -1,6 +1,6 @@
 ---
 title: 使用功能设置
-description: 本主题说明如何设置电子开票功能。
+description: 本文说明如何设置电子开票功能。
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904316"
 ---
 # <a name="work-with-feature-setups"></a>使用功能设置
 

@@ -1,6 +1,6 @@
 ---
 title: 补偿客户
-description: 本主题说明如何为一组客户创建偿还交易记录。
+description: 本文说明如何为一组客户创建偿还交易记录。
 author: JodiChristiansen
 ms.date: 09/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d464dd23d70e1a340211eb83828550d807a543
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 892b089edb16ba560f588c086d37faafdf16958d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891773"
 ---
 # <a name="reimburse-customers"></a>补偿客户
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为一组客户创建偿还交易记录。 如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。 
+本文说明如何为一组客户创建偿还交易记录。 如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。 
 
 下表显示必须先就绪然后才能开始的先决条件。
 

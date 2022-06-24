@@ -1,6 +1,6 @@
 ---
 title: 通过租赁导入框架管理租赁
-description: 本主题说明如何使用租赁导入框架同时调整多个租赁。
+description: 本文说明如何使用租赁导入框架同时调整多个租赁。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894955"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>通过租赁导入框架管理租赁
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用租赁导入框架一个步骤调整多个租赁。 通过使用此功能，您可以节省时间，还可以通过减少人为错误的几率来确保进行更准确的调整。 此外，此功能还可以连接 Microsoft Dynamics 365 Finance 与外部数据实体来高效上传数据。
+本文说明如何使用租赁导入框架一个步骤调整多个租赁。 通过使用此功能，您可以节省时间，还可以通过减少人为错误的几率来确保进行更准确的调整。 此外，此功能还可以连接 Microsoft Dynamics 365 Finance 与外部数据实体来高效上传数据。
 
 以下数据实体可用于将资产租赁与外部系统集成：
 

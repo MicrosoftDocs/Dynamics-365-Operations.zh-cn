@@ -1,6 +1,6 @@
 ---
 title: 现金预测
-description: 本主题描述现金流预测功能。
+description: 本文描述现金流预测功能。
 author: ShivamPandey-msft
 ms.date: 12/21/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: dde0ba43b4878aff0bf2d3e77411a9d615c8c8b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901422"
 ---
 # <a name="cash-forecast"></a>现金预测
 

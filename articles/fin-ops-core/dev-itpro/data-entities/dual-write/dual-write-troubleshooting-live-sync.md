@@ -1,6 +1,6 @@
 ---
 title: 解决实时同步问题
-description: 本主题提供故障排除信息，可以帮助您解决实时同步问题。
+description: 本文提供故障排除信息，可以帮助您解决实时同步问题。
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896696"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -22,10 +22,10 @@ ms.locfileid: "8062355"
 
 
 
-本主题提供财务和运营应用与 Microsoft Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决实时同步问题的信息。
+本文提供财务和运营应用与 Microsoft Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决实时同步问题的信息。
 
 > [!IMPORTANT]
-> 本主题解决的某些问题可能需要系统管理员角色或 Azure Active Directory (Azure AD) 租户管理员凭据。 每一节说明是否需要特定角色或特定凭据。
+> 本文解决的某些问题可能需要系统管理员角色或 Azure Active Directory (Azure AD) 租户管理员凭据。 每一节说明是否需要特定角色或特定凭据。
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>实时同步在您创建行时显示错误
 

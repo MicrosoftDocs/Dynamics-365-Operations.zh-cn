@@ -1,6 +1,6 @@
 ---
 title: 业务文档管理概览
-description: 本主题介绍有关如何使用 ER 框架的业务文档管理功能的信息。
+description: 本文介绍有关如何使用 ER 框架的业务文档管理功能的信息。
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903608"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 
@@ -50,7 +50,7 @@ ms.locfileid: "7986243"
 
 将来的发行版中将提供更多报表。 将单独发送有关更多报告的特殊通知。 要了解如何查看当前可用报表的列表，请参阅下面的 [Finance 中发布的支持可配置业务文档的 ER 配置列表](#list-of-configurations-cbd)一节。
 
-若要了解有关此功能的详细信息，请完成本主题中的示例。
+若要了解有关此功能的详细信息，请完成本文中的示例。
 
 ## <a name="configure-er-parameters"></a>配置 ER 参数
 
@@ -231,7 +231,7 @@ ms.locfileid: "7986243"
 - 已为其分配了 **系统管理员** 角色的用户。
 - 已为其分配了为执行 **管理业务文档模板**（AOT 名称为 **ERBDManageTemplates**）职责而配置的任何角色的用户。
 
-在业务文档管理工作区中使用以下过程编辑普通发票模板。 完成此过程之前，必须先完成本主题中前文的所有过程。
+在业务文档管理工作区中使用以下过程编辑普通发票模板。 完成此过程之前，必须先完成本文前面的所有过程。
 
 1. 以具有业务文档管理工作区访问权限的用户的身份登录。
 2. 打开业务文档管理工作区。

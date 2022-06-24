@@ -1,6 +1,6 @@
 ---
 title: 资产文档
-description: 本主题介绍资产管理中的资产文档。
+description: 本文介绍资产管理中的资产文档。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899460"
 ---
 # <a name="asset-documents"></a>资产文档
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722479"
 
  
 
-本主题介绍资产管理中的资产文档。
+本文介绍资产管理中的资产文档。
 
 在资产管理中，可设置文档，以便将其与作业类型、资产制造商、资产类型或资产之类自动关联。 此功能在发布了更新后的文档版本时非常有用。 在此情况下，只需将更新后的文档放到您的 Supply Chain Management 文档所用标准位置，然后将该文档附加到您已创建的资产文档记录。 然后可以从 **所有资产**、**有效资产**、**我的有效资产**、**所有工作订单** 和 **有效工作订单作业** 菜单项访问更新后的文档。 将文档附加到资产文档记录的过程使用标准文档处理系统。
 

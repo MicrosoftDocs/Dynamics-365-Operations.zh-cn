@@ -1,6 +1,6 @@
 ---
 title: 为财务和运营应用配置帮助体验
-description: 此主题介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。
+description: 本文介绍某些 Microsoft Dynamics 365 应用的帮助系统组件。
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900120"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>为财务和运营应用配置帮助体验
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071000"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-在此主题中，将概述财务和运营应用（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）的帮助系统组件。 此主题还介绍如何连接这些组件和提供有关自定义帮助创建流程的摘要。
+在本文中，将概述财务和运营应用（如 Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）的帮助系统组件。 本文还介绍如何连接这些组件和提供有关自定义帮助创建流程的摘要。
 
 ## <a name="help-architecture"></a>帮助体系结构
 

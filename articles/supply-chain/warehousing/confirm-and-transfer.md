@@ -1,6 +1,6 @@
 ---
 title: 确认并转移
-description: 本主题介绍如何使用“确认并转移”功能，用户可在完成与负荷关联的所有工作之前，使用此功能将这些负荷运出仓库。
+description: 本文介绍如何使用“确认并转移”功能，用户可在完成与负荷关联的所有工作之前，使用此功能将这些负荷运出仓库。
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900555"
 ---
 # <a name="confirm-and-transfer"></a>确认并转移
 
@@ -55,11 +55,11 @@ ms.locfileid: "8675478"
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>打开或关闭确认并转移功能
 
-要使用本主题中描述的功能，必须为您的系统打开 *确认并转移* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *确认并转移* 功能来打开或关闭此功能。
+要使用本文中描述的功能，必须为您的系统打开 *确认并转移* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *确认并转移* 功能来打开或关闭此功能。
 
 ## <a name="set-up-confirm-and-transfer"></a>设置确认并转移功能
 
-若要使用 *确认并转移* 功能，必须在每个相关负荷模板中开启该功能。 除外，还可能希望准备工作模板以支持此功能，具体取决于要求。 如果要完成本主题后文提供的示例场景，请按照本部分中的说明设置系统。 （此场景基于 **USMF** 演示数据。）
+若要使用 *确认并转移* 功能，必须在每个相关负荷模板中开启该功能。 除外，还可能希望准备工作模板以支持此功能，具体取决于要求。 如果要完成本文后面提供的示例场景，请按照本部分中的说明设置系统。 （此场景基于 **USMF** 演示数据。）
 
 ### <a name="prepare-your-load-templates"></a>准备负荷模板
 
@@ -69,7 +69,7 @@ ms.locfileid: "8675478"
 
 ### <a name="prepare-your-work-templates"></a>准备工作模板
 
-任何情况下均不需要进行此设置。 此处的示例可以确保按装运分解工作以支持本主题后文提供的示例场景。 还可以通过其他方法取得此结果。
+任何情况下均不需要进行此设置。 此处的示例可以确保按装运分解工作以支持本文后面提供的示例场景。 还可以通过其他方法取得此结果。
 
 1. 转到 **仓库管理 \> 设置 \> 工作 \> 工作模板**。
 1. 在页面上部的网格中，选择要在其中设置 *确认并转移* 功能的现有工作模板。 （如果在使用 **USMF** 演示数据，请选择 **51 Pick to stage** 工作模板。）也可以创建新的工作模板。

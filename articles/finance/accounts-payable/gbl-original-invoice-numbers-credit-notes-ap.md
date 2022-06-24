@@ -1,6 +1,6 @@
 ---
 title: 引用贷方通知单中的原始发票（供应商发票）
-description: 本主题介绍如何在创建贷方通知单时创建对原始发票的引用。
+description: 本文介绍如何在创建贷方通知单时创建对原始发票的引用。
 author: v-oloski
 ms.date: 09/28/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901480"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>引用贷方通知单中的原始发票（供应商发票）
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何在创建贷方通知单时创建对原始发票的引用。
+本文介绍如何在创建贷方通知单时创建对原始发票的引用。
 
 ## <a name="prerequisites"></a>先决条件
 
 在 **功能管理** 工作区中，启用 **为供应商发票启用贷方开票** 功能。 有关更多信息，请参见[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
-本主题中所述的功能适用于以下业务单据。
+本文中所述的功能适用于以下业务单据。
 
 **应付帐款：**
 

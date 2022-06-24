@@ -1,6 +1,6 @@
 ---
 title: 调整基于 AI-ML 的产品建议结果
-description: 此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。
+description: 本文介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74fa013d44e0f113bdf0ce0ca9efeb943926e9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901694"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>调整基于 AI-ML 的产品建议结果
 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。 
+本文介绍如何基于人工智能-机器学习 (AI-ML) 针对您的业务调整产品建议结果。 
 
 启用产品建议之后，默认设置将生效；这些参数适用于许多需要的许多工作。 最好计划花一些时间评估结果是否符合产品的销售动态。 建议在更改参数前根据需要评估一些天的结果，之后再次测试。 
 

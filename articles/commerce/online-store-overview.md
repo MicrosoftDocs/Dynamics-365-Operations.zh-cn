@@ -1,6 +1,6 @@
 ---
-title: 电子商务站点概述
-description: 本主题概述了 Microsoft Dynamics 365 Commerce 中对电子商务站点的支持。
+title: 电子商务站点概览
+description: 本文概述了 Microsoft Dynamics 365 Commerce 中对电子商务站点的支持。
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899113"
 ---
 # <a name="e-commerce-site-overview"></a>电子商务站点概览
 
 [!include [banner](includes/banner.md)]
 
-本主题概述了 Microsoft Dynamics 365 Commerce 中对电子商务站点的支持。 它包含有关如何在 Dynamics 365 Commerce 中初始化和管理电子商务在线商店的信息。 另外还提供了有关在线商店的详细信息以及有关如何设置和配置电子商务站点的详细信息的链接。 尽管本主题涵盖许多基础知识，但并未涵盖设置生产电子商务站点所需的所有内容。 可在 Dynamics 365 Commerce 文档中找到更多高级主题。
+本文概述了 Microsoft Dynamics 365 Commerce 中对电子商务站点的支持。 它包含有关如何在 Dynamics 365 Commerce 中初始化和管理电子商务在线商店的信息。 另外还提供了有关在线商店的详细信息以及有关如何设置和配置电子商务站点的详细信息的链接。 尽管本文涵盖很多基础知识，但并未涵盖设置生产电子商务站点所需的所有内容。 可在 Dynamics 365 Commerce 文档中找到更多高级文章。
 
 ## <a name="online-store-channel"></a>在线商店渠道
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce 使用 Azure Active Directory (Azure AD) 企业对消费�
 
 ## <a name="overview-of-the-default-site-pages"></a>默认站点页面概述
 
-**默认** 和 **Fabrikam** 站点包括预配置的模板、片段和页面，以帮助您入门。 有关详细信息，请参阅以下主题：
+**默认** 和 **Fabrikam** 站点包括预配置的模板、片段和页面，以帮助您入门。 有关详细信息，请参阅以下文章：
 
 - [主页概览](quick-tour-home-page.md)
 - [产品详细信息页面概述](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Dynamics 365 Commerce 使用 Azure Active Directory (Azure AD) 企业对消费�
 
 ## <a name="manage-site-settings"></a>管理站点设置
 
-有关如何管理站点设置的信息，请参阅以下主题：
+有关如何管理站点设置的信息，请参阅以下文章：
 
 - [管理电子商务用户和角色](manage-ecommerce-users-roles.md)
 - [站点的搜索引擎优化 (SEO) 注意事项](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Dynamics 365 Commerce 使用 Azure Active Directory (Azure AD) 企业对消费�
 
 ## <a name="manage-site-content"></a>管理站点内容
 
-有关如何管理站点内容的信息，请参阅以下主题：
+有关如何管理站点内容的信息，请参阅以下文章：
 
 - [页面模型词汇表](page-elements-overview.md)
 - [文档状态和生命周期](document-states-overview.md)

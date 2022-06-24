@@ -1,30 +1,24 @@
 ---
 title: 促进变体和完成试验
-description: 本主题介绍了如何在 Dynamics 365 Commerce 中促进成功的变体和完成试验。
+description: 本文介绍了如何在 Dynamics 365 Commerce 中促进成功的变体和完成试验。
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738738"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942729"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>促进变体和完成试验
 
-本主题描述了如何促进在试验中产生最佳结果的变体，以及如何完成试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的主题中介绍。
+本文描述了如何促进在试验中产生最佳结果的变体，以及如何完成试验。 下图显示了在 Dynamics 365 Commerce 中的电子商务网站上设置和运行试验所涉及的所有步骤。 其他步骤在单独的文章中介绍。
 
 [![试验用户旅程 - 审查和完成。](./media/experimentation_review_complete.svg)](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ ms.locfileid: "6738738"
 ## <a name="delete-your-experiment"></a>删除试验
 虽然不需要在 Commerce 中删除完成的试验，但您可以选择删除它以节省空间或清理工作区。 
 
-若要在 Commerce 站点构建器中删除试验，请按照以下步骤操作。
+若要在 Commerce 站点构建器中删除已完成的试验，请按照以下步骤操作。
 
 1. 选择左侧导航窗格中的 **试验**，然后选择试验。 
     > [!NOTE]

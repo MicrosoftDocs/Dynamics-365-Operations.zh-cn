@@ -1,6 +1,6 @@
 ---
 title: 具有多个客户或供应商记录的一个凭证
-description: 此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 Finance 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。
+description: 本文概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 Finance 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889082"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
 [!include [banner](../includes/banner.md)]
 
-此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。 
+本文概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。 
 
 对多个客户或供应商使用一个凭证的一些常见示例包括在客户之间转移余额，以及同一组织中的客户与供应商之间的净余额结算。 
 
@@ -35,7 +35,7 @@ ms.locfileid: "6737033"
 -   使用包含多个客户或供应商的不具有对方会计科目的多行凭证。
 -   输入科目和对方科目为供应商/供应商、客户/客户、供应商/客户或客户/供应商的凭证。
 
-此主题说明对具有多个客户或供应商的一个凭证过帐时如何处理结算。 此外，此主题还提供了帮助您了解如何避免使用具有多个客户或供应商的一个凭证的解决方法。 具体而言，提供了一些示例说明由于使用具有多个客户或供应商的一个凭证而受到影响的两种常见的结算方案：
+本文说明对具有多个客户或供应商的一个凭证过帐时如何处理结算。 此外，本文还提供了帮助您了解如何避免使用具有多个客户或供应商的一个凭证的解决方法。 具体而言，提供了一些示例说明由于使用具有多个客户或供应商的一个凭证而受到影响的两种常见的结算方案：
 
 -   现金折扣会计
 -   重估会计

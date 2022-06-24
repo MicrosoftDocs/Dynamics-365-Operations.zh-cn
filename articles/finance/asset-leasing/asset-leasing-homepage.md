@@ -1,6 +1,6 @@
 ---
 title: 资产租赁主页
-description: 本主题概述资产租赁文档，并提供了特定主题的链接。
+description: 本文概述资产租赁文档，并提供了特定主题的链接。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889140"
 ---
 # <a name="asset-leasing-home-page"></a>资产租赁主页
 
 [!include [banner](../includes/banner.md)]
 
-本主题列出了资产租赁的可用帮助主题，并包括特定主题的链接。 
+本文列出了资产租赁的可用帮助主题，并包括特定主题的链接。 
 
 资产租赁是 Microsoft Dynamics 365 Finance 中用于管理、跟踪和自动执行租赁资产的财务交易记录的高级功能。 资产租赁符合国际会计标准 (IFRS 16) 和 US GAAP 标准 (ASC 842)。 资产租赁捕获和处理有关租赁的信息，并帮助生成整个租赁生命周期的日记帐分录，从租赁的初始确认、月日记帐分录到减损和终止。
 
 此功能只有在系统中开启之后才能使用。 管理员可以使用 **功能管理** 工作区检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，找到并选择名为 **资产租赁** 的功能，然后单击 **立即启用** 按钮。
 
 ## <a name="asset-leasing-topics"></a>资产租赁主题
-以下主题可用于帮助配置和使用资产租赁。 
+以下文章可用于帮助配置和使用资产租赁。 
 
- - [资产租赁入门](asset-leasing-quick-start.md) - 本主题描述了资产租赁的一般功能，并列出并定义了软件和文档中使用的术语。
+ - [资产租赁入门](asset-leasing-quick-start.md) - 本文描述了资产租赁的一般功能，并列出并定义了软件和文档中使用的术语。
  
  ### <a name="set-up-asset-leasing"></a>设置资产租赁
  这组主题可以帮助您以最适合您组织业务状况的方式配置资产租赁。  
@@ -77,7 +77,7 @@ ms.locfileid: "8710376"
  - [通过租赁导入框架管理租赁](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>资产租赁报告
-本主题列出了资产租赁的可用报表。 
+本文列出了资产租赁的可用报表。 
 
  - [资产租赁报表](asset-leasing-rprts.md)
  

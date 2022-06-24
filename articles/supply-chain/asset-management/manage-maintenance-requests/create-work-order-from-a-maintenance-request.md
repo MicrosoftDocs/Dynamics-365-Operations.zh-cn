@@ -1,6 +1,6 @@
 ---
 title: 根据维护请求创建工作订单
-description: 本主题说明如何在资产管理中根据维护请求创建工作订单。
+description: 本文说明如何在资产管理中根据维护请求创建工作订单。
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909692"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>根据维护请求创建工作订单
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726913"
  
 
 
-创建了维护请求之后，可将其轻松转化为工作订单。 本主题介绍处理维护请求，同时更新多个维护请求，然后同时为多个维护请求创建一个工作订单的最快方法。 在 **有效维护请求** 或 **我的功能位置维护请求** 页，也可以一次处理一个维护请求，并将一个维护请求转化为工作订单。
+创建了维护请求之后，可将其轻松转化为工作订单。 本文介绍处理维护请求，同时更新多个维护请求，然后同时为多个维护请求创建一个工作订单的最快方法。 在 **有效维护请求** 或 **我的功能位置维护请求** 页，也可以一次处理一个维护请求，并将一个维护请求转化为工作订单。
 
 > [!NOTE]
 > 每个维护请求只能与一个工作订单关联。 但是，一个工作订单中可以包含多个维护请求，即使这些维护请求具有不同资产也不例外。

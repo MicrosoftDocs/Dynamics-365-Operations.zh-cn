@@ -1,6 +1,6 @@
 ---
 title: 为 Warehouse Management 移动应用分配步骤图标和标题
-description: 本主题介绍如何为 Warehouse Management 移动应用的新任务流或自定义任务流分配步骤图标和标题。
+description: 本文介绍如何为 Warehouse Management 移动应用的新任务流或自定义任务流分配步骤图标和标题。
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890587"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用分配步骤图标和标题
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为 Warehouse Management 移动应用的新任务流或自定义任务流分配步骤图标和步骤标题。
+本文介绍如何为 Warehouse Management 移动应用的新任务流或自定义任务流分配步骤图标和步骤标题。
 
 下图显示了 Warehouse Management 移动应用中步骤图标和标题的显示方式。
 
@@ -29,7 +29,7 @@ ms.locfileid: "8103305"
 
 ## <a name="turn-this-feature-on-or-off"></a>打开或关闭此功能
 
-要使用本主题介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
+要使用本文介绍的功能，必须为您的系统打开 *新仓库应用的用户设置、图标和步骤标题* 功能。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *新仓库应用的用户设置、图标和步骤标题* 功能来打开或关闭此功能。
 
 ## <a name="standard-step-ids-classes-and-icons"></a>标准步骤 ID、类和图标
 
@@ -39,7 +39,7 @@ ms.locfileid: "8103305"
 
 下表列出了当前可用的每个步骤 ID，以及对应的步骤类。 主输入字段的控件名称用作步骤 ID。
 
-有关演示如何使用这些步骤 ID 和类的示例，请参阅本主题后面[示例：为自定义流分配步骤图标和标题](#example)一节中的 `WHSMobileAppStepInfoBuilder.stepId()` 方法的实现。
+有关演示如何使用这些步骤 ID 和类的示例，请参阅本文后面[示例：为自定义流分配步骤图标和标题](#example)一节中的 `WHSMobileAppStepInfoBuilder.stepId()` 方法的实现。
 
 | 步骤 ID | 步骤类 |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 步骤图标的标识符存储在 `defaultStepIcon` 类成员中，步骤标题存储在 `defaultStepTitle` 类成员中。
 
-要分配步骤图标，将 `defaultStepIcon` 设置为本主题前面[可用步骤图标](#step-icons)一节中列出的图标 ID 之一。
+要分配步骤图标，将 `defaultStepIcon` 设置为本文前面[可用步骤图标](#step-icons)一节中列出的图标 ID 之一。
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>为重量输入使用标准或自定义步骤图标和标题
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-然后您将为 `NewWeight` 步骤创建一个步骤类。 代码应类似于本主题前面显示的 `ContainerId` 示例的代码。
+然后您将为 `NewWeight` 步骤创建一个步骤类。 代码应类似于本文前面显示的 `ContainerId` 示例的代码。
 
 #### <a name="override-the-stepinfo-method"></a>替代 stepInfo() 方法
 

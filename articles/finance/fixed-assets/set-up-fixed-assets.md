@@ -1,6 +1,6 @@
 ---
 title: 设置固定资产
-description: 本主题对固定资产模块的设置进行概述。
+description: 本文对固定资产模块的设置进行概述。
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910133"
 ---
 # <a name="set-up-fixed-assets"></a>设置固定资产
 
 [!include [banner](../includes/banner.md)]
 
-本主题对 **固定资产** 模块的设置进行概述。 
+本文对 **固定资产** 模块的设置进行概述。 
 
 参数控制固定资产内的常规行为。 固定资产组可以对您的资产分组以及为分配到组的每项资产指定缺省属性。 将帐簿分配到固定资产组。 帐簿使用在折旧模板中定义的折旧配置跟踪固定资产在一段时期内的经济价值。
 

@@ -1,6 +1,6 @@
 ---
 title: 创建消耗量申请
-description: 本主题介绍申请的创建过程。
+description: 本文介绍申请的创建过程。
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888461"
 ---
 # <a name="create-a-requisition-for-consumption"></a>创建消耗量申请
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍申请的创建过程。 它显示了在您的采购目录中搜索产品以及添加不在您目录中的产品的各种方法。 在启动此过程前，必须将采购策略设置为申请默认类型为“消耗量”。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 此过程只能由设置为工作人员的用户配置文件执行。 此任务通常由员工完成。 **员工** 雇用安全角色可以使您执行任务，或者，如果您使用 USMF，您可以以 **Alicia** 身份登录。
+本文介绍申请的创建过程。 它显示了在您的采购目录中搜索产品以及添加不在您目录中的产品的各种方法。 在启动此过程前，必须将采购策略设置为申请默认类型为“消耗量”。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 此过程只能由设置为工作人员的用户配置文件执行。 此任务通常由员工完成。 **员工** 雇用安全角色可以使您执行任务，或者，如果您使用 USMF，您可以以 **Alicia** 身份登录。
 
 
 ## <a name="create-a-new-requisition"></a>新建申请

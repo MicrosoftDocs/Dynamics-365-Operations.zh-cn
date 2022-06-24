@@ -1,6 +1,6 @@
 ---
 title: 当事方和全球通讯簿
-description: 本主题介绍双重写入的当事方和全球通讯簿功能。
+description: 本文介绍双写入的当事方和全球通讯簿功能。
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892184"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 

@@ -1,6 +1,6 @@
 ---
 title: 重估与指数利率链接的租赁付款
-description: 本主题描述了由于指数利率的变化而导致可变租赁付款发生变化时，对租赁使用权 (ROU) 负债进行的调整。
+description: 本文描述了由于指数利率的变化而导致可变租赁付款发生变化时，对租赁使用权 (ROU) 负债进行的调整。
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903238"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>重估与指数利率链接的租赁付款
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述了由于指数利率的变化而导致可变租赁付款发生变化时，对租赁使用权 (ROU) 负债进行的调整。 租赁负债和使用权资产将进行调整，以计入新的付款金额。 根据会计准则编纂专题 842 (ASC 842)（这是美国公认会计准则 (US GAAP) 中的准则），除非现金流发生了更多变化，否则在由于指数利率改变导致付款增加或减少时，只有可变付款会改变。 这些其他变化可能包括与利率有关的租赁条款的变化。 有关详细信息，请参阅 ASC 842-10-55-225 和国际财务报告准则 16 (IFRS 16) 第 42(b) 段。
+本文描述了由于指数利率的变化而导致可变租赁付款发生变化时，对使用权 (ROU) 资产的租赁负债进行的调整。 租赁负债和使用权资产将进行调整，以计入新的付款金额。 根据会计准则编纂专题 842 (ASC 842)（这是美国公认会计准则 (US GAAP) 中的准则），除非现金流发生了更多变化，否则在由于指数利率改变导致付款增加或减少时，只有可变付款会改变。 这些其他变化可能包括与利率有关的租赁条款的变化。 有关详细信息，请参阅 ASC 842-10-55-225 和国际财务报告准则 16 (IFRS 16) 第 42(b) 段。
 
 ## <a name="adjust-lease-payments"></a>调整租赁付款
 

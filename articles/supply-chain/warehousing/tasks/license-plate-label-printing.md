@@ -1,6 +1,6 @@
 ---
 title: 启用牌照标签打印
-description: 此主题显示如何在销售领料工作流程中从库存对最后一个物料拣货之后，对串行装运集装箱码 (SSCC) 标签启用自动打印。
+description: 本文演示如何在销售领料工作流程中从库存对最后一个物料拣货之后，对串行装运集装箱码 (SSCC) 标签启用自动打印。
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903657"
 ---
 # <a name="enable-license-plate-label-printing"></a>启用牌照标签打印
 
 [!include [banner](../../includes/banner.md)]
 
-此主题显示如何在销售领料工作流程中从库存对最后一个物料拣货之后，对串行装运集装箱码 (SSCC) 标签启用自动打印。 您可以使用演示数据公司 USMF 运行此程序。 如果您使用自己的数据运行，则须为牌照设置一个数序。 在您开始此任务前，需要装配一台标签打印机。 转到“组织管理”>“设置”>“网络打印机”。 在“操作窗格”中，单击“选项”，然后单击“下载文档路由代理安装程序”按钮。 运行此安装程序并确认工作网络打印机设置为“主动”，方可继续该程序。
+本文演示如何在销售领料工作流程中从库存对最后一个物料拣货之后，对串行装运集装箱码 (SSCC) 标签启用自动打印。 您可以使用演示数据公司 USMF 运行此程序。 如果您使用自己的数据运行，则须为牌照设置一个数序。 在您开始此任务前，需要装配一台标签打印机。 转到“组织管理”>“设置”>“网络打印机”。 在“操作窗格”中，单击“选项”，然后单击“下载文档路由代理安装程序”按钮。 运行此安装程序并确认工作网络打印机设置为“主动”，方可继续该程序。
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>设置 GS1 公司字头。

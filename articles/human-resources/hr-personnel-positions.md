@@ -1,6 +1,6 @@
 ---
 title: 职位
-description: 本主题介绍职位可以包含的概念元素。 它还提供展示如何在组织中使用这些元素的示例。
+description: 本文介绍职位可以包含的概念元素。 它还提供展示如何在组织中使用这些元素的示例。
 author: twheeloc
 ms.date: 06/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb7582165f49c40d294acd3cf804fe89782936c4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c97a96e27188d12b9c5e626613e18d54d6632c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888721"
 ---
 # <a name="positions"></a>职位
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689429"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍职位可以包含的概念元素。 它还提供展示如何在组织中使用这些元素的示例。
+本文介绍职位可以包含的概念元素。 它还提供展示如何在组织中使用这些元素的示例。
 
 必须先设置工作，才能创建职位。 某些职位详细信息（例如薪酬区域、工作人员分配、职位持续时间和报告关系）具有生效日期。
 

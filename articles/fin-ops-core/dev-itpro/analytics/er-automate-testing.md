@@ -1,6 +1,6 @@
 ---
-title: 使用电子申报自动执行测试
-description: 本主题介绍如何使用电子申报 (ER) 框架的基准功能自动测试功能。
+title: 自动测试电子报告
+description: 本文介绍如何使用电子报告 (ER) 框架的基准功能自动测试功能。
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892760"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>自动测试电子报告
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍如何使用电子申报 (ER) 框架自动测试某些功能。 本主题中的示例演示如何自动测试供应商付款处理。
+本文介绍如何使用电子报告 (ER) 框架自动测试某些功能。 本文中的示例演示如何自动测试供应商付款处理。
 
 供应商付款处理期间，应用程序使用 ER 框架生成付款文件和相应单据。 ER 框架中包含数据模型、模型映射，以及格式组件，它们支持对不同付款类型进行付款处理和生成不同格式的单据。 可以从 Microsoft Dynamics Lifecycle Services (LCS) 下载这些组件并导入到实例中。
 
@@ -54,15 +54,15 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 
 ## <a name="prerequisites"></a>先决条件
 
-必须先完成以下先决条件，才能完成本主题中的任务：
+必须先完成以下先决条件，才能完成本文中的任务：
 
 - 部署支持测试自动化的拓扑。 必须可以访问 **系统管理员** 角色的此拓扑的实例。 此拓扑中必须包含此示例中将使用的演示数据。 有关详细信息，请参阅[部署和使用支持连续生成和测试自动化的环境](../perf-test/continuous-build-test-automation.md)。
-- 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装并配置 RSAT 以支持 Finance and Operations 应用和 Azure DevOps 的信息，请参阅[Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
+- 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装和配置 RSAT 以支持 Finance and Operations 应用程序和 Azure DevOps 的信息，请参阅 [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
 
     ![RSAT 设置。](media/GER-Configure.png "“RSAT 设置”对话框的屏幕截图")
 
 - 若要组织套件中的测试用例以帮助确保正确的执行顺序，以便收集测试的执行日志来进一步报告和调查，必须可以从部署的拓扑访问 Azure DevOps。
-- 若要完成本主题中的示例，建议下载 [ER RSAT 测试的用法](https://go.microsoft.com/fwlink/?linkid=874684)。 这个 zip 文件中包含以下任务指南：
+- 若要完成本文中的示例，建议下载 [ER RSAT 测试的用法](https://go.microsoft.com/fwlink/?linkid=874684)。 这个 zip 文件中包含以下任务指南：
 
     | 内容                                           | 文件名和位置 |
     |---------------------------------------------------|------------------------|
