@@ -1,6 +1,6 @@
 ---
 title: 创建工作流概览
-description: 本主题介绍如何创建工作流。
+description: 本文介绍如何创建工作流。
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864477"
 ---
 # <a name="create-workflows-overview"></a>创建工作流概览
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067950"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题介绍如何创建工作流。
+本文介绍如何创建工作流。
 
 ## <a name="open-the-workflow-editor"></a>打开工作流编辑器
 
@@ -56,7 +56,7 @@ ms.locfileid: "8067950"
 
 1. 单击画布，确保未选择任何工作流元素。
 2. 单击 **属性** 以打开工作流的 **属性** 页面。
-3. 按照[配置工作流属性](configure-workflow-properties.md)主题中的步骤进行操作。
+3. 按照[配置工作流属性](configure-workflow-properties.md)一文中的步骤进行操作。
 
 ## <a name="configure-the-elements-of-the-workflow"></a>配置工作流元素
 

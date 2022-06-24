@@ -1,6 +1,6 @@
 ---
-title: 从目标客户到现金
-description: 本主题提供在 Dynamics 365 Supply Chain Management 与 Dynamics 365 Sales 之间从目标客户到现金解决方案的概述。
+title: 目标客户到现金
+description: 本文提供在 Dynamics 365 Supply Chain Management 与 Dynamics 365 Sales 之间从目标客户到现金解决方案的概述。
 author: Henrikan
 ms.date: 04/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b96f22d711ce5b34c2f8de5a86caf5f89dd3f337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857219"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 

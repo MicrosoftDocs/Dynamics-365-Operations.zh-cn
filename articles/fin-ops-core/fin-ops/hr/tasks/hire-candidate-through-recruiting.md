@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b48fcfe46dbc8a512a2ff9523b62c3a99d1bcd28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888084"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>通过招聘雇用候选人
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
+> 本文中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
 
 此过程使得招聘人员能够雇用通过特定招聘项目提交申请表的申请人。 通过招聘项目雇用申请人时，将会创建新的工作人员记录，且申请人的记录状态将为 **已雇用**。 创建此过程时使用的是 **USMF** 演示数据格式。
 

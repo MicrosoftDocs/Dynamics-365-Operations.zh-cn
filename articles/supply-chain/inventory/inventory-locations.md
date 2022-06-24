@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888577"
 ---
 # <a name="inventory-locations"></a>库存库位
 
@@ -29,7 +29,7 @@ ms.locfileid: "7573937"
 
 库存库位用于与基本仓库 (WMS I) 一同确定物料的存储位置和从 WMS I 仓库领取物料的位置。
 
-此主题适用于库存管理模块中的功能。 它不适用于仓库管理模块中的功能。
+本文适用于库存管理模块中的功能。 它不适用于仓库管理模块中的功能。
 
 术语库位表示提取物料的位置。
 

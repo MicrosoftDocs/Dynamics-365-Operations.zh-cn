@@ -1,6 +1,6 @@
 ---
 title: 使用片段
-description: 此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
+description: 本文介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896813"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
+本文介绍在 Microsoft Dynamics 365 Commerce 中使用片段的原因、时间和方法。
 
 片段为必须在整个站点中重复使用的模块配置提供集中式创作体验。 例如，页眉、页脚和横幅通常配置为片段，因为它们在许多页面之间共享。 可以将片段视为可插入站点中的其他页面的微型页面。 片段有自己的生命周期。 换句话说，它们在创作工具中作为独立实体创建、引用和删除。
 

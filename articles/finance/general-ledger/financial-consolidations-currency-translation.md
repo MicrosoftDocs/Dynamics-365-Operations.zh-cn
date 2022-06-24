@@ -1,6 +1,6 @@
 ---
 title: 财务合并和货币折算概览
-description: 此主题介绍总帐中的财务合并和货币折算。
+description: 本文介绍总帐中的财务合并和货币折算。
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846848"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍 Microsoft Dynamics 365 Finance 和财务申报都用于合并的功能。 介绍了涉及多公司报告，聚合、清除和少数股权的方案。 还说明如何处理特定情况，如多个法人有不同会计期间或不同会计科目表的方案。
+本文介绍 Microsoft Dynamics 365 Finance 和 Financial reporting 都用于合并的功能。 介绍了涉及多公司报告，聚合、清除和少数股权的方案。 还说明如何处理特定情况，如多个法人有不同会计期间或不同会计科目表的方案。
 
-此主题面向用户和功能顾问，并假设读者对 Finance 和财务申报具有一般性的了解。 不介绍基本设置。
+本文面向用户和功能顾问，并假设读者对 Finance 和 Financial reporting 具有一般性的了解。 不介绍基本设置。
 
 > [!NOTE]
-> Finance 中使用术语 *法人*，但在财务申报中则使用术语 *公司*。 本主题中同时使用这两个术语。 但是，在本主题中，这两个术语的含义相同。
+> Finance 中使用术语 *法人*，但在财务申报中则使用术语 *公司*。 本文中同时使用这两个术语。 但是，在本文中，这两个术语的含义相同。
 
 ## <a name="audience"></a>受众
-本主题适用于需要使用 Finance and Reporting 和财务申报合并多公司和多币种数据的财务和会计用户及应用程序顾问。
+本文适用于需要使用 Finance and Reporting 和 Financial reporting 合并多公司和多币种数据的财务和会计用户及应用程序顾问。
 
 ## <a name="approach"></a>方法
 Finance 使用一个法人处理一项合并。 它支持单实例合并，但是也提供从其他源提取数据的选项。 只要在源法人中进行了更改，都必须运行合并过程。

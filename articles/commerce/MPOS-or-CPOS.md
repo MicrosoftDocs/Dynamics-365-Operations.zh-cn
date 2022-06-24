@@ -1,6 +1,6 @@
 ---
-title: 在 Store Commerce 和 Cloud POS 之间进行选择
-description: 本主题介绍了 Store Commerce 和 Cloud POS 之间的主要差异，并介绍了实现 Dynamics 365 Commerce 的零售商应考虑的各种因素，以帮助他们根据自己的要求做出最佳选择。
+title: 选择 Store Commerce 或 Cloud POS
+description: 本文介绍了 Store Commerce 和 Cloud POS 之间的主要差异，并介绍了实现 Dynamics 365 Commerce 的零售商应考虑的各种因素，以帮助他们根据自己的要求做出最佳选择。
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853998"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>在 Store Commerce 和 Cloud POS 之间进行选择
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>选择 Store Commerce 或 Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了 Store Commerce 和 Cloud POS 之间的主要差异，并介绍了实现 Dynamics 365 Commerce 的零售商应考虑的各种因素，以帮助他们根据自己的要求做出最佳选择。 此主题还为实施人员提供在部署 Dynamics 365 Commerce 时应该考虑的因素的其他背景、建议和指南。 通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。
+本文介绍了 Store Commerce 和 Cloud POS 之间的主要差异，并介绍了实现 Dynamics 365 Commerce 的零售商应考虑的各种因素，以帮助他们根据自己的要求做出最佳选择。 此主题还为实施人员提供在部署 Dynamics 365 Commerce 时应该考虑的因素的其他背景、建议和指南。 通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。
 
 ## <a name="insights"></a>见解
 
@@ -44,7 +44,7 @@ Commerce 支持以下 POS 选项：
 在任何情况下，POS（Store Commerce 和 CPOS）都共享同一个核心应用程序代码。 由于以下原因这一点很重要：
 
 - 用户界面 (UI) 是一致的，不管平台或窗体因子如何。
-- 大多数功能能力是相同的，无论平台或窗体因子如何。 不过，也存在某些重要差异。 这些差异在本主题中有说明。
+- 大多数功能能力是相同的，无论平台或窗体因子如何。 不过，也存在某些重要差异。 这些差异在本文中有说明。
 - 在每个商店中，POS 差异可以合并，并可以同时运行。 例如，对于其主要收银机，零售商可以在运行 Windows 的计算机上使用 Store Commerce。 但是，零售商可以使用基于浏览器的终端或移动设备补充这些收银机。
 - 自定义和扩展可以跨平台和窗体因子轻松使用。 由于核心应用程序代码被共享，大多数自定义可以实施一次，而不是多次。
 

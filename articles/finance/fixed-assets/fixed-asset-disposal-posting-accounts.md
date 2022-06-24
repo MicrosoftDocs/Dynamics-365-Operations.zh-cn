@@ -1,6 +1,6 @@
 ---
 title: 固定资产处置过帐科目
-description: 本主题说明如何为处理资产设置总帐过帐科目。
+description: 本文说明如何为处理资产设置总帐过帐科目。
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871324"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>固定资产处置过帐科目
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何在处理资产时设置总帐过帐科目。
+本文说明如何在处理资产时设置总帐过帐科目。
 
 要设置在处置资产时使用的总帐过帐科目，在 **固定资产过帐模板** 页面的 **分类帐科目** 快速选项卡中选择 **处置 - 销售** 和 **处置 - 报废**。
 

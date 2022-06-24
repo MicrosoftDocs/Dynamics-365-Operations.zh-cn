@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
-description: 此主题介绍了 2020 年 8 月 6 日 Microsoft Dynamics 365 Human Resources - Core HR 中的新增功能和更改的功能。
+description: 本文介绍 2020 年 8 月 6 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: andreabichsel
 ms.date: 08/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a8058c1acdde20a1b48130fa1e8b75aa415bafce
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 89fb22b97582e50cbb1d9929ece20786ab0d6267
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902880"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources 的新增功能或更改（2020 年 8 月 6 日）
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691965"
 
 
 
-此主题介绍了 Dynamics 365 Human Resources 中的新增功能和更改的功能。 更改适用于内部版本号 8.1.3444。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
+本文介绍 Dynamics 365 Human Resources 中的新增功能或更改的功能。 更改适用于内部版本号 8.1.3444。 某些标题中括号内的数字是 LCS 支持号码，供您参考。
 
 ## <a name="platform-update-1001236-is-now-available"></a>现已推出了平台更新 10.0.12(36)
 

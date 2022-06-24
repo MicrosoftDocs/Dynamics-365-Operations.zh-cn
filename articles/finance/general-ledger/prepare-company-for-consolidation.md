@@ -1,6 +1,6 @@
 ---
 title: 为合并流程准备法人
-description: 在合并过程中，您将来自若干法人帐户组的交易记录汇集到单组法人帐户中。 本主题说明如何为合并准备法人。
+description: 在合并过程中，您将来自若干法人帐户组的交易记录汇集到单组法人帐户中。 本文说明如何为合并准备法人。
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894017"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>为合并流程准备法人
 
 [!include [banner](../includes/banner.md)]
 
-在合并过程中，您将来自若干法人帐户组的交易记录汇集到单组法人帐户中。 本主题说明如何为合并准备法人。
+在合并过程中，您将来自若干法人帐户组的交易记录汇集到单组法人帐户中。 本文说明如何为合并准备法人。
 
 > [!NOTE]
 > 我们建议您使用 Microsoft Dynamics 365 Finance 的 Management Reporter 以合并格式合并多个法人的财务结果。 通过 Management Reporter，您可以跨法人创建合并的财务报表，使用 Excel 从其他来源导入合并数据，并将金额转换为任意数量的报告货币，而无需在 Dynamics 365 Finance 中运行合并流程。

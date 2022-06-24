@@ -1,6 +1,6 @@
 ---
 title: 波次创建和处理
-description: 本主题介绍如何创建、处理和发放波次来创建负荷、装运、生产订单或看板订单的领料工作。
+description: 本文介绍如何创建、处理和发放波次来创建负荷、装运、生产订单或看板订单的领料工作。
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851266"
 ---
 # <a name="wave-creation-and-processing"></a>波次创建和处理
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建、处理和发放波次来创建负荷、装运、生产订单或看板订单的领料工作。 您可以为以下类型的订单创建波次：
+本文介绍如何创建、处理和发放波次来创建负荷、装运、生产订单或看板订单的领料工作。 您可以为以下类型的订单创建波次：
 
 - **销售订单** – 使用装运波次来包括销售订单中的行。 在销售订单发放到仓库时，销售订单行可以包括在波次中。
 - **生产订单** – 使用生产波次来包括产品的物料清单 (BOM) 中的行。

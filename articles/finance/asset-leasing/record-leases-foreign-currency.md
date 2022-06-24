@@ -1,6 +1,6 @@
 ---
 title: 使用外币记录租赁
-description: 本主题说明如何使用非记帐币种或申报币种记录租赁。
+description: 本文说明如何使用非记帐币种或申报币种记录租赁。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7da4ddb5939d4f950eb7f8c39a9c56edb2ec4db9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878093"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>使用外币记录租赁
 
 [!include [banner](../includes/banner.md)]
 
-采用非记帐币种或申报币种的租赁的资产租赁科目是在 **分类帐设置** 页上建立的。 所有租赁均应以其交易币种输入。 换句话说，应使用租赁合同中指定的币种输入。 本主题说明如何使用非记帐币种或申报币种记录租赁。
+采用非记帐币种或申报币种的租赁的资产租赁科目是在 **分类帐设置** 页上建立的。 所有租赁均应以其交易币种输入。 换句话说，应使用租赁合同中指定的币种输入。 本文说明如何使用非记帐币种或申报币种记录租赁。
 
 如果您以外币形式输入租赁，则使用权 (ROU) 资产会以记帐币种和申报币种折旧。 这些币种在 **分类帐设置** 页中配置。 固定资产中也使用此行为。 当您以外币创建租赁时，请在 **币种** 字段中选择交易币种。
 

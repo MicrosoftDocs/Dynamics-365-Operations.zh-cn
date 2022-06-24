@@ -1,6 +1,6 @@
 ---
 title: 查看财务报表
-description: 本主题介绍如何在 Microsoft Dynamics 365 Finance 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
+description: 本文介绍如何在 Microsoft Dynamics 365 Finance 中查看和浏览财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907883"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
+本文介绍如何查看和浏览财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
 ## <a name="financial-reporting-overview"></a>财务报告概览
 

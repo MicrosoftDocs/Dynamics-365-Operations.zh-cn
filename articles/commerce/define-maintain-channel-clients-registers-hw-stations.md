@@ -1,6 +1,6 @@
 ---
 title: 将外设连接到销售点 (POS)
-description: 此主题介绍如何将外设连接到 Retail POS。
+description: 本文介绍如何将外设连接到 Retail POS。
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897100"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍如何将外设连接到 Retail POS。
+本文介绍如何将外设连接到 Retail POS。
 
 > [!NOTE]
 > 要获取特定的安装说明，请参阅[配置并安装 Retail Hardware Station](retail-hardware-station-configuration-installation.md) 和[配置、安装和激活 Modern POS (MPOS)](retail-modern-pos-device-activation.md)。
@@ -157,7 +157,7 @@ POS 收银机主要通过收银机本身管理，同时还通过分配到收银�
 
 #### <a name="hardware-profiles"></a>硬件配置文件
 
-硬件配置文件作为本主题前面介绍的客户端设置的组件介绍。 硬件配置文件将被直接分配给 POS 收银机或共享硬件工作站，用于指定特定 POS 收银机或硬件工作站使用的设备类型。 硬件配置文件还用于指定用于与付款 SDK 通信的 EFT 设置。
+硬件配置文件作为本文前面介绍的客户端设置的组件介绍。 硬件配置文件将被直接分配给 POS 收银机或共享硬件工作站，用于指定特定 POS 收银机或硬件工作站使用的设备类型。 硬件配置文件还用于指定用于与付款 SDK 通信的 EFT 设置。
 
 #### <a name="visual-profiles"></a>可视化配置文件
 

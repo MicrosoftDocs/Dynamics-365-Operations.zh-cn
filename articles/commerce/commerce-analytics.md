@@ -1,6 +1,6 @@
 ---
 title: Commerce 分析（预览版）
-description: 本主题介绍如何安装和使用 Microsoft Dynamics 365 Commerce 中的分析功能。
+description: 本文介绍如何安装和使用 Microsoft Dynamics 365 Commerce 中的分析功能。
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8549999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887158"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce 分析（预览版）
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何安装 Commerce 分析（预览版）功能，这是 Microsoft Dynamics 365 Commerce 中包含的功能性分析功能。
+本文介绍如何安装 Commerce 分析（预览版）功能，这是 Microsoft Dynamics 365 Commerce 中包含的功能性分析功能。
 
 ## <a name="commerce-analytics-preview-live-demo"></a>Commerce 分析（预览版）实时演示
 

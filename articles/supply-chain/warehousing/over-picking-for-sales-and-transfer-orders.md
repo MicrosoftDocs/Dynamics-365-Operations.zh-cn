@@ -1,6 +1,6 @@
 ---
 title: 销售订单和转移单过量领料
-description: 本主题介绍了如何为销售订单和转移单启用过量领料。
+description: 本文介绍了如何为销售订单和转移单启用过量领料。
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897275"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>销售订单和转移单过量领料
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供的场景显示了如何使特定工作人员或所有工作人员能够过量领料。 过量领料流程允许在领料工作期间控制过量领料。
+本文提供的场景显示了如何使特定工作人员或所有工作人员能够过量领料。 过量领料流程允许在领料工作期间控制过量领料。
 
 仓库过量领料是一个简单的概念。 系统允许工作人员领取比为订单指定的物料数量更多的物料。 但是，它仍会考虑在行级别为转移单或销售订单设置的超交限制。 如果超出该限制，Warehouse Management 应用将通知工作人员他们超出了超交限制。
 
@@ -41,11 +41,11 @@ ms.locfileid: "8678399"
 > [!IMPORTANT]
 > 过量领料功能仅适用于销售订单和转移单领料和处理。 补货不支持过量领料。 运行补货工作时，系统不允许用户过量领料。
 
-本主题中的场景显示如何设置和使用过量领料功能。
+本文中的场景显示如何设置和使用过量领料功能。
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>场景先决条件：提供演示数据
 
-此主题中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 *USMF*。
+本文中的方案引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 *USMF*。
 
 ## <a name="scenario-setup"></a>方案设置
 

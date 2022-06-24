@@ -1,6 +1,6 @@
 ---
 title: 会员概览
-description: 此主题描述 Dynamics 365 Commerce 内的会员能力，以及相应的帮助零售商轻松开始会员计划的设置步骤。
+description: 本文描述 Dynamics 365 Commerce 内的会员能力，以及相应的帮助零售商轻松开始会员计划的设置步骤。
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883895"
 ---
 # <a name="loyalty-overview"></a>会员概览
 
 [!include [banner](includes/banner.md)]
 
-通过奖励与零售商品牌交互的客户，会员计划有助于增加客户忠诚度。 在 Dynamics 365 Commerce 中，您可以设置简单或复杂的会员计划，以应用于任何商业渠道中的法人。 此主题描述 Commerce 内的会员能力，以及相应的帮助零售商轻松开始会员计划的设置步骤。
+通过奖励与零售商品牌交互的客户，会员计划有助于增加客户忠诚度。 在 Dynamics 365 Commerce 中，您可以设置简单或复杂的会员计划，以应用于任何商业渠道中的法人。 本文描述 Commerce 内的会员能力，以及相应的帮助零售商轻松开始会员计划的设置步骤。
 
 您可以设置会员计划，以便它们包括以下选项。
 

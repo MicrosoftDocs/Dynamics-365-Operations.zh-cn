@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce 站点的浏览器要求
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 站点的浏览器要求。
+description: 本文介绍 Microsoft Dynamics 365 Commerce 站点的浏览器要求。
 author: anupamar-ms
 ms.date: 12/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c80bec4b4e40c904ef781893b6d695eda31cce92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869190"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Dynamics 365 Commerce 站点的浏览器要求
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Commerce 站点的浏览器要求。
+本文介绍 Microsoft Dynamics 365 Commerce 站点的浏览器要求。
 
 以下 Web 浏览器对 Dynamics 365 Commerce 站点的支持度最高。 要查找每个 Web 浏览器的最新版本，请转至软件制造商的网站。
 

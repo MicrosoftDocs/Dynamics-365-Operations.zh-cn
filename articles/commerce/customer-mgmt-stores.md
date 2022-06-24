@@ -1,6 +1,6 @@
 ---
 title: 商店中的客户管理
-description: 本主题说明零售商如何在 Microsoft Dynamics 365 Commerce 中启用销售点 (POS) 客户管理功能。
+description: 本文说明零售商如何在 Microsoft Dynamics 365 Commerce 中启用销售点 (POS) 客户管理功能。
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863479"
 ---
 # <a name="customer-management-in-stores"></a>商店中的客户管理
 
 [!include [banner](includes/banner.md)]
 
-本主题说明零售商如何在 Microsoft Dynamics 365 Commerce 中启用销售点 (POS) 客户管理功能。
+本文说明零售商如何在 Microsoft Dynamics 365 Commerce 中启用销售点 (POS) 客户管理功能。
 
 店员必须可以在 POS 上创建和编辑客户记录，这一点很重要。 这样，他们可以捕获诸如电子邮件地址、电话号码和地址之类的客户信息的任何更新。 此信息对于下游系统（如市场营销）很有用，因为这些系统的有效性取决于其客户数据的准确性。
 

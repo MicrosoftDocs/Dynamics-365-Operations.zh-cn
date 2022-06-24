@@ -1,6 +1,6 @@
 ---
 title: 里程碑模板
-description: 本主题说明如何在订阅计费中设置里程碑开票功能。
+description: 本文说明如何在订阅计费中设置里程碑开票功能。
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856761"
 ---
 # <a name="milestone-billing"></a>里程碑开票
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何为订阅计费中的里程碑开票功能定义模板。 对于里程碑模板中的每一行，您可以定义分配百分比或金额。 然后，您可以将里程碑模板分配给使用里程碑开票功能的计费计划物料。
+本文说明如何为订阅计费中的里程碑开票功能定义模板。 对于里程碑模板中的每一行，您可以定义分配百分比或金额。 然后，您可以将里程碑模板分配给使用里程碑开票功能的计费计划物料。
 
 ## <a name="add-a-template"></a>添加模板
 

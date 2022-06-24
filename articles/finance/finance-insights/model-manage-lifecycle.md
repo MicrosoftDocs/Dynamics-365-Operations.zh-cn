@@ -1,6 +1,6 @@
 ---
 title: 模型管理生命周期
-description: 本主题介绍维护组织的机器学习模型以优化它们生成的预测的方法。
+description: 本文介绍维护组织的机器学习模型以优化它们生成的预测的方法。
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a7b57bc0322e0f9a78dddfb924e379ac05ffca32
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 526916929e4bc079f9cea82d8ea9f80813e89b83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880865"
 ---
 # <a name="model-management-lifecycle"></a>模型管理生命周期
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍维护组织的机器学习模型以优化它们生成的预测的方法。
+本文介绍维护组织的机器学习模型以优化它们生成的预测的方法。
 
 我们建议您在沙盒环境中训练 AI 模型，然后使用托管解决方案将其部署到生产环境。 此方法有助于确保为管理模型生命周期采取正确的控制措施。
 

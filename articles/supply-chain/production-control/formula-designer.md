@@ -1,6 +1,6 @@
 ---
-title: 配方设计器
-description: 本主题说明如何使用配方设计器来分析和维护树视图中的配方。
+title: 公式设计器
+description: 本文说明如何使用配方设计器来分析和维护树视图中的配方。
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849262"
 ---
-# <a name="formula-designer"></a>配方设计器
+# <a name="formula-designer"></a>公式设计器
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用配方设计器来分析和维护树视图中的配方。
+本文说明如何使用配方设计器来分析和维护树视图中的配方。
 
 从 **已发布的产品** 打开 **配方设计器** 后，左窗格中的树显示已发布的产品的联产品的列表和成分的层次结构。 结构衍生自有效且对所选物料及其成分、物料的默认订单站点和实际日期进行审核的配方的层次结构。
 

@@ -1,6 +1,6 @@
 ---
 title: 以直接交运方式装运订单
-description: 本主题介绍如何为销售订单创建直接交货。
+description: 本文演示如何为销售订单创建直接交货。
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875150"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>以直接交运方式装运订单
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为销售订单创建直接交货。 在想要从供应商处直接装运货物给客户，而不是先装运至您自身的仓库时，可使用直接交货。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 要想成功完成第二个子任务“从工作台创建直接交货”，确保您在销售订单上选择的物料有默认“供应商”，该供应商在“已发布基础产品”的“采购”快速项卡上有指定。
+本文演示如何为销售订单创建直接交货。 在想要从供应商处直接装运货物给客户，而不是先装运至您自身的仓库时，可使用直接交货。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 要想成功完成第二个子任务“从工作台创建直接交货”，确保您在销售订单上选择的物料有默认“供应商”，该供应商在“已发布基础产品”的“采购”快速项卡上有指定。
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>设置直接交货的单个订单
 1. 转到 **导航窗格 > 模块 > 应收帐款 > 订单 > 所有销售订单**。

@@ -1,6 +1,6 @@
 ---
 title: 双货币
-description: 此主题提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 Finance 的第二记帐币种。
+description: 本文提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 Finance 的第二记帐币种。
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906346"
 ---
 # <a name="dual-currency"></a>双货币
 
@@ -36,7 +36,7 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 - 固定资产 
 - 合并
 
-升级后，您必须为“现金和银行管理”和“固定资产”完成特定步骤。 因此，请务必阅读并理解此主题中的相关部分。
+升级后，您必须为“现金和银行管理”和“固定资产”完成特定步骤。 因此，请务必阅读并理解本文中的相关章节。
 
 ## <a name="posting-process"></a>过帐流程
 
@@ -93,7 +93,7 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 - 申报币种的单独汇率类型可以在分类帐中定义。 如果组织不希望使用不同的汇率类型，可以将申报币种的汇率类型字段留为空白。 或者，可以选择用于记帐币种的同一汇率类型。 如果您将此字段保留为空，系统将使用记帐币种的汇率类型。
 - 一种新日记帐，申报币种调整日记帐支持将调整只过帐到申报币种的会计科目。 此日记帐支持仅过帐到会计科目。 它不支持内部公司，而且币种必须是过帐日记帐的法人的申报币种。 将日记帐过帐时，交易币种和记帐币种金额为 0（零），申报币种金额过帐为在交易记录中输入的金额。 由于 **应付帐款**、**应收帐款** 和 **固定资产** 模块中使用申报币种的方式已更改，此日记帐可以在升级后用于调整。 有关显示如何使用此日记帐的示例，请参阅这些模块的相应部分。
 - 期间分配的流程已更新，以在交易、记帐和申报币种之间分摊金额。 以前，金额在交易和记帐币种之间分摊，然后记帐币种金额转换为申报币种。 该行为可能导致余额仍留在申报币种的会计科目中。 现在，当计算金额并用于会计条目时，不进行转换。
-- 外币重估的过程已重估了申报币种的金额。 不过，申报币种金额现在通过交易币种金额计算，如本主题前面的[过帐流程](#posting-process)部分所述。
+- 外币重估的过程已重估了申报币种的金额。 不过，申报币种金额现在通过交易币种金额计算，如本文前面的[过帐流程](#posting-process)一节所述。
 - 总帐中的很多报表和查询已具有申报币种，但有些没有。 一个例子是 **试算平衡表** 列表页。 此列表页现在同时包括记帐币种和申报币种的列。 请注意，如果记帐币种和申报币种相同，或未在分类帐中定义申报币种，申报币种列将隐藏。
 
 ### <a name="financial-reporting"></a>财务申报

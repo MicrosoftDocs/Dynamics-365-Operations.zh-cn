@@ -1,6 +1,6 @@
 ---
 title: 同步内部公司价格和折扣
-description: 本主题介绍了内部公司销售订单和采购订单的价格和折扣的同步
+description: 本文介绍了内部公司销售订单和采购订单的价格和折扣的同步
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 90fa2244b5947c37b8498d1c70cddf894979f931
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 64130c400212a819f931cc36459667e4d7c83f32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905680"
 ---
 # <a name="synchronize-intercompany-prices-and-discounts"></a>同步内部公司价格和折扣
 

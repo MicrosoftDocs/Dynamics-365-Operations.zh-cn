@@ -1,6 +1,6 @@
 ---
-title: 配置打印管理记录特定 ER 目标
-description: 本主题介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置打印管理记录特定目标。
+title: 配置打印管理记录特定的电子报告目标
+description: 本文介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置打印管理记录特定目标。
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872704"
 ---
-# <a name="configure-print-management-record-specific-er-destinations"></a>配置打印管理记录特定 ER 目标
+# <a name="configure-print-management-record-specific-er-destinations"></a>配置打印管理记录特定的电子报告目标
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明系统管理员或应收帐款职员角色的用户如何执行以下任务：
+本文说明系统管理员或应收帐款职员角色的用户如何执行以下任务：
 
 - 为生成普通发票的 ER 解决方案配置指定的[电子报告 (ER)](general-electronic-reporting.md)。
 - 将 ER 目标分配给单个[打印管理](document-reporting-services.md)记录。

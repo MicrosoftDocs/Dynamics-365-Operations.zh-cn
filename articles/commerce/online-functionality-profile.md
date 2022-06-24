@@ -1,6 +1,6 @@
 ---
 title: 创建在线功能配置文件
-description: 此主题介绍如何在 Microsoft Dynamics 365 Commerce 中创建在线功能配置文件。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中创建在线功能配置文件。
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 686bc6440c31f3a4d729f2d92e3e57a1cc7b641f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895418"
 ---
 # <a name="create-an-online-functionality-profile"></a>创建在线功能配置文件
 
 [!include [banner](includes/banner.md)]
 
-本主题概述为 Microsoft Dynamics 365 Commerce 设置在线功能配置文件的过程。
+本文概述为 Microsoft Dynamics 365 Commerce 设置在线功能配置文件的过程。
 
 在线功能配置文件提供了用于在线渠道的各种设置。 每个在线渠道必须指定一个在线功能配置文件。
 

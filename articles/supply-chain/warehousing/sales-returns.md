@@ -1,6 +1,6 @@
 ---
 title: 销售退货
-description: 此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
+description: 本文提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860397"
 ---
 # <a name="sales-returns"></a>销售退货
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
+本文提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
 
 客户可能因为各种原因退货。 例如，物品可能有瑕疵，或者可能不满足客户的期望。 客户发出退货请求时，退货流程开始。 收到客户的请求后，将创建退货单。
 
@@ -84,7 +84,7 @@ ms.locfileid: "8695554"
 -   使用 **查找销售订单** 功能创建退货行。 建议在创建退货单时使用此功能。 **查找销售订单** 功能建议从退货行到开票销售订单行的引用，并从销售行检索行详细信息，如物料编号、数量、价格、折扣和成本值。 产品退回公司时，此引用帮助确保其价值为销售时的相同单位成本。 此引用还验证退货单不是为超过了发票中销售的数量创建的。
 
 >[!NOTE] 
->引用了销售订单的退货行作为销售的更正或撤销处理。 有关详细信息，请参阅本主题后面部分的“过帐到分类帐”。
+>引用了销售订单的退货行作为销售的更正或撤销处理。 有关详细信息，请参阅本文后面的“过帐到分类帐”一节。
 
 ### <a name="charges"></a>费用
 
@@ -179,7 +179,7 @@ ms.locfileid: "8695554"
 
 [![到达流程。](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-此过程有几个本主题未涵盖的其他变体。 以下是这些验证中的一部分。
+此过程有几个本文未涵盖的其他变体。 以下是这些验证中的一部分。
 
 -   请勿使用 **到达概览** 列表创建到达日记帐。 请改为手动创建到达日记帐。 退货单将拥有 **销售订单** 作为引用。
 -   如果您在使用仓库管理，则生成托盘运输。 托盘运输期间，退货行的状态为 **已到达**。

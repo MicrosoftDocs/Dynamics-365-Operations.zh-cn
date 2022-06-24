@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
-description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.21 中的新增功能或更改的功能。
+description: 本文介绍 Dynamics 365 Supply Chain Management 10.0.21 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8739378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849523"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21（2021 年 10 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.21 中的新增或更改的功能。 此版本的构建版本号为 10.0.960，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.21 中的新增或更改的功能。 此版本的构建版本号为 10.0.960，并以下面的形式提供：
 
 - **版本预览：** 2021 年 8 月
 - **版本的正式发布时间（自行更新）：** 2021 年 9 月
@@ -119,9 +119,9 @@ ms.locfileid: "8739378"
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
-我们最近添加或大幅更新了以下帮助主题。 它们不一定与上一节中列出的为此版本添加的新功能相关，但是它们可以帮助您从现有功能中获得更多益处。
+我们最近添加或大幅更新了以下帮助文章。 它们不一定与上一节中列出的为此版本添加的新功能相关，但是它们可以帮助您从现有功能中获得更多益处。
 
-| 特征区域 | 新增或更新主题 |
+| 特征区域 | 新增或更新文章 |
 |---|---|
 | 主计划 | [库存预测](../master-planning/inventory-forecast.md) |
 | 主计划 | [计划优化未使用的参数](../master-planning/planning-optimization/not-used-parameters.md) |
@@ -153,12 +153,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.21 中包含平台更新。 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

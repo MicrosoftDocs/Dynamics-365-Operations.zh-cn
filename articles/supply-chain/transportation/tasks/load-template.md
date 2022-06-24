@@ -1,6 +1,6 @@
 ---
 title: 负荷模板
-description: 本主题介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
+description: 本文介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844171"
 ---
 # <a name="load-templates"></a>负荷模板
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674636"
 
 创建新负荷时，您可以分配负荷模板。 负荷模板包含有关设备以及度量（例如负荷的高度、宽度、深度和体积）的信息。
 
-本主题介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
+本文介绍如何设置负荷模板以及如何将负荷模板与新负荷关联。
 
 ## <a name="set-up-a-load-template"></a>设置负荷模板
 

@@ -1,6 +1,6 @@
 ---
 title: 检查货物质量
-description: 本主题说明如何处理质检订单。
+description: 本文说明如何处理质检订单。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,20 +14,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc2fbbedb608b38c6855fbd48ff0c3e26ee3e0bc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eeb14a3b0a61f34819bdd8d524e65ac214a81c35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857567"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何处理质检订单。 质量检查通常由质检员执行。
+本文说明如何处理质检订单。 质量检查通常由质检员执行。
 
-如果安装了标准演示数据，您可以使用它来完成本主题中的过程。 要使用演示数据，在开始前选择 *USMF* 法人。 然后，必须确认采购订单 *000016* 并过帐产品收据。 质检订单将自动生成。
+如果安装了标准演示数据，您可以使用它来完成本文中的过程。 要使用演示数据，在开始前选择 *USMF* 法人。 然后，必须确认采购订单 *000016* 并过帐产品收据。 质检订单将自动生成。
 
 ## <a name="step-1-select-a-quality-order"></a>步骤 1：选择质检订单
 

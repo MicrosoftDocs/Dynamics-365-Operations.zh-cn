@@ -1,6 +1,6 @@
 ---
-title: 预付款发票与预付款
-description: 本主题介绍和对比组织可以用于预付款（预先付款）的两种方法。
+title: 预付款账单与预付款
+description: 本文介绍和对比组织可以用于预付款（预先付款）的两种方法。
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895187"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款账单与预付款
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍和对比组织可以用于预付款（预先付款）的两种方法。 一种方法用于创建与采购订单相关联的预付款发票。 另一种方法用于通过创建日记帐条目并将它们标记为预付款日记帐凭证来创建预付款日记帐凭证。
+本文介绍和对比组织可以用于预付款（预先付款）的两种方法。 一种方法用于创建与采购订单相关联的预付款发票。 另一种方法用于通过创建日记帐条目并将它们标记为预付款日记帐凭证来创建预付款日记帐凭证。
 
 组织可能向货物或服务的供应商发布预付款（在满足这些货物或服务之前）。 两种方法可用于向供应商发布预付款。 若要将风险最小化，您可以通过跟踪采购订单上的预付款跟踪这些预付款。 对于此方法，您必须创建与采购订单相关联的预付款发票。 此方法称为预付款开票。 不想那么紧密跟踪预付款或不从供应商那里接收预付款发票的组织可以使用预付款日记帐凭证，而不是预付款开票方法。 您可以通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。 对于此方法，您不能跟踪根据那个采购订单对供应商进行哪种预付款。 但是，您可以比对采购订单标记要进行结算的过帐预付款。
 

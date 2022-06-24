@@ -1,6 +1,6 @@
 ---
-title: 将账单提交至工作流系统并匹配物料收货行
-description: 本主题介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
+title: 将发票提交至工作流系统并匹配物料收货行
+description: 本文介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861609"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>将账单提交至工作流系统并匹配物料收货行
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>将发票提交至工作流系统并匹配物料收货行
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
+本文介绍了将供应商发票提交到工作流系统，并自动将过帐的物料收货行与供应商发票进行匹配的流程。
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>将导入的供应商发票提交到工作流系统，并将过帐的物料收货行与待处理的供应商发票行进行匹配
 

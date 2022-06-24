@@ -1,6 +1,6 @@
 ---
 title: 瑞典控制单元整合示例的部署准则（旧版）
-description: 本主题提供从 Retail SDK 部署瑞典控制单元整合示例的指南
+description: 本文提供从 Retail SDK 部署瑞典控制单元整合示例的指南
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870539"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>瑞典控制单元整合示例的部署准则（旧版）
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Retail 软件开发套件 (SDK) 中部署瑞典控制单元整合示例的指南。 有关此会计整合示例的详细信息，请参阅[瑞典控制单元整合示例](emea-swe-fi-sample.md)。 
+本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Retail 软件开发套件 (SDK) 中部署瑞典控制单元整合示例的指南。 有关此会计整合示例的详细信息，请参阅[瑞典控制单元整合示例](emea-swe-fi-sample.md)。 
 
-瑞典会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT)、Hardware Station 和销售点 (POS) 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Hardware Station 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行此主题中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
+瑞典会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT)、Hardware Station 和销售点 (POS) 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Hardware Station 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
 
 ## <a name="development-environment"></a>开发环境
 
@@ -257,7 +257,7 @@ Hardware Station 扩展是 **HardwareStation.Extension.CleanCashSample**。 它�
 1. 更新 POS 和 Hardware Station 组件，禁用早期示例中的扩展，并启用当前示例的扩展。
 
     > [!NOTE]
-    > 根据环境类型，您可以在此主题的[开发环境中的迁移](#migration-in-a-development-environment)部分或[生产环境中的迁移](#migration-in-a-production-environment)部分中找到有关迁移过程的更多技术细节。
+    > 根据环境类型，您可以在本文的[开发环境中的迁移](#migration-in-a-development-environment)一节或[生产环境中的迁移](#migration-in-a-production-environment)一节中找到有关迁移过程的更多技术细节。
 
 ### <a name="migration-in-a-development-environment"></a>开发环境中的迁移
 

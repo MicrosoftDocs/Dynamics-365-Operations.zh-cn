@@ -1,6 +1,6 @@
 ---
 title: 维护财务维度默认模板
-description: 此主题显示如何设置财务维度默认模板。
+description: 本文演示如何设置财务维度默认模板。
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872403"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 
 [!include [banner](../../includes/banner.md)]
 
-此主题显示如何设置财务维度默认模板。 模板可用于快速分配原始凭证的金额。
+本文演示如何设置财务维度默认模板。 模板可用于快速分配原始凭证的金额。
 
 1. 在导航窗格中，转到 **模块 > 总帐 > 会计科目表 > 维度 > 财务维度默认模板**。
 2. 选择 **新建**。

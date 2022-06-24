@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 中的新增功能或更改（2021 年 3 月 22 日）
-description: 本主题介绍 2021 年 3 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
+description: 本文介绍 2021 年 3 月 22 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 03/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 13520ca55c98fb1acb6185af393550b12fbc2072
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2cfdd0fc1ca7ba206b0f447ecabd801a5a4e8c57
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859479"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Dynamics 365 Human Resources 中的新增功能或更改（2021 年 3 月 22 日）
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -49,9 +49,9 @@ ms.locfileid: "8693519"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 |  说明 |
+| 问题编号 | 问题 |  Description |
 | --- | --- | --- |
 | 554239 | 与 **BusinessProcessTaskAssignment** 表相关的实体的性能改进 | 通过向表添加建议的索引来改进与 **BusinessProcessTaskAssignment** 表相关的实体的性能。 |
 | 566061 | 从每晚同步中删除 V2 实体回退代码 | 删除每晚 Dataverse 同步的 V2 回退代码。不再需要回退，它可以防止筛选的同步按预期工作。 该更改增强了 Dataverse 数据同步的一致性。 |

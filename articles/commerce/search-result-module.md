@@ -1,6 +1,6 @@
 ---
 title: 搜索结果模块
-description: 此主题介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+description: 本文介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: d026de098ec182e3f7631c1c19e54b3b36db341f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886950"
 ---
 # <a name="search-results-module"></a>搜索结果模块
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-此主题介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+本文介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 搜索结果模块返回产品搜索结果和产品的适用优化器列表。 Dynamics 365 Commerce 站点上的搜索结果模块可用于呈现以下场景的页面：
 

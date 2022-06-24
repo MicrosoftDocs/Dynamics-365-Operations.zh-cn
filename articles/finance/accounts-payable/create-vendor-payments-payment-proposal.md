@@ -1,6 +1,6 @@
 ---
 title: 使用付款方案创建供应商付款
-description: 本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。
+description: 本文提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845365"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。 付款方案通常用于创建供应商付款，因为查询可以用于基于到期日期和现金折扣等条件快速选择付款的供应商发票。 
+本文提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。 付款方案通常用于创建供应商付款，因为查询可以用于基于到期日期和现金折扣等条件快速选择付款的供应商发票。 
 
 通常组织使用付款方案创建供应商付款，因为付款方案查询可以用于基于到期日期、现金折扣和其他条件快速选择付款的供应商发票。 
 

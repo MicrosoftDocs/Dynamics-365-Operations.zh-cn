@@ -1,6 +1,6 @@
 ---
 title: 运输管理概览
-description: 本主题提供 Supply Chain Management 中运输管理功能的概览。
+description: 本文提供 Supply Chain Management 中运输管理功能的概览。
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897449"
 ---
 # <a name="transportation-management-overview"></a>运输管理概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供 Supply Chain Management 中运输管理功能的概览。
+本文提供 Supply Chain Management 中运输管理功能的概览。
 
 “运输管理”能让您使用公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述使用运输管理的主要情况。
 

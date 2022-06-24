@@ -1,6 +1,6 @@
 ---
 title: 功能位置生命周期状态
-description: 本主题介绍如何在资产管理中设置功能位置状态和生命周期模型。
+description: 本文介绍如何在资产管理中设置功能位置状态和生命周期模型。
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934654"
 ---
 # <a name="functional-location-lifecycle-states"></a>功能位置生命周期状态
 
@@ -28,7 +28,7 @@ ms.locfileid: "6360962"
 
  
 
-本主题介绍如何在资产管理中设置功能位置生命周期状态和生命周期模型。 功能位置生命周期状态定义功能位置可以经历的状态，如已创建、有效和已结束。 无论功能位置处于哪种生命周期状态，您都可以在 **所有功能位置** 列表页中查看所有功能位置。 可以更改功能位置的状态，方法是在 **所有功能位置** 列表页中选择功能位置，然后选择 **更新功能位置状态**。
+本文介绍如何在资产管理中设置功能位置生命周期状态和生命周期模型。 功能位置生命周期状态定义功能位置可以经历的状态，如已创建、有效和已结束。 无论功能位置处于哪种生命周期状态，您都可以在 **所有功能位置** 列表页中查看所有功能位置。 可以更改功能位置的状态，方法是在 **所有功能位置** 列表页中选择功能位置，然后选择 **更新功能位置状态**。
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>设置功能位置生命周期状态
 
@@ -39,6 +39,7 @@ ms.locfileid: "6360962"
 5. 如果应该可以在此状态时自动创建与功能位置同名的资产并安装到这个功能位置，请在 **创建资产** 切换按钮上选择“是”。  
 >[!NOTE]
 >此切换按钮与 **功能位置类型** 窗体（**资产管理** > **设置** > **功能位置** > **功能位置类型**）中 **常规** 快速选项卡上的 **资产类型** 字段关联。
+
 6. 如果应该可以在此状态更改功能位置的名称，请在 **重命名位置** 切换按钮上选择“是”。
 7. 如果应该可以在此状态向功能位置添加新的子位置，请在 **新建子位置** 切换按钮上选择“是”。
 8. 如果应该可以在此状态在功能位置安装资产，请在 **安装资产** 切换按钮上选择“是”。

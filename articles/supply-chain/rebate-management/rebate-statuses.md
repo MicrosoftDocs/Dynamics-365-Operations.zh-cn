@@ -1,6 +1,6 @@
 ---
 title: 返点状态
-description: 本主题介绍如何设置返点状态。 返点状态可帮助您跟踪每个交易的状态。 您也可以将它们用于报告和查询目的。
+description: 本文介绍如何设置返点状态。 返点状态可帮助您跟踪每个交易的状态。 您也可以将它们用于报告和查询目的。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 47aa3dbd382c9c74e6ac7d731b55430d4be63dec
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86da2dfe3d398ac12dcff45b579a572e31d6a90d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901870"
 ---
 # <a name="rebate-statuses"></a>返点状态
 

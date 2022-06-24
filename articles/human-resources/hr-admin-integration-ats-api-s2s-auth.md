@@ -1,6 +1,6 @@
 ---
 title: ATS 集成 API 的服务器到服务器身份验证
-description: 本主题介绍如何针对 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API 为集成设置服务器到服务器身份验证。
+description: 本文介绍如何针对 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API 为集成设置服务器到服务器身份验证。
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879357"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS 集成 API 的服务器到服务器身份验证
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743532"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍如何针对 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API 为应用程序集成设置服务器到服务器身份验证。 有几个需要管理的安全层，服务主体需要它们才能访问 Microsoft Dataverse 虚拟表和关联数据。 需要向用户授予对 Microsoft Power Platform 中 Dataverse 虚拟表的访问权限，以及对 Dynamics 365 Human Resources 中数据的访问权限。
+本文介绍如何针对 Dynamics 365 Human Resources 申请人跟踪系统 (ATS) 集成 API 为应用程序集成设置服务器到服务器身份验证。 有几个需要管理的安全层，服务主体需要它们才能访问 Microsoft Dataverse 虚拟表和关联数据。 需要向用户授予对 Microsoft Power Platform 中 Dataverse 虚拟表的访问权限，以及对 Dynamics 365 Human Resources 中数据的访问权限。
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>启用对 Power Platform 中 Dataverse 虚拟表的访问权限
 

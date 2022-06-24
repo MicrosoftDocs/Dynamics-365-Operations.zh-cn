@@ -1,6 +1,6 @@
 ---
-title: 为仓库管理移动应用配置字段
-description: 本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
+title: 为 Warehouse Management 移动应用配置字段
+description: 本文介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893227"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为仓库管理移动应用配置字段
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用配置字段
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
+本文介绍如何定义和配置在仓库管理移动应用中显示的字段的名称和优先级。
 
 > [!NOTE]
-> 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 仓库管理移动应用是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 本主题说明如何定义和配置这些仓库管理移动应用字段名称和优先级以及如何使用它们。
+> 本文适用于 Warehouse management 中的功能。 它不适用于库存管理中的功能。 仓库管理移动应用是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 本文说明如何定义和配置这些仓库管理移动应用字段名称和优先级以及如何使用它们。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
@@ -135,7 +135,7 @@ ms.locfileid: "7902288"
 -   第 2 行：物料描述
 -   第 3 行：尺寸
 
-其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章[介绍 Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
+其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章 [介绍 Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
 
 ## <a name="additional-resources"></a>其他资源
 

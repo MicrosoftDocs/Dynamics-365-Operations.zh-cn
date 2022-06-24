@@ -1,6 +1,6 @@
 ---
 title: 服务订单
-description: 本主题概述了如何处理服务订单。
+description: 本文概述了如何处理服务订单。
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45927c318c62a7f02e63ead42f7226ce4530c676
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 606a1e3df72f8a76dab477bb1dd961b6df16f3cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882364"
 ---
 # <a name="service-orders"></a>服务订单
 

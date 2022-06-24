@@ -1,6 +1,6 @@
 ---
-title: 规划全球通讯簿和其他通讯簿
-description: 本主题介绍在计划流程中的考虑事项和必须作出的决定。
+title: 全球通讯簿和其他通讯簿的计划
+description: 本文介绍在计划流程中的考虑事项和必须作出的决定。
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863150"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>全球通讯簿和其他通讯簿的计划
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍您设置和配置全球通讯簿和任何其他通讯簿前，在计划流程中的考虑事项和必须做的决定。 某些决策需要您确认已为产品的其他区域做出了决策，例如组织层次结构。
+本文介绍您设置和配置全球通讯簿和任何其他通讯簿前，在计划流程中的考虑事项和必须做的决定。 某些决策需要您确认已为产品的其他区域做出了决策，例如组织层次结构。
 
 ## <a name="global-address-book"></a>全球通讯簿
 

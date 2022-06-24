@@ -1,6 +1,6 @@
 ---
-title: 设计新的 ER 解决方案打印 ZPL 标签
-description: 本主题介绍如何设计新的电子报告 (ER) 解决方案来打印 Zebra 编程语言 (ZPL) 标签。
+title: 设计新的电子报告解决方案打印 ZPL 标签
+description: 本文介绍如何设计新的电子报告 (ER) 解决方案来打印 Zebra 编程语言 (ZPL) 标签。
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845706"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>设计新的 ER 解决方案打印 ZPL 标签
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>设计新的电子报告解决方案打印 ZPL 标签
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题说明系统管理员、电子报告开发人员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) 框架的参数，设计新的 ER 解决方案所需的 ER [配置](general-electronic-reporting.md#Configuration)来访问仓库管理系统的数据，并以 Zebra 编程语言 (ZPL) II 格式生成自定义仓库位置标签。 这些步骤可以在 **USRT** 公司完成。
+本文说明系统管理员、电子报告开发人员或电子报告功能顾问角色的用户如何配置[电子报告 (ER)](general-electronic-reporting.md) 框架的参数，设计新的 ER 解决方案所需的 ER [配置](general-electronic-reporting.md#Configuration)来访问仓库管理系统的数据，并以 Zebra 编程语言 (ZPL) II 格式生成自定义仓库位置标签。 这些步骤可以在 **USRT** 公司完成。
 
 ## <a name="business-scenario"></a>业务方案
 

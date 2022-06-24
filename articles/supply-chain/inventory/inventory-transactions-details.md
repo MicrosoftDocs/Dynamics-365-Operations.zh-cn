@@ -1,6 +1,6 @@
 ---
 title: 库存交易详细信息
-description: 本主题概述了显示所选库存交易详细信息的“交易详细信息”页面。
+description: 本文概述了显示所选库存交易详细信息的“交易详细信息”页面。
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859378"
 ---
 # <a name="inventory-transaction-details"></a>库存交易详细信息
 
@@ -36,8 +36,8 @@ ms.locfileid: "8735906"
 
 | 快速选项卡 | Description |
 |---|---|
-| 常规 | 此快速选项卡显示有关所选库存交易的基本信息。 除了显示在 **库存交易** 页面上的字段外，还包括此主题中稍后描述的其他字段。 |
-| 更新 | 此快速选项卡显示与所选库存交易的实物、财务和结算方面相关的信息。 根据交易的当前状态，某些字段可能为空白。 但是，在过帐交易时将自动设置这些字段。 除了显示在 **库存交易** 页面上的字段外，此快速选项卡还包括此主题中稍后描述的其他字段。 |
+| 常规 | 此快速选项卡显示有关所选库存交易的基本信息。 除了显示在 **库存交易** 页面上的字段外，还包括本文后面描述的其他字段。 |
+| 更新 | 此快速选项卡显示与所选库存交易的实物、财务和结算方面相关的信息。 根据交易的当前状态，某些字段可能为空白。 但是，在过帐交易时将自动设置这些字段。 除了显示在 **库存交易** 页面上的字段外，此快速选项卡还包括本文后面描述的其他字段。 |
 | 分类帐过帐 | 此快速选项卡显示用于与所选库存交易相关的实际更新、财务更新、实际收入、实际费用、财务收入和财务费用的过帐类型和会计科目。 |
 | 引用 | 此快速选项卡显示有关创建所选库存交易的源交易的附加信息。 例如，此信息可能包括采购订单或销售订单的详细信息。 |
 | 相关信息 | 此快速选项卡显示有关所选库存交易的附加信息。 如果您不使用某些功能（例如采购类别或项目），则可能不会设置这些字段。 |

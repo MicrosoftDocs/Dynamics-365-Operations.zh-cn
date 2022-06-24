@@ -1,6 +1,6 @@
 ---
 title: 创建采购策略
-description: 本主题显示如何创建与您的采购业务流程一致的采购政策。
+description: 本文介绍如何创建与您的采购业务流程一致的采购政策。
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878836"
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 
 [!include [banner](../../includes/banner.md)]
 
-本主题显示如何创建与您的采购业务流程一致的采购政策。 在您可以创建采购政策之前，必须设置采购政策参数。 可以创建、修改和废弃采购政策，但不能删除采购政策。 此过程通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。
+本文介绍如何创建与您的采购业务流程一致的采购政策。 在您可以创建采购政策之前，必须设置采购政策参数。 可以创建、修改和废弃采购政策，但不能删除采购政策。 此过程通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。
 
 
 ## <a name="set-up-policy-parameters"></a>设置政策参数

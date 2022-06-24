@@ -1,6 +1,6 @@
 ---
 title: 客户过帐模板
-description: 本主题介绍客户过帐模板，它控制到总帐的客户交易记录过帐。
+description: 本文介绍客户过帐模板，它控制到总帐的客户交易记录过帐。
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891686"
 ---
 # <a name="customer-posting-profiles"></a>客户过帐模板
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍客户过帐模板，它控制到总帐的客户交易记录过帐。
+本文介绍客户过帐模板，它控制到总帐的客户交易记录过帐。
 
 ## <a name="customer-posting-profiles"></a>客户过帐模板
 

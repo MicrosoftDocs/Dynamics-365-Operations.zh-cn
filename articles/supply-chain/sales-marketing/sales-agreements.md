@@ -1,6 +1,6 @@
 ---
 title: 销售协议概览
-description: 此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
+description: 文本提供有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694359"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903831"
 ---
 # <a name="sales-agreements-overview"></a>销售协议概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
+文本提供有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
 
 销售协议是承诺客户随着时间的推移购买特定数量或特定金额的产品的合同，以交换特价、特殊折扣和其他特殊条款，例如付款和交货期限。 销售协议的价格和折扣覆盖可能存在的贸易协议中指示的价格和折扣。  
 

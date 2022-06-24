@@ -1,6 +1,6 @@
 ---
 title: 条件评估
-description: 本主题介绍如何在资产管理中为资产创建条件评估模板和登记。
+description: 本文介绍如何在资产管理中为资产创建条件评估模板和登记。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872085"
 ---
 # <a name="condition-assessment"></a>条件评估
 
@@ -28,7 +28,7 @@ ms.locfileid: "6736056"
 
  
 
-本主题介绍如何在资产管理中为资产创建条件评估模板和登记。 条件评估定期执行，主要目的是为资产创建和维护条件数据。 从预防性维护角度来看，监视当前条件和剩余寿命之类关键信息至关重要。 此外，如果定期执行评估，就可以监控和比较工厂内的机器条件。
+本文介绍如何在资产管理中为资产创建条件评估模板和登记。 条件评估定期执行，主要目的是为资产创建和维护条件数据。 从预防性维护角度来看，监视当前条件和剩余寿命之类关键信息至关重要。 此外，如果定期执行评估，就可以监控和比较工厂内的机器条件。
 
 条件评估可用于度量和监控设备的各种条件。 示例：可以度量机器的振动。 在资产管理中为各种设备登记了振动度量之后，可以搜索最近登记的评估和查看振动度量。
 

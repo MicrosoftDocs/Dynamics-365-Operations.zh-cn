@@ -1,8 +1,8 @@
 ---
 title: 电子消息
-description: 此主题提供 Microsoft Dynamics 365 Finance 中电子消息的概述和设置信息。
+description: 本文提供 Microsoft Dynamics 365 Finance 中电子消息的概述和设置信息。
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934675"
 ---
 # <a name="electronic-messaging"></a>电子消息
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供 **电子消息** (EM) 功能的概述和设置信息。
+本文提供 **电子消息** (EM) 功能的概述和设置信息。
 
 最近，全世界各个国家和地区的政府与立法机构对在这些国家或地区注册的公司实施了报告要求。 要求的目的是支持数据以电子格式从这些公司、直接从具有、存储和处理数据的系统获取。
 
@@ -58,6 +58,16 @@ EM 功能支持以下场景：
 - 存储和查看与为消息或消息项运行的行动有关的所有日志信息。
 - 通过各个消息状态和消息项状态控制处理。
 
+## <a name="security-privileges"></a>安全特权
+
+以下安全权限可用于电子消息。
+
+| 安全权限           | 访问级别 | 关联 |
+|------------------------------|--------------|-------------|
+| 维护电子消息 | 此权限提供 EM 功能的完全访问权限。 如果您有此权限，则可以设置电子消息和运行所有处理。 | 此特权包含在 **维护销售税交易记录** 安全责任中。 而该责任则包含在 **会计师** 安全角色中。 |
+| 查看电子消息     | 此权限提供 EM 功能的只读访问权限。 如果您有此权限，则可以查看电子消息设置和消息。 但是，不能设置和运行任何内容。 | 此特权包含在 **查询销售税交易记录状态** 安全责任中。 而该责任则包含在以下安全角色中：<ul><li>收款经理</li><li>应收帐款员</li><li>应收帐款经理</li><li>税务会计师</li><li>会计师</li><li>会计经理</li><li>会计主管</li><li>销售经理</li><li>应付帐款员</li></ul> |
+| 操作电子消息  | 此权限仅提供 **电子消息** 和 **电子消息项** 页面的访问权限。 如果您有此权限，则可以运行从这些页面调用的所有处理。 | 此权限包含在 **操作电子消息** 安全责任中。 而该责任则包含在 **电子消息操作员** 安全角色中。 |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>EM 功能支持的特定于国家/地区的监管功能
 
 下表提供了有关 EM 功能支持的特定于某些国家/地区的监管功能的信息。
@@ -78,7 +88,13 @@ EM 功能支持以下场景：
 | 俄罗斯      | [估定税申报](../localizations/rus-assessed-tax-declaration.md) | |
 | 俄罗斯      | [运输税申报](../localizations/rus-transport-tax-declaration.md) | |
 | 俄罗斯      | [土地税申报](../localizations/rus-land-tax-declaration.md) | |
-
+| 挪威      | [直接提交给 Altinn 的增值税退税](../localizations/emea-nor-vat-return.md) | [在 Dynamics 365 Finance 中直接提交给 Altinn 的增值税退税（新）](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| 法国      | [增值税申报（法国）](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| 奥地利     | [增值税申报（奥地利）](../localizations/emea-aut-vat-declaration-austria.md) | |
+| 德国     | [增值税申报（德国）](../localizations/emea-deu-vat-declaration-germany.md) | |
+| 荷兰 | [荷兰增值税申报](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| 瑞典      | [增值税申报（瑞典）](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| 瑞士 | [增值税申报（瑞士）](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: 虚拟物料
-description: 此主题介绍如何在 Dynamics 365 Supply Chain Management 中在物料清单 (BOM) 和配方的行中使用虚拟行类型。
+description: 本文介绍如何在 Dynamics 365 Supply Chain Management 中在物料清单 (BOM) 和配方的行中使用虚拟行类型。
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893314"
 ---
 # <a name="phantom-items"></a>虚拟物料
 
 [!include [banner](../includes/banner.md)]
 
-此主题详细介绍如何在物料清单 (BOM) 和配方的行中使用虚拟行类型。
+本文详细介绍如何在物料清单 (BOM) 和配方的行中使用虚拟行类型。
 
 在图 1 中，(a) 是产品 H 和部件 F 和 G 的物料清单，而 (b) 则是产品 H 和部件 F 的工艺路线单。
 

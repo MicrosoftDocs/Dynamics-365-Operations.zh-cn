@@ -1,6 +1,6 @@
 ---
-title: 购物车和结账页面概览
-description: 此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
+title: 购物车和结帐页面概览
+description: 本文概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853759"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>购物车和结帐页面概览
 
 [!include [banner](includes/banner.md)]
 
-此主题概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
+本文概述 Microsoft Dynamics 365 Commerce 中的购物车和结帐页。
 
 电子商务网站的购物车页显示客户已添加到购物车的所有商品。 购物车页是使用购物车模块生成的。 购物车模块是承载展示购物车中的商品所需全部模块的容器。 购物车模块也可以使用其他模块显示订单汇总和已经为客户订单应用的任何促销代码。
 

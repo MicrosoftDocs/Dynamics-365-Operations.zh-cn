@@ -1,6 +1,6 @@
 ---
 title: 更改工作的工作池
-description: 本主题说明如何使用工作项的“更改工作池”按钮来更改现有工作的工作池。
+description: 本文说明如何使用工作项的“更改工作池”按钮来更改现有工作的工作池。
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900613"
 ---
 # <a name="change-work-pool-on-work"></a>更改工作的工作池
 
@@ -34,14 +34,14 @@ ms.locfileid: "8669843"
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>设置“更改工作的工作池”功能
 
-要使用此功能，您必须设置一些工作池。 您还可以设置工作模板，让它们自动分配池。 如果要完成本主题后文提供的示例场景，请按照本部分中的说明设置系统。
+要使用此功能，您必须设置一些工作池。 您还可以设置工作模板，让它们自动分配池。 如果要完成本文后面提供的示例场景，请按照本部分中的说明设置系统。
 
 ### <a name="set-up-work-pools"></a>设置工作池
 
 工作池让您可以按类型组织工作项。 要使用 *更改工作的工作池* 功能，您必须至少有两个可用工作池。 要查看和添加工作池，请按照下列步骤操作。
 
 1. 转到 **仓库管理 \> 设置 \> 工作 \> 工作池**。
-1. 如果您使用的是 **USMF** 公司的演示数据，并将演练本主题后面的示例方案，请添加两个具有以下设置的工作池：
+1. 如果您使用的是 **USMF** 公司的演示数据，并将演练本文后面的示例方案，请添加两个具有以下设置的工作池：
 
     - 工作池 1：
 
@@ -57,7 +57,7 @@ ms.locfileid: "8669843"
 
 ### <a name="set-up-work-templates"></a>设置工作模板
 
-对于每个工作模板，您可以根据需要设置默认工作池。 对于每个相关模板，您可以在 **工作池 ID** 栏分配工作池。 这样，使用给定模板生成的所有工作项将会自动继承分配的工作池。 如果您使用的是 **USMF** 公司的演示数据，并将演练本主题后面的示例方案，请按照以下步骤操作。
+对于每个工作模板，您可以根据需要设置默认工作池。 对于每个相关模板，您可以在 **工作池 ID** 栏分配工作池。 这样，使用给定模板生成的所有工作项将会自动继承分配的工作池。 如果您使用的是 **USMF** 公司的演示数据，并将演练本文后面的示例方案，请按照以下步骤操作。
 
 1. 转到 **仓库管理 \> 设置 \> 工作 \> 工作模板**。
 1. 在操作窗格上，选择 **编辑** 将页面设置为编辑模式。
@@ -70,7 +70,7 @@ ms.locfileid: "8669843"
 
 ## <a name="example-scenario"></a>示例场景
 
-此方案演示如何通过更改工作项的工作池来更改现有工作项的处理流。 它使用 **USMF** 公司的演示数据以及本主题前面建议的设置。
+此方案演示如何通过更改工作项的工作池来更改现有工作项的处理流。 它使用 **USMF** 公司的演示数据以及本文前面建议的设置。
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>创建销售订单并将其下达到仓库
 

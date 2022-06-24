@@ -1,6 +1,6 @@
 ---
 title: 提高计划编制引擎性能
-description: 本主题提供了有关计划编制引擎以及如何提高性能的信息。
+description: 本文提供了有关计划编制引擎以及如何提高性能的信息。
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854288"
 ---
 # <a name="improve-scheduling-engine-performance"></a>提高计划编制引擎性能
 
@@ -29,7 +29,7 @@ ms.locfileid: "8468997"
 
 在为计划和下达的生产订单计划编制工艺路线时，将使用资源计划编制引擎。 该引擎最初作为 Dynamics AX 2012 的一部分发布，自发布以来，经过了多次改进。
 
-[作业车间计划编制问题](https://en.wikipedia.org/wiki/Job_shop_scheduling)是一个极其复杂的组合问题，解决方案时间随决策变量的数量呈指数增长。 通常，客户设置生产工艺路线和相关数据的方式会导致计划编制问题，即使在最先进的硬件上也无法在合理的时间内解决该问题。 本主题将帮助您了解计划编制引擎以及特定的设置如何影响性能。
+[作业车间计划编制问题](https://en.wikipedia.org/wiki/Job_shop_scheduling)是一个极其复杂的组合问题，解决方案时间随决策变量的数量呈指数增长。 通常，客户设置生产工艺路线和相关数据的方式会导致计划编制问题，即使在最先进的硬件上也无法在合理的时间内解决该问题。 本文将帮助您了解计划编制引擎以及特定的设置如何影响性能。
 
 在提高计划编制性能时，一般准则建议降低引擎需要解决的问题的复杂性。 可能影响性能的一些主要因素包括：
 

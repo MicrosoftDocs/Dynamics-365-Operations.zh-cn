@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources（2020 年 12 月 2 日）中的新增功能或更改
-description: 本主题介绍 2020 年 12 月 2 日 Microsoft Dynamics 365 Human Resources 中的新增或更改的功能。
+description: 本文介绍 2020 年 12 月 2 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848098"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Dynamics 365 Human Resources（2020 年 12 月 2 日）中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -52,9 +52,9 @@ ms.locfileid: "6782651"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 签发 | 说明 |
+| 问题编号 | 问题 | Description |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult 应包括在处理中使用的日期/时间。 | BenefitEligibity 处理结果现在包括上次处理的 datetimestamp，它在之前已丢失。 |
 | 526903 | 当在 **Human Resources 共享参数** 中打开 **自动选择指定人员** 时，具有依赖方的计划的福利登记将失败。 | 修复了在为默认指定人员打开 **自动选择指定人员** 选项时依赖方的福利登记失败的问题。 |

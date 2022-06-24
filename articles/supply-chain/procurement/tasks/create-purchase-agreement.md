@@ -1,6 +1,6 @@
 ---
 title: 创建采购协议
-description: 此主题从头至尾指导您创建一份采购协议。
+description: 本文从头至尾指导您创建一份采购协议。
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877557"
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 
 [!include [banner](../../includes/banner.md)]
 
-此主题从头至尾指导您创建一份采购协议。 这通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始之前，您需要设置采购协议分类。 一旦创建完协议，您可以在创建采购订单时使用该协议，并且这会将采购协议条件复制到受该协议影响的订单的标题和任何行。
+本文从头至尾指导您创建一份采购协议。 这通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始之前，您需要设置采购协议分类。 一旦创建完协议，您可以在创建采购订单时使用该协议，并且这会将采购协议条件复制到受该协议影响的订单的标题和任何行。
 
 
 ## <a name="create-a-new-purchase-agreement"></a>新建采购协议

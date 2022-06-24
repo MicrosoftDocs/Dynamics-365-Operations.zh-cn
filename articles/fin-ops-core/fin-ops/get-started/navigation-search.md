@@ -1,6 +1,6 @@
 ---
 title: 导航搜索
-description: 本主题说明如何使用搜索功能来导航到页面。
+description: 本文说明如何使用搜索功能来导航到页面。
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872669"
 ---
 # <a name="navigation-search"></a>导航搜索
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069976"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题说明如何使用搜索功能来导航到页面。
+本文说明如何使用搜索功能来导航到页面。
 
 此应用程序包括大量区域和页面，可帮助您执行各种任务。 要快速查找完成任务所需的页面，请使用导航搜索功能。
 

@@ -1,6 +1,6 @@
 ---
-title: 选项卡模块
-description: 本主题介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+title: 标签模块
+description: 本文介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 104fb57cfdcd96a0da50899c0eac576074282017
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 6453db5038e3f25df73b7b656bc53df2d936affb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873106"
 ---
 # <a name="tab-module"></a>标签模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
+本文介绍选项卡模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 
 选项卡模块是类似于容器的模块，用于组织选项卡的站点页面上的信息。 此类模块可以在必须在选项卡上呈现信息的任何页面上使用。
 

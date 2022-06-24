@@ -1,6 +1,6 @@
 ---
 title: 创建服务协议组
-description: 本主题提供了展示如何创建服务协议组的过程。
+description: 本文提供了展示如何创建服务协议组的过程。
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9d94dfe38a6aef765bb1089908827275c00b3dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889477"
 ---
 # <a name="create-service-agreement-groups"></a>创建服务协议组 
 
@@ -37,7 +37,7 @@ ms.locfileid: "8677273"
 > [!NOTE]
 > 如果在 **服务管理参数** 页的 **服务协议组** 字段中定义了某一服务协议组，则系统会将该组建议用于您创建的所有新服务协议。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [服务协议概览](service-agreement-groups.md)
 

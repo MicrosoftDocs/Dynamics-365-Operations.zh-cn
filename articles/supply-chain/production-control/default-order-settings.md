@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862560"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>维度和产品变型的默认订单设置
 
@@ -38,7 +38,7 @@ Dynamics 365 Supply Chain Management 中的默认订单设置定义作为物料�
     - 在 **计划** 选项卡上的 **订单设置** 组中，选择 **默认订单设置**。
     - 在 **库存管理** 选项卡上的 **订单设置** 组中，选择 **默认订单设置**。
 
-1. 如本主题其余部分所述配置设置。
+1. 如本文其余部分所述配置设置。
 
 ## <a name="default-order-settings"></a>默认订单设置
 

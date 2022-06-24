@@ -1,6 +1,6 @@
 ---
-title: 印度从源扣缴税款 (TDS) 概述
-description: 本主题提供有关印度从源扣缴税款 (TDS) 的详细信息。 TDS 文档涵盖了此功能的功能性。
+title: 印度从源扣缴税款 (TDS) 概览
+description: 本文提供有关印度从源扣缴税款 (TDS) 的详细信息。 TDS 文档涵盖了此功能的功能性。
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896274"
 ---
-# <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概述
+# <a name="indian-tax-deducted-at-source-tds-overview"></a>印度从源扣缴税款 (TDS) 概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关印度从源扣缴税款 (TDS) 的详细信息。
+本文提供有关印度从源扣缴税款 (TDS) 的详细信息。
 
 TDS 文档涵盖了此功能的功能性。 它还说明了如何进行 TDS 的基本设置，计算交易的 TDS，完成 TDS 结算流程，记录 TDS 证书编号以及生成 TDS 查询、TDS 对帐单和 TDS 证书。 该文档包含以下主题：
 

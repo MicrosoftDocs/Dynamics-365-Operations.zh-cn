@@ -1,6 +1,6 @@
 ---
-title: 在销售点 (POS) 启用客户登记通知
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
+title: 启用销售点 (POS) 中的客户签入通知
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885137"
 ---
-# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>在销售点 (POS) 启用客户登记通知
+# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>启用销售点 (POS) 中的客户签入通知
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
+本文介绍如何在 Microsoft Dynamics 365 Commerce 销售点 (POS) 启用客户登记通知。
 
 在“订单可提货”电子邮件中，组织可以提供一个链接或按钮，让客户通知商店他们已经到达商店位置，在等待包裹出来。 然后，客户将收到登记确认，商店将在其 POS 应用程序中收到作为任务的通知。 此任务作为提醒销售助理将订单交到客户车辆处的提示。 因此，客户不必进入商店。
 
@@ -70,7 +70,7 @@ ms.locfileid: "7983153"
 1. 签入页面，但不发布。
 1. 将以下链接添加到由交货提货方式的打包完成通知类型调用的电子邮件模板。 有关详细信息，请参阅[创建交易事件的电子邮件模板](email-templates-transactions.md)。
 
-    - **对于预生产 (UAT) 环境：** 添加本主题前面[配置交易电子邮件模板](#configure-the-transactional-email-template)一节中的代码片段。
+    - **对于预生产 (UAT) 环境：** 添加本文前面[配置交易电子邮件模板](#configure-the-transactional-email-template)一节中的代码片段。
     - **对于生产环境：** 添加以下注释代码，以便现有客户不受影响。
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

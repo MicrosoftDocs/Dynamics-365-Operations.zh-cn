@@ -1,6 +1,6 @@
 ---
 title: 埃及增值税申报
-description: 本主题说明如何配置和生成埃及增值税退税表。
+description: 本文说明如何配置和生成埃及增值税退税表。
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870026"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403940"
 
 [!include[banner](../includes/banner.md)]
 
-本主题说明如何为埃及中的法人设置和生成增值税退税单和买卖账簿。
+本文说明如何为埃及中的法人设置和生成增值税退税单和买卖账簿。
 
 埃及的增值税退税表是一份官方文件，其中汇总了应缴的销项增值税总额、应退回的进项增值税总额以及相关的增值税额负债。 该表适用于所有类型的纳税人，应通过税务机关门户手动填写。 增值税退税表通常称为增值税退税申报表。
 
-Dynamics 365 Finance 中的增值税退税表包括以下报告：
+Dynamics 365 Finance 中的增值税退税表包括以下报表：
 
 - 增值税退税表编号 10，按法律规定，此表提供了增值税退税表中各行项目的金额、调整和增值税额的明细。
 - 销售交易簿

@@ -1,6 +1,6 @@
 ---
 title: 外围设备
-description: 此主题介绍与商业外设有关的概念。
+description: 本文介绍与商业外设有关的概念。
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880073"
 ---
 # <a name="peripherals"></a>外围设备
 
 [!include[banner](includes/banner.md)]
 
-此主题介绍与商店外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
+本文介绍与商店外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 
 ## <a name="concepts"></a>概念
 
@@ -55,7 +55,7 @@ Modern POS for Android 是基于 Android 且可部署到 Android 设备上的 Mo
 
 ### <a name="pos-peripherals"></a>POS 外设
 
-POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常划分为特定类。 有关这些类的详细信息，请参阅此主题的“设备分类”部分。
+POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常划分为特定类。 有关这些类的详细信息，请参阅本文的“设备分类”一节。
 
 ### <a name="hardware-station"></a>硬件工作站
 

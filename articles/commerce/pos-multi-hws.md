@@ -1,6 +1,6 @@
 ---
 title: 打印机和银箱的专用的付款终端和提示
-description: 本主题提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
+description: 本文提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874913"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>打印机和银箱的专用的付款终端和提示
 
 [!include [banner](includes/banner.md)]
 
-本主题提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
+本文提供有关使用专用付款终端以及提示用户选择银箱和收据打印机的功能的信息。
 
 ## <a name="overview"></a>概览
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce 通过实现以下方案来支持这些趋势：
 
 ## <a name="supported-pos-clients-and-devices"></a>支持的 POS 客户端和设备
 
-本主题中介绍的功能由适用于 Windows 的 Modern POS 和适用于 Android的 Modern POS 的 POS 客户端支持。
+本文中介绍的功能由适用于 Windows 的 Modern POS 和适用于 Android的 Modern POS 的 POS 客户端支持。
 
 此功能支持网络支持的付款终端和收据打印机。 您可以通过 d/k 端口将银箱连接到网络支持的收据打印机，以此来提供银箱支持。
 

@@ -1,6 +1,6 @@
 ---
 title: 返点管理参数
-description: 本主题介绍返点管理参数页面。 此页面包含影响过帐、状态更新、编号规则和其他行为的设置。
+description: 本文介绍返点管理参数页面。 此页面包含影响过帐、状态更新、编号规则和其他行为的设置。
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895516"
 ---
 # <a name="rebate-management-parameters"></a>返点管理参数
 
@@ -45,9 +45,9 @@ ms.locfileid: "8688982"
 
 ## <a name="number-sequences-tab"></a>“编号规则”选项卡
 
-使用 **返点管理参数** 页面上的 **编号规则** 选项卡，将编号规则代码分配到返点管理使用的不同编号规则。 下表介绍了每个编号规则的用途。 有关编号规则的详细信息，请参阅[编号规则概述](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)及其相关主题。
+使用 **返点管理参数** 页面上的 **编号规则** 选项卡，将编号规则代码分配到返点管理使用的不同编号规则。 下表介绍了每个编号规则的用途。 有关编号规则的详细信息，请参阅[编号规则概述](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)及其相关文章。
 
-| 参考 | 说明 |
+| 参考 | Description |
 |---|---|
 | 返点管理交易 | 编号规则向每个返点交易分配唯一的键值。 创建交易时使用此键。 |
 | 返点管理编号 | 编号规则向每个返点分配唯一的键值。 此键用于标识返点关系。 |

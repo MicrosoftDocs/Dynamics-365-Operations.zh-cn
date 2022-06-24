@@ -1,6 +1,6 @@
 ---
 title: 为 POS 登录配置 Azure Active Directory 身份验证
-description: 本主题说明如何将 Azure Active Directory 配置为 Microsoft Dynamics 365 Commerce 销售点中的身份验证方法。
+description: 本文说明如何将 Azure Active Directory 配置为 Microsoft Dynamics 365 Commerce 销售点中的身份验证方法。
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853920"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>为 POS 登录配置 Azure Active Directory 身份验证
 
 [!include [banner](includes/banner.md)]
 
-本主题说明如何将 Azure Active Directory (Azure AD) 配置为 Microsoft Dynamics 365 Commerce 销售点 (POS) 中的身份验证方法。
+本文说明如何将 Azure Active Directory (Azure AD) 配置为 Microsoft Dynamics 365 Commerce 销售点 (POS) 中的身份验证方法。
 
 将 Dynamics 365 Commerce 与其他 Microsoft 云服务（如 Microsoft Azure、Microsoft 365 和 Microsoft Teams）一起使用的零售商通常希望使用 Azure AD 集中管理用户凭据，以跨各个应用程序实现安全、无缝的登录体验。 若要将 Azure AD 身份验证用于 Commerce POS，必须首先将 Azure AD 配置为 Commerce Headquarters 中的身份验证方法。
 

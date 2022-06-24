@@ -1,6 +1,6 @@
 ---
 title: 将“税款计算服务”的税务设置同步到 Dynamics 365 Finance
-description: 本主题介绍如何将税款计算服务中的税务设置主数据同步到 Microsoft Dynamics 365 Finance。
+description: 本文介绍如何将税款计算服务中的税务设置主数据同步到 Microsoft Dynamics 365 Finance。
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853148"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>将“税款计算服务”的税务设置同步到 Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何将税款计算服务中的税务设置主数据同步到 Microsoft Dynamics 365 Finance。
+本文介绍如何将税款计算服务中的税务设置主数据同步到 Microsoft Dynamics 365 Finance。
 
 完成[开始使用税款计算](global-get-started-with-tax-calculation-service.md)中的必需设置步骤后，以下税务设置数据将从税款计算服务自动同步到 Finance。
 

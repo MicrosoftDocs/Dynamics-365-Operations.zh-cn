@@ -1,6 +1,6 @@
 ---
-title: 常规故障排除
-description: 本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
+title: 常规疑难解答
+description: 本文提供财务和运营应用与 Dataverse 之间的双写入集成的一般故障排除信息。
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853646"
 ---
 # <a name="general-troubleshooting"></a>常规疑难解答
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614086"
 
 
 
-本主题提供财务和运营应用与 Dataverse 之间的双写入集成的一般疑难解答信息。
+本文提供财务和运营应用与 Dataverse 之间的双写入集成的一般故障排除信息。
 
 > [!IMPORTANT]
-> 本主题解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
+> 本文解决的某些问题可能需要系统管理员角色或 Microsoft Azure Active Directory (Azure AD) 租户管理员凭据。 介绍每个问题的每一节说明了是否需要特定角色或凭据。
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>在 Dataverse 中启用和查看插件跟踪日志以查看错误详细信息
 

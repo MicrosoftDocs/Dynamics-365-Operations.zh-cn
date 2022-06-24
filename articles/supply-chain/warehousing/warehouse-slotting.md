@@ -1,6 +1,6 @@
 ---
 title: 仓库时隙
-description: 文主题提供有关仓库时隙的信息。 仓库时隙用于按物料和度量单位合并状态为“订购”、“预留”或“下达”的订单中的需求。 其可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料货位。
+description: 本文提供有关仓库时隙的信息。 仓库时隙用于按物料和度量单位合并状态为“订购”、“预留”或“下达”的订单中的需求。 其可帮助仓库经理在将订单下达到仓库并创建领料工作之前，智能计划领料货位。
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897246"
 ---
 # <a name="warehouse-slotting"></a>仓库时隙
 
@@ -156,7 +156,7 @@ ms.locfileid: "8676290"
 
     - **度量单位层：**_EaBoxPl_
 
-        此字段定义行的有效需求度量单位。 （有关详细信息，请参阅本主题前面的[为时隙设置度量单位层](#unit-tiers)部分。）
+        此字段定义行的有效需求度量单位。 （有关详细信息，请参阅本文前面的[为时隙设置度量单位层](#unit-tiers)一节。）
 
     - **分配时隙条件：**_考虑数量_
 

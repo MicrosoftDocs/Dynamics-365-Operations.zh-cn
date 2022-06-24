@@ -1,6 +1,6 @@
 ---
 title: 牌照标签的文档路线选择布局
-description: 此主题介绍如何使用格式设置方法打印标签上的值。
+description: 本文介绍如何使用格式设置方法打印标签上的值。
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847866"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
 
@@ -53,7 +53,7 @@ ms.locfileid: "8103882"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
 
-如果您的系统尚未包含本主题中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *增强的牌照标签布局* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。）
+如果您的系统尚未包含本文中所述的功能，请转到 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *增强的牌照标签布局* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。）
 
 ## <a name="custom-number-formats"></a>自定义数字格式
 
@@ -129,7 +129,7 @@ Some City, Some State
 $DisplayMethod()$
 ```
 
-可以将此格式与此主题中前面介绍的其他类型组合使用。 例如，您有一个显示方法名称为 `DisplayListOfItemsNumbers()`，而您希望打印此方法的第一个项目编号。 在这种情况下，可以使用以下代码。
+可以将此格式与本文中前面介绍的其他类型组合使用。 例如，您有一个显示方法名称为 `DisplayListOfItemsNumbers()`，而您希望打印此方法的第一个项目编号。 在这种情况下，可以使用以下代码。
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

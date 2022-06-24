@@ -1,6 +1,6 @@
 ---
 title: 成本累积政策和开销计算
-description: 本主题提供有关如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
+description: 本文提供有关如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874600"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
@@ -33,7 +33,7 @@ ms.locfileid: "8734420"
 -   开销计算生成的成本条目数量可能非常高。
 -   无法跟踪成本对象间的成本流。
 
-要避免这些影响，成本核算让您能够配置成本分配以适应您的组织的管理报告要求。 本主题讨论您可以如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
+要避免这些影响，成本核算让您能够配置成本分配以适应您的组织的管理报告要求。 本文讨论您可以如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
 
 > [!NOTE]
 > 如果报告要求发生更改，您可以更改配置。

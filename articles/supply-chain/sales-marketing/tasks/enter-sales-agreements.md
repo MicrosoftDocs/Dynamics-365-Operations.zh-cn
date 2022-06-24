@@ -1,6 +1,6 @@
 ---
-title: 输入销售协议
-description: 此主题介绍如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的销售协议。
+title: 签订销售协议
+description: 本文介绍如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的销售协议。
 author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b3aa72057753a9592fd47275dc996a3a904d86b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897478"
 ---
-# <a name="enter-sales-agreements"></a>输入销售协议
+# <a name="enter-sales-agreements"></a>签订销售协议
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的销售协议。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
+本文介绍如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的销售协议。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 
 
 ## <a name="set-up-sales-agreement-header"></a>设置销售协议标题

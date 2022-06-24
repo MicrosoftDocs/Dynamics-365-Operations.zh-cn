@@ -1,6 +1,6 @@
 ---
 title: 工作拆分
-description: 此主题提供有关工作拆分功能的信息。 使用此功能，您可以将大型工作订单拆分为几个较小的工作订单，然后将其分配给多个仓库工作人员。 这样，同一个工作可以同时由几个仓库工人工作人员选择。
+description: 本文提供有关工作拆分功能的信息。 使用此功能，您可以将大型工作订单拆分为几个较小的工作订单，然后将其分配给多个仓库工作人员。 这样，同一个工作可以同时由几个仓库工人工作人员选择。
 author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 83333f4d8c755bc0ca4b2d141a5591ef43501b64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857016"
 ---
 # <a name="work-split"></a>工作拆分
 

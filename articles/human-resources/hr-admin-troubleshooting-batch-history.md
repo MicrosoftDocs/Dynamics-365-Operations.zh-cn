@@ -1,6 +1,6 @@
 ---
 title: 使用自动清理任务优化性能
-description: 此主题介绍如何通过清理批处理作业历史记录来提升 Microsoft Dynamics 365 Human Resources 中的性能。
+description: 本文介绍如何通过清理批处理作业历史记录来提升 Microsoft Dynamics 365 Human Resources 中的性能。
 author: twheeloc
 ms.date: 08/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 47cd132c188c39c8700cae6035ae75d0ce71d841
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10d535e54f71e7bb90c7385e09926270a446df7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902189"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>使用自动清理任务优化性能
 

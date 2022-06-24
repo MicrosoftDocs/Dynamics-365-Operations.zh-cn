@@ -1,6 +1,6 @@
 ---
 title: 安装和连接仓库应用
-description: 此主题说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
+description: 本文说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Microsoft Dynamics 365 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885745"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>安装和连接仓库应用
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 本主题介绍了如何配置旧仓库应用（现在已弃用）。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
+> 本文介绍了如何配置旧仓库应用（现在已弃用）。 如果您要查找有关如何配置新仓库管理移动应用的信息，请参阅[安装和连接仓库管理移动应用](install-configure-warehouse-management-app.md)。
 
 > [!NOTE]
-> 本主题介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
+> 本文介绍如何为云部署配置仓库应用。 如果您需要了解有关如何为本地部署配置仓库应用的信息，请参阅[用于本地部署的仓库](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
 
 可从 Google Play Store 和 Microsoft Store 获取仓库应用。 其以独立组件的形式提供。 因此，必须将其下载到每个设备，然后进行配置以连接到 Microsoft Dynamics 365 Supply Chain Management 环境。
 
-此主题说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
+本文说明如何在每个移动设备上安装仓库应用，以及如何进行配置以将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 
 ## <a name="system-requirements"></a>系统要求
 
@@ -76,11 +76,11 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 
     ![注册应用程序向导。](media/app-connect-azure-register-wizard.png "注册应用程序向导")
 
-1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本主题后文将此 ID 称为 *客户端 ID*。
+1. 将打开您的新应用注册。 记下 **应用程序（客户端）ID** 值，因为后面需要该值。 本文后面将此 ID 称为 *客户端 ID*。
 
     ![应用程序（客户端）ID。](media/app-connect-azure-app-id.png "应用程序（客户端）ID")
 
-1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本主题后文的[使用证书或客户端密码](#authenticate)部分。）
+1. 在 **管理** 列表中，选择 **证书和密码**。 然后选择下面的一个按钮，具体取决于要如何针对身份验证配置应用。 （有关详细信息，请参阅本文后面的[使用证书或客户端密码](#authenticate)一节。）
 
     - **上传证书** – 上传证书充当密码。 建议使用此方法，因为更安全，也可以更完整地自动执行。 如果要在 Windows 设备上运行仓库应用，请记下上传证书后显示的 **指纹** 值。 在 Windows 设备上配置证书时需要此值。
     - **新客户端密码** – 通过在 **密码** 部分中输入密钥说明和持续时间创建密钥，然后选择 **添加**。 创建密钥备份，然后安全存储。
@@ -90,7 +90,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 有关如何在 Azure AD 中设置 Web 服务应用程序的详细信息，请参阅以下资源：
 
 - 有关如何使用 Windows PowerShell 在 Azure AD 中设置 Web 服务应用程序的说明，请参阅[方法：使用 Azure PowerShell 和证书创建服务主体](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)。
-- 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下主题：
+- 有关如何在 Azure AD 中手动创建 Web 服务应用程序的完整详细信息，请参阅以下文章：
 
     - [快速入门：向 Microsoft 身份平台注册应用程序](/azure/active-directory/develop/quickstart-register-app)
     - [方法：使用门户创建可访问资源的 Azure AD 应用程序和服务主体](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Windows 和 Android 操作系统均支持此仓库应用。 若要使用此应�
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>使用证书或客户端密码进行身份验证
 
-使用 Azure AD 进行身份验证可以安全地将移动设备连接到 Supply Chain Management。 可以通过使用客户端密码或证书进行身份验证。 如果将导入连接设置，建议使用证书，不使用客户端密码。 因为客户端密码始终安全存储，所以不能从连接设置文件或 QR 代码导入，如本主题后文所述。
+使用 Azure AD 进行身份验证可以安全地将移动设备连接到 Supply Chain Management。 可以通过使用客户端密码或证书进行身份验证。 如果将导入连接设置，建议使用证书，不使用客户端密码。 因为客户端密码始终安全存储，所以不能从连接设置文件或 QR 代码导入，如本文后面所述。
 
 请求令牌时，可以将证书用作密码来证明应用程序的身份。 将把证书的公开部分上传到 Azure 门户中的应用注册，虽然必须将完整证书部署到安装仓库应用的每个设备上。 您的组织负责以轮换等方式管理证书。 可使用自签名证书，但是始终应该使用不可导出证书。
 

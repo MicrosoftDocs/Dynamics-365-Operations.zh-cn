@@ -1,6 +1,6 @@
 ---
 title: 德国的会计登记服务集成示例
-description: 此主题提供 Microsoft Dynamics 365 Commerce 中德国的会计整合示例。
+description: 本文提供 Microsoft Dynamics 365 Commerce 中德国的会计整合示例。
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867750"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>德国的会计登记服务集成示例
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供 Microsoft Dynamics 365 Commerce 中德国的会计整合示例。
+本文提供 Microsoft Dynamics 365 Commerce 中德国的会计整合示例。
 
 为了满足德国收银机的当地会计要求，适用于德国的 Microsoft Dynamics 365 Commerce 功能将包括销售点 (POS) 与外部会计登记服务集成的示例。 该示例扩展了[会计整合功能](fiscal-integration-for-retail-channel.md)。 它基于 [EFSTA](https://www.efsta.eu/de/) 中的 [EFR（电子会计登记簿）](https://www.efsta.eu/de/fiskalloesungen/deutschland)解决方案，并允许通过 HTTPS 协议与 EFR 服务通信。 EFR 服务应托管在 Retail Hardware Station 或可从 Hardware Station 连接到的单独计算机上。 该示例以源代码的形式提供，是 Retail 软件开发工具包 (SDK) 的一部分。
 

@@ -1,6 +1,6 @@
 ---
-title: 比较云和本地功能
-description: 此主题显示在云和本地支持的功能。
+title: 云和本地功能的比较
+description: 本文显示在云和本地支持的功能。
 author: sericks007
 ms.date: 01/14/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4096089978032f150bf6d711711a948cf1d3232f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879766"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
 [!include [banner](../includes/banner.md)]
 
-本主题显示以下应用程序的可用的云与本地功能的比较：
+本文显示以下应用程序的可用的云与本地功能的比较：
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
@@ -38,7 +38,7 @@ ms.locfileid: "6736214"
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-| **面积**             | **功能**                | **云** | **本地** |
+| **范围**             | **功能**                | **云** | **本地** |
 |---------------------|-----------------------------|-----------|-----------------|
 | 符合性和证书        |                                                                                           | 是       | 是             |
 |                                      | SOC 1 类型 1 认证                                                                | 是       | 否              |

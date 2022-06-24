@@ -1,6 +1,6 @@
 ---
 title: 交互式功能模块
-description: 此主题介绍交互式功能模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍交互式功能模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898511"
 ---
 # <a name="interactive-feature-module"></a>交互式功能模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍交互式功能模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍交互式功能模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 交互式功能模块是类似马赛克的模块，可用于通过使用图像和文本的组合来营销多个产品类别或产品品牌。 例如，零售商可以在电子商务站点的主页上添加交互式功能模块，以推广畅销类别。 交互式功能模块类似于磁贴列表模块，但它具有不同的布局和不同的交互功能。
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
-description: 本主题介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
+description: 本文介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865257"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
 
-随着记录 Dynamics 365 Supply Chain Management 的已删除或已弃用功能，将更新此主题。
+随着记录 Dynamics 365 Supply Chain Management 的已删除或已弃用功能，将更新本文。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。

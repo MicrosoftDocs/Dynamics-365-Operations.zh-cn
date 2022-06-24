@@ -1,6 +1,6 @@
 ---
 title: 服务间隔
-description: 本主题概述了如何处理服务间隔。 服务协议间隔指示在您自动创建服务订单时为服务协议行创建服务订单行所采用的频率。
+description: 本文概述了如何处理服务间隔。 服务协议间隔指示在您自动创建服务订单时为服务协议行创建服务订单行所采用的频率。
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887216"
 ---
 # <a name="service-intervals"></a>服务间隔
 
@@ -87,7 +87,7 @@ ms.locfileid: "8675618"
 
 在您在 **创建服务订单** 对话框中指定的时间范围中，已创建三个服务订单行。 您可以在 **服务协议** 页面中查看服务订单行（**操作窗格** \> **交付** 选项卡 \> **查看** 按钮）。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [设置服务间隔](set-up-service-intervals.md)  
 

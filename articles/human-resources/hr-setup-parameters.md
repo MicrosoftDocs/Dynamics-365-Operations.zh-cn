@@ -1,6 +1,6 @@
 ---
 title: 配置 Human Resources 参数
-description: 本主题说明如何在 Dynamics 365 Human Resources 中设置特定于公司的参数。
+description: 本文说明如何在 Dynamics 365 Human Resources 中设置特定于公司的参数。
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856271"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-某些人力资源参数的设置在公司间共享，而其他参数设置是特定于公司的。 本主题说明如何设置特定于公司的人力资源参数。
+某些人力资源参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
 
 提供了两个页面来设置人力资源参数。 对于跨公司共享的参数，您可使用 **人力资源共享参数** 页。 对于特定于公司的参数（换句话说，这些设置将应用于单个公司），您可使用 **人力资源参数** 页。
 

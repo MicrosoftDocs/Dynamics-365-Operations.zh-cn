@@ -1,6 +1,6 @@
 ---
 title: 询价 (RFQ) 概览
-description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
+description: 本文对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895574"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>询价 (RFQ) 概览
 
 [!include [banner](../includes/banner.md)]
 
-此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。 询价时，您要求供应商提供您指定的物料数量的价格和交货时间。
+本文对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。 询价时，您要求供应商提供您指定的物料数量的价格和交货时间。
 您还可以就有关是否存在任何附加费用，如运费，或者是否对订购数量多的大订单有折扣价或能否提前支付供应商发票等问题询问供应商。
 
 询价流程包括以下任务：
@@ -45,7 +45,7 @@ ms.locfileid: "8671945"
 
 准备询价案例并添加供应商后，请在询价案例上选择 **发送**（对于公共部门则选择 **发送和发布**）。 将为您发送询价的每个供应商生成询价日记帐。 您可以为“发送”操作配置打印选项，从而为每个供应商打印报表以存档，或将报表发送到每个供应商的电子邮件地址。 此外，您可以使用每个供应商的询价日记帐来生成您可以发送或在以后重新发送到供应商的报表。 您还可以配置“发送”操作，从而生成供应商可以填写的回复表。
 
-此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
+本文介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Supply Chain Management 中出价。 有关详细信息，请参阅[供应商与客户的协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)和[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
 
 如果您在发送询价后必须对其进行改正，您可以在完成后，使用两个改正操作来重新向供应商发送询价：创建和完成。
 
@@ -59,7 +59,7 @@ ms.locfileid: "8671945"
 
 一个询价案例有两种状态：最低和最高。可在列表页上查看 **所有询价** 的状态。 最低状态是询价案例中任一行的最低级阶段，而最高状态是询价案例中任一行的最高级阶段。 例如，假设将包含三行的询价案例发送给两个供应商，这样就有两个询价，每个询价有三行。 所有行均 **已发送**。 现在其中一个供应商输入了出价，所以询价行的状态为 **已收到**。 这意味着询价案例的三行中，对于其中一个询价，所有行均为 **已发送**，对于另一个询价，所有行均为 **已收到**。 然后，最低状态将为 **已发送**，最高状态则为 **已收到**。
 
-这些状态将在本主题的后面部分进行更详细的描述。
+这些状态将在本文的后面部分进行更详细的描述。
 
 ## <a name="setting-up-rfq-functionality"></a>设置询价功能
 

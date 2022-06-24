@@ -1,6 +1,6 @@
 ---
 title: 输入工资期初余额
-description: 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。
+description: 本文介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850009"
 ---
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于从其他系统转移用于新的工资单实现方式的数据的合作伙伴十分重要。 为了准备输入期初工资单余额，我们验证以下信息：
+本文介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于从其他系统转移用于新的工资单实现方式的数据的合作伙伴十分重要。 为了准备输入期初工资单余额，我们验证以下信息：
 
 - 在系统中输入和提供员工记录
 - 将以下数据设置和分配到员工：

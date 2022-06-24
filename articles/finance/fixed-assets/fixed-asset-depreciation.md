@@ -1,6 +1,6 @@
 ---
 title: 固定资产折旧
-description: 文主题提供固定资产折旧概述。
+description: 本文提供固定资产折旧概述。
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874514"
 ---
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-文主题提供固定资产折旧概述。
+本文提供固定资产折旧概述。
 
 折旧是一种期间交易记录，通常会减少资产负债表中固定资产的价值，并且在损益科目中作为支出计费。 因此，主科目通常用于将折旧定期贷计到资产负债表中。 对方科目是会计科目表中的损益部分中的科目。
 

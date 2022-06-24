@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caf27d3a5dddae0be7029834dce692f1fbc2fee7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889334"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>创建零售渠道的财务维度并配置商店上的维度值
 
 [!include [banner](../includes/banner.md)]
 
-此程序会逐步演示如何创建带有维度值的商业渠道财务维度，以及配置商店的财务维度值的步骤。 该主题不包括其他相关步骤，例如创建维度集和科目结构。 此程序使用 USRT 演示数据公司。
+此程序会逐步演示如何创建带有维度值的商业渠道财务维度，以及配置商店的财务维度值的步骤。 文章中不包括其他相关步骤，例如创建维度集和科目结构。 此程序使用 USRT 演示数据公司。
 
 1. 转到“总帐”>“会计科目表”>“维度”>“财务维度”。
 2. 单击“新建”。

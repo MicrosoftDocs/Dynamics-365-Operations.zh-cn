@@ -1,6 +1,6 @@
 ---
 title: 学习 Power BI 内容
-description: 此主题描述学习 Power BI 内容。
+description: 本文描述学习 Power BI 内容。
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05146eef92fa0ef973df832aa3431ec32ea0c297
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847302"
 ---
 # <a name="learning-power-bi-content"></a>学习 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述 **学习** Microsoft Power BI 内容。
+本文描述 **学习** Microsoft Power BI 内容。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 

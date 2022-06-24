@@ -1,6 +1,6 @@
 ---
 title: 配置工作流中的自动化任务
-description: 本主题说明如何配置自动化任务的属性。
+description: 本文说明如何配置自动化任务的属性。
 author: ChrisGarty
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b482338c436ea9226d31f74c823ee1dc141b24cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891744"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>配置工作流中的自动化任务
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066510"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题说明如何配置自动化任务的属性。
+本文说明如何配置自动化任务的属性。
 
 要配置自动化任务，在工作流编辑器中，右键单击任务，然后单击 **属性** 打开 **属性** 页面。 然后使用以下过程配置自动化任务的属性。
 

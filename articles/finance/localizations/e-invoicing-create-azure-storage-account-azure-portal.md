@@ -1,6 +1,6 @@
 ---
 title: 在 Azure 门户中创建 Azure 存储帐户
-description: 本主题说明如何为电子开票创建 Azure 存储帐户。
+description: 本文说明如何为电子开票创建 Azure 存储帐户。
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d9647e234b3603ef6305ec6031a793b744bbe98
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898009"
 ---
 # <a name="create-an-azure-storage-account-in-the-azure-portal"></a>在 Azure 门户中创建 Azure 存储帐户
 

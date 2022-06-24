@@ -1,6 +1,6 @@
 ---
 title: 订单确认模块
-description: 本主题介绍订单确认模块和如何在 Microsoft Dynamics 365 Commerce 中使用它们。
+description: 本文介绍订单确认模块和如何在 Microsoft Dynamics 365 Commerce 中使用它们。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 994ec92abc53efeb240bca5dc8d67aabb45fbe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845770"
 ---
 # <a name="order-confirmation-module"></a>订单确认模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍订单确认模块和如何在 Microsoft Dynamics 365 Commerce 中使用它们。
+本文介绍订单确认模块和如何在 Microsoft Dynamics 365 Commerce 中使用它们。
 
 下订单之后，将使用订单确认模块显示订单确认详细信息。 它显示订单确认 ID、订单联系人信息和其他订单详细信息，例如购买的物料、付款信息、提货选项和装运方式。
 

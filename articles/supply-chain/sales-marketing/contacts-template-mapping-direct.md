@@ -1,6 +1,6 @@
 ---
 title: 将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
-description: 本主题讨论用于将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）实体同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
+description: 本文讨论用于将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）实体同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857335"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>将 Sales 的联系人直接同步到 Supply Chain Management 中的联系人或客户
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062507"
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator)。
 
-本主题讨论用于直接将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）表同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
+本文讨论用于直接将来自 Dynamics 365 Sales 的联系人（联系人）和联系人（客户）表同步到 Dynamics 365 Supply Chain Management 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -126,7 +126,7 @@ Sales 中的联系人可以成为 Supply Chain Management 中的联系人或客�
 ![数据集成器中的联系人到客户模板映射。](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [目标客户到现金](prospect-to-cash.md)
 

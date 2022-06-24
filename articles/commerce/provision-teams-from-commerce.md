@@ -1,6 +1,6 @@
 ---
 title: 从 Dynamics 365 Commerce 预配 Microsoft Teams
-description: 本主题介绍如何使用组织数据从 Dynamics 365 Commerce 预配 Microsoft Teams。
+description: 本文介绍如何使用组织数据从 Dynamics 365 Commerce 预配 Microsoft Teams。
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868927"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>从 Dynamics 365 Commerce 预配 Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何使用组织数据从 Dynamics 365 Commerce 预配 Microsoft Teams。
+本文介绍如何使用组织数据从 Dynamics 365 Commerce 预配 Microsoft Teams。
 
 如果您尚未在此处为零售商店设置团队，Dynamics 365 Commerce 将提供一种轻松方式来预配 Teams。 通过利用 Commerce 中要在 Teams 中使用的明确定义的信息，您可以帮助商店员工开始使用 Teams。 此信息包括组织层次结构、商店名称、员工信息和 Azure Active Directory (Azure AD) 帐户。 
 

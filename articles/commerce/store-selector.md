@@ -1,6 +1,6 @@
 ---
 title: 商店选择器模块
-description: 本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881675"
 ---
 # <a name="store-selector-module"></a>商店选择器模块
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍了商店选择器模块以及如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 客户可以在在线购买后使用商店选择器模块在选定商店提货。 在 Commerce 版本 10.0.13 中，商店选择器模块还包括其他功能，可以展示显示附近商店的 **查找商店** 页面。
 
@@ -132,7 +132,7 @@ ms.locfileid: "8780631"
 - 有关如何将商店选择器模块添加到购买框模块的信息，请参阅[购买框模块](add-buy-box.md)。 
 - 有关如何将商店选择器模块添加到购物车模块的信息，请参阅[购物车模块](add-cart-module.md)
 
-要将商店选择器模块配置为在商店位置页面显示可选择的商店（如本主题前面的插图中所示），请执行以下步骤。
+要将商店选择器模块配置为在商店位置页面显示可选择的商店（如本文前面的插图中所示），请执行以下步骤。
 
 1. 转到 **模板**，选择 **新建** 创建新模板。
 1. 在 **新建模板** 对话框的 **模板名称** 下，输入 **市场营销模板**，然后选择 **确定**。

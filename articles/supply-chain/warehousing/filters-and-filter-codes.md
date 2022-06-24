@@ -1,6 +1,6 @@
 ---
 title: 为仓库交易配置产品筛选器
-description: 本主题描述了如何配置产品筛选器和筛选器编码为仓库中的库存物料分类。 您也可以使用筛选器指定可以订购特殊物料的客户，以及可以从特定供应商采购哪些物料。
+description: 本文描述了如何配置产品筛选器和筛选器编码为仓库中的库存物料分类。 您也可以使用筛选器指定可以订购特殊物料的客户，以及可以从特定供应商采购哪些物料。
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850429"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>为仓库交易配置产品筛选器
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述了如何配置产品筛选器和筛选器编码为仓库中的库存物料分类。 您也可以使用筛选器指定可以订购特殊物料的客户，以及可以从特定供应商采购哪些物料。
+本文描述了如何配置产品筛选器和筛选器编码为仓库中的库存物料分类。 您也可以使用筛选器指定可以订购特殊物料的客户，以及可以从特定供应商采购哪些物料。
 
 此外，您还可以设置并使用产品筛选器自动组织仓库中的库存物料并将已筛选物料组合到筛选器组。 筛选器可用于将物料分类以执行处理、购买和销售流程。 当处理方式基于重量或处理限制时，您可能需要将物料分组在一起或将它们彼此分开。 您还可以指定可以向其购买或出售物料的客户或供应商。
 
@@ -48,7 +48,7 @@ ms.locfileid: "7567671"
 
     ![设置产品筛选器。](media/Product_Filters10.png "设置产品筛选器")
 
-1. 在 **描述** 字段中，为代码输入名称。 例如，*代码 2* 可能表示供应商。 然后，您可以为特定供应商或供应商组创建产品筛选器。 有关详细信息，请参阅本主题后面的[设置供应商筛选器代码](#vendor-product-filters)部分。
+1. 在 **描述** 字段中，为代码输入名称。 例如，*代码 2* 可能表示供应商。 然后，您可以为特定供应商或供应商组创建产品筛选器。 有关详细信息，请参阅本文后面的[设置供应商筛选器代码](#vendor-product-filters)一节。
 
     ![设置产品筛选器。](media/Product_Filters.png "设置产品筛选器")
 

@@ -1,6 +1,6 @@
 ---
 title: 更新维护预算
-description: 本主题说明如何在资产管理中更新维护预算。
+description: 本文说明如何在资产管理中更新维护预算。
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9333c9ad48c87159ed4071a8b4843fc0e55ceb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860948"
 ---
 # <a name="update-maintenance-budgets"></a>更新维护预算
 

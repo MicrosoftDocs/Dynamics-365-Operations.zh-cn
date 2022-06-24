@@ -1,6 +1,6 @@
 ---
 title: 员工使用员工自助服务选择计划（可选）
-description: 本主题介绍员工如何选择或更新福利。
+description: 本文介绍员工如何选择或更新福利。
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 21567851500f4a68e5393b16ccf2b1de00a0ca7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909953"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>员工使用员工自助服务选择计划（可选）
 

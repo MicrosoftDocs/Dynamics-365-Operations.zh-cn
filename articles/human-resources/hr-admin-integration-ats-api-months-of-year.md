@@ -1,6 +1,6 @@
 ---
 title: 一年中的月份
-description: 本主题介绍 Dynamics 365 Human Resources 的一年中的月份选项集。
+description: 本文介绍 Dynamics 365 Human Resources 的一年中的月份选项集。
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3b2b6dba2b2a191c0fdfc670281d0778ff13255
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b625e3398df6316b8f863738c82fcf5784c9a054
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909924"
 ---
 # <a name="months-of-year"></a>一年中的月份
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066310"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍 Dynamics 365 Human Resources 的一年中的月份选项集。
+本文介绍 Dynamics 365 Human Resources 的一年中的月份选项集。
 
 物理名称：mshr_monthsofyear
 

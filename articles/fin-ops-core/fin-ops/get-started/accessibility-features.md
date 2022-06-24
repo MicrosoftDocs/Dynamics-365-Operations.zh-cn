@@ -1,6 +1,6 @@
 ---
 title: 辅助功能
-description: 本主题描述专门帮助有伤残用户的功能。
+description: 本文描述专门帮助有伤残用户的功能。
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881042"
 ---
 # <a name="accessibility-features"></a>辅助功能
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071050"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本主题描述专门帮助有伤残用户使用此应用的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
+本文描述专门帮助有伤残用户使用此应用的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator 和仅键盘访问
 
@@ -49,7 +49,7 @@ ms.locfileid: "8071050"
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>仅键盘用户或低头数据输入的操作搜索
 
-页面上提供的每个操作均可以通过 Tab 序列从键盘访问。 有关 Tab 序列的信息在此主题的后面部分提供。 若要更直接地运行操作，您可以使用操作搜索功能。
+页面上提供的每个操作均可以通过 Tab 序列从键盘访问。 有关 Tab 序列的信息在本文的后面部分提供。 若要更直接地运行操作，您可以使用操作搜索功能。
 
 ### <a name="example"></a>示例
 

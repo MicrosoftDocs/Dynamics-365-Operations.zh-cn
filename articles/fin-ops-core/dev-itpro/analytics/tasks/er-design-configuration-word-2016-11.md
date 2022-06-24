@@ -1,6 +1,6 @@
 ---
 title: 重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
-description: 本主题介绍如何配置设计为以 Excel 工作簿形式生成报表的报表格式，来以 Word 文档形式生成报表。
+description: 本文介绍如何配置设计为以 Excel 工作簿形式生成报表的报表格式，来以 Word 文档形式生成报表。
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910377"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>重用带有 Excel 模板的 ER 配置以 Word 格式生成报表
 
@@ -43,7 +43,7 @@ ms.locfileid: "8324054"
 
 ## <a name="select-the-existing-er-report-configuration"></a>选择现有 ER 报表配置
 
-1. 在 Dynamics 365 Finance 中，转到 **组织管理** \> **工作区** \> **电子报告**。
+1. 在 Dynamics 365 Finance 应用中，转到 **组织管理** \> **工作区** \> **电子申报**。
 2. 确保 **Litware, Inc.** 配置提供程序已选择 **有效**。 否则，请按照[创建配置提供程序并将其标记为有效](er-configuration-provider-mark-it-active-2016-11.md)任务指南中的步骤操作。
 3. 选择 **申报配置**。 您将重用设计为以 OPENXML 格式生成报表输出的现有 ER 配置。
 4. 在 **配置** 页的左侧窗格的配置树中，展开 **付款模型**，选择 **示例工作表报表**。

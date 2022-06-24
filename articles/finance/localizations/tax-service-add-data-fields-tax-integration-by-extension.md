@@ -1,6 +1,6 @@
 ---
 title: 使用扩展在税务集成中添加数据字段
-description: 本主题说明如何使用 X++ 扩展在税务集成中添加数据字段。
+description: 本文说明如何使用 X++ 扩展在税务集成中添加数据字段。
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871040"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>使用扩展在税务集成中添加数据字段
 
 [!include [banner](../includes/banner.md)]
 
 
-本主题说明如何使用 X++ 扩展在税务集成中添加数据字段。 这些字段可以扩展到税务服务的税务数据模型，并用于确定税码。 有关详细信息，请参阅[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)。
+本文说明如何使用 X++ 扩展在税务集成中添加数据字段。 这些字段可以扩展到税务服务的税务数据模型，并用于确定税码。 有关详细信息，请参阅[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)。
 
 ## <a name="data-model"></a>数据模型
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 在此代码中，`_destination` 是用于生成请求的包装器对象，`_source` 是 `TaxIntegrationLineObject` 对象。
 
 > [!NOTE]
-> 定义在请求中用作 **private const str** 的字段名称。 此字符串应与主题[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)中添加的节点名称（而不是标签）完全相同。
+> 定义在请求中用作 **private const str** 的字段名称。 此字符串应与[在税务配置中添加数据字段](tax-service-add-data-fields-tax-configurations.md)一文中添加的节点名称（而不是标签）完全相同。
 > 
 > 使用 **SetField** 方法设置 **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** 方法中的字段。 第二个参数的数据类型应为 **字符串**。 如果数据类型不是 **字符串**，请将其转换为字符串。
 > 如果数据类型为 X++ **枚举类型**，我们建议您使用 **enum2Symbol** 方法将枚举值转换为字符串。 税务配置中添加的枚举值应与枚举名称完全相同。 以下是枚举值、标签和名称之间的差异列表。

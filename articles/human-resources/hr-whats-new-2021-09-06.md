@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources 2021 年 9 月 6 日中的新增功能或更改
-description: 此主题介绍了 2021 年 9 月 6 日 Microsoft Dynamics 365 Human Resources 中的新增功能和更改的功能。
+description: 本文介绍 2021 年 9 月 6 日 Microsoft Dynamics 365 Human Resources 中的新增功能或更改的功能。
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872143"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Dynamics 365 Human Resources 2021 年 9 月 6 日中的新增功能或更改
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-本主题介绍了 Microsoft Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
+本文介绍 Microsoft Dynamics 365 Human Resources 中的新增、更改或即将推出的功能。
 
 有关更新流程和计划的详细信息，请参阅[更新流程](hr-admin-setup-update-process.md)。
 
@@ -50,9 +50,9 @@ ms.locfileid: "8690573"
 此发布中包含以下缺陷修复。
 
 > [!NOTE]
-> 我们的目标是尽快为您提供此信息。 我们可能会更新本主题，以包含在最初发布本主题之后将其纳入内部版本的缺陷修复。
+> 我们的目标是尽快为您提供此信息。 我们可能会更新本文，以包含在最初发布本文之后将其纳入内部版本的缺陷修复。
 
-| 问题编号 | 问题 | 说明 |
+| 问题编号 | 问题 | Description |
 |---|---|---|
 | 610128 | 使用 HcmDiscussionOverallCommentEntity 时发布数据出错 | 将数据从 Excel 工作簿发布到 HcmDiscussionOverralCommentEntity 实体时，出现以下错误：“找不到 HcmTopicOverrall 类型的数据源记录”。 |
 | 589073 | EEO-1 报表将 **性别** 字段的“非特定”和空白值计为“女”值。 | 如果未为 **性别** 字段指定 **男**，EEO-1 报表将生成默认值 **女**。 |

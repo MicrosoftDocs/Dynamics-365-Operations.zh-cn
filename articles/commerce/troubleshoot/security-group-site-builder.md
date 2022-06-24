@@ -1,6 +1,6 @@
 ---
 title: 初始部署期间无法为 Commerce 站点构建器配置安全组
-description: 本主题提供了故障排除指南，初始部署新电子商务租户期间，在 Microsoft Dynamics Lifecycle Services (LCS) 中创建电子商务组件时，如果 Commerce 站点构建器的 Microsoft Azure Active Directory (Azure AD) 安全组未显示为选项，此指南可提供帮助。
+description: 本文提供了故障排除指南，初始部署新电子商务租户期间，在 Microsoft Dynamics Lifecycle Services (LCS) 中创建电子商务组件时，如果 Commerce 站点构建器的 Microsoft Azure Active Directory (Azure AD) 安全组未显示为选项，此指南可提供帮助。
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f930cac61b747037b9fbecc7397a9b1b7db5dabd8a86b63a61c92ac7abe17516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797df828df16547eb3aef1f9865a663281fb9224
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899007"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>初始部署期间无法为 Commerce 站点构建器配置安全组
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供了故障排除指南，初始部署新电子商务租户期间，在 Microsoft Dynamics Lifecycle Services (LCS) 中创建电子商务组件时，如果 Commerce 站点构建器的 Microsoft Azure Active Directory (Azure AD) 安全组未显示为选项，此指南可提供帮助。
+本文提供了故障排除指南，初始部署新电子商务租户期间，在 Microsoft Dynamics Lifecycle Services (LCS) 中创建电子商务组件时，如果 Commerce 站点构建器的 Microsoft Azure Active Directory (Azure AD) 安全组未显示为选项，此指南可提供帮助。
 
 ## <a name="description"></a>说明
 

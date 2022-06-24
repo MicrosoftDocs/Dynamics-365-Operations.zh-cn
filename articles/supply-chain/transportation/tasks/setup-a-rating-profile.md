@@ -1,6 +1,6 @@
 ---
 title: 评级模板
-description: 此主题介绍如何设置评级资料的数据。
+description: 本文介绍如何设置评级资料的数据。
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850458"
 ---
 # <a name="rating-profiles"></a>评级模板
 
@@ -56,7 +56,7 @@ ms.locfileid: "8676430"
 1. 转到 **运输管理 \> 设置 \> 承运人 \> 装运承运人**。
 1. 在列表中选择一个装运承运人。
 1. 在 **评级资料** 快速选项卡上，选择 **新建** 创建评级资料。
-1. 为新的评级资料设置字段。 这些字段对应于 **评级资料** 页上的字段，如此主题前面一节所述。
+1. 为新的评级资料设置字段。 这些字段对应于 **评级资料** 页上的字段，如本文前面一节所述。
 
 > [!NOTE]
 > 在 **装运承运人** 页上创建的资料也会显示在 **评级资料** 页上。

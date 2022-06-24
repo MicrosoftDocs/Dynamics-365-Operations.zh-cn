@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - 删除 RCS 环境
-description: 本主题说明了 Regulatory Configuration Service (RCS) 系统管理员可以如何删除 RCS 环境和相关数据。
+description: 本文说明了 Regulatory Configuration Service (RCS) 系统管理员可以如何删除 RCS 环境和相关数据。
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908881"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - 删除 RCS 环境
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明了 Regulatory Configuration Service (RCS) 系统管理员可以如何删除 RCS 环境和相关数据。
+本文说明了 Regulatory Configuration Service (RCS) 系统管理员可以如何删除 RCS 环境和相关数据。
 
-在完成本主题中的过程之前，必须满足以下先决条件：
+在完成本文中的过程之前，必须满足以下先决条件：
 
 - 您必须拥有为 RCS 环境分配给您的 **系统管理员** 角色。
 - **系统管理员** 角色必须具有分配给它的 **RCSDeleteEnvironmentDuty** 角色。

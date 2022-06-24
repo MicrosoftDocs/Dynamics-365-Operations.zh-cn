@@ -1,6 +1,6 @@
 ---
 title: 履行服务协议概览
-description: 本主题提供履行服务协议的任务的概览。
+description: 本文提供履行服务协议的任务的概览。
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852090"
 ---
 # <a name="fulfill-service-agreements-overview"></a>履行服务协议概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供履行服务协议的任务的概览。 本主题还列出与每个业务流程组件相关联的窗体，并且讨论与每个业务流程组件相关联的任务。
+本文提供履行服务协议的任务的概览。 本文还列出与每个业务流程组件相关联的窗体，并且讨论与每个业务流程组件相关联的任务。
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>履行服务合同业务流程组件窗体
 

@@ -1,6 +1,6 @@
 ---
 title: 不平衡导致日记帐过帐失败
-description: 本主题介绍凭证交易记录中借方和贷方为何可能不平衡，从而导致无法过帐交易记录。 本主题中还包含解决该问题的步骤。
+description: 本文介绍凭证交易记录中借方和贷方为何可能不平衡，从而导致无法过帐交易记录。 本文中还包含解决该问题的步骤。
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861320"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>不平衡导致日记帐过帐失败
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍凭证交易记录中借方和贷方为何可能不平衡，从而导致无法过帐交易记录。 本主题中还包含解决该问题的步骤。
+本文介绍凭证交易记录中借方和贷方为何可能不平衡，从而导致无法过帐交易记录。 本文中还包含解决该问题的步骤。
 
 ## <a name="symptom"></a>问题
 

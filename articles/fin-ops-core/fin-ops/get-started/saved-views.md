@@ -1,6 +1,6 @@
 ---
-title: 保存的视图
-description: 此主题介绍如何使用保存的视图功能。
+title: 已保存的视图
+description: 本文介绍如何使用已保存视图功能。
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845404"
 ---
-# <a name="saved-views"></a>保存的视图
+# <a name="saved-views"></a>已保存的视图
 
 [!include [banner](../includes/banner.md)]
 
@@ -196,7 +196,7 @@ ms.locfileid: "8644778"
 
 ## <a name="managing-views-globally"></a>全局管理视图
 
-如本主题所示，每个页面上都显示了一些管理功能，但 **系统管理员** 和 **保存的视图管理员** 可以通过 **个性化** 页面更全面地管理系统的视图。 特别是，此页面具有以下部分和功能： 
+如本文所示，每个页面上都显示了一些管理功能，但 **系统管理员** 和 **已保存视图管理员** 可以通过 **个性化** 页面更全面地管理系统的视图。 特别是，此页面具有以下部分和功能： 
 
 - **发布的视图** – 此部分列出已为您的组织发布的所有视图。 从这里，您可以在调整视图所对应的安全角色或法人后重新发布视图。 您还可以导出、删除或取消发布视图。 您可以使用 **另存为个人** 操作创建视图的个人副本，以便您可以更新视图或更好地了解它的内容。 
 - **未发布视图** – 此部分列出系统中当前尚未发布的所有组织视图。 这些视图大部分是通过导入功能进入系统的。 您可以发布、导出或删除这些视图。 在版本 10.0.12 中添加的 **快速发布** 操作可以使用现有的安全角色和法人配置，在一个操作中发布此部分的多个视图。 您可以使用 **另存为个人** 操作创建这些视图的个人副本，以便您可以更好地了解视图的内容。

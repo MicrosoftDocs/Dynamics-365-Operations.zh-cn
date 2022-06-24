@@ -1,6 +1,6 @@
 ---
 title: 预算编制主页
-description: 本主题概要介绍了 Microsoft Dynamics 365 Finance 中的预算编制功能组件、预算编制工具和报告功能。
+description: 本文概括介绍了 Microsoft Dynamics 365 Finance 中的预算编制功能组件、预算编制工具和报告功能。
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5ef283991cb7ccb990d7d687ab3964040d03ba
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864388"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
 [!include [banner](../includes/banner.md)]
 
-本主题概要介绍了预算编制功能组件、预算编制工具和报告功能。 
+本文概括介绍了预算编制功能组件、预算编制工具和报告功能。 
 
 ## <a name="components-of-budgeting-functionality"></a>预算编制功能组件
 

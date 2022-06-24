@@ -1,6 +1,6 @@
 ---
 title: POS 用户界面视觉效果配置
-description: 此主题提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
+description: 本文提供有关 Dynamics 365 Commerce 销售点 (POS) 体验的屏幕布局的信息。
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871625"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS 用户界面视觉效果配置
 
 [!include [banner](includes/banner.md)]
 
 
-可组合使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 此主题介绍这些配置选项。
+可组合使用为商店、收银机和用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 Commerce 销售点 (POS) 的用户界面 (UI)。 本文提供有关这些配置选项的信息。
 
 下图显示构成 POS UI 可配置项的各实体之间的关系。
 

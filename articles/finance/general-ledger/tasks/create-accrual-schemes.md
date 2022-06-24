@@ -1,6 +1,6 @@
 ---
 title: 创建应计方案
-description: 本主题说明如何创建应计方案。
+description: 本文说明如何创建应计方案。
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495c72a6ae19faac0cf2dff155c2073852cb1cbd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858412"
 ---
 # <a name="create-accrual-schemes"></a>创建应计方案
 
 [!include [banner](../../includes/banner.md)]
 
-本主题说明如何创建应计方案。 此任务使用 USMF 公司演示。
+本文说明如何创建应计方案。 此任务使用 USMF 公司演示。
 
 1. 转到 **导航窗格 > 模块 > 总帐 > 日记帐设置 > 应计方案**。
 2. 选择 **新建**。

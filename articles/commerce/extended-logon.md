@@ -1,6 +1,6 @@
 ---
 title: 设置和使用扩展登录
-description: 本主题介绍如何设置和使用 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序的扩展登录功能。
+description: 本文介绍如何设置和使用 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序的扩展登录功能。
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884303"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>设置和使用扩展登录
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何设置和使用 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序的扩展登录功能。
+本文介绍如何设置和使用 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序的扩展登录功能。
 
 Cloud POS (CPOS) 和 Modern POS (MPOS) 提供扩展的登录功能，允许零售商店工作人员通过使用磁条阅读器 (MSR) 扫描条码或刷卡来登录 POS 应用程序。
 

@@ -1,6 +1,6 @@
 ---
 title: 从作业卡设备报告完工入库
-description: 本主题介绍如何配置系统，以让作业卡设备的用户可以将生产订单中的成品报告到库存。
+description: 本文介绍如何配置系统，以让作业卡设备的用户可以将生产订单中的成品报告到库存。
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857364"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>从作业卡设备报告完工入库
 
 [!include [banner](../includes/banner.md)]
 
-工作人员使用作业卡设备上的 **报告进度** 页面报告生产作业已完成的数量。 本主题介绍如何设置各个选项，来确立工作人员使用此页面报告完工入库的方法以及接下来要执行的事项。 选项包括：
+工作人员使用作业卡设备上的 **报告进度** 页面报告生产作业已完成的数量。 本文介绍如何设置各个选项，来确立工作人员使用此页面报告完工入库的方法以及接下来要执行的事项。 选项包括：
 
 - 控制是否以及如何将报告为完工入库的数量添加到库存中。
 - 控制在报告完工入库时是否以及如何生成和应用批号。

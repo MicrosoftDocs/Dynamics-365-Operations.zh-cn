@@ -1,6 +1,6 @@
 ---
-title: B2B 的 Commerce 目录常见问题解答
-description: 本主题提供有关 Microsoft Dynamics 365 Commerce 目录的常见问题的解答。
+title: B2B Commerce 目录常见问题解答
+description: 本文提供有关 Microsoft Dynamics 365 Commerce 目录的常见问题的解答。
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849033"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>B2B 的 Commerce 目录常见问题解答
+# <a name="commerce-catalogs-for-b2b-faq"></a>B2B Commerce 目录常见问题解答
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题提供有关 Microsoft Dynamics 365 Commerce [企业到企业 (B2B) 目录](catalogs-b2b-sites.md) 的常见问题的解答。
+本文提供有关 Microsoft Dynamics 365 Commerce [企业到企业 (B2B) 目录](catalogs-b2b-sites.md) 的常见问题的解答。
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>为什么我无法配置特定于目录的导航层次结构或无法看到用于关联客户层次结构的选项？
 

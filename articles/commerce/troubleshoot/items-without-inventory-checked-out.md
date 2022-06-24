@@ -1,6 +1,6 @@
 ---
 title: 没有库存的商品可以结帐
-description: 本主题提供了故障排除指南，可以在客户将缺货商品添加到购物车并继续进行结帐时提供帮助。
+description: 本文提供了故障排除指南，可以在客户将缺货商品添加到购物车并继续进行结帐时提供帮助。
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1458328056a3ace8e5600a4c2d188e05b66c8110acbe44c869294a6b6e251e84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 24400953d2a17384be8ab3000aa829bf2bcb7192
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877177"
 ---
 # <a name="items-without-inventory-can-be-checked-out"></a>没有库存的商品可以结帐
 
 [!include [banner](../../includes/banner.md)]
 
-本主题提供了故障排除指南，可以在客户将缺货商品添加到购物车并继续进行结帐时提供帮助。
+本文提供了故障排除指南，可以在客户将缺货商品添加到购物车并继续进行结帐时提供帮助。
 
 ## <a name="description"></a>说明
 

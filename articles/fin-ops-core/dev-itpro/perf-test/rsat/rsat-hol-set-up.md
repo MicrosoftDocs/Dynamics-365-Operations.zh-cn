@@ -1,6 +1,6 @@
 ---
 title: Regression Suite Automation Tool 设置和安装教程
-description: 本主题是演示如何设置和安装 Regression Suite Automation Tool (RSAT) 的教程。
+description: 本文是演示如何设置和安装 Regression Suite Automation Tool (RSAT) 的教程。
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858581"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool 设置和安装教程
 
-本主题是帮助您设置和开始使用 RSAT 以及与使用 RSAT 有关的工具的教程。
+本文是帮助您设置和开始使用 RSAT 以及与使用 RSAT 有关的工具的教程。
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ RSAT 对测试用例使用 Azure Devops，以及测试套件管理，报告和�
 
 ## <a name="configure-the-lcs-project"></a>配置 LCS 项目
 
-您的主测试库需要 Lifecycle Services (LCS) 项目。 LCS 业务流程建模器 (BPM) 用作您的测试用例的主库。 BPM 用于为 LCS 项目管理和分发测试库。 例如，构建测试库的 Microsoft 合作伙伴或独立软件供应商 (ISV) 将以 BPM 库的形式发布测试案例。 在 BPM 中，测试用例由业务流程组织。 BPM 不定义测试经过的执行顺序或频率。 这些详细信息在 Azure DevOps 中管理，如本主题后文所述。  
+您的主测试库需要 Lifecycle Services (LCS) 项目。 LCS 业务流程建模器 (BPM) 用作您的测试用例的主库。 BPM 用于为 LCS 项目管理和分发测试库。 例如，构建测试库的 Microsoft 合作伙伴或独立软件供应商 (ISV) 将以 BPM 库的形式发布测试案例。 在 BPM 中，测试用例由业务流程组织。 BPM 不定义测试经过的执行顺序或频率。 这些详细信息在 Azure DevOps 中管理，如本文后面所述。  
 
 对于 LCS 项目，可使用现有客户实施或合作伙伴项目。
 

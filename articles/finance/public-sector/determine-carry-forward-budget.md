@@ -1,6 +1,6 @@
 ---
 title: 在采购订单和发票减少后更新结转预算
-description: 本主题描述了在取消或减少采购订单以及减少发票时如何控制结转预算的情况。
+description: 本文描述了在取消或减少采购订单以及减少发票时如何控制结转预算的情况。
 author: TaylorVH
 ms.date: 02/11/2022
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2022-02-01
-ms.openlocfilehash: 3b0f06b8d5a38252fc8ff6662f3d454adffffe60
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 7f0ef0ffdf697609e811f754b4378b1f7a81c494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897949"
 ---
 # <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>在采购订单和发票减少后更新结转预算
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题描述了在取消或减少采购订单以及减少发票时如何控制结转预算的情况。
+本文描述了在取消或减少采购订单以及减少发票时如何控制结转预算的情况。
 
 有关如何在年终处理采购订单的信息，请参阅[在年终处理采购订单](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end)。
 

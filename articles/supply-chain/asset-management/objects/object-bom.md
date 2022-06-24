@@ -1,6 +1,6 @@
 ---
 title: 资产 BOM
-description: 本主题介绍资产管理中的物料清单 (BOM)。
+description: 本文介绍资产管理中的物料清单 (BOM)。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882770"
 ---
 # <a name="asset-boms"></a>资产 BOM
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751977"
 
  
 
-本主题介绍资产管理中的物料清单 (BOM)。 **资产 BOM** 也显示资产整个生命周期内为其使用的所有物料（备件和其他物料）的列表。 创建新资产时，应考虑在设置过程中设置资产 BOM。 这样就可以跟踪资产从创建日期开始的物料历史记录。
+本文介绍资产管理中的物料清单 (BOM)。 **资产 BOM** 也显示资产整个生命周期内为其使用的所有物料（备件和其他物料）的列表。 创建新资产时，应考虑在设置过程中设置资产 BOM。 这样就可以跟踪资产从创建日期开始的物料历史记录。
 
 完成维护作业，并且已在工作订单中登记了物料消耗之后，可以跟踪对资产使用的备件和其他物料的消耗。 可通过此功能保留所有资产的完整物料消耗记录。 例如，可使用此记录监视是否经常更换特定备件，或跟踪当前对资产使用的备件或其他物料。
 

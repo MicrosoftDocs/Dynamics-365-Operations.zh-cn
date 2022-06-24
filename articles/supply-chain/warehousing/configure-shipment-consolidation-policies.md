@@ -1,6 +1,6 @@
 ---
 title: 配置装运合并策略
-description: 此主题说明如何设置默认装运合并策略和自定义装运合并策略。
+description: 本文说明如何设置默认装运合并策略和自定义装运合并策略。
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845915"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672561"
 
 在自动和手动发放到仓库期间，可通过使用装运合并策略的装运合并流程自动合并装运。 开启此功能后，必须配置初始策略。 如果不配置任何策略，每个销售行将生成有一个装载行的单独装运。
 
-此主题中的方案显示如何设置默认装运合并策略和自定义装运合并策略。
+本文中的方案显示如何设置默认装运合并策略和自定义装运合并策略。
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>开启装运合并策略功能
 
 > [!IMPORTANT]
-> 在此主题中介绍的[第一个方案](#scenario-1)中，首先设置仓库，使其使用之前的装运合并功能。 然后启用装运合并策略。 这样就可以体验升级方案如何工作。 如果计划使用演示数据环境完成第一个方案，请勿在使用进行此方案之前开启该功能。
+> 在本文中介绍的[第一个方案](#scenario-1)中，首先设置仓库，使其使用之前的装运合并功能。 然后启用装运合并策略。 这样就可以体验升级方案如何工作。 如果计划使用演示数据环境完成第一个方案，请勿在使用进行此方案之前开启该功能。
 
 *装运合并策略* 功能必须先在系统中开启，才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
@@ -40,7 +40,7 @@ ms.locfileid: "8672561"
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 
-此主题中的每个方案都引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
+本文中的每个方案都引用为 Microsoft Dynamics 365 Supply Chain Management 提供的标准演示数据中包含的值和记录。 如果要在进行此练习时使用此处提供的值，请务必在安装了演示数据的环境中操作，并且在开始前将法人设置为 **USMF**。
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>方案 1：配置默认装运合并策略
 
@@ -339,7 +339,7 @@ ms.locfileid: "8672561"
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> 有关如何使用装运合并策略的示例方案
 
-以下方案说明如何在阅读本主题的同时使用创建的装运合并策略。 每个方案将引导您完成装运合并流程，此流程在自动或手动发放到仓库期间使用装运合并策略：
+以下方案说明如何使用阅读本文时创建的装运合并策略。 每个方案将引导您完成装运合并流程，此流程在自动或手动发放到仓库期间使用装运合并策略：
 
 - 方案 1：[使用自动发放销售订单发放到仓库时使用合并](../warehousing/consolidate-shipments-automatic.md)
 - 方案 2：[覆盖了装运合并策略时从“发放到仓库”页合并装运](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

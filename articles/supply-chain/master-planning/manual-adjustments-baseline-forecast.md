@@ -1,6 +1,6 @@
 ---
 title: 对基准预测进行手动调整
-description: 本主题介绍如何手动调整基准预测和查看预测的详细信息。
+description: 本文介绍如何手动调整基准预测和查看预测的详细信息。
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b6bf742bb395de41bfbf1e50ca9df68f416367
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844958"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何手动调整基准预测和查看预测的详细信息。 
+本文介绍如何手动调整基准预测和查看预测的详细信息。 
 
 在进行手动调整之前，务需您理解各个页上的若干概念。
 

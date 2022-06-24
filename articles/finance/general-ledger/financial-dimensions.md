@@ -1,6 +1,6 @@
 ---
 title: 财务维度
-description: 本主题介绍财务维度的不同类型以及如何设置。
+description: 本文介绍财务维度的不同类型以及如何设置。
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849980"
 ---
 # <a name="financial-dimensions"></a>财务维度
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明财务维度的不同类型以及如何设置。
+本文说明财务维度的不同类型以及如何设置。
 
 使用 **财务维度** 页可创建可用作会计科目表的科目段的财务维度。 有两类财务维度：自定义维度和实体支持的维度。 自定义维度在法人之间共享，并且值由用户输入和维护。 对于实体支持的维度，其值在系统的其他地方进行定义，如客户或商店实体中。 有些实体支持的维度在法人间共享，而有些实体支持的维度则特定于公司。
 

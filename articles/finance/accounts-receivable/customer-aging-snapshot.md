@@ -1,6 +1,6 @@
 ---
 title: 客户帐龄快照
-description: 本主题提供有关客户帐龄快照的信息。 帐龄快照计算某个时间点一组客户的帐龄余额。
+description: 本文提供有关客户帐龄快照的信息。 帐龄快照计算某个时间点一组客户的帐龄余额。
 author: JodiChristiansen
 ms.date: 05/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c1a83f2648b52e436d19a11862e58dc33313f341
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902564"
 ---
 # <a name="customer-aging-snapshots"></a>客户帐龄快照
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关客户帐龄快照的信息。 帐龄快照计算某个时间点一组客户的帐龄余额。 您可以为客户池中的所有客户或某些客户创建帐龄快照记录。
+本文提供有关客户帐龄快照的信息。 帐龄快照计算某个时间点一组客户的帐龄余额。 您可以为客户池中的所有客户或某些客户创建帐龄快照记录。
 
 帐龄快照中的信息显示在 **帐龄余额** 列表页和 **收款** 页上。 您必须创建一个帐龄快照，然后才能使用 **帐龄余额** 列表页。 列表页仅列出为其创建了帐龄快照的客户。
 

@@ -1,6 +1,6 @@
 ---
 title: 库位容量范围内的补货
-description: 本主题提供有关“按位置容量补货”功能的信息。 此功能使创建当天所需的所有补货工作成为可能，并管理该补货工作的可用性，以确保领料位置既不会用完库存，也不会超出容量。
+description: 本文提供有关“按位置容量补货”功能的信息。 此功能使创建当天所需的所有补货工作成为可能，并管理该补货工作的可用性，以确保领料位置既不会用完库存，也不会超出容量。
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899228"
 ---
 # <a name="replenishment-over-location-capacity"></a>库位容量范围内的补货
 
@@ -37,7 +37,7 @@ ms.locfileid: "8677917"
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>为示例方案设置此功能
 
-本节提供指南和示例，演示如何设置此功能，以及如何为本主题后面提供的示例方案准备示例数据。
+本节提供指南和示例，演示如何设置此功能，以及如何为本文后面提供的示例方案准备示例数据。
 
 ### <a name="enable-sample-data"></a>启用示例数据
 
@@ -145,7 +145,7 @@ ms.locfileid: "8677917"
 
 ## <a name="example-scenario"></a>示例场景
 
-在使所有前面描述的示例数据可用并进行设置之后，您可以演练此方案来试用 *按位置容量补货* 功能了。 此方案中显示的值假设您使用的是标准演示数据，选择了 **USMF** 法人，并且您准备了本主题前面介绍的示例记录。 此方案还可以用作说明如何在生产设置中使用此功能的示例。
+在使所有前面描述的示例数据可用并进行设置之后，您可以演练此方案来试用 *按位置容量补货* 功能了。 此方案中显示的值假设您使用的是标准演示数据，选择了 **USMF** 法人，并且您准备了本文前面介绍的示例记录。 此方案还可以用作说明如何在生产设置中使用此功能的示例。
 
 ### <a name="create-replenishment-work"></a>创建补货工作
 

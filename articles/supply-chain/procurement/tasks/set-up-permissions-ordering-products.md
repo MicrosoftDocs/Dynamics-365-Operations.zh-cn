@@ -1,6 +1,6 @@
 ---
 title: 代表他人设置产品订购权限
-description: 此主题介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。
+description: 本文介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。
 author: GalynaFedorova
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1313ca01686e55d802716adf335e77ffeb1ece34
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3053f28fdf97637b1da5f644f64676bfd10fb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854201"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>代表他人设置产品订购权限
 
 [!include [banner](../../includes/banner.md)]
 
-此主题介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。 换句话说，采购申请“准备人”可以为其他“申请人”创建申请。 此过程还演示如何为工作人员授予在不同法人或营运单位中订购物料和服务的权限。 这些任务通常由采购经理执行。 您可以在此过程中使用 USMF 演示数据公司的数据，也可以使用您自己的数据。
+本文介绍如何为工作人员授予代表其他工作人员起草采购申请的权限。 换句话说，采购申请“准备人”可以为其他“申请人”创建申请。 此过程还演示如何为工作人员授予在不同法人或营运单位中订购物料和服务的权限。 这些任务通常由采购经理执行。 您可以在此过程中使用 USMF 演示数据公司的数据，也可以使用您自己的数据。
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>授予代表其他工作人员输入采购申请的权限

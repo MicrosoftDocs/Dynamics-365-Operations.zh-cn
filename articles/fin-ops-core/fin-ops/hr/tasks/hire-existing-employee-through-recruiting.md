@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876464"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>通过招聘雇用现有员工
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> 此主题中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
+> 本文中的招聘功能将称为招聘项目，并专注于申请人、申请和招聘项目。  
 
 
 有时，空缺职位可以由已经是组织员工的候选人填补。 此过程介绍通过招聘流程雇用现有员工的步骤。 在此过程中，招聘项目已设置好，并且现有员工已提交招聘项目申请表。 创建此过程时使用的是 **USMF** 演示数据格式。

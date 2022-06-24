@@ -1,6 +1,6 @@
 ---
 title: 复利间隔功能
-description: 本主题提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。
+description: 本文提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886397"
 ---
 # <a name="compounding-interval-functionality"></a>复利间隔功能
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-本主题提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。 复利间隔功能用于确定租赁付款计划中每年的复利期数。 本主题中的四个示例均显示了在不同时间间隔内租赁的付款计划。
+本文提供的信息将帮助您在每月、每季度、每半年和每年的复利间隔之间进行选择。 复利间隔功能用于确定租赁付款计划中每年的复利期数。 本文中的四个示例均显示了在不同时间间隔内租赁的付款计划。
 
 您不能选择比租赁的付款频率少的复利间隔。 例如，不能将季度复利间隔与每月支付频率一起使用，也不能将年度复利间隔与半年付款频率一起使用。 如果尝试选择比租赁的付款频率少的复利间隔，将收到错误消息。
 
 > [!NOTE]
-> 在本主题的所有四个示例中，复利间隔与付款频率匹配。
+> 在本文的所有四个示例中，复利间隔与付款频率匹配。
 
 ## <a name="examples"></a>示例
 

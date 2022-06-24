@@ -1,6 +1,6 @@
 ---
 title: 标准成本差异过帐
-description: 本主题提供有关为标准成本计算设置过帐模板的信息。
+description: 本文提供有关为标准成本计算设置过帐模板的信息。
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894868"
 ---
 # <a name="standard-cost-variance-posting"></a>标准成本差异过帐
 
-当您在组织中对一个或多个产品使用标准成本计算时，必须配置[标准成本计算的先决条件](/supply-chain/cost-management/prerequisites-standard-costs.md)。 本主题说明了先决条件第 3 步“将会计科目分配到与标准成本差异相关的物料过帐”所需的过帐帐户。
+当您在组织中对一个或多个产品使用标准成本计算时，必须配置[标准成本计算的先决条件](/supply-chain/cost-management/prerequisites-standard-costs.md)。 本文说明了先决条件第 3 步“将会计科目分配到与标准成本差异相关的物料过帐”所需的过帐帐户。
 
 采购和生产订单可能会出现不同类型的差异。 有关生产差异的示例，请参阅[生产差异的公共来源](/supply-chain/cost-management/common-sources-of-production-variances.md)。 当您使用采购物料的标准成本，并且产品的标准成本与采购订单上的已开票金额之间存在差异时，会出现采购订单价格差异。
 

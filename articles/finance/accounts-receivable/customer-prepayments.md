@@ -1,6 +1,6 @@
 ---
 title: 客户预付款
-description: 本主题说明如何设置和处理客户预付款（也称为客户保证金）。
+description: 本文说明如何设置和处理客户预付款（也称为客户保证金）。
 author: twheeloc
 ms.date: 04/30/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb0f2290a38d89d90ac0d30a59e21fb3e9a6d894
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 88773067c472471fb75167712268d1076c1738a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861551"
 ---
 # <a name="customer-prepayments"></a>客户预付款
 

@@ -1,6 +1,6 @@
 ---
 title: 在交易和收据电子邮件中添加 QR 码或条形码
-description: 本主题说明了如何在 Microsoft Dynamics 365 Commerce 中将表示订单 ID 的 QR 码和条形码插入交易和收据电子邮件。
+description: 本文说明了如何在 Microsoft Dynamics 365 Commerce 中将表示订单 ID 的 QR 码和条形码插入交易和收据电子邮件。
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872876"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>在交易和收据电子邮件中添加 QR 码或条形码
 
 [!include [banner](includes/banner.md)]
 
-本主题说明了如何在 Microsoft Dynamics 365 Commerce 中将表示订单 ID 的 QR 码和条形码插入交易和收据电子邮件。
+本文说明了如何在 Microsoft Dynamics 365 Commerce 中将表示订单 ID 的 QR 码和条形码插入交易和收据电子邮件。
 
 您可以轻松地在交易电子邮件中包含 QR 码和条形码，以在零售环境中帮助加快订单查找过程。 要将 QR 码和条形码插入电子邮件，请使用 HTML **\<img\>** 标签，从生成和呈现服务请求 QR 码或条形码图像。 Microsoft 不提供此服务。 但是，有许多免费或廉价的服务，可以提供根据在查询字符串中传递的值动态生成的 QR 码或条形码。
 

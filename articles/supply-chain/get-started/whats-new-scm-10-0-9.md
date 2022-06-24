@@ -1,6 +1,6 @@
 ---
 title: " Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改（2020 年 4 月）"
-description: 此主题介绍了 Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改的功能。
+description: 本文介绍 Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 02/19/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a1f1f83fbf4b7280aec579b17c96e8d9fc59e39bcea5d6d5d7366397cf8f2875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854462"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a> Dynamics 365 Supply Chain Management 10.0.9 中的新增功能或更改（2020 年 4 月）
 
 [!include [banner](../includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.9 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.383，并以下面的形式提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.9 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.383，并以下面的形式提供：
 
 - **预览版本：** 2020 年 2 月
 - **公开发布（自行更新）：** 2020 年 3 月
@@ -33,7 +33,7 @@ ms.locfileid: "6773361"
 
 ## <a name="features-included-in-this-release"></a>此版本中包含的功能
 
-此版本中包含以下功能。 功能标题链接至[发布计划](/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的 *新增功能* 主题中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
+此版本中包含以下功能。 功能标题链接至[发布计划](/dynamics365/release-plans/)站点中的更多信息。 更多链接指向该功能的更多当前可用文档或视频。 这些功能中的一部分也可以包含在之前的某个增量版本中，但是未在之前的 *新增功能* 一文中公布，因此我们在这里添加这些功能。 这些功能中的大多数必须先使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用，然后才能使用。
 
 - [波次期间的高级负载生成](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - 有关详细信息，请参阅[波次期间的高级负载生成](../warehousing/advanced-load-building-during-wave.md)。
 
@@ -113,12 +113,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.9 中包含平台更新 33�
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>已删除和已弃用的 Supply Chain Management 功能
 
-[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
+[Dynamics 365 Supply Chain Management 中中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文介绍 Supply Chain Management 中已经或计划删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)主题中发布弃用通知。
+从该产品中删除任何功能之前 12 个月，将在 [Dynamics 365 Supply Chain Management 中已删除或弃用的功能](removed-deprecated-features-scm-updates.md)一文中发布弃用通知。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 

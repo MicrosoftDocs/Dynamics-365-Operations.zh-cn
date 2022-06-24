@@ -1,6 +1,6 @@
 ---
-title: 资产服务级别
-description: 本主题介绍资产管理中的资产服务级别。
+title: 资产服务等级
+description: 本文介绍资产管理中的资产服务级别。
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908676"
 ---
-# <a name="asset-service-levels"></a>资产服务级别
+# <a name="asset-service-levels"></a>资产服务等级
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-本主题介绍资产管理中的资产服务级别。 资产服务级别与资产关联，并转化为维护请求和工作订单。 用于在工作订单排产期间计算工作订单的优先级。 如果需要更改资产服务级别，则可更改。
+本文介绍资产管理中的资产服务级别。 资产服务级别与资产关联，并转化为维护请求和工作订单。 用于在工作订单排产期间计算工作订单的优先级。 如果需要更改资产服务级别，则可更改。
 
 有关与计算工作订单排产的等级评分关联的设置的详细信息，请参阅[资产管理参数](../setup-for-objects/enterprise-asset-management-parameters.md)。 必须为资产服务级别设置至少一个默认记录。 如果工作订单排产期间未找到其他匹配项，则使用默认记录。
 

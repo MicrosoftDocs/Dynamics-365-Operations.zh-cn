@@ -1,6 +1,6 @@
 ---
 title: 建立 B2B 电子商务站点
-description: 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置企业到企业 (B2B) 电子商务站点。
+description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中设置企业到企业 (B2B) 电子商务站点。
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881898"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 
 [!include [banner](../../includes/banner.md)]
 
-企业到企业 (B2B) 电子商务站点提供一些关键功能，可以优化 B2B 用户的工作流。 本主题介绍如何在 Microsoft Dynamics 365 Commerce 中设置 B2B 电子商务站点。 其中介绍了必须配置以支持特定于 B2B 的场景的模块和站点设置。
+企业到企业 (B2B) 电子商务站点提供一些关键功能，可以优化 B2B 用户的工作流。 本文介绍如何在 Microsoft Dynamics 365 Commerce 中设置 B2B 电子商务站点。 其中介绍了必须配置以支持特定于 B2B 的场景的模块和站点设置。
 
 ## <a name="prerequisites"></a>先决条件
 
-- 要设置 B2B 电子商务站点，您必须启用和配置 Commerce headquarters 中的特定功能，如本主题中所述。
+- 要设置 B2B 电子商务站点，您必须启用和配置 Commerce headquarters 中的特定功能，如本文中所述。
 - 核心体验（如产品发现、产品详细信息页、购物车和结帐）由用于企业对消费者 (B2C) 电子商务站点的相同模块提供支持。 站点作者应该熟悉 Dynamics 365 Commerce 支持的所有模块。 有关详细信息，请参阅[模块库概述](../starter-kit-overview.md)。
-- 本主题假定站点作者了解 Commerce 站点构建器、模板、片段和页面的基础知识，因此他们可以为电子商务站点启用 B2B 功能。
+- 本文假定站点作者了解 Commerce 站点构建器、模板、片段和页面的基础知识，因此他们可以为电子商务站点启用 B2B 功能。
 
 ## <a name="site-level-settings"></a>站点级设置
 

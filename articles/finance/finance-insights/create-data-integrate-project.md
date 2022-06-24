@@ -1,6 +1,6 @@
 ---
 title: 创建数据集成项目
-description: 此主题介绍如何创建数据集成项目。
+description: 本文介绍如何创建数据集成项目。
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876231"
 ---
 # <a name="create-a-data-integration-project"></a>创建数据集成项目
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍如何创建数据集成项目。
+本文介绍如何创建数据集成项目。
 
 1. 登录 Microsoft Dynamics 365 Finance。
 2. 转到 **工作区 \> 数据管理**，然后选择 **数据实体**。 等至所有数据实体都已刷新，然后再继续下一步。

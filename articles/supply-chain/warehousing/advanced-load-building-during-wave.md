@@ -1,6 +1,6 @@
 ---
 title: 波次期间的高级负荷计划
-description: 本主题介绍高级波次负荷计划功能，这会在波次执行期间自动为现有波次分配装运。 因此，可以创建有意义的负荷来表示卡车，而不必使用负荷计划工作台。
+description: 本文介绍高级波次负荷计划功能，这会在波次执行期间自动为现有波次分配装运。 因此，可以创建有意义的负荷来表示卡车，而不必使用负荷计划工作台。
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863757"
 ---
 # <a name="advanced-load-building-during-wave"></a>波次期间的高级负荷计划
 
@@ -220,7 +220,7 @@ ms.locfileid: "8670508"
 
 ## <a name="scenario"></a>应用场景
 
-此场景显示在处理销售订单时，本主题前面介绍的设置如何影响仓库操作。 此场景使用 **USMF** 演示数据和这些设置说明中提供的其他演示值。
+此场景显示在处理销售订单时，本文前面介绍的设置如何影响仓库操作。 此场景使用 **USMF** 演示数据和这些设置说明中提供的其他演示值。
 
 ### <a name="create-sales-orders"></a>创建销售订单
 

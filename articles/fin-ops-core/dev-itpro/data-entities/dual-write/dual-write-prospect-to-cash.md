@@ -1,6 +1,6 @@
 ---
 title: 双写入中的目标客户到现金
-description: 此主题提供有关双写入中的目标客户到现金的信息。
+description: 本文提供有关双写入中的目标客户到现金的信息。
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860100"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -29,7 +29,7 @@ ms.locfileid: "7781783"
 有关客户和联系人集成的信息，请参阅[集成客户主数据](customer-mapping.md)。 有关产品集成的信息，请参阅[统一的产品体验](product-mapping.md)。
 
 > [!NOTE]
-> 在 Dynamics 365 Sales 中，目标客户和客户都引用 **客户** 表中的记录，表中的 **RelationshipType** 列为 **目标客户** 或 **客户**。 如果您的业务逻辑包括 **客户** 资格流程，流程中创建了 **客户** 记录，并首先作为目标客户授予其资格，然后作为客户，那么该记录仅在为客户 (`RelationshipType=Customer`) 时同步到 Finance and Operations 应用。 如果您希望 **客户** 行作为目标客户同步，那么您需要一个自定义映射来集成目标客户数据。
+> 在 Dynamics 365 Sales 中，目标客户和客户都引用 **客户** 表中的记录，表中的 **RelationshipType** 列为 **目标客户** 或 **客户**。 如果您的业务逻辑包括 **客户** 资格流程，流程中创建了 **客户** 记录，并首先作为目标客户授予其资格，然后作为客户，那么该记录仅在为客户 (`RelationshipType=Customer`) 时同步到财务和运营应用。 如果您希望 **客户** 行作为目标客户同步，那么您需要一个自定义映射来集成目标客户数据。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
@@ -111,7 +111,7 @@ ms.locfileid: "7781783"
 
 目标客户到现金中包括核心表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | 客户互动应用 | 说明 |
+| Finance and Operations 应用 | 客户互动应用 | Description |
 |-----------------------------|-----------------------------------|-------------|
 [所有产品](mapping-reference.md#138) | msdyn_globalproducts | |
 [客户 V3](mapping-reference.md#101) | 帐户 | |
@@ -122,7 +122,7 @@ ms.locfileid: "7781783"
 [CDS 销售报价标题](mapping-reference.md#215) | 询价 | |
 [CDS 销售报价行](mapping-reference.md#214) | quotedetails | |
 [已发布产品 V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[销售账单抬头 V2](mapping-reference.md#118) | 发票 | Finance and Operations 应用中的“销售发票抬头 V2”表包含销售订单的发票和普通发票。 Dataverse 中为双写入应用了筛选器，将筛选出所有普通发票单据。 |
+[销售账单抬头 V2](mapping-reference.md#118) | 发票 | 财务和运营应用中的“销售发票抬头 V2”表包含销售订单的发票和普通发票。 Dataverse 中为双写入应用了筛选器，将筛选出所有普通发票单据。 |
 [销售账单行 V2](mapping-reference.md#117) | invoicedetails | |
 [销售订单来源代码](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

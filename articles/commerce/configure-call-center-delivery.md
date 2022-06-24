@@ -1,6 +1,6 @@
 ---
 title: 配置呼叫中心交货方式和费用
-description: 本主题介绍如何在 Dynamics 365 Commerce 中为呼叫中心订单设置交货方式和费用。
+description: 本文介绍如何在 Dynamics 365 Commerce 中为呼叫中心订单设置交货方式和费用。
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888290"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
@@ -35,7 +35,7 @@ Commerce 有一些功能可供用户限制渠道可使用的交货方式、可�
 
 指定可将哪些交货方式用于呼叫中心订单和定义关联的规则和费用之前，必须定义交货方式。 转到 **销售和市场营销 \> 设置 \> 分配 \> 交货方式**。 选择 **新建** 创建新的交货方式。 也可以选择列表中的现有交货方式，然后选择 **编辑** 进行更改。
 
-在 **交货方式** 字段中，可根据业务需求输入字母数字字符的任何组合。 然后可以使用 **描述** 字段提供更多上下文。 **费用组** 和 **加速** 字段为可选字段，本主题后文将进行说明。
+在 **交货方式** 字段中，可根据业务需求输入字母数字字符的任何组合。 然后可以使用 **描述** 字段提供更多上下文。 **费用组** 和 **加速** 字段为可选字段，本文后面将进行说明。
 
 在 **商业渠道** 快速选项卡中，添加应允许在其中创建销售交易记录时使用交货方式的任何渠道。
 

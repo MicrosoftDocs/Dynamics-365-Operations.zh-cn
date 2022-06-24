@@ -1,6 +1,6 @@
 ---
 title: 不符合项的隔离区域
-description: 本主题介绍如何创建和使用不符合项的隔离区域。
+description: 本文介绍如何创建和使用不符合项的隔离区域。
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857697"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>不符合项的隔离区域
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建和使用不符合项的隔离区域。
+本文介绍如何创建和使用不符合项的隔离区域。
 
 您将使用 **隔离区域** 页定义可以分配给不符合项的区域。 创建不符合项时，您可以在 **不符合项** 页的 **常规** 选项卡上设置 **隔离区域** 和 **隔离类型** 字段。 **隔离区域** 字段通常指示物料所在的区域或位置。 **隔离类型** 字段将物料定义为 *限制使用* 或者 *不可用*。
 

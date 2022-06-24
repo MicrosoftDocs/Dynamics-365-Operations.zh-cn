@@ -1,6 +1,6 @@
 ---
 title: 波次处理的仓库参数
-description: 本主题介绍如何为波次处理设置仓库参数。 您可以使用波次处理将多个工作订单的领料工作分组到单个波次中。
+description: 本文介绍如何为波次处理设置仓库参数。 您可以使用波次处理将多个工作订单的领料工作分组到单个波次中。
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c259ff6c5a2f1190afb82c2ab7ecdc99e2b05846
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909603"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>波次处理的仓库参数
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何为波次处理设置仓库参数。 您可以使用波次处理将多个工作订单的领料工作分组到单个波次中。
+本文介绍如何为波次处理设置仓库参数。 您可以使用波次处理将多个工作订单的领料工作分组到单个波次中。
 
 若要使用波次处理，请在 **仓库管理参数** 页面上指定以下内容：
 

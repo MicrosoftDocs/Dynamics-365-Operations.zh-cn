@@ -1,6 +1,6 @@
 ---
-title: 对帐单过帐功能改进
-description: 此主题介绍对对报单过帐功能的改进。
+title: 对账单过帐功能的改进
+description: 本文介绍对对报单过帐功能的改进。
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886898"
 ---
-# <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
+# <a name="improvements-to-statement-posting-functionality"></a>对账单过帐功能的改进
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍对对报单过帐功能的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 7.3.2 中提供了这些改进。
+本文介绍对对报单过帐功能的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 7.3.2 中提供了这些改进。
 
 ## <a name="activation"></a>启用
 

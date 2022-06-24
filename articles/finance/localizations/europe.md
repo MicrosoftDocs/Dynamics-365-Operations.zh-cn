@@ -1,6 +1,6 @@
 ---
 title: 欧洲概览
-description: 此主题提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
+description: 本文提供适用于欧洲的 Microsoft Dynamics 365 Finance 文档资源的链接。
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856509"
 ---
 # <a name="europe-overview"></a>欧洲概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题中包含的信息和资源链接可帮助您设置主要地址在欧洲的法人。 
+本文中包含的信息和资源链接可帮助您设置主要地址在欧洲的法人。 
 
 - [预付款持有人概览](emea-advance-holders.md)
  - [预付款持有人交易记录](emea-advance-holders-transactions.md)

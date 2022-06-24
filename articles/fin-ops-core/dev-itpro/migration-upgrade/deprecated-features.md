@@ -1,6 +1,6 @@
 ---
 title: 先前版本中已删除或弃用的功能
-description: 此主题介绍从 Dynamics 365 for Finance and Operations 和早期版本中已经删除或曾经计划删除的功能。
+description: 本文介绍从 Dynamics 365 for Finance and Operations 和早期版本中已经删除或曾经计划删除的功能。
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866176"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -28,9 +28,9 @@ ms.locfileid: "8063229"
 
 
 > [!IMPORTANT]
-> 此主题不再更新。 若要查看已经从财务和运营应用删除或弃用的功能的当前列表，请搜索与您在使用的应用有关的 **“已删除或弃用的功能”** 内容。
+> 本文不再更新。 若要查看已经从财务和运营应用删除或弃用的功能的当前列表，请搜索与您在使用的应用有关的 **“已删除或弃用的功能”** 内容。
 
-此主题介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或弃用的功能。
+本文介绍从 Dynamics 365 for Finance and Operations 和该产品的早期版本已经删除或弃用的功能。
 
 - *已移除* 的功能在产品中不再可用。
 - *已弃用* 的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。

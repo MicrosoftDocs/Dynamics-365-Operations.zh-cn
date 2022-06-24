@@ -1,7 +1,7 @@
 ---
-title: 改进主计划绩效
-description: 本主题介绍可帮助您提高主计划绩效或诊断问题的各种选项。
-author: ChristianRytt
+title: 改善主计划性能
+description: 本文介绍可帮助您提高主计划绩效或诊断问题的各种选项。
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897594"
 ---
 # <a name="improve-master-planning-performance"></a>改善主计划性能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍可帮助您提高主计划绩效或诊断问题的各种选项。 包括有关参数、设置，以及建议的配置和操作的信息。 另外还包括需要执行长时间运行的主计划作业时应考虑的所有重要参数的摘要。
+本文介绍可帮助您提高主计划绩效或诊断问题的各种选项。 包括有关参数、设置，以及建议的配置和操作的信息。 另外还包括需要执行长时间运行的主计划作业时应考虑的所有重要参数的摘要。
 
-本主题面向有能力进行故障诊断的系统管理员或 IT 用户。 也面向生产或供应规划员，因为其中包含有关与业务计划需求有关的参数的信息。 
+本文面向有能力进行故障诊断的系统管理员或 IT 用户。 也面向生产或供应规划员，因为其中包含有关与业务计划需求有关的参数的信息。 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>与主计划绩效有关的参数
 
@@ -151,9 +151,9 @@ ms.locfileid: "7570913"
 ## <a name="performance-checklist-summary"></a>绩效核对清单摘要
 
 - **线程数** – 设置为大于 **0**（零）的值。
-- **帮助程序任务捆绑中的任务数** – 设置为大于 **0**（零）的值。 （请使用本主题前面提供的公式。）
+- **帮助程序任务捆绑中的任务数** – 设置为大于 **0**（零）的值。 （请使用本文前面提供的公式。）
 - **暂存区的使用** – 除非系统的内存较低，否则设置为 **最大值**。
-- **固定捆绑销售中的订单数** – 设置为大于 **0**（零）的值。 （请使用本主题前面提供的公式。）
+- **固定捆绑销售中的订单数** – 设置为大于 **0**（零）的值。 （请使用本文前面提供的公式。）
 - **时限** – 根据您的业务需要调整。
 - **操作和先期备货** – 如果不使用操作和先期备货，请禁用。
 - **一次一个重大例程** – 请勿将主计划与其他任何重大例程一起运行。

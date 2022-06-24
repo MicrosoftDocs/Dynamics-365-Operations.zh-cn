@@ -1,6 +1,6 @@
 ---
 title: 创建固定薪酬计划
-description: 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
+description: 本文介绍在创建固定薪酬和登记员工前必须设置的组件。
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f4748f66f4027972aabf53e7a1c237b8dbb543
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f254afc37d5afae48c3b2b3b16bd86634ac9aa3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875733"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>创建固定薪酬计划
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693050"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-固定薪酬指员工的标准总薪水或工资。 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
+固定薪酬指员工的标准总薪水或工资。 本文介绍在创建固定薪酬和登记员工前必须设置的组件。
 
 固定薪酬金额可以基于绩效、区域和预算增加等系数为您的员工计算。 Dynamics 365 Human Resources 支持步幅、等级和分段薪酬类型。
 

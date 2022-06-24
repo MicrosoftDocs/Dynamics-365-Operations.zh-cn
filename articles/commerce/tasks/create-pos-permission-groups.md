@@ -1,6 +1,6 @@
 ---
 title: 创建 POS 权限组
-description: 本主题介绍如何创建 POS 权限组。
+description: 本文介绍如何创建 POS 权限组。
 author: scott-tucker
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905416"
 ---
 # <a name="create-pos-permission-groups"></a>创建 POS 权限组
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何创建 POS 权限组。 创建此任务的演示数据公司是 USRT。 此任务旨在面向商业运营经理角色。
+本文介绍如何创建 POS 权限组。 创建此任务的演示数据公司是 USRT。 此任务旨在面向商业运营经理角色。
 
 1. 在导航窗格中，转到 **模块 > Retail 和 Commerce > 员工 > 权限组**。
 2. 选择 **新建**。

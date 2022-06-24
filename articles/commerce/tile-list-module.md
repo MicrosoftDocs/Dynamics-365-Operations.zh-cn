@@ -1,6 +1,6 @@
 ---
 title: 磁贴列表模块
-description: 此主题介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+description: 本文介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905390"
 ---
 # <a name="tile-list-module"></a>磁贴列表模块
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
+本文介绍磁贴列表模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页面。
 
 磁贴列表模块是传送中的磁贴的集合。 它用于通过图像和文本营销产品类别或产品品牌。 例如，零售商可以在电子商务站点的主页上添加磁贴列表模块，以推广所有畅销类别。
 

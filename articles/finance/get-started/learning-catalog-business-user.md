@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Finance 用户学习目录
-description: 查找面向 Dynamics 365 Finance 用户的所有培训选项。
+title: Dynamics 365 Finance 用户的学习目录
+description: 查找 Dynamics 365 Finance 用户的所有培训选项。
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bc4067ff395042ec30bdb6a846d12509a1436256
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 2c7b1faac6af3356e4621d932031e798413b6563
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889891"
 ---
-# <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance 用户学习目录
+# <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance 用户的学习目录
 
 您刚刚有一个新应用程序要使用吗？
 
@@ -31,20 +31,20 @@ ms.locfileid: "7402536"
 |---------|-------------|--------|--------|
 | [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 8 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时   |
-| [Finance and Operations 应用入门](/learn/paths/get-started-finance-operations/) | 了解 Finance and Operations 应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。   无论您担任哪种角色，若要使用 Finance and Operations 应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。   无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | 通过 Dynamics 365 Intelligent Order Management，客户可以管理订单编排到履行。 这些功能使组织能够编排跨不同平台和应用的订单流。 | 自由、自定进度的在线学习模块 | 30 分钟 |
 | [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 
 ## <a name="core-platform-knowledge"></a>核心平台知识<a name="core-platform-knowledge"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [在 Finance and Operations 应用中配置组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用 Finance and Operations 应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时  |
-| [在 Finance and Operations 应用中配置和使用分析与报告](/learn/paths/configure-analytics-reporting-finance-operations/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 业务用户还可以配置和使用电子报告工具来采用新的法规要求，并以所需格式生成业务文档与政府机构、银行和其他方进行电子信息交换，无需编写一行代码。 | 自由、自定进度的在线学习路径 | 4 小时   |
+| [在财务和运营应用中配置您的组织](/learn/paths/configure-your-organization-finance-ops/) | 作为使用财务和运营应用的功能顾问，您必须了解如何为客户设置组织。 除了其他任务，此学习路径也演示如何设置法人，实施安全设置，针对用户个性化用户界面，设计和构建移动应用程序，以及实施常用集成。 | 自由、自定进度的在线学习路径 | 12 小时  |
+| [配置和使用财务和运营应用中的分析和报告功能](/learn/paths/configure-analytics-reporting-finance-operations/) | 企业领导如果可以洞察基础财务数据和运营数据，就可以在公司内做出重要的决策。 业务用户还可以配置和使用电子报告工具来采用新的法规要求，并以所需格式生成业务文档与政府机构、银行和其他方进行电子信息交换，无需编写一行代码。 | 自由、自定进度的在线学习路径 | 4 小时   |
 
 ## <a name="financial-management"></a>财务管理<a name="financial-management"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
 | [在 Dynamics 365 Finance 中配置和使用总帐](/learn/paths/configure-use-general-ledger-dyn365-finance/) | 业务用户可通过 Dynamics 365 Finance 随时使用精确信息控制财务和管理资金来进行财务规划和预测，并通过分析掌握最新情况。 由于财务是业务的核心，所以“总帐”模块是财务管理的核心，因此，此学习路径介绍如何设置“总帐”模块中的功能。 另外还将介绍如何为期间或年度完成结转过程。    | 自由、自定进度的在线学习路径 | 13.5 小时  |
 | [在 Dynamics 365 Finance 中配置和使用现金和银行管理与销售税](/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/)    | 您可使用 Dynamics 365 Finance 中的“现金和银行管理”模块来维护组织的银行帐户以及与这些银行帐户关联的财务票据。 所有企业必须收取并向各税务主管机构支付税款。 在此学习路径中，将介绍如何配置和使用 Dynamics 365 Finance 的这些领域 | 自由、自定进度的在线学习路径 | 7.5 小时 |

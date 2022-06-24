@@ -1,6 +1,6 @@
 ---
 title: 福利管理概览
-description: 此主题概要介绍 Dynamics 365 Human Resources 中的福利管理功能。
+description: 本文概括介绍 Dynamics 365 Human Resources 中的福利管理功能。
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901138"
 ---
 # <a name="benefits-management-overview"></a>福利管理概览
 
@@ -44,7 +44,7 @@ ms.locfileid: "8687182"
 
 ## <a name="enable-benefits-management"></a>雇用福利管理
 
-本主题介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换 Human Resources 中的哪些现有功能和哪些功能将禁用。
+本文介绍如何在 Human Resources 中开启功能。 还介绍在打开“福利管理”后，“福利管理”将替换 Human Resources 中的哪些现有功能和哪些功能将禁用。
 
 > [!IMPORTANT]
 > 不能在 **生产** 环境中禁用已启用的福利管理。 建议在 **生产** 环境中启用福利管理之前，在 **沙盒** 环境中启用和测试。 旧福利功能和新福利管理功能之间差别很大，需要在投入生产之前进行更多设置和应该进行测试。

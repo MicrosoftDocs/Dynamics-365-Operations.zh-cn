@@ -1,6 +1,6 @@
 ---
 title: 创建功能位置
-description: 本主题介绍如何在资产管理中创建功能位置。
+description: 本文介绍如何在资产管理中创建功能位置。
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869711"
 ---
 # <a name="create-functional-locations"></a>创建功能位置
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767524"
 
  
 
-本主题介绍如何在资产管理中创建功能位置。
+本文介绍如何在资产管理中创建功能位置。
 
 创建功能位置结构时，请注意，创建功能位置之后，不能从原始位置移动该功能位置。 这意味着在资产管理中开始创建功能位置之前，应注意功能位置的结构。 如果对某个功能位置不满意，并且尚未使用该功能位置，可将其删除。
 

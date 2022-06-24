@@ -1,6 +1,6 @@
 ---
 title: 审核和确认采购订单
-description: 本主题介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
+description: 本文介绍了创建后采购订单所经历的状态，以及对采购订单启用更改管理的效果。
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907368"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
+本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
 
 在创建采购订单 (PO) 之后，它可能必须经过审核流程。 供应商已同意订单后，采购订单被设置 **已确认** 状态。
 

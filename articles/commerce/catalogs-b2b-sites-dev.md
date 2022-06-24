@@ -1,6 +1,6 @@
 ---
-title: B2B 的 Commerce 目录自定义的可扩展性影响
-description: 本主题介绍 Microsoft Dynamics 365 Commerce 中 B2B 的 Commerce 目录功能的可扩展性影响。
+title: B2B Commerce 目录自定义项的可扩展性影响
+description: 本文介绍 Microsoft Dynamics 365 Commerce 中 B2B 的 Commerce 目录功能的可扩展性影响。
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849007"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>B2B 的 Commerce 目录自定义的可扩展性影响
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>B2B Commerce 目录自定义项的可扩展性影响
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-本主题介绍 Microsoft Dynamics 365 Commerce 中 **B2B 的 Commerce 目录** 功能的可扩展性影响。
+本文介绍 Microsoft Dynamics 365 Commerce 中 **B2B 的 Commerce 目录** 功能的可扩展性影响。
 
 如果您有兴趣将目录上下文扩展到自定义场景，您的自定义项可能需要更新。 此更新遵循客户必须遵循的标准流程，因为他们的自定义项可能不会在升级完成后自动支持最新功能。 如果您的自定义项在体验中包含任何新功能或 Bug 修复，我们建议您相应地更新自定义代码。 此更新类似于 Microsoft 可能对核心代码所做的更改。
 

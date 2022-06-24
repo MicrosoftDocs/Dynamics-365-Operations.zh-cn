@@ -1,6 +1,6 @@
 ---
-title: 从生产订单到出货台的越库配送
-description: 此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
+title: 从生产订单越库配送到出货台
+description: 本文描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea3ae6cb83d6577ba76d7e2aff9a05973b314cfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849320"
 ---
-# <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
+# <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单越库配送到出货台
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
+本文描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
 
 ## <a name="introduction"></a>简介
 

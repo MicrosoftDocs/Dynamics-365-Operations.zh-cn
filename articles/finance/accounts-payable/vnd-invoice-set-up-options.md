@@ -1,6 +1,6 @@
 ---
 title: 供应商发票自动化的设置选项（预览）
-description: 本主题介绍了可用于设置和配置供应商发票自动化的选项。
+description: 本文介绍了可用于设置和配置供应商发票自动化的选项。
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874832"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>供应商发票自动化的设置选项
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了可用于设置和配置供应商发票自动化的选项。 发票自动化功能使用以下类型的设置参数：
+本文介绍了可用于设置和配置供应商发票自动化的选项。 发票自动化功能使用以下类型的设置参数：
 
 - 用于在导入的发票中自动应用预付款的参数。
 - 将导入的供应商发票提交到工作流系统并将过帐的物料收货行与待处理的供应商发票行进行匹配的参数。

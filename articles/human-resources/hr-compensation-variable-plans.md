@@ -1,6 +1,6 @@
 ---
 title: 创建可变薪酬计划
-description: 本主题介绍在使用可变薪酬和在可变薪酬计划中登记员工前必须设置的组件。
+description: 本文介绍在使用可变薪酬和在可变薪酬计划中登记员工前必须设置的组件。
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853065"
 ---
 # <a name="create-variable-compensation-plans"></a>创建可变薪酬计划
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688648"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-可变薪酬构成员工的非常规薪酬，例如奖金或股票奖励。 本主题说明如何设置可变薪酬所需的组件并在可变薪酬计划中登记员工。
+可变薪酬构成员工的非常规薪酬，例如奖金或股票奖励。 本文说明如何设置可变薪酬所需的组件并在可变薪酬计划中登记员工。
 
 员工的可变薪酬金额计算可以基于若干因素，例如员工的绩效、员工的薪酬级别以及部门的绩效。
 

@@ -1,6 +1,6 @@
 ---
 title: 双写入设置指南
-description: 此主题介绍支持双写入的方案。
+description: 本文介绍支持双写入的方案。
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873140"
 ---
 # <a name="guidance-for-dual-write-setup"></a>双写入设置指南
 
@@ -26,11 +26,11 @@ ms.locfileid: "8061596"
 
 可以在财务和运营环境与 Dataverse 环境之间建立双写入连接。
 
-+ **财务和运营环境** 为 **财务和运营应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）提供基础平台。
++ **Finance and Operations 环境** 为 **财务和运营应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）提供基础平台。
 + **Dataverse 环境** 为 **客户互动应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 column Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
 
 > [!IMPORTANT]
-> Dynamics 365 Finance 中的 Human Resources 模块支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
+> Dynamics 365 Finance 中的人力资源模块支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
 
 设置机制取决于订阅和环境：
 
@@ -78,11 +78,11 @@ ms.locfileid: "8061596"
 3. 通过使用三个字母的国际标准化组织 (ISO) 公司代码[引导](bootstrap-company-data.md) Dataverse 数据。
 4. 对要同步其数据的表运行 **初始同步** 功能。
 
-有关示例和备用方法的链接，请参阅本主题后文的[示例](#example)部分。
+有关示例和备用方法的链接，请参阅本文后面的[示例](#example)一节。
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>一个具有数据的新财务和运营应用实例和一个新的客户互动应用实例
 
-若要在一个具有数据的新财务和运营应用实例与一个新的客户互动应用实例之间设置双写入连接，请按照本主题前面的[一个新的财务和运营应用实例和一个新的客户互动应用实例](#new-new)一节中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
+若要在一个具有数据的新财务和运营应用实例与一个新的客户互动应用实例之间设置双写入连接，请按照本文前面的[一个新的财务和运营应用实例和一个新的客户互动应用实例](#new-new)一节中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
 
 1. 从 LCS 页面打开财务和运营应用，然后转到 **数据管理 \> 双写入**。
 2. 对要同步其数据的表运行 **初始同步** 功能。
@@ -91,7 +91,7 @@ ms.locfileid: "8061596"
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>一个具有数据的新财务和运营应用实例和一个现有的客户互动应用实例
 
-若要在一个具有数据的新财务和运营应用实例与一个现有的客户互动应用实例之间设置双写入连接，请按照本主题前面的[一个新的财务和运营应用实例和一个现有的客户互动应用实例](#new-existing)一节中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
+若要在一个具有数据的新财务和运营应用实例与一个现有的客户互动应用实例之间设置双写入连接，请按照本文前面的[一个新的财务和运营应用实例和一个现有的客户互动应用实例](#new-existing)一节中的步骤操作。 完成连接设置后，如果要将数据同步到 Customer Engagement 应用，请按照以下步骤操作。
 
 1. 从 LCS 页面打开财务和运营应用，然后转到 **数据管理 \> 双写入**。
 2. 对要同步其数据的表运行 **初始同步** 功能。

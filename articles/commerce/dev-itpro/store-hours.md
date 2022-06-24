@@ -1,6 +1,6 @@
 ---
 title: 创建和更新商店营业时间
-description: 此主题介绍如何在商业总部中创建和更新商店营业时间。
+description: 本文介绍如何在 Commerce Headquarters 中创建和更新商店营业时间。
 author: josaw1
 ms.date: 7/30/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 703087f5311205e18b6b8f99b847b539770160b91574b12d505822c8e16ca96c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99d2f06be959e00656901c6ca8fc79fac32a3a6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884357"
 ---
 # <a name="create-and-update-store-hours"></a>创建和更新商店营业时间
 
