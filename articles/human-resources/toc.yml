@@ -496,6 +496,8 @@
                   items:
                     - name: 管理招聘项目流程
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: 设置招聘项目
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: 手动输入申请人和申请表数据
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: 制订和开放工作申请
@@ -626,6 +628,10 @@
                   items:
                     - name: 设置福利计划
                       href: hr-benefits-plans-setup.md
+                    - name: 创建工作人员福利计划
+                      href: hr-benefits-plans-worker.md
+                    - name: 设置将来生活事件
+                      href: hr-benefits-plans-future-life-events.md
                     - name: 设置弹性信贷计划
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: 处理福利计划
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: 实体
               items:
+                - name: 作业详细信息
+                  href: hr-admin-integration-api-job-detail.md
+                - name: 雇用类型选项
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: MyLeaveRequests 概览

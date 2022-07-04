@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26（5 月）
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25（4 月）
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -462,6 +460,8 @@
                   items:
                     - name: 设置收入和支出延期
                       href: accounts-receivable/sb-deferrals.md
+                    - name: 延期过帐方法
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: 创建延期计划
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: 延期默认交易记录
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: 财务报表组件
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: 查看和设计财务报表
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: 财务报告中的货币功能
               href: general-ledger/financial-reporting-currency-capability.md
             - name: 财务报告中的留存收益计算
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: 为巴西设置银行帐号
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: 转移单
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: 税金
                   items:
                     - name: 巴西税金概览
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: 年终结算
                   href: localizations/emea-cze-hun-year-end.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: 丹麦
               items:
                 - name: 丹麦概览
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: 欧盟销售清单
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: 导入 OIOUBL 电子开票配置
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: 丹麦的客户电子发票
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: 使用付款单过帐普通发票
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: 使用付款单过帐项目发票
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: 导入 ISO20022 直接借记配置
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: ISO 20022 贷方转帐格式的先决条件
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: 导入 ISO20022 贷方转帐配置
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: 设置 ISO20022 贷方转帐的公司银行帐户
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: 延期销售税计算
                   href: localizations/emea-hun-deferred-vat.md
+                - name: 欧盟销售清单
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: 冰岛
               items:
                 - name: 冰岛概览
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: 设置法人的 TDS 登记号
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: 设置 TDS 税务类型的预缴税金构成组
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: 设置 TDS 税务类型的预缴税金主管机构
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: 设置 TDS 税务类型的税种组分
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: 配置资产报废义务过帐和市场折扣率的主科目
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: 消费税报表
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: 合并的发票
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: 创建具有其他折旧的固定资产
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: 购置固定资产并将其投入运营
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: 作为固定资产的车辆和不动产
+                          href: localizations/rus-vehicles-realty.md
                         - name: 计算折旧
                           href: localizations/rus-depreciation-calculation.md
                         - name: 部分固定资产拆卸（清算）
@@ -3444,6 +3460,8 @@
                       items:
                         - name: 没有价值的固定资产 (NVFA)（俄罗斯）
                           href: localizations/rus-not-valuable-assets.md
+                        - name: NVFA、工作服和特殊设备的主要窗体（俄罗斯）
+                          href: localizations/rus-nvfa.md
                         - name: 工作服/特殊设备会计（俄罗斯）
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: 将固定资产与资产管理模块进行集成
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: 利润税申报
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: 有关可跟踪货物的工序的报告
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: 组织管理
                   items:
                     - name: 与地址相关的税务登记信息

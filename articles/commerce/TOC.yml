@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26（2022 年 5 月）
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25（2022 年 4 月）
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: 创建和自动执行用户接受度测试
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: 设置 Dynamics 365 Commerce 评估环境
+            - name: 设置 Dynamics 365 Commerce 沙盒环境
               items:
-                - name: Dynamics 365 Commerce 评估环境概览
-                  href: cpe-overview.md
-                - name: 配置 Dynamics 365 Commerce 评估环境
+                - name: 预配 Dynamics 365 Commerce 沙盒环境
                   href: provisioning-guide.md
-                - name: 配置 Dynamics 365 Commerce 评估环境
+                - name: 配置 Dynamics 365 Commerce 沙盒环境
                   href: cpe-post-provisioning.md
-                - name: 在 Dynamics 365 Commerce 评估环境中配置 BOPIS
+                - name: 在 Dynamics 365 Commerce 沙盒环境中配置 BOPIS
                   href: cpe-bopis.md
-                - name: 为 Dynamics 365 Commerce 评估环境配置可选功能
+                - name: 为 Dynamics 365 Commerce 沙盒环境配置可选功能
                   href: cpe-optional-features.md
-                - name: Dynamics 365 Commerce 评估环境常见问题解答
-                  href: cpe-faq.md
             - name: 部署注意事项
               items:
                 - name: 部署选项
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: 对网络外围设备的支持
                           href: dev-itpro/network-peripherals.md
+                        - name: 外围设备兼容性
+                          href: Compatible-peripherals.md
                     - name: 屏幕布局
                       items:
                         - name: MPOS/CPOS 中的演示数据屏幕布局
@@ -1402,6 +1398,8 @@
               items:
                 - name: 奥地利会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
+                - name: 适用于奥地利的收银机的部署指南
+                  href: localizations/emea-aut-deployment.md
                 - name: 奥地利会计集成示例部署指南（旧版）
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: 巴西
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Retail SDK 生成管道
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: 设置 Visual Studio 2017 生成代理以创建 MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: 运行 POS 示例
                       href: dev-itpro/pos-run-samples.md
                 - name: 引用
