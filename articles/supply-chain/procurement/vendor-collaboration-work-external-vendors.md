@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907281"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023779"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907281"
 **供应商协作** 模块针对的是没有与 Microsoft Dynamics 365 Supply Chain Management 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商处理采购订单 (PO)、发票、托运库存信息和询价 (RFQ)，也可用来访问一部分供应商主数据。 本文介绍您可以如何与使用供应商协作界面的外部供应商协作处理 PO、询价和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。
 
 有关外部供应商在供应商协作界面上可执行操作的详细信息，请参阅[供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。
-
-> [!NOTE]
-> 本文中有关供应商协作的信息仅适用于当前版本的 Supply Chain Management。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 **供应商门户** 模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
 
 有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
@@ -57,8 +54,25 @@ ms.locfileid: "8907281"
 
 对外部供应商创建用户帐户前，您必须配置供应商帐户，以允许供应商使用供应商协作。 在 **供应商** 页面的 **常规** 选项卡上，设置 **协作激活** 字段。 以下是可用的选项：
 
-- **活动（自动确认采购订单）**- 供应商在不修改采购订单的情况下接受采购订单时，自动确认采购订单。
+- **活动（自动确认采购订单）**- 供应商在不修改采购订单的情况下接受采购订单时，自动确认采购订单。 如果您使用此选项，请务必安排 *确认通过供应商协作接受的采购订单* 批处理作业，该作业负责处理确认。 有关说明，请参阅下一节。
 - **活动（不自动确认采购订单）**- 供应商接受采购订单后，须由您的组织手动确认采购订单。
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>计划自动确认批处理作业
+
+如果您为您的一个或多个供应商使用 **有效(自动确认 PO)** 选项（如上一节所述），您必须安排 *确认通过供应商协作接受的采购订单* 批处理作业，此作业负责处理和确认您的 PO。 否则，将绝对不会发生自动确认。 使用以下过程来安排此作业。
+
+1. 转到 **采购 \> 采购订单 \> 采购订单确认 \> 确认通过供应商协作接受的采购订单**。
+1. 在 **确认通过供应商协作接受的采购订单** 对话框内的 **在后台运行** 快速选项卡中，选择 **重复**。
+1. 在 **定义重复执行情况** 对话框中，定义作业运行计划。 选择计划时，请考虑以下问题：
+
+    - 如果您的系统处理大量数据并运行许多批处理作业，则性能可能是一个问题。 在这种情况下，您可能不应该比每 10 分钟一次更频繁地运行此作业（取决于您的其他要求）。 如果性能对您来说不是问题，如果需要，您可以每 1 到 2 分钟运行一次。
+    - 如果您的供应商往往会（在他们商定的那天）快速交货，那么应该频繁重复（每 10 到 30 分钟左右一次）。 这样，在确认完成后，仓库工作人员将能够根据确认的 PO 接收货物。
+    - 如果您的供应商往往有很长的提前期（超过 24 小时），您可以将此任务设置为大约每天运行一次。
+
+1. 选择 **确定** 以应用您的计划，并返回到 **确认通过供应商协作接受的采购订单** 对话框。
+1. 根据需要设置其他后台选项。 对话框提供了在 Supply Chain Management 中设置批处理作业的常见选项。
+
+有关批处理作业的详细信息，请参阅[批处理概览](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)。
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>指定供应商是否应看到价格信息
 

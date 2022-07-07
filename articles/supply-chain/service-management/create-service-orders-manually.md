@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678253"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014842"
 ---
 # <a name="create-service-orders-manually"></a>手动创建服务订单    
 
@@ -34,7 +34,7 @@ ms.locfileid: "8678253"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>手动从服务协议创建服务订单
 
-1.  选择 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  选择 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  选择某一服务协议，或者创建新的服务协议。
 
@@ -42,7 +42,7 @@ ms.locfileid: "8678253"
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>在服务订单窗体中手动创建服务订单
 
-1.  选择 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  选择 **服务管理** \> **服务订单** \> **服务订单**。
 
 2.  选择 **新建** 创建新服务订单。
 
@@ -53,7 +53,7 @@ ms.locfileid: "8678253"
 
 ## <a name="create-a-service-order-from-a-project"></a>从一个项目创建服务订单
 
-1.  转到 **项目管理与会计** \> **通用** \> **项目** \> **所有项目**。
+1.  转到 **项目管理与核算** \> **项目** \> **全部项目**。
 
 2.  在 **项目** 窗体中的 **操作窗格** 上，选择 **管理** 选项卡 \> **服务** \> **服务订单**。
 
@@ -66,7 +66,7 @@ ms.locfileid: "8678253"
 
 可使用 **基于销售订单创建新的服务订单** 向导从 **服务订单** 窗体创建服务订单。
 
-1.  转到 **销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。
+1.  转到 **销售和营销** \> **销售订单** \> **所有销售订单**。
 
 2.  打开相关销售订单。
 

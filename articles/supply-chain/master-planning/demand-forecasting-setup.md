@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fae2ac53dec8696075e7506d979c1cf9fb277af5
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900993"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960126"
 ---
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
@@ -340,6 +340,7 @@ Supply Chain Management 使用 Azure 机器学习服务计算需求预测，您�
 - [需求预测概览](introduction-demand-forecasting.md)
 - [生成统计基准预测](generate-statistical-baseline-forecast.md)
 - [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
+- [网络研讨会：使用 Azure 机器学习系列进行需求预测](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,16 +11,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 998a30786b3f457b24b6e3c755b2c00967adbd4b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c03109baaa341b25af70840b791ddf04f692fb1a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879154"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016556"
 ---
 # <a name="post-to-charge-account-accounting-principle"></a>过帐到费用帐户的会计原则
 
-通过 *过帐到费用帐户* 会计原则，您可以更轻松地对实际过帐和财务过帐之间的单价差异、采购物料的间接成本或采购订单的费用进行核算和核对。 
+通过 *过帐到费用帐户* 会计原则，您可以更轻松地对实际过帐和财务过帐之间的单价差异、采购物料的间接成本或采购订单的费用进行核算和核对。
 
 **费用代码** 页（**应付帐款 \> 费用设置 \> 费用代码**）上的应付帐款费用代码的两个配置可能会导致采购订单影响库存资产的估价：
 

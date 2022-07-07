@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905015"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016390"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 
@@ -818,7 +818,7 @@ ms.locfileid: "8905015"
 | 使用盘点日记帐调整供应商拥有的库存。 | 重要的一点是要保持系统现有库存与实际物理库存同步。 使用盘点流程（例如数量调整）和盘点日记帐流程可以调整供应商拥有的库存的进出。 |
 | 进一步了解 Dynamics 365 for Operations 中的托运支持 | 有关托运流程支持的更多信息，请参阅[托运](../../../supply-chain/inventory/consignment.md)，[设置托运](/d365F-O/fin-ops-core/fin-ops/get-started/consignment)，[创建托运补货订单（任务指南）](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md)，以及[基于生产需求更改托运库存的所有权（任务指南）](../../../supply-chain/inventory/tasks/change-ownership-consignment.md)。 |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>供应商协作（以前称作供应商门户）
+### <a name="vendor-collaboration"></a>供应商协作
 
 | 您能做什么 | 为什么如此重要 |
 |-----------------|-----------------------|

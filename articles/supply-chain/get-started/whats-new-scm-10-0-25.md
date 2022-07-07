@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850777"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954482"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 中的新增功能或更改（2022 年 4 月）
 
@@ -155,7 +155,7 @@ ms.locfileid: "8850777"
 | 仓库管理 | [延迟处理手动库存变动操作](../warehousing/deferred-processing-manual-inventory-movement.md) | 强制 |
 | 仓库管理 | 不允许创建不符合波次负荷构建模板要求的负荷 | 强制 |
 | 仓库管理 | [增强的牌照标签布局](../warehousing/document-routing-layout-for-license-plates.md) | 强制 |
-| 仓库管理 | [评估针对多 SKU 库位指令的所有操作](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | 强制 |
+| 仓库管理 | [评估针对多 SKU 库位指令的所有操作](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | 强制 |
 | 仓库管理 | 隐藏“所有负荷”和“负荷详细信息”页上的“总值”字段 | 强制 |
 | 仓库管理 | 牌照标签生成配置 | 强制 |
 | 仓库管理 | 针对管理员或类似的受信任用户的负荷行手动更正 | 强制 |

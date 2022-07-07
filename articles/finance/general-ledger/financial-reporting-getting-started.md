@@ -2,7 +2,7 @@
 title: 财务报告概览
 description: 本文介绍从哪里访问 Microsoft Dynamics 365 Finance 中的 Financial Reporting，以及如何使用财务报告功能。
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853400"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033651"
 ---
 # <a name="get-started-with-financial-reporting"></a>开始使用财务报告 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853400"
 
 本文介绍从哪里访问 Financial reporting，以及如何使用财务报告功能。 其中还包括提供的默认财务报表的描述。
 
-## <a name="accessing-financial-reporting"></a>访问财务申报
+## <a name="enable-financial-reporting"></a>启用 Financial Reporting
+要为您的组织使用 Financial Reporting 服务，Lifecycle Services (LCS) 管理员必须在 LCS 门户中为您的组织启用此服务。 如果尚未为您的环境预配 Financial Reporting，请与您的 LCS 管理员联系以启用该服务。 
+
+## <a name="accessing-financial-reporting"></a>访问 Financial Reporting
 
 您可以在以下位置找到 **财务申报** 菜单：
 
-- **总帐** &gt; **查询和报表**
-- **预算编制** &gt; **查询和报表** &gt; **基本预算编制**
-- **预算编制** &gt; **查询和报表** &gt; **预算计划**
-- **预算编制** &gt; **查询和报表** &gt; **预算控制**
+- **总帐** > **查询和报表**
+- **预算编制** > **查询和报表** > **基本预算编制**
+- **预算编制** > **查询和报表** > **预算计划**
+- **预算编制** > **查询和报表** > **预算控制**
 - 合并
 
 若要为法人创建和生成财务报表，您必须为该法人设置以下信息：

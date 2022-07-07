@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903860"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015309"
 ---
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
@@ -117,7 +117,7 @@ ms.locfileid: "8903860"
 
 使用 **客户** 窗体可以为特定客户指定信用额度金额。 必须是获分配“维护客户主数据 (CustCustomersMaintain)”职责的安全角色的成员才可更改此窗体。
 
-1.  单击 **应收账款** \> **通用** \> **客户** \> **所有客户**。 双击客户帐户。
+1.  单击 **应收帐款** \> **客户** \> **所有客户**。 双击客户帐户。
 
 2.  在 **客户** 窗体的操作窗格上单击 **编辑**。
 
@@ -132,7 +132,7 @@ ms.locfileid: "8903860"
 
 有时，您可能必须手动检查客户的信用额度。 例如，在开始输入销售订单前，您可以手动检查客户的信用额度。 可以使用 **销售订单** 窗体手动检查信用额度。 必须是获分配“维护销售订单 (SalesOrderMaintain)”职责的安全角色的成员才可更改此窗体。
 
-1.  单击 **销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。 双击销售订单。
+1.  单击 **销售和营销** \> **销售订单** \> **所有销售订单**。 双击销售订单。
 
 2.  在 **销售订单** 窗体的操作窗格中，在 **管理** 选项卡上单击 **检查信用额度**。
 

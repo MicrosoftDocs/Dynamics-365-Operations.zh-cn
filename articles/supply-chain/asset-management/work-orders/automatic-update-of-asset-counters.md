@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856242"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016208"
 ---
 # <a name="automatic-update-of-asset-counters"></a>自动更新资产计数器
 
@@ -53,7 +53,7 @@ ms.locfileid: "8856242"
 
 5. 选择 **确定**。 
 
-自动资产计数器更新完成后，您可以在 **资产计数器** 页面上查看与资产相关的计数器登记。 选择 **资产管理** > **通用** > **资产** > **所有资产**，选择资产，然后在操作窗格上的 **资产** 选项卡上，在 **预防** 组中，选择 **计数器**。
+自动资产计数器更新完成后，您可以在 **资产计数器** 页面上查看与资产相关的计数器登记。 选择 **资产管理** > **资产** > **所有资产**，选择资产，然后在操作窗格上的 **资产** 选项卡上，在 **预防** 组中，选择 **计数器**。
 
 在 **资产汇总值** 页面，可获取已为所有资产的所有计数器类型创建的最新登记的概览。 选择 **资产管理** > **查询** > **资产** > **资产汇总值**。 此页面类似于 **资产计数器** 页面，但是您无法添加或编辑登记。 它仅供概览。
 

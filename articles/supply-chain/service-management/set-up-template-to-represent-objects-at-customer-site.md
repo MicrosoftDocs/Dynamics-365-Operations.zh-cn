@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c91fc2478ce4799fd51140a1416df0b674c1bce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 02e15375eb4757e84627206c4617edc7bf51ebf2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673401"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016875"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>设置表示客户站点中对象的模板 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8673401"
 
 使用此过程设置表示客户站点上的对象的模板。
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  双击某个服务协议，或单击 **服务协议** 以创建一个新的服务协议。
 

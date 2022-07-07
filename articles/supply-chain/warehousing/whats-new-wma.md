@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945714"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954654"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
 本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20250"></a>版本 2.0.25.0
+
+此版本引入了以下新增功能、修复和改进：
+
+- 提高了性能。
+- 提高了稳定性。
+- 改进了 **查询** 页面以在子标题中支持更长的文本。
+- 引入了通过单次点按或单击立即取消流的功能（当 **取消** 是 **更多操作** 下可用的唯一操作时）。
+- 修复了在 **编辑连接** 页面和自定义页面上的输入控件之间有时可能会失去焦点的问题。
+- 修复了按钮有时会变得无响应并在包含在滚动视图中时仍显示为选中状态的问题。
+- 修复了有时在主页上可能会使用错误布局的问题。
 
 ## <a name="version-20240"></a>版本 2.0.24.0
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890819"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023751"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>设置和维护供应商协作
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890819"
 供应商协作界面向外部供应商用户显示一组有限的有关采购订单、发票和托运存货的信息。 从此界面，供应商还可以回复询价 (RFQ)，以及查看和编辑基本公司信息。
 
 本文说明如何在 Dynamics 365 Supply Chain Management 中设置供应商协作。 另外还介绍了如何设置工作流来预配新的供应商协作用户，以及如何管理这些用户的安全角色。
-
-> [!NOTE]
-> 有关为供应商协作设置安全角色的信息仅适用于财务与运营的当前版本。 在 Microsoft Dynamics AX 7.0（2016 年 2 月）和 Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）中，使用 **供应商门户** 模块与供应商协作。 有关 Microsoft Dynamics AX 中供应商门户的用户权限的信息，请参阅[供应商门户用户安全性](configure-security-vendor-portal-users.md)。
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>设置供应商协作安全角色
 
@@ -138,13 +135,7 @@ ms.locfileid: "8890819"
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>为特定供应商启用供应商协作
 
-在为将要使用供应商协作的人员创建用户帐户之前，您必须设置供应商，使其可以使用供应商协作。 在 **供应商** 页面的 **常规** 选项卡上，设置 **协作激活** 字段。 选项如下：
-
-- **活动（自动确认采购订单）**– 在供应商不请求更改的情况下接受采购订单时，自动确认采购订单。
-- **活动（不自动确认采购订单）**– 供应商接受采购订单后，必须由您的组织手动确认采购订单。
-
-> [!NOTE]
-> 您的公司中的采购专业人员也可以完成此任务。
+在为将要使用供应商协作的人员创建用户帐户之前，您必须设置供应商，使其可以使用供应商协作。 有关如何执行此操作的详细信息，请参阅[供应商与外部供应商的协作](vendor-collaboration-work-external-vendors.md)。
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>预配新供应商协作用户故障排除
 

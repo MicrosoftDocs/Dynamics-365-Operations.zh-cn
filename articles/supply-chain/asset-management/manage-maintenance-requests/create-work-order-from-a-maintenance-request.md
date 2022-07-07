@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb54ec3466086afbd87a023a40e346a6a3464c98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909692"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017165"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>根据维护请求创建工作订单
 
@@ -34,7 +34,7 @@ ms.locfileid: "8909692"
 > [!NOTE]
 > 每个维护请求只能与一个工作订单关联。 但是，一个工作订单中可以包含多个维护请求，即使这些维护请求具有不同资产也不例外。
 
-1. 选择 **资产管理** \> **常用** \> **维护请求** \> **所有维护请求**。
+1. 选择 **资产管理** \> **维护请求** \> **所有维护请求**。
 2. 必须为维护请求先至少选择一个维护作业类型，并且还选择维护作业类型变体和交易（如果此信息相关），才能基于维护请求创建工作订单。 在网格视图中，可以轻松更新维护请求的信息。
 3. 准备好创建工作订单时，选择要在其中包含的维护请求。
 
@@ -48,7 +48,7 @@ ms.locfileid: "8909692"
 
     此外，创建基于维护请求的工作订单时，如果一个保修协议中涵盖与该维护请求关联的资产，则会通过消息栏告知您这个保修协议。
 
-6. 选择 **资产管理** \> **常用** \> **工作订单** \> **所有工作订单**，然后打开新工作订单。
+6. 选择 **资产管理** \> **工作订单** \> **所有工作订单**，然后打开新工作订单。
 
     ![打开新工作订单。](media/05-manage-maintenance-requests.png)
 

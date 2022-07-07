@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890645"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016905"
 ---
 # <a name="create-service-object-relations"></a>创建服务对象关系 
 
@@ -33,7 +33,7 @@ ms.locfileid: "8890645"
 
 使用以下步骤来为服务协议创建服务对象关系：
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  在 **服务协议** 列表中，选择某一现有服务协议，或单击 **新建** 来创建新服务协议。
 
@@ -47,7 +47,7 @@ ms.locfileid: "8890645"
 
 使用以下步骤来为服务订单创建服务对象关系：
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。
 
 2.  在 **服务订单** 列表中，选择某一现有服务订单，或创建新服务订单。
 

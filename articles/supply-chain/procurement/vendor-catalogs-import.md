@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851614"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015543"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 
@@ -46,7 +46,7 @@ ms.locfileid: "8851614"
 
 4. 配置目录导入的工作流。 创建一个 CMR 文件模板，然后将其与供应商共享。
 
-5. 选择 **采购** \> **通用** \> **目录** \> **供应商目录** 以创建供应商目录。 在此目录中对您从供应商处接收的目录维护请求 (CMR) 文件进行分组。 
+5. 选择 **采购** \> **目录** \> **供应商目录** 以创建供应商目录。 在此目录中对您从供应商处接收的目录维护请求 (CMR) 文件进行分组。
 
 6. 上载 CMR 文件。
 

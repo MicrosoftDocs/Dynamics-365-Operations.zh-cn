@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857886"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014989"
 ---
 # <a name="add-fault-to-work-order"></a>将故障添加到工作订单
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857886"
 
 可以向工作订单添加故障设计器中设置的故障。 必须将一个或多个故障记录连接到在工作订单中选择的资产所使用的资产类型。 有关设置的详细信息，请参阅[故障管理](../setup-for-work-orders/fault-management.md)。
 
-1. 选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 选择 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择要创建故障登记的工作订单，然后，在操作窗格中，在 **工作订单** 选项卡上，在 **资产** 组中，选择 **资产故障**。
 
@@ -64,7 +64,7 @@ ms.locfileid: "8857886"
 
 可从 **所有资产** 列表页打印资产故障报告，其中显示所有故障登记和故障统计信息的图形概览。
 
-1. 选择 **资产管理** > **常用** > **资产** > **所有资产**。
+1. 选择 **资产管理** > **资产** > **所有资产**。
 
 2. 选择要为其打印故障报告的资产。
 

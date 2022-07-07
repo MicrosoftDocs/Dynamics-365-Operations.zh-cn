@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891080"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013546"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
@@ -69,37 +69,6 @@ ms.locfileid: "8891080"
 
 有关详细信息，请参阅[在环境部署后启用](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy)。
 
-### <a name="set-up-dataverse"></a>设置 Dataverse
-
-在设置 Dataverse 之前，通过执行以下步骤将全球库存核算服务原则添加到您的租户。
-
-1. 如[安装 Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 中所述安装 Windows PowerShell v2 的 Azure AD 模块。
-1. 运行以下 PowerShell 命令。
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-接下来，通过执行以下步骤在 Dataverse 中为全球库存核算创建应用程序用户。
-
-1. 打开您的 Dataverse 环境的 URL。
-1. 转到 **高级设置 \> 系统 \> 安全 \> 用户**，创建应用程序用户。 使用 **视图** 字段将页面视图更改为 *应用程序用户*。
-1. 选择 **新建**。
-1. 将 **申请 ID** 字段设置为 *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*。
-1. 选择 **分配角色**，然后选择 *系统管理员*。 如果有一个名为 *Common Data Service 用户* 的角色，也选择它。
-1. 重复前面的步骤，但将 **应用程序 ID** 字段设置为 *5f58fc56-0202-49a8-ac9e-0946b049718b*。
-
-有关详细信息，请参阅[创建应用程序用户](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
-
-如果您的 Dataverse 安装的默认语言不是英语，请按照以下步骤操作。
-
-1. 转到 **高级设置 \> 管理 \> 语言**。
-1. 选择 *英语* (*LanguageCode=1033*)，然后选择 **应用**。
-
 ## <a name="install-the-add-in"></a><a name="install"></a>安装加载项
 
 按照以下步骤安装加载项，以便您可以使用全球库存核算。
@@ -109,11 +78,21 @@ ms.locfileid: "8891080"
 1. 转到 **完整详细信息**。
 1. 转到 **Power Platform 集成**，然后选择 **设置**。
 1. 在 **Power Platform 环境设置** 对话框中，选中该复选框，然后选择 **设置**。 通常，设置需要 60 到 90 分钟。
-1. 完成 Microsoft Power Platform 环境的设置后，在 **环境加载项** 快速选项卡上，选择 **安装新加载项**。
+1. Microsoft Power Platform 环境设置完成后，登录到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)，然后通过执行以下步骤安装全球库存核算加载项：
+   1. 选择要安装加载项的环境。
+   1. 选择 **Dynamics 365 应用**。
+   1. 选择 **安装应用**。
+   1. 选择 **Dynamics 365 全球库存核算**。
+   1. 选择 **下一步** 以进行安装。
+1. 返回到 LCS 环境。 在 **环境加载项** 快速选项卡上，选择 **安装新加载项**。
 1. 选择 **全球库存核算**。
 1. 按照安装指南操作，并同意条款和条件。
 1. 选择 **安装**。
 1. 在 **环境加载项** 快速选项卡上，您应该会看到正在安装全球库存核算。 几分钟后，状态应从 *正在安装* 变为 *已安装*。 （您可能必须刷新页面才能看到此更改。）此时，全球库存核算可以使用了。
+
+如果您的 Dataverse 安装的默认语言不是英语，请按照以下步骤操作：
+1. 转到 **高级设置 \> 管理 \> 语言**。
+1. 选择 *英语* (*LanguageCode=1033*)，然后选择 **应用**。
 
 ## <a name="set-up-the-integration"></a>设置集成
 

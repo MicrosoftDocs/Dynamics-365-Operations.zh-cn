@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09419f802b696179901c394b2b95c9208a12b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8f0469d7a3ada0dc30977978a7e9c616e8cf9781
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678281"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017396"
 ---
 # <a name="cancel-a-return-order"></a>取消退货单 
 
@@ -34,11 +34,11 @@ ms.locfileid: "8678281"
 > <P>只能取消状态为<STRONG>已创建</STRONG>的退货单。 状态为<STRONG>未结</STRONG>或<STRONG>已关闭</STRONG>的退货单不能取消。</P>
 
 
-1.  单击 **销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。
+1.  单击 **销售和市场营销** \> **销售退货** \> **所有退货单**。
     
-    –或–
+    –或者–
     
-    单击 **销售和市场营销** \> **通用** \> **退货单** \> **已创建的退货单**。
+    单击 **销售和市场营销** \> **销售退货** \> **已创建的退货单**。
 
 2.  取消要取消的退货单。
 

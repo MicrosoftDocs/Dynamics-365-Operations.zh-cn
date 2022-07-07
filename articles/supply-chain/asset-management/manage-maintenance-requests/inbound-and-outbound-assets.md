@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908705"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016527"
 ---
 # <a name="inbound-and-outbound-assets"></a>入站资产和出站资产
 
@@ -37,7 +37,7 @@ ms.locfileid: "8908705"
 
 ## <a name="register-assets-as-inbound"></a>将资产登记为入站资产
 
-1. 选择 **资产管理** \> **常用** \> **维护请求** \> **有效维护请求**。
+1. 选择 **资产管理** \> **维护请求** \> **有效维护请求**。
 2. 选择维护请求。
 3. 选择 **更新维护请求状态**。
 4. 选择 **入站**（或已为入站资产创建的其他生命周期状态），然后选择 **确定**。
@@ -46,7 +46,7 @@ ms.locfileid: "8908705"
 
 ## <a name="register-inbound-assets-as-received"></a>将入站资产登记为接收的资产
 
-1. 选择 **资产管理** \> **常用** \> **入站/出站** \> **入站资产**。
+1. 选择 **资产管理** \> **入站/出站** \> **入站资产**。
 2. 选择资产或维护请求。
 3. 选择 **接收资产**。
 4. 在 **接收时间** 字段中，输入日期和时间。 然后选择 **确定**。 将从 **入站资产** 列表页删除记录。
@@ -57,14 +57,14 @@ ms.locfileid: "8908705"
 
 完成维护作业或修复作业之后，可将资产登记为已返回。
 
-1. 选择 **资产管理** \> **常用** \> **维护请求** \> **有效维护请求**。
+1. 选择 **资产管理** \> **维护请求** \> **有效维护请求**。
 2. 选择维护请求。
 3. 选择 **更新维护请求状态**。
 4. 选择 **出站**（或已为出站资产创建的其他生命周期状态），然后选择 **确定**。
 
 ## <a name="register-outbound-assets-as-delivered"></a>将出站资产登记为已交付
 
-1. 选择 **资产管理** \> **常用** \> **入站/出站** \> **出站资产**。
+1. 选择 **资产管理** \> **入站/出站** \> **出站资产**。
 2. 选择资产或维护请求。
 3. 选择 **交付资产**。
 4. 在 **交付时间** 字段中，输入日期和时间。 然后选择 **确定**。 将从 **出站资产** 列表页删除记录。

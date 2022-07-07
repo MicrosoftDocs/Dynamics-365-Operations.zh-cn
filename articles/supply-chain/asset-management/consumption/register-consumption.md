@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886035"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015076"
 ---
 # <a name="register-consumption"></a>登记消耗
 
@@ -35,7 +35,7 @@ ms.locfileid: "8886035"
 >[!NOTE]
 >可以为工作订单生命周期状态设置日记帐自动过帐。 有关详细信息，请参阅[工作订单生命周期状态](../setup-for-work-orders/work-order-lifecycle-states.md)。
 
-1. 单击 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 单击 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择工作订单，然后单击 **日记帐**。
 
@@ -61,7 +61,7 @@ ms.locfileid: "8886035"
 
 如果工作订单中包含多个工作订单作业，则可使用 **拆分工时** 功能登记工时，这意味着可以将一个工时登记行平均分配给每个工作订单作业。
 
-1. 单击 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 单击 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择工作订单，然后单击 **日记帐**。
 

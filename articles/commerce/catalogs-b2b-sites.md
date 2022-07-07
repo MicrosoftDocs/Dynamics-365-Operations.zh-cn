@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848981"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027024"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>创建 B2B 站点的 Commerce 目录
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本文介绍如何为 Microsoft Dynamics 365 Commerce 企业到企业 (B2B) 站点创建 Commerce 产品目录。 有关 B2B 站点的 Commerce 目录的常见问题的解答，请参阅 [B2B 的 Commerce 目录常见问题解答](catalogs-b2b-sites-FAQ.md)。
 

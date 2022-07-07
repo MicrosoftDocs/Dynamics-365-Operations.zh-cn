@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba18fb9228c3b9c2accf17cb938e7f2a12dbe
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fc0dee0747c26b073d750d19328a6a59c234fd3f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671693"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016383"
 ---
 # <a name="service-tasks-overview"></a>服务任务概览
 
@@ -82,7 +82,7 @@ ms.locfileid: "8671693"
 
 **按服务任务分组**
 
-1. 单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1. 单击 **服务管理** \> **服务协议** \> **服务协议**。
 2. 在 **设置** 选项卡中，选择 **合并服务订单** 字段中的 **按服务任务**。
 
 

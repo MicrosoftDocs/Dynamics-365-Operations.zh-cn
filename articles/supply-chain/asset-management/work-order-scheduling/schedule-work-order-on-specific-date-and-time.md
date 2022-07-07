@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ec7e300f60f76aaa467238d7a2c2a199fdeafeed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857915"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015947"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>将工作订单安排到特定日期和时间
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857915"
 
 如果必须将工作订单安排到特定日期 *和* 时间，可在资产管理中替换标准安排流程，并为工作订单创建特定安排。
 
-1. 单击 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 单击 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 在工作订单列表的 **工作订单** 列中，单击工作订单 ID。
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860658"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022495"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -263,9 +263,6 @@ ms.locfileid: "8860658"
 
 ## <a name="view-the-my-day-dialog"></a>查看“我的一天”对话框
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 **我的一天** 对话框为工作人员提供了登记和余额的概览。 此对话框分为以下三个部分：
 
 - 主部分列出当前工作人员在所选日期进行的登记。 它将打开并显示当天的登记，还会提供一个日期选取器，使工作人员可以查看其他天。
@@ -275,9 +272,6 @@ ms.locfileid: "8860658"
 管理员可以将 **我的一天** 按钮放在每个相关选项卡的工具栏上，从而将此功能添加到界面，如[设计生产车间执行界面中所述](production-floor-execution-tabs.md)。
 
 ## <a name="working-in-teams"></a>在团队中工作
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 在将多个工作人员分配到同一个生产作业时，他们可以组成一个团队。 团队可以指定一个工作人员作为指导员。 那么剩下的工作人员会自动成为该指导员的助手。 对于所生成的团队，只有指导员必须登记作业状态。 时间记录适用于所有团队成员。
 

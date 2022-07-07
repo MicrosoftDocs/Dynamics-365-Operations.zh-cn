@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887593"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016759"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>维护作业类型、类别、变型、贸易和清单
 
@@ -243,7 +243,7 @@ ms.locfileid: "8887593"
 
 创建了所需维护作业类型默认组合之后，可使用 **所有资产** 页获取与特定资产关联的当前维护作业类型默认的概览。 此概览显示可对为资产选择的资产类型使用的所有维护作业类型默认组合。 这些组合中包括具有维护作业类型变量和维护作业工种的变型的组合。
 
-1. 选择 **资产管理** \> **常用** \> **资产** \> **所有资产** 或 **有效资产**。
+1. 选择 **资产管理** \> **资产** \> **所有资产** 或 **有效资产** 。
 2. 在列表中，选择要查看其维护作业类型组合的资产的概览。
 3. 在操作窗格的 **常规** 选项卡上 **相关信息** 组中，选择 **维护作业类型**。
 

@@ -2,30 +2,25 @@
 title: 将地址添加到服务订单
 description: 本文描述如何将客户地址添加到服务订单。
 author: sorenva
-ms.date: 05/02/2018
+ms.date: 06/15/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c485c50bab7c2e945aa0f0fc0601008dcebd3328
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844726"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015716"
 ---
-# <a name="add-an-address-to-a-service-order"></a>将地址添加到服务订单    
+# <a name="add-an-address-to-a-service-order"></a>将地址添加到服务订单
 
 [!include [banner](../includes/banner.md)]
-
 
 本文描述如何将客户地址添加到服务订单。 在您创建某一服务订单时，地址信息将从该服务订单附加到的项目转移。 但是，您可以从已在 Microsoft Dynamics AX 中输入的客户、供应商、站点、仓库、服务订单和项目的地址，选择备选位置。
 
@@ -35,43 +30,36 @@ ms.locfileid: "8844726"
 
 若要添加地址到销售订单，请执行以下步骤：
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1. 转到 **服务管理** \> **服务订单** \> **服务订单**。
 
-2.  打开想要为其创建地址的服务订单。
+1. 打开想要为其创建地址的服务订单。
 
-3.  在 **操作窗格** 上，单击 **编辑**，然后单击 **标头视图**。
+1. 打开 **标头** 选项卡。
 
-4.  在 **地址** 快速选项卡，单击 **添加地址**。
+1. 展开 **地址** 快速选项卡，然后从快速选项卡工具栏中选择 **添加地址**。
 
-5.  在 **新地址** 窗体中，输入地址的唯一名称并完成其余的字段。 
-    
+1. 在 **新地址** 对话框中，输入地址的唯一名称并完成其余的字段。 
 
     > [!WARNING]
-    > <P>如果输入与现有地址相同的名称，则您在剩余字段中输入的信息将覆盖现有地址信息。</P>
+    > 如果输入与现有地址相同的名称，则您在剩余字段中输入的信息将覆盖现有地址信息。
 
-
-6.  单击 **确定** 以将新地址复制到您的服务订单中。
+1. 选择 **确定** 以将新地址复制到您的服务订单中。
 
 ## <a name="specify-an-alternative-address-on-a-service-order"></a>在服务订单上指定备选地址
 
 若要将备选地址添加到服务订单，请执行以下步骤：
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1. 转到 **服务管理** \> **服务订单** \> **服务订单**。
 
-2.  打开您想要为其输入备选地址的服务订单。
+1. 打开您想要为其输入备选地址的服务订单。
 
-3.  在 **操作窗格** 上，单击 **编辑**，然后单击 **标头视图**。
+1. 打开 **标头** 选项卡。
 
-4.  在 **地址** 快速选项卡，单击 **其他地址**。
+1. 展开 **地址** 快速选项卡，然后从快速选项卡工具栏中选择 **其他地址**。
 
-5.  在 **地址选择** 窗体 **记录类型** 字段中，选择 **服务订单**。
+1. 在 **地址选择** 对话框中，从网格上方的下拉列表中选择 **服务订单**。
 
-6.  选择地址，然后单击 **确定** 以将其复制到您的服务订单中。
-
-
-  
-
-
+1. 选择地址，然后选择 **确定** 以将其复制到您的服务订单中。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

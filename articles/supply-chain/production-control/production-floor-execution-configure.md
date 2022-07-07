@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899402"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022555"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -113,9 +113,6 @@ ms.locfileid: "8899402"
 
 ### <a name="enable-the-my-day-dialog"></a>启用“我的一天”对话框
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 **我的一天** 对话框为工作人员提供了他们的每日注册以及带薪时间、带薪加班、缺勤和带薪缺勤当前余额的概览。
 
 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
@@ -124,9 +121,6 @@ ms.locfileid: "8899402"
 
 ### <a name="enable-teams"></a>启用 Teams
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 在将多个工作人员分配到同一个生产作业时，他们可以组成一个团队。 团队可以指定一个工作人员作为指导员。 那么剩下的工作人员会自动成为该指导员的助手。 对于所生成的团队，只有指导员必须登记作业状态。 时间记录适用于所有团队成员。
 
 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
@@ -134,9 +128,6 @@ ms.locfileid: "8899402"
 - *生产车间执行界面中的生产团队*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>在生产车间执行界面中启用其他配置
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 此功能将以下功能的设置添加到 **配置生产车间执行** 页面：
 

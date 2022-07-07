@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873657"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016150"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>制造执行中的生产参数
 
@@ -63,7 +63,7 @@ ms.locfileid: "8873657"
 
 对于每个阶段，**自动物料清单消耗量** 字段让您能够从三种领取物料的方法中选择一种用于生产订单：
 
-- **耗用原则** – 此选项与在 **生产** 模块中为 BOM 定义的选项合并使用。 单击 **生产控制** &gt; **通用** &gt; **生产订单** &gt; **所有生产订单**。 在 **所有生产订单** 页，选择列表中的一个生产订单，然后在操作窗格中单击 **物料清单**。 在 **物料清单** 页 **设置** 选项卡的 **耗用原则** 字段，选择以下其中一种选项：
+- **耗用原则** – 此选项与在 **生产** 模块中为 BOM 定义的选项合并使用。 单击 **生产控制** &gt; **生产订单** &gt; **所有生产订单**。 在 **所有生产订单** 页，选择列表中的一个生产订单，然后在操作窗格中单击 **物料清单**。 在 **物料清单** 页 **设置** 选项卡的 **耗用原则** 字段，选择以下其中一种选项：
 
   - **开始**
   - **完成**

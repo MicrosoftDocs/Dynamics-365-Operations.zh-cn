@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897681"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016469"
 ---
 # <a name="maintenance-downtime-activities"></a>维护停机时间活动
 
@@ -38,14 +38,14 @@ ms.locfileid: "8897681"
 
 ## <a name="maintenance-downtime-activities"></a>维护停机时间活动
 
-单击 **资产管理** > **常用** > **维护停机时间活动** > **所有维护停机时间活动** 以打开所有维护停机时间活动的列表和查看与这些活动有关的部分信息。 单击 **维护停机时间活动** 列中的一个链接以打开详细信息视图。 下图显示 **维护停机时间活动** 列表的示例。
+单击 **资产管理** > **维护停机时间活动** > **所有维护停机时间活动** 以打开所有维护停机时间活动的列表和查看与这些活动有关的部分信息。 单击 **维护停机时间活动** 列中的一个链接以打开详细信息视图。 下图显示 **维护停机时间活动** 列表的示例。
 
 ![图 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>创建维护停机时间活动
 
-1. 单击 **资产管理** > **常用** > **维护停机时间活动** > **所有维护停机时间活动** 或 **有效的维护停机时间活动**。
+1. 单击 **资产管理** > **维护停机时间活动** > **所有维护停机时间活动** 或 **有效的维护停机时间活动**。
 
 2. 单击 **新建**。
 

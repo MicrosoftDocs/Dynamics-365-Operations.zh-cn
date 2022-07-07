@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670795"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014647"
 ---
 # <a name="service-level-agreements-overview"></a>服务级别协议概览       
 
@@ -50,7 +50,7 @@ SLA 设置了为客户提供的服务的标准级别，并使服务公司明确�
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>将服务级别协议应用到服务协议
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。 选择您要应用 SLA 的服务协议，然后单击 **操作窗格** 上的 **编辑**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。 选择您要应用 SLA 的服务协议，然后单击 **操作窗格** 上的 **编辑**。
 
 2.  在 **服务级别协议** 字段中，选择要分配的 SLA。
 

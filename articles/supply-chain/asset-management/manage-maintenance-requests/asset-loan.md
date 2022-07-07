@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ced5ec174fe1885273241be5f9fd48b7947129af
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f70b29ef69b80160f108e6f53edda12b86c2c9db
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846262"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015745"
 ---
 # <a name="asset-loans"></a>资产出借
 
@@ -32,7 +32,7 @@ ms.locfileid: "8846262"
 
 ## <a name="register-asset-loans-on-a-maintenance-request"></a>登记维护请求的资产出借
 
-1. 选择 **资产管理** \> **常用** \> **维护请求** \> **所有维护请求** 或 **有效维护请求**。
+1. 选择 **资产管理** \> **维护请求** \> **所有维护请求** 或 **有效维护请求**。
 2. 选择要为其登记资产出借的维护请求，然后选择 **编辑**。
 3. 在 **请求** 页，选择 **发送出借资产**。
 4. 选择资产，然后输入预期返回日期。
@@ -42,7 +42,7 @@ ms.locfileid: "8846262"
 > - 仅当有相同资产类型的资产时，才可以发送出借资产。
 > - 出借的资产必须有允许其用作出借资产的资产生命周期状态，如 **InStorage**。 登记资产出借时，将把资产的资产生命周期状态自动更新为 **OnLoan** 之类状态。
 
-若要查看您已出借给其他位置或客户的所有资产的列表，请选择 **资产管理** \> **常用** \> **资产出借** \> **所有资产出借**。 如果为资产选中了 **已结束** 复选框，则已将资产登记为已退给公司。
+若要查看您已出借给其他位置或客户的所有资产的列表，请选择 **资产管理** \> **资产出借** \> **所有资产出借**。 如果为资产选中了 **已结束** 复选框，则已将资产登记为已退给公司。
 
 ![管理维护请求。](media/06-manage-maintenance-requests.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "8846262"
 
 ## <a name="register-loan-assets-as-returned"></a>将出借资产登记为已退回
 
-1. 选择 **资产管理** \> **常用** \> **资产出借** \> **有效资产出借**。
+1. 选择 **资产管理** \> **资产出借** \> **有效资产出借**。
 2. 选择登记为已退回的资产出借，然后选择 **退回资产出借**。
 3. 在 **已退回** 字段中，输入日期和时间。
 4. 选择 **确定**。

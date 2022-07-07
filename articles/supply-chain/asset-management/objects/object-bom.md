@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882770"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016237"
 ---
 # <a name="asset-boms"></a>资产 BOM
 
@@ -57,7 +57,7 @@ ms.locfileid: "8882770"
 
 过程工作订单中的消耗后，可在 **资产 BOM** 页中查看登记的物料消耗。
 
-1. 选择 **资产管理** \> **常用** \> **资产** \> **有效资产**。 在列表中选择资产，然后选择 **资产 BOM**。
+1. 选择 **资产管理** \> **资产** \> **有效资产**。 在列表中选择资产，然后选择 **资产 BOM**。
 
     > [!NOTE]
     > 若要查看所有资产的所有物料消耗登记，请选择 **资产管理** \> **查询** \> **资产** \> **资产 BOM**。

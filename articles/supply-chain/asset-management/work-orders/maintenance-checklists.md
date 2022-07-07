@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854520"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016672"
 ---
 # <a name="maintenance-checklists"></a>维护清单
 
@@ -35,7 +35,7 @@ ms.locfileid: "8854520"
 
 ## <a name="fill-in-a-maintenance-checklist"></a>填写维护清单
 
-1. 单击 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 单击 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择工作订单，然后在“操作窗格”上的 **工作订单** 选项卡上，在 **行** 组中，选择 **维护清单**。
 

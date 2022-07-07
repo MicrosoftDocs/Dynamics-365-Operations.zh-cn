@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d519240c0e9e68542e1e10a51eaa2050d011cb4a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c0aac9bf0f312052160b29be606ba587f2de0184
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675702"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014644"
 ---
 # <a name="modify-a-service-bom"></a>修改服务项清单 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8675702"
 
 ## <a name="update-a-service-bom-element"></a>更新服务物料清单元素
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  单击 **编辑** 打开 **服务协议** 详细信息窗体。
 
@@ -52,7 +52,7 @@ ms.locfileid: "8675702"
 
 ## <a name="delete-a-service-bom-line"></a>删除服务物料清单行
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  单击 **编辑** 打开 **服务协议** 详细信息窗体。
 

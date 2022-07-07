@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868034"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016266"
 ---
 # <a name="asset-manufacturers-and-models"></a>资产制造商和模型
 
@@ -53,7 +53,7 @@ ms.locfileid: "8868034"
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>为对象选择制造商和模型
 
-1. 选择 **资产管理** \> **常用** \> **资产** \> **所有资产**。
+1. 选择 **资产管理** \> **_资产_* \> **所有资产**。
 2. 在 **资产** 列中，选择资产的链接。 将显示 **详细信息** 页。
 3. 选择 **编辑**。
 4. 在 **常规** 快速选项卡上的 **制造商** 和 **模型** 字段中选择值。

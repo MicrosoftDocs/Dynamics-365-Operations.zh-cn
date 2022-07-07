@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fe5726203ffc7fef12c02196f511bc4c3c9be2a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 370722d5c2f66e316d7c37f711cdd086bc53f6a8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674832"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014813"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>缩减预订费用天数 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8674832"
 
 ## <a name="reduce-the-days-on-a-subscription-fee"></a>缩减预订费用天数
 
-1.  单击 **服务管理** \> **常用** \> **服务预订** \> **所有服务预订**。 选择服务预定，并在“操作窗格”中单击 **预订费用**。
+1.  单击 **服务管理** \> **服务预订** \> **所有服务预订**。 选择服务预定，并在“操作窗格”中单击 **预订费用**。
 
 2.  在 **预订类型** 字段中，选择 **缩减天数**。
 

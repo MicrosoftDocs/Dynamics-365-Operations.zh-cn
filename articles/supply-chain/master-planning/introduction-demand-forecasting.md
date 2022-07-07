@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469245"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960163"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -91,19 +91,13 @@ ms.locfileid: "8469245"
 
 ## <a name="additional-resources"></a>其他资源
 
-[需求预测设置](demand-forecasting-setup.md)
-
-[生成统计基准预测](generate-statistical-baseline-forecast.md)
-
-[对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
-
-[授权调整后的预测](authorize-adjusted-forecast.md)
-
-[监控预测准确性](monitor-forecast-accuracy.md)
-
-[在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
-
-[扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [需求预测设置](demand-forecasting-setup.md)
+- [生成统计基准预测](generate-statistical-baseline-forecast.md)
+- [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
+- [授权调整后的预测](authorize-adjusted-forecast.md)
+- [监控预测准确性](monitor-forecast-accuracy.md)
+- [在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
+- [视频：扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [网络研讨会：使用 Azure 机器学习系列进行需求预测](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

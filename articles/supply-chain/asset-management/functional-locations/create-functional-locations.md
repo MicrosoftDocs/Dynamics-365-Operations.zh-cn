@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869711"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015832"
 ---
 # <a name="create-functional-locations"></a>创建功能位置
 
@@ -41,7 +41,7 @@ ms.locfileid: "8869711"
 
 使用功能位置时，首先创建新建资产时要使用的一个默认位置。 此功能位置是您在 **资产管理** > **设置** > **资产管理参数** > **资产** 链接 > **默认功能位置** 字段中选择的功能位置。 创建新资产，但尚未为这些资产设置功能位置结构时，可使用默认功能位置。
 
-1. 选择 **资产管理** > **常用** > **功能位置** > **所有功能位置**。  
+1. 选择 **资产管理** > **功能位置** > **所有功能位置**。  
 2. 在 **所有功能位置** 中，选择 **新建**。
 3. 在 **功能位置** 字段中插入一个 ID（如“0000”或“默认”），以指示这是特殊功能位置。
 4. 在 **名称** 字段中插入默认功能位置的名称。
@@ -53,7 +53,7 @@ ms.locfileid: "8869711"
 
 以下过程介绍如何创建公司中的维护管理所需功能位置。
 
-1. 选择 **资产管理** > **常用** > **功能位置** > **所有功能位置**。 可从网格视图或详细信息视图创建功能位置。
+1. 选择 **资产管理** > **功能位置** > **所有功能位置**。 可从网格视图或详细信息视图创建功能位置。
 2. 选择 **新建** 按钮。
 3. 在 **功能位置** 字段中插入一个 ID。
 4. 在 **名称** 字段中插入功能位置的名称。

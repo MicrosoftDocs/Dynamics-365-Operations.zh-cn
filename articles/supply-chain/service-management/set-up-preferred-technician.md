@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671665"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017194"
 ---
 # <a name="set-up-a-preferred-technician"></a>设置首选技术人员 
 
@@ -31,13 +31,13 @@ ms.locfileid: "8671665"
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>将员工分配到派遣团队
 
-1.  单击 **人力资源** \> **通用** \> **工作人员** \> **工作人员**。 双击工人打开工作人员详细信息页。 在 **操作窗格** 上，单击 **设置** \> **派遣团队** 以打开 **派遣工作人员** 窗体。
+1.  单击 **人力资源** \> **工作人员** \> **工作人员**。 双击工人打开工作人员详细信息页。 在 **操作窗格** 上，单击 **设置** \> **派遣团队** 以打开 **派遣工作人员** 窗体。
 
 2.  在 **派遣团队** 字段中，选择为其分配工作人员的团队。
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>将首选技术人员分配给某一服务协议
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。 双击服务协议打开详细信息窗体。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。 双击服务协议打开详细信息窗体。
 
 2.  在 **常规** 选项卡上，选择 **首选技术人员** 字段，然后选择相应派遣团队的编号作为服务协议的首选技术人员。
 

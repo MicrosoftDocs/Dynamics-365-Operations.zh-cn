@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858234"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015328"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
@@ -143,7 +143,9 @@ ms.locfileid: "8858234"
 6. 只有为环境选择了 **启用 Dynamics 365 应用** 选项，才能使用将 Human Resources 数据与 Power Apps 环境集成的双重写入功能。 有关双重写入的详细信息，请参阅[双重写入主页](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)。
 
     > [!NOTE]
-    > 在创建 Power Apps 环境时，必须选择 **启用 Dynamics 365 应用** 选项。 如果在预配时未选择此选项，您将无法使用双重写入在 Dynamics 365 Human Resources 和 Power Apps 环境之间集成数据，或在环境中安装 Dynamics 365 应用，如 Dynamics 365 Sales 和 Field Service。 此选项不可逆。 有关详细信息，请参阅 Power Platform 文档站点上的[创建新环境时的一些重要注意事项](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment)。
+    > 在创建 Power Apps 环境时，必须选择 **启用 Dynamics 365 应用** 选项。 如果在预配时未选择此选项，您将无法使用双重写入在 Dynamics 365 Human Resources 和 Power Apps 环境之间集成数据，或在环境中安装 Dynamics 365 应用，如 Dynamics 365 Sales 和 Field Service。 此选项不可逆。 
+    > -  将 Human Resources 部署到链接的 Dataverse 实例中后，Human Resources 不支持更改此实例。 </br></br>
+    > 有关详细信息，请参阅 Power Platform 文档站点上的[创建新环境时的一些重要注意事项](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment)。  
 
 7. 确定了要使用的正确环境之后，可以继续进行配置流程。 
 

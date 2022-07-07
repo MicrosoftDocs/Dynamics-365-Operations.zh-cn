@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670963"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017367"
 ---
 # <a name="cancel-service-orders"></a>取消服务订单   
 
@@ -36,11 +36,11 @@ ms.locfileid: "8670963"
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>在“服务订单”窗体中取消服务订单
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 选择服务订单，然后在操作窗格上单击 **取消订单**。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。 选择服务订单，然后在操作窗格上单击 **取消订单**。
 
 ## <a name="cancel-a-service-order-line"></a>取消服务订单行
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。 双击包含要取消的服务订单。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。 双击包含要取消的服务订单。
 
 2.  选择您想取消的服务订单行，然后单击 **取消订单行** 以将该行的状态更改为 **已取消**。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882828"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016034"
 ---
 # <a name="introduction-to-functional-locations"></a>功能位置简介
 
@@ -59,7 +59,7 @@ ms.locfileid: "8882828"
 
 ## <a name="all-functional-locations"></a>所有功能位置
 
-选择 **资产管理** \> **常用** \> **功能位置** \> **所有功能位置** 以打开 **所有功能位置** 列表页。 此页显示所有功能位置和与每个功能位置有关的信息。 若要仅查看有效功能位置，请选择 **有效功能位置**。 若要仅查看在您作为工人关联到的功能位置，请选择 **我的有效功能位置**。 （此项关联在 **工人** 页设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
+选择 **资产管理** \> **功能位置** \> **所有功能位置** 以打开 **所有功能位置** 列表页。 此页显示所有功能位置和与每个功能位置有关的信息。 若要仅查看有效功能位置，请选择 **有效功能位置**。 若要仅查看在您作为工人关联到的功能位置，请选择 **我的有效功能位置**。 （此项关联在 **工人** 页设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
 
 在 **所有功能位置** 列表页中的 **功能位置** 列选择链接可查看所选记录的详细信息。 若要编辑功能位置，请选择 **编辑** 按钮。 这个详细信息视图显示与位置有关的详细信息。 右侧有一个 **相关信息** 窗格。 此窗格显示功能位置层次结构。 可展开和折叠 **相关信息** 窗格。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891225"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016817"
 ---
 # <a name="create-maintenance-requests"></a>创建维护请求
 
@@ -32,9 +32,9 @@ ms.locfileid: "8891225"
 
 **示例：** 一位维护工人正在进行维修，这时他发现必须维修同一位置的另一个资产。 但是，这位工人没有时间，或没有维修作业所需备件。 因此，他为该资产创建了维护请求，并输入了简短的问题说明。
 
-Active maintenance requests section of the Related information pane on the right side of the **所有资产** 或 **有效资产** 页面（**资产管理** \> **常用** \> **资产** \> **所有资产** 或 **有效资产**）右侧 **相关信息** 窗格的 **有效维护请求** 部分中显示与所选资产关联的有效维护请求。
+**所有资产** 或 **有效资产** 页面（**资产管理** \> **资产** \> **所有资产** 或 **有效资产**）右侧 **相关信息** 窗格的 **有效维护请求** 部分中显示与所选资产关联的有效维护请求。
 
-1. 选择 **资产管理** \> **常用** \> **维护请求** \> **所有维护请求** 或 **有效维护请求**。
+1. 选择 **资产管理** \> **维护请求** \> **所有维护请求** 或 **有效维护请求**。
 2. 选择 **新建**。
 3. 在 **创建请求** 对话框的 **维护请求类型** 字段中，选择维护请求的类型。 将推荐默认类型。
 4. 在 **描述** 字段中，输入用于简要描述维护请求的名称或标题。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf65d5b41438b167847f0cd31f7d76169af26cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7b110c6a08d946b4527f47f6d4181819f3508fee
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675534"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016324"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>开始和停止针对服务订单的时间录制 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8675534"
 
 ## <a name="start-time-recording"></a>开始时间记录
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。
 
 2.  单击 **服务订单** 选项卡。在 **操作窗格** 上，在 **服务级别协议** 组中，单击 **开始**。
 
@@ -39,7 +39,7 @@ ms.locfileid: "8675534"
 
 ## <a name="stop-time-recording"></a>停止时间记录
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。
 
 2.  单击 **服务订单** 选项卡。在 **操作窗格** 上，在 **服务级别协议** 组中，单击 **停止**。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902102"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016614"
 ---
 # <a name="maintenance-forecasts"></a>维护预测
 
@@ -32,7 +32,7 @@ ms.locfileid: "8902102"
 
 您可能可以将预测行添加到工作订单中或从工作订单中删除它们。 对工作订单生命周期状态、关联的项目类型和与项目类型关联的阶段规则的设置决定是否可以添加或编辑预测行。 有关工作订单生命周期状态和相关的项目阶段的详细信息，请参阅[预测、工作订单和项目](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md)。
 
-1. 选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 选择 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 在列表中选择工作订单，然后在“操作窗格”> **工作订单** 选项卡 > **项目** 组中，选择 **预测**。 **工作订单维护预测** 页面将显示来自为工作订单作业选择的维护作业类型的预测行。
 

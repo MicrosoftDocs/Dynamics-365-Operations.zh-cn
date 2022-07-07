@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897710"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016585"
 ---
 # <a name="manual-update-of-asset-counters"></a>手动更新资产计数器
 
@@ -34,7 +34,7 @@ ms.locfileid: "8897710"
 
 在 **所有资产** 页面上，将根据资产的读数为资产创建工时或数量计数器登记。
 
-1. 选择 **资产管理** > **常用** > **资产** > **所有资产**。
+1. 选择 **资产管理** > **资产** > **所有资产**。
 
 2. 选择资产，然后在“操作窗格”上，在 **资产** 选项卡上的 **预防** 组中，选择 **计数器**。 **资产计数器** 页面显示所选资产之前进行的全部计数器登记的列表。
 

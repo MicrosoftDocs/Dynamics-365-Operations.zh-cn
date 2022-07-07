@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672757"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017280"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>登记退回物料的接收 
 
@@ -87,7 +87,7 @@ ms.locfileid: "8672757"
 
 作为使用 **到达概览** 窗体的备选方案，您可以使用 **登记** 窗体登记退回物料的到达。
 
-1.  单击 **销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。 创建新退货单或从该列表中打开退货单。 在 **行** 快速选项卡上，选择该退货单行。 单击 **更新行**，然后单击 **登记**。
+1.  单击 **销售和市场营销** \> **销售退货** \> **所有退货单**。 创建新退货单或从该列表中打开退货单。 在 **行** 快速选项卡上，选择该退货单行。 单击 **更新行**，然后单击 **登记**。
 
 2.  在 **处置代码** 字段中分配某一处置代码，然后单击 **确定**。
     

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860919"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016295"
 ---
 # <a name="create-an-asset"></a>创建资产
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860919"
 
 本文介绍如何在资产管理中创建资产。
 
-1. 单击 **资产管理** > **常用** > **资产** > **所有资产** 或 **有效资产**。
+1. 单击 **资产管理** > **资产** > **所有资产** 或 **有效资产**。
 2. 单击 **新建** 按钮。
 3. 在 **创建资产** 对话框中，插入与 **资产**（资产 ID）和资产名称有关的数据。 在 **生效** 字段中选择资产的日期和时间。 从该日期开始，您可以在功能位置安装该资产，还可以在资产结构中移动和替换该资产。
 4. 在 **资产类型** 字段中，选择资产的资产类型（必填字段）。 如果需要，为资产选择 **资产制造商** 和 **资产模型**。 如果仅设置了一个产品，则将在 **资产制造商** 字段中自动选择该产品。 **资产制造商** 和 **资产模型** 字段中可供选择的选项取决于[资产制造商和模型](../setup-for-objects/product-and-model.md)中的设置。

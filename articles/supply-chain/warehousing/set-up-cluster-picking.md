@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862299"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014711"
 ---
 # <a name="set-up-cluster-picking"></a>设置群集领料
 
@@ -74,9 +74,14 @@ ms.locfileid: "8862299"
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>设置群集领料的物料验证
 
-1. 在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** \> **仓库管理** \> **设置** \> **移动设备** \> **移动设备菜单项**。
+1. 转到 **仓库管理** > **设置** > **移动设备** > **移动设备菜单项**。
+1. 在列表窗格中，选择要设置的菜单项。
+1. 在操作窗格中选择 **工作确认设置**。
+1. 执行以下操作之一：
+    - 如果已存在要设置的 **工作类型** 的行，请选择它，然后在操作窗格上选择 **编辑**。
+    - 如果不存在适当的行，请在操作窗格中选择 **新建**，然后将 **工作类型** 设置为适当的类型。
+1. 针对新行或所选行选中 **产品确认** 复选框。 这将允许工作人员使用移动设备验证每件库存。
 
-1. 从移动设备菜单项打开 **工作确认设置**。 **产品确认** 选项允许您在扫描时从移动设备验证每件库存。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

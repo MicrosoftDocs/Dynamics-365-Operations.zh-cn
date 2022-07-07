@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902073"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015018"
 ---
 # <a name="manually-created-work-orders"></a>手动创建的工作订单
 
@@ -34,7 +34,7 @@ ms.locfileid: "8902073"
 
 ## <a name="create-work-order"></a>创建工作订单
 
-1. 选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 选择 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择 **新建**。
 
@@ -82,7 +82,7 @@ ms.locfileid: "8902073"
 
 您可以创建与现有工作订单相关的工作订单。 比如，如果要处理主工作订单和次级工作订单，此功能非常有用。 新工作订单基于现有工作订单的工作订单作业。
 
-1. 选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 选择 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择要创建相关工作订单的工作订单。
 
@@ -120,7 +120,7 @@ ms.locfileid: "8902073"
 
 您可以基于现有工作订单快速创建新的工作订单。 这种工作订单处理方法与基于[维护计划](../preventive-and-reactive-maintenance/maintenance-plans.md)创建工作订单不同。 这在有一个工作订单中包含大量工作订单作业，这些工作订单作业具有不同资产的应该定期完成的各种作业之类情况下非常有用。
 
-1. 选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
+1. 选择 **资产管理** > **工作订单** > **所有工作订单** 或 **有效工作订单**。
 
 2. 选择要复制其内容的工作订单。
 
@@ -142,7 +142,7 @@ ms.locfileid: "8902073"
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>基于维护请求创建工作订单
 
-1. 选择 **资产管理** > **常用** > **维护请求** > **所有维护请求** 或 **有效维护请求**。
+1. 选择 **资产管理** > **维护请求** > **所有维护请求** 或 **有效维护请求**。
 
 2. 选择要为其创建工作订单的维护请求，然后单击 **编辑**。
 

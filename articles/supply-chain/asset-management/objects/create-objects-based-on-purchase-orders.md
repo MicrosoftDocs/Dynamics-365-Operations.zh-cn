@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893691"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015600"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>基于采购订单创建资产
 
@@ -45,7 +45,7 @@ ms.locfileid: "8893691"
 
 ## <a name="create-assets-from-pending-assets"></a>通过暂挂资产创建资产
 
-1. 单击 **资产管理** > **常用** > **资产** > **暂挂资产**。
+1. 单击 **资产管理** > **资产** > **暂挂资产**。
 2. 将看到基于 **资产物料** 中所选物料更新后的采购订单列表。
 3. 可筛选采购订单状态，以便选择应该在哪个生命周期状态创建资产。 例如，您可能希望仅当在采购订单中过帐了产品收据时才创建资产。
 4. 在采购订单行中选择 **参考编号** 链接，以便查看有关物料的详细信息。

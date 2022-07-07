@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872085"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015047"
 ---
 # <a name="condition-assessment"></a>条件评估
 
@@ -47,7 +47,7 @@ ms.locfileid: "8872085"
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>为资产创建条件评估登记
 
-1. 选择 **资产管理** > **常用** > **资产** > **所有资产**。
+1. 选择 **资产管理** > **资产** > **所有资产**。
 2. 在列表中，选择要为其创建条件评估登记的资产。
 3. 在 **常规** 选项卡上，单击 **条件评估**。
 4. 单击 **新建** 创建新的登记。
@@ -62,7 +62,7 @@ ms.locfileid: "8872085"
 为资产创建条件评估登记之后，可以打印条件评估报告。
 
 >[!NOTE]
->也可以为工作订单登记条件评估（**资产管理** > **常用** > **工作订单** > **所有工作订单** > **条件评估** 按钮）。
+>也可以为工作订单登记条件评估（**资产管理** > **工作订单** > **所有工作订单** > **条件评估** 按钮）。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

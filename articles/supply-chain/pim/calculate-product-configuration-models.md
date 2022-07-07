@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890935"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015484"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 
@@ -73,7 +73,7 @@ ms.locfileid: "8890935"
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>当处于隐藏或只读状态时，如何设置目标属性？
 若要设置处于隐藏或只读状态的属性，请执行以下步骤。
 
-1.  单击 **产品信息管理** &gt; **通用** &gt; **产品配置模型**。
+1.  单击 **产品信息管理** &gt; **产品** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，单击 **编辑**。
 3.  在 **基于约束的产品配置模型详细信息** 页上，选择用作目标属性的属性。
 4.  在 **属性** 快速选项卡上，选择 **隐藏** 或 **只读**。
@@ -96,7 +96,7 @@ ms.locfileid: "8890935"
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>为什么即使在我成功验证了我的产品模型后仍收到错误消息？
 验证中并不包括计算。 您必须测试产品配置模型以查找计算中的错误。 若要测试产品配置模型，请按照下面的步骤执行。
 
-1.  单击 **产品信息管理** &gt; **通用** &gt; **产品配置模型**。
+1.  单击 **产品信息管理** &gt; **产品** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，在 **运行** 组中单击 **测试**。
 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c0255da0b8ebc248fd074c88082777afc9d36d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882973"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027125"
 ---
 # <a name="administration-overview"></a>管理概述
 
@@ -110,6 +110,6 @@ ms.locfileid: "8882973"
 
 - [Human Resources 中的新增功能或更改](hr-admin-whats-new.md)
 - [开发人员指南](hr-developer-overview.md)
-- [用户指南](hr-hrpro-overview.md)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

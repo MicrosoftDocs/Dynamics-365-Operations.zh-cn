@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907368"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016440"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
@@ -50,7 +50,7 @@ ms.locfileid: "8907368"
 ## <a name="confirming-purchase-orders"></a>确认采购订单
 状态为 **已审批** 的采购订单被确认前可能经过其他步骤。 例如，您可能必须将采购查询发送给供应商以询问价格、折扣或交货日期。 在这种情况下，您可以通过使用 **购买查询** 操作设置采购订单为 **正在进行外部审查** 状态。
 
-被设置为使用供应商门户的供应商可以在门户审查订单，并可以审核或拒绝它们。 在此审查流程中，采购订单的状态为 **正在进行外部审查**。 可在 Supply Chain Management 中配置供应商门户以便来自供应商的确认将自动确认订单。 或者，您可以在从供应商收到确认后手动确认采购订单。 如果供应商拒绝采购订单，将随拒绝原因和更改建议一起收到拒绝。 在这种情况下，采购订单的状态仍保持为 **正在进行外部审查**。
+被设置为使用供应商协作模块的供应商可以在门户审查订单，并可以审核或拒绝它们。 在此审查流程中，采购订单的状态为 **正在进行外部审查**。 可在 Supply Chain Management 中配置供应商协作模块以便来自供应商的确认将自动确认订单。 或者，您可以在从供应商收到确认后手动确认采购订单。 如果供应商拒绝采购订单，将随拒绝原因和更改建议一起收到拒绝。 在这种情况下，采购订单的状态仍保持为 **正在进行外部审查**。
 
 还有一个选项可以在处理实际的确认之前生成订单的估价确认。 此选项只创建您可以与供应商共享的报表。 它不会创建任何日记帐信息。
 

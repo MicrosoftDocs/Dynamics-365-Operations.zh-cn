@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669479"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016353"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>管理针对对象关系的物料清单模板 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669479"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>将物料清单模板附加到某一服务对象
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  双击您要将物料清单模板附加到某一对象关系的服务协议。
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669479"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>从服务对象删除服务物料清单
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  双击您要从某一对象关系删除服务物料清单的服务协议。
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669479"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>将服务物料清单历史记录从一个服务协议移到另一个服务协议
 
-1.  单击 **服务管理** \> **常用** \> **服务协议** \> **服务协议**。
+1.  单击 **服务管理** \> **服务协议** \> **服务协议**。
 
 2.  双击从协议服务移动的服务物料清单。
 

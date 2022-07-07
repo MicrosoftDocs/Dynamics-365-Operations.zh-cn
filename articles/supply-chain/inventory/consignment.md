@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872027"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014900"
 ---
 # <a name="set-up-consignment"></a>设置托运
 
@@ -84,7 +84,7 @@ USMF 执行其他定期流程：
 - **从托运库存接收的产品** - 显示在所有权更改流程中进行物料收货更新的物料和数量信息。
 - **现有托运库存** - 显示预期交货及在客户站点已经实际可用的托运物料的信息。
 
-有关设置供应商使用供应商协作的详细信息，请参阅[供应商门户用户安全性](../procurement/configure-security-vendor-portal-users.md)。
+有关设置供应商使用供应商协作的详细信息，请参阅[管理供应商协作用户](../procurement/manage-vendor-collaboration-users.md)。
 
 ## <a name="inventory-owners"></a>库存所有者
 

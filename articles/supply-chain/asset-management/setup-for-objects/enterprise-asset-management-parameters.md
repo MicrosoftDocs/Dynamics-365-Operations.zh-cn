@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870802"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015803"
 ---
 # <a name="asset-management-parameters"></a>资产管理参数
 
@@ -37,7 +37,7 @@ ms.locfileid: "8870802"
 
 - **默认功能位置** 是标准功能位置，这是新建资产时自动为资产选择的位置。  
 - 在 **标准日历** 字段中，选择要用于计算资产 KPI 的日历（以免不为资产选择任何资源）。  
-- 在 **视图** 字段中，选择您打开 **资产视图**（**资产管理** > **常用** > **资产** > **资产视图**）时显示的标准视图。
+- 在 **视图** 字段中，选择您打开 **资产视图**（**资产管理** > **资产** > **资产视图**）时显示的标准视图。
 - **默认请求类型** 是标准维护请求类型，这是在您新建请求时自动选择的类型。  
 - 对作业类型的预测存储在 **预测项目** 字段中选择的项目内。 将在预测项目中为每个作业类型自动创建一个新活动。 然后将对作业类型的预测存储在预测项目中。  
 - 在 **模型** 字段中，选择对作业类型和工作订单预测使用的预测模型。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882712"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017107"
 ---
 # <a name="asset-view"></a>资产视图
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882712"
 
 本文介绍资产管理中的资产视图。 **资产视图** 页以树视图显示有效资产和功能位置。 因此，您可以轻松获取资产与功能位置之间的关系的概览。 此外，还可以查看有关功能位置、资产和相关物料清单 (BOM) 的详细信息。 还可以快速获取与资产有关的有效维护请求和工作订单的概览。
 
-1. 选择 **资产管理** \> **常用** \> **资产** \> **资产视图**。
+1. 选择 **资产管理** \> **资产** \> **资产视图**。
 2. 若要更改页面上显示的视图，请在 **视图** 字段中选择一个新值。
 
     > [!NOTE]

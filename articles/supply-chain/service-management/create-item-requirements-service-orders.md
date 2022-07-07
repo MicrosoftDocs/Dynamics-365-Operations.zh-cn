@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888403"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016940"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>为服务订单创建物料需求
 
@@ -34,14 +34,14 @@ ms.locfileid: "8888403"
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>为服务订单创建物料需求
 
-1. 转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1. 转到 **服务管理** \> **服务订单** \> **服务订单**。
 1. 选择需要创建物料需求的服务订单。
 1. 在 **操作窗格** 中的 **发货** 选项卡上选择 **物料需求**。
 1. 在 **物料需求** 窗体中输入所需物料的信息。 有关特定字段的更多信息，请参阅[物料需求（窗体）](https://technet.microsoft.com/library/aa552021\(v=ax.60\))。
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>为服务协议创建物料需求
 
-1. 转到 **服务管理** \> **通用** \> **服务协议** \> **服务协议**。
+1. 转到 **服务管理** \> **服务协议** \> **服务协议**。
 1. 打开需要创建物料需求的服务协议。
 1. 在 **行** 快速选项卡上，选择 **添加** 创建新行。
 1. 在 **交易记录类型** 字段中选择 **物料**。

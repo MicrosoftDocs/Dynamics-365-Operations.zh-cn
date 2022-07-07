@@ -1,8 +1,8 @@
 ---
-title: 为 Dynamics 365 Commerce 评估环境配置可选功能
-description: 本文说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
+title: 为 Dynamics 365 Commerce 沙盒环境配置可选功能
+description: 本文说明如何为 Microsoft Dynamics 365 Commerce 沙盒环境配置可选功能。
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861906"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013230"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>为 Dynamics 365 Commerce 评估环境配置可选功能
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>为 Dynamics 365 Commerce 沙盒环境配置可选功能
 
 [!include [banner](includes/banner.md)]
 
-本文说明如何为 Microsoft Dynamics 365 Commerce 评估环境配置可选功能。
+本文说明如何为 Microsoft Dynamics 365 Commerce 沙盒环境配置可选功能。
 
 ## <a name="prerequisites"></a>先决条件
 
-如果要评估交易电子邮件功能，必须满足以下先决条件：
+如果要演示交易电子邮件功能，必须满足以下先决条件：
 
-- 您有可用的电子邮件服务器（简单邮件传输协议 \[SMTP\] 服务器），可从 Microsoft Azure 订阅（在其中预配了评估环境）使用该服务器。
+- 您有可用的电子邮件服务器（简单邮件传输协议 \[SMTP\] 服务器），可从 Microsoft Azure 订阅（在其中预配了沙盒环境）使用该服务器。
 - 您有该服务器的完全限定域名 (FQDN)/IP 地址、SMTP 端口号和身份验证详细信息。
 
 ## <a name="configure-the-image-back-end"></a>配置图像后端
@@ -39,10 +39,10 @@ ms.locfileid: "8861906"
 ### <a name="find-your-media-base-url"></a>查找您的媒体基 URL
 
 > [!NOTE]
-> 您必须先完成[在 Commerce 中设置您的站点](cpe-post-provisioning.md#set-up-your-site-in-commerce)中的步骤，然后才能完成此过程。
+> 您必须先完成[在 Commerce 中设置您的站点](cpe-post-provisioning.md#set-up-your-e-commerce-sites)中的步骤，然后才能完成此过程。
 
 1. 使用您在预配期间初始化电子商务时记下的 URL 登录 Commerce 站点构建器（请参阅[初始化电子商务](provisioning-guide.md#initialize-e-commerce)）。
-1. 打开 **Fabrikam** 站点。
+1. 打开您要使用的 **Fabrikam**、**Adventure Works** 或 **Adventure Works Business** 站点。
 1. 在左侧菜单中，选择 **媒体库**。
 1. 选择任何单个图像资产。
 1. 在右侧的属性检查器中，找到 **公共 URL** 属性。 此值是一个 URL。 下面是一个示例：
@@ -98,9 +98,9 @@ ms.locfileid: "8861906"
 
 ## <a name="customize-email-templates"></a>自定义电子邮件模板
 
-您可能希望自定义电子邮件模板，让它们使用不同的图像。 或者，您可能想要更新模板中的链接，使其转到您的评估环境。 此过程说明如何下载默认模板，自定义默认模板和更新系统中的模板。
+您可能希望自定义电子邮件模板，让它们使用不同的图像。 或者，您可能想要更新模板中的链接，使其转到您的沙盒环境。 此过程说明如何下载默认模板，自定义默认模板和更新系统中的模板。
 
-1. 在 Web 浏览器中，将 [Microsoft Dynamics 365 Commerce 评估默认电子邮件模板 zip 文件](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip)下载到本地计算机。 此文件包含以下 HTML 文档：
+1. 在 Web 浏览器中，将 [Microsoft Dynamics 365 Commerce 演示默认电子邮件模板 zip 文件](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip)下载到本地计算机。 此文件包含以下 HTML 文档：
 
     - 订单确认模板
     - 颁发礼品卡模板
@@ -167,15 +167,11 @@ ms.locfileid: "8861906"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Dynamics 365 Commerce 评估环境概览](cpe-overview.md)
+[配置 Dynamics 365 Commerce 沙盒环境](provisioning-guide.md)
 
-[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)
+[配置 Dynamics 365 Commerce 沙盒环境](cpe-post-provisioning.md)
 
-[配置 Dynamics 365 Commerce 评估环境](cpe-post-provisioning.md)
-
-[在 Dynamics 365 Commerce 评估环境中配置 BOPIS](cpe-bopis.md)
-
-[Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
+[在 Dynamics 365 Commerce 沙盒环境中配置 BOPIS](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

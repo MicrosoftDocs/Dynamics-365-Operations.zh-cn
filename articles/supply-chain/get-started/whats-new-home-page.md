@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18d73550ed3b9546102f719530e05a29aeb6f3fa
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893430"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022509"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的新增功能或更改
 
@@ -32,7 +32,7 @@ ms.locfileid: "8893430"
 | 版本 | 内部版本号 | 自动更新可用性 | 了解详细信息 |
 |---|---|---|---|
 | 10.0.28 | 10.0.1264 | 2022 年 7 月 | [Dynamics 365 Supply Chain Management 10.0.28 预览](whats-new-scm-10-0-28.md) |
-| 10.0.27 | 10.0.1227 | 2022 年 7 月 | [Dynamics 365 Supply Chain Management 10.0.27 预览](whats-new-scm-10-0-27.md) |
+| 10.0.27 | 10.0.1227 | 2022 年 7 月 | [Dynamics 365 Supply Chain Management 10.0.27 新增功能或更改](whats-new-scm-10-0-27.md) |
 | 10.0.26 | 10.0.1192 | 2022 年 5 月 | [Dynamics 365 Supply Chain Management 10.0.26 新增功能或更改](whats-new-scm-10-0-26.md) |
 | 10.0.25 | 10.0.1149 | 2022 年 4 月 | [Dynamics 365 Supply Chain Management 10.0.25 新增功能或更改](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022 年 2 月 | [Dynamics 365 Supply Chain Management 10.0.24 新增功能或更改](whats-new-scm-10-0-24.md) |

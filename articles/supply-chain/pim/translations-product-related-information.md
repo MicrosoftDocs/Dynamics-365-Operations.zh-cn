@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850545"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015397"
 ---
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 
@@ -43,20 +43,20 @@ ms.locfileid: "8850545"
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>如何创建转换与产品相关的信息的转换？
 按照以下步骤创产品转换：
-1.  单击 **产品信息管理** &gt; **通用** &gt; **已发布产品**。
+1.  单击 **产品信息管理** &gt; **产品** &gt; **已发布产品**。
 2.  选择产品，在“操作窗格”的 **语言** 组，单击 **翻译**。
 3.  在 **文本翻译** 页面的 **语言** 字段选择语言。 若要添加更多的语言，请展开 **语言** 字段，然后单击 **确定**。
 4.  在 **翻译文本** 组中的 **描述** 和 **产品名称** 字段中输入翻译。
 
 按照以下步骤创产品属性的转换：
-1.  单击 **产品信息管理** &gt; **通用** &gt; **已发布产品**。
+1.  单击 **产品信息管理** &gt; **产品** &gt; **已发布产品**。
 2.  在 **设置** 下单击 **属性**，然后再单击 **属性**。
 3.  在 **属性** 页面，单击 **翻译**。
 4.  在 **文本翻译** 页面的 **语言** 字段选择语言。 若要添加更多的语言，请展开 **语言** 字段，然后单击 **确定**。
 5.  在 **翻译文本** 组中的 **描述**、**友好名称** 和 **帮助文本** 字段中输入翻译。
 
 按照以下步骤创产品维度值的转换：
-1.  单击 **产品信息管理** &gt; **通用** &gt; **已发布产品**。
+1.  单击 **产品信息管理** &gt; **产品** &gt; **已发布产品**。
 2.  选择产品，然后单击 **产品维度**。
 3.  选择产品维度的一个链接：**配置**，**尺寸**，**颜色** 或 **样式**。
 4.  选择一个维度值，然后单击 **翻译**。

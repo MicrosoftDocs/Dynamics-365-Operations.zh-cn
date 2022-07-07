@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677077"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017231"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>退货成本价和退货批次 ID        
 
@@ -38,7 +38,7 @@ ms.locfileid: "8677077"
 
 默认情况下，当您将物料添加到退货单时，该物料以当前成本价返回到库存。 若要指定不同的退货成本价，请执行以下步骤。
 
-1.  单击 **销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。
+1.  单击 **销售和市场营销** \> **销售退货** \> **所有退货单**。
 
 2.  在 **操作窗格** 中的 **新建** 组中，单击 **退货单**。
 
@@ -54,7 +54,7 @@ ms.locfileid: "8677077"
 
 这是用于创建退货行的首选的方法。 若要在您将产品销售给客户时使用产品的成本，创建退货单并指定销售行到退货。
 
-1.  单击 **销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。
+1.  单击 **销售和市场营销** \> **销售退货** \> **所有退货单**。
 
 2.  在 **操作窗格** 中的 **新建** 组中，单击 **退货单**。
 

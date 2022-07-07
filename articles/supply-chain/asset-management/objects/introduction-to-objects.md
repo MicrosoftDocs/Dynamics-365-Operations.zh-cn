@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874179"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015977"
 ---
 # <a name="introduction-to-assets"></a>资产简介
 
@@ -36,7 +36,7 @@ ms.locfileid: "8874179"
 
 ## <a name="all-assets"></a>所有资产
 
-选择 **资产管理** \> **常用** \> **资产** \> **所有资产**。 **所有资产** 列表页显示所有资产和与其有关的部分信息。 若要仅查看有效资产，请选择 **有效资产**。 若要仅查看在您作为维护工人关联到的功能位置安装的资产，请选择 **我的有效资产**。 （此项关联在 **工人** 页设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
+选择 **资产管理** \> **资产** \> **所有资产**。 **所有资产** 列表页显示所有资产和与其有关的部分信息。 若要仅查看有效资产，请选择 **有效资产**。 若要仅查看在您作为维护工人关联到的功能位置安装的资产，请选择 **我的有效资产**。 （此项关联在 **工人** 页设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
 
 在 **所有资产** 网格视图中的 **资产** 列选择链接可查看所选记录的详细信息。 若要编辑此记录，请选择 **编辑** 按钮。 这个详细信息视图显示与资产有关的详细信息。 右侧的 **相关信息** 窗格中包含与资产有关的更多信息。 展开该窗格将显示所选资产的相关信息。
 

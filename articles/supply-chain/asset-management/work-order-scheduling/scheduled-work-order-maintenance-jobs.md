@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849610"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017020"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>计划的工作订单维护作业
 
@@ -32,7 +32,7 @@ ms.locfileid: "8849610"
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>查看计划的工作订单维护作业
 
-1. 单击 **资产管理** > **常用** > **工作订单** > **计划的工作订单维护作业**。 您将看到其工作订单生命周期状态设置为“已计划”或“进行中”的所有工作订单的列表。
+1. 单击 **资产管理** > **工作订单** > **计划的工作订单维护作业**。 您将看到其工作订单生命周期状态设置为“已计划”或“进行中”的所有工作订单的列表。
 
 2. 可为该列表排序，例如，按维护工人排序。 也可以使用筛选器将该列表限制为显示为特定资源或维护工人分配的工作订单。
 

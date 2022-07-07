@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edb31515f890a08b6cabae42820e5cdcbe1eaeae
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 94bcbdb0ea136bae2bcb8fa8ef0bd9304e772b49
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677301"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014871"
 ---
 # <a name="change-the-service-order-stage"></a>更改服务订单阶段 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8677301"
 
 按照以下步骤将服务订单移动到服务工作流中的下一阶段或恢复到上一阶段。
 
-1.  单击 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1.  单击 **服务管理** \> **服务订单** \> **服务订单**。
 
 2.  选择服务订单，然后单击 **派遣** 选项卡。
 

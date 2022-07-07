@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882393"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015163"
 ---
 # <a name="service-order-item-requirements"></a>服务订单物料需求
 
@@ -36,7 +36,7 @@ ms.locfileid: "8882393"
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>从服务订单查看物料需求
 
-1. 转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1. 转到 **服务管理** \> **服务订单** \> **服务订单**。
 1. 选择 **发货**，然后选择 **物料需求** 打开 **物料需求** 窗体。
 1. 选择 **项目** 选项卡，然后检查 **服务订单** 字段以查看物料需求的服务订单。
 
@@ -44,13 +44,13 @@ ms.locfileid: "8882393"
 
 如果针对某一服务订单创建物料需求，则不能删除该服务订单。 您必须首先删除物料需求，然后才能删除该服务订单。
 
-1. 转到 **服务管理** \> **通用** \> **服务订单** \> **服务订单**。
+1. 转到 **服务管理** \> **服务订单** \> **服务订单**。
 1. 选择 **发货**，然后选择 **物料需求** 打开 **物料需求** 窗体。 此窗体将列出在该服务订单上创建的物料需求。
 1. 选择要删除的物料需求，然后选择 **删除**。
 
 –或者–
 
-1. 转到 **项目管理与会计** \> **通用** \> **项目** \> **所有项目**。
+1. 转到 **项目管理与核算** \> **项目** \> **全部项目**。
 1. 打开具有创建了物料需求的服务订单的项目。
 1. 在 **项目** 窗体中，在右边的窗格，选择 **物料需求** 。 **物料需求** 窗体将打开，窗体中将列出与所选项目相关联的物料需求。
 1. 选择要删除的物料需求，然后选择 **删除**。

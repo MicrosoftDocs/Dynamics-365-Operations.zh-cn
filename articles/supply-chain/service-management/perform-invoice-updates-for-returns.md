@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670879"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014740"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>为退货执行发票更新 
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670879"
 
 ## <a name="post-an-invoice-for-a-return-order"></a>过帐退货单的发票
 
-1.  单击 **应收帐款** \> **通用** \> **销售订单** \> **所有销售订单**。
+1.  单击 **应收帐款** \>  **订单** \> **所有销售订单**。
 
 2.  选择在 **订单类型** 字段中显示的 **退回订单** 的销售订单。
 

@@ -1,8 +1,8 @@
 ---
-title: 配置 Dynamics 365 Commerce 评估环境
-description: 本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
+title: 配置 Dynamics 365 Commerce 沙盒环境
+description: 本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 沙盒环境。
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892322"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013101"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>配置 Dynamics 365 Commerce 评估环境
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>配置 Dynamics 365 Commerce 沙盒环境
 
 [!include [banner](includes/banner.md)]
 
-本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 评估环境。
+本文说明如何在预配后配置 Microsoft Dynamics 365 Commerce 沙盒环境。
 
-请仅在预配了 Commerce 评估环境之后，再完成本文中的过程。 有关如何预配 Commerce 评估环境的信息，请参阅[预配 Commerce 评估环境](provisioning-guide.md)。
+请仅在预配了 Commerce 沙盒环境之后，再完成本文中的过程。 有关如何预配 Commerce 沙盒环境的信息，请参阅[预配 Commerce 沙盒环境](provisioning-guide.md)。
 
-端到端预配 Commerce 评估环境后，必须先完成其他预配后配置步骤，然后才能开始评估环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
+端到端预配 Commerce 沙盒环境后，必须先完成其他预配后配置步骤，然后才能开始使用环境。 要完成这些步骤，您必须使用 Microsoft Dynamics Lifecycle Services (LCS) 和 Dynamics 365 Commerce。
 
 ## <a name="before-you-start"></a>开始之前
 
 1. 登录 [LCS 门户](https://lcs.dynamics.com)。
 1. 转到您的项目。
-1. 在顶级菜单上，选择 **云托管的环境**。
 1. 在列表中选择您的环境。
 1. 在右侧的环境信息中，选择 **登录到环境**。 您将被送到 Commerce headquarters。
-1. 确保选择了右上角的 **USRT** 法人。
-1. 转到 **Commerce 参数 \> 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目，并且值设置为 **true**。 如果缺少此条目，您可以添加此条目，将值设置为 **true**，然后为与您的电子商务网站关联的 Commerce Scale Unit 选择 **渠道数据库 \> 完全数据同步**。
+1. 确保选择了右上角的 **USRT** 法人。 演示数据中已预先配置该法人。
+1. 转到 **Commerce 参数 \> 配置参数**，确保有一个 **ProductSearch.UseAzureSearch** 条目，并且值设置为 **true**。 如果缺少此条目，请添加该条目并将值设置为 **true**。
 1. 转到 **Retail 和 Commerce \> Headquarters 设置 \>  商业调度 \> 初始化 Commerce 调度程序**。 在 **初始化 Commerce 调度程序** 弹出菜单中，将 **删除现有配置** 选项设置为 **是**，然后选择 **确定**。
-1. 要将渠道添加到 Commerce Scale Unit，请转到 **Retail 和 Commerce \> Headquarters 设置 \> Commerce 调度程序 \> 渠道数据库**，然后在左侧窗格中选择 Commerce Scale Unit。 在 **零售渠道** 快速选项卡上，添加 **AW 在线商店**、**AW Business 在线商店** 和 **Fabrikam 扩展在线商店** 渠道。 （可选）如果您将使用 POS（例如 **西雅图**、**旧金山** 和 **圣荷西**），也可以添加零售商店。
+1. 要使商店和电子商务渠道正常工作，必须将它们添加到 Commerce Scale Unit 中。 转到 **Retail 和 Commerce \> Headquarters 设置 \> Commerce 调度程序 \> 渠道数据库**，然后在左侧窗格中选择 Commerce Scale Unit。 在 **零售渠道** 快速选项卡上，如果您打算使用这些电子渠道，请添加 **AW 在线商店**、**AW Business 在线商店** 和 **Fabrikam 扩展在线商店** 渠道。 （可选）如果您将使用销售点 (POS)（例如 **西雅图**、**旧金山** 和/或 **圣荷西**），也可以添加零售商店。
+1. 若要确保所有更改都与渠道数据库同步，请对 Commerce Scale Unit 选择 **渠道数据库 \> 完全数据同步**。
 
 在 Commerce headquarters 进行预配后活动期间，请确保 **USRT** 法人始终处于选中状态。
 
@@ -52,7 +52,7 @@ ms.locfileid: "8892322"
 要将工作人员与您的标识关联，请在 Commerce headquarters 中执行以下步骤。
 
 1. 使用左侧菜单转到 **模块 \> Retail 和 Commerce \> 员工 \> 工作人员**。
-1. 在列表中，找到并选择以下记录：**000713 - Andrew Collette**。
+1. 在列表中，找到并选择以下记录：**000713 - Andrew Collette**。 此示例用户与将在下一节中使用的旧金山商店关联。
 1. 在“操作窗格”上，选择 **Commerce**。
 1. 选择 **关联现有标识**。
 1. 在（**使用电子邮件搜索** 右侧的）**电子邮件** 字段中，输入您的电子邮件地址。
@@ -76,24 +76,24 @@ ms.locfileid: "8892322"
 1. 选择 **激活**。 您已注销并进入 POS 登录页面。
 1. 现在可使用操作员 ID **000713** 和密码 **123** 登录到云 POS 体验。
 
-## <a name="set-up-your-site-in-commerce"></a>在 Commerce 中设置站点
+## <a name="set-up-your-e-commerce-sites"></a>设置电子商务站点
 
-要开始在 Commerce 中设置评估站点，请按照下列步骤操作。
+有以下三个可用的电子商务演示站点：Fabrikam、Adventure Works 和 Adventure Works Business。 按照以下步骤配置每个演示站点。
 
 1. 使用您在预配期间初始化电子商务时记下的 URL 登录站点构建器（请参阅[初始化电子商务](provisioning-guide.md#initialize-e-commerce)）。
-1. 选择 **Fabrikam** 站点打开站点设置对话框。
-1. 选择初始化电子商务时输入的域。
-1. 选择 **Fabrikam 扩展的在线商店** 作为默认渠道。 （请务必选择 **扩展的** 在线商店。）
+1. 选择站点（**Fabrikam**、**Adventure Works** 或 **Adventure Works Business**），以打开站点设置对话框。
+1. 选择初始化 Commerce 时输入的域。
+1. 在 Headquarters 中，选择与默认渠道对应的预配置的在线商店渠道（**Fabrikam 扩展在线商店**、**AW 在线商店** 或 **AW Business 在线商店**）。
 1. 选择 **en-us** 作为默认语言。
-1. 保留 **路径** 的值不变。
+1. 配置路径字段。 对于单个站点，这可以留空，但如果对多个站点使用相同的域名，则需要进行配置。 例如，如果域名是 `https://www.constoso.com`，则可以对 (`https://contoso.com`) 使用空白路径，然后对 Adventure Works (`https://contoso.com/aw`) 使用“aw”，对 Adventure Works 商业站点 (`https://contoso.com/awbusiness`) 使用“awbusiness”。
 1. 选择 **确定**。 将出现站点上的页面的列表。
-1. 对于 **AdventureWorks** 站点（映射到 **AW 在线商店** 渠道）和 **AdventureWorks Business** 站点（映射到 **AW Business 在线商店** 渠道），请重复步骤 2-7。 如果 Fabrikam 站点的 **路径** 字段为空，则必须为两个 AdventureWorks 站点（例如“aw”和“awbusiness”）添加路径。
+1. （可选）重复步骤 2-7 以根据需要配置其他演示站点。
 
 ## <a name="enable-jobs"></a>启用作业
 
 要在 Commerce 中启用作业，请执行以下步骤。
 
-1. 登录到环境（总部）。
+1. 登录 Headquarters 环境。
 1. 使用左侧菜单转到 **Retail 和 Commerce \> 查询和报表 \> 批处理作业**。
 
     必须为以下每个作业完成此过程的其余步骤：
@@ -146,12 +146,11 @@ ms.locfileid: "8892322"
 
 ## <a name="next-steps"></a>后续步骤
 
-在预配和配置步骤完成之后，您就可以开始使用评估环境了。 使用 Commerce 站点构建器 URL 可以转到创作体验。 使用 Commerce 站点 URL 可以转到零售客户站点体验。
+在预配和配置步骤完成之后，您就可以开始使用沙盒环境了。 使用 Commerce 站点构建器 URL 可以转到创作体验。 使用 Commerce 站点 URL 可以转到零售客户站点体验。
 
-要为 Commerce 评估环境配置可选功能，请参阅[为 Commerce 评估环境配置可选功能](cpe-optional-features.md)。
+要为 Commerce 沙盒环境配置可选功能，请参阅[为 Commerce 沙盒环境配置可选功能](cpe-optional-features.md)。
 
-> [!NOTE]
-> Commerce 评估环境随预先加载的 Azure Active Directory (Azure AD) 企业对消费者 (B2C) 租户一起提供，以用于演示目的。 评估环境不需要配置自己的 Azure AD B2C 租户。 但是，如果您要配置评估环境以使用自己的 Azure AD B2C 租户，请确保通过 Azure 门户在 Azure AD B2C 应用程序中将 ``https://login.commerce.dynamics.com/_msdyn365/authresp`` 添加为回复 URL。
+要使电子商务用户能够登录到电子商务站点，需要进行其他配置，以通过 Azure Active Directory 企业对消费者 (B2C) 启用站点身份验证。 有关说明，请参阅[在 Commerce 中设置 B2C 租户](set-up-b2c-tenant.md)。
 
 ## <a name="troubleshooting"></a>疑难解答
 
@@ -177,15 +176,11 @@ Commerce 版本 10.0.26 及更早版本中提供的演示数据存在 bug，其�
 
 ## <a name="additional-resources"></a>其他资源
 
-[Dynamics 365 Commerce 评估环境概览](cpe-overview.md)
+[配置 Dynamics 365 Commerce 沙盒环境](provisioning-guide.md)
 
-[预配 Dynamics 365 Commerce 评估环境](provisioning-guide.md)
+[为 Dynamics 365 Commerce 沙盒环境配置可选功能](cpe-optional-features.md)
 
-[为 Dynamics 365 Commerce 评估环境配置可选功能](cpe-optional-features.md)
-
-[在 Dynamics 365 Commerce 评估环境中配置 BOPIS](cpe-bopis.md)
-
-[Dynamics 365 Commerce 评估环境常见问题](cpe-faq.md)
+[在 Dynamics 365 Commerce 沙盒环境中配置 BOPIS](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

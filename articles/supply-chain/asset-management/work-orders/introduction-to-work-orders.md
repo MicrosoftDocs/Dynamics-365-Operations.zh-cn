@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902822"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016701"
 ---
 # <a name="introduction-to-work-orders"></a>工作订单简介
 
@@ -47,15 +47,15 @@ ms.locfileid: "8902822"
 
 ## <a name="all-work-orders"></a>所有工作订单
 
-选择 **资产管理** > **常用** > **工作订单** > **所有工作订单** 打开 **所有工作订单** 列表页。 此页显示所有工作订单和与每个工作订单有关的一些信息。
+选择 **资产管理** > **工作订单** > **所有工作订单** 以打开 **所有工作订单** 列表页。 此页显示所有工作订单和与每个工作订单有关的一些信息。
 
 下图显示了 **所有工作订单** 列表页的示例。
 
 ![图 1.](media/01-work-orders.png)
 
-要查看只有有效工作订单的列表，请选择 **资产管理** > **常用** > **工作订单** > **有效工作订单**。 
+要查看只有有效工作订单的列表，请选择 **资产管理** > **工作订单** > **有效工作订单**。 
 
-要查看其中包含在功能位置安装的资产，并且您作为工作人员关联到的工作订单作业的列表，请选择 **资产管理** > **常用** > **工作订单** > **我的功能位置工作订单维护作业**。 （工作人员和功能位置之间的关系在 **工作人员** 页面设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
+要查看其中包含在功能位置安装的资产，并且您作为工作人员关联到的工作订单作业的列表，请选择 **资产管理** > **工作订单** > **我的功能位置工作订单维护作业**。 （工作人员和功能位置之间的关系在 **工作人员** 页面设置。 有关详细信息，请参阅[维护工人和工人组](../setup-for-objects/workers-and-worker-groups.md)。）
 
 您可以通过以下几种方式使用 **所有工作订单** 页面：
 

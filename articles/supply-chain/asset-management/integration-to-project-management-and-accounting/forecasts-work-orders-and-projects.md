@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880442"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016788"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>预测、工作订单和项目
 
@@ -60,7 +60,7 @@ ms.locfileid: "8880442"
 
 ![图 1.](media/01-integration-to-pma.png)
 
-工作订单作业中的项目 ID 和关联的活动编号的用途是在 **项目管理与核算** 模块中跟踪与工作订单作业有关的成本和在其中选择的资产。 （若要查看项目 ID 和活动编号，请选择 **资产管理** > **常用** > **工作订单** > **所有工作订单**，然后选择工作订单。 **行详细信息** 快速选项卡上的 **项目 ID** 字段显示项目 ID，**活动编号** 字段显示活动编号。）有关资产管理中的成本控制的详细信息，请参阅[成本和日期控制](../controlling-and-reporting/cost-and-date-control.md)。
+工作订单作业中的项目 ID 和关联的活动编号的用途是在 **项目管理与核算** 模块中跟踪与工作订单作业有关的成本和在其中选择的资产。 （若要查看项目 ID 和活动编号，请选择 **资产管理** > **工作订单** > **所有工作订单**，然后选择工作订单。 **行详细信息** 快速选项卡上的 **项目 ID** 字段显示项目 ID，**活动编号** 字段显示活动编号。）有关资产管理中的成本控制的详细信息，请参阅[成本和日期控制](../controlling-and-reporting/cost-and-date-control.md)。
 
 下图显示工作订单项目和关联的项目活动的图形概览。
 
