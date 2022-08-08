@@ -1,7 +1,7 @@
 ---
 title: 现金和银行管理主页
 description: 您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。
-author: kfend
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: kfend
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710716"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151960"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -89,7 +89,7 @@ ms.locfileid: "8710716"
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials) 上查找相关意见、资讯及其他信息。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 和 [Microsoft Dynamics 365 财务和运营 - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials) 上查找相关意见、资讯及其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
@@ -102,3 +102,4 @@ ms.locfileid: "8710716"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866528"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067673"
 ---
 # <a name="globalization-resources"></a>全球化资源
 
@@ -133,3 +133,4 @@ ms.locfileid: "8866528"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

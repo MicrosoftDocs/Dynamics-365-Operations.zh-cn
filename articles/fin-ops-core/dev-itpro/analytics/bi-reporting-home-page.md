@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906624"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206466"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>利用 Power BI 主页进行报告和分析
 
@@ -29,7 +29,7 @@ ms.locfileid: "8906624"
 
 本文为您指出了各种资源，您可使用这些资源来详细了解可用的商业智能 (BI) 和报告工具。
 
-## <a name="get-started"></a>入门
+## <a name="get-started"></a>开始使用
 - [信息访问和报告](information-access-reporting.md)
 - [技术交流：报告选项](https://www.youtube.com/watch?v=NzZONjKs5xA)（视频）
 - [财务和运营应用：Power BI Analytics 和 Reporting Services 博客](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)（博客）

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879067"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066048"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management 主页
 
@@ -56,16 +56,16 @@ ms.locfileid: "8879067"
 
 ## <a name="videos"></a>视频
 
-这段短视频概述了 Microsoft Dynamics 365 for Finance and Operations 8.0 版（2018 年 4 月）新增的供应链管理功能。
+这段短视频概述了 Microsoft Dynamics 365 Finance 8.0 版（2018 年 4 月）新增的供应链管理功能。
 
 - [在 Field Service 和财务和运营应用之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
 
-这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。
+这些短视频概述了 Microsoft Dynamics 365 Finance, Enterprise edition 7.3（2017 年 12 月）新增的供应链管理功能。
 
 - [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [使用仓库模板复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-这些短视频概述了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）新增的供应链管理功能。
+这些短视频概述了 Microsoft Dynamics 365 Finance, Enterprise edition（2017 年 7 月）新增的供应链管理功能。
 
 - [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 - [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
@@ -106,3 +106,4 @@ ms.locfileid: "8879067"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

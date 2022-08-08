@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: 针对版本 10.0.27 的平台更新（2022 年 7 月）
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: 针对版本 10.0.26 的平台更新（2022 年 5 月）
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -586,7 +584,7 @@
                   href: dev-tools/models.md
                 - name: 财务和运营应用项目类型
                   href: dev-tools/projects.md
-                - name: Visual Studio Tools 加载项
+                - name: Visual Studio 工具加载项
                   href: dev-tools/developer-tools-add-ins.md
                 - name: 更新 Visual Studio 开发工具
                   href: dev-tools/update-development-tools.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps 扩展教程（公开预览版）
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio 扩展（专用预览版）
+                - name: Visual Studio 扩展（公开预览版）
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Visual Studio Code 扩展（公开预览版）
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: 从 AX 2009 迁移数据
               items:
-                - name: 将数据从 AX 2009 迁移至财务和运营应用
+                - name: 将数据从 AX 2009 迁移至财务和运营
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 迁移 - 安装数据迁移工具
                   href: migration-upgrade/install-dmt.md
